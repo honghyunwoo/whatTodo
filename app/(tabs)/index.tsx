@@ -1,32 +1,35 @@
-import { View, Text, StyleSheet } from 'react-native';
+import React, { useState } from 'react';
+import { StyleSheet, View } from 'react-native';
+import { FAB } from 'react-native-paper';
 
+import { AddTaskModal, TaskList } from '@/components/todo';
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 
 export default function TodoScreen() {
+  const [modalVisible, setModalVisible] = useState(false);
+
+  const openModal = () => setModalVisible(true);
+  const closeModal = () => setModalVisible(false);
+
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Todo</Text>
-      <Text style={styles.subtitle}>Coming soon...</Text>
+      <TaskList />
+      <FAB icon="plus" style={styles.fab} onPress={openModal} />
+      <AddTaskModal visible={modalVisible} onDismiss={closeModal} />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
     backgroundColor: COLORS.background,
+    flex: 1,
   },
-  title: {
-    fontSize: SIZES.fontSize.xxl,
-    fontWeight: 'bold',
-    color: COLORS.text,
-  },
-  subtitle: {
-    fontSize: SIZES.fontSize.md,
-    color: COLORS.textSecondary,
-    marginTop: SIZES.spacing.sm,
+  fab: {
+    backgroundColor: COLORS.primary,
+    bottom: SIZES.spacing.lg,
+    position: 'absolute',
+    right: SIZES.spacing.lg,
   },
 });
