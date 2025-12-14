@@ -1,0 +1,122 @@
+{
+  "id": "week-5-listening",
+  "weekId": "week-5",
+  "type": "listening",
+  "level": "A2",
+  "title": "A Day at Work",
+  "description": "Listen to a conversation about daily work routines.",
+
+  "audio": {
+    "text": "A: Hi Tom! How's your day going?\nB: Pretty busy, actually. I had three meetings this morning.\nA: That sounds tiring. What time did you start work?\nB: I usually start at 9, but today I came in early at 8 to prepare for a presentation.\nA: Do you often have to prepare presentations?\nB: Not really. Maybe once or twice a month. But I always have a lot of emails to answer.\nA: Same here! I spend at least an hour on emails every morning.\nB: By the way, are you free for lunch? I usually eat at my desk, but I want to take a proper break today.\nA: Sure! Let's go to that new cafe downstairs. I finish my current task at 12:30.\nB: Perfect. See you then!",
+    "duration": 75,
+    "speed": 0.8,
+    "speakers": ["A (Colleague)", "B (Tom)"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "I had three meetings this morning.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "d2",
+        "text": "I usually start at 9, but today I came in early.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d3",
+        "text": "I spend at least an hour on emails every morning.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d4",
+        "text": "I usually eat at my desk, but I want to take a proper break today.",
+        "difficulty": "hard"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "How many meetings did Tom have this morning?",
+      "options": ["Two", "Three", "Four", "Five"],
+      "answer": "Three",
+      "explanation": "Tom said 'I had three meetings this morning.'"
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "What time does Tom usually start work?",
+      "options": ["8 a.m.", "9 a.m.", "10 a.m.", "8:30 a.m."],
+      "answer": "9 a.m.",
+      "explanation": "Tom says 'I usually start at 9.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "Why did Tom come in early today?",
+      "options": ["For a meeting", "To prepare for a presentation", "To answer emails", "For lunch"],
+      "answer": "To prepare for a presentation",
+      "explanation": "Tom says 'today I came in early at 8 to prepare for a presentation.'"
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "question": "Tom prepares presentations every day.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Tom says 'Maybe once or twice a month.'"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "How long does the colleague spend on emails every morning?",
+      "options": ["30 minutes", "At least an hour", "Two hours", "15 minutes"],
+      "answer": "At least an hour",
+      "explanation": "The colleague says 'I spend at least an hour on emails every morning.'"
+    },
+    {
+      "id": "q6",
+      "type": "true_false",
+      "question": "Tom usually takes lunch breaks at a cafe.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Tom says 'I usually eat at my desk.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "When will they meet for lunch?",
+      "options": ["12:00", "12:30", "1:00", "11:30"],
+      "answer": "12:30",
+      "explanation": "The colleague says 'I finish my current task at 12:30.'"
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "Where will they have lunch?",
+      "options": ["At their desks", "The new cafe downstairs", "A restaurant outside", "The company cafeteria"],
+      "answer": "The new cafe downstairs",
+      "explanation": "The colleague suggests 'Let's go to that new cafe downstairs.'"
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "question": "What does Tom always have a lot of to answer?",
+      "answer": "emails",
+      "explanation": "Tom says 'I always have a lot of emails to answer.'"
+    },
+    {
+      "id": "q10",
+      "type": "true_false",
+      "question": "Tom wants to take a proper break today.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Tom says 'I want to take a proper break today.'"
+    }
+  ]
+}

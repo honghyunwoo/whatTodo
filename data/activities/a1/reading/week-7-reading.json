@@ -1,0 +1,255 @@
+{
+  "id": "week-7-reading",
+  "weekId": "week-7",
+  "type": "reading",
+  "level": "B2",
+  "title": "미래의 삶과 기술",
+  "description": "미래의 생활과 기술 발전에 대한 글을 읽고 이해합니다.",
+
+  "passage": {
+    "text": "What will life be like in 2050? Technology is changing our world rapidly, and the future is going to be very different from today.\n\nIn the near future, we are going to see many changes in transportation. Self-driving cars are becoming more common, and experts predict that most people will be using them within the next 20 years. These cars will be safer and more efficient than traditional vehicles. They will reduce traffic accidents and help decrease pollution in cities.\n\nArtificial Intelligence (AI) is also going to play a bigger role in our daily lives. AI assistants are already helping us with simple tasks, but soon they will be doing much more. They will manage our schedules, control our home appliances, and even help doctors diagnose diseases. Many people are excited about these developments, but some are worried about job security.\n\nIn education, virtual reality (VR) is going to transform how students learn. Instead of reading about ancient Rome in a textbook, students will be able to walk through Roman streets and experience history firsthand. This immersive learning will make education more engaging and effective.\n\nClimate change is a serious challenge that we are facing now, and it will continue to affect our future. Scientists are working on new technologies to combat this problem. We are going to need more renewable energy sources like solar and wind power. Many countries are planning to reduce their carbon emissions significantly by 2050.\n\nThe way we work is also changing. More people are working from home now, and this trend is going to continue. Companies are realizing that remote work can be just as productive, and it gives employees more flexibility. In the future, traditional offices might become less common.\n\nWhat about food? Scientists are developing new ways to produce food sustainably. Lab-grown meat is becoming a reality, and vertical farms in cities will help us grow fresh vegetables locally. These innovations will help feed the growing global population.\n\nThe future is full of possibilities, but it also brings challenges. We need to prepare for these changes and make sure that technology serves humanity in positive ways.",
+    "wordCount": 352,
+    "estimatedReadingTime": 7,
+    "audioText": "What will life be like in 2050? Technology is changing our world rapidly, and the future is going to be very different from today. [PAUSE] In the near future, we are going to see many changes in transportation. Self-driving cars are becoming more common, and experts predict that most people will be using them within the next 20 years. These cars will be safer and more efficient than traditional vehicles. They will reduce traffic accidents and help decrease pollution in cities. [PAUSE] Artificial Intelligence (AI) is also going to play a bigger role in our daily lives. AI assistants are already helping us with simple tasks, but soon they will be doing much more. They will manage our schedules, control our home appliances, and even help doctors diagnose diseases. Many people are excited about these developments, but some are worried about job security. [PAUSE] In education, virtual reality (VR) is going to transform how students learn. Instead of reading about ancient Rome in a textbook, students will be able to walk through Roman streets and experience history firsthand. This immersive learning will make education more engaging and effective. [PAUSE] Climate change is a serious challenge that we are facing now, and it will continue to affect our future. Scientists are working on new technologies to combat this problem. We are going to need more renewable energy sources like solar and wind power. Many countries are planning to reduce their carbon emissions significantly by 2050. [PAUSE] The way we work is also changing. More people are working from home now, and this trend is going to continue. Companies are realizing that remote work can be just as productive, and it gives employees more flexibility. In the future, traditional offices might become less common. [PAUSE] What about food? Scientists are developing new ways to produce food sustainably. Lab-grown meat is becoming a reality, and vertical farms in cities will help us grow fresh vegetables locally. These innovations will help feed the growing global population. [PAUSE] The future is full of possibilities, but it also brings challenges. We need to prepare for these changes and make sure that technology serves humanity in positive ways."
+  },
+
+  "vocabulary": [
+    {
+      "word": "self-driving",
+      "meaning": "자율주행의",
+      "lineNumber": 3
+    },
+    {
+      "word": "efficient",
+      "meaning": "효율적인",
+      "lineNumber": 3
+    },
+    {
+      "word": "pollution",
+      "meaning": "오염",
+      "lineNumber": 3
+    },
+    {
+      "word": "Artificial Intelligence",
+      "meaning": "인공지능",
+      "lineNumber": 5
+    },
+    {
+      "word": "diagnose",
+      "meaning": "진단하다",
+      "lineNumber": 5
+    },
+    {
+      "word": "virtual reality",
+      "meaning": "가상현실",
+      "lineNumber": 7
+    },
+    {
+      "word": "immersive",
+      "meaning": "몰입형의",
+      "lineNumber": 7
+    },
+    {
+      "word": "climate change",
+      "meaning": "기후 변화",
+      "lineNumber": 9
+    },
+    {
+      "word": "renewable energy",
+      "meaning": "재생 에너지",
+      "lineNumber": 9
+    },
+    {
+      "word": "carbon emissions",
+      "meaning": "탄소 배출",
+      "lineNumber": 9
+    },
+    {
+      "word": "remote work",
+      "meaning": "원격 근무",
+      "lineNumber": 11
+    },
+    {
+      "word": "flexibility",
+      "meaning": "유연성",
+      "lineNumber": 11
+    },
+    {
+      "word": "sustainably",
+      "meaning": "지속 가능하게",
+      "lineNumber": 13
+    },
+    {
+      "word": "innovations",
+      "meaning": "혁신, 새로운 기술",
+      "lineNumber": 13
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is the main topic of this passage?",
+      "options": [
+        "History of technology",
+        "Future life and technology in 2050",
+        "Current problems",
+        "Education system"
+      ],
+      "answer": "Future life and technology in 2050",
+      "explanation": "이 글은 2050년의 미래 생활과 기술에 대해 다루고 있습니다."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Self-driving cars are going to be more dangerous than traditional cars.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "자율주행차는 기존 차량보다 더 안전할 것이라고 언급되어 있습니다."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "When will most people be using self-driving cars?",
+      "options": [
+        "Within the next 5 years",
+        "Within the next 20 years",
+        "Within the next 50 years",
+        "In 100 years"
+      ],
+      "answer": "Within the next 20 years",
+      "explanation": "전문가들은 향후 20년 내에 대부분의 사람들이 자율주행차를 사용할 것으로 예측합니다."
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What will AI assistants do in the future?",
+      "options": [
+        "Only simple tasks",
+        "Manage schedules and help doctors",
+        "Replace all humans",
+        "Nothing useful"
+      ],
+      "answer": "Manage schedules and help doctors",
+      "explanation": "AI 어시스턴트는 일정 관리, 가전 제어, 질병 진단 도움 등을 할 것입니다."
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Everyone is excited about AI developments.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "많은 사람들이 기대하지만, 일부는 일자리 안정성에 대해 걱정하고 있습니다."
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "How will VR change education?",
+      "options": [
+        "Replace teachers",
+        "Make it more expensive",
+        "Allow students to experience history firsthand",
+        "Remove textbooks completely"
+      ],
+      "answer": "Allow students to experience history firsthand",
+      "explanation": "VR은 학생들이 역사를 직접 체험할 수 있게 해줄 것입니다."
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What is mentioned as a serious challenge?",
+      "options": [
+        "Education",
+        "Climate change",
+        "Transportation",
+        "Food shortage"
+      ],
+      "answer": "Climate change",
+      "explanation": "기후 변화가 심각한 도전 과제로 언급되어 있습니다."
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "What kind of energy will we need more of?",
+      "options": [
+        "Coal and oil",
+        "Nuclear energy",
+        "Solar and wind power",
+        "Natural gas"
+      ],
+      "answer": "Solar and wind power",
+      "explanation": "태양광과 풍력 같은 재생 에너지가 더 필요할 것입니다."
+    },
+    {
+      "id": "q9",
+      "type": "true_false",
+      "question": "More people are working from home now.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "더 많은 사람들이 지금 재택근무를 하고 있으며, 이 추세는 계속될 것입니다."
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What are companies realizing about remote work?",
+      "options": [
+        "It's less productive",
+        "It's just as productive",
+        "It's impossible",
+        "It's too expensive"
+      ],
+      "answer": "It's just as productive",
+      "explanation": "회사들은 원격 근무가 똑같이 생산적일 수 있다는 것을 깨닫고 있습니다."
+    },
+    {
+      "id": "q11",
+      "type": "multiple_choice",
+      "question": "What is lab-grown meat?",
+      "options": [
+        "Meat from farms",
+        "Artificial meat grown in laboratories",
+        "Frozen meat",
+        "Organic meat"
+      ],
+      "answer": "Artificial meat grown in laboratories",
+      "explanation": "실험실에서 배양된 고기는 새로운 식품 생산 방식입니다."
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "Vertical farms will help grow vegetables in cities.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "도시의 수직 농장이 신선한 채소를 현지에서 재배하는 데 도움이 될 것입니다."
+    },
+    {
+      "id": "q13",
+      "type": "multiple_choice",
+      "question": "According to the passage, what should we do about the future?",
+      "options": [
+        "Ignore the changes",
+        "Prepare for changes and use technology positively",
+        "Stop all technology development",
+        "Move to another planet"
+      ],
+      "answer": "Prepare for changes and use technology positively",
+      "explanation": "우리는 변화에 대비하고 기술이 긍정적인 방식으로 인류에 도움이 되도록 해야 합니다."
+    },
+    {
+      "id": "q14",
+      "type": "true_false",
+      "question": "The passage says the future has only positive possibilities.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "미래는 가능성으로 가득하지만 도전 과제도 가져온다고 언급되어 있습니다."
+    },
+    {
+      "id": "q15",
+      "type": "short_answer",
+      "question": "By what year are many countries planning to reduce carbon emissions significantly?",
+      "answer": "2050",
+      "explanation": "많은 국가들이 2050년까지 탄소 배출을 대폭 줄일 계획입니다."
+    }
+  ]
+}

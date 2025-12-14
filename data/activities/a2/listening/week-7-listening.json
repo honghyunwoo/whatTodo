@@ -1,0 +1,122 @@
+{
+  "id": "week-7-listening",
+  "weekId": "week-7",
+  "type": "listening",
+  "level": "A2",
+  "title": "Talking About Hobbies",
+  "description": "Listen to a conversation about hobbies and free time activities.",
+
+  "audio": {
+    "text": "A: So, what do you like to do in your free time, Mina?\nB: I have a few hobbies. I really enjoy photography. I like taking pictures of nature, especially flowers and landscapes.\nA: That sounds interesting! Do you have a good camera?\nB: Yes, I bought one last year. I'm still learning, but I'm getting better. What about you? Do you have any hobbies?\nA: Well, I like playing sports. I play basketball twice a week with my friends.\nB: That's cool! I'm not very good at sports, actually.\nA: I also started learning to play the guitar recently. It's quite difficult, but I enjoy practicing.\nB: Really? I've always wanted to learn an instrument. Is it hard?\nA: It's challenging at first, but there are many online tutorials. I practice about 30 minutes every day.\nB: Maybe I should try learning something new too. I've been thinking about joining a yoga class.\nA: You should! It's a great way to relax after work. My sister does yoga and she loves it.\nB: Good idea. I'll look for a beginner class near my home.",
+    "duration": 85,
+    "speed": 0.8,
+    "speakers": ["A", "B (Mina)"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "I really enjoy photography.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "d2",
+        "text": "I play basketball twice a week with my friends.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d3",
+        "text": "I've always wanted to learn an instrument.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d4",
+        "text": "It's a great way to relax after work.",
+        "difficulty": "easy"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is Mina's hobby?",
+      "options": ["Playing sports", "Photography", "Playing guitar", "Yoga"],
+      "answer": "Photography",
+      "explanation": "Mina says 'I really enjoy photography.'"
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "What does Mina like to photograph?",
+      "options": ["People", "Buildings", "Nature", "Food"],
+      "answer": "Nature",
+      "explanation": "Mina says 'I like taking pictures of nature, especially flowers and landscapes.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "When did Mina buy her camera?",
+      "options": ["This year", "Last year", "Two years ago", "Last month"],
+      "answer": "Last year",
+      "explanation": "Mina says 'I bought one last year.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What sport does Speaker A play?",
+      "options": ["Soccer", "Tennis", "Basketball", "Volleyball"],
+      "answer": "Basketball",
+      "explanation": "Speaker A says 'I play basketball twice a week.'"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "How often does Speaker A play sports?",
+      "options": ["Once a week", "Twice a week", "Three times a week", "Every day"],
+      "answer": "Twice a week",
+      "explanation": "Speaker A says 'twice a week with my friends.'"
+    },
+    {
+      "id": "q6",
+      "type": "true_false",
+      "question": "Speaker A has been playing guitar for many years.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Speaker A says 'I started learning to play the guitar recently.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "How long does Speaker A practice guitar each day?",
+      "options": ["15 minutes", "30 minutes", "45 minutes", "1 hour"],
+      "answer": "30 minutes",
+      "explanation": "Speaker A says 'I practice about 30 minutes every day.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Mina is good at sports.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Mina says 'I'm not very good at sports, actually.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What is Mina thinking about trying?",
+      "options": ["Basketball", "Guitar lessons", "Yoga class", "Photography class"],
+      "answer": "Yoga class",
+      "explanation": "Mina says 'I've been thinking about joining a yoga class.'"
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "question": "Who in Speaker A's family does yoga?",
+      "answer": "sister",
+      "explanation": "Speaker A says 'My sister does yoga and she loves it.'"
+    }
+  ]
+}

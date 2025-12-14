@@ -1,0 +1,146 @@
+{
+  "id": "week-5-reading",
+  "weekId": "week-5",
+  "type": "reading",
+  "level": "B2",
+  "title": "The Future of Live Entertainment",
+  "description": "Read about how live entertainment is evolving and the challenges facing the arts industry.",
+
+  "passage": {
+    "text": "The live entertainment industry has faced unprecedented challenges in recent years, leading many to wonder about its future. Theaters, concert halls, and galleries have been forced to adapt in ways that were unimaginable just a decade ago.\n\nMany artists and performers wish they could simply return to the way things were. If only audiences would come back in the numbers they once did, venues could operate at full capacity again. However, consumer habits have changed. Streaming services have made entertainment accessible from home, and some people now prefer the convenience of their living rooms to crowded venues.\n\nArts organizations have had to innovate to survive. Virtual concerts and online exhibitions have become commonplace. While these digital experiences can reach wider audiences, many arts professionals wish they could replicate the magic of live performance. If only technology could truly capture the energy of a live audience, the emotional connection between performer and spectator.\n\nThe financial challenges are significant. Many venues wish they had invested in technology infrastructure earlier. If only they had anticipated the shift to hybrid events, they would be better positioned now. Smaller organizations, in particular, struggle to compete with larger institutions that have more resources.\n\nThere are also concerns about accessibility and equity. Arts leaders wish more young people would engage with traditional art forms. If only schools offered more arts education, future generations might develop stronger appreciation for live performance. It's time for society to recognize that the arts are not a luxury but an essential part of cultural life.\n\nDespite these challenges, there is reason for optimism. Audiences who have experienced both virtual and live events often say they wish they hadn't waited so long to return to theaters. The irreplaceable quality of shared, live experiences is being rediscovered. If only everyone could feel the thrill of a standing ovation or the hush of a captivated audience, they would understand why live entertainment matters.\n\nThe future will likely be hybrid, combining the best of digital accessibility with the unique power of physical presence. Many wish this transformation had been smoother, but the arts have always adapted to changing times. That resilience continues today.",
+    "wordCount": 345,
+    "estimatedReadingTime": 6
+  },
+
+  "vocabulary": [
+    {
+      "word": "unprecedented",
+      "meaning": "never having happened before",
+      "translation": "전례 없는"
+    },
+    {
+      "word": "venues",
+      "meaning": "places where events are held",
+      "translation": "공연장, 장소"
+    },
+    {
+      "word": "commonplace",
+      "meaning": "ordinary or usual",
+      "translation": "흔한, 일상적인"
+    },
+    {
+      "word": "hybrid",
+      "meaning": "combining two different elements",
+      "translation": "하이브리드, 혼합의"
+    },
+    {
+      "word": "resilience",
+      "meaning": "ability to recover from difficulties",
+      "translation": "회복력"
+    },
+    {
+      "word": "standing ovation",
+      "meaning": "audience standing to applaud",
+      "translation": "기립 박수"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What do many artists and performers wish for?",
+      "options": ["Higher ticket prices", "A return to how things were", "More technology", "Smaller venues"],
+      "answer": "A return to how things were",
+      "explanation": "The passage states 'Many artists and performers wish they could simply return to the way things were.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Consumer habits regarding entertainment have remained unchanged.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'consumer habits have changed' and mentions streaming services."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What do many arts professionals wish technology could do?",
+      "options": ["Replace live performances entirely", "Capture the energy of a live audience", "Reduce costs", "Eliminate the need for venues"],
+      "answer": "Capture the energy of a live audience",
+      "explanation": "The passage mentions 'If only technology could truly capture the energy of a live audience.'"
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "question": "Virtual concerts and online exhibitions have become commonplace.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage directly states 'Virtual concerts and online exhibitions have become commonplace.'"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What do many venues wish they had done earlier?",
+      "options": ["Closed down", "Invested in technology infrastructure", "Reduced ticket prices", "Hired more staff"],
+      "answer": "Invested in technology infrastructure",
+      "explanation": "The passage says 'Many venues wish they had invested in technology infrastructure earlier.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What do arts leaders wish schools would offer more of?",
+      "options": ["Sports programs", "Science education", "Arts education", "Technology training"],
+      "answer": "Arts education",
+      "explanation": "The passage states 'If only schools offered more arts education.'"
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "The passage suggests that the arts are a luxury, not a necessity.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'the arts are not a luxury but an essential part of cultural life.'"
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "According to the passage, what do audiences who have returned to theaters often say?",
+      "options": ["They prefer virtual events", "They wish they hadn't waited so long to return", "They won't come back again", "The experience was disappointing"],
+      "answer": "They wish they hadn't waited so long to return",
+      "explanation": "The passage says audiences 'often say they wish they hadn't waited so long to return to theaters.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What does the passage predict about the future of entertainment?",
+      "options": ["It will be entirely virtual", "It will remain unchanged", "It will likely be hybrid", "Live entertainment will disappear"],
+      "answer": "It will likely be hybrid",
+      "explanation": "The passage states 'The future will likely be hybrid.'"
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "question": "What quality does the passage say the arts have always shown?",
+      "answer": "resilience",
+      "alternateAnswers": ["Resilience", "the ability to adapt", "adaptation"],
+      "explanation": "The passage ends by saying 'That resilience continues today.'"
+    },
+    {
+      "id": "q11",
+      "type": "true_false",
+      "question": "Smaller organizations find it easy to compete with larger institutions.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'Smaller organizations, in particular, struggle to compete with larger institutions.'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "Which 'wish' structure does the passage use to talk about past regrets?",
+      "options": ["wish + past simple", "wish + would", "wish + past perfect", "wish + could"],
+      "answer": "wish + past perfect",
+      "explanation": "Examples include 'wish they had invested' and 'wish they hadn't waited' - both past perfect forms expressing regret."
+    }
+  ]
+}

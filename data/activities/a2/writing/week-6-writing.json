@@ -1,0 +1,169 @@
+{
+  "id": "week-6-writing",
+  "weekId": "week-6",
+  "type": "writing",
+  "level": "A2",
+  "title": "Describing Your Favorite Season",
+  "description": "Write about your favorite season and why you like it.",
+
+  "prompt": {
+    "topic": "My Favorite Season",
+    "description": "Write about your favorite season. Describe the weather, activities, and why you prefer this season over others.",
+    "requirements": [
+      "Name your favorite season",
+      "Describe the typical weather during this season",
+      "Mention activities you can do",
+      "Use comparatives to compare with other seasons",
+      "Explain why it's your favorite"
+    ],
+    "wordCount": {
+      "min": 80,
+      "max": 120
+    },
+    "timeLimit": 20
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "My favorite season is autumn.",
+      "translation": "제가 가장 좋아하는 계절은 가을이에요.",
+      "useCase": "To introduce your favorite season"
+    },
+    {
+      "id": "ex2",
+      "sentence": "The weather is cooler and more comfortable than summer.",
+      "translation": "날씨가 여름보다 더 시원하고 쾌적해요.",
+      "useCase": "To compare with another season"
+    },
+    {
+      "id": "ex3",
+      "sentence": "The temperature is usually between 15 and 20 degrees.",
+      "translation": "기온은 보통 15도에서 20도 사이예요.",
+      "useCase": "To describe temperature"
+    },
+    {
+      "id": "ex4",
+      "sentence": "I love watching the colorful leaves.",
+      "translation": "알록달록한 단풍을 보는 것을 좋아해요.",
+      "useCase": "To describe seasonal features"
+    },
+    {
+      "id": "ex5",
+      "sentence": "It's perfect weather for hiking.",
+      "translation": "등산하기 완벽한 날씨예요.",
+      "useCase": "To mention activities"
+    },
+    {
+      "id": "ex6",
+      "sentence": "I prefer this season because it's not too hot or cold.",
+      "translation": "너무 덥지도 춥지도 않아서 이 계절을 선호해요.",
+      "useCase": "To explain your preference"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "mild",
+      "translation": "온화한",
+      "example": "The weather is mild in spring."
+    },
+    {
+      "word": "humid",
+      "translation": "습한",
+      "example": "Summer is hot and humid."
+    },
+    {
+      "word": "freezing",
+      "translation": "몹시 추운",
+      "example": "It's freezing in January."
+    },
+    {
+      "word": "comfortable",
+      "translation": "쾌적한",
+      "example": "The temperature is very comfortable."
+    },
+    {
+      "word": "blossom",
+      "translation": "꽃, 꽃이 피다",
+      "example": "Cherry blossoms are beautiful."
+    },
+    {
+      "word": "colorful",
+      "translation": "알록달록한",
+      "example": "The leaves are colorful in autumn."
+    },
+    {
+      "word": "prefer",
+      "translation": "선호하다",
+      "example": "I prefer cool weather."
+    },
+    {
+      "word": "perfect",
+      "translation": "완벽한",
+      "example": "It's perfect for outdoor activities."
+    }
+  ],
+
+  "usefulExpressions": [
+    {
+      "expression": "...is my favorite because...",
+      "usage": "To state preference with reason",
+      "example": "Spring is my favorite because the weather is mild."
+    },
+    {
+      "expression": "...is better/worse than...",
+      "usage": "To compare seasons",
+      "example": "Autumn is better than summer for hiking."
+    },
+    {
+      "expression": "I love/enjoy + verb-ing",
+      "usage": "To express what you like doing",
+      "example": "I love watching the snow fall."
+    },
+    {
+      "expression": "The best thing about... is...",
+      "usage": "To highlight a positive aspect",
+      "example": "The best thing about spring is the cherry blossoms."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "Content Requirements",
+      "items": [
+        "Did you clearly state your favorite season?",
+        "Did you describe the typical weather?",
+        "Did you mention activities for this season?",
+        "Did you compare with at least one other season?",
+        "Did you explain why it's your favorite?"
+      ]
+    },
+    {
+      "category": "Grammar & Form",
+      "items": [
+        "Did you use comparatives correctly?",
+        "Did you use superlatives correctly?",
+        "Did you use weather vocabulary appropriately?",
+        "Did you vary your sentence structures?"
+      ]
+    },
+    {
+      "category": "Word Count",
+      "items": [
+        "Is your writing at least 80 words?",
+        "Is your writing no more than 120 words?",
+        "Are your sentences a good length?"
+      ]
+    },
+    {
+      "category": "Overall Assessment",
+      "items": [
+        "Is your description clear and engaging?",
+        "Do your sentences flow well together?",
+        "Is there variety in your vocabulary?",
+        "Did you complete within the time limit?"
+      ]
+    }
+  ]
+}

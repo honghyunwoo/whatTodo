@@ -1,0 +1,161 @@
+{
+  "id": "week-6-speaking",
+  "weekId": "week-6",
+  "type": "speaking",
+  "level": "B2",
+  "title": "Health Decisions and Consequences",
+  "description": "Practice discussing health choices and their effects using mixed conditionals.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "If I had exercised more in my twenties, I would be fitter now.",
+      "translation": "20대에 운동을 더 했다면, 지금 더 건강했을 것이다.",
+      "pronunciation": "/ɪf aɪ hæd ˈeksəsaɪzd mɔːr ɪn maɪ ˈtwentiz, aɪ wʊd biː ˈfɪtər naʊ/",
+      "tips": "Stress 'exercised' and 'fitter' - the key contrast words"
+    },
+    {
+      "id": "s2",
+      "text": "Had she not smoked for so long, she wouldn't have breathing problems today.",
+      "translation": "그녀가 오랫동안 담배를 피우지 않았다면, 오늘날 호흡 문제가 없었을 것이다.",
+      "pronunciation": "/hæd ʃiː nɒt sməʊkt fɔːr səʊ lɒŋ, ʃiː ˈwʊdnt hæv ˈbriːðɪŋ ˈprɒbləmz təˈdeɪ/",
+      "tips": "Inverted conditional - start strong with 'Had'"
+    },
+    {
+      "id": "s3",
+      "text": "If I weren't so stressed, I would have slept better last night.",
+      "translation": "내가 스트레스를 덜 받았다면, 어젯밤에 더 잘 잤을 것이다.",
+      "pronunciation": "/ɪf aɪ wɜːnt səʊ strest, aɪ wʊd hæv slept ˈbetər lɑːst naɪt/",
+      "tips": "Present condition affecting past - use 'weren't' not 'wasn't'"
+    },
+    {
+      "id": "s4",
+      "text": "If governments had invested in prevention, healthcare costs would be lower.",
+      "translation": "정부가 예방에 투자했다면, 의료비가 더 낮았을 것이다.",
+      "pronunciation": "/ɪf ˈɡʌvənmənts hæd ɪnˈvestɪd ɪn prɪˈvenʃn, ˈhelθkeər kɒsts wʊd biː ˈləʊər/",
+      "tips": "Link 'had invested' smoothly"
+    },
+    {
+      "id": "s5",
+      "text": "I might feel more energetic now if I had changed my diet earlier.",
+      "translation": "일찍 식단을 바꿨다면 지금 더 활력이 넘칠 수도 있다.",
+      "pronunciation": "/aɪ maɪt fiːl mɔːr ˌenəˈdʒetɪk naʊ ɪf aɪ hæd tʃeɪndʒd maɪ ˈdaɪət ˈɜːliər/",
+      "tips": "'Might' shows possibility - softer than 'would'"
+    },
+    {
+      "id": "s6",
+      "text": "If she weren't afraid of hospitals, she would have gone for a check-up.",
+      "translation": "그녀가 병원을 두려워하지 않았다면, 검진을 받으러 갔을 것이다.",
+      "pronunciation": "/ɪf ʃiː wɜːnt əˈfreɪd əv ˈhɒspɪtlz, ʃiː wʊd hæv ɡɒn fər ə ˈtʃekʌp/",
+      "tips": "Present fear affecting past action"
+    },
+    {
+      "id": "s7",
+      "text": "Had we known about the health risks, we would live differently now.",
+      "translation": "건강 위험에 대해 알았다면, 지금 다르게 살았을 것이다.",
+      "pronunciation": "/hæd wiː nəʊn əˈbaʊt ðə helθ rɪsks, wiː wʊd lɪv ˈdɪfrəntli naʊ/",
+      "tips": "Formal inverted form - emphasize 'known' and 'differently'"
+    },
+    {
+      "id": "s8",
+      "text": "If I had prioritized sleep, I wouldn't be suffering from chronic fatigue.",
+      "translation": "수면을 우선시했다면, 만성 피로로 고통받지 않았을 것이다.",
+      "pronunciation": "/ɪf aɪ hæd praɪˈɒrɪtaɪzd sliːp, aɪ ˈwʊdnt biː ˈsʌfərɪŋ frəm ˈkrɒnɪk fəˈtiːɡ/",
+      "tips": "Stress 'prioritized' - a key health vocabulary word"
+    },
+    {
+      "id": "s9",
+      "text": "She could have avoided this condition if she were more health-conscious.",
+      "translation": "그녀가 건강에 더 신경 썼다면, 이 상태를 피할 수 있었을 것이다.",
+      "pronunciation": "/ʃiː kʊd hæv əˈvɔɪdɪd ðɪs kənˈdɪʃn ɪf ʃiː wɜːr mɔːr ˈhelθ ˈkɒnʃəs/",
+      "tips": "Result clause first for emphasis"
+    },
+    {
+      "id": "s10",
+      "text": "If the warning signs had been taken seriously, the patient would be healthier.",
+      "translation": "경고 신호를 심각하게 받아들였다면, 환자가 더 건강했을 것이다.",
+      "pronunciation": "/ɪf ðə ˈwɔːnɪŋ saɪnz hæd biːn ˈteɪkən ˈsɪəriəsli, ðə ˈpeɪʃnt wʊd biː ˈhelθiər/",
+      "tips": "Passive voice in the if-clause"
+    },
+    {
+      "id": "s11",
+      "text": "Had they followed the doctor's advice, they should be fully recovered by now.",
+      "translation": "의사의 조언을 따랐다면, 지금쯤 완전히 회복되어 있어야 한다.",
+      "pronunciation": "/hæd ðeɪ ˈfɒləʊd ðə ˈdɒktərz ədˈvaɪs, ðeɪ ʃʊd biː ˈfʊli rɪˈkʌvəd baɪ naʊ/",
+      "tips": "'Should be' implies expectation"
+    },
+    {
+      "id": "s12",
+      "text": "If I had been sleeping well, I wouldn't be feeling so exhausted right now.",
+      "translation": "잠을 잘 잤다면, 지금 이렇게 지치지 않았을 것이다.",
+      "pronunciation": "/ɪf aɪ hæd biːn ˈsliːpɪŋ wel, aɪ ˈwʊdnt biː ˈfiːlɪŋ səʊ ɪɡˈzɔːstɪd raɪt naʊ/",
+      "tips": "Continuous aspect in both clauses - emphasizes ongoing states"
+    }
+  ],
+
+  "dialogue": {
+    "title": "Discussing Lifestyle Changes",
+    "context": "Two friends discuss their health habits and what they wish they had done differently.",
+    "speakers": ["Emma", "David"],
+    "lines": [
+      {
+        "speaker": "Emma",
+        "text": "I'm so tired all the time. If I had developed better sleep habits when I was younger, I wouldn't be struggling so much now.",
+        "translation": "항상 너무 피곤해. 젊었을 때 더 나은 수면 습관을 들였다면, 지금 이렇게 힘들지 않았을 텐데."
+      },
+      {
+        "speaker": "David",
+        "text": "I know what you mean. Had I not spent so many years eating junk food, I would be in much better shape.",
+        "translation": "무슨 말인지 알아. 정크푸드를 먹으며 그렇게 많은 시간을 보내지 않았다면, 훨씬 건강했을 텐데."
+      },
+      {
+        "speaker": "Emma",
+        "text": "It's frustrating. If I weren't so busy with work, I would have started exercising regularly months ago.",
+        "translation": "답답해. 일이 이렇게 바쁘지 않았다면, 몇 달 전부터 규칙적으로 운동을 시작했을 텐데."
+      },
+      {
+        "speaker": "David",
+        "text": "That's true. If society took mental health more seriously, we wouldn't be seeing so much burnout.",
+        "translation": "맞아. 사회가 정신 건강을 더 진지하게 받아들였다면, 이렇게 많은 번아웃을 보지 않았을 텐데."
+      },
+      {
+        "speaker": "Emma",
+        "text": "Exactly. Had I known how important preventive care was, I would have made different choices.",
+        "translation": "정확히. 예방 관리가 얼마나 중요한지 알았다면, 다른 선택을 했을 텐데."
+      },
+      {
+        "speaker": "David",
+        "text": "Well, if we start making changes today, we might feel much better a year from now.",
+        "translation": "글쎄, 오늘부터 변화를 시작하면, 1년 후에는 훨씬 나아질지도 몰라."
+      },
+      {
+        "speaker": "Emma",
+        "text": "You're right. If I had maintained a healthy lifestyle from the beginning, I wouldn't be having this conversation.",
+        "translation": "네 말이 맞아. 처음부터 건강한 생활 방식을 유지했다면, 이런 대화를 하고 있지 않았을 텐데."
+      },
+      {
+        "speaker": "David",
+        "text": "True, but it's never too late. If we weren't aware of the problems, we couldn't have made any changes at all.",
+        "translation": "맞아, 하지만 아직 늦지 않았어. 문제를 인식하지 못했다면, 어떤 변화도 할 수 없었을 거야."
+      }
+    ]
+  },
+
+  "practiceTopics": [
+    {
+      "topic": "Past health decisions affecting current condition",
+      "promptKo": "과거의 건강 결정이 현재 상태에 미친 영향",
+      "example": "If I had started running five years ago, I would be much fitter today."
+    },
+    {
+      "topic": "Current personality affecting past health choices",
+      "promptKo": "현재 성격이 과거 건강 선택에 미친 영향",
+      "example": "If I weren't such a workaholic, I would have taken better care of myself."
+    },
+    {
+      "topic": "What governments should have done",
+      "promptKo": "정부가 했어야 할 일",
+      "example": "Had they invested more in public health, the system would be less overwhelmed now."
+    }
+  ]
+}

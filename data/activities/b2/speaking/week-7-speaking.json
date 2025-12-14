@@ -1,0 +1,161 @@
+{
+  "id": "week-7-speaking",
+  "weekId": "week-7",
+  "type": "speaking",
+  "level": "B2",
+  "title": "Discussing Career Success and Business",
+  "description": "Practice using cleft sentences and inversion to emphasize key points when discussing professional topics.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "It is teamwork that drives success in any organization.",
+      "translation": "어떤 조직에서든 성공을 이끄는 것은 팀워크이다.",
+      "pronunciation": "/ɪt ɪz ˈtiːmwɜːk ðæt draɪvz səkˈses ɪn ˈeni ˌɔːɡənaɪˈzeɪʃn/",
+      "tips": "Stress 'teamwork' as the emphasized element"
+    },
+    {
+      "id": "s2",
+      "text": "What we need is better communication between departments.",
+      "translation": "우리에게 필요한 것은 부서 간의 더 나은 소통이다.",
+      "pronunciation": "/wɒt wiː niːd ɪz ˈbetər kəˌmjuːnɪˈkeɪʃn bɪˈtwiːn dɪˈpɑːtmənts/",
+      "tips": "Rise slightly on 'need', fall on 'communication'"
+    },
+    {
+      "id": "s3",
+      "text": "Never have I seen such a dedicated team.",
+      "translation": "이렇게 헌신적인 팀은 본 적이 없다.",
+      "pronunciation": "/ˈnevər hæv aɪ siːn sʌtʃ ə ˈdedɪkeɪtɪd tiːm/",
+      "tips": "Emphasize 'Never' at the start for dramatic effect"
+    },
+    {
+      "id": "s4",
+      "text": "It was the new marketing strategy that increased our sales.",
+      "translation": "우리의 매출을 늘린 것은 새로운 마케팅 전략이었다.",
+      "pronunciation": "/ɪt wɒz ðə njuː ˈmɑːkɪtɪŋ ˈstrætədʒi ðæt ɪnˈkriːst ˈaʊər seɪlz/",
+      "tips": "Link 'it was the' smoothly"
+    },
+    {
+      "id": "s5",
+      "text": "Only by taking risks can entrepreneurs succeed.",
+      "translation": "위험을 감수해야만 기업가들이 성공할 수 있다.",
+      "pronunciation": "/ˈəʊnli baɪ ˈteɪkɪŋ rɪsks kæn ˌɒntrəprəˈnɜːz səkˈsiːd/",
+      "tips": "Stress 'Only' and 'risks'"
+    },
+    {
+      "id": "s6",
+      "text": "What impressed me most was her negotiation skills.",
+      "translation": "나를 가장 감동시킨 것은 그녀의 협상 능력이었다.",
+      "pronunciation": "/wɒt ɪmˈprest miː məʊst wɒz hɜːr nɪˌɡəʊʃiˈeɪʃn skɪlz/",
+      "tips": "Emphasize 'most' for strong impact"
+    },
+    {
+      "id": "s7",
+      "text": "Not only did we meet the deadline, but we also reduced costs.",
+      "translation": "우리는 마감을 맞췄을 뿐만 아니라 비용도 절감했다.",
+      "pronunciation": "/nɒt ˈəʊnli dɪd wiː miːt ðə ˈdedlaɪn, bʌt wiː ˈɔːlsəʊ rɪˈdjuːst kɒsts/",
+      "tips": "Pause slightly after 'deadline' before 'but'"
+    },
+    {
+      "id": "s8",
+      "text": "So successful was the campaign that we doubled our revenue.",
+      "translation": "캠페인이 너무 성공적이어서 매출이 두 배가 되었다.",
+      "pronunciation": "/səʊ səkˈsesfl wɒz ðə kæmˈpeɪn ðæt wiː ˈdʌbld ˈaʊər ˈrevənjuː/",
+      "tips": "Stress 'So successful' strongly"
+    },
+    {
+      "id": "s9",
+      "text": "All we want is a fair opportunity to compete.",
+      "translation": "우리가 원하는 것은 공정하게 경쟁할 기회뿐이다.",
+      "pronunciation": "/ɔːl wiː wɒnt ɪz ə feər ˌɒpərˈtjuːnəti tə kəmˈpiːt/",
+      "tips": "'All' emphasizes limitation - we want nothing more"
+    },
+    {
+      "id": "s10",
+      "text": "Rarely does a company achieve such rapid growth.",
+      "translation": "이렇게 빠른 성장을 이루는 회사는 드물다.",
+      "pronunciation": "/ˈreəli dʌz ə ˈkʌmpəni əˈtʃiːv sʌtʃ ˈræpɪd ɡrəʊθ/",
+      "tips": "Start strong with 'Rarely'"
+    },
+    {
+      "id": "s11",
+      "text": "It is innovation, not tradition, that sets us apart.",
+      "translation": "우리를 차별화하는 것은 전통이 아니라 혁신이다.",
+      "pronunciation": "/ɪt ɪz ˌɪnəˈveɪʃn, nɒt trəˈdɪʃn, ðæt sets ʌs əˈpɑːt/",
+      "tips": "Contrast 'innovation' and 'tradition' clearly"
+    },
+    {
+      "id": "s12",
+      "text": "Only when you delegate can you focus on strategic decisions.",
+      "translation": "위임해야만 전략적 결정에 집중할 수 있다.",
+      "pronunciation": "/ˈəʊnli wen juː ˈdelɪɡeɪt kæn juː ˈfəʊkəs ɒn strəˈtiːdʒɪk dɪˈsɪʒnz/",
+      "tips": "Link 'can you' smoothly after 'delegate'"
+    }
+  ],
+
+  "dialogue": {
+    "title": "Discussing Company Success",
+    "context": "Two colleagues discuss what makes their company successful during a team meeting.",
+    "speakers": ["Manager", "Team Lead"],
+    "lines": [
+      {
+        "speaker": "Manager",
+        "text": "I wanted to discuss what has made our department so successful this quarter. It is the dedication of our team that has driven these results.",
+        "translation": "이번 분기에 우리 부서가 왜 이렇게 성공했는지 논의하고 싶었습니다. 이 결과를 이끈 것은 우리 팀의 헌신입니다."
+      },
+      {
+        "speaker": "Team Lead",
+        "text": "I agree. What impressed me most was how everyone collaborated under pressure. Never have I seen such teamwork.",
+        "translation": "동의합니다. 저를 가장 감동시킨 것은 압박 속에서도 모두가 협력한 방식이었습니다. 이런 팀워크는 본 적이 없어요."
+      },
+      {
+        "speaker": "Manager",
+        "text": "Not only did we meet all our targets, but we also exceeded client expectations. So effective was our strategy that other departments are now copying it.",
+        "translation": "우리는 모든 목표를 달성했을 뿐만 아니라 고객 기대치도 초과했습니다. 우리 전략이 너무 효과적이어서 다른 부서들도 이제 따라하고 있습니다."
+      },
+      {
+        "speaker": "Team Lead",
+        "text": "It was your leadership that made this possible. Only by creating a supportive environment could the team perform at this level.",
+        "translation": "이것을 가능하게 한 것은 당신의 리더십이었습니다. 지지적인 환경을 만들어야만 팀이 이 수준에서 성과를 낼 수 있었습니다."
+      },
+      {
+        "speaker": "Manager",
+        "text": "What we need now is to maintain this momentum. All the hard work will be wasted if we don't continue improving.",
+        "translation": "지금 우리에게 필요한 것은 이 추진력을 유지하는 것입니다. 계속 개선하지 않으면 모든 노력이 헛됩니다."
+      },
+      {
+        "speaker": "Team Lead",
+        "text": "Exactly. The thing that concerns me is burnout. Only when we balance productivity with wellbeing will we achieve sustainable success.",
+        "translation": "맞습니다. 저를 걱정시키는 것은 번아웃입니다. 생산성과 웰빙의 균형을 맞춰야만 지속 가능한 성공을 이룰 수 있습니다."
+      },
+      {
+        "speaker": "Manager",
+        "text": "You're absolutely right. It is our people, not our processes, that are our greatest asset.",
+        "translation": "정말 맞는 말입니다. 우리의 가장 큰 자산은 프로세스가 아니라 사람들입니다."
+      },
+      {
+        "speaker": "Team Lead",
+        "text": "Rarely do managers acknowledge that so clearly. What makes this team special is that kind of awareness.",
+        "translation": "매니저들이 그렇게 명확하게 인정하는 경우는 드뭅니다. 이 팀을 특별하게 만드는 것은 바로 그런 인식입니다."
+      }
+    ]
+  },
+
+  "practiceTopics": [
+    {
+      "topic": "Emphasizing what drives company success",
+      "promptKo": "회사 성공을 이끄는 것 강조하기",
+      "example": "It is customer satisfaction that ultimately determines our success."
+    },
+    {
+      "topic": "Highlighting unique achievements",
+      "promptKo": "독특한 성과 강조하기",
+      "example": "Never have we achieved such impressive results in a single quarter."
+    },
+    {
+      "topic": "Discussing leadership qualities",
+      "promptKo": "리더십 자질 논의하기",
+      "example": "What makes a great leader is the ability to inspire others."
+    }
+  ]
+}

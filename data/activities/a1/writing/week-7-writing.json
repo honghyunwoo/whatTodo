@@ -1,0 +1,201 @@
+{
+  "id": "week-7-writing",
+  "weekId": "week-7",
+  "type": "writing",
+  "level": "B2",
+  "title": "나의 미래 계획 글쓰기",
+  "description": "현재진행형과 미래시제를 활용하여 현재 하고 있는 일과 미래 계획에 대한 글을 작성해봅니다.",
+
+  "prompt": {
+    "topic": "나의 현재와 미래 계획",
+    "description": "지금 당신이 하고 있는 일들과 앞으로의 계획에 대해 글을 작성해보세요. 현재 진행 중인 프로젝트, 학습, 활동 등과 단기/장기 미래 계획을 포함할 수 있습니다.",
+    "requirements": [
+      "현재 진행 중인 활동을 최소 2가지 이상 포함하세요",
+      "현재진행형(am/is/are + -ing)을 최소 3번 이상 사용하세요",
+      "미래 계획을 최소 3가지 이상 포함하세요",
+      "will 또는 be going to를 최소 3번 이상 사용하세요",
+      "확정된 미래 계획을 현재진행형으로 최소 1번 표현하세요",
+      "각 계획에 대한 이유나 목표를 설명하세요"
+    ],
+    "wordCount": {
+      "min": 120,
+      "max": 200
+    },
+    "timeLimit": 25
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "I am currently studying computer science at university.",
+      "translation": "나는 현재 대학교에서 컴퓨터 과학을 공부하고 있다.",
+      "useCase": "현재 진행 중인 학업을 표현할 때"
+    },
+    {
+      "id": "ex2",
+      "sentence": "I'm working on improving my English skills.",
+      "translation": "나는 영어 실력을 향상시키기 위해 노력하고 있다.",
+      "useCase": "현재 진행 중인 자기계발 활동을 표현할 때"
+    },
+    {
+      "id": "ex3",
+      "sentence": "Next year, I will graduate from university.",
+      "translation": "내년에 나는 대학교를 졸업할 것이다.",
+      "useCase": "미래 계획을 will로 표현할 때"
+    },
+    {
+      "id": "ex4",
+      "sentence": "I am going to apply for a master's degree program.",
+      "translation": "나는 석사 과정에 지원할 예정이다.",
+      "useCase": "확실한 미래 계획을 be going to로 표현할 때"
+    },
+    {
+      "id": "ex5",
+      "sentence": "I'm meeting with my academic advisor next week.",
+      "translation": "나는 다음 주에 지도교수님을 만날 예정이다.",
+      "useCase": "확정된 미래 일정을 현재진행형으로 표현할 때"
+    },
+    {
+      "id": "ex6",
+      "sentence": "This will help me achieve my career goals.",
+      "translation": "이것은 나의 커리어 목표를 달성하는 데 도움이 될 것이다.",
+      "useCase": "계획의 이유나 목표를 설명할 때"
+    },
+    {
+      "id": "ex7",
+      "sentence": "In five years, I hope to be working as a software engineer.",
+      "translation": "5년 후에는 소프트웨어 엔지니어로 일하고 있기를 희망한다.",
+      "useCase": "장기 미래 목표를 표현할 때"
+    },
+    {
+      "id": "ex8",
+      "sentence": "I'm planning to save money for this goal.",
+      "translation": "나는 이 목표를 위해 돈을 저축할 계획이다.",
+      "useCase": "구체적인 실행 계획을 표현할 때"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "currently",
+      "translation": "현재",
+      "example": "I am currently working on a project."
+    },
+    {
+      "word": "at the moment",
+      "translation": "지금",
+      "example": "I'm studying English at the moment."
+    },
+    {
+      "word": "right now",
+      "translation": "바로 지금",
+      "example": "I'm preparing for my exam right now."
+    },
+    {
+      "word": "will",
+      "translation": "~할 것이다",
+      "example": "I will graduate next year."
+    },
+    {
+      "word": "be going to",
+      "translation": "~할 예정이다",
+      "example": "I am going to travel to Europe."
+    },
+    {
+      "word": "plan to",
+      "translation": "~할 계획이다",
+      "example": "I plan to start my own business."
+    },
+    {
+      "word": "hope to",
+      "translation": "~하기를 희망한다",
+      "example": "I hope to become a doctor."
+    },
+    {
+      "word": "next week/month/year",
+      "translation": "다음 주/달/년",
+      "example": "I'm starting my new job next month."
+    },
+    {
+      "word": "in the future",
+      "translation": "미래에",
+      "example": "In the future, I will have my own company."
+    },
+    {
+      "word": "in (5) years",
+      "translation": "(5)년 후에",
+      "example": "In five years, I will be a manager."
+    },
+    {
+      "word": "goal",
+      "translation": "목표",
+      "example": "My goal is to speak English fluently."
+    },
+    {
+      "word": "achieve",
+      "translation": "달성하다",
+      "example": "I want to achieve my dreams."
+    },
+    {
+      "word": "improve",
+      "translation": "개선하다, 향상시키다",
+      "example": "I'm trying to improve my skills."
+    },
+    {
+      "word": "prepare for",
+      "translation": "~을 준비하다",
+      "example": "I'm preparing for the interview."
+    },
+    {
+      "word": "work on",
+      "translation": "~에 대해 작업하다",
+      "example": "I'm working on my presentation."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "📝 내용 요구사항",
+      "items": [
+        "현재 진행 중인 활동을 최소 2가지 포함했나요?",
+        "미래 계획을 최소 3가지 포함했나요?",
+        "각 계획에 대한 이유나 목표를 설명했나요?",
+        "단기와 장기 계획을 모두 포함했나요?",
+        "구체적이고 현실적인 계획을 제시했나요?"
+      ]
+    },
+    {
+      "category": "✅ 문법 및 시제",
+      "items": [
+        "현재진행형(am/is/are + -ing)을 최소 3번 사용했나요?",
+        "미래시제(will 또는 be going to)를 최소 3번 사용했나요?",
+        "확정된 미래 계획을 현재진행형으로 최소 1번 표현했나요?",
+        "be동사를 주어에 맞게 정확히 사용했나요?",
+        "동사-ing 형태를 올바르게 사용했나요?",
+        "will 뒤에 동사 원형을 정확히 사용했나요?"
+      ]
+    },
+    {
+      "category": "📏 분량 및 구조",
+      "items": [
+        "최소 120단어 이상인가요?",
+        "최대 200단어 이내인가요?",
+        "도입-본문(현재/미래)-결론 구조가 명확한가요?",
+        "문단이 논리적으로 연결되나요?",
+        "현재 활동과 미래 계획이 명확히 구분되나요?"
+      ]
+    },
+    {
+      "category": "🎯 전반적 평가",
+      "items": [
+        "시제를 상황에 맞게 정확히 사용했나요?",
+        "다양한 어휘를 사용했나요?",
+        "문장이 자연스럽게 연결되나요?",
+        "맞춤법과 문법 실수가 없나요?",
+        "제한 시간(25분) 내에 완성했나요?",
+        "읽는 사람이 당신의 현재와 미래를 이해할 수 있나요?",
+        "계획이 구체적이고 실현 가능해 보이나요?"
+      ]
+    }
+  ]
+}

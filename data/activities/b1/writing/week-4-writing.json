@@ -1,0 +1,175 @@
+{
+  "id": "week-4-writing",
+  "weekId": "week-4",
+  "type": "writing",
+  "level": "B1",
+  "title": "Writing About Technology",
+  "description": "Write about your relationship with technology and how it affects your daily life.",
+
+  "prompt": {
+    "topic": "Technology in My Daily Life",
+    "description": "Write about how you use technology in your daily life. Discuss both the positive and negative aspects of technology, and explain what you do to maintain a healthy balance.",
+    "requirements": [
+      "Describe how you use technology daily",
+      "Mention at least two advantages of technology",
+      "Mention at least one disadvantage or concern",
+      "Explain what you do to maintain balance",
+      "Use passive voice at least twice"
+    ],
+    "wordCount": {
+      "min": 130,
+      "max": 180
+    },
+    "timeLimit": 25
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "Technology is used in almost every aspect of my daily life.",
+      "translation": "기술은 제 일상생활의 거의 모든 면에서 사용됩니다.",
+      "useCase": "To introduce the topic with passive voice"
+    },
+    {
+      "id": "ex2",
+      "sentence": "I couldn't imagine living without my smartphone.",
+      "translation": "스마트폰 없이 사는 것은 상상할 수 없어요.",
+      "useCase": "To express dependence on technology"
+    },
+    {
+      "id": "ex3",
+      "sentence": "One of the main advantages is that information can be accessed instantly.",
+      "translation": "주요 장점 중 하나는 정보에 즉시 접근할 수 있다는 것이에요.",
+      "useCase": "To describe an advantage with passive voice"
+    },
+    {
+      "id": "ex4",
+      "sentence": "However, I sometimes feel overwhelmed by constant notifications.",
+      "translation": "하지만 끊임없는 알림에 압도당하는 느낌이 들 때가 있어요.",
+      "useCase": "To express a disadvantage"
+    },
+    {
+      "id": "ex5",
+      "sentence": "To maintain balance, I try to set limits on my screen time.",
+      "translation": "균형을 유지하기 위해 화면 시청 시간에 제한을 두려고 해요.",
+      "useCase": "To explain a strategy for balance"
+    },
+    {
+      "id": "ex6",
+      "sentence": "Overall, I believe technology improves our lives when used wisely.",
+      "translation": "전반적으로, 현명하게 사용하면 기술이 우리 삶을 향상시킨다고 생각해요.",
+      "useCase": "To conclude with an opinion"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "device",
+      "translation": "기기, 장치",
+      "example": "I use several devices throughout the day."
+    },
+    {
+      "word": "screen time",
+      "translation": "화면 시청 시간",
+      "example": "I try to limit my screen time to two hours."
+    },
+    {
+      "word": "notification",
+      "translation": "알림",
+      "example": "I turned off notifications to focus better."
+    },
+    {
+      "word": "connect",
+      "translation": "연결하다",
+      "example": "Technology helps us connect with people worldwide."
+    },
+    {
+      "word": "distraction",
+      "translation": "방해, 산만함",
+      "example": "Social media can be a major distraction."
+    },
+    {
+      "word": "productivity",
+      "translation": "생산성",
+      "example": "Some apps have improved my productivity."
+    },
+    {
+      "word": "balance",
+      "translation": "균형",
+      "example": "Finding balance is important in the digital age."
+    },
+    {
+      "word": "digital detox",
+      "translation": "디지털 디톡스",
+      "example": "I sometimes do a digital detox on weekends."
+    }
+  ],
+
+  "usefulExpressions": [
+    {
+      "expression": "Technology plays a big role in...",
+      "usage": "To introduce how technology affects something",
+      "example": "Technology plays a big role in how I work and study."
+    },
+    {
+      "expression": "One advantage/disadvantage is that...",
+      "usage": "To list pros or cons",
+      "example": "One advantage is that we can work from anywhere."
+    },
+    {
+      "expression": "I find it helpful/distracting when...",
+      "usage": "To express a personal opinion",
+      "example": "I find it helpful when apps remind me of important tasks."
+    },
+    {
+      "expression": "To avoid/prevent..., I...",
+      "usage": "To explain a strategy",
+      "example": "To avoid distractions, I turn off my phone during work."
+    },
+    {
+      "expression": "On one hand... On the other hand...",
+      "usage": "To present balanced viewpoints",
+      "example": "On one hand, social media connects us. On the other hand, it can be addictive."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "Content Requirements",
+      "items": [
+        "Did you describe your daily technology use?",
+        "Did you mention at least two advantages?",
+        "Did you mention at least one disadvantage?",
+        "Did you explain how you maintain balance?",
+        "Did you use passive voice at least twice?"
+      ]
+    },
+    {
+      "category": "Grammar & Structure",
+      "items": [
+        "Did you use passive voice correctly?",
+        "Did you use a variety of tenses appropriately?",
+        "Did you organize your ideas logically?",
+        "Did you use linking words to connect ideas?"
+      ]
+    },
+    {
+      "category": "Vocabulary & Style",
+      "items": [
+        "Did you use technology-related vocabulary?",
+        "Did you use varied vocabulary (avoid repetition)?",
+        "Did you express opinions clearly?",
+        "Did you use formal/semi-formal language?"
+      ]
+    },
+    {
+      "category": "Word Count & Completion",
+      "items": [
+        "Is your writing at least 130 words?",
+        "Is your writing no more than 180 words?",
+        "Does your writing have a clear introduction and conclusion?",
+        "Did you complete within the time limit?"
+      ]
+    }
+  ]
+}

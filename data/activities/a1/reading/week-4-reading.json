@@ -1,0 +1,122 @@
+{
+  "id": "week-4-reading",
+  "weekId": "week-4",
+  "type": "reading",
+  "level": "A2",
+  "title": "나의 경험 이야기",
+  "description": "다양한 경험에 대한 글을 읽고 이해합니다.",
+
+  "passage": {
+    "text": "My name is John. I am 28 years old and I love traveling.\n\nI have visited 15 countries so far. I have been to Europe, Asia, and North America. My favorite country has been Japan. I have tried many delicious foods there, and I have met wonderful people.\n\nI have also learned three languages: Spanish, French, and a little bit of Japanese. Learning languages has helped me make friends all over the world.\n\nLast year, I started a travel blog. I have written 50 articles about my trips. Many people have read my blog and some have even traveled to the places I recommended!\n\nTraveling has changed my life. It has made me more open-minded and confident. I have learned so much about different cultures. My dream is to visit every continent!",
+    "wordCount": 138,
+    "estimatedReadingTime": 3,
+    "audioText": "My name is John. I am 28 years old and I love traveling. [PAUSE] I have visited 15 countries so far. I have been to Europe, Asia, and North America. My favorite country has been Japan. I have tried many delicious foods there, and I have met wonderful people. [PAUSE] I have also learned three languages: Spanish, French, and a little bit of Japanese. Learning languages has helped me make friends all over the world. [PAUSE] Last year, I started a travel blog. I have written 50 articles about my trips. Many people have read my blog and some have even traveled to the places I recommended! [PAUSE] Traveling has changed my life. It has made me more open-minded and confident. I have learned so much about different cultures. My dream is to visit every continent!"
+  },
+
+  "vocabulary": [
+    {"word": "so far", "meaning": "지금까지", "lineNumber": 3},
+    {"word": "continent", "meaning": "대륙", "lineNumber": 3},
+    {"word": "delicious", "meaning": "맛있는", "lineNumber": 3},
+    {"word": "blog", "meaning": "블로그", "lineNumber": 7},
+    {"word": "recommended", "meaning": "추천했다", "lineNumber": 7},
+    {"word": "open-minded", "meaning": "열린 마음의", "lineNumber": 9},
+    {"word": "confident", "meaning": "자신감 있는", "lineNumber": 9},
+    {"word": "cultures", "meaning": "문화들", "lineNumber": 9}
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "short_answer",
+      "question": "How many countries has John visited?",
+      "answer": "15",
+      "explanation": "John은 지금까지 15개국을 방문했습니다."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "What is John's favorite country?",
+      "options": ["Korea", "Japan", "France", "Spain"],
+      "answer": "Japan",
+      "explanation": "John이 가장 좋아하는 나라는 일본입니다."
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "question": "How many languages has John learned?",
+      "answer": "3",
+      "explanation": "John은 스페인어, 프랑스어, 일본어 조금을 배웠습니다."
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "When did John start his travel blog?",
+      "options": ["This year", "Last year", "Two years ago", "Last month"],
+      "answer": "Last year",
+      "explanation": "John은 작년에 여행 블로그를 시작했습니다."
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "question": "How many articles has John written?",
+      "answer": "50",
+      "explanation": "John은 50개의 글을 작성했습니다."
+    },
+    {
+      "id": "q6",
+      "type": "true_false",
+      "question": "People have traveled to places John recommended.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "일부 사람들은 John이 추천한 장소로 여행을 갔습니다."
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "Traveling has made John less confident.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "여행은 John을 더 자신감 있게 만들었습니다."
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "What is John's dream?",
+      "options": ["Visit every continent", "Learn 10 languages", "Write a book", "Start a company"],
+      "answer": "Visit every continent",
+      "explanation": "John의 꿈은 모든 대륙을 방문하는 것입니다."
+    },
+    {
+      "id": "q9",
+      "type": "true_false",
+      "question": "John has been to Africa.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "John은 유럽, 아시아, 북미에 가봤지만 아프리카는 언급하지 않았습니다."
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "How has traveling changed John?",
+      "options": ["Made him tired", "Made him open-minded", "Made him sad", "Made him lazy"],
+      "answer": "Made him open-minded",
+      "explanation": "여행은 John을 더 열린 마음을 가지게 만들었습니다."
+    },
+    {
+      "id": "q11",
+      "type": "true_false",
+      "question": "John loves traveling.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "John은 여행을 사랑합니다. (I love traveling)"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "How old is John?",
+      "options": ["25", "26", "27", "28"],
+      "answer": "28",
+      "explanation": "John은 28살입니다."
+    }
+  ]
+}

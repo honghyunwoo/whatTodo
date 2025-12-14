@@ -1,0 +1,163 @@
+{
+  "id": "week-1-grammar",
+  "weekId": "week-1",
+  "type": "grammar",
+  "level": "A1",
+  "title": "Be동사 (am, is, are)",
+  "description": "Be동사의 기본 형태와 사용법을 학습합니다.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "rule": "Be동사의 형태 (am, is, are)",
+      "explanation": "주어에 따라 be동사의 형태가 달라집니다. I는 am, He/She/It은 is, You/We/They는 are를 사용합니다.",
+      "examples": [
+        {
+          "sentence": "I am a student.",
+          "translation": "나는 학생입니다."
+        },
+        {
+          "sentence": "She is a teacher.",
+          "translation": "그녀는 선생님입니다."
+        },
+        {
+          "sentence": "They are friends.",
+          "translation": "그들은 친구입니다."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "rule": "Be동사의 부정문",
+      "explanation": "Be동사 뒤에 not을 붙여 부정문을 만듭니다. (am not, is not = isn't, are not = aren't)",
+      "examples": [
+        {
+          "sentence": "I am not tired.",
+          "translation": "나는 피곤하지 않습니다."
+        },
+        {
+          "sentence": "He is not (isn't) busy.",
+          "translation": "그는 바쁘지 않습니다."
+        },
+        {
+          "sentence": "We are not (aren't) late.",
+          "translation": "우리는 늦지 않았습니다."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "rule": "Be동사의 의문문",
+      "explanation": "Be동사를 주어 앞으로 보내 의문문을 만듭니다.",
+      "examples": [
+        {
+          "sentence": "Are you a student?",
+          "translation": "당신은 학생입니까?"
+        },
+        {
+          "sentence": "Is she from Korea?",
+          "translation": "그녀는 한국 출신입니까?"
+        },
+        {
+          "sentence": "Are they at home?",
+          "translation": "그들은 집에 있습니까?"
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "I ___ a teacher.",
+      "options": ["am", "is", "are", "be"],
+      "answer": "am",
+      "explanation": "'I'와 함께 사용하는 be동사는 'am'입니다."
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "She ___ my friend.",
+      "options": ["am", "is", "are", "be"],
+      "answer": "is",
+      "explanation": "'She'는 3인칭 단수이므로 'is'를 사용합니다."
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "They ___ students.",
+      "options": ["am", "is", "are", "be"],
+      "answer": "are",
+      "explanation": "'They'는 복수 주어이므로 'are'를 사용합니다."
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "You ___ kind. (친절하다)",
+      "answer": "are",
+      "explanation": "'You'와 함께 사용하는 be동사는 'are'입니다."
+    },
+    {
+      "id": "ex5",
+      "type": "fill_blank",
+      "question": "He ___ from Seoul.",
+      "answer": "is",
+      "explanation": "'He'는 3인칭 단수이므로 'is'를 사용합니다."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "I ___ not happy.",
+      "options": ["am", "is", "are", "be"],
+      "answer": "am",
+      "explanation": "부정문에서도 주어에 맞는 be동사를 사용합니다. 'I'는 'am'입니다."
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "She ___ not (isn't) at school.",
+      "options": ["am", "is", "are", "be"],
+      "answer": "is",
+      "explanation": "'She'는 3인칭 단수이므로 'is'를 사용하고, 부정문은 'is not' 또는 'isn't'입니다."
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "___ you a doctor? (당신은 의사입니까?)",
+      "answer": "Are",
+      "explanation": "의문문은 be동사를 주어 앞에 놓습니다. 'you'는 'Are'를 사용합니다."
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "___ he your brother? (그는 당신의 형제입니까?)",
+      "answer": "Is",
+      "explanation": "의문문에서 'he'는 'Is'를 주어 앞에 놓습니다."
+    },
+    {
+      "id": "ex10",
+      "type": "sentence_ordering",
+      "question": "다음 단어를 올바른 순서로 배열하세요: [you, a, Are, student, ?]",
+      "options": ["you", "a", "Are", "student", "?"],
+      "answer": ["Are", "you", "a", "student", "?"],
+      "explanation": "의문문: Are + 주어(you) + a + 명사(student) + ? 순서입니다."
+    },
+    {
+      "id": "ex11",
+      "type": "sentence_ordering",
+      "question": "다음 단어를 올바른 순서로 배열하세요: [not, I, happy, am]",
+      "options": ["not", "I", "happy", "am"],
+      "answer": ["I", "am", "not", "happy"],
+      "explanation": "부정문: 주어(I) + be동사(am) + not + 형용사(happy) 순서입니다."
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "We ___ from Japan.",
+      "options": ["am", "is", "are", "be"],
+      "answer": "are",
+      "explanation": "'We'는 복수 주어이므로 'are'를 사용합니다."
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "week-8-speaking",
+  "weekId": "week-8",
+  "type": "speaking",
+  "level": "A2",
+  "title": "Asking for and Giving Directions",
+  "description": "Practice asking for directions and describing locations.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Excuse me, how do I get to the train station?",
+      "translation": "실례합니다, 기차역에 어떻게 가나요?",
+      "tips": "'Excuse me'를 정중하게, 'train station'을 명확하게 발음하세요."
+    },
+    {
+      "id": "s2",
+      "text": "Go straight for two blocks.",
+      "translation": "두 블록 직진하세요.",
+      "tips": "'straight'와 'blocks'를 강조하세요."
+    },
+    {
+      "id": "s3",
+      "text": "Turn left at the traffic light.",
+      "translation": "신호등에서 좌회전하세요.",
+      "tips": "'Turn left'를 한 덩어리로, 'traffic light'를 명확하게 발음하세요."
+    },
+    {
+      "id": "s4",
+      "text": "Is there a pharmacy near here?",
+      "translation": "이 근처에 약국이 있나요?",
+      "tips": "끝을 올려서 의문문 억양을 살리고, 'pharmacy'의 강세는 첫 음절: PHAR-ma-cy."
+    },
+    {
+      "id": "s5",
+      "text": "It's on the corner, next to the bank.",
+      "translation": "모퉁이에 있어요, 은행 옆에요.",
+      "tips": "'corner'와 'next to'를 강조해서 위치를 명확히 하세요."
+    },
+    {
+      "id": "s6",
+      "text": "The museum is opposite the park.",
+      "translation": "박물관은 공원 맞은편에 있어요.",
+      "tips": "'opposite'의 강세는 첫 음절: OP-po-site."
+    },
+    {
+      "id": "s7",
+      "text": "It's about a ten-minute walk from here.",
+      "translation": "여기서 걸어서 약 10분 거리예요.",
+      "tips": "'ten-minute walk'를 자연스럽게 연결하세요."
+    },
+    {
+      "id": "s8",
+      "text": "Walk past the hospital and turn right.",
+      "translation": "병원을 지나서 우회전하세요.",
+      "tips": "'Walk past'를 연결하고, 'turn right'를 명확하게 하세요."
+    },
+    {
+      "id": "s9",
+      "text": "You can't miss it. It's a big building.",
+      "translation": "못 지나칠 거예요. 큰 건물이에요.",
+      "tips": "'can't miss'를 강조해서 확신을 표현하세요."
+    },
+    {
+      "id": "s10",
+      "text": "I think I'm lost. Can you help me?",
+      "translation": "길을 잃은 것 같아요. 도와주실 수 있나요?",
+      "tips": "'lost'를 강조하고, 'Can you help me'는 부드럽게 요청하는 톤으로."
+    },
+    {
+      "id": "s11",
+      "text": "Is the subway station far from here?",
+      "translation": "지하철역이 여기서 먼가요?",
+      "tips": "'far'를 강조하고, 끝을 올려서 의문문으로."
+    },
+    {
+      "id": "s12",
+      "text": "Thank you so much for your help!",
+      "translation": "도와주셔서 정말 감사합니다!",
+      "tips": "'Thank you so much'를 진심을 담아 감사하는 톤으로 말하세요."
+    }
+  ],
+
+  "dialoguePractice": {
+    "title": "Asking for Directions",
+    "roles": ["Tourist", "Local"],
+    "lines": [
+      {"role": "Tourist", "text": "Excuse me, I'm looking for the National Museum."},
+      {"role": "Local", "text": "Sure! Go straight for two blocks."},
+      {"role": "Tourist", "text": "Then what do I do?"},
+      {"role": "Local", "text": "Turn left at the intersection. The museum is on your right."},
+      {"role": "Tourist", "text": "Is it far from here?"},
+      {"role": "Local", "text": "No, it's about a 10-minute walk. You can't miss it!"}
+    ]
+  },
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation & Intonation",
+      "items": [
+        "Did you pronounce direction words clearly?",
+        "Did you use rising intonation for questions?",
+        "Did you use polite intonation when asking for help?",
+        "Did you speak at a natural pace?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you speak without long pauses?",
+        "Did you connect prepositions naturally?",
+        "Did you complete all sentences?",
+        "Did you practice the dialogue smoothly?"
+      ]
+    },
+    {
+      "category": "Accuracy",
+      "items": [
+        "Did you use prepositions of place correctly?",
+        "Did you use imperatives correctly for directions?",
+        "Did you form questions correctly?",
+        "Did you follow the pronunciation tips?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Could a listener understand the directions?",
+        "Did you sound polite and friendly?",
+        "Were your directions clear and logical?",
+        "Did you record and compare all sentences?"
+      ]
+    }
+  ]
+}

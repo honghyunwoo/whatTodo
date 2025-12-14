@@ -1,0 +1,146 @@
+{
+  "id": "week-6-reading",
+  "weekId": "week-6",
+  "type": "reading",
+  "level": "B2",
+  "title": "The Modern Health Crisis",
+  "description": "Read about how lifestyle choices and societal factors contribute to contemporary health challenges.",
+
+  "passage": {
+    "text": "The twenty-first century has brought remarkable medical advances, yet paradoxically, chronic diseases are on the rise. Many health experts argue that if we had maintained traditional lifestyles, we wouldn't be facing the current health crisis.\n\nThe sedentary nature of modern work is a significant factor. If people hadn't transitioned to office jobs that require sitting for eight hours or more, rates of obesity and back problems would be lower today. Research indicates that even regular exercise cannot fully compensate for prolonged sitting. Had our ancestors known how harmful inactivity would become, they might have designed cities differently.\n\nDiet has changed dramatically as well. If processed foods hadn't become so readily available and affordable, people wouldn't be consuming so much sugar, salt, and unhealthy fats. The convenience of fast food has come at a significant health cost. Many doctors wish they could prescribe healthy eating with the same authority as medication.\n\nMental health presents another challenge. If workplaces were more supportive, employees wouldn't be experiencing such high levels of stress and burnout. The constant connectivity enabled by smartphones means that work never truly ends. Had technology developers considered the psychological impact, they might have built in more safeguards.\n\nSleep deprivation has become normalized in modern society. If people hadn't adopted the mentality that sleep is wasted time, they would be more productive and healthier. Studies show that chronic sleep deficit affects everything from immune function to decision-making. Were adequate sleep prioritized, many accidents and health issues could be prevented.\n\nThe healthcare system itself contributes to the problem. If governments had invested more in preventive care, they wouldn't be spending so much on treating preventable diseases now. The focus on reactive rather than proactive medicine has proven costly both financially and in terms of human suffering.\n\nHowever, awareness is growing. If current trends continue, the next generation may make different choices. Had previous generations had access to the information we have today, they would have made better decisions. The lesson is clear: what we do today determines our health tomorrow.",
+    "wordCount": 340,
+    "estimatedReadingTime": 6
+  },
+
+  "vocabulary": [
+    {
+      "word": "paradoxically",
+      "meaning": "in a way that seems contradictory",
+      "translation": "역설적으로"
+    },
+    {
+      "word": "sedentary",
+      "meaning": "characterized by sitting and little activity",
+      "translation": "앉아서 하는, 주로 앉아 있는"
+    },
+    {
+      "word": "compensate",
+      "meaning": "to make up for something",
+      "translation": "보상하다, 보충하다"
+    },
+    {
+      "word": "deprivation",
+      "meaning": "the lack of something considered necessary",
+      "translation": "박탈, 부족"
+    },
+    {
+      "word": "proactive",
+      "meaning": "acting in advance to deal with expected problems",
+      "translation": "선제적인, 사전 대응하는"
+    },
+    {
+      "word": "reactive",
+      "meaning": "acting in response after something happens",
+      "translation": "반응적인, 사후 대응하는"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "According to the passage, what would be different if people had maintained traditional lifestyles?",
+      "options": ["Medical advances would be slower", "We wouldn't be facing the current health crisis", "Technology would be less advanced", "People would live shorter lives"],
+      "answer": "We wouldn't be facing the current health crisis",
+      "explanation": "The passage states 'if we had maintained traditional lifestyles, we wouldn't be facing the current health crisis.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Regular exercise can fully compensate for prolonged sitting.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'even regular exercise cannot fully compensate for prolonged sitting.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What does the passage suggest about processed foods?",
+      "options": ["They are healthy alternatives", "Their availability has contributed to health problems", "They should be more expensive", "They are unavoidable"],
+      "answer": "Their availability has contributed to health problems",
+      "explanation": "The passage states 'If processed foods hadn't become so readily available and affordable, people wouldn't be consuming so much sugar, salt, and unhealthy fats.'"
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "question": "The passage suggests that workplaces are currently very supportive of employee wellbeing.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage uses a conditional 'If workplaces were more supportive' implying they currently aren't supportive enough."
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What does the passage say about smartphones and work?",
+      "options": ["They help people relax", "They enable constant connectivity so work never truly ends", "They improve sleep quality", "They have no effect on stress"],
+      "answer": "They enable constant connectivity so work never truly ends",
+      "explanation": "The passage states 'The constant connectivity enabled by smartphones means that work never truly ends.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "How does modern society view sleep according to the passage?",
+      "options": ["As essential for health", "As wasted time", "As a luxury only for the wealthy", "As the most important activity"],
+      "answer": "As wasted time",
+      "explanation": "The passage says 'If people hadn't adopted the mentality that sleep is wasted time.'"
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "The passage suggests that preventive care would have been less expensive than treating diseases.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage states 'If governments had invested more in preventive care, they wouldn't be spending so much on treating preventable diseases now.'"
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "What does 'reactive medicine' mean in the context of the passage?",
+      "options": ["Treating illness after it occurs", "Preventing illness before it occurs", "Using technology in medicine", "Ancient medical practices"],
+      "answer": "Treating illness after it occurs",
+      "explanation": "The passage contrasts 'reactive' with 'proactive,' and the context about treating preventable diseases indicates reactive means responding after problems occur."
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What is the passage's tone about future generations?",
+      "options": ["Pessimistic", "Cautiously optimistic", "Angry", "Indifferent"],
+      "answer": "Cautiously optimistic",
+      "explanation": "The passage says 'awareness is growing' and 'If current trends continue, the next generation may make different choices.'"
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "question": "According to the passage, what determines our health tomorrow?",
+      "answer": "what we do today",
+      "alternateAnswers": ["What we do today", "our choices today", "today's choices"],
+      "explanation": "The passage ends with 'what we do today determines our health tomorrow.'"
+    },
+    {
+      "id": "q11",
+      "type": "true_false",
+      "question": "The passage suggests that medical advances have eliminated chronic diseases.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'remarkable medical advances, yet paradoxically, chronic diseases are on the rise.'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "Which sentence best demonstrates a mixed conditional (past condition, present result)?",
+      "options": ["If current trends continue, the next generation may make different choices.", "If governments had invested more in preventive care, they wouldn't be spending so much now.", "The convenience of fast food has come at a significant health cost.", "Awareness is growing."],
+      "answer": "If governments had invested more in preventive care, they wouldn't be spending so much now.",
+      "explanation": "This sentence shows past condition (had invested) with present result (wouldn't be spending now)."
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "week-3-speaking",
+  "weekId": "week-3",
+  "type": "speaking",
+  "level": "B2",
+  "title": "Discussing Global Issues and Alternatives",
+  "description": "Practice discussing hypothetical past situations and their potential outcomes using the third conditional.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "If the international community had acted sooner, thousands of lives would have been saved.",
+      "translation": "국제 사회가 더 빨리 행동했다면, 수천 명의 생명이 구해졌을 것이다.",
+      "tips": "'had acted'와 'would have been saved'로 과거 가정을 표현하세요."
+    },
+    {
+      "id": "s2",
+      "text": "The refugee crisis wouldn't have become so severe if neighboring countries had cooperated.",
+      "translation": "이웃 국가들이 협력했다면, 난민 위기가 그렇게 심각해지지 않았을 것이다.",
+      "tips": "주절을 앞에 두고 조건절을 뒤에 둘 수 있습니다."
+    },
+    {
+      "id": "s3",
+      "text": "If they had invested in education earlier, poverty might have decreased significantly.",
+      "translation": "그들이 교육에 더 일찍 투자했다면, 빈곤이 상당히 감소했을 수도 있다.",
+      "tips": "'might have'로 덜 확실한 결과를 표현하세요."
+    },
+    {
+      "id": "s4",
+      "text": "Peace could have been achieved if both sides had been willing to negotiate.",
+      "translation": "양측이 협상할 의사가 있었다면, 평화를 달성할 수 있었을 것이다.",
+      "tips": "'could have been achieved'로 가능성을 표현하세요."
+    },
+    {
+      "id": "s5",
+      "text": "If only we had known about the famine sooner, we would have sent more aid.",
+      "translation": "기근에 대해 더 일찍 알았더라면, 더 많은 원조를 보냈을 텐데.",
+      "tips": "'If only'로 강한 후회를 표현하세요."
+    },
+    {
+      "id": "s6",
+      "text": "What would have happened if the sanctions had been lifted earlier?",
+      "translation": "제재가 더 일찍 해제되었다면 어떻게 되었을까?",
+      "tips": "의문문에서 'would have happened'를 사용하세요."
+    },
+    {
+      "id": "s7",
+      "text": "The epidemic wouldn't have spread so quickly if borders had been closed immediately.",
+      "translation": "국경이 즉시 폐쇄되었다면, 전염병이 그렇게 빨리 퍼지지 않았을 것이다.",
+      "tips": "'wouldn't have spread'로 부정적 결과를 표현하세요."
+    },
+    {
+      "id": "s8",
+      "text": "If governments had taken climate change seriously decades ago, we wouldn't be facing this crisis now.",
+      "translation": "정부들이 수십 년 전에 기후 변화를 심각하게 받아들였다면, 지금 이 위기에 직면하지 않았을 것이다.",
+      "tips": "혼합 조건문 - 과거 가정이 현재 결과에 영향을 미침을 표현하세요."
+    },
+    {
+      "id": "s9",
+      "text": "More communities might have remained stable if economic support had been provided.",
+      "translation": "경제적 지원이 제공되었다면, 더 많은 지역사회가 안정을 유지했을 수도 있다.",
+      "tips": "'might have remained'로 가능성을 표현하세요."
+    },
+    {
+      "id": "s10",
+      "text": "If humanitarian organizations had coordinated better, resources wouldn't have been wasted.",
+      "translation": "인도주의 단체들이 더 잘 조율했다면, 자원이 낭비되지 않았을 것이다.",
+      "tips": "비판을 표현할 때 3조건문을 사용하세요."
+    },
+    {
+      "id": "s11",
+      "text": "The conflict could have been prevented if leaders had listened to the warnings.",
+      "translation": "지도자들이 경고에 귀를 기울였다면, 분쟁을 예방할 수 있었을 것이다.",
+      "tips": "'could have been prevented'로 가능했던 예방을 표현하세요."
+    },
+    {
+      "id": "s12",
+      "text": "If we had learned from history, we wouldn't keep repeating the same mistakes.",
+      "translation": "역사에서 배웠다면, 같은 실수를 계속 반복하지 않았을 것이다.",
+      "tips": "과거 조건이 현재 습관에 미치는 영향을 표현하세요."
+    }
+  ],
+
+  "dialoguePractice": {
+    "title": "Discussing Historical What-Ifs",
+    "roles": ["Professor Kim", "Student"],
+    "lines": [
+      {"role": "Student", "text": "Professor Kim, do you think the crisis could have been prevented?"},
+      {"role": "Professor Kim", "text": "Absolutely. If the warning signs had been taken seriously, the outcome would have been very different."},
+      {"role": "Student", "text": "What would have happened if the international community had intervened earlier?"},
+      {"role": "Professor Kim", "text": "Intervention might have saved thousands of lives. If resources had been allocated properly, the humanitarian response would have been far more effective."},
+      {"role": "Student", "text": "Some argue that sovereignty concerns prevented action."},
+      {"role": "Professor Kim", "text": "That's true, but if nations had prioritized human lives over political interests, they could have found a way to act."},
+      {"role": "Student", "text": "What role did economic factors play?"},
+      {"role": "Professor Kim", "text": "If wealthier nations had invested in development earlier, the underlying causes might have been addressed before they became crises."},
+      {"role": "Student", "text": "So you're saying prevention is more effective than reaction?"},
+      {"role": "Professor Kim", "text": "Exactly. If we had spent a fraction of the intervention costs on prevention, we would have saved far more money and lives."},
+      {"role": "Student", "text": "What lessons should we take for the future?"},
+      {"role": "Professor Kim", "text": "We need to learn that inaction has consequences. If our generation had understood this earlier, future generations wouldn't have to face the same challenges."}
+    ]
+  },
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation & Intonation",
+      "items": [
+        "Did you pronounce contracted forms clearly ('would've', 'could've')?",
+        "Did you link words naturally in conditional sentences?",
+        "Did you use appropriate stress on key words?",
+        "Did you maintain natural rhythm in complex sentences?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you use third conditional structures smoothly?",
+        "Did you transition naturally between 'if' clauses and main clauses?",
+        "Did you complete sentences without excessive pauses?",
+        "Did you participate naturally in the dialogue?"
+      ]
+    },
+    {
+      "category": "Grammar Accuracy",
+      "items": [
+        "Did you use 'had + past participle' in the if-clause?",
+        "Did you use 'would/could/might + have + past participle' in the main clause?",
+        "Did you form questions correctly in the third conditional?",
+        "Did you use 'If only' for regret appropriately?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Did you express hypothetical past situations clearly?",
+        "Did you use appropriate global issues vocabulary?",
+        "Did you discuss causes and consequences effectively?",
+        "Did you engage naturally in discussing sensitive topics?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "id": "week-1-vocab",
+  "weekId": "week-1",
+  "type": "vocabulary",
+  "level": "A1",
+  "title": "기본 인사 표현",
+  "description": "일상생활에서 가장 많이 사용하는 인사 표현과 기본 단어를 배웁니다.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "Hello",
+      "pronunciation": "/həˈloʊ/",
+      "partOfSpeech": "interjection",
+      "meaning": "안녕하세요",
+      "example": "Hello, how are you?",
+      "exampleMeaning": "안녕하세요, 어떻게 지내세요?"
+    },
+    {
+      "id": "w2",
+      "word": "Hi",
+      "pronunciation": "/haɪ/",
+      "partOfSpeech": "interjection",
+      "meaning": "안녕 (비격식)",
+      "example": "Hi! Nice to see you.",
+      "exampleMeaning": "안녕! 만나서 반가워."
+    },
+    {
+      "id": "w3",
+      "word": "Good morning",
+      "pronunciation": "/ɡʊd ˈmɔːrnɪŋ/",
+      "partOfSpeech": "phrase",
+      "meaning": "좋은 아침입니다",
+      "example": "Good morning, everyone!",
+      "exampleMeaning": "좋은 아침입니다, 여러분!"
+    },
+    {
+      "id": "w4",
+      "word": "Good afternoon",
+      "pronunciation": "/ɡʊd ˌæftərˈnuːn/",
+      "partOfSpeech": "phrase",
+      "meaning": "안녕하세요 (오후)",
+      "example": "Good afternoon, how can I help you?",
+      "exampleMeaning": "안녕하세요, 무엇을 도와드릴까요?"
+    },
+    {
+      "id": "w5",
+      "word": "Good evening",
+      "pronunciation": "/ɡʊd ˈiːvnɪŋ/",
+      "partOfSpeech": "phrase",
+      "meaning": "안녕하세요 (저녁)",
+      "example": "Good evening, welcome to our restaurant.",
+      "exampleMeaning": "안녕하세요, 저희 레스토랑에 오신 것을 환영합니다."
+    },
+    {
+      "id": "w6",
+      "word": "Goodbye",
+      "pronunciation": "/ˌɡʊdˈbaɪ/",
+      "partOfSpeech": "interjection",
+      "meaning": "안녕히 가세요",
+      "example": "Goodbye! See you tomorrow.",
+      "exampleMeaning": "안녕히 가세요! 내일 봐요."
+    },
+    {
+      "id": "w7",
+      "word": "Bye",
+      "pronunciation": "/baɪ/",
+      "partOfSpeech": "interjection",
+      "meaning": "잘 가 (비격식)",
+      "example": "Bye! Have a nice day.",
+      "exampleMeaning": "잘 가! 좋은 하루 보내."
+    },
+    {
+      "id": "w8",
+      "word": "Thank you",
+      "pronunciation": "/θæŋk juː/",
+      "partOfSpeech": "phrase",
+      "meaning": "감사합니다",
+      "example": "Thank you for your help.",
+      "exampleMeaning": "도와주셔서 감사합니다."
+    },
+    {
+      "id": "w9",
+      "word": "Thanks",
+      "pronunciation": "/θæŋks/",
+      "partOfSpeech": "interjection",
+      "meaning": "고마워 (비격식)",
+      "example": "Thanks a lot!",
+      "exampleMeaning": "정말 고마워!"
+    },
+    {
+      "id": "w10",
+      "word": "Please",
+      "pronunciation": "/pliːz/",
+      "partOfSpeech": "adverb",
+      "meaning": "제발, ~해 주세요",
+      "example": "Please sit down.",
+      "exampleMeaning": "앉아 주세요."
+    },
+    {
+      "id": "w11",
+      "word": "Sorry",
+      "pronunciation": "/ˈsɑːri/",
+      "partOfSpeech": "adjective",
+      "meaning": "미안해요",
+      "example": "I'm sorry, I don't understand.",
+      "exampleMeaning": "미안해요, 이해하지 못했어요."
+    },
+    {
+      "id": "w12",
+      "word": "Excuse me",
+      "pronunciation": "/ɪkˈskjuːz miː/",
+      "partOfSpeech": "phrase",
+      "meaning": "실례합니다",
+      "example": "Excuse me, where is the bathroom?",
+      "exampleMeaning": "실례합니다, 화장실이 어디에 있나요?"
+    },
+    {
+      "id": "w13",
+      "word": "Yes",
+      "pronunciation": "/jes/",
+      "partOfSpeech": "adverb",
+      "meaning": "네, 예",
+      "example": "Yes, I agree.",
+      "exampleMeaning": "네, 동의합니다."
+    },
+    {
+      "id": "w14",
+      "word": "No",
+      "pronunciation": "/noʊ/",
+      "partOfSpeech": "adverb",
+      "meaning": "아니요",
+      "example": "No, thank you.",
+      "exampleMeaning": "아니요, 괜찮습니다."
+    },
+    {
+      "id": "w15",
+      "word": "Nice to meet you",
+      "pronunciation": "/naɪs tə miːt juː/",
+      "partOfSpeech": "phrase",
+      "meaning": "만나서 반갑습니다",
+      "example": "Nice to meet you! My name is Sarah.",
+      "exampleMeaning": "만나서 반갑습니다! 제 이름은 Sarah입니다."
+    },
+    {
+      "id": "w16",
+      "word": "How are you",
+      "pronunciation": "/haʊ ɑːr juː/",
+      "partOfSpeech": "phrase",
+      "meaning": "어떻게 지내세요?",
+      "example": "How are you today?",
+      "exampleMeaning": "오늘 어떻게 지내세요?"
+    },
+    {
+      "id": "w17",
+      "word": "Fine",
+      "pronunciation": "/faɪn/",
+      "partOfSpeech": "adjective",
+      "meaning": "좋아요, 괜찮아요",
+      "example": "I'm fine, thank you.",
+      "exampleMeaning": "저는 좋아요, 감사합니다."
+    },
+    {
+      "id": "w18",
+      "word": "Welcome",
+      "pronunciation": "/ˈwelkəm/",
+      "partOfSpeech": "adjective",
+      "meaning": "환영하는, 환영합니다",
+      "example": "You're welcome!",
+      "exampleMeaning": "천만에요!"
+    },
+    {
+      "id": "w19",
+      "word": "Name",
+      "pronunciation": "/neɪm/",
+      "partOfSpeech": "noun",
+      "meaning": "이름",
+      "example": "What is your name?",
+      "exampleMeaning": "당신의 이름은 무엇인가요?"
+    },
+    {
+      "id": "w20",
+      "word": "Help",
+      "pronunciation": "/help/",
+      "partOfSpeech": "verb",
+      "meaning": "돕다, 도움",
+      "example": "Can you help me?",
+      "exampleMeaning": "저를 도와주실 수 있나요?"
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "What does 'Hello' mean in Korean?",
+      "options": ["안녕하세요", "감사합니다", "미안합니다", "잘 가세요"],
+      "answer": "안녕하세요",
+      "explanation": "'Hello'는 사람을 만났을 때 하는 인사말로 '안녕하세요'라는 뜻입니다."
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "Which word means '감사합니다'?",
+      "options": ["Please", "Thank you", "Sorry", "Welcome"],
+      "answer": "Thank you",
+      "explanation": "'Thank you'는 누군가에게 고마움을 표현할 때 사용하는 표현입니다."
+    },
+    {
+      "id": "ex3",
+      "type": "fill_blank",
+      "question": "_____, how are you? (안녕하세요를 넣으세요)",
+      "answer": ["Hello", "Hi"],
+      "explanation": "인사말로 'Hello' 또는 'Hi'를 사용할 수 있습니다."
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "_____ you for your help. (감사합니다를 넣으세요)",
+      "answer": ["Thank"],
+      "explanation": "'Thank you'는 '감사합니다'라는 뜻입니다."
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "What is the correct response to 'Thank you'?",
+      "options": ["You're welcome", "I'm sorry", "Goodbye", "Hello"],
+      "answer": "You're welcome",
+      "explanation": "'Thank you'에 대한 답변으로 'You're welcome(천만에요)'을 사용합니다."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "When do you say 'Good morning'?",
+      "options": ["In the morning", "In the afternoon", "In the evening", "At night"],
+      "answer": "In the morning",
+      "explanation": "'Good morning'은 아침에 하는 인사입니다."
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "I'm _____, I don't understand. (미안해요를 넣으세요)",
+      "answer": ["sorry"],
+      "explanation": "'I'm sorry'는 사과하거나 유감을 표현할 때 사용합니다."
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "Which word is used when leaving?",
+      "options": ["Goodbye", "Hello", "Please", "Thank you"],
+      "answer": "Goodbye",
+      "explanation": "'Goodbye'는 작별 인사로 '안녕히 가세요'라는 뜻입니다."
+    },
+    {
+      "id": "ex9",
+      "type": "matching",
+      "question": "Match the English with Korean:",
+      "options": ["Hello", "Thank you", "Sorry", "Goodbye"],
+      "answer": ["안녕하세요", "감사합니다", "미안해요", "안녕히 가세요"],
+      "explanation": "각 영어 표현과 한국어 의미를 연결합니다."
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "Nice to _____ you! (만나다를 넣으세요)",
+      "answer": ["meet"],
+      "explanation": "'Nice to meet you'는 '만나서 반갑습니다'라는 표현입니다."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "What is a polite way to get someone's attention?",
+      "options": ["Excuse me", "Hey", "Hello", "Goodbye"],
+      "answer": "Excuse me",
+      "explanation": "'Excuse me'는 누군가의 주의를 끌 때 사용하는 정중한 표현입니다."
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "_____ sit down. (앉아 주세요를 넣으세요)",
+      "answer": ["Please"],
+      "explanation": "'Please'는 정중한 요청을 할 때 사용하는 단어입니다."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "What does 'How are you?' mean?",
+      "options": ["어떻게 지내세요?", "이름이 뭐예요?", "어디 가세요?", "무엇을 원하세요?"],
+      "answer": "어떻게 지내세요?",
+      "explanation": "'How are you?'는 상대방의 안부를 묻는 표현입니다."
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "Which is the informal way to say 'Thank you'?",
+      "options": ["Thanks", "Please", "Sorry", "Welcome"],
+      "answer": "Thanks",
+      "explanation": "'Thanks'는 'Thank you'의 비격식적인 표현입니다."
+    },
+    {
+      "id": "ex15",
+      "type": "fill_blank",
+      "question": "I'm _____, thank you. (좋아요를 넣으세요)",
+      "answer": ["fine", "good", "well"],
+      "explanation": "'I'm fine'은 '저는 좋아요'라는 뜻으로 안부 질문에 대한 답변입니다."
+    }
+  ]
+}

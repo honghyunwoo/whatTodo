@@ -1,0 +1,139 @@
+{
+  "id": "week-2-speaking",
+  "weekId": "week-2",
+  "type": "speaking",
+  "level": "B2",
+  "title": "Discussing Work and Career",
+  "description": "Practice discussing professional situations, making speculations, and giving opinions about workplace issues.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "She must be preparing for her promotion interview. She's been staying late every day.",
+      "translation": "그녀는 분명 승진 면접을 준비하고 있을 거야. 매일 야근하고 있거든.",
+      "tips": "'must be + -ing'로 현재 진행 중인 일에 대한 확신을 표현하세요."
+    },
+    {
+      "id": "s2",
+      "text": "He can't be serious about turning down the job offer. The salary was excellent.",
+      "translation": "그가 그 일자리 제안을 거절하겠다는 게 진심일 리 없어. 연봉이 정말 좋았는데.",
+      "tips": "'can't be'로 믿기 어려운 상황을 표현하세요."
+    },
+    {
+      "id": "s3",
+      "text": "The meeting might have been rescheduled. I haven't received a reminder.",
+      "translation": "회의가 일정이 변경되었을 수도 있어. 알림을 못 받았거든.",
+      "tips": "'might have + 과거분사'로 과거의 가능성을 추측하세요."
+    },
+    {
+      "id": "s4",
+      "text": "They must have had a good reason for the sudden restructuring.",
+      "translation": "그들이 갑작스러운 구조조정을 한 데는 분명 타당한 이유가 있었을 거야.",
+      "tips": "'must have + 과거분사'로 과거에 대한 확신을 표현하세요."
+    },
+    {
+      "id": "s5",
+      "text": "The project deadline could be extended if we explain the technical difficulties.",
+      "translation": "기술적 어려움을 설명하면 프로젝트 마감이 연장될 수도 있어.",
+      "tips": "'could be'로 가능성을 표현하세요."
+    },
+    {
+      "id": "s6",
+      "text": "She should be feeling confident about the interview. She's extremely qualified.",
+      "translation": "그녀는 면접에 대해 자신감을 가져야 해. 자격이 충분하니까.",
+      "tips": "'should be'로 기대되는 상황을 표현하세요."
+    },
+    {
+      "id": "s7",
+      "text": "He may not have understood the new policy correctly. Let me explain it again.",
+      "translation": "그가 새 정책을 제대로 이해하지 못했을 수도 있어. 다시 설명해 줄게.",
+      "tips": "'may not have'로 과거의 부정적 가능성을 표현하세요."
+    },
+    {
+      "id": "s8",
+      "text": "The company could be planning to open a new branch. That would explain all the hiring.",
+      "translation": "회사가 새 지점을 열 계획일 수도 있어. 그게 모든 채용을 설명해 주겠네.",
+      "tips": "'could be + -ing'로 현재 진행 중일 수 있는 계획을 추측하세요."
+    },
+    {
+      "id": "s9",
+      "text": "They can't have finished the audit already. It usually takes at least a month.",
+      "translation": "그들이 벌써 감사를 끝냈을 리 없어. 보통 최소 한 달은 걸리거든.",
+      "tips": "'can't have + 과거분사'로 불가능한 과거를 표현하세요."
+    },
+    {
+      "id": "s10",
+      "text": "The manager must have approved the budget. Otherwise, we couldn't have started.",
+      "translation": "매니저가 예산을 승인했음에 틀림없어. 그렇지 않으면 시작할 수 없었을 테니까.",
+      "tips": "'must have'와 'couldn't have'를 조합하여 논리적 추론을 표현하세요."
+    },
+    {
+      "id": "s11",
+      "text": "She might be considering early retirement. She's been talking about traveling more.",
+      "translation": "그녀가 조기 퇴직을 고려하고 있을지도 몰라. 여행을 더 많이 하고 싶다고 말했거든.",
+      "tips": "'might be + -ing'로 진행 중일 수 있는 일을 추측하세요."
+    },
+    {
+      "id": "s12",
+      "text": "He should have negotiated a higher salary when he had the chance.",
+      "translation": "그는 기회가 있었을 때 더 높은 연봉을 협상했어야 했어.",
+      "tips": "'should have + 과거분사'로 과거에 하지 않은 일에 대한 조언을 표현하세요."
+    }
+  ],
+
+  "dialoguePractice": {
+    "title": "Discussing Career Changes",
+    "roles": ["Emma", "Daniel"],
+    "lines": [
+      {"role": "Emma", "text": "Did you hear that Lisa is leaving the company? She must have found something better."},
+      {"role": "Daniel", "text": "Really? She can't be leaving! She just got promoted six months ago."},
+      {"role": "Emma", "text": "I know, it's surprising. She might be joining a startup. She's always talked about wanting to work somewhere more innovative."},
+      {"role": "Daniel", "text": "That could be a risky move. Startups don't always succeed."},
+      {"role": "Emma", "text": "True, but she must have weighed the pros and cons carefully. She's not the type to make impulsive decisions."},
+      {"role": "Daniel", "text": "I suppose so. It makes me think about my own career. I might be missing opportunities by staying here too long."},
+      {"role": "Emma", "text": "Have you considered looking elsewhere? You should be earning more with your experience."},
+      {"role": "Daniel", "text": "I've thought about it. The market could be good right now for people with our skills."},
+      {"role": "Emma", "text": "Exactly. You might want to update your CV just in case. It never hurts to see what's out there."},
+      {"role": "Daniel", "text": "You're right. I should have done that months ago. I guess Lisa's news was the wake-up call I needed."}
+    ]
+  },
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation & Intonation",
+      "items": [
+        "Did you pronounce modal verbs clearly (must, might, could, should)?",
+        "Did you use appropriate stress on key words?",
+        "Did you link words naturally in connected speech?",
+        "Did you use rising intonation for uncertainty appropriately?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you use modal verbs for speculation smoothly?",
+        "Did you transition naturally between certainty and possibility?",
+        "Did you complete sentences without long pauses?",
+        "Did you participate naturally in the dialogue?"
+      ]
+    },
+    {
+      "category": "Grammar Accuracy",
+      "items": [
+        "Did you use 'must be/can't be' for present deductions correctly?",
+        "Did you use 'must have/can't have' for past deductions correctly?",
+        "Did you use 'might/could/may' for possibility appropriately?",
+        "Did you use 'should/ought to' for expectations correctly?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Did you express speculation and uncertainty clearly?",
+        "Did you use appropriate professional vocabulary?",
+        "Did you support your speculations with reasons?",
+        "Did you engage naturally in discussing workplace topics?"
+      ]
+    }
+  ]
+}

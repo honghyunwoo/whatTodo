@@ -5,6 +5,7 @@ import { createJSONStorage, persist } from 'zustand/middleware';
 import { STORAGE_KEYS } from '@/constants/storage';
 import { Task, TaskFilter, TaskFormData, TaskSort } from '@/types/task';
 import { generateId } from '@/utils/id';
+import { useRewardStore } from './rewardStore';
 
 interface TaskState {
   tasks: Task[];
@@ -61,18 +62,31 @@ export const useTaskStore = create<TaskState & TaskActions>()(
 
       toggleComplete: (id) => {
         const now = new Date().toISOString();
+        const { tasks } = get();
+        const task = tasks.find((t) => t.id === id);
+
+        if (!task) return;
+
+        const wasCompleted = task.completed;
+        const willBeCompleted = !wasCompleted;
+
         set((state) => ({
-          tasks: state.tasks.map((task) =>
-            task.id === id
+          tasks: state.tasks.map((t) =>
+            t.id === id
               ? {
-                  ...task,
-                  completed: !task.completed,
-                  completedAt: !task.completed ? now : undefined,
+                  ...t,
+                  completed: willBeCompleted,
+                  completedAt: willBeCompleted ? now : undefined,
                   updatedAt: now,
                 }
-              : task
+              : t
           ),
         }));
+
+        // Award stars when completing a task (not when uncompleting)
+        if (willBeCompleted) {
+          useRewardStore.getState().earnStars(0, task.priority);
+        }
       },
 
       setFilter: (filter) => set({ filter }),

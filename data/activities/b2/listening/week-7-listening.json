@@ -1,0 +1,144 @@
+{
+  "id": "week-7-listening",
+  "weekId": "week-7",
+  "type": "listening",
+  "level": "B2",
+  "title": "Business Leadership Seminar",
+  "description": "Listen to a seminar about successful business leadership and what makes companies thrive.",
+
+  "audio": {
+    "text": "Presenter: Good morning, everyone. Today, I want to talk about what it takes to build a successful company. It is leadership that makes the difference between a good company and a great one.\n\nNow, what do successful leaders have in common? What they all share is a clear vision. Never have I met a successful CEO who didn't know exactly where they wanted their company to go. It was Steve Jobs who said that innovation distinguishes leaders from followers, and he was absolutely right.\n\nBut vision alone isn't enough. Only by building strong teams can leaders achieve their goals. Not only must leaders inspire their employees, but they must also create an environment where innovation can flourish. So important is company culture that it can determine whether a business succeeds or fails.\n\nLet me give you an example. It was in 2010 that a small startup nearly went bankrupt. What saved them was not a new product, but a complete change in leadership approach. Rarely does a company recover from such a crisis, but this one did. The reason they succeeded is that the new CEO focused on what really mattered: the people.\n\nAll successful leaders understand that employees are their most valuable asset. What these leaders do differently is invest in their teams. Only when you trust your employees will they give their best work. Such was the transformation at this company that they went from near-failure to industry leader in just five years.\n\nSo, what is the key takeaway? It is not technology or capital that drives success—it is people. The thing that matters most is creating a workplace where talented individuals want to contribute. Only then will your business truly thrive.",
+    "duration": 210,
+    "speed": 1.0,
+    "speakers": ["Presenter"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "It is leadership that makes the difference between a good company and a great one.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d2",
+        "text": "Never have I met a successful CEO who didn't know exactly where they wanted their company to go.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d3",
+        "text": "Only by building strong teams can leaders achieve their goals.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d4",
+        "text": "So important is company culture that it can determine whether a business succeeds or fails.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d5",
+        "text": "All successful leaders understand that employees are their most valuable asset.",
+        "difficulty": "medium"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "According to the presenter, what makes the difference between a good and a great company?",
+      "options": ["Technology", "Capital", "Leadership", "Location"],
+      "answer": "Leadership",
+      "explanation": "The presenter states 'It is leadership that makes the difference between a good company and a great one.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "The presenter has met successful CEOs who didn't have a clear vision.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The presenter says 'Never have I met a successful CEO who didn't know exactly where they wanted their company to go.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "Who said that innovation distinguishes leaders from followers?",
+      "options": ["The presenter", "An anonymous CEO", "Steve Jobs", "A Harvard professor"],
+      "answer": "Steve Jobs",
+      "explanation": "The presenter quotes: 'It was Steve Jobs who said that innovation distinguishes leaders from followers.'"
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "question": "According to the seminar, vision alone is sufficient for success.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The presenter explicitly states 'But vision alone isn't enough.'"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What must leaders do to achieve their goals?",
+      "options": ["Work alone", "Build strong teams", "Focus on technology", "Increase capital"],
+      "answer": "Build strong teams",
+      "explanation": "The presenter says 'Only by building strong teams can leaders achieve their goals.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "When did the startup in the example nearly go bankrupt?",
+      "options": ["2005", "2008", "2010", "2015"],
+      "answer": "2010",
+      "explanation": "The presenter says 'It was in 2010 that a small startup nearly went bankrupt.'"
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "The startup was saved by launching a new product.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The presenter says 'What saved them was not a new product, but a complete change in leadership approach.'"
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "What does the presenter say about company culture?",
+      "options": ["It's not important", "It only affects employees", "It can determine business success or failure", "It's easy to change"],
+      "answer": "It can determine business success or failure",
+      "explanation": "The presenter says 'So important is company culture that it can determine whether a business succeeds or fails.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "According to successful leaders, what is a company's most valuable asset?",
+      "options": ["Technology", "Patents", "Capital", "Employees"],
+      "answer": "Employees",
+      "explanation": "The presenter says 'All successful leaders understand that employees are their most valuable asset.'"
+    },
+    {
+      "id": "q10",
+      "type": "true_false",
+      "question": "The presenter believes technology drives business success more than people.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The presenter concludes 'It is not technology or capital that drives success—it is people.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "According to the presenter, what is the key takeaway from the seminar?",
+      "answer": "people drive success",
+      "alternateAnswers": ["it is people", "people", "people not technology", "employees are most important"],
+      "explanation": "The presenter says 'It is not technology or capital that drives success—it is people.'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "Which cleft sentence structure does the presenter use to emphasize leadership?",
+      "options": ["What... is", "It is... that", "All... is", "The thing... is"],
+      "answer": "It is... that",
+      "explanation": "The presenter uses 'It is leadership that makes the difference...'"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "id": "week-6-grammar",
+  "weekId": "week-6",
+  "type": "grammar",
+  "level": "B2",
+  "title": "Mixed Conditionals",
+  "description": "Learn to combine different conditional tenses to express complex relationships between past causes and present results, or present situations affecting past hypotheticals.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Past Condition, Present Result",
+      "explanation": "Use this mixed conditional when a hypothetical past situation affects the present. The if-clause uses past perfect (third conditional), but the result clause uses would + base verb (second conditional).",
+      "structure": "If + had + past participle, would + base verb (now)",
+      "examples": [
+        {
+          "sentence": "If I had exercised regularly when I was young, I would be healthier now.",
+          "translation": "젊었을 때 규칙적으로 운동했다면, 지금 더 건강했을 것이다."
+        },
+        {
+          "sentence": "If she hadn't smoked for 20 years, she wouldn't have breathing problems today.",
+          "translation": "그녀가 20년간 담배를 피우지 않았다면, 오늘날 호흡 문제가 없었을 것이다."
+        },
+        {
+          "sentence": "If the government had invested in healthcare earlier, the system would be better prepared now.",
+          "translation": "정부가 더 일찍 의료에 투자했다면, 시스템이 지금 더 잘 준비되어 있을 것이다."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Present Condition, Past Result",
+      "explanation": "Use this mixed conditional when a permanent or current state would have affected a past situation differently. The if-clause uses past simple (second conditional), but the result clause uses would have + past participle (third conditional).",
+      "structure": "If + past simple (general truth), would have + past participle",
+      "examples": [
+        {
+          "sentence": "If I were more patient, I would have handled the stress better last year.",
+          "translation": "내가 더 인내심이 있다면, 작년에 스트레스를 더 잘 다뤘을 것이다."
+        },
+        {
+          "sentence": "If he weren't afraid of hospitals, he would have gone for a check-up sooner.",
+          "translation": "그가 병원을 두려워하지 않았다면, 더 일찍 검진을 받으러 갔을 것이다."
+        },
+        {
+          "sentence": "If she didn't have allergies, she wouldn't have had that reaction to the medication.",
+          "translation": "그녀가 알레르기가 없다면, 그 약에 대한 반응이 없었을 것이다."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Mixed Conditional with Modal Verbs",
+      "explanation": "Mixed conditionals can use modal verbs like 'might', 'could', or 'should' in the result clause to express different degrees of certainty or criticism.",
+      "structure": "If + had + past participle, might/could/should + base verb OR might/could/should have + past participle",
+      "examples": [
+        {
+          "sentence": "If you had taken the medicine on time, you might feel better now.",
+          "translation": "제시간에 약을 복용했다면, 지금 기분이 나아졌을 수도 있다."
+        },
+        {
+          "sentence": "If she were more health-conscious, she could have avoided this condition.",
+          "translation": "그녀가 건강에 더 신경 썼다면, 이 상태를 피할 수 있었을 것이다."
+        },
+        {
+          "sentence": "If they had followed the doctor's advice, they should be fully recovered by now.",
+          "translation": "의사의 조언을 따랐다면, 지금쯤 완전히 회복되어 있어야 한다."
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Mixed Conditional for Regret and Criticism",
+      "explanation": "Mixed conditionals are often used to express regret about past actions and their present consequences, or to criticize past decisions that affect the current situation.",
+      "structure": "If + had (not) + past participle, would (not) + base verb",
+      "examples": [
+        {
+          "sentence": "If I hadn't eaten so much junk food, I wouldn't be on this strict diet now.",
+          "translation": "정크푸드를 그렇게 많이 먹지 않았다면, 지금 이 엄격한 다이어트를 하지 않았을 것이다."
+        },
+        {
+          "sentence": "If the hospital had hired more staff, they wouldn't be so overwhelmed today.",
+          "translation": "병원이 더 많은 직원을 고용했다면, 오늘날 이렇게 과부하가 걸리지 않았을 것이다."
+        },
+        {
+          "sentence": "If we had addressed mental health earlier, society wouldn't struggle so much with it now.",
+          "translation": "정신 건강을 더 일찍 다뤘다면, 사회가 지금 그것으로 이렇게 힘들어하지 않았을 것이다."
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Inverted Mixed Conditionals",
+      "explanation": "In formal writing and speech, the if-clause can be inverted (without 'if') for emphasis. 'Had' comes before the subject in past-to-present mixed conditionals.",
+      "structure": "Had + subject + past participle, would + base verb",
+      "examples": [
+        {
+          "sentence": "Had I known about the health risks, I would live differently now.",
+          "translation": "건강 위험에 대해 알았다면, 지금 다르게 살았을 것이다."
+        },
+        {
+          "sentence": "Had they invested in prevention, they wouldn't be dealing with this epidemic.",
+          "translation": "예방에 투자했다면, 이 전염병에 대처하고 있지 않았을 것이다."
+        },
+        {
+          "sentence": "Had the warning signs been taken seriously, the patient would be in better condition.",
+          "translation": "경고 신호를 심각하게 받아들였다면, 환자가 더 나은 상태였을 것이다."
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "title": "Mixed Conditionals with Continuous Aspect",
+      "explanation": "Mixed conditionals can also use continuous forms to emphasize ongoing states or actions.",
+      "structure": "If + had been + -ing, would be + -ing (now)",
+      "examples": [
+        {
+          "sentence": "If I had been exercising regularly, I would be feeling more energetic now.",
+          "translation": "규칙적으로 운동했다면, 지금 더 활력이 넘쳤을 것이다."
+        },
+        {
+          "sentence": "If she hadn't been overworking, she wouldn't be suffering from burnout.",
+          "translation": "그녀가 과로하지 않았다면, 번아웃으로 고통받지 않았을 것이다."
+        },
+        {
+          "sentence": "If the clinic had been providing better care, patients would be recovering faster.",
+          "translation": "클리닉이 더 나은 치료를 제공했다면, 환자들이 더 빨리 회복하고 있을 것이다."
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "If I _____ more vegetables when I was younger, I _____ healthier today.",
+      "options": ["ate / would be", "had eaten / would be", "had eaten / would have been", "eat / will be"],
+      "answer": "had eaten / would be"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "If she _____ (not smoke) for years, she wouldn't have lung problems now.",
+      "answer": "hadn't smoked"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "If he _____ afraid of doctors, he _____ for a check-up last month.",
+      "options": ["wasn't / would go", "weren't / would have gone", "hadn't been / would go", "isn't / would have gone"],
+      "answer": "weren't / would have gone"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "If I _____ (know) about the side effects, I wouldn't be taking this medication.",
+      "answer": "had known"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "_____ they invested in healthcare, they wouldn't be facing this crisis now.",
+      "options": ["If", "Had", "Were", "Should"],
+      "answer": "Had"
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "If he had exercised regularly, he _____ (not struggle) with his weight now.",
+      "answer": "wouldn't be struggling"
+    },
+    {
+      "id": "ex7",
+      "type": "transformation",
+      "instruction": "Rewrite using a mixed conditional (past cause, present result)",
+      "original": "I didn't take care of my health. Now I have problems.",
+      "answer": "If I had taken care of my health, I wouldn't have problems now."
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "If she were more careful about nutrition, she _____ that allergic reaction yesterday.",
+      "options": ["wouldn't have", "wouldn't have had", "won't have", "didn't have"],
+      "answer": "wouldn't have had"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "If he _____ (be) so stubborn, he would have seen a doctor earlier.",
+      "answer": "weren't"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "If they had built more hospitals, there _____ enough beds for patients.",
+      "options": ["would be", "would have been", "will be", "are"],
+      "answer": "would be"
+    }
+  ]
+}

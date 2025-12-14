@@ -1,0 +1,250 @@
+{
+  "id": "week-1-grammar",
+  "weekId": "week-1",
+  "type": "grammar",
+  "level": "B1",
+  "title": "Present Perfect for Life Experiences",
+  "description": "Master the Present Perfect tense to talk about experiences, achievements, and life changes.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Present Perfect: Form",
+      "explanation": "Use have/has + past participle to form the Present Perfect. Use 'have' with I/you/we/they and 'has' with he/she/it.",
+      "structure": "Subject + have/has + past participle",
+      "examples": [
+        {
+          "sentence": "I have lived in three different countries.",
+          "translation": "저는 세 나라에서 살아봤어요.",
+          "note": "have + lived (past participle)"
+        },
+        {
+          "sentence": "She has worked here for five years.",
+          "translation": "그녀는 여기서 5년 동안 일했어요.",
+          "note": "has + worked (past participle)"
+        },
+        {
+          "sentence": "They have visited Japan twice.",
+          "translation": "그들은 일본을 두 번 방문했어요.",
+          "note": "have + visited (past participle)"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Present Perfect for Experiences",
+      "explanation": "Use Present Perfect to talk about experiences in your life. The exact time is not important - only that it happened at some point before now.",
+      "keywords": ["ever", "never", "before", "once", "twice", "many times"],
+      "examples": [
+        {
+          "sentence": "Have you ever tried sushi?",
+          "translation": "초밥을 먹어본 적 있어요?",
+          "note": "'ever' in questions about experiences"
+        },
+        {
+          "sentence": "I have never been to Europe.",
+          "translation": "저는 유럽에 가본 적이 없어요.",
+          "note": "'never' for things you haven't experienced"
+        },
+        {
+          "sentence": "She has met the president before.",
+          "translation": "그녀는 전에 대통령을 만난 적이 있어요.",
+          "note": "'before' for past experiences"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Present Perfect for Recent Events",
+      "explanation": "Use Present Perfect to describe recent events that have a connection to now. Often used with 'just', 'already', 'yet', 'recently'.",
+      "keywords": ["just", "already", "yet", "recently", "lately"],
+      "examples": [
+        {
+          "sentence": "I have just finished my homework.",
+          "translation": "방금 숙제를 끝냈어요.",
+          "note": "'just' = a very short time ago"
+        },
+        {
+          "sentence": "She has already eaten lunch.",
+          "translation": "그녀는 이미 점심을 먹었어요.",
+          "note": "'already' = sooner than expected"
+        },
+        {
+          "sentence": "Have you finished the report yet?",
+          "translation": "아직 보고서 끝냈어요?",
+          "note": "'yet' in questions and negatives"
+        },
+        {
+          "sentence": "I haven't seen him recently.",
+          "translation": "최근에 그를 못 봤어요.",
+          "note": "'recently' = in the recent past"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Present Perfect vs. Past Simple",
+      "explanation": "Use Present Perfect when the time is NOT specific or important. Use Past Simple when you mention a SPECIFIC time (yesterday, last week, in 2020).",
+      "examples": [
+        {
+          "sentence": "I have been to Paris. (no specific time)",
+          "translation": "저는 파리에 가봤어요.",
+          "note": "Present Perfect - general experience"
+        },
+        {
+          "sentence": "I went to Paris last summer. (specific time)",
+          "translation": "저는 지난 여름에 파리에 갔어요.",
+          "note": "Past Simple - specific time mentioned"
+        },
+        {
+          "sentence": "She has lost her keys. (result now important)",
+          "translation": "그녀는 열쇠를 잃어버렸어요.",
+          "note": "Present Perfect - current relevance"
+        },
+        {
+          "sentence": "She lost her keys yesterday. (specific time)",
+          "translation": "그녀는 어제 열쇠를 잃어버렸어요.",
+          "note": "Past Simple - specific time"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Present Perfect with For and Since",
+      "explanation": "Use 'for' with a period of time (for three years, for a long time). Use 'since' with a point in time (since 2020, since Monday).",
+      "examples": [
+        {
+          "sentence": "I have worked here for five years.",
+          "translation": "저는 여기서 5년 동안 일했어요.",
+          "note": "'for' + period of time"
+        },
+        {
+          "sentence": "I have worked here since 2019.",
+          "translation": "저는 2019년부터 여기서 일했어요.",
+          "note": "'since' + point in time"
+        },
+        {
+          "sentence": "They have been married for ten years.",
+          "translation": "그들은 10년 동안 결혼 생활을 했어요.",
+          "note": "'for' + duration"
+        },
+        {
+          "sentence": "She has known him since high school.",
+          "translation": "그녀는 고등학교 때부터 그를 알았어요.",
+          "note": "'since' + starting point"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "title": "Common Irregular Past Participles",
+      "explanation": "Many common verbs have irregular past participles. You need to memorize these forms.",
+      "irregularForms": [
+        {"base": "be", "pastParticiple": "been", "example": "I have been to Tokyo."},
+        {"base": "do", "pastParticiple": "done", "example": "Have you done your homework?"},
+        {"base": "go", "pastParticiple": "gone", "example": "She has gone home."},
+        {"base": "see", "pastParticiple": "seen", "example": "I have seen that movie."},
+        {"base": "eat", "pastParticiple": "eaten", "example": "We have eaten already."},
+        {"base": "take", "pastParticiple": "taken", "example": "He has taken the test."},
+        {"base": "give", "pastParticiple": "given", "example": "They have given me a gift."},
+        {"base": "write", "pastParticiple": "written", "example": "I have written three books."},
+        {"base": "speak", "pastParticiple": "spoken", "example": "Have you spoken to her?"},
+        {"base": "make", "pastParticiple": "made", "example": "She has made a decision."}
+      ],
+      "examples": [
+        {
+          "sentence": "I have never eaten Indian food.",
+          "translation": "저는 인도 음식을 먹어본 적이 없어요.",
+          "note": "eat → eaten"
+        },
+        {
+          "sentence": "Have you ever spoken in public?",
+          "translation": "대중 앞에서 말해본 적 있어요?",
+          "note": "speak → spoken"
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "I _____ to Japan three times.",
+      "options": ["have been", "was", "have went", "did go"],
+      "answer": "have been"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "She has _____ (work) here for ten years.",
+      "answer": "worked"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "_____ you ever tried Mexican food?",
+      "options": ["Have", "Did", "Are", "Do"],
+      "answer": "Have"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "I have _____ (never / see) such a beautiful sunset.",
+      "answer": "never seen"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "We _____ in this house since 2015.",
+      "options": ["have lived", "live", "lived", "are living"],
+      "answer": "have lived"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "I have _____ finished my homework.",
+      "options": ["just", "yesterday", "ago", "last"],
+      "answer": "just"
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "They have been married _____ twenty years.",
+      "answer": "for"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "She has worked here _____ January.",
+      "options": ["since", "for", "from", "during"],
+      "answer": "since"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "Have you _____ (ever / eat) sushi?",
+      "answer": "ever eaten"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "He has already _____ the report.",
+      "options": ["written", "wrote", "write", "writing"],
+      "answer": "written"
+    },
+    {
+      "id": "ex11",
+      "type": "reorder",
+      "question": "Put in order: have / I / never / to / been / Africa",
+      "answer": "I have never been to Africa."
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "Which is correct for a general experience?",
+      "options": ["I have visited Rome.", "I visited Rome yesterday.", "I visit Rome.", "I will visit Rome."],
+      "answer": "I have visited Rome."
+    }
+  ]
+}

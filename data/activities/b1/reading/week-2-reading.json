@@ -1,0 +1,146 @@
+{
+  "id": "week-2-reading",
+  "weekId": "week-2",
+  "type": "reading",
+  "level": "B1",
+  "title": "The Future of Work",
+  "description": "Read about predictions and trends for how work will change in the coming years.",
+
+  "passage": {
+    "text": "The way we work is going to change dramatically in the next decade. Experts predict that technology, especially artificial intelligence, will transform many jobs and create entirely new ones.\n\nRemote work is likely to become even more common. Many companies have discovered that employees can be just as productive working from home. In the future, more people will probably work flexible hours and split their time between the office and home.\n\nAutomation is going to replace some jobs, particularly those involving repetitive tasks. However, experts believe that new jobs will emerge in fields like data science, renewable energy, and healthcare. The key will be adapting to change and learning new skills throughout your career.\n\nThe gig economy is expected to grow. More workers will probably choose to be freelancers, taking on short-term projects rather than permanent positions. This will offer more freedom but also less job security.\n\nEducation is also going to evolve. Traditional four-year degrees might become less important as employers focus more on specific skills. Online courses and professional certifications will probably become more valuable.\n\nWhat does this mean for workers today? Experts advise people to stay curious and keep learning. Those who are willing to adapt and develop new skills will likely thrive in the changing job market. The future of work may be uncertain, but it also offers exciting possibilities for those who are prepared.",
+    "wordCount": 230,
+    "estimatedReadingTime": 3
+  },
+
+  "vocabulary": [
+    {
+      "word": "dramatically",
+      "meaning": "in a very noticeable way",
+      "translation": "극적으로"
+    },
+    {
+      "word": "transform",
+      "meaning": "to change completely",
+      "translation": "변형시키다"
+    },
+    {
+      "word": "automation",
+      "meaning": "using machines to do work",
+      "translation": "자동화"
+    },
+    {
+      "word": "emerge",
+      "meaning": "to appear or come into existence",
+      "translation": "나타나다, 등장하다"
+    },
+    {
+      "word": "gig economy",
+      "meaning": "a labor market with short-term contracts",
+      "translation": "긱 경제 (프리랜서 경제)"
+    },
+    {
+      "word": "thrive",
+      "meaning": "to grow or develop successfully",
+      "translation": "번창하다"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "According to the passage, what will transform many jobs?",
+      "options": ["Remote work", "Technology and AI", "Flexible hours", "Education"],
+      "answer": "Technology and AI",
+      "explanation": "The passage says 'technology, especially artificial intelligence, will transform many jobs.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Remote work is expected to decrease in the future.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage states 'Remote work is likely to become even more common.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What have many companies discovered about remote work?",
+      "options": ["Employees are less productive", "Employees can be just as productive", "It costs more money", "It causes problems"],
+      "answer": "Employees can be just as productive",
+      "explanation": "The passage says 'employees can be just as productive working from home.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "Which types of jobs will automation likely replace?",
+      "options": ["Creative jobs", "Jobs with repetitive tasks", "Management jobs", "Healthcare jobs"],
+      "answer": "Jobs with repetitive tasks",
+      "explanation": "The passage says automation will replace 'those involving repetitive tasks.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Experts believe no new jobs will be created.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Experts believe 'new jobs will emerge in fields like data science, renewable energy, and healthcare.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What is the gig economy?",
+      "options": ["A type of music industry", "Working on short-term projects", "A new company", "A government program"],
+      "answer": "Working on short-term projects",
+      "explanation": "The gig economy involves 'taking on short-term projects rather than permanent positions.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What might become less important according to the passage?",
+      "options": ["Online courses", "Professional certifications", "Traditional four-year degrees", "Specific skills"],
+      "answer": "Traditional four-year degrees",
+      "explanation": "The passage says 'Traditional four-year degrees might become less important.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Online courses and certifications will probably become more valuable.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage states 'Online courses and professional certifications will probably become more valuable.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What do experts advise workers to do?",
+      "options": ["Stay in the same job", "Stay curious and keep learning", "Avoid technology", "Work longer hours"],
+      "answer": "Stay curious and keep learning",
+      "explanation": "The passage says 'Experts advise people to stay curious and keep learning.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "Who will likely succeed in the future job market?",
+      "options": ["Those with degrees", "Those who resist change", "Those willing to adapt", "Those who work alone"],
+      "answer": "Those willing to adapt",
+      "explanation": "The passage says 'Those who are willing to adapt and develop new skills will likely thrive.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "Name two fields where new jobs will emerge.",
+      "answer": "data science and renewable energy",
+      "alternateAnswers": ["renewable energy and healthcare", "data science and healthcare", "healthcare and renewable energy"],
+      "explanation": "The passage mentions 'data science, renewable energy, and healthcare.'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "What is the overall tone of the passage about the future?",
+      "options": ["Completely negative", "Hopeful but realistic", "Indifferent", "Angry"],
+      "answer": "Hopeful but realistic",
+      "explanation": "The passage acknowledges uncertainty but says 'it also offers exciting possibilities.'"
+    }
+  ]
+}

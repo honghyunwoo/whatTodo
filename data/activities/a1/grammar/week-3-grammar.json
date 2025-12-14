@@ -1,0 +1,163 @@
+{
+  "id": "week-3-grammar",
+  "weekId": "week-3",
+  "type": "grammar",
+  "level": "A2",
+  "title": "과거시제 (Simple Past)",
+  "description": "과거에 일어난 일을 표현하는 과거시제를 학습합니다.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "rule": "규칙 동사의 과거형",
+      "explanation": "규칙 동사는 동사 원형에 -ed를 붙여 과거형을 만듭니다. (예: play → played, walk → walked)",
+      "examples": [
+        {
+          "sentence": "I played soccer yesterday.",
+          "translation": "나는 어제 축구를 했습니다."
+        },
+        {
+          "sentence": "She walked to school this morning.",
+          "translation": "그녀는 오늘 아침 학교까지 걸어갔습니다."
+        },
+        {
+          "sentence": "We watched a movie last night.",
+          "translation": "우리는 어젯밤 영화를 봤습니다."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "rule": "불규칙 동사의 과거형",
+      "explanation": "불규칙 동사는 -ed를 붙이지 않고 특별한 형태로 변합니다. (예: go → went, eat → ate, have → had)",
+      "examples": [
+        {
+          "sentence": "I went to the park yesterday.",
+          "translation": "나는 어제 공원에 갔습니다."
+        },
+        {
+          "sentence": "He ate pizza for lunch.",
+          "translation": "그는 점심으로 피자를 먹었습니다."
+        },
+        {
+          "sentence": "We had a great time.",
+          "translation": "우리는 즐거운 시간을 보냈습니다."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "rule": "과거시제의 부정문과 의문문",
+      "explanation": "과거시제의 부정문은 'did not (didn't) + 동사원형', 의문문은 'Did + 주어 + 동사원형?'을 사용합니다.",
+      "examples": [
+        {
+          "sentence": "I didn't go to school yesterday.",
+          "translation": "나는 어제 학교에 가지 않았습니다."
+        },
+        {
+          "sentence": "Did you watch TV last night?",
+          "translation": "어젯밤에 TV를 봤나요?"
+        },
+        {
+          "sentence": "She didn't eat breakfast this morning.",
+          "translation": "그녀는 오늘 아침 아침식사를 하지 않았습니다."
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "I ___ soccer yesterday.",
+      "options": ["play", "played", "plays", "playing"],
+      "answer": "played",
+      "explanation": "어제(yesterday)는 과거 시간이므로 과거형 'played'를 사용합니다."
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "She ___ to Seoul last week.",
+      "options": ["go", "goes", "went", "going"],
+      "answer": "went",
+      "explanation": "'go'의 과거형은 불규칙 동사로 'went'입니다."
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "We ___ a movie last night.",
+      "options": ["watch", "watched", "watches", "watching"],
+      "answer": "watched",
+      "explanation": "어젯밤(last night)은 과거 시간이므로 'watched'를 사용합니다."
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "I ___ pizza for dinner. (eat의 과거형)",
+      "answer": "ate",
+      "explanation": "'eat'의 과거형은 불규칙 동사로 'ate'입니다."
+    },
+    {
+      "id": "ex5",
+      "type": "fill_blank",
+      "question": "They ___ homework yesterday. (do의 과거형)",
+      "answer": "did",
+      "explanation": "'do'의 과거형은 불규칙 동사로 'did'입니다."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "I ___ not go to school yesterday.",
+      "options": ["do", "does", "did", "done"],
+      "answer": "did",
+      "explanation": "과거시제 부정문은 'did not (didn't) + 동사원형'을 사용합니다."
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "___ you watch TV last night?",
+      "options": ["Do", "Does", "Did", "Done"],
+      "answer": "Did",
+      "explanation": "과거시제 의문문은 'Did + 주어 + 동사원형?'을 사용합니다."
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "He ___ a book yesterday. (read의 과거형)",
+      "answer": "read",
+      "explanation": "'read'의 과거형도 'read'이지만 발음이 [red]로 다릅니다."
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "We ___ at home last Sunday. (be동사의 과거형 - We)",
+      "answer": "were",
+      "explanation": "'We'의 be동사 과거형은 'were'입니다."
+    },
+    {
+      "id": "ex10",
+      "type": "sentence_ordering",
+      "question": "다음 단어를 올바른 순서로 배열하세요: [yesterday, I, to, went, park, the]",
+      "options": ["yesterday", "I", "to", "went", "park", "the"],
+      "answer": ["I", "went", "to", "the", "park", "yesterday"],
+      "explanation": "과거시제: 주어(I) + 과거동사(went) + to the park + 과거 시간(yesterday) 순서입니다."
+    },
+    {
+      "id": "ex11",
+      "type": "sentence_ordering",
+      "question": "다음 단어를 올바른 순서로 배열하세요: [didn't, She, breakfast, eat, this morning]",
+      "options": ["didn't", "She", "breakfast", "eat", "this morning"],
+      "answer": ["She", "didn't", "eat", "breakfast", "this morning"],
+      "explanation": "부정문: 주어(She) + didn't + 동사원형(eat) + 목적어 + 시간 순서입니다."
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "My brother ___ a new car last month.",
+      "options": ["buy", "buys", "bought", "buying"],
+      "answer": "bought",
+      "explanation": "'buy'의 과거형은 불규칙 동사로 'bought'입니다."
+    }
+  ]
+}

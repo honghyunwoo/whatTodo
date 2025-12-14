@@ -1,0 +1,323 @@
+{
+  "id": "week-3-vocab",
+  "weekId": "week-3",
+  "type": "vocabulary",
+  "level": "B2",
+  "title": "Global Issues",
+  "description": "Learn vocabulary for discussing international challenges, conflicts, and humanitarian issues.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "humanitarian",
+      "pronunciation": "/hjuːˌmænɪˈteəriən/",
+      "meaning": "concerned with reducing suffering and improving lives",
+      "translation": "인도주의적인",
+      "example": "The humanitarian crisis requires immediate international action.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w2",
+      "word": "refugee",
+      "pronunciation": "/ˌrefjʊˈdʒiː/",
+      "meaning": "a person forced to flee their country",
+      "translation": "난민",
+      "example": "Millions of refugees have fled the conflict zone.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w3",
+      "word": "inequality",
+      "pronunciation": "/ˌɪnɪˈkwɒləti/",
+      "meaning": "unfair difference between groups in society",
+      "translation": "불평등",
+      "example": "Economic inequality continues to widen globally.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w4",
+      "word": "poverty",
+      "pronunciation": "/ˈpɒvəti/",
+      "meaning": "the state of being extremely poor",
+      "translation": "빈곤",
+      "example": "Extreme poverty affects billions worldwide.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w5",
+      "word": "conflict",
+      "pronunciation": "/ˈkɒnflɪkt/",
+      "meaning": "a serious disagreement or armed fighting",
+      "translation": "분쟁, 갈등",
+      "example": "The conflict has displaced thousands of families.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w6",
+      "word": "diplomacy",
+      "pronunciation": "/dɪˈpləʊməsi/",
+      "meaning": "managing international relations through negotiation",
+      "translation": "외교",
+      "example": "Diplomacy is essential for peaceful resolution.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w7",
+      "word": "sanction",
+      "pronunciation": "/ˈsæŋkʃn/",
+      "meaning": "a penalty imposed on a country for violations",
+      "translation": "제재",
+      "example": "Economic sanctions were imposed on the regime.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w8",
+      "word": "treaty",
+      "pronunciation": "/ˈtriːti/",
+      "meaning": "a formal agreement between countries",
+      "translation": "조약",
+      "example": "The countries signed a peace treaty.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w9",
+      "word": "epidemic",
+      "pronunciation": "/ˌepɪˈdemɪk/",
+      "meaning": "widespread occurrence of a disease",
+      "translation": "전염병",
+      "example": "The epidemic spread rapidly across borders.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w10",
+      "word": "famine",
+      "pronunciation": "/ˈfæmɪn/",
+      "meaning": "extreme scarcity of food",
+      "translation": "기근",
+      "example": "Famine threatens the entire region.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w11",
+      "word": "sustainable",
+      "pronunciation": "/səˈsteɪnəbl/",
+      "meaning": "able to be maintained without damaging the environment",
+      "translation": "지속 가능한",
+      "example": "Sustainable development benefits future generations.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w12",
+      "word": "migration",
+      "pronunciation": "/maɪˈɡreɪʃn/",
+      "meaning": "movement of people to new areas",
+      "translation": "이주",
+      "example": "Climate change is causing mass migration.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w13",
+      "word": "corruption",
+      "pronunciation": "/kəˈrʌpʃn/",
+      "meaning": "dishonest behavior by those in power",
+      "translation": "부패",
+      "example": "Government corruption hinders development.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w14",
+      "word": "intervention",
+      "pronunciation": "/ˌɪntəˈvenʃn/",
+      "meaning": "action taken to improve a situation",
+      "translation": "개입",
+      "example": "Military intervention remains controversial.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w15",
+      "word": "sovereignty",
+      "pronunciation": "/ˈsɒvrənti/",
+      "meaning": "supreme power of a country to govern itself",
+      "translation": "주권",
+      "example": "Nations are protective of their sovereignty.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w16",
+      "word": "genocide",
+      "pronunciation": "/ˈdʒenəsaɪd/",
+      "meaning": "deliberate killing of a large group of people",
+      "translation": "대량학살, 집단학살",
+      "example": "The international community must prevent genocide.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w17",
+      "word": "exploit",
+      "pronunciation": "/ɪkˈsplɔɪt/",
+      "meaning": "to use unfairly for one's advantage",
+      "translation": "착취하다",
+      "example": "Some corporations exploit workers in developing nations.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w18",
+      "word": "deteriorate",
+      "pronunciation": "/dɪˈtɪəriəreɪt/",
+      "meaning": "to become progressively worse",
+      "translation": "악화되다",
+      "example": "Relations between the countries have deteriorated.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w19",
+      "word": "collaborate",
+      "pronunciation": "/kəˈlæbəreɪt/",
+      "meaning": "to work together on a common goal",
+      "translation": "협력하다",
+      "example": "Nations must collaborate to address climate change.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w20",
+      "word": "stabilize",
+      "pronunciation": "/ˈsteɪbəlaɪz/",
+      "meaning": "to make or become steady",
+      "translation": "안정시키다",
+      "example": "Efforts to stabilize the region continue.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w21",
+      "word": "controversial",
+      "pronunciation": "/ˌkɒntrəˈvɜːʃl/",
+      "meaning": "causing disagreement or debate",
+      "translation": "논란이 되는",
+      "example": "Foreign aid policies remain controversial.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w22",
+      "word": "devastating",
+      "pronunciation": "/ˈdevəsteɪtɪŋ/",
+      "meaning": "causing severe damage or shock",
+      "translation": "파괴적인",
+      "example": "The earthquake had devastating effects.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w23",
+      "word": "underlying",
+      "pronunciation": "/ˌʌndəˈlaɪɪŋ/",
+      "meaning": "fundamental; being at the root of something",
+      "translation": "근본적인",
+      "example": "We must address the underlying causes of conflict.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w24",
+      "word": "marginalized",
+      "pronunciation": "/ˈmɑːdʒɪnəlaɪzd/",
+      "meaning": "treated as unimportant; excluded",
+      "translation": "소외된",
+      "example": "Marginalized communities need greater support.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w25",
+      "word": "prosperity",
+      "pronunciation": "/prɒˈsperəti/",
+      "meaning": "state of being successful or wealthy",
+      "translation": "번영",
+      "example": "Peace is essential for economic prosperity.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w26",
+      "word": "disparity",
+      "pronunciation": "/dɪˈspærəti/",
+      "meaning": "great difference or inequality",
+      "translation": "격차",
+      "example": "The wealth disparity continues to grow.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w27",
+      "word": "oppression",
+      "pronunciation": "/əˈpreʃn/",
+      "meaning": "cruel or unfair treatment of people",
+      "translation": "억압",
+      "example": "People fought against political oppression.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w28",
+      "word": "accountability",
+      "pronunciation": "/əˌkaʊntəˈbɪləti/",
+      "meaning": "responsibility for one's actions",
+      "translation": "책임",
+      "example": "There must be accountability for human rights violations.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w29",
+      "word": "advocacy",
+      "pronunciation": "/ˈædvəkəsi/",
+      "meaning": "public support for a cause",
+      "translation": "옹호, 지지",
+      "example": "Advocacy groups pressure governments for change.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w30",
+      "word": "reconciliation",
+      "pronunciation": "/ˌrekənsɪliˈeɪʃn/",
+      "meaning": "restoration of friendly relations",
+      "translation": "화해",
+      "example": "Reconciliation is necessary after years of conflict.",
+      "partOfSpeech": "noun"
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "instruction": "Match the words with their definitions",
+      "pairs": [
+        { "word": "refugee", "definition": "a person forced to flee their country" },
+        { "word": "sanction", "definition": "a penalty imposed on a country" },
+        { "word": "sovereignty", "definition": "supreme power of a country to govern itself" },
+        { "word": "reconciliation", "definition": "restoration of friendly relations" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "instruction": "Complete the sentences with the correct words",
+      "sentences": [
+        { "sentence": "The _____ crisis has affected millions of civilians.", "answer": "humanitarian" },
+        { "sentence": "International _____ helped avoid a military conflict.", "answer": "diplomacy" },
+        { "sentence": "Economic _____ were imposed after the human rights violations.", "answer": "sanctions" },
+        { "sentence": "We need to address the _____ causes of poverty.", "answer": "underlying" }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "instruction": "Choose the best word to complete each sentence",
+      "questions": [
+        {
+          "question": "The two countries finally achieved _____ after decades of conflict.",
+          "options": ["corruption", "reconciliation", "oppression", "disparity"],
+          "answer": "reconciliation"
+        },
+        {
+          "question": "Climate change has caused mass _____ from coastal areas.",
+          "options": ["intervention", "advocacy", "migration", "treaty"],
+          "answer": "migration"
+        }
+      ]
+    }
+  ]
+}

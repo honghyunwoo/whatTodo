@@ -1,0 +1,165 @@
+{
+  "id": "week-3-reading",
+  "weekId": "week-3",
+  "type": "reading",
+  "level": "A2",
+  "title": "주말 여행 이야기",
+  "description": "과거에 있었던 주말 여행에 대한 글을 읽고 이해합니다.",
+
+  "passage": {
+    "text": "Last weekend, my family and I went on a trip to the mountains. We left home early on Saturday morning and drove for two hours.\n\nWhen we arrived, the weather was beautiful. The sky was blue and the air was fresh. We hiked up a mountain trail and saw many beautiful flowers and trees. At the top of the mountain, we ate our packed lunch and enjoyed the amazing view.\n\nIn the afternoon, we visited a small village near the mountains. The people there were very friendly. We bought some fresh vegetables and fruits from a local market.\n\nOn Sunday morning, we went fishing at a lake. My brother caught three fish! We cooked the fish for lunch and they were delicious.\n\nWe came back home on Sunday evening. Everyone was tired but happy. It was one of the best weekends ever!",
+    "wordCount": 147,
+    "estimatedReadingTime": 4,
+    "audioText": "Last weekend, my family and I went on a trip to the mountains. We left home early on Saturday morning and drove for two hours. [PAUSE] When we arrived, the weather was beautiful. The sky was blue and the air was fresh. We hiked up a mountain trail and saw many beautiful flowers and trees. At the top of the mountain, we ate our packed lunch and enjoyed the amazing view. [PAUSE] In the afternoon, we visited a small village near the mountains. The people there were very friendly. We bought some fresh vegetables and fruits from a local market. [PAUSE] On Sunday morning, we went fishing at a lake. My brother caught three fish! We cooked the fish for lunch and they were delicious. [PAUSE] We came back home on Sunday evening. Everyone was tired but happy. It was one of the best weekends ever!"
+  },
+
+  "vocabulary": [
+    {
+      "word": "trip",
+      "meaning": "여행",
+      "lineNumber": 1
+    },
+    {
+      "word": "mountains",
+      "meaning": "산",
+      "lineNumber": 1
+    },
+    {
+      "word": "drove",
+      "meaning": "운전했다 (drive의 과거)",
+      "lineNumber": 1
+    },
+    {
+      "word": "weather",
+      "meaning": "날씨",
+      "lineNumber": 3
+    },
+    {
+      "word": "hiked",
+      "meaning": "하이킹했다",
+      "lineNumber": 3
+    },
+    {
+      "word": "trail",
+      "meaning": "오솔길",
+      "lineNumber": 3
+    },
+    {
+      "word": "view",
+      "meaning": "경치, 전망",
+      "lineNumber": 3
+    },
+    {
+      "word": "village",
+      "meaning": "마을",
+      "lineNumber": 5
+    },
+    {
+      "word": "friendly",
+      "meaning": "친절한",
+      "lineNumber": 5
+    },
+    {
+      "word": "caught",
+      "meaning": "잡았다 (catch의 과거)",
+      "lineNumber": 7
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "When did the family go on the trip?",
+      "options": ["Last weekend", "This weekend", "Next weekend", "Last month"],
+      "answer": "Last weekend",
+      "explanation": "지문 첫 문장에서 'Last weekend'라고 시작합니다."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "Where did they go?",
+      "options": ["Beach", "Mountains", "City", "Desert"],
+      "answer": "Mountains",
+      "explanation": "가족은 산으로 여행을 갔습니다. (went on a trip to the mountains)"
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "question": "How long did it take to drive there?",
+      "answer": "2",
+      "explanation": "운전하는 데 2시간이 걸렸습니다. (drove for two hours)"
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "question": "The weather was bad when they arrived.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "날씨는 좋았습니다. (the weather was beautiful)"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What did they do on Saturday?",
+      "options": ["Went fishing", "Hiked up a mountain", "Went shopping", "Visited a museum"],
+      "answer": "Hiked up a mountain",
+      "explanation": "토요일에 그들은 산을 하이킹했습니다."
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What did they eat at the top of the mountain?",
+      "options": ["Restaurant food", "Packed lunch", "Snacks", "Nothing"],
+      "answer": "Packed lunch",
+      "explanation": "산 정상에서 싸온 점심을 먹었습니다. (ate our packed lunch)"
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "The people in the village were friendly.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "마을 사람들은 매우 친절했습니다. (The people there were very friendly)"
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "What did they buy at the local market?",
+      "options": ["Vegetables and fruits", "Clothes", "Toys", "Books"],
+      "answer": "Vegetables and fruits",
+      "explanation": "현지 시장에서 신선한 채소와 과일을 샀습니다."
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "question": "How many fish did the brother catch?",
+      "answer": "3",
+      "explanation": "남동생은 물고기 3마리를 잡았습니다."
+    },
+    {
+      "id": "q10",
+      "type": "true_false",
+      "question": "They cooked and ate the fish.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "그들은 물고기를 요리해서 먹었습니다. (We cooked the fish for lunch)"
+    },
+    {
+      "id": "q11",
+      "type": "multiple_choice",
+      "question": "When did they come back home?",
+      "options": ["Saturday evening", "Sunday morning", "Sunday evening", "Monday morning"],
+      "answer": "Sunday evening",
+      "explanation": "일요일 저녁에 집에 돌아왔습니다."
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "Everyone felt happy after the trip.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "모두가 피곤했지만 행복했습니다. (Everyone was tired but happy)"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": "week-1-writing",
+  "weekId": "week-1",
+  "type": "writing",
+  "level": "B2",
+  "title": "Writing About Media and News",
+  "description": "Write about your news consumption habits and opinions on media reliability.",
+
+  "prompt": {
+    "topic": "The Future of News Media",
+    "description": "Write an essay discussing how news consumption has changed and what challenges modern media faces. Include your personal experience with evaluating news sources and suggest what can be done to combat misinformation.",
+    "requirements": [
+      "Describe how news consumption has changed over time",
+      "Discuss the advantages and disadvantages of digital media",
+      "Share your personal experience with verifying information",
+      "Use at least three past perfect structures",
+      "Suggest solutions for improving media literacy"
+    ],
+    "wordCount": {
+      "min": 180,
+      "max": 250
+    },
+    "timeLimit": 30
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "Before the internet became widespread, people had relied primarily on newspapers and television for news.",
+      "translation": "인터넷이 널리 보급되기 전에 사람들은 주로 신문과 텔레비전에 의존해서 뉴스를 접했다.",
+      "useCase": "To describe the past situation before a change"
+    },
+    {
+      "id": "ex2",
+      "sentence": "I had never questioned news sources until I encountered obvious misinformation.",
+      "translation": "명백한 오보를 접하기 전까지 나는 뉴스 출처를 의심해 본 적이 없었다.",
+      "useCase": "To describe a past experience that changed your perspective"
+    },
+    {
+      "id": "ex3",
+      "sentence": "By the time fact-checkers investigated the story, millions had already shared it.",
+      "translation": "팩트체커들이 그 기사를 조사했을 때 이미 수백만 명이 공유한 뒤였다.",
+      "useCase": "To show the sequence of events and their consequences"
+    },
+    {
+      "id": "ex4",
+      "sentence": "The rise of social media has fundamentally transformed how we consume information.",
+      "translation": "소셜 미디어의 부상은 우리가 정보를 소비하는 방식을 근본적으로 변화시켰다.",
+      "useCase": "To discuss the impact of technological change"
+    },
+    {
+      "id": "ex5",
+      "sentence": "While digital media offers unprecedented access to information, it also presents significant challenges.",
+      "translation": "디지털 미디어는 전례 없는 정보 접근성을 제공하지만, 상당한 도전 과제도 제시한다.",
+      "useCase": "To present a balanced view with advantages and disadvantages"
+    },
+    {
+      "id": "ex6",
+      "sentence": "If schools had taught media literacy earlier, we might have been better prepared for the digital age.",
+      "translation": "학교에서 미디어 리터러시를 더 일찍 가르쳤다면, 우리는 디지털 시대에 더 잘 대비했을지도 모른다.",
+      "useCase": "To speculate about alternative past outcomes"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "misinformation",
+      "translation": "오보, 잘못된 정보",
+      "example": "Social media can spread misinformation rapidly."
+    },
+    {
+      "word": "verify",
+      "translation": "확인하다, 검증하다",
+      "example": "I always verify news before sharing it."
+    },
+    {
+      "word": "reliable",
+      "translation": "신뢰할 수 있는",
+      "example": "It's important to find reliable news sources."
+    },
+    {
+      "word": "bias",
+      "translation": "편견, 편향",
+      "example": "Every news outlet has some degree of bias."
+    },
+    {
+      "word": "credibility",
+      "translation": "신뢰성",
+      "example": "Journalists must maintain their credibility."
+    },
+    {
+      "word": "unprecedented",
+      "translation": "전례 없는",
+      "example": "We have unprecedented access to information."
+    },
+    {
+      "word": "sensational",
+      "translation": "선정적인",
+      "example": "Sensational headlines attract more clicks."
+    },
+    {
+      "word": "skeptical",
+      "translation": "회의적인",
+      "example": "We should be skeptical of unverified claims."
+    }
+  ],
+
+  "usefulExpressions": [
+    {
+      "expression": "The way we consume news has changed dramatically...",
+      "usage": "To introduce the topic of media transformation",
+      "example": "The way we consume news has changed dramatically over the past decade."
+    },
+    {
+      "expression": "Before..., people had...",
+      "usage": "To contrast past and present situations",
+      "example": "Before social media existed, people had trusted traditional outlets more."
+    },
+    {
+      "expression": "While... offers benefits, it also...",
+      "usage": "To present a balanced argument",
+      "example": "While digital media offers convenience, it also creates challenges."
+    },
+    {
+      "expression": "In my experience...",
+      "usage": "To introduce personal perspective",
+      "example": "In my experience, verifying information takes only a few minutes."
+    },
+    {
+      "expression": "To address this issue, we need to...",
+      "usage": "To propose solutions",
+      "example": "To address this issue, we need to improve media literacy education."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "Content Requirements",
+      "items": [
+        "Did you describe how news consumption has changed?",
+        "Did you discuss both advantages and disadvantages of digital media?",
+        "Did you share personal experience with verifying information?",
+        "Did you use at least three past perfect structures?",
+        "Did you suggest solutions for improving media literacy?"
+      ]
+    },
+    {
+      "category": "Grammar & Structure",
+      "items": [
+        "Did you use past perfect correctly (had + past participle)?",
+        "Did you use narrative tenses appropriately to sequence events?",
+        "Did you vary your sentence structures?",
+        "Did you organize your ideas logically with clear paragraphs?"
+      ]
+    },
+    {
+      "category": "Vocabulary & Style",
+      "items": [
+        "Did you use appropriate media-related vocabulary?",
+        "Did you avoid repetition by using synonyms?",
+        "Did you use linking words to connect ideas?",
+        "Did you maintain a formal, academic tone?"
+      ]
+    },
+    {
+      "category": "Word Count & Completion",
+      "items": [
+        "Is your essay at least 180 words?",
+        "Is your essay no more than 250 words?",
+        "Does your essay have a clear introduction, body, and conclusion?",
+        "Did you complete within the time limit?"
+      ]
+    }
+  ]
+}

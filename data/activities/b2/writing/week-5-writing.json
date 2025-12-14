@@ -1,0 +1,130 @@
+{
+  "id": "week-5-writing",
+  "weekId": "week-5",
+  "type": "writing",
+  "level": "B2",
+  "title": "Reflecting on Cultural Experiences",
+  "description": "Write a reflective essay about a cultural experience, expressing what you wish had been different and what you hope for the future.",
+
+  "prompt": {
+    "topic": "A Cultural Experience That Could Have Been Better",
+    "scenario": "Write about a cultural experience you have had (such as visiting a museum, attending a concert, watching a film, or seeing a play). Reflect on what you enjoyed, what you wish had been different, and what changes you would like to see in the future.",
+    "requirements": [
+      "Describe the cultural experience you had",
+      "Express at least two things you wish had been different about the experience",
+      "Use 'wish', 'if only', or 'it's time' structures throughout",
+      "Discuss what changes you hope to see in the future",
+      "Include appropriate arts and entertainment vocabulary"
+    ],
+    "wordCount": { "min": 180, "max": 250 },
+    "timeLimit": 25
+  },
+
+  "writingHelp": {
+    "structure": {
+      "introduction": [
+        "Last month, I had the opportunity to...",
+        "Recently, I attended/visited...",
+        "One of my most memorable cultural experiences was..."
+      ],
+      "bodyParagraphs": [
+        "While the experience was enjoyable, I wish...",
+        "If only the [venue/performance/exhibition] had...",
+        "The most disappointing aspect was... I wish...",
+        "Looking back, I'd rather...",
+        "It's time that [organizations/venues] started to..."
+      ],
+      "conclusion": [
+        "Despite these issues, I still believe...",
+        "In the future, I hope that...",
+        "If only more people appreciated... the arts would flourish."
+      ]
+    },
+    "usefulExpressions": [
+      { "phrase": "I wish I had", "example": "I wish I had arrived earlier to avoid the crowds." },
+      { "phrase": "If only...were", "example": "If only tickets were more affordable for students." },
+      { "phrase": "I wish...would", "example": "I wish venues would provide better seating arrangements." },
+      { "phrase": "It's high time", "example": "It's high time theaters offered more diverse programming." },
+      { "phrase": "I'd rather", "example": "I'd rather the museum offered guided tours for beginners." }
+    ],
+    "connectors": {
+      "contrast": ["However", "Nevertheless", "On the other hand", "Despite this"],
+      "addition": ["Furthermore", "Moreover", "In addition", "Additionally"],
+      "conclusion": ["Overall", "In conclusion", "To sum up", "All in all"],
+      "cause_effect": ["As a result", "Consequently", "Therefore"]
+    },
+    "vocabularyBank": [
+      "exhibition", "performance", "venue", "audience", "appreciation",
+      "contemporary", "classical", "masterpiece", "captivating",
+      "accessible", "affordable", "diverse", "inclusive"
+    ]
+  },
+
+  "rubric": {
+    "content": {
+      "weight": 0.25,
+      "criteria": [
+        "Clear description of the cultural experience",
+        "At least two specific wishes or regrets expressed",
+        "Thoughtful reflection on the experience",
+        "Suggestions for future improvements"
+      ]
+    },
+    "grammar": {
+      "weight": 0.30,
+      "criteria": [
+        "Correct use of 'wish + past simple' for present situations",
+        "Correct use of 'wish + past perfect' for past regrets",
+        "Appropriate use of 'if only', 'it's time', and 'would rather'",
+        "Consistent tense usage throughout"
+      ]
+    },
+    "vocabulary": {
+      "weight": 0.25,
+      "criteria": [
+        "Use of arts and entertainment vocabulary",
+        "Varied word choice",
+        "Appropriate register for reflective writing",
+        "Correct collocations"
+      ]
+    },
+    "organization": {
+      "weight": 0.20,
+      "criteria": [
+        "Clear introduction, body, and conclusion",
+        "Logical flow of ideas",
+        "Effective use of connectors",
+        "Coherent paragraphing"
+      ]
+    }
+  },
+
+  "sampleAnswer": {
+    "text": "Last month, I attended a contemporary art exhibition at the city gallery. While I appreciated the opportunity to see new works, I found myself wishing the experience had been quite different in several ways.\n\nFirst, I wish the exhibition had included more information about the artists and their work. The descriptions were minimal, and I often felt lost. If only the gallery had provided audio guides or more detailed plaques, I could have understood the pieces better. As someone relatively new to contemporary art, I'd rather have had some guidance than wandered around feeling confused.\n\nSecond, I wish the venue weren't so crowded on weekends. It was nearly impossible to appreciate the artwork with so many people pushing past. If only I had visited on a weekday, but my work schedule doesn't allow it. It's time galleries implemented timed entry systems to manage the flow of visitors.\n\nOn the positive side, the gallery space itself was beautiful, and some pieces were truly captivating. I particularly wish I could have spent more time with a stunning video installation, but the crowd made it difficult.\n\nDespite these frustrations, I still believe art exhibitions are valuable. I wish more people would visit galleries to expand their cultural horizons. If only arts education were more widely available, perhaps appreciation for such experiences would grow.",
+    "wordCount": 218,
+    "annotations": [
+      { "text": "I found myself wishing the experience had been", "comment": "Wish + past perfect for regret" },
+      { "text": "I wish the exhibition had included", "comment": "Wish + past perfect" },
+      { "text": "If only the gallery had provided", "comment": "If only + past perfect" },
+      { "text": "I'd rather have had", "comment": "Would rather + perfect infinitive" },
+      { "text": "I wish the venue weren't so crowded", "comment": "Wish + past simple (subjunctive)" },
+      { "text": "If only I had visited", "comment": "If only + past perfect" },
+      { "text": "It's time galleries implemented", "comment": "It's time + past simple" },
+      { "text": "I wish I could have spent", "comment": "Wish + could have + past participle" },
+      { "text": "I wish more people would visit", "comment": "Wish + would for desire" },
+      { "text": "If only arts education were more widely available", "comment": "If only + past subjunctive" }
+    ]
+  },
+
+  "selfCheckList": [
+    "Did I clearly describe my cultural experience?",
+    "Did I use 'wish + past perfect' to express regret about the past?",
+    "Did I use 'wish + past simple' for present situations I want different?",
+    "Did I use 'wish + would' for desires about others' behavior?",
+    "Did I include 'if only' or 'it's time' structures?",
+    "Did I use appropriate arts and entertainment vocabulary?",
+    "Did I suggest improvements for the future?",
+    "Did I organize my essay with clear paragraphs?",
+    "Is my essay within the word count (180-250 words)?"
+  ]
+}

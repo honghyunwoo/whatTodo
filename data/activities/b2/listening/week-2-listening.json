@@ -1,0 +1,144 @@
+{
+  "id": "week-2-listening",
+  "weekId": "week-2",
+  "type": "listening",
+  "level": "B2",
+  "title": "Workplace Conversation",
+  "description": "Listen to colleagues discussing workplace changes and career decisions.",
+
+  "audio": {
+    "text": "Rachel: Hey Marcus, have you heard anything about the restructuring? People are saying the company might be planning layoffs.\nMarcus: I've heard the rumors too. There must be some truth to them because management has been having closed-door meetings all week.\nRachel: That's worrying. Do you think our department could be affected?\nMarcus: It's hard to say. We hit our targets last quarter, so we should be safe. But you never know in these situations.\nRachel: True. Sarah from marketing was telling me she might be looking for new opportunities. She must be worried about her position.\nMarcus: I wouldn't be surprised. Marketing had some budget cuts recently. She could have seen the writing on the wall.\nRachel: Speaking of changes, did you hear that James resigned yesterday?\nMarcus: James? The senior developer? He can't have! He's been here for fifteen years.\nRachel: I know, it shocked everyone. He must have had a really good offer from somewhere else.\nMarcus: Or maybe he couldn't have been happy here anymore. He's been complaining about the workload for months.\nRachel: That's true. He might have finally reached his breaking point. Work-life balance has been terrible lately.\nMarcus: It makes you think, doesn't it? I've been considering my options too. My friend thinks I should negotiate for a raise.\nRachel: That could be a good idea. You should definitely be earning more with your experience. Have you updated your CV?\nMarcus: Not yet, but I might start looking at what's out there. The job market seems pretty good right now for people with our skills.\nRachel: Just be careful. Word might get back to management if you're openly looking. That could affect any potential promotion.\nMarcus: Good point. I'll be discreet. But honestly, if they don't value us, we should be exploring our options.\nRachel: I agree. I must have applied to at least ten positions in the past month. Nothing serious yet, just testing the waters.\nMarcus: Let me know if you find anything interesting. We could both use a change of scenery.",
+    "duration": 190,
+    "speed": 1.0,
+    "speakers": ["Rachel", "Marcus"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "There must be some truth to them because management has been having closed-door meetings.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d2",
+        "text": "He can't have resigned! He's been here for fifteen years.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d3",
+        "text": "He must have had a really good offer from somewhere else.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d4",
+        "text": "He might have finally reached his breaking point.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d5",
+        "text": "Word might get back to management if you're openly looking.",
+        "difficulty": "hard"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "Why does Marcus think there must be some truth to the layoff rumors?",
+      "options": ["Because colleagues are worried", "Because of closed-door meetings", "Because targets weren't met", "Because James resigned"],
+      "answer": "Because of closed-door meetings",
+      "explanation": "Marcus says 'There must be some truth to them because management has been having closed-door meetings all week.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Marcus thinks his department will definitely be safe from layoffs.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Marcus says 'we should be safe. But you never know in these situations.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What might Sarah from marketing be doing according to Rachel?",
+      "options": ["Getting promoted", "Looking for new opportunities", "Negotiating a raise", "Starting her own business"],
+      "answer": "Looking for new opportunities",
+      "explanation": "Rachel says 'she might be looking for new opportunities.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "How does Marcus react to the news about James's resignation?",
+      "options": ["He's not surprised", "He thinks it can't be true", "He's happy for James", "He doesn't care"],
+      "answer": "He thinks it can't be true",
+      "explanation": "Marcus says 'He can't have! He's been here for fifteen years.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "According to Marcus, James might have resigned due to workload issues.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Marcus says 'He might have finally reached his breaking point' and mentions James complained about workload."
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What does Marcus's friend suggest he should do?",
+      "options": ["Resign immediately", "Negotiate for a raise", "Change departments", "Work harder"],
+      "answer": "Negotiate for a raise",
+      "explanation": "Marcus says 'My friend thinks I should negotiate for a raise.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What risk does Rachel mention about openly looking for jobs?",
+      "options": ["Getting fired immediately", "Word might get back to management", "Missing promotion deadlines", "Losing friends at work"],
+      "answer": "Word might get back to management",
+      "explanation": "Rachel warns 'Word might get back to management if you're openly looking.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Rachel has already applied to several positions.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Rachel says 'I must have applied to at least ten positions in the past month.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "How does Rachel describe her job search activity?",
+      "options": ["Very serious", "Testing the waters", "Desperate", "Finished"],
+      "answer": "Testing the waters",
+      "explanation": "Rachel says 'Nothing serious yet, just testing the waters.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "Why does Rachel think Sarah must be worried?",
+      "options": ["She's looking for new opportunities", "She missed her targets", "She got a warning", "She lost a client"],
+      "answer": "She's looking for new opportunities",
+      "explanation": "Rachel says 'She must be worried about her position' based on Sarah looking for opportunities."
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "How long has James been at the company?",
+      "answer": "fifteen years",
+      "alternateAnswers": ["15 years", "15", "fifteen"],
+      "explanation": "Marcus says 'He's been here for fifteen years.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "Marcus plans to tell management that he's looking for other jobs.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Marcus says 'I'll be discreet' about looking for other opportunities."
+    }
+  ]
+}

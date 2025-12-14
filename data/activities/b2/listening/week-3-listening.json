@@ -1,0 +1,144 @@
+{
+  "id": "week-3-listening",
+  "weekId": "week-3",
+  "type": "listening",
+  "level": "B2",
+  "title": "Global Issues Discussion",
+  "description": "Listen to a discussion about international humanitarian challenges and possible solutions.",
+
+  "audio": {
+    "text": "Host: Welcome to Global Perspectives. Today we're discussing humanitarian crises with Dr. Chen, an international relations expert. Dr. Chen, looking back at recent crises, what lessons have we learned?\nDr. Chen: Thank you for having me. I think the most important lesson is that early intervention makes a crucial difference. If the international community had responded more quickly to warning signs, many crises could have been prevented or minimized.\nHost: Can you give us a specific example?\nDr. Chen: Certainly. Take the refugee crisis of 2015. If European countries had coordinated their response earlier, the situation wouldn't have become so chaotic. Millions of people might have received help more efficiently.\nHost: Some argue that national sovereignty limits what can be done. What's your view?\nDr. Chen: That's a valid point. Sovereignty is important, but if nations had prioritized collaboration over isolation, we would have seen better outcomes. The epidemic taught us that global problems require global solutions.\nHost: What about economic factors? How do they contribute to these crises?\nDr. Chen: Economic inequality is a major driver. If wealthy nations had invested more in developing regions, we might have prevented some of the underlying causes of conflict and migration. Poverty creates desperation.\nHost: Critics say international organizations haven't been effective. Do you agree?\nDr. Chen: Partly. If organizations like the UN had been given more resources and authority, they could have achieved more. But it's also true that if member states had cooperated better, existing mechanisms would have worked more effectively.\nHost: What would have happened if climate change had been addressed decades ago?\nDr. Chen: That's a crucial question. If governments had taken climate change seriously in the 1990s, we wouldn't be facing such severe environmental refugees today. Rising sea levels and droughts are displacing communities that might have remained stable.\nHost: Looking forward, what needs to change?\nDr. Chen: We need preventive action rather than reactive responses. If we had learned this lesson earlier, countless lives would have been saved. The cost of prevention is always lower than the cost of intervention.\nHost: Thank you, Dr. Chen. That's a powerful message about the importance of learning from the past.",
+    "duration": 200,
+    "speed": 1.0,
+    "speakers": ["Host", "Dr. Chen"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "If the international community had responded more quickly, many crises could have been prevented.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d2",
+        "text": "If European countries had coordinated their response earlier, the situation wouldn't have become so chaotic.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d3",
+        "text": "If wealthy nations had invested more in developing regions, we might have prevented some underlying causes of conflict.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d4",
+        "text": "If governments had taken climate change seriously in the 1990s, we wouldn't be facing such severe environmental refugees.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d5",
+        "text": "The cost of prevention is always lower than the cost of intervention.",
+        "difficulty": "medium"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "According to Dr. Chen, what is the most important lesson from recent crises?",
+      "options": ["Military action is necessary", "Early intervention is crucial", "Isolation is effective", "Economic growth solves everything"],
+      "answer": "Early intervention is crucial",
+      "explanation": "Dr. Chen says 'early intervention makes a crucial difference.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Dr. Chen believes the 2015 refugee crisis was handled well.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Dr. Chen says 'If European countries had coordinated their response earlier, the situation wouldn't have become so chaotic.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What would have happened if European countries had coordinated earlier?",
+      "options": ["More refugees would have come", "The situation wouldn't have been chaotic", "Borders would have closed", "Aid would have stopped"],
+      "answer": "The situation wouldn't have been chaotic",
+      "explanation": "Dr. Chen states 'the situation wouldn't have become so chaotic' with better coordination."
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What does Dr. Chen say about national sovereignty?",
+      "options": ["It should be abolished", "It's more important than collaboration", "Collaboration should be prioritized", "It doesn't matter"],
+      "answer": "Collaboration should be prioritized",
+      "explanation": "Dr. Chen says 'if nations had prioritized collaboration over isolation, we would have seen better outcomes.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "According to Dr. Chen, economic inequality contributes to crises.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Dr. Chen says 'Economic inequality is a major driver' of crises."
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What might have happened if wealthy nations had invested more in developing regions?",
+      "options": ["More conflicts would occur", "Underlying causes of conflict might have been prevented", "Migration would increase", "Poverty would spread"],
+      "answer": "Underlying causes of conflict might have been prevented",
+      "explanation": "Dr. Chen says 'we might have prevented some of the underlying causes of conflict and migration.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What does Dr. Chen say about international organizations like the UN?",
+      "options": ["They are perfect", "They need more resources and cooperation", "They should be abolished", "They have too much power"],
+      "answer": "They need more resources and cooperation",
+      "explanation": "Dr. Chen says 'if organizations like the UN had been given more resources and authority' and 'if member states had cooperated better.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Dr. Chen says governments took climate change seriously in the 1990s.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Dr. Chen uses the third conditional 'If governments had taken climate change seriously in the 1990s,' implying they did not."
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What is causing environmental refugees according to Dr. Chen?",
+      "options": ["Wars only", "Rising sea levels and droughts", "Economic growth", "Better education"],
+      "answer": "Rising sea levels and droughts",
+      "explanation": "Dr. Chen mentions 'Rising sea levels and droughts are displacing communities.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What type of action does Dr. Chen recommend for the future?",
+      "options": ["Military intervention", "Isolation policies", "Preventive action", "Reactive responses"],
+      "answer": "Preventive action",
+      "explanation": "Dr. Chen says 'We need preventive action rather than reactive responses.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "According to Dr. Chen, what is always lower than the cost of intervention?",
+      "answer": "the cost of prevention",
+      "alternateAnswers": ["cost of prevention", "prevention", "prevention cost"],
+      "explanation": "Dr. Chen states 'The cost of prevention is always lower than the cost of intervention.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "Dr. Chen believes that learning from past mistakes can save lives.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Dr. Chen says 'If we had learned this lesson earlier, countless lives would have been saved.'"
+    }
+  ]
+}

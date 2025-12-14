@@ -1,0 +1,199 @@
+{
+  "id": "week-4-grammar",
+  "weekId": "week-4",
+  "type": "grammar",
+  "level": "B1",
+  "title": "Passive Voice",
+  "description": "Learn to use the passive voice to focus on the action or result rather than who does it.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Passive Voice Structure",
+      "explanation": "The passive is formed with 'be + past participle'. Use it when the action is more important than who does it, or when we don't know who did it.",
+      "structure": "Subject + be (conjugated) + past participle (+ by agent)",
+      "examples": [
+        {
+          "active": "Someone created the website.",
+          "passive": "The website was created.",
+          "translation": "그 웹사이트가 만들어졌다."
+        },
+        {
+          "active": "They update the app regularly.",
+          "passive": "The app is updated regularly.",
+          "translation": "그 앱은 정기적으로 업데이트된다."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Present Simple Passive",
+      "explanation": "Use 'am/is/are + past participle' for regular actions, facts, or general truths.",
+      "structure": "am/is/are + past participle",
+      "examples": [
+        {
+          "sentence": "Millions of photos are uploaded every day.",
+          "translation": "매일 수백만 장의 사진이 업로드된다."
+        },
+        {
+          "sentence": "Personal data is stored on secure servers.",
+          "translation": "개인 정보는 안전한 서버에 저장된다."
+        },
+        {
+          "sentence": "Emails are sent automatically by the system.",
+          "translation": "이메일은 시스템에 의해 자동으로 전송된다."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Past Simple Passive",
+      "explanation": "Use 'was/were + past participle' for completed actions in the past.",
+      "structure": "was/were + past participle",
+      "examples": [
+        {
+          "sentence": "The software was developed in 2020.",
+          "translation": "그 소프트웨어는 2020년에 개발되었다."
+        },
+        {
+          "sentence": "These features were added in the latest update.",
+          "translation": "이 기능들은 최신 업데이트에서 추가되었다."
+        },
+        {
+          "sentence": "My account was hacked last month.",
+          "translation": "내 계정이 지난달에 해킹당했다."
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Present Perfect Passive",
+      "explanation": "Use 'have/has been + past participle' to connect past actions to the present.",
+      "structure": "have/has been + past participle",
+      "examples": [
+        {
+          "sentence": "The bug has been fixed.",
+          "translation": "그 버그가 수정되었다."
+        },
+        {
+          "sentence": "Your password has been reset successfully.",
+          "translation": "비밀번호가 성공적으로 재설정되었습니다."
+        },
+        {
+          "sentence": "Several new features have been announced.",
+          "translation": "여러 새 기능이 발표되었다."
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Future Passive",
+      "explanation": "Use 'will be + past participle' for future passive actions.",
+      "structure": "will be + past participle",
+      "examples": [
+        {
+          "sentence": "The new version will be released next month.",
+          "translation": "새 버전은 다음 달에 출시될 것이다."
+        },
+        {
+          "sentence": "Users will be notified about the changes.",
+          "translation": "사용자들은 변경 사항에 대해 알림을 받을 것이다."
+        },
+        {
+          "sentence": "Your order will be delivered within 3 days.",
+          "translation": "주문하신 상품은 3일 이내에 배송될 것입니다."
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "title": "Modal Passive",
+      "explanation": "Use 'modal + be + past participle' when combining modals with passive voice.",
+      "structure": "can/could/should/must/may + be + past participle",
+      "examples": [
+        {
+          "sentence": "The file can be downloaded for free.",
+          "translation": "그 파일은 무료로 다운로드할 수 있다."
+        },
+        {
+          "sentence": "Personal information should be protected.",
+          "translation": "개인 정보는 보호되어야 한다."
+        },
+        {
+          "sentence": "This video might be blocked in some countries.",
+          "translation": "이 동영상은 일부 국가에서 차단될 수 있다."
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "The app _____ by millions of people worldwide.",
+      "options": ["uses", "is used", "used", "using"],
+      "answer": "is used"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "The website _____ (create) in 2015.",
+      "answer": "was created"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "Your request _____ processed within 24 hours.",
+      "options": ["will", "will be", "is", "be"],
+      "answer": "will be"
+    },
+    {
+      "id": "ex4",
+      "type": "transformation",
+      "instruction": "Change to passive voice",
+      "active": "Someone stole my phone.",
+      "passive": "My phone was stolen."
+    },
+    {
+      "id": "ex5",
+      "type": "fill_blank",
+      "question": "A new update _____ (just/release).",
+      "answer": "has just been released"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "This software _____ be used without permission.",
+      "options": ["can't", "doesn't", "isn't", "not"],
+      "answer": "can't"
+    },
+    {
+      "id": "ex7",
+      "type": "transformation",
+      "instruction": "Change to passive voice",
+      "active": "They will announce the results tomorrow.",
+      "passive": "The results will be announced tomorrow."
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "Personal data _____ (must/protect) from hackers.",
+      "answer": "must be protected"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "The problem _____ yet.",
+      "options": ["hasn't been solved", "wasn't solved", "isn't solved", "won't be solved"],
+      "answer": "hasn't been solved"
+    },
+    {
+      "id": "ex10",
+      "type": "transformation",
+      "instruction": "Change to passive voice",
+      "active": "People share millions of posts every day.",
+      "passive": "Millions of posts are shared every day."
+    }
+  ]
+}

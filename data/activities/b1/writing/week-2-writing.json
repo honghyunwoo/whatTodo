@@ -1,0 +1,175 @@
+{
+  "id": "week-2-writing",
+  "weekId": "week-2",
+  "type": "writing",
+  "level": "B1",
+  "title": "Writing About Your Future Plans",
+  "description": "Write about your plans and goals for the next year.",
+
+  "prompt": {
+    "topic": "My Plans for the Next Year",
+    "description": "Write about your plans, goals, and predictions for the next year. Include personal goals (career, education, health, hobbies) and explain why these are important to you. Consider what challenges you might face and how you plan to overcome them.",
+    "requirements": [
+      "Describe at least three goals or plans for the next year",
+      "Explain why each goal is important to you",
+      "Describe any potential challenges you might face",
+      "Explain how you plan to achieve these goals",
+      "Use different future forms (will, going to, present continuous)"
+    ],
+    "wordCount": {
+      "min": 130,
+      "max": 180
+    },
+    "timeLimit": 25
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "I have several goals I want to achieve in the coming year.",
+      "translation": "다가오는 해에 이루고 싶은 몇 가지 목표가 있어요.",
+      "useCase": "To introduce your plans"
+    },
+    {
+      "id": "ex2",
+      "sentence": "My main priority is going to be improving my English skills.",
+      "translation": "제 최우선 과제는 영어 실력을 향상시키는 거예요.",
+      "useCase": "To state your main goal"
+    },
+    {
+      "id": "ex3",
+      "sentence": "I'm planning to start a new exercise routine in January.",
+      "translation": "1월에 새로운 운동 루틴을 시작할 계획이에요.",
+      "useCase": "To describe specific plans"
+    },
+    {
+      "id": "ex4",
+      "sentence": "This will probably be challenging because I have a busy schedule.",
+      "translation": "일정이 바빠서 아마 어려울 거예요.",
+      "useCase": "To acknowledge challenges"
+    },
+    {
+      "id": "ex5",
+      "sentence": "I expect that with hard work, I'll be able to reach my goals.",
+      "translation": "열심히 노력하면 목표를 이룰 수 있을 거라고 기대해요.",
+      "useCase": "To express confidence"
+    },
+    {
+      "id": "ex6",
+      "sentence": "By the end of the year, I hope to have made significant progress.",
+      "translation": "연말까지 상당한 진전을 이루고 싶어요.",
+      "useCase": "To express hope for results"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "achieve",
+      "translation": "달성하다",
+      "example": "I want to achieve my career goals."
+    },
+    {
+      "word": "priority",
+      "translation": "우선순위",
+      "example": "Health is my top priority."
+    },
+    {
+      "word": "challenging",
+      "translation": "도전적인",
+      "example": "Learning a new skill is challenging."
+    },
+    {
+      "word": "routine",
+      "translation": "일상, 루틴",
+      "example": "I need a better morning routine."
+    },
+    {
+      "word": "progress",
+      "translation": "진전, 발전",
+      "example": "I've made good progress this month."
+    },
+    {
+      "word": "commitment",
+      "translation": "헌신, 약속",
+      "example": "Success requires commitment."
+    },
+    {
+      "word": "obstacle",
+      "translation": "장애물",
+      "example": "Time is the biggest obstacle."
+    },
+    {
+      "word": "determination",
+      "translation": "결단력",
+      "example": "With determination, anything is possible."
+    }
+  ],
+
+  "usefulExpressions": [
+    {
+      "expression": "I'm planning to...",
+      "usage": "To describe planned actions",
+      "example": "I'm planning to learn a new language."
+    },
+    {
+      "expression": "I hope to...",
+      "usage": "To express wishes for the future",
+      "example": "I hope to travel more next year."
+    },
+    {
+      "expression": "One of my main goals is...",
+      "usage": "To introduce important goals",
+      "example": "One of my main goals is to save more money."
+    },
+    {
+      "expression": "I expect that...",
+      "usage": "To make predictions",
+      "example": "I expect that this will take several months."
+    },
+    {
+      "expression": "The biggest challenge will be...",
+      "usage": "To identify difficulties",
+      "example": "The biggest challenge will be finding time."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "Content Requirements",
+      "items": [
+        "Did you describe at least three goals?",
+        "Did you explain why each goal is important?",
+        "Did you mention potential challenges?",
+        "Did you explain how you'll achieve your goals?",
+        "Is your writing focused and relevant?"
+      ]
+    },
+    {
+      "category": "Grammar & Structure",
+      "items": [
+        "Did you use 'will' for predictions correctly?",
+        "Did you use 'going to' for plans correctly?",
+        "Did you use Present Continuous for arrangements?",
+        "Did you organize your ideas logically?"
+      ]
+    },
+    {
+      "category": "Vocabulary & Style",
+      "items": [
+        "Did you use varied vocabulary for plans and goals?",
+        "Did you use appropriate expressions?",
+        "Did you avoid repetitive language?",
+        "Did you use connecting words effectively?"
+      ]
+    },
+    {
+      "category": "Word Count & Completion",
+      "items": [
+        "Is your writing at least 130 words?",
+        "Is your writing no more than 180 words?",
+        "Does your writing have a clear structure?",
+        "Did you complete within the time limit?"
+      ]
+    }
+  ]
+}

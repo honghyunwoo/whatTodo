@@ -1,0 +1,146 @@
+{
+  "id": "week-7-reading",
+  "weekId": "week-7",
+  "type": "reading",
+  "level": "B1",
+  "title": "Preserving Cultural Heritage",
+  "description": "Read about the importance of keeping cultural traditions alive.",
+
+  "passage": {
+    "text": "In our rapidly changing world, many traditional cultures are at risk of being lost. Languages that were once spoken by thousands are now spoken by only a few elderly people. Customs that defined communities for centuries are being forgotten as younger generations adopt modern lifestyles.\n\nCultural heritage includes everything that a community values from its past: the buildings where ancestors lived and worked, the stories that were told around fires, the songs that mothers sang to children, and the recipes that were passed down through generations. When these things disappear, we lose not just practices but entire ways of understanding the world.\n\nOrganizations around the world are working to preserve endangered cultures. UNESCO, which is the United Nations Educational, Scientific and Cultural Organization, has created lists of intangible cultural heritage that needs protection. These include traditional dances, craft skills, and oral traditions from every corner of the globe.\n\nTechnology is playing an important role in preservation efforts. Researchers who work with endangered languages record native speakers before their knowledge is lost. Museums are digitizing artifacts so that people anywhere in the world can experience cultural treasures online.\n\nHowever, preservation is not just about saving old things. Living cultures must be allowed to change and grow. The young people who carry traditions forward often adapt them to fit modern life. A traditional recipe might be made with new ingredients. A folk song might be performed with electric instruments. This kind of adaptation is natural and healthy.\n\nThe key is balance. Communities need to decide which traditions are essential to their identity and which can evolve. What matters most is that people continue to feel connected to their roots while living in the modern world.",
+    "wordCount": 280,
+    "estimatedReadingTime": 4
+  },
+
+  "vocabulary": [
+    {
+      "word": "heritage",
+      "meaning": "traditions and values from the past",
+      "translation": "유산"
+    },
+    {
+      "word": "intangible",
+      "meaning": "unable to be touched; abstract",
+      "translation": "무형의"
+    },
+    {
+      "word": "preservation",
+      "meaning": "the act of keeping something safe",
+      "translation": "보존"
+    },
+    {
+      "word": "endangered",
+      "meaning": "at risk of being lost",
+      "translation": "위기에 처한"
+    },
+    {
+      "word": "artifacts",
+      "meaning": "objects made by humans in the past",
+      "translation": "유물"
+    },
+    {
+      "word": "adaptation",
+      "meaning": "the process of changing to fit new conditions",
+      "translation": "적응, 개작"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "According to the passage, what is happening to some traditional languages?",
+      "options": ["They are becoming more popular", "They are now spoken by only a few elderly people", "They are being taught in schools", "They are spreading worldwide"],
+      "answer": "They are now spoken by only a few elderly people",
+      "explanation": "The passage says 'Languages that were once spoken by thousands are now spoken by only a few elderly people.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Cultural heritage only includes physical buildings and objects.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage describes heritage including stories, songs, and recipes, not just buildings."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What does UNESCO do according to the passage?",
+      "options": ["Builds new museums", "Creates lists of cultural heritage that needs protection", "Teaches traditional languages", "Writes folk songs"],
+      "answer": "Creates lists of cultural heritage that needs protection",
+      "explanation": "The passage says UNESCO 'has created lists of intangible cultural heritage that needs protection.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What do researchers who work with endangered languages do?",
+      "options": ["Teach children", "Record native speakers", "Write books", "Create new languages"],
+      "answer": "Record native speakers",
+      "explanation": "The passage says 'Researchers who work with endangered languages record native speakers.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Museums are making artifacts available online.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage says 'Museums are digitizing artifacts so that people anywhere in the world can experience cultural treasures online.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "According to the passage, what is a healthy approach to traditions?",
+      "options": ["Keep them exactly the same", "Forget them completely", "Allow them to change and grow", "Replace them with modern ones"],
+      "answer": "Allow them to change and grow",
+      "explanation": "The passage says 'Living cultures must be allowed to change and grow.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What example of adaptation does the passage give?",
+      "options": ["Building new museums", "Making traditional recipes with new ingredients", "Creating new holidays", "Writing new languages"],
+      "answer": "Making traditional recipes with new ingredients",
+      "explanation": "The passage says 'A traditional recipe might be made with new ingredients.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "The passage suggests that adaptation of traditions is unnatural.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'This kind of adaptation is natural and healthy.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What is the key according to the passage?",
+      "options": ["Preserving everything exactly", "Forgetting the past", "Finding balance", "Rejecting modern life"],
+      "answer": "Finding balance",
+      "explanation": "The passage says 'The key is balance.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What matters most according to the conclusion?",
+      "options": ["Making money from traditions", "That people feel connected to their roots", "That traditions never change", "That young people reject old customs"],
+      "answer": "That people feel connected to their roots",
+      "explanation": "The passage concludes 'What matters most is that people continue to feel connected to their roots.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "Who needs to decide which traditions are essential to their identity?",
+      "answer": "communities",
+      "alternateAnswers": ["the communities", "people", "community"],
+      "explanation": "The passage says 'Communities need to decide which traditions are essential.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "Folk songs being performed with electric instruments is mentioned as an example of adaptation.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage says 'A folk song might be performed with electric instruments.'"
+    }
+  ]
+}

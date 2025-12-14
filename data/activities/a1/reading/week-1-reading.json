@@ -1,0 +1,156 @@
+{
+  "id": "week-1-reading",
+  "weekId": "week-1",
+  "type": "reading",
+  "level": "A1",
+  "title": "자기소개",
+  "description": "간단한 자기소개 글을 읽고 이해합니다.",
+
+  "passage": {
+    "text": "My name is Sarah. I am 25 years old. I live in Seoul with my family.\n\nI am a teacher. I teach English at a school. I like my job very much.\n\nIn my free time, I like reading books and watching movies. I also like cooking. My favorite food is pizza.",
+    "wordCount": 58,
+    "estimatedReadingTime": 2,
+    "audioText": "My name is Sarah. I am 25 years old. I live in Seoul with my family. [PAUSE] I am a teacher. I teach English at a school. I like my job very much. [PAUSE] In my free time, I like reading books and watching movies. I also like cooking. My favorite food is pizza."
+  },
+
+  "vocabulary": [
+    {
+      "word": "teacher",
+      "meaning": "선생님",
+      "lineNumber": 3
+    },
+    {
+      "word": "school",
+      "meaning": "학교",
+      "lineNumber": 3
+    },
+    {
+      "word": "job",
+      "meaning": "직업",
+      "lineNumber": 3
+    },
+    {
+      "word": "free time",
+      "meaning": "여가 시간",
+      "lineNumber": 5
+    },
+    {
+      "word": "reading",
+      "meaning": "읽기",
+      "lineNumber": 5
+    },
+    {
+      "word": "watching",
+      "meaning": "보기",
+      "lineNumber": 5
+    },
+    {
+      "word": "cooking",
+      "meaning": "요리",
+      "lineNumber": 5
+    },
+    {
+      "word": "favorite",
+      "meaning": "가장 좋아하는",
+      "lineNumber": 5
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is Sarah's name?",
+      "options": ["Sarah", "Mary", "Jane", "Emily"],
+      "answer": "Sarah",
+      "explanation": "지문 첫 문장에서 'My name is Sarah'라고 소개합니다."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "How old is Sarah?",
+      "options": ["20", "25", "30", "35"],
+      "answer": "25",
+      "explanation": "Sarah는 25살입니다. (I am 25 years old)"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "Where does Sarah live?",
+      "options": ["Seoul", "Tokyo", "Beijing", "Bangkok"],
+      "answer": "Seoul",
+      "explanation": "Sarah는 서울에 가족과 함께 살고 있습니다."
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "question": "Sarah lives alone.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Sarah는 가족과 함께 살고 있습니다. (I live in Seoul with my family)"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What is Sarah's job?",
+      "options": ["Teacher", "Doctor", "Chef", "Artist"],
+      "answer": "Teacher",
+      "explanation": "Sarah는 선생님입니다. (I am a teacher)"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What does Sarah teach?",
+      "options": ["English", "Math", "Science", "Art"],
+      "answer": "English",
+      "explanation": "Sarah는 학교에서 영어를 가르칩니다."
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "Sarah likes her job.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Sarah는 자신의 직업을 매우 좋아합니다. (I like my job very much)"
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "What does Sarah like to do in her free time? (Choose one)",
+      "options": ["Reading books", "Playing sports", "Dancing", "Swimming"],
+      "answer": "Reading books",
+      "explanation": "Sarah는 여가 시간에 책 읽기, 영화 보기, 요리하기를 좋아합니다."
+    },
+    {
+      "id": "q9",
+      "type": "true_false",
+      "question": "Sarah likes watching movies.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Sarah는 영화 보는 것을 좋아합니다. (I like watching movies)"
+    },
+    {
+      "id": "q10",
+      "type": "true_false",
+      "question": "Sarah likes cooking.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Sarah는 요리를 좋아합니다. (I also like cooking)"
+    },
+    {
+      "id": "q11",
+      "type": "multiple_choice",
+      "question": "What is Sarah's favorite food?",
+      "options": ["Pizza", "Pasta", "Burger", "Salad"],
+      "answer": "Pizza",
+      "explanation": "Sarah가 가장 좋아하는 음식은 피자입니다."
+    },
+    {
+      "id": "q12",
+      "type": "short_answer",
+      "question": "How many hobbies does Sarah mention?",
+      "answer": "3",
+      "explanation": "Sarah는 3가지 취미를 언급합니다: 책 읽기, 영화 보기, 요리하기"
+    }
+  ]
+}

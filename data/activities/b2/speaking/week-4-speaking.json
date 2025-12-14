@@ -1,0 +1,141 @@
+{
+  "id": "week-4-speaking",
+  "weekId": "week-4",
+  "type": "speaking",
+  "level": "B2",
+  "title": "Discussing Scientific Processes and Innovations",
+  "description": "Practice describing scientific processes, discussing innovations, and using passive and causative structures in speech.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "The experiment was conducted under strictly controlled laboratory conditions.",
+      "translation": "실험은 엄격히 통제된 실험실 조건에서 수행되었다.",
+      "tips": "Passive voice emphasizes the action rather than who did it."
+    },
+    {
+      "id": "s2",
+      "text": "New treatments are being developed that could revolutionize cancer care.",
+      "translation": "암 치료를 혁신할 수 있는 새로운 치료법이 개발되고 있다.",
+      "tips": "Present continuous passive for ongoing processes."
+    },
+    {
+      "id": "s3",
+      "text": "The data needs to be analyzed before any conclusions can be drawn.",
+      "translation": "어떤 결론을 내리기 전에 데이터가 분석되어야 한다.",
+      "tips": "Passive infinitive after 'needs to be'."
+    },
+    {
+      "id": "s4",
+      "text": "We had the samples tested at an independent laboratory.",
+      "translation": "우리는 독립 연구소에서 샘플을 테스트하게 했다.",
+      "tips": "Causative 'have something done' for services by others."
+    },
+    {
+      "id": "s5",
+      "text": "It is believed that artificial intelligence will transform healthcare.",
+      "translation": "인공지능이 의료를 변혁시킬 것이라고 믿어진다.",
+      "tips": "Impersonal passive for reporting general beliefs."
+    },
+    {
+      "id": "s6",
+      "text": "The vaccine has been administered to millions of people worldwide.",
+      "translation": "백신은 전 세계 수백만 명에게 투여되었다.",
+      "tips": "Present perfect passive for completed actions with present relevance."
+    },
+    {
+      "id": "s7",
+      "text": "The professor made the students repeat the experiment until the results could be replicated.",
+      "translation": "교수는 결과가 재현될 수 있을 때까지 학생들에게 실험을 반복하게 했다.",
+      "tips": "Causative 'make someone do' followed by passive 'could be replicated'."
+    },
+    {
+      "id": "s8",
+      "text": "The research facility is having a new wing built to accommodate more scientists.",
+      "translation": "연구 시설은 더 많은 과학자를 수용하기 위해 새로운 동을 짓게 하고 있다.",
+      "tips": "Present continuous causative 'is having something done'."
+    },
+    {
+      "id": "s9",
+      "text": "Clinical trials must be completed before the drug can be approved.",
+      "translation": "약이 승인되기 전에 임상 시험이 완료되어야 한다.",
+      "tips": "Modal passive 'must be completed' and 'can be approved'."
+    },
+    {
+      "id": "s10",
+      "text": "The algorithm was designed to detect patterns that humans might miss.",
+      "translation": "그 알고리즘은 인간이 놓칠 수 있는 패턴을 감지하도록 설계되었다.",
+      "tips": "Simple past passive for completed design."
+    },
+    {
+      "id": "s11",
+      "text": "We got the ethics committee to approve the methodology.",
+      "translation": "우리는 윤리위원회가 방법론을 승인하도록 했다.",
+      "tips": "Causative 'get someone to do' requires 'to' before the verb."
+    },
+    {
+      "id": "s12",
+      "text": "It has been reported that a breakthrough in fusion energy is imminent.",
+      "translation": "핵융합 에너지의 돌파구가 임박했다고 보고되었다.",
+      "tips": "Present perfect impersonal passive for recent reports."
+    }
+  ],
+
+  "dialoguePractice": {
+    "title": "Discussing a Research Project",
+    "roles": ["Research Lead", "Colleague"],
+    "lines": [
+      {"role": "Colleague", "text": "How is the new project progressing?"},
+      {"role": "Research Lead", "text": "Very well. The initial phase has been completed, and data is now being collected from participants."},
+      {"role": "Colleague", "text": "Have the samples been analyzed yet?"},
+      {"role": "Research Lead", "text": "Not yet. We're having them tested at a specialized facility. The results should be ready next week."},
+      {"role": "Colleague", "text": "I heard there were some concerns about the methodology."},
+      {"role": "Research Lead", "text": "Yes, but those have been addressed. We got the ethics committee to review everything, and modifications were made based on their feedback."},
+      {"role": "Colleague", "text": "What about the timeline? Will deadlines be met?"},
+      {"role": "Research Lead", "text": "We believe so. It is expected that the paper will be submitted by the end of the quarter."},
+      {"role": "Colleague", "text": "And publication?"},
+      {"role": "Research Lead", "text": "If accepted, it could be published within six months. The findings are significant, so peer review should go smoothly."},
+      {"role": "Colleague", "text": "That's exciting. What happens next with the funding?"},
+      {"role": "Research Lead", "text": "We're having a new grant proposal drafted. If approved, more researchers will be hired and the project can be expanded."}
+    ]
+  },
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation & Intonation",
+      "items": [
+        "Did you pronounce passive verb forms clearly?",
+        "Did you stress key scientific vocabulary correctly?",
+        "Did you use appropriate intonation for statements and questions?",
+        "Did you link words naturally in longer sentences?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you use passive structures smoothly without hesitation?",
+        "Did you incorporate causative structures naturally?",
+        "Did you complete complex sentences without excessive pauses?",
+        "Did you maintain flow when switching between active and passive?"
+      ]
+    },
+    {
+      "category": "Grammar Accuracy",
+      "items": [
+        "Did you form passive structures correctly (be + past participle)?",
+        "Did you use causative 'have/get something done' correctly?",
+        "Did you use 'make/have/let/get someone do' with correct verb forms?",
+        "Did you use impersonal passives (It is believed...) appropriately?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Did you describe scientific processes clearly?",
+        "Did you use appropriate technical vocabulary?",
+        "Did you explain complex ideas in an organized manner?",
+        "Did you respond appropriately to questions in the dialogue?"
+      ]
+    }
+  ]
+}

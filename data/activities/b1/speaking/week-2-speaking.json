@@ -1,0 +1,139 @@
+{
+  "id": "week-2-speaking",
+  "weekId": "week-2",
+  "type": "speaking",
+  "level": "B1",
+  "title": "Talking About Plans and Predictions",
+  "description": "Practice discussing your future plans and making predictions.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "I'm going to start a new course next month.",
+      "translation": "다음 달에 새로운 강좌를 시작할 거예요.",
+      "tips": "'going to'는 미리 정한 계획을 표현해요. 'start'를 강조하세요."
+    },
+    {
+      "id": "s2",
+      "text": "I think technology will change our lives dramatically.",
+      "translation": "기술이 우리 삶을 극적으로 바꿀 것 같아요.",
+      "tips": "'will'은 예측에 사용해요. 'dramatically'를 천천히 명확하게 발음하세요."
+    },
+    {
+      "id": "s3",
+      "text": "We're meeting the client at two o'clock tomorrow.",
+      "translation": "내일 2시에 고객을 만날 예정이에요.",
+      "tips": "현재 진행형으로 정해진 약속을 표현해요. 시간을 명확히 하세요."
+    },
+    {
+      "id": "s4",
+      "text": "I'll probably take a vacation in August.",
+      "translation": "아마 8월에 휴가를 갈 것 같아요.",
+      "tips": "'probably'로 확실하지 않은 계획을 표현해요."
+    },
+    {
+      "id": "s5",
+      "text": "The meeting has been postponed until next week.",
+      "translation": "회의가 다음 주로 연기됐어요.",
+      "tips": "'postponed'는 /poʊstˈpoʊnd/로 발음해요. 'until'을 연결하세요."
+    },
+    {
+      "id": "s6",
+      "text": "What are you planning to do after graduation?",
+      "translation": "졸업 후에 뭘 할 계획이에요?",
+      "tips": "'planning to'를 자연스럽게 연결하고, 의문문 억양으로 끝내세요."
+    },
+    {
+      "id": "s7",
+      "text": "I expect the project will be completed by Friday.",
+      "translation": "프로젝트가 금요일까지 완료될 것으로 예상해요.",
+      "tips": "'expect'는 예상을 표현해요. 'completed by'를 강조하세요."
+    },
+    {
+      "id": "s8",
+      "text": "There's a possibility that prices will increase next year.",
+      "translation": "내년에 가격이 오를 가능성이 있어요.",
+      "tips": "'There's a possibility that'은 가능성을 표현하는 공손한 표현이에요."
+    },
+    {
+      "id": "s9",
+      "text": "I definitely won't be able to attend the conference.",
+      "translation": "회의에 참석하지 못할 것이 확실해요.",
+      "tips": "'definitely'로 확실함을 강조하고, 'won't'를 명확하게 발음하세요."
+    },
+    {
+      "id": "s10",
+      "text": "By this time next year, I'll have finished my degree.",
+      "translation": "내년 이맘때쯤이면 학위를 마쳤을 거예요.",
+      "tips": "'By this time next year'로 시작해서 미래 완료 시제를 연습하세요."
+    },
+    {
+      "id": "s11",
+      "text": "I'm hoping to visit Japan sometime next spring.",
+      "translation": "내년 봄 언젠가 일본을 방문하고 싶어요.",
+      "tips": "'I'm hoping to'는 희망하는 계획을 공손하게 표현해요."
+    },
+    {
+      "id": "s12",
+      "text": "We need to confirm the reservation in advance.",
+      "translation": "예약을 미리 확인해야 해요.",
+      "tips": "'in advance'는 '미리'라는 뜻이에요. 마지막에 명확하게 발음하세요."
+    }
+  ],
+
+  "dialoguePractice": {
+    "title": "Discussing Weekend Plans",
+    "roles": ["Emma", "David"],
+    "lines": [
+      {"role": "Emma", "text": "Hi David! Do you have any plans for the weekend?"},
+      {"role": "David", "text": "Yes, I'm going to visit my parents on Saturday. What about you?"},
+      {"role": "Emma", "text": "I'm meeting some friends for brunch on Sunday. We're trying a new restaurant downtown."},
+      {"role": "David", "text": "That sounds nice! I think I'll probably stay home on Sunday and relax."},
+      {"role": "Emma", "text": "Good idea. Oh, by the way, the team meeting has been moved to Monday at 10."},
+      {"role": "David", "text": "Thanks for letting me know. I'll update my calendar."},
+      {"role": "Emma", "text": "Are you going to prepare anything for the presentation?"},
+      {"role": "David", "text": "Yes, I'm going to work on the slides this weekend. I expect to finish by Sunday night."},
+      {"role": "Emma", "text": "Great. I'm sure the presentation will go well."},
+      {"role": "David", "text": "I hope so! See you on Monday then."}
+    ]
+  },
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation & Intonation",
+      "items": [
+        "Did you pronounce 'going to' naturally (often sounds like 'gonna' in spoken English)?",
+        "Did you use correct stress on key words like 'definitely', 'probably'?",
+        "Did you use appropriate intonation for questions about plans?",
+        "Did you speak at a natural pace?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you speak smoothly without unnecessary pauses?",
+        "Did you use time expressions naturally?",
+        "Did you complete all sentences confidently?",
+        "Did you practice the dialogue with natural flow?"
+      ]
+    },
+    {
+      "category": "Grammar Accuracy",
+      "items": [
+        "Did you use 'will' correctly for predictions?",
+        "Did you use 'going to' correctly for plans?",
+        "Did you use Present Continuous for arrangements?",
+        "Did you choose the right future form for each situation?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Could a listener understand your plans clearly?",
+        "Did you express certainty and uncertainty appropriately?",
+        "Did you sound natural when discussing the future?",
+        "Did you use appropriate vocabulary for plans and predictions?"
+      ]
+    }
+  ]
+}

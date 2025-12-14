@@ -1,11 +1,10 @@
-import React, { useCallback } from 'react';
-import { FlatList, ListRenderItem, StyleSheet, View } from 'react-native';
-import { Text } from 'react-native-paper';
+import React, { useCallback, useMemo } from 'react';
+import { FlatList, ListRenderItem, StyleSheet } from 'react-native';
 
-import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { useTaskStore } from '@/store/taskStore';
 import { Task } from '@/types/task';
+import { EmptyState } from '@/components/common';
 
 import { TaskItem } from './TaskItem';
 
@@ -13,28 +12,58 @@ interface TaskListProps {
   onTaskPress?: (task: Task) => void;
 }
 
-function EmptyState() {
-  return (
-    <View style={styles.emptyContainer}>
-      <Text style={styles.emptyIcon}>📝</Text>
-      <Text style={styles.emptyTitle}>할 일이 없어요</Text>
-      <Text style={styles.emptySubtitle}>+ 버튼을 눌러 새 할 일을 추가하세요</Text>
-    </View>
-  );
-}
-
 export function TaskList({ onTaskPress }: TaskListProps) {
-  const tasks = useTaskStore((state) => state.getFilteredTasks());
+  // 개별 상태를 분리해서 가져오기 (참조 안정성 확보)
+  const allTasks = useTaskStore((state) => state.tasks);
+  const filter = useTaskStore((state) => state.filter);
+  const sortBy = useTaskStore((state) => state.sortBy);
+
+  // useMemo로 필터링 결과 캐싱 (무한 렌더링 방지)
+  const tasks = useMemo(() => {
+    let filtered = [...allTasks];
+
+    // 필터링
+    if (filter !== 'all') {
+      filtered = filtered.filter((task) =>
+        filter === 'completed' ? task.completed : !task.completed
+      );
+    }
+
+    // 정렬
+    filtered.sort((a, b) => {
+      switch (sortBy) {
+        case 'dueDate':
+          if (!a.dueDate) return 1;
+          if (!b.dueDate) return -1;
+          return new Date(a.dueDate).getTime() - new Date(b.dueDate).getTime();
+        case 'priority': {
+          const priorityOrder = { urgent: 0, high: 1, medium: 2, low: 3 };
+          return priorityOrder[a.priority] - priorityOrder[b.priority];
+        }
+        case 'createdAt':
+        default:
+          return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
+      }
+    });
+
+    return filtered;
+  }, [allTasks, filter, sortBy]);
 
   const renderItem: ListRenderItem<Task> = useCallback(
-    ({ item }) => <TaskItem task={item} onPress={onTaskPress} />,
+    ({ item, index }) => <TaskItem task={item} onPress={onTaskPress} index={index} />,
     [onTaskPress]
   );
 
   const keyExtractor = useCallback((item: Task) => item.id, []);
 
   if (tasks.length === 0) {
-    return <EmptyState />;
+    return (
+      <EmptyState
+        type="tasks"
+        title="할 일이 없어요"
+        description="+ 버튼을 눌러 새 할 일을 추가하세요"
+      />
+    );
   }
 
   return (
@@ -52,27 +81,6 @@ export function TaskList({ onTaskPress }: TaskListProps) {
 }
 
 const styles = StyleSheet.create({
-  emptyContainer: {
-    alignItems: 'center',
-    flex: 1,
-    justifyContent: 'center',
-    paddingHorizontal: SIZES.spacing.xl,
-  },
-  emptyIcon: {
-    fontSize: 48,
-    marginBottom: SIZES.spacing.md,
-  },
-  emptySubtitle: {
-    color: COLORS.textSecondary,
-    fontSize: SIZES.fontSize.md,
-    marginTop: SIZES.spacing.sm,
-    textAlign: 'center',
-  },
-  emptyTitle: {
-    color: COLORS.text,
-    fontSize: SIZES.fontSize.xl,
-    fontWeight: '600',
-  },
   listContent: {
     paddingVertical: SIZES.spacing.sm,
   },

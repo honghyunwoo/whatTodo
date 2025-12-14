@@ -1,0 +1,160 @@
+{
+  "id": "week-1-reading",
+  "weekId": "week-1",
+  "type": "reading",
+  "level": "A2",
+  "title": "My Trip to Jeju Island",
+  "description": "Read about someone's vacation experience in Jeju Island.",
+
+  "passage": {
+    "text": "Last summer, I went on a trip to Jeju Island with my family. We flew from Seoul, and the flight took about an hour. It was my first time on an airplane, so I was very excited.\n\nWe stayed at a hotel near the beach for five days. The room had a beautiful view of the ocean. Every morning, we had breakfast at the hotel restaurant.\n\nDuring our trip, we visited many places. We saw Seongsan Ilchulbong, a famous volcanic crater. We also went to a waterfall called Cheonjiyeon. The water was so clear and beautiful!\n\nOn our last day, we rented bicycles and rode along the coast. The weather was perfect - sunny but not too hot. We ate fresh seafood for dinner at a local restaurant.\n\nI had such a wonderful time in Jeju. I want to go back again next year. It is definitely my favorite vacation destination.",
+    "wordCount": 148,
+    "estimatedReadingTime": 3,
+    "audioText": "Last summer, I went on a trip to Jeju Island with my family. We flew from Seoul, and the flight took about an hour. It was my first time on an airplane, so I was very excited. [PAUSE] We stayed at a hotel near the beach for five days. The room had a beautiful view of the ocean. Every morning, we had breakfast at the hotel restaurant. [PAUSE] During our trip, we visited many places. We saw Seongsan Ilchulbong, a famous volcanic crater. We also went to a waterfall called Cheonjiyeon. The water was so clear and beautiful! [PAUSE] On our last day, we rented bicycles and rode along the coast. The weather was perfect - sunny but not too hot. We ate fresh seafood for dinner at a local restaurant. [PAUSE] I had such a wonderful time in Jeju. I want to go back again next year. It is definitely my favorite vacation destination."
+  },
+
+  "vocabulary": [
+    {
+      "word": "trip",
+      "meaning": "여행",
+      "lineNumber": 1
+    },
+    {
+      "word": "excited",
+      "meaning": "신나는, 흥분된",
+      "lineNumber": 2
+    },
+    {
+      "word": "view",
+      "meaning": "경치, 전망",
+      "lineNumber": 4
+    },
+    {
+      "word": "volcanic crater",
+      "meaning": "화산 분화구",
+      "lineNumber": 6
+    },
+    {
+      "word": "waterfall",
+      "meaning": "폭포",
+      "lineNumber": 7
+    },
+    {
+      "word": "rented",
+      "meaning": "빌렸다",
+      "lineNumber": 8
+    },
+    {
+      "word": "coast",
+      "meaning": "해안",
+      "lineNumber": 9
+    },
+    {
+      "word": "seafood",
+      "meaning": "해산물",
+      "lineNumber": 10
+    },
+    {
+      "word": "destination",
+      "meaning": "목적지",
+      "lineNumber": 12
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "Who did the writer travel with?",
+      "options": ["Family", "Friends", "Alone", "Coworkers"],
+      "answer": "Family",
+      "explanation": "The text says 'I went on a trip to Jeju Island with my family.'"
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "How long was the flight from Seoul?",
+      "options": ["About an hour", "Two hours", "30 minutes", "Three hours"],
+      "answer": "About an hour",
+      "explanation": "The flight took about an hour."
+    },
+    {
+      "id": "q3",
+      "type": "true_false",
+      "question": "It was the writer's first time flying.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The text says 'It was my first time on an airplane.'"
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "question": "How many days did they stay in Jeju? (number only)",
+      "answer": "5",
+      "explanation": "They stayed for five days."
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "Where was the hotel located?",
+      "options": ["Near the beach", "In the mountains", "In the city center", "At the airport"],
+      "answer": "Near the beach",
+      "explanation": "The text says 'We stayed at a hotel near the beach.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What is Seongsan Ilchulbong?",
+      "options": ["A volcanic crater", "A waterfall", "A beach", "A restaurant"],
+      "answer": "A volcanic crater",
+      "explanation": "The text describes it as 'a famous volcanic crater.'"
+    },
+    {
+      "id": "q7",
+      "type": "short_answer",
+      "question": "What is the name of the waterfall they visited?",
+      "answer": "Cheonjiyeon",
+      "explanation": "They visited a waterfall called Cheonjiyeon."
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "What did they do on the last day?",
+      "options": ["Rode bicycles", "Visited a crater", "Went swimming", "Took a boat tour"],
+      "answer": "Rode bicycles",
+      "explanation": "On the last day, they rented bicycles and rode along the coast."
+    },
+    {
+      "id": "q9",
+      "type": "true_false",
+      "question": "The weather on the last day was rainy.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The weather was 'sunny but not too hot.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What did they eat for dinner on the last day?",
+      "options": ["Seafood", "Barbecue", "Pizza", "Noodles"],
+      "answer": "Seafood",
+      "explanation": "They ate fresh seafood for dinner."
+    },
+    {
+      "id": "q11",
+      "type": "true_false",
+      "question": "The writer wants to visit Jeju again.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The writer says 'I want to go back again next year.'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "What was the writer's overall feeling about the trip?",
+      "options": ["Wonderful", "Boring", "Disappointing", "Stressful"],
+      "answer": "Wonderful",
+      "explanation": "The writer says 'I had such a wonderful time in Jeju.'"
+    }
+  ]
+}

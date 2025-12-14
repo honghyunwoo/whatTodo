@@ -1,0 +1,130 @@
+{
+  "id": "week-7-writing",
+  "weekId": "week-7",
+  "type": "writing",
+  "level": "B2",
+  "title": "Analyzing Business Success Factors",
+  "description": "Write an analytical essay discussing what makes businesses successful, using cleft sentences and inversion for emphasis.",
+
+  "prompt": {
+    "topic": "Key Factors in Business Success",
+    "scenario": "Write an essay analyzing what factors contribute to business success. You may discuss leadership, innovation, company culture, customer focus, adaptability, or other factors you consider important. Use cleft sentences and inversion to emphasize key points.",
+    "requirements": [
+      "Identify and analyze at least two factors that contribute to business success",
+      "Use it-cleft sentences (It is/was... that/who) to emphasize key factors",
+      "Use what-cleft sentences (What... is/was) to highlight important points",
+      "Include at least one inverted sentence (Never/Rarely/Only... + auxiliary + subject)",
+      "Use appropriate business and career vocabulary"
+    ],
+    "wordCount": { "min": 180, "max": 250 },
+    "timeLimit": 25
+  },
+
+  "writingHelp": {
+    "structure": {
+      "introduction": [
+        "In today's competitive business environment, success depends on many factors...",
+        "What determines whether a company thrives or fails has been debated for decades...",
+        "It is no secret that some businesses succeed while others struggle..."
+      ],
+      "bodyParagraphs": [
+        "It is [factor] that plays the most crucial role in...",
+        "What successful companies understand is that...",
+        "Never has [factor] been more important than in today's market...",
+        "Not only must businesses [action], but they must also...",
+        "Only by [action] can companies achieve sustainable success...",
+        "So important is [factor] that companies ignoring it often fail..."
+      ],
+      "conclusion": [
+        "In conclusion, it is clear that...",
+        "What businesses must remember is that success requires...",
+        "All these factors combined create the foundation for lasting success..."
+      ]
+    },
+    "usefulExpressions": [
+      { "phrase": "It is... that/who", "example": "It is strong leadership that sets successful companies apart." },
+      { "phrase": "What... is", "example": "What drives innovation is a culture of experimentation." },
+      { "phrase": "Never have/has", "example": "Never has customer experience been more important." },
+      { "phrase": "Not only... but also", "example": "Not only must companies innovate, but they must also adapt quickly." },
+      { "phrase": "Only by... can", "example": "Only by listening to customers can businesses truly succeed." },
+      { "phrase": "So... that", "example": "So competitive is the market that constant improvement is essential." }
+    ],
+    "connectors": {
+      "contrast": ["However", "Nevertheless", "On the other hand", "While", "Although"],
+      "addition": ["Furthermore", "Moreover", "In addition", "Additionally", "What's more"],
+      "conclusion": ["In conclusion", "To sum up", "Ultimately", "All in all"],
+      "cause_effect": ["As a result", "Consequently", "Therefore", "Thus"]
+    },
+    "vocabularyBank": [
+      "leadership", "innovation", "strategy", "competitive advantage", "market share",
+      "productivity", "efficiency", "stakeholder", "revenue", "profitability",
+      "customer satisfaction", "employee engagement", "corporate culture", "adaptability",
+      "sustainable", "scalable", "disruptive", "transformative", "entrepreneurial"
+    ]
+  },
+
+  "rubric": {
+    "content": {
+      "weight": 0.25,
+      "criteria": [
+        "Clear identification of success factors",
+        "Well-developed analysis with examples",
+        "Logical argumentation",
+        "Relevant business context"
+      ]
+    },
+    "grammar": {
+      "weight": 0.30,
+      "criteria": [
+        "Correct use of it-cleft sentences",
+        "Correct use of what-cleft sentences",
+        "Proper inversion with negative/restrictive adverbials",
+        "Accurate sentence structure throughout"
+      ]
+    },
+    "vocabulary": {
+      "weight": 0.25,
+      "criteria": [
+        "Use of business and career vocabulary",
+        "Varied word choice",
+        "Appropriate formal register",
+        "Correct collocations"
+      ]
+    },
+    "organization": {
+      "weight": 0.20,
+      "criteria": [
+        "Clear introduction, body, and conclusion",
+        "Logical flow of ideas",
+        "Effective use of connectors",
+        "Coherent paragraphing"
+      ]
+    }
+  },
+
+  "sampleAnswer": {
+    "text": "In today's competitive business environment, success depends on multiple interconnected factors. What truly sets thriving companies apart from struggling ones is their ability to combine strong leadership with a culture of innovation.\n\nIt is leadership that plays the most crucial role in determining a company's trajectory. Never has this been more evident than during periods of economic uncertainty. So important is effective leadership that even the best products can fail without someone to guide the organization. What great leaders do is create a vision that inspires employees and attracts customers. Not only must they make strategic decisions, but they must also foster an environment where creativity flourishes.\n\nInnovation represents another critical success factor. Only by continuously adapting can businesses remain competitive. What successful companies understand is that yesterday's solutions won't solve tomorrow's problems. It is the willingness to take calculated risks that enables breakthrough developments. Rarely does a company achieve long-term success by simply maintaining the status quo.\n\nFurthermore, it is company culture that connects these elements. A positive culture attracts talented employees who, in turn, drive innovation and execute leadership's vision. All these factors work together: without strong leadership, innovation lacks direction; without innovation, even the best leaders cannot compete.\n\nIn conclusion, what businesses must recognize is that success requires a holistic approach. It is not any single factor but the combination of leadership, innovation, and culture that creates sustainable competitive advantage.",
+    "wordCount": 235,
+    "annotations": [
+      { "text": "What truly sets thriving companies apart... is their ability", "comment": "What-cleft sentence" },
+      { "text": "It is leadership that plays the most crucial role", "comment": "It-cleft sentence" },
+      { "text": "Never has this been more evident", "comment": "Inversion with 'Never'" },
+      { "text": "So important is effective leadership that...", "comment": "Inversion with 'So... that'" },
+      { "text": "Not only must they make strategic decisions, but they must also", "comment": "Not only... but also structure" },
+      { "text": "Only by continuously adapting can businesses remain competitive", "comment": "Inversion with 'Only by'" },
+      { "text": "Rarely does a company achieve long-term success", "comment": "Inversion with 'Rarely'" },
+      { "text": "It is the willingness to take calculated risks that enables", "comment": "It-cleft sentence" }
+    ]
+  },
+
+  "selfCheckList": [
+    "Did I clearly identify at least two factors for business success?",
+    "Did I use 'It is/was... that/who' to emphasize key points?",
+    "Did I use 'What... is/was' to highlight important ideas?",
+    "Did I include at least one inverted sentence (Never/Rarely/Only)?",
+    "Did I use appropriate business vocabulary?",
+    "Did I analyze the factors rather than just listing them?",
+    "Did I use connectors to link my ideas?",
+    "Is my essay within the word count (180-250 words)?"
+  ]
+}

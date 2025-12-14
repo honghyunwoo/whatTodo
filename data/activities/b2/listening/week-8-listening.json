@@ -1,0 +1,144 @@
+{
+  "id": "week-8-listening",
+  "weekId": "week-8",
+  "type": "listening",
+  "level": "B2",
+  "title": "The Future of Travel",
+  "description": "Listen to a podcast discussing how travel and globalization will change in the coming decades.",
+
+  "audio": {
+    "text": "Host: Welcome back to Global Perspectives. Today we're discussing the future of travel with journalist Sarah Chen. Sarah, what changes do you expect to see?\n\nSarah: Thanks for having me. Well, by 2030, I believe travel will have transformed dramatically. Sustainable tourism will have become the norm rather than the exception. We'll be seeing far more eco-friendly options.\n\nHost: That's interesting. What about technology's role?\n\nSarah: Technology will be changing everything. By the end of this decade, artificial intelligence will have revolutionized how we plan trips. At any given moment, millions of people will be using AI assistants to book personalized travel experiences. Virtual reality previews will have become standard for hotels and destinations.\n\nHost: Some argue globalization has made travel too homogeneous. What's your view?\n\nSarah: That's a valid concern. By 2040, many fear that authentic cultural experiences will have disappeared. However, I'm more optimistic. Communities will be working harder to preserve their heritage. By then, we'll have developed better ways to balance tourism with cultural preservation.\n\nHost: What about space tourism?\n\nSarah: By 2035, commercial space travel will have become accessible to more people—though still expensive. This time next year, several companies will be offering suborbital flights. In a few decades, we might even be visiting space hotels. By the end of the century, humans will have been traveling to space for tourism for fifty years or more.\n\nHost: How will climate change affect travel?\n\nSarah: This is crucial. By 2050, rising sea levels will have changed many coastal destinations. Some places we visit today will have become inaccessible. People will be traveling to see endangered environments before they're gone. By then, carbon-neutral flights will have become mandatory in many countries.\n\nHost: Any advice for travelers today?\n\nSarah: Travel consciously. By the time you're my age, the world will have changed significantly. The experiences available now may not exist in the future. But also remember: by then, we'll have discovered new destinations and created new ways to explore our interconnected world.",
+    "duration": 220,
+    "speed": 1.0,
+    "speakers": ["Host", "Sarah Chen"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "By 2030, I believe travel will have transformed dramatically.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d2",
+        "text": "At any given moment, millions of people will be using AI assistants to book personalized travel experiences.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d3",
+        "text": "By then, we'll have developed better ways to balance tourism with cultural preservation.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d4",
+        "text": "This time next year, several companies will be offering suborbital flights.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d5",
+        "text": "The experiences available now may not exist in the future.",
+        "difficulty": "medium"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "According to Sarah, by 2030 what will have happened to sustainable tourism?",
+      "options": ["It will have declined", "It will have become the norm", "It will have become illegal", "It will have stayed the same"],
+      "answer": "It will have become the norm",
+      "explanation": "Sarah says 'Sustainable tourism will have become the norm rather than the exception.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Sarah believes AI will have revolutionized trip planning by the end of this decade.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Sarah states 'By the end of this decade, artificial intelligence will have revolutionized how we plan trips.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What does Sarah say will have become standard for hotels?",
+      "options": ["Robot staff", "Virtual reality previews", "Free cancellation", "All-inclusive packages"],
+      "answer": "Virtual reality previews",
+      "explanation": "Sarah mentions 'Virtual reality previews will have become standard for hotels and destinations.'"
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "question": "Sarah is pessimistic about authentic cultural experiences surviving.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Sarah says 'However, I'm more optimistic' regarding cultural preservation."
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "By 2035, what does Sarah predict about commercial space travel?",
+      "options": ["It will have ended", "It will have become free", "It will have become more accessible", "It will have become illegal"],
+      "answer": "It will have become more accessible",
+      "explanation": "Sarah says 'By 2035, commercial space travel will have become accessible to more people.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What will be happening this time next year according to Sarah?",
+      "options": ["Moon tourism starting", "Several companies offering suborbital flights", "Space hotels opening", "Mars missions beginning"],
+      "answer": "Several companies offering suborbital flights",
+      "explanation": "Sarah says 'This time next year, several companies will be offering suborbital flights.'"
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "Sarah predicts rising sea levels will have changed coastal destinations by 2050.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Sarah states 'By 2050, rising sea levels will have changed many coastal destinations.'"
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "Why does Sarah say people will be traveling to endangered environments?",
+      "options": ["To help protect them", "To see them before they're gone", "For scientific research", "Because they're cheaper"],
+      "answer": "To see them before they're gone",
+      "explanation": "Sarah says 'People will be traveling to see endangered environments before they're gone.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What will have become mandatory in many countries by 2050?",
+      "options": ["Travel insurance", "Visa requirements", "Carbon-neutral flights", "Travel vaccinations"],
+      "answer": "Carbon-neutral flights",
+      "explanation": "Sarah predicts 'By then, carbon-neutral flights will have become mandatory in many countries.'"
+    },
+    {
+      "id": "q10",
+      "type": "true_false",
+      "question": "Sarah advises travelers to wait for better technology before traveling.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Sarah advises to 'Travel consciously' now, noting 'The experiences available now may not exist in the future.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What does Sarah advise travelers to do today?",
+      "answer": "travel consciously",
+      "alternateAnswers": ["Travel consciously", "be conscious", "travel conscious"],
+      "explanation": "Sarah's advice is 'Travel consciously.'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "Which tense does Sarah use when saying 'This time next year, several companies will be offering suborbital flights'?",
+      "options": ["Future simple", "Future perfect", "Future continuous", "Present continuous"],
+      "answer": "Future continuous",
+      "explanation": "'will be offering' is the future continuous tense, used for actions in progress at a future time."
+    }
+  ]
+}

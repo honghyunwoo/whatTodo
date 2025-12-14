@@ -1,0 +1,132 @@
+{
+  "id": "week-4-writing",
+  "weekId": "week-4",
+  "type": "writing",
+  "level": "B2",
+  "title": "Scientific Innovation Report",
+  "description": "Write a report about a scientific or technological innovation, describing how it was developed and its potential impact.",
+
+  "prompt": {
+    "topic": "A Scientific Innovation That Could Change the World",
+    "scenario": "Write a report about a recent scientific or technological innovation (e.g., renewable energy technology, medical breakthrough, AI application, or environmental solution). Describe how it was developed, how it works, and what impact it could have on society.",
+    "requirements": [
+      "Introduce the innovation and explain why it is significant",
+      "Describe how the technology was developed or is being developed",
+      "Use passive and causative structures to explain processes",
+      "Discuss the potential benefits and any challenges that need to be addressed",
+      "Conclude with your view on its future impact"
+    ],
+    "wordCount": { "min": 180, "max": 250 },
+    "timeLimit": 25
+  },
+
+  "writingHelp": {
+    "structure": {
+      "introduction": [
+        "One of the most promising innovations in [field] is...",
+        "A significant breakthrough has been made in the area of...",
+        "In recent years, considerable progress has been achieved in..."
+      ],
+      "bodyParagraphs": [
+        "This technology was developed through...",
+        "The process involves... which is then...",
+        "Researchers had the prototype tested by...",
+        "It is believed that this innovation could...",
+        "Several challenges still need to be addressed, including..."
+      ],
+      "conclusion": [
+        "If these challenges are overcome, this technology could...",
+        "It is expected that within the next decade...",
+        "The potential of this innovation to transform [area] cannot be underestimated."
+      ]
+    },
+    "usefulExpressions": [
+      { "phrase": "has been developed", "example": "A new vaccine has been developed using mRNA technology." },
+      { "phrase": "is being tested", "example": "The treatment is currently being tested in clinical trials." },
+      { "phrase": "was designed to", "example": "The system was designed to reduce energy consumption." },
+      { "phrase": "needs to be addressed", "example": "The issue of cost needs to be addressed before widespread adoption." },
+      { "phrase": "It is expected that", "example": "It is expected that the technology will be available within five years." }
+    ],
+    "connectors": {
+      "process": ["First", "Then", "Next", "Subsequently", "Finally"],
+      "cause_effect": ["As a result", "Consequently", "Therefore", "This leads to"],
+      "contrast": ["However", "Nevertheless", "On the other hand", "Despite this"],
+      "addition": ["Furthermore", "Moreover", "In addition", "Additionally"]
+    },
+    "vocabularyBank": [
+      "innovation", "breakthrough", "implementation", "prototype",
+      "clinical trials", "peer review", "methodology", "sustainable",
+      "efficiency", "scalability", "feasibility", "commercialization"
+    ]
+  },
+
+  "rubric": {
+    "content": {
+      "weight": 0.25,
+      "criteria": [
+        "Clear introduction of the innovation",
+        "Adequate description of development process",
+        "Discussion of benefits and challenges",
+        "Thoughtful conclusion about future impact"
+      ]
+    },
+    "grammar": {
+      "weight": 0.30,
+      "criteria": [
+        "Correct use of passive voice in various tenses",
+        "Appropriate use of causative structures",
+        "Accurate use of impersonal passive constructions",
+        "Consistent and appropriate tense usage"
+      ]
+    },
+    "vocabulary": {
+      "weight": 0.25,
+      "criteria": [
+        "Use of scientific and technical vocabulary",
+        "Appropriate academic register",
+        "Varied word choice",
+        "Correct collocations"
+      ]
+    },
+    "organization": {
+      "weight": 0.20,
+      "criteria": [
+        "Clear structure with introduction, body, and conclusion",
+        "Logical flow of ideas",
+        "Effective use of connectors",
+        "Coherent paragraphing"
+      ]
+    }
+  },
+
+  "sampleAnswer": {
+    "text": "One of the most significant innovations in recent years has been the development of mRNA vaccine technology. This breakthrough has revolutionized how vaccines are created and could transform the treatment of many diseases beyond infectious illnesses.\n\nThe technology was developed over several decades by researchers who believed that messenger RNA could be used to instruct cells to produce proteins. Early experiments were conducted in the 1990s, but significant technical challenges had to be overcome. The mRNA molecules were being destroyed by the body before they could deliver their instructions. This problem was solved when a method was developed to modify the mRNA so it could survive in the body.\n\nWhen the recent pandemic emerged, the groundwork had already been laid. Vaccines were developed and tested in record time because the platform technology had been perfected. Clinical trials were conducted globally, and the vaccines were approved and distributed within a year. Billions of doses have now been administered worldwide.\n\nIt is believed that this technology could be applied to cancer treatment, where the immune system would be instructed to attack tumor cells. Clinical trials are being conducted to test these applications. However, challenges remain. Manufacturing needs to be scaled up, and the vaccines must be stored at very low temperatures.\n\nDespite these obstacles, it is expected that mRNA technology will continue to be refined and expanded. The future of medicine is being reshaped by this remarkable innovation.",
+    "wordCount": 235,
+    "annotations": [
+      { "text": "has been the development", "comment": "Present perfect passive" },
+      { "text": "was developed", "comment": "Simple past passive" },
+      { "text": "were being destroyed", "comment": "Past continuous passive" },
+      { "text": "was solved when a method was developed", "comment": "Multiple passives" },
+      { "text": "had already been laid", "comment": "Past perfect passive" },
+      { "text": "were developed and tested", "comment": "Parallel passive structures" },
+      { "text": "have now been administered", "comment": "Present perfect passive" },
+      { "text": "It is believed that", "comment": "Impersonal passive" },
+      { "text": "would be instructed", "comment": "Conditional passive" },
+      { "text": "needs to be scaled up", "comment": "Passive infinitive with 'need'" },
+      { "text": "is being reshaped", "comment": "Present continuous passive" }
+    ]
+  },
+
+  "selfCheckList": [
+    "Did I clearly introduce the innovation and its significance?",
+    "Did I describe how the technology was developed?",
+    "Did I use at least three different passive structures?",
+    "Did I include at least one causative structure?",
+    "Did I use impersonal passive constructions (It is believed...)?",
+    "Did I discuss both benefits and challenges?",
+    "Did I use appropriate scientific vocabulary?",
+    "Did I organize my report with clear paragraphs?",
+    "Did I include a conclusion about future impact?",
+    "Is my report within the word count (180-250 words)?"
+  ]
+}

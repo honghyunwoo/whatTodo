@@ -1,0 +1,175 @@
+{
+  "id": "week-6-writing",
+  "weekId": "week-6",
+  "type": "writing",
+  "level": "B1",
+  "title": "Writing About Learning",
+  "description": "Write about your learning experiences and goals.",
+
+  "prompt": {
+    "topic": "My Learning Goals and How I Will Achieve Them",
+    "description": "Write about something you want to learn (a language, skill, or subject). Explain why you want to learn it, describe your plan to achieve this goal, and explain what will happen if you succeed.",
+    "requirements": [
+      "Describe what you want to learn and why",
+      "Explain your plan or strategy",
+      "Use at least two first conditional sentences",
+      "Use at least one 'unless' or 'when' clause",
+      "Describe what will happen if you achieve your goal"
+    ],
+    "wordCount": {
+      "min": 130,
+      "max": 180
+    },
+    "timeLimit": 25
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "I have decided to learn Japanese because I love Japanese culture.",
+      "translation": "일본 문화를 좋아해서 일본어를 배우기로 했어요.",
+      "useCase": "To introduce your learning goal"
+    },
+    {
+      "id": "ex2",
+      "sentence": "If I study for one hour every day, I will make good progress.",
+      "translation": "매일 한 시간씩 공부하면 좋은 진전을 이룰 거예요.",
+      "useCase": "To describe your plan with first conditional"
+    },
+    {
+      "id": "ex3",
+      "sentence": "Unless I practice regularly, I won't improve my speaking skills.",
+      "translation": "규칙적으로 연습하지 않으면 말하기 실력이 늘지 않을 거예요.",
+      "useCase": "To express a condition with 'unless'"
+    },
+    {
+      "id": "ex4",
+      "sentence": "When I become fluent, I will be able to travel more confidently.",
+      "translation": "유창해지면 더 자신 있게 여행할 수 있을 거예요.",
+      "useCase": "To describe future benefits"
+    },
+    {
+      "id": "ex5",
+      "sentence": "I plan to use apps and watch videos to improve my listening.",
+      "translation": "앱과 동영상을 사용해서 듣기를 향상시킬 계획이에요.",
+      "useCase": "To explain your strategy"
+    },
+    {
+      "id": "ex6",
+      "sentence": "If I achieve this goal, it will open many new opportunities for me.",
+      "translation": "이 목표를 달성하면 많은 새로운 기회가 열릴 거예요.",
+      "useCase": "To conclude with the benefits of success"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "goal",
+      "translation": "목표",
+      "example": "My goal is to become fluent in English."
+    },
+    {
+      "word": "achieve",
+      "translation": "달성하다",
+      "example": "I want to achieve this goal within two years."
+    },
+    {
+      "word": "improve",
+      "translation": "향상시키다",
+      "example": "I need to improve my pronunciation."
+    },
+    {
+      "word": "progress",
+      "translation": "진전, 발전",
+      "example": "I've made good progress this month."
+    },
+    {
+      "word": "fluent",
+      "translation": "유창한",
+      "example": "I want to become fluent in Korean."
+    },
+    {
+      "word": "challenge",
+      "translation": "도전; 어려움",
+      "example": "The biggest challenge is finding time to study."
+    },
+    {
+      "word": "opportunity",
+      "translation": "기회",
+      "example": "Learning English will create new opportunities."
+    },
+    {
+      "word": "motivation",
+      "translation": "동기",
+      "example": "My motivation is to work abroad."
+    }
+  ],
+
+  "usefulExpressions": [
+    {
+      "expression": "I have decided to...",
+      "usage": "To introduce your goal",
+      "example": "I have decided to learn how to code."
+    },
+    {
+      "expression": "If I..., I will be able to...",
+      "usage": "To describe what success will enable",
+      "example": "If I learn Spanish, I will be able to work in South America."
+    },
+    {
+      "expression": "Unless I..., I won't...",
+      "usage": "To express what is necessary",
+      "example": "Unless I stay motivated, I won't reach my goal."
+    },
+    {
+      "expression": "My plan is to...",
+      "usage": "To explain your strategy",
+      "example": "My plan is to study for 30 minutes every morning."
+    },
+    {
+      "expression": "When I succeed,...",
+      "usage": "To describe future benefits",
+      "example": "When I succeed, I will feel very proud of myself."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "Content Requirements",
+      "items": [
+        "Did you describe what you want to learn and why?",
+        "Did you explain your plan or strategy?",
+        "Did you use at least two first conditional sentences?",
+        "Did you use 'unless' or 'when' at least once?",
+        "Did you describe what will happen if you succeed?"
+      ]
+    },
+    {
+      "category": "Grammar & Structure",
+      "items": [
+        "Did you use conditional structures correctly?",
+        "Did you use present simple in 'if/when/unless' clauses?",
+        "Did you organize your ideas logically?",
+        "Did you use appropriate linking words?"
+      ]
+    },
+    {
+      "category": "Vocabulary & Style",
+      "items": [
+        "Did you use learning-related vocabulary?",
+        "Did you vary your sentence structures?",
+        "Did you express your ideas clearly?",
+        "Did you avoid repetition?"
+      ]
+    },
+    {
+      "category": "Word Count & Completion",
+      "items": [
+        "Is your writing at least 130 words?",
+        "Is your writing no more than 180 words?",
+        "Does your writing have a clear beginning, middle, and end?",
+        "Did you complete within the time limit?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "id": "week-8-listening",
+  "weekId": "week-8",
+  "type": "listening",
+  "level": "B2",
+  "title": "영화와 책 리뷰 대화",
+  "description": "영화와 책에 대한 리뷰를 듣고 수동태와 관계대명사가 사용된 문장을 이해합니다.",
+
+  "audio": {
+    "text": "Hey Emily, did you see the new movie that was released last week?\n\nYes! I watched it on Saturday. It's the film that everyone is talking about.\n\nWhat did you think? I heard it was directed by Christopher Nolan.\n\nThat's right. It was directed by him, and I must say it was brilliantly made. The story, which was written by his brother, was really complex but fascinating.\n\nI've heard the special effects were amazing too.\n\nAbsolutely! The effects, which were created by a team in London, were incredible. Some scenes were filmed in real locations, which made everything feel more authentic.\n\nInteresting! Have you read the book that the movie was based on?\n\nNo, I haven't. But my friend Sarah, whose opinion I really trust, said the book is even better than the movie.\n\nReally? Who was it written by?\n\nIt was written by a British author whose name is Ian McEwan. He's someone who has won many awards for his novels.\n\nI should read it then. Is it the kind of book that can be read quickly?\n\nNot really. It's quite long and the language that is used is quite sophisticated. But the characters who are described in the book are very interesting.\n\nSounds good. I'll definitely check it out. By the way, have you heard about the new series that's been released on Netflix?\n\nYes! It's the one that was recommended by all the critics, right? It's supposed to be amazing.\n\nExactly. It was produced by the same people who made that award-winning documentary last year.\n\nOh, the documentary that was shown at the film festival? I loved that one!\n\nYes, that's the one. They're really talented filmmakers whose work is always impressive.",
+    "speed": 1.0
+  },
+
+  "dictation": {
+    "targetSentences": [
+      "It was directed by Christopher Nolan.",
+      "The story was written by his brother.",
+      "The effects were created by a team in London.",
+      "Some scenes were filmed in real locations.",
+      "The movie was based on a book.",
+      "It was written by a British author.",
+      "The language that is used is quite sophisticated.",
+      "The characters who are described in the book are very interesting.",
+      "It was recommended by all the critics.",
+      "It was produced by the same people who made that documentary."
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "true_false",
+      "question": "Emily watched the new movie last week.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Emily는 토요일에 영화를 봤다고 말했습니다."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "Who directed the movie?",
+      "options": [
+        "Ian McEwan",
+        "Christopher Nolan",
+        "Nolan's brother",
+        "A British director"
+      ],
+      "answer": "Christopher Nolan",
+      "explanation": "영화는 Christopher Nolan에 의해 감독되었습니다."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "Who wrote the story of the movie?",
+      "options": [
+        "Christopher Nolan",
+        "Nolan's brother",
+        "Ian McEwan",
+        "A team in London"
+      ],
+      "answer": "Nolan's brother",
+      "explanation": "스토리는 Nolan의 형제에 의해 쓰여졌습니다."
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "Where were the special effects created?",
+      "options": [
+        "In Hollywood",
+        "In London",
+        "In New York",
+        "In Tokyo"
+      ],
+      "answer": "In London",
+      "explanation": "특수 효과는 런던의 팀에 의해 만들어졌습니다."
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Some scenes were filmed in real locations.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "일부 장면은 실제 장소에서 촬영되었다고 언급되어 있습니다."
+    },
+    {
+      "id": "q6",
+      "type": "true_false",
+      "question": "Emily has already read the book.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Emily는 책을 아직 읽지 않았다고 말했습니다."
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What does Sarah think about the book?",
+      "options": [
+        "It's worse than the movie",
+        "It's better than the movie",
+        "It's the same as the movie",
+        "She hasn't read it"
+      ],
+      "answer": "It's better than the movie",
+      "explanation": "Sarah는 책이 영화보다 더 좋다고 말했습니다."
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "Who wrote the book?",
+      "options": [
+        "Christopher Nolan",
+        "Sarah",
+        "Ian McEwan",
+        "A British critic"
+      ],
+      "answer": "Ian McEwan",
+      "explanation": "책은 영국 작가 Ian McEwan에 의해 쓰여졌습니다."
+    },
+    {
+      "id": "q9",
+      "type": "true_false",
+      "question": "Ian McEwan has won many awards.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "그는 많은 상을 받았다고 언급되어 있습니다."
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What is said about the book's language?",
+      "options": [
+        "It's very simple",
+        "It's quite sophisticated",
+        "It's easy to read",
+        "It's written in French"
+      ],
+      "answer": "It's quite sophisticated",
+      "explanation": "책에 사용된 언어는 꽤 세련되었다고 언급되어 있습니다."
+    },
+    {
+      "id": "q11",
+      "type": "true_false",
+      "question": "The book is short and can be read quickly.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "책은 꽤 길고 빨리 읽을 수 있는 종류가 아니라고 했습니다."
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "What platform is the new series on?",
+      "options": ["Amazon Prime", "Netflix", "HBO", "Disney+"],
+      "answer": "Netflix",
+      "explanation": "새 시리즈는 넷플릭스에 공개되었습니다."
+    },
+    {
+      "id": "q13",
+      "type": "multiple_choice",
+      "question": "Who recommended the new series?",
+      "options": [
+        "Emily",
+        "Sarah",
+        "All the critics",
+        "Christopher Nolan"
+      ],
+      "answer": "All the critics",
+      "explanation": "모든 비평가들에 의해 추천되었습니다."
+    },
+    {
+      "id": "q14",
+      "type": "true_false",
+      "question": "The series was produced by the same people who made a documentary.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "작년에 다큐멘터리를 만든 동일한 사람들에 의해 제작되었습니다."
+    },
+    {
+      "id": "q15",
+      "type": "multiple_choice",
+      "question": "Where was the documentary shown?",
+      "options": [
+        "On Netflix",
+        "At a film festival",
+        "On television",
+        "In cinemas"
+      ],
+      "answer": "At a film festival",
+      "explanation": "다큐멘터리는 영화제에서 상영되었습니다."
+    }
+  ]
+}

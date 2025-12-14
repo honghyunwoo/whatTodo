@@ -1,0 +1,333 @@
+{
+  "id": "week-6-vocab",
+  "weekId": "week-6",
+  "type": "vocabulary",
+  "level": "B1",
+  "title": "Education & Learning",
+  "description": "Learn vocabulary for discussing education, learning methods, and academic life.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "curriculum",
+      "pronunciation": "/kəˈrɪkjələm/",
+      "partOfSpeech": "noun",
+      "meaning": "the subjects taught in a school or course",
+      "translation": "교육 과정",
+      "example": "The school has updated its curriculum to include more technology.",
+      "exampleTranslation": "학교가 더 많은 기술을 포함하도록 교육 과정을 업데이트했어요."
+    },
+    {
+      "id": "w2",
+      "word": "tuition",
+      "pronunciation": "/tjuˈɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "money paid for education; teaching",
+      "translation": "수업료; 수업",
+      "example": "University tuition has increased significantly.",
+      "exampleTranslation": "대학 등록금이 크게 올랐어요."
+    },
+    {
+      "id": "w3",
+      "word": "scholarship",
+      "pronunciation": "/ˈskɒləʃɪp/",
+      "partOfSpeech": "noun",
+      "meaning": "money given to a student to help pay for education",
+      "translation": "장학금",
+      "example": "She won a scholarship to study abroad.",
+      "exampleTranslation": "그녀는 해외 유학 장학금을 받았어요."
+    },
+    {
+      "id": "w4",
+      "word": "assignment",
+      "pronunciation": "/əˈsaɪnmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "a piece of work given to students",
+      "translation": "과제",
+      "example": "The assignment is due next Friday.",
+      "exampleTranslation": "과제는 다음 금요일까지예요."
+    },
+    {
+      "id": "w5",
+      "word": "deadline",
+      "pronunciation": "/ˈdedlaɪn/",
+      "partOfSpeech": "noun",
+      "meaning": "the time by which something must be completed",
+      "translation": "마감일",
+      "example": "I always try to meet my deadlines.",
+      "exampleTranslation": "저는 항상 마감일을 지키려고 해요."
+    },
+    {
+      "id": "w6",
+      "word": "lecture",
+      "pronunciation": "/ˈlektʃə/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "a formal talk on a subject",
+      "translation": "강의; 강의하다",
+      "example": "The professor gives lectures twice a week.",
+      "exampleTranslation": "교수님은 일주일에 두 번 강의하세요."
+    },
+    {
+      "id": "w7",
+      "word": "seminar",
+      "pronunciation": "/ˈsemɪnɑː/",
+      "partOfSpeech": "noun",
+      "meaning": "a class where students discuss a topic",
+      "translation": "세미나",
+      "example": "We have a seminar on research methods.",
+      "exampleTranslation": "우리는 연구 방법에 대한 세미나가 있어요."
+    },
+    {
+      "id": "w8",
+      "word": "graduate",
+      "pronunciation": "/ˈɡrædʒuət/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to complete studies; a person who has completed studies",
+      "translation": "졸업하다; 졸업생",
+      "example": "She will graduate from university next year.",
+      "exampleTranslation": "그녀는 내년에 대학을 졸업해요."
+    },
+    {
+      "id": "w9",
+      "word": "degree",
+      "pronunciation": "/dɪˈɡriː/",
+      "partOfSpeech": "noun",
+      "meaning": "a qualification from a university",
+      "translation": "학위",
+      "example": "He has a degree in computer science.",
+      "exampleTranslation": "그는 컴퓨터 과학 학위가 있어요."
+    },
+    {
+      "id": "w10",
+      "word": "research",
+      "pronunciation": "/rɪˈsɜːtʃ/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "careful study to find new information",
+      "translation": "연구; 연구하다",
+      "example": "The team is conducting research on climate change.",
+      "exampleTranslation": "그 팀은 기후 변화에 대한 연구를 하고 있어요."
+    },
+    {
+      "id": "w11",
+      "word": "qualify",
+      "pronunciation": "/ˈkwɒlɪfaɪ/",
+      "partOfSpeech": "verb",
+      "meaning": "to become officially recognized as able to do something",
+      "translation": "자격을 얻다",
+      "example": "She qualified as a doctor last year.",
+      "exampleTranslation": "그녀는 작년에 의사 자격을 얻었어요."
+    },
+    {
+      "id": "w12",
+      "word": "tutor",
+      "pronunciation": "/ˈtjuːtə/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "a private teacher",
+      "translation": "개인 교사; 개인 지도하다",
+      "example": "I have a math tutor who helps me twice a week.",
+      "exampleTranslation": "일주일에 두 번 도와주는 수학 과외 선생님이 있어요."
+    },
+    {
+      "id": "w13",
+      "word": "concentrate",
+      "pronunciation": "/ˈkɒnsntreɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "to focus attention on something",
+      "translation": "집중하다",
+      "example": "I find it hard to concentrate when it's noisy.",
+      "exampleTranslation": "시끄러우면 집중하기 어려워요."
+    },
+    {
+      "id": "w14",
+      "word": "memorize",
+      "pronunciation": "/ˈmeməraɪz/",
+      "partOfSpeech": "verb",
+      "meaning": "to learn something so you can remember it exactly",
+      "translation": "암기하다",
+      "example": "You need to memorize these vocabulary words.",
+      "exampleTranslation": "이 단어들을 암기해야 해요."
+    },
+    {
+      "id": "w15",
+      "word": "revise",
+      "pronunciation": "/rɪˈvaɪz/",
+      "partOfSpeech": "verb",
+      "meaning": "to study again before an exam",
+      "translation": "복습하다",
+      "example": "I need to revise for my exams next week.",
+      "exampleTranslation": "다음 주 시험을 위해 복습해야 해요."
+    },
+    {
+      "id": "w16",
+      "word": "analyze",
+      "pronunciation": "/ˈænəlaɪz/",
+      "partOfSpeech": "verb",
+      "meaning": "to examine something carefully",
+      "translation": "분석하다",
+      "example": "We need to analyze the data from the experiment.",
+      "exampleTranslation": "실험 데이터를 분석해야 해요."
+    },
+    {
+      "id": "w17",
+      "word": "summarize",
+      "pronunciation": "/ˈsʌməraɪz/",
+      "partOfSpeech": "verb",
+      "meaning": "to give only the main points",
+      "translation": "요약하다",
+      "example": "Can you summarize the main ideas of the article?",
+      "exampleTranslation": "기사의 주요 내용을 요약해 줄 수 있어요?"
+    },
+    {
+      "id": "w18",
+      "word": "academic",
+      "pronunciation": "/ˌækəˈdemɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "related to education and schools",
+      "translation": "학업의, 학술적인",
+      "example": "Her academic performance has improved.",
+      "exampleTranslation": "그녀의 학업 성적이 향상되었어요."
+    },
+    {
+      "id": "w19",
+      "word": "practical",
+      "pronunciation": "/ˈpræktɪkl/",
+      "partOfSpeech": "adjective",
+      "meaning": "related to real situations rather than theory",
+      "translation": "실용적인",
+      "example": "The course includes both theory and practical skills.",
+      "exampleTranslation": "이 과정은 이론과 실용적인 기술을 모두 포함해요."
+    },
+    {
+      "id": "w20",
+      "word": "motivated",
+      "pronunciation": "/ˈməʊtɪveɪtɪd/",
+      "partOfSpeech": "adjective",
+      "meaning": "having a strong desire to do something",
+      "translation": "동기 부여된",
+      "example": "Motivated students tend to perform better.",
+      "exampleTranslation": "동기 부여된 학생들이 성적이 더 좋은 편이에요."
+    },
+    {
+      "id": "w21",
+      "word": "effective",
+      "pronunciation": "/ɪˈfektɪv/",
+      "partOfSpeech": "adjective",
+      "meaning": "producing the intended result",
+      "translation": "효과적인",
+      "example": "What's the most effective way to learn vocabulary?",
+      "exampleTranslation": "어휘를 배우는 가장 효과적인 방법은 뭐예요?"
+    },
+    {
+      "id": "w22",
+      "word": "distracted",
+      "pronunciation": "/dɪˈstræktɪd/",
+      "partOfSpeech": "adjective",
+      "meaning": "unable to concentrate because of something else",
+      "translation": "산만한, 집중하지 못하는",
+      "example": "I get distracted easily by my phone.",
+      "exampleTranslation": "저는 휴대폰 때문에 쉽게 산만해져요."
+    },
+    {
+      "id": "w23",
+      "word": "fluent",
+      "pronunciation": "/ˈfluːənt/",
+      "partOfSpeech": "adjective",
+      "meaning": "able to speak a language smoothly and easily",
+      "translation": "유창한",
+      "example": "She is fluent in three languages.",
+      "exampleTranslation": "그녀는 세 개 국어에 유창해요."
+    },
+    {
+      "id": "w24",
+      "word": "online learning",
+      "pronunciation": "/ˌɒnlaɪn ˈlɜːnɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "education that takes place over the internet",
+      "translation": "온라인 학습",
+      "example": "Online learning has become very popular.",
+      "exampleTranslation": "온라인 학습이 매우 인기 있어졌어요."
+    },
+    {
+      "id": "w25",
+      "word": "critical thinking",
+      "pronunciation": "/ˌkrɪtɪkl ˈθɪŋkɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "the ability to analyze and evaluate ideas",
+      "translation": "비판적 사고",
+      "example": "Schools should teach critical thinking skills.",
+      "exampleTranslation": "학교는 비판적 사고력을 가르쳐야 해요."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "She won a _____ to study at Harvard University.",
+      "options": ["degree", "scholarship", "curriculum", "lecture"],
+      "answer": "scholarship"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "The _____ for submitting the essay is next Monday.",
+      "answer": "deadline"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "I need to _____ before the exam tomorrow.",
+      "options": ["graduate", "revise", "qualify", "lecture"],
+      "answer": "revise"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "He has a master's _____ in economics.",
+      "answer": "degree"
+    },
+    {
+      "id": "ex5",
+      "type": "matching",
+      "pairs": [
+        {"word": "memorize", "match": "learn by heart"},
+        {"word": "analyze", "match": "examine carefully"},
+        {"word": "summarize", "match": "give main points"},
+        {"word": "concentrate", "match": "focus attention"}
+      ]
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "She is _____ in English, French, and Spanish.",
+      "options": ["motivated", "fluent", "practical", "distracted"],
+      "answer": "fluent"
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "The professor gives a _____ every Tuesday morning.",
+      "answer": "lecture"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "I get _____ easily when there's noise.",
+      "options": ["motivated", "effective", "distracted", "academic"],
+      "answer": "distracted"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "She _____ from university with honors last year.",
+      "answer": "graduated"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "_____ learning has become more popular since the pandemic.",
+      "options": ["Academic", "Practical", "Online", "Critical"],
+      "answer": "Online"
+    }
+  ]
+}

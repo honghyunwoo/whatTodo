@@ -1,0 +1,175 @@
+{
+  "id": "week-7-writing",
+  "weekId": "week-7",
+  "type": "writing",
+  "level": "B1",
+  "title": "Writing About Culture",
+  "description": "Write about a cultural tradition that is important to you or your country.",
+
+  "prompt": {
+    "topic": "A Cultural Tradition I Value",
+    "description": "Write about a tradition or custom from your culture that you think is important. Describe what the tradition involves, when and why people observe it, and explain why you think it should be preserved.",
+    "requirements": [
+      "Describe the tradition clearly",
+      "Explain when and how it is celebrated",
+      "Describe who participates in this tradition",
+      "Use at least three relative clauses (who, which, that, where, or when)",
+      "Express your opinion on why it is valuable"
+    ],
+    "wordCount": {
+      "min": 130,
+      "max": 180
+    },
+    "timeLimit": 25
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "One tradition that is very important in my culture is Chuseok.",
+      "translation": "우리 문화에서 아주 중요한 전통 중 하나는 추석이에요.",
+      "useCase": "To introduce the tradition with a relative clause"
+    },
+    {
+      "id": "ex2",
+      "sentence": "It is a festival which takes place in autumn during the full moon.",
+      "translation": "보름달이 뜨는 가을에 열리는 축제예요.",
+      "useCase": "To describe when it happens"
+    },
+    {
+      "id": "ex3",
+      "sentence": "Families gather at their hometown, where they visit ancestral graves.",
+      "translation": "가족들이 고향에 모여 조상님의 묘를 찾아요.",
+      "useCase": "To describe the location with 'where'"
+    },
+    {
+      "id": "ex4",
+      "sentence": "The people who are most involved are extended family members.",
+      "translation": "가장 많이 참여하는 사람들은 대가족 구성원들이에요.",
+      "useCase": "To describe participants with 'who'"
+    },
+    {
+      "id": "ex5",
+      "sentence": "I remember the times when my grandmother told stories about our ancestors.",
+      "translation": "할머니가 조상님들에 대한 이야기를 들려주시던 때가 기억나요.",
+      "useCase": "To share a personal memory with 'when'"
+    },
+    {
+      "id": "ex6",
+      "sentence": "I believe this tradition should be preserved because it strengthens family bonds.",
+      "translation": "이 전통은 가족 유대를 강화하기 때문에 보존되어야 한다고 생각해요.",
+      "useCase": "To express your opinion on preservation"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "tradition",
+      "translation": "전통",
+      "example": "This tradition dates back centuries."
+    },
+    {
+      "word": "ceremony",
+      "translation": "의식",
+      "example": "The ceremony includes special rituals."
+    },
+    {
+      "word": "ancestor",
+      "translation": "조상",
+      "example": "We honor our ancestors during this holiday."
+    },
+    {
+      "word": "generation",
+      "translation": "세대",
+      "example": "This recipe has been passed down for generations."
+    },
+    {
+      "word": "preserve",
+      "translation": "보존하다",
+      "example": "We should preserve our cultural heritage."
+    },
+    {
+      "word": "significance",
+      "translation": "중요성",
+      "example": "This tradition has deep cultural significance."
+    },
+    {
+      "word": "gather",
+      "translation": "모이다",
+      "example": "Families gather for this special occasion."
+    },
+    {
+      "word": "celebrate",
+      "translation": "기념하다",
+      "example": "We celebrate this festival every year."
+    }
+  ],
+
+  "usefulExpressions": [
+    {
+      "expression": "One of the most important traditions in my culture is...",
+      "usage": "To introduce the tradition",
+      "example": "One of the most important traditions in my culture is the harvest festival."
+    },
+    {
+      "expression": "This tradition, which dates back to...",
+      "usage": "To give historical context",
+      "example": "This tradition, which dates back hundreds of years, is still practiced today."
+    },
+    {
+      "expression": "It is a time when families...",
+      "usage": "To describe what happens",
+      "example": "It is a time when families come together to share meals."
+    },
+    {
+      "expression": "The reason this tradition is important is...",
+      "usage": "To explain significance",
+      "example": "The reason this tradition is important is that it connects generations."
+    },
+    {
+      "expression": "I believe we should preserve this tradition because...",
+      "usage": "To express opinion",
+      "example": "I believe we should preserve this tradition because it teaches important values."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "Content Requirements",
+      "items": [
+        "Did you clearly describe the tradition?",
+        "Did you explain when and how it is celebrated?",
+        "Did you describe who participates?",
+        "Did you use at least three relative clauses?",
+        "Did you express your opinion on its value?"
+      ]
+    },
+    {
+      "category": "Grammar & Structure",
+      "items": [
+        "Did you use relative clauses correctly?",
+        "Did you use appropriate relative pronouns (who, which, that, where, when)?",
+        "Did you organize your ideas logically?",
+        "Did you use proper punctuation with relative clauses?"
+      ]
+    },
+    {
+      "category": "Vocabulary & Style",
+      "items": [
+        "Did you use culture-related vocabulary?",
+        "Did you describe the tradition vividly?",
+        "Did you avoid repetition?",
+        "Did you use appropriate connecting words?"
+      ]
+    },
+    {
+      "category": "Word Count & Completion",
+      "items": [
+        "Is your writing at least 130 words?",
+        "Is your writing no more than 180 words?",
+        "Does your writing have a clear structure?",
+        "Did you complete within the time limit?"
+      ]
+    }
+  ]
+}

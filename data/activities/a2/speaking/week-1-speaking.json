@@ -1,0 +1,121 @@
+{
+  "id": "week-1-speaking",
+  "weekId": "week-1",
+  "type": "speaking",
+  "level": "A2",
+  "title": "Travel Conversations",
+  "description": "Practice speaking about travel plans and experiences.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "I'd like to book a flight to Tokyo, please.",
+      "translation": "도쿄행 항공편을 예약하고 싶습니다.",
+      "tips": "'I'd like to'는 정중한 요청 표현입니다. 부드럽게 연결해서 발음하세요."
+    },
+    {
+      "id": "s2",
+      "text": "When is the next available flight?",
+      "translation": "다음 이용 가능한 항공편은 언제인가요?",
+      "tips": "'When'에 강세를 두고, 의문문 억양으로 끝내세요."
+    },
+    {
+      "id": "s3",
+      "text": "I need a round-trip ticket.",
+      "translation": "왕복 티켓이 필요합니다.",
+      "tips": "'round-trip'을 한 단어처럼 연결해서 발음하세요."
+    },
+    {
+      "id": "s4",
+      "text": "Could you tell me where the gate is?",
+      "translation": "게이트가 어디에 있는지 알려주시겠어요?",
+      "tips": "'Could you'를 부드럽게 연결하고, 'gate'를 명확하게 발음하세요."
+    },
+    {
+      "id": "s5",
+      "text": "My flight has been delayed.",
+      "translation": "제 비행기가 지연되었습니다.",
+      "tips": "'delayed'의 'd' 발음을 명확하게 하세요. /dɪˈleɪd/"
+    },
+    {
+      "id": "s6",
+      "text": "Where can I pick up my luggage?",
+      "translation": "짐을 어디서 찾을 수 있나요?",
+      "tips": "'pick up'을 자연스럽게 연결하고, 'luggage'를 강조하세요."
+    },
+    {
+      "id": "s7",
+      "text": "I went to Paris last summer.",
+      "translation": "저는 지난 여름에 파리에 갔습니다.",
+      "tips": "'went'와 'last'를 명확하게 발음하여 과거임을 표현하세요."
+    },
+    {
+      "id": "s8",
+      "text": "The hotel was right next to the beach.",
+      "translation": "호텔이 해변 바로 옆에 있었습니다.",
+      "tips": "'right next to'를 빠르게 연결하고, 'beach'에서 끝내세요."
+    },
+    {
+      "id": "s9",
+      "text": "We visited many famous tourist attractions.",
+      "translation": "우리는 많은 유명한 관광 명소를 방문했습니다.",
+      "tips": "'tourist attractions'는 '/ˈtʊrɪst əˈtrækʃənz/'로 발음합니다."
+    },
+    {
+      "id": "s10",
+      "text": "I had a wonderful time during my trip.",
+      "translation": "여행 동안 정말 즐거운 시간을 보냈습니다.",
+      "tips": "'wonderful'에 감정을 담아 강조하고, 'trip'으로 자연스럽게 마무리하세요."
+    },
+    {
+      "id": "s11",
+      "text": "How much is a taxi to the city center?",
+      "translation": "도심까지 택시비가 얼마인가요?",
+      "tips": "'How much'로 시작해서 의문문 억양을 유지하세요."
+    },
+    {
+      "id": "s12",
+      "text": "Can I have a window seat, please?",
+      "translation": "창가 좌석으로 주실 수 있나요?",
+      "tips": "'window seat'을 명확하게 발음하고, 'please'로 정중하게 마무리하세요."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation",
+      "items": [
+        "Did you pronounce past tense endings (-ed) clearly?",
+        "Did you stress the key words in each sentence?",
+        "Did you use rising intonation for questions?",
+        "Did you link words smoothly (e.g., I'd like to)?",
+        "Did you pronounce difficult words like 'luggage' correctly?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you speak without long pauses?",
+        "Did you complete all sentences?",
+        "Did you speak at a natural pace (not too slow)?",
+        "Did you sound confident?"
+      ]
+    },
+    {
+      "category": "Accuracy",
+      "items": [
+        "Did you use correct grammar structures?",
+        "Did you use appropriate vocabulary for travel?",
+        "Did you follow the pronunciation tips?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Would a native speaker understand you?",
+        "Did you express the meaning clearly?",
+        "Did you practice with different emotions (polite, excited, etc.)?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "id": "week-7-grammar",
+  "weekId": "week-7",
+  "type": "grammar",
+  "level": "A2",
+  "title": "Gerunds and Infinitives",
+  "description": "Learn when to use verb + -ing (gerunds) and to + verb (infinitives) after certain verbs.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Gerunds (-ing) as Subjects",
+      "explanation": "Use the -ing form (gerund) when the activity is the subject of the sentence.",
+      "structure": "Verb-ing + verb + ...",
+      "examples": [
+        {
+          "sentence": "Swimming is good exercise.",
+          "translation": "수영은 좋은 운동이에요.",
+          "note": "Swimming = subject"
+        },
+        {
+          "sentence": "Reading books is my favorite hobby.",
+          "translation": "독서는 제가 가장 좋아하는 취미예요.",
+          "note": "Reading = subject"
+        },
+        {
+          "sentence": "Cooking takes a lot of time.",
+          "translation": "요리는 시간이 많이 걸려요.",
+          "note": "Cooking = subject"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Verbs + Gerund (-ing)",
+      "explanation": "Some verbs are always followed by the -ing form.",
+      "common_verbs": ["enjoy", "finish", "keep", "mind", "practice", "suggest", "avoid", "consider"],
+      "structure": "Subject + verb + verb-ing",
+      "examples": [
+        {
+          "sentence": "I enjoy playing tennis.",
+          "translation": "저는 테니스 치는 것을 즐겨요.",
+          "note": "enjoy + -ing"
+        },
+        {
+          "sentence": "She finished reading the book.",
+          "translation": "그녀는 책 읽기를 끝냈어요.",
+          "note": "finish + -ing"
+        },
+        {
+          "sentence": "He keeps forgetting his password.",
+          "translation": "그는 계속 비밀번호를 잊어버려요.",
+          "note": "keep + -ing"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Verbs + Infinitive (to + verb)",
+      "explanation": "Some verbs are always followed by 'to + verb' (infinitive).",
+      "common_verbs": ["want", "need", "decide", "plan", "hope", "learn", "promise", "agree"],
+      "structure": "Subject + verb + to + verb",
+      "examples": [
+        {
+          "sentence": "I want to learn photography.",
+          "translation": "저는 사진 촬영을 배우고 싶어요.",
+          "note": "want + to + verb"
+        },
+        {
+          "sentence": "She decided to join a dance class.",
+          "translation": "그녀는 댄스 수업에 등록하기로 결심했어요.",
+          "note": "decide + to + verb"
+        },
+        {
+          "sentence": "We plan to go hiking this weekend.",
+          "translation": "우리는 이번 주말에 등산하려고 계획해요.",
+          "note": "plan + to + verb"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Verbs + Both (Gerund or Infinitive)",
+      "explanation": "Some verbs can be followed by either gerund or infinitive with similar meaning.",
+      "common_verbs": ["like", "love", "hate", "start", "begin", "continue", "prefer"],
+      "examples": [
+        {
+          "sentence": "I like swimming. / I like to swim.",
+          "translation": "저는 수영하는 것을 좋아해요.",
+          "note": "Both are correct with 'like'"
+        },
+        {
+          "sentence": "She started learning Korean. / She started to learn Korean.",
+          "translation": "그녀는 한국어를 배우기 시작했어요.",
+          "note": "Both are correct with 'start'"
+        },
+        {
+          "sentence": "He loves playing games. / He loves to play games.",
+          "translation": "그는 게임하는 것을 매우 좋아해요.",
+          "note": "Both are correct with 'love'"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Would like + Infinitive",
+      "explanation": "Use 'would like + to + verb' to express a polite want or desire.",
+      "structure": "Subject + would like + to + verb",
+      "examples": [
+        {
+          "sentence": "I would like to try yoga.",
+          "translation": "요가를 해보고 싶어요.",
+          "note": "Polite expression"
+        },
+        {
+          "sentence": "Would you like to join us?",
+          "translation": "우리와 함께 하시겠어요?",
+          "note": "Question form"
+        },
+        {
+          "sentence": "She would like to learn a new language.",
+          "translation": "그녀는 새 언어를 배우고 싶어 해요.",
+          "note": "Polite want"
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "I enjoy _____ music.",
+      "options": ["listen", "to listen", "listening", "listened"],
+      "answer": "listening"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "She wants _____ (learn) how to play guitar.",
+      "answer": "to learn"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "_____ is good for your health.",
+      "options": ["Exercise", "Exercising", "To exercise", "Exercised"],
+      "answer": "Exercising"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "He decided _____ (join) a book club.",
+      "answer": "to join"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "They finished _____ the project.",
+      "options": ["do", "to do", "doing", "did"],
+      "answer": "doing"
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "I would like _____ (try) rock climbing.",
+      "answer": "to try"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "We plan _____ a concert next month.",
+      "options": ["attend", "to attend", "attending", "attended"],
+      "answer": "to attend"
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "She keeps _____ (practice) every day.",
+      "answer": "practicing"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "I like _____ movies. (Both answers possible)",
+      "options": ["watch", "to watch / watching", "watched", "watches"],
+      "answer": "to watch / watching"
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "He hopes _____ (improve) his skills.",
+      "answer": "to improve"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "Would you like _____ us for dinner?",
+      "options": ["join", "to join", "joining", "joined"],
+      "answer": "to join"
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "I started _____ (learn) Korean last year.",
+      "answer": "learning"
+    }
+  ]
+}

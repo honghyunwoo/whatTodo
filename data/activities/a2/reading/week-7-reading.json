@@ -1,0 +1,140 @@
+{
+  "id": "week-7-reading",
+  "weekId": "week-7",
+  "type": "reading",
+  "level": "A2",
+  "title": "Finding the Right Hobby",
+  "description": "Read about different types of hobbies and how to choose one.",
+
+  "passage": {
+    "text": "Many people ask: 'How do I find a good hobby?' The answer depends on what you enjoy and what you want to get from the activity.\n\nIf you like being active, try sports or outdoor activities. Running, cycling, and hiking are popular choices. These hobbies help you stay fit and enjoy nature. You don't need expensive equipment to start - just a pair of good shoes!\n\nIf you prefer relaxing activities, consider painting, reading, or gardening. These hobbies are great for reducing stress. Painting lets you express your creativity, and you can start with just some paper and pencils.\n\nIf you want to meet new people, join a club or class. Book clubs, cooking classes, and dance groups are wonderful ways to make friends while learning something new. Many communities offer free or cheap classes for beginners.\n\nIf you enjoy music, why not learn an instrument? The guitar and piano are popular choices. There are many online tutorials that make learning easy and fun. Even practicing 15 minutes a day can help you improve quickly.\n\nThe most important thing is to try different activities. You might discover a hobby you never expected to enjoy!",
+    "wordCount": 195,
+    "estimatedReadingTime": 3
+  },
+
+  "vocabulary": [
+    {
+      "word": "depend on",
+      "meaning": "to be determined by",
+      "translation": "~에 따라 다르다"
+    },
+    {
+      "word": "equipment",
+      "meaning": "tools or items needed for an activity",
+      "translation": "장비"
+    },
+    {
+      "word": "reduce",
+      "meaning": "to make smaller or less",
+      "translation": "줄이다"
+    },
+    {
+      "word": "express",
+      "meaning": "to show feelings or ideas",
+      "translation": "표현하다"
+    },
+    {
+      "word": "discover",
+      "meaning": "to find something new",
+      "translation": "발견하다"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What does finding a hobby depend on?",
+      "options": ["Your job", "What you enjoy and want", "Your age", "Your location"],
+      "answer": "What you enjoy and want",
+      "explanation": "The passage says it 'depends on what you enjoy and what you want to get from the activity.'"
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "Which hobby is mentioned for active people?",
+      "options": ["Painting", "Reading", "Hiking", "Gardening"],
+      "answer": "Hiking",
+      "explanation": "The passage mentions 'Running, cycling, and hiking' for active people."
+    },
+    {
+      "id": "q3",
+      "type": "true_false",
+      "question": "You need expensive equipment to start running.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'You don't need expensive equipment to start - just a pair of good shoes!'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What are relaxing hobbies good for?",
+      "options": ["Meeting people", "Reducing stress", "Staying fit", "Making money"],
+      "answer": "Reducing stress",
+      "explanation": "The passage says 'These hobbies are great for reducing stress.'"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What do you need to start painting?",
+      "options": ["Expensive canvas", "A studio", "Paper and pencils", "Special training"],
+      "answer": "Paper and pencils",
+      "explanation": "The passage says 'you can start with just some paper and pencils.'"
+    },
+    {
+      "id": "q6",
+      "type": "true_false",
+      "question": "Book clubs are a good way to meet people.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage says 'Book clubs, cooking classes, and dance groups are wonderful ways to make friends.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What kind of classes do many communities offer?",
+      "options": ["Expensive private classes", "Professional classes", "Free or cheap beginner classes", "Online-only classes"],
+      "answer": "Free or cheap beginner classes",
+      "explanation": "The passage says 'Many communities offer free or cheap classes for beginners.'"
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "Which instruments are mentioned as popular choices?",
+      "options": ["Violin and drums", "Guitar and piano", "Flute and saxophone", "Piano and violin"],
+      "answer": "Guitar and piano",
+      "explanation": "The passage says 'The guitar and piano are popular choices.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "How much daily practice can help you improve at an instrument?",
+      "options": ["5 minutes", "10 minutes", "15 minutes", "30 minutes"],
+      "answer": "15 minutes",
+      "explanation": "The passage says 'Even practicing 15 minutes a day can help you improve quickly.'"
+    },
+    {
+      "id": "q10",
+      "type": "true_false",
+      "question": "The article suggests sticking to one hobby only.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'The most important thing is to try different activities.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What might you discover by trying different activities?",
+      "answer": "a hobby you never expected to enjoy",
+      "explanation": "The passage says 'You might discover a hobby you never expected to enjoy!'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "What is the main message of this passage?",
+      "options": ["Hobbies are expensive", "Try different activities to find your hobby", "Sports are the best hobbies", "Only join classes"],
+      "answer": "Try different activities to find your hobby",
+      "explanation": "The passage emphasizes trying different activities to find what you enjoy."
+    }
+  ]
+}

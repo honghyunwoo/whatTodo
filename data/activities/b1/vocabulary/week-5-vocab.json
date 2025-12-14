@@ -1,0 +1,333 @@
+{
+  "id": "week-5-vocab",
+  "weekId": "week-5",
+  "type": "vocabulary",
+  "level": "B1",
+  "title": "Environment & Nature",
+  "description": "Learn vocabulary for discussing environmental issues and the natural world.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "environment",
+      "pronunciation": "/ɪnˈvaɪrənmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "the natural world around us",
+      "translation": "환경",
+      "example": "We need to protect the environment for future generations.",
+      "exampleTranslation": "우리는 미래 세대를 위해 환경을 보호해야 해요."
+    },
+    {
+      "id": "w2",
+      "word": "pollution",
+      "pronunciation": "/pəˈluːʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "harmful substances that damage the environment",
+      "translation": "오염",
+      "example": "Air pollution is a serious problem in many cities.",
+      "exampleTranslation": "대기 오염은 많은 도시에서 심각한 문제예요."
+    },
+    {
+      "id": "w3",
+      "word": "climate change",
+      "pronunciation": "/ˈklaɪmət tʃeɪndʒ/",
+      "partOfSpeech": "noun",
+      "meaning": "long-term changes in temperature and weather patterns",
+      "translation": "기후 변화",
+      "example": "Climate change is affecting weather patterns worldwide.",
+      "exampleTranslation": "기후 변화는 전 세계의 날씨 패턴에 영향을 미치고 있어요."
+    },
+    {
+      "id": "w4",
+      "word": "recycle",
+      "pronunciation": "/riːˈsaɪkl/",
+      "partOfSpeech": "verb",
+      "meaning": "to process materials so they can be used again",
+      "translation": "재활용하다",
+      "example": "We should recycle plastic, paper, and glass.",
+      "exampleTranslation": "우리는 플라스틱, 종이, 유리를 재활용해야 해요."
+    },
+    {
+      "id": "w5",
+      "word": "renewable",
+      "pronunciation": "/rɪˈnjuːəbl/",
+      "partOfSpeech": "adjective",
+      "meaning": "able to be replaced naturally",
+      "translation": "재생 가능한",
+      "example": "Solar power is a renewable energy source.",
+      "exampleTranslation": "태양광은 재생 가능한 에너지원이에요."
+    },
+    {
+      "id": "w6",
+      "word": "wildlife",
+      "pronunciation": "/ˈwaɪldlaɪf/",
+      "partOfSpeech": "noun",
+      "meaning": "animals and plants living in natural conditions",
+      "translation": "야생 동식물",
+      "example": "The forest is home to diverse wildlife.",
+      "exampleTranslation": "그 숲에는 다양한 야생 동식물이 살고 있어요."
+    },
+    {
+      "id": "w7",
+      "word": "endangered",
+      "pronunciation": "/ɪnˈdeɪndʒəd/",
+      "partOfSpeech": "adjective",
+      "meaning": "at risk of extinction",
+      "translation": "멸종 위기의",
+      "example": "Pandas are an endangered species.",
+      "exampleTranslation": "판다는 멸종 위기종이에요."
+    },
+    {
+      "id": "w8",
+      "word": "sustainable",
+      "pronunciation": "/səˈsteɪnəbl/",
+      "partOfSpeech": "adjective",
+      "meaning": "able to continue without damaging the environment",
+      "translation": "지속 가능한",
+      "example": "We need more sustainable farming methods.",
+      "exampleTranslation": "우리는 더 지속 가능한 농업 방법이 필요해요."
+    },
+    {
+      "id": "w9",
+      "word": "conservation",
+      "pronunciation": "/ˌkɒnsəˈveɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "protecting natural resources and wildlife",
+      "translation": "보존, 보호",
+      "example": "Conservation efforts have helped save many species.",
+      "exampleTranslation": "보존 노력이 많은 종을 구하는 데 도움이 되었어요."
+    },
+    {
+      "id": "w10",
+      "word": "deforestation",
+      "pronunciation": "/diːˌfɒrɪˈsteɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "cutting down large areas of forest",
+      "translation": "산림 벌채",
+      "example": "Deforestation destroys animal habitats.",
+      "exampleTranslation": "산림 벌채는 동물의 서식지를 파괴해요."
+    },
+    {
+      "id": "w11",
+      "word": "habitat",
+      "pronunciation": "/ˈhæbɪtæt/",
+      "partOfSpeech": "noun",
+      "meaning": "the natural home of an animal or plant",
+      "translation": "서식지",
+      "example": "Coral reefs are important marine habitats.",
+      "exampleTranslation": "산호초는 중요한 해양 서식지예요."
+    },
+    {
+      "id": "w12",
+      "word": "ecosystem",
+      "pronunciation": "/ˈiːkəʊsɪstəm/",
+      "partOfSpeech": "noun",
+      "meaning": "a community of living things and their environment",
+      "translation": "생태계",
+      "example": "Rainforests are complex ecosystems.",
+      "exampleTranslation": "열대우림은 복잡한 생태계예요."
+    },
+    {
+      "id": "w13",
+      "word": "carbon footprint",
+      "pronunciation": "/ˈkɑːbən ˈfʊtprɪnt/",
+      "partOfSpeech": "noun",
+      "meaning": "the amount of carbon dioxide we produce",
+      "translation": "탄소 발자국",
+      "example": "Flying has a large carbon footprint.",
+      "exampleTranslation": "비행기를 타면 탄소 발자국이 커요."
+    },
+    {
+      "id": "w14",
+      "word": "waste",
+      "pronunciation": "/weɪst/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "unwanted materials; to use carelessly",
+      "translation": "쓰레기; 낭비하다",
+      "example": "We produce too much plastic waste.",
+      "exampleTranslation": "우리는 플라스틱 쓰레기를 너무 많이 만들어요."
+    },
+    {
+      "id": "w15",
+      "word": "global warming",
+      "pronunciation": "/ˌɡləʊbl ˈwɔːmɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "the gradual increase in Earth's temperature",
+      "translation": "지구 온난화",
+      "example": "Global warming is melting the polar ice caps.",
+      "exampleTranslation": "지구 온난화로 극지방의 빙하가 녹고 있어요."
+    },
+    {
+      "id": "w16",
+      "word": "emission",
+      "pronunciation": "/ɪˈmɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "gas or other substance released into the air",
+      "translation": "배출",
+      "example": "Car emissions contribute to air pollution.",
+      "exampleTranslation": "자동차 배출가스가 대기 오염에 기여해요."
+    },
+    {
+      "id": "w17",
+      "word": "preserve",
+      "pronunciation": "/prɪˈzɜːv/",
+      "partOfSpeech": "verb",
+      "meaning": "to keep safe from harm or change",
+      "translation": "보존하다",
+      "example": "We must preserve our natural resources.",
+      "exampleTranslation": "우리는 자연 자원을 보존해야 해요."
+    },
+    {
+      "id": "w18",
+      "word": "drought",
+      "pronunciation": "/draʊt/",
+      "partOfSpeech": "noun",
+      "meaning": "a long period without rain",
+      "translation": "가뭄",
+      "example": "The drought has destroyed many crops.",
+      "exampleTranslation": "가뭄으로 많은 농작물이 파괴되었어요."
+    },
+    {
+      "id": "w19",
+      "word": "flood",
+      "pronunciation": "/flʌd/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "when water covers an area that is usually dry",
+      "translation": "홍수",
+      "example": "Heavy rain caused flooding in the city.",
+      "exampleTranslation": "폭우로 도시에 홍수가 났어요."
+    },
+    {
+      "id": "w20",
+      "word": "species",
+      "pronunciation": "/ˈspiːʃiːz/",
+      "partOfSpeech": "noun",
+      "meaning": "a group of similar animals or plants",
+      "translation": "종",
+      "example": "Thousands of species live in the Amazon.",
+      "exampleTranslation": "수천 종의 생물이 아마존에 살아요."
+    },
+    {
+      "id": "w21",
+      "word": "extinct",
+      "pronunciation": "/ɪkˈstɪŋkt/",
+      "partOfSpeech": "adjective",
+      "meaning": "no longer existing",
+      "translation": "멸종한",
+      "example": "Dinosaurs became extinct millions of years ago.",
+      "exampleTranslation": "공룡은 수백만 년 전에 멸종했어요."
+    },
+    {
+      "id": "w22",
+      "word": "organic",
+      "pronunciation": "/ɔːˈɡænɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "grown without artificial chemicals",
+      "translation": "유기농의",
+      "example": "I prefer to buy organic vegetables.",
+      "exampleTranslation": "저는 유기농 채소를 사는 것을 선호해요."
+    },
+    {
+      "id": "w23",
+      "word": "disposable",
+      "pronunciation": "/dɪˈspəʊzəbl/",
+      "partOfSpeech": "adjective",
+      "meaning": "designed to be thrown away after one use",
+      "translation": "일회용의",
+      "example": "We should use fewer disposable products.",
+      "exampleTranslation": "우리는 일회용 제품을 덜 사용해야 해요."
+    },
+    {
+      "id": "w24",
+      "word": "resource",
+      "pronunciation": "/rɪˈsɔːs/",
+      "partOfSpeech": "noun",
+      "meaning": "a supply of something useful",
+      "translation": "자원",
+      "example": "Water is our most precious natural resource.",
+      "exampleTranslation": "물은 우리의 가장 소중한 천연 자원이에요."
+    },
+    {
+      "id": "w25",
+      "word": "eco-friendly",
+      "pronunciation": "/ˈiːkəʊ ˈfrendli/",
+      "partOfSpeech": "adjective",
+      "meaning": "not harmful to the environment",
+      "translation": "친환경적인",
+      "example": "This product is eco-friendly and biodegradable.",
+      "exampleTranslation": "이 제품은 친환경적이고 생분해성이에요."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "Solar and wind power are examples of _____ energy.",
+      "options": ["disposable", "renewable", "extinct", "endangered"],
+      "answer": "renewable"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "Air _____ is a major problem in big cities.",
+      "answer": "pollution"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "We should _____ paper and plastic instead of throwing them away.",
+      "options": ["waste", "recycle", "pollute", "destroy"],
+      "answer": "recycle"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "Many animals are _____ because their habitats are being destroyed.",
+      "answer": "endangered"
+    },
+    {
+      "id": "ex5",
+      "type": "matching",
+      "pairs": [
+        {"word": "deforestation", "match": "cutting down forests"},
+        {"word": "drought", "match": "long period without rain"},
+        {"word": "flood", "match": "water covering dry land"},
+        {"word": "emission", "match": "gas released into air"}
+      ]
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "The Amazon rainforest is a complex _____.",
+      "options": ["emission", "ecosystem", "drought", "waste"],
+      "answer": "ecosystem"
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "Dinosaurs became _____ millions of years ago.",
+      "answer": "extinct"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "Using public transport can reduce your _____.",
+      "options": ["habitat", "species", "carbon footprint", "ecosystem"],
+      "answer": "carbon footprint"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "We need to _____ our natural resources for future generations.",
+      "answer": "preserve"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "Products that don't harm the environment are called _____.",
+      "options": ["disposable", "renewable", "eco-friendly", "organic"],
+      "answer": "eco-friendly"
+    }
+  ]
+}

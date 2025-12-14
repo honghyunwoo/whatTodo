@@ -1,0 +1,200 @@
+{
+  "id": "week-5-grammar",
+  "weekId": "week-5",
+  "type": "grammar",
+  "level": "B1",
+  "title": "Comparatives & Superlatives (Advanced)",
+  "description": "Master advanced comparison structures including 'as...as', 'less...than', and double comparatives.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "As...As (Equal Comparison)",
+      "explanation": "Use 'as + adjective/adverb + as' to show two things are equal. Use 'not as...as' when they are not equal.",
+      "structure": "as + adjective/adverb + as",
+      "examples": [
+        {
+          "sentence": "Solar energy is as important as wind energy.",
+          "translation": "태양 에너지는 풍력 에너지만큼 중요해요."
+        },
+        {
+          "sentence": "Electric cars are not as cheap as regular cars yet.",
+          "translation": "전기차는 아직 일반 차만큼 싸지 않아요."
+        },
+        {
+          "sentence": "This forest is as old as the one in the national park.",
+          "translation": "이 숲은 국립공원에 있는 숲만큼 오래됐어요."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Less...Than (Inferior Comparison)",
+      "explanation": "Use 'less + adjective + than' to show something has a smaller degree of a quality.",
+      "structure": "less + adjective + than",
+      "examples": [
+        {
+          "sentence": "Bicycles are less harmful to the environment than cars.",
+          "translation": "자전거는 자동차보다 환경에 덜 해로워요."
+        },
+        {
+          "sentence": "This solution is less expensive than the alternative.",
+          "translation": "이 해결책은 대안보다 덜 비싸요."
+        },
+        {
+          "sentence": "Renewable energy is less polluting than fossil fuels.",
+          "translation": "재생 에너지는 화석 연료보다 덜 오염시켜요."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "The + Comparative, The + Comparative",
+      "explanation": "Use this structure to show that two changes happen together. As one thing changes, the other changes too.",
+      "structure": "The + comparative, the + comparative",
+      "examples": [
+        {
+          "sentence": "The more we recycle, the less waste we produce.",
+          "translation": "우리가 더 많이 재활용할수록 쓰레기를 덜 만들어요."
+        },
+        {
+          "sentence": "The warmer the climate gets, the more ice melts.",
+          "translation": "기후가 따뜻해질수록 더 많은 얼음이 녹아요."
+        },
+        {
+          "sentence": "The faster we act, the better the results will be.",
+          "translation": "우리가 빨리 행동할수록 결과가 더 좋을 거예요."
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Much/Far/Even + Comparative",
+      "explanation": "Use 'much', 'far', 'even', 'a lot', or 'a bit' before comparatives to show degree.",
+      "structure": "much/far/even/a lot/a bit + comparative",
+      "examples": [
+        {
+          "sentence": "Climate change is much more serious than people think.",
+          "translation": "기후 변화는 사람들이 생각하는 것보다 훨씬 심각해요."
+        },
+        {
+          "sentence": "Pollution levels are far higher in cities.",
+          "translation": "오염 수준은 도시에서 훨씬 더 높아요."
+        },
+        {
+          "sentence": "This year's drought is even worse than last year's.",
+          "translation": "올해 가뭄은 작년보다 더 심해요."
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "One of the + Superlative + Plural Noun",
+      "explanation": "Use this structure to single out something as being among the top or bottom of a group.",
+      "structure": "one of the + superlative + plural noun",
+      "examples": [
+        {
+          "sentence": "The Amazon is one of the most important ecosystems on Earth.",
+          "translation": "아마존은 지구에서 가장 중요한 생태계 중 하나예요."
+        },
+        {
+          "sentence": "Plastic pollution is one of the biggest environmental problems.",
+          "translation": "플라스틱 오염은 가장 큰 환경 문제 중 하나예요."
+        },
+        {
+          "sentence": "Tigers are one of the most endangered species in the world.",
+          "translation": "호랑이는 세계에서 가장 멸종 위기에 처한 종 중 하나예요."
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "title": "Comparative + and + Comparative",
+      "explanation": "Use this structure to show something is continuously increasing or decreasing.",
+      "structure": "comparative + and + comparative",
+      "examples": [
+        {
+          "sentence": "The weather is getting hotter and hotter each year.",
+          "translation": "날씨가 매년 점점 더 더워지고 있어요."
+        },
+        {
+          "sentence": "More and more people are choosing eco-friendly products.",
+          "translation": "점점 더 많은 사람들이 친환경 제품을 선택하고 있어요."
+        },
+        {
+          "sentence": "Water resources are becoming scarcer and scarcer.",
+          "translation": "수자원이 점점 더 부족해지고 있어요."
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "The more we recycle, _____ waste we produce.",
+      "options": ["less", "the less", "the least", "least"],
+      "answer": "the less"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "Electric cars are not _____ cheap _____ gas cars.",
+      "answer": "as...as"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "Climate change is _____ serious than many people realize.",
+      "options": ["more much", "much more", "very more", "more very"],
+      "answer": "much more"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "Bicycles are _____ harmful to the environment than cars.",
+      "answer": "less"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "The Amazon is one of _____ ecosystems on Earth.",
+      "options": ["the important", "most important", "the most important", "more important"],
+      "answer": "the most important"
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "The weather is getting hotter _____ hotter.",
+      "answer": "and"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "This year's storm was _____ worse than last year's.",
+      "options": ["very", "so", "even", "more"],
+      "answer": "even"
+    },
+    {
+      "id": "ex8",
+      "type": "transformation",
+      "instruction": "Rewrite using 'the...the'",
+      "original": "If we act faster, the results will be better.",
+      "answer": "The faster we act, the better the results will be."
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "_____ and more people are using public transport.",
+      "answer": "More"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "Pollution levels in cities are _____ higher than in rural areas.",
+      "options": ["very", "far", "so", "too"],
+      "answer": "far"
+    }
+  ]
+}

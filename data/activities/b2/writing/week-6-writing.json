@@ -1,0 +1,125 @@
+{
+  "id": "week-6-writing",
+  "weekId": "week-6",
+  "type": "writing",
+  "level": "B2",
+  "title": "Health Choices and Their Consequences",
+  "description": "Write a reflective essay about health decisions, discussing what could have been different and the present impact of past choices.",
+
+  "prompt": {
+    "topic": "Reflecting on Health and Lifestyle Choices",
+    "scenario": "Write an essay reflecting on health-related decisions (your own, society's, or governments') and how different choices in the past would have led to different outcomes today. Consider topics like exercise habits, diet, mental health awareness, healthcare policy, or work-life balance.",
+    "requirements": [
+      "Discuss at least two past decisions and their present consequences",
+      "Use mixed conditionals to connect past actions to present situations",
+      "Include at least one example of a present condition affecting a hypothetical past action",
+      "Suggest what changes could be made now to improve future outcomes",
+      "Use appropriate health and wellbeing vocabulary"
+    ],
+    "wordCount": { "min": 180, "max": 250 },
+    "timeLimit": 25
+  },
+
+  "writingHelp": {
+    "structure": {
+      "introduction": [
+        "Health is one of our most valuable assets, yet many of us take it for granted...",
+        "Looking back at the past few decades, it's clear that many health choices have shaped our current situation...",
+        "The relationship between past decisions and present health outcomes is complex..."
+      ],
+      "bodyParagraphs": [
+        "If we had prioritized... we would now be...",
+        "Had governments invested more in..., the healthcare system wouldn't be...",
+        "One significant issue is that if people weren't so..., they would have...",
+        "The consequences of past neglect are evident today...",
+        "Looking at mental health specifically, had society taken it seriously earlier..."
+      ],
+      "conclusion": [
+        "While we cannot change the past, we can learn from it...",
+        "Moving forward, it is essential that we...",
+        "If we start making changes today, future generations will benefit..."
+      ]
+    },
+    "usefulExpressions": [
+      { "phrase": "If I/we had... , I/we would be...", "example": "If we had promoted exercise more, we would be seeing lower obesity rates." },
+      { "phrase": "Had... been..., ... wouldn't be...", "example": "Had prevention been prioritized, we wouldn't be spending so much on treatment." },
+      { "phrase": "If... weren't..., ... would have...", "example": "If people weren't so busy, they would have noticed the warning signs." },
+      { "phrase": "... could have been avoided if...", "example": "This health crisis could have been avoided if earlier action had been taken." },
+      { "phrase": "If... had taken... seriously, ... would now be...", "example": "If society had taken mental health seriously, burnout rates would now be lower." }
+    ],
+    "connectors": {
+      "contrast": ["However", "Nevertheless", "On the other hand", "Despite this", "Yet"],
+      "addition": ["Furthermore", "Moreover", "In addition", "Additionally", "Also"],
+      "conclusion": ["Overall", "In conclusion", "To sum up", "Ultimately", "In the end"],
+      "cause_effect": ["As a result", "Consequently", "Therefore", "Thus", "Hence"]
+    },
+    "vocabularyBank": [
+      "prevention", "intervention", "chronic", "sedentary", "nutrition",
+      "mental health", "burnout", "stress", "wellbeing", "lifestyle",
+      "healthcare system", "public health", "awareness", "habits", "consequences",
+      "proactive", "reactive", "epidemic", "obesity", "physical activity"
+    ]
+  },
+
+  "rubric": {
+    "content": {
+      "weight": 0.25,
+      "criteria": [
+        "Clear discussion of past decisions and present outcomes",
+        "At least two specific examples with mixed conditionals",
+        "Thoughtful reflection on health-related choices",
+        "Suggestions for future improvement"
+      ]
+    },
+    "grammar": {
+      "weight": 0.30,
+      "criteria": [
+        "Correct use of 'If + had + past participle, would + base verb' (past to present)",
+        "Correct use of 'If + past simple, would have + past participle' (present to past)",
+        "Appropriate use of inverted conditionals (Had...)",
+        "Consistent and accurate tense usage throughout"
+      ]
+    },
+    "vocabulary": {
+      "weight": 0.25,
+      "criteria": [
+        "Use of health and wellbeing vocabulary",
+        "Varied word choice avoiding repetition",
+        "Appropriate register for reflective writing",
+        "Correct collocations"
+      ]
+    },
+    "organization": {
+      "weight": 0.20,
+      "criteria": [
+        "Clear introduction, body, and conclusion",
+        "Logical flow of ideas",
+        "Effective use of connectors",
+        "Coherent paragraphing"
+      ]
+    }
+  },
+
+  "sampleAnswer": {
+    "text": "Health is one of our most valuable assets, yet many of us realize its importance only when problems arise. Looking back at society's choices over recent decades, it's clear that different decisions would have led to healthier outcomes today.\n\nIf governments had invested more in preventive healthcare programs, we wouldn't be spending such enormous amounts on treating preventable chronic diseases now. Had public health campaigns emphasized nutrition and exercise earlier, the current obesity epidemic might not be so severe. The healthcare system is overwhelmed precisely because reactive treatment was prioritized over proactive prevention.\n\nOn an individual level, many people face similar regrets. If I weren't so focused on my career, I would have developed better exercise habits years ago. This is a common pattern: people sacrifice their health for short-term goals, only to face long-term consequences. Mental health presents another critical area where earlier intervention could have made a significant difference. Had society taken stress and burnout seriously decades ago, millions wouldn't be suffering from anxiety and depression today.\n\nHowever, it's never too late to make changes. If we start prioritizing sleep, nutrition, and mental wellbeing now, future generations will benefit from our improved awareness. The lesson is clear: the health choices we make today determine our wellbeing tomorrow.",
+    "wordCount": 215,
+    "annotations": [
+      { "text": "If governments had invested more... we wouldn't be spending", "comment": "Past condition, present result" },
+      { "text": "Had public health campaigns emphasized nutrition... the epidemic might not be", "comment": "Inverted mixed conditional" },
+      { "text": "If I weren't so focused... I would have developed", "comment": "Present condition, past result" },
+      { "text": "Had society taken stress... seriously... millions wouldn't be suffering", "comment": "Past condition, present continuous result" },
+      { "text": "If we start prioritizing... future generations will benefit", "comment": "First conditional for future possibility" }
+    ]
+  },
+
+  "selfCheckList": [
+    "Did I discuss at least two past decisions and their present consequences?",
+    "Did I use 'If + had + past participle, would + base verb' correctly?",
+    "Did I include 'If + past simple, would have + past participle' structure?",
+    "Did I try using an inverted conditional (Had...)?",
+    "Did I use appropriate health and wellbeing vocabulary?",
+    "Did I suggest improvements for the future?",
+    "Did I use connectors to link my ideas smoothly?",
+    "Is my essay within the word count (180-250 words)?"
+  ]
+}

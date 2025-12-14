@@ -1,0 +1,180 @@
+{
+  "id": "week-4-writing",
+  "weekId": "week-4",
+  "type": "writing",
+  "level": "A2",
+  "title": "나의 경험 이야기 글쓰기",
+  "description": "자신이 경험한 일에 대해 현재완료 시제를 사용하여 글을 작성해봅니다.",
+
+  "prompt": {
+    "topic": "나의 특별한 경험 쓰기",
+    "description": "지금까지 경험한 것들 중에서 특별한 것에 대해 현재완료 시제를 사용하여 쓰는 글을 작성해보세요. 여행, 학습, 취미, 만남 등 어떤 경험이든 좋습니다.",
+    "requirements": [
+      "현재완료 시제를 사용하세요 (have/has + 과거분사)",
+      "어떤 경험을 했는지 구체적으로 작성하세요",
+      "그 경험이 얼마나 오래되었는지 작성하세요 (for/since)",
+      "그 경험에서 무엇을 배웠거나 느꼈는지 작성하세요",
+      "ever, never, already, yet, just, recently 등의 부사를 사용하세요"
+    ],
+    "wordCount": {
+      "min": 60,
+      "max": 120
+    },
+    "timeLimit": 20
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "I have learned English for three years.",
+      "translation": "저는 3년 동안 영어를 배워왔습니다.",
+      "useCase": "경험의 기간을 말할 때"
+    },
+    {
+      "id": "ex2",
+      "sentence": "I have visited five countries so far.",
+      "translation": "저는 지금까지 5개국을 방문했습니다.",
+      "useCase": "지금까지의 경험을 말할 때"
+    },
+    {
+      "id": "ex3",
+      "sentence": "I have never tried skydiving before.",
+      "translation": "저는 전에 스카이다이빙을 해본 적이 없습니다.",
+      "useCase": "한 번도 하지 않은 경험을 말할 때"
+    },
+    {
+      "id": "ex4",
+      "sentence": "I have met many interesting people.",
+      "translation": "저는 많은 흥미로운 사람들을 만났습니다.",
+      "useCase": "경험한 것을 설명할 때"
+    },
+    {
+      "id": "ex5",
+      "sentence": "This experience has changed my life.",
+      "translation": "이 경험은 제 인생을 변화시켰습니다.",
+      "useCase": "경험의 영향을 말할 때"
+    },
+    {
+      "id": "ex6",
+      "sentence": "I have learned a lot from this.",
+      "translation": "저는 이것으로부터 많은 것을 배웠습니다.",
+      "useCase": "경험에서 얻은 것을 말할 때"
+    },
+    {
+      "id": "ex7",
+      "sentence": "I have been interested in music since childhood.",
+      "translation": "저는 어린 시절부터 음악에 관심이 있었습니다.",
+      "useCase": "오래된 관심사를 말할 때"
+    },
+    {
+      "id": "ex8",
+      "sentence": "I have recently started learning guitar.",
+      "translation": "저는 최근에 기타 배우기를 시작했습니다.",
+      "useCase": "최근의 경험을 말할 때"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "have/has + past participle",
+      "translation": "~한 적이 있다, ~해왔다",
+      "example": "I have visited, She has learned"
+    },
+    {
+      "word": "for + period",
+      "translation": "~동안",
+      "example": "for three years, for two months"
+    },
+    {
+      "word": "since + point in time",
+      "translation": "~부터",
+      "example": "since 2020, since last year, since childhood"
+    },
+    {
+      "word": "ever",
+      "translation": "지금까지, 한 번이라도",
+      "example": "Have you ever been to...?"
+    },
+    {
+      "word": "never",
+      "translation": "한 번도 ~않다",
+      "example": "I have never tried..."
+    },
+    {
+      "word": "already",
+      "translation": "이미, 벌써",
+      "example": "I have already finished..."
+    },
+    {
+      "word": "yet",
+      "translation": "아직 (부정문/의문문)",
+      "example": "I haven't finished yet."
+    },
+    {
+      "word": "just",
+      "translation": "막, 방금",
+      "example": "I have just arrived."
+    },
+    {
+      "word": "recently",
+      "translation": "최근에",
+      "example": "I have recently moved to..."
+    },
+    {
+      "word": "so far",
+      "translation": "지금까지",
+      "example": "So far, I have visited..."
+    },
+    {
+      "word": "once/twice/several times",
+      "translation": "한 번/두 번/여러 번",
+      "example": "I have been there twice."
+    },
+    {
+      "word": "This/It has + past participle",
+      "translation": "이것은 ~했다",
+      "example": "This has changed my life."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "📝 내용 요구사항",
+      "items": [
+        "현재완료 시제를 사용했나요? (have/has + 과거분사)",
+        "어떤 경험을 했는지 구체적으로 작성했나요?",
+        "경험의 기간이나 시점을 포함했나요? (for/since)",
+        "경험에서 무엇을 배웠거나 느꼈는지 작성했나요?",
+        "ever, never, already 등의 부사를 사용했나요?"
+      ]
+    },
+    {
+      "category": "✅ 문법 및 형식",
+      "items": [
+        "have/has를 주어에 맞게 올바르게 사용했나요?",
+        "과거분사 형태를 올바르게 사용했나요?",
+        "for와 since를 올바르게 구분해서 사용했나요?",
+        "ever, never, already, yet의 위치가 올바른가요?",
+        "문장이 대문자로 시작하고 마침표로 끝나나요?"
+      ]
+    },
+    {
+      "category": "📏 분량",
+      "items": [
+        "최소 60단어 이상인가요?",
+        "최대 120단어 이내인가요?",
+        "경험에 대한 충분한 설명을 포함했나요?"
+      ]
+    },
+    {
+      "category": "🎯 전반적 평가",
+      "items": [
+        "경험이 생생하게 전달되나요?",
+        "현재완료 시제가 적절하게 사용되었나요?",
+        "과거시제와 현재완료 시제를 혼동하지 않았나요?",
+        "맞춤법 실수가 없나요?",
+        "제한 시간 내에 완성했나요?"
+      ]
+    }
+  ]
+}

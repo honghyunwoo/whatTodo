@@ -1,0 +1,200 @@
+{
+  "id": "week-3-grammar",
+  "weekId": "week-3",
+  "type": "grammar",
+  "level": "B2",
+  "title": "Third Conditional",
+  "description": "Learn to talk about unreal past situations and their imaginary consequences.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Third Conditional Structure",
+      "explanation": "Use the third conditional to talk about hypothetical situations in the past that did not happen and their imaginary results. It expresses regret, criticism, or speculation about past events.",
+      "structure": "If + had + past participle, would have + past participle",
+      "examples": [
+        {
+          "sentence": "If the international community had acted sooner, thousands of lives would have been saved.",
+          "translation": "국제 사회가 더 빨리 행동했다면, 수천 명의 생명이 구해졌을 것이다."
+        },
+        {
+          "sentence": "If they had signed the treaty earlier, the conflict would have ended years ago.",
+          "translation": "그들이 조약에 더 일찍 서명했다면, 분쟁은 몇 년 전에 끝났을 것이다."
+        },
+        {
+          "sentence": "The famine wouldn't have occurred if governments had prepared better.",
+          "translation": "정부가 더 잘 준비했다면 기근은 발생하지 않았을 것이다."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Could Have/Might Have in Third Conditional",
+      "explanation": "Use 'could have' to express ability or possibility in the past, and 'might have' to express a less certain result.",
+      "structure": "If + had + past participle, could have/might have + past participle",
+      "examples": [
+        {
+          "sentence": "If negotiations had continued, peace might have been achieved.",
+          "translation": "협상이 계속되었다면, 평화가 달성될 수도 있었다."
+        },
+        {
+          "sentence": "The refugees could have received help earlier if borders hadn't been closed.",
+          "translation": "국경이 폐쇄되지 않았다면, 난민들은 더 일찍 도움을 받을 수 있었을 것이다."
+        },
+        {
+          "sentence": "If the epidemic had been contained, it might not have spread globally.",
+          "translation": "전염병이 억제되었다면, 전 세계적으로 퍼지지 않았을 수도 있다."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Expressing Regret with Third Conditional",
+      "explanation": "The third conditional is commonly used to express regret about past actions or decisions that cannot be changed.",
+      "structure": "If only + had (not) + past participle, would have + past participle",
+      "examples": [
+        {
+          "sentence": "If only we had known about the crisis sooner, we would have helped.",
+          "translation": "우리가 위기에 대해 더 일찍 알았더라면, 도움을 주었을 텐데."
+        },
+        {
+          "sentence": "If only they hadn't ignored the warning signs, the disaster wouldn't have happened.",
+          "translation": "그들이 경고 신호를 무시하지 않았더라면, 재난은 일어나지 않았을 텐데."
+        },
+        {
+          "sentence": "If only diplomatic efforts had started earlier, war might have been avoided.",
+          "translation": "외교적 노력이 더 일찍 시작되었더라면, 전쟁을 피할 수 있었을 텐데."
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Criticism with Third Conditional",
+      "explanation": "Use the third conditional to criticize past actions by showing what the better alternative would have been.",
+      "structure": "If + had + past participle, would/could have + past participle",
+      "examples": [
+        {
+          "sentence": "If the government had invested in education, poverty would have decreased.",
+          "translation": "정부가 교육에 투자했다면, 빈곤이 감소했을 것이다."
+        },
+        {
+          "sentence": "If aid organizations had coordinated better, resources wouldn't have been wasted.",
+          "translation": "원조 단체들이 더 잘 조율했다면, 자원이 낭비되지 않았을 것이다."
+        },
+        {
+          "sentence": "The situation could have been prevented if leaders had listened to experts.",
+          "translation": "지도자들이 전문가의 말을 들었다면, 상황을 예방할 수 있었을 것이다."
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Contractions and Informal Usage",
+      "explanation": "In spoken English and informal writing, contractions are commonly used with the third conditional.",
+      "structure": "If + 'd + past participle, 'd have + past participle / wouldn't have + past participle",
+      "examples": [
+        {
+          "sentence": "If I'd known about the situation, I'd have donated more.",
+          "translation": "상황을 알았더라면, 더 많이 기부했을 텐데."
+        },
+        {
+          "sentence": "They wouldn't have suffered if they'd received support.",
+          "translation": "그들이 지원을 받았다면, 고통받지 않았을 텐데."
+        },
+        {
+          "sentence": "If we'd acted faster, we could've saved more people.",
+          "translation": "더 빨리 행동했다면, 더 많은 사람을 구할 수 있었을 텐데."
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "title": "Third Conditional Questions",
+      "explanation": "Questions in the third conditional often explore alternative outcomes or seek opinions about past events.",
+      "structure": "What would have happened if...? / Would ... have happened if...?",
+      "examples": [
+        {
+          "sentence": "What would have happened if the UN had intervened earlier?",
+          "translation": "UN이 더 일찍 개입했다면 어떻게 되었을까?"
+        },
+        {
+          "sentence": "Would the conflict have been avoided if they had negotiated?",
+          "translation": "그들이 협상했다면 분쟁을 피할 수 있었을까?"
+        },
+        {
+          "sentence": "Could the epidemic have been stopped if borders had been closed immediately?",
+          "translation": "국경을 즉시 폐쇄했다면 전염병을 막을 수 있었을까?"
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "If the international community _____ earlier, the crisis _____ worse.",
+      "options": ["acted / wouldn't become", "had acted / wouldn't have become", "would act / hadn't become", "acts / won't become"],
+      "answer": "had acted / wouldn't have become"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "If they _____ (sign) the peace treaty, the war would have ended sooner.",
+      "answer": "had signed"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "The refugees _____ shelter if more countries had agreed to help.",
+      "options": ["would find", "had found", "would have found", "found"],
+      "answer": "would have found"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "If only the government _____ (not ignore) the warnings, the disaster could have been prevented.",
+      "answer": "had not ignored"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "_____ the epidemic have spread so quickly if borders had been closed?",
+      "options": ["Would", "Had", "Did", "Has"],
+      "answer": "Would"
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "If humanitarian organizations _____ (coordinate) better, more lives might have been saved.",
+      "answer": "had coordinated"
+    },
+    {
+      "id": "ex7",
+      "type": "transformation",
+      "instruction": "Rewrite using the third conditional",
+      "original": "The country didn't receive aid, so poverty increased.",
+      "answer": "If the country had received aid, poverty wouldn't have increased."
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "What _____ if the sanctions had been lifted earlier?",
+      "options": ["would happen", "would have happened", "had happened", "happened"],
+      "answer": "would have happened"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "Peace _____ (might / achieve) if negotiations hadn't broken down.",
+      "answer": "might have been achieved"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "If only they _____ the underlying causes, the conflict wouldn't have restarted.",
+      "options": ["addressed", "had addressed", "have addressed", "would address"],
+      "answer": "had addressed"
+    }
+  ]
+}

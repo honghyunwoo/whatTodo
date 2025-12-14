@@ -1,0 +1,169 @@
+{
+  "id": "week-8-writing",
+  "weekId": "week-8",
+  "type": "writing",
+  "level": "A2",
+  "title": "Giving Directions to Your Favorite Place",
+  "description": "Write directions from a well-known location to your favorite place in your city.",
+
+  "prompt": {
+    "topic": "How to Get to My Favorite Place",
+    "description": "Write directions from a famous location (like a subway station or landmark) to your favorite place in your neighborhood or city. This could be a cafe, restaurant, park, or shop.",
+    "requirements": [
+      "Start from a well-known location",
+      "Give clear step-by-step directions",
+      "Use direction words (turn left/right, go straight, pass, etc.)",
+      "Use prepositions of place (on, at, next to, between, opposite)",
+      "Describe the destination so readers can recognize it"
+    ],
+    "wordCount": {
+      "min": 80,
+      "max": 120
+    },
+    "timeLimit": 20
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "I want to tell you how to get to my favorite cafe.",
+      "translation": "제가 좋아하는 카페 가는 길을 알려드릴게요.",
+      "useCase": "To introduce the topic"
+    },
+    {
+      "id": "ex2",
+      "sentence": "Start from Exit 3 of Gangnam Station.",
+      "translation": "강남역 3번 출구에서 시작하세요.",
+      "useCase": "To give a starting point"
+    },
+    {
+      "id": "ex3",
+      "sentence": "Go straight for about two blocks.",
+      "translation": "약 두 블록 직진하세요.",
+      "useCase": "To give walking directions"
+    },
+    {
+      "id": "ex4",
+      "sentence": "Turn left at the intersection.",
+      "translation": "교차로에서 좌회전하세요.",
+      "useCase": "To give turning directions"
+    },
+    {
+      "id": "ex5",
+      "sentence": "The cafe is next to a bookstore.",
+      "translation": "카페는 서점 옆에 있어요.",
+      "useCase": "To describe the location"
+    },
+    {
+      "id": "ex6",
+      "sentence": "It's a small cafe with blue doors. You can't miss it!",
+      "translation": "파란 문이 있는 작은 카페예요. 못 지나칠 거예요!",
+      "useCase": "To describe how to recognize the place"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "go straight",
+      "translation": "직진하다",
+      "example": "Go straight for two blocks."
+    },
+    {
+      "word": "turn left/right",
+      "translation": "좌/우회전하다",
+      "example": "Turn left at the corner."
+    },
+    {
+      "word": "pass",
+      "translation": "지나가다",
+      "example": "Pass the hospital."
+    },
+    {
+      "word": "next to",
+      "translation": "~옆에",
+      "example": "It's next to the bank."
+    },
+    {
+      "word": "opposite",
+      "translation": "~맞은편에",
+      "example": "It's opposite the park."
+    },
+    {
+      "word": "between",
+      "translation": "~사이에",
+      "example": "It's between the cafe and the bookstore."
+    },
+    {
+      "word": "intersection",
+      "translation": "교차로",
+      "example": "Turn left at the intersection."
+    },
+    {
+      "word": "you can't miss it",
+      "translation": "못 지나칠 거예요",
+      "example": "It's a big building. You can't miss it."
+    }
+  ],
+
+  "usefulExpressions": [
+    {
+      "expression": "Start from...",
+      "usage": "To give the starting point",
+      "example": "Start from the subway station exit."
+    },
+    {
+      "expression": "First..., Then..., After that...",
+      "usage": "To sequence directions",
+      "example": "First, go straight. Then, turn right."
+    },
+    {
+      "expression": "When you see...",
+      "usage": "To use landmarks",
+      "example": "When you see the park, turn left."
+    },
+    {
+      "expression": "It's about a [time] walk.",
+      "usage": "To describe distance",
+      "example": "It's about a 5-minute walk from the station."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "Content Requirements",
+      "items": [
+        "Did you specify a clear starting point?",
+        "Did you give step-by-step directions?",
+        "Did you use direction words correctly?",
+        "Did you use prepositions of place?",
+        "Did you describe the destination clearly?"
+      ]
+    },
+    {
+      "category": "Grammar & Form",
+      "items": [
+        "Did you use imperatives for directions?",
+        "Did you use prepositions correctly?",
+        "Did you use sequence words?",
+        "Are your sentences clear and grammatically correct?"
+      ]
+    },
+    {
+      "category": "Word Count",
+      "items": [
+        "Is your writing at least 80 words?",
+        "Is your writing no more than 120 words?",
+        "Are your directions concise but complete?"
+      ]
+    },
+    {
+      "category": "Overall Assessment",
+      "items": [
+        "Could someone follow your directions easily?",
+        "Is the order of directions logical?",
+        "Did you include helpful landmarks?",
+        "Did you complete within the time limit?"
+      ]
+    }
+  ]
+}

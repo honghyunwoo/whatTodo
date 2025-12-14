@@ -1,0 +1,48 @@
+{
+  "id": "week-3-writing",
+  "weekId": "week-3",
+  "type": "writing",
+  "level": "A2",
+  "title": "Restaurant Review",
+  "description": "Write a review about a restaurant you have visited.",
+
+  "prompt": {
+    "topic": "Write a restaurant review",
+    "description": "Describe a restaurant you visited. Talk about the food, service, price, and whether you would recommend it.",
+    "requirements": [
+      "Name the restaurant and describe its location",
+      "Describe what you ate",
+      "Use quantifiers (some, a few, much, many)",
+      "Share your opinion about the food and service",
+      "Give a rating or recommendation"
+    ],
+    "wordCount": {"min": 60, "max": 100},
+    "timeLimit": 20
+  },
+
+  "exampleSentences": [
+    {"id": "ex1", "sentence": "Last week, I went to a Korean restaurant near my office.", "translation": "지난주에 회사 근처 한식당에 갔습니다.", "useCase": "Introduction"},
+    {"id": "ex2", "sentence": "I ordered some bibimbap and a few side dishes.", "translation": "비빔밥과 몇 가지 반찬을 주문했습니다.", "useCase": "Using quantifiers"},
+    {"id": "ex3", "sentence": "The food was delicious and the portions were generous.", "translation": "음식이 맛있었고 양이 넉넉했습니다.", "useCase": "Describing food"},
+    {"id": "ex4", "sentence": "The service was a bit slow, but the waiter was friendly.", "translation": "서비스가 좀 느렸지만 웨이터가 친절했습니다.", "useCase": "Balanced opinion"},
+    {"id": "ex5", "sentence": "I give it 4 out of 5 stars and would definitely go back.", "translation": "5점 만점에 4점을 주고 꼭 다시 갈 것입니다.", "useCase": "Conclusion/Rating"}
+  ],
+
+  "vocabularyHelp": [
+    {"word": "delicious", "translation": "맛있는", "example": "The pasta was delicious."},
+    {"word": "bland", "translation": "싱거운", "example": "The soup was a bit bland."},
+    {"word": "generous portions", "translation": "넉넉한 양", "example": "They serve generous portions."},
+    {"word": "reasonable price", "translation": "합리적인 가격", "example": "The price was reasonable."},
+    {"word": "friendly staff", "translation": "친절한 직원", "example": "The staff were very friendly."},
+    {"word": "highly recommend", "translation": "강력히 추천하다", "example": "I highly recommend this place."},
+    {"word": "worth trying", "translation": "시도해볼 만한", "example": "It's worth trying."},
+    {"word": "overpriced", "translation": "너무 비싼", "example": "The drinks were overpriced."}
+  ],
+
+  "evaluationChecklist": [
+    {"category": "Content", "items": ["Did you name and locate the restaurant?", "Did you describe what you ate?", "Did you use quantifiers (some, a few, much)?", "Did you give an opinion?", "Did you include a rating/recommendation?"]},
+    {"category": "Grammar", "items": ["Did you use countable/uncountable nouns correctly?", "Did you use 'much' with uncountable nouns?", "Did you use 'many' with countable nouns?"]},
+    {"category": "Organization", "items": ["Does it have a clear structure?", "Are ideas connected logically?"]},
+    {"category": "Word Count", "items": ["Is it 60-100 words?", "Did you check spelling?"]}
+  ]
+}

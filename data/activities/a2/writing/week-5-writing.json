@@ -1,0 +1,164 @@
+{
+  "id": "week-5-writing",
+  "weekId": "week-5",
+  "type": "writing",
+  "level": "A2",
+  "title": "Describing Your Daily Routine",
+  "description": "Write about your typical day, including work or school activities.",
+
+  "prompt": {
+    "topic": "My Daily Routine",
+    "description": "Write about your typical weekday. Describe what you do from morning to evening, including work or school activities.",
+    "requirements": [
+      "What time do you wake up?",
+      "How do you get to work/school?",
+      "What do you do during the day?",
+      "What do you do after work/school?",
+      "Use adverbs of frequency (always, usually, sometimes, etc.)"
+    ],
+    "wordCount": {
+      "min": 80,
+      "max": 120
+    },
+    "timeLimit": 20
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "I usually wake up at 7 o'clock every morning.",
+      "translation": "저는 보통 매일 아침 7시에 일어나요.",
+      "useCase": "To start describing your morning routine"
+    },
+    {
+      "id": "ex2",
+      "sentence": "After breakfast, I commute to work by bus.",
+      "translation": "아침 식사 후, 버스로 출근해요.",
+      "useCase": "To describe how you get to work"
+    },
+    {
+      "id": "ex3",
+      "sentence": "I usually start work at 9 a.m.",
+      "translation": "보통 오전 9시에 업무를 시작해요.",
+      "useCase": "To talk about your work start time"
+    },
+    {
+      "id": "ex4",
+      "sentence": "I often have meetings in the morning.",
+      "translation": "오전에 회의가 자주 있어요.",
+      "useCase": "To describe work activities"
+    },
+    {
+      "id": "ex5",
+      "sentence": "After work, I sometimes go to the gym.",
+      "translation": "퇴근 후, 가끔 헬스장에 가요.",
+      "useCase": "To talk about evening activities"
+    },
+    {
+      "id": "ex6",
+      "sentence": "I always try to go to bed before midnight.",
+      "translation": "항상 자정 전에 자려고 노력해요.",
+      "useCase": "To end your description"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "wake up",
+      "translation": "일어나다",
+      "example": "I wake up at 6:30."
+    },
+    {
+      "word": "get dressed",
+      "translation": "옷을 입다",
+      "example": "I get dressed quickly."
+    },
+    {
+      "word": "commute",
+      "translation": "통근하다",
+      "example": "I commute by subway."
+    },
+    {
+      "word": "have a meeting",
+      "translation": "회의하다",
+      "example": "I have a meeting at 10."
+    },
+    {
+      "word": "take a break",
+      "translation": "휴식을 취하다",
+      "example": "I take a break at noon."
+    },
+    {
+      "word": "finish work",
+      "translation": "퇴근하다",
+      "example": "I finish work at 6 p.m."
+    },
+    {
+      "word": "relax",
+      "translation": "쉬다",
+      "example": "I relax at home."
+    },
+    {
+      "word": "go to bed",
+      "translation": "잠자리에 들다",
+      "example": "I go to bed at 11."
+    }
+  ],
+
+  "usefulExpressions": [
+    {
+      "expression": "First, ... Then, ... After that, ...",
+      "usage": "To sequence your activities",
+      "example": "First, I take a shower. Then, I have breakfast. After that, I leave for work."
+    },
+    {
+      "expression": "In the morning/afternoon/evening",
+      "usage": "To indicate time of day",
+      "example": "In the morning, I check my emails."
+    },
+    {
+      "expression": "... times a week/month",
+      "usage": "To express frequency",
+      "example": "I exercise three times a week."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "Content Requirements",
+      "items": [
+        "Did you describe your morning routine?",
+        "Did you explain how you get to work/school?",
+        "Did you describe your main activities during the day?",
+        "Did you mention what you do after work/school?",
+        "Did you use adverbs of frequency?"
+      ]
+    },
+    {
+      "category": "Grammar & Form",
+      "items": [
+        "Did you use present simple correctly?",
+        "Did you place adverbs of frequency in the correct position?",
+        "Did you use time expressions correctly?",
+        "Did you start sentences with capital letters?"
+      ]
+    },
+    {
+      "category": "Word Count",
+      "items": [
+        "Is your writing at least 80 words?",
+        "Is your writing no more than 120 words?",
+        "Are your sentences a good length?"
+      ]
+    },
+    {
+      "category": "Overall Assessment",
+      "items": [
+        "Is your routine clear and easy to follow?",
+        "Do your sentences connect well?",
+        "Is there good variety in your vocabulary?",
+        "Did you complete within the time limit?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "week-6-reading",
+  "weekId": "week-6",
+  "type": "reading",
+  "level": "B1",
+  "title": "세계의 도시들 비교하기",
+  "description": "세계 여러 도시들을 비교하는 글을 읽고 이해합니다.",
+
+  "passage": {
+    "text": "The world has many amazing cities, each with its own unique features. Let me compare some of the most famous ones.\n\nTokyo, Japan is one of the largest cities in the world. It has more than 37 million people in its metropolitan area. Tokyo is more modern than many other Asian cities, with the latest technology everywhere. However, it's also more expensive than most cities. A simple meal can cost more than $15!\n\nNew York City, USA is often called \"The City That Never Sleeps.\" It's not as large as Tokyo, but it's more diverse. You can find people from almost every country in the world living there. New York has some of the tallest buildings in the world. The Empire State Building was once the tallest building globally, but now there are many taller buildings in other cities.\n\nParis, France is considered one of the most beautiful cities in the world. It's smaller than Tokyo and New York, but it's more romantic. Paris is famous for its art, food, and culture. Many people think French food is the best in the world. The Eiffel Tower is one of the most visited monuments on Earth.\n\nLondon, England has a longer history than most modern cities. It's older than New York and has more historical buildings. London is rainier than Paris, but it's also greener, with many beautiful parks. The London Underground is one of the oldest subway systems in the world.\n\nDubai, UAE is the newest major city among these five. It's smaller than the others, but it's growing faster. Dubai has the tallest building in the world, the Burj Khalifa. The city is hotter than all the others, with summer temperatures often exceeding 40°C (104°F).\n\nEach city has its own charm. Which one do you think is the best?",
+    "wordCount": 314,
+    "estimatedReadingTime": 6,
+    "audioText": "The world has many amazing cities, each with its own unique features. Let me compare some of the most famous ones. [PAUSE] Tokyo, Japan is one of the largest cities in the world. It has more than 37 million people in its metropolitan area. Tokyo is more modern than many other Asian cities, with the latest technology everywhere. However, it's also more expensive than most cities. A simple meal can cost more than $15! [PAUSE] New York City, USA is often called \"The City That Never Sleeps.\" It's not as large as Tokyo, but it's more diverse. You can find people from almost every country in the world living there. New York has some of the tallest buildings in the world. The Empire State Building was once the tallest building globally, but now there are many taller buildings in other cities. [PAUSE] Paris, France is considered one of the most beautiful cities in the world. It's smaller than Tokyo and New York, but it's more romantic. Paris is famous for its art, food, and culture. Many people think French food is the best in the world. The Eiffel Tower is one of the most visited monuments on Earth. [PAUSE] London, England has a longer history than most modern cities. It's older than New York and has more historical buildings. London is rainier than Paris, but it's also greener, with many beautiful parks. The London Underground is one of the oldest subway systems in the world. [PAUSE] Dubai, UAE is the newest major city among these five. It's smaller than the others, but it's growing faster. Dubai has the tallest building in the world, the Burj Khalifa. The city is hotter than all the others, with summer temperatures often exceeding 40°C. [PAUSE] Each city has its own charm. Which one do you think is the best?"
+  },
+
+  "vocabulary": [
+    {
+      "word": "unique",
+      "meaning": "독특한, 유일한",
+      "lineNumber": 1
+    },
+    {
+      "word": "metropolitan",
+      "meaning": "대도시의",
+      "lineNumber": 3
+    },
+    {
+      "word": "diverse",
+      "meaning": "다양한",
+      "lineNumber": 5
+    },
+    {
+      "word": "romantic",
+      "meaning": "낭만적인",
+      "lineNumber": 7
+    },
+    {
+      "word": "monuments",
+      "meaning": "기념물, 유적",
+      "lineNumber": 7
+    },
+    {
+      "word": "historical",
+      "meaning": "역사적인",
+      "lineNumber": 9
+    },
+    {
+      "word": "subway systems",
+      "meaning": "지하철 시스템",
+      "lineNumber": 9
+    },
+    {
+      "word": "exceeding",
+      "meaning": "초과하는",
+      "lineNumber": 11
+    },
+    {
+      "word": "charm",
+      "meaning": "매력",
+      "lineNumber": 13
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "Which city is the largest?",
+      "options": ["Tokyo", "New York", "Paris", "London"],
+      "answer": "Tokyo",
+      "explanation": "도쿄는 세계에서 가장 큰 도시 중 하나입니다."
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "question": "How many people live in Tokyo's metropolitan area (in millions)?",
+      "answer": "37",
+      "explanation": "도쿄 대도시 지역에는 3,700만 명 이상이 살고 있습니다."
+    },
+    {
+      "id": "q3",
+      "type": "true_false",
+      "question": "Tokyo is more expensive than most cities.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "도쿄는 대부분의 도시보다 비쌉니다."
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "Which city is more diverse?",
+      "options": ["Tokyo", "New York", "Paris", "Dubai"],
+      "answer": "New York",
+      "explanation": "뉴욕은 더 다양합니다. (it's more diverse)"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "The Empire State Building is still the tallest building in the world.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "엠파이어 스테이트 빌딩은 한때 가장 높았지만, 이제는 더 높은 건물들이 있습니다."
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "Which city is considered the most beautiful?",
+      "options": ["Tokyo", "New York", "Paris", "London"],
+      "answer": "Paris",
+      "explanation": "파리는 세계에서 가장 아름다운 도시 중 하나로 여겨집니다."
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What food do many people think is the best in the world?",
+      "options": ["Japanese", "American", "French", "English"],
+      "answer": "French",
+      "explanation": "많은 사람들이 프랑스 음식이 세계 최고라고 생각합니다."
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "Which city is older than New York?",
+      "options": ["Tokyo", "Paris", "London", "Dubai"],
+      "answer": "London",
+      "explanation": "런던은 뉴욕보다 오래되었습니다. (It's older than New York)"
+    },
+    {
+      "id": "q9",
+      "type": "true_false",
+      "question": "London is rainier than Paris.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "런던은 파리보다 비가 더 많이 옵니다."
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "Which city has the tallest building in the world?",
+      "options": ["Tokyo", "New York", "London", "Dubai"],
+      "answer": "Dubai",
+      "explanation": "두바이에 세계에서 가장 높은 건물인 부르즈 칼리파가 있습니다."
+    },
+    {
+      "id": "q11",
+      "type": "multiple_choice",
+      "question": "Which city is the newest major city?",
+      "options": ["Tokyo", "New York", "Paris", "Dubai"],
+      "answer": "Dubai",
+      "explanation": "두바이는 이 다섯 도시 중 가장 새로운 주요 도시입니다."
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "Dubai is hotter than all the other cities mentioned.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "두바이는 언급된 다른 모든 도시보다 더 덥습니다."
+    }
+  ]
+}

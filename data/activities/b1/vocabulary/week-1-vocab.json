@@ -1,0 +1,343 @@
+{
+  "id": "week-1-vocab",
+  "weekId": "week-1",
+  "type": "vocabulary",
+  "level": "B1",
+  "title": "Life Changes & Experiences",
+  "description": "Learn vocabulary for talking about life changes, experiences, and personal growth.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "experience",
+      "pronunciation": "/ɪkˈspɪəriəns/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "something that happens to you; to have something happen to you",
+      "translation": "경험; 경험하다",
+      "example": "Living abroad was an amazing experience.",
+      "exampleTranslation": "해외 생활은 놀라운 경험이었어요."
+    },
+    {
+      "id": "w2",
+      "word": "achieve",
+      "pronunciation": "/əˈtʃiːv/",
+      "partOfSpeech": "verb",
+      "meaning": "to succeed in doing something after effort",
+      "translation": "성취하다, 달성하다",
+      "example": "She achieved her goal of running a marathon.",
+      "exampleTranslation": "그녀는 마라톤 완주 목표를 달성했어요."
+    },
+    {
+      "id": "w3",
+      "word": "opportunity",
+      "pronunciation": "/ˌɒpəˈtjuːnɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "a chance to do something",
+      "translation": "기회",
+      "example": "This job offers great opportunities for growth.",
+      "exampleTranslation": "이 직업은 성장할 좋은 기회를 제공해요."
+    },
+    {
+      "id": "w4",
+      "word": "challenge",
+      "pronunciation": "/ˈtʃælɪndʒ/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "something difficult that tests your abilities",
+      "translation": "도전; 도전하다",
+      "example": "Learning a new language is a big challenge.",
+      "exampleTranslation": "새 언어를 배우는 것은 큰 도전이에요."
+    },
+    {
+      "id": "w5",
+      "word": "overcome",
+      "pronunciation": "/ˌəʊvəˈkʌm/",
+      "partOfSpeech": "verb",
+      "meaning": "to succeed in dealing with a problem",
+      "translation": "극복하다",
+      "example": "He overcame his fear of public speaking.",
+      "exampleTranslation": "그는 대중 연설에 대한 두려움을 극복했어요."
+    },
+    {
+      "id": "w6",
+      "word": "decision",
+      "pronunciation": "/dɪˈsɪʒn/",
+      "partOfSpeech": "noun",
+      "meaning": "a choice that you make after thinking",
+      "translation": "결정",
+      "example": "Moving to a new city was a difficult decision.",
+      "exampleTranslation": "새 도시로 이사하는 것은 어려운 결정이었어요."
+    },
+    {
+      "id": "w7",
+      "word": "regret",
+      "pronunciation": "/rɪˈɡret/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to feel sorry about something you did or didn't do",
+      "translation": "후회하다; 후회",
+      "example": "I regret not studying harder in school.",
+      "exampleTranslation": "학교에서 더 열심히 공부하지 않은 것을 후회해요."
+    },
+    {
+      "id": "w8",
+      "word": "adapt",
+      "pronunciation": "/əˈdæpt/",
+      "partOfSpeech": "verb",
+      "meaning": "to change to fit new conditions",
+      "translation": "적응하다",
+      "example": "It took time to adapt to the new job.",
+      "exampleTranslation": "새 직장에 적응하는 데 시간이 걸렸어요."
+    },
+    {
+      "id": "w9",
+      "word": "improve",
+      "pronunciation": "/ɪmˈpruːv/",
+      "partOfSpeech": "verb",
+      "meaning": "to become or make something better",
+      "translation": "개선하다, 향상시키다",
+      "example": "My English has improved a lot this year.",
+      "exampleTranslation": "올해 제 영어가 많이 향상됐어요."
+    },
+    {
+      "id": "w10",
+      "word": "failure",
+      "pronunciation": "/ˈfeɪljə/",
+      "partOfSpeech": "noun",
+      "meaning": "lack of success in doing something",
+      "translation": "실패",
+      "example": "Don't be afraid of failure - it helps you learn.",
+      "exampleTranslation": "실패를 두려워하지 마세요 - 배움에 도움이 돼요."
+    },
+    {
+      "id": "w11",
+      "word": "success",
+      "pronunciation": "/səkˈses/",
+      "partOfSpeech": "noun",
+      "meaning": "achieving what you wanted or intended",
+      "translation": "성공",
+      "example": "Hard work is the key to success.",
+      "exampleTranslation": "열심히 일하는 것이 성공의 열쇠예요."
+    },
+    {
+      "id": "w12",
+      "word": "confident",
+      "pronunciation": "/ˈkɒnfɪdənt/",
+      "partOfSpeech": "adjective",
+      "meaning": "feeling sure about yourself and your abilities",
+      "translation": "자신감 있는",
+      "example": "She became more confident after the training.",
+      "exampleTranslation": "그녀는 훈련 후에 더 자신감이 생겼어요."
+    },
+    {
+      "id": "w13",
+      "word": "graduate",
+      "pronunciation": "/ˈɡrædʒueɪt/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to complete studies; a person who has completed studies",
+      "translation": "졸업하다; 졸업생",
+      "example": "I graduated from university two years ago.",
+      "exampleTranslation": "저는 2년 전에 대학을 졸업했어요."
+    },
+    {
+      "id": "w14",
+      "word": "promotion",
+      "pronunciation": "/prəˈməʊʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "moving to a higher position at work",
+      "translation": "승진",
+      "example": "She got a promotion after working there for three years.",
+      "exampleTranslation": "그녀는 3년 근무 후 승진했어요."
+    },
+    {
+      "id": "w15",
+      "word": "retire",
+      "pronunciation": "/rɪˈtaɪə/",
+      "partOfSpeech": "verb",
+      "meaning": "to stop working because of age",
+      "translation": "은퇴하다",
+      "example": "My father retired at the age of 65.",
+      "exampleTranslation": "아버지는 65세에 은퇴하셨어요."
+    },
+    {
+      "id": "w16",
+      "word": "memorable",
+      "pronunciation": "/ˈmemərəbl/",
+      "partOfSpeech": "adjective",
+      "meaning": "worth remembering; very special",
+      "translation": "기억에 남는",
+      "example": "Our trip to Japan was truly memorable.",
+      "exampleTranslation": "일본 여행은 정말 기억에 남아요."
+    },
+    {
+      "id": "w17",
+      "word": "accomplish",
+      "pronunciation": "/əˈkʌmplɪʃ/",
+      "partOfSpeech": "verb",
+      "meaning": "to succeed in completing something",
+      "translation": "성취하다, 완수하다",
+      "example": "What do you want to accomplish this year?",
+      "exampleTranslation": "올해 무엇을 이루고 싶으세요?"
+    },
+    {
+      "id": "w18",
+      "word": "struggle",
+      "pronunciation": "/ˈstrʌɡl/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to try hard to do something difficult",
+      "translation": "고군분투하다; 노력",
+      "example": "I struggled to find a job after graduation.",
+      "exampleTranslation": "졸업 후 취업하는 데 어려움을 겪었어요."
+    },
+    {
+      "id": "w19",
+      "word": "independent",
+      "pronunciation": "/ˌɪndɪˈpendənt/",
+      "partOfSpeech": "adjective",
+      "meaning": "able to do things by yourself without help",
+      "translation": "독립적인",
+      "example": "Living alone made me more independent.",
+      "exampleTranslation": "혼자 살면서 더 독립적이 됐어요."
+    },
+    {
+      "id": "w20",
+      "word": "responsibility",
+      "pronunciation": "/rɪˌspɒnsəˈbɪlɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "something you must do as part of your duty",
+      "translation": "책임",
+      "example": "Parenthood comes with many responsibilities.",
+      "exampleTranslation": "부모가 되면 많은 책임이 따라요."
+    },
+    {
+      "id": "w21",
+      "word": "risk",
+      "pronunciation": "/rɪsk/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "the possibility of something bad happening",
+      "translation": "위험; 위험을 감수하다",
+      "example": "Starting a business involves some risk.",
+      "exampleTranslation": "사업을 시작하는 것은 어느 정도 위험이 따라요."
+    },
+    {
+      "id": "w22",
+      "word": "valuable",
+      "pronunciation": "/ˈvæljuəbl/",
+      "partOfSpeech": "adjective",
+      "meaning": "very useful or worth a lot",
+      "translation": "가치 있는, 소중한",
+      "example": "This was a valuable learning experience.",
+      "exampleTranslation": "이것은 가치 있는 학습 경험이었어요."
+    },
+    {
+      "id": "w23",
+      "word": "mistake",
+      "pronunciation": "/mɪˈsteɪk/",
+      "partOfSpeech": "noun",
+      "meaning": "something you do wrong",
+      "translation": "실수",
+      "example": "Everyone makes mistakes - that's how we learn.",
+      "exampleTranslation": "누구나 실수해요 - 그렇게 배우는 거예요."
+    },
+    {
+      "id": "w24",
+      "word": "effort",
+      "pronunciation": "/ˈefət/",
+      "partOfSpeech": "noun",
+      "meaning": "the energy you use to do something",
+      "translation": "노력",
+      "example": "It takes a lot of effort to learn a language.",
+      "exampleTranslation": "언어를 배우는 데는 많은 노력이 필요해요."
+    },
+    {
+      "id": "w25",
+      "word": "transform",
+      "pronunciation": "/trænsˈfɔːm/",
+      "partOfSpeech": "verb",
+      "meaning": "to change completely",
+      "translation": "변화시키다, 변형하다",
+      "example": "Travel has transformed my view of the world.",
+      "exampleTranslation": "여행은 세상을 보는 제 시각을 바꿔놨어요."
+    },
+    {
+      "id": "w26",
+      "word": "pursue",
+      "pronunciation": "/pəˈsjuː/",
+      "partOfSpeech": "verb",
+      "meaning": "to try to achieve something over time",
+      "translation": "추구하다",
+      "example": "She decided to pursue her dream of becoming a doctor.",
+      "exampleTranslation": "그녀는 의사가 되겠다는 꿈을 추구하기로 했어요."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "She worked hard and finally _____ her goal of becoming a manager.",
+      "options": ["achieved", "struggled", "regretted", "adapted"],
+      "answer": "achieved"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "Moving to a new country is a big _____.",
+      "answer": "challenge"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "It took him months to _____ his fear of flying.",
+      "options": ["improve", "pursue", "overcome", "transform"],
+      "answer": "overcome"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "I _____ not spending more time with my grandparents.",
+      "answer": "regret"
+    },
+    {
+      "id": "ex5",
+      "type": "matching",
+      "pairs": [
+        {"word": "success", "match": "achieving your goals"},
+        {"word": "failure", "match": "not succeeding"},
+        {"word": "opportunity", "match": "a chance to do something"},
+        {"word": "responsibility", "match": "duty to do something"}
+      ]
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "After the training, she became more _____ in her abilities.",
+      "options": ["valuable", "confident", "memorable", "independent"],
+      "answer": "confident"
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "Learning from your _____ is important for growth.",
+      "answer": "mistakes"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "The trip to Paris was a truly _____ experience.",
+      "options": ["independent", "valuable", "memorable", "confident"],
+      "answer": "memorable"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "It takes a lot of _____ to learn something new.",
+      "answer": "effort"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "She decided to _____ her passion for art and become a painter.",
+      "options": ["adapt", "pursue", "retire", "struggle"],
+      "answer": "pursue"
+    }
+  ]
+}

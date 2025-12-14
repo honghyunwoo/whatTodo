@@ -1,0 +1,204 @@
+{
+  "id": "week-4-grammar",
+  "weekId": "week-4",
+  "type": "grammar",
+  "level": "B2",
+  "title": "Advanced Passive & Causative Structures",
+  "description": "Master advanced passive constructions and causative structures for discussing scientific processes and having things done.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Passive with Modal Verbs",
+      "explanation": "Combine modal verbs with passive voice to express possibility, necessity, or ability in passive form. The structure is: modal + be + past participle.",
+      "structure": "Modal + be + past participle",
+      "examples": [
+        {
+          "sentence": "The experiment must be conducted under controlled conditions.",
+          "translation": "실험은 통제된 조건에서 수행되어야 한다."
+        },
+        {
+          "sentence": "New treatments could be developed within the next decade.",
+          "translation": "새로운 치료법이 향후 10년 내에 개발될 수 있다."
+        },
+        {
+          "sentence": "The data should be analyzed before drawing conclusions.",
+          "translation": "결론을 내리기 전에 데이터가 분석되어야 한다."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Perfect Passive",
+      "explanation": "Use perfect passive to emphasize that an action has been completed. The structure varies by tense: has/have been + past participle (present perfect), had been + past participle (past perfect).",
+      "structure": "has/have been + past participle (present perfect) | had been + past participle (past perfect)",
+      "examples": [
+        {
+          "sentence": "The vaccine has been tested on thousands of volunteers.",
+          "translation": "백신은 수천 명의 자원봉사자에게 테스트되었다."
+        },
+        {
+          "sentence": "The research had been funded by the government for years.",
+          "translation": "그 연구는 수년간 정부의 지원을 받아왔다."
+        },
+        {
+          "sentence": "Many discoveries have been made using this methodology.",
+          "translation": "이 방법론을 사용하여 많은 발견이 이루어졌다."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Passive Infinitive and Gerund",
+      "explanation": "Use passive infinitive (to be + past participle) after certain verbs and adjectives. Use passive gerund (being + past participle) after prepositions and certain verbs.",
+      "structure": "to be + past participle | being + past participle",
+      "examples": [
+        {
+          "sentence": "The prototype needs to be tested before production.",
+          "translation": "프로토타입은 생산 전에 테스트되어야 한다."
+        },
+        {
+          "sentence": "Scientists expect the results to be published next month.",
+          "translation": "과학자들은 결과가 다음 달에 발표될 것으로 예상한다."
+        },
+        {
+          "sentence": "Nobody likes being criticized for their work.",
+          "translation": "아무도 자신의 연구에 대해 비판받는 것을 좋아하지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Causative: Have/Get Something Done",
+      "explanation": "Use causative structures when someone else does something for you or on your behalf. 'Have something done' is more formal; 'get something done' is more informal.",
+      "structure": "have/get + object + past participle",
+      "examples": [
+        {
+          "sentence": "The company had the software developed by external contractors.",
+          "translation": "그 회사는 외부 계약자들에게 소프트웨어를 개발하게 했다."
+        },
+        {
+          "sentence": "We got the samples analyzed at an independent laboratory.",
+          "translation": "우리는 독립 연구소에서 샘플을 분석하게 했다."
+        },
+        {
+          "sentence": "The university is having a new research facility built.",
+          "translation": "대학교는 새로운 연구 시설을 짓게 하고 있다."
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Causative: Make/Have/Let/Get Someone Do",
+      "explanation": "Use these causative verbs to describe causing someone to perform an action. 'Make' implies force, 'have' is neutral, 'let' implies permission, and 'get' requires 'to' before the infinitive.",
+      "structure": "make/have/let + object + bare infinitive | get + object + to infinitive",
+      "examples": [
+        {
+          "sentence": "The professor made the students repeat the experiment.",
+          "translation": "교수는 학생들에게 실험을 반복하게 했다."
+        },
+        {
+          "sentence": "The team leader had the researchers verify the data.",
+          "translation": "팀장은 연구원들에게 데이터를 검증하게 했다."
+        },
+        {
+          "sentence": "The ethics committee let the trial proceed.",
+          "translation": "윤리위원회는 시험이 진행되도록 허용했다."
+        },
+        {
+          "sentence": "We got the experts to review our methodology.",
+          "translation": "우리는 전문가들에게 방법론을 검토하게 했다."
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "title": "Impersonal Passive with 'It'",
+      "explanation": "Use impersonal passive constructions with 'it' to report beliefs, claims, or knowledge without specifying who holds them. Common with verbs like believe, say, think, know, report.",
+      "structure": "It + is/was + past participle + that clause",
+      "examples": [
+        {
+          "sentence": "It is believed that the universe is expanding.",
+          "translation": "우주가 팽창하고 있다고 믿어진다."
+        },
+        {
+          "sentence": "It has been reported that a new species was discovered.",
+          "translation": "새로운 종이 발견되었다고 보고되었다."
+        },
+        {
+          "sentence": "It is thought that this treatment could be effective.",
+          "translation": "이 치료법이 효과적일 수 있다고 생각된다."
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "The research _____ by a team of international scientists.",
+      "options": ["is being conducted", "is conducting", "has conducting", "was conduct"],
+      "answer": "is being conducted"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "The samples need _____ (analyze) before the deadline.",
+      "answer": "to be analyzed"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "We had the prototype _____ by external engineers.",
+      "options": ["tested", "to test", "testing", "test"],
+      "answer": "tested"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "The professor made the students _____ (redo) the experiment.",
+      "answer": "redo"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "It _____ that climate change will have severe consequences.",
+      "options": ["believed", "is believed", "believes", "believing"],
+      "answer": "is believed"
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "The vaccine _____ (test) on thousands of participants so far.",
+      "answer": "has been tested"
+    },
+    {
+      "id": "ex7",
+      "type": "transformation",
+      "instruction": "Rewrite using a causative structure",
+      "original": "The company hired someone to develop the software.",
+      "answer": "The company had the software developed."
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "The results must _____ before publication.",
+      "options": ["be verified", "verify", "verified", "to verify"],
+      "answer": "be verified"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "She got her colleagues _____ (review) the paper.",
+      "answer": "to review"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "The new drug _____ approved by regulators yet.",
+      "options": ["hasn't been", "hasn't", "didn't", "wasn't being"],
+      "answer": "hasn't been"
+    }
+  ]
+}

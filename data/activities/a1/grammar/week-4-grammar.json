@@ -1,0 +1,163 @@
+{
+  "id": "week-4-grammar",
+  "weekId": "week-4",
+  "type": "grammar",
+  "level": "A2",
+  "title": "현재완료 시제 (Present Perfect)",
+  "description": "과거에 시작해서 현재까지 영향을 주는 일을 표현하는 현재완료 시제를 학습합니다.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "rule": "현재완료의 형태 (have/has + 과거분사)",
+      "explanation": "현재완료는 'have/has + 과거분사(p.p.)'로 만듭니다. He/She/It은 has, 나머지는 have를 사용합니다.",
+      "examples": [
+        {
+          "sentence": "I have visited Korea three times.",
+          "translation": "나는 한국을 세 번 방문한 적이 있습니다."
+        },
+        {
+          "sentence": "She has lived here for five years.",
+          "translation": "그녀는 여기에 5년 동안 살고 있습니다."
+        },
+        {
+          "sentence": "They have finished their homework.",
+          "translation": "그들은 숙제를 끝냈습니다."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "rule": "현재완료의 용법 - 경험",
+      "explanation": "과거부터 현재까지의 경험을 나타냅니다. '~한 적이 있다'라는 의미입니다. (often with: ever, never, once, twice, before)",
+      "examples": [
+        {
+          "sentence": "I have seen that movie before.",
+          "translation": "나는 그 영화를 전에 본 적이 있습니다."
+        },
+        {
+          "sentence": "Have you ever been to Japan?",
+          "translation": "일본에 가본 적이 있나요?"
+        },
+        {
+          "sentence": "She has never tried sushi.",
+          "translation": "그녀는 초밥을 먹어본 적이 없습니다."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "rule": "현재완료의 용법 - 계속",
+      "explanation": "과거부터 현재까지 계속되는 상태나 동작을 나타냅니다. (often with: for, since)",
+      "examples": [
+        {
+          "sentence": "I have known him for 10 years.",
+          "translation": "나는 그를 10년 동안 알고 지냈습니다."
+        },
+        {
+          "sentence": "They have lived in Seoul since 2020.",
+          "translation": "그들은 2020년부터 서울에 살고 있습니다."
+        },
+        {
+          "sentence": "She has studied English for three months.",
+          "translation": "그녀는 3개월 동안 영어를 공부하고 있습니다."
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "I ___ visited Korea three times.",
+      "options": ["has", "have", "am", "was"],
+      "answer": "have",
+      "explanation": "'I'는 현재완료에서 'have'를 사용합니다."
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "She ___ lived here for five years.",
+      "options": ["has", "have", "is", "was"],
+      "answer": "has",
+      "explanation": "'She'는 3인칭 단수이므로 'has'를 사용합니다."
+    },
+    {
+      "id": "ex3",
+      "type": "fill_blank",
+      "question": "I have ___ that movie. (see의 과거분사)",
+      "answer": "seen",
+      "explanation": "'see'의 과거분사는 'seen'입니다."
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "They have ___ their homework. (finish의 과거분사)",
+      "answer": "finished",
+      "explanation": "'finish'는 규칙 동사로 과거분사는 'finished'입니다."
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "___ you ever been to Japan?",
+      "options": ["Has", "Have", "Do", "Did"],
+      "answer": "Have",
+      "explanation": "현재완료 의문문에서 'you'는 'Have'를 사용합니다."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "She has ___ tried sushi.",
+      "options": ["ever", "never", "always", "just"],
+      "answer": "never",
+      "explanation": "'~한 적이 없다'는 'never'를 사용합니다."
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "I have known him ___ 10 years.",
+      "answer": "for",
+      "explanation": "기간을 나타낼 때는 'for'를 사용합니다."
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "They have lived here ___ 2020.",
+      "answer": "since",
+      "explanation": "특정 시점부터를 나타낼 때는 'since'를 사용합니다."
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "I have ___ eaten breakfast.",
+      "options": ["yet", "already", "ago", "yesterday"],
+      "answer": "already",
+      "explanation": "'이미'라는 뜻의 'already'를 사용합니다."
+    },
+    {
+      "id": "ex10",
+      "type": "sentence_ordering",
+      "question": "다음 단어를 올바른 순서로 배열하세요: [have, I, been, Japan, to]",
+      "options": ["have", "I", "been", "Japan", "to"],
+      "answer": ["I", "have", "been", "to", "Japan"],
+      "explanation": "현재완료: 주어(I) + have + 과거분사(been) + to Japan 순서입니다."
+    },
+    {
+      "id": "ex11",
+      "type": "sentence_ordering",
+      "question": "다음 단어를 올바른 순서로 배열하세요: [has, She, lived, for, here, years, five]",
+      "options": ["has", "She", "lived", "for", "here", "years", "five"],
+      "answer": ["She", "has", "lived", "here", "for", "five", "years"],
+      "explanation": "She has lived here for five years 순서입니다."
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "We ___ not finished yet.",
+      "options": ["has", "have", "is", "are"],
+      "answer": "have",
+      "explanation": "'We'는 현재완료 부정문에서 'have not'을 사용합니다."
+    }
+  ]
+}

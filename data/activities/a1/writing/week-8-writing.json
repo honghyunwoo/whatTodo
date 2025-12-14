@@ -1,0 +1,203 @@
+{
+  "id": "week-8-writing",
+  "weekId": "week-8",
+  "type": "writing",
+  "level": "B2",
+  "title": "좋아하는 책이나 영화 설명하기",
+  "description": "수동태와 관계대명사를 활용하여 좋아하는 책이나 영화에 대한 글을 작성해봅니다.",
+
+  "prompt": {
+    "topic": "내가 좋아하는 책 또는 영화",
+    "description": "당신이 좋아하는 책 또는 영화에 대해 글을 작성해보세요. 작가나 감독, 줄거리, 등장인물, 그리고 왜 그것을 좋아하는지를 포함할 수 있습니다.",
+    "requirements": [
+      "책 또는 영화의 제목과 작가/감독을 명확히 밝히세요",
+      "수동태를 최소 4번 이상 사용하세요 (예: was written, was directed, was created)",
+      "관계대명사(who, which, that, whose)를 최소 3번 이상 사용하세요",
+      "간단한 줄거리나 내용을 포함하세요",
+      "등장인물이나 주요 요소를 설명하세요",
+      "왜 그것을 좋아하는지, 어떤 점이 인상적이었는지 설명하세요",
+      "다른 사람에게 추천하는 이유를 제시하세요"
+    ],
+    "wordCount": {
+      "min": 140,
+      "max": 220
+    },
+    "timeLimit": 30
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "Harry Potter was written by J.K. Rowling.",
+      "translation": "해리 포터는 J.K. Rowling에 의해 쓰여졌다.",
+      "useCase": "수동태로 작가를 소개할 때"
+    },
+    {
+      "id": "ex2",
+      "sentence": "The movie was directed by Christopher Nolan.",
+      "translation": "그 영화는 크리스토퍼 놀란에 의해 감독되었다.",
+      "useCase": "수동태로 감독을 소개할 때"
+    },
+    {
+      "id": "ex3",
+      "sentence": "The story, which is set in London, is very exciting.",
+      "translation": "런던을 배경으로 한 그 이야기는 매우 흥미진진하다.",
+      "useCase": "관계대명사로 배경을 설명할 때"
+    },
+    {
+      "id": "ex4",
+      "sentence": "The main character, who is a detective, solves mysteries.",
+      "translation": "탐정인 주인공이 미스터리를 해결한다.",
+      "useCase": "관계대명사로 등장인물을 설명할 때"
+    },
+    {
+      "id": "ex5",
+      "sentence": "It was published in 1997 and became an instant bestseller.",
+      "translation": "그것은 1997년에 출판되었고 즉각적인 베스트셀러가 되었다.",
+      "useCase": "수동태로 출판 정보를 제공할 때"
+    },
+    {
+      "id": "ex6",
+      "sentence": "The book, which has been translated into many languages, is loved worldwide.",
+      "translation": "많은 언어로 번역된 그 책은 전 세계적으로 사랑받고 있다.",
+      "useCase": "관계대명사와 수동태를 함께 사용할 때"
+    },
+    {
+      "id": "ex7",
+      "sentence": "I recommend this to anyone who loves adventure stories.",
+      "translation": "나는 모험 이야기를 좋아하는 누구에게나 이것을 추천한다.",
+      "useCase": "관계대명사로 추천 대상을 표현할 때"
+    },
+    {
+      "id": "ex8",
+      "sentence": "The themes that are explored in this work are very meaningful.",
+      "translation": "이 작품에서 탐구되는 주제들은 매우 의미가 있다.",
+      "useCase": "수동태와 관계대명사로 주제를 설명할 때"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "was written by",
+      "translation": "~에 의해 쓰여진",
+      "example": "The book was written by Agatha Christie."
+    },
+    {
+      "word": "was directed by",
+      "translation": "~에 의해 감독된",
+      "example": "The film was directed by Quentin Tarantino."
+    },
+    {
+      "word": "was published",
+      "translation": "출판되었다",
+      "example": "It was published in 2010."
+    },
+    {
+      "word": "was released",
+      "translation": "개봉되었다, 출시되었다",
+      "example": "The movie was released last year."
+    },
+    {
+      "word": "is set in",
+      "translation": "~를 배경으로 하다",
+      "example": "The story is set in Paris."
+    },
+    {
+      "word": "which tells the story of",
+      "translation": "~의 이야기를 다루는",
+      "example": "A book which tells the story of a young wizard."
+    },
+    {
+      "word": "who is a",
+      "translation": "~인 (사람)",
+      "example": "The character who is a scientist."
+    },
+    {
+      "word": "that explores",
+      "translation": "~를 탐구하는",
+      "example": "A film that explores human nature."
+    },
+    {
+      "word": "whose work",
+      "translation": "~의 작품",
+      "example": "An author whose work is famous."
+    },
+    {
+      "word": "was adapted into",
+      "translation": "~로 각색되었다",
+      "example": "The book was adapted into a movie."
+    },
+    {
+      "word": "is based on",
+      "translation": "~를 바탕으로 하다",
+      "example": "The movie is based on a true story."
+    },
+    {
+      "word": "the plot",
+      "translation": "줄거리",
+      "example": "The plot is very interesting."
+    },
+    {
+      "word": "the character",
+      "translation": "등장인물",
+      "example": "The main character is brave."
+    },
+    {
+      "word": "memorable",
+      "translation": "기억에 남는",
+      "example": "It has many memorable scenes."
+    },
+    {
+      "word": "I recommend",
+      "translation": "나는 추천한다",
+      "example": "I recommend this book to everyone."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "📝 내용 요구사항",
+      "items": [
+        "책 또는 영화의 제목을 명확히 밝혔나요?",
+        "작가 또는 감독을 소개했나요?",
+        "간단한 줄거리나 내용을 포함했나요?",
+        "등장인물이나 주요 요소를 설명했나요?",
+        "왜 그것을 좋아하는지 설명했나요?",
+        "다른 사람에게 추천하는 이유를 제시했나요?"
+      ]
+    },
+    {
+      "category": "✅ 문법 - 수동태와 관계대명사",
+      "items": [
+        "수동태(be + past participle)를 최소 4번 사용했나요?",
+        "관계대명사(who/which/that/whose)를 최소 3번 사용했나요?",
+        "수동태의 시제를 정확하게 사용했나요?",
+        "관계대명사를 적절한 명사와 함께 사용했나요?",
+        "'by + 행위자'를 필요한 곳에 올바르게 사용했나요?",
+        "관계절의 어순이 정확한가요?"
+      ]
+    },
+    {
+      "category": "📏 분량 및 구조",
+      "items": [
+        "최소 140단어 이상인가요?",
+        "최대 220단어 이내인가요?",
+        "도입-본문(소개/줄거리/평가)-결론 구조가 명확한가요?",
+        "문단이 논리적으로 연결되나요?",
+        "각 부분이 자연스럽게 이어지나요?"
+      ]
+    },
+    {
+      "category": "🎯 전반적 평가",
+      "items": [
+        "수동태와 관계대명사를 효과적으로 사용했나요?",
+        "다양한 어휘를 사용했나요?",
+        "문장이 자연스럽고 명확한가요?",
+        "맞춤법과 문법 실수가 없나요?",
+        "제한 시간(30분) 내에 완성했나요?",
+        "읽는 사람이 그 책이나 영화에 대해 잘 이해할 수 있나요?",
+        "설득력 있게 추천하고 있나요?"
+      ]
+    }
+  ]
+}

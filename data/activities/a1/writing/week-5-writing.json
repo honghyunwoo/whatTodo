@@ -1,0 +1,181 @@
+{
+  "id": "week-5-writing",
+  "weekId": "week-5",
+  "type": "writing",
+  "level": "B1",
+  "title": "조언과 능력에 대한 글쓰기",
+  "description": "조동사를 사용하여 조언, 능력, 의무에 대한 글을 작성해봅니다.",
+
+  "prompt": {
+    "topic": "건강한 생활을 위한 조언 쓰기",
+    "description": "친구나 가족에게 건강한 생활을 위한 조언을 하는 글을 작성해보세요. 조동사(should, must, can, could 등)를 사용하여 능력, 의무, 조언을 표현하세요.",
+    "requirements": [
+      "조동사를 최소 5개 이상 사용하세요 (should, must, can, could, may 등)",
+      "능력에 대해 작성하세요 (can, could, be able to)",
+      "조언이나 권유를 포함하세요 (should, ought to)",
+      "의무나 규칙을 포함하세요 (must, have to)",
+      "가능성을 표현하세요 (may, might, could)",
+      "공손한 요청이나 제안을 포함하세요 (could, would)"
+    ],
+    "wordCount": {
+      "min": 80,
+      "max": 150
+    },
+    "timeLimit": 25
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "You should exercise at least 30 minutes every day.",
+      "translation": "당신은 매일 최소 30분 동안 운동해야 합니다.",
+      "useCase": "조언을 할 때"
+    },
+    {
+      "id": "ex2",
+      "sentence": "Everyone can improve their health with small changes.",
+      "translation": "누구나 작은 변화로 건강을 개선할 수 있습니다.",
+      "useCase": "능력을 표현할 때"
+    },
+    {
+      "id": "ex3",
+      "sentence": "You must drink plenty of water.",
+      "translation": "당신은 충분한 물을 마셔야 합니다.",
+      "useCase": "강한 의무를 표현할 때"
+    },
+    {
+      "id": "ex4",
+      "sentence": "It may be difficult at first, but don't give up.",
+      "translation": "처음에는 어려울 수 있지만, 포기하지 마세요.",
+      "useCase": "가능성을 표현할 때"
+    },
+    {
+      "id": "ex5",
+      "sentence": "When I was younger, I could run for hours.",
+      "translation": "어렸을 때, 나는 몇 시간 동안 달릴 수 있었습니다.",
+      "useCase": "과거의 능력을 표현할 때"
+    },
+    {
+      "id": "ex6",
+      "sentence": "You shouldn't eat too much junk food.",
+      "translation": "정크푸드를 너무 많이 먹으면 안 됩니다.",
+      "useCase": "부정적 조언을 할 때"
+    },
+    {
+      "id": "ex7",
+      "sentence": "Could you try walking instead of driving?",
+      "translation": "운전 대신 걷기를 시도해보시겠어요?",
+      "useCase": "공손한 제안을 할 때"
+    },
+    {
+      "id": "ex8",
+      "sentence": "You will be able to see results in a few weeks.",
+      "translation": "몇 주 안에 결과를 볼 수 있을 것입니다.",
+      "useCase": "미래의 능력을 표현할 때"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "should/ought to",
+      "translation": "~해야 한다 (조언)",
+      "example": "You should eat more vegetables."
+    },
+    {
+      "word": "must/have to",
+      "translation": "~해야 한다 (의무)",
+      "example": "You must exercise regularly."
+    },
+    {
+      "word": "can/be able to",
+      "translation": "~할 수 있다 (능력)",
+      "example": "You can improve your health."
+    },
+    {
+      "word": "could",
+      "translation": "~할 수 있었다 (과거), ~해 주시겠어요? (요청)",
+      "example": "Could you try this?"
+    },
+    {
+      "word": "may/might",
+      "translation": "~일지도 모른다 (가능성)",
+      "example": "It may be challenging."
+    },
+    {
+      "word": "shouldn't/mustn't",
+      "translation": "~하면 안 된다",
+      "example": "You shouldn't skip meals."
+    },
+    {
+      "word": "would",
+      "translation": "~하시겠어요? (공손한 제안)",
+      "example": "Would you like to try...?"
+    },
+    {
+      "word": "will be able to",
+      "translation": "~할 수 있을 것이다 (미래 능력)",
+      "example": "You will be able to run faster."
+    },
+    {
+      "word": "exercise regularly",
+      "translation": "규칙적으로 운동하다",
+      "example": "Everyone should exercise regularly."
+    },
+    {
+      "word": "eat healthy food",
+      "translation": "건강한 음식을 먹다",
+      "example": "You must eat healthy food."
+    },
+    {
+      "word": "get enough sleep",
+      "translation": "충분히 자다",
+      "example": "You should get enough sleep."
+    },
+    {
+      "word": "reduce stress",
+      "translation": "스트레스를 줄이다",
+      "example": "You can reduce stress by..."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "📝 내용 요구사항",
+      "items": [
+        "조동사를 최소 5개 이상 사용했나요?",
+        "능력에 대해 작성했나요? (can, could)",
+        "조언이나 권유를 포함했나요? (should)",
+        "의무나 규칙을 포함했나요? (must, have to)",
+        "가능성을 표현했나요? (may, might)",
+        "다양한 조동사를 사용했나요?"
+      ]
+    },
+    {
+      "category": "✅ 문법 및 형식",
+      "items": [
+        "조동사 뒤에 동사원형을 올바르게 사용했나요?",
+        "조동사의 의미를 상황에 맞게 사용했나요?",
+        "부정형(shouldn't, mustn't, can't)을 올바르게 사용했나요?",
+        "문장이 대문자로 시작하고 마침표로 끝나나요?"
+      ]
+    },
+    {
+      "category": "📏 분량",
+      "items": [
+        "최소 80단어 이상인가요?",
+        "최대 150단어 이내인가요?",
+        "충분한 조언과 설명을 포함했나요?"
+      ]
+    },
+    {
+      "category": "🎯 전반적 평가",
+      "items": [
+        "조언이 실용적이고 도움이 되나요?",
+        "조동사를 다양하게 사용했나요?",
+        "글이 논리적으로 구성되었나요?",
+        "맞춤법 실수가 없나요?",
+        "제한 시간 내에 완성했나요?"
+      ]
+    }
+  ]
+}

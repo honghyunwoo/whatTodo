@@ -1,0 +1,146 @@
+{
+  "id": "week-2-reading",
+  "weekId": "week-2",
+  "type": "reading",
+  "level": "B2",
+  "title": "The Changing Nature of Work",
+  "description": "Read about how the workplace is evolving and what skills are needed for the future.",
+
+  "passage": {
+    "text": "The concept of a traditional career is undergoing a fundamental transformation. For previous generations, job security often meant staying with one company for decades. Employees could have expected steady progression through the ranks, ending their careers with a comfortable pension. Today's workforce faces a dramatically different landscape.\n\nThe rise of the gig economy has created new opportunities but also new uncertainties. Freelancers and contract workers now make up a significant portion of the labor market. While this flexibility can be liberating, workers must take responsibility for their own benefits, training, and job security. Industry experts suggest that young professionals should expect to change careers multiple times during their working lives.\n\nAutomation and artificial intelligence are reshaping entire industries. Tasks that humans might have performed a decade ago are now done by machines. This doesn't necessarily mean fewer jobs, but the skills required are changing rapidly. Workers who can adapt to new technologies will thrive, while those who resist change could find themselves struggling. Continuous learning has become essential rather than optional.\n\nRemote work, accelerated by recent global events, has become mainstream in many sectors. Companies that might have resisted flexible working arrangements have discovered that productivity can actually increase when employees work from home. However, this shift raises questions about workplace culture, collaboration, and the boundaries between professional and personal life.\n\nSoft skills are now valued more highly than ever before. Technical abilities can be taught and automated, but emotional intelligence, creativity, and complex problem-solving remain distinctly human capabilities. Employers must be looking for candidates who can communicate effectively, work in diverse teams, and demonstrate leadership potential.\n\nMental health in the workplace has also gained recognition. Burnout, which might have been dismissed as mere tiredness in the past, is now acknowledged as a serious condition. Progressive companies are implementing wellness programs and encouraging employees to maintain a healthy work-life balance. This shift in attitude could lead to more sustainable and satisfying careers.\n\nNavigating this new landscape requires adaptability and resilience. Professionals should continuously update their skills, build diverse networks, and remain open to unexpected opportunities. The future of work may be uncertain, but for those willing to embrace change, it could also be filled with possibilities.",
+    "wordCount": 365,
+    "estimatedReadingTime": 5
+  },
+
+  "vocabulary": [
+    {
+      "word": "gig economy",
+      "meaning": "a labor market of short-term and freelance work",
+      "translation": "긱 경제"
+    },
+    {
+      "word": "automation",
+      "meaning": "use of machines to perform tasks without human intervention",
+      "translation": "자동화"
+    },
+    {
+      "word": "accelerated",
+      "meaning": "caused to happen faster or sooner",
+      "translation": "가속화된"
+    },
+    {
+      "word": "mainstream",
+      "meaning": "widely accepted or practiced",
+      "translation": "주류의"
+    },
+    {
+      "word": "resilience",
+      "meaning": "ability to recover from difficulties",
+      "translation": "회복력"
+    },
+    {
+      "word": "adaptability",
+      "meaning": "ability to adjust to new conditions",
+      "translation": "적응력"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What could previous generations have expected from a traditional career?",
+      "options": ["Frequent job changes", "Multiple careers", "Steady progression and a pension", "Working from home"],
+      "answer": "Steady progression and a pension",
+      "explanation": "The passage states employees 'could have expected steady progression through the ranks, ending their careers with a comfortable pension.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "The gig economy only creates uncertainties for workers.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'The rise of the gig economy has created new opportunities but also new uncertainties.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What do industry experts suggest about career changes?",
+      "options": ["Avoid them at all costs", "Expect multiple career changes", "Stay with one company", "Only change jobs once"],
+      "answer": "Expect multiple career changes",
+      "explanation": "Experts suggest 'young professionals should expect to change careers multiple times.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "According to the passage, what might have happened to tasks that humans performed a decade ago?",
+      "options": ["They became harder", "They are now done by machines", "They require more workers", "They disappeared completely"],
+      "answer": "They are now done by machines",
+      "explanation": "The passage says 'Tasks that humans might have performed a decade ago are now done by machines.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "The passage suggests automation will definitely lead to fewer jobs.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'This doesn't necessarily mean fewer jobs, but the skills required are changing rapidly.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What did companies discover about remote work and productivity?",
+      "options": ["Productivity decreased", "Productivity could actually increase", "There was no change", "Workers became lazy"],
+      "answer": "Productivity could actually increase",
+      "explanation": "Companies 'discovered that productivity can actually increase when employees work from home.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "Why are soft skills valued more highly now according to the passage?",
+      "options": ["Technical skills are disappearing", "They cannot be taught", "Technical abilities can be automated", "Machines prefer them"],
+      "answer": "Technical abilities can be automated",
+      "explanation": "The passage states 'Technical abilities can be taught and automated, but emotional intelligence... remain distinctly human capabilities.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "The passage says burnout was always taken seriously in the workplace.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Burnout 'might have been dismissed as mere tiredness in the past' but is now 'acknowledged as a serious condition.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What must employers be looking for according to the passage?",
+      "options": ["Only technical skills", "Years of experience", "Communication and leadership potential", "University degrees"],
+      "answer": "Communication and leadership potential",
+      "explanation": "Employers 'must be looking for candidates who can communicate effectively... and demonstrate leadership potential.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What might have happened to flexibility before global events?",
+      "options": ["Companies embraced it", "Companies might have resisted it", "Workers rejected it", "It was mandatory"],
+      "answer": "Companies might have resisted it",
+      "explanation": "The passage says 'Companies that might have resisted flexible working arrangements have discovered...'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What type of learning has become essential rather than optional?",
+      "answer": "continuous learning",
+      "alternateAnswers": ["continuous", "continuous learning", "lifelong learning"],
+      "explanation": "The passage states 'Continuous learning has become essential rather than optional.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "The passage is pessimistic about the future of work.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage concludes that for those 'willing to embrace change, it could also be filled with possibilities.'"
+    }
+  ]
+}

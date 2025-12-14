@@ -1,0 +1,323 @@
+{
+  "id": "week-4-vocab",
+  "weekId": "week-4",
+  "type": "vocabulary",
+  "level": "B2",
+  "title": "Science & Innovation",
+  "description": "Learn vocabulary for discussing scientific research, technological innovation, and breakthroughs.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "breakthrough",
+      "pronunciation": "/ˈbreɪkθruː/",
+      "meaning": "an important discovery or achievement",
+      "translation": "돌파구, 획기적인 발전",
+      "example": "The breakthrough in cancer research offers new hope for patients.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w2",
+      "word": "hypothesis",
+      "pronunciation": "/haɪˈpɒθəsɪs/",
+      "meaning": "a proposed explanation based on limited evidence",
+      "translation": "가설",
+      "example": "The scientist tested her hypothesis through repeated experiments.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w3",
+      "word": "innovation",
+      "pronunciation": "/ˌɪnəˈveɪʃn/",
+      "meaning": "the introduction of new ideas or methods",
+      "translation": "혁신",
+      "example": "Technological innovation has transformed modern communication.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w4",
+      "word": "experiment",
+      "pronunciation": "/ɪkˈsperɪmənt/",
+      "meaning": "a scientific test to discover something",
+      "translation": "실험",
+      "example": "The experiment was conducted under controlled conditions.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w5",
+      "word": "data",
+      "pronunciation": "/ˈdeɪtə/",
+      "meaning": "facts and statistics collected for analysis",
+      "translation": "데이터, 자료",
+      "example": "The data was analyzed by a team of researchers.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w6",
+      "word": "research",
+      "pronunciation": "/rɪˈsɜːtʃ/",
+      "meaning": "systematic investigation to establish facts",
+      "translation": "연구",
+      "example": "Medical research is being funded by the government.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w7",
+      "word": "laboratory",
+      "pronunciation": "/ləˈbɒrətri/",
+      "meaning": "a room equipped for scientific work",
+      "translation": "연구실, 실험실",
+      "example": "The vaccine was developed in a secure laboratory.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w8",
+      "word": "patent",
+      "pronunciation": "/ˈpætnt/",
+      "meaning": "exclusive rights granted for an invention",
+      "translation": "특허",
+      "example": "The company was granted a patent for its new technology.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w9",
+      "word": "artificial",
+      "pronunciation": "/ˌɑːtɪˈfɪʃl/",
+      "meaning": "made by humans rather than occurring naturally",
+      "translation": "인공의",
+      "example": "Artificial intelligence is being integrated into many industries.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w10",
+      "word": "sustainable",
+      "pronunciation": "/səˈsteɪnəbl/",
+      "meaning": "able to be maintained without depleting resources",
+      "translation": "지속 가능한",
+      "example": "Sustainable energy sources are being developed worldwide.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w11",
+      "word": "genetic",
+      "pronunciation": "/dʒəˈnetɪk/",
+      "meaning": "relating to genes or heredity",
+      "translation": "유전의",
+      "example": "Genetic testing can identify inherited diseases.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w12",
+      "word": "renewable",
+      "pronunciation": "/rɪˈnjuːəbl/",
+      "meaning": "capable of being replaced naturally",
+      "translation": "재생 가능한",
+      "example": "Solar and wind are renewable energy sources.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w13",
+      "word": "theoretical",
+      "pronunciation": "/ˌθɪəˈretɪkl/",
+      "meaning": "based on theory rather than practice",
+      "translation": "이론적인",
+      "example": "The concept remains theoretical until proven experimentally.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w14",
+      "word": "empirical",
+      "pronunciation": "/ɪmˈpɪrɪkl/",
+      "meaning": "based on observation or experience",
+      "translation": "경험적인, 실증적인",
+      "example": "Empirical evidence supports the new theory.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w15",
+      "word": "prototype",
+      "pronunciation": "/ˈprəʊtətaɪp/",
+      "meaning": "an early model of a product",
+      "translation": "프로토타입, 시제품",
+      "example": "The prototype was tested before mass production.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w16",
+      "word": "analyze",
+      "pronunciation": "/ˈænəlaɪz/",
+      "meaning": "to examine something in detail",
+      "translation": "분석하다",
+      "example": "Scientists analyzed the samples in the laboratory.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w17",
+      "word": "develop",
+      "pronunciation": "/dɪˈveləp/",
+      "meaning": "to create or improve something over time",
+      "translation": "개발하다",
+      "example": "The team developed a new treatment method.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w18",
+      "word": "discover",
+      "pronunciation": "/dɪˈskʌvər/",
+      "meaning": "to find something for the first time",
+      "translation": "발견하다",
+      "example": "The element was discovered by accident.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w19",
+      "word": "implement",
+      "pronunciation": "/ˈɪmplɪment/",
+      "meaning": "to put a plan into action",
+      "translation": "구현하다, 실행하다",
+      "example": "The new system will be implemented next year.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w20",
+      "word": "modify",
+      "pronunciation": "/ˈmɒdɪfaɪ/",
+      "meaning": "to make partial changes to something",
+      "translation": "수정하다",
+      "example": "The design was modified based on user feedback.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w21",
+      "word": "simulate",
+      "pronunciation": "/ˈsɪmjuleɪt/",
+      "meaning": "to imitate conditions for testing purposes",
+      "translation": "시뮬레이션하다, 모의 실험하다",
+      "example": "The computer simulated various climate scenarios.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w22",
+      "word": "validate",
+      "pronunciation": "/ˈvælɪdeɪt/",
+      "meaning": "to confirm or verify something",
+      "translation": "검증하다",
+      "example": "The results were validated by independent researchers.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w23",
+      "word": "peer review",
+      "pronunciation": "/pɪər rɪˈvjuː/",
+      "meaning": "evaluation of work by experts in the field",
+      "translation": "동료 심사",
+      "example": "The paper underwent rigorous peer review before publication.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w24",
+      "word": "clinical trial",
+      "pronunciation": "/ˈklɪnɪkl ˈtraɪəl/",
+      "meaning": "a research study testing medical treatments",
+      "translation": "임상 시험",
+      "example": "The drug is currently in clinical trials.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w25",
+      "word": "methodology",
+      "pronunciation": "/ˌmeθəˈdɒlədʒi/",
+      "meaning": "the system of methods used in research",
+      "translation": "방법론",
+      "example": "The study's methodology was questioned by critics.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w26",
+      "word": "quantum",
+      "pronunciation": "/ˈkwɒntəm/",
+      "meaning": "relating to the smallest units of energy",
+      "translation": "양자의",
+      "example": "Quantum computing is expected to revolutionize technology.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w27",
+      "word": "nanotechnology",
+      "pronunciation": "/ˌnænəʊtekˈnɒlədʒi/",
+      "meaning": "technology at the molecular or atomic scale",
+      "translation": "나노기술",
+      "example": "Nanotechnology is being used to develop new materials.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w28",
+      "word": "biomedical",
+      "pronunciation": "/ˌbaɪəʊˈmedɪkl/",
+      "meaning": "relating to biology and medicine",
+      "translation": "생의학의",
+      "example": "Biomedical research has led to many new treatments.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w29",
+      "word": "algorithm",
+      "pronunciation": "/ˈælɡərɪðəm/",
+      "meaning": "a set of rules for solving problems",
+      "translation": "알고리즘",
+      "example": "The algorithm was designed to detect patterns in data.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w30",
+      "word": "replicate",
+      "pronunciation": "/ˈreplɪkeɪt/",
+      "meaning": "to reproduce or copy exactly",
+      "translation": "복제하다, 재현하다",
+      "example": "Other scientists were unable to replicate the results.",
+      "partOfSpeech": "verb"
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "instruction": "Match the words with their definitions",
+      "pairs": [
+        { "word": "hypothesis", "definition": "a proposed explanation based on limited evidence" },
+        { "word": "prototype", "definition": "an early model of a product" },
+        { "word": "empirical", "definition": "based on observation or experience" },
+        { "word": "peer review", "definition": "evaluation of work by experts in the field" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "instruction": "Complete the sentences with the correct words",
+      "sentences": [
+        { "sentence": "The _____ was tested in laboratory conditions before release.", "answer": "prototype" },
+        { "sentence": "_____ intelligence is transforming many industries.", "answer": "Artificial" },
+        { "sentence": "The study's _____ was carefully designed.", "answer": "methodology" },
+        { "sentence": "Scientists were unable to _____ the experiment's results.", "answer": "replicate" }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "instruction": "Choose the best word to complete each sentence",
+      "questions": [
+        {
+          "question": "The scientist made a major _____ that could change medicine.",
+          "options": ["algorithm", "breakthrough", "patent", "laboratory"],
+          "answer": "breakthrough"
+        },
+        {
+          "question": "The drug must complete _____ before it can be approved.",
+          "options": ["peer review", "clinical trials", "methodology", "hypothesis"],
+          "answer": "clinical trials"
+        }
+      ]
+    }
+  ]
+}

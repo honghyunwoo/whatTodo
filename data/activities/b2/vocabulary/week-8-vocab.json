@@ -1,0 +1,323 @@
+{
+  "id": "week-8-vocab",
+  "weekId": "week-8",
+  "type": "vocabulary",
+  "level": "B2",
+  "title": "Travel & Globalization",
+  "description": "Learn vocabulary for discussing international travel, cultural exchange, and global issues.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "destination",
+      "pronunciation": "/ˌdestɪˈneɪʃn/",
+      "meaning": "the place to which someone is traveling",
+      "translation": "목적지",
+      "example": "Paris remains one of the world's most popular tourist destinations.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w2",
+      "word": "itinerary",
+      "pronunciation": "/aɪˈtɪnərəri/",
+      "meaning": "a planned route or schedule of a journey",
+      "translation": "여행 일정",
+      "example": "Our itinerary includes visits to three different countries.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w3",
+      "word": "globalization",
+      "pronunciation": "/ˌɡləʊbəlaɪˈzeɪʃn/",
+      "meaning": "the process of international integration",
+      "translation": "세계화",
+      "example": "Globalization has transformed how businesses operate worldwide.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w4",
+      "word": "migration",
+      "pronunciation": "/maɪˈɡreɪʃn/",
+      "meaning": "movement of people to a new area or country",
+      "translation": "이주, 이동",
+      "example": "Mass migration has reshaped many urban centers.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w5",
+      "word": "customs",
+      "pronunciation": "/ˈkʌstəmz/",
+      "meaning": "official department that controls imports; or traditional practices",
+      "translation": "세관; 관습",
+      "example": "We'll need to go through customs when we arrive.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w6",
+      "word": "embassy",
+      "pronunciation": "/ˈembəsi/",
+      "meaning": "official residence of an ambassador",
+      "translation": "대사관",
+      "example": "Contact your embassy if you lose your passport abroad.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w7",
+      "word": "visa",
+      "pronunciation": "/ˈviːzə/",
+      "meaning": "official permission to enter a country",
+      "translation": "비자",
+      "example": "By next month, I will have obtained my travel visa.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w8",
+      "word": "accommodation",
+      "pronunciation": "/əˌkɒməˈdeɪʃn/",
+      "meaning": "a place to live or stay",
+      "translation": "숙소",
+      "example": "We've booked accommodation near the city center.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w9",
+      "word": "sustainable",
+      "pronunciation": "/səˈsteɪnəbl/",
+      "meaning": "able to continue without causing damage",
+      "translation": "지속 가능한",
+      "example": "Sustainable tourism aims to minimize environmental impact.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w10",
+      "word": "diverse",
+      "pronunciation": "/daɪˈvɜːs/",
+      "meaning": "showing a great deal of variety",
+      "translation": "다양한",
+      "example": "The city has a diverse population from many backgrounds.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w11",
+      "word": "exotic",
+      "pronunciation": "/ɪɡˈzɒtɪk/",
+      "meaning": "originating from a distant foreign country",
+      "translation": "이국적인",
+      "example": "They visited exotic locations throughout Southeast Asia.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w12",
+      "word": "authentic",
+      "pronunciation": "/ɔːˈθentɪk/",
+      "meaning": "genuine and true to its origins",
+      "translation": "진정한, 정통의",
+      "example": "We wanted an authentic cultural experience.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w13",
+      "word": "multicultural",
+      "pronunciation": "/ˌmʌltiˈkʌltʃərəl/",
+      "meaning": "relating to many different cultures",
+      "translation": "다문화의",
+      "example": "London is one of the most multicultural cities in the world.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w14",
+      "word": "interconnected",
+      "pronunciation": "/ˌɪntəkəˈnektɪd/",
+      "meaning": "mutually joined or related",
+      "translation": "상호 연결된",
+      "example": "Our world is becoming increasingly interconnected.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w15",
+      "word": "remote",
+      "pronunciation": "/rɪˈməʊt/",
+      "meaning": "far away from main centers; isolated",
+      "translation": "외딴, 멀리 떨어진",
+      "example": "They explored remote villages in the mountains.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w16",
+      "word": "explore",
+      "pronunciation": "/ɪkˈsplɔːr/",
+      "meaning": "to travel through unfamiliar areas",
+      "translation": "탐험하다",
+      "example": "We'll be exploring ancient ruins throughout our trip.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w17",
+      "word": "adapt",
+      "pronunciation": "/əˈdæpt/",
+      "meaning": "to adjust to new conditions",
+      "translation": "적응하다",
+      "example": "Travelers must adapt to different cultural norms.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w18",
+      "word": "immigrate",
+      "pronunciation": "/ˈɪmɪɡreɪt/",
+      "meaning": "to come to live permanently in a foreign country",
+      "translation": "이민 오다",
+      "example": "Many families immigrate seeking better opportunities.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w19",
+      "word": "integrate",
+      "pronunciation": "/ˈɪntɪɡreɪt/",
+      "meaning": "to combine or be combined into a whole",
+      "translation": "통합하다",
+      "example": "Immigrants often work hard to integrate into new societies.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w20",
+      "word": "navigate",
+      "pronunciation": "/ˈnævɪɡeɪt/",
+      "meaning": "to find one's way; to direct the course",
+      "translation": "항해하다, 길을 찾다",
+      "example": "Modern apps help travelers navigate unfamiliar cities.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w21",
+      "word": "heritage",
+      "pronunciation": "/ˈherɪtɪdʒ/",
+      "meaning": "valued traditions passed down through generations",
+      "translation": "유산, 문화유산",
+      "example": "UNESCO protects world heritage sites.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w22",
+      "word": "landmark",
+      "pronunciation": "/ˈlændmɑːk/",
+      "meaning": "a recognizable feature of a place",
+      "translation": "랜드마크, 명소",
+      "example": "The Eiffel Tower is Paris's most famous landmark.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w23",
+      "word": "cuisine",
+      "pronunciation": "/kwɪˈziːn/",
+      "meaning": "a style of cooking",
+      "translation": "요리, 음식문화",
+      "example": "We sampled the local cuisine everywhere we visited.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w24",
+      "word": "currency",
+      "pronunciation": "/ˈkʌrənsi/",
+      "meaning": "money used in a particular country",
+      "translation": "통화",
+      "example": "You'll need to exchange your currency before traveling.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w25",
+      "word": "jet lag",
+      "pronunciation": "/ˈdʒet læɡ/",
+      "meaning": "tiredness after a long flight across time zones",
+      "translation": "시차증, 시차 피로",
+      "example": "It takes days to recover from jet lag.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w26",
+      "word": "souvenir",
+      "pronunciation": "/ˌsuːvəˈnɪər/",
+      "meaning": "an object kept as a reminder of a place visited",
+      "translation": "기념품",
+      "example": "She collects souvenirs from every country she visits.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w27",
+      "word": "cosmopolitan",
+      "pronunciation": "/ˌkɒzməˈpɒlɪtən/",
+      "meaning": "including people from many different countries",
+      "translation": "국제적인, 세계 시민적인",
+      "example": "Singapore is a truly cosmopolitan city.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w28",
+      "word": "indigenous",
+      "pronunciation": "/ɪnˈdɪdʒənəs/",
+      "meaning": "originating naturally in a particular place",
+      "translation": "토착의, 원주민의",
+      "example": "We learned about indigenous cultures during our trip.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w29",
+      "word": "hospitality",
+      "pronunciation": "/ˌhɒspɪˈtæləti/",
+      "meaning": "friendly treatment of guests",
+      "translation": "환대, 접대",
+      "example": "The local hospitality was remarkable throughout our stay.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w30",
+      "word": "transcontinental",
+      "pronunciation": "/ˌtrænzkɒntɪˈnentl/",
+      "meaning": "crossing a continent",
+      "translation": "대륙 횡단의",
+      "example": "By next year, we will have completed our transcontinental journey.",
+      "partOfSpeech": "adjective"
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "instruction": "Match the words with their definitions",
+      "pairs": [
+        { "word": "itinerary", "definition": "a planned route or schedule of a journey" },
+        { "word": "heritage", "definition": "valued traditions passed down through generations" },
+        { "word": "indigenous", "definition": "originating naturally in a particular place" },
+        { "word": "cosmopolitan", "definition": "including people from many different countries" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "instruction": "Complete the sentences with the correct words",
+      "sentences": [
+        { "sentence": "We need to go through _____ before entering the country.", "answer": "customs" },
+        { "sentence": "By tomorrow evening, we will have arrived at our _____.", "answer": "destination" },
+        { "sentence": "_____ tourism focuses on minimizing environmental damage.", "answer": "Sustainable" },
+        { "sentence": "It took weeks to _____ to the different time zone.", "answer": "adapt" }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "instruction": "Choose the best word to complete each sentence",
+      "questions": [
+        {
+          "question": "The city has a _____ population with residents from over 100 countries.",
+          "options": ["remote", "diverse", "indigenous", "exotic"],
+          "answer": "diverse"
+        },
+        {
+          "question": "Many people _____ to new countries seeking better opportunities.",
+          "options": ["explore", "navigate", "immigrate", "adapt"],
+          "answer": "immigrate"
+        }
+      ]
+    }
+  ]
+}

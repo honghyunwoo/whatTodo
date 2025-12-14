@@ -1,0 +1,102 @@
+{
+  "id": "week-6-listening",
+  "weekId": "week-6",
+  "type": "listening",
+  "level": "B1",
+  "title": "비교하는 대화 듣기",
+  "description": "비교급과 최상급을 사용한 비교 대화를 듣고 이해합니다.",
+
+  "audio": {
+    "text": "Hi, I'm Jennifer. [PAUSE] I want to tell you about my family. [PAUSE] I have two brothers. My older brother Tom is taller than me, but I'm smarter than him in school. [PAUSE] My younger brother Jake is the shortest in our family, but he's the funniest person I know. [PAUSE] My mom is more patient than my dad. She's also a better cook. [PAUSE] My dad is the strongest person in our family. He can lift heavy things easily. [PAUSE] I think my family is the best family in the world! We're not perfect, but we're happier than most families I know.",
+    "speed": 0.9
+  },
+
+  "dictation": {
+    "targetSentences": [
+      "My older brother Tom is taller than me.",
+      "My younger brother Jake is the shortest in our family."
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is the speaker's name?",
+      "options": ["Jessica", "Jennifer", "Julia", "Janet"],
+      "answer": "Jennifer",
+      "explanation": "화자는 'I'm Jennifer'라고 자신을 소개했습니다."
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "question": "How many brothers does Jennifer have?",
+      "answer": "2",
+      "explanation": "Jennifer는 두 명의 남자형제가 있습니다."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "Who is taller, Jennifer or Tom?",
+      "options": ["Jennifer", "Tom", "Same height", "Not mentioned"],
+      "answer": "Tom",
+      "explanation": "Tom이 Jennifer보다 키가 큽니다. (Tom is taller than me)"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "Who is smarter in school?",
+      "options": ["Tom", "Jennifer", "Jake", "Same"],
+      "answer": "Jennifer",
+      "explanation": "Jennifer가 Tom보다 학교에서 더 똑똑합니다. (I'm smarter than him in school)"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "Who is the shortest in the family?",
+      "options": ["Jennifer", "Tom", "Jake", "Mom"],
+      "answer": "Jake",
+      "explanation": "Jake가 가족 중에서 가장 키가 작습니다. (Jake is the shortest)"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What is Jake like?",
+      "options": ["The tallest", "The funniest", "The strongest", "The smartest"],
+      "answer": "The funniest",
+      "explanation": "Jake는 가장 재미있는 사람입니다. (he's the funniest person I know)"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "Who is more patient?",
+      "options": ["Mom", "Dad", "Tom", "Jake"],
+      "answer": "Mom",
+      "explanation": "엄마가 아빠보다 더 인내심이 있습니다. (My mom is more patient than my dad)"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Mom is a better cook than dad.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "엄마가 더 요리를 잘합니다. (She's also a better cook)"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "Who is the strongest in the family?",
+      "options": ["Mom", "Dad", "Tom", "Jake"],
+      "answer": "Dad",
+      "explanation": "아빠가 가족 중에서 가장 힘이 셉니다. (My dad is the strongest)"
+    },
+    {
+      "id": "q10",
+      "type": "true_false",
+      "question": "Jennifer thinks her family is the best.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Jennifer는 자기 가족이 세상에서 최고라고 생각합니다. (my family is the best family in the world)"
+    }
+  ]
+}

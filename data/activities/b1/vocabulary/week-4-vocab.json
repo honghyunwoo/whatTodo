@@ -1,0 +1,333 @@
+{
+  "id": "week-4-vocab",
+  "weekId": "week-4",
+  "type": "vocabulary",
+  "level": "B1",
+  "title": "Technology & Media",
+  "description": "Learn vocabulary for talking about technology, social media, and digital life.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "device",
+      "pronunciation": "/dɪˈvaɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "a piece of electronic equipment",
+      "translation": "기기, 장치",
+      "example": "I use several devices for work, including a laptop and tablet.",
+      "exampleTranslation": "저는 노트북과 태블릿을 포함해 여러 기기를 업무에 사용해요."
+    },
+    {
+      "id": "w2",
+      "word": "download",
+      "pronunciation": "/ˈdaʊnləʊd/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to copy data from the internet to a computer",
+      "translation": "다운로드하다",
+      "example": "You can download the app for free.",
+      "exampleTranslation": "그 앱을 무료로 다운로드할 수 있어요."
+    },
+    {
+      "id": "w3",
+      "word": "upload",
+      "pronunciation": "/ˈʌpləʊd/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to send data from a computer to the internet",
+      "translation": "업로드하다",
+      "example": "I uploaded the photos to social media.",
+      "exampleTranslation": "SNS에 사진을 업로드했어요."
+    },
+    {
+      "id": "w4",
+      "word": "connection",
+      "pronunciation": "/kəˈnekʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "a link between devices or to the internet",
+      "translation": "연결",
+      "example": "The WiFi connection is very slow today.",
+      "exampleTranslation": "오늘 와이파이 연결이 아주 느려요."
+    },
+    {
+      "id": "w5",
+      "word": "update",
+      "pronunciation": "/ʌpˈdeɪt/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to add the newest information or features",
+      "translation": "업데이트하다",
+      "example": "Don't forget to update your software regularly.",
+      "exampleTranslation": "정기적으로 소프트웨어를 업데이트하는 것을 잊지 마세요."
+    },
+    {
+      "id": "w6",
+      "word": "password",
+      "pronunciation": "/ˈpɑːswɜːd/",
+      "partOfSpeech": "noun",
+      "meaning": "a secret word to access an account",
+      "translation": "비밀번호",
+      "example": "You should change your password regularly.",
+      "exampleTranslation": "비밀번호를 정기적으로 바꿔야 해요."
+    },
+    {
+      "id": "w7",
+      "word": "privacy",
+      "pronunciation": "/ˈprɪvəsi/",
+      "partOfSpeech": "noun",
+      "meaning": "the right to keep personal information secret",
+      "translation": "프라이버시, 개인정보",
+      "example": "Social media raises concerns about privacy.",
+      "exampleTranslation": "소셜 미디어는 프라이버시에 대한 우려를 불러일으켜요."
+    },
+    {
+      "id": "w8",
+      "word": "screen",
+      "pronunciation": "/skriːn/",
+      "partOfSpeech": "noun",
+      "meaning": "the flat surface where images appear",
+      "translation": "화면",
+      "example": "I spend too much time staring at a screen.",
+      "exampleTranslation": "화면을 너무 오래 쳐다봐요."
+    },
+    {
+      "id": "w9",
+      "word": "notification",
+      "pronunciation": "/ˌnəʊtɪfɪˈkeɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "an alert or message from an app",
+      "translation": "알림",
+      "example": "I turned off notifications to focus better.",
+      "exampleTranslation": "집중하려고 알림을 껐어요."
+    },
+    {
+      "id": "w10",
+      "word": "search",
+      "pronunciation": "/sɜːtʃ/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to look for information online",
+      "translation": "검색하다",
+      "example": "Just search for it on the internet.",
+      "exampleTranslation": "인터넷에서 검색해 보세요."
+    },
+    {
+      "id": "w11",
+      "word": "share",
+      "pronunciation": "/ʃeə/",
+      "partOfSpeech": "verb",
+      "meaning": "to post content for others to see",
+      "translation": "공유하다",
+      "example": "She shares interesting articles on her feed.",
+      "exampleTranslation": "그녀는 피드에 흥미로운 기사를 공유해요."
+    },
+    {
+      "id": "w12",
+      "word": "follow",
+      "pronunciation": "/ˈfɒləʊ/",
+      "partOfSpeech": "verb",
+      "meaning": "to subscribe to someone's social media account",
+      "translation": "팔로우하다",
+      "example": "I follow several news accounts on Twitter.",
+      "exampleTranslation": "트위터에서 여러 뉴스 계정을 팔로우해요."
+    },
+    {
+      "id": "w13",
+      "word": "content",
+      "pronunciation": "/ˈkɒntent/",
+      "partOfSpeech": "noun",
+      "meaning": "information or material on a website",
+      "translation": "콘텐츠",
+      "example": "The platform has great educational content.",
+      "exampleTranslation": "그 플랫폼에는 훌륭한 교육 콘텐츠가 있어요."
+    },
+    {
+      "id": "w14",
+      "word": "stream",
+      "pronunciation": "/striːm/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to watch/listen to content online without downloading",
+      "translation": "스트리밍하다",
+      "example": "I usually stream movies instead of downloading them.",
+      "exampleTranslation": "저는 보통 영화를 다운로드하지 않고 스트리밍해요."
+    },
+    {
+      "id": "w15",
+      "word": "viral",
+      "pronunciation": "/ˈvaɪrəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "spreading quickly and widely online",
+      "translation": "바이럴, 입소문 나는",
+      "example": "The video went viral overnight.",
+      "exampleTranslation": "그 동영상이 하룻밤 사이에 입소문이 났어요."
+    },
+    {
+      "id": "w16",
+      "word": "reliable",
+      "pronunciation": "/rɪˈlaɪəbl/",
+      "partOfSpeech": "adjective",
+      "meaning": "able to be trusted",
+      "translation": "신뢰할 수 있는",
+      "example": "Is this website a reliable source of information?",
+      "exampleTranslation": "이 웹사이트는 신뢰할 수 있는 정보원인가요?"
+    },
+    {
+      "id": "w17",
+      "word": "fake news",
+      "pronunciation": "/feɪk njuːz/",
+      "partOfSpeech": "noun",
+      "meaning": "false information presented as real news",
+      "translation": "가짜 뉴스",
+      "example": "It's important to identify fake news online.",
+      "exampleTranslation": "온라인에서 가짜 뉴스를 식별하는 것이 중요해요."
+    },
+    {
+      "id": "w18",
+      "word": "influence",
+      "pronunciation": "/ˈɪnfluəns/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "the power to affect others' opinions or actions",
+      "translation": "영향; 영향을 주다",
+      "example": "Social media can influence public opinion.",
+      "exampleTranslation": "소셜 미디어는 여론에 영향을 줄 수 있어요."
+    },
+    {
+      "id": "w19",
+      "word": "addiction",
+      "pronunciation": "/əˈdɪkʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "the state of being unable to stop using something",
+      "translation": "중독",
+      "example": "Phone addiction is a growing problem.",
+      "exampleTranslation": "스마트폰 중독은 점점 커지는 문제예요."
+    },
+    {
+      "id": "w20",
+      "word": "digital",
+      "pronunciation": "/ˈdɪdʒɪtl/",
+      "partOfSpeech": "adjective",
+      "meaning": "relating to electronic technology",
+      "translation": "디지털의",
+      "example": "We live in a digital age.",
+      "exampleTranslation": "우리는 디지털 시대에 살아요."
+    },
+    {
+      "id": "w21",
+      "word": "browse",
+      "pronunciation": "/braʊz/",
+      "partOfSpeech": "verb",
+      "meaning": "to look at websites without a specific purpose",
+      "translation": "브라우징하다, 훑어보다",
+      "example": "I spent an hour just browsing online stores.",
+      "exampleTranslation": "온라인 쇼핑몰을 한 시간 동안 그냥 둘러봤어요."
+    },
+    {
+      "id": "w22",
+      "word": "subscribe",
+      "pronunciation": "/səbˈskraɪb/",
+      "partOfSpeech": "verb",
+      "meaning": "to sign up to receive content regularly",
+      "translation": "구독하다",
+      "example": "I subscribe to several YouTube channels.",
+      "exampleTranslation": "여러 유튜브 채널을 구독해요."
+    },
+    {
+      "id": "w23",
+      "word": "platform",
+      "pronunciation": "/ˈplætfɔːm/",
+      "partOfSpeech": "noun",
+      "meaning": "a website or app that provides a service",
+      "translation": "플랫폼",
+      "example": "Instagram is a popular social media platform.",
+      "exampleTranslation": "인스타그램은 인기 있는 소셜 미디어 플랫폼이에요."
+    },
+    {
+      "id": "w24",
+      "word": "algorithm",
+      "pronunciation": "/ˈælɡərɪðəm/",
+      "partOfSpeech": "noun",
+      "meaning": "a set of rules a computer follows to solve problems",
+      "translation": "알고리즘",
+      "example": "Social media algorithms decide what you see.",
+      "exampleTranslation": "소셜 미디어 알고리즘이 무엇을 볼지 결정해요."
+    },
+    {
+      "id": "w25",
+      "word": "cybersecurity",
+      "pronunciation": "/ˌsaɪbəsɪˈkjʊərɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "protection against online threats",
+      "translation": "사이버 보안",
+      "example": "Cybersecurity is more important than ever.",
+      "exampleTranslation": "사이버 보안은 그 어느 때보다 중요해요."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "I need to _____ the latest version of the app.",
+      "options": ["upload", "download", "browse", "stream"],
+      "answer": "download"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "You should create a strong _____ to protect your account.",
+      "answer": "password"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "The video went _____ and got millions of views.",
+      "options": ["digital", "viral", "reliable", "fake"],
+      "answer": "viral"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "I turned off my phone _____ because they were distracting me.",
+      "answer": "notifications"
+    },
+    {
+      "id": "ex5",
+      "type": "matching",
+      "pairs": [
+        {"word": "download", "match": "copy from internet to device"},
+        {"word": "upload", "match": "send from device to internet"},
+        {"word": "stream", "match": "watch without downloading"},
+        {"word": "browse", "match": "look around websites"}
+      ]
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "Is this website a _____ source of information?",
+      "options": ["viral", "digital", "reliable", "fake"],
+      "answer": "reliable"
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "Social media _____ like Instagram and TikTok are very popular.",
+      "answer": "platforms"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "_____ news can spread quickly on social media.",
+      "options": ["Real", "Fake", "Digital", "Viral"],
+      "answer": "Fake"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "I _____ to several news channels on YouTube.",
+      "answer": "subscribe"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "Phone _____ is becoming a serious problem for many people.",
+      "options": ["privacy", "addiction", "notification", "connection"],
+      "answer": "addiction"
+    }
+  ]
+}

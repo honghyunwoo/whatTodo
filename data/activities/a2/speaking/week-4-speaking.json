@@ -1,0 +1,30 @@
+{
+  "id": "week-4-speaking",
+  "weekId": "week-4",
+  "type": "speaking",
+  "level": "A2",
+  "title": "Health Conversations",
+  "description": "Practice talking about health problems and giving advice.",
+
+  "sentences": [
+    {"id": "s1", "text": "I don't feel well today.", "translation": "오늘 몸이 안 좋아요.", "tips": "'well'을 강조하고 약간 힘없는 톤으로 말하세요."},
+    {"id": "s2", "text": "I have a terrible headache.", "translation": "심한 두통이 있어요.", "tips": "'terrible'을 강조해서 상태가 심각함을 표현하세요."},
+    {"id": "s3", "text": "You should take some medicine.", "translation": "약을 좀 드셔야 해요.", "tips": "'should'를 사용하여 조언하는 톤으로 말하세요."},
+    {"id": "s4", "text": "I need to make a doctor's appointment.", "translation": "병원 예약을 해야 해요.", "tips": "'appointment'를 명확하게 발음하세요. /əˈpɔɪntmənt/"},
+    {"id": "s5", "text": "How long have you been feeling sick?", "translation": "언제부터 아팠어요?", "tips": "'How long'에 강세를 주고 관심을 표현하세요."},
+    {"id": "s6", "text": "You shouldn't go to work when you're sick.", "translation": "아플 때 출근하면 안 돼요.", "tips": "'shouldn't'를 명확하게 발음하여 조언을 전달하세요."},
+    {"id": "s7", "text": "I have to take this medicine three times a day.", "translation": "이 약을 하루에 세 번 먹어야 해요.", "tips": "'have to'로 의무를 표현하고 숫자를 명확하게 말하세요."},
+    {"id": "s8", "text": "Get well soon!", "translation": "빨리 나으세요!", "tips": "따뜻하고 진심 어린 톤으로 말하세요."},
+    {"id": "s9", "text": "I'm feeling better now, thank you.", "translation": "이제 좀 나아졌어요, 감사합니다.", "tips": "'better'에 긍정적인 톤을 담아 말하세요."},
+    {"id": "s10", "text": "You should drink lots of water and rest.", "translation": "물을 많이 마시고 쉬어야 해요.", "tips": "조언하는 톤으로 'water'와 'rest'를 강조하세요."},
+    {"id": "s11", "text": "Do I have to come back for a checkup?", "translation": "다시 검진 받으러 와야 하나요?", "tips": "'have to'와 'checkup'을 명확하게 발음하세요."},
+    {"id": "s12", "text": "I'm allergic to penicillin.", "translation": "저는 페니실린 알레르기가 있어요.", "tips": "'allergic'을 강조하고 약 이름을 정확하게 발음하세요."}
+  ],
+
+  "evaluationChecklist": [
+    {"category": "Pronunciation", "items": ["Did you pronounce medical terms correctly?", "Did you use appropriate tone for giving advice?", "Did you stress key words (should, have to)?"]},
+    {"category": "Fluency", "items": ["Did you speak without long pauses?", "Did you complete all sentences?", "Did you sound natural?"]},
+    {"category": "Accuracy", "items": ["Did you use 'should' and 'have to' correctly?", "Did you use the right grammar?"]},
+    {"category": "Communication", "items": ["Would a doctor understand you?", "Did you express concern appropriately?"]}
+  ]
+}

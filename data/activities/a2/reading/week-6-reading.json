@@ -1,0 +1,141 @@
+{
+  "id": "week-6-reading",
+  "weekId": "week-6",
+  "type": "reading",
+  "level": "A2",
+  "title": "Four Seasons in Korea",
+  "description": "Read about the seasons and weather in Korea.",
+
+  "passage": {
+    "text": "Korea has four distinct seasons, and each one has its own special beauty.\n\nSpring (March to May) is a wonderful time to visit Korea. The weather is mild and warm, with temperatures between 10 and 20 degrees Celsius. Cherry blossoms bloom in April, and many people go to parks to enjoy the flowers. Spring is not as hot as summer, so it's comfortable to walk outside.\n\nSummer (June to August) is hot and humid. July and August are the hottest months, with temperatures often reaching 30 degrees or higher. There's also a rainy season called 'jangma' in late June and July. Summer is the busiest time at beaches.\n\nAutumn (September to November) is many people's favorite season. The weather is cooler and drier than summer. The leaves change colors - red, orange, and yellow - creating beautiful landscapes. October is the best month for hiking because the weather is perfect.\n\nWinter (December to February) is cold and dry. January is the coldest month, with temperatures below zero. It snows several times during winter, especially in the mountains. Many Koreans go skiing or visit hot springs during this season.\n\nEach season offers different activities and experiences. Which season would you like to visit Korea?",
+    "wordCount": 205,
+    "estimatedReadingTime": 3
+  },
+
+  "vocabulary": [
+    {
+      "word": "distinct",
+      "meaning": "clearly different from each other",
+      "translation": "뚜렷한, 구별되는"
+    },
+    {
+      "word": "mild",
+      "meaning": "not too hot or cold",
+      "translation": "온화한"
+    },
+    {
+      "word": "bloom",
+      "meaning": "to produce flowers",
+      "translation": "꽃이 피다"
+    },
+    {
+      "word": "humid",
+      "meaning": "having a lot of water in the air",
+      "translation": "습한"
+    },
+    {
+      "word": "landscape",
+      "meaning": "the appearance of an area of land",
+      "translation": "풍경"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "How many distinct seasons does Korea have?",
+      "options": ["Two", "Three", "Four", "Five"],
+      "answer": "Four",
+      "explanation": "The passage says 'Korea has four distinct seasons.'"
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "What is the typical spring temperature in Korea?",
+      "options": ["0-10 degrees", "10-20 degrees", "20-30 degrees", "Below zero"],
+      "answer": "10-20 degrees",
+      "explanation": "The passage says 'temperatures between 10 and 20 degrees Celsius.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "When do cherry blossoms bloom in Korea?",
+      "options": ["March", "April", "May", "June"],
+      "answer": "April",
+      "explanation": "The passage says 'Cherry blossoms bloom in April.'"
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "question": "Summer in Korea is dry.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'Summer is hot and humid.'"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What is 'jangma'?",
+      "options": ["A type of flower", "A rainy season", "A winter festival", "A mountain"],
+      "answer": "A rainy season",
+      "explanation": "The passage says 'a rainy season called jangma.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "Which months are the hottest?",
+      "options": ["May and June", "June and July", "July and August", "August and September"],
+      "answer": "July and August",
+      "explanation": "The passage says 'July and August are the hottest months.'"
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "Autumn is many people's favorite season.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage says 'Autumn is many people's favorite season.'"
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "Why is October the best month for hiking?",
+      "options": ["Because it's hot", "Because the weather is perfect", "Because it snows", "Because of cherry blossoms"],
+      "answer": "Because the weather is perfect",
+      "explanation": "The passage says 'October is the best month for hiking because the weather is perfect.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "Which is the coldest month in Korea?",
+      "options": ["December", "January", "February", "March"],
+      "answer": "January",
+      "explanation": "The passage says 'January is the coldest month.'"
+    },
+    {
+      "id": "q10",
+      "type": "true_false",
+      "question": "Winter in Korea is humid.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'Winter is cold and dry.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What activities do Koreans do in winter? (Name one)",
+      "answer": "skiing",
+      "alternateAnswers": ["visit hot springs", "go skiing"],
+      "explanation": "The passage mentions 'skiing or visit hot springs.'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "How is autumn weather compared to summer?",
+      "options": ["Hotter and more humid", "Cooler and drier", "The same", "Colder and wetter"],
+      "answer": "Cooler and drier",
+      "explanation": "The passage says 'The weather is cooler and drier than summer.'"
+    }
+  ]
+}

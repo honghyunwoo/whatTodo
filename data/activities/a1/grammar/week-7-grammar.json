@@ -1,0 +1,233 @@
+{
+  "id": "week-7-grammar",
+  "weekId": "week-7",
+  "type": "grammar",
+  "level": "B2",
+  "title": "현재진행형과 미래시제",
+  "description": "현재진행형(Present Continuous)과 다양한 미래시제 표현을 학습합니다.",
+
+  "rules": [
+    {
+      "id": "rule1",
+      "rule": "현재진행형 (Present Continuous)",
+      "explanation": "현재 진행 중인 동작을 표현할 때 사용합니다. 'be동사 + 동사-ing' 형태를 사용합니다.",
+      "formula": "Subject + am/is/are + verb-ing",
+      "examples": [
+        {
+          "sentence": "I am studying English now.",
+          "translation": "나는 지금 영어를 공부하고 있다.",
+          "breakdown": "I (주어) + am (be동사) + studying (동사-ing)"
+        },
+        {
+          "sentence": "She is reading a book.",
+          "translation": "그녀는 책을 읽고 있다.",
+          "breakdown": "She (주어) + is (be동사) + reading (동사-ing)"
+        },
+        {
+          "sentence": "They are playing soccer.",
+          "translation": "그들은 축구를 하고 있다.",
+          "breakdown": "They (주어) + are (be동사) + playing (동사-ing)"
+        }
+      ],
+      "notes": "현재진행형은 현재 순간에 일어나고 있는 일, 임시적인 상황, 가까운 미래의 계획을 표현할 때도 사용됩니다."
+    },
+    {
+      "id": "rule2",
+      "rule": "동사-ing 형태 만들기",
+      "explanation": "동사에 -ing를 붙일 때 특별한 규칙이 있습니다.",
+      "formula": "verb + ing",
+      "examples": [
+        {
+          "sentence": "Most verbs: play → playing, study → studying",
+          "translation": "대부분의 동사: -ing를 그냥 붙임",
+          "breakdown": "일반적인 경우"
+        },
+        {
+          "sentence": "Verbs ending in 'e': make → making, write → writing",
+          "translation": "e로 끝나는 동사: e를 빼고 -ing",
+          "breakdown": "e 삭제 규칙"
+        },
+        {
+          "sentence": "Short verbs (CVC): run → running, swim → swimming",
+          "translation": "짧은 동사(자음+모음+자음): 마지막 자음을 한 번 더 쓰고 -ing",
+          "breakdown": "자음 이중 규칙"
+        }
+      ],
+      "notes": "CVC = Consonant + Vowel + Consonant (자음+모음+자음)"
+    },
+    {
+      "id": "rule3",
+      "rule": "will을 사용한 미래시제",
+      "explanation": "미래에 일어날 일, 즉흥적인 결정, 예측을 표현할 때 will을 사용합니다.",
+      "formula": "Subject + will + verb (base form)",
+      "examples": [
+        {
+          "sentence": "I will go to the party tomorrow.",
+          "translation": "나는 내일 파티에 갈 것이다.",
+          "breakdown": "I (주어) + will + go (동사 원형)"
+        },
+        {
+          "sentence": "It will rain tomorrow.",
+          "translation": "내일 비가 올 것이다.",
+          "breakdown": "예측을 표현"
+        },
+        {
+          "sentence": "I'll help you with that.",
+          "translation": "내가 그것을 도와줄게.",
+          "breakdown": "즉흥적인 결정"
+        }
+      ],
+      "notes": "will의 축약형은 'll입니다. (I will = I'll, He will = He'll)"
+    },
+    {
+      "id": "rule4",
+      "rule": "be going to를 사용한 미래시제",
+      "explanation": "계획된 미래, 의도, 명백한 징후가 있는 미래를 표현할 때 'be going to'를 사용합니다.",
+      "formula": "Subject + am/is/are + going to + verb",
+      "examples": [
+        {
+          "sentence": "I am going to study abroad next year.",
+          "translation": "나는 내년에 유학갈 계획이다.",
+          "breakdown": "미리 계획한 미래"
+        },
+        {
+          "sentence": "Look at those clouds! It's going to rain.",
+          "translation": "저 구름을 봐! 비가 올 것 같아.",
+          "breakdown": "명백한 징후"
+        },
+        {
+          "sentence": "We are going to visit Paris this summer.",
+          "translation": "우리는 이번 여름에 파리를 방문할 것이다.",
+          "breakdown": "계획된 여행"
+        }
+      ],
+      "notes": "'be going to'는 will보다 더 확실한 계획이나 의도를 나타냅니다."
+    },
+    {
+      "id": "rule5",
+      "rule": "현재진행형으로 미래 표현하기",
+      "explanation": "확정된 미래 계획을 현재진행형으로 표현할 수 있습니다.",
+      "formula": "Subject + am/is/are + verb-ing (+ time expression)",
+      "examples": [
+        {
+          "sentence": "I'm meeting John at 3 PM.",
+          "translation": "나는 오후 3시에 John을 만날 예정이다.",
+          "breakdown": "확정된 약속"
+        },
+        {
+          "sentence": "We're flying to Tokyo next week.",
+          "translation": "우리는 다음 주에 도쿄로 비행할 예정이다.",
+          "breakdown": "확정된 여행 계획"
+        },
+        {
+          "sentence": "She's starting her new job on Monday.",
+          "translation": "그녀는 월요일에 새 직장을 시작한다.",
+          "breakdown": "확정된 미래 일정"
+        }
+      ],
+      "notes": "미래를 나타내는 시간 표현(tomorrow, next week 등)과 함께 사용됩니다."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "fill_blank",
+      "question": "I _____ (watch) TV right now.",
+      "answer": "am watching",
+      "explanation": "현재 진행 중인 동작이므로 'am + watching'을 사용합니다."
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "She _____ (cook) dinner at the moment.",
+      "answer": "is cooking",
+      "explanation": "3인칭 단수 주어 She이므로 'is cooking'을 사용합니다."
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "They _____ to music now.",
+      "options": ["listen", "are listening", "listening", "is listening"],
+      "answer": "are listening",
+      "explanation": "They는 복수 주어이므로 'are listening'을 사용합니다."
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "What is the -ing form of 'run'?",
+      "answer": "running",
+      "explanation": "'run'은 짧은 동사(CVC)이므로 'n'을 한 번 더 쓰고 -ing를 붙입니다."
+    },
+    {
+      "id": "ex5",
+      "type": "fill_blank",
+      "question": "What is the -ing form of 'write'?",
+      "answer": "writing",
+      "explanation": "'write'는 e로 끝나므로 e를 빼고 -ing를 붙입니다."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "I _____ go to the party tomorrow.",
+      "options": ["will", "am", "going", "do"],
+      "answer": "will",
+      "explanation": "미래 계획을 표현할 때 'will + 동사 원형'을 사용합니다."
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "It _____ (rain) tomorrow. (prediction)",
+      "answer": "will rain",
+      "explanation": "미래 예측을 표현할 때 'will + 동사 원형'을 사용합니다."
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "I _____ (visit) my grandmother next week. (plan)",
+      "answer": "am going to visit",
+      "explanation": "미리 계획된 미래는 'be going to + 동사 원형'을 사용합니다."
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "Look at those dark clouds! It _____ rain.",
+      "options": ["will", "is going to", "rains", "is raining"],
+      "answer": "is going to",
+      "explanation": "명백한 징후가 있는 미래는 'be going to'를 사용합니다."
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "We _____ (fly) to London tomorrow. (confirmed plan)",
+      "answer": "are flying",
+      "explanation": "확정된 계획을 현재진행형으로 표현할 수 있습니다."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "Which sentence expresses a spontaneous decision?",
+      "options": [
+        "I'm going to help you.",
+        "I'll help you.",
+        "I help you.",
+        "I am helping you."
+      ],
+      "answer": "I'll help you.",
+      "explanation": "즉흥적인 결정은 'will'로 표현합니다."
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "Which sentence expresses a planned action?",
+      "options": [
+        "I will study tonight.",
+        "I am going to study tonight.",
+        "I study tonight.",
+        "I studied tonight."
+      ],
+      "answer": "I am going to study tonight.",
+      "explanation": "미리 계획된 행동은 'be going to'로 표현합니다."
+    }
+  ]
+}

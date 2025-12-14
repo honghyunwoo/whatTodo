@@ -1,11 +1,15 @@
 /**
  * UUID v4 생성 함수
- * crypto.randomUUID() 사용 (React Native에서 지원)
+ * 폴백 방식으로 안전하게 ID 생성
  */
 export function generateId(): string {
-  // React Native 환경에서 crypto.randomUUID() 지원
-  if (typeof crypto !== 'undefined' && crypto.randomUUID) {
-    return crypto.randomUUID();
+  // crypto.randomUUID() 안전하게 시도
+  try {
+    if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') {
+      return crypto.randomUUID();
+    }
+  } catch {
+    // 무시하고 폴백으로
   }
 
   // 폴백: 간단한 UUID v4 구현

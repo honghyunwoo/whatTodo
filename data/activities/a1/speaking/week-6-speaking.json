@@ -1,0 +1,126 @@
+{
+  "id": "week-6-speaking",
+  "weekId": "week-6",
+  "type": "speaking",
+  "level": "B1",
+  "title": "비교하며 말하기",
+  "description": "비교급과 최상급을 사용하여 사물과 사람을 비교하는 문장을 말해봅니다.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "My sister is taller than me.",
+      "translation": "내 여동생은 나보다 키가 더 크다.",
+      "tips": "'taller than'에서 'than'의 약한 발음에 주의하세요. /ðən/으로 짧고 자연스럽게 발음합니다."
+    },
+    {
+      "id": "s2",
+      "text": "This book is more interesting than that one.",
+      "translation": "이 책이 저 책보다 더 흥미롭다.",
+      "tips": "'more interesting'을 한 덩어리로 자연스럽게 연결하고, 'than'은 약하게 발음하세요."
+    },
+    {
+      "id": "s3",
+      "text": "New York is bigger than Boston.",
+      "translation": "뉴욕이 보스턴보다 더 크다.",
+      "tips": "'bigger'에서 -er 발음을 명확하게 하세요. /ˈbɪɡər/로 끝을 약하게 올립니다."
+    },
+    {
+      "id": "s4",
+      "text": "Today is hotter than yesterday.",
+      "translation": "오늘이 어제보다 더 덥다.",
+      "tips": "'hotter'에서 't' 소리를 두 번 강조하여 발음하세요. /ˈhɑːtər/."
+    },
+    {
+      "id": "s5",
+      "text": "English is easier than Chinese for me.",
+      "translation": "내게는 영어가 중국어보다 더 쉽다.",
+      "tips": "'easier'는 /ˈiːziər/로 발음하며, 'for me'는 부드럽게 연결하세요."
+    },
+    {
+      "id": "s6",
+      "text": "Mount Everest is the highest mountain in the world.",
+      "translation": "에베레스트산은 세계에서 가장 높은 산이다.",
+      "tips": "'the highest'를 강조하고, 'in the world'는 자연스럽게 이어서 발음하세요."
+    },
+    {
+      "id": "s7",
+      "text": "This is the most beautiful place I've ever seen.",
+      "translation": "이곳은 내가 본 곳 중에서 가장 아름다운 곳이다.",
+      "tips": "'the most beautiful'을 한 호흡으로 발음하고, 'beautiful'의 각 음절을 명확하게 하세요."
+    },
+    {
+      "id": "s8",
+      "text": "She is the best student in our class.",
+      "translation": "그녀는 우리 반에서 가장 우수한 학생이다.",
+      "tips": "'the best'를 강조하여 발음하고, 'student'의 't'는 약하게 발음하세요."
+    },
+    {
+      "id": "s9",
+      "text": "Summer is the hottest season of the year.",
+      "translation": "여름은 일 년 중 가장 더운 계절이다.",
+      "tips": "'the hottest'에서 't' 소리를 명확하게 발음하고, 'season'은 /ˈsiːzn/으로 발음하세요."
+    },
+    {
+      "id": "s10",
+      "text": "My car is as fast as yours.",
+      "translation": "내 차는 너의 차만큼 빠르다.",
+      "tips": "'as...as' 구문에서 두 'as'를 모두 약하게 /əz/로 발음하고, 'fast'를 강조하세요."
+    },
+    {
+      "id": "s11",
+      "text": "This test is not as difficult as the last one.",
+      "translation": "이번 시험은 지난번 시험만큼 어렵지 않다.",
+      "tips": "'not as...as'에서 'not'을 강조하고, 두 'as'는 약하게 발음하세요."
+    },
+    {
+      "id": "s12",
+      "text": "Learning a language is more challenging than I thought.",
+      "translation": "언어를 배우는 것은 내가 생각했던 것보다 더 어렵다.",
+      "tips": "'more challenging'을 부드럽게 연결하고, 'than I thought'는 자연스러운 억양으로 끝내세요."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "🔊 발음 및 억양",
+      "items": [
+        "비교급 어미(-er, more)를 명확하게 발음했나요?",
+        "최상급 어미(-est, most)를 정확하게 발음했나요?",
+        "'than'을 약하게 /ðən/으로 자연스럽게 발음했나요?",
+        "'the'를 최상급 앞에서 강조하여 발음했나요?",
+        "문장의 자연스러운 억양과 리듬을 유지했나요?"
+      ]
+    },
+    {
+      "category": "💬 유창성",
+      "items": [
+        "비교급 표현을 막힘 없이 말했나요?",
+        "최상급 표현을 자연스럽게 연결했나요?",
+        "as...as 구문을 유창하게 발음했나요?",
+        "적절한 곳에서 쉼을 두었나요?",
+        "전체 문장을 자신감 있게 완성했나요?"
+      ]
+    },
+    {
+      "category": "🎯 정확성",
+      "items": [
+        "비교급 형태(-er/more)를 정확하게 사용했나요?",
+        "최상급 형태(-est/most)를 올바르게 사용했나요?",
+        "불규칙 비교급(better, worse)을 정확하게 발음했나요?",
+        "'than'과 'the' 사용을 정확하게 했나요?",
+        "as...as 구문을 문법적으로 정확하게 말했나요?"
+      ]
+    },
+    {
+      "category": "😊 전달력",
+      "items": [
+        "비교의 의미를 명확하게 전달했나요?",
+        "강조해야 할 단어를 적절히 강조했나요?",
+        "듣는 사람이 비교 내용을 이해할 수 있게 말했나요?",
+        "자연스러운 속도로 말했나요?",
+        "모든 문장을 녹음하고 확인해봤나요?"
+      ]
+    }
+  ]
+}

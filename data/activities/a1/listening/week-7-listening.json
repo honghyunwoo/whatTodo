@@ -1,0 +1,206 @@
+{
+  "id": "week-7-listening",
+  "weekId": "week-7",
+  "type": "listening",
+  "level": "B2",
+  "title": "현재와 미래 계획 대화",
+  "description": "현재 진행 중인 일과 미래 계획에 대한 대화를 듣고 이해합니다.",
+
+  "audio": {
+    "text": "Hi Sarah! What are you doing right now?\n\nOh, hi Mike! I'm working on my presentation for tomorrow's meeting. It's taking longer than I expected.\n\nThat sounds stressful. Are you going to finish it today?\n\nI hope so. I'm planning to work on it for another two hours. What about you? What are you up to?\n\nI'm just relaxing at home. But I'm going to the gym later. I'm trying to exercise more regularly these days.\n\nThat's great! I should do that too. So, what are you doing this weekend?\n\nWell, I'm meeting some friends on Saturday. We're going to watch a movie and have dinner together. It'll be fun!\n\nNice! I'm visiting my parents this weekend. I haven't seen them for a month.\n\nOh, that will be lovely. Are you taking the train?\n\nNo, I'm driving. I'm leaving early Saturday morning. The traffic is usually lighter then.\n\nSounds like a good plan. By the way, did you hear about the company party next month?\n\nYes! I heard it's going to be at a fancy restaurant. I'm really looking forward to it.\n\nMe too! I think it will be a great opportunity to relax and socialize with everyone.\n\nDefinitely! Well, I should get back to my presentation now.\n\nOkay, good luck with that! I'll see you tomorrow at the office.",
+    "speed": 1.0
+  },
+
+  "dictation": {
+    "targetSentences": [
+      "I'm working on my presentation for tomorrow's meeting.",
+      "I'm planning to work on it for another two hours.",
+      "I'm going to the gym later.",
+      "We're going to watch a movie and have dinner together.",
+      "I'm visiting my parents this weekend.",
+      "I'm driving.",
+      "I'm leaving early Saturday morning.",
+      "I heard it's going to be at a fancy restaurant.",
+      "I'm really looking forward to it.",
+      "I think it will be a great opportunity to relax."
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is Sarah doing right now?",
+      "options": [
+        "Working on a presentation",
+        "Going to the gym",
+        "Meeting friends",
+        "Visiting her parents"
+      ],
+      "answer": "Working on a presentation",
+      "explanation": "Sarah는 현재 내일 회의를 위한 프레젠테이션 작업을 하고 있습니다."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Sarah's presentation is taking less time than she expected.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Sarah는 예상보다 시간이 더 걸리고 있다고 말했습니다. (It's taking longer than I expected.)"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "How long is Sarah planning to work on her presentation?",
+      "options": [
+        "One hour",
+        "Two hours",
+        "Three hours",
+        "Four hours"
+      ],
+      "answer": "Two hours",
+      "explanation": "Sarah는 앞으로 2시간 더 작업할 계획이라고 말했습니다."
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What is Mike doing at home?",
+      "options": [
+        "Working",
+        "Relaxing",
+        "Exercising",
+        "Cooking"
+      ],
+      "answer": "Relaxing",
+      "explanation": "Mike는 집에서 쉬고 있다고 말했습니다. (I'm just relaxing at home.)"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What is Mike going to do later?",
+      "options": [
+        "Work on presentation",
+        "Meet friends",
+        "Go to the gym",
+        "Visit parents"
+      ],
+      "answer": "Go to the gym",
+      "explanation": "Mike는 나중에 체육관에 갈 예정이라고 말했습니다."
+    },
+    {
+      "id": "q6",
+      "type": "true_false",
+      "question": "Mike is trying to exercise more regularly.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Mike는 요즘 더 규칙적으로 운동하려고 노력하고 있다고 말했습니다."
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What is Mike doing on Saturday?",
+      "options": [
+        "Working",
+        "Going to the gym",
+        "Meeting friends",
+        "Staying home"
+      ],
+      "answer": "Meeting friends",
+      "explanation": "Mike는 토요일에 친구들을 만날 예정이라고 말했습니다."
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "What are Mike and his friends going to do?",
+      "options": [
+        "Watch a movie and have dinner",
+        "Go to the gym",
+        "Visit the beach",
+        "Play sports"
+      ],
+      "answer": "Watch a movie and have dinner",
+      "explanation": "그들은 영화를 보고 함께 저녁을 먹을 예정입니다."
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What is Sarah doing this weekend?",
+      "options": [
+        "Meeting friends",
+        "Visiting her parents",
+        "Working",
+        "Going to the gym"
+      ],
+      "answer": "Visiting her parents",
+      "explanation": "Sarah는 이번 주말에 부모님을 방문할 예정입니다."
+    },
+    {
+      "id": "q10",
+      "type": "true_false",
+      "question": "Sarah hasn't seen her parents for a month.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Sarah는 한 달 동안 부모님을 보지 못했다고 말했습니다."
+    },
+    {
+      "id": "q11",
+      "type": "multiple_choice",
+      "question": "How is Sarah going to her parents' house?",
+      "options": [
+        "By train",
+        "By bus",
+        "By car (driving)",
+        "By plane"
+      ],
+      "answer": "By car (driving)",
+      "explanation": "Sarah는 운전해서 갈 예정이라고 말했습니다. (I'm driving.)"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "When is Sarah leaving?",
+      "options": [
+        "Friday evening",
+        "Saturday morning",
+        "Saturday afternoon",
+        "Sunday morning"
+      ],
+      "answer": "Saturday morning",
+      "explanation": "Sarah는 토요일 아침 일찍 출발할 예정입니다."
+    },
+    {
+      "id": "q13",
+      "type": "multiple_choice",
+      "question": "Where is the company party going to be?",
+      "options": [
+        "At the office",
+        "At a park",
+        "At a fancy restaurant",
+        "At someone's home"
+      ],
+      "answer": "At a fancy restaurant",
+      "explanation": "회사 파티는 고급 레스토랑에서 열릴 예정입니다."
+    },
+    {
+      "id": "q14",
+      "type": "true_false",
+      "question": "Sarah is looking forward to the company party.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Sarah는 회사 파티를 정말 기대하고 있다고 말했습니다. (I'm really looking forward to it.)"
+    },
+    {
+      "id": "q15",
+      "type": "multiple_choice",
+      "question": "Why does Sarah think the party will be good?",
+      "options": [
+        "Good food",
+        "Great opportunity to relax and socialize",
+        "Free drinks",
+        "Nice location"
+      ],
+      "answer": "Great opportunity to relax and socialize",
+      "explanation": "Mike는 파티가 모두와 함께 쉬고 교류할 좋은 기회가 될 것이라고 말했습니다."
+    }
+  ]
+}

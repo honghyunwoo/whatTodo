@@ -1,0 +1,323 @@
+{
+  "id": "week-5-vocab",
+  "weekId": "week-5",
+  "type": "vocabulary",
+  "level": "B2",
+  "title": "Arts & Entertainment",
+  "description": "Learn vocabulary for discussing art, music, film, literature, and cultural events.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "masterpiece",
+      "pronunciation": "/ˈmɑːstəpiːs/",
+      "meaning": "an outstanding work of art",
+      "translation": "걸작",
+      "example": "The painting is considered a masterpiece of Renaissance art.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w2",
+      "word": "genre",
+      "pronunciation": "/ˈʒɒnrə/",
+      "meaning": "a category of art or literature",
+      "translation": "장르",
+      "example": "Science fiction is my favorite film genre.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w3",
+      "word": "exhibition",
+      "pronunciation": "/ˌeksɪˈbɪʃn/",
+      "meaning": "a public display of art or objects",
+      "translation": "전시회",
+      "example": "The museum is hosting an exhibition of modern sculptures.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w4",
+      "word": "performance",
+      "pronunciation": "/pəˈfɔːməns/",
+      "meaning": "an act of presenting entertainment",
+      "translation": "공연",
+      "example": "The orchestra gave a stunning performance last night.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w5",
+      "word": "composer",
+      "pronunciation": "/kəmˈpəʊzər/",
+      "meaning": "a person who writes music",
+      "translation": "작곡가",
+      "example": "Beethoven is one of the greatest composers in history.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w6",
+      "word": "playwright",
+      "pronunciation": "/ˈpleɪraɪt/",
+      "meaning": "a person who writes plays",
+      "translation": "극작가",
+      "example": "Shakespeare is the most famous playwright in English literature.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w7",
+      "word": "sculpture",
+      "pronunciation": "/ˈskʌlptʃər/",
+      "meaning": "a three-dimensional work of art",
+      "translation": "조각",
+      "example": "The sculpture was carved from a single block of marble.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w8",
+      "word": "portrait",
+      "pronunciation": "/ˈpɔːtrət/",
+      "meaning": "a painting or photograph of a person",
+      "translation": "초상화",
+      "example": "The artist painted a beautiful portrait of the queen.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w9",
+      "word": "contemporary",
+      "pronunciation": "/kənˈtempərəri/",
+      "meaning": "belonging to the present time",
+      "translation": "현대의",
+      "example": "The gallery specializes in contemporary art.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w10",
+      "word": "abstract",
+      "pronunciation": "/ˈæbstrækt/",
+      "meaning": "not representing reality directly",
+      "translation": "추상적인",
+      "example": "Abstract art often focuses on shapes and colors rather than objects.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w11",
+      "word": "influential",
+      "pronunciation": "/ˌɪnfluˈenʃl/",
+      "meaning": "having great influence on others",
+      "translation": "영향력 있는",
+      "example": "Picasso was one of the most influential artists of the 20th century.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w12",
+      "word": "captivating",
+      "pronunciation": "/ˈkæptɪveɪtɪŋ/",
+      "meaning": "attracting and holding attention",
+      "translation": "매혹적인",
+      "example": "The film had a captivating storyline.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w13",
+      "word": "evocative",
+      "pronunciation": "/ɪˈvɒkətɪv/",
+      "meaning": "bringing strong feelings or memories to mind",
+      "translation": "연상시키는, 환기하는",
+      "example": "The music was evocative of summer days.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w14",
+      "word": "critically acclaimed",
+      "pronunciation": "/ˈkrɪtɪkli əˈkleɪmd/",
+      "meaning": "highly praised by critics",
+      "translation": "비평가들의 극찬을 받은",
+      "example": "The film was critically acclaimed but failed at the box office.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w15",
+      "word": "blockbuster",
+      "pronunciation": "/ˈblɒkbʌstər/",
+      "meaning": "a highly successful and popular production",
+      "translation": "블록버스터, 대흥행작",
+      "example": "The movie became the summer's biggest blockbuster.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w16",
+      "word": "premiere",
+      "pronunciation": "/ˈpremieər/",
+      "meaning": "the first public performance of a work",
+      "translation": "초연, 시사회",
+      "example": "The film had its world premiere at the festival.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w17",
+      "word": "interpret",
+      "pronunciation": "/ɪnˈtɜːprɪt/",
+      "meaning": "to explain the meaning of something",
+      "translation": "해석하다",
+      "example": "Critics interpret the painting as a commentary on society.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w18",
+      "word": "portray",
+      "pronunciation": "/pɔːˈtreɪ/",
+      "meaning": "to represent in a picture or performance",
+      "translation": "묘사하다",
+      "example": "The actor portrayed the historical figure brilliantly.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w19",
+      "word": "inspire",
+      "pronunciation": "/ɪnˈspaɪər/",
+      "meaning": "to fill with creative or emotional motivation",
+      "translation": "영감을 주다",
+      "example": "The landscape inspired many of her paintings.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w20",
+      "word": "depict",
+      "pronunciation": "/dɪˈpɪkt/",
+      "meaning": "to show or represent in a picture or words",
+      "translation": "그리다, 묘사하다",
+      "example": "The novel depicts life in rural Japan.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w21",
+      "word": "rehearse",
+      "pronunciation": "/rɪˈhɜːs/",
+      "meaning": "to practice for a public performance",
+      "translation": "리허설하다",
+      "example": "The cast rehearsed the play for weeks before opening night.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w22",
+      "word": "critique",
+      "pronunciation": "/krɪˈtiːk/",
+      "meaning": "a detailed analysis and assessment",
+      "translation": "비평",
+      "example": "The professor wrote a critique of the artist's work.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w23",
+      "word": "aesthetic",
+      "pronunciation": "/iːsˈθetɪk/",
+      "meaning": "relating to beauty or artistic taste",
+      "translation": "미적인",
+      "example": "The building has great aesthetic appeal.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w24",
+      "word": "soundtrack",
+      "pronunciation": "/ˈsaʊndtræk/",
+      "meaning": "the music accompanying a film",
+      "translation": "사운드트랙",
+      "example": "The soundtrack won an award for best original score.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w25",
+      "word": "narrative",
+      "pronunciation": "/ˈnærətɪv/",
+      "meaning": "a story or account of events",
+      "translation": "서사, 이야기",
+      "example": "The film has a complex narrative structure.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w26",
+      "word": "symbolism",
+      "pronunciation": "/ˈsɪmbəlɪzəm/",
+      "meaning": "the use of symbols to represent ideas",
+      "translation": "상징주의",
+      "example": "The director used symbolism throughout the film.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w27",
+      "word": "avant-garde",
+      "pronunciation": "/ˌævɒ̃ˈɡɑːd/",
+      "meaning": "new and experimental in style",
+      "translation": "아방가르드, 전위적인",
+      "example": "The artist is known for her avant-garde approach.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w28",
+      "word": "protagonist",
+      "pronunciation": "/prəˈtæɡənɪst/",
+      "meaning": "the main character in a story",
+      "translation": "주인공",
+      "example": "The protagonist struggles with moral dilemmas throughout the novel.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w29",
+      "word": "cinematography",
+      "pronunciation": "/ˌsɪnəməˈtɒɡrəfi/",
+      "meaning": "the art of photography and camera work in film",
+      "translation": "촬영술",
+      "example": "The cinematography was breathtaking.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w30",
+      "word": "versatile",
+      "pronunciation": "/ˈvɜːsətaɪl/",
+      "meaning": "able to adapt to many different functions",
+      "translation": "다재다능한",
+      "example": "She is a versatile actress who can play any role.",
+      "partOfSpeech": "adjective"
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "instruction": "Match the words with their definitions",
+      "pairs": [
+        { "word": "masterpiece", "definition": "an outstanding work of art" },
+        { "word": "protagonist", "definition": "the main character in a story" },
+        { "word": "avant-garde", "definition": "new and experimental in style" },
+        { "word": "premiere", "definition": "the first public performance of a work" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "instruction": "Complete the sentences with the correct words",
+      "sentences": [
+        { "sentence": "The museum is hosting a _____ of Impressionist paintings.", "answer": "exhibition" },
+        { "sentence": "The film was _____ by critics for its original storyline.", "answer": "critically acclaimed" },
+        { "sentence": "Beethoven is considered one of the greatest _____ of all time.", "answer": "composers" },
+        { "sentence": "The painting uses _____ to represent the passage of time.", "answer": "symbolism" }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "instruction": "Choose the best word to complete each sentence",
+      "questions": [
+        {
+          "question": "The actor gave a _____ performance that moved the audience to tears.",
+          "options": ["abstract", "captivating", "narrative", "versatile"],
+          "answer": "captivating"
+        },
+        {
+          "question": "The novel _____ life in 19th century London.",
+          "options": ["rehearses", "depicts", "premieres", "composes"],
+          "answer": "depicts"
+        }
+      ]
+    }
+  ]
+}

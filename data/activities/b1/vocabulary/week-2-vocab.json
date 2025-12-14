@@ -1,0 +1,343 @@
+{
+  "id": "week-2-vocab",
+  "weekId": "week-2",
+  "type": "vocabulary",
+  "level": "B1",
+  "title": "Plans & Future Predictions",
+  "description": "Learn vocabulary for talking about future plans, goals, and predictions.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "intention",
+      "pronunciation": "/ɪnˈtenʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "something you plan to do",
+      "translation": "의도, 계획",
+      "example": "My intention is to finish this project by Friday.",
+      "exampleTranslation": "제 계획은 금요일까지 이 프로젝트를 끝내는 거예요."
+    },
+    {
+      "id": "w2",
+      "word": "predict",
+      "pronunciation": "/prɪˈdɪkt/",
+      "partOfSpeech": "verb",
+      "meaning": "to say what will happen in the future",
+      "translation": "예측하다",
+      "example": "Experts predict that temperatures will rise.",
+      "exampleTranslation": "전문가들은 기온이 오를 것이라고 예측해요."
+    },
+    {
+      "id": "w3",
+      "word": "expect",
+      "pronunciation": "/ɪkˈspekt/",
+      "partOfSpeech": "verb",
+      "meaning": "to think something will happen",
+      "translation": "예상하다, 기대하다",
+      "example": "I expect the meeting to last about an hour.",
+      "exampleTranslation": "회의가 약 한 시간 정도 걸릴 것으로 예상해요."
+    },
+    {
+      "id": "w4",
+      "word": "arrange",
+      "pronunciation": "/əˈreɪndʒ/",
+      "partOfSpeech": "verb",
+      "meaning": "to organize or plan something",
+      "translation": "준비하다, 정리하다",
+      "example": "I've arranged a meeting with the client.",
+      "exampleTranslation": "고객과 미팅을 잡았어요."
+    },
+    {
+      "id": "w5",
+      "word": "schedule",
+      "pronunciation": "/ˈʃedjuːl/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "a plan for when things will happen",
+      "translation": "일정; 일정을 잡다",
+      "example": "What's your schedule for next week?",
+      "exampleTranslation": "다음 주 일정이 어떻게 돼요?"
+    },
+    {
+      "id": "w6",
+      "word": "deadline",
+      "pronunciation": "/ˈdedlaɪn/",
+      "partOfSpeech": "noun",
+      "meaning": "the last time when something must be done",
+      "translation": "마감일",
+      "example": "The deadline for the application is next Monday.",
+      "exampleTranslation": "지원 마감일은 다음 주 월요일이에요."
+    },
+    {
+      "id": "w7",
+      "word": "ambitious",
+      "pronunciation": "/æmˈbɪʃəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "having a strong desire to succeed",
+      "translation": "야심 있는, 패기 있는",
+      "example": "She has ambitious plans for her career.",
+      "exampleTranslation": "그녀는 경력에 대해 야심 찬 계획을 갖고 있어요."
+    },
+    {
+      "id": "w8",
+      "word": "realistic",
+      "pronunciation": "/ˌrɪəˈlɪstɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "based on facts and practical thinking",
+      "translation": "현실적인",
+      "example": "We need to set realistic goals.",
+      "exampleTranslation": "우리는 현실적인 목표를 세워야 해요."
+    },
+    {
+      "id": "w9",
+      "word": "postpone",
+      "pronunciation": "/pəʊstˈpəʊn/",
+      "partOfSpeech": "verb",
+      "meaning": "to delay something to a later time",
+      "translation": "연기하다",
+      "example": "They decided to postpone the meeting until next week.",
+      "exampleTranslation": "그들은 회의를 다음 주로 연기하기로 했어요."
+    },
+    {
+      "id": "w10",
+      "word": "cancel",
+      "pronunciation": "/ˈkænsəl/",
+      "partOfSpeech": "verb",
+      "meaning": "to decide that something will not happen",
+      "translation": "취소하다",
+      "example": "I had to cancel my appointment.",
+      "exampleTranslation": "약속을 취소해야 했어요."
+    },
+    {
+      "id": "w11",
+      "word": "confirm",
+      "pronunciation": "/kənˈfɜːm/",
+      "partOfSpeech": "verb",
+      "meaning": "to say that something is definitely true or will happen",
+      "translation": "확인하다",
+      "example": "Can you confirm your attendance?",
+      "exampleTranslation": "참석 여부를 확인해 주실 수 있나요?"
+    },
+    {
+      "id": "w12",
+      "word": "priority",
+      "pronunciation": "/praɪˈɒrɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "something that is more important than other things",
+      "translation": "우선순위",
+      "example": "My top priority is finishing my degree.",
+      "exampleTranslation": "제 최우선 과제는 학위를 마치는 거예요."
+    },
+    {
+      "id": "w13",
+      "word": "possibility",
+      "pronunciation": "/ˌpɒsəˈbɪlɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "something that might happen or be true",
+      "translation": "가능성",
+      "example": "There's a possibility that it will rain tomorrow.",
+      "exampleTranslation": "내일 비가 올 가능성이 있어요."
+    },
+    {
+      "id": "w14",
+      "word": "probably",
+      "pronunciation": "/ˈprɒbəbli/",
+      "partOfSpeech": "adverb",
+      "meaning": "used to say something is likely",
+      "translation": "아마도",
+      "example": "I'll probably arrive around 7 o'clock.",
+      "exampleTranslation": "아마 7시쯤 도착할 거예요."
+    },
+    {
+      "id": "w15",
+      "word": "definitely",
+      "pronunciation": "/ˈdefɪnɪtli/",
+      "partOfSpeech": "adverb",
+      "meaning": "without doubt; certainly",
+      "translation": "분명히, 확실히",
+      "example": "I'll definitely be there tomorrow.",
+      "exampleTranslation": "내일 확실히 갈 거예요."
+    },
+    {
+      "id": "w16",
+      "word": "unlikely",
+      "pronunciation": "/ʌnˈlaɪkli/",
+      "partOfSpeech": "adjective",
+      "meaning": "not likely to happen",
+      "translation": "가능성이 낮은",
+      "example": "It's unlikely that we'll finish today.",
+      "exampleTranslation": "오늘 끝내기는 어려울 것 같아요."
+    },
+    {
+      "id": "w17",
+      "word": "inevitable",
+      "pronunciation": "/ɪnˈevɪtəbl/",
+      "partOfSpeech": "adjective",
+      "meaning": "certain to happen; unavoidable",
+      "translation": "불가피한, 필연적인",
+      "example": "Change is inevitable in any organization.",
+      "exampleTranslation": "어느 조직에서든 변화는 불가피해요."
+    },
+    {
+      "id": "w18",
+      "word": "upcoming",
+      "pronunciation": "/ˈʌpkʌmɪŋ/",
+      "partOfSpeech": "adjective",
+      "meaning": "happening soon",
+      "translation": "다가오는, 곧 있을",
+      "example": "Are you ready for the upcoming exam?",
+      "exampleTranslation": "다가오는 시험 준비 됐어요?"
+    },
+    {
+      "id": "w19",
+      "word": "eventually",
+      "pronunciation": "/ɪˈventʃuəli/",
+      "partOfSpeech": "adverb",
+      "meaning": "in the end; after a period of time",
+      "translation": "결국, 마침내",
+      "example": "Eventually, I want to start my own business.",
+      "exampleTranslation": "결국에는 제 사업을 시작하고 싶어요."
+    },
+    {
+      "id": "w20",
+      "word": "in advance",
+      "pronunciation": "/ɪn ədˈvɑːns/",
+      "partOfSpeech": "phrase",
+      "meaning": "before something happens",
+      "translation": "미리, 사전에",
+      "example": "Please book tickets in advance.",
+      "exampleTranslation": "미리 티켓을 예약해 주세요."
+    },
+    {
+      "id": "w21",
+      "word": "forecast",
+      "pronunciation": "/ˈfɔːkɑːst/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "a statement about what will happen in the future",
+      "translation": "예보, 예측",
+      "example": "The weather forecast says it will be sunny.",
+      "exampleTranslation": "일기예보에서 맑을 거라고 해요."
+    },
+    {
+      "id": "w22",
+      "word": "anticipate",
+      "pronunciation": "/ænˈtɪsɪpeɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "to expect something to happen",
+      "translation": "예상하다, 기대하다",
+      "example": "We anticipate high demand for this product.",
+      "exampleTranslation": "이 제품에 대한 높은 수요를 예상해요."
+    },
+    {
+      "id": "w23",
+      "word": "commitment",
+      "pronunciation": "/kəˈmɪtmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "a promise to do something; dedication",
+      "translation": "헌신, 약속",
+      "example": "I've made a commitment to exercise every day.",
+      "exampleTranslation": "매일 운동하겠다고 다짐했어요."
+    },
+    {
+      "id": "w24",
+      "word": "aim",
+      "pronunciation": "/eɪm/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "purpose; to plan or intend",
+      "translation": "목표; 목표로 하다",
+      "example": "My aim is to become fluent in English.",
+      "exampleTranslation": "제 목표는 영어를 유창하게 하는 거예요."
+    },
+    {
+      "id": "w25",
+      "word": "estimate",
+      "pronunciation": "/ˈestɪmeɪt/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to guess the size, cost, or time of something",
+      "translation": "추정하다; 추정치",
+      "example": "I estimate the project will take three months.",
+      "exampleTranslation": "프로젝트가 3개월 정도 걸릴 것으로 예상해요."
+    },
+    {
+      "id": "w26",
+      "word": "tend to",
+      "pronunciation": "/tend tuː/",
+      "partOfSpeech": "phrase",
+      "meaning": "to usually do something",
+      "translation": "~하는 경향이 있다",
+      "example": "Prices tend to rise in summer.",
+      "exampleTranslation": "가격은 여름에 오르는 경향이 있어요."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "What's the _____ for submitting the application?",
+      "options": ["schedule", "deadline", "forecast", "estimate"],
+      "answer": "deadline"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "The meeting has been _____ until next week.",
+      "answer": "postponed"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "Experts _____ that technology will change our lives dramatically.",
+      "options": ["cancel", "confirm", "predict", "arrange"],
+      "answer": "predict"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "I'll _____ be there by 6 o'clock - I promise.",
+      "answer": "definitely"
+    },
+    {
+      "id": "ex5",
+      "type": "matching",
+      "pairs": [
+        {"word": "ambitious", "match": "having big goals"},
+        {"word": "realistic", "match": "based on facts"},
+        {"word": "unlikely", "match": "probably won't happen"},
+        {"word": "inevitable", "match": "certain to happen"}
+      ]
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "Please book your tickets _____.",
+      "options": ["in advance", "in meanwhile", "in time", "in moment"],
+      "answer": "in advance"
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "My top _____ is finishing my education.",
+      "answer": "priority"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "Can you _____ your attendance by Friday?",
+      "options": ["cancel", "postpone", "confirm", "forecast"],
+      "answer": "confirm"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "There's a _____ that the event will be cancelled.",
+      "answer": "possibility"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "We _____ high demand during the holiday season.",
+      "options": ["anticipate", "postpone", "cancel", "schedule"],
+      "answer": "anticipate"
+    }
+  ]
+}

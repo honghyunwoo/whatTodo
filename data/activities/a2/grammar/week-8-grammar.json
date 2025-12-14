@@ -1,0 +1,224 @@
+{
+  "id": "week-8-grammar",
+  "weekId": "week-8",
+  "type": "grammar",
+  "level": "A2",
+  "title": "Prepositions of Place and Giving Directions",
+  "description": "Learn prepositions to describe locations and give directions.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Prepositions of Place",
+      "explanation": "Use these prepositions to describe where things are located.",
+      "prepositions": [
+        {"word": "in", "use": "inside an area or space"},
+        {"word": "on", "use": "on a surface or street"},
+        {"word": "at", "use": "a specific point or address"},
+        {"word": "next to / beside", "use": "at the side of"},
+        {"word": "between", "use": "in the middle of two things"},
+        {"word": "opposite / across from", "use": "on the other side"}
+      ],
+      "examples": [
+        {
+          "sentence": "The bank is on Main Street.",
+          "translation": "은행은 메인 스트리트에 있어요.",
+          "note": "'on' for streets"
+        },
+        {
+          "sentence": "The cafe is at the corner.",
+          "translation": "카페는 모퉁이에 있어요.",
+          "note": "'at' for specific point"
+        },
+        {
+          "sentence": "The pharmacy is opposite the station.",
+          "translation": "약국은 역 맞은편에 있어요.",
+          "note": "'opposite' for across"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Imperative for Directions",
+      "explanation": "Use the base form of the verb (imperative) to give directions.",
+      "structure": "Verb + (object/direction)",
+      "examples": [
+        {
+          "sentence": "Go straight for two blocks.",
+          "translation": "두 블록 직진하세요.",
+          "note": "go + direction"
+        },
+        {
+          "sentence": "Turn left at the intersection.",
+          "translation": "교차로에서 좌회전하세요.",
+          "note": "turn + left/right"
+        },
+        {
+          "sentence": "Cross the street at the crosswalk.",
+          "translation": "횡단보도에서 길을 건너세요.",
+          "note": "cross + object"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Questions for Asking Directions",
+      "explanation": "Use these patterns to politely ask for directions.",
+      "patterns": [
+        "How do I get to...?",
+        "Where is the...?",
+        "Can you tell me how to get to...?",
+        "Is there a... near here?",
+        "Excuse me, I'm looking for..."
+      ],
+      "examples": [
+        {
+          "sentence": "How do I get to the museum?",
+          "translation": "박물관에 어떻게 가나요?",
+          "note": "Common direction question"
+        },
+        {
+          "sentence": "Is there a pharmacy near here?",
+          "translation": "이 근처에 약국이 있나요?",
+          "note": "Asking about nearby places"
+        },
+        {
+          "sentence": "Can you tell me how to get to the station?",
+          "translation": "역에 가는 길을 알려 주실 수 있나요?",
+          "note": "Polite request"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Describing Distance",
+      "explanation": "Use these expressions to describe how far something is.",
+      "expressions": [
+        "It's about [time/distance] from here.",
+        "It's [number] blocks away.",
+        "It's a [time] walk/drive.",
+        "It's not far. / It's quite far."
+      ],
+      "examples": [
+        {
+          "sentence": "It's about 10 minutes from here.",
+          "translation": "여기서 약 10분 거리예요.",
+          "note": "Time-based distance"
+        },
+        {
+          "sentence": "The library is three blocks away.",
+          "translation": "도서관은 세 블록 떨어져 있어요.",
+          "note": "Block-based distance"
+        },
+        {
+          "sentence": "It's a 5-minute walk from the station.",
+          "translation": "역에서 걸어서 5분 거리예요.",
+          "note": "Walking time"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Sequencing Words for Directions",
+      "explanation": "Use these words to give step-by-step directions.",
+      "sequence_words": ["First", "Then", "After that", "When you see...", "Finally"],
+      "examples": [
+        {
+          "sentence": "First, go straight. Then, turn left at the bank.",
+          "translation": "먼저 직진하세요. 그런 다음 은행에서 좌회전하세요.",
+          "note": "First, Then"
+        },
+        {
+          "sentence": "When you see the hospital, turn right.",
+          "translation": "병원이 보이면 우회전하세요.",
+          "note": "When you see..."
+        },
+        {
+          "sentence": "After that, walk for two more blocks. Finally, you'll see it on your left.",
+          "translation": "그 후에 두 블록 더 걸으세요. 마지막으로 왼쪽에 보일 거예요.",
+          "note": "After that, Finally"
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "The bank is _____ Main Street.",
+      "options": ["in", "on", "at", "to"],
+      "answer": "on"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "The cafe is _____ the bookstore and the bank.",
+      "answer": "between"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "_____ do I get to the museum?",
+      "options": ["What", "Where", "How", "When"],
+      "answer": "How"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "_____ straight for two blocks.",
+      "answer": "Go"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "The pharmacy is _____ the supermarket. (across)",
+      "options": ["next to", "between", "opposite", "behind"],
+      "answer": "opposite"
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "Is there a subway station _____ here?",
+      "answer": "near"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "_____ left at the traffic light.",
+      "options": ["Go", "Turn", "Walk", "Pass"],
+      "answer": "Turn"
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "It's about a 10-minute _____ from here.",
+      "answer": "walk"
+    },
+    {
+      "id": "ex9",
+      "type": "reorder",
+      "question": "Put in order: the / is / corner / on / cafe / the",
+      "answer": "The cafe is on the corner."
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "Choose the correct direction: 'First, _____. Then, turn right.'",
+      "options": ["go straight", "going straight", "went straight", "to go straight"],
+      "answer": "go straight"
+    },
+    {
+      "id": "ex11",
+      "type": "fill_blank",
+      "question": "The library is three blocks _____.",
+      "answer": "away"
+    },
+    {
+      "id": "ex12",
+      "type": "reorder",
+      "question": "Put in order: you / how / get / do / the station / to",
+      "answer": "How do you get to the station?"
+    }
+  ]
+}

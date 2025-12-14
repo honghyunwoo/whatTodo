@@ -1,0 +1,102 @@
+{
+  "id": "week-1-listening",
+  "weekId": "week-1",
+  "type": "listening",
+  "level": "A2",
+  "title": "At the Airport",
+  "description": "Listen to a conversation at an airport check-in counter.",
+
+  "audio": {
+    "text": "Staff: Good morning! Where are you flying to today? [PAUSE] Customer: Good morning. I'm flying to Tokyo. Here's my passport and booking confirmation. [PAUSE] Staff: Thank you. Do you have any luggage to check in? [PAUSE] Customer: Yes, I have one suitcase. [PAUSE] Staff: Okay. Your suitcase is 22 kilograms. That's within the limit. Would you like a window seat or an aisle seat? [PAUSE] Customer: A window seat, please. I like looking at the clouds. [PAUSE] Staff: Of course. Here's your boarding pass. Your flight departs from gate 15 at 2:30 PM. Boarding starts at 2:00 PM. [PAUSE] Customer: Thank you. Is there any delay today? [PAUSE] Staff: No, all flights are on time today. Have a pleasant journey!",
+    "speed": 0.8
+  },
+
+  "dictation": {
+    "targetSentences": [
+      "Where are you flying to today?",
+      "I have one suitcase.",
+      "Your flight departs from gate 15."
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "Where is the customer flying to?",
+      "options": ["Tokyo", "Seoul", "Beijing", "Bangkok"],
+      "answer": "Tokyo",
+      "explanation": "The customer said 'I'm flying to Tokyo.'"
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "How many bags does the customer check in?",
+      "options": ["One", "Two", "Three", "None"],
+      "answer": "One",
+      "explanation": "The customer said 'I have one suitcase.'"
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "question": "How heavy is the suitcase? (number only)",
+      "answer": "22",
+      "explanation": "The suitcase weighs 22 kilograms."
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What type of seat does the customer want?",
+      "options": ["Window seat", "Aisle seat", "Middle seat", "Any seat"],
+      "answer": "Window seat",
+      "explanation": "The customer requested a window seat because they like looking at clouds."
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "question": "What gate is the flight departing from? (number only)",
+      "answer": "15",
+      "explanation": "The flight departs from gate 15."
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What time does the flight depart?",
+      "options": ["2:30 PM", "2:00 PM", "3:00 PM", "1:30 PM"],
+      "answer": "2:30 PM",
+      "explanation": "The flight departs at 2:30 PM."
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What time does boarding start?",
+      "options": ["2:00 PM", "2:30 PM", "1:30 PM", "3:00 PM"],
+      "answer": "2:00 PM",
+      "explanation": "Boarding starts at 2:00 PM, 30 minutes before departure."
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "There is a flight delay today.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The staff said 'No, all flights are on time today.'"
+    },
+    {
+      "id": "q9",
+      "type": "true_false",
+      "question": "The customer's luggage was over the weight limit.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The staff said the suitcase is 'within the limit.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What documents did the customer show?",
+      "options": ["Passport and booking confirmation", "ID card only", "Credit card", "Driver's license"],
+      "answer": "Passport and booking confirmation",
+      "explanation": "The customer said 'Here's my passport and booking confirmation.'"
+    }
+  ]
+}

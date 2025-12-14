@@ -1,0 +1,308 @@
+{
+  "id": "week-3-vocab",
+  "weekId": "week-3",
+  "type": "vocabulary",
+  "level": "A2",
+  "title": "과거 활동 표현",
+  "description": "과거에 했던 활동과 경험을 표현하는 동사의 과거형을 배웁니다.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "Went",
+      "pronunciation": "/went/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "갔다 (go의 과거)",
+      "example": "I went to the park yesterday.",
+      "exampleMeaning": "나는 어제 공원에 갔다."
+    },
+    {
+      "id": "w2",
+      "word": "Ate",
+      "pronunciation": "/eɪt/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "먹었다 (eat의 과거)",
+      "example": "We ate pizza for dinner.",
+      "exampleMeaning": "우리는 저녁으로 피자를 먹었다."
+    },
+    {
+      "id": "w3",
+      "word": "Saw",
+      "pronunciation": "/sɔː/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "봤다 (see의 과거)",
+      "example": "I saw a movie last night.",
+      "exampleMeaning": "나는 어젯밤에 영화를 봤다."
+    },
+    {
+      "id": "w4",
+      "word": "Had",
+      "pronunciation": "/hæd/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "가졌다, 먹었다 (have의 과거)",
+      "example": "She had a good time.",
+      "exampleMeaning": "그녀는 좋은 시간을 보냈다."
+    },
+    {
+      "id": "w5",
+      "word": "Did",
+      "pronunciation": "/dɪd/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "했다 (do의 과거)",
+      "example": "I did my homework.",
+      "exampleMeaning": "나는 숙제를 했다."
+    },
+    {
+      "id": "w6",
+      "word": "Played",
+      "pronunciation": "/pleɪd/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "놀았다, 했다 (play의 과거)",
+      "example": "We played basketball.",
+      "exampleMeaning": "우리는 농구를 했다."
+    },
+    {
+      "id": "w7",
+      "word": "Watched",
+      "pronunciation": "/wɑːtʃt/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "봤다 (watch의 과거)",
+      "example": "They watched TV.",
+      "exampleMeaning": "그들은 TV를 봤다."
+    },
+    {
+      "id": "w8",
+      "word": "Visited",
+      "pronunciation": "/ˈvɪzɪtɪd/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "방문했다 (visit의 과거)",
+      "example": "I visited my grandparents.",
+      "exampleMeaning": "나는 조부모님을 방문했다."
+    },
+    {
+      "id": "w9",
+      "word": "Made",
+      "pronunciation": "/meɪd/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "만들었다 (make의 과거)",
+      "example": "She made a cake.",
+      "exampleMeaning": "그녀는 케이크를 만들었다."
+    },
+    {
+      "id": "w10",
+      "word": "Took",
+      "pronunciation": "/tʊk/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "가져갔다, 탔다 (take의 과거)",
+      "example": "I took the bus.",
+      "exampleMeaning": "나는 버스를 탔다."
+    },
+    {
+      "id": "w11",
+      "word": "Bought",
+      "pronunciation": "/bɔːt/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "샀다 (buy의 과거)",
+      "example": "He bought a new phone.",
+      "exampleMeaning": "그는 새 휴대폰을 샀다."
+    },
+    {
+      "id": "w12",
+      "word": "Came",
+      "pronunciation": "/keɪm/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "왔다 (come의 과거)",
+      "example": "They came to my house.",
+      "exampleMeaning": "그들은 우리 집에 왔다."
+    },
+    {
+      "id": "w13",
+      "word": "Studied",
+      "pronunciation": "/ˈstʌdid/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "공부했다 (study의 과거)",
+      "example": "I studied English last night.",
+      "exampleMeaning": "나는 어젯밤에 영어를 공부했다."
+    },
+    {
+      "id": "w14",
+      "word": "Talked",
+      "pronunciation": "/tɔːkt/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "말했다 (talk의 과거)",
+      "example": "We talked about the movie.",
+      "exampleMeaning": "우리는 영화에 대해 이야기했다."
+    },
+    {
+      "id": "w15",
+      "word": "Yesterday",
+      "pronunciation": "/ˈjestərdeɪ/",
+      "partOfSpeech": "adverb",
+      "meaning": "어제",
+      "example": "I went shopping yesterday.",
+      "exampleMeaning": "나는 어제 쇼핑을 갔다."
+    },
+    {
+      "id": "w16",
+      "word": "Last night",
+      "pronunciation": "/læst naɪt/",
+      "partOfSpeech": "phrase",
+      "meaning": "어젯밤",
+      "example": "I slept well last night.",
+      "exampleMeaning": "나는 어젯밤에 잘 잤다."
+    },
+    {
+      "id": "w17",
+      "word": "Last week",
+      "pronunciation": "/læst wiːk/",
+      "partOfSpeech": "phrase",
+      "meaning": "지난주",
+      "example": "I saw him last week.",
+      "exampleMeaning": "나는 지난주에 그를 봤다."
+    },
+    {
+      "id": "w18",
+      "word": "Last weekend",
+      "pronunciation": "/læst ˈwiːkend/",
+      "partOfSpeech": "phrase",
+      "meaning": "지난 주말",
+      "example": "We went hiking last weekend.",
+      "exampleMeaning": "우리는 지난 주말에 하이킹을 갔다."
+    },
+    {
+      "id": "w19",
+      "word": "Ago",
+      "pronunciation": "/əˈɡoʊ/",
+      "partOfSpeech": "adverb",
+      "meaning": "전에",
+      "example": "Two days ago, I met her.",
+      "exampleMeaning": "이틀 전에, 나는 그녀를 만났다."
+    },
+    {
+      "id": "w20",
+      "word": "Was/Were",
+      "pronunciation": "/wɑːz/ /wɜːr/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "~였다/~이었다 (be의 과거)",
+      "example": "I was happy. They were tired.",
+      "exampleMeaning": "나는 행복했다. 그들은 피곤했다."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'go'?",
+      "options": ["Goed", "Went", "Gone", "Goes"],
+      "answer": "Went",
+      "explanation": "'go'의 과거형은 불규칙 동사로 'went'입니다."
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "Which word means '먹었다'?",
+      "options": ["Eat", "Ate", "Eaten", "Eats"],
+      "answer": "Ate",
+      "explanation": "'eat'의 과거형은 'ate'입니다."
+    },
+    {
+      "id": "ex3",
+      "type": "fill_blank",
+      "question": "I ___ a movie yesterday. (see의 과거형)",
+      "answer": ["saw"],
+      "explanation": "'see'의 과거형은 'saw'입니다."
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "She ___ her homework. (do의 과거형)",
+      "answer": ["did"],
+      "explanation": "'do'의 과거형은 'did'입니다."
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "What does 'yesterday' mean?",
+      "options": ["오늘", "어제", "내일", "지금"],
+      "answer": "어제",
+      "explanation": "'yesterday'는 '어제'라는 뜻입니다."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "Which is the past tense of 'play'?",
+      "options": ["Play", "Played", "Playing", "Plays"],
+      "answer": "Played",
+      "explanation": "'play'는 규칙 동사로 '-ed'를 붙여 'played'가 됩니다."
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "We ___ basketball last weekend. (play의 과거형)",
+      "answer": ["played"],
+      "explanation": "'play'의 과거형은 'played'입니다."
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'have'?",
+      "options": ["Haved", "Had", "Has", "Having"],
+      "answer": "Had",
+      "explanation": "'have'의 과거형은 불규칙 동사로 'had'입니다."
+    },
+    {
+      "id": "ex9",
+      "type": "matching",
+      "question": "Match the present with past tense:",
+      "options": ["go", "eat", "see", "make"],
+      "answer": ["went", "ate", "saw", "made"],
+      "explanation": "각 동사의 현재형과 과거형을 연결합니다."
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "I ___ a new book. (buy의 과거형)",
+      "answer": ["bought"],
+      "explanation": "'buy'의 과거형은 'bought'입니다."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "Which phrase means '지난주'?",
+      "options": ["Last week", "Next week", "This week", "Every week"],
+      "answer": "Last week",
+      "explanation": "'last week'는 '지난주'라는 뜻입니다."
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "They ___ to my house. (come의 과거형)",
+      "answer": ["came"],
+      "explanation": "'come'의 과거형은 'came'입니다."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "What does 'ago' mean?",
+      "options": ["지금", "전에", "후에", "동안"],
+      "answer": "전에",
+      "explanation": "'ago'는 '~전에'라는 뜻입니다. (예: two days ago = 이틀 전에)"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'make'?",
+      "options": ["Maked", "Made", "Makes", "Making"],
+      "answer": "Made",
+      "explanation": "'make'의 과거형은 'made'입니다."
+    },
+    {
+      "id": "ex15",
+      "type": "fill_blank",
+      "question": "I ___ happy yesterday. (be동사의 과거형 - I)",
+      "answer": ["was"],
+      "explanation": "'I'의 be동사 과거형은 'was'입니다."
+    }
+  ]
+}

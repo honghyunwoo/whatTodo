@@ -1,0 +1,139 @@
+{
+  "id": "week-5-speaking",
+  "weekId": "week-5",
+  "type": "speaking",
+  "level": "B1",
+  "title": "Discussing Environmental Issues",
+  "description": "Practice talking about environmental problems and solutions.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "I think climate change is one of the biggest problems we face today.",
+      "translation": "저는 기후 변화가 오늘날 우리가 직면한 가장 큰 문제 중 하나라고 생각해요.",
+      "tips": "'one of the biggest'를 강조하세요."
+    },
+    {
+      "id": "s2",
+      "text": "The more we recycle, the less waste goes to landfill.",
+      "translation": "우리가 더 많이 재활용할수록 매립지로 가는 쓰레기가 줄어들어요.",
+      "tips": "'The more... the less' 구조를 자연스럽게 연결하세요."
+    },
+    {
+      "id": "s3",
+      "text": "Plastic pollution is much worse than people realize.",
+      "translation": "플라스틱 오염은 사람들이 생각하는 것보다 훨씬 심각해요.",
+      "tips": "'much worse'를 강조해서 정도의 차이를 표현하세요."
+    },
+    {
+      "id": "s4",
+      "text": "Using public transport is far better for the environment than driving.",
+      "translation": "대중교통을 이용하는 것이 운전하는 것보다 환경에 훨씬 좋아요.",
+      "tips": "'far better'로 큰 차이를 표현하세요."
+    },
+    {
+      "id": "s5",
+      "text": "Solar energy is becoming more and more affordable.",
+      "translation": "태양 에너지가 점점 더 저렴해지고 있어요.",
+      "tips": "'more and more'로 점진적 변화를 표현하세요."
+    },
+    {
+      "id": "s6",
+      "text": "In my opinion, everyone should try to reduce their carbon footprint.",
+      "translation": "제 생각에는 모든 사람이 탄소 발자국을 줄이려고 노력해야 해요.",
+      "tips": "'In my opinion'으로 의견을 시작하세요."
+    },
+    {
+      "id": "s7",
+      "text": "Reusable bags are not as convenient as plastic bags, but they're much better for the planet.",
+      "translation": "재사용 가방은 비닐봉지만큼 편리하지 않지만, 지구에 훨씬 좋아요.",
+      "tips": "'not as...as'와 'much better'를 대조하여 사용하세요."
+    },
+    {
+      "id": "s8",
+      "text": "The weather is getting more extreme year after year.",
+      "translation": "날씨가 해마다 더 극단적으로 변하고 있어요.",
+      "tips": "'year after year'로 반복적인 변화를 표현하세요."
+    },
+    {
+      "id": "s9",
+      "text": "Have you ever thought about reducing your meat consumption?",
+      "translation": "육류 섭취를 줄이는 것에 대해 생각해 본 적 있어요?",
+      "tips": "'Have you ever'로 경험을 물어보세요. 의문문 억양으로 끝내세요."
+    },
+    {
+      "id": "s10",
+      "text": "I've been trying to use less plastic recently.",
+      "translation": "저는 최근에 플라스틱을 덜 사용하려고 노력하고 있어요.",
+      "tips": "현재완료진행형으로 최근의 노력을 표현하세요."
+    },
+    {
+      "id": "s11",
+      "text": "If we don't act now, the situation will get worse and worse.",
+      "translation": "지금 행동하지 않으면 상황이 점점 더 나빠질 거예요.",
+      "tips": "'worse and worse'로 악화를 표현하세요."
+    },
+    {
+      "id": "s12",
+      "text": "Many endangered species will become extinct if we don't protect their habitats.",
+      "translation": "우리가 서식지를 보호하지 않으면 많은 멸종 위기종이 멸종할 거예요.",
+      "tips": "조건문을 사용해 결과를 경고하세요."
+    }
+  ],
+
+  "dialoguePractice": {
+    "title": "Making Eco-Friendly Choices",
+    "roles": ["Sam", "Riley"],
+    "lines": [
+      {"role": "Sam", "text": "I've decided to start bringing my own shopping bags to the store."},
+      {"role": "Riley", "text": "That's great! I've been doing that for about a year now."},
+      {"role": "Sam", "text": "Has it made a big difference?"},
+      {"role": "Riley", "text": "Well, I used to use about ten plastic bags a week. Now I use none."},
+      {"role": "Sam", "text": "Wow, that adds up over time. What else do you do?"},
+      {"role": "Riley", "text": "I try to buy products with less packaging. The more carefully I shop, the less waste I create."},
+      {"role": "Sam", "text": "I've noticed that some stores are starting to sell things without packaging."},
+      {"role": "Riley", "text": "Yes, those zero-waste stores are becoming more popular."},
+      {"role": "Sam", "text": "I guess small changes really can make a difference."},
+      {"role": "Riley", "text": "Definitely. And the more people who make these changes, the bigger the impact."}
+    ]
+  },
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation & Intonation",
+      "items": [
+        "Did you pronounce environmental vocabulary correctly?",
+        "Did you use appropriate stress in comparison structures?",
+        "Did you use rising intonation for questions?",
+        "Did you speak at a natural pace?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you use 'the more... the more' structures smoothly?",
+        "Did you express comparisons naturally?",
+        "Did you complete sentences without long pauses?",
+        "Did you practice the dialogue with natural flow?"
+      ]
+    },
+    {
+      "category": "Grammar Accuracy",
+      "items": [
+        "Did you use comparative and superlative forms correctly?",
+        "Did you use 'as...as' structures correctly?",
+        "Did you use double comparatives ('more and more') correctly?",
+        "Did you use 'the + comparative' correlative structures correctly?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Did you express opinions about environmental issues?",
+        "Did you use appropriate vocabulary for the topic?",
+        "Did you make logical arguments?",
+        "Did you engage naturally in the dialogue?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "week-3-reading",
+  "weekId": "week-3",
+  "type": "reading",
+  "level": "B2",
+  "title": "Learning from History: Humanitarian Responses",
+  "description": "Read about historical humanitarian crises and what could have been done differently.",
+
+  "passage": {
+    "text": "Throughout history, humanitarian crises have tested the international community's ability to respond effectively. Looking back at these events, we can identify critical moments when different decisions might have led to dramatically different outcomes.\n\nThe Rwanda genocide of 1994 remains one of the most tragic examples of failed intervention. In just 100 days, an estimated 800,000 people were killed. The United Nations had peacekeeping forces in the country, but they were not authorized to take action. If the UN Security Council had granted permission for intervention, countless lives could have been saved. If major powers had not withdrawn their forces at the crucial moment, the violence might have been stopped before it escalated.\n\nThe Syrian refugee crisis, which began in 2011, presented another set of challenges. If neighboring countries had received more international support earlier, they would have been better equipped to handle the influx of displaced people. If wealthy nations had established more legal pathways for refugees, fewer people would have risked dangerous sea crossings. The human cost of delayed action has been immense.\n\nClimate-related disasters have added a new dimension to humanitarian challenges. If governments had implemented the recommendations from early climate science, many communities that have been displaced by rising sea levels and extreme weather might still be in their homes. The link between environmental degradation and human displacement had been understood for decades, yet action remained insufficient.\n\nEconomic inequality has also been at the root of many crises. If international development programs had focused more on building local capacity rather than providing short-term aid, sustainable progress could have been achieved. If trade agreements had been structured more fairly, developing economies might have grown stronger and more resilient.\n\nThe lessons from these events are clear. Early warning systems exist, but the political will to act on them has often been lacking. If decision-makers had trusted expert assessments, preventive measures could have been implemented. If the true cost of inaction had been calculated upfront, the investment in prevention would have seemed far more reasonable.\n\nMoving forward, the international community must learn from these missed opportunities. The third conditional of history is filled with 'ifs' that represent real suffering that could have been prevented. Our task now is to ensure that future generations do not have to ask the same questions about our era.",
+    "wordCount": 375,
+    "estimatedReadingTime": 6
+  },
+
+  "vocabulary": [
+    {
+      "word": "genocide",
+      "meaning": "deliberate killing of a large group of people",
+      "translation": "대량학살"
+    },
+    {
+      "word": "escalated",
+      "meaning": "increased rapidly in intensity",
+      "translation": "확대되다"
+    },
+    {
+      "word": "influx",
+      "meaning": "arrival of large numbers of people",
+      "translation": "유입"
+    },
+    {
+      "word": "displacement",
+      "meaning": "forced movement from one's home",
+      "translation": "이주, 추방"
+    },
+    {
+      "word": "resilient",
+      "meaning": "able to recover from difficulties",
+      "translation": "회복력 있는"
+    },
+    {
+      "word": "preventive",
+      "meaning": "designed to stop something from happening",
+      "translation": "예방적인"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "How many people were estimated to have been killed in the Rwanda genocide?",
+      "options": ["80,000", "800,000", "8,000,000", "8,000"],
+      "answer": "800,000",
+      "explanation": "The passage states 'an estimated 800,000 people were killed.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "The UN peacekeeping forces in Rwanda were authorized to take action.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'they were not authorized to take action.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What could have saved lives in Rwanda according to the passage?",
+      "options": ["More economic sanctions", "UN Security Council granting permission for intervention", "Closing borders", "Sending diplomats"],
+      "answer": "UN Security Council granting permission for intervention",
+      "explanation": "'If the UN Security Council had granted permission for intervention, countless lives could have been saved.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What would have helped neighboring countries during the Syrian refugee crisis?",
+      "options": ["More weapons", "More international support earlier", "Stricter border controls", "Less media coverage"],
+      "answer": "More international support earlier",
+      "explanation": "'If neighboring countries had received more international support earlier, they would have been better equipped.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "The passage suggests that legal pathways for refugees might have prevented dangerous sea crossings.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "'If wealthy nations had established more legal pathways for refugees, fewer people would have risked dangerous sea crossings.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What had been understood for decades according to the passage?",
+      "options": ["The cost of war", "The link between environmental degradation and human displacement", "The solution to poverty", "How to prevent genocide"],
+      "answer": "The link between environmental degradation and human displacement",
+      "explanation": "The passage states 'The link between environmental degradation and human displacement had been understood for decades.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What should international development programs have focused more on?",
+      "options": ["Short-term aid", "Building local capacity", "Military training", "Trade restrictions"],
+      "answer": "Building local capacity",
+      "explanation": "'If international development programs had focused more on building local capacity rather than providing short-term aid.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "According to the passage, early warning systems for crises do not exist.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'Early warning systems exist, but the political will to act on them has often been lacking.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What has often been lacking according to the passage?",
+      "options": ["Technology", "Information", "Political will to act", "Money"],
+      "answer": "Political will to act",
+      "explanation": "'the political will to act on them has often been lacking.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What would have seemed more reasonable if the true cost of inaction had been calculated?",
+      "options": ["Military action", "Investment in prevention", "Economic sanctions", "Isolation policies"],
+      "answer": "Investment in prevention",
+      "explanation": "'If the true cost of inaction had been calculated upfront, the investment in prevention would have seemed far more reasonable.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What does the passage say 'the third conditional of history' is filled with?",
+      "answer": "ifs",
+      "alternateAnswers": ["ifs that represent real suffering", "what ifs", "'ifs'"],
+      "explanation": "The passage states 'The third conditional of history is filled with ifs that represent real suffering.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "The passage is optimistic that future generations will ask the same questions.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'Our task now is to ensure that future generations do not have to ask the same questions.'"
+    }
+  ]
+}

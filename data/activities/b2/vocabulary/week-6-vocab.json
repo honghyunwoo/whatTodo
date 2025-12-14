@@ -1,0 +1,323 @@
+{
+  "id": "week-6-vocab",
+  "weekId": "week-6",
+  "type": "vocabulary",
+  "level": "B2",
+  "title": "Health & Wellbeing",
+  "description": "Learn vocabulary for discussing physical health, mental wellness, and lifestyle choices.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "wellbeing",
+      "pronunciation": "/ˌwelˈbiːɪŋ/",
+      "meaning": "the state of being comfortable, healthy, and happy",
+      "translation": "웰빙, 안녕",
+      "example": "Regular exercise contributes to overall wellbeing.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w2",
+      "word": "symptom",
+      "pronunciation": "/ˈsɪmptəm/",
+      "meaning": "a physical or mental sign of illness",
+      "translation": "증상",
+      "example": "Fatigue is a common symptom of stress.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w3",
+      "word": "diagnosis",
+      "pronunciation": "/ˌdaɪəɡˈnəʊsɪs/",
+      "meaning": "identification of an illness through examination",
+      "translation": "진단",
+      "example": "The diagnosis came after several tests.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w4",
+      "word": "prevention",
+      "pronunciation": "/prɪˈvenʃn/",
+      "meaning": "action taken to stop something from happening",
+      "translation": "예방",
+      "example": "Prevention is better than cure.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w5",
+      "word": "therapy",
+      "pronunciation": "/ˈθerəpi/",
+      "meaning": "treatment for physical or mental illness",
+      "translation": "치료, 요법",
+      "example": "Physical therapy helped her recover from the injury.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w6",
+      "word": "medication",
+      "pronunciation": "/ˌmedɪˈkeɪʃn/",
+      "meaning": "a drug or medicine used to treat illness",
+      "translation": "약물, 약",
+      "example": "The doctor prescribed medication for his condition.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w7",
+      "word": "nutrition",
+      "pronunciation": "/njuːˈtrɪʃn/",
+      "meaning": "the process of providing food for health and growth",
+      "translation": "영양",
+      "example": "Good nutrition is essential for children's development.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w8",
+      "word": "immunity",
+      "pronunciation": "/ɪˈmjuːnəti/",
+      "meaning": "resistance to infection or disease",
+      "translation": "면역력",
+      "example": "Vaccines help build immunity against diseases.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w9",
+      "word": "chronic",
+      "pronunciation": "/ˈkrɒnɪk/",
+      "meaning": "lasting for a long time, especially of illness",
+      "translation": "만성의",
+      "example": "Chronic stress can lead to serious health problems.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w10",
+      "word": "sedentary",
+      "pronunciation": "/ˈsedntri/",
+      "meaning": "characterized by much sitting and little physical activity",
+      "translation": "앉아서 하는, 비활동적인",
+      "example": "A sedentary lifestyle increases health risks.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w11",
+      "word": "beneficial",
+      "pronunciation": "/ˌbenɪˈfɪʃl/",
+      "meaning": "producing good effects",
+      "translation": "유익한",
+      "example": "Walking is beneficial for both physical and mental health.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w12",
+      "word": "moderate",
+      "pronunciation": "/ˈmɒdərət/",
+      "meaning": "average in amount or intensity",
+      "translation": "적당한",
+      "example": "Moderate exercise is recommended for beginners.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w13",
+      "word": "holistic",
+      "pronunciation": "/həˈlɪstɪk/",
+      "meaning": "treating the whole person, not just symptoms",
+      "translation": "전체적인, 전인적인",
+      "example": "The clinic offers a holistic approach to healthcare.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w14",
+      "word": "resilient",
+      "pronunciation": "/rɪˈzɪliənt/",
+      "meaning": "able to recover quickly from difficulties",
+      "translation": "회복력 있는",
+      "example": "Emotionally resilient people cope better with stress.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w15",
+      "word": "mindfulness",
+      "pronunciation": "/ˈmaɪndfʊlnəs/",
+      "meaning": "awareness of the present moment",
+      "translation": "마음챙김",
+      "example": "Practicing mindfulness can reduce anxiety.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w16",
+      "word": "diagnose",
+      "pronunciation": "/ˈdaɪəɡnəʊz/",
+      "meaning": "to identify an illness through examination",
+      "translation": "진단하다",
+      "example": "The doctor diagnosed her with a vitamin deficiency.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w17",
+      "word": "prescribe",
+      "pronunciation": "/prɪˈskraɪb/",
+      "meaning": "to recommend a treatment or medicine",
+      "translation": "처방하다",
+      "example": "The physician prescribed rest and plenty of fluids.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w18",
+      "word": "recover",
+      "pronunciation": "/rɪˈkʌvər/",
+      "meaning": "to return to normal health after illness",
+      "translation": "회복하다",
+      "example": "It took months to fully recover from the surgery.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w19",
+      "word": "maintain",
+      "pronunciation": "/meɪnˈteɪn/",
+      "meaning": "to keep in good condition",
+      "translation": "유지하다",
+      "example": "Regular check-ups help maintain good health.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w20",
+      "word": "alleviate",
+      "pronunciation": "/əˈliːvieɪt/",
+      "meaning": "to make pain or suffering less severe",
+      "translation": "완화하다",
+      "example": "Stretching can alleviate muscle tension.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w21",
+      "word": "burnout",
+      "pronunciation": "/ˈbɜːnaʊt/",
+      "meaning": "exhaustion caused by prolonged stress",
+      "translation": "번아웃, 탈진",
+      "example": "Many employees experience burnout from overwork.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w22",
+      "word": "anxiety",
+      "pronunciation": "/æŋˈzaɪəti/",
+      "meaning": "feeling of worry or nervousness",
+      "translation": "불안",
+      "example": "Anxiety can affect both mental and physical health.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w23",
+      "word": "obesity",
+      "pronunciation": "/əʊˈbiːsəti/",
+      "meaning": "condition of being very overweight",
+      "translation": "비만",
+      "example": "Obesity increases the risk of heart disease.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w24",
+      "word": "insomnia",
+      "pronunciation": "/ɪnˈsɒmniə/",
+      "meaning": "inability to sleep",
+      "translation": "불면증",
+      "example": "Stress often leads to insomnia.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w25",
+      "word": "metabolism",
+      "pronunciation": "/məˈtæbəlɪzəm/",
+      "meaning": "chemical processes in the body that maintain life",
+      "translation": "신진대사",
+      "example": "Exercise helps boost metabolism.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w26",
+      "word": "supplement",
+      "pronunciation": "/ˈsʌplɪmənt/",
+      "meaning": "additional nutrient taken to improve diet",
+      "translation": "보충제",
+      "example": "Many people take vitamin supplements.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w27",
+      "word": "rehabilitation",
+      "pronunciation": "/ˌriːəˌbɪlɪˈteɪʃn/",
+      "meaning": "process of restoring health after illness or injury",
+      "translation": "재활",
+      "example": "Rehabilitation after surgery takes several weeks.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w28",
+      "word": "contagious",
+      "pronunciation": "/kənˈteɪdʒəs/",
+      "meaning": "spread from one person to another",
+      "translation": "전염성의",
+      "example": "The flu is highly contagious.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w29",
+      "word": "detrimental",
+      "pronunciation": "/ˌdetrɪˈmentl/",
+      "meaning": "causing harm or damage",
+      "translation": "해로운",
+      "example": "Smoking is detrimental to your health.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w30",
+      "word": "susceptible",
+      "pronunciation": "/səˈseptəbl/",
+      "meaning": "likely to be affected by something",
+      "translation": "~에 취약한",
+      "example": "Elderly people are more susceptible to infections.",
+      "partOfSpeech": "adjective"
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "instruction": "Match the words with their definitions",
+      "pairs": [
+        { "word": "symptom", "definition": "a physical or mental sign of illness" },
+        { "word": "chronic", "definition": "lasting for a long time" },
+        { "word": "mindfulness", "definition": "awareness of the present moment" },
+        { "word": "alleviate", "definition": "to make pain or suffering less severe" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "instruction": "Complete the sentences with the correct words",
+      "sentences": [
+        { "sentence": "A _____ lifestyle with little physical activity can lead to weight gain.", "answer": "sedentary" },
+        { "sentence": "The doctor will _____ the appropriate medication for your condition.", "answer": "prescribe" },
+        { "sentence": "_____ is better than cure when it comes to health.", "answer": "Prevention" },
+        { "sentence": "It took her six months to fully _____ from the accident.", "answer": "recover" }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "instruction": "Choose the best word to complete each sentence",
+      "questions": [
+        {
+          "question": "Regular exercise is _____ for both physical and mental health.",
+          "options": ["detrimental", "contagious", "beneficial", "chronic"],
+          "answer": "beneficial"
+        },
+        {
+          "question": "Many people experience _____ from working too many hours without rest.",
+          "options": ["immunity", "burnout", "metabolism", "supplement"],
+          "answer": "burnout"
+        }
+      ]
+    }
+  ]
+}

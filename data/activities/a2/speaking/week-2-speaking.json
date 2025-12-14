@@ -1,0 +1,30 @@
+{
+  "id": "week-2-speaking",
+  "weekId": "week-2",
+  "type": "speaking",
+  "level": "A2",
+  "title": "Shopping Conversations",
+  "description": "Practice speaking in shopping situations.",
+
+  "sentences": [
+    {"id": "s1", "text": "How much does this cost?", "translation": "이것은 얼마인가요?", "tips": "'How much'에 강세를 주고 'cost'를 명확하게 발음하세요."},
+    {"id": "s2", "text": "Do you have this in a different size?", "translation": "다른 사이즈로 있나요?", "tips": "'different size'를 강조하고 의문문 억양으로 끝내세요."},
+    {"id": "s3", "text": "I'm just looking, thank you.", "translation": "그냥 구경 중이에요, 감사합니다.", "tips": "'just looking'을 자연스럽게 연결하세요."},
+    {"id": "s4", "text": "Can I pay by card?", "translation": "카드로 결제해도 될까요?", "tips": "'card'를 명확하게 발음하고 정중한 톤을 유지하세요."},
+    {"id": "s5", "text": "This is too expensive for me.", "translation": "이건 저한테 너무 비싸요.", "tips": "'too expensive'를 강조해서 발음하세요."},
+    {"id": "s6", "text": "Is there a discount today?", "translation": "오늘 할인이 있나요?", "tips": "'discount'를 명확하게 발음하고 의문문으로 끝내세요."},
+    {"id": "s7", "text": "I'd like to return this item.", "translation": "이 물건을 반품하고 싶습니다.", "tips": "'I'd like to'는 정중한 표현입니다. 부드럽게 발음하세요."},
+    {"id": "s8", "text": "Where is the fitting room?", "translation": "탈의실이 어디에 있나요?", "tips": "'fitting room'을 한 단어처럼 연결해서 발음하세요."},
+    {"id": "s9", "text": "I'll take this one.", "translation": "이것으로 할게요.", "tips": "'take'를 강조하고 자신감 있게 말하세요."},
+    {"id": "s10", "text": "Can I get a receipt, please?", "translation": "영수증 받을 수 있을까요?", "tips": "'receipt'는 /rɪˈsiːt/로 발음합니다. 'p'는 묵음입니다."},
+    {"id": "s11", "text": "Do you accept cash?", "translation": "현금 받으시나요?", "tips": "'accept'와 'cash'를 명확하게 발음하세요."},
+    {"id": "s12", "text": "I'm going to buy a gift for my friend.", "translation": "친구를 위해 선물을 살 거예요.", "tips": "'going to'를 'gonna'처럼 자연스럽게 연결해도 됩니다."}
+  ],
+
+  "evaluationChecklist": [
+    {"category": "Pronunciation", "items": ["Did you pronounce shopping terms correctly?", "Did you use proper question intonation?", "Did you stress key words appropriately?", "Did you link words naturally?"]},
+    {"category": "Fluency", "items": ["Did you speak without long pauses?", "Did you complete all sentences?", "Did you sound natural and confident?"]},
+    {"category": "Accuracy", "items": ["Did you use correct grammar?", "Did you use polite expressions (I'd like, please)?", "Did you pronounce 'receipt' correctly?"]},
+    {"category": "Communication", "items": ["Would a shop assistant understand you?", "Did you practice different shopping scenarios?", "Did you express your needs clearly?"]}
+  ]
+}

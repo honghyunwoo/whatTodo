@@ -1,0 +1,141 @@
+{
+  "id": "week-8-reading",
+  "weekId": "week-8",
+  "type": "reading",
+  "level": "A2",
+  "title": "Getting Around the City",
+  "description": "Read about different ways to navigate a new city.",
+
+  "passage": {
+    "text": "Visiting a new city can be exciting but also confusing. Here are some tips to help you get around easily.\n\nFirst, get a good map. You can use a map app on your smartphone, or pick up a paper map at a tourist information center. Map apps are very useful because they can show you where you are and give you directions in real-time.\n\nSecond, learn some basic direction words. In English, the most important words are: left, right, straight, turn, next to, opposite, and between. If you know these words, you can understand most directions.\n\nThird, don't be afraid to ask for help. Most people are happy to give directions to visitors. You can start by saying 'Excuse me, I'm looking for...' or 'Can you tell me how to get to...?'\n\nFourth, look for landmarks. Big buildings, parks, statues, and famous places can help you remember where you are. When someone gives you directions, they often mention landmarks like 'Turn left after the big church' or 'It's opposite the park.'\n\nFinally, take your time. Walking around a new city is the best way to explore and discover interesting places. Don't worry if you get a little lost - sometimes the best discoveries happen by accident!",
+    "wordCount": 210,
+    "estimatedReadingTime": 3
+  },
+
+  "vocabulary": [
+    {
+      "word": "confusing",
+      "meaning": "hard to understand",
+      "translation": "혼란스러운"
+    },
+    {
+      "word": "real-time",
+      "meaning": "happening now, immediately",
+      "translation": "실시간의"
+    },
+    {
+      "word": "landmarks",
+      "meaning": "well-known buildings or places",
+      "translation": "랜드마크, 유명한 건물"
+    },
+    {
+      "word": "explore",
+      "meaning": "to look around a new place",
+      "translation": "탐험하다"
+    },
+    {
+      "word": "by accident",
+      "meaning": "without planning",
+      "translation": "우연히"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is the first tip mentioned in the passage?",
+      "options": ["Ask for help", "Learn direction words", "Get a good map", "Look for landmarks"],
+      "answer": "Get a good map",
+      "explanation": "The passage says 'First, get a good map.'"
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "Where can you get a paper map?",
+      "options": ["At a restaurant", "At a tourist information center", "At a bank", "At a supermarket"],
+      "answer": "At a tourist information center",
+      "explanation": "The passage says 'pick up a paper map at a tourist information center.'"
+    },
+    {
+      "id": "q3",
+      "type": "true_false",
+      "question": "Map apps can show you directions in real-time.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage says map apps 'can show you where you are and give you directions in real-time.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "Which is NOT mentioned as a basic direction word?",
+      "options": ["Left", "Turn", "Behind", "Opposite"],
+      "answer": "Behind",
+      "explanation": "The passage mentions left, right, straight, turn, next to, opposite, and between - not 'behind.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Most people don't like helping visitors with directions.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'Most people are happy to give directions to visitors.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What phrase can you use to ask for directions?",
+      "options": ["Hello, nice to meet you", "Excuse me, I'm looking for...", "How are you today?", "What time is it?"],
+      "answer": "Excuse me, I'm looking for...",
+      "explanation": "The passage suggests saying 'Excuse me, I'm looking for...' or 'Can you tell me how to get to...?'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What are examples of landmarks mentioned?",
+      "options": ["Traffic lights and crosswalks", "Cars and buses", "Big buildings, parks, and statues", "Restaurants and cafes"],
+      "answer": "Big buildings, parks, and statues",
+      "explanation": "The passage says 'Big buildings, parks, statues, and famous places.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "People often mention landmarks when giving directions.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage says 'When someone gives you directions, they often mention landmarks.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What is the best way to explore a new city according to the passage?",
+      "options": ["Taking a taxi", "Walking around", "Staying in one place", "Only using maps"],
+      "answer": "Walking around",
+      "explanation": "The passage says 'Walking around a new city is the best way to explore.'"
+    },
+    {
+      "id": "q10",
+      "type": "true_false",
+      "question": "The passage says you should worry if you get lost.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'Don't worry if you get a little lost - sometimes the best discoveries happen by accident!'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "According to the passage, what can happen 'by accident' when you get lost?",
+      "answer": "discoveries",
+      "alternateAnswers": ["best discoveries", "interesting discoveries"],
+      "explanation": "The passage says 'the best discoveries happen by accident!'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "How many tips does the passage give?",
+      "options": ["Three", "Four", "Five", "Six"],
+      "answer": "Five",
+      "explanation": "The passage gives five tips: get a map, learn direction words, ask for help, look for landmarks, and take your time."
+    }
+  ]
+}

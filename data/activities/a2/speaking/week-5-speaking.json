@@ -1,0 +1,135 @@
+{
+  "id": "week-5-speaking",
+  "weekId": "week-5",
+  "type": "speaking",
+  "level": "A2",
+  "title": "Talking About Work & Daily Routines",
+  "description": "Practice speaking about your work life and daily schedule.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "I usually wake up at seven o'clock.",
+      "translation": "저는 보통 7시에 일어나요.",
+      "tips": "'usually'를 강조하고, 'seven o'clock'을 명확하게 발음하세요."
+    },
+    {
+      "id": "s2",
+      "text": "I commute to work by subway.",
+      "translation": "저는 지하철로 출근해요.",
+      "tips": "'commute'의 강세는 두 번째 음절에 있습니다: com-MUTE."
+    },
+    {
+      "id": "s3",
+      "text": "What time do you start work?",
+      "translation": "몇 시에 출근하세요?",
+      "tips": "의문문이므로 끝을 올려서 발음하세요."
+    },
+    {
+      "id": "s4",
+      "text": "I have a meeting at ten o'clock.",
+      "translation": "10시에 회의가 있어요.",
+      "tips": "'meeting'과 'ten'을 강조하세요."
+    },
+    {
+      "id": "s5",
+      "text": "How often do you work overtime?",
+      "translation": "얼마나 자주 야근하세요?",
+      "tips": "'How often'을 한 덩어리로 발음하고, 'overtime'을 명확하게 하세요."
+    },
+    {
+      "id": "s6",
+      "text": "I sometimes work late when there's a deadline.",
+      "translation": "마감일이 있을 때 가끔 늦게까지 일해요.",
+      "tips": "'sometimes'와 'deadline'을 강조하세요."
+    },
+    {
+      "id": "s7",
+      "text": "Can we take a short break?",
+      "translation": "잠깐 쉴 수 있을까요?",
+      "tips": "정중한 요청이므로 부드럽게 발음하세요."
+    },
+    {
+      "id": "s8",
+      "text": "I need to finish this report by Friday.",
+      "translation": "금요일까지 이 보고서를 끝내야 해요.",
+      "tips": "'finish'와 'Friday'를 강조하세요."
+    },
+    {
+      "id": "s9",
+      "text": "My colleague is helping me with the project.",
+      "translation": "동료가 프로젝트를 도와주고 있어요.",
+      "tips": "'colleague'의 발음: KOL-eeg. 'project' 강세는 첫 음절."
+    },
+    {
+      "id": "s10",
+      "text": "What do you do after work?",
+      "translation": "퇴근 후에 뭐 하세요?",
+      "tips": "'after work'를 연결해서 자연스럽게 발음하세요."
+    },
+    {
+      "id": "s11",
+      "text": "I go to the gym twice a week.",
+      "translation": "일주일에 두 번 헬스장에 가요.",
+      "tips": "'twice a week'을 한 덩어리로 발음하세요."
+    },
+    {
+      "id": "s12",
+      "text": "I try to go to bed before midnight.",
+      "translation": "자정 전에 자려고 노력해요.",
+      "tips": "'try to'를 연결하고, 'midnight'을 명확하게 발음하세요."
+    }
+  ],
+
+  "dialoguePractice": {
+    "title": "Talking About Your Work Day",
+    "roles": ["A", "B"],
+    "lines": [
+      {"role": "A", "text": "What time do you usually start work?"},
+      {"role": "B", "text": "I start at 9, but I usually arrive a bit early."},
+      {"role": "A", "text": "How do you get to the office?"},
+      {"role": "B", "text": "I commute by subway. It takes about 40 minutes."},
+      {"role": "A", "text": "Do you work overtime often?"},
+      {"role": "B", "text": "Not really. Maybe once or twice a month."}
+    ]
+  },
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation & Intonation",
+      "items": [
+        "Did you pronounce work-related vocabulary clearly?",
+        "Did you use rising intonation for questions?",
+        "Did you stress the correct syllables in longer words?",
+        "Did you speak at a natural pace?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you speak without long pauses?",
+        "Did you connect words naturally?",
+        "Did you complete all sentences?",
+        "Did you practice the dialogue smoothly?"
+      ]
+    },
+    {
+      "category": "Accuracy",
+      "items": [
+        "Did you use adverbs of frequency correctly?",
+        "Did you form questions correctly?",
+        "Did you use the correct verb forms?",
+        "Did you follow the pronunciation tips?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Could a listener understand your daily routine?",
+        "Did you sound natural and confident?",
+        "Did you practice with appropriate expression?",
+        "Did you record and compare all sentences?"
+      ]
+    }
+  ]
+}

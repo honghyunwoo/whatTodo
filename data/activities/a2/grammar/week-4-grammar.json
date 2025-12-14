@@ -1,0 +1,69 @@
+{
+  "id": "week-4-grammar",
+  "weekId": "week-4",
+  "type": "grammar",
+  "level": "A2",
+  "title": "Should and Have to",
+  "description": "Learn to give advice and talk about obligations using 'should' and 'have to'.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "rule": "Should - Advice",
+      "explanation": "Use 'should + base verb' to give advice or suggestions. It's not as strong as 'must' or 'have to'.",
+      "examples": [
+        {"sentence": "You should see a doctor.", "translation": "병원에 가보셔야 해요."},
+        {"sentence": "She should take some medicine.", "translation": "그녀는 약을 먹어야 해요."},
+        {"sentence": "You should rest more.", "translation": "더 쉬어야 해요."}
+      ]
+    },
+    {
+      "id": "r2",
+      "rule": "Shouldn't - Negative Advice",
+      "explanation": "Use 'shouldn't (should not)' to advise against something.",
+      "examples": [
+        {"sentence": "You shouldn't go to work today.", "translation": "오늘 출근하지 않는 게 좋겠어요."},
+        {"sentence": "He shouldn't eat spicy food.", "translation": "그는 매운 음식을 먹지 않는 게 좋겠어요."},
+        {"sentence": "You shouldn't exercise when you're sick.", "translation": "아플 때 운동하면 안 돼요."}
+      ]
+    },
+    {
+      "id": "r3",
+      "rule": "Have to - Obligation",
+      "explanation": "Use 'have to + base verb' to express necessity or obligation. 'Has to' for he/she/it.",
+      "examples": [
+        {"sentence": "I have to take this medicine twice a day.", "translation": "이 약을 하루에 두 번 먹어야 해요."},
+        {"sentence": "She has to see the doctor tomorrow.", "translation": "그녀는 내일 병원에 가야 해요."},
+        {"sentence": "We have to get a prescription.", "translation": "처방전을 받아야 해요."}
+      ]
+    },
+    {
+      "id": "r4",
+      "rule": "Don't have to - No Obligation",
+      "explanation": "'Don't have to' means something is not necessary (but you can if you want). Different from 'mustn't'.",
+      "examples": [
+        {"sentence": "You don't have to stay in bed all day.", "translation": "하루 종일 침대에 있을 필요는 없어요."},
+        {"sentence": "She doesn't have to take the medicine with food.", "translation": "그녀는 음식과 함께 약을 먹을 필요가 없어요."},
+        {"sentence": "You don't have to come to the hospital.", "translation": "병원에 올 필요 없어요."}
+      ]
+    }
+  ],
+
+  "exercises": [
+    {"id": "ex1", "type": "multiple_choice", "question": "You _____ see a doctor. (advice)", "options": ["should", "have", "has", "must to"], "answer": "should", "explanation": "'Should' is used for giving advice."},
+    {"id": "ex2", "type": "fill_blank", "question": "She _____ to take medicine every day. (has/have)", "answer": "has", "explanation": "Use 'has to' with he/she/it."},
+    {"id": "ex3", "type": "multiple_choice", "question": "You _____ eat too much fast food.", "options": ["shouldn't", "don't should", "hasn't to", "haven't"], "answer": "shouldn't", "explanation": "'Shouldn't' is the negative of 'should'."},
+    {"id": "ex4", "type": "fill_blank", "question": "I _____ go to the pharmacy. (have to)", "answer": "have to", "explanation": "'Have to' shows obligation."},
+    {"id": "ex5", "type": "multiple_choice", "question": "You _____ stay in bed. You can walk around. (not necessary)", "options": ["don't have to", "shouldn't", "hasn't to", "mustn't"], "answer": "don't have to", "explanation": "'Don't have to' means it's not necessary."},
+    {"id": "ex6", "type": "fill_blank", "question": "He _____ take better care of his health. (should)", "answer": "should", "explanation": "'Should' gives advice."},
+    {"id": "ex7", "type": "multiple_choice", "question": "_____ I make an appointment?", "options": ["Should", "Have", "Has", "Do should"], "answer": "Should", "explanation": "'Should I...?' asks for advice."},
+    {"id": "ex8", "type": "fill_blank", "question": "You _____ smoke. It's bad for your health. (shouldn't)", "answer": "shouldn't", "explanation": "Advice against an action."},
+    {"id": "ex9", "type": "multiple_choice", "question": "She _____ to rest for a week.", "options": ["has", "have", "should to", "has to"], "answer": "has", "explanation": "'Has to' for she + obligation."},
+    {"id": "ex10", "type": "sentence_ordering", "question": "Order: [should, more, You, water, drink]", "options": ["should", "more", "You", "water", "drink"], "answer": ["You", "should", "drink", "more", "water"], "explanation": "Subject + should + verb + object."},
+    {"id": "ex11", "type": "fill_blank", "question": "Do I _____ to bring my insurance card? (have)", "answer": "have", "explanation": "'Do I have to' asks about obligation."},
+    {"id": "ex12", "type": "multiple_choice", "question": "What _____ I do for my headache?", "options": ["should", "have", "has", "must to"], "answer": "should", "explanation": "Asking for advice."},
+    {"id": "ex13", "type": "fill_blank", "question": "They _____ (not have to) come to the hospital.", "answer": "don't have to", "explanation": "Negative: don't/doesn't have to."},
+    {"id": "ex14", "type": "multiple_choice", "question": "You _____ exercise when you have a fever.", "options": ["shouldn't", "don't should", "haven't to", "not should"], "answer": "shouldn't", "explanation": "Advising against exercising with fever."},
+    {"id": "ex15", "type": "fill_blank", "question": "_____ he have to take pills? (Does)", "answer": "Does", "explanation": "Question form: Does + subject + have to."}
+  ]
+}

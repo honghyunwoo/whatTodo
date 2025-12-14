@@ -1,0 +1,175 @@
+{
+  "id": "week-1-writing",
+  "weekId": "week-1",
+  "type": "writing",
+  "level": "B1",
+  "title": "Describing a Life-Changing Experience",
+  "description": "Write about an experience that has changed you or taught you something important.",
+
+  "prompt": {
+    "topic": "A Life-Changing Experience",
+    "description": "Write about an experience that has had a significant impact on your life. It could be traveling somewhere, meeting someone, overcoming a challenge, or learning something new. Explain what happened, how you felt, and how this experience has changed you.",
+    "requirements": [
+      "Describe what the experience was and when it happened",
+      "Explain why this experience was significant",
+      "Describe how you felt during and after the experience",
+      "Explain how this experience has changed you or what you learned",
+      "Use Present Perfect to talk about the impact on your life"
+    ],
+    "wordCount": {
+      "min": 120,
+      "max": 180
+    },
+    "timeLimit": 25
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "One of the most significant experiences in my life happened three years ago.",
+      "translation": "제 인생에서 가장 의미 있는 경험 중 하나는 3년 전에 일어났어요.",
+      "useCase": "To introduce the experience with time reference"
+    },
+    {
+      "id": "ex2",
+      "sentence": "This experience has completely changed my perspective on life.",
+      "translation": "이 경험은 제 인생관을 완전히 바꿔놓았어요.",
+      "useCase": "To describe the impact using Present Perfect"
+    },
+    {
+      "id": "ex3",
+      "sentence": "I have learned that challenges can lead to personal growth.",
+      "translation": "저는 도전이 개인적 성장으로 이어질 수 있다는 것을 배웠어요.",
+      "useCase": "To express what you learned"
+    },
+    {
+      "id": "ex4",
+      "sentence": "Before this experience, I had never believed I could achieve so much.",
+      "translation": "이 경험 전에는 제가 그렇게 많은 것을 이룰 수 있다고 믿지 않았어요.",
+      "useCase": "To contrast before and after"
+    },
+    {
+      "id": "ex5",
+      "sentence": "Since then, I have become more confident and open-minded.",
+      "translation": "그 이후로 저는 더 자신감 있고 열린 마음을 가지게 됐어요.",
+      "useCase": "To describe ongoing change since the experience"
+    },
+    {
+      "id": "ex6",
+      "sentence": "Looking back, I realize how much I have grown as a person.",
+      "translation": "돌이켜보면, 저는 사람으로서 얼마나 성장했는지 깨달아요.",
+      "useCase": "To reflect on personal growth"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "significant",
+      "translation": "중요한, 의미 있는",
+      "example": "It was a significant moment in my life."
+    },
+    {
+      "word": "perspective",
+      "translation": "관점, 시각",
+      "example": "This changed my perspective on work."
+    },
+    {
+      "word": "overcome",
+      "translation": "극복하다",
+      "example": "I had to overcome many difficulties."
+    },
+    {
+      "word": "grateful",
+      "translation": "감사하는",
+      "example": "I am grateful for this experience."
+    },
+    {
+      "word": "realize",
+      "translation": "깨닫다",
+      "example": "I realized how strong I could be."
+    },
+    {
+      "word": "initially",
+      "translation": "처음에",
+      "example": "Initially, I was very nervous."
+    },
+    {
+      "word": "eventually",
+      "translation": "결국, 마침내",
+      "example": "Eventually, everything worked out."
+    },
+    {
+      "word": "valuable",
+      "translation": "가치 있는",
+      "example": "It was a valuable learning experience."
+    }
+  ],
+
+  "usefulExpressions": [
+    {
+      "expression": "One of the most... experiences",
+      "usage": "To emphasize significance",
+      "example": "One of the most challenging experiences I've had was..."
+    },
+    {
+      "expression": "Since then, I have...",
+      "usage": "To describe change from a point in time",
+      "example": "Since then, I have become more patient."
+    },
+    {
+      "expression": "Looking back, I realize...",
+      "usage": "To reflect on the past",
+      "example": "Looking back, I realize how important it was."
+    },
+    {
+      "expression": "This experience taught me that...",
+      "usage": "To explain lessons learned",
+      "example": "This experience taught me that anything is possible."
+    },
+    {
+      "expression": "If I hadn't..., I wouldn't have...",
+      "usage": "To imagine the alternative",
+      "example": "If I hadn't taken that risk, I wouldn't have discovered my passion."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "Content Requirements",
+      "items": [
+        "Did you describe what the experience was?",
+        "Did you explain when it happened?",
+        "Did you describe how you felt?",
+        "Did you explain how it changed you?",
+        "Did you include what you learned?"
+      ]
+    },
+    {
+      "category": "Grammar & Structure",
+      "items": [
+        "Did you use Present Perfect for lasting effects?",
+        "Did you use Past Simple for specific events?",
+        "Did you use 'since' and 'for' correctly?",
+        "Did you organize your writing logically?"
+      ]
+    },
+    {
+      "category": "Vocabulary & Style",
+      "items": [
+        "Did you use varied vocabulary for describing experiences?",
+        "Did you use appropriate expressions for reflection?",
+        "Did you avoid repetitive language?",
+        "Did you use connecting words effectively?"
+      ]
+    },
+    {
+      "category": "Word Count & Completion",
+      "items": [
+        "Is your writing at least 120 words?",
+        "Is your writing no more than 180 words?",
+        "Does your writing have a clear introduction and conclusion?",
+        "Did you complete within the time limit?"
+      ]
+    }
+  ]
+}

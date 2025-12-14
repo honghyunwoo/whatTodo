@@ -1,0 +1,323 @@
+{
+  "id": "week-2-vocab",
+  "weekId": "week-2",
+  "type": "vocabulary",
+  "level": "B2",
+  "title": "Work & Career",
+  "description": "Learn vocabulary for discussing professional life, job searching, and workplace dynamics.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "applicant",
+      "pronunciation": "/ˈæplɪkənt/",
+      "meaning": "a person who applies for a job",
+      "translation": "지원자",
+      "example": "We received over 200 applicants for the position.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w2",
+      "word": "promotion",
+      "pronunciation": "/prəˈməʊʃn/",
+      "meaning": "advancement to a higher position",
+      "translation": "승진",
+      "example": "She earned a promotion after just two years.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w3",
+      "word": "resign",
+      "pronunciation": "/rɪˈzaɪn/",
+      "meaning": "to voluntarily leave a job",
+      "translation": "사직하다",
+      "example": "He decided to resign and start his own business.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w4",
+      "word": "redundant",
+      "pronunciation": "/rɪˈdʌndənt/",
+      "meaning": "no longer needed for a job; laid off",
+      "translation": "해고된, 잉여의",
+      "example": "Fifty workers were made redundant due to automation.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w5",
+      "word": "deadline",
+      "pronunciation": "/ˈdedlaɪn/",
+      "meaning": "the time by which something must be completed",
+      "translation": "마감 기한",
+      "example": "We're working overtime to meet the deadline.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w6",
+      "word": "workload",
+      "pronunciation": "/ˈwɜːkləʊd/",
+      "meaning": "the amount of work to be done",
+      "translation": "업무량",
+      "example": "The workload has increased significantly this quarter.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w7",
+      "word": "collaborate",
+      "pronunciation": "/kəˈlæbəreɪt/",
+      "meaning": "to work together with others",
+      "translation": "협력하다",
+      "example": "Our teams collaborate on several projects.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w8",
+      "word": "delegate",
+      "pronunciation": "/ˈdelɪɡeɪt/",
+      "meaning": "to assign tasks to others",
+      "translation": "위임하다",
+      "example": "Good managers know how to delegate effectively.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w9",
+      "word": "initiative",
+      "pronunciation": "/ɪˈnɪʃətɪv/",
+      "meaning": "the ability to act independently; a new plan",
+      "translation": "주도권, 계획",
+      "example": "She took the initiative to improve the process.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w10",
+      "word": "productivity",
+      "pronunciation": "/ˌprɒdʌkˈtɪvəti/",
+      "meaning": "the effectiveness of productive effort",
+      "translation": "생산성",
+      "example": "Remote work has actually increased productivity.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w11",
+      "word": "compensation",
+      "pronunciation": "/ˌkɒmpenˈseɪʃn/",
+      "meaning": "payment or benefits for work",
+      "translation": "보상, 급여",
+      "example": "The compensation package includes health insurance.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w12",
+      "word": "negotiate",
+      "pronunciation": "/nɪˈɡəʊʃieɪt/",
+      "meaning": "to discuss in order to reach an agreement",
+      "translation": "협상하다",
+      "example": "She successfully negotiated a higher salary.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w13",
+      "word": "mentor",
+      "pronunciation": "/ˈmentɔː/",
+      "meaning": "an experienced person who guides others",
+      "translation": "멘토, 조언자",
+      "example": "My mentor helped me navigate the corporate world.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w14",
+      "word": "networking",
+      "pronunciation": "/ˈnetwɜːkɪŋ/",
+      "meaning": "building professional relationships",
+      "translation": "네트워킹, 인맥 형성",
+      "example": "Networking events are essential for career growth.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w15",
+      "word": "entrepreneur",
+      "pronunciation": "/ˌɒntrəprəˈnɜː/",
+      "meaning": "a person who starts and runs a business",
+      "translation": "기업가",
+      "example": "She became a successful entrepreneur in her thirties.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w16",
+      "word": "freelance",
+      "pronunciation": "/ˈfriːlɑːns/",
+      "meaning": "self-employed and working for various clients",
+      "translation": "프리랜서의",
+      "example": "Many designers work freelance rather than for one company.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w17",
+      "word": "recruit",
+      "pronunciation": "/rɪˈkruːt/",
+      "meaning": "to find and hire new employees",
+      "translation": "채용하다",
+      "example": "The company is recruiting graduates from top universities.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w18",
+      "word": "appraisal",
+      "pronunciation": "/əˈpreɪzl/",
+      "meaning": "evaluation of job performance",
+      "translation": "평가, 인사 고과",
+      "example": "Annual appraisals determine salary increases.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w19",
+      "word": "probation",
+      "pronunciation": "/prəˈbeɪʃn/",
+      "meaning": "a trial period for new employees",
+      "translation": "수습 기간",
+      "example": "New employees are on probation for three months.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w20",
+      "word": "turnover",
+      "pronunciation": "/ˈtɜːnəʊvə/",
+      "meaning": "the rate at which employees leave a company",
+      "translation": "이직률",
+      "example": "High turnover indicates workplace problems.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w21",
+      "word": "outsource",
+      "pronunciation": "/ˈaʊtsɔːs/",
+      "meaning": "to contract work to external providers",
+      "translation": "외주를 주다",
+      "example": "Many companies outsource customer service.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w22",
+      "word": "hierarchy",
+      "pronunciation": "/ˈhaɪərɑːki/",
+      "meaning": "system of ranking within an organization",
+      "translation": "위계, 계층 구조",
+      "example": "The company has a flat hierarchy with few managers.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w23",
+      "word": "incentive",
+      "pronunciation": "/ɪnˈsentɪv/",
+      "meaning": "something that motivates action",
+      "translation": "인센티브, 동기",
+      "example": "Bonuses serve as incentives for better performance.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w24",
+      "word": "burnout",
+      "pronunciation": "/ˈbɜːnaʊt/",
+      "meaning": "exhaustion from excessive work stress",
+      "translation": "번아웃, 탈진",
+      "example": "Many employees experience burnout from overwork.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w25",
+      "word": "flexible",
+      "pronunciation": "/ˈfleksəbl/",
+      "meaning": "able to adapt or change easily",
+      "translation": "유연한",
+      "example": "We offer flexible working hours.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w26",
+      "word": "stakeholder",
+      "pronunciation": "/ˈsteɪkhəʊldə/",
+      "meaning": "person with interest in a company or project",
+      "translation": "이해관계자",
+      "example": "We need to consider all stakeholders' perspectives.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w27",
+      "word": "proficient",
+      "pronunciation": "/prəˈfɪʃnt/",
+      "meaning": "skilled and competent",
+      "translation": "능숙한",
+      "example": "Candidates must be proficient in Excel.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w28",
+      "word": "liability",
+      "pronunciation": "/ˌlaɪəˈbɪləti/",
+      "meaning": "legal responsibility; a disadvantage",
+      "translation": "책임, 부채",
+      "example": "The company faces significant legal liabilities.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w29",
+      "word": "tenure",
+      "pronunciation": "/ˈtenjə/",
+      "meaning": "the length of time in a position",
+      "translation": "재임 기간, 종신 재직권",
+      "example": "During her tenure as CEO, profits doubled.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w30",
+      "word": "restructure",
+      "pronunciation": "/ˌriːˈstrʌktʃə/",
+      "meaning": "to reorganize a company or system",
+      "translation": "구조조정하다",
+      "example": "The company decided to restructure its departments.",
+      "partOfSpeech": "verb"
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "instruction": "Match the words with their definitions",
+      "pairs": [
+        { "word": "delegate", "definition": "to assign tasks to others" },
+        { "word": "burnout", "definition": "exhaustion from excessive work stress" },
+        { "word": "tenure", "definition": "the length of time in a position" },
+        { "word": "incentive", "definition": "something that motivates action" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "instruction": "Complete the sentences with the correct words",
+      "sentences": [
+        { "sentence": "After ten years at the company, she finally received a _____.", "answer": "promotion" },
+        { "sentence": "The manager needs to learn to _____ more tasks to the team.", "answer": "delegate" },
+        { "sentence": "High employee _____ can indicate problems with workplace culture.", "answer": "turnover" },
+        { "sentence": "We need to _____ with the marketing department on this project.", "answer": "collaborate" }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "instruction": "Choose the best word to complete each sentence",
+      "questions": [
+        {
+          "question": "The company decided to _____ its IT services to reduce costs.",
+          "options": ["delegate", "outsource", "negotiate", "recruit"],
+          "answer": "outsource"
+        },
+        {
+          "question": "New employees undergo a three-month _____ period.",
+          "options": ["appraisal", "tenure", "probation", "hierarchy"],
+          "answer": "probation"
+        }
+      ]
+    }
+  ]
+}

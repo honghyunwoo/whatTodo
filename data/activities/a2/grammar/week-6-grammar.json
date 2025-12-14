@@ -1,0 +1,215 @@
+{
+  "id": "week-6-grammar",
+  "weekId": "week-6",
+  "type": "grammar",
+  "level": "A2",
+  "title": "Comparatives and Superlatives",
+  "description": "Learn how to compare things using comparative and superlative adjectives.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Comparative Adjectives - Short Adjectives",
+      "explanation": "For short adjectives (1-2 syllables), add -er to compare two things. Use 'than' after the comparative.",
+      "structure": "adjective + -er + than",
+      "spelling_rules": [
+        "Add -er: cold → colder, warm → warmer",
+        "Double consonant after short vowel: hot → hotter, big → bigger",
+        "Change y to i: dry → drier, sunny → sunnier"
+      ],
+      "examples": [
+        {
+          "sentence": "Summer is hotter than spring.",
+          "translation": "여름은 봄보다 더 더워요.",
+          "note": "Double consonant rule"
+        },
+        {
+          "sentence": "Today is colder than yesterday.",
+          "translation": "오늘은 어제보다 더 추워요.",
+          "note": "Basic -er form"
+        },
+        {
+          "sentence": "The weather is drier in autumn.",
+          "translation": "가을에 날씨가 더 건조해요.",
+          "note": "y → i rule"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Comparative Adjectives - Long Adjectives",
+      "explanation": "For longer adjectives (3+ syllables), use 'more' before the adjective.",
+      "structure": "more + adjective + than",
+      "examples": [
+        {
+          "sentence": "Summer is more humid than winter.",
+          "translation": "여름은 겨울보다 더 습해요.",
+          "note": "more + humid"
+        },
+        {
+          "sentence": "This forecast is more accurate than that one.",
+          "translation": "이 예보가 저것보다 더 정확해요.",
+          "note": "more + accurate"
+        },
+        {
+          "sentence": "Spring weather is more comfortable than summer.",
+          "translation": "봄 날씨가 여름보다 더 쾌적해요.",
+          "note": "more + comfortable"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Superlative Adjectives",
+      "explanation": "Use superlatives to compare one thing with all others in a group. Use 'the' before superlatives.",
+      "structure": "the + adjective + -est / the most + adjective",
+      "examples": [
+        {
+          "sentence": "August is the hottest month.",
+          "translation": "8월이 가장 더운 달이에요.",
+          "note": "Short adj: -est"
+        },
+        {
+          "sentence": "January is the coldest month in Korea.",
+          "translation": "1월은 한국에서 가장 추운 달이에요.",
+          "note": "Short adj: -est"
+        },
+        {
+          "sentence": "This is the most beautiful season.",
+          "translation": "이것이 가장 아름다운 계절이에요.",
+          "note": "Long adj: the most"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Irregular Comparatives and Superlatives",
+      "explanation": "Some adjectives have irregular comparative and superlative forms.",
+      "irregular_forms": [
+        {"adjective": "good", "comparative": "better", "superlative": "best"},
+        {"adjective": "bad", "comparative": "worse", "superlative": "worst"},
+        {"adjective": "far", "comparative": "farther/further", "superlative": "farthest/furthest"}
+      ],
+      "examples": [
+        {
+          "sentence": "The weather is better today than yesterday.",
+          "translation": "오늘 날씨가 어제보다 더 좋아요.",
+          "note": "good → better"
+        },
+        {
+          "sentence": "This is the worst storm of the year.",
+          "translation": "이것이 올해 최악의 폭풍이에요.",
+          "note": "bad → worst"
+        },
+        {
+          "sentence": "Today is the best day for a picnic.",
+          "translation": "오늘은 소풍하기 가장 좋은 날이에요.",
+          "note": "good → best"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "As...as for Equal Comparison",
+      "explanation": "Use 'as + adjective + as' to say two things are the same, or 'not as...as' to say they are different.",
+      "structure": "as + adjective + as",
+      "examples": [
+        {
+          "sentence": "Today is as warm as yesterday.",
+          "translation": "오늘은 어제만큼 따뜻해요.",
+          "note": "Equal comparison"
+        },
+        {
+          "sentence": "Spring is not as hot as summer.",
+          "translation": "봄은 여름만큼 덥지 않아요.",
+          "note": "Not equal"
+        },
+        {
+          "sentence": "This winter is as cold as last year.",
+          "translation": "이번 겨울은 작년만큼 추워요.",
+          "note": "Equal comparison"
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "Summer is _____ than winter.",
+      "options": ["hot", "hoter", "hotter", "more hot"],
+      "answer": "hotter"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "December is _____ (cold) than October.",
+      "answer": "colder"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "August is _____ month of the year.",
+      "options": ["the hotter", "the hottest", "the most hot", "hotter"],
+      "answer": "the hottest"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "The weather today is _____ (good) than yesterday.",
+      "answer": "better"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "This is _____ storm I've ever seen.",
+      "options": ["the baddest", "the worse", "the worst", "the most bad"],
+      "answer": "the worst"
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "Autumn weather is _____ (comfortable) than summer weather.",
+      "answer": "more comfortable"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "Today is not _____ yesterday.",
+      "options": ["as warm as", "warm as", "as warm", "warmer"],
+      "answer": "as warm as"
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "Spring is the _____ (beautiful) season in Korea.",
+      "answer": "most beautiful"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "Which is correct?",
+      "options": ["This is more easy than that.", "This is easier than that.", "This is easyer than that.", "This is more easier than that."],
+      "answer": "This is easier than that."
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "Summer is _____ (humid) than autumn.",
+      "answer": "more humid"
+    },
+    {
+      "id": "ex11",
+      "type": "reorder",
+      "question": "Put in order: coldest / is / the / January / month",
+      "answer": "January is the coldest month."
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "The forecast says tomorrow will be _____ (sunny) than today.",
+      "answer": "sunnier"
+    }
+  ]
+}

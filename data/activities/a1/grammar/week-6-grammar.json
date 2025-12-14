@@ -1,0 +1,187 @@
+{
+  "id": "week-6-grammar",
+  "weekId": "week-6",
+  "type": "grammar",
+  "level": "B1",
+  "title": "비교급과 최상급 (Comparatives and Superlatives)",
+  "description": "사물이나 사람을 비교하는 비교급과 최상급의 형태와 사용법을 학습합니다.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "rule": "비교급의 형태 (-er, more)",
+      "explanation": "1음절 형용사는 -er을 붙이고, 2음절 이상은 대부분 more를 앞에 붙입니다. 비교급 뒤에는 'than'을 사용합니다.",
+      "examples": [
+        {
+          "sentence": "She is taller than her sister.",
+          "translation": "그녀는 언니보다 키가 큽니다."
+        },
+        {
+          "sentence": "This book is more interesting than that one.",
+          "translation": "이 책이 저 책보다 더 흥미롭습니다."
+        },
+        {
+          "sentence": "My house is bigger than yours.",
+          "translation": "내 집이 네 집보다 더 큽니다."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "rule": "최상급의 형태 (-est, most)",
+      "explanation": "1음절 형용사는 -est를 붙이고, 2음절 이상은 대부분 most를 앞에 붙입니다. 최상급 앞에는 'the'를 붙입니다.",
+      "examples": [
+        {
+          "sentence": "He is the tallest student in the class.",
+          "translation": "그는 반에서 가장 키가 큰 학생입니다."
+        },
+        {
+          "sentence": "This is the most beautiful place I've ever seen.",
+          "translation": "이것은 내가 본 것 중 가장 아름다운 장소입니다."
+        },
+        {
+          "sentence": "She is the smartest person I know.",
+          "translation": "그녀는 내가 아는 사람 중 가장 똑똑한 사람입니다."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "rule": "불규칙 비교급과 최상급",
+      "explanation": "일부 형용사는 불규칙하게 변합니다. good → better → best, bad → worse → worst, many/much → more → most",
+      "examples": [
+        {
+          "sentence": "Today is better than yesterday.",
+          "translation": "오늘이 어제보다 더 좋습니다."
+        },
+        {
+          "sentence": "This is the best movie I've ever watched.",
+          "translation": "이것은 내가 본 영화 중 최고입니다."
+        },
+        {
+          "sentence": "My score was worse than yours.",
+          "translation": "내 점수가 네 점수보다 더 나빴습니다."
+        },
+        {
+          "sentence": "She is the worst singer in the group.",
+          "translation": "그녀는 그룹에서 가장 노래를 못합니다."
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "rule": "동등 비교 (as ... as)",
+      "explanation": "'as + 형용사 원급 + as'는 '~만큼 ...하다'라는 뜻으로 두 대상이 같은 정도임을 나타냅니다. 부정문은 'not as ... as'를 사용합니다.",
+      "examples": [
+        {
+          "sentence": "She is as tall as her brother.",
+          "translation": "그녀는 남동생만큼 키가 큽니다."
+        },
+        {
+          "sentence": "This book is as interesting as that one.",
+          "translation": "이 책은 저 책만큼 흥미롭습니다."
+        },
+        {
+          "sentence": "He is not as fast as me.",
+          "translation": "그는 나만큼 빠르지 않습니다."
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "This book is ___ than that one.",
+      "options": ["big", "bigger", "biggest", "more big"],
+      "answer": "bigger",
+      "explanation": "'big'은 1음절 형용사로 비교급은 'bigger'입니다."
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "She is the ___ student in the class.",
+      "options": ["smart", "smarter", "smartest", "most smart"],
+      "answer": "smartest",
+      "explanation": "'smart'는 1음절 형용사로 최상급은 'smartest'입니다."
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "This movie is ___ interesting than the book.",
+      "options": ["more", "most", "much", "many"],
+      "answer": "more",
+      "explanation": "'interesting'은 3음절 형용사로 비교급은 'more interesting'입니다."
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "Today is ___ than yesterday. (good의 비교급)",
+      "answer": "better",
+      "explanation": "'good'의 비교급은 불규칙으로 'better'입니다."
+    },
+    {
+      "id": "ex5",
+      "type": "fill_blank",
+      "question": "This is the ___ movie I've ever seen. (good의 최상급)",
+      "answer": "best",
+      "explanation": "'good'의 최상급은 불규칙으로 'best'입니다."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "My score was ___ than yours.",
+      "options": ["bad", "worse", "worst", "more bad"],
+      "answer": "worse",
+      "explanation": "'bad'의 비교급은 불규칙으로 'worse'입니다."
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "She is ___ tall ___ her sister.",
+      "options": ["as / as", "more / than", "so / as", "such / as"],
+      "answer": "as / as",
+      "explanation": "동등 비교는 'as + 형용사 + as' 형태를 사용합니다."
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "This is the ___ expensive restaurant in town. (most/more)",
+      "answer": "most",
+      "explanation": "'expensive'는 3음절 형용사로 최상급은 'most expensive'입니다."
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "He runs ___ than me.",
+      "options": ["fast", "faster", "fastest", "more fast"],
+      "answer": "faster",
+      "explanation": "'fast'는 1음절 형용사로 비교급은 'faster'입니다."
+    },
+    {
+      "id": "ex10",
+      "type": "sentence_ordering",
+      "question": "다음 단어를 올바른 순서로 배열하세요: [taller, is, than, She, her, brother]",
+      "options": ["taller", "is", "than", "She", "her", "brother"],
+      "answer": ["She", "is", "taller", "than", "her", "brother"],
+      "explanation": "비교급 문장: 주어 + be동사 + 비교급 + than + 비교 대상 순서입니다."
+    },
+    {
+      "id": "ex11",
+      "type": "sentence_ordering",
+      "question": "다음 단어를 올바른 순서로 배열하세요: [the, city, This, is, biggest, in, country, the]",
+      "options": ["the", "city", "This", "is", "biggest", "in", "country", "the"],
+      "answer": ["This", "is", "the", "biggest", "city", "in", "the", "country"],
+      "explanation": "최상급 문장: This is + the + 최상급 + 명사 + in/of + 범위 순서입니다."
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "Winter is the ___ season of the year.",
+      "options": ["cold", "colder", "coldest", "most cold"],
+      "answer": "coldest",
+      "explanation": "'cold'는 1음절 형용사로 최상급은 'coldest'입니다."
+    }
+  ]
+}

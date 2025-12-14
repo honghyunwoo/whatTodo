@@ -1,0 +1,323 @@
+{
+  "id": "week-1-vocab",
+  "weekId": "week-1",
+  "type": "vocabulary",
+  "level": "B2",
+  "title": "Current Affairs & News",
+  "description": "Learn vocabulary for discussing news, media, and current events.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "headline",
+      "pronunciation": "/ˈhedlaɪn/",
+      "meaning": "the title of a news article",
+      "translation": "헤드라인, 표제",
+      "example": "The headline captured everyone's attention.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w2",
+      "word": "broadcast",
+      "pronunciation": "/ˈbrɔːdkɑːst/",
+      "meaning": "to transmit a program on television or radio",
+      "translation": "방송하다",
+      "example": "The news is broadcast live every evening.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w3",
+      "word": "correspondent",
+      "pronunciation": "/ˌkɒrɪˈspɒndənt/",
+      "meaning": "a journalist who reports from a particular place",
+      "translation": "특파원, 통신원",
+      "example": "Our foreign correspondent reported from the scene.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w4",
+      "word": "coverage",
+      "pronunciation": "/ˈkʌvərɪdʒ/",
+      "meaning": "the reporting of news or an event",
+      "translation": "보도, 취재",
+      "example": "The media coverage of the election was extensive.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w5",
+      "word": "editorial",
+      "pronunciation": "/ˌedɪˈtɔːriəl/",
+      "meaning": "a newspaper article expressing the editor's opinion",
+      "translation": "사설, 논설",
+      "example": "The editorial criticized the government's decision.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w6",
+      "word": "breaking news",
+      "pronunciation": "/ˈbreɪkɪŋ njuːz/",
+      "meaning": "newly received news about an important event",
+      "translation": "속보",
+      "example": "We interrupt this program for breaking news.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w7",
+      "word": "source",
+      "pronunciation": "/sɔːs/",
+      "meaning": "a person or place providing information",
+      "translation": "출처, 정보원",
+      "example": "Journalists must protect their sources.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w8",
+      "word": "bias",
+      "pronunciation": "/ˈbaɪəs/",
+      "meaning": "unfair preference for or against something",
+      "translation": "편견, 편향",
+      "example": "The report was criticized for its political bias.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w9",
+      "word": "reliable",
+      "pronunciation": "/rɪˈlaɪəbl/",
+      "meaning": "able to be trusted or depended on",
+      "translation": "신뢰할 수 있는",
+      "example": "Is this a reliable source of information?",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w10",
+      "word": "accurate",
+      "pronunciation": "/ˈækjərət/",
+      "meaning": "correct in all details; exact",
+      "translation": "정확한",
+      "example": "The report must be accurate and factual.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w11",
+      "word": "controversy",
+      "pronunciation": "/ˈkɒntrəvɜːsi/",
+      "meaning": "prolonged public disagreement or debate",
+      "translation": "논란, 논쟁",
+      "example": "The new policy has caused considerable controversy.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w12",
+      "word": "influence",
+      "pronunciation": "/ˈɪnfluəns/",
+      "meaning": "the power to affect others' decisions or actions",
+      "translation": "영향, 영향력",
+      "example": "Social media has a huge influence on public opinion.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w13",
+      "word": "expose",
+      "pronunciation": "/ɪkˈspəʊz/",
+      "meaning": "to reveal something hidden or secret",
+      "translation": "폭로하다, 드러내다",
+      "example": "The investigation exposed widespread corruption.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w14",
+      "word": "verify",
+      "pronunciation": "/ˈverɪfaɪ/",
+      "meaning": "to check that something is true or accurate",
+      "translation": "확인하다, 검증하다",
+      "example": "Always verify information before sharing it.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w15",
+      "word": "investigate",
+      "pronunciation": "/ɪnˈvestɪɡeɪt/",
+      "meaning": "to examine systematically to discover the truth",
+      "translation": "조사하다, 수사하다",
+      "example": "Police are investigating the incident.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w16",
+      "word": "objective",
+      "pronunciation": "/əbˈdʒektɪv/",
+      "meaning": "not influenced by personal feelings; unbiased",
+      "translation": "객관적인",
+      "example": "Journalists should remain objective in their reporting.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w17",
+      "word": "propaganda",
+      "pronunciation": "/ˌprɒpəˈɡændə/",
+      "meaning": "biased information used to promote a cause",
+      "translation": "선전, 프로파간다",
+      "example": "The regime used propaganda to control public opinion.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w18",
+      "word": "censorship",
+      "pronunciation": "/ˈsensəʃɪp/",
+      "meaning": "suppression of information considered harmful",
+      "translation": "검열",
+      "example": "The country has strict media censorship.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w19",
+      "word": "press conference",
+      "pronunciation": "/pres ˈkɒnfərəns/",
+      "meaning": "a meeting for journalists to receive information",
+      "translation": "기자회견",
+      "example": "The president held a press conference this morning.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w20",
+      "word": "exclusive",
+      "pronunciation": "/ɪkˈskluːsɪv/",
+      "meaning": "a story reported by only one news source",
+      "translation": "독점 기사, 특종",
+      "example": "The newspaper published an exclusive interview.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w21",
+      "word": "anonymous",
+      "pronunciation": "/əˈnɒnɪməs/",
+      "meaning": "with unknown or unnamed identity",
+      "translation": "익명의",
+      "example": "The information came from an anonymous source.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w22",
+      "word": "circulation",
+      "pronunciation": "/ˌsɜːkjəˈleɪʃn/",
+      "meaning": "the number of copies sold of a newspaper",
+      "translation": "발행 부수",
+      "example": "The newspaper has a circulation of two million.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w23",
+      "word": "tabloid",
+      "pronunciation": "/ˈtæblɔɪd/",
+      "meaning": "a newspaper focusing on sensational stories",
+      "translation": "타블로이드, 황색 신문",
+      "example": "Tabloids often exaggerate celebrity gossip.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w24",
+      "word": "misinformation",
+      "pronunciation": "/ˌmɪsɪnfəˈmeɪʃn/",
+      "meaning": "false information spread unintentionally",
+      "translation": "오보, 잘못된 정보",
+      "example": "Social media can spread misinformation quickly.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w25",
+      "word": "credibility",
+      "pronunciation": "/ˌkredəˈbɪləti/",
+      "meaning": "the quality of being trusted and believed",
+      "translation": "신뢰성",
+      "example": "The scandal damaged the newspaper's credibility.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w26",
+      "word": "sensational",
+      "pronunciation": "/senˈseɪʃənl/",
+      "meaning": "causing great excitement; exaggerated",
+      "translation": "선정적인, 자극적인",
+      "example": "The article used sensational language to attract readers.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w27",
+      "word": "impartial",
+      "pronunciation": "/ɪmˈpɑːʃl/",
+      "meaning": "treating all sides equally; fair",
+      "translation": "공정한, 편견 없는",
+      "example": "The judge must remain impartial during the trial.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w28",
+      "word": "leak",
+      "pronunciation": "/liːk/",
+      "meaning": "unauthorized release of secret information",
+      "translation": "유출, 누설",
+      "example": "The document leak caused a political crisis.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w29",
+      "word": "scrutiny",
+      "pronunciation": "/ˈskruːtəni/",
+      "meaning": "critical examination or investigation",
+      "translation": "정밀 조사, 면밀한 검토",
+      "example": "The policy is under intense public scrutiny.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w30",
+      "word": "whistleblower",
+      "pronunciation": "/ˈwɪslbləʊə/",
+      "meaning": "person who exposes wrongdoing in an organization",
+      "translation": "내부 고발자",
+      "example": "The whistleblower revealed financial fraud.",
+      "partOfSpeech": "noun"
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "instruction": "Match the words with their definitions",
+      "pairs": [
+        { "word": "headline", "definition": "the title of a news article" },
+        { "word": "correspondent", "definition": "a journalist reporting from a particular place" },
+        { "word": "bias", "definition": "unfair preference for or against something" },
+        { "word": "verify", "definition": "to check that something is true" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "instruction": "Complete the sentences with the correct words",
+      "sentences": [
+        { "sentence": "The journalist's _____ revealed the company's illegal activities.", "answer": "investigation" },
+        { "sentence": "Social media has become a major _____ of news for young people.", "answer": "source" },
+        { "sentence": "Always check if the information is _____ before sharing it.", "answer": "reliable" },
+        { "sentence": "The _____ news interrupted the regular program.", "answer": "breaking" }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "instruction": "Choose the best word to complete each sentence",
+      "questions": [
+        {
+          "question": "The newspaper's _____ has dropped significantly since the scandal.",
+          "options": ["coverage", "circulation", "broadcast", "editorial"],
+          "answer": "circulation"
+        },
+        {
+          "question": "A good journalist should always remain _____ when reporting.",
+          "options": ["sensational", "anonymous", "objective", "exclusive"],
+          "answer": "objective"
+        }
+      ]
+    }
+  ]
+}

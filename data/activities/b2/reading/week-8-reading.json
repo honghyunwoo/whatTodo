@@ -1,0 +1,146 @@
+{
+  "id": "week-8-reading",
+  "weekId": "week-8",
+  "type": "reading",
+  "level": "B2",
+  "title": "Tourism in a Changing World",
+  "description": "Read about how global tourism is evolving and what travelers will experience in the future.",
+
+  "passage": {
+    "text": "The tourism industry stands at a crossroads. By the end of this decade, travel will have undergone more transformation than in the previous fifty years combined. From climate change to technological innovation, multiple forces will be reshaping how, where, and why we explore the world.\n\nSustainable tourism is emerging as the dominant paradigm. By 2030, eco-friendly travel options will have become mainstream rather than niche. Hotels will be operating on renewable energy, airlines will be using sustainable fuels, and travelers will be offsetting their carbon footprints as standard practice. This shift reflects growing awareness that the places we love to visit will have disappeared if we don't change our behavior.\n\nTechnology will be transforming every aspect of travel. Artificial intelligence will have revolutionized trip planning—algorithms will be creating personalized itineraries based on individual preferences, past travel history, and real-time conditions. By 2035, augmented reality will be enhancing how tourists experience destinations, overlaying historical information and translations onto real-world views.\n\nHowever, concerns about over-tourism persist. Some of the world's most popular destinations will have implemented strict visitor limits by the end of this decade. Venice, Barcelona, and Machu Picchu will be managing tourist flows through reservation systems and dynamic pricing. Communities that depend on tourism will be balancing economic benefits against cultural preservation.\n\nThe definition of travel itself will be expanding. By 2040, space tourism will have become a reality for thousands of people, not just billionaires. Virtual travel experiences will be offering alternatives for those unable or unwilling to make physical journeys. Meanwhile, remote work will have enabled a new generation of digital nomads who will be living and working from different countries each month.\n\nCultural exchange remains tourism's greatest potential. Despite globalization's homogenizing effects, travelers will be seeking authentic local experiences more than ever. By the time young people today reach middle age, they will have witnessed both the loss of some traditions and the revival of others. The tourism industry will have learned that protecting cultural heritage is not just ethical but economically essential.\n\nWhat will travelers in 2050 look back on? They will have experienced a golden age of transformation. Some destinations will have vanished, but new ones will have emerged. The travelers of tomorrow will still be driven by the same fundamental human desire: to explore, connect, and understand our interconnected world.",
+    "wordCount": 375,
+    "estimatedReadingTime": 7
+  },
+
+  "vocabulary": [
+    {
+      "word": "paradigm",
+      "meaning": "a typical pattern or model",
+      "translation": "패러다임, 전형적인 예"
+    },
+    {
+      "word": "niche",
+      "meaning": "specialized segment of the market",
+      "translation": "틈새, 특수 분야"
+    },
+    {
+      "word": "augmented reality",
+      "meaning": "technology that overlays digital content on the real world",
+      "translation": "증강 현실"
+    },
+    {
+      "word": "over-tourism",
+      "meaning": "excessive tourism that damages destinations",
+      "translation": "오버투어리즘, 과잉 관광"
+    },
+    {
+      "word": "digital nomads",
+      "meaning": "people who work remotely while traveling",
+      "translation": "디지털 노마드"
+    },
+    {
+      "word": "homogenizing",
+      "meaning": "making things uniform or similar",
+      "translation": "균질화하는, 동질화하는"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "According to the passage, how much transformation will travel undergo by the end of this decade?",
+      "options": ["Less than before", "About the same as before", "More than in the previous fifty years", "No change expected"],
+      "answer": "More than in the previous fifty years",
+      "explanation": "The passage states 'travel will have undergone more transformation than in the previous fifty years combined.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Sustainable tourism is expected to remain a niche market by 2030.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'eco-friendly travel options will have become mainstream rather than niche.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What will hotels be using for power according to the passage?",
+      "options": ["Coal", "Nuclear energy", "Renewable energy", "Natural gas"],
+      "answer": "Renewable energy",
+      "explanation": "The passage states 'Hotels will be operating on renewable energy.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What technology will be enhancing tourist experiences by 2035?",
+      "options": ["Virtual reality only", "Augmented reality", "Simple mobile apps", "Television"],
+      "answer": "Augmented reality",
+      "explanation": "The passage says 'augmented reality will be enhancing how tourists experience destinations.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Venice and Barcelona will have implemented strict visitor limits.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage mentions 'Venice, Barcelona, and Machu Picchu will be managing tourist flows through reservation systems.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "According to the passage, who will space tourism be available to by 2040?",
+      "options": ["Only astronauts", "Only billionaires", "Thousands of people", "Everyone"],
+      "answer": "Thousands of people",
+      "explanation": "The passage states 'space tourism will have become a reality for thousands of people, not just billionaires.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What will digital nomads be doing?",
+      "options": ["Living in one place permanently", "Living and working from different countries each month", "Only traveling for vacation", "Working in offices"],
+      "answer": "Living and working from different countries each month",
+      "explanation": "The passage says digital nomads 'will be living and working from different countries each month.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "The passage suggests travelers will be less interested in authentic local experiences.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage states 'travelers will be seeking authentic local experiences more than ever.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What will the tourism industry have learned about cultural heritage?",
+      "options": ["It's not important", "It's only for museums", "It's both ethical and economically essential to protect", "It should be replaced with modern attractions"],
+      "answer": "It's both ethical and economically essential to protect",
+      "explanation": "The passage says 'The tourism industry will have learned that protecting cultural heritage is not just ethical but economically essential.'"
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "question": "What fundamental human desire will drive travelers of tomorrow?",
+      "answer": "to explore, connect, and understand",
+      "alternateAnswers": ["explore", "explore and connect", "understand the world", "connection"],
+      "explanation": "The passage ends with 'the same fundamental human desire: to explore, connect, and understand our interconnected world.'"
+    },
+    {
+      "id": "q11",
+      "type": "true_false",
+      "question": "The passage predicts that all current destinations will still exist in 2050.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'Some destinations will have vanished, but new ones will have emerged.'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "Which sentence uses future perfect correctly to describe completion?",
+      "options": ["Hotels will be operating on renewable energy", "AI will be creating personalized itineraries", "Travel will have undergone more transformation", "Travelers will be seeking authentic experiences"],
+      "answer": "Travel will have undergone more transformation",
+      "explanation": "'will have undergone' is future perfect, indicating completed action by a future point."
+    }
+  ]
+}

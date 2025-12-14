@@ -1,0 +1,140 @@
+{
+  "id": "week-5-reading",
+  "weekId": "week-5",
+  "type": "reading",
+  "level": "A2",
+  "title": "My Daily Routine",
+  "description": "Read about a typical workday routine.",
+
+  "passage": {
+    "text": "My name is Minho and I work as a marketing assistant at a company in Seoul. I want to tell you about my typical weekday.\n\nI wake up at 6:30 every morning. First, I take a quick shower and get dressed. Then I have breakfast - usually just coffee and toast because I don't have much time. I leave home at 7:30 and commute to work by subway. The journey takes about 45 minutes.\n\nI arrive at the office around 8:15. I usually start by checking my emails and planning my tasks for the day. We have team meetings every Monday and Wednesday morning. I often work on presentations and reports. My colleagues are friendly, and we sometimes have lunch together at a restaurant near the office.\n\nI finish work at 6 p.m., but sometimes I work overtime when there's a deadline. After work, I usually go to the gym twice a week. On other days, I just go home and relax. I try to go to bed before midnight because I need enough sleep.\n\nWeekends are different. I rarely wake up before 9 a.m. I spend time with friends, watch movies, or just rest at home.",
+    "wordCount": 200,
+    "estimatedReadingTime": 3
+  },
+
+  "vocabulary": [
+    {
+      "word": "marketing assistant",
+      "meaning": "a person who helps with advertising and promotion",
+      "translation": "마케팅 보조원"
+    },
+    {
+      "word": "commute",
+      "meaning": "to travel regularly between home and work",
+      "translation": "통근하다"
+    },
+    {
+      "word": "journey",
+      "meaning": "the act of traveling from one place to another",
+      "translation": "여정, 이동"
+    },
+    {
+      "word": "deadline",
+      "meaning": "the time by which something must be done",
+      "translation": "마감일"
+    },
+    {
+      "word": "relax",
+      "meaning": "to rest and become calm",
+      "translation": "휴식을 취하다"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is Minho's job?",
+      "options": ["Marketing manager", "Marketing assistant", "Office manager", "Sales assistant"],
+      "answer": "Marketing assistant",
+      "explanation": "The passage says 'I work as a marketing assistant.'"
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "What time does Minho wake up on weekdays?",
+      "options": ["6:00", "6:30", "7:00", "7:30"],
+      "answer": "6:30",
+      "explanation": "Minho says 'I wake up at 6:30 every morning.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "How does Minho commute to work?",
+      "options": ["By bus", "By car", "By subway", "On foot"],
+      "answer": "By subway",
+      "explanation": "Minho says 'I commute to work by subway.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "How long is Minho's commute?",
+      "options": ["30 minutes", "45 minutes", "1 hour", "15 minutes"],
+      "answer": "45 minutes",
+      "explanation": "The passage says 'The journey takes about 45 minutes.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Minho has team meetings every day.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Minho says 'We have team meetings every Monday and Wednesday morning.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What does Minho usually do first when he arrives at work?",
+      "options": ["Have breakfast", "Attend a meeting", "Check emails", "Make coffee"],
+      "answer": "Check emails",
+      "explanation": "Minho says 'I usually start by checking my emails.'"
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "Minho sometimes has lunch with his colleagues.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Minho says 'we sometimes have lunch together at a restaurant.'"
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "What time does Minho usually finish work?",
+      "options": ["5 p.m.", "6 p.m.", "7 p.m.", "8 p.m."],
+      "answer": "6 p.m.",
+      "explanation": "Minho says 'I finish work at 6 p.m.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "How often does Minho go to the gym?",
+      "options": ["Every day", "Once a week", "Twice a week", "Three times a week"],
+      "answer": "Twice a week",
+      "explanation": "Minho says 'I usually go to the gym twice a week.'"
+    },
+    {
+      "id": "q10",
+      "type": "true_false",
+      "question": "Minho wakes up early on weekends.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Minho says 'I rarely wake up before 9 a.m.' on weekends."
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What does Minho usually have for breakfast?",
+      "answer": "coffee and toast",
+      "explanation": "Minho says 'usually just coffee and toast.'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "Why does Minho sometimes work overtime?",
+      "options": ["Because he likes to work", "When there's a deadline", "Because his manager asks", "To earn more money"],
+      "answer": "When there's a deadline",
+      "explanation": "Minho says 'sometimes I work overtime when there's a deadline.'"
+    }
+  ]
+}

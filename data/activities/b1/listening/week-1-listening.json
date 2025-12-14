@@ -1,0 +1,144 @@
+{
+  "id": "week-1-listening",
+  "weekId": "week-1",
+  "type": "listening",
+  "level": "B1",
+  "title": "Talking About Life Experiences",
+  "description": "Listen to two friends catching up and sharing their recent life experiences.",
+
+  "audio": {
+    "text": "Sarah: Hey Mike! I haven't seen you in ages! How have you been?\nMike: Sarah! Wow, it's been so long. I've been great, actually. A lot has changed since we last met.\nSarah: Really? Tell me everything! What have you been up to?\nMike: Well, the biggest news is that I've finally graduated from university. I finished my degree last month.\nSarah: Congratulations! That's amazing! Have you found a job yet?\nMike: Yes, I've just started working at a marketing company downtown. I've only been there for two weeks, but I'm really enjoying it so far.\nSarah: That's wonderful! I remember you always wanted to work in marketing.\nMike: Exactly! It's been my dream for years. What about you? Have you done anything exciting recently?\nSarah: Actually, yes! I've just come back from traveling. I've been to Southeast Asia for three months.\nMike: Wow! Which countries have you visited?\nSarah: I've been to Thailand, Vietnam, and Indonesia. It was the best experience of my life. I've learned so much about different cultures.\nMike: Have you ever traveled alone before?\nSarah: No, this was my first time traveling solo. I was nervous at first, but it has really changed me. I've become much more confident and independent.\nMike: That sounds incredible. Have you already decided what to do next?\nSarah: I've actually just accepted a job offer. I'm going to work as a travel blogger!\nMike: No way! That's perfect for you. You've always been a great writer.\nSarah: Thanks! I've never thought I could turn my passion into a career, but here I am.\nMike: We should celebrate! Have you had lunch yet?\nSarah: No, not yet. Let's grab something to eat and catch up more!",
+    "duration": 120,
+    "speed": 0.9,
+    "speakers": ["Sarah", "Mike"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "I haven't seen you in ages!",
+        "difficulty": "easy"
+      },
+      {
+        "id": "d2",
+        "text": "A lot has changed since we last met.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d3",
+        "text": "I've just started working at a marketing company.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d4",
+        "text": "I've become much more confident and independent.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d5",
+        "text": "I've never thought I could turn my passion into a career.",
+        "difficulty": "hard"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "How long has it been since Sarah and Mike last met?",
+      "options": ["A few days", "A long time", "A week", "A month"],
+      "answer": "A long time",
+      "explanation": "Sarah says 'I haven't seen you in ages!' which means a very long time."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Mike has not graduated from university yet.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Mike says 'I've finally graduated from university.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "How long has Mike been working at his new job?",
+      "options": ["One week", "Two weeks", "One month", "Two months"],
+      "answer": "Two weeks",
+      "explanation": "Mike says 'I've only been there for two weeks.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "Where did Mike get a job?",
+      "options": ["A travel agency", "A marketing company", "A university", "A restaurant"],
+      "answer": "A marketing company",
+      "explanation": "Mike says 'I've just started working at a marketing company downtown.'"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "How long did Sarah travel in Southeast Asia?",
+      "options": ["Two weeks", "One month", "Three months", "Six months"],
+      "answer": "Three months",
+      "explanation": "Sarah says 'I've been to Southeast Asia for three months.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "Which country did Sarah NOT visit?",
+      "options": ["Thailand", "Vietnam", "Malaysia", "Indonesia"],
+      "answer": "Malaysia",
+      "explanation": "Sarah visited Thailand, Vietnam, and Indonesia. Malaysia was not mentioned."
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "Sarah has traveled alone many times before.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Sarah says 'this was my first time traveling solo.'"
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "How has traveling changed Sarah?",
+      "options": ["She became tired", "She became more confident and independent", "She became homesick", "She became worried"],
+      "answer": "She became more confident and independent",
+      "explanation": "Sarah says 'I've become much more confident and independent.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What is Sarah's new job?",
+      "options": ["Marketing manager", "Tour guide", "Travel blogger", "English teacher"],
+      "answer": "Travel blogger",
+      "explanation": "Sarah says 'I'm going to work as a travel blogger!'"
+    },
+    {
+      "id": "q10",
+      "type": "true_false",
+      "question": "Sarah and Mike have already had lunch.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Sarah says 'No, not yet' when Mike asks if she's had lunch."
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What has Mike always wanted to work in?",
+      "answer": "marketing",
+      "alternateAnswers": ["Marketing", "a marketing company"],
+      "explanation": "Sarah says 'you always wanted to work in marketing.'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "What does Sarah say about turning her passion into a career?",
+      "options": ["She always knew she could do it", "She never thought it was possible", "Her parents helped her", "It was easy"],
+      "answer": "She never thought it was possible",
+      "explanation": "Sarah says 'I've never thought I could turn my passion into a career.'"
+    }
+  ]
+}

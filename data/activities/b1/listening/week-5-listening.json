@@ -1,0 +1,144 @@
+{
+  "id": "week-5-listening",
+  "weekId": "week-5",
+  "type": "listening",
+  "level": "B1",
+  "title": "Environmental Awareness",
+  "description": "Listen to a discussion about protecting the environment.",
+
+  "audio": {
+    "text": "Emma: Have you heard about the new recycling program in our city?\nTom: Yes, I saw something about it in the news. What's changing?\nEmma: Well, they're making it easier to recycle more types of plastic. Before, we could only recycle numbers one and two, but now we can recycle up to number five.\nTom: That's great news. I always felt bad throwing away so much plastic.\nEmma: Me too. But recycling is just one part of the solution. I think we need to reduce how much we use in the first place.\nTom: You're right. I've been trying to use fewer disposable products. I bought a reusable water bottle and coffee cup.\nEmma: That's a good start. I've also switched to cloth bags instead of plastic ones. It takes some getting used to, but it's worth it.\nTom: The more people do these small things, the bigger the impact will be.\nEmma: Exactly. I read that if everyone reduced their plastic use by just twenty percent, it would make a huge difference.\nTom: What else can we do? I want to reduce my carbon footprint more.\nEmma: Well, eating less meat is one of the most effective things you can do. The meat industry produces more greenhouse gases than all transportation combined.\nTom: Really? I had no idea. That's much more than I expected.\nEmma: Yes, it's surprising. You don't have to become vegetarian, but even cutting down to meat three or four times a week helps.\nTom: I could probably do that. What about transportation?\nEmma: Using public transport is far better than driving alone. Or better yet, cycling or walking when possible.\nTom: The weather is getting nicer, so maybe I'll start cycling to work. It would be good for my health too.\nEmma: That's a great idea. Every little change helps.",
+    "duration": 160,
+    "speed": 0.9,
+    "speakers": ["Emma", "Tom"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "I think we need to reduce how much we use in the first place.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "d2",
+        "text": "The more people do these small things, the bigger the impact will be.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d3",
+        "text": "Eating less meat is one of the most effective things you can do.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d4",
+        "text": "The meat industry produces more greenhouse gases than all transportation combined.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d5",
+        "text": "Using public transport is far better than driving alone.",
+        "difficulty": "medium"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is changing in the new recycling program?",
+      "options": ["More collection days", "More types of plastic can be recycled", "Free recycling bins", "New recycling centers"],
+      "answer": "More types of plastic can be recycled",
+      "explanation": "Emma says 'now we can recycle up to number five' instead of just one and two."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Emma thinks recycling alone is enough to solve environmental problems.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Emma says 'recycling is just one part of the solution. I think we need to reduce how much we use.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What reusable items has Tom bought?",
+      "options": ["Bags and containers", "Water bottle and coffee cup", "Plates and cutlery", "Shopping bags"],
+      "answer": "Water bottle and coffee cup",
+      "explanation": "Tom says 'I bought a reusable water bottle and coffee cup.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What does Emma use instead of plastic bags?",
+      "options": ["Paper bags", "Cloth bags", "No bags", "Reusable plastic bags"],
+      "answer": "Cloth bags",
+      "explanation": "Emma says 'I've also switched to cloth bags instead of plastic ones.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Emma says that if everyone reduced plastic use by 20%, it would make a huge difference.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Emma says 'if everyone reduced their plastic use by just twenty percent, it would make a huge difference.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "According to Emma, what is one of the most effective things to reduce carbon footprint?",
+      "options": ["Recycling more", "Eating less meat", "Using solar panels", "Planting trees"],
+      "answer": "Eating less meat",
+      "explanation": "Emma says 'eating less meat is one of the most effective things you can do.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "According to the conversation, what produces more greenhouse gases than all transportation?",
+      "options": ["Electricity production", "The meat industry", "Manufacturing", "Buildings"],
+      "answer": "The meat industry",
+      "explanation": "Emma says 'The meat industry produces more greenhouse gases than all transportation combined.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Emma tells Tom he must become vegetarian.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Emma says 'You don't have to become vegetarian, but even cutting down helps.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "How many times a week does Emma suggest eating meat?",
+      "options": ["Never", "Once or twice", "Three or four times", "Every day"],
+      "answer": "Three or four times",
+      "explanation": "Emma suggests 'cutting down to meat three or four times a week.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What does Tom decide to start doing?",
+      "options": ["Taking the bus", "Cycling to work", "Walking to work", "Working from home"],
+      "answer": "Cycling to work",
+      "explanation": "Tom says 'maybe I'll start cycling to work.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What does Emma say about using public transport compared to driving alone?",
+      "answer": "far better",
+      "alternateAnswers": ["it's far better", "better", "much better"],
+      "explanation": "Emma says 'Using public transport is far better than driving alone.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "Tom mentions that cycling would also be good for his health.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Tom says 'It would be good for my health too.'"
+    }
+  ]
+}

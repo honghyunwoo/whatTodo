@@ -1,0 +1,146 @@
+{
+  "id": "week-8-reading",
+  "weekId": "week-8",
+  "type": "reading",
+  "level": "B1",
+  "title": "Following Your Dreams",
+  "description": "Read about the importance of pursuing your dreams and overcoming obstacles.",
+
+  "passage": {
+    "text": "Everyone has dreams. Some people dream of traveling the world, while others imagine starting their own business or making a difference in their community. But how many people actually pursue their dreams? And why do so many give up before they even try?\n\nFear is one of the biggest obstacles to achieving our dreams. Many people are afraid of failure. They think, \"What if I don't succeed?\" But the truth is, failure is often a necessary step toward success. If every successful person had given up after their first failure, we would have far fewer inventions, businesses, and works of art in the world.\n\nAnother common obstacle is other people's opinions. Family and friends sometimes discourage us from pursuing unusual paths. They might say, \"That's not a stable career\" or \"You should be more realistic.\" If everyone listened to such advice, there would be no artists, entrepreneurs, or explorers.\n\nOf course, dreams need to be balanced with reality. If you wanted to become a professional athlete but had never played sports, you would need to start with smaller goals first. The key is to break big dreams into smaller, achievable steps.\n\nTime is another factor many people mention. \"If I had more time, I would pursue my passion,\" people often say. But successful dreamers make time by setting priorities. They wake up early, use weekends wisely, and sometimes make sacrifices.\n\nWhat would you do if you knew you couldn't fail? This question helps people identify their true passions. If money and time were not issues, what would you spend your life doing? The answer to this question can guide your choices, even if you can't pursue your dream full-time right now.\n\nRemember: it's never too late to start. Many successful people found their calling later in life. The most important thing is to take the first step.",
+    "wordCount": 305,
+    "estimatedReadingTime": 5
+  },
+
+  "vocabulary": [
+    {
+      "word": "pursue",
+      "meaning": "to try to achieve something over time",
+      "translation": "추구하다"
+    },
+    {
+      "word": "obstacles",
+      "meaning": "things that make progress difficult",
+      "translation": "장애물"
+    },
+    {
+      "word": "discourage",
+      "meaning": "to make someone less confident",
+      "translation": "낙담시키다"
+    },
+    {
+      "word": "entrepreneurs",
+      "meaning": "people who start businesses",
+      "translation": "기업가"
+    },
+    {
+      "word": "priorities",
+      "meaning": "things that are most important",
+      "translation": "우선순위"
+    },
+    {
+      "word": "calling",
+      "meaning": "a strong desire to do a particular job",
+      "translation": "소명, 천직"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "According to the passage, what is one of the biggest obstacles to achieving dreams?",
+      "options": ["Lack of money", "Fear of failure", "Bad weather", "Technology"],
+      "answer": "Fear of failure",
+      "explanation": "The passage says 'Fear is one of the biggest obstacles to achieving our dreams.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "The passage suggests that failure is always negative.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'failure is often a necessary step toward success.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What might family and friends say that discourages people?",
+      "options": ["Follow your heart", "You should be more realistic", "Take risks", "Dream big"],
+      "answer": "You should be more realistic",
+      "explanation": "The passage says they might say 'That's not a stable career' or 'You should be more realistic.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What would happen if everyone listened to discouraging advice?",
+      "options": ["Everyone would be happy", "There would be no artists, entrepreneurs, or explorers", "Dreams would come true faster", "Life would be easier"],
+      "answer": "There would be no artists, entrepreneurs, or explorers",
+      "explanation": "The passage says 'there would be no artists, entrepreneurs, or explorers.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "The passage says dreams should be completely unrealistic.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'dreams need to be balanced with reality.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What is the key to achieving big dreams?",
+      "options": ["Waiting for the right moment", "Breaking them into smaller steps", "Having lots of money", "Working alone"],
+      "answer": "Breaking them into smaller steps",
+      "explanation": "The passage says 'The key is to break big dreams into smaller, achievable steps.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "How do successful dreamers find time for their passions?",
+      "options": ["They don't work", "They set priorities and make sacrifices", "They sleep less", "They hire help"],
+      "answer": "They set priorities and make sacrifices",
+      "explanation": "The passage says 'successful dreamers make time by setting priorities' and 'sometimes make sacrifices.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "The question 'What would you do if you knew you couldn't fail?' helps identify true passions.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage says 'This question helps people identify their true passions.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "According to the passage, when is it too late to start pursuing dreams?",
+      "options": ["After age 30", "After retirement", "Never", "After having children"],
+      "answer": "Never",
+      "explanation": "The passage says 'it's never too late to start.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What is the most important thing according to the conclusion?",
+      "options": ["Having a perfect plan", "Taking the first step", "Waiting for success", "Avoiding failure"],
+      "answer": "Taking the first step",
+      "explanation": "The passage concludes 'The most important thing is to take the first step.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What do many successful people find later in life?",
+      "answer": "their calling",
+      "alternateAnswers": ["calling", "their passion", "their dream"],
+      "explanation": "The passage says 'Many successful people found their calling later in life.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "The passage suggests that pursuing dreams requires making sacrifices.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage says successful dreamers 'sometimes make sacrifices.'"
+    }
+  ]
+}

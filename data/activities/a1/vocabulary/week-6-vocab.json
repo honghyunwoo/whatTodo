@@ -1,0 +1,357 @@
+{
+  "id": "week-6-vocab",
+  "weekId": "week-6",
+  "type": "vocabulary",
+  "level": "B1",
+  "title": "비교 표현 어휘",
+  "description": "비교급과 최상급에 자주 사용되는 형용사와 부사를 배웁니다.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "tall",
+      "pronunciation": "/tɔːl/",
+      "partOfSpeech": "adjective",
+      "meaning": "키가 큰, 높은",
+      "example": "He is taller than his brother.",
+      "exampleMeaning": "그는 그의 형보다 키가 더 크다.",
+      "comparative": "taller",
+      "superlative": "tallest"
+    },
+    {
+      "id": "w2",
+      "word": "short",
+      "pronunciation": "/ʃɔːrt/",
+      "partOfSpeech": "adjective",
+      "meaning": "키가 작은, 짧은",
+      "example": "This book is shorter than that one.",
+      "exampleMeaning": "이 책이 저 책보다 더 짧다.",
+      "comparative": "shorter",
+      "superlative": "shortest"
+    },
+    {
+      "id": "w3",
+      "word": "big",
+      "pronunciation": "/bɪɡ/",
+      "partOfSpeech": "adjective",
+      "meaning": "큰",
+      "example": "Tokyo is bigger than Seoul.",
+      "exampleMeaning": "도쿄는 서울보다 더 크다.",
+      "comparative": "bigger",
+      "superlative": "biggest"
+    },
+    {
+      "id": "w4",
+      "word": "small",
+      "pronunciation": "/smɔːl/",
+      "partOfSpeech": "adjective",
+      "meaning": "작은",
+      "example": "My room is smaller than yours.",
+      "exampleMeaning": "내 방은 너의 방보다 더 작다.",
+      "comparative": "smaller",
+      "superlative": "smallest"
+    },
+    {
+      "id": "w5",
+      "word": "hot",
+      "pronunciation": "/hɑːt/",
+      "partOfSpeech": "adjective",
+      "meaning": "더운, 뜨거운",
+      "example": "Today is hotter than yesterday.",
+      "exampleMeaning": "오늘이 어제보다 더 덥다.",
+      "comparative": "hotter",
+      "superlative": "hottest"
+    },
+    {
+      "id": "w6",
+      "word": "cold",
+      "pronunciation": "/koʊld/",
+      "partOfSpeech": "adjective",
+      "meaning": "추운, 차가운",
+      "example": "Winter is colder than autumn.",
+      "exampleMeaning": "겨울이 가을보다 더 춥다.",
+      "comparative": "colder",
+      "superlative": "coldest"
+    },
+    {
+      "id": "w7",
+      "word": "fast",
+      "pronunciation": "/fæst/",
+      "partOfSpeech": "adjective",
+      "meaning": "빠른",
+      "example": "This car is faster than that one.",
+      "exampleMeaning": "이 차가 저 차보다 더 빠르다.",
+      "comparative": "faster",
+      "superlative": "fastest"
+    },
+    {
+      "id": "w8",
+      "word": "slow",
+      "pronunciation": "/sloʊ/",
+      "partOfSpeech": "adjective",
+      "meaning": "느린",
+      "example": "The bus is slower than the subway.",
+      "exampleMeaning": "버스가 지하철보다 더 느리다.",
+      "comparative": "slower",
+      "superlative": "slowest"
+    },
+    {
+      "id": "w9",
+      "word": "easy",
+      "pronunciation": "/ˈiːzi/",
+      "partOfSpeech": "adjective",
+      "meaning": "쉬운",
+      "example": "This test is easier than the last one.",
+      "exampleMeaning": "이번 시험이 지난 시험보다 더 쉽다.",
+      "comparative": "easier",
+      "superlative": "easiest"
+    },
+    {
+      "id": "w10",
+      "word": "difficult",
+      "pronunciation": "/ˈdɪfɪkəlt/",
+      "partOfSpeech": "adjective",
+      "meaning": "어려운",
+      "example": "Math is more difficult than English for me.",
+      "exampleMeaning": "내게는 수학이 영어보다 더 어렵다.",
+      "comparative": "more difficult",
+      "superlative": "most difficult"
+    },
+    {
+      "id": "w11",
+      "word": "expensive",
+      "pronunciation": "/ɪkˈspensɪv/",
+      "partOfSpeech": "adjective",
+      "meaning": "비싼",
+      "example": "This restaurant is more expensive than that one.",
+      "exampleMeaning": "이 식당이 저 식당보다 더 비싸다.",
+      "comparative": "more expensive",
+      "superlative": "most expensive"
+    },
+    {
+      "id": "w12",
+      "word": "cheap",
+      "pronunciation": "/tʃiːp/",
+      "partOfSpeech": "adjective",
+      "meaning": "싼, 저렴한",
+      "example": "Online shopping is cheaper than shopping in stores.",
+      "exampleMeaning": "온라인 쇼핑이 매장 쇼핑보다 더 저렴하다.",
+      "comparative": "cheaper",
+      "superlative": "cheapest"
+    },
+    {
+      "id": "w13",
+      "word": "interesting",
+      "pronunciation": "/ˈɪntrəstɪŋ/",
+      "partOfSpeech": "adjective",
+      "meaning": "흥미로운",
+      "example": "This movie is more interesting than that one.",
+      "exampleMeaning": "이 영화가 저 영화보다 더 흥미롭다.",
+      "comparative": "more interesting",
+      "superlative": "most interesting"
+    },
+    {
+      "id": "w14",
+      "word": "boring",
+      "pronunciation": "/ˈbɔːrɪŋ/",
+      "partOfSpeech": "adjective",
+      "meaning": "지루한",
+      "example": "The lecture was more boring than I expected.",
+      "exampleMeaning": "강의가 내가 예상했던 것보다 더 지루했다.",
+      "comparative": "more boring",
+      "superlative": "most boring"
+    },
+    {
+      "id": "w15",
+      "word": "beautiful",
+      "pronunciation": "/ˈbjuːtɪfl/",
+      "partOfSpeech": "adjective",
+      "meaning": "아름다운",
+      "example": "Paris is one of the most beautiful cities in the world.",
+      "exampleMeaning": "파리는 세계에서 가장 아름다운 도시 중 하나다.",
+      "comparative": "more beautiful",
+      "superlative": "most beautiful"
+    },
+    {
+      "id": "w16",
+      "word": "good",
+      "pronunciation": "/ɡʊd/",
+      "partOfSpeech": "adjective",
+      "meaning": "좋은",
+      "example": "This pizza is better than the one we had yesterday.",
+      "exampleMeaning": "이 피자가 우리가 어제 먹었던 것보다 더 좋다.",
+      "comparative": "better",
+      "superlative": "best"
+    },
+    {
+      "id": "w17",
+      "word": "bad",
+      "pronunciation": "/bæd/",
+      "partOfSpeech": "adjective",
+      "meaning": "나쁜",
+      "example": "Today's weather is worse than yesterday's.",
+      "exampleMeaning": "오늘 날씨가 어제보다 더 나쁘다.",
+      "comparative": "worse",
+      "superlative": "worst"
+    },
+    {
+      "id": "w18",
+      "word": "far",
+      "pronunciation": "/fɑːr/",
+      "partOfSpeech": "adverb",
+      "meaning": "멀리",
+      "example": "My house is farther from school than yours.",
+      "exampleMeaning": "내 집이 너의 집보다 학교에서 더 멀다.",
+      "comparative": "farther/further",
+      "superlative": "farthest/furthest"
+    },
+    {
+      "id": "w19",
+      "word": "modern",
+      "pronunciation": "/ˈmɑːdərn/",
+      "partOfSpeech": "adjective",
+      "meaning": "현대적인",
+      "example": "Tokyo is more modern than many other cities.",
+      "exampleMeaning": "도쿄는 많은 다른 도시들보다 더 현대적이다.",
+      "comparative": "more modern",
+      "superlative": "most modern"
+    },
+    {
+      "id": "w20",
+      "word": "popular",
+      "pronunciation": "/ˈpɑːpjələr/",
+      "partOfSpeech": "adjective",
+      "meaning": "인기 있는",
+      "example": "Soccer is more popular than baseball in most countries.",
+      "exampleMeaning": "대부분의 나라에서 축구가 야구보다 더 인기가 있다.",
+      "comparative": "more popular",
+      "superlative": "most popular"
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "What is the comparative form of 'tall'?",
+      "options": ["taller", "more tall", "tallest", "most tall"],
+      "answer": "taller",
+      "explanation": "'tall'은 짧은 형용사이므로 -er을 붙여 'taller'가 됩니다."
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "What is the superlative form of 'big'?",
+      "options": ["biger", "bigger", "bigest", "biggest"],
+      "answer": "biggest",
+      "explanation": "'big'은 자음을 한 번 더 쓰고 -est를 붙여 'biggest'가 됩니다."
+    },
+    {
+      "id": "ex3",
+      "type": "fill_blank",
+      "question": "This book is _____ than that one. (interesting)",
+      "answer": ["more interesting"],
+      "explanation": "'interesting'은 긴 형용사이므로 'more interesting'으로 비교급을 만듭니다."
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "Summer is _____ than spring. (hot)",
+      "answer": ["hotter"],
+      "explanation": "'hot'은 자음을 한 번 더 쓰고 -er을 붙여 'hotter'가 됩니다."
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "What is the comparative form of 'good'?",
+      "options": ["gooder", "more good", "better", "best"],
+      "answer": "better",
+      "explanation": "'good'의 비교급은 불규칙 변화로 'better'입니다."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "What is the superlative form of 'bad'?",
+      "options": ["baddest", "worse", "worst", "most bad"],
+      "answer": "worst",
+      "explanation": "'bad'의 최상급은 불규칙 변화로 'worst'입니다."
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "This is the _____ movie I've ever seen. (beautiful)",
+      "answer": ["most beautiful"],
+      "explanation": "긴 형용사의 최상급은 'most + 형용사' 형태입니다."
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "My car is _____ yours. (fast, as...as)",
+      "answer": ["as fast as"],
+      "explanation": "동등 비교는 'as + 형용사 + as' 형태를 사용합니다."
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "She is more tall than me.",
+        "She is taller than me.",
+        "She is tallest than me.",
+        "She is the taller than me."
+      ],
+      "answer": "She is taller than me.",
+      "explanation": "'tall'은 짧은 형용사이므로 -er을 붙여 비교급을 만듭니다."
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "This is expensivest restaurant.",
+        "This is the most expensive restaurant.",
+        "This is more expensive restaurant.",
+        "This is the expensivest restaurant."
+      ],
+      "answer": "This is the most expensive restaurant.",
+      "explanation": "긴 형용사의 최상급은 'the most + 형용사' 형태이며, 반드시 'the'를 붙입니다."
+    },
+    {
+      "id": "ex11",
+      "type": "fill_blank",
+      "question": "English is _____ than Chinese for me. (easy)",
+      "answer": ["easier"],
+      "explanation": "'easy'는 -y를 -i로 바꾸고 -er을 붙여 'easier'가 됩니다."
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "This is _____ day of my life. (good, superlative)",
+      "answer": ["the best"],
+      "explanation": "'good'의 최상급은 불규칙 변화로 'the best'입니다."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "What is the comparative form of 'far'?",
+      "options": ["farer", "more far", "farther", "farest"],
+      "answer": "farther",
+      "explanation": "'far'의 비교급은 불규칙 변화로 'farther' 또는 'further'입니다."
+    },
+    {
+      "id": "ex14",
+      "type": "fill_blank",
+      "question": "Soccer is _____ sport in the world. (popular, superlative)",
+      "answer": ["the most popular"],
+      "explanation": "긴 형용사의 최상급은 'the most + 형용사' 형태입니다."
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "Which word has an irregular comparative form?",
+      "options": ["tall", "good", "expensive", "modern"],
+      "answer": "good",
+      "explanation": "'good'의 비교급은 'better'로 불규칙 변화를 합니다."
+    }
+  ]
+}

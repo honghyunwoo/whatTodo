@@ -1,0 +1,122 @@
+{
+  "id": "week-6-listening",
+  "weekId": "week-6",
+  "type": "listening",
+  "level": "A2",
+  "title": "Weather Forecast",
+  "description": "Listen to a weather forecast and understand predictions.",
+
+  "audio": {
+    "text": "Good morning! Here's your weather forecast for the week.\n\nToday, Monday, will be sunny with temperatures around 22 degrees Celsius. It's the best day for outdoor activities this week, so enjoy the sunshine!\n\nTomorrow, Tuesday, clouds will move in during the afternoon. Temperatures will drop to about 18 degrees. It might rain in the evening, so don't forget your umbrella.\n\nWednesday and Thursday will be rainy. We're expecting heavy showers, especially on Wednesday morning. The temperature will stay around 15 degrees.\n\nFriday looks better. The rain will stop, but it will still be cloudy. Expect temperatures of about 17 degrees.\n\nThe weekend forecast is good news! Saturday will be partly cloudy with sunshine in the afternoon. Sunday will be the warmest day of the week with temperatures reaching 24 degrees. Perfect weather for a trip to the park!\n\nThat's all for today's forecast. Have a great week!",
+    "duration": 90,
+    "speed": 0.8,
+    "speakers": ["Weather Reporter"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "It's the best day for outdoor activities this week.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "d2",
+        "text": "It might rain in the evening, so don't forget your umbrella.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d3",
+        "text": "We're expecting heavy showers, especially on Wednesday morning.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d4",
+        "text": "Sunday will be the warmest day of the week.",
+        "difficulty": "easy"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is the weather like on Monday?",
+      "options": ["Rainy", "Cloudy", "Sunny", "Foggy"],
+      "answer": "Sunny",
+      "explanation": "The forecast says 'Monday will be sunny.'"
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "What is the temperature on Monday?",
+      "options": ["18 degrees", "22 degrees", "15 degrees", "24 degrees"],
+      "answer": "22 degrees",
+      "explanation": "The forecast mentions 'temperatures around 22 degrees Celsius.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "When might it rain on Tuesday?",
+      "options": ["In the morning", "At noon", "In the afternoon", "In the evening"],
+      "answer": "In the evening",
+      "explanation": "The forecast says 'It might rain in the evening.'"
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "question": "Wednesday will have light rain.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The forecast says 'heavy showers, especially on Wednesday morning.'"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What is the temperature on Wednesday and Thursday?",
+      "options": ["22 degrees", "18 degrees", "15 degrees", "24 degrees"],
+      "answer": "15 degrees",
+      "explanation": "The forecast says 'The temperature will stay around 15 degrees.'"
+    },
+    {
+      "id": "q6",
+      "type": "true_false",
+      "question": "Friday will be rainy.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The forecast says 'Friday looks better. The rain will stop, but it will still be cloudy.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "When will there be sunshine on Saturday?",
+      "options": ["All day", "In the morning", "In the afternoon", "In the evening"],
+      "answer": "In the afternoon",
+      "explanation": "The forecast says 'partly cloudy with sunshine in the afternoon.'"
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "Which day will be the warmest?",
+      "options": ["Monday", "Saturday", "Sunday", "Friday"],
+      "answer": "Sunday",
+      "explanation": "The forecast says 'Sunday will be the warmest day of the week.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What temperature is expected on Sunday?",
+      "options": ["22 degrees", "18 degrees", "15 degrees", "24 degrees"],
+      "answer": "24 degrees",
+      "explanation": "The forecast says 'temperatures reaching 24 degrees.'"
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "question": "What should you take on Tuesday?",
+      "answer": "umbrella",
+      "explanation": "The forecast warns 'don't forget your umbrella.'"
+    }
+  ]
+}

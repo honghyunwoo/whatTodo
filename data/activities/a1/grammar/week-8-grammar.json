@@ -1,0 +1,238 @@
+{
+  "id": "week-8-grammar",
+  "weekId": "week-8",
+  "type": "grammar",
+  "level": "B2",
+  "title": "수동태와 관계대명사",
+  "description": "수동태(Passive Voice)와 관계대명사(Relative Pronouns)를 학습합니다.",
+
+  "rules": [
+    {
+      "id": "rule1",
+      "rule": "수동태 (Passive Voice)",
+      "explanation": "행동의 대상에 초점을 맞출 때 수동태를 사용합니다. 누가 했는지보다 무엇이 되었는지가 중요할 때 사용합니다.",
+      "formula": "Subject + be + past participle (+ by + agent)",
+      "examples": [
+        {
+          "sentence": "The book was written by Shakespeare.",
+          "translation": "그 책은 셰익스피어에 의해 쓰여졌다.",
+          "breakdown": "The book (주어) + was (be동사 과거) + written (과거분사) + by Shakespeare (행위자)"
+        },
+        {
+          "sentence": "English is spoken in many countries.",
+          "translation": "영어는 많은 나라에서 사용된다.",
+          "breakdown": "English (주어) + is (be동사) + spoken (과거분사)"
+        },
+        {
+          "sentence": "The window was broken yesterday.",
+          "translation": "창문이 어제 깨졌다.",
+          "breakdown": "The window (주어) + was (be동사) + broken (과거분사)"
+        }
+      ],
+      "notes": "수동태는 'be + 과거분사' 형태로 만들며, 행위자를 밝히고 싶으면 'by + 행위자'를 추가합니다."
+    },
+    {
+      "id": "rule2",
+      "rule": "수동태 시제 변화",
+      "explanation": "수동태도 능동태처럼 다양한 시제로 표현할 수 있습니다.",
+      "formula": "be (시제에 맞게 변화) + past participle",
+      "examples": [
+        {
+          "sentence": "Present: The car is washed every week.",
+          "translation": "현재: 그 차는 매주 세차된다.",
+          "breakdown": "is + washed (현재)"
+        },
+        {
+          "sentence": "Past: The car was washed yesterday.",
+          "translation": "과거: 그 차는 어제 세차되었다.",
+          "breakdown": "was + washed (과거)"
+        },
+        {
+          "sentence": "Future: The car will be washed tomorrow.",
+          "translation": "미래: 그 차는 내일 세차될 것이다.",
+          "breakdown": "will be + washed (미래)"
+        },
+        {
+          "sentence": "Present Perfect: The car has been washed.",
+          "translation": "현재완료: 그 차는 세차되었다.",
+          "breakdown": "has been + washed (현재완료)"
+        }
+      ],
+      "notes": "be동사의 시제를 변화시켜 수동태의 시제를 표현합니다."
+    },
+    {
+      "id": "rule3",
+      "rule": "관계대명사 who/which/that",
+      "explanation": "관계대명사는 두 문장을 연결하여 명사를 설명하는 절을 만듭니다.",
+      "formula": "Noun + who/which/that + clause",
+      "examples": [
+        {
+          "sentence": "The man who is standing there is my teacher.",
+          "translation": "저기 서 있는 남자는 내 선생님이다.",
+          "breakdown": "who는 사람을 지칭 (The man = who)"
+        },
+        {
+          "sentence": "The book which is on the table is mine.",
+          "translation": "테이블 위에 있는 책은 내 것이다.",
+          "breakdown": "which는 사물을 지칭 (The book = which)"
+        },
+        {
+          "sentence": "The car that I bought is very fast.",
+          "translation": "내가 산 차는 매우 빠르다.",
+          "breakdown": "that은 사람이나 사물 모두 가능"
+        }
+      ],
+      "notes": "who (사람), which (사물), that (사람/사물 모두)"
+    },
+    {
+      "id": "rule4",
+      "rule": "관계대명사의 주격과 목적격",
+      "explanation": "관계대명사는 절 안에서 주어 역할(주격) 또는 목적어 역할(목적격)을 할 수 있습니다.",
+      "formula": "Subject case vs Object case",
+      "examples": [
+        {
+          "sentence": "Subject: The woman who called you is my mother.",
+          "translation": "주격: 당신에게 전화한 여자는 내 어머니다.",
+          "breakdown": "who가 called의 주어 역할"
+        },
+        {
+          "sentence": "Object: The woman (whom) I met is my mother.",
+          "translation": "목적격: 내가 만난 여자는 내 어머니다.",
+          "breakdown": "whom이 met의 목적어 역할 (생략 가능)"
+        },
+        {
+          "sentence": "Subject: The book which is on the desk is new.",
+          "translation": "주격: 책상 위에 있는 책은 새 것이다.",
+          "breakdown": "which가 is의 주어 역할"
+        },
+        {
+          "sentence": "Object: The book (which) I read was interesting.",
+          "translation": "목적격: 내가 읽은 책은 흥미로웠다.",
+          "breakdown": "which가 read의 목적어 역할 (생략 가능)"
+        }
+      ],
+      "notes": "목적격 관계대명사(whom, which, that)는 종종 생략됩니다."
+    },
+    {
+      "id": "rule5",
+      "rule": "관계대명사 whose",
+      "explanation": "소유를 나타낼 때 whose를 사용합니다.",
+      "formula": "Noun + whose + noun + clause",
+      "examples": [
+        {
+          "sentence": "The man whose car is red lives next door.",
+          "translation": "차가 빨간색인 남자는 옆집에 산다.",
+          "breakdown": "whose car = his car"
+        },
+        {
+          "sentence": "I know a girl whose father is a doctor.",
+          "translation": "나는 아버지가 의사인 소녀를 안다.",
+          "breakdown": "whose father = her father"
+        },
+        {
+          "sentence": "The company whose products are popular is expanding.",
+          "translation": "제품이 인기 있는 회사가 확장하고 있다.",
+          "breakdown": "whose products = its products"
+        }
+      ],
+      "notes": "whose는 사람과 사물 모두에 사용 가능하며, '~의'라는 소유의 의미입니다."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "fill_blank",
+      "question": "The book _____ (write) by Mark Twain. (passive, past)",
+      "answer": "was written",
+      "explanation": "수동태 과거형: was + written"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "English _____ (speak) in Australia. (passive, present)",
+      "answer": "is spoken",
+      "explanation": "수동태 현재형: is + spoken"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "The house _____ built in 1990.",
+      "options": ["is", "was", "were", "be"],
+      "answer": "was",
+      "explanation": "1990년은 과거이므로 'was'를 사용합니다."
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "The letters _____ (send) yesterday. (passive, past)",
+      "answer": "were sent",
+      "explanation": "복수 주어이고 과거이므로 'were sent'를 사용합니다."
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "The homework will _____ checked tomorrow.",
+      "options": ["is", "be", "been", "being"],
+      "answer": "be",
+      "explanation": "미래 수동태: will be + checked"
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "The man _____ is talking is my teacher. (who/which/that)",
+      "answer": ["who", "that"],
+      "explanation": "사람을 지칭하므로 'who' 또는 'that'을 사용합니다."
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "The book _____ is on the table is mine. (who/which/that)",
+      "answer": ["which", "that"],
+      "explanation": "사물을 지칭하므로 'which' 또는 'that'을 사용합니다."
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "The woman _____ I met yesterday is a scientist.",
+      "options": ["who", "whom", "which", "whose"],
+      "answer": "whom",
+      "explanation": "목적격 관계대명사이므로 'whom'을 사용합니다. (생략 가능)"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "The car _____ color is blue is very expensive.",
+      "answer": "whose",
+      "explanation": "소유를 나타내므로 'whose'를 사용합니다."
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "The letter was write by John.",
+        "The letter was written by John.",
+        "The letter is write by John.",
+        "The letter written by John."
+      ],
+      "answer": "The letter was written by John.",
+      "explanation": "수동태는 'be + 과거분사' 형태입니다."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "Which relative pronoun is used for possession?",
+      "options": ["who", "which", "that", "whose"],
+      "answer": "whose",
+      "explanation": "'whose'는 소유를 나타냅니다."
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "The report has _____ (complete) by the team. (passive, present perfect)",
+      "answer": "been completed",
+      "explanation": "현재완료 수동태: has been + completed"
+    }
+  ]
+}

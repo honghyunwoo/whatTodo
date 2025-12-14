@@ -1,0 +1,175 @@
+{
+  "id": "week-8-writing",
+  "weekId": "week-8",
+  "type": "writing",
+  "level": "B1",
+  "title": "Writing About Dreams and Hypothetical Situations",
+  "description": "Write about your dreams and what you would do in imaginary situations.",
+
+  "prompt": {
+    "topic": "My Dream Life",
+    "description": "Imagine you could design your ideal life. Write about what your life would be like if you could have anything you wanted. Describe where you would live, what job you would have, how you would spend your time, and why these things are important to you.",
+    "requirements": [
+      "Describe your ideal life in detail",
+      "Use at least four second conditional sentences",
+      "Explain why these things would make you happy",
+      "Include what sacrifices or changes would be needed",
+      "Give a realistic reflection at the end"
+    ],
+    "wordCount": {
+      "min": 140,
+      "max": 190
+    },
+    "timeLimit": 25
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "If I could design my ideal life, I would live near the ocean.",
+      "translation": "이상적인 삶을 설계할 수 있다면 바다 근처에 살 거예요.",
+      "useCase": "To introduce your ideal location"
+    },
+    {
+      "id": "ex2",
+      "sentence": "If I had my dream job, I would work as a travel writer.",
+      "translation": "꿈의 직업을 가진다면 여행 작가로 일할 거예요.",
+      "useCase": "To describe your ideal career"
+    },
+    {
+      "id": "ex3",
+      "sentence": "I would spend more time with my family if I didn't have to work long hours.",
+      "translation": "긴 시간 일하지 않아도 된다면 가족과 더 많은 시간을 보낼 거예요.",
+      "useCase": "To talk about lifestyle changes"
+    },
+    {
+      "id": "ex4",
+      "sentence": "If this dream came true, I would feel fulfilled and happy.",
+      "translation": "이 꿈이 이루어진다면 충만하고 행복할 거예요.",
+      "useCase": "To express how you would feel"
+    },
+    {
+      "id": "ex5",
+      "sentence": "Of course, if I wanted to achieve this dream, I would need to make some sacrifices.",
+      "translation": "물론 이 꿈을 이루고 싶다면 몇 가지 희생이 필요할 거예요.",
+      "useCase": "To acknowledge reality"
+    },
+    {
+      "id": "ex6",
+      "sentence": "Even though my dream life seems far away, I believe I can work toward it step by step.",
+      "translation": "꿈의 삶이 멀게 느껴지더라도 한 걸음씩 나아갈 수 있다고 믿어요.",
+      "useCase": "To conclude realistically"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "ideal",
+      "translation": "이상적인",
+      "example": "My ideal life would include travel."
+    },
+    {
+      "word": "fulfill",
+      "translation": "이루다, 충족시키다",
+      "example": "I want to fulfill my potential."
+    },
+    {
+      "word": "sacrifice",
+      "translation": "희생",
+      "example": "Success requires some sacrifice."
+    },
+    {
+      "word": "pursue",
+      "translation": "추구하다",
+      "example": "I would pursue my passion for art."
+    },
+    {
+      "word": "accomplish",
+      "translation": "성취하다",
+      "example": "I hope to accomplish my goals."
+    },
+    {
+      "word": "fortunate",
+      "translation": "운이 좋은",
+      "example": "I would feel fortunate to have this life."
+    },
+    {
+      "word": "meaningful",
+      "translation": "의미 있는",
+      "example": "I want a meaningful career."
+    },
+    {
+      "word": "realistic",
+      "translation": "현실적인",
+      "example": "We should be realistic about our goals."
+    }
+  ],
+
+  "usefulExpressions": [
+    {
+      "expression": "If I could design my ideal life...",
+      "usage": "To introduce the topic",
+      "example": "If I could design my ideal life, I would live in the countryside."
+    },
+    {
+      "expression": "I would spend my time...",
+      "usage": "To describe activities",
+      "example": "I would spend my time reading and gardening."
+    },
+    {
+      "expression": "This would make me happy because...",
+      "usage": "To explain feelings",
+      "example": "This would make me happy because I love nature."
+    },
+    {
+      "expression": "If I wanted to achieve this...",
+      "usage": "To discuss requirements",
+      "example": "If I wanted to achieve this, I would need to save more money."
+    },
+    {
+      "expression": "Even though this seems like a dream...",
+      "usage": "To add realistic reflection",
+      "example": "Even though this seems like a dream, I can start taking small steps today."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "Content Requirements",
+      "items": [
+        "Did you describe your ideal life in detail?",
+        "Did you use at least four second conditional sentences?",
+        "Did you explain why these things would make you happy?",
+        "Did you mention sacrifices or changes needed?",
+        "Did you include a realistic reflection at the end?"
+      ]
+    },
+    {
+      "category": "Grammar & Structure",
+      "items": [
+        "Did you use second conditional correctly (if + past, would + base)?",
+        "Did you vary your sentence structures?",
+        "Did you organize your ideas logically?",
+        "Did you use appropriate linking words?"
+      ]
+    },
+    {
+      "category": "Vocabulary & Style",
+      "items": [
+        "Did you use dreams and goals vocabulary?",
+        "Did you express wishes and desires clearly?",
+        "Did you avoid repetition?",
+        "Did you use descriptive language?"
+      ]
+    },
+    {
+      "category": "Word Count & Completion",
+      "items": [
+        "Is your writing at least 140 words?",
+        "Is your writing no more than 190 words?",
+        "Does your writing have a clear introduction and conclusion?",
+        "Did you complete within the time limit?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "id": "week-7-writing",
+  "weekId": "week-7",
+  "type": "writing",
+  "level": "A2",
+  "title": "Writing About Your Hobbies",
+  "description": "Write about your hobbies and explain why you enjoy them.",
+
+  "prompt": {
+    "topic": "My Hobbies",
+    "description": "Write about one or two hobbies that you enjoy. Explain what you do, how often you do it, and why you like it.",
+    "requirements": [
+      "Name your hobby/hobbies",
+      "Explain what you do when practicing this hobby",
+      "Say how often you do this activity",
+      "Explain why you enjoy it",
+      "Use gerunds (-ing) and infinitives (to + verb) correctly"
+    ],
+    "wordCount": {
+      "min": 80,
+      "max": 120
+    },
+    "timeLimit": 20
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "My favorite hobby is photography.",
+      "translation": "제가 가장 좋아하는 취미는 사진 촬영이에요.",
+      "useCase": "To introduce your hobby"
+    },
+    {
+      "id": "ex2",
+      "sentence": "I enjoy taking pictures of nature and landscapes.",
+      "translation": "자연과 풍경 사진 찍는 것을 즐겨요.",
+      "useCase": "To describe what you do (gerund after 'enjoy')"
+    },
+    {
+      "id": "ex3",
+      "sentence": "I practice about three times a week.",
+      "translation": "일주일에 약 세 번 연습해요.",
+      "useCase": "To express frequency"
+    },
+    {
+      "id": "ex4",
+      "sentence": "I started learning this hobby two years ago.",
+      "translation": "2년 전에 이 취미를 배우기 시작했어요.",
+      "useCase": "To talk about when you started"
+    },
+    {
+      "id": "ex5",
+      "sentence": "It helps me relax after a busy day.",
+      "translation": "바쁜 하루 후에 휴식을 취하는 데 도움이 돼요.",
+      "useCase": "To explain the benefit"
+    },
+    {
+      "id": "ex6",
+      "sentence": "I want to improve my skills even more.",
+      "translation": "실력을 더 향상시키고 싶어요.",
+      "useCase": "To talk about future goals (infinitive after 'want')"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "enjoy + -ing",
+      "translation": "~하는 것을 즐기다",
+      "example": "I enjoy playing tennis."
+    },
+    {
+      "word": "want to + verb",
+      "translation": "~하고 싶다",
+      "example": "I want to learn photography."
+    },
+    {
+      "word": "practice",
+      "translation": "연습하다",
+      "example": "I practice every day."
+    },
+    {
+      "word": "improve",
+      "translation": "향상시키다",
+      "example": "I want to improve my skills."
+    },
+    {
+      "word": "creative",
+      "translation": "창의적인",
+      "example": "Painting is a creative hobby."
+    },
+    {
+      "word": "relaxing",
+      "translation": "편안한, 휴식이 되는",
+      "example": "Gardening is very relaxing."
+    },
+    {
+      "word": "exciting",
+      "translation": "신나는",
+      "example": "Rock climbing is exciting."
+    },
+    {
+      "word": "beginner",
+      "translation": "초보자",
+      "example": "I'm still a beginner."
+    }
+  ],
+
+  "usefulExpressions": [
+    {
+      "expression": "I've been doing... for [time]",
+      "usage": "To say how long you've had this hobby",
+      "example": "I've been doing photography for two years."
+    },
+    {
+      "expression": "It helps me...",
+      "usage": "To explain the benefit of your hobby",
+      "example": "It helps me reduce stress."
+    },
+    {
+      "expression": "The best thing about... is...",
+      "usage": "To highlight what you like most",
+      "example": "The best thing about painting is being creative."
+    },
+    {
+      "expression": "I would recommend... to anyone who...",
+      "usage": "To recommend your hobby to others",
+      "example": "I would recommend yoga to anyone who wants to relax."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "Content Requirements",
+      "items": [
+        "Did you clearly name your hobby/hobbies?",
+        "Did you explain what you do when practicing?",
+        "Did you mention how often you do this activity?",
+        "Did you explain why you enjoy it?",
+        "Did you share any benefits of this hobby?"
+      ]
+    },
+    {
+      "category": "Grammar & Form",
+      "items": [
+        "Did you use gerunds (-ing) correctly?",
+        "Did you use infinitives (to + verb) correctly?",
+        "Did you use the correct verb forms?",
+        "Did you vary your sentence structures?"
+      ]
+    },
+    {
+      "category": "Word Count",
+      "items": [
+        "Is your writing at least 80 words?",
+        "Is your writing no more than 120 words?",
+        "Are your sentences a good length?"
+      ]
+    },
+    {
+      "category": "Overall Assessment",
+      "items": [
+        "Is your description clear and interesting?",
+        "Do your sentences connect well?",
+        "Did you show enthusiasm for your hobby?",
+        "Did you complete within the time limit?"
+      ]
+    }
+  ]
+}

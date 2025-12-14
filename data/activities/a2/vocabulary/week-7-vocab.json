@@ -1,0 +1,339 @@
+{
+  "id": "week-7-vocab",
+  "weekId": "week-7",
+  "type": "vocabulary",
+  "level": "A2",
+  "title": "Hobbies & Free Time",
+  "description": "Learn vocabulary about hobbies, leisure activities, and entertainment.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "hobby",
+      "pronunciation": "/ˈhɑːbi/",
+      "partOfSpeech": "noun",
+      "meaning": "an activity you enjoy doing in your free time",
+      "translation": "취미",
+      "example": "My hobby is playing the guitar.",
+      "exampleMeaning": "제 취미는 기타 치는 것이에요."
+    },
+    {
+      "id": "w2",
+      "word": "collect",
+      "pronunciation": "/kəˈlekt/",
+      "partOfSpeech": "verb",
+      "meaning": "to gather similar items as a hobby",
+      "translation": "수집하다",
+      "example": "He collects stamps from different countries.",
+      "exampleMeaning": "그는 여러 나라의 우표를 수집해요."
+    },
+    {
+      "id": "w3",
+      "word": "photography",
+      "pronunciation": "/fəˈtɑːɡrəfi/",
+      "partOfSpeech": "noun",
+      "meaning": "the art of taking photographs",
+      "translation": "사진 촬영",
+      "example": "I'm interested in photography.",
+      "exampleMeaning": "저는 사진 촬영에 관심이 있어요."
+    },
+    {
+      "id": "w4",
+      "word": "painting",
+      "pronunciation": "/ˈpeɪntɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "the activity of making pictures with paint",
+      "translation": "그림 그리기",
+      "example": "She enjoys painting landscapes.",
+      "exampleMeaning": "그녀는 풍경화 그리는 것을 즐겨요."
+    },
+    {
+      "id": "w5",
+      "word": "gardening",
+      "pronunciation": "/ˈɡɑːrdnɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "the activity of growing plants",
+      "translation": "정원 가꾸기",
+      "example": "Gardening is relaxing for me.",
+      "exampleMeaning": "정원 가꾸기는 저에게 편안해요."
+    },
+    {
+      "id": "w6",
+      "word": "join",
+      "pronunciation": "/dʒɔɪn/",
+      "partOfSpeech": "verb",
+      "meaning": "to become a member of a group",
+      "translation": "가입하다",
+      "example": "I want to join a dance club.",
+      "exampleMeaning": "댄스 동호회에 가입하고 싶어요."
+    },
+    {
+      "id": "w7",
+      "word": "practice",
+      "pronunciation": "/ˈpræktɪs/",
+      "partOfSpeech": "verb",
+      "meaning": "to do something repeatedly to improve",
+      "translation": "연습하다",
+      "example": "I practice piano every day.",
+      "exampleMeaning": "저는 매일 피아노를 연습해요."
+    },
+    {
+      "id": "w8",
+      "word": "skill",
+      "pronunciation": "/skɪl/",
+      "partOfSpeech": "noun",
+      "meaning": "an ability to do something well",
+      "translation": "기술, 능력",
+      "example": "Playing chess improves thinking skills.",
+      "exampleMeaning": "체스는 사고력을 향상시켜요."
+    },
+    {
+      "id": "w9",
+      "word": "instrument",
+      "pronunciation": "/ˈɪnstrəmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "a tool for making music",
+      "translation": "악기",
+      "example": "What instrument do you play?",
+      "exampleMeaning": "어떤 악기를 연주하세요?"
+    },
+    {
+      "id": "w10",
+      "word": "concert",
+      "pronunciation": "/ˈkɑːnsərt/",
+      "partOfSpeech": "noun",
+      "meaning": "a musical performance",
+      "translation": "콘서트, 음악회",
+      "example": "We went to a concert last weekend.",
+      "exampleMeaning": "우리는 지난 주말에 콘서트에 갔어요."
+    },
+    {
+      "id": "w11",
+      "word": "exhibition",
+      "pronunciation": "/ˌeksɪˈbɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "a public display of art or objects",
+      "translation": "전시회",
+      "example": "There's a photography exhibition at the museum.",
+      "exampleMeaning": "박물관에서 사진 전시회가 열려요."
+    },
+    {
+      "id": "w12",
+      "word": "outdoor",
+      "pronunciation": "/ˈaʊtdɔːr/",
+      "partOfSpeech": "adjective",
+      "meaning": "done or located outside",
+      "translation": "야외의",
+      "example": "I enjoy outdoor activities like hiking.",
+      "exampleMeaning": "저는 등산 같은 야외 활동을 즐겨요."
+    },
+    {
+      "id": "w13",
+      "word": "indoor",
+      "pronunciation": "/ˈɪndɔːr/",
+      "partOfSpeech": "adjective",
+      "meaning": "done or located inside",
+      "translation": "실내의",
+      "example": "Chess is an indoor activity.",
+      "exampleMeaning": "체스는 실내 활동이에요."
+    },
+    {
+      "id": "w14",
+      "word": "weekend",
+      "pronunciation": "/ˌwiːkˈend/",
+      "partOfSpeech": "noun",
+      "meaning": "Saturday and Sunday",
+      "translation": "주말",
+      "example": "What do you do on weekends?",
+      "exampleMeaning": "주말에 뭐 하세요?"
+    },
+    {
+      "id": "w15",
+      "word": "relax",
+      "pronunciation": "/rɪˈlæks/",
+      "partOfSpeech": "verb",
+      "meaning": "to rest and become calm",
+      "translation": "휴식을 취하다",
+      "example": "I like to relax at home after work.",
+      "exampleMeaning": "퇴근 후 집에서 쉬는 것을 좋아해요."
+    },
+    {
+      "id": "w16",
+      "word": "bored",
+      "pronunciation": "/bɔːrd/",
+      "partOfSpeech": "adjective",
+      "meaning": "feeling tired because something is not interesting",
+      "translation": "지루한",
+      "example": "I get bored on rainy days.",
+      "exampleMeaning": "비 오는 날에는 지루해져요."
+    },
+    {
+      "id": "w17",
+      "word": "exciting",
+      "pronunciation": "/ɪkˈsaɪtɪŋ/",
+      "partOfSpeech": "adjective",
+      "meaning": "causing great enthusiasm",
+      "translation": "신나는, 흥미진진한",
+      "example": "Rock climbing is very exciting.",
+      "exampleMeaning": "암벽 등반은 매우 신나요."
+    },
+    {
+      "id": "w18",
+      "word": "creative",
+      "pronunciation": "/kriˈeɪtɪv/",
+      "partOfSpeech": "adjective",
+      "meaning": "involving imagination and new ideas",
+      "translation": "창의적인",
+      "example": "Painting is a creative hobby.",
+      "exampleMeaning": "그림 그리기는 창의적인 취미예요."
+    },
+    {
+      "id": "w19",
+      "word": "beginner",
+      "pronunciation": "/bɪˈɡɪnər/",
+      "partOfSpeech": "noun",
+      "meaning": "a person just starting to learn something",
+      "translation": "초보자",
+      "example": "This class is for beginners.",
+      "exampleMeaning": "이 수업은 초보자용이에요."
+    },
+    {
+      "id": "w20",
+      "word": "improve",
+      "pronunciation": "/ɪmˈpruːv/",
+      "partOfSpeech": "verb",
+      "meaning": "to get better at something",
+      "translation": "향상시키다",
+      "example": "I want to improve my cooking skills.",
+      "exampleMeaning": "요리 실력을 향상시키고 싶어요."
+    },
+    {
+      "id": "w21",
+      "word": "member",
+      "pronunciation": "/ˈmembər/",
+      "partOfSpeech": "noun",
+      "meaning": "a person who belongs to a group",
+      "translation": "회원",
+      "example": "She's a member of a book club.",
+      "exampleMeaning": "그녀는 독서 클럽 회원이에요."
+    },
+    {
+      "id": "w22",
+      "word": "recommend",
+      "pronunciation": "/ˌrekəˈmend/",
+      "partOfSpeech": "verb",
+      "meaning": "to suggest something is good",
+      "translation": "추천하다",
+      "example": "I recommend trying yoga.",
+      "exampleMeaning": "요가를 시도해 보는 것을 추천해요."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "What does 'hobby' mean?",
+      "options": ["a job", "an activity you enjoy in free time", "a sport", "a class"],
+      "answer": "an activity you enjoy in free time"
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "Choose the correct word: 'I want to _____ a yoga class.'",
+      "options": ["collect", "join", "practice", "improve"],
+      "answer": "join"
+    },
+    {
+      "id": "ex3",
+      "type": "fill_blank",
+      "question": "He _____ stamps from different countries.",
+      "answer": "collects"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "What is 'photography'?",
+      "options": ["making music", "taking photographs", "painting pictures", "writing stories"],
+      "answer": "taking photographs"
+    },
+    {
+      "id": "ex5",
+      "type": "fill_blank",
+      "question": "I _____ piano every day to get better.",
+      "answer": "practice"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "What is an 'instrument'?",
+      "options": ["a tool for cooking", "a tool for making music", "a type of sport", "a type of art"],
+      "answer": "a tool for making music"
+    },
+    {
+      "id": "ex7",
+      "type": "matching",
+      "pairs": [
+        {"word": "outdoor", "meaning": "done outside"},
+        {"word": "indoor", "meaning": "done inside"},
+        {"word": "beginner", "meaning": "someone just starting"},
+        {"word": "creative", "meaning": "using imagination"}
+      ]
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "I like to _____ at home on weekends.",
+      "answer": "relax"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "If you feel 'bored', you feel:",
+      "options": ["happy", "tired because something isn't interesting", "excited", "scared"],
+      "answer": "tired because something isn't interesting"
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "There's an art _____ at the museum.",
+      "answer": "exhibition"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "What does 'improve' mean?",
+      "options": ["to get worse", "to get better", "to stay the same", "to stop"],
+      "answer": "to get better"
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "I _____ this movie. It's really good!",
+      "answer": "recommend"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "Which activity is NOT creative?",
+      "options": ["painting", "photography", "watching TV", "writing poetry"],
+      "answer": "watching TV"
+    },
+    {
+      "id": "ex14",
+      "type": "matching",
+      "pairs": [
+        {"word": "concert", "meaning": "a musical performance"},
+        {"word": "member", "meaning": "person in a group"},
+        {"word": "skill", "meaning": "ability to do something"},
+        {"word": "gardening", "meaning": "growing plants"}
+      ]
+    },
+    {
+      "id": "ex15",
+      "type": "fill_blank",
+      "question": "Rock climbing is very _____. I love the adrenaline!",
+      "answer": "exciting"
+    }
+  ]
+}

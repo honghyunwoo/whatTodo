@@ -1,0 +1,200 @@
+{
+  "id": "week-8-grammar",
+  "weekId": "week-8",
+  "type": "grammar",
+  "level": "B2",
+  "title": "Future Perfect & Future Continuous",
+  "description": "Master advanced future tenses to discuss completed future actions and ongoing activities at specific future times.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Future Perfect Simple",
+      "explanation": "Use the future perfect to describe an action that will be completed before a specific time in the future. It emphasizes the completion of an action by a deadline.",
+      "structure": "will + have + past participle",
+      "examples": [
+        {
+          "sentence": "By next month, I will have visited five different countries.",
+          "translation": "다음 달까지 나는 5개의 다른 나라를 방문했을 것이다."
+        },
+        {
+          "sentence": "She will have learned three languages by the time she turns 25.",
+          "translation": "그녀는 25살이 될 때까지 3개 국어를 배웠을 것이다."
+        },
+        {
+          "sentence": "By 2030, globalization will have transformed how we work.",
+          "translation": "2030년까지 세계화는 우리가 일하는 방식을 변화시켰을 것이다."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Future Continuous",
+      "explanation": "Use the future continuous to describe an action that will be in progress at a specific time in the future, or to talk about planned future events.",
+      "structure": "will + be + -ing",
+      "examples": [
+        {
+          "sentence": "This time next week, I will be exploring ancient ruins in Greece.",
+          "translation": "다음 주 이맘때쯤, 나는 그리스의 고대 유적을 탐험하고 있을 것이다."
+        },
+        {
+          "sentence": "At 8 PM tomorrow, we will be flying over the Atlantic.",
+          "translation": "내일 저녁 8시에 우리는 대서양 위를 비행하고 있을 것이다."
+        },
+        {
+          "sentence": "They will be staying with local families during their exchange program.",
+          "translation": "그들은 교환 프로그램 동안 현지 가정에 머무를 것이다."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Future Perfect Continuous",
+      "explanation": "Use the future perfect continuous to emphasize the duration of an action that will have been ongoing until a point in the future.",
+      "structure": "will + have + been + -ing",
+      "examples": [
+        {
+          "sentence": "By next year, I will have been traveling for six months.",
+          "translation": "내년까지, 나는 6개월 동안 여행을 해 왔을 것이다."
+        },
+        {
+          "sentence": "She will have been living abroad for ten years by December.",
+          "translation": "12월까지 그녀는 10년 동안 해외에 살고 있었을 것이다."
+        },
+        {
+          "sentence": "By the time we arrive, they will have been waiting for three hours.",
+          "translation": "우리가 도착할 때까지, 그들은 3시간 동안 기다리고 있었을 것이다."
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Future Perfect vs. Future Continuous",
+      "explanation": "Use future perfect when focusing on completion of an action. Use future continuous when focusing on the action being in progress at a specific moment.",
+      "structure": "Completion: will have + past participle / In progress: will be + -ing",
+      "examples": [
+        {
+          "sentence": "By 6 PM, I will have packed my bags. (completed action)",
+          "translation": "오후 6시까지, 나는 짐을 다 쌀 것이다. (완료된 행동)"
+        },
+        {
+          "sentence": "At 6 PM, I will be packing my bags. (action in progress)",
+          "translation": "오후 6시에, 나는 짐을 싸고 있을 것이다. (진행 중인 행동)"
+        },
+        {
+          "sentence": "When you call, I will have finished dinner. vs. When you call, I will be eating dinner.",
+          "translation": "네가 전화할 때, 나는 저녁을 다 먹었을 것이다. vs. 네가 전화할 때, 나는 저녁을 먹고 있을 것이다."
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Time Expressions with Future Perfect",
+      "explanation": "Future perfect is commonly used with time expressions indicating a deadline or point in time: by + time/date, by the time + clause, before + time, in + time period.",
+      "structure": "By/Before + time reference, subject + will have + past participle",
+      "examples": [
+        {
+          "sentence": "By the end of this trip, we will have seen ten UNESCO heritage sites.",
+          "translation": "이번 여행이 끝날 때까지, 우리는 10개의 유네스코 유산을 보게 될 것이다."
+        },
+        {
+          "sentence": "Before midnight, the plane will have landed safely.",
+          "translation": "자정 전에, 비행기는 안전하게 착륙했을 것이다."
+        },
+        {
+          "sentence": "In two weeks, I will have completed my language course.",
+          "translation": "2주 후면, 나는 어학 과정을 마쳤을 것이다."
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "title": "Future Forms for Travel Plans",
+      "explanation": "When discussing travel, different future forms serve different purposes: present continuous for fixed plans, going to for intentions, will for predictions, future continuous for what will be happening, future perfect for what will be completed.",
+      "structure": "Various future forms for different purposes",
+      "examples": [
+        {
+          "sentence": "We're leaving tomorrow at 6 AM. (present continuous - fixed plan)",
+          "translation": "우리는 내일 오전 6시에 떠납니다. (현재진행형 - 확정된 계획)"
+        },
+        {
+          "sentence": "By this time tomorrow, we will be sunbathing on the beach. (future continuous)",
+          "translation": "내일 이맘때면, 우리는 해변에서 일광욕을 하고 있을 것이다. (미래진행형)"
+        },
+        {
+          "sentence": "By the end of our vacation, we will have experienced three different cultures. (future perfect)",
+          "translation": "휴가가 끝날 때까지, 우리는 세 가지 다른 문화를 경험했을 것이다. (미래완료)"
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "By next summer, I _____ to ten different countries.",
+      "options": ["will travel", "will be traveling", "will have traveled", "am traveling"],
+      "answer": "will have traveled"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "This time next month, we _____ (explore) ancient temples in Cambodia.",
+      "answer": "will be exploring"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "By the time we arrive at the hotel, they _____ our room ready.",
+      "options": ["will prepare", "will be preparing", "will have prepared", "prepare"],
+      "answer": "will have prepared"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "At 3 PM tomorrow, the tour guide _____ (show) us the main attractions.",
+      "answer": "will be showing"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "By December, she _____ abroad for five years.",
+      "options": ["will live", "will be living", "will have been living", "is living"],
+      "answer": "will have been living"
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "Before the end of this year, globalization _____ (change) many traditional industries.",
+      "answer": "will have changed"
+    },
+    {
+      "id": "ex7",
+      "type": "transformation",
+      "instruction": "Rewrite using future perfect",
+      "original": "I will finish packing before midnight.",
+      "answer": "By midnight, I will have finished packing."
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "What _____ this time next week? - I'll be sailing in the Caribbean!",
+      "options": ["will you do", "will you be doing", "will you have done", "are you doing"],
+      "answer": "will you be doing"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "By 2050, millions of people _____ (migrate) due to climate change.",
+      "answer": "will have migrated"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "In three hours, the flight _____ and we'll be in Paris.",
+      "options": ["will land", "will be landing", "will have landed", "lands"],
+      "answer": "will have landed"
+    }
+  ]
+}

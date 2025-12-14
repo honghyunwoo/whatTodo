@@ -1,0 +1,166 @@
+{
+  "id": "week-2-reading",
+  "weekId": "week-2",
+  "type": "reading",
+  "level": "A1",
+  "title": "일상 루틴",
+  "description": "일상생활의 루틴에 대한 글을 읽고 이해합니다.",
+
+  "passage": {
+    "text": "My name is David. I am a high school student. Every day, I wake up at 6:30 in the morning.\n\nI eat breakfast with my family at 7 o'clock. We usually eat toast and drink milk. After breakfast, I go to school by bus.\n\nSchool starts at 8:30. I have six classes every day. My favorite subject is science. I like learning about animals and plants.\n\nAfter school, I play basketball with my friends. We practice for one hour. Then I go home and do my homework.\n\nIn the evening, I have dinner with my family. We talk about our day. After dinner, I study for about two hours. I go to bed at 10 o'clock.",
+    "wordCount": 127,
+    "estimatedReadingTime": 3,
+    "audioText": "My name is David. I am a high school student. Every day, I wake up at 6:30 in the morning. [PAUSE] I eat breakfast with my family at 7 o'clock. We usually eat toast and drink milk. After breakfast, I go to school by bus. [PAUSE] School starts at 8:30. I have six classes every day. My favorite subject is science. I like learning about animals and plants. [PAUSE] After school, I play basketball with my friends. We practice for one hour. Then I go home and do my homework. [PAUSE] In the evening, I have dinner with my family. We talk about our day. After dinner, I study for about two hours. I go to bed at 10 o'clock."
+  },
+
+  "vocabulary": [
+    {
+      "word": "wake up",
+      "meaning": "일어나다",
+      "lineNumber": 1
+    },
+    {
+      "word": "breakfast",
+      "meaning": "아침식사",
+      "lineNumber": 3
+    },
+    {
+      "word": "usually",
+      "meaning": "보통, 대개",
+      "lineNumber": 3
+    },
+    {
+      "word": "subject",
+      "meaning": "과목",
+      "lineNumber": 5
+    },
+    {
+      "word": "science",
+      "meaning": "과학",
+      "lineNumber": 5
+    },
+    {
+      "word": "learning",
+      "meaning": "배우기",
+      "lineNumber": 5
+    },
+    {
+      "word": "practice",
+      "meaning": "연습하다",
+      "lineNumber": 7
+    },
+    {
+      "word": "homework",
+      "meaning": "숙제",
+      "lineNumber": 7
+    },
+    {
+      "word": "evening",
+      "meaning": "저녁",
+      "lineNumber": 9
+    },
+    {
+      "word": "dinner",
+      "meaning": "저녁식사",
+      "lineNumber": 9
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is the boy's name?",
+      "options": ["David", "Daniel", "Dennis", "Derek"],
+      "answer": "David",
+      "explanation": "지문 첫 문장에서 'My name is David'라고 소개합니다."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "What time does David wake up?",
+      "options": ["6:00", "6:30", "7:00", "7:30"],
+      "answer": "6:30",
+      "explanation": "David는 매일 아침 6시 30분에 일어납니다."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What does David eat for breakfast?",
+      "options": ["Toast and milk", "Eggs and bacon", "Cereal", "Pancakes"],
+      "answer": "Toast and milk",
+      "explanation": "David의 가족은 보통 토스트와 우유를 먹습니다."
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "question": "David eats breakfast alone.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "David는 가족과 함께 아침을 먹습니다. (I eat breakfast with my family)"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "How does David go to school?",
+      "options": ["By bus", "By car", "By bike", "On foot"],
+      "answer": "By bus",
+      "explanation": "David는 버스로 학교에 갑니다."
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What time does school start?",
+      "options": ["8:00", "8:30", "9:00", "9:30"],
+      "answer": "8:30",
+      "explanation": "학교는 8시 30분에 시작합니다."
+    },
+    {
+      "id": "q7",
+      "type": "short_answer",
+      "question": "How many classes does David have every day?",
+      "answer": "6",
+      "explanation": "David는 매일 6개의 수업이 있습니다."
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "What is David's favorite subject?",
+      "options": ["Science", "Math", "English", "History"],
+      "answer": "Science",
+      "explanation": "David가 가장 좋아하는 과목은 과학입니다."
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What sport does David play?",
+      "options": ["Basketball", "Soccer", "Tennis", "Baseball"],
+      "answer": "Basketball",
+      "explanation": "David는 방과 후 친구들과 농구를 합니다."
+    },
+    {
+      "id": "q10",
+      "type": "true_false",
+      "question": "David practices basketball for two hours.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "David는 한 시간 동안 연습합니다. (We practice for one hour)"
+    },
+    {
+      "id": "q11",
+      "type": "true_false",
+      "question": "David does his homework before dinner.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "David는 집에 와서 숙제를 하고 저녁을 먹습니다."
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "What time does David go to bed?",
+      "options": ["9 o'clock", "10 o'clock", "11 o'clock", "12 o'clock"],
+      "answer": "10 o'clock",
+      "explanation": "David는 10시에 잠자리에 듭니다."
+    }
+  ]
+}

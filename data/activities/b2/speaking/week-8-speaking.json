@@ -1,0 +1,161 @@
+{
+  "id": "week-8-speaking",
+  "weekId": "week-8",
+  "type": "speaking",
+  "level": "B2",
+  "title": "Discussing Travel Plans and Future Predictions",
+  "description": "Practice using future perfect and future continuous to discuss travel experiences and global changes.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "By this time next year, I will have visited three new countries.",
+      "translation": "내년 이맘때면, 나는 세 개의 새로운 나라를 방문했을 것이다.",
+      "pronunciation": "/baɪ ðɪs taɪm nekst jɪər, aɪ wɪl hæv ˈvɪzɪtɪd θriː njuː ˈkʌntriz/",
+      "tips": "Stress 'will have visited' - the completion aspect"
+    },
+    {
+      "id": "s2",
+      "text": "This time tomorrow, we will be flying over the Pacific Ocean.",
+      "translation": "내일 이맘때, 우리는 태평양 위를 비행하고 있을 것이다.",
+      "pronunciation": "/ðɪs taɪm təˈmɒrəʊ, wiː wɪl biː ˈflaɪɪŋ ˈəʊvər ðə pəˈsɪfɪk ˈəʊʃn/",
+      "tips": "Emphasize 'will be flying' for the ongoing action"
+    },
+    {
+      "id": "s3",
+      "text": "By the end of our trip, we will have experienced four different cultures.",
+      "translation": "여행이 끝날 때까지, 우리는 네 가지 다른 문화를 경험했을 것이다.",
+      "pronunciation": "/baɪ ði end əv ˈaʊər trɪp, wiː wɪl hæv ɪkˈspɪəriənst fɔːr ˈdɪfrənt ˈkʌltʃərz/",
+      "tips": "Link 'will have' smoothly"
+    },
+    {
+      "id": "s4",
+      "text": "At 8 PM tonight, I will be packing my suitcase for the journey.",
+      "translation": "오늘 밤 8시에, 나는 여행을 위해 짐을 싸고 있을 것이다.",
+      "pronunciation": "/æt eɪt piː em təˈnaɪt, aɪ wɪl biː ˈpækɪŋ maɪ ˈsuːtkeɪs fər ðə ˈdʒɜːni/",
+      "tips": "Future continuous for action in progress at specific time"
+    },
+    {
+      "id": "s5",
+      "text": "By 2030, sustainable tourism will have become the global standard.",
+      "translation": "2030년까지, 지속 가능한 관광이 세계적 표준이 되었을 것이다.",
+      "pronunciation": "/baɪ ˈtwenti ˈθɜːti, səˈsteɪnəbl ˈtʊərɪzəm wɪl hæv bɪˈkʌm ðə ˈɡləʊbl ˈstændəd/",
+      "tips": "Stress 'sustainable' and 'global standard'"
+    },
+    {
+      "id": "s6",
+      "text": "While you're at work, I will be exploring ancient temples in Cambodia.",
+      "translation": "당신이 일하는 동안, 나는 캄보디아의 고대 사원을 탐험하고 있을 것이다.",
+      "pronunciation": "/waɪl jɔːr æt wɜːk, aɪ wɪl biː ɪkˈsplɔːrɪŋ ˈeɪnʃənt ˈtemplz ɪn kæmˈbəʊdiə/",
+      "tips": "Contrast 'while' clause with future continuous"
+    },
+    {
+      "id": "s7",
+      "text": "By the time we land, we will have been traveling for fifteen hours.",
+      "translation": "우리가 착륙할 때까지, 15시간 동안 여행 중일 것이다.",
+      "pronunciation": "/baɪ ðə taɪm wiː lænd, wiː wɪl hæv biːn ˈtrævəlɪŋ fɔːr fɪfˈtiːn ˈaʊərz/",
+      "tips": "Future perfect continuous emphasizes duration"
+    },
+    {
+      "id": "s8",
+      "text": "Next month, millions of tourists will be visiting popular destinations.",
+      "translation": "다음 달에, 수백만 명의 관광객들이 인기 있는 목적지를 방문하고 있을 것이다.",
+      "pronunciation": "/nekst mʌnθ, ˈmɪljənz əv ˈtʊərɪsts wɪl biː ˈvɪzɪtɪŋ ˈpɒpjʊlər ˌdestɪˈneɪʃnz/",
+      "tips": "Plural subject 'millions of tourists'"
+    },
+    {
+      "id": "s9",
+      "text": "By December, I will have saved enough money for my round-the-world trip.",
+      "translation": "12월까지, 나는 세계 일주 여행을 위해 충분한 돈을 모았을 것이다.",
+      "pronunciation": "/baɪ dɪˈsembər, aɪ wɪl hæv seɪvd ɪˈnʌf ˈmʌni fɔːr maɪ raʊnd ðə wɜːld trɪp/",
+      "tips": "Stress 'saved enough' for the completion"
+    },
+    {
+      "id": "s10",
+      "text": "In fifty years, people will be traveling to space for vacation.",
+      "translation": "50년 후에, 사람들은 휴가를 위해 우주로 여행할 것이다.",
+      "pronunciation": "/ɪn ˈfɪfti jɪərz, ˈpiːpl wɪl biː ˈtrævəlɪŋ tə speɪs fɔːr veɪˈkeɪʃn/",
+      "tips": "Future continuous for predicted regular activity"
+    },
+    {
+      "id": "s11",
+      "text": "By the time I retire, I will have visited every continent.",
+      "translation": "내가 은퇴할 때까지, 나는 모든 대륙을 방문했을 것이다.",
+      "pronunciation": "/baɪ ðə taɪm aɪ rɪˈtaɪər, aɪ wɪl hæv ˈvɪzɪtɪd ˈevri ˈkɒntɪnənt/",
+      "tips": "Link 'will have visited' smoothly"
+    },
+    {
+      "id": "s12",
+      "text": "This time next week, I will be swimming in the Mediterranean Sea.",
+      "translation": "다음 주 이맘때, 나는 지중해에서 수영하고 있을 것이다.",
+      "pronunciation": "/ðɪs taɪm nekst wiːk, aɪ wɪl biː ˈswɪmɪŋ ɪn ðə ˌmedɪtəˈreɪniən siː/",
+      "tips": "Visualize the action happening at that specific future moment"
+    }
+  ],
+
+  "dialogue": {
+    "title": "Planning a Gap Year Adventure",
+    "context": "Two friends discuss travel plans and what they expect to accomplish during a gap year.",
+    "speakers": ["Alex", "Jamie"],
+    "lines": [
+      {
+        "speaker": "Alex",
+        "text": "I'm so excited about our gap year! By this time next month, we will have started our journey across Asia.",
+        "translation": "갭이어가 너무 기대돼! 다음 달 이맘때면, 우리는 아시아 횡단 여행을 시작했을 거야."
+      },
+      {
+        "speaker": "Jamie",
+        "text": "I know! This time next month, we will be exploring temples in Thailand. I can hardly believe it.",
+        "translation": "맞아! 다음 달 이맘때면, 우리는 태국의 사원을 탐험하고 있을 거야. 믿기 어렵다."
+      },
+      {
+        "speaker": "Alex",
+        "text": "By the end of our trip, we will have experienced so many different cultures. I think it will change us.",
+        "translation": "여행이 끝날 때까지, 우리는 정말 많은 다른 문화를 경험했을 거야. 우리를 변화시킬 것 같아."
+      },
+      {
+        "speaker": "Jamie",
+        "text": "Definitely. While our friends will be studying, we will be trekking through the Himalayas.",
+        "translation": "확실히. 친구들이 공부하는 동안, 우리는 히말라야를 트레킹하고 있을 거야."
+      },
+      {
+        "speaker": "Alex",
+        "text": "By April, we will have saved enough money for the second part of our trip to South America.",
+        "translation": "4월까지, 우리는 남미 여행 두 번째 파트를 위한 충분한 돈을 모았을 거야."
+      },
+      {
+        "speaker": "Jamie",
+        "text": "Yes, and by then we will have been traveling for six months already. Time will fly!",
+        "translation": "맞아, 그때까지 우리는 이미 6개월 동안 여행 중일 거야. 시간이 빨리 갈 거야!"
+      },
+      {
+        "speaker": "Alex",
+        "text": "By the time we return home, we will have visited fifteen countries. That's incredible.",
+        "translation": "집에 돌아올 때까지, 우리는 15개국을 방문했을 거야. 대단하다."
+      },
+      {
+        "speaker": "Jamie",
+        "text": "And we will be returning as completely different people. This experience will have changed our perspective on everything.",
+        "translation": "그리고 우리는 완전히 다른 사람으로 돌아올 거야. 이 경험이 모든 것에 대한 관점을 바꿨을 거야."
+      }
+    ]
+  },
+
+  "practiceTopics": [
+    {
+      "topic": "Describing what will be completed by a future point",
+      "promptKo": "미래의 특정 시점까지 완료될 것을 설명하기",
+      "example": "By next summer, I will have graduated and found a job."
+    },
+    {
+      "topic": "Describing activities in progress at a future time",
+      "promptKo": "미래의 특정 시간에 진행 중인 활동 설명하기",
+      "example": "This time tomorrow, I will be lying on a beach in Bali."
+    },
+    {
+      "topic": "Making predictions about global changes",
+      "promptKo": "세계적 변화에 대한 예측하기",
+      "example": "By 2050, travel will have become completely carbon-neutral."
+    }
+  ]
+}

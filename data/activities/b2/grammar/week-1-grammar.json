@@ -1,0 +1,200 @@
+{
+  "id": "week-1-grammar",
+  "weekId": "week-1",
+  "type": "grammar",
+  "level": "B2",
+  "title": "Past Perfect & Narrative Tenses",
+  "description": "Master telling stories and reporting past events using narrative tenses.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Past Perfect Structure",
+      "explanation": "Use the past perfect (had + past participle) to show that one action happened before another past action. It creates a 'past in the past.'",
+      "structure": "had + past participle",
+      "examples": [
+        {
+          "sentence": "By the time the police arrived, the thieves had escaped.",
+          "translation": "경찰이 도착했을 때 도둑들은 이미 도망친 후였다."
+        },
+        {
+          "sentence": "She realized she had left her keys at the office.",
+          "translation": "그녀는 사무실에 열쇠를 두고 온 것을 깨달았다."
+        },
+        {
+          "sentence": "They had never seen such a beautiful sunset before.",
+          "translation": "그들은 그렇게 아름다운 일몰을 전에 본 적이 없었다."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Past Perfect vs Past Simple",
+      "explanation": "Use past simple for the main events in chronological order. Use past perfect to show something happened earlier or to provide background information.",
+      "structure": "Past Perfect (earlier) + Past Simple (later)",
+      "examples": [
+        {
+          "sentence": "When I arrived at the station, the train had already left.",
+          "translation": "내가 역에 도착했을 때 기차는 이미 떠난 뒤였다."
+        },
+        {
+          "sentence": "He told me that he had finished the report.",
+          "translation": "그는 보고서를 끝냈다고 말했다."
+        },
+        {
+          "sentence": "The movie had started before we got our seats.",
+          "translation": "우리가 자리에 앉기 전에 영화가 시작했었다."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Past Perfect Continuous",
+      "explanation": "Use past perfect continuous to emphasize the duration or ongoing nature of an action that happened before another past action.",
+      "structure": "had been + verb-ing",
+      "examples": [
+        {
+          "sentence": "She had been waiting for two hours when he finally arrived.",
+          "translation": "그가 마침내 도착했을 때 그녀는 두 시간 동안 기다리고 있었다."
+        },
+        {
+          "sentence": "They were tired because they had been traveling all night.",
+          "translation": "그들은 밤새 여행하고 있었기 때문에 피곤했다."
+        },
+        {
+          "sentence": "It was obvious that the child had been crying.",
+          "translation": "아이가 울고 있었다는 것이 분명했다."
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Narrative Tenses in News Reports",
+      "explanation": "News reports often combine different past tenses. Past simple reports main events, past continuous describes ongoing background actions, and past perfect shows earlier events.",
+      "structure": "Past Simple (events) + Past Continuous (background) + Past Perfect (earlier)",
+      "examples": [
+        {
+          "sentence": "The accident occurred while commuters were traveling to work. Police had received several warnings beforehand.",
+          "translation": "통근자들이 출근하는 동안 사고가 발생했다. 경찰은 사전에 여러 경고를 받았었다."
+        },
+        {
+          "sentence": "The fire started in the basement and spread quickly. Investigators later discovered that someone had left a candle burning.",
+          "translation": "화재는 지하실에서 시작되어 빠르게 번졌다. 조사관들은 나중에 누군가가 촛불을 켜둔 채로 둔 것을 발견했다."
+        },
+        {
+          "sentence": "Protesters were gathering outside the building when police arrived. They had been demonstrating peacefully since morning.",
+          "translation": "경찰이 도착했을 때 시위자들이 건물 밖에 모이고 있었다. 그들은 아침부터 평화롭게 시위를 하고 있었다."
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Time Expressions with Past Perfect",
+      "explanation": "Certain time expressions are commonly used with the past perfect to clarify the sequence of events.",
+      "structure": "by the time, before, after, already, just, never... before, until",
+      "examples": [
+        {
+          "sentence": "By the time I finished work, the shops had closed.",
+          "translation": "내가 일을 끝냈을 때 상점들은 문을 닫은 뒤였다."
+        },
+        {
+          "sentence": "She had just left when you called.",
+          "translation": "네가 전화했을 때 그녀는 막 떠난 참이었다."
+        },
+        {
+          "sentence": "I didn't know he had already eaten until he told me.",
+          "translation": "그가 말해주기 전까지 나는 그가 이미 먹었는지 몰랐다."
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "title": "Reported Speech with Past Perfect",
+      "explanation": "When reporting what someone said in the past, past simple often shifts to past perfect to maintain the sequence of events.",
+      "structure": "said/told + that + past perfect",
+      "examples": [
+        {
+          "sentence": "He said he had seen the accident happen.",
+          "translation": "그는 사고가 일어나는 것을 봤다고 말했다."
+        },
+        {
+          "sentence": "The witness claimed she had been at home all evening.",
+          "translation": "목격자는 저녁 내내 집에 있었다고 주장했다."
+        },
+        {
+          "sentence": "Officials announced that they had reached an agreement.",
+          "translation": "관계자들은 합의에 도달했다고 발표했다."
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "By the time we _____ the news, everyone else _____ already _____.",
+      "options": ["heard / has / known", "heard / had / known", "had heard / knew", "hear / had / known"],
+      "answer": "heard / had / known"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "The journalist discovered that the company _____ (hide) evidence for years.",
+      "answer": "had been hiding"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "She _____ for the interview all week when they suddenly canceled it.",
+      "options": ["prepared", "was preparing", "had been preparing", "has prepared"],
+      "answer": "had been preparing"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "By the time the ambulance arrived, the victim _____ (already / lose) consciousness.",
+      "answer": "had already lost"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "The politician denied that he _____ any illegal payments.",
+      "options": ["receives", "received", "had received", "has received"],
+      "answer": "had received"
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "They were exhausted because they _____ (travel) for over 24 hours.",
+      "answer": "had been traveling"
+    },
+    {
+      "id": "ex7",
+      "type": "transformation",
+      "instruction": "Combine into one sentence using past perfect",
+      "original": "The meeting ended. Then I arrived.",
+      "answer": "By the time I arrived, the meeting had ended."
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "When the police searched the house, the suspects _____ all the evidence.",
+      "options": ["destroy", "destroyed", "had destroyed", "were destroying"],
+      "answer": "had destroyed"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "I _____ (never / hear) of that organization until I read the article.",
+      "answer": "had never heard"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "The reporter explained that the accident _____ while workers _____ on the bridge.",
+      "options": ["occurred / worked", "had occurred / were working", "occurred / had been working", "had occurred / had worked"],
+      "answer": "had occurred / were working"
+    }
+  ]
+}

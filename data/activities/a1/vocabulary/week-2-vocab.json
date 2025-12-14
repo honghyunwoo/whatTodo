@@ -1,0 +1,308 @@
+{
+  "id": "week-2-vocab",
+  "weekId": "week-2",
+  "type": "vocabulary",
+  "level": "A1",
+  "title": "일상 활동 표현",
+  "description": "매일 하는 활동과 일상생활에 사용하는 기본 동사를 배웁니다.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "Wake up",
+      "pronunciation": "/weɪk ʌp/",
+      "partOfSpeech": "phrasal verb",
+      "meaning": "일어나다, 깨다",
+      "example": "I wake up at 7 o'clock every day.",
+      "exampleMeaning": "나는 매일 7시에 일어납니다."
+    },
+    {
+      "id": "w2",
+      "word": "Eat",
+      "pronunciation": "/iːt/",
+      "partOfSpeech": "verb",
+      "meaning": "먹다",
+      "example": "I eat breakfast at 7:30.",
+      "exampleMeaning": "나는 7시 30분에 아침을 먹습니다."
+    },
+    {
+      "id": "w3",
+      "word": "Breakfast",
+      "pronunciation": "/ˈbrekfəst/",
+      "partOfSpeech": "noun",
+      "meaning": "아침식사",
+      "example": "Breakfast is the most important meal.",
+      "exampleMeaning": "아침식사는 가장 중요한 식사입니다."
+    },
+    {
+      "id": "w4",
+      "word": "Lunch",
+      "pronunciation": "/lʌntʃ/",
+      "partOfSpeech": "noun",
+      "meaning": "점심식사",
+      "example": "I have lunch at school.",
+      "exampleMeaning": "나는 학교에서 점심을 먹습니다."
+    },
+    {
+      "id": "w5",
+      "word": "Dinner",
+      "pronunciation": "/ˈdɪnər/",
+      "partOfSpeech": "noun",
+      "meaning": "저녁식사",
+      "example": "We eat dinner together every evening.",
+      "exampleMeaning": "우리는 매일 저녁 함께 저녁식사를 합니다."
+    },
+    {
+      "id": "w6",
+      "word": "Go",
+      "pronunciation": "/ɡoʊ/",
+      "partOfSpeech": "verb",
+      "meaning": "가다",
+      "example": "I go to school by bus.",
+      "exampleMeaning": "나는 버스로 학교에 갑니다."
+    },
+    {
+      "id": "w7",
+      "word": "School",
+      "pronunciation": "/skuːl/",
+      "partOfSpeech": "noun",
+      "meaning": "학교",
+      "example": "School starts at 8:30.",
+      "exampleMeaning": "학교는 8시 30분에 시작합니다."
+    },
+    {
+      "id": "w8",
+      "word": "Study",
+      "pronunciation": "/ˈstʌdi/",
+      "partOfSpeech": "verb",
+      "meaning": "공부하다",
+      "example": "I study English every day.",
+      "exampleMeaning": "나는 매일 영어를 공부합니다."
+    },
+    {
+      "id": "w9",
+      "word": "Play",
+      "pronunciation": "/pleɪ/",
+      "partOfSpeech": "verb",
+      "meaning": "놀다, (운동을) 하다",
+      "example": "I play soccer with my friends.",
+      "exampleMeaning": "나는 친구들과 축구를 합니다."
+    },
+    {
+      "id": "w10",
+      "word": "Work",
+      "pronunciation": "/wɜːrk/",
+      "partOfSpeech": "verb",
+      "meaning": "일하다",
+      "example": "My father works at a hospital.",
+      "exampleMeaning": "우리 아버지는 병원에서 일하십니다."
+    },
+    {
+      "id": "w11",
+      "word": "Watch",
+      "pronunciation": "/wɑːtʃ/",
+      "partOfSpeech": "verb",
+      "meaning": "보다 (TV, 영화 등)",
+      "example": "I watch TV in the evening.",
+      "exampleMeaning": "나는 저녁에 TV를 봅니다."
+    },
+    {
+      "id": "w12",
+      "word": "Read",
+      "pronunciation": "/riːd/",
+      "partOfSpeech": "verb",
+      "meaning": "읽다",
+      "example": "She reads a book before bed.",
+      "exampleMeaning": "그녀는 자기 전에 책을 읽습니다."
+    },
+    {
+      "id": "w13",
+      "word": "Sleep",
+      "pronunciation": "/sliːp/",
+      "partOfSpeech": "verb",
+      "meaning": "자다",
+      "example": "I sleep eight hours every night.",
+      "exampleMeaning": "나는 매일 밤 8시간 잡니다."
+    },
+    {
+      "id": "w14",
+      "word": "Do",
+      "pronunciation": "/duː/",
+      "partOfSpeech": "verb",
+      "meaning": "하다",
+      "example": "I do my homework after school.",
+      "exampleMeaning": "나는 방과 후에 숙제를 합니다."
+    },
+    {
+      "id": "w15",
+      "word": "Homework",
+      "pronunciation": "/ˈhoʊmwɜːrk/",
+      "partOfSpeech": "noun",
+      "meaning": "숙제",
+      "example": "I have a lot of homework today.",
+      "exampleMeaning": "오늘 숙제가 많아요."
+    },
+    {
+      "id": "w16",
+      "word": "Like",
+      "pronunciation": "/laɪk/",
+      "partOfSpeech": "verb",
+      "meaning": "좋아하다",
+      "example": "I like playing basketball.",
+      "exampleMeaning": "나는 농구하는 것을 좋아합니다."
+    },
+    {
+      "id": "w17",
+      "word": "Love",
+      "pronunciation": "/lʌv/",
+      "partOfSpeech": "verb",
+      "meaning": "매우 좋아하다, 사랑하다",
+      "example": "I love reading books.",
+      "exampleMeaning": "나는 책 읽기를 매우 좋아합니다."
+    },
+    {
+      "id": "w18",
+      "word": "Make",
+      "pronunciation": "/meɪk/",
+      "partOfSpeech": "verb",
+      "meaning": "만들다",
+      "example": "She makes breakfast every morning.",
+      "exampleMeaning": "그녀는 매일 아침 아침식사를 만듭니다."
+    },
+    {
+      "id": "w19",
+      "word": "Take",
+      "pronunciation": "/teɪk/",
+      "partOfSpeech": "verb",
+      "meaning": "가져가다, (교통수단을) 타다",
+      "example": "I take the bus to school.",
+      "exampleMeaning": "나는 학교에 버스를 타고 갑니다."
+    },
+    {
+      "id": "w20",
+      "word": "Come",
+      "pronunciation": "/kʌm/",
+      "partOfSpeech": "verb",
+      "meaning": "오다",
+      "example": "Come home before 6 o'clock.",
+      "exampleMeaning": "6시 전에 집에 오세요."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "What does 'wake up' mean in Korean?",
+      "options": ["일어나다", "먹다", "자다", "가다"],
+      "answer": "일어나다",
+      "explanation": "'Wake up'은 잠에서 깨서 일어나다는 뜻입니다."
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "Which word means '학교'?",
+      "options": ["Home", "School", "Work", "Hospital"],
+      "answer": "School",
+      "explanation": "'School'은 '학교'라는 뜻입니다."
+    },
+    {
+      "id": "ex3",
+      "type": "fill_blank",
+      "question": "I _____ breakfast at 7 o'clock. (먹다)",
+      "answer": ["eat"],
+      "explanation": "식사를 먹다는 'eat'을 사용합니다."
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "I _____ English every day. (공부하다)",
+      "answer": ["study"],
+      "explanation": "공부하다는 'study'입니다."
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "What is the first meal of the day?",
+      "options": ["Breakfast", "Lunch", "Dinner", "Snack"],
+      "answer": "Breakfast",
+      "explanation": "'Breakfast'는 하루의 첫 번째 식사인 아침식사입니다."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "Which verb means '좋아하다'?",
+      "options": ["Like", "Love", "Hate", "Want"],
+      "answer": "Like",
+      "explanation": "'Like'는 '좋아하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "I _____ soccer with my friends. (놀다/하다)",
+      "answer": ["play"],
+      "explanation": "운동을 하다는 'play'를 사용합니다."
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "What does 'homework' mean?",
+      "options": ["숙제", "집", "일", "공부"],
+      "answer": "숙제",
+      "explanation": "'Homework'는 집에서 하는 학교 숙제를 의미합니다."
+    },
+    {
+      "id": "ex9",
+      "type": "matching",
+      "question": "Match the English with Korean:",
+      "options": ["eat", "go", "study", "sleep"],
+      "answer": ["먹다", "가다", "공부하다", "자다"],
+      "explanation": "각 영어 동사와 한국어 의미를 연결합니다."
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "I _____ TV in the evening. (보다)",
+      "answer": ["watch"],
+      "explanation": "TV나 영화를 보다는 'watch'를 사용합니다."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "Which verb is used for 'reading'?",
+      "options": ["Read", "Write", "Look", "See"],
+      "answer": "Read",
+      "explanation": "'Read'는 책이나 글을 읽다는 뜻입니다."
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "I _____ my homework after school. (하다)",
+      "answer": ["do"],
+      "explanation": "숙제를 하다는 'do homework'를 사용합니다."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "What does 'make' mean?",
+      "options": ["만들다", "먹다", "가다", "오다"],
+      "answer": "만들다",
+      "explanation": "'Make'는 무언가를 만들다는 뜻입니다."
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "Which is stronger: 'like' or 'love'?",
+      "options": ["Love", "Like", "Same", "Neither"],
+      "answer": "Love",
+      "explanation": "'Love'가 'like'보다 더 강한 감정을 나타냅니다."
+    },
+    {
+      "id": "ex15",
+      "type": "fill_blank",
+      "question": "I _____ the bus to school. (타다)",
+      "answer": ["take"],
+      "explanation": "교통수단을 타다는 'take'를 사용합니다."
+    }
+  ]
+}

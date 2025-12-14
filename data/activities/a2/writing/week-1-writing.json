@@ -1,0 +1,151 @@
+{
+  "id": "week-1-writing",
+  "weekId": "week-1",
+  "type": "writing",
+  "level": "A2",
+  "title": "Describing a Past Trip",
+  "description": "Write about a trip you took in the past.",
+
+  "prompt": {
+    "topic": "Write about a memorable trip",
+    "description": "Describe a trip you took. Tell where you went, who you traveled with, what you did, and how you felt about it.",
+    "requirements": [
+      "Use past tense verbs correctly",
+      "Include where you went and when",
+      "Describe at least 2-3 activities you did",
+      "Share your feelings about the trip",
+      "Use time expressions (last year, two days ago, etc.)"
+    ],
+    "wordCount": {
+      "min": 60,
+      "max": 100
+    },
+    "timeLimit": 20
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "Last summer, I went to Busan with my friends.",
+      "translation": "지난 여름, 저는 친구들과 부산에 갔습니다.",
+      "useCase": "Opening sentence - where and with whom"
+    },
+    {
+      "id": "ex2",
+      "sentence": "We stayed at a hotel near the beach for three days.",
+      "translation": "우리는 해변 근처 호텔에서 3일 동안 머물렀습니다.",
+      "useCase": "Describing accommodation"
+    },
+    {
+      "id": "ex3",
+      "sentence": "We visited Haeundae Beach and ate delicious seafood.",
+      "translation": "우리는 해운대 해변을 방문하고 맛있는 해산물을 먹었습니다.",
+      "useCase": "Describing activities"
+    },
+    {
+      "id": "ex4",
+      "sentence": "The weather was perfect for swimming.",
+      "translation": "날씨가 수영하기에 딱 좋았습니다.",
+      "useCase": "Describing conditions"
+    },
+    {
+      "id": "ex5",
+      "sentence": "I had a wonderful time and want to go back soon.",
+      "translation": "정말 즐거운 시간을 보냈고 곧 다시 가고 싶습니다.",
+      "useCase": "Concluding with feelings"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "went (go)",
+      "translation": "갔다",
+      "example": "I went to Japan last month."
+    },
+    {
+      "word": "stayed (stay)",
+      "translation": "머물렀다",
+      "example": "We stayed at a nice hotel."
+    },
+    {
+      "word": "visited (visit)",
+      "translation": "방문했다",
+      "example": "We visited many temples."
+    },
+    {
+      "word": "saw (see)",
+      "translation": "보았다",
+      "example": "I saw beautiful mountains."
+    },
+    {
+      "word": "ate (eat)",
+      "translation": "먹었다",
+      "example": "We ate local food."
+    },
+    {
+      "word": "took (take)",
+      "translation": "찍었다/탔다",
+      "example": "I took many photos."
+    },
+    {
+      "word": "enjoyed",
+      "translation": "즐겼다",
+      "example": "I really enjoyed the trip."
+    },
+    {
+      "word": "amazing/wonderful",
+      "translation": "놀라운/멋진",
+      "example": "The view was amazing."
+    },
+    {
+      "word": "last summer/winter",
+      "translation": "지난 여름/겨울",
+      "example": "Last winter, we went skiing."
+    },
+    {
+      "word": "two weeks ago",
+      "translation": "2주 전에",
+      "example": "I came back two weeks ago."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "Content Requirements",
+      "items": [
+        "Did you include where you went?",
+        "Did you mention when you went?",
+        "Did you say who you traveled with?",
+        "Did you describe 2-3 activities?",
+        "Did you share how you felt about the trip?"
+      ]
+    },
+    {
+      "category": "Grammar",
+      "items": [
+        "Did you use past tense verbs correctly?",
+        "Did you avoid common mistakes (goed -> went)?",
+        "Are your sentences complete with subjects and verbs?",
+        "Did you use time expressions properly?"
+      ]
+    },
+    {
+      "category": "Organization",
+      "items": [
+        "Does your writing have a clear beginning?",
+        "Is the middle part well organized?",
+        "Does it have a good conclusion?",
+        "Do sentences connect smoothly?"
+      ]
+    },
+    {
+      "category": "Word Count",
+      "items": [
+        "Is your writing at least 60 words?",
+        "Is it under 100 words?",
+        "Did you check for spelling mistakes?",
+        "Did you complete it within the time limit?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "week-3-speaking",
+  "weekId": "week-3",
+  "type": "speaking",
+  "level": "B1",
+  "title": "Expressing Feelings and Opinions",
+  "description": "Practice expressing emotions, opinions, and reporting what others have said.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "I really appreciate everything you've done for me.",
+      "translation": "당신이 저를 위해 해주신 모든 것에 정말 감사해요.",
+      "tips": "'really'와 'appreciate'를 강조해서 진심을 전하세요."
+    },
+    {
+      "id": "s2",
+      "text": "I'm sorry, I think there's been a misunderstanding.",
+      "translation": "죄송해요, 오해가 있었던 것 같아요.",
+      "tips": "'misunderstanding'을 천천히 명확하게 발음하세요."
+    },
+    {
+      "id": "s3",
+      "text": "She told me that she was thinking about changing jobs.",
+      "translation": "그녀가 직장을 바꿀 생각이라고 말했어요.",
+      "tips": "간접화법을 사용해서 다른 사람의 말을 전달하세요."
+    },
+    {
+      "id": "s4",
+      "text": "Could you please explain what you mean by that?",
+      "translation": "그게 무슨 뜻인지 설명해 주시겠어요?",
+      "tips": "'Could you please'로 공손하게 요청하세요. 의문문 억양으로 끝내세요."
+    },
+    {
+      "id": "s5",
+      "text": "I feel hurt when you don't listen to my opinion.",
+      "translation": "제 의견을 안 들어주시면 상처받아요.",
+      "tips": "'I feel'로 시작해서 자신의 감정을 표현하세요."
+    },
+    {
+      "id": "s6",
+      "text": "He asked me if I could help him with the project.",
+      "translation": "그가 프로젝트를 도와줄 수 있냐고 물었어요.",
+      "tips": "'asked me if'로 간접 의문문을 만드세요."
+    },
+    {
+      "id": "s7",
+      "text": "I completely understand your point of view.",
+      "translation": "당신의 관점을 완전히 이해해요.",
+      "tips": "'completely'를 강조해서 동의를 표현하세요."
+    },
+    {
+      "id": "s8",
+      "text": "In my opinion, communication is the key to a good relationship.",
+      "translation": "제 생각에는, 소통이 좋은 관계의 열쇠예요.",
+      "tips": "'In my opinion'으로 의견을 시작하세요."
+    },
+    {
+      "id": "s9",
+      "text": "I didn't mean to upset you. Let me explain.",
+      "translation": "기분 나쁘게 하려던 게 아니에요. 설명할게요.",
+      "tips": "'didn't mean to'로 의도가 아니었음을 표현하세요."
+    },
+    {
+      "id": "s10",
+      "text": "She suggested that we should meet more often.",
+      "translation": "그녀가 더 자주 만나자고 제안했어요.",
+      "tips": "'suggested that'으로 제안을 전달하세요."
+    },
+    {
+      "id": "s11",
+      "text": "I value our friendship and don't want to lose it.",
+      "translation": "우리 우정을 소중히 여기고 잃고 싶지 않아요.",
+      "tips": "'value'와 'friendship'을 강조하세요."
+    },
+    {
+      "id": "s12",
+      "text": "Can we talk about what happened? I'd like to clear things up.",
+      "translation": "무슨 일이 있었는지 얘기할 수 있을까요? 오해를 풀고 싶어요.",
+      "tips": "'clear things up'은 '오해를 풀다'라는 관용표현이에요."
+    }
+  ],
+
+  "dialoguePractice": {
+    "title": "Resolving a Conflict",
+    "roles": ["Amy", "Ben"],
+    "lines": [
+      {"role": "Amy", "text": "Ben, I need to talk to you about something."},
+      {"role": "Ben", "text": "Sure, what's on your mind?"},
+      {"role": "Amy", "text": "I heard that you told Chris I wasn't interested in the project."},
+      {"role": "Ben", "text": "That's not exactly what I said. I think there's been a misunderstanding."},
+      {"role": "Amy", "text": "Then what did you say? Because Chris told me that you said I didn't care."},
+      {"role": "Ben", "text": "I said you were really busy lately, not that you didn't care. I'm sorry if it came across wrong."},
+      {"role": "Amy", "text": "I see. In the future, could you please let me speak for myself?"},
+      {"role": "Ben", "text": "You're right. I apologize. I should have been more careful with my words."},
+      {"role": "Amy", "text": "I appreciate you understanding. I value our working relationship."},
+      {"role": "Ben", "text": "So do I. Thanks for coming to me directly to discuss this."}
+    ]
+  },
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation & Intonation",
+      "items": [
+        "Did you pronounce emotion words clearly (appreciate, understand, etc.)?",
+        "Did you use appropriate intonation to express feelings?",
+        "Did you use polite intonation for requests?",
+        "Did you speak at a natural, expressive pace?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you speak smoothly in reported speech sentences?",
+        "Did you express opinions confidently?",
+        "Did you complete all sentences without long pauses?",
+        "Did you practice the dialogue with natural flow?"
+      ]
+    },
+    {
+      "category": "Grammar Accuracy",
+      "items": [
+        "Did you use reported speech correctly?",
+        "Did you use 'I' statements to express feelings?",
+        "Did you use polite request forms correctly?",
+        "Did you use appropriate verb tenses?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Did you express emotions effectively?",
+        "Did you sound empathetic and understanding?",
+        "Did you use appropriate vocabulary for relationships?",
+        "Did you maintain a respectful tone throughout?"
+      ]
+    }
+  ]
+}

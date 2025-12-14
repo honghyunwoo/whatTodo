@@ -1,0 +1,144 @@
+{
+  "id": "week-6-listening",
+  "weekId": "week-6",
+  "type": "listening",
+  "level": "B1",
+  "title": "Study Advice",
+  "description": "Listen to students discussing effective study methods.",
+
+  "audio": {
+    "text": "Kate: Hi James, you look stressed. What's wrong?\nJames: I have three exams next week and I don't know how I'm going to prepare for all of them.\nKate: That sounds tough. Have you made a study plan?\nJames: Not really. I usually just study everything the night before.\nKate: That's probably not the best strategy. If you try to learn everything in one night, you won't remember much.\nJames: I know, but I always leave things to the last minute.\nKate: Maybe you should try a different approach. If you study a little bit every day, the information will stick better.\nJames: How do you organize your studying?\nKate: I make a schedule. I divide each subject into smaller topics and assign specific days to each one.\nJames: That sounds very organized. What if you don't understand something?\nKate: If I get stuck on something, I usually watch YouTube tutorials or ask a classmate. There are great resources online.\nJames: Do you think online resources are as good as textbooks?\nKate: They can be. If you find the right channels, they explain things really well. But you should also read your notes and textbooks.\nJames: What about memorizing facts? I find that really difficult.\nKate: If you use flashcards or apps like Anki, it becomes easier. They use a system where you review things just before you forget them.\nJames: I've heard of that. Spaced repetition, right?\nKate: Exactly! And here's another tip: if you study in a quiet place without your phone, you'll concentrate much better.\nJames: That's my biggest problem. I get distracted by my phone constantly.\nKate: Turn it off or leave it in another room. If you check your phone every few minutes, you'll lose focus.\nJames: You're right. I'll try your advice. Thanks, Kate!\nKate: No problem. Good luck with your exams!",
+    "duration": 165,
+    "speed": 0.9,
+    "speakers": ["Kate", "James"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "If you try to learn everything in one night, you won't remember much.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d2",
+        "text": "If you study a little bit every day, the information will stick better.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d3",
+        "text": "If I get stuck on something, I usually watch YouTube tutorials.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "d4",
+        "text": "If you study in a quiet place without your phone, you'll concentrate better.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d5",
+        "text": "If you check your phone every few minutes, you'll lose focus.",
+        "difficulty": "medium"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "How many exams does James have next week?",
+      "options": ["Two", "Three", "Four", "Five"],
+      "answer": "Three",
+      "explanation": "James says 'I have three exams next week.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "James usually makes a detailed study plan.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "James says 'I usually just study everything the night before.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "According to Kate, what happens if you study everything in one night?",
+      "options": ["You pass easily", "You won't remember much", "You learn faster", "You feel relaxed"],
+      "answer": "You won't remember much",
+      "explanation": "Kate says 'If you try to learn everything in one night, you won't remember much.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What does Kate suggest about daily studying?",
+      "options": ["It's a waste of time", "Information sticks better", "It's too stressful", "It's unnecessary"],
+      "answer": "Information sticks better",
+      "explanation": "Kate says 'If you study a little bit every day, the information will stick better.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Kate makes a schedule by dividing subjects into smaller topics.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Kate says 'I divide each subject into smaller topics and assign specific days to each one.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What does Kate do if she doesn't understand something?",
+      "options": ["She gives up", "She watches YouTube tutorials or asks classmates", "She skips it", "She reads more textbooks"],
+      "answer": "She watches YouTube tutorials or asks classmates",
+      "explanation": "Kate says 'If I get stuck on something, I usually watch YouTube tutorials or ask a classmate.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What app does Kate mention for memorizing facts?",
+      "options": ["Duolingo", "Anki", "Quizlet", "Notion"],
+      "answer": "Anki",
+      "explanation": "Kate mentions 'flashcards or apps like Anki.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Spaced repetition helps you review things just before you forget them.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Kate explains 'They use a system where you review things just before you forget them.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What is James's biggest problem according to the conversation?",
+      "options": ["He doesn't have textbooks", "He gets distracted by his phone", "He doesn't understand the subjects", "He doesn't have time"],
+      "answer": "He gets distracted by his phone",
+      "explanation": "James says 'That's my biggest problem. I get distracted by my phone constantly.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What does Kate suggest doing with the phone while studying?",
+      "options": ["Use it for music", "Turn it off or leave it in another room", "Keep it nearby for emergencies", "Use it for study apps only"],
+      "answer": "Turn it off or leave it in another room",
+      "explanation": "Kate says 'Turn it off or leave it in another room.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "According to Kate, what happens if you check your phone every few minutes?",
+      "answer": "lose focus",
+      "alternateAnswers": ["you'll lose focus", "you lose focus", "losing focus"],
+      "explanation": "Kate says 'If you check your phone every few minutes, you'll lose focus.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "Kate thinks online resources can be as good as textbooks.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Kate says 'They can be. If you find the right channels, they explain things really well.'"
+    }
+  ]
+}

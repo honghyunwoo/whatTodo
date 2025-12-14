@@ -1,0 +1,30 @@
+{
+  "id": "week-3-speaking",
+  "weekId": "week-3",
+  "type": "speaking",
+  "level": "A2",
+  "title": "Restaurant Conversations",
+  "description": "Practice ordering food and having conversations at restaurants.",
+
+  "sentences": [
+    {"id": "s1", "text": "I'd like to make a reservation for two.", "translation": "2명 예약하고 싶습니다.", "tips": "'I'd like to'를 부드럽게 연결하고, 'two'를 명확하게 발음하세요."},
+    {"id": "s2", "text": "Can I see the menu, please?", "translation": "메뉴 좀 볼 수 있을까요?", "tips": "'please'를 정중하게 발음하고 의문문 억양을 사용하세요."},
+    {"id": "s3", "text": "What do you recommend?", "translation": "무엇을 추천하시나요?", "tips": "'recommend'를 명확하게 발음하세요. /ˌrekəˈmend/"},
+    {"id": "s4", "text": "I'm allergic to seafood.", "translation": "저는 해산물 알레르기가 있습니다.", "tips": "'allergic'에 강세를 주어 중요한 정보임을 나타내세요."},
+    {"id": "s5", "text": "I'll have the grilled chicken, please.", "translation": "그릴드 치킨으로 주세요.", "tips": "'I'll have'는 주문할 때 쓰는 표현입니다. 자신감 있게 말하세요."},
+    {"id": "s6", "text": "How long will the food take?", "translation": "음식이 얼마나 걸리나요?", "tips": "'How long'에 강세를 주고 의문문 억양으로 끝내세요."},
+    {"id": "s7", "text": "Could we have some more water?", "translation": "물 좀 더 주시겠어요?", "tips": "'Could we'는 정중한 요청입니다. 부드럽게 발음하세요."},
+    {"id": "s8", "text": "Is this dish spicy?", "translation": "이 요리 매운가요?", "tips": "'spicy'를 강조하고 짧게 의문문으로 끝내세요."},
+    {"id": "s9", "text": "This is delicious!", "translation": "정말 맛있어요!", "tips": "'delicious'에 감정을 담아 발음하세요. /dɪˈlɪʃəs/"},
+    {"id": "s10", "text": "Can I have the bill, please?", "translation": "계산서 주세요.", "tips": "'bill'을 명확하게 발음하고 정중하게 요청하세요."},
+    {"id": "s11", "text": "Is service included?", "translation": "서비스료가 포함되어 있나요?", "tips": "'included'를 명확하게 발음하세요."},
+    {"id": "s12", "text": "I'd like this to go, please.", "translation": "이것 포장해 주세요.", "tips": "'to go'는 포장 요청 표현입니다. 자연스럽게 연결하세요."}
+  ],
+
+  "evaluationChecklist": [
+    {"category": "Pronunciation", "items": ["Did you pronounce food terms correctly?", "Did you use polite intonation?", "Did you stress key words (allergic, recommend)?"]},
+    {"category": "Fluency", "items": ["Did you speak smoothly without long pauses?", "Did you complete all sentences?", "Did you sound confident?"]},
+    {"category": "Accuracy", "items": ["Did you use polite expressions (I'd like, Could you)?", "Did you use correct grammar?"]},
+    {"category": "Communication", "items": ["Would a waiter understand your order?", "Did you express your needs clearly?"]}
+  ]
+}

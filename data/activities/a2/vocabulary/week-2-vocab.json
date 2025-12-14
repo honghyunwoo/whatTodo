@@ -1,0 +1,51 @@
+{
+  "id": "week-2-vocab",
+  "weekId": "week-2",
+  "type": "vocabulary",
+  "level": "A2",
+  "title": "Shopping & Money",
+  "description": "Learn vocabulary for shopping, paying, and handling money.",
+
+  "words": [
+    {"id": "w1", "word": "Price", "pronunciation": "/praɪs/", "partOfSpeech": "noun", "meaning": "가격", "example": "What is the price of this jacket?", "exampleMeaning": "이 재킷의 가격이 얼마인가요?"},
+    {"id": "w2", "word": "Discount", "pronunciation": "/ˈdɪskaʊnt/", "partOfSpeech": "noun", "meaning": "할인", "example": "There's a 20% discount today.", "exampleMeaning": "오늘 20% 할인이 있습니다."},
+    {"id": "w3", "word": "Receipt", "pronunciation": "/rɪˈsiːt/", "partOfSpeech": "noun", "meaning": "영수증", "example": "Can I have the receipt, please?", "exampleMeaning": "영수증 주시겠어요?"},
+    {"id": "w4", "word": "Change", "pronunciation": "/tʃeɪndʒ/", "partOfSpeech": "noun", "meaning": "거스름돈", "example": "Here's your change.", "exampleMeaning": "여기 거스름돈입니다."},
+    {"id": "w5", "word": "Cash", "pronunciation": "/kæʃ/", "partOfSpeech": "noun", "meaning": "현금", "example": "Do you accept cash?", "exampleMeaning": "현금 결제 가능한가요?"},
+    {"id": "w6", "word": "Credit card", "pronunciation": "/ˈkredɪt kɑːrd/", "partOfSpeech": "noun", "meaning": "신용카드", "example": "I'll pay by credit card.", "exampleMeaning": "신용카드로 결제하겠습니다."},
+    {"id": "w7", "word": "Expensive", "pronunciation": "/ɪkˈspensɪv/", "partOfSpeech": "adjective", "meaning": "비싼", "example": "This bag is too expensive.", "exampleMeaning": "이 가방은 너무 비쌉니다."},
+    {"id": "w8", "word": "Cheap", "pronunciation": "/tʃiːp/", "partOfSpeech": "adjective", "meaning": "저렴한", "example": "I found a cheap hotel.", "exampleMeaning": "저렴한 호텔을 찾았습니다."},
+    {"id": "w9", "word": "Size", "pronunciation": "/saɪz/", "partOfSpeech": "noun", "meaning": "사이즈", "example": "What size do you need?", "exampleMeaning": "어떤 사이즈가 필요하세요?"},
+    {"id": "w10", "word": "Sale", "pronunciation": "/seɪl/", "partOfSpeech": "noun", "meaning": "세일, 판매", "example": "Everything is on sale.", "exampleMeaning": "모든 것이 세일 중입니다."},
+    {"id": "w11", "word": "Try on", "pronunciation": "/traɪ ɑːn/", "partOfSpeech": "phrasal verb", "meaning": "입어보다", "example": "Can I try this on?", "exampleMeaning": "이것 입어봐도 될까요?"},
+    {"id": "w12", "word": "Fitting room", "pronunciation": "/ˈfɪtɪŋ ruːm/", "partOfSpeech": "noun", "meaning": "탈의실", "example": "The fitting room is over there.", "exampleMeaning": "탈의실은 저쪽에 있습니다."},
+    {"id": "w13", "word": "Customer", "pronunciation": "/ˈkʌstəmər/", "partOfSpeech": "noun", "meaning": "고객", "example": "The customer is always right.", "exampleMeaning": "고객은 항상 옳습니다."},
+    {"id": "w14", "word": "Exchange", "pronunciation": "/ɪksˈtʃeɪndʒ/", "partOfSpeech": "verb", "meaning": "교환하다", "example": "Can I exchange this for a larger size?", "exampleMeaning": "더 큰 사이즈로 교환할 수 있나요?"},
+    {"id": "w15", "word": "Return", "pronunciation": "/rɪˈtɜːrn/", "partOfSpeech": "verb", "meaning": "반품하다", "example": "I'd like to return this shirt.", "exampleMeaning": "이 셔츠를 반품하고 싶습니다."},
+    {"id": "w16", "word": "Bargain", "pronunciation": "/ˈbɑːrɡɪn/", "partOfSpeech": "noun", "meaning": "특가 상품", "example": "This is a real bargain!", "exampleMeaning": "이것은 정말 특가입니다!"},
+    {"id": "w17", "word": "Department store", "pronunciation": "/dɪˈpɑːrtmənt stɔːr/", "partOfSpeech": "noun", "meaning": "백화점", "example": "Let's go to the department store.", "exampleMeaning": "백화점에 가자."},
+    {"id": "w18", "word": "Wallet", "pronunciation": "/ˈwɑːlɪt/", "partOfSpeech": "noun", "meaning": "지갑", "example": "I left my wallet at home.", "exampleMeaning": "지갑을 집에 두고 왔습니다."},
+    {"id": "w19", "word": "Shopping cart", "pronunciation": "/ˈʃɑːpɪŋ kɑːrt/", "partOfSpeech": "noun", "meaning": "쇼핑 카트", "example": "Put it in the shopping cart.", "exampleMeaning": "쇼핑 카트에 넣으세요."},
+    {"id": "w20", "word": "Checkout", "pronunciation": "/ˈtʃekaʊt/", "partOfSpeech": "noun", "meaning": "계산대", "example": "Go to checkout when you're ready.", "exampleMeaning": "준비되면 계산대로 가세요."},
+    {"id": "w21", "word": "Brand", "pronunciation": "/brænd/", "partOfSpeech": "noun", "meaning": "브랜드", "example": "What brand is this?", "exampleMeaning": "이것은 어떤 브랜드인가요?"},
+    {"id": "w22", "word": "Afford", "pronunciation": "/əˈfɔːrd/", "partOfSpeech": "verb", "meaning": "~할 여유가 있다", "example": "I can't afford this car.", "exampleMeaning": "이 차를 살 여유가 없습니다."}
+  ],
+
+  "exercises": [
+    {"id": "ex1", "type": "multiple_choice", "question": "What do you get after paying?", "options": ["Receipt", "Wallet", "Cart", "Brand"], "answer": "Receipt", "explanation": "A receipt is the paper you get after paying."},
+    {"id": "ex2", "type": "multiple_choice", "question": "What is the opposite of 'expensive'?", "options": ["Cheap", "Large", "New", "Good"], "answer": "Cheap", "explanation": "'Cheap' means low price, opposite of 'expensive'."},
+    {"id": "ex3", "type": "fill_blank", "question": "Can I pay by _____ card? (credit)", "answer": ["credit"], "explanation": "A credit card is used for electronic payment."},
+    {"id": "ex4", "type": "fill_blank", "question": "I'd like to _____ this on. (try)", "answer": ["try"], "explanation": "'Try on' means to wear something to see if it fits."},
+    {"id": "ex5", "type": "multiple_choice", "question": "Where do you go to try clothes?", "options": ["Fitting room", "Kitchen", "Office", "Gate"], "answer": "Fitting room", "explanation": "A fitting room is where you try on clothes."},
+    {"id": "ex6", "type": "multiple_choice", "question": "What do you call money you get back?", "options": ["Change", "Discount", "Receipt", "Price"], "answer": "Change", "explanation": "'Change' is the money returned after paying."},
+    {"id": "ex7", "type": "fill_blank", "question": "This is too _____. I can't afford it. (expensive)", "answer": ["expensive"], "explanation": "'Expensive' means high price."},
+    {"id": "ex8", "type": "matching", "question": "Match English with Korean:", "options": ["Discount", "Sale", "Exchange", "Return"], "answer": ["할인", "세일", "교환", "반품"], "explanation": "Match shopping terms with Korean meanings."},
+    {"id": "ex9", "type": "multiple_choice", "question": "What is '20% off' called?", "options": ["Discount", "Change", "Size", "Brand"], "answer": "Discount", "explanation": "'Discount' means a reduction in price."},
+    {"id": "ex10", "type": "fill_blank", "question": "The _____ is always right. (customer)", "answer": ["customer"], "explanation": "A famous saying: The customer is always right."},
+    {"id": "ex11", "type": "multiple_choice", "question": "Where do you pay in a store?", "options": ["Checkout", "Entrance", "Fitting room", "Storage"], "answer": "Checkout", "explanation": "The checkout is where you pay for items."},
+    {"id": "ex12", "type": "fill_blank", "question": "I left my _____ at home. (wallet)", "answer": ["wallet"], "explanation": "A wallet is where you keep money and cards."},
+    {"id": "ex13", "type": "multiple_choice", "question": "What's another word for a good deal?", "options": ["Bargain", "Receipt", "Size", "Brand"], "answer": "Bargain", "explanation": "A bargain is something sold at a good price."},
+    {"id": "ex14", "type": "fill_blank", "question": "What _____ do you need? Small or medium? (size)", "answer": ["size"], "explanation": "'Size' refers to how big or small something is."},
+    {"id": "ex15", "type": "multiple_choice", "question": "What can't you do with cash at online shops?", "options": ["Pay directly", "Get a receipt", "Buy items", "Browse products"], "answer": "Pay directly", "explanation": "Online shops usually don't accept physical cash."}
+  ]
+}

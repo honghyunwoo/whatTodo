@@ -1,0 +1,339 @@
+{
+  "id": "week-8-vocab",
+  "weekId": "week-8",
+  "type": "vocabulary",
+  "level": "A2",
+  "title": "Directions & Places",
+  "description": "Learn vocabulary for asking directions, describing locations, and navigating a city.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "direction",
+      "pronunciation": "/dəˈrekʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "the way to go to reach a place",
+      "translation": "방향, 길 안내",
+      "example": "Can you give me directions to the station?",
+      "exampleMeaning": "역으로 가는 길을 알려 주실 수 있나요?"
+    },
+    {
+      "id": "w2",
+      "word": "intersection",
+      "pronunciation": "/ˌɪntərˈsekʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "a place where two roads cross",
+      "translation": "교차로",
+      "example": "Turn left at the intersection.",
+      "exampleMeaning": "교차로에서 좌회전하세요."
+    },
+    {
+      "id": "w3",
+      "word": "crosswalk",
+      "pronunciation": "/ˈkrɔːswɔːk/",
+      "partOfSpeech": "noun",
+      "meaning": "a marked place for people to cross the street",
+      "translation": "횡단보도",
+      "example": "Use the crosswalk to cross the street safely.",
+      "exampleMeaning": "안전하게 길을 건너려면 횡단보도를 이용하세요."
+    },
+    {
+      "id": "w4",
+      "word": "traffic light",
+      "pronunciation": "/ˈtræfɪk laɪt/",
+      "partOfSpeech": "noun",
+      "meaning": "a signal that controls traffic",
+      "translation": "신호등",
+      "example": "Stop at the traffic light.",
+      "exampleMeaning": "신호등에서 멈추세요."
+    },
+    {
+      "id": "w5",
+      "word": "block",
+      "pronunciation": "/blɑːk/",
+      "partOfSpeech": "noun",
+      "meaning": "the distance between streets in a city",
+      "translation": "블록",
+      "example": "The bank is two blocks away.",
+      "exampleMeaning": "은행은 두 블록 떨어져 있어요."
+    },
+    {
+      "id": "w6",
+      "word": "corner",
+      "pronunciation": "/ˈkɔːrnər/",
+      "partOfSpeech": "noun",
+      "meaning": "the point where two streets meet",
+      "translation": "모퉁이",
+      "example": "The cafe is on the corner.",
+      "exampleMeaning": "카페는 모퉁이에 있어요."
+    },
+    {
+      "id": "w7",
+      "word": "opposite",
+      "pronunciation": "/ˈɑːpəzɪt/",
+      "partOfSpeech": "preposition",
+      "meaning": "across from something",
+      "translation": "~의 맞은편에",
+      "example": "The pharmacy is opposite the supermarket.",
+      "exampleMeaning": "약국은 슈퍼마켓 맞은편에 있어요."
+    },
+    {
+      "id": "w8",
+      "word": "between",
+      "pronunciation": "/bɪˈtwiːn/",
+      "partOfSpeech": "preposition",
+      "meaning": "in the middle of two things",
+      "translation": "~사이에",
+      "example": "The post office is between the bank and the library.",
+      "exampleMeaning": "우체국은 은행과 도서관 사이에 있어요."
+    },
+    {
+      "id": "w9",
+      "word": "next to",
+      "pronunciation": "/nekst tuː/",
+      "partOfSpeech": "preposition",
+      "meaning": "beside something",
+      "translation": "~옆에",
+      "example": "There's a parking lot next to the mall.",
+      "exampleMeaning": "쇼핑몰 옆에 주차장이 있어요."
+    },
+    {
+      "id": "w10",
+      "word": "straight",
+      "pronunciation": "/streɪt/",
+      "partOfSpeech": "adverb",
+      "meaning": "continuing in one direction without turning",
+      "translation": "곧장, 직진으로",
+      "example": "Go straight for two blocks.",
+      "exampleMeaning": "두 블록 직진하세요."
+    },
+    {
+      "id": "w11",
+      "word": "turn",
+      "pronunciation": "/tɜːrn/",
+      "partOfSpeech": "verb",
+      "meaning": "to change direction",
+      "translation": "회전하다, 돌다",
+      "example": "Turn right at the next corner.",
+      "exampleMeaning": "다음 모퉁이에서 우회전하세요."
+    },
+    {
+      "id": "w12",
+      "word": "pass",
+      "pronunciation": "/pæs/",
+      "partOfSpeech": "verb",
+      "meaning": "to go by something",
+      "translation": "지나가다",
+      "example": "Pass the hospital and keep going.",
+      "exampleMeaning": "병원을 지나서 계속 가세요."
+    },
+    {
+      "id": "w13",
+      "word": "landmark",
+      "pronunciation": "/ˈlændmɑːrk/",
+      "partOfSpeech": "noun",
+      "meaning": "a well-known building or place",
+      "translation": "랜드마크, 주요 건물",
+      "example": "The tower is a famous landmark.",
+      "exampleMeaning": "그 타워는 유명한 랜드마크예요."
+    },
+    {
+      "id": "w14",
+      "word": "around",
+      "pronunciation": "/əˈraʊnd/",
+      "partOfSpeech": "preposition",
+      "meaning": "in the area near something",
+      "translation": "~주변에, ~근처에",
+      "example": "Is there a cafe around here?",
+      "exampleMeaning": "이 근처에 카페가 있나요?"
+    },
+    {
+      "id": "w15",
+      "word": "nearby",
+      "pronunciation": "/ˌnɪrˈbaɪ/",
+      "partOfSpeech": "adjective/adverb",
+      "meaning": "close to a place",
+      "translation": "가까운, 근처에",
+      "example": "Is there a subway station nearby?",
+      "exampleMeaning": "근처에 지하철역이 있나요?"
+    },
+    {
+      "id": "w16",
+      "word": "downtown",
+      "pronunciation": "/ˌdaʊnˈtaʊn/",
+      "partOfSpeech": "noun/adverb",
+      "meaning": "the central part of a city",
+      "translation": "시내, 도심",
+      "example": "Let's go downtown for shopping.",
+      "exampleMeaning": "쇼핑하러 시내에 가자."
+    },
+    {
+      "id": "w17",
+      "word": "suburb",
+      "pronunciation": "/ˈsʌbɜːrb/",
+      "partOfSpeech": "noun",
+      "meaning": "an area outside the city center",
+      "translation": "교외",
+      "example": "They live in the suburbs.",
+      "exampleMeaning": "그들은 교외에 살아요."
+    },
+    {
+      "id": "w18",
+      "word": "pedestrian",
+      "pronunciation": "/pəˈdestriən/",
+      "partOfSpeech": "noun",
+      "meaning": "a person walking on foot",
+      "translation": "보행자",
+      "example": "This area is for pedestrians only.",
+      "exampleMeaning": "이 구역은 보행자 전용이에요."
+    },
+    {
+      "id": "w19",
+      "word": "map",
+      "pronunciation": "/mæp/",
+      "partOfSpeech": "noun",
+      "meaning": "a drawing showing roads and places",
+      "translation": "지도",
+      "example": "I use a map app on my phone.",
+      "exampleMeaning": "휴대폰에서 지도 앱을 사용해요."
+    },
+    {
+      "id": "w20",
+      "word": "lost",
+      "pronunciation": "/lɔːst/",
+      "partOfSpeech": "adjective",
+      "meaning": "not knowing where you are",
+      "translation": "길을 잃은",
+      "example": "I think I'm lost. Can you help me?",
+      "exampleMeaning": "길을 잃은 것 같아요. 도와주실 수 있나요?"
+    },
+    {
+      "id": "w21",
+      "word": "far",
+      "pronunciation": "/fɑːr/",
+      "partOfSpeech": "adverb",
+      "meaning": "at a great distance",
+      "translation": "멀리",
+      "example": "Is the museum far from here?",
+      "exampleMeaning": "여기서 박물관이 먼가요?"
+    },
+    {
+      "id": "w22",
+      "word": "entrance",
+      "pronunciation": "/ˈentrəns/",
+      "partOfSpeech": "noun",
+      "meaning": "a door or way to go into a place",
+      "translation": "입구",
+      "example": "The main entrance is on the left.",
+      "exampleMeaning": "정문 입구는 왼쪽에 있어요."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "What is an 'intersection'?",
+      "options": ["a bridge", "a place where two roads cross", "a parking lot", "a building"],
+      "answer": "a place where two roads cross"
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "Choose the correct word: 'Go _____ for three blocks.'",
+      "options": ["turn", "straight", "corner", "pass"],
+      "answer": "straight"
+    },
+    {
+      "id": "ex3",
+      "type": "fill_blank",
+      "question": "Turn _____ at the traffic light.",
+      "answer": "left"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "What is 'opposite'?",
+      "options": ["next to something", "behind something", "across from something", "above something"],
+      "answer": "across from something"
+    },
+    {
+      "id": "ex5",
+      "type": "fill_blank",
+      "question": "The cafe is on the _____. (where two streets meet)",
+      "answer": "corner"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "What is a 'landmark'?",
+      "options": ["a type of park", "a well-known building or place", "a small road", "a bus stop"],
+      "answer": "a well-known building or place"
+    },
+    {
+      "id": "ex7",
+      "type": "matching",
+      "pairs": [
+        {"word": "next to", "meaning": "beside"},
+        {"word": "between", "meaning": "in the middle of two things"},
+        {"word": "nearby", "meaning": "close to"},
+        {"word": "around", "meaning": "in the area near"}
+      ]
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "Use the _____ to cross the street safely.",
+      "answer": "crosswalk"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "What does 'lost' mean?",
+      "options": ["knowing exactly where you are", "not knowing where you are", "being in a hurry", "walking slowly"],
+      "answer": "not knowing where you are"
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "The post office is _____ the bank and the library.",
+      "answer": "between"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "What is 'downtown'?",
+      "options": ["an area outside the city", "the central part of a city", "a park", "a suburb"],
+      "answer": "the central part of a city"
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "Is there a subway station _____? (close by)",
+      "answer": "nearby"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "A 'pedestrian' is:",
+      "options": ["a person driving a car", "a person riding a bike", "a person walking", "a person on a bus"],
+      "answer": "a person walking"
+    },
+    {
+      "id": "ex14",
+      "type": "matching",
+      "pairs": [
+        {"word": "entrance", "meaning": "way to go into a place"},
+        {"word": "block", "meaning": "distance between streets"},
+        {"word": "suburb", "meaning": "area outside city center"},
+        {"word": "map", "meaning": "drawing showing roads"}
+      ]
+    },
+    {
+      "id": "ex15",
+      "type": "fill_blank",
+      "question": "Is the museum _____ from here? No, it's very close.",
+      "answer": "far"
+    }
+  ]
+}

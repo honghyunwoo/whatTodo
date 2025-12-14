@@ -1,0 +1,139 @@
+{
+  "id": "week-1-speaking",
+  "weekId": "week-1",
+  "type": "speaking",
+  "level": "B2",
+  "title": "Discussing News and Media",
+  "description": "Practice discussing news sources, media reliability, and current events.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "By the time I heard about the story, it had already gone viral on social media.",
+      "translation": "내가 그 이야기를 들었을 때, 이미 소셜 미디어에서 바이럴이 된 뒤였다.",
+      "tips": "Past perfect (had gone)로 먼저 일어난 일을 표현하세요."
+    },
+    {
+      "id": "s2",
+      "text": "I had never questioned news sources until I realized how much misinformation exists online.",
+      "translation": "온라인에 얼마나 많은 오보가 있는지 깨닫기 전까지 뉴스 출처를 의심해 본 적이 없었다.",
+      "tips": "'had never + 과거분사'로 과거까지의 경험 부재를 표현하세요."
+    },
+    {
+      "id": "s3",
+      "text": "The journalist discovered that the company had been hiding evidence for years.",
+      "translation": "그 기자는 회사가 수년간 증거를 숨겨왔다는 것을 발견했다.",
+      "tips": "Past perfect continuous (had been hiding)로 과거부터 지속된 행동을 표현하세요."
+    },
+    {
+      "id": "s4",
+      "text": "Before social media existed, people had relied mainly on newspapers for information.",
+      "translation": "소셜 미디어가 존재하기 전에, 사람들은 주로 정보를 위해 신문에 의존했었다.",
+      "tips": "'Before ... existed, ... had relied'로 시간 순서를 명확히 하세요."
+    },
+    {
+      "id": "s5",
+      "text": "The story had been circulating online for hours before any major outlet reported it.",
+      "translation": "주요 언론사가 보도하기 전에 그 이야기는 온라인에서 몇 시간 동안 퍼지고 있었다.",
+      "tips": "Past perfect continuous로 보도 전까지의 상황을 표현하세요."
+    },
+    {
+      "id": "s6",
+      "text": "I always verify information before I share it because I've seen how easily false news spreads.",
+      "translation": "가짜 뉴스가 얼마나 쉽게 퍼지는지 봤기 때문에 공유하기 전에 항상 정보를 확인한다.",
+      "tips": "현재 습관(verify, share)과 경험(have seen)을 연결하세요."
+    },
+    {
+      "id": "s7",
+      "text": "The newspaper apologized after it was revealed they had published inaccurate information.",
+      "translation": "그 신문사는 부정확한 정보를 게재했다는 것이 밝혀진 후 사과했다.",
+      "tips": "Passive (was revealed) + past perfect (had published) 조합을 사용하세요."
+    },
+    {
+      "id": "s8",
+      "text": "By the time the fact-checkers investigated, thousands of people had already believed the false story.",
+      "translation": "팩트체커들이 조사했을 때, 이미 수천 명이 거짓 이야기를 믿은 뒤였다.",
+      "tips": "'By the time + past simple, past perfect'로 시간 순서를 표현하세요."
+    },
+    {
+      "id": "s9",
+      "text": "She explained that the sources she had consulted were all unreliable.",
+      "translation": "그녀는 자신이 참조한 출처들이 모두 신뢰할 수 없었다고 설명했다.",
+      "tips": "간접 화법에서 past perfect (had consulted)를 사용하세요."
+    },
+    {
+      "id": "s10",
+      "text": "The politician denied the allegations, claiming the media had taken his words out of context.",
+      "translation": "그 정치인은 미디어가 자신의 말을 문맥에서 벗어나게 인용했다고 주장하며 혐의를 부인했다.",
+      "tips": "'claiming + past perfect'로 주장 내용을 표현하세요."
+    },
+    {
+      "id": "s11",
+      "text": "I had been following the news story for weeks when the truth finally emerged.",
+      "translation": "진실이 마침내 밝혀졌을 때 나는 몇 주 동안 그 뉴스를 팔로우하고 있었다.",
+      "tips": "Past perfect continuous로 진행 중이던 행동을 강조하세요."
+    },
+    {
+      "id": "s12",
+      "text": "The editor realized that they should have verified the story before publishing it.",
+      "translation": "편집장은 게재하기 전에 그 기사를 확인했어야 했다는 것을 깨달았다.",
+      "tips": "'should have + 과거분사'로 과거의 후회를 표현하세요."
+    }
+  ],
+
+  "dialoguePractice": {
+    "title": "Discussing Media Consumption",
+    "roles": ["Alex", "Jordan"],
+    "lines": [
+      {"role": "Alex", "text": "Have you been following the news about the economic crisis?"},
+      {"role": "Jordan", "text": "Yes, but I've been careful about which sources I trust. I had heard some conflicting reports initially."},
+      {"role": "Alex", "text": "That's smart. By the time I checked multiple sources, I realized the first article I'd read had been quite biased."},
+      {"role": "Jordan", "text": "It's frustrating, isn't it? Before social media, we hadn't needed to be so skeptical about every news story."},
+      {"role": "Alex", "text": "True. What sources do you usually rely on now?"},
+      {"role": "Jordan", "text": "I've started using a few reputable outlets that have consistently reported accurately. I also check what journalists I trust are saying."},
+      {"role": "Alex", "text": "That's a good approach. I had been just scrolling through social media for news, but I've realized that's not reliable."},
+      {"role": "Jordan", "text": "Exactly. I think media literacy has become an essential skill. Schools should have started teaching this years ago."},
+      {"role": "Alex", "text": "I agree. At least some countries have begun implementing media literacy programs now."},
+      {"role": "Jordan", "text": "It's better late than never. The important thing is that we stay informed while remaining critical of what we read."}
+    ]
+  },
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation & Intonation",
+      "items": [
+        "Did you pronounce 'had' clearly in past perfect forms?",
+        "Did you link words naturally (e.g., 'had already')?",
+        "Did you use appropriate stress on key vocabulary?",
+        "Did you maintain natural rhythm in longer sentences?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you use past perfect structures smoothly?",
+        "Did you transition naturally between different tenses?",
+        "Did you complete complex sentences without excessive pauses?",
+        "Did you participate naturally in the dialogue?"
+      ]
+    },
+    {
+      "category": "Grammar Accuracy",
+      "items": [
+        "Did you use past perfect (had + past participle) correctly?",
+        "Did you use past perfect continuous (had been + ing) appropriately?",
+        "Did you sequence events correctly using narrative tenses?",
+        "Did you use reported speech tense changes accurately?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Did you express opinions about media clearly?",
+        "Did you use appropriate vocabulary for discussing news?",
+        "Did you explain ideas with sufficient detail?",
+        "Did you engage naturally in discussing current events?"
+      ]
+    }
+  ]
+}

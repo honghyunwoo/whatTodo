@@ -1,0 +1,175 @@
+{
+  "id": "week-3-writing",
+  "weekId": "week-3",
+  "type": "writing",
+  "level": "B1",
+  "title": "Writing About an Important Relationship",
+  "description": "Write about someone who is important to you and how they have influenced your life.",
+
+  "prompt": {
+    "topic": "An Important Person in My Life",
+    "description": "Write about a person who is important to you (a friend, family member, teacher, or mentor). Describe your relationship with them, explain why they are important to you, and share how they have influenced or helped you.",
+    "requirements": [
+      "Describe who the person is and how you know them",
+      "Explain your relationship with them",
+      "Give specific examples of how they have helped or influenced you",
+      "Describe what qualities make them special",
+      "Express your feelings about the relationship"
+    ],
+    "wordCount": {
+      "min": 130,
+      "max": 180
+    },
+    "timeLimit": 25
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "One of the most important people in my life is my best friend, Sarah.",
+      "translation": "제 인생에서 가장 중요한 사람 중 하나는 제 친한 친구 사라예요.",
+      "useCase": "To introduce the person"
+    },
+    {
+      "id": "ex2",
+      "sentence": "We have known each other since we were in high school.",
+      "translation": "우리는 고등학교 때부터 알고 지냈어요.",
+      "useCase": "To describe how long you've known them"
+    },
+    {
+      "id": "ex3",
+      "sentence": "She has always been there for me during difficult times.",
+      "translation": "그녀는 어려운 시간에 항상 곁에 있어 줬어요.",
+      "useCase": "To describe their support"
+    },
+    {
+      "id": "ex4",
+      "sentence": "What I appreciate most about her is her honesty.",
+      "translation": "그녀에게서 가장 고마운 점은 정직함이에요.",
+      "useCase": "To highlight a quality"
+    },
+    {
+      "id": "ex5",
+      "sentence": "Thanks to her advice, I was able to make better decisions.",
+      "translation": "그녀의 조언 덕분에 더 나은 결정을 할 수 있었어요.",
+      "useCase": "To explain their influence"
+    },
+    {
+      "id": "ex6",
+      "sentence": "I feel grateful to have such a supportive person in my life.",
+      "translation": "제 삶에 이렇게 든든한 사람이 있어서 감사해요.",
+      "useCase": "To express gratitude"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "supportive",
+      "translation": "지지해 주는",
+      "example": "She is very supportive of my dreams."
+    },
+    {
+      "word": "influence",
+      "translation": "영향을 주다",
+      "example": "He has influenced my career choices."
+    },
+    {
+      "word": "reliable",
+      "translation": "믿을 수 있는",
+      "example": "He's a reliable friend I can always count on."
+    },
+    {
+      "word": "encourage",
+      "translation": "격려하다",
+      "example": "She always encourages me to try new things."
+    },
+    {
+      "word": "grateful",
+      "translation": "감사하는",
+      "example": "I'm grateful for our friendship."
+    },
+    {
+      "word": "mentor",
+      "translation": "멘토, 조언자",
+      "example": "He has been like a mentor to me."
+    },
+    {
+      "word": "bond",
+      "translation": "유대",
+      "example": "We share a strong bond."
+    },
+    {
+      "word": "qualities",
+      "translation": "자질, 특성",
+      "example": "I admire her many positive qualities."
+    }
+  ],
+
+  "usefulExpressions": [
+    {
+      "expression": "One of the most important people in my life is...",
+      "usage": "To introduce someone significant",
+      "example": "One of the most important people in my life is my grandmother."
+    },
+    {
+      "expression": "What I admire about them is...",
+      "usage": "To describe admirable qualities",
+      "example": "What I admire about them is their patience."
+    },
+    {
+      "expression": "They have taught me that...",
+      "usage": "To explain lessons learned",
+      "example": "They have taught me that hard work pays off."
+    },
+    {
+      "expression": "I don't know what I would do without...",
+      "usage": "To express appreciation",
+      "example": "I don't know what I would do without their support."
+    },
+    {
+      "expression": "Our relationship is based on...",
+      "usage": "To describe the foundation of a relationship",
+      "example": "Our relationship is based on mutual trust and respect."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "Content Requirements",
+      "items": [
+        "Did you clearly identify who the person is?",
+        "Did you describe your relationship with them?",
+        "Did you give specific examples of their influence?",
+        "Did you describe their positive qualities?",
+        "Did you express your feelings about the relationship?"
+      ]
+    },
+    {
+      "category": "Grammar & Structure",
+      "items": [
+        "Did you use Present Perfect for experiences?",
+        "Did you use a variety of tenses appropriately?",
+        "Did you organize your ideas logically?",
+        "Did you use correct reported speech if quoting?"
+      ]
+    },
+    {
+      "category": "Vocabulary & Style",
+      "items": [
+        "Did you use varied vocabulary for relationships?",
+        "Did you use descriptive adjectives for qualities?",
+        "Did you avoid repetitive language?",
+        "Did you use connecting words effectively?"
+      ]
+    },
+    {
+      "category": "Word Count & Completion",
+      "items": [
+        "Is your writing at least 130 words?",
+        "Is your writing no more than 180 words?",
+        "Does your writing have a clear introduction and conclusion?",
+        "Did you complete within the time limit?"
+      ]
+    }
+  ]
+}

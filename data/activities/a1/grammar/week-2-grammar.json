@@ -1,0 +1,163 @@
+{
+  "id": "week-2-grammar",
+  "weekId": "week-2",
+  "type": "grammar",
+  "level": "A1",
+  "title": "일반동사 현재형",
+  "description": "일반동사의 현재형 형태와 사용법을 학습합니다.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "rule": "일반동사의 현재형 (기본형)",
+      "explanation": "일반동사는 주어가 I, You, We, They일 때 동사원형을 사용하고, He, She, It일 때는 동사에 -s/-es를 붙입니다.",
+      "examples": [
+        {
+          "sentence": "I like apples.",
+          "translation": "나는 사과를 좋아합니다."
+        },
+        {
+          "sentence": "She likes apples.",
+          "translation": "그녀는 사과를 좋아합니다."
+        },
+        {
+          "sentence": "They study English.",
+          "translation": "그들은 영어를 공부합니다."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "rule": "일반동사의 부정문",
+      "explanation": "일반동사의 부정문은 do not (don't) 또는 does not (doesn't)를 사용합니다. He/She/It은 doesn't, 나머지는 don't를 사용합니다.",
+      "examples": [
+        {
+          "sentence": "I do not (don't) like coffee.",
+          "translation": "나는 커피를 좋아하지 않습니다."
+        },
+        {
+          "sentence": "He does not (doesn't) play soccer.",
+          "translation": "그는 축구를 하지 않습니다."
+        },
+        {
+          "sentence": "We do not (don't) watch TV.",
+          "translation": "우리는 TV를 보지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "rule": "일반동사의 의문문",
+      "explanation": "일반동사의 의문문은 Do 또는 Does를 문장 앞에 놓습니다. He/She/It은 Does, 나머지는 Do를 사용하고 동사는 원형을 씁니다.",
+      "examples": [
+        {
+          "sentence": "Do you like music?",
+          "translation": "당신은 음악을 좋아합니까?"
+        },
+        {
+          "sentence": "Does she study math?",
+          "translation": "그녀는 수학을 공부합니까?"
+        },
+        {
+          "sentence": "Do they live in Seoul?",
+          "translation": "그들은 서울에 삽니까?"
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "I ___ pizza.",
+      "options": ["like", "likes", "liking", "liked"],
+      "answer": "like",
+      "explanation": "'I'는 동사원형을 사용하므로 'like'가 정답입니다."
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "She ___ books every day.",
+      "options": ["read", "reads", "reading", "to read"],
+      "answer": "reads",
+      "explanation": "'She'는 3인칭 단수이므로 동사에 -s를 붙여 'reads'를 사용합니다."
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "They ___ in a big house.",
+      "options": ["live", "lives", "living", "lived"],
+      "answer": "live",
+      "explanation": "'They'는 복수 주어이므로 동사원형 'live'를 사용합니다."
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "He ___ English. (공부하다 - study)",
+      "answer": "studies",
+      "explanation": "'He'는 3인칭 단수이고 study는 자음+y로 끝나므로 y를 i로 바꾸고 -es를 붙여 'studies'가 됩니다."
+    },
+    {
+      "id": "ex5",
+      "type": "fill_blank",
+      "question": "We ___ soccer on weekends. (하다 - play)",
+      "answer": "play",
+      "explanation": "'We'는 복수 주어이므로 동사원형 'play'를 사용합니다."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "I ___ not like vegetables.",
+      "options": ["do", "does", "am", "is"],
+      "answer": "do",
+      "explanation": "일반동사의 부정문에서 'I'는 'do not'을 사용합니다."
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "She ___ not watch TV.",
+      "options": ["do", "does", "is", "are"],
+      "answer": "does",
+      "explanation": "'She'는 3인칭 단수이므로 'does not (doesn't)'을 사용합니다."
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "___ you speak Korean? (당신은 한국어를 말합니까?)",
+      "answer": "Do",
+      "explanation": "일반동사 의문문에서 'you'는 'Do'를 문장 앞에 놓습니다."
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "___ he work here? (그는 여기서 일합니까?)",
+      "answer": "Does",
+      "explanation": "'He'는 3인칭 단수이므로 'Does'를 문장 앞에 놓고 동사는 원형 'work'를 사용합니다."
+    },
+    {
+      "id": "ex10",
+      "type": "sentence_ordering",
+      "question": "다음 단어를 올바른 순서로 배열하세요: [Do, like, you, cats, ?]",
+      "options": ["Do", "like", "you", "cats", "?"],
+      "answer": ["Do", "you", "like", "cats", "?"],
+      "explanation": "의문문: Do + 주어(you) + 동사원형(like) + 목적어(cats) + ? 순서입니다."
+    },
+    {
+      "id": "ex11",
+      "type": "sentence_ordering",
+      "question": "다음 단어를 올바른 순서로 배열하세요: [doesn't, She, English, speak]",
+      "options": ["doesn't", "She", "English", "speak"],
+      "answer": ["She", "doesn't", "speak", "English"],
+      "explanation": "부정문: 주어(She) + doesn't + 동사원형(speak) + 목적어(English) 순서입니다."
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "My brother ___ to school by bus.",
+      "options": ["go", "goes", "going", "gone"],
+      "answer": "goes",
+      "explanation": "'My brother'는 3인칭 단수이고 go는 -es를 붙여 'goes'가 됩니다."
+    }
+  ]
+}

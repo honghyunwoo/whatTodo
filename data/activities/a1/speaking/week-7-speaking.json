@@ -1,0 +1,138 @@
+{
+  "id": "week-7-speaking",
+  "weekId": "week-7",
+  "type": "speaking",
+  "level": "B2",
+  "title": "현재와 미래 계획 말하기",
+  "description": "현재진행형과 미래시제를 사용하여 현재 하고 있는 일과 미래 계획을 말해봅니다.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "I'm studying English right now.",
+      "translation": "나는 지금 영어를 공부하고 있다.",
+      "tips": "'I'm'과 'studying'을 자연스럽게 연결하고, 'right now'는 명확하게 발음하세요."
+    },
+    {
+      "id": "s2",
+      "text": "She is working on an important project.",
+      "translation": "그녀는 중요한 프로젝트를 진행하고 있다.",
+      "tips": "'working on'을 한 덩어리로 연결하여 발음하세요."
+    },
+    {
+      "id": "s3",
+      "text": "They are having dinner at a restaurant.",
+      "translation": "그들은 식당에서 저녁을 먹고 있다.",
+      "tips": "'They are'를 /ðeɪər/로 자연스럽게 축약하여 발음할 수 있습니다."
+    },
+    {
+      "id": "s4",
+      "text": "What are you doing this weekend?",
+      "translation": "이번 주말에 무엇을 할 예정이세요?",
+      "tips": "의문문의 올라가는 억양을 'weekend'에서 표현하세요."
+    },
+    {
+      "id": "s5",
+      "text": "I will help you with that tomorrow.",
+      "translation": "내가 내일 그것을 도와줄게.",
+      "tips": "'will'을 강조하여 확신을 표현하고, 'I'll'로 축약할 수도 있습니다."
+    },
+    {
+      "id": "s6",
+      "text": "It will rain this afternoon.",
+      "translation": "오늘 오후에 비가 올 것이다.",
+      "tips": "'will'과 'rain'을 부드럽게 연결하여 발음하세요."
+    },
+    {
+      "id": "s7",
+      "text": "I'm going to visit Japan next month.",
+      "translation": "나는 다음 달에 일본을 방문할 예정이다.",
+      "tips": "'going to'를 /ˈɡoʊnə/로 축약하여 자연스럽게 발음할 수 있습니다."
+    },
+    {
+      "id": "s8",
+      "text": "We are going to start our own business.",
+      "translation": "우리는 우리 자신의 사업을 시작할 예정이다.",
+      "tips": "'are going to'를 한 호흡으로 연결하고, 'own business'를 강조하세요."
+    },
+    {
+      "id": "s9",
+      "text": "Look at those clouds! It's going to rain.",
+      "translation": "저 구름을 봐! 비가 올 것 같아.",
+      "tips": "'Look'을 강조하고, 'It's going to'를 자연스럽게 연결하세요."
+    },
+    {
+      "id": "s10",
+      "text": "I'm meeting my friend at 3 PM today.",
+      "translation": "나는 오늘 오후 3시에 친구를 만날 예정이다.",
+      "tips": "확정된 계획을 현재진행형으로 표현하며, '3 PM'을 명확히 발음하세요."
+    },
+    {
+      "id": "s11",
+      "text": "We're flying to New York next week.",
+      "translation": "우리는 다음 주에 뉴욕으로 비행할 예정이다.",
+      "tips": "'We're flying'을 부드럽게 연결하고, 'next week'를 강조하세요."
+    },
+    {
+      "id": "s12",
+      "text": "The train is leaving in five minutes.",
+      "translation": "기차가 5분 후에 출발한다.",
+      "tips": "임박한 미래를 현재진행형으로 표현하며, 'five minutes'를 명확히 발음하세요."
+    },
+    {
+      "id": "s13",
+      "text": "I think technology will change our lives dramatically.",
+      "translation": "나는 기술이 우리 삶을 극적으로 변화시킬 것이라고 생각한다.",
+      "tips": "'will change'를 강조하여 예측의 의미를 전달하고, 'dramatically'를 또렷하게 발음하세요."
+    },
+    {
+      "id": "s14",
+      "text": "Many people will work from home in the future.",
+      "translation": "미래에는 많은 사람들이 재택근무를 할 것이다.",
+      "tips": "'in the future'를 명확히 발음하여 미래 시제를 강조하세요."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "🔊 발음 및 억양",
+      "items": [
+        "현재진행형(am/is/are + -ing)을 명확하게 발음했나요?",
+        "will과 be going to를 정확하게 발음했나요?",
+        "축약형(I'm, We're, It'll)을 자연스럽게 사용했나요?",
+        "의문문의 올라가는 억양을 올바르게 표현했나요?",
+        "문장의 자연스러운 리듬을 유지했나요?"
+      ]
+    },
+    {
+      "category": "💬 유창성",
+      "items": [
+        "현재진행형 문장을 막힘 없이 말했나요?",
+        "미래시제 문장을 자연스럽게 연결했나요?",
+        "'going to'를 자연스럽게 /gonna/로 발음했나요?",
+        "적절한 곳에서 쉼을 두었나요?",
+        "전체 문장을 완성했나요?"
+      ]
+    },
+    {
+      "category": "🎯 정확성",
+      "items": [
+        "be동사(am/is/are)를 주어에 맞게 정확히 사용했나요?",
+        "동사-ing 형태를 올바르게 발음했나요?",
+        "will 뒤에 동사 원형을 정확히 사용했나요?",
+        "'be going to' 구조를 문법적으로 정확하게 말했나요?",
+        "시제를 문맥에 맞게 사용했나요?"
+      ]
+    },
+    {
+      "category": "😊 전달력",
+      "items": [
+        "현재 진행 중인 동작의 의미를 잘 전달했나요?",
+        "미래 계획이나 예측의 의도를 명확히 표현했나요?",
+        "확신의 정도를 억양으로 표현했나요?",
+        "듣는 사람이 시제를 이해할 수 있게 말했나요?",
+        "모든 문장을 녹음하고 확인해봤나요?"
+      ]
+    }
+  ]
+}

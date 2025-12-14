@@ -1,0 +1,245 @@
+{
+  "id": "week-8-reading",
+  "weekId": "week-8",
+  "type": "reading",
+  "level": "B2",
+  "title": "해리 포터: 세계적인 현상",
+  "description": "해리 포터 시리즈에 대한 글을 읽고 수동태와 관계대명사를 이해합니다.",
+
+  "passage": {
+    "text": "Harry Potter, which was written by J.K. Rowling, is one of the most successful book series in history. The story, which follows a young wizard named Harry Potter, has been translated into over 80 languages and has sold more than 500 million copies worldwide.\n\nThe first book, \"Harry Potter and the Philosopher's Stone,\" was published in 1997. It was initially rejected by twelve publishers before it was finally accepted by Bloomsbury. The book, which tells the story of Harry's first year at Hogwarts School, became an instant bestseller.\n\nJ.K. Rowling, whose life story is as inspiring as her books, was a single mother who wrote the first book in cafes while her baby daughter slept. She is now one of the wealthiest women in the world, whose success has been earned through hard work and perseverance.\n\nThe books were adapted into eight films that were produced by Warner Bros. The movies, which starred Daniel Radcliffe as Harry Potter, Emma Watson as Hermione Granger, and Rupert Grint as Ron Weasley, were hugely successful at the box office. The final film, which was released in 2011, grossed over $1.3 billion worldwide.\n\nThe Harry Potter theme park, which was opened in 2010 at Universal Studios in Florida, attracts millions of visitors each year. The park features rides and attractions that were designed to recreate the magical world that appears in the books and films.\n\nThe series has also inspired countless fan communities around the world. Fans, who are called \"Potterheads,\" regularly attend conventions and events that are dedicated to celebrating the series. The books have been praised for encouraging young people to read, and many children who were introduced to reading through Harry Potter have become lifelong readers.\n\nHarry Potter has received numerous awards and has been recognized as one of the most influential cultural phenomena of the 21st century. The themes that are explored in the books, such as friendship, courage, and the battle between good and evil, continue to resonate with readers of all ages.\n\nThe legacy of Harry Potter, which began with a simple story about a boy wizard, has grown into something far greater than anyone could have imagined. It is a testament to the power of storytelling and imagination.",
+    "wordCount": 379,
+    "estimatedReadingTime": 8,
+    "audioText": "Harry Potter, which was written by J.K. Rowling, is one of the most successful book series in history. The story, which follows a young wizard named Harry Potter, has been translated into over 80 languages and has sold more than 500 million copies worldwide. [PAUSE] The first book, \"Harry Potter and the Philosopher's Stone,\" was published in 1997. It was initially rejected by twelve publishers before it was finally accepted by Bloomsbury. The book, which tells the story of Harry's first year at Hogwarts School, became an instant bestseller. [PAUSE] J.K. Rowling, whose life story is as inspiring as her books, was a single mother who wrote the first book in cafes while her baby daughter slept. She is now one of the wealthiest women in the world, whose success has been earned through hard work and perseverance. [PAUSE] The books were adapted into eight films that were produced by Warner Bros. The movies, which starred Daniel Radcliffe as Harry Potter, Emma Watson as Hermione Granger, and Rupert Grint as Ron Weasley, were hugely successful at the box office. The final film, which was released in 2011, grossed over $1.3 billion worldwide. [PAUSE] The Harry Potter theme park, which was opened in 2010 at Universal Studios in Florida, attracts millions of visitors each year. The park features rides and attractions that were designed to recreate the magical world that appears in the books and films. [PAUSE] The series has also inspired countless fan communities around the world. Fans, who are called \"Potterheads,\" regularly attend conventions and events that are dedicated to celebrating the series. The books have been praised for encouraging young people to read, and many children who were introduced to reading through Harry Potter have become lifelong readers. [PAUSE] Harry Potter has received numerous awards and has been recognized as one of the most influential cultural phenomena of the 21st century. The themes that are explored in the books, such as friendship, courage, and the battle between good and evil, continue to resonate with readers of all ages. [PAUSE] The legacy of Harry Potter, which began with a simple story about a boy wizard, has grown into something far greater than anyone could have imagined. It is a testament to the power of storytelling and imagination."
+  },
+
+  "vocabulary": [
+    {
+      "word": "wizard",
+      "meaning": "마법사",
+      "lineNumber": 1
+    },
+    {
+      "word": "translated",
+      "meaning": "번역된",
+      "lineNumber": 1
+    },
+    {
+      "word": "rejected",
+      "meaning": "거절된",
+      "lineNumber": 3
+    },
+    {
+      "word": "publisher",
+      "meaning": "출판사",
+      "lineNumber": 3
+    },
+    {
+      "word": "inspiring",
+      "meaning": "영감을 주는",
+      "lineNumber": 5
+    },
+    {
+      "word": "perseverance",
+      "meaning": "인내, 끈기",
+      "lineNumber": 5
+    },
+    {
+      "word": "adapted",
+      "meaning": "각색된",
+      "lineNumber": 7
+    },
+    {
+      "word": "grossed",
+      "meaning": "(총 수입으로) 벌었다",
+      "lineNumber": 7
+    },
+    {
+      "word": "attracts",
+      "meaning": "끌어들이다, 유치하다",
+      "lineNumber": 9
+    },
+    {
+      "word": "recreate",
+      "meaning": "재현하다",
+      "lineNumber": 9
+    },
+    {
+      "word": "conventions",
+      "meaning": "컨벤션, 대회",
+      "lineNumber": 11
+    },
+    {
+      "word": "praised",
+      "meaning": "칭찬받은",
+      "lineNumber": 11
+    },
+    {
+      "word": "phenomena",
+      "meaning": "현상 (복수)",
+      "lineNumber": 13
+    },
+    {
+      "word": "resonate",
+      "meaning": "공감을 일으키다",
+      "lineNumber": 13
+    },
+    {
+      "word": "legacy",
+      "meaning": "유산, 유물",
+      "lineNumber": 15
+    },
+    {
+      "word": "testament",
+      "meaning": "증거, 증명",
+      "lineNumber": 15
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "Who wrote Harry Potter?",
+      "options": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "J.K. Rowling",
+        "Bloomsbury"
+      ],
+      "answer": "J.K. Rowling",
+      "explanation": "해리 포터는 J.K. Rowling에 의해 쓰여졌습니다."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Harry Potter has been translated into over 80 languages.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "해리 포터는 80개 이상의 언어로 번역되었습니다."
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "question": "How many copies has Harry Potter sold worldwide (in millions)?",
+      "answer": "500",
+      "explanation": "전 세계적으로 5억 부 이상 판매되었습니다."
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "When was the first Harry Potter book published?",
+      "options": ["1995", "1997", "2000", "2001"],
+      "answer": "1997",
+      "explanation": "첫 번째 책은 1997년에 출판되었습니다."
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "How many publishers rejected the first book before it was accepted?",
+      "options": ["Five", "Eight", "Twelve", "Twenty"],
+      "answer": "Twelve",
+      "explanation": "12개의 출판사가 거절한 후에 Bloomsbury가 받아들였습니다."
+    },
+    {
+      "id": "q6",
+      "type": "true_false",
+      "question": "J.K. Rowling was a single mother when she wrote the first book.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Rowling은 첫 번째 책을 쓸 때 싱글맘이었습니다."
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "Where did J.K. Rowling write the first book?",
+      "options": [
+        "At home",
+        "In cafes",
+        "In a library",
+        "At a hotel"
+      ],
+      "answer": "In cafes",
+      "explanation": "그녀는 카페에서 아기 딸이 자는 동안 첫 번째 책을 썼습니다."
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "How many films were made from the books?",
+      "options": ["Six", "Seven", "Eight", "Ten"],
+      "answer": "Eight",
+      "explanation": "8편의 영화가 제작되었습니다."
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "Who produced the Harry Potter films?",
+      "options": [
+        "Universal Studios",
+        "Warner Bros",
+        "Disney",
+        "Paramount"
+      ],
+      "answer": "Warner Bros",
+      "explanation": "영화들은 Warner Bros에 의해 제작되었습니다."
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "When was the final film released?",
+      "options": ["2009", "2010", "2011", "2012"],
+      "answer": "2011",
+      "explanation": "마지막 영화는 2011년에 개봉되었습니다."
+    },
+    {
+      "id": "q11",
+      "type": "true_false",
+      "question": "The Harry Potter theme park is in Florida.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "테마파크는 플로리다의 Universal Studios에 2010년에 개장했습니다."
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "What are Harry Potter fans called?",
+      "options": [
+        "Wizards",
+        "Potterheads",
+        "Hogwarts fans",
+        "Magic fans"
+      ],
+      "answer": "Potterheads",
+      "explanation": "팬들은 'Potterheads'라고 불립니다."
+    },
+    {
+      "id": "q13",
+      "type": "true_false",
+      "question": "The books have been praised for encouraging young people to read.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "책들은 젊은 사람들이 독서하도록 장려한 것으로 칭찬받았습니다."
+    },
+    {
+      "id": "q14",
+      "type": "multiple_choice",
+      "question": "Which theme is mentioned in the passage?",
+      "options": [
+        "Money and power",
+        "Friendship and courage",
+        "Technology and science",
+        "Travel and adventure"
+      ],
+      "answer": "Friendship and courage",
+      "explanation": "우정, 용기, 선과 악의 싸움 같은 주제가 언급되어 있습니다."
+    },
+    {
+      "id": "q15",
+      "type": "true_false",
+      "question": "Harry Potter is recognized as one of the most influential cultural phenomena of the 21st century.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "해리 포터는 21세기의 가장 영향력 있는 문화 현상 중 하나로 인정받았습니다."
+    }
+  ]
+}

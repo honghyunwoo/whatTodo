@@ -1,0 +1,156 @@
+{
+  "id": "week-3-writing",
+  "weekId": "week-3",
+  "type": "writing",
+  "level": "A2",
+  "title": "주말 경험 글쓰기",
+  "description": "지난 주말에 했던 일에 대해 과거시제를 사용하여 글을 작성해봅니다.",
+
+  "prompt": {
+    "topic": "나의 주말 경험 쓰기",
+    "description": "지난 주말에 무엇을 했는지, 어디에 갔는지, 누구와 함께 했는지에 대해 과거시제를 사용하여 쓰는 글을 작성해보세요.",
+    "requirements": [
+      "무엇을 했는지 작성하세요",
+      "어디에 갔는지 작성하세요",
+      "누구와 함께 했는지 작성하세요",
+      "어떤 느낌이었는지 작성하세요"
+    ],
+    "wordCount": {
+      "min": 50,
+      "max": 100
+    },
+    "timeLimit": 20
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "Last weekend, I went to the beach.",
+      "translation": "지난 주말에 저는 해변에 갔습니다.",
+      "useCase": "주말 활동을 소개할 때"
+    },
+    {
+      "id": "ex2",
+      "sentence": "I went with my family.",
+      "translation": "저는 가족과 함께 갔습니다.",
+      "useCase": "누구와 함께 했는지 말할 때"
+    },
+    {
+      "id": "ex3",
+      "sentence": "We played volleyball and swam in the ocean.",
+      "translation": "우리는 배구를 하고 바다에서 수영했습니다.",
+      "useCase": "무엇을 했는지 설명할 때"
+    },
+    {
+      "id": "ex4",
+      "sentence": "The weather was beautiful.",
+      "translation": "날씨가 아름다웠습니다.",
+      "useCase": "날씨나 상황을 묘사할 때"
+    },
+    {
+      "id": "ex5",
+      "sentence": "We ate lunch at a restaurant.",
+      "translation": "우리는 식당에서 점심을 먹었습니다.",
+      "useCase": "식사에 대해 말할 때"
+    },
+    {
+      "id": "ex6",
+      "sentence": "I had a great time!",
+      "translation": "저는 정말 즐거운 시간을 보냈습니다!",
+      "useCase": "느낌이나 감상을 표현할 때"
+    },
+    {
+      "id": "ex7",
+      "sentence": "It was a wonderful weekend.",
+      "translation": "멋진 주말이었습니다.",
+      "useCase": "전체적인 평가를 할 때"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "Last weekend/Saturday/Sunday",
+      "translation": "지난 주말/토요일/일요일",
+      "example": "Last Saturday, I went shopping."
+    },
+    {
+      "word": "went to...",
+      "translation": "~에 갔다",
+      "example": "I went to the park."
+    },
+    {
+      "word": "with my family/friends",
+      "translation": "가족/친구들과 함께",
+      "example": "I went with my friends."
+    },
+    {
+      "word": "played/watched/visited",
+      "translation": "했다/봤다/방문했다",
+      "example": "We played soccer."
+    },
+    {
+      "word": "ate/had (food)",
+      "translation": "먹었다",
+      "example": "We ate pizza for lunch."
+    },
+    {
+      "word": "The weather was...",
+      "translation": "날씨가 ~였다",
+      "example": "The weather was nice."
+    },
+    {
+      "word": "It was...",
+      "translation": "그것은 ~였다",
+      "example": "It was fun/great/wonderful."
+    },
+    {
+      "word": "I had a good/great time",
+      "translation": "좋은/멋진 시간을 보냈다",
+      "example": "I had a great time!"
+    },
+    {
+      "word": "was/were",
+      "translation": "~였다/~이었다",
+      "example": "I was happy. They were tired."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "📝 내용 요구사항",
+      "items": [
+        "무엇을 했는지 포함했나요?",
+        "어디에 갔는지 포함했나요?",
+        "누구와 함께 했는지 포함했나요?",
+        "어떤 느낌이었는지 포함했나요?",
+        "과거 시간 표현을 사용했나요? (last weekend, yesterday)"
+      ]
+    },
+    {
+      "category": "✅ 문법 및 형식",
+      "items": [
+        "과거시제를 올바르게 사용했나요? (went, ate, was)",
+        "규칙 동사의 과거형(-ed)을 올바르게 사용했나요?",
+        "불규칙 동사의 과거형을 올바르게 사용했나요?",
+        "문장이 대문자로 시작하고 마침표로 끝나나요?"
+      ]
+    },
+    {
+      "category": "📏 분량",
+      "items": [
+        "최소 50단어 이상인가요?",
+        "최대 100단어 이내인가요?",
+        "충분한 세부 내용을 포함했나요?"
+      ]
+    },
+    {
+      "category": "🎯 전반적 평가",
+      "items": [
+        "주말 경험이 생생하게 전달되나요?",
+        "사건이 논리적으로 연결되나요?",
+        "맞춤법 실수가 없나요?",
+        "제한 시간 내에 완성했나요?"
+      ]
+    }
+  ]
+}

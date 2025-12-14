@@ -1,0 +1,128 @@
+{
+  "id": "week-3-writing",
+  "weekId": "week-3",
+  "type": "writing",
+  "level": "B2",
+  "title": "Analyzing Historical Decisions",
+  "description": "Write an analytical essay about a historical crisis and explore alternative outcomes using the third conditional.",
+
+  "prompt": {
+    "topic": "Learning from History: What Could Have Been Different?",
+    "scenario": "Choose a significant historical event or crisis (e.g., environmental disaster, humanitarian crisis, economic collapse, or conflict). Analyze what happened and discuss what might have been different if key decisions had been made differently.",
+    "requirements": [
+      "Briefly describe the historical event or crisis you have chosen",
+      "Use the third conditional to discuss at least three alternative scenarios",
+      "Analyze the potential outcomes of different decisions",
+      "Include your perspective on what lessons can be learned",
+      "Use appropriate vocabulary for discussing global issues and causation"
+    ],
+    "wordCount": { "min": 180, "max": 250 },
+    "timeLimit": 25
+  },
+
+  "writingHelp": {
+    "structure": {
+      "introduction": [
+        "One of the most significant [crises/events] of recent history was...",
+        "Looking back at [event], we can identify several critical moments when different decisions might have changed everything.",
+        "The [crisis] of [year] serves as a powerful reminder of how important timely action can be."
+      ],
+      "bodyParagraphs": [
+        "If [leader/organization] had [action], [result] would have been different.",
+        "The situation could have been prevented if...",
+        "Had [action] been taken earlier, [outcome] might have been avoided.",
+        "Looking at the evidence, if [condition], then [result] would not have occurred."
+      ],
+      "conclusion": [
+        "These hypothetical scenarios demonstrate that...",
+        "The lessons from this event are clear: if we had..., we would have...",
+        "Moving forward, we must learn that early intervention and international cooperation are essential."
+      ]
+    },
+    "usefulExpressions": [
+      { "phrase": "If...had been implemented", "example": "If stricter regulations had been implemented, the disaster could have been prevented." },
+      { "phrase": "...would have been avoided", "example": "Thousands of deaths would have been avoided if aid had arrived sooner." },
+      { "phrase": "Had...been recognized", "example": "Had the warning signs been recognized, authorities could have evacuated the area." },
+      { "phrase": "...might never have occurred", "example": "The conflict might never have occurred if diplomatic solutions had been prioritized." },
+      { "phrase": "If only...had", "example": "If only governments had cooperated earlier, the crisis would not have escalated." }
+    ],
+    "connectors": {
+      "causation": ["As a result", "Consequently", "Therefore", "This led to"],
+      "hypothetical": ["If...had", "Had...been", "Were it not for", "Supposing that"],
+      "contrast": ["However", "Nevertheless", "On the other hand", "Despite this"],
+      "addition": ["Furthermore", "Moreover", "In addition", "What is more"]
+    },
+    "vocabularyBank": [
+      "intervention", "humanitarian", "preventive measures", "early warning",
+      "international cooperation", "policy failure", "systemic issues",
+      "underlying causes", "long-term consequences", "critical juncture"
+    ]
+  },
+
+  "rubric": {
+    "content": {
+      "weight": 0.30,
+      "criteria": [
+        "Clear description of the historical event",
+        "At least three third conditional scenarios explored",
+        "Thoughtful analysis of alternative outcomes",
+        "Personal reflection on lessons learned"
+      ]
+    },
+    "grammar": {
+      "weight": 0.30,
+      "criteria": [
+        "Correct use of third conditional structure",
+        "Appropriate use of modal verbs (would/could/might have)",
+        "Varied sentence structures",
+        "Accurate tense usage throughout"
+      ]
+    },
+    "vocabulary": {
+      "weight": 0.20,
+      "criteria": [
+        "Use of topic-specific vocabulary",
+        "Appropriate academic register",
+        "Varied word choice",
+        "Correct collocations"
+      ]
+    },
+    "organization": {
+      "weight": 0.20,
+      "criteria": [
+        "Clear introduction, body, and conclusion",
+        "Logical flow of ideas",
+        "Effective use of connectors",
+        "Coherent paragraphing"
+      ]
+    }
+  },
+
+  "sampleAnswer": {
+    "text": "The 2010 Haiti earthquake remains one of the deadliest natural disasters in modern history, claiming over 200,000 lives. While no one could have prevented the earthquake itself, the devastating death toll could have been significantly reduced if different decisions had been made.\n\nFirst, if building codes had been properly enforced in Port-au-Prince, many structures would not have collapsed so catastrophically. The city's rapid growth had outpaced safety regulations, and thousands died in poorly constructed buildings that could have been built to withstand seismic activity.\n\nSecond, the international response, though substantial, arrived too late for many victims. If emergency response systems had been better coordinated before the disaster, rescue teams could have saved more lives in the critical first 72 hours. Had pre-positioned supplies been available in the region, immediate relief would have reached survivors faster.\n\nFinally, if long-term development investment had strengthened local infrastructure and healthcare systems, the country would have been more resilient. Economic inequality had left Haiti vulnerable, and poverty magnified every aspect of the tragedy.\n\nThese scenarios teach us that disaster preparedness is not optional. If we had learned these lessons earlier, future tragedies might be prevented or minimized. The cost of prevention is always lower than the cost of recovery.",
+    "wordCount": 210,
+    "annotations": [
+      { "text": "if building codes had been properly enforced", "comment": "Third conditional: past condition" },
+      { "text": "would not have collapsed", "comment": "Third conditional: past result" },
+      { "text": "If emergency response systems had been better coordinated", "comment": "Third conditional variation" },
+      { "text": "could have saved", "comment": "Third conditional with 'could' for ability" },
+      { "text": "Had pre-positioned supplies been available", "comment": "Inverted third conditional (formal)" },
+      { "text": "would have reached", "comment": "Third conditional result clause" },
+      { "text": "if long-term development investment had strengthened", "comment": "Third conditional with complex noun phrase" },
+      { "text": "would have been more resilient", "comment": "Third conditional result" },
+      { "text": "might be prevented", "comment": "Mixed conditional: past condition, future result" }
+    ]
+  },
+
+  "selfCheckList": [
+    "Did I clearly describe the historical event or crisis?",
+    "Did I use at least three third conditional sentences correctly?",
+    "Did I analyze potential alternative outcomes?",
+    "Did I include both 'if' clauses and result clauses?",
+    "Did I use varied modal verbs (would/could/might have)?",
+    "Did I include vocabulary related to global issues?",
+    "Did I organize my essay with clear paragraphs?",
+    "Did I include a meaningful conclusion with lessons learned?",
+    "Is my essay within the word count (180-250 words)?"
+  ]
+}

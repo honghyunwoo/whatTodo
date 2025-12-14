@@ -1,0 +1,333 @@
+{
+  "id": "week-7-vocab",
+  "weekId": "week-7",
+  "type": "vocabulary",
+  "level": "B1",
+  "title": "Culture & Traditions",
+  "description": "Learn vocabulary for discussing culture, customs, celebrations, and traditions.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "tradition",
+      "pronunciation": "/trəˈdɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "a custom or belief passed down through generations",
+      "translation": "전통",
+      "example": "It's a tradition in my family to eat together on Sundays.",
+      "exampleTranslation": "우리 가족은 일요일에 함께 식사하는 전통이 있어요."
+    },
+    {
+      "id": "w2",
+      "word": "custom",
+      "pronunciation": "/ˈkʌstəm/",
+      "partOfSpeech": "noun",
+      "meaning": "a traditional way of behaving",
+      "translation": "관습, 풍습",
+      "example": "Bowing is a common custom in Korea.",
+      "exampleTranslation": "절을 하는 것은 한국의 흔한 관습이에요."
+    },
+    {
+      "id": "w3",
+      "word": "ceremony",
+      "pronunciation": "/ˈserəməni/",
+      "partOfSpeech": "noun",
+      "meaning": "a formal event for a special occasion",
+      "translation": "의식, 행사",
+      "example": "The wedding ceremony was beautiful.",
+      "exampleTranslation": "결혼식이 아름다웠어요."
+    },
+    {
+      "id": "w4",
+      "word": "festival",
+      "pronunciation": "/ˈfestɪvl/",
+      "partOfSpeech": "noun",
+      "meaning": "a special day or period of celebration",
+      "translation": "축제",
+      "example": "The music festival attracts thousands of visitors.",
+      "exampleTranslation": "그 음악 축제는 수천 명의 방문객을 끌어들여요."
+    },
+    {
+      "id": "w5",
+      "word": "heritage",
+      "pronunciation": "/ˈherɪtɪdʒ/",
+      "partOfSpeech": "noun",
+      "meaning": "traditions, buildings, etc. from the past",
+      "translation": "유산",
+      "example": "We should protect our cultural heritage.",
+      "exampleTranslation": "우리는 문화 유산을 보호해야 해요."
+    },
+    {
+      "id": "w6",
+      "word": "ancestor",
+      "pronunciation": "/ˈænsestə/",
+      "partOfSpeech": "noun",
+      "meaning": "a person from your family who lived long ago",
+      "translation": "조상",
+      "example": "My ancestors came from a small village.",
+      "exampleTranslation": "제 조상들은 작은 마을에서 왔어요."
+    },
+    {
+      "id": "w7",
+      "word": "celebration",
+      "pronunciation": "/ˌselɪˈbreɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "the act of celebrating a special event",
+      "translation": "축하, 기념",
+      "example": "The New Year celebration lasts for several days.",
+      "exampleTranslation": "새해 기념 행사는 며칠 동안 계속돼요."
+    },
+    {
+      "id": "w8",
+      "word": "religious",
+      "pronunciation": "/rɪˈlɪdʒəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "relating to religion",
+      "translation": "종교적인",
+      "example": "Many holidays have religious origins.",
+      "exampleTranslation": "많은 명절이 종교적 기원을 가지고 있어요."
+    },
+    {
+      "id": "w9",
+      "word": "ritual",
+      "pronunciation": "/ˈrɪtʃuəl/",
+      "partOfSpeech": "noun",
+      "meaning": "a set of actions performed in a fixed order",
+      "translation": "의례, 의식",
+      "example": "Tea ceremonies are important rituals in Japan.",
+      "exampleTranslation": "다도는 일본에서 중요한 의례예요."
+    },
+    {
+      "id": "w10",
+      "word": "symbol",
+      "pronunciation": "/ˈsɪmbl/",
+      "partOfSpeech": "noun",
+      "meaning": "something that represents something else",
+      "translation": "상징",
+      "example": "The dragon is a symbol of power in many Asian cultures.",
+      "exampleTranslation": "용은 많은 아시아 문화에서 힘의 상징이에요."
+    },
+    {
+      "id": "w11",
+      "word": "traditional",
+      "pronunciation": "/trəˈdɪʃənl/",
+      "partOfSpeech": "adjective",
+      "meaning": "following customs from the past",
+      "translation": "전통적인",
+      "example": "She wore traditional Korean clothing to the event.",
+      "exampleTranslation": "그녀는 행사에 전통 한복을 입었어요."
+    },
+    {
+      "id": "w12",
+      "word": "preserve",
+      "pronunciation": "/prɪˈzɜːv/",
+      "partOfSpeech": "verb",
+      "meaning": "to keep something in its original state",
+      "translation": "보존하다",
+      "example": "It's important to preserve traditional crafts.",
+      "exampleTranslation": "전통 공예를 보존하는 것이 중요해요."
+    },
+    {
+      "id": "w13",
+      "word": "multicultural",
+      "pronunciation": "/ˌmʌltiˈkʌltʃərəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "including many different cultures",
+      "translation": "다문화의",
+      "example": "London is a multicultural city.",
+      "exampleTranslation": "런던은 다문화 도시예요."
+    },
+    {
+      "id": "w14",
+      "word": "diverse",
+      "pronunciation": "/daɪˈvɜːs/",
+      "partOfSpeech": "adjective",
+      "meaning": "showing a great deal of variety",
+      "translation": "다양한",
+      "example": "The region has a diverse population.",
+      "exampleTranslation": "그 지역은 다양한 인구 구성을 가지고 있어요."
+    },
+    {
+      "id": "w15",
+      "word": "cuisine",
+      "pronunciation": "/kwɪˈziːn/",
+      "partOfSpeech": "noun",
+      "meaning": "a style of cooking from a particular place",
+      "translation": "요리, 음식 문화",
+      "example": "Korean cuisine is becoming popular worldwide.",
+      "exampleTranslation": "한국 요리가 전 세계적으로 인기를 얻고 있어요."
+    },
+    {
+      "id": "w16",
+      "word": "ethnic",
+      "pronunciation": "/ˈeθnɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "relating to a particular cultural group",
+      "translation": "민족의, 인종적인",
+      "example": "The festival celebrates ethnic diversity.",
+      "exampleTranslation": "그 축제는 민족적 다양성을 기념해요."
+    },
+    {
+      "id": "w17",
+      "word": "folk",
+      "pronunciation": "/fəʊk/",
+      "partOfSpeech": "adjective/noun",
+      "meaning": "relating to traditional culture of ordinary people",
+      "translation": "민속의; 민속",
+      "example": "Folk music tells stories about everyday life.",
+      "exampleTranslation": "민속 음악은 일상 생활에 대한 이야기를 들려줘요."
+    },
+    {
+      "id": "w18",
+      "word": "costume",
+      "pronunciation": "/ˈkɒstjuːm/",
+      "partOfSpeech": "noun",
+      "meaning": "clothes typical of a particular place or time",
+      "translation": "의상, 복장",
+      "example": "People wore traditional costumes at the parade.",
+      "exampleTranslation": "사람들이 퍼레이드에서 전통 의상을 입었어요."
+    },
+    {
+      "id": "w19",
+      "word": "superstition",
+      "pronunciation": "/ˌsuːpəˈstɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "a belief not based on reason or science",
+      "translation": "미신",
+      "example": "In some cultures, breaking a mirror is a superstition.",
+      "exampleTranslation": "어떤 문화에서는 거울을 깨는 것이 미신이에요."
+    },
+    {
+      "id": "w20",
+      "word": "hospitality",
+      "pronunciation": "/ˌhɒspɪˈtælɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "friendly treatment of guests",
+      "translation": "환대, 접대",
+      "example": "Korean hospitality is famous around the world.",
+      "exampleTranslation": "한국의 환대는 전 세계적으로 유명해요."
+    },
+    {
+      "id": "w21",
+      "word": "honor",
+      "pronunciation": "/ˈɒnə/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to show respect for; great respect",
+      "translation": "존경하다; 명예",
+      "example": "We honor our elders in our culture.",
+      "exampleTranslation": "우리 문화에서는 어른을 공경해요."
+    },
+    {
+      "id": "w22",
+      "word": "influence",
+      "pronunciation": "/ˈɪnfluəns/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "the power to affect others",
+      "translation": "영향; 영향을 주다",
+      "example": "Western culture has influenced fashion worldwide.",
+      "exampleTranslation": "서양 문화가 전 세계 패션에 영향을 미쳤어요."
+    },
+    {
+      "id": "w23",
+      "word": "identity",
+      "pronunciation": "/aɪˈdentɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "who a person or group is",
+      "translation": "정체성",
+      "example": "Culture plays a big role in forming our identity.",
+      "exampleTranslation": "문화는 우리 정체성을 형성하는 데 큰 역할을 해요."
+    },
+    {
+      "id": "w24",
+      "word": "globalization",
+      "pronunciation": "/ˌɡləʊbəlaɪˈzeɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "the process of becoming worldwide",
+      "translation": "세계화",
+      "example": "Globalization has made cultures more connected.",
+      "exampleTranslation": "세계화로 인해 문화들이 더 연결되었어요."
+    },
+    {
+      "id": "w25",
+      "word": "stereotype",
+      "pronunciation": "/ˈsteriətaɪp/",
+      "partOfSpeech": "noun",
+      "meaning": "a fixed, oversimplified idea about a group",
+      "translation": "고정관념",
+      "example": "We should avoid cultural stereotypes.",
+      "exampleTranslation": "문화적 고정관념을 피해야 해요."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "It's a _____ in my country to give red envelopes on New Year.",
+      "options": ["superstition", "stereotype", "tradition", "symbol"],
+      "answer": "tradition"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "The wedding _____ took place in a beautiful garden.",
+      "answer": "ceremony"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "Korean _____ includes dishes like kimchi and bibimbap.",
+      "options": ["custom", "cuisine", "costume", "ceremony"],
+      "answer": "cuisine"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "The dragon is a _____ of luck in Chinese culture.",
+      "answer": "symbol"
+    },
+    {
+      "id": "ex5",
+      "type": "matching",
+      "pairs": [
+        {"word": "heritage", "match": "traditions from the past"},
+        {"word": "ancestor", "match": "family member from long ago"},
+        {"word": "ritual", "match": "set of traditional actions"},
+        {"word": "hospitality", "match": "friendly treatment of guests"}
+      ]
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "Many cities are becoming more _____ with people from different backgrounds.",
+      "options": ["traditional", "multicultural", "religious", "ethnic"],
+      "answer": "multicultural"
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "We should _____ our cultural traditions for future generations.",
+      "answer": "preserve"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "_____ music and dance are important parts of our heritage.",
+      "options": ["Folk", "Modern", "Popular", "Classical"],
+      "answer": "Folk"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "_____ has connected cultures around the world through trade and technology.",
+      "answer": "Globalization"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "We should avoid cultural _____ and learn about cultures directly.",
+      "options": ["traditions", "celebrations", "stereotypes", "customs"],
+      "answer": "stereotypes"
+    }
+  ]
+}

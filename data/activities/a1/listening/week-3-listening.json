@@ -1,0 +1,86 @@
+{
+  "id": "week-3-listening",
+  "weekId": "week-3",
+  "type": "listening",
+  "level": "A2",
+  "title": "과거 경험 대화 듣기",
+  "description": "과거에 했던 일에 대한 대화를 듣고 이해합니다.",
+
+  "audio": {
+    "text": "Hi, I'm Mike. [PAUSE] Last weekend was great! [PAUSE] On Saturday, I went to the beach with my family. [PAUSE] We played volleyball and swam in the ocean. [PAUSE] On Sunday, I visited my grandparents. [PAUSE] We had lunch together and talked about many things. [PAUSE] It was a wonderful weekend!",
+    "speed": 0.8
+  },
+
+  "dictation": {
+    "targetSentences": [
+      "Last weekend was great!",
+      "I went to the beach with my family."
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is the speaker's name?",
+      "options": ["Mike", "Mark", "Matt", "Max"],
+      "answer": "Mike",
+      "explanation": "화자는 'I'm Mike'라고 자신을 소개했습니다."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Mike had a good weekend.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Mike는 'Last weekend was great!'와 'It was a wonderful weekend!'라고 말했습니다."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "Where did Mike go on Saturday?",
+      "options": ["Park", "Beach", "Museum", "Mall"],
+      "answer": "Beach",
+      "explanation": "토요일에 Mike는 가족과 해변에 갔습니다. (I went to the beach)"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "Who did Mike go to the beach with?",
+      "options": ["His family", "His friends", "Alone", "His classmates"],
+      "answer": "His family",
+      "explanation": "Mike는 가족과 함께 해변에 갔습니다. (with my family)"
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "question": "What sport did Mike play at the beach?",
+      "answer": "Volleyball",
+      "explanation": "Mike는 해변에서 배구를 했습니다. (We played volleyball)"
+    },
+    {
+      "id": "q6",
+      "type": "true_false",
+      "question": "Mike swam in the ocean.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Mike는 바다에서 수영했습니다. (swam in the ocean)"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What did Mike do on Sunday?",
+      "options": ["Visited grandparents", "Went shopping", "Played games", "Watched movies"],
+      "answer": "Visited grandparents",
+      "explanation": "일요일에 Mike는 조부모님을 방문했습니다."
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Mike had lunch with his grandparents.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Mike는 조부모님과 함께 점심을 먹었습니다. (We had lunch together)"
+    }
+  ]
+}

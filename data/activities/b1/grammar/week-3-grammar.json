@@ -1,0 +1,241 @@
+{
+  "id": "week-3-grammar",
+  "weekId": "week-3",
+  "type": "grammar",
+  "level": "B1",
+  "title": "Reported Speech",
+  "description": "Learn how to report what other people say.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Direct vs. Reported Speech",
+      "explanation": "Direct speech uses the exact words someone said (with quotation marks). Reported speech tells what someone said without using their exact words.",
+      "examples": [
+        {
+          "sentence": "Direct: \"I am tired,\" she said.",
+          "translation": "직접화법: \"나 피곤해,\" 그녀가 말했다.",
+          "note": "Exact words in quotes"
+        },
+        {
+          "sentence": "Reported: She said (that) she was tired.",
+          "translation": "간접화법: 그녀는 피곤하다고 말했다.",
+          "note": "No quotes, tense changes"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Tense Changes in Reported Speech",
+      "explanation": "When reporting speech, tenses usually shift back one step: present → past, past → past perfect, will → would.",
+      "tenseChanges": [
+        {"direct": "am/is/are", "reported": "was/were"},
+        {"direct": "have/has", "reported": "had"},
+        {"direct": "will", "reported": "would"},
+        {"direct": "can", "reported": "could"},
+        {"direct": "present simple", "reported": "past simple"},
+        {"direct": "present continuous", "reported": "past continuous"},
+        {"direct": "past simple", "reported": "past perfect"}
+      ],
+      "examples": [
+        {
+          "sentence": "\"I work here.\" → He said he worked there.",
+          "translation": "\"나 여기서 일해.\" → 그는 거기서 일한다고 했다.",
+          "note": "Present → Past"
+        },
+        {
+          "sentence": "\"I will help you.\" → She said she would help me.",
+          "translation": "\"도와줄게.\" → 그녀가 도와주겠다고 했다.",
+          "note": "Will → Would"
+        },
+        {
+          "sentence": "\"I have finished.\" → He said he had finished.",
+          "translation": "\"다 끝냈어.\" → 그는 끝냈다고 했다.",
+          "note": "Present perfect → Past perfect"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Pronoun and Time Changes",
+      "explanation": "When reporting speech, pronouns and time expressions often change to match the reporter's perspective.",
+      "changes": [
+        {"direct": "I", "reported": "he/she"},
+        {"direct": "you", "reported": "me/us"},
+        {"direct": "my", "reported": "his/her"},
+        {"direct": "here", "reported": "there"},
+        {"direct": "today", "reported": "that day"},
+        {"direct": "tomorrow", "reported": "the next day"},
+        {"direct": "yesterday", "reported": "the day before"},
+        {"direct": "now", "reported": "then"}
+      ],
+      "examples": [
+        {
+          "sentence": "\"I'll call you tomorrow.\" → He said he would call me the next day.",
+          "translation": "\"내일 전화할게.\" → 그는 다음 날 전화하겠다고 했다.",
+          "note": "I→he, you→me, tomorrow→the next day"
+        },
+        {
+          "sentence": "\"I'm leaving now.\" → She said she was leaving then.",
+          "translation": "\"지금 간다.\" → 그녀는 그때 간다고 했다.",
+          "note": "I→she, now→then"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Reporting Questions",
+      "explanation": "When reporting questions, use 'if/whether' for yes/no questions and question words for wh-questions. Use statement word order (no question mark).",
+      "examples": [
+        {
+          "sentence": "\"Are you coming?\" → She asked if I was coming.",
+          "translation": "\"올 거야?\" → 그녀가 내가 오는지 물었다.",
+          "note": "Yes/No question → if/whether"
+        },
+        {
+          "sentence": "\"Where do you live?\" → He asked where I lived.",
+          "translation": "\"어디 살아?\" → 그가 어디 사는지 물었다.",
+          "note": "Wh-question → statement word order"
+        },
+        {
+          "sentence": "\"What time is it?\" → She asked what time it was.",
+          "translation": "\"몇 시야?\" → 그녀가 몇 시인지 물었다.",
+          "note": "No question mark in reported speech"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Reporting Commands and Requests",
+      "explanation": "Use 'tell/ask + object + to + infinitive' to report commands and requests.",
+      "examples": [
+        {
+          "sentence": "\"Please help me.\" → She asked me to help her.",
+          "translation": "\"도와줘.\" → 그녀가 도와달라고 했다.",
+          "note": "Request → ask + to"
+        },
+        {
+          "sentence": "\"Don't be late!\" → He told me not to be late.",
+          "translation": "\"늦지 마!\" → 그가 늦지 말라고 했다.",
+          "note": "Negative command → tell + not to"
+        },
+        {
+          "sentence": "\"Sit down.\" → The teacher told us to sit down.",
+          "translation": "\"앉으세요.\" → 선생님이 앉으라고 했다.",
+          "note": "Command → tell + to"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "title": "Reporting Verbs",
+      "explanation": "Different reporting verbs can be used to show how something was said: say, tell, ask, explain, promise, admit, suggest, etc.",
+      "reportingVerbs": [
+        {"verb": "say", "use": "general reporting", "structure": "say (that)..."},
+        {"verb": "tell", "use": "reporting to someone", "structure": "tell someone (that)..."},
+        {"verb": "ask", "use": "questions/requests", "structure": "ask (someone) if/to..."},
+        {"verb": "explain", "use": "giving reasons", "structure": "explain (that)..."},
+        {"verb": "promise", "use": "commitments", "structure": "promise (that/to)..."},
+        {"verb": "suggest", "use": "recommendations", "structure": "suggest (that/verb-ing)..."}
+      ],
+      "examples": [
+        {
+          "sentence": "He promised that he would come.",
+          "translation": "그는 오겠다고 약속했다.",
+          "note": "promise + that"
+        },
+        {
+          "sentence": "She suggested going to a restaurant.",
+          "translation": "그녀가 식당에 가자고 제안했다.",
+          "note": "suggest + verb-ing"
+        },
+        {
+          "sentence": "He explained that he had been stuck in traffic.",
+          "translation": "그는 교통체증에 걸렸다고 설명했다.",
+          "note": "explain + that"
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "\"I am happy.\" → She said she _____ happy.",
+      "options": ["is", "was", "has been", "will be"],
+      "answer": "was"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "\"I will call you later.\" → He said he _____ call me later.",
+      "answer": "would"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "\"Do you like coffee?\" → She asked _____ I liked coffee.",
+      "options": ["that", "if", "what", "why"],
+      "answer": "if"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "\"Where do you live?\" → He asked where I _____.",
+      "answer": "lived"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "\"Please help me.\" → She asked me _____ help her.",
+      "options": ["to", "that", "if", "would"],
+      "answer": "to"
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "\"Don't be late!\" → He told me _____ to be late.",
+      "answer": "not"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "\"I have finished my work.\" → She said she _____ finished her work.",
+      "options": ["has", "had", "have", "was"],
+      "answer": "had"
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "\"I'll meet you tomorrow.\" → He said he would meet me the _____ day.",
+      "answer": "next"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "She _____ that she was feeling sick.",
+      "options": ["said", "told", "asked", "questioned"],
+      "answer": "said"
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "He _____ me that he would be late for the meeting.",
+      "answer": "told"
+    },
+    {
+      "id": "ex11",
+      "type": "reorder",
+      "question": "Put in order: said / she / tired / that / was / she",
+      "answer": "She said that she was tired."
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "\"Can you help me?\" → She asked _____ I could help her.",
+      "options": ["that", "what", "if", "to"],
+      "answer": "if"
+    }
+  ]
+}

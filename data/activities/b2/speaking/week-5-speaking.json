@@ -1,0 +1,141 @@
+{
+  "id": "week-5-speaking",
+  "weekId": "week-5",
+  "type": "speaking",
+  "level": "B2",
+  "title": "Expressing Wishes and Regrets About Art and Culture",
+  "description": "Practice expressing wishes, regrets, and preferences about cultural experiences using 'wish', 'if only', and related structures.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "I wish I had learned to play an instrument when I was younger.",
+      "translation": "어렸을 때 악기를 배웠으면 좋았을 텐데.",
+      "tips": "Use 'wish + past perfect' for past regrets."
+    },
+    {
+      "id": "s2",
+      "text": "If only I could afford tickets to the opera.",
+      "translation": "오페라 티켓을 살 여유가 있으면 좋을 텐데.",
+      "tips": "Use 'if only + could' for present impossibilities."
+    },
+    {
+      "id": "s3",
+      "text": "I wish people wouldn't use their phones during performances.",
+      "translation": "사람들이 공연 중에 핸드폰을 사용하지 않았으면 좋겠다.",
+      "tips": "Use 'wish + would' to express annoyance or desire for change."
+    },
+    {
+      "id": "s4",
+      "text": "If only the exhibition hadn't been so crowded yesterday.",
+      "translation": "어제 전시회가 그렇게 붐비지 않았으면 좋았을 텐데.",
+      "tips": "Use 'if only + past perfect' for past regrets."
+    },
+    {
+      "id": "s5",
+      "text": "I wish I understood abstract art better.",
+      "translation": "추상 미술을 더 잘 이해했으면 좋겠다.",
+      "tips": "Use 'wish + past simple' for present desires."
+    },
+    {
+      "id": "s6",
+      "text": "If only more theaters offered discounts for students.",
+      "translation": "더 많은 극장이 학생들에게 할인을 제공했으면 좋을 텐데.",
+      "tips": "Use 'if only + past simple' for unreal present situations."
+    },
+    {
+      "id": "s7",
+      "text": "It's high time the government invested more in the arts.",
+      "translation": "정부가 예술에 더 많이 투자할 때가 됐다.",
+      "tips": "Use 'It's high time + past simple' for overdue actions."
+    },
+    {
+      "id": "s8",
+      "text": "I'd rather the movie had a more original storyline.",
+      "translation": "그 영화가 더 독창적인 스토리라인을 가졌으면 좋겠다.",
+      "tips": "Use 'would rather + past simple' for preferences about others."
+    },
+    {
+      "id": "s9",
+      "text": "I wish I had seen that play before it closed.",
+      "translation": "그 연극이 끝나기 전에 봤으면 좋았을 텐데.",
+      "tips": "Use 'wish + past perfect' for missed opportunities."
+    },
+    {
+      "id": "s10",
+      "text": "If only classical music concerts weren't so expensive.",
+      "translation": "클래식 음악 콘서트가 그렇게 비싸지 않으면 좋을 텐데.",
+      "tips": "Use 'if only + past simple' for complaints about present situations."
+    },
+    {
+      "id": "s11",
+      "text": "I wish I could paint as well as that artist.",
+      "translation": "저 예술가만큼 그림을 잘 그릴 수 있으면 좋겠다.",
+      "tips": "Use 'wish + could' for abilities we don't have."
+    },
+    {
+      "id": "s12",
+      "text": "It's about time museums offered more interactive experiences.",
+      "translation": "박물관들이 더 많은 인터랙티브 경험을 제공할 때가 됐다.",
+      "tips": "Use 'It's about time + past simple' for necessary changes."
+    }
+  ],
+
+  "dialoguePractice": {
+    "title": "Discussing a Film",
+    "roles": ["Alex", "Sam"],
+    "lines": [
+      {"role": "Alex", "text": "What did you think of the new film?"},
+      {"role": "Sam", "text": "I wish it had been longer. The ending felt rushed."},
+      {"role": "Alex", "text": "Really? I thought it was fine. But I wish the dialogue had been stronger."},
+      {"role": "Sam", "text": "That's true. If only the screenplay had been written by someone more experienced."},
+      {"role": "Alex", "text": "The visuals were stunning though. I wish I could work on films like that."},
+      {"role": "Sam", "text": "Me too. If only we had studied film instead of business!"},
+      {"role": "Alex", "text": "Don't remind me. I'd rather we'd followed our passions."},
+      {"role": "Sam", "text": "It's never too late to learn. There are evening classes available."},
+      {"role": "Alex", "text": "I wish I had more free time. Work takes up everything."},
+      {"role": "Sam", "text": "I know what you mean. It's about time we made time for creative pursuits."},
+      {"role": "Alex", "text": "Agreed. If only there were more hours in the day!"},
+      {"role": "Sam", "text": "Well, at least we can still enjoy watching films, even if we can't make them."}
+    ]
+  },
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation & Intonation",
+      "items": [
+        "Did you pronounce 'wish' and 'if only' clearly?",
+        "Did you use appropriate intonation for wishes and regrets?",
+        "Did you stress key words in each sentence correctly?",
+        "Did you link words naturally in longer expressions?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you use wish structures smoothly without hesitation?",
+        "Did you transition naturally between different wish forms?",
+        "Did you complete complex sentences without excessive pauses?",
+        "Did you participate naturally in the dialogue?"
+      ]
+    },
+    {
+      "category": "Grammar Accuracy",
+      "items": [
+        "Did you use 'wish + past simple' for present situations?",
+        "Did you use 'wish + past perfect' for past regrets?",
+        "Did you use 'wish + would' for complaints correctly?",
+        "Did you use 'It's time + past simple' appropriately?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Did you express wishes and regrets appropriately?",
+        "Did you use arts and entertainment vocabulary?",
+        "Did you convey emotion through your tone?",
+        "Did you respond naturally in the dialogue practice?"
+      ]
+    }
+  ]
+}

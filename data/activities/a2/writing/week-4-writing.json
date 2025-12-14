@@ -1,0 +1,48 @@
+{
+  "id": "week-4-writing",
+  "weekId": "week-4",
+  "type": "writing",
+  "level": "A2",
+  "title": "Health Advice",
+  "description": "Write about staying healthy or give advice about a health problem.",
+
+  "prompt": {
+    "topic": "Write health tips or advice",
+    "description": "Write about what people should do to stay healthy, OR give advice to a friend who is sick.",
+    "requirements": [
+      "Use 'should' at least 2 times for advice",
+      "Use 'have to' at least once for obligations",
+      "Use 'shouldn't' at least once",
+      "Include specific actions (drink water, rest, etc.)",
+      "Include a reason for your advice"
+    ],
+    "wordCount": {"min": 60, "max": 100},
+    "timeLimit": 20
+  },
+
+  "exampleSentences": [
+    {"id": "ex1", "sentence": "If you want to stay healthy, you should exercise regularly.", "translation": "건강을 유지하고 싶다면 규칙적으로 운동해야 합니다.", "useCase": "Giving general advice"},
+    {"id": "ex2", "sentence": "You have to get enough sleep every night.", "translation": "매일 밤 충분한 수면을 취해야 합니다.", "useCase": "Expressing necessity"},
+    {"id": "ex3", "sentence": "You shouldn't eat too much fast food because it's unhealthy.", "translation": "패스트푸드를 너무 많이 먹지 않는 게 좋아요. 건강에 안 좋으니까요.", "useCase": "Negative advice with reason"},
+    {"id": "ex4", "sentence": "I think you should see a doctor if you still have a fever.", "translation": "아직 열이 있으면 병원에 가보는 게 좋을 것 같아요.", "useCase": "Conditional advice"},
+    {"id": "ex5", "sentence": "Take care of yourself and get well soon!", "translation": "몸조리 잘하고 빨리 나으세요!", "useCase": "Closing/well wishes"}
+  ],
+
+  "vocabularyHelp": [
+    {"word": "stay healthy", "translation": "건강을 유지하다", "example": "You should stay healthy."},
+    {"word": "get enough sleep", "translation": "충분히 자다", "example": "You have to get enough sleep."},
+    {"word": "drink plenty of water", "translation": "물을 많이 마시다", "example": "You should drink plenty of water."},
+    {"word": "avoid", "translation": "피하다", "example": "You should avoid stress."},
+    {"word": "take care of", "translation": "돌보다", "example": "You should take care of yourself."},
+    {"word": "feel better", "translation": "나아지다", "example": "I hope you feel better soon."},
+    {"word": "regularly", "translation": "규칙적으로", "example": "Exercise regularly."},
+    {"word": "unhealthy", "translation": "건강에 안 좋은", "example": "Fast food is unhealthy."}
+  ],
+
+  "evaluationChecklist": [
+    {"category": "Content", "items": ["Did you give specific health advice?", "Did you include reasons for your advice?", "Is your advice practical and helpful?"]},
+    {"category": "Grammar", "items": ["Did you use 'should' at least 2 times?", "Did you use 'have to' at least once?", "Did you use 'shouldn't' at least once?", "Are the sentences grammatically correct?"]},
+    {"category": "Organization", "items": ["Is your writing well-organized?", "Do ideas flow logically?"]},
+    {"category": "Word Count", "items": ["Is it 60-100 words?", "Did you check spelling?"]}
+  ]
+}

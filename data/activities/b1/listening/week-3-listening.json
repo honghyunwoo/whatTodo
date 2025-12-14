@@ -1,0 +1,144 @@
+{
+  "id": "week-3-listening",
+  "weekId": "week-3",
+  "type": "listening",
+  "level": "B1",
+  "title": "Solving a Misunderstanding",
+  "description": "Listen to two friends resolving a conflict.",
+
+  "audio": {
+    "text": "Jane: Hi Mark. Do you have a minute? I need to talk to you about something.\nMark: Sure, what's up?\nJane: Well, I heard that you told Sarah that I was talking about her behind her back. Is that true?\nMark: What? No, I didn't say that exactly. I think there's been a misunderstanding.\nJane: Then what did you say? Because Sarah told me that you said I was gossiping about her.\nMark: Let me explain. Sarah asked me if you had mentioned anything about her job situation. I just said that you told me she was thinking about quitting. I didn't mean it in a bad way.\nJane: Oh, I see. But you know I told you that in confidence. I trusted you not to share it with anyone.\nMark: I know, and I'm really sorry. I didn't think it would cause any problems. Sarah seemed worried about her future, and I thought she already knew that you knew.\nJane: I understand, but in the future, could you please check with me first before sharing anything I tell you?\nMark: You're absolutely right. I apologize for not being more careful. I should have asked you first.\nJane: I appreciate that. I know you didn't mean any harm.\nMark: I really didn't. I value our friendship, and I don't want something like this to come between us.\nJane: Neither do I. Let's just make sure we communicate better from now on.\nMark: Agreed. And I'll talk to Sarah and explain everything. I don't want her to misunderstand the situation either.\nJane: That would be great. Thanks for being understanding, Mark.\nMark: Of course. And thanks for coming to me directly instead of assuming the worst. I appreciate that.",
+    "duration": 140,
+    "speed": 0.9,
+    "speakers": ["Jane", "Mark"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "I think there's been a misunderstanding.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "d2",
+        "text": "You know I told you that in confidence.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d3",
+        "text": "I should have asked you first.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d4",
+        "text": "I value our friendship, and I don't want something like this to come between us.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d5",
+        "text": "Thanks for coming to me directly instead of assuming the worst.",
+        "difficulty": "hard"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What did Jane hear about Mark?",
+      "options": ["That he was quitting his job", "That he told Sarah she was gossiping", "That he was angry with her", "That he didn't want to be friends"],
+      "answer": "That he told Sarah she was gossiping",
+      "explanation": "Jane says 'I heard that you told Sarah that I was talking about her behind her back.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Mark agrees that he said Jane was gossiping.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Mark says 'No, I didn't say that exactly. I think there's been a misunderstanding.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What did Mark actually tell Sarah?",
+      "options": ["That Jane was gossiping", "That Jane mentioned Sarah was thinking about quitting", "That Jane didn't like Sarah", "That Jane was looking for a new job"],
+      "answer": "That Jane mentioned Sarah was thinking about quitting",
+      "explanation": "Mark says 'I just said that you told me she was thinking about quitting.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "Why was Jane upset with Mark?",
+      "options": ["He lied about her", "He shared something she told him in confidence", "He didn't invite her to a party", "He was mean to Sarah"],
+      "answer": "He shared something she told him in confidence",
+      "explanation": "Jane says 'you know I told you that in confidence. I trusted you not to share it with anyone.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Mark meant to cause problems.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Mark says 'I didn't think it would cause any problems' and 'I didn't mean it in a bad way.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What does Jane ask Mark to do in the future?",
+      "options": ["Never talk to Sarah again", "Check with her before sharing information", "Apologize to Sarah", "Keep all secrets"],
+      "answer": "Check with her before sharing information",
+      "explanation": "Jane says 'could you please check with me first before sharing anything I tell you?'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "How does Mark respond to Jane's request?",
+      "options": ["He refuses", "He apologizes and agrees", "He gets angry", "He blames Sarah"],
+      "answer": "He apologizes and agrees",
+      "explanation": "Mark says 'You're absolutely right. I apologize for not being more careful.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Mark says he doesn't care about his friendship with Jane.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Mark says 'I value our friendship, and I don't want something like this to come between us.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What does Mark offer to do?",
+      "options": ["Stop talking to Sarah", "Talk to Sarah and explain", "Never mention the situation again", "Send Jane a gift"],
+      "answer": "Talk to Sarah and explain",
+      "explanation": "Mark says 'I'll talk to Sarah and explain everything.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What does Mark appreciate about Jane?",
+      "options": ["That she forgave him immediately", "That she came to him directly", "That she didn't tell anyone", "That she was calm"],
+      "answer": "That she came to him directly",
+      "explanation": "Mark says 'thanks for coming to me directly instead of assuming the worst.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What do Jane and Mark agree to do from now on?",
+      "answer": "communicate better",
+      "alternateAnswers": ["Communicate better", "communicate more", "better communication"],
+      "explanation": "Jane says 'Let's just make sure we communicate better from now on.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "The conversation ends with Jane and Mark still angry at each other.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "They resolve their misunderstanding and thank each other at the end."
+    }
+  ]
+}

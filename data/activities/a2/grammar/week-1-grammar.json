@@ -1,0 +1,223 @@
+{
+  "id": "week-1-grammar",
+  "weekId": "week-1",
+  "type": "grammar",
+  "level": "A2",
+  "title": "Past Simple Tense",
+  "description": "Learn to talk about completed actions in the past using the past simple tense.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "rule": "Regular Verbs - Past Simple",
+      "explanation": "Add -ed to the base form of regular verbs. For verbs ending in 'e', just add -d. For verbs ending in consonant + y, change y to i and add -ed.",
+      "examples": [
+        {
+          "sentence": "I walked to the station yesterday.",
+          "translation": "나는 어제 역까지 걸어갔습니다."
+        },
+        {
+          "sentence": "She arrived at 10 PM.",
+          "translation": "그녀는 오후 10시에 도착했습니다."
+        },
+        {
+          "sentence": "They studied English last year.",
+          "translation": "그들은 작년에 영어를 공부했습니다."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "rule": "Irregular Verbs - Past Simple",
+      "explanation": "Many common verbs have irregular past forms that must be memorized: go-went, have-had, see-saw, come-came, take-took, make-made, get-got, buy-bought.",
+      "examples": [
+        {
+          "sentence": "I went to Paris last summer.",
+          "translation": "나는 지난 여름에 파리에 갔습니다."
+        },
+        {
+          "sentence": "She had a wonderful trip.",
+          "translation": "그녀는 멋진 여행을 했습니다."
+        },
+        {
+          "sentence": "We saw beautiful mountains.",
+          "translation": "우리는 아름다운 산을 보았습니다."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "rule": "Negative Sentences - Past Simple",
+      "explanation": "Use 'did not' (didn't) + base form of the verb. Never use -ed with the main verb in negatives.",
+      "examples": [
+        {
+          "sentence": "I did not (didn't) travel last month.",
+          "translation": "나는 지난달에 여행하지 않았습니다."
+        },
+        {
+          "sentence": "He didn't miss the train.",
+          "translation": "그는 기차를 놓치지 않았습니다."
+        },
+        {
+          "sentence": "They didn't stay at a hotel.",
+          "translation": "그들은 호텔에 머무르지 않았습니다."
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "rule": "Questions - Past Simple",
+      "explanation": "Use 'Did' + subject + base form of the verb. Answer with 'Yes, I did' or 'No, I didn't'.",
+      "examples": [
+        {
+          "sentence": "Did you enjoy your vacation?",
+          "translation": "휴가를 즐겼나요?"
+        },
+        {
+          "sentence": "Did she book a flight?",
+          "translation": "그녀는 비행기를 예약했나요?"
+        },
+        {
+          "sentence": "Did they arrive on time?",
+          "translation": "그들은 제시간에 도착했나요?"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "rule": "Time Expressions with Past Simple",
+      "explanation": "Common time expressions: yesterday, last week/month/year, ago, in 2020, when I was young. These signal past tense.",
+      "examples": [
+        {
+          "sentence": "I visited Korea two years ago.",
+          "translation": "나는 2년 전에 한국을 방문했습니다."
+        },
+        {
+          "sentence": "We met in 2019.",
+          "translation": "우리는 2019년에 만났습니다."
+        },
+        {
+          "sentence": "She lived in Japan when she was young.",
+          "translation": "그녀는 어렸을 때 일본에 살았습니다."
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "I _____ to the airport yesterday.",
+      "options": ["go", "went", "going", "gone"],
+      "answer": "went",
+      "explanation": "'Go' is an irregular verb. Its past form is 'went'."
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "She _____ her passport at home.",
+      "options": ["forgot", "forget", "forgetted", "forgeting"],
+      "answer": "forgot",
+      "explanation": "'Forget' is irregular. Past tense is 'forgot'."
+    },
+    {
+      "id": "ex3",
+      "type": "fill_blank",
+      "question": "We _____ (arrive) at the hotel at midnight.",
+      "answer": "arrived",
+      "explanation": "'Arrive' is regular. Add -d because it ends in 'e'."
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "They _____ (not/enjoy) the flight.",
+      "answer": "didn't enjoy",
+      "explanation": "Negative past: didn't + base form. Not 'didn't enjoyed'."
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "_____ you visit Paris last year?",
+      "options": ["Do", "Did", "Does", "Was"],
+      "answer": "Did",
+      "explanation": "Questions in past simple use 'Did' + subject + base verb."
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "He _____ (buy) a ticket online.",
+      "answer": "bought",
+      "explanation": "'Buy' is irregular. Past tense is 'bought'."
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "I didn't _____ the announcement.",
+      "options": ["hear", "heard", "hearing", "hears"],
+      "answer": "hear",
+      "explanation": "After 'didn't', use the base form of the verb."
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "_____ she miss her flight? (question)",
+      "answer": "Did",
+      "explanation": "Past simple questions start with 'Did'."
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "We _____ the museum two days ago.",
+      "options": ["visit", "visited", "visiting", "visits"],
+      "answer": "visited",
+      "explanation": "'Ago' indicates past time. Use past simple: visited."
+    },
+    {
+      "id": "ex10",
+      "type": "sentence_ordering",
+      "question": "Put in order: [to, went, I, Japan, last, year]",
+      "options": ["to", "went", "I", "Japan", "last", "year"],
+      "answer": ["I", "went", "to", "Japan", "last", "year"],
+      "explanation": "Subject + past verb + to + place + time expression."
+    },
+    {
+      "id": "ex11",
+      "type": "fill_blank",
+      "question": "The plane _____ (land) safely.",
+      "answer": "landed",
+      "explanation": "'Land' is regular. Add -ed for past tense."
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "She _____ me about her trip.",
+      "options": ["tell", "told", "telled", "telling"],
+      "answer": "told",
+      "explanation": "'Tell' is irregular. Past tense is 'told', not 'telled'."
+    },
+    {
+      "id": "ex13",
+      "type": "fill_blank",
+      "question": "_____ they stay at the beach hotel? (question)",
+      "answer": "Did",
+      "explanation": "Use 'Did' to form past simple questions."
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "I _____ a taxi to the station.",
+      "options": ["take", "took", "taked", "taking"],
+      "answer": "took",
+      "explanation": "'Take' is irregular. Past tense is 'took'."
+    },
+    {
+      "id": "ex15",
+      "type": "sentence_ordering",
+      "question": "Put in order: [didn't, We, train, the, miss]",
+      "options": ["didn't", "We", "train", "the", "miss"],
+      "answer": ["We", "didn't", "miss", "the", "train"],
+      "explanation": "Negative: Subject + didn't + base verb + object."
+    }
+  ]
+}

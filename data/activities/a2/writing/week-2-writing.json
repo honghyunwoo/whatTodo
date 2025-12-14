@@ -1,0 +1,48 @@
+{
+  "id": "week-2-writing",
+  "weekId": "week-2",
+  "type": "writing",
+  "level": "A2",
+  "title": "My Favorite Shopping Experience",
+  "description": "Write about a shopping experience or your shopping habits.",
+
+  "prompt": {
+    "topic": "Write about shopping",
+    "description": "Describe your shopping habits or a memorable shopping experience. You can write about what you bought, where you shopped, and how you felt.",
+    "requirements": [
+      "Describe where you usually shop or where you went",
+      "Explain what you bought or like to buy",
+      "Use future tense (will/going to) at least once",
+      "Share your opinion about shopping (like/don't like)",
+      "Include at least one shopping vocabulary word"
+    ],
+    "wordCount": {"min": 60, "max": 100},
+    "timeLimit": 20
+  },
+
+  "exampleSentences": [
+    {"id": "ex1", "sentence": "I usually shop at the department store near my house.", "translation": "저는 보통 집 근처 백화점에서 쇼핑합니다.", "useCase": "Where you shop"},
+    {"id": "ex2", "sentence": "Last weekend, I bought a new jacket on sale.", "translation": "지난 주말에 세일하는 새 재킷을 샀습니다.", "useCase": "What you bought"},
+    {"id": "ex3", "sentence": "I'm going to save money for a new phone.", "translation": "새 폰을 위해 돈을 모을 거예요.", "useCase": "Future plans"},
+    {"id": "ex4", "sentence": "I prefer online shopping because it's more convenient.", "translation": "저는 더 편리하기 때문에 온라인 쇼핑을 선호합니다.", "useCase": "Your preference"},
+    {"id": "ex5", "sentence": "The discount was great, so I saved a lot of money.", "translation": "할인이 좋아서 돈을 많이 절약했습니다.", "useCase": "Describing deals"}
+  ],
+
+  "vocabularyHelp": [
+    {"word": "discount", "translation": "할인", "example": "I got a 30% discount."},
+    {"word": "on sale", "translation": "세일 중인", "example": "This dress is on sale."},
+    {"word": "save money", "translation": "돈을 절약하다", "example": "I want to save money."},
+    {"word": "spend money", "translation": "돈을 쓰다", "example": "I spent too much money."},
+    {"word": "compare prices", "translation": "가격을 비교하다", "example": "I always compare prices online."},
+    {"word": "affordable", "translation": "적당한 가격의", "example": "This store has affordable prices."},
+    {"word": "prefer", "translation": "선호하다", "example": "I prefer cash to cards."},
+    {"word": "worth", "translation": "~의 가치가 있는", "example": "It was worth the price."}
+  ],
+
+  "evaluationChecklist": [
+    {"category": "Content", "items": ["Did you mention where you shop?", "Did you describe what you bought/like to buy?", "Did you use future tense at least once?", "Did you share your opinion?", "Did you include shopping vocabulary?"]},
+    {"category": "Grammar", "items": ["Did you use correct verb tenses?", "Did you use 'will' or 'going to' correctly?", "Are your sentences complete?"]},
+    {"category": "Organization", "items": ["Does your writing flow logically?", "Did you include an introduction and conclusion?", "Are ideas connected well?"]},
+    {"category": "Word Count", "items": ["Is it at least 60 words?", "Is it under 100 words?", "Did you check spelling?"]}
+  ]
+}

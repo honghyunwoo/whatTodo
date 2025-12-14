@@ -1,0 +1,308 @@
+{
+  "id": "week-5-vocab",
+  "weekId": "week-5",
+  "type": "vocabulary",
+  "level": "B1",
+  "title": "조동사와 관련 표현",
+  "description": "능력, 가능성, 의무, 허가를 표현하는 조동사와 관련 어휘를 배웁니다.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "Can",
+      "pronunciation": "/kæn/",
+      "partOfSpeech": "modal verb",
+      "meaning": "~할 수 있다 (능력, 가능)",
+      "example": "I can swim very well.",
+      "exampleMeaning": "나는 수영을 아주 잘 할 수 있다."
+    },
+    {
+      "id": "w2",
+      "word": "Could",
+      "pronunciation": "/kʊd/",
+      "partOfSpeech": "modal verb",
+      "meaning": "~할 수 있었다 (과거 능력), ~해 주시겠어요? (공손한 요청)",
+      "example": "I could run fast when I was young.",
+      "exampleMeaning": "어렸을 때 나는 빨리 달릴 수 있었다."
+    },
+    {
+      "id": "w3",
+      "word": "Will",
+      "pronunciation": "/wɪl/",
+      "partOfSpeech": "modal verb",
+      "meaning": "~할 것이다 (미래, 의지)",
+      "example": "I will help you tomorrow.",
+      "exampleMeaning": "내일 당신을 도와줄 것입니다."
+    },
+    {
+      "id": "w4",
+      "word": "Would",
+      "pronunciation": "/wʊd/",
+      "partOfSpeech": "modal verb",
+      "meaning": "~할 것이다 (공손한 표현), ~하곤 했다 (과거 습관)",
+      "example": "Would you like some coffee?",
+      "exampleMeaning": "커피 드시겠어요?"
+    },
+    {
+      "id": "w5",
+      "word": "Should",
+      "pronunciation": "/ʃʊd/",
+      "partOfSpeech": "modal verb",
+      "meaning": "~해야 한다 (충고, 권유)",
+      "example": "You should study hard.",
+      "exampleMeaning": "당신은 열심히 공부해야 합니다."
+    },
+    {
+      "id": "w6",
+      "word": "Must",
+      "pronunciation": "/mʌst/",
+      "partOfSpeech": "modal verb",
+      "meaning": "~해야 한다 (강한 의무), ~임에 틀림없다 (강한 추측)",
+      "example": "You must wear a helmet.",
+      "exampleMeaning": "당신은 헬멧을 착용해야 합니다."
+    },
+    {
+      "id": "w7",
+      "word": "May",
+      "pronunciation": "/meɪ/",
+      "partOfSpeech": "modal verb",
+      "meaning": "~해도 된다 (허가), ~일지도 모른다 (가능성)",
+      "example": "May I use your phone?",
+      "exampleMeaning": "당신의 전화기를 사용해도 될까요?"
+    },
+    {
+      "id": "w8",
+      "word": "Might",
+      "pronunciation": "/maɪt/",
+      "partOfSpeech": "modal verb",
+      "meaning": "~일지도 모른다 (낮은 가능성)",
+      "example": "It might rain tomorrow.",
+      "exampleMeaning": "내일 비가 올지도 모른다."
+    },
+    {
+      "id": "w9",
+      "word": "Be able to",
+      "pronunciation": "/biː ˈeɪbl tuː/",
+      "partOfSpeech": "phrase",
+      "meaning": "~할 수 있다 (능력)",
+      "example": "I will be able to finish it tomorrow.",
+      "exampleMeaning": "나는 내일 그것을 끝낼 수 있을 것이다."
+    },
+    {
+      "id": "w10",
+      "word": "Have to",
+      "pronunciation": "/hæv tuː/",
+      "partOfSpeech": "phrase",
+      "meaning": "~해야 한다 (외부 의무)",
+      "example": "I have to go to work early.",
+      "exampleMeaning": "나는 일찍 출근해야 한다."
+    },
+    {
+      "id": "w11",
+      "word": "Ability",
+      "pronunciation": "/əˈbɪləti/",
+      "partOfSpeech": "noun",
+      "meaning": "능력",
+      "example": "She has the ability to learn quickly.",
+      "exampleMeaning": "그녀는 빨리 배우는 능력이 있다."
+    },
+    {
+      "id": "w12",
+      "word": "Permission",
+      "pronunciation": "/pərˈmɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "허가, 허락",
+      "example": "You need permission to enter.",
+      "exampleMeaning": "들어가려면 허가가 필요합니다."
+    },
+    {
+      "id": "w13",
+      "word": "Possibility",
+      "pronunciation": "/ˌpɑːsəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "meaning": "가능성",
+      "example": "There is a possibility of rain.",
+      "exampleMeaning": "비가 올 가능성이 있습니다."
+    },
+    {
+      "id": "w14",
+      "word": "Necessary",
+      "pronunciation": "/ˈnesəseri/",
+      "partOfSpeech": "adjective",
+      "meaning": "필요한",
+      "example": "It is necessary to study.",
+      "exampleMeaning": "공부하는 것이 필요합니다."
+    },
+    {
+      "id": "w15",
+      "word": "Obligation",
+      "pronunciation": "/ˌɑːblɪˈɡeɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "의무",
+      "example": "You have an obligation to help.",
+      "exampleMeaning": "당신은 도울 의무가 있습니다."
+    },
+    {
+      "id": "w16",
+      "word": "Advice",
+      "pronunciation": "/ədˈvaɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "조언, 충고",
+      "example": "Let me give you some advice.",
+      "exampleMeaning": "당신에게 조언을 해드리겠습니다."
+    },
+    {
+      "id": "w17",
+      "word": "Request",
+      "pronunciation": "/rɪˈkwest/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "요청, 요청하다",
+      "example": "I have a request to make.",
+      "exampleMeaning": "제가 요청할 것이 있습니다."
+    },
+    {
+      "id": "w18",
+      "word": "Allowed",
+      "pronunciation": "/əˈlaʊd/",
+      "partOfSpeech": "adjective",
+      "meaning": "허용된",
+      "example": "Smoking is not allowed here.",
+      "exampleMeaning": "여기서는 흡연이 허용되지 않습니다."
+    },
+    {
+      "id": "w19",
+      "word": "Forbidden",
+      "pronunciation": "/fərˈbɪdn/",
+      "partOfSpeech": "adjective",
+      "meaning": "금지된",
+      "example": "Taking photos is forbidden in the museum.",
+      "exampleMeaning": "박물관에서는 사진 촬영이 금지되어 있습니다."
+    },
+    {
+      "id": "w20",
+      "word": "Capable",
+      "pronunciation": "/ˈkeɪpəbl/",
+      "partOfSpeech": "adjective",
+      "meaning": "능력 있는, ~할 수 있는",
+      "example": "She is capable of doing great things.",
+      "exampleMeaning": "그녀는 위대한 일을 할 수 있는 능력이 있습니다."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "Which modal verb expresses ability in the present?",
+      "options": ["Can", "Could", "Must", "Should"],
+      "answer": "Can",
+      "explanation": "'Can'은 현재의 능력을 나타냅니다."
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "Which modal verb is used for giving advice?",
+      "options": ["Can", "Will", "Should", "May"],
+      "answer": "Should",
+      "explanation": "'Should'는 조언이나 충고를 할 때 사용합니다."
+    },
+    {
+      "id": "ex3",
+      "type": "fill_blank",
+      "question": "I ___ speak English. (능력)",
+      "answer": ["can"],
+      "explanation": "현재의 능력을 나타낼 때 'can'을 사용합니다."
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "You ___ wear a seatbelt. (강한 의무)",
+      "answer": ["must"],
+      "explanation": "강한 의무나 규칙을 나타낼 때 'must'를 사용합니다."
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "Which modal verb shows possibility?",
+      "options": ["Must", "May", "Should", "Will"],
+      "answer": "May",
+      "explanation": "'May'는 가능성을 나타냅니다."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "What is the past form of 'can'?",
+      "options": ["Could", "Can", "Will", "Would"],
+      "answer": "Could",
+      "explanation": "'Can'의 과거형은 'could'입니다."
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "___ you help me? (공손한 요청)",
+      "answer": ["Could", "Would", "Can"],
+      "explanation": "공손한 요청을 할 때 'Could', 'Would', 'Can'을 사용할 수 있습니다."
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "What does 'have to' express?",
+      "options": ["Ability", "Obligation", "Permission", "Possibility"],
+      "answer": "Obligation",
+      "explanation": "'Have to'는 의무를 나타냅니다."
+    },
+    {
+      "id": "ex9",
+      "type": "matching",
+      "question": "Match the modal with its meaning:",
+      "options": ["can", "should", "must", "may"],
+      "answer": ["ability", "advice", "strong obligation", "possibility"],
+      "explanation": "각 조동사와 그 의미를 연결합니다."
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "It ___ rain tomorrow. (가능성)",
+      "answer": ["may", "might", "could"],
+      "explanation": "가능성을 나타낼 때 'may', 'might', 'could'를 사용할 수 있습니다."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "What does 'ability' mean?",
+      "options": ["능력", "의무", "허가", "가능성"],
+      "answer": "능력",
+      "explanation": "'Ability'는 '능력'이라는 뜻입니다."
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'allowed'?",
+      "options": ["Permitted", "Forbidden", "Necessary", "Possible"],
+      "answer": "Forbidden",
+      "explanation": "'Allowed(허용된)'의 반대는 'forbidden(금지된)'입니다."
+    },
+    {
+      "id": "ex13",
+      "type": "fill_blank",
+      "question": "You ___ eat more vegetables. (조언)",
+      "answer": ["should"],
+      "explanation": "조언을 할 때 'should'를 사용합니다."
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "What does 'permission' mean?",
+      "options": ["능력", "의무", "허가", "조언"],
+      "answer": "허가",
+      "explanation": "'Permission'은 '허가, 허락'이라는 뜻입니다."
+    },
+    {
+      "id": "ex15",
+      "type": "fill_blank",
+      "question": "I ___ to go now. (외부 의무)",
+      "answer": ["have"],
+      "explanation": "외부에서 주어진 의무를 나타낼 때 'have to'를 사용합니다."
+    }
+  ]
+}

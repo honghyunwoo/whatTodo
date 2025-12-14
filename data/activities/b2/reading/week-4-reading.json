@@ -1,0 +1,146 @@
+{
+  "id": "week-4-reading",
+  "weekId": "week-4",
+  "type": "reading",
+  "level": "B2",
+  "title": "The Revolution in Medical Science",
+  "description": "Read about recent breakthroughs in medical research and how they are changing healthcare.",
+
+  "passage": {
+    "text": "The field of medicine is being transformed by scientific breakthroughs that were unimaginable just a generation ago. From gene therapy to artificial intelligence, new technologies are being developed that promise to revolutionize how diseases are diagnosed, treated, and even prevented.\n\nOne of the most significant advances has been made in genetic medicine. The human genome has been fully mapped, and this achievement has enabled scientists to understand diseases at the molecular level. Gene therapies are now being tested that could potentially cure conditions that were previously considered untreatable. In some clinical trials, patients with inherited blood disorders have been treated successfully using techniques that modify their own cells.\n\nArtificial intelligence is also being integrated into medical practice. Algorithms have been developed that can analyze medical images with remarkable accuracy. In some studies, AI systems have been shown to detect certain cancers earlier and more reliably than human doctors. Diagnoses that used to take weeks can now be made in minutes, and treatment recommendations can be generated based on vast databases of patient outcomes.\n\nThe way medicines are developed has also been revolutionized. New drugs used to take over a decade to bring to market, but this timeline is being shortened through computer modeling and simulation. Potential treatments can be screened virtually before being tested in laboratories, saving years of research time. During recent health emergencies, vaccines were developed in record time because these new methods had been implemented.\n\nHowever, these advances have raised important ethical questions that must be addressed. The possibility of editing human genes has sparked debates about where boundaries should be drawn. Data privacy concerns have been raised as more medical information is being stored digitally. Access to these new treatments is not equal, and it has been argued that healthcare disparities could be widened if only wealthy patients can afford cutting-edge therapies.\n\nDespite these challenges, the pace of innovation shows no signs of slowing. Research is being conducted on everything from nanotechnology-based drug delivery to organs that can be grown in laboratories. It is believed by many experts that the next few decades will see more medical advances than the entire previous century. The future of medicine is being written today, and it promises to be extraordinary.",
+    "wordCount": 365,
+    "estimatedReadingTime": 6
+  },
+
+  "vocabulary": [
+    {
+      "word": "breakthrough",
+      "meaning": "an important discovery or development",
+      "translation": "돌파구, 획기적 발전"
+    },
+    {
+      "word": "gene therapy",
+      "meaning": "treatment that modifies genes to treat disease",
+      "translation": "유전자 치료"
+    },
+    {
+      "word": "genome",
+      "meaning": "the complete set of genes in an organism",
+      "translation": "게놈, 유전체"
+    },
+    {
+      "word": "algorithm",
+      "meaning": "a set of rules for solving problems",
+      "translation": "알고리즘"
+    },
+    {
+      "word": "disparities",
+      "meaning": "differences or inequalities",
+      "translation": "격차, 불균형"
+    },
+    {
+      "word": "nanotechnology",
+      "meaning": "technology at the molecular scale",
+      "translation": "나노기술"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "According to the passage, what has enabled scientists to understand diseases at the molecular level?",
+      "options": ["Artificial intelligence", "The mapping of the human genome", "Clinical trials", "Computer modeling"],
+      "answer": "The mapping of the human genome",
+      "explanation": "The passage states 'The human genome has been fully mapped, and this achievement has enabled scientists to understand diseases at the molecular level.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Gene therapies can currently cure all inherited conditions.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says gene therapies 'are now being tested that could potentially cure conditions,' indicating they are still in testing, not proven to cure all conditions."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What has AI been shown to do in some studies?",
+      "options": ["Replace all doctors", "Detect certain cancers earlier than human doctors", "Perform surgery", "Develop new drugs"],
+      "answer": "Detect certain cancers earlier than human doctors",
+      "explanation": "The passage states 'AI systems have been shown to detect certain cancers earlier and more reliably than human doctors.'"
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "question": "New drugs still take the same amount of time to develop as before.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'this timeline is being shortened through computer modeling and simulation.'"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "How were vaccines developed quickly during recent health emergencies?",
+      "options": ["By skipping safety tests", "Because new research methods had been implemented", "By using old formulas", "Through international competition"],
+      "answer": "Because new research methods had been implemented",
+      "explanation": "The passage explains 'vaccines were developed in record time because these new methods had been implemented.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What ethical concern is raised about gene editing?",
+      "options": ["It is too expensive", "Debates about boundaries", "It doesn't work", "It takes too long"],
+      "answer": "Debates about boundaries",
+      "explanation": "The passage mentions 'The possibility of editing human genes has sparked debates about where boundaries should be drawn.'"
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "All patients have equal access to new medical treatments.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage states 'Access to these new treatments is not equal' and mentions concerns about wealthy patients affording cutting-edge therapies."
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "What is being researched according to the passage?",
+      "options": ["Only gene therapy", "Nanotechnology-based drug delivery and lab-grown organs", "Time travel", "Space medicine"],
+      "answer": "Nanotechnology-based drug delivery and lab-grown organs",
+      "explanation": "The passage mentions 'Research is being conducted on everything from nanotechnology-based drug delivery to organs that can be grown in laboratories.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What do many experts believe about the next few decades?",
+      "options": ["Medical research will slow down", "There will be more advances than in the entire previous century", "No new treatments will be developed", "Gene therapy will be banned"],
+      "answer": "There will be more advances than in the entire previous century",
+      "explanation": "The passage states 'It is believed by many experts that the next few decades will see more medical advances than the entire previous century.'"
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "question": "What phrase does the passage use to describe how diagnoses can now be made?",
+      "answer": "in minutes",
+      "alternateAnswers": ["In minutes", "minutes"],
+      "explanation": "The passage says 'Diagnoses that used to take weeks can now be made in minutes.'"
+    },
+    {
+      "id": "q11",
+      "type": "true_false",
+      "question": "The passage suggests that the pace of medical innovation is slowing down.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage states 'the pace of innovation shows no signs of slowing.'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "Which passive structure appears in the final sentence?",
+      "options": ["is being written", "has been written", "was written", "will be written"],
+      "answer": "is being written",
+      "explanation": "The passage ends with 'The future of medicine is being written today' - present continuous passive."
+    }
+  ]
+}

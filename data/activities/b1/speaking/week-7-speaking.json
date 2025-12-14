@@ -1,0 +1,139 @@
+{
+  "id": "week-7-speaking",
+  "weekId": "week-7",
+  "type": "speaking",
+  "level": "B1",
+  "title": "Talking About Culture and Traditions",
+  "description": "Practice describing cultural practices and explaining their significance.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Chuseok is a festival that Koreans celebrate in autumn.",
+      "translation": "추석은 한국인들이 가을에 기념하는 축제예요.",
+      "tips": "'that'으로 축제를 설명하는 관계절을 만드세요."
+    },
+    {
+      "id": "s2",
+      "text": "It's a tradition where families gather to honor their ancestors.",
+      "translation": "가족들이 모여 조상을 기리는 전통이에요.",
+      "tips": "'where'로 장소나 상황을 설명하세요."
+    },
+    {
+      "id": "s3",
+      "text": "The hanbok is a traditional costume which is worn on special occasions.",
+      "translation": "한복은 특별한 행사에 입는 전통 의상이에요.",
+      "tips": "'which'로 사물을 설명하세요."
+    },
+    {
+      "id": "s4",
+      "text": "My grandmother, who is 85 years old, taught me this traditional recipe.",
+      "translation": "85세이신 할머니가 이 전통 요리법을 가르쳐 주셨어요.",
+      "tips": "'who'로 사람에 대한 추가 정보를 제공하세요."
+    },
+    {
+      "id": "s5",
+      "text": "I remember the day when I first experienced this festival.",
+      "translation": "이 축제를 처음 경험한 날을 기억해요.",
+      "tips": "'when'으로 시간을 설명하세요."
+    },
+    {
+      "id": "s6",
+      "text": "The food that we eat during the festival has special meaning.",
+      "translation": "축제 기간에 먹는 음식은 특별한 의미가 있어요.",
+      "tips": "'that'으로 음식을 특정하세요."
+    },
+    {
+      "id": "s7",
+      "text": "This is the temple where my grandparents used to pray.",
+      "translation": "이곳이 조부모님이 기도하시던 절이에요.",
+      "tips": "'where'로 장소의 의미를 설명하세요."
+    },
+    {
+      "id": "s8",
+      "text": "The traditional music which is played at weddings is very beautiful.",
+      "translation": "결혼식에서 연주되는 전통 음악은 아주 아름다워요.",
+      "tips": "'which'로 음악을 설명하세요."
+    },
+    {
+      "id": "s9",
+      "text": "In our culture, there's a custom where younger people bow to elders.",
+      "translation": "우리 문화에는 젊은 사람들이 어른들에게 절하는 관습이 있어요.",
+      "tips": "'where'로 관습의 내용을 설명하세요."
+    },
+    {
+      "id": "s10",
+      "text": "The stories that our grandparents told us are part of our heritage.",
+      "translation": "조부모님이 들려주신 이야기들은 우리 유산의 일부예요.",
+      "tips": "'that'으로 이야기를 특정하세요."
+    },
+    {
+      "id": "s11",
+      "text": "Have you ever been to a festival that celebrates spring?",
+      "translation": "봄을 기념하는 축제에 가본 적 있어요?",
+      "tips": "의문문에서 관계절을 사용하세요."
+    },
+    {
+      "id": "s12",
+      "text": "I'd like to visit a country where I can experience different traditions.",
+      "translation": "다른 전통을 경험할 수 있는 나라를 방문하고 싶어요.",
+      "tips": "'where'로 장소에 대한 희망을 표현하세요."
+    }
+  ],
+
+  "dialoguePractice": {
+    "title": "Sharing Cultural Experiences",
+    "roles": ["Jin", "Sophie"],
+    "lines": [
+      {"role": "Sophie", "text": "Jin, I heard you celebrated Lunar New Year recently. Can you tell me about it?"},
+      {"role": "Jin", "text": "Sure! It's a holiday that we celebrate with our family."},
+      {"role": "Sophie", "text": "What kinds of things do you do?"},
+      {"role": "Jin", "text": "We eat special foods which have symbolic meanings, like rice cakes and dumplings."},
+      {"role": "Sophie", "text": "That sounds delicious. What do the foods symbolize?"},
+      {"role": "Jin", "text": "Rice cakes represent a longer life, and dumplings look like gold, which means prosperity."},
+      {"role": "Sophie", "text": "I love how food can have such meaning. Do you have other traditions?"},
+      {"role": "Jin", "text": "Yes, there's a tradition where children bow to their elders and receive money in red envelopes."},
+      {"role": "Sophie", "text": "That's lovely! In my country, we have Christmas, which is the time when families also gather together."},
+      {"role": "Jin", "text": "It's nice how different cultures have similar ideas about family time, isn't it?"}
+    ]
+  },
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation & Intonation",
+      "items": [
+        "Did you pronounce culture-related vocabulary correctly?",
+        "Did you use appropriate pausing around relative clauses?",
+        "Did you use natural intonation for descriptive sentences?",
+        "Did you speak at a natural pace?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you use relative clauses smoothly?",
+        "Did you connect ideas naturally with who, which, that, where, when?",
+        "Did you complete descriptions without long pauses?",
+        "Did you practice the dialogue with natural flow?"
+      ]
+    },
+    {
+      "category": "Grammar Accuracy",
+      "items": [
+        "Did you use 'who' for people correctly?",
+        "Did you use 'which' for things correctly?",
+        "Did you use 'where' for places correctly?",
+        "Did you use 'when' for times correctly?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Did you describe cultural practices clearly?",
+        "Did you explain the significance of traditions?",
+        "Did you use appropriate vocabulary for culture?",
+        "Did you engage naturally in cultural exchange?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "week-6-reading",
+  "weekId": "week-6",
+  "type": "reading",
+  "level": "B1",
+  "title": "The Future of Education",
+  "description": "Read about how education is changing and what students need to succeed.",
+
+  "passage": {
+    "text": "Education has changed dramatically in recent years, and these changes will continue. Traditional classrooms with a teacher lecturing at the front are being replaced by more interactive learning environments. But what skills will students need in the future?\n\nExperts agree that if students want to succeed in the modern world, they need more than just knowledge of facts. Critical thinking, creativity, and communication skills are becoming increasingly important. Employers want workers who can solve problems, work in teams, and adapt to change.\n\nTechnology is transforming how we learn. If you have an internet connection, you can access courses from the best universities in the world. Online learning platforms offer everything from language courses to computer programming. However, technology also brings challenges. If students don't develop good study habits, they can easily get distracted by social media and games.\n\nLanguage learning is another area that is evolving. If people want to work internationally, English is often essential. But other languages are becoming important too, including Mandarin and Spanish. Language apps make it possible to practice anytime, anywhere.\n\nLifelong learning is becoming the norm. In the past, people would finish their education and work in the same job for decades. Today, if workers don't keep learning new skills, they risk falling behind. Many professionals take courses throughout their careers to stay competitive.\n\nWhat about the role of teachers? While technology can deliver information, teachers remain essential for motivation, guidance, and emotional support. If a student struggles, a good teacher can identify the problem and provide personalized help.\n\nThe future of education is exciting but uncertain. What is clear is that if we embrace change and develop the right skills, we can succeed in whatever the future brings.",
+    "wordCount": 285,
+    "estimatedReadingTime": 4
+  },
+
+  "vocabulary": [
+    {
+      "word": "interactive",
+      "meaning": "involving people working together",
+      "translation": "상호작용하는"
+    },
+    {
+      "word": "critical thinking",
+      "meaning": "analyzing and evaluating ideas",
+      "translation": "비판적 사고"
+    },
+    {
+      "word": "adapt",
+      "meaning": "to change to fit new conditions",
+      "translation": "적응하다"
+    },
+    {
+      "word": "evolving",
+      "meaning": "developing gradually",
+      "translation": "진화하는"
+    },
+    {
+      "word": "lifelong learning",
+      "meaning": "continuing to learn throughout life",
+      "translation": "평생 학습"
+    },
+    {
+      "word": "competitive",
+      "meaning": "able to compete successfully",
+      "translation": "경쟁력 있는"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "According to the passage, what is replacing traditional classrooms?",
+      "options": ["Online-only learning", "More interactive learning environments", "Smaller class sizes", "Longer school days"],
+      "answer": "More interactive learning environments",
+      "explanation": "The passage says traditional classrooms 'are being replaced by more interactive learning environments.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Experts think knowledge of facts is the only thing students need.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'they need more than just knowledge of facts.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "Which skills does the passage say are increasingly important?",
+      "options": ["Math and science", "Critical thinking, creativity, and communication", "Sports and music", "Reading and writing only"],
+      "answer": "Critical thinking, creativity, and communication",
+      "explanation": "The passage states 'Critical thinking, creativity, and communication skills are becoming increasingly important.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "According to the passage, what challenge does technology bring?",
+      "options": ["It's too expensive", "Students can get distracted", "Teachers don't understand it", "It doesn't work well"],
+      "answer": "Students can get distracted",
+      "explanation": "The passage says 'If students don't develop good study habits, they can easily get distracted.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "English is the only important language for international work.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'other languages are becoming important too, including Mandarin and Spanish.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What does 'lifelong learning' mean according to the passage?",
+      "options": ["Learning only in school", "Learning throughout your entire life", "Learning one subject deeply", "Learning from life experiences only"],
+      "answer": "Learning throughout your entire life",
+      "explanation": "The passage explains that workers now need to 'keep learning new skills' throughout their careers."
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "In the past, how long did people typically work in the same job?",
+      "options": ["A few years", "About ten years", "Decades", "Only until retirement"],
+      "answer": "Decades",
+      "explanation": "The passage says 'people would finish their education and work in the same job for decades.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Technology can completely replace teachers.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'teachers remain essential for motivation, guidance, and emotional support.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What can a good teacher do if a student struggles?",
+      "options": ["Give them easier work", "Identify the problem and provide personalized help", "Tell them to try harder", "Give them better grades"],
+      "answer": "Identify the problem and provide personalized help",
+      "explanation": "The passage says 'a good teacher can identify the problem and provide personalized help.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What is the main message of the final paragraph?",
+      "options": ["The future is uncertain so we shouldn't prepare", "If we develop the right skills, we can succeed", "Technology will solve all problems", "Education will become easier"],
+      "answer": "If we develop the right skills, we can succeed",
+      "explanation": "The passage concludes 'if we embrace change and develop the right skills, we can succeed.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What do employers want according to the passage? Workers who can solve problems, work in teams, and what?",
+      "answer": "adapt to change",
+      "alternateAnswers": ["adapt", "change", "adapt to changes"],
+      "explanation": "The passage says employers want workers who can 'solve problems, work in teams, and adapt to change.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "Online learning platforms offer courses in many different subjects.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage says online platforms 'offer everything from language courses to computer programming.'"
+    }
+  ]
+}

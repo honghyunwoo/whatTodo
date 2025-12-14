@@ -1,0 +1,41 @@
+{
+  "id": "week-3-reading",
+  "weekId": "week-3",
+  "type": "reading",
+  "level": "A2",
+  "title": "Restaurant Review",
+  "description": "Read a review about a new restaurant in the city.",
+
+  "passage": {
+    "text": "I visited Bella Italia last weekend with my family. It's a new Italian restaurant on Main Street. The restaurant was quite busy, so I recommend making a reservation.\n\nThe menu has many options - pasta, pizza, salads, and seafood. We started with garlic bread as an appetizer. It was hot and delicious! For the main course, I had spaghetti carbonara, my wife had seafood pasta, and our son had a pizza.\n\nThe portions were generous, and everything tasted fresh. The chef uses high-quality ingredients. My wife said her pasta was the best she'd ever had!\n\nThe service was excellent. Our waiter was friendly and helpful. He recommended a nice Italian wine that went perfectly with our food.\n\nThe only downside was the price. It's more expensive than other Italian restaurants in the area. Our total bill was about $80 for three people, not including the tip.\n\nOverall, I give Bella Italia 4 out of 5 stars. The food and service are excellent, but it's a bit pricey. I will definitely come back for special occasions.",
+    "wordCount": 175,
+    "estimatedReadingTime": 3,
+    "audioText": "I visited Bella Italia last weekend with my family. It's a new Italian restaurant on Main Street. [PAUSE] The restaurant was quite busy, so I recommend making a reservation. [PAUSE] The menu has many options - pasta, pizza, salads, and seafood. We started with garlic bread as an appetizer. It was hot and delicious! [PAUSE] For the main course, I had spaghetti carbonara, my wife had seafood pasta, and our son had a pizza. [PAUSE] The portions were generous, and everything tasted fresh. The chef uses high-quality ingredients. My wife said her pasta was the best she'd ever had! [PAUSE] The service was excellent. Our waiter was friendly and helpful. He recommended a nice Italian wine that went perfectly with our food. [PAUSE] The only downside was the price. It's more expensive than other Italian restaurants in the area. Our total bill was about $80 for three people, not including the tip. [PAUSE] Overall, I give Bella Italia 4 out of 5 stars. The food and service are excellent, but it's a bit pricey. I will definitely come back for special occasions."
+  },
+
+  "vocabulary": [
+    {"word": "review", "meaning": "리뷰, 후기", "lineNumber": 1},
+    {"word": "reservation", "meaning": "예약", "lineNumber": 2},
+    {"word": "appetizer", "meaning": "전채요리", "lineNumber": 4},
+    {"word": "portions", "meaning": "양, 1인분", "lineNumber": 6},
+    {"word": "generous", "meaning": "넉넉한", "lineNumber": 6},
+    {"word": "ingredients", "meaning": "재료", "lineNumber": 6},
+    {"word": "downside", "meaning": "단점", "lineNumber": 9},
+    {"word": "pricey", "meaning": "비싼", "lineNumber": 11}
+  ],
+
+  "questions": [
+    {"id": "q1", "type": "multiple_choice", "question": "What type of restaurant is Bella Italia?", "options": ["Italian", "Korean", "Chinese", "Mexican"], "answer": "Italian", "explanation": "It's an Italian restaurant."},
+    {"id": "q2", "type": "multiple_choice", "question": "Where is the restaurant located?", "options": ["Main Street", "Center Street", "Park Avenue", "Oak Lane"], "answer": "Main Street", "explanation": "It's on Main Street."},
+    {"id": "q3", "type": "true_false", "question": "The restaurant wasn't busy.", "options": ["True", "False"], "answer": "False", "explanation": "The restaurant was quite busy."},
+    {"id": "q4", "type": "multiple_choice", "question": "What did they have as an appetizer?", "options": ["Garlic bread", "Soup", "Salad", "Nothing"], "answer": "Garlic bread", "explanation": "They started with garlic bread."},
+    {"id": "q5", "type": "multiple_choice", "question": "What did the writer eat?", "options": ["Spaghetti carbonara", "Seafood pasta", "Pizza", "Salad"], "answer": "Spaghetti carbonara", "explanation": "The writer had spaghetti carbonara."},
+    {"id": "q6", "type": "true_false", "question": "The portions were small.", "options": ["True", "False"], "answer": "False", "explanation": "The portions were generous (large)."},
+    {"id": "q7", "type": "multiple_choice", "question": "What was the waiter like?", "options": ["Friendly and helpful", "Rude", "Slow", "Quiet"], "answer": "Friendly and helpful", "explanation": "The waiter was friendly and helpful."},
+    {"id": "q8", "type": "short_answer", "question": "How much was the total bill? (number only)", "answer": "80", "explanation": "The total bill was about $80."},
+    {"id": "q9", "type": "multiple_choice", "question": "What was the downside of the restaurant?", "options": ["The price", "The service", "The food", "The location"], "answer": "The price", "explanation": "The only downside was the price."},
+    {"id": "q10", "type": "short_answer", "question": "What rating did the writer give? (out of 5)", "answer": "4", "explanation": "The writer gave 4 out of 5 stars."},
+    {"id": "q11", "type": "true_false", "question": "The writer will never return.", "options": ["True", "False"], "answer": "False", "explanation": "The writer will come back for special occasions."},
+    {"id": "q12", "type": "multiple_choice", "question": "How many people were in the writer's group?", "options": ["Three", "Two", "Four", "Five"], "answer": "Three", "explanation": "The bill was for three people (writer, wife, and son)."}
+  ]
+}

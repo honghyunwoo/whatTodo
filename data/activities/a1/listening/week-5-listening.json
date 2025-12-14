@@ -1,0 +1,102 @@
+{
+  "id": "week-5-listening",
+  "weekId": "week-5",
+  "type": "listening",
+  "level": "B1",
+  "title": "능력과 계획 대화 듣기",
+  "description": "조동사를 사용한 능력, 계획, 조언에 대한 대화를 듣고 이해합니다.",
+
+  "audio": {
+    "text": "Hi, I'm Alex. [PAUSE] I can speak four languages: English, Spanish, French, and Korean. [PAUSE] When I was younger, I could only speak English. But I've always loved learning languages. [PAUSE] Next month, I will start learning Japanese. I'm so excited! [PAUSE] My teacher says I should practice speaking every day. She also said I must study grammar regularly. [PAUSE] I think everyone should try learning a new language. It may be difficult at first, but it's really rewarding. [PAUSE] You can make friends from all over the world!",
+    "speed": 0.9
+  },
+
+  "dictation": {
+    "targetSentences": [
+      "I can speak four languages.",
+      "My teacher says I should practice speaking every day."
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is the speaker's name?",
+      "options": ["Alex", "Alan", "Alice", "Adam"],
+      "answer": "Alex",
+      "explanation": "화자는 'I'm Alex'라고 자신을 소개했습니다."
+    },
+    {
+      "id": "q2",
+      "type": "short_answer",
+      "question": "How many languages can Alex speak?",
+      "answer": "4",
+      "explanation": "Alex는 4개 언어(영어, 스페인어, 프랑스어, 한국어)를 말할 수 있습니다."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "Which language is Alex NOT currently able to speak?",
+      "options": ["English", "Spanish", "Japanese", "Korean"],
+      "answer": "Japanese",
+      "explanation": "Alex는 일본어는 다음 달에 배우기 시작할 예정이므로 아직 말할 수 없습니다."
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "question": "Alex could speak four languages when he was younger.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "어렸을 때 Alex는 영어만 말할 수 있었습니다. (I could only speak English)"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What will Alex start learning next month?",
+      "options": ["Chinese", "Japanese", "German", "Italian"],
+      "answer": "Japanese",
+      "explanation": "Alex는 다음 달에 일본어 배우기를 시작할 것입니다."
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What does Alex's teacher say he should do?",
+      "options": ["Practice every day", "Study at night", "Watch movies", "Read books"],
+      "answer": "Practice every day",
+      "explanation": "선생님은 Alex가 매일 말하기를 연습해야 한다고 말했습니다."
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What does Alex say he must do?",
+      "options": ["Travel abroad", "Study grammar regularly", "Make friends", "Watch TV"],
+      "answer": "Study grammar regularly",
+      "explanation": "선생님은 Alex가 정기적으로 문법을 공부해야 한다고 말했습니다."
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Alex thinks learning a language may be difficult at first.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Alex는 언어 배우기가 처음에는 어려울 수 있다고 생각합니다. (It may be difficult at first)"
+    },
+    {
+      "id": "q9",
+      "type": "true_false",
+      "question": "Alex believes everyone should try learning a new language.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Alex는 모든 사람이 새로운 언어를 배워보아야 한다고 생각합니다."
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "According to Alex, what can you do by learning languages?",
+      "options": ["Get a job", "Make friends worldwide", "Earn money", "Travel for free"],
+      "answer": "Make friends worldwide",
+      "explanation": "언어를 배우면 전 세계의 친구들을 사귈 수 있습니다."
+    }
+  ]
+}

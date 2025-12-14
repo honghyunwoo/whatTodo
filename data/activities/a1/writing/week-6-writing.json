@@ -1,0 +1,201 @@
+{
+  "id": "week-6-writing",
+  "weekId": "week-6",
+  "type": "writing",
+  "level": "B1",
+  "title": "두 가지를 비교하는 글쓰기",
+  "description": "비교급과 최상급을 활용하여 두 개 이상의 대상을 비교하는 글을 작성해봅니다.",
+
+  "prompt": {
+    "topic": "두 도시 또는 두 나라 비교하기",
+    "description": "당신이 가본 적이 있거나 알고 있는 두 도시 또는 두 나라를 비교하는 글을 작성해보세요. 크기, 날씨, 음식, 문화, 사람들 등 다양한 측면에서 비교할 수 있습니다.",
+    "requirements": [
+      "비교하는 두 장소의 이름을 명확히 밝히세요",
+      "최소 3가지 이상의 측면에서 비교하세요 (크기, 날씨, 음식, 문화 등)",
+      "비교급(-er, more)을 최소 3번 이상 사용하세요",
+      "최상급(-est, most) 또는 as...as 구문을 최소 1번 이상 사용하세요",
+      "각 비교에 대한 구체적인 예시나 이유를 제시하세요",
+      "결론에서 어느 곳을 더 좋아하는지 또는 각각의 장점을 언급하세요"
+    ],
+    "wordCount": {
+      "min": 100,
+      "max": 180
+    },
+    "timeLimit": 20
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "Seoul is bigger than Busan.",
+      "translation": "서울은 부산보다 더 크다.",
+      "useCase": "크기를 비교할 때"
+    },
+    {
+      "id": "ex2",
+      "sentence": "Tokyo is more expensive than Seoul.",
+      "translation": "도쿄는 서울보다 더 비싸다.",
+      "useCase": "물가나 비용을 비교할 때"
+    },
+    {
+      "id": "ex3",
+      "sentence": "The weather in Paris is rainier than in Madrid.",
+      "translation": "파리의 날씨는 마드리드보다 더 비가 많이 온다.",
+      "useCase": "날씨를 비교할 때"
+    },
+    {
+      "id": "ex4",
+      "sentence": "New York is one of the most diverse cities in the world.",
+      "translation": "뉴욕은 세계에서 가장 다양한 도시 중 하나다.",
+      "useCase": "최상급으로 특징을 강조할 때"
+    },
+    {
+      "id": "ex5",
+      "sentence": "Japanese food is as delicious as Korean food.",
+      "translation": "일본 음식은 한국 음식만큼 맛있다.",
+      "useCase": "동등 비교를 할 때"
+    },
+    {
+      "id": "ex6",
+      "sentence": "London has more historical buildings than Dubai.",
+      "translation": "런던은 두바이보다 역사적인 건물이 더 많다.",
+      "useCase": "문화적 특징을 비교할 때"
+    },
+    {
+      "id": "ex7",
+      "sentence": "Both cities have their own unique charm.",
+      "translation": "두 도시 모두 각자만의 독특한 매력이 있다.",
+      "useCase": "결론에서 균형 잡힌 의견을 제시할 때"
+    },
+    {
+      "id": "ex8",
+      "sentence": "However, I prefer Seoul because it's more convenient.",
+      "translation": "하지만 나는 서울이 더 편리해서 서울을 더 좋아한다.",
+      "useCase": "선호도와 이유를 밝힐 때"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "bigger than",
+      "translation": "~보다 더 큰",
+      "example": "Seoul is bigger than Busan."
+    },
+    {
+      "word": "smaller than",
+      "translation": "~보다 더 작은",
+      "example": "The population is smaller than I expected."
+    },
+    {
+      "word": "more expensive",
+      "translation": "더 비싼",
+      "example": "Living in Tokyo is more expensive."
+    },
+    {
+      "word": "cheaper",
+      "translation": "더 싼",
+      "example": "Food is cheaper in this city."
+    },
+    {
+      "word": "hotter / colder",
+      "translation": "더 더운 / 더 추운",
+      "example": "Summer is hotter in Dubai than in London."
+    },
+    {
+      "word": "more crowded",
+      "translation": "더 붐비는",
+      "example": "The subway is more crowded during rush hour."
+    },
+    {
+      "word": "more modern",
+      "translation": "더 현대적인",
+      "example": "The buildings are more modern in this area."
+    },
+    {
+      "word": "more traditional",
+      "translation": "더 전통적인",
+      "example": "Kyoto is more traditional than Tokyo."
+    },
+    {
+      "word": "the most popular",
+      "translation": "가장 인기 있는",
+      "example": "It's one of the most popular tourist destinations."
+    },
+    {
+      "word": "the best",
+      "translation": "가장 좋은",
+      "example": "This is the best restaurant in the city."
+    },
+    {
+      "word": "as...as",
+      "translation": "~만큼 ...한",
+      "example": "Paris is as beautiful as Rome."
+    },
+    {
+      "word": "both",
+      "translation": "둘 다",
+      "example": "Both cities are worth visiting."
+    },
+    {
+      "word": "however",
+      "translation": "그러나",
+      "example": "However, I prefer the first one."
+    },
+    {
+      "word": "in my opinion",
+      "translation": "내 생각에는",
+      "example": "In my opinion, Seoul is more convenient."
+    },
+    {
+      "word": "each city has",
+      "translation": "각 도시는 ~을 가지고 있다",
+      "example": "Each city has its own charm."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "📝 내용 요구사항",
+      "items": [
+        "두 장소의 이름을 명확히 밝혔나요?",
+        "최소 3가지 측면에서 비교했나요?",
+        "비교급을 최소 3번 이상 사용했나요?",
+        "최상급 또는 as...as 구문을 최소 1번 사용했나요?",
+        "각 비교에 구체적인 예시나 이유를 제시했나요?",
+        "결론에서 의견이나 각각의 장점을 언급했나요?"
+      ]
+    },
+    {
+      "category": "✅ 문법 및 형식",
+      "items": [
+        "비교급 형태(-er/more)를 정확하게 사용했나요?",
+        "최상급 형태(-est/most)를 올바르게 사용했나요?",
+        "'than'을 비교급 뒤에 올바르게 사용했나요?",
+        "'the'를 최상급 앞에 사용했나요?",
+        "불규칙 비교급(better, worse)을 정확하게 사용했나요?",
+        "문장이 대문자로 시작하고 마침표로 끝나나요?"
+      ]
+    },
+    {
+      "category": "📏 분량 및 구조",
+      "items": [
+        "최소 100단어 이상인가요?",
+        "최대 180단어 이내인가요?",
+        "도입-본문-결론 구조가 명확한가요?",
+        "문단이 논리적으로 연결되나요?",
+        "각 비교 포인트가 명확하게 구분되나요?"
+      ]
+    },
+    {
+      "category": "🎯 전반적 평가",
+      "items": [
+        "비교 내용이 명확하고 이해하기 쉬운가요?",
+        "다양한 어휘를 사용했나요?",
+        "문장이 자연스럽게 연결되나요?",
+        "맞춤법과 문법 실수가 없나요?",
+        "제한 시간(20분) 내에 완성했나요?",
+        "읽는 사람이 두 장소의 차이를 이해할 수 있나요?"
+      ]
+    }
+  ]
+}

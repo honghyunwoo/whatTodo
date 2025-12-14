@@ -1,0 +1,175 @@
+{
+  "id": "week-2-writing",
+  "weekId": "week-2",
+  "type": "writing",
+  "level": "B2",
+  "title": "Writing About Career Development",
+  "description": "Write about professional goals, workplace challenges, and career decisions.",
+
+  "prompt": {
+    "topic": "Navigating Career Changes",
+    "description": "Write an essay discussing the challenges of making career decisions in today's job market. Consider factors such as job security, work-life balance, and personal fulfillment. Include speculation about what the future of work might look like and what skills could be important.",
+    "requirements": [
+      "Discuss current challenges in career planning",
+      "Use at least four modal verbs for speculation (must, might, could, should)",
+      "Consider both advantages and disadvantages of career changes",
+      "Include your personal thoughts on work-life balance",
+      "Speculate about future workplace trends"
+    ],
+    "wordCount": {
+      "min": 180,
+      "max": 250
+    },
+    "timeLimit": 30
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "Workers must be prepared to adapt as industries continue to evolve rapidly.",
+      "translation": "산업이 계속 빠르게 진화함에 따라 근로자들은 적응할 준비가 되어 있어야 한다.",
+      "useCase": "To express strong probability about the present"
+    },
+    {
+      "id": "ex2",
+      "sentence": "Many professionals might be reconsidering their priorities after recent global events.",
+      "translation": "많은 전문가들이 최근의 글로벌 이벤트 이후 우선순위를 재고하고 있을 수 있다.",
+      "useCase": "To speculate about current trends"
+    },
+    {
+      "id": "ex3",
+      "sentence": "Remote work could become the norm rather than the exception in many industries.",
+      "translation": "원격 근무는 많은 산업에서 예외가 아닌 표준이 될 수 있다.",
+      "useCase": "To speculate about future possibilities"
+    },
+    {
+      "id": "ex4",
+      "sentence": "Companies should be investing in employee well-being if they want to retain talent.",
+      "translation": "기업이 인재를 유지하고 싶다면 직원 복지에 투자해야 한다.",
+      "useCase": "To express expectation or recommendation"
+    },
+    {
+      "id": "ex5",
+      "sentence": "The rapid pace of technological change can't be ignored by those planning their careers.",
+      "translation": "기술 변화의 빠른 속도는 경력을 계획하는 사람들에게 무시될 수 없다.",
+      "useCase": "To express strong certainty about impossibility"
+    },
+    {
+      "id": "ex6",
+      "sentence": "Previous generations might have had more predictable career paths than we do today.",
+      "translation": "이전 세대들은 오늘날 우리보다 더 예측 가능한 경력 경로를 가졌을 수도 있다.",
+      "useCase": "To speculate about the past"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "job security",
+      "translation": "고용 안정성",
+      "example": "Job security is less certain in the gig economy."
+    },
+    {
+      "word": "work-life balance",
+      "translation": "일과 삶의 균형",
+      "example": "Many people prioritize work-life balance over salary."
+    },
+    {
+      "word": "career progression",
+      "translation": "경력 발전",
+      "example": "Career progression often requires continuous learning."
+    },
+    {
+      "word": "burnout",
+      "translation": "번아웃",
+      "example": "Burnout has become a serious workplace issue."
+    },
+    {
+      "word": "flexibility",
+      "translation": "유연성",
+      "example": "Flexibility in working hours is increasingly valued."
+    },
+    {
+      "word": "automation",
+      "translation": "자동화",
+      "example": "Automation could change many traditional jobs."
+    },
+    {
+      "word": "upskilling",
+      "translation": "역량 강화",
+      "example": "Upskilling is essential for staying competitive."
+    },
+    {
+      "word": "entrepreneurship",
+      "translation": "기업가 정신",
+      "example": "Entrepreneurship appeals to those seeking independence."
+    }
+  ],
+
+  "usefulExpressions": [
+    {
+      "expression": "It seems likely that...",
+      "usage": "To introduce a probable outcome",
+      "example": "It seems likely that remote work will continue to grow."
+    },
+    {
+      "expression": "There is a possibility that...",
+      "usage": "To discuss uncertain future events",
+      "example": "There is a possibility that AI could transform many industries."
+    },
+    {
+      "expression": "This suggests that...",
+      "usage": "To draw conclusions from evidence",
+      "example": "This suggests that soft skills will become more important."
+    },
+    {
+      "expression": "It is worth considering whether...",
+      "usage": "To introduce a point for reflection",
+      "example": "It is worth considering whether job security is more important than salary."
+    },
+    {
+      "expression": "In my view...",
+      "usage": "To introduce personal opinion",
+      "example": "In my view, work-life balance should be prioritized."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "Content Requirements",
+      "items": [
+        "Did you discuss current challenges in career planning?",
+        "Did you use at least four different modal verbs for speculation?",
+        "Did you consider both advantages and disadvantages?",
+        "Did you include your thoughts on work-life balance?",
+        "Did you speculate about future workplace trends?"
+      ]
+    },
+    {
+      "category": "Grammar & Structure",
+      "items": [
+        "Did you use modal verbs correctly (must/might/could/should)?",
+        "Did you distinguish between present and past speculation?",
+        "Did you vary your sentence structures?",
+        "Did you organize your ideas in clear paragraphs?"
+      ]
+    },
+    {
+      "category": "Vocabulary & Style",
+      "items": [
+        "Did you use appropriate career-related vocabulary?",
+        "Did you avoid repetition by using synonyms?",
+        "Did you use formal academic language?",
+        "Did you use linking words to connect ideas?"
+      ]
+    },
+    {
+      "category": "Word Count & Completion",
+      "items": [
+        "Is your essay at least 180 words?",
+        "Is your essay no more than 250 words?",
+        "Does your essay have a clear introduction and conclusion?",
+        "Did you complete within the time limit?"
+      ]
+    }
+  ]
+}

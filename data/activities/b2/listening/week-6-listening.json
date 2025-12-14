@@ -1,0 +1,144 @@
+{
+  "id": "week-6-listening",
+  "weekId": "week-6",
+  "type": "listening",
+  "level": "B2",
+  "title": "Health and Lifestyle Choices",
+  "description": "Listen to a discussion about health, lifestyle decisions, and their long-term consequences.",
+
+  "audio": {
+    "text": "Interviewer: Dr. Martinez, many people struggle with maintaining healthy habits. What advice do you have?\nDr. Martinez: Well, I often see patients who say, 'If I had started exercising earlier, I would be in better shape now.' It's a common regret. But it's never too late to make changes.\nInterviewer: What about diet? That seems to be a challenge for many.\nDr. Martinez: Absolutely. If people had understood the importance of nutrition when they were younger, they wouldn't be dealing with so many health issues today. The choices we make in our twenties and thirties affect our health decades later.\nInterviewer: Some patients avoid medical check-ups. What would you say to them?\nDr. Martinez: If someone weren't so afraid of doctors, they would have detected problems much earlier. I've seen cases where early detection could have made a huge difference. Prevention is always better than treatment.\nInterviewer: What about mental health? It seems more people are talking about it now.\nDr. Martinez: Yes, and I'm glad. If society had taken mental health seriously earlier, we wouldn't be facing such a crisis now. Stress, anxiety, and burnout have become epidemic. Had we invested in mental health support decades ago, millions of people would be healthier today.\nInterviewer: How does sleep affect overall health?\nDr. Martinez: Tremendously. If people had prioritized sleep instead of working long hours, they wouldn't be suffering from chronic fatigue and related conditions. Sleep is not a luxury; it's a necessity.\nInterviewer: What's the biggest mistake people make?\nDr. Martinez: Ignoring symptoms. If they weren't so busy, they would have addressed health issues before they became serious. I always tell patients: your body sends signals. Listen to them.\nInterviewer: Any final thoughts?\nDr. Martinez: If I were giving one piece of advice, it would be this: don't wait for a health scare to make changes. If more people had adopted healthy habits early, healthcare systems wouldn't be so overwhelmed today. Small, consistent changes now can prevent major problems later.",
+    "duration": 195,
+    "speed": 1.0,
+    "speakers": ["Interviewer", "Dr. Martinez"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "If I had started exercising earlier, I would be in better shape now.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d2",
+        "text": "Prevention is always better than treatment.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d3",
+        "text": "Had we invested in mental health support decades ago, millions of people would be healthier today.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d4",
+        "text": "Sleep is not a luxury; it's a necessity.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d5",
+        "text": "Small, consistent changes now can prevent major problems later.",
+        "difficulty": "medium"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "According to Dr. Martinez, what do many patients regret?",
+      "options": ["Not eating enough", "Not starting exercise earlier", "Taking too much medication", "Going to too many doctors"],
+      "answer": "Not starting exercise earlier",
+      "explanation": "Dr. Martinez mentions patients say 'If I had started exercising earlier, I would be in better shape now.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Dr. Martinez believes it's too late for people to change their habits.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Dr. Martinez says 'But it's never too late to make changes.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What does Dr. Martinez say about nutrition choices made in our twenties and thirties?",
+      "options": ["They don't matter", "They affect health decades later", "They can be easily reversed", "They only affect appearance"],
+      "answer": "They affect health decades later",
+      "explanation": "Dr. Martinez says 'The choices we make in our twenties and thirties affect our health decades later.'"
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "question": "Dr. Martinez believes prevention is better than treatment.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Dr. Martinez explicitly states 'Prevention is always better than treatment.'"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What would have happened if society had taken mental health seriously earlier?",
+      "options": ["Hospitals would be busier", "We wouldn't be facing such a crisis now", "People would work longer hours", "Treatment would be more expensive"],
+      "answer": "We wouldn't be facing such a crisis now",
+      "explanation": "Dr. Martinez says 'If society had taken mental health seriously earlier, we wouldn't be facing such a crisis now.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What does Dr. Martinez say about sleep?",
+      "options": ["It's a luxury", "It's a necessity", "It's overrated", "It's only for the weak"],
+      "answer": "It's a necessity",
+      "explanation": "Dr. Martinez says 'Sleep is not a luxury; it's a necessity.'"
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "Dr. Martinez says that stress, anxiety, and burnout have become epidemic.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Dr. Martinez states 'Stress, anxiety, and burnout have become epidemic.'"
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "According to Dr. Martinez, what is the biggest mistake people make?",
+      "options": ["Eating too much", "Ignoring symptoms", "Exercising too little", "Sleeping too much"],
+      "answer": "Ignoring symptoms",
+      "explanation": "Dr. Martinez says 'The biggest mistake? Ignoring symptoms.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What advice does Dr. Martinez give about body signals?",
+      "options": ["Ignore them", "Listen to them", "Override them", "Test them"],
+      "answer": "Listen to them",
+      "explanation": "Dr. Martinez says 'your body sends signals. Listen to them.'"
+    },
+    {
+      "id": "q10",
+      "type": "true_false",
+      "question": "Dr. Martinez recommends waiting for a health scare before making changes.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Dr. Martinez advises 'don't wait for a health scare to make changes.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What would healthcare systems be like if more people had adopted healthy habits early?",
+      "answer": "less overwhelmed",
+      "alternateAnswers": ["not so overwhelmed", "wouldn't be so overwhelmed", "they wouldn't be so overwhelmed"],
+      "explanation": "Dr. Martinez says 'healthcare systems wouldn't be so overwhelmed today.'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "Which mixed conditional structure does Dr. Martinez use to discuss past decisions affecting the present?",
+      "options": ["If + present simple, will + verb", "If + had + past participle, would + verb", "If + past simple, would + verb", "If + will, would have"],
+      "answer": "If + had + past participle, would + verb",
+      "explanation": "Dr. Martinez uses mixed conditionals like 'If I had started exercising earlier, I would be in better shape now.'"
+    }
+  ]
+}

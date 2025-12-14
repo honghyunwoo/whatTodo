@@ -1,0 +1,308 @@
+{
+  "id": "week-4-vocab",
+  "weekId": "week-4",
+  "type": "vocabulary",
+  "level": "A2",
+  "title": "경험과 현재완료 표현",
+  "description": "경험을 나타내는 현재완료 시제와 관련된 단어와 표현을 배웁니다.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "Ever",
+      "pronunciation": "/ˈevər/",
+      "partOfSpeech": "adverb",
+      "meaning": "지금까지, 한 번이라도",
+      "example": "Have you ever been to Paris?",
+      "exampleMeaning": "파리에 가본 적이 있나요?"
+    },
+    {
+      "id": "w2",
+      "word": "Never",
+      "pronunciation": "/ˈnevər/",
+      "partOfSpeech": "adverb",
+      "meaning": "한 번도 ~않다",
+      "example": "I have never tried sushi.",
+      "exampleMeaning": "나는 초밥을 먹어본 적이 없다."
+    },
+    {
+      "id": "w3",
+      "word": "Already",
+      "pronunciation": "/ɔːlˈredi/",
+      "partOfSpeech": "adverb",
+      "meaning": "이미, 벌써",
+      "example": "I have already finished my homework.",
+      "exampleMeaning": "나는 이미 숙제를 끝냈다."
+    },
+    {
+      "id": "w4",
+      "word": "Yet",
+      "pronunciation": "/jet/",
+      "partOfSpeech": "adverb",
+      "meaning": "아직 (부정문/의문문)",
+      "example": "Have you finished yet?",
+      "exampleMeaning": "아직 끝냈나요?"
+    },
+    {
+      "id": "w5",
+      "word": "Just",
+      "pronunciation": "/dʒʌst/",
+      "partOfSpeech": "adverb",
+      "meaning": "막, 방금",
+      "example": "I have just arrived.",
+      "exampleMeaning": "나는 막 도착했다."
+    },
+    {
+      "id": "w6",
+      "word": "Recently",
+      "pronunciation": "/ˈriːsntli/",
+      "partOfSpeech": "adverb",
+      "meaning": "최근에",
+      "example": "I have recently moved to Seoul.",
+      "exampleMeaning": "나는 최근에 서울로 이사했다."
+    },
+    {
+      "id": "w7",
+      "word": "For",
+      "pronunciation": "/fɔːr/",
+      "partOfSpeech": "preposition",
+      "meaning": "~동안 (기간)",
+      "example": "I have lived here for five years.",
+      "exampleMeaning": "나는 여기에 5년 동안 살았다."
+    },
+    {
+      "id": "w8",
+      "word": "Since",
+      "pronunciation": "/sɪns/",
+      "partOfSpeech": "preposition",
+      "meaning": "~부터 (시작점)",
+      "example": "I have known her since 2020.",
+      "exampleMeaning": "나는 2020년부터 그녀를 알고 지냈다."
+    },
+    {
+      "id": "w9",
+      "word": "So far",
+      "pronunciation": "/soʊ fɑːr/",
+      "partOfSpeech": "phrase",
+      "meaning": "지금까지",
+      "example": "So far, everything is good.",
+      "exampleMeaning": "지금까지는 모든 것이 좋다."
+    },
+    {
+      "id": "w10",
+      "word": "Once",
+      "pronunciation": "/wʌns/",
+      "partOfSpeech": "adverb",
+      "meaning": "한 번",
+      "example": "I have been there once.",
+      "exampleMeaning": "나는 거기에 한 번 가본 적이 있다."
+    },
+    {
+      "id": "w11",
+      "word": "Twice",
+      "pronunciation": "/twaɪs/",
+      "partOfSpeech": "adverb",
+      "meaning": "두 번",
+      "example": "I have visited Japan twice.",
+      "exampleMeaning": "나는 일본에 두 번 방문했다."
+    },
+    {
+      "id": "w12",
+      "word": "Several times",
+      "pronunciation": "/ˈsevrəl taɪmz/",
+      "partOfSpeech": "phrase",
+      "meaning": "여러 번",
+      "example": "I have seen that movie several times.",
+      "exampleMeaning": "나는 그 영화를 여러 번 봤다."
+    },
+    {
+      "id": "w13",
+      "word": "Before",
+      "pronunciation": "/bɪˈfɔːr/",
+      "partOfSpeech": "adverb",
+      "meaning": "전에, 이전에",
+      "example": "I have met him before.",
+      "exampleMeaning": "나는 그를 전에 만난 적이 있다."
+    },
+    {
+      "id": "w14",
+      "word": "Experience",
+      "pronunciation": "/ɪkˈspɪriəns/",
+      "partOfSpeech": "noun",
+      "meaning": "경험",
+      "example": "This has been a great experience.",
+      "exampleMeaning": "이것은 훌륭한 경험이었다."
+    },
+    {
+      "id": "w15",
+      "word": "Travel",
+      "pronunciation": "/ˈtrævl/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "여행하다, 여행",
+      "example": "I have traveled to many countries.",
+      "exampleMeaning": "나는 많은 나라를 여행했다."
+    },
+    {
+      "id": "w16",
+      "word": "Visit",
+      "pronunciation": "/ˈvɪzɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "방문하다",
+      "example": "I have visited my grandparents.",
+      "exampleMeaning": "나는 조부모님을 방문했다."
+    },
+    {
+      "id": "w17",
+      "word": "Try",
+      "pronunciation": "/traɪ/",
+      "partOfSpeech": "verb",
+      "meaning": "시도하다, 먹어보다",
+      "example": "Have you tried Korean food?",
+      "exampleMeaning": "한국 음식을 먹어봤나요?"
+    },
+    {
+      "id": "w18",
+      "word": "Meet",
+      "pronunciation": "/miːt/",
+      "partOfSpeech": "verb",
+      "meaning": "만나다",
+      "example": "I have met many interesting people.",
+      "exampleMeaning": "나는 많은 흥미로운 사람들을 만났다."
+    },
+    {
+      "id": "w19",
+      "word": "Learn",
+      "pronunciation": "/lɜːrn/",
+      "partOfSpeech": "verb",
+      "meaning": "배우다",
+      "example": "I have learned a lot from this class.",
+      "exampleMeaning": "나는 이 수업에서 많은 것을 배웠다."
+    },
+    {
+      "id": "w20",
+      "word": "Change",
+      "pronunciation": "/tʃeɪndʒ/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "변화하다, 변화",
+      "example": "My life has changed a lot.",
+      "exampleMeaning": "내 인생은 많이 변했다."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "Which word means '한 번도 ~않다'?",
+      "options": ["Ever", "Never", "Always", "Sometimes"],
+      "answer": "Never",
+      "explanation": "'Never'는 '한 번도 ~않다'라는 뜻으로 부정의 경험을 나타냅니다."
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "Have you ___ been to Japan?",
+      "options": ["ever", "never", "yet", "already"],
+      "answer": "ever",
+      "explanation": "의문문에서 '~한 적이 있나요?'는 'ever'를 사용합니다."
+    },
+    {
+      "id": "ex3",
+      "type": "fill_blank",
+      "question": "I have ___ finished my homework. (이미)",
+      "answer": ["already"],
+      "explanation": "'이미'는 'already'를 사용합니다."
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "Have you finished ___? (아직 - 의문문)",
+      "answer": ["yet"],
+      "explanation": "의문문과 부정문에서 '아직'은 'yet'을 사용합니다."
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "Which preposition is used for a period of time?",
+      "options": ["For", "Since", "At", "On"],
+      "answer": "For",
+      "explanation": "'For'는 기간(5년 동안, 3개월 동안 등)을 나타냅니다."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "Which preposition is used for a starting point?",
+      "options": ["For", "Since", "At", "In"],
+      "answer": "Since",
+      "explanation": "'Since'는 시작점(2020년부터, 월요일부터 등)을 나타냅니다."
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "I have lived here ___ five years. (기간)",
+      "answer": ["for"],
+      "explanation": "기간을 나타낼 때는 'for'를 사용합니다."
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "I have known her ___ 2020. (시작점)",
+      "answer": ["since"],
+      "explanation": "특정 시점부터를 나타낼 때는 'since'를 사용합니다."
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "What does 'once' mean?",
+      "options": ["한 번", "두 번", "세 번", "여러 번"],
+      "answer": "한 번",
+      "explanation": "'Once'는 '한 번'이라는 뜻입니다."
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "What does 'twice' mean?",
+      "options": ["한 번", "두 번", "세 번", "여러 번"],
+      "answer": "두 번",
+      "explanation": "'Twice'는 '두 번'이라는 뜻입니다."
+    },
+    {
+      "id": "ex11",
+      "type": "matching",
+      "question": "Match the English with Korean:",
+      "options": ["ever", "never", "already", "yet"],
+      "answer": ["지금까지", "한 번도 ~않다", "이미", "아직"],
+      "explanation": "각 부사의 의미를 정확하게 연결합니다."
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "I have ___ arrived. (막, 방금)",
+      "answer": ["just"],
+      "explanation": "'막, 방금'은 'just'를 사용합니다."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "Which phrase means '지금까지'?",
+      "options": ["So far", "So good", "So much", "So long"],
+      "answer": "So far",
+      "explanation": "'So far'는 '지금까지'라는 뜻입니다."
+    },
+    {
+      "id": "ex14",
+      "type": "fill_blank",
+      "question": "I have visited Japan ___. (두 번)",
+      "answer": ["twice"],
+      "explanation": "'두 번'은 'twice'를 사용합니다."
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "What does 'recently' mean?",
+      "options": ["과거에", "최근에", "미래에", "항상"],
+      "answer": "최근에",
+      "explanation": "'Recently'는 '최근에'라는 뜻입니다."
+    }
+  ]
+}

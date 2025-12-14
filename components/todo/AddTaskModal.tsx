@@ -1,11 +1,14 @@
 import React, { useCallback, useState } from 'react';
 import { ScrollView, StyleSheet, View } from 'react-native';
-import { Button, Modal, Portal, SegmentedButtons, Text, TextInput } from 'react-native-paper';
+import { Button, SegmentedButtons, Text, TextInput } from 'react-native-paper';
 
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { useTaskStore } from '@/store/taskStore';
+import { useTheme } from '@/contexts/ThemeContext';
 import { TaskCategory, TaskFormData, TaskPriority } from '@/types/task';
+import { BlurModal } from '@/components/common';
+import { todoHaptics } from '@/services/hapticService';
 
 interface AddTaskModalProps {
   visible: boolean;
@@ -36,6 +39,7 @@ const initialFormData: TaskFormData = {
 };
 
 export function AddTaskModal({ visible, onDismiss }: AddTaskModalProps) {
+  const { colors, isDark } = useTheme();
   const addTask = useTaskStore((state) => state.addTask);
   const [formData, setFormData] = useState<TaskFormData>(initialFormData);
   const [errors, setErrors] = useState<{ title?: string }>({});
@@ -63,8 +67,10 @@ export function AddTaskModal({ visible, onDismiss }: AddTaskModalProps) {
     return Object.keys(newErrors).length === 0;
   }, [formData.title]);
 
-  const handleSubmit = useCallback(() => {
+  const handleSubmit = useCallback(async () => {
     if (!validateForm()) return;
+
+    await todoHaptics.add();
 
     addTask({
       ...formData,
@@ -86,67 +92,67 @@ export function AddTaskModal({ visible, onDismiss }: AddTaskModalProps) {
   );
 
   return (
-    <Portal>
-      <Modal visible={visible} onDismiss={handleDismiss} contentContainerStyle={styles.container}>
-        <ScrollView showsVerticalScrollIndicator={false}>
-          <Text style={styles.title}>새 할 일</Text>
+    <BlurModal visible={visible} onDismiss={handleDismiss} position="bottom">
+      <ScrollView showsVerticalScrollIndicator={false}>
+        <Text style={[styles.title, { color: colors.text }]}>새 할 일</Text>
 
-          {/* 제목 입력 */}
-          <TextInput
-            label="제목 *"
-            value={formData.title}
-            onChangeText={(text) => updateField('title', text)}
-            mode="outlined"
-            style={styles.input}
-            error={!!errors.title}
-            maxLength={100}
-          />
-          {errors.title && <Text style={styles.errorText}>{errors.title}</Text>}
+        {/* 제목 입력 */}
+        <TextInput
+          label="제목 *"
+          value={formData.title}
+          onChangeText={(text) => updateField('title', text)}
+          mode="outlined"
+          style={[styles.input, { backgroundColor: isDark ? '#2C2C2E' : '#F8F8F8' }]}
+          error={!!errors.title}
+          maxLength={100}
+          textColor={colors.text}
+        />
+        {errors.title && <Text style={styles.errorText}>{errors.title}</Text>}
 
-          {/* 설명 입력 */}
-          <TextInput
-            label="설명 (선택)"
-            value={formData.description}
-            onChangeText={(text) => updateField('description', text)}
-            mode="outlined"
-            style={styles.input}
-            multiline
-            numberOfLines={3}
-            maxLength={500}
-          />
+        {/* 설명 입력 */}
+        <TextInput
+          label="설명 (선택)"
+          value={formData.description}
+          onChangeText={(text) => updateField('description', text)}
+          mode="outlined"
+          style={[styles.input, { backgroundColor: isDark ? '#2C2C2E' : '#F8F8F8' }]}
+          multiline
+          numberOfLines={3}
+          maxLength={500}
+          textColor={colors.text}
+        />
 
-          {/* 카테고리 선택 */}
-          <Text style={styles.sectionLabel}>카테고리</Text>
-          <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-            <SegmentedButtons
-              value={formData.category}
-              onValueChange={(value) => updateField('category', value as TaskCategory)}
-              buttons={CATEGORY_OPTIONS}
-              style={styles.segmentedButtons}
-            />
-          </ScrollView>
-
-          {/* 우선순위 선택 */}
-          <Text style={styles.sectionLabel}>우선순위</Text>
+        {/* 카테고리 선택 */}
+        <Text style={[styles.sectionLabel, { color: colors.text }]}>카테고리</Text>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
           <SegmentedButtons
-            value={formData.priority}
-            onValueChange={(value) => updateField('priority', value as TaskPriority)}
-            buttons={PRIORITY_OPTIONS}
+            value={formData.category}
+            onValueChange={(value) => updateField('category', value as TaskCategory)}
+            buttons={CATEGORY_OPTIONS}
             style={styles.segmentedButtons}
           />
-
-          {/* 버튼 그룹 */}
-          <View style={styles.buttonGroup}>
-            <Button mode="outlined" onPress={handleDismiss} style={styles.button}>
-              취소
-            </Button>
-            <Button mode="contained" onPress={handleSubmit} style={styles.button}>
-              추가
-            </Button>
-          </View>
         </ScrollView>
-      </Modal>
-    </Portal>
+
+        {/* 우선순위 선택 */}
+        <Text style={[styles.sectionLabel, { color: colors.text }]}>우선순위</Text>
+        <SegmentedButtons
+          value={formData.priority}
+          onValueChange={(value) => updateField('priority', value as TaskPriority)}
+          buttons={PRIORITY_OPTIONS}
+          style={styles.segmentedButtons}
+        />
+
+        {/* 버튼 그룹 */}
+        <View style={styles.buttonGroup}>
+          <Button mode="outlined" onPress={handleDismiss} style={styles.button}>
+            취소
+          </Button>
+          <Button mode="contained" onPress={handleSubmit} style={styles.button}>
+            추가
+          </Button>
+        </View>
+      </ScrollView>
+    </BlurModal>
   );
 }
 
@@ -158,17 +164,7 @@ const styles = StyleSheet.create({
   buttonGroup: {
     flexDirection: 'row',
     marginTop: SIZES.spacing.lg,
-  },
-  container: {
-    backgroundColor: COLORS.surface,
-    borderTopLeftRadius: SIZES.borderRadius.xl,
-    borderTopRightRadius: SIZES.borderRadius.xl,
-    bottom: 0,
-    left: 0,
-    maxHeight: '80%',
-    padding: SIZES.spacing.lg,
-    position: 'absolute',
-    right: 0,
+    paddingBottom: SIZES.spacing.md,
   },
   errorText: {
     color: COLORS.danger,
@@ -180,7 +176,6 @@ const styles = StyleSheet.create({
     marginBottom: SIZES.spacing.md,
   },
   sectionLabel: {
-    color: COLORS.text,
     fontSize: SIZES.fontSize.md,
     fontWeight: '500',
     marginBottom: SIZES.spacing.sm,
@@ -190,7 +185,6 @@ const styles = StyleSheet.create({
     marginBottom: SIZES.spacing.md,
   },
   title: {
-    color: COLORS.text,
     fontSize: SIZES.fontSize.xl,
     fontWeight: '600',
     marginBottom: SIZES.spacing.lg,

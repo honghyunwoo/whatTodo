@@ -1,0 +1,86 @@
+{
+  "id": "week-4-listening",
+  "weekId": "week-4",
+  "type": "listening",
+  "level": "A2",
+  "title": "경험 이야기 듣기",
+  "description": "다양한 경험에 대한 이야기를 듣고 이해합니다.",
+
+  "audio": {
+    "text": "Hi! My name is Emma. [PAUSE] I have traveled to many countries. [PAUSE] I have been to France, Spain, and Italy. [PAUSE] I have tried many different foods. My favorite was Italian pasta! [PAUSE] I have also learned some French and Spanish. [PAUSE] I have made friends from all over the world. [PAUSE] Traveling has been an amazing experience!",
+    "speed": 0.85
+  },
+
+  "dictation": {
+    "targetSentences": [
+      "I have traveled to many countries.",
+      "I have been to France, Spain, and Italy."
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is the speaker's name?",
+      "options": ["Emily", "Emma", "Eva", "Ella"],
+      "answer": "Emma",
+      "explanation": "화자는 'My name is Emma'라고 소개했습니다."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Emma has traveled to many countries.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Emma는 많은 나라를 여행했습니다. (I have traveled to many countries)"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "Which country has Emma NOT been to?",
+      "options": ["France", "Spain", "Italy", "Germany"],
+      "answer": "Germany",
+      "explanation": "Emma는 프랑스, 스페인, 이탈리아에 가봤지만 독일은 언급하지 않았습니다."
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "question": "How many countries does Emma mention?",
+      "answer": "3",
+      "explanation": "Emma는 3개국(프랑스, 스페인, 이탈리아)을 언급했습니다."
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What was Emma's favorite food?",
+      "options": ["French cheese", "Spanish paella", "Italian pasta", "German sausage"],
+      "answer": "Italian pasta",
+      "explanation": "Emma가 가장 좋아한 음식은 이탈리아 파스타입니다."
+    },
+    {
+      "id": "q6",
+      "type": "true_false",
+      "question": "Emma has learned some languages.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Emma는 프랑스어와 스페인어를 배웠습니다. (I have learned some French and Spanish)"
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "Emma has made friends from different countries.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Emma는 전 세계에서 온 친구들을 사귀었습니다."
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "How does Emma feel about traveling?",
+      "options": ["Boring", "Amazing", "Difficult", "Expensive"],
+      "answer": "Amazing",
+      "explanation": "Emma는 여행이 놀라운 경험이었다고 말했습니다. (amazing experience)"
+    }
+  ]
+}

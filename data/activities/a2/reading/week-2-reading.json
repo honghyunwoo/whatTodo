@@ -1,0 +1,39 @@
+{
+  "id": "week-2-reading",
+  "weekId": "week-2",
+  "type": "reading",
+  "level": "A2",
+  "title": "Shopping Online vs In Store",
+  "description": "Read about the advantages and disadvantages of different shopping methods.",
+
+  "passage": {
+    "text": "These days, many people prefer shopping online instead of going to physical stores. Online shopping is very convenient because you can buy things from home at any time. You don't need to drive or find parking. Also, you can easily compare prices from different websites.\n\nHowever, shopping in stores has its advantages too. You can try on clothes before buying them, so you know if they fit. You can also see and touch products. If something is wrong, you can return it immediately.\n\nI personally use both methods. For electronics and books, I usually shop online because I can read reviews first. But for clothes and shoes, I prefer going to the store. I don't want to buy something that doesn't fit!\n\nWhat about you? Do you like online shopping or do you prefer traditional stores?",
+    "wordCount": 140,
+    "estimatedReadingTime": 3,
+    "audioText": "These days, many people prefer shopping online instead of going to physical stores. [PAUSE] Online shopping is very convenient because you can buy things from home at any time. You don't need to drive or find parking. Also, you can easily compare prices from different websites. [PAUSE] However, shopping in stores has its advantages too. You can try on clothes before buying them, so you know if they fit. You can also see and touch products. If something is wrong, you can return it immediately. [PAUSE] I personally use both methods. For electronics and books, I usually shop online because I can read reviews first. But for clothes and shoes, I prefer going to the store. I don't want to buy something that doesn't fit! [PAUSE] What about you? Do you like online shopping or do you prefer traditional stores?"
+  },
+
+  "vocabulary": [
+    {"word": "prefer", "meaning": "선호하다", "lineNumber": 1},
+    {"word": "convenient", "meaning": "편리한", "lineNumber": 2},
+    {"word": "compare", "meaning": "비교하다", "lineNumber": 3},
+    {"word": "advantages", "meaning": "장점", "lineNumber": 5},
+    {"word": "immediately", "meaning": "즉시", "lineNumber": 7},
+    {"word": "electronics", "meaning": "전자제품", "lineNumber": 9},
+    {"word": "reviews", "meaning": "리뷰, 후기", "lineNumber": 9},
+    {"word": "traditional", "meaning": "전통적인", "lineNumber": 11}
+  ],
+
+  "questions": [
+    {"id": "q1", "type": "multiple_choice", "question": "What is one advantage of online shopping?", "options": ["You can buy from home", "You can try clothes", "You can touch products", "You get things immediately"], "answer": "You can buy from home", "explanation": "Online shopping lets you buy from home at any time."},
+    {"id": "q2", "type": "true_false", "question": "Online shopping requires finding parking.", "options": ["True", "False"], "answer": "False", "explanation": "The text says you don't need to drive or find parking."},
+    {"id": "q3", "type": "multiple_choice", "question": "What can you easily do online?", "options": ["Compare prices", "Try on clothes", "Touch products", "Return immediately"], "answer": "Compare prices", "explanation": "You can easily compare prices from different websites."},
+    {"id": "q4", "type": "true_false", "question": "You can try on clothes when shopping online.", "options": ["True", "False"], "answer": "False", "explanation": "Trying on clothes is an advantage of in-store shopping."},
+    {"id": "q5", "type": "multiple_choice", "question": "What is an advantage of store shopping?", "options": ["You can touch products", "It's faster", "It's cheaper", "More choices"], "answer": "You can touch products", "explanation": "In stores, you can see and touch products."},
+    {"id": "q6", "type": "multiple_choice", "question": "What does the writer buy online?", "options": ["Electronics and books", "Clothes and shoes", "Food and drinks", "All products"], "answer": "Electronics and books", "explanation": "The writer shops online for electronics and books."},
+    {"id": "q7", "type": "short_answer", "question": "Why does the writer read reviews online?", "answer": "before buying", "explanation": "The writer reads reviews before making a purchase."},
+    {"id": "q8", "type": "multiple_choice", "question": "Why does the writer prefer buying clothes in stores?", "options": ["To check if they fit", "They're cheaper", "More colors", "Better quality"], "answer": "To check if they fit", "explanation": "The writer doesn't want to buy something that doesn't fit."},
+    {"id": "q9", "type": "true_false", "question": "The writer only uses online shopping.", "options": ["True", "False"], "answer": "False", "explanation": "The writer uses both methods."},
+    {"id": "q10", "type": "multiple_choice", "question": "What is the main topic of this passage?", "options": ["Comparing shopping methods", "How to save money", "Best online stores", "Fashion trends"], "answer": "Comparing shopping methods", "explanation": "The passage compares online and in-store shopping."}
+  ]
+}

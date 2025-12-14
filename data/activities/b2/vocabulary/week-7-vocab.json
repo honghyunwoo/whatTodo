@@ -1,0 +1,323 @@
+{
+  "id": "week-7-vocab",
+  "weekId": "week-7",
+  "type": "vocabulary",
+  "level": "B2",
+  "title": "Career & Business",
+  "description": "Learn vocabulary for discussing professional development, workplace dynamics, and business operations.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "promotion",
+      "pronunciation": "/prəˈməʊʃn/",
+      "meaning": "advancement to a higher position or rank",
+      "translation": "승진",
+      "example": "She earned a promotion after leading the successful project.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w2",
+      "word": "redundancy",
+      "pronunciation": "/rɪˈdʌndənsi/",
+      "meaning": "dismissal from a job because the position is no longer needed",
+      "translation": "정리해고, 잉여",
+      "example": "The company announced 200 redundancies due to restructuring.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w3",
+      "word": "entrepreneur",
+      "pronunciation": "/ˌɒntrəprəˈnɜːr/",
+      "meaning": "a person who starts and runs their own business",
+      "translation": "기업가, 사업가",
+      "example": "The young entrepreneur founded three successful startups.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w4",
+      "word": "revenue",
+      "pronunciation": "/ˈrevənjuː/",
+      "meaning": "income generated from business operations",
+      "translation": "수익, 매출",
+      "example": "Annual revenue increased by 15% compared to last year.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w5",
+      "word": "stakeholder",
+      "pronunciation": "/ˈsteɪkhəʊldər/",
+      "meaning": "a person with an interest or concern in a business",
+      "translation": "이해관계자",
+      "example": "All stakeholders were consulted before making the decision.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w6",
+      "word": "deadline",
+      "pronunciation": "/ˈdedlaɪn/",
+      "meaning": "the time by which something must be completed",
+      "translation": "마감 기한",
+      "example": "We need to meet the deadline for the quarterly report.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w7",
+      "word": "networking",
+      "pronunciation": "/ˈnetwɜːkɪŋ/",
+      "meaning": "building professional relationships and contacts",
+      "translation": "네트워킹, 인맥 쌓기",
+      "example": "Networking events are great for career development.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w8",
+      "word": "merger",
+      "pronunciation": "/ˈmɜːdʒər/",
+      "meaning": "the combining of two companies into one",
+      "translation": "합병",
+      "example": "The merger created the largest tech company in the region.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w9",
+      "word": "ambitious",
+      "pronunciation": "/æmˈbɪʃəs/",
+      "meaning": "having a strong desire for success or achievement",
+      "translation": "야심 있는",
+      "example": "She's an ambitious professional who aims to become CEO.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w10",
+      "word": "competent",
+      "pronunciation": "/ˈkɒmpɪtənt/",
+      "meaning": "having the necessary skill or knowledge",
+      "translation": "유능한",
+      "example": "A competent manager knows how to motivate their team.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w11",
+      "word": "profitable",
+      "pronunciation": "/ˈprɒfɪtəbl/",
+      "meaning": "producing financial gain",
+      "translation": "수익성 있는",
+      "example": "The venture became profitable within its first year.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w12",
+      "word": "innovative",
+      "pronunciation": "/ˈɪnəveɪtɪv/",
+      "meaning": "introducing new ideas or methods",
+      "translation": "혁신적인",
+      "example": "Their innovative approach disrupted the entire industry.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w13",
+      "word": "sustainable",
+      "pronunciation": "/səˈsteɪnəbl/",
+      "meaning": "able to continue over a long period",
+      "translation": "지속 가능한",
+      "example": "The company focuses on sustainable business practices.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w14",
+      "word": "strategic",
+      "pronunciation": "/strəˈtiːdʒɪk/",
+      "meaning": "relating to long-term plans for success",
+      "translation": "전략적인",
+      "example": "Strategic planning is essential for company growth.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w15",
+      "word": "corporate",
+      "pronunciation": "/ˈkɔːpərət/",
+      "meaning": "relating to a large company or group",
+      "translation": "기업의",
+      "example": "Corporate culture varies greatly between companies.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w16",
+      "word": "negotiate",
+      "pronunciation": "/nɪˈɡəʊʃieɪt/",
+      "meaning": "to discuss something to reach an agreement",
+      "translation": "협상하다",
+      "example": "She negotiated a higher salary during the interview.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w17",
+      "word": "delegate",
+      "pronunciation": "/ˈdelɪɡeɪt/",
+      "meaning": "to assign tasks or responsibilities to others",
+      "translation": "위임하다",
+      "example": "Good leaders know when to delegate tasks.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w18",
+      "word": "collaborate",
+      "pronunciation": "/kəˈlæbəreɪt/",
+      "meaning": "to work jointly with others",
+      "translation": "협력하다",
+      "example": "Teams from different departments collaborate on projects.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w19",
+      "word": "implement",
+      "pronunciation": "/ˈɪmplɪment/",
+      "meaning": "to put a plan or decision into effect",
+      "translation": "실행하다, 시행하다",
+      "example": "The company will implement the new policy next month.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w20",
+      "word": "resign",
+      "pronunciation": "/rɪˈzaɪn/",
+      "meaning": "to voluntarily leave a job or position",
+      "translation": "사직하다",
+      "example": "He decided to resign and pursue other opportunities.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w21",
+      "word": "incentive",
+      "pronunciation": "/ɪnˈsentɪv/",
+      "meaning": "something that motivates or encourages action",
+      "translation": "인센티브, 장려책",
+      "example": "Performance bonuses serve as incentives for employees.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w22",
+      "word": "productivity",
+      "pronunciation": "/ˌprɒdʌkˈtɪvəti/",
+      "meaning": "the rate of output per unit of input",
+      "translation": "생산성",
+      "example": "Remote work has improved productivity for many employees.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w23",
+      "word": "turnover",
+      "pronunciation": "/ˈtɜːnəʊvər/",
+      "meaning": "the rate at which employees leave and are replaced",
+      "translation": "이직률, 매출액",
+      "example": "High turnover rates indicate low job satisfaction.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w24",
+      "word": "hierarchy",
+      "pronunciation": "/ˈhaɪərɑːki/",
+      "meaning": "a system of ranking people by authority level",
+      "translation": "계층 구조",
+      "example": "The company has a flat hierarchy with few management levels.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w25",
+      "word": "outsource",
+      "pronunciation": "/ˈaʊtsɔːs/",
+      "meaning": "to contract work out to external suppliers",
+      "translation": "외주를 주다",
+      "example": "Many companies outsource their IT support.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w26",
+      "word": "benchmark",
+      "pronunciation": "/ˈbentʃmɑːk/",
+      "meaning": "a standard against which things are compared",
+      "translation": "기준, 벤치마크",
+      "example": "This company sets the benchmark for customer service.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w27",
+      "word": "feasible",
+      "pronunciation": "/ˈfiːzəbl/",
+      "meaning": "possible and practical to achieve",
+      "translation": "실현 가능한",
+      "example": "We need to determine if the project is feasible.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w28",
+      "word": "transparent",
+      "pronunciation": "/trænsˈpærənt/",
+      "meaning": "open and honest, without hidden agendas",
+      "translation": "투명한",
+      "example": "Transparent communication builds trust in teams.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w29",
+      "word": "acquisition",
+      "pronunciation": "/ˌækwɪˈzɪʃn/",
+      "meaning": "the act of buying or obtaining something, especially a company",
+      "translation": "인수",
+      "example": "The acquisition of the startup expanded their market share.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w30",
+      "word": "diversify",
+      "pronunciation": "/daɪˈvɜːsɪfaɪ/",
+      "meaning": "to expand into different areas or markets",
+      "translation": "다각화하다",
+      "example": "The company decided to diversify its product range.",
+      "partOfSpeech": "verb"
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "matching",
+      "instruction": "Match the words with their definitions",
+      "pairs": [
+        { "word": "redundancy", "definition": "dismissal from a job because the position is no longer needed" },
+        { "word": "stakeholder", "definition": "a person with an interest in a business" },
+        { "word": "merger", "definition": "the combining of two companies into one" },
+        { "word": "delegate", "definition": "to assign tasks to others" }
+      ]
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "instruction": "Complete the sentences with the correct words",
+      "sentences": [
+        { "sentence": "She received a _____ to senior manager after five years.", "answer": "promotion" },
+        { "sentence": "Good managers know how to _____ with employees during salary reviews.", "answer": "negotiate" },
+        { "sentence": "The company's annual _____ exceeded expectations this quarter.", "answer": "revenue" },
+        { "sentence": "It's important to set realistic _____ for project completion.", "answer": "deadlines" }
+      ]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "instruction": "Choose the best word to complete each sentence",
+      "questions": [
+        {
+          "question": "The company needs to _____ its operations to remain competitive.",
+          "options": ["resign", "diversify", "outsource", "delegate"],
+          "answer": "diversify"
+        },
+        {
+          "question": "High employee _____ can be costly for organizations.",
+          "options": ["productivity", "hierarchy", "turnover", "benchmark"],
+          "answer": "turnover"
+        }
+      ]
+    }
+  ]
+}

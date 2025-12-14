@@ -1,0 +1,212 @@
+{
+  "id": "week-5-grammar",
+  "weekId": "week-5",
+  "type": "grammar",
+  "level": "A2",
+  "title": "Adverbs of Frequency & Present Simple for Routines",
+  "description": "Learn how to talk about habits and daily routines using adverbs of frequency.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Adverbs of Frequency",
+      "explanation": "Adverbs of frequency tell us how often something happens. They go before the main verb but after 'be'.",
+      "frequency_order": "always (100%) > usually (80%) > often (60%) > sometimes (40%) > rarely (20%) > never (0%)",
+      "examples": [
+        {
+          "sentence": "I always wake up at 7 a.m.",
+          "translation": "저는 항상 오전 7시에 일어나요.",
+          "note": "Before main verb"
+        },
+        {
+          "sentence": "She usually takes the bus to work.",
+          "translation": "그녀는 보통 버스를 타고 출근해요.",
+          "note": "Before main verb"
+        },
+        {
+          "sentence": "He is never late for meetings.",
+          "translation": "그는 회의에 절대 늦지 않아요.",
+          "note": "After 'be' verb"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Present Simple for Routines",
+      "explanation": "Use present simple to talk about habits, routines, and things that happen regularly.",
+      "structure": "Subject + verb (+ s/es for he/she/it)",
+      "examples": [
+        {
+          "sentence": "I start work at 9 o'clock.",
+          "translation": "저는 9시에 출근해요.",
+          "note": "Regular routine"
+        },
+        {
+          "sentence": "She finishes work at 6 p.m.",
+          "translation": "그녀는 오후 6시에 퇴근해요.",
+          "note": "Third person -es"
+        },
+        {
+          "sentence": "We have meetings every Monday.",
+          "translation": "우리는 매주 월요일에 회의를 해요.",
+          "note": "Regular schedule"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Time Expressions for Routines",
+      "explanation": "Use these expressions to talk about when and how often things happen.",
+      "expressions": [
+        "every day/week/month/year",
+        "on Mondays/weekends",
+        "in the morning/afternoon/evening",
+        "at night/noon/midnight",
+        "once/twice a week"
+      ],
+      "examples": [
+        {
+          "sentence": "I check my emails every morning.",
+          "translation": "저는 매일 아침 이메일을 확인해요.",
+          "note": "Time expression at end"
+        },
+        {
+          "sentence": "We have team meetings on Fridays.",
+          "translation": "우리는 금요일에 팀 회의를 해요.",
+          "note": "Specific day"
+        },
+        {
+          "sentence": "She exercises twice a week.",
+          "translation": "그녀는 일주일에 두 번 운동해요.",
+          "note": "Frequency expression"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Questions about Routines",
+      "explanation": "Use 'Do/Does' questions and 'How often' to ask about habits and routines.",
+      "structure": "Do/Does + subject + verb...? / How often do you...?",
+      "examples": [
+        {
+          "sentence": "What time do you wake up?",
+          "translation": "몇 시에 일어나세요?",
+          "note": "What time question"
+        },
+        {
+          "sentence": "How often do you work overtime?",
+          "translation": "얼마나 자주 야근하세요?",
+          "note": "Frequency question"
+        },
+        {
+          "sentence": "Does she commute by train?",
+          "translation": "그녀는 기차로 통근하나요?",
+          "note": "Yes/No question"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Negative Sentences about Routines",
+      "explanation": "Use 'don't/doesn't' to make negative statements about routines.",
+      "structure": "Subject + don't/doesn't + verb",
+      "examples": [
+        {
+          "sentence": "I don't work on weekends.",
+          "translation": "저는 주말에 일하지 않아요.",
+          "note": "Don't for I/you/we/they"
+        },
+        {
+          "sentence": "He doesn't take breaks often.",
+          "translation": "그는 자주 휴식을 취하지 않아요.",
+          "note": "Doesn't for he/she/it"
+        },
+        {
+          "sentence": "We don't have meetings every day.",
+          "translation": "우리는 매일 회의를 하지 않아요.",
+          "note": "Don't with frequency"
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "Choose the correct sentence:",
+      "options": ["I always am tired.", "I am always tired.", "Always I am tired.", "I tired always am."],
+      "answer": "I am always tired."
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "She _____ (usually/go) to the gym after work.",
+      "answer": "usually goes"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "Where does the adverb 'often' go in this sentence: 'I ___ check my phone'?",
+      "options": ["before 'I'", "after 'I'", "at the end", "before 'check'"],
+      "answer": "before 'check'"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "He _____ (never/be) late for work.",
+      "answer": "is never"
+    },
+    {
+      "id": "ex5",
+      "type": "reorder",
+      "question": "Put the words in order: work / I / at / start / 9 a.m.",
+      "answer": "I start work at 9 a.m."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "_____ do you have meetings?",
+      "options": ["How often", "How many", "How much", "How long"],
+      "answer": "How often"
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "We have team lunches _____ a month. (once/twice)",
+      "answer": "twice"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "Choose the correct negative sentence:",
+      "options": ["She don't work late.", "She doesn't work late.", "She not works late.", "She doesn't works late."],
+      "answer": "She doesn't work late."
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "My manager _____ (check) reports every Friday.",
+      "answer": "checks"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "Which is correct?",
+      "options": ["I go sometimes to the office.", "I sometimes go to the office.", "Sometimes I go to the office.", "Both B and C are correct."],
+      "answer": "Both B and C are correct."
+    },
+    {
+      "id": "ex11",
+      "type": "fill_blank",
+      "question": "_____ she work on Saturdays? No, she _____.",
+      "answer": "Does / doesn't"
+    },
+    {
+      "id": "ex12",
+      "type": "reorder",
+      "question": "Put the words in order: rarely / overtime / works / he",
+      "answer": "He rarely works overtime."
+    }
+  ]
+}

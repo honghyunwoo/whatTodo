@@ -1,0 +1,144 @@
+{
+  "id": "week-4-listening",
+  "weekId": "week-4",
+  "type": "listening",
+  "level": "B1",
+  "title": "Digital Detox Discussion",
+  "description": "Listen to two people discussing their relationship with technology.",
+
+  "audio": {
+    "text": "Alex: Hey Lisa, did you see that article about digital detox? Apparently, the average person spends over four hours a day on their phone.\nLisa: Four hours? That sounds about right, actually. I've been trying to cut down on my screen time recently.\nAlex: Really? How's that going?\nLisa: Well, I deleted social media apps from my phone last week. It was hard at first, but I've noticed I'm sleeping better.\nAlex: That's interesting. I've heard that the blue light from screens can affect your sleep.\nLisa: Yes, exactly. And I was checking notifications constantly, which was really stressful. Now I only check social media on my laptop once a day.\nAlex: I should probably do something similar. I waste so much time just scrolling through my feed without even thinking about it.\nLisa: It's designed that way, you know. The algorithms are made to keep you engaged as long as possible.\nAlex: That's a bit scary when you think about it. What else have you changed?\nLisa: I started leaving my phone in another room when I'm working or studying. My productivity has improved so much.\nAlex: I've tried that, but I always worry about missing something important.\nLisa: That's what I thought too, but honestly, nothing is that urgent. And if it is, people can call you.\nAlex: True. I think I'm going to try a digital detox this weekend. No phone except for calls and emergencies.\nLisa: That sounds like a great start. Let me know how it goes!\nAlex: I will. Thanks for the inspiration!",
+    "duration": 150,
+    "speed": 0.9,
+    "speakers": ["Alex", "Lisa"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "The average person spends over four hours a day on their phone.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "d2",
+        "text": "I've been trying to cut down on my screen time recently.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d3",
+        "text": "The algorithms are made to keep you engaged as long as possible.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d4",
+        "text": "I started leaving my phone in another room when I'm working.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d5",
+        "text": "Nothing is that urgent, and if it is, people can call you.",
+        "difficulty": "hard"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "How much time does the average person spend on their phone daily?",
+      "options": ["Two hours", "Three hours", "Over four hours", "Five hours"],
+      "answer": "Over four hours",
+      "explanation": "Alex says 'the average person spends over four hours a day on their phone.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Lisa has completely stopped using social media.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Lisa says 'I only check social media on my laptop once a day.' She still uses it, just less often."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What positive change has Lisa noticed since reducing her phone use?",
+      "options": ["She has more friends", "She's sleeping better", "She saved money", "She learned new skills"],
+      "answer": "She's sleeping better",
+      "explanation": "Lisa says 'I've noticed I'm sleeping better.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "According to Lisa, what can affect your sleep?",
+      "options": ["Social media content", "Blue light from screens", "Notification sounds", "WiFi signals"],
+      "answer": "Blue light from screens",
+      "explanation": "Alex mentions 'the blue light from screens can affect your sleep' and Lisa agrees."
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Lisa checks social media on her phone multiple times a day.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Lisa deleted social media apps from her phone and only checks on her laptop once a day."
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What does Lisa say about social media algorithms?",
+      "options": ["They protect your privacy", "They are designed to keep you engaged", "They help you find friends", "They are getting better"],
+      "answer": "They are designed to keep you engaged",
+      "explanation": "Lisa says 'The algorithms are made to keep you engaged as long as possible.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What does Lisa do with her phone when working or studying?",
+      "options": ["Turns it off", "Puts it in silent mode", "Leaves it in another room", "Gives it to a friend"],
+      "answer": "Leaves it in another room",
+      "explanation": "Lisa says 'I started leaving my phone in another room when I'm working or studying.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Alex is worried about missing important messages if he doesn't check his phone.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Alex says 'I always worry about missing something important.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What does Alex decide to try?",
+      "options": ["Delete all social media permanently", "A digital detox this weekend", "Buy a new phone", "Stop using the internet"],
+      "answer": "A digital detox this weekend",
+      "explanation": "Alex says 'I'm going to try a digital detox this weekend.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What will Alex still use his phone for during the detox?",
+      "options": ["Social media only", "Games only", "Calls and emergencies", "Nothing at all"],
+      "answer": "Calls and emergencies",
+      "explanation": "Alex says 'No phone except for calls and emergencies.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What happened to Lisa's productivity when she started leaving her phone in another room?",
+      "answer": "improved",
+      "alternateAnswers": ["It improved", "improved a lot", "got better", "increased"],
+      "explanation": "Lisa says 'My productivity has improved so much.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "Lisa found it easy to stop checking social media on her phone.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Lisa says 'It was hard at first' after deleting social media apps."
+    }
+  ]
+}

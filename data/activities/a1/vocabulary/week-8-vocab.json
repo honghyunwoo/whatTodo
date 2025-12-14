@@ -1,0 +1,323 @@
+{
+  "id": "week-8-vocab",
+  "weekId": "week-8",
+  "type": "vocabulary",
+  "level": "B2",
+  "title": "수동태와 관계대명사 관련 어휘",
+  "description": "수동태와 관계대명사에 자주 사용되는 동사와 표현을 배웁니다.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "write",
+      "pronunciation": "/raɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "쓰다",
+      "example": "The book was written by a famous author.",
+      "exampleMeaning": "그 책은 유명한 작가에 의해 쓰여졌다.",
+      "pastParticiple": "written"
+    },
+    {
+      "id": "w2",
+      "word": "make",
+      "pronunciation": "/meɪk/",
+      "partOfSpeech": "verb",
+      "meaning": "만들다",
+      "example": "This car was made in Japan.",
+      "exampleMeaning": "이 차는 일본에서 만들어졌다.",
+      "pastParticiple": "made"
+    },
+    {
+      "id": "w3",
+      "word": "build",
+      "pronunciation": "/bɪld/",
+      "partOfSpeech": "verb",
+      "meaning": "짓다, 건설하다",
+      "example": "The house will be built next year.",
+      "exampleMeaning": "그 집은 내년에 지어질 것이다.",
+      "pastParticiple": "built"
+    },
+    {
+      "id": "w4",
+      "word": "speak",
+      "pronunciation": "/spiːk/",
+      "partOfSpeech": "verb",
+      "meaning": "말하다",
+      "example": "English is spoken in many countries.",
+      "exampleMeaning": "영어는 많은 나라에서 사용된다.",
+      "pastParticiple": "spoken"
+    },
+    {
+      "id": "w5",
+      "word": "send",
+      "pronunciation": "/send/",
+      "partOfSpeech": "verb",
+      "meaning": "보내다",
+      "example": "The letters have been sent already.",
+      "exampleMeaning": "편지들은 이미 보내졌다.",
+      "pastParticiple": "sent"
+    },
+    {
+      "id": "w6",
+      "word": "find",
+      "pronunciation": "/faɪnd/",
+      "partOfSpeech": "verb",
+      "meaning": "찾다",
+      "example": "The missing keys were found in the car.",
+      "exampleMeaning": "잃어버린 열쇠가 차 안에서 발견되었다.",
+      "pastParticiple": "found"
+    },
+    {
+      "id": "w7",
+      "word": "sell",
+      "pronunciation": "/sel/",
+      "partOfSpeech": "verb",
+      "meaning": "팔다",
+      "example": "The house was sold last month.",
+      "exampleMeaning": "그 집은 지난달에 팔렸다.",
+      "pastParticiple": "sold"
+    },
+    {
+      "id": "w8",
+      "word": "publish",
+      "pronunciation": "/ˈpʌblɪʃ/",
+      "partOfSpeech": "verb",
+      "meaning": "출판하다",
+      "example": "The book was published in 2020.",
+      "exampleMeaning": "그 책은 2020년에 출판되었다.",
+      "pastParticiple": "published"
+    },
+    {
+      "id": "w9",
+      "word": "create",
+      "pronunciation": "/kriˈeɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "창조하다, 만들다",
+      "example": "This design was created by a famous artist.",
+      "exampleMeaning": "이 디자인은 유명한 예술가에 의해 만들어졌다.",
+      "pastParticiple": "created"
+    },
+    {
+      "id": "w10",
+      "word": "design",
+      "pronunciation": "/dɪˈzaɪn/",
+      "partOfSpeech": "verb",
+      "meaning": "디자인하다",
+      "example": "The building was designed by a British architect.",
+      "exampleMeaning": "그 건물은 영국 건축가에 의해 설계되었다.",
+      "pastParticiple": "designed"
+    },
+    {
+      "id": "w11",
+      "word": "direct",
+      "pronunciation": "/dəˈrekt/",
+      "partOfSpeech": "verb",
+      "meaning": "감독하다",
+      "example": "The movie was directed by Steven Spielberg.",
+      "exampleMeaning": "그 영화는 스티븐 스필버그에 의해 감독되었다.",
+      "pastParticiple": "directed"
+    },
+    {
+      "id": "w12",
+      "word": "invent",
+      "pronunciation": "/ɪnˈvent/",
+      "partOfSpeech": "verb",
+      "meaning": "발명하다",
+      "example": "The telephone was invented by Alexander Graham Bell.",
+      "exampleMeaning": "전화기는 알렉산더 그레이엄 벨에 의해 발명되었다.",
+      "pastParticiple": "invented"
+    },
+    {
+      "id": "w13",
+      "word": "discover",
+      "pronunciation": "/dɪˈskʌvər/",
+      "partOfSpeech": "verb",
+      "meaning": "발견하다",
+      "example": "America was discovered by Columbus in 1492.",
+      "exampleMeaning": "아메리카는 1492년 콜럼버스에 의해 발견되었다.",
+      "pastParticiple": "discovered"
+    },
+    {
+      "id": "w14",
+      "word": "who",
+      "pronunciation": "/huː/",
+      "partOfSpeech": "pronoun",
+      "meaning": "~하는 (사람)",
+      "example": "The man who called you is my friend.",
+      "exampleMeaning": "당신에게 전화한 남자는 내 친구다.",
+      "note": "주격 관계대명사"
+    },
+    {
+      "id": "w15",
+      "word": "which",
+      "pronunciation": "/wɪtʃ/",
+      "partOfSpeech": "pronoun",
+      "meaning": "~하는 (사물)",
+      "example": "The book which is on the table is mine.",
+      "exampleMeaning": "테이블 위에 있는 책은 내 것이다.",
+      "note": "관계대명사 (사물)"
+    },
+    {
+      "id": "w16",
+      "word": "that",
+      "pronunciation": "/ðæt/",
+      "partOfSpeech": "pronoun",
+      "meaning": "~하는 (사람/사물)",
+      "example": "This is the car that I bought.",
+      "exampleMeaning": "이것은 내가 산 차다.",
+      "note": "관계대명사 (사람/사물 모두)"
+    },
+    {
+      "id": "w17",
+      "word": "whose",
+      "pronunciation": "/huːz/",
+      "partOfSpeech": "pronoun",
+      "meaning": "~의",
+      "example": "The woman whose car is red lives here.",
+      "exampleMeaning": "차가 빨간색인 여자가 여기 산다.",
+      "note": "소유격 관계대명사"
+    },
+    {
+      "id": "w18",
+      "word": "author",
+      "pronunciation": "/ˈɔːθər/",
+      "partOfSpeech": "noun",
+      "meaning": "작가, 저자",
+      "example": "The author who wrote this book is famous.",
+      "exampleMeaning": "이 책을 쓴 작가는 유명하다."
+    },
+    {
+      "id": "w19",
+      "word": "film",
+      "pronunciation": "/fɪlm/",
+      "partOfSpeech": "noun",
+      "meaning": "영화",
+      "example": "The film that was released yesterday is popular.",
+      "exampleMeaning": "어제 개봉한 영화는 인기가 있다."
+    },
+    {
+      "id": "w20",
+      "word": "architect",
+      "pronunciation": "/ˈɑːrkɪtekt/",
+      "partOfSpeech": "noun",
+      "meaning": "건축가",
+      "example": "The architect whose design won is young.",
+      "exampleMeaning": "디자인이 수상한 건축가는 젊다."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "fill_blank",
+      "question": "The book was _____ by Shakespeare. (write의 과거분사)",
+      "answer": ["written"],
+      "explanation": "'write'의 과거분사는 'written'입니다."
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "This car was _____ in Germany. (make의 과거분사)",
+      "answer": ["made"],
+      "explanation": "'make'의 과거분사는 'made'입니다."
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "What is the past participle of 'build'?",
+      "options": ["builded", "built", "building", "builds"],
+      "answer": "built",
+      "explanation": "'build'의 과거분사는 'built'입니다."
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "English is _____ in many countries. (speak의 과거분사)",
+      "answer": ["spoken"],
+      "explanation": "'speak'의 과거분사는 'spoken'입니다."
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "Which relative pronoun is used for people?",
+      "options": ["which", "who", "whose", "that"],
+      "answer": "who",
+      "explanation": "'who'는 사람을 지칭하는 주격 관계대명사입니다."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "Which relative pronoun shows possession?",
+      "options": ["who", "which", "whose", "that"],
+      "answer": "whose",
+      "explanation": "'whose'는 소유를 나타내는 관계대명사입니다."
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "The letters have been _____. (send의 과거분사)",
+      "answer": ["sent"],
+      "explanation": "'send'의 과거분사는 'sent'입니다."
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "What does 'author' mean?",
+      "options": ["감독", "작가", "건축가", "발명가"],
+      "answer": "작가",
+      "explanation": "'author'는 '작가, 저자'라는 뜻입니다."
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "The house was _____ last month. (sell의 과거분사)",
+      "answer": ["sold"],
+      "explanation": "'sell'의 과거분사는 'sold'입니다."
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "The movie _____ was released is popular.",
+      "options": ["who", "which", "whose", "whom"],
+      "answer": "which",
+      "explanation": "사물(movie)을 지칭하므로 'which'를 사용합니다."
+    },
+    {
+      "id": "ex11",
+      "type": "fill_blank",
+      "question": "The book was _____ in 2020. (publish의 과거분사)",
+      "answer": ["published"],
+      "explanation": "'publish'의 과거분사는 'published'입니다."
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "What is the past participle of 'find'?",
+      "options": ["finded", "found", "finding", "finds"],
+      "answer": "found",
+      "explanation": "'find'의 과거분사는 'found'입니다."
+    },
+    {
+      "id": "ex13",
+      "type": "fill_blank",
+      "question": "The man _____ car is red lives here.",
+      "answer": ["whose"],
+      "explanation": "소유를 나타내므로 'whose'를 사용합니다."
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "What does 'architect' mean?",
+      "options": ["작가", "감독", "건축가", "발명가"],
+      "answer": "건축가",
+      "explanation": "'architect'는 '건축가'라는 뜻입니다."
+    },
+    {
+      "id": "ex15",
+      "type": "fill_blank",
+      "question": "The telephone was _____ by Alexander Graham Bell. (invent의 과거분사)",
+      "answer": ["invented"],
+      "explanation": "'invent'의 과거분사는 'invented'입니다."
+    }
+  ]
+}

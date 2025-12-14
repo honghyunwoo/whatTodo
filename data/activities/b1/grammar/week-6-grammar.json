@@ -1,0 +1,196 @@
+{
+  "id": "week-6-grammar",
+  "weekId": "week-6",
+  "type": "grammar",
+  "level": "B1",
+  "title": "Zero & First Conditionals",
+  "description": "Learn to talk about facts, general truths, and real possibilities using conditional sentences.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Zero Conditional Structure",
+      "explanation": "Use the zero conditional to talk about facts, general truths, and things that always happen. Both parts use present simple.",
+      "structure": "If + present simple, present simple",
+      "examples": [
+        {
+          "sentence": "If you heat water to 100 degrees, it boils.",
+          "translation": "물을 100도로 가열하면 끓어요."
+        },
+        {
+          "sentence": "If students don't study, they usually fail exams.",
+          "translation": "학생들이 공부하지 않으면 보통 시험에 떨어져요."
+        },
+        {
+          "sentence": "Water freezes if the temperature drops below zero.",
+          "translation": "온도가 0도 아래로 떨어지면 물이 얼어요."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "First Conditional Structure",
+      "explanation": "Use the first conditional to talk about real possibilities in the future. Use present simple after 'if' and will/won't in the main clause.",
+      "structure": "If + present simple, will + base verb",
+      "examples": [
+        {
+          "sentence": "If I study hard, I will pass the exam.",
+          "translation": "열심히 공부하면 시험에 통과할 거예요."
+        },
+        {
+          "sentence": "If you don't hurry, you will miss the bus.",
+          "translation": "서두르지 않으면 버스를 놓칠 거예요."
+        },
+        {
+          "sentence": "We will have a picnic if the weather is nice.",
+          "translation": "날씨가 좋으면 피크닉을 할 거예요."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Difference Between Zero and First Conditional",
+      "explanation": "Zero conditional = always true, general facts. First conditional = specific future possibilities that may or may not happen.",
+      "structure": "Zero: fact/always | First: possible future",
+      "examples": [
+        {
+          "sentence": "If you don't eat, you get hungry. (zero - always true)",
+          "translation": "먹지 않으면 배가 고파요. (항상 사실)"
+        },
+        {
+          "sentence": "If you don't eat lunch, you will be hungry later. (first - specific future)",
+          "translation": "점심을 안 먹으면 나중에 배고플 거예요. (특정 미래)"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Unless in Conditionals",
+      "explanation": "'Unless' means 'if not'. It can replace 'if not' in conditional sentences.",
+      "structure": "Unless + affirmative = If + negative",
+      "examples": [
+        {
+          "sentence": "Unless you study, you won't pass. = If you don't study, you won't pass.",
+          "translation": "공부하지 않으면 통과하지 못할 거예요."
+        },
+        {
+          "sentence": "I won't go unless you come with me.",
+          "translation": "당신이 같이 가지 않으면 나는 안 갈 거예요."
+        },
+        {
+          "sentence": "Unless it rains, we will have the event outside.",
+          "translation": "비가 오지 않으면 행사를 야외에서 할 거예요."
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Modals in First Conditional",
+      "explanation": "You can use other modals instead of 'will' in the main clause: can, could, may, might, should.",
+      "structure": "If + present simple, modal + base verb",
+      "examples": [
+        {
+          "sentence": "If you finish early, you can leave.",
+          "translation": "일찍 끝나면 퇴근해도 돼요."
+        },
+        {
+          "sentence": "If it rains, we might cancel the trip.",
+          "translation": "비가 오면 여행을 취소할 수도 있어요."
+        },
+        {
+          "sentence": "If you have any questions, you should ask the teacher.",
+          "translation": "질문이 있으면 선생님께 여쭤봐야 해요."
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "title": "Time Clauses with When/As soon as",
+      "explanation": "Use 'when', 'as soon as', 'before', 'after', 'until' like 'if' - with present simple for future meaning.",
+      "structure": "When/As soon as + present simple, will + base verb",
+      "examples": [
+        {
+          "sentence": "When I graduate, I will look for a job.",
+          "translation": "졸업하면 일자리를 찾을 거예요."
+        },
+        {
+          "sentence": "As soon as class finishes, I will call you.",
+          "translation": "수업이 끝나자마자 전화할게요."
+        },
+        {
+          "sentence": "I will wait until you are ready.",
+          "translation": "당신이 준비될 때까지 기다릴게요."
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "If you _____ ice, it melts.",
+      "options": ["heat", "will heat", "heated", "heating"],
+      "answer": "heat"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "If she studies hard, she _____ (pass) the exam.",
+      "answer": "will pass"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "_____ you don't hurry, you will be late.",
+      "options": ["Unless", "If", "When", "Until"],
+      "answer": "If"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "Unless you _____ (help) me, I won't finish on time.",
+      "answer": "help"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "If it rains tomorrow, we _____ stay home.",
+      "options": ["stay", "will stay", "stayed", "staying"],
+      "answer": "will stay"
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "When I _____ (see) him, I will give him your message.",
+      "answer": "see"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "If you finish your homework, you _____ watch TV.",
+      "options": ["can", "could", "will can", "cans"],
+      "answer": "can"
+    },
+    {
+      "id": "ex8",
+      "type": "transformation",
+      "instruction": "Rewrite using 'unless'",
+      "original": "If you don't practice, you won't improve.",
+      "answer": "Unless you practice, you won't improve."
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "As soon as class _____, I will go to the library.",
+      "options": ["finishes", "will finish", "finished", "finishing"],
+      "answer": "finishes"
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "If you mix yellow and blue, you _____ (get) green.",
+      "answer": "get"
+    }
+  ]
+}

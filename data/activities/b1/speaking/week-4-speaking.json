@@ -1,0 +1,139 @@
+{
+  "id": "week-4-speaking",
+  "weekId": "week-4",
+  "type": "speaking",
+  "level": "B1",
+  "title": "Talking About Technology",
+  "description": "Practice discussing technology use, digital habits, and online experiences.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "I think I spend too much time on my phone every day.",
+      "translation": "저는 매일 휴대폰에 너무 많은 시간을 쓰는 것 같아요.",
+      "tips": "'too much'를 강조해서 과도함을 표현하세요."
+    },
+    {
+      "id": "s2",
+      "text": "Social media can be useful, but it can also be distracting.",
+      "translation": "소셜 미디어는 유용할 수 있지만, 집중을 방해할 수도 있어요.",
+      "tips": "'but'으로 대조되는 두 의견을 연결하세요."
+    },
+    {
+      "id": "s3",
+      "text": "I usually check my emails first thing in the morning.",
+      "translation": "저는 보통 아침에 일어나자마자 이메일을 확인해요.",
+      "tips": "'first thing in the morning'은 '아침에 제일 먼저'라는 관용구예요."
+    },
+    {
+      "id": "s4",
+      "text": "I've been trying to reduce my screen time recently.",
+      "translation": "저는 최근에 화면 시청 시간을 줄이려고 노력하고 있어요.",
+      "tips": "현재완료진행형으로 최근의 지속적인 노력을 표현하세요."
+    },
+    {
+      "id": "s5",
+      "text": "In my opinion, technology has more advantages than disadvantages.",
+      "translation": "제 생각에는 기술은 단점보다 장점이 더 많아요.",
+      "tips": "'In my opinion'으로 의견을 시작하세요."
+    },
+    {
+      "id": "s6",
+      "text": "I couldn't live without my smartphone anymore.",
+      "translation": "이제 스마트폰 없이는 살 수 없을 것 같아요.",
+      "tips": "'couldn't live without'은 필수적임을 표현하는 과장 표현이에요."
+    },
+    {
+      "id": "s7",
+      "text": "Online shopping has completely changed the way I buy things.",
+      "translation": "온라인 쇼핑이 제가 물건을 사는 방식을 완전히 바꿨어요.",
+      "tips": "'the way I...'로 방식이나 방법을 설명하세요."
+    },
+    {
+      "id": "s8",
+      "text": "I prefer watching videos online rather than on TV.",
+      "translation": "저는 TV보다 온라인으로 영상을 보는 것을 선호해요.",
+      "tips": "'prefer A rather than B'로 선호도를 표현하세요."
+    },
+    {
+      "id": "s9",
+      "text": "My password was changed because someone tried to hack my account.",
+      "translation": "누군가 제 계정을 해킹하려고 해서 비밀번호가 변경되었어요.",
+      "tips": "수동태를 사용하여 '비밀번호가 변경되었다'고 표현하세요."
+    },
+    {
+      "id": "s10",
+      "text": "I think privacy is becoming a bigger concern these days.",
+      "translation": "요즘 프라이버시가 더 큰 문제가 되고 있는 것 같아요.",
+      "tips": "'is becoming'으로 변화 중인 상황을 표현하세요."
+    },
+    {
+      "id": "s11",
+      "text": "Have you ever deleted an app because it was too addictive?",
+      "translation": "너무 중독성이 강해서 앱을 삭제한 적 있어요?",
+      "tips": "'Have you ever'로 경험을 물어보세요. 의문문 억양으로 끝내세요."
+    },
+    {
+      "id": "s12",
+      "text": "The latest update has fixed most of the problems.",
+      "translation": "최신 업데이트가 대부분의 문제를 해결했어요.",
+      "tips": "현재완료로 최근 완료된 변화를 설명하세요."
+    }
+  ],
+
+  "dialoguePractice": {
+    "title": "Discussing Social Media",
+    "roles": ["Chris", "Dana"],
+    "lines": [
+      {"role": "Chris", "text": "How much time do you spend on social media every day?"},
+      {"role": "Dana", "text": "Probably about two hours. Maybe more on weekends. What about you?"},
+      {"role": "Chris", "text": "I've been trying to cut down. I think I was spending over three hours a day."},
+      {"role": "Dana", "text": "That's a lot. What made you decide to reduce it?"},
+      {"role": "Chris", "text": "I noticed it was affecting my sleep. I was scrolling in bed until midnight."},
+      {"role": "Dana", "text": "I have the same problem. I've heard that the blue light isn't good for you."},
+      {"role": "Chris", "text": "Exactly. So now I put my phone in another room before bed."},
+      {"role": "Dana", "text": "That's a good idea. Has it helped?"},
+      {"role": "Chris", "text": "Definitely. I'm sleeping much better now."},
+      {"role": "Dana", "text": "Maybe I should try that too. It sounds like it's worth it."}
+    ]
+  },
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation & Intonation",
+      "items": [
+        "Did you pronounce technology words clearly (algorithm, notification, etc.)?",
+        "Did you use appropriate stress in compound words (smartphone, password)?",
+        "Did you use rising intonation for questions?",
+        "Did you speak at a natural pace?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you express opinions smoothly?",
+        "Did you use passive voice correctly?",
+        "Did you complete sentences without long pauses?",
+        "Did you practice the dialogue with natural rhythm?"
+      ]
+    },
+    {
+      "category": "Grammar Accuracy",
+      "items": [
+        "Did you use passive voice correctly?",
+        "Did you use present perfect for recent changes?",
+        "Did you use comparatives correctly (more than, better)?",
+        "Did you use appropriate tenses?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Did you express opinions clearly?",
+        "Did you use appropriate vocabulary for technology?",
+        "Did you make logical arguments for/against technology?",
+        "Did you engage naturally in the dialogue?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "id": "week-3-vocab",
+  "weekId": "week-3",
+  "type": "vocabulary",
+  "level": "B1",
+  "title": "Relationships & Communication",
+  "description": "Learn vocabulary for talking about relationships, emotions, and communication.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "relationship",
+      "pronunciation": "/rɪˈleɪʃnʃɪp/",
+      "partOfSpeech": "noun",
+      "meaning": "the way two people or things are connected",
+      "translation": "관계",
+      "example": "They have a great relationship with their neighbors.",
+      "exampleTranslation": "그들은 이웃과 좋은 관계를 맺고 있어요."
+    },
+    {
+      "id": "w2",
+      "word": "trust",
+      "pronunciation": "/trʌst/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "belief that someone is honest and reliable",
+      "translation": "신뢰; 신뢰하다",
+      "example": "Trust is essential in any friendship.",
+      "exampleTranslation": "신뢰는 어떤 우정에서도 필수적이에요."
+    },
+    {
+      "id": "w3",
+      "word": "support",
+      "pronunciation": "/səˈpɔːt/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to help or encourage someone",
+      "translation": "지지하다; 지원",
+      "example": "My family has always supported my decisions.",
+      "exampleTranslation": "제 가족은 항상 제 결정을 지지해 왔어요."
+    },
+    {
+      "id": "w4",
+      "word": "apologize",
+      "pronunciation": "/əˈpɒlədʒaɪz/",
+      "partOfSpeech": "verb",
+      "meaning": "to say sorry for something you did wrong",
+      "translation": "사과하다",
+      "example": "I apologize for being late.",
+      "exampleTranslation": "늦어서 죄송해요."
+    },
+    {
+      "id": "w5",
+      "word": "forgive",
+      "pronunciation": "/fəˈɡɪv/",
+      "partOfSpeech": "verb",
+      "meaning": "to stop being angry with someone",
+      "translation": "용서하다",
+      "example": "I've forgiven him for what he said.",
+      "exampleTranslation": "그가 한 말에 대해 용서했어요."
+    },
+    {
+      "id": "w6",
+      "word": "argue",
+      "pronunciation": "/ˈɑːɡjuː/",
+      "partOfSpeech": "verb",
+      "meaning": "to disagree or fight with words",
+      "translation": "논쟁하다, 다투다",
+      "example": "They often argue about money.",
+      "exampleTranslation": "그들은 종종 돈 문제로 다퉈요."
+    },
+    {
+      "id": "w7",
+      "word": "compromise",
+      "pronunciation": "/ˈkɒmprəmaɪz/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "an agreement where both sides give up something",
+      "translation": "타협",
+      "example": "A good relationship requires compromise.",
+      "exampleTranslation": "좋은 관계는 타협이 필요해요."
+    },
+    {
+      "id": "w8",
+      "word": "jealous",
+      "pronunciation": "/ˈdʒeləs/",
+      "partOfSpeech": "adjective",
+      "meaning": "feeling unhappy because someone has something you want",
+      "translation": "질투하는",
+      "example": "He gets jealous when she talks to other people.",
+      "exampleTranslation": "그는 그녀가 다른 사람들과 얘기하면 질투해요."
+    },
+    {
+      "id": "w9",
+      "word": "loyal",
+      "pronunciation": "/ˈlɔɪəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "always supporting someone or something",
+      "translation": "충실한, 충성스러운",
+      "example": "She's a loyal friend who's always there for me.",
+      "exampleTranslation": "그녀는 항상 곁에 있어주는 충실한 친구예요."
+    },
+    {
+      "id": "w10",
+      "word": "honest",
+      "pronunciation": "/ˈɒnɪst/",
+      "partOfSpeech": "adjective",
+      "meaning": "always telling the truth",
+      "translation": "정직한",
+      "example": "Being honest is the foundation of a good relationship.",
+      "exampleTranslation": "정직함은 좋은 관계의 기초예요."
+    },
+    {
+      "id": "w11",
+      "word": "misunderstanding",
+      "pronunciation": "/ˌmɪsʌndəˈstændɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "a failure to understand correctly",
+      "translation": "오해",
+      "example": "The argument was just a misunderstanding.",
+      "exampleTranslation": "그 다툼은 그냥 오해였어요."
+    },
+    {
+      "id": "w12",
+      "word": "appreciate",
+      "pronunciation": "/əˈpriːʃieɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "to be grateful for something",
+      "translation": "감사하다, 고마워하다",
+      "example": "I really appreciate your help.",
+      "exampleTranslation": "당신의 도움에 정말 감사해요."
+    },
+    {
+      "id": "w13",
+      "word": "respect",
+      "pronunciation": "/rɪˈspekt/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "admiration for someone",
+      "translation": "존경; 존경하다",
+      "example": "Mutual respect is important in any relationship.",
+      "exampleTranslation": "상호 존중은 어떤 관계에서도 중요해요."
+    },
+    {
+      "id": "w14",
+      "word": "communicate",
+      "pronunciation": "/kəˈmjuːnɪkeɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "to share information or feelings",
+      "translation": "소통하다",
+      "example": "It's important to communicate openly.",
+      "exampleTranslation": "솔직하게 소통하는 것이 중요해요."
+    },
+    {
+      "id": "w15",
+      "word": "criticize",
+      "pronunciation": "/ˈkrɪtɪsaɪz/",
+      "partOfSpeech": "verb",
+      "meaning": "to say negative things about someone or something",
+      "translation": "비판하다",
+      "example": "Try not to criticize others too harshly.",
+      "exampleTranslation": "다른 사람을 너무 가혹하게 비판하지 마세요."
+    },
+    {
+      "id": "w16",
+      "word": "encourage",
+      "pronunciation": "/ɪnˈkʌrɪdʒ/",
+      "partOfSpeech": "verb",
+      "meaning": "to give confidence or hope to someone",
+      "translation": "격려하다",
+      "example": "My parents always encourage me to follow my dreams.",
+      "exampleTranslation": "부모님은 항상 꿈을 좇으라고 격려해 주세요."
+    },
+    {
+      "id": "w17",
+      "word": "patient",
+      "pronunciation": "/ˈpeɪʃnt/",
+      "partOfSpeech": "adjective",
+      "meaning": "able to wait without getting upset",
+      "translation": "인내심 있는",
+      "example": "You need to be patient with children.",
+      "exampleTranslation": "아이들에게는 인내심이 필요해요."
+    },
+    {
+      "id": "w18",
+      "word": "considerate",
+      "pronunciation": "/kənˈsɪdərət/",
+      "partOfSpeech": "adjective",
+      "meaning": "thinking about other people's feelings",
+      "translation": "사려 깊은",
+      "example": "It was considerate of you to help.",
+      "exampleTranslation": "도와주시다니 사려 깊으시네요."
+    },
+    {
+      "id": "w19",
+      "word": "confide",
+      "pronunciation": "/kənˈfaɪd/",
+      "partOfSpeech": "verb",
+      "meaning": "to tell secrets to someone you trust",
+      "translation": "비밀을 털어놓다",
+      "example": "I can confide in her about anything.",
+      "exampleTranslation": "그녀에게 무엇이든 털어놓을 수 있어요."
+    },
+    {
+      "id": "w20",
+      "word": "bond",
+      "pronunciation": "/bɒnd/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "a strong connection between people",
+      "translation": "유대, 결속",
+      "example": "We have a strong bond because we grew up together.",
+      "exampleTranslation": "함께 자라서 우리는 강한 유대를 갖고 있어요."
+    },
+    {
+      "id": "w21",
+      "word": "maintain",
+      "pronunciation": "/meɪnˈteɪn/",
+      "partOfSpeech": "verb",
+      "meaning": "to keep something in good condition",
+      "translation": "유지하다",
+      "example": "It's hard to maintain friendships when you live far away.",
+      "exampleTranslation": "멀리 살면 우정을 유지하기 어려워요."
+    },
+    {
+      "id": "w22",
+      "word": "express",
+      "pronunciation": "/ɪkˈspres/",
+      "partOfSpeech": "verb",
+      "meaning": "to show feelings through words or actions",
+      "translation": "표현하다",
+      "example": "It's important to express your feelings.",
+      "exampleTranslation": "감정을 표현하는 것이 중요해요."
+    },
+    {
+      "id": "w23",
+      "word": "empathy",
+      "pronunciation": "/ˈempəθi/",
+      "partOfSpeech": "noun",
+      "meaning": "the ability to understand other people's feelings",
+      "translation": "공감",
+      "example": "Empathy is key to good communication.",
+      "exampleTranslation": "공감은 좋은 소통의 핵심이에요."
+    },
+    {
+      "id": "w24",
+      "word": "resolve",
+      "pronunciation": "/rɪˈzɒlv/",
+      "partOfSpeech": "verb",
+      "meaning": "to find a solution to a problem",
+      "translation": "해결하다",
+      "example": "They managed to resolve their differences.",
+      "exampleTranslation": "그들은 의견 차이를 해결했어요."
+    },
+    {
+      "id": "w25",
+      "word": "reliable",
+      "pronunciation": "/rɪˈlaɪəbl/",
+      "partOfSpeech": "adjective",
+      "meaning": "can be trusted to do what is needed",
+      "translation": "믿을 수 있는",
+      "example": "He's a reliable person who always keeps his promises.",
+      "exampleTranslation": "그는 항상 약속을 지키는 믿을 수 있는 사람이에요."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "_____ is essential in any good friendship.",
+      "options": ["Jealousy", "Trust", "Argument", "Criticism"],
+      "answer": "Trust"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "I need to _____ for my mistake yesterday.",
+      "answer": "apologize"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "The argument was just a _____. We didn't really disagree.",
+      "options": ["bond", "compromise", "misunderstanding", "empathy"],
+      "answer": "misunderstanding"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "Good relationships require _____ - both people need to give and take.",
+      "answer": "compromise"
+    },
+    {
+      "id": "ex5",
+      "type": "matching",
+      "pairs": [
+        {"word": "loyal", "match": "always supporting"},
+        {"word": "honest", "match": "telling the truth"},
+        {"word": "patient", "match": "able to wait"},
+        {"word": "considerate", "match": "thinking of others"}
+      ]
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "I really _____ your help with the project.",
+      "options": ["criticize", "appreciate", "argue", "jealous"],
+      "answer": "appreciate"
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "It's important to _____ your feelings clearly.",
+      "answer": "express"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "He always _____ me to try new things.",
+      "options": ["criticizes", "encourages", "argues", "forgives"],
+      "answer": "encourages"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "I can _____ in her about anything - she keeps all my secrets.",
+      "answer": "confide"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "We have a strong _____ because we've been friends since childhood.",
+      "options": ["argument", "bond", "jealousy", "criticism"],
+      "answer": "bond"
+    }
+  ]
+}

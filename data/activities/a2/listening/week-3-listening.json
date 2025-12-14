@@ -1,0 +1,34 @@
+{
+  "id": "week-3-listening",
+  "weekId": "week-3",
+  "type": "listening",
+  "level": "A2",
+  "title": "Ordering at a Restaurant",
+  "description": "Listen to a conversation between a customer and a waiter at a restaurant.",
+
+  "audio": {
+    "text": "Waiter: Good evening. Do you have a reservation? [PAUSE] Customer: Yes, a table for two under the name Kim. [PAUSE] Waiter: Ah yes, right this way. Here's your menu. Can I get you something to drink first? [PAUSE] Customer: I'll have a glass of red wine, and water for my friend. [PAUSE] Waiter: Of course. Are you ready to order food, or do you need a few minutes? [PAUSE] Customer: We're ready. What do you recommend? [PAUSE] Waiter: Our grilled salmon is very popular today. [PAUSE] Customer: That sounds good. I'll have the salmon. And she'll have the pasta. [PAUSE] Waiter: How would you like your salmon? [PAUSE] Customer: Medium, please. And is the pasta spicy? [PAUSE] Waiter: No, it's quite mild. Would you like any appetizers? [PAUSE] Customer: Yes, we'll share the soup of the day. [PAUSE] Waiter: Excellent choice. Your food will be ready in about 20 minutes.",
+    "speed": 0.8
+  },
+
+  "dictation": {
+    "targetSentences": [
+      "Do you have a reservation?",
+      "What do you recommend?",
+      "How would you like your salmon?"
+    ]
+  },
+
+  "questions": [
+    {"id": "q1", "type": "short_answer", "question": "How many people is the reservation for?", "answer": "2", "explanation": "The customer said 'a table for two.'"},
+    {"id": "q2", "type": "multiple_choice", "question": "What name is the reservation under?", "options": ["Kim", "Lee", "Park", "Choi"], "answer": "Kim", "explanation": "The reservation is under the name Kim."},
+    {"id": "q3", "type": "multiple_choice", "question": "What drink did the customer order for themselves?", "options": ["Red wine", "White wine", "Water", "Coffee"], "answer": "Red wine", "explanation": "The customer ordered a glass of red wine."},
+    {"id": "q4", "type": "multiple_choice", "question": "What did the waiter recommend?", "options": ["Grilled salmon", "Pasta", "Soup", "Steak"], "answer": "Grilled salmon", "explanation": "The waiter recommended the grilled salmon."},
+    {"id": "q5", "type": "multiple_choice", "question": "What did the customer's friend order?", "options": ["Pasta", "Salmon", "Soup", "Salad"], "answer": "Pasta", "explanation": "The friend ordered the pasta."},
+    {"id": "q6", "type": "multiple_choice", "question": "How did the customer want their salmon cooked?", "options": ["Medium", "Well-done", "Rare", "Medium rare"], "answer": "Medium", "explanation": "The customer asked for medium."},
+    {"id": "q7", "type": "true_false", "question": "The pasta is spicy.", "options": ["True", "False"], "answer": "False", "explanation": "The waiter said it's quite mild."},
+    {"id": "q8", "type": "multiple_choice", "question": "What appetizer did they order?", "options": ["Soup of the day", "Salad", "Bread", "No appetizer"], "answer": "Soup of the day", "explanation": "They ordered the soup of the day to share."},
+    {"id": "q9", "type": "short_answer", "question": "How long will the food take? (number only, in minutes)", "answer": "20", "explanation": "The food will be ready in about 20 minutes."},
+    {"id": "q10", "type": "true_false", "question": "They will each have their own soup.", "options": ["True", "False"], "answer": "False", "explanation": "They said they'll share the soup."}
+  ]
+}

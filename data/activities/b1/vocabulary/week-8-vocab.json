@@ -1,0 +1,333 @@
+{
+  "id": "week-8-vocab",
+  "weekId": "week-8",
+  "type": "vocabulary",
+  "level": "B1",
+  "title": "Dreams & Goals",
+  "description": "Learn vocabulary for talking about ambitions, wishes, and imaginary situations.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "ambition",
+      "pronunciation": "/æmˈbɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "a strong desire to achieve something",
+      "translation": "야망, 포부",
+      "example": "Her ambition is to become a doctor.",
+      "exampleTranslation": "그녀의 꿈은 의사가 되는 거예요."
+    },
+    {
+      "id": "w2",
+      "word": "aspiration",
+      "pronunciation": "/ˌæspəˈreɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "a hope or dream of achieving something",
+      "translation": "열망, 포부",
+      "example": "Many students have aspirations of studying abroad.",
+      "exampleTranslation": "많은 학생들이 해외 유학에 대한 열망이 있어요."
+    },
+    {
+      "id": "w3",
+      "word": "accomplish",
+      "pronunciation": "/əˈkʌmplɪʃ/",
+      "partOfSpeech": "verb",
+      "meaning": "to succeed in doing something",
+      "translation": "성취하다",
+      "example": "She accomplished all her goals before turning 30.",
+      "exampleTranslation": "그녀는 30살이 되기 전에 모든 목표를 이뤘어요."
+    },
+    {
+      "id": "w4",
+      "word": "pursue",
+      "pronunciation": "/pəˈsjuː/",
+      "partOfSpeech": "verb",
+      "meaning": "to try to achieve over time",
+      "translation": "추구하다",
+      "example": "He decided to pursue his dream of being a musician.",
+      "exampleTranslation": "그는 음악가가 되겠다는 꿈을 추구하기로 했어요."
+    },
+    {
+      "id": "w5",
+      "word": "determination",
+      "pronunciation": "/dɪˌtɜːmɪˈneɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "the quality of continuing despite difficulties",
+      "translation": "결단력, 결심",
+      "example": "With determination, you can achieve anything.",
+      "exampleTranslation": "결단력이 있으면 무엇이든 이룰 수 있어요."
+    },
+    {
+      "id": "w6",
+      "word": "passion",
+      "pronunciation": "/ˈpæʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "a strong feeling of enthusiasm",
+      "translation": "열정",
+      "example": "Her passion for music started when she was young.",
+      "exampleTranslation": "음악에 대한 그녀의 열정은 어렸을 때 시작되었어요."
+    },
+    {
+      "id": "w7",
+      "word": "potential",
+      "pronunciation": "/pəˈtenʃl/",
+      "partOfSpeech": "noun/adjective",
+      "meaning": "the ability to develop in the future",
+      "translation": "잠재력; 잠재적인",
+      "example": "Everyone has the potential to succeed.",
+      "exampleTranslation": "모든 사람은 성공할 잠재력이 있어요."
+    },
+    {
+      "id": "w8",
+      "word": "realistic",
+      "pronunciation": "/ˌriːəˈlɪstɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "based on what is possible",
+      "translation": "현실적인",
+      "example": "It's important to set realistic goals.",
+      "exampleTranslation": "현실적인 목표를 세우는 것이 중요해요."
+    },
+    {
+      "id": "w9",
+      "word": "imaginary",
+      "pronunciation": "/ɪˈmædʒɪnəri/",
+      "partOfSpeech": "adjective",
+      "meaning": "existing only in the mind",
+      "translation": "상상의, 가상의",
+      "example": "Children often have imaginary friends.",
+      "exampleTranslation": "아이들은 종종 상상 속 친구가 있어요."
+    },
+    {
+      "id": "w10",
+      "word": "hypothetical",
+      "pronunciation": "/ˌhaɪpəˈθetɪkl/",
+      "partOfSpeech": "adjective",
+      "meaning": "imagined or suggested but not real",
+      "translation": "가정의, 가설의",
+      "example": "Let's discuss a hypothetical situation.",
+      "exampleTranslation": "가상의 상황에 대해 이야기해 봐요."
+    },
+    {
+      "id": "w11",
+      "word": "opportunity",
+      "pronunciation": "/ˌɒpəˈtjuːnɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "a chance to do something",
+      "translation": "기회",
+      "example": "This job is a great opportunity for growth.",
+      "exampleTranslation": "이 일은 성장을 위한 좋은 기회예요."
+    },
+    {
+      "id": "w12",
+      "word": "obstacle",
+      "pronunciation": "/ˈɒbstəkl/",
+      "partOfSpeech": "noun",
+      "meaning": "something that blocks your progress",
+      "translation": "장애물",
+      "example": "Don't let obstacles stop you from pursuing your dreams.",
+      "exampleTranslation": "장애물이 꿈을 추구하는 것을 막지 못하게 하세요."
+    },
+    {
+      "id": "w13",
+      "word": "sacrifice",
+      "pronunciation": "/ˈsækrɪfaɪs/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to give up something for something else",
+      "translation": "희생하다; 희생",
+      "example": "Success often requires sacrifice.",
+      "exampleTranslation": "성공은 종종 희생을 필요로 해요."
+    },
+    {
+      "id": "w14",
+      "word": "fulfill",
+      "pronunciation": "/fʊlˈfɪl/",
+      "partOfSpeech": "verb",
+      "meaning": "to achieve or realize something",
+      "translation": "이루다, 실현하다",
+      "example": "I want to fulfill my potential.",
+      "exampleTranslation": "잠재력을 발휘하고 싶어요."
+    },
+    {
+      "id": "w15",
+      "word": "regret",
+      "pronunciation": "/rɪˈɡret/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to feel sorry about something",
+      "translation": "후회하다; 후회",
+      "example": "I don't want to regret not trying.",
+      "exampleTranslation": "시도하지 않은 것을 후회하고 싶지 않아요."
+    },
+    {
+      "id": "w16",
+      "word": "risk",
+      "pronunciation": "/rɪsk/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "the possibility of something bad happening",
+      "translation": "위험; 위험을 무릅쓰다",
+      "example": "Sometimes you have to take risks to succeed.",
+      "exampleTranslation": "때때로 성공하려면 위험을 감수해야 해요."
+    },
+    {
+      "id": "w17",
+      "word": "courage",
+      "pronunciation": "/ˈkʌrɪdʒ/",
+      "partOfSpeech": "noun",
+      "meaning": "the ability to do something difficult or dangerous",
+      "translation": "용기",
+      "example": "It takes courage to follow your dreams.",
+      "exampleTranslation": "꿈을 따르려면 용기가 필요해요."
+    },
+    {
+      "id": "w18",
+      "word": "inspire",
+      "pronunciation": "/ɪnˈspaɪə/",
+      "partOfSpeech": "verb",
+      "meaning": "to make someone want to do something",
+      "translation": "영감을 주다",
+      "example": "Her story inspired me to start my own business.",
+      "exampleTranslation": "그녀의 이야기가 나에게 사업을 시작할 영감을 줬어요."
+    },
+    {
+      "id": "w19",
+      "word": "motivated",
+      "pronunciation": "/ˈməʊtɪveɪtɪd/",
+      "partOfSpeech": "adjective",
+      "meaning": "having a strong reason to do something",
+      "translation": "동기 부여된",
+      "example": "I feel more motivated when I have clear goals.",
+      "exampleTranslation": "명확한 목표가 있으면 더 동기 부여가 돼요."
+    },
+    {
+      "id": "w20",
+      "word": "achieve",
+      "pronunciation": "/əˈtʃiːv/",
+      "partOfSpeech": "verb",
+      "meaning": "to succeed in reaching a goal",
+      "translation": "달성하다",
+      "example": "She achieved her dream of becoming a pilot.",
+      "exampleTranslation": "그녀는 조종사가 되겠다는 꿈을 이뤘어요."
+    },
+    {
+      "id": "w21",
+      "word": "wealthy",
+      "pronunciation": "/ˈwelθi/",
+      "partOfSpeech": "adjective",
+      "meaning": "having a lot of money",
+      "translation": "부유한",
+      "example": "If I were wealthy, I would travel the world.",
+      "exampleTranslation": "부유하다면 세계 여행을 할 텐데요."
+    },
+    {
+      "id": "w22",
+      "word": "fortunate",
+      "pronunciation": "/ˈfɔːtʃənət/",
+      "partOfSpeech": "adjective",
+      "meaning": "lucky",
+      "translation": "운이 좋은",
+      "example": "I feel fortunate to have such supportive friends.",
+      "exampleTranslation": "이렇게 도움을 주는 친구들이 있어서 운이 좋아요."
+    },
+    {
+      "id": "w23",
+      "word": "priority",
+      "pronunciation": "/praɪˈɒrɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "something that is more important than others",
+      "translation": "우선순위",
+      "example": "Health should be your top priority.",
+      "exampleTranslation": "건강이 최우선이 되어야 해요."
+    },
+    {
+      "id": "w24",
+      "word": "setback",
+      "pronunciation": "/ˈsetbæk/",
+      "partOfSpeech": "noun",
+      "meaning": "a problem that delays progress",
+      "translation": "차질, 좌절",
+      "example": "Don't let setbacks discourage you.",
+      "exampleTranslation": "좌절로 인해 낙담하지 마세요."
+    },
+    {
+      "id": "w25",
+      "word": "vision",
+      "pronunciation": "/ˈvɪʒn/",
+      "partOfSpeech": "noun",
+      "meaning": "an idea about the future",
+      "translation": "비전",
+      "example": "She has a clear vision for her future.",
+      "exampleTranslation": "그녀는 미래에 대한 명확한 비전이 있어요."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "Her _____ is to become an astronaut one day.",
+      "options": ["obstacle", "ambition", "setback", "sacrifice"],
+      "answer": "ambition"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "You need _____ to face your fears.",
+      "answer": "courage"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "He decided to _____ his dream of becoming an artist.",
+      "options": ["regret", "pursue", "sacrifice", "risk"],
+      "answer": "pursue"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "Success often requires hard work and _____.",
+      "answer": "determination"
+    },
+    {
+      "id": "ex5",
+      "type": "matching",
+      "pairs": [
+        {"word": "accomplish", "match": "to successfully complete"},
+        {"word": "inspire", "match": "to motivate someone"},
+        {"word": "obstacle", "match": "something that blocks progress"},
+        {"word": "fulfill", "match": "to achieve or realize"}
+      ]
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "It's important to set _____ goals that you can actually achieve.",
+      "options": ["imaginary", "hypothetical", "realistic", "wealthy"],
+      "answer": "realistic"
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "Everyone has the _____ to succeed if they work hard.",
+      "answer": "potential"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "I don't want to _____ not taking this opportunity.",
+      "options": ["inspire", "pursue", "regret", "achieve"],
+      "answer": "regret"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "Her _____ for cooking inspired her to open a restaurant.",
+      "answer": "passion"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "Don't let _____ discourage you from pursuing your dreams.",
+      "options": ["visions", "priorities", "setbacks", "opportunities"],
+      "answer": "setbacks"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "week-4-vocab",
+  "weekId": "week-4",
+  "type": "vocabulary",
+  "level": "A2",
+  "title": "Health & Body",
+  "description": "Learn vocabulary about health, body parts, and visiting the doctor.",
+
+  "words": [
+    {"id": "w1", "word": "Headache", "pronunciation": "/ˈhedeɪk/", "partOfSpeech": "noun", "meaning": "두통", "example": "I have a terrible headache.", "exampleMeaning": "심한 두통이 있습니다."},
+    {"id": "w2", "word": "Fever", "pronunciation": "/ˈfiːvər/", "partOfSpeech": "noun", "meaning": "열", "example": "She has a high fever.", "exampleMeaning": "그녀는 고열이 있습니다."},
+    {"id": "w3", "word": "Stomachache", "pronunciation": "/ˈstʌməkeɪk/", "partOfSpeech": "noun", "meaning": "복통", "example": "I got a stomachache after eating.", "exampleMeaning": "식사 후 복통이 생겼습니다."},
+    {"id": "w4", "word": "Cough", "pronunciation": "/kɔːf/", "partOfSpeech": "noun/verb", "meaning": "기침(하다)", "example": "I can't stop coughing.", "exampleMeaning": "기침이 멈추지 않습니다."},
+    {"id": "w5", "word": "Sore throat", "pronunciation": "/sɔːr θroʊt/", "partOfSpeech": "noun", "meaning": "목이 아픔", "example": "I have a sore throat.", "exampleMeaning": "목이 아픕니다."},
+    {"id": "w6", "word": "Dizzy", "pronunciation": "/ˈdɪzi/", "partOfSpeech": "adjective", "meaning": "어지러운", "example": "I feel dizzy when I stand up.", "exampleMeaning": "일어서면 어지럽습니다."},
+    {"id": "w7", "word": "Medicine", "pronunciation": "/ˈmedɪsɪn/", "partOfSpeech": "noun", "meaning": "약", "example": "Take this medicine three times a day.", "exampleMeaning": "이 약을 하루에 세 번 드세요."},
+    {"id": "w8", "word": "Pharmacy", "pronunciation": "/ˈfɑːrməsi/", "partOfSpeech": "noun", "meaning": "약국", "example": "There's a pharmacy across the street.", "exampleMeaning": "길 건너에 약국이 있습니다."},
+    {"id": "w9", "word": "Prescription", "pronunciation": "/prɪˈskrɪpʃən/", "partOfSpeech": "noun", "meaning": "처방전", "example": "You need a prescription for this medicine.", "exampleMeaning": "이 약에는 처방전이 필요합니다."},
+    {"id": "w10", "word": "Symptoms", "pronunciation": "/ˈsɪmptəmz/", "partOfSpeech": "noun", "meaning": "증상", "example": "What symptoms do you have?", "exampleMeaning": "어떤 증상이 있으신가요?"},
+    {"id": "w11", "word": "Appointment", "pronunciation": "/əˈpɔɪntmənt/", "partOfSpeech": "noun", "meaning": "예약", "example": "I have a doctor's appointment.", "exampleMeaning": "병원 예약이 있습니다."},
+    {"id": "w12", "word": "Emergency", "pronunciation": "/ɪˈmɜːrdʒənsi/", "partOfSpeech": "noun", "meaning": "응급 상황", "example": "Call 911 in an emergency.", "exampleMeaning": "응급 상황에는 911에 전화하세요."},
+    {"id": "w13", "word": "Injury", "pronunciation": "/ˈɪndʒəri/", "partOfSpeech": "noun", "meaning": "부상", "example": "She has a leg injury.", "exampleMeaning": "그녀는 다리 부상이 있습니다."},
+    {"id": "w14", "word": "Rest", "pronunciation": "/rest/", "partOfSpeech": "noun/verb", "meaning": "휴식(하다)", "example": "You need to rest for a few days.", "exampleMeaning": "며칠 쉬어야 합니다."},
+    {"id": "w15", "word": "Sneeze", "pronunciation": "/sniːz/", "partOfSpeech": "verb/noun", "meaning": "재채기(하다)", "example": "I keep sneezing.", "exampleMeaning": "계속 재채기가 납니다."},
+    {"id": "w16", "word": "Allergies", "pronunciation": "/ˈælədʒiz/", "partOfSpeech": "noun", "meaning": "알레르기", "example": "I have seasonal allergies.", "exampleMeaning": "계절성 알레르기가 있습니다."},
+    {"id": "w17", "word": "Pain", "pronunciation": "/peɪn/", "partOfSpeech": "noun", "meaning": "통증", "example": "I have pain in my back.", "exampleMeaning": "허리에 통증이 있습니다."},
+    {"id": "w18", "word": "Flu", "pronunciation": "/fluː/", "partOfSpeech": "noun", "meaning": "독감", "example": "Many people have the flu this winter.", "exampleMeaning": "이번 겨울에 많은 사람들이 독감에 걸렸습니다."},
+    {"id": "w19", "word": "Blood pressure", "pronunciation": "/blʌd ˈpreʃər/", "partOfSpeech": "noun", "meaning": "혈압", "example": "Your blood pressure is normal.", "exampleMeaning": "혈압이 정상입니다."},
+    {"id": "w20", "word": "Temperature", "pronunciation": "/ˈtemprətʃər/", "partOfSpeech": "noun", "meaning": "체온", "example": "Let me check your temperature.", "exampleMeaning": "체온을 재 보겠습니다."},
+    {"id": "w21", "word": "Bandage", "pronunciation": "/ˈbændɪdʒ/", "partOfSpeech": "noun", "meaning": "붕대", "example": "Put a bandage on the cut.", "exampleMeaning": "상처에 붕대를 감으세요."},
+    {"id": "w22", "word": "Recovery", "pronunciation": "/rɪˈkʌvəri/", "partOfSpeech": "noun", "meaning": "회복", "example": "We wish you a speedy recovery.", "exampleMeaning": "빠른 회복을 바랍니다."}
+  ],
+
+  "exercises": [
+    {"id": "ex1", "type": "multiple_choice", "question": "Where do you buy medicine?", "options": ["Pharmacy", "Restaurant", "School", "Bank"], "answer": "Pharmacy", "explanation": "A pharmacy sells medicine."},
+    {"id": "ex2", "type": "fill_blank", "question": "I have a _____ and can't talk well. (sore throat)", "answer": ["sore throat"], "explanation": "A sore throat makes it hard to talk."},
+    {"id": "ex3", "type": "multiple_choice", "question": "What is a high body temperature called?", "options": ["Fever", "Pain", "Injury", "Cough"], "answer": "Fever", "explanation": "A fever is when your body temperature is high."},
+    {"id": "ex4", "type": "fill_blank", "question": "I feel _____ when I stand up quickly. (dizzy)", "answer": ["dizzy"], "explanation": "Dizzy means feeling unsteady."},
+    {"id": "ex5", "type": "matching", "question": "Match with Korean:", "options": ["Headache", "Stomachache", "Medicine", "Rest"], "answer": ["두통", "복통", "약", "휴식"], "explanation": "Match health terms with Korean meanings."},
+    {"id": "ex6", "type": "multiple_choice", "question": "What do you call unexpected medical situations?", "options": ["Emergency", "Appointment", "Recovery", "Prescription"], "answer": "Emergency", "explanation": "An emergency is urgent and unexpected."},
+    {"id": "ex7", "type": "fill_blank", "question": "You need a _____ from the doctor to get this medicine. (prescription)", "answer": ["prescription"], "explanation": "A prescription is a doctor's order for medicine."},
+    {"id": "ex8", "type": "multiple_choice", "question": "What happens when you have seasonal allergies?", "options": ["Sneezing", "Fever", "Injury", "Bandage"], "answer": "Sneezing", "explanation": "Allergies often cause sneezing."},
+    {"id": "ex9", "type": "fill_blank", "question": "What _____ do you have? (symptoms)", "answer": ["symptoms"], "explanation": "Symptoms are signs of illness."},
+    {"id": "ex10", "type": "multiple_choice", "question": "What is used to cover a wound?", "options": ["Bandage", "Medicine", "Temperature", "Pressure"], "answer": "Bandage", "explanation": "A bandage covers and protects wounds."},
+    {"id": "ex11", "type": "fill_blank", "question": "I have a doctor's _____ at 3 PM. (appointment)", "answer": ["appointment"], "explanation": "An appointment is a scheduled time to see the doctor."},
+    {"id": "ex12", "type": "multiple_choice", "question": "What is 'flu' short for?", "options": ["Influenza", "Fever", "Allergy", "Injury"], "answer": "Influenza", "explanation": "Flu is short for influenza."},
+    {"id": "ex13", "type": "fill_blank", "question": "The doctor will check your blood _____. (pressure)", "answer": ["pressure"], "explanation": "Blood pressure is checked during medical exams."},
+    {"id": "ex14", "type": "multiple_choice", "question": "What does 'recovery' mean?", "options": ["Getting better", "Getting worse", "Feeling pain", "Taking medicine"], "answer": "Getting better", "explanation": "Recovery means healing and getting better."},
+    {"id": "ex15", "type": "fill_blank", "question": "You should _____ and drink lots of water. (rest)", "answer": ["rest"], "explanation": "Rest helps your body heal."}
+  ]
+}

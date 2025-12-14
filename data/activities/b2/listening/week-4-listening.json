@@ -1,0 +1,144 @@
+{
+  "id": "week-4-listening",
+  "weekId": "week-4",
+  "type": "listening",
+  "level": "B2",
+  "title": "Science & Technology Report",
+  "description": "Listen to a discussion about recent scientific breakthroughs and technological innovations.",
+
+  "audio": {
+    "text": "Host: Welcome to Science Today. I'm here with Dr. Patel, a researcher in renewable energy. Dr. Patel, can you tell us about recent developments in your field?\nDr. Patel: Thank you. Well, significant progress has been made in solar technology over the past decade. The efficiency of solar panels has been increased dramatically, and costs have been reduced by over 80 percent.\nHost: That's impressive. How was this achieved?\nDr. Patel: It was accomplished through a combination of factors. New materials were developed, manufacturing processes were improved, and considerable investment was made in research and development.\nHost: I've heard about new battery technology as well.\nDr. Patel: Yes, energy storage is being revolutionized. We're having batteries designed that can store energy for much longer periods. This problem had to be solved before renewable energy could become truly practical.\nHost: What about artificial intelligence in this field?\nDr. Patel: AI is being used to optimize energy distribution. Algorithms have been developed that can predict energy demand and adjust supply accordingly. This technology is expected to be implemented widely within the next few years.\nHost: Are there any challenges that still need to be addressed?\nDr. Patel: Certainly. Infrastructure needs to be upgraded in many regions. Old power grids weren't designed for renewable energy, so they're having to be completely rebuilt. Also, more skilled workers need to be trained.\nHost: What about policy changes?\nDr. Patel: It is believed that supportive policies are essential. In countries where renewable energy has been subsidized, adoption rates are much higher. We're getting governments to recognize that early investment leads to long-term savings.\nHost: Looking ahead, what can we expect?\nDr. Patel: It is thought that within twenty years, most electricity will be generated from renewable sources. New technologies are being developed that we couldn't have imagined a decade ago. The future is being shaped right now in laboratories around the world.\nHost: Thank you, Dr. Patel. That's fascinating insight into the future of energy.",
+    "duration": 210,
+    "speed": 1.0,
+    "speakers": ["Host", "Dr. Patel"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "Significant progress has been made in solar technology over the past decade.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d2",
+        "text": "New materials were developed and manufacturing processes were improved.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d3",
+        "text": "We're having batteries designed that can store energy for much longer periods.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d4",
+        "text": "This technology is expected to be implemented widely within the next few years.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d5",
+        "text": "It is believed that supportive policies are essential.",
+        "difficulty": "medium"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What field does Dr. Patel research?",
+      "options": ["Artificial intelligence", "Renewable energy", "Battery chemistry", "Climate science"],
+      "answer": "Renewable energy",
+      "explanation": "Dr. Patel is introduced as 'a researcher in renewable energy.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Solar panel costs have been reduced by over 80 percent.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Dr. Patel says 'costs have been reduced by over 80 percent.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "According to Dr. Patel, how was the improvement in solar technology achieved?",
+      "options": ["Only through government funding", "Through new materials, improved manufacturing, and R&D investment", "By importing technology from other countries", "Through reducing quality"],
+      "answer": "Through new materials, improved manufacturing, and R&D investment",
+      "explanation": "Dr. Patel mentions 'New materials were developed, manufacturing processes were improved, and considerable investment was made.'"
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "question": "Energy storage problems have already been completely solved.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Dr. Patel says batteries 'are being designed' and the problem 'had to be solved,' indicating it's still in progress."
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What is AI being used for in the energy field?",
+      "options": ["Building solar panels", "Optimizing energy distribution", "Training workers", "Designing buildings"],
+      "answer": "Optimizing energy distribution",
+      "explanation": "Dr. Patel says 'AI is being used to optimize energy distribution.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What is one challenge that still needs to be addressed?",
+      "options": ["Solar panels are too efficient", "Infrastructure needs to be upgraded", "There are too many skilled workers", "Energy is too cheap"],
+      "answer": "Infrastructure needs to be upgraded",
+      "explanation": "Dr. Patel mentions that 'Infrastructure needs to be upgraded in many regions.'"
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "Old power grids were designed for renewable energy.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Dr. Patel says 'Old power grids weren't designed for renewable energy.'"
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "In countries where renewable energy has been subsidized, what happens?",
+      "options": ["Adoption rates are lower", "Adoption rates are much higher", "Technology becomes worse", "Costs increase"],
+      "answer": "Adoption rates are much higher",
+      "explanation": "Dr. Patel says 'In countries where renewable energy has been subsidized, adoption rates are much higher.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "According to Dr. Patel, within how many years will most electricity be renewable?",
+      "options": ["Five years", "Ten years", "Twenty years", "Fifty years"],
+      "answer": "Twenty years",
+      "explanation": "Dr. Patel says 'within twenty years, most electricity will be generated from renewable sources.'"
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "question": "What does Dr. Patel say is being shaped 'right now in laboratories around the world'?",
+      "answer": "the future",
+      "alternateAnswers": ["The future", "future", "our future"],
+      "explanation": "Dr. Patel says 'The future is being shaped right now in laboratories around the world.'"
+    },
+    {
+      "id": "q11",
+      "type": "true_false",
+      "question": "Dr. Patel believes supportive government policies are essential.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Dr. Patel says 'It is believed that supportive policies are essential.'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "What passive structure does Dr. Patel use when discussing technology predictions?",
+      "options": ["It was thought", "It is thought", "It will thought", "It has thought"],
+      "answer": "It is thought",
+      "explanation": "Dr. Patel uses 'It is thought that within twenty years...' - an impersonal passive structure."
+    }
+  ]
+}

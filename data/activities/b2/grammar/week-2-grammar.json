@@ -1,0 +1,200 @@
+{
+  "id": "week-2-grammar",
+  "weekId": "week-2",
+  "type": "grammar",
+  "level": "B2",
+  "title": "Modal Verbs for Speculation & Deduction",
+  "description": "Learn to make guesses and draw conclusions about present and past situations.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Must/Can't for Present Deductions",
+      "explanation": "Use 'must' when you are almost certain something is true based on evidence. Use 'can't/cannot' when you are almost certain something is not true.",
+      "structure": "must/can't + base verb (present) | must/can't + be + -ing (present continuous)",
+      "examples": [
+        {
+          "sentence": "She must be exhausted. She's been working 12-hour shifts all week.",
+          "translation": "그녀는 분명 지쳐있을 거야. 일주일 내내 12시간 교대 근무를 했거든."
+        },
+        {
+          "sentence": "He can't be serious about resigning. He just got promoted!",
+          "translation": "그가 사직하겠다는 게 진심일 리가 없어. 방금 승진했잖아!"
+        },
+        {
+          "sentence": "They must be having problems with the project. They've missed two deadlines.",
+          "translation": "그들은 분명 프로젝트에 문제가 있을 거야. 마감을 두 번이나 놓쳤잖아."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "May/Might/Could for Present Possibility",
+      "explanation": "Use 'may', 'might', or 'could' when something is possible but you are not certain. 'Might' and 'could' suggest slightly less certainty than 'may'.",
+      "structure": "may/might/could + base verb | may/might/could + be + -ing",
+      "examples": [
+        {
+          "sentence": "She might be looking for a new job. She's updated her LinkedIn profile.",
+          "translation": "그녀는 새 직장을 찾고 있을지도 몰라. 링크드인 프로필을 업데이트했거든."
+        },
+        {
+          "sentence": "The company could be planning layoffs. There have been closed-door meetings.",
+          "translation": "회사가 해고를 계획하고 있을 수도 있어. 비밀 회의가 있었거든."
+        },
+        {
+          "sentence": "He may not know about the changes yet. He was on vacation.",
+          "translation": "그는 아직 변경 사항을 모를 수도 있어. 휴가 중이었거든."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Must Have/Can't Have for Past Deductions",
+      "explanation": "Use 'must have' + past participle for certainty about the past. Use 'can't have' + past participle when you're certain something didn't happen.",
+      "structure": "must have/can't have + past participle",
+      "examples": [
+        {
+          "sentence": "She must have impressed them in the interview. She got the job immediately.",
+          "translation": "그녀는 분명 면접에서 인상을 남겼을 거야. 바로 채용됐잖아."
+        },
+        {
+          "sentence": "He can't have finished the report already. He only started an hour ago.",
+          "translation": "그가 벌써 보고서를 끝냈을 리 없어. 한 시간 전에 시작했는데."
+        },
+        {
+          "sentence": "They must have worked all night to meet the deadline.",
+          "translation": "그들은 마감을 맞추기 위해 밤새 일했음에 틀림없어."
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "May Have/Might Have/Could Have for Past Possibility",
+      "explanation": "Use 'may have', 'might have', or 'could have' + past participle when you think something possibly happened in the past but you're not sure.",
+      "structure": "may have/might have/could have + past participle",
+      "examples": [
+        {
+          "sentence": "She might have misunderstood the instructions. That would explain the mistake.",
+          "translation": "그녀가 지시를 잘못 이해했을 수도 있어. 그게 실수를 설명해 주겠네."
+        },
+        {
+          "sentence": "The manager could have forgotten about our meeting. He seems very busy.",
+          "translation": "매니저가 우리 회의를 잊어버렸을 수도 있어. 매우 바빠 보이거든."
+        },
+        {
+          "sentence": "They may not have received the email. The server was down yesterday.",
+          "translation": "그들이 이메일을 못 받았을 수도 있어. 어제 서버가 다운됐거든."
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Should/Ought to for Expectation",
+      "explanation": "Use 'should' or 'ought to' when you expect something to be true based on logic or evidence. Use 'should have' for past expectations.",
+      "structure": "should/ought to + base verb | should have + past participle",
+      "examples": [
+        {
+          "sentence": "The interview should be starting now. It was scheduled for 10 AM.",
+          "translation": "면접이 지금 시작해야 해. 오전 10시로 예정되어 있었거든."
+        },
+        {
+          "sentence": "She ought to be qualified for the promotion. She's been here five years.",
+          "translation": "그녀는 승진 자격이 있을 거야. 5년째 여기 있잖아."
+        },
+        {
+          "sentence": "They should have arrived by now. The flight landed two hours ago.",
+          "translation": "그들은 지금쯤 도착했어야 해. 비행기가 두 시간 전에 착륙했거든."
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "title": "Speculation in Professional Contexts",
+      "explanation": "In workplace situations, modal verbs help express uncertainty diplomatically while making professional assessments.",
+      "structure": "Various modal combinations for speculation",
+      "examples": [
+        {
+          "sentence": "The delay could be due to technical issues. We should check with IT.",
+          "translation": "지연은 기술적 문제 때문일 수 있어요. IT에 확인해 봐야겠어요."
+        },
+        {
+          "sentence": "He must have had a good reason for leaving early. He's usually very dedicated.",
+          "translation": "그가 일찍 퇴근한 데는 분명 타당한 이유가 있을 거예요. 보통 매우 성실하거든요."
+        },
+        {
+          "sentence": "The project might not be completed on time if we don't get more resources.",
+          "translation": "더 많은 자원을 확보하지 못하면 프로젝트가 제시간에 완료되지 않을 수도 있어요."
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "She's been in meetings all day. She _____ exhausted.",
+      "options": ["can be", "must be", "could have been", "might have been"],
+      "answer": "must be"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "He got the promotion so quickly. He _____ (impress) the directors at the interview.",
+      "answer": "must have impressed"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "I'm not sure why she's late. She _____ stuck in traffic.",
+      "options": ["must be", "can be", "might be", "can't be"],
+      "answer": "might be"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "He only started learning to code last month. He _____ (finish) the project already. It's too complex.",
+      "answer": "can't have finished"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "The client hasn't responded to our proposal. They _____ still be considering it.",
+      "options": ["must", "can't", "could", "should have"],
+      "answer": "could"
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "I don't know why she declined the offer. She _____ (have) personal reasons.",
+      "answer": "might have had"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "The results _____ ready by now. We submitted the tests a week ago.",
+      "options": ["must", "can", "should be", "could been"],
+      "answer": "should be"
+    },
+    {
+      "id": "ex8",
+      "type": "transformation",
+      "instruction": "Rewrite using a modal of deduction",
+      "original": "I'm almost certain she accepted the job offer.",
+      "answer": "She must have accepted the job offer."
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "He _____ (work) on weekends. That's why he always looks so tired on Mondays.",
+      "answer": "must be working"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "She wasn't at her desk when I called. She _____ to lunch.",
+      "options": ["must go", "can have gone", "might have gone", "should go"],
+      "answer": "might have gone"
+    }
+  ]
+}

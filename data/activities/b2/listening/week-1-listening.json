@@ -1,0 +1,144 @@
+{
+  "id": "week-1-listening",
+  "weekId": "week-1",
+  "type": "listening",
+  "level": "B2",
+  "title": "News Discussion",
+  "description": "Listen to a conversation about media consumption and news reliability.",
+
+  "audio": {
+    "text": "David: Hey Sophie, did you hear about that viral news story that turned out to be completely false?\nSophie: Which one? There have been so many lately. Social media has made it incredibly easy for misinformation to spread.\nDavid: It was that story about the celebrity scandal. By the time the truth came out, millions of people had already shared it.\nSophie: That's the problem with online news. People tend to share articles before they've even read them properly. I've started being much more careful about verifying information.\nDavid: How do you do that? I find it hard to know which sources to trust anymore.\nSophie: Well, I've developed a few habits. First, I always check if the story is being reported by multiple reliable outlets. If only one obscure website is reporting something sensational, that's a red flag.\nDavid: That makes sense. I've noticed that tabloids often exaggerate stories to get more clicks.\nSophie: Exactly. I also look at when the article was published. Sometimes people share old news as if it had just happened.\nDavid: I hadn't thought about that. What about bias? Even reputable newspapers seem to have political leanings.\nSophie: That's true. I try to read the same story from different perspectives. If a left-leaning paper and a right-leaning paper are both reporting the same basic facts, I feel more confident the information is accurate.\nDavid: That sounds time-consuming, though.\nSophie: It is, but I've realized I'd rather spend a few extra minutes checking something than spread false information. Before social media, journalists had been the main gatekeepers of information. Now everyone can be a publisher.\nDavid: And not everyone follows journalistic ethics. I read that some countries have started teaching media literacy in schools.\nSophie: That's a great idea. We had never needed these skills as much as we do now. Our grandparents trusted their newspapers, but we can't afford to be so trusting anymore.\nDavid: It's ironic, isn't it? We have access to more information than ever, but we're less sure what's true.\nSophie: The key is to stay skeptical without becoming cynical. Critical thinking has become an essential survival skill in the digital age.",
+    "duration": 195,
+    "speed": 1.0,
+    "speakers": ["David", "Sophie"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "By the time the truth came out, millions of people had already shared it.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d2",
+        "text": "People tend to share articles before they've even read them properly.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d3",
+        "text": "Before social media, journalists had been the main gatekeepers of information.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d4",
+        "text": "We had never needed these skills as much as we do now.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d5",
+        "text": "Critical thinking has become an essential survival skill in the digital age.",
+        "difficulty": "hard"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What had happened by the time the truth about the celebrity story came out?",
+      "options": ["The celebrity had apologized", "Millions had already shared it", "The website had been shut down", "The journalist had been fired"],
+      "answer": "Millions had already shared it",
+      "explanation": "David mentions that 'By the time the truth came out, millions of people had already shared it.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Sophie says she shares articles immediately after reading the headlines.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Sophie says she has 'started being much more careful about verifying information.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What does Sophie consider a 'red flag'?",
+      "options": ["Articles without photos", "Stories from multiple outlets", "Sensational stories from obscure websites", "Old news articles"],
+      "answer": "Sensational stories from obscure websites",
+      "explanation": "Sophie says 'If only one obscure website is reporting something sensational, that's a red flag.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What problem with timing does Sophie mention?",
+      "options": ["News is published too quickly", "People share old news as if it just happened", "Articles take too long to write", "Breaking news interrupts programs"],
+      "answer": "People share old news as if it just happened",
+      "explanation": "Sophie says 'Sometimes people share old news as if it had just happened.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Sophie reads news from different political perspectives to verify facts.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Sophie says 'I try to read the same story from different perspectives' to feel more confident about accuracy."
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "Who had been the main gatekeepers of information before social media?",
+      "options": ["Governments", "Teachers", "Journalists", "Publishers"],
+      "answer": "Journalists",
+      "explanation": "Sophie says 'Before social media, journalists had been the main gatekeepers of information.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What are some countries teaching in schools according to the conversation?",
+      "options": ["Social media management", "Media literacy", "Journalism", "Computer programming"],
+      "answer": "Media literacy",
+      "explanation": "David mentions that 'some countries have started teaching media literacy in schools.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "David thinks we should trust newspapers as much as our grandparents did.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Sophie says 'we can't afford to be so trusting anymore' unlike their grandparents."
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What irony does David point out?",
+      "options": ["We have more news but less time", "We have more access but less certainty about truth", "We have more journalists but worse news", "We trust media more but read less"],
+      "answer": "We have more access but less certainty about truth",
+      "explanation": "David says 'We have access to more information than ever, but we're less sure what's true.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What does Sophie call an 'essential survival skill' in the digital age?",
+      "options": ["Social media management", "Speed reading", "Critical thinking", "Journalism"],
+      "answer": "Critical thinking",
+      "explanation": "Sophie concludes that 'Critical thinking has become an essential survival skill in the digital age.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What does Sophie do first when checking a news story?",
+      "answer": "checks if multiple reliable outlets report it",
+      "alternateAnswers": ["checks multiple sources", "verifies with multiple outlets", "sees if other reliable sources report it"],
+      "explanation": "Sophie says 'First, I always check if the story is being reported by multiple reliable outlets.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "Sophie recommends being skeptical but not cynical about news.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Sophie says 'The key is to stay skeptical without becoming cynical.'"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "week-3-vocab",
+  "weekId": "week-3",
+  "type": "vocabulary",
+  "level": "A2",
+  "title": "Food & Restaurants",
+  "description": "Learn vocabulary for ordering food and dining at restaurants.",
+
+  "words": [
+    {"id": "w1", "word": "Menu", "pronunciation": "/ˈmenjuː/", "partOfSpeech": "noun", "meaning": "메뉴", "example": "Can I see the menu, please?", "exampleMeaning": "메뉴 좀 볼 수 있을까요?"},
+    {"id": "w2", "word": "Reservation", "pronunciation": "/ˌrezərˈveɪʃən/", "partOfSpeech": "noun", "meaning": "예약", "example": "I have a reservation for 7 PM.", "exampleMeaning": "오후 7시에 예약이 있습니다."},
+    {"id": "w3", "word": "Appetizer", "pronunciation": "/ˈæpɪtaɪzər/", "partOfSpeech": "noun", "meaning": "에피타이저, 전채요리", "example": "Would you like an appetizer?", "exampleMeaning": "에피타이저 드실래요?"},
+    {"id": "w4", "word": "Main course", "pronunciation": "/meɪn kɔːrs/", "partOfSpeech": "noun", "meaning": "메인 요리", "example": "For the main course, I'll have steak.", "exampleMeaning": "메인 요리로 스테이크 주세요."},
+    {"id": "w5", "word": "Dessert", "pronunciation": "/dɪˈzɜːrt/", "partOfSpeech": "noun", "meaning": "디저트", "example": "The chocolate cake is our best dessert.", "exampleMeaning": "초콜릿 케이크가 최고의 디저트입니다."},
+    {"id": "w6", "word": "Beverage", "pronunciation": "/ˈbevərɪdʒ/", "partOfSpeech": "noun", "meaning": "음료", "example": "What beverage would you like?", "exampleMeaning": "어떤 음료를 원하시나요?"},
+    {"id": "w7", "word": "Waiter", "pronunciation": "/ˈweɪtər/", "partOfSpeech": "noun", "meaning": "웨이터", "example": "The waiter took our order.", "exampleMeaning": "웨이터가 주문을 받았습니다."},
+    {"id": "w8", "word": "Bill", "pronunciation": "/bɪl/", "partOfSpeech": "noun", "meaning": "계산서", "example": "Can I have the bill, please?", "exampleMeaning": "계산서 주세요."},
+    {"id": "w9", "word": "Tip", "pronunciation": "/tɪp/", "partOfSpeech": "noun", "meaning": "팁", "example": "We left a 15% tip.", "exampleMeaning": "우리는 15% 팁을 남겼습니다."},
+    {"id": "w10", "word": "Delicious", "pronunciation": "/dɪˈlɪʃəs/", "partOfSpeech": "adjective", "meaning": "맛있는", "example": "The pasta was delicious.", "exampleMeaning": "파스타가 맛있었습니다."},
+    {"id": "w11", "word": "Spicy", "pronunciation": "/ˈspaɪsi/", "partOfSpeech": "adjective", "meaning": "매운", "example": "Is this dish spicy?", "exampleMeaning": "이 요리 매운가요?"},
+    {"id": "w12", "word": "Order", "pronunciation": "/ˈɔːrdər/", "partOfSpeech": "verb/noun", "meaning": "주문(하다)", "example": "Are you ready to order?", "exampleMeaning": "주문하시겠어요?"},
+    {"id": "w13", "word": "Recommend", "pronunciation": "/ˌrekəˈmend/", "partOfSpeech": "verb", "meaning": "추천하다", "example": "What do you recommend?", "exampleMeaning": "무엇을 추천하시나요?"},
+    {"id": "w14", "word": "Allergic", "pronunciation": "/əˈlɜːrdʒɪk/", "partOfSpeech": "adjective", "meaning": "알레르기가 있는", "example": "I'm allergic to peanuts.", "exampleMeaning": "저는 땅콩 알레르기가 있습니다."},
+    {"id": "w15", "word": "Vegetarian", "pronunciation": "/ˌvedʒəˈteriən/", "partOfSpeech": "noun/adj", "meaning": "채식주의자", "example": "Do you have vegetarian options?", "exampleMeaning": "채식 메뉴가 있나요?"},
+    {"id": "w16", "word": "Portion", "pronunciation": "/ˈpɔːrʃən/", "partOfSpeech": "noun", "meaning": "1인분, 양", "example": "The portions here are very big.", "exampleMeaning": "여기 음식 양이 매우 많습니다."},
+    {"id": "w17", "word": "Takeout", "pronunciation": "/ˈteɪkaʊt/", "partOfSpeech": "noun", "meaning": "포장, 테이크아웃", "example": "I'd like this for takeout.", "exampleMeaning": "이것 포장해 주세요."},
+    {"id": "w18", "word": "Ingredients", "pronunciation": "/ɪnˈɡriːdiənts/", "partOfSpeech": "noun", "meaning": "재료", "example": "What ingredients are in this dish?", "exampleMeaning": "이 요리에 어떤 재료가 들어가나요?"},
+    {"id": "w19", "word": "Well-done", "pronunciation": "/ˌwel ˈdʌn/", "partOfSpeech": "adjective", "meaning": "웰던 (완전히 익힌)", "example": "I'd like my steak well-done.", "exampleMeaning": "스테이크를 웰던으로 해주세요."},
+    {"id": "w20", "word": "Medium", "pronunciation": "/ˈmiːdiəm/", "partOfSpeech": "adjective", "meaning": "미디엄 (적당히 익힌)", "example": "I prefer medium rare.", "exampleMeaning": "저는 미디엄 레어를 선호합니다."},
+    {"id": "w21", "word": "Refill", "pronunciation": "/ˈriːfɪl/", "partOfSpeech": "noun/verb", "meaning": "리필", "example": "Can I get a refill on my coffee?", "exampleMeaning": "커피 리필 가능한가요?"},
+    {"id": "w22", "word": "Chef", "pronunciation": "/ʃef/", "partOfSpeech": "noun", "meaning": "셰프, 요리사", "example": "The chef prepared a special dish.", "exampleMeaning": "셰프가 특별 요리를 준비했습니다."}
+  ],
+
+  "exercises": [
+    {"id": "ex1", "type": "multiple_choice", "question": "What do you ask for after eating?", "options": ["The bill", "The menu", "A refill", "The chef"], "answer": "The bill", "explanation": "You ask for the bill when you want to pay."},
+    {"id": "ex2", "type": "fill_blank", "question": "I'd like my steak _____. Not too cooked. (medium)", "answer": ["medium"], "explanation": "Medium means cooked to a middle level."},
+    {"id": "ex3", "type": "multiple_choice", "question": "What is food you eat before the main course?", "options": ["Appetizer", "Dessert", "Beverage", "Bill"], "answer": "Appetizer", "explanation": "An appetizer is a small dish before the main meal."},
+    {"id": "ex4", "type": "fill_blank", "question": "I'm _____ to shellfish. I can't eat it. (allergic)", "answer": ["allergic"], "explanation": "Allergic means having a bad reaction to something."},
+    {"id": "ex5", "type": "multiple_choice", "question": "What do you give to the waiter for good service?", "options": ["A tip", "A menu", "A bill", "An order"], "answer": "A tip", "explanation": "A tip is extra money for good service."},
+    {"id": "ex6", "type": "matching", "question": "Match with Korean:", "options": ["Delicious", "Spicy", "Portion", "Takeout"], "answer": ["맛있는", "매운", "양", "포장"], "explanation": "Match food terms with Korean meanings."},
+    {"id": "ex7", "type": "fill_blank", "question": "Do you have _____ options? I don't eat meat. (vegetarian)", "answer": ["vegetarian"], "explanation": "Vegetarian food contains no meat."},
+    {"id": "ex8", "type": "multiple_choice", "question": "Who prepares food in a restaurant?", "options": ["Chef", "Waiter", "Customer", "Manager"], "answer": "Chef", "explanation": "A chef is the professional cook."},
+    {"id": "ex9", "type": "fill_blank", "question": "What do you _____? (recommend)", "answer": ["recommend"], "explanation": "To recommend is to suggest something good."},
+    {"id": "ex10", "type": "multiple_choice", "question": "What is 'dessert'?", "options": ["Sweet food after meal", "First course", "Drink", "Side dish"], "answer": "Sweet food after meal", "explanation": "Dessert is sweet food at the end of a meal."},
+    {"id": "ex11", "type": "fill_blank", "question": "I have a _____ for two at 8 PM. (reservation)", "answer": ["reservation"], "explanation": "A reservation is a booking in advance."},
+    {"id": "ex12", "type": "multiple_choice", "question": "What is 'for takeout'?", "options": ["To take home", "To eat here", "To share", "To cancel"], "answer": "To take home", "explanation": "Takeout means food to take away."},
+    {"id": "ex13", "type": "fill_blank", "question": "Can I see the _____, please? (menu)", "answer": ["menu"], "explanation": "A menu lists all available food and drinks."},
+    {"id": "ex14", "type": "multiple_choice", "question": "What does 'refill' mean?", "options": ["Fill again", "Pay again", "Order again", "Cook again"], "answer": "Fill again", "explanation": "Refill means to fill your drink again."},
+    {"id": "ex15", "type": "fill_blank", "question": "What _____ are in this soup? (ingredients)", "answer": ["ingredients"], "explanation": "Ingredients are items used to make food."}
+  ]
+}

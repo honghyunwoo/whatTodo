@@ -1,0 +1,85 @@
+{
+  "id": "week-1-listening",
+  "weekId": "week-1",
+  "type": "listening",
+  "level": "A1",
+  "title": "간단한 대화 듣기",
+  "description": "일상적인 인사와 소개 대화를 듣고 이해합니다.",
+
+  "audio": {
+    "text": "Hello! My name is Tom. I am from Canada. [PAUSE] I am 20 years old. I am a student. [PAUSE] Nice to meet you!",
+    "speed": 0.7
+  },
+
+  "dictation": {
+    "targetSentences": [
+      "Hello! My name is Tom.",
+      "I am from Canada."
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is the speaker's name?",
+      "options": ["Tom", "Tim", "Sam", "Jim"],
+      "answer": "Tom",
+      "explanation": "화자는 'My name is Tom'이라고 자신을 소개했습니다."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "Where is Tom from?",
+      "options": ["Canada", "America", "England", "Australia"],
+      "answer": "Canada",
+      "explanation": "Tom은 'I am from Canada'라고 말했습니다."
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "question": "How old is Tom?",
+      "answer": "20",
+      "explanation": "Tom은 20살입니다. (I am 20 years old)"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What is Tom's job?",
+      "options": ["Student", "Teacher", "Doctor", "Worker"],
+      "answer": "Student",
+      "explanation": "Tom은 학생입니다. (I am a student)"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Tom is from America.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Tom은 캐나다 출신입니다. 미국이 아닙니다."
+    },
+    {
+      "id": "q6",
+      "type": "true_false",
+      "question": "Tom says 'Nice to meet you' at the end.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Tom은 마지막에 'Nice to meet you!'라고 말했습니다."
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What does Tom say first?",
+      "options": ["Hello!", "Hi!", "Good morning!", "Hey!"],
+      "answer": "Hello!",
+      "explanation": "Tom은 'Hello!'로 대화를 시작했습니다."
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "question": "What country is Tom from? (한 단어로 답하세요)",
+      "answer": "Canada",
+      "explanation": "캐나다(Canada)에서 왔습니다."
+    }
+  ]
+}

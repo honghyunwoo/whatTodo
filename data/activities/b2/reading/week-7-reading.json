@@ -1,0 +1,146 @@
+{
+  "id": "week-7-reading",
+  "weekId": "week-7",
+  "type": "reading",
+  "level": "B2",
+  "title": "The Evolution of Work Culture",
+  "description": "Read about how workplace expectations and business practices have transformed in the modern era.",
+
+  "passage": {
+    "text": "It is the nature of work itself that has undergone the most dramatic transformation in recent decades. What was once a simple exchange of labor for wages has evolved into a complex relationship between employees and organizations. Never before have workers had such high expectations for their professional lives.\n\nThe traditional office model dominated the twentieth century. It was efficiency and hierarchy that defined successful companies. Only by following established procedures could employees hope to advance. Rarely did workers question the rigid nine-to-five schedule or the strict separation between work and personal life. Such was the power of this model that alternatives were rarely considered.\n\nHowever, what we are witnessing today is a fundamental shift in workplace expectations. Not only do employees want competitive salaries, but they also demand meaningful work, flexible schedules, and opportunities for growth. So significant is this change that companies failing to adapt are struggling to attract talent. It is employee experience, not just compensation, that now drives recruitment success.\n\nThe rise of remote work has accelerated this transformation. What seemed impossible before 2020 became necessary overnight. Only after the pandemic did many organizations realize that productivity doesn't require physical presence. So effective was remote work for many companies that they have made it permanent. The thing that surprised many managers was how well their teams performed without constant supervision.\n\nYet challenges remain. It is maintaining company culture that proves most difficult in distributed teams. What remote work lacks is the spontaneous interaction that builds relationships. All companies must now find ways to connect employees who may never meet in person.\n\nThe future of work is hybrid, flexible, and employee-centered. It was the pandemic that forced this change, but the underlying trends were already present. What successful companies understand is that adapting to employee needs isn't optional—it's essential for survival. Only by embracing this new reality will businesses thrive in the decades to come.",
+    "wordCount": 320,
+    "estimatedReadingTime": 6
+  },
+
+  "vocabulary": [
+    {
+      "word": "transformation",
+      "meaning": "a thorough or dramatic change",
+      "translation": "변화, 변형"
+    },
+    {
+      "word": "hierarchy",
+      "meaning": "a system of ranking by authority level",
+      "translation": "계층 구조"
+    },
+    {
+      "word": "rigid",
+      "meaning": "unable to bend; strict and inflexible",
+      "translation": "엄격한, 융통성 없는"
+    },
+    {
+      "word": "accelerated",
+      "meaning": "increased in speed or rate",
+      "translation": "가속화된"
+    },
+    {
+      "word": "distributed",
+      "meaning": "spread across different locations",
+      "translation": "분산된"
+    },
+    {
+      "word": "spontaneous",
+      "meaning": "occurring naturally without planning",
+      "translation": "자연발생적인, 즉흥적인"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "According to the passage, what has undergone the most dramatic transformation?",
+      "options": ["Technology", "The economy", "The nature of work itself", "Education systems"],
+      "answer": "The nature of work itself",
+      "explanation": "The passage opens with 'It is the nature of work itself that has undergone the most dramatic transformation.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "In the traditional office model, employees frequently questioned the nine-to-five schedule.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage states 'Rarely did workers question the rigid nine-to-five schedule.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What defined successful companies in the twentieth century?",
+      "options": ["Flexibility and creativity", "Efficiency and hierarchy", "Innovation and risk-taking", "Employee satisfaction"],
+      "answer": "Efficiency and hierarchy",
+      "explanation": "The passage states 'It was efficiency and hierarchy that defined successful companies.'"
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "question": "Modern employees only care about competitive salaries.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'Not only do employees want competitive salaries, but they also demand meaningful work, flexible schedules, and opportunities for growth.'"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What now drives recruitment success according to the passage?",
+      "options": ["Location", "Company size", "Employee experience", "Industry reputation"],
+      "answer": "Employee experience",
+      "explanation": "The passage states 'It is employee experience, not just compensation, that now drives recruitment success.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What event accelerated the transformation of remote work?",
+      "options": ["The 2008 financial crisis", "The pandemic", "Technological advances", "Government regulations"],
+      "answer": "The pandemic",
+      "explanation": "The passage mentions 'What seemed impossible before 2020 became necessary overnight' and later 'It was the pandemic that forced this change.'"
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "Many managers were surprised by how well their teams performed remotely.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage states 'The thing that surprised many managers was how well their teams performed without constant supervision.'"
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "What is the most difficult challenge for distributed teams?",
+      "options": ["Meeting deadlines", "Maintaining company culture", "Using technology", "Managing budgets"],
+      "answer": "Maintaining company culture",
+      "explanation": "The passage states 'It is maintaining company culture that proves most difficult in distributed teams.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What does remote work lack according to the passage?",
+      "options": ["Productivity", "Flexibility", "Spontaneous interaction", "Technology"],
+      "answer": "Spontaneous interaction",
+      "explanation": "The passage states 'What remote work lacks is the spontaneous interaction that builds relationships.'"
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "question": "How does the passage describe the future of work?",
+      "answer": "hybrid, flexible, and employee-centered",
+      "alternateAnswers": ["hybrid", "flexible", "employee-centered", "hybrid and flexible"],
+      "explanation": "The passage states 'The future of work is hybrid, flexible, and employee-centered.'"
+    },
+    {
+      "id": "q11",
+      "type": "true_false",
+      "question": "The passage suggests that adapting to employee needs is optional for companies.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage explicitly states 'adapting to employee needs isn't optional—it's essential for survival.'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "Which sentence uses the inversion structure 'Rarely did...'?",
+      "options": ["Companies failing to adapt are struggling.", "Workers had high expectations.", "Workers question the rigid schedule.", "Alternatives were rarely considered."],
+      "answer": "Workers question the rigid schedule.",
+      "explanation": "The passage uses 'Rarely did workers question the rigid nine-to-five schedule' - an inverted structure for emphasis."
+    }
+  ]
+}

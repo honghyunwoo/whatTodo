@@ -1,0 +1,139 @@
+{
+  "id": "week-1-speaking",
+  "weekId": "week-1",
+  "type": "speaking",
+  "level": "B1",
+  "title": "Sharing Life Experiences",
+  "description": "Practice talking about your experiences, achievements, and life changes.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "I've had many interesting experiences in my life.",
+      "translation": "저는 인생에서 많은 흥미로운 경험을 했어요.",
+      "tips": "'I've had'를 자연스럽게 연결하고, 'interesting experiences'를 강조하세요."
+    },
+    {
+      "id": "s2",
+      "text": "Have you ever traveled to a foreign country alone?",
+      "translation": "혼자 외국 여행을 해본 적이 있나요?",
+      "tips": "'Have you ever'로 시작해서 끝을 올려 의문문 억양을 살리세요."
+    },
+    {
+      "id": "s3",
+      "text": "I've learned a lot from my mistakes over the years.",
+      "translation": "저는 수년간 실수로부터 많이 배웠어요.",
+      "tips": "'learned'와 'mistakes'를 강조하세요. 경험에서 얻은 교훈을 표현합니다."
+    },
+    {
+      "id": "s4",
+      "text": "She has overcome many challenges to get where she is today.",
+      "translation": "그녀는 오늘날의 위치에 오르기까지 많은 도전을 극복했어요.",
+      "tips": "'overcome'을 강조하고, 'challenges'는 명확하게 발음하세요."
+    },
+    {
+      "id": "s5",
+      "text": "I've always wanted to learn how to play the piano.",
+      "translation": "저는 항상 피아노 치는 법을 배우고 싶었어요.",
+      "tips": "'always wanted'를 강조해서 오랜 바람임을 표현하세요."
+    },
+    {
+      "id": "s6",
+      "text": "What's the most memorable experience you've ever had?",
+      "translation": "지금까지 가장 기억에 남는 경험이 뭐예요?",
+      "tips": "'most memorable'를 강조하고, 의문문 억양으로 끝내세요."
+    },
+    {
+      "id": "s7",
+      "text": "I've been working on this project for three months now.",
+      "translation": "저는 이 프로젝트를 3개월째 진행하고 있어요.",
+      "tips": "'three months'를 강조해서 기간을 명확히 하세요."
+    },
+    {
+      "id": "s8",
+      "text": "He has achieved so much since he started his own business.",
+      "translation": "그는 사업을 시작한 이후로 정말 많은 것을 이루었어요.",
+      "tips": "'achieved'와 'since'를 강조하세요."
+    },
+    {
+      "id": "s9",
+      "text": "I've never regretted my decision to study abroad.",
+      "translation": "저는 유학하기로 한 결정을 한 번도 후회한 적이 없어요.",
+      "tips": "'never regretted'를 강조해서 확신을 표현하세요."
+    },
+    {
+      "id": "s10",
+      "text": "Have you made any important decisions recently?",
+      "translation": "최근에 중요한 결정을 내린 적이 있나요?",
+      "tips": "'important decisions'를 강조하고, 'recently'는 부드럽게 말하세요."
+    },
+    {
+      "id": "s11",
+      "text": "This experience has completely changed my perspective on life.",
+      "translation": "이 경험은 제 인생관을 완전히 바꿔놓았어요.",
+      "tips": "'completely changed'를 강조해서 변화의 크기를 표현하세요."
+    },
+    {
+      "id": "s12",
+      "text": "I've grown a lot as a person since I moved to this city.",
+      "translation": "이 도시로 이사 온 이후로 저는 사람으로서 많이 성장했어요.",
+      "tips": "'grown'과 'since'를 연결해서 자연스럽게 발음하세요."
+    }
+  ],
+
+  "dialoguePractice": {
+    "title": "Catching Up with an Old Friend",
+    "roles": ["Alex", "Jordan"],
+    "lines": [
+      {"role": "Alex", "text": "Jordan! It's been ages! How have you been?"},
+      {"role": "Jordan", "text": "Alex! I've been great. So much has happened since we last met."},
+      {"role": "Alex", "text": "Really? Tell me about it! Have you changed jobs?"},
+      {"role": "Jordan", "text": "Yes! I've just started working at a tech company. It's been challenging but rewarding."},
+      {"role": "Alex", "text": "That sounds exciting. Have you traveled anywhere interesting?"},
+      {"role": "Jordan", "text": "Actually, I've been to Japan twice this year. It was an incredible experience."},
+      {"role": "Alex", "text": "Wow! I've always wanted to go there. What was the highlight?"},
+      {"role": "Jordan", "text": "Definitely climbing Mount Fuji. It was the most challenging thing I've ever done."},
+      {"role": "Alex", "text": "That's amazing. I've never done anything that adventurous."},
+      {"role": "Jordan", "text": "You should try it! It really changed my perspective on what I'm capable of."}
+    ]
+  },
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation & Intonation",
+      "items": [
+        "Did you pronounce Present Perfect contractions naturally (I've, you've, he's)?",
+        "Did you use rising intonation for questions with 'Have you ever...?'",
+        "Did you stress key words to emphasize meaning?",
+        "Did you speak at a natural, flowing pace?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you speak without long pauses or hesitations?",
+        "Did you connect sentences smoothly using linking words?",
+        "Did you complete all sentences confidently?",
+        "Did you practice the dialogue with natural rhythm?"
+      ]
+    },
+    {
+      "category": "Grammar Accuracy",
+      "items": [
+        "Did you use Present Perfect correctly for experiences?",
+        "Did you use 'for' and 'since' correctly?",
+        "Did you use correct past participle forms?",
+        "Did you distinguish between Present Perfect and Past Simple?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Could a listener understand your experiences clearly?",
+        "Did you express emotions and opinions naturally?",
+        "Did you sound engaged and interested?",
+        "Did you use appropriate vocabulary for describing experiences?"
+      ]
+    }
+  ]
+}

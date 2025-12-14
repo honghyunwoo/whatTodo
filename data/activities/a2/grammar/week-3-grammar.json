@@ -1,0 +1,69 @@
+{
+  "id": "week-3-grammar",
+  "weekId": "week-3",
+  "type": "grammar",
+  "level": "A2",
+  "title": "Countable and Uncountable Nouns",
+  "description": "Learn the difference between countable and uncountable nouns with food vocabulary.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "rule": "Countable Nouns",
+      "explanation": "Countable nouns can be counted. They have singular and plural forms. Use a/an with singular, numbers or 'some' with plural.",
+      "examples": [
+        {"sentence": "I'd like an apple.", "translation": "사과 하나 주세요."},
+        {"sentence": "She ordered two sandwiches.", "translation": "그녀는 샌드위치 두 개를 주문했습니다."},
+        {"sentence": "There are some oranges on the table.", "translation": "테이블 위에 오렌지가 몇 개 있습니다."}
+      ]
+    },
+    {
+      "id": "r2",
+      "rule": "Uncountable Nouns",
+      "explanation": "Uncountable nouns cannot be counted directly. They don't have a plural form. Use 'some' or measure words (a glass of, a piece of).",
+      "examples": [
+        {"sentence": "I need some water.", "translation": "물이 좀 필요합니다."},
+        {"sentence": "Can I have a cup of coffee?", "translation": "커피 한 잔 주시겠어요?"},
+        {"sentence": "There's some rice in the bowl.", "translation": "그릇에 밥이 좀 있습니다."}
+      ]
+    },
+    {
+      "id": "r3",
+      "rule": "Many vs Much",
+      "explanation": "Use 'many' with countable nouns, 'much' with uncountable nouns. Both are used in questions and negative sentences.",
+      "examples": [
+        {"sentence": "How many apples do you want?", "translation": "사과 몇 개 원하세요?"},
+        {"sentence": "How much sugar do you need?", "translation": "설탕 얼마나 필요하세요?"},
+        {"sentence": "There isn't much milk left.", "translation": "우유가 많이 남지 않았습니다."}
+      ]
+    },
+    {
+      "id": "r4",
+      "rule": "A few vs A little",
+      "explanation": "Use 'a few' with countable nouns (positive meaning), 'a little' with uncountable nouns (positive meaning).",
+      "examples": [
+        {"sentence": "I have a few cookies left.", "translation": "쿠키가 몇 개 남았습니다."},
+        {"sentence": "Add a little salt to the soup.", "translation": "수프에 소금을 조금 넣으세요."},
+        {"sentence": "She has a few friends at the restaurant.", "translation": "그녀는 레스토랑에 친구가 몇 명 있습니다."}
+      ]
+    }
+  ],
+
+  "exercises": [
+    {"id": "ex1", "type": "multiple_choice", "question": "How _____ bread do we have?", "options": ["much", "many", "few", "a"], "answer": "much", "explanation": "Bread is uncountable, use 'much'."},
+    {"id": "ex2", "type": "multiple_choice", "question": "How _____ eggs did you buy?", "options": ["many", "much", "little", "a"], "answer": "many", "explanation": "Eggs are countable, use 'many'."},
+    {"id": "ex3", "type": "fill_blank", "question": "I'd like _____ glass of water. (a/some)", "answer": "a", "explanation": "Use 'a' with singular measure words."},
+    {"id": "ex4", "type": "multiple_choice", "question": "There isn't _____ rice in the pot.", "options": ["much", "many", "few", "a little"], "answer": "much", "explanation": "Rice is uncountable; negative uses 'much'."},
+    {"id": "ex5", "type": "fill_blank", "question": "She bought _____ apples at the market. (a few/a little)", "answer": "a few", "explanation": "Apples are countable, use 'a few'."},
+    {"id": "ex6", "type": "multiple_choice", "question": "Can I have _____ sugar?", "options": ["some", "a", "many", "few"], "answer": "some", "explanation": "Sugar is uncountable, use 'some'."},
+    {"id": "ex7", "type": "fill_blank", "question": "There are _____ sandwiches on the plate. (a few/a little)", "answer": "a few", "explanation": "Sandwiches are countable."},
+    {"id": "ex8", "type": "multiple_choice", "question": "I don't have _____ money.", "options": ["much", "many", "a few", "an"], "answer": "much", "explanation": "Money is uncountable."},
+    {"id": "ex9", "type": "fill_blank", "question": "Add _____ milk to the coffee. (a few/a little)", "answer": "a little", "explanation": "Milk is uncountable, use 'a little'."},
+    {"id": "ex10", "type": "multiple_choice", "question": "How _____ cups of tea would you like?", "options": ["many", "much", "little", "some"], "answer": "many", "explanation": "'Cups' is countable."},
+    {"id": "ex11", "type": "fill_blank", "question": "We need _____ bottle of wine. (a/some)", "answer": "a", "explanation": "Bottle is singular countable."},
+    {"id": "ex12", "type": "multiple_choice", "question": "There are _____ cookies in the jar.", "options": ["some", "a", "much", "a little"], "answer": "some", "explanation": "Cookies are countable plural, use 'some'."},
+    {"id": "ex13", "type": "fill_blank", "question": "How _____ coffee do you drink? (much/many)", "answer": "much", "explanation": "Coffee is uncountable."},
+    {"id": "ex14", "type": "multiple_choice", "question": "I only have _____ time for lunch.", "options": ["a little", "a few", "many", "an"], "answer": "a little", "explanation": "Time is uncountable."},
+    {"id": "ex15", "type": "fill_blank", "question": "There aren't _____ vegetables left. (much/many)", "answer": "many", "explanation": "Vegetables are countable."}
+  ]
+}

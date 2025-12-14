@@ -1,0 +1,139 @@
+{
+  "id": "week-6-speaking",
+  "weekId": "week-6",
+  "type": "speaking",
+  "level": "B1",
+  "title": "Discussing Education and Learning",
+  "description": "Practice talking about education, study habits, and learning goals.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "If I don't study regularly, I forget things quickly.",
+      "translation": "규칙적으로 공부하지 않으면 빨리 잊어버려요.",
+      "tips": "Zero conditional로 일반적인 사실을 표현하세요."
+    },
+    {
+      "id": "s2",
+      "text": "If I pass this exam, I will apply to graduate school.",
+      "translation": "이 시험에 합격하면 대학원에 지원할 거예요.",
+      "tips": "First conditional로 실제 가능한 미래를 표현하세요."
+    },
+    {
+      "id": "s3",
+      "text": "Unless I improve my English, I won't get the job I want.",
+      "translation": "영어 실력이 늘지 않으면 원하는 일자리를 얻지 못할 거예요.",
+      "tips": "'Unless'는 'if not'과 같은 의미예요."
+    },
+    {
+      "id": "s4",
+      "text": "When I graduate, I plan to travel for a year.",
+      "translation": "졸업하면 1년 동안 여행할 계획이에요.",
+      "tips": "'When'도 미래에 대해 말할 때 현재시제를 사용해요."
+    },
+    {
+      "id": "s5",
+      "text": "If you want to learn a language, you should practice every day.",
+      "translation": "언어를 배우고 싶으면 매일 연습해야 해요.",
+      "tips": "'should'를 사용해 조언을 표현하세요."
+    },
+    {
+      "id": "s6",
+      "text": "I find it difficult to concentrate if there's background noise.",
+      "translation": "배경 소음이 있으면 집중하기 어려워요.",
+      "tips": "'find it + 형용사 + to...' 구조로 어려움을 표현하세요."
+    },
+    {
+      "id": "s7",
+      "text": "As soon as I finish this course, I will start the next one.",
+      "translation": "이 과정을 끝내자마자 다음 과정을 시작할 거예요.",
+      "tips": "'As soon as'는 '~하자마자'라는 뜻이에요."
+    },
+    {
+      "id": "s8",
+      "text": "In my opinion, online learning can be just as effective as classroom learning.",
+      "translation": "제 생각에는 온라인 학습도 교실 학습만큼 효과적일 수 있어요.",
+      "tips": "'as...as'로 동등함을 표현하세요."
+    },
+    {
+      "id": "s9",
+      "text": "If I had more time, I would learn another language.",
+      "translation": "시간이 더 있으면 다른 언어를 배울 텐데요.",
+      "tips": "이것은 Second Conditional이지만, 참고로 알아두세요."
+    },
+    {
+      "id": "s10",
+      "text": "What subject will you study if you go to university?",
+      "translation": "대학에 가면 어떤 과목을 공부할 거예요?",
+      "tips": "의문문에서도 First Conditional 구조를 사용하세요."
+    },
+    {
+      "id": "s11",
+      "text": "I usually take notes if the lecture is important.",
+      "translation": "강의가 중요하면 보통 노트를 해요.",
+      "tips": "Zero Conditional로 습관을 표현하세요."
+    },
+    {
+      "id": "s12",
+      "text": "If I don't understand something, I always ask the teacher.",
+      "translation": "뭔가 이해가 안 되면 항상 선생님께 여쭤봐요.",
+      "tips": "'always'와 함께 Zero Conditional를 사용하세요."
+    }
+  ],
+
+  "dialoguePractice": {
+    "title": "Planning for the Future",
+    "roles": ["Alex", "Jordan"],
+    "lines": [
+      {"role": "Alex", "text": "What will you do after you finish high school?"},
+      {"role": "Jordan", "text": "If I get good grades, I'll apply to study engineering at university."},
+      {"role": "Alex", "text": "That sounds great. What if you don't get the grades you need?"},
+      {"role": "Jordan", "text": "Then I might take a gap year and retake the exams."},
+      {"role": "Alex", "text": "That's a sensible plan. When will you find out your results?"},
+      {"role": "Jordan", "text": "They'll announce them next month. I'm a bit nervous."},
+      {"role": "Alex", "text": "I understand. If you study hard, you'll probably do well."},
+      {"role": "Jordan", "text": "Thanks. What about you? What are your plans?"},
+      {"role": "Alex", "text": "If I save enough money this year, I'll travel before starting university."},
+      {"role": "Jordan", "text": "That sounds exciting! Where will you go if you have the chance?"}
+    ]
+  },
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation & Intonation",
+      "items": [
+        "Did you pronounce education-related vocabulary correctly?",
+        "Did you use appropriate intonation for conditional sentences?",
+        "Did you use rising intonation for questions?",
+        "Did you speak at a natural pace?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you use conditional structures smoothly?",
+        "Did you transition naturally between 'if' and main clauses?",
+        "Did you complete sentences without long pauses?",
+        "Did you practice the dialogue naturally?"
+      ]
+    },
+    {
+      "category": "Grammar Accuracy",
+      "items": [
+        "Did you use Zero Conditional correctly for facts?",
+        "Did you use First Conditional correctly for future possibilities?",
+        "Did you use 'unless', 'when', 'as soon as' correctly?",
+        "Did you use present simple (not will) in the if-clause?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Did you express plans and possibilities clearly?",
+        "Did you give advice using conditionals?",
+        "Did you discuss education topics naturally?",
+        "Did you engage naturally in the dialogue?"
+      ]
+    }
+  ]
+}

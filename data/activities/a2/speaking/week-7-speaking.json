@@ -1,0 +1,135 @@
+{
+  "id": "week-7-speaking",
+  "weekId": "week-7",
+  "type": "speaking",
+  "level": "A2",
+  "title": "Talking About Hobbies",
+  "description": "Practice speaking about your hobbies and free time activities.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "What do you like to do in your free time?",
+      "translation": "여가 시간에 뭐 하는 것을 좋아하세요?",
+      "tips": "'free time'을 한 덩어리로 발음하고, 끝을 올려서 의문문 억양을 살리세요."
+    },
+    {
+      "id": "s2",
+      "text": "My hobby is playing the guitar.",
+      "translation": "제 취미는 기타 치는 거예요.",
+      "tips": "'hobby'와 'guitar'를 강조하세요."
+    },
+    {
+      "id": "s3",
+      "text": "I enjoy reading books and watching movies.",
+      "translation": "저는 책 읽기와 영화 보기를 즐겨요.",
+      "tips": "'enjoy' 다음에 오는 -ing 형태를 자연스럽게 발음하세요."
+    },
+    {
+      "id": "s4",
+      "text": "I want to learn how to cook.",
+      "translation": "요리하는 법을 배우고 싶어요.",
+      "tips": "'want to'를 'wanna'처럼 자연스럽게 연결해서 발음할 수 있어요."
+    },
+    {
+      "id": "s5",
+      "text": "I've been doing photography for two years.",
+      "translation": "2년 동안 사진 촬영을 해왔어요.",
+      "tips": "'I've been'을 연결하고, 'photography'의 강세는 두 번째 음절: pho-TOG-ra-phy."
+    },
+    {
+      "id": "s6",
+      "text": "Would you like to join our book club?",
+      "translation": "우리 독서 클럽에 가입하시겠어요?",
+      "tips": "'Would you like to'를 부드럽게 연결하고, 친근하게 권유하는 톤으로 말하세요."
+    },
+    {
+      "id": "s7",
+      "text": "I practice every day to improve my skills.",
+      "translation": "실력을 향상시키기 위해 매일 연습해요.",
+      "tips": "'practice'와 'improve'를 강조하세요."
+    },
+    {
+      "id": "s8",
+      "text": "It's a great way to relax after work.",
+      "translation": "퇴근 후 휴식하기에 좋은 방법이에요.",
+      "tips": "'great way'를 한 덩어리로, 'relax'를 명확하게 발음하세요."
+    },
+    {
+      "id": "s9",
+      "text": "I'm thinking about joining a yoga class.",
+      "translation": "요가 수업에 등록할까 생각 중이에요.",
+      "tips": "'thinking about'을 연결하고, 'joining'의 -ing을 명확히 하세요."
+    },
+    {
+      "id": "s10",
+      "text": "Do you have any recommendations?",
+      "translation": "추천해 주실 것이 있나요?",
+      "tips": "'recommendations'는 긴 단어예요. 강세는 네 번째 음절: rec-om-men-DA-tions."
+    },
+    {
+      "id": "s11",
+      "text": "I'm a beginner, but I'm improving quickly.",
+      "translation": "초보자이지만 빠르게 나아지고 있어요.",
+      "tips": "'beginner'와 'improving'을 강조하세요."
+    },
+    {
+      "id": "s12",
+      "text": "This hobby helps me reduce stress.",
+      "translation": "이 취미는 스트레스를 줄이는 데 도움이 돼요.",
+      "tips": "'helps me'를 연결하고, 'reduce stress'를 명확하게 발음하세요."
+    }
+  ],
+
+  "dialoguePractice": {
+    "title": "Talking About Hobbies",
+    "roles": ["A", "B"],
+    "lines": [
+      {"role": "A", "text": "What do you like to do in your free time?"},
+      {"role": "B", "text": "I enjoy photography. How about you?"},
+      {"role": "A", "text": "I like playing sports, especially basketball."},
+      {"role": "B", "text": "That sounds fun! How often do you play?"},
+      {"role": "A", "text": "Twice a week. I'm thinking about joining a team."},
+      {"role": "B", "text": "You should! It's a great way to meet people."}
+    ]
+  },
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation & Intonation",
+      "items": [
+        "Did you pronounce hobby-related vocabulary clearly?",
+        "Did you use rising intonation for questions?",
+        "Did you pronounce -ing endings correctly?",
+        "Did you speak at a natural pace?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you speak without long pauses?",
+        "Did you connect words naturally?",
+        "Did you complete all sentences?",
+        "Did you practice the dialogue smoothly?"
+      ]
+    },
+    {
+      "category": "Accuracy",
+      "items": [
+        "Did you use gerunds correctly after 'enjoy'?",
+        "Did you use infinitives correctly after 'want'?",
+        "Did you form questions correctly?",
+        "Did you follow the pronunciation tips?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Could a listener understand your hobby description?",
+        "Did you sound enthusiastic about your hobbies?",
+        "Did you express yourself naturally?",
+        "Did you record and compare all sentences?"
+      ]
+    }
+  ]
+}

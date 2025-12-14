@@ -1,0 +1,144 @@
+{
+  "id": "week-2-listening",
+  "weekId": "week-2",
+  "type": "listening",
+  "level": "B1",
+  "title": "Planning a Team Project",
+  "description": "Listen to colleagues discussing their plans for an upcoming project.",
+
+  "audio": {
+    "text": "Manager: Alright everyone, let's discuss the marketing project. We need to have everything ready by the end of the month. Lisa, what are you going to work on?\nLisa: I'm going to focus on the social media campaign. I've already started brainstorming ideas, and I'm meeting with the design team tomorrow to discuss visuals.\nManager: Great. How long do you think it will take?\nLisa: I estimate it will take about two weeks to complete the initial plan. After that, I'll need another week to finalize everything.\nManager: Perfect. Tom, what about you?\nTom: I'm going to handle the market research. I'll be sending out surveys next week, and I'm expecting results within ten days.\nManager: Will you have the analysis ready by the fifteenth?\nTom: I think so, but there's a possibility we might need a few extra days if we get a lot of responses.\nManager: That's fine. Just keep me updated. Sarah, you're working on the budget, right?\nSarah: Yes, I'm going to prepare the budget proposal. I'll probably finish the first draft by Friday. Then I'm going to review it with the finance team next Monday.\nManager: Excellent. Now, are there any potential problems we should anticipate?\nLisa: Well, the design team is quite busy this month. There's a chance they won't be able to deliver on time.\nManager: I'll talk to them about priorities. Anything else?\nTom: The survey platform might be down for maintenance next Wednesday. If that happens, I'll postpone the launch until Thursday.\nManager: Good thinking. Let's schedule a follow-up meeting for next Friday at 2 PM. Does that work for everyone?\nAll: Yes, that works.\nManager: Great. I'll send calendar invites this afternoon. Thanks, everyone!",
+    "duration": 130,
+    "speed": 0.9,
+    "speakers": ["Manager", "Lisa", "Tom", "Sarah"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "We need to have everything ready by the end of the month.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "d2",
+        "text": "I'm meeting with the design team tomorrow to discuss visuals.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d3",
+        "text": "There's a possibility we might need a few extra days.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d4",
+        "text": "I'll probably finish the first draft by Friday.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d5",
+        "text": "Let's schedule a follow-up meeting for next Friday at 2 PM.",
+        "difficulty": "hard"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "When does the project need to be completed?",
+      "options": ["By next week", "By the fifteenth", "By the end of the month", "By Friday"],
+      "answer": "By the end of the month",
+      "explanation": "The manager says 'We need to have everything ready by the end of the month.'"
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "What is Lisa going to work on?",
+      "options": ["Market research", "Budget proposal", "Social media campaign", "Survey analysis"],
+      "answer": "Social media campaign",
+      "explanation": "Lisa says 'I'm going to focus on the social media campaign.'"
+    },
+    {
+      "id": "q3",
+      "type": "true_false",
+      "question": "Lisa is meeting with the design team today.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Lisa says 'I'm meeting with the design team tomorrow.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "How long does Lisa estimate her initial plan will take?",
+      "options": ["One week", "Two weeks", "Three weeks", "Four weeks"],
+      "answer": "Two weeks",
+      "explanation": "Lisa says 'it will take about two weeks to complete the initial plan.'"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What is Tom going to handle?",
+      "options": ["Social media", "Market research", "Budget", "Design"],
+      "answer": "Market research",
+      "explanation": "Tom says 'I'm going to handle the market research.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "When is Tom sending out surveys?",
+      "options": ["Today", "Tomorrow", "Next week", "Next month"],
+      "answer": "Next week",
+      "explanation": "Tom says 'I'll be sending out surveys next week.'"
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "Sarah is working on the market research.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Sarah is working on the budget proposal, not market research."
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "When will Sarah finish the first draft of the budget?",
+      "options": ["Monday", "Wednesday", "Friday", "Next week"],
+      "answer": "Friday",
+      "explanation": "Sarah says 'I'll probably finish the first draft by Friday.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What potential problem does Lisa mention?",
+      "options": ["Budget issues", "Design team is busy", "Survey platform down", "Not enough time"],
+      "answer": "Design team is busy",
+      "explanation": "Lisa says 'the design team is quite busy this month.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "When is the survey platform potentially having maintenance?",
+      "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "answer": "Wednesday",
+      "explanation": "Tom says 'The survey platform might be down for maintenance next Wednesday.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What day and time is the follow-up meeting scheduled for?",
+      "answer": "Friday at 2 PM",
+      "alternateAnswers": ["next Friday at 2 PM", "Next Friday 2PM", "Friday 2 PM"],
+      "explanation": "The manager says 'Let's schedule a follow-up meeting for next Friday at 2 PM.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "The manager will send calendar invites tomorrow.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The manager says 'I'll send calendar invites this afternoon.'"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "week-8-listening",
+  "weekId": "week-8",
+  "type": "listening",
+  "level": "B1",
+  "title": "Talking About Dreams",
+  "description": "Listen to friends discussing their dreams and imaginary situations.",
+
+  "audio": {
+    "text": "Mia: Hey Lucas, I've been thinking about a question. If you could do any job in the world, what would you choose?\nLucas: Hmm, that's a tough one. If I could do anything, I think I would be a travel photographer.\nMia: Really? That sounds amazing! Why photography?\nLucas: I love capturing beautiful moments, and if I were a travel photographer, I could see incredible places and share them with the world.\nMia: That's a lovely dream. I would probably be a marine biologist if I could choose any job.\nLucas: Oh, interesting! Are you passionate about the ocean?\nMia: Yes! If I had studied science instead of business, I might be working with dolphins right now.\nLucas: It's not too late, you know. If you really wanted to, you could still study marine biology.\nMia: Maybe. But it would take years, and I'd have to give up my current career.\nLucas: I understand. If I were you, I'd at least look into part-time courses. You never know where it might lead.\nMia: That's good advice. What about money? If you won the lottery tomorrow, what would you do?\nLucas: Oh, that's easy. If I won a lot of money, I would first pay off my parents' house. Then I would travel for a year.\nMia: That's sweet about your parents. I would do something similar.\nLucas: What else would you do?\nMia: If I had unlimited money, I would start a charity for ocean conservation. That way, I could help marine life even without being a biologist.\nLucas: That's brilliant! You could combine your business skills with your passion.\nMia: Exactly! Sometimes I forget that there are different ways to pursue your dreams.\nLucas: You know what? Even if we don't win the lottery, we can still find ways to do what we love.\nMia: You're right. We just have to be creative about it.",
+    "duration": 175,
+    "speed": 0.9,
+    "speakers": ["Mia", "Lucas"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "If I could do anything, I would be a travel photographer.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "d2",
+        "text": "If I were a travel photographer, I could see incredible places.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d3",
+        "text": "If I had studied science, I might be working with dolphins right now.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d4",
+        "text": "If I won a lot of money, I would first pay off my parents' house.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d5",
+        "text": "Even if we don't win the lottery, we can still find ways to do what we love.",
+        "difficulty": "hard"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What job would Lucas choose if he could do anything?",
+      "options": ["Marine biologist", "Travel photographer", "Business consultant", "Teacher"],
+      "answer": "Travel photographer",
+      "explanation": "Lucas says 'If I could do anything, I think I would be a travel photographer.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Mia studied science at university.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Mia says 'If I had studied science instead of business.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What does Mia dream of working with?",
+      "options": ["Birds", "Dolphins", "Dogs", "Horses"],
+      "answer": "Dolphins",
+      "explanation": "Mia says she 'might be working with dolphins right now' if she had studied science."
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What does Lucas suggest Mia should do?",
+      "options": ["Quit her job", "Look into part-time courses", "Move to another country", "Start a business"],
+      "answer": "Look into part-time courses",
+      "explanation": "Lucas says 'If I were you, I'd at least look into part-time courses.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Mia thinks it would be easy to change careers.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Mia says 'it would take years, and I'd have to give up my current career.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What would Lucas do first if he won the lottery?",
+      "options": ["Travel the world", "Buy a new house", "Pay off his parents' house", "Start a business"],
+      "answer": "Pay off his parents' house",
+      "explanation": "Lucas says 'I would first pay off my parents' house.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What kind of charity would Mia start if she had unlimited money?",
+      "options": ["Education charity", "Health charity", "Ocean conservation charity", "Animal rescue"],
+      "answer": "Ocean conservation charity",
+      "explanation": "Mia says 'I would start a charity for ocean conservation.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Lucas thinks Mia could combine her business skills with her passion.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Lucas says 'You could combine your business skills with your passion.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "How long would Lucas travel if he won the lottery?",
+      "options": ["A month", "Six months", "A year", "Two years"],
+      "answer": "A year",
+      "explanation": "Lucas says 'Then I would travel for a year.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What is the main message at the end of the conversation?",
+      "options": ["Money is everything", "Dreams are impossible", "We can find creative ways to pursue our dreams", "We should give up on dreams"],
+      "answer": "We can find creative ways to pursue our dreams",
+      "explanation": "They conclude that even without winning the lottery, they 'can still find ways to do what we love.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What does Mia realize about pursuing dreams?",
+      "answer": "there are different ways",
+      "alternateAnswers": ["different ways to pursue dreams", "there are different ways to pursue your dreams", "many ways"],
+      "explanation": "Mia says 'Sometimes I forget that there are different ways to pursue your dreams.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "Lucas wants to be creative about pursuing his dreams.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Mia says 'We just have to be creative about it' and Lucas agrees."
+    }
+  ]
+}

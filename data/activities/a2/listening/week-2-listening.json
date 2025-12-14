@@ -1,0 +1,34 @@
+{
+  "id": "week-2-listening",
+  "weekId": "week-2",
+  "type": "listening",
+  "level": "A2",
+  "title": "Shopping at a Clothing Store",
+  "description": "Listen to a conversation between a customer and a store assistant.",
+
+  "audio": {
+    "text": "Assistant: Good afternoon! Can I help you with anything? [PAUSE] Customer: Yes, I'm looking for a jacket. Something casual. [PAUSE] Assistant: Of course. What size are you? [PAUSE] Customer: I'm usually a medium. [PAUSE] Assistant: Here are some nice jackets. This blue one is very popular. [PAUSE] Customer: I like it. How much is it? [PAUSE] Assistant: It's 80 dollars, but today we have a 25% discount. So it's 60 dollars. [PAUSE] Customer: That's a good price! Can I try it on? [PAUSE] Assistant: Sure. The fitting room is on your left. [PAUSE] Customer: Perfect, it fits well. I'll take it. [PAUSE] Assistant: Great choice! Will you pay by cash or card? [PAUSE] Customer: Card, please. [PAUSE] Assistant: Here's your receipt. Thank you for shopping with us!",
+    "speed": 0.8
+  },
+
+  "dictation": {
+    "targetSentences": [
+      "I'm looking for a jacket.",
+      "Today we have a 25% discount.",
+      "Can I try it on?"
+    ]
+  },
+
+  "questions": [
+    {"id": "q1", "type": "multiple_choice", "question": "What is the customer looking for?", "options": ["A jacket", "A shirt", "Pants", "Shoes"], "answer": "A jacket", "explanation": "The customer said 'I'm looking for a jacket.'"},
+    {"id": "q2", "type": "multiple_choice", "question": "What size is the customer?", "options": ["Medium", "Small", "Large", "Extra large"], "answer": "Medium", "explanation": "The customer said 'I'm usually a medium.'"},
+    {"id": "q3", "type": "multiple_choice", "question": "What color jacket does the assistant recommend?", "options": ["Blue", "Black", "Brown", "Red"], "answer": "Blue", "explanation": "The assistant showed a blue jacket."},
+    {"id": "q4", "type": "short_answer", "question": "What is the original price of the jacket? (number only)", "answer": "80", "explanation": "The jacket originally costs 80 dollars."},
+    {"id": "q5", "type": "short_answer", "question": "What is the discount percentage? (number only)", "answer": "25", "explanation": "There's a 25% discount today."},
+    {"id": "q6", "type": "short_answer", "question": "What is the final price after discount? (number only)", "answer": "60", "explanation": "With the discount, it's 60 dollars."},
+    {"id": "q7", "type": "multiple_choice", "question": "Where is the fitting room?", "options": ["On the left", "On the right", "Upstairs", "At the back"], "answer": "On the left", "explanation": "The fitting room is on your left."},
+    {"id": "q8", "type": "true_false", "question": "The jacket didn't fit the customer.", "options": ["True", "False"], "answer": "False", "explanation": "The customer said 'it fits well.'"},
+    {"id": "q9", "type": "multiple_choice", "question": "How does the customer pay?", "options": ["By card", "By cash", "By check", "By phone"], "answer": "By card", "explanation": "The customer said 'Card, please.'"},
+    {"id": "q10", "type": "true_false", "question": "The customer decided to buy the jacket.", "options": ["True", "False"], "answer": "True", "explanation": "The customer said 'I'll take it.'"}
+  ]
+}

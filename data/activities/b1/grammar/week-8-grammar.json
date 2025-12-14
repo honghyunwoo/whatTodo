@@ -1,0 +1,200 @@
+{
+  "id": "week-8-grammar",
+  "weekId": "week-8",
+  "type": "grammar",
+  "level": "B1",
+  "title": "Second Conditional",
+  "description": "Learn to talk about imaginary situations and their unlikely results.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Second Conditional Structure",
+      "explanation": "Use the second conditional to talk about imaginary or unlikely situations in the present or future. Use past simple in the if-clause and would + base verb in the main clause.",
+      "structure": "If + past simple, would + base verb",
+      "examples": [
+        {
+          "sentence": "If I had more time, I would learn another language.",
+          "translation": "시간이 더 있으면 다른 언어를 배울 텐데요."
+        },
+        {
+          "sentence": "If she lived closer, we would see each other more often.",
+          "translation": "그녀가 더 가까이 살면 더 자주 만날 텐데요."
+        },
+        {
+          "sentence": "I would travel the world if I had enough money.",
+          "translation": "돈이 충분하면 세계 여행을 할 텐데요."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Were vs Was",
+      "explanation": "In formal English, use 'were' for all subjects with the second conditional. In informal speech, 'was' is also common with I/he/she/it.",
+      "structure": "If I/he/she were... (formal) | If I/he/she was... (informal)",
+      "examples": [
+        {
+          "sentence": "If I were you, I would take the job. (formal/advice)",
+          "translation": "내가 너라면 그 일을 할 거야."
+        },
+        {
+          "sentence": "If she were rich, she would donate to charity.",
+          "translation": "그녀가 부자라면 자선단체에 기부할 텐데요."
+        },
+        {
+          "sentence": "What would you do if you were in my situation?",
+          "translation": "내 상황이라면 어떻게 하겠어요?"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "First vs Second Conditional",
+      "explanation": "First conditional = real/possible future. Second conditional = imaginary/unlikely situation.",
+      "structure": "First: If + present, will | Second: If + past, would",
+      "examples": [
+        {
+          "sentence": "If I have time tomorrow, I will help you. (possible)",
+          "translation": "내일 시간이 있으면 도와줄게요. (가능함)"
+        },
+        {
+          "sentence": "If I had more time, I would help you. (imaginary)",
+          "translation": "시간이 더 있으면 도와줄 텐데요. (가상)"
+        },
+        {
+          "sentence": "If it rains, we'll stay home. (possible) vs If it rained every day, I would move. (imaginary)",
+          "translation": "비가 오면 집에 있을 거예요. (가능) vs 매일 비가 오면 이사할 텐데요. (가상)"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Could/Might in Second Conditional",
+      "explanation": "Use 'could' or 'might' instead of 'would' to show possibility or ability in imaginary situations.",
+      "structure": "If + past simple, could/might + base verb",
+      "examples": [
+        {
+          "sentence": "If I had wings, I could fly anywhere.",
+          "translation": "날개가 있으면 어디든 날아갈 수 있을 텐데요."
+        },
+        {
+          "sentence": "If we left early, we might catch the first train.",
+          "translation": "일찍 출발하면 첫 번째 기차를 탈 수도 있을 텐데요."
+        },
+        {
+          "sentence": "She could get a better job if she spoke English.",
+          "translation": "그녀가 영어를 하면 더 좋은 직장을 구할 수 있을 텐데요."
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Giving Advice with Second Conditional",
+      "explanation": "'If I were you' is a common expression for giving advice. It suggests what you would do in someone else's situation.",
+      "structure": "If I were you, I would...",
+      "examples": [
+        {
+          "sentence": "If I were you, I would apply for that scholarship.",
+          "translation": "내가 너라면 그 장학금에 지원할 거야."
+        },
+        {
+          "sentence": "If I were you, I wouldn't worry so much.",
+          "translation": "내가 너라면 그렇게 걱정하지 않을 거야."
+        },
+        {
+          "sentence": "I would talk to her if I were you.",
+          "translation": "내가 너라면 그녀에게 말할 거야."
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "title": "Questions in Second Conditional",
+      "explanation": "Form questions by inverting 'would' and the subject, or by using 'What/Where/How would you...'",
+      "structure": "What would you do if...? / Would you... if...?",
+      "examples": [
+        {
+          "sentence": "What would you do if you won the lottery?",
+          "translation": "복권에 당첨되면 뭘 하겠어요?"
+        },
+        {
+          "sentence": "Would you move abroad if you had the chance?",
+          "translation": "기회가 있으면 해외로 이사하겠어요?"
+        },
+        {
+          "sentence": "Where would you live if you could choose anywhere?",
+          "translation": "어디든 선택할 수 있다면 어디에 살겠어요?"
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "If I _____ more money, I would buy a new car.",
+      "options": ["have", "had", "will have", "would have"],
+      "answer": "had"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "If she _____ (speak) Japanese, she could work in Tokyo.",
+      "answer": "spoke"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "I _____ travel more if I had more vacation days.",
+      "options": ["will", "would", "can", "do"],
+      "answer": "would"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "If I were you, I _____ (not/accept) that offer.",
+      "answer": "wouldn't accept"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "What would you do if you _____ the president?",
+      "options": ["are", "were", "will be", "would be"],
+      "answer": "were"
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "If it _____ (not/rain) so much, we would go hiking more often.",
+      "answer": "didn't rain"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "She _____ apply for that job if she had the right qualifications.",
+      "options": ["will", "can", "could", "does"],
+      "answer": "could"
+    },
+    {
+      "id": "ex8",
+      "type": "transformation",
+      "instruction": "Change to second conditional",
+      "original": "I don't have time, so I can't help you.",
+      "answer": "If I had time, I could help you."
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "If my friend _____ (live) closer, we would meet every week.",
+      "answer": "lived"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "If I _____ you, I would study harder for the exam.",
+      "options": ["am", "was", "were", "be"],
+      "answer": "were"
+    }
+  ]
+}

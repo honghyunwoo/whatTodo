@@ -1,0 +1,138 @@
+{
+  "id": "week-8-writing",
+  "weekId": "week-8",
+  "type": "writing",
+  "level": "B2",
+  "title": "The Future of Travel",
+  "description": "Write a predictive essay about how travel and tourism will change in the coming decades, using future perfect and future continuous tenses.",
+
+  "prompt": {
+    "topic": "How Travel Will Change in the Next 30 Years",
+    "scenario": "Write an essay predicting how travel and tourism will change by 2055. Consider factors such as technology, climate change, sustainability, cultural exchange, space tourism, or the impact of globalization. Use future perfect and future continuous tenses to discuss both completed changes and ongoing developments.",
+    "requirements": [
+      "Make at least three predictions about the future of travel",
+      "Use future perfect (will have + past participle) to describe what will be completed by specific future points",
+      "Use future continuous (will be + -ing) to describe what will be happening at future times",
+      "Include at least one example of future perfect continuous",
+      "Use appropriate travel and globalization vocabulary"
+    ],
+    "wordCount": { "min": 180, "max": 250 },
+    "timeLimit": 25
+  },
+
+  "writingHelp": {
+    "structure": {
+      "introduction": [
+        "The travel industry is on the brink of revolutionary change...",
+        "By 2055, the way we explore the world will have transformed completely...",
+        "In the coming decades, tourism will be experiencing unprecedented changes..."
+      ],
+      "bodyParagraphs": [
+        "By [year], technology will have revolutionized...",
+        "In [time period], travelers will be experiencing...",
+        "This time in [year], millions of people will be...",
+        "By the time today's children reach middle age, they will have witnessed...",
+        "Climate change will have altered...",
+        "Space tourism will be offering..."
+      ],
+      "conclusion": [
+        "By 2055, the travel landscape will have transformed beyond recognition...",
+        "The travelers of tomorrow will be exploring a very different world...",
+        "Although much will have changed, the human desire to explore will remain..."
+      ]
+    },
+    "usefulExpressions": [
+      { "phrase": "By + year/time, ... will have + past participle", "example": "By 2050, sustainable travel will have become the norm." },
+      { "phrase": "This time in + year, ... will be + -ing", "example": "This time in 2040, tourists will be visiting space stations." },
+      { "phrase": "By the time + clause, ... will have + past participle", "example": "By the time my children are adults, many destinations will have disappeared." },
+      { "phrase": "... will have been + -ing + for + duration", "example": "By 2060, humans will have been traveling to space for tourism for thirty years." },
+      { "phrase": "In + time period, ... will be + -ing", "example": "In twenty years, people will be using AI to plan every aspect of their trips." }
+    ],
+    "connectors": {
+      "sequence": ["First", "Second", "Furthermore", "Additionally", "Finally"],
+      "contrast": ["However", "On the other hand", "Despite this", "Although"],
+      "consequence": ["As a result", "Consequently", "Therefore", "Thus"],
+      "emphasis": ["Most importantly", "Significantly", "Crucially"]
+    },
+    "vocabularyBank": [
+      "sustainable", "eco-friendly", "carbon-neutral", "renewable", "innovation",
+      "artificial intelligence", "virtual reality", "augmented reality", "automation",
+      "globalization", "interconnected", "multicultural", "heritage", "preservation",
+      "climate change", "rising sea levels", "endangered destinations", "space tourism",
+      "digital nomad", "remote work", "authentic experience", "over-tourism"
+    ]
+  },
+
+  "rubric": {
+    "content": {
+      "weight": 0.25,
+      "criteria": [
+        "Clear and logical predictions about future travel",
+        "At least three specific predictions with supporting details",
+        "Consideration of multiple factors (technology, environment, culture)",
+        "Thoughtful analysis of implications"
+      ]
+    },
+    "grammar": {
+      "weight": 0.30,
+      "criteria": [
+        "Correct use of future perfect (will have + past participle)",
+        "Correct use of future continuous (will be + -ing)",
+        "Appropriate use of future perfect continuous",
+        "Accurate tense consistency throughout"
+      ]
+    },
+    "vocabulary": {
+      "weight": 0.25,
+      "criteria": [
+        "Use of travel and globalization vocabulary",
+        "Varied and precise word choice",
+        "Appropriate formal register",
+        "Correct collocations"
+      ]
+    },
+    "organization": {
+      "weight": 0.20,
+      "criteria": [
+        "Clear introduction, body, and conclusion",
+        "Logical progression of ideas",
+        "Effective use of connectors",
+        "Coherent paragraphing"
+      ]
+    }
+  },
+
+  "sampleAnswer": {
+    "text": "The travel industry stands at the threshold of revolutionary change. By 2055, the way we explore our world will have transformed in ways we can barely imagine today.\n\nFirst, technology will have revolutionized every aspect of travel. By then, artificial intelligence will have made trip planning effortless—algorithms will be creating personalized itineraries based on our preferences and real-time conditions. This time in 2040, travelers will be using augmented reality to experience destinations in entirely new ways, with historical information appearing before their eyes. Virtual tourism will be offering alternatives for those who cannot travel physically.\n\nSecond, climate change will have dramatically altered the tourism map. By mid-century, rising sea levels will have transformed many coastal destinations. Some iconic beaches will have disappeared, while new destinations will have emerged. Travelers will be visiting endangered environments before they vanish forever. Most importantly, sustainable travel will have become mandatory rather than optional.\n\nFinally, space tourism will be providing entirely new frontiers. By 2055, thousands of people will have experienced orbital flights. This time next century, tourists will be staying in space hotels that, today, exist only in science fiction. Humans will have been traveling to space for leisure for decades.\n\nDespite these changes, the fundamental human desire to explore will remain unchanged. By 2055, travel will have evolved beyond recognition, but we will still be seeking connection, understanding, and wonder.",
+    "wordCount": 235,
+    "annotations": [
+      { "text": "will have transformed", "comment": "Future perfect - completion by 2055" },
+      { "text": "will have revolutionized", "comment": "Future perfect" },
+      { "text": "will be creating", "comment": "Future continuous - ongoing action" },
+      { "text": "will be using", "comment": "Future continuous" },
+      { "text": "will be offering", "comment": "Future continuous" },
+      { "text": "will have dramatically altered", "comment": "Future perfect" },
+      { "text": "will have transformed", "comment": "Future perfect" },
+      { "text": "will have disappeared", "comment": "Future perfect" },
+      { "text": "will be visiting", "comment": "Future continuous" },
+      { "text": "will have become mandatory", "comment": "Future perfect" },
+      { "text": "will be providing", "comment": "Future continuous" },
+      { "text": "will have experienced", "comment": "Future perfect" },
+      { "text": "will be staying", "comment": "Future continuous" },
+      { "text": "will have been traveling", "comment": "Future perfect continuous - duration emphasis" },
+      { "text": "will have evolved", "comment": "Future perfect" },
+      { "text": "will still be seeking", "comment": "Future continuous" }
+    ]
+  },
+
+  "selfCheckList": [
+    "Did I make at least three clear predictions about future travel?",
+    "Did I use 'will have + past participle' to describe completed future actions?",
+    "Did I use 'will be + -ing' to describe ongoing future activities?",
+    "Did I include at least one example of future perfect continuous?",
+    "Did I use appropriate travel and globalization vocabulary?",
+    "Did I consider different factors like technology, climate, and culture?",
+    "Did I use connectors to link my ideas effectively?",
+    "Is my essay within the word count (180-250 words)?"
+  ]
+}

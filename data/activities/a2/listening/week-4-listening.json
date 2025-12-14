@@ -1,0 +1,34 @@
+{
+  "id": "week-4-listening",
+  "weekId": "week-4",
+  "type": "listening",
+  "level": "A2",
+  "title": "At the Doctor's Office",
+  "description": "Listen to a conversation between a patient and a doctor.",
+
+  "audio": {
+    "text": "Doctor: Good morning. What seems to be the problem today? [PAUSE] Patient: I've been feeling terrible for the past three days. I have a bad headache and a sore throat. [PAUSE] Doctor: I see. Do you have a fever? [PAUSE] Patient: Yes, I think so. I've been feeling hot and cold. [PAUSE] Doctor: Let me check your temperature. It's 38.5 degrees. You have a slight fever. Any other symptoms? [PAUSE] Patient: I've also been coughing a lot, especially at night. [PAUSE] Doctor: Have you taken any medicine? [PAUSE] Patient: Just some painkillers for the headache. [PAUSE] Doctor: Okay. It sounds like you have the flu. You should rest for a few days. I'll give you a prescription for medicine. Take it three times a day after meals. [PAUSE] Patient: How long will I feel like this? [PAUSE] Doctor: You should feel better in about a week. Drink lots of water and get plenty of rest. Come back if you don't feel better in 5 days.",
+    "speed": 0.8
+  },
+
+  "dictation": {
+    "targetSentences": [
+      "What seems to be the problem today?",
+      "You should rest for a few days.",
+      "Take it three times a day after meals."
+    ]
+  },
+
+  "questions": [
+    {"id": "q1", "type": "short_answer", "question": "How many days has the patient been sick?", "answer": "3", "explanation": "The patient has been sick for three days."},
+    {"id": "q2", "type": "multiple_choice", "question": "What symptoms does the patient have?", "options": ["Headache and sore throat", "Broken arm", "Back pain", "Eye problems"], "answer": "Headache and sore throat", "explanation": "The patient has a headache and sore throat."},
+    {"id": "q3", "type": "short_answer", "question": "What is the patient's temperature? (number only)", "answer": "38.5", "explanation": "The temperature is 38.5 degrees."},
+    {"id": "q4", "type": "true_false", "question": "The patient has a high fever.", "options": ["True", "False"], "answer": "False", "explanation": "The doctor said it's a slight (small) fever."},
+    {"id": "q5", "type": "multiple_choice", "question": "When does the patient cough the most?", "options": ["At night", "In the morning", "After meals", "During exercise"], "answer": "At night", "explanation": "The patient coughs especially at night."},
+    {"id": "q6", "type": "multiple_choice", "question": "What medicine did the patient already take?", "options": ["Painkillers", "Antibiotics", "Cough syrup", "Nothing"], "answer": "Painkillers", "explanation": "The patient took painkillers for the headache."},
+    {"id": "q7", "type": "multiple_choice", "question": "What does the doctor think the patient has?", "options": ["The flu", "A broken bone", "Food poisoning", "Allergies"], "answer": "The flu", "explanation": "The doctor says it sounds like the flu."},
+    {"id": "q8", "type": "multiple_choice", "question": "How often should the patient take the medicine?", "options": ["Three times a day", "Once a day", "Twice a day", "Four times a day"], "answer": "Three times a day", "explanation": "Take the medicine three times a day."},
+    {"id": "q9", "type": "multiple_choice", "question": "When should the patient take the medicine?", "options": ["After meals", "Before meals", "Before bed", "In the morning only"], "answer": "After meals", "explanation": "Take it after meals."},
+    {"id": "q10", "type": "multiple_choice", "question": "When should the patient come back?", "options": ["If not better in 5 days", "After 1 week", "Tomorrow", "In 2 days"], "answer": "If not better in 5 days", "explanation": "Come back if not better in 5 days."}
+  ]
+}

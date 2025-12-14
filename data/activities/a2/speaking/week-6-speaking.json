@@ -1,0 +1,135 @@
+{
+  "id": "week-6-speaking",
+  "weekId": "week-6",
+  "type": "speaking",
+  "level": "A2",
+  "title": "Talking About Weather",
+  "description": "Practice speaking about weather conditions and making comparisons.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "What's the weather like today?",
+      "translation": "오늘 날씨가 어때요?",
+      "tips": "'What's'를 자연스럽게 축약하고, 끝을 올려서 의문문으로 발음하세요."
+    },
+    {
+      "id": "s2",
+      "text": "It's sunny and warm today.",
+      "translation": "오늘은 화창하고 따뜻해요.",
+      "tips": "'sunny'와 'warm'을 강조해서 날씨를 묘사하세요."
+    },
+    {
+      "id": "s3",
+      "text": "The temperature is about twenty degrees.",
+      "translation": "기온은 약 20도예요.",
+      "tips": "'temperature'의 강세는 첫 번째 음절: TEM-per-a-ture."
+    },
+    {
+      "id": "s4",
+      "text": "It's hotter today than yesterday.",
+      "translation": "오늘이 어제보다 더 더워요.",
+      "tips": "'hotter'와 'yesterday'를 비교하며 강조하세요."
+    },
+    {
+      "id": "s5",
+      "text": "Summer is the hottest season.",
+      "translation": "여름은 가장 더운 계절이에요.",
+      "tips": "'hottest'를 강조해서 최상급을 표현하세요."
+    },
+    {
+      "id": "s6",
+      "text": "It looks like it's going to rain.",
+      "translation": "비가 올 것 같아요.",
+      "tips": "'looks like'를 연결해서 자연스럽게, 'rain'을 명확하게 발음하세요."
+    },
+    {
+      "id": "s7",
+      "text": "Don't forget to bring an umbrella.",
+      "translation": "우산 가져가는 것 잊지 마세요.",
+      "tips": "'Don't forget'을 한 덩어리로, 'umbrella'의 강세는 두 번째 음절: um-BREL-la."
+    },
+    {
+      "id": "s8",
+      "text": "The forecast says it will be cloudy tomorrow.",
+      "translation": "일기 예보에 따르면 내일 흐릴 거래요.",
+      "tips": "'forecast'의 강세는 첫 음절: FORE-cast."
+    },
+    {
+      "id": "s9",
+      "text": "Spring is my favorite season.",
+      "translation": "봄은 제가 가장 좋아하는 계절이에요.",
+      "tips": "'favorite'를 강조하고, 'season'을 명확하게 발음하세요."
+    },
+    {
+      "id": "s10",
+      "text": "It's getting colder these days.",
+      "translation": "요즘 점점 추워지고 있어요.",
+      "tips": "'getting colder'를 연결해서 변화를 표현하세요."
+    },
+    {
+      "id": "s11",
+      "text": "The weather is perfect for a picnic.",
+      "translation": "소풍하기 완벽한 날씨예요.",
+      "tips": "'perfect'를 강조하고, 긍정적인 톤으로 말하세요."
+    },
+    {
+      "id": "s12",
+      "text": "I prefer autumn because the weather is mild.",
+      "translation": "날씨가 온화해서 가을을 선호해요.",
+      "tips": "'prefer'와 'mild'를 강조해서 이유를 명확히 하세요."
+    }
+  ],
+
+  "dialoguePractice": {
+    "title": "Discussing the Weather",
+    "roles": ["A", "B"],
+    "lines": [
+      {"role": "A", "text": "What's the weather like today?"},
+      {"role": "B", "text": "It's sunny but a bit cold."},
+      {"role": "A", "text": "Is it colder than yesterday?"},
+      {"role": "B", "text": "Yes, the temperature dropped to 15 degrees."},
+      {"role": "A", "text": "What's the forecast for the weekend?"},
+      {"role": "B", "text": "They say Saturday will be warmer and sunny."}
+    ]
+  },
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation & Intonation",
+      "items": [
+        "Did you pronounce weather vocabulary clearly?",
+        "Did you use rising intonation for questions?",
+        "Did you stress comparative and superlative forms correctly?",
+        "Did you speak at a natural pace?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you speak without long pauses?",
+        "Did you connect words naturally?",
+        "Did you complete all sentences?",
+        "Did you practice the dialogue smoothly?"
+      ]
+    },
+    {
+      "category": "Accuracy",
+      "items": [
+        "Did you use comparatives correctly (hotter, colder)?",
+        "Did you use superlatives correctly (the hottest)?",
+        "Did you form questions correctly?",
+        "Did you follow the pronunciation tips?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Could a listener understand the weather description?",
+        "Did you sound natural when making comparisons?",
+        "Did you express preferences clearly?",
+        "Did you record and compare all sentences?"
+      ]
+    }
+  ]
+}

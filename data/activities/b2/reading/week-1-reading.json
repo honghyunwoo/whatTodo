@@ -1,0 +1,146 @@
+{
+  "id": "week-1-reading",
+  "weekId": "week-1",
+  "type": "reading",
+  "level": "B2",
+  "title": "The Evolution of News Media",
+  "description": "Read about how news consumption has changed and its impact on society.",
+
+  "passage": {
+    "text": "The way we consume news has undergone a dramatic transformation over the past two decades. Before the internet had become mainstream, most people relied on traditional media sources: daily newspapers, evening television broadcasts, and radio bulletins. These outlets had served as trusted gatekeepers of information for generations, with professional journalists verifying facts before stories reached the public.\n\nHowever, the rise of digital media has fundamentally changed this landscape. By the time many newspapers realized they needed to adapt, social media platforms had already become the primary news source for millions of people. A 2023 study revealed that over 60% of adults under 30 get their news primarily from social media, compared to just 15% who regularly read newspapers.\n\nThis shift has brought both advantages and challenges. On the positive side, news now travels faster than ever before. Events that are happening on the other side of the world can be reported within minutes. Citizens can share firsthand accounts of breaking news, often before professional journalists arrive on the scene. During major events, social media has proven invaluable for real-time updates.\n\nYet this democratization of information has come at a cost. Without the traditional editorial oversight that newspapers had provided, misinformation spreads easily. Research has shown that false stories spread six times faster on social media than accurate ones. The algorithms that determine what content users see tend to favor sensational and emotionally charged material, regardless of its truthfulness.\n\nThe economic model of online journalism has also created problems. Many news websites rely on advertising revenue, which is directly tied to how many people view their content. This has led to a rise in 'clickbait' headlines designed to attract attention rather than accurately represent stories. Journalists who had previously focused on in-depth reporting now find themselves under pressure to produce content quickly.\n\nMedia literacy experts argue that education is the key to navigating this new landscape. Schools in several countries have begun teaching students how to evaluate sources, identify bias, and distinguish between news and opinion. These skills, which previous generations had never needed to develop, have become essential for informed citizenship in the digital age.\n\nDespite the challenges, many believe there are reasons for optimism. Quality journalism continues to exist, and readers are increasingly willing to pay for reliable news sources. The fact-checking industry has grown significantly, and social media platforms have begun implementing measures to combat misinformation. As we adapt to this new media environment, the fundamental importance of accurate, trustworthy journalism remains unchanged.",
+    "wordCount": 395,
+    "estimatedReadingTime": 6
+  },
+
+  "vocabulary": [
+    {
+      "word": "undergo",
+      "meaning": "to experience or be subjected to something",
+      "translation": "겪다, 경험하다"
+    },
+    {
+      "word": "gatekeepers",
+      "meaning": "people who control access to information",
+      "translation": "문지기, 정보 통제자"
+    },
+    {
+      "word": "democratization",
+      "meaning": "making something accessible to everyone",
+      "translation": "민주화, 대중화"
+    },
+    {
+      "word": "oversight",
+      "meaning": "watchful care and supervision",
+      "translation": "감독, 감시"
+    },
+    {
+      "word": "clickbait",
+      "meaning": "content designed mainly to attract clicks",
+      "translation": "클릭 유도 콘텐츠"
+    },
+    {
+      "word": "literacy",
+      "meaning": "competence in a particular area",
+      "translation": "소양, 이해력"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What role had traditional media outlets served before the internet became mainstream?",
+      "options": ["Entertainment providers", "Trusted gatekeepers of information", "Social networking platforms", "Advertising agencies"],
+      "answer": "Trusted gatekeepers of information",
+      "explanation": "The passage states these outlets 'had served as trusted gatekeepers of information for generations.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "According to the 2023 study, more than half of young adults get news primarily from newspapers.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The study shows 'over 60% of adults under 30 get their news primarily from social media' with only 15% reading newspapers."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What had happened by the time newspapers realized they needed to adapt?",
+      "options": ["They had lost all advertisers", "Social media had become the primary news source", "Television had disappeared", "All journalists had retired"],
+      "answer": "Social media had become the primary news source",
+      "explanation": "The passage says 'By the time many newspapers realized they needed to adapt, social media platforms had already become the primary news source.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "According to research, how much faster do false stories spread compared to accurate ones?",
+      "options": ["Two times faster", "Four times faster", "Six times faster", "Ten times faster"],
+      "answer": "Six times faster",
+      "explanation": "The passage states 'false stories spread six times faster on social media than accurate ones.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Social media algorithms tend to favor accurate and balanced content.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says algorithms 'favor sensational and emotionally charged material, regardless of its truthfulness.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What has the economic model of online journalism led to?",
+      "options": ["Higher quality journalism", "Rise in clickbait headlines", "More investigative reporting", "Fewer advertisements"],
+      "answer": "Rise in clickbait headlines",
+      "explanation": "The passage explains that reliance on advertising revenue 'has led to a rise in clickbait headlines.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What pressure do journalists now face that they hadn't before?",
+      "options": ["To learn multiple languages", "To produce content quickly", "To appear on television", "To travel more"],
+      "answer": "To produce content quickly",
+      "explanation": "The passage says 'Journalists who had previously focused on in-depth reporting now find themselves under pressure to produce content quickly.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Previous generations had needed to develop media literacy skills.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage describes these as 'skills, which previous generations had never needed to develop.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What are schools in several countries now teaching students?",
+      "options": ["How to become journalists", "How to use social media", "How to evaluate sources and identify bias", "How to write clickbait"],
+      "answer": "How to evaluate sources and identify bias",
+      "explanation": "Schools 'have begun teaching students how to evaluate sources, identify bias, and distinguish between news and opinion.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What positive sign about readers does the passage mention?",
+      "options": ["They watch more TV news", "They are willing to pay for reliable sources", "They share more articles", "They avoid all social media"],
+      "answer": "They are willing to pay for reliable sources",
+      "explanation": "The passage notes 'readers are increasingly willing to pay for reliable news sources.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What industry has grown significantly to combat misinformation?",
+      "answer": "fact-checking industry",
+      "alternateAnswers": ["fact-checking", "fact checking industry", "the fact-checking industry"],
+      "explanation": "The passage states 'The fact-checking industry has grown significantly.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "The passage concludes that the importance of trustworthy journalism has diminished.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage concludes that 'the fundamental importance of accurate, trustworthy journalism remains unchanged.'"
+    }
+  ]
+}

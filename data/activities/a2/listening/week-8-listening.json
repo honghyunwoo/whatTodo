@@ -1,0 +1,122 @@
+{
+  "id": "week-8-listening",
+  "weekId": "week-8",
+  "type": "listening",
+  "level": "A2",
+  "title": "Asking for Directions",
+  "description": "Listen to people asking for and giving directions.",
+
+  "audio": {
+    "text": "Tourist: Excuse me. I'm looking for the National Museum. Can you help me?\nLocal: Of course! It's not far from here. Do you know where City Hall is?\nTourist: Yes, I passed it on my way here.\nLocal: Great! So, from here, go straight for about two blocks. You'll see a big intersection with traffic lights.\nTourist: Okay, go straight for two blocks to the intersection.\nLocal: Right. At the intersection, turn left. Walk past the post office - it's on your right.\nTourist: Turn left, then pass the post office.\nLocal: Yes. After the post office, continue for one more block. The museum will be on your left. It's a large building with a modern design. You can't miss it.\nTourist: So it's on the left, after the post office?\nLocal: Exactly. It's about a 10-minute walk from here.\nTourist: Is it open today? Do you know?\nLocal: I think it's open every day except Monday. And today is Wednesday, so you should be fine.\nTourist: Thank you so much for your help!\nLocal: You're welcome. Enjoy your visit!",
+    "duration": 90,
+    "speed": 0.8,
+    "speakers": ["Tourist", "Local"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "I'm looking for the National Museum.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "d2",
+        "text": "Go straight for about two blocks.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "d3",
+        "text": "Walk past the post office - it's on your right.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d4",
+        "text": "It's a large building with a modern design.",
+        "difficulty": "medium"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "Where does the tourist want to go?",
+      "options": ["City Hall", "Post Office", "National Museum", "Train Station"],
+      "answer": "National Museum",
+      "explanation": "The tourist says 'I'm looking for the National Museum.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "The museum is very far from the current location.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The local says 'It's not far from here.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "How many blocks should the tourist go straight first?",
+      "options": ["One", "Two", "Three", "Four"],
+      "answer": "Two",
+      "explanation": "The local says 'go straight for about two blocks.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What should the tourist do at the intersection?",
+      "options": ["Turn right", "Turn left", "Go straight", "Cross the street"],
+      "answer": "Turn left",
+      "explanation": "The local says 'At the intersection, turn left.'"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "Which building should the tourist pass?",
+      "options": ["A bank", "A hospital", "A post office", "A restaurant"],
+      "answer": "A post office",
+      "explanation": "The local says 'Walk past the post office.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "Which side is the post office on?",
+      "options": ["Left", "Right", "Straight ahead", "Behind"],
+      "answer": "Right",
+      "explanation": "The local says 'it's on your right.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "Which side will the museum be on?",
+      "options": ["Left", "Right", "Straight ahead", "On the corner"],
+      "answer": "Left",
+      "explanation": "The local says 'The museum will be on your left.'"
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "How long is the walk to the museum?",
+      "options": ["5 minutes", "10 minutes", "15 minutes", "20 minutes"],
+      "answer": "10 minutes",
+      "explanation": "The local says 'It's about a 10-minute walk from here.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "When is the museum closed?",
+      "options": ["Sunday", "Monday", "Tuesday", "Wednesday"],
+      "answer": "Monday",
+      "explanation": "The local says 'it's open every day except Monday.'"
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "question": "What day is it in the conversation?",
+      "answer": "Wednesday",
+      "explanation": "The local says 'today is Wednesday.'"
+    }
+  ]
+}

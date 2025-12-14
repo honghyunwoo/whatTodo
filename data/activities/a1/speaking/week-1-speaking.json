@@ -1,0 +1,103 @@
+{
+  "id": "week-1-speaking",
+  "weekId": "week-1",
+  "type": "speaking",
+  "level": "A1",
+  "title": "기본 인사 말하기",
+  "description": "간단한 인사와 자기소개 문장을 따라 말해봅니다.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "Hello! How are you?",
+      "translation": "안녕하세요! 어떻게 지내세요?",
+      "tips": "'Hello'는 밝고 명랑하게, 'How are you'는 자연스럽게 올라가는 억양으로 발음하세요."
+    },
+    {
+      "id": "s2",
+      "text": "I am fine, thank you.",
+      "translation": "저는 잘 지내요, 감사합니다.",
+      "tips": "'fine'을 강조하고, 'thank you'는 진심을 담아 또렷하게 발음하세요."
+    },
+    {
+      "id": "s3",
+      "text": "My name is John.",
+      "translation": "제 이름은 John입니다.",
+      "tips": "'My name is'를 한 덩어리로 빠르게, 이름은 천천히 명확하게 발음하세요."
+    },
+    {
+      "id": "s4",
+      "text": "Nice to meet you.",
+      "translation": "만나서 반갑습니다.",
+      "tips": "'Nice to meet you'는 따뜻한 미소와 함께 자연스럽게 발음하세요."
+    },
+    {
+      "id": "s5",
+      "text": "Where are you from?",
+      "translation": "어디 출신이세요?",
+      "tips": "'Where'를 강조하고, 'are you from'은 올라가는 의문문 억양으로 끝내세요."
+    },
+    {
+      "id": "s6",
+      "text": "I am from Korea.",
+      "translation": "저는 한국 출신입니다.",
+      "tips": "'Korea'를 명확하게 발음하고, 'I am from'은 자연스럽게 연결하세요."
+    },
+    {
+      "id": "s7",
+      "text": "What do you do?",
+      "translation": "무슨 일을 하세요?",
+      "tips": "'What'과 'do'를 강조하고, 마지막 'do'는 올라가는 억양으로 발음하세요."
+    },
+    {
+      "id": "s8",
+      "text": "I am a student.",
+      "translation": "저는 학생입니다.",
+      "tips": "'student'를 명확하게 발음하고, 'a'는 약하게 발음하세요."
+    },
+    {
+      "id": "s9",
+      "text": "Goodbye! See you later.",
+      "translation": "안녕히 가세요! 나중에 봐요.",
+      "tips": "'Goodbye'는 따뜻하게, 'See you later'는 친근하게 발음하세요."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "🔊 발음 및 억양",
+      "items": [
+        "문장의 시작과 끝을 명확하게 발음했나요?",
+        "의문문의 올라가는 억양을 잘 표현했나요?",
+        "강조해야 할 단어를 잘 강조했나요?",
+        "자연스러운 속도로 말했나요?"
+      ]
+    },
+    {
+      "category": "💬 유창성",
+      "items": [
+        "막힘 없이 자연스럽게 말했나요?",
+        "단어들을 자연스럽게 연결했나요?",
+        "적절한 곳에서 쉼을 두었나요?",
+        "전체 문장을 완성했나요?"
+      ]
+    },
+    {
+      "category": "🎯 정확성",
+      "items": [
+        "모든 단어를 정확하게 발음했나요?",
+        "문법적으로 올바른 문장을 말했나요?",
+        "발음 팁을 참고해서 연습했나요?"
+      ]
+    },
+    {
+      "category": "😊 전달력",
+      "items": [
+        "감정을 담아서 말했나요?",
+        "듣는 사람에게 잘 전달될 것 같나요?",
+        "자신감 있게 말했나요?",
+        "모든 문장을 녹음해봤나요?"
+      ]
+    }
+  ]
+}

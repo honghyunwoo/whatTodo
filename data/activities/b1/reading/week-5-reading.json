@@ -1,0 +1,146 @@
+{
+  "id": "week-5-reading",
+  "weekId": "week-5",
+  "type": "reading",
+  "level": "B1",
+  "title": "Protecting Our Planet",
+  "description": "Read about environmental challenges and what we can do to help.",
+
+  "passage": {
+    "text": "Our planet is facing serious environmental challenges. Climate change, pollution, and loss of biodiversity are affecting communities worldwide. However, there is hope. More and more people are taking action to protect the environment.\n\nOne of the biggest environmental issues is plastic pollution. Every year, millions of tons of plastic end up in our oceans, harming marine life and entering our food chain. Many countries have started banning single-use plastics like bags and straws. These bans are becoming increasingly common as people recognize the damage caused by disposable items.\n\nClimate change is perhaps the most urgent challenge we face. Global temperatures are rising faster than ever before, causing extreme weather events like floods, droughts, and hurricanes. Scientists agree that reducing carbon emissions is essential. This means using more renewable energy, improving energy efficiency, and changing the way we travel and consume goods.\n\nThe good news is that solutions exist, and many are becoming more affordable. Solar and wind power are now cheaper than fossil fuels in many parts of the world. Electric vehicles are becoming as common as traditional cars in some cities. Sustainable farming methods are being adopted to protect soil and water.\n\nWhat can individuals do? Small changes in daily habits can make a significant difference. Using public transport, reducing meat consumption, saving water and electricity, and choosing products with less packaging all help. The more people who make these choices, the greater the impact.\n\nEducation is also crucial. The younger generation is often more aware of environmental issues than their parents were. Young activists around the world are demanding action from governments and businesses. Their passion and determination give us hope for the future.\n\nProtecting the environment is not just the responsibility of governments or large companies. It requires action from all of us. Every small step counts.",
+    "wordCount": 295,
+    "estimatedReadingTime": 4
+  },
+
+  "vocabulary": [
+    {
+      "word": "biodiversity",
+      "meaning": "variety of plant and animal life",
+      "translation": "생물 다양성"
+    },
+    {
+      "word": "marine life",
+      "meaning": "animals and plants that live in the sea",
+      "translation": "해양 생물"
+    },
+    {
+      "word": "emissions",
+      "meaning": "gases released into the atmosphere",
+      "translation": "배출(가스)"
+    },
+    {
+      "word": "fossil fuels",
+      "meaning": "fuels like coal, oil, and gas",
+      "translation": "화석 연료"
+    },
+    {
+      "word": "sustainable",
+      "meaning": "able to continue without causing damage",
+      "translation": "지속 가능한"
+    },
+    {
+      "word": "activists",
+      "meaning": "people who campaign for change",
+      "translation": "활동가"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "According to the passage, what are three main environmental challenges?",
+      "options": ["Pollution, war, and poverty", "Climate change, pollution, and biodiversity loss", "Deforestation, floods, and earthquakes", "Overpopulation, hunger, and disease"],
+      "answer": "Climate change, pollution, and biodiversity loss",
+      "explanation": "The passage states 'Climate change, pollution, and loss of biodiversity are affecting communities worldwide.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Plastic pollution only affects ocean animals.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says plastic harms 'marine life and entering our food chain,' affecting humans too."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What are many countries banning to reduce plastic pollution?",
+      "options": ["All plastic products", "Single-use plastics like bags and straws", "Plastic bottles only", "Food packaging"],
+      "answer": "Single-use plastics like bags and straws",
+      "explanation": "The passage says 'Many countries have started banning single-use plastics like bags and straws.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What do scientists say is essential to address climate change?",
+      "options": ["Building more factories", "Reducing carbon emissions", "Using more oil", "Cutting down forests"],
+      "answer": "Reducing carbon emissions",
+      "explanation": "The passage states 'Scientists agree that reducing carbon emissions is essential.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Solar and wind power are more expensive than fossil fuels everywhere.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'Solar and wind power are now cheaper than fossil fuels in many parts of the world.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What is NOT mentioned as something individuals can do?",
+      "options": ["Using public transport", "Reducing meat consumption", "Buying a new car", "Saving water and electricity"],
+      "answer": "Buying a new car",
+      "explanation": "The passage mentions transport, meat, water, electricity, and packaging, but not buying a new car."
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "Young people are often more aware of environmental issues than their parents.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage says 'The younger generation is often more aware of environmental issues than their parents were.'"
+    },
+    {
+      "id": "q8",
+      "type": "multiple_choice",
+      "question": "According to the passage, who is demanding action on environmental issues?",
+      "options": ["Scientists only", "Young activists", "Governments only", "Large companies"],
+      "answer": "Young activists",
+      "explanation": "The passage says 'Young activists around the world are demanding action from governments and businesses.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What is the main message at the end of the passage?",
+      "options": ["Governments should do everything", "Only big companies can help", "Everyone needs to take action", "The problem is too big to solve"],
+      "answer": "Everyone needs to take action",
+      "explanation": "The passage concludes 'It requires action from all of us. Every small step counts.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What gives the author hope for the future?",
+      "options": ["New technology", "Government policies", "Young activists' passion and determination", "Lower costs"],
+      "answer": "Young activists' passion and determination",
+      "explanation": "The passage says 'Their passion and determination give us hope for the future.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What becomes greater when more people make environmentally friendly choices?",
+      "answer": "impact",
+      "alternateAnswers": ["the impact", "the effect", "difference"],
+      "explanation": "The passage says 'The more people who make these choices, the greater the impact.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "Electric vehicles are becoming as common as traditional cars in some cities.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage states 'Electric vehicles are becoming as common as traditional cars in some cities.'"
+    }
+  ]
+}

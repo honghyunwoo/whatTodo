@@ -1,0 +1,146 @@
+{
+  "id": "week-3-reading",
+  "weekId": "week-3",
+  "type": "reading",
+  "level": "B1",
+  "title": "The Art of Communication",
+  "description": "Read about effective communication and building strong relationships.",
+
+  "passage": {
+    "text": "Good communication is the foundation of every strong relationship, whether it's with family, friends, or colleagues. Yet many people struggle to express themselves clearly or to truly listen to others.\n\nOne of the most important communication skills is active listening. This means giving your full attention to the speaker, not just waiting for your turn to talk. When someone is speaking, try to understand their perspective before responding. You might be surprised how much this simple practice can improve your relationships.\n\nAnother key skill is expressing your feelings honestly but respectfully. Many misunderstandings happen because people avoid saying what they really mean. If something bothers you, it's usually better to address it directly rather than let resentment build up. However, how you say something matters as much as what you say.\n\nExperts suggest using \"I\" statements instead of \"you\" statements when discussing problems. For example, saying \"I feel upset when plans change at the last minute\" is more effective than \"You always cancel on me.\" The first approach expresses your feelings without blaming the other person.\n\nNon-verbal communication is equally important. Studies show that body language, facial expressions, and tone of voice carry more meaning than words alone. Maintaining eye contact, nodding, and keeping an open posture all signal that you're engaged in the conversation.\n\nFinally, remember that good communication takes practice. Nobody is perfect, and we all make mistakes. The key is to keep learning, stay patient with yourself and others, and remember that understanding each other is worth the effort.",
+    "wordCount": 260,
+    "estimatedReadingTime": 4
+  },
+
+  "vocabulary": [
+    {
+      "word": "foundation",
+      "meaning": "the basis or groundwork of something",
+      "translation": "기초, 토대"
+    },
+    {
+      "word": "active listening",
+      "meaning": "paying full attention to a speaker",
+      "translation": "적극적 경청"
+    },
+    {
+      "word": "perspective",
+      "meaning": "a way of thinking about something",
+      "translation": "관점"
+    },
+    {
+      "word": "resentment",
+      "meaning": "bitter feelings about unfair treatment",
+      "translation": "분개, 원한"
+    },
+    {
+      "word": "non-verbal",
+      "meaning": "without using words",
+      "translation": "비언어적인"
+    },
+    {
+      "word": "engaged",
+      "meaning": "involved and interested",
+      "translation": "참여하는, 몰두하는"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "According to the passage, what is the foundation of strong relationships?",
+      "options": ["Money", "Time", "Good communication", "Similar interests"],
+      "answer": "Good communication",
+      "explanation": "The passage says 'Good communication is the foundation of every strong relationship.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Active listening means preparing what you want to say next.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Active listening means 'giving your full attention to the speaker, not just waiting for your turn to talk.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What should you try to do before responding to someone?",
+      "options": ["Prepare your argument", "Understand their perspective", "Change the topic", "Express your opinion first"],
+      "answer": "Understand their perspective",
+      "explanation": "The passage says 'try to understand their perspective before responding.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What causes many misunderstandings according to the passage?",
+      "options": ["Speaking too fast", "People avoid saying what they really mean", "Cultural differences", "Language barriers"],
+      "answer": "People avoid saying what they really mean",
+      "explanation": "The passage states 'Many misunderstandings happen because people avoid saying what they really mean.'"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What type of statements do experts suggest using when discussing problems?",
+      "options": ["'We' statements", "'You' statements", "'I' statements", "'They' statements"],
+      "answer": "'I' statements",
+      "explanation": "The passage says 'Experts suggest using \"I\" statements instead of \"you\" statements.'"
+    },
+    {
+      "id": "q6",
+      "type": "true_false",
+      "question": "'You always cancel on me' is an example of effective communication.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage gives this as an example of ineffective communication, contrasting it with 'I' statements."
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "According to studies, what carries more meaning than words alone?",
+      "options": ["Written messages", "Body language, facial expressions, and tone", "The length of conversations", "Grammar"],
+      "answer": "Body language, facial expressions, and tone",
+      "explanation": "Studies show that 'body language, facial expressions, and tone of voice carry more meaning than words alone.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Maintaining eye contact shows you're engaged in a conversation.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage states 'Maintaining eye contact, nodding, and keeping an open posture all signal that you're engaged.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What should you do if something bothers you?",
+      "options": ["Ignore it", "Let resentment build up", "Address it directly", "Wait for the other person to notice"],
+      "answer": "Address it directly",
+      "explanation": "The passage says 'it's usually better to address it directly rather than let resentment build up.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What is true about good communication according to the passage?",
+      "options": ["It's natural for everyone", "It takes practice", "Only some people can do it", "It's impossible to learn"],
+      "answer": "It takes practice",
+      "explanation": "The passage says 'good communication takes practice.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What two things should you stay when practicing communication?",
+      "answer": "patient",
+      "alternateAnswers": ["patient with yourself and others", "patient with yourself", "learning and patient"],
+      "explanation": "The passage says 'stay patient with yourself and others.'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "What is the main message of the passage?",
+      "options": ["Communication is easy", "Words matter most", "Understanding each other is worth the effort", "Everyone communicates the same way"],
+      "answer": "Understanding each other is worth the effort",
+      "explanation": "The passage concludes 'understanding each other is worth the effort.'"
+    }
+  ]
+}

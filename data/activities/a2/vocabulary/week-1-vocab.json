@@ -1,0 +1,326 @@
+{
+  "id": "week-1-vocab",
+  "weekId": "week-1",
+  "type": "vocabulary",
+  "level": "A2",
+  "title": "Travel & Transportation",
+  "description": "Learn essential vocabulary for traveling and using different modes of transportation.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "Airport",
+      "pronunciation": "/ˈeəpɔːrt/",
+      "partOfSpeech": "noun",
+      "meaning": "공항",
+      "example": "We arrived at the airport two hours early.",
+      "exampleMeaning": "우리는 두 시간 일찍 공항에 도착했습니다."
+    },
+    {
+      "id": "w2",
+      "word": "Passport",
+      "pronunciation": "/ˈpæspɔːrt/",
+      "partOfSpeech": "noun",
+      "meaning": "여권",
+      "example": "Don't forget to bring your passport.",
+      "exampleMeaning": "여권 가져오는 것 잊지 마세요."
+    },
+    {
+      "id": "w3",
+      "word": "Luggage",
+      "pronunciation": "/ˈlʌɡɪdʒ/",
+      "partOfSpeech": "noun",
+      "meaning": "짐, 수하물",
+      "example": "My luggage was lost during the flight.",
+      "exampleMeaning": "비행 중에 제 짐을 분실했습니다."
+    },
+    {
+      "id": "w4",
+      "word": "Boarding pass",
+      "pronunciation": "/ˈbɔːrdɪŋ pæs/",
+      "partOfSpeech": "noun",
+      "meaning": "탑승권",
+      "example": "Please show your boarding pass.",
+      "exampleMeaning": "탑승권을 보여주세요."
+    },
+    {
+      "id": "w5",
+      "word": "Flight",
+      "pronunciation": "/flaɪt/",
+      "partOfSpeech": "noun",
+      "meaning": "비행기, 항공편",
+      "example": "My flight leaves at 3 PM.",
+      "exampleMeaning": "제 비행기는 오후 3시에 출발합니다."
+    },
+    {
+      "id": "w6",
+      "word": "Departure",
+      "pronunciation": "/dɪˈpɑːrtʃər/",
+      "partOfSpeech": "noun",
+      "meaning": "출발",
+      "example": "The departure time has changed.",
+      "exampleMeaning": "출발 시간이 변경되었습니다."
+    },
+    {
+      "id": "w7",
+      "word": "Arrival",
+      "pronunciation": "/əˈraɪvəl/",
+      "partOfSpeech": "noun",
+      "meaning": "도착",
+      "example": "Check the arrival time before going.",
+      "exampleMeaning": "가기 전에 도착 시간을 확인하세요."
+    },
+    {
+      "id": "w8",
+      "word": "Delay",
+      "pronunciation": "/dɪˈleɪ/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "지연, 연착",
+      "example": "The train was delayed by 30 minutes.",
+      "exampleMeaning": "기차가 30분 연착되었습니다."
+    },
+    {
+      "id": "w9",
+      "word": "Platform",
+      "pronunciation": "/ˈplætfɔːrm/",
+      "partOfSpeech": "noun",
+      "meaning": "플랫폼, 승강장",
+      "example": "The train departs from platform 5.",
+      "exampleMeaning": "기차는 5번 승강장에서 출발합니다."
+    },
+    {
+      "id": "w10",
+      "word": "Ticket",
+      "pronunciation": "/ˈtɪkɪt/",
+      "partOfSpeech": "noun",
+      "meaning": "표, 티켓",
+      "example": "I need to buy a round-trip ticket.",
+      "exampleMeaning": "왕복 티켓을 사야 합니다."
+    },
+    {
+      "id": "w11",
+      "word": "Schedule",
+      "pronunciation": "/ˈskedʒuːl/",
+      "partOfSpeech": "noun",
+      "meaning": "일정, 시간표",
+      "example": "What's the bus schedule?",
+      "exampleMeaning": "버스 시간표가 어떻게 되나요?"
+    },
+    {
+      "id": "w12",
+      "word": "Destination",
+      "pronunciation": "/ˌdestɪˈneɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "목적지",
+      "example": "Seoul is our final destination.",
+      "exampleMeaning": "서울이 우리의 최종 목적지입니다."
+    },
+    {
+      "id": "w13",
+      "word": "Reserve",
+      "pronunciation": "/rɪˈzɜːrv/",
+      "partOfSpeech": "verb",
+      "meaning": "예약하다",
+      "example": "I want to reserve a seat.",
+      "exampleMeaning": "좌석을 예약하고 싶습니다."
+    },
+    {
+      "id": "w14",
+      "word": "Connection",
+      "pronunciation": "/kəˈnekʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "연결편, 환승",
+      "example": "I have a connection in Tokyo.",
+      "exampleMeaning": "도쿄에서 환승이 있습니다."
+    },
+    {
+      "id": "w15",
+      "word": "Check-in",
+      "pronunciation": "/ˈtʃekɪn/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "체크인",
+      "example": "Online check-in is available.",
+      "exampleMeaning": "온라인 체크인이 가능합니다."
+    },
+    {
+      "id": "w16",
+      "word": "Gate",
+      "pronunciation": "/ɡeɪt/",
+      "partOfSpeech": "noun",
+      "meaning": "게이트, 탑승구",
+      "example": "Boarding starts at gate 12.",
+      "exampleMeaning": "12번 게이트에서 탑승이 시작됩니다."
+    },
+    {
+      "id": "w17",
+      "word": "Customs",
+      "pronunciation": "/ˈkʌstəmz/",
+      "partOfSpeech": "noun",
+      "meaning": "세관",
+      "example": "You need to go through customs.",
+      "exampleMeaning": "세관을 통과해야 합니다."
+    },
+    {
+      "id": "w18",
+      "word": "Transfer",
+      "pronunciation": "/ˈtrænsfɜːr/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "환승, 이동하다",
+      "example": "We need to transfer to line 2.",
+      "exampleMeaning": "2호선으로 환승해야 합니다."
+    },
+    {
+      "id": "w19",
+      "word": "Round-trip",
+      "pronunciation": "/ˌraʊnd ˈtrɪp/",
+      "partOfSpeech": "adjective",
+      "meaning": "왕복",
+      "example": "A round-trip ticket is cheaper.",
+      "exampleMeaning": "왕복 티켓이 더 저렴합니다."
+    },
+    {
+      "id": "w20",
+      "word": "One-way",
+      "pronunciation": "/ˌwʌn ˈweɪ/",
+      "partOfSpeech": "adjective",
+      "meaning": "편도",
+      "example": "I need a one-way ticket to Busan.",
+      "exampleMeaning": "부산행 편도 티켓이 필요합니다."
+    },
+    {
+      "id": "w21",
+      "word": "Cancel",
+      "pronunciation": "/ˈkænsl/",
+      "partOfSpeech": "verb",
+      "meaning": "취소하다",
+      "example": "I want to cancel my reservation.",
+      "exampleMeaning": "예약을 취소하고 싶습니다."
+    },
+    {
+      "id": "w22",
+      "word": "Refund",
+      "pronunciation": "/ˈriːfʌnd/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "환불",
+      "example": "Can I get a refund?",
+      "exampleMeaning": "환불 받을 수 있나요?"
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "What do you need to show before boarding a plane?",
+      "options": ["Boarding pass", "Driver's license", "Credit card", "Hotel key"],
+      "answer": "Boarding pass",
+      "explanation": "You need to show your boarding pass before getting on a plane."
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "Where do you go through customs?",
+      "options": ["At the airport", "At the hotel", "At the restaurant", "At the park"],
+      "answer": "At the airport",
+      "explanation": "Customs is located at the airport or border crossing."
+    },
+    {
+      "id": "ex3",
+      "type": "fill_blank",
+      "question": "My _____ was delayed by two hours. (flight)",
+      "answer": ["flight"],
+      "explanation": "A 'flight' is a journey by airplane."
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "I need to _____ a hotel room for tonight. (reserve)",
+      "answer": ["reserve", "book"],
+      "explanation": "'Reserve' or 'book' means to arrange for something in advance."
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'arrival'?",
+      "options": ["Departure", "Delay", "Transfer", "Connection"],
+      "answer": "Departure",
+      "explanation": "'Departure' is the opposite of 'arrival'. Departure means leaving, arrival means coming."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "What type of ticket lets you go and come back?",
+      "options": ["Round-trip", "One-way", "Single", "Half"],
+      "answer": "Round-trip",
+      "explanation": "A 'round-trip' ticket includes the journey there and back."
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "Don't forget your _____ when traveling abroad. (passport)",
+      "answer": ["passport"],
+      "explanation": "A 'passport' is an official document needed for international travel."
+    },
+    {
+      "id": "ex8",
+      "type": "matching",
+      "question": "Match the English with Korean:",
+      "options": ["Airport", "Platform", "Luggage", "Customs"],
+      "answer": ["공항", "승강장", "짐", "세관"],
+      "explanation": "Match each travel term with its Korean meaning."
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "What do you call where trains stop?",
+      "options": ["Platform", "Gate", "Counter", "Lobby"],
+      "answer": "Platform",
+      "explanation": "A 'platform' is the area at a train station where passengers board."
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "The train will _____ from platform 3. (depart)",
+      "answer": ["depart", "leave"],
+      "explanation": "'Depart' means to leave from a place."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "What does 'transfer' mean?",
+      "options": ["Change to another vehicle", "Buy a ticket", "Wait for someone", "Arrive home"],
+      "answer": "Change to another vehicle",
+      "explanation": "'Transfer' means to change from one vehicle or line to another."
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "Our final _____ is Paris. (destination)",
+      "answer": ["destination"],
+      "explanation": "'Destination' is the place you are traveling to."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "If you want your money back, you ask for a:",
+      "options": ["Refund", "Receipt", "Reservation", "Report"],
+      "answer": "Refund",
+      "explanation": "A 'refund' is money returned to you after canceling something."
+    },
+    {
+      "id": "ex14",
+      "type": "fill_blank",
+      "question": "Online _____-_____ opens 24 hours before the flight. (check-in)",
+      "answer": ["check-in", "check in"],
+      "explanation": "'Check-in' is the process of registering before a flight."
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "What word means to stop a reservation?",
+      "options": ["Cancel", "Confirm", "Complete", "Continue"],
+      "answer": "Cancel",
+      "explanation": "'Cancel' means to stop or end a reservation or booking."
+    }
+  ]
+}

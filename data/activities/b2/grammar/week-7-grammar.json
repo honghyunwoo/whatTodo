@@ -1,0 +1,200 @@
+{
+  "id": "week-7-grammar",
+  "weekId": "week-7",
+  "type": "grammar",
+  "level": "B2",
+  "title": "Cleft Sentences & Inversion",
+  "description": "Learn advanced emphasis structures including cleft sentences (It is/was... that/who) and inversion patterns for formal and emphatic expression.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "It-Cleft Sentences",
+      "explanation": "It-cleft sentences begin with 'It is/was' followed by the emphasized element, then 'that/who' and the rest of the sentence. They are used to emphasize a particular part of the sentence.",
+      "structure": "It is/was + emphasized element + that/who + rest of sentence",
+      "examples": [
+        {
+          "sentence": "It was the CEO who made the final decision.",
+          "translation": "최종 결정을 내린 것은 CEO였다."
+        },
+        {
+          "sentence": "It is innovation that drives this company's success.",
+          "translation": "이 회사의 성공을 이끄는 것은 혁신이다."
+        },
+        {
+          "sentence": "It was in 2020 that we launched our flagship product.",
+          "translation": "우리가 주력 제품을 출시한 것은 2020년이었다."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "What-Cleft Sentences",
+      "explanation": "What-cleft sentences use 'What' at the beginning to emphasize the action or thing. They often emphasize a whole clause rather than just a noun.",
+      "structure": "What + subject + verb + is/was + emphasized element",
+      "examples": [
+        {
+          "sentence": "What we need is better communication between departments.",
+          "translation": "우리에게 필요한 것은 부서 간의 더 나은 소통이다."
+        },
+        {
+          "sentence": "What impressed me most was her dedication to the project.",
+          "translation": "나를 가장 감동시킨 것은 프로젝트에 대한 그녀의 헌신이었다."
+        },
+        {
+          "sentence": "What the company did was invest heavily in research and development.",
+          "translation": "회사가 한 것은 연구 개발에 대규모로 투자한 것이었다."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Inversion with Negative Adverbials",
+      "explanation": "When negative or restrictive adverbials come at the beginning of a sentence for emphasis, the subject and auxiliary verb are inverted. Common adverbials include: never, rarely, seldom, hardly, scarcely, no sooner, not only.",
+      "structure": "Negative adverbial + auxiliary + subject + main verb",
+      "examples": [
+        {
+          "sentence": "Never have I seen such a dedicated team.",
+          "translation": "이렇게 헌신적인 팀은 본 적이 없다."
+        },
+        {
+          "sentence": "Rarely does a company achieve such rapid growth.",
+          "translation": "이렇게 빠른 성장을 이루는 회사는 드물다."
+        },
+        {
+          "sentence": "Not only did she complete the project on time, but she also reduced costs.",
+          "translation": "그녀는 프로젝트를 제시간에 완료했을 뿐만 아니라 비용도 절감했다."
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Inversion with 'Only'",
+      "explanation": "When phrases starting with 'only' (only then, only after, only when, only by) come at the beginning, inversion follows.",
+      "structure": "Only + adverbial + auxiliary + subject + main verb",
+      "examples": [
+        {
+          "sentence": "Only after the meeting did we understand the full situation.",
+          "translation": "회의 후에야 우리는 전체 상황을 이해했다."
+        },
+        {
+          "sentence": "Only by working together can we achieve our goals.",
+          "translation": "함께 일해야만 우리의 목표를 달성할 수 있다."
+        },
+        {
+          "sentence": "Only when you take risks will you see real growth.",
+          "translation": "위험을 감수해야만 진정한 성장을 볼 수 있다."
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Inversion with 'So/Such... that'",
+      "explanation": "When 'so + adjective' or 'such + noun' starts a sentence for emphasis, inversion occurs, followed by a 'that' clause showing the result.",
+      "structure": "So + adjective + auxiliary + subject + that... / Such + auxiliary + noun + that...",
+      "examples": [
+        {
+          "sentence": "So successful was the campaign that sales doubled.",
+          "translation": "캠페인이 너무 성공적이어서 매출이 두 배가 되었다."
+        },
+        {
+          "sentence": "Such was her influence that the entire industry changed.",
+          "translation": "그녀의 영향력이 대단해서 전체 산업이 바뀌었다."
+        },
+        {
+          "sentence": "So impressed were the investors that they increased their funding.",
+          "translation": "투자자들이 너무 감명받아서 투자금을 늘렸다."
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "title": "All-Cleft and The Thing-Cleft",
+      "explanation": "These cleft structures use 'All' or 'The thing/person/reason' to emphasize a specific element, often implying limitation or specificity.",
+      "structure": "All/The thing/The person/The reason + that + subject + verb + is/was + emphasized element",
+      "examples": [
+        {
+          "sentence": "All we want is a fair opportunity to compete.",
+          "translation": "우리가 원하는 것은 공정하게 경쟁할 기회뿐이다."
+        },
+        {
+          "sentence": "The thing that matters most is customer satisfaction.",
+          "translation": "가장 중요한 것은 고객 만족이다."
+        },
+        {
+          "sentence": "The reason we succeeded is that we listened to feedback.",
+          "translation": "우리가 성공한 이유는 피드백을 경청했기 때문이다."
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "_____ the marketing team who developed the winning strategy.",
+      "options": ["It was", "What was", "There was", "That was"],
+      "answer": "It was"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "_____ we need is more investment in employee training. (What/It)",
+      "answer": "What"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "Never _____ such a profitable quarter.",
+      "options": ["the company has had", "has the company had", "the company had", "had the company"],
+      "answer": "has the company had"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "Only after extensive research _____ we launch the product. (did/do)",
+      "answer": "did"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "So successful _____ the merger that both companies saw increased profits.",
+      "options": ["it was", "was", "has been", "being"],
+      "answer": "was"
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "Not only _____ she finish the report, but she also presented it to the board. (did/was)",
+      "answer": "did"
+    },
+    {
+      "id": "ex7",
+      "type": "transformation",
+      "instruction": "Rewrite using an it-cleft sentence for emphasis",
+      "original": "The new CEO transformed the company culture.",
+      "answer": "It was the new CEO who transformed the company culture."
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "_____ impressed us most was their innovative approach.",
+      "options": ["It", "What", "That", "Which"],
+      "answer": "What"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "Rarely _____ a company experience such dramatic growth. (does/is)",
+      "answer": "does"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "_____ we want is transparency in decision-making.",
+      "options": ["What all", "All", "It all", "That all"],
+      "answer": "All"
+    }
+  ]
+}

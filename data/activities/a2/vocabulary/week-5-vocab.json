@@ -1,0 +1,339 @@
+{
+  "id": "week-5-vocab",
+  "weekId": "week-5",
+  "type": "vocabulary",
+  "level": "A2",
+  "title": "Work & Daily Routine",
+  "description": "Learn vocabulary about jobs, workplaces, and daily activities.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "colleague",
+      "pronunciation": "/ˈkɑːliːɡ/",
+      "partOfSpeech": "noun",
+      "meaning": "a person you work with",
+      "translation": "동료",
+      "example": "My colleague helped me with the project.",
+      "exampleMeaning": "내 동료가 프로젝트를 도와줬어요."
+    },
+    {
+      "id": "w2",
+      "word": "meeting",
+      "pronunciation": "/ˈmiːtɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "a gathering of people to discuss something",
+      "translation": "회의",
+      "example": "We have a meeting at 10 o'clock.",
+      "exampleMeaning": "우리는 10시에 회의가 있어요."
+    },
+    {
+      "id": "w3",
+      "word": "deadline",
+      "pronunciation": "/ˈdedlaɪn/",
+      "partOfSpeech": "noun",
+      "meaning": "the time by which something must be done",
+      "translation": "마감일",
+      "example": "The deadline for the report is Friday.",
+      "exampleMeaning": "보고서 마감일은 금요일이에요."
+    },
+    {
+      "id": "w4",
+      "word": "salary",
+      "pronunciation": "/ˈsæləri/",
+      "partOfSpeech": "noun",
+      "meaning": "money paid regularly for work",
+      "translation": "급여, 월급",
+      "example": "She receives her salary every month.",
+      "exampleMeaning": "그녀는 매달 급여를 받아요."
+    },
+    {
+      "id": "w5",
+      "word": "schedule",
+      "pronunciation": "/ˈskedʒuːl/",
+      "partOfSpeech": "noun",
+      "meaning": "a plan of activities and times",
+      "translation": "일정, 스케줄",
+      "example": "My schedule is very busy this week.",
+      "exampleMeaning": "이번 주 내 일정이 아주 바빠요."
+    },
+    {
+      "id": "w6",
+      "word": "wake up",
+      "pronunciation": "/weɪk ʌp/",
+      "partOfSpeech": "phrasal verb",
+      "meaning": "to stop sleeping",
+      "translation": "일어나다",
+      "example": "I wake up at 7 a.m. every day.",
+      "exampleMeaning": "저는 매일 오전 7시에 일어나요."
+    },
+    {
+      "id": "w7",
+      "word": "commute",
+      "pronunciation": "/kəˈmjuːt/",
+      "partOfSpeech": "verb",
+      "meaning": "to travel regularly between home and work",
+      "translation": "통근하다",
+      "example": "I commute by subway every day.",
+      "exampleMeaning": "저는 매일 지하철로 통근해요."
+    },
+    {
+      "id": "w8",
+      "word": "overtime",
+      "pronunciation": "/ˈoʊvərtaɪm/",
+      "partOfSpeech": "noun",
+      "meaning": "extra time worked beyond normal hours",
+      "translation": "초과 근무, 야근",
+      "example": "He often works overtime on Fridays.",
+      "exampleMeaning": "그는 금요일에 자주 야근을 해요."
+    },
+    {
+      "id": "w9",
+      "word": "break",
+      "pronunciation": "/breɪk/",
+      "partOfSpeech": "noun",
+      "meaning": "a short rest period",
+      "translation": "휴식",
+      "example": "Let's take a break for 10 minutes.",
+      "exampleMeaning": "10분간 휴식을 취합시다."
+    },
+    {
+      "id": "w10",
+      "word": "manager",
+      "pronunciation": "/ˈmænɪdʒər/",
+      "partOfSpeech": "noun",
+      "meaning": "a person in charge of a team or department",
+      "translation": "관리자, 매니저",
+      "example": "The manager approved my vacation request.",
+      "exampleMeaning": "매니저가 내 휴가 신청을 승인했어요."
+    },
+    {
+      "id": "w11",
+      "word": "project",
+      "pronunciation": "/ˈprɑːdʒekt/",
+      "partOfSpeech": "noun",
+      "meaning": "a planned piece of work",
+      "translation": "프로젝트",
+      "example": "We're starting a new project next month.",
+      "exampleMeaning": "다음 달에 새 프로젝트를 시작해요."
+    },
+    {
+      "id": "w12",
+      "word": "routine",
+      "pronunciation": "/ruːˈtiːn/",
+      "partOfSpeech": "noun",
+      "meaning": "a regular series of actions",
+      "translation": "일과, 루틴",
+      "example": "Exercise is part of my daily routine.",
+      "exampleMeaning": "운동은 제 일상 루틴의 일부예요."
+    },
+    {
+      "id": "w13",
+      "word": "appointment",
+      "pronunciation": "/əˈpɔɪntmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "a scheduled meeting at a specific time",
+      "translation": "약속, 예약",
+      "example": "I have an appointment with the dentist.",
+      "exampleMeaning": "저는 치과 예약이 있어요."
+    },
+    {
+      "id": "w14",
+      "word": "get dressed",
+      "pronunciation": "/ɡet drest/",
+      "partOfSpeech": "phrasal verb",
+      "meaning": "to put on clothes",
+      "translation": "옷을 입다",
+      "example": "I get dressed after taking a shower.",
+      "exampleMeaning": "저는 샤워 후에 옷을 입어요."
+    },
+    {
+      "id": "w15",
+      "word": "task",
+      "pronunciation": "/tæsk/",
+      "partOfSpeech": "noun",
+      "meaning": "a piece of work to be done",
+      "translation": "업무, 과제",
+      "example": "I finished all my tasks for today.",
+      "exampleMeaning": "오늘 할 업무를 다 끝냈어요."
+    },
+    {
+      "id": "w16",
+      "word": "office",
+      "pronunciation": "/ˈɔːfɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "a place where people work",
+      "translation": "사무실",
+      "example": "The office opens at 9 a.m.",
+      "exampleMeaning": "사무실은 오전 9시에 문을 열어요."
+    },
+    {
+      "id": "w17",
+      "word": "report",
+      "pronunciation": "/rɪˈpɔːrt/",
+      "partOfSpeech": "noun",
+      "meaning": "a written account of something",
+      "translation": "보고서",
+      "example": "I need to write a monthly report.",
+      "exampleMeaning": "월간 보고서를 작성해야 해요."
+    },
+    {
+      "id": "w18",
+      "word": "shift",
+      "pronunciation": "/ʃɪft/",
+      "partOfSpeech": "noun",
+      "meaning": "a period of work time",
+      "translation": "교대 근무, 근무 시간",
+      "example": "She works the night shift.",
+      "exampleMeaning": "그녀는 야간 근무를 해요."
+    },
+    {
+      "id": "w19",
+      "word": "busy",
+      "pronunciation": "/ˈbɪzi/",
+      "partOfSpeech": "adjective",
+      "meaning": "having a lot to do",
+      "translation": "바쁜",
+      "example": "I'm too busy to meet today.",
+      "exampleMeaning": "오늘 만나기엔 너무 바빠요."
+    },
+    {
+      "id": "w20",
+      "word": "finish",
+      "pronunciation": "/ˈfɪnɪʃ/",
+      "partOfSpeech": "verb",
+      "meaning": "to complete something",
+      "translation": "끝내다, 완료하다",
+      "example": "I finish work at 6 p.m.",
+      "exampleMeaning": "저는 오후 6시에 퇴근해요."
+    },
+    {
+      "id": "w21",
+      "word": "prepare",
+      "pronunciation": "/prɪˈper/",
+      "partOfSpeech": "verb",
+      "meaning": "to make ready",
+      "translation": "준비하다",
+      "example": "I prepare my lunch the night before.",
+      "exampleMeaning": "저는 전날 밤에 점심을 준비해요."
+    },
+    {
+      "id": "w22",
+      "word": "responsibility",
+      "pronunciation": "/rɪˌspɑːnsəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "meaning": "a duty or job to do",
+      "translation": "책임",
+      "example": "It's my responsibility to train new staff.",
+      "exampleMeaning": "신입 직원 교육은 제 책임이에요."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "What does 'deadline' mean?",
+      "options": ["a person you work with", "the time by which something must be done", "extra time worked", "a short rest period"],
+      "answer": "the time by which something must be done"
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "Choose the correct word: 'I have a _____ with my dentist at 3 p.m.'",
+      "options": ["deadline", "appointment", "shift", "routine"],
+      "answer": "appointment"
+    },
+    {
+      "id": "ex3",
+      "type": "fill_blank",
+      "question": "I _____ up at 6:30 every morning.",
+      "answer": "wake"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "What is a 'colleague'?",
+      "options": ["your boss", "a person you work with", "your customer", "your family member"],
+      "answer": "a person you work with"
+    },
+    {
+      "id": "ex5",
+      "type": "fill_blank",
+      "question": "She works the night _____ at the hospital.",
+      "answer": "shift"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "What does 'commute' mean?",
+      "options": ["to work from home", "to travel between home and work", "to take a vacation", "to have a meeting"],
+      "answer": "to travel between home and work"
+    },
+    {
+      "id": "ex7",
+      "type": "matching",
+      "pairs": [
+        {"word": "overtime", "meaning": "extra time worked"},
+        {"word": "break", "meaning": "a short rest period"},
+        {"word": "salary", "meaning": "money paid for work"},
+        {"word": "task", "meaning": "a piece of work to do"}
+      ]
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "My _____ is very full. I have meetings all day.",
+      "answer": "schedule"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "Which word means 'to put on clothes'?",
+      "options": ["wake up", "get dressed", "commute", "finish"],
+      "answer": "get dressed"
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "Exercise is part of my daily _____.",
+      "answer": "routine"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "Choose the correct sentence:",
+      "options": ["I have a deadline tomorrow.", "I have a colleague tomorrow.", "I have a salary tomorrow.", "I have an overtime tomorrow."],
+      "answer": "I have a deadline tomorrow."
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "The _____ approved my request for time off.",
+      "answer": "manager"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "What does 'prepare' mean?",
+      "options": ["to finish", "to make ready", "to work", "to sleep"],
+      "answer": "to make ready"
+    },
+    {
+      "id": "ex14",
+      "type": "matching",
+      "pairs": [
+        {"word": "office", "meaning": "a place where people work"},
+        {"word": "project", "meaning": "a planned piece of work"},
+        {"word": "report", "meaning": "a written account"},
+        {"word": "meeting", "meaning": "a gathering to discuss"}
+      ]
+    },
+    {
+      "id": "ex15",
+      "type": "fill_blank",
+      "question": "It's my _____ to help new employees.",
+      "answer": "responsibility"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "week-1-reading",
+  "weekId": "week-1",
+  "type": "reading",
+  "level": "B1",
+  "title": "Learning from Life's Challenges",
+  "description": "Read about how people grow through life experiences and challenges.",
+
+  "passage": {
+    "text": "Everyone faces challenges in life. Some people see them as obstacles, while others view them as opportunities to grow. The way we respond to difficult situations often determines who we become.\n\nTake the story of Emily, for example. Five years ago, she lost her job unexpectedly. At first, she felt devastated and didn't know what to do. She had worked at the same company for eight years and had never imagined losing her position.\n\nHowever, instead of giving up, Emily decided to see this as a chance to pursue her true passion. She had always dreamed of starting her own business but had never had the courage to try. With some savings and a lot of determination, she opened a small bakery in her neighborhood.\n\nThe first year was incredibly difficult. Emily worked sixteen-hour days and often doubted herself. There were moments when she wanted to quit. But she kept going, learning from every mistake and improving her skills.\n\nToday, Emily's bakery has become one of the most popular spots in the city. She has hired five employees and has even opened a second location. More importantly, she has discovered that she is capable of much more than she ever believed.\n\n\"Losing my job was the best thing that ever happened to me,\" Emily now says. \"It forced me to take a risk and follow my dreams. I've learned that failure isn't the end - it's just the beginning of something new.\"\n\nEmily's story teaches us an important lesson: challenges can transform our lives in unexpected ways. When we face difficulties with courage and determination, we often discover strengths we never knew we had.",
+    "wordCount": 275,
+    "estimatedReadingTime": 4
+  },
+
+  "vocabulary": [
+    {
+      "word": "obstacles",
+      "meaning": "things that make it difficult to do something",
+      "translation": "장애물"
+    },
+    {
+      "word": "devastated",
+      "meaning": "extremely upset and shocked",
+      "translation": "충격받은, 황폐해진"
+    },
+    {
+      "word": "determination",
+      "meaning": "the quality of continuing to try despite difficulties",
+      "translation": "결단력, 의지"
+    },
+    {
+      "word": "pursue",
+      "meaning": "to try to achieve something over time",
+      "translation": "추구하다"
+    },
+    {
+      "word": "transform",
+      "meaning": "to change completely",
+      "translation": "변화시키다"
+    },
+    {
+      "word": "courage",
+      "meaning": "the ability to do something difficult or dangerous",
+      "translation": "용기"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "According to the passage, how do some people view challenges?",
+      "options": ["As bad luck", "As opportunities to grow", "As punishment", "As impossible situations"],
+      "answer": "As opportunities to grow",
+      "explanation": "The passage states that 'others view them as opportunities to grow.'"
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "How long had Emily worked at her previous company?",
+      "options": ["Five years", "Eight years", "Ten years", "Sixteen years"],
+      "answer": "Eight years",
+      "explanation": "The passage says 'She had worked at the same company for eight years.'"
+    },
+    {
+      "id": "q3",
+      "type": "true_false",
+      "question": "Emily always planned to lose her job and start a bakery.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Emily 'lost her job unexpectedly' and 'had never imagined losing her position.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What had Emily always dreamed of doing?",
+      "options": ["Working in a bigger company", "Starting her own business", "Traveling the world", "Going back to school"],
+      "answer": "Starting her own business",
+      "explanation": "The passage states she 'had always dreamed of starting her own business.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "The first year of Emily's bakery business was easy.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'The first year was incredibly difficult.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "How many hours did Emily work per day in the first year?",
+      "options": ["Eight hours", "Ten hours", "Twelve hours", "Sixteen hours"],
+      "answer": "Sixteen hours",
+      "explanation": "The passage states 'Emily worked sixteen-hour days.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "How many employees does Emily have now?",
+      "options": ["Two", "Three", "Five", "Eight"],
+      "answer": "Five",
+      "explanation": "The passage says 'She has hired five employees.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Emily has only one bakery location.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage mentions she 'has even opened a second location.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "How does Emily feel about losing her job now?",
+      "options": ["She is still angry", "She thinks it was the best thing", "She regrets it", "She doesn't care"],
+      "answer": "She thinks it was the best thing",
+      "explanation": "Emily says 'Losing my job was the best thing that ever happened to me.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "According to Emily, what is failure?",
+      "options": ["The end of everything", "A terrible mistake", "The beginning of something new", "Something to avoid"],
+      "answer": "The beginning of something new",
+      "explanation": "Emily says 'failure isn't the end - it's just the beginning of something new.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What did Emily need to start her bakery besides savings?",
+      "answer": "determination",
+      "alternateAnswers": ["a lot of determination", "Determination"],
+      "explanation": "The passage says 'With some savings and a lot of determination, she opened a small bakery.'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "What is the main lesson of Emily's story?",
+      "options": ["Everyone should open a bakery", "Challenges can transform our lives positively", "Losing a job is always good", "Working hard is not important"],
+      "answer": "Challenges can transform our lives positively",
+      "explanation": "The passage concludes that 'challenges can transform our lives in unexpected ways.'"
+    }
+  ]
+}

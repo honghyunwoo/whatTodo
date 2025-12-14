@@ -1,0 +1,139 @@
+{
+  "id": "week-8-speaking",
+  "weekId": "week-8",
+  "type": "speaking",
+  "level": "B1",
+  "title": "Talking About Dreams and Hypothetical Situations",
+  "description": "Practice discussing dreams, giving advice, and talking about imaginary scenarios.",
+
+  "sentences": [
+    {
+      "id": "s1",
+      "text": "If I could travel anywhere in the world, I would go to New Zealand.",
+      "translation": "세계 어디든 여행할 수 있다면 뉴질랜드에 갈 거예요.",
+      "tips": "Second Conditional로 가상의 상황을 표현하세요."
+    },
+    {
+      "id": "s2",
+      "text": "If I had more free time, I would learn to play the guitar.",
+      "translation": "자유 시간이 더 있다면 기타 연주를 배울 텐데요.",
+      "tips": "'had'로 현재 가지고 있지 않은 것을 표현하세요."
+    },
+    {
+      "id": "s3",
+      "text": "If I were you, I would take that job opportunity.",
+      "translation": "내가 너라면 그 일자리 기회를 잡을 거야.",
+      "tips": "'If I were you'로 조언을 주세요."
+    },
+    {
+      "id": "s4",
+      "text": "What would you do if you won the lottery?",
+      "translation": "복권에 당첨되면 뭘 하겠어요?",
+      "tips": "의문문 형태의 Second Conditional입니다."
+    },
+    {
+      "id": "s5",
+      "text": "If I could change one thing about my life, I would spend more time with my family.",
+      "translation": "내 삶에서 한 가지를 바꿀 수 있다면 가족과 더 많은 시간을 보낼 거예요.",
+      "tips": "'could'로 능력/가능성을 표현하세요."
+    },
+    {
+      "id": "s6",
+      "text": "I would move to another country if I spoke the language fluently.",
+      "translation": "그 언어를 유창하게 한다면 다른 나라로 이사할 텐데요.",
+      "tips": "조건절을 뒤에 놓을 수도 있어요."
+    },
+    {
+      "id": "s7",
+      "text": "If money weren't an issue, I would study art full-time.",
+      "translation": "돈이 문제가 아니라면 미술을 전일제로 공부할 텐데요.",
+      "tips": "'weren't'은 가상의 부정을 표현해요."
+    },
+    {
+      "id": "s8",
+      "text": "She could achieve her dream if she believed in herself more.",
+      "translation": "자신을 더 믿는다면 그녀는 꿈을 이룰 수 있을 텐데요.",
+      "tips": "'could'로 가능성을 표현하세요."
+    },
+    {
+      "id": "s9",
+      "text": "If I didn't have to work, I would volunteer at an animal shelter.",
+      "translation": "일을 안 해도 된다면 동물 보호소에서 봉사할 텐데요.",
+      "tips": "'didn't have to'로 의무의 부재를 표현하세요."
+    },
+    {
+      "id": "s10",
+      "text": "Would you still work if you became very wealthy?",
+      "translation": "아주 부유해져도 일을 계속하겠어요?",
+      "tips": "의문문에서 'would'를 앞에 놓으세요."
+    },
+    {
+      "id": "s11",
+      "text": "I would regret it if I didn't at least try to pursue my dream.",
+      "translation": "최소한 꿈을 추구하려고 시도하지 않으면 후회할 거예요.",
+      "tips": "'would regret'으로 가상의 후회를 표현하세요."
+    },
+    {
+      "id": "s12",
+      "text": "If I could give my younger self advice, I would tell myself not to worry so much.",
+      "translation": "어린 시절의 나에게 조언을 줄 수 있다면 걱정을 너무 많이 하지 말라고 할 거예요.",
+      "tips": "가상의 과거 상황에 대한 조언을 표현하세요."
+    }
+  ],
+
+  "dialoguePractice": {
+    "title": "Discussing Dreams and Goals",
+    "roles": ["Emma", "Tyler"],
+    "lines": [
+      {"role": "Emma", "text": "Tyler, if you could have any job in the world, what would it be?"},
+      {"role": "Tyler", "text": "That's a fun question. If I could do anything, I think I would be a wildlife documentary filmmaker."},
+      {"role": "Emma", "text": "That sounds amazing! Why that?"},
+      {"role": "Tyler", "text": "I love nature, and if I had that job, I could travel to remote places and show people the beauty of wildlife."},
+      {"role": "Emma", "text": "That's a wonderful dream. What's stopping you?"},
+      {"role": "Tyler", "text": "Well, it's not very practical. If I quit my current job, I wouldn't have a stable income."},
+      {"role": "Emma", "text": "If I were you, I would start making nature videos as a hobby first."},
+      {"role": "Tyler", "text": "That's actually a great idea. What about you? What would you do if you could do anything?"},
+      {"role": "Emma", "text": "If I had unlimited time and money, I would open a bakery. I love baking."},
+      {"role": "Tyler", "text": "You should! Your cookies are delicious. If you started a bakery, I would be your first customer!"}
+    ]
+  },
+
+  "evaluationChecklist": [
+    {
+      "category": "Pronunciation & Intonation",
+      "items": [
+        "Did you pronounce 'would' and contractions correctly?",
+        "Did you use appropriate stress on key words?",
+        "Did you use rising intonation for questions?",
+        "Did you speak at a natural pace?"
+      ]
+    },
+    {
+      "category": "Fluency",
+      "items": [
+        "Did you use second conditional structures smoothly?",
+        "Did you transition naturally between if-clauses and main clauses?",
+        "Did you complete sentences without long pauses?",
+        "Did you practice the dialogue naturally?"
+      ]
+    },
+    {
+      "category": "Grammar Accuracy",
+      "items": [
+        "Did you use past simple in the if-clause?",
+        "Did you use 'would/could/might' in the main clause?",
+        "Did you use 'were' correctly for advice ('If I were you')?",
+        "Did you form questions correctly?"
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        "Did you express dreams and wishes clearly?",
+        "Did you give advice appropriately?",
+        "Did you discuss hypothetical situations naturally?",
+        "Did you engage naturally in the dialogue?"
+      ]
+    }
+  ]
+}

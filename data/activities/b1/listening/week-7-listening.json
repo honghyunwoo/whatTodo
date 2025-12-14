@@ -1,0 +1,144 @@
+{
+  "id": "week-7-listening",
+  "weekId": "week-7",
+  "type": "listening",
+  "level": "B1",
+  "title": "Cultural Exchange",
+  "description": "Listen to people discussing their cultural traditions.",
+
+  "audio": {
+    "text": "Maria: Hi Yuki! I heard you went to Korea recently. How was it?\nYuki: It was amazing! I experienced so many interesting traditions. Have you ever been there?\nMaria: No, but I'd love to go. What was the most memorable thing?\nYuki: I think it was Chuseok, which is the Korean harvest festival. It's similar to Thanksgiving.\nMaria: That sounds interesting. What do people do during Chuseok?\nYuki: Families get together and honor their ancestors. They prepare special food and visit the graves of their relatives.\nMaria: That's similar to a holiday we have in Mexico called Day of the Dead, where we remember our ancestors too.\nYuki: Really? Tell me more about it.\nMaria: It's a celebration that takes place in early November. People create altars with photos, flowers, and the favorite foods of loved ones who have passed away.\nYuki: That's beautiful. I love how different cultures have their own ways of remembering the past.\nMaria: Me too. I think traditions are what make each culture unique.\nYuki: Speaking of unique traditions, I also saw a traditional wedding ceremony while I was in Korea.\nMaria: Oh, what was that like?\nYuki: The bride and groom wore traditional clothes called hanbok, which are incredibly colorful. There was a ceremony where they bowed to each other's parents.\nMaria: That sounds very respectful. In Mexico, we have many wedding traditions too, like the lasso ceremony where a rope is placed around the couple.\nYuki: That's so interesting! I think the best thing about traveling is learning about these customs which are so different from your own.\nMaria: Absolutely. It makes you appreciate both other cultures and your own.\nYuki: Maybe we should plan a trip together sometime to explore more traditions!\nMaria: That would be wonderful! Let's do it.",
+    "duration": 170,
+    "speed": 0.9,
+    "speakers": ["Maria", "Yuki"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "Chuseok is the Korean harvest festival which is similar to Thanksgiving.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d2",
+        "text": "It's a celebration that takes place in early November.",
+        "difficulty": "easy"
+      },
+      {
+        "id": "d3",
+        "text": "The bride and groom wore traditional clothes called hanbok.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d4",
+        "text": "I think traditions are what make each culture unique.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d5",
+        "text": "The best thing about traveling is learning about customs which are different from your own.",
+        "difficulty": "hard"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "Where did Yuki recently travel to?",
+      "options": ["Japan", "Mexico", "Korea", "China"],
+      "answer": "Korea",
+      "explanation": "Maria says 'I heard you went to Korea recently.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Maria has been to Korea before.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Maria says 'No, but I'd love to go.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What festival did Yuki experience in Korea?",
+      "options": ["New Year", "Chuseok", "Buddha's Birthday", "Lantern Festival"],
+      "answer": "Chuseok",
+      "explanation": "Yuki says 'I think it was Chuseok, which is the Korean harvest festival.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What do Korean families do during Chuseok?",
+      "options": ["Exchange gifts", "Go to the beach", "Honor their ancestors", "Watch fireworks"],
+      "answer": "Honor their ancestors",
+      "explanation": "Yuki says 'Families get together and honor their ancestors.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Day of the Dead is celebrated in September.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Maria says 'It's a celebration that takes place in early November.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What do people create during Day of the Dead?",
+      "options": ["Altars with photos and flowers", "Special costumes", "Paper lanterns", "Traditional music"],
+      "answer": "Altars with photos and flowers",
+      "explanation": "Maria says 'People create altars with photos, flowers, and the favorite foods of loved ones.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "What traditional clothing did Yuki see at a Korean wedding?",
+      "options": ["Kimono", "Hanbok", "Qipao", "Ao dai"],
+      "answer": "Hanbok",
+      "explanation": "Yuki says 'The bride and groom wore traditional clothes called hanbok.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "In the Korean wedding ceremony, the couple bowed to each other's parents.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Yuki says 'There was a ceremony where they bowed to each other's parents.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What is the Mexican lasso ceremony?",
+      "options": ["A dance with ropes", "Placing a rope around the couple", "Tying gifts together", "A horse riding tradition"],
+      "answer": "Placing a rope around the couple",
+      "explanation": "Maria describes 'the lasso ceremony where a rope is placed around the couple.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "According to Yuki, what is the best thing about traveling?",
+      "options": ["Eating new food", "Learning about different customs", "Meeting new people", "Taking photos"],
+      "answer": "Learning about different customs",
+      "explanation": "Yuki says 'the best thing about traveling is learning about these customs.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "According to Maria, what makes each culture unique?",
+      "answer": "traditions",
+      "alternateAnswers": ["their traditions", "the traditions"],
+      "explanation": "Maria says 'I think traditions are what make each culture unique.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "Maria and Yuki plan to travel together in the future.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Yuki suggests 'Maybe we should plan a trip together' and Maria agrees."
+    }
+  ]
+}

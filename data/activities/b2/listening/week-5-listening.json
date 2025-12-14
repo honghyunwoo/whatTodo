@@ -1,0 +1,144 @@
+{
+  "id": "week-5-listening",
+  "weekId": "week-5",
+  "type": "listening",
+  "level": "B2",
+  "title": "Art Gallery Discussion",
+  "description": "Listen to a conversation about art, exhibitions, and cultural experiences.",
+
+  "audio": {
+    "text": "Elena: James, what did you think of the exhibition?\nJames: Honestly? I wish it had been better. The marketing made it sound incredible, but I left feeling disappointed.\nElena: Really? I thought some pieces were quite striking. That abstract sculpture in the main hall, for instance.\nJames: I suppose. But I wish there had been more variety. Everything felt so similar. If only they had included works from different periods.\nElena: That's fair. I wish I could have spent more time with the Renaissance section, but it was so crowded.\nJames: If only people wouldn't stand right in front of the paintings for so long! I wish visitors would be more considerate.\nElena: It's frustrating. It's about time museums introduced timed entries to manage crowds better.\nJames: Agreed. I'd rather the museum limited visitors than have everyone pushing and shoving.\nElena: On the positive side, I wish I could paint like some of those artists. The detail in the portraits was incredible.\nJames: If only I had pursued art when I was younger. My parents wanted me to study something 'practical.'\nElena: I know what you mean. I wish my school had offered more arts programs. It's high time the education system valued creativity more.\nJames: Absolutely. Anyway, shall we check out the gift shop? I wish I could afford some of these prints.\nElena: Same here. If only art weren't so expensive! I'd rather spend money on original artwork than mass-produced items, but that's not realistic.\nJames: Maybe one day. For now, I suppose postcards will have to do.\nElena: At least we had the experience. I wish more people would visit galleries. There's so much to learn and appreciate.",
+    "duration": 180,
+    "speed": 1.0,
+    "speakers": ["Elena", "James"]
+  },
+
+  "dictation": {
+    "sentences": [
+      {
+        "id": "d1",
+        "text": "I wish it had been better.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d2",
+        "text": "If only they had included works from different periods.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d3",
+        "text": "I wish visitors would be more considerate.",
+        "difficulty": "medium"
+      },
+      {
+        "id": "d4",
+        "text": "It's high time the education system valued creativity more.",
+        "difficulty": "hard"
+      },
+      {
+        "id": "d5",
+        "text": "I'd rather spend money on original artwork than mass-produced items.",
+        "difficulty": "hard"
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "How did James feel about the exhibition overall?",
+      "options": ["Excited", "Disappointed", "Indifferent", "Amazed"],
+      "answer": "Disappointed",
+      "explanation": "James says 'I wish it had been better' and 'I left feeling disappointed.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Elena thought all the pieces in the exhibition were boring.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Elena says 'I thought some pieces were quite striking.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "What does James wish the exhibition had included?",
+      "options": ["More sculptures", "Works from different periods", "More abstract art", "Fewer visitors"],
+      "answer": "Works from different periods",
+      "explanation": "James says 'If only they had included works from different periods.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What problem did Elena have with the Renaissance section?",
+      "options": ["It was closed", "It was too crowded", "The art was damaged", "It was too dark"],
+      "answer": "It was too crowded",
+      "explanation": "Elena says 'I wish I could have spent more time with the Renaissance section, but it was so crowded.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "James is annoyed by visitors who stand in front of paintings for too long.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "James says 'If only people wouldn't stand right in front of the paintings for so long!'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What solution does Elena suggest for crowding?",
+      "options": ["Higher ticket prices", "Timed entries", "Smaller exhibitions", "Online viewing"],
+      "answer": "Timed entries",
+      "explanation": "Elena says 'It's about time museums introduced timed entries to manage crowds better.'"
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "Why didn't James pursue art when he was younger?",
+      "options": ["He had no talent", "His parents wanted him to study something practical", "He wasn't interested", "Art schools were too expensive"],
+      "answer": "His parents wanted him to study something practical",
+      "explanation": "James says 'My parents wanted me to study something practical.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Elena wishes her school had offered more arts programs.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Elena says 'I wish my school had offered more arts programs.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What does Elena say about buying art?",
+      "options": ["She thinks it's reasonable", "She wishes art weren't so expensive", "She prefers mass-produced items", "She has already bought several pieces"],
+      "answer": "She wishes art weren't so expensive",
+      "explanation": "Elena says 'If only art weren't so expensive!'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What does Elena wish more people would do?",
+      "options": ["Buy more art", "Visit galleries", "Study art history", "Support local artists"],
+      "answer": "Visit galleries",
+      "explanation": "Elena says 'I wish more people would visit galleries.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What does James decide to buy from the gift shop?",
+      "answer": "postcards",
+      "alternateAnswers": ["Postcards", "postcard", "Postcard"],
+      "explanation": "James says 'For now, I suppose postcards will have to do.'"
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "question": "James would rather have limited visitors than overcrowding.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "James says 'I'd rather the museum limited visitors than have everyone pushing and shoving.'"
+    }
+  ]
+}

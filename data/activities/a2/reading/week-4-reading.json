@@ -1,0 +1,38 @@
+{
+  "id": "week-4-reading",
+  "weekId": "week-4",
+  "type": "reading",
+  "level": "A2",
+  "title": "Staying Healthy",
+  "description": "Read tips about how to stay healthy.",
+
+  "passage": {
+    "text": "Staying healthy is important, and there are many simple things you can do every day to improve your health.\n\nFirst, you should drink plenty of water - about 8 glasses a day. Water helps your body work properly and keeps you energized. You shouldn't drink too many sugary drinks like soda.\n\nSecond, you have to get enough sleep. Adults should sleep 7-8 hours per night. When you don't get enough sleep, you feel tired and you may get sick more easily.\n\nThird, regular exercise is important. You don't have to go to the gym - even walking for 30 minutes a day is helpful. Exercise makes your heart stronger and improves your mood.\n\nFinally, you should eat a balanced diet with lots of fruits and vegetables. You shouldn't skip breakfast because it gives you energy for the day.\n\nRemember: small healthy habits can make a big difference!",
+    "wordCount": 152,
+    "estimatedReadingTime": 3,
+    "audioText": "Staying healthy is important, and there are many simple things you can do every day to improve your health. [PAUSE] First, you should drink plenty of water - about 8 glasses a day. Water helps your body work properly and keeps you energized. You shouldn't drink too many sugary drinks like soda. [PAUSE] Second, you have to get enough sleep. Adults should sleep 7-8 hours per night. When you don't get enough sleep, you feel tired and you may get sick more easily. [PAUSE] Third, regular exercise is important. You don't have to go to the gym - even walking for 30 minutes a day is helpful. Exercise makes your heart stronger and improves your mood. [PAUSE] Finally, you should eat a balanced diet with lots of fruits and vegetables. You shouldn't skip breakfast because it gives you energy for the day. [PAUSE] Remember: small healthy habits can make a big difference!"
+  },
+
+  "vocabulary": [
+    {"word": "plenty of", "meaning": "많은", "lineNumber": 2},
+    {"word": "properly", "meaning": "제대로", "lineNumber": 2},
+    {"word": "energized", "meaning": "에너지가 넘치는", "lineNumber": 2},
+    {"word": "sugary", "meaning": "설탕이 많은", "lineNumber": 2},
+    {"word": "regular", "meaning": "규칙적인", "lineNumber": 5},
+    {"word": "balanced diet", "meaning": "균형 잡힌 식단", "lineNumber": 7},
+    {"word": "skip", "meaning": "거르다", "lineNumber": 7}
+  ],
+
+  "questions": [
+    {"id": "q1", "type": "short_answer", "question": "How many glasses of water should you drink daily?", "answer": "8", "explanation": "You should drink about 8 glasses of water a day."},
+    {"id": "q2", "type": "multiple_choice", "question": "What shouldn't you drink too much of?", "options": ["Sugary drinks", "Water", "Tea", "Milk"], "answer": "Sugary drinks", "explanation": "You shouldn't drink too many sugary drinks like soda."},
+    {"id": "q3", "type": "multiple_choice", "question": "How many hours should adults sleep?", "options": ["7-8 hours", "5-6 hours", "9-10 hours", "4-5 hours"], "answer": "7-8 hours", "explanation": "Adults should sleep 7-8 hours per night."},
+    {"id": "q4", "type": "true_false", "question": "You have to go to the gym to exercise.", "options": ["True", "False"], "answer": "False", "explanation": "You don't have to go to the gym - walking is also good."},
+    {"id": "q5", "type": "short_answer", "question": "How long should you walk per day?", "answer": "30", "explanation": "Walking for 30 minutes a day is helpful."},
+    {"id": "q6", "type": "multiple_choice", "question": "What does exercise improve?", "options": ["Heart and mood", "Memory only", "Eyes", "Hearing"], "answer": "Heart and mood", "explanation": "Exercise makes your heart stronger and improves your mood."},
+    {"id": "q7", "type": "true_false", "question": "You should skip breakfast sometimes.", "options": ["True", "False"], "answer": "False", "explanation": "You shouldn't skip breakfast."},
+    {"id": "q8", "type": "multiple_choice", "question": "Why is breakfast important?", "options": ["It gives energy", "It saves time", "It tastes good", "It's cheap"], "answer": "It gives energy", "explanation": "Breakfast gives you energy for the day."},
+    {"id": "q9", "type": "multiple_choice", "question": "What should you eat a lot of?", "options": ["Fruits and vegetables", "Fast food", "Candy", "Soda"], "answer": "Fruits and vegetables", "explanation": "Eat lots of fruits and vegetables."},
+    {"id": "q10", "type": "true_false", "question": "Small habits don't make a difference.", "options": ["True", "False"], "answer": "False", "explanation": "Small healthy habits can make a big difference."}
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "id": "week-6-vocab",
+  "weekId": "week-6",
+  "type": "vocabulary",
+  "level": "A2",
+  "title": "Weather & Seasons",
+  "description": "Learn vocabulary about weather conditions and seasonal activities.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "temperature",
+      "pronunciation": "/ˈtemprətʃər/",
+      "partOfSpeech": "noun",
+      "meaning": "how hot or cold something is",
+      "translation": "온도, 기온",
+      "example": "The temperature is 25 degrees today.",
+      "exampleMeaning": "오늘 기온은 25도예요."
+    },
+    {
+      "id": "w2",
+      "word": "forecast",
+      "pronunciation": "/ˈfɔːrkæst/",
+      "partOfSpeech": "noun",
+      "meaning": "a prediction about future weather",
+      "translation": "일기 예보",
+      "example": "The forecast says it will rain tomorrow.",
+      "exampleMeaning": "일기 예보에 따르면 내일 비가 올 거래요."
+    },
+    {
+      "id": "w3",
+      "word": "humid",
+      "pronunciation": "/ˈhjuːmɪd/",
+      "partOfSpeech": "adjective",
+      "meaning": "having a lot of water in the air",
+      "translation": "습한",
+      "example": "Summer in Korea is very humid.",
+      "exampleMeaning": "한국의 여름은 매우 습해요."
+    },
+    {
+      "id": "w4",
+      "word": "dry",
+      "pronunciation": "/draɪ/",
+      "partOfSpeech": "adjective",
+      "meaning": "having little water or rain",
+      "translation": "건조한",
+      "example": "The weather is dry in autumn.",
+      "exampleMeaning": "가을에는 날씨가 건조해요."
+    },
+    {
+      "id": "w5",
+      "word": "breeze",
+      "pronunciation": "/briːz/",
+      "partOfSpeech": "noun",
+      "meaning": "a light, gentle wind",
+      "translation": "미풍, 산들바람",
+      "example": "There's a nice breeze today.",
+      "exampleMeaning": "오늘 시원한 바람이 불어요."
+    },
+    {
+      "id": "w6",
+      "word": "storm",
+      "pronunciation": "/stɔːrm/",
+      "partOfSpeech": "noun",
+      "meaning": "very bad weather with strong wind and rain",
+      "translation": "폭풍",
+      "example": "A big storm is coming tonight.",
+      "exampleMeaning": "오늘 밤 큰 폭풍이 올 거예요."
+    },
+    {
+      "id": "w7",
+      "word": "thunder",
+      "pronunciation": "/ˈθʌndər/",
+      "partOfSpeech": "noun",
+      "meaning": "the loud sound during a storm",
+      "translation": "천둥",
+      "example": "I heard thunder in the distance.",
+      "exampleMeaning": "멀리서 천둥 소리가 들렸어요."
+    },
+    {
+      "id": "w8",
+      "word": "lightning",
+      "pronunciation": "/ˈlaɪtnɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "a bright flash of light in the sky during a storm",
+      "translation": "번개",
+      "example": "Lightning struck the tree.",
+      "exampleMeaning": "번개가 나무를 쳤어요."
+    },
+    {
+      "id": "w9",
+      "word": "foggy",
+      "pronunciation": "/ˈfɔːɡi/",
+      "partOfSpeech": "adjective",
+      "meaning": "having fog that makes it hard to see",
+      "translation": "안개 낀",
+      "example": "It's very foggy this morning.",
+      "exampleMeaning": "오늘 아침 안개가 짙어요."
+    },
+    {
+      "id": "w10",
+      "word": "freezing",
+      "pronunciation": "/ˈfriːzɪŋ/",
+      "partOfSpeech": "adjective",
+      "meaning": "extremely cold",
+      "translation": "몹시 추운, 영하의",
+      "example": "It's freezing outside today.",
+      "exampleMeaning": "오늘 밖이 몹시 추워요."
+    },
+    {
+      "id": "w11",
+      "word": "mild",
+      "pronunciation": "/maɪld/",
+      "partOfSpeech": "adjective",
+      "meaning": "not too hot or too cold",
+      "translation": "온화한, 포근한",
+      "example": "Spring weather is usually mild.",
+      "exampleMeaning": "봄 날씨는 보통 포근해요."
+    },
+    {
+      "id": "w12",
+      "word": "rainbow",
+      "pronunciation": "/ˈreɪnboʊ/",
+      "partOfSpeech": "noun",
+      "meaning": "a curved band of colors in the sky after rain",
+      "translation": "무지개",
+      "example": "Look! There's a beautiful rainbow!",
+      "exampleMeaning": "봐요! 아름다운 무지개가 떴어요!"
+    },
+    {
+      "id": "w13",
+      "word": "umbrella",
+      "pronunciation": "/ʌmˈbrelə/",
+      "partOfSpeech": "noun",
+      "meaning": "a device to protect from rain",
+      "translation": "우산",
+      "example": "Don't forget your umbrella.",
+      "exampleMeaning": "우산 잊지 마세요."
+    },
+    {
+      "id": "w14",
+      "word": "sunshine",
+      "pronunciation": "/ˈsʌnʃaɪn/",
+      "partOfSpeech": "noun",
+      "meaning": "light and heat from the sun",
+      "translation": "햇살",
+      "example": "I love the warm sunshine in spring.",
+      "exampleMeaning": "봄의 따뜻한 햇살이 좋아요."
+    },
+    {
+      "id": "w15",
+      "word": "shower",
+      "pronunciation": "/ˈʃaʊər/",
+      "partOfSpeech": "noun",
+      "meaning": "a short period of rain",
+      "translation": "소나기",
+      "example": "There will be showers this afternoon.",
+      "exampleMeaning": "오후에 소나기가 올 거예요."
+    },
+    {
+      "id": "w16",
+      "word": "snowflake",
+      "pronunciation": "/ˈsnoʊfleɪk/",
+      "partOfSpeech": "noun",
+      "meaning": "a small piece of falling snow",
+      "translation": "눈송이",
+      "example": "Each snowflake has a unique shape.",
+      "exampleMeaning": "각 눈송이는 고유한 모양을 가져요."
+    },
+    {
+      "id": "w17",
+      "word": "degree",
+      "pronunciation": "/dɪˈɡriː/",
+      "partOfSpeech": "noun",
+      "meaning": "a unit for measuring temperature",
+      "translation": "도 (온도 단위)",
+      "example": "It's 30 degrees Celsius today.",
+      "exampleMeaning": "오늘 섭씨 30도예요."
+    },
+    {
+      "id": "w18",
+      "word": "climate",
+      "pronunciation": "/ˈklaɪmət/",
+      "partOfSpeech": "noun",
+      "meaning": "the typical weather of a place over time",
+      "translation": "기후",
+      "example": "Korea has four distinct seasons.",
+      "exampleMeaning": "한국은 사계절이 뚜렷해요."
+    },
+    {
+      "id": "w19",
+      "word": "chilly",
+      "pronunciation": "/ˈtʃɪli/",
+      "partOfSpeech": "adjective",
+      "meaning": "unpleasantly cold",
+      "translation": "쌀쌀한",
+      "example": "It's getting chilly in the evening.",
+      "exampleMeaning": "저녁에 쌀쌀해지고 있어요."
+    },
+    {
+      "id": "w20",
+      "word": "heatwave",
+      "pronunciation": "/ˈhiːtweɪv/",
+      "partOfSpeech": "noun",
+      "meaning": "a period of unusually hot weather",
+      "translation": "폭염",
+      "example": "A heatwave hit the country last week.",
+      "exampleMeaning": "지난주 폭염이 나라를 강타했어요."
+    },
+    {
+      "id": "w21",
+      "word": "blossom",
+      "pronunciation": "/ˈblɑːsəm/",
+      "partOfSpeech": "noun",
+      "meaning": "a flower on a tree or bush",
+      "translation": "꽃, 꽃이 피다",
+      "example": "Cherry blossoms are beautiful in spring.",
+      "exampleMeaning": "벚꽃은 봄에 아름다워요."
+    },
+    {
+      "id": "w22",
+      "word": "frost",
+      "pronunciation": "/frɔːst/",
+      "partOfSpeech": "noun",
+      "meaning": "thin ice that forms on cold surfaces",
+      "translation": "서리",
+      "example": "There was frost on the car this morning.",
+      "exampleMeaning": "오늘 아침 차에 서리가 내렸어요."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "What does 'humid' mean?",
+      "options": ["very cold", "having a lot of water in the air", "extremely hot", "windy"],
+      "answer": "having a lot of water in the air"
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "Choose the correct word: 'The _____ says it will be sunny tomorrow.'",
+      "options": ["temperature", "forecast", "climate", "degree"],
+      "answer": "forecast"
+    },
+    {
+      "id": "ex3",
+      "type": "fill_blank",
+      "question": "Don't forget your _____ - it's going to rain.",
+      "answer": "umbrella"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "What is 'thunder'?",
+      "options": ["light in the sky", "a loud sound during a storm", "frozen rain", "strong wind"],
+      "answer": "a loud sound during a storm"
+    },
+    {
+      "id": "ex5",
+      "type": "fill_blank",
+      "question": "It's _____ outside - the temperature is below zero!",
+      "answer": "freezing"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "What is a 'heatwave'?",
+      "options": ["a cold period", "a rainy period", "a period of very hot weather", "a windy period"],
+      "answer": "a period of very hot weather"
+    },
+    {
+      "id": "ex7",
+      "type": "matching",
+      "pairs": [
+        {"word": "breeze", "meaning": "a light wind"},
+        {"word": "storm", "meaning": "bad weather with strong wind"},
+        {"word": "shower", "meaning": "a short period of rain"},
+        {"word": "frost", "meaning": "thin ice on cold surfaces"}
+      ]
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "Spring weather is usually _____  - not too hot or cold.",
+      "answer": "mild"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "Which word describes weather when you can't see far?",
+      "options": ["sunny", "foggy", "dry", "mild"],
+      "answer": "foggy"
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "The _____ is 28 degrees Celsius today.",
+      "answer": "temperature"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "What appears in the sky after rain?",
+      "options": ["lightning", "thunder", "rainbow", "frost"],
+      "answer": "rainbow"
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "Cherry _____ are beautiful in spring.",
+      "answer": "blossoms"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "What does 'chilly' mean?",
+      "options": ["very hot", "unpleasantly cold", "rainy", "sunny"],
+      "answer": "unpleasantly cold"
+    },
+    {
+      "id": "ex14",
+      "type": "matching",
+      "pairs": [
+        {"word": "lightning", "meaning": "bright flash in the sky"},
+        {"word": "snowflake", "meaning": "piece of falling snow"},
+        {"word": "sunshine", "meaning": "light from the sun"},
+        {"word": "climate", "meaning": "typical weather of a place"}
+      ]
+    },
+    {
+      "id": "ex15",
+      "type": "fill_blank",
+      "question": "Summer in Korea is hot and _____.",
+      "answer": "humid"
+    }
+  ]
+}

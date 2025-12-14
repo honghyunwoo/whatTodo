@@ -1,0 +1,85 @@
+{
+  "id": "week-2-listening",
+  "weekId": "week-2",
+  "type": "listening",
+  "level": "A1",
+  "title": "일상 활동 대화 듣기",
+  "description": "일상생활에서 하는 활동에 대한 대화를 듣고 이해합니다.",
+
+  "audio": {
+    "text": "Hi, I'm Sarah. [PAUSE] I wake up at 7 o'clock every morning. [PAUSE] I eat breakfast at 7:30. [PAUSE] Then, I go to school by bus. [PAUSE] After school, I play tennis with my friends. [PAUSE] I love sports!",
+    "speed": 0.75
+  },
+
+  "dictation": {
+    "targetSentences": [
+      "I wake up at 7 o'clock every morning.",
+      "I eat breakfast at 7:30."
+    ]
+  },
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "What is the speaker's name?",
+      "options": ["Sarah", "Sara", "Mary", "Emma"],
+      "answer": "Sarah",
+      "explanation": "화자는 'I'm Sarah'라고 자신을 소개했습니다."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "question": "What time does Sarah wake up?",
+      "options": ["6 o'clock", "7 o'clock", "8 o'clock", "9 o'clock"],
+      "answer": "7 o'clock",
+      "explanation": "Sarah는 매일 아침 7시에 일어납니다. (I wake up at 7 o'clock every morning)"
+    },
+    {
+      "id": "q3",
+      "type": "short_answer",
+      "question": "What time does Sarah eat breakfast?",
+      "answer": "7:30",
+      "explanation": "Sarah는 7시 30분에 아침을 먹습니다."
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "How does Sarah go to school?",
+      "options": ["By bus", "By car", "By bike", "On foot"],
+      "answer": "By bus",
+      "explanation": "Sarah는 버스로 학교에 갑니다. (I go to school by bus)"
+    },
+    {
+      "id": "q5",
+      "type": "multiple_choice",
+      "question": "What does Sarah do after school?",
+      "options": ["Play tennis", "Play soccer", "Study", "Watch TV"],
+      "answer": "Play tennis",
+      "explanation": "Sarah는 방과 후에 친구들과 테니스를 칩니다."
+    },
+    {
+      "id": "q6",
+      "type": "true_false",
+      "question": "Sarah loves sports.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "Sarah는 'I love sports!'라고 말했습니다."
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "question": "Sarah plays tennis alone.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "Sarah는 친구들과 함께 테니스를 칩니다. (with my friends)"
+    },
+    {
+      "id": "q8",
+      "type": "short_answer",
+      "question": "What sport does Sarah play? (한 단어로 답하세요)",
+      "answer": "Tennis",
+      "explanation": "Sarah는 테니스(Tennis)를 칩니다."
+    }
+  ]
+}

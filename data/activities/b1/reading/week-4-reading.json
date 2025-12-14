@@ -1,0 +1,146 @@
+{
+  "id": "week-4-reading",
+  "weekId": "week-4",
+  "type": "reading",
+  "level": "B1",
+  "title": "Living in the Digital Age",
+  "description": "Read about the impact of technology on our daily lives.",
+
+  "passage": {
+    "text": "Technology has transformed nearly every aspect of our daily lives. From the moment we wake up to when we go to sleep, we are surrounded by digital devices that help us work, communicate, and entertain ourselves.\n\nThe benefits of technology are clear. Information that once took hours to find in libraries can now be accessed in seconds. Friends and family members on the other side of the world can be reached instantly through video calls. Work that previously required an office can now be done from anywhere with an internet connection.\n\nHowever, there is growing concern about our increasing dependence on technology. Research shows that many people check their phones over 100 times a day. Social media platforms, which were designed to connect us, are sometimes blamed for making people feel more isolated and anxious. The constant stream of notifications and information can be overwhelming.\n\nExperts suggest finding a balance between using technology and disconnecting from it. Some simple strategies include setting specific times to check emails and social media, turning off unnecessary notifications, and creating tech-free zones in the home, such as the bedroom or dining table.\n\nAnother concern is digital privacy. Every time we use an app or visit a website, data about our behavior is collected and analyzed. This information is used to show us personalized advertisements and content, but many people are unaware of how much of their personal information is being shared.\n\nDespite these challenges, technology continues to improve our lives in countless ways. The key is to use it mindfully and to remember that we are in control of our devices, not the other way around.",
+    "wordCount": 275,
+    "estimatedReadingTime": 4
+  },
+
+  "vocabulary": [
+    {
+      "word": "transformed",
+      "meaning": "changed completely",
+      "translation": "변화시키다"
+    },
+    {
+      "word": "accessed",
+      "meaning": "obtained or reached",
+      "translation": "접근하다"
+    },
+    {
+      "word": "dependence",
+      "meaning": "the state of relying on something",
+      "translation": "의존"
+    },
+    {
+      "word": "isolated",
+      "meaning": "alone and separated from others",
+      "translation": "고립된"
+    },
+    {
+      "word": "overwhelming",
+      "meaning": "too much to deal with",
+      "translation": "압도적인"
+    },
+    {
+      "word": "mindfully",
+      "meaning": "with careful attention and awareness",
+      "translation": "신중하게"
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "question": "According to the passage, when are we surrounded by digital devices?",
+      "options": ["Only during work hours", "Only in the evening", "From morning to night", "Only on weekends"],
+      "answer": "From morning to night",
+      "explanation": "The passage says 'From the moment we wake up to when we go to sleep, we are surrounded by digital devices.'"
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "question": "Finding information is faster now than it was in the past.",
+      "options": ["True", "False"],
+      "answer": "True",
+      "explanation": "The passage states 'Information that once took hours to find in libraries can now be accessed in seconds.'"
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "question": "How many times do many people check their phones daily according to research?",
+      "options": ["About 50 times", "Over 100 times", "Less than 20 times", "Exactly 75 times"],
+      "answer": "Over 100 times",
+      "explanation": "The passage says 'Research shows that many people check their phones over 100 times a day.'"
+    },
+    {
+      "id": "q4",
+      "type": "multiple_choice",
+      "question": "What were social media platforms designed to do?",
+      "options": ["Sell products", "Connect people", "Share news", "Play games"],
+      "answer": "Connect people",
+      "explanation": "The passage says 'Social media platforms, which were designed to connect us.'"
+    },
+    {
+      "id": "q5",
+      "type": "true_false",
+      "question": "Social media always makes people feel happier and more connected.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says social media is 'sometimes blamed for making people feel more isolated and anxious.'"
+    },
+    {
+      "id": "q6",
+      "type": "multiple_choice",
+      "question": "What is NOT mentioned as a strategy for finding balance?",
+      "options": ["Setting specific times for emails", "Turning off unnecessary notifications", "Creating tech-free zones", "Using multiple devices"],
+      "answer": "Using multiple devices",
+      "explanation": "The passage mentions setting times, turning off notifications, and creating tech-free zones, but not using multiple devices."
+    },
+    {
+      "id": "q7",
+      "type": "multiple_choice",
+      "question": "Where does the passage suggest creating tech-free zones?",
+      "options": ["The living room and kitchen", "The bedroom and dining table", "The garden and garage", "The office and bathroom"],
+      "answer": "The bedroom and dining table",
+      "explanation": "The passage suggests 'tech-free zones in the home, such as the bedroom or dining table.'"
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "question": "Everyone is aware of how much personal information they share online.",
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "The passage says 'many people are unaware of how much of their personal information is being shared.'"
+    },
+    {
+      "id": "q9",
+      "type": "multiple_choice",
+      "question": "What is collected when we use apps or websites?",
+      "options": ["Money", "Data about our behavior", "Our phone numbers", "Our photos"],
+      "answer": "Data about our behavior",
+      "explanation": "The passage says 'data about our behavior is collected and analyzed.'"
+    },
+    {
+      "id": "q10",
+      "type": "multiple_choice",
+      "question": "What is the key message at the end of the passage?",
+      "options": ["Technology is bad for us", "We should stop using technology", "We should use technology mindfully", "Technology controls our lives"],
+      "answer": "We should use technology mindfully",
+      "explanation": "The passage concludes 'The key is to use it mindfully and to remember that we are in control.'"
+    },
+    {
+      "id": "q11",
+      "type": "short_answer",
+      "question": "What is collected and analyzed to show us personalized content?",
+      "answer": "data",
+      "alternateAnswers": ["our data", "personal data", "information", "data about our behavior"],
+      "explanation": "The passage says 'data about our behavior is collected and analyzed.'"
+    },
+    {
+      "id": "q12",
+      "type": "multiple_choice",
+      "question": "What is the overall tone of the passage about technology?",
+      "options": ["Completely negative", "Completely positive", "Balanced", "Angry"],
+      "answer": "Balanced",
+      "explanation": "The passage discusses both benefits and concerns about technology, suggesting a balanced view."
+    }
+  ]
+}

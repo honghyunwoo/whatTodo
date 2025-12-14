@@ -1,0 +1,166 @@
+{
+  "id": "week-2-writing",
+  "weekId": "week-2",
+  "type": "writing",
+  "level": "A1",
+  "title": "나의 하루 일과 글쓰기",
+  "description": "하루 동안 하는 일과와 활동에 대해 영어로 작성해봅니다.",
+
+  "prompt": {
+    "topic": "나의 일상 루틴 쓰기",
+    "description": "하루 동안 무엇을 하는지, 언제 하는지에 대해 간단하게 쓰는 글을 작성해보세요.",
+    "requirements": [
+      "몇 시에 일어나는지 작성하세요",
+      "학교나 직장에 어떻게 가는지 작성하세요",
+      "무엇을 공부하거나 일하는지 작성하세요",
+      "여가 시간에 무엇을 하는지 작성하세요"
+    ],
+    "wordCount": {
+      "min": 40,
+      "max": 80
+    },
+    "timeLimit": 15
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "I wake up at 7 o'clock every morning.",
+      "translation": "저는 매일 아침 7시에 일어납니다.",
+      "useCase": "아침 일과를 소개할 때"
+    },
+    {
+      "id": "ex2",
+      "sentence": "I eat breakfast with my family.",
+      "translation": "저는 가족과 함께 아침을 먹습니다.",
+      "useCase": "아침 식사에 대해 말할 때"
+    },
+    {
+      "id": "ex3",
+      "sentence": "I go to school by bus.",
+      "translation": "저는 버스로 학교에 갑니다.",
+      "useCase": "등교/출근 방법을 말할 때"
+    },
+    {
+      "id": "ex4",
+      "sentence": "I study English and math at school.",
+      "translation": "저는 학교에서 영어와 수학을 공부합니다.",
+      "useCase": "학교에서 하는 활동을 말할 때"
+    },
+    {
+      "id": "ex5",
+      "sentence": "After school, I play soccer with my friends.",
+      "translation": "방과 후에 저는 친구들과 축구를 합니다.",
+      "useCase": "방과 후 활동을 말할 때"
+    },
+    {
+      "id": "ex6",
+      "sentence": "I do my homework in the evening.",
+      "translation": "저는 저녁에 숙제를 합니다.",
+      "useCase": "저녁 활동을 말할 때"
+    },
+    {
+      "id": "ex7",
+      "sentence": "I go to bed at 10 o'clock.",
+      "translation": "저는 10시에 잠자리에 듭니다.",
+      "useCase": "하루를 마무리할 때"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "wake up",
+      "translation": "일어나다",
+      "example": "I wake up at 6:30."
+    },
+    {
+      "word": "eat breakfast/lunch/dinner",
+      "translation": "아침/점심/저녁을 먹다",
+      "example": "I eat breakfast at 7 o'clock."
+    },
+    {
+      "word": "go to school/work",
+      "translation": "학교/직장에 가다",
+      "example": "I go to school by bus."
+    },
+    {
+      "word": "by bus/car/bike",
+      "translation": "버스/차/자전거로",
+      "example": "I go to school by bike."
+    },
+    {
+      "word": "study",
+      "translation": "공부하다",
+      "example": "I study English every day."
+    },
+    {
+      "word": "play",
+      "translation": "놀다, (운동을) 하다",
+      "example": "I play basketball."
+    },
+    {
+      "word": "do homework",
+      "translation": "숙제를 하다",
+      "example": "I do my homework after dinner."
+    },
+    {
+      "word": "watch TV",
+      "translation": "TV를 보다",
+      "example": "I watch TV in the evening."
+    },
+    {
+      "word": "go to bed",
+      "translation": "잠자리에 들다",
+      "example": "I go to bed at 11 o'clock."
+    },
+    {
+      "word": "every day/morning/evening",
+      "translation": "매일/매일 아침/매일 저녁",
+      "example": "I exercise every morning."
+    },
+    {
+      "word": "after school/work",
+      "translation": "방과 후/퇴근 후",
+      "example": "After school, I go home."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "📝 내용 요구사항",
+      "items": [
+        "일어나는 시간을 포함했나요?",
+        "학교/직장 가는 방법을 포함했나요?",
+        "공부하거나 일하는 내용을 포함했나요?",
+        "여가 활동을 포함했나요?",
+        "시간 표현을 사용했나요?"
+      ]
+    },
+    {
+      "category": "✅ 문법 및 형식",
+      "items": [
+        "일반동사 현재형을 올바르게 사용했나요? (I go, She goes)",
+        "시간 표현(at 7 o'clock)을 올바르게 사용했나요?",
+        "전치사(by bus, after school)를 올바르게 사용했나요?",
+        "문장이 대문자로 시작하고 마침표로 끝나나요?"
+      ]
+    },
+    {
+      "category": "📏 분량",
+      "items": [
+        "최소 40단어 이상인가요?",
+        "최대 80단어 이내인가요?",
+        "다양한 활동을 포함했나요?"
+      ]
+    },
+    {
+      "category": "🎯 전반적 평가",
+      "items": [
+        "하루 일과가 논리적으로 연결되나요?",
+        "시간 순서대로 작성했나요?",
+        "맞춤법 실수가 없나요?",
+        "제한 시간 내에 완성했나요?"
+      ]
+    }
+  ]
+}

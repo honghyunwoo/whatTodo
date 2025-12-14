@@ -1,0 +1,175 @@
+{
+  "id": "week-5-writing",
+  "weekId": "week-5",
+  "type": "writing",
+  "level": "B1",
+  "title": "Writing About Environmental Issues",
+  "description": "Write about an environmental problem and suggest solutions.",
+
+  "prompt": {
+    "topic": "An Environmental Problem and Its Solutions",
+    "description": "Choose an environmental problem that concerns you (such as plastic pollution, climate change, or deforestation). Describe the problem, explain why it is serious, and suggest what people can do to help solve it.",
+    "requirements": [
+      "Clearly identify the environmental problem",
+      "Explain why this problem is serious",
+      "Suggest at least two solutions",
+      "Use comparison structures (more than, less than, as...as, the more...the more)",
+      "Give your personal opinion"
+    ],
+    "wordCount": {
+      "min": 130,
+      "max": 180
+    },
+    "timeLimit": 25
+  },
+
+  "exampleSentences": [
+    {
+      "id": "ex1",
+      "sentence": "One of the most serious environmental problems today is plastic pollution.",
+      "translation": "오늘날 가장 심각한 환경 문제 중 하나는 플라스틱 오염이에요.",
+      "useCase": "To introduce the topic with a superlative"
+    },
+    {
+      "id": "ex2",
+      "sentence": "This problem is getting worse and worse each year.",
+      "translation": "이 문제는 매년 점점 더 심해지고 있어요.",
+      "useCase": "To describe a worsening situation"
+    },
+    {
+      "id": "ex3",
+      "sentence": "Plastic is less biodegradable than natural materials.",
+      "translation": "플라스틱은 자연 재료보다 덜 생분해되어요.",
+      "useCase": "To make a comparison"
+    },
+    {
+      "id": "ex4",
+      "sentence": "The more we recycle, the less pollution we create.",
+      "translation": "우리가 더 많이 재활용할수록 오염을 덜 만들어요.",
+      "useCase": "To explain cause and effect"
+    },
+    {
+      "id": "ex5",
+      "sentence": "In my opinion, governments should do more to protect the environment.",
+      "translation": "제 생각에 정부는 환경 보호를 위해 더 많은 일을 해야 해요.",
+      "useCase": "To express an opinion"
+    },
+    {
+      "id": "ex6",
+      "sentence": "If we all make small changes, we can make a big difference.",
+      "translation": "우리 모두가 작은 변화를 만들면 큰 차이를 만들 수 있어요.",
+      "useCase": "To conclude with hope"
+    }
+  ],
+
+  "vocabularyHelp": [
+    {
+      "word": "pollution",
+      "translation": "오염",
+      "example": "Pollution is damaging our oceans."
+    },
+    {
+      "word": "climate change",
+      "translation": "기후 변화",
+      "example": "Climate change affects everyone."
+    },
+    {
+      "word": "renewable energy",
+      "translation": "재생 에너지",
+      "example": "We should invest in renewable energy."
+    },
+    {
+      "word": "reduce",
+      "translation": "줄이다",
+      "example": "We need to reduce waste."
+    },
+    {
+      "word": "reuse",
+      "translation": "재사용하다",
+      "example": "Try to reuse containers."
+    },
+    {
+      "word": "recycle",
+      "translation": "재활용하다",
+      "example": "Please recycle paper and plastic."
+    },
+    {
+      "word": "sustainable",
+      "translation": "지속 가능한",
+      "example": "We need sustainable solutions."
+    },
+    {
+      "word": "carbon footprint",
+      "translation": "탄소 발자국",
+      "example": "Flying increases your carbon footprint."
+    }
+  ],
+
+  "usefulExpressions": [
+    {
+      "expression": "One of the most serious problems is...",
+      "usage": "To introduce a problem with emphasis",
+      "example": "One of the most serious problems is deforestation."
+    },
+    {
+      "expression": "The more we..., the more/less...",
+      "usage": "To show cause and effect",
+      "example": "The more we plant trees, the more carbon dioxide is absorbed."
+    },
+    {
+      "expression": "Not only... but also...",
+      "usage": "To add emphasis to multiple points",
+      "example": "Recycling not only reduces waste but also saves energy."
+    },
+    {
+      "expression": "Unless we act now,...",
+      "usage": "To warn about consequences",
+      "example": "Unless we act now, many species will become extinct."
+    },
+    {
+      "expression": "I strongly believe that...",
+      "usage": "To express a strong opinion",
+      "example": "I strongly believe that everyone should do their part."
+    }
+  ],
+
+  "evaluationChecklist": [
+    {
+      "category": "Content Requirements",
+      "items": [
+        "Did you clearly identify an environmental problem?",
+        "Did you explain why it is serious?",
+        "Did you suggest at least two solutions?",
+        "Did you give your personal opinion?",
+        "Did you use comparison structures?"
+      ]
+    },
+    {
+      "category": "Grammar & Structure",
+      "items": [
+        "Did you use comparative and superlative forms correctly?",
+        "Did you use 'the more... the more' structure?",
+        "Did you organize your ideas logically?",
+        "Did you use appropriate connectors?"
+      ]
+    },
+    {
+      "category": "Vocabulary & Style",
+      "items": [
+        "Did you use environmental vocabulary?",
+        "Did you vary your sentence structures?",
+        "Did you avoid repetition?",
+        "Did you use formal language appropriately?"
+      ]
+    },
+    {
+      "category": "Word Count & Completion",
+      "items": [
+        "Is your writing at least 130 words?",
+        "Is your writing no more than 180 words?",
+        "Does your writing have an introduction, body, and conclusion?",
+        "Did you complete within the time limit?"
+      ]
+    }
+  ]
+}

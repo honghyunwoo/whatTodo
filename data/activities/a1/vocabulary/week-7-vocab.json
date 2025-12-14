@@ -1,0 +1,330 @@
+{
+  "id": "week-7-vocab",
+  "weekId": "week-7",
+  "type": "vocabulary",
+  "level": "B2",
+  "title": "현재와 미래 관련 어휘",
+  "description": "현재 활동과 미래 계획을 표현하는 데 필요한 동사와 표현을 배웁니다.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "study",
+      "pronunciation": "/ˈstʌdi/",
+      "partOfSpeech": "verb",
+      "meaning": "공부하다",
+      "example": "I am studying for my exam.",
+      "exampleMeaning": "나는 시험을 위해 공부하고 있다.",
+      "ingForm": "studying"
+    },
+    {
+      "id": "w2",
+      "word": "work",
+      "pronunciation": "/wɜːrk/",
+      "partOfSpeech": "verb",
+      "meaning": "일하다, 작업하다",
+      "example": "She is working on a new project.",
+      "exampleMeaning": "그녀는 새 프로젝트를 진행하고 있다.",
+      "ingForm": "working"
+    },
+    {
+      "id": "w3",
+      "word": "plan",
+      "pronunciation": "/plæn/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "계획하다 / 계획",
+      "example": "We are planning a trip to Europe.",
+      "exampleMeaning": "우리는 유럽 여행을 계획하고 있다.",
+      "ingForm": "planning"
+    },
+    {
+      "id": "w4",
+      "word": "meet",
+      "pronunciation": "/miːt/",
+      "partOfSpeech": "verb",
+      "meaning": "만나다",
+      "example": "I'm meeting my friend tomorrow.",
+      "exampleMeaning": "나는 내일 친구를 만날 예정이다.",
+      "ingForm": "meeting"
+    },
+    {
+      "id": "w5",
+      "word": "visit",
+      "pronunciation": "/ˈvɪzɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "방문하다",
+      "example": "I am going to visit my grandparents.",
+      "exampleMeaning": "나는 조부모님을 방문할 예정이다.",
+      "ingForm": "visiting"
+    },
+    {
+      "id": "w6",
+      "word": "travel",
+      "pronunciation": "/ˈtrævl/",
+      "partOfSpeech": "verb",
+      "meaning": "여행하다",
+      "example": "We're traveling to Japan next month.",
+      "exampleMeaning": "우리는 다음 달에 일본으로 여행할 예정이다.",
+      "ingForm": "traveling"
+    },
+    {
+      "id": "w7",
+      "word": "prepare",
+      "pronunciation": "/prɪˈper/",
+      "partOfSpeech": "verb",
+      "meaning": "준비하다",
+      "example": "I'm preparing for the presentation.",
+      "exampleMeaning": "나는 프레젠테이션을 준비하고 있다.",
+      "ingForm": "preparing"
+    },
+    {
+      "id": "w8",
+      "word": "leave",
+      "pronunciation": "/liːv/",
+      "partOfSpeech": "verb",
+      "meaning": "떠나다, 출발하다",
+      "example": "The train is leaving in five minutes.",
+      "exampleMeaning": "기차가 5분 후에 출발한다.",
+      "ingForm": "leaving"
+    },
+    {
+      "id": "w9",
+      "word": "arrive",
+      "pronunciation": "/əˈraɪv/",
+      "partOfSpeech": "verb",
+      "meaning": "도착하다",
+      "example": "We will arrive at the airport at 6 PM.",
+      "exampleMeaning": "우리는 오후 6시에 공항에 도착할 것이다.",
+      "ingForm": "arriving"
+    },
+    {
+      "id": "w10",
+      "word": "start",
+      "pronunciation": "/stɑːrt/",
+      "partOfSpeech": "verb",
+      "meaning": "시작하다",
+      "example": "I'm starting a new job next week.",
+      "exampleMeaning": "나는 다음 주에 새 직장을 시작한다.",
+      "ingForm": "starting"
+    },
+    {
+      "id": "w11",
+      "word": "finish",
+      "pronunciation": "/ˈfɪnɪʃ/",
+      "partOfSpeech": "verb",
+      "meaning": "끝내다",
+      "example": "I will finish my homework tonight.",
+      "exampleMeaning": "나는 오늘 밤 숙제를 끝낼 것이다.",
+      "ingForm": "finishing"
+    },
+    {
+      "id": "w12",
+      "word": "continue",
+      "pronunciation": "/kənˈtɪnjuː/",
+      "partOfSpeech": "verb",
+      "meaning": "계속하다",
+      "example": "We're going to continue this discussion tomorrow.",
+      "exampleMeaning": "우리는 내일 이 논의를 계속할 것이다.",
+      "ingForm": "continuing"
+    },
+    {
+      "id": "w13",
+      "word": "change",
+      "pronunciation": "/tʃeɪndʒ/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "변화하다 / 변화",
+      "example": "Technology is changing our lives.",
+      "exampleMeaning": "기술이 우리 삶을 변화시키고 있다.",
+      "ingForm": "changing"
+    },
+    {
+      "id": "w14",
+      "word": "improve",
+      "pronunciation": "/ɪmˈpruːv/",
+      "partOfSpeech": "verb",
+      "meaning": "개선하다, 향상시키다",
+      "example": "I'm trying to improve my English.",
+      "exampleMeaning": "나는 영어 실력을 향상시키려고 노력하고 있다.",
+      "ingForm": "improving"
+    },
+    {
+      "id": "w15",
+      "word": "develop",
+      "pronunciation": "/dɪˈveləp/",
+      "partOfSpeech": "verb",
+      "meaning": "개발하다, 발전시키다",
+      "example": "They are developing a new app.",
+      "exampleMeaning": "그들은 새로운 앱을 개발하고 있다.",
+      "ingForm": "developing"
+    },
+    {
+      "id": "w16",
+      "word": "predict",
+      "pronunciation": "/prɪˈdɪkt/",
+      "partOfSpeech": "verb",
+      "meaning": "예측하다",
+      "example": "Scientists predict that the climate will change.",
+      "exampleMeaning": "과학자들은 기후가 변화할 것이라고 예측한다.",
+      "ingForm": "predicting"
+    },
+    {
+      "id": "w17",
+      "word": "promise",
+      "pronunciation": "/ˈprɑːmɪs/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "약속하다 / 약속",
+      "example": "I promise I will be there on time.",
+      "exampleMeaning": "나는 제시간에 거기 있을 것을 약속한다.",
+      "ingForm": "promising"
+    },
+    {
+      "id": "w18",
+      "word": "decide",
+      "pronunciation": "/dɪˈsaɪd/",
+      "partOfSpeech": "verb",
+      "meaning": "결정하다",
+      "example": "We are going to decide tomorrow.",
+      "exampleMeaning": "우리는 내일 결정할 것이다.",
+      "ingForm": "deciding"
+    },
+    {
+      "id": "w19",
+      "word": "currently",
+      "pronunciation": "/ˈkɜːrəntli/",
+      "partOfSpeech": "adverb",
+      "meaning": "현재, 지금",
+      "example": "I am currently working from home.",
+      "exampleMeaning": "나는 현재 재택근무를 하고 있다."
+    },
+    {
+      "id": "w20",
+      "word": "soon",
+      "pronunciation": "/suːn/",
+      "partOfSpeech": "adverb",
+      "meaning": "곧",
+      "example": "I will contact you soon.",
+      "exampleMeaning": "나는 곧 당신에게 연락할 것이다."
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "What is the -ing form of 'study'?",
+      "options": ["studing", "studying", "studiing", "studyying"],
+      "answer": "studying",
+      "explanation": "'study'는 -y를 -i로 바꾸고 -ing를 붙여 'studying'이 됩니다."
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "What is the -ing form of 'plan'?",
+      "options": ["planing", "planning", "plann", "planeing"],
+      "answer": "planning",
+      "explanation": "'plan'은 짧은 동사(CVC)이므로 'n'을 한 번 더 쓰고 -ing를 붙입니다."
+    },
+    {
+      "id": "ex3",
+      "type": "fill_blank",
+      "question": "I am _____ (meet) my friend tomorrow.",
+      "answer": ["meeting"],
+      "explanation": "확정된 계획을 현재진행형으로 표현: am meeting"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "We _____ (visit) Paris next month.",
+      "answer": ["are going to visit", "will visit", "are visiting"],
+      "explanation": "미래 계획: 'are going to visit', 'will visit', 또는 'are visiting' 모두 가능합니다."
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "Which word means '예측하다'?",
+      "options": ["promise", "predict", "prepare", "prevent"],
+      "answer": "predict",
+      "explanation": "'predict'는 '예측하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "She is _____ (work) on a new project.",
+      "answer": ["working"],
+      "explanation": "현재 진행 중인 동작: is working"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "What does 'currently' mean?",
+      "options": ["미래에", "과거에", "현재", "항상"],
+      "answer": "현재",
+      "explanation": "'currently'는 '현재, 지금'이라는 뜻입니다."
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "I _____ (arrive) at 6 PM tomorrow.",
+      "answer": ["will arrive", "am going to arrive"],
+      "explanation": "미래 시제: 'will arrive' 또는 'am going to arrive'"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "Which verb means '개선하다'?",
+      "options": ["improve", "prove", "move", "remove"],
+      "answer": "improve",
+      "explanation": "'improve'는 '개선하다, 향상시키다'라는 뜻입니다."
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "They are _____ (travel) to Japan.",
+      "answer": ["traveling", "travelling"],
+      "explanation": "'travel'의 -ing 형태: traveling (미국식) 또는 travelling (영국식)"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "What is the -ing form of 'leave'?",
+      "options": ["leaveing", "leaving", "liveing", "living"],
+      "answer": "leaving",
+      "explanation": "'leave'는 e로 끝나므로 e를 빼고 -ing를 붙여 'leaving'이 됩니다."
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "I _____ I will help you. (약속하다)",
+      "answer": ["promise"],
+      "explanation": "'promise'는 '약속하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "Which sentence expresses future intention?",
+      "options": [
+        "I study English.",
+        "I studied English.",
+        "I am going to study English.",
+        "I was studying English."
+      ],
+      "answer": "I am going to study English.",
+      "explanation": "'be going to + 동사'는 미래 의도를 표현합니다."
+    },
+    {
+      "id": "ex14",
+      "type": "fill_blank",
+      "question": "We are _____ (prepare) for the exam.",
+      "answer": ["preparing"],
+      "explanation": "현재 진행형: are preparing"
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "What does 'soon' mean?",
+      "options": ["항상", "결코", "곧", "때때로"],
+      "answer": "곧",
+      "explanation": "'soon'은 '곧'이라는 뜻입니다."
+    }
+  ]
+}

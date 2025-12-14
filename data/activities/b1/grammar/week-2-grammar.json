@@ -1,0 +1,231 @@
+{
+  "id": "week-2-grammar",
+  "weekId": "week-2",
+  "type": "grammar",
+  "level": "B1",
+  "title": "Future Forms: Will, Going to, and Present Continuous",
+  "description": "Learn different ways to talk about future plans, predictions, and arrangements.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Will for Predictions and Spontaneous Decisions",
+      "explanation": "Use 'will + base verb' for predictions based on opinion and for decisions made at the moment of speaking.",
+      "structure": "Subject + will + base verb",
+      "examples": [
+        {
+          "sentence": "I think it will rain tomorrow.",
+          "translation": "내일 비가 올 것 같아요.",
+          "note": "Prediction based on opinion"
+        },
+        {
+          "sentence": "The phone is ringing. I'll answer it.",
+          "translation": "전화가 울려요. 제가 받을게요.",
+          "note": "Spontaneous decision"
+        },
+        {
+          "sentence": "Don't worry, I'll help you with that.",
+          "translation": "걱정 마세요, 제가 도와드릴게요.",
+          "note": "Offer made on the spot"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Will for Promises and Offers",
+      "explanation": "Use 'will' to make promises, offers, and requests.",
+      "examples": [
+        {
+          "sentence": "I promise I will be on time.",
+          "translation": "제시간에 갈게요, 약속해요.",
+          "note": "Promise"
+        },
+        {
+          "sentence": "Will you marry me?",
+          "translation": "저와 결혼해 주시겠어요?",
+          "note": "Request/proposal"
+        },
+        {
+          "sentence": "I'll carry that bag for you.",
+          "translation": "그 가방 제가 들어 드릴게요.",
+          "note": "Offer"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Going to for Plans and Intentions",
+      "explanation": "Use 'be going to + base verb' for plans decided before speaking and for predictions based on evidence.",
+      "structure": "Subject + am/is/are + going to + base verb",
+      "examples": [
+        {
+          "sentence": "I'm going to study medicine at university.",
+          "translation": "저는 대학에서 의학을 공부할 거예요.",
+          "note": "Plan decided before (intention)"
+        },
+        {
+          "sentence": "Look at those clouds! It's going to rain.",
+          "translation": "저 구름 좀 봐요! 비가 올 것 같아요.",
+          "note": "Prediction based on evidence"
+        },
+        {
+          "sentence": "She's going to have a baby in June.",
+          "translation": "그녀는 6월에 아기를 낳을 거예요.",
+          "note": "Known future event"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Present Continuous for Arrangements",
+      "explanation": "Use Present Continuous for definite future arrangements, especially with a specific time or place.",
+      "structure": "Subject + am/is/are + verb-ing",
+      "examples": [
+        {
+          "sentence": "I'm meeting John at 3 o'clock tomorrow.",
+          "translation": "내일 3시에 존을 만날 거예요.",
+          "note": "Definite arrangement"
+        },
+        {
+          "sentence": "We're flying to Paris next Monday.",
+          "translation": "다음 주 월요일에 파리로 날아가요.",
+          "note": "Travel arrangement"
+        },
+        {
+          "sentence": "Are you doing anything tonight?",
+          "translation": "오늘 밤에 뭐 해요?",
+          "note": "Asking about arrangements"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "title": "Comparing Future Forms",
+      "explanation": "Choose the right future form based on the situation: prediction (will/going to), plan (going to), arrangement (present continuous), spontaneous decision (will).",
+      "examples": [
+        {
+          "sentence": "I'm going to learn Japanese. (plan)",
+          "translation": "일본어를 배울 거예요. (미리 정한 계획)",
+          "note": "Decision made before speaking"
+        },
+        {
+          "sentence": "I'll learn Japanese. (spontaneous)",
+          "translation": "일본어를 배울게요. (즉흥적 결정)",
+          "note": "Decision made now"
+        },
+        {
+          "sentence": "I'm starting Japanese classes next week. (arrangement)",
+          "translation": "다음 주부터 일본어 수업을 시작해요. (정해진 일정)",
+          "note": "Fixed arrangement"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "title": "Future Time Expressions",
+      "explanation": "Common time expressions used with future tenses.",
+      "timeExpressions": [
+        {"expression": "tomorrow", "korean": "내일"},
+        {"expression": "next week/month/year", "korean": "다음 주/달/년"},
+        {"expression": "in + time", "korean": "~후에 (in two days: 이틀 후에)"},
+        {"expression": "soon", "korean": "곧"},
+        {"expression": "later", "korean": "나중에"},
+        {"expression": "this weekend/evening", "korean": "이번 주말/저녁"},
+        {"expression": "in the future", "korean": "미래에"}
+      ],
+      "examples": [
+        {
+          "sentence": "I'll call you later.",
+          "translation": "나중에 전화할게요.",
+          "note": "'later' with will"
+        },
+        {
+          "sentence": "We're leaving in two hours.",
+          "translation": "2시간 후에 출발해요.",
+          "note": "'in + time' with present continuous"
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "Look at those dark clouds. It _____ rain.",
+      "options": ["will", "is going to", "is", "going to"],
+      "answer": "is going to"
+    },
+    {
+      "id": "ex2",
+      "type": "fill_blank",
+      "question": "The phone is ringing! I _____ (get) it.",
+      "answer": "will get"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "I've decided. I _____ apply for that job.",
+      "options": ["will", "'m going to", "'m applying", "going to"],
+      "answer": "'m going to"
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "We _____ (have) dinner at 7 o'clock. Would you like to join us?",
+      "answer": "are having"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "I promise I _____ be late again.",
+      "options": ["won't", "'m not going to", "'m not being", "don't"],
+      "answer": "won't"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "I think she _____ pass the exam. She studied hard.",
+      "options": ["will", "is going to", "is passing", "passes"],
+      "answer": "will"
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "What are you _____ (do) this weekend?",
+      "answer": "going to do"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "_____ you help me with this?",
+      "options": ["Will", "Are going to", "Are", "Do"],
+      "answer": "Will"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "They _____ (fly) to London tomorrow. Their tickets are booked.",
+      "answer": "are flying"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "Which sentence is about a spontaneous decision?",
+      "options": ["I'm going to study tonight.", "I'll have the pasta, please.", "I'm meeting her at 5.", "We're leaving soon."],
+      "answer": "I'll have the pasta, please."
+    },
+    {
+      "id": "ex11",
+      "type": "reorder",
+      "question": "Put in order: going / are / to / where / you / travel / ?",
+      "answer": "Where are you going to travel?"
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "Don't worry. Everything _____ (be) fine.",
+      "answer": "will be"
+    }
+  ]
+}
