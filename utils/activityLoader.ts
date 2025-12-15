@@ -25,68 +25,110 @@ export const CEFR_LEVEL_INFO: Record<CEFRLevel, { name: string; description: str
 };
 
 // ─────────────────────────────────────
-// A1 레벨 데이터 임포트
+// 동적 로딩 캐시 및 인프라
 // ─────────────────────────────────────
 
-// A1 Vocabulary
-import a1Week1Vocab from '@/data/activities/a1/vocabulary/week-1-vocab.json';
-import a1Week2Vocab from '@/data/activities/a1/vocabulary/week-2-vocab.json';
-import a1Week3Vocab from '@/data/activities/a1/vocabulary/week-3-vocab.json';
-import a1Week4Vocab from '@/data/activities/a1/vocabulary/week-4-vocab.json';
-import a1Week5Vocab from '@/data/activities/a1/vocabulary/week-5-vocab.json';
-import a1Week6Vocab from '@/data/activities/a1/vocabulary/week-6-vocab.json';
-import a1Week7Vocab from '@/data/activities/a1/vocabulary/week-7-vocab.json';
-import a1Week8Vocab from '@/data/activities/a1/vocabulary/week-8-vocab.json';
+type ActivityCache = Record<CEFRLevel, Record<ActivityType, Record<string, Activity>> | null>;
 
-// A1 Grammar
-import a1Week1Grammar from '@/data/activities/a1/grammar/week-1-grammar.json';
-import a1Week2Grammar from '@/data/activities/a1/grammar/week-2-grammar.json';
-import a1Week3Grammar from '@/data/activities/a1/grammar/week-3-grammar.json';
-import a1Week4Grammar from '@/data/activities/a1/grammar/week-4-grammar.json';
-import a1Week5Grammar from '@/data/activities/a1/grammar/week-5-grammar.json';
-import a1Week6Grammar from '@/data/activities/a1/grammar/week-6-grammar.json';
-import a1Week7Grammar from '@/data/activities/a1/grammar/week-7-grammar.json';
-import a1Week8Grammar from '@/data/activities/a1/grammar/week-8-grammar.json';
+// 레벨별 캐시 (동적 로딩된 데이터 저장)
+const activityCache: ActivityCache = {
+  A1: null,
+  A2: null,
+  B1: null,
+  B2: null,
+};
 
-// A1 Listening
-import a1Week1Listening from '@/data/activities/a1/listening/week-1-listening.json';
-import a1Week2Listening from '@/data/activities/a1/listening/week-2-listening.json';
-import a1Week3Listening from '@/data/activities/a1/listening/week-3-listening.json';
-import a1Week4Listening from '@/data/activities/a1/listening/week-4-listening.json';
-import a1Week5Listening from '@/data/activities/a1/listening/week-5-listening.json';
-import a1Week6Listening from '@/data/activities/a1/listening/week-6-listening.json';
-import a1Week7Listening from '@/data/activities/a1/listening/week-7-listening.json';
-import a1Week8Listening from '@/data/activities/a1/listening/week-8-listening.json';
+// 레벨별 로딩 상태
+const loadingPromises: Record<CEFRLevel, Promise<void> | null> = {
+  A1: null,
+  A2: null,
+  B1: null,
+  B2: null,
+};
 
-// A1 Reading
-import a1Week1Reading from '@/data/activities/a1/reading/week-1-reading.json';
-import a1Week2Reading from '@/data/activities/a1/reading/week-2-reading.json';
-import a1Week3Reading from '@/data/activities/a1/reading/week-3-reading.json';
-import a1Week4Reading from '@/data/activities/a1/reading/week-4-reading.json';
-import a1Week5Reading from '@/data/activities/a1/reading/week-5-reading.json';
-import a1Week6Reading from '@/data/activities/a1/reading/week-6-reading.json';
-import a1Week7Reading from '@/data/activities/a1/reading/week-7-reading.json';
-import a1Week8Reading from '@/data/activities/a1/reading/week-8-reading.json';
+// 레벨이 로드되었는지 확인
+export function isLevelLoaded(level: CEFRLevel): boolean {
+  return activityCache[level] !== null;
+}
 
-// A1 Speaking
-import a1Week1Speaking from '@/data/activities/a1/speaking/week-1-speaking.json';
-import a1Week2Speaking from '@/data/activities/a1/speaking/week-2-speaking.json';
-import a1Week3Speaking from '@/data/activities/a1/speaking/week-3-speaking.json';
-import a1Week4Speaking from '@/data/activities/a1/speaking/week-4-speaking.json';
-import a1Week5Speaking from '@/data/activities/a1/speaking/week-5-speaking.json';
-import a1Week6Speaking from '@/data/activities/a1/speaking/week-6-speaking.json';
-import a1Week7Speaking from '@/data/activities/a1/speaking/week-7-speaking.json';
-import a1Week8Speaking from '@/data/activities/a1/speaking/week-8-speaking.json';
+// 단일 활동 파일 동적 로드
+async function loadActivityFile(
+  level: CEFRLevel,
+  type: ActivityType,
+  weekNum: number
+): Promise<Activity> {
+  const levelLower = level.toLowerCase();
+  const typeToFile: Record<ActivityType, string> = {
+    vocabulary: 'vocab',
+    grammar: 'grammar',
+    listening: 'listening',
+    reading: 'reading',
+    speaking: 'speaking',
+    writing: 'writing',
+  };
+  const fileName = `week-${weekNum}-${typeToFile[type]}`;
 
-// A1 Writing
-import a1Week1Writing from '@/data/activities/a1/writing/week-1-writing.json';
-import a1Week2Writing from '@/data/activities/a1/writing/week-2-writing.json';
-import a1Week3Writing from '@/data/activities/a1/writing/week-3-writing.json';
-import a1Week4Writing from '@/data/activities/a1/writing/week-4-writing.json';
-import a1Week5Writing from '@/data/activities/a1/writing/week-5-writing.json';
-import a1Week6Writing from '@/data/activities/a1/writing/week-6-writing.json';
-import a1Week7Writing from '@/data/activities/a1/writing/week-7-writing.json';
-import a1Week8Writing from '@/data/activities/a1/writing/week-8-writing.json';
+  // 동적 import 사용
+  const module = await import(`@/data/activities/${levelLower}/${type}/${fileName}.json`);
+  return module.default as Activity;
+}
+
+// 레벨 전체 프리로드
+export async function preloadLevel(level: CEFRLevel): Promise<void> {
+  // 이미 로드되었으면 스킵
+  if (activityCache[level] !== null) {
+    return;
+  }
+
+  // 이미 로딩 중이면 기존 Promise 반환
+  if (loadingPromises[level] !== null) {
+    return loadingPromises[level]!;
+  }
+
+  // 로딩 시작
+  loadingPromises[level] = (async () => {
+    const types: ActivityType[] = [
+      'vocabulary',
+      'grammar',
+      'listening',
+      'reading',
+      'speaking',
+      'writing',
+    ];
+
+    const levelData: Record<ActivityType, Record<string, Activity>> = {
+      vocabulary: {},
+      grammar: {},
+      listening: {},
+      reading: {},
+      speaking: {},
+      writing: {},
+    };
+
+    // 병렬로 모든 활동 로드
+    const promises: Promise<void>[] = [];
+
+    for (const type of types) {
+      for (let week = 1; week <= 8; week++) {
+        promises.push(
+          loadActivityFile(level, type, week).then((activity) => {
+            levelData[type][`week-${week}`] = activity;
+          })
+        );
+      }
+    }
+
+    await Promise.all(promises);
+    activityCache[level] = levelData;
+    loadingPromises[level] = null;
+  })();
+
+  return loadingPromises[level]!;
+}
+
+// ─────────────────────────────────────
+// A1 레벨: 동적 로딩 사용 (preloadLevel('A1') 필요)
+// ─────────────────────────────────────
 
 // ─────────────────────────────────────
 // A2 레벨 데이터 임포트
@@ -281,75 +323,15 @@ import b2Week7Writing from '@/data/activities/b2/writing/week-7-writing.json';
 import b2Week8Writing from '@/data/activities/b2/writing/week-8-writing.json';
 
 // ─────────────────────────────────────
-// 데이터 맵
+// 데이터 맵 (정적 임포트용 - A2, B1, B2만)
+// A1은 동적 로딩 사용 (캐시에서 조회)
 // ─────────────────────────────────────
 
 type ActivityData = Record<ActivityType, Record<string, Activity>>;
-type LevelActivityData = Record<CEFRLevel, ActivityData>;
+type LevelActivityData = Partial<Record<CEFRLevel, ActivityData>>;
 
 const ACTIVITIES: LevelActivityData = {
-  A1: {
-    vocabulary: {
-      'week-1': a1Week1Vocab as VocabularyActivity,
-      'week-2': a1Week2Vocab as VocabularyActivity,
-      'week-3': a1Week3Vocab as VocabularyActivity,
-      'week-4': a1Week4Vocab as VocabularyActivity,
-      'week-5': a1Week5Vocab as VocabularyActivity,
-      'week-6': a1Week6Vocab as VocabularyActivity,
-      'week-7': a1Week7Vocab as VocabularyActivity,
-      'week-8': a1Week8Vocab as VocabularyActivity,
-    },
-    grammar: {
-      'week-1': a1Week1Grammar as GrammarActivity,
-      'week-2': a1Week2Grammar as GrammarActivity,
-      'week-3': a1Week3Grammar as GrammarActivity,
-      'week-4': a1Week4Grammar as GrammarActivity,
-      'week-5': a1Week5Grammar as GrammarActivity,
-      'week-6': a1Week6Grammar as GrammarActivity,
-      'week-7': a1Week7Grammar as GrammarActivity,
-      'week-8': a1Week8Grammar as GrammarActivity,
-    },
-    listening: {
-      'week-1': a1Week1Listening as ListeningActivity,
-      'week-2': a1Week2Listening as ListeningActivity,
-      'week-3': a1Week3Listening as ListeningActivity,
-      'week-4': a1Week4Listening as ListeningActivity,
-      'week-5': a1Week5Listening as ListeningActivity,
-      'week-6': a1Week6Listening as ListeningActivity,
-      'week-7': a1Week7Listening as ListeningActivity,
-      'week-8': a1Week8Listening as ListeningActivity,
-    },
-    reading: {
-      'week-1': a1Week1Reading as ReadingActivity,
-      'week-2': a1Week2Reading as ReadingActivity,
-      'week-3': a1Week3Reading as ReadingActivity,
-      'week-4': a1Week4Reading as ReadingActivity,
-      'week-5': a1Week5Reading as ReadingActivity,
-      'week-6': a1Week6Reading as ReadingActivity,
-      'week-7': a1Week7Reading as ReadingActivity,
-      'week-8': a1Week8Reading as ReadingActivity,
-    },
-    speaking: {
-      'week-1': a1Week1Speaking as SpeakingActivity,
-      'week-2': a1Week2Speaking as SpeakingActivity,
-      'week-3': a1Week3Speaking as SpeakingActivity,
-      'week-4': a1Week4Speaking as SpeakingActivity,
-      'week-5': a1Week5Speaking as SpeakingActivity,
-      'week-6': a1Week6Speaking as SpeakingActivity,
-      'week-7': a1Week7Speaking as SpeakingActivity,
-      'week-8': a1Week8Speaking as SpeakingActivity,
-    },
-    writing: {
-      'week-1': a1Week1Writing as WritingActivity,
-      'week-2': a1Week2Writing as WritingActivity,
-      'week-3': a1Week3Writing as WritingActivity,
-      'week-4': a1Week4Writing as WritingActivity,
-      'week-5': a1Week5Writing as WritingActivity,
-      'week-6': a1Week6Writing as WritingActivity,
-      'week-7': a1Week7Writing as WritingActivity,
-      'week-8': a1Week8Writing as WritingActivity,
-    },
-  },
+  // A1: 동적 로딩 사용 (preloadLevel('A1') 호출 필요)
   A2: {
     vocabulary: {
       'week-1': a2Week1Vocab as VocabularyActivity,
@@ -544,12 +526,23 @@ const ACTIVITIES: LevelActivityData = {
 
 /**
  * 특정 레벨과 주차의 활동 데이터 로드
+ * 캐시를 먼저 확인하고, 없으면 정적 ACTIVITIES에서 조회
  */
 export function loadActivity(
   level: CEFRLevel,
   type: ActivityType,
   weekId: string
 ): Activity | null {
+  // 1. 캐시에서 먼저 확인 (동적 로딩된 데이터)
+  const cachedLevel = activityCache[level];
+  if (cachedLevel) {
+    const cachedType = cachedLevel[type];
+    if (cachedType && cachedType[weekId]) {
+      return cachedType[weekId];
+    }
+  }
+
+  // 2. 정적 ACTIVITIES에서 조회 (아직 마이그레이션되지 않은 레벨)
   const levelActivities = ACTIVITIES[level];
   if (!levelActivities) return null;
 
