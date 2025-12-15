@@ -1,6 +1,11 @@
 import React, { memo, useCallback, useMemo, useRef } from 'react';
 import { Dimensions, StyleSheet, View } from 'react-native';
-import { Gesture, GestureDetector, GestureStateChangeEvent, PanGestureHandlerEventPayload } from 'react-native-gesture-handler';
+import {
+  Gesture,
+  GestureDetector,
+  GestureStateChangeEvent,
+  PanGestureHandlerEventPayload,
+} from 'react-native-gesture-handler';
 
 import { Tile } from './Tile';
 
@@ -63,6 +68,11 @@ function GameBoardComponent({ tiles, onMove }: GameBoardProps) {
   const panGesture = useMemo(
     () =>
       Gesture.Pan()
+        // 제스처 시작 조건을 느슨하게 설정하여 게임 보드 내에서 빠르게 캡처
+        .activeOffsetX([-10, 10])
+        .activeOffsetY([-10, 10])
+        // 네비게이션 제스처보다 우선권 확보
+        .hitSlop({ left: 20, right: 20, top: 20, bottom: 20 })
         .onEnd((event: GestureStateChangeEvent<PanGestureHandlerEventPayload>) => {
           handleSwipe(event.translationX, event.translationY);
         })
