@@ -1,0 +1,100 @@
+{
+  "id": "c2-reading-week-8",
+  "type": "reading",
+  "level": "C2",
+  "weekId": "week-8",
+  "title": "The Future of Thought",
+  "description": "Engaging with the most challenging questions of intellectual life",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passage": {
+    "title": "After the End of Philosophy",
+    "author": "Adapted from contemporary philosophical sources",
+    "paragraphs": [
+      "Philosophy, we are sometimes told, has reached its end. Not its completion—as Hegel imagined, with the Absolute finally grasping itself—but its exhaustion. The great questions, on this view, have either been answered by science or exposed as pseudo-questions dissolving under logical analysis. What remains is at best the therapy of conceptual confusion, at worst an obsolete pretension. Yet the reports of philosophy's death have themselves become philosophically interesting. The claim that philosophy is finished is itself a philosophical claim, one that presupposes criteria for what counts as a genuine question and a satisfactory answer. The question of philosophy's status cannot be settled from outside philosophy.",
+      "The more subtle challenge comes not from scientism but from historicism—the recognition that all thought is conditioned by its historical situation. If philosophy cannot transcend its context, if there is no view from nowhere, then what becomes of the aspiration to truth? Gadamer's hermeneutics embraces this finitude: understanding is always from a particular horizon, shaped by tradition, mediated by language. But this need not collapse into relativism. Horizons can fuse; traditions can be transformed; the conversation of humanity proceeds even without final foundations. What we lose is not truth but the fantasy of absolute knowledge that was always a philosopher's dream and never a human possibility.",
+      "Perhaps philosophy's future lies not in solving its canonical problems but in transforming them. The question 'What is knowledge?' may admit no final answer, but pursuing it transforms how we know. The question 'What is justice?' may be interminable, but engaging it shapes more just societies. Philosophy is not a body of doctrine but a practice of inquiry—a way of subjecting our deepest assumptions to critical examination. In this sense, philosophy is less something we know than something we do: a disciplined refusal of the unexamined life.",
+      "What then of wisdom? The ancients conceived philosophy as love of wisdom—not possession but pursuit. Wisdom differs from knowledge in being irreducibly practical: knowing how to live, not just what is the case. It includes judgment, which cannot be reduced to rules; prudence, which discerns the right action in particular circumstances; and a kind of self-knowledge that renders one less liable to the illusions that distort human life. If philosophy has a future, it may be in recovering this older conception: not a technical discipline competing with science but a way of life oriented toward the good."
+    ]
+  },
+  "questions": [
+    {
+      "id": "c2-r8-q1",
+      "type": "main-idea",
+      "question": "What is the author's response to the claim that philosophy has ended?",
+      "options": [
+        "It is correct—philosophy is obsolete",
+        "It is a self-refuting philosophical claim",
+        "It is a scientific discovery",
+        "It has been proven empirically"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'The claim that philosophy is finished is itself a philosophical claim' that 'cannot be settled from outside philosophy'"
+    },
+    {
+      "id": "c2-r8-q2",
+      "type": "detail",
+      "question": "According to the passage, what challenge does historicism pose to philosophy?",
+      "options": [
+        "It proves philosophy is purely historical",
+        "It questions whether philosophy can transcend its historical context to achieve truth",
+        "It shows that philosophy is always progressive",
+        "It eliminates the need for philosophical inquiry"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'If philosophy cannot transcend its context, if there is no view from nowhere, then what becomes of the aspiration to truth?'"
+    },
+    {
+      "id": "c2-r8-q3",
+      "type": "inference",
+      "question": "What does the author suggest we lose by accepting our epistemic finitude?",
+      "options": [
+        "All possibility of truth",
+        "The fantasy of absolute knowledge, which was never achievable anyway",
+        "The value of philosophical inquiry",
+        "The distinction between knowledge and opinion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'What we lose is not truth but the fantasy of absolute knowledge that was always a philosopher's dream and never a human possibility'"
+    },
+    {
+      "id": "c2-r8-q4",
+      "type": "vocabulary",
+      "question": "What does the author mean by describing philosophy as 'a disciplined refusal of the unexamined life'?",
+      "options": [
+        "Philosophy requires academic credentials",
+        "Philosophy systematically questions our deepest assumptions",
+        "Philosophy avoids personal topics",
+        "Philosophy rejects common sense"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Philosophy is 'a practice of inquiry—a way of subjecting our deepest assumptions to critical examination'"
+    },
+    {
+      "id": "c2-r8-q5",
+      "type": "critical-analysis",
+      "question": "How does the passage distinguish wisdom from knowledge?",
+      "options": [
+        "Wisdom is older, knowledge is modern",
+        "Wisdom is practical and includes judgment; knowledge is propositional",
+        "Wisdom is certain, knowledge is probable",
+        "They are essentially the same"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Wisdom differs from knowledge in being irreducibly practical: knowing how to live, not just what is the case'"
+    },
+    {
+      "id": "c2-r8-q6",
+      "type": "synthesis",
+      "question": "What vision of philosophy's future does the passage offer?",
+      "options": [
+        "Becoming a branch of natural science",
+        "Recovering the ancient conception as a way of life oriented toward the good",
+        "Abandoning traditional questions entirely",
+        "Achieving final answers to all questions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Philosophy's future may be 'in recovering this older conception: not a technical discipline competing with science but a way of life oriented toward the good'"
+    }
+  ]
+}

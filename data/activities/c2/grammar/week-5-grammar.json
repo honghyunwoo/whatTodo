@@ -1,0 +1,136 @@
+{
+  "id": "c2-grammar-week-5",
+  "type": "grammar",
+  "level": "C2",
+  "weekId": "week-5",
+  "title": "Philosophical Prose and Abstract Discourse",
+  "description": "Grammatical structures for expressing complex philosophical ideas",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c2-g5-s1",
+      "title": "Nominalization in Abstract Discourse",
+      "explanation": "Turning processes into things to discuss them abstractly.",
+      "patterns": [
+        {
+          "type": "Verb to noun",
+          "process": "know → knowledge; perceive → perception; exist → existence",
+          "example": "The knowledge of knowledge itself—reflexive epistemology—raises unique difficulties.",
+          "effect": "Allows treating processes as objects of analysis"
+        },
+        {
+          "type": "Adjective to noun",
+          "process": "possible → possibility; certain → certainty; true → truth",
+          "example": "The very possibility of truth presupposes what it seeks to establish.",
+          "effect": "Enables discussion of abstract qualities"
+        },
+        {
+          "type": "Compound nominalization",
+          "process": "Stacking nominalizations for dense abstraction",
+          "example": "The underdetermination of theory by evidence suggests the inevitability of extra-empirical factors in theory choice.",
+          "caution": "Use sparingly; can become impenetrable"
+        }
+      ]
+    },
+    {
+      "id": "c2-g5-s2",
+      "title": "Qualified Assertion",
+      "explanation": "Expressing degrees of commitment to claims in philosophical argument.",
+      "gradients": [
+        {
+          "level": "Strong assertion",
+          "markers": ["clearly", "certainly", "undeniably", "necessarily"],
+          "example": "This clearly demonstrates that..."
+        },
+        {
+          "level": "Moderate assertion",
+          "markers": ["arguably", "plausibly", "reasonably"],
+          "example": "One can reasonably conclude that..."
+        },
+        {
+          "level": "Tentative assertion",
+          "markers": ["perhaps", "possibly", "it might be that"],
+          "example": "Perhaps what is needed is..."
+        },
+        {
+          "level": "Speculative assertion",
+          "markers": ["one might speculate", "it is conceivable that"],
+          "example": "One might speculate that this paradox dissolves if..."
+        }
+      ]
+    },
+    {
+      "id": "c2-g5-s3",
+      "title": "Self-Referential and Metalinguistic Constructions",
+      "explanation": "Structures for talking about language, concepts, and thought itself.",
+      "patterns": [
+        {
+          "type": "Mention vs. use",
+          "example": "'Truth' is a five-letter word. [mention] / Truth is the aim of inquiry. [use]",
+          "note": "Quotation marks or italics indicate mention"
+        },
+        {
+          "type": "The concept of X",
+          "example": "The concept of freedom presupposes that of constraint.",
+          "note": "Explicitly marks conceptual level of analysis"
+        },
+        {
+          "type": "What we call X",
+          "example": "What we call 'knowledge' in everyday discourse may not satisfy philosophical standards.",
+          "note": "Distances writer from ordinary usage"
+        },
+        {
+          "type": "In the sense that",
+          "example": "Language is arbitrary in the sense that signs bear no natural relation to what they signify.",
+          "note": "Specifies the precise meaning intended"
+        }
+      ]
+    },
+    {
+      "id": "c2-g5-s4",
+      "title": "Paradox and Dialectical Formulation",
+      "explanation": "Expressing contradictions and their resolution.",
+      "structures": [
+        {
+          "form": "X is at once A and not-A",
+          "example": "The subject is at once constituted by power and resistant to it.",
+          "function": "States productive paradox"
+        },
+        {
+          "form": "Not A but B, where B is revealed A",
+          "example": "This is not the absence of meaning but meaning as absence.",
+          "function": "Dialectical reversal"
+        },
+        {
+          "form": "The very X that Y is also what Z",
+          "example": "The very universality that enables communication is also what constrains it.",
+          "function": "Shows how same feature produces opposing effects"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-g5-ex1",
+      "type": "nominalization",
+      "instruction": "Nominalize for greater abstraction",
+      "original": "When we know something, we cannot also doubt it at the same time.",
+      "answer": "The simultaneous possession of knowledge and doubt regarding the same object presents a logical impossibility."
+    },
+    {
+      "id": "c2-g5-ex2",
+      "type": "qualified-assertion",
+      "instruction": "Reduce the certainty of this claim appropriately",
+      "original": "This proves that Descartes was wrong about consciousness.",
+      "answer": "This suggests that Descartes's account of consciousness may require significant revision."
+    },
+    {
+      "id": "c2-g5-ex3",
+      "type": "dialectical",
+      "instruction": "Express as a productive paradox",
+      "original": "Freedom requires constraints. Without rules, we cannot be free.",
+      "answer": "Freedom is not the absence of constraint but is constituted through it; the very limits that appear to restrict us are the conditions of our liberation."
+    }
+  ]
+}

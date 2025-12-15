@@ -1,0 +1,96 @@
+{
+  "id": "c1-writing-week-5",
+  "type": "writing",
+  "level": "C1",
+  "weekId": "week-5",
+  "title": "Research Abstracts and Scientific Writing",
+  "description": "Crafting effective research summaries and technical documents",
+  "estimatedMinutes": 35,
+  "xpReward": 65,
+  "sections": [
+    {
+      "id": "c1-w5-s1",
+      "title": "The Research Abstract",
+      "description": "Summarizing research in 150-300 words",
+      "structure": [
+        {
+          "element": "Background/Context",
+          "description": "One sentence establishing the topic and its significance",
+          "example": "Climate change poses unprecedented challenges for coastal communities worldwide."
+        },
+        {
+          "element": "Research Gap/Problem",
+          "description": "What this study addresses",
+          "example": "However, the effectiveness of different adaptation strategies remains unclear."
+        },
+        {
+          "element": "Methods",
+          "description": "Brief description of approach",
+          "example": "This study analyzes 15 years of data from 40 coastal cities implementing various adaptation measures."
+        },
+        {
+          "element": "Results",
+          "description": "Key findings, specific where possible",
+          "example": "Results indicate that integrated approaches combining gray and green infrastructure reduced flood damage by 47% compared to single-strategy approaches."
+        },
+        {
+          "element": "Conclusions/Implications",
+          "description": "What the findings mean",
+          "example": "These findings suggest that policymakers should prioritize hybrid adaptation strategies when allocating limited resources."
+        }
+      ]
+    },
+    {
+      "id": "c1-w5-s2",
+      "title": "Scientific Writing Style",
+      "description": "Conventions of academic scientific prose",
+      "conventions": [
+        {
+          "principle": "Precision over elegance",
+          "weak": "The results were quite impressive.",
+          "strong": "The intervention group showed a 34% reduction in emissions (p < 0.01)."
+        },
+        {
+          "principle": "Hedging appropriately",
+          "weak": "This proves that X causes Y.",
+          "strong": "These results suggest a causal relationship between X and Y."
+        },
+        {
+          "principle": "Active vs. passive voice",
+          "guideline": "Use active for clarity, passive when the agent is unknown or unimportant",
+          "active": "We analyzed the data using regression analysis.",
+          "passive": "Samples were collected over a six-month period."
+        },
+        {
+          "principle": "Avoiding anthropomorphism",
+          "weak": "The data argue that...",
+          "strong": "The data indicate/suggest/demonstrate that..."
+        }
+      ]
+    },
+    {
+      "id": "c1-w5-s3",
+      "title": "Discussing Limitations",
+      "description": "Acknowledging constraints without undermining your work",
+      "techniques": [
+        {
+          "approach": "Frame limitations as scope",
+          "example": "This study focused on urban areas; rural applications may differ."
+        },
+        {
+          "approach": "Connect limitations to future research",
+          "example": "The cross-sectional design limits causal inference; longitudinal studies could address this gap."
+        },
+        {
+          "approach": "Balance limitation with strength",
+          "example": "While the sample size was modest, the effect size was large enough to detect significant differences."
+        }
+      ]
+    }
+  ],
+  "writingTask": {
+    "title": "Research Abstract",
+    "prompt": "Write an abstract (200-250 words) for a hypothetical study examining the relationship between urban green spaces and air quality in major cities.",
+    "sampleResponse": "Urban Green Spaces and Air Quality: A Multi-City Analysis\n\nBackground: Urban air pollution contributes to millions of premature deaths annually. Green spaces have been proposed as a nature-based solution for improving urban air quality, but the magnitude and mechanisms of this benefit remain contested.\n\nObjective: This study investigates the relationship between urban green space coverage and air quality indicators across 50 major cities globally.\n\nMethods: We combined satellite-derived green space data with ground-based air quality measurements (PM2.5, NO2, and O3) from 2015-2023. Multiple regression models controlled for population density, industrial activity, traffic patterns, and meteorological variables. Spatial analysis examined the relationship between proximity to green spaces and local air quality.\n\nResults: Cities with green space coverage exceeding 20% showed PM2.5 levels 12% lower than comparable cities with less coverage (p < 0.001). The effect was strongest within 500 meters of parks larger than 5 hectares. However, the relationship varied significantly by climate zone, with stronger effects in temperate regions. NO2 reductions were significant only in cities with extensive tree canopy rather than grass-dominated green spaces.\n\nConclusions: Urban green spaces can contribute measurably to air quality improvement, but effect size depends on green space type, size, and configuration. These findings support targeted investment in urban forests rather than general greening. Policymakers should prioritize tree canopy expansion in high-pollution areas within temperate climate zones for maximum air quality benefit."
+  }
+}

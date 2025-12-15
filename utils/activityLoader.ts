@@ -258,61 +258,121 @@ import b2Week8Writing from '@/data/activities/b2/writing/week-8-writing.json';
 import c1Week1Vocab from '@/data/activities/c1/vocabulary/week-1-vocab.json';
 import c1Week2Vocab from '@/data/activities/c1/vocabulary/week-2-vocab.json';
 import c1Week3Vocab from '@/data/activities/c1/vocabulary/week-3-vocab.json';
+import c1Week4Vocab from '@/data/activities/c1/vocabulary/week-4-vocab.json';
+import c1Week5Vocab from '@/data/activities/c1/vocabulary/week-5-vocab.json';
+import c1Week6Vocab from '@/data/activities/c1/vocabulary/week-6-vocab.json';
+import c1Week7Vocab from '@/data/activities/c1/vocabulary/week-7-vocab.json';
+import c1Week8Vocab from '@/data/activities/c1/vocabulary/week-8-vocab.json';
 
 // C1 Grammar
 import c1Week1Grammar from '@/data/activities/c1/grammar/week-1-grammar.json';
 import c1Week2Grammar from '@/data/activities/c1/grammar/week-2-grammar.json';
 import c1Week3Grammar from '@/data/activities/c1/grammar/week-3-grammar.json';
+import c1Week4Grammar from '@/data/activities/c1/grammar/week-4-grammar.json';
+import c1Week5Grammar from '@/data/activities/c1/grammar/week-5-grammar.json';
+import c1Week6Grammar from '@/data/activities/c1/grammar/week-6-grammar.json';
+import c1Week7Grammar from '@/data/activities/c1/grammar/week-7-grammar.json';
+import c1Week8Grammar from '@/data/activities/c1/grammar/week-8-grammar.json';
 
 // C1 Listening
 import c1Week1Listening from '@/data/activities/c1/listening/week-1-listening.json';
 import c1Week2Listening from '@/data/activities/c1/listening/week-2-listening.json';
 import c1Week3Listening from '@/data/activities/c1/listening/week-3-listening.json';
+import c1Week4Listening from '@/data/activities/c1/listening/week-4-listening.json';
+import c1Week5Listening from '@/data/activities/c1/listening/week-5-listening.json';
+import c1Week6Listening from '@/data/activities/c1/listening/week-6-listening.json';
+import c1Week7Listening from '@/data/activities/c1/listening/week-7-listening.json';
+import c1Week8Listening from '@/data/activities/c1/listening/week-8-listening.json';
 
 // C1 Reading
 import c1Week1Reading from '@/data/activities/c1/reading/week-1-reading.json';
 import c1Week2Reading from '@/data/activities/c1/reading/week-2-reading.json';
 import c1Week3Reading from '@/data/activities/c1/reading/week-3-reading.json';
+import c1Week4Reading from '@/data/activities/c1/reading/week-4-reading.json';
+import c1Week5Reading from '@/data/activities/c1/reading/week-5-reading.json';
+import c1Week6Reading from '@/data/activities/c1/reading/week-6-reading.json';
+import c1Week7Reading from '@/data/activities/c1/reading/week-7-reading.json';
+import c1Week8Reading from '@/data/activities/c1/reading/week-8-reading.json';
 
 // C1 Speaking
 import c1Week1Speaking from '@/data/activities/c1/speaking/week-1-speaking.json';
 import c1Week2Speaking from '@/data/activities/c1/speaking/week-2-speaking.json';
 import c1Week3Speaking from '@/data/activities/c1/speaking/week-3-speaking.json';
+import c1Week4Speaking from '@/data/activities/c1/speaking/week-4-speaking.json';
+import c1Week5Speaking from '@/data/activities/c1/speaking/week-5-speaking.json';
+import c1Week6Speaking from '@/data/activities/c1/speaking/week-6-speaking.json';
+import c1Week7Speaking from '@/data/activities/c1/speaking/week-7-speaking.json';
+import c1Week8Speaking from '@/data/activities/c1/speaking/week-8-speaking.json';
 
 // C1 Writing
 import c1Week1Writing from '@/data/activities/c1/writing/week-1-writing.json';
 import c1Week2Writing from '@/data/activities/c1/writing/week-2-writing.json';
 import c1Week3Writing from '@/data/activities/c1/writing/week-3-writing.json';
+import c1Week4Writing from '@/data/activities/c1/writing/week-4-writing.json';
+import c1Week5Writing from '@/data/activities/c1/writing/week-5-writing.json';
+import c1Week6Writing from '@/data/activities/c1/writing/week-6-writing.json';
+import c1Week7Writing from '@/data/activities/c1/writing/week-7-writing.json';
+import c1Week8Writing from '@/data/activities/c1/writing/week-8-writing.json';
 
 // C2 Vocabulary
 import c2Week1Vocab from '@/data/activities/c2/vocabulary/week-1-vocab.json';
 import c2Week2Vocab from '@/data/activities/c2/vocabulary/week-2-vocab.json';
 import c2Week3Vocab from '@/data/activities/c2/vocabulary/week-3-vocab.json';
+import c2Week4Vocab from '@/data/activities/c2/vocabulary/week-4-vocab.json';
+import c2Week5Vocab from '@/data/activities/c2/vocabulary/week-5-vocab.json';
+import c2Week6Vocab from '@/data/activities/c2/vocabulary/week-6-vocab.json';
+import c2Week7Vocab from '@/data/activities/c2/vocabulary/week-7-vocab.json';
+import c2Week8Vocab from '@/data/activities/c2/vocabulary/week-8-vocab.json';
 
 // C2 Grammar
 import c2Week1Grammar from '@/data/activities/c2/grammar/week-1-grammar.json';
 import c2Week2Grammar from '@/data/activities/c2/grammar/week-2-grammar.json';
 import c2Week3Grammar from '@/data/activities/c2/grammar/week-3-grammar.json';
+import c2Week4Grammar from '@/data/activities/c2/grammar/week-4-grammar.json';
+import c2Week5Grammar from '@/data/activities/c2/grammar/week-5-grammar.json';
+import c2Week6Grammar from '@/data/activities/c2/grammar/week-6-grammar.json';
+import c2Week7Grammar from '@/data/activities/c2/grammar/week-7-grammar.json';
+import c2Week8Grammar from '@/data/activities/c2/grammar/week-8-grammar.json';
 
 // C2 Listening
 import c2Week1Listening from '@/data/activities/c2/listening/week-1-listening.json';
 import c2Week2Listening from '@/data/activities/c2/listening/week-2-listening.json';
 import c2Week3Listening from '@/data/activities/c2/listening/week-3-listening.json';
+import c2Week4Listening from '@/data/activities/c2/listening/week-4-listening.json';
+import c2Week5Listening from '@/data/activities/c2/listening/week-5-listening.json';
+import c2Week6Listening from '@/data/activities/c2/listening/week-6-listening.json';
+import c2Week7Listening from '@/data/activities/c2/listening/week-7-listening.json';
+import c2Week8Listening from '@/data/activities/c2/listening/week-8-listening.json';
 
 // C2 Reading
 import c2Week1Reading from '@/data/activities/c2/reading/week-1-reading.json';
 import c2Week2Reading from '@/data/activities/c2/reading/week-2-reading.json';
 import c2Week3Reading from '@/data/activities/c2/reading/week-3-reading.json';
+import c2Week4Reading from '@/data/activities/c2/reading/week-4-reading.json';
+import c2Week5Reading from '@/data/activities/c2/reading/week-5-reading.json';
+import c2Week6Reading from '@/data/activities/c2/reading/week-6-reading.json';
+import c2Week7Reading from '@/data/activities/c2/reading/week-7-reading.json';
+import c2Week8Reading from '@/data/activities/c2/reading/week-8-reading.json';
 
 // C2 Speaking
 import c2Week1Speaking from '@/data/activities/c2/speaking/week-1-speaking.json';
 import c2Week2Speaking from '@/data/activities/c2/speaking/week-2-speaking.json';
 import c2Week3Speaking from '@/data/activities/c2/speaking/week-3-speaking.json';
+import c2Week4Speaking from '@/data/activities/c2/speaking/week-4-speaking.json';
+import c2Week5Speaking from '@/data/activities/c2/speaking/week-5-speaking.json';
+import c2Week6Speaking from '@/data/activities/c2/speaking/week-6-speaking.json';
+import c2Week7Speaking from '@/data/activities/c2/speaking/week-7-speaking.json';
+import c2Week8Speaking from '@/data/activities/c2/speaking/week-8-speaking.json';
 
 // C2 Writing
 import c2Week1Writing from '@/data/activities/c2/writing/week-1-writing.json';
 import c2Week2Writing from '@/data/activities/c2/writing/week-2-writing.json';
 import c2Week3Writing from '@/data/activities/c2/writing/week-3-writing.json';
+import c2Week4Writing from '@/data/activities/c2/writing/week-4-writing.json';
+import c2Week5Writing from '@/data/activities/c2/writing/week-5-writing.json';
+import c2Week6Writing from '@/data/activities/c2/writing/week-6-writing.json';
+import c2Week7Writing from '@/data/activities/c2/writing/week-7-writing.json';
+import c2Week8Writing from '@/data/activities/c2/writing/week-8-writing.json';
 
 // ─────────────────────────────────────
 // CEFR 레벨 (types/activity.ts에서 import)
@@ -596,31 +656,61 @@ const ACTIVITIES: LevelActivityData = {
       'week-1': castActivity<VocabularyActivity>(c1Week1Vocab),
       'week-2': castActivity<VocabularyActivity>(c1Week2Vocab),
       'week-3': castActivity<VocabularyActivity>(c1Week3Vocab),
+      'week-4': castActivity<VocabularyActivity>(c1Week4Vocab),
+      'week-5': castActivity<VocabularyActivity>(c1Week5Vocab),
+      'week-6': castActivity<VocabularyActivity>(c1Week6Vocab),
+      'week-7': castActivity<VocabularyActivity>(c1Week7Vocab),
+      'week-8': castActivity<VocabularyActivity>(c1Week8Vocab),
     },
     grammar: {
       'week-1': castActivity<GrammarActivity>(c1Week1Grammar),
       'week-2': castActivity<GrammarActivity>(c1Week2Grammar),
       'week-3': castActivity<GrammarActivity>(c1Week3Grammar),
+      'week-4': castActivity<GrammarActivity>(c1Week4Grammar),
+      'week-5': castActivity<GrammarActivity>(c1Week5Grammar),
+      'week-6': castActivity<GrammarActivity>(c1Week6Grammar),
+      'week-7': castActivity<GrammarActivity>(c1Week7Grammar),
+      'week-8': castActivity<GrammarActivity>(c1Week8Grammar),
     },
     listening: {
       'week-1': castActivity<ListeningActivity>(c1Week1Listening),
       'week-2': castActivity<ListeningActivity>(c1Week2Listening),
       'week-3': castActivity<ListeningActivity>(c1Week3Listening),
+      'week-4': castActivity<ListeningActivity>(c1Week4Listening),
+      'week-5': castActivity<ListeningActivity>(c1Week5Listening),
+      'week-6': castActivity<ListeningActivity>(c1Week6Listening),
+      'week-7': castActivity<ListeningActivity>(c1Week7Listening),
+      'week-8': castActivity<ListeningActivity>(c1Week8Listening),
     },
     reading: {
       'week-1': castActivity<ReadingActivity>(c1Week1Reading),
       'week-2': castActivity<ReadingActivity>(c1Week2Reading),
       'week-3': castActivity<ReadingActivity>(c1Week3Reading),
+      'week-4': castActivity<ReadingActivity>(c1Week4Reading),
+      'week-5': castActivity<ReadingActivity>(c1Week5Reading),
+      'week-6': castActivity<ReadingActivity>(c1Week6Reading),
+      'week-7': castActivity<ReadingActivity>(c1Week7Reading),
+      'week-8': castActivity<ReadingActivity>(c1Week8Reading),
     },
     speaking: {
       'week-1': castActivity<SpeakingActivity>(c1Week1Speaking),
       'week-2': castActivity<SpeakingActivity>(c1Week2Speaking),
       'week-3': castActivity<SpeakingActivity>(c1Week3Speaking),
+      'week-4': castActivity<SpeakingActivity>(c1Week4Speaking),
+      'week-5': castActivity<SpeakingActivity>(c1Week5Speaking),
+      'week-6': castActivity<SpeakingActivity>(c1Week6Speaking),
+      'week-7': castActivity<SpeakingActivity>(c1Week7Speaking),
+      'week-8': castActivity<SpeakingActivity>(c1Week8Speaking),
     },
     writing: {
       'week-1': castActivity<WritingActivity>(c1Week1Writing),
       'week-2': castActivity<WritingActivity>(c1Week2Writing),
       'week-3': castActivity<WritingActivity>(c1Week3Writing),
+      'week-4': castActivity<WritingActivity>(c1Week4Writing),
+      'week-5': castActivity<WritingActivity>(c1Week5Writing),
+      'week-6': castActivity<WritingActivity>(c1Week6Writing),
+      'week-7': castActivity<WritingActivity>(c1Week7Writing),
+      'week-8': castActivity<WritingActivity>(c1Week8Writing),
     },
   },
   C2: {
@@ -628,31 +718,61 @@ const ACTIVITIES: LevelActivityData = {
       'week-1': castActivity<VocabularyActivity>(c2Week1Vocab),
       'week-2': castActivity<VocabularyActivity>(c2Week2Vocab),
       'week-3': castActivity<VocabularyActivity>(c2Week3Vocab),
+      'week-4': castActivity<VocabularyActivity>(c2Week4Vocab),
+      'week-5': castActivity<VocabularyActivity>(c2Week5Vocab),
+      'week-6': castActivity<VocabularyActivity>(c2Week6Vocab),
+      'week-7': castActivity<VocabularyActivity>(c2Week7Vocab),
+      'week-8': castActivity<VocabularyActivity>(c2Week8Vocab),
     },
     grammar: {
       'week-1': castActivity<GrammarActivity>(c2Week1Grammar),
       'week-2': castActivity<GrammarActivity>(c2Week2Grammar),
       'week-3': castActivity<GrammarActivity>(c2Week3Grammar),
+      'week-4': castActivity<GrammarActivity>(c2Week4Grammar),
+      'week-5': castActivity<GrammarActivity>(c2Week5Grammar),
+      'week-6': castActivity<GrammarActivity>(c2Week6Grammar),
+      'week-7': castActivity<GrammarActivity>(c2Week7Grammar),
+      'week-8': castActivity<GrammarActivity>(c2Week8Grammar),
     },
     listening: {
       'week-1': castActivity<ListeningActivity>(c2Week1Listening),
       'week-2': castActivity<ListeningActivity>(c2Week2Listening),
       'week-3': castActivity<ListeningActivity>(c2Week3Listening),
+      'week-4': castActivity<ListeningActivity>(c2Week4Listening),
+      'week-5': castActivity<ListeningActivity>(c2Week5Listening),
+      'week-6': castActivity<ListeningActivity>(c2Week6Listening),
+      'week-7': castActivity<ListeningActivity>(c2Week7Listening),
+      'week-8': castActivity<ListeningActivity>(c2Week8Listening),
     },
     reading: {
       'week-1': castActivity<ReadingActivity>(c2Week1Reading),
       'week-2': castActivity<ReadingActivity>(c2Week2Reading),
       'week-3': castActivity<ReadingActivity>(c2Week3Reading),
+      'week-4': castActivity<ReadingActivity>(c2Week4Reading),
+      'week-5': castActivity<ReadingActivity>(c2Week5Reading),
+      'week-6': castActivity<ReadingActivity>(c2Week6Reading),
+      'week-7': castActivity<ReadingActivity>(c2Week7Reading),
+      'week-8': castActivity<ReadingActivity>(c2Week8Reading),
     },
     speaking: {
       'week-1': castActivity<SpeakingActivity>(c2Week1Speaking),
       'week-2': castActivity<SpeakingActivity>(c2Week2Speaking),
       'week-3': castActivity<SpeakingActivity>(c2Week3Speaking),
+      'week-4': castActivity<SpeakingActivity>(c2Week4Speaking),
+      'week-5': castActivity<SpeakingActivity>(c2Week5Speaking),
+      'week-6': castActivity<SpeakingActivity>(c2Week6Speaking),
+      'week-7': castActivity<SpeakingActivity>(c2Week7Speaking),
+      'week-8': castActivity<SpeakingActivity>(c2Week8Speaking),
     },
     writing: {
       'week-1': castActivity<WritingActivity>(c2Week1Writing),
       'week-2': castActivity<WritingActivity>(c2Week2Writing),
       'week-3': castActivity<WritingActivity>(c2Week3Writing),
+      'week-4': castActivity<WritingActivity>(c2Week4Writing),
+      'week-5': castActivity<WritingActivity>(c2Week5Writing),
+      'week-6': castActivity<WritingActivity>(c2Week6Writing),
+      'week-7': castActivity<WritingActivity>(c2Week7Writing),
+      'week-8': castActivity<WritingActivity>(c2Week8Writing),
     },
   },
 };

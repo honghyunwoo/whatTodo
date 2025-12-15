@@ -1,0 +1,108 @@
+{
+  "id": "c2-vocab-week-4",
+  "type": "vocabulary",
+  "level": "C2",
+  "weekId": "week-4",
+  "title": "Political and Social Theory Lexicon",
+  "description": "Specialized vocabulary for political philosophy and social critique",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "items": [
+    {
+      "id": "c2-v4-1",
+      "word": "hegemony",
+      "definition": "Dominance of one group over others, especially through cultural or ideological means",
+      "pronunciation": "/hɪˈdʒeməni/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "패권, 헤게모니",
+      "example": "Gramsci analyzed how cultural hegemony operates through consent rather than coercion.",
+      "synonyms": ["dominance", "supremacy", "ascendancy"],
+      "antonyms": ["subordination", "subservience"],
+      "collocations": ["cultural hegemony", "ideological hegemony", "hegemonic power"]
+    },
+    {
+      "id": "c2-v4-2",
+      "word": "reification",
+      "definition": "The treatment of abstract concepts as if they were concrete things; making something abstract seem real",
+      "pronunciation": "/ˌriːɪfɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "물화, 사물화",
+      "example": "Lukács critiqued the reification of human relations under capitalism.",
+      "synonyms": ["objectification", "concretization", "materialization"],
+      "antonyms": ["abstraction"],
+      "collocations": ["social reification", "reification of concepts", "process of reification"]
+    },
+    {
+      "id": "c2-v4-3",
+      "word": "praxis",
+      "definition": "The process of putting theoretical knowledge into practice; practical application of ideas",
+      "pronunciation": "/ˈpræksɪs/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "실천, 프락시스",
+      "example": "For Marx, philosophy must be united with revolutionary praxis.",
+      "synonyms": ["practice", "application", "implementation"],
+      "antonyms": ["theory", "abstraction"],
+      "collocations": ["revolutionary praxis", "political praxis", "theory and praxis"]
+    },
+    {
+      "id": "c2-v4-4",
+      "word": "subaltern",
+      "definition": "Of lower rank; in postcolonial theory, groups marginalized and excluded from power",
+      "pronunciation": "/ˈsʌbəltərn/",
+      "partOfSpeech": "noun/adjective",
+      "koreanMeaning": "하위주체, 서발턴",
+      "example": "Spivak famously asked whether the subaltern can speak.",
+      "synonyms": ["subordinate", "marginalized", "oppressed"],
+      "antonyms": ["dominant", "hegemonic"],
+      "collocations": ["subaltern studies", "subaltern voice", "subaltern groups"]
+    },
+    {
+      "id": "c2-v4-5",
+      "word": "interpellation",
+      "definition": "The process by which ideology addresses individuals and constitutes them as subjects",
+      "pronunciation": "/ɪnˌtɜːrpəˈleɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "호명, 호출",
+      "example": "Althusser's theory of interpellation explains how individuals become subjects of ideology.",
+      "synonyms": ["hailing", "summoning", "constituting"],
+      "antonyms": [],
+      "collocations": ["ideological interpellation", "Althusserian interpellation", "subject interpellation"]
+    },
+    {
+      "id": "c2-v4-6",
+      "word": "biopolitics",
+      "definition": "The governance of populations through administration of biological life processes",
+      "pronunciation": "/ˌbaɪoʊˈpɒlɪtɪks/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "생명정치",
+      "example": "Foucault analyzed how biopolitics emerged in the modern era to manage populations.",
+      "synonyms": ["biopower", "governmentality"],
+      "antonyms": [],
+      "collocations": ["Foucauldian biopolitics", "biopolitical control", "biopolitics of health"]
+    },
+    {
+      "id": "c2-v4-7",
+      "word": "simulacrum",
+      "definition": "A copy without an original; an image that has replaced or superseded reality",
+      "pronunciation": "/ˌsɪmjʊˈleɪkrəm/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "시뮬라크르, 모상",
+      "example": "Baudrillard argued that contemporary society is characterized by simulacra.",
+      "synonyms": ["copy", "image", "representation"],
+      "antonyms": ["original", "authentic"],
+      "collocations": ["order of simulacra", "pure simulacrum", "world of simulacra"]
+    },
+    {
+      "id": "c2-v4-8",
+      "word": "deterritorialization",
+      "definition": "The weakening of ties between culture and place; the severing of social relations from local contexts",
+      "pronunciation": "/diːˌterɪtɔːriəlaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "탈영토화",
+      "example": "Deleuze and Guattari describe capitalism as a deterritorializing force.",
+      "synonyms": ["displacement", "delocalization", "disembedding"],
+      "antonyms": ["reterritorialization", "localization"],
+      "collocations": ["cultural deterritorialization", "process of deterritorialization", "deterritorialization and reterritorialization"]
+    }
+  ]
+}

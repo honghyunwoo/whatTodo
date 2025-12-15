@@ -1,0 +1,108 @@
+{
+  "id": "c1-vocab-week-7",
+  "type": "vocabulary",
+  "level": "C1",
+  "weekId": "week-7",
+  "title": "Technology and Innovation Lexicon",
+  "description": "Specialized vocabulary for technology, innovation, and digital transformation",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "items": [
+    {
+      "id": "c1-v7-1",
+      "word": "disruptive",
+      "definition": "Creating radical change by displacing established technologies, markets, or industries",
+      "pronunciation": "/dɪsˈrʌptɪv/",
+      "partOfSpeech": "adjective",
+      "koreanMeaning": "파괴적인, 혁신적인",
+      "example": "Streaming services proved disruptive to the traditional broadcasting industry.",
+      "synonyms": ["revolutionary", "groundbreaking", "transformative"],
+      "antonyms": ["sustaining", "incremental"],
+      "collocations": ["disruptive innovation", "disruptive technology", "disruptive business model"]
+    },
+    {
+      "id": "c1-v7-2",
+      "word": "scalability",
+      "definition": "The capacity of a system to handle growth or increased demand efficiently",
+      "pronunciation": "/ˌskeɪləˈbɪləti/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "확장성",
+      "example": "Cloud computing offers unprecedented scalability for growing businesses.",
+      "synonyms": ["expandability", "extensibility", "growth capacity"],
+      "antonyms": ["limitation", "constraint"],
+      "collocations": ["horizontal scalability", "vertical scalability", "scalability issues"]
+    },
+    {
+      "id": "c1-v7-3",
+      "word": "algorithm",
+      "definition": "A set of rules or procedures for solving problems or processing data",
+      "pronunciation": "/ˈælɡərɪðəm/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "알고리즘",
+      "example": "Social media algorithms determine which content users see in their feeds.",
+      "synonyms": ["procedure", "formula", "process"],
+      "antonyms": [],
+      "collocations": ["machine learning algorithm", "recommendation algorithm", "search algorithm"]
+    },
+    {
+      "id": "c1-v7-4",
+      "word": "interoperability",
+      "definition": "The ability of different systems or components to work together seamlessly",
+      "pronunciation": "/ˌɪntərˌɒpərəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "상호 운용성",
+      "example": "Healthcare systems require interoperability to share patient records securely.",
+      "synonyms": ["compatibility", "interconnectivity", "integration"],
+      "antonyms": ["incompatibility", "isolation"],
+      "collocations": ["system interoperability", "data interoperability", "ensure interoperability"]
+    },
+    {
+      "id": "c1-v7-5",
+      "word": "iteration",
+      "definition": "A repetition of a process to approach a desired result; a version of a product",
+      "pronunciation": "/ˌɪtəˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "반복, 이터레이션",
+      "example": "Each iteration of the product incorporated user feedback from the previous version.",
+      "synonyms": ["repetition", "cycle", "version"],
+      "antonyms": [],
+      "collocations": ["rapid iteration", "product iteration", "iterative process"]
+    },
+    {
+      "id": "c1-v7-6",
+      "word": "latency",
+      "definition": "The delay before a transfer of data begins following an instruction",
+      "pronunciation": "/ˈleɪtənsi/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "지연 시간",
+      "example": "5G networks promise significantly reduced latency compared to 4G.",
+      "synonyms": ["delay", "lag", "response time"],
+      "antonyms": [],
+      "collocations": ["low latency", "network latency", "reduce latency"]
+    },
+    {
+      "id": "c1-v7-7",
+      "word": "obsolescence",
+      "definition": "The process of becoming outdated or no longer useful",
+      "pronunciation": "/ˌɒbsəˈlesəns/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "노후화, 퇴화",
+      "example": "Planned obsolescence encourages consumers to upgrade devices regularly.",
+      "synonyms": ["outdatedness", "retirement", "deprecation"],
+      "antonyms": ["relevance", "currentness"],
+      "collocations": ["planned obsolescence", "technological obsolescence", "built-in obsolescence"]
+    },
+    {
+      "id": "c1-v7-8",
+      "word": "proprietary",
+      "definition": "Owned and controlled by a particular company; not open or publicly available",
+      "pronunciation": "/prəˈpraɪətəri/",
+      "partOfSpeech": "adjective",
+      "koreanMeaning": "독점적인, 소유권이 있는",
+      "example": "The company's proprietary software gives them a competitive advantage.",
+      "synonyms": ["exclusive", "patented", "private"],
+      "antonyms": ["open-source", "public", "shared"],
+      "collocations": ["proprietary technology", "proprietary software", "proprietary format"]
+    }
+  ]
+}

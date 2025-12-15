@@ -1,0 +1,116 @@
+{
+  "id": "c2-listening-week-7",
+  "type": "listening",
+  "level": "C2",
+  "weekId": "week-7",
+  "title": "Language and Mind",
+  "description": "Engaging with discussions on linguistics, cognition, and philosophy of language",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passages": [
+    {
+      "id": "c2-l7-p1",
+      "title": "The Sapir-Whorf Debate",
+      "context": "Cognitive science lecture",
+      "transcript": "The Sapir-Whorf hypothesis—that language shapes thought—has been one of the most productive and contentious ideas in cognitive science. The strong version, linguistic determinism, claims that language determines the categories of thought, making certain ideas literally unthinkable in certain languages. This has been largely discredited: we can think things we cannot easily say, and translation between languages is possible, if imperfect. But the weak version, linguistic relativism, has found empirical support. Studies show that speakers of languages with different color terms perceive color boundaries differently. Russian speakers, who have separate words for light and dark blue, discriminate these colors faster than English speakers. Languages with absolute spatial terms—'north' instead of 'left'—produce speakers with remarkable orientation abilities. The question is no longer whether language affects thought, but how, and how much. My own view is that language is like a well-worn path through a forest: you can leave the path, but you're much more likely to follow it.",
+      "audioDescription": "Cognitive scientist discussing linguistic relativity",
+      "questions": [
+        {
+          "id": "c2-l7-p1-q1",
+          "question": "Why has the strong version of the Sapir-Whorf hypothesis been largely discredited?",
+          "options": [
+            "Language has no effect on thought",
+            "We can think things we cannot easily express and translation is possible",
+            "All languages have the same categories",
+            "Empirical tests are impossible"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'We can think things we cannot easily say, and translation between languages is possible, if imperfect'"
+        },
+        {
+          "id": "c2-l7-p1-q2",
+          "question": "What evidence supports the weak version of the hypothesis?",
+          "options": [
+            "Translation is impossible between certain languages",
+            "Speakers of languages with different color terms perceive colors differently",
+            "Language determines all cognitive categories",
+            "Children cannot learn second languages"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Speakers of languages with different color terms perceive color boundaries differently'"
+        },
+        {
+          "id": "c2-l7-p1-q3",
+          "question": "What metaphor does the speaker use to describe language's effect on thought?",
+          "options": [
+            "A prison that constrains thinking",
+            "A mirror reflecting reality",
+            "A well-worn path through a forest",
+            "A window to the world"
+          ],
+          "correctAnswer": 2,
+          "explanation": "'Language is like a well-worn path through a forest: you can leave the path, but you're much more likely to follow it'"
+        }
+      ]
+    },
+    {
+      "id": "c2-l7-p2",
+      "title": "Meaning and Reference",
+      "context": "Philosophy of language seminar",
+      "transcript": "Frege's puzzle remains foundational to philosophy of language. Consider: 'The morning star is the morning star' is trivially true, uninformative. But 'The morning star is the evening star' is informative—it was a genuine astronomical discovery that both refer to Venus. If meaning were just reference, these sentences would have the same meaning, since both terms refer to the same object. Frege's solution was to distinguish sense from reference: terms can have the same reference but different senses—different modes of presentation of the same object. This elegant solution has its own difficulties. What are senses? Are they mental entities? Abstract objects? How do they determine reference? Kripke's causal theory offered an alternative: names refer not through descriptions but through causal chains connecting our use to an original baptism. But this too faces challenges: how do we explain the informativeness of identity statements without senses? The debate continues to structure work in semantics and philosophy of mind.",
+      "audioDescription": "Philosopher discussing theories of meaning",
+      "questions": [
+        {
+          "id": "c2-l7-p2-q1",
+          "question": "What is 'Frege's puzzle' about?",
+          "options": [
+            "Why language evolved",
+            "How two terms with same reference can differ in informativeness",
+            "Whether meaning is determined by use",
+            "The relationship between language and logic"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The puzzle is why 'The morning star is the evening star' is informative when both terms refer to the same object (Venus)"
+        },
+        {
+          "id": "c2-l7-p2-q2",
+          "question": "What is Frege's distinction between sense and reference?",
+          "options": [
+            "Sense is subjective, reference is objective",
+            "Sense is the mode of presentation, reference is the object referred to",
+            "Sense applies to names, reference to descriptions",
+            "Sense is meaning, reference is truth"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Terms can have the same reference but different senses—different modes of presentation of the same object'"
+        },
+        {
+          "id": "c2-l7-p2-q3",
+          "question": "How does Kripke's causal theory differ from Frege's approach?",
+          "options": [
+            "It denies that names have meaning",
+            "Names refer through causal chains, not through descriptions or senses",
+            "It accepts Frege's sense-reference distinction",
+            "It focuses only on proper names"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Names refer not through descriptions but through causal chains connecting our use to an original baptism'"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "linguistic determinism",
+      "definition": "The strong claim that language determines the categories available for thought"
+    },
+    {
+      "term": "sense vs. reference",
+      "definition": "Frege's distinction between how a term presents its object and what object it picks out"
+    },
+    {
+      "term": "causal theory of reference",
+      "definition": "View that names refer through historical chains linking current use to original naming"
+    }
+  ]
+}

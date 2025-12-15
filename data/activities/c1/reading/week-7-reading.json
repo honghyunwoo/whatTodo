@@ -1,0 +1,100 @@
+{
+  "id": "c1-reading-week-7",
+  "type": "reading",
+  "level": "C1",
+  "weekId": "week-7",
+  "title": "Digital Transformation and Society",
+  "description": "Analyzing the social implications of technological change",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passage": {
+    "title": "The Platform Economy",
+    "author": "Adapted from technology and economics sources",
+    "paragraphs": [
+      "The platform economy has transformed how we work, shop, and connect. Companies like Amazon, Uber, and Airbnb don't create products; they orchestrate ecosystems. Their value lies not in assets but in network effects: each additional user makes the platform more valuable to all others. A marketplace with more sellers attracts more buyers; more buyers attract more sellers. This dynamic creates winner-take-all markets where a few dominant platforms capture most of the value.",
+      "For workers, platformization has proven double-edged. Gig economy platforms offer flexibility: drivers set their own hours; freelancers choose their clients. But this flexibility often comes with precarity. Platform workers typically lack benefits, job security, and collective bargaining power. The algorithmic management that coordinates their work can be opaque and unaccountable—a driver deactivated by an algorithm has no manager to appeal to. The question of whether platform workers are employees or independent contractors remains contentious, with significant implications for labor rights and social safety nets.",
+      "The data dimension adds another layer of complexity. Platforms don't just facilitate transactions; they capture data from every interaction. This data generates insights that can be monetized—through targeted advertising, through predictive analytics, through training AI systems. Critics argue that this represents a new form of extraction: users create value through their data, but platforms capture most of the benefit. The asymmetry is structural: platforms know everything about users; users know little about platforms.",
+      "Regulatory responses are emerging. The European Union's Digital Markets Act designates large platforms as 'gatekeepers' subject to enhanced obligations. Antitrust authorities increasingly scrutinize platform acquisitions that might eliminate potential competitors. Yet regulation struggles to keep pace with technological change, and the global nature of digital markets complicates national enforcement. The platform economy raises fundamental questions about market power, labor relations, and data rights that existing frameworks may not adequately address."
+    ]
+  },
+  "questions": [
+    {
+      "id": "c1-r7-q1",
+      "type": "main-idea",
+      "question": "What is the central argument about platform companies?",
+      "options": [
+        "They are more profitable than traditional companies",
+        "Their value comes from network effects and ecosystem orchestration",
+        "They provide better products than competitors",
+        "They are harmful to the economy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Platform companies 'don't create products; they orchestrate ecosystems' and their 'value lies not in assets but in network effects'"
+    },
+    {
+      "id": "c1-r7-q2",
+      "type": "detail",
+      "question": "What is described as the 'double-edged' nature of platformization for workers?",
+      "options": [
+        "Higher pay but longer hours",
+        "Flexibility but precarity and lack of protections",
+        "More jobs but lower quality",
+        "Better technology but more surveillance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Platforms 'offer flexibility' but 'this flexibility often comes with precarity' and workers 'lack benefits, job security, and collective bargaining power'"
+    },
+    {
+      "id": "c1-r7-q3",
+      "type": "inference",
+      "question": "What does the author suggest about the data asymmetry between platforms and users?",
+      "options": [
+        "It is a natural market outcome",
+        "It represents a form of value extraction favoring platforms",
+        "It benefits users through better services",
+        "It is easily corrected by regulation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Critics argue this 'represents a new form of extraction: users create value through their data, but platforms capture most of the benefit'"
+    },
+    {
+      "id": "c1-r7-q4",
+      "type": "vocabulary",
+      "question": "In this context, 'algorithmic management' refers to:",
+      "options": [
+        "Managing algorithm development teams",
+        "Using algorithms to coordinate and evaluate worker performance",
+        "Creating more efficient algorithms",
+        "Teaching workers about algorithms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Algorithmic management that coordinates their work' refers to using algorithms to direct and evaluate platform workers"
+    },
+    {
+      "id": "c1-r7-q5",
+      "type": "analysis",
+      "question": "Why does regulation 'struggle to keep pace' with the platform economy?",
+      "options": [
+        "Regulators are corrupt",
+        "Technology changes rapidly and digital markets are global",
+        "Platforms are too small to regulate",
+        "Users prefer unregulated platforms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Regulation struggles to keep pace with technological change, and the global nature of digital markets complicates national enforcement'"
+    },
+    {
+      "id": "c1-r7-q6",
+      "type": "synthesis",
+      "question": "What fundamental challenge does the passage identify for addressing platform economy issues?",
+      "options": [
+        "Lack of political will",
+        "Insufficient technology",
+        "Existing frameworks may not adequately address the new questions raised",
+        "Platforms are too powerful to regulate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The platform economy 'raises fundamental questions about market power, labor relations, and data rights that existing frameworks may not adequately address'"
+    }
+  ]
+}

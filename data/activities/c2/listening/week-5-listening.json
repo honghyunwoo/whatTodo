@@ -1,0 +1,116 @@
+{
+  "id": "c2-listening-week-5",
+  "type": "listening",
+  "level": "C2",
+  "weekId": "week-5",
+  "title": "Philosophy of Science Debates",
+  "description": "Engaging with sophisticated discussions of scientific methodology and epistemology",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passages": [
+    {
+      "id": "c2-l5-p1",
+      "title": "The Realism-Antirealism Debate",
+      "context": "Philosophy of science seminar",
+      "transcript": "The question of scientific realism—whether our best theories approximately describe reality as it is—has proven remarkably difficult to settle. Realists point to the predictive success of mature sciences: general relativity, for instance, predicted phenomena no one had observed, like gravitational lensing. This, they argue, would be a miracle if the theory weren't at least approximately true. Antirealists counter with the pessimistic meta-induction: the history of science is a graveyard of once-successful theories now considered false. If past theories we believed were true turned out to be false, what grounds do we have for thinking our current theories are different? Perhaps theories are merely instruments that 'save the phenomena' without describing underlying reality. The debate matters because it shapes how we understand the epistemic authority of science: are we making progress toward truth, or merely constructing increasingly sophisticated tools?",
+      "audioDescription": "Professor discussing scientific realism",
+      "questions": [
+        {
+          "id": "c2-l5-p1-q1",
+          "question": "What is the 'no miracles' argument for scientific realism?",
+          "options": [
+            "Science replaces religious belief in miracles",
+            "Scientific laws cannot be violated",
+            "The success of science would be miraculous if theories weren't approximately true",
+            "Scientific progress requires belief in miracles"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Realists argue predictive success 'would be a miracle if the theory weren't at least approximately true'"
+        },
+        {
+          "id": "c2-l5-p1-q2",
+          "question": "What is the 'pessimistic meta-induction'?",
+          "options": [
+            "Scientists are becoming more pessimistic over time",
+            "An argument that current theories will likely be rejected like past ones",
+            "A method for eliminating false theories",
+            "A form of depression among philosophers of science"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The argument holds that 'if past theories we believed were true turned out to be false, what grounds do we have for thinking our current theories are different?'"
+        },
+        {
+          "id": "c2-l5-p1-q3",
+          "question": "What does it mean to say theories 'save the phenomena'?",
+          "options": [
+            "Theories protect natural phenomena from destruction",
+            "Theories predict observations without describing underlying reality",
+            "Theories preserve traditional scientific methods",
+            "Theories store data for future scientists"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Antirealists suggest theories are 'merely instruments that save the phenomena without describing underlying reality'"
+        }
+      ]
+    },
+    {
+      "id": "c2-l5-p2",
+      "title": "The Sociology of Scientific Knowledge",
+      "context": "Academic lecture",
+      "transcript": "The strong programme in the sociology of scientific knowledge, associated with David Bloor and Barry Barnes, makes a radical claim: that the content of scientific beliefs—not just their social organization—can be explained sociologically. Traditional accounts privilege the success of true beliefs; the strong programme insists on symmetry—that true and false beliefs should be explained by the same types of causes. The rationalist protests: surely the reason scientists believe in electrons is that electrons exist! But the sociologist of science responds: that explanation is available only retrospectively. At the moment of belief formation, the scientist cannot appeal to how things will eventually turn out. The debate is often caricatured as science versus relativism, but the more subtle point concerns the relationship between reasons and causes. Even if scientific beliefs are warranted by evidence, we can still ask what social conditions enabled that evidence to be recognized as such.",
+      "audioDescription": "Sociologist discussing the strong programme",
+      "questions": [
+        {
+          "id": "c2-l5-p2-q1",
+          "question": "What is the 'symmetry principle' in the sociology of scientific knowledge?",
+          "options": [
+            "All scientific disciplines are equally valid",
+            "True and false beliefs should be explained by the same types of causes",
+            "Scientists should treat all hypotheses as equally probable",
+            "Social factors affect all sciences symmetrically"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The strong programme insists 'that true and false beliefs should be explained by the same types of causes'"
+        },
+        {
+          "id": "c2-l5-p2-q2",
+          "question": "How does the sociologist respond to the rationalist objection about electrons?",
+          "options": [
+            "Electrons don't actually exist",
+            "Science is entirely socially constructed",
+            "The explanation by existence is only available retrospectively",
+            "Rationalism is always wrong"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The sociologist responds 'that explanation is available only retrospectively. At the moment of belief formation, the scientist cannot appeal to how things will eventually turn out'"
+        },
+        {
+          "id": "c2-l5-p2-q3",
+          "question": "What 'subtle point' does the speaker identify in the debate?",
+          "options": [
+            "Whether science is better than sociology",
+            "Whether scientific beliefs can be wrong",
+            "What social conditions enable evidence to be recognized as evidence",
+            "Whether scientists are influenced by funding"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The subtle point is 'what social conditions enabled that evidence to be recognized as such'"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "meta-induction",
+      "definition": "An inductive argument about the history of scientific theories themselves"
+    },
+    {
+      "term": "strong programme",
+      "definition": "A sociological approach treating all beliefs as requiring social explanation"
+    },
+    {
+      "term": "retrospectively",
+      "definition": "Looking back at past events with knowledge of how they turned out"
+    }
+  ]
+}

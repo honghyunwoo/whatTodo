@@ -1,0 +1,100 @@
+{
+  "id": "c2-reading-week-6",
+  "type": "reading",
+  "level": "C2",
+  "weekId": "week-6",
+  "title": "The Foundations of Ethics",
+  "description": "Engaging with foundational questions in moral philosophy",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passage": {
+    "title": "Moral Realism and Its Discontents",
+    "author": "Adapted from metaethical sources",
+    "paragraphs": [
+      "Moral realism holds that there are objective moral truths independent of what anyone believes. On this view, the wrongness of torture is not merely a social convention or an expression of attitude but a fact about the world. This position has intuitive appeal: when we argue about ethics, we seem to be arguing about something, not merely expressing preferences. Yet moral realism faces formidable challenges that have fueled centuries of philosophical debate.",
+      "The epistemological challenge asks how we could come to know moral truths if they exist. Mathematical truths, whatever their metaphysical status, can be proven through valid inference. Empirical truths can be tested against observation. But moral truths seem neither provable nor observable. We cannot point to wrongness the way we point to redness; we cannot deduce it from logical axioms alone. The moral realist must explain what faculty enables moral knowledge. Appeals to intuition seem question-begging: whose intuitions, and why should they track truth?",
+      "The metaphysical challenge—J.L. Mackie's 'queerness' objection—questions what moral facts would be. They cannot be physical facts, for 'is' does not entail 'ought.' They cannot be mere social facts, for that would make morality relative. Moral facts would have to be entities of a strange sort: intrinsically motivating, inherently normative, providing reasons for action independent of our desires. Can we make sense of such entities? And if we could, how would they connect to the natural world we otherwise understand causally?",
+      "Anti-realists propose various alternatives. Expressivists argue that moral statements express attitudes rather than describe facts. Error theorists accept that moral statements purport to describe facts but hold that they systematically fail: all positive moral claims are false. Constructivists locate moral truth in what we would agree to under idealized conditions. Each alternative faces its own difficulties, but their persistence suggests that moral realism's troubles are not easily dismissed. Perhaps the question of moral foundations admits no comfortable answer—a possibility that moral philosophy must learn to inhabit."
+    ]
+  },
+  "questions": [
+    {
+      "id": "c2-r6-q1",
+      "type": "main-idea",
+      "question": "What is the central problem the passage addresses?",
+      "options": [
+        "Whether specific moral claims are true",
+        "Whether objective moral truths exist and can be known",
+        "How to behave ethically in daily life",
+        "The history of moral philosophy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage examines 'moral realism'—whether 'there are objective moral truths'—and the challenges it faces"
+    },
+    {
+      "id": "c2-r6-q2",
+      "type": "detail",
+      "question": "What is the epistemological challenge to moral realism?",
+      "options": [
+        "Moral facts are too complex to understand",
+        "How we could know moral truths if they are neither provable nor observable",
+        "People disagree about what is right",
+        "Moral truths change over time"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The epistemological challenge asks 'how we could come to know moral truths' since they 'seem neither provable nor observable'"
+    },
+    {
+      "id": "c2-r6-q3",
+      "type": "inference",
+      "question": "Why does the passage say appeals to intuition seem 'question-begging'?",
+      "options": [
+        "Intuitions are always wrong",
+        "They assume what needs to be proven—that intuitions track truth",
+        "Intuitions are the same as preferences",
+        "Only experts have reliable intuitions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The question 'whose intuitions, and why should they track truth?' implies that assuming intuitions reveal moral truths begs the question of whether they do"
+    },
+    {
+      "id": "c2-r6-q4",
+      "type": "vocabulary",
+      "question": "What is Mackie's 'queerness' objection?",
+      "options": [
+        "Moral behavior is strange and abnormal",
+        "Moral facts would be entities of an inexplicable, peculiar sort",
+        "Moral disagreement is odd",
+        "Realists are unusual philosophers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Moral facts would have to be entities of a strange sort: intrinsically motivating, inherently normative'—this strangeness is the 'queerness'"
+    },
+    {
+      "id": "c2-r6-q5",
+      "type": "critical-analysis",
+      "question": "According to the passage, what do expressivists claim about moral statements?",
+      "options": [
+        "They describe objective facts about the world",
+        "They express attitudes rather than describe facts",
+        "They are always true",
+        "They are meaningless"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Expressivists argue that moral statements express attitudes rather than describe facts'"
+    },
+    {
+      "id": "c2-r6-q6",
+      "type": "synthesis",
+      "question": "What does the passage's conclusion suggest about moral philosophy?",
+      "options": [
+        "Moral realism has been definitively refuted",
+        "Anti-realism is clearly correct",
+        "The foundational question may admit no comfortable answer",
+        "We should abandon moral philosophy entirely"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Perhaps the question of moral foundations admits no comfortable answer—a possibility that moral philosophy must learn to inhabit'"
+    }
+  ]
+}

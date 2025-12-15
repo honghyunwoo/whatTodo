@@ -1,0 +1,120 @@
+{
+  "id": "c1-speaking-week-4",
+  "type": "speaking",
+  "level": "C1",
+  "weekId": "week-4",
+  "title": "Business Negotiations and Presentations",
+  "description": "Developing persuasive language for professional contexts",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c1-s4-s1",
+      "title": "Negotiation Strategies",
+      "description": "Language for effective business negotiations",
+      "phrases": [
+        {
+          "function": "Opening position",
+          "expressions": [
+            "Our initial proposal would be...",
+            "We'd like to start by suggesting...",
+            "Our preferred outcome would be..."
+          ]
+        },
+        {
+          "function": "Making concessions",
+          "expressions": [
+            "We might be willing to consider... if...",
+            "There's some flexibility on our end regarding...",
+            "We could potentially move on... provided that..."
+          ]
+        },
+        {
+          "function": "Seeking common ground",
+          "expressions": [
+            "It seems we both agree that...",
+            "Where we have alignment is...",
+            "Our shared interest appears to be..."
+          ]
+        },
+        {
+          "function": "Handling impasse",
+          "expressions": [
+            "Perhaps we could table this issue for now and...",
+            "Let's step back and look at the bigger picture.",
+            "Would it help if we explored some alternatives?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-s4-s2",
+      "title": "Persuasive Presentation Techniques",
+      "description": "Structuring compelling business presentations",
+      "techniques": [
+        {
+          "name": "The Problem-Solution Framework",
+          "structure": "1. Establish urgency 2. Present solution 3. Show benefits 4. Call to action",
+          "example": "The current system costs us $2M annually in inefficiencies. Our proposed solution would reduce this by 60%, translating to $1.2M in annual savings. I'm asking for your approval to proceed with implementation."
+        },
+        {
+          "name": "The Three-Part Rule",
+          "structure": "Group key points in threes for memorability",
+          "example": "This initiative will increase revenue, reduce costs, and improve customer satisfaction."
+        },
+        {
+          "name": "Preemptive Objection Handling",
+          "structure": "Address potential concerns before they arise",
+          "example": "You might be wondering about the implementation timeline. Let me address that directly..."
+        }
+      ]
+    },
+    {
+      "id": "c1-s4-s3",
+      "title": "Diplomatic Disagreement",
+      "description": "Expressing opposing views professionally",
+      "phrases": [
+        {
+          "function": "Soft disagreement",
+          "expressions": [
+            "I see where you're coming from, but I'd suggest...",
+            "That's one way to look at it. Another perspective might be...",
+            "I appreciate that viewpoint, though I wonder if..."
+          ]
+        },
+        {
+          "function": "Firm but professional",
+          "expressions": [
+            "With respect, I have to disagree on this point.",
+            "I understand the reasoning, but the data suggests otherwise.",
+            "That approach has merit, though it doesn't address the core issue."
+          ]
+        }
+      ]
+    }
+  ],
+  "practiceScenarios": [
+    {
+      "id": "c1-s4-sc1",
+      "title": "Contract Negotiation",
+      "context": "You're negotiating renewal terms with a key supplier who wants a 15% price increase.",
+      "objectives": [
+        "Express understanding of their position",
+        "Present counter-proposal with supporting rationale",
+        "Seek a mutually beneficial compromise"
+      ],
+      "sampleResponse": "I appreciate you bringing this to the table directly. I understand cost pressures have increased across the industry. That said, a 15% increase would significantly impact our margins. Our analysis shows market rates have risen about 8%. Would you be open to discussing a phased increase over two years, which would give us time to adjust our pricing strategy while ensuring you're fairly compensated?"
+    },
+    {
+      "id": "c1-s4-sc2",
+      "title": "Budget Proposal",
+      "context": "Present a request for additional budget allocation to senior leadership.",
+      "objectives": [
+        "Quantify the problem clearly",
+        "Present the solution with ROI",
+        "Anticipate and address objections"
+      ],
+      "sampleResponse": "Thank you for the opportunity to present today. Our customer churn rate has increased by 23% this quarter, representing approximately $4M in lost annual revenue. I'm proposing we invest $500K in our customer success program—a 10-to-1 return if we can reduce churn by just 50%. I know budget is tight, so I've identified potential savings from vendor consolidation that could partially offset this investment."
+    }
+  ]
+}

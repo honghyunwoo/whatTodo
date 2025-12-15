@@ -1,0 +1,88 @@
+{
+  "id": "c2-writing-week-6",
+  "type": "writing",
+  "level": "C2",
+  "weekId": "week-6",
+  "title": "Philosophical Analysis and Ethics Essays",
+  "description": "Writing rigorous philosophical analysis of ethical questions",
+  "estimatedMinutes": 35,
+  "xpReward": 65,
+  "sections": [
+    {
+      "id": "c2-w6-s1",
+      "title": "The Structure of Philosophical Argument",
+      "description": "Building valid arguments in written form",
+      "components": [
+        {
+          "element": "Thesis statement",
+          "description": "Clear statement of the position you will defend",
+          "example": "I shall argue that moral knowledge is possible but that it requires a pluralist epistemology that draws on multiple sources of evidence."
+        },
+        {
+          "element": "Argument reconstruction",
+          "description": "Careful statement of the argument you're evaluating",
+          "example": "The argument can be reconstructed as follows: (P1) If moral facts exist, we should be able to perceive them. (P2) We cannot perceive moral facts. (C) Therefore, moral facts do not exist."
+        },
+        {
+          "element": "Premise evaluation",
+          "description": "Systematic assessment of each premise",
+          "example": "Premise (P1) is questionable. It assumes that existence entails perceptibility, but we accept the existence of many things—mathematical truths, theoretical entities in physics—without direct perception."
+        },
+        {
+          "element": "Consideration of objections",
+          "description": "Anticipate and address counterarguments",
+          "example": "An objector might respond that... However, this response fails because..."
+        }
+      ]
+    },
+    {
+      "id": "c2-w6-s2",
+      "title": "Case Analysis",
+      "description": "Analyzing ethical cases with philosophical rigor",
+      "method": [
+        {
+          "step": "Describe the case neutrally",
+          "example": "In this case, a physician faces a request from a terminally ill patient for assistance in dying."
+        },
+        {
+          "step": "Identify the ethical question",
+          "example": "The question is whether the physician may, or perhaps must, provide such assistance, or whether doing so would be impermissible."
+        },
+        {
+          "step": "Apply competing frameworks",
+          "example": "A deontologist might argue... A consequentialist would consider... Virtue ethics asks..."
+        },
+        {
+          "step": "Evaluate and take a position",
+          "example": "While each framework illuminates aspects of the case, I argue that the most defensible position is..."
+        }
+      ]
+    },
+    {
+      "id": "c2-w6-s3",
+      "title": "Philosophical Writing Style",
+      "description": "Conventions specific to philosophical prose",
+      "guidelines": [
+        {
+          "principle": "Clarity over elegance",
+          "poor": "The complexities of the moral landscape render definitive judgment elusive.",
+          "improved": "It is difficult to reach a definitive judgment because several considerations pull in different directions."
+        },
+        {
+          "principle": "Signpost logical structure",
+          "example": "My argument proceeds as follows. First, I establish that... Second, I show that... Third, I consider the objection that... Finally, I conclude that..."
+        },
+        {
+          "principle": "Distinguish interpretive and critical claims",
+          "interpretation": "Kant argues that...",
+          "criticism": "Kant's argument fails because..."
+        }
+      ]
+    }
+  ],
+  "writingTask": {
+    "title": "Ethics Essay: The Demandingness Objection",
+    "prompt": "Write a philosophical essay (350-400 words) addressing the demandingness objection to impartial moral theories: the objection that morality cannot be as demanding as theories like utilitarianism suggest.",
+    "sampleResponse": "The Demandingness Objection: An Assessment\n\nImpartial moral theories, particularly utilitarianism, face the objection that they demand too much. If we are obligated to maximize good consequences impartially, and if our marginal contributions could save lives, then we seem obligated to sacrifice nearly everything for distant others. This, critics claim, cannot be right: morality cannot require that we abandon our projects, relationships, and pursuits for the sake of impartial welfare maximization.\n\nThe objection can be reconstructed as follows: (P1) A moral theory is implausible if its demands are unreasonably excessive. (P2) Impartial theories demand unreasonably excessive sacrifice. (C) Therefore, impartial theories are implausible.\n\nDefenders of impartial theories have challenged both premises. Against (P1), some argue that morality's demandingness is an empirical discovery, not a constraint on theory acceptance. If morality turns out to be demanding, we must accept this truth, however uncomfortable. Our resistance may reflect not moral insight but self-interest masquerading as intuition.\n\nAgainst (P2), defenders argue that what seems unreasonably excessive may be relative to our limited benevolence. From a truly impartial perspective, the sacrifice of luxury for life seems not excessive but obvious. The demandingness objection may rest on giving undue weight to agent-relative considerations.\n\nNevertheless, I find the objection partially compelling. A morality that leaves no room for personal projects and attachments fails to capture something important about human flourishing. We are not mere maximizing machines but beings whose good includes particular commitments. The question is whether this is a constraint on moral theory or merely a limit on our compliance.\n\nI propose a middle path: we may recognize agent-relative prerogatives—permissions to weight our own projects more heavily—without abandoning impartiality entirely. Morality permits but does not require maximal sacrifice. This preserves the core impartialist insight that others' interests matter equally while accommodating the legitimate role of personal projects.\n\nThis solution is unstable. If we are permitted but not required to help, the plight of those we could save seems arbitrary—hostage to our optional choices. Yet the alternative—demanding that we abandon all personal pursuits—seems to demand that we cease to be persons at all. Perhaps moral philosophy must live with this tension rather than resolve it."
+  }
+}

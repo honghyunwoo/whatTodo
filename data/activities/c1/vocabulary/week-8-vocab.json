@@ -1,0 +1,108 @@
+{
+  "id": "c1-vocab-week-8",
+  "type": "vocabulary",
+  "level": "C1",
+  "weekId": "week-8",
+  "title": "Media and Communication Studies",
+  "description": "Specialized vocabulary for analyzing media, communication, and public discourse",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "items": [
+    {
+      "id": "c1-v8-1",
+      "word": "disinformation",
+      "definition": "False information deliberately created and spread to deceive",
+      "pronunciation": "/ˌdɪsɪnfərˈmeɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "허위정보, 역정보",
+      "example": "The report detailed how disinformation campaigns targeted voters in swing states.",
+      "synonyms": ["propaganda", "falsehood", "deception"],
+      "antonyms": ["truth", "accurate information"],
+      "collocations": ["disinformation campaign", "spread disinformation", "combat disinformation"]
+    },
+    {
+      "id": "c1-v8-2",
+      "word": "narrative",
+      "definition": "A particular way of presenting a story or series of events; a framing of information",
+      "pronunciation": "/ˈnærətɪv/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "서사, 내러티브",
+      "example": "The competing narratives about the crisis shaped public perception differently.",
+      "synonyms": ["story", "account", "framing"],
+      "antonyms": [],
+      "collocations": ["dominant narrative", "counter-narrative", "narrative framing"]
+    },
+    {
+      "id": "c1-v8-3",
+      "word": "polarization",
+      "definition": "Division into sharply contrasting groups with opposing views",
+      "pronunciation": "/ˌpoʊlərəˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "양극화",
+      "example": "Political polarization has made bipartisan cooperation increasingly difficult.",
+      "synonyms": ["division", "fragmentation", "separation"],
+      "antonyms": ["unity", "consensus", "convergence"],
+      "collocations": ["political polarization", "media polarization", "increase polarization"]
+    },
+    {
+      "id": "c1-v8-4",
+      "word": "rhetoric",
+      "definition": "The art of persuasive speaking or writing; language designed to persuade",
+      "pronunciation": "/ˈretərɪk/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "수사학, 레토릭",
+      "example": "The politician's rhetoric appealed to fears rather than facts.",
+      "synonyms": ["oratory", "eloquence", "discourse"],
+      "antonyms": [],
+      "collocations": ["political rhetoric", "empty rhetoric", "rhetorical strategy"]
+    },
+    {
+      "id": "c1-v8-5",
+      "word": "framing",
+      "definition": "The way an issue is presented, which influences how it is understood",
+      "pronunciation": "/ˈfreɪmɪŋ/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "프레이밍, 틀 짓기",
+      "example": "The framing of immigration as a security issue rather than an economic one shifted the debate.",
+      "synonyms": ["presentation", "perspective", "angle"],
+      "antonyms": [],
+      "collocations": ["media framing", "issue framing", "framing effect"]
+    },
+    {
+      "id": "c1-v8-6",
+      "word": "virality",
+      "definition": "The tendency of content to spread rapidly through online sharing",
+      "pronunciation": "/vaɪˈrælɪti/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "바이럴성",
+      "example": "The video's virality meant it reached millions before any fact-checking occurred.",
+      "synonyms": ["spreadability", "shareability"],
+      "antonyms": [],
+      "collocations": ["achieve virality", "social media virality", "viral content"]
+    },
+    {
+      "id": "c1-v8-7",
+      "word": "echo chamber",
+      "definition": "An environment where one encounters only opinions similar to one's own",
+      "pronunciation": "/ˈekoʊ ˌtʃeɪmbər/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "에코 챔버, 반향실",
+      "example": "Social media algorithms can create echo chambers that reinforce existing beliefs.",
+      "synonyms": ["filter bubble", "information silo"],
+      "antonyms": ["diverse environment"],
+      "collocations": ["social media echo chamber", "political echo chamber", "break out of the echo chamber"]
+    },
+    {
+      "id": "c1-v8-8",
+      "word": "credibility",
+      "definition": "The quality of being trusted and believed; reliability of a source",
+      "pronunciation": "/ˌkredɪˈbɪləti/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "신뢰성",
+      "example": "The journalist's credibility was enhanced by her track record of accurate reporting.",
+      "synonyms": ["trustworthiness", "reliability", "authority"],
+      "antonyms": ["unreliability", "untrustworthiness"],
+      "collocations": ["source credibility", "establish credibility", "damage credibility"]
+    }
+  ]
+}

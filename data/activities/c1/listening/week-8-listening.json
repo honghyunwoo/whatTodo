@@ -1,0 +1,116 @@
+{
+  "id": "c1-listening-week-8",
+  "type": "listening",
+  "level": "C1",
+  "weekId": "week-8",
+  "title": "Media Literacy and Public Discourse",
+  "description": "Critical listening for media analysis and public communication",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passages": [
+    {
+      "id": "c1-l8-p1",
+      "title": "Fighting Misinformation",
+      "context": "Media literacy panel discussion",
+      "transcript": "The challenge we face isn't simply that false information exists—it's that our information ecosystem actively rewards it. Content that generates strong emotional responses spreads faster than accurate, nuanced reporting. The economic model of digital advertising incentivizes engagement over accuracy. Platforms have made efforts—fact-checking labels, reduced amplification of flagged content—but these solutions come with their own problems. Who decides what's misinformation? What about contested claims where experts disagree? The solutions that seem most promising involve not just flagging falsehoods but building what researchers call 'prebunking'—teaching people to recognize manipulation techniques before they encounter them. Media literacy education, which focuses on questioning sources and understanding how information is constructed, may be more effective than playing whack-a-mole with individual false claims.",
+      "audioDescription": "Panel discussing strategies to combat misinformation",
+      "questions": [
+        {
+          "id": "c1-l8-p1-q1",
+          "question": "According to the speaker, what fundamental problem does the information ecosystem have?",
+          "options": [
+            "Not enough content moderation",
+            "Too many sources of information",
+            "It rewards emotionally engaging content over accuracy",
+            "Journalists are poorly trained"
+          ],
+          "correctAnswer": 2,
+          "explanation": "'Content that generates strong emotional responses spreads faster than accurate, nuanced reporting'"
+        },
+        {
+          "id": "c1-l8-p1-q2",
+          "question": "What challenge does the speaker identify with fact-checking approaches?",
+          "options": [
+            "They are too expensive",
+            "Who decides what constitutes misinformation",
+            "Fact-checkers are biased",
+            "Technology cannot identify false claims"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Who decides what's misinformation? What about contested claims where experts disagree?'"
+        },
+        {
+          "id": "c1-l8-p1-q3",
+          "question": "What does 'prebunking' refer to?",
+          "options": [
+            "Removing false content before it spreads",
+            "Teaching people to recognize manipulation techniques in advance",
+            "Publishing corrections before errors occur",
+            "Blocking accounts that spread misinformation"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Prebunking'—teaching people to recognize manipulation techniques before they encounter them'"
+        }
+      ]
+    },
+    {
+      "id": "c1-l8-p2",
+      "title": "The Future of Journalism",
+      "context": "Media industry conference keynote",
+      "transcript": "Traditional journalism faces an existential challenge. The business model that sustained serious reporting for a century—advertising revenue subsidizing news production—has collapsed as digital platforms captured the advertising market. Newsrooms have shrunk dramatically; local news has been devastated. Yet I'm cautiously optimistic. New models are emerging. Subscription-based digital journalism has proven viable for some outlets—though typically those with national or global reach. Nonprofit journalism is expanding, funded by foundations and reader donations. Collaborative models, where news organizations share resources for investigations they couldn't afford alone, are producing impactful work. What concerns me more than the business model is the erosion of shared facts. When we can't agree on basic reality—when 'fake news' becomes a weapon to dismiss inconvenient truths—democracy itself is at risk. The financial sustainability of journalism matters because accountability journalism matters. Who will investigate corruption if no one can afford to?",
+      "audioDescription": "Media executive discussing journalism's future",
+      "questions": [
+        {
+          "id": "c1-l8-p2-q1",
+          "question": "What caused the collapse of traditional journalism's business model?",
+          "options": [
+            "Readers stopped wanting news",
+            "Digital platforms captured advertising revenue",
+            "Journalists became too expensive",
+            "Government regulations increased"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'The business model...has collapsed as digital platforms captured the advertising market'"
+        },
+        {
+          "id": "c1-l8-p2-q2",
+          "question": "Which new journalism models does the speaker mention?",
+          "options": [
+            "Government funding and state media",
+            "Subscription, nonprofit, and collaborative models",
+            "Only subscription-based models",
+            "Entirely volunteer-based organizations"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The speaker mentions 'subscription-based digital journalism,' 'nonprofit journalism,' and 'collaborative models'"
+        },
+        {
+          "id": "c1-l8-p2-q3",
+          "question": "What does the speaker say concerns them more than business models?",
+          "options": [
+            "Technology disruption",
+            "Lack of young readers",
+            "The erosion of shared facts",
+            "Competition from bloggers"
+          ],
+          "correctAnswer": 2,
+          "explanation": "'What concerns me more than the business model is the erosion of shared facts'"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "prebunking",
+      "definition": "Inoculating against misinformation by teaching recognition of manipulation techniques"
+    },
+    {
+      "term": "accountability journalism",
+      "definition": "Reporting that holds powerful institutions and individuals responsible"
+    },
+    {
+      "term": "information ecosystem",
+      "definition": "The interconnected system of media, platforms, and information flows"
+    }
+  ]
+}

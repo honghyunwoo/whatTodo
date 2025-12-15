@@ -1,0 +1,130 @@
+{
+  "id": "c1-grammar-week-8",
+  "type": "grammar",
+  "level": "C1",
+  "weekId": "week-8",
+  "title": "Persuasive and Argumentative Structures",
+  "description": "Grammatical patterns for effective argumentation and persuasion",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c1-g8-s1",
+      "title": "Rhetorical Questions",
+      "explanation": "Using questions as persuasive devices rather than genuine inquiries.",
+      "patterns": [
+        {
+          "type": "Obvious answer",
+          "example": "Who wouldn't want a cleaner environment for their children?",
+          "effect": "Assumes agreement, creates common ground"
+        },
+        {
+          "type": "Challenging assumption",
+          "example": "But is growth for its own sake really progress?",
+          "effect": "Invites reconsideration of accepted ideas"
+        },
+        {
+          "type": "Series for emphasis",
+          "example": "How much longer must we wait? How many more warnings do we need? When will we finally act?",
+          "effect": "Builds emotional momentum"
+        }
+      ]
+    },
+    {
+      "id": "c1-g8-s2",
+      "title": "Concession and Refutation",
+      "explanation": "Acknowledging opposing views while maintaining your position.",
+      "patterns": [
+        {
+          "structure": "While it is true that X, Y nonetheless...",
+          "example": "While it is true that costs would increase, the long-term benefits nonetheless outweigh the short-term investment.",
+          "effect": "Shows fairness while maintaining position"
+        },
+        {
+          "structure": "Admittedly X; however, Y",
+          "example": "Admittedly, the evidence is not conclusive; however, the trend is clear.",
+          "effect": "Honest acknowledgment strengthens credibility"
+        },
+        {
+          "structure": "Critics may argue X, but this overlooks Y",
+          "example": "Critics may argue that the policy is expensive, but this overlooks the greater expense of inaction.",
+          "effect": "Anticipates and addresses objections"
+        }
+      ]
+    },
+    {
+      "id": "c1-g8-s3",
+      "title": "Emphatic Structures",
+      "explanation": "Grammatical devices for adding emphasis to claims.",
+      "structures": [
+        {
+          "type": "Cleft sentences",
+          "neutral": "The evidence convinced the jury.",
+          "emphatic": "It was the evidence that convinced the jury.",
+          "effect": "Focuses attention on specific element"
+        },
+        {
+          "type": "Fronting",
+          "neutral": "We cannot accept such a compromise.",
+          "emphatic": "Such a compromise we cannot accept.",
+          "effect": "Emphasizes fronted element"
+        },
+        {
+          "type": "Double negation",
+          "neutral": "This is very important.",
+          "emphatic": "The importance of this cannot be overstated.",
+          "effect": "Stronger than simple positive"
+        },
+        {
+          "type": "Emphatic do",
+          "neutral": "I believe this proposal will succeed.",
+          "emphatic": "I do believe this proposal will succeed.",
+          "effect": "Adds conviction to assertion"
+        }
+      ]
+    },
+    {
+      "id": "c1-g8-s4",
+      "title": "Logical Connectors for Argumentation",
+      "explanation": "Linking words that signal argumentative relationships.",
+      "categories": [
+        {
+          "function": "Adding support",
+          "connectors": ["Furthermore", "Moreover", "In addition", "What is more"],
+          "example": "The policy reduces costs. Moreover, it improves service quality."
+        },
+        {
+          "function": "Showing consequence",
+          "connectors": ["Therefore", "Consequently", "As a result", "It follows that"],
+          "example": "The data is unreliable. Consequently, any conclusions drawn from it are suspect."
+        },
+        {
+          "function": "Contrasting",
+          "connectors": ["However", "Nevertheless", "On the other hand", "By contrast"],
+          "example": "The theory is elegant. However, it fails to account for several key phenomena."
+        },
+        {
+          "function": "Summarizing",
+          "connectors": ["In conclusion", "To sum up", "All things considered", "On balance"],
+          "example": "On balance, the benefits outweigh the risks."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-g8-ex1",
+      "type": "rhetorical-question",
+      "instruction": "Convert to a rhetorical question",
+      "original": "Everyone deserves access to healthcare.",
+      "answer": "Doesn't everyone deserve access to healthcare?"
+    },
+    {
+      "id": "c1-g8-ex2",
+      "type": "concession",
+      "instruction": "Add a concession before this claim",
+      "claim": "The government should invest more in renewable energy.",
+      "answer": "While fossil fuels remain cheaper in the short term, the government should invest more in renewable energy."
+    }
+  ]
+}

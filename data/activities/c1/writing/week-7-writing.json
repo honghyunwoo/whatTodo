@@ -1,0 +1,99 @@
+{
+  "id": "c1-writing-week-7",
+  "type": "writing",
+  "level": "C1",
+  "weekId": "week-7",
+  "title": "Technical Documentation and Proposals",
+  "description": "Creating effective technical documents and project proposals",
+  "estimatedMinutes": 35,
+  "xpReward": 65,
+  "sections": [
+    {
+      "id": "c1-w7-s1",
+      "title": "Technical Proposal Structure",
+      "description": "Organizing proposals for technical projects",
+      "components": [
+        {
+          "section": "Executive Summary",
+          "content": "One-page overview of problem, solution, and value",
+          "tips": "Write this last but place it first; busy executives may read only this"
+        },
+        {
+          "section": "Problem Statement",
+          "content": "Clear definition of the problem and its impact",
+          "example": "Current manual processes require 40 staff hours weekly, introduce errors, and create compliance risk."
+        },
+        {
+          "section": "Proposed Solution",
+          "content": "Technical approach and methodology",
+          "example": "We propose implementing an automated workflow system that integrates with existing tools via API."
+        },
+        {
+          "section": "Technical Architecture",
+          "content": "System design, technologies, and integration points",
+          "tips": "Use diagrams; include assumptions and constraints"
+        },
+        {
+          "section": "Implementation Plan",
+          "content": "Phases, milestones, and deliverables",
+          "tips": "Be realistic; include dependencies and risks"
+        },
+        {
+          "section": "Resource Requirements",
+          "content": "Team composition, infrastructure, timeline",
+          "example": "The project requires 2 senior developers and 1 project manager for 12 weeks."
+        },
+        {
+          "section": "Cost-Benefit Analysis",
+          "content": "Investment required and expected returns",
+          "tips": "Quantify benefits where possible; acknowledge uncertainties"
+        }
+      ]
+    },
+    {
+      "id": "c1-w7-s2",
+      "title": "Technical Writing Principles",
+      "description": "Clear communication in technical documents",
+      "principles": [
+        {
+          "principle": "Front-load key information",
+          "poor": "After analyzing various options and considering the constraints, we recommend Option A.",
+          "improved": "We recommend Option A. It best addresses the constraints because..."
+        },
+        {
+          "principle": "Use concrete language",
+          "poor": "The system will be significantly faster.",
+          "improved": "The system will reduce response time from 2 seconds to under 200 milliseconds."
+        },
+        {
+          "principle": "Define acronyms on first use",
+          "example": "The Application Programming Interface (API) enables... Subsequent references can use 'API.'"
+        },
+        {
+          "principle": "Use visual elements",
+          "example": "Diagrams for architecture, tables for comparisons, bullet points for lists"
+        }
+      ]
+    },
+    {
+      "id": "c1-w7-s3",
+      "title": "Risk Communication",
+      "description": "Presenting risks and mitigation strategies",
+      "format": {
+        "structure": "Risk | Impact | Likelihood | Mitigation",
+        "example": "Integration delays | 2-week schedule slip | Medium | Early vendor engagement; parallel development track"
+      },
+      "principles": [
+        "Be honest about uncertainties",
+        "Pair risks with mitigation strategies",
+        "Prioritize risks by impact × likelihood",
+        "Include contingency plans for high-impact risks"
+      ]
+    }
+  ],
+  "writingTask": {
+    "title": "Technical Project Proposal",
+    "prompt": "Write an executive summary (200-250 words) for a proposal to implement a customer relationship management (CRM) system for a mid-sized company currently using spreadsheets.",
+    "sampleResponse": "Executive Summary: CRM Implementation Proposal\n\nProblem\nOur sales team manages 5,000+ customer relationships using disconnected spreadsheets, resulting in data inconsistencies, lost opportunities, and approximately 15 hours per week spent on manual data consolidation. Customer response times average 48 hours—twice industry standard. We estimate this inefficiency costs $200,000 annually in lost sales and productivity.\n\nProposed Solution\nWe propose implementing Salesforce CRM, configured for our specific workflow, with full integration to our email and calendar systems. The solution will provide:\n- Unified customer database accessible to all team members\n- Automated lead tracking and opportunity management\n- Real-time reporting and pipeline visibility\n- Email integration for automatic activity logging\n\nExpected Benefits\n- 60% reduction in administrative time (9 hours/week reclaimed)\n- Customer response time reduced to under 24 hours\n- 15% increase in conversion rate through improved follow-up\n- ROI breakeven within 8 months\n\nInvestment Required\n- Implementation cost: $45,000 (one-time)\n- Annual subscription: $24,000\n- Training: $8,000\n- Total first-year cost: $77,000\n\nTimeline\n- Phase 1 (Weeks 1-4): Configuration and data migration\n- Phase 2 (Weeks 5-6): Integration and testing\n- Phase 3 (Weeks 7-8): Training and go-live\n\nRecommendation\nWe recommend proceeding with Phase 1 immediately to achieve go-live by end of Q2. Detailed implementation plan and risk assessment follow in Section 3."
+  }
+}

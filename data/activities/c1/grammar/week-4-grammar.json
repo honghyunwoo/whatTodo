@@ -1,0 +1,138 @@
+{
+  "id": "c1-grammar-week-4",
+  "type": "grammar",
+  "level": "C1",
+  "weekId": "week-4",
+  "title": "Advanced Conditional Structures",
+  "description": "Mastering complex conditional forms and mixed conditionals",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c1-g4-s1",
+      "title": "Mixed Conditionals",
+      "explanation": "Mixed conditionals combine different time frames in the if-clause and main clause to express complex hypothetical situations.",
+      "patterns": [
+        {
+          "name": "Past condition, present result",
+          "structure": "If + past perfect, would + infinitive",
+          "example": "If I had studied medicine, I would be a doctor now.",
+          "explanation": "Past hypothetical action affecting present situation"
+        },
+        {
+          "name": "Present condition, past result",
+          "structure": "If + simple past, would have + past participle",
+          "example": "If she weren't so cautious, she would have invested in Bitcoin.",
+          "explanation": "Present general condition affecting past situation"
+        }
+      ]
+    },
+    {
+      "id": "c1-g4-s2",
+      "title": "Inverted Conditionals",
+      "explanation": "Formal conditional structures without 'if' using subject-auxiliary inversion.",
+      "patterns": [
+        {
+          "name": "Had inversion (third conditional)",
+          "standard": "If I had known about the meeting, I would have attended.",
+          "inverted": "Had I known about the meeting, I would have attended.",
+          "register": "Formal, written"
+        },
+        {
+          "name": "Were inversion (second conditional)",
+          "standard": "If I were you, I would reconsider.",
+          "inverted": "Were I you, I would reconsider.",
+          "register": "Very formal, literary"
+        },
+        {
+          "name": "Should inversion (first conditional)",
+          "standard": "If you should need any help, please call.",
+          "inverted": "Should you need any help, please call.",
+          "register": "Formal, polite"
+        }
+      ]
+    },
+    {
+      "id": "c1-g4-s3",
+      "title": "Alternative Conditional Expressions",
+      "explanation": "Various expressions that function similarly to if-clauses.",
+      "expressions": [
+        {
+          "expression": "Provided/Providing (that)",
+          "meaning": "On condition that",
+          "example": "The project will proceed provided that funding is secured."
+        },
+        {
+          "expression": "On condition (that)",
+          "meaning": "Only if",
+          "example": "I'll lend you the money on condition that you repay it by Friday."
+        },
+        {
+          "expression": "Suppose/Supposing",
+          "meaning": "What if",
+          "example": "Suppose the deal falls through, what's our backup plan?"
+        },
+        {
+          "expression": "But for",
+          "meaning": "If it were not for",
+          "example": "But for your help, we would have failed."
+        },
+        {
+          "expression": "Otherwise",
+          "meaning": "If not",
+          "example": "Start now; otherwise, you won't finish on time."
+        }
+      ]
+    },
+    {
+      "id": "c1-g4-s4",
+      "title": "Conditional Wishes and Regrets",
+      "explanation": "Using wish, if only, and would rather to express hypothetical preferences.",
+      "patterns": [
+        {
+          "structure": "Wish + past simple",
+          "use": "Present unreal wishes",
+          "example": "I wish I had more time for hobbies."
+        },
+        {
+          "structure": "Wish + past perfect",
+          "use": "Past regrets",
+          "example": "I wish I had taken that job offer."
+        },
+        {
+          "structure": "If only + past perfect",
+          "use": "Strong regrets",
+          "example": "If only we had listened to the warnings."
+        },
+        {
+          "structure": "Would rather + subject + past simple",
+          "use": "Preferences about others' actions",
+          "example": "I'd rather you didn't mention this to anyone."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-g4-ex1",
+      "type": "transformation",
+      "instruction": "Transform using inverted conditional",
+      "original": "If the board had approved the budget, we would have expanded.",
+      "answer": "Had the board approved the budget, we would have expanded."
+    },
+    {
+      "id": "c1-g4-ex2",
+      "type": "mixed-conditional",
+      "instruction": "Create a mixed conditional sentence",
+      "situation": "She didn't study finance (past), so she doesn't understand the report (present).",
+      "answer": "If she had studied finance, she would understand the report now."
+    },
+    {
+      "id": "c1-g4-ex3",
+      "type": "fill-blank",
+      "instruction": "Complete with appropriate conditional expression",
+      "sentence": "_____ the government intervention, the bank would have collapsed.",
+      "answer": "But for"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "c2-vocab-week-5",
+  "type": "vocabulary",
+  "level": "C2",
+  "weekId": "week-5",
+  "title": "Epistemology and Philosophy of Science",
+  "description": "Specialized vocabulary for philosophical inquiry into knowledge and scientific method",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "items": [
+    {
+      "id": "c2-v5-1",
+      "word": "epistemology",
+      "definition": "The philosophical study of knowledge: its nature, sources, scope, and justification",
+      "pronunciation": "/ɪˌpɪstəˈmɒlədʒi/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "인식론",
+      "example": "Social epistemology examines how knowledge is produced and distributed in communities.",
+      "synonyms": ["theory of knowledge", "gnoseology"],
+      "antonyms": [],
+      "collocations": ["social epistemology", "epistemological question", "feminist epistemology"]
+    },
+    {
+      "id": "c2-v5-2",
+      "word": "falsifiability",
+      "definition": "The quality of a theory that makes it capable of being proved wrong by observation or experiment",
+      "pronunciation": "/ˌfɔːlsɪfaɪəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "반증가능성",
+      "example": "Popper argued that falsifiability, not verifiability, distinguishes science from pseudoscience.",
+      "synonyms": ["refutability", "testability"],
+      "antonyms": ["unfalsifiability", "irrefutability"],
+      "collocations": ["Popperian falsifiability", "criterion of falsifiability", "falsifiability principle"]
+    },
+    {
+      "id": "c2-v5-3",
+      "word": "paradigm",
+      "definition": "A dominant theoretical framework; in Kuhn's usage, the shared assumptions and practices of a scientific community",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "패러다임",
+      "example": "Kuhn argued that scientific revolutions involve paradigm shifts that transform the field's fundamental assumptions.",
+      "synonyms": ["framework", "worldview", "model"],
+      "antonyms": [],
+      "collocations": ["paradigm shift", "Kuhnian paradigm", "dominant paradigm"]
+    },
+    {
+      "id": "c2-v5-4",
+      "word": "empiricism",
+      "definition": "The view that knowledge derives primarily from sensory experience rather than innate ideas",
+      "pronunciation": "/ɪmˈpɪrɪsɪzəm/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "경험주의",
+      "example": "Logical empiricism sought to ground all meaningful statements in observational evidence.",
+      "synonyms": ["experiential philosophy", "sense-based epistemology"],
+      "antonyms": ["rationalism", "nativism"],
+      "collocations": ["British empiricism", "logical empiricism", "radical empiricism"]
+    },
+    {
+      "id": "c2-v5-5",
+      "word": "incommensurability",
+      "definition": "The impossibility of meaningful comparison between different paradigms or conceptual frameworks",
+      "pronunciation": "/ɪnkəˌmenʃərəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "공약불가능성",
+      "example": "The incommensurability thesis suggests that scientists in different paradigms literally see different worlds.",
+      "synonyms": ["incomparability", "untranslatability"],
+      "antonyms": ["commensurability", "comparability"],
+      "collocations": ["Kuhnian incommensurability", "semantic incommensurability", "methodological incommensurability"]
+    },
+    {
+      "id": "c2-v5-6",
+      "word": "hermeneutics",
+      "definition": "The theory and methodology of interpretation, especially of texts and human action",
+      "pronunciation": "/ˌhɜːrməˈnjuːtɪks/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "해석학",
+      "example": "Gadamer's hermeneutics emphasizes the role of tradition and prejudice in understanding.",
+      "synonyms": ["interpretation theory", "exegesis"],
+      "antonyms": [],
+      "collocations": ["philosophical hermeneutics", "hermeneutic circle", "hermeneutic phenomenology"]
+    },
+    {
+      "id": "c2-v5-7",
+      "word": "underdetermination",
+      "definition": "The situation where available evidence is insufficient to determine which of competing theories is correct",
+      "pronunciation": "/ˌʌndərdɪˌtɜːrmɪˈneɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "미결정성",
+      "example": "The underdetermination of theory by evidence suggests that extra-empirical values influence theory choice.",
+      "synonyms": ["evidential underdetermination"],
+      "antonyms": [],
+      "collocations": ["Duhem-Quine underdetermination", "underdetermination thesis", "holistic underdetermination"]
+    },
+    {
+      "id": "c2-v5-8",
+      "word": "phenomenology",
+      "definition": "The philosophical study of structures of conscious experience and their first-person point of view",
+      "pronunciation": "/fɪˌnɒmɪˈnɒlədʒi/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "현상학",
+      "example": "Husserlian phenomenology seeks to describe the essential structures of experience without presuppositions.",
+      "synonyms": ["experiential analysis"],
+      "antonyms": [],
+      "collocations": ["transcendental phenomenology", "phenomenological method", "existential phenomenology"]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "c2-speaking-week-8",
+  "type": "speaking",
+  "level": "C2",
+  "weekId": "week-8",
+  "title": "The Art of Intellectual Discourse",
+  "description": "Mastering the highest levels of scholarly communication",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c2-s8-s1",
+      "title": "The Keynote Address",
+      "description": "Delivering substantial intellectual content to academic audiences",
+      "techniques": [
+        {
+          "technique": "The orienting question",
+          "description": "Frame your talk around a compelling intellectual puzzle",
+          "example": "I want to begin with a question that troubled Wittgenstein and that I believe we still haven't adequately answered: How is it possible for one person to understand another?"
+        },
+        {
+          "technique": "The journey metaphor",
+          "description": "Structure the talk as intellectual travel",
+          "example": "I'm going to take you through three territories today: first the familiar ground of the standard view, then the difficult terrain where it breaks down, and finally toward what I hope is a more promising direction."
+        },
+        {
+          "technique": "The provocative inversion",
+          "description": "Reverse conventional wisdom to capture attention",
+          "example": "What if everything we've assumed about X is not just incomplete but inverted? What if the thing we've been treating as effect is actually cause?"
+        },
+        {
+          "technique": "The elegant synthesis",
+          "description": "Draw together disparate threads into unified insight",
+          "example": "What connects these three problems—seemingly so different—is a shared structural feature that becomes visible only when we step back far enough."
+        }
+      ]
+    },
+    {
+      "id": "c2-s8-s2",
+      "title": "Socratic Dialogue",
+      "description": "The art of productive philosophical conversation",
+      "moves": [
+        {
+          "move": "Probing for precision",
+          "example": "When you say 'freedom,' I want to make sure I understand. Do you mean negative freedom—absence of constraint—or positive freedom—capacity to actualize one's nature?"
+        },
+        {
+          "move": "Revealing assumptions",
+          "example": "I notice we've both been assuming that X. But should we? What if we questioned that very premise?"
+        },
+        {
+          "move": "Following implications",
+          "example": "Let's follow that thought. If that's right, then it seems we're committed to Y as well. Are you willing to accept that consequence?"
+        },
+        {
+          "move": "Synthesizing positions",
+          "example": "I wonder if we're actually closer than we appear. Couldn't we say that you're emphasizing the X dimension while I'm emphasizing the Y dimension of the same underlying phenomenon?"
+        }
+      ]
+    },
+    {
+      "id": "c2-s8-s3",
+      "title": "Intellectual Humility in Discourse",
+      "description": "Navigating uncertainty with scholarly integrity",
+      "expressions": [
+        {
+          "function": "Acknowledging limits",
+          "phrases": [
+            "I'm genuinely uncertain about this next move...",
+            "I find myself wanting to say X, but I'm not confident I can defend it...",
+            "Here I'm speculating beyond what the evidence supports..."
+          ]
+        },
+        {
+          "function": "Learning from disagreement",
+          "phrases": [
+            "Help me understand why you find that implausible...",
+            "I hadn't considered that angle. Let me think about it...",
+            "You may have identified a genuine problem with my view..."
+          ]
+        },
+        {
+          "function": "Revising positions",
+          "phrases": [
+            "In light of what you've said, I want to modify my claim...",
+            "I was wrong about X, though I still think Y holds...",
+            "This conversation has shifted my thinking in important ways..."
+          ]
+        }
+      ]
+    }
+  ],
+  "practiceScenarios": [
+    {
+      "id": "c2-s8-sc1",
+      "title": "Conference Keynote Opening",
+      "context": "You're delivering a keynote on the future of humanistic inquiry.",
+      "task": "Deliver a compelling opening that frames the intellectual stakes.",
+      "sampleResponse": "A century ago, Max Weber described the 'disenchantment of the world'—the retreat of meaning before the advance of instrumental reason. Today we might speak instead of the 'datafication of the world'—the reduction of human experience to inputs for algorithmic processing. What gets lost in this translation? Something, I want to argue, that the humanities have always sought to preserve: the density of meaning, the irreducibility of interpretation, the recognition that some truths cannot be quantified because they are not that kind of thing. But—and here's the provocation—I don't think the response should be defensive retreat. The humanities' contribution isn't to protect some precious domain from contamination but to offer resources for navigating a world that increasingly exceeds our comprehension. Tonight I want to explore what that might look like: not humanities against technology but humanities for a technological age."
+    },
+    {
+      "id": "c2-s8-sc2",
+      "title": "Seminar Discussion Leadership",
+      "context": "You're leading a graduate seminar discussion that has stalled in disagreement.",
+      "task": "Reframe the discussion productively.",
+      "sampleResponse": "Let me intervene here, because I think we've reached an impasse that's actually productive if we look at it differently. The disagreement between you—let's call it the structural view versus the agency view—has a long history in this field. And my sense is that both of you are capturing something important. The question isn't which is right but under what conditions each illuminates something the other misses. So let me propose a thought experiment: Can we construct a case where the structural view clearly dominates? And then a case where agency seems undeniable? If we can do that, maybe we can discern what features of situations make one or the other perspective more apt. Does that framing feel useful? I'm genuinely curious where you both think the limits of your positions lie."
+    }
+  ]
+}

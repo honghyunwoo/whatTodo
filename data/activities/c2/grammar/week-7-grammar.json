@@ -1,0 +1,120 @@
+{
+  "id": "c2-grammar-week-7",
+  "type": "grammar",
+  "level": "C2",
+  "weekId": "week-7",
+  "title": "Metalinguistic Analysis",
+  "description": "Grammatical structures for analyzing language itself",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c2-g7-s1",
+      "title": "Describing Grammatical Phenomena",
+      "explanation": "Structures for discussing language patterns and rules.",
+      "patterns": [
+        {
+          "pattern": "In X, Y functions as/serves as...",
+          "example": "In this sentence, 'however' functions as a conjunctive adverb connecting contrasting clauses.",
+          "use": "Identifying grammatical roles"
+        },
+        {
+          "pattern": "X is characterized by...",
+          "example": "Academic writing is characterized by complex noun phrases and extensive nominalization.",
+          "use": "Describing register features"
+        },
+        {
+          "pattern": "X licenses/permits/allows Y",
+          "example": "The verb 'believe' licenses a that-clause complement but not a to-infinitive with most subjects.",
+          "use": "Describing grammatical constraints"
+        },
+        {
+          "pattern": "X triggers/gives rise to Y",
+          "example": "The definite article triggers the presupposition that the referent exists and is identifiable.",
+          "use": "Describing semantic/pragmatic effects"
+        }
+      ]
+    },
+    {
+      "id": "c2-g7-s2",
+      "title": "Semantic and Pragmatic Description",
+      "explanation": "Language for analyzing meaning and use.",
+      "patterns": [
+        {
+          "function": "Describing entailment",
+          "structure": "X entails Y / Y follows from X",
+          "example": "'John killed Mary' entails 'Mary died'—if the first is true, the second must be."
+        },
+        {
+          "function": "Describing implicature",
+          "structure": "X implicates/suggests/conveys Y",
+          "example": "Saying 'It's getting late' may implicate that the speaker wants to leave."
+        },
+        {
+          "function": "Describing presupposition",
+          "structure": "X presupposes Y / X carries the presupposition that Y",
+          "example": "'John regrets leaving' presupposes that John left."
+        },
+        {
+          "function": "Describing speech acts",
+          "structure": "In uttering X, the speaker performs/accomplishes Y",
+          "example": "In uttering 'I promise to come,' the speaker performs the act of promising."
+        }
+      ]
+    },
+    {
+      "id": "c2-g7-s3",
+      "title": "Comparative Linguistic Analysis",
+      "explanation": "Structures for cross-linguistic comparison.",
+      "patterns": [
+        {
+          "pattern": "Unlike X, Y has/lacks...",
+          "example": "Unlike English, Korean lacks articles and marks topic-comment structure explicitly."
+        },
+        {
+          "pattern": "X patterns with Y in that...",
+          "example": "Japanese patterns with Korean in having SOV word order and agglutinative morphology."
+        },
+        {
+          "pattern": "The X construction in Language A corresponds to...",
+          "example": "The passive construction in English corresponds to several distinct constructions in Japanese, including the adversative passive."
+        }
+      ]
+    },
+    {
+      "id": "c2-g7-s4",
+      "title": "Grammaticalization and Language Change",
+      "explanation": "Describing diachronic processes in language.",
+      "patterns": [
+        {
+          "pattern": "X has grammaticalized from/into Y",
+          "example": "'Going to' has grammaticalized from a motion verb phrase into a future tense marker."
+        },
+        {
+          "pattern": "X represents a case of...",
+          "example": "'Kind of' > 'kinda' represents a case of phonological reduction accompanying semantic bleaching."
+        },
+        {
+          "pattern": "The development from X to Y illustrates...",
+          "example": "The development from full verb to auxiliary illustrates the unidirectionality of grammaticalization."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-g7-ex1",
+      "type": "linguistic-description",
+      "instruction": "Describe the presupposition in this sentence",
+      "sentence": "Have you finished your assignment?",
+      "answer": "The question presupposes that the addressee has an assignment and has been working on it. If no assignment exists, the question is infelicitous (presupposition failure)."
+    },
+    {
+      "id": "c2-g7-ex2",
+      "type": "implicature-analysis",
+      "instruction": "Identify and explain the implicature",
+      "utterance": "A: How did John do on the exam? B: He passed.",
+      "answer": "B implicates that John's performance was merely adequate—not excellent. If John had done well, B would have said so (Grice's maxim of quantity)."
+    }
+  ]
+}
