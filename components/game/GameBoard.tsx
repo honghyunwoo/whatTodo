@@ -1,4 +1,4 @@
-import React, { memo, useCallback, useMemo, useRef } from 'react';
+import React, { memo, useCallback, useMemo, useRef, useEffect } from 'react';
 import { Dimensions, StyleSheet, View } from 'react-native';
 import { Gesture, GestureDetector, GestureStateChangeEvent, PanGestureHandlerEventPayload } from 'react-native-gesture-handler';
 
@@ -27,6 +27,16 @@ function GameBoardComponent({ tiles, onMove }: GameBoardProps) {
 
   // 스와이프 상태 추적
   const isProcessing = useRef(false);
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Cleanup timer on unmount
+  useEffect(() => {
+    return () => {
+      if (timerRef.current) {
+        clearTimeout(timerRef.current);
+      }
+    };
+  }, []);
 
   const handleSwipe = useCallback(
     (translationX: number, translationY: number) => {
@@ -53,7 +63,7 @@ function GameBoardComponent({ tiles, onMove }: GameBoardProps) {
       onMove(direction);
 
       // 잠시 후 처리 가능 상태로 복원
-      setTimeout(() => {
+      timerRef.current = setTimeout(() => {
         isProcessing.current = false;
       }, 100);
     },

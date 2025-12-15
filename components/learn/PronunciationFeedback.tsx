@@ -7,7 +7,7 @@
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { MotiView } from 'moti';
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useState, useRef, useEffect } from 'react';
 import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { Card, Text } from 'react-native-paper';
 import Animated, { FadeIn } from 'react-native-reanimated';
@@ -86,6 +86,16 @@ export function PronunciationFeedback({
   const [isTTSPlaying, setIsTTSPlaying] = useState(false);
   const [isPlayingRecording, setIsPlayingRecording] = useState(false);
   const [selectedRating, setSelectedRating] = useState<'excellent' | 'good' | 'needs_practice' | null>(null);
+  const playbackTimerRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Cleanup timer on unmount
+  useEffect(() => {
+    return () => {
+      if (playbackTimerRef.current) {
+        clearTimeout(playbackTimerRef.current);
+      }
+    };
+  }, []);
 
   // Calculate self-evaluation score
   const checkedCount = checkedCriteria.size;
@@ -147,7 +157,7 @@ export function PronunciationFeedback({
     } catch (error) {
       console.error('Playback failed:', error);
     } finally {
-      setTimeout(() => setIsPlayingRecording(false), 3000);
+      playbackTimerRef.current = setTimeout(() => setIsPlayingRecording(false), 3000);
     }
   }, [recordedAudioUri, isPlayingRecording]);
 

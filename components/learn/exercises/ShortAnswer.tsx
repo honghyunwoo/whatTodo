@@ -6,7 +6,7 @@
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { MotiView } from 'moti';
-import React, { useCallback, useRef, useState } from 'react';
+import React, { useCallback, useRef, useState, useEffect } from 'react';
 import { Pressable, StyleSheet, TextInput, View } from 'react-native';
 import { Card, Text } from 'react-native-paper';
 import Animated, { FadeIn, FadeOut } from 'react-native-reanimated';
@@ -136,6 +136,16 @@ function checkAnswer(
 export function ShortAnswer({ questions, onComplete }: ShortAnswerProps) {
   const { colors, isDark } = useTheme();
   const inputRef = useRef<TextInput>(null);
+  const focusTimerRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Cleanup timer on unmount
+  useEffect(() => {
+    return () => {
+      if (focusTimerRef.current) {
+        clearTimeout(focusTimerRef.current);
+      }
+    };
+  }, []);
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [results, setResults] = useState<ShortAnswerResult[]>([]);
@@ -200,7 +210,7 @@ export function ShortAnswer({ questions, onComplete }: ShortAnswerProps) {
       setShowHint(false);
       setStartTime(Date.now());
       // Focus input for next question
-      setTimeout(() => inputRef.current?.focus(), 300);
+      focusTimerRef.current = setTimeout(() => inputRef.current?.focus(), 300);
     }
   }, [isLastQuestion, onComplete, results]);
 

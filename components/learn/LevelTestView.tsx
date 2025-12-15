@@ -45,6 +45,16 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
   // Animation values
   const fadeAnim = useRef(new Animated.Value(1)).current;
   const scaleAnim = useRef(new Animated.Value(1)).current;
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Cleanup timer on unmount
+  useEffect(() => {
+    return () => {
+      if (timerRef.current) {
+        clearTimeout(timerRef.current);
+      }
+    };
+  }, []);
 
   // ─────────────────────────────────────
   // Test Initialization
@@ -86,7 +96,7 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
     ]).start();
 
     // Auto-advance after delay
-    setTimeout(() => {
+    timerRef.current = setTimeout(() => {
       handleNextQuestion(index);
     }, 1000);
   }, [showFeedback, selectedAnswer, scaleAnim]);

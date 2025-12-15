@@ -82,6 +82,7 @@ export function SpeechRecorder({
 
   const durationTimerRef = useRef<NodeJS.Timeout | null>(null);
   const audioLevelTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const playbackTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   // Animation values
   const pulseScale = useSharedValue(1);
@@ -165,6 +166,9 @@ export function SpeechRecorder({
     return () => {
       speechService.stopTTS();
       speechService.stopPlayback();
+      if (playbackTimerRef.current) {
+        clearTimeout(playbackTimerRef.current);
+      }
     };
   }, []);
 
@@ -263,7 +267,7 @@ export function SpeechRecorder({
     } finally {
       // Note: This will fire immediately since playAudio doesn't wait for completion
       // In a real implementation, we'd want to track the sound playback status
-      setTimeout(() => setIsPlayingRecording(false), 3000);
+      playbackTimerRef.current = setTimeout(() => setIsPlayingRecording(false), 3000);
     }
   }, [recordedUri, isPlayingRecording]);
 

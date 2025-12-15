@@ -155,6 +155,16 @@ export function Dictation({
 }: DictationProps) {
   const { colors, isDark } = useTheme();
   const inputRef = useRef<TextInput>(null);
+  const focusTimerRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Cleanup timer on unmount
+  useEffect(() => {
+    return () => {
+      if (focusTimerRef.current) {
+        clearTimeout(focusTimerRef.current);
+      }
+    };
+  }, []);
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [results, setResults] = useState<DictationResult[]>([]);
@@ -263,7 +273,7 @@ export function Dictation({
       setShowFirstLetterHint(false);
       setShowWordCountHint(false);
       setStartTime(Date.now());
-      setTimeout(() => inputRef.current?.focus(), 300);
+      focusTimerRef.current = setTimeout(() => inputRef.current?.focus(), 300);
     }
   }, [isLastQuestion, onComplete, results, speeds]);
 
