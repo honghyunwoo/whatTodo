@@ -5,7 +5,7 @@
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Animated, StyleSheet, TouchableOpacity, View } from 'react-native';
+import { Animated, StyleSheet, TouchableOpacity, View, ViewStyle, TextStyle } from 'react-native';
 import { Button, Card, ProgressBar as PaperProgressBar, Text } from 'react-native-paper';
 
 import { COLORS, withAlpha } from '@/constants/colors';
@@ -346,7 +346,7 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
       >
         <View style={styles.questionTypeTag}>
           <MaterialCommunityIcons
-            name={getQuestionTypeIcon(currentQuestion.type)}
+            name={getQuestionTypeIcon(currentQuestion.type) as any}
             size={16}
             color={COLORS.textSecondary}
           />
@@ -368,8 +368,8 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
             const isSelected = selectedAnswer === index;
             const isCorrectOption = index === currentQuestion.correctAnswer;
 
-            let optionStyle = styles.option;
-            let optionTextStyle = styles.optionText;
+            let optionStyle: ViewStyle = styles.option;
+            let optionTextStyle: TextStyle = styles.optionText;
 
             if (showFeedback) {
               if (isCorrectOption) {

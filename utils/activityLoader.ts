@@ -1,6 +1,7 @@
 import {
   Activity,
   ActivityType,
+  CEFRLevel,
   GrammarActivity,
   ListeningActivity,
   ReadingActivity,
@@ -254,11 +255,13 @@ import b2Week7Writing from '@/data/activities/b2/writing/week-7-writing.json';
 import b2Week8Writing from '@/data/activities/b2/writing/week-8-writing.json';
 
 // ─────────────────────────────────────
-// CEFR 레벨 타입 정의
+// CEFR 레벨 (types/activity.ts에서 import)
 // ─────────────────────────────────────
 
-export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2';
+// Re-export for backward compatibility
+export type { CEFRLevel };
 
+// 현재 앱에서 지원하는 레벨 (A1-B2, 향후 C1-C2 추가 예정)
 export const CEFR_LEVELS: CEFRLevel[] = ['A1', 'A2', 'B1', 'B2'];
 
 export const CEFR_LEVEL_INFO: Record<CEFRLevel, { name: string; description: string }> = {
@@ -266,6 +269,8 @@ export const CEFR_LEVEL_INFO: Record<CEFRLevel, { name: string; description: str
   A2: { name: 'Elementary', description: 'Everyday expressions and simple sentences' },
   B1: { name: 'Intermediate', description: 'Main points and simple connected text' },
   B2: { name: 'Upper Intermediate', description: 'Complex text and abstract topics' },
+  C1: { name: 'Advanced', description: 'Complex text and spontaneous expression' },
+  C2: { name: 'Proficiency', description: 'Near-native fluency and precision' },
 };
 
 // ─────────────────────────────────────
@@ -527,6 +532,23 @@ const ACTIVITIES: LevelActivityData = {
       'week-8': castActivity<WritingActivity>(b2Week8Writing),
     },
   },
+  // C1/C2: 향후 콘텐츠 추가 예정
+  C1: {
+    vocabulary: {},
+    grammar: {},
+    listening: {},
+    reading: {},
+    speaking: {},
+    writing: {},
+  },
+  C2: {
+    vocabulary: {},
+    grammar: {},
+    listening: {},
+    reading: {},
+    speaking: {},
+    writing: {},
+  },
 };
 
 // ─────────────────────────────────────
@@ -715,6 +737,8 @@ export function getLevelLabel(level: CEFRLevel): string {
     A2: '초급',
     B1: '중급',
     B2: '중상급',
+    C1: '고급',
+    C2: '최상급',
   };
 
   return labels[level] || level;

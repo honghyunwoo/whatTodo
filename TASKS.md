@@ -8,59 +8,43 @@
 
 | 항목 | 상태 |
 |------|------|
-| TypeScript 에러 | 58개 |
+| TypeScript 에러 | 0개 ✅ |
 | EAS Build (Android) | 성공 |
 | 앱 설치/실행 | 성공 |
 
 ---
 
-## Phase 1: 코드 안정화 (TypeScript 에러 수정)
+## Phase 1: 코드 안정화 (TypeScript 에러 수정) ✅ 완료
 
-### 1.1 hapticService 확장 (우선순위: 높음)
-- [ ] `learnHaptics`에 `selection` 메서드 추가
-- [ ] `learnHaptics`에 `impact` 메서드 추가
+### 1.1 hapticService 확장 ✅
+- [x] `learnHaptics`에 `selection` 메서드 추가
+- [x] `learnHaptics`에 `impact` 메서드 추가
 
-**영향받는 파일:**
-- `components/learn/PronunciationFeedback.tsx` (6개 에러)
-- `components/learn/SpeechRecorder.tsx` (7개 에러)
-- `components/learn/WritingEditor.tsx` (3개 에러)
-- `components/learn/WritingFeedback.tsx` (4개 에러)
-- `components/learn/exercises/Dictation.tsx` (2개 에러)
-- `components/learn/exercises/ShortAnswer.tsx` (1개 에러)
+### 1.2 constants/colors.ts 수정 ✅
+- [x] `COLORS`에 `error` 속성 추가 (`danger`와 동일 값)
 
-### 1.2 constants/colors.ts 수정 (우선순위: 높음)
-- [ ] `COLORS`에 `error` 속성 추가 (`danger`와 동일 값)
+### 1.3 constants/sizes.ts 수정 ✅
+- [x] `SIZES.radius`에 `round` 속성 추가
+- [x] `SIZES.borderRadius`에 `round` 속성 추가
 
-**영향받는 파일:**
-- `app/(tabs)/learn.tsx` (1개 에러)
+### 1.4 types/writing.ts 수정 ✅
+- [x] `WritingEvaluation`에 `ruleBasedScore` 속성 추가
+- [x] `RuleBasedScore` 인터페이스 추가
 
-### 1.3 constants/sizes.ts 수정 (우선순위: 중간)
-- [ ] `SIZES.radius`에 `round` 속성 추가
+### 1.5 CEFRLevel 타입 확장 ✅
+- [x] `types/activity.ts`에 C1/C2 레벨 추가
+- [x] `utils/activityLoader.ts`에서 CEFRLevel import 및 re-export
+- [x] `utils/levelTest.ts`에 C1/C2 처리 추가
+- [x] `data/levelTestQuestions.ts`에 C1/C2 빈 배열 추가
+- [x] `services/writingService.ts`에 C1/C2 처리 추가
 
-**영향받는 파일:**
-- `components/reward/BadgeGrid.tsx` (1개 에러)
+### 1.6 loadActivity 함수 호출 수정 ✅
+- [x] `app/(tabs)/learn.tsx` - loadWeekActivities에 currentLevel 인자 추가
+- [x] `app/learn/[type].tsx` - loadActivity에 currentLevel 인자 추가
 
-### 1.4 types/writing.ts 수정 (우선순위: 높음)
-- [ ] `WritingEvaluation`에 `ruleBasedScore` 속성 추가
-
-**영향받는 파일:**
-- `components/learn/WritingFeedback.tsx` (16개 에러)
-
-### 1.5 utils/cefr.ts 수정 (우선순위: 중간)
-- [ ] C1/C2 레벨 처리 로직 수정 (CEFRLevel 타입에 없음)
-
-**영향받는 파일:**
-- `utils/cefr.ts` (4개 에러)
-
-### 1.6 loadActivity 함수 호출 수정 (우선순위: 높음)
-- [ ] `app/(tabs)/learn.tsx` - 함수 인자 수정
-- [ ] `app/learn/[type].tsx` - 함수 인자 수정
-
-### 1.7 LevelTestView 스타일 타입 수정 (우선순위: 낮음)
-- [ ] 동적 스타일 타입 명시
-
-**영향받는 파일:**
-- `components/learn/LevelTestView.tsx` (6개 에러)
+### 1.7 LevelTestView/WritingFeedback 타입 수정 ✅
+- [x] `components/learn/LevelTestView.tsx` - ViewStyle/TextStyle 타입 명시, 아이콘 타입 수정
+- [x] `components/learn/WritingFeedback.tsx` - 아이콘 타입 수정
 
 ---
 
@@ -137,30 +121,20 @@
 ## 완료된 작업
 
 ### 2025-12-15
+- [x] Phase 1 전체 완료 (TypeScript 에러 58개 → 0개)
+  - hapticService 확장 (selection, impact 메서드)
+  - COLORS.error 추가
+  - SIZES.radius.round / SIZES.borderRadius.round 추가
+  - WritingEvaluation에 ruleBasedScore 추가
+  - CEFRLevel C1/C2 확장
+  - loadActivity/loadWeekActivities 호출 수정
+  - LevelTestView/WritingFeedback 타입 수정
 - [x] EAS Build 동적 import 에러 수정 (activityLoader.ts 정적 import로 변경)
 - [x] .npmrc 추가 (peer dependency 충돌 해결)
 
 ### 이전
 - [x] 웹 빌드 시 import.meta 에러 → SDK 51 + Webpack으로 해결
 - [x] expo-router Webpack 경로 에러 → _ctx.web.js 패치로 해결
-
----
-
-## 에러 상세 (Phase 1 참고용)
-
-### TypeScript 에러 분포 (총 58개)
-
-| 파일 | 에러 수 | 주요 원인 |
-|------|---------|----------|
-| WritingFeedback.tsx | 20개 | ruleBasedScore, haptics |
-| SpeechRecorder.tsx | 7개 | haptics.selection/impact |
-| PronunciationFeedback.tsx | 6개 | haptics.selection/impact |
-| LevelTestView.tsx | 6개 | 스타일 타입 |
-| cefr.ts | 4개 | C1/C2 레벨 |
-| WritingEditor.tsx | 3개 | haptics.selection |
-| Dictation.tsx | 2개 | haptics.selection |
-| learn.tsx | 2개 | loadActivity, COLORS.error |
-| 기타 | 8개 | 다양 |
 
 ---
 
@@ -173,4 +147,4 @@
 
 ---
 
-**다음 작업**: Phase 1.1 - hapticService 확장
+**다음 작업**: Phase 2.1 - soundService 구현 (사운드 파일 필요)
