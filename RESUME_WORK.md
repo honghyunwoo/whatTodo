@@ -18,11 +18,13 @@ claude/commercialize-project-cPmvt
 | JSON 동적 임포트 A1 | `a0d2d25` | ✅ 완료 |
 | JSON 동적 임포트 A2, B1, B2 | `7a58880` | ✅ 완료 |
 | Sentry 에러 모니터링 통합 | `bf9e8ac` | ✅ 완료 |
+| TypeScript 에러 수정 + ESLint v9 | `2b8021d` | ✅ 완료 |
 
 ### Phase 1 완료 요약
 - **번들 사이즈 최적화**: 192개 JSON 파일 동적 임포트 (737줄 → 367줄, 50% 감소)
 - **에러 모니터링**: Sentry 통합 완료 (`@sentry/react-native`)
 - **코드 품질**: console.log, setTimeout 정리, 애니메이션 상수화
+- **TypeScript**: 모든 타입 에러 수정, ESLint v9 flat config 마이그레이션
 
 ---
 
@@ -64,20 +66,33 @@ eas build:download --platform android
 
 ---
 
-## Sentry 설정 (빌드 후)
+## Sentry 설정 (빌드 성공 후)
 
+**참고**: Sentry 플러그인은 빌드 테스트를 위해 임시 제거됨.
+
+빌드 성공 후 Sentry 활성화:
 1. https://sentry.io 에서 프로젝트 생성
 2. DSN 발급받기
 3. `.env.local` 파일 생성:
 ```
 EXPO_PUBLIC_SENTRY_DSN=https://your-dsn@sentry.io/0
 ```
-4. `app.json`의 Sentry organization 수정
+4. `app.json`에 Sentry 플러그인 다시 추가:
+```json
+[
+  "@sentry/react-native/expo",
+  {
+    "organization": "YOUR_ACTUAL_ORG",
+    "project": "whattodo"
+  }
+]
+```
 
 ---
 
 ## 남은 Phase 2+ 작업
 
+- [ ] Sentry 계정 설정 및 활성화
 - [ ] 큰 컴포넌트 분리
 - [ ] Error Boundary 추가
 - [ ] Firebase Analytics 통합
@@ -94,9 +109,12 @@ cd /home/user/whatTodo
 # 2. 브랜치 확인
 git branch
 
-# 3. EAS 로그인
+# 3. 최신 코드 가져오기
+git pull origin claude/commercialize-project-cPmvt
+
+# 4. EAS 로그인
 eas login
 
-# 4. 빌드 시작
+# 5. 빌드 시작
 eas build --platform android --profile preview
 ```
