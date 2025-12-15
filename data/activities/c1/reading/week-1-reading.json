@@ -1,0 +1,63 @@
+{
+  "id": "week-1-reading",
+  "weekId": "week-1",
+  "type": "reading",
+  "level": "C1",
+  "title": "Academic Articles & Critical Analysis",
+  "description": "Read and analyze complex academic and professional texts.",
+
+  "passages": [
+    {
+      "id": "p1",
+      "title": "The Ethics of Artificial Intelligence",
+      "text": "The proliferation of artificial intelligence technologies presents unprecedented ethical challenges that require careful scrutiny. While proponents argue that AI systems can enhance decision-making processes and eliminate human biases, critics postulate that these technologies may merely encode and amplify existing societal prejudices in more subtle and therefore more pernicious ways.\n\nThe fundamental discrepancy between the promise and reality of AI lies in its inherent opacity. Unlike human decision-makers, whose reasoning can be interrogated and challenged, many AI systems operate as 'black boxes'—their decision-making processes are not readily amenable to scrutiny or explanation. This raises pertinent questions about accountability: if an AI system makes a decision that causes harm, who bears responsibility?\n\nMoreover, the empirical evidence regarding AI bias is increasingly difficult to reconcile with the technology industry's optimistic pronouncements. Studies have substantiated concerns that facial recognition systems exhibit significantly higher error rates for certain demographic groups, while hiring algorithms have been shown to perpetuate historical patterns of discrimination.\n\nA cogent argument can be made that the ethical deployment of AI requires not merely technical solutions but a fundamental paradigm shift in how we conceptualize the relationship between technology and society. This would necessitate moving beyond the narrow focus on efficiency and profitability to incorporate broader considerations of justice, equity, and human dignity.",
+      "translation": "인공지능 기술의 확산은 신중한 검토가 필요한 전례 없는 윤리적 과제를 제시합니다. 지지자들은 AI 시스템이 의사결정 과정을 향상시키고 인간의 편견을 제거할 수 있다고 주장하지만, 비평가들은 이러한 기술이 기존의 사회적 편견을 더 미묘하고 따라서 더 해로운 방식으로 단순히 부호화하고 증폭시킬 수 있다고 가정합니다.\n\nAI의 약속과 현실 사이의 근본적인 불일치는 그것의 본질적인 불투명성에 있습니다. 그들의 추론이 질문되고 도전받을 수 있는 인간 의사결정자와 달리, 많은 AI 시스템은 '블랙박스'로 작동합니다—그들의 의사결정 과정은 쉽게 검토하거나 설명할 수 없습니다. 이것은 책임에 관한 적절한 질문을 제기합니다: AI 시스템이 해를 끼치는 결정을 내린다면, 누가 책임을 지는가?\n\n더욱이, AI 편향에 관한 실증적 증거는 기술 산업의 낙관적인 발표와 점점 더 조화시키기 어렵습니다. 연구들은 안면 인식 시스템이 특정 인구 집단에 대해 상당히 높은 오류율을 보이고, 채용 알고리즘이 역사적 차별 패턴을 지속시키는 것으로 나타났다는 우려를 입증했습니다.\n\nAI의 윤리적 배치는 단순히 기술적 해결책이 아니라 기술과 사회 간의 관계를 어떻게 개념화하는지에 대한 근본적인 패러다임 전환을 요구한다는 설득력 있는 주장을 할 수 있습니다. 이것은 효율성과 수익성에 대한 좁은 초점을 넘어 정의, 형평성, 인간 존엄성에 대한 더 넓은 고려를 포함하도록 이동하는 것을 필요로 합니다.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the main ethical concern about AI mentioned in the passage?",
+          "options": [
+            "AI systems are too expensive",
+            "AI may encode and amplify societal prejudices",
+            "AI will replace all human jobs",
+            "AI is too complicated to use"
+          ],
+          "answer": "AI may encode and amplify societal prejudices"
+        },
+        {
+          "id": "q2",
+          "question": "What does the passage mean by AI systems operating as 'black boxes'?",
+          "options": [
+            "They are physically dark in color",
+            "They are stored in secure containers",
+            "Their decision-making processes are not easily explained",
+            "They only work in dark environments"
+          ],
+          "answer": "Their decision-making processes are not easily explained"
+        },
+        {
+          "id": "q3",
+          "question": "According to the passage, what has research shown about facial recognition?",
+          "options": [
+            "It works perfectly for everyone",
+            "It has higher error rates for certain demographic groups",
+            "It should be banned entirely",
+            "It only works on young people"
+          ],
+          "answer": "It has higher error rates for certain demographic groups"
+        },
+        {
+          "id": "q4",
+          "question": "What does the author argue is needed for ethical AI deployment?",
+          "options": [
+            "Better marketing strategies",
+            "More powerful computers",
+            "A paradigm shift beyond efficiency to include justice and equity",
+            "Fewer regulations"
+          ],
+          "answer": "A paradigm shift beyond efficiency to include justice and equity"
+        }
+      ]
+    }
+  ]
+}

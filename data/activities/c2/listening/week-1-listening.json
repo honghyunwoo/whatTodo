@@ -1,0 +1,95 @@
+{
+  "id": "week-1-listening",
+  "weekId": "week-1",
+  "type": "listening",
+  "level": "C2",
+  "title": "Scholarly Discourse & Literary Analysis",
+  "description": "Comprehend sophisticated academic discussions and literary critiques.",
+
+  "dialogues": [
+    {
+      "id": "d1",
+      "title": "Philosophy Seminar: Epistemological Foundations",
+      "context": "A graduate seminar discussing the foundations of knowledge.",
+      "transcript": "What I find particularly compelling about the poststructuralist critique is how it problematizes our most fundamental epistemological assumptions. The notion that language can transparently represent reality—what Derrida termed 'the metaphysics of presence'—has been thoroughly excoriated by subsequent scholarship. Yet this leaves us in a somewhat liminal position: if all interpretation is, in a sense, a palimpsest layered over other interpretations, how do we adjudicate between competing claims? Some scholars have sought to ameliorate this apparent impasse by arguing for a pragmatic approach—one that foregrounds efficacy over abstract truth claims. However perspicacious this solution may appear, it remains antithetical to our intuitive sense that some propositions are simply more verisimilar than others.",
+      "translation": "후기구조주의 비평에서 특히 설득력 있다고 생각하는 것은 그것이 우리의 가장 근본적인 인식론적 가정을 문제화하는 방식입니다. 언어가 현실을 투명하게 재현할 수 있다는 관념—데리다가 '현존의 형이상학'이라고 명명한 것—은 이후의 학문에 의해 철저히 비판받았습니다. 그러나 이것은 우리를 다소 경계적인 위치에 놓이게 합니다: 모든 해석이 어떤 의미에서 다른 해석 위에 겹쳐진 양피지 사본이라면, 우리는 경쟁하는 주장들 사이에서 어떻게 판단할 수 있을까요? 일부 학자들은 실용적 접근법을 주장함으로써 이 명백한 교착 상태를 개선하려고 시도했습니다—추상적 진리 주장보다 효능을 전면에 내세우는 접근법입니다. 이 해결책이 아무리 통찰력 있어 보일지라도, 일부 명제가 단순히 다른 것보다 더 진실다워 보인다는 우리의 직관적 감각과는 정반대입니다.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What does the speaker find compelling about poststructuralist critique?",
+          "options": [
+            "Its clear solutions to philosophical problems",
+            "How it problematizes fundamental epistemological assumptions",
+            "Its support for traditional metaphysics",
+            "Its practical applications"
+          ],
+          "answer": "How it problematizes fundamental epistemological assumptions"
+        },
+        {
+          "id": "q2",
+          "question": "What does 'liminal position' refer to in this context?",
+          "options": [
+            "A position of power",
+            "A boundary or threshold position between states",
+            "A final conclusion",
+            "A position of certainty"
+          ],
+          "answer": "A boundary or threshold position between states"
+        },
+        {
+          "id": "q3",
+          "question": "What problem does the pragmatic approach attempt to address?",
+          "options": [
+            "The cost of academic research",
+            "The impasse in adjudicating between competing interpretations",
+            "The lack of funding for philosophy",
+            "The difficulty of reading Derrida"
+          ],
+          "answer": "The impasse in adjudicating between competing interpretations"
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "title": "Literary Review: Contemporary Fiction",
+      "context": "A radio program discussing a newly published novel.",
+      "transcript": "The novel represents something of an apotheosis of the contemporary literary form—at once deeply rooted in tradition and prescient in its anticipation of future concerns. What distinguishes it from mere pastiche is its refusal to obfuscate complexity for the sake of accessibility. The author's prose is deliberately recondite, demanding active engagement from the reader. Some critics have been quick to excoriate this approach as elitist, but such criticism misses the point entirely. The novel's didactic aspirations are not about exclusion but about transformation—asking readers to expand their interpretive horizons. The verisimilitude of the historical sections is remarkable, though this only serves to heighten the ineffable quality of the more speculative passages. In this way, the text functions as a kind of palimpsest, with each reading revealing new layers of meaning.",
+      "translation": "이 소설은 현대 문학 형식의 극치를 나타냅니다—전통에 깊이 뿌리내리면서 동시에 미래의 관심사를 예견하는 선견지명이 있습니다. 단순한 모방작과 구별되는 것은 접근성을 위해 복잡성을 모호하게 하기를 거부한다는 점입니다. 저자의 산문은 의도적으로 난해하여 독자의 적극적인 참여를 요구합니다. 일부 비평가들은 이 접근법을 엘리트주의적이라고 빠르게 혹평했지만, 그러한 비판은 요점을 완전히 놓치고 있습니다. 소설의 교훈적 열망은 배제가 아니라 변화에 관한 것입니다—독자들에게 해석적 지평을 넓히도록 요청합니다. 역사적 부분의 진실다움은 놀랍지만, 이것은 더 사변적인 구절의 말로 표현할 수 없는 특질을 높이는 역할만 합니다. 이런 방식으로 텍스트는 일종의 양피지 사본처럼 기능하여 각 독서가 새로운 의미 층을 드러냅니다.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What does 'apotheosis' mean in this context?",
+          "options": [
+            "The beginning of a trend",
+            "A failure",
+            "The highest point or culmination",
+            "A contradiction"
+          ],
+          "answer": "The highest point or culmination"
+        },
+        {
+          "id": "q2",
+          "question": "Why do some critics excoriate the author's approach?",
+          "options": [
+            "The book is too short",
+            "They see it as elitist due to its complexity",
+            "The plot is predictable",
+            "The historical sections are inaccurate"
+          ],
+          "answer": "They see it as elitist due to its complexity"
+        },
+        {
+          "id": "q3",
+          "question": "How does the text function as a 'palimpsest'?",
+          "options": [
+            "It's written on old paper",
+            "Each reading reveals new layers of meaning",
+            "It copies other texts directly",
+            "It's difficult to read physically"
+          ],
+          "answer": "Each reading reveals new layers of meaning"
+        }
+      ]
+    }
+  ]
+}

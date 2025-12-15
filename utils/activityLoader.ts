@@ -254,6 +254,42 @@ import b2Week6Writing from '@/data/activities/b2/writing/week-6-writing.json';
 import b2Week7Writing from '@/data/activities/b2/writing/week-7-writing.json';
 import b2Week8Writing from '@/data/activities/b2/writing/week-8-writing.json';
 
+// C1 Vocabulary
+import c1Week1Vocab from '@/data/activities/c1/vocabulary/week-1-vocab.json';
+
+// C1 Grammar
+import c1Week1Grammar from '@/data/activities/c1/grammar/week-1-grammar.json';
+
+// C1 Listening
+import c1Week1Listening from '@/data/activities/c1/listening/week-1-listening.json';
+
+// C1 Reading
+import c1Week1Reading from '@/data/activities/c1/reading/week-1-reading.json';
+
+// C1 Speaking
+import c1Week1Speaking from '@/data/activities/c1/speaking/week-1-speaking.json';
+
+// C1 Writing
+import c1Week1Writing from '@/data/activities/c1/writing/week-1-writing.json';
+
+// C2 Vocabulary
+import c2Week1Vocab from '@/data/activities/c2/vocabulary/week-1-vocab.json';
+
+// C2 Grammar
+import c2Week1Grammar from '@/data/activities/c2/grammar/week-1-grammar.json';
+
+// C2 Listening
+import c2Week1Listening from '@/data/activities/c2/listening/week-1-listening.json';
+
+// C2 Reading
+import c2Week1Reading from '@/data/activities/c2/reading/week-1-reading.json';
+
+// C2 Speaking
+import c2Week1Speaking from '@/data/activities/c2/speaking/week-1-speaking.json';
+
+// C2 Writing
+import c2Week1Writing from '@/data/activities/c2/writing/week-1-writing.json';
+
 // ─────────────────────────────────────
 // CEFR 레벨 (types/activity.ts에서 import)
 // ─────────────────────────────────────
@@ -261,8 +297,8 @@ import b2Week8Writing from '@/data/activities/b2/writing/week-8-writing.json';
 // Re-export for backward compatibility
 export type { CEFRLevel };
 
-// 현재 앱에서 지원하는 레벨 (A1-B2, 향후 C1-C2 추가 예정)
-export const CEFR_LEVELS: CEFRLevel[] = ['A1', 'A2', 'B1', 'B2'];
+// 현재 앱에서 지원하는 레벨 (A1-C2 전체)
+export const CEFR_LEVELS: CEFRLevel[] = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 
 export const CEFR_LEVEL_INFO: Record<CEFRLevel, { name: string; description: string }> = {
   A1: { name: 'Beginner', description: 'Basic phrases and expressions' },
@@ -280,7 +316,6 @@ export const CEFR_LEVEL_INFO: Record<CEFRLevel, { name: string; description: str
 type ActivityData = Record<ActivityType, Record<string, Activity>>;
 type LevelActivityData = Record<CEFRLevel, ActivityData>;
 
- 
 const castActivity = <T>(data: any): T => data as T;
 
 const ACTIVITIES: LevelActivityData = {
@@ -532,22 +567,45 @@ const ACTIVITIES: LevelActivityData = {
       'week-8': castActivity<WritingActivity>(b2Week8Writing),
     },
   },
-  // C1/C2: 향후 콘텐츠 추가 예정
   C1: {
-    vocabulary: {},
-    grammar: {},
-    listening: {},
-    reading: {},
-    speaking: {},
-    writing: {},
+    vocabulary: {
+      'week-1': castActivity<VocabularyActivity>(c1Week1Vocab),
+    },
+    grammar: {
+      'week-1': castActivity<GrammarActivity>(c1Week1Grammar),
+    },
+    listening: {
+      'week-1': castActivity<ListeningActivity>(c1Week1Listening),
+    },
+    reading: {
+      'week-1': castActivity<ReadingActivity>(c1Week1Reading),
+    },
+    speaking: {
+      'week-1': castActivity<SpeakingActivity>(c1Week1Speaking),
+    },
+    writing: {
+      'week-1': castActivity<WritingActivity>(c1Week1Writing),
+    },
   },
   C2: {
-    vocabulary: {},
-    grammar: {},
-    listening: {},
-    reading: {},
-    speaking: {},
-    writing: {},
+    vocabulary: {
+      'week-1': castActivity<VocabularyActivity>(c2Week1Vocab),
+    },
+    grammar: {
+      'week-1': castActivity<GrammarActivity>(c2Week1Grammar),
+    },
+    listening: {
+      'week-1': castActivity<ListeningActivity>(c2Week1Listening),
+    },
+    reading: {
+      'week-1': castActivity<ReadingActivity>(c2Week1Reading),
+    },
+    speaking: {
+      'week-1': castActivity<SpeakingActivity>(c2Week1Speaking),
+    },
+    writing: {
+      'week-1': castActivity<WritingActivity>(c2Week1Writing),
+    },
   },
 };
 

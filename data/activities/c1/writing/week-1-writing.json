@@ -1,0 +1,96 @@
+{
+  "id": "week-1-writing",
+  "weekId": "week-1",
+  "type": "writing",
+  "level": "C1",
+  "title": "Academic Essays & Professional Reports",
+  "description": "Write sophisticated academic and professional texts with nuanced arguments.",
+
+  "exercises": [
+    {
+      "id": "wr1",
+      "type": "essay",
+      "title": "Argumentative Essay",
+      "prompt": "Some experts argue that artificial intelligence will fundamentally transform the job market, while others believe its impact will be more limited. Present a nuanced argument discussing both perspectives and your own position.",
+      "guidelines": [
+        "Write 250-350 words",
+        "Include an introduction with a clear thesis statement",
+        "Present at least two supporting arguments with evidence",
+        "Acknowledge counterarguments and address them",
+        "Use academic vocabulary appropriately",
+        "Conclude with a synthesis of your main points"
+      ],
+      "sampleOutline": {
+        "introduction": "Introduction presenting the debate and your thesis",
+        "body1": "First perspective: AI will fundamentally transform employment",
+        "body2": "Second perspective: Impact will be more limited than feared",
+        "body3": "Your nuanced position: reconciling both views",
+        "conclusion": "Synthesis and implications"
+      },
+      "vocabularyToInclude": ["unprecedented", "paradigm shift", "empirical", "postulate", "nuanced"],
+      "minWords": 250,
+      "maxWords": 350
+    },
+    {
+      "id": "wr2",
+      "type": "report",
+      "title": "Executive Summary",
+      "prompt": "Write an executive summary of a hypothetical research project that examined the relationship between remote work policies and employee productivity. Include key findings and recommendations.",
+      "guidelines": [
+        "Write 150-200 words",
+        "Begin with the purpose of the research",
+        "Present 2-3 key findings with supporting data",
+        "Provide actionable recommendations",
+        "Use formal, professional language",
+        "Be concise but comprehensive"
+      ],
+      "sampleOutline": {
+        "purpose": "This report delineates the findings of...",
+        "findings": "The empirical evidence substantiates...",
+        "recommendations": "Based on these findings, we recommend..."
+      },
+      "vocabularyToInclude": ["delineate", "substantiate", "empirical", "cogent", "pertinent"],
+      "minWords": 150,
+      "maxWords": 200
+    },
+    {
+      "id": "wr3",
+      "type": "critical_analysis",
+      "title": "Critical Response",
+      "prompt": "Read the following claim and write a critical response: 'Social media has had a predominantly negative impact on society and should be more heavily regulated.'",
+      "guidelines": [
+        "Write 200-280 words",
+        "Evaluate the claim's strengths and weaknesses",
+        "Consider counterarguments and alternative perspectives",
+        "Support your analysis with reasoning and examples",
+        "Reach a balanced, nuanced conclusion"
+      ],
+      "sampleOutline": {
+        "evaluation": "While this claim has some merit, it requires scrutiny...",
+        "counterpoints": "However, empirical evidence suggests a more nuanced picture...",
+        "synthesis": "A more cogent argument would acknowledge both..."
+      },
+      "vocabularyToInclude": ["scrutinize", "nuanced", "cogent", "discrepancy", "reconcile"],
+      "minWords": 200,
+      "maxWords": 280
+    }
+  ],
+
+  "usefulPhrases": {
+    "introducing_arguments": [
+      "It could be postulated that...",
+      "Empirical evidence suggests that...",
+      "A cogent argument can be made that..."
+    ],
+    "acknowledging_complexity": [
+      "This issue is inherently complex...",
+      "A more nuanced view would suggest...",
+      "The discrepancy between X and Y indicates..."
+    ],
+    "concluding": [
+      "To reconcile these perspectives...",
+      "The synthesis of these findings suggests...",
+      "The evidence substantiates the view that..."
+    ]
+  }
+}
