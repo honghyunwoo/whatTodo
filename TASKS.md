@@ -74,9 +74,9 @@
 - [ ] `_ctx.web.js` 패치 파일 생성
 - [ ] postinstall 스크립트 추가
 
-### 3.2 ESLint 설정 수정
-- [ ] ESLint 9.x 호환 설정으로 업데이트
-- [ ] pre-commit hook 정상화
+### 3.2 ESLint 설정 수정 ✅
+- [x] ESLint 9.x 호환 설정으로 업데이트 (flat config)
+- [x] pre-commit hook 정상화
 
 ---
 
@@ -129,6 +129,10 @@
   - CEFRLevel C1/C2 확장
   - loadActivity/loadWeekActivities 호출 수정
   - LevelTestView/WritingFeedback 타입 수정
+- [x] Phase 3.2 ESLint 9.x flat config 마이그레이션 완료
+  - eslint.config.js 생성 (flat config 형식)
+  - Node.js globals 지원 추가
+  - react/no-unescaped-entities 에러 수정
 - [x] EAS Build 동적 import 에러 수정 (activityLoader.ts 정적 import로 변경)
 - [x] .npmrc 추가 (peer dependency 충돌 해결)
 
