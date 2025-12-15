@@ -117,9 +117,12 @@
 - [ ] Android 위젯 구현
 - [ ] iOS 위젯 구현 (WidgetKit)
 
-### 4.3 C1/C2 레벨 콘텐츠
-- [ ] C1 레벨 학습 데이터 추가 (8주 × 6영역)
-- [ ] C2 레벨 학습 데이터 추가 (8주 × 6영역)
+### 4.3 C1/C2 레벨 콘텐츠 (진행 중)
+- [x] C1 Week 1 학습 데이터 추가 (6영역: vocabulary, grammar, listening, reading, speaking, writing)
+- [x] C2 Week 1 학습 데이터 추가 (6영역: vocabulary, grammar, listening, reading, speaking, writing)
+- [x] activityLoader.ts에 C1/C2 imports 등록 및 CEFR_LEVELS 업데이트
+- [ ] C1 Week 2-8 학습 데이터 추가 (7주 × 6영역 = 42파일)
+- [ ] C2 Week 2-8 학습 데이터 추가 (7주 × 6영역 = 42파일)
 
 ---
 
@@ -146,6 +149,10 @@
 ## 완료된 작업
 
 ### 2025-12-15
+- [x] Phase 4.3 C1/C2 Week 1 콘텐츠 추가
+  - C1 Week 1 (6파일): 학술적 어휘, 혼합 가정법/도치/가정법, 학술 강연/비즈니스 발표, 윤리 관련 읽기, 학술 토론 말하기, 에세이/보고서/비평 쓰기
+  - C2 Week 1 (6파일): 학문적 어휘 (epistemological, perspicacious 등), 수사적 도치/분열문/가정법, 철학 세미나/문학 비평, 비판 이론 읽기, 철학적 담론 말하기, 비평 에세이/본문 주해 쓰기
+  - activityLoader.ts 업데이트 (C1/C2 imports, CEFR_LEVELS에 C1/C2 추가)
 - [x] Phase 4.1 푸시 알림 시스템 구현 완료
   - expo-notifications, expo-device 설치
   - notificationService 생성 (학습 리마인더, 스트릭 경고, 마일스톤 축하)
@@ -190,4 +197,4 @@
 
 ---
 
-**다음 작업**: Phase 4.2 - 위젯 지원 또는 Phase 4.3 - C1/C2 레벨 콘텐츠
+**다음 작업**: Phase 4.3 계속 - C1/C2 Week 2-8 콘텐츠 추가 (84파일 남음)
