@@ -1,3 +1,13 @@
+/**
+ * Quiz View - Phase 0.5 Enhanced
+ * 퀴즈 뷰 with 콤보 시스템 & Variable Reward
+ *
+ * 개선 사항:
+ * 1. Combo System - 연속 정답 추적
+ * 2. XP Popup - 획득 XP 시각화
+ * 3. Enhanced Feedback - feedbackService 통합
+ */
+
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import { Button, Card, Text } from 'react-native-paper';
@@ -9,11 +19,14 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { Exercise, QuizResult } from '@/types/activity';
-import { learnHaptics } from '@/services/hapticService';
+import { feedbackService } from '@/services/feedbackService';
+import { selectPraise, selectWrongMessage, calculateXP } from '@/constants/rewards';
+import { ComboIndicator } from './ComboIndicator';
+import { XPPopup } from '@/components/common/XPPopup';
 
 interface QuizViewProps {
   exercises: Exercise[];
-  onComplete: (results: QuizResult[]) => void;
+  onComplete: (results: QuizResult[], totalXP: number) => void;
 }
 
 interface AnswerState {
@@ -35,6 +48,15 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
   const [showFeedback, setShowFeedback] = useState(false);
   const feedbackRef = useRef<LottieView>(null);
 
+  // Combo & XP State
+  const [combo, setCombo] = useState(0);
+  const [totalXP, setTotalXP] = useState(0);
+  const [showXP, setShowXP] = useState(false);
+  const [currentXP, setCurrentXP] = useState(0);
+  const [xpVariant, setXpVariant] = useState<'normal' | 'bonus' | 'double' | 'jackpot'>('normal');
+  const [praiseText, setPraiseText] = useState('');
+  const [praiseEmoji, setPraiseEmoji] = useState('');
+
   const currentExercise = exercises[currentIndex];
   const isLastQuestion = currentIndex === exercises.length - 1;
   const progress = ((currentIndex + 1) / exercises.length) * 100;
@@ -42,6 +64,7 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
   useEffect(() => {
     setStartTime(Date.now());
     setShowFeedback(false);
+    setShowXP(false);
   }, [currentIndex]);
 
   const handleSelectAnswer = useCallback(
@@ -50,12 +73,59 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
 
       const isCorrect = answer === currentExercise.answer;
       const timeSpent = Math.round((Date.now() - startTime) / 1000);
+      const answerTimeMs = Date.now() - startTime;
 
-      // Haptic feedback
+      // Update combo
+      const newCombo = isCorrect ? combo + 1 : 0;
+      setCombo(newCombo);
+
+      // Feedback & XP calculation
       if (isCorrect) {
-        await learnHaptics.correct();
+        // Select praise message (Variable Reward)
+        const praise = selectPraise({
+          streak: newCombo,
+          answerTimeMs,
+          isFirstAnswer: currentIndex === 0,
+          isPerfectScore: false,
+        });
+        setPraiseText(praise.text);
+        setPraiseEmoji(praise.emoji);
+
+        // Calculate XP
+        const xpResult = calculateXP(10, newCombo, praise);
+        setCurrentXP(xpResult.totalXP);
+        setTotalXP((prev) => prev + xpResult.totalXP);
+
+        // Determine XP variant for animation
+        if (xpResult.bonusXP >= 20) {
+          setXpVariant('jackpot');
+        } else if (xpResult.bonusXP >= 10) {
+          setXpVariant('double');
+        } else if (xpResult.bonusXP > 0) {
+          setXpVariant('bonus');
+        } else {
+          setXpVariant('normal');
+        }
+
+        // Trigger feedback based on praise type
+        if (praise.sound === 'bonus' || praise.bonusXP) {
+          await feedbackService.bonus();
+        } else if (praise.sound === 'combo') {
+          await feedbackService.combo();
+        } else if (praise.sound === 'amazing') {
+          await feedbackService.levelUp();
+        } else {
+          await feedbackService.success();
+        }
+
+        // Show XP popup after a short delay
+        setTimeout(() => setShowXP(true), 200);
       } else {
-        await learnHaptics.wrong();
+        // Wrong answer
+        const wrongMsg = selectWrongMessage();
+        setPraiseText(wrongMsg.text);
+        setPraiseEmoji(wrongMsg.emoji);
+        await feedbackService.wrong();
       }
 
       setShowFeedback(true);
@@ -75,12 +145,12 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
         showExplanation: true,
       });
     },
-    [answerState.selected, currentExercise, startTime]
+    [answerState.selected, currentExercise, startTime, combo, currentIndex]
   );
 
   const handleNext = useCallback(() => {
     if (isLastQuestion) {
-      onComplete(results);
+      onComplete(results, totalXP);
     } else {
       setCurrentIndex((prev) => prev + 1);
       setAnswerState({
@@ -89,7 +159,7 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
         showExplanation: false,
       });
     }
-  }, [isLastQuestion, onComplete, results]);
+  }, [isLastQuestion, onComplete, results, totalXP]);
 
   const getOptionStyle = useCallback(
     (option: string) => {
@@ -149,20 +219,74 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
             style={styles.feedbackAnimation}
             loop={false}
           />
+
+          {/* Praise Message */}
+          <MotiView
+            from={{ opacity: 0, translateY: 20 }}
+            animate={{ opacity: 1, translateY: 0 }}
+            transition={{ delay: 200 }}
+            style={styles.praiseContainer}
+          >
+            <Text style={styles.praiseEmoji}>{praiseEmoji}</Text>
+            <Text
+              style={[
+                styles.praiseText,
+                { color: answerState.isCorrect ? COLORS.success : COLORS.danger },
+              ]}
+            >
+              {praiseText}
+            </Text>
+          </MotiView>
+
+          {/* XP Popup */}
+          {showXP && answerState.isCorrect && (
+            <XPPopup
+              amount={currentXP}
+              visible={showXP}
+              variant={xpVariant}
+              onComplete={() => setShowXP(false)}
+            />
+          )}
         </Animated.View>
       )}
 
-      {/* 진행률 바 */}
-      <View style={[styles.progressContainer, { backgroundColor: isDark ? '#38383A' : COLORS.border }]}>
-        <MotiView
-          animate={{ width: `${progress}%` }}
-          transition={{ type: 'timing', duration: 300 }}
-          style={[styles.progressBar, { backgroundColor: COLORS.primary }]}
-        />
+      {/* 상단: 진행률 & 콤보 */}
+      <View style={styles.header}>
+        <View style={styles.progressSection}>
+          <View
+            style={[
+              styles.progressContainer,
+              { backgroundColor: isDark ? '#38383A' : COLORS.border },
+            ]}
+          >
+            <MotiView
+              animate={{ width: `${progress}%` }}
+              transition={{ type: 'timing', duration: 300 }}
+              style={[styles.progressBar, { backgroundColor: COLORS.primary }]}
+            />
+          </View>
+          <Text style={[styles.progressText, { color: colors.textSecondary }]}>
+            {currentIndex + 1} / {exercises.length}
+          </Text>
+        </View>
+
+        {/* 콤보 표시 (2 이상일 때만) */}
+        {combo >= 2 && (
+          <ComboIndicator
+            count={combo}
+            isOnFire={combo >= 3}
+            isBurning={combo >= 5}
+            isLegendary={combo >= 10}
+          />
+        )}
       </View>
-      <Text style={[styles.progressText, { color: colors.textSecondary }]}>
-        {currentIndex + 1} / {exercises.length}
-      </Text>
+
+      {/* XP 누적 표시 */}
+      {totalXP > 0 && (
+        <View style={[styles.xpBadge, { backgroundColor: isDark ? '#2C2C2E' : '#FFF8E1' }]}>
+          <Text style={styles.xpBadgeText}>✨ {totalXP} XP</Text>
+        </View>
+      )}
 
       {/* 질문 */}
       <MotiView
@@ -171,7 +295,9 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ type: 'timing', duration: 300 }}
       >
-        <Card style={[styles.questionCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}>
+        <Card
+          style={[styles.questionCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
+        >
           <Card.Content>
             <Text style={[styles.question, { color: colors.text }]}>
               {currentExercise.question}
@@ -210,12 +336,19 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
           animate={{ opacity: 1, translateY: 0 }}
           transition={{ type: 'spring', damping: 15 }}
         >
-          <Card style={[styles.explanationCard, { backgroundColor: isDark ? '#1C1C1E' : COLORS.background }]}>
+          <Card
+            style={[
+              styles.explanationCard,
+              { backgroundColor: isDark ? '#1C1C1E' : COLORS.background },
+            ]}
+          >
             <Card.Content>
-              <Text style={[
-                styles.explanationLabel,
-                { color: answerState.isCorrect ? COLORS.success : COLORS.danger }
-              ]}>
+              <Text
+                style={[
+                  styles.explanationLabel,
+                  { color: answerState.isCorrect ? COLORS.success : COLORS.danger },
+                ]}
+              >
                 {answerState.isCorrect ? '🎉 정답입니다!' : '😢 오답입니다'}
               </Text>
               <Text style={[styles.explanationText, { color: colors.text }]}>
@@ -247,15 +380,51 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: SIZES.spacing.md,
   },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginBottom: SIZES.spacing.md,
+  },
+  progressSection: {
+    flex: 1,
+    marginRight: SIZES.spacing.md,
+  },
   feedbackOverlay: {
     ...StyleSheet.absoluteFillObject,
     justifyContent: 'center',
     alignItems: 'center',
     zIndex: 100,
+    backgroundColor: 'rgba(0, 0, 0, 0.3)',
   },
   feedbackAnimation: {
     width: 150,
     height: 150,
+  },
+  praiseContainer: {
+    alignItems: 'center',
+    marginTop: SIZES.spacing.md,
+  },
+  praiseEmoji: {
+    fontSize: 32,
+    marginBottom: SIZES.spacing.xs,
+  },
+  praiseText: {
+    fontSize: 18,
+    fontWeight: '700',
+    textAlign: 'center',
+  },
+  xpBadge: {
+    alignSelf: 'flex-end',
+    paddingHorizontal: SIZES.spacing.sm,
+    paddingVertical: 4,
+    borderRadius: SIZES.borderRadius.md,
+    marginBottom: SIZES.spacing.sm,
+  },
+  xpBadgeText: {
+    fontSize: 12,
+    fontWeight: '600',
+    color: COLORS.warning,
   },
   correctOption: {
     backgroundColor: COLORS.success + '20',
@@ -319,7 +488,6 @@ const styles = StyleSheet.create({
   progressText: {
     color: COLORS.textSecondary,
     fontSize: SIZES.fontSize.sm,
-    marginBottom: SIZES.spacing.md,
     textAlign: 'right',
   },
   question: {

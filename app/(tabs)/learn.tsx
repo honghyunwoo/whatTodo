@@ -1,14 +1,23 @@
+/**
+ * Learn Screen - Phase 0.5 Enhanced
+ * 학습 화면 with DailyGoalProgress & StreakWarning
+ */
+
 import { router } from 'expo-router';
-import React, { useCallback, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
 import { IconButton, Modal, Portal, Text } from 'react-native-paper';
 
 import { ActivityCard, StatsView, WeekSelector } from '@/components/learn';
 import { BadgeShowcase } from '@/components/reward';
+import { DailyGoalProgress, StreakWarning } from '@/components/common';
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { useLearnStore } from '@/store/learnStore';
 import { useSrsStore } from '@/store/srsStore';
+import { useStreakStore } from '@/store/streakStore';
+import { useUserStore } from '@/store/userStore';
+import { useRewardStore } from '@/store/rewardStore';
 import { ActivityType } from '@/types/activity';
 import { loadWeekActivities } from '@/utils/activityLoader';
 
@@ -28,6 +37,17 @@ export default function LearnScreen() {
   const storeWeekProgress = useLearnStore((state) => state.weekProgress);
   const currentLevel = useLearnStore((state) => state.currentLevel);
 
+  // Streak store
+  const streak = useStreakStore((state) => state.currentStreak);
+  const checkStreak = useStreakStore((state) => state.checkStreak);
+  const shouldShowWarning = useStreakStore((state) => state.shouldShowWarning);
+
+  // User store
+  const dailyGoal = useUserStore((state) => state.dailyGoal);
+
+  // Reward store for XP
+  const stars = useRewardStore((state) => state.stars);
+
   // SRS 복습 대기 수
   const getWordsForReview = useSrsStore((state) => state.getWordsForReview);
   const dueCount = useMemo(() => getWordsForReview().length, [getWordsForReview]);
@@ -35,6 +55,25 @@ export default function LearnScreen() {
   // 모달 상태
   const [showStats, setShowStats] = useState(false);
   const [showBadges, setShowBadges] = useState(false);
+  const [showStreakWarning, setShowStreakWarning] = useState(false);
+
+  // Check streak on mount
+  useEffect(() => {
+    checkStreak();
+    // Check if we should show streak warning
+    if (shouldShowWarning()) {
+      setShowStreakWarning(true);
+    }
+  }, [checkStreak, shouldShowWarning]);
+
+  // Calculate lessons completed today (simplified - count activities completed today)
+  const lessonsToday = useMemo(() => {
+    const today = new Date().toDateString();
+    return progress.filter((p) => {
+      if (!p.lastAttempt) return false;
+      return new Date(p.lastAttempt).toDateString() === today && p.completed;
+    }).length;
+  }, [progress]);
 
   // 현재 주차의 활동 로드
   const weekActivities = useMemo(() => {
@@ -47,9 +86,7 @@ export default function LearnScreen() {
     for (let i = 1; i <= 8; i++) {
       const weekId = `week-${i}`;
       const week = storeWeekProgress.find((w) => w.weekId === weekId);
-      progressMap[weekId] = week
-        ? Math.round((week.activitiesCompleted.length / 6) * 100)
-        : 0;
+      progressMap[weekId] = week ? Math.round((week.activitiesCompleted.length / 6) * 100) : 0;
     }
     return progressMap;
   }, [storeWeekProgress]);
@@ -89,10 +126,33 @@ export default function LearnScreen() {
     router.push('/review');
   }, []);
 
+  const handleStartLearning = useCallback(() => {
+    setShowStreakWarning(false);
+    // Navigate to first incomplete activity
+    for (const type of ACTIVITY_TYPES) {
+      const { completed } = getActivityProgress(type);
+      if (!completed) {
+        handleActivityPress(type);
+        return;
+      }
+    }
+    // All complete, go to first activity
+    handleActivityPress(ACTIVITY_TYPES[0]);
+  }, [getActivityProgress, handleActivityPress]);
+
   const currentProgress = weekProgress[currentWeek] || 0;
 
   return (
     <View style={styles.container}>
+      {/* Daily Goal Progress - New Feature */}
+      <DailyGoalProgress
+        lessonsCompleted={lessonsToday}
+        dailyGoal={dailyGoal}
+        xpToday={stars}
+        streak={streak}
+        onPress={() => setShowStats(true)}
+      />
+
       <View style={styles.header}>
         <View style={styles.headerTop}>
           <View>
@@ -119,10 +179,7 @@ export default function LearnScreen() {
 
         {/* Quick Actions */}
         <View style={styles.quickActions}>
-          <TouchableOpacity
-            style={styles.actionButton}
-            onPress={handleLevelTest}
-          >
+          <TouchableOpacity style={styles.actionButton} onPress={handleLevelTest}>
             <IconButton
               icon="clipboard-check-outline"
               iconColor={COLORS.surface}
@@ -170,9 +227,7 @@ export default function LearnScreen() {
 
       <ScrollView style={styles.content} contentContainerStyle={styles.contentContainer}>
         <View style={styles.progressSection}>
-          <Text style={styles.progressLabel}>
-            {currentWeek.replace('week-', '')}주차 진행률
-          </Text>
+          <Text style={styles.progressLabel}>{currentWeek.replace('week-', '')}주차 진행률</Text>
           <View style={styles.progressBarContainer}>
             <View style={[styles.progressBar, { width: `${currentProgress}%` }]} />
           </View>
@@ -220,6 +275,13 @@ export default function LearnScreen() {
           <BadgeShowcase onClose={() => setShowBadges(false)} />
         </Modal>
       </Portal>
+
+      {/* Streak Warning Modal */}
+      <StreakWarning
+        visible={showStreakWarning}
+        onDismiss={() => setShowStreakWarning(false)}
+        onStartLearning={handleStartLearning}
+      />
     </View>
   );
 }
@@ -284,7 +346,7 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.surface,
     paddingBottom: SIZES.spacing.md,
     paddingHorizontal: SIZES.spacing.md,
-    paddingTop: SIZES.spacing.xl,
+    paddingTop: SIZES.spacing.md,
   },
   headerActions: {
     flexDirection: 'row',
