@@ -21,6 +21,7 @@ import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { useLearnStore } from '@/store/learnStore';
 import { useStreakStore } from '@/store/streakStore';
+import { notificationService } from '@/services/notificationService';
 import {
   ActivityType,
   GrammarActivity,
@@ -89,18 +90,21 @@ export default function ActivityDetailScreen() {
   }, [type, weekId, currentLevel]);
 
   const handleComplete = useCallback(
-    (score: number, xpEarned?: number) => {
+    async (score: number, xpEarned?: number) => {
       if (activity && weekId && type) {
         markActivityComplete(activity.id, weekId, type as ActivityType, score);
         updateStreak(); // Update streak on completion
       }
+
+      // Handle notification updates
+      await notificationService.onLearningComplete(streak + 1);
 
       // Show completion modal
       setSessionScore(score);
       setSessionXP(xpEarned || Math.round(score / 10) * 10); // Fallback XP calculation
       setShowCompleteModal(true);
     },
-    [activity, weekId, type, markActivityComplete, updateStreak]
+    [activity, weekId, type, markActivityComplete, updateStreak, streak]
   );
 
   const handleOneMore = useCallback(() => {

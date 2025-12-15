@@ -11,6 +11,7 @@ import { createJSONStorage, persist } from 'zustand/middleware';
 
 import { STORAGE_KEYS } from '@/constants/storage';
 import { ActivityType } from '@/types/activity';
+import { notificationService, ReminderSettings } from '@/services/notificationService';
 
 // ─────────────────────────────────────
 // Types
@@ -28,6 +29,9 @@ interface UserState {
   notificationsEnabled: boolean;
   soundEnabled: boolean;
   hapticEnabled: boolean;
+
+  // 알림 설정
+  reminderSettings: ReminderSettings;
 
   // 학습 통계 (빠른 접근용)
   totalDaysStudied: number;
@@ -48,6 +52,10 @@ interface UserActions {
   toggleNotifications: () => void;
   toggleSound: () => void;
   toggleHaptic: () => void;
+
+  // 알림 설정
+  setReminderSettings: (settings: ReminderSettings) => Promise<void>;
+  initializeNotifications: () => Promise<boolean>;
 
   // 학습 기록
   recordStudyDay: () => void;
@@ -74,6 +82,11 @@ const DEFAULT_STATE: UserState = {
   notificationsEnabled: true,
   soundEnabled: true,
   hapticEnabled: true,
+  reminderSettings: {
+    enabled: true,
+    hour: 9, // 오전 9시 기본값
+    minute: 0,
+  },
   totalDaysStudied: 0,
   firstStudyDate: null,
   skillScores: {},
@@ -147,6 +160,33 @@ export const useUserStore = create<UserState & UserActions>()(
        */
       toggleHaptic: () => {
         set((state) => ({ hapticEnabled: !state.hapticEnabled }));
+      },
+
+      /**
+       * 알림 설정 변경
+       */
+      setReminderSettings: async (settings: ReminderSettings) => {
+        set({ reminderSettings: settings });
+        // 알림 스케줄링
+        if (settings.enabled) {
+          await notificationService.scheduleDailyReminder(settings);
+        } else {
+          await notificationService.cancelDailyReminder();
+        }
+      },
+
+      /**
+       * 알림 초기화 (앱 시작 시 호출)
+       */
+      initializeNotifications: async () => {
+        const hasPermission = await notificationService.initialize();
+        if (hasPermission) {
+          const { reminderSettings } = get();
+          if (reminderSettings.enabled) {
+            await notificationService.scheduleDailyReminder(reminderSettings);
+          }
+        }
+        return hasPermission;
       },
 
       /**

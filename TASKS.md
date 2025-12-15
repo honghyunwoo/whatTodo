@@ -14,6 +14,26 @@
 
 ---
 
+## Phase 0.5: 심리학 기반 참여 시스템 ✅ 완료
+
+### 0.5.1 감각 피드백 시스템 ✅
+- [x] feedbackService 생성 (햅틱 + 사운드 통합)
+- [x] soundService graceful degradation (사운드 파일 없어도 작동)
+- [x] SessionCompleteModal ("한 레슨 더?" Action Prompt)
+
+### 0.5.2 동기부여 UI ✅
+- [x] DailyGoalProgress (Goal Gradient Effect)
+- [x] StreakWarning (Loss Aversion)
+- [x] XPPopup (Variable Reward 시각화)
+- [x] ComboIndicator (연속 정답 표시)
+
+### 0.5.3 심리학 시스템 ✅
+- [x] Combo System (연속 정답 추적)
+- [x] Variable Reward (selectPraise, calculateXP)
+- [x] QuizView/VocabularyView/GrammarView 통합
+
+---
+
 ## Phase 1: 코드 안정화 (TypeScript 에러 수정) ✅ 완료
 
 ### 1.1 hapticService 확장 ✅
@@ -50,8 +70,9 @@
 
 ## Phase 2: 기능 완성
 
-### 2.1 soundService 구현
-- [ ] 사운드 파일 추가 (`assets/sounds/`)
+### 2.1 soundService 구현 (부분 완료)
+- [x] soundService.ts graceful degradation 구현
+- [ ] 사운드 파일 추가 (`assets/sounds/`) - 선택사항
   - [ ] correct.mp3
   - [ ] wrong.mp3
   - [ ] card-flip.mp3
@@ -59,11 +80,14 @@
   - [ ] achievement.mp3
   - [ ] task-complete.mp3
   - [ ] tap.mp3
-- [ ] soundService.ts 주석 해제 및 활성화
+- 참고: 사운드 파일 없이도 앱 정상 작동 (햅틱 피드백만 제공)
 
-### 2.2 오프라인 지원 강화
-- [ ] AsyncStorage 데이터 동기화
-- [ ] 오프라인 상태 감지 및 UI 표시
+### 2.2 오프라인 지원 강화 ✅ N/A
+- 참고: 앱이 이미 완전 오프라인-first 아키텍처
+  - 모든 데이터 AsyncStorage 로컬 저장
+  - API 호출 없음
+  - TTS도 디바이스 내장 엔진 사용 (expo-speech)
+- 네트워크 상태 표시는 불필요 (앱이 항상 오프라인 작동)
 
 ---
 
@@ -121,6 +145,15 @@
 ## 완료된 작업
 
 ### 2025-12-15
+- [x] Phase 0.5 심리학 기반 참여 시스템 구현 완료
+  - SessionCompleteModal ("한 레슨 더?" 유도)
+  - DailyGoalProgress (일일 목표 시각화)
+  - ComboIndicator (연속 정답 콤보 표시)
+  - XPPopup (획득 XP 팝업)
+  - StreakWarning (스트릭 유지 경고)
+  - feedbackService 통합 (햅틱 + 사운드)
+  - Variable Reward 시스템 (selectPraise, calculateXP)
+  - QuizView/VocabularyView/GrammarView 콤보 시스템 통합
 - [x] Phase 1 전체 완료 (TypeScript 에러 58개 → 0개)
   - hapticService 확장 (selection, impact 메서드)
   - COLORS.error 추가
@@ -151,4 +184,4 @@
 
 ---
 
-**다음 작업**: Phase 2.1 - soundService 구현 (사운드 파일 필요)
+**다음 작업**: Phase 4.1 - 푸시 알림 (학습 리마인더, 스트릭 유지 알림)
