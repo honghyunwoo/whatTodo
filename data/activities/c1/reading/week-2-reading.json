@@ -1,0 +1,100 @@
+{
+  "id": "c1-reading-week-2",
+  "type": "reading",
+  "level": "C1",
+  "weekId": "week-2",
+  "title": "The Paradox of Choice",
+  "description": "Analyzing argumentative academic texts on decision-making psychology",
+  "estimatedMinutes": 25,
+  "xpReward": 50,
+  "passage": {
+    "title": "When More Is Less: The Paradox of Choice in Modern Consumer Societies",
+    "author": "Adapted from academic sources",
+    "paragraphs": [
+      "In contemporary capitalist economies, an abundance of consumer choice is typically championed as an unequivocal good—a manifestation of individual liberty and market efficiency. Yet emerging research in behavioral economics and psychology suggests a more nuanced reality. The 'paradox of choice,' a term popularized by psychologist Barry Schwartz, posits that while some degree of choice is essential for autonomy and well-being, an overabundance of options can paradoxically lead to diminished satisfaction, increased anxiety, and decision paralysis.",
+      "The empirical foundations of this theory rest on numerous studies demonstrating the deleterious effects of excessive choice. In one seminal experiment, researchers set up a display of gourmet jams at a grocery store, alternating between offering 24 varieties and 6 varieties. While the larger display attracted more initial interest, customers presented with fewer options were nearly ten times more likely to make a purchase. This counterintuitive finding challenges the classical economic assumption that more choices invariably enhance utility.",
+      "Critics of the paradox-of-choice hypothesis contend that its applicability may be limited to specific contexts and personality types. Some individuals, termed 'maximizers,' who habitually seek the optimal choice, appear more susceptible to choice overload than 'satisficers,' who select options meeting a minimum threshold of acceptability. Moreover, domain expertise moderates the effect: consumers with well-defined preferences in a given category often navigate extensive options with relative ease.",
+      "The implications of this research extend beyond individual consumer behavior to broader questions of public policy and institutional design. Should regulators limit the proliferation of product varieties in the interest of consumer welfare? How might digital interfaces be designed to mitigate the cognitive burden of excessive choice? These questions invite ongoing interdisciplinary dialogue between economists, psychologists, and policymakers."
+    ]
+  },
+  "questions": [
+    {
+      "id": "c1-r2-q1",
+      "type": "main-idea",
+      "question": "What is the central thesis of this passage?",
+      "options": [
+        "Consumer choice is always beneficial for market efficiency",
+        "Excessive choice can have negative psychological effects despite seeming beneficial",
+        "All consumers prefer fewer options when shopping",
+        "Government regulation should eliminate consumer choice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage argues that 'overabundance of options can paradoxically lead to diminished satisfaction'"
+    },
+    {
+      "id": "c1-r2-q2",
+      "type": "detail",
+      "question": "What did the jam experiment reveal?",
+      "options": [
+        "More varieties always lead to more purchases",
+        "Customers preferred expensive jams",
+        "Fewer options resulted in significantly more purchases",
+        "Display location affected sales more than variety"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Customers with fewer options 'were nearly ten times more likely to make a purchase'"
+    },
+    {
+      "id": "c1-r2-q3",
+      "type": "inference",
+      "question": "Based on the passage, a 'satisficer' shopping for a laptop would most likely:",
+      "options": [
+        "Research every available model before deciding",
+        "Experience severe choice paralysis",
+        "Choose the first option meeting their basic needs",
+        "Always select the most expensive option"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Satisficers 'select options meeting a minimum threshold of acceptability'"
+    },
+    {
+      "id": "c1-r2-q4",
+      "type": "vocabulary",
+      "question": "In the context of the passage, 'deleterious' most nearly means:",
+      "options": [
+        "Beneficial",
+        "Neutral",
+        "Harmful",
+        "Surprising"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Deleterious effects' refers to negative/harmful consequences of excessive choice"
+    },
+    {
+      "id": "c1-r2-q5",
+      "type": "critical-thinking",
+      "question": "What limitation of the paradox-of-choice theory does the author acknowledge?",
+      "options": [
+        "It only applies to food purchases",
+        "Its applicability varies by individual type and expertise",
+        "It has never been tested empirically",
+        "It only applies to online shopping"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage notes that 'maximizers' and 'satisficers' respond differently, and 'domain expertise moderates the effect'"
+    },
+    {
+      "id": "c1-r2-q6",
+      "type": "structure",
+      "question": "How is the passage primarily organized?",
+      "options": [
+        "Chronological narration of events",
+        "Presentation of a thesis, evidence, counterarguments, and implications",
+        "Comparison of two opposing theories",
+        "Step-by-step instructions for making decisions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage presents the paradox theory, provides empirical evidence, addresses criticisms, and discusses implications"
+    }
+  ]
+}

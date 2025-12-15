@@ -1,0 +1,108 @@
+{
+  "id": "c1-listening-week-2",
+  "type": "listening",
+  "level": "C1",
+  "weekId": "week-2",
+  "title": "Conference Presentations",
+  "description": "Understanding formal academic presentations and panel discussions",
+  "estimatedMinutes": 25,
+  "xpReward": 50,
+  "passages": [
+    {
+      "id": "c1-l2-p1",
+      "title": "Research Methodology Critique",
+      "context": "Academic conference panel discussion",
+      "transcript": "Thank you for that insightful presentation. I'd like to raise a methodological concern, however. While your longitudinal approach is commendable, I wonder whether the sample size—particularly in the control group—is sufficiently robust to support such broad generalizations. The correlation you've identified is intriguing, but couldn't it be attributed to confounding variables that weren't adequately controlled for? I'm thinking specifically about socioeconomic factors that may have influenced participant responses.",
+      "audioDescription": "A professor poses critical questions after a conference presentation",
+      "questions": [
+        {
+          "id": "c1-l2-p1-q1",
+          "question": "What is the speaker's main concern about the research?",
+          "options": [
+            "The topic selection was inappropriate",
+            "The sample size may be inadequate",
+            "The presentation was too long",
+            "The research was conducted too quickly"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The speaker questions 'whether the sample size is sufficiently robust'"
+        },
+        {
+          "id": "c1-l2-p1-q2",
+          "question": "What alternative explanation does the speaker suggest?",
+          "options": [
+            "The data was fabricated",
+            "Confounding variables may explain the correlation",
+            "The methodology was too innovative",
+            "The researchers were biased"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The speaker mentions 'confounding variables that weren't adequately controlled for'"
+        },
+        {
+          "id": "c1-l2-p1-q3",
+          "question": "The tone of the critique can best be described as:",
+          "options": [
+            "Hostile and dismissive",
+            "Constructive and professional",
+            "Indifferent and bored",
+            "Sarcastic and mocking"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The speaker uses hedging language and phrases like 'I wonder whether,' indicating a collegial critique"
+        }
+      ]
+    },
+    {
+      "id": "c1-l2-p2",
+      "title": "Keynote Address Opening",
+      "context": "Opening of an international symposium",
+      "transcript": "Distinguished colleagues, it is my profound privilege to address this assembly on a matter of considerable import to our field. The interdisciplinary nature of this symposium reflects a paradigm shift in how we approach complex societal challenges. No longer can we afford to work in silos; the interconnectedness of global issues demands that we synthesize knowledge across traditional disciplinary boundaries. Today, I wish to propose a framework that bridges theoretical considerations with practical applications—a framework that, I believe, has far-reaching implications for policy development.",
+      "audioDescription": "A keynote speaker opens an international academic symposium",
+      "questions": [
+        {
+          "id": "c1-l2-p2-q1",
+          "question": "What does the speaker suggest about working 'in silos'?",
+          "options": [
+            "It is the preferred academic approach",
+            "It is no longer viable for addressing global issues",
+            "It should be encouraged for specialization",
+            "It has never been practiced in academia"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The speaker says 'No longer can we afford to work in silos'"
+        },
+        {
+          "id": "c1-l2-p2-q2",
+          "question": "What is the speaker's main goal in this address?",
+          "options": [
+            "To criticize current research methods",
+            "To propose a new theoretical-practical framework",
+            "To announce a new academic position",
+            "To introduce other speakers"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The speaker wishes 'to propose a framework that bridges theoretical considerations with practical applications'"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "longitudinal approach",
+      "definition": "Research conducted over an extended period with repeated observations"
+    },
+    {
+      "term": "confounding variables",
+      "definition": "Variables that influence both the dependent and independent variables"
+    },
+    {
+      "term": "paradigm shift",
+      "definition": "A fundamental change in approach or underlying assumptions"
+    },
+    {
+      "term": "disciplinary boundaries",
+      "definition": "The divisions between different academic fields of study"
+    }
+  ]
+}
