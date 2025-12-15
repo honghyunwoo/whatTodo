@@ -1,0 +1,108 @@
+{
+  "id": "c1-vocab-week-3",
+  "type": "vocabulary",
+  "level": "C1",
+  "weekId": "week-3",
+  "title": "Research and Analysis Vocabulary",
+  "description": "Terminology for empirical research and data analysis",
+  "estimatedMinutes": 20,
+  "xpReward": 45,
+  "items": [
+    {
+      "id": "c1-v3-1",
+      "word": "efficacy",
+      "definition": "The ability to produce a desired or intended result",
+      "pronunciation": "/ˈefɪkəsi/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "효능, 효과",
+      "example": "The study examined the efficacy of the new treatment protocol.",
+      "synonyms": ["effectiveness", "potency", "capability"],
+      "antonyms": ["ineffectiveness", "futility"],
+      "collocations": ["clinical efficacy", "therapeutic efficacy", "demonstrate efficacy"]
+    },
+    {
+      "id": "c1-v3-2",
+      "word": "confound",
+      "definition": "To cause confusion or fail to distinguish between variables",
+      "pronunciation": "/kənˈfaʊnd/",
+      "partOfSpeech": "verb",
+      "koreanMeaning": "혼동시키다, 교란하다",
+      "example": "Socioeconomic factors may confound the relationship between diet and health.",
+      "synonyms": ["confuse", "muddle", "complicate"],
+      "antonyms": ["clarify", "distinguish"],
+      "collocations": ["confounding variable", "confound results", "confound the analysis"]
+    },
+    {
+      "id": "c1-v3-3",
+      "word": "extrapolate",
+      "definition": "To extend the application of data or conclusions to an unknown situation",
+      "pronunciation": "/ɪkˈstræpəleɪt/",
+      "partOfSpeech": "verb",
+      "koreanMeaning": "외삽하다, 추정하다",
+      "example": "It would be unwise to extrapolate these findings to the general population.",
+      "synonyms": ["infer", "project", "deduce"],
+      "antonyms": ["interpolate"],
+      "collocations": ["extrapolate from data", "extrapolate findings", "extrapolate trends"]
+    },
+    {
+      "id": "c1-v3-4",
+      "word": "replicable",
+      "definition": "Capable of being reproduced or repeated with the same results",
+      "pronunciation": "/ˈreplɪkəbəl/",
+      "partOfSpeech": "adjective",
+      "koreanMeaning": "재현 가능한",
+      "example": "Scientific findings must be replicable to be considered valid.",
+      "synonyms": ["reproducible", "repeatable"],
+      "antonyms": ["unique", "irreproducible"],
+      "collocations": ["replicable results", "replicable methodology", "replicable experiment"]
+    },
+    {
+      "id": "c1-v3-5",
+      "word": "stratify",
+      "definition": "To arrange or divide into different levels or categories",
+      "pronunciation": "/ˈstrætɪfaɪ/",
+      "partOfSpeech": "verb",
+      "koreanMeaning": "계층화하다, 층화하다",
+      "example": "Researchers stratified the sample by age and gender.",
+      "synonyms": ["categorize", "classify", "segment"],
+      "antonyms": ["combine", "merge"],
+      "collocations": ["stratified sample", "stratify by category", "stratified analysis"]
+    },
+    {
+      "id": "c1-v3-6",
+      "word": "longitudinal",
+      "definition": "Involving the study of subjects over an extended period of time",
+      "pronunciation": "/ˌlɒndʒɪˈtjuːdɪnəl/",
+      "partOfSpeech": "adjective",
+      "koreanMeaning": "종단적인, 세로의",
+      "example": "A longitudinal study tracked participants for twenty years.",
+      "synonyms": ["long-term", "extended", "prospective"],
+      "antonyms": ["cross-sectional", "snapshot"],
+      "collocations": ["longitudinal study", "longitudinal data", "longitudinal analysis"]
+    },
+    {
+      "id": "c1-v3-7",
+      "word": "mitigate",
+      "definition": "To make less severe, serious, or painful",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "partOfSpeech": "verb",
+      "koreanMeaning": "완화하다, 경감하다",
+      "example": "Proper controls can mitigate the effects of bias.",
+      "synonyms": ["alleviate", "reduce", "diminish"],
+      "antonyms": ["aggravate", "intensify", "exacerbate"],
+      "collocations": ["mitigate risk", "mitigate effects", "mitigate impact"]
+    },
+    {
+      "id": "c1-v3-8",
+      "word": "proxy",
+      "definition": "A variable used to represent or measure another variable indirectly",
+      "pronunciation": "/ˈprɒksi/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "대리 변수, 대용물",
+      "example": "GDP is often used as a proxy for national well-being.",
+      "synonyms": ["substitute", "stand-in", "surrogate"],
+      "antonyms": ["original", "direct measure"],
+      "collocations": ["proxy measure", "proxy variable", "serve as a proxy"]
+    }
+  ]
+}

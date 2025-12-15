@@ -1,0 +1,144 @@
+{
+  "id": "c1-grammar-week-3",
+  "type": "grammar",
+  "level": "C1",
+  "weekId": "week-3",
+  "title": "Hedging and Qualification",
+  "description": "Language for expressing uncertainty and nuanced claims in academic writing",
+  "estimatedMinutes": 25,
+  "xpReward": 50,
+  "sections": [
+    {
+      "id": "c1-g3-s1",
+      "title": "Modal Verbs for Hedging",
+      "explanation": "Modal verbs allow writers to indicate degrees of certainty without making absolute claims.",
+      "examples": [
+        {
+          "certainty": "high",
+          "sentence": "This must be the result of selection bias.",
+          "note": "Very confident claim"
+        },
+        {
+          "certainty": "medium",
+          "sentence": "This would appear to result from selection bias.",
+          "note": "More tentative"
+        },
+        {
+          "certainty": "low",
+          "sentence": "This could/might result from selection bias.",
+          "note": "Possibility among others"
+        }
+      ],
+      "scale": ["must > will > would > should > may > might > could"]
+    },
+    {
+      "id": "c1-g3-s2",
+      "title": "Hedging Adverbs and Adjectives",
+      "explanation": "Adverbs and adjectives can soften claims by indicating probability or frequency.",
+      "categories": {
+        "probability": ["probably", "possibly", "perhaps", "conceivably", "apparently"],
+        "frequency": ["often", "sometimes", "occasionally", "rarely", "seldom"],
+        "degree": ["somewhat", "relatively", "fairly", "rather", "slightly"]
+      },
+      "examples": [
+        {
+          "strong": "The data shows a correlation.",
+          "hedged": "The data apparently shows a possible correlation."
+        },
+        {
+          "strong": "This theory is incorrect.",
+          "hedged": "This theory is arguably somewhat problematic."
+        }
+      ]
+    },
+    {
+      "id": "c1-g3-s3",
+      "title": "Reporting Verbs and Distance",
+      "explanation": "Different reporting verbs create different levels of distance from claims.",
+      "categories": {
+        "neutral": ["states", "notes", "observes", "reports"],
+        "tentative": ["suggests", "indicates", "implies", "proposes"],
+        "distancing": ["claims", "asserts", "alleges", "maintains"]
+      },
+      "examples": [
+        {
+          "sentence": "Smith (2020) claims that...",
+          "effect": "Creates distance; implies skepticism"
+        },
+        {
+          "sentence": "Smith (2020) demonstrates that...",
+          "effect": "Shows acceptance of the finding"
+        }
+      ]
+    },
+    {
+      "id": "c1-g3-s4",
+      "title": "Impersonal Constructions",
+      "explanation": "Impersonal constructions remove the writer from direct claims.",
+      "examples": [
+        {
+          "personal": "I believe this interpretation is correct.",
+          "impersonal": "It could be argued that this interpretation is valid."
+        },
+        {
+          "personal": "We found that...",
+          "impersonal": "The data suggests that... / It was found that..."
+        }
+      ],
+      "phrases": [
+        "It appears that...",
+        "There seems to be...",
+        "It is possible that...",
+        "It has been suggested that...",
+        "One might argue that..."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-g3-ex1",
+      "type": "transformation",
+      "instruction": "Hedge the following claim appropriately for academic writing",
+      "sentence": "Social media causes depression in teenagers.",
+      "answer": "Social media may contribute to depression in some teenagers.",
+      "explanation": "Hedge 'causes' with 'may contribute to' and limit scope with 'some'"
+    },
+    {
+      "id": "c1-g3-ex2",
+      "type": "multiple-choice",
+      "question": "Which sentence is most appropriately hedged for academic writing?",
+      "options": [
+        "This theory is completely wrong.",
+        "This theory appears to have certain limitations.",
+        "This theory might possibly perhaps be wrong.",
+        "This theory is probably definitely flawed."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Option B uses appropriate hedging without over-hedging or contradictory modifiers"
+    },
+    {
+      "id": "c1-g3-ex3",
+      "type": "fill-in",
+      "sentence": "The evidence ___ that early intervention is beneficial.",
+      "answer": "suggests",
+      "alternatives": ["indicates", "implies"],
+      "explanation": "'Suggests' is tentative; contrast with 'proves' or 'demonstrates'"
+    },
+    {
+      "id": "c1-g3-ex4",
+      "type": "transformation",
+      "instruction": "Rewrite using an impersonal construction",
+      "sentence": "I think this method is unreliable.",
+      "answer": "It could be argued that this method may lack reliability.",
+      "explanation": "Use 'It could be argued' and 'may lack' instead of personal opinion"
+    },
+    {
+      "id": "c1-g3-ex5",
+      "type": "error-correction",
+      "instruction": "Identify the hedging error",
+      "sentence": "This definitely might possibly indicate a trend.",
+      "error": "Contradictory modifiers: 'definitely' and 'might possibly'",
+      "correction": "This might indicate a trend."
+    }
+  ]
+}

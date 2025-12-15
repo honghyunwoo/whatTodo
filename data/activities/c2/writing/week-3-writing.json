@@ -1,0 +1,116 @@
+{
+  "id": "c2-writing-week-3",
+  "type": "writing",
+  "level": "C2",
+  "weekId": "week-3",
+  "title": "The Art of the Academic Introduction",
+  "description": "Crafting compelling introductions that situate your scholarly contribution",
+  "estimatedMinutes": 35,
+  "xpReward": 65,
+  "exercises": [
+    {
+      "id": "c2-w3-ex1",
+      "type": "create-research-space",
+      "title": "The CARS Model",
+      "instruction": "Learn John Swales's 'Create A Research Space' model for introductions",
+      "moves": [
+        {
+          "move": "Move 1: Establishing Territory",
+          "strategies": [
+            "Claim centrality: 'X is a fundamental aspect of...'",
+            "Make topic generalizations: 'Research in this area has shown...'",
+            "Review previous research: 'Studies by A, B, and C have examined...'"
+          ],
+          "purpose": "Establish the importance and context of your topic"
+        },
+        {
+          "move": "Move 2: Establishing a Niche",
+          "strategies": [
+            "Counter-claiming: 'However, these studies have neglected...'",
+            "Indicating a gap: 'Little attention has been paid to...'",
+            "Question-raising: 'These findings raise the question of...'",
+            "Continuing a tradition: 'Building on this work, I examine...'"
+          ],
+          "purpose": "Identify the specific gap or problem your work addresses"
+        },
+        {
+          "move": "Move 3: Occupying the Niche",
+          "strategies": [
+            "Outlining purposes: 'This paper aims to...'",
+            "Announcing research: 'The present study investigates...'",
+            "Announcing findings: 'This analysis reveals that...'",
+            "Indicating structure: 'The paper proceeds as follows...'"
+          ],
+          "purpose": "State your contribution and preview your argument"
+        }
+      ]
+    },
+    {
+      "id": "c2-w3-ex2",
+      "type": "opening-strategies",
+      "title": "Compelling Opening Strategies",
+      "instruction": "Analyze different approaches to academic openings",
+      "strategies": [
+        {
+          "name": "The Provocation",
+          "example": "We routinely speak of 'having' time as if it were a possession that could be accumulated or spent. This locution, I will argue, reveals a fundamental confusion at the heart of our relationship to temporality.",
+          "effect": "Challenges common assumptions; creates tension"
+        },
+        {
+          "name": "The Paradox",
+          "example": "The more data we collect about human behavior, the less we seem to understand it. This paradox lies at the heart of contemporary social science.",
+          "effect": "Creates intellectual puzzle; invites resolution"
+        },
+        {
+          "name": "The Historical Turn",
+          "example": "In 1948, Claude Shannon published 'A Mathematical Theory of Communication.' This paper would transform not only information theory but our very conception of what information is.",
+          "effect": "Grounds abstract issues in concrete moments"
+        },
+        {
+          "name": "The Analytical Pivot",
+          "example": "Much has been written about the causes of the 2008 financial crisis. Far less attention has been paid to the conceptual frameworks that made it thinkable in the first place.",
+          "effect": "Acknowledges existing work while creating space for new approach"
+        }
+      ]
+    },
+    {
+      "id": "c2-w3-ex3",
+      "type": "thesis-placement",
+      "title": "Positioning Your Thesis",
+      "instruction": "Decide where and how to place your thesis for maximum effect",
+      "options": [
+        {
+          "position": "Thesis-First",
+          "description": "State your central claim immediately",
+          "when": "Empirical research, clear argumentative essays",
+          "example": "This paper argues that attention should be understood as an ethical practice, not merely an economic resource."
+        },
+        {
+          "position": "Thesis-Last",
+          "description": "Build context before revealing your claim",
+          "when": "Complex interventions, when readers need preparation",
+          "example": "[After establishing the problem] Given these considerations, I propose a reconceptualization of attention as fundamentally ethical."
+        },
+        {
+          "position": "Thesis-Implicit",
+          "description": "Allow the argument to emerge through analysis",
+          "when": "Exploratory essays, literary criticism",
+          "caution": "Risk of appearing unfocused; requires skilled execution"
+        }
+      ]
+    },
+    {
+      "id": "c2-w3-ex4",
+      "type": "introduction-analysis",
+      "title": "Analyzing Published Introductions",
+      "instruction": "Read this introduction and identify the CARS moves",
+      "introduction": "The concept of 'fake news' has become ubiquitous in public discourse since 2016. Scholars have examined its psychological appeal, its political instrumentalization, and its technological amplification through social media platforms. These studies have advanced our understanding of misinformation, but they share a common limitation: they treat 'truth' and 'falsity' as unproblematic categories. This paper draws on insights from speech act theory to complicate this binary, arguing that fake news functions less as false content than as a degraded discursive mode—one that undermines the very possibility of meaningful public communication.",
+      "analysis": {
+        "move1": "First three sentences: establishes importance of topic and reviews existing research",
+        "move2": "'These studies have advanced... but share a common limitation': identifies gap",
+        "move3": "'This paper draws on... arguing that': announces contribution and thesis"
+      },
+      "task": "Write an introduction for a paper on the ethics of artificial intelligence, using all three CARS moves"
+    }
+  ]
+}

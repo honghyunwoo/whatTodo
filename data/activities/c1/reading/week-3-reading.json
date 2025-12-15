@@ -1,0 +1,100 @@
+{
+  "id": "c1-reading-week-3",
+  "type": "reading",
+  "level": "C1",
+  "weekId": "week-3",
+  "title": "The Science of Well-Being",
+  "description": "Analyzing interdisciplinary research on human flourishing",
+  "estimatedMinutes": 25,
+  "xpReward": 50,
+  "passage": {
+    "title": "Beyond GDP: Measuring What Matters",
+    "author": "Adapted from economic policy sources",
+    "paragraphs": [
+      "For decades, Gross Domestic Product has served as the preeminent measure of national success. Yet a growing chorus of economists, psychologists, and policymakers argues that GDP, as a metric, is fundamentally misaligned with human well-being. GDP measures economic activity indiscriminately: a country that spends heavily on prisons, pollution cleanup, and treating preventable diseases will register higher GDP than one that avoids these expenditures through effective policy. This peculiarity—whereby social ills boost the headline number—has led some to quip that GDP measures 'how much you spend,' not 'how well you live.'",
+      "In response, researchers have developed alternative frameworks for measuring national well-being. The Human Development Index, pioneered by economist Amartya Sen, incorporates life expectancy and education alongside income. More recently, the OECD's Better Life Index measures eleven domains, including work-life balance, social connections, and environmental quality. Bhutan's Gross National Happiness index takes an even more expansive approach, surveying citizens on psychological well-being, cultural vitality, and ecological sustainability. Each framework makes explicit value judgments about what constitutes a good life—judgments that GDP, by purporting to be value-neutral, merely conceals.",
+      "Critics of these alternative measures raise legitimate concerns. Subjective well-being metrics, they argue, are vulnerable to adaptation effects: people in objectively difficult circumstances may report high satisfaction simply because they have adjusted their expectations. Moreover, cross-cultural comparisons prove fraught, as different societies may interpret survey questions differently or have varying norms around expressing contentment or dissatisfaction. These methodological challenges, however, do not vindicate GDP—they merely highlight the difficulty of quantifying something as complex as human flourishing.",
+      "Perhaps the most significant contribution of the well-being research agenda is not any particular metric but rather the questions it forces us to ask. What do we want our economy to produce? Is growth an end in itself, or merely a means to other ends? By what criteria should we evaluate public policy? These are, at bottom, philosophical questions—yet they have been largely absent from mainstream economic discourse. The turn toward well-being measurement represents, in this sense, a recovery of normative considerations that economics had long suppressed."
+    ]
+  },
+  "questions": [
+    {
+      "id": "c1-r3-q1",
+      "type": "main-idea",
+      "question": "What is the author's primary argument?",
+      "options": [
+        "GDP should remain the only measure of national success",
+        "Alternative well-being measures are perfect substitutes for GDP",
+        "Current measures of success are inadequate, and alternatives raise important questions",
+        "Bhutan's happiness index should be universally adopted"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The author critiques GDP, discusses alternatives and their limitations, and concludes that the most important contribution is the questions raised"
+    },
+    {
+      "id": "c1-r3-q2",
+      "type": "detail",
+      "question": "According to the passage, what 'peculiarity' does GDP exhibit?",
+      "options": [
+        "It only measures wealthy countries",
+        "Social problems can increase the GDP number",
+        "It ignores all forms of spending",
+        "It measures happiness directly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage notes that 'social ills boost the headline number' as a peculiarity of GDP"
+    },
+    {
+      "id": "c1-r3-q3",
+      "type": "inference",
+      "question": "What does the author imply about GDP's 'value-neutrality'?",
+      "options": [
+        "It is a genuine strength of the metric",
+        "It is an illusion that conceals implicit value judgments",
+        "It should be preserved in alternative measures",
+        "It is what makes GDP internationally comparable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Alternative frameworks 'make explicit value judgments... that GDP, by purporting to be value-neutral, merely conceals'"
+    },
+    {
+      "id": "c1-r3-q4",
+      "type": "vocabulary",
+      "question": "In context, 'vindicate' most nearly means:",
+      "options": [
+        "Criticize",
+        "Justify or support",
+        "Replace",
+        "Explain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The challenges 'do not vindicate GDP' means they do not justify or support continued reliance on GDP"
+    },
+    {
+      "id": "c1-r3-q5",
+      "type": "critical-thinking",
+      "question": "What is the 'adaptation effect' mentioned as a concern?",
+      "options": [
+        "People adapt to new measurement systems over time",
+        "Surveys adapt to different cultural contexts",
+        "People adjust expectations, making subjective measures unreliable",
+        "Economies adapt to whatever is being measured"
+      ],
+      "correctAnswer": 2,
+      "explanation": "People 'in objectively difficult circumstances may report high satisfaction simply because they have adjusted their expectations'"
+    },
+    {
+      "id": "c1-r3-q6",
+      "type": "structure",
+      "question": "What rhetorical move does the author make in the final paragraph?",
+      "options": [
+        "Proposes a specific new metric",
+        "Dismisses all alternative measures",
+        "Shifts from empirical to philosophical considerations",
+        "Returns to defending GDP"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The final paragraph discusses 'philosophical questions' and 'normative considerations,' moving beyond empirical measurement debates"
+    }
+  ]
+}
