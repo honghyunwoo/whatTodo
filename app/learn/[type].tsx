@@ -28,12 +28,13 @@ import { getActivityLabel, loadActivity } from '@/utils/activityLoader';
 
 export default function ActivityDetailScreen() {
   const { type, weekId } = useLocalSearchParams<{ type: ActivityType; weekId: string }>();
+  const currentLevel = useLearnStore((state) => state.currentLevel);
   const markActivityComplete = useLearnStore((state) => state.markActivityComplete);
 
   const activity = useMemo(() => {
     if (!type || !weekId) return null;
-    return loadActivity(type as ActivityType, weekId);
-  }, [type, weekId]);
+    return loadActivity(currentLevel, type as ActivityType, weekId);
+  }, [currentLevel, type, weekId]);
 
   const handleComplete = useCallback(
     (score: number) => {

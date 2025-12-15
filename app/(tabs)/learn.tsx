@@ -38,8 +38,8 @@ export default function LearnScreen() {
 
   // 현재 주차의 활동 로드
   const weekActivities = useMemo(() => {
-    return loadWeekActivities(currentWeek);
-  }, [currentWeek]);
+    return loadWeekActivities(currentLevel, currentWeek);
+  }, [currentLevel, currentWeek]);
 
   // 주차별 진행률 계산 (store 함수 대신 직접 계산하여 무한 루프 방지)
   const weekProgress = useMemo(() => {
