@@ -193,10 +193,7 @@ export function loadActivity(
 /**
  * 특정 레벨과 주차의 어휘 활동 로드
  */
-export function loadVocabulary(
-  level: CEFRLevel,
-  weekId: string
-): VocabularyActivity | null {
+export function loadVocabulary(level: CEFRLevel, weekId: string): VocabularyActivity | null {
   return loadActivity(level, 'vocabulary', weekId) as VocabularyActivity | null;
 }
 
@@ -210,10 +207,7 @@ export function loadGrammar(level: CEFRLevel, weekId: string): GrammarActivity |
 /**
  * 특정 레벨과 주차의 듣기 활동 로드
  */
-export function loadListening(
-  level: CEFRLevel,
-  weekId: string
-): ListeningActivity | null {
+export function loadListening(level: CEFRLevel, weekId: string): ListeningActivity | null {
   return loadActivity(level, 'listening', weekId) as ListeningActivity | null;
 }
 
@@ -293,10 +287,11 @@ export function findActivityById(activityId: string): Activity | null {
 
   for (const level of CEFR_LEVELS) {
     for (const type of types) {
-      const weekActivities = ACTIVITIES[level][type];
+      const weekActivities = ACTIVITIES[level]?.[type];
+      if (!weekActivities) continue;
       for (const weekId of Object.keys(weekActivities)) {
         const activity = weekActivities[weekId];
-        if (activity.id === activityId) {
+        if (activity && activity.id === activityId) {
           return activity;
         }
       }

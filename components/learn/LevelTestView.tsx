@@ -5,7 +5,7 @@
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Animated, StyleSheet, TouchableOpacity, View } from 'react-native';
+import { Animated, StyleSheet, TextStyle, TouchableOpacity, View, ViewStyle } from 'react-native';
 import { Button, Card, ProgressBar as PaperProgressBar, Text } from 'react-native-paper';
 
 import { COLORS, withAlpha } from '@/constants/colors';
@@ -75,70 +75,76 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
   // Answer Handling
   // ─────────────────────────────────────
 
-  const handleSelectAnswer = useCallback((index: number) => {
-    if (showFeedback || selectedAnswer !== null) return;
+  const handleSelectAnswer = useCallback(
+    (index: number) => {
+      if (showFeedback || selectedAnswer !== null) return;
 
-    setSelectedAnswer(index);
-    setShowFeedback(true);
+      setSelectedAnswer(index);
+      setShowFeedback(true);
 
-    // Animate feedback
-    Animated.sequence([
-      Animated.timing(scaleAnim, {
-        toValue: 1.02,
-        duration: 100,
-        useNativeDriver: true,
-      }),
-      Animated.timing(scaleAnim, {
-        toValue: 1,
-        duration: 100,
-        useNativeDriver: true,
-      }),
-    ]).start();
-
-    // Auto-advance after delay
-    timerRef.current = setTimeout(() => {
-      handleNextQuestion(index);
-    }, 1000);
-  }, [showFeedback, selectedAnswer, scaleAnim]);
-
-  const handleNextQuestion = useCallback((answerIndex: number) => {
-    if (!test || !currentQuestion) return;
-
-    const timeSpent = Math.round((Date.now() - startTime) / 1000);
-    const { shouldContinue } = test.submitAnswer(currentQuestion, answerIndex, timeSpent);
-
-    if (shouldContinue) {
-      // Fade out and get next question
-      Animated.timing(fadeAnim, {
-        toValue: 0,
-        duration: 200,
-        useNativeDriver: true,
-      }).start(() => {
-        const nextQuestion = test.getNextQuestion();
-        setCurrentQuestion(nextQuestion);
-        setSelectedAnswer(null);
-        setShowFeedback(false);
-        setStartTime(Date.now());
-
-        Animated.timing(fadeAnim, {
+      // Animate feedback
+      Animated.sequence([
+        Animated.timing(scaleAnim, {
+          toValue: 1.02,
+          duration: 100,
+          useNativeDriver: true,
+        }),
+        Animated.timing(scaleAnim, {
           toValue: 1,
+          duration: 100,
+          useNativeDriver: true,
+        }),
+      ]).start();
+
+      // Auto-advance after delay
+      timerRef.current = setTimeout(() => {
+        handleNextQuestion(index);
+      }, 1000);
+    },
+    [showFeedback, selectedAnswer, scaleAnim]
+  );
+
+  const handleNextQuestion = useCallback(
+    (answerIndex: number) => {
+      if (!test || !currentQuestion) return;
+
+      const timeSpent = Math.round((Date.now() - startTime) / 1000);
+      const { shouldContinue } = test.submitAnswer(currentQuestion, answerIndex, timeSpent);
+
+      if (shouldContinue) {
+        // Fade out and get next question
+        Animated.timing(fadeAnim, {
+          toValue: 0,
           duration: 200,
           useNativeDriver: true,
-        }).start();
-      });
-    } else {
-      // Test complete
-      const testResult = test.getResult();
-      if (testResult) {
-        setResult(testResult);
-        setPhase('result');
+        }).start(() => {
+          const nextQuestion = test.getNextQuestion();
+          setCurrentQuestion(nextQuestion);
+          setSelectedAnswer(null);
+          setShowFeedback(false);
+          setStartTime(Date.now());
 
-        // Save the level
-        setCurrentLevel(testResult.finalLevel);
-        onComplete?.(testResult);
+          Animated.timing(fadeAnim, {
+            toValue: 1,
+            duration: 200,
+            useNativeDriver: true,
+          }).start();
+        });
+      } else {
+        // Test complete
+        const testResult = test.getResult();
+        if (testResult) {
+          setResult(testResult);
+          setPhase('result');
+
+          // Save the level
+          setCurrentLevel(testResult.finalLevel);
+          onComplete?.(testResult);
+        }
       }
-    }
-  }, [test, currentQuestion, startTime, fadeAnim, setCurrentLevel, onComplete]);
+    },
+    [test, currentQuestion, startTime, fadeAnim, setCurrentLevel, onComplete]
+  );
 
   // ─────────────────────────────────────
   // Progress Info
@@ -169,13 +175,15 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
       <View style={styles.container}>
         <View style={styles.introContent}>
           <View style={styles.introIcon}>
-            <MaterialCommunityIcons name="clipboard-check-outline" size={80} color={COLORS.primary} />
+            <MaterialCommunityIcons
+              name="clipboard-check-outline"
+              size={80}
+              color={COLORS.primary}
+            />
           </View>
 
           <Text style={styles.introTitle}>영어 레벨 테스트</Text>
-          <Text style={styles.introSubtitle}>
-            적응형 문제로 영어 레벨을 측정합니다
-          </Text>
+          <Text style={styles.introSubtitle}>적응형 문제로 영어 레벨을 측정합니다</Text>
 
           <View style={styles.infoCards}>
             <View style={styles.infoCard}>
@@ -273,7 +281,10 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
                     <View
                       style={[
                         styles.skillBar,
-                        { width: `${data.accuracy}%`, backgroundColor: getLevelInfo(data.estimatedLevel).color }
+                        {
+                          width: `${data.accuracy}%`,
+                          backgroundColor: getLevelInfo(data.estimatedLevel).color,
+                        },
                       ]}
                     />
                   </View>
@@ -289,7 +300,11 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
                 <Text style={styles.recommendationTitle}>추천 학습</Text>
                 {result.recommendations.map((rec, index) => (
                   <View key={index} style={styles.recommendationRow}>
-                    <MaterialCommunityIcons name="lightbulb-outline" size={20} color={COLORS.warning} />
+                    <MaterialCommunityIcons
+                      name="lightbulb-outline"
+                      size={20}
+                      color={COLORS.warning}
+                    />
                     <Text style={styles.recommendationText}>{rec}</Text>
                   </View>
                 ))}
@@ -297,11 +312,7 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
             </Card>
           )}
 
-          <Button
-            mode="contained"
-            onPress={() => onCancel?.()}
-            style={styles.doneButton}
-          >
+          <Button mode="contained" onPress={() => onCancel?.()} style={styles.doneButton}>
             {result.finalLevel} 레벨로 학습 시작
           </Button>
         </View>
@@ -335,7 +346,9 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
         </View>
 
         <View style={styles.progressInfo}>
-          <Text style={styles.progressText}>{progress.current} / {progress.max}</Text>
+          <Text style={styles.progressText}>
+            {progress.current} / {progress.max}
+          </Text>
           <Text style={styles.accuracyText}>{currentAccuracy}% 정답</Text>
         </View>
       </View>
@@ -349,14 +362,15 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
 
       {/* Question */}
       <Animated.View
-        style={[
-          styles.questionContainer,
-          { opacity: fadeAnim, transform: [{ scale: scaleAnim }] }
-        ]}
+        style={[styles.questionContainer, { opacity: fadeAnim, transform: [{ scale: scaleAnim }] }]}
       >
         <View style={styles.questionTypeTag}>
           <MaterialCommunityIcons
-            name={getQuestionTypeIcon(currentQuestion.type)}
+            name={
+              getQuestionTypeIcon(currentQuestion.type) as React.ComponentProps<
+                typeof MaterialCommunityIcons
+              >['name']
+            }
             size={16}
             color={COLORS.textSecondary}
           />
@@ -378,19 +392,22 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
             const isSelected = selectedAnswer === index;
             const isCorrectOption = index === currentQuestion.correctAnswer;
 
-            let optionStyle = styles.option;
-            let optionTextStyle = styles.optionText;
+            let optionStyle: ViewStyle = styles.option;
+            let optionTextStyle: TextStyle = styles.optionText;
 
             if (showFeedback) {
               if (isCorrectOption) {
-                optionStyle = { ...styles.option, ...styles.optionCorrect };
-                optionTextStyle = { ...styles.optionText, ...styles.optionTextCorrect };
+                optionStyle = { ...styles.option, ...styles.optionCorrect } as ViewStyle;
+                optionTextStyle = {
+                  ...styles.optionText,
+                  ...styles.optionTextCorrect,
+                } as TextStyle;
               } else if (isSelected && !isCorrectOption) {
-                optionStyle = { ...styles.option, ...styles.optionWrong };
-                optionTextStyle = { ...styles.optionText, ...styles.optionTextWrong };
+                optionStyle = { ...styles.option, ...styles.optionWrong } as ViewStyle;
+                optionTextStyle = { ...styles.optionText, ...styles.optionTextWrong } as TextStyle;
               }
             } else if (isSelected) {
-              optionStyle = { ...styles.option, ...styles.optionSelected };
+              optionStyle = { ...styles.option, ...styles.optionSelected } as ViewStyle;
             }
 
             return (
@@ -419,7 +436,9 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
         </View>
 
         {showFeedback && currentQuestion.explanation && (
-          <View style={[styles.feedback, isCorrect ? styles.feedbackCorrect : styles.feedbackWrong]}>
+          <View
+            style={[styles.feedback, isCorrect ? styles.feedbackCorrect : styles.feedbackWrong]}
+          >
             <MaterialCommunityIcons
               name={isCorrect ? 'check-circle' : 'information'}
               size={20}

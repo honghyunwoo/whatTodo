@@ -26,6 +26,19 @@ export interface WritingEvaluation {
   wordCount: number;
   sentenceCount: number;
   averageSentenceLength: number;
+
+  // Rule-based analysis (optional)
+  ruleBasedScore?: RuleBasedScore;
+}
+
+// Rule-based writing analysis
+export interface RuleBasedScore {
+  wordCount: number;
+  sentenceCount: number;
+  isWordCountValid: boolean;
+  keywordsFound: string[];
+  hasOpening: boolean;
+  hasClosing: boolean;
 }
 
 // Category score breakdown

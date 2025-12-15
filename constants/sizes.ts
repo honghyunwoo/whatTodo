@@ -21,6 +21,7 @@ export const SIZES = {
     lg: 12,
     xl: 16,
     full: 9999,
+    round: 9999, // alias for full
   },
   radius: {
     sm: 4,
