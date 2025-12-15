@@ -15,8 +15,9 @@ import type { LevelTestResult } from '@/types/levelTest';
 export default function LevelTestScreen() {
   const handleComplete = useCallback((result: LevelTestResult) => {
     // Result is already saved in LevelTestView
-    // Just log for debugging
-    console.log('Level test completed:', result.finalLevel);
+    if (__DEV__) {
+      console.log('Level test completed:', result.finalLevel);
+    }
   }, []);
 
   const handleCancel = useCallback(() => {
