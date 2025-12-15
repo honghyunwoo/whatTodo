@@ -193,7 +193,7 @@ export function PronunciationFeedback({
                 </Text>
               </View>
               <Text style={[styles.expectedText, { color: colors.text }]}>
-                "{expectedText}"
+                &ldquo;{expectedText}&rdquo;
               </Text>
             </Card.Content>
           </Card>

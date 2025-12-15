@@ -330,12 +330,12 @@ class SpeechService {
   async stopAndAnalyze(expectedText: string): Promise<{
     transcribedText: string;
     overallScore: number;
-    wordAnalysis: Array<{
+    wordAnalysis: {
       word: string;
       expected: string;
       score: number;
       issue?: 'missing' | 'wrong' | 'extra';
-    }>;
+    }[];
     audioUri: string | null;
   }> {
     const audioUri = await this.stopRecording();

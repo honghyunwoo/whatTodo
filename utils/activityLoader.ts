@@ -280,7 +280,7 @@ export const CEFR_LEVEL_INFO: Record<CEFRLevel, { name: string; description: str
 type ActivityData = Record<ActivityType, Record<string, Activity>>;
 type LevelActivityData = Record<CEFRLevel, ActivityData>;
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+ 
 const castActivity = <T>(data: any): T => data as T;
 
 const ACTIVITIES: LevelActivityData = {

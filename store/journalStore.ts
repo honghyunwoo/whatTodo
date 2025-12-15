@@ -244,7 +244,7 @@ export const useJournalStore = create<JournalState & JournalActions>()(
 
           let newStreak = 1;
           let newLongest = streak.longestStreak;
-          let newTotal = streak.totalLearningDays + 1;
+          const newTotal = streak.totalLearningDays + 1;
 
           // Check if yesterday had learning
           if (streak.lastLearningDate === yesterday) {
