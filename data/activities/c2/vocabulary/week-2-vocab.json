@@ -7,102 +7,1638 @@
   "description": "Advanced vocabulary for philosophical inquiry and critical analysis",
   "estimatedMinutes": 25,
   "xpReward": 55,
-  "items": [
+  "words": [
     {
-      "id": "c2-v2-1",
+      "id": "w1",
       "word": "dialectical",
-      "definition": "Relating to the logical discussion of ideas and opinions; involving the process of examining opposing ideas to find truth",
       "pronunciation": "/ˌdaɪəˈlektɪkəl/",
       "partOfSpeech": "adjective",
-      "koreanMeaning": "변증법적인",
-      "example": "Hegel's dialectical method involves thesis, antithesis, and synthesis.",
-      "synonyms": ["logical", "analytical", "argumentative"],
-      "antonyms": ["monological", "dogmatic"],
-      "collocations": ["dialectical method", "dialectical reasoning", "dialectical tension"]
+      "meaning": "Relating to the logical discussion of ideas and opinions; involving the process of examining opposing ideas to find truth",
+      "translation": "변증법적인",
+      "example": "Hegel's dialectical method involves thesis, antithesis, and synthesis."
     },
     {
-      "id": "c2-v2-2",
+      "id": "w2",
       "word": "teleological",
-      "definition": "Relating to or involving explanation in terms of the purpose or end goal of something",
       "pronunciation": "/ˌteliəˈlɒdʒɪkəl/",
       "partOfSpeech": "adjective",
-      "koreanMeaning": "목적론적인",
-      "example": "Teleological arguments for God's existence point to design and purpose in nature.",
-      "synonyms": ["purposive", "goal-oriented", "finalist"],
-      "antonyms": ["mechanistic", "causalistic"],
-      "collocations": ["teleological argument", "teleological ethics", "teleological explanation"]
+      "meaning": "Relating to or involving explanation in terms of the purpose or end goal of something",
+      "translation": "목적론적인",
+      "example": "Teleological arguments for God's existence point to design and purpose in nature."
     },
     {
-      "id": "c2-v2-3",
+      "id": "w3",
       "word": "aporia",
-      "definition": "A state of puzzlement or an irresolvable internal contradiction in a text or argument",
       "pronunciation": "/əˈpɔːriə/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "아포리아, 난관",
-      "example": "Derrida's deconstructive readings often reveal the aporia within philosophical texts.",
-      "synonyms": ["impasse", "paradox", "contradiction"],
-      "antonyms": ["resolution", "clarity"],
-      "collocations": ["reveal an aporia", "textual aporia", "philosophical aporia"]
+      "meaning": "A state of puzzlement or an irresolvable internal contradiction in a text or argument",
+      "translation": "아포리아, 난관",
+      "example": "Derrida's deconstructive readings often reveal the aporia within philosophical texts."
     },
     {
-      "id": "c2-v2-4",
+      "id": "w4",
       "word": "hermeneutic",
-      "definition": "Concerning the interpretation of texts, especially religious or literary ones",
       "pronunciation": "/ˌhɜːmɪˈnjuːtɪk/",
       "partOfSpeech": "adjective",
-      "koreanMeaning": "해석학적인",
-      "example": "A hermeneutic approach to the Constitution considers its historical context.",
-      "synonyms": ["interpretive", "exegetical", "explicatory"],
-      "antonyms": ["literal", "surface-level"],
-      "collocations": ["hermeneutic circle", "hermeneutic tradition", "hermeneutic analysis"]
+      "meaning": "Concerning the interpretation of texts, especially religious or literary ones",
+      "translation": "해석학적인",
+      "example": "A hermeneutic approach to the Constitution considers its historical context."
     },
     {
-      "id": "c2-v2-5",
+      "id": "w5",
       "word": "phenomenological",
-      "definition": "Relating to the philosophical study of consciousness and the objects of direct experience",
       "pronunciation": "/fɪˌnɒmɪnəˈlɒdʒɪkəl/",
       "partOfSpeech": "adjective",
-      "koreanMeaning": "현상학적인",
-      "example": "Husserl developed a phenomenological method to describe conscious experience.",
-      "synonyms": ["experiential", "descriptive"],
-      "antonyms": ["theoretical", "speculative"],
-      "collocations": ["phenomenological reduction", "phenomenological analysis", "phenomenological approach"]
+      "meaning": "Relating to the philosophical study of consciousness and the objects of direct experience",
+      "translation": "현상학적인",
+      "example": "Husserl developed a phenomenological method to describe conscious experience."
     },
     {
-      "id": "c2-v2-6",
+      "id": "w6",
       "word": "reification",
-      "definition": "The treatment of an abstraction as if it were a concrete, material thing",
       "pronunciation": "/ˌriːɪfɪˈkeɪʃən/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "물화, 구체화",
-      "example": "Marx critiqued the reification of social relations under capitalism.",
-      "synonyms": ["objectification", "concretization", "hypostatization"],
-      "antonyms": ["abstraction"],
-      "collocations": ["process of reification", "reification of concepts", "avoid reification"]
+      "meaning": "The treatment of an abstraction as if it were a concrete, material thing",
+      "translation": "물화, 구체화",
+      "example": "Marx critiqued the reification of social relations under capitalism."
     },
     {
-      "id": "c2-v2-7",
+      "id": "w7",
       "word": "intersubjective",
-      "definition": "Existing between conscious minds; shared by more than one conscious subject",
       "pronunciation": "/ˌɪntəsəbˈdʒektɪv/",
       "partOfSpeech": "adjective",
-      "koreanMeaning": "상호주관적인",
-      "example": "Language enables intersubjective understanding between individuals.",
-      "synonyms": ["shared", "mutual", "collective"],
-      "antonyms": ["subjective", "private"],
-      "collocations": ["intersubjective agreement", "intersubjective validity", "intersubjective experience"]
+      "meaning": "Existing between conscious minds; shared by more than one conscious subject",
+      "translation": "상호주관적인",
+      "example": "Language enables intersubjective understanding between individuals."
     },
     {
-      "id": "c2-v2-8",
+      "id": "w8",
       "word": "propinquity",
-      "definition": "Nearness in space, time, or relationship; kinship",
       "pronunciation": "/prəˈpɪŋkwɪti/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "근접성, 유사성",
-      "example": "The propinquity of the two concepts led to their frequent conflation in the literature.",
-      "synonyms": ["proximity", "closeness", "affinity"],
-      "antonyms": ["distance", "remoteness"],
-      "collocations": ["geographical propinquity", "conceptual propinquity", "temporal propinquity"]
+      "meaning": "Nearness in space, time, or relationship; kinship",
+      "translation": "근접성, 유사성",
+      "example": "The propinquity of the two concepts led to their frequent conflation in the literature."
+    },
+    {
+      "id": "w9",
+      "word": "apodictic",
+      "pronunciation": "/ˌæpəˈdɪktɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Clearly established or beyond dispute; incontrovertibly true",
+      "translation": "명백한, 확실한",
+      "example": "Kant distinguished between apodictic and assertoric judgments in his critical philosophy."
+    },
+    {
+      "id": "w10",
+      "word": "noumenal",
+      "pronunciation": "/ˈnuːmɪnəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to things as they are in themselves, independent of human perception",
+      "translation": "본체의, 물자체의",
+      "example": "Kant argued that the noumenal realm is unknowable through empirical observation."
+    },
+    {
+      "id": "w11",
+      "word": "heuristic",
+      "pronunciation": "/hjʊˈrɪstɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Enabling someone to discover or learn something for themselves; using practical methods",
+      "translation": "발견적인, 경험적인",
+      "example": "The scientist employed a heuristic approach to solve the complex problem."
+    },
+    {
+      "id": "w12",
+      "word": "sophistry",
+      "pronunciation": "/ˈsɒfɪstri/",
+      "partOfSpeech": "noun",
+      "meaning": "The use of clever but false arguments, especially with the intention of deceiving",
+      "translation": "궤변, 소피스트 논법",
+      "example": "His argument was dismissed as mere sophistry by the academic community."
+    },
+    {
+      "id": "w13",
+      "word": "exegesis",
+      "pronunciation": "/ˌeksɪˈdʒiːsɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "Critical explanation or interpretation of a text, especially of scripture",
+      "translation": "주석, 해석",
+      "example": "Biblical exegesis requires knowledge of ancient languages and historical context."
+    },
+    {
+      "id": "w14",
+      "word": "epistemology",
+      "pronunciation": "/ɪˌpɪstɪˈmɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "The theory of knowledge, especially with regard to its methods, validity, and scope",
+      "translation": "인식론",
+      "example": "Descartes' epistemology begins with radical doubt and the cogito."
+    },
+    {
+      "id": "w15",
+      "word": "ontological",
+      "pronunciation": "/ˌɒntəˈlɒdʒɪkəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to the branch of metaphysics dealing with the nature of being",
+      "translation": "존재론적인",
+      "example": "The ontological argument attempts to prove God's existence from the concept alone."
+    },
+    {
+      "id": "w16",
+      "word": "axiomatic",
+      "pronunciation": "/ˌæksiəˈmætɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Self-evident or unquestionable; based on axioms",
+      "translation": "자명한, 공리적인",
+      "example": "It is axiomatic that all humans deserve basic dignity and respect."
+    },
+    {
+      "id": "w17",
+      "word": "solipsism",
+      "pronunciation": "/ˈsɒlɪpsɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The philosophical idea that only one's own mind is sure to exist",
+      "translation": "유아론, 유심론",
+      "example": "Solipsism poses a radical challenge to our assumptions about external reality."
+    },
+    {
+      "id": "w18",
+      "word": "nihilism",
+      "pronunciation": "/ˈnaɪɪlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The rejection of all religious and moral principles, often in the belief that life is meaningless",
+      "translation": "허무주의, 니힐리즘",
+      "example": "Nietzsche confronted the problem of nihilism in modern Western civilization."
+    },
+    {
+      "id": "w19",
+      "word": "empiricism",
+      "pronunciation": "/ɪmˈpɪrɪsɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The theory that all knowledge is derived from sense-experience",
+      "translation": "경험주의",
+      "example": "British empiricism, represented by Locke and Hume, emphasizes sensory experience."
+    },
+    {
+      "id": "w20",
+      "word": "rationalism",
+      "pronunciation": "/ˈræʃənəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The practice or principle of basing opinions and actions on reason and knowledge",
+      "translation": "합리주의",
+      "example": "Continental rationalism holds that reason is the chief source of knowledge."
+    },
+    {
+      "id": "w21",
+      "word": "syllogism",
+      "pronunciation": "/ˈsɪlədʒɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "A form of reasoning in which a conclusion is drawn from two given or assumed propositions",
+      "translation": "삼단논법",
+      "example": "The classic syllogism: All men are mortal; Socrates is a man; therefore, Socrates is mortal."
+    },
+    {
+      "id": "w22",
+      "word": "fallacious",
+      "pronunciation": "/fəˈleɪʃəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Based on a mistaken belief; containing a fallacy",
+      "translation": "오류의, 잘못된",
+      "example": "The argument was fallacious because it relied on false premises."
+    },
+    {
+      "id": "w23",
+      "word": "tautology",
+      "pronunciation": "/tɔːˈtɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "A statement that is true by necessity or by virtue of its logical form",
+      "translation": "동어반복, 항진명제",
+      "example": "The phrase 'free gift' is a tautology since gifts are by definition free."
+    },
+    {
+      "id": "w24",
+      "word": "verisimilitude",
+      "pronunciation": "/ˌverɪsɪˈmɪlɪtjuːd/",
+      "partOfSpeech": "noun",
+      "meaning": "The appearance of being true or real; likelihood",
+      "translation": "사실성, 진실성",
+      "example": "The novel's verisimilitude makes the fictional world feel authentic."
+    },
+    {
+      "id": "w25",
+      "word": "veridical",
+      "pronunciation": "/vəˈrɪdɪkəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Truthful; coinciding with reality",
+      "translation": "진실한, 정확한",
+      "example": "Veridical perception accurately represents the external world."
+    },
+    {
+      "id": "w26",
+      "word": "perspicacity",
+      "pronunciation": "/ˌpɜːspɪˈkæsɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "The quality of having a ready insight into things; shrewdness",
+      "translation": "통찰력, 명민함",
+      "example": "Her perspicacity in analyzing complex arguments was widely admired."
+    },
+    {
+      "id": "w27",
+      "word": "sagacity",
+      "pronunciation": "/səˈɡæsɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "The quality of being wise and showing good judgment",
+      "translation": "현명함, 지혜",
+      "example": "The philosopher's sagacity was evident in his nuanced treatment of ethical dilemmas."
+    },
+    {
+      "id": "w28",
+      "word": "erudition",
+      "pronunciation": "/ˌeruˈdɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "Profound knowledge acquired by extensive learning",
+      "translation": "박학, 학식",
+      "example": "The scholar's erudition encompassed classical literature, philosophy, and history."
+    },
+    {
+      "id": "w29",
+      "word": "recondite",
+      "pronunciation": "/ˈrekəndaɪt/",
+      "partOfSpeech": "adjective",
+      "meaning": "Little known; abstruse; dealing with very profound, difficult, or specialized subject matter",
+      "translation": "난해한, 심오한",
+      "example": "The professor's lecture on quantum mechanics was too recondite for most students."
+    },
+    {
+      "id": "w30",
+      "word": "abstruse",
+      "pronunciation": "/əbˈstruːs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Difficult to understand; obscure",
+      "translation": "난해한, 심오한",
+      "example": "The abstruse philosophical text required multiple readings to comprehend."
+    },
+    {
+      "id": "w31",
+      "word": "ineffable",
+      "pronunciation": "/ɪnˈefəbəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Too great or extreme to be expressed or described in words",
+      "translation": "형언할 수 없는, 말로 표현할 수 없는",
+      "example": "The mystic described an ineffable experience of unity with the divine."
+    },
+    {
+      "id": "w32",
+      "word": "inchoate",
+      "pronunciation": "/ɪnˈkəʊət/",
+      "partOfSpeech": "adjective",
+      "meaning": "Just begun and so not fully formed or developed; rudimentary",
+      "translation": "초기의, 미발달의",
+      "example": "The theory remained inchoate, lacking the rigor of a fully developed system."
+    },
+    {
+      "id": "w33",
+      "word": "liminal",
+      "pronunciation": "/ˈlɪmɪnəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to a transitional or initial stage; occupying a position at both sides of a boundary",
+      "translation": "경계의, 전환기의",
+      "example": "The liminal space between waking and sleeping fascinated the psychologist."
+    },
+    {
+      "id": "w34",
+      "word": "syncretic",
+      "pronunciation": "/sɪŋˈkretɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Characterized by the combination of different forms of belief or practice",
+      "translation": "융합적인, 혼합적인",
+      "example": "The syncretic philosophy blended Eastern and Western traditions."
+    },
+    {
+      "id": "w35",
+      "word": "polyvalent",
+      "pronunciation": "/ˌpɒliˈveɪlənt/",
+      "partOfSpeech": "adjective",
+      "meaning": "Having many different functions, forms, or facets; multivalent",
+      "translation": "다가의, 다면적인",
+      "example": "The polyvalent symbol carried multiple layers of meaning in the text."
+    },
+    {
+      "id": "w36",
+      "word": "exiguous",
+      "pronunciation": "/ɪɡˈzɪɡjuəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Very small in size or amount; meager",
+      "translation": "미미한, 부족한",
+      "example": "The exiguous evidence provided little support for the grand theory."
+    },
+    {
+      "id": "w37",
+      "word": "mendacious",
+      "pronunciation": "/menˈdeɪʃəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Not telling the truth; lying",
+      "translation": "거짓말하는, 허위의",
+      "example": "The mendacious politician's claims were thoroughly debunked by fact-checkers."
+    },
+    {
+      "id": "w38",
+      "word": "prevarication",
+      "pronunciation": "/prɪˌværɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "Evasion of the truth; intentional vagueness",
+      "translation": "얼버무림, 궤변",
+      "example": "The witness's prevarication made it difficult to ascertain the facts."
+    },
+    {
+      "id": "w39",
+      "word": "obfuscation",
+      "pronunciation": "/ˌɒbfʌˈskeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The action of making something obscure, unclear, or unintelligible",
+      "translation": "난해하게 함, 혼란",
+      "example": "The philosopher criticized the deliberate obfuscation in postmodern writing."
+    },
+    {
+      "id": "w40",
+      "word": "Byzantine",
+      "pronunciation": "/bɪˈzæntaɪn/",
+      "partOfSpeech": "adjective",
+      "meaning": "Excessively complicated, typically involving a great deal of administrative detail",
+      "translation": "복잡한, 난해한",
+      "example": "The Byzantine regulations made the process unnecessarily difficult."
+    },
+    {
+      "id": "w41",
+      "word": "casuistry",
+      "pronunciation": "/ˈkæzjuɪstri/",
+      "partOfSpeech": "noun",
+      "meaning": "The use of clever but unsound reasoning, especially in relation to moral questions",
+      "translation": "궤변, 궁색한 변론",
+      "example": "The theologian's casuistry attempted to justify the morally dubious action."
+    },
+    {
+      "id": "w42",
+      "word": "specious",
+      "pronunciation": "/ˈspiːʃəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Superficially plausible, but actually wrong; misleading in appearance",
+      "translation": "그럴듯한, 허울 좋은",
+      "example": "The specious argument appeared convincing but was fundamentally flawed."
+    },
+    {
+      "id": "w43",
+      "word": "tendentious",
+      "pronunciation": "/tenˈdenʃəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Expressing a particular point of view, especially a controversial one",
+      "translation": "편향된, 특정 경향을 띤",
+      "example": "The tendentious analysis revealed the author's ideological bias."
+    },
+    {
+      "id": "w44",
+      "word": "peremptory",
+      "pronunciation": "/pəˈremptəri/",
+      "partOfSpeech": "adjective",
+      "meaning": "Insisting on immediate attention or obedience; not open to appeal or challenge",
+      "translation": "단호한, 유예를 허락치 않는",
+      "example": "His peremptory dismissal of the counterargument suggested closed-mindedness."
+    },
+    {
+      "id": "w45",
+      "word": "heterodox",
+      "pronunciation": "/ˈhetərədɒks/",
+      "partOfSpeech": "adjective",
+      "meaning": "Not conforming with accepted or orthodox standards or beliefs",
+      "translation": "이단의, 비정통의",
+      "example": "The heterodox theologian challenged established religious doctrines."
+    },
+    {
+      "id": "w46",
+      "word": "orthodox",
+      "pronunciation": "/ˈɔːθədɒks/",
+      "partOfSpeech": "adjective",
+      "meaning": "Conforming to established doctrine, especially in religion",
+      "translation": "정통의, 전통적인",
+      "example": "Orthodox interpretations of the text dominated scholarly discourse for centuries."
+    },
+    {
+      "id": "w47",
+      "word": "dogmatic",
+      "pronunciation": "/dɒɡˈmætɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Inclined to lay down principles as incontrovertibly true",
+      "translation": "독단적인, 교조적인",
+      "example": "The dogmatic philosopher refused to consider alternative viewpoints."
+    },
+    {
+      "id": "w48",
+      "word": "scholastic",
+      "pronunciation": "/skəˈlæstɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to medieval scholasticism; excessively subtle or theoretical",
+      "translation": "스콜라 철학의, 학문적인",
+      "example": "The scholastic debate involved intricate logical distinctions and systematic argumentation."
+    },
+    {
+      "id": "w49",
+      "word": "apotheosis",
+      "pronunciation": "/əˌpɒθiˈəʊsɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "The highest point in the development of something; culmination or climax",
+      "translation": "절정, 신격화",
+      "example": "The final chapter represents the apotheosis of the philosophical system."
+    },
+    {
+      "id": "w50",
+      "word": "parsimony",
+      "pronunciation": "/ˈpɑːsɪməni/",
+      "partOfSpeech": "noun",
+      "meaning": "Extreme unwillingness to spend money or use resources; in philosophy, the principle that the simplest explanation is usually correct",
+      "translation": "간결성, 검약",
+      "example": "The principle of parsimony suggests we prefer the simplest theoretical explanation."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "Which word means 'relating to the logical discussion of ideas through opposing viewpoints'?",
+      "options": ["dialectical", "dogmatic", "orthodox", "peremptory"],
+      "correctAnswer": "dialectical",
+      "wordId": "w1"
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "What does 'teleological' refer to?",
+      "options": ["explanation based on purpose or end goal", "study of the mind", "interpretation of texts", "logical reasoning"],
+      "correctAnswer": "explanation based on purpose or end goal",
+      "wordId": "w2"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "An 'aporia' is best described as:",
+      "options": ["an irresolvable contradiction", "a clear conclusion", "a simple argument", "a factual statement"],
+      "correctAnswer": "an irresolvable contradiction",
+      "wordId": "w3"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "Which field does 'hermeneutic' relate to?",
+      "options": ["interpretation of texts", "mathematical logic", "physical sciences", "political theory"],
+      "correctAnswer": "interpretation of texts",
+      "wordId": "w4"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "What does 'phenomenological' study focus on?",
+      "options": ["consciousness and direct experience", "physical phenomena", "historical events", "social structures"],
+      "correctAnswer": "consciousness and direct experience",
+      "wordId": "w5"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "'Reification' means treating something abstract as:",
+      "options": ["a concrete thing", "an idea", "a theory", "a hypothesis"],
+      "correctAnswer": "a concrete thing",
+      "wordId": "w6"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "What does 'intersubjective' mean?",
+      "options": ["shared between conscious minds", "purely subjective", "objective reality", "individual perception"],
+      "correctAnswer": "shared between conscious minds",
+      "wordId": "w7"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "'Propinquity' refers to:",
+      "options": ["nearness or closeness", "distance", "opposition", "clarity"],
+      "correctAnswer": "nearness or closeness",
+      "wordId": "w8"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "An 'apodictic' statement is:",
+      "options": ["clearly established and true", "uncertain", "hypothetical", "conditional"],
+      "correctAnswer": "clearly established and true",
+      "wordId": "w9"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "What does 'noumenal' refer to in Kantian philosophy?",
+      "options": ["things as they are in themselves", "things as we perceive them", "moral principles", "logical truths"],
+      "correctAnswer": "things as they are in themselves",
+      "wordId": "w10"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "A 'heuristic' approach involves:",
+      "options": ["practical problem-solving methods", "theoretical speculation", "deductive reasoning", "emotional appeals"],
+      "correctAnswer": "practical problem-solving methods",
+      "wordId": "w11"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "'Sophistry' is characterized by:",
+      "options": ["clever but false arguments", "sound reasoning", "honest discourse", "empirical evidence"],
+      "correctAnswer": "clever but false arguments",
+      "wordId": "w12"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "'Exegesis' is the practice of:",
+      "options": ["critical interpretation of texts", "creative writing", "scientific experimentation", "political debate"],
+      "correctAnswer": "critical interpretation of texts",
+      "wordId": "w13"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "'Epistemology' is the study of:",
+      "options": ["knowledge and its foundations", "being and existence", "moral values", "beauty and art"],
+      "correctAnswer": "knowledge and its foundations",
+      "wordId": "w14"
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "An 'ontological' question concerns:",
+      "options": ["the nature of being", "the theory of knowledge", "ethical principles", "logical validity"],
+      "correctAnswer": "the nature of being",
+      "wordId": "w15"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "Something 'axiomatic' is:",
+      "options": ["self-evident and unquestionable", "debatable", "uncertain", "complex"],
+      "correctAnswer": "self-evident and unquestionable",
+      "wordId": "w16"
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "'Solipsism' is the view that:",
+      "options": ["only one's own mind is certain to exist", "all minds are interconnected", "reality is objective", "knowledge comes from experience"],
+      "correctAnswer": "only one's own mind is certain to exist",
+      "wordId": "w17"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "'Nihilism' involves the belief that:",
+      "options": ["life is meaningless", "life has inherent purpose", "truth is absolute", "morality is objective"],
+      "correctAnswer": "life is meaningless",
+      "wordId": "w18"
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "'Empiricism' holds that knowledge comes from:",
+      "options": ["sense experience", "innate ideas", "divine revelation", "logical deduction"],
+      "correctAnswer": "sense experience",
+      "wordId": "w19"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "'Rationalism' emphasizes:",
+      "options": ["reason as the source of knowledge", "sensory experience", "emotional intuition", "religious faith"],
+      "correctAnswer": "reason as the source of knowledge",
+      "wordId": "w20"
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "A 'syllogism' is a form of:",
+      "options": ["logical reasoning with two premises and a conclusion", "emotional appeal", "rhetorical question", "poetic device"],
+      "correctAnswer": "logical reasoning with two premises and a conclusion",
+      "wordId": "w21"
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "A 'fallacious' argument is:",
+      "options": ["based on faulty reasoning", "logically sound", "empirically verified", "morally correct"],
+      "correctAnswer": "based on faulty reasoning",
+      "wordId": "w22"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "A 'tautology' is a statement that is:",
+      "options": ["necessarily true by its form", "possibly false", "empirically testable", "morally significant"],
+      "correctAnswer": "necessarily true by its form",
+      "wordId": "w23"
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "'Verisimilitude' refers to:",
+      "options": ["the appearance of truth or reality", "absolute certainty", "logical validity", "moral goodness"],
+      "correctAnswer": "the appearance of truth or reality",
+      "wordId": "w24"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "'Perspicacity' is the quality of having:",
+      "options": ["keen insight and understanding", "physical strength", "emotional sensitivity", "artistic talent"],
+      "correctAnswer": "keen insight and understanding",
+      "wordId": "w26"
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "'Erudition' refers to:",
+      "options": ["profound scholarly knowledge", "practical skills", "emotional intelligence", "physical prowess"],
+      "correctAnswer": "profound scholarly knowledge",
+      "wordId": "w28"
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "Something 'recondite' is:",
+      "options": ["obscure and difficult to understand", "simple and clear", "popular and well-known", "superficial"],
+      "correctAnswer": "obscure and difficult to understand",
+      "wordId": "w29"
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "Something 'ineffable' is:",
+      "options": ["too great to be expressed in words", "easy to describe", "mundane", "concrete"],
+      "correctAnswer": "too great to be expressed in words",
+      "wordId": "w31"
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "'Mendacious' means:",
+      "options": ["dishonest and lying", "truthful", "neutral", "ambiguous"],
+      "correctAnswer": "dishonest and lying",
+      "wordId": "w37"
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "A 'specious' argument is:",
+      "options": ["superficially plausible but actually wrong", "genuinely valid", "obviously false", "emotionally moving"],
+      "correctAnswer": "superficially plausible but actually wrong",
+      "wordId": "w42"
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "question": "Hegel's __________ method examines opposing ideas to arrive at truth.",
+      "correctAnswer": "dialectical",
+      "wordId": "w1"
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "question": "The __________ argument for God's existence points to purpose and design in nature.",
+      "correctAnswer": "teleological",
+      "wordId": "w2"
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "question": "Derrida's philosophy often reveals the __________ within texts, showing internal contradictions.",
+      "correctAnswer": "aporia",
+      "wordId": "w3"
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "A __________ approach to scripture considers historical and cultural context.",
+      "correctAnswer": "hermeneutic",
+      "wordId": "w4"
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "Husserl's __________ method describes the structures of conscious experience.",
+      "correctAnswer": "phenomenological",
+      "wordId": "w5"
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "Marx criticized the __________ of social relations under capitalism.",
+      "correctAnswer": "reification",
+      "wordId": "w6"
+    },
+    {
+      "id": "ex37",
+      "type": "fill_blank",
+      "question": "Language creates __________ understanding between individuals.",
+      "correctAnswer": "intersubjective",
+      "wordId": "w7"
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "The __________ of these two theories led scholars to confuse them.",
+      "correctAnswer": "propinquity",
+      "wordId": "w8"
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "question": "Kant distinguished between __________ and assertoric judgments in his philosophy.",
+      "correctAnswer": "apodictic",
+      "wordId": "w9"
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "According to Kant, the __________ realm is unknowable through empirical observation.",
+      "correctAnswer": "noumenal",
+      "wordId": "w10"
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "The researcher used a __________ approach to solve the complex problem.",
+      "correctAnswer": "heuristic",
+      "wordId": "w11"
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "The lawyer's argument was dismissed as mere __________.",
+      "correctAnswer": "sophistry",
+      "wordId": "w12"
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "Biblical __________ requires knowledge of ancient languages and historical context.",
+      "correctAnswer": "exegesis",
+      "wordId": "w13"
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "Descartes' __________ begins with radical doubt and the cogito.",
+      "correctAnswer": "epistemology",
+      "wordId": "w14"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "The __________ argument attempts to prove God's existence from the concept alone.",
+      "correctAnswer": "ontological",
+      "wordId": "w15"
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "It is __________ that all humans deserve dignity and respect.",
+      "correctAnswer": "axiomatic",
+      "wordId": "w16"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "__________ poses a radical challenge to our assumptions about external reality.",
+      "correctAnswer": "Solipsism",
+      "wordId": "w17"
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "Nietzsche confronted the problem of __________ in modern civilization.",
+      "correctAnswer": "nihilism",
+      "wordId": "w18"
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "British __________ emphasizes that knowledge comes from sensory experience.",
+      "correctAnswer": "empiricism",
+      "wordId": "w19"
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "Continental __________ holds that reason is the chief source of knowledge.",
+      "correctAnswer": "rationalism",
+      "wordId": "w20"
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "A classic __________ follows the form: All A are B; C is A; therefore C is B.",
+      "correctAnswer": "syllogism",
+      "wordId": "w21"
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "The argument was __________ because it relied on false premises.",
+      "correctAnswer": "fallacious",
+      "wordId": "w22"
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "A __________ is a statement that is necessarily true by its logical form.",
+      "correctAnswer": "tautology",
+      "wordId": "w23"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "The novel's __________ makes the fictional world feel authentic and real.",
+      "correctAnswer": "verisimilitude",
+      "wordId": "w24"
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "__________ perception accurately represents the external world.",
+      "correctAnswer": "Veridical",
+      "wordId": "w25"
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "Her __________ in analyzing complex arguments was widely admired.",
+      "correctAnswer": "perspicacity",
+      "wordId": "w26"
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "The philosopher's __________ was evident in his nuanced ethical analysis.",
+      "correctAnswer": "sagacity",
+      "wordId": "w27"
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "The scholar's __________ encompassed classical literature, philosophy, and history.",
+      "correctAnswer": "erudition",
+      "wordId": "w28"
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "The __________ philosophical text required multiple readings to comprehend.",
+      "correctAnswer": "recondite",
+      "wordId": "w29"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "The __________ nature of the theory made it inaccessible to most readers.",
+      "correctAnswer": "abstruse",
+      "wordId": "w30"
+    },
+    {
+      "id": "ex61",
+      "type": "matching",
+      "question": "Match the philosophical terms with their meanings:",
+      "pairs": [
+        {"left": "dialectical", "right": "examining opposing ideas to find truth"},
+        {"left": "teleological", "right": "explanation based on purpose or goal"},
+        {"left": "hermeneutic", "right": "concerning interpretation of texts"},
+        {"left": "phenomenological", "right": "study of consciousness and experience"}
+      ],
+      "wordId": "w1"
+    },
+    {
+      "id": "ex62",
+      "type": "matching",
+      "question": "Match the terms with their definitions:",
+      "pairs": [
+        {"left": "aporia", "right": "irresolvable contradiction"},
+        {"left": "reification", "right": "treating abstraction as concrete thing"},
+        {"left": "propinquity", "right": "nearness or closeness"},
+        {"left": "intersubjective", "right": "shared between conscious minds"}
+      ],
+      "wordId": "w3"
+    },
+    {
+      "id": "ex63",
+      "type": "matching",
+      "question": "Match the Kantian terms:",
+      "pairs": [
+        {"left": "apodictic", "right": "clearly established as true"},
+        {"left": "noumenal", "right": "things as they are in themselves"},
+        {"left": "epistemology", "right": "theory of knowledge"},
+        {"left": "ontological", "right": "concerning nature of being"}
+      ],
+      "wordId": "w9"
+    },
+    {
+      "id": "ex64",
+      "type": "matching",
+      "question": "Match the reasoning terms:",
+      "pairs": [
+        {"left": "heuristic", "right": "practical problem-solving method"},
+        {"left": "sophistry", "right": "clever but false arguments"},
+        {"left": "syllogism", "right": "logical reasoning with premises"},
+        {"left": "fallacious", "right": "based on faulty reasoning"}
+      ],
+      "wordId": "w11"
+    },
+    {
+      "id": "ex65",
+      "type": "matching",
+      "question": "Match philosophical schools:",
+      "pairs": [
+        {"left": "empiricism", "right": "knowledge from sense experience"},
+        {"left": "rationalism", "right": "knowledge from reason"},
+        {"left": "solipsism", "right": "only one's mind exists"},
+        {"left": "nihilism", "right": "life is meaningless"}
+      ],
+      "wordId": "w17"
+    },
+    {
+      "id": "ex66",
+      "type": "matching",
+      "question": "Match the descriptive terms:",
+      "pairs": [
+        {"left": "axiomatic", "right": "self-evident and unquestionable"},
+        {"left": "tautology", "right": "necessarily true by form"},
+        {"left": "verisimilitude", "right": "appearance of truth"},
+        {"left": "veridical", "right": "truthful and accurate"}
+      ],
+      "wordId": "w16"
+    },
+    {
+      "id": "ex67",
+      "type": "matching",
+      "question": "Match intellectual qualities:",
+      "pairs": [
+        {"left": "perspicacity", "right": "keen insight"},
+        {"left": "sagacity", "right": "wisdom and good judgment"},
+        {"left": "erudition", "right": "profound scholarly knowledge"},
+        {"left": "recondite", "right": "obscure and difficult"}
+      ],
+      "wordId": "w26"
+    },
+    {
+      "id": "ex68",
+      "type": "matching",
+      "question": "Match the descriptive adjectives:",
+      "pairs": [
+        {"left": "abstruse", "right": "difficult to understand"},
+        {"left": "ineffable", "right": "beyond expression in words"},
+        {"left": "inchoate", "right": "not fully formed"},
+        {"left": "liminal", "right": "at a transitional stage"}
+      ],
+      "wordId": "w30"
+    },
+    {
+      "id": "ex69",
+      "type": "matching",
+      "question": "Match the complex terms:",
+      "pairs": [
+        {"left": "syncretic", "right": "combining different beliefs"},
+        {"left": "polyvalent", "right": "having many facets"},
+        {"left": "exiguous", "right": "very small or meager"},
+        {"left": "mendacious", "right": "not telling the truth"}
+      ],
+      "wordId": "w34"
+    },
+    {
+      "id": "ex70",
+      "type": "matching",
+      "question": "Match terms related to deception:",
+      "pairs": [
+        {"left": "prevarication", "right": "evasion of truth"},
+        {"left": "obfuscation", "right": "making something unclear"},
+        {"left": "casuistry", "right": "unsound moral reasoning"},
+        {"left": "specious", "right": "plausible but wrong"}
+      ],
+      "wordId": "w38"
+    },
+    {
+      "id": "ex71",
+      "type": "matching",
+      "question": "Match the final set of terms:",
+      "pairs": [
+        {"left": "tendentious", "right": "expressing controversial viewpoint"},
+        {"left": "peremptory", "right": "insisting on immediate obedience"},
+        {"left": "heterodox", "right": "not conforming to orthodoxy"},
+        {"left": "dogmatic", "right": "laying down principles as true"}
+      ],
+      "wordId": "w43"
+    },
+    {
+      "id": "ex72",
+      "type": "matching",
+      "question": "Match advanced vocabulary:",
+      "pairs": [
+        {"left": "orthodox", "right": "conforming to established doctrine"},
+        {"left": "scholastic", "right": "relating to medieval philosophy"},
+        {"left": "apotheosis", "right": "highest point or culmination"},
+        {"left": "parsimony", "right": "simplicity in explanation"}
+      ],
+      "wordId": "w46"
+    },
+    {
+      "id": "ex73",
+      "type": "matching",
+      "question": "Match philosophical methods:",
+      "pairs": [
+        {"left": "exegesis", "right": "critical interpretation"},
+        {"left": "Byzantine", "right": "excessively complicated"},
+        {"left": "dialectical", "right": "examining opposing ideas"},
+        {"left": "heuristic", "right": "practical discovery method"}
+      ],
+      "wordId": "w13"
+    },
+    {
+      "id": "ex74",
+      "type": "matching",
+      "question": "Match truth-related terms:",
+      "pairs": [
+        {"left": "veridical", "right": "coinciding with reality"},
+        {"left": "mendacious", "right": "lying and dishonest"},
+        {"left": "specious", "right": "superficially plausible"},
+        {"left": "fallacious", "right": "containing logical errors"}
+      ],
+      "wordId": "w25"
+    },
+    {
+      "id": "ex75",
+      "type": "matching",
+      "question": "Match abstract concepts:",
+      "pairs": [
+        {"left": "reification", "right": "treating abstraction as concrete"},
+        {"left": "aporia", "right": "irresolvable paradox"},
+        {"left": "ineffable", "right": "beyond words"},
+        {"left": "inchoate", "right": "rudimentary and undeveloped"}
+      ],
+      "wordId": "w6"
+    },
+    {
+      "id": "ex76",
+      "type": "matching",
+      "question": "Match knowledge-related terms:",
+      "pairs": [
+        {"left": "epistemology", "right": "study of knowledge"},
+        {"left": "empiricism", "right": "knowledge from experience"},
+        {"left": "rationalism", "right": "knowledge from reason"},
+        {"left": "perspicacity", "right": "keen insight"}
+      ],
+      "wordId": "w14"
+    },
+    {
+      "id": "ex77",
+      "type": "matching",
+      "question": "Match complexity-related terms:",
+      "pairs": [
+        {"left": "recondite", "right": "dealing with profound subjects"},
+        {"left": "abstruse", "right": "difficult to understand"},
+        {"left": "Byzantine", "right": "excessively complicated"},
+        {"left": "polyvalent", "right": "having multiple facets"}
+      ],
+      "wordId": "w29"
+    },
+    {
+      "id": "ex78",
+      "type": "matching",
+      "question": "Match wisdom-related terms:",
+      "pairs": [
+        {"left": "sagacity", "right": "wisdom and discernment"},
+        {"left": "erudition", "right": "extensive learning"},
+        {"left": "perspicacity", "right": "acute perception"},
+        {"left": "sophistry", "right": "deceptive reasoning"}
+      ],
+      "wordId": "w27"
+    },
+    {
+      "id": "ex79",
+      "type": "matching",
+      "question": "Match belief systems:",
+      "pairs": [
+        {"left": "solipsism", "right": "only mind exists"},
+        {"left": "nihilism", "right": "rejection of meaning"},
+        {"left": "orthodox", "right": "accepted doctrine"},
+        {"left": "heterodox", "right": "unorthodox beliefs"}
+      ],
+      "wordId": "w17"
+    },
+    {
+      "id": "ex80",
+      "type": "matching",
+      "question": "Match argumentative terms:",
+      "pairs": [
+        {"left": "dialectical", "right": "through opposing viewpoints"},
+        {"left": "syllogism", "right": "formal logical argument"},
+        {"left": "casuistry", "right": "questionable moral reasoning"},
+        {"left": "tendentious", "right": "biased presentation"}
+      ],
+      "wordId": "w1"
+    },
+    {
+      "id": "ex81",
+      "type": "translation_ko_en",
+      "question": "변증법적인",
+      "correctAnswer": "dialectical",
+      "wordId": "w1"
+    },
+    {
+      "id": "ex82",
+      "type": "translation_ko_en",
+      "question": "목적론적인",
+      "correctAnswer": "teleological",
+      "wordId": "w2"
+    },
+    {
+      "id": "ex83",
+      "type": "translation_ko_en",
+      "question": "아포리아, 난관",
+      "correctAnswer": "aporia",
+      "wordId": "w3"
+    },
+    {
+      "id": "ex84",
+      "type": "translation_ko_en",
+      "question": "해석학적인",
+      "correctAnswer": "hermeneutic",
+      "wordId": "w4"
+    },
+    {
+      "id": "ex85",
+      "type": "translation_ko_en",
+      "question": "현상학적인",
+      "correctAnswer": "phenomenological",
+      "wordId": "w5"
+    },
+    {
+      "id": "ex86",
+      "type": "translation_ko_en",
+      "question": "물화, 구체화",
+      "correctAnswer": "reification",
+      "wordId": "w6"
+    },
+    {
+      "id": "ex87",
+      "type": "translation_ko_en",
+      "question": "상호주관적인",
+      "correctAnswer": "intersubjective",
+      "wordId": "w7"
+    },
+    {
+      "id": "ex88",
+      "type": "translation_ko_en",
+      "question": "근접성, 유사성",
+      "correctAnswer": "propinquity",
+      "wordId": "w8"
+    },
+    {
+      "id": "ex89",
+      "type": "translation_ko_en",
+      "question": "명백한, 확실한",
+      "correctAnswer": "apodictic",
+      "wordId": "w9"
+    },
+    {
+      "id": "ex90",
+      "type": "translation_ko_en",
+      "question": "본체의, 물자체의",
+      "correctAnswer": "noumenal",
+      "wordId": "w10"
+    },
+    {
+      "id": "ex91",
+      "type": "translation_ko_en",
+      "question": "발견적인, 경험적인",
+      "correctAnswer": "heuristic",
+      "wordId": "w11"
+    },
+    {
+      "id": "ex92",
+      "type": "translation_ko_en",
+      "question": "궤변, 소피스트 논법",
+      "correctAnswer": "sophistry",
+      "wordId": "w12"
+    },
+    {
+      "id": "ex93",
+      "type": "translation_ko_en",
+      "question": "주석, 해석",
+      "correctAnswer": "exegesis",
+      "wordId": "w13"
+    },
+    {
+      "id": "ex94",
+      "type": "translation_ko_en",
+      "question": "인식론",
+      "correctAnswer": "epistemology",
+      "wordId": "w14"
+    },
+    {
+      "id": "ex95",
+      "type": "translation_ko_en",
+      "question": "존재론적인",
+      "correctAnswer": "ontological",
+      "wordId": "w15"
+    },
+    {
+      "id": "ex96",
+      "type": "translation_ko_en",
+      "question": "자명한, 공리적인",
+      "correctAnswer": "axiomatic",
+      "wordId": "w16"
+    },
+    {
+      "id": "ex97",
+      "type": "translation_ko_en",
+      "question": "유아론, 유심론",
+      "correctAnswer": "solipsism",
+      "wordId": "w17"
+    },
+    {
+      "id": "ex98",
+      "type": "translation_ko_en",
+      "question": "허무주의, 니힐리즘",
+      "correctAnswer": "nihilism",
+      "wordId": "w18"
+    },
+    {
+      "id": "ex99",
+      "type": "translation_ko_en",
+      "question": "경험주의",
+      "correctAnswer": "empiricism",
+      "wordId": "w19"
+    },
+    {
+      "id": "ex100",
+      "type": "translation_ko_en",
+      "question": "합리주의",
+      "correctAnswer": "rationalism",
+      "wordId": "w20"
+    },
+    {
+      "id": "ex101",
+      "type": "translation_ko_en",
+      "question": "삼단논법",
+      "correctAnswer": "syllogism",
+      "wordId": "w21"
+    },
+    {
+      "id": "ex102",
+      "type": "translation_ko_en",
+      "question": "오류의, 잘못된",
+      "correctAnswer": "fallacious",
+      "wordId": "w22"
+    },
+    {
+      "id": "ex103",
+      "type": "translation_ko_en",
+      "question": "동어반복, 항진명제",
+      "correctAnswer": "tautology",
+      "wordId": "w23"
+    },
+    {
+      "id": "ex104",
+      "type": "translation_ko_en",
+      "question": "사실성, 진실성",
+      "correctAnswer": "verisimilitude",
+      "wordId": "w24"
+    },
+    {
+      "id": "ex105",
+      "type": "translation_ko_en",
+      "question": "진실한, 정확한",
+      "correctAnswer": "veridical",
+      "wordId": "w25"
+    },
+    {
+      "id": "ex106",
+      "type": "translation_ko_en",
+      "question": "통찰력, 명민함",
+      "correctAnswer": "perspicacity",
+      "wordId": "w26"
+    },
+    {
+      "id": "ex107",
+      "type": "translation_ko_en",
+      "question": "현명함, 지혜",
+      "correctAnswer": "sagacity",
+      "wordId": "w27"
+    },
+    {
+      "id": "ex108",
+      "type": "translation_ko_en",
+      "question": "박학, 학식",
+      "correctAnswer": "erudition",
+      "wordId": "w28"
+    },
+    {
+      "id": "ex109",
+      "type": "translation_ko_en",
+      "question": "난해한, 심오한",
+      "correctAnswer": "recondite",
+      "wordId": "w29"
+    },
+    {
+      "id": "ex110",
+      "type": "translation_ko_en",
+      "question": "형언할 수 없는",
+      "correctAnswer": "ineffable",
+      "wordId": "w31"
+    },
+    {
+      "id": "ex111",
+      "type": "translation_en_ko",
+      "question": "dialectical",
+      "correctAnswer": "변증법적인",
+      "wordId": "w1"
+    },
+    {
+      "id": "ex112",
+      "type": "translation_en_ko",
+      "question": "teleological",
+      "correctAnswer": "목적론적인",
+      "wordId": "w2"
+    },
+    {
+      "id": "ex113",
+      "type": "translation_en_ko",
+      "question": "aporia",
+      "correctAnswer": "아포리아, 난관",
+      "wordId": "w3"
+    },
+    {
+      "id": "ex114",
+      "type": "translation_en_ko",
+      "question": "hermeneutic",
+      "correctAnswer": "해석학적인",
+      "wordId": "w4"
+    },
+    {
+      "id": "ex115",
+      "type": "translation_en_ko",
+      "question": "phenomenological",
+      "correctAnswer": "현상학적인",
+      "wordId": "w5"
+    },
+    {
+      "id": "ex116",
+      "type": "translation_en_ko",
+      "question": "reification",
+      "correctAnswer": "물화, 구체화",
+      "wordId": "w6"
+    },
+    {
+      "id": "ex117",
+      "type": "translation_en_ko",
+      "question": "intersubjective",
+      "correctAnswer": "상호주관적인",
+      "wordId": "w7"
+    },
+    {
+      "id": "ex118",
+      "type": "translation_en_ko",
+      "question": "propinquity",
+      "correctAnswer": "근접성, 유사성",
+      "wordId": "w8"
+    },
+    {
+      "id": "ex119",
+      "type": "translation_en_ko",
+      "question": "apodictic",
+      "correctAnswer": "명백한, 확실한",
+      "wordId": "w9"
+    },
+    {
+      "id": "ex120",
+      "type": "translation_en_ko",
+      "question": "noumenal",
+      "correctAnswer": "본체의, 물자체의",
+      "wordId": "w10"
+    },
+    {
+      "id": "ex121",
+      "type": "translation_en_ko",
+      "question": "heuristic",
+      "correctAnswer": "발견적인, 경험적인",
+      "wordId": "w11"
+    },
+    {
+      "id": "ex122",
+      "type": "translation_en_ko",
+      "question": "sophistry",
+      "correctAnswer": "궤변, 소피스트 논법",
+      "wordId": "w12"
+    },
+    {
+      "id": "ex123",
+      "type": "translation_en_ko",
+      "question": "exegesis",
+      "correctAnswer": "주석, 해석",
+      "wordId": "w13"
+    },
+    {
+      "id": "ex124",
+      "type": "translation_en_ko",
+      "question": "epistemology",
+      "correctAnswer": "인식론",
+      "wordId": "w14"
+    },
+    {
+      "id": "ex125",
+      "type": "translation_en_ko",
+      "question": "ontological",
+      "correctAnswer": "존재론적인",
+      "wordId": "w15"
+    },
+    {
+      "id": "ex126",
+      "type": "translation_en_ko",
+      "question": "axiomatic",
+      "correctAnswer": "자명한, 공리적인",
+      "wordId": "w16"
+    },
+    {
+      "id": "ex127",
+      "type": "translation_en_ko",
+      "question": "solipsism",
+      "correctAnswer": "유아론, 유심론",
+      "wordId": "w17"
+    },
+    {
+      "id": "ex128",
+      "type": "translation_en_ko",
+      "question": "nihilism",
+      "correctAnswer": "허무주의, 니힐리즘",
+      "wordId": "w18"
+    },
+    {
+      "id": "ex129",
+      "type": "translation_en_ko",
+      "question": "empiricism",
+      "correctAnswer": "경험주의",
+      "wordId": "w19"
+    },
+    {
+      "id": "ex130",
+      "type": "translation_en_ko",
+      "question": "rationalism",
+      "correctAnswer": "합리주의",
+      "wordId": "w20"
+    },
+    {
+      "id": "ex131",
+      "type": "translation_en_ko",
+      "question": "syllogism",
+      "correctAnswer": "삼단논법",
+      "wordId": "w21"
+    },
+    {
+      "id": "ex132",
+      "type": "translation_en_ko",
+      "question": "fallacious",
+      "correctAnswer": "오류의, 잘못된",
+      "wordId": "w22"
+    },
+    {
+      "id": "ex133",
+      "type": "translation_en_ko",
+      "question": "tautology",
+      "correctAnswer": "동어반복, 항진명제",
+      "wordId": "w23"
+    },
+    {
+      "id": "ex134",
+      "type": "translation_en_ko",
+      "question": "verisimilitude",
+      "correctAnswer": "사실성, 진실성",
+      "wordId": "w24"
+    },
+    {
+      "id": "ex135",
+      "type": "translation_en_ko",
+      "question": "veridical",
+      "correctAnswer": "진실한, 정확한",
+      "wordId": "w25"
+    },
+    {
+      "id": "ex136",
+      "type": "translation_en_ko",
+      "question": "perspicacity",
+      "correctAnswer": "통찰력, 명민함",
+      "wordId": "w26"
+    },
+    {
+      "id": "ex137",
+      "type": "translation_en_ko",
+      "question": "sagacity",
+      "correctAnswer": "현명함, 지혜",
+      "wordId": "w27"
+    },
+    {
+      "id": "ex138",
+      "type": "translation_en_ko",
+      "question": "erudition",
+      "correctAnswer": "박학, 학식",
+      "wordId": "w28"
+    },
+    {
+      "id": "ex139",
+      "type": "translation_en_ko",
+      "question": "recondite",
+      "correctAnswer": "난해한, 심오한",
+      "wordId": "w29"
+    },
+    {
+      "id": "ex140",
+      "type": "translation_en_ko",
+      "question": "abstruse",
+      "correctAnswer": "난해한, 심오한",
+      "wordId": "w30"
+    },
+    {
+      "id": "ex141",
+      "type": "fill_blank",
+      "question": "The mystic described an __________ experience that defied verbal description.",
+      "correctAnswer": "ineffable",
+      "wordId": "w31"
+    },
+    {
+      "id": "ex142",
+      "type": "fill_blank",
+      "question": "The theory remained __________, lacking full development and rigor.",
+      "correctAnswer": "inchoate",
+      "wordId": "w32"
+    },
+    {
+      "id": "ex143",
+      "type": "fill_blank",
+      "question": "The __________ space between categories fascinated the anthropologist.",
+      "correctAnswer": "liminal",
+      "wordId": "w33"
+    },
+    {
+      "id": "ex144",
+      "type": "fill_blank",
+      "question": "The __________ philosophy blended traditions from multiple cultures.",
+      "correctAnswer": "syncretic",
+      "wordId": "w34"
+    },
+    {
+      "id": "ex145",
+      "type": "fill_blank",
+      "question": "The __________ symbol carried multiple layers of interpretation.",
+      "correctAnswer": "polyvalent",
+      "wordId": "w35"
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "question": "The __________ evidence provided little support for the theory.",
+      "correctAnswer": "exiguous",
+      "wordId": "w36"
+    },
+    {
+      "id": "ex147",
+      "type": "fill_blank",
+      "question": "The __________ witness gave contradictory testimony.",
+      "correctAnswer": "mendacious",
+      "wordId": "w37"
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "question": "The lawyer's __________ made it difficult to determine the truth.",
+      "correctAnswer": "prevarication",
+      "wordId": "w38"
+    },
+    {
+      "id": "ex149",
+      "type": "fill_blank",
+      "question": "The deliberate __________ in the text frustrated readers seeking clarity.",
+      "correctAnswer": "obfuscation",
+      "wordId": "w39"
+    },
+    {
+      "id": "ex150",
+      "type": "fill_blank",
+      "question": "The principle of __________ favors simpler explanations over complex ones.",
+      "correctAnswer": "parsimony",
+      "wordId": "w50"
     }
   ]
 }

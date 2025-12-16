@@ -7,102 +7,1468 @@
   "description": "Sophisticated vocabulary for the highest levels of academic expression",
   "estimatedMinutes": 25,
   "xpReward": 55,
-  "items": [
+  "words": [
     {
-      "id": "c2-v8-1",
+      "id": "w1",
       "word": "aporia",
-      "definition": "A state of puzzlement or doubt; an irresolvable internal contradiction in a text or argument",
       "pronunciation": "/əˈpɔːriə/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "아포리아, 난제",
-      "example": "Derrida's reading reveals the aporia at the heart of Western metaphysics.",
-      "synonyms": ["paradox", "impasse", "perplexity"],
-      "antonyms": ["resolution", "clarity"],
-      "collocations": ["reach an aporia", "textual aporia", "Derridean aporia"]
+      "meaning": "A state of puzzlement or doubt; an irresolvable internal contradiction in a text or argument",
+      "translation": "아포리아, 난제",
+      "example": "Derrida's reading reveals the aporia at the heart of Western metaphysics."
     },
     {
-      "id": "c2-v8-2",
+      "id": "w2",
       "word": "chiasmus",
-      "definition": "A rhetorical figure in which two or more clauses are balanced against each other by reversing their structures",
       "pronunciation": "/kaɪˈæzməs/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "교차대구법",
-      "example": "'Ask not what your country can do for you; ask what you can do for your country' is a famous chiasmus.",
-      "synonyms": ["antimetabole", "reversal"],
-      "antonyms": [],
-      "collocations": ["rhetorical chiasmus", "employ chiasmus", "chiasmic structure"]
+      "meaning": "A rhetorical figure in which two or more clauses are balanced against each other by reversing their structures",
+      "translation": "교차대구법",
+      "example": "'Ask not what your country can do for you; ask what you can do for your country' is a famous chiasmus."
     },
     {
-      "id": "c2-v8-3",
+      "id": "w3",
       "word": "polysemy",
-      "definition": "The coexistence of multiple meanings for a single word or phrase",
       "pronunciation": "/pəˈlɪsəmi/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "다의성",
-      "example": "The polysemy of 'bank' (riverbank vs. financial institution) rarely causes confusion due to context.",
-      "synonyms": ["multiple meaning", "semantic ambiguity"],
-      "antonyms": ["monosemy", "univocality"],
-      "collocations": ["lexical polysemy", "systematic polysemy", "polysemic word"]
+      "meaning": "The coexistence of multiple meanings for a single word or phrase",
+      "translation": "다의성",
+      "example": "The polysemy of 'bank' (riverbank vs. financial institution) rarely causes confusion due to context."
     },
     {
-      "id": "c2-v8-4",
+      "id": "w4",
       "word": "dialectic",
-      "definition": "The process of arriving at truth through the exchange of logical arguments; thesis-antithesis-synthesis",
       "pronunciation": "/ˌdaɪəˈlektɪk/",
-      "partOfSpeech": "noun/adjective",
-      "koreanMeaning": "변증법",
-      "example": "Hegel's dialectic traces how contradictions drive historical development.",
-      "synonyms": ["dialogue", "logical argumentation"],
-      "antonyms": [],
-      "collocations": ["Hegelian dialectic", "dialectical method", "dialectical materialism"]
+      "partOfSpeech": "noun",
+      "meaning": "The process of arriving at truth through the exchange of logical arguments; thesis-antithesis-synthesis",
+      "translation": "변증법",
+      "example": "Hegel's dialectic traces how contradictions drive historical development."
     },
     {
-      "id": "c2-v8-5",
+      "id": "w5",
       "word": "intersubjectivity",
-      "definition": "The shared, overlapping understanding between conscious minds; collective meaning-making",
       "pronunciation": "/ˌɪntərsʌbdʒekˈtɪvəti/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "상호주관성",
-      "example": "Husserl argued that intersubjectivity is necessary for the constitution of objectivity.",
-      "synonyms": ["shared consciousness", "mutual understanding"],
-      "antonyms": ["solipsism", "subjectivity"],
-      "collocations": ["transcendental intersubjectivity", "intersubjective agreement", "intersubjective constitution"]
+      "meaning": "The shared, overlapping understanding between conscious minds; collective meaning-making",
+      "translation": "상호주관성",
+      "example": "Husserl argued that intersubjectivity is necessary for the constitution of objectivity."
     },
     {
-      "id": "c2-v8-6",
+      "id": "w6",
       "word": "teleology",
-      "definition": "The explanation of phenomena in terms of purposes or goals rather than causes",
       "pronunciation": "/ˌteliˈɒlədʒi/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "목적론",
-      "example": "Aristotle's teleology holds that natural entities have inherent purposes.",
-      "synonyms": ["finalism", "purpose-based explanation"],
-      "antonyms": ["mechanism", "causal explanation"],
-      "collocations": ["natural teleology", "teleological argument", "teleological explanation"]
+      "meaning": "The explanation of phenomena in terms of purposes or goals rather than causes",
+      "translation": "목적론",
+      "example": "Aristotle's teleology holds that natural entities have inherent purposes."
     },
     {
-      "id": "c2-v8-7",
+      "id": "w7",
       "word": "synecdoche",
-      "definition": "A figure of speech in which a part represents the whole or vice versa",
       "pronunciation": "/sɪˈnekdəki/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "제유법",
-      "example": "'All hands on deck' uses 'hands' as synecdoche for sailors.",
-      "synonyms": ["part for whole", "representative figure"],
-      "antonyms": [],
-      "collocations": ["rhetorical synecdoche", "use synecdoche", "synecdochic relation"]
+      "meaning": "A figure of speech in which a part represents the whole or vice versa",
+      "translation": "제유법",
+      "example": "'All hands on deck' uses 'hands' as synecdoche for sailors."
     },
     {
-      "id": "c2-v8-8",
+      "id": "w8",
       "word": "prolepsis",
-      "definition": "The representation of a future event as already accomplished; anticipation",
       "pronunciation": "/proʊˈlepsɪs/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "예시법, 선취법",
-      "example": "The novel's opening sentence is proleptic, revealing the ending before it occurs.",
-      "synonyms": ["anticipation", "flash-forward", "foreshadowing"],
-      "antonyms": ["analepsis", "flashback"],
-      "collocations": ["narrative prolepsis", "proleptic statement", "temporal prolepsis"]
+      "meaning": "The representation of a future event as already accomplished; anticipation",
+      "translation": "예시법, 선취법",
+      "example": "The novel's opening sentence is proleptic, revealing the ending before it occurs."
+    },
+    {
+      "id": "w9",
+      "word": "hermeneutics",
+      "pronunciation": "/ˌhɜːrmɪˈnuːtɪks/",
+      "partOfSpeech": "noun",
+      "meaning": "The theory and methodology of interpretation, especially of scriptural or literary texts",
+      "translation": "해석학",
+      "example": "Gadamer's hermeneutics emphasizes the role of prejudice and tradition in understanding."
+    },
+    {
+      "id": "w10",
+      "word": "phenomenology",
+      "pronunciation": "/fɪˌnɒmɪˈnɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "The philosophical study of structures of consciousness and experience from the first-person point of view",
+      "translation": "현상학",
+      "example": "Husserlian phenomenology seeks to describe phenomena as they appear to consciousness."
+    },
+    {
+      "id": "w11",
+      "word": "epistemology",
+      "pronunciation": "/ɪˌpɪstɪˈmɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "The branch of philosophy concerned with the theory of knowledge",
+      "translation": "인식론",
+      "example": "Contemporary epistemology grapples with questions of justified belief and the nature of truth."
+    },
+    {
+      "id": "w12",
+      "word": "ontology",
+      "pronunciation": "/ɒnˈtɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "The philosophical study of the nature of being, existence, or reality",
+      "translation": "존재론",
+      "example": "Heidegger's ontology investigates the meaning of Being through an analysis of Dasein."
+    },
+    {
+      "id": "w13",
+      "word": "syllogism",
+      "pronunciation": "/ˈsɪlədʒɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "A form of deductive reasoning consisting of a major premise, minor premise, and conclusion",
+      "translation": "삼단논법",
+      "example": "The classic syllogism 'All men are mortal; Socrates is a man; therefore Socrates is mortal' demonstrates valid deduction."
+    },
+    {
+      "id": "w14",
+      "word": "solipsism",
+      "pronunciation": "/ˈsɒlɪpsɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The philosophical theory that only one's own mind is sure to exist; extreme egocentrism",
+      "translation": "유아론, 유아독존론",
+      "example": "Descartes' method of doubt flirts with solipsism before establishing the existence of God."
+    },
+    {
+      "id": "w15",
+      "word": "axiom",
+      "pronunciation": "/ˈæksiəm/",
+      "partOfSpeech": "noun",
+      "meaning": "A statement or proposition regarded as self-evidently true without proof",
+      "translation": "공리, 자명한 이치",
+      "example": "Euclidean geometry is built upon five fundamental axioms."
+    },
+    {
+      "id": "w16",
+      "word": "heuristic",
+      "pronunciation": "/hjʊˈrɪstɪk/",
+      "partOfSpeech": "adjective/noun",
+      "meaning": "Enabling someone to discover or learn something for themselves; a problem-solving approach using practical methods",
+      "translation": "발견적인, 휴리스틱",
+      "example": "Cognitive scientists study heuristics as mental shortcuts that facilitate decision-making."
+    },
+    {
+      "id": "w17",
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "meaning": "A typical example or pattern; a worldview underlying theories and methodology of a particular scientific subject",
+      "translation": "패러다임, 전범",
+      "example": "Kuhn argued that scientific revolutions involve paradigm shifts that fundamentally restructure understanding."
+    },
+    {
+      "id": "w18",
+      "word": "exegesis",
+      "pronunciation": "/ˌeksɪˈdʒiːsɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "Critical explanation or interpretation of a text, especially religious scripture",
+      "translation": "주석, 해석",
+      "example": "Biblical exegesis requires knowledge of ancient languages, historical context, and theological frameworks."
+    },
+    {
+      "id": "w19",
+      "word": "sophistry",
+      "pronunciation": "/ˈsɒfɪstri/",
+      "partOfSpeech": "noun",
+      "meaning": "The use of clever but false arguments, especially with the intention of deceiving",
+      "translation": "궤변, 사변",
+      "example": "The politician's argument was dismissed as mere sophistry designed to obscure the real issues."
+    },
+    {
+      "id": "w20",
+      "word": "empiricism",
+      "pronunciation": "/ɪmˈpɪrɪsɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The theory that all knowledge is derived from sense-experience",
+      "translation": "경험론",
+      "example": "Locke's empiricism rejected the notion of innate ideas, arguing the mind begins as a tabula rasa."
+    },
+    {
+      "id": "w21",
+      "word": "pragmatism",
+      "pronunciation": "/ˈpræɡmətɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "A philosophical approach that evaluates theories or beliefs in terms of the success of their practical application",
+      "translation": "실용주의",
+      "example": "William James's pragmatism holds that truth is what works in practice."
+    },
+    {
+      "id": "w22",
+      "word": "deconstruction",
+      "pronunciation": "/ˌdiːkənˈstrʌkʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "A method of critical analysis that questions traditional assumptions about certainty, identity, and truth",
+      "translation": "해체주의",
+      "example": "Derrida's deconstruction exposes the inherent instability of meaning in texts."
+    },
+    {
+      "id": "w23",
+      "word": "postmodernism",
+      "pronunciation": "/ˌpoʊstˈmɒdərnɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "A late 20th-century movement characterized by skepticism toward grand narratives and objective truth",
+      "translation": "포스트모더니즘",
+      "example": "Lyotard defined postmodernism as incredulity toward metanarratives."
+    },
+    {
+      "id": "w24",
+      "word": "verisimilitude",
+      "pronunciation": "/ˌverɪsɪˈmɪlɪtjuːd/",
+      "partOfSpeech": "noun",
+      "meaning": "The appearance of being true or real; lifelikeness",
+      "translation": "진실성, 사실성",
+      "example": "The novel's verisimilitude derives from its meticulous attention to historical detail."
+    },
+    {
+      "id": "w25",
+      "word": "rhetoric",
+      "pronunciation": "/ˈretərɪk/",
+      "partOfSpeech": "noun",
+      "meaning": "The art of effective or persuasive speaking or writing",
+      "translation": "수사학",
+      "example": "Classical rhetoric comprised five canons: invention, arrangement, style, memory, and delivery."
+    },
+    {
+      "id": "w26",
+      "word": "semantics",
+      "pronunciation": "/sɪˈmæntɪks/",
+      "partOfSpeech": "noun",
+      "meaning": "The branch of linguistics concerned with meaning",
+      "translation": "의미론",
+      "example": "Formal semantics provides logical models for analyzing sentence meaning."
+    },
+    {
+      "id": "w27",
+      "word": "pragmatics",
+      "pronunciation": "/præɡˈmætɪks/",
+      "partOfSpeech": "noun",
+      "meaning": "The branch of linguistics dealing with language in use and the contexts in which it is used",
+      "translation": "화용론",
+      "example": "Pragmatics examines how context influences the interpretation of utterances."
+    },
+    {
+      "id": "w28",
+      "word": "deixis",
+      "pronunciation": "/ˈdaɪksɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "The use of words whose reference depends on context (here, there, now, then, I, you)",
+      "translation": "직시, 지시",
+      "example": "The interpretation of deictic expressions like 'here' and 'now' requires knowledge of the speaker's spatiotemporal location."
+    },
+    {
+      "id": "w29",
+      "word": "metonymy",
+      "pronunciation": "/mɪˈtɒnɪmi/",
+      "partOfSpeech": "noun",
+      "meaning": "A figure of speech in which something is referred to by the name of something associated with it",
+      "translation": "환유법",
+      "example": "'The White House announced' uses metonymy, referring to the administration by its location."
+    },
+    {
+      "id": "w30",
+      "word": "euphemism",
+      "pronunciation": "/ˈjuːfəmɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "A mild or indirect word substituted for one considered harsh or blunt",
+      "translation": "완곡어법",
+      "example": "'Passed away' is a euphemism for 'died' that softens the emotional impact."
+    },
+    {
+      "id": "w31",
+      "word": "hyperbole",
+      "pronunciation": "/haɪˈpɜːrbəli/",
+      "partOfSpeech": "noun",
+      "meaning": "Exaggerated statements not meant to be taken literally",
+      "translation": "과장법",
+      "example": "'I've told you a million times' employs hyperbole for emphasis."
+    },
+    {
+      "id": "w32",
+      "word": "oxymoron",
+      "pronunciation": "/ˌɒksɪˈmɔːrɒn/",
+      "partOfSpeech": "noun",
+      "meaning": "A figure of speech that combines contradictory terms",
+      "translation": "모순어법",
+      "example": "'Deafening silence' is an oxymoron that conveys the intensity of quiet."
+    },
+    {
+      "id": "w33",
+      "word": "pleonasm",
+      "pronunciation": "/ˈpliːənæzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The use of more words than necessary; redundancy for rhetorical effect",
+      "translation": "군더더기, 중복어법",
+      "example": "'Free gift' is a pleonasm since gifts are inherently free."
+    },
+    {
+      "id": "w34",
+      "word": "anachronism",
+      "pronunciation": "/əˈnækrənɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "Something placed in an incorrect historical period; chronological inconsistency",
+      "translation": "시대착오",
+      "example": "The film's anachronism—a wristwatch in ancient Rome—broke the historical immersion."
+    },
+    {
+      "id": "w35",
+      "word": "pedagogy",
+      "pronunciation": "/ˈpedəɡɒdʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "The method and practice of teaching, especially as an academic subject or theoretical concept",
+      "translation": "교육학, 교수법",
+      "example": "Constructivist pedagogy emphasizes active learning through discovery and problem-solving."
+    },
+    {
+      "id": "w36",
+      "word": "zeitgeist",
+      "pronunciation": "/ˈtsaɪtɡaɪst/",
+      "partOfSpeech": "noun",
+      "meaning": "The defining spirit or mood of a particular period of history as shown by the ideas and beliefs of the time",
+      "translation": "시대정신",
+      "example": "The Romantic movement captured the zeitgeist of early 19th-century Europe."
+    },
+    {
+      "id": "w37",
+      "word": "schadenfreude",
+      "pronunciation": "/ˈʃɑːdənfrɔɪdə/",
+      "partOfSpeech": "noun",
+      "meaning": "Pleasure derived from another person's misfortune",
+      "translation": "샤덴프로이데, 타인의 불행을 보고 느끼는 즐거움",
+      "example": "His schadenfreude at his rival's failure revealed an unseemly character trait."
+    },
+    {
+      "id": "w38",
+      "word": "weltanschauung",
+      "pronunciation": "/ˈveltˌɑːnʃaʊʊŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "A comprehensive worldview or philosophy of life",
+      "translation": "세계관",
+      "example": "Nietzsche's weltanschauung challenged conventional morality and championed individual will."
+    },
+    {
+      "id": "w39",
+      "word": "nomenclature",
+      "pronunciation": "/nəˈmenklətʃər/",
+      "partOfSpeech": "noun",
+      "meaning": "The devising or choosing of names for things, especially in science; a system of names",
+      "translation": "명명법, 명명체계",
+      "example": "Linnaean nomenclature provides a standardized system for classifying organisms."
+    },
+    {
+      "id": "w40",
+      "word": "taxonomy",
+      "pronunciation": "/tækˈsɒnəmi/",
+      "partOfSpeech": "noun",
+      "meaning": "The practice of classification according to general laws or principles; a scheme of classification",
+      "translation": "분류학, 분류체계",
+      "example": "Bloom's taxonomy of educational objectives hierarchically organizes cognitive skills."
+    },
+    {
+      "id": "w41",
+      "word": "substantiate",
+      "pronunciation": "/səbˈstænʃieɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To provide evidence to support or prove the truth of something",
+      "translation": "입증하다, 실증하다",
+      "example": "The researcher substantiated her hypothesis with rigorous experimental data."
+    },
+    {
+      "id": "w42",
+      "word": "corroborate",
+      "pronunciation": "/kəˈrɒbəreɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To confirm or give support to a statement, theory, or finding",
+      "translation": "확증하다, 뒷받침하다",
+      "example": "Independent witnesses corroborated the defendant's alibi."
+    },
+    {
+      "id": "w43",
+      "word": "refute",
+      "pronunciation": "/rɪˈfjuːt/",
+      "partOfSpeech": "verb",
+      "meaning": "To prove a statement or theory to be wrong or false; disprove",
+      "translation": "반박하다, 논박하다",
+      "example": "The scientist refuted the prevailing theory with compelling counterevidence."
+    },
+    {
+      "id": "w44",
+      "word": "extrapolate",
+      "pronunciation": "/ɪkˈstræpəleɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To extend the application of a method or conclusion to an unknown situation by assuming existing trends will continue",
+      "translation": "추론하다, 외삽하다",
+      "example": "From current demographic trends, we can extrapolate future population distributions."
+    },
+    {
+      "id": "w45",
+      "word": "obfuscate",
+      "pronunciation": "/ˈɒbfʌskeɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To render obscure, unclear, or unintelligible; deliberately confuse",
+      "translation": "혼란스럽게 하다, 난독화하다",
+      "example": "The politician's verbose response appeared designed to obfuscate rather than clarify."
+    },
+    {
+      "id": "w46",
+      "word": "elucidate",
+      "pronunciation": "/ɪˈluːsɪdeɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To make something clear; explain",
+      "translation": "명료하게 설명하다, 해명하다",
+      "example": "The professor elucidated the complex theorem with concrete examples."
+    },
+    {
+      "id": "w47",
+      "word": "juxtapose",
+      "pronunciation": "/ˌdʒʌkstəˈpoʊz/",
+      "partOfSpeech": "verb",
+      "meaning": "To place close together for contrasting effect",
+      "translation": "병치하다, 나란히 놓다",
+      "example": "The filmmaker juxtaposed scenes of luxury and poverty to highlight inequality."
+    },
+    {
+      "id": "w48",
+      "word": "quantify",
+      "pronunciation": "/ˈkwɒntɪfaɪ/",
+      "partOfSpeech": "verb",
+      "meaning": "To express or measure the quantity of something",
+      "translation": "수량화하다, 정량화하다",
+      "example": "It is difficult to quantify the impact of art on societal well-being."
+    },
+    {
+      "id": "w49",
+      "word": "synthesize",
+      "pronunciation": "/ˈsɪnθəsaɪz/",
+      "partOfSpeech": "verb",
+      "meaning": "To combine various components or elements to form a connected whole",
+      "translation": "종합하다, 통합하다",
+      "example": "The dissertation synthesizes insights from multiple theoretical frameworks."
+    },
+    {
+      "id": "w50",
+      "word": "contextualize",
+      "pronunciation": "/kənˈtekstʃuəlaɪz/",
+      "partOfSpeech": "verb",
+      "meaning": "To place or study something in context, in order to understand it fully",
+      "translation": "맥락화하다, 상황에 맞추어 설명하다",
+      "example": "Historical events must be contextualized within their broader social and political frameworks."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "Which term refers to an irresolvable contradiction in a text or argument?",
+      "options": ["Aporia", "Chiasmus", "Syllogism", "Deixis"],
+      "correctAnswer": "Aporia"
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "What is the rhetorical device where clauses are balanced by reversing their structures?",
+      "options": ["Synecdoche", "Chiasmus", "Metonymy", "Pleonasm"],
+      "correctAnswer": "Chiasmus"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "The coexistence of multiple meanings for a single word is called:",
+      "options": ["Polysemy", "Taxonomy", "Nomenclature", "Semantics"],
+      "correctAnswer": "Polysemy"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "Which philosophical method involves thesis-antithesis-synthesis?",
+      "options": ["Empiricism", "Dialectic", "Pragmatism", "Solipsism"],
+      "correctAnswer": "Dialectic"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "The shared understanding between conscious minds is called:",
+      "options": ["Intersubjectivity", "Phenomenology", "Ontology", "Hermeneutics"],
+      "correctAnswer": "Intersubjectivity"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "Which term describes explanation in terms of purposes rather than causes?",
+      "options": ["Teleology", "Epistemology", "Axiom", "Paradigm"],
+      "correctAnswer": "Teleology"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "A figure of speech where a part represents the whole is:",
+      "options": ["Hyperbole", "Synecdoche", "Euphemism", "Oxymoron"],
+      "correctAnswer": "Synecdoche"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "Anticipating or representing a future event as already accomplished is:",
+      "options": ["Prolepsis", "Anachronism", "Exegesis", "Sophistry"],
+      "correctAnswer": "Prolepsis"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "The theory and methodology of interpretation is known as:",
+      "options": ["Hermeneutics", "Rhetoric", "Pragmatics", "Deconstruction"],
+      "correctAnswer": "Hermeneutics"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "The philosophical study of structures of consciousness from the first-person view:",
+      "options": ["Epistemology", "Ontology", "Phenomenology", "Pedagogy"],
+      "correctAnswer": "Phenomenology"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "The branch of philosophy concerned with the theory of knowledge is:",
+      "options": ["Epistemology", "Ontology", "Teleology", "Taxonomy"],
+      "correctAnswer": "Epistemology"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "The philosophical study of being, existence, or reality is:",
+      "options": ["Phenomenology", "Epistemology", "Ontology", "Empiricism"],
+      "correctAnswer": "Ontology"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "A form of deductive reasoning with major premise, minor premise, and conclusion:",
+      "options": ["Heuristic", "Syllogism", "Axiom", "Dialectic"],
+      "correctAnswer": "Syllogism"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "The theory that only one's own mind is sure to exist is:",
+      "options": ["Solipsism", "Empiricism", "Pragmatism", "Postmodernism"],
+      "correctAnswer": "Solipsism"
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "A self-evident truth requiring no proof is called:",
+      "options": ["Paradigm", "Axiom", "Sophistry", "Verisimilitude"],
+      "correctAnswer": "Axiom"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "A problem-solving approach using practical mental shortcuts is:",
+      "options": ["Heuristic", "Paradigm", "Syllogism", "Exegesis"],
+      "correctAnswer": "Heuristic"
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "A worldview underlying theories and methodology of a scientific subject:",
+      "options": ["Weltanschauung", "Paradigm", "Zeitgeist", "Nomenclature"],
+      "correctAnswer": "Paradigm"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "Critical explanation or interpretation of a text is:",
+      "options": ["Exegesis", "Sophistry", "Deconstruction", "Rhetoric"],
+      "correctAnswer": "Exegesis"
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "The use of clever but false arguments to deceive is:",
+      "options": ["Sophistry", "Rhetoric", "Dialectic", "Pragmatism"],
+      "correctAnswer": "Sophistry"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "The theory that all knowledge is derived from sense-experience:",
+      "options": ["Rationalism", "Empiricism", "Idealism", "Pragmatism"],
+      "correctAnswer": "Empiricism"
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "A philosophy that evaluates beliefs by their practical application:",
+      "options": ["Empiricism", "Pragmatism", "Postmodernism", "Deconstruction"],
+      "correctAnswer": "Pragmatism"
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "A method questioning traditional assumptions about certainty and truth:",
+      "options": ["Hermeneutics", "Phenomenology", "Deconstruction", "Exegesis"],
+      "correctAnswer": "Deconstruction"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "Skepticism toward grand narratives and objective truth characterizes:",
+      "options": ["Modernism", "Postmodernism", "Empiricism", "Rationalism"],
+      "correctAnswer": "Postmodernism"
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "The appearance of being true or real; lifelikeness:",
+      "options": ["Verisimilitude", "Authenticity", "Paradigm", "Nomenclature"],
+      "correctAnswer": "Verisimilitude"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "The art of effective or persuasive speaking or writing is:",
+      "options": ["Semantics", "Pragmatics", "Rhetoric", "Pedagogy"],
+      "correctAnswer": "Rhetoric"
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "The branch of linguistics concerned with meaning is:",
+      "options": ["Semantics", "Pragmatics", "Phonetics", "Syntax"],
+      "correctAnswer": "Semantics"
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "The study of language in use and context is:",
+      "options": ["Semantics", "Pragmatics", "Syntax", "Morphology"],
+      "correctAnswer": "Pragmatics"
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "Words whose reference depends on context (here, now, I, you) demonstrate:",
+      "options": ["Polysemy", "Deixis", "Metonymy", "Synecdoche"],
+      "correctAnswer": "Deixis"
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "Referring to something by the name of something associated with it is:",
+      "options": ["Metaphor", "Metonymy", "Synecdoche", "Simile"],
+      "correctAnswer": "Metonymy"
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "A mild word substituted for one considered harsh or blunt is:",
+      "options": ["Euphemism", "Hyperbole", "Pleonasm", "Oxymoron"],
+      "correctAnswer": "Euphemism"
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "question": "Derrida's reading reveals the _____ at the heart of Western metaphysics.",
+      "correctAnswer": "aporia"
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "question": "Kennedy's famous speech employs _____ with its reversed clause structure.",
+      "correctAnswer": "chiasmus"
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "question": "The _____ of the word 'run' allows it to mean both 'to jog' and 'to manage.'",
+      "correctAnswer": "polysemy"
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "Hegel's _____ proceeds through thesis, antithesis, and synthesis.",
+      "correctAnswer": "dialectic"
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "Husserl argued that _____ is necessary for the constitution of objectivity.",
+      "correctAnswer": "intersubjectivity"
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "Aristotle's _____ holds that natural entities have inherent purposes.",
+      "correctAnswer": "teleology"
+    },
+    {
+      "id": "ex37",
+      "type": "fill_blank",
+      "question": "'All hands on deck' uses _____ to represent sailors by their body parts.",
+      "correctAnswer": "synecdoche"
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "The narrative technique of _____ reveals the ending before it chronologically occurs.",
+      "correctAnswer": "prolepsis"
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "question": "Gadamer's _____ emphasizes the role of prejudice in understanding.",
+      "correctAnswer": "hermeneutics"
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "Husserlian _____ describes phenomena as they appear to consciousness.",
+      "correctAnswer": "phenomenology"
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "Contemporary _____ grapples with questions of justified belief and truth.",
+      "correctAnswer": "epistemology"
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "Heidegger's _____ investigates the meaning of Being through Dasein.",
+      "correctAnswer": "ontology"
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "The classic _____ demonstrates: All men are mortal; Socrates is a man; therefore Socrates is mortal.",
+      "correctAnswer": "syllogism"
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "Descartes' method of doubt flirts with _____ before establishing God's existence.",
+      "correctAnswer": "solipsism"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "Euclidean geometry is built upon five fundamental _____.",
+      "correctAnswer": "axioms"
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "Cognitive scientists study _____ as mental shortcuts that facilitate decision-making.",
+      "correctAnswer": "heuristics"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "Kuhn argued that scientific revolutions involve _____ shifts.",
+      "correctAnswer": "paradigm"
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "Biblical _____ requires knowledge of ancient languages and historical context.",
+      "correctAnswer": "exegesis"
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "The politician's argument was dismissed as mere _____ designed to deceive.",
+      "correctAnswer": "sophistry"
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "Locke's _____ rejected innate ideas, arguing the mind begins as a blank slate.",
+      "correctAnswer": "empiricism"
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "William James's _____ holds that truth is what works in practice.",
+      "correctAnswer": "pragmatism"
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "Derrida's _____ exposes the inherent instability of meaning in texts.",
+      "correctAnswer": "deconstruction"
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "Lyotard defined _____ as incredulity toward metanarratives.",
+      "correctAnswer": "postmodernism"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "The novel's _____ derives from its meticulous attention to historical detail.",
+      "correctAnswer": "verisimilitude"
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "Classical _____ comprised five canons: invention, arrangement, style, memory, and delivery.",
+      "correctAnswer": "rhetoric"
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "Formal _____ provides logical models for analyzing sentence meaning.",
+      "correctAnswer": "semantics"
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "_____ examines how context influences the interpretation of utterances.",
+      "correctAnswer": "Pragmatics"
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "The interpretation of _____ expressions like 'here' and 'now' requires contextual knowledge.",
+      "correctAnswer": "deictic"
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "'The White House announced' uses _____ to refer to the administration.",
+      "correctAnswer": "metonymy"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "'Passed away' is a _____ for 'died' that softens emotional impact.",
+      "correctAnswer": "euphemism"
+    },
+    {
+      "id": "ex61",
+      "type": "matching",
+      "prompt": "Match the term with its definition:",
+      "pairs": [
+        {"left": "Hyperbole", "right": "Exaggerated statements not meant literally"},
+        {"left": "Oxymoron", "right": "Combination of contradictory terms"},
+        {"left": "Pleonasm", "right": "Use of redundant words"},
+        {"left": "Anachronism", "right": "Something placed in wrong historical period"}
+      ]
+    },
+    {
+      "id": "ex62",
+      "type": "matching",
+      "prompt": "Match the philosophical term with its focus:",
+      "pairs": [
+        {"left": "Epistemology", "right": "Theory of knowledge"},
+        {"left": "Ontology", "right": "Study of being and existence"},
+        {"left": "Phenomenology", "right": "Structures of consciousness"},
+        {"left": "Hermeneutics", "right": "Theory of interpretation"}
+      ]
+    },
+    {
+      "id": "ex63",
+      "type": "matching",
+      "prompt": "Match the rhetorical device with its description:",
+      "pairs": [
+        {"left": "Synecdoche", "right": "Part represents whole"},
+        {"left": "Metonymy", "right": "Associated name substitution"},
+        {"left": "Chiasmus", "right": "Reversed clause structure"},
+        {"left": "Euphemism", "right": "Mild word for harsh one"}
+      ]
+    },
+    {
+      "id": "ex64",
+      "type": "matching",
+      "prompt": "Match the academic term with its meaning:",
+      "pairs": [
+        {"left": "Pedagogy", "right": "Method and practice of teaching"},
+        {"left": "Taxonomy", "right": "Classification system"},
+        {"left": "Nomenclature", "right": "System of naming"},
+        {"left": "Paradigm", "right": "Conceptual worldview"}
+      ]
+    },
+    {
+      "id": "ex65",
+      "type": "matching",
+      "prompt": "Match the linguistic term with its definition:",
+      "pairs": [
+        {"left": "Semantics", "right": "Study of meaning"},
+        {"left": "Pragmatics", "right": "Study of language in context"},
+        {"left": "Polysemy", "right": "Multiple word meanings"},
+        {"left": "Deixis", "right": "Context-dependent reference"}
+      ]
+    },
+    {
+      "id": "ex66",
+      "type": "matching",
+      "prompt": "Match the philosophical school with its principle:",
+      "pairs": [
+        {"left": "Empiricism", "right": "Knowledge from sense-experience"},
+        {"left": "Pragmatism", "right": "Truth is what works in practice"},
+        {"left": "Solipsism", "right": "Only one's mind exists"},
+        {"left": "Postmodernism", "right": "Skepticism toward grand narratives"}
+      ]
+    },
+    {
+      "id": "ex67",
+      "type": "matching",
+      "prompt": "Match the German philosophical term with its meaning:",
+      "pairs": [
+        {"left": "Zeitgeist", "right": "Spirit of the age"},
+        {"left": "Schadenfreude", "right": "Pleasure from others' misfortune"},
+        {"left": "Weltanschauung", "right": "Comprehensive worldview"},
+        {"left": "Dialectic", "right": "Thesis-antithesis-synthesis"}
+      ]
+    },
+    {
+      "id": "ex68",
+      "type": "matching",
+      "prompt": "Match the verb with its meaning:",
+      "pairs": [
+        {"left": "Substantiate", "right": "Provide evidence to support"},
+        {"left": "Corroborate", "right": "Confirm or give support"},
+        {"left": "Refute", "right": "Prove wrong or false"},
+        {"left": "Extrapolate", "right": "Extend to unknown situation"}
+      ]
+    },
+    {
+      "id": "ex69",
+      "type": "matching",
+      "prompt": "Match the analytical verb with its definition:",
+      "pairs": [
+        {"left": "Obfuscate", "right": "Make unclear or confusing"},
+        {"left": "Elucidate", "right": "Make clear; explain"},
+        {"left": "Juxtapose", "right": "Place together for contrast"},
+        {"left": "Contextualize", "right": "Place in context to understand"}
+      ]
+    },
+    {
+      "id": "ex70",
+      "type": "matching",
+      "prompt": "Match the term with its area of study:",
+      "pairs": [
+        {"left": "Exegesis", "right": "Critical interpretation of texts"},
+        {"left": "Rhetoric", "right": "Art of persuasive communication"},
+        {"left": "Deconstruction", "right": "Questioning traditional assumptions"},
+        {"left": "Teleology", "right": "Purpose-based explanation"}
+      ]
+    },
+    {
+      "id": "ex71",
+      "type": "matching",
+      "prompt": "Match the concept with its characteristic:",
+      "pairs": [
+        {"left": "Axiom", "right": "Self-evident truth"},
+        {"left": "Syllogism", "right": "Deductive reasoning form"},
+        {"left": "Heuristic", "right": "Practical problem-solving method"},
+        {"left": "Sophistry", "right": "False but clever arguments"}
+      ]
+    },
+    {
+      "id": "ex72",
+      "type": "matching",
+      "prompt": "Match the literary/rhetorical term:",
+      "pairs": [
+        {"left": "Prolepsis", "right": "Anticipating future events"},
+        {"left": "Verisimilitude", "right": "Appearance of truth or reality"},
+        {"left": "Aporia", "right": "Irresolvable contradiction"},
+        {"left": "Anachronism", "right": "Chronological inconsistency"}
+      ]
+    },
+    {
+      "id": "ex73",
+      "type": "matching",
+      "prompt": "Match the process verb with its meaning:",
+      "pairs": [
+        {"left": "Quantify", "right": "Express as quantity"},
+        {"left": "Synthesize", "right": "Combine into coherent whole"},
+        {"left": "Substantiate", "right": "Support with evidence"},
+        {"left": "Elucidate", "right": "Clarify or explain"}
+      ]
+    },
+    {
+      "id": "ex74",
+      "type": "matching",
+      "prompt": "Match the field with its focus:",
+      "pairs": [
+        {"left": "Ontology", "right": "Nature of being"},
+        {"left": "Epistemology", "right": "Nature of knowledge"},
+        {"left": "Teleology", "right": "Purpose and goals"},
+        {"left": "Phenomenology", "right": "Conscious experience"}
+      ]
+    },
+    {
+      "id": "ex75",
+      "type": "matching",
+      "prompt": "Match the rhetorical figure:",
+      "pairs": [
+        {"left": "Hyperbole", "right": "Extreme exaggeration"},
+        {"left": "Oxymoron", "right": "Contradictory combination"},
+        {"left": "Euphemism", "right": "Softened expression"},
+        {"left": "Pleonasm", "right": "Unnecessary redundancy"}
+      ]
+    },
+    {
+      "id": "ex76",
+      "type": "translation_ko_en",
+      "koreanText": "아포리아",
+      "correctAnswer": "aporia"
+    },
+    {
+      "id": "ex77",
+      "type": "translation_ko_en",
+      "koreanText": "교차대구법",
+      "correctAnswer": "chiasmus"
+    },
+    {
+      "id": "ex78",
+      "type": "translation_ko_en",
+      "koreanText": "다의성",
+      "correctAnswer": "polysemy"
+    },
+    {
+      "id": "ex79",
+      "type": "translation_ko_en",
+      "koreanText": "변증법",
+      "correctAnswer": "dialectic"
+    },
+    {
+      "id": "ex80",
+      "type": "translation_ko_en",
+      "koreanText": "상호주관성",
+      "correctAnswer": "intersubjectivity"
+    },
+    {
+      "id": "ex81",
+      "type": "translation_ko_en",
+      "koreanText": "목적론",
+      "correctAnswer": "teleology"
+    },
+    {
+      "id": "ex82",
+      "type": "translation_ko_en",
+      "koreanText": "제유법",
+      "correctAnswer": "synecdoche"
+    },
+    {
+      "id": "ex83",
+      "type": "translation_ko_en",
+      "koreanText": "예시법, 선취법",
+      "correctAnswer": "prolepsis"
+    },
+    {
+      "id": "ex84",
+      "type": "translation_ko_en",
+      "koreanText": "해석학",
+      "correctAnswer": "hermeneutics"
+    },
+    {
+      "id": "ex85",
+      "type": "translation_ko_en",
+      "koreanText": "현상학",
+      "correctAnswer": "phenomenology"
+    },
+    {
+      "id": "ex86",
+      "type": "translation_ko_en",
+      "koreanText": "인식론",
+      "correctAnswer": "epistemology"
+    },
+    {
+      "id": "ex87",
+      "type": "translation_ko_en",
+      "koreanText": "존재론",
+      "correctAnswer": "ontology"
+    },
+    {
+      "id": "ex88",
+      "type": "translation_ko_en",
+      "koreanText": "삼단논법",
+      "correctAnswer": "syllogism"
+    },
+    {
+      "id": "ex89",
+      "type": "translation_ko_en",
+      "koreanText": "유아론",
+      "correctAnswer": "solipsism"
+    },
+    {
+      "id": "ex90",
+      "type": "translation_ko_en",
+      "koreanText": "공리",
+      "correctAnswer": "axiom"
+    },
+    {
+      "id": "ex91",
+      "type": "translation_ko_en",
+      "koreanText": "발견적인, 휴리스틱",
+      "correctAnswer": "heuristic"
+    },
+    {
+      "id": "ex92",
+      "type": "translation_ko_en",
+      "koreanText": "패러다임",
+      "correctAnswer": "paradigm"
+    },
+    {
+      "id": "ex93",
+      "type": "translation_ko_en",
+      "koreanText": "주석, 해석",
+      "correctAnswer": "exegesis"
+    },
+    {
+      "id": "ex94",
+      "type": "translation_ko_en",
+      "koreanText": "궤변",
+      "correctAnswer": "sophistry"
+    },
+    {
+      "id": "ex95",
+      "type": "translation_ko_en",
+      "koreanText": "경험론",
+      "correctAnswer": "empiricism"
+    },
+    {
+      "id": "ex96",
+      "type": "translation_ko_en",
+      "koreanText": "실용주의",
+      "correctAnswer": "pragmatism"
+    },
+    {
+      "id": "ex97",
+      "type": "translation_ko_en",
+      "koreanText": "해체주의",
+      "correctAnswer": "deconstruction"
+    },
+    {
+      "id": "ex98",
+      "type": "translation_ko_en",
+      "koreanText": "포스트모더니즘",
+      "correctAnswer": "postmodernism"
+    },
+    {
+      "id": "ex99",
+      "type": "translation_ko_en",
+      "koreanText": "진실성, 사실성",
+      "correctAnswer": "verisimilitude"
+    },
+    {
+      "id": "ex100",
+      "type": "translation_ko_en",
+      "koreanText": "수사학",
+      "correctAnswer": "rhetoric"
+    },
+    {
+      "id": "ex101",
+      "type": "translation_ko_en",
+      "koreanText": "의미론",
+      "correctAnswer": "semantics"
+    },
+    {
+      "id": "ex102",
+      "type": "translation_ko_en",
+      "koreanText": "화용론",
+      "correctAnswer": "pragmatics"
+    },
+    {
+      "id": "ex103",
+      "type": "translation_ko_en",
+      "koreanText": "직시, 지시",
+      "correctAnswer": "deixis"
+    },
+    {
+      "id": "ex104",
+      "type": "translation_ko_en",
+      "koreanText": "환유법",
+      "correctAnswer": "metonymy"
+    },
+    {
+      "id": "ex105",
+      "type": "translation_ko_en",
+      "koreanText": "완곡어법",
+      "correctAnswer": "euphemism"
+    },
+    {
+      "id": "ex106",
+      "type": "translation_en_ko",
+      "englishText": "Hyperbole",
+      "correctAnswer": "과장법"
+    },
+    {
+      "id": "ex107",
+      "type": "translation_en_ko",
+      "englishText": "Oxymoron",
+      "correctAnswer": "모순어법"
+    },
+    {
+      "id": "ex108",
+      "type": "translation_en_ko",
+      "englishText": "Pleonasm",
+      "correctAnswer": "군더더기, 중복어법"
+    },
+    {
+      "id": "ex109",
+      "type": "translation_en_ko",
+      "englishText": "Anachronism",
+      "correctAnswer": "시대착오"
+    },
+    {
+      "id": "ex110",
+      "type": "translation_en_ko",
+      "englishText": "Pedagogy",
+      "correctAnswer": "교육학, 교수법"
+    },
+    {
+      "id": "ex111",
+      "type": "translation_en_ko",
+      "englishText": "Zeitgeist",
+      "correctAnswer": "시대정신"
+    },
+    {
+      "id": "ex112",
+      "type": "translation_en_ko",
+      "englishText": "Schadenfreude",
+      "correctAnswer": "샤덴프로이데, 타인의 불행을 보고 느끼는 즐거움"
+    },
+    {
+      "id": "ex113",
+      "type": "translation_en_ko",
+      "englishText": "Weltanschauung",
+      "correctAnswer": "세계관"
+    },
+    {
+      "id": "ex114",
+      "type": "translation_en_ko",
+      "englishText": "Nomenclature",
+      "correctAnswer": "명명법, 명명체계"
+    },
+    {
+      "id": "ex115",
+      "type": "translation_en_ko",
+      "englishText": "Taxonomy",
+      "correctAnswer": "분류학, 분류체계"
+    },
+    {
+      "id": "ex116",
+      "type": "translation_en_ko",
+      "englishText": "Substantiate",
+      "correctAnswer": "입증하다, 실증하다"
+    },
+    {
+      "id": "ex117",
+      "type": "translation_en_ko",
+      "englishText": "Corroborate",
+      "correctAnswer": "확증하다, 뒷받침하다"
+    },
+    {
+      "id": "ex118",
+      "type": "translation_en_ko",
+      "englishText": "Refute",
+      "correctAnswer": "반박하다, 논박하다"
+    },
+    {
+      "id": "ex119",
+      "type": "translation_en_ko",
+      "englishText": "Extrapolate",
+      "correctAnswer": "추론하다, 외삽하다"
+    },
+    {
+      "id": "ex120",
+      "type": "translation_en_ko",
+      "englishText": "Obfuscate",
+      "correctAnswer": "혼란스럽게 하다, 난독화하다"
+    },
+    {
+      "id": "ex121",
+      "type": "translation_en_ko",
+      "englishText": "Elucidate",
+      "correctAnswer": "명료하게 설명하다, 해명하다"
+    },
+    {
+      "id": "ex122",
+      "type": "translation_en_ko",
+      "englishText": "Juxtapose",
+      "correctAnswer": "병치하다, 나란히 놓다"
+    },
+    {
+      "id": "ex123",
+      "type": "translation_en_ko",
+      "englishText": "Quantify",
+      "correctAnswer": "수량화하다, 정량화하다"
+    },
+    {
+      "id": "ex124",
+      "type": "translation_en_ko",
+      "englishText": "Synthesize",
+      "correctAnswer": "종합하다, 통합하다"
+    },
+    {
+      "id": "ex125",
+      "type": "translation_en_ko",
+      "englishText": "Contextualize",
+      "correctAnswer": "맥락화하다, 상황에 맞추어 설명하다"
+    },
+    {
+      "id": "ex126",
+      "type": "multiple_choice",
+      "question": "Which term describes pleasure derived from another person's misfortune?",
+      "options": ["Zeitgeist", "Schadenfreude", "Weltanschauung", "Verisimilitude"],
+      "correctAnswer": "Schadenfreude"
+    },
+    {
+      "id": "ex127",
+      "type": "multiple_choice",
+      "question": "To make something deliberately unclear or confusing is to:",
+      "options": ["Elucidate", "Obfuscate", "Substantiate", "Corroborate"],
+      "correctAnswer": "Obfuscate"
+    },
+    {
+      "id": "ex128",
+      "type": "multiple_choice",
+      "question": "The use of more words than necessary; redundancy is called:",
+      "options": ["Pleonasm", "Hyperbole", "Euphemism", "Oxymoron"],
+      "correctAnswer": "Pleonasm"
+    },
+    {
+      "id": "ex129",
+      "type": "multiple_choice",
+      "question": "A comprehensive worldview or philosophy of life is:",
+      "options": ["Paradigm", "Zeitgeist", "Weltanschauung", "Nomenclature"],
+      "correctAnswer": "Weltanschauung"
+    },
+    {
+      "id": "ex130",
+      "type": "multiple_choice",
+      "question": "To prove a statement or theory wrong is to:",
+      "options": ["Substantiate", "Corroborate", "Refute", "Extrapolate"],
+      "correctAnswer": "Refute"
+    },
+    {
+      "id": "ex131",
+      "type": "fill_blank",
+      "question": "'I've told you a million times' employs _____ for emphasis.",
+      "correctAnswer": "hyperbole"
+    },
+    {
+      "id": "ex132",
+      "type": "fill_blank",
+      "question": "'Deafening silence' is an _____ that conveys intensity through contradiction.",
+      "correctAnswer": "oxymoron"
+    },
+    {
+      "id": "ex133",
+      "type": "fill_blank",
+      "question": "The Romantic movement captured the _____ of early 19th-century Europe.",
+      "correctAnswer": "zeitgeist"
+    },
+    {
+      "id": "ex134",
+      "type": "fill_blank",
+      "question": "Constructivist _____ emphasizes active learning through discovery.",
+      "correctAnswer": "pedagogy"
+    },
+    {
+      "id": "ex135",
+      "type": "fill_blank",
+      "question": "Linnaean _____ provides a standardized system for classifying organisms.",
+      "correctAnswer": "nomenclature"
+    },
+    {
+      "id": "ex136",
+      "type": "fill_blank",
+      "question": "Bloom's _____ hierarchically organizes cognitive skills.",
+      "correctAnswer": "taxonomy"
+    },
+    {
+      "id": "ex137",
+      "type": "fill_blank",
+      "question": "The researcher _____ her hypothesis with rigorous experimental data.",
+      "correctAnswer": "substantiated"
+    },
+    {
+      "id": "ex138",
+      "type": "fill_blank",
+      "question": "Independent witnesses _____ the defendant's alibi.",
+      "correctAnswer": "corroborated"
+    },
+    {
+      "id": "ex139",
+      "type": "fill_blank",
+      "question": "The scientist _____ the prevailing theory with compelling counterevidence.",
+      "correctAnswer": "refuted"
+    },
+    {
+      "id": "ex140",
+      "type": "fill_blank",
+      "question": "From current trends, we can _____ future population distributions.",
+      "correctAnswer": "extrapolate"
+    },
+    {
+      "id": "ex141",
+      "type": "fill_blank",
+      "question": "The professor _____ the complex theorem with concrete examples.",
+      "correctAnswer": "elucidated"
+    },
+    {
+      "id": "ex142",
+      "type": "fill_blank",
+      "question": "The filmmaker _____ scenes of luxury and poverty to highlight inequality.",
+      "correctAnswer": "juxtaposed"
+    },
+    {
+      "id": "ex143",
+      "type": "fill_blank",
+      "question": "It is difficult to _____ the impact of art on societal well-being.",
+      "correctAnswer": "quantify"
+    },
+    {
+      "id": "ex144",
+      "type": "fill_blank",
+      "question": "The dissertation _____ insights from multiple theoretical frameworks.",
+      "correctAnswer": "synthesizes"
+    },
+    {
+      "id": "ex145",
+      "type": "fill_blank",
+      "question": "Historical events must be _____ within broader social frameworks.",
+      "correctAnswer": "contextualized"
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "question": "The film's _____ broke historical immersion with a wristwatch in ancient Rome.",
+      "correctAnswer": "anachronism"
+    },
+    {
+      "id": "ex147",
+      "type": "fill_blank",
+      "question": "Nietzsche's _____ challenged conventional morality and championed individual will.",
+      "correctAnswer": "weltanschauung"
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "question": "'Free gift' is a _____ since gifts are inherently free.",
+      "correctAnswer": "pleonasm"
+    },
+    {
+      "id": "ex149",
+      "type": "fill_blank",
+      "question": "His _____ at his rival's failure revealed an unseemly character trait.",
+      "correctAnswer": "schadenfreude"
+    },
+    {
+      "id": "ex150",
+      "type": "fill_blank",
+      "question": "The politician's verbose response appeared designed to _____ rather than clarify.",
+      "correctAnswer": "obfuscate"
     }
   ]
 }

@@ -1,108 +1,2034 @@
 {
-  "id": "c1-vocab-week-3",
+  "id": "week-3-vocab",
+  "weekId": "week-3",
   "type": "vocabulary",
   "level": "C1",
-  "weekId": "week-3",
   "title": "Research and Analysis Vocabulary",
-  "description": "Terminology for empirical research and data analysis",
-  "estimatedMinutes": 20,
+  "description": "Advanced terminology for empirical research, data analysis, and scientific methodology",
+  "estimatedMinutes": 30,
   "xpReward": 45,
-  "items": [
+  "words": [
     {
-      "id": "c1-v3-1",
+      "id": "w1",
       "word": "efficacy",
-      "definition": "The ability to produce a desired or intended result",
       "pronunciation": "/ˈefɪkəsi/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "효능, 효과",
-      "example": "The study examined the efficacy of the new treatment protocol.",
-      "synonyms": ["effectiveness", "potency", "capability"],
-      "antonyms": ["ineffectiveness", "futility"],
-      "collocations": ["clinical efficacy", "therapeutic efficacy", "demonstrate efficacy"]
+      "meaning": "The ability to produce a desired or intended result",
+      "translation": "효능, 효과",
+      "example": "The study examined the efficacy of the new treatment protocol."
     },
     {
-      "id": "c1-v3-2",
+      "id": "w2",
       "word": "confound",
-      "definition": "To cause confusion or fail to distinguish between variables",
       "pronunciation": "/kənˈfaʊnd/",
       "partOfSpeech": "verb",
-      "koreanMeaning": "혼동시키다, 교란하다",
-      "example": "Socioeconomic factors may confound the relationship between diet and health.",
-      "synonyms": ["confuse", "muddle", "complicate"],
-      "antonyms": ["clarify", "distinguish"],
-      "collocations": ["confounding variable", "confound results", "confound the analysis"]
+      "meaning": "To cause confusion or fail to distinguish between variables",
+      "translation": "혼동시키다, 교란하다",
+      "example": "Socioeconomic factors may confound the relationship between diet and health."
     },
     {
-      "id": "c1-v3-3",
+      "id": "w3",
       "word": "extrapolate",
-      "definition": "To extend the application of data or conclusions to an unknown situation",
       "pronunciation": "/ɪkˈstræpəleɪt/",
       "partOfSpeech": "verb",
-      "koreanMeaning": "외삽하다, 추정하다",
-      "example": "It would be unwise to extrapolate these findings to the general population.",
-      "synonyms": ["infer", "project", "deduce"],
-      "antonyms": ["interpolate"],
-      "collocations": ["extrapolate from data", "extrapolate findings", "extrapolate trends"]
+      "meaning": "To extend the application of data or conclusions to an unknown situation",
+      "translation": "외삽하다, 추정하다",
+      "example": "It would be unwise to extrapolate these findings to the general population."
     },
     {
-      "id": "c1-v3-4",
+      "id": "w4",
       "word": "replicable",
-      "definition": "Capable of being reproduced or repeated with the same results",
       "pronunciation": "/ˈreplɪkəbəl/",
       "partOfSpeech": "adjective",
-      "koreanMeaning": "재현 가능한",
-      "example": "Scientific findings must be replicable to be considered valid.",
-      "synonyms": ["reproducible", "repeatable"],
-      "antonyms": ["unique", "irreproducible"],
-      "collocations": ["replicable results", "replicable methodology", "replicable experiment"]
+      "meaning": "Capable of being reproduced or repeated with the same results",
+      "translation": "재현 가능한",
+      "example": "Scientific findings must be replicable to be considered valid."
     },
     {
-      "id": "c1-v3-5",
+      "id": "w5",
       "word": "stratify",
-      "definition": "To arrange or divide into different levels or categories",
       "pronunciation": "/ˈstrætɪfaɪ/",
       "partOfSpeech": "verb",
-      "koreanMeaning": "계층화하다, 층화하다",
-      "example": "Researchers stratified the sample by age and gender.",
-      "synonyms": ["categorize", "classify", "segment"],
-      "antonyms": ["combine", "merge"],
-      "collocations": ["stratified sample", "stratify by category", "stratified analysis"]
+      "meaning": "To arrange or divide into different levels or categories",
+      "translation": "계층화하다, 층화하다",
+      "example": "Researchers stratified the sample by age and gender."
     },
     {
-      "id": "c1-v3-6",
+      "id": "w6",
       "word": "longitudinal",
-      "definition": "Involving the study of subjects over an extended period of time",
       "pronunciation": "/ˌlɒndʒɪˈtjuːdɪnəl/",
       "partOfSpeech": "adjective",
-      "koreanMeaning": "종단적인, 세로의",
-      "example": "A longitudinal study tracked participants for twenty years.",
-      "synonyms": ["long-term", "extended", "prospective"],
-      "antonyms": ["cross-sectional", "snapshot"],
-      "collocations": ["longitudinal study", "longitudinal data", "longitudinal analysis"]
+      "meaning": "Involving the study of subjects over an extended period of time",
+      "translation": "종단적인, 세로의",
+      "example": "A longitudinal study tracked participants for twenty years."
     },
     {
-      "id": "c1-v3-7",
+      "id": "w7",
       "word": "mitigate",
-      "definition": "To make less severe, serious, or painful",
       "pronunciation": "/ˈmɪtɪɡeɪt/",
       "partOfSpeech": "verb",
-      "koreanMeaning": "완화하다, 경감하다",
-      "example": "Proper controls can mitigate the effects of bias.",
-      "synonyms": ["alleviate", "reduce", "diminish"],
-      "antonyms": ["aggravate", "intensify", "exacerbate"],
-      "collocations": ["mitigate risk", "mitigate effects", "mitigate impact"]
+      "meaning": "To make less severe, serious, or painful",
+      "translation": "완화하다, 경감하다",
+      "example": "Proper controls can mitigate the effects of bias."
     },
     {
-      "id": "c1-v3-8",
+      "id": "w8",
       "word": "proxy",
-      "definition": "A variable used to represent or measure another variable indirectly",
       "pronunciation": "/ˈprɒksi/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "대리 변수, 대용물",
-      "example": "GDP is often used as a proxy for national well-being.",
-      "synonyms": ["substitute", "stand-in", "surrogate"],
-      "antonyms": ["original", "direct measure"],
-      "collocations": ["proxy measure", "proxy variable", "serve as a proxy"]
+      "meaning": "A variable used to represent or measure another variable indirectly",
+      "translation": "대리 변수, 대용물",
+      "example": "GDP is often used as a proxy for national well-being."
+    },
+    {
+      "id": "w9",
+      "word": "hypothesis",
+      "pronunciation": "/haɪˈpɒθəsɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "A proposed explanation or prediction that can be tested through research",
+      "translation": "가설",
+      "example": "The research team formulated a hypothesis about climate change effects."
+    },
+    {
+      "id": "w10",
+      "word": "empirical",
+      "pronunciation": "/ɪmˈpɪrɪkəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Based on observation or experience rather than theory or pure logic",
+      "translation": "경험적인, 실증적인",
+      "example": "The conclusion was supported by empirical evidence from multiple studies."
+    },
+    {
+      "id": "w11",
+      "word": "correlation",
+      "pronunciation": "/ˌkɒrəˈleɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "A mutual relationship or connection between two or more things",
+      "translation": "상관관계",
+      "example": "There is a strong correlation between exercise and mental health."
+    },
+    {
+      "id": "w12",
+      "word": "variable",
+      "pronunciation": "/ˈveəriəbəl/",
+      "partOfSpeech": "noun",
+      "meaning": "An element or factor that can change or be changed in an experiment",
+      "translation": "변수",
+      "example": "Temperature was the independent variable in the experiment."
+    },
+    {
+      "id": "w13",
+      "word": "quantitative",
+      "pronunciation": "/ˈkwɒntɪtətɪv/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to or measured by the quantity of something rather than its quality",
+      "translation": "양적인, 정량적인",
+      "example": "The study used quantitative methods to analyze the data."
+    },
+    {
+      "id": "w14",
+      "word": "qualitative",
+      "pronunciation": "/ˈkwɒlɪtətɪv/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to or measured by the quality or nature of something",
+      "translation": "질적인, 정성적인",
+      "example": "Qualitative research involves in-depth interviews and observations."
+    },
+    {
+      "id": "w15",
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "meaning": "A typical example or pattern of something; a model or framework",
+      "translation": "패러다임, 전형",
+      "example": "The discovery led to a paradigm shift in neuroscience."
+    },
+    {
+      "id": "w16",
+      "word": "methodology",
+      "pronunciation": "/ˌmeθəˈdɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "A system of methods used in a particular area of study or activity",
+      "translation": "방법론",
+      "example": "The research methodology included both surveys and experiments."
+    },
+    {
+      "id": "w17",
+      "word": "scrutinize",
+      "pronunciation": "/ˈskruːtɪnaɪz/",
+      "partOfSpeech": "verb",
+      "meaning": "To examine or inspect closely and thoroughly",
+      "translation": "면밀히 조사하다",
+      "example": "Peer reviewers scrutinize research papers before publication."
+    },
+    {
+      "id": "w18",
+      "word": "substantiate",
+      "pronunciation": "/səbˈstænʃieɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To provide evidence to support or prove the truth of something",
+      "translation": "입증하다, 실증하다",
+      "example": "The researchers substantiated their claims with extensive data."
+    },
+    {
+      "id": "w19",
+      "word": "anomaly",
+      "pronunciation": "/əˈnɒməli/",
+      "partOfSpeech": "noun",
+      "meaning": "Something that deviates from what is standard, normal, or expected",
+      "translation": "이상 현상, 변칙",
+      "example": "The data showed an anomaly that required further investigation."
+    },
+    {
+      "id": "w20",
+      "word": "aggregate",
+      "pronunciation": "/ˈæɡrɪɡət/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "A whole formed by combining several separate elements; to combine",
+      "translation": "집합체, 총계; 집계하다",
+      "example": "The data was aggregated from multiple sources."
+    },
+    {
+      "id": "w21",
+      "word": "cohort",
+      "pronunciation": "/ˈkəʊhɔːt/",
+      "partOfSpeech": "noun",
+      "meaning": "A group of individuals having a statistical factor in common in a study",
+      "translation": "코호트, 동일 집단",
+      "example": "The study followed a cohort of patients for five years."
+    },
+    {
+      "id": "w22",
+      "word": "demographic",
+      "pronunciation": "/ˌdeməˈɡræfɪk/",
+      "partOfSpeech": "adjective/noun",
+      "meaning": "Relating to the structure of populations; statistical data about populations",
+      "translation": "인구 통계학적인; 인구 통계",
+      "example": "The survey collected demographic information from participants."
+    },
+    {
+      "id": "w23",
+      "word": "validate",
+      "pronunciation": "/ˈvælɪdeɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To check or prove the validity or accuracy of something",
+      "translation": "검증하다, 확인하다",
+      "example": "The findings were validated through independent replication."
+    },
+    {
+      "id": "w24",
+      "word": "inference",
+      "pronunciation": "/ˈɪnfərəns/",
+      "partOfSpeech": "noun",
+      "meaning": "A conclusion reached on the basis of evidence and reasoning",
+      "translation": "추론, 추정",
+      "example": "Statistical inference allows researchers to draw conclusions from data."
+    },
+    {
+      "id": "w25",
+      "word": "bias",
+      "pronunciation": "/ˈbaɪəs/",
+      "partOfSpeech": "noun",
+      "meaning": "Prejudice in favor of or against something, often in an unfair way",
+      "translation": "편향, 편견",
+      "example": "Selection bias can compromise the validity of research results."
+    },
+    {
+      "id": "w26",
+      "word": "causality",
+      "pronunciation": "/kɔːˈzæləti/",
+      "partOfSpeech": "noun",
+      "meaning": "The relationship between cause and effect",
+      "translation": "인과관계",
+      "example": "Establishing causality requires more than just observing correlation."
+    },
+    {
+      "id": "w27",
+      "word": "delineate",
+      "pronunciation": "/dɪˈlɪnieɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To describe or portray something precisely",
+      "translation": "기술하다, 서술하다",
+      "example": "The paper clearly delineates the scope of the research."
+    },
+    {
+      "id": "w28",
+      "word": "heterogeneous",
+      "pronunciation": "/ˌhetərəˈdʒiːniəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Diverse in character or content; composed of dissimilar elements",
+      "translation": "이질적인, 다양한",
+      "example": "The sample was heterogeneous, including participants from various backgrounds."
+    },
+    {
+      "id": "w29",
+      "word": "homogeneous",
+      "pronunciation": "/ˌhɒməˈdʒiːniəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Of the same kind; alike; uniform in composition",
+      "translation": "동질적인, 균일한",
+      "example": "A homogeneous sample ensures more consistent results."
+    },
+    {
+      "id": "w30",
+      "word": "robust",
+      "pronunciation": "/rəʊˈbʌst/",
+      "partOfSpeech": "adjective",
+      "meaning": "Strong and healthy; sturdy; able to withstand adverse conditions",
+      "translation": "강건한, 견고한",
+      "example": "The methodology was robust enough to handle outliers in the data."
+    },
+    {
+      "id": "w31",
+      "word": "prerequisite",
+      "pronunciation": "/priːˈrekwɪzɪt/",
+      "partOfSpeech": "noun",
+      "meaning": "A thing that is required as a prior condition for something else",
+      "translation": "전제 조건, 필수 조건",
+      "example": "Understanding statistics is a prerequisite for advanced research."
+    },
+    {
+      "id": "w32",
+      "word": "criterion",
+      "pronunciation": "/kraɪˈtɪəriən/",
+      "partOfSpeech": "noun",
+      "meaning": "A principle or standard by which something may be judged or decided",
+      "translation": "기준, 척도",
+      "example": "The main criterion for inclusion was age above 18 years."
+    },
+    {
+      "id": "w33",
+      "word": "discrepancy",
+      "pronunciation": "/dɪˈskrepənsi/",
+      "partOfSpeech": "noun",
+      "meaning": "A lack of compatibility or similarity between two or more facts",
+      "translation": "불일치, 차이",
+      "example": "There was a discrepancy between the two sets of results."
+    },
+    {
+      "id": "w34",
+      "word": "elucidate",
+      "pronunciation": "/ɪˈluːsɪdeɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To make something clear; to explain",
+      "translation": "명확히 하다, 설명하다",
+      "example": "The study aimed to elucidate the mechanisms of gene expression."
+    },
+    {
+      "id": "w35",
+      "word": "implicit",
+      "pronunciation": "/ɪmˈplɪsɪt/",
+      "partOfSpeech": "adjective",
+      "meaning": "Suggested though not directly expressed; implied",
+      "translation": "암묵적인, 내재된",
+      "example": "There was an implicit assumption in the research design."
+    },
+    {
+      "id": "w36",
+      "word": "explicit",
+      "pronunciation": "/ɪkˈsplɪsɪt/",
+      "partOfSpeech": "adjective",
+      "meaning": "Stated clearly and in detail, leaving no room for confusion",
+      "translation": "명시적인, 분명한",
+      "example": "The methodology section should provide explicit instructions."
+    },
+    {
+      "id": "w37",
+      "word": "intrinsic",
+      "pronunciation": "/ɪnˈtrɪnsɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Belonging naturally; essential; inherent",
+      "translation": "본질적인, 고유의",
+      "example": "The research examined intrinsic motivation in learning."
+    },
+    {
+      "id": "w38",
+      "word": "extrinsic",
+      "pronunciation": "/ekˈstrɪnsɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Not part of the essential nature of something; coming from outside",
+      "translation": "외재적인, 외부의",
+      "example": "Extrinsic factors such as rewards can influence behavior."
+    },
+    {
+      "id": "w39",
+      "word": "plausible",
+      "pronunciation": "/ˈplɔːzəbəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Seeming reasonable or probable; credible",
+      "translation": "그럴듯한, 타당한",
+      "example": "The researchers proposed a plausible explanation for the findings."
+    },
+    {
+      "id": "w40",
+      "word": "spurious",
+      "pronunciation": "/ˈspjʊəriəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "False or fake; not being what it purports to be",
+      "translation": "가짜의, 허위의",
+      "example": "The correlation proved to be spurious after controlling for other variables."
+    },
+    {
+      "id": "w41",
+      "word": "tangible",
+      "pronunciation": "/ˈtændʒəbəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Perceptible by touch; clear and definite; real",
+      "translation": "유형의, 실재하는",
+      "example": "The study produced tangible results that could be measured."
+    },
+    {
+      "id": "w42",
+      "word": "temporal",
+      "pronunciation": "/ˈtempərəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to time or worldly affairs rather than spiritual",
+      "translation": "시간의, 일시적인",
+      "example": "The research examined temporal patterns in brain activity."
+    },
+    {
+      "id": "w43",
+      "word": "variance",
+      "pronunciation": "/ˈveəriəns/",
+      "partOfSpeech": "noun",
+      "meaning": "The fact or quality of being different; a statistical measure of dispersion",
+      "translation": "분산, 차이",
+      "example": "Analysis of variance revealed significant differences between groups."
+    },
+    {
+      "id": "w44",
+      "word": "viable",
+      "pronunciation": "/ˈvaɪəbəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Capable of working successfully; feasible",
+      "translation": "실행 가능한, 유효한",
+      "example": "The research proposal presented a viable methodology."
+    },
+    {
+      "id": "w45",
+      "word": "rigorous",
+      "pronunciation": "/ˈrɪɡərəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Extremely thorough, exhaustive, or accurate",
+      "translation": "엄격한, 철저한",
+      "example": "The study employed rigorous statistical methods."
+    },
+    {
+      "id": "w46",
+      "word": "precedent",
+      "pronunciation": "/ˈpresɪdənt/",
+      "partOfSpeech": "noun",
+      "meaning": "An earlier event or action that is regarded as an example or guide",
+      "translation": "선례, 전례",
+      "example": "The research set a precedent for future studies in the field."
+    },
+    {
+      "id": "w47",
+      "word": "corollary",
+      "pronunciation": "/kəˈrɒləri/",
+      "partOfSpeech": "noun",
+      "meaning": "A proposition that follows from one already proved; a natural consequence",
+      "translation": "당연한 결과, 추론",
+      "example": "A corollary of this finding is that early intervention is crucial."
+    },
+    {
+      "id": "w48",
+      "word": "synthesis",
+      "pronunciation": "/ˈsɪnθəsɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "The combination of components or elements to form a connected whole",
+      "translation": "종합, 합성",
+      "example": "The paper provides a synthesis of current research on the topic."
+    },
+    {
+      "id": "w49",
+      "word": "trajectory",
+      "pronunciation": "/trəˈdʒektəri/",
+      "partOfSpeech": "noun",
+      "meaning": "The path followed by a projectile or moving object; a course of development",
+      "translation": "궤적, 경로",
+      "example": "The study tracked the trajectory of cognitive development in children."
+    },
+    {
+      "id": "w50",
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Present, appearing, or found everywhere",
+      "translation": "어디에나 있는, 편재하는",
+      "example": "Smartphones have become ubiquitous in modern research settings."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "mc1",
+      "type": "multiple_choice",
+      "question": "The study examined the _______ of the new treatment protocol.",
+      "options": ["efficacy", "precedent", "trajectory", "synthesis"],
+      "correctAnswer": "efficacy",
+      "relatedWordId": "w1"
+    },
+    {
+      "id": "mc2",
+      "type": "multiple_choice",
+      "question": "What does 'confound' mean in research?",
+      "options": [
+        "To cause confusion between variables",
+        "To prove a hypothesis",
+        "To collect data systematically",
+        "To analyze results"
+      ],
+      "correctAnswer": "To cause confusion between variables",
+      "relatedWordId": "w2"
+    },
+    {
+      "id": "mc3",
+      "type": "multiple_choice",
+      "question": "It would be unwise to _______ these findings to the general population.",
+      "options": ["extrapolate", "stratify", "mitigate", "validate"],
+      "correctAnswer": "extrapolate",
+      "relatedWordId": "w3"
+    },
+    {
+      "id": "mc4",
+      "type": "multiple_choice",
+      "question": "Scientific findings must be _______ to be considered valid.",
+      "options": ["replicable", "spurious", "implicit", "temporal"],
+      "correctAnswer": "replicable",
+      "relatedWordId": "w4"
+    },
+    {
+      "id": "mc5",
+      "type": "multiple_choice",
+      "question": "Researchers _______ the sample by age and gender.",
+      "options": ["stratified", "confounded", "elucidated", "aggregated"],
+      "correctAnswer": "stratified",
+      "relatedWordId": "w5"
+    },
+    {
+      "id": "mc6",
+      "type": "multiple_choice",
+      "question": "A _______ study tracked participants for twenty years.",
+      "options": ["longitudinal", "qualitative", "tangible", "viable"],
+      "correctAnswer": "longitudinal",
+      "relatedWordId": "w6"
+    },
+    {
+      "id": "mc7",
+      "type": "multiple_choice",
+      "question": "Proper controls can _______ the effects of bias.",
+      "options": ["mitigate", "confound", "scrutinize", "delineate"],
+      "correctAnswer": "mitigate",
+      "relatedWordId": "w7"
+    },
+    {
+      "id": "mc8",
+      "type": "multiple_choice",
+      "question": "GDP is often used as a _______ for national well-being.",
+      "options": ["proxy", "criterion", "paradigm", "corollary"],
+      "correctAnswer": "proxy",
+      "relatedWordId": "w8"
+    },
+    {
+      "id": "mc9",
+      "type": "multiple_choice",
+      "question": "The research team formulated a _______ about climate change effects.",
+      "options": ["hypothesis", "variance", "cohort", "demographic"],
+      "correctAnswer": "hypothesis",
+      "relatedWordId": "w9"
+    },
+    {
+      "id": "mc10",
+      "type": "multiple_choice",
+      "question": "The conclusion was supported by _______ evidence from multiple studies.",
+      "options": ["empirical", "implicit", "extrinsic", "ubiquitous"],
+      "correctAnswer": "empirical",
+      "relatedWordId": "w10"
+    },
+    {
+      "id": "mc11",
+      "type": "multiple_choice",
+      "question": "There is a strong _______ between exercise and mental health.",
+      "options": ["correlation", "anomaly", "discrepancy", "prerequisite"],
+      "correctAnswer": "correlation",
+      "relatedWordId": "w11"
+    },
+    {
+      "id": "mc12",
+      "type": "multiple_choice",
+      "question": "Temperature was the independent _______ in the experiment.",
+      "options": ["variable", "inference", "synthesis", "trajectory"],
+      "correctAnswer": "variable",
+      "relatedWordId": "w12"
+    },
+    {
+      "id": "mc13",
+      "type": "multiple_choice",
+      "question": "The study used _______ methods to analyze the data.",
+      "options": ["quantitative", "heterogeneous", "plausible", "tangible"],
+      "correctAnswer": "quantitative",
+      "relatedWordId": "w13"
+    },
+    {
+      "id": "mc14",
+      "type": "multiple_choice",
+      "question": "_______ research involves in-depth interviews and observations.",
+      "options": ["Qualitative", "Spurious", "Robust", "Temporal"],
+      "correctAnswer": "Qualitative",
+      "relatedWordId": "w14"
+    },
+    {
+      "id": "mc15",
+      "type": "multiple_choice",
+      "question": "The discovery led to a _______ shift in neuroscience.",
+      "options": ["paradigm", "proxy", "bias", "variance"],
+      "correctAnswer": "paradigm",
+      "relatedWordId": "w15"
+    },
+    {
+      "id": "mc16",
+      "type": "multiple_choice",
+      "question": "The research _______ included both surveys and experiments.",
+      "options": ["methodology", "causality", "criterion", "aggregate"],
+      "correctAnswer": "methodology",
+      "relatedWordId": "w16"
+    },
+    {
+      "id": "mc17",
+      "type": "multiple_choice",
+      "question": "Peer reviewers _______ research papers before publication.",
+      "options": ["scrutinize", "stratify", "extrapolate", "validate"],
+      "correctAnswer": "scrutinize",
+      "relatedWordId": "w17"
+    },
+    {
+      "id": "mc18",
+      "type": "multiple_choice",
+      "question": "The researchers _______ their claims with extensive data.",
+      "options": ["substantiated", "confounded", "mitigated", "delineated"],
+      "correctAnswer": "substantiated",
+      "relatedWordId": "w18"
+    },
+    {
+      "id": "mc19",
+      "type": "multiple_choice",
+      "question": "The data showed an _______ that required further investigation.",
+      "options": ["anomaly", "inference", "cohort", "prerequisite"],
+      "correctAnswer": "anomaly",
+      "relatedWordId": "w19"
+    },
+    {
+      "id": "mc20",
+      "type": "multiple_choice",
+      "question": "The data was _______ from multiple sources.",
+      "options": ["aggregated", "scrutinized", "elucidated", "stratified"],
+      "correctAnswer": "aggregated",
+      "relatedWordId": "w20"
+    },
+    {
+      "id": "mc21",
+      "type": "multiple_choice",
+      "question": "The study followed a _______ of patients for five years.",
+      "options": ["cohort", "paradigm", "synthesis", "trajectory"],
+      "correctAnswer": "cohort",
+      "relatedWordId": "w21"
+    },
+    {
+      "id": "mc22",
+      "type": "multiple_choice",
+      "question": "The survey collected _______ information from participants.",
+      "options": ["demographic", "spurious", "intrinsic", "temporal"],
+      "correctAnswer": "demographic",
+      "relatedWordId": "w22"
+    },
+    {
+      "id": "mc23",
+      "type": "multiple_choice",
+      "question": "The findings were _______ through independent replication.",
+      "options": ["validated", "confounded", "extrapolated", "mitigated"],
+      "correctAnswer": "validated",
+      "relatedWordId": "w23"
+    },
+    {
+      "id": "mc24",
+      "type": "multiple_choice",
+      "question": "Statistical _______ allows researchers to draw conclusions from data.",
+      "options": ["inference", "bias", "anomaly", "variance"],
+      "correctAnswer": "inference",
+      "relatedWordId": "w24"
+    },
+    {
+      "id": "mc25",
+      "type": "multiple_choice",
+      "question": "Selection _______ can compromise the validity of research results.",
+      "options": ["bias", "proxy", "criterion", "corollary"],
+      "correctAnswer": "bias",
+      "relatedWordId": "w25"
+    },
+    {
+      "id": "mc26",
+      "type": "multiple_choice",
+      "question": "Establishing _______ requires more than just observing correlation.",
+      "options": ["causality", "methodology", "aggregate", "demographic"],
+      "correctAnswer": "causality",
+      "relatedWordId": "w26"
+    },
+    {
+      "id": "mc27",
+      "type": "multiple_choice",
+      "question": "The paper clearly _______ the scope of the research.",
+      "options": ["delineates", "confounds", "mitigates", "stratifies"],
+      "correctAnswer": "delineates",
+      "relatedWordId": "w27"
+    },
+    {
+      "id": "mc28",
+      "type": "multiple_choice",
+      "question": "The sample was _______, including participants from various backgrounds.",
+      "options": ["heterogeneous", "homogeneous", "replicable", "explicit"],
+      "correctAnswer": "heterogeneous",
+      "relatedWordId": "w28"
+    },
+    {
+      "id": "mc29",
+      "type": "multiple_choice",
+      "question": "A _______ sample ensures more consistent results.",
+      "options": ["homogeneous", "heterogeneous", "ubiquitous", "spurious"],
+      "correctAnswer": "homogeneous",
+      "relatedWordId": "w29"
+    },
+    {
+      "id": "mc30",
+      "type": "multiple_choice",
+      "question": "The methodology was _______ enough to handle outliers in the data.",
+      "options": ["robust", "implicit", "tangible", "temporal"],
+      "correctAnswer": "robust",
+      "relatedWordId": "w30"
+    },
+    {
+      "id": "fb1",
+      "type": "fill_blank",
+      "question": "Understanding statistics is a _______ for advanced research.",
+      "correctAnswer": "prerequisite",
+      "relatedWordId": "w31"
+    },
+    {
+      "id": "fb2",
+      "type": "fill_blank",
+      "question": "The main _______ for inclusion was age above 18 years.",
+      "correctAnswer": "criterion",
+      "relatedWordId": "w32"
+    },
+    {
+      "id": "fb3",
+      "type": "fill_blank",
+      "question": "There was a _______ between the two sets of results.",
+      "correctAnswer": "discrepancy",
+      "relatedWordId": "w33"
+    },
+    {
+      "id": "fb4",
+      "type": "fill_blank",
+      "question": "The study aimed to _______ the mechanisms of gene expression.",
+      "correctAnswer": "elucidate",
+      "relatedWordId": "w34"
+    },
+    {
+      "id": "fb5",
+      "type": "fill_blank",
+      "question": "There was an _______ assumption in the research design.",
+      "correctAnswer": "implicit",
+      "relatedWordId": "w35"
+    },
+    {
+      "id": "fb6",
+      "type": "fill_blank",
+      "question": "The methodology section should provide _______ instructions.",
+      "correctAnswer": "explicit",
+      "relatedWordId": "w36"
+    },
+    {
+      "id": "fb7",
+      "type": "fill_blank",
+      "question": "The research examined _______ motivation in learning.",
+      "correctAnswer": "intrinsic",
+      "relatedWordId": "w37"
+    },
+    {
+      "id": "fb8",
+      "type": "fill_blank",
+      "question": "_______ factors such as rewards can influence behavior.",
+      "correctAnswer": "Extrinsic",
+      "relatedWordId": "w38"
+    },
+    {
+      "id": "fb9",
+      "type": "fill_blank",
+      "question": "The researchers proposed a _______ explanation for the findings.",
+      "correctAnswer": "plausible",
+      "relatedWordId": "w39"
+    },
+    {
+      "id": "fb10",
+      "type": "fill_blank",
+      "question": "The correlation proved to be _______ after controlling for other variables.",
+      "correctAnswer": "spurious",
+      "relatedWordId": "w40"
+    },
+    {
+      "id": "fb11",
+      "type": "fill_blank",
+      "question": "The study produced _______ results that could be measured.",
+      "correctAnswer": "tangible",
+      "relatedWordId": "w41"
+    },
+    {
+      "id": "fb12",
+      "type": "fill_blank",
+      "question": "The research examined _______ patterns in brain activity.",
+      "correctAnswer": "temporal",
+      "relatedWordId": "w42"
+    },
+    {
+      "id": "fb13",
+      "type": "fill_blank",
+      "question": "Analysis of _______ revealed significant differences between groups.",
+      "correctAnswer": "variance",
+      "relatedWordId": "w43"
+    },
+    {
+      "id": "fb14",
+      "type": "fill_blank",
+      "question": "The research proposal presented a _______ methodology.",
+      "correctAnswer": "viable",
+      "relatedWordId": "w44"
+    },
+    {
+      "id": "fb15",
+      "type": "fill_blank",
+      "question": "The study employed _______ statistical methods.",
+      "correctAnswer": "rigorous",
+      "relatedWordId": "w45"
+    },
+    {
+      "id": "fb16",
+      "type": "fill_blank",
+      "question": "The research set a _______ for future studies in the field.",
+      "correctAnswer": "precedent",
+      "relatedWordId": "w46"
+    },
+    {
+      "id": "fb17",
+      "type": "fill_blank",
+      "question": "A _______ of this finding is that early intervention is crucial.",
+      "correctAnswer": "corollary",
+      "relatedWordId": "w47"
+    },
+    {
+      "id": "fb18",
+      "type": "fill_blank",
+      "question": "The paper provides a _______ of current research on the topic.",
+      "correctAnswer": "synthesis",
+      "relatedWordId": "w48"
+    },
+    {
+      "id": "fb19",
+      "type": "fill_blank",
+      "question": "The study tracked the _______ of cognitive development in children.",
+      "correctAnswer": "trajectory",
+      "relatedWordId": "w49"
+    },
+    {
+      "id": "fb20",
+      "type": "fill_blank",
+      "question": "Smartphones have become _______ in modern research settings.",
+      "correctAnswer": "ubiquitous",
+      "relatedWordId": "w50"
+    },
+    {
+      "id": "fb21",
+      "type": "fill_blank",
+      "question": "The ability to produce a desired result is called _______.",
+      "correctAnswer": "efficacy",
+      "relatedWordId": "w1"
+    },
+    {
+      "id": "fb22",
+      "type": "fill_blank",
+      "question": "Socioeconomic factors may _______ the relationship between variables.",
+      "correctAnswer": "confound",
+      "relatedWordId": "w2"
+    },
+    {
+      "id": "fb23",
+      "type": "fill_blank",
+      "question": "We cannot _______ these limited findings to broader populations.",
+      "correctAnswer": "extrapolate",
+      "relatedWordId": "w3"
+    },
+    {
+      "id": "fb24",
+      "type": "fill_blank",
+      "question": "Results must be _______ by other researchers to confirm validity.",
+      "correctAnswer": "replicable",
+      "relatedWordId": "w4"
+    },
+    {
+      "id": "fb25",
+      "type": "fill_blank",
+      "question": "To _______ means to divide into different categories or levels.",
+      "correctAnswer": "stratify",
+      "relatedWordId": "w5"
+    },
+    {
+      "id": "fb26",
+      "type": "fill_blank",
+      "question": "A _______ study follows subjects over an extended time period.",
+      "correctAnswer": "longitudinal",
+      "relatedWordId": "w6"
+    },
+    {
+      "id": "fb27",
+      "type": "fill_blank",
+      "question": "Careful design can help _______ potential sources of error.",
+      "correctAnswer": "mitigate",
+      "relatedWordId": "w7"
+    },
+    {
+      "id": "fb28",
+      "type": "fill_blank",
+      "question": "A _______ variable represents another variable indirectly.",
+      "correctAnswer": "proxy",
+      "relatedWordId": "w8"
+    },
+    {
+      "id": "fb29",
+      "type": "fill_blank",
+      "question": "Scientists test their _______ through systematic experimentation.",
+      "correctAnswer": "hypothesis",
+      "relatedWordId": "w9"
+    },
+    {
+      "id": "fb30",
+      "type": "fill_blank",
+      "question": "_______ evidence is based on observation rather than theory.",
+      "correctAnswer": "Empirical",
+      "relatedWordId": "w10"
+    },
+    {
+      "id": "match1",
+      "type": "matching",
+      "question": "Match the research terms with their definitions:",
+      "pairs": [
+        {
+          "left": "correlation",
+          "right": "A mutual relationship between two or more things"
+        },
+        {
+          "left": "variable",
+          "right": "An element that can change in an experiment"
+        },
+        {
+          "left": "quantitative",
+          "right": "Measured by quantity rather than quality"
+        },
+        {
+          "left": "qualitative",
+          "right": "Measured by quality or nature"
+        }
+      ],
+      "relatedWordId": "w11"
+    },
+    {
+      "id": "match2",
+      "type": "matching",
+      "question": "Match the terms with their meanings:",
+      "pairs": [
+        {
+          "left": "paradigm",
+          "right": "A typical example or model"
+        },
+        {
+          "left": "methodology",
+          "right": "A system of methods used in study"
+        },
+        {
+          "left": "scrutinize",
+          "right": "To examine closely and thoroughly"
+        },
+        {
+          "left": "substantiate",
+          "right": "To provide evidence to prove something"
+        }
+      ],
+      "relatedWordId": "w15"
+    },
+    {
+      "id": "match3",
+      "type": "matching",
+      "question": "Match the research concepts:",
+      "pairs": [
+        {
+          "left": "anomaly",
+          "right": "Something that deviates from normal"
+        },
+        {
+          "left": "aggregate",
+          "right": "A whole formed by combining elements"
+        },
+        {
+          "left": "cohort",
+          "right": "A group with common statistical factors"
+        },
+        {
+          "left": "demographic",
+          "right": "Statistical data about populations"
+        }
+      ],
+      "relatedWordId": "w19"
+    },
+    {
+      "id": "match4",
+      "type": "matching",
+      "question": "Match the terms with their definitions:",
+      "pairs": [
+        {
+          "left": "validate",
+          "right": "To check or prove accuracy"
+        },
+        {
+          "left": "inference",
+          "right": "A conclusion based on evidence"
+        },
+        {
+          "left": "bias",
+          "right": "Prejudice in favor or against something"
+        },
+        {
+          "left": "causality",
+          "right": "The relationship between cause and effect"
+        }
+      ],
+      "relatedWordId": "w23"
+    },
+    {
+      "id": "match5",
+      "type": "matching",
+      "question": "Match the descriptive terms:",
+      "pairs": [
+        {
+          "left": "delineate",
+          "right": "To describe precisely"
+        },
+        {
+          "left": "heterogeneous",
+          "right": "Diverse and dissimilar"
+        },
+        {
+          "left": "homogeneous",
+          "right": "Uniform and alike"
+        },
+        {
+          "left": "robust",
+          "right": "Strong and able to withstand conditions"
+        }
+      ],
+      "relatedWordId": "w27"
+    },
+    {
+      "id": "match6",
+      "type": "matching",
+      "question": "Match the research terminology:",
+      "pairs": [
+        {
+          "left": "prerequisite",
+          "right": "A required prior condition"
+        },
+        {
+          "left": "criterion",
+          "right": "A standard for judgment"
+        },
+        {
+          "left": "discrepancy",
+          "right": "A lack of compatibility"
+        },
+        {
+          "left": "elucidate",
+          "right": "To make clear or explain"
+        }
+      ],
+      "relatedWordId": "w31"
+    },
+    {
+      "id": "match7",
+      "type": "matching",
+      "question": "Match the opposing concepts:",
+      "pairs": [
+        {
+          "left": "implicit",
+          "right": "Suggested but not directly expressed"
+        },
+        {
+          "left": "explicit",
+          "right": "Stated clearly and in detail"
+        },
+        {
+          "left": "intrinsic",
+          "right": "Belonging naturally; essential"
+        },
+        {
+          "left": "extrinsic",
+          "right": "Coming from outside"
+        }
+      ],
+      "relatedWordId": "w35"
+    },
+    {
+      "id": "match8",
+      "type": "matching",
+      "question": "Match the terms with their meanings:",
+      "pairs": [
+        {
+          "left": "plausible",
+          "right": "Seeming reasonable or probable"
+        },
+        {
+          "left": "spurious",
+          "right": "False or fake"
+        },
+        {
+          "left": "tangible",
+          "right": "Real and perceptible"
+        },
+        {
+          "left": "temporal",
+          "right": "Relating to time"
+        }
+      ],
+      "relatedWordId": "w39"
+    },
+    {
+      "id": "match9",
+      "type": "matching",
+      "question": "Match the advanced research terms:",
+      "pairs": [
+        {
+          "left": "variance",
+          "right": "A statistical measure of dispersion"
+        },
+        {
+          "left": "viable",
+          "right": "Capable of working successfully"
+        },
+        {
+          "left": "rigorous",
+          "right": "Extremely thorough and accurate"
+        },
+        {
+          "left": "precedent",
+          "right": "An earlier example or guide"
+        }
+      ],
+      "relatedWordId": "w43"
+    },
+    {
+      "id": "match10",
+      "type": "matching",
+      "question": "Match the final concepts:",
+      "pairs": [
+        {
+          "left": "corollary",
+          "right": "A natural consequence"
+        },
+        {
+          "left": "synthesis",
+          "right": "Combination to form a whole"
+        },
+        {
+          "left": "trajectory",
+          "right": "A path or course of development"
+        },
+        {
+          "left": "ubiquitous",
+          "right": "Present everywhere"
+        }
+      ],
+      "relatedWordId": "w47"
+    },
+    {
+      "id": "match11",
+      "type": "matching",
+      "question": "Match the words with their Korean translations:",
+      "pairs": [
+        {
+          "left": "efficacy",
+          "right": "효능, 효과"
+        },
+        {
+          "left": "confound",
+          "right": "혼동시키다, 교란하다"
+        },
+        {
+          "left": "extrapolate",
+          "right": "외삽하다, 추정하다"
+        },
+        {
+          "left": "replicable",
+          "right": "재현 가능한"
+        }
+      ],
+      "relatedWordId": "w1"
+    },
+    {
+      "id": "match12",
+      "type": "matching",
+      "question": "Match the words with their Korean translations:",
+      "pairs": [
+        {
+          "left": "stratify",
+          "right": "계층화하다, 층화하다"
+        },
+        {
+          "left": "longitudinal",
+          "right": "종단적인, 세로의"
+        },
+        {
+          "left": "mitigate",
+          "right": "완화하다, 경감하다"
+        },
+        {
+          "left": "proxy",
+          "right": "대리 변수, 대용물"
+        }
+      ],
+      "relatedWordId": "w5"
+    },
+    {
+      "id": "match13",
+      "type": "matching",
+      "question": "Match the words with their Korean translations:",
+      "pairs": [
+        {
+          "left": "hypothesis",
+          "right": "가설"
+        },
+        {
+          "left": "empirical",
+          "right": "경험적인, 실증적인"
+        },
+        {
+          "left": "correlation",
+          "right": "상관관계"
+        },
+        {
+          "left": "variable",
+          "right": "변수"
+        }
+      ],
+      "relatedWordId": "w9"
+    },
+    {
+      "id": "match14",
+      "type": "matching",
+      "question": "Match the words with their Korean translations:",
+      "pairs": [
+        {
+          "left": "quantitative",
+          "right": "양적인, 정량적인"
+        },
+        {
+          "left": "qualitative",
+          "right": "질적인, 정성적인"
+        },
+        {
+          "left": "paradigm",
+          "right": "패러다임, 전형"
+        },
+        {
+          "left": "methodology",
+          "right": "방법론"
+        }
+      ],
+      "relatedWordId": "w13"
+    },
+    {
+      "id": "match15",
+      "type": "matching",
+      "question": "Match the words with their Korean translations:",
+      "pairs": [
+        {
+          "left": "scrutinize",
+          "right": "면밀히 조사하다"
+        },
+        {
+          "left": "substantiate",
+          "right": "입증하다, 실증하다"
+        },
+        {
+          "left": "anomaly",
+          "right": "이상 현상, 변칙"
+        },
+        {
+          "left": "aggregate",
+          "right": "집합체, 총계; 집계하다"
+        }
+      ],
+      "relatedWordId": "w17"
+    },
+    {
+      "id": "tken1",
+      "type": "translation_ko_en",
+      "question": "효능",
+      "correctAnswer": "efficacy",
+      "relatedWordId": "w1"
+    },
+    {
+      "id": "tken2",
+      "type": "translation_ko_en",
+      "question": "혼동시키다",
+      "correctAnswer": "confound",
+      "relatedWordId": "w2"
+    },
+    {
+      "id": "tken3",
+      "type": "translation_ko_en",
+      "question": "외삽하다",
+      "correctAnswer": "extrapolate",
+      "relatedWordId": "w3"
+    },
+    {
+      "id": "tken4",
+      "type": "translation_ko_en",
+      "question": "재현 가능한",
+      "correctAnswer": "replicable",
+      "relatedWordId": "w4"
+    },
+    {
+      "id": "tken5",
+      "type": "translation_ko_en",
+      "question": "계층화하다",
+      "correctAnswer": "stratify",
+      "relatedWordId": "w5"
+    },
+    {
+      "id": "tken6",
+      "type": "translation_ko_en",
+      "question": "종단적인",
+      "correctAnswer": "longitudinal",
+      "relatedWordId": "w6"
+    },
+    {
+      "id": "tken7",
+      "type": "translation_ko_en",
+      "question": "완화하다",
+      "correctAnswer": "mitigate",
+      "relatedWordId": "w7"
+    },
+    {
+      "id": "tken8",
+      "type": "translation_ko_en",
+      "question": "대리 변수",
+      "correctAnswer": "proxy",
+      "relatedWordId": "w8"
+    },
+    {
+      "id": "tken9",
+      "type": "translation_ko_en",
+      "question": "가설",
+      "correctAnswer": "hypothesis",
+      "relatedWordId": "w9"
+    },
+    {
+      "id": "tken10",
+      "type": "translation_ko_en",
+      "question": "경험적인",
+      "correctAnswer": "empirical",
+      "relatedWordId": "w10"
+    },
+    {
+      "id": "tken11",
+      "type": "translation_ko_en",
+      "question": "상관관계",
+      "correctAnswer": "correlation",
+      "relatedWordId": "w11"
+    },
+    {
+      "id": "tken12",
+      "type": "translation_ko_en",
+      "question": "변수",
+      "correctAnswer": "variable",
+      "relatedWordId": "w12"
+    },
+    {
+      "id": "tken13",
+      "type": "translation_ko_en",
+      "question": "양적인",
+      "correctAnswer": "quantitative",
+      "relatedWordId": "w13"
+    },
+    {
+      "id": "tken14",
+      "type": "translation_ko_en",
+      "question": "질적인",
+      "correctAnswer": "qualitative",
+      "relatedWordId": "w14"
+    },
+    {
+      "id": "tken15",
+      "type": "translation_ko_en",
+      "question": "패러다임",
+      "correctAnswer": "paradigm",
+      "relatedWordId": "w15"
+    },
+    {
+      "id": "tken16",
+      "type": "translation_ko_en",
+      "question": "방법론",
+      "correctAnswer": "methodology",
+      "relatedWordId": "w16"
+    },
+    {
+      "id": "tken17",
+      "type": "translation_ko_en",
+      "question": "면밀히 조사하다",
+      "correctAnswer": "scrutinize",
+      "relatedWordId": "w17"
+    },
+    {
+      "id": "tken18",
+      "type": "translation_ko_en",
+      "question": "입증하다",
+      "correctAnswer": "substantiate",
+      "relatedWordId": "w18"
+    },
+    {
+      "id": "tken19",
+      "type": "translation_ko_en",
+      "question": "이상 현상",
+      "correctAnswer": "anomaly",
+      "relatedWordId": "w19"
+    },
+    {
+      "id": "tken20",
+      "type": "translation_ko_en",
+      "question": "집합체",
+      "correctAnswer": "aggregate",
+      "relatedWordId": "w20"
+    },
+    {
+      "id": "tken21",
+      "type": "translation_ko_en",
+      "question": "코호트",
+      "correctAnswer": "cohort",
+      "relatedWordId": "w21"
+    },
+    {
+      "id": "tken22",
+      "type": "translation_ko_en",
+      "question": "인구 통계학적인",
+      "correctAnswer": "demographic",
+      "relatedWordId": "w22"
+    },
+    {
+      "id": "tken23",
+      "type": "translation_ko_en",
+      "question": "검증하다",
+      "correctAnswer": "validate",
+      "relatedWordId": "w23"
+    },
+    {
+      "id": "tken24",
+      "type": "translation_ko_en",
+      "question": "추론",
+      "correctAnswer": "inference",
+      "relatedWordId": "w24"
+    },
+    {
+      "id": "tken25",
+      "type": "translation_ko_en",
+      "question": "편향",
+      "correctAnswer": "bias",
+      "relatedWordId": "w25"
+    },
+    {
+      "id": "tken26",
+      "type": "translation_ko_en",
+      "question": "인과관계",
+      "correctAnswer": "causality",
+      "relatedWordId": "w26"
+    },
+    {
+      "id": "tken27",
+      "type": "translation_ko_en",
+      "question": "기술하다",
+      "correctAnswer": "delineate",
+      "relatedWordId": "w27"
+    },
+    {
+      "id": "tken28",
+      "type": "translation_ko_en",
+      "question": "이질적인",
+      "correctAnswer": "heterogeneous",
+      "relatedWordId": "w28"
+    },
+    {
+      "id": "tken29",
+      "type": "translation_ko_en",
+      "question": "동질적인",
+      "correctAnswer": "homogeneous",
+      "relatedWordId": "w29"
+    },
+    {
+      "id": "tken30",
+      "type": "translation_ko_en",
+      "question": "강건한",
+      "correctAnswer": "robust",
+      "relatedWordId": "w30"
+    },
+    {
+      "id": "tenk1",
+      "type": "translation_en_ko",
+      "question": "prerequisite",
+      "correctAnswer": "전제 조건",
+      "relatedWordId": "w31"
+    },
+    {
+      "id": "tenk2",
+      "type": "translation_en_ko",
+      "question": "criterion",
+      "correctAnswer": "기준",
+      "relatedWordId": "w32"
+    },
+    {
+      "id": "tenk3",
+      "type": "translation_en_ko",
+      "question": "discrepancy",
+      "correctAnswer": "불일치",
+      "relatedWordId": "w33"
+    },
+    {
+      "id": "tenk4",
+      "type": "translation_en_ko",
+      "question": "elucidate",
+      "correctAnswer": "명확히 하다",
+      "relatedWordId": "w34"
+    },
+    {
+      "id": "tenk5",
+      "type": "translation_en_ko",
+      "question": "implicit",
+      "correctAnswer": "암묵적인",
+      "relatedWordId": "w35"
+    },
+    {
+      "id": "tenk6",
+      "type": "translation_en_ko",
+      "question": "explicit",
+      "correctAnswer": "명시적인",
+      "relatedWordId": "w36"
+    },
+    {
+      "id": "tenk7",
+      "type": "translation_en_ko",
+      "question": "intrinsic",
+      "correctAnswer": "본질적인",
+      "relatedWordId": "w37"
+    },
+    {
+      "id": "tenk8",
+      "type": "translation_en_ko",
+      "question": "extrinsic",
+      "correctAnswer": "외재적인",
+      "relatedWordId": "w38"
+    },
+    {
+      "id": "tenk9",
+      "type": "translation_en_ko",
+      "question": "plausible",
+      "correctAnswer": "그럴듯한",
+      "relatedWordId": "w39"
+    },
+    {
+      "id": "tenk10",
+      "type": "translation_en_ko",
+      "question": "spurious",
+      "correctAnswer": "가짜의",
+      "relatedWordId": "w40"
+    },
+    {
+      "id": "tenk11",
+      "type": "translation_en_ko",
+      "question": "tangible",
+      "correctAnswer": "유형의",
+      "relatedWordId": "w41"
+    },
+    {
+      "id": "tenk12",
+      "type": "translation_en_ko",
+      "question": "temporal",
+      "correctAnswer": "시간의",
+      "relatedWordId": "w42"
+    },
+    {
+      "id": "tenk13",
+      "type": "translation_en_ko",
+      "question": "variance",
+      "correctAnswer": "분산",
+      "relatedWordId": "w43"
+    },
+    {
+      "id": "tenk14",
+      "type": "translation_en_ko",
+      "question": "viable",
+      "correctAnswer": "실행 가능한",
+      "relatedWordId": "w44"
+    },
+    {
+      "id": "tenk15",
+      "type": "translation_en_ko",
+      "question": "rigorous",
+      "correctAnswer": "엄격한",
+      "relatedWordId": "w45"
+    },
+    {
+      "id": "tenk16",
+      "type": "translation_en_ko",
+      "question": "precedent",
+      "correctAnswer": "선례",
+      "relatedWordId": "w46"
+    },
+    {
+      "id": "tenk17",
+      "type": "translation_en_ko",
+      "question": "corollary",
+      "correctAnswer": "당연한 결과",
+      "relatedWordId": "w47"
+    },
+    {
+      "id": "tenk18",
+      "type": "translation_en_ko",
+      "question": "synthesis",
+      "correctAnswer": "종합",
+      "relatedWordId": "w48"
+    },
+    {
+      "id": "tenk19",
+      "type": "translation_en_ko",
+      "question": "trajectory",
+      "correctAnswer": "궤적",
+      "relatedWordId": "w49"
+    },
+    {
+      "id": "tenk20",
+      "type": "translation_en_ko",
+      "question": "ubiquitous",
+      "correctAnswer": "어디에나 있는",
+      "relatedWordId": "w50"
+    },
+    {
+      "id": "tenk21",
+      "type": "translation_en_ko",
+      "question": "efficacy",
+      "correctAnswer": "효능",
+      "relatedWordId": "w1"
+    },
+    {
+      "id": "tenk22",
+      "type": "translation_en_ko",
+      "question": "confound",
+      "correctAnswer": "혼동시키다",
+      "relatedWordId": "w2"
+    },
+    {
+      "id": "tenk23",
+      "type": "translation_en_ko",
+      "question": "extrapolate",
+      "correctAnswer": "외삽하다",
+      "relatedWordId": "w3"
+    },
+    {
+      "id": "tenk24",
+      "type": "translation_en_ko",
+      "question": "replicable",
+      "correctAnswer": "재현 가능한",
+      "relatedWordId": "w4"
+    },
+    {
+      "id": "tenk25",
+      "type": "translation_en_ko",
+      "question": "stratify",
+      "correctAnswer": "계층화하다",
+      "relatedWordId": "w5"
+    },
+    {
+      "id": "tenk26",
+      "type": "translation_en_ko",
+      "question": "longitudinal",
+      "correctAnswer": "종단적인",
+      "relatedWordId": "w6"
+    },
+    {
+      "id": "tenk27",
+      "type": "translation_en_ko",
+      "question": "mitigate",
+      "correctAnswer": "완화하다",
+      "relatedWordId": "w7"
+    },
+    {
+      "id": "tenk28",
+      "type": "translation_en_ko",
+      "question": "proxy",
+      "correctAnswer": "대리 변수",
+      "relatedWordId": "w8"
+    },
+    {
+      "id": "tenk29",
+      "type": "translation_en_ko",
+      "question": "hypothesis",
+      "correctAnswer": "가설",
+      "relatedWordId": "w9"
+    },
+    {
+      "id": "tenk30",
+      "type": "translation_en_ko",
+      "question": "empirical",
+      "correctAnswer": "경험적인",
+      "relatedWordId": "w10"
+    },
+    {
+      "id": "mc31",
+      "type": "multiple_choice",
+      "question": "What does 'ubiquitous' mean?",
+      "options": [
+        "Present everywhere",
+        "Rare and uncommon",
+        "Temporary and fleeting",
+        "Hidden and obscure"
+      ],
+      "correctAnswer": "Present everywhere",
+      "relatedWordId": "w50"
+    },
+    {
+      "id": "mc32",
+      "type": "multiple_choice",
+      "question": "A study's _______ determines how data will be collected and analyzed.",
+      "options": ["methodology", "trajectory", "corollary", "precedent"],
+      "correctAnswer": "methodology",
+      "relatedWordId": "w16"
+    },
+    {
+      "id": "mc33",
+      "type": "multiple_choice",
+      "question": "Which word means 'to make something clear or explain'?",
+      "options": ["elucidate", "confound", "stratify", "mitigate"],
+      "correctAnswer": "elucidate",
+      "relatedWordId": "w34"
+    },
+    {
+      "id": "mc34",
+      "type": "multiple_choice",
+      "question": "A _______ is something required as a prior condition.",
+      "options": ["prerequisite", "corollary", "synthesis", "trajectory"],
+      "correctAnswer": "prerequisite",
+      "relatedWordId": "w31"
+    },
+    {
+      "id": "mc35",
+      "type": "multiple_choice",
+      "question": "Data from sources worldwide was _______ for the meta-analysis.",
+      "options": ["aggregated", "confounded", "stratified", "mitigated"],
+      "correctAnswer": "aggregated",
+      "relatedWordId": "w20"
+    },
+    {
+      "id": "mc36",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'homogeneous'?",
+      "options": ["heterogeneous", "ubiquitous", "tangible", "viable"],
+      "correctAnswer": "heterogeneous",
+      "relatedWordId": "w28"
+    },
+    {
+      "id": "mc37",
+      "type": "multiple_choice",
+      "question": "The research examined _______ factors like external rewards.",
+      "options": ["extrinsic", "intrinsic", "implicit", "spurious"],
+      "correctAnswer": "extrinsic",
+      "relatedWordId": "w38"
+    },
+    {
+      "id": "mc38",
+      "type": "multiple_choice",
+      "question": "What does 'rigorous' mean in research context?",
+      "options": [
+        "Extremely thorough and accurate",
+        "Quick and superficial",
+        "Flexible and adaptable",
+        "Simple and basic"
+      ],
+      "correctAnswer": "Extremely thorough and accurate",
+      "relatedWordId": "w45"
+    },
+    {
+      "id": "mc39",
+      "type": "multiple_choice",
+      "question": "A _______ of cognitive growth shows how abilities develop over time.",
+      "options": ["trajectory", "proxy", "criterion", "bias"],
+      "correctAnswer": "trajectory",
+      "relatedWordId": "w49"
+    },
+    {
+      "id": "mc40",
+      "type": "multiple_choice",
+      "question": "The paper provides a comprehensive _______ of existing literature.",
+      "options": ["synthesis", "anomaly", "discrepancy", "variance"],
+      "correctAnswer": "synthesis",
+      "relatedWordId": "w48"
+    },
+    {
+      "id": "fb31",
+      "type": "fill_blank",
+      "question": "The discovery challenged the existing _______ in the field.",
+      "correctAnswer": "paradigm",
+      "relatedWordId": "w15"
+    },
+    {
+      "id": "fb32",
+      "type": "fill_blank",
+      "question": "Researchers must _______ their conclusions with solid evidence.",
+      "correctAnswer": "substantiate",
+      "relatedWordId": "w18"
+    },
+    {
+      "id": "fb33",
+      "type": "fill_blank",
+      "question": "The study tracked a _______ of 500 participants over ten years.",
+      "correctAnswer": "cohort",
+      "relatedWordId": "w21"
+    },
+    {
+      "id": "fb34",
+      "type": "fill_blank",
+      "question": "We need to establish _______, not just correlation, between the variables.",
+      "correctAnswer": "causality",
+      "relatedWordId": "w26"
+    },
+    {
+      "id": "fb35",
+      "type": "fill_blank",
+      "question": "The instructions should be _______ so that anyone can replicate the study.",
+      "correctAnswer": "explicit",
+      "relatedWordId": "w36"
+    },
+    {
+      "id": "fb36",
+      "type": "fill_blank",
+      "question": "This explanation seems _______ given the available evidence.",
+      "correctAnswer": "plausible",
+      "relatedWordId": "w39"
+    },
+    {
+      "id": "fb37",
+      "type": "fill_blank",
+      "question": "The study used income as a _______ for social class.",
+      "correctAnswer": "proxy",
+      "relatedWordId": "w8"
+    },
+    {
+      "id": "fb38",
+      "type": "fill_blank",
+      "question": "_______ methods focus on numbers and statistics.",
+      "correctAnswer": "Quantitative",
+      "relatedWordId": "w13"
+    },
+    {
+      "id": "fb39",
+      "type": "fill_blank",
+      "question": "The experiment tested multiple independent _______.",
+      "correctAnswer": "variables",
+      "relatedWordId": "w12"
+    },
+    {
+      "id": "fb40",
+      "type": "fill_blank",
+      "question": "There is a strong positive _______ between study time and test scores.",
+      "correctAnswer": "correlation",
+      "relatedWordId": "w11"
+    },
+    {
+      "id": "fb41",
+      "type": "fill_blank",
+      "question": "The committee will _______ all proposals before making a decision.",
+      "correctAnswer": "scrutinize",
+      "relatedWordId": "w17"
+    },
+    {
+      "id": "fb42",
+      "type": "fill_blank",
+      "question": "The findings need to be _______ through repeated testing.",
+      "correctAnswer": "validated",
+      "relatedWordId": "w23"
+    },
+    {
+      "id": "fb43",
+      "type": "fill_blank",
+      "question": "Researcher _______ can influence how data is interpreted.",
+      "correctAnswer": "bias",
+      "relatedWordId": "w25"
+    },
+    {
+      "id": "fb44",
+      "type": "fill_blank",
+      "question": "We can make an _______ based on the available data.",
+      "correctAnswer": "inference",
+      "relatedWordId": "w24"
+    },
+    {
+      "id": "fb45",
+      "type": "fill_blank",
+      "question": "The study collected _______ data about age, gender, and education level.",
+      "correctAnswer": "demographic",
+      "relatedWordId": "w22"
+    },
+    {
+      "id": "tken31",
+      "type": "translation_ko_en",
+      "question": "전제 조건",
+      "correctAnswer": "prerequisite",
+      "relatedWordId": "w31"
+    },
+    {
+      "id": "tken32",
+      "type": "translation_ko_en",
+      "question": "기준",
+      "correctAnswer": "criterion",
+      "relatedWordId": "w32"
+    },
+    {
+      "id": "tken33",
+      "type": "translation_ko_en",
+      "question": "불일치",
+      "correctAnswer": "discrepancy",
+      "relatedWordId": "w33"
+    },
+    {
+      "id": "tken34",
+      "type": "translation_ko_en",
+      "question": "명확히 하다",
+      "correctAnswer": "elucidate",
+      "relatedWordId": "w34"
+    },
+    {
+      "id": "tken35",
+      "type": "translation_ko_en",
+      "question": "암묵적인",
+      "correctAnswer": "implicit",
+      "relatedWordId": "w35"
+    },
+    {
+      "id": "tken36",
+      "type": "translation_ko_en",
+      "question": "명시적인",
+      "correctAnswer": "explicit",
+      "relatedWordId": "w36"
+    },
+    {
+      "id": "tken37",
+      "type": "translation_ko_en",
+      "question": "본질적인",
+      "correctAnswer": "intrinsic",
+      "relatedWordId": "w37"
+    },
+    {
+      "id": "tken38",
+      "type": "translation_ko_en",
+      "question": "외재적인",
+      "correctAnswer": "extrinsic",
+      "relatedWordId": "w38"
+    },
+    {
+      "id": "tken39",
+      "type": "translation_ko_en",
+      "question": "그럴듯한",
+      "correctAnswer": "plausible",
+      "relatedWordId": "w39"
+    },
+    {
+      "id": "tken40",
+      "type": "translation_ko_en",
+      "question": "가짜의",
+      "correctAnswer": "spurious",
+      "relatedWordId": "w40"
+    },
+    {
+      "id": "tken41",
+      "type": "translation_ko_en",
+      "question": "유형의",
+      "correctAnswer": "tangible",
+      "relatedWordId": "w41"
+    },
+    {
+      "id": "tken42",
+      "type": "translation_ko_en",
+      "question": "시간의",
+      "correctAnswer": "temporal",
+      "relatedWordId": "w42"
+    },
+    {
+      "id": "tken43",
+      "type": "translation_ko_en",
+      "question": "분산",
+      "correctAnswer": "variance",
+      "relatedWordId": "w43"
+    },
+    {
+      "id": "tken44",
+      "type": "translation_ko_en",
+      "question": "실행 가능한",
+      "correctAnswer": "viable",
+      "relatedWordId": "w44"
+    },
+    {
+      "id": "tken45",
+      "type": "translation_ko_en",
+      "question": "엄격한",
+      "correctAnswer": "rigorous",
+      "relatedWordId": "w45"
+    },
+    {
+      "id": "tken46",
+      "type": "translation_ko_en",
+      "question": "선례",
+      "correctAnswer": "precedent",
+      "relatedWordId": "w46"
+    },
+    {
+      "id": "tken47",
+      "type": "translation_ko_en",
+      "question": "당연한 결과",
+      "correctAnswer": "corollary",
+      "relatedWordId": "w47"
+    },
+    {
+      "id": "tken48",
+      "type": "translation_ko_en",
+      "question": "종합",
+      "correctAnswer": "synthesis",
+      "relatedWordId": "w48"
+    },
+    {
+      "id": "tken49",
+      "type": "translation_ko_en",
+      "question": "궤적",
+      "correctAnswer": "trajectory",
+      "relatedWordId": "w49"
+    },
+    {
+      "id": "tken50",
+      "type": "translation_ko_en",
+      "question": "어디에나 있는",
+      "correctAnswer": "ubiquitous",
+      "relatedWordId": "w50"
     }
   ]
 }

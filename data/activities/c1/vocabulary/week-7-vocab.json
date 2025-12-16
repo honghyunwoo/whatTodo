@@ -7,102 +7,1568 @@
   "description": "Specialized vocabulary for technology, innovation, and digital transformation",
   "estimatedMinutes": 25,
   "xpReward": 55,
-  "items": [
+  "words": [
     {
-      "id": "c1-v7-1",
+      "id": "w1",
       "word": "disruptive",
-      "definition": "Creating radical change by displacing established technologies, markets, or industries",
       "pronunciation": "/dɪsˈrʌptɪv/",
       "partOfSpeech": "adjective",
-      "koreanMeaning": "파괴적인, 혁신적인",
-      "example": "Streaming services proved disruptive to the traditional broadcasting industry.",
-      "synonyms": ["revolutionary", "groundbreaking", "transformative"],
-      "antonyms": ["sustaining", "incremental"],
-      "collocations": ["disruptive innovation", "disruptive technology", "disruptive business model"]
+      "meaning": "Creating radical change by displacing established technologies, markets, or industries",
+      "translation": "파괴적인, 혁신적인",
+      "example": "Streaming services proved disruptive to the traditional broadcasting industry."
     },
     {
-      "id": "c1-v7-2",
+      "id": "w2",
       "word": "scalability",
-      "definition": "The capacity of a system to handle growth or increased demand efficiently",
       "pronunciation": "/ˌskeɪləˈbɪləti/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "확장성",
-      "example": "Cloud computing offers unprecedented scalability for growing businesses.",
-      "synonyms": ["expandability", "extensibility", "growth capacity"],
-      "antonyms": ["limitation", "constraint"],
-      "collocations": ["horizontal scalability", "vertical scalability", "scalability issues"]
+      "meaning": "The capacity of a system to handle growth or increased demand efficiently",
+      "translation": "확장성",
+      "example": "Cloud computing offers unprecedented scalability for growing businesses."
     },
     {
-      "id": "c1-v7-3",
+      "id": "w3",
       "word": "algorithm",
-      "definition": "A set of rules or procedures for solving problems or processing data",
       "pronunciation": "/ˈælɡərɪðəm/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "알고리즘",
-      "example": "Social media algorithms determine which content users see in their feeds.",
-      "synonyms": ["procedure", "formula", "process"],
-      "antonyms": [],
-      "collocations": ["machine learning algorithm", "recommendation algorithm", "search algorithm"]
+      "meaning": "A set of rules or procedures for solving problems or processing data",
+      "translation": "알고리즘",
+      "example": "Social media algorithms determine which content users see in their feeds."
     },
     {
-      "id": "c1-v7-4",
+      "id": "w4",
       "word": "interoperability",
-      "definition": "The ability of different systems or components to work together seamlessly",
       "pronunciation": "/ˌɪntərˌɒpərəˈbɪləti/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "상호 운용성",
-      "example": "Healthcare systems require interoperability to share patient records securely.",
-      "synonyms": ["compatibility", "interconnectivity", "integration"],
-      "antonyms": ["incompatibility", "isolation"],
-      "collocations": ["system interoperability", "data interoperability", "ensure interoperability"]
+      "meaning": "The ability of different systems or components to work together seamlessly",
+      "translation": "상호 운용성",
+      "example": "Healthcare systems require interoperability to share patient records securely."
     },
     {
-      "id": "c1-v7-5",
+      "id": "w5",
       "word": "iteration",
-      "definition": "A repetition of a process to approach a desired result; a version of a product",
       "pronunciation": "/ˌɪtəˈreɪʃən/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "반복, 이터레이션",
-      "example": "Each iteration of the product incorporated user feedback from the previous version.",
-      "synonyms": ["repetition", "cycle", "version"],
-      "antonyms": [],
-      "collocations": ["rapid iteration", "product iteration", "iterative process"]
+      "meaning": "A repetition of a process to approach a desired result; a version of a product",
+      "translation": "반복, 이터레이션",
+      "example": "Each iteration of the product incorporated user feedback from the previous version."
     },
     {
-      "id": "c1-v7-6",
+      "id": "w6",
       "word": "latency",
-      "definition": "The delay before a transfer of data begins following an instruction",
       "pronunciation": "/ˈleɪtənsi/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "지연 시간",
-      "example": "5G networks promise significantly reduced latency compared to 4G.",
-      "synonyms": ["delay", "lag", "response time"],
-      "antonyms": [],
-      "collocations": ["low latency", "network latency", "reduce latency"]
+      "meaning": "The delay before a transfer of data begins following an instruction",
+      "translation": "지연 시간",
+      "example": "5G networks promise significantly reduced latency compared to 4G."
     },
     {
-      "id": "c1-v7-7",
+      "id": "w7",
       "word": "obsolescence",
-      "definition": "The process of becoming outdated or no longer useful",
       "pronunciation": "/ˌɒbsəˈlesəns/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "노후화, 퇴화",
-      "example": "Planned obsolescence encourages consumers to upgrade devices regularly.",
-      "synonyms": ["outdatedness", "retirement", "deprecation"],
-      "antonyms": ["relevance", "currentness"],
-      "collocations": ["planned obsolescence", "technological obsolescence", "built-in obsolescence"]
+      "meaning": "The process of becoming outdated or no longer useful",
+      "translation": "노후화, 퇴화",
+      "example": "Planned obsolescence encourages consumers to upgrade devices regularly."
     },
     {
-      "id": "c1-v7-8",
+      "id": "w8",
       "word": "proprietary",
-      "definition": "Owned and controlled by a particular company; not open or publicly available",
       "pronunciation": "/prəˈpraɪətəri/",
       "partOfSpeech": "adjective",
-      "koreanMeaning": "독점적인, 소유권이 있는",
-      "example": "The company's proprietary software gives them a competitive advantage.",
-      "synonyms": ["exclusive", "patented", "private"],
-      "antonyms": ["open-source", "public", "shared"],
-      "collocations": ["proprietary technology", "proprietary software", "proprietary format"]
+      "meaning": "Owned and controlled by a particular company; not open or publicly available",
+      "translation": "독점적인, 소유권이 있는",
+      "example": "The company's proprietary software gives them a competitive advantage."
+    },
+    {
+      "id": "w9",
+      "word": "encryption",
+      "pronunciation": "/ɪnˈkrɪpʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The process of converting information into code to prevent unauthorized access",
+      "translation": "암호화",
+      "example": "End-to-end encryption ensures that only the sender and recipient can read messages."
+    },
+    {
+      "id": "w10",
+      "word": "bandwidth",
+      "pronunciation": "/ˈbændwɪdθ/",
+      "partOfSpeech": "noun",
+      "meaning": "The maximum rate of data transfer across a given path or network",
+      "translation": "대역폭",
+      "example": "High bandwidth connections are essential for streaming 4K video content."
+    },
+    {
+      "id": "w11",
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "meaning": "A typical pattern or model; a fundamental change in approach or underlying assumptions",
+      "translation": "패러다임, 전형",
+      "example": "Mobile computing represented a paradigm shift in how people access information."
+    },
+    {
+      "id": "w12",
+      "word": "proliferation",
+      "pronunciation": "/prəˌlɪfəˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "Rapid increase or spread of something, especially technology or devices",
+      "translation": "확산, 증식",
+      "example": "The proliferation of smartphones has transformed global communication."
+    },
+    {
+      "id": "w13",
+      "word": "augmented",
+      "pronunciation": "/ɔːɡˈmentɪd/",
+      "partOfSpeech": "adjective",
+      "meaning": "Enhanced or improved by adding computer-generated elements to reality",
+      "translation": "증강된",
+      "example": "Augmented reality applications overlay digital information onto the physical world."
+    },
+    {
+      "id": "w14",
+      "word": "cryptocurrency",
+      "pronunciation": "/ˈkrɪptoʊˌkʌrənsi/",
+      "partOfSpeech": "noun",
+      "meaning": "A digital currency using cryptography for security, independent of central banks",
+      "translation": "암호화폐",
+      "example": "Bitcoin was the first successful cryptocurrency to gain widespread adoption."
+    },
+    {
+      "id": "w15",
+      "word": "blockchain",
+      "pronunciation": "/ˈblɒktʃeɪn/",
+      "partOfSpeech": "noun",
+      "meaning": "A distributed digital ledger that records transactions across multiple computers",
+      "translation": "블록체인",
+      "example": "Blockchain technology provides transparency and security for digital transactions."
+    },
+    {
+      "id": "w16",
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Present, appearing, or found everywhere; omnipresent",
+      "translation": "어디에나 있는, 편재하는",
+      "example": "Smartphones have become ubiquitous in modern society."
+    },
+    {
+      "id": "w17",
+      "word": "virtualization",
+      "pronunciation": "/ˌvɜːtʃuəlaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The creation of virtual versions of computing resources rather than physical ones",
+      "translation": "가상화",
+      "example": "Server virtualization allows multiple virtual servers to run on a single physical machine."
+    },
+    {
+      "id": "w18",
+      "word": "middleware",
+      "pronunciation": "/ˈmɪdəlweər/",
+      "partOfSpeech": "noun",
+      "meaning": "Software that acts as a bridge between different applications or systems",
+      "translation": "미들웨어",
+      "example": "Middleware facilitates communication between the database and the application layer."
+    },
+    {
+      "id": "w19",
+      "word": "authentication",
+      "pronunciation": "/ɔːˌθentɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The process of verifying the identity of a user or system",
+      "translation": "인증",
+      "example": "Two-factor authentication adds an extra layer of security to user accounts."
+    },
+    {
+      "id": "w20",
+      "word": "deprecated",
+      "pronunciation": "/ˈdeprəkeɪtɪd/",
+      "partOfSpeech": "adjective",
+      "meaning": "Marked as outdated and discouraged from use, though still available",
+      "translation": "더 이상 사용되지 않는, 권장되지 않는",
+      "example": "The deprecated API will be removed in the next software version."
+    },
+    {
+      "id": "w21",
+      "word": "throughput",
+      "pronunciation": "/ˈθruːpʊt/",
+      "partOfSpeech": "noun",
+      "meaning": "The amount of data processed or transmitted in a given time period",
+      "translation": "처리량",
+      "example": "The new system achieved higher throughput with improved data processing capabilities."
+    },
+    {
+      "id": "w22",
+      "word": "redundancy",
+      "pronunciation": "/rɪˈdʌndənsi/",
+      "partOfSpeech": "noun",
+      "meaning": "The inclusion of extra components to ensure system reliability and backup",
+      "translation": "중복성, 여분",
+      "example": "Data redundancy across multiple servers prevents information loss during failures."
+    },
+    {
+      "id": "w23",
+      "word": "agnostic",
+      "pronunciation": "/æɡˈnɒstɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Not limited to or dependent on a particular platform, system, or technology",
+      "translation": "불가지론적인, 특정 기술에 독립적인",
+      "example": "The platform-agnostic software runs seamlessly on Windows, Mac, and Linux."
+    },
+    {
+      "id": "w24",
+      "word": "convergence",
+      "pronunciation": "/kənˈvɜːdʒəns/",
+      "partOfSpeech": "noun",
+      "meaning": "The merging of distinct technologies or industries into a unified whole",
+      "translation": "융합, 수렴",
+      "example": "Digital convergence has blurred the lines between phones, computers, and cameras."
+    },
+    {
+      "id": "w25",
+      "word": "silicon",
+      "pronunciation": "/ˈsɪlɪkən/",
+      "partOfSpeech": "noun",
+      "meaning": "A chemical element used as a semiconductor in electronic devices and chips",
+      "translation": "실리콘, 규소",
+      "example": "Silicon Valley became synonymous with technology innovation and startups."
+    },
+    {
+      "id": "w26",
+      "word": "throttling",
+      "pronunciation": "/ˈθrɒtəlɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "The deliberate regulation or slowing down of a service or connection",
+      "translation": "조절, 제한",
+      "example": "Internet providers may engage in bandwidth throttling during peak usage hours."
+    },
+    {
+      "id": "w27",
+      "word": "metadata",
+      "pronunciation": "/ˈmetədeɪtə/",
+      "partOfSpeech": "noun",
+      "meaning": "Data that provides information about other data, such as file properties",
+      "translation": "메타데이터",
+      "example": "The photograph's metadata includes the date, time, and camera settings."
+    },
+    {
+      "id": "w28",
+      "word": "biometric",
+      "pronunciation": "/ˌbaɪəˈmetrɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to measurements of unique physical characteristics for identification",
+      "translation": "생체 인식의",
+      "example": "Biometric authentication uses fingerprints or facial recognition for security."
+    },
+    {
+      "id": "w29",
+      "word": "firmware",
+      "pronunciation": "/ˈfɜːmweər/",
+      "partOfSpeech": "noun",
+      "meaning": "Permanent software programmed into a hardware device's read-only memory",
+      "translation": "펌웨어",
+      "example": "The router's firmware needs regular updates to patch security vulnerabilities."
+    },
+    {
+      "id": "w30",
+      "word": "protocol",
+      "pronunciation": "/ˈproʊtəkɒl/",
+      "partOfSpeech": "noun",
+      "meaning": "A set of rules governing data transmission between electronic devices",
+      "translation": "프로토콜, 통신 규약",
+      "example": "The HTTPS protocol encrypts data transmitted between web browsers and servers."
+    },
+    {
+      "id": "w31",
+      "word": "semiconductor",
+      "pronunciation": "/ˌsemikənˈdʌktər/",
+      "partOfSpeech": "noun",
+      "meaning": "A material with electrical conductivity between a conductor and insulator",
+      "translation": "반도체",
+      "example": "Semiconductor shortages disrupted global electronics manufacturing in 2021."
+    },
+    {
+      "id": "w32",
+      "word": "nanotechnology",
+      "pronunciation": "/ˌnænoʊtekˈnɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "Technology dealing with dimensions and tolerances less than 100 nanometers",
+      "translation": "나노 기술",
+      "example": "Nanotechnology enables the creation of materials with unprecedented properties."
+    },
+    {
+      "id": "w33",
+      "word": "malware",
+      "pronunciation": "/ˈmælweər/",
+      "partOfSpeech": "noun",
+      "meaning": "Malicious software designed to damage, disrupt, or gain unauthorized access",
+      "translation": "악성 소프트웨어",
+      "example": "Antivirus programs protect computers against viruses, trojans, and other malware."
+    },
+    {
+      "id": "w34",
+      "word": "quantum",
+      "pronunciation": "/ˈkwɒntəm/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to the smallest discrete units of matter and energy",
+      "translation": "양자의",
+      "example": "Quantum computing promises to solve problems impossible for classical computers."
+    },
+    {
+      "id": "w35",
+      "word": "automation",
+      "pronunciation": "/ˌɔːtəˈmeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The use of technology to perform tasks with minimal human intervention",
+      "translation": "자동화",
+      "example": "Factory automation has significantly increased production efficiency and consistency."
+    },
+    {
+      "id": "w36",
+      "word": "paradigmatic",
+      "pronunciation": "/ˌpærədɪɡˈmætɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Serving as a typical example or pattern; exemplary",
+      "translation": "전형적인, 모범적인",
+      "example": "Apple's iPhone was paradigmatic of the smartphone revolution."
+    },
+    {
+      "id": "w37",
+      "word": "infrastructure",
+      "pronunciation": "/ˈɪnfrəstrʌktʃər/",
+      "partOfSpeech": "noun",
+      "meaning": "The underlying foundation or basic framework of a system or organization",
+      "translation": "인프라, 기반 시설",
+      "example": "Cloud infrastructure provides the backbone for modern digital services."
+    },
+    {
+      "id": "w38",
+      "word": "analytics",
+      "pronunciation": "/ˌænəˈlɪtɪks/",
+      "partOfSpeech": "noun",
+      "meaning": "The systematic computational analysis of data or statistics",
+      "translation": "분석학, 데이터 분석",
+      "example": "Business analytics helps companies make data-driven decisions."
+    },
+    {
+      "id": "w39",
+      "word": "interface",
+      "pronunciation": "/ˈɪntərfeɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "A point where two systems, subjects, or organizations meet and interact",
+      "translation": "인터페이스, 접점",
+      "example": "The user interface determines how people interact with software applications."
+    },
+    {
+      "id": "w40",
+      "word": "penetration",
+      "pronunciation": "/ˌpenɪˈtreɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The extent to which a product or service is used or recognized in a market",
+      "translation": "침투율, 보급률",
+      "example": "Smartphone penetration in developed countries exceeds 80 percent."
+    },
+    {
+      "id": "w41",
+      "word": "bandwidth",
+      "pronunciation": "/ˈbændwɪdθ/",
+      "partOfSpeech": "noun",
+      "meaning": "The range of frequencies or amount of data that can be transmitted",
+      "translation": "대역폭, 처리 능력",
+      "example": "The project requires significant bandwidth from our engineering team."
+    },
+    {
+      "id": "w42",
+      "word": "ecosystem",
+      "pronunciation": "/ˈiːkoʊsɪstəm/",
+      "partOfSpeech": "noun",
+      "meaning": "A complex network of interconnected products, services, and companies",
+      "translation": "생태계",
+      "example": "Apple has built a comprehensive ecosystem of devices and services."
+    },
+    {
+      "id": "w43",
+      "word": "disintermediation",
+      "pronunciation": "/ˌdɪsɪntərˌmiːdiˈeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The removal of intermediaries in a supply chain or distribution channel",
+      "translation": "중개자 제거, 직거래",
+      "example": "E-commerce enables disintermediation by connecting sellers directly with consumers."
+    },
+    {
+      "id": "w44",
+      "word": "leverage",
+      "pronunciation": "/ˈlevərɪdʒ/",
+      "partOfSpeech": "verb",
+      "meaning": "To use something to maximum advantage; to deploy strategically",
+      "translation": "활용하다, 지렛대로 삼다",
+      "example": "Companies leverage artificial intelligence to improve customer service."
+    },
+    {
+      "id": "w45",
+      "word": "synergy",
+      "pronunciation": "/ˈsɪnərdʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "The combined effect that is greater than the sum of individual parts",
+      "translation": "시너지, 상승효과",
+      "example": "The merger created synergy between the two companies' technologies."
+    },
+    {
+      "id": "w46",
+      "word": "mitigation",
+      "pronunciation": "/ˌmɪtɪˈɡeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The action of reducing the severity, seriousness, or painfulness of something",
+      "translation": "완화, 경감",
+      "example": "Risk mitigation strategies are essential in cybersecurity planning."
+    },
+    {
+      "id": "w47",
+      "word": "seamless",
+      "pronunciation": "/ˈsiːmləs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Smooth and continuous, with no apparent gaps or transitions",
+      "translation": "매끄러운, 이음새 없는",
+      "example": "The integration provides seamless data synchronization across all devices."
+    },
+    {
+      "id": "w48",
+      "word": "bottleneck",
+      "pronunciation": "/ˈbɒtəlnek/",
+      "partOfSpeech": "noun",
+      "meaning": "A point of congestion or blockage that impedes flow or progress",
+      "translation": "병목 현상",
+      "example": "The slow database queries created a bottleneck in the application's performance."
+    },
+    {
+      "id": "w49",
+      "word": "unprecedented",
+      "pronunciation": "/ʌnˈpresɪdentɪd/",
+      "partOfSpeech": "adjective",
+      "meaning": "Never done or known before; without previous example",
+      "translation": "전례 없는",
+      "example": "The pandemic drove unprecedented adoption of remote work technologies."
+    },
+    {
+      "id": "w50",
+      "word": "exponential",
+      "pronunciation": "/ˌekspəˈnenʃəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Growing or increasing at a rapid rate; becoming more and more rapid",
+      "translation": "기하급수적인",
+      "example": "Computing power has experienced exponential growth over the past decades."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "Which word means 'creating radical change by displacing established industries'?",
+      "options": ["disruptive", "incremental", "sustaining", "conservative"],
+      "correctAnswer": "disruptive",
+      "relatedWords": ["w1"]
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "What is the capacity of a system to handle growth efficiently called?",
+      "options": ["limitation", "scalability", "constraint", "restriction"],
+      "correctAnswer": "scalability",
+      "relatedWords": ["w2"]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "A set of rules for solving problems or processing data is a(n) ___.",
+      "options": ["protocol", "algorithm", "interface", "procedure"],
+      "correctAnswer": "algorithm",
+      "relatedWords": ["w3"]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "The ability of different systems to work together seamlessly is called ___.",
+      "options": ["incompatibility", "isolation", "interoperability", "separation"],
+      "correctAnswer": "interoperability",
+      "relatedWords": ["w4"]
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "Each version of a product in development is called a(n) ___.",
+      "options": ["iteration", "finale", "conclusion", "termination"],
+      "correctAnswer": "iteration",
+      "relatedWords": ["w5"]
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "The delay before data transfer begins is called ___.",
+      "options": ["bandwidth", "throughput", "latency", "capacity"],
+      "correctAnswer": "latency",
+      "relatedWords": ["w6"]
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "The process of becoming outdated is called ___.",
+      "options": ["innovation", "renewal", "obsolescence", "modernization"],
+      "correctAnswer": "obsolescence",
+      "relatedWords": ["w7"]
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "Software owned exclusively by a company is called ___.",
+      "options": ["open-source", "public", "proprietary", "shared"],
+      "correctAnswer": "proprietary",
+      "relatedWords": ["w8"]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "Converting information into code to prevent unauthorized access is ___.",
+      "options": ["decryption", "encryption", "extraction", "exposure"],
+      "correctAnswer": "encryption",
+      "relatedWords": ["w9"]
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "The maximum rate of data transfer is called ___.",
+      "options": ["latency", "delay", "bandwidth", "lag"],
+      "correctAnswer": "bandwidth",
+      "relatedWords": ["w10"]
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "A fundamental pattern or model representing a major shift is a ___.",
+      "options": ["paradigm", "detail", "minor change", "adjustment"],
+      "correctAnswer": "paradigm",
+      "relatedWords": ["w11"]
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "Rapid increase or spread of technology is called ___.",
+      "options": ["reduction", "decline", "proliferation", "limitation"],
+      "correctAnswer": "proliferation",
+      "relatedWords": ["w12"]
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "Reality enhanced by computer-generated elements is ___.",
+      "options": ["diminished", "augmented", "reduced", "simplified"],
+      "correctAnswer": "augmented",
+      "relatedWords": ["w13"]
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "A digital currency using cryptography is called ___.",
+      "options": ["cash", "cryptocurrency", "check", "credit"],
+      "correctAnswer": "cryptocurrency",
+      "relatedWords": ["w14"]
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "A distributed digital ledger for transactions is called ___.",
+      "options": ["notebook", "blockchain", "spreadsheet", "document"],
+      "correctAnswer": "blockchain",
+      "relatedWords": ["w15"]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "Present everywhere; omnipresent means ___.",
+      "options": ["rare", "scarce", "limited", "ubiquitous"],
+      "correctAnswer": "ubiquitous",
+      "relatedWords": ["w16"]
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "Creating virtual versions of computing resources is ___.",
+      "options": ["materialization", "physicalization", "virtualization", "solidification"],
+      "correctAnswer": "virtualization",
+      "relatedWords": ["w17"]
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "Software that bridges different applications is called ___.",
+      "options": ["middleware", "hardware", "firmware", "software"],
+      "correctAnswer": "middleware",
+      "relatedWords": ["w18"]
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "Verifying the identity of a user is called ___.",
+      "options": ["authorization", "authentication", "identification", "recognition"],
+      "correctAnswer": "authentication",
+      "relatedWords": ["w19"]
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "Software marked as outdated and discouraged is ___.",
+      "options": ["current", "modern", "deprecated", "updated"],
+      "correctAnswer": "deprecated",
+      "relatedWords": ["w20"]
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "The amount of data processed in a time period is ___.",
+      "options": ["throughput", "input", "output", "storage"],
+      "correctAnswer": "throughput",
+      "relatedWords": ["w21"]
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "Extra components for backup and reliability represent ___.",
+      "options": ["scarcity", "redundancy", "shortage", "deficiency"],
+      "correctAnswer": "redundancy",
+      "relatedWords": ["w22"]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "Not dependent on a particular platform means ___.",
+      "options": ["specific", "limited", "agnostic", "restricted"],
+      "correctAnswer": "agnostic",
+      "relatedWords": ["w23"]
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "The merging of distinct technologies is called ___.",
+      "options": ["divergence", "separation", "convergence", "division"],
+      "correctAnswer": "convergence",
+      "relatedWords": ["w24"]
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "A semiconductor material used in electronic devices is ___.",
+      "options": ["carbon", "silicon", "oxygen", "nitrogen"],
+      "correctAnswer": "silicon",
+      "relatedWords": ["w25"]
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "Deliberately slowing down a service is called ___.",
+      "options": ["acceleration", "speeding", "throttling", "boosting"],
+      "correctAnswer": "throttling",
+      "relatedWords": ["w26"]
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "Data that describes other data is called ___.",
+      "options": ["content", "metadata", "text", "information"],
+      "correctAnswer": "metadata",
+      "relatedWords": ["w27"]
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "Related to unique physical characteristics for identification is ___.",
+      "options": ["generic", "universal", "biometric", "common"],
+      "correctAnswer": "biometric",
+      "relatedWords": ["w28"]
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "Permanent software in a device's memory is ___.",
+      "options": ["software", "hardware", "firmware", "malware"],
+      "correctAnswer": "firmware",
+      "relatedWords": ["w29"]
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "Rules governing data transmission are called a ___.",
+      "options": ["guideline", "protocol", "suggestion", "recommendation"],
+      "correctAnswer": "protocol",
+      "relatedWords": ["w30"]
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "question": "The ___ technology completely transformed the traditional taxi industry.",
+      "correctAnswer": "disruptive",
+      "relatedWords": ["w1"]
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "question": "Our cloud infrastructure provides excellent ___ for future growth.",
+      "correctAnswer": "scalability",
+      "relatedWords": ["w2"]
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "question": "The recommendation ___ suggests products based on browsing history.",
+      "correctAnswer": "algorithm",
+      "relatedWords": ["w3"]
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "System ___ allows different hospital databases to share patient information.",
+      "correctAnswer": "interoperability",
+      "relatedWords": ["w4"]
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "The latest ___ of the software includes several bug fixes.",
+      "correctAnswer": "iteration",
+      "relatedWords": ["w5"]
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "Gamers prefer connections with low ___ for real-time responsiveness.",
+      "correctAnswer": "latency",
+      "relatedWords": ["w6"]
+    },
+    {
+      "id": "ex37",
+      "type": "fill_blank",
+      "question": "Planned ___ forces consumers to replace their devices frequently.",
+      "correctAnswer": "obsolescence",
+      "relatedWords": ["w7"]
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "The company protects its ___ technology with patents.",
+      "correctAnswer": "proprietary",
+      "relatedWords": ["w8"]
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "question": "End-to-end ___ keeps messages private and secure.",
+      "correctAnswer": "encryption",
+      "relatedWords": ["w9"]
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "The video conference requires high ___ for smooth streaming.",
+      "correctAnswer": "bandwidth",
+      "relatedWords": ["w10"]
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "Electric vehicles represent a ___ shift in transportation.",
+      "correctAnswer": "paradigm",
+      "relatedWords": ["w11"]
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "The ___ of IoT devices has raised security concerns.",
+      "correctAnswer": "proliferation",
+      "relatedWords": ["w12"]
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "___ reality apps add digital layers to the real world.",
+      "correctAnswer": "Augmented",
+      "relatedWords": ["w13"]
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "Bitcoin is the most well-known ___.",
+      "correctAnswer": "cryptocurrency",
+      "relatedWords": ["w14"]
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "___ technology provides transparent and tamper-proof records.",
+      "correctAnswer": "Blockchain",
+      "relatedWords": ["w15"]
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "WiFi has become ___ in modern homes and offices.",
+      "correctAnswer": "ubiquitous",
+      "relatedWords": ["w16"]
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "Server ___ reduces hardware costs and improves efficiency.",
+      "correctAnswer": "virtualization",
+      "relatedWords": ["w17"]
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "The ___ connects the front-end application to the backend database.",
+      "correctAnswer": "middleware",
+      "relatedWords": ["w18"]
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "Two-factor ___ improves account security significantly.",
+      "correctAnswer": "authentication",
+      "relatedWords": ["w19"]
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "The ___ function will be removed in the next release.",
+      "correctAnswer": "deprecated",
+      "relatedWords": ["w20"]
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "The new processor achieves higher data ___.",
+      "correctAnswer": "throughput",
+      "relatedWords": ["w21"]
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "Data ___ ensures information is backed up across multiple locations.",
+      "correctAnswer": "redundancy",
+      "relatedWords": ["w22"]
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "The database-___ framework works with MySQL, PostgreSQL, and MongoDB.",
+      "correctAnswer": "agnostic",
+      "relatedWords": ["w23"]
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "Digital ___ has merged television, internet, and phone services.",
+      "correctAnswer": "convergence",
+      "relatedWords": ["w24"]
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "___ Valley is the global center of technology innovation.",
+      "correctAnswer": "Silicon",
+      "relatedWords": ["w25"]
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "The ISP was accused of bandwidth ___ during peak hours.",
+      "correctAnswer": "throttling",
+      "relatedWords": ["w26"]
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "The file's ___ reveals when and where it was created.",
+      "correctAnswer": "metadata",
+      "relatedWords": ["w27"]
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "___ scanners use fingerprints for secure access.",
+      "correctAnswer": "Biometric",
+      "relatedWords": ["w28"]
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "The device's ___ update fixed several security issues.",
+      "correctAnswer": "firmware",
+      "relatedWords": ["w29"]
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "HTTPS is a secure communication ___ for websites.",
+      "correctAnswer": "protocol",
+      "relatedWords": ["w30"]
+    },
+    {
+      "id": "ex61",
+      "type": "matching",
+      "question": "Match each technology term with its definition",
+      "pairs": [
+        {"left": "semiconductor", "right": "Material with partial electrical conductivity"},
+        {"left": "nanotechnology", "right": "Technology at dimensions under 100 nanometers"},
+        {"left": "malware", "right": "Malicious software that damages systems"},
+        {"left": "quantum", "right": "Relating to smallest units of matter"}
+      ],
+      "relatedWords": ["w31", "w32", "w33", "w34"]
+    },
+    {
+      "id": "ex62",
+      "type": "matching",
+      "question": "Match each business term with its meaning",
+      "pairs": [
+        {"left": "automation", "right": "Using technology with minimal human intervention"},
+        {"left": "infrastructure", "right": "Basic framework of a system"},
+        {"left": "analytics", "right": "Computational analysis of data"},
+        {"left": "interface", "right": "Point where systems interact"}
+      ],
+      "relatedWords": ["w35", "w37", "w38", "w39"]
+    },
+    {
+      "id": "ex63",
+      "type": "matching",
+      "question": "Match innovation terms with descriptions",
+      "pairs": [
+        {"left": "paradigmatic", "right": "Serving as a typical example"},
+        {"left": "penetration", "right": "Extent of market usage"},
+        {"left": "ecosystem", "right": "Network of interconnected products"},
+        {"left": "leverage", "right": "Use to maximum advantage"}
+      ],
+      "relatedWords": ["w36", "w40", "w42", "w44"]
+    },
+    {
+      "id": "ex64",
+      "type": "matching",
+      "question": "Match business concepts with meanings",
+      "pairs": [
+        {"left": "disintermediation", "right": "Removing intermediaries from supply chain"},
+        {"left": "synergy", "right": "Combined effect greater than parts"},
+        {"left": "mitigation", "right": "Reducing severity of problems"},
+        {"left": "seamless", "right": "Smooth without apparent gaps"}
+      ],
+      "relatedWords": ["w43", "w45", "w46", "w47"]
+    },
+    {
+      "id": "ex65",
+      "type": "matching",
+      "question": "Match technical terms with definitions",
+      "pairs": [
+        {"left": "bottleneck", "right": "Point that impedes flow or progress"},
+        {"left": "unprecedented", "right": "Never done before"},
+        {"left": "exponential", "right": "Growing at increasingly rapid rate"},
+        {"left": "ubiquitous", "right": "Present everywhere"}
+      ],
+      "relatedWords": ["w48", "w49", "w50", "w16"]
+    },
+    {
+      "id": "ex66",
+      "type": "translation_ko_en",
+      "question": "파괴적인, 혁신적인",
+      "correctAnswer": "disruptive",
+      "relatedWords": ["w1"]
+    },
+    {
+      "id": "ex67",
+      "type": "translation_ko_en",
+      "question": "확장성",
+      "correctAnswer": "scalability",
+      "relatedWords": ["w2"]
+    },
+    {
+      "id": "ex68",
+      "type": "translation_ko_en",
+      "question": "알고리즘",
+      "correctAnswer": "algorithm",
+      "relatedWords": ["w3"]
+    },
+    {
+      "id": "ex69",
+      "type": "translation_ko_en",
+      "question": "상호 운용성",
+      "correctAnswer": "interoperability",
+      "relatedWords": ["w4"]
+    },
+    {
+      "id": "ex70",
+      "type": "translation_ko_en",
+      "question": "반복, 이터레이션",
+      "correctAnswer": "iteration",
+      "relatedWords": ["w5"]
+    },
+    {
+      "id": "ex71",
+      "type": "translation_ko_en",
+      "question": "지연 시간",
+      "correctAnswer": "latency",
+      "relatedWords": ["w6"]
+    },
+    {
+      "id": "ex72",
+      "type": "translation_ko_en",
+      "question": "노후화, 퇴화",
+      "correctAnswer": "obsolescence",
+      "relatedWords": ["w7"]
+    },
+    {
+      "id": "ex73",
+      "type": "translation_ko_en",
+      "question": "독점적인, 소유권이 있는",
+      "correctAnswer": "proprietary",
+      "relatedWords": ["w8"]
+    },
+    {
+      "id": "ex74",
+      "type": "translation_ko_en",
+      "question": "암호화",
+      "correctAnswer": "encryption",
+      "relatedWords": ["w9"]
+    },
+    {
+      "id": "ex75",
+      "type": "translation_ko_en",
+      "question": "대역폭",
+      "correctAnswer": "bandwidth",
+      "relatedWords": ["w10"]
+    },
+    {
+      "id": "ex76",
+      "type": "translation_ko_en",
+      "question": "패러다임, 전형",
+      "correctAnswer": "paradigm",
+      "relatedWords": ["w11"]
+    },
+    {
+      "id": "ex77",
+      "type": "translation_ko_en",
+      "question": "확산, 증식",
+      "correctAnswer": "proliferation",
+      "relatedWords": ["w12"]
+    },
+    {
+      "id": "ex78",
+      "type": "translation_ko_en",
+      "question": "증강된",
+      "correctAnswer": "augmented",
+      "relatedWords": ["w13"]
+    },
+    {
+      "id": "ex79",
+      "type": "translation_ko_en",
+      "question": "암호화폐",
+      "correctAnswer": "cryptocurrency",
+      "relatedWords": ["w14"]
+    },
+    {
+      "id": "ex80",
+      "type": "translation_ko_en",
+      "question": "블록체인",
+      "correctAnswer": "blockchain",
+      "relatedWords": ["w15"]
+    },
+    {
+      "id": "ex81",
+      "type": "translation_ko_en",
+      "question": "어디에나 있는, 편재하는",
+      "correctAnswer": "ubiquitous",
+      "relatedWords": ["w16"]
+    },
+    {
+      "id": "ex82",
+      "type": "translation_ko_en",
+      "question": "가상화",
+      "correctAnswer": "virtualization",
+      "relatedWords": ["w17"]
+    },
+    {
+      "id": "ex83",
+      "type": "translation_ko_en",
+      "question": "미들웨어",
+      "correctAnswer": "middleware",
+      "relatedWords": ["w18"]
+    },
+    {
+      "id": "ex84",
+      "type": "translation_ko_en",
+      "question": "인증",
+      "correctAnswer": "authentication",
+      "relatedWords": ["w19"]
+    },
+    {
+      "id": "ex85",
+      "type": "translation_ko_en",
+      "question": "더 이상 사용되지 않는, 권장되지 않는",
+      "correctAnswer": "deprecated",
+      "relatedWords": ["w20"]
+    },
+    {
+      "id": "ex86",
+      "type": "translation_ko_en",
+      "question": "처리량",
+      "correctAnswer": "throughput",
+      "relatedWords": ["w21"]
+    },
+    {
+      "id": "ex87",
+      "type": "translation_ko_en",
+      "question": "중복성, 여분",
+      "correctAnswer": "redundancy",
+      "relatedWords": ["w22"]
+    },
+    {
+      "id": "ex88",
+      "type": "translation_ko_en",
+      "question": "불가지론적인, 특정 기술에 독립적인",
+      "correctAnswer": "agnostic",
+      "relatedWords": ["w23"]
+    },
+    {
+      "id": "ex89",
+      "type": "translation_ko_en",
+      "question": "융합, 수렴",
+      "correctAnswer": "convergence",
+      "relatedWords": ["w24"]
+    },
+    {
+      "id": "ex90",
+      "type": "translation_ko_en",
+      "question": "실리콘, 규소",
+      "correctAnswer": "silicon",
+      "relatedWords": ["w25"]
+    },
+    {
+      "id": "ex91",
+      "type": "translation_en_ko",
+      "question": "disruptive",
+      "correctAnswer": "파괴적인, 혁신적인",
+      "relatedWords": ["w1"]
+    },
+    {
+      "id": "ex92",
+      "type": "translation_en_ko",
+      "question": "scalability",
+      "correctAnswer": "확장성",
+      "relatedWords": ["w2"]
+    },
+    {
+      "id": "ex93",
+      "type": "translation_en_ko",
+      "question": "algorithm",
+      "correctAnswer": "알고리즘",
+      "relatedWords": ["w3"]
+    },
+    {
+      "id": "ex94",
+      "type": "translation_en_ko",
+      "question": "interoperability",
+      "correctAnswer": "상호 운용성",
+      "relatedWords": ["w4"]
+    },
+    {
+      "id": "ex95",
+      "type": "translation_en_ko",
+      "question": "iteration",
+      "correctAnswer": "반복, 이터레이션",
+      "relatedWords": ["w5"]
+    },
+    {
+      "id": "ex96",
+      "type": "translation_en_ko",
+      "question": "latency",
+      "correctAnswer": "지연 시간",
+      "relatedWords": ["w6"]
+    },
+    {
+      "id": "ex97",
+      "type": "translation_en_ko",
+      "question": "obsolescence",
+      "correctAnswer": "노후화, 퇴화",
+      "relatedWords": ["w7"]
+    },
+    {
+      "id": "ex98",
+      "type": "translation_en_ko",
+      "question": "proprietary",
+      "correctAnswer": "독점적인, 소유권이 있는",
+      "relatedWords": ["w8"]
+    },
+    {
+      "id": "ex99",
+      "type": "translation_en_ko",
+      "question": "encryption",
+      "correctAnswer": "암호화",
+      "relatedWords": ["w9"]
+    },
+    {
+      "id": "ex100",
+      "type": "translation_en_ko",
+      "question": "bandwidth",
+      "correctAnswer": "대역폭",
+      "relatedWords": ["w10"]
+    },
+    {
+      "id": "ex101",
+      "type": "translation_en_ko",
+      "question": "paradigm",
+      "correctAnswer": "패러다임, 전형",
+      "relatedWords": ["w11"]
+    },
+    {
+      "id": "ex102",
+      "type": "translation_en_ko",
+      "question": "proliferation",
+      "correctAnswer": "확산, 증식",
+      "relatedWords": ["w12"]
+    },
+    {
+      "id": "ex103",
+      "type": "translation_en_ko",
+      "question": "augmented",
+      "correctAnswer": "증강된",
+      "relatedWords": ["w13"]
+    },
+    {
+      "id": "ex104",
+      "type": "translation_en_ko",
+      "question": "cryptocurrency",
+      "correctAnswer": "암호화폐",
+      "relatedWords": ["w14"]
+    },
+    {
+      "id": "ex105",
+      "type": "translation_en_ko",
+      "question": "blockchain",
+      "correctAnswer": "블록체인",
+      "relatedWords": ["w15"]
+    },
+    {
+      "id": "ex106",
+      "type": "translation_en_ko",
+      "question": "ubiquitous",
+      "correctAnswer": "어디에나 있는, 편재하는",
+      "relatedWords": ["w16"]
+    },
+    {
+      "id": "ex107",
+      "type": "translation_en_ko",
+      "question": "virtualization",
+      "correctAnswer": "가상화",
+      "relatedWords": ["w17"]
+    },
+    {
+      "id": "ex108",
+      "type": "translation_en_ko",
+      "question": "middleware",
+      "correctAnswer": "미들웨어",
+      "relatedWords": ["w18"]
+    },
+    {
+      "id": "ex109",
+      "type": "translation_en_ko",
+      "question": "authentication",
+      "correctAnswer": "인증",
+      "relatedWords": ["w19"]
+    },
+    {
+      "id": "ex110",
+      "type": "translation_en_ko",
+      "question": "deprecated",
+      "correctAnswer": "더 이상 사용되지 않는, 권장되지 않는",
+      "relatedWords": ["w20"]
+    },
+    {
+      "id": "ex111",
+      "type": "translation_en_ko",
+      "question": "throughput",
+      "correctAnswer": "처리량",
+      "relatedWords": ["w21"]
+    },
+    {
+      "id": "ex112",
+      "type": "translation_en_ko",
+      "question": "redundancy",
+      "correctAnswer": "중복성, 여분",
+      "relatedWords": ["w22"]
+    },
+    {
+      "id": "ex113",
+      "type": "translation_en_ko",
+      "question": "agnostic",
+      "correctAnswer": "불가지론적인, 특정 기술에 독립적인",
+      "relatedWords": ["w23"]
+    },
+    {
+      "id": "ex114",
+      "type": "translation_en_ko",
+      "question": "convergence",
+      "correctAnswer": "융합, 수렴",
+      "relatedWords": ["w24"]
+    },
+    {
+      "id": "ex115",
+      "type": "translation_en_ko",
+      "question": "silicon",
+      "correctAnswer": "실리콘, 규소",
+      "relatedWords": ["w25"]
+    },
+    {
+      "id": "ex116",
+      "type": "multiple_choice",
+      "question": "A material with electrical conductivity between conductor and insulator is a ___.",
+      "options": ["conductor", "insulator", "semiconductor", "capacitor"],
+      "correctAnswer": "semiconductor",
+      "relatedWords": ["w31"]
+    },
+    {
+      "id": "ex117",
+      "type": "multiple_choice",
+      "question": "Technology dealing with dimensions under 100 nanometers is ___.",
+      "options": ["macrotechnology", "nanotechnology", "microtechnology", "megatechnology"],
+      "correctAnswer": "nanotechnology",
+      "relatedWords": ["w32"]
+    },
+    {
+      "id": "ex118",
+      "type": "multiple_choice",
+      "question": "Malicious software designed to damage systems is called ___.",
+      "options": ["software", "hardware", "malware", "firmware"],
+      "correctAnswer": "malware",
+      "relatedWords": ["w33"]
+    },
+    {
+      "id": "ex119",
+      "type": "multiple_choice",
+      "question": "Computing using smallest discrete units of matter is ___ computing.",
+      "options": ["classical", "quantum", "digital", "analog"],
+      "correctAnswer": "quantum",
+      "relatedWords": ["w34"]
+    },
+    {
+      "id": "ex120",
+      "type": "multiple_choice",
+      "question": "Using technology to perform tasks with minimal human intervention is ___.",
+      "options": ["manual", "automation", "operation", "intervention"],
+      "correctAnswer": "automation",
+      "relatedWords": ["w35"]
+    },
+    {
+      "id": "ex121",
+      "type": "fill_blank",
+      "question": "The global ___ shortage has affected electronics production worldwide.",
+      "correctAnswer": "semiconductor",
+      "relatedWords": ["w31"]
+    },
+    {
+      "id": "ex122",
+      "type": "fill_blank",
+      "question": "___ could revolutionize medicine by targeting cells at molecular level.",
+      "correctAnswer": "Nanotechnology",
+      "relatedWords": ["w32"]
+    },
+    {
+      "id": "ex123",
+      "type": "fill_blank",
+      "question": "The antivirus detected and removed the ___ from the system.",
+      "correctAnswer": "malware",
+      "relatedWords": ["w33"]
+    },
+    {
+      "id": "ex124",
+      "type": "fill_blank",
+      "question": "___ computers could break current encryption methods instantly.",
+      "correctAnswer": "Quantum",
+      "relatedWords": ["w34"]
+    },
+    {
+      "id": "ex125",
+      "type": "fill_blank",
+      "question": "Factory ___ has increased production while reducing labor costs.",
+      "correctAnswer": "automation",
+      "relatedWords": ["w35"]
+    },
+    {
+      "id": "ex126",
+      "type": "fill_blank",
+      "question": "The iPhone was ___ of the modern smartphone era.",
+      "correctAnswer": "paradigmatic",
+      "relatedWords": ["w36"]
+    },
+    {
+      "id": "ex127",
+      "type": "fill_blank",
+      "question": "Cloud ___ supports all our applications and databases.",
+      "correctAnswer": "infrastructure",
+      "relatedWords": ["w37"]
+    },
+    {
+      "id": "ex128",
+      "type": "fill_blank",
+      "question": "Data ___ helps us understand customer behavior patterns.",
+      "correctAnswer": "analytics",
+      "relatedWords": ["w38"]
+    },
+    {
+      "id": "ex129",
+      "type": "fill_blank",
+      "question": "The touchscreen ___ revolutionized how we interact with devices.",
+      "correctAnswer": "interface",
+      "relatedWords": ["w39"]
+    },
+    {
+      "id": "ex130",
+      "type": "fill_blank",
+      "question": "Market ___ for electric vehicles is growing rapidly worldwide.",
+      "correctAnswer": "penetration",
+      "relatedWords": ["w40"]
+    },
+    {
+      "id": "ex131",
+      "type": "translation_ko_en",
+      "question": "조절, 제한",
+      "correctAnswer": "throttling",
+      "relatedWords": ["w26"]
+    },
+    {
+      "id": "ex132",
+      "type": "translation_ko_en",
+      "question": "메타데이터",
+      "correctAnswer": "metadata",
+      "relatedWords": ["w27"]
+    },
+    {
+      "id": "ex133",
+      "type": "translation_ko_en",
+      "question": "생체 인식의",
+      "correctAnswer": "biometric",
+      "relatedWords": ["w28"]
+    },
+    {
+      "id": "ex134",
+      "type": "translation_ko_en",
+      "question": "펌웨어",
+      "correctAnswer": "firmware",
+      "relatedWords": ["w29"]
+    },
+    {
+      "id": "ex135",
+      "type": "translation_ko_en",
+      "question": "프로토콜, 통신 규약",
+      "correctAnswer": "protocol",
+      "relatedWords": ["w30"]
+    },
+    {
+      "id": "ex136",
+      "type": "translation_en_ko",
+      "question": "throttling",
+      "correctAnswer": "조절, 제한",
+      "relatedWords": ["w26"]
+    },
+    {
+      "id": "ex137",
+      "type": "translation_en_ko",
+      "question": "metadata",
+      "correctAnswer": "메타데이터",
+      "relatedWords": ["w27"]
+    },
+    {
+      "id": "ex138",
+      "type": "translation_en_ko",
+      "question": "biometric",
+      "correctAnswer": "생체 인식의",
+      "relatedWords": ["w28"]
+    },
+    {
+      "id": "ex139",
+      "type": "translation_en_ko",
+      "question": "firmware",
+      "correctAnswer": "펌웨어",
+      "relatedWords": ["w29"]
+    },
+    {
+      "id": "ex140",
+      "type": "translation_en_ko",
+      "question": "protocol",
+      "correctAnswer": "프로토콜, 통신 규약",
+      "relatedWords": ["w30"]
+    },
+    {
+      "id": "ex141",
+      "type": "translation_ko_en",
+      "question": "반도체",
+      "correctAnswer": "semiconductor",
+      "relatedWords": ["w31"]
+    },
+    {
+      "id": "ex142",
+      "type": "translation_ko_en",
+      "question": "나노 기술",
+      "correctAnswer": "nanotechnology",
+      "relatedWords": ["w32"]
+    },
+    {
+      "id": "ex143",
+      "type": "translation_ko_en",
+      "question": "악성 소프트웨어",
+      "correctAnswer": "malware",
+      "relatedWords": ["w33"]
+    },
+    {
+      "id": "ex144",
+      "type": "translation_ko_en",
+      "question": "양자의",
+      "correctAnswer": "quantum",
+      "relatedWords": ["w34"]
+    },
+    {
+      "id": "ex145",
+      "type": "translation_ko_en",
+      "question": "자동화",
+      "correctAnswer": "automation",
+      "relatedWords": ["w35"]
+    },
+    {
+      "id": "ex146",
+      "type": "translation_en_ko",
+      "question": "semiconductor",
+      "correctAnswer": "반도체",
+      "relatedWords": ["w31"]
+    },
+    {
+      "id": "ex147",
+      "type": "translation_en_ko",
+      "question": "nanotechnology",
+      "correctAnswer": "나노 기술",
+      "relatedWords": ["w32"]
+    },
+    {
+      "id": "ex148",
+      "type": "translation_en_ko",
+      "question": "malware",
+      "correctAnswer": "악성 소프트웨어",
+      "relatedWords": ["w33"]
+    },
+    {
+      "id": "ex149",
+      "type": "translation_en_ko",
+      "question": "quantum",
+      "correctAnswer": "양자의",
+      "relatedWords": ["w34"]
+    },
+    {
+      "id": "ex150",
+      "type": "translation_en_ko",
+      "question": "automation",
+      "correctAnswer": "자동화",
+      "relatedWords": ["w35"]
     }
   ]
 }

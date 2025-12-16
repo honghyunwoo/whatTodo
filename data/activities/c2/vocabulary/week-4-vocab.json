@@ -7,102 +7,1793 @@
   "description": "Specialized vocabulary for political philosophy and social critique",
   "estimatedMinutes": 25,
   "xpReward": 55,
-  "items": [
+  "words": [
     {
-      "id": "c2-v4-1",
+      "id": "w1",
       "word": "hegemony",
-      "definition": "Dominance of one group over others, especially through cultural or ideological means",
       "pronunciation": "/hɪˈdʒeməni/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "패권, 헤게모니",
-      "example": "Gramsci analyzed how cultural hegemony operates through consent rather than coercion.",
-      "synonyms": ["dominance", "supremacy", "ascendancy"],
-      "antonyms": ["subordination", "subservience"],
-      "collocations": ["cultural hegemony", "ideological hegemony", "hegemonic power"]
+      "meaning": "Dominance of one group over others, especially through cultural or ideological means",
+      "translation": "패권, 헤게모니",
+      "example": "Gramsci analyzed how cultural hegemony operates through consent rather than coercion."
     },
     {
-      "id": "c2-v4-2",
+      "id": "w2",
       "word": "reification",
-      "definition": "The treatment of abstract concepts as if they were concrete things; making something abstract seem real",
       "pronunciation": "/ˌriːɪfɪˈkeɪʃən/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "물화, 사물화",
-      "example": "Lukács critiqued the reification of human relations under capitalism.",
-      "synonyms": ["objectification", "concretization", "materialization"],
-      "antonyms": ["abstraction"],
-      "collocations": ["social reification", "reification of concepts", "process of reification"]
+      "meaning": "The treatment of abstract concepts as if they were concrete things; making something abstract seem real",
+      "translation": "물화, 사물화",
+      "example": "Lukács critiqued the reification of human relations under capitalism."
     },
     {
-      "id": "c2-v4-3",
+      "id": "w3",
       "word": "praxis",
-      "definition": "The process of putting theoretical knowledge into practice; practical application of ideas",
       "pronunciation": "/ˈpræksɪs/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "실천, 프락시스",
-      "example": "For Marx, philosophy must be united with revolutionary praxis.",
-      "synonyms": ["practice", "application", "implementation"],
-      "antonyms": ["theory", "abstraction"],
-      "collocations": ["revolutionary praxis", "political praxis", "theory and praxis"]
+      "meaning": "The process of putting theoretical knowledge into practice; practical application of ideas",
+      "translation": "실천, 프락시스",
+      "example": "For Marx, philosophy must be united with revolutionary praxis."
     },
     {
-      "id": "c2-v4-4",
+      "id": "w4",
       "word": "subaltern",
-      "definition": "Of lower rank; in postcolonial theory, groups marginalized and excluded from power",
       "pronunciation": "/ˈsʌbəltərn/",
       "partOfSpeech": "noun/adjective",
-      "koreanMeaning": "하위주체, 서발턴",
-      "example": "Spivak famously asked whether the subaltern can speak.",
-      "synonyms": ["subordinate", "marginalized", "oppressed"],
-      "antonyms": ["dominant", "hegemonic"],
-      "collocations": ["subaltern studies", "subaltern voice", "subaltern groups"]
+      "meaning": "Of lower rank; in postcolonial theory, groups marginalized and excluded from power",
+      "translation": "하위주체, 서발턴",
+      "example": "Spivak famously asked whether the subaltern can speak."
     },
     {
-      "id": "c2-v4-5",
+      "id": "w5",
       "word": "interpellation",
-      "definition": "The process by which ideology addresses individuals and constitutes them as subjects",
       "pronunciation": "/ɪnˌtɜːrpəˈleɪʃən/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "호명, 호출",
-      "example": "Althusser's theory of interpellation explains how individuals become subjects of ideology.",
-      "synonyms": ["hailing", "summoning", "constituting"],
-      "antonyms": [],
-      "collocations": ["ideological interpellation", "Althusserian interpellation", "subject interpellation"]
+      "meaning": "The process by which ideology addresses individuals and constitutes them as subjects",
+      "translation": "호명, 호출",
+      "example": "Althusser's theory of interpellation explains how individuals become subjects of ideology."
     },
     {
-      "id": "c2-v4-6",
+      "id": "w6",
       "word": "biopolitics",
-      "definition": "The governance of populations through administration of biological life processes",
       "pronunciation": "/ˌbaɪoʊˈpɒlɪtɪks/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "생명정치",
-      "example": "Foucault analyzed how biopolitics emerged in the modern era to manage populations.",
-      "synonyms": ["biopower", "governmentality"],
-      "antonyms": [],
-      "collocations": ["Foucauldian biopolitics", "biopolitical control", "biopolitics of health"]
+      "meaning": "The governance of populations through administration of biological life processes",
+      "translation": "생명정치",
+      "example": "Foucault analyzed how biopolitics emerged in the modern era to manage populations."
     },
     {
-      "id": "c2-v4-7",
+      "id": "w7",
       "word": "simulacrum",
-      "definition": "A copy without an original; an image that has replaced or superseded reality",
       "pronunciation": "/ˌsɪmjʊˈleɪkrəm/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "시뮬라크르, 모상",
-      "example": "Baudrillard argued that contemporary society is characterized by simulacra.",
-      "synonyms": ["copy", "image", "representation"],
-      "antonyms": ["original", "authentic"],
-      "collocations": ["order of simulacra", "pure simulacrum", "world of simulacra"]
+      "meaning": "A copy without an original; an image that has replaced or superseded reality",
+      "translation": "시뮬라크르, 모상",
+      "example": "Baudrillard argued that contemporary society is characterized by simulacra."
     },
     {
-      "id": "c2-v4-8",
+      "id": "w8",
       "word": "deterritorialization",
-      "definition": "The weakening of ties between culture and place; the severing of social relations from local contexts",
       "pronunciation": "/diːˌterɪtɔːriəlaɪˈzeɪʃən/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "탈영토화",
-      "example": "Deleuze and Guattari describe capitalism as a deterritorializing force.",
-      "synonyms": ["displacement", "delocalization", "disembedding"],
-      "antonyms": ["reterritorialization", "localization"],
-      "collocations": ["cultural deterritorialization", "process of deterritorialization", "deterritorialization and reterritorialization"]
+      "meaning": "The weakening of ties between culture and place; the severing of social relations from local contexts",
+      "translation": "탈영토화",
+      "example": "Deleuze and Guattari describe capitalism as a deterritorializing force."
+    },
+    {
+      "id": "w9",
+      "word": "dialectical",
+      "pronunciation": "/ˌdaɪəˈlektɪkəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to logical argumentation through contradiction and resolution; the Hegelian method of thesis-antithesis-synthesis",
+      "translation": "변증법적",
+      "example": "Hegel's dialectical method profoundly influenced subsequent philosophical thought."
+    },
+    {
+      "id": "w10",
+      "word": "commodification",
+      "pronunciation": "/kəˌmɒdɪfɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The transformation of goods, services, ideas, or people into commodities or objects of trade",
+      "translation": "상품화",
+      "example": "Marx examined the commodification of labor in capitalist production."
+    },
+    {
+      "id": "w11",
+      "word": "episteme",
+      "pronunciation": "/ɪˈpɪstɪmiː/",
+      "partOfSpeech": "noun",
+      "meaning": "The fundamental framework of knowledge and understanding characteristic of a particular historical period",
+      "translation": "에피스테메, 인식론적 틀",
+      "example": "Foucault traced the shifts in epistemes across different historical epochs."
+    },
+    {
+      "id": "w12",
+      "word": "panopticon",
+      "pronunciation": "/pænˈɒptɪkɒn/",
+      "partOfSpeech": "noun",
+      "meaning": "A circular prison with cells arranged around a central watchtower; metaphor for surveillance and disciplinary power",
+      "translation": "파놉티콘, 일망감시시설",
+      "example": "Bentham's panopticon became Foucault's central metaphor for modern disciplinary society."
+    },
+    {
+      "id": "w13",
+      "word": "ontological",
+      "pronunciation": "/ˌɒntəˈlɒdʒɪkəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to the nature of being, existence, or reality itself",
+      "translation": "존재론적",
+      "example": "Heidegger posed fundamental ontological questions about the meaning of Being."
+    },
+    {
+      "id": "w14",
+      "word": "apotheosis",
+      "pronunciation": "/əˌpɒθiˈoʊsɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "The highest point of development; elevation to divine status; the perfect example",
+      "translation": "신격화, 정점",
+      "example": "The Enlightenment represented the apotheosis of rational thought in Western philosophy."
+    },
+    {
+      "id": "w15",
+      "word": "teleological",
+      "pronunciation": "/ˌteliəˈlɒdʒɪkəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to the explanation of phenomena by their purpose or goal rather than their cause",
+      "translation": "목적론적",
+      "example": "Marx's theory of history has been criticized for its teleological assumptions."
+    },
+    {
+      "id": "w16",
+      "word": "hermeneutics",
+      "pronunciation": "/ˌhɜːrmɪˈnjuːtɪks/",
+      "partOfSpeech": "noun",
+      "meaning": "The theory and methodology of interpretation, especially of texts and symbolic communication",
+      "translation": "해석학",
+      "example": "Gadamer developed philosophical hermeneutics as a universal theory of understanding."
+    },
+    {
+      "id": "w17",
+      "word": "anomie",
+      "pronunciation": "/ˈænəmi/",
+      "partOfSpeech": "noun",
+      "meaning": "A state of normlessness; breakdown of social bonds and moral regulations in society",
+      "translation": "아노미, 무규범 상태",
+      "example": "Durkheim argued that rapid social change could produce anomie and increased suicide rates."
+    },
+    {
+      "id": "w18",
+      "word": "liminality",
+      "pronunciation": "/lɪmɪˈnælɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "The quality of being in a transitional state between two conditions; threshold existence",
+      "translation": "경계성, 문턱성",
+      "example": "Turner explored the liminality of ritual participants during rites of passage."
+    },
+    {
+      "id": "w19",
+      "word": "substantive",
+      "pronunciation": "/ˈsʌbstəntɪv/",
+      "partOfSpeech": "adjective",
+      "meaning": "Having a firm basis in reality and substance; meaningful and significant rather than merely procedural",
+      "translation": "실질적인, 본질적인",
+      "example": "The debate moved beyond procedural issues to address substantive questions of justice."
+    },
+    {
+      "id": "w20",
+      "word": "discursive",
+      "pronunciation": "/dɪˈskɜːrsɪv/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to discourse; proceeding by argument or reasoning rather than intuition",
+      "translation": "담론적인, 논증적인",
+      "example": "Foucault examined the discursive formations that structure knowledge production."
+    },
+    {
+      "id": "w21",
+      "word": "sublimation",
+      "pronunciation": "/ˌsʌblɪˈmeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "In psychoanalysis, the transformation of unacceptable impulses into socially acceptable forms",
+      "translation": "승화",
+      "example": "Freud viewed artistic creation as a form of sublimation of repressed desires."
+    },
+    {
+      "id": "w22",
+      "word": "zeitgeist",
+      "pronunciation": "/ˈtsaɪtɡaɪst/",
+      "partOfSpeech": "noun",
+      "meaning": "The defining spirit or mood of a particular period of history as shown by the ideas and beliefs of the time",
+      "translation": "시대정신",
+      "example": "Hegel believed each era possessed its own zeitgeist that shaped consciousness."
+    },
+    {
+      "id": "w23",
+      "word": "paradigmatic",
+      "pronunciation": "/ˌpærədɪɡˈmætɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Serving as a typical example or model; relating to a paradigm or conceptual framework",
+      "translation": "패러다임적인, 전형적인",
+      "example": "Kuhn's work became paradigmatic for understanding scientific revolutions."
+    },
+    {
+      "id": "w24",
+      "word": "deconstruction",
+      "pronunciation": "/ˌdiːkənˈstrʌkʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "A method of critical analysis that questions traditional assumptions about certainty, identity, and truth",
+      "translation": "해체, 탈구축",
+      "example": "Derrida's deconstruction challenged the Western metaphysical tradition."
+    },
+    {
+      "id": "w25",
+      "word": "ethnocentric",
+      "pronunciation": "/ˌeθnoʊˈsentrɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Evaluating other cultures according to the standards and customs of one's own culture",
+      "translation": "자문화중심주의적",
+      "example": "Anthropologists must guard against ethnocentric biases in their research."
+    },
+    {
+      "id": "w26",
+      "word": "totalitarian",
+      "pronunciation": "/toʊˌtæləˈteriən/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to a system of government that exercises absolute control over all aspects of life",
+      "translation": "전체주의적인",
+      "example": "Arendt analyzed the origins of totalitarian movements in the twentieth century."
+    },
+    {
+      "id": "w27",
+      "word": "instrumentalism",
+      "pronunciation": "/ˌɪnstrəˈmentəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The pragmatic view that concepts and theories are merely useful instruments; treating things as means to ends",
+      "translation": "도구주의",
+      "example": "Horkheimer critiqued instrumental reason as the dominant logic of modern society."
+    },
+    {
+      "id": "w28",
+      "word": "emancipatory",
+      "pronunciation": "/ɪˈmænsɪpətɔːri/",
+      "partOfSpeech": "adjective",
+      "meaning": "Aimed at liberation from oppression or restraint; freeing from bondage",
+      "translation": "해방적인",
+      "example": "Habermas sought to develop an emancipatory theory of communicative action."
+    },
+    {
+      "id": "w29",
+      "word": "legitimation",
+      "pronunciation": "/lɪˌdʒɪtɪˈmeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The process of making something acceptable or valid; justification of authority or power",
+      "translation": "정당화",
+      "example": "Weber identified three types of legitimation for political authority."
+    },
+    {
+      "id": "w30",
+      "word": "epistemological",
+      "pronunciation": "/ɪˌpɪstəməˈlɒdʒɪkəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to the theory of knowledge, especially concerning its methods, validity, and scope",
+      "translation": "인식론적",
+      "example": "Postmodernists challenged the epistemological foundations of Enlightenment thought."
+    },
+    {
+      "id": "w31",
+      "word": "hegemonic",
+      "pronunciation": "/ˌheɡəˈmɒnɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Having dominance or authority, especially through cultural or ideological influence",
+      "translation": "패권적인",
+      "example": "Said analyzed how hegemonic Western discourse constructed the Orient."
+    },
+    {
+      "id": "w32",
+      "word": "phenomenology",
+      "pronunciation": "/fɪˌnɒmɪˈnɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "The philosophical study of the structures of experience and consciousness",
+      "translation": "현상학",
+      "example": "Husserl founded phenomenology as a rigorous science of consciousness."
+    },
+    {
+      "id": "w33",
+      "word": "dialectic",
+      "pronunciation": "/ˌdaɪəˈlektɪk/",
+      "partOfSpeech": "noun",
+      "meaning": "The art of investigating or discussing the truth of opinions; logical argumentation through contradiction",
+      "translation": "변증법",
+      "example": "The Hegelian dialectic proceeds through thesis, antithesis, and synthesis."
+    },
+    {
+      "id": "w34",
+      "word": "alienation",
+      "pronunciation": "/ˌeɪliəˈneɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The state of being isolated or estranged; Marx's concept of workers' separation from their labor",
+      "translation": "소외",
+      "example": "Marx described how capitalist production creates alienation of workers from their products."
+    },
+    {
+      "id": "w35",
+      "word": "essentialism",
+      "pronunciation": "/ɪˈsenʃəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The belief that things have an inherent set of characteristics that define their nature",
+      "translation": "본질주의",
+      "example": "Feminist theorists have critiqued biological essentialism regarding gender."
+    },
+    {
+      "id": "w36",
+      "word": "sovereignty",
+      "pronunciation": "/ˈsɒvrɪnti/",
+      "partOfSpeech": "noun",
+      "meaning": "Supreme power or authority; the authority of a state to govern itself",
+      "translation": "주권",
+      "example": "Schmitt defined sovereignty as the power to decide on the exception."
+    },
+    {
+      "id": "w37",
+      "word": "genealogy",
+      "pronunciation": "/ˌdʒiːniˈælədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "In Foucault's work, a method of historical analysis that traces the development of ideas and practices",
+      "translation": "계보학",
+      "example": "Nietzsche's genealogy of morals influenced Foucault's historical methodology."
+    },
+    {
+      "id": "w38",
+      "word": "intersectionality",
+      "pronunciation": "/ˌɪntərsekʃəˈnælɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "The interconnected nature of social categorizations creating overlapping systems of discrimination or disadvantage",
+      "translation": "교차성",
+      "example": "Crenshaw's concept of intersectionality examines how race and gender interact."
+    },
+    {
+      "id": "w39",
+      "word": "poststructuralism",
+      "pronunciation": "/poʊstˈstrʌktʃərəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "A theoretical movement that questions structuralist assumptions about meaning, language, and knowledge",
+      "translation": "후기구조주의",
+      "example": "Poststructuralism challenged the stability of meaning in linguistic systems."
+    },
+    {
+      "id": "w40",
+      "word": "suture",
+      "pronunciation": "/ˈsuːtʃər/",
+      "partOfSpeech": "noun",
+      "meaning": "In psychoanalytic theory, the process by which subjects are positioned within ideology",
+      "translation": "봉합",
+      "example": "Lacan's concept of suture describes how subjects are sewn into symbolic structures."
+    },
+    {
+      "id": "w41",
+      "word": "epistemic",
+      "pronunciation": "/ˌepɪˈstemɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to knowledge or the degree of its validation",
+      "translation": "인식적인",
+      "example": "Colonialism imposed epistemic violence by marginalizing indigenous knowledge systems."
+    },
+    {
+      "id": "w42",
+      "word": "neoliberalism",
+      "pronunciation": "/ˌniːoʊˈlɪbərəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "A political-economic ideology emphasizing free markets, deregulation, and reduced government spending",
+      "translation": "신자유주의",
+      "example": "Harvey analyzed neoliberalism as a project for restoring class power."
+    },
+    {
+      "id": "w43",
+      "word": "verisimilitude",
+      "pronunciation": "/ˌverɪsɪˈmɪlɪtuːd/",
+      "partOfSpeech": "noun",
+      "meaning": "The appearance of being true or real; likelihood or plausibility",
+      "translation": "진실성, 사실성",
+      "example": "Barthes examined how literary realism creates verisimilitude through narrative techniques."
+    },
+    {
+      "id": "w44",
+      "word": "normative",
+      "pronunciation": "/ˈnɔːrmətɪv/",
+      "partOfSpeech": "adjective",
+      "meaning": "Establishing or relating to a standard or norm; prescriptive rather than descriptive",
+      "translation": "규범적인",
+      "example": "Political theory addresses normative questions about how society should be organized."
+    },
+    {
+      "id": "w45",
+      "word": "dialectical materialism",
+      "pronunciation": "/ˌdaɪəˈlektɪkəl məˈtɪriəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "Marx's philosophy combining Hegelian dialectics with materialist analysis of history",
+      "translation": "변증법적 유물론",
+      "example": "Dialectical materialism posits that material conditions drive historical change through contradictions."
+    },
+    {
+      "id": "w46",
+      "word": "rhizomatic",
+      "pronunciation": "/ˌraɪzəˈmætɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Having a non-hierarchical, interconnected structure like a rhizome; Deleuze and Guattari's concept",
+      "translation": "리좀적인",
+      "example": "The internet's rhizomatic structure resists centralized control and hierarchy."
+    },
+    {
+      "id": "w47",
+      "word": "governmentality",
+      "pronunciation": "/ˌɡʌvərnmenˈtælɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "Foucault's concept of the way governments try to produce citizens who govern themselves",
+      "translation": "통치성",
+      "example": "Neoliberal governmentality operates by shaping subjects to regulate their own conduct."
+    },
+    {
+      "id": "w48",
+      "word": "fetishization",
+      "pronunciation": "/ˌfetɪʃaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The attribution of inherent value or power to an object; making something an object of irrational devotion",
+      "translation": "물신화",
+      "example": "Marx described the fetishization of commodities in capitalist societies."
+    },
+    {
+      "id": "w49",
+      "word": "historicism",
+      "pronunciation": "/hɪˈstɒrɪsɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The theory that social and cultural phenomena are determined by history; the importance of historical context",
+      "translation": "역사주의",
+      "example": "Popper criticized historicism for assuming inevitable patterns in historical development."
+    },
+    {
+      "id": "w50",
+      "word": "immanent",
+      "pronunciation": "/ˈɪmənənt/",
+      "partOfSpeech": "adjective",
+      "meaning": "Existing or operating within; inherent; present throughout the universe rather than transcendent",
+      "translation": "내재적인",
+      "example": "Spinoza's philosophy posits God as immanent in nature rather than transcendent."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "What does 'hegemony' refer to in political theory?",
+      "options": [
+        "Military conquest of territory",
+        "Dominance through cultural or ideological means",
+        "Economic superiority over rivals",
+        "Legal jurisdiction over a region"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w1"
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "Gramsci's concept of cultural hegemony operates through:",
+      "options": [
+        "Physical coercion and force",
+        "Economic sanctions",
+        "Consent and cultural influence",
+        "Military intervention"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w1"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "What is 'reification' in Marxist theory?",
+      "options": [
+        "The process of redistribution of wealth",
+        "The treatment of abstract concepts as concrete things",
+        "The verification of scientific theories",
+        "The classification of social classes"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w2"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "In Marx's philosophy, 'praxis' unites:",
+      "options": [
+        "Capital and labor",
+        "State and society",
+        "Theory and practice",
+        "Base and superstructure"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w3"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "The term 'subaltern' in postcolonial theory refers to:",
+      "options": [
+        "Elite colonial administrators",
+        "Marginalized groups excluded from power",
+        "Intermediate class merchants",
+        "Indigenous collaborators"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w4"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "Althusser's 'interpellation' describes how:",
+      "options": [
+        "Governments regulate commerce",
+        "Ideology constitutes subjects",
+        "Laws are interpreted by courts",
+        "Treaties are negotiated internationally"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w5"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "Foucault's concept of 'biopolitics' involves:",
+      "options": [
+        "Environmental conservation policies",
+        "Biological warfare strategies",
+        "Governance of populations through life processes",
+        "Agricultural production management"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w6"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "A 'simulacrum' according to Baudrillard is:",
+      "options": [
+        "An exact duplicate of an original",
+        "A copy without an original",
+        "A preserved historical artifact",
+        "A theatrical performance"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w7"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "'Deterritorialization' refers to:",
+      "options": [
+        "Expansion of national borders",
+        "Weakening of ties between culture and place",
+        "Military occupation of foreign lands",
+        "Creation of new administrative districts"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w8"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "The Hegelian 'dialectical' method involves:",
+      "options": [
+        "Random trial and error",
+        "Thesis-antithesis-synthesis",
+        "Empirical observation only",
+        "Mathematical deduction"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w9"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "'Commodification' in Marxist analysis means:",
+      "options": [
+        "Improving product quality",
+        "Transforming things into objects of trade",
+        "Reducing commodity prices",
+        "Standardizing manufacturing processes"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w10"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "Foucault's 'episteme' represents:",
+      "options": [
+        "A scientific discovery",
+        "A framework of knowledge of a historical period",
+        "An individual's beliefs",
+        "A religious doctrine"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w11"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "The 'panopticon' serves as a metaphor for:",
+      "options": [
+        "Democratic participation",
+        "Surveillance and disciplinary power",
+        "Economic freedom",
+        "Educational enlightenment"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w12"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "'Ontological' questions concern:",
+      "options": [
+        "The nature of being and existence",
+        "Moral right and wrong",
+        "Political organization",
+        "Economic distribution"
+      ],
+      "correctAnswer": 0,
+      "wordId": "w13"
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "What does 'apotheosis' mean?",
+      "options": [
+        "The beginning of decline",
+        "A mediocre achievement",
+        "The highest point or perfect example",
+        "A temporary setback"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w14"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "A 'teleological' explanation focuses on:",
+      "options": [
+        "Random chance",
+        "Historical causes",
+        "Purpose or goal",
+        "Immediate effects"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w15"
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "'Hermeneutics' is the theory of:",
+      "options": [
+        "Biological evolution",
+        "Interpretation and understanding",
+        "Mathematical proof",
+        "Chemical reactions"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w16"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "Durkheim's 'anomie' describes:",
+      "options": [
+        "Strong social solidarity",
+        "A state of normlessness",
+        "Rapid technological progress",
+        "Political revolution"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w17"
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "'Liminality' refers to:",
+      "options": [
+        "Permanent social status",
+        "Transitional threshold states",
+        "Hierarchical positions",
+        "Fixed boundaries"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w18"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "A 'substantive' issue is:",
+      "options": [
+        "Purely procedural",
+        "Trivial and minor",
+        "Meaningful and significant",
+        "Temporary and fleeting"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w19"
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "'Discursive' formations in Foucault's work relate to:",
+      "options": [
+        "Physical architecture",
+        "Economic systems",
+        "Discourse and knowledge production",
+        "Military strategy"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w20"
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "In Freudian theory, 'sublimation' transforms:",
+      "options": [
+        "Conscious thoughts into unconscious ones",
+        "Unacceptable impulses into acceptable forms",
+        "Physical energy into mental energy",
+        "Dreams into reality"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w21"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "'Zeitgeist' means:",
+      "options": [
+        "Individual genius",
+        "The spirit of a particular time period",
+        "Eternal truth",
+        "Personal opinion"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w22"
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "Something 'paradigmatic' serves as:",
+      "options": [
+        "A contradiction",
+        "An exception",
+        "A typical example or model",
+        "An anomaly"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w23"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "Derrida's 'deconstruction' challenges:",
+      "options": [
+        "Scientific methodology",
+        "Traditional assumptions about certainty and truth",
+        "Mathematical logic",
+        "Empirical observation"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w24"
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "An 'ethnocentric' perspective evaluates other cultures by:",
+      "options": [
+        "Universal human rights standards",
+        "Scientific objectivity",
+        "One's own cultural standards",
+        "Historical context"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w25"
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "A 'totalitarian' system exercises:",
+      "options": [
+        "Limited government authority",
+        "Democratic participation",
+        "Absolute control over all aspects of life",
+        "Laissez-faire economics"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w26"
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "'Instrumentalism' views concepts and theories as:",
+      "options": [
+        "Absolute truths",
+        "Merely useful instruments",
+        "Divine revelations",
+        "Natural laws"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w27"
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "An 'emancipatory' theory aims at:",
+      "options": [
+        "Maintaining status quo",
+        "Liberation from oppression",
+        "Economic efficiency",
+        "Political neutrality"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w28"
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "Weber identified three types of:",
+      "options": [
+        "Economic systems",
+        "Legitimation for authority",
+        "Social classes",
+        "Religious beliefs"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w29"
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "question": "Gramsci's concept of cultural __________ explains how dominant groups maintain power through consent.",
+      "correctAnswer": "hegemony",
+      "wordId": "w1"
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "question": "Lukács critiqued the __________ of human relations under capitalism.",
+      "correctAnswer": "reification",
+      "wordId": "w2"
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "question": "Marx insisted that philosophy must be united with revolutionary __________.",
+      "correctAnswer": "praxis",
+      "wordId": "w3"
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "Spivak's famous essay asked whether the __________ can speak.",
+      "correctAnswer": "subaltern",
+      "wordId": "w4"
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "Althusser's theory of __________ explains how ideology constitutes subjects.",
+      "correctAnswer": "interpellation",
+      "wordId": "w5"
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "Foucault analyzed how __________ emerged to manage populations in modernity.",
+      "correctAnswer": "biopolitics",
+      "wordId": "w6"
+    },
+    {
+      "id": "ex37",
+      "type": "fill_blank",
+      "question": "Baudrillard argued that contemporary society is characterized by __________.",
+      "correctAnswer": "simulacra",
+      "wordId": "w7"
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "Deleuze and Guattari describe capitalism as a __________ force.",
+      "correctAnswer": "deterritorializing",
+      "wordId": "w8"
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "question": "Hegel's __________ method profoundly influenced subsequent philosophy.",
+      "correctAnswer": "dialectical",
+      "wordId": "w9"
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "Marx examined the __________ of labor in capitalist production.",
+      "correctAnswer": "commodification",
+      "wordId": "w10"
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "Foucault traced the shifts in __________ across different historical epochs.",
+      "correctAnswer": "epistemes",
+      "wordId": "w11"
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "Bentham's __________ became Foucault's metaphor for modern disciplinary society.",
+      "correctAnswer": "panopticon",
+      "wordId": "w12"
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "Heidegger posed fundamental __________ questions about the meaning of Being.",
+      "correctAnswer": "ontological",
+      "wordId": "w13"
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "The Enlightenment represented the __________ of rational thought in Western philosophy.",
+      "correctAnswer": "apotheosis",
+      "wordId": "w14"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "Marx's theory of history has been criticized for its __________ assumptions.",
+      "correctAnswer": "teleological",
+      "wordId": "w15"
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "Gadamer developed philosophical __________ as a universal theory of understanding.",
+      "correctAnswer": "hermeneutics",
+      "wordId": "w16"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "Durkheim argued that rapid social change could produce __________ and increased suicide rates.",
+      "correctAnswer": "anomie",
+      "wordId": "w17"
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "Turner explored the __________ of ritual participants during rites of passage.",
+      "correctAnswer": "liminality",
+      "wordId": "w18"
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "The debate moved beyond procedural issues to address __________ questions of justice.",
+      "correctAnswer": "substantive",
+      "wordId": "w19"
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "Foucault examined the __________ formations that structure knowledge production.",
+      "correctAnswer": "discursive",
+      "wordId": "w20"
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "Freud viewed artistic creation as a form of __________ of repressed desires.",
+      "correctAnswer": "sublimation",
+      "wordId": "w21"
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "Hegel believed each era possessed its own __________ that shaped consciousness.",
+      "correctAnswer": "zeitgeist",
+      "wordId": "w22"
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "Kuhn's work became __________ for understanding scientific revolutions.",
+      "correctAnswer": "paradigmatic",
+      "wordId": "w23"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "Derrida's __________ challenged the Western metaphysical tradition.",
+      "correctAnswer": "deconstruction",
+      "wordId": "w24"
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "Anthropologists must guard against __________ biases in their research.",
+      "correctAnswer": "ethnocentric",
+      "wordId": "w25"
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "Arendt analyzed the origins of __________ movements in the twentieth century.",
+      "correctAnswer": "totalitarian",
+      "wordId": "w26"
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "Horkheimer critiqued instrumental reason as the dominant logic of modern __________.",
+      "correctAnswer": "society",
+      "wordId": "w27"
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "Habermas sought to develop an __________ theory of communicative action.",
+      "correctAnswer": "emancipatory",
+      "wordId": "w28"
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "Weber identified three types of __________ for political authority.",
+      "correctAnswer": "legitimation",
+      "wordId": "w29"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "Postmodernists challenged the __________ foundations of Enlightenment thought.",
+      "correctAnswer": "epistemological",
+      "wordId": "w30"
+    },
+    {
+      "id": "ex61",
+      "type": "matching",
+      "question": "Match the theorists with their concepts:",
+      "pairs": [
+        {"left": "Gramsci", "right": "Cultural hegemony"},
+        {"left": "Foucault", "right": "Biopolitics"},
+        {"left": "Althusser", "right": "Interpellation"},
+        {"left": "Marx", "right": "Praxis"}
+      ],
+      "wordId": "w1"
+    },
+    {
+      "id": "ex62",
+      "type": "matching",
+      "question": "Match the concepts with their definitions:",
+      "pairs": [
+        {"left": "Reification", "right": "Treating abstract as concrete"},
+        {"left": "Simulacrum", "right": "Copy without original"},
+        {"left": "Anomie", "right": "State of normlessness"},
+        {"left": "Praxis", "right": "Theory put into practice"}
+      ],
+      "wordId": "w2"
+    },
+    {
+      "id": "ex63",
+      "type": "matching",
+      "question": "Match the terms with their fields:",
+      "pairs": [
+        {"left": "Ontological", "right": "Nature of being"},
+        {"left": "Epistemological", "right": "Theory of knowledge"},
+        {"left": "Teleological", "right": "Purpose-driven explanation"},
+        {"left": "Dialectical", "right": "Thesis-antithesis-synthesis"}
+      ],
+      "wordId": "w13"
+    },
+    {
+      "id": "ex64",
+      "type": "matching",
+      "question": "Match the theorists with their concepts:",
+      "pairs": [
+        {"left": "Baudrillard", "right": "Simulacrum"},
+        {"left": "Deleuze & Guattari", "right": "Deterritorialization"},
+        {"left": "Spivak", "right": "Subaltern"},
+        {"left": "Lukács", "right": "Reification"}
+      ],
+      "wordId": "w7"
+    },
+    {
+      "id": "ex65",
+      "type": "matching",
+      "question": "Match the concepts with their characteristics:",
+      "pairs": [
+        {"left": "Hegemony", "right": "Dominance through consent"},
+        {"left": "Totalitarian", "right": "Absolute control"},
+        {"left": "Emancipatory", "right": "Aimed at liberation"},
+        {"left": "Normative", "right": "Prescriptive standards"}
+      ],
+      "wordId": "w1"
+    },
+    {
+      "id": "ex66",
+      "type": "matching",
+      "question": "Match the philosophical approaches:",
+      "pairs": [
+        {"left": "Phenomenology", "right": "Study of consciousness"},
+        {"left": "Hermeneutics", "right": "Theory of interpretation"},
+        {"left": "Deconstruction", "right": "Questioning assumptions"},
+        {"left": "Genealogy", "right": "Historical analysis method"}
+      ],
+      "wordId": "w32"
+    },
+    {
+      "id": "ex67",
+      "type": "matching",
+      "question": "Match the terms with their meanings:",
+      "pairs": [
+        {"left": "Zeitgeist", "right": "Spirit of the time"},
+        {"left": "Apotheosis", "right": "Highest point"},
+        {"left": "Liminality", "right": "Threshold state"},
+        {"left": "Verisimilitude", "right": "Appearance of truth"}
+      ],
+      "wordId": "w22"
+    },
+    {
+      "id": "ex68",
+      "type": "matching",
+      "question": "Match the concepts with their theorists:",
+      "pairs": [
+        {"left": "Panopticon", "right": "Foucault"},
+        {"left": "Sublimation", "right": "Freud"},
+        {"left": "Intersectionality", "right": "Crenshaw"},
+        {"left": "Governmentality", "right": "Foucault"}
+      ],
+      "wordId": "w12"
+    },
+    {
+      "id": "ex69",
+      "type": "matching",
+      "question": "Match the ideologies with their characteristics:",
+      "pairs": [
+        {"left": "Neoliberalism", "right": "Free markets, deregulation"},
+        {"left": "Essentialism", "right": "Inherent characteristics"},
+        {"left": "Historicism", "right": "Historical determination"},
+        {"left": "Instrumentalism", "right": "Pragmatic utility"}
+      ],
+      "wordId": "w42"
+    },
+    {
+      "id": "ex70",
+      "type": "matching",
+      "question": "Match the theoretical concepts:",
+      "pairs": [
+        {"left": "Episteme", "right": "Framework of knowledge"},
+        {"left": "Dialectic", "right": "Logical contradiction"},
+        {"left": "Alienation", "right": "Estrangement from labor"},
+        {"left": "Commodification", "right": "Transformation into trade objects"}
+      ],
+      "wordId": "w11"
+    },
+    {
+      "id": "ex71",
+      "type": "matching",
+      "question": "Match the adjectives with their domains:",
+      "pairs": [
+        {"left": "Discursive", "right": "Related to discourse"},
+        {"left": "Substantive", "right": "Meaningful content"},
+        {"left": "Paradigmatic", "right": "Model example"},
+        {"left": "Rhizomatic", "right": "Non-hierarchical structure"}
+      ],
+      "wordId": "w20"
+    },
+    {
+      "id": "ex72",
+      "type": "matching",
+      "question": "Match concepts with their opposites:",
+      "pairs": [
+        {"left": "Hegemonic", "right": "Subaltern"},
+        {"left": "Deterritorialization", "right": "Reterritorialization"},
+        {"left": "Theory", "right": "Praxis"},
+        {"left": "Transcendent", "right": "Immanent"}
+      ],
+      "wordId": "w31"
+    },
+    {
+      "id": "ex73",
+      "type": "matching",
+      "question": "Match the theorists with their traditions:",
+      "pairs": [
+        {"left": "Hegel", "right": "German Idealism"},
+        {"left": "Durkheim", "right": "French Sociology"},
+        {"left": "Weber", "right": "German Sociology"},
+        {"left": "Derrida", "right": "Poststructuralism"}
+      ],
+      "wordId": "w9"
+    },
+    {
+      "id": "ex74",
+      "type": "matching",
+      "question": "Match the processes with their descriptions:",
+      "pairs": [
+        {"left": "Legitimation", "right": "Justifying authority"},
+        {"left": "Interpellation", "right": "Ideological hailing"},
+        {"left": "Fetishization", "right": "Irrational attribution"},
+        {"left": "Sublimation", "right": "Transforming impulses"}
+      ],
+      "wordId": "w29"
+    },
+    {
+      "id": "ex75",
+      "type": "matching",
+      "question": "Match the critical perspectives:",
+      "pairs": [
+        {"left": "Ethnocentric", "right": "Own culture as standard"},
+        {"left": "Hegemonic", "right": "Dominant ideology"},
+        {"left": "Epistemic", "right": "Knowledge-related"},
+        {"left": "Normative", "right": "Value-prescribing"}
+      ],
+      "wordId": "w25"
+    },
+    {
+      "id": "ex76",
+      "type": "translation_ko_en",
+      "question": "패권",
+      "correctAnswer": "hegemony",
+      "wordId": "w1"
+    },
+    {
+      "id": "ex77",
+      "type": "translation_ko_en",
+      "question": "물화",
+      "correctAnswer": "reification",
+      "wordId": "w2"
+    },
+    {
+      "id": "ex78",
+      "type": "translation_ko_en",
+      "question": "실천",
+      "correctAnswer": "praxis",
+      "wordId": "w3"
+    },
+    {
+      "id": "ex79",
+      "type": "translation_ko_en",
+      "question": "하위주체",
+      "correctAnswer": "subaltern",
+      "wordId": "w4"
+    },
+    {
+      "id": "ex80",
+      "type": "translation_ko_en",
+      "question": "호명",
+      "correctAnswer": "interpellation",
+      "wordId": "w5"
+    },
+    {
+      "id": "ex81",
+      "type": "translation_ko_en",
+      "question": "생명정치",
+      "correctAnswer": "biopolitics",
+      "wordId": "w6"
+    },
+    {
+      "id": "ex82",
+      "type": "translation_ko_en",
+      "question": "시뮬라크르",
+      "correctAnswer": "simulacrum",
+      "wordId": "w7"
+    },
+    {
+      "id": "ex83",
+      "type": "translation_ko_en",
+      "question": "탈영토화",
+      "correctAnswer": "deterritorialization",
+      "wordId": "w8"
+    },
+    {
+      "id": "ex84",
+      "type": "translation_ko_en",
+      "question": "변증법적",
+      "correctAnswer": "dialectical",
+      "wordId": "w9"
+    },
+    {
+      "id": "ex85",
+      "type": "translation_ko_en",
+      "question": "상품화",
+      "correctAnswer": "commodification",
+      "wordId": "w10"
+    },
+    {
+      "id": "ex86",
+      "type": "translation_ko_en",
+      "question": "에피스테메",
+      "correctAnswer": "episteme",
+      "wordId": "w11"
+    },
+    {
+      "id": "ex87",
+      "type": "translation_ko_en",
+      "question": "파놉티콘",
+      "correctAnswer": "panopticon",
+      "wordId": "w12"
+    },
+    {
+      "id": "ex88",
+      "type": "translation_ko_en",
+      "question": "존재론적",
+      "correctAnswer": "ontological",
+      "wordId": "w13"
+    },
+    {
+      "id": "ex89",
+      "type": "translation_ko_en",
+      "question": "신격화",
+      "correctAnswer": "apotheosis",
+      "wordId": "w14"
+    },
+    {
+      "id": "ex90",
+      "type": "translation_ko_en",
+      "question": "목적론적",
+      "correctAnswer": "teleological",
+      "wordId": "w15"
+    },
+    {
+      "id": "ex91",
+      "type": "translation_ko_en",
+      "question": "해석학",
+      "correctAnswer": "hermeneutics",
+      "wordId": "w16"
+    },
+    {
+      "id": "ex92",
+      "type": "translation_ko_en",
+      "question": "아노미",
+      "correctAnswer": "anomie",
+      "wordId": "w17"
+    },
+    {
+      "id": "ex93",
+      "type": "translation_ko_en",
+      "question": "경계성",
+      "correctAnswer": "liminality",
+      "wordId": "w18"
+    },
+    {
+      "id": "ex94",
+      "type": "translation_ko_en",
+      "question": "실질적인",
+      "correctAnswer": "substantive",
+      "wordId": "w19"
+    },
+    {
+      "id": "ex95",
+      "type": "translation_ko_en",
+      "question": "담론적인",
+      "correctAnswer": "discursive",
+      "wordId": "w20"
+    },
+    {
+      "id": "ex96",
+      "type": "translation_ko_en",
+      "question": "승화",
+      "correctAnswer": "sublimation",
+      "wordId": "w21"
+    },
+    {
+      "id": "ex97",
+      "type": "translation_ko_en",
+      "question": "시대정신",
+      "correctAnswer": "zeitgeist",
+      "wordId": "w22"
+    },
+    {
+      "id": "ex98",
+      "type": "translation_ko_en",
+      "question": "패러다임적인",
+      "correctAnswer": "paradigmatic",
+      "wordId": "w23"
+    },
+    {
+      "id": "ex99",
+      "type": "translation_ko_en",
+      "question": "해체",
+      "correctAnswer": "deconstruction",
+      "wordId": "w24"
+    },
+    {
+      "id": "ex100",
+      "type": "translation_ko_en",
+      "question": "자문화중심주의적",
+      "correctAnswer": "ethnocentric",
+      "wordId": "w25"
+    },
+    {
+      "id": "ex101",
+      "type": "translation_ko_en",
+      "question": "전체주의적인",
+      "correctAnswer": "totalitarian",
+      "wordId": "w26"
+    },
+    {
+      "id": "ex102",
+      "type": "translation_ko_en",
+      "question": "도구주의",
+      "correctAnswer": "instrumentalism",
+      "wordId": "w27"
+    },
+    {
+      "id": "ex103",
+      "type": "translation_ko_en",
+      "question": "해방적인",
+      "correctAnswer": "emancipatory",
+      "wordId": "w28"
+    },
+    {
+      "id": "ex104",
+      "type": "translation_ko_en",
+      "question": "정당화",
+      "correctAnswer": "legitimation",
+      "wordId": "w29"
+    },
+    {
+      "id": "ex105",
+      "type": "translation_ko_en",
+      "question": "인식론적",
+      "correctAnswer": "epistemological",
+      "wordId": "w30"
+    },
+    {
+      "id": "ex106",
+      "type": "translation_en_ko",
+      "question": "hegemony",
+      "correctAnswer": "패권",
+      "wordId": "w1"
+    },
+    {
+      "id": "ex107",
+      "type": "translation_en_ko",
+      "question": "reification",
+      "correctAnswer": "물화",
+      "wordId": "w2"
+    },
+    {
+      "id": "ex108",
+      "type": "translation_en_ko",
+      "question": "praxis",
+      "correctAnswer": "실천",
+      "wordId": "w3"
+    },
+    {
+      "id": "ex109",
+      "type": "translation_en_ko",
+      "question": "subaltern",
+      "correctAnswer": "하위주체",
+      "wordId": "w4"
+    },
+    {
+      "id": "ex110",
+      "type": "translation_en_ko",
+      "question": "interpellation",
+      "correctAnswer": "호명",
+      "wordId": "w5"
+    },
+    {
+      "id": "ex111",
+      "type": "translation_en_ko",
+      "question": "biopolitics",
+      "correctAnswer": "생명정치",
+      "wordId": "w6"
+    },
+    {
+      "id": "ex112",
+      "type": "translation_en_ko",
+      "question": "simulacrum",
+      "correctAnswer": "시뮬라크르",
+      "wordId": "w7"
+    },
+    {
+      "id": "ex113",
+      "type": "translation_en_ko",
+      "question": "deterritorialization",
+      "correctAnswer": "탈영토화",
+      "wordId": "w8"
+    },
+    {
+      "id": "ex114",
+      "type": "translation_en_ko",
+      "question": "dialectical",
+      "correctAnswer": "변증법적",
+      "wordId": "w9"
+    },
+    {
+      "id": "ex115",
+      "type": "translation_en_ko",
+      "question": "commodification",
+      "correctAnswer": "상품화",
+      "wordId": "w10"
+    },
+    {
+      "id": "ex116",
+      "type": "translation_en_ko",
+      "question": "episteme",
+      "correctAnswer": "에피스테메",
+      "wordId": "w11"
+    },
+    {
+      "id": "ex117",
+      "type": "translation_en_ko",
+      "question": "panopticon",
+      "correctAnswer": "파놉티콘",
+      "wordId": "w12"
+    },
+    {
+      "id": "ex118",
+      "type": "translation_en_ko",
+      "question": "ontological",
+      "correctAnswer": "존재론적",
+      "wordId": "w13"
+    },
+    {
+      "id": "ex119",
+      "type": "translation_en_ko",
+      "question": "apotheosis",
+      "correctAnswer": "신격화",
+      "wordId": "w14"
+    },
+    {
+      "id": "ex120",
+      "type": "translation_en_ko",
+      "question": "teleological",
+      "correctAnswer": "목적론적",
+      "wordId": "w15"
+    },
+    {
+      "id": "ex121",
+      "type": "translation_en_ko",
+      "question": "hermeneutics",
+      "correctAnswer": "해석학",
+      "wordId": "w16"
+    },
+    {
+      "id": "ex122",
+      "type": "translation_en_ko",
+      "question": "anomie",
+      "correctAnswer": "아노미",
+      "wordId": "w17"
+    },
+    {
+      "id": "ex123",
+      "type": "translation_en_ko",
+      "question": "liminality",
+      "correctAnswer": "경계성",
+      "wordId": "w18"
+    },
+    {
+      "id": "ex124",
+      "type": "translation_en_ko",
+      "question": "substantive",
+      "correctAnswer": "실질적인",
+      "wordId": "w19"
+    },
+    {
+      "id": "ex125",
+      "type": "translation_en_ko",
+      "question": "discursive",
+      "correctAnswer": "담론적인",
+      "wordId": "w20"
+    },
+    {
+      "id": "ex126",
+      "type": "translation_en_ko",
+      "question": "sublimation",
+      "correctAnswer": "승화",
+      "wordId": "w21"
+    },
+    {
+      "id": "ex127",
+      "type": "translation_en_ko",
+      "question": "zeitgeist",
+      "correctAnswer": "시대정신",
+      "wordId": "w22"
+    },
+    {
+      "id": "ex128",
+      "type": "translation_en_ko",
+      "question": "paradigmatic",
+      "correctAnswer": "패러다임적인",
+      "wordId": "w23"
+    },
+    {
+      "id": "ex129",
+      "type": "translation_en_ko",
+      "question": "deconstruction",
+      "correctAnswer": "해체",
+      "wordId": "w24"
+    },
+    {
+      "id": "ex130",
+      "type": "translation_en_ko",
+      "question": "ethnocentric",
+      "correctAnswer": "자문화중심주의적",
+      "wordId": "w25"
+    },
+    {
+      "id": "ex131",
+      "type": "translation_en_ko",
+      "question": "totalitarian",
+      "correctAnswer": "전체주의적인",
+      "wordId": "w26"
+    },
+    {
+      "id": "ex132",
+      "type": "translation_en_ko",
+      "question": "instrumentalism",
+      "correctAnswer": "도구주의",
+      "wordId": "w27"
+    },
+    {
+      "id": "ex133",
+      "type": "translation_en_ko",
+      "question": "emancipatory",
+      "correctAnswer": "해방적인",
+      "wordId": "w28"
+    },
+    {
+      "id": "ex134",
+      "type": "translation_en_ko",
+      "question": "legitimation",
+      "correctAnswer": "정당화",
+      "wordId": "w29"
+    },
+    {
+      "id": "ex135",
+      "type": "translation_en_ko",
+      "question": "epistemological",
+      "correctAnswer": "인식론적",
+      "wordId": "w30"
+    },
+    {
+      "id": "ex136",
+      "type": "multiple_choice",
+      "question": "'Phenomenology' as founded by Husserl focuses on:",
+      "options": [
+        "Economic structures",
+        "Structures of consciousness and experience",
+        "Biological evolution",
+        "Political institutions"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w32"
+    },
+    {
+      "id": "ex137",
+      "type": "multiple_choice",
+      "question": "In Marx's concept, 'alienation' describes workers' separation from:",
+      "options": [
+        "Their families",
+        "Their labor and products",
+        "Their education",
+        "Their religion"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w34"
+    },
+    {
+      "id": "ex138",
+      "type": "multiple_choice",
+      "question": "'Sovereignty' in Schmitt's definition is:",
+      "options": [
+        "The power to make laws",
+        "The power to decide on the exception",
+        "Economic independence",
+        "Military strength"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w36"
+    },
+    {
+      "id": "ex139",
+      "type": "multiple_choice",
+      "question": "Crenshaw's 'intersectionality' examines how:",
+      "options": [
+        "Roads and highways cross",
+        "Different forms of discrimination overlap",
+        "International borders function",
+        "Economic sectors interact"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w38"
+    },
+    {
+      "id": "ex140",
+      "type": "multiple_choice",
+      "question": "'Neoliberalism' emphasizes:",
+      "options": [
+        "Government intervention and regulation",
+        "Free markets and deregulation",
+        "Socialist central planning",
+        "Feudal hierarchies"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w42"
+    },
+    {
+      "id": "ex141",
+      "type": "fill_blank",
+      "question": "Said analyzed how __________ Western discourse constructed the Orient.",
+      "correctAnswer": "hegemonic",
+      "wordId": "w31"
+    },
+    {
+      "id": "ex142",
+      "type": "fill_blank",
+      "question": "Husserl founded __________ as a rigorous science of consciousness.",
+      "correctAnswer": "phenomenology",
+      "wordId": "w32"
+    },
+    {
+      "id": "ex143",
+      "type": "fill_blank",
+      "question": "The Hegelian __________ proceeds through thesis, antithesis, and synthesis.",
+      "correctAnswer": "dialectic",
+      "wordId": "w33"
+    },
+    {
+      "id": "ex144",
+      "type": "fill_blank",
+      "question": "Marx described how capitalist production creates __________ of workers from their products.",
+      "correctAnswer": "alienation",
+      "wordId": "w34"
+    },
+    {
+      "id": "ex145",
+      "type": "fill_blank",
+      "question": "Feminist theorists have critiqued biological __________ regarding gender.",
+      "correctAnswer": "essentialism",
+      "wordId": "w35"
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "question": "Schmitt defined __________ as the power to decide on the exception.",
+      "correctAnswer": "sovereignty",
+      "wordId": "w36"
+    },
+    {
+      "id": "ex147",
+      "type": "fill_blank",
+      "question": "Nietzsche's __________ of morals influenced Foucault's historical methodology.",
+      "correctAnswer": "genealogy",
+      "wordId": "w37"
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "question": "Crenshaw's concept of __________ examines how race and gender interact.",
+      "correctAnswer": "intersectionality",
+      "wordId": "w38"
+    },
+    {
+      "id": "ex149",
+      "type": "fill_blank",
+      "question": "__________ challenged the stability of meaning in linguistic systems.",
+      "correctAnswer": "Poststructuralism",
+      "wordId": "w39"
+    },
+    {
+      "id": "ex150",
+      "type": "fill_blank",
+      "question": "Harvey analyzed __________ as a project for restoring class power.",
+      "correctAnswer": "neoliberalism",
+      "wordId": "w42"
     }
   ]
 }

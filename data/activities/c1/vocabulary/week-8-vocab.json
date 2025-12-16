@@ -7,102 +7,1943 @@
   "description": "Specialized vocabulary for analyzing media, communication, and public discourse",
   "estimatedMinutes": 25,
   "xpReward": 55,
-  "items": [
+  "words": [
     {
-      "id": "c1-v8-1",
+      "id": "w1",
       "word": "disinformation",
-      "definition": "False information deliberately created and spread to deceive",
       "pronunciation": "/ˌdɪsɪnfərˈmeɪʃən/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "허위정보, 역정보",
-      "example": "The report detailed how disinformation campaigns targeted voters in swing states.",
-      "synonyms": ["propaganda", "falsehood", "deception"],
-      "antonyms": ["truth", "accurate information"],
-      "collocations": ["disinformation campaign", "spread disinformation", "combat disinformation"]
+      "meaning": "False information deliberately created and spread to deceive",
+      "translation": "허위정보, 역정보",
+      "example": "The report detailed how disinformation campaigns targeted voters in swing states."
     },
     {
-      "id": "c1-v8-2",
+      "id": "w2",
       "word": "narrative",
-      "definition": "A particular way of presenting a story or series of events; a framing of information",
       "pronunciation": "/ˈnærətɪv/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "서사, 내러티브",
-      "example": "The competing narratives about the crisis shaped public perception differently.",
-      "synonyms": ["story", "account", "framing"],
-      "antonyms": [],
-      "collocations": ["dominant narrative", "counter-narrative", "narrative framing"]
+      "meaning": "A particular way of presenting a story or series of events; a framing of information",
+      "translation": "서사, 내러티브",
+      "example": "The competing narratives about the crisis shaped public perception differently."
     },
     {
-      "id": "c1-v8-3",
+      "id": "w3",
       "word": "polarization",
-      "definition": "Division into sharply contrasting groups with opposing views",
       "pronunciation": "/ˌpoʊlərəˈzeɪʃən/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "양극화",
-      "example": "Political polarization has made bipartisan cooperation increasingly difficult.",
-      "synonyms": ["division", "fragmentation", "separation"],
-      "antonyms": ["unity", "consensus", "convergence"],
-      "collocations": ["political polarization", "media polarization", "increase polarization"]
+      "meaning": "Division into sharply contrasting groups with opposing views",
+      "translation": "양극화",
+      "example": "Political polarization has made bipartisan cooperation increasingly difficult."
     },
     {
-      "id": "c1-v8-4",
+      "id": "w4",
       "word": "rhetoric",
-      "definition": "The art of persuasive speaking or writing; language designed to persuade",
       "pronunciation": "/ˈretərɪk/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "수사학, 레토릭",
-      "example": "The politician's rhetoric appealed to fears rather than facts.",
-      "synonyms": ["oratory", "eloquence", "discourse"],
-      "antonyms": [],
-      "collocations": ["political rhetoric", "empty rhetoric", "rhetorical strategy"]
+      "meaning": "The art of persuasive speaking or writing; language designed to persuade",
+      "translation": "수사학, 레토릭",
+      "example": "The politician's rhetoric appealed to fears rather than facts."
     },
     {
-      "id": "c1-v8-5",
+      "id": "w5",
       "word": "framing",
-      "definition": "The way an issue is presented, which influences how it is understood",
       "pronunciation": "/ˈfreɪmɪŋ/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "프레이밍, 틀 짓기",
-      "example": "The framing of immigration as a security issue rather than an economic one shifted the debate.",
-      "synonyms": ["presentation", "perspective", "angle"],
-      "antonyms": [],
-      "collocations": ["media framing", "issue framing", "framing effect"]
+      "meaning": "The way an issue is presented, which influences how it is understood",
+      "translation": "프레이밍, 틀 짓기",
+      "example": "The framing of immigration as a security issue rather than an economic one shifted the debate."
     },
     {
-      "id": "c1-v8-6",
+      "id": "w6",
       "word": "virality",
-      "definition": "The tendency of content to spread rapidly through online sharing",
       "pronunciation": "/vaɪˈrælɪti/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "바이럴성",
-      "example": "The video's virality meant it reached millions before any fact-checking occurred.",
-      "synonyms": ["spreadability", "shareability"],
-      "antonyms": [],
-      "collocations": ["achieve virality", "social media virality", "viral content"]
+      "meaning": "The tendency of content to spread rapidly through online sharing",
+      "translation": "바이럴성",
+      "example": "The video's virality meant it reached millions before any fact-checking occurred."
     },
     {
-      "id": "c1-v8-7",
+      "id": "w7",
       "word": "echo chamber",
-      "definition": "An environment where one encounters only opinions similar to one's own",
       "pronunciation": "/ˈekoʊ ˌtʃeɪmbər/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "에코 챔버, 반향실",
-      "example": "Social media algorithms can create echo chambers that reinforce existing beliefs.",
-      "synonyms": ["filter bubble", "information silo"],
-      "antonyms": ["diverse environment"],
-      "collocations": ["social media echo chamber", "political echo chamber", "break out of the echo chamber"]
+      "meaning": "An environment where one encounters only opinions similar to one's own",
+      "translation": "에코 챔버, 반향실",
+      "example": "Social media algorithms can create echo chambers that reinforce existing beliefs."
     },
     {
-      "id": "c1-v8-8",
+      "id": "w8",
       "word": "credibility",
-      "definition": "The quality of being trusted and believed; reliability of a source",
       "pronunciation": "/ˌkredɪˈbɪləti/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "신뢰성",
-      "example": "The journalist's credibility was enhanced by her track record of accurate reporting.",
-      "synonyms": ["trustworthiness", "reliability", "authority"],
-      "antonyms": ["unreliability", "untrustworthiness"],
-      "collocations": ["source credibility", "establish credibility", "damage credibility"]
+      "meaning": "The quality of being trusted and believed; reliability of a source",
+      "translation": "신뢰성",
+      "example": "The journalist's credibility was enhanced by her track record of accurate reporting."
+    },
+    {
+      "id": "w9",
+      "word": "propaganda",
+      "pronunciation": "/ˌprɒpəˈɡændə/",
+      "partOfSpeech": "noun",
+      "meaning": "Biased or misleading information used to promote a particular political cause or point of view",
+      "translation": "선전, 프로파간다",
+      "example": "The government used propaganda to manipulate public opinion during the war."
+    },
+    {
+      "id": "w10",
+      "word": "scrutiny",
+      "pronunciation": "/ˈskruːtəni/",
+      "partOfSpeech": "noun",
+      "meaning": "Critical observation or examination; detailed investigation",
+      "translation": "정밀 조사, 면밀한 검토",
+      "example": "The media's coverage came under intense scrutiny after the facts emerged."
+    },
+    {
+      "id": "w11",
+      "word": "bias",
+      "pronunciation": "/ˈbaɪəs/",
+      "partOfSpeech": "noun",
+      "meaning": "Prejudice in favor of or against one thing, person, or group compared with another",
+      "translation": "편견, 편향",
+      "example": "Journalists must be aware of their own bias when reporting controversial issues."
+    },
+    {
+      "id": "w12",
+      "word": "censorship",
+      "pronunciation": "/ˈsensərʃɪp/",
+      "partOfSpeech": "noun",
+      "meaning": "The suppression or prohibition of speech, public communication, or other information",
+      "translation": "검열",
+      "example": "Government censorship prevented citizens from accessing certain websites."
+    },
+    {
+      "id": "w13",
+      "word": "disseminate",
+      "pronunciation": "/dɪˈsemɪneɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To spread or distribute information widely",
+      "translation": "보급하다, 퍼뜨리다",
+      "example": "Social media platforms disseminate news faster than traditional outlets."
+    },
+    {
+      "id": "w14",
+      "word": "discourse",
+      "pronunciation": "/ˈdɪskɔːrs/",
+      "partOfSpeech": "noun",
+      "meaning": "Written or spoken communication or debate; a formal discussion",
+      "translation": "담론, 담화",
+      "example": "The public discourse on climate change has shifted dramatically in recent years."
+    },
+    {
+      "id": "w15",
+      "word": "fabricate",
+      "pronunciation": "/ˈfæbrɪkeɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To invent or make up false information or evidence",
+      "translation": "날조하다, 조작하다",
+      "example": "The journalist was fired for fabricating sources in his investigative report."
+    },
+    {
+      "id": "w16",
+      "word": "gatekeeping",
+      "pronunciation": "/ˈɡeɪtˌkiːpɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "The process of controlling what information is published or broadcast",
+      "translation": "게이트키핑, 정보 통제",
+      "example": "Traditional media gatekeeping has diminished with the rise of citizen journalism."
+    },
+    {
+      "id": "w17",
+      "word": "headline",
+      "pronunciation": "/ˈhedlaɪn/",
+      "partOfSpeech": "noun",
+      "meaning": "A heading at the top of an article or page in a newspaper or magazine",
+      "translation": "헤드라인, 표제",
+      "example": "Sensational headlines often misrepresent the content of the actual article."
+    },
+    {
+      "id": "w18",
+      "word": "impartiality",
+      "pronunciation": "/ˌɪmpɑːrʃiˈæləti/",
+      "partOfSpeech": "noun",
+      "meaning": "Fair treatment without favoritism or bias; objectivity",
+      "translation": "공정성, 불편부당",
+      "example": "Journalists are expected to maintain impartiality when covering political events."
+    },
+    {
+      "id": "w19",
+      "word": "journalism",
+      "pronunciation": "/ˈdʒɜːrnəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The activity or profession of writing for newspapers, magazines, or news websites",
+      "translation": "저널리즘, 언론",
+      "example": "Investigative journalism plays a crucial role in holding power accountable."
+    },
+    {
+      "id": "w20",
+      "word": "manipulation",
+      "pronunciation": "/məˌnɪpjʊˈleɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The action of controlling or influencing someone or something in a clever or unscrupulous way",
+      "translation": "조작, 조종",
+      "example": "Media manipulation techniques can subtly influence public opinion without people realizing it."
+    },
+    {
+      "id": "w21",
+      "word": "objectivity",
+      "pronunciation": "/ˌɒbdʒekˈtɪvəti/",
+      "partOfSpeech": "noun",
+      "meaning": "The quality of being free from bias or personal feelings in presenting facts",
+      "translation": "객관성",
+      "example": "Complete objectivity in journalism is difficult to achieve but remains an important goal."
+    },
+    {
+      "id": "w22",
+      "word": "plagiarism",
+      "pronunciation": "/ˈpleɪdʒərɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The practice of taking someone else's work or ideas and passing them off as one's own",
+      "translation": "표절",
+      "example": "The reporter was accused of plagiarism after copying passages from another publication."
+    },
+    {
+      "id": "w23",
+      "word": "sensationalism",
+      "pronunciation": "/senˈseɪʃənəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The use of exciting or shocking stories at the expense of accuracy to provoke public interest",
+      "translation": "선정주의",
+      "example": "Tabloid newspapers often resort to sensationalism to boost circulation."
+    },
+    {
+      "id": "w24",
+      "word": "transparency",
+      "pronunciation": "/trænsˈpærənsi/",
+      "partOfSpeech": "noun",
+      "meaning": "Openness and accountability in communication and decision-making processes",
+      "translation": "투명성",
+      "example": "Media organizations must maintain transparency about their funding sources."
+    },
+    {
+      "id": "w25",
+      "word": "viral",
+      "pronunciation": "/ˈvaɪrəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to or involving the rapid spread of information or content through online sharing",
+      "translation": "바이럴의, 급속도로 퍼지는",
+      "example": "The campaign video went viral, accumulating millions of views within hours."
+    },
+    {
+      "id": "w26",
+      "word": "algorithm",
+      "pronunciation": "/ˈælɡərɪðəm/",
+      "partOfSpeech": "noun",
+      "meaning": "A set of rules or processes that computer programs follow, especially for content selection",
+      "translation": "알고리즘",
+      "example": "Social media algorithms determine which posts appear in users' feeds."
+    },
+    {
+      "id": "w27",
+      "word": "clickbait",
+      "pronunciation": "/ˈklɪkbeɪt/",
+      "partOfSpeech": "noun",
+      "meaning": "Content with sensational headlines designed to attract clicks rather than inform",
+      "translation": "클릭베이트, 낚시성 제목",
+      "example": "The website relied on clickbait headlines to drive traffic despite offering little substance."
+    },
+    {
+      "id": "w28",
+      "word": "misinformation",
+      "pronunciation": "/ˌmɪsɪnfərˈmeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "False or inaccurate information, especially that which is deliberately intended to deceive",
+      "translation": "잘못된 정보, 오보",
+      "example": "Social media platforms struggle to combat the spread of misinformation."
+    },
+    {
+      "id": "w29",
+      "word": "accountability",
+      "pronunciation": "/əˌkaʊntəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "meaning": "The fact or condition of being responsible and answerable for one's actions",
+      "translation": "책임성",
+      "example": "Press accountability ensures that journalists face consequences for ethical violations."
+    },
+    {
+      "id": "w30",
+      "word": "broadcast",
+      "pronunciation": "/ˈbrɔːdkæst/",
+      "partOfSpeech": "verb",
+      "meaning": "To transmit programs or information by radio or television",
+      "translation": "방송하다",
+      "example": "The network will broadcast the presidential debate live tonight."
+    },
+    {
+      "id": "w31",
+      "word": "commentary",
+      "pronunciation": "/ˈkɒmənteri/",
+      "partOfSpeech": "noun",
+      "meaning": "The expression of opinions or explanations about an event or situation",
+      "translation": "논평, 해설",
+      "example": "Political commentary has become increasingly partisan in recent years."
+    },
+    {
+      "id": "w32",
+      "word": "coverage",
+      "pronunciation": "/ˈkʌvərɪdʒ/",
+      "partOfSpeech": "noun",
+      "meaning": "The extent to which something is reported or dealt with by the media",
+      "translation": "보도, 취재",
+      "example": "The scandal received extensive coverage in both national and international media."
+    },
+    {
+      "id": "w33",
+      "word": "editorial",
+      "pronunciation": "/ˌedɪˈtɔːriəl/",
+      "partOfSpeech": "noun",
+      "meaning": "A newspaper article written by or on behalf of an editor that gives an opinion",
+      "translation": "사설",
+      "example": "The newspaper's editorial criticized the government's environmental policies."
+    },
+    {
+      "id": "w34",
+      "word": "investigative",
+      "pronunciation": "/ɪnˈvestɪɡətɪv/",
+      "partOfSpeech": "adjective",
+      "meaning": "Involving detailed examination and research to uncover facts",
+      "translation": "조사하는, 탐사의",
+      "example": "Investigative reporting uncovered widespread corruption in the city government."
+    },
+    {
+      "id": "w35",
+      "word": "libel",
+      "pronunciation": "/ˈlaɪbəl/",
+      "partOfSpeech": "noun",
+      "meaning": "A published false statement that is damaging to a person's reputation",
+      "translation": "명예 훼손, 문서에 의한 중상",
+      "example": "The celebrity sued the magazine for libel after they published false allegations."
+    },
+    {
+      "id": "w36",
+      "word": "mainstream",
+      "pronunciation": "/ˈmeɪnstriːm/",
+      "partOfSpeech": "adjective",
+      "meaning": "Belonging to or characteristic of the dominant trend in opinion, fashion, or the arts",
+      "translation": "주류의",
+      "example": "Mainstream media outlets often overlook stories that affect marginalized communities."
+    },
+    {
+      "id": "w37",
+      "word": "pundit",
+      "pronunciation": "/ˈpʌndɪt/",
+      "partOfSpeech": "noun",
+      "meaning": "An expert who offers opinions or commentary on a particular subject",
+      "translation": "전문가, 논객",
+      "example": "Political pundits debated the implications of the election results on television."
+    },
+    {
+      "id": "w38",
+      "word": "retraction",
+      "pronunciation": "/rɪˈtrækʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "A withdrawal of a statement or accusation that was previously published",
+      "translation": "철회, 취소",
+      "example": "The newspaper issued a retraction after discovering errors in their investigative report."
+    },
+    {
+      "id": "w39",
+      "word": "soundbite",
+      "pronunciation": "/ˈsaʊndbaɪt/",
+      "partOfSpeech": "noun",
+      "meaning": "A short, catchy excerpt from a speech or interview, especially one used in broadcasting",
+      "translation": "사운드바이트, 짧은 발췌 인용",
+      "example": "Politicians craft memorable soundbites to ensure their message gets broadcast."
+    },
+    {
+      "id": "w40",
+      "word": "verification",
+      "pronunciation": "/ˌverɪfɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The process of establishing the truth, accuracy, or validity of something",
+      "translation": "검증, 확인",
+      "example": "Fact verification is essential before publishing any news story."
+    },
+    {
+      "id": "w41",
+      "word": "slant",
+      "pronunciation": "/slænt/",
+      "partOfSpeech": "noun",
+      "meaning": "A particular bias or point of view in presenting information",
+      "translation": "편향, 치우침",
+      "example": "The article had a clear political slant that favored the incumbent party."
+    },
+    {
+      "id": "w42",
+      "word": "influencer",
+      "pronunciation": "/ˈɪnflʊənsər/",
+      "partOfSpeech": "noun",
+      "meaning": "A person with the ability to influence potential buyers through social media",
+      "translation": "인플루언서",
+      "example": "Social media influencers often shape consumer trends and public opinion."
+    },
+    {
+      "id": "w43",
+      "word": "aggregator",
+      "pronunciation": "/ˈæɡrɪɡeɪtər/",
+      "partOfSpeech": "noun",
+      "meaning": "A website or program that collects related items of content and displays them",
+      "translation": "수집기, 애그리게이터",
+      "example": "News aggregators compile stories from multiple sources into a single feed."
+    },
+    {
+      "id": "w44",
+      "word": "deepfake",
+      "pronunciation": "/ˈdiːpfeɪk/",
+      "partOfSpeech": "noun",
+      "meaning": "A video or audio recording that has been convincingly altered using AI technology",
+      "translation": "딥페이크",
+      "example": "Deepfake technology poses serious challenges for media authenticity and trust."
+    },
+    {
+      "id": "w45",
+      "word": "monetization",
+      "pronunciation": "/ˌmʌnɪtaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The process of earning revenue from content, platforms, or services",
+      "translation": "수익화",
+      "example": "Content creators rely on various monetization strategies including ads and subscriptions."
+    },
+    {
+      "id": "w46",
+      "word": "engagement",
+      "pronunciation": "/ɪnˈɡeɪdʒmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "The level of interaction and involvement with content or media",
+      "translation": "참여도, 관여도",
+      "example": "Social media platforms prioritize content that generates high user engagement."
+    },
+    {
+      "id": "w47",
+      "word": "anonymity",
+      "pronunciation": "/ˌænəˈnɪməti/",
+      "partOfSpeech": "noun",
+      "meaning": "The condition of being unknown or unidentifiable",
+      "translation": "익명성",
+      "example": "Online anonymity can encourage both free expression and harmful behavior."
+    },
+    {
+      "id": "w48",
+      "word": "proliferation",
+      "pronunciation": "/prəˌlɪfəˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "Rapid increase in the number or amount of something",
+      "translation": "확산, 급증",
+      "example": "The proliferation of fake news sites has made it harder to identify credible sources."
+    },
+    {
+      "id": "w49",
+      "word": "saturation",
+      "pronunciation": "/ˌsætʃəˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The state of being completely filled or overwhelmed with something",
+      "translation": "포화 상태",
+      "example": "Media saturation during election season can lead to voter fatigue and apathy."
+    },
+    {
+      "id": "w50",
+      "word": "corroborate",
+      "pronunciation": "/kəˈrɒbəreɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To confirm or give support to a statement, theory, or finding",
+      "translation": "확증하다, 뒷받침하다",
+      "example": "Multiple sources were able to corroborate the whistleblower's allegations."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "What does 'disinformation' mean?",
+      "options": [
+        "False information deliberately spread to deceive",
+        "Accurate information widely shared",
+        "Information that is unclear",
+        "Data collected from surveys"
+      ],
+      "correctAnswer": 0,
+      "relatedWordId": "w1"
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "Which word means 'division into sharply contrasting groups'?",
+      "options": [
+        "Unity",
+        "Polarization",
+        "Cooperation",
+        "Integration"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w3"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "What is 'gatekeeping' in media?",
+      "options": [
+        "Opening doors for journalists",
+        "Controlling what information is published",
+        "Guarding media buildings",
+        "Creating security protocols"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w16"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "What does 'fabricate' mean in journalism?",
+      "options": [
+        "To build a structure",
+        "To report accurately",
+        "To invent false information",
+        "To conduct interviews"
+      ],
+      "correctAnswer": 2,
+      "relatedWordId": "w15"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "An 'echo chamber' is:",
+      "options": [
+        "A recording studio",
+        "An environment with only similar opinions",
+        "A loud speaking device",
+        "A type of microphone"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w7"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "What is 'clickbait'?",
+      "options": [
+        "Computer malware",
+        "Sensational headlines to attract clicks",
+        "A fishing technique",
+        "Quality journalism"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w27"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "'Sensationalism' refers to:",
+      "options": [
+        "Accurate, balanced reporting",
+        "Using shocking stories at the expense of accuracy",
+        "Sensitive journalism",
+        "Scientific reporting"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w23"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "What does 'corroborate' mean?",
+      "options": [
+        "To contradict evidence",
+        "To ignore facts",
+        "To confirm or support a statement",
+        "To collaborate with others"
+      ],
+      "correctAnswer": 2,
+      "relatedWordId": "w50"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "A 'deepfake' is:",
+      "options": [
+        "A very deep investigation",
+        "An AI-altered video or audio recording",
+        "A fake news website",
+        "A shallow analysis"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w44"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "'Libel' refers to:",
+      "options": [
+        "A published false statement damaging reputation",
+        "A library book",
+        "A liberal viewpoint",
+        "Freedom of speech"
+      ],
+      "correctAnswer": 0,
+      "relatedWordId": "w35"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "What is 'transparency' in media?",
+      "options": [
+        "Clear glass windows",
+        "Openness and accountability",
+        "Hidden agendas",
+        "Secret sources"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w24"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "'Virality' describes:",
+      "options": [
+        "Computer viruses",
+        "Rapid spread of content through sharing",
+        "Medical conditions",
+        "Slow distribution"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w6"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "What does 'scrutiny' mean?",
+      "options": [
+        "Casual observation",
+        "Ignoring details",
+        "Critical examination",
+        "Quick glance"
+      ],
+      "correctAnswer": 2,
+      "relatedWordId": "w10"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "A 'pundit' is:",
+      "options": [
+        "A comedian",
+        "An expert offering commentary",
+        "A silent observer",
+        "A fact-checker"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w37"
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "'Plagiarism' means:",
+      "options": [
+        "Citing sources properly",
+        "Taking someone's work and passing it off as your own",
+        "Collaborative writing",
+        "Creative writing"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w22"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "What is 'framing' in media?",
+      "options": [
+        "Putting pictures in frames",
+        "The way an issue is presented",
+        "Building construction",
+        "Camera techniques"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w5"
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "'Disseminate' means:",
+      "options": [
+        "To hide information",
+        "To spread information widely",
+        "To destroy data",
+        "To collect facts"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w13"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "An 'editorial' is:",
+      "options": [
+        "A factual news report",
+        "An opinion article by the editor",
+        "An advertisement",
+        "A classified ad"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w33"
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "'Impartiality' means:",
+      "options": [
+        "Strong bias",
+        "Fair treatment without favoritism",
+        "Partial coverage",
+        "Incomplete reporting"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w18"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "What is an 'aggregator'?",
+      "options": [
+        "A person who writes news",
+        "A platform that collects content from multiple sources",
+        "An advertising agency",
+        "A type of camera"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w43"
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "'Censorship' involves:",
+      "options": [
+        "Free speech",
+        "Suppression or prohibition of information",
+        "Conducting census surveys",
+        "Criticizing government"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w12"
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "What does 'verification' mean?",
+      "options": [
+        "Making something complicated",
+        "Establishing truth or accuracy",
+        "Creating false information",
+        "Spreading rumors"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w40"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "'Monetization' refers to:",
+      "options": [
+        "Giving away content for free",
+        "Earning revenue from content",
+        "Monetary policy",
+        "Currency exchange"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w45"
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "A 'soundbite' is:",
+      "options": [
+        "A musical note",
+        "A short, catchy excerpt from a speech",
+        "Audio equipment",
+        "A dental procedure"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w39"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "'Propaganda' is:",
+      "options": [
+        "Objective news reporting",
+        "Biased information to promote a cause",
+        "Educational material",
+        "Scientific research"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w9"
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "What is 'anonymity'?",
+      "options": [
+        "Being famous",
+        "The condition of being unknown",
+        "Public recognition",
+        "Celebrity status"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w47"
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "'Proliferation' means:",
+      "options": [
+        "Rapid decrease",
+        "Rapid increase",
+        "Steady state",
+        "Slow decline"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w48"
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "What does 'engagement' mean in social media?",
+      "options": [
+        "Getting married",
+        "Level of interaction with content",
+        "Employment contract",
+        "Military conflict"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w46"
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "'Accountability' means:",
+      "options": [
+        "Avoiding responsibility",
+        "Being responsible and answerable",
+        "Keeping financial records",
+        "Counting numbers"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w29"
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "An 'influencer' is:",
+      "options": [
+        "A person who avoids social media",
+        "Someone with ability to influence through social media",
+        "A traditional journalist",
+        "A government official"
+      ],
+      "correctAnswer": 1,
+      "relatedWordId": "w42"
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "question": "The government used _____ to manipulate public opinion during the war.",
+      "correctAnswer": "propaganda",
+      "relatedWordId": "w9"
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "question": "Social media algorithms can create _____ that reinforce existing beliefs.",
+      "correctAnswer": "echo chambers",
+      "relatedWordId": "w7"
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "question": "The journalist was fired for _____ sources in his investigative report.",
+      "correctAnswer": "fabricating",
+      "relatedWordId": "w15"
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "Complete objectivity in journalism is difficult to achieve, but maintaining _____ remains an important goal.",
+      "correctAnswer": "impartiality",
+      "relatedWordId": "w18"
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "The media's coverage came under intense _____ after the facts emerged.",
+      "correctAnswer": "scrutiny",
+      "relatedWordId": "w10"
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "Social media platforms _____ news faster than traditional outlets.",
+      "correctAnswer": "disseminate",
+      "relatedWordId": "w13"
+    },
+    {
+      "id": "ex37",
+      "type": "fill_blank",
+      "question": "The newspaper issued a _____ after discovering errors in their investigative report.",
+      "correctAnswer": "retraction",
+      "relatedWordId": "w38"
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "Politicians craft memorable _____ to ensure their message gets broadcast.",
+      "correctAnswer": "soundbites",
+      "relatedWordId": "w39"
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "question": "The campaign video went _____, accumulating millions of views within hours.",
+      "correctAnswer": "viral",
+      "relatedWordId": "w25"
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "_____ technology poses serious challenges for media authenticity and trust.",
+      "correctAnswer": "Deepfake",
+      "relatedWordId": "w44"
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "The celebrity sued the magazine for _____ after they published false allegations.",
+      "correctAnswer": "libel",
+      "relatedWordId": "w35"
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "Tabloid newspapers often resort to _____ to boost circulation.",
+      "correctAnswer": "sensationalism",
+      "relatedWordId": "w23"
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "The reporter was accused of _____ after copying passages from another publication.",
+      "correctAnswer": "plagiarism",
+      "relatedWordId": "w22"
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "Media organizations must maintain _____ about their funding sources.",
+      "correctAnswer": "transparency",
+      "relatedWordId": "w24"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "Government _____ prevented citizens from accessing certain websites.",
+      "correctAnswer": "censorship",
+      "relatedWordId": "w12"
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "The network will _____ the presidential debate live tonight.",
+      "correctAnswer": "broadcast",
+      "relatedWordId": "w30"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "The public _____ on climate change has shifted dramatically in recent years.",
+      "correctAnswer": "discourse",
+      "relatedWordId": "w14"
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "Political _____ has made bipartisan cooperation increasingly difficult.",
+      "correctAnswer": "polarization",
+      "relatedWordId": "w3"
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "The competing _____ about the crisis shaped public perception differently.",
+      "correctAnswer": "narratives",
+      "relatedWordId": "w2"
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "Journalists must be aware of their own _____ when reporting controversial issues.",
+      "correctAnswer": "bias",
+      "relatedWordId": "w11"
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "The politician's _____ appealed to fears rather than facts.",
+      "correctAnswer": "rhetoric",
+      "relatedWordId": "w4"
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "Social media platforms determine which posts appear in users' feeds through _____ .",
+      "correctAnswer": "algorithms",
+      "relatedWordId": "w26"
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "The website relied on _____ headlines to drive traffic despite offering little substance.",
+      "correctAnswer": "clickbait",
+      "relatedWordId": "w27"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "Social media platforms struggle to combat the spread of _____.",
+      "correctAnswer": "misinformation",
+      "relatedWordId": "w28"
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "News _____ compile stories from multiple sources into a single feed.",
+      "correctAnswer": "aggregators",
+      "relatedWordId": "w43"
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "The scandal received extensive _____ in both national and international media.",
+      "correctAnswer": "coverage",
+      "relatedWordId": "w32"
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "_____ reporting uncovered widespread corruption in the city government.",
+      "correctAnswer": "Investigative",
+      "relatedWordId": "w34"
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "Political _____ debated the implications of the election results on television.",
+      "correctAnswer": "pundits",
+      "relatedWordId": "w37"
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "The article had a clear political _____ that favored the incumbent party.",
+      "correctAnswer": "slant",
+      "relatedWordId": "w41"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "Multiple sources were able to _____ the whistleblower's allegations.",
+      "correctAnswer": "corroborate",
+      "relatedWordId": "w50"
+    },
+    {
+      "id": "ex61",
+      "type": "matching",
+      "question": "Match the media terms with their definitions:",
+      "pairs": [
+        {
+          "left": "disinformation",
+          "right": "False information deliberately spread to deceive"
+        },
+        {
+          "left": "credibility",
+          "right": "Quality of being trusted and believed"
+        },
+        {
+          "left": "propaganda",
+          "right": "Biased information to promote a cause"
+        },
+        {
+          "left": "virality",
+          "right": "Rapid spread through online sharing"
+        }
+      ],
+      "relatedWordIds": ["w1", "w8", "w9", "w6"]
+    },
+    {
+      "id": "ex62",
+      "type": "matching",
+      "question": "Match the terms with their definitions:",
+      "pairs": [
+        {
+          "left": "scrutiny",
+          "right": "Critical examination"
+        },
+        {
+          "left": "bias",
+          "right": "Prejudice in favor or against something"
+        },
+        {
+          "left": "censorship",
+          "right": "Suppression of information"
+        },
+        {
+          "left": "disseminate",
+          "right": "Spread information widely"
+        }
+      ],
+      "relatedWordIds": ["w10", "w11", "w12", "w13"]
+    },
+    {
+      "id": "ex63",
+      "type": "matching",
+      "question": "Match the journalism terms:",
+      "pairs": [
+        {
+          "left": "fabricate",
+          "right": "Invent false information"
+        },
+        {
+          "left": "gatekeeping",
+          "right": "Controlling what gets published"
+        },
+        {
+          "left": "impartiality",
+          "right": "Fair treatment without bias"
+        },
+        {
+          "left": "manipulation",
+          "right": "Controlling or influencing cleverly"
+        }
+      ],
+      "relatedWordIds": ["w15", "w16", "w18", "w20"]
+    },
+    {
+      "id": "ex64",
+      "type": "matching",
+      "question": "Match the media concepts:",
+      "pairs": [
+        {
+          "left": "objectivity",
+          "right": "Being free from bias"
+        },
+        {
+          "left": "plagiarism",
+          "right": "Taking others' work as your own"
+        },
+        {
+          "left": "sensationalism",
+          "right": "Using shocking stories for interest"
+        },
+        {
+          "left": "transparency",
+          "right": "Openness and accountability"
+        }
+      ],
+      "relatedWordIds": ["w21", "w22", "w23", "w24"]
+    },
+    {
+      "id": "ex65",
+      "type": "matching",
+      "question": "Match the digital media terms:",
+      "pairs": [
+        {
+          "left": "algorithm",
+          "right": "Rules for content selection"
+        },
+        {
+          "left": "clickbait",
+          "right": "Sensational headlines for clicks"
+        },
+        {
+          "left": "misinformation",
+          "right": "False or inaccurate information"
+        },
+        {
+          "left": "accountability",
+          "right": "Being responsible for actions"
+        }
+      ],
+      "relatedWordIds": ["w26", "w27", "w28", "w29"]
+    },
+    {
+      "id": "ex66",
+      "type": "matching",
+      "question": "Match the broadcasting terms:",
+      "pairs": [
+        {
+          "left": "broadcast",
+          "right": "Transmit programs by radio or TV"
+        },
+        {
+          "left": "commentary",
+          "right": "Expression of opinions about events"
+        },
+        {
+          "left": "coverage",
+          "right": "Extent of media reporting"
+        },
+        {
+          "left": "editorial",
+          "right": "Opinion article by editor"
+        }
+      ],
+      "relatedWordIds": ["w30", "w31", "w32", "w33"]
+    },
+    {
+      "id": "ex67",
+      "type": "matching",
+      "question": "Match the professional terms:",
+      "pairs": [
+        {
+          "left": "investigative",
+          "right": "Involving detailed examination"
+        },
+        {
+          "left": "libel",
+          "right": "Published false damaging statement"
+        },
+        {
+          "left": "mainstream",
+          "right": "Belonging to dominant trend"
+        },
+        {
+          "left": "pundit",
+          "right": "Expert offering commentary"
+        }
+      ],
+      "relatedWordIds": ["w34", "w35", "w36", "w37"]
+    },
+    {
+      "id": "ex68",
+      "type": "matching",
+      "question": "Match the communication terms:",
+      "pairs": [
+        {
+          "left": "retraction",
+          "right": "Withdrawal of published statement"
+        },
+        {
+          "left": "soundbite",
+          "right": "Short catchy excerpt"
+        },
+        {
+          "left": "verification",
+          "right": "Establishing truth or accuracy"
+        },
+        {
+          "left": "slant",
+          "right": "Particular bias in presentation"
+        }
+      ],
+      "relatedWordIds": ["w38", "w39", "w40", "w41"]
+    },
+    {
+      "id": "ex69",
+      "type": "matching",
+      "question": "Match the modern media terms:",
+      "pairs": [
+        {
+          "left": "influencer",
+          "right": "Person who influences through social media"
+        },
+        {
+          "left": "aggregator",
+          "right": "Platform collecting content from sources"
+        },
+        {
+          "left": "deepfake",
+          "right": "AI-altered video or audio"
+        },
+        {
+          "left": "monetization",
+          "right": "Process of earning revenue"
+        }
+      ],
+      "relatedWordIds": ["w42", "w43", "w44", "w45"]
+    },
+    {
+      "id": "ex70",
+      "type": "matching",
+      "question": "Match the final terms:",
+      "pairs": [
+        {
+          "left": "engagement",
+          "right": "Level of interaction with content"
+        },
+        {
+          "left": "anonymity",
+          "right": "Condition of being unknown"
+        },
+        {
+          "left": "proliferation",
+          "right": "Rapid increase in number"
+        },
+        {
+          "left": "saturation",
+          "right": "State of being overwhelmed"
+        }
+      ],
+      "relatedWordIds": ["w46", "w47", "w48", "w49"]
+    },
+    {
+      "id": "ex71",
+      "type": "matching",
+      "question": "Match related media concepts:",
+      "pairs": [
+        {
+          "left": "narrative",
+          "right": "Way of presenting a story"
+        },
+        {
+          "left": "framing",
+          "right": "How an issue is presented"
+        },
+        {
+          "left": "discourse",
+          "right": "Formal discussion or debate"
+        },
+        {
+          "left": "rhetoric",
+          "right": "Art of persuasive speaking"
+        }
+      ],
+      "relatedWordIds": ["w2", "w5", "w14", "w4"]
+    },
+    {
+      "id": "ex72",
+      "type": "matching",
+      "question": "Match the media environment terms:",
+      "pairs": [
+        {
+          "left": "polarization",
+          "right": "Division into opposing groups"
+        },
+        {
+          "left": "echo chamber",
+          "right": "Environment with only similar opinions"
+        },
+        {
+          "left": "journalism",
+          "right": "Writing for newspapers or news"
+        },
+        {
+          "left": "headline",
+          "right": "Heading at top of article"
+        }
+      ],
+      "relatedWordIds": ["w3", "w7", "w19", "w17"]
+    },
+    {
+      "id": "ex73",
+      "type": "matching",
+      "question": "Match verification and trust terms:",
+      "pairs": [
+        {
+          "left": "corroborate",
+          "right": "Confirm or support a statement"
+        },
+        {
+          "left": "verification",
+          "right": "Establishing truth or validity"
+        },
+        {
+          "left": "credibility",
+          "right": "Quality of being trusted"
+        },
+        {
+          "left": "transparency",
+          "right": "Openness in communication"
+        }
+      ],
+      "relatedWordIds": ["w50", "w40", "w8", "w24"]
+    },
+    {
+      "id": "ex74",
+      "type": "matching",
+      "question": "Match deception-related terms:",
+      "pairs": [
+        {
+          "left": "disinformation",
+          "right": "Deliberately false information"
+        },
+        {
+          "left": "misinformation",
+          "right": "Inaccurate information"
+        },
+        {
+          "left": "fabricate",
+          "right": "Invent false information"
+        },
+        {
+          "left": "deepfake",
+          "right": "AI-manipulated media"
+        }
+      ],
+      "relatedWordIds": ["w1", "w28", "w15", "w44"]
+    },
+    {
+      "id": "ex75",
+      "type": "matching",
+      "question": "Match influence and spread terms:",
+      "pairs": [
+        {
+          "left": "viral",
+          "right": "Spreading rapidly online"
+        },
+        {
+          "left": "virality",
+          "right": "Tendency to spread rapidly"
+        },
+        {
+          "left": "disseminate",
+          "right": "Distribute widely"
+        },
+        {
+          "left": "proliferation",
+          "right": "Rapid increase"
+        }
+      ],
+      "relatedWordIds": ["w25", "w6", "w13", "w48"]
+    },
+    {
+      "id": "ex76",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 허위정보",
+      "correctAnswer": "disinformation",
+      "relatedWordId": "w1"
+    },
+    {
+      "id": "ex77",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 서사, 내러티브",
+      "correctAnswer": "narrative",
+      "relatedWordId": "w2"
+    },
+    {
+      "id": "ex78",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 양극화",
+      "correctAnswer": "polarization",
+      "relatedWordId": "w3"
+    },
+    {
+      "id": "ex79",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 수사학",
+      "correctAnswer": "rhetoric",
+      "relatedWordId": "w4"
+    },
+    {
+      "id": "ex80",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 프레이밍",
+      "correctAnswer": "framing",
+      "relatedWordId": "w5"
+    },
+    {
+      "id": "ex81",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 바이럴성",
+      "correctAnswer": "virality",
+      "relatedWordId": "w6"
+    },
+    {
+      "id": "ex82",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 에코 챔버",
+      "correctAnswer": "echo chamber",
+      "relatedWordId": "w7"
+    },
+    {
+      "id": "ex83",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 신뢰성",
+      "correctAnswer": "credibility",
+      "relatedWordId": "w8"
+    },
+    {
+      "id": "ex84",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 선전",
+      "correctAnswer": "propaganda",
+      "relatedWordId": "w9"
+    },
+    {
+      "id": "ex85",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 정밀 조사",
+      "correctAnswer": "scrutiny",
+      "relatedWordId": "w10"
+    },
+    {
+      "id": "ex86",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 편견",
+      "correctAnswer": "bias",
+      "relatedWordId": "w11"
+    },
+    {
+      "id": "ex87",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 검열",
+      "correctAnswer": "censorship",
+      "relatedWordId": "w12"
+    },
+    {
+      "id": "ex88",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 보급하다",
+      "correctAnswer": "disseminate",
+      "relatedWordId": "w13"
+    },
+    {
+      "id": "ex89",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 담론",
+      "correctAnswer": "discourse",
+      "relatedWordId": "w14"
+    },
+    {
+      "id": "ex90",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 날조하다",
+      "correctAnswer": "fabricate",
+      "relatedWordId": "w15"
+    },
+    {
+      "id": "ex91",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 게이트키핑",
+      "correctAnswer": "gatekeeping",
+      "relatedWordId": "w16"
+    },
+    {
+      "id": "ex92",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 헤드라인",
+      "correctAnswer": "headline",
+      "relatedWordId": "w17"
+    },
+    {
+      "id": "ex93",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 공정성",
+      "correctAnswer": "impartiality",
+      "relatedWordId": "w18"
+    },
+    {
+      "id": "ex94",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 저널리즘",
+      "correctAnswer": "journalism",
+      "relatedWordId": "w19"
+    },
+    {
+      "id": "ex95",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 조작",
+      "correctAnswer": "manipulation",
+      "relatedWordId": "w20"
+    },
+    {
+      "id": "ex96",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 객관성",
+      "correctAnswer": "objectivity",
+      "relatedWordId": "w21"
+    },
+    {
+      "id": "ex97",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 표절",
+      "correctAnswer": "plagiarism",
+      "relatedWordId": "w22"
+    },
+    {
+      "id": "ex98",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 선정주의",
+      "correctAnswer": "sensationalism",
+      "relatedWordId": "w23"
+    },
+    {
+      "id": "ex99",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 투명성",
+      "correctAnswer": "transparency",
+      "relatedWordId": "w24"
+    },
+    {
+      "id": "ex100",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 바이럴의",
+      "correctAnswer": "viral",
+      "relatedWordId": "w25"
+    },
+    {
+      "id": "ex101",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 알고리즘",
+      "correctAnswer": "algorithm",
+      "relatedWordId": "w26"
+    },
+    {
+      "id": "ex102",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 클릭베이트",
+      "correctAnswer": "clickbait",
+      "relatedWordId": "w27"
+    },
+    {
+      "id": "ex103",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 잘못된 정보",
+      "correctAnswer": "misinformation",
+      "relatedWordId": "w28"
+    },
+    {
+      "id": "ex104",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 책임성",
+      "correctAnswer": "accountability",
+      "relatedWordId": "w29"
+    },
+    {
+      "id": "ex105",
+      "type": "translation_ko_en",
+      "question": "Translate to English: 방송하다",
+      "correctAnswer": "broadcast",
+      "relatedWordId": "w30"
+    },
+    {
+      "id": "ex106",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: commentary",
+      "correctAnswer": "논평",
+      "relatedWordId": "w31"
+    },
+    {
+      "id": "ex107",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: coverage",
+      "correctAnswer": "보도",
+      "relatedWordId": "w32"
+    },
+    {
+      "id": "ex108",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: editorial",
+      "correctAnswer": "사설",
+      "relatedWordId": "w33"
+    },
+    {
+      "id": "ex109",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: investigative",
+      "correctAnswer": "조사하는",
+      "relatedWordId": "w34"
+    },
+    {
+      "id": "ex110",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: libel",
+      "correctAnswer": "명예 훼손",
+      "relatedWordId": "w35"
+    },
+    {
+      "id": "ex111",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: mainstream",
+      "correctAnswer": "주류의",
+      "relatedWordId": "w36"
+    },
+    {
+      "id": "ex112",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: pundit",
+      "correctAnswer": "전문가",
+      "relatedWordId": "w37"
+    },
+    {
+      "id": "ex113",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: retraction",
+      "correctAnswer": "철회",
+      "relatedWordId": "w38"
+    },
+    {
+      "id": "ex114",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: soundbite",
+      "correctAnswer": "사운드바이트",
+      "relatedWordId": "w39"
+    },
+    {
+      "id": "ex115",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: verification",
+      "correctAnswer": "검증",
+      "relatedWordId": "w40"
+    },
+    {
+      "id": "ex116",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: slant",
+      "correctAnswer": "편향",
+      "relatedWordId": "w41"
+    },
+    {
+      "id": "ex117",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: influencer",
+      "correctAnswer": "인플루언서",
+      "relatedWordId": "w42"
+    },
+    {
+      "id": "ex118",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: aggregator",
+      "correctAnswer": "애그리게이터",
+      "relatedWordId": "w43"
+    },
+    {
+      "id": "ex119",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: deepfake",
+      "correctAnswer": "딥페이크",
+      "relatedWordId": "w44"
+    },
+    {
+      "id": "ex120",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: monetization",
+      "correctAnswer": "수익화",
+      "relatedWordId": "w45"
+    },
+    {
+      "id": "ex121",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: engagement",
+      "correctAnswer": "참여도",
+      "relatedWordId": "w46"
+    },
+    {
+      "id": "ex122",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: anonymity",
+      "correctAnswer": "익명성",
+      "relatedWordId": "w47"
+    },
+    {
+      "id": "ex123",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: proliferation",
+      "correctAnswer": "확산",
+      "relatedWordId": "w48"
+    },
+    {
+      "id": "ex124",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: saturation",
+      "correctAnswer": "포화 상태",
+      "relatedWordId": "w49"
+    },
+    {
+      "id": "ex125",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: corroborate",
+      "correctAnswer": "확증하다",
+      "relatedWordId": "w50"
+    },
+    {
+      "id": "ex126",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: disinformation",
+      "correctAnswer": "허위정보",
+      "relatedWordId": "w1"
+    },
+    {
+      "id": "ex127",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: narrative",
+      "correctAnswer": "서사",
+      "relatedWordId": "w2"
+    },
+    {
+      "id": "ex128",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: polarization",
+      "correctAnswer": "양극화",
+      "relatedWordId": "w3"
+    },
+    {
+      "id": "ex129",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: rhetoric",
+      "correctAnswer": "수사학",
+      "relatedWordId": "w4"
+    },
+    {
+      "id": "ex130",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: framing",
+      "correctAnswer": "프레이밍",
+      "relatedWordId": "w5"
+    },
+    {
+      "id": "ex131",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: virality",
+      "correctAnswer": "바이럴성",
+      "relatedWordId": "w6"
+    },
+    {
+      "id": "ex132",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: echo chamber",
+      "correctAnswer": "에코 챔버",
+      "relatedWordId": "w7"
+    },
+    {
+      "id": "ex133",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: credibility",
+      "correctAnswer": "신뢰성",
+      "relatedWordId": "w8"
+    },
+    {
+      "id": "ex134",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: propaganda",
+      "correctAnswer": "선전",
+      "relatedWordId": "w9"
+    },
+    {
+      "id": "ex135",
+      "type": "translation_en_ko",
+      "question": "Translate to Korean: scrutiny",
+      "correctAnswer": "정밀 조사",
+      "relatedWordId": "w10"
+    },
+    {
+      "id": "ex136",
+      "type": "fill_blank",
+      "question": "The _____ of fake news sites has made it harder to identify credible sources.",
+      "correctAnswer": "proliferation",
+      "relatedWordId": "w48"
+    },
+    {
+      "id": "ex137",
+      "type": "fill_blank",
+      "question": "Media _____ during election season can lead to voter fatigue and apathy.",
+      "correctAnswer": "saturation",
+      "relatedWordId": "w49"
+    },
+    {
+      "id": "ex138",
+      "type": "fill_blank",
+      "question": "Online _____ can encourage both free expression and harmful behavior.",
+      "correctAnswer": "anonymity",
+      "relatedWordId": "w47"
+    },
+    {
+      "id": "ex139",
+      "type": "fill_blank",
+      "question": "Social media platforms prioritize content that generates high user _____.",
+      "correctAnswer": "engagement",
+      "relatedWordId": "w46"
+    },
+    {
+      "id": "ex140",
+      "type": "fill_blank",
+      "question": "Content creators rely on various _____ strategies including ads and subscriptions.",
+      "correctAnswer": "monetization",
+      "relatedWordId": "w45"
+    },
+    {
+      "id": "ex141",
+      "type": "fill_blank",
+      "question": "Social media _____ often shape consumer trends and public opinion.",
+      "correctAnswer": "influencers",
+      "relatedWordId": "w42"
+    },
+    {
+      "id": "ex142",
+      "type": "fill_blank",
+      "question": "_____ media outlets often overlook stories that affect marginalized communities.",
+      "correctAnswer": "Mainstream",
+      "relatedWordId": "w36"
+    },
+    {
+      "id": "ex143",
+      "type": "fill_blank",
+      "question": "The newspaper's _____ criticized the government's environmental policies.",
+      "correctAnswer": "editorial",
+      "relatedWordId": "w33"
+    },
+    {
+      "id": "ex144",
+      "type": "fill_blank",
+      "question": "Political _____ has become increasingly partisan in recent years.",
+      "correctAnswer": "commentary",
+      "relatedWordId": "w31"
+    },
+    {
+      "id": "ex145",
+      "type": "fill_blank",
+      "question": "Fact _____ is essential before publishing any news story.",
+      "correctAnswer": "verification",
+      "relatedWordId": "w40"
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "question": "The _____ of immigration as a security issue shifted the debate.",
+      "correctAnswer": "framing",
+      "relatedWordId": "w5"
+    },
+    {
+      "id": "ex147",
+      "type": "fill_blank",
+      "question": "The journalist's _____ was enhanced by her track record of accurate reporting.",
+      "correctAnswer": "credibility",
+      "relatedWordId": "w8"
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "question": "The video's _____ meant it reached millions before fact-checking occurred.",
+      "correctAnswer": "virality",
+      "relatedWordId": "w6"
+    },
+    {
+      "id": "ex149",
+      "type": "fill_blank",
+      "question": "The report detailed how _____ campaigns targeted voters in swing states.",
+      "correctAnswer": "disinformation",
+      "relatedWordId": "w1"
+    },
+    {
+      "id": "ex150",
+      "type": "fill_blank",
+      "question": "Press _____ ensures that journalists face consequences for ethical violations.",
+      "correctAnswer": "accountability",
+      "relatedWordId": "w29"
     }
   ]
 }

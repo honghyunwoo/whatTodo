@@ -5,187 +5,1688 @@
   "level": "C2",
   "title": "Scholarly & Literary Language",
   "description": "Master sophisticated vocabulary for academic discourse and literary analysis.",
-
   "words": [
     {
       "id": "w1",
       "word": "epistemological",
       "pronunciation": "/ɪˌpɪstəməˈlɒdʒɪkəl/",
+      "partOfSpeech": "adjective",
       "meaning": "relating to the theory of knowledge and its methods",
       "translation": "인식론적인",
-      "example": "The author's epistemological approach challenges traditional notions of truth.",
-      "partOfSpeech": "adjective"
+      "example": "The author's epistemological approach challenges traditional notions of truth."
     },
     {
       "id": "w2",
       "word": "obfuscate",
       "pronunciation": "/ˈɒbfʌskeɪt/",
+      "partOfSpeech": "verb",
       "meaning": "to make something unclear or difficult to understand",
       "translation": "혼란시키다, 모호하게 하다",
-      "example": "The politician's response seemed designed to obfuscate rather than clarify.",
-      "partOfSpeech": "verb"
+      "example": "The politician's response seemed designed to obfuscate rather than clarify."
     },
     {
       "id": "w3",
       "word": "antithetical",
       "pronunciation": "/ˌæntɪˈθetɪkəl/",
+      "partOfSpeech": "adjective",
       "meaning": "directly opposed or contrasted; mutually incompatible",
       "translation": "정반대의, 대조적인",
-      "example": "Their worldviews are fundamentally antithetical to one another.",
-      "partOfSpeech": "adjective"
+      "example": "Their worldviews are fundamentally antithetical to one another."
     },
     {
       "id": "w4",
       "word": "excoriate",
       "pronunciation": "/ɪkˈskɔːrieɪt/",
+      "partOfSpeech": "verb",
       "meaning": "to criticize severely",
       "translation": "혹평하다, 신랄하게 비판하다",
-      "example": "Critics excoriated the film for its superficial treatment of complex issues.",
-      "partOfSpeech": "verb"
+      "example": "Critics excoriated the film for its superficial treatment of complex issues."
     },
     {
       "id": "w5",
       "word": "quintessential",
       "pronunciation": "/ˌkwɪntɪˈsenʃəl/",
+      "partOfSpeech": "adjective",
       "meaning": "representing the most perfect example of a quality or class",
       "translation": "전형적인, 정수의",
-      "example": "She is the quintessential Renaissance scholar—equally versed in arts and sciences.",
-      "partOfSpeech": "adjective"
+      "example": "She is the quintessential Renaissance scholar—equally versed in arts and sciences."
     },
     {
       "id": "w6",
       "word": "ameliorate",
       "pronunciation": "/əˈmiːliəreɪt/",
+      "partOfSpeech": "verb",
       "meaning": "to make something bad or unsatisfactory better",
       "translation": "개선하다, 호전시키다",
-      "example": "The new policies failed to ameliorate the underlying social inequalities.",
-      "partOfSpeech": "verb"
+      "example": "The new policies failed to ameliorate the underlying social inequalities."
     },
     {
       "id": "w7",
       "word": "perspicacious",
       "pronunciation": "/ˌpɜːspɪˈkeɪʃəs/",
+      "partOfSpeech": "adjective",
       "meaning": "having keen mental perception and understanding",
       "translation": "통찰력 있는, 예리한",
-      "example": "Her perspicacious analysis revealed patterns others had overlooked.",
-      "partOfSpeech": "adjective"
+      "example": "Her perspicacious analysis revealed patterns others had overlooked."
     },
     {
       "id": "w8",
       "word": "recondite",
       "pronunciation": "/ˈrekəndaɪt/",
+      "partOfSpeech": "adjective",
       "meaning": "dealing with very profound or obscure subjects",
       "translation": "심오한, 난해한",
-      "example": "The philosopher's recondite arguments are accessible only to specialists.",
-      "partOfSpeech": "adjective"
+      "example": "The philosopher's recondite arguments are accessible only to specialists."
     },
     {
       "id": "w9",
       "word": "efficacious",
       "pronunciation": "/ˌefɪˈkeɪʃəs/",
+      "partOfSpeech": "adjective",
       "meaning": "successful in producing a desired result; effective",
       "translation": "효과적인, 효험 있는",
-      "example": "The treatment proved efficacious in the majority of clinical trials.",
-      "partOfSpeech": "adjective"
+      "example": "The treatment proved efficacious in the majority of clinical trials."
     },
     {
       "id": "w10",
       "word": "propitious",
       "pronunciation": "/prəˈpɪʃəs/",
+      "partOfSpeech": "adjective",
       "meaning": "indicating a good chance of success; favorable",
       "translation": "유리한, 좋은 징조의",
-      "example": "The economic conditions were propitious for launching the new venture.",
-      "partOfSpeech": "adjective"
+      "example": "The economic conditions were propitious for launching the new venture."
     },
     {
       "id": "w11",
       "word": "exegesis",
       "pronunciation": "/ˌeksɪˈdʒiːsɪs/",
+      "partOfSpeech": "noun",
       "meaning": "critical explanation or interpretation of a text",
       "translation": "주석, 해석",
-      "example": "His exegesis of the ancient manuscript offered revolutionary insights.",
-      "partOfSpeech": "noun"
+      "example": "His exegesis of the ancient manuscript offered revolutionary insights."
     },
     {
       "id": "w12",
       "word": "ineffable",
       "pronunciation": "/ɪnˈefəbl/",
+      "partOfSpeech": "adjective",
       "meaning": "too great or extreme to be expressed in words",
       "translation": "말로 표현할 수 없는",
-      "example": "The beauty of the sunset was utterly ineffable.",
-      "partOfSpeech": "adjective"
+      "example": "The beauty of the sunset was utterly ineffable."
     },
     {
       "id": "w13",
       "word": "circumlocution",
       "pronunciation": "/ˌsɜːkəmləˈkjuːʃən/",
+      "partOfSpeech": "noun",
       "meaning": "the use of many words where fewer would suffice",
       "translation": "우회적 표현, 에둘러 말하기",
-      "example": "The report's circumlocution made it difficult to identify the key points.",
-      "partOfSpeech": "noun"
+      "example": "The report's circumlocution made it difficult to identify the key points."
     },
     {
       "id": "w14",
       "word": "didactic",
       "pronunciation": "/daɪˈdæktɪk/",
+      "partOfSpeech": "adjective",
       "meaning": "intended to teach, especially in a moralistic way",
       "translation": "교훈적인, 설교조의",
-      "example": "Critics found the novel's didactic tone somewhat off-putting.",
-      "partOfSpeech": "adjective"
+      "example": "Critics found the novel's didactic tone somewhat off-putting."
     },
     {
       "id": "w15",
       "word": "ineluctable",
       "pronunciation": "/ˌɪnɪˈlʌktəbl/",
+      "partOfSpeech": "adjective",
       "meaning": "unable to be resisted or avoided; inevitable",
       "translation": "피할 수 없는, 불가피한",
-      "example": "The ineluctable march of technological progress transforms societies.",
-      "partOfSpeech": "adjective"
+      "example": "The ineluctable march of technological progress transforms societies."
     },
     {
       "id": "w16",
       "word": "verisimilitude",
       "pronunciation": "/ˌverɪsɪˈmɪlɪtjuːd/",
+      "partOfSpeech": "noun",
       "meaning": "the appearance of being true or real",
       "translation": "진실다움, 있음직함",
-      "example": "The documentary's verisimilitude was undermined by several factual errors.",
-      "partOfSpeech": "noun"
+      "example": "The documentary's verisimilitude was undermined by several factual errors."
     },
     {
       "id": "w17",
       "word": "liminal",
       "pronunciation": "/ˈlɪmɪnəl/",
+      "partOfSpeech": "adjective",
       "meaning": "occupying a position at, or on both sides of, a boundary",
       "translation": "경계의, 문턱의",
-      "example": "Adolescence represents a liminal phase between childhood and adulthood.",
-      "partOfSpeech": "adjective"
+      "example": "Adolescence represents a liminal phase between childhood and adulthood."
     },
     {
       "id": "w18",
       "word": "palimpsest",
       "pronunciation": "/ˈpælɪmpsest/",
+      "partOfSpeech": "noun",
       "meaning": "something with layers of meaning; originally a reused manuscript",
       "translation": "양피지 사본, 중층적 의미를 가진 것",
-      "example": "The city is a palimpsest of architectural styles spanning centuries.",
-      "partOfSpeech": "noun"
+      "example": "The city is a palimpsest of architectural styles spanning centuries."
     },
     {
       "id": "w19",
       "word": "prescient",
       "pronunciation": "/ˈpresiənt/",
+      "partOfSpeech": "adjective",
       "meaning": "having or showing knowledge of events before they take place",
       "translation": "선견지명이 있는",
-      "example": "The author's prescient warnings about climate change seem more relevant today.",
-      "partOfSpeech": "adjective"
+      "example": "The author's prescient warnings about climate change seem more relevant today."
     },
     {
       "id": "w20",
       "word": "apotheosis",
       "pronunciation": "/əˌpɒθiˈəʊsɪs/",
+      "partOfSpeech": "noun",
       "meaning": "the highest point of development; glorification to divine status",
       "translation": "극치, 신격화",
-      "example": "This symphony represents the apotheosis of the Romantic musical tradition.",
-      "partOfSpeech": "noun"
+      "example": "This symphony represents the apotheosis of the Romantic musical tradition."
+    },
+    {
+      "id": "w21",
+      "word": "hermeneutic",
+      "pronunciation": "/ˌhɜːmɪˈnjuːtɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "concerning interpretation, especially of the Bible or literary texts",
+      "translation": "해석학의, 해석적인",
+      "example": "The hermeneutic approach allows for multiple layers of textual interpretation."
+    },
+    {
+      "id": "w22",
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "present, appearing, or found everywhere",
+      "translation": "어디에나 있는, 편재하는",
+      "example": "Smartphones have become ubiquitous in modern society."
+    },
+    {
+      "id": "w23",
+      "word": "obsequious",
+      "pronunciation": "/əbˈsiːkwiəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "obedient or attentive to an excessive or servile degree",
+      "translation": "아첨하는, 비굴한",
+      "example": "His obsequious manner toward superiors irritated his colleagues."
+    },
+    {
+      "id": "w24",
+      "word": "vicarious",
+      "pronunciation": "/vɪˈkeəriəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "experienced in the imagination through the feelings of another person",
+      "translation": "대리의, 간접 경험의",
+      "example": "She lived a vicarious existence through the adventures described in books."
+    },
+    {
+      "id": "w25",
+      "word": "mellifluous",
+      "pronunciation": "/meˈlɪfluəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "sweet or musical; pleasant to hear",
+      "translation": "달콤한, 듣기 좋은",
+      "example": "The speaker's mellifluous voice captivated the audience."
+    },
+    {
+      "id": "w26",
+      "word": "sanguine",
+      "pronunciation": "/ˈsæŋɡwɪn/",
+      "partOfSpeech": "adjective",
+      "meaning": "optimistic or positive, especially in difficult situations",
+      "translation": "낙관적인, 자신만만한",
+      "example": "Despite the setbacks, she remained sanguine about the project's prospects."
+    },
+    {
+      "id": "w27",
+      "word": "laconic",
+      "pronunciation": "/ləˈkɒnɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "using very few words; concise to the point of seeming rude",
+      "translation": "간결한, 말수가 적은",
+      "example": "His laconic replies suggested he was not interested in conversation."
+    },
+    {
+      "id": "w28",
+      "word": "obstreperous",
+      "pronunciation": "/əbˈstrepərəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "noisy and difficult to control",
+      "translation": "소란스러운, 다루기 힘든",
+      "example": "The obstreperous children disrupted the entire classroom."
+    },
+    {
+      "id": "w29",
+      "word": "sagacious",
+      "pronunciation": "/səˈɡeɪʃəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "having or showing keen mental discernment and good judgment",
+      "translation": "현명한, 분별력 있는",
+      "example": "The sagacious leader anticipated the economic downturn years in advance."
+    },
+    {
+      "id": "w30",
+      "word": "torpor",
+      "pronunciation": "/ˈtɔːpə/",
+      "partOfSpeech": "noun",
+      "meaning": "a state of physical or mental inactivity; lethargy",
+      "translation": "무기력, 둔감",
+      "example": "The summer heat induced a state of torpor among the villagers."
+    },
+    {
+      "id": "w31",
+      "word": "jejune",
+      "pronunciation": "/dʒɪˈdʒuːn/",
+      "partOfSpeech": "adjective",
+      "meaning": "naive, simplistic, or superficial",
+      "translation": "순진한, 피상적인",
+      "example": "The argument was dismissed as jejune and intellectually unsatisfying."
+    },
+    {
+      "id": "w32",
+      "word": "tendentious",
+      "pronunciation": "/tenˈdenʃəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "expressing or intending to promote a particular cause or point of view",
+      "translation": "편향된, 특정 주의를 선전하는",
+      "example": "The article's tendentious interpretation ignored contradictory evidence."
+    },
+    {
+      "id": "w33",
+      "word": "grandiloquent",
+      "pronunciation": "/ɡrænˈdɪləkwənt/",
+      "partOfSpeech": "adjective",
+      "meaning": "pompous or extravagant in language, style, or manner",
+      "translation": "과장된, 거창한",
+      "example": "His grandiloquent speech failed to mask the paucity of his ideas."
+    },
+    {
+      "id": "w34",
+      "word": "multifarious",
+      "pronunciation": "/ˌmʌltɪˈfeəriəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "many and of various types; having great diversity or variety",
+      "translation": "다양한, 여러 종류의",
+      "example": "Her multifarious talents include painting, music, and theoretical physics."
+    },
+    {
+      "id": "w35",
+      "word": "insouciant",
+      "pronunciation": "/ɪnˈsuːsiənt/",
+      "partOfSpeech": "adjective",
+      "meaning": "showing a casual lack of concern; indifferent",
+      "translation": "무관심한, 태평한",
+      "example": "His insouciant attitude toward deadlines frustrated his manager."
+    },
+    {
+      "id": "w36",
+      "word": "quixotic",
+      "pronunciation": "/kwɪkˈsɒtɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "exceedingly idealistic; unrealistic and impractical",
+      "translation": "공상적인, 비현실적인",
+      "example": "His quixotic quest to reform the system single-handedly was doomed to fail."
+    },
+    {
+      "id": "w37",
+      "word": "iconoclastic",
+      "pronunciation": "/aɪˌkɒnəˈklæstɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "criticizing or attacking cherished beliefs or institutions",
+      "translation": "인습타파적인, 우상파괴적인",
+      "example": "The scholar's iconoclastic views challenged centuries of traditional interpretation."
+    },
+    {
+      "id": "w38",
+      "word": "hegemonic",
+      "pronunciation": "/ˌheɡɪˈmɒnɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "relating to dominance or leadership, especially by one state over others",
+      "translation": "패권적인, 지배적인",
+      "example": "The empire's hegemonic influence extended across three continents."
+    },
+    {
+      "id": "w39",
+      "word": "deleterious",
+      "pronunciation": "/ˌdelɪˈtɪəriəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "causing harm or damage",
+      "translation": "유해한, 해로운",
+      "example": "The medication's deleterious side effects outweighed its benefits."
+    },
+    {
+      "id": "w40",
+      "word": "surreptitious",
+      "pronunciation": "/ˌsʌrəpˈtɪʃəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "kept secret, especially because it would not be approved of",
+      "translation": "은밀한, 몰래 하는",
+      "example": "She cast a surreptitious glance at the document on his desk."
+    },
+    {
+      "id": "w41",
+      "word": "truculent",
+      "pronunciation": "/ˈtrʌkjʊlənt/",
+      "partOfSpeech": "adjective",
+      "meaning": "eager or quick to argue or fight; aggressively defiant",
+      "translation": "호전적인, 사나운",
+      "example": "The diplomat's truculent response nearly derailed the negotiations."
+    },
+    {
+      "id": "w42",
+      "word": "propinquity",
+      "pronunciation": "/prəˈpɪŋkwɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "the state of being close to someone or something; proximity",
+      "translation": "근접, 유사성",
+      "example": "Their propinquity in the office led to a close friendship."
+    },
+    {
+      "id": "w43",
+      "word": "solipsistic",
+      "pronunciation": "/ˌsɒlɪpˈsɪstɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "characterized by extreme preoccupation with one's own thoughts and feelings",
+      "translation": "유아론적인, 자기중심적인",
+      "example": "His solipsistic worldview prevented him from understanding others' perspectives."
+    },
+    {
+      "id": "w44",
+      "word": "enervate",
+      "pronunciation": "/ˈenəveɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "to cause someone to feel drained of energy or vitality",
+      "translation": "기력을 빼앗다, 약화시키다",
+      "example": "The oppressive heat enervated even the most energetic workers."
+    },
+    {
+      "id": "w45",
+      "word": "fatuous",
+      "pronunciation": "/ˈfætʃuəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "silly and pointless; lacking intelligence",
+      "translation": "어리석은, 우둔한",
+      "example": "The politician's fatuous remarks demonstrated his ignorance of the issue."
+    },
+    {
+      "id": "w46",
+      "word": "turgid",
+      "pronunciation": "/ˈtɜːdʒɪd/",
+      "partOfSpeech": "adjective",
+      "meaning": "swollen or congested; pompous and bombastic in style",
+      "translation": "부푼, 과장된",
+      "example": "The professor's turgid prose made even simple concepts seem impenetrable."
+    },
+    {
+      "id": "w47",
+      "word": "scurrilous",
+      "pronunciation": "/ˈskʌrələs/",
+      "partOfSpeech": "adjective",
+      "meaning": "making or spreading scandalous claims about someone with intent to damage",
+      "translation": "중상하는, 천박한",
+      "example": "The tabloid published scurrilous accusations against the celebrity."
+    },
+    {
+      "id": "w48",
+      "word": "opprobrium",
+      "pronunciation": "/əˈprəʊbriəm/",
+      "partOfSpeech": "noun",
+      "meaning": "harsh criticism or censure; public disgrace",
+      "translation": "비난, 오명",
+      "example": "The scandal brought opprobrium upon the entire organization."
+    },
+    {
+      "id": "w49",
+      "word": "redolent",
+      "pronunciation": "/ˈredələnt/",
+      "partOfSpeech": "adjective",
+      "meaning": "strongly reminiscent or suggestive of something",
+      "translation": "연상시키는, 향기로운",
+      "example": "The old house was redolent of memories from childhood."
+    },
+    {
+      "id": "w50",
+      "word": "punctilious",
+      "pronunciation": "/pʌŋkˈtɪliəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "showing great attention to detail or correct behavior",
+      "translation": "세심한, 예의바른",
+      "example": "She was punctilious in observing all the formalities of diplomatic protocol."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "mc1",
+      "type": "multiple_choice",
+      "question": "The scholar's _____ analysis revealed subtle patterns that previous researchers had missed.",
+      "options": ["fatuous", "perspicacious", "obsequious", "torpid"],
+      "correctAnswer": "perspicacious",
+      "wordId": "w7"
+    },
+    {
+      "id": "mc2",
+      "type": "multiple_choice",
+      "question": "What does 'epistemological' mean?",
+      "options": ["relating to the theory of knowledge", "relating to moral philosophy", "relating to aesthetic beauty", "relating to political theory"],
+      "correctAnswer": "relating to the theory of knowledge",
+      "wordId": "w1"
+    },
+    {
+      "id": "mc3",
+      "type": "multiple_choice",
+      "question": "The politician's speech was criticized for its _____ nature, designed to obscure rather than clarify the issues.",
+      "options": ["mellifluous", "obfuscating", "perspicacious", "efficacious"],
+      "correctAnswer": "obfuscating",
+      "wordId": "w2"
+    },
+    {
+      "id": "mc4",
+      "type": "multiple_choice",
+      "question": "Their views on education were fundamentally _____; they could find no common ground.",
+      "options": ["propitious", "antithetical", "ubiquitous", "sanguine"],
+      "correctAnswer": "antithetical",
+      "wordId": "w3"
+    },
+    {
+      "id": "mc5",
+      "type": "multiple_choice",
+      "question": "The film critic _____ the director's latest work, calling it a betrayal of cinematic art.",
+      "options": ["ameliorated", "excoriated", "enervated", "obfuscated"],
+      "correctAnswer": "excoriated",
+      "wordId": "w4"
+    },
+    {
+      "id": "mc6",
+      "type": "multiple_choice",
+      "question": "What does 'quintessential' mean?",
+      "options": ["the most perfect example", "the least important", "somewhat unusual", "moderately successful"],
+      "correctAnswer": "the most perfect example",
+      "wordId": "w5"
+    },
+    {
+      "id": "mc7",
+      "type": "multiple_choice",
+      "question": "The new treatment aims to _____ the symptoms of the chronic illness.",
+      "options": ["excoriate", "obfuscate", "ameliorate", "enervate"],
+      "correctAnswer": "ameliorate",
+      "wordId": "w6"
+    },
+    {
+      "id": "mc8",
+      "type": "multiple_choice",
+      "question": "The philosopher's arguments were so _____ that only specialists could fully comprehend them.",
+      "options": ["jejune", "laconic", "recondite", "ubiquitous"],
+      "correctAnswer": "recondite",
+      "wordId": "w8"
+    },
+    {
+      "id": "mc9",
+      "type": "multiple_choice",
+      "question": "The treatment proved _____ in clinical trials, producing the desired outcomes.",
+      "options": ["efficacious", "deleterious", "fatuous", "obstreperous"],
+      "correctAnswer": "efficacious",
+      "wordId": "w9"
+    },
+    {
+      "id": "mc10",
+      "type": "multiple_choice",
+      "question": "The timing seemed _____ for launching the new business venture.",
+      "options": ["truculent", "propitious", "scurrilous", "turgid"],
+      "correctAnswer": "propitious",
+      "wordId": "w10"
+    },
+    {
+      "id": "mc11",
+      "type": "multiple_choice",
+      "question": "His _____ of the ancient text provided new insights into its meaning.",
+      "options": ["exegesis", "circumlocution", "opprobrium", "torpor"],
+      "correctAnswer": "exegesis",
+      "wordId": "w11"
+    },
+    {
+      "id": "mc12",
+      "type": "multiple_choice",
+      "question": "The beauty of the performance was _____; no words could adequately describe it.",
+      "options": ["didactic", "ineffable", "tendentious", "grandiloquent"],
+      "correctAnswer": "ineffable",
+      "wordId": "w12"
+    },
+    {
+      "id": "mc13",
+      "type": "multiple_choice",
+      "question": "The speaker's _____ frustrated the audience who wanted clear, direct answers.",
+      "options": ["verisimilitude", "exegesis", "circumlocution", "apotheosis"],
+      "correctAnswer": "circumlocution",
+      "wordId": "w13"
+    },
+    {
+      "id": "mc14",
+      "type": "multiple_choice",
+      "question": "What does 'didactic' mean?",
+      "options": ["intended to teach", "deliberately confusing", "extremely entertaining", "highly emotional"],
+      "correctAnswer": "intended to teach",
+      "wordId": "w14"
+    },
+    {
+      "id": "mc15",
+      "type": "multiple_choice",
+      "question": "The _____ advance of climate change demands immediate action.",
+      "options": ["vicarious", "surreptitious", "ineluctable", "insouciant"],
+      "correctAnswer": "ineluctable",
+      "wordId": "w15"
+    },
+    {
+      "id": "mc16",
+      "type": "multiple_choice",
+      "question": "The novel's _____ was compromised by several anachronistic details.",
+      "options": ["verisimilitude", "propinquity", "torpor", "opprobrium"],
+      "correctAnswer": "verisimilitude",
+      "wordId": "w16"
+    },
+    {
+      "id": "mc17",
+      "type": "multiple_choice",
+      "question": "The _____ space between waking and sleeping has fascinated psychologists.",
+      "options": ["liminal", "hegemonic", "solipsistic", "punctilious"],
+      "correctAnswer": "liminal",
+      "wordId": "w17"
+    },
+    {
+      "id": "mc18",
+      "type": "multiple_choice",
+      "question": "The city itself is a _____ of historical periods, each leaving its mark.",
+      "options": ["circumlocution", "palimpsest", "exegesis", "apotheosis"],
+      "correctAnswer": "palimpsest",
+      "wordId": "w18"
+    },
+    {
+      "id": "mc19",
+      "type": "multiple_choice",
+      "question": "The novelist's _____ vision of future technologies proved remarkably accurate.",
+      "options": ["fatuous", "obsequious", "prescient", "jejune"],
+      "correctAnswer": "prescient",
+      "wordId": "w19"
+    },
+    {
+      "id": "mc20",
+      "type": "multiple_choice",
+      "question": "This painting represents the _____ of the Impressionist movement.",
+      "options": ["torpor", "opprobrium", "apotheosis", "propinquity"],
+      "correctAnswer": "apotheosis",
+      "wordId": "w20"
+    },
+    {
+      "id": "mc21",
+      "type": "multiple_choice",
+      "question": "The _____ approach considers multiple possible interpretations of the text.",
+      "options": ["hermeneutic", "laconic", "obstreperous", "deleterious"],
+      "correctAnswer": "hermeneutic",
+      "wordId": "w21"
+    },
+    {
+      "id": "mc22",
+      "type": "multiple_choice",
+      "question": "Surveillance cameras have become _____ in urban environments.",
+      "options": ["recondite", "ubiquitous", "jejune", "redolent"],
+      "correctAnswer": "ubiquitous",
+      "wordId": "w22"
+    },
+    {
+      "id": "mc23",
+      "type": "multiple_choice",
+      "question": "His _____ behavior toward authority figures was seen as insincere.",
+      "options": ["truculent", "iconoclastic", "obsequious", "sagacious"],
+      "correctAnswer": "obsequious",
+      "wordId": "w23"
+    },
+    {
+      "id": "mc24",
+      "type": "multiple_choice",
+      "question": "She experienced _____ pleasure through reading about others' adventures.",
+      "options": ["vicarious", "ineluctable", "efficacious", "surreptitious"],
+      "correctAnswer": "vicarious",
+      "wordId": "w24"
+    },
+    {
+      "id": "mc25",
+      "type": "multiple_choice",
+      "question": "The singer's _____ voice enchanted everyone in the concert hall.",
+      "options": ["scurrilous", "turgid", "mellifluous", "tendentious"],
+      "correctAnswer": "mellifluous",
+      "wordId": "w25"
+    },
+    {
+      "id": "mc26",
+      "type": "multiple_choice",
+      "question": "Despite the setbacks, she remained _____ about future success.",
+      "options": ["truculent", "fatuous", "sanguine", "enervated"],
+      "correctAnswer": "sanguine",
+      "wordId": "w26"
+    },
+    {
+      "id": "mc27",
+      "type": "multiple_choice",
+      "question": "His _____ responses made it clear he didn't want to engage in conversation.",
+      "options": ["grandiloquent", "turgid", "laconic", "multifarious"],
+      "correctAnswer": "laconic",
+      "wordId": "w27"
+    },
+    {
+      "id": "mc28",
+      "type": "multiple_choice",
+      "question": "The _____ crowd refused to follow the security guards' instructions.",
+      "options": ["insouciant", "punctilious", "obstreperous", "mellifluous"],
+      "correctAnswer": "obstreperous",
+      "wordId": "w28"
+    },
+    {
+      "id": "mc29",
+      "type": "multiple_choice",
+      "question": "The _____ investor predicted the market crash months before it occurred.",
+      "options": ["jejune", "fatuous", "sagacious", "obsequious"],
+      "correctAnswer": "sagacious",
+      "wordId": "w29"
+    },
+    {
+      "id": "mc30",
+      "type": "multiple_choice",
+      "question": "The extreme heat induced a state of _____ among the workers.",
+      "options": ["apotheosis", "verisimilitude", "torpor", "propinquity"],
+      "correctAnswer": "torpor",
+      "wordId": "w30"
+    },
+    {
+      "id": "fb1",
+      "type": "fill_blank",
+      "question": "The analysis was dismissed as _____ and lacking intellectual depth.",
+      "correctAnswer": "jejune",
+      "wordId": "w31"
+    },
+    {
+      "id": "fb2",
+      "type": "fill_blank",
+      "question": "The historian's _____ interpretation promoted a particular political agenda.",
+      "correctAnswer": "tendentious",
+      "wordId": "w32"
+    },
+    {
+      "id": "fb3",
+      "type": "fill_blank",
+      "question": "His _____ speech was full of pompous language but little substance.",
+      "correctAnswer": "grandiloquent",
+      "wordId": "w33"
+    },
+    {
+      "id": "fb4",
+      "type": "fill_blank",
+      "question": "She possessed _____ talents ranging from linguistics to mathematics.",
+      "correctAnswer": "multifarious",
+      "wordId": "w34"
+    },
+    {
+      "id": "fb5",
+      "type": "fill_blank",
+      "question": "His _____ attitude toward serious matters concerned his supervisors.",
+      "correctAnswer": "insouciant",
+      "wordId": "w35"
+    },
+    {
+      "id": "fb6",
+      "type": "fill_blank",
+      "question": "The plan to solve world hunger single-handedly was hopelessly _____.",
+      "correctAnswer": "quixotic",
+      "wordId": "w36"
+    },
+    {
+      "id": "fb7",
+      "type": "fill_blank",
+      "question": "Her _____ theories challenged established academic orthodoxy.",
+      "correctAnswer": "iconoclastic",
+      "wordId": "w37"
+    },
+    {
+      "id": "fb8",
+      "type": "fill_blank",
+      "question": "The nation's _____ power influenced political developments worldwide.",
+      "correctAnswer": "hegemonic",
+      "wordId": "w38"
+    },
+    {
+      "id": "fb9",
+      "type": "fill_blank",
+      "question": "The chemical had _____ effects on the local ecosystem.",
+      "correctAnswer": "deleterious",
+      "wordId": "w39"
+    },
+    {
+      "id": "fb10",
+      "type": "fill_blank",
+      "question": "She took a _____ peek at the confidential report on his desk.",
+      "correctAnswer": "surreptitious",
+      "wordId": "w40"
+    },
+    {
+      "id": "fb11",
+      "type": "fill_blank",
+      "question": "His _____ manner made negotiations extremely difficult.",
+      "correctAnswer": "truculent",
+      "wordId": "w41"
+    },
+    {
+      "id": "fb12",
+      "type": "fill_blank",
+      "question": "The _____ of their offices led to frequent collaboration.",
+      "correctAnswer": "propinquity",
+      "wordId": "w42"
+    },
+    {
+      "id": "fb13",
+      "type": "fill_blank",
+      "question": "His _____ worldview prevented him from empathizing with others.",
+      "correctAnswer": "solipsistic",
+      "wordId": "w43"
+    },
+    {
+      "id": "fb14",
+      "type": "fill_blank",
+      "question": "The long illness began to _____ even his strongest supporters.",
+      "correctAnswer": "enervate",
+      "wordId": "w44"
+    },
+    {
+      "id": "fb15",
+      "type": "fill_blank",
+      "question": "The candidate's _____ comments revealed his lack of understanding.",
+      "correctAnswer": "fatuous",
+      "wordId": "w45"
+    },
+    {
+      "id": "fb16",
+      "type": "fill_blank",
+      "question": "The academic's _____ prose style alienated general readers.",
+      "correctAnswer": "turgid",
+      "wordId": "w46"
+    },
+    {
+      "id": "fb17",
+      "type": "fill_blank",
+      "question": "The newspaper printed _____ allegations without verifying the facts.",
+      "correctAnswer": "scurrilous",
+      "wordId": "w47"
+    },
+    {
+      "id": "fb18",
+      "type": "fill_blank",
+      "question": "The financial scandal brought _____ upon the company's executives.",
+      "correctAnswer": "opprobrium",
+      "wordId": "w48"
+    },
+    {
+      "id": "fb19",
+      "type": "fill_blank",
+      "question": "The old photographs were _____ of happier times.",
+      "correctAnswer": "redolent",
+      "wordId": "w49"
+    },
+    {
+      "id": "fb20",
+      "type": "fill_blank",
+      "question": "She was _____ in following every rule of etiquette.",
+      "correctAnswer": "punctilious",
+      "wordId": "w50"
+    },
+    {
+      "id": "fb21",
+      "type": "fill_blank",
+      "question": "The researcher's _____ framework examines how knowledge is constructed.",
+      "correctAnswer": "epistemological",
+      "wordId": "w1"
+    },
+    {
+      "id": "fb22",
+      "type": "fill_blank",
+      "question": "Legal jargon can _____ rather than clarify important issues.",
+      "correctAnswer": "obfuscate",
+      "wordId": "w2"
+    },
+    {
+      "id": "fb23",
+      "type": "fill_blank",
+      "question": "Their approaches to solving the problem were completely _____.",
+      "correctAnswer": "antithetical",
+      "wordId": "w3"
+    },
+    {
+      "id": "fb24",
+      "type": "fill_blank",
+      "question": "The reviewer did not hesitate to _____ the poorly researched book.",
+      "correctAnswer": "excoriate",
+      "wordId": "w4"
+    },
+    {
+      "id": "fb25",
+      "type": "fill_blank",
+      "question": "Mozart is considered the _____ classical composer by many music scholars.",
+      "correctAnswer": "quintessential",
+      "wordId": "w5"
+    },
+    {
+      "id": "fb26",
+      "type": "fill_blank",
+      "question": "Social programs were implemented to _____ poverty in urban areas.",
+      "correctAnswer": "ameliorate",
+      "wordId": "w6"
+    },
+    {
+      "id": "fb27",
+      "type": "fill_blank",
+      "question": "The detective's _____ observations led to solving the case.",
+      "correctAnswer": "perspicacious",
+      "wordId": "w7"
+    },
+    {
+      "id": "fb28",
+      "type": "fill_blank",
+      "question": "The lecture covered _____ philosophical concepts beyond most students' grasp.",
+      "correctAnswer": "recondite",
+      "wordId": "w8"
+    },
+    {
+      "id": "fb29",
+      "type": "fill_blank",
+      "question": "The vaccine proved highly _____ in preventing the disease.",
+      "correctAnswer": "efficacious",
+      "wordId": "w9"
+    },
+    {
+      "id": "fb30",
+      "type": "fill_blank",
+      "question": "The weather conditions were _____ for the outdoor festival.",
+      "correctAnswer": "propitious",
+      "wordId": "w10"
+    },
+    {
+      "id": "matching1",
+      "type": "matching",
+      "question": "Match the words with their meanings:",
+      "pairs": [
+        {"left": "exegesis", "right": "critical interpretation of a text"},
+        {"left": "ineffable", "right": "too great to be expressed in words"},
+        {"left": "circumlocution", "right": "using many words where fewer would do"},
+        {"left": "didactic", "right": "intended to teach or instruct"}
+      ],
+      "wordId": "w11"
+    },
+    {
+      "id": "matching2",
+      "type": "matching",
+      "question": "Match the words with their meanings:",
+      "pairs": [
+        {"left": "ineluctable", "right": "unable to be resisted or avoided"},
+        {"left": "verisimilitude", "right": "the appearance of being true"},
+        {"left": "liminal", "right": "occupying a boundary or threshold"},
+        {"left": "palimpsest", "right": "something with layers of meaning"}
+      ],
+      "wordId": "w15"
+    },
+    {
+      "id": "matching3",
+      "type": "matching",
+      "question": "Match the words with their meanings:",
+      "pairs": [
+        {"left": "prescient", "right": "having foresight or foreknowledge"},
+        {"left": "apotheosis", "right": "the highest point of development"},
+        {"left": "hermeneutic", "right": "concerning interpretation"},
+        {"left": "ubiquitous", "right": "present everywhere"}
+      ],
+      "wordId": "w19"
+    },
+    {
+      "id": "matching4",
+      "type": "matching",
+      "question": "Match the words with their meanings:",
+      "pairs": [
+        {"left": "obsequious", "right": "excessively obedient or attentive"},
+        {"left": "vicarious", "right": "experienced through another person"},
+        {"left": "mellifluous", "right": "sweet-sounding or musical"},
+        {"left": "sanguine", "right": "optimistic or confident"}
+      ],
+      "wordId": "w23"
+    },
+    {
+      "id": "matching5",
+      "type": "matching",
+      "question": "Match the words with their meanings:",
+      "pairs": [
+        {"left": "laconic", "right": "using very few words"},
+        {"left": "obstreperous", "right": "noisy and difficult to control"},
+        {"left": "sagacious", "right": "having keen judgment"},
+        {"left": "torpor", "right": "state of inactivity"}
+      ],
+      "wordId": "w27"
+    },
+    {
+      "id": "matching6",
+      "type": "matching",
+      "question": "Match the words with their meanings:",
+      "pairs": [
+        {"left": "jejune", "right": "naive or simplistic"},
+        {"left": "tendentious", "right": "promoting a particular viewpoint"},
+        {"left": "grandiloquent", "right": "pompous in language"},
+        {"left": "multifarious", "right": "many and various"}
+      ],
+      "wordId": "w31"
+    },
+    {
+      "id": "matching7",
+      "type": "matching",
+      "question": "Match the words with their meanings:",
+      "pairs": [
+        {"left": "insouciant", "right": "showing casual lack of concern"},
+        {"left": "quixotic", "right": "idealistic and unrealistic"},
+        {"left": "iconoclastic", "right": "attacking cherished beliefs"},
+        {"left": "hegemonic", "right": "relating to dominance"}
+      ],
+      "wordId": "w35"
+    },
+    {
+      "id": "matching8",
+      "type": "matching",
+      "question": "Match the words with their meanings:",
+      "pairs": [
+        {"left": "deleterious", "right": "causing harm"},
+        {"left": "surreptitious", "right": "kept secret"},
+        {"left": "truculent", "right": "aggressively defiant"},
+        {"left": "propinquity", "right": "nearness or proximity"}
+      ],
+      "wordId": "w39"
+    },
+    {
+      "id": "matching9",
+      "type": "matching",
+      "question": "Match the words with their meanings:",
+      "pairs": [
+        {"left": "solipsistic", "right": "self-centered worldview"},
+        {"left": "enervate", "right": "to drain of energy"},
+        {"left": "fatuous", "right": "silly and pointless"},
+        {"left": "turgid", "right": "pompous and bombastic"}
+      ],
+      "wordId": "w43"
+    },
+    {
+      "id": "matching10",
+      "type": "matching",
+      "question": "Match the words with their meanings:",
+      "pairs": [
+        {"left": "scurrilous", "right": "making scandalous claims"},
+        {"left": "opprobrium", "right": "harsh criticism or disgrace"},
+        {"left": "redolent", "right": "strongly reminiscent of"},
+        {"left": "punctilious", "right": "showing great attention to detail"}
+      ],
+      "wordId": "w47"
+    },
+    {
+      "id": "matching11",
+      "type": "matching",
+      "question": "Match the words with their meanings:",
+      "pairs": [
+        {"left": "epistemological", "right": "relating to theory of knowledge"},
+        {"left": "obfuscate", "right": "to make unclear"},
+        {"left": "antithetical", "right": "directly opposed"},
+        {"left": "excoriate", "right": "to criticize severely"}
+      ],
+      "wordId": "w1"
+    },
+    {
+      "id": "matching12",
+      "type": "matching",
+      "question": "Match the words with their meanings:",
+      "pairs": [
+        {"left": "quintessential", "right": "most perfect example"},
+        {"left": "ameliorate", "right": "to make better"},
+        {"left": "perspicacious", "right": "having keen perception"},
+        {"left": "recondite", "right": "dealing with profound subjects"}
+      ],
+      "wordId": "w5"
+    },
+    {
+      "id": "matching13",
+      "type": "matching",
+      "question": "Match the words with their meanings:",
+      "pairs": [
+        {"left": "efficacious", "right": "successful in producing results"},
+        {"left": "propitious", "right": "indicating good chance of success"},
+        {"left": "ineffable", "right": "beyond expression in words"},
+        {"left": "didactic", "right": "intended to teach"}
+      ],
+      "wordId": "w9"
+    },
+    {
+      "id": "matching14",
+      "type": "matching",
+      "question": "Match the advanced vocabulary:",
+      "pairs": [
+        {"left": "palimpsest", "right": "layered text or meaning"},
+        {"left": "exegesis", "right": "textual interpretation"},
+        {"left": "hermeneutic", "right": "interpretive method"},
+        {"left": "verisimilitude", "right": "appearance of truth"}
+      ],
+      "wordId": "w18"
+    },
+    {
+      "id": "matching15",
+      "type": "matching",
+      "question": "Match personality descriptors:",
+      "pairs": [
+        {"left": "obsequious", "right": "overly servile"},
+        {"left": "truculent", "right": "eager to fight"},
+        {"left": "sagacious", "right": "wise and discerning"},
+        {"left": "insouciant", "right": "casually indifferent"}
+      ],
+      "wordId": "w23"
+    },
+    {
+      "id": "matching16",
+      "type": "matching",
+      "question": "Match descriptive terms:",
+      "pairs": [
+        {"left": "mellifluous", "right": "sweet-sounding"},
+        {"left": "laconic", "right": "brief in speech"},
+        {"left": "grandiloquent", "right": "pompously eloquent"},
+        {"left": "turgid", "right": "inflated in style"}
+      ],
+      "wordId": "w25"
+    },
+    {
+      "id": "matching17",
+      "type": "matching",
+      "question": "Match conceptual terms:",
+      "pairs": [
+        {"left": "liminal", "right": "threshold state"},
+        {"left": "ineluctable", "right": "unavoidable"},
+        {"left": "vicarious", "right": "indirect experience"},
+        {"left": "apotheosis", "right": "highest development"}
+      ],
+      "wordId": "w17"
+    },
+    {
+      "id": "matching18",
+      "type": "matching",
+      "question": "Match critical terms:",
+      "pairs": [
+        {"left": "jejune", "right": "naive and simplistic"},
+        {"left": "fatuous", "right": "foolish and silly"},
+        {"left": "tendentious", "right": "biased toward a viewpoint"},
+        {"left": "scurrilous", "right": "containing scandalous claims"}
+      ],
+      "wordId": "w31"
+    },
+    {
+      "id": "matching19",
+      "type": "matching",
+      "question": "Match action verbs:",
+      "pairs": [
+        {"left": "ameliorate", "right": "improve conditions"},
+        {"left": "enervate", "right": "weaken or drain"},
+        {"left": "obfuscate", "right": "make unclear"},
+        {"left": "excoriate", "right": "harshly criticize"}
+      ],
+      "wordId": "w6"
+    },
+    {
+      "id": "matching20",
+      "type": "matching",
+      "question": "Match abstract concepts:",
+      "pairs": [
+        {"left": "propinquity", "right": "physical or conceptual nearness"},
+        {"left": "torpor", "right": "mental or physical lethargy"},
+        {"left": "opprobrium", "right": "public disgrace"},
+        {"left": "circumlocution", "right": "indirect expression"}
+      ],
+      "wordId": "w42"
+    },
+    {
+      "id": "matching21",
+      "type": "matching",
+      "question": "Match philosophical terms:",
+      "pairs": [
+        {"left": "epistemological", "right": "knowledge-related"},
+        {"left": "solipsistic", "right": "self-centered philosophy"},
+        {"left": "hermeneutic", "right": "interpretive approach"},
+        {"left": "iconoclastic", "right": "tradition-challenging"}
+      ],
+      "wordId": "w1"
+    },
+    {
+      "id": "matching22",
+      "type": "matching",
+      "question": "Match evaluative adjectives:",
+      "pairs": [
+        {"left": "efficacious", "right": "effectively productive"},
+        {"left": "deleterious", "right": "harmful"},
+        {"left": "propitious", "right": "favorable"},
+        {"left": "prescient", "right": "foresighted"}
+      ],
+      "wordId": "w9"
+    },
+    {
+      "id": "matching23",
+      "type": "matching",
+      "question": "Match behavioral descriptors:",
+      "pairs": [
+        {"left": "obstreperous", "right": "unruly and noisy"},
+        {"left": "punctilious", "right": "meticulously correct"},
+        {"left": "surreptitious", "right": "secretive"},
+        {"left": "sanguine", "right": "optimistically confident"}
+      ],
+      "wordId": "w28"
+    },
+    {
+      "id": "matching24",
+      "type": "matching",
+      "question": "Match stylistic terms:",
+      "pairs": [
+        {"left": "recondite", "right": "obscurely profound"},
+        {"left": "ubiquitous", "right": "everywhere present"},
+        {"left": "multifarious", "right": "greatly varied"},
+        {"left": "quintessential", "right": "perfectly typical"}
+      ],
+      "wordId": "w8"
+    },
+    {
+      "id": "matching25",
+      "type": "matching",
+      "question": "Match literary concepts:",
+      "pairs": [
+        {"left": "verisimilitude", "right": "realistic appearance"},
+        {"left": "palimpsest", "right": "layered composition"},
+        {"left": "exegesis", "right": "critical exposition"},
+        {"left": "ineffable", "right": "inexpressible quality"}
+      ],
+      "wordId": "w16"
+    },
+    {
+      "id": "matching26",
+      "type": "matching",
+      "question": "Match attitude descriptors:",
+      "pairs": [
+        {"left": "quixotic", "right": "unrealistically idealistic"},
+        {"left": "perspicacious", "right": "shrewdly perceptive"},
+        {"left": "insouciant", "right": "carefree and unconcerned"},
+        {"left": "truculent", "right": "aggressively hostile"}
+      ],
+      "wordId": "w36"
+    },
+    {
+      "id": "matching27",
+      "type": "matching",
+      "question": "Match expressive terms:",
+      "pairs": [
+        {"left": "redolent", "right": "evocative or suggestive"},
+        {"left": "didactic", "right": "instructional in intent"},
+        {"left": "antithetical", "right": "diametrically opposite"},
+        {"left": "hegemonic", "right": "dominantly influential"}
+      ],
+      "wordId": "w49"
+    },
+    {
+      "id": "matching28",
+      "type": "matching",
+      "question": "Match quality indicators:",
+      "pairs": [
+        {"left": "sagacious", "right": "wisely judicious"},
+        {"left": "fatuous", "right": "inanely foolish"},
+        {"left": "jejune", "right": "intellectually shallow"},
+        {"left": "perspicacious", "right": "insightfully acute"}
+      ],
+      "wordId": "w29"
+    },
+    {
+      "id": "matching29",
+      "type": "matching",
+      "question": "Match state descriptors:",
+      "pairs": [
+        {"left": "liminal", "right": "transitional phase"},
+        {"left": "torpor", "right": "sluggish inertia"},
+        {"left": "apotheosis", "right": "supreme culmination"},
+        {"left": "propinquity", "right": "close proximity"}
+      ],
+      "wordId": "w17"
+    },
+    {
+      "id": "matching30",
+      "type": "matching",
+      "question": "Match communication styles:",
+      "pairs": [
+        {"left": "laconic", "right": "tersely concise"},
+        {"left": "grandiloquent", "right": "pretentiously ornate"},
+        {"left": "turgid", "right": "densely overwrought"},
+        {"left": "circumlocution", "right": "verbosely indirect"}
+      ],
+      "wordId": "w27"
+    },
+    {
+      "id": "tr_ko_en1",
+      "type": "translation_ko_en",
+      "question": "인식론적인",
+      "correctAnswer": "epistemological",
+      "wordId": "w1"
+    },
+    {
+      "id": "tr_ko_en2",
+      "type": "translation_ko_en",
+      "question": "혼란시키다, 모호하게 하다",
+      "correctAnswer": "obfuscate",
+      "wordId": "w2"
+    },
+    {
+      "id": "tr_ko_en3",
+      "type": "translation_ko_en",
+      "question": "정반대의, 대조적인",
+      "correctAnswer": "antithetical",
+      "wordId": "w3"
+    },
+    {
+      "id": "tr_ko_en4",
+      "type": "translation_ko_en",
+      "question": "혹평하다, 신랄하게 비판하다",
+      "correctAnswer": "excoriate",
+      "wordId": "w4"
+    },
+    {
+      "id": "tr_ko_en5",
+      "type": "translation_ko_en",
+      "question": "전형적인, 정수의",
+      "correctAnswer": "quintessential",
+      "wordId": "w5"
+    },
+    {
+      "id": "tr_ko_en6",
+      "type": "translation_ko_en",
+      "question": "개선하다, 호전시키다",
+      "correctAnswer": "ameliorate",
+      "wordId": "w6"
+    },
+    {
+      "id": "tr_ko_en7",
+      "type": "translation_ko_en",
+      "question": "통찰력 있는, 예리한",
+      "correctAnswer": "perspicacious",
+      "wordId": "w7"
+    },
+    {
+      "id": "tr_ko_en8",
+      "type": "translation_ko_en",
+      "question": "심오한, 난해한",
+      "correctAnswer": "recondite",
+      "wordId": "w8"
+    },
+    {
+      "id": "tr_ko_en9",
+      "type": "translation_ko_en",
+      "question": "효과적인, 효험 있는",
+      "correctAnswer": "efficacious",
+      "wordId": "w9"
+    },
+    {
+      "id": "tr_ko_en10",
+      "type": "translation_ko_en",
+      "question": "유리한, 좋은 징조의",
+      "correctAnswer": "propitious",
+      "wordId": "w10"
+    },
+    {
+      "id": "tr_ko_en11",
+      "type": "translation_ko_en",
+      "question": "주석, 해석",
+      "correctAnswer": "exegesis",
+      "wordId": "w11"
+    },
+    {
+      "id": "tr_ko_en12",
+      "type": "translation_ko_en",
+      "question": "말로 표현할 수 없는",
+      "correctAnswer": "ineffable",
+      "wordId": "w12"
+    },
+    {
+      "id": "tr_ko_en13",
+      "type": "translation_ko_en",
+      "question": "우회적 표현, 에둘러 말하기",
+      "correctAnswer": "circumlocution",
+      "wordId": "w13"
+    },
+    {
+      "id": "tr_ko_en14",
+      "type": "translation_ko_en",
+      "question": "교훈적인, 설교조의",
+      "correctAnswer": "didactic",
+      "wordId": "w14"
+    },
+    {
+      "id": "tr_ko_en15",
+      "type": "translation_ko_en",
+      "question": "피할 수 없는, 불가피한",
+      "correctAnswer": "ineluctable",
+      "wordId": "w15"
+    },
+    {
+      "id": "tr_ko_en16",
+      "type": "translation_ko_en",
+      "question": "진실다움, 있음직함",
+      "correctAnswer": "verisimilitude",
+      "wordId": "w16"
+    },
+    {
+      "id": "tr_ko_en17",
+      "type": "translation_ko_en",
+      "question": "경계의, 문턱의",
+      "correctAnswer": "liminal",
+      "wordId": "w17"
+    },
+    {
+      "id": "tr_ko_en18",
+      "type": "translation_ko_en",
+      "question": "양피지 사본, 중층적 의미를 가진 것",
+      "correctAnswer": "palimpsest",
+      "wordId": "w18"
+    },
+    {
+      "id": "tr_ko_en19",
+      "type": "translation_ko_en",
+      "question": "선견지명이 있는",
+      "correctAnswer": "prescient",
+      "wordId": "w19"
+    },
+    {
+      "id": "tr_ko_en20",
+      "type": "translation_ko_en",
+      "question": "극치, 신격화",
+      "correctAnswer": "apotheosis",
+      "wordId": "w20"
+    },
+    {
+      "id": "tr_ko_en21",
+      "type": "translation_ko_en",
+      "question": "해석학의, 해석적인",
+      "correctAnswer": "hermeneutic",
+      "wordId": "w21"
+    },
+    {
+      "id": "tr_ko_en22",
+      "type": "translation_ko_en",
+      "question": "어디에나 있는, 편재하는",
+      "correctAnswer": "ubiquitous",
+      "wordId": "w22"
+    },
+    {
+      "id": "tr_ko_en23",
+      "type": "translation_ko_en",
+      "question": "아첨하는, 비굴한",
+      "correctAnswer": "obsequious",
+      "wordId": "w23"
+    },
+    {
+      "id": "tr_ko_en24",
+      "type": "translation_ko_en",
+      "question": "대리의, 간접 경험의",
+      "correctAnswer": "vicarious",
+      "wordId": "w24"
+    },
+    {
+      "id": "tr_ko_en25",
+      "type": "translation_ko_en",
+      "question": "달콤한, 듣기 좋은",
+      "correctAnswer": "mellifluous",
+      "wordId": "w25"
+    },
+    {
+      "id": "tr_ko_en26",
+      "type": "translation_ko_en",
+      "question": "낙관적인, 자신만만한",
+      "correctAnswer": "sanguine",
+      "wordId": "w26"
+    },
+    {
+      "id": "tr_ko_en27",
+      "type": "translation_ko_en",
+      "question": "간결한, 말수가 적은",
+      "correctAnswer": "laconic",
+      "wordId": "w27"
+    },
+    {
+      "id": "tr_ko_en28",
+      "type": "translation_ko_en",
+      "question": "소란스러운, 다루기 힘든",
+      "correctAnswer": "obstreperous",
+      "wordId": "w28"
+    },
+    {
+      "id": "tr_ko_en29",
+      "type": "translation_ko_en",
+      "question": "현명한, 분별력 있는",
+      "correctAnswer": "sagacious",
+      "wordId": "w29"
+    },
+    {
+      "id": "tr_ko_en30",
+      "type": "translation_ko_en",
+      "question": "무기력, 둔감",
+      "correctAnswer": "torpor",
+      "wordId": "w30"
+    },
+    {
+      "id": "tr_en_ko1",
+      "type": "translation_en_ko",
+      "question": "jejune",
+      "correctAnswer": "순진한, 피상적인",
+      "wordId": "w31"
+    },
+    {
+      "id": "tr_en_ko2",
+      "type": "translation_en_ko",
+      "question": "tendentious",
+      "correctAnswer": "편향된, 특정 주의를 선전하는",
+      "wordId": "w32"
+    },
+    {
+      "id": "tr_en_ko3",
+      "type": "translation_en_ko",
+      "question": "grandiloquent",
+      "correctAnswer": "과장된, 거창한",
+      "wordId": "w33"
+    },
+    {
+      "id": "tr_en_ko4",
+      "type": "translation_en_ko",
+      "question": "multifarious",
+      "correctAnswer": "다양한, 여러 종류의",
+      "wordId": "w34"
+    },
+    {
+      "id": "tr_en_ko5",
+      "type": "translation_en_ko",
+      "question": "insouciant",
+      "correctAnswer": "무관심한, 태평한",
+      "wordId": "w35"
+    },
+    {
+      "id": "tr_en_ko6",
+      "type": "translation_en_ko",
+      "question": "quixotic",
+      "correctAnswer": "공상적인, 비현실적인",
+      "wordId": "w36"
+    },
+    {
+      "id": "tr_en_ko7",
+      "type": "translation_en_ko",
+      "question": "iconoclastic",
+      "correctAnswer": "인습타파적인, 우상파괴적인",
+      "wordId": "w37"
+    },
+    {
+      "id": "tr_en_ko8",
+      "type": "translation_en_ko",
+      "question": "hegemonic",
+      "correctAnswer": "패권적인, 지배적인",
+      "wordId": "w38"
+    },
+    {
+      "id": "tr_en_ko9",
+      "type": "translation_en_ko",
+      "question": "deleterious",
+      "correctAnswer": "유해한, 해로운",
+      "wordId": "w39"
+    },
+    {
+      "id": "tr_en_ko10",
+      "type": "translation_en_ko",
+      "question": "surreptitious",
+      "correctAnswer": "은밀한, 몰래 하는",
+      "wordId": "w40"
+    },
+    {
+      "id": "tr_en_ko11",
+      "type": "translation_en_ko",
+      "question": "truculent",
+      "correctAnswer": "호전적인, 사나운",
+      "wordId": "w41"
+    },
+    {
+      "id": "tr_en_ko12",
+      "type": "translation_en_ko",
+      "question": "propinquity",
+      "correctAnswer": "근접, 유사성",
+      "wordId": "w42"
+    },
+    {
+      "id": "tr_en_ko13",
+      "type": "translation_en_ko",
+      "question": "solipsistic",
+      "correctAnswer": "유아론적인, 자기중심적인",
+      "wordId": "w43"
+    },
+    {
+      "id": "tr_en_ko14",
+      "type": "translation_en_ko",
+      "question": "enervate",
+      "correctAnswer": "기력을 빼앗다, 약화시키다",
+      "wordId": "w44"
+    },
+    {
+      "id": "tr_en_ko15",
+      "type": "translation_en_ko",
+      "question": "fatuous",
+      "correctAnswer": "어리석은, 우둔한",
+      "wordId": "w45"
+    },
+    {
+      "id": "tr_en_ko16",
+      "type": "translation_en_ko",
+      "question": "turgid",
+      "correctAnswer": "부푼, 과장된",
+      "wordId": "w46"
+    },
+    {
+      "id": "tr_en_ko17",
+      "type": "translation_en_ko",
+      "question": "scurrilous",
+      "correctAnswer": "중상하는, 천박한",
+      "wordId": "w47"
+    },
+    {
+      "id": "tr_en_ko18",
+      "type": "translation_en_ko",
+      "question": "opprobrium",
+      "correctAnswer": "비난, 오명",
+      "wordId": "w48"
+    },
+    {
+      "id": "tr_en_ko19",
+      "type": "translation_en_ko",
+      "question": "redolent",
+      "correctAnswer": "연상시키는, 향기로운",
+      "wordId": "w49"
+    },
+    {
+      "id": "tr_en_ko20",
+      "type": "translation_en_ko",
+      "question": "punctilious",
+      "correctAnswer": "세심한, 예의바른",
+      "wordId": "w50"
+    },
+    {
+      "id": "tr_en_ko21",
+      "type": "translation_en_ko",
+      "question": "epistemological",
+      "correctAnswer": "인식론적인",
+      "wordId": "w1"
+    },
+    {
+      "id": "tr_en_ko22",
+      "type": "translation_en_ko",
+      "question": "obfuscate",
+      "correctAnswer": "혼란시키다, 모호하게 하다",
+      "wordId": "w2"
+    },
+    {
+      "id": "tr_en_ko23",
+      "type": "translation_en_ko",
+      "question": "antithetical",
+      "correctAnswer": "정반대의, 대조적인",
+      "wordId": "w3"
+    },
+    {
+      "id": "tr_en_ko24",
+      "type": "translation_en_ko",
+      "question": "excoriate",
+      "correctAnswer": "혹평하다, 신랄하게 비판하다",
+      "wordId": "w4"
+    },
+    {
+      "id": "tr_en_ko25",
+      "type": "translation_en_ko",
+      "question": "quintessential",
+      "correctAnswer": "전형적인, 정수의",
+      "wordId": "w5"
+    },
+    {
+      "id": "tr_en_ko26",
+      "type": "translation_en_ko",
+      "question": "ameliorate",
+      "correctAnswer": "개선하다, 호전시키다",
+      "wordId": "w6"
+    },
+    {
+      "id": "tr_en_ko27",
+      "type": "translation_en_ko",
+      "question": "perspicacious",
+      "correctAnswer": "통찰력 있는, 예리한",
+      "wordId": "w7"
+    },
+    {
+      "id": "tr_en_ko28",
+      "type": "translation_en_ko",
+      "question": "recondite",
+      "correctAnswer": "심오한, 난해한",
+      "wordId": "w8"
+    },
+    {
+      "id": "tr_en_ko29",
+      "type": "translation_en_ko",
+      "question": "efficacious",
+      "correctAnswer": "효과적인, 효험 있는",
+      "wordId": "w9"
+    },
+    {
+      "id": "tr_en_ko30",
+      "type": "translation_en_ko",
+      "question": "propitious",
+      "correctAnswer": "유리한, 좋은 징조의",
+      "wordId": "w10"
     }
   ]
 }

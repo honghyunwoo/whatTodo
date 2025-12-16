@@ -5,104 +5,1840 @@
   "weekId": "week-3",
   "title": "Aesthetic and Literary Terminology",
   "description": "Specialized vocabulary for literary criticism and aesthetic theory",
-  "estimatedMinutes": 25,
+  "estimatedMinutes": 45,
   "xpReward": 55,
-  "items": [
+  "words": [
     {
-      "id": "c2-v3-1",
+      "id": "w1",
       "word": "palimpsest",
-      "definition": "A manuscript written over earlier writing; something bearing visible traces of its history",
       "pronunciation": "/ˈpælɪmpsest/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "중복 기록 양피지, 역사의 흔적",
-      "example": "The city is a palimpsest of architectural styles from different eras.",
-      "synonyms": ["layered text", "overwritten manuscript"],
-      "antonyms": ["tabula rasa", "blank slate"],
-      "collocations": ["cultural palimpsest", "historical palimpsest", "urban palimpsest"]
+      "meaning": "A manuscript written over earlier writing; something bearing visible traces of its history",
+      "translation": "중복 기록 양피지, 역사의 흔적",
+      "example": "The city is a palimpsest of architectural styles from different eras."
     },
     {
-      "id": "c2-v3-2",
+      "id": "w2",
       "word": "sublime",
-      "definition": "Of such excellence or grandeur as to inspire awe; in aesthetics, that which exceeds comprehension",
       "pronunciation": "/səˈblaɪm/",
-      "partOfSpeech": "adjective/noun",
-      "koreanMeaning": "숭고한, 장엄한",
-      "example": "Burke distinguished between the beautiful and the sublime, associating the latter with terror.",
-      "synonyms": ["transcendent", "majestic", "awe-inspiring"],
-      "antonyms": ["mundane", "ordinary", "beautiful (in Kantian terms)"],
-      "collocations": ["the sublime", "sublime experience", "natural sublime"]
+      "partOfSpeech": "adjective",
+      "meaning": "Of such excellence or grandeur as to inspire awe; in aesthetics, that which exceeds comprehension",
+      "translation": "숭고한, 장엄한",
+      "example": "Burke distinguished between the beautiful and the sublime, associating the latter with terror."
     },
     {
-      "id": "c2-v3-3",
+      "id": "w3",
       "word": "ekphrasis",
-      "definition": "A vivid literary description of a work of visual art",
       "pronunciation": "/ˈekfrəsɪs/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "예술작품의 문학적 묘사",
-      "example": "Keats's 'Ode on a Grecian Urn' is a celebrated example of ekphrasis.",
-      "synonyms": ["artistic description", "verbal representation of visual art"],
-      "antonyms": [],
-      "collocations": ["ekphrastic poetry", "ekphrastic tradition", "practice of ekphrasis"]
+      "meaning": "A vivid literary description of a work of visual art",
+      "translation": "예술작품의 문학적 묘사",
+      "example": "Keats's 'Ode on a Grecian Urn' is a celebrated example of ekphrasis."
     },
     {
-      "id": "c2-v3-4",
+      "id": "w4",
       "word": "liminal",
-      "definition": "Relating to a transitional or threshold stage; between states",
       "pronunciation": "/ˈlɪmɪnəl/",
       "partOfSpeech": "adjective",
-      "koreanMeaning": "문턱의, 경계의",
-      "example": "Adolescence occupies a liminal space between childhood and adulthood.",
-      "synonyms": ["transitional", "threshold", "in-between"],
-      "antonyms": ["central", "established", "fixed"],
-      "collocations": ["liminal space", "liminal state", "liminal experience"]
+      "meaning": "Relating to a transitional or threshold stage; between states",
+      "translation": "문턱의, 경계의",
+      "example": "Adolescence occupies a liminal space between childhood and adulthood."
     },
     {
-      "id": "c2-v3-5",
+      "id": "w5",
       "word": "verisimilitude",
-      "definition": "The appearance of being true or real; believability in fiction",
       "pronunciation": "/ˌverɪsɪˈmɪlɪtjuːd/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "진실성, 사실다움",
-      "example": "The novel's verisimilitude depends on its attention to period detail.",
-      "synonyms": ["believability", "plausibility", "authenticity"],
-      "antonyms": ["implausibility", "unreality"],
-      "collocations": ["narrative verisimilitude", "achieve verisimilitude", "sense of verisimilitude"]
+      "meaning": "The appearance of being true or real; believability in fiction",
+      "translation": "진실성, 사실다움",
+      "example": "The novel's verisimilitude depends on its attention to period detail."
     },
     {
-      "id": "c2-v3-6",
+      "id": "w6",
       "word": "defamiliarization",
-      "definition": "The artistic technique of presenting common things in unfamiliar ways to enhance perception",
       "pronunciation": "/diːfəˌmɪliəraɪˈzeɪʃən/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "낯설게 하기, 이화",
-      "example": "Shklovsky argued that defamiliarization is the essence of art.",
-      "synonyms": ["estrangement", "ostranenie"],
-      "antonyms": ["familiarization", "habituation"],
-      "collocations": ["technique of defamiliarization", "effect of defamiliarization", "achieve defamiliarization"]
+      "meaning": "The artistic technique of presenting common things in unfamiliar ways to enhance perception",
+      "translation": "낯설게 하기, 이화",
+      "example": "Shklovsky argued that defamiliarization is the essence of art."
     },
     {
-      "id": "c2-v3-7",
+      "id": "w7",
       "word": "heteroglossia",
-      "definition": "The coexistence of multiple varieties of speech or points of view within a text",
       "pronunciation": "/ˌhetərəˈɡlɒsiə/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "다성성, 다언어성",
-      "example": "Bakhtin celebrated the novel's capacity for heteroglossia.",
-      "synonyms": ["multi-voicedness", "dialogism"],
-      "antonyms": ["monoglossia", "univocality"],
-      "collocations": ["Bakhtinian heteroglossia", "novelistic heteroglossia", "social heteroglossia"]
+      "meaning": "The coexistence of multiple varieties of speech or points of view within a text",
+      "translation": "다성성, 다언어성",
+      "example": "Bakhtin celebrated the novel's capacity for heteroglossia."
     },
     {
-      "id": "c2-v3-8",
+      "id": "w8",
       "word": "apophatic",
-      "definition": "Relating to knowledge of God or ultimate reality obtained by negation; describing what something is not",
       "pronunciation": "/ˌæpəˈfætɪk/",
       "partOfSpeech": "adjective",
-      "koreanMeaning": "부정신학의, 부정적 방법의",
-      "example": "The apophatic tradition in mysticism approaches the divine through negation.",
-      "synonyms": ["negative", "via negativa"],
-      "antonyms": ["cataphatic", "positive"],
-      "collocations": ["apophatic theology", "apophatic approach", "apophatic tradition"]
+      "meaning": "Relating to knowledge obtained by negation; describing what something is not",
+      "translation": "부정신학의, 부정적 방법의",
+      "example": "The apophatic tradition in mysticism approaches the divine through negation."
+    },
+    {
+      "id": "w9",
+      "word": "hermeneutics",
+      "pronunciation": "/ˌhɜːmɪˈnjuːtɪks/",
+      "partOfSpeech": "noun",
+      "meaning": "The theory and methodology of interpretation, especially of biblical texts",
+      "translation": "해석학",
+      "example": "Gadamer's philosophical hermeneutics transformed our understanding of textual interpretation."
+    },
+    {
+      "id": "w10",
+      "word": "synecdoche",
+      "pronunciation": "/sɪˈnekdəki/",
+      "partOfSpeech": "noun",
+      "meaning": "A figure of speech in which a part represents the whole or vice versa",
+      "translation": "제유법",
+      "example": "Using 'wheels' to mean 'car' is a common synecdoche."
+    },
+    {
+      "id": "w11",
+      "word": "metonymy",
+      "pronunciation": "/mɪˈtɒnɪmi/",
+      "partOfSpeech": "noun",
+      "meaning": "A figure of speech in which something is referred to by something closely associated with it",
+      "translation": "환유법",
+      "example": "Saying 'the crown' to mean 'the monarchy' is metonymy."
+    },
+    {
+      "id": "w12",
+      "word": "chiasmus",
+      "pronunciation": "/kaɪˈæzməs/",
+      "partOfSpeech": "noun",
+      "meaning": "A rhetorical device in which two clauses are balanced against each other by reversing their structures",
+      "translation": "교차 배열법",
+      "example": "Kennedy's 'Ask not what your country can do for you' exemplifies chiasmus."
+    },
+    {
+      "id": "w13",
+      "word": "zeugma",
+      "pronunciation": "/ˈzjuːɡmə/",
+      "partOfSpeech": "noun",
+      "meaning": "A figure of speech in which a word applies to two others in different senses",
+      "translation": "겸용법",
+      "example": "She broke his car and his heart employs zeugma."
+    },
+    {
+      "id": "w14",
+      "word": "prosody",
+      "pronunciation": "/ˈprɒsədi/",
+      "partOfSpeech": "noun",
+      "meaning": "The patterns of rhythm and sound in poetry; the study of versification",
+      "translation": "운율학, 음률",
+      "example": "Hopkins's innovative prosody challenged Victorian poetic conventions."
+    },
+    {
+      "id": "w15",
+      "word": "enjambment",
+      "pronunciation": "/ɪnˈdʒæmmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "The continuation of a sentence without pause beyond the end of a line in poetry",
+      "translation": "구절 넘김, 행간 걸침",
+      "example": "Milton's use of enjambment creates a flowing, speech-like quality."
+    },
+    {
+      "id": "w16",
+      "word": "caesura",
+      "pronunciation": "/sɪˈzjʊərə/",
+      "partOfSpeech": "noun",
+      "meaning": "A pause or break in a line of poetry, often marked by punctuation",
+      "translation": "시행의 중간 휴지, 절단",
+      "example": "The caesura in this line emphasizes the contrast between the two clauses."
+    },
+    {
+      "id": "w17",
+      "word": "polysemy",
+      "pronunciation": "/pəˈlɪsɪmi/",
+      "partOfSpeech": "noun",
+      "meaning": "The coexistence of many possible meanings for a word or phrase",
+      "translation": "다의성",
+      "example": "The polysemy of 'bank' encompasses financial institutions and river edges."
+    },
+    {
+      "id": "w18",
+      "word": "aporia",
+      "pronunciation": "/əˈpɔːriə/",
+      "partOfSpeech": "noun",
+      "meaning": "A rhetorical expression of doubt; an irresolvable internal contradiction in a text",
+      "translation": "난문, 해결 불가능한 모순",
+      "example": "Derrida identified fundamental aporiae in Western philosophy."
+    },
+    {
+      "id": "w19",
+      "word": "deixis",
+      "pronunciation": "/ˈdaɪksɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "Words or phrases that cannot be understood without contextual information",
+      "translation": "직시, 지시",
+      "example": "Words like 'here,' 'now,' and 'this' are examples of deixis."
+    },
+    {
+      "id": "w20",
+      "word": "catachresis",
+      "pronunciation": "/ˌkætəˈkriːsɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "The use of a word in a way that is not correct; a mixed or strained metaphor",
+      "translation": "오용법, 어법 파괴",
+      "example": "To 'surf' the internet is a catachresis that has become conventional."
+    },
+    {
+      "id": "w21",
+      "word": "parataxis",
+      "pronunciation": "/ˌpærəˈtæksɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "The placing of clauses or phrases one after another without coordinating conjunctions",
+      "translation": "병렬법",
+      "example": "Hemingway's style features parataxis: short, simple sentences placed side by side."
+    },
+    {
+      "id": "w22",
+      "word": "hypotaxis",
+      "pronunciation": "/ˌhaɪpəˈtæksɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "The subordination of one clause to another, using conjunctions",
+      "translation": "종속법",
+      "example": "Henry James's prose exemplifies hypotaxis with its complex nested clauses."
+    },
+    {
+      "id": "w23",
+      "word": "mimesis",
+      "pronunciation": "/mɪˈmiːsɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "The imitation or representation of nature and human behavior in art and literature",
+      "translation": "모방, 재현",
+      "example": "Aristotle considered mimesis central to poetry and drama."
+    },
+    {
+      "id": "w24",
+      "word": "diegesis",
+      "pronunciation": "/ˌdaɪəˈdʒiːsɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "Narrative description; telling rather than showing in storytelling",
+      "translation": "서사적 묘사, 이야기하기",
+      "example": "The film shifts between diegesis and direct character dialogue."
+    },
+    {
+      "id": "w25",
+      "word": "anagnorisis",
+      "pronunciation": "/ˌænəɡˈnɒrɪsɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "The moment of recognition or discovery in a narrative, especially in tragedy",
+      "translation": "인식, 발견",
+      "example": "Oedipus's anagnorisis occurs when he realizes his true identity."
+    },
+    {
+      "id": "w26",
+      "word": "hamartia",
+      "pronunciation": "/ˌhɑːmɑːˈtiːə/",
+      "partOfSpeech": "noun",
+      "meaning": "The tragic flaw or error in judgment that leads to the protagonist's downfall",
+      "translation": "비극적 결함",
+      "example": "Othello's hamartia is his susceptibility to jealousy."
+    },
+    {
+      "id": "w27",
+      "word": "peripeteia",
+      "pronunciation": "/ˌperɪpɪˈtaɪə/",
+      "partOfSpeech": "noun",
+      "meaning": "A sudden reversal of fortune or change in circumstances in a narrative",
+      "translation": "급전, 반전",
+      "example": "The peripeteia occurs when the hero's fortunes suddenly reverse."
+    },
+    {
+      "id": "w28",
+      "word": "catharsis",
+      "pronunciation": "/kəˈθɑːsɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "The purification or purgation of emotions through art, especially tragedy",
+      "translation": "카타르시스, 정화",
+      "example": "Aristotle believed tragedy produces catharsis through pity and fear."
+    },
+    {
+      "id": "w29",
+      "word": "pathos",
+      "pronunciation": "/ˈpeɪθɒs/",
+      "partOfSpeech": "noun",
+      "meaning": "A quality that evokes pity or sadness; emotional appeal in rhetoric",
+      "translation": "파토스, 감정 호소",
+      "example": "The scene's pathos moved the audience to tears."
+    },
+    {
+      "id": "w30",
+      "word": "ethos",
+      "pronunciation": "/ˈiːθɒs/",
+      "partOfSpeech": "noun",
+      "meaning": "The characteristic spirit of a culture; credibility or ethical appeal in rhetoric",
+      "translation": "정신, 신뢰성",
+      "example": "The speaker established ethos through her demonstrated expertise."
+    },
+    {
+      "id": "w31",
+      "word": "logocentrism",
+      "pronunciation": "/ˌləʊɡəʊˈsentrɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The prioritization of speech over writing; focus on logic and reason in Western philosophy",
+      "translation": "로고스 중심주의",
+      "example": "Derrida critiqued Western philosophy's logocentrism."
+    },
+    {
+      "id": "w32",
+      "word": "phallogocentrism",
+      "pronunciation": "/fəˌləʊɡəʊˈsentrɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The privileging of the masculine in language and thought systems",
+      "translation": "남근 로고스 중심주의",
+      "example": "Feminist theorists have challenged philosophical phallogocentrism."
+    },
+    {
+      "id": "w33",
+      "word": "subaltern",
+      "pronunciation": "/səˈbɔːltən/",
+      "partOfSpeech": "noun",
+      "meaning": "A person or group of inferior rank or status; those outside hegemonic power structures",
+      "translation": "하위주체, 종속된 자",
+      "example": "Spivak's essay asks whether the subaltern can speak within dominant discourse."
+    },
+    {
+      "id": "w34",
+      "word": "hegemony",
+      "pronunciation": "/hɪˈɡeməni/",
+      "partOfSpeech": "noun",
+      "meaning": "Leadership or dominance, especially of one state or social group over others",
+      "translation": "헤게모니, 주도권",
+      "example": "Gramsci analyzed cultural hegemony in capitalist societies."
+    },
+    {
+      "id": "w35",
+      "word": "reification",
+      "pronunciation": "/ˌreɪɪfɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The act of treating an abstract concept as if it were a concrete thing",
+      "translation": "사물화, 구체화",
+      "example": "Lukács discussed the reification of human relations under capitalism."
+    },
+    {
+      "id": "w36",
+      "word": "hypostatization",
+      "pronunciation": "/haɪˌpɒstətaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The treatment of an abstract quality or concept as if it had concrete existence",
+      "translation": "실체화",
+      "example": "The hypostatization of 'Nature' as an agent is common in Romantic poetry."
+    },
+    {
+      "id": "w37",
+      "word": "syncretism",
+      "pronunciation": "/ˈsɪŋkrətɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The amalgamation or attempted reconciliation of different systems of belief",
+      "translation": "혼합주의, 융합",
+      "example": "The novel exhibits religious syncretism, blending Christian and pagan elements."
+    },
+    {
+      "id": "w38",
+      "word": "apperception",
+      "pronunciation": "/ˌæpəˈsepʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The mental process of understanding something through relating it to previous experience",
+      "translation": "통각, 의식적 지각",
+      "example": "Kant's theory of apperception explains how we organize sensory data."
+    },
+    {
+      "id": "w39",
+      "word": "noumenon",
+      "pronunciation": "/ˈnuːmɪnɒn/",
+      "partOfSpeech": "noun",
+      "meaning": "In Kantian philosophy, a thing as it is in itself, independent of perception",
+      "translation": "물자체, 본체",
+      "example": "Kant distinguished between phenomena (appearances) and noumena (things-in-themselves)."
+    },
+    {
+      "id": "w40",
+      "word": "phenomenology",
+      "pronunciation": "/fɪˌnɒmɪˈnɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "The philosophical study of the structures of experience and consciousness",
+      "translation": "현상학",
+      "example": "Husserl founded phenomenology as a rigorous philosophical method."
+    },
+    {
+      "id": "w41",
+      "word": "hermeneutic circle",
+      "pronunciation": "/ˌhɜːmɪˈnjuːtɪk ˈsɜːkəl/",
+      "partOfSpeech": "noun",
+      "meaning": "The idea that understanding parts depends on understanding the whole and vice versa",
+      "translation": "해석학적 순환",
+      "example": "The hermeneutic circle suggests interpretation is always circular and ongoing."
+    },
+    {
+      "id": "w42",
+      "word": "Zeitgeist",
+      "pronunciation": "/ˈzaɪtɡaɪst/",
+      "partOfSpeech": "noun",
+      "meaning": "The defining spirit or mood of a particular period of history",
+      "translation": "시대정신",
+      "example": "The novel captures the Zeitgeist of post-war disillusionment."
+    },
+    {
+      "id": "w43",
+      "word": "Weltanschauung",
+      "pronunciation": "/ˈveltˌɑːnʃaʊʊŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "A comprehensive worldview or philosophy; a particular philosophy of life",
+      "translation": "세계관",
+      "example": "Each literary movement reflects a distinct Weltanschauung."
+    },
+    {
+      "id": "w44",
+      "word": "élan vital",
+      "pronunciation": "/eɪˌlɑ̃ viˈtɑːl/",
+      "partOfSpeech": "noun",
+      "meaning": "The vital force or creative impulse in living things according to Bergson",
+      "translation": "생명의 약동, 생명력",
+      "example": "Bergson's concept of élan vital influenced modernist writers."
+    },
+    {
+      "id": "w45",
+      "word": "Gesamtkunstwerk",
+      "pronunciation": "/ɡəˈzamtˌkʊnstverk/",
+      "partOfSpeech": "noun",
+      "meaning": "A total work of art synthesizing multiple art forms into one unified aesthetic experience",
+      "translation": "총체 예술, 종합 예술",
+      "example": "Wagner conceived his operas as Gesamtkunstwerk, integrating music, drama, and visual arts."
+    },
+    {
+      "id": "w46",
+      "word": "mise-en-abyme",
+      "pronunciation": "/ˌmiːz ɑ̃n aˈbiːm/",
+      "partOfSpeech": "noun",
+      "meaning": "A formal technique of placing a copy of an image within itself; infinite regression",
+      "translation": "액자식 구성, 무한 회귀",
+      "example": "The play-within-a-play in Hamlet is a classic mise-en-abyme."
+    },
+    {
+      "id": "w47",
+      "word": "jouissance",
+      "pronunciation": "/ʒwiˈsɑ̃s/",
+      "partOfSpeech": "noun",
+      "meaning": "In Lacanian theory, pleasure beyond the pleasure principle; ecstatic enjoyment",
+      "translation": "쥬이상스, 향락",
+      "example": "Barthes distinguished between plaisir and jouissance in reading."
+    },
+    {
+      "id": "w48",
+      "word": "pharmakon",
+      "pronunciation": "/ˈfɑːməkɒn/",
+      "partOfSpeech": "noun",
+      "meaning": "Something that is simultaneously remedy and poison; Derrida's term for undecidable concepts",
+      "translation": "약이자 독",
+      "example": "Writing functions as pharmakon—both aid and threat to memory."
+    },
+    {
+      "id": "w49",
+      "word": "différance",
+      "pronunciation": "/difeˈrɑ̃s/",
+      "partOfSpeech": "noun",
+      "meaning": "Derrida's neologism combining difference and deferral; the endless play of meaning",
+      "translation": "차연",
+      "example": "Différance describes how meaning is always deferred and differential."
+    },
+    {
+      "id": "w50",
+      "word": "apothegm",
+      "pronunciation": "/ˈæpəθem/",
+      "partOfSpeech": "noun",
+      "meaning": "A concise, instructive saying; a terse formulation of a truth or sentiment",
+      "translation": "격언, 금언",
+      "example": "Blake's poetry contains memorable apothegms like 'The road of excess leads to the palace of wisdom.'"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "What does 'palimpsest' literally refer to?",
+      "options": [
+        "A manuscript written over earlier writing",
+        "An ancient scroll",
+        "A decorative border",
+        "A type of medieval book"
+      ],
+      "correctAnswer": 0,
+      "wordId": "w1"
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "In aesthetic theory, what does 'sublime' describe?",
+      "options": [
+        "Something pleasant and beautiful",
+        "Something that inspires awe and exceeds comprehension",
+        "Something orderly and symmetrical",
+        "Something small and delicate"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w2"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "What is ekphrasis?",
+      "options": [
+        "A type of sculpture",
+        "A literary description of visual art",
+        "A painting technique",
+        "A musical form"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w3"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "What does 'liminal' mean?",
+      "options": [
+        "Central and established",
+        "Ancient and historical",
+        "Transitional or threshold",
+        "Final and conclusive"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w4"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "Verisimilitude in literature refers to:",
+      "options": [
+        "Historical accuracy",
+        "The appearance of being true or believable",
+        "Moral truthfulness",
+        "Scientific precision"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w5"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "Who is most associated with the concept of defamiliarization?",
+      "options": [
+        "Bakhtin",
+        "Derrida",
+        "Shklovsky",
+        "Foucault"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w6"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "Heteroglossia describes:",
+      "options": [
+        "Multiple languages in a text",
+        "Multiple voices or varieties of speech",
+        "Foreign words",
+        "Difficult vocabulary"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w7"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "Apophatic theology approaches the divine through:",
+      "options": [
+        "Positive affirmations",
+        "Negation and describing what it is not",
+        "Visual imagery",
+        "Mathematical proofs"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w8"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "What is hermeneutics?",
+      "options": [
+        "The study of hermits",
+        "The theory and methodology of interpretation",
+        "Ancient Greek medicine",
+        "A type of poetry"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w9"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "'Wheels' meaning 'car' is an example of:",
+      "options": [
+        "Metaphor",
+        "Simile",
+        "Synecdoche",
+        "Hyperbole"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w10"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "Metonymy involves:",
+      "options": [
+        "Direct comparison",
+        "Exaggeration",
+        "Reference through close association",
+        "Repetition"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w11"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "Chiasmus is characterized by:",
+      "options": [
+        "Repetition of sounds",
+        "Reversal of grammatical structures",
+        "Use of metaphors",
+        "Complex sentences"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w12"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "What does prosody study?",
+      "options": [
+        "Prose writing",
+        "Rhythm and sound patterns in poetry",
+        "Drama structure",
+        "Character development"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w14"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "Enjambment occurs when:",
+      "options": [
+        "A line ends with punctuation",
+        "A sentence continues beyond the line break",
+        "Words rhyme",
+        "Stanzas repeat"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w15"
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "A caesura is:",
+      "options": [
+        "A rhyme scheme",
+        "A pause within a line of poetry",
+        "A type of stanza",
+        "A poetic meter"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w16"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "Polysemy refers to:",
+      "options": [
+        "Multiple authors",
+        "Multiple meanings of a word",
+        "Multiple languages",
+        "Multiple genres"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w17"
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "In Derrida's work, aporia represents:",
+      "options": [
+        "A clear solution",
+        "An irresolvable contradiction",
+        "A type of argument",
+        "A logical proof"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w18"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "Words like 'here,' 'now,' and 'this' are examples of:",
+      "options": [
+        "Pronouns",
+        "Deixis",
+        "Conjunctions",
+        "Prepositions"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w19"
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "Parataxis is characterized by:",
+      "options": [
+        "Complex subordination",
+        "Simple clauses placed side by side",
+        "Long, flowing sentences",
+        "Heavy use of adjectives"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w21"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "Mimesis in Aristotelian theory means:",
+      "options": [
+        "Abstract expression",
+        "Imitation or representation of nature",
+        "Pure imagination",
+        "Mathematical precision"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w23"
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "Anagnorisis in tragedy is:",
+      "options": [
+        "The opening scene",
+        "The moment of recognition or discovery",
+        "The final resolution",
+        "The comic relief"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w25"
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "Hamartia refers to:",
+      "options": [
+        "The hero's virtue",
+        "The tragic flaw",
+        "The happy ending",
+        "The chorus"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w26"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "Catharsis in tragedy produces:",
+      "options": [
+        "Confusion",
+        "Emotional purification",
+        "Moral corruption",
+        "Intellectual doubt"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w28"
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "Who critiqued Western philosophy's logocentrism?",
+      "options": [
+        "Plato",
+        "Aristotle",
+        "Derrida",
+        "Kant"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w31"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "Reification involves:",
+      "options": [
+        "Simplification",
+        "Treating abstractions as concrete things",
+        "Exaggeration",
+        "Minimization"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w35"
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "In Kantian philosophy, a noumenon is:",
+      "options": [
+        "A sensory experience",
+        "A thing as it appears",
+        "A thing as it is in itself",
+        "A mental construct"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w39"
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "The hermeneutic circle suggests that:",
+      "options": [
+        "Interpretation is straightforward",
+        "Understanding parts requires understanding the whole and vice versa",
+        "Only experts can interpret texts",
+        "Meaning is fixed and unchanging"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w41"
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "Zeitgeist means:",
+      "options": [
+        "A ghost story",
+        "The spirit of a particular time period",
+        "A type of philosophy",
+        "A German literary movement"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w42"
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "Gesamtkunstwerk refers to:",
+      "options": [
+        "A single art form",
+        "A total work of art synthesizing multiple forms",
+        "A museum",
+        "An art movement"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w45"
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "Derrida's pharmakon represents something that is:",
+      "options": [
+        "Purely beneficial",
+        "Purely harmful",
+        "Both remedy and poison",
+        "Neutral"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w48"
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "question": "The ancient city is a _____ of different civilizations, each layer revealing traces of the past.",
+      "correctAnswer": "palimpsest",
+      "wordId": "w1"
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "question": "The mountain's _____ beauty inspired both terror and awe in the Romantic poets.",
+      "correctAnswer": "sublime",
+      "wordId": "w2"
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "question": "The poet's _____ vividly describes the details of Brueghel's painting.",
+      "correctAnswer": "ekphrasis",
+      "wordId": "w3"
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "Graduation represents a _____ moment between student life and professional career.",
+      "correctAnswer": "liminal",
+      "wordId": "w4"
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "The historical novel achieves _____ through meticulous research and authentic details.",
+      "correctAnswer": "verisimilitude",
+      "wordId": "w5"
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "The artist employs _____ to make viewers see ordinary objects in a completely new way.",
+      "correctAnswer": "defamiliarization",
+      "wordId": "w6"
+    },
+    {
+      "id": "ex37",
+      "type": "fill_blank",
+      "question": "Bakhtin praised Dostoevsky's novels for their _____, the multitude of independent voices.",
+      "correctAnswer": "heteroglossia",
+      "wordId": "w7"
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "Gadamer's _____ revolutionized our understanding of how we interpret texts and traditions.",
+      "correctAnswer": "hermeneutics",
+      "wordId": "w9"
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "question": "Using 'the crown' to refer to the monarchy is an example of _____.",
+      "correctAnswer": "metonymy",
+      "wordId": "w11"
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "Kennedy's famous line exemplifies _____ through its reversed parallel structure.",
+      "correctAnswer": "chiasmus",
+      "wordId": "w12"
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "The poet's innovative _____ broke with traditional metrical conventions.",
+      "correctAnswer": "prosody",
+      "wordId": "w14"
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "Milton's use of _____ allows sentences to flow across multiple lines without pause.",
+      "correctAnswer": "enjambment",
+      "wordId": "w15"
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "The _____ in the middle of the line creates a dramatic pause for emphasis.",
+      "correctAnswer": "caesura",
+      "wordId": "w16"
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "The _____ of the word 'run' allows it to mean both to jog and to operate.",
+      "correctAnswer": "polysemy",
+      "wordId": "w17"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "Derrida identified fundamental _____ in the logic of presence and absence.",
+      "correctAnswer": "aporia",
+      "wordId": "w18"
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "The study of _____ examines how words like 'yesterday' and 'there' depend on context.",
+      "correctAnswer": "deixis",
+      "wordId": "w19"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "Hemingway's style features _____, placing short, simple sentences one after another.",
+      "correctAnswer": "parataxis",
+      "wordId": "w21"
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "Henry James's prose exemplifies _____ with its complex subordinate clauses.",
+      "correctAnswer": "hypotaxis",
+      "wordId": "w22"
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "Aristotle considered _____ essential to poetry, as art imitates life.",
+      "correctAnswer": "mimesis",
+      "wordId": "w23"
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "The narrator employs _____ rather than showing scenes through dialogue and action.",
+      "correctAnswer": "diegesis",
+      "wordId": "w24"
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "The protagonist's _____ occurs when she discovers the truth about her origins.",
+      "correctAnswer": "anagnorisis",
+      "wordId": "w25"
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "Macbeth's _____ is his overwhelming ambition that leads to his downfall.",
+      "correctAnswer": "hamartia",
+      "wordId": "w26"
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "The _____ happens when the detective's success suddenly turns into disaster.",
+      "correctAnswer": "peripeteia",
+      "wordId": "w27"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "Aristotle believed tragedy achieves _____ by purging the audience's emotions.",
+      "correctAnswer": "catharsis",
+      "wordId": "w28"
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "The abandoned puppy's _____ moved viewers to donate generously.",
+      "correctAnswer": "pathos",
+      "wordId": "w29"
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "The speaker established _____ by demonstrating extensive knowledge and experience.",
+      "correctAnswer": "ethos",
+      "wordId": "w30"
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "Poststructuralists critique Western philosophy's _____, its privileging of speech and reason.",
+      "correctAnswer": "logocentrism",
+      "wordId": "w31"
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "Spivak's essay explores whether the _____ can speak within dominant power structures.",
+      "correctAnswer": "subaltern",
+      "wordId": "w33"
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "Gramsci analyzed cultural _____, examining how dominant groups maintain power through consent.",
+      "correctAnswer": "hegemony",
+      "wordId": "w34"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "Marx critiqued the _____ of labor, where human work becomes a commodity.",
+      "correctAnswer": "reification",
+      "wordId": "w35"
+    },
+    {
+      "id": "ex61",
+      "type": "matching",
+      "question": "Match the literary terms with their definitions:",
+      "pairs": [
+        { "left": "palimpsest", "right": "Manuscript with visible traces of earlier writing" },
+        { "left": "ekphrasis", "right": "Literary description of visual art" },
+        { "left": "liminal", "right": "Transitional or threshold state" },
+        { "left": "verisimilitude", "right": "Appearance of being true or believable" }
+      ],
+      "wordId": "w1"
+    },
+    {
+      "id": "ex62",
+      "type": "matching",
+      "question": "Match the rhetorical devices with their descriptions:",
+      "pairs": [
+        { "left": "synecdoche", "right": "Part represents the whole" },
+        { "left": "metonymy", "right": "Reference through close association" },
+        { "left": "chiasmus", "right": "Reversed parallel structure" },
+        { "left": "zeugma", "right": "One word applies in different senses" }
+      ],
+      "wordId": "w10"
+    },
+    {
+      "id": "ex63",
+      "type": "matching",
+      "question": "Match the poetic terms with their meanings:",
+      "pairs": [
+        { "left": "prosody", "right": "Study of rhythm and sound in poetry" },
+        { "left": "enjambment", "right": "Sentence continues beyond line break" },
+        { "left": "caesura", "right": "Pause within a line of poetry" },
+        { "left": "polysemy", "right": "Multiple meanings of a word" }
+      ],
+      "wordId": "w14"
+    },
+    {
+      "id": "ex64",
+      "type": "matching",
+      "question": "Match the narrative terms with their definitions:",
+      "pairs": [
+        { "left": "mimesis", "right": "Imitation or representation of nature" },
+        { "left": "diegesis", "right": "Narrative description or telling" },
+        { "left": "anagnorisis", "right": "Moment of recognition in narrative" },
+        { "left": "peripeteia", "right": "Sudden reversal of fortune" }
+      ],
+      "wordId": "w23"
+    },
+    {
+      "id": "ex65",
+      "type": "matching",
+      "question": "Match the tragic elements with their descriptions:",
+      "pairs": [
+        { "left": "hamartia", "right": "Tragic flaw or error" },
+        { "left": "catharsis", "right": "Emotional purification" },
+        { "left": "pathos", "right": "Quality evoking pity or sadness" },
+        { "left": "ethos", "right": "Credibility or ethical appeal" }
+      ],
+      "wordId": "w26"
+    },
+    {
+      "id": "ex66",
+      "type": "matching",
+      "question": "Match the philosophical terms with their meanings:",
+      "pairs": [
+        { "left": "logocentrism", "right": "Privileging of speech and reason" },
+        { "left": "hegemony", "right": "Dominance of one group over others" },
+        { "left": "reification", "right": "Treating abstractions as concrete" },
+        { "left": "phenomenology", "right": "Study of structures of consciousness" }
+      ],
+      "wordId": "w31"
+    },
+    {
+      "id": "ex67",
+      "type": "matching",
+      "question": "Match the Kantian concepts:",
+      "pairs": [
+        { "left": "noumenon", "right": "Thing as it is in itself" },
+        { "left": "apperception", "right": "Understanding through previous experience" },
+        { "left": "sublime", "right": "That which exceeds comprehension" },
+        { "left": "hermeneutic circle", "right": "Part-whole interdependence in interpretation" }
+      ],
+      "wordId": "w39"
+    },
+    {
+      "id": "ex68",
+      "type": "matching",
+      "question": "Match the German philosophical terms:",
+      "pairs": [
+        { "left": "Zeitgeist", "right": "Spirit of a time period" },
+        { "left": "Weltanschauung", "right": "Comprehensive worldview" },
+        { "left": "Gesamtkunstwerk", "right": "Total synthesis of art forms" },
+        { "left": "élan vital", "right": "Vital creative force in living things" }
+      ],
+      "wordId": "w42"
+    },
+    {
+      "id": "ex69",
+      "type": "matching",
+      "question": "Match the poststructural concepts:",
+      "pairs": [
+        { "left": "aporia", "right": "Irresolvable contradiction" },
+        { "left": "pharmakon", "right": "Both remedy and poison" },
+        { "left": "différance", "right": "Difference and deferral of meaning" },
+        { "left": "jouissance", "right": "Pleasure beyond pleasure principle" }
+      ],
+      "wordId": "w18"
+    },
+    {
+      "id": "ex70",
+      "type": "matching",
+      "question": "Match the Russian formalist concepts:",
+      "pairs": [
+        { "left": "defamiliarization", "right": "Making the familiar strange" },
+        { "left": "heteroglossia", "right": "Multiple voices in text" },
+        { "left": "parataxis", "right": "Clauses without conjunctions" },
+        { "left": "hypotaxis", "right": "Subordination using conjunctions" }
+      ],
+      "wordId": "w6"
+    },
+    {
+      "id": "ex71",
+      "type": "matching",
+      "question": "Match the aesthetic theories:",
+      "pairs": [
+        { "left": "sublime", "right": "Awe-inspiring grandeur" },
+        { "left": "catharsis", "right": "Emotional purification through art" },
+        { "left": "mimesis", "right": "Imitation of nature" },
+        { "left": "ekphrasis", "right": "Verbal representation of visual art" }
+      ],
+      "wordId": "w2"
+    },
+    {
+      "id": "ex72",
+      "type": "matching",
+      "question": "Match the linguistic concepts:",
+      "pairs": [
+        { "left": "deixis", "right": "Context-dependent reference" },
+        { "left": "polysemy", "right": "Multiple meanings" },
+        { "left": "catachresis", "right": "Misuse or strained metaphor" },
+        { "left": "apothegm", "right": "Concise instructive saying" }
+      ],
+      "wordId": "w19"
+    },
+    {
+      "id": "ex73",
+      "type": "matching",
+      "question": "Match the critical theory terms:",
+      "pairs": [
+        { "left": "subaltern", "right": "Those outside hegemonic power" },
+        { "left": "phallogocentrism", "right": "Privileging of masculine in thought" },
+        { "left": "syncretism", "right": "Amalgamation of belief systems" },
+        { "left": "hypostatization", "right": "Treating concepts as concrete" }
+      ],
+      "wordId": "w33"
+    },
+    {
+      "id": "ex74",
+      "type": "matching",
+      "question": "Match the narrative techniques:",
+      "pairs": [
+        { "left": "mise-en-abyme", "right": "Image within itself; infinite regression" },
+        { "left": "verisimilitude", "right": "Believability in fiction" },
+        { "left": "diegesis", "right": "Narrative telling vs. showing" },
+        { "left": "palimpsest", "right": "Layered text with visible history" }
+      ],
+      "wordId": "w46"
+    },
+    {
+      "id": "ex75",
+      "type": "matching",
+      "question": "Match the hermeneutic concepts:",
+      "pairs": [
+        { "left": "hermeneutics", "right": "Theory of interpretation" },
+        { "left": "hermeneutic circle", "right": "Part-whole interpretive relationship" },
+        { "left": "apperception", "right": "Understanding via prior experience" },
+        { "left": "phenomenology", "right": "Study of consciousness structures" }
+      ],
+      "wordId": "w9"
+    },
+    {
+      "id": "ex76",
+      "type": "matching",
+      "question": "Match the syntactic structures:",
+      "pairs": [
+        { "left": "parataxis", "right": "Simple clauses side by side" },
+        { "left": "hypotaxis", "right": "Complex subordination" },
+        { "left": "enjambment", "right": "Line break without pause" },
+        { "left": "caesura", "right": "Pause within line" }
+      ],
+      "wordId": "w21"
+    },
+    {
+      "id": "ex77",
+      "type": "matching",
+      "question": "Match the French theoretical terms:",
+      "pairs": [
+        { "left": "jouissance", "right": "Ecstatic enjoyment beyond pleasure" },
+        { "left": "différance", "right": "Play of difference and deferral" },
+        { "left": "mise-en-abyme", "right": "Recursive structure" },
+        { "left": "élan vital", "right": "Creative life force" }
+      ],
+      "wordId": "w47"
+    },
+    {
+      "id": "ex78",
+      "type": "matching",
+      "question": "Match the classical concepts:",
+      "pairs": [
+        { "left": "anagnorisis", "right": "Recognition scene" },
+        { "left": "hamartia", "right": "Tragic flaw" },
+        { "left": "peripeteia", "right": "Reversal of fortune" },
+        { "left": "catharsis", "right": "Purgation of emotions" }
+      ],
+      "wordId": "w25"
+    },
+    {
+      "id": "ex79",
+      "type": "matching",
+      "question": "Match the rhetorical appeals:",
+      "pairs": [
+        { "left": "ethos", "right": "Appeal to credibility" },
+        { "left": "pathos", "right": "Appeal to emotion" },
+        { "left": "apothegm", "right": "Terse formulation of truth" },
+        { "left": "apophatic", "right": "Definition by negation" }
+      ],
+      "wordId": "w30"
+    },
+    {
+      "id": "ex80",
+      "type": "matching",
+      "question": "Match the worldview concepts:",
+      "pairs": [
+        { "left": "Weltanschauung", "right": "Comprehensive philosophy of life" },
+        { "left": "Zeitgeist", "right": "Spirit of an era" },
+        { "left": "Gesamtkunstwerk", "right": "Unified total artwork" },
+        { "left": "syncretism", "right": "Fusion of belief systems" }
+      ],
+      "wordId": "w43"
+    },
+    {
+      "id": "ex81",
+      "type": "matching",
+      "question": "Match the deconstructive terms:",
+      "pairs": [
+        { "left": "pharmakon", "right": "Undecidable remedy/poison" },
+        { "left": "aporia", "right": "Internal contradiction" },
+        { "left": "logocentrism", "right": "Privilege of speech/reason" },
+        { "left": "différance", "right": "Endless deferral of meaning" }
+      ],
+      "wordId": "w48"
+    },
+    {
+      "id": "ex82",
+      "type": "matching",
+      "question": "Match the literary devices:",
+      "pairs": [
+        { "left": "synecdoche", "right": "Part for whole" },
+        { "left": "metonymy", "right": "Associated term substitution" },
+        { "left": "catachresis", "right": "Strained metaphor" },
+        { "left": "chiasmus", "right": "Inverted parallelism" }
+      ],
+      "wordId": "w10"
+    },
+    {
+      "id": "ex83",
+      "type": "matching",
+      "question": "Match the temporal concepts:",
+      "pairs": [
+        { "left": "liminal", "right": "Threshold transitional state" },
+        { "left": "Zeitgeist", "right": "Historical period's spirit" },
+        { "left": "palimpsest", "right": "Visible historical traces" },
+        { "left": "apperception", "right": "Experience-based understanding" }
+      ],
+      "wordId": "w4"
+    },
+    {
+      "id": "ex84",
+      "type": "matching",
+      "question": "Match the power-related concepts:",
+      "pairs": [
+        { "left": "hegemony", "right": "Cultural dominance" },
+        { "left": "subaltern", "right": "Subordinated groups" },
+        { "left": "phallogocentrism", "right": "Masculine privilege in thought" },
+        { "left": "reification", "right": "Abstraction made concrete" }
+      ],
+      "wordId": "w34"
+    },
+    {
+      "id": "ex85",
+      "type": "matching",
+      "question": "Match the interpretive methods:",
+      "pairs": [
+        { "left": "hermeneutics", "right": "Interpretation methodology" },
+        { "left": "apophatic", "right": "Via negativa approach" },
+        { "left": "phenomenology", "right": "Consciousness study method" },
+        { "left": "hermeneutic circle", "right": "Circular interpretive process" }
+      ],
+      "wordId": "w9"
+    },
+    {
+      "id": "ex86",
+      "type": "matching",
+      "question": "Match the poetic techniques:",
+      "pairs": [
+        { "left": "enjambment", "right": "Run-on lines" },
+        { "left": "caesura", "right": "Mid-line pause" },
+        { "left": "prosody", "right": "Verse rhythm and meter" },
+        { "left": "ekphrasis", "right": "Art description in verse" }
+      ],
+      "wordId": "w15"
+    },
+    {
+      "id": "ex87",
+      "type": "matching",
+      "question": "Match the philosophical distinctions:",
+      "pairs": [
+        { "left": "noumenon", "right": "Thing-in-itself" },
+        { "left": "sublime", "right": "Beyond comprehension" },
+        { "left": "aporia", "right": "Logical impasse" },
+        { "left": "pharmakon", "right": "Remedy and poison both" }
+      ],
+      "wordId": "w39"
+    },
+    {
+      "id": "ex88",
+      "type": "matching",
+      "question": "Match the narrative structures:",
+      "pairs": [
+        { "left": "mise-en-abyme", "right": "Story within story" },
+        { "left": "heteroglossia", "right": "Multiple narrative voices" },
+        { "left": "diegesis", "right": "Narrative summary" },
+        { "left": "mimesis", "right": "Direct representation" }
+      ],
+      "wordId": "w46"
+    },
+    {
+      "id": "ex89",
+      "type": "matching",
+      "question": "Match the reference types:",
+      "pairs": [
+        { "left": "deixis", "right": "Context-dependent words" },
+        { "left": "synecdoche", "right": "Part-whole reference" },
+        { "left": "metonymy", "right": "Association-based reference" },
+        { "left": "catachresis", "right": "Improper word usage" }
+      ],
+      "wordId": "w19"
+    },
+    {
+      "id": "ex90",
+      "type": "matching",
+      "question": "Match the artistic philosophies:",
+      "pairs": [
+        { "left": "Gesamtkunstwerk", "right": "Total art synthesis" },
+        { "left": "élan vital", "right": "Life's creative impulse" },
+        { "left": "defamiliarization", "right": "Making familiar strange" },
+        { "left": "verisimilitude", "right": "Realistic appearance" }
+      ],
+      "wordId": "w45"
+    },
+    {
+      "id": "ex91",
+      "type": "translation_ko_en",
+      "question": "중복 기록 양피지",
+      "correctAnswer": "palimpsest",
+      "wordId": "w1"
+    },
+    {
+      "id": "ex92",
+      "type": "translation_ko_en",
+      "question": "숭고한",
+      "correctAnswer": "sublime",
+      "wordId": "w2"
+    },
+    {
+      "id": "ex93",
+      "type": "translation_ko_en",
+      "question": "문턱의, 경계의",
+      "correctAnswer": "liminal",
+      "wordId": "w4"
+    },
+    {
+      "id": "ex94",
+      "type": "translation_ko_en",
+      "question": "진실성, 사실다움",
+      "correctAnswer": "verisimilitude",
+      "wordId": "w5"
+    },
+    {
+      "id": "ex95",
+      "type": "translation_ko_en",
+      "question": "낯설게 하기",
+      "correctAnswer": "defamiliarization",
+      "wordId": "w6"
+    },
+    {
+      "id": "ex96",
+      "type": "translation_ko_en",
+      "question": "다성성",
+      "correctAnswer": "heteroglossia",
+      "wordId": "w7"
+    },
+    {
+      "id": "ex97",
+      "type": "translation_ko_en",
+      "question": "해석학",
+      "correctAnswer": "hermeneutics",
+      "wordId": "w9"
+    },
+    {
+      "id": "ex98",
+      "type": "translation_ko_en",
+      "question": "제유법",
+      "correctAnswer": "synecdoche",
+      "wordId": "w10"
+    },
+    {
+      "id": "ex99",
+      "type": "translation_ko_en",
+      "question": "환유법",
+      "correctAnswer": "metonymy",
+      "wordId": "w11"
+    },
+    {
+      "id": "ex100",
+      "type": "translation_ko_en",
+      "question": "교차 배열법",
+      "correctAnswer": "chiasmus",
+      "wordId": "w12"
+    },
+    {
+      "id": "ex101",
+      "type": "translation_ko_en",
+      "question": "운율학",
+      "correctAnswer": "prosody",
+      "wordId": "w14"
+    },
+    {
+      "id": "ex102",
+      "type": "translation_ko_en",
+      "question": "구절 넘김",
+      "correctAnswer": "enjambment",
+      "wordId": "w15"
+    },
+    {
+      "id": "ex103",
+      "type": "translation_ko_en",
+      "question": "시행의 중간 휴지",
+      "correctAnswer": "caesura",
+      "wordId": "w16"
+    },
+    {
+      "id": "ex104",
+      "type": "translation_ko_en",
+      "question": "다의성",
+      "correctAnswer": "polysemy",
+      "wordId": "w17"
+    },
+    {
+      "id": "ex105",
+      "type": "translation_ko_en",
+      "question": "난문, 해결 불가능한 모순",
+      "correctAnswer": "aporia",
+      "wordId": "w18"
+    },
+    {
+      "id": "ex106",
+      "type": "translation_ko_en",
+      "question": "직시",
+      "correctAnswer": "deixis",
+      "wordId": "w19"
+    },
+    {
+      "id": "ex107",
+      "type": "translation_ko_en",
+      "question": "병렬법",
+      "correctAnswer": "parataxis",
+      "wordId": "w21"
+    },
+    {
+      "id": "ex108",
+      "type": "translation_ko_en",
+      "question": "종속법",
+      "correctAnswer": "hypotaxis",
+      "wordId": "w22"
+    },
+    {
+      "id": "ex109",
+      "type": "translation_ko_en",
+      "question": "모방, 재현",
+      "correctAnswer": "mimesis",
+      "wordId": "w23"
+    },
+    {
+      "id": "ex110",
+      "type": "translation_ko_en",
+      "question": "인식, 발견",
+      "correctAnswer": "anagnorisis",
+      "wordId": "w25"
+    },
+    {
+      "id": "ex111",
+      "type": "translation_ko_en",
+      "question": "비극적 결함",
+      "correctAnswer": "hamartia",
+      "wordId": "w26"
+    },
+    {
+      "id": "ex112",
+      "type": "translation_ko_en",
+      "question": "급전, 반전",
+      "correctAnswer": "peripeteia",
+      "wordId": "w27"
+    },
+    {
+      "id": "ex113",
+      "type": "translation_ko_en",
+      "question": "카타르시스, 정화",
+      "correctAnswer": "catharsis",
+      "wordId": "w28"
+    },
+    {
+      "id": "ex114",
+      "type": "translation_ko_en",
+      "question": "파토스, 감정 호소",
+      "correctAnswer": "pathos",
+      "wordId": "w29"
+    },
+    {
+      "id": "ex115",
+      "type": "translation_ko_en",
+      "question": "정신, 신뢰성",
+      "correctAnswer": "ethos",
+      "wordId": "w30"
+    },
+    {
+      "id": "ex116",
+      "type": "translation_ko_en",
+      "question": "로고스 중심주의",
+      "correctAnswer": "logocentrism",
+      "wordId": "w31"
+    },
+    {
+      "id": "ex117",
+      "type": "translation_ko_en",
+      "question": "하위주체",
+      "correctAnswer": "subaltern",
+      "wordId": "w33"
+    },
+    {
+      "id": "ex118",
+      "type": "translation_ko_en",
+      "question": "헤게모니",
+      "correctAnswer": "hegemony",
+      "wordId": "w34"
+    },
+    {
+      "id": "ex119",
+      "type": "translation_ko_en",
+      "question": "사물화",
+      "correctAnswer": "reification",
+      "wordId": "w35"
+    },
+    {
+      "id": "ex120",
+      "type": "translation_ko_en",
+      "question": "물자체",
+      "correctAnswer": "noumenon",
+      "wordId": "w39"
+    },
+    {
+      "id": "ex121",
+      "type": "translation_en_ko",
+      "question": "Translate 'palimpsest' to Korean",
+      "correctAnswer": "중복 기록 양피지",
+      "wordId": "w1"
+    },
+    {
+      "id": "ex122",
+      "type": "translation_en_ko",
+      "question": "Translate 'sublime' to Korean",
+      "correctAnswer": "숭고한",
+      "wordId": "w2"
+    },
+    {
+      "id": "ex123",
+      "type": "translation_en_ko",
+      "question": "Translate 'ekphrasis' to Korean",
+      "correctAnswer": "예술작품의 문학적 묘사",
+      "wordId": "w3"
+    },
+    {
+      "id": "ex124",
+      "type": "translation_en_ko",
+      "question": "Translate 'liminal' to Korean",
+      "correctAnswer": "문턱의",
+      "wordId": "w4"
+    },
+    {
+      "id": "ex125",
+      "type": "translation_en_ko",
+      "question": "Translate 'verisimilitude' to Korean",
+      "correctAnswer": "진실성",
+      "wordId": "w5"
+    },
+    {
+      "id": "ex126",
+      "type": "translation_en_ko",
+      "question": "Translate 'defamiliarization' to Korean",
+      "correctAnswer": "낯설게 하기",
+      "wordId": "w6"
+    },
+    {
+      "id": "ex127",
+      "type": "translation_en_ko",
+      "question": "Translate 'heteroglossia' to Korean",
+      "correctAnswer": "다성성",
+      "wordId": "w7"
+    },
+    {
+      "id": "ex128",
+      "type": "translation_en_ko",
+      "question": "Translate 'apophatic' to Korean",
+      "correctAnswer": "부정신학의",
+      "wordId": "w8"
+    },
+    {
+      "id": "ex129",
+      "type": "translation_en_ko",
+      "question": "Translate 'hermeneutics' to Korean",
+      "correctAnswer": "해석학",
+      "wordId": "w9"
+    },
+    {
+      "id": "ex130",
+      "type": "translation_en_ko",
+      "question": "Translate 'synecdoche' to Korean",
+      "correctAnswer": "제유법",
+      "wordId": "w10"
+    },
+    {
+      "id": "ex131",
+      "type": "translation_en_ko",
+      "question": "Translate 'metonymy' to Korean",
+      "correctAnswer": "환유법",
+      "wordId": "w11"
+    },
+    {
+      "id": "ex132",
+      "type": "translation_en_ko",
+      "question": "Translate 'chiasmus' to Korean",
+      "correctAnswer": "교차 배열법",
+      "wordId": "w12"
+    },
+    {
+      "id": "ex133",
+      "type": "translation_en_ko",
+      "question": "Translate 'prosody' to Korean",
+      "correctAnswer": "운율학",
+      "wordId": "w14"
+    },
+    {
+      "id": "ex134",
+      "type": "translation_en_ko",
+      "question": "Translate 'enjambment' to Korean",
+      "correctAnswer": "구절 넘김",
+      "wordId": "w15"
+    },
+    {
+      "id": "ex135",
+      "type": "translation_en_ko",
+      "question": "Translate 'caesura' to Korean",
+      "correctAnswer": "시행의 중간 휴지",
+      "wordId": "w16"
+    },
+    {
+      "id": "ex136",
+      "type": "translation_en_ko",
+      "question": "Translate 'polysemy' to Korean",
+      "correctAnswer": "다의성",
+      "wordId": "w17"
+    },
+    {
+      "id": "ex137",
+      "type": "translation_en_ko",
+      "question": "Translate 'aporia' to Korean",
+      "correctAnswer": "난문",
+      "wordId": "w18"
+    },
+    {
+      "id": "ex138",
+      "type": "translation_en_ko",
+      "question": "Translate 'deixis' to Korean",
+      "correctAnswer": "직시",
+      "wordId": "w19"
+    },
+    {
+      "id": "ex139",
+      "type": "translation_en_ko",
+      "question": "Translate 'parataxis' to Korean",
+      "correctAnswer": "병렬법",
+      "wordId": "w21"
+    },
+    {
+      "id": "ex140",
+      "type": "translation_en_ko",
+      "question": "Translate 'hypotaxis' to Korean",
+      "correctAnswer": "종속법",
+      "wordId": "w22"
+    },
+    {
+      "id": "ex141",
+      "type": "translation_en_ko",
+      "question": "Translate 'mimesis' to Korean",
+      "correctAnswer": "모방",
+      "wordId": "w23"
+    },
+    {
+      "id": "ex142",
+      "type": "translation_en_ko",
+      "question": "Translate 'diegesis' to Korean",
+      "correctAnswer": "서사적 묘사",
+      "wordId": "w24"
+    },
+    {
+      "id": "ex143",
+      "type": "translation_en_ko",
+      "question": "Translate 'anagnorisis' to Korean",
+      "correctAnswer": "인식",
+      "wordId": "w25"
+    },
+    {
+      "id": "ex144",
+      "type": "translation_en_ko",
+      "question": "Translate 'hamartia' to Korean",
+      "correctAnswer": "비극적 결함",
+      "wordId": "w26"
+    },
+    {
+      "id": "ex145",
+      "type": "translation_en_ko",
+      "question": "Translate 'peripeteia' to Korean",
+      "correctAnswer": "급전",
+      "wordId": "w27"
+    },
+    {
+      "id": "ex146",
+      "type": "translation_en_ko",
+      "question": "Translate 'catharsis' to Korean",
+      "correctAnswer": "카타르시스",
+      "wordId": "w28"
+    },
+    {
+      "id": "ex147",
+      "type": "translation_en_ko",
+      "question": "Translate 'pathos' to Korean",
+      "correctAnswer": "파토스",
+      "wordId": "w29"
+    },
+    {
+      "id": "ex148",
+      "type": "translation_en_ko",
+      "question": "Translate 'Zeitgeist' to Korean",
+      "correctAnswer": "시대정신",
+      "wordId": "w42"
+    },
+    {
+      "id": "ex149",
+      "type": "translation_en_ko",
+      "question": "Translate 'Weltanschauung' to Korean",
+      "correctAnswer": "세계관",
+      "wordId": "w43"
+    },
+    {
+      "id": "ex150",
+      "type": "translation_en_ko",
+      "question": "Translate 'différance' to Korean",
+      "correctAnswer": "차연",
+      "wordId": "w49"
     }
   ]
 }

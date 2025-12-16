@@ -7,102 +7,1918 @@
   "description": "Specialized vocabulary for linguistic analysis and language philosophy",
   "estimatedMinutes": 25,
   "xpReward": 55,
-  "items": [
+  "words": [
     {
-      "id": "c2-v7-1",
+      "id": "w1",
       "word": "pragmatics",
-      "definition": "The study of how context contributes to meaning beyond the literal semantic content",
       "pronunciation": "/præɡˈmætɪks/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "화용론",
-      "example": "Pragmatics explains why 'Can you pass the salt?' is understood as a request, not a question about ability.",
-      "synonyms": ["contextual meaning", "speech act theory"],
-      "antonyms": ["semantics", "syntax"],
-      "collocations": ["Gricean pragmatics", "pragmatic inference", "pragmatic competence"]
+      "meaning": "The study of how context contributes to meaning beyond the literal semantic content",
+      "translation": "화용론",
+      "example": "Pragmatics explains why 'Can you pass the salt?' is understood as a request, not a question about ability."
     },
     {
-      "id": "c2-v7-2",
+      "id": "w2",
       "word": "deixis",
-      "definition": "Words or phrases whose meaning depends on the context of utterance (person, place, time)",
       "pronunciation": "/ˈdaɪksɪs/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "직시, 지시 표현",
-      "example": "'Here,' 'now,' and 'I' are deictic expressions—their reference shifts with each utterance.",
-      "synonyms": ["indexicality", "contextual reference"],
-      "antonyms": [],
-      "collocations": ["spatial deixis", "temporal deixis", "person deixis"]
+      "meaning": "Words or phrases whose meaning depends on the context of utterance (person, place, time)",
+      "translation": "직시, 지시 표현",
+      "example": "'Here,' 'now,' and 'I' are deictic expressions—their reference shifts with each utterance."
     },
     {
-      "id": "c2-v7-3",
+      "id": "w3",
       "word": "morpheme",
-      "definition": "The smallest meaningful unit in a language",
       "pronunciation": "/ˈmɔːrfiːm/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "형태소",
-      "example": "'Unhappiness' contains three morphemes: 'un-', 'happy', and '-ness.'",
-      "synonyms": ["minimal unit", "bound/free morpheme"],
-      "antonyms": [],
-      "collocations": ["free morpheme", "bound morpheme", "derivational morpheme"]
+      "meaning": "The smallest meaningful unit in a language",
+      "translation": "형태소",
+      "example": "'Unhappiness' contains three morphemes: 'un-', 'happy', and '-ness.'"
     },
     {
-      "id": "c2-v7-4",
+      "id": "w4",
       "word": "phoneme",
-      "definition": "The smallest unit of sound that distinguishes meaning in a language",
       "pronunciation": "/ˈfoʊniːm/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "음소",
-      "example": "The /p/ and /b/ phonemes distinguish 'pat' from 'bat' in English.",
-      "synonyms": ["distinctive sound unit"],
-      "antonyms": ["allophone"],
-      "collocations": ["phonemic contrast", "phoneme inventory", "phonemic awareness"]
+      "meaning": "The smallest unit of sound that distinguishes meaning in a language",
+      "translation": "음소",
+      "example": "The /p/ and /b/ phonemes distinguish 'pat' from 'bat' in English."
     },
     {
-      "id": "c2-v7-5",
+      "id": "w5",
       "word": "performative",
-      "definition": "An utterance that performs an action by being spoken",
       "pronunciation": "/pərˈfɔːrmətɪv/",
-      "partOfSpeech": "adjective/noun",
-      "koreanMeaning": "수행적 발화",
-      "example": "'I hereby pronounce you married' doesn't describe but performs the act of marrying.",
-      "synonyms": ["speech act", "illocutionary act"],
-      "antonyms": ["constative", "descriptive"],
-      "collocations": ["performative utterance", "Austin's performatives", "performative force"]
+      "partOfSpeech": "adjective",
+      "meaning": "An utterance that performs an action by being spoken rather than describing reality",
+      "translation": "수행적 발화",
+      "example": "'I hereby pronounce you married' doesn't describe but performs the act of marrying."
     },
     {
-      "id": "c2-v7-6",
+      "id": "w6",
       "word": "presupposition",
-      "definition": "An implicit assumption that must be true for an utterance to be felicitous",
       "pronunciation": "/ˌpriːsʌpəˈzɪʃən/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "전제",
-      "example": "'Have you stopped lying?' presupposes that the addressee has been lying.",
-      "synonyms": ["implicit assumption", "background assumption"],
-      "antonyms": ["assertion", "implication"],
-      "collocations": ["presupposition trigger", "presupposition failure", "existential presupposition"]
+      "meaning": "An implicit assumption that must be true for an utterance to be felicitous",
+      "translation": "전제",
+      "example": "'Have you stopped lying?' presupposes that the addressee has been lying."
     },
     {
-      "id": "c2-v7-7",
+      "id": "w7",
       "word": "implicature",
-      "definition": "Meaning conveyed beyond what is literally said, through conversational inference",
       "pronunciation": "/ɪmˈplɪkətʃər/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "함축",
-      "example": "Saying 'Some students passed' implicates that not all passed, though this isn't literally stated.",
-      "synonyms": ["conversational inference", "implied meaning"],
-      "antonyms": ["explicit statement"],
-      "collocations": ["Gricean implicature", "scalar implicature", "conversational implicature"]
+      "meaning": "Meaning conveyed beyond what is literally said, through conversational inference",
+      "translation": "함축",
+      "example": "Saying 'Some students passed' implicates that not all passed, though this isn't literally stated."
     },
     {
-      "id": "c2-v7-8",
+      "id": "w8",
       "word": "linguistic relativism",
-      "definition": "The hypothesis that language influences or determines thought patterns",
       "pronunciation": "/lɪŋˈɡwɪstɪk ˈrelətɪvɪzəm/",
       "partOfSpeech": "noun",
-      "koreanMeaning": "언어 상대주의",
-      "example": "Linguistic relativism suggests that speakers of different languages may perceive the world differently.",
-      "synonyms": ["Sapir-Whorf hypothesis", "linguistic determinism"],
-      "antonyms": ["linguistic universalism"],
-      "collocations": ["strong/weak relativism", "Whorfian hypothesis", "linguistic relativity"]
+      "meaning": "The hypothesis that language influences or determines thought patterns",
+      "translation": "언어 상대주의",
+      "example": "Linguistic relativism suggests that speakers of different languages may perceive the world differently."
+    },
+    {
+      "id": "w9",
+      "word": "allophone",
+      "pronunciation": "/ˈæləfoʊn/",
+      "partOfSpeech": "noun",
+      "meaning": "Variant pronunciations of a phoneme that do not change word meaning",
+      "translation": "변이음",
+      "example": "The aspirated [pʰ] in 'pin' and unaspirated [p] in 'spin' are allophones of the /p/ phoneme."
+    },
+    {
+      "id": "w10",
+      "word": "anaphora",
+      "pronunciation": "/əˈnæfərə/",
+      "partOfSpeech": "noun",
+      "meaning": "The use of a word referring back to a previously mentioned word or phrase",
+      "translation": "조응, 대용",
+      "example": "In 'John arrived late because he missed the bus,' 'he' is an anaphoric reference to 'John.'"
+    },
+    {
+      "id": "w11",
+      "word": "lexicography",
+      "pronunciation": "/ˌleksɪˈkɒɡrəfi/",
+      "partOfSpeech": "noun",
+      "meaning": "The practice of compiling dictionaries and analyzing vocabulary systems",
+      "translation": "사전 편찬학",
+      "example": "Modern lexicography employs corpus linguistics to determine word frequency and authentic usage."
+    },
+    {
+      "id": "w12",
+      "word": "polysemy",
+      "pronunciation": "/pəˈlɪsəmi/",
+      "partOfSpeech": "noun",
+      "meaning": "The coexistence of many possible meanings for a word or phrase",
+      "translation": "다의성",
+      "example": "The word 'bank' exhibits polysemy, referring to both a financial institution and a river's edge."
+    },
+    {
+      "id": "w13",
+      "word": "syntagmatic",
+      "pronunciation": "/ˌsɪntæɡˈmætɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to the sequential arrangement of linguistic elements in an utterance",
+      "translation": "통합적, 연쇄적",
+      "example": "Syntagmatic relations govern how words combine linearly, like adjectives preceding nouns in English."
+    },
+    {
+      "id": "w14",
+      "word": "paradigmatic",
+      "pronunciation": "/ˌpærədɪɡˈmætɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to the vertical relationships between interchangeable linguistic elements",
+      "translation": "계열적",
+      "example": "Paradigmatic relations involve words that can substitute for each other in the same position, like 'cat,' 'dog,' or 'bird.'"
+    },
+    {
+      "id": "w15",
+      "word": "diachronic",
+      "pronunciation": "/ˌdaɪəˈkrɒnɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Concerned with the way language changes over time",
+      "translation": "통시적",
+      "example": "A diachronic analysis traces how Old English evolved into Modern English over centuries."
+    },
+    {
+      "id": "w16",
+      "word": "synchronic",
+      "pronunciation": "/sɪŋˈkrɒnɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Concerned with language as it exists at a particular point in time",
+      "translation": "공시적",
+      "example": "Synchronic linguistics examines the structure of contemporary English without considering historical development."
+    },
+    {
+      "id": "w17",
+      "word": "phonology",
+      "pronunciation": "/fəˈnɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "The study of how sounds function and pattern within a particular language",
+      "translation": "음운론",
+      "example": "English phonology includes rules for stress placement and syllable structure."
+    },
+    {
+      "id": "w18",
+      "word": "semantics",
+      "pronunciation": "/sɪˈmæntɪks/",
+      "partOfSpeech": "noun",
+      "meaning": "The study of meaning in language, including word, phrase, and sentence meaning",
+      "translation": "의미론",
+      "example": "Formal semantics uses logic to model how sentence meaning is compositionally derived from word meanings."
+    },
+    {
+      "id": "w19",
+      "word": "phonetics",
+      "pronunciation": "/fəˈnetɪks/",
+      "partOfSpeech": "noun",
+      "meaning": "The study of the physical properties of speech sounds and their production",
+      "translation": "음성학",
+      "example": "Articulatory phonetics examines how the vocal tract produces different consonants and vowels."
+    },
+    {
+      "id": "w20",
+      "word": "syntax",
+      "pronunciation": "/ˈsɪntæks/",
+      "partOfSpeech": "noun",
+      "meaning": "The study of the rules governing the structure of sentences",
+      "translation": "통사론, 구문론",
+      "example": "Generative syntax seeks to describe the mental grammar that allows speakers to construct grammatical sentences."
+    },
+    {
+      "id": "w21",
+      "word": "sociolect",
+      "pronunciation": "/ˈsoʊsioʊlekt/",
+      "partOfSpeech": "noun",
+      "meaning": "A variety of language associated with a particular social class or group",
+      "translation": "사회 방언",
+      "example": "Working-class sociolects often differ from middle-class speech in pronunciation and vocabulary."
+    },
+    {
+      "id": "w22",
+      "word": "idiolect",
+      "pronunciation": "/ˈɪdioʊlekt/",
+      "partOfSpeech": "noun",
+      "meaning": "The unique linguistic patterns and habits of an individual speaker",
+      "translation": "개인 방언",
+      "example": "Everyone's idiolect includes distinctive pronunciation, word choices, and grammatical preferences."
+    },
+    {
+      "id": "w23",
+      "word": "metalanguage",
+      "pronunciation": "/ˈmetəlæŋɡwɪdʒ/",
+      "partOfSpeech": "noun",
+      "meaning": "Language used to describe or analyze language itself",
+      "translation": "메타언어",
+      "example": "Terms like 'noun,' 'verb,' and 'phoneme' constitute the metalanguage of linguistics."
+    },
+    {
+      "id": "w24",
+      "word": "illocutionary",
+      "pronunciation": "/ˌɪləˈkjuːʃəneri/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to the communicative force or intention behind an utterance",
+      "translation": "발화 수반 행위의",
+      "example": "The illocutionary force of 'Could you close the window?' is a request, not a question about ability."
+    },
+    {
+      "id": "w25",
+      "word": "perlocutionary",
+      "pronunciation": "/ˌpɜːrləˈkjuːʃəneri/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to the effect an utterance has on the listener's feelings or actions",
+      "translation": "발화 효과 행위의",
+      "example": "The perlocutionary effect of saying 'Fire!' might be to cause people to evacuate the building."
+    },
+    {
+      "id": "w26",
+      "word": "complementary distribution",
+      "pronunciation": "/ˌkɒmplɪˈmentəri ˌdɪstrɪˈbjuːʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "When two or more linguistic elements never occur in the same environment",
+      "translation": "상보적 분포",
+      "example": "Allophones are typically in complementary distribution, appearing in mutually exclusive phonetic contexts."
+    },
+    {
+      "id": "w27",
+      "word": "universal grammar",
+      "pronunciation": "/ˌjuːnɪˈvɜːrsəl ˈɡræmər/",
+      "partOfSpeech": "noun",
+      "meaning": "Chomsky's theory of innate linguistic structures common to all human languages",
+      "translation": "보편 문법",
+      "example": "Universal grammar proposes that children are born with an inherent capacity for language acquisition."
+    },
+    {
+      "id": "w28",
+      "word": "creolization",
+      "pronunciation": "/ˌkriːoʊlaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The process by which a pidgin develops into a fully-fledged native language",
+      "translation": "크레올화",
+      "example": "Creolization occurred when pidgin speakers' children acquired the simplified language as their mother tongue."
+    },
+    {
+      "id": "w29",
+      "word": "coarticulation",
+      "pronunciation": "/ˌkoʊɑːrtɪkjʊˈleɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The overlapping articulation of adjacent speech sounds",
+      "translation": "조음 결합",
+      "example": "Coarticulation explains why the /k/ sound is pronounced differently in 'key' versus 'coo.'"
+    },
+    {
+      "id": "w30",
+      "word": "minimal pair",
+      "pronunciation": "/ˈmɪnɪməl peər/",
+      "partOfSpeech": "noun",
+      "meaning": "Two words that differ in only one phoneme, demonstrating phonemic contrast",
+      "translation": "최소 대립쌍",
+      "example": "'Bat' and 'cat' form a minimal pair, differing only in their initial consonant."
+    },
+    {
+      "id": "w31",
+      "word": "suprasegmental",
+      "pronunciation": "/ˌsuːprəseɡˈmentəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to phonetic features that extend over more than one sound segment",
+      "translation": "초분절음",
+      "example": "Suprasegmental features include stress, intonation, and tone that span multiple phonemes."
+    },
+    {
+      "id": "w32",
+      "word": "derivational morphology",
+      "pronunciation": "/ˌderɪˈveɪʃənəl mɔːrˈfɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "The study of morphemes that create new words by changing meaning or grammatical category",
+      "translation": "파생 형태론",
+      "example": "Derivational morphology examines how '-ness' converts adjectives to nouns, as in 'happy' to 'happiness.'"
+    },
+    {
+      "id": "w33",
+      "word": "inflectional morphology",
+      "pronunciation": "/ɪnˈflekʃənəl mɔːrˈfɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "The study of morphemes that modify words for grammatical purposes without changing category",
+      "translation": "굴절 형태론",
+      "example": "Inflectional morphology includes tense markers like '-ed' and plural markers like '-s.'"
+    },
+    {
+      "id": "w34",
+      "word": "lexical semantics",
+      "pronunciation": "/ˈleksɪkəl sɪˈmæntɪks/",
+      "partOfSpeech": "noun",
+      "meaning": "The study of word meanings and the relationships between them",
+      "translation": "어휘 의미론",
+      "example": "Lexical semantics explores phenomena like synonymy, antonymy, and hyponymy."
+    },
+    {
+      "id": "w35",
+      "word": "discourse analysis",
+      "pronunciation": "/ˈdɪskɔːrs əˈnæləsɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "The study of language use in texts and conversations beyond the sentence level",
+      "translation": "담화 분석",
+      "example": "Discourse analysis examines how coherence and cohesion are achieved in extended texts."
+    },
+    {
+      "id": "w36",
+      "word": "register",
+      "pronunciation": "/ˈredʒɪstər/",
+      "partOfSpeech": "noun",
+      "meaning": "A variety of language used in particular social situations or for specific purposes",
+      "translation": "언어 사용역",
+      "example": "Academic register differs from colloquial register in formality and specialized vocabulary."
+    },
+    {
+      "id": "w37",
+      "word": "code-switching",
+      "pronunciation": "/koʊd ˈswɪtʃɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "Alternating between two or more languages or language varieties in conversation",
+      "translation": "코드 전환",
+      "example": "Bilingual speakers often engage in code-switching, seamlessly shifting between languages mid-conversation."
+    },
+    {
+      "id": "w38",
+      "word": "aphasia",
+      "pronunciation": "/əˈfeɪʒə/",
+      "partOfSpeech": "noun",
+      "meaning": "Loss or impairment of language ability due to brain damage",
+      "translation": "실어증",
+      "example": "Broca's aphasia affects speech production while comprehension remains relatively intact."
+    },
+    {
+      "id": "w39",
+      "word": "grapheme",
+      "pronunciation": "/ˈɡræfiːm/",
+      "partOfSpeech": "noun",
+      "meaning": "The smallest functional unit of a writing system",
+      "translation": "문자소",
+      "example": "The grapheme 'th' represents a single phoneme in English orthography."
+    },
+    {
+      "id": "w40",
+      "word": "etymology",
+      "pronunciation": "/ˌetɪˈmɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "The study of the origin and historical development of words",
+      "translation": "어원학",
+      "example": "The etymology of 'telephone' traces back to Greek 'tele' (distant) and 'phone' (voice)."
+    },
+    {
+      "id": "w41",
+      "word": "homophone",
+      "pronunciation": "/ˈhɒməfoʊn/",
+      "partOfSpeech": "noun",
+      "meaning": "Words that sound identical but have different meanings and often spellings",
+      "translation": "동음이의어",
+      "example": "'Their,' 'there,' and 'they're' are homophones in English."
+    },
+    {
+      "id": "w42",
+      "word": "neologism",
+      "pronunciation": "/niˈɒlədʒɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "A newly coined word or expression entering a language",
+      "translation": "신조어",
+      "example": "The neologism 'podcast' emerged in the early 2000s to describe digital audio broadcasts."
+    },
+    {
+      "id": "w43",
+      "word": "prosody",
+      "pronunciation": "/ˈprɒsədi/",
+      "partOfSpeech": "noun",
+      "meaning": "The patterns of rhythm, stress, and intonation in speech",
+      "translation": "운율",
+      "example": "English prosody uses falling intonation for statements and rising intonation for yes-no questions."
+    },
+    {
+      "id": "w44",
+      "word": "cognate",
+      "pronunciation": "/ˈkɒɡneɪt/",
+      "partOfSpeech": "noun",
+      "meaning": "Words in different languages that share a common etymological origin",
+      "translation": "동계어",
+      "example": "English 'mother' and German 'Mutter' are cognates derived from Proto-Indo-European."
+    },
+    {
+      "id": "w45",
+      "word": "linguistic competence",
+      "pronunciation": "/lɪŋˈɡwɪstɪk ˈkɒmpɪtəns/",
+      "partOfSpeech": "noun",
+      "meaning": "The unconscious knowledge of grammar that allows a speaker to produce and understand language",
+      "translation": "언어 능력",
+      "example": "Linguistic competence represents an idealized speaker's internal knowledge of their language."
+    },
+    {
+      "id": "w46",
+      "word": "linguistic performance",
+      "pronunciation": "/lɪŋˈɡwɪstɪk pərˈfɔːrməns/",
+      "partOfSpeech": "noun",
+      "meaning": "The actual use of language in concrete situations, including errors and hesitations",
+      "translation": "언어 수행",
+      "example": "Linguistic performance may contain slips of the tongue and ungrammatical constructions despite perfect competence."
+    },
+    {
+      "id": "w47",
+      "word": "metonymy",
+      "pronunciation": "/mɪˈtɒnɪmi/",
+      "partOfSpeech": "noun",
+      "meaning": "A figure of speech substituting the name of an attribute or feature for the thing itself",
+      "translation": "환유",
+      "example": "'The White House announced' uses metonymy, referring to the administration by its location."
+    },
+    {
+      "id": "w48",
+      "word": "tautology",
+      "pronunciation": "/tɔːˈtɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "A statement that is true by necessity or by virtue of its logical form",
+      "translation": "동어 반복",
+      "example": "'A bachelor is an unmarried man' is a tautology because 'unmarried man' is the definition of bachelor."
+    },
+    {
+      "id": "w49",
+      "word": "cataphora",
+      "pronunciation": "/kəˈtæfərə/",
+      "partOfSpeech": "noun",
+      "meaning": "The use of a word referring forward to a later word or phrase",
+      "translation": "후방조응",
+      "example": "In 'Before he left, John locked the door,' 'he' is a cataphoric reference to 'John.'"
+    },
+    {
+      "id": "w50",
+      "word": "velar",
+      "pronunciation": "/ˈviːlər/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to sounds produced with the back of the tongue against the soft palate",
+      "translation": "연구개음",
+      "example": "The consonants /k/ and /g/ are velar sounds in English phonetics."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "Which term describes the study of how context affects meaning beyond literal content?",
+      "options": [
+        "Pragmatics",
+        "Semantics",
+        "Syntax",
+        "Phonology"
+      ],
+      "correctAnswer": 0,
+      "relatedWords": ["w1"]
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "What are words like 'here,' 'now,' and 'I' called, whose meaning depends on context?",
+      "options": [
+        "Anaphoric",
+        "Deictic",
+        "Performative",
+        "Tautological"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w2"]
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "What is the smallest meaningful unit in a language called?",
+      "options": [
+        "Phoneme",
+        "Grapheme",
+        "Morpheme",
+        "Lexeme"
+      ],
+      "correctAnswer": 2,
+      "relatedWords": ["w3"]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "Which linguistic unit distinguishes 'pat' from 'bat'?",
+      "options": [
+        "Morpheme",
+        "Phoneme",
+        "Grapheme",
+        "Allophone"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w4"]
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "What type of utterance performs an action by being spoken?",
+      "options": [
+        "Constative",
+        "Declarative",
+        "Performative",
+        "Interrogative"
+      ],
+      "correctAnswer": 2,
+      "relatedWords": ["w5"]
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "What do we call an implicit assumption that must be true for an utterance to make sense?",
+      "options": [
+        "Implicature",
+        "Presupposition",
+        "Entailment",
+        "Inference"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w6"]
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "What is meaning conveyed beyond literal content through conversational inference?",
+      "options": [
+        "Presupposition",
+        "Implicature",
+        "Deixis",
+        "Anaphora"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w7"]
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "Which hypothesis suggests that language influences thought patterns?",
+      "options": [
+        "Universal grammar",
+        "Linguistic determinism",
+        "Linguistic relativism",
+        "Generative grammar"
+      ],
+      "correctAnswer": 2,
+      "relatedWords": ["w8"]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "What are variant pronunciations of a phoneme that don't change meaning?",
+      "options": [
+        "Morphemes",
+        "Allophones",
+        "Graphemes",
+        "Cognates"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w9"]
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "In 'John left because he was tired,' what is 'he' an example of?",
+      "options": [
+        "Cataphora",
+        "Deixis",
+        "Anaphora",
+        "Metonymy"
+      ],
+      "correctAnswer": 2,
+      "relatedWords": ["w10"]
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "What is the practice of compiling dictionaries called?",
+      "options": [
+        "Etymology",
+        "Lexicography",
+        "Semantics",
+        "Morphology"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w11"]
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "When a word has multiple related meanings, this is called:",
+      "options": [
+        "Homonymy",
+        "Synonymy",
+        "Polysemy",
+        "Antonymy"
+      ],
+      "correctAnswer": 2,
+      "relatedWords": ["w12"]
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "Which term describes how words combine sequentially in an utterance?",
+      "options": [
+        "Paradigmatic",
+        "Syntagmatic",
+        "Diachronic",
+        "Synchronic"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w13"]
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "What describes relationships between interchangeable linguistic elements?",
+      "options": [
+        "Syntagmatic",
+        "Paradigmatic",
+        "Anaphoric",
+        "Cataphoric"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w14"]
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "A study of how language changes over time is called:",
+      "options": [
+        "Synchronic",
+        "Diachronic",
+        "Paradigmatic",
+        "Syntagmatic"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w15"]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "A study of language at a particular point in time is:",
+      "options": [
+        "Diachronic",
+        "Historical",
+        "Synchronic",
+        "Evolutionary"
+      ],
+      "correctAnswer": 2,
+      "relatedWords": ["w16"]
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "The study of how sounds function and pattern in a language is:",
+      "options": [
+        "Phonetics",
+        "Phonology",
+        "Morphology",
+        "Syntax"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w17"]
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "Which field studies meaning in language?",
+      "options": [
+        "Pragmatics",
+        "Semantics",
+        "Phonology",
+        "Morphology"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w18"]
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "The study of physical properties of speech sounds is:",
+      "options": [
+        "Phonology",
+        "Phonetics",
+        "Morphology",
+        "Prosody"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w19"]
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "What field studies the rules governing sentence structure?",
+      "options": [
+        "Morphology",
+        "Semantics",
+        "Syntax",
+        "Pragmatics"
+      ],
+      "correctAnswer": 2,
+      "relatedWords": ["w20"]
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "A language variety associated with a particular social class is a:",
+      "options": [
+        "Dialect",
+        "Idiolect",
+        "Sociolect",
+        "Register"
+      ],
+      "correctAnswer": 2,
+      "relatedWords": ["w21"]
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "An individual's unique linguistic patterns are called their:",
+      "options": [
+        "Dialect",
+        "Sociolect",
+        "Register",
+        "Idiolect"
+      ],
+      "correctAnswer": 3,
+      "relatedWords": ["w22"]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "Language used to describe language itself is:",
+      "options": [
+        "Metalanguage",
+        "Register",
+        "Code-switching",
+        "Discourse"
+      ],
+      "correctAnswer": 0,
+      "relatedWords": ["w23"]
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "The communicative force or intention behind an utterance is its:",
+      "options": [
+        "Locutionary act",
+        "Illocutionary force",
+        "Perlocutionary effect",
+        "Performative function"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w24"]
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "The effect an utterance has on a listener's feelings or actions is:",
+      "options": [
+        "Illocutionary",
+        "Locutionary",
+        "Perlocutionary",
+        "Performative"
+      ],
+      "correctAnswer": 2,
+      "relatedWords": ["w25"]
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "When linguistic elements never occur in the same environment, they are in:",
+      "options": [
+        "Free variation",
+        "Complementary distribution",
+        "Contrastive distribution",
+        "Random distribution"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w26"]
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "Chomsky's theory of innate linguistic structures is called:",
+      "options": [
+        "Generative grammar",
+        "Universal grammar",
+        "Transformational grammar",
+        "Cognitive grammar"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w27"]
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "The process by which a pidgin becomes a native language is:",
+      "options": [
+        "Pidginization",
+        "Creolization",
+        "Standardization",
+        "Dialectalization"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w28"]
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "The overlapping articulation of adjacent speech sounds is:",
+      "options": [
+        "Assimilation",
+        "Elision",
+        "Coarticulation",
+        "Reduction"
+      ],
+      "correctAnswer": 2,
+      "relatedWords": ["w29"]
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "'Bat' and 'cat' form a:",
+      "options": [
+        "Minimal pair",
+        "Homophone pair",
+        "Cognate pair",
+        "Synonym pair"
+      ],
+      "correctAnswer": 0,
+      "relatedWords": ["w30"]
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "question": "_____ examines how context contributes to meaning beyond literal semantics.",
+      "correctAnswer": "Pragmatics",
+      "relatedWords": ["w1"]
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "question": "Words like 'here' and 'now' are examples of _____ expressions.",
+      "correctAnswer": "deictic",
+      "relatedWords": ["w2"]
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "question": "The smallest meaningful unit in a language is called a _____.",
+      "correctAnswer": "morpheme",
+      "relatedWords": ["w3"]
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "A _____ is the smallest sound unit that distinguishes meaning in a language.",
+      "correctAnswer": "phoneme",
+      "relatedWords": ["w4"]
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "A _____ utterance performs an action by being spoken, such as 'I apologize.'",
+      "correctAnswer": "performative",
+      "relatedWords": ["w5"]
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "A _____ is an implicit assumption underlying an utterance.",
+      "correctAnswer": "presupposition",
+      "relatedWords": ["w6"]
+    },
+    {
+      "id": "ex37",
+      "type": "fill_blank",
+      "question": "Conversational _____ conveys meaning beyond what is literally stated.",
+      "correctAnswer": "implicature",
+      "relatedWords": ["w7"]
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "_____ _____ suggests that language influences how we think.",
+      "correctAnswer": "Linguistic relativism",
+      "relatedWords": ["w8"]
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "question": "Variant pronunciations of a phoneme are called _____.",
+      "correctAnswer": "allophones",
+      "relatedWords": ["w9"]
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "When a pronoun refers back to a previously mentioned noun, it's called _____.",
+      "correctAnswer": "anaphora",
+      "relatedWords": ["w10"]
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "The practice of compiling dictionaries is known as _____.",
+      "correctAnswer": "lexicography",
+      "relatedWords": ["w11"]
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "When a word has multiple related meanings, it exhibits _____.",
+      "correctAnswer": "polysemy",
+      "relatedWords": ["w12"]
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "_____ relations govern how words combine sequentially in sentences.",
+      "correctAnswer": "Syntagmatic",
+      "relatedWords": ["w13"]
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "_____ relations involve words that can substitute for each other in the same position.",
+      "correctAnswer": "Paradigmatic",
+      "relatedWords": ["w14"]
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "A _____ analysis examines how language changes over time.",
+      "correctAnswer": "diachronic",
+      "relatedWords": ["w15"]
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "A _____ study examines language at a particular point in time.",
+      "correctAnswer": "synchronic",
+      "relatedWords": ["w16"]
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "_____ studies how sounds function and pattern within a language system.",
+      "correctAnswer": "Phonology",
+      "relatedWords": ["w17"]
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "_____ is the study of meaning in language.",
+      "correctAnswer": "Semantics",
+      "relatedWords": ["w18"]
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "_____ examines the physical properties of speech sounds and their production.",
+      "correctAnswer": "Phonetics",
+      "relatedWords": ["w19"]
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "_____ is the study of sentence structure rules.",
+      "correctAnswer": "Syntax",
+      "relatedWords": ["w20"]
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "A language variety associated with a social class is called a _____.",
+      "correctAnswer": "sociolect",
+      "relatedWords": ["w21"]
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "Each speaker's unique linguistic patterns constitute their _____.",
+      "correctAnswer": "idiolect",
+      "relatedWords": ["w22"]
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "Terms like 'noun' and 'verb' constitute the _____ of linguistics.",
+      "correctAnswer": "metalanguage",
+      "relatedWords": ["w23"]
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "The _____ force of an utterance is its communicative intention.",
+      "correctAnswer": "illocutionary",
+      "relatedWords": ["w24"]
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "The _____ effect refers to how an utterance affects the listener's actions.",
+      "correctAnswer": "perlocutionary",
+      "relatedWords": ["w25"]
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "Allophones are typically in _____ _____.",
+      "correctAnswer": "complementary distribution",
+      "relatedWords": ["w26"]
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "Chomsky proposed that all humans possess _____ _____.",
+      "correctAnswer": "universal grammar",
+      "relatedWords": ["w27"]
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "_____ occurs when a pidgin develops into a fully-fledged native language.",
+      "correctAnswer": "Creolization",
+      "relatedWords": ["w28"]
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "_____ explains why sounds are pronounced differently in different phonetic contexts.",
+      "correctAnswer": "Coarticulation",
+      "relatedWords": ["w29"]
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "Two words differing in only one phoneme form a _____ _____.",
+      "correctAnswer": "minimal pair",
+      "relatedWords": ["w30"]
+    },
+    {
+      "id": "ex61",
+      "type": "fill_blank",
+      "question": "_____ features include stress and intonation that extend over multiple sounds.",
+      "correctAnswer": "Suprasegmental",
+      "relatedWords": ["w31"]
+    },
+    {
+      "id": "ex62",
+      "type": "fill_blank",
+      "question": "_____ morphology creates new words by changing meaning or grammatical category.",
+      "correctAnswer": "Derivational",
+      "relatedWords": ["w32"]
+    },
+    {
+      "id": "ex63",
+      "type": "fill_blank",
+      "question": "_____ morphology modifies words for grammatical purposes without changing category.",
+      "correctAnswer": "Inflectional",
+      "relatedWords": ["w33"]
+    },
+    {
+      "id": "ex64",
+      "type": "fill_blank",
+      "question": "_____ _____ studies word meanings and relationships between them.",
+      "correctAnswer": "Lexical semantics",
+      "relatedWords": ["w34"]
+    },
+    {
+      "id": "ex65",
+      "type": "fill_blank",
+      "question": "_____ _____ examines language use beyond the sentence level.",
+      "correctAnswer": "Discourse analysis",
+      "relatedWords": ["w35"]
+    },
+    {
+      "id": "ex66",
+      "type": "fill_blank",
+      "question": "A _____ is a language variety used in particular social situations.",
+      "correctAnswer": "register",
+      "relatedWords": ["w36"]
+    },
+    {
+      "id": "ex67",
+      "type": "fill_blank",
+      "question": "_____ occurs when bilinguals alternate between languages in conversation.",
+      "correctAnswer": "Code-switching",
+      "relatedWords": ["w37"]
+    },
+    {
+      "id": "ex68",
+      "type": "fill_blank",
+      "question": "_____ is language impairment caused by brain damage.",
+      "correctAnswer": "Aphasia",
+      "relatedWords": ["w38"]
+    },
+    {
+      "id": "ex69",
+      "type": "fill_blank",
+      "question": "A _____ is the smallest functional unit of a writing system.",
+      "correctAnswer": "grapheme",
+      "relatedWords": ["w39"]
+    },
+    {
+      "id": "ex70",
+      "type": "fill_blank",
+      "question": "_____ studies the origin and historical development of words.",
+      "correctAnswer": "Etymology",
+      "relatedWords": ["w40"]
+    },
+    {
+      "id": "ex71",
+      "type": "matching",
+      "question": "Match the linguistic terms with their definitions:",
+      "pairs": [
+        {
+          "left": "Phoneme",
+          "right": "Smallest sound unit distinguishing meaning"
+        },
+        {
+          "left": "Morpheme",
+          "right": "Smallest meaningful unit in language"
+        },
+        {
+          "left": "Grapheme",
+          "right": "Smallest unit of writing system"
+        },
+        {
+          "left": "Allophone",
+          "right": "Variant pronunciation of a phoneme"
+        }
+      ],
+      "relatedWords": ["w3", "w4", "w9", "w39"]
+    },
+    {
+      "id": "ex72",
+      "type": "matching",
+      "question": "Match the linguistic subfields with their focus:",
+      "pairs": [
+        {
+          "left": "Pragmatics",
+          "right": "Context and meaning beyond literal content"
+        },
+        {
+          "left": "Semantics",
+          "right": "Study of meaning in language"
+        },
+        {
+          "left": "Syntax",
+          "right": "Rules governing sentence structure"
+        },
+        {
+          "left": "Phonology",
+          "right": "Sound patterns in language"
+        }
+      ],
+      "relatedWords": ["w1", "w18", "w20", "w17"]
+    },
+    {
+      "id": "ex73",
+      "type": "matching",
+      "question": "Match the speech act types with their characteristics:",
+      "pairs": [
+        {
+          "left": "Performative",
+          "right": "Utterance that performs an action"
+        },
+        {
+          "left": "Illocutionary",
+          "right": "Communicative intention of utterance"
+        },
+        {
+          "left": "Perlocutionary",
+          "right": "Effect on listener's feelings or actions"
+        },
+        {
+          "left": "Presupposition",
+          "right": "Implicit assumption underlying utterance"
+        }
+      ],
+      "relatedWords": ["w5", "w24", "w25", "w6"]
+    },
+    {
+      "id": "ex74",
+      "type": "matching",
+      "question": "Match the linguistic analysis types with their approaches:",
+      "pairs": [
+        {
+          "left": "Diachronic",
+          "right": "Studies language change over time"
+        },
+        {
+          "left": "Synchronic",
+          "right": "Studies language at one point in time"
+        },
+        {
+          "left": "Syntagmatic",
+          "right": "Sequential combination of elements"
+        },
+        {
+          "left": "Paradigmatic",
+          "right": "Substitutional relationships between elements"
+        }
+      ],
+      "relatedWords": ["w15", "w16", "w13", "w14"]
+    },
+    {
+      "id": "ex75",
+      "type": "matching",
+      "question": "Match the language varieties with their definitions:",
+      "pairs": [
+        {
+          "left": "Idiolect",
+          "right": "Individual's unique linguistic patterns"
+        },
+        {
+          "left": "Sociolect",
+          "right": "Variety associated with social class"
+        },
+        {
+          "left": "Register",
+          "right": "Variety used in specific situations"
+        },
+        {
+          "left": "Code-switching",
+          "right": "Alternating between languages"
+        }
+      ],
+      "relatedWords": ["w22", "w21", "w36", "w37"]
+    },
+    {
+      "id": "ex76",
+      "type": "matching",
+      "question": "Match the reference types with their descriptions:",
+      "pairs": [
+        {
+          "left": "Anaphora",
+          "right": "Reference backward to earlier word"
+        },
+        {
+          "left": "Cataphora",
+          "right": "Reference forward to later word"
+        },
+        {
+          "left": "Deixis",
+          "right": "Context-dependent reference"
+        },
+        {
+          "left": "Metonymy",
+          "right": "Substituting attribute for thing itself"
+        }
+      ],
+      "relatedWords": ["w10", "w49", "w2", "w47"]
+    },
+    {
+      "id": "ex77",
+      "type": "matching",
+      "question": "Match the morphology types with their functions:",
+      "pairs": [
+        {
+          "left": "Derivational",
+          "right": "Creates new words, changes category"
+        },
+        {
+          "left": "Inflectional",
+          "right": "Modifies for grammar, keeps category"
+        },
+        {
+          "left": "Free morpheme",
+          "right": "Can stand alone as word"
+        },
+        {
+          "left": "Bound morpheme",
+          "right": "Must attach to other morphemes"
+        }
+      ],
+      "relatedWords": ["w32", "w33", "w3"]
+    },
+    {
+      "id": "ex78",
+      "type": "matching",
+      "question": "Match the word relationship types with their definitions:",
+      "pairs": [
+        {
+          "left": "Polysemy",
+          "right": "Multiple related meanings for one word"
+        },
+        {
+          "left": "Homophone",
+          "right": "Same sound, different meanings"
+        },
+        {
+          "left": "Cognate",
+          "right": "Words sharing etymological origin"
+        },
+        {
+          "left": "Neologism",
+          "right": "Newly coined word or expression"
+        }
+      ],
+      "relatedWords": ["w12", "w41", "w44", "w42"]
+    },
+    {
+      "id": "ex79",
+      "type": "matching",
+      "question": "Match the linguistic theories with their concepts:",
+      "pairs": [
+        {
+          "left": "Universal grammar",
+          "right": "Innate linguistic structures"
+        },
+        {
+          "left": "Linguistic relativism",
+          "right": "Language influences thought"
+        },
+        {
+          "left": "Linguistic competence",
+          "right": "Unconscious knowledge of grammar"
+        },
+        {
+          "left": "Linguistic performance",
+          "right": "Actual use in concrete situations"
+        }
+      ],
+      "relatedWords": ["w27", "w8", "w45", "w46"]
+    },
+    {
+      "id": "ex80",
+      "type": "matching",
+      "question": "Match the specialized fields with their focus areas:",
+      "pairs": [
+        {
+          "left": "Lexicography",
+          "right": "Dictionary compilation"
+        },
+        {
+          "left": "Etymology",
+          "right": "Word origin and history"
+        },
+        {
+          "left": "Discourse analysis",
+          "right": "Language beyond sentence level"
+        },
+        {
+          "left": "Lexical semantics",
+          "right": "Word meanings and relationships"
+        }
+      ],
+      "relatedWords": ["w11", "w40", "w35", "w34"]
+    },
+    {
+      "id": "ex81",
+      "type": "translation_ko_en",
+      "question": "화용론",
+      "correctAnswer": "pragmatics",
+      "relatedWords": ["w1"]
+    },
+    {
+      "id": "ex82",
+      "type": "translation_ko_en",
+      "question": "직시",
+      "correctAnswer": "deixis",
+      "relatedWords": ["w2"]
+    },
+    {
+      "id": "ex83",
+      "type": "translation_ko_en",
+      "question": "형태소",
+      "correctAnswer": "morpheme",
+      "relatedWords": ["w3"]
+    },
+    {
+      "id": "ex84",
+      "type": "translation_ko_en",
+      "question": "음소",
+      "correctAnswer": "phoneme",
+      "relatedWords": ["w4"]
+    },
+    {
+      "id": "ex85",
+      "type": "translation_ko_en",
+      "question": "수행적 발화",
+      "correctAnswer": "performative",
+      "relatedWords": ["w5"]
+    },
+    {
+      "id": "ex86",
+      "type": "translation_ko_en",
+      "question": "전제",
+      "correctAnswer": "presupposition",
+      "relatedWords": ["w6"]
+    },
+    {
+      "id": "ex87",
+      "type": "translation_ko_en",
+      "question": "함축",
+      "correctAnswer": "implicature",
+      "relatedWords": ["w7"]
+    },
+    {
+      "id": "ex88",
+      "type": "translation_ko_en",
+      "question": "언어 상대주의",
+      "correctAnswer": "linguistic relativism",
+      "relatedWords": ["w8"]
+    },
+    {
+      "id": "ex89",
+      "type": "translation_ko_en",
+      "question": "변이음",
+      "correctAnswer": "allophone",
+      "relatedWords": ["w9"]
+    },
+    {
+      "id": "ex90",
+      "type": "translation_ko_en",
+      "question": "조응",
+      "correctAnswer": "anaphora",
+      "relatedWords": ["w10"]
+    },
+    {
+      "id": "ex91",
+      "type": "translation_ko_en",
+      "question": "사전 편찬학",
+      "correctAnswer": "lexicography",
+      "relatedWords": ["w11"]
+    },
+    {
+      "id": "ex92",
+      "type": "translation_ko_en",
+      "question": "다의성",
+      "correctAnswer": "polysemy",
+      "relatedWords": ["w12"]
+    },
+    {
+      "id": "ex93",
+      "type": "translation_ko_en",
+      "question": "통합적",
+      "correctAnswer": "syntagmatic",
+      "relatedWords": ["w13"]
+    },
+    {
+      "id": "ex94",
+      "type": "translation_ko_en",
+      "question": "계열적",
+      "correctAnswer": "paradigmatic",
+      "relatedWords": ["w14"]
+    },
+    {
+      "id": "ex95",
+      "type": "translation_ko_en",
+      "question": "통시적",
+      "correctAnswer": "diachronic",
+      "relatedWords": ["w15"]
+    },
+    {
+      "id": "ex96",
+      "type": "translation_ko_en",
+      "question": "공시적",
+      "correctAnswer": "synchronic",
+      "relatedWords": ["w16"]
+    },
+    {
+      "id": "ex97",
+      "type": "translation_ko_en",
+      "question": "음운론",
+      "correctAnswer": "phonology",
+      "relatedWords": ["w17"]
+    },
+    {
+      "id": "ex98",
+      "type": "translation_ko_en",
+      "question": "의미론",
+      "correctAnswer": "semantics",
+      "relatedWords": ["w18"]
+    },
+    {
+      "id": "ex99",
+      "type": "translation_ko_en",
+      "question": "음성학",
+      "correctAnswer": "phonetics",
+      "relatedWords": ["w19"]
+    },
+    {
+      "id": "ex100",
+      "type": "translation_ko_en",
+      "question": "통사론",
+      "correctAnswer": "syntax",
+      "relatedWords": ["w20"]
+    },
+    {
+      "id": "ex101",
+      "type": "translation_ko_en",
+      "question": "사회 방언",
+      "correctAnswer": "sociolect",
+      "relatedWords": ["w21"]
+    },
+    {
+      "id": "ex102",
+      "type": "translation_ko_en",
+      "question": "개인 방언",
+      "correctAnswer": "idiolect",
+      "relatedWords": ["w22"]
+    },
+    {
+      "id": "ex103",
+      "type": "translation_ko_en",
+      "question": "메타언어",
+      "correctAnswer": "metalanguage",
+      "relatedWords": ["w23"]
+    },
+    {
+      "id": "ex104",
+      "type": "translation_ko_en",
+      "question": "발화 수반 행위의",
+      "correctAnswer": "illocutionary",
+      "relatedWords": ["w24"]
+    },
+    {
+      "id": "ex105",
+      "type": "translation_ko_en",
+      "question": "발화 효과 행위의",
+      "correctAnswer": "perlocutionary",
+      "relatedWords": ["w25"]
+    },
+    {
+      "id": "ex106",
+      "type": "translation_ko_en",
+      "question": "상보적 분포",
+      "correctAnswer": "complementary distribution",
+      "relatedWords": ["w26"]
+    },
+    {
+      "id": "ex107",
+      "type": "translation_ko_en",
+      "question": "보편 문법",
+      "correctAnswer": "universal grammar",
+      "relatedWords": ["w27"]
+    },
+    {
+      "id": "ex108",
+      "type": "translation_ko_en",
+      "question": "크레올화",
+      "correctAnswer": "creolization",
+      "relatedWords": ["w28"]
+    },
+    {
+      "id": "ex109",
+      "type": "translation_ko_en",
+      "question": "조음 결합",
+      "correctAnswer": "coarticulation",
+      "relatedWords": ["w29"]
+    },
+    {
+      "id": "ex110",
+      "type": "translation_ko_en",
+      "question": "최소 대립쌍",
+      "correctAnswer": "minimal pair",
+      "relatedWords": ["w30"]
+    },
+    {
+      "id": "ex111",
+      "type": "translation_en_ko",
+      "question": "suprasegmental",
+      "correctAnswer": "초분절음",
+      "relatedWords": ["w31"]
+    },
+    {
+      "id": "ex112",
+      "type": "translation_en_ko",
+      "question": "derivational morphology",
+      "correctAnswer": "파생 형태론",
+      "relatedWords": ["w32"]
+    },
+    {
+      "id": "ex113",
+      "type": "translation_en_ko",
+      "question": "inflectional morphology",
+      "correctAnswer": "굴절 형태론",
+      "relatedWords": ["w33"]
+    },
+    {
+      "id": "ex114",
+      "type": "translation_en_ko",
+      "question": "lexical semantics",
+      "correctAnswer": "어휘 의미론",
+      "relatedWords": ["w34"]
+    },
+    {
+      "id": "ex115",
+      "type": "translation_en_ko",
+      "question": "discourse analysis",
+      "correctAnswer": "담화 분석",
+      "relatedWords": ["w35"]
+    },
+    {
+      "id": "ex116",
+      "type": "translation_en_ko",
+      "question": "register",
+      "correctAnswer": "언어 사용역",
+      "relatedWords": ["w36"]
+    },
+    {
+      "id": "ex117",
+      "type": "translation_en_ko",
+      "question": "code-switching",
+      "correctAnswer": "코드 전환",
+      "relatedWords": ["w37"]
+    },
+    {
+      "id": "ex118",
+      "type": "translation_en_ko",
+      "question": "aphasia",
+      "correctAnswer": "실어증",
+      "relatedWords": ["w38"]
+    },
+    {
+      "id": "ex119",
+      "type": "translation_en_ko",
+      "question": "grapheme",
+      "correctAnswer": "문자소",
+      "relatedWords": ["w39"]
+    },
+    {
+      "id": "ex120",
+      "type": "translation_en_ko",
+      "question": "etymology",
+      "correctAnswer": "어원학",
+      "relatedWords": ["w40"]
+    },
+    {
+      "id": "ex121",
+      "type": "translation_en_ko",
+      "question": "homophone",
+      "correctAnswer": "동음이의어",
+      "relatedWords": ["w41"]
+    },
+    {
+      "id": "ex122",
+      "type": "translation_en_ko",
+      "question": "neologism",
+      "correctAnswer": "신조어",
+      "relatedWords": ["w42"]
+    },
+    {
+      "id": "ex123",
+      "type": "translation_en_ko",
+      "question": "prosody",
+      "correctAnswer": "운율",
+      "relatedWords": ["w43"]
+    },
+    {
+      "id": "ex124",
+      "type": "translation_en_ko",
+      "question": "cognate",
+      "correctAnswer": "동계어",
+      "relatedWords": ["w44"]
+    },
+    {
+      "id": "ex125",
+      "type": "translation_en_ko",
+      "question": "linguistic competence",
+      "correctAnswer": "언어 능력",
+      "relatedWords": ["w45"]
+    },
+    {
+      "id": "ex126",
+      "type": "translation_en_ko",
+      "question": "linguistic performance",
+      "correctAnswer": "언어 수행",
+      "relatedWords": ["w46"]
+    },
+    {
+      "id": "ex127",
+      "type": "translation_en_ko",
+      "question": "metonymy",
+      "correctAnswer": "환유",
+      "relatedWords": ["w47"]
+    },
+    {
+      "id": "ex128",
+      "type": "translation_en_ko",
+      "question": "tautology",
+      "correctAnswer": "동어 반복",
+      "relatedWords": ["w48"]
+    },
+    {
+      "id": "ex129",
+      "type": "translation_en_ko",
+      "question": "cataphora",
+      "correctAnswer": "후방조응",
+      "relatedWords": ["w49"]
+    },
+    {
+      "id": "ex130",
+      "type": "translation_en_ko",
+      "question": "velar",
+      "correctAnswer": "연구개음",
+      "relatedWords": ["w50"]
+    },
+    {
+      "id": "ex131",
+      "type": "multiple_choice",
+      "question": "What describes phonetic features extending over multiple sound segments?",
+      "options": [
+        "Segmental",
+        "Suprasegmental",
+        "Subsegmental",
+        "Parasegmental"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w31"]
+    },
+    {
+      "id": "ex132",
+      "type": "multiple_choice",
+      "question": "Which type of morphology changes word category or meaning?",
+      "options": [
+        "Inflectional",
+        "Derivational",
+        "Compositional",
+        "Transformational"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w32"]
+    },
+    {
+      "id": "ex133",
+      "type": "multiple_choice",
+      "question": "What studies word meanings and their interrelationships?",
+      "options": [
+        "Phonological semantics",
+        "Grammatical semantics",
+        "Lexical semantics",
+        "Pragmatic semantics"
+      ],
+      "correctAnswer": 2,
+      "relatedWords": ["w34"]
+    },
+    {
+      "id": "ex134",
+      "type": "multiple_choice",
+      "question": "A language variety adapted for specific purposes or situations is a:",
+      "options": [
+        "Dialect",
+        "Register",
+        "Idiolect",
+        "Pidgin"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w36"]
+    },
+    {
+      "id": "ex135",
+      "type": "multiple_choice",
+      "question": "Language impairment due to brain damage is called:",
+      "options": [
+        "Dyslexia",
+        "Apraxia",
+        "Aphasia",
+        "Agnosia"
+      ],
+      "correctAnswer": 2,
+      "relatedWords": ["w38"]
+    },
+    {
+      "id": "ex136",
+      "type": "multiple_choice",
+      "question": "'Their,' 'there,' and 'they're' are examples of:",
+      "options": [
+        "Synonyms",
+        "Homophones",
+        "Antonyms",
+        "Cognates"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w41"]
+    },
+    {
+      "id": "ex137",
+      "type": "multiple_choice",
+      "question": "A newly coined word entering a language is a:",
+      "options": [
+        "Archaism",
+        "Neologism",
+        "Euphemism",
+        "Colloquialism"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w42"]
+    },
+    {
+      "id": "ex138",
+      "type": "multiple_choice",
+      "question": "Patterns of rhythm, stress, and intonation in speech constitute:",
+      "options": [
+        "Phonology",
+        "Morphology",
+        "Prosody",
+        "Syntax"
+      ],
+      "correctAnswer": 2,
+      "relatedWords": ["w43"]
+    },
+    {
+      "id": "ex139",
+      "type": "multiple_choice",
+      "question": "English 'mother' and German 'Mutter' are:",
+      "options": [
+        "Homophones",
+        "Synonyms",
+        "Cognates",
+        "Neologisms"
+      ],
+      "correctAnswer": 2,
+      "relatedWords": ["w44"]
+    },
+    {
+      "id": "ex140",
+      "type": "multiple_choice",
+      "question": "Unconscious knowledge of grammar enabling language production is:",
+      "options": [
+        "Linguistic performance",
+        "Linguistic competence",
+        "Universal grammar",
+        "Generative capacity"
+      ],
+      "correctAnswer": 1,
+      "relatedWords": ["w45"]
+    },
+    {
+      "id": "ex141",
+      "type": "fill_blank",
+      "question": "'The White House announced' uses _____, substituting location for the administration.",
+      "correctAnswer": "metonymy",
+      "relatedWords": ["w47"]
+    },
+    {
+      "id": "ex142",
+      "type": "fill_blank",
+      "question": "A _____ is a statement that is true by logical necessity, like 'A bachelor is unmarried.'",
+      "correctAnswer": "tautology",
+      "relatedWords": ["w48"]
+    },
+    {
+      "id": "ex143",
+      "type": "fill_blank",
+      "question": "When a pronoun refers forward to a later noun, it's called _____.",
+      "correctAnswer": "cataphora",
+      "relatedWords": ["w49"]
+    },
+    {
+      "id": "ex144",
+      "type": "fill_blank",
+      "question": "The consonants /k/ and /g/ are _____ sounds produced with the back of the tongue.",
+      "correctAnswer": "velar",
+      "relatedWords": ["w50"]
+    },
+    {
+      "id": "ex145",
+      "type": "fill_blank",
+      "question": "_____ examines language use in texts and conversations beyond individual sentences.",
+      "correctAnswer": "Discourse analysis",
+      "relatedWords": ["w35"]
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "question": "The patterns of stress and intonation in speech are called _____.",
+      "correctAnswer": "prosody",
+      "relatedWords": ["w43"]
+    },
+    {
+      "id": "ex147",
+      "type": "fill_blank",
+      "question": "Actual language use in concrete situations, including errors, is linguistic _____.",
+      "correctAnswer": "performance",
+      "relatedWords": ["w46"]
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "question": "Words sharing a common etymological origin are called _____.",
+      "correctAnswer": "cognates",
+      "relatedWords": ["w44"]
+    },
+    {
+      "id": "ex149",
+      "type": "fill_blank",
+      "question": "Words that sound identical but have different meanings are _____.",
+      "correctAnswer": "homophones",
+      "relatedWords": ["w41"]
+    },
+    {
+      "id": "ex150",
+      "type": "fill_blank",
+      "question": "A _____ is a newly coined word or expression that enters the language.",
+      "correctAnswer": "neologism",
+      "relatedWords": ["w42"]
     }
   ]
 }
