@@ -1,0 +1,101 @@
+{
+  "id": "c1-speaking-week-7",
+  "type": "speaking",
+  "level": "C1",
+  "weekId": "week-7",
+  "title": "Technical Communication and Product Pitches",
+  "description": "Presenting technical concepts and products persuasively",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c1-s7-s1",
+      "title": "Explaining Technical Concepts",
+      "description": "Making complex technology accessible to non-technical audiences",
+      "techniques": [
+        {
+          "technique": "Analogy",
+          "description": "Relate unfamiliar concepts to familiar ones",
+          "example": "Think of an API as a waiter in a restaurant. You don't go into the kitchen yourself—you tell the waiter what you want, and they communicate with the kitchen and bring back your order."
+        },
+        {
+          "technique": "Concrete examples",
+          "description": "Illustrate abstract concepts with specific cases",
+          "example": "When I say 'machine learning,' here's what that looks like in practice: every time you see a 'recommended for you' section, that's a model trained on your behavior predicting what you might like."
+        },
+        {
+          "technique": "Building blocks",
+          "description": "Introduce concepts incrementally",
+          "example": "First, let me explain what the cloud is. Once that's clear, we can talk about how AI services work in the cloud."
+        }
+      ]
+    },
+    {
+      "id": "c1-s7-s2",
+      "title": "Product Pitch Structure",
+      "description": "Organizing persuasive product presentations",
+      "framework": [
+        {
+          "element": "Problem statement",
+          "purpose": "Establish pain point",
+          "example": "Every day, your team spends 3 hours manually updating spreadsheets—time they could spend on strategic work."
+        },
+        {
+          "element": "Solution overview",
+          "purpose": "Present your product as the answer",
+          "example": "Our platform automates data synchronization across your tools, eliminating manual entry entirely."
+        },
+        {
+          "element": "Demonstration",
+          "purpose": "Show, don't just tell",
+          "example": "Let me show you how this works. Watch as I connect these two systems—the data flows automatically."
+        },
+        {
+          "element": "Differentiation",
+          "purpose": "Explain why your solution is better",
+          "example": "Unlike competitors, we offer native integration with your existing stack—no middleware required."
+        },
+        {
+          "element": "Call to action",
+          "purpose": "Clear next step",
+          "example": "I'd like to set up a pilot program with your team. Can we schedule a technical deep-dive next week?"
+        }
+      ]
+    },
+    {
+      "id": "c1-s7-s3",
+      "title": "Handling Technical Questions",
+      "description": "Responding to questions about technical products or systems",
+      "strategies": [
+        {
+          "scenario": "Question beyond your expertise",
+          "response": "That's a great question. The technical architecture is outside my direct expertise, but I can connect you with our engineering team for a detailed discussion."
+        },
+        {
+          "scenario": "Security/privacy concerns",
+          "response": "Security is fundamental to our design. Let me walk you through our approach: we use end-to-end encryption, conduct regular third-party audits, and comply with SOC 2 Type II requirements."
+        },
+        {
+          "scenario": "Comparison to competitor",
+          "response": "I'm familiar with their product. The key difference is in our approach to X. Let me explain why we made different design choices."
+        }
+      ]
+    }
+  ],
+  "practiceScenarios": [
+    {
+      "id": "c1-s7-sc1",
+      "title": "Technical Concept Explanation",
+      "context": "Explain blockchain technology to a business executive who has heard the term but doesn't understand it.",
+      "task": "Make the concept accessible without oversimplifying.",
+      "sampleResponse": "Think of blockchain as a shared notebook that everyone can read but no one can erase or alter. When someone makes an entry, everyone gets a copy, and the entries are locked with a cryptographic seal. For your business, this matters because it creates a single source of truth that all parties can trust. Consider supply chain tracking: currently, you rely on each supplier's records, which may conflict. With blockchain, there's one shared record that everyone can verify but no one can manipulate. The technology isn't magic—it has real costs in terms of speed and energy—but for applications where trust and verification matter, it offers genuine advantages over traditional databases."
+    },
+    {
+      "id": "c1-s7-sc2",
+      "title": "Product Demo Presentation",
+      "context": "You're demonstrating a project management tool to potential customers.",
+      "task": "Present the key features and differentiation in 2 minutes.",
+      "sampleResponse": "Let me show you how our platform solves three problems you're facing today. First, visibility: right now, you probably check three different tools to understand project status. Our unified dashboard pulls everything into one view—tasks, documents, communications, and timelines. Second, automation: notice how when I mark this task complete, the dependent task automatically activates and the assignee gets notified. No manual follow-up required. Third—and this is our key differentiator—AI-powered risk detection. See this warning flag? The system identified that this task is trending late based on historical patterns and automatically suggested resource reallocation. Our competitors track what happened; we help you see what's about to happen. Would you like to see how this would work with your actual project data?"
+    }
+  ]
+}

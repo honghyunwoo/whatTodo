@@ -1,0 +1,100 @@
+{
+  "id": "c1-reading-week-8",
+  "type": "reading",
+  "level": "C1",
+  "weekId": "week-8",
+  "title": "Democracy and the Public Sphere",
+  "description": "Analyzing discourse on democratic participation and public communication",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passage": {
+    "title": "The Crisis of Public Discourse",
+    "author": "Adapted from political communication sources",
+    "paragraphs": [
+      "Democratic governance presupposes informed citizens capable of rational deliberation. But what happens when the conditions for such deliberation erode? Habermas described the 'public sphere' as a domain between private life and state power where citizens could engage in reasoned debate about matters of common concern. The coffee houses of the 18th century, the newspapers of the 19th, and the broadcast media of the 20th all approximated this ideal, however imperfectly. Each created spaces where diverse views could encounter one another and where claims could be tested against evidence and argument.",
+      "The digital transformation has both expanded and fragmented this public sphere. On one hand, more voices can participate than ever before; barriers to publishing have essentially vanished. On the other, the algorithmic curation of information means we increasingly inhabit different informational realities. The newspaper, for all its biases, presented a common world to its readers; the personalized news feed presents each user with a different world. When we lack common facts, common deliberation becomes impossible. We talk past one another, each convinced the other is ignorant or malicious.",
+      "The degradation of public discourse cannot be blamed on technology alone. Declining trust in institutions—media, government, expertise—reflects deeper social fractures. When elites are perceived as having failed or as serving only themselves, their claims to knowledge are dismissed. The retreat into partisan camps is partly a search for community in an atomized society. The appeal of conspiracy theories lies not just in their explanatory power but in the belonging they confer: to believe is to join a community of believers. Combating misinformation requires addressing these underlying conditions, not just correcting individual falsehoods.",
+      "Rebuilding the public sphere will require both technological and civic innovation. Platform redesign that prioritizes accuracy and understanding over engagement would help, but so would investment in local journalism, civic education, and institutions that bring diverse citizens together. The stakes are high: if we cannot deliberate together, we cannot govern ourselves. Democracy becomes merely a competition between hostile tribes, each seeking to impose its will on the other. This is not a future we should accept."
+    ]
+  },
+  "questions": [
+    {
+      "id": "c1-r8-q1",
+      "type": "main-idea",
+      "question": "What is the central problem the passage identifies?",
+      "options": [
+        "Too much information is available online",
+        "The conditions for democratic deliberation are eroding",
+        "Technology is inherently harmful to democracy",
+        "People are less intelligent than before"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage asks 'what happens when the conditions for such deliberation erode?' and describes the fragmentation of the public sphere"
+    },
+    {
+      "id": "c1-r8-q2",
+      "type": "detail",
+      "question": "According to the passage, how has digital transformation affected the public sphere?",
+      "options": [
+        "It has only expanded public participation",
+        "It has only fragmented public discourse",
+        "It has both expanded participation and fragmented discourse",
+        "It has had no significant effect"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'The digital transformation has both expanded and fragmented this public sphere'"
+    },
+    {
+      "id": "c1-r8-q3",
+      "type": "inference",
+      "question": "Why does the passage contrast newspapers with personalized news feeds?",
+      "options": [
+        "To argue newspapers were always accurate",
+        "To show both present biased information",
+        "To illustrate how common informational ground has been lost",
+        "To suggest we should return to print media"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'The newspaper, for all its biases, presented a common world to its readers; the personalized news feed presents each user with a different world'"
+    },
+    {
+      "id": "c1-r8-q4",
+      "type": "vocabulary",
+      "question": "What does 'atomized society' refer to in this context?",
+      "options": [
+        "A society focused on physics",
+        "A society broken into isolated individuals lacking community",
+        "A society with atomic weapons",
+        "A highly scientific society"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In context, 'atomized society' refers to social fragmentation, contrasted with the 'search for community'"
+    },
+    {
+      "id": "c1-r8-q5",
+      "type": "analysis",
+      "question": "According to the passage, what partly explains the appeal of conspiracy theories?",
+      "options": [
+        "Their truth value",
+        "The belonging and community they confer",
+        "Their scientific basis",
+        "Media coverage of them"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'The appeal of conspiracy theories lies not just in their explanatory power but in the belonging they confer'"
+    },
+    {
+      "id": "c1-r8-q6",
+      "type": "synthesis",
+      "question": "What does the passage suggest is needed to rebuild the public sphere?",
+      "options": [
+        "Purely technological solutions",
+        "Purely civic solutions",
+        "Both technological and civic innovation",
+        "Abandoning digital platforms entirely"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Rebuilding the public sphere will require both technological and civic innovation'"
+    }
+  ]
+}

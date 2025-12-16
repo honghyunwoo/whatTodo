@@ -48,6 +48,8 @@ const LEVEL_EXPECTATIONS: Record<CEFRLevel, { minWords: number; maxWords: number
   A2: { minWords: 50, maxWords: 120, complexity: 'compound sentences, everyday vocabulary' },
   B1: { minWords: 80, maxWords: 180, complexity: 'complex sentences, varied vocabulary' },
   B2: { minWords: 120, maxWords: 250, complexity: 'sophisticated structures, nuanced vocabulary' },
+  C1: { minWords: 180, maxWords: 350, complexity: 'advanced structures, precise vocabulary' },
+  C2: { minWords: 250, maxWords: 500, complexity: 'native-level fluency, stylistic mastery' },
 };
 
 // Common opening phrases
@@ -387,7 +389,7 @@ class WritingService {
     let score = Math.round(vocabularyRatio * 100);
 
     // Level-based adjustment
-    const levelBonus: Record<CEFRLevel, number> = { A1: 20, A2: 15, B1: 10, B2: 5 };
+    const levelBonus: Record<CEFRLevel, number> = { A1: 20, A2: 15, B1: 10, B2: 5, C1: 0, C2: 0 };
     score += levelBonus[level] || 0;
 
     // Apply self-check adjustments

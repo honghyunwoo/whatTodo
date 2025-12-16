@@ -1,0 +1,191 @@
+{
+  "id": "week-1-vocab",
+  "weekId": "week-1",
+  "type": "vocabulary",
+  "level": "C2",
+  "title": "Scholarly & Literary Language",
+  "description": "Master sophisticated vocabulary for academic discourse and literary analysis.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "epistemological",
+      "pronunciation": "/ɪˌpɪstəməˈlɒdʒɪkəl/",
+      "meaning": "relating to the theory of knowledge and its methods",
+      "translation": "인식론적인",
+      "example": "The author's epistemological approach challenges traditional notions of truth.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w2",
+      "word": "obfuscate",
+      "pronunciation": "/ˈɒbfʌskeɪt/",
+      "meaning": "to make something unclear or difficult to understand",
+      "translation": "혼란시키다, 모호하게 하다",
+      "example": "The politician's response seemed designed to obfuscate rather than clarify.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w3",
+      "word": "antithetical",
+      "pronunciation": "/ˌæntɪˈθetɪkəl/",
+      "meaning": "directly opposed or contrasted; mutually incompatible",
+      "translation": "정반대의, 대조적인",
+      "example": "Their worldviews are fundamentally antithetical to one another.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w4",
+      "word": "excoriate",
+      "pronunciation": "/ɪkˈskɔːrieɪt/",
+      "meaning": "to criticize severely",
+      "translation": "혹평하다, 신랄하게 비판하다",
+      "example": "Critics excoriated the film for its superficial treatment of complex issues.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w5",
+      "word": "quintessential",
+      "pronunciation": "/ˌkwɪntɪˈsenʃəl/",
+      "meaning": "representing the most perfect example of a quality or class",
+      "translation": "전형적인, 정수의",
+      "example": "She is the quintessential Renaissance scholar—equally versed in arts and sciences.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w6",
+      "word": "ameliorate",
+      "pronunciation": "/əˈmiːliəreɪt/",
+      "meaning": "to make something bad or unsatisfactory better",
+      "translation": "개선하다, 호전시키다",
+      "example": "The new policies failed to ameliorate the underlying social inequalities.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w7",
+      "word": "perspicacious",
+      "pronunciation": "/ˌpɜːspɪˈkeɪʃəs/",
+      "meaning": "having keen mental perception and understanding",
+      "translation": "통찰력 있는, 예리한",
+      "example": "Her perspicacious analysis revealed patterns others had overlooked.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w8",
+      "word": "recondite",
+      "pronunciation": "/ˈrekəndaɪt/",
+      "meaning": "dealing with very profound or obscure subjects",
+      "translation": "심오한, 난해한",
+      "example": "The philosopher's recondite arguments are accessible only to specialists.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w9",
+      "word": "efficacious",
+      "pronunciation": "/ˌefɪˈkeɪʃəs/",
+      "meaning": "successful in producing a desired result; effective",
+      "translation": "효과적인, 효험 있는",
+      "example": "The treatment proved efficacious in the majority of clinical trials.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w10",
+      "word": "propitious",
+      "pronunciation": "/prəˈpɪʃəs/",
+      "meaning": "indicating a good chance of success; favorable",
+      "translation": "유리한, 좋은 징조의",
+      "example": "The economic conditions were propitious for launching the new venture.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w11",
+      "word": "exegesis",
+      "pronunciation": "/ˌeksɪˈdʒiːsɪs/",
+      "meaning": "critical explanation or interpretation of a text",
+      "translation": "주석, 해석",
+      "example": "His exegesis of the ancient manuscript offered revolutionary insights.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w12",
+      "word": "ineffable",
+      "pronunciation": "/ɪnˈefəbl/",
+      "meaning": "too great or extreme to be expressed in words",
+      "translation": "말로 표현할 수 없는",
+      "example": "The beauty of the sunset was utterly ineffable.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w13",
+      "word": "circumlocution",
+      "pronunciation": "/ˌsɜːkəmləˈkjuːʃən/",
+      "meaning": "the use of many words where fewer would suffice",
+      "translation": "우회적 표현, 에둘러 말하기",
+      "example": "The report's circumlocution made it difficult to identify the key points.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w14",
+      "word": "didactic",
+      "pronunciation": "/daɪˈdæktɪk/",
+      "meaning": "intended to teach, especially in a moralistic way",
+      "translation": "교훈적인, 설교조의",
+      "example": "Critics found the novel's didactic tone somewhat off-putting.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w15",
+      "word": "ineluctable",
+      "pronunciation": "/ˌɪnɪˈlʌktəbl/",
+      "meaning": "unable to be resisted or avoided; inevitable",
+      "translation": "피할 수 없는, 불가피한",
+      "example": "The ineluctable march of technological progress transforms societies.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w16",
+      "word": "verisimilitude",
+      "pronunciation": "/ˌverɪsɪˈmɪlɪtjuːd/",
+      "meaning": "the appearance of being true or real",
+      "translation": "진실다움, 있음직함",
+      "example": "The documentary's verisimilitude was undermined by several factual errors.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w17",
+      "word": "liminal",
+      "pronunciation": "/ˈlɪmɪnəl/",
+      "meaning": "occupying a position at, or on both sides of, a boundary",
+      "translation": "경계의, 문턱의",
+      "example": "Adolescence represents a liminal phase between childhood and adulthood.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w18",
+      "word": "palimpsest",
+      "pronunciation": "/ˈpælɪmpsest/",
+      "meaning": "something with layers of meaning; originally a reused manuscript",
+      "translation": "양피지 사본, 중층적 의미를 가진 것",
+      "example": "The city is a palimpsest of architectural styles spanning centuries.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w19",
+      "word": "prescient",
+      "pronunciation": "/ˈpresiənt/",
+      "meaning": "having or showing knowledge of events before they take place",
+      "translation": "선견지명이 있는",
+      "example": "The author's prescient warnings about climate change seem more relevant today.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w20",
+      "word": "apotheosis",
+      "pronunciation": "/əˌpɒθiˈəʊsɪs/",
+      "meaning": "the highest point of development; glorification to divine status",
+      "translation": "극치, 신격화",
+      "example": "This symphony represents the apotheosis of the Romantic musical tradition.",
+      "partOfSpeech": "noun"
+    }
+  ]
+}

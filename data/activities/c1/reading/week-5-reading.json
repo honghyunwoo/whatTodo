@@ -1,0 +1,100 @@
+{
+  "id": "c1-reading-week-5",
+  "type": "reading",
+  "level": "C1",
+  "weekId": "week-5",
+  "title": "The Economics of Climate Change",
+  "description": "Analyzing economic arguments in environmental policy discourse",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passage": {
+    "title": "Pricing the Future",
+    "author": "Adapted from environmental economics literature",
+    "paragraphs": [
+      "The fundamental challenge of climate economics is that it requires us to weigh present costs against future benefits—and specifically, to weigh the welfare of people alive today against the welfare of people not yet born. This is the discount rate problem. A high discount rate means future damages matter little in present calculations; a low rate treats future generations as deserving equal consideration. The choice is not merely technical; it is profoundly ethical. William Nordhaus, arguing for higher discount rates, suggests we should value the future less because future generations will likely be wealthier. Nicholas Stern, advocating near-zero discounting, counters that the mere accident of when people are born should not diminish their moral standing.",
+      "The economic case for climate action has strengthened considerably as the costs of clean technologies have plummeted. Solar photovoltaic costs have fallen 99 percent since 1976; battery storage costs have dropped 97 percent in two decades. In many regions, new renewable capacity is now cheaper than operating existing fossil fuel plants, let alone building new ones. This cost revolution upends earlier analyses that framed climate action as expensive virtue; it is increasingly simply good economics. Yet the transition faces obstacles beyond technology costs: stranded assets in fossil fuel infrastructure, political power of incumbent industries, and the challenge of international coordination.",
+      "Carbon pricing—whether through taxes or cap-and-trade systems—has emerged as economists' preferred policy instrument. The logic is compelling: if the price of carbon reflects its true social cost, market actors will efficiently reduce emissions wherever doing so costs less than the price. Yet carbon pricing has faced political headwinds, perceived as regressive (falling harder on lower-income households) and economically harmful (raising energy costs). The evidence suggests these concerns can be addressed through policy design—for instance, by returning carbon revenues as dividends to households—but the political challenges remain formidable.",
+      "Perhaps most fundamentally, climate economics forces us to confront the limits of economic reasoning itself. Markets fail when there are externalities—costs borne by third parties, including future generations, who did not consent to bear them. Climate change is the ultimate externality: global, intergenerational, and potentially irreversible. While economic analysis illuminates trade-offs and can guide policy design, the decision to act on climate ultimately rests on values that economics cannot adjudicate: our obligations to the future, to other species, to the planet that is our only home."
+    ]
+  },
+  "questions": [
+    {
+      "id": "c1-r5-q1",
+      "type": "main-idea",
+      "question": "What is the central tension in climate economics according to the passage?",
+      "options": [
+        "Technology versus regulation",
+        "Present costs versus future benefits and intergenerational ethics",
+        "National interests versus global cooperation",
+        "Economic growth versus environmental protection"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage frames the fundamental challenge as 'weighing present costs against future benefits' and the 'welfare of people alive today against the welfare of people not yet born'"
+    },
+    {
+      "id": "c1-r5-q2",
+      "type": "detail",
+      "question": "How much have solar photovoltaic costs fallen since 1976?",
+      "options": [
+        "50 percent",
+        "75 percent",
+        "90 percent",
+        "99 percent"
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Solar photovoltaic costs have fallen 99 percent since 1976'"
+    },
+    {
+      "id": "c1-r5-q3",
+      "type": "inference",
+      "question": "Why does the passage describe Nordhaus and Stern's disagreement as 'profoundly ethical'?",
+      "options": [
+        "Because they use different mathematical models",
+        "Because discount rates determine how we value future generations",
+        "Because carbon pricing is controversial",
+        "Because economists disagree on technology costs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The discount rate debate is ethical because it concerns whether 'the mere accident of when people are born should diminish their moral standing'"
+    },
+    {
+      "id": "c1-r5-q4",
+      "type": "vocabulary",
+      "question": "In this context, 'stranded assets' refers to:",
+      "options": [
+        "Natural resources that cannot be extracted",
+        "Investment in infrastructure that becomes obsolete or worthless",
+        "Assets located in remote areas",
+        "Debts that cannot be recovered"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Stranded assets in fossil fuel infrastructure' refers to investments that may lose value as the energy transition proceeds"
+    },
+    {
+      "id": "c1-r5-q5",
+      "type": "analysis",
+      "question": "According to the passage, why have carbon prices faced political opposition?",
+      "options": [
+        "They are economically inefficient",
+        "They are perceived as regressive and economically harmful",
+        "They cannot be implemented internationally",
+        "They favor fossil fuel companies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Carbon pricing is 'perceived as regressive (falling harder on lower-income households) and economically harmful (raising energy costs)'"
+    },
+    {
+      "id": "c1-r5-q6",
+      "type": "critical-evaluation",
+      "question": "What does the author suggest about the limits of economic analysis?",
+      "options": [
+        "It is entirely inadequate for climate policy",
+        "It can guide policy but cannot determine underlying values",
+        "It should replace ethical considerations entirely",
+        "It is only useful for short-term decisions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'The decision to act on climate ultimately rests on values that economics cannot adjudicate: our obligations to the future, to other species, to the planet'"
+    }
+  ]
+}

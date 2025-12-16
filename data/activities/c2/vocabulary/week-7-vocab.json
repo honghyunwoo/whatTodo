@@ -1,0 +1,108 @@
+{
+  "id": "c2-vocab-week-7",
+  "type": "vocabulary",
+  "level": "C2",
+  "weekId": "week-7",
+  "title": "Linguistics and Language Theory",
+  "description": "Specialized vocabulary for linguistic analysis and language philosophy",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "items": [
+    {
+      "id": "c2-v7-1",
+      "word": "pragmatics",
+      "definition": "The study of how context contributes to meaning beyond the literal semantic content",
+      "pronunciation": "/præɡˈmætɪks/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "화용론",
+      "example": "Pragmatics explains why 'Can you pass the salt?' is understood as a request, not a question about ability.",
+      "synonyms": ["contextual meaning", "speech act theory"],
+      "antonyms": ["semantics", "syntax"],
+      "collocations": ["Gricean pragmatics", "pragmatic inference", "pragmatic competence"]
+    },
+    {
+      "id": "c2-v7-2",
+      "word": "deixis",
+      "definition": "Words or phrases whose meaning depends on the context of utterance (person, place, time)",
+      "pronunciation": "/ˈdaɪksɪs/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "직시, 지시 표현",
+      "example": "'Here,' 'now,' and 'I' are deictic expressions—their reference shifts with each utterance.",
+      "synonyms": ["indexicality", "contextual reference"],
+      "antonyms": [],
+      "collocations": ["spatial deixis", "temporal deixis", "person deixis"]
+    },
+    {
+      "id": "c2-v7-3",
+      "word": "morpheme",
+      "definition": "The smallest meaningful unit in a language",
+      "pronunciation": "/ˈmɔːrfiːm/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "형태소",
+      "example": "'Unhappiness' contains three morphemes: 'un-', 'happy', and '-ness.'",
+      "synonyms": ["minimal unit", "bound/free morpheme"],
+      "antonyms": [],
+      "collocations": ["free morpheme", "bound morpheme", "derivational morpheme"]
+    },
+    {
+      "id": "c2-v7-4",
+      "word": "phoneme",
+      "definition": "The smallest unit of sound that distinguishes meaning in a language",
+      "pronunciation": "/ˈfoʊniːm/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "음소",
+      "example": "The /p/ and /b/ phonemes distinguish 'pat' from 'bat' in English.",
+      "synonyms": ["distinctive sound unit"],
+      "antonyms": ["allophone"],
+      "collocations": ["phonemic contrast", "phoneme inventory", "phonemic awareness"]
+    },
+    {
+      "id": "c2-v7-5",
+      "word": "performative",
+      "definition": "An utterance that performs an action by being spoken",
+      "pronunciation": "/pərˈfɔːrmətɪv/",
+      "partOfSpeech": "adjective/noun",
+      "koreanMeaning": "수행적 발화",
+      "example": "'I hereby pronounce you married' doesn't describe but performs the act of marrying.",
+      "synonyms": ["speech act", "illocutionary act"],
+      "antonyms": ["constative", "descriptive"],
+      "collocations": ["performative utterance", "Austin's performatives", "performative force"]
+    },
+    {
+      "id": "c2-v7-6",
+      "word": "presupposition",
+      "definition": "An implicit assumption that must be true for an utterance to be felicitous",
+      "pronunciation": "/ˌpriːsʌpəˈzɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "전제",
+      "example": "'Have you stopped lying?' presupposes that the addressee has been lying.",
+      "synonyms": ["implicit assumption", "background assumption"],
+      "antonyms": ["assertion", "implication"],
+      "collocations": ["presupposition trigger", "presupposition failure", "existential presupposition"]
+    },
+    {
+      "id": "c2-v7-7",
+      "word": "implicature",
+      "definition": "Meaning conveyed beyond what is literally said, through conversational inference",
+      "pronunciation": "/ɪmˈplɪkətʃər/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "함축",
+      "example": "Saying 'Some students passed' implicates that not all passed, though this isn't literally stated.",
+      "synonyms": ["conversational inference", "implied meaning"],
+      "antonyms": ["explicit statement"],
+      "collocations": ["Gricean implicature", "scalar implicature", "conversational implicature"]
+    },
+    {
+      "id": "c2-v7-8",
+      "word": "linguistic relativism",
+      "definition": "The hypothesis that language influences or determines thought patterns",
+      "pronunciation": "/lɪŋˈɡwɪstɪk ˈrelətɪvɪzəm/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "언어 상대주의",
+      "example": "Linguistic relativism suggests that speakers of different languages may perceive the world differently.",
+      "synonyms": ["Sapir-Whorf hypothesis", "linguistic determinism"],
+      "antonyms": ["linguistic universalism"],
+      "collocations": ["strong/weak relativism", "Whorfian hypothesis", "linguistic relativity"]
+    }
+  ]
+}

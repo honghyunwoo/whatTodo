@@ -1,0 +1,108 @@
+{
+  "id": "c1-vocab-week-5",
+  "type": "vocabulary",
+  "level": "C1",
+  "weekId": "week-5",
+  "title": "Environmental and Scientific Terminology",
+  "description": "Specialized vocabulary for environmental science and sustainability discourse",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "items": [
+    {
+      "id": "c1-v5-1",
+      "word": "sustainability",
+      "definition": "The capacity to maintain ecological processes and meet present needs without compromising future generations",
+      "pronunciation": "/səˌsteɪnəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "지속가능성",
+      "example": "Corporate sustainability reports now include environmental, social, and governance metrics.",
+      "synonyms": ["durability", "viability", "maintainability"],
+      "antonyms": ["unsustainability", "depletion"],
+      "collocations": ["environmental sustainability", "sustainability goals", "sustainability report"]
+    },
+    {
+      "id": "c1-v5-2",
+      "word": "biodiversity",
+      "definition": "The variety of plant and animal life in a particular habitat or ecosystem",
+      "pronunciation": "/ˌbaɪoʊdaɪˈvɜːrsəti/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "생물다양성",
+      "example": "The Amazon rainforest represents the greatest biodiversity on Earth.",
+      "synonyms": ["biological diversity", "species variety", "ecosystem richness"],
+      "antonyms": ["monoculture", "uniformity"],
+      "collocations": ["biodiversity loss", "biodiversity hotspot", "protect biodiversity"]
+    },
+    {
+      "id": "c1-v5-3",
+      "word": "anthropogenic",
+      "definition": "Originating from human activity",
+      "pronunciation": "/ˌænθrəpoʊˈdʒenɪk/",
+      "partOfSpeech": "adjective",
+      "koreanMeaning": "인위적인, 인간 활동으로 인한",
+      "example": "Anthropogenic climate change is driven primarily by greenhouse gas emissions.",
+      "synonyms": ["human-caused", "man-made", "human-induced"],
+      "antonyms": ["natural", "biogenic"],
+      "collocations": ["anthropogenic emissions", "anthropogenic factors", "anthropogenic impact"]
+    },
+    {
+      "id": "c1-v5-4",
+      "word": "mitigation",
+      "definition": "The action of reducing severity, seriousness, or painfulness of something",
+      "pronunciation": "/ˌmɪtɪˈɡeɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "완화, 경감",
+      "example": "Climate mitigation strategies include transitioning to renewable energy sources.",
+      "synonyms": ["reduction", "alleviation", "moderation"],
+      "antonyms": ["aggravation", "exacerbation"],
+      "collocations": ["climate mitigation", "risk mitigation", "mitigation measures"]
+    },
+    {
+      "id": "c1-v5-5",
+      "word": "ecosystem",
+      "definition": "A biological community of interacting organisms and their physical environment",
+      "pronunciation": "/ˈiːkoʊˌsɪstəm/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "생태계",
+      "example": "Coral reefs are fragile ecosystems that support countless marine species.",
+      "synonyms": ["biome", "habitat", "ecological community"],
+      "antonyms": [],
+      "collocations": ["marine ecosystem", "ecosystem services", "ecosystem collapse"]
+    },
+    {
+      "id": "c1-v5-6",
+      "word": "resilience",
+      "definition": "The capacity to recover quickly from difficulties; ecological ability to absorb disturbance",
+      "pronunciation": "/rɪˈzɪliəns/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "회복력, 탄력성",
+      "example": "Building climate resilience requires both adaptation and mitigation strategies.",
+      "synonyms": ["adaptability", "flexibility", "robustness"],
+      "antonyms": ["fragility", "vulnerability"],
+      "collocations": ["climate resilience", "ecosystem resilience", "build resilience"]
+    },
+    {
+      "id": "c1-v5-7",
+      "word": "sequestration",
+      "definition": "The process of capturing and storing atmospheric carbon dioxide",
+      "pronunciation": "/ˌsiːkwəˈstreɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "격리, 탄소 포집",
+      "example": "Forest sequestration plays a vital role in removing CO2 from the atmosphere.",
+      "synonyms": ["capture", "storage", "isolation"],
+      "antonyms": ["release", "emission"],
+      "collocations": ["carbon sequestration", "geological sequestration", "natural sequestration"]
+    },
+    {
+      "id": "c1-v5-8",
+      "word": "renewable",
+      "definition": "Capable of being replaced by natural processes in a relatively short time",
+      "pronunciation": "/rɪˈnjuːəbl/",
+      "partOfSpeech": "adjective",
+      "koreanMeaning": "재생 가능한",
+      "example": "Renewable energy sources like solar and wind are key to decarbonization.",
+      "synonyms": ["sustainable", "replenishable", "inexhaustible"],
+      "antonyms": ["non-renewable", "finite", "exhaustible"],
+      "collocations": ["renewable energy", "renewable resources", "renewable power"]
+    }
+  ]
+}

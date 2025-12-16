@@ -1,0 +1,108 @@
+{
+  "id": "c2-vocab-week-8",
+  "type": "vocabulary",
+  "level": "C2",
+  "weekId": "week-8",
+  "title": "Advanced Academic and Intellectual Discourse",
+  "description": "Sophisticated vocabulary for the highest levels of academic expression",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "items": [
+    {
+      "id": "c2-v8-1",
+      "word": "aporia",
+      "definition": "A state of puzzlement or doubt; an irresolvable internal contradiction in a text or argument",
+      "pronunciation": "/əˈpɔːriə/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "아포리아, 난제",
+      "example": "Derrida's reading reveals the aporia at the heart of Western metaphysics.",
+      "synonyms": ["paradox", "impasse", "perplexity"],
+      "antonyms": ["resolution", "clarity"],
+      "collocations": ["reach an aporia", "textual aporia", "Derridean aporia"]
+    },
+    {
+      "id": "c2-v8-2",
+      "word": "chiasmus",
+      "definition": "A rhetorical figure in which two or more clauses are balanced against each other by reversing their structures",
+      "pronunciation": "/kaɪˈæzməs/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "교차대구법",
+      "example": "'Ask not what your country can do for you; ask what you can do for your country' is a famous chiasmus.",
+      "synonyms": ["antimetabole", "reversal"],
+      "antonyms": [],
+      "collocations": ["rhetorical chiasmus", "employ chiasmus", "chiasmic structure"]
+    },
+    {
+      "id": "c2-v8-3",
+      "word": "polysemy",
+      "definition": "The coexistence of multiple meanings for a single word or phrase",
+      "pronunciation": "/pəˈlɪsəmi/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "다의성",
+      "example": "The polysemy of 'bank' (riverbank vs. financial institution) rarely causes confusion due to context.",
+      "synonyms": ["multiple meaning", "semantic ambiguity"],
+      "antonyms": ["monosemy", "univocality"],
+      "collocations": ["lexical polysemy", "systematic polysemy", "polysemic word"]
+    },
+    {
+      "id": "c2-v8-4",
+      "word": "dialectic",
+      "definition": "The process of arriving at truth through the exchange of logical arguments; thesis-antithesis-synthesis",
+      "pronunciation": "/ˌdaɪəˈlektɪk/",
+      "partOfSpeech": "noun/adjective",
+      "koreanMeaning": "변증법",
+      "example": "Hegel's dialectic traces how contradictions drive historical development.",
+      "synonyms": ["dialogue", "logical argumentation"],
+      "antonyms": [],
+      "collocations": ["Hegelian dialectic", "dialectical method", "dialectical materialism"]
+    },
+    {
+      "id": "c2-v8-5",
+      "word": "intersubjectivity",
+      "definition": "The shared, overlapping understanding between conscious minds; collective meaning-making",
+      "pronunciation": "/ˌɪntərsʌbdʒekˈtɪvəti/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "상호주관성",
+      "example": "Husserl argued that intersubjectivity is necessary for the constitution of objectivity.",
+      "synonyms": ["shared consciousness", "mutual understanding"],
+      "antonyms": ["solipsism", "subjectivity"],
+      "collocations": ["transcendental intersubjectivity", "intersubjective agreement", "intersubjective constitution"]
+    },
+    {
+      "id": "c2-v8-6",
+      "word": "teleology",
+      "definition": "The explanation of phenomena in terms of purposes or goals rather than causes",
+      "pronunciation": "/ˌteliˈɒlədʒi/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "목적론",
+      "example": "Aristotle's teleology holds that natural entities have inherent purposes.",
+      "synonyms": ["finalism", "purpose-based explanation"],
+      "antonyms": ["mechanism", "causal explanation"],
+      "collocations": ["natural teleology", "teleological argument", "teleological explanation"]
+    },
+    {
+      "id": "c2-v8-7",
+      "word": "synecdoche",
+      "definition": "A figure of speech in which a part represents the whole or vice versa",
+      "pronunciation": "/sɪˈnekdəki/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "제유법",
+      "example": "'All hands on deck' uses 'hands' as synecdoche for sailors.",
+      "synonyms": ["part for whole", "representative figure"],
+      "antonyms": [],
+      "collocations": ["rhetorical synecdoche", "use synecdoche", "synecdochic relation"]
+    },
+    {
+      "id": "c2-v8-8",
+      "word": "prolepsis",
+      "definition": "The representation of a future event as already accomplished; anticipation",
+      "pronunciation": "/proʊˈlepsɪs/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "예시법, 선취법",
+      "example": "The novel's opening sentence is proleptic, revealing the ending before it occurs.",
+      "synonyms": ["anticipation", "flash-forward", "foreshadowing"],
+      "antonyms": ["analepsis", "flashback"],
+      "collocations": ["narrative prolepsis", "proleptic statement", "temporal prolepsis"]
+    }
+  ]
+}

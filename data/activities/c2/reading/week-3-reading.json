@@ -1,0 +1,100 @@
+{
+  "id": "c2-reading-week-3",
+  "type": "reading",
+  "level": "C2",
+  "weekId": "week-3",
+  "title": "The Ethics of Attention",
+  "description": "Engaging with interdisciplinary discourse on consciousness, ethics, and technology",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passage": {
+    "title": "Attention as Moral Practice",
+    "author": "Adapted from philosophy and ethics sources",
+    "paragraphs": [
+      "The attention economy, we are told, is extractive: social media platforms, streaming services, and apps compete to capture and monetize our limited attentional resources. This framing, while illuminating, may inadvertently reduce attention to a commodity—something we possess in finite quantities and can either spend wisely or squander. But attention is not merely a resource to be managed; it is, as philosopher Simone Weil argued, the substance of moral life itself. 'Attention, taken to its highest degree,' Weil wrote, 'is the same thing as prayer.' To attend to another person, truly and fully, is already an ethical act.",
+      "This conception invites us to reconsider not just our digital habits but our basic orientation toward the world. The contemporary malaise of distraction is not merely inefficiency; it is a form of moral erosion. When we half-attend—scrolling while our child speaks, composing emails during meetings, toggling between tasks—we enact a kind of violence against the present. The objects of our attention are demoted; they become interruptions rather than encounters. What is lost is not just productivity but the capacity for genuine meeting, what Martin Buber called the I-Thou relation.",
+      "Yet we must resist romanticizing attention as something spontaneous and unmediated. Attention is always structured by what phenomenologists call 'horizons of relevance'—the background frameworks that determine what shows up as significant. These horizons are themselves shaped by culture, education, and increasingly, algorithmic curation. The platforms we decry for fragmenting our attention are simultaneously shaping what we find attention-worthy. The task, then, is not merely to attend more fully but to interrogate the conditions of attention itself.",
+      "What would an ethics of attention look like in practice? It might begin with the simple but radical act of unitasking—giving one thing our undivided presence. It might involve cultivating what the Buddhists call 'bare attention': a receptivity that does not immediately categorize and evaluate. And it might require structural critique: asking who benefits when our attention is fragmented, and what forms of solidarity become possible when we attend together. Attention, in this light, is not a private resource but a collective practice."
+    ]
+  },
+  "questions": [
+    {
+      "id": "c2-r3-q1",
+      "type": "main-idea",
+      "question": "What is the author's central thesis?",
+      "options": [
+        "Social media has destroyed our ability to focus",
+        "Attention is a moral practice, not merely an economic resource",
+        "Buddhist meditation is the solution to distraction",
+        "Technology companies should be regulated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The author argues that attention should be understood as 'the substance of moral life' rather than just a resource in the attention economy"
+    },
+    {
+      "id": "c2-r3-q2",
+      "type": "detail",
+      "question": "What does Simone Weil's quote suggest about the nature of attention?",
+      "options": [
+        "Attention is a scarce economic resource",
+        "At its highest, attention is equivalent to spiritual practice",
+        "Attention can only be directed at religious objects",
+        "Prayer requires distraction-free environments"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Weil wrote that 'attention, taken to its highest degree, is the same thing as prayer'"
+    },
+    {
+      "id": "c2-r3-q3",
+      "type": "inference",
+      "question": "What does the author mean by describing half-attention as 'violence against the present'?",
+      "options": [
+        "Distraction causes physical harm to those around us",
+        "Half-attention demotes the present moment and prevents genuine encounter",
+        "We should avoid technology to preserve mental health",
+        "Violence is always a consequence of inattention"
+          ],
+      "correctAnswer": 1,
+      "explanation": "The passage explains that half-attention demotes 'the objects of our attention' making them 'interruptions rather than encounters'"
+    },
+    {
+      "id": "c2-r3-q4",
+      "type": "vocabulary",
+      "question": "In this context, 'horizons of relevance' refers to:",
+      "options": [
+        "The physical limits of peripheral vision",
+        "Background frameworks determining what appears significant",
+        "The timeline of social media feeds",
+        "Geographical boundaries of attention"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Horizons of relevance' are 'background frameworks that determine what shows up as significant'"
+    },
+    {
+      "id": "c2-r3-q5",
+      "type": "critical-analysis",
+      "question": "Why does the author caution against 'romanticizing attention'?",
+      "options": [
+        "Attention is always negative",
+        "Romantic love distracts from work",
+        "Attention is always shaped by cultural and algorithmic structures",
+        "Some objects do not deserve attention"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Attention 'is always structured by horizons of relevance' shaped by 'culture, education, and increasingly, algorithmic curation'"
+    },
+    {
+      "id": "c2-r3-q6",
+      "type": "synthesis",
+      "question": "How does the author's final paragraph reframe the problem of attention?",
+      "options": [
+        "From individual habit to collective practice",
+        "From ethical to economic terms",
+        "From philosophical to scientific analysis",
+        "From Buddhist to Christian perspective"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The conclusion moves from individual unitasking to 'structural critique' and 'forms of solidarity,' framing attention as 'a collective practice'"
+    }
+  ]
+}

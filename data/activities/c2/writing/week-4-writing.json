@@ -1,0 +1,84 @@
+{
+  "id": "c2-writing-week-4",
+  "type": "writing",
+  "level": "C2",
+  "weekId": "week-4",
+  "title": "The Theoretical Essay",
+  "description": "Developing extended theoretical arguments with scholarly precision",
+  "estimatedMinutes": 35,
+  "xpReward": 65,
+  "sections": [
+    {
+      "id": "c2-w4-s1",
+      "title": "The Architecture of Theoretical Argument",
+      "description": "Structuring complex theoretical claims",
+      "principles": [
+        {
+          "name": "The problematic",
+          "description": "Establish the theoretical problem that motivates the essay",
+          "example": "The question of how ideology secures consent has generated two opposed traditions: one emphasizing cognitive error, the other material interests. This essay argues that both miss something crucial about the affective dimension of belief."
+        },
+        {
+          "name": "Situating the intervention",
+          "description": "Position your argument within existing debates",
+          "example": "Against the dominant interpretation of Foucault as a theorist of domination, I read his later work on governmentality as offering resources for thinking freedom within, rather than against, power."
+        },
+        {
+          "name": "The dialectical move",
+          "description": "Advance through negation and sublation",
+          "example": "The traditional reading is not wrong so much as incomplete. It captures X but misses Y, which becomes visible only when we..."
+        }
+      ]
+    },
+    {
+      "id": "c2-w4-s2",
+      "title": "Working with Sources",
+      "description": "Integrating theoretical sources into your argument",
+      "techniques": [
+        {
+          "name": "Exposition and critique",
+          "description": "Present a position accurately before evaluating it",
+          "weak": "Habermas's theory of communicative action fails because...",
+          "strong": "Habermas's theory of communicative action rests on the claim that... This yields the insight that... However, the framework encounters difficulty when..."
+        },
+        {
+          "name": "Strategic quotation",
+          "description": "Quote not for authority but for precision",
+          "example": "Foucault's formulation is precise: power 'produces; it produces reality; it produces domains of objects and rituals of truth.' Note the shift from repressive to productive register."
+        },
+        {
+          "name": "Putting theorists in dialogue",
+          "description": "Create productive encounters between thinkers",
+          "example": "Reading Butler through Bourdieu—and vice versa—reveals that what Butler calls performativity and what Bourdieu calls habitus address the same problem from different angles."
+        }
+      ]
+    },
+    {
+      "id": "c2-w4-s3",
+      "title": "Theoretical Rhetoric",
+      "description": "Stylistic features of theoretical writing",
+      "features": [
+        {
+          "name": "Conceptual precision",
+          "principle": "Define technical terms with care",
+          "example": "By 'neoliberalism' I mean not merely economic policy but a rationality that extends market logic to all domains of life—what Wendy Brown calls 'economization.'"
+        },
+        {
+          "name": "Productive ambiguity",
+          "principle": "Some ambiguity preserves complexity",
+          "example": "The subject is at once produced by power and the condition of its exercise. This productive paradox—rather than contradiction—is central to Foucault's analytics."
+        },
+        {
+          "name": "Meta-theoretical reflexivity",
+          "principle": "Acknowledge the conditions of your own discourse",
+          "example": "The very categories through which I frame this analysis are themselves historically contingent, a limitation I cannot transcend but only acknowledge."
+        }
+      ]
+    }
+  ],
+  "writingTask": {
+    "title": "Theoretical Essay on Technology and Subjectivity",
+    "prompt": "Write an opening section (300-350 words) for a theoretical essay exploring how digital technologies shape contemporary subjectivity. Establish the problematic, situate your intervention in existing debates, and preview your argument.",
+    "sampleResponse": "The Algorithmic Subject: Technology, Desire, and the Production of the Self\n\nThe question of how subjects are formed—how the self-understanding 'I' emerges from biological and social processes—has occupied philosophy from at least Descartes onward. But this perennial question takes on new urgency in an age of pervasive computation. We interface with algorithms that track our movements, predict our preferences, and increasingly mediate our relations with others and ourselves. If, as Foucault argued, the subject is an effect of power-knowledge, what new forms of subjectivity emerge when power-knowledge operates through algorithmic systems?\n\nTwo dominant approaches to this question prove inadequate. The first, techno-pessimism, treats digital technology as external imposition, corrupting an authentic humanity that preceded it. The second, techno-optimism, celebrates the expanded possibilities of digital self-fashioning. Both share an assumption I want to challenge: that there exists a subject prior to and independent of technological mediation. Against this, I argue that human subjectivity has always been technically constituted—that there is no 'natural' self corrupted or enhanced by technology, only different configurations of the human-technical assemblage.\n\nThis does not, however, render all configurations equivalent. Following Bernard Stiegler, I contend that contemporary digital environments produce a particular form of subjectivity characterized by what I term 'externalized desire'—a condition in which the subject's wants are increasingly generated by algorithmic systems optimizing for engagement rather than flourishing. The recommendation engine does not simply satisfy existing preferences; it participates in producing the preferences it claims to serve.\n\nThe essay proceeds in three movements. First, I excavate the philosophical resources for understanding technical constitution of subjectivity. Second, I analyze the specific mechanisms through which algorithmic systems shape desire. Third, I consider what possibilities remain for critical agency within, rather than outside, the algorithmic condition. My aim is neither celebration nor condemnation but what Foucault called 'problematization'—rendering strange what has become natural."
+  }
+}

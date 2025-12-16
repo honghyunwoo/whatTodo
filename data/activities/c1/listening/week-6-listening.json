@@ -1,0 +1,116 @@
+{
+  "id": "c1-listening-week-6",
+  "type": "listening",
+  "level": "C1",
+  "weekId": "week-6",
+  "title": "Legal Proceedings and Governance Debates",
+  "description": "Understanding formal legal and political discourse",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passages": [
+    {
+      "id": "c1-l6-p1",
+      "title": "Supreme Court Oral Arguments",
+      "context": "Legal proceedings transcript",
+      "transcript": "Justice Martinez: Counsel, I'd like to press you on the limiting principle. If we accept your argument that the Commerce Clause permits Congress to mandate this activity, what activity could it not mandate? Attorney: Your Honor, the distinction lies in the unique characteristics of the healthcare market. Everyone will eventually require healthcare; no one can opt out of the market entirely. Justice Martinez: But couldn't that reasoning apply to food markets? Everyone needs food. Attorney: The difference, Your Honor, is that the timing of healthcare consumption is unpredictable. Uncompensated emergency care shifts costs to others in a way that food consumption does not. Justice Lee: But aren't you asking us to make economic policy judgments that are properly left to the legislature? Attorney: Not at all, Your Honor. We're asking only that the Court apply its established Commerce Clause precedents, which have consistently held that Congress may regulate activities that substantially affect interstate commerce.",
+      "audioDescription": "Supreme Court oral argument on healthcare regulation",
+      "questions": [
+        {
+          "id": "c1-l6-p1-q1",
+          "question": "What 'limiting principle' is Justice Martinez asking about?",
+          "options": [
+            "Time limits on court proceedings",
+            "What activities Congress cannot mandate under the proposed interpretation",
+            "Financial limits on healthcare spending",
+            "Geographic boundaries of federal jurisdiction"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Justice Martinez asks 'what activity could it not mandate?' if the Court accepts the proposed interpretation"
+        },
+        {
+          "id": "c1-l6-p1-q2",
+          "question": "What distinguishes healthcare from food markets according to the attorney?",
+          "options": [
+            "Healthcare is more expensive",
+            "Food is locally produced",
+            "Healthcare consumption timing is unpredictable and affects others",
+            "Food markets are already regulated"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The attorney argues 'the timing of healthcare consumption is unpredictable' and 'uncompensated emergency care shifts costs to others'"
+        },
+        {
+          "id": "c1-l6-p1-q3",
+          "question": "What concern does Justice Lee raise?",
+          "options": [
+            "The case is not properly before the Court",
+            "The Court would be making policy judgments for the legislature",
+            "The precedents are unclear",
+            "The attorney lacks standing"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Justice Lee asks if the Court is being asked 'to make economic policy judgments that are properly left to the legislature'"
+        }
+      ]
+    },
+    {
+      "id": "c1-l6-p2",
+      "title": "Corporate Governance Presentation",
+      "context": "Board of directors meeting",
+      "transcript": "Chair Williams: The next item on the agenda concerns the proposed amendments to our corporate governance structure. As you know, proxy advisory firms have raised concerns about our board composition and executive compensation practices. The governance committee recommends three changes: first, separating the CEO and Chair positions; second, implementing a majority voting standard for director elections replacing the current plurality standard; and third, establishing a mandatory clawback policy for executive compensation in the event of financial restatement. These changes align our practices with institutional investor expectations and should reduce the risk of adverse proxy recommendations. The floor is now open for discussion. Director Park: While I support the first two recommendations, I have reservations about the clawback provision. Wouldn't that make executive recruitment more difficult? Chair Williams: That's a fair concern. However, our compensation consultants advise that clawback provisions have become standard among our peer companies and haven't materially affected recruitment.",
+      "audioDescription": "Corporate governance discussion at board meeting",
+      "questions": [
+        {
+          "id": "c1-l6-p2-q1",
+          "question": "What prompted the proposed governance changes?",
+          "options": [
+            "Legal requirements from regulators",
+            "Concerns raised by proxy advisory firms",
+            "Requests from employees",
+            "Advice from the CEO"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Proxy advisory firms have raised concerns about our board composition and executive compensation practices'"
+        },
+        {
+          "id": "c1-l6-p2-q2",
+          "question": "What would a 'majority voting standard' for directors mean?",
+          "options": [
+            "Directors need majority shareholder approval to serve",
+            "A majority of directors must be independent",
+            "Directors must own majority shares",
+            "Majority of votes determines all decisions"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Majority voting means directors need more than half of votes cast, replacing plurality where the candidate with most votes wins regardless of percentage"
+        },
+        {
+          "id": "c1-l6-p2-q3",
+          "question": "What is Director Park's concern about the clawback provision?",
+          "options": [
+            "It is too expensive to implement",
+            "It may violate employment law",
+            "It could make executive recruitment more difficult",
+            "It conflicts with existing contracts"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Director Park asks 'Wouldn't that make executive recruitment more difficult?'"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "Commerce Clause",
+      "definition": "US Constitutional provision giving Congress power to regulate interstate commerce"
+    },
+    {
+      "term": "proxy advisory firms",
+      "definition": "Companies that provide voting recommendations to institutional shareholders"
+    },
+    {
+      "term": "clawback provision",
+      "definition": "Contract term allowing recovery of compensation under certain conditions"
+    }
+  ]
+}

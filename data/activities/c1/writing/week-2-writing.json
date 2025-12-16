@@ -1,0 +1,103 @@
+{
+  "id": "c1-writing-week-2",
+  "type": "writing",
+  "level": "C1",
+  "weekId": "week-2",
+  "title": "Literature Review Writing",
+  "description": "Synthesizing sources and writing academic literature reviews",
+  "estimatedMinutes": 30,
+  "xpReward": 55,
+  "exercises": [
+    {
+      "id": "c1-w2-ex1",
+      "type": "synthesis",
+      "title": "Synthesizing Multiple Sources",
+      "instruction": "Combine the following three source summaries into a coherent paragraph that identifies themes and tensions",
+      "sources": [
+        {
+          "author": "Chen (2021)",
+          "summary": "Remote work increases productivity by eliminating commute time and allowing flexible schedules."
+        },
+        {
+          "author": "Williams (2022)",
+          "summary": "While remote work offers flexibility, it can lead to overwork as boundaries between personal and professional life blur."
+        },
+        {
+          "author": "Patel (2020)",
+          "summary": "The effectiveness of remote work varies significantly by industry and job role."
+        }
+      ],
+      "modelAnswer": "The literature on remote work productivity presents a nuanced picture. While Chen (2021) emphasizes the productivity gains from eliminated commute time and schedule flexibility, Williams (2022) cautions that this flexibility can paradoxically lead to overwork when work-life boundaries become indistinct. Furthermore, Patel (2020) suggests that these effects are not uniform, noting significant variation across industries and roles. Taken together, these findings indicate that the relationship between remote work and productivity is mediated by contextual factors and individual circumstances.",
+      "tips": [
+        "Group sources by theme rather than summarizing each separately",
+        "Use transitional phrases to show relationships between ideas",
+        "Identify points of agreement and disagreement",
+        "End with a synthesis statement that captures the overall picture"
+      ]
+    },
+    {
+      "id": "c1-w2-ex2",
+      "type": "critical-evaluation",
+      "title": "Evaluating Sources Critically",
+      "instruction": "Write a paragraph critically evaluating the following study's methodology",
+      "studyDescription": "A study on smartphone addiction surveyed 200 college students at a single university, asking them to self-report their daily screen time and perceived addiction levels. The study concluded that smartphone addiction is a significant problem among young adults.",
+      "evaluationPrompts": [
+        "Sample representativeness",
+        "Measurement validity (self-report bias)",
+        "Generalizability of findings"
+      ],
+      "usefulPhrases": [
+        "A notable limitation of this study is...",
+        "The reliance on self-reported data raises concerns about...",
+        "The findings may not generalize to... given that...",
+        "While the study provides valuable insights, the methodology could be strengthened by..."
+      ]
+    },
+    {
+      "id": "c1-w2-ex3",
+      "type": "reporting-verbs",
+      "title": "Using Reporting Verbs Appropriately",
+      "instruction": "Choose the most appropriate reporting verb for each context",
+      "exercises": [
+        {
+          "sentence": "Smith (2019) ___ that climate change poses an existential threat.",
+          "options": ["argues", "finds", "admits", "speculates"],
+          "correctAnswer": "argues",
+          "explanation": "'Argues' is appropriate for a claim or position being defended"
+        },
+        {
+          "sentence": "The data ___ a correlation between income and educational attainment.",
+          "options": ["argues", "reveals", "claims", "believes"],
+          "correctAnswer": "reveals",
+          "explanation": "'Reveals' is appropriate when data shows something objectively"
+        },
+        {
+          "sentence": "The author ___ that previous studies overlooked cultural factors.",
+          "options": ["discovers", "contends", "proves", "knows"],
+          "correctAnswer": "contends",
+          "explanation": "'Contends' expresses a debatable claim or position"
+        }
+      ],
+      "reportingVerbCategories": {
+        "neutral": ["states", "notes", "observes", "reports"],
+        "supportive": ["demonstrates", "shows", "confirms", "establishes"],
+        "tentative": ["suggests", "implies", "indicates", "proposes"],
+        "critical": ["argues", "contends", "claims", "asserts"],
+        "disagreement": ["challenges", "disputes", "questions", "refutes"]
+      }
+    },
+    {
+      "id": "c1-w2-ex4",
+      "type": "gap-identification",
+      "title": "Identifying Research Gaps",
+      "instruction": "Write a paragraph identifying a gap in the research based on the following literature summary",
+      "literatureSummary": "Most studies on workplace diversity focus on gender and racial diversity in large corporations in Western countries. These studies typically examine the relationship between diversity and financial performance using quantitative methods.",
+      "promptQuestions": [
+        "What populations are underrepresented?",
+        "What methodological approaches are missing?",
+        "What aspects of the topic remain unexplored?"
+      ],
+      "modelAnswer": "A review of the literature reveals several notable gaps that warrant further investigation. First, the predominant focus on large corporations leaves the experiences of small and medium enterprises (SMEs) relatively unexplored, despite their significant contribution to global employment. Second, the concentration on Western contexts limits our understanding of how diversity dynamics operate in collectivist or non-Western organizational cultures. Third, the prevalent use of quantitative methods, while valuable for establishing correlations, provides limited insight into the mechanisms through which diversity affects organizational outcomes. Future research employing qualitative or mixed-methods approaches in diverse geographic and organizational contexts would significantly advance our understanding of this phenomenon."
+    }
+  ]
+}

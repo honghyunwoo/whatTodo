@@ -1,0 +1,191 @@
+{
+  "id": "week-1-vocab",
+  "weekId": "week-1",
+  "type": "vocabulary",
+  "level": "C1",
+  "title": "Academic & Professional Discourse",
+  "description": "Master sophisticated vocabulary for academic writing and professional settings.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "meaning": "a typical example or model of something; a framework of ideas",
+      "translation": "패러다임, 전형",
+      "example": "This discovery represents a paradigm shift in our understanding of genetics.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w2",
+      "word": "elucidate",
+      "pronunciation": "/ɪˈluːsɪdeɪt/",
+      "meaning": "to make something clear; to explain",
+      "translation": "명확히 하다, 해명하다",
+      "example": "The professor elucidated the complex theory with simple examples.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w3",
+      "word": "empirical",
+      "pronunciation": "/ɪmˈpɪrɪkəl/",
+      "meaning": "based on observation or experience rather than theory",
+      "translation": "경험적인, 실증적인",
+      "example": "The hypothesis must be supported by empirical evidence.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w4",
+      "word": "nuanced",
+      "pronunciation": "/ˈnjuːɑːnst/",
+      "meaning": "characterized by subtle differences or distinctions",
+      "translation": "미묘한 차이가 있는",
+      "example": "Her nuanced analysis revealed hidden complexities in the data.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w5",
+      "word": "corroborate",
+      "pronunciation": "/kəˈrɒbəreɪt/",
+      "meaning": "to confirm or give support to a statement or theory",
+      "translation": "확증하다, 뒷받침하다",
+      "example": "Multiple witnesses corroborated the defendant's alibi.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w6",
+      "word": "unprecedented",
+      "pronunciation": "/ʌnˈpresɪdentɪd/",
+      "meaning": "never done or known before",
+      "translation": "전례 없는",
+      "example": "The pandemic created unprecedented challenges for global healthcare.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w7",
+      "word": "scrutinize",
+      "pronunciation": "/ˈskruːtɪnaɪz/",
+      "meaning": "to examine or inspect closely and thoroughly",
+      "translation": "면밀히 조사하다",
+      "example": "The committee will scrutinize every aspect of the proposal.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w8",
+      "word": "inherent",
+      "pronunciation": "/ɪnˈhɪərənt/",
+      "meaning": "existing as a natural or permanent part of something",
+      "translation": "본질적인, 내재하는",
+      "example": "There are inherent risks in any investment strategy.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w9",
+      "word": "reconcile",
+      "pronunciation": "/ˈrekənsaɪl/",
+      "meaning": "to find a way to make two different ideas compatible",
+      "translation": "조화시키다, 화해시키다",
+      "example": "Scientists are trying to reconcile these contradictory findings.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w10",
+      "word": "pertinent",
+      "pronunciation": "/ˈpɜːtɪnənt/",
+      "meaning": "relevant or applicable to a particular matter",
+      "translation": "적절한, 관련 있는",
+      "example": "Please only include pertinent information in your report.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w11",
+      "word": "delineate",
+      "pronunciation": "/dɪˈlɪnieɪt/",
+      "meaning": "to describe or portray something precisely",
+      "translation": "서술하다, 묘사하다",
+      "example": "The report delineates the boundaries of the research scope.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w12",
+      "word": "proliferation",
+      "pronunciation": "/prəˌlɪfəˈreɪʃən/",
+      "meaning": "rapid increase in numbers or spread",
+      "translation": "확산, 급증",
+      "example": "The proliferation of misinformation poses a serious threat.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w13",
+      "word": "substantiate",
+      "pronunciation": "/səbˈstænʃieɪt/",
+      "meaning": "to provide evidence to support a claim",
+      "translation": "입증하다, 실증하다",
+      "example": "The researcher failed to substantiate her controversial claims.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w14",
+      "word": "cogent",
+      "pronunciation": "/ˈkəʊdʒənt/",
+      "meaning": "clear, logical, and convincing",
+      "translation": "설득력 있는, 명쾌한",
+      "example": "She presented a cogent argument for policy reform.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w15",
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "meaning": "present, appearing, or found everywhere",
+      "translation": "어디에나 있는, 편재하는",
+      "example": "Smartphones have become ubiquitous in modern society.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w16",
+      "word": "discrepancy",
+      "pronunciation": "/dɪsˈkrepənsi/",
+      "meaning": "a difference between things that should be the same",
+      "translation": "불일치, 차이",
+      "example": "There was a discrepancy between the two reports.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w17",
+      "word": "postulate",
+      "pronunciation": "/ˈpɒstjʊleɪt/",
+      "meaning": "to suggest or assume as a basis for reasoning",
+      "translation": "가정하다, 상정하다",
+      "example": "The theory postulates the existence of dark matter.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w18",
+      "word": "tangible",
+      "pronunciation": "/ˈtændʒɪbl/",
+      "meaning": "clear and definite; able to be perceived",
+      "translation": "명백한, 실체가 있는",
+      "example": "We need tangible results to secure further funding.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w19",
+      "word": "arbitrary",
+      "pronunciation": "/ˈɑːbɪtrəri/",
+      "meaning": "based on random choice rather than reason",
+      "translation": "임의의, 자의적인",
+      "example": "The decision seemed arbitrary and unfair.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w20",
+      "word": "synthesis",
+      "pronunciation": "/ˈsɪnθəsɪs/",
+      "meaning": "the combination of components to form a connected whole",
+      "translation": "종합, 합성",
+      "example": "The paper provides a synthesis of recent research findings.",
+      "partOfSpeech": "noun"
+    }
+  ]
+}

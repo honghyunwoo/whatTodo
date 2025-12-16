@@ -1,0 +1,108 @@
+{
+  "id": "c2-vocab-week-3",
+  "type": "vocabulary",
+  "level": "C2",
+  "weekId": "week-3",
+  "title": "Aesthetic and Literary Terminology",
+  "description": "Specialized vocabulary for literary criticism and aesthetic theory",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "items": [
+    {
+      "id": "c2-v3-1",
+      "word": "palimpsest",
+      "definition": "A manuscript written over earlier writing; something bearing visible traces of its history",
+      "pronunciation": "/ˈpælɪmpsest/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "중복 기록 양피지, 역사의 흔적",
+      "example": "The city is a palimpsest of architectural styles from different eras.",
+      "synonyms": ["layered text", "overwritten manuscript"],
+      "antonyms": ["tabula rasa", "blank slate"],
+      "collocations": ["cultural palimpsest", "historical palimpsest", "urban palimpsest"]
+    },
+    {
+      "id": "c2-v3-2",
+      "word": "sublime",
+      "definition": "Of such excellence or grandeur as to inspire awe; in aesthetics, that which exceeds comprehension",
+      "pronunciation": "/səˈblaɪm/",
+      "partOfSpeech": "adjective/noun",
+      "koreanMeaning": "숭고한, 장엄한",
+      "example": "Burke distinguished between the beautiful and the sublime, associating the latter with terror.",
+      "synonyms": ["transcendent", "majestic", "awe-inspiring"],
+      "antonyms": ["mundane", "ordinary", "beautiful (in Kantian terms)"],
+      "collocations": ["the sublime", "sublime experience", "natural sublime"]
+    },
+    {
+      "id": "c2-v3-3",
+      "word": "ekphrasis",
+      "definition": "A vivid literary description of a work of visual art",
+      "pronunciation": "/ˈekfrəsɪs/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "예술작품의 문학적 묘사",
+      "example": "Keats's 'Ode on a Grecian Urn' is a celebrated example of ekphrasis.",
+      "synonyms": ["artistic description", "verbal representation of visual art"],
+      "antonyms": [],
+      "collocations": ["ekphrastic poetry", "ekphrastic tradition", "practice of ekphrasis"]
+    },
+    {
+      "id": "c2-v3-4",
+      "word": "liminal",
+      "definition": "Relating to a transitional or threshold stage; between states",
+      "pronunciation": "/ˈlɪmɪnəl/",
+      "partOfSpeech": "adjective",
+      "koreanMeaning": "문턱의, 경계의",
+      "example": "Adolescence occupies a liminal space between childhood and adulthood.",
+      "synonyms": ["transitional", "threshold", "in-between"],
+      "antonyms": ["central", "established", "fixed"],
+      "collocations": ["liminal space", "liminal state", "liminal experience"]
+    },
+    {
+      "id": "c2-v3-5",
+      "word": "verisimilitude",
+      "definition": "The appearance of being true or real; believability in fiction",
+      "pronunciation": "/ˌverɪsɪˈmɪlɪtjuːd/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "진실성, 사실다움",
+      "example": "The novel's verisimilitude depends on its attention to period detail.",
+      "synonyms": ["believability", "plausibility", "authenticity"],
+      "antonyms": ["implausibility", "unreality"],
+      "collocations": ["narrative verisimilitude", "achieve verisimilitude", "sense of verisimilitude"]
+    },
+    {
+      "id": "c2-v3-6",
+      "word": "defamiliarization",
+      "definition": "The artistic technique of presenting common things in unfamiliar ways to enhance perception",
+      "pronunciation": "/diːfəˌmɪliəraɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "낯설게 하기, 이화",
+      "example": "Shklovsky argued that defamiliarization is the essence of art.",
+      "synonyms": ["estrangement", "ostranenie"],
+      "antonyms": ["familiarization", "habituation"],
+      "collocations": ["technique of defamiliarization", "effect of defamiliarization", "achieve defamiliarization"]
+    },
+    {
+      "id": "c2-v3-7",
+      "word": "heteroglossia",
+      "definition": "The coexistence of multiple varieties of speech or points of view within a text",
+      "pronunciation": "/ˌhetərəˈɡlɒsiə/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "다성성, 다언어성",
+      "example": "Bakhtin celebrated the novel's capacity for heteroglossia.",
+      "synonyms": ["multi-voicedness", "dialogism"],
+      "antonyms": ["monoglossia", "univocality"],
+      "collocations": ["Bakhtinian heteroglossia", "novelistic heteroglossia", "social heteroglossia"]
+    },
+    {
+      "id": "c2-v3-8",
+      "word": "apophatic",
+      "definition": "Relating to knowledge of God or ultimate reality obtained by negation; describing what something is not",
+      "pronunciation": "/ˌæpəˈfætɪk/",
+      "partOfSpeech": "adjective",
+      "koreanMeaning": "부정신학의, 부정적 방법의",
+      "example": "The apophatic tradition in mysticism approaches the divine through negation.",
+      "synonyms": ["negative", "via negativa"],
+      "antonyms": ["cataphatic", "positive"],
+      "collocations": ["apophatic theology", "apophatic approach", "apophatic tradition"]
+    }
+  ]
+}

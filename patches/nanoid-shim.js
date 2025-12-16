@@ -1,8 +1,8 @@
 // nanoid/non-secure shim for webpack compatibility
-let urlAlphabet =
+const urlAlphabet =
   'useandom-26T198340PX75pxJACKVERYMINDBUSHWOLF_GQZbfghjklqvwyzrict'
 
-let customAlphabet = (alphabet, defaultSize = 21) => {
+const customAlphabet = (alphabet, defaultSize = 21) => {
   return (size = defaultSize) => {
     let id = ''
     let i = size | 0
@@ -13,7 +13,7 @@ let customAlphabet = (alphabet, defaultSize = 21) => {
   }
 }
 
-let nanoid = (size = 21) => {
+const nanoid = (size = 21) => {
   let id = ''
   let i = size | 0
   while (i--) {

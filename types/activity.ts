@@ -11,8 +11,8 @@ export type ActivityType =
   | 'speaking'
   | 'writing';
 
-/** CEFR 레벨 */
-export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2';
+/** CEFR 레벨 (A1-B2 콘텐츠 구현됨, C1-C2 향후 추가 예정) */
+export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
 
 /** 품사 */
 export type PartOfSpeech =

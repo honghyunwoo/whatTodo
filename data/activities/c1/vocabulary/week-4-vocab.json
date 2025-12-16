@@ -1,0 +1,108 @@
+{
+  "id": "c1-vocab-week-4",
+  "type": "vocabulary",
+  "level": "C1",
+  "weekId": "week-4",
+  "title": "Business and Economics Lexicon",
+  "description": "Specialized vocabulary for business, finance, and economic discourse",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "items": [
+    {
+      "id": "c1-v4-1",
+      "word": "amortization",
+      "definition": "The gradual reduction of debt through periodic payments; spreading costs over time",
+      "pronunciation": "/əˌmɔːrtɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "상각, 분할상환",
+      "example": "The amortization schedule shows the loan will be fully paid off in 30 years.",
+      "synonyms": ["depreciation", "repayment", "write-off"],
+      "antonyms": ["appreciation", "accumulation"],
+      "collocations": ["amortization schedule", "loan amortization", "amortization period"]
+    },
+    {
+      "id": "c1-v4-2",
+      "word": "leverage",
+      "definition": "The use of borrowed capital to increase potential return; strategic advantage",
+      "pronunciation": "/ˈlevərɪdʒ/",
+      "partOfSpeech": "noun/verb",
+      "koreanMeaning": "레버리지, 지렛대 효과",
+      "example": "The company used financial leverage to fund its expansion into Asian markets.",
+      "synonyms": ["gearing", "influence", "power"],
+      "antonyms": ["deleveraging", "weakness"],
+      "collocations": ["financial leverage", "leverage ratio", "leverage buyout"]
+    },
+    {
+      "id": "c1-v4-3",
+      "word": "liquidity",
+      "definition": "The availability of liquid assets; how quickly assets can be converted to cash",
+      "pronunciation": "/lɪˈkwɪdəti/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "유동성",
+      "example": "During the crisis, many banks faced severe liquidity shortages.",
+      "synonyms": ["cash flow", "solvency", "fluid assets"],
+      "antonyms": ["illiquidity", "insolvency"],
+      "collocations": ["liquidity crisis", "market liquidity", "liquidity ratio"]
+    },
+    {
+      "id": "c1-v4-4",
+      "word": "diversification",
+      "definition": "The practice of spreading investments to reduce risk",
+      "pronunciation": "/daɪˌvɜːrsɪfɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "다각화, 분산투자",
+      "example": "Portfolio diversification helps protect against market volatility.",
+      "synonyms": ["variety", "spreading", "expansion"],
+      "antonyms": ["concentration", "specialization"],
+      "collocations": ["portfolio diversification", "risk diversification", "diversification strategy"]
+    },
+    {
+      "id": "c1-v4-5",
+      "word": "depreciation",
+      "definition": "The decrease in value of an asset over time; currency value decline",
+      "pronunciation": "/dɪˌpriːʃiˈeɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "감가상각, 가치하락",
+      "example": "The depreciation of the currency made exports more competitive.",
+      "synonyms": ["devaluation", "decline", "write-down"],
+      "antonyms": ["appreciation", "increase"],
+      "collocations": ["currency depreciation", "asset depreciation", "depreciation rate"]
+    },
+    {
+      "id": "c1-v4-6",
+      "word": "stakeholder",
+      "definition": "A person or group with interest or concern in an organization",
+      "pronunciation": "/ˈsteɪkˌhoʊldər/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "이해관계자",
+      "example": "The CEO met with key stakeholders to discuss the merger proposal.",
+      "synonyms": ["interested party", "participant", "investor"],
+      "antonyms": [],
+      "collocations": ["key stakeholders", "stakeholder engagement", "stakeholder analysis"]
+    },
+    {
+      "id": "c1-v4-7",
+      "word": "acquisition",
+      "definition": "The act of gaining possession, especially of a company or asset",
+      "pronunciation": "/ˌækwɪˈzɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "인수, 획득",
+      "example": "The acquisition of the startup gave them access to cutting-edge technology.",
+      "synonyms": ["purchase", "takeover", "procurement"],
+      "antonyms": ["divestiture", "sale"],
+      "collocations": ["corporate acquisition", "acquisition target", "hostile acquisition"]
+    },
+    {
+      "id": "c1-v4-8",
+      "word": "benchmark",
+      "definition": "A standard or point of reference against which things may be compared",
+      "pronunciation": "/ˈbentʃmɑːrk/",
+      "partOfSpeech": "noun/verb",
+      "koreanMeaning": "기준점, 벤치마크",
+      "example": "The S&P 500 serves as a benchmark for measuring portfolio performance.",
+      "synonyms": ["standard", "reference point", "yardstick"],
+      "antonyms": [],
+      "collocations": ["industry benchmark", "performance benchmark", "benchmark rate"]
+    }
+  ]
+}

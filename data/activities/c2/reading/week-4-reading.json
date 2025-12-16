@@ -1,0 +1,100 @@
+{
+  "id": "c2-reading-week-4",
+  "type": "reading",
+  "level": "C2",
+  "weekId": "week-4",
+  "title": "Critique of Digital Reason",
+  "description": "Engaging with philosophical analyses of technology and society",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passage": {
+    "title": "The Computational Turn",
+    "author": "Adapted from philosophy of technology sources",
+    "paragraphs": [
+      "We are frequently told that we live in an information age, but what does this mean? Information, in Claude Shannon's technical sense, is simply a measure of surprise—the reduction of uncertainty. A weather forecast informative if unpredictable, redundant if obvious. This mathematical conception has proven enormously powerful for engineering communications systems, but its application to human knowledge is more fraught. Can wisdom be quantified? Can meaning be transmitted without interpretation? The computational metaphor seduces us into treating minds as information processors and societies as networks, but metaphors both illuminate and obscure.",
+      "The ideology of solutionism—the conviction that every problem has a technological fix—follows naturally from computational ontology. If the world consists of information, then it can be optimized; if humans are algorithms, then they can be debugged. The smart city, the quantified self, the personalized feed: each promises optimization through datafication. Yet what is lost when we frame human flourishing as an optimization problem? The good life resists specification in objective functions. Values conflict; outcomes remain incommensurable; existence exceeds calculation.",
+      "More troubling still is the question of agency in algorithmic governance. When credit scores determine life chances, when predictive policing shapes patrol routes, when recommendation engines curate reality, who is responsible? The algorithms operate at scales and speeds that exceed human comprehension, trained on data that encodes historical biases, making decisions that are consequential yet opaque. We face the paradox of automated accountability: systems designed to rationalize and standardize judgment produce outcomes that no one intended and no one can explain.",
+      "The task of a critical theory of computation is not to reject technology but to resist its naturalization—to insist that our digital infrastructures embody choices, that other configurations are possible, that the computational is always also political. This requires what Bernard Stiegler called 'pharmacological' thinking: recognizing that technology, like the pharmakon, is simultaneously remedy and poison. The same platforms that connect can isolate; the same data that empowers can surveil. Wisdom lies not in accepting or refusing technology wholesale but in cultivating the judgment to distinguish therapeutic from toxic doses."
+    ]
+  },
+  "questions": [
+    {
+      "id": "c2-r4-q1",
+      "type": "main-idea",
+      "question": "What is the author's central argument about computational thinking?",
+      "options": [
+        "Technology should be rejected entirely",
+        "Information theory has solved all communication problems",
+        "Computational metaphors have limitations and political implications we must recognize",
+        "Algorithms are neutral tools for optimization"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The author argues we must recognize that 'metaphors both illuminate and obscure' and that 'the computational is always also political'"
+    },
+    {
+      "id": "c2-r4-q2",
+      "type": "detail",
+      "question": "According to Shannon's definition, what makes information informative?",
+      "options": [
+        "Its truth value",
+        "Its utility to the receiver",
+        "Its reduction of uncertainty",
+        "Its emotional resonance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Information is 'simply a measure of surprise—the reduction of uncertainty'"
+    },
+    {
+      "id": "c2-r4-q3",
+      "type": "inference",
+      "question": "What does the author mean by 'automated accountability'?",
+      "options": [
+        "Algorithms that automatically report errors",
+        "Increased transparency in decision-making",
+        "Systems producing unexplainable outcomes no one intended",
+        "Improved reliability of automated systems"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The 'paradox of automated accountability' involves 'systems designed to rationalize and standardize judgment' that 'produce outcomes that no one intended and no one can explain'"
+    },
+    {
+      "id": "c2-r4-q4",
+      "type": "vocabulary",
+      "question": "What does 'pharmacological thinking' mean in this context?",
+      "options": [
+        "Studying the effects of drugs on technology",
+        "Recognizing technology as both remedy and poison",
+        "Applying medical models to social problems",
+        "Rejecting technological solutions entirely"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stiegler's 'pharmacological' thinking means 'recognizing that technology, like the pharmakon, is simultaneously remedy and poison'"
+    },
+    {
+      "id": "c2-r4-q5",
+      "type": "critical-analysis",
+      "question": "Why does the author argue that human flourishing 'resists specification in objective functions'?",
+      "options": [
+        "Humans are irrational beings",
+        "Technology is not advanced enough",
+        "Values conflict and outcomes remain incommensurable",
+        "Scientists have not studied this area"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The good life resists specification because 'Values conflict; outcomes remain incommensurable; existence exceeds calculation'"
+    },
+    {
+      "id": "c2-r4-q6",
+      "type": "synthesis",
+      "question": "What approach does the author recommend toward technology?",
+      "options": [
+        "Complete acceptance of technological progress",
+        "Total rejection of computational systems",
+        "Cultivating judgment to distinguish beneficial from harmful uses",
+        "Leaving decisions to technical experts"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Wisdom lies 'not in accepting or refusing technology wholesale but in cultivating the judgment to distinguish therapeutic from toxic doses'"
+    }
+  ]
+}

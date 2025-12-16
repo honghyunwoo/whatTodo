@@ -1,0 +1,108 @@
+{
+  "id": "c1-speaking-week-5",
+  "type": "speaking",
+  "level": "C1",
+  "weekId": "week-5",
+  "title": "Technical Presentations and Scientific Communication",
+  "description": "Presenting complex scientific information clearly and persuasively",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c1-s5-s1",
+      "title": "Structuring Technical Presentations",
+      "description": "Organizing scientific content for maximum impact",
+      "techniques": [
+        {
+          "name": "The Hook",
+          "description": "Open with a compelling question, statistic, or scenario",
+          "example": "By the time I finish this sentence, we will have emitted another 1,000 tons of CO2 into the atmosphere. The question is: what are we going to do about it?"
+        },
+        {
+          "name": "Signposting",
+          "description": "Guide the audience through your logical structure",
+          "phrases": [
+            "I'll start by outlining the problem, then present three potential solutions, and finally offer my recommendations.",
+            "Let me begin with the data before moving to interpretation.",
+            "Having established the baseline, I now want to turn to..."
+          ]
+        },
+        {
+          "name": "Technical translation",
+          "description": "Make complex concepts accessible without oversimplifying",
+          "example": "Carbon sequestration—essentially, capturing CO2 and storing it somewhere it can't reach the atmosphere—can be natural, like planting forests, or engineered, like pumping it underground."
+        }
+      ]
+    },
+    {
+      "id": "c1-s5-s2",
+      "title": "Handling Q&A Sessions",
+      "description": "Responding effectively to questions after presentations",
+      "strategies": [
+        {
+          "situation": "Clarifying question",
+          "response": "Yes, to clarify: when I said X, I meant specifically..."
+        },
+        {
+          "situation": "Challenging question",
+          "response": "That's a fair point. The evidence on this is mixed, but I would argue..."
+        },
+        {
+          "situation": "Question beyond your expertise",
+          "response": "That's outside my area of expertise, but my understanding is... I'd recommend consulting..."
+        },
+        {
+          "situation": "Hostile question",
+          "response": "I understand that perspective. Let me share what the data actually shows..."
+        }
+      ]
+    },
+    {
+      "id": "c1-s5-s3",
+      "title": "Data Presentation Language",
+      "description": "Discussing statistics and findings effectively",
+      "phrases": [
+        {
+          "function": "Presenting data",
+          "expressions": [
+            "As this graph demonstrates...",
+            "The data indicate a clear trend toward...",
+            "Looking at the figures, we can see that..."
+          ]
+        },
+        {
+          "function": "Qualifying claims",
+          "expressions": [
+            "While correlation doesn't prove causation, the association is robust.",
+            "These findings suggest, though don't conclusively prove, that...",
+            "The sample size limits what we can generalize, but..."
+          ]
+        },
+        {
+          "function": "Comparing results",
+          "expressions": [
+            "Compared to the control group, we see a 40% improvement.",
+            "This represents a threefold increase over the baseline.",
+            "The difference is statistically significant at the 95% confidence level."
+          ]
+        }
+      ]
+    }
+  ],
+  "practiceScenarios": [
+    {
+      "id": "c1-s5-sc1",
+      "title": "Research Findings Presentation",
+      "context": "Present findings from a study on renewable energy adoption to a mixed audience of policymakers and technical experts.",
+      "task": "Explain technical findings while making them relevant to policy decisions.",
+      "sampleResponse": "Good morning. I want to share findings from our three-year study on residential solar adoption—findings that have direct implications for the incentive programs you're considering. Here's the key takeaway: financial incentives work, but not in the way you might expect. A $5,000 rebate increased adoption by 35% in middle-income households but only 8% in low-income ones. The barrier isn't just cost; it's upfront financing. When we piloted a zero-down program with on-bill repayment, adoption in low-income areas tripled. The policy implication? If equitable clean energy access is the goal, we need to redesign incentives around financing access, not just final cost reduction."
+    },
+    {
+      "id": "c1-s5-sc2",
+      "title": "Responding to Skepticism",
+      "context": "During Q&A, an audience member questions the reliability of climate models.",
+      "task": "Address skepticism respectfully while maintaining scientific accuracy.",
+      "sampleResponse": "Thank you for that question—it's one we hear often, and it deserves a careful answer. You're right that models are simplifications of reality. No model predicts the future perfectly. But here's what's important: climate models have actually proven remarkably accurate. When we compare predictions made in the 1990s to what actually occurred, the models tracked the warming trend well within their uncertainty ranges. More importantly, the physics behind these models—the greenhouse effect—is not speculative; it's been established science since the 1850s. Where uncertainty exists is in the details: exactly how much warming, exactly when, exactly where impacts will be worst. But the direction of change is not in doubt."
+    }
+  ]
+}

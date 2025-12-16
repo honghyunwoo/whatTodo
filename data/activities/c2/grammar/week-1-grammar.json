@@ -1,0 +1,134 @@
+{
+  "id": "week-1-grammar",
+  "weekId": "week-1",
+  "type": "grammar",
+  "level": "C2",
+  "title": "Stylistic Inversion & Rhetorical Structures",
+  "description": "Master advanced rhetorical devices and sophisticated grammatical structures.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Fronting for Emphasis",
+      "explanation": "Move an element to the front of the sentence for emphasis or stylistic effect. This often triggers subject-verb inversion and is common in literary and formal writing.",
+      "structure": "Fronted element + auxiliary + subject + main verb",
+      "examples": [
+        {
+          "sentence": "So profound was the impact that society has yet to recover.",
+          "translation": "그 영향이 너무 심대하여 사회는 아직 회복하지 못했다."
+        },
+        {
+          "sentence": "Not until the final chapter does the author reveal the truth.",
+          "translation": "마지막 장에 이르러서야 저자는 진실을 밝힌다."
+        },
+        {
+          "sentence": "Such was her eloquence that the audience sat in rapt attention.",
+          "translation": "그녀의 웅변술이 대단하여 청중은 열중하며 앉아 있었다."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Cleft Sentences for Focus",
+      "explanation": "Use cleft constructions to highlight specific information. 'It-clefts' and 'Wh-clefts' allow writers to control the information focus precisely.",
+      "structure": "It + be + focused element + that/who... OR What + clause + be + focused element",
+      "examples": [
+        {
+          "sentence": "It was precisely this epistemological assumption that the critic challenged.",
+          "translation": "비평가가 도전한 것은 바로 이 인식론적 가정이었다."
+        },
+        {
+          "sentence": "What distinguishes her work is its remarkable prescience.",
+          "translation": "그녀의 작품을 구별 짓는 것은 놀라운 선견지명이다."
+        },
+        {
+          "sentence": "It is not the theory itself but its application that remains contentious.",
+          "translation": "논쟁적인 것은 이론 자체가 아니라 그것의 적용이다."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Subjunctive in Formal Demands",
+      "explanation": "The subjunctive mood is used after certain verbs and adjectives expressing demands, suggestions, or necessity. The base form of the verb is used regardless of subject.",
+      "structure": "Verb/Adjective of demand + that + subject + base verb",
+      "examples": [
+        {
+          "sentence": "The committee insisted that the proposal be reconsidered in its entirety.",
+          "translation": "위원회는 제안이 전체적으로 재고되어야 한다고 주장했다."
+        },
+        {
+          "sentence": "It is imperative that each participant submit their analysis by Friday.",
+          "translation": "각 참가자가 금요일까지 분석을 제출하는 것이 필수적이다."
+        },
+        {
+          "sentence": "The contract stipulates that payment be rendered within thirty days.",
+          "translation": "계약서는 지불이 30일 이내에 이루어져야 한다고 규정한다."
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Complex Concessive Structures",
+      "explanation": "Advanced concessive constructions acknowledge contradictions while maintaining a coherent argument. These structures show sophisticated control of logical relationships.",
+      "structure": "Though/However + adjective/adverb + subject + may + verb..., main clause",
+      "examples": [
+        {
+          "sentence": "However perspicacious the analysis may appear, it rests on questionable assumptions.",
+          "translation": "그 분석이 아무리 통찰력 있어 보일지라도, 그것은 의문스러운 가정에 기초한다."
+        },
+        {
+          "sentence": "Efficacious though these measures proved, they failed to ameliorate the fundamental problem.",
+          "translation": "이러한 조치들이 효과적인 것으로 입증되었지만, 그것들은 근본적인 문제를 개선하지 못했다."
+        },
+        {
+          "sentence": "Much as I appreciate the author's intentions, I find the argument ultimately unconvincing.",
+          "translation": "저자의 의도를 높이 평가하지만, 나는 그 주장이 궁극적으로 설득력이 없다고 생각한다."
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "multiple_choice",
+      "question": "_____ the committee recommend that the policy be implemented immediately.",
+      "options": ["Does", "Did", "Do", "Had"],
+      "answer": "Did",
+      "explanation": "The subjunctive 'be implemented' follows the verb 'recommend'. The question asks about a past recommendation, so 'Did' is correct."
+    },
+    {
+      "id": "e2",
+      "type": "multiple_choice",
+      "question": "Not only _____ the theory lack empirical support, but it also contradicts established findings.",
+      "options": ["does", "is", "has", "did"],
+      "answer": "does",
+      "explanation": "After 'Not only' at the beginning of a sentence, inversion occurs. 'Does' is used with 'lack' (base form) in present tense."
+    },
+    {
+      "id": "e3",
+      "type": "multiple_choice",
+      "question": "It was the ineluctable nature of the process _____ the researchers sought to understand.",
+      "options": ["which", "what", "that", "whom"],
+      "answer": "that",
+      "explanation": "In an it-cleft sentence, 'that' introduces the relative clause. 'That' is preferred in formal writing for this construction."
+    },
+    {
+      "id": "e4",
+      "type": "multiple_choice",
+      "question": "_____ the evidence may be, it does not warrant such sweeping conclusions.",
+      "options": ["However compelling", "Whatever compelling", "Whichever compelling", "How compelling"],
+      "answer": "However compelling",
+      "explanation": "'However + adjective' creates an advanced concessive structure meaning 'no matter how compelling'."
+    },
+    {
+      "id": "e5",
+      "type": "multiple_choice",
+      "question": "The regulations require that each applicant _____ a detailed proposal.",
+      "options": ["submits", "submit", "submitted", "to submit"],
+      "answer": "submit",
+      "explanation": "After 'require that', use the subjunctive—the base form of the verb regardless of subject. 'Submit' (not 'submits') is correct."
+    }
+  ]
+}

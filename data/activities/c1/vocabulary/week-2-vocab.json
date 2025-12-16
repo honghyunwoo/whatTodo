@@ -1,0 +1,108 @@
+{
+  "id": "c1-vocab-week-2",
+  "type": "vocabulary",
+  "level": "C1",
+  "weekId": "week-2",
+  "title": "Academic Discourse Vocabulary",
+  "description": "Terminology for scholarly writing and formal debates",
+  "estimatedMinutes": 20,
+  "xpReward": 45,
+  "items": [
+    {
+      "id": "c1-v2-1",
+      "word": "substantiate",
+      "definition": "To provide evidence to support or prove the truth of something",
+      "pronunciation": "/səbˈstænʃieɪt/",
+      "partOfSpeech": "verb",
+      "koreanMeaning": "입증하다, 실증하다",
+      "example": "The researcher failed to substantiate her claims with empirical data.",
+      "synonyms": ["verify", "confirm", "corroborate"],
+      "antonyms": ["refute", "disprove", "invalidate"],
+      "collocations": ["substantiate a claim", "substantiate an argument", "substantiate allegations"]
+    },
+    {
+      "id": "c1-v2-2",
+      "word": "nuance",
+      "definition": "A subtle difference in meaning, expression, or sound",
+      "pronunciation": "/ˈnjuːɑːns/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "뉘앙스, 미묘한 차이",
+      "example": "The translator captured every nuance of the original text.",
+      "synonyms": ["subtlety", "refinement", "shade"],
+      "antonyms": ["obviousness", "bluntness"],
+      "collocations": ["subtle nuance", "cultural nuance", "linguistic nuance"]
+    },
+    {
+      "id": "c1-v2-3",
+      "word": "corroborate",
+      "definition": "To confirm or give support to a statement or theory",
+      "pronunciation": "/kəˈrɒbəreɪt/",
+      "partOfSpeech": "verb",
+      "koreanMeaning": "확증하다, 뒷받침하다",
+      "example": "Witnesses corroborated the defendant's alibi.",
+      "synonyms": ["confirm", "verify", "validate"],
+      "antonyms": ["contradict", "refute", "deny"],
+      "collocations": ["corroborate evidence", "corroborate testimony", "corroborate findings"]
+    },
+    {
+      "id": "c1-v2-4",
+      "word": "juxtaposition",
+      "definition": "The act of placing two things side by side for comparison or contrast",
+      "pronunciation": "/ˌdʒʌkstəpəˈzɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "병치, 대조",
+      "example": "The artist's juxtaposition of light and darkness creates a powerful effect.",
+      "synonyms": ["contrast", "comparison", "collocation"],
+      "antonyms": ["separation", "isolation"],
+      "collocations": ["striking juxtaposition", "create juxtaposition", "stark juxtaposition"]
+    },
+    {
+      "id": "c1-v2-5",
+      "word": "presuppose",
+      "definition": "To assume or require something as a precondition",
+      "pronunciation": "/ˌpriːsəˈpəʊz/",
+      "partOfSpeech": "verb",
+      "koreanMeaning": "전제하다, 미리 가정하다",
+      "example": "The theory presupposes a fundamental understanding of quantum mechanics.",
+      "synonyms": ["assume", "presume", "postulate"],
+      "antonyms": ["question", "doubt"],
+      "collocations": ["presuppose knowledge", "presuppose understanding", "presuppose agreement"]
+    },
+    {
+      "id": "c1-v2-6",
+      "word": "delineate",
+      "definition": "To describe or portray something precisely",
+      "pronunciation": "/dɪˈlɪnieɪt/",
+      "partOfSpeech": "verb",
+      "koreanMeaning": "서술하다, 묘사하다",
+      "example": "The report clearly delineates the boundaries of the study.",
+      "synonyms": ["describe", "outline", "define"],
+      "antonyms": ["obscure", "confuse"],
+      "collocations": ["clearly delineate", "delineate boundaries", "delineate responsibilities"]
+    },
+    {
+      "id": "c1-v2-7",
+      "word": "implicit",
+      "definition": "Implied though not plainly expressed",
+      "pronunciation": "/ɪmˈplɪsɪt/",
+      "partOfSpeech": "adjective",
+      "koreanMeaning": "암묵적인, 함축적인",
+      "example": "There was an implicit understanding between the negotiators.",
+      "synonyms": ["implied", "tacit", "unspoken"],
+      "antonyms": ["explicit", "stated", "expressed"],
+      "collocations": ["implicit assumption", "implicit meaning", "implicit agreement"]
+    },
+    {
+      "id": "c1-v2-8",
+      "word": "reconcile",
+      "definition": "To make two seemingly different ideas compatible or consistent",
+      "pronunciation": "/ˈrekənsaɪl/",
+      "partOfSpeech": "verb",
+      "koreanMeaning": "조화시키다, 조정하다",
+      "example": "Scientists struggle to reconcile quantum mechanics with general relativity.",
+      "synonyms": ["harmonize", "resolve", "settle"],
+      "antonyms": ["conflict", "contradict"],
+      "collocations": ["reconcile differences", "reconcile conflicting views", "reconcile theory with practice"]
+    }
+  ]
+}

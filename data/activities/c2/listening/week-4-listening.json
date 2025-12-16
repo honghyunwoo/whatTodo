@@ -1,0 +1,116 @@
+{
+  "id": "c2-listening-week-4",
+  "type": "listening",
+  "level": "C2",
+  "weekId": "week-4",
+  "title": "Political Theory and Social Critique",
+  "description": "Engaging with complex political philosophy discourse",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passages": [
+    {
+      "id": "c2-l4-p1",
+      "title": "The Concept of Ideology",
+      "context": "Political philosophy lecture",
+      "transcript": "The concept of ideology has undergone remarkable transformations since Marx first deployed it. For Marx, ideology was false consciousness—the ruling ideas of any epoch being the ideas of the ruling class. But this formulation raises an immediate difficulty: if all thought is ideologically determined, how can Marxism itself escape ideology? Althusser's innovation was to reconceive ideology not as false belief but as lived relation—the imaginary relationship of individuals to their real conditions of existence. On this view, ideology is not simply error to be corrected but the very medium through which subjects are constituted. We do not have ideologies; we are subjects of ideology. This shift from epistemology to ontology has profound implications for political practice. If ideology is not mere deception, then enlightenment—simply showing people the truth—cannot be the path to liberation.",
+      "audioDescription": "Professor discussing theories of ideology",
+      "questions": [
+        {
+          "id": "c2-l4-p1-q1",
+          "question": "What difficulty does Marx's original concept of ideology create?",
+          "options": [
+            "It cannot explain economic inequality",
+            "It undermines the possibility of objective social analysis including Marxism",
+            "It relies too heavily on economic determinism",
+            "It ignores the role of culture"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The paradox: 'if all thought is ideologically determined, how can Marxism itself escape ideology?'"
+        },
+        {
+          "id": "c2-l4-p1-q2",
+          "question": "How does Althusser reconceive ideology?",
+          "options": [
+            "As economic structure",
+            "As false consciousness",
+            "As lived relation constituting subjects",
+            "As scientific error"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Althusser reconceived ideology as 'the imaginary relationship of individuals to their real conditions of existence' through which 'subjects are constituted'"
+        },
+        {
+          "id": "c2-l4-p1-q3",
+          "question": "What does the speaker suggest follows from Althusser's reconception?",
+          "options": [
+            "Education becomes the primary means of change",
+            "Simply revealing truth cannot achieve liberation",
+            "Ideology can be eliminated through critique",
+            "Marx's original theory is confirmed"
+          ],
+          "correctAnswer": 1,
+          "explanation": "If ideology is not mere deception, then 'enlightenment—simply showing people the truth—cannot be the path to liberation'"
+        }
+      ]
+    },
+    {
+      "id": "c2-l4-p2",
+      "title": "Sovereignty and Exception",
+      "context": "Legal philosophy seminar",
+      "transcript": "Carl Schmitt's dictum that sovereign is he who decides on the exception has returned to contemporary political discourse with troubling resonance. For Schmitt, the liberal legal order presupposes normal conditions; it cannot account for its own foundation or for genuine emergencies that suspend the normal order. The sovereign, on this account, is precisely the authority that can declare the exception—suspend ordinary law in the name of preserving the political community itself. Giorgio Agamben has argued that the exception has become the rule in contemporary governance—that the camp, not the city, has become the nomos of the modern. What began as exceptional measures against terrorism have been normalized. The consequence is the figure of homo sacer—bare life that can be killed but not sacrificed, included in the political order only through exclusion. Whether one accepts Agamben's sweeping diagnosis, his analysis forces us to confront how emergency powers, once invoked, prove difficult to revoke.",
+      "audioDescription": "Legal scholar discussing sovereignty theory",
+      "questions": [
+        {
+          "id": "c2-l4-p2-q1",
+          "question": "According to Schmitt, what defines the sovereign?",
+          "options": [
+            "Democratic election",
+            "Constitutional authority",
+            "The power to decide on the exception",
+            "Military control"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Schmitt's dictum: 'sovereign is he who decides on the exception'"
+        },
+        {
+          "id": "c2-l4-p2-q2",
+          "question": "What does Agamben mean by claiming 'the exception has become the rule'?",
+          "options": [
+            "Legal systems have become more complex",
+            "Emergency measures have been normalized in governance",
+            "Exceptions in law have increased",
+            "Rules are more frequently violated"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'What began as exceptional measures against terrorism have been normalized'"
+        },
+        {
+          "id": "c2-l4-p2-q3",
+          "question": "What is the significance of 'homo sacer' in Agamben's analysis?",
+          "options": [
+            "A sacred figure in religious tradition",
+            "Life included in political order only through exclusion",
+            "The ideal democratic citizen",
+            "The sovereign authority itself"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Homo sacer is 'bare life that can be killed but not sacrificed, included in the political order only through exclusion'"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "false consciousness",
+      "definition": "Marxist concept: ideology that prevents awareness of one's true class interests"
+    },
+    {
+      "term": "nomos",
+      "definition": "Greek term meaning law, custom, or fundamental organizing principle"
+    },
+    {
+      "term": "homo sacer",
+      "definition": "In Roman law, a person who could be killed with impunity but not sacrificed"
+    }
+  ]
+}

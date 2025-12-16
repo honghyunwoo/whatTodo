@@ -1,0 +1,108 @@
+{
+  "id": "c2-vocab-week-2",
+  "type": "vocabulary",
+  "level": "C2",
+  "weekId": "week-2",
+  "title": "Philosophical and Critical Lexicon",
+  "description": "Advanced vocabulary for philosophical inquiry and critical analysis",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "items": [
+    {
+      "id": "c2-v2-1",
+      "word": "dialectical",
+      "definition": "Relating to the logical discussion of ideas and opinions; involving the process of examining opposing ideas to find truth",
+      "pronunciation": "/ˌdaɪəˈlektɪkəl/",
+      "partOfSpeech": "adjective",
+      "koreanMeaning": "변증법적인",
+      "example": "Hegel's dialectical method involves thesis, antithesis, and synthesis.",
+      "synonyms": ["logical", "analytical", "argumentative"],
+      "antonyms": ["monological", "dogmatic"],
+      "collocations": ["dialectical method", "dialectical reasoning", "dialectical tension"]
+    },
+    {
+      "id": "c2-v2-2",
+      "word": "teleological",
+      "definition": "Relating to or involving explanation in terms of the purpose or end goal of something",
+      "pronunciation": "/ˌteliəˈlɒdʒɪkəl/",
+      "partOfSpeech": "adjective",
+      "koreanMeaning": "목적론적인",
+      "example": "Teleological arguments for God's existence point to design and purpose in nature.",
+      "synonyms": ["purposive", "goal-oriented", "finalist"],
+      "antonyms": ["mechanistic", "causalistic"],
+      "collocations": ["teleological argument", "teleological ethics", "teleological explanation"]
+    },
+    {
+      "id": "c2-v2-3",
+      "word": "aporia",
+      "definition": "A state of puzzlement or an irresolvable internal contradiction in a text or argument",
+      "pronunciation": "/əˈpɔːriə/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "아포리아, 난관",
+      "example": "Derrida's deconstructive readings often reveal the aporia within philosophical texts.",
+      "synonyms": ["impasse", "paradox", "contradiction"],
+      "antonyms": ["resolution", "clarity"],
+      "collocations": ["reveal an aporia", "textual aporia", "philosophical aporia"]
+    },
+    {
+      "id": "c2-v2-4",
+      "word": "hermeneutic",
+      "definition": "Concerning the interpretation of texts, especially religious or literary ones",
+      "pronunciation": "/ˌhɜːmɪˈnjuːtɪk/",
+      "partOfSpeech": "adjective",
+      "koreanMeaning": "해석학적인",
+      "example": "A hermeneutic approach to the Constitution considers its historical context.",
+      "synonyms": ["interpretive", "exegetical", "explicatory"],
+      "antonyms": ["literal", "surface-level"],
+      "collocations": ["hermeneutic circle", "hermeneutic tradition", "hermeneutic analysis"]
+    },
+    {
+      "id": "c2-v2-5",
+      "word": "phenomenological",
+      "definition": "Relating to the philosophical study of consciousness and the objects of direct experience",
+      "pronunciation": "/fɪˌnɒmɪnəˈlɒdʒɪkəl/",
+      "partOfSpeech": "adjective",
+      "koreanMeaning": "현상학적인",
+      "example": "Husserl developed a phenomenological method to describe conscious experience.",
+      "synonyms": ["experiential", "descriptive"],
+      "antonyms": ["theoretical", "speculative"],
+      "collocations": ["phenomenological reduction", "phenomenological analysis", "phenomenological approach"]
+    },
+    {
+      "id": "c2-v2-6",
+      "word": "reification",
+      "definition": "The treatment of an abstraction as if it were a concrete, material thing",
+      "pronunciation": "/ˌriːɪfɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "물화, 구체화",
+      "example": "Marx critiqued the reification of social relations under capitalism.",
+      "synonyms": ["objectification", "concretization", "hypostatization"],
+      "antonyms": ["abstraction"],
+      "collocations": ["process of reification", "reification of concepts", "avoid reification"]
+    },
+    {
+      "id": "c2-v2-7",
+      "word": "intersubjective",
+      "definition": "Existing between conscious minds; shared by more than one conscious subject",
+      "pronunciation": "/ˌɪntəsəbˈdʒektɪv/",
+      "partOfSpeech": "adjective",
+      "koreanMeaning": "상호주관적인",
+      "example": "Language enables intersubjective understanding between individuals.",
+      "synonyms": ["shared", "mutual", "collective"],
+      "antonyms": ["subjective", "private"],
+      "collocations": ["intersubjective agreement", "intersubjective validity", "intersubjective experience"]
+    },
+    {
+      "id": "c2-v2-8",
+      "word": "propinquity",
+      "definition": "Nearness in space, time, or relationship; kinship",
+      "pronunciation": "/prəˈpɪŋkwɪti/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "근접성, 유사성",
+      "example": "The propinquity of the two concepts led to their frequent conflation in the literature.",
+      "synonyms": ["proximity", "closeness", "affinity"],
+      "antonyms": ["distance", "remoteness"],
+      "collocations": ["geographical propinquity", "conceptual propinquity", "temporal propinquity"]
+    }
+  ]
+}

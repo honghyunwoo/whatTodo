@@ -184,7 +184,7 @@ export function WritingFeedback({
               {/* Score Label */}
               <View style={styles.scoreLabelContainer}>
                 <MaterialCommunityIcons
-                  name={getScoreIcon(evaluation.overallScore)}
+                  name={getScoreIcon(evaluation.overallScore) as any}
                   size={24}
                   color={scoreColor}
                 />

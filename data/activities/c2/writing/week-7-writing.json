@@ -1,0 +1,94 @@
+{
+  "id": "c2-writing-week-7",
+  "type": "writing",
+  "level": "C2",
+  "weekId": "week-7",
+  "title": "The Literature Review and Scholarly Synthesis",
+  "description": "Synthesizing scholarly sources into coherent arguments",
+  "estimatedMinutes": 35,
+  "xpReward": 65,
+  "sections": [
+    {
+      "id": "c2-w7-s1",
+      "title": "Literature Review Functions",
+      "description": "What a literature review accomplishes",
+      "functions": [
+        {
+          "function": "Mapping the field",
+          "description": "Showing the scholarly landscape and major positions",
+          "example": "Scholarship on X divides broadly into three camps: those who argue... those who contend... and those who maintain..."
+        },
+        {
+          "function": "Identifying gaps",
+          "description": "Showing what remains unexplored or contested",
+          "example": "While scholars have extensively examined A and B, the relationship between them remains undertheorized."
+        },
+        {
+          "function": "Positioning your contribution",
+          "description": "Showing how your work relates to existing scholarship",
+          "example": "My argument builds on X's insight while challenging their assumption that..."
+        },
+        {
+          "function": "Establishing conversation partners",
+          "description": "Identifying the scholars your work engages most directly",
+          "example": "In dialogue with X and Y, I argue that..."
+        }
+      ]
+    },
+    {
+      "id": "c2-w7-s2",
+      "title": "Synthesis vs. Summary",
+      "description": "Moving from describing sources to analyzing their relationships",
+      "contrast": {
+        "summary": "Smith (2020) argues X. Jones (2021) argues Y. Lee (2022) argues Z.",
+        "synthesis": "While Smith (2020) and Jones (2021) diverge on the question of P—Smith privileging A, Jones emphasizing B—both share an assumption that Lee (2022) productively challenges: namely, that C."
+      },
+      "techniques": [
+        {
+          "technique": "Identify common assumptions",
+          "example": "Despite surface disagreements, these scholars share a commitment to..."
+        },
+        {
+          "technique": "Trace intellectual lineages",
+          "example": "Y's critique of X opened space for Z's alternative approach..."
+        },
+        {
+          "technique": "Map conceptual terrain",
+          "example": "The debate can be mapped along two axes: [describe dimensions]"
+        }
+      ]
+    },
+    {
+      "id": "c2-w7-s3",
+      "title": "Source Integration",
+      "description": "Weaving sources into your argument",
+      "patterns": [
+        {
+          "pattern": "Authority for background",
+          "example": "As X has shown, [established fact].",
+          "use": "Uncontroversial claims"
+        },
+        {
+          "pattern": "Adoption of framework",
+          "example": "Following X, I understand [concept] as...",
+          "use": "Using another scholar's analytical tools"
+        },
+        {
+          "pattern": "Extension",
+          "example": "While X developed this idea for [domain], it proves illuminating for [your domain] as well.",
+          "use": "Applying others' insights to new areas"
+        },
+        {
+          "pattern": "Constructive critique",
+          "example": "X's account captures [strengths] but founders on [weakness]. A revised version might...",
+          "use": "Improving existing arguments"
+        }
+      ]
+    }
+  ],
+  "writingTask": {
+    "title": "Literature Review Paragraph",
+    "prompt": "Write a synthetic literature review paragraph (200-250 words) on the topic of how language influences thought, engaging with at least three different scholarly positions.",
+    "sampleResponse": "The Sapir-Whorf Hypothesis Revisited: A Synthetic Overview\n\nThe relationship between language and thought has generated one of linguistics' most productive debates. The strong form of the Sapir-Whorf hypothesis—that language determines thought—found few contemporary defenders after Berlin and Kay's (1969) demonstration of universal constraints on color naming. Yet recent empirical work has revived interest in weaker versions of linguistic relativism. Boroditsky (2001, 2011) has provided compelling evidence that speakers of languages with different spatial and temporal metaphors exhibit corresponding differences in non-linguistic reasoning tasks. Her work suggests that habitual patterns of speech do influence habitual patterns of thought, even if they don't constrain what thoughts are possible.\n\nLucy (1992, 1997) offers perhaps the most sophisticated contemporary defense of relativism, arguing that we must distinguish between semiotic, structural, and functional levels of influence, each requiring different methodological approaches. His work on Yucatec Maya demonstrates that grammatical differences in number marking correlate with differences in object categorization—a finding that connects linguistic structure to cognitive consequences.\n\nYet skeptics remain. Pinker (1994) argues that thought is essentially independent of language, occurring in a 'mentalese' that is then translated into natural language for communication. McWhorter (2014) contends that apparent relativistic effects are better explained by cultural practices that co-occur with linguistic differences.\n\nThe current consensus, if one exists, is perhaps best captured by Slobin's (1996) 'thinking for speaking' hypothesis: language doesn't determine thought in general but shapes attention during the process of linguistic encoding. This modest but empirically tractable position frames much contemporary research."
+  }
+}

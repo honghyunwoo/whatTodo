@@ -1,0 +1,137 @@
+{
+  "id": "c2-grammar-week-4",
+  "type": "grammar",
+  "level": "C2",
+  "weekId": "week-4",
+  "title": "Academic Argumentation Structures",
+  "description": "Mastering complex grammatical patterns for scholarly discourse",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c2-g4-s1",
+      "title": "Concessive Structures",
+      "explanation": "Advanced concessive constructions acknowledge opposing arguments while maintaining your position.",
+      "patterns": [
+        {
+          "pattern": "Granting/Granted that..., it remains the case that...",
+          "example": "Granted that the evidence is incomplete, it remains the case that a clear pattern emerges.",
+          "function": "Acknowledges limitation while asserting main point"
+        },
+        {
+          "pattern": "For all X, Y still...",
+          "example": "For all its methodological innovation, the study still fails to address causation.",
+          "function": "Acknowledges positive while introducing criticism"
+        },
+        {
+          "pattern": "Notwithstanding X, Y...",
+          "example": "Notwithstanding these reservations, the theory offers valuable insights.",
+          "function": "Formal concession, maintains positive evaluation"
+        },
+        {
+          "pattern": "Compelling as X may be, Y...",
+          "example": "Compelling as this argument may be, it rests on questionable assumptions.",
+          "function": "Inverted concessive with subjunctive mood"
+        }
+      ]
+    },
+    {
+      "id": "c2-g4-s2",
+      "title": "Extraposition and Cleft Structures",
+      "explanation": "Manipulating information structure for emphasis and flow.",
+      "patterns": [
+        {
+          "name": "Extraposed subjects",
+          "basic": "That he would make such a claim is surprising.",
+          "extraposed": "It is surprising that he would make such a claim.",
+          "effect": "Delays complex subject, creates suspense"
+        },
+        {
+          "name": "It-clefts for focus",
+          "neutral": "The methodology undermines the conclusions.",
+          "cleft": "It is the methodology that undermines the conclusions.",
+          "effect": "Focuses attention on specific element"
+        },
+        {
+          "name": "Wh-clefts (pseudo-clefts)",
+          "neutral": "We need a more nuanced approach.",
+          "cleft": "What we need is a more nuanced approach.",
+          "effect": "Emphasizes the information in the complement"
+        },
+        {
+          "name": "Reverse wh-clefts",
+          "neutral": "The social context is what matters most.",
+          "effect": "Emphasizes the wh-clause element"
+        }
+      ]
+    },
+    {
+      "id": "c2-g4-s3",
+      "title": "Subjunctive in Academic Writing",
+      "explanation": "The subjunctive mood in formal academic and legal contexts.",
+      "uses": [
+        {
+          "type": "Mandative subjunctive",
+          "structure": "recommend/suggest/insist/require + that + subject + base verb",
+          "example": "The committee recommends that the proposal be revised.",
+          "note": "Common in academic and legal writing; 'should' alternative less formal"
+        },
+        {
+          "type": "Formulaic subjunctive",
+          "examples": ["be that as it may", "suffice it to say", "far be it from me"],
+          "note": "Fixed expressions, high register"
+        },
+        {
+          "type": "Counterfactual were",
+          "example": "Were it not for this oversight, the argument would be persuasive.",
+          "note": "'If it were not' inverted for formal effect"
+        }
+      ]
+    },
+    {
+      "id": "c2-g4-s4",
+      "title": "Parallelism and Rhetorical Balance",
+      "explanation": "Using parallel structures for clarity, emphasis, and persuasive effect.",
+      "techniques": [
+        {
+          "name": "Tricolon",
+          "description": "Series of three parallel elements",
+          "example": "The theory is elegant in conception, rigorous in methodology, and profound in implications."
+        },
+        {
+          "name": "Antithesis",
+          "description": "Contrasting ideas in parallel structure",
+          "example": "What the old paradigm obscures, the new reveals."
+        },
+        {
+          "name": "Anaphora",
+          "description": "Repetition at the beginning of successive clauses",
+          "example": "It is not enough to document these patterns. It is not enough to theorize their origins. It is necessary to transform the conditions that produce them."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-g4-ex1",
+      "type": "concessive-construction",
+      "instruction": "Rewrite using 'compelling as... may be'",
+      "original": "Although this evidence is persuasive, it does not prove causation.",
+      "answer": "Compelling as this evidence may be, it does not prove causation."
+    },
+    {
+      "id": "c2-g4-ex2",
+      "type": "cleft-transformation",
+      "instruction": "Transform into an it-cleft for emphasis",
+      "original": "The lack of longitudinal data weakens the study.",
+      "answer": "It is the lack of longitudinal data that weakens the study."
+    },
+    {
+      "id": "c2-g4-ex3",
+      "type": "subjunctive",
+      "instruction": "Complete with appropriate subjunctive form",
+      "sentence": "The board insisted that the CEO _____ (resign) immediately.",
+      "answer": "resign"
+    }
+  ]
+}

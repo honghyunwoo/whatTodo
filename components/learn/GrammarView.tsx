@@ -4,13 +4,13 @@ import { Button, Card, Divider, Text } from 'react-native-paper';
 
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
-import { GrammarActivity } from '@/types/activity';
+import { GrammarActivity, QuizResult } from '@/types/activity';
 
 import { QuizView } from './QuizView';
 
 interface GrammarViewProps {
   activity: GrammarActivity;
-  onComplete?: (score: number) => void;
+  onComplete?: (score: number, xpEarned: number) => void;
 }
 
 type ViewMode = 'learn' | 'quiz' | 'complete';
@@ -18,18 +18,20 @@ type ViewMode = 'learn' | 'quiz' | 'complete';
 export function GrammarView({ activity, onComplete }: GrammarViewProps) {
   const [mode, setMode] = useState<ViewMode>('learn');
   const [score, setScore] = useState(0);
+  const [earnedXP, setEarnedXP] = useState(0);
 
   const handleStartQuiz = useCallback(() => {
     setMode('quiz');
   }, []);
 
   const handleQuizComplete = useCallback(
-    (results: { correct: boolean }[]) => {
+    (results: QuizResult[], totalXP: number) => {
       const correctCount = results.filter((r) => r.correct).length;
       const calculatedScore = Math.round((correctCount / results.length) * 100);
       setScore(calculatedScore);
+      setEarnedXP(totalXP);
       setMode('complete');
-      onComplete?.(calculatedScore);
+      onComplete?.(calculatedScore, totalXP);
     },
     [onComplete]
   );
@@ -37,6 +39,7 @@ export function GrammarView({ activity, onComplete }: GrammarViewProps) {
   const handleRestart = useCallback(() => {
     setMode('learn');
     setScore(0);
+    setEarnedXP(0);
   }, []);
 
   if (mode === 'quiz') {
@@ -49,6 +52,7 @@ export function GrammarView({ activity, onComplete }: GrammarViewProps) {
         <Text style={styles.completedIcon}>📖</Text>
         <Text style={styles.completedTitle}>문법 학습 완료!</Text>
         <Text style={styles.scoreText}>{score}점</Text>
+        {earnedXP > 0 && <Text style={styles.xpText}>✨ +{earnedXP} XP</Text>}
         <Button mode="contained" onPress={handleRestart} style={styles.restartButton}>
           다시 학습하기
         </Button>
@@ -179,6 +183,12 @@ const styles = StyleSheet.create({
     color: COLORS.primary,
     fontSize: 48,
     fontWeight: '700',
+  },
+  xpText: {
+    color: COLORS.warning,
+    fontSize: SIZES.fontSize.lg,
+    fontWeight: '600',
+    marginTop: SIZES.spacing.sm,
   },
   title: {
     color: COLORS.text,

@@ -1,0 +1,111 @@
+{
+  "id": "c1-speaking-week-2",
+  "type": "speaking",
+  "level": "C1",
+  "weekId": "week-2",
+  "title": "Argumentation and Debate",
+  "description": "Constructing and defending academic arguments in formal discussions",
+  "estimatedMinutes": 20,
+  "xpReward": 45,
+  "exercises": [
+    {
+      "id": "c1-s2-ex1",
+      "type": "structured-argument",
+      "title": "Building an Academic Argument",
+      "instruction": "Use the following framework to construct a 2-minute argument on the given topic",
+      "topic": "Universities should prioritize practical vocational training over traditional liberal arts education.",
+      "framework": [
+        "State your position clearly",
+        "Provide your strongest supporting point with evidence",
+        "Acknowledge a counterargument",
+        "Refute the counterargument",
+        "Conclude by reinforcing your position"
+      ],
+      "usefulPhrases": [
+        "I would argue that...",
+        "The evidence suggests that...",
+        "While some might contend that...",
+        "However, this overlooks the fact that...",
+        "In conclusion, it is clear that..."
+      ],
+      "modelResponse": "I would argue that universities should maintain a balance between vocational training and liberal arts education, rather than prioritizing one over the other. The evidence suggests that liberal arts education develops critical thinking and adaptability—skills increasingly valued in a rapidly changing job market. While some might contend that vocational training offers more immediate employability, this overlooks the fact that many technical skills become obsolete quickly, whereas foundational analytical abilities remain relevant throughout one's career. In conclusion, a holistic approach that integrates both practical skills and theoretical foundations best prepares students for long-term success."
+    },
+    {
+      "id": "c1-s2-ex2",
+      "type": "rebuttal-practice",
+      "title": "Responding to Counterarguments",
+      "instruction": "Read the argument below and prepare a 1-minute rebuttal",
+      "argument": "Social media has fundamentally damaged interpersonal communication. People spend more time looking at screens than engaging in meaningful face-to-face interactions, leading to increased isolation and superficial relationships.",
+      "responsePrompts": [
+        "What assumption in this argument can you challenge?",
+        "What evidence contradicts this claim?",
+        "What nuance does this argument overlook?"
+      ],
+      "usefulPhrases": [
+        "This argument rests on the questionable assumption that...",
+        "While there is some validity to this claim, it fails to account for...",
+        "The evidence actually points to a more complex picture...",
+        "We need to distinguish between..."
+      ]
+    },
+    {
+      "id": "c1-s2-ex3",
+      "type": "panel-discussion",
+      "title": "Moderating Academic Discourse",
+      "instruction": "Practice using these phrases to facilitate a balanced discussion",
+      "scenario": "You are moderating a panel on climate policy. One panelist has been dominating the conversation.",
+      "phrases": {
+        "transitioning": [
+          "That's an important point. Let's now hear from Dr. Kim on this matter.",
+          "Building on that perspective, I'd like to invite an alternative viewpoint."
+        ],
+        "synthesizing": [
+          "So, if I understand correctly, we have two competing considerations here...",
+          "It seems we're grappling with a fundamental tension between..."
+        ],
+        "redirecting": [
+          "That's a valuable contribution. Perhaps we could also examine...",
+          "I'd like us to return to the central question of..."
+        ],
+        "concluding": [
+          "In light of our discussion, what key takeaways can we identify?",
+          "What areas of consensus have emerged from this exchange?"
+        ]
+      }
+    },
+    {
+      "id": "c1-s2-ex4",
+      "type": "impromptu",
+      "title": "Quick Response Exercise",
+      "instruction": "Prepare a 30-second response to each prompt, using hedging language appropriately",
+      "prompts": [
+        "What role should technology play in education?",
+        "Is economic growth compatible with environmental sustainability?",
+        "Should voting be mandatory in democratic societies?"
+      ],
+      "hedgingPhrases": [
+        "It could be argued that...",
+        "There appears to be evidence suggesting...",
+        "One might tentatively conclude that...",
+        "This is, of course, a nuanced issue, but..."
+      ]
+    }
+  ],
+  "pronunciationFocus": [
+    {
+      "word": "argument",
+      "ipa": "/ˈɑːɡjumənt/",
+      "note": "Stress on first syllable; the 'u' is a schwa"
+    },
+    {
+      "word": "counterargument",
+      "ipa": "/ˈkaʊntərˌɑːɡjumənt/",
+      "note": "Compound stress pattern; primary stress on 'coun-'"
+    },
+    {
+      "word": "hypothesis",
+      "ipa": "/haɪˈpɒθəsɪs/",
+      "note": "Stress on second syllable; 'th' is voiceless"
+    }
+  ]
+}

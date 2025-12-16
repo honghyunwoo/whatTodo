@@ -1,0 +1,74 @@
+{
+  "id": "week-1-speaking",
+  "weekId": "week-1",
+  "type": "speaking",
+  "level": "C1",
+  "title": "Academic Discussion & Professional Presentations",
+  "description": "Practice articulating complex ideas in academic and professional contexts.",
+
+  "prompts": [
+    {
+      "id": "sp1",
+      "title": "Presenting Research Findings",
+      "context": "You are presenting your research findings at an academic conference.",
+      "targetText": "Our study sought to elucidate the relationship between social media usage and mental health outcomes among young adults.",
+      "translation": "우리 연구는 젊은 성인들 사이에서 소셜 미디어 사용과 정신 건강 결과 간의 관계를 밝히고자 했습니다.",
+      "tips": [
+        "Emphasize 'elucidate' with proper stress on the second syllable",
+        "Maintain a formal, measured pace appropriate for academic presentation",
+        "Use rising intonation on 'relationship' to signal the key focus"
+      ]
+    },
+    {
+      "id": "sp2",
+      "title": "Defending a Position",
+      "context": "You are participating in a debate about technology policy.",
+      "targetText": "While the empirical evidence remains somewhat inconclusive, I would postulate that stricter regulations are necessary to address these unprecedented challenges.",
+      "translation": "실증적 증거가 다소 결론에 이르지 못했지만, 이러한 전례 없는 도전에 대응하기 위해 더 엄격한 규제가 필요하다고 가정하겠습니다.",
+      "tips": [
+        "Use a confident but measured tone",
+        "Pause slightly after 'inconclusive' to signal the contrast",
+        "Stress 'unprecedented' to emphasize the novelty of the situation"
+      ]
+    },
+    {
+      "id": "sp3",
+      "title": "Analyzing Complexities",
+      "context": "You are explaining a nuanced situation in a business meeting.",
+      "targetText": "The discrepancy between our projected figures and actual performance requires careful scrutiny before we can reconcile these contradictory findings.",
+      "translation": "예상 수치와 실제 실적 간의 불일치는 이러한 모순된 결과를 조화시키기 전에 신중한 검토가 필요합니다.",
+      "tips": [
+        "Emphasize 'discrepancy' and 'scrutiny' as key analytical terms",
+        "Use a thoughtful pace to convey careful consideration",
+        "End with slight falling intonation to signal completion"
+      ]
+    },
+    {
+      "id": "sp4",
+      "title": "Making Recommendations",
+      "context": "You are advising colleagues on a strategic decision.",
+      "targetText": "Given the inherent risks and the pertinent evidence we've gathered, I believe we should adopt a more nuanced approach to this problem.",
+      "translation": "내재된 위험과 우리가 수집한 관련 증거를 고려할 때, 이 문제에 대해 더 미묘한 접근 방식을 채택해야 한다고 생각합니다.",
+      "tips": [
+        "Project confidence when stating 'I believe'",
+        "Emphasize 'nuanced' to highlight the sophisticated nature of the recommendation",
+        "Maintain professional but persuasive tone throughout"
+      ]
+    }
+  ],
+
+  "discussionTopics": [
+    {
+      "id": "dt1",
+      "topic": "Do you think technology companies should be held more accountable for the societal impacts of their products? Why or why not?",
+      "sampleResponse": "I would argue that increased accountability is necessary, though the implementation presents inherent challenges. While some might postulate that market forces alone will ensure responsible innovation, empirical evidence suggests otherwise...",
+      "vocabularyToUse": ["accountability", "inherent", "postulate", "empirical"]
+    },
+    {
+      "id": "dt2",
+      "topic": "How can organizations reconcile the pursuit of profitability with environmental sustainability?",
+      "sampleResponse": "This is indeed a nuanced issue that requires careful consideration. On one hand, the traditional paradigm has viewed these goals as mutually exclusive. However, more recent evidence substantiates the view that sustainable practices can actually enhance long-term profitability...",
+      "vocabularyToUse": ["nuanced", "paradigm", "substantiate", "reconcile"]
+    }
+  ]
+}

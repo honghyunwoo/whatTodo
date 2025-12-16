@@ -1,0 +1,108 @@
+{
+  "id": "c2-vocab-week-6",
+  "type": "vocabulary",
+  "level": "C2",
+  "weekId": "week-6",
+  "title": "Ethics and Moral Philosophy Lexicon",
+  "description": "Specialized vocabulary for ethical theory and moral philosophy",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "items": [
+    {
+      "id": "c2-v6-1",
+      "word": "deontology",
+      "definition": "Ethical theory that judges actions based on adherence to rules or duties rather than consequences",
+      "pronunciation": "/ˌdiːɒnˈtɒlədʒi/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "의무론",
+      "example": "Kantian deontology holds that certain acts are intrinsically wrong regardless of their outcomes.",
+      "synonyms": ["duty-based ethics", "rule-based ethics"],
+      "antonyms": ["consequentialism", "teleology"],
+      "collocations": ["Kantian deontology", "deontological ethics", "deontological constraints"]
+    },
+    {
+      "id": "c2-v6-2",
+      "word": "consequentialism",
+      "definition": "The view that actions should be judged solely by their consequences",
+      "pronunciation": "/ˌkɒnsɪˈkwenʃəlɪzəm/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "결과주의",
+      "example": "Act consequentialism evaluates individual actions; rule consequentialism evaluates rules for action.",
+      "synonyms": ["outcome-based ethics", "teleological ethics"],
+      "antonyms": ["deontology", "virtue ethics"],
+      "collocations": ["act consequentialism", "rule consequentialism", "consequentialist reasoning"]
+    },
+    {
+      "id": "c2-v6-3",
+      "word": "categorical imperative",
+      "definition": "Kant's supreme principle of morality: act only according to rules you could will as universal laws",
+      "pronunciation": "/ˌkætəˈɡɒrɪkəl ɪmˈperətɪv/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "정언명령",
+      "example": "The categorical imperative forbids using persons merely as means to ends.",
+      "synonyms": ["moral law", "universal principle"],
+      "antonyms": ["hypothetical imperative"],
+      "collocations": ["Kant's categorical imperative", "formulations of the categorical imperative"]
+    },
+    {
+      "id": "c2-v6-4",
+      "word": "supererogatory",
+      "definition": "Beyond what is required by duty; morally praiseworthy but not obligatory",
+      "pronunciation": "/ˌsuːpərɪˈrɒɡətɔːri/",
+      "partOfSpeech": "adjective",
+      "koreanMeaning": "의무 이상의",
+      "example": "Heroic self-sacrifice is typically considered supererogatory rather than obligatory.",
+      "synonyms": ["above and beyond duty", "meritorious"],
+      "antonyms": ["obligatory", "required"],
+      "collocations": ["supererogatory acts", "supererogatory virtue", "supererogation"]
+    },
+    {
+      "id": "c2-v6-5",
+      "word": "moral particularism",
+      "definition": "The view that moral principles cannot be stated in general terms; each situation requires unique judgment",
+      "pronunciation": "/ˈmɒrəl pɑːˈtɪkjʊlərɪzəm/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "도덕적 특수주의",
+      "example": "Moral particularism challenges the search for universal ethical principles.",
+      "synonyms": ["contextual ethics", "situationism"],
+      "antonyms": ["moral generalism", "universal ethics"],
+      "collocations": ["Dancy's particularism", "particularist approach", "moral particularist"]
+    },
+    {
+      "id": "c2-v6-6",
+      "word": "akrasia",
+      "definition": "Acting against one's better judgment; weakness of will",
+      "pronunciation": "/əˈkreɪziə/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "의지의 나약",
+      "example": "Akrasia presents a puzzle: how can we knowingly act against our own perceived good?",
+      "synonyms": ["weakness of will", "incontinence"],
+      "antonyms": ["self-control", "enkrateia"],
+      "collocations": ["problem of akrasia", "akratic action", "Aristotelian akrasia"]
+    },
+    {
+      "id": "c2-v6-7",
+      "word": "metaethics",
+      "definition": "The study of the nature, foundations, and meaning of ethical statements themselves",
+      "pronunciation": "/ˌmetəˈeθɪks/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "메타윤리학",
+      "example": "Metaethics asks whether moral statements can be true or false, and what makes them so.",
+      "synonyms": ["foundational ethics", "second-order ethics"],
+      "antonyms": ["normative ethics", "applied ethics"],
+      "collocations": ["metaethical questions", "metaethical realism", "metaethical theory"]
+    },
+    {
+      "id": "c2-v6-8",
+      "word": "moral luck",
+      "definition": "The phenomenon that factors beyond our control affect moral judgment of our actions",
+      "pronunciation": "/ˈmɒrəl lʌk/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "도덕적 운",
+      "example": "The concept of moral luck challenges the assumption that we are only responsible for what we control.",
+      "synonyms": ["ethical contingency"],
+      "antonyms": [],
+      "collocations": ["resultant moral luck", "circumstantial moral luck", "constitutive moral luck"]
+    }
+  ]
+}

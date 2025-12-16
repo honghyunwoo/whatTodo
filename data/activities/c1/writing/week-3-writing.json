@@ -1,0 +1,102 @@
+{
+  "id": "c1-writing-week-3",
+  "type": "writing",
+  "level": "C1",
+  "weekId": "week-3",
+  "title": "Policy Briefs and Recommendations",
+  "description": "Writing clear, actionable policy documents for decision-makers",
+  "estimatedMinutes": 30,
+  "xpReward": 55,
+  "exercises": [
+    {
+      "id": "c1-w3-ex1",
+      "type": "structure",
+      "title": "Policy Brief Structure",
+      "instruction": "Learn the key components of an effective policy brief",
+      "components": [
+        {
+          "name": "Executive Summary",
+          "purpose": "Concise overview for busy decision-makers",
+          "length": "1-2 paragraphs",
+          "tips": ["Lead with the recommendation", "Avoid jargon", "Make it standalone"]
+        },
+        {
+          "name": "Background/Context",
+          "purpose": "Establish the problem and its significance",
+          "length": "1-2 paragraphs",
+          "tips": ["Use relevant data", "Explain why now", "Identify stakeholders"]
+        },
+        {
+          "name": "Policy Options",
+          "purpose": "Present alternatives fairly",
+          "length": "2-3 paragraphs",
+          "tips": ["Include costs and benefits", "Acknowledge trade-offs", "Be objective"]
+        },
+        {
+          "name": "Recommendation",
+          "purpose": "Clear, actionable guidance",
+          "length": "1-2 paragraphs",
+          "tips": ["Be specific", "Justify your preference", "Address implementation"]
+        }
+      ]
+    },
+    {
+      "id": "c1-w3-ex2",
+      "type": "executive-summary",
+      "title": "Writing Executive Summaries",
+      "instruction": "Condense the following policy analysis into a 100-word executive summary",
+      "content": {
+        "issue": "The city faces a growing housing affordability crisis, with median home prices rising 45% over five years while wages increased only 12%.",
+        "options": [
+          "Option A: Increase zoning density near transit stations",
+          "Option B: Expand rent control to more buildings",
+          "Option C: Provide subsidies for first-time homebuyers"
+        ],
+        "recommendation": "A combination of density increases and targeted subsidies"
+      },
+      "modelSummary": "This brief recommends addressing the housing affordability crisis through increased zoning density near transit stations combined with targeted subsidies for first-time buyers earning below median income. With home prices rising 45% against 12% wage growth over five years, immediate action is necessary. While rent control offers short-term relief, evidence suggests it reduces housing supply long-term. The proposed approach balances market-based solutions with direct assistance, projected to create 5,000 new affordable units within three years while helping 2,000 families enter homeownership.",
+      "tips": [
+        "Lead with the recommendation",
+        "Include key data points",
+        "Explain the logic briefly",
+        "Quantify expected outcomes"
+      ]
+    },
+    {
+      "id": "c1-w3-ex3",
+      "type": "recommendation-language",
+      "title": "Language of Recommendations",
+      "instruction": "Practice the verb forms and structures used in policy recommendations",
+      "strengths": {
+        "strong": ["The government should...", "We recommend that...", "It is imperative that..."],
+        "moderate": ["The government might consider...", "We suggest that...", "It would be advisable to..."],
+        "tentative": ["The government could...", "One option would be to...", "It may be worth exploring..."]
+      },
+      "exercises": [
+        {
+          "scenario": "You are certain this policy is necessary",
+          "weak": "Maybe we could think about increasing funding.",
+          "improved": "We strongly recommend increasing funding for early childhood education."
+        },
+        {
+          "scenario": "You want to present an option without strong advocacy",
+          "weak": "You must do this immediately.",
+          "improved": "One option worth considering is phased implementation over 18 months."
+        }
+      ]
+    },
+    {
+      "id": "c1-w3-ex4",
+      "type": "evidence-integration",
+      "title": "Integrating Evidence",
+      "instruction": "Write a paragraph that integrates evidence to support a policy recommendation",
+      "topic": "Recommend mandatory financial literacy education in high schools",
+      "evidence": [
+        "Survey: Only 24% of adults can answer basic financial literacy questions correctly",
+        "Study: Students who took financial literacy courses had 15% lower credit card debt",
+        "International: Countries with mandatory financial education show higher savings rates"
+      ],
+      "modelParagraph": "The case for mandatory financial literacy education rests on substantial evidence. National surveys reveal a troubling knowledge gap: only 24 percent of adults can correctly answer basic questions about interest rates, inflation, and risk diversification. Crucially, research demonstrates that early intervention works—students who completed financial literacy courses accumulated 15 percent less credit card debt than their peers. International comparisons further support this approach: countries that have implemented mandatory financial education, including Australia and the Netherlands, consistently report higher household savings rates. Given this evidence, requiring financial literacy coursework in high schools represents a cost-effective investment in long-term economic well-being."
+    }
+  ]
+}

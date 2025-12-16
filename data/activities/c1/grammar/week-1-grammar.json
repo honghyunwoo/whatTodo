@@ -1,0 +1,134 @@
+{
+  "id": "week-1-grammar",
+  "weekId": "week-1",
+  "type": "grammar",
+  "level": "C1",
+  "title": "Advanced Conditionals & Hypothetical Structures",
+  "description": "Master mixed conditionals and sophisticated hypothetical expressions.",
+
+  "rules": [
+    {
+      "id": "r1",
+      "title": "Mixed Conditionals: Past Condition, Present Result",
+      "explanation": "Use this structure when a past situation has an ongoing present consequence. The if-clause uses past perfect, while the main clause uses would + base verb.",
+      "structure": "If + past perfect, would + base verb",
+      "examples": [
+        {
+          "sentence": "If I had studied medicine, I would be a doctor now.",
+          "translation": "내가 의학을 공부했더라면, 지금 의사일 텐데."
+        },
+        {
+          "sentence": "If she hadn't moved abroad, she would still live in Seoul.",
+          "translation": "그녀가 해외로 이주하지 않았더라면, 아직도 서울에 살고 있을 텐데."
+        },
+        {
+          "sentence": "If they had invested wisely, they wouldn't be struggling financially.",
+          "translation": "그들이 현명하게 투자했더라면, 재정적으로 어려움을 겪지 않을 텐데."
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "title": "Mixed Conditionals: Present Condition, Past Result",
+      "explanation": "Use this structure when a general present truth would have affected a past situation. The if-clause uses simple past, while the main clause uses would have + past participle.",
+      "structure": "If + simple past, would have + past participle",
+      "examples": [
+        {
+          "sentence": "If I weren't so busy, I would have attended the conference.",
+          "translation": "내가 그렇게 바쁘지 않았다면, 컨퍼런스에 참석했을 텐데."
+        },
+        {
+          "sentence": "If he spoke Japanese, he would have gotten the job in Tokyo.",
+          "translation": "그가 일본어를 했다면, 도쿄에서 그 일자리를 얻었을 텐데."
+        },
+        {
+          "sentence": "If the company were more flexible, they wouldn't have lost so many employees.",
+          "translation": "회사가 더 유연했다면, 그렇게 많은 직원을 잃지 않았을 텐데."
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "title": "Inversion in Conditionals",
+      "explanation": "In formal writing and speech, conditional sentences can begin with an inverted auxiliary verb instead of 'if'. This adds emphasis and formality.",
+      "structure": "Had/Were/Should + subject + verb...",
+      "examples": [
+        {
+          "sentence": "Had I known about the problem, I would have addressed it immediately.",
+          "translation": "그 문제에 대해 알았더라면, 즉시 처리했을 텐데."
+        },
+        {
+          "sentence": "Were the situation to change, we would reconsider our position.",
+          "translation": "상황이 바뀐다면, 우리의 입장을 재고할 것이다."
+        },
+        {
+          "sentence": "Should you require any assistance, please do not hesitate to contact us.",
+          "translation": "도움이 필요하시면, 주저 없이 연락해 주십시오."
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "title": "Subjunctive with 'Wish' and 'If Only'",
+      "explanation": "Use subjunctive structures with 'wish' and 'if only' to express regret about the past, dissatisfaction with the present, or desires for the future.",
+      "structure": "Wish/If only + past simple (present) / past perfect (past) / would + base verb (future)",
+      "examples": [
+        {
+          "sentence": "I wish I had more time to dedicate to this project. (present)",
+          "translation": "이 프로젝트에 더 많은 시간을 할애할 수 있으면 좋겠다."
+        },
+        {
+          "sentence": "If only we had anticipated this outcome. (past)",
+          "translation": "우리가 이 결과를 예상했더라면 좋았을 텐데."
+        },
+        {
+          "sentence": "I wish the committee would reconsider their decision. (future/request)",
+          "translation": "위원회가 그들의 결정을 재고해 주면 좋겠다."
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "multiple_choice",
+      "question": "If I _____ more assertive, I would have asked for a promotion last year.",
+      "options": ["am", "were", "had been", "would be"],
+      "answer": "were",
+      "explanation": "This is a mixed conditional: present condition (general truth about personality) affecting a past result. Use 'were' for the present unreal condition."
+    },
+    {
+      "id": "e2",
+      "type": "multiple_choice",
+      "question": "_____ the experiment been conducted properly, the results would be more reliable.",
+      "options": ["If", "Had", "Should", "Were"],
+      "answer": "Had",
+      "explanation": "This uses inversion for a past conditional. 'Had the experiment been conducted' = 'If the experiment had been conducted'."
+    },
+    {
+      "id": "e3",
+      "type": "multiple_choice",
+      "question": "If she hadn't resigned, she _____ CEO by now.",
+      "options": ["would be", "would have been", "will be", "is"],
+      "answer": "would be",
+      "explanation": "This is a mixed conditional: past condition (she resigned) with present result (she is not CEO now). Use 'would be' for the present hypothetical result."
+    },
+    {
+      "id": "e4",
+      "type": "multiple_choice",
+      "question": "_____ you need any further information, please let me know.",
+      "options": ["If", "Should", "Would", "Had"],
+      "answer": "Should",
+      "explanation": "'Should you need' is a formal, inverted conditional meaning 'If you should need'. It's commonly used in business correspondence."
+    },
+    {
+      "id": "e5",
+      "type": "multiple_choice",
+      "question": "I wish the government _____ more transparent about their policies.",
+      "options": ["is", "were", "will be", "had been"],
+      "answer": "were",
+      "explanation": "After 'wish', use past subjunctive 'were' to express a desire about the present situation. 'Were' is used for all persons in formal subjunctive."
+    }
+  ]
+}

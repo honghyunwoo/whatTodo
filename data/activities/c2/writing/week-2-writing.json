@@ -1,0 +1,90 @@
+{
+  "id": "c2-writing-week-2",
+  "type": "writing",
+  "level": "C2",
+  "weekId": "week-2",
+  "title": "Philosophical Essay Writing",
+  "description": "Crafting rigorous philosophical arguments with precision and nuance",
+  "estimatedMinutes": 35,
+  "xpReward": 65,
+  "exercises": [
+    {
+      "id": "c2-w2-ex1",
+      "type": "thesis-construction",
+      "title": "Formulating a Philosophical Thesis",
+      "instruction": "A strong philosophical thesis must be debatable, specific, and significant. Evaluate and revise the following thesis statements.",
+      "examples": [
+        {
+          "weak": "Free will is an interesting philosophical topic.",
+          "problem": "Merely descriptive; doesn't stake a claim",
+          "stronger": "Libertarian free will is incompatible with the best-supported interpretation of quantum mechanics, contrary to claims that quantum indeterminacy rescues it."
+        },
+        {
+          "weak": "There are good arguments on both sides of the abortion debate.",
+          "problem": "Non-committal; doesn't defend a position",
+          "stronger": "Thomson's violinist argument, while widely celebrated, fails to justify abortion in cases of consensual conception because it neglects the moral significance of causal responsibility."
+        }
+      ],
+      "exercise": {
+        "weakThesis": "Artificial intelligence raises ethical concerns.",
+        "task": "Revise this into a specific, debatable philosophical thesis",
+        "sampleRevision": "The dominant utilitarian framework for AI ethics is inadequate because it cannot accommodate the intrinsic value of human moral agency, suggesting that deontological constraints must supplement consequentialist considerations in AI governance."
+      }
+    },
+    {
+      "id": "c2-w2-ex2",
+      "type": "dialectical-structure",
+      "title": "Constructing Dialectical Arguments",
+      "instruction": "Write a paragraph following the dialectical structure: present an objection to your view, then respond to it",
+      "topic": "Moral facts are objective, not merely expressions of subjective preference",
+      "structure": [
+        "State the strongest objection to your position",
+        "Acknowledge the force of the objection",
+        "Provide your response",
+        "Explain why your response succeeds"
+      ],
+      "modelParagraph": "A formidable objection to moral objectivism points to widespread cross-cultural disagreement: if moral facts are objective, why do different societies reach such divergent moral conclusions? This challenge carries significant weight, and any adequate defense of moral objectivism must address it directly. However, I would argue that disagreement does not entail the absence of truth. Persistent disagreement exists in empirical domains—consider historical disputes in cosmology—without undermining the objectivity of astronomical facts. Furthermore, much apparent moral disagreement dissolves upon closer inspection: societies often share core moral principles while differing on their empirical application. The existence of moral progress—the near-universal rejection of slavery, for instance—is itself difficult to explain on a relativist view, whereas moral objectivism can account for it as genuine moral discovery.",
+      "usefulTransitions": [
+        "An objector might press the following point...",
+        "This challenge is not easily dismissed...",
+        "In response, I would argue that...",
+        "The objection fails because..."
+      ]
+    },
+    {
+      "id": "c2-w2-ex3",
+      "type": "precision-editing",
+      "title": "Achieving Philosophical Precision",
+      "instruction": "Revise the following passages for greater precision and rigor",
+      "exercises": [
+        {
+          "original": "Utilitarianism says we should do what makes people happy.",
+          "issues": "Imprecise terminology; conflates versions; ignores important qualifications",
+          "revised": "Classical hedonistic utilitarianism, as articulated by Bentham, holds that the morally right action is that which maximizes the net sum of pleasure over pain across all sentient beings affected."
+        },
+        {
+          "original": "Kant thinks lying is always wrong because of the categorical imperative.",
+          "issues": "Oversimplifies the argument; doesn't explain why",
+          "revised": "Kant argues that lying fails the universalizability test of the categorical imperative: the maxim 'I will lie when convenient' cannot be consistently willed as a universal law, as widespread lying would undermine the very institution of promising upon which lies depend for their efficacy."
+        }
+      ],
+      "passage": "Descartes proved that we exist because we think. If we're thinking, we must exist.",
+      "task": "Revise for philosophical precision"
+    },
+    {
+      "id": "c2-w2-ex4",
+      "type": "conclusion-writing",
+      "title": "Philosophical Conclusions",
+      "instruction": "A philosophical conclusion should synthesize, not merely summarize. It may acknowledge limitations, suggest implications, or open new questions.",
+      "badExample": {
+        "text": "In conclusion, I have argued that moral facts are objective. This is an important debate.",
+        "problem": "Merely summarizes; adds no new insight; ends weakly"
+      },
+      "goodExample": {
+        "text": "The arguments presented here suggest that moral objectivism, while not demonstrable with certainty, provides the most coherent account of our moral practices and discourse. If this is correct, it places significant constraints on how we should approach moral disagreement: not as a clash of incommensurable preferences, but as a joint inquiry into truths that await discovery. The metaethical stakes of this question extend, therefore, to the practical question of how we should engage with those whose moral convictions differ from our own.",
+        "strengths": "Acknowledges epistemic limitations; draws out implications; connects to practical concerns; ends on a forward-looking note"
+      },
+      "task": "Write a conclusion paragraph for an essay defending the view that consciousness cannot be explained in purely physical terms"
+    }
+  ]
+}

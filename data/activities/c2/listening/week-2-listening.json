@@ -1,0 +1,128 @@
+{
+  "id": "c2-listening-week-2",
+  "type": "listening",
+  "level": "C2",
+  "weekId": "week-2",
+  "title": "Philosophical Discourse",
+  "description": "Understanding nuanced philosophical arguments and meta-commentary",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passages": [
+    {
+      "id": "c2-l2-p1",
+      "title": "The Problem of Induction",
+      "context": "Philosophy lecture on epistemology",
+      "transcript": "The problem of induction, as articulated by Hume, strikes at the very foundation of empirical knowledge. We observe that the sun has risen every day of recorded history, and from this we infer that it will rise tomorrow. But what justifies this inference? We cannot appeal to logic, for it is not a contradiction to suppose the sun might not rise. Nor can we appeal to experience, for that would be circular—we would be using induction to justify induction. Some philosophers have sought to dissolve rather than solve this problem, arguing that our inductive practices are constitutive of rationality itself. To ask for a justification of induction, they contend, is to misunderstand what justification means. But this pragmatic dissolution leaves many unsatisfied, for it seems to concede that our most fundamental beliefs rest on nothing more solid than habit and convention.",
+      "audioDescription": "A philosophy professor lecturing on Hume's problem of induction",
+      "questions": [
+        {
+          "id": "c2-l2-p1-q1",
+          "question": "Why can't we use logic to justify induction, according to the speaker?",
+          "options": [
+            "Logic is too abstract for empirical questions",
+            "It's not logically contradictory for the sun not to rise",
+            "Logic wasn't developed until after Hume",
+            "The speaker doesn't address logical justification"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The speaker says 'it is not a contradiction to suppose the sun might not rise'"
+        },
+        {
+          "id": "c2-l2-p1-q2",
+          "question": "What is the 'circularity' problem with using experience to justify induction?",
+          "options": [
+            "Experiences are subjective and unreliable",
+            "We would be using induction to justify induction",
+            "Experience only tells us about the past",
+            "Different people have different experiences"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The speaker notes 'that would be circular—we would be using induction to justify induction'"
+        },
+        {
+          "id": "c2-l2-p1-q3",
+          "question": "What is the 'pragmatic dissolution' mentioned by the speaker?",
+          "options": [
+            "Proving induction through practical results",
+            "Arguing that questioning induction itself is misguided",
+            "Using technology to verify predictions",
+            "Abandoning empirical science altogether"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Some argue that 'our inductive practices are constitutive of rationality itself' and 'to ask for justification is to misunderstand'"
+        },
+        {
+          "id": "c2-l2-p1-q4",
+          "question": "What concern does the speaker raise about the pragmatic approach?",
+          "options": [
+            "It is too complicated for students",
+            "It concedes that fundamental beliefs rest on habit and convention",
+            "It has never been properly articulated",
+            "It contradicts scientific practice"
+          ],
+          "correctAnswer": 1,
+          "explanation": "It 'seems to concede that our most fundamental beliefs rest on nothing more solid than habit and convention'"
+        }
+      ]
+    },
+    {
+      "id": "c2-l2-p2",
+      "title": "Meta-philosophical Reflection",
+      "context": "Graduate seminar discussion",
+      "transcript": "What's fascinating about this debate is not merely its content but its form. Notice how we've been engaging in what we might call second-order philosophy—philosophy about philosophy. We're not just asking whether moral facts exist; we're asking what it would mean for such facts to exist, what counts as evidence in ethical discourse, and whether our ordinary moral language commits us to any particular metaphysical view. This meta-ethical turn, characteristic of much twentieth-century philosophy, reflects a broader worry: perhaps many traditional philosophical puzzles arise from linguistic confusion rather than deep features of reality. Wittgenstein's therapeutic conception of philosophy invites us to dissolve problems rather than solve them—to see that the fly was never really trapped in the bottle.",
+      "audioDescription": "A professor reflects on the nature of philosophical inquiry",
+      "questions": [
+        {
+          "id": "c2-l2-p2-q1",
+          "question": "What does 'second-order philosophy' refer to in this context?",
+          "options": [
+            "Philosophy taught at the graduate level",
+            "Philosophy about philosophy itself",
+            "The second major school of thought",
+            "Applied rather than theoretical philosophy"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The speaker defines it as 'philosophy about philosophy'"
+        },
+        {
+          "id": "c2-l2-p2-q2",
+          "question": "According to the speaker, what is the 'broader worry' underlying the meta-ethical turn?",
+          "options": [
+            "That ethics cannot be studied scientifically",
+            "That moral relativism is true",
+            "That philosophical puzzles may stem from linguistic confusion",
+            "That reality has no deep features"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The worry is that 'traditional philosophical puzzles arise from linguistic confusion rather than deep features of reality'"
+        },
+        {
+          "id": "c2-l2-p2-q3",
+          "question": "What is Wittgenstein's 'therapeutic' conception of philosophy?",
+          "options": [
+            "Using philosophy to improve mental health",
+            "Dissolving problems rather than solving them",
+            "Making philosophy accessible to patients",
+            "Treating philosophical errors as psychological disorders"
+          ],
+          "correctAnswer": 1,
+          "explanation": "It 'invites us to dissolve problems rather than solve them'"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "constitutive",
+      "definition": "Forming an essential element; having the power to establish"
+    },
+    {
+      "term": "meta-ethical",
+      "definition": "Concerning the nature and methodology of ethics rather than specific moral questions"
+    },
+    {
+      "term": "therapeutic philosophy",
+      "definition": "An approach that seeks to cure philosophical confusion rather than answer questions"
+    }
+  ]
+}

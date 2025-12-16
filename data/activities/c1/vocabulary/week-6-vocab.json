@@ -1,0 +1,108 @@
+{
+  "id": "c1-vocab-week-6",
+  "type": "vocabulary",
+  "level": "C1",
+  "weekId": "week-6",
+  "title": "Legal and Governance Terminology",
+  "description": "Specialized vocabulary for legal discourse and institutional governance",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "items": [
+    {
+      "id": "c1-v6-1",
+      "word": "jurisdiction",
+      "definition": "The official authority to make legal decisions; the territory within which authority is exercised",
+      "pronunciation": "/ˌdʒʊrɪsˈdɪkʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "관할권, 사법권",
+      "example": "The case falls outside the court's jurisdiction and must be heard elsewhere.",
+      "synonyms": ["authority", "domain", "competence"],
+      "antonyms": [],
+      "collocations": ["legal jurisdiction", "territorial jurisdiction", "fall within jurisdiction"]
+    },
+    {
+      "id": "c1-v6-2",
+      "word": "precedent",
+      "definition": "A legal decision that serves as an authoritative rule for similar future cases",
+      "pronunciation": "/ˈpresɪdənt/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "선례, 판례",
+      "example": "The Supreme Court ruling set a precedent for how such cases would be handled.",
+      "synonyms": ["benchmark", "standard", "model"],
+      "antonyms": [],
+      "collocations": ["legal precedent", "set a precedent", "binding precedent"]
+    },
+    {
+      "id": "c1-v6-3",
+      "word": "liability",
+      "definition": "Legal responsibility for one's actions; an obligation to pay or perform",
+      "pronunciation": "/ˌlaɪəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "법적 책임, 부채",
+      "example": "The company faces significant liability for the environmental damage caused by the spill.",
+      "synonyms": ["responsibility", "accountability", "obligation"],
+      "antonyms": ["immunity", "exemption"],
+      "collocations": ["legal liability", "limit liability", "liability insurance"]
+    },
+    {
+      "id": "c1-v6-4",
+      "word": "adjudication",
+      "definition": "The formal judgment or resolution of a dispute by a court or tribunal",
+      "pronunciation": "/əˌdʒuːdɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "재판, 심판",
+      "example": "The dispute was resolved through adjudication rather than arbitration.",
+      "synonyms": ["judgment", "ruling", "verdict"],
+      "antonyms": ["negotiation", "settlement"],
+      "collocations": ["judicial adjudication", "adjudication process", "formal adjudication"]
+    },
+    {
+      "id": "c1-v6-5",
+      "word": "statute",
+      "definition": "A written law passed by a legislative body",
+      "pronunciation": "/ˈstætʃuːt/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "법령, 제정법",
+      "example": "The statute of limitations prevents prosecution after a certain period.",
+      "synonyms": ["law", "legislation", "act"],
+      "antonyms": ["common law"],
+      "collocations": ["federal statute", "statute of limitations", "statutory requirement"]
+    },
+    {
+      "id": "c1-v6-6",
+      "word": "compliance",
+      "definition": "Acting in accordance with rules, regulations, or demands",
+      "pronunciation": "/kəmˈplaɪəns/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "준수, 이행",
+      "example": "Regulatory compliance has become a major concern for financial institutions.",
+      "synonyms": ["adherence", "conformity", "observance"],
+      "antonyms": ["violation", "non-compliance"],
+      "collocations": ["regulatory compliance", "ensure compliance", "compliance officer"]
+    },
+    {
+      "id": "c1-v6-7",
+      "word": "arbitration",
+      "definition": "A method of dispute resolution using an impartial third party",
+      "pronunciation": "/ˌɑːrbɪˈtreɪʃən/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "중재",
+      "example": "The contract requires that disputes be settled through binding arbitration.",
+      "synonyms": ["mediation", "conciliation", "settlement"],
+      "antonyms": ["litigation"],
+      "collocations": ["binding arbitration", "arbitration clause", "arbitration panel"]
+    },
+    {
+      "id": "c1-v6-8",
+      "word": "indemnity",
+      "definition": "Security or protection against loss or damage; compensation for loss",
+      "pronunciation": "/ɪnˈdemnəti/",
+      "partOfSpeech": "noun",
+      "koreanMeaning": "면책, 보상",
+      "example": "The contract includes an indemnity clause protecting the vendor from third-party claims.",
+      "synonyms": ["compensation", "reimbursement", "protection"],
+      "antonyms": ["liability", "exposure"],
+      "collocations": ["indemnity clause", "professional indemnity", "seek indemnity"]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "c1-grammar-week-2",
+  "type": "grammar",
+  "level": "C1",
+  "weekId": "week-2",
+  "title": "Advanced Clause Structures",
+  "description": "Complex subordination, relative clauses, and cleft sentences",
+  "estimatedMinutes": 25,
+  "xpReward": 50,
+  "sections": [
+    {
+      "id": "c1-g2-s1",
+      "title": "Reduced Relative Clauses",
+      "explanation": "Relative clauses can be reduced by omitting the relative pronoun and auxiliary verb, creating more concise academic prose.",
+      "examples": [
+        {
+          "full": "The study, which was conducted in 2023, reveals new findings.",
+          "reduced": "The study, conducted in 2023, reveals new findings.",
+          "note": "Remove 'which was' to create a participle phrase"
+        },
+        {
+          "full": "Researchers who are working on this project have made breakthroughs.",
+          "reduced": "Researchers working on this project have made breakthroughs.",
+          "note": "Remove 'who are' to create a present participle phrase"
+        }
+      ],
+      "rules": [
+        "Reduce with past participle when the verb is passive",
+        "Reduce with present participle when the verb is active continuous",
+        "Maintain the comma structure for non-defining clauses"
+      ]
+    },
+    {
+      "id": "c1-g2-s2",
+      "title": "Cleft Sentences for Emphasis",
+      "explanation": "Cleft sentences restructure a sentence to emphasize a particular element, common in formal writing.",
+      "examples": [
+        {
+          "original": "The economic crisis caused the policy change.",
+          "itCleft": "It was the economic crisis that caused the policy change.",
+          "whatCleft": "What caused the policy change was the economic crisis."
+        },
+        {
+          "original": "We need more funding.",
+          "itCleft": "It is more funding that we need.",
+          "whatCleft": "What we need is more funding."
+        }
+      ],
+      "rules": [
+        "It-clefts: 'It + be + focused element + that/who + clause'",
+        "What-clefts: 'What + clause + be + focused element'",
+        "Use to draw attention to new or contrasting information"
+      ]
+    },
+    {
+      "id": "c1-g2-s3",
+      "title": "Complex Subordination",
+      "explanation": "Advanced subordinating conjunctions create precise logical relationships in academic prose.",
+      "examples": [
+        {
+          "sentence": "Notwithstanding the limitations, the study provides valuable insights.",
+          "meaning": "Despite the limitations..."
+        },
+        {
+          "sentence": "Insofar as the data is reliable, the conclusions are valid.",
+          "meaning": "To the extent that the data is reliable..."
+        },
+        {
+          "sentence": "Inasmuch as funding was limited, the scope was narrowed.",
+          "meaning": "Because funding was limited..."
+        }
+      ],
+      "conjunctions": ["notwithstanding", "insofar as", "inasmuch as", "whereas", "albeit"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-g2-ex1",
+      "type": "transformation",
+      "instruction": "Reduce the relative clause",
+      "sentence": "The theory, which was proposed by Einstein, changed physics.",
+      "answer": "The theory, proposed by Einstein, changed physics.",
+      "explanation": "Remove 'which was' and keep the past participle 'proposed'"
+    },
+    {
+      "id": "c1-g2-ex2",
+      "type": "multiple-choice",
+      "question": "Choose the correct cleft sentence for emphasis on 'the methodology'",
+      "options": [
+        "It was the methodology that critics questioned.",
+        "What the methodology that critics questioned.",
+        "The methodology it was that critics questioned.",
+        "That the methodology critics questioned was."
+      ],
+      "correctAnswer": 0,
+      "explanation": "It-cleft structure: It + was + focused element + that + clause"
+    },
+    {
+      "id": "c1-g2-ex3",
+      "type": "fill-in",
+      "sentence": "___ the results were inconclusive, further research is warranted.",
+      "answer": "Inasmuch as",
+      "alternatives": ["Given that", "Since"],
+      "explanation": "'Inasmuch as' introduces a causal relationship in formal register"
+    },
+    {
+      "id": "c1-g2-ex4",
+      "type": "transformation",
+      "instruction": "Create a what-cleft sentence to emphasize 'systematic analysis'",
+      "sentence": "We require systematic analysis of the data.",
+      "answer": "What we require is systematic analysis of the data.",
+      "explanation": "What-cleft: What + subject + verb + be + emphasized element"
+    },
+    {
+      "id": "c1-g2-ex5",
+      "type": "multiple-choice",
+      "question": "Select the correctly reduced clause:",
+      "options": [
+        "The participants selecting randomly showed varied responses.",
+        "The participants, randomly selected, showed varied responses.",
+        "The participants were selected randomly showed varied responses.",
+        "Selected randomly the participants showed varied responses."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Non-defining reduced clause with past participle, properly set off by commas"
+    }
+  ]
+}
