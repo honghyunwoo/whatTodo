@@ -3,7 +3,16 @@ import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 
 import { STORAGE_KEYS } from '@/constants/storage';
-import { Task, TaskFilter, TaskFormData, TaskSort, SmartListType } from '@/types/task';
+import {
+  Task,
+  TaskFilter,
+  TaskFormData,
+  TaskSort,
+  SmartListType,
+  SubTask,
+  SubTaskFormData,
+  SubTaskProgress,
+} from '@/types/task';
 import { generateId } from '@/utils/id';
 import { useRewardStore } from './rewardStore';
 
@@ -15,6 +24,7 @@ interface TaskState {
 }
 
 interface TaskActions {
+  // 기본 태스크 액션
   addTask: (data: TaskFormData) => void;
   updateTask: (id: string, updates: Partial<Task>) => void;
   deleteTask: (id: string) => void;
@@ -30,6 +40,15 @@ interface TaskActions {
   getCompletedTasks: () => Task[];
   getSmartListTasks: () => Task[];
   getSmartListCount: (listType: SmartListType) => number;
+  getTaskById: (id: string) => Task | undefined;
+
+  // 서브태스크 액션
+  addSubTask: (taskId: string, subtask: SubTaskFormData) => void;
+  updateSubTask: (taskId: string, subtaskId: string, updates: Partial<SubTask>) => void;
+  deleteSubTask: (taskId: string, subtaskId: string) => void;
+  toggleSubTaskComplete: (taskId: string, subtaskId: string) => void;
+  reorderSubTasks: (taskId: string, fromIndex: number, toIndex: number) => void;
+  getSubTaskProgress: (taskId: string) => SubTaskProgress;
 }
 
 const PRIORITY_ORDER = { urgent: 0, high: 1, medium: 2, low: 3 } as const;
@@ -48,6 +67,7 @@ export const useTaskStore = create<TaskState & TaskActions>()(
           ...data,
           id: generateId(),
           completed: false,
+          subtasks: [], // 기본값
           createdAt: now,
           updatedAt: now,
         };
@@ -100,6 +120,10 @@ export const useTaskStore = create<TaskState & TaskActions>()(
       setFilter: (filter) => set({ filter }),
       setSortBy: (sortBy) => set({ sortBy }),
       setSmartList: (smartList) => set({ smartList }),
+
+      getTaskById: (id) => {
+        return get().tasks.find((t) => t.id === id);
+      },
 
       getFilteredTasks: () => {
         const { tasks, filter, sortBy } = get();
@@ -277,6 +301,122 @@ export const useTaskStore = create<TaskState & TaskActions>()(
           default:
             return tasks.filter((t) => !t.completed).length;
         }
+      },
+
+      // ========================================
+      // 서브태스크 액션
+      // ========================================
+
+      addSubTask: (taskId, subtaskData) => {
+        set((state) => ({
+          tasks: state.tasks.map((task) => {
+            if (task.id !== taskId) return task;
+
+            // 최대 20개 제한
+            if ((task.subtasks?.length || 0) >= 20) {
+              return task;
+            }
+
+            const newSubTask: SubTask = {
+              id: `subtask-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+              title: subtaskData.title,
+              completed: false,
+              createdAt: new Date().toISOString(),
+              order: task.subtasks?.length || 0,
+            };
+
+            return {
+              ...task,
+              subtasks: [...(task.subtasks || []), newSubTask],
+              updatedAt: new Date().toISOString(),
+            };
+          }),
+        }));
+      },
+
+      updateSubTask: (taskId, subtaskId, updates) => {
+        set((state) => ({
+          tasks: state.tasks.map((task) => {
+            if (task.id !== taskId) return task;
+
+            return {
+              ...task,
+              subtasks: (task.subtasks || []).map((st) =>
+                st.id === subtaskId ? { ...st, ...updates } : st
+              ),
+              updatedAt: new Date().toISOString(),
+            };
+          }),
+        }));
+      },
+
+      deleteSubTask: (taskId, subtaskId) => {
+        set((state) => ({
+          tasks: state.tasks.map((task) => {
+            if (task.id !== taskId) return task;
+
+            return {
+              ...task,
+              subtasks: (task.subtasks || [])
+                .filter((st) => st.id !== subtaskId)
+                .map((st, index) => ({ ...st, order: index })), // 순서 재정렬
+              updatedAt: new Date().toISOString(),
+            };
+          }),
+        }));
+      },
+
+      toggleSubTaskComplete: (taskId, subtaskId) => {
+        set((state) => ({
+          tasks: state.tasks.map((task) => {
+            if (task.id !== taskId) return task;
+
+            return {
+              ...task,
+              subtasks: (task.subtasks || []).map((st) => {
+                if (st.id !== subtaskId) return st;
+
+                return {
+                  ...st,
+                  completed: !st.completed,
+                  completedAt: !st.completed ? new Date().toISOString() : undefined,
+                };
+              }),
+              updatedAt: new Date().toISOString(),
+            };
+          }),
+        }));
+      },
+
+      reorderSubTasks: (taskId, fromIndex, toIndex) => {
+        set((state) => ({
+          tasks: state.tasks.map((task) => {
+            if (task.id !== taskId) return task;
+
+            const subtasks = [...(task.subtasks || [])];
+            const [moved] = subtasks.splice(fromIndex, 1);
+            subtasks.splice(toIndex, 0, moved);
+
+            return {
+              ...task,
+              subtasks: subtasks.map((st, index) => ({ ...st, order: index })),
+              updatedAt: new Date().toISOString(),
+            };
+          }),
+        }));
+      },
+
+      getSubTaskProgress: (taskId) => {
+        const task = get().tasks.find((t) => t.id === taskId);
+        if (!task || !task.subtasks || task.subtasks.length === 0) {
+          return { total: 0, completed: 0, percentage: 0 };
+        }
+
+        const total = task.subtasks.length;
+        const completed = task.subtasks.filter((st) => st.completed).length;
+        const percentage = Math.round((completed / total) * 100);
+
+        return { total, completed, percentage };
       },
     }),
     {
