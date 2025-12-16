@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, Dimensions, Pressable } from 'react-native';
+import { View, StyleSheet, Dimensions } from 'react-native';
 import Animated, {
   useAnimatedStyle,
   useSharedValue,
@@ -12,12 +12,10 @@ import Animated, {
 import { Gesture, GestureDetector } from 'react-native-gesture-handler';
 import { Ionicons } from '@expo/vector-icons';
 import * as Haptics from 'expo-haptics';
-import { useTheme } from '@/contexts/ThemeContext';
 import { SIZES } from '@/constants/sizes';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 const SWIPE_THRESHOLD = 80;
-const DELETE_THRESHOLD = SCREEN_WIDTH * 0.4;
 
 interface SwipeAction {
   icon: keyof typeof Ionicons.glyphMap;
@@ -43,9 +41,7 @@ export function SwipeableRow({
   onSwipeRight,
   enabled = true,
 }: SwipeableRowProps) {
-  const { isDark } = useTheme();
   const translateX = useSharedValue(0);
-  const rowHeight = useSharedValue<number | null>(null);
   const isDeleting = useSharedValue(false);
 
   const triggerHaptic = () => {
@@ -68,10 +64,7 @@ export function SwipeableRow({
       const maxLeft = leftAction ? SWIPE_THRESHOLD : 0;
       const maxRight = rightAction ? -SWIPE_THRESHOLD : 0;
 
-      translateX.value = Math.max(
-        maxRight - 20,
-        Math.min(maxLeft + 20, event.translationX)
-      );
+      translateX.value = Math.max(maxRight - 20, Math.min(maxLeft + 20, event.translationX));
     })
     .onEnd((event) => {
       const shouldTriggerLeft = translateX.value > SWIPE_THRESHOLD && leftAction;
@@ -156,11 +149,7 @@ export function SwipeableRow({
             leftActionStyle,
           ]}
         >
-          <Ionicons
-            name={leftAction.icon}
-            size={24}
-            color={leftAction.color}
-          />
+          <Ionicons name={leftAction.icon} size={24} color={leftAction.color} />
         </Animated.View>
       )}
 
@@ -174,19 +163,13 @@ export function SwipeableRow({
             rightActionStyle,
           ]}
         >
-          <Ionicons
-            name={rightAction.icon}
-            size={24}
-            color={rightAction.color}
-          />
+          <Ionicons name={rightAction.icon} size={24} color={rightAction.color} />
         </Animated.View>
       )}
 
       {/* Main Content */}
       <GestureDetector gesture={panGesture}>
-        <Animated.View style={[styles.row, rowStyle]}>
-          {children}
-        </Animated.View>
+        <Animated.View style={[styles.row, rowStyle]}>{children}</Animated.View>
       </GestureDetector>
     </View>
   );
