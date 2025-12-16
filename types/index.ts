@@ -1,4 +1,12 @@
-export type { Task, TaskCategory, TaskFilter, TaskFormData, TaskPriority, TaskSort } from './task';
+export type { Task, TaskCategory, TaskFilter, TaskFormData, TaskPriority, TaskSort, SmartListType, SmartListConfig } from './task';
+
+export type {
+  ParsedTodo,
+  ParsedToken,
+  ParsePreview,
+  ParserResult,
+  RecurrenceParsed,
+} from './naturalLanguage';
 
 export type {
   // 기본 타입
