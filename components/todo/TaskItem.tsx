@@ -5,6 +5,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { MotiView } from 'moti';
 import { Ionicons } from '@expo/vector-icons';
 import LottieView from 'lottie-react-native';
+import { useRouter } from 'expo-router';
 
 import { useTheme } from '@/contexts/ThemeContext';
 import { COLORS, withAlpha } from '@/constants/colors';
@@ -14,6 +15,7 @@ import { useTaskStore } from '@/store/taskStore';
 import { Task, TaskPriority } from '@/types/task';
 import { SwipeableRow } from '@/components/common/SwipeableRow';
 import { todoHaptics } from '@/services/hapticService';
+import { SubTaskProgress } from '@/components/todo/subtask';
 
 interface TaskItemProps {
   task: Task;
@@ -37,9 +39,13 @@ const PRIORITY_GRADIENTS: Record<TaskPriority, [string, string]> = {
 
 function TaskItemComponent({ task, onPress, index = 0 }: TaskItemProps) {
   const { colors, isDark } = useTheme();
-  const { toggleComplete, deleteTask } = useTaskStore();
+  const { toggleComplete, deleteTask, getSubTaskProgress } = useTaskStore();
   const [showCheckAnimation, setShowCheckAnimation] = React.useState(false);
   const lottieRef = React.useRef<LottieView>(null);
+  const router = useRouter();
+
+  // Get subtask progress
+  const subtaskProgress = getSubTaskProgress(task.id);
 
   const handleToggle = useCallback(async () => {
     if (!task.completed) {
@@ -62,8 +68,12 @@ function TaskItemComponent({ task, onPress, index = 0 }: TaskItemProps) {
   }, [task.id, deleteTask]);
 
   const handlePress = useCallback(() => {
-    onPress?.(task);
-  }, [task, onPress]);
+    if (onPress) {
+      onPress(task);
+    } else {
+      router.push(`/task/${task.id}`);
+    }
+  }, [task, onPress, router]);
 
   const handleSwipeLeft = useCallback(() => {
     handleDelete();
@@ -179,6 +189,12 @@ function TaskItemComponent({ task, onPress, index = 0 }: TaskItemProps) {
                 </Text>
               </View>
             )}
+            {/* Subtask Progress */}
+            {subtaskProgress.total > 0 && (
+              <View style={styles.subtaskProgressContainer}>
+                <SubTaskProgress progress={subtaskProgress} compact />
+              </View>
+            )}
           </View>
 
           {/* Category Badge */}
@@ -262,6 +278,9 @@ const styles = StyleSheet.create({
   },
   dueDate: {
     ...TYPOGRAPHY.caption,
+  },
+  subtaskProgressContainer: {
+    marginTop: 4,
   },
   categoryBadge: {
     paddingHorizontal: SIZES.spacing.sm,
