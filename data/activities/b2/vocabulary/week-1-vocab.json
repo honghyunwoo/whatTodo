@@ -276,6 +276,186 @@
       "translation": "내부 고발자",
       "example": "The whistleblower revealed financial fraud.",
       "partOfSpeech": "noun"
+    },
+    {
+      "id": "w31",
+      "word": "allegation",
+      "pronunciation": "/ˌæləˈɡeɪʃn/",
+      "meaning": "a claim that someone has done something wrong",
+      "translation": "혐의, 주장",
+      "example": "The politician denied all allegations of corruption.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w32",
+      "word": "transparency",
+      "pronunciation": "/trænsˈpærənsi/",
+      "meaning": "openness and accountability in actions",
+      "translation": "투명성",
+      "example": "Citizens demand greater transparency from the government.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w33",
+      "word": "accountability",
+      "pronunciation": "/əˌkaʊntəˈbɪləti/",
+      "meaning": "responsibility for one's actions",
+      "translation": "책임, 의무",
+      "example": "There must be accountability for these failures.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w34",
+      "word": "scandal",
+      "pronunciation": "/ˈskændl/",
+      "meaning": "an action causing public outrage",
+      "translation": "스캔들, 추문",
+      "example": "The financial scandal rocked the political establishment.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w35",
+      "word": "reform",
+      "pronunciation": "/rɪˈfɔːm/",
+      "meaning": "to make changes to improve something",
+      "translation": "개혁하다, 개선하다",
+      "example": "The government promised to reform the healthcare system.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w36",
+      "word": "diplomacy",
+      "pronunciation": "/dɪˈpləʊməsi/",
+      "meaning": "managing relations between countries",
+      "translation": "외교",
+      "example": "The crisis will be resolved through diplomacy.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w37",
+      "word": "treaty",
+      "pronunciation": "/ˈtriːti/",
+      "meaning": "a formal agreement between countries",
+      "translation": "조약",
+      "example": "The two nations signed a peace treaty.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w38",
+      "word": "summit",
+      "pronunciation": "/ˈsʌmɪt/",
+      "meaning": "a meeting of heads of government",
+      "translation": "정상회담",
+      "example": "World leaders gathered for the climate summit.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w39",
+      "word": "negotiation",
+      "pronunciation": "/nɪˌɡəʊʃiˈeɪʃn/",
+      "meaning": "discussion aimed at reaching agreement",
+      "translation": "협상, 교섭",
+      "example": "The negotiation lasted for three months.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w40",
+      "word": "sanction",
+      "pronunciation": "/ˈsæŋkʃn/",
+      "meaning": "a penalty imposed to enforce compliance",
+      "translation": "제재",
+      "example": "Economic sanctions were imposed on the country.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w41",
+      "word": "crisis",
+      "pronunciation": "/ˈkraɪsɪs/",
+      "meaning": "a time of intense difficulty or danger",
+      "translation": "위기",
+      "example": "The country faces an economic crisis.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w42",
+      "word": "conflict",
+      "pronunciation": "/ˈkɒnflɪkt/",
+      "meaning": "a serious disagreement or war",
+      "translation": "분쟁, 갈등",
+      "example": "The armed conflict has displaced millions.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w43",
+      "word": "refugee",
+      "pronunciation": "/ˌrefjuˈdʒiː/",
+      "meaning": "person who flees their country to escape danger",
+      "translation": "난민",
+      "example": "Thousands of refugees crossed the border.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w44",
+      "word": "humanitarian",
+      "pronunciation": "/hjuːˌmænɪˈteəriən/",
+      "meaning": "concerned with human welfare",
+      "translation": "인도주의적인",
+      "example": "The UN launched a humanitarian aid mission.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w45",
+      "word": "coalition",
+      "pronunciation": "/ˌkəʊəˈlɪʃn/",
+      "meaning": "an alliance of groups working together",
+      "translation": "연합, 연정",
+      "example": "A coalition government was formed after the election.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w46",
+      "word": "amendment",
+      "pronunciation": "/əˈmendmənt/",
+      "meaning": "a change made to a law or document",
+      "translation": "수정안",
+      "example": "The constitutional amendment was approved by parliament.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w47",
+      "word": "legislation",
+      "pronunciation": "/ˌledʒɪsˈleɪʃn/",
+      "meaning": "laws considered collectively",
+      "translation": "법률, 입법",
+      "example": "New legislation was passed to protect consumers.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w48",
+      "word": "ballot",
+      "pronunciation": "/ˈbælət/",
+      "meaning": "a process of voting in an election",
+      "translation": "투표",
+      "example": "Citizens cast their ballots in the election.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w49",
+      "word": "turnout",
+      "pronunciation": "/ˈtɜːnaʊt/",
+      "meaning": "the number of people attending or voting",
+      "translation": "투표율, 참석자 수",
+      "example": "Voter turnout was higher than expected.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w50",
+      "word": "incumbent",
+      "pronunciation": "/ɪnˈkʌmbənt/",
+      "meaning": "the current holder of an office",
+      "translation": "현직자, 재임자",
+      "example": "The incumbent president is seeking re-election.",
+      "partOfSpeech": "noun"
     }
   ],
 
@@ -318,6 +498,986 @@
           "answer": "objective"
         }
       ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "The _____ of the scandal destroyed his political career.",
+      "options": ["exposure", "circulation", "turnout", "ballot"],
+      "answer": "exposure"
+    },
+    {
+      "id": "ex5",
+      "type": "fill_blank",
+      "question": "The government promised greater _____ in its decision-making process.",
+      "answer": "transparency"
+    },
+    {
+      "id": "ex6",
+      "type": "translation_ko_en",
+      "question": "그 기자는 정치적 편견이 없이 보도했다.",
+      "answer": "The journalist reported without political bias."
+    },
+    {
+      "id": "ex7",
+      "type": "translation_en_ko",
+      "question": "The press conference was held this morning.",
+      "answer": "기자회견이 오늘 아침에 열렸다."
+    },
+    {
+      "id": "ex8",
+      "type": "matching",
+      "pairs": [
+        { "word": "scandal", "match": "an action causing public outrage" },
+        { "word": "reform", "match": "to make changes to improve something" },
+        { "word": "treaty", "match": "a formal agreement between countries" },
+        { "word": "crisis", "match": "a time of intense difficulty" }
+      ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "The _____ revealed government corruption to the media.",
+      "options": ["whistleblower", "correspondent", "tabloid", "ballot"],
+      "answer": "whistleblower"
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "The newspaper published an _____ interview with the prime minister.",
+      "answer": "exclusive"
+    },
+    {
+      "id": "ex11",
+      "type": "translation_ko_en",
+      "question": "그 신문의 신뢰성이 스캔들로 인해 손상되었다.",
+      "answer": "The newspaper's credibility was damaged by the scandal."
+    },
+    {
+      "id": "ex12",
+      "type": "translation_en_ko",
+      "question": "The documentary exposed widespread misinformation.",
+      "answer": "그 다큐멘터리는 널리 퍼진 잘못된 정보를 폭로했다."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "The judge must remain _____ throughout the trial.",
+      "options": ["impartial", "sensational", "anonymous", "exclusive"],
+      "answer": "impartial"
+    },
+    {
+      "id": "ex14",
+      "type": "fill_blank",
+      "question": "The government imposed economic _____ on the neighboring country.",
+      "answer": "sanctions"
+    },
+    {
+      "id": "ex15",
+      "type": "matching",
+      "pairs": [
+        { "word": "allegation", "match": "a claim that someone has done something wrong" },
+        { "word": "accountability", "match": "responsibility for one's actions" },
+        { "word": "diplomacy", "match": "managing relations between countries" },
+        { "word": "negotiation", "match": "discussion aimed at reaching agreement" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "translation_ko_en",
+      "question": "정상회담이 다음 주에 열릴 예정이다.",
+      "answer": "The summit is scheduled to be held next week."
+    },
+    {
+      "id": "ex17",
+      "type": "translation_en_ko",
+      "question": "The refugee crisis requires international cooperation.",
+      "answer": "난민 위기는 국제적인 협력이 필요하다."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "The _____ election had a voter turnout of 75%.",
+      "options": ["presidential", "propaganda", "editorial", "censorship"],
+      "answer": "presidential"
+    },
+    {
+      "id": "ex19",
+      "type": "fill_blank",
+      "question": "The UN provided _____ aid to the disaster-stricken region.",
+      "answer": "humanitarian"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "Several parties formed a _____ to govern together.",
+      "options": ["coalition", "circulation", "controversy", "coverage"],
+      "answer": "coalition"
+    },
+    {
+      "id": "ex21",
+      "type": "fill_blank",
+      "question": "New _____ was passed to protect consumer rights.",
+      "answer": "legislation"
+    },
+    {
+      "id": "ex22",
+      "type": "translation_ko_en",
+      "question": "내부 고발자가 회사의 불법 행위를 폭로했다.",
+      "answer": "The whistleblower exposed the company's illegal activities."
+    },
+    {
+      "id": "ex23",
+      "type": "translation_en_ko",
+      "question": "The government denied all allegations of wrongdoing.",
+      "answer": "정부는 모든 불법 행위 혐의를 부인했다."
+    },
+    {
+      "id": "ex24",
+      "type": "matching",
+      "pairs": [
+        { "word": "conflict", "match": "a serious disagreement or war" },
+        { "word": "amendment", "match": "a change made to a law" },
+        { "word": "incumbent", "match": "the current holder of an office" },
+        { "word": "propaganda", "match": "biased information to promote a cause" }
+      ]
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "The _____ president is running for a second term.",
+      "options": ["incumbent", "anonymous", "impartial", "sensational"],
+      "answer": "incumbent"
+    },
+    {
+      "id": "ex26",
+      "type": "fill_blank",
+      "question": "Citizens cast their _____ in the national election.",
+      "answer": "ballots"
+    },
+    {
+      "id": "ex27",
+      "type": "translation_ko_en",
+      "question": "그 사건은 면밀한 조사를 받고 있다.",
+      "answer": "The incident is under close scrutiny."
+    },
+    {
+      "id": "ex28",
+      "type": "translation_en_ko",
+      "question": "The media must verify all sources before publishing.",
+      "answer": "언론은 발행 전에 모든 출처를 확인해야 한다."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "The story was based on information from an _____ source.",
+      "options": ["anonymous", "accurate", "objective", "reliable"],
+      "answer": "anonymous"
+    },
+    {
+      "id": "ex30",
+      "type": "fill_blank",
+      "question": "The news _____ live from Paris reported on the protest.",
+      "answer": "correspondent"
+    },
+    {
+      "id": "ex31",
+      "type": "matching",
+      "pairs": [
+        { "word": "censorship", "match": "suppression of information" },
+        { "word": "leak", "match": "unauthorized release of information" },
+        { "word": "tabloid", "match": "newspaper focusing on sensational stories" },
+        { "word": "editorial", "match": "article expressing editor's opinion" }
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "translation_ko_en",
+      "question": "그 기사는 선정적인 언어를 사용했다.",
+      "answer": "The article used sensational language."
+    },
+    {
+      "id": "ex33",
+      "type": "translation_en_ko",
+      "question": "The constitutional amendment was approved unanimously.",
+      "answer": "헌법 수정안이 만장일치로 승인되었다."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple_choice",
+      "question": "The media's _____ of the event was criticized as biased.",
+      "options": ["coverage", "turnout", "ballot", "summit"],
+      "answer": "coverage"
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "The politician faced serious _____ of fraud.",
+      "answer": "allegations"
+    },
+    {
+      "id": "ex36",
+      "type": "translation_ko_en",
+      "question": "경제 위기가 나라 전체를 휩쓸었다.",
+      "answer": "The economic crisis swept through the entire country."
+    },
+    {
+      "id": "ex37",
+      "type": "translation_en_ko",
+      "question": "The peace treaty ended decades of conflict.",
+      "answer": "평화 조약이 수십 년간의 분쟁을 종식시켰다."
+    },
+    {
+      "id": "ex38",
+      "type": "multiple_choice",
+      "question": "The news was _____ on all major television channels.",
+      "options": ["broadcast", "investigated", "verified", "exposed"],
+      "answer": "broadcast"
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "question": "The report must be _____ and based on facts.",
+      "answer": "accurate"
+    },
+    {
+      "id": "ex40",
+      "type": "matching",
+      "pairs": [
+        { "word": "influence", "match": "power to affect others" },
+        { "word": "credibility", "match": "quality of being trusted" },
+        { "word": "transparency", "match": "openness and accountability" },
+        { "word": "scrutiny", "match": "critical examination" }
+      ]
+    },
+    {
+      "id": "ex41",
+      "type": "translation_ko_en",
+      "question": "투표율이 예상보다 낮았다.",
+      "answer": "The voter turnout was lower than expected."
+    },
+    {
+      "id": "ex42",
+      "type": "translation_en_ko",
+      "question": "The investigation revealed widespread corruption.",
+      "answer": "조사 결과 광범위한 부패가 드러났다."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple_choice",
+      "question": "The document _____ caused a major political scandal.",
+      "options": ["leak", "ballot", "reform", "turnout"],
+      "answer": "leak"
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "The policy has generated considerable _____ among experts.",
+      "answer": "controversy"
+    },
+    {
+      "id": "ex45",
+      "type": "translation_ko_en",
+      "question": "그 신문은 이백만 부의 발행 부수를 자랑한다.",
+      "answer": "The newspaper boasts a circulation of two million copies."
+    },
+    {
+      "id": "ex46",
+      "type": "translation_en_ko",
+      "question": "Diplomacy is essential for maintaining peace.",
+      "answer": "외교는 평화를 유지하는 데 필수적이다."
+    },
+    {
+      "id": "ex47",
+      "type": "multiple_choice",
+      "question": "The government needs to _____ the education system.",
+      "options": ["reform", "broadcast", "verify", "expose"],
+      "answer": "reform"
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "Police are _____ the case thoroughly.",
+      "answer": "investigating"
+    },
+    {
+      "id": "ex49",
+      "type": "matching",
+      "pairs": [
+        { "word": "headline", "match": "title of a news article" },
+        { "word": "breaking news", "match": "newly received important news" },
+        { "word": "source", "match": "person providing information" },
+        { "word": "reliable", "match": "able to be trusted" }
+      ]
+    },
+    {
+      "id": "ex50",
+      "type": "translation_ko_en",
+      "question": "언론의 자유는 민주주의의 핵심이다.",
+      "answer": "Freedom of the press is the core of democracy."
+    },
+    {
+      "id": "ex51",
+      "type": "translation_en_ko",
+      "question": "The negotiation process took several months.",
+      "answer": "협상 과정은 몇 달이 걸렸다."
+    },
+    {
+      "id": "ex52",
+      "type": "multiple_choice",
+      "question": "The regime used _____ to control public opinion.",
+      "options": ["propaganda", "diplomacy", "accountability", "transparency"],
+      "answer": "propaganda"
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "Social media has tremendous _____ on young people.",
+      "answer": "influence"
+    },
+    {
+      "id": "ex54",
+      "type": "translation_ko_en",
+      "question": "그 타블로이드는 연예인 가십을 과장한다.",
+      "answer": "The tabloid exaggerates celebrity gossip."
+    },
+    {
+      "id": "ex55",
+      "type": "translation_en_ko",
+      "question": "The country faces strict media censorship.",
+      "answer": "그 나라는 엄격한 언론 검열에 직면해 있다."
+    },
+    {
+      "id": "ex56",
+      "type": "multiple_choice",
+      "question": "The armed _____ displaced millions of people.",
+      "options": ["conflict", "summit", "ballot", "amendment"],
+      "answer": "conflict"
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "Thousands of _____ crossed the border seeking safety.",
+      "answer": "refugees"
+    },
+    {
+      "id": "ex58",
+      "type": "matching",
+      "pairs": [
+        { "word": "objective", "match": "not influenced by personal feelings" },
+        { "word": "impartial", "match": "treating all sides equally" },
+        { "word": "accurate", "match": "correct in all details" },
+        { "word": "sensational", "match": "causing great excitement" }
+      ]
+    },
+    {
+      "id": "ex59",
+      "type": "translation_ko_en",
+      "question": "정부는 더 큰 책임을 져야 한다.",
+      "answer": "The government must take greater accountability."
+    },
+    {
+      "id": "ex60",
+      "type": "translation_en_ko",
+      "question": "The journalist must protect their sources.",
+      "answer": "기자는 그들의 정보원을 보호해야 한다."
+    },
+    {
+      "id": "ex61",
+      "type": "multiple_choice",
+      "question": "Always _____ information before sharing it online.",
+      "options": ["verify", "reform", "broadcast", "expose"],
+      "answer": "verify"
+    },
+    {
+      "id": "ex62",
+      "type": "fill_blank",
+      "question": "The _____ grabbed everyone's attention immediately.",
+      "answer": "headline"
+    },
+    {
+      "id": "ex63",
+      "type": "translation_ko_en",
+      "question": "선거 개혁이 시급히 필요하다.",
+      "answer": "Electoral reform is urgently needed."
+    },
+    {
+      "id": "ex64",
+      "type": "translation_en_ko",
+      "question": "The scandal rocked the entire administration.",
+      "answer": "그 스캔들은 행정부 전체를 뒤흔들었다."
+    },
+    {
+      "id": "ex65",
+      "type": "multiple_choice",
+      "question": "The financial _____ led to widespread protests.",
+      "options": ["scandal", "treaty", "ballot", "summit"],
+      "answer": "scandal"
+    },
+    {
+      "id": "ex66",
+      "type": "fill_blank",
+      "question": "World leaders attended the climate _____ in Paris.",
+      "answer": "summit"
+    },
+    {
+      "id": "ex67",
+      "type": "matching",
+      "pairs": [
+        { "word": "misinformation", "match": "false information spread unintentionally" },
+        { "word": "allegation", "match": "claim someone did something wrong" },
+        { "word": "whistleblower", "match": "person exposing wrongdoing" },
+        { "word": "exclusive", "match": "story by only one news source" }
+      ]
+    },
+    {
+      "id": "ex68",
+      "type": "translation_ko_en",
+      "question": "새로운 법안이 의회를 통과했다.",
+      "answer": "The new legislation passed through parliament."
+    },
+    {
+      "id": "ex69",
+      "type": "translation_en_ko",
+      "question": "The humanitarian crisis requires immediate action.",
+      "answer": "인도주의적 위기는 즉각적인 조치가 필요하다."
+    },
+    {
+      "id": "ex70",
+      "type": "multiple_choice",
+      "question": "Economic _____ were imposed on the country.",
+      "options": ["sanctions", "amendments", "ballots", "editorials"],
+      "answer": "sanctions"
+    },
+    {
+      "id": "ex71",
+      "type": "fill_blank",
+      "question": "The two nations signed a peace _____.",
+      "answer": "treaty"
+    },
+    {
+      "id": "ex72",
+      "type": "translation_ko_en",
+      "question": "그 기자는 현장에서 생방송으로 보도했다.",
+      "answer": "The journalist reported live from the scene."
+    },
+    {
+      "id": "ex73",
+      "type": "translation_en_ko",
+      "question": "The coalition government collapsed after two years.",
+      "answer": "연립 정부는 2년 후에 붕괴되었다."
+    },
+    {
+      "id": "ex74",
+      "type": "multiple_choice",
+      "question": "The _____ criticized the government's economic policy.",
+      "options": ["editorial", "ballot", "turnout", "circulation"],
+      "answer": "editorial"
+    },
+    {
+      "id": "ex75",
+      "type": "fill_blank",
+      "question": "The report was praised for its _____ and thoroughness.",
+      "answer": "accuracy"
+    },
+    {
+      "id": "ex76",
+      "type": "matching",
+      "pairs": [
+        { "word": "refugee", "match": "person fleeing their country" },
+        { "word": "crisis", "match": "time of intense difficulty" },
+        { "word": "reform", "match": "to make improvements" },
+        { "word": "negotiation", "match": "discussion to reach agreement" }
+      ]
+    },
+    {
+      "id": "ex77",
+      "type": "translation_ko_en",
+      "question": "그 사건은 정치적 논란을 일으켰다.",
+      "answer": "The incident caused political controversy."
+    },
+    {
+      "id": "ex78",
+      "type": "translation_en_ko",
+      "question": "The incumbent faces a tough challenge in the election.",
+      "answer": "현직자는 선거에서 어려운 도전에 직면해 있다."
+    },
+    {
+      "id": "ex79",
+      "type": "multiple_choice",
+      "question": "The _____ revealed the extent of environmental damage.",
+      "options": ["investigation", "turnout", "ballot", "circulation"],
+      "answer": "investigation"
+    },
+    {
+      "id": "ex80",
+      "type": "fill_blank",
+      "question": "The story was reported with clear political _____.",
+      "answer": "bias"
+    },
+    {
+      "id": "ex81",
+      "type": "translation_ko_en",
+      "question": "국제 연합이 인도주의적 지원을 제공했다.",
+      "answer": "The United Nations provided humanitarian assistance."
+    },
+    {
+      "id": "ex82",
+      "type": "translation_en_ko",
+      "question": "The press conference was broadcast worldwide.",
+      "answer": "기자회견이 전 세계에 방송되었다."
+    },
+    {
+      "id": "ex83",
+      "type": "multiple_choice",
+      "question": "There must be greater _____ for public officials.",
+      "options": ["accountability", "circulation", "turnout", "coverage"],
+      "answer": "accountability"
+    },
+    {
+      "id": "ex84",
+      "type": "fill_blank",
+      "question": "The decision is under intense public _____.",
+      "answer": "scrutiny"
+    },
+    {
+      "id": "ex85",
+      "type": "matching",
+      "pairs": [
+        { "word": "transparency", "match": "openness in actions" },
+        { "word": "diplomacy", "match": "managing international relations" },
+        { "word": "legislation", "match": "laws considered collectively" },
+        { "word": "coalition", "match": "alliance working together" }
+      ]
+    },
+    {
+      "id": "ex86",
+      "type": "translation_ko_en",
+      "question": "그 보도는 객관적이고 공정했다.",
+      "answer": "The coverage was objective and fair."
+    },
+    {
+      "id": "ex87",
+      "type": "translation_en_ko",
+      "question": "The amendment to the constitution was controversial.",
+      "answer": "헌법 수정안은 논란의 여지가 있었다."
+    },
+    {
+      "id": "ex88",
+      "type": "multiple_choice",
+      "question": "The documentary _____ serious human rights violations.",
+      "options": ["exposed", "broadcast", "verified", "reformed"],
+      "answer": "exposed"
+    },
+    {
+      "id": "ex89",
+      "type": "fill_blank",
+      "question": "Voter _____ reached a record high of 82%.",
+      "answer": "turnout"
+    },
+    {
+      "id": "ex90",
+      "type": "translation_ko_en",
+      "question": "특파원이 전쟁 지역에서 보도했다.",
+      "answer": "The correspondent reported from the war zone."
+    },
+    {
+      "id": "ex91",
+      "type": "translation_en_ko",
+      "question": "The allegations were proven false after investigation.",
+      "answer": "조사 후 그 혐의는 거짓으로 밝혀졌다."
+    },
+    {
+      "id": "ex92",
+      "type": "multiple_choice",
+      "question": "The news was announced as _____ news during the program.",
+      "options": ["breaking", "sensational", "exclusive", "anonymous"],
+      "answer": "breaking"
+    },
+    {
+      "id": "ex93",
+      "type": "fill_blank",
+      "question": "The organization's _____ was damaged by the scandal.",
+      "answer": "credibility"
+    },
+    {
+      "id": "ex94",
+      "type": "matching",
+      "pairs": [
+        { "word": "broadcast", "match": "transmit on television or radio" },
+        { "word": "expose", "match": "reveal something hidden" },
+        { "word": "verify", "match": "check something is true" },
+        { "word": "investigate", "match": "examine to discover truth" }
+      ]
+    },
+    {
+      "id": "ex95",
+      "type": "translation_ko_en",
+      "question": "그 문서 유출은 정치적 위기를 초래했다.",
+      "answer": "The document leak caused a political crisis."
+    },
+    {
+      "id": "ex96",
+      "type": "translation_en_ko",
+      "question": "The newspaper maintained its impartial stance.",
+      "answer": "그 신문은 공정한 입장을 유지했다."
+    },
+    {
+      "id": "ex97",
+      "type": "multiple_choice",
+      "question": "Is this a _____ source of information?",
+      "options": ["reliable", "sensational", "exclusive", "anonymous"],
+      "answer": "reliable"
+    },
+    {
+      "id": "ex98",
+      "type": "fill_blank",
+      "question": "The regime imposed strict _____ on the media.",
+      "answer": "censorship"
+    },
+    {
+      "id": "ex99",
+      "type": "translation_ko_en",
+      "question": "소셜 미디어는 여론에 큰 영향을 미친다.",
+      "answer": "Social media has a huge influence on public opinion."
+    },
+    {
+      "id": "ex100",
+      "type": "translation_en_ko",
+      "question": "The ballot counting continued through the night.",
+      "answer": "투표 집계는 밤새 계속되었다."
+    },
+    {
+      "id": "ex101",
+      "type": "multiple_choice",
+      "question": "The information came from an _____ tip-off.",
+      "options": ["anonymous", "accurate", "impartial", "objective"],
+      "answer": "anonymous"
+    },
+    {
+      "id": "ex102",
+      "type": "fill_blank",
+      "question": "The media _____ of the Olympics was extensive.",
+      "answer": "coverage"
+    },
+    {
+      "id": "ex103",
+      "type": "matching",
+      "pairs": [
+        { "word": "sanction", "match": "penalty to enforce compliance" },
+        { "word": "summit", "match": "meeting of government heads" },
+        { "word": "treaty", "match": "formal agreement between nations" },
+        { "word": "conflict", "match": "serious disagreement or war" }
+      ]
+    },
+    {
+      "id": "ex104",
+      "type": "translation_ko_en",
+      "question": "그 조사는 광범위한 부패를 드러냈다.",
+      "answer": "The investigation exposed widespread corruption."
+    },
+    {
+      "id": "ex105",
+      "type": "translation_en_ko",
+      "question": "The negotiation ended in a historic agreement.",
+      "answer": "협상은 역사적인 합의로 끝났다."
+    },
+    {
+      "id": "ex106",
+      "type": "multiple_choice",
+      "question": "The _____ provides aid to disaster victims worldwide.",
+      "options": ["humanitarian", "sensational", "impartial", "anonymous"],
+      "answer": "humanitarian"
+    },
+    {
+      "id": "ex107",
+      "type": "fill_blank",
+      "question": "Several parties formed a _____ after the election.",
+      "answer": "coalition"
+    },
+    {
+      "id": "ex108",
+      "type": "translation_ko_en",
+      "question": "그 정책은 면밀한 검토가 필요하다.",
+      "answer": "The policy requires close scrutiny."
+    },
+    {
+      "id": "ex109",
+      "type": "translation_en_ko",
+      "question": "The propaganda campaign was widespread.",
+      "answer": "선전 캠페인은 광범위했다."
+    },
+    {
+      "id": "ex110",
+      "type": "multiple_choice",
+      "question": "The _____ between the two countries lasted for years.",
+      "options": ["negotiation", "circulation", "turnout", "ballot"],
+      "answer": "negotiation"
+    },
+    {
+      "id": "ex111",
+      "type": "fill_blank",
+      "question": "The government promised to _____ the healthcare system.",
+      "answer": "reform"
+    },
+    {
+      "id": "ex112",
+      "type": "matching",
+      "pairs": [
+        { "word": "incumbent", "match": "current office holder" },
+        { "word": "amendment", "match": "change to a law" },
+        { "word": "legislation", "match": "laws collectively" },
+        { "word": "ballot", "match": "voting process" }
+      ]
+    },
+    {
+      "id": "ex113",
+      "type": "translation_ko_en",
+      "question": "그 독점 기사가 전국적인 논쟁을 일으켰다.",
+      "answer": "The exclusive story sparked national controversy."
+    },
+    {
+      "id": "ex114",
+      "type": "translation_en_ko",
+      "question": "The whistleblower's identity must be protected.",
+      "answer": "내부 고발자의 신원은 보호되어야 한다."
+    },
+    {
+      "id": "ex115",
+      "type": "multiple_choice",
+      "question": "The tabloid published _____ stories about celebrities.",
+      "options": ["sensational", "objective", "impartial", "accurate"],
+      "answer": "sensational"
+    },
+    {
+      "id": "ex116",
+      "type": "fill_blank",
+      "question": "The _____ of misinformation is a serious problem.",
+      "answer": "spread"
+    },
+    {
+      "id": "ex117",
+      "type": "translation_ko_en",
+      "question": "경제 제재가 그 국가에 부과되었다.",
+      "answer": "Economic sanctions were imposed on the country."
+    },
+    {
+      "id": "ex118",
+      "type": "translation_en_ko",
+      "question": "The crisis required immediate diplomatic action.",
+      "answer": "위기는 즉각적인 외교적 조치가 필요했다."
+    },
+    {
+      "id": "ex119",
+      "type": "multiple_choice",
+      "question": "The newspaper's _____ criticized the new policy.",
+      "options": ["editorial", "circulation", "coverage", "turnout"],
+      "answer": "editorial"
+    },
+    {
+      "id": "ex120",
+      "type": "fill_blank",
+      "question": "Citizens demand greater _____ from their leaders.",
+      "answer": "transparency"
+    },
+    {
+      "id": "ex121",
+      "type": "matching",
+      "pairs": [
+        { "word": "credibility", "match": "quality of being trusted" },
+        { "word": "accountability", "match": "responsibility for actions" },
+        { "word": "influence", "match": "power to affect others" },
+        { "word": "controversy", "match": "prolonged public debate" }
+      ]
+    },
+    {
+      "id": "ex122",
+      "type": "translation_ko_en",
+      "question": "난민들이 국경을 넘어 안전을 찾았다.",
+      "answer": "Refugees crossed the border seeking safety."
+    },
+    {
+      "id": "ex123",
+      "type": "translation_en_ko",
+      "question": "The leak revealed classified government documents.",
+      "answer": "유출로 정부의 기밀 문서가 드러났다."
+    },
+    {
+      "id": "ex124",
+      "type": "multiple_choice",
+      "question": "The journalist wrote a series of _____ reports.",
+      "options": ["investigative", "sensational", "anonymous", "exclusive"],
+      "answer": "investigative"
+    },
+    {
+      "id": "ex125",
+      "type": "fill_blank",
+      "question": "The politician denied all _____ of misconduct.",
+      "answer": "allegations"
+    },
+    {
+      "id": "ex126",
+      "type": "translation_ko_en",
+      "question": "그 헤드라인이 모든 사람의 관심을 끌었다.",
+      "answer": "The headline caught everyone's attention."
+    },
+    {
+      "id": "ex127",
+      "type": "translation_en_ko",
+      "question": "The correspondent filed a report from the capital.",
+      "answer": "특파원이 수도에서 보도를 제출했다."
+    },
+    {
+      "id": "ex128",
+      "type": "multiple_choice",
+      "question": "The peace _____ was signed after months of negotiation.",
+      "options": ["treaty", "summit", "ballot", "amendment"],
+      "answer": "treaty"
+    },
+    {
+      "id": "ex129",
+      "type": "fill_blank",
+      "question": "The report exposed serious _____ in the system.",
+      "answer": "flaws"
+    },
+    {
+      "id": "ex130",
+      "type": "matching",
+      "pairs": [
+        { "word": "scandal", "match": "action causing outrage" },
+        { "word": "leak", "match": "unauthorized information release" },
+        { "word": "censorship", "match": "suppression of information" },
+        { "word": "misinformation", "match": "false information spread" }
+      ]
+    },
+    {
+      "id": "ex131",
+      "type": "translation_ko_en",
+      "question": "그 방송은 매일 저녁 생중계된다.",
+      "answer": "The broadcast is aired live every evening."
+    },
+    {
+      "id": "ex132",
+      "type": "translation_en_ko",
+      "question": "The summit addressed global climate change.",
+      "answer": "정상회담은 지구 기후 변화를 다루었다."
+    },
+    {
+      "id": "ex133",
+      "type": "multiple_choice",
+      "question": "The media must remain _____ when covering elections.",
+      "options": ["objective", "sensational", "exclusive", "anonymous"],
+      "answer": "objective"
+    },
+    {
+      "id": "ex134",
+      "type": "fill_blank",
+      "question": "The _____ conducted interviews with key witnesses.",
+      "answer": "journalist"
+    },
+    {
+      "id": "ex135",
+      "type": "translation_ko_en",
+      "question": "새로운 입법이 소비자를 보호하기 위해 통과되었다.",
+      "answer": "New legislation was passed to protect consumers."
+    },
+    {
+      "id": "ex136",
+      "type": "translation_en_ko",
+      "question": "The incumbent won re-election by a large margin.",
+      "answer": "현직자가 큰 표차로 재선에 성공했다."
+    },
+    {
+      "id": "ex137",
+      "type": "multiple_choice",
+      "question": "The armed _____ has lasted for over a decade.",
+      "options": ["conflict", "summit", "treaty", "ballot"],
+      "answer": "conflict"
+    },
+    {
+      "id": "ex138",
+      "type": "fill_blank",
+      "question": "The newspaper has a daily _____ of three million.",
+      "answer": "circulation"
+    },
+    {
+      "id": "ex139",
+      "type": "matching",
+      "pairs": [
+        { "word": "reliable", "match": "able to be trusted" },
+        { "word": "accurate", "match": "correct in all details" },
+        { "word": "objective", "match": "not influenced by feelings" },
+        { "word": "impartial", "match": "treating all sides equally" }
+      ]
+    },
+    {
+      "id": "ex140",
+      "type": "translation_ko_en",
+      "question": "인도주의적 지원이 긴급히 필요하다.",
+      "answer": "Humanitarian aid is urgently needed."
+    },
+    {
+      "id": "ex141",
+      "type": "translation_en_ko",
+      "question": "The coalition includes three major parties.",
+      "answer": "연립은 세 개의 주요 정당을 포함한다."
+    },
+    {
+      "id": "ex142",
+      "type": "multiple_choice",
+      "question": "The investigation _____ serious financial irregularities.",
+      "options": ["revealed", "reformed", "broadcast", "verified"],
+      "answer": "revealed"
+    },
+    {
+      "id": "ex143",
+      "type": "fill_blank",
+      "question": "The policy requires greater public _____.",
+      "answer": "scrutiny"
+    },
+    {
+      "id": "ex144",
+      "type": "translation_ko_en",
+      "question": "그 기자회견은 오늘 아침 열렸다.",
+      "answer": "The press conference was held this morning."
+    },
+    {
+      "id": "ex145",
+      "type": "translation_en_ko",
+      "question": "The amendment was approved by parliament.",
+      "answer": "수정안이 의회에서 승인되었다."
+    },
+    {
+      "id": "ex146",
+      "type": "multiple_choice",
+      "question": "The government faces demands for greater _____.",
+      "options": ["accountability", "circulation", "coverage", "turnout"],
+      "answer": "accountability"
+    },
+    {
+      "id": "ex147",
+      "type": "fill_blank",
+      "question": "The story was based on a tip from an _____ source.",
+      "answer": "anonymous"
+    },
+    {
+      "id": "ex148",
+      "type": "translation_ko_en",
+      "question": "외교를 통해 평화를 이룰 수 있다.",
+      "answer": "Peace can be achieved through diplomacy."
+    },
+    {
+      "id": "ex149",
+      "type": "translation_en_ko",
+      "question": "The voter turnout exceeded all expectations.",
+      "answer": "투표율이 모든 예상을 초과했다."
+    },
+    {
+      "id": "ex150",
+      "type": "multiple_choice",
+      "question": "The _____ exposed government corruption to the public.",
+      "options": ["whistleblower", "correspondent", "editorial", "ballot"],
+      "answer": "whistleblower"
     }
   ]
 }

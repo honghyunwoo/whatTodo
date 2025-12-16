@@ -276,48 +276,1209 @@
       "translation": "~에 취약한",
       "example": "Elderly people are more susceptible to infections.",
       "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w31",
+      "word": "ailment",
+      "pronunciation": "/ˈeɪlmənt/",
+      "meaning": "a minor illness or health problem",
+      "translation": "가벼운 질병, 병",
+      "example": "Common ailments include headaches and colds.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w32",
+      "word": "remedy",
+      "pronunciation": "/ˈremədi/",
+      "meaning": "a treatment or medicine that cures or relieves",
+      "translation": "치료법, 치료제",
+      "example": "Herbal remedies are popular for minor health issues.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w33",
+      "word": "vitality",
+      "pronunciation": "/vaɪˈtæləti/",
+      "meaning": "state of being strong, active, and energetic",
+      "translation": "활력, 생명력",
+      "example": "A healthy diet contributes to your vitality.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w34",
+      "word": "fatigue",
+      "pronunciation": "/fəˈtiːɡ/",
+      "meaning": "extreme tiredness resulting from physical or mental exertion",
+      "translation": "피로, 피곤",
+      "example": "Chronic fatigue can be a sign of underlying health issues.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w35",
+      "word": "hygiene",
+      "pronunciation": "/ˈhaɪdʒiːn/",
+      "meaning": "conditions or practices conducive to maintaining health",
+      "translation": "위생",
+      "example": "Good hygiene prevents the spread of diseases.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w36",
+      "word": "stamina",
+      "pronunciation": "/ˈstæmɪnə/",
+      "meaning": "ability to sustain prolonged physical or mental effort",
+      "translation": "체력, 지구력",
+      "example": "Regular training builds stamina and endurance.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w37",
+      "word": "nourish",
+      "pronunciation": "/ˈnʌrɪʃ/",
+      "meaning": "to provide with food or other substances for growth and health",
+      "translation": "영양을 공급하다",
+      "example": "Fresh fruits and vegetables nourish the body.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w38",
+      "word": "deteriorate",
+      "pronunciation": "/dɪˈtɪəriəreɪt/",
+      "meaning": "to become progressively worse",
+      "translation": "악화되다",
+      "example": "Without treatment, his condition began to deteriorate.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w39",
+      "word": "epidemic",
+      "pronunciation": "/ˌepɪˈdemɪk/",
+      "meaning": "widespread occurrence of an infectious disease in a community",
+      "translation": "유행병, 전염병",
+      "example": "The flu epidemic affected thousands of people.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w40",
+      "word": "quarantine",
+      "pronunciation": "/ˈkwɒrəntiːn/",
+      "meaning": "isolation to prevent the spread of disease",
+      "translation": "격리",
+      "example": "Travelers were placed in quarantine for two weeks.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w41",
+      "word": "immunization",
+      "pronunciation": "/ˌɪmjunaɪˈzeɪʃn/",
+      "meaning": "process of making someone immune to infection",
+      "translation": "예방접종, 면역화",
+      "example": "Childhood immunization protects against many diseases.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w42",
+      "word": "regimen",
+      "pronunciation": "/ˈredʒɪmən/",
+      "meaning": "a prescribed course of treatment or diet",
+      "translation": "요법, 식이요법",
+      "example": "She follows a strict exercise regimen.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w43",
+      "word": "posture",
+      "pronunciation": "/ˈpɒstʃər/",
+      "meaning": "position in which someone holds their body",
+      "translation": "자세",
+      "example": "Good posture is important for back health.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w44",
+      "word": "cardiovascular",
+      "pronunciation": "/ˌkɑːdiəʊˈvæskjʊlər/",
+      "meaning": "relating to the heart and blood vessels",
+      "translation": "심혈관의",
+      "example": "Running is excellent cardiovascular exercise.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w45",
+      "word": "respiratory",
+      "pronunciation": "/rɪˈspɪrətri/",
+      "meaning": "relating to breathing or the organs used for breathing",
+      "translation": "호흡기의",
+      "example": "Asthma is a respiratory condition.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w46",
+      "word": "therapeutic",
+      "pronunciation": "/ˌθerəˈpjuːtɪk/",
+      "meaning": "relating to the healing of disease",
+      "translation": "치료의, 치료적인",
+      "example": "Massage has therapeutic benefits for muscle pain.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w47",
+      "word": "adverse",
+      "pronunciation": "/ˈædvɜːs/",
+      "meaning": "preventing success or development; harmful",
+      "translation": "부정적인, 해로운",
+      "example": "Some medications have adverse side effects.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w48",
+      "word": "optimal",
+      "pronunciation": "/ˈɒptɪməl/",
+      "meaning": "best or most favorable",
+      "translation": "최적의",
+      "example": "Eight hours of sleep is optimal for most adults.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w49",
+      "word": "rejuvenate",
+      "pronunciation": "/rɪˈdʒuːvəneɪt/",
+      "meaning": "to make someone feel or look young again",
+      "translation": "젊어지게 하다, 원기를 회복시키다",
+      "example": "A vacation can help rejuvenate your mind and body.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w50",
+      "word": "combat",
+      "pronunciation": "/ˈkɒmbæt/",
+      "meaning": "to take action to reduce or prevent something bad",
+      "translation": "싸우다, 대항하다",
+      "example": "Exercise helps combat stress and depression.",
+      "partOfSpeech": "verb"
     }
   ],
 
   "exercises": [
     {
       "id": "ex1",
-      "type": "matching",
-      "instruction": "Match the words with their definitions",
-      "pairs": [
-        { "word": "symptom", "definition": "a physical or mental sign of illness" },
-        { "word": "chronic", "definition": "lasting for a long time" },
-        { "word": "mindfulness", "definition": "awareness of the present moment" },
-        { "word": "alleviate", "definition": "to make pain or suffering less severe" }
-      ]
+      "type": "multiple_choice",
+      "question": "Regular exercise is _____ for both physical and mental health.",
+      "options": ["detrimental", "contagious", "beneficial", "chronic"],
+      "answer": "beneficial"
     },
     {
       "id": "ex2",
-      "type": "fill_blank",
-      "instruction": "Complete the sentences with the correct words",
-      "sentences": [
-        { "sentence": "A _____ lifestyle with little physical activity can lead to weight gain.", "answer": "sedentary" },
-        { "sentence": "The doctor will _____ the appropriate medication for your condition.", "answer": "prescribe" },
-        { "sentence": "_____ is better than cure when it comes to health.", "answer": "Prevention" },
-        { "sentence": "It took her six months to fully _____ from the accident.", "answer": "recover" }
-      ]
+      "type": "multiple_choice",
+      "question": "Many people experience _____ from working too many hours without rest.",
+      "options": ["immunity", "burnout", "metabolism", "supplement"],
+      "answer": "burnout"
     },
     {
       "id": "ex3",
       "type": "multiple_choice",
-      "instruction": "Choose the best word to complete each sentence",
-      "questions": [
-        {
-          "question": "Regular exercise is _____ for both physical and mental health.",
-          "options": ["detrimental", "contagious", "beneficial", "chronic"],
-          "answer": "beneficial"
-        },
-        {
-          "question": "Many people experience _____ from working too many hours without rest.",
-          "options": ["immunity", "burnout", "metabolism", "supplement"],
-          "answer": "burnout"
-        }
+      "question": "A _____ lifestyle with little physical activity can lead to weight gain.",
+      "options": ["beneficial", "resilient", "sedentary", "optimal"],
+      "answer": "sedentary"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "The flu is highly _____.",
+      "options": ["contagious", "holistic", "moderate", "therapeutic"],
+      "answer": "contagious"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "Smoking is _____ to your health.",
+      "options": ["beneficial", "detrimental", "optimal", "resilient"],
+      "answer": "detrimental"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "Elderly people are more _____ to infections.",
+      "options": ["susceptible", "chronic", "moderate", "adverse"],
+      "answer": "susceptible"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "Fatigue is a common _____ of stress.",
+      "options": ["prevention", "symptom", "immunity", "posture"],
+      "answer": "symptom"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "The clinic offers a _____ approach to healthcare.",
+      "options": ["sedentary", "contagious", "holistic", "adverse"],
+      "answer": "holistic"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "_____ stress can lead to serious health problems.",
+      "options": ["Chronic", "Moderate", "Optimal", "Therapeutic"],
+      "answer": "Chronic"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "Good nutrition is essential for children's _____.",
+      "options": ["wellbeing", "insomnia", "quarantine", "epidemic"],
+      "answer": "wellbeing"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "Vaccines help build _____ against diseases.",
+      "options": ["obesity", "immunity", "fatigue", "anxiety"],
+      "answer": "immunity"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "Physical _____ helped her recover from the injury.",
+      "options": ["therapy", "epidemic", "quarantine", "posture"],
+      "answer": "therapy"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "The doctor prescribed _____ for his condition.",
+      "options": ["wellbeing", "medication", "stamina", "vitality"],
+      "answer": "medication"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "_____ increases the risk of heart disease.",
+      "options": ["Vitality", "Stamina", "Obesity", "Hygiene"],
+      "answer": "Obesity"
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "Stress often leads to _____.",
+      "options": ["insomnia", "stamina", "vitality", "immunity"],
+      "answer": "insomnia"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "Exercise helps boost _____.",
+      "options": ["metabolism", "insomnia", "anxiety", "ailment"],
+      "answer": "metabolism"
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "Many people take vitamin _____.",
+      "options": ["supplements", "ailments", "epidemics", "remedies"],
+      "answer": "supplements"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "_____ after surgery takes several weeks.",
+      "options": ["Quarantine", "Rehabilitation", "Prevention", "Immunization"],
+      "answer": "Rehabilitation"
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "Emotionally _____ people cope better with stress.",
+      "options": ["chronic", "sedentary", "resilient", "contagious"],
+      "answer": "resilient"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "Practicing _____ can reduce anxiety.",
+      "options": ["mindfulness", "obesity", "insomnia", "burnout"],
+      "answer": "mindfulness"
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "Common _____ include headaches and colds.",
+      "options": ["ailments", "stamina", "vitality", "hygiene"],
+      "answer": "ailments"
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "Herbal _____ are popular for minor health issues.",
+      "options": ["remedies", "epidemics", "quarantines", "regimens"],
+      "answer": "remedies"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "A healthy diet contributes to your _____.",
+      "options": ["fatigue", "vitality", "insomnia", "anxiety"],
+      "answer": "vitality"
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "Chronic _____ can be a sign of underlying health issues.",
+      "options": ["vitality", "stamina", "fatigue", "remedy"],
+      "answer": "fatigue"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "Good _____ prevents the spread of diseases.",
+      "options": ["hygiene", "fatigue", "ailment", "epidemic"],
+      "answer": "hygiene"
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "Regular training builds _____ and endurance.",
+      "options": ["fatigue", "insomnia", "stamina", "anxiety"],
+      "answer": "stamina"
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "The flu _____ affected thousands of people.",
+      "options": ["remedy", "epidemic", "supplement", "regimen"],
+      "answer": "epidemic"
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "Travelers were placed in _____ for two weeks.",
+      "options": ["quarantine", "rehabilitation", "therapy", "prevention"],
+      "answer": "quarantine"
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "Childhood _____ protects against many diseases.",
+      "options": ["immunization", "obesity", "insomnia", "burnout"],
+      "answer": "immunization"
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "She follows a strict exercise _____.",
+      "options": ["ailment", "remedy", "regimen", "symptom"],
+      "answer": "regimen"
+    },
+    {
+      "id": "ex31",
+      "type": "multiple_choice",
+      "question": "Good _____ is important for back health.",
+      "options": ["posture", "fatigue", "epidemic", "quarantine"],
+      "answer": "posture"
+    },
+    {
+      "id": "ex32",
+      "type": "multiple_choice",
+      "question": "Running is excellent _____ exercise.",
+      "options": ["respiratory", "cardiovascular", "sedentary", "adverse"],
+      "answer": "cardiovascular"
+    },
+    {
+      "id": "ex33",
+      "type": "multiple_choice",
+      "question": "Asthma is a _____ condition.",
+      "options": ["cardiovascular", "respiratory", "therapeutic", "optimal"],
+      "answer": "respiratory"
+    },
+    {
+      "id": "ex34",
+      "type": "multiple_choice",
+      "question": "Massage has _____ benefits for muscle pain.",
+      "options": ["adverse", "detrimental", "therapeutic", "contagious"],
+      "answer": "therapeutic"
+    },
+    {
+      "id": "ex35",
+      "type": "multiple_choice",
+      "question": "Some medications have _____ side effects.",
+      "options": ["beneficial", "optimal", "therapeutic", "adverse"],
+      "answer": "adverse"
+    },
+    {
+      "id": "ex36",
+      "type": "multiple_choice",
+      "question": "Eight hours of sleep is _____ for most adults.",
+      "options": ["adverse", "detrimental", "optimal", "contagious"],
+      "answer": "optimal"
+    },
+    {
+      "id": "ex37",
+      "type": "multiple_choice",
+      "question": "_____ is better than cure when it comes to health.",
+      "options": ["Prevention", "Diagnosis", "Symptom", "Ailment"],
+      "answer": "Prevention"
+    },
+    {
+      "id": "ex38",
+      "type": "multiple_choice",
+      "question": "_____ exercise is recommended for beginners.",
+      "options": ["Chronic", "Adverse", "Moderate", "Contagious"],
+      "answer": "Moderate"
+    },
+    {
+      "id": "ex39",
+      "type": "multiple_choice",
+      "question": "The _____ came after several tests.",
+      "options": ["prevention", "diagnosis", "immunity", "stamina"],
+      "answer": "diagnosis"
+    },
+    {
+      "id": "ex40",
+      "type": "multiple_choice",
+      "question": "_____ can affect both mental and physical health.",
+      "options": ["Stamina", "Vitality", "Anxiety", "Hygiene"],
+      "answer": "Anxiety"
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "The doctor will _____ the appropriate medication for your condition.",
+      "answer": "prescribe"
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "It took her six months to fully _____ from the accident.",
+      "answer": "recover"
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "Regular check-ups help _____ good health.",
+      "answer": "maintain"
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "Stretching can _____ muscle tension.",
+      "answer": "alleviate"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "The doctor _____ her with a vitamin deficiency.",
+      "answer": "diagnosed"
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "Fresh fruits and vegetables _____ the body.",
+      "answer": "nourish"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "Without treatment, his condition began to _____.",
+      "answer": "deteriorate"
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "A vacation can help _____ your mind and body.",
+      "answer": "rejuvenate"
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "Exercise helps _____ stress and depression.",
+      "answer": "combat"
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "Regular exercise contributes to overall _____.",
+      "answer": "wellbeing"
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "Fatigue is a common _____ of stress.",
+      "answer": "symptom"
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "The _____ came after several tests.",
+      "answer": "diagnosis"
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "_____ is better than cure.",
+      "answer": "Prevention"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "Physical _____ helped her recover from the injury.",
+      "answer": "therapy"
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "The doctor prescribed _____ for his condition.",
+      "answer": "medication"
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "Good _____ is essential for children's development.",
+      "answer": "nutrition"
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "Vaccines help build _____ against diseases.",
+      "answer": "immunity"
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "_____ stress can lead to serious health problems.",
+      "answer": "Chronic"
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "A _____ lifestyle increases health risks.",
+      "answer": "sedentary"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "Walking is _____ for both physical and mental health.",
+      "answer": "beneficial"
+    },
+    {
+      "id": "ex61",
+      "type": "fill_blank",
+      "question": "_____ exercise is recommended for beginners.",
+      "answer": "Moderate"
+    },
+    {
+      "id": "ex62",
+      "type": "fill_blank",
+      "question": "The clinic offers a _____ approach to healthcare.",
+      "answer": "holistic"
+    },
+    {
+      "id": "ex63",
+      "type": "fill_blank",
+      "question": "Emotionally _____ people cope better with stress.",
+      "answer": "resilient"
+    },
+    {
+      "id": "ex64",
+      "type": "fill_blank",
+      "question": "Practicing _____ can reduce anxiety.",
+      "answer": "mindfulness"
+    },
+    {
+      "id": "ex65",
+      "type": "fill_blank",
+      "question": "Many employees experience _____ from overwork.",
+      "answer": "burnout"
+    },
+    {
+      "id": "ex66",
+      "type": "fill_blank",
+      "question": "_____ can affect both mental and physical health.",
+      "answer": "Anxiety"
+    },
+    {
+      "id": "ex67",
+      "type": "fill_blank",
+      "question": "_____ increases the risk of heart disease.",
+      "answer": "Obesity"
+    },
+    {
+      "id": "ex68",
+      "type": "fill_blank",
+      "question": "Stress often leads to _____.",
+      "answer": "insomnia"
+    },
+    {
+      "id": "ex69",
+      "type": "fill_blank",
+      "question": "Exercise helps boost _____.",
+      "answer": "metabolism"
+    },
+    {
+      "id": "ex70",
+      "type": "fill_blank",
+      "question": "Many people take vitamin _____.",
+      "answer": "supplements"
+    },
+    {
+      "id": "ex71",
+      "type": "fill_blank",
+      "question": "_____ after surgery takes several weeks.",
+      "answer": "Rehabilitation"
+    },
+    {
+      "id": "ex72",
+      "type": "fill_blank",
+      "question": "The flu is highly _____.",
+      "answer": "contagious"
+    },
+    {
+      "id": "ex73",
+      "type": "fill_blank",
+      "question": "Smoking is _____ to your health.",
+      "answer": "detrimental"
+    },
+    {
+      "id": "ex74",
+      "type": "fill_blank",
+      "question": "Elderly people are more _____ to infections.",
+      "answer": "susceptible"
+    },
+    {
+      "id": "ex75",
+      "type": "fill_blank",
+      "question": "Common _____ include headaches and colds.",
+      "answer": "ailments"
+    },
+    {
+      "id": "ex76",
+      "type": "matching",
+      "pairs": [
+        {"word": "symptom", "match": "a physical or mental sign of illness"},
+        {"word": "chronic", "match": "lasting for a long time"},
+        {"word": "mindfulness", "match": "awareness of the present moment"},
+        {"word": "alleviate", "match": "to make pain or suffering less severe"}
       ]
+    },
+    {
+      "id": "ex77",
+      "type": "matching",
+      "pairs": [
+        {"word": "wellbeing", "match": "state of being comfortable and healthy"},
+        {"word": "diagnosis", "match": "identification of an illness"},
+        {"word": "prevention", "match": "action taken to stop something happening"},
+        {"word": "therapy", "match": "treatment for illness"}
+      ]
+    },
+    {
+      "id": "ex78",
+      "type": "matching",
+      "pairs": [
+        {"word": "medication", "match": "a drug or medicine"},
+        {"word": "nutrition", "match": "process of providing food for health"},
+        {"word": "immunity", "match": "resistance to infection"},
+        {"word": "sedentary", "match": "characterized by much sitting"}
+      ]
+    },
+    {
+      "id": "ex79",
+      "type": "matching",
+      "pairs": [
+        {"word": "beneficial", "match": "producing good effects"},
+        {"word": "moderate", "match": "average in amount"},
+        {"word": "holistic", "match": "treating the whole person"},
+        {"word": "resilient", "match": "able to recover quickly"}
+      ]
+    },
+    {
+      "id": "ex80",
+      "type": "matching",
+      "pairs": [
+        {"word": "diagnose", "match": "to identify an illness"},
+        {"word": "prescribe", "match": "to recommend a treatment"},
+        {"word": "recover", "match": "to return to normal health"},
+        {"word": "maintain", "match": "to keep in good condition"}
+      ]
+    },
+    {
+      "id": "ex81",
+      "type": "matching",
+      "pairs": [
+        {"word": "burnout", "match": "exhaustion from prolonged stress"},
+        {"word": "anxiety", "match": "feeling of worry or nervousness"},
+        {"word": "obesity", "match": "condition of being very overweight"},
+        {"word": "insomnia", "match": "inability to sleep"}
+      ]
+    },
+    {
+      "id": "ex82",
+      "type": "matching",
+      "pairs": [
+        {"word": "metabolism", "match": "chemical processes that maintain life"},
+        {"word": "supplement", "match": "additional nutrient"},
+        {"word": "rehabilitation", "match": "restoring health after illness"},
+        {"word": "contagious", "match": "spread from one person to another"}
+      ]
+    },
+    {
+      "id": "ex83",
+      "type": "matching",
+      "pairs": [
+        {"word": "detrimental", "match": "causing harm or damage"},
+        {"word": "susceptible", "match": "likely to be affected"},
+        {"word": "ailment", "match": "a minor illness"},
+        {"word": "remedy", "match": "a treatment or medicine"}
+      ]
+    },
+    {
+      "id": "ex84",
+      "type": "matching",
+      "pairs": [
+        {"word": "vitality", "match": "state of being strong and energetic"},
+        {"word": "fatigue", "match": "extreme tiredness"},
+        {"word": "hygiene", "match": "practices for maintaining health"},
+        {"word": "stamina", "match": "ability to sustain prolonged effort"}
+      ]
+    },
+    {
+      "id": "ex85",
+      "type": "matching",
+      "pairs": [
+        {"word": "nourish", "match": "to provide food for health"},
+        {"word": "deteriorate", "match": "to become progressively worse"},
+        {"word": "rejuvenate", "match": "to make someone feel young again"},
+        {"word": "combat", "match": "to take action to reduce something bad"}
+      ]
+    },
+    {
+      "id": "ex86",
+      "type": "matching",
+      "pairs": [
+        {"word": "epidemic", "match": "widespread occurrence of disease"},
+        {"word": "quarantine", "match": "isolation to prevent spread"},
+        {"word": "immunization", "match": "process of making someone immune"},
+        {"word": "regimen", "match": "a prescribed course of treatment"}
+      ]
+    },
+    {
+      "id": "ex87",
+      "type": "matching",
+      "pairs": [
+        {"word": "posture", "match": "position of the body"},
+        {"word": "cardiovascular", "match": "relating to heart and blood vessels"},
+        {"word": "respiratory", "match": "relating to breathing"},
+        {"word": "therapeutic", "match": "relating to healing"}
+      ]
+    },
+    {
+      "id": "ex88",
+      "type": "matching",
+      "pairs": [
+        {"word": "adverse", "match": "preventing success; harmful"},
+        {"word": "optimal", "match": "best or most favorable"},
+        {"word": "chronic", "match": "lasting for a long time"},
+        {"word": "beneficial", "match": "producing good effects"}
+      ]
+    },
+    {
+      "id": "ex89",
+      "type": "matching",
+      "pairs": [
+        {"word": "wellbeing", "match": "state of being healthy and happy"},
+        {"word": "vitality", "match": "state of being energetic"},
+        {"word": "stamina", "match": "ability to sustain effort"},
+        {"word": "resilient", "match": "able to recover quickly"}
+      ]
+    },
+    {
+      "id": "ex90",
+      "type": "matching",
+      "pairs": [
+        {"word": "therapy", "match": "treatment for illness"},
+        {"word": "medication", "match": "a drug or medicine"},
+        {"word": "remedy", "match": "a treatment that cures"},
+        {"word": "supplement", "match": "additional nutrient"}
+      ]
+    },
+    {
+      "id": "ex91",
+      "type": "matching",
+      "pairs": [
+        {"word": "diagnosis", "match": "identification of an illness"},
+        {"word": "symptom", "match": "a sign of illness"},
+        {"word": "prevention", "match": "action to stop something"},
+        {"word": "treatment", "match": "medical care for illness"}
+      ]
+    },
+    {
+      "id": "ex92",
+      "type": "matching",
+      "pairs": [
+        {"word": "obesity", "match": "condition of being very overweight"},
+        {"word": "insomnia", "match": "inability to sleep"},
+        {"word": "burnout", "match": "exhaustion from stress"},
+        {"word": "anxiety", "match": "feeling of worry"}
+      ]
+    },
+    {
+      "id": "ex93",
+      "type": "matching",
+      "pairs": [
+        {"word": "contagious", "match": "spread from person to person"},
+        {"word": "epidemic", "match": "widespread disease occurrence"},
+        {"word": "quarantine", "match": "isolation to prevent spread"},
+        {"word": "immunization", "match": "making someone immune"}
+      ]
+    },
+    {
+      "id": "ex94",
+      "type": "matching",
+      "pairs": [
+        {"word": "holistic", "match": "treating the whole person"},
+        {"word": "therapeutic", "match": "relating to healing"},
+        {"word": "optimal", "match": "best or most favorable"},
+        {"word": "moderate", "match": "average in amount"}
+      ]
+    },
+    {
+      "id": "ex95",
+      "type": "matching",
+      "pairs": [
+        {"word": "nourish", "match": "to provide food for health"},
+        {"word": "maintain", "match": "to keep in good condition"},
+        {"word": "alleviate", "match": "to make pain less severe"},
+        {"word": "combat", "match": "to reduce something bad"}
+      ]
+    },
+    {
+      "id": "ex96",
+      "type": "translation_ko_en",
+      "question": "규칙적인 운동은 전반적인 웰빙에 기여합니다.",
+      "answer": "Regular exercise contributes to overall wellbeing."
+    },
+    {
+      "id": "ex97",
+      "type": "translation_ko_en",
+      "question": "피로는 스트레스의 흔한 증상입니다.",
+      "answer": "Fatigue is a common symptom of stress."
+    },
+    {
+      "id": "ex98",
+      "type": "translation_ko_en",
+      "question": "진단은 여러 검사 후에 나왔습니다.",
+      "answer": "The diagnosis came after several tests."
+    },
+    {
+      "id": "ex99",
+      "type": "translation_ko_en",
+      "question": "예방이 치료보다 낫습니다.",
+      "answer": "Prevention is better than cure."
+    },
+    {
+      "id": "ex100",
+      "type": "translation_ko_en",
+      "question": "물리치료는 그녀가 부상에서 회복하는 데 도움을 주었습니다.",
+      "answer": "Physical therapy helped her recover from the injury."
+    },
+    {
+      "id": "ex101",
+      "type": "translation_ko_en",
+      "question": "의사는 그의 상태에 맞는 약을 처방했습니다.",
+      "answer": "The doctor prescribed medication for his condition."
+    },
+    {
+      "id": "ex102",
+      "type": "translation_ko_en",
+      "question": "좋은 영양은 어린이의 발달에 필수적입니다.",
+      "answer": "Good nutrition is essential for children's development."
+    },
+    {
+      "id": "ex103",
+      "type": "translation_ko_en",
+      "question": "백신은 질병에 대한 면역력을 키우는 데 도움을 줍니다.",
+      "answer": "Vaccines help build immunity against diseases."
+    },
+    {
+      "id": "ex104",
+      "type": "translation_ko_en",
+      "question": "만성 스트레스는 심각한 건강 문제로 이어질 수 있습니다.",
+      "answer": "Chronic stress can lead to serious health problems."
+    },
+    {
+      "id": "ex105",
+      "type": "translation_ko_en",
+      "question": "앉아서 생활하는 방식은 건강 위험을 증가시킵니다.",
+      "answer": "A sedentary lifestyle increases health risks."
+    },
+    {
+      "id": "ex106",
+      "type": "translation_ko_en",
+      "question": "걷기는 신체적 정신적 건강 모두에 유익합니다.",
+      "answer": "Walking is beneficial for both physical and mental health."
+    },
+    {
+      "id": "ex107",
+      "type": "translation_ko_en",
+      "question": "적당한 운동은 초보자에게 권장됩니다.",
+      "answer": "Moderate exercise is recommended for beginners."
+    },
+    {
+      "id": "ex108",
+      "type": "translation_ko_en",
+      "question": "그 클리닉은 의료에 대한 전인적 접근 방식을 제공합니다.",
+      "answer": "The clinic offers a holistic approach to healthcare."
+    },
+    {
+      "id": "ex109",
+      "type": "translation_ko_en",
+      "question": "감정적으로 회복력 있는 사람들은 스트레스에 더 잘 대처합니다.",
+      "answer": "Emotionally resilient people cope better with stress."
+    },
+    {
+      "id": "ex110",
+      "type": "translation_ko_en",
+      "question": "마음챙김을 실천하면 불안을 줄일 수 있습니다.",
+      "answer": "Practicing mindfulness can reduce anxiety."
+    },
+    {
+      "id": "ex111",
+      "type": "translation_ko_en",
+      "question": "의사는 그녀를 비타민 결핍으로 진단했습니다.",
+      "answer": "The doctor diagnosed her with a vitamin deficiency."
+    },
+    {
+      "id": "ex112",
+      "type": "translation_ko_en",
+      "question": "의사는 휴식과 충분한 수분 섭취를 처방했습니다.",
+      "answer": "The physician prescribed rest and plenty of fluids."
+    },
+    {
+      "id": "ex113",
+      "type": "translation_ko_en",
+      "question": "수술 후 완전히 회복하는 데 몇 달이 걸렸습니다.",
+      "answer": "It took months to fully recover from the surgery."
+    },
+    {
+      "id": "ex114",
+      "type": "translation_ko_en",
+      "question": "정기 검진은 좋은 건강을 유지하는 데 도움이 됩니다.",
+      "answer": "Regular check-ups help maintain good health."
+    },
+    {
+      "id": "ex115",
+      "type": "translation_ko_en",
+      "question": "스트레칭은 근육 긴장을 완화할 수 있습니다.",
+      "answer": "Stretching can alleviate muscle tension."
+    },
+    {
+      "id": "ex116",
+      "type": "translation_ko_en",
+      "question": "많은 직원들이 과로로 인해 번아웃을 경험합니다.",
+      "answer": "Many employees experience burnout from overwork."
+    },
+    {
+      "id": "ex117",
+      "type": "translation_ko_en",
+      "question": "불안은 정신적 육체적 건강 모두에 영향을 미칠 수 있습니다.",
+      "answer": "Anxiety can affect both mental and physical health."
+    },
+    {
+      "id": "ex118",
+      "type": "translation_ko_en",
+      "question": "비만은 심장 질환의 위험을 증가시킵니다.",
+      "answer": "Obesity increases the risk of heart disease."
+    },
+    {
+      "id": "ex119",
+      "type": "translation_ko_en",
+      "question": "스트레스는 종종 불면증으로 이어집니다.",
+      "answer": "Stress often leads to insomnia."
+    },
+    {
+      "id": "ex120",
+      "type": "translation_ko_en",
+      "question": "운동은 신진대사를 촉진하는 데 도움이 됩니다.",
+      "answer": "Exercise helps boost metabolism."
+    },
+    {
+      "id": "ex121",
+      "type": "translation_ko_en",
+      "question": "많은 사람들이 비타민 보충제를 복용합니다.",
+      "answer": "Many people take vitamin supplements."
+    },
+    {
+      "id": "ex122",
+      "type": "translation_ko_en",
+      "question": "수술 후 재활은 몇 주가 걸립니다.",
+      "answer": "Rehabilitation after surgery takes several weeks."
+    },
+    {
+      "id": "ex123",
+      "type": "translation_ko_en",
+      "question": "독감은 매우 전염성이 강합니다.",
+      "answer": "The flu is highly contagious."
+    },
+    {
+      "id": "ex124",
+      "type": "translation_ko_en",
+      "question": "흡연은 건강에 해롭습니다.",
+      "answer": "Smoking is detrimental to your health."
+    },
+    {
+      "id": "ex125",
+      "type": "translation_ko_en",
+      "question": "노인들은 감염에 더 취약합니다.",
+      "answer": "Elderly people are more susceptible to infections."
+    },
+    {
+      "id": "ex126",
+      "type": "translation_en_ko",
+      "question": "Common ailments include headaches and colds.",
+      "answer": "흔한 질병에는 두통과 감기가 포함됩니다."
+    },
+    {
+      "id": "ex127",
+      "type": "translation_en_ko",
+      "question": "Herbal remedies are popular for minor health issues.",
+      "answer": "약초 치료법은 사소한 건강 문제에 인기가 있습니다."
+    },
+    {
+      "id": "ex128",
+      "type": "translation_en_ko",
+      "question": "A healthy diet contributes to your vitality.",
+      "answer": "건강한 식단은 당신의 활력에 기여합니다."
+    },
+    {
+      "id": "ex129",
+      "type": "translation_en_ko",
+      "question": "Chronic fatigue can be a sign of underlying health issues.",
+      "answer": "만성 피로는 근본적인 건강 문제의 징후일 수 있습니다."
+    },
+    {
+      "id": "ex130",
+      "type": "translation_en_ko",
+      "question": "Good hygiene prevents the spread of diseases.",
+      "answer": "좋은 위생은 질병의 확산을 예방합니다."
+    },
+    {
+      "id": "ex131",
+      "type": "translation_en_ko",
+      "question": "Regular training builds stamina and endurance.",
+      "answer": "규칙적인 훈련은 체력과 지구력을 기릅니다."
+    },
+    {
+      "id": "ex132",
+      "type": "translation_en_ko",
+      "question": "Fresh fruits and vegetables nourish the body.",
+      "answer": "신선한 과일과 채소는 몸에 영양을 공급합니다."
+    },
+    {
+      "id": "ex133",
+      "type": "translation_en_ko",
+      "question": "Without treatment, his condition began to deteriorate.",
+      "answer": "치료 없이는 그의 상태가 악화되기 시작했습니다."
+    },
+    {
+      "id": "ex134",
+      "type": "translation_en_ko",
+      "question": "The flu epidemic affected thousands of people.",
+      "answer": "독감 유행은 수천 명의 사람들에게 영향을 미쳤습니다."
+    },
+    {
+      "id": "ex135",
+      "type": "translation_en_ko",
+      "question": "Travelers were placed in quarantine for two weeks.",
+      "answer": "여행자들은 2주 동안 격리되었습니다."
+    },
+    {
+      "id": "ex136",
+      "type": "translation_en_ko",
+      "question": "Childhood immunization protects against many diseases.",
+      "answer": "어린 시절 예방접종은 많은 질병으로부터 보호합니다."
+    },
+    {
+      "id": "ex137",
+      "type": "translation_en_ko",
+      "question": "She follows a strict exercise regimen.",
+      "answer": "그녀는 엄격한 운동 요법을 따릅니다."
+    },
+    {
+      "id": "ex138",
+      "type": "translation_en_ko",
+      "question": "Good posture is important for back health.",
+      "answer": "좋은 자세는 허리 건강에 중요합니다."
+    },
+    {
+      "id": "ex139",
+      "type": "translation_en_ko",
+      "question": "Running is excellent cardiovascular exercise.",
+      "answer": "달리기는 훌륭한 심혈관 운동입니다."
+    },
+    {
+      "id": "ex140",
+      "type": "translation_en_ko",
+      "question": "Asthma is a respiratory condition.",
+      "answer": "천식은 호흡기 질환입니다."
+    },
+    {
+      "id": "ex141",
+      "type": "translation_en_ko",
+      "question": "Massage has therapeutic benefits for muscle pain.",
+      "answer": "마사지는 근육통에 치료 효과가 있습니다."
+    },
+    {
+      "id": "ex142",
+      "type": "translation_en_ko",
+      "question": "Some medications have adverse side effects.",
+      "answer": "일부 약물은 부작용이 있습니다."
+    },
+    {
+      "id": "ex143",
+      "type": "translation_en_ko",
+      "question": "Eight hours of sleep is optimal for most adults.",
+      "answer": "8시간의 수면은 대부분의 성인에게 최적입니다."
+    },
+    {
+      "id": "ex144",
+      "type": "translation_en_ko",
+      "question": "A vacation can help rejuvenate your mind and body.",
+      "answer": "휴가는 당신의 마음과 몸을 젊어지게 하는 데 도움이 될 수 있습니다."
+    },
+    {
+      "id": "ex145",
+      "type": "translation_en_ko",
+      "question": "Exercise helps combat stress and depression.",
+      "answer": "운동은 스트레스와 우울증에 대항하는 데 도움이 됩니다."
+    },
+    {
+      "id": "ex146",
+      "type": "translation_en_ko",
+      "question": "The doctor will prescribe the appropriate medication.",
+      "answer": "의사가 적절한 약을 처방할 것입니다."
+    },
+    {
+      "id": "ex147",
+      "type": "translation_en_ko",
+      "question": "It took six months to fully recover from the accident.",
+      "answer": "사고에서 완전히 회복하는 데 6개월이 걸렸습니다."
+    },
+    {
+      "id": "ex148",
+      "type": "translation_en_ko",
+      "question": "Regular check-ups help maintain good health.",
+      "answer": "정기 검진은 좋은 건강을 유지하는 데 도움이 됩니다."
+    },
+    {
+      "id": "ex149",
+      "type": "translation_en_ko",
+      "question": "A holistic approach treats the whole person.",
+      "answer": "전인적 접근 방식은 전체 사람을 치료합니다."
+    },
+    {
+      "id": "ex150",
+      "type": "translation_en_ko",
+      "question": "Emotionally resilient people adapt to challenges quickly.",
+      "answer": "감정적으로 회복력 있는 사람들은 도전에 빠르게 적응합니다."
     }
   ]
 }

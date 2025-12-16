@@ -266,6 +266,246 @@
       "translation": "추구하다",
       "example": "She decided to pursue her dream of becoming a doctor.",
       "exampleTranslation": "그녀는 의사가 되겠다는 꿈을 추구하기로 했어요."
+    },
+    {
+      "id": "w27",
+      "word": "milestone",
+      "pronunciation": "/ˈmaɪlstəʊn/",
+      "partOfSpeech": "noun",
+      "meaning": "an important event in development or progress",
+      "translation": "이정표, 중요한 사건",
+      "example": "Getting married was a major milestone in their lives.",
+      "exampleTranslation": "결혼은 그들 인생의 중요한 이정표였어요."
+    },
+    {
+      "id": "w28",
+      "word": "journey",
+      "pronunciation": "/ˈdʒɜːni/",
+      "partOfSpeech": "noun",
+      "meaning": "a trip or the process of traveling; a process of change",
+      "translation": "여행; 여정",
+      "example": "Life is a journey, not a destination.",
+      "exampleTranslation": "인생은 목적지가 아니라 여정이에요."
+    },
+    {
+      "id": "w29",
+      "word": "potential",
+      "pronunciation": "/pəˈtenʃl/",
+      "partOfSpeech": "noun/adjective",
+      "meaning": "the ability to develop or achieve something",
+      "translation": "잠재력; 잠재적인",
+      "example": "She has the potential to become a great leader.",
+      "exampleTranslation": "그녀는 훌륭한 리더가 될 잠재력이 있어요."
+    },
+    {
+      "id": "w30",
+      "word": "determination",
+      "pronunciation": "/dɪˌtɜːmɪˈneɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "the quality of continuing to try despite difficulties",
+      "translation": "결심, 결단력",
+      "example": "His determination helped him finish the race.",
+      "exampleTranslation": "그의 결단력이 경주를 마치는 데 도움이 됐어요."
+    },
+    {
+      "id": "w31",
+      "word": "setback",
+      "pronunciation": "/ˈsetbæk/",
+      "partOfSpeech": "noun",
+      "meaning": "a problem that delays or stops progress",
+      "translation": "차질, 좌절",
+      "example": "The injury was a major setback in his career.",
+      "exampleTranslation": "부상은 그의 경력에 큰 차질이었어요."
+    },
+    {
+      "id": "w32",
+      "word": "adjustment",
+      "pronunciation": "/əˈdʒʌstmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "a small change made to adapt to a new situation",
+      "translation": "조정, 적응",
+      "example": "Moving to a new country requires many adjustments.",
+      "exampleTranslation": "새 나라로 이사하면 많은 적응이 필요해요."
+    },
+    {
+      "id": "w33",
+      "word": "ambition",
+      "pronunciation": "/æmˈbɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "a strong desire to achieve something",
+      "translation": "야망, 포부",
+      "example": "Her ambition is to become a successful entrepreneur.",
+      "exampleTranslation": "그녀의 포부는 성공한 기업가가 되는 거예요."
+    },
+    {
+      "id": "w34",
+      "word": "transition",
+      "pronunciation": "/trænˈzɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "the process of changing from one state to another",
+      "translation": "전환, 과도기",
+      "example": "The transition from student to worker was challenging.",
+      "exampleTranslation": "학생에서 직장인으로의 전환은 도전적이었어요."
+    },
+    {
+      "id": "w35",
+      "word": "reward",
+      "pronunciation": "/rɪˈwɔːd/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "something good you get for doing something well",
+      "translation": "보상; 보상하다",
+      "example": "Hard work brings its own rewards.",
+      "exampleTranslation": "열심히 일하면 그에 따른 보상이 있어요."
+    },
+    {
+      "id": "w36",
+      "word": "sacrifice",
+      "pronunciation": "/ˈsækrɪfaɪs/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "giving up something important for something else",
+      "translation": "희생; 희생하다",
+      "example": "Success often requires sacrifice.",
+      "exampleTranslation": "성공은 종종 희생을 요구해요."
+    },
+    {
+      "id": "w37",
+      "word": "achievement",
+      "pronunciation": "/əˈtʃiːvmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "something difficult that you succeed in doing",
+      "translation": "업적, 성취",
+      "example": "Winning the competition was a great achievement.",
+      "exampleTranslation": "대회 우승은 큰 성취였어요."
+    },
+    {
+      "id": "w38",
+      "word": "perspective",
+      "pronunciation": "/pəˈspektɪv/",
+      "partOfSpeech": "noun",
+      "meaning": "a particular way of thinking about something",
+      "translation": "관점, 시각",
+      "example": "Travel gives you a new perspective on life.",
+      "exampleTranslation": "여행은 인생에 대한 새로운 시각을 줘요."
+    },
+    {
+      "id": "w39",
+      "word": "growth",
+      "pronunciation": "/ɡrəʊθ/",
+      "partOfSpeech": "noun",
+      "meaning": "the process of developing or improving",
+      "translation": "성장, 발전",
+      "example": "Personal growth is more important than money.",
+      "exampleTranslation": "개인적 성장이 돈보다 더 중요해요."
+    },
+    {
+      "id": "w40",
+      "word": "dedication",
+      "pronunciation": "/ˌdedɪˈkeɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "spending a lot of time and energy on something",
+      "translation": "헌신, 전념",
+      "example": "Her dedication to her work is admirable.",
+      "exampleTranslation": "그녀의 일에 대한 헌신은 존경스러워요."
+    },
+    {
+      "id": "w41",
+      "word": "impact",
+      "pronunciation": "/ˈɪmpækt/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "the effect that something has on someone or something",
+      "translation": "영향; 영향을 미치다",
+      "example": "The teacher had a positive impact on my life.",
+      "exampleTranslation": "그 선생님은 제 인생에 긍정적인 영향을 미쳤어요."
+    },
+    {
+      "id": "w42",
+      "word": "progress",
+      "pronunciation": "/ˈprəʊɡres/",
+      "partOfSpeech": "noun",
+      "meaning": "movement toward a goal or improvement",
+      "translation": "진전, 진척",
+      "example": "She's making good progress in learning Korean.",
+      "exampleTranslation": "그녀는 한국어 학습에 좋은 진전을 보이고 있어요."
+    },
+    {
+      "id": "w43",
+      "word": "maturity",
+      "pronunciation": "/məˈtʃʊərɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "the quality of behaving like a sensible adult",
+      "translation": "성숙함",
+      "example": "Living independently helped develop his maturity.",
+      "exampleTranslation": "독립적으로 사는 것이 그의 성숙함을 키우는 데 도움이 됐어요."
+    },
+    {
+      "id": "w44",
+      "word": "commitment",
+      "pronunciation": "/kəˈmɪtmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "a promise to do something; dedication",
+      "translation": "헌신, 전념",
+      "example": "Marriage requires commitment from both partners.",
+      "exampleTranslation": "결혼은 양쪽 파트너의 헌신이 필요해요."
+    },
+    {
+      "id": "w45",
+      "word": "lesson",
+      "pronunciation": "/ˈlesn/",
+      "partOfSpeech": "noun",
+      "meaning": "something you learn from experience",
+      "translation": "교훈",
+      "example": "That mistake taught me an important lesson.",
+      "exampleTranslation": "그 실수는 저에게 중요한 교훈을 줬어요."
+    },
+    {
+      "id": "w46",
+      "word": "uncertainty",
+      "pronunciation": "/ʌnˈsɜːtnti/",
+      "partOfSpeech": "noun",
+      "meaning": "the state of not being sure about something",
+      "translation": "불확실성",
+      "example": "There's a lot of uncertainty about the future.",
+      "exampleTranslation": "미래에 대한 불확실성이 많아요."
+    },
+    {
+      "id": "w47",
+      "word": "motivation",
+      "pronunciation": "/ˌməʊtɪˈveɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "the reason or enthusiasm for doing something",
+      "translation": "동기, 의욕",
+      "example": "Her motivation to succeed is very strong.",
+      "exampleTranslation": "그녀의 성공 의욕은 아주 강해요."
+    },
+    {
+      "id": "w48",
+      "word": "resilience",
+      "pronunciation": "/rɪˈzɪliəns/",
+      "partOfSpeech": "noun",
+      "meaning": "the ability to recover quickly from difficulties",
+      "translation": "회복력, 탄력성",
+      "example": "Her resilience helped her overcome many obstacles.",
+      "exampleTranslation": "그녀의 회복력이 많은 장애물을 극복하는 데 도움이 됐어요."
+    },
+    {
+      "id": "w49",
+      "word": "breakthrough",
+      "pronunciation": "/ˈbreɪkθruː/",
+      "partOfSpeech": "noun",
+      "meaning": "an important discovery or development",
+      "translation": "돌파구, 획기적 발전",
+      "example": "The scientist made a major breakthrough in research.",
+      "exampleTranslation": "그 과학자는 연구에서 큰 돌파구를 마련했어요."
+    },
+    {
+      "id": "w50",
+      "word": "fulfillment",
+      "pronunciation": "/fʊlˈfɪlmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "a feeling of satisfaction from achieving something",
+      "translation": "성취감, 만족",
+      "example": "Helping others gives me a sense of fulfillment.",
+      "exampleTranslation": "남을 돕는 것이 저에게 성취감을 줘요."
     }
   ],
 
@@ -338,6 +578,951 @@
       "question": "She decided to _____ her passion for art and become a painter.",
       "options": ["adapt", "pursue", "retire", "struggle"],
       "answer": "pursue"
+    },
+    {
+      "id": "ex11",
+      "type": "fill_blank",
+      "question": "Getting your driver's license is an important _____.",
+      "answer": "milestone"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "The _____ from school to work life can be difficult.",
+      "options": ["transition", "sacrifice", "maturity", "uncertainty"],
+      "answer": "transition"
+    },
+    {
+      "id": "ex13",
+      "type": "translation_ko_en",
+      "question": "인생은 여정이에요.",
+      "answer": "Life is a journey."
+    },
+    {
+      "id": "ex14",
+      "type": "fill_blank",
+      "question": "She has great _____ to become a professional musician.",
+      "answer": "potential"
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "His _____ helped him never give up on his dream.",
+      "options": ["determination", "setback", "uncertainty", "lesson"],
+      "answer": "determination"
+    },
+    {
+      "id": "ex16",
+      "type": "translation_en_ko",
+      "question": "The injury was a major setback.",
+      "answer": "부상은 큰 차질이었어요."
+    },
+    {
+      "id": "ex17",
+      "type": "fill_blank",
+      "question": "Moving abroad requires a big _____.",
+      "answer": "adjustment"
+    },
+    {
+      "id": "ex18",
+      "type": "matching",
+      "pairs": [
+        {"word": "ambition", "match": "strong desire to achieve"},
+        {"word": "reward", "match": "something good you get"},
+        {"word": "sacrifice", "match": "giving up something important"},
+        {"word": "achievement", "match": "something you succeed in doing"}
+      ]
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "Her _____ is to open her own restaurant someday.",
+      "options": ["ambition", "transition", "adjustment", "resilience"],
+      "answer": "ambition"
+    },
+    {
+      "id": "ex20",
+      "type": "fill_blank",
+      "question": "Hard work brings its own _____.",
+      "answer": "rewards"
+    },
+    {
+      "id": "ex21",
+      "type": "translation_ko_en",
+      "question": "성공은 종종 희생을 요구해요.",
+      "answer": "Success often requires sacrifice."
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "Graduating from university was a great _____.",
+      "options": ["achievement", "setback", "mistake", "risk"],
+      "answer": "achievement"
+    },
+    {
+      "id": "ex23",
+      "type": "fill_blank",
+      "question": "Travel gives you a new _____ on life.",
+      "answer": "perspective"
+    },
+    {
+      "id": "ex24",
+      "type": "translation_en_ko",
+      "question": "Personal growth is very important.",
+      "answer": "개인적 성장은 아주 중요해요."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "Her _____ to her students is remarkable.",
+      "options": ["dedication", "uncertainty", "setback", "transition"],
+      "answer": "dedication"
+    },
+    {
+      "id": "ex26",
+      "type": "fill_blank",
+      "question": "The teacher had a positive _____ on my life.",
+      "answer": "impact"
+    },
+    {
+      "id": "ex27",
+      "type": "matching",
+      "pairs": [
+        {"word": "progress", "match": "movement toward a goal"},
+        {"word": "maturity", "match": "behaving like a sensible adult"},
+        {"word": "commitment", "match": "promise to do something"},
+        {"word": "lesson", "match": "something learned from experience"}
+      ]
+    },
+    {
+      "id": "ex28",
+      "type": "translation_ko_en",
+      "question": "그녀는 한국어 학습에 좋은 진전을 보이고 있어요.",
+      "answer": "She's making good progress in learning Korean."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "Living independently helped develop his _____.",
+      "options": ["maturity", "setback", "uncertainty", "sacrifice"],
+      "answer": "maturity"
+    },
+    {
+      "id": "ex30",
+      "type": "fill_blank",
+      "question": "Marriage requires _____ from both partners.",
+      "answer": "commitment"
+    },
+    {
+      "id": "ex31",
+      "type": "translation_en_ko",
+      "question": "That mistake taught me an important lesson.",
+      "answer": "그 실수는 저에게 중요한 교훈을 줬어요."
+    },
+    {
+      "id": "ex32",
+      "type": "multiple_choice",
+      "question": "There's a lot of _____ about what will happen next.",
+      "options": ["uncertainty", "dedication", "reward", "achievement"],
+      "answer": "uncertainty"
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "question": "Her _____ to succeed is very strong.",
+      "answer": "motivation"
+    },
+    {
+      "id": "ex34",
+      "type": "translation_ko_en",
+      "question": "그녀의 회복력이 많은 장애물을 극복하는 데 도움이 됐어요.",
+      "answer": "Her resilience helped her overcome many obstacles."
+    },
+    {
+      "id": "ex35",
+      "type": "multiple_choice",
+      "question": "The scientist made a major _____ in cancer research.",
+      "options": ["breakthrough", "setback", "mistake", "regret"],
+      "answer": "breakthrough"
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "Helping others gives me a sense of _____.",
+      "answer": "fulfillment"
+    },
+    {
+      "id": "ex37",
+      "type": "matching",
+      "pairs": [
+        {"word": "motivation", "match": "reason for doing something"},
+        {"word": "resilience", "match": "ability to recover quickly"},
+        {"word": "breakthrough", "match": "important discovery"},
+        {"word": "fulfillment", "match": "feeling of satisfaction"}
+      ]
+    },
+    {
+      "id": "ex38",
+      "type": "translation_en_ko",
+      "question": "This job offers great opportunities for growth.",
+      "answer": "이 직업은 성장할 좋은 기회를 제공해요."
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "question": "Living abroad was an amazing _____.",
+      "answer": "experience"
+    },
+    {
+      "id": "ex40",
+      "type": "multiple_choice",
+      "question": "Don't be afraid of _____ - it helps you learn.",
+      "options": ["failure", "success", "reward", "achievement"],
+      "answer": "failure"
+    },
+    {
+      "id": "ex41",
+      "type": "translation_ko_en",
+      "question": "새 직장에 적응하는 데 시간이 걸렸어요.",
+      "answer": "It took time to adapt to the new job."
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "My English has _____ a lot this year.",
+      "answer": "improved"
+    },
+    {
+      "id": "ex43",
+      "type": "multiple_choice",
+      "question": "She got a _____ after working there for three years.",
+      "options": ["promotion", "failure", "mistake", "regret"],
+      "answer": "promotion"
+    },
+    {
+      "id": "ex44",
+      "type": "translation_en_ko",
+      "question": "My father retired at the age of 65.",
+      "answer": "아버지는 65세에 은퇴하셨어요."
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "I _____ from university two years ago.",
+      "answer": "graduated"
+    },
+    {
+      "id": "ex46",
+      "type": "matching",
+      "pairs": [
+        {"word": "decision", "match": "a choice you make"},
+        {"word": "experience", "match": "something that happens to you"},
+        {"word": "challenge", "match": "something difficult"},
+        {"word": "graduate", "match": "complete studies"}
+      ]
+    },
+    {
+      "id": "ex47",
+      "type": "multiple_choice",
+      "question": "What do you want to _____ this year?",
+      "options": ["accomplish", "regret", "retire", "graduate"],
+      "answer": "accomplish"
+    },
+    {
+      "id": "ex48",
+      "type": "translation_ko_en",
+      "question": "부모가 되면 많은 책임이 따라요.",
+      "answer": "Parenthood comes with many responsibilities."
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "I _____ to find a job after graduation.",
+      "answer": "struggled"
+    },
+    {
+      "id": "ex50",
+      "type": "multiple_choice",
+      "question": "Living alone made me more _____.",
+      "options": ["independent", "confident", "memorable", "valuable"],
+      "answer": "independent"
+    },
+    {
+      "id": "ex51",
+      "type": "translation_en_ko",
+      "question": "Starting a business involves some risk.",
+      "answer": "사업을 시작하는 것은 어느 정도 위험이 따라요."
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "This was a _____ learning experience.",
+      "answer": "valuable"
+    },
+    {
+      "id": "ex53",
+      "type": "multiple_choice",
+      "question": "Everyone makes _____ - that's how we learn.",
+      "options": ["mistakes", "rewards", "achievements", "milestones"],
+      "answer": "mistakes"
+    },
+    {
+      "id": "ex54",
+      "type": "translation_ko_en",
+      "question": "여행은 세상을 보는 제 시각을 바꿔놨어요.",
+      "answer": "Travel has transformed my view of the world."
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "She decided to _____ her dream of becoming a doctor.",
+      "answer": "pursue"
+    },
+    {
+      "id": "ex56",
+      "type": "matching",
+      "pairs": [
+        {"word": "transform", "match": "change completely"},
+        {"word": "adapt", "match": "change to fit new conditions"},
+        {"word": "improve", "match": "become better"},
+        {"word": "overcome", "match": "succeed in dealing with"}
+      ]
+    },
+    {
+      "id": "ex57",
+      "type": "multiple_choice",
+      "question": "Our trip to Japan was truly _____.",
+      "options": ["memorable", "independent", "confident", "valuable"],
+      "answer": "memorable"
+    },
+    {
+      "id": "ex58",
+      "type": "translation_en_ko",
+      "question": "Hard work is the key to success.",
+      "answer": "열심히 일하는 것이 성공의 열쇠예요."
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "She became more _____ after the training.",
+      "answer": "confident"
+    },
+    {
+      "id": "ex60",
+      "type": "multiple_choice",
+      "question": "Moving to a new city was a difficult _____.",
+      "options": ["decision", "opportunity", "success", "reward"],
+      "answer": "decision"
+    },
+    {
+      "id": "ex61",
+      "type": "translation_ko_en",
+      "question": "그는 대중 연설에 대한 두려움을 극복했어요.",
+      "answer": "He overcame his fear of public speaking."
+    },
+    {
+      "id": "ex62",
+      "type": "fill_blank",
+      "question": "Learning a new language is a big _____.",
+      "answer": "challenge"
+    },
+    {
+      "id": "ex63",
+      "type": "multiple_choice",
+      "question": "She _____ her goal of running a marathon.",
+      "options": ["achieved", "regretted", "retired", "graduated"],
+      "answer": "achieved"
+    },
+    {
+      "id": "ex64",
+      "type": "matching",
+      "pairs": [
+        {"word": "risk", "match": "possibility of something bad"},
+        {"word": "effort", "match": "energy used to do something"},
+        {"word": "regret", "match": "feel sorry about something"},
+        {"word": "retire", "match": "stop working because of age"}
+      ]
+    },
+    {
+      "id": "ex65",
+      "type": "translation_en_ko",
+      "question": "I regret not studying harder in school.",
+      "answer": "학교에서 더 열심히 공부하지 않은 것을 후회해요."
+    },
+    {
+      "id": "ex66",
+      "type": "fill_blank",
+      "question": "It takes a lot of _____ to learn a language.",
+      "answer": "effort"
+    },
+    {
+      "id": "ex67",
+      "type": "multiple_choice",
+      "question": "Getting married was a major _____ in their lives.",
+      "options": ["milestone", "mistake", "setback", "uncertainty"],
+      "answer": "milestone"
+    },
+    {
+      "id": "ex68",
+      "type": "translation_ko_en",
+      "question": "그녀는 훌륭한 리더가 될 잠재력이 있어요.",
+      "answer": "She has the potential to become a great leader."
+    },
+    {
+      "id": "ex69",
+      "type": "fill_blank",
+      "question": "Life is a _____, not a destination.",
+      "answer": "journey"
+    },
+    {
+      "id": "ex70",
+      "type": "multiple_choice",
+      "question": "His _____ helped him finish the race despite difficulties.",
+      "options": ["determination", "uncertainty", "setback", "mistake"],
+      "answer": "determination"
+    },
+    {
+      "id": "ex71",
+      "type": "translation_en_ko",
+      "question": "The injury was a major setback in his career.",
+      "answer": "부상은 그의 경력에 큰 차질이었어요."
+    },
+    {
+      "id": "ex72",
+      "type": "fill_blank",
+      "question": "Moving to a new country requires many _____.",
+      "answer": "adjustments"
+    },
+    {
+      "id": "ex73",
+      "type": "matching",
+      "pairs": [
+        {"word": "perspective", "match": "way of thinking"},
+        {"word": "growth", "match": "process of developing"},
+        {"word": "impact", "match": "effect on someone"},
+        {"word": "promotion", "match": "higher position at work"}
+      ]
+    },
+    {
+      "id": "ex74",
+      "type": "multiple_choice",
+      "question": "Her _____ is to become a successful entrepreneur.",
+      "options": ["ambition", "adjustment", "setback", "mistake"],
+      "answer": "ambition"
+    },
+    {
+      "id": "ex75",
+      "type": "translation_ko_en",
+      "question": "학생에서 직장인으로의 전환은 도전적이었어요.",
+      "answer": "The transition from student to worker was challenging."
+    },
+    {
+      "id": "ex76",
+      "type": "fill_blank",
+      "question": "Success often requires _____.",
+      "answer": "sacrifice"
+    },
+    {
+      "id": "ex77",
+      "type": "multiple_choice",
+      "question": "Winning the competition was a great _____.",
+      "options": ["achievement", "setback", "regret", "uncertainty"],
+      "answer": "achievement"
+    },
+    {
+      "id": "ex78",
+      "type": "translation_en_ko",
+      "question": "Travel gives you a new perspective on life.",
+      "answer": "여행은 인생에 대한 새로운 시각을 줘요."
+    },
+    {
+      "id": "ex79",
+      "type": "fill_blank",
+      "question": "Personal _____ is more important than money.",
+      "answer": "growth"
+    },
+    {
+      "id": "ex80",
+      "type": "multiple_choice",
+      "question": "Her _____ to her work is admirable.",
+      "options": ["dedication", "uncertainty", "setback", "mistake"],
+      "answer": "dedication"
+    },
+    {
+      "id": "ex81",
+      "type": "translation_ko_en",
+      "question": "그 선생님은 제 인생에 긍정적인 영향을 미쳤어요.",
+      "answer": "The teacher had a positive impact on my life."
+    },
+    {
+      "id": "ex82",
+      "type": "fill_blank",
+      "question": "She's making good _____ in learning Korean.",
+      "answer": "progress"
+    },
+    {
+      "id": "ex83",
+      "type": "matching",
+      "pairs": [
+        {"word": "milestone", "match": "important event"},
+        {"word": "journey", "match": "process of change"},
+        {"word": "potential", "match": "ability to develop"},
+        {"word": "determination", "match": "continuing despite difficulties"}
+      ]
+    },
+    {
+      "id": "ex84",
+      "type": "multiple_choice",
+      "question": "Living independently helped develop his _____.",
+      "options": ["maturity", "uncertainty", "setback", "regret"],
+      "answer": "maturity"
+    },
+    {
+      "id": "ex85",
+      "type": "translation_en_ko",
+      "question": "Marriage requires commitment from both partners.",
+      "answer": "결혼은 양쪽 파트너의 헌신이 필요해요."
+    },
+    {
+      "id": "ex86",
+      "type": "fill_blank",
+      "question": "That mistake taught me an important _____.",
+      "answer": "lesson"
+    },
+    {
+      "id": "ex87",
+      "type": "multiple_choice",
+      "question": "There's a lot of _____ about the future.",
+      "options": ["uncertainty", "achievement", "reward", "success"],
+      "answer": "uncertainty"
+    },
+    {
+      "id": "ex88",
+      "type": "translation_ko_en",
+      "question": "그녀의 성공 의욕은 아주 강해요.",
+      "answer": "Her motivation to succeed is very strong."
+    },
+    {
+      "id": "ex89",
+      "type": "fill_blank",
+      "question": "Her _____ helped her overcome many obstacles.",
+      "answer": "resilience"
+    },
+    {
+      "id": "ex90",
+      "type": "multiple_choice",
+      "question": "The scientist made a major _____ in research.",
+      "options": ["breakthrough", "setback", "mistake", "regret"],
+      "answer": "breakthrough"
+    },
+    {
+      "id": "ex91",
+      "type": "matching",
+      "pairs": [
+        {"word": "setback", "match": "problem that delays progress"},
+        {"word": "adjustment", "match": "small change to adapt"},
+        {"word": "ambition", "match": "strong desire to achieve"},
+        {"word": "transition", "match": "process of changing"}
+      ]
+    },
+    {
+      "id": "ex92",
+      "type": "translation_en_ko",
+      "question": "Helping others gives me a sense of fulfillment.",
+      "answer": "남을 돕는 것이 저에게 성취감을 줘요."
+    },
+    {
+      "id": "ex93",
+      "type": "fill_blank",
+      "question": "This job offers great opportunities for _____.",
+      "answer": "growth"
+    },
+    {
+      "id": "ex94",
+      "type": "multiple_choice",
+      "question": "Living abroad was an amazing _____.",
+      "options": ["experience", "setback", "mistake", "regret"],
+      "answer": "experience"
+    },
+    {
+      "id": "ex95",
+      "type": "translation_ko_en",
+      "question": "실패를 두려워하지 마세요.",
+      "answer": "Don't be afraid of failure."
+    },
+    {
+      "id": "ex96",
+      "type": "fill_blank",
+      "question": "It took time to _____ to the new job.",
+      "answer": "adapt"
+    },
+    {
+      "id": "ex97",
+      "type": "multiple_choice",
+      "question": "My English has _____ a lot this year.",
+      "options": ["improved", "regretted", "retired", "graduated"],
+      "answer": "improved"
+    },
+    {
+      "id": "ex98",
+      "type": "matching",
+      "pairs": [
+        {"word": "reward", "match": "something good you get"},
+        {"word": "sacrifice", "match": "giving up something"},
+        {"word": "achievement", "match": "something difficult you succeed in"},
+        {"word": "fulfillment", "match": "feeling of satisfaction"}
+      ]
+    },
+    {
+      "id": "ex99",
+      "type": "translation_en_ko",
+      "question": "She got a promotion after three years.",
+      "answer": "그녀는 3년 근무 후 승진했어요."
+    },
+    {
+      "id": "ex100",
+      "type": "fill_blank",
+      "question": "My father _____ at the age of 65.",
+      "answer": "retired"
+    },
+    {
+      "id": "ex101",
+      "type": "multiple_choice",
+      "question": "I _____ from university two years ago.",
+      "options": ["graduated", "retired", "regretted", "struggled"],
+      "answer": "graduated"
+    },
+    {
+      "id": "ex102",
+      "type": "translation_ko_en",
+      "question": "올해 무엇을 이루고 싶으세요?",
+      "answer": "What do you want to accomplish this year?"
+    },
+    {
+      "id": "ex103",
+      "type": "fill_blank",
+      "question": "I _____ to find a job after graduation.",
+      "answer": "struggled"
+    },
+    {
+      "id": "ex104",
+      "type": "multiple_choice",
+      "question": "Living alone made me more _____.",
+      "options": ["independent", "memorable", "valuable", "confident"],
+      "answer": "independent"
+    },
+    {
+      "id": "ex105",
+      "type": "matching",
+      "pairs": [
+        {"word": "dedication", "match": "spending time and energy"},
+        {"word": "impact", "match": "effect on something"},
+        {"word": "progress", "match": "movement toward a goal"},
+        {"word": "maturity", "match": "quality of behaving sensibly"}
+      ]
+    },
+    {
+      "id": "ex106",
+      "type": "translation_en_ko",
+      "question": "Parenthood comes with many responsibilities.",
+      "answer": "부모가 되면 많은 책임이 따라요."
+    },
+    {
+      "id": "ex107",
+      "type": "fill_blank",
+      "question": "Starting a business involves some _____.",
+      "answer": "risk"
+    },
+    {
+      "id": "ex108",
+      "type": "multiple_choice",
+      "question": "This was a _____ learning experience.",
+      "options": ["valuable", "independent", "confident", "memorable"],
+      "answer": "valuable"
+    },
+    {
+      "id": "ex109",
+      "type": "translation_ko_en",
+      "question": "누구나 실수해요 - 그렇게 배우는 거예요.",
+      "answer": "Everyone makes mistakes - that's how we learn."
+    },
+    {
+      "id": "ex110",
+      "type": "fill_blank",
+      "question": "It takes a lot of _____ to learn a language.",
+      "answer": "effort"
+    },
+    {
+      "id": "ex111",
+      "type": "multiple_choice",
+      "question": "Travel has _____ my view of the world.",
+      "options": ["transformed", "graduated", "retired", "regretted"],
+      "answer": "transformed"
+    },
+    {
+      "id": "ex112",
+      "type": "matching",
+      "pairs": [
+        {"word": "commitment", "match": "promise to do something"},
+        {"word": "lesson", "match": "something learned from experience"},
+        {"word": "uncertainty", "match": "not being sure"},
+        {"word": "motivation", "match": "reason for doing something"}
+      ]
+    },
+    {
+      "id": "ex113",
+      "type": "translation_en_ko",
+      "question": "She decided to pursue her dream.",
+      "answer": "그녀는 꿈을 추구하기로 했어요."
+    },
+    {
+      "id": "ex114",
+      "type": "fill_blank",
+      "question": "Our trip to Japan was truly _____.",
+      "answer": "memorable"
+    },
+    {
+      "id": "ex115",
+      "type": "multiple_choice",
+      "question": "She became more _____ after the training.",
+      "options": ["confident", "independent", "valuable", "memorable"],
+      "answer": "confident"
+    },
+    {
+      "id": "ex116",
+      "type": "translation_ko_en",
+      "question": "열심히 일하는 것이 성공의 열쇠예요.",
+      "answer": "Hard work is the key to success."
+    },
+    {
+      "id": "ex117",
+      "type": "fill_blank",
+      "question": "Moving to a new city was a difficult _____.",
+      "answer": "decision"
+    },
+    {
+      "id": "ex118",
+      "type": "multiple_choice",
+      "question": "He _____ his fear of public speaking.",
+      "options": ["overcame", "regretted", "graduated", "retired"],
+      "answer": "overcame"
+    },
+    {
+      "id": "ex119",
+      "type": "matching",
+      "pairs": [
+        {"word": "resilience", "match": "ability to recover quickly"},
+        {"word": "breakthrough", "match": "important discovery"},
+        {"word": "memorable", "match": "worth remembering"},
+        {"word": "valuable", "match": "very useful"}
+      ]
+    },
+    {
+      "id": "ex120",
+      "type": "translation_en_ko",
+      "question": "Learning a new language is a big challenge.",
+      "answer": "새 언어를 배우는 것은 큰 도전이에요."
+    },
+    {
+      "id": "ex121",
+      "type": "fill_blank",
+      "question": "She _____ her goal of running a marathon.",
+      "answer": "achieved"
+    },
+    {
+      "id": "ex122",
+      "type": "multiple_choice",
+      "question": "I _____ not studying harder in school.",
+      "options": ["regret", "achieve", "pursue", "transform"],
+      "answer": "regret"
+    },
+    {
+      "id": "ex123",
+      "type": "translation_ko_en",
+      "question": "올해 제 영어가 많이 향상됐어요.",
+      "answer": "My English has improved a lot this year."
+    },
+    {
+      "id": "ex124",
+      "type": "fill_blank",
+      "question": "Getting your driver's license is an important _____.",
+      "answer": "milestone"
+    },
+    {
+      "id": "ex125",
+      "type": "multiple_choice",
+      "question": "The _____ from school to work can be difficult.",
+      "options": ["transition", "milestone", "journey", "reward"],
+      "answer": "transition"
+    },
+    {
+      "id": "ex126",
+      "type": "matching",
+      "pairs": [
+        {"word": "accomplish", "match": "succeed in completing"},
+        {"word": "struggle", "match": "try hard to do something difficult"},
+        {"word": "adapt", "match": "change to fit new conditions"},
+        {"word": "improve", "match": "become better"}
+      ]
+    },
+    {
+      "id": "ex127",
+      "type": "translation_en_ko",
+      "question": "Life is a journey, not a destination.",
+      "answer": "인생은 목적지가 아니라 여정이에요."
+    },
+    {
+      "id": "ex128",
+      "type": "fill_blank",
+      "question": "She has great _____ to become a professional musician.",
+      "answer": "potential"
+    },
+    {
+      "id": "ex129",
+      "type": "multiple_choice",
+      "question": "His _____ helped him never give up.",
+      "options": ["determination", "uncertainty", "setback", "regret"],
+      "answer": "determination"
+    },
+    {
+      "id": "ex130",
+      "type": "translation_ko_en",
+      "question": "부상은 그의 경력에 큰 차질이었어요.",
+      "answer": "The injury was a major setback in his career."
+    },
+    {
+      "id": "ex131",
+      "type": "fill_blank",
+      "question": "Moving abroad requires a big _____.",
+      "answer": "adjustment"
+    },
+    {
+      "id": "ex132",
+      "type": "multiple_choice",
+      "question": "Her _____ is to open her own restaurant.",
+      "options": ["ambition", "setback", "mistake", "regret"],
+      "answer": "ambition"
+    },
+    {
+      "id": "ex133",
+      "type": "matching",
+      "pairs": [
+        {"word": "transform", "match": "change completely"},
+        {"word": "pursue", "match": "try to achieve over time"},
+        {"word": "overcome", "match": "succeed in dealing with"},
+        {"word": "achieve", "match": "succeed after effort"}
+      ]
+    },
+    {
+      "id": "ex134",
+      "type": "translation_en_ko",
+      "question": "Hard work brings its own rewards.",
+      "answer": "열심히 일하면 그에 따른 보상이 있어요."
+    },
+    {
+      "id": "ex135",
+      "type": "fill_blank",
+      "question": "Success often requires _____.",
+      "answer": "sacrifice"
+    },
+    {
+      "id": "ex136",
+      "type": "multiple_choice",
+      "question": "Graduating from university was a great _____.",
+      "options": ["achievement", "setback", "mistake", "regret"],
+      "answer": "achievement"
+    },
+    {
+      "id": "ex137",
+      "type": "translation_ko_en",
+      "question": "여행은 인생에 대한 새로운 시각을 줘요.",
+      "answer": "Travel gives you a new perspective on life."
+    },
+    {
+      "id": "ex138",
+      "type": "fill_blank",
+      "question": "Personal _____ is more important than money.",
+      "answer": "growth"
+    },
+    {
+      "id": "ex139",
+      "type": "multiple_choice",
+      "question": "Her _____ to her students is remarkable.",
+      "options": ["dedication", "uncertainty", "setback", "mistake"],
+      "answer": "dedication"
+    },
+    {
+      "id": "ex140",
+      "type": "translation_en_ko",
+      "question": "The teacher had a positive impact on my life.",
+      "answer": "그 선생님은 제 인생에 긍정적인 영향을 미쳤어요."
+    },
+    {
+      "id": "ex141",
+      "type": "fill_blank",
+      "question": "She's making good _____ in her studies.",
+      "answer": "progress"
+    },
+    {
+      "id": "ex142",
+      "type": "multiple_choice",
+      "question": "Living independently helped develop his _____.",
+      "options": ["maturity", "uncertainty", "setback", "regret"],
+      "answer": "maturity"
+    },
+    {
+      "id": "ex143",
+      "type": "matching",
+      "pairs": [
+        {"word": "opportunity", "match": "chance to do something"},
+        {"word": "challenge", "match": "something difficult"},
+        {"word": "decision", "match": "choice you make"},
+        {"word": "responsibility", "match": "duty to do something"}
+      ]
+    },
+    {
+      "id": "ex144",
+      "type": "translation_ko_en",
+      "question": "결혼은 양쪽 파트너의 헌신이 필요해요.",
+      "answer": "Marriage requires commitment from both partners."
+    },
+    {
+      "id": "ex145",
+      "type": "fill_blank",
+      "question": "That mistake taught me an important _____.",
+      "answer": "lesson"
+    },
+    {
+      "id": "ex146",
+      "type": "multiple_choice",
+      "question": "Her _____ to succeed is very strong.",
+      "options": ["motivation", "uncertainty", "setback", "regret"],
+      "answer": "motivation"
+    },
+    {
+      "id": "ex147",
+      "type": "translation_en_ko",
+      "question": "Her resilience helped her overcome obstacles.",
+      "answer": "그녀의 회복력이 장애물을 극복하는 데 도움이 됐어요."
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "question": "The scientist made a major _____ in cancer research.",
+      "answer": "breakthrough"
+    },
+    {
+      "id": "ex149",
+      "type": "multiple_choice",
+      "question": "Helping others gives me a sense of _____.",
+      "options": ["fulfillment", "setback", "uncertainty", "regret"],
+      "answer": "fulfillment"
+    },
+    {
+      "id": "ex150",
+      "type": "translation_ko_en",
+      "question": "새 도시로 이사하는 것은 어려운 결정이었어요.",
+      "answer": "Moving to a new city was a difficult decision."
     }
   ]
 }
