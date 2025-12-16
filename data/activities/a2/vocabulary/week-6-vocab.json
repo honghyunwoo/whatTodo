@@ -226,6 +226,566 @@
       "translation": "서리",
       "example": "There was frost on the car this morning.",
       "exampleMeaning": "오늘 아침 차에 서리가 내렸어요."
+    },
+    {
+      "id": "w23",
+      "word": "drought",
+      "pronunciation": "/draʊt/",
+      "partOfSpeech": "noun",
+      "meaning": "a long period with no rain",
+      "translation": "가뭄",
+      "example": "The drought lasted for three months.",
+      "exampleMeaning": "가뭄이 3개월 동안 지속되었어요.",
+      "koreanPronunciationTip": "'드라우트'로 발음하며, 'ou'는 '아우' 소리입니다",
+      "koreanCommonMistake": "'드로트'로 발음하지 않도록 주의하세요",
+      "mnemonic": "dry + out = drought (물이 말라서 가뭄)",
+      "wordFamily": ["dry (형용사)", "dryness (명사)"],
+      "collocations": ["severe drought", "long drought", "drought conditions"],
+      "synonyms": ["dry spell"],
+      "antonyms": ["flood"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w24",
+      "word": "flood",
+      "pronunciation": "/flʌd/",
+      "partOfSpeech": "noun",
+      "meaning": "when water covers an area that is usually dry",
+      "translation": "홍수",
+      "example": "Heavy rain caused a flood in the city.",
+      "exampleMeaning": "폭우로 도시에 홍수가 났어요.",
+      "koreanPronunciationTip": "'플러드'로 발음하며, 'oo'는 짧은 '어' 소리입니다",
+      "koreanCommonMistake": "'플루드'로 발음하지 않도록 주의하세요",
+      "mnemonic": "물이 넘쳐흐른다 (flow + flood)",
+      "wordFamily": ["flooding (명사)", "flooded (형용사)"],
+      "collocations": ["flash flood", "severe flood", "flood damage"],
+      "synonyms": ["deluge", "overflow"],
+      "antonyms": ["drought"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "w25",
+      "word": "humidity",
+      "pronunciation": "/hjuːˈmɪdəti/",
+      "partOfSpeech": "noun",
+      "meaning": "the amount of water in the air",
+      "translation": "습도",
+      "example": "The humidity is very high today.",
+      "exampleMeaning": "오늘 습도가 매우 높아요.",
+      "koreanPronunciationTip": "'휴미디티'로 발음하며, 첫 음절에 강세",
+      "koreanCommonMistake": "'후미디티'로 발음하지 않도록 주의하세요",
+      "mnemonic": "humid의 명사형",
+      "wordFamily": ["humid (형용사)", "humidify (동사)"],
+      "collocations": ["high humidity", "low humidity", "humidity level"],
+      "synonyms": ["moisture"],
+      "antonyms": ["dryness"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w26",
+      "word": "celsius",
+      "pronunciation": "/ˈselsiəs/",
+      "partOfSpeech": "noun",
+      "meaning": "a temperature scale (0° = freezing, 100° = boiling)",
+      "translation": "섭씨",
+      "example": "It's 20 degrees Celsius outside.",
+      "exampleMeaning": "밖이 섭씨 20도예요.",
+      "koreanPronunciationTip": "'셀시어스'로 발음합니다",
+      "koreanCommonMistake": "'켈시우스'로 발음하지 않도록 주의하세요",
+      "mnemonic": "발명가 Celsius의 이름에서 유래",
+      "wordFamily": ["centigrade (동의어)"],
+      "collocations": ["degrees Celsius", "Celsius scale"],
+      "synonyms": ["centigrade"],
+      "antonyms": ["Fahrenheit"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w27",
+      "word": "thermometer",
+      "pronunciation": "/θərˈmɑːmɪtər/",
+      "partOfSpeech": "noun",
+      "meaning": "a device that measures temperature",
+      "translation": "온도계",
+      "example": "The thermometer shows 25 degrees.",
+      "exampleMeaning": "온도계가 25도를 가리켜요.",
+      "koreanPronunciationTip": "'써마미터'로 발음하며, 'th'는 혀를 내밀어 발음",
+      "koreanCommonMistake": "'터모미터'로 발음하지 않도록 주의하세요",
+      "mnemonic": "thermo(열) + meter(측정기) = 온도계",
+      "wordFamily": ["thermal (형용사)", "temperature (명사)"],
+      "collocations": ["digital thermometer", "check the thermometer"],
+      "synonyms": ["temperature gauge"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w28",
+      "word": "sunscreen",
+      "pronunciation": "/ˈsʌnskriːn/",
+      "partOfSpeech": "noun",
+      "meaning": "cream that protects skin from the sun",
+      "translation": "자외선 차단제",
+      "example": "Always wear sunscreen in summer.",
+      "exampleMeaning": "여름에는 항상 자외선 차단제를 바르세요.",
+      "koreanPronunciationTip": "'선스크린'으로 발음합니다",
+      "koreanCommonMistake": "'썬스크린'으로 발음하지 않도록 주의하세요",
+      "mnemonic": "sun(태양) + screen(차단) = 햇빛 차단제",
+      "wordFamily": ["sunblock (명사)", "sunburn (명사)"],
+      "collocations": ["apply sunscreen", "wear sunscreen", "SPF sunscreen"],
+      "synonyms": ["sunblock", "sun cream"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "w29",
+      "word": "jacket",
+      "pronunciation": "/ˈdʒækɪt/",
+      "partOfSpeech": "noun",
+      "meaning": "a short coat",
+      "translation": "재킷, 점퍼",
+      "example": "I need a warm jacket for winter.",
+      "exampleMeaning": "겨울에 따뜻한 재킷이 필요해요.",
+      "koreanPronunciationTip": "'재킷'으로 발음하며, 첫 음절에 강세",
+      "koreanCommonMistake": "'자켓'으로 발음하지 않도록 주의하세요",
+      "mnemonic": "추운 날씨에 입는 짧은 외투",
+      "wordFamily": ["coat (명사)", "blazer (명사)"],
+      "collocations": ["winter jacket", "rain jacket", "leather jacket"],
+      "synonyms": ["coat"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w30",
+      "word": "boots",
+      "pronunciation": "/buːts/",
+      "partOfSpeech": "noun",
+      "meaning": "shoes that cover your feet and ankles or legs",
+      "translation": "부츠",
+      "example": "I wear boots when it snows.",
+      "exampleMeaning": "눈이 올 때 부츠를 신어요.",
+      "koreanPronunciationTip": "'부츠'로 발음하며, 'oo'는 긴 '우' 소리",
+      "koreanCommonMistake": "'붓츠'로 발음하지 않도록 주의하세요",
+      "mnemonic": "발목 위까지 오는 신발",
+      "wordFamily": ["boot (단수)", "footwear (명사)"],
+      "collocations": ["winter boots", "rain boots", "snow boots"],
+      "synonyms": [],
+      "antonyms": ["sandals"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w31",
+      "word": "raindrop",
+      "pronunciation": "/ˈreɪndrɑːp/",
+      "partOfSpeech": "noun",
+      "meaning": "a single drop of rain",
+      "translation": "빗방울",
+      "example": "I felt a raindrop on my face.",
+      "exampleMeaning": "얼굴에 빗방울이 느껴졌어요.",
+      "koreanPronunciationTip": "'레인드랍'으로 발음합니다",
+      "koreanCommonMistake": "'레인드롭'으로 발음하지 않도록 주의하세요",
+      "mnemonic": "rain(비) + drop(방울) = 빗방울",
+      "wordFamily": ["rain (명사)", "rainfall (명사)"],
+      "collocations": ["raindrops falling", "heavy raindrops"],
+      "synonyms": [],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "w32",
+      "word": "hail",
+      "pronunciation": "/heɪl/",
+      "partOfSpeech": "noun",
+      "meaning": "small balls of ice that fall like rain",
+      "translation": "우박",
+      "example": "Hail can damage cars and windows.",
+      "exampleMeaning": "우박은 차와 창문을 손상시킬 수 있어요.",
+      "koreanPronunciationTip": "'헤일'로 발음하며, 'ai'는 '에이' 소리",
+      "koreanCommonMistake": "'할'로 발음하지 않도록 주의하세요",
+      "mnemonic": "하늘에서 떨어지는 얼음 공",
+      "wordFamily": ["hailstone (명사)", "hailstorm (명사)"],
+      "collocations": ["hail storm", "large hail"],
+      "synonyms": [],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "w33",
+      "word": "tornado",
+      "pronunciation": "/tɔːrˈneɪdoʊ/",
+      "partOfSpeech": "noun",
+      "meaning": "a violent storm with strong spinning wind",
+      "translation": "토네이도, 회오리바람",
+      "example": "A tornado destroyed several houses.",
+      "exampleMeaning": "토네이도가 여러 집을 파괴했어요.",
+      "koreanPronunciationTip": "'토네이도'로 발음하며, 두 번째 음절에 강세",
+      "koreanCommonMistake": "'토르나도'로 발음하지 않도록 주의하세요",
+      "mnemonic": "회오리치며 돌아가는 폭풍",
+      "wordFamily": ["tornadic (형용사)"],
+      "collocations": ["tornado warning", "violent tornado"],
+      "synonyms": ["twister"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "w34",
+      "word": "hurricane",
+      "pronunciation": "/ˈhʌrɪkən/",
+      "partOfSpeech": "noun",
+      "meaning": "a violent tropical storm with very strong winds",
+      "translation": "허리케인",
+      "example": "The hurricane caused massive flooding.",
+      "exampleMeaning": "허리케인이 대규모 홍수를 일으켰어요.",
+      "koreanPronunciationTip": "'허리컨'으로 발음하며, 첫 음절에 강세",
+      "koreanCommonMistake": "'허리케인'으로 발음하지 않도록 주의하세요",
+      "mnemonic": "대서양에서 발생하는 강한 열대 폭풍",
+      "wordFamily": ["hurricanes (복수)"],
+      "collocations": ["hurricane season", "category 5 hurricane"],
+      "synonyms": ["typhoon", "cyclone"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w35",
+      "word": "typhoon",
+      "pronunciation": "/taɪˈfuːn/",
+      "partOfSpeech": "noun",
+      "meaning": "a tropical storm in the Pacific Ocean",
+      "translation": "태풍",
+      "example": "Typhoons are common in Korea during summer.",
+      "exampleMeaning": "태풍은 여름에 한국에서 흔해요.",
+      "koreanPronunciationTip": "'타이푼'으로 발음하며, 두 번째 음절에 강세",
+      "koreanCommonMistake": "'타이폰'으로 발음하지 않도록 주의하세요",
+      "mnemonic": "태평양에서 발생하는 강한 열대 폭풍",
+      "wordFamily": ["typhoons (복수)"],
+      "collocations": ["typhoon warning", "strong typhoon"],
+      "synonyms": ["hurricane", "cyclone"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "w36",
+      "word": "wind",
+      "pronunciation": "/wɪnd/",
+      "partOfSpeech": "noun",
+      "meaning": "moving air",
+      "translation": "바람",
+      "example": "The wind is very strong today.",
+      "exampleMeaning": "오늘 바람이 매우 세요.",
+      "koreanPronunciationTip": "'윈드'로 발음하며, 짧은 '이' 소리",
+      "koreanCommonMistake": "'와인드'로 발음하지 않도록 주의하세요",
+      "mnemonic": "공기가 움직이는 것",
+      "wordFamily": ["windy (형용사)", "windless (형용사)"],
+      "collocations": ["strong wind", "gentle wind", "wind speed"],
+      "synonyms": ["breeze (약한 바람)"],
+      "antonyms": ["calm"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w37",
+      "word": "windy",
+      "pronunciation": "/ˈwɪndi/",
+      "partOfSpeech": "adjective",
+      "meaning": "with a lot of wind",
+      "translation": "바람 부는",
+      "example": "It's very windy outside today.",
+      "exampleMeaning": "오늘 밖에 바람이 많이 불어요.",
+      "koreanPronunciationTip": "'윈디'로 발음하며, 첫 음절에 강세",
+      "koreanCommonMistake": "'와인디'로 발음하지 않도록 주의하세요",
+      "mnemonic": "wind의 형용사형",
+      "wordFamily": ["wind (명사)", "windiness (명사)"],
+      "collocations": ["windy day", "very windy", "windy weather"],
+      "synonyms": ["breezy"],
+      "antonyms": ["calm", "still"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w38",
+      "word": "cloudy",
+      "pronunciation": "/ˈklaʊdi/",
+      "partOfSpeech": "adjective",
+      "meaning": "with many clouds in the sky",
+      "translation": "흐린",
+      "example": "It's cloudy but not raining.",
+      "exampleMeaning": "흐리지만 비는 안 와요.",
+      "koreanPronunciationTip": "'클라우디'로 발음하며, 첫 음절에 강세",
+      "koreanCommonMistake": "'클로디'로 발음하지 않도록 주의하세요",
+      "mnemonic": "cloud의 형용사형",
+      "wordFamily": ["cloud (명사)", "cloudiness (명사)"],
+      "collocations": ["cloudy sky", "cloudy day", "partly cloudy"],
+      "synonyms": ["overcast"],
+      "antonyms": ["clear", "sunny"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w39",
+      "word": "overcast",
+      "pronunciation": "/ˈoʊvərkæst/",
+      "partOfSpeech": "adjective",
+      "meaning": "completely covered with clouds",
+      "translation": "하늘이 잔뜩 흐린",
+      "example": "The sky is overcast today.",
+      "exampleMeaning": "오늘 하늘이 잔뜩 흐려요.",
+      "koreanPronunciationTip": "'오버캐스트'로 발음하며, 첫 음절에 강세",
+      "koreanCommonMistake": "'오버카스트'로 발음하지 않도록 주의하세요",
+      "mnemonic": "over(위를 덮은) + cast(던지다) = 구름이 덮인",
+      "wordFamily": ["cloud (명사)", "cloudy (형용사)"],
+      "collocations": ["overcast sky", "overcast weather"],
+      "synonyms": ["cloudy", "grey"],
+      "antonyms": ["clear", "bright"],
+      "cefrLevel": "A2",
+      "frequency": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "w40",
+      "word": "drizzle",
+      "pronunciation": "/ˈdrɪzəl/",
+      "partOfSpeech": "noun",
+      "meaning": "very light rain",
+      "translation": "이슬비",
+      "example": "There's a light drizzle this morning.",
+      "exampleMeaning": "오늘 아침 가벼운 이슬비가 내려요.",
+      "koreanPronunciationTip": "'드리즐'로 발음하며, 첫 음절에 강세",
+      "koreanCommonMistake": "'드리즐레'로 발음하지 않도록 주의하세요",
+      "mnemonic": "아주 가벼운 비 (barely raining)",
+      "wordFamily": ["drizzling (형용사)"],
+      "collocations": ["light drizzle", "steady drizzle"],
+      "synonyms": ["light rain", "sprinkle"],
+      "antonyms": ["downpour", "heavy rain"],
+      "cefrLevel": "A2",
+      "frequency": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "w41",
+      "word": "downpour",
+      "pronunciation": "/ˈdaʊnpɔːr/",
+      "partOfSpeech": "noun",
+      "meaning": "a heavy fall of rain",
+      "translation": "폭우",
+      "example": "We got caught in a sudden downpour.",
+      "exampleMeaning": "갑작스러운 폭우를 만났어요.",
+      "koreanPronunciationTip": "'다운포어'로 발음합니다",
+      "koreanCommonMistake": "'다운푸르'로 발음하지 않도록 주의하세요",
+      "mnemonic": "down(아래로) + pour(쏟아지다) = 폭우",
+      "wordFamily": ["pour (동사)", "pouring (형용사)"],
+      "collocations": ["heavy downpour", "sudden downpour"],
+      "synonyms": ["heavy rain", "deluge"],
+      "antonyms": ["drizzle"],
+      "cefrLevel": "A2",
+      "frequency": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "w42",
+      "word": "sleet",
+      "pronunciation": "/sliːt/",
+      "partOfSpeech": "noun",
+      "meaning": "rain mixed with snow or ice",
+      "translation": "진눈깨비",
+      "example": "It's sleeting outside - very cold!",
+      "exampleMeaning": "밖에 진눈깨비가 내려요 - 정말 추워요!",
+      "koreanPronunciationTip": "'슬릿'으로 발음하며, 'ee'는 긴 '이' 소리",
+      "koreanCommonMistake": "'슬리트'로 발음하지 않도록 주의하세요",
+      "mnemonic": "눈과 비가 섞인 날씨",
+      "wordFamily": ["sleety (형용사)"],
+      "collocations": ["sleet and snow", "icy sleet"],
+      "synonyms": ["freezing rain"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "w43",
+      "word": "icy",
+      "pronunciation": "/ˈaɪsi/",
+      "partOfSpeech": "adjective",
+      "meaning": "covered with ice, very cold",
+      "translation": "얼음의, 얼어붙은",
+      "example": "Be careful - the roads are icy.",
+      "exampleMeaning": "조심하세요 - 도로가 얼어붙었어요.",
+      "koreanPronunciationTip": "'아이시'로 발음하며, 첫 음절에 강세",
+      "koreanCommonMistake": "'이시'로 발음하지 않도록 주의하세요",
+      "mnemonic": "ice의 형용사형",
+      "wordFamily": ["ice (명사)", "iciness (명사)"],
+      "collocations": ["icy roads", "icy conditions", "icy wind"],
+      "synonyms": ["frozen"],
+      "antonyms": ["warm"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "w44",
+      "word": "melting",
+      "pronunciation": "/ˈmeltɪŋ/",
+      "partOfSpeech": "adjective",
+      "meaning": "changing from solid to liquid",
+      "translation": "녹는",
+      "example": "The snow is melting quickly.",
+      "exampleMeaning": "눈이 빨리 녹고 있어요.",
+      "koreanPronunciationTip": "'멜팅'으로 발음하며, 첫 음절에 강세",
+      "koreanCommonMistake": "'멀팅'으로 발음하지 않도록 주의하세요",
+      "mnemonic": "melt의 현재진행형",
+      "wordFamily": ["melt (동사)", "melted (과거형)"],
+      "collocations": ["melting snow", "melting ice"],
+      "synonyms": ["thawing"],
+      "antonyms": ["freezing"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "w45",
+      "word": "scorching",
+      "pronunciation": "/ˈskɔːrtʃɪŋ/",
+      "partOfSpeech": "adjective",
+      "meaning": "extremely hot",
+      "translation": "몹시 뜨거운, 타는 듯한",
+      "example": "It's scorching hot today!",
+      "exampleMeaning": "오늘 정말 뜨거워요!",
+      "koreanPronunciationTip": "'스코칭'으로 발음하며, 첫 음절에 강세",
+      "koreanCommonMistake": "'스코르칭'으로 발음하지 않도록 주의하세요",
+      "mnemonic": "scorch(태우다)의 형용사형 - 태울 듯 뜨거운",
+      "wordFamily": ["scorch (동사)", "scorched (형용사)"],
+      "collocations": ["scorching heat", "scorching hot", "scorching sun"],
+      "synonyms": ["burning", "boiling"],
+      "antonyms": ["freezing", "cold"],
+      "cefrLevel": "A2",
+      "frequency": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "w46",
+      "word": "sweltering",
+      "pronunciation": "/ˈsweltərɪŋ/",
+      "partOfSpeech": "adjective",
+      "meaning": "uncomfortably hot and humid",
+      "translation": "무더운",
+      "example": "The summer heat is sweltering.",
+      "exampleMeaning": "여름 날씨가 무더워요.",
+      "koreanPronunciationTip": "'스웰터링'으로 발음하며, 첫 음절에 강세",
+      "koreanCommonMistake": "'스월터링'으로 발음하지 않도록 주의하세요",
+      "mnemonic": "더워서 땀이 나는 날씨",
+      "wordFamily": ["swelter (동사)"],
+      "collocations": ["sweltering heat", "sweltering day"],
+      "synonyms": ["scorching", "boiling"],
+      "antonyms": ["cool", "refreshing"],
+      "cefrLevel": "A2",
+      "frequency": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "w47",
+      "word": "cool",
+      "pronunciation": "/kuːl/",
+      "partOfSpeech": "adjective",
+      "meaning": "slightly cold, pleasantly cold",
+      "translation": "시원한",
+      "example": "It's nice and cool in the shade.",
+      "exampleMeaning": "그늘에서 시원하고 좋아요.",
+      "koreanPronunciationTip": "'쿨'로 발음하며, 'oo'는 긴 '우' 소리",
+      "koreanCommonMistake": "'쿨레'로 발음하지 않도록 주의하세요",
+      "mnemonic": "따뜻하지도 차갑지도 않은 적당한 온도",
+      "wordFamily": ["cooler (명사)", "coolness (명사)"],
+      "collocations": ["cool breeze", "cool weather", "nice and cool"],
+      "synonyms": ["refreshing"],
+      "antonyms": ["warm", "hot"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w48",
+      "word": "warm",
+      "pronunciation": "/wɔːrm/",
+      "partOfSpeech": "adjective",
+      "meaning": "having a pleasant amount of heat",
+      "translation": "따뜻한",
+      "example": "Spring days are warm and pleasant.",
+      "exampleMeaning": "봄 날씨는 따뜻하고 쾌적해요.",
+      "koreanPronunciationTip": "'워름'으로 발음하며, 'ar'는 '어' 소리",
+      "koreanCommonMistake": "'와름'으로 발음하지 않도록 주의하세요",
+      "mnemonic": "차갑지 않고 기분 좋은 온도",
+      "wordFamily": ["warmth (명사)", "warmly (부사)"],
+      "collocations": ["warm weather", "warm sunshine", "warm day"],
+      "synonyms": ["mild"],
+      "antonyms": ["cold", "cool"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w49",
+      "word": "gloomy",
+      "pronunciation": "/ˈɡluːmi/",
+      "partOfSpeech": "adjective",
+      "meaning": "dark and depressing weather",
+      "translation": "음울한, 어두운",
+      "example": "It's a gloomy, rainy day today.",
+      "exampleMeaning": "오늘은 우울하고 비 오는 날이에요.",
+      "koreanPronunciationTip": "'글루미'로 발음하며, 첫 음절에 강세",
+      "koreanCommonMistake": "'글로미'로 발음하지 않도록 주의하세요",
+      "mnemonic": "어둡고 우울한 날씨 (gloom = 어둠)",
+      "wordFamily": ["gloom (명사)", "gloominess (명사)"],
+      "collocations": ["gloomy weather", "gloomy day", "gloomy sky"],
+      "synonyms": ["dark", "dismal"],
+      "antonyms": ["bright", "cheerful"],
+      "cefrLevel": "A2",
+      "frequency": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "w50",
+      "word": "pleasant",
+      "pronunciation": "/ˈplezənt/",
+      "partOfSpeech": "adjective",
+      "meaning": "enjoyable, nice (especially weather)",
+      "translation": "쾌적한, 기분 좋은",
+      "example": "The weather is very pleasant today.",
+      "exampleMeaning": "오늘 날씨가 아주 쾌적해요.",
+      "koreanPronunciationTip": "'플레전트'로 발음하며, 첫 음절에 강세",
+      "koreanCommonMistake": "'플리전트'로 발음하지 않도록 주의하세요",
+      "mnemonic": "please(기쁘게 하다)와 관련 - 기분 좋은",
+      "wordFamily": ["please (동사)", "pleasure (명사)", "pleasantly (부사)"],
+      "collocations": ["pleasant weather", "pleasant day", "pleasant temperature"],
+      "synonyms": ["nice", "enjoyable"],
+      "antonyms": ["unpleasant", "nasty"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
     }
   ],
 
@@ -334,6 +894,946 @@
       "type": "fill_blank",
       "question": "Summer in Korea is hot and _____.",
       "answer": "humid"
+    },
+    {
+      "id": "ex16",
+      "type": "translation_ko_en",
+      "question": "가뭄이 3개월 동안 계속되었어요.",
+      "answer": "The drought lasted for three months."
+    },
+    {
+      "id": "ex17",
+      "type": "translation_en_ko",
+      "question": "Heavy rain caused a flood in the city.",
+      "answer": "폭우로 도시에 홍수가 났어요."
+    },
+    {
+      "id": "ex18",
+      "type": "true_false",
+      "question": "Humidity means the amount of water in the air.",
+      "answer": true
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "What does 'celsius' refer to?",
+      "options": ["a type of wind", "a temperature scale", "a weather tool", "a season"],
+      "answer": "a temperature scale"
+    },
+    {
+      "id": "ex20",
+      "type": "fill_blank",
+      "question": "A _____ measures temperature.",
+      "answer": "thermometer"
+    },
+    {
+      "id": "ex21",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "apply", "collocation": "sunscreen"},
+        {"word": "check", "collocation": "thermometer"},
+        {"word": "severe", "collocation": "drought"},
+        {"word": "heavy", "collocation": "downpour"}
+      ]
+    },
+    {
+      "id": "ex22",
+      "type": "error_correction",
+      "question": "I need a warm jacket on winter.",
+      "answer": "I need a warm jacket in winter."
+    },
+    {
+      "id": "ex23",
+      "type": "sentence_ordering",
+      "words": ["wear", "boots", "I", "when", "it", "snows"],
+      "answer": "I wear boots when it snows."
+    },
+    {
+      "id": "ex24",
+      "type": "pronunciation_compare",
+      "pairs": [
+        {"word": "wind", "pronunciation": "/wɪnd/"},
+        {"word": "windy", "pronunciation": "/ˈwɪndi/"}
+      ]
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "What is a 'raindrop'?",
+      "options": ["a single drop of rain", "heavy rain", "light rain", "frozen rain"],
+      "answer": "a single drop of rain"
+    },
+    {
+      "id": "ex26",
+      "type": "translation_ko_en",
+      "question": "우박은 차와 창문을 손상시킬 수 있어요.",
+      "answer": "Hail can damage cars and windows."
+    },
+    {
+      "id": "ex27",
+      "type": "true_false",
+      "question": "A tornado is a gentle wind.",
+      "answer": false
+    },
+    {
+      "id": "ex28",
+      "type": "fill_blank",
+      "question": "A _____ is a violent tropical storm with very strong winds.",
+      "answer": "hurricane"
+    },
+    {
+      "id": "ex29",
+      "type": "translation_en_ko",
+      "question": "Typhoons are common in Korea during summer.",
+      "answer": "태풍은 여름에 한국에서 흔해요."
+    },
+    {
+      "id": "ex30",
+      "type": "matching",
+      "pairs": [
+        {"word": "tornado", "meaning": "violent spinning wind storm"},
+        {"word": "hurricane", "meaning": "tropical storm in Atlantic"},
+        {"word": "typhoon", "meaning": "tropical storm in Pacific"},
+        {"word": "hail", "meaning": "ice balls falling from sky"}
+      ]
+    },
+    {
+      "id": "ex31",
+      "type": "multiple_choice",
+      "question": "What does 'windy' mean?",
+      "options": ["with a lot of rain", "with a lot of wind", "with a lot of snow", "with a lot of clouds"],
+      "answer": "with a lot of wind"
+    },
+    {
+      "id": "ex32",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "strong", "collocation": "wind"},
+        {"word": "cloudy", "collocation": "sky"},
+        {"word": "icy", "collocation": "roads"},
+        {"word": "light", "collocation": "drizzle"}
+      ]
+    },
+    {
+      "id": "ex33",
+      "type": "error_correction",
+      "question": "The sky is very cloudy yesterday.",
+      "answer": "The sky was very cloudy yesterday."
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "The sky is _____ - completely covered with clouds.",
+      "answer": "overcast"
+    },
+    {
+      "id": "ex35",
+      "type": "translation_ko_en",
+      "question": "오늘 아침 가벼운 이슬비가 내려요.",
+      "answer": "There's a light drizzle this morning."
+    },
+    {
+      "id": "ex36",
+      "type": "true_false",
+      "question": "A downpour is very light rain.",
+      "answer": false
+    },
+    {
+      "id": "ex37",
+      "type": "sentence_ordering",
+      "words": ["sleet", "is", "rain", "mixed", "with", "snow"],
+      "answer": "Sleet is rain mixed with snow."
+    },
+    {
+      "id": "ex38",
+      "type": "multiple_choice",
+      "question": "What does 'icy' mean?",
+      "options": ["very hot", "covered with ice", "very wet", "very dry"],
+      "answer": "covered with ice"
+    },
+    {
+      "id": "ex39",
+      "type": "translation_en_ko",
+      "question": "The snow is melting quickly.",
+      "answer": "눈이 빨리 녹고 있어요."
+    },
+    {
+      "id": "ex40",
+      "type": "pronunciation_compare",
+      "pairs": [
+        {"word": "cool", "pronunciation": "/kuːl/"},
+        {"word": "warm", "pronunciation": "/wɔːrm/"}
+      ]
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "It's _____ hot today! (extremely hot)",
+      "answer": "scorching"
+    },
+    {
+      "id": "ex42",
+      "type": "matching",
+      "pairs": [
+        {"word": "scorching", "meaning": "extremely hot"},
+        {"word": "sweltering", "meaning": "uncomfortably hot and humid"},
+        {"word": "cool", "meaning": "pleasantly cold"},
+        {"word": "gloomy", "meaning": "dark and depressing"}
+      ]
+    },
+    {
+      "id": "ex43",
+      "type": "true_false",
+      "question": "Pleasant weather means enjoyable weather.",
+      "answer": true
+    },
+    {
+      "id": "ex44",
+      "type": "error_correction",
+      "question": "The weather is very pleasant yesterday.",
+      "answer": "The weather was very pleasant yesterday."
+    },
+    {
+      "id": "ex45",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "scorching", "collocation": "heat"},
+        {"word": "pleasant", "collocation": "weather"},
+        {"word": "melting", "collocation": "snow"},
+        {"word": "winter", "collocation": "boots"}
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'drought'?",
+      "options": ["sunshine", "flood", "wind", "breeze"],
+      "answer": "flood"
+    },
+    {
+      "id": "ex47",
+      "type": "translation_ko_en",
+      "question": "오늘 습도가 매우 높아요.",
+      "answer": "The humidity is very high today."
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "It's 20 degrees _____ outside.",
+      "answer": "Celsius"
+    },
+    {
+      "id": "ex49",
+      "type": "sentence_ordering",
+      "words": ["always", "wear", "sunscreen", "in", "summer"],
+      "answer": "Always wear sunscreen in summer."
+    },
+    {
+      "id": "ex50",
+      "type": "true_false",
+      "question": "A jacket is a type of shoe.",
+      "answer": false
+    },
+    {
+      "id": "ex51",
+      "type": "translation_en_ko",
+      "question": "I felt a raindrop on my face.",
+      "answer": "얼굴에 빗방울이 느껴졌어요."
+    },
+    {
+      "id": "ex52",
+      "type": "multiple_choice",
+      "question": "Which word describes ice balls falling from the sky?",
+      "options": ["sleet", "hail", "snow", "frost"],
+      "answer": "hail"
+    },
+    {
+      "id": "ex53",
+      "type": "error_correction",
+      "question": "A tornado destroy several houses.",
+      "answer": "A tornado destroyed several houses."
+    },
+    {
+      "id": "ex54",
+      "type": "pronunciation_compare",
+      "pairs": [
+        {"word": "drought", "pronunciation": "/draʊt/"},
+        {"word": "flood", "pronunciation": "/flʌd/"}
+      ]
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "The _____ caused massive flooding.",
+      "answer": "hurricane"
+    },
+    {
+      "id": "ex56",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "high", "collocation": "humidity"},
+        {"word": "rain", "collocation": "jacket"},
+        {"word": "snow", "collocation": "boots"},
+        {"word": "flash", "collocation": "flood"}
+      ]
+    },
+    {
+      "id": "ex57",
+      "type": "translation_ko_en",
+      "question": "오늘 바람이 매우 세요.",
+      "answer": "The wind is very strong today."
+    },
+    {
+      "id": "ex58",
+      "type": "true_false",
+      "question": "Cloudy means with many clouds in the sky.",
+      "answer": true
+    },
+    {
+      "id": "ex59",
+      "type": "matching",
+      "pairs": [
+        {"word": "windy", "meaning": "with a lot of wind"},
+        {"word": "cloudy", "meaning": "with many clouds"},
+        {"word": "foggy", "meaning": "with fog, hard to see"},
+        {"word": "icy", "meaning": "covered with ice"}
+      ]
+    },
+    {
+      "id": "ex60",
+      "type": "sentence_ordering",
+      "words": ["the", "sky", "is", "overcast", "today"],
+      "answer": "The sky is overcast today."
+    },
+    {
+      "id": "ex61",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'drizzle'?",
+      "options": ["sunshine", "breeze", "downpour", "frost"],
+      "answer": "downpour"
+    },
+    {
+      "id": "ex62",
+      "type": "error_correction",
+      "question": "We got caught in a sudden downpours.",
+      "answer": "We got caught in a sudden downpour."
+    },
+    {
+      "id": "ex63",
+      "type": "fill_blank",
+      "question": "Be careful - the roads are _____. (covered with ice)",
+      "answer": "icy"
+    },
+    {
+      "id": "ex64",
+      "type": "translation_en_ko",
+      "question": "It's scorching hot today!",
+      "answer": "오늘 정말 뜨거워요!"
+    },
+    {
+      "id": "ex65",
+      "type": "pronunciation_compare",
+      "pairs": [
+        {"word": "celsius", "pronunciation": "/ˈselsiəs/"},
+        {"word": "thermometer", "pronunciation": "/θərˈmɑːmɪtər/"}
+      ]
+    },
+    {
+      "id": "ex66",
+      "type": "true_false",
+      "question": "Sweltering means uncomfortably hot and humid.",
+      "answer": true
+    },
+    {
+      "id": "ex67",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "gentle", "collocation": "wind"},
+        {"word": "heavy", "collocation": "raindrops"},
+        {"word": "sudden", "collocation": "downpour"},
+        {"word": "gloomy", "collocation": "weather"}
+      ]
+    },
+    {
+      "id": "ex68",
+      "type": "multiple_choice",
+      "question": "Which word means 'slightly cold, pleasantly cold'?",
+      "options": ["freezing", "cool", "warm", "hot"],
+      "answer": "cool"
+    },
+    {
+      "id": "ex69",
+      "type": "translation_ko_en",
+      "question": "그늘에서 시원하고 좋아요.",
+      "answer": "It's nice and cool in the shade."
+    },
+    {
+      "id": "ex70",
+      "type": "sentence_ordering",
+      "words": ["spring", "days", "are", "warm", "and", "pleasant"],
+      "answer": "Spring days are warm and pleasant."
+    },
+    {
+      "id": "ex71",
+      "type": "error_correction",
+      "question": "It's a gloomy rainy day yesterday.",
+      "answer": "It was a gloomy rainy day yesterday."
+    },
+    {
+      "id": "ex72",
+      "type": "fill_blank",
+      "question": "The weather is very _____ today. (enjoyable)",
+      "answer": "pleasant"
+    },
+    {
+      "id": "ex73",
+      "type": "matching",
+      "pairs": [
+        {"word": "drizzle", "meaning": "very light rain"},
+        {"word": "downpour", "meaning": "heavy fall of rain"},
+        {"word": "sleet", "meaning": "rain mixed with snow"},
+        {"word": "shower", "meaning": "short period of rain"}
+      ]
+    },
+    {
+      "id": "ex74",
+      "type": "true_false",
+      "question": "A thermometer is used to measure wind speed.",
+      "answer": false
+    },
+    {
+      "id": "ex75",
+      "type": "multiple_choice",
+      "question": "What does 'overcast' mean?",
+      "options": ["sunny", "completely covered with clouds", "windy", "rainy"],
+      "answer": "completely covered with clouds"
+    },
+    {
+      "id": "ex76",
+      "type": "translation_en_ko",
+      "question": "The thermometer shows 25 degrees.",
+      "answer": "온도계가 25도를 가리켜요."
+    },
+    {
+      "id": "ex77",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "pleasant", "collocation": "temperature"},
+        {"word": "windy", "collocation": "day"},
+        {"word": "overcast", "collocation": "sky"},
+        {"word": "icy", "collocation": "wind"}
+      ]
+    },
+    {
+      "id": "ex78",
+      "type": "pronunciation_compare",
+      "pairs": [
+        {"word": "hurricane", "pronunciation": "/ˈhʌrɪkən/"},
+        {"word": "typhoon", "pronunciation": "/taɪˈfuːn/"}
+      ]
+    },
+    {
+      "id": "ex79",
+      "type": "fill_blank",
+      "question": "_____ are common in Korea during summer. (Pacific storms)",
+      "answer": "Typhoons"
+    },
+    {
+      "id": "ex80",
+      "type": "sentence_ordering",
+      "words": ["hail", "can", "damage", "cars", "and", "windows"],
+      "answer": "Hail can damage cars and windows."
+    },
+    {
+      "id": "ex81",
+      "type": "error_correction",
+      "question": "I need warm jacket for winter.",
+      "answer": "I need a warm jacket for winter."
+    },
+    {
+      "id": "ex82",
+      "type": "translation_ko_en",
+      "question": "밖에 진눈깨비가 내려요 - 정말 추워요!",
+      "answer": "It's sleeting outside - very cold!"
+    },
+    {
+      "id": "ex83",
+      "type": "true_false",
+      "question": "Melting means changing from solid to liquid.",
+      "answer": true
+    },
+    {
+      "id": "ex84",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'scorching'?",
+      "options": ["hot", "warm", "freezing", "mild"],
+      "answer": "freezing"
+    },
+    {
+      "id": "ex85",
+      "type": "matching",
+      "pairs": [
+        {"word": "pleasant", "meaning": "enjoyable, nice"},
+        {"word": "gloomy", "meaning": "dark and depressing"},
+        {"word": "mild", "meaning": "not too hot or cold"},
+        {"word": "chilly", "meaning": "unpleasantly cold"}
+      ]
+    },
+    {
+      "id": "ex86",
+      "type": "fill_blank",
+      "question": "The summer heat is _____. (uncomfortably hot)",
+      "answer": "sweltering"
+    },
+    {
+      "id": "ex87",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "sweltering", "collocation": "heat"},
+        {"word": "cool", "collocation": "breeze"},
+        {"word": "warm", "collocation": "sunshine"},
+        {"word": "gloomy", "collocation": "day"}
+      ]
+    },
+    {
+      "id": "ex88",
+      "type": "translation_en_ko",
+      "question": "Always wear sunscreen in summer.",
+      "answer": "여름에는 항상 자외선 차단제를 바르세요."
+    },
+    {
+      "id": "ex89",
+      "type": "sentence_ordering",
+      "words": ["the", "drought", "lasted", "for", "three", "months"],
+      "answer": "The drought lasted for three months."
+    },
+    {
+      "id": "ex90",
+      "type": "pronunciation_compare",
+      "pairs": [
+        {"word": "drizzle", "pronunciation": "/ˈdrɪzəl/"},
+        {"word": "downpour", "pronunciation": "/ˈdaʊnpɔːr/"}
+      ]
+    },
+    {
+      "id": "ex91",
+      "type": "error_correction",
+      "question": "The humidity are very high today.",
+      "answer": "The humidity is very high today."
+    },
+    {
+      "id": "ex92",
+      "type": "true_false",
+      "question": "Boots are a type of jacket.",
+      "answer": false
+    },
+    {
+      "id": "ex93",
+      "type": "multiple_choice",
+      "question": "What does 'raindrop' mean?",
+      "options": ["heavy rain", "a single drop of rain", "light rain", "no rain"],
+      "answer": "a single drop of rain"
+    },
+    {
+      "id": "ex94",
+      "type": "translation_ko_en",
+      "question": "토네이도가 여러 집을 파괴했어요.",
+      "answer": "A tornado destroyed several houses."
+    },
+    {
+      "id": "ex95",
+      "type": "fill_blank",
+      "question": "It's 20 degrees _____ outside. (temperature scale)",
+      "answer": "Celsius"
+    },
+    {
+      "id": "ex96",
+      "type": "matching",
+      "pairs": [
+        {"word": "sunscreen", "meaning": "protects skin from sun"},
+        {"word": "jacket", "meaning": "short coat"},
+        {"word": "boots", "meaning": "shoes covering ankles"},
+        {"word": "umbrella", "meaning": "protects from rain"}
+      ]
+    },
+    {
+      "id": "ex97",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "digital", "collocation": "thermometer"},
+        {"word": "degrees", "collocation": "Celsius"},
+        {"word": "SPF", "collocation": "sunscreen"},
+        {"word": "leather", "collocation": "jacket"}
+      ]
+    },
+    {
+      "id": "ex98",
+      "type": "translation_en_ko",
+      "question": "I wear boots when it snows.",
+      "answer": "눈이 올 때 부츠를 신어요."
+    },
+    {
+      "id": "ex99",
+      "type": "sentence_ordering",
+      "words": ["there's", "a", "light", "drizzle", "this", "morning"],
+      "answer": "There's a light drizzle this morning."
+    },
+    {
+      "id": "ex100",
+      "type": "true_false",
+      "question": "Wind means moving air.",
+      "answer": true
+    },
+    {
+      "id": "ex101",
+      "type": "error_correction",
+      "question": "The wind are very strong today.",
+      "answer": "The wind is very strong today."
+    },
+    {
+      "id": "ex102",
+      "type": "pronunciation_compare",
+      "pairs": [
+        {"word": "tornado", "pronunciation": "/tɔːrˈneɪdoʊ/"},
+        {"word": "raindrop", "pronunciation": "/ˈreɪndrɑːp/"}
+      ]
+    },
+    {
+      "id": "ex103",
+      "type": "multiple_choice",
+      "question": "What is a long period with no rain called?",
+      "options": ["flood", "drought", "storm", "shower"],
+      "answer": "drought"
+    },
+    {
+      "id": "ex104",
+      "type": "fill_blank",
+      "question": "Heavy rain caused a _____ in the city.",
+      "answer": "flood"
+    },
+    {
+      "id": "ex105",
+      "type": "translation_ko_en",
+      "question": "허리케인이 대규모 홍수를 일으켰어요.",
+      "answer": "The hurricane caused massive flooding."
+    },
+    {
+      "id": "ex106",
+      "type": "matching",
+      "pairs": [
+        {"word": "cool", "meaning": "pleasantly cold"},
+        {"word": "warm", "meaning": "pleasant amount of heat"},
+        {"word": "hot", "meaning": "very warm"},
+        {"word": "cold", "meaning": "low temperature"}
+      ]
+    },
+    {
+      "id": "ex107",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "severe", "collocation": "drought"},
+        {"word": "flash", "collocation": "flood"},
+        {"word": "low", "collocation": "humidity"},
+        {"word": "Celsius", "collocation": "scale"}
+      ]
+    },
+    {
+      "id": "ex108",
+      "type": "true_false",
+      "question": "Cloudy and overcast mean similar things.",
+      "answer": true
+    },
+    {
+      "id": "ex109",
+      "type": "sentence_ordering",
+      "words": ["it's", "very", "windy", "outside", "today"],
+      "answer": "It's very windy outside today."
+    },
+    {
+      "id": "ex110",
+      "type": "error_correction",
+      "question": "We got caught in sudden downpour.",
+      "answer": "We got caught in a sudden downpour."
+    },
+    {
+      "id": "ex111",
+      "type": "translation_en_ko",
+      "question": "Be careful - the roads are icy.",
+      "answer": "조심하세요 - 도로가 얼어붙었어요."
+    },
+    {
+      "id": "ex112",
+      "type": "multiple_choice",
+      "question": "What does 'melting' mean?",
+      "options": ["freezing", "changing from solid to liquid", "very cold", "very hot"],
+      "answer": "changing from solid to liquid"
+    },
+    {
+      "id": "ex113",
+      "type": "fill_blank",
+      "question": "The summer heat is _____. (very hot and humid)",
+      "answer": "sweltering"
+    },
+    {
+      "id": "ex114",
+      "type": "pronunciation_compare",
+      "pairs": [
+        {"word": "scorching", "pronunciation": "/ˈskɔːrtʃɪŋ/"},
+        {"word": "sweltering", "pronunciation": "/ˈsweltərɪŋ/"}
+      ]
+    },
+    {
+      "id": "ex115",
+      "type": "translation_ko_en",
+      "question": "오늘은 우울하고 비 오는 날이에요.",
+      "answer": "It's a gloomy, rainy day today."
+    },
+    {
+      "id": "ex116",
+      "type": "true_false",
+      "question": "Pleasant means unenjoyable.",
+      "answer": false
+    },
+    {
+      "id": "ex117",
+      "type": "matching",
+      "pairs": [
+        {"word": "flood", "meaning": "water covering dry areas"},
+        {"word": "drought", "meaning": "long period with no rain"},
+        {"word": "heatwave", "meaning": "period of very hot weather"},
+        {"word": "storm", "meaning": "bad weather with strong wind"}
+      ]
+    },
+    {
+      "id": "ex118",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "category", "collocation": "5 hurricane"},
+        {"word": "typhoon", "collocation": "warning"},
+        {"word": "violent", "collocation": "tornado"},
+        {"word": "large", "collocation": "hail"}
+      ]
+    },
+    {
+      "id": "ex119",
+      "type": "sentence_ordering",
+      "words": ["the", "snow", "is", "melting", "quickly"],
+      "answer": "The snow is melting quickly."
+    },
+    {
+      "id": "ex120",
+      "type": "error_correction",
+      "question": "I felt raindrop on my face.",
+      "answer": "I felt a raindrop on my face."
+    },
+    {
+      "id": "ex121",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'warm'?",
+      "options": ["hot", "cool", "mild", "pleasant"],
+      "answer": "cool"
+    },
+    {
+      "id": "ex122",
+      "type": "fill_blank",
+      "question": "The sky is _____ today. (completely covered with clouds)",
+      "answer": "overcast"
+    },
+    {
+      "id": "ex123",
+      "type": "translation_en_ko",
+      "question": "The weather is very pleasant today.",
+      "answer": "오늘 날씨가 아주 쾌적해요."
+    },
+    {
+      "id": "ex124",
+      "type": "pronunciation_compare",
+      "pairs": [
+        {"word": "gloomy", "pronunciation": "/ˈɡluːmi/"},
+        {"word": "pleasant", "pronunciation": "/ˈplezənt/"}
+      ]
+    },
+    {
+      "id": "ex125",
+      "type": "true_false",
+      "question": "Hail is small balls of ice that fall like rain.",
+      "answer": true
+    },
+    {
+      "id": "ex126",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "strong", "collocation": "typhoon"},
+        {"word": "steady", "collocation": "drizzle"},
+        {"word": "nice", "collocation": "and cool"},
+        {"word": "partly", "collocation": "cloudy"}
+      ]
+    },
+    {
+      "id": "ex127",
+      "type": "translation_ko_en",
+      "question": "온도계가 25도를 가리켜요.",
+      "answer": "The thermometer shows 25 degrees."
+    },
+    {
+      "id": "ex128",
+      "type": "sentence_ordering",
+      "words": ["always", "wear", "sunscreen", "in", "summer"],
+      "answer": "Always wear sunscreen in summer."
+    },
+    {
+      "id": "ex129",
+      "type": "error_correction",
+      "question": "There was frost in the car this morning.",
+      "answer": "There was frost on the car this morning."
+    },
+    {
+      "id": "ex130",
+      "type": "multiple_choice",
+      "question": "Which word describes weather when you can't see far?",
+      "options": ["sunny", "foggy", "windy", "hot"],
+      "answer": "foggy"
+    },
+    {
+      "id": "ex131",
+      "type": "fill_blank",
+      "question": "A _____ is a violent storm with strong spinning wind.",
+      "answer": "tornado"
+    },
+    {
+      "id": "ex132",
+      "type": "matching",
+      "pairs": [
+        {"word": "icy", "meaning": "covered with ice"},
+        {"word": "melting", "meaning": "changing to liquid"},
+        {"word": "freezing", "meaning": "extremely cold"},
+        {"word": "frosty", "meaning": "covered with frost"}
+      ]
+    },
+    {
+      "id": "ex133",
+      "type": "translation_en_ko",
+      "question": "A tornado destroyed several houses.",
+      "answer": "토네이도가 여러 집을 파괴했어요."
+    },
+    {
+      "id": "ex134",
+      "type": "true_false",
+      "question": "Typhoons occur in the Atlantic Ocean.",
+      "answer": false
+    },
+    {
+      "id": "ex135",
+      "type": "pronunciation_compare",
+      "pairs": [
+        {"word": "sleet", "pronunciation": "/sliːt/"},
+        {"word": "icy", "pronunciation": "/ˈaɪsi/"}
+      ]
+    },
+    {
+      "id": "ex136",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "wind", "collocation": "speed"},
+        {"word": "humidity", "collocation": "level"},
+        {"word": "temperature", "collocation": "gauge"},
+        {"word": "weather", "collocation": "conditions"}
+      ]
+    },
+    {
+      "id": "ex137",
+      "type": "sentence_ordering",
+      "words": ["hail", "can", "damage", "cars", "and", "windows"],
+      "answer": "Hail can damage cars and windows."
+    },
+    {
+      "id": "ex138",
+      "type": "error_correction",
+      "question": "Spring days is warm and pleasant.",
+      "answer": "Spring days are warm and pleasant."
+    },
+    {
+      "id": "ex139",
+      "type": "translation_ko_en",
+      "question": "밖이 섭씨 20도예요.",
+      "answer": "It's 20 degrees Celsius outside."
+    },
+    {
+      "id": "ex140",
+      "type": "multiple_choice",
+      "question": "What does 'gloomy' weather mean?",
+      "options": ["bright and sunny", "dark and depressing", "very hot", "very cold"],
+      "answer": "dark and depressing"
+    },
+    {
+      "id": "ex141",
+      "type": "fill_blank",
+      "question": "_____ protects your skin from the sun.",
+      "answer": "Sunscreen"
+    },
+    {
+      "id": "ex142",
+      "type": "true_false",
+      "question": "A jacket is a short coat.",
+      "answer": true
+    },
+    {
+      "id": "ex143",
+      "type": "matching",
+      "pairs": [
+        {"word": "forecast", "meaning": "prediction about weather"},
+        {"word": "climate", "meaning": "typical weather over time"},
+        {"word": "temperature", "meaning": "how hot or cold"},
+        {"word": "humidity", "meaning": "water in the air"}
+      ]
+    },
+    {
+      "id": "ex144",
+      "type": "translation_en_ko",
+      "question": "The humidity is very high today.",
+      "answer": "오늘 습도가 매우 높아요."
+    },
+    {
+      "id": "ex145",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "tornado", "collocation": "warning"},
+        {"word": "hurricane", "collocation": "season"},
+        {"word": "hail", "collocation": "storm"},
+        {"word": "rain", "collocation": "boots"}
+      ]
+    },
+    {
+      "id": "ex146",
+      "type": "sentence_ordering",
+      "words": ["it's", "cloudy", "but", "not", "raining"],
+      "answer": "It's cloudy but not raining."
+    },
+    {
+      "id": "ex147",
+      "type": "pronunciation_compare",
+      "pairs": [
+        {"word": "overcast", "pronunciation": "/ˈoʊvərkæst/"},
+        {"word": "cloudy", "pronunciation": "/ˈklaʊdi/"}
+      ]
+    },
+    {
+      "id": "ex148",
+      "type": "error_correction",
+      "question": "The forecast says it will rains tomorrow.",
+      "answer": "The forecast says it will rain tomorrow."
+    },
+    {
+      "id": "ex149",
+      "type": "translation_ko_en",
+      "question": "눈이 올 때 부츠를 신어요.",
+      "answer": "I wear boots when it snows."
+    },
+    {
+      "id": "ex150",
+      "type": "fill_blank",
+      "question": "The _____ lasted for three months. (no rain period)",
+      "answer": "drought"
     }
   ]
 }
