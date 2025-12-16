@@ -39,21 +39,21 @@ export function FlashCard({ word, onKnown, onUnknown, showActions = true }: Flas
       damping: 15,
       stiffness: 100,
     });
-  }, [isFlipped]);
+  }, [isFlipped, flipProgress]);
 
   const handleKnown = useCallback(async () => {
     await learnHaptics.correct();
     setIsFlipped(false);
     flipProgress.value = withSpring(0);
     onKnown?.();
-  }, [onKnown]);
+  }, [onKnown, flipProgress]);
 
   const handleUnknown = useCallback(async () => {
     await learnHaptics.wrong();
     setIsFlipped(false);
     flipProgress.value = withSpring(0);
     onUnknown?.();
-  }, [onUnknown]);
+  }, [onUnknown, flipProgress]);
 
   const handleSpeak = useCallback(
     (e?: { stopPropagation?: () => void }) => {

@@ -10,7 +10,6 @@ import Animated, {
 
 import { SIZES } from '@/constants/sizes';
 import { Tile as TileType } from '@/types/game';
-import { TileColor } from '@/types/themes';
 import { gameHaptics } from '@/services/hapticService';
 import { useGameStore } from '@/store/gameStore';
 
@@ -40,11 +39,7 @@ function TileComponent({ tile, tileSize, gap }: TileProps) {
   const colors = getTileColors(tile.value);
 
   const fontSize =
-    tile.value >= 1000
-      ? tileSize * 0.28
-      : tile.value >= 100
-        ? tileSize * 0.35
-        : tileSize * 0.45;
+    tile.value >= 1000 ? tileSize * 0.28 : tile.value >= 100 ? tileSize * 0.35 : tileSize * 0.45;
 
   // Animation values
   const scale = useSharedValue(tile.isNew ? 0 : 1);
@@ -61,15 +56,12 @@ function TileComponent({ tile, tileSize, gap }: TileProps) {
         stiffness: 300,
       });
     }
-  }, [tile.isNew]);
+  }, [tile.isNew, scale]);
 
   // Handle merge animation
   useEffect(() => {
     if (tile.isMerged) {
-      scale.value = withSequence(
-        withTiming(1.2, { duration: 100 }),
-        withSpring(1, SPRING_CONFIG)
-      );
+      scale.value = withSequence(withTiming(1.2, { duration: 100 }), withSpring(1, SPRING_CONFIG));
       // Haptic feedback for high value merges (안전한 래퍼 사용)
       if (tile.value >= 512) {
         safeHighValueMergeHaptic();
@@ -77,7 +69,7 @@ function TileComponent({ tile, tileSize, gap }: TileProps) {
         safeTileMergeHaptic();
       }
     }
-  }, [tile.isMerged, tile.value]);
+  }, [tile.isMerged, tile.value, scale]);
 
   // Handle position animation
   useEffect(() => {
@@ -88,7 +80,7 @@ function TileComponent({ tile, tileSize, gap }: TileProps) {
       translateX.value = withSpring(newX, SPRING_CONFIG);
       translateY.value = withSpring(newY, SPRING_CONFIG);
     }
-  }, [tile.col, tile.row, tileSize, gap]);
+  }, [tile.col, tile.row, tileSize, gap, translateX, translateY]);
 
   const animatedStyle = useAnimatedStyle(() => ({
     transform: [
