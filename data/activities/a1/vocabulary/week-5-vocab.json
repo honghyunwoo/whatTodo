@@ -2,7 +2,7 @@
   "id": "week-5-vocab",
   "weekId": "week-5",
   "type": "vocabulary",
-  "level": "B1",
+  "level": "A1",
   "title": "조동사와 관련 표현",
   "description": "능력, 가능성, 의무, 허가를 표현하는 조동사와 관련 어휘를 배웁니다.",
 
@@ -14,7 +14,15 @@
       "partOfSpeech": "modal verb",
       "meaning": "~할 수 있다 (능력, 가능)",
       "example": "I can swim very well.",
-      "exampleMeaning": "나는 수영을 아주 잘 할 수 있다."
+      "exampleMeaning": "나는 수영을 아주 잘 할 수 있다.",
+      "koreanPronunciationTip": "'캔' - 짧게",
+      "mnemonic": "Can = 할 수 있다 (능력)",
+      "confusableWords": [
+        { "word": "Could", "difference": "Can은 현재, Could는 과거 또는 더 공손한 표현" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Can you help me?", "meaning": "저를 도와주실 수 있나요?" }
+      ]
     },
     {
       "id": "w2",
@@ -23,7 +31,15 @@
       "partOfSpeech": "modal verb",
       "meaning": "~할 수 있었다 (과거 능력), ~해 주시겠어요? (공손한 요청)",
       "example": "I could run fast when I was young.",
-      "exampleMeaning": "어렸을 때 나는 빨리 달릴 수 있었다."
+      "exampleMeaning": "어렸을 때 나는 빨리 달릴 수 있었다.",
+      "koreanPronunciationTip": "'쿠드' - '쿠'에 강세",
+      "mnemonic": "Could = Can의 과거 또는 공손한 표현",
+      "confusableWords": [
+        { "word": "Can", "difference": "Can은 현재 능력, Could는 과거 또는 공손함" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Could you please wait?", "meaning": "기다려 주시겠어요?" }
+      ]
     },
     {
       "id": "w3",
@@ -32,7 +48,15 @@
       "partOfSpeech": "modal verb",
       "meaning": "~할 것이다 (미래, 의지)",
       "example": "I will help you tomorrow.",
-      "exampleMeaning": "내일 당신을 도와줄 것입니다."
+      "exampleMeaning": "내일 당신을 도와줄 것입니다.",
+      "koreanPronunciationTip": "'윌' - 짧게",
+      "mnemonic": "Will = 미래의 의지",
+      "confusableWords": [
+        { "word": "Would", "difference": "Will은 미래, Would는 공손하거나 가정적" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I will call you later.", "meaning": "나중에 전화할게요." }
+      ]
     },
     {
       "id": "w4",
@@ -41,7 +65,15 @@
       "partOfSpeech": "modal verb",
       "meaning": "~할 것이다 (공손한 표현), ~하곤 했다 (과거 습관)",
       "example": "Would you like some coffee?",
-      "exampleMeaning": "커피 드시겠어요?"
+      "exampleMeaning": "커피 드시겠어요?",
+      "koreanPronunciationTip": "'우드' - '우'에 강세",
+      "mnemonic": "Would you like? = 공손하게 권유하기",
+      "confusableWords": [
+        { "word": "Will", "difference": "Will은 직접적, Would는 더 공손함" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I would like a cup of tea.", "meaning": "차 한 잔 주세요." }
+      ]
     },
     {
       "id": "w5",
@@ -50,7 +82,15 @@
       "partOfSpeech": "modal verb",
       "meaning": "~해야 한다 (충고, 권유)",
       "example": "You should study hard.",
-      "exampleMeaning": "당신은 열심히 공부해야 합니다."
+      "exampleMeaning": "당신은 열심히 공부해야 합니다.",
+      "koreanPronunciationTip": "'슈드' - '슈'에 강세",
+      "mnemonic": "Should = ~해야 해 (조언)",
+      "confusableWords": [
+        { "word": "Must", "difference": "Should는 조언, Must는 강한 의무" }
+      ],
+      "additionalExamples": [
+        { "sentence": "You should see a doctor.", "meaning": "의사에게 진찰을 받아야 해요." }
+      ]
     },
     {
       "id": "w6",
@@ -59,7 +99,15 @@
       "partOfSpeech": "modal verb",
       "meaning": "~해야 한다 (강한 의무), ~임에 틀림없다 (강한 추측)",
       "example": "You must wear a helmet.",
-      "exampleMeaning": "당신은 헬멧을 착용해야 합니다."
+      "exampleMeaning": "당신은 헬멧을 착용해야 합니다.",
+      "koreanPronunciationTip": "'머스트' - '머'에 강세",
+      "mnemonic": "Must = 반드시! (강한 의무)",
+      "confusableWords": [
+        { "word": "Have to", "difference": "Must는 내부 의무, Have to는 외부 의무" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She must be tired.", "meaning": "그녀는 피곤할 게 틀림없어." }
+      ]
     },
     {
       "id": "w7",
@@ -68,7 +116,15 @@
       "partOfSpeech": "modal verb",
       "meaning": "~해도 된다 (허가), ~일지도 모른다 (가능성)",
       "example": "May I use your phone?",
-      "exampleMeaning": "당신의 전화기를 사용해도 될까요?"
+      "exampleMeaning": "당신의 전화기를 사용해도 될까요?",
+      "koreanPronunciationTip": "'메이' - 길게",
+      "mnemonic": "May I? = ~해도 될까요? (정중한 허가)",
+      "confusableWords": [
+        { "word": "Might", "difference": "May는 가능성 높음, Might는 가능성 낮음" }
+      ],
+      "additionalExamples": [
+        { "sentence": "It may rain today.", "meaning": "오늘 비가 올지도 몰라요." }
+      ]
     },
     {
       "id": "w8",
@@ -77,7 +133,15 @@
       "partOfSpeech": "modal verb",
       "meaning": "~일지도 모른다 (낮은 가능성)",
       "example": "It might rain tomorrow.",
-      "exampleMeaning": "내일 비가 올지도 모른다."
+      "exampleMeaning": "내일 비가 올지도 모른다.",
+      "koreanPronunciationTip": "'마이트' - '마'에 강세",
+      "mnemonic": "Might = maybe + 조동사",
+      "confusableWords": [
+        { "word": "May", "difference": "Might는 May보다 가능성이 낮음" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She might come later.", "meaning": "그녀가 나중에 올지도 몰라요." }
+      ]
     },
     {
       "id": "w9",
@@ -86,7 +150,15 @@
       "partOfSpeech": "phrase",
       "meaning": "~할 수 있다 (능력)",
       "example": "I will be able to finish it tomorrow.",
-      "exampleMeaning": "나는 내일 그것을 끝낼 수 있을 것이다."
+      "exampleMeaning": "나는 내일 그것을 끝낼 수 있을 것이다.",
+      "koreanPronunciationTip": "'비 에이블 투'",
+      "mnemonic": "Be able to = Can과 같지만 모든 시제 가능",
+      "confusableWords": [
+        { "word": "Can", "difference": "Can은 현재만, Be able to는 모든 시제 가능" }
+      ],
+      "additionalExamples": [
+        { "sentence": "He was able to solve the problem.", "meaning": "그는 그 문제를 풀 수 있었다." }
+      ]
     },
     {
       "id": "w10",
@@ -95,7 +167,15 @@
       "partOfSpeech": "phrase",
       "meaning": "~해야 한다 (외부 의무)",
       "example": "I have to go to work early.",
-      "exampleMeaning": "나는 일찍 출근해야 한다."
+      "exampleMeaning": "나는 일찍 출근해야 한다.",
+      "koreanPronunciationTip": "'해프 투' - have의 v가 f처럼",
+      "mnemonic": "Have to = 해야만 해 (외부 규칙)",
+      "confusableWords": [
+        { "word": "Must", "difference": "Have to는 외부 의무, Must는 내부 의무" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Do you have to leave now?", "meaning": "지금 가야 해요?" }
+      ]
     },
     {
       "id": "w11",
@@ -104,7 +184,12 @@
       "partOfSpeech": "noun",
       "meaning": "능력",
       "example": "She has the ability to learn quickly.",
-      "exampleMeaning": "그녀는 빨리 배우는 능력이 있다."
+      "exampleMeaning": "그녀는 빨리 배우는 능력이 있다.",
+      "koreanPronunciationTip": "'어빌리티' - '빌'에 강세",
+      "mnemonic": "Able + ity = 능력",
+      "additionalExamples": [
+        { "sentence": "He has great ability in math.", "meaning": "그는 수학에 뛰어난 능력이 있다." }
+      ]
     },
     {
       "id": "w12",
@@ -113,7 +198,12 @@
       "partOfSpeech": "noun",
       "meaning": "허가, 허락",
       "example": "You need permission to enter.",
-      "exampleMeaning": "들어가려면 허가가 필요합니다."
+      "exampleMeaning": "들어가려면 허가가 필요합니다.",
+      "koreanPronunciationTip": "'퍼미션' - '미'에 강세",
+      "mnemonic": "Permit + sion = 허가",
+      "additionalExamples": [
+        { "sentence": "Ask for permission first.", "meaning": "먼저 허락을 구하세요." }
+      ]
     },
     {
       "id": "w13",
@@ -122,7 +212,12 @@
       "partOfSpeech": "noun",
       "meaning": "가능성",
       "example": "There is a possibility of rain.",
-      "exampleMeaning": "비가 올 가능성이 있습니다."
+      "exampleMeaning": "비가 올 가능성이 있습니다.",
+      "koreanPronunciationTip": "'파서빌리티' - '빌'에 강세",
+      "mnemonic": "Possible + ity = 가능성",
+      "additionalExamples": [
+        { "sentence": "Is there any possibility?", "meaning": "어떤 가능성이 있나요?" }
+      ]
     },
     {
       "id": "w14",
@@ -131,7 +226,12 @@
       "partOfSpeech": "adjective",
       "meaning": "필요한",
       "example": "It is necessary to study.",
-      "exampleMeaning": "공부하는 것이 필요합니다."
+      "exampleMeaning": "공부하는 것이 필요합니다.",
+      "koreanPronunciationTip": "'네서세리' - '네'에 강세",
+      "mnemonic": "Necessary = 필수적인",
+      "additionalExamples": [
+        { "sentence": "Is it necessary to bring it?", "meaning": "그것을 가져올 필요가 있나요?" }
+      ]
     },
     {
       "id": "w15",
@@ -140,7 +240,12 @@
       "partOfSpeech": "noun",
       "meaning": "의무",
       "example": "You have an obligation to help.",
-      "exampleMeaning": "당신은 도울 의무가 있습니다."
+      "exampleMeaning": "당신은 도울 의무가 있습니다.",
+      "koreanPronunciationTip": "'아블리게이션' - '게'에 강세",
+      "mnemonic": "Oblige + ation = 의무",
+      "additionalExamples": [
+        { "sentence": "It's my obligation.", "meaning": "그것은 나의 의무입니다." }
+      ]
     },
     {
       "id": "w16",
@@ -149,7 +254,15 @@
       "partOfSpeech": "noun",
       "meaning": "조언, 충고",
       "example": "Let me give you some advice.",
-      "exampleMeaning": "당신에게 조언을 해드리겠습니다."
+      "exampleMeaning": "당신에게 조언을 해드리겠습니다.",
+      "koreanPronunciationTip": "'어드바이스' - '바'에 강세",
+      "mnemonic": "Advice = 조언 (명사)",
+      "confusableWords": [
+        { "word": "Advise", "difference": "Advice는 명사, Advise는 동사" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Thanks for your advice.", "meaning": "조언 감사합니다." }
+      ]
     },
     {
       "id": "w17",
@@ -158,7 +271,12 @@
       "partOfSpeech": "noun/verb",
       "meaning": "요청, 요청하다",
       "example": "I have a request to make.",
-      "exampleMeaning": "제가 요청할 것이 있습니다."
+      "exampleMeaning": "제가 요청할 것이 있습니다.",
+      "koreanPronunciationTip": "'리퀘스트' - '퀘'에 강세",
+      "mnemonic": "Request = 부탁/요청",
+      "additionalExamples": [
+        { "sentence": "May I make a request?", "meaning": "부탁 하나 해도 될까요?" }
+      ]
     },
     {
       "id": "w18",
@@ -167,7 +285,15 @@
       "partOfSpeech": "adjective",
       "meaning": "허용된",
       "example": "Smoking is not allowed here.",
-      "exampleMeaning": "여기서는 흡연이 허용되지 않습니다."
+      "exampleMeaning": "여기서는 흡연이 허용되지 않습니다.",
+      "koreanPronunciationTip": "'얼라우드' - '라'에 강세",
+      "mnemonic": "Allow + ed = 허용된",
+      "confusableWords": [
+        { "word": "Aloud", "difference": "Allowed는 허용된, Aloud는 큰 소리로" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Are dogs allowed?", "meaning": "개가 허용되나요?" }
+      ]
     },
     {
       "id": "w19",
@@ -176,7 +302,12 @@
       "partOfSpeech": "adjective",
       "meaning": "금지된",
       "example": "Taking photos is forbidden in the museum.",
-      "exampleMeaning": "박물관에서는 사진 촬영이 금지되어 있습니다."
+      "exampleMeaning": "박물관에서는 사진 촬영이 금지되어 있습니다.",
+      "koreanPronunciationTip": "'포비든' - '비'에 강세",
+      "mnemonic": "Forbid + en = 금지된",
+      "additionalExamples": [
+        { "sentence": "It is strictly forbidden.", "meaning": "그것은 엄격히 금지되어 있습니다." }
+      ]
     },
     {
       "id": "w20",
@@ -185,7 +316,456 @@
       "partOfSpeech": "adjective",
       "meaning": "능력 있는, ~할 수 있는",
       "example": "She is capable of doing great things.",
-      "exampleMeaning": "그녀는 위대한 일을 할 수 있는 능력이 있습니다."
+      "exampleMeaning": "그녀는 위대한 일을 할 수 있는 능력이 있습니다.",
+      "koreanPronunciationTip": "'케이퍼블' - '케'에 강세",
+      "mnemonic": "Capable = Can + able = 능력 있는",
+      "additionalExamples": [
+        { "sentence": "He is very capable.", "meaning": "그는 매우 유능합니다." }
+      ]
+    },
+    {
+      "id": "w21",
+      "word": "Possible",
+      "pronunciation": "/ˈpɑːsəbl/",
+      "partOfSpeech": "adjective",
+      "meaning": "가능한",
+      "example": "Is it possible to change the date?",
+      "exampleMeaning": "날짜를 바꾸는 것이 가능할까요?",
+      "koreanPronunciationTip": "'파서블' - '파'에 강세",
+      "mnemonic": "Possible = 가능한",
+      "confusableWords": [
+        { "word": "Impossible", "difference": "Possible은 가능한, Impossible은 불가능한" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Anything is possible.", "meaning": "뭐든지 가능합니다." }
+      ]
+    },
+    {
+      "id": "w22",
+      "word": "Impossible",
+      "pronunciation": "/ɪmˈpɑːsəbl/",
+      "partOfSpeech": "adjective",
+      "meaning": "불가능한",
+      "example": "Nothing is impossible.",
+      "exampleMeaning": "불가능한 것은 없다.",
+      "koreanPronunciationTip": "'임파서블' - '파'에 강세",
+      "mnemonic": "Im + possible = 불가능한",
+      "additionalExamples": [
+        { "sentence": "That's impossible!", "meaning": "그건 불가능해요!" }
+      ]
+    },
+    {
+      "id": "w23",
+      "word": "Maybe",
+      "pronunciation": "/ˈmeɪbi/",
+      "partOfSpeech": "adverb",
+      "meaning": "아마도, 어쩌면",
+      "example": "Maybe I will come tomorrow.",
+      "exampleMeaning": "아마도 나는 내일 올 것이다.",
+      "koreanPronunciationTip": "'메이비' - '메'에 강세",
+      "mnemonic": "Maybe = May + be = 아마도",
+      "confusableWords": [
+        { "word": "Perhaps", "difference": "Maybe는 구어, Perhaps는 더 격식적" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Maybe later.", "meaning": "나중에 아마도." }
+      ]
+    },
+    {
+      "id": "w24",
+      "word": "Perhaps",
+      "pronunciation": "/pərˈhæps/",
+      "partOfSpeech": "adverb",
+      "meaning": "아마도 (격식)",
+      "example": "Perhaps you are right.",
+      "exampleMeaning": "아마도 당신이 옳을지도 모릅니다.",
+      "koreanPronunciationTip": "'퍼햅스' - '햅'에 강세",
+      "mnemonic": "Perhaps = 더 격식적인 maybe",
+      "additionalExamples": [
+        { "sentence": "Perhaps we should go.", "meaning": "아마도 우리가 가야 할 것 같아요." }
+      ]
+    },
+    {
+      "id": "w25",
+      "word": "Probably",
+      "pronunciation": "/ˈprɑːbəbli/",
+      "partOfSpeech": "adverb",
+      "meaning": "아마도 (높은 확률)",
+      "example": "He will probably come.",
+      "exampleMeaning": "그는 아마 올 것이다.",
+      "koreanPronunciationTip": "'프라버블리' - '프'에 강세",
+      "mnemonic": "Probable + ly = 아마도 (높은 확률)",
+      "confusableWords": [
+        { "word": "Maybe", "difference": "Probably는 높은 확률, Maybe는 중간 확률" }
+      ],
+      "additionalExamples": [
+        { "sentence": "It will probably rain.", "meaning": "아마 비가 올 거야." }
+      ]
+    },
+    {
+      "id": "w26",
+      "word": "Certainly",
+      "pronunciation": "/ˈsɜːrtnli/",
+      "partOfSpeech": "adverb",
+      "meaning": "확실히, 물론",
+      "example": "I will certainly help you.",
+      "exampleMeaning": "물론 도와드리겠습니다.",
+      "koreanPronunciationTip": "'써튼리' - '써'에 강세",
+      "mnemonic": "Certain + ly = 확실히",
+      "additionalExamples": [
+        { "sentence": "Certainly, sir.", "meaning": "물론이죠, 선생님." }
+      ]
+    },
+    {
+      "id": "w27",
+      "word": "Definitely",
+      "pronunciation": "/ˈdefɪnətli/",
+      "partOfSpeech": "adverb",
+      "meaning": "분명히, 확실히",
+      "example": "I will definitely come.",
+      "exampleMeaning": "나는 분명히 올 것이다.",
+      "koreanPronunciationTip": "'데피니틀리' - '데'에 강세",
+      "mnemonic": "Definite + ly = 분명히",
+      "additionalExamples": [
+        { "sentence": "Definitely!", "meaning": "물론이죠!" }
+      ]
+    },
+    {
+      "id": "w28",
+      "word": "Need",
+      "pronunciation": "/niːd/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "필요하다, 필요",
+      "example": "I need your help.",
+      "exampleMeaning": "나는 당신의 도움이 필요합니다.",
+      "koreanPronunciationTip": "'니드' - 길게",
+      "mnemonic": "Need = 필요하다",
+      "additionalExamples": [
+        { "sentence": "Do you need anything?", "meaning": "필요한 거 있어요?" }
+      ]
+    },
+    {
+      "id": "w29",
+      "word": "Want",
+      "pronunciation": "/wɑːnt/",
+      "partOfSpeech": "verb",
+      "meaning": "원하다",
+      "example": "I want to go home.",
+      "exampleMeaning": "나는 집에 가고 싶다.",
+      "koreanPronunciationTip": "'원트' - 짧게",
+      "mnemonic": "Want = 원하다",
+      "confusableWords": [
+        { "word": "Need", "difference": "Want는 원함, Need는 필요" }
+      ],
+      "additionalExamples": [
+        { "sentence": "What do you want?", "meaning": "뭘 원해요?" }
+      ]
+    },
+    {
+      "id": "w30",
+      "word": "Prefer",
+      "pronunciation": "/prɪˈfɜːr/",
+      "partOfSpeech": "verb",
+      "meaning": "선호하다, ~을 더 좋아하다",
+      "example": "I prefer coffee to tea.",
+      "exampleMeaning": "나는 차보다 커피를 더 좋아한다.",
+      "koreanPronunciationTip": "'프리퍼' - '퍼'에 강세",
+      "mnemonic": "Prefer = Pre(미리) + fer(가져오다) = 선호하다",
+      "additionalExamples": [
+        { "sentence": "Which do you prefer?", "meaning": "어느 것을 더 좋아하세요?" }
+      ]
+    },
+    {
+      "id": "w31",
+      "word": "Suggest",
+      "pronunciation": "/səˈdʒest/",
+      "partOfSpeech": "verb",
+      "meaning": "제안하다, 암시하다",
+      "example": "I suggest we leave now.",
+      "exampleMeaning": "지금 떠나는 것을 제안합니다.",
+      "koreanPronunciationTip": "'서제스트' - '제'에 강세",
+      "mnemonic": "Suggest = 제안하다",
+      "additionalExamples": [
+        { "sentence": "What do you suggest?", "meaning": "뭘 제안하세요?" }
+      ]
+    },
+    {
+      "id": "w32",
+      "word": "Recommend",
+      "pronunciation": "/ˌrekəˈmend/",
+      "partOfSpeech": "verb",
+      "meaning": "추천하다",
+      "example": "I recommend this restaurant.",
+      "exampleMeaning": "이 식당을 추천합니다.",
+      "koreanPronunciationTip": "'레커멘드' - '멘'에 강세",
+      "mnemonic": "Re + commend = 다시 칭찬하다 = 추천하다",
+      "additionalExamples": [
+        { "sentence": "Can you recommend a good book?", "meaning": "좋은 책 추천해 주실 수 있나요?" }
+      ]
+    },
+    {
+      "id": "w33",
+      "word": "Offer",
+      "pronunciation": "/ˈɔːfər/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "제안하다, 제공하다",
+      "example": "Can I offer you a drink?",
+      "exampleMeaning": "음료를 드릴까요?",
+      "koreanPronunciationTip": "'오퍼' - '오'에 강세",
+      "mnemonic": "Offer = 제안/제공",
+      "additionalExamples": [
+        { "sentence": "He offered to help.", "meaning": "그가 도와주겠다고 제안했다." }
+      ]
+    },
+    {
+      "id": "w34",
+      "word": "Refuse",
+      "pronunciation": "/rɪˈfjuːz/",
+      "partOfSpeech": "verb",
+      "meaning": "거절하다",
+      "example": "She refused to answer.",
+      "exampleMeaning": "그녀는 대답하기를 거절했다.",
+      "koreanPronunciationTip": "'리퓨즈' - '퓨'에 강세",
+      "mnemonic": "Refuse = 거절하다",
+      "confusableWords": [
+        { "word": "Accept", "difference": "Refuse는 거절, Accept는 수락" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I can't refuse.", "meaning": "거절할 수 없어요." }
+      ]
+    },
+    {
+      "id": "w35",
+      "word": "Accept",
+      "pronunciation": "/əkˈsept/",
+      "partOfSpeech": "verb",
+      "meaning": "수락하다, 받아들이다",
+      "example": "I accept your offer.",
+      "exampleMeaning": "당신의 제안을 수락합니다.",
+      "koreanPronunciationTip": "'억셉트' - '셉'에 강세",
+      "mnemonic": "Accept = 수락하다",
+      "additionalExamples": [
+        { "sentence": "Do you accept credit cards?", "meaning": "신용카드 받나요?" }
+      ]
+    },
+    {
+      "id": "w36",
+      "word": "Allow",
+      "pronunciation": "/əˈlaʊ/",
+      "partOfSpeech": "verb",
+      "meaning": "허락하다",
+      "example": "Please allow me to explain.",
+      "exampleMeaning": "제가 설명하도록 허락해 주세요.",
+      "koreanPronunciationTip": "'얼라우' - '라'에 강세",
+      "mnemonic": "Allow = 허락하다",
+      "additionalExamples": [
+        { "sentence": "Smoking is not allowed.", "meaning": "흡연은 허용되지 않습니다." }
+      ]
+    },
+    {
+      "id": "w37",
+      "word": "Permit",
+      "pronunciation": "/pərˈmɪt/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "허가하다, 허가증",
+      "example": "You need a permit to park here.",
+      "exampleMeaning": "여기에 주차하려면 허가증이 필요합니다.",
+      "koreanPronunciationTip": "'퍼밋' - '밋'에 강세 (동사)",
+      "mnemonic": "Permit = 허가 (Allow보다 공식적)",
+      "additionalExamples": [
+        { "sentence": "Do you have a work permit?", "meaning": "취업 허가증이 있나요?" }
+      ]
+    },
+    {
+      "id": "w38",
+      "word": "Force",
+      "pronunciation": "/fɔːrs/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "강요하다, 힘",
+      "example": "Don't force me to do it.",
+      "exampleMeaning": "그것을 하라고 나를 강요하지 마세요.",
+      "koreanPronunciationTip": "'포스' - 길게",
+      "mnemonic": "Force = 힘/강요",
+      "additionalExamples": [
+        { "sentence": "You can't force me.", "meaning": "나를 강요할 수 없어요." }
+      ]
+    },
+    {
+      "id": "w39",
+      "word": "Encourage",
+      "pronunciation": "/ɪnˈkɜːrɪdʒ/",
+      "partOfSpeech": "verb",
+      "meaning": "격려하다, 권장하다",
+      "example": "She encouraged me to try again.",
+      "exampleMeaning": "그녀는 나에게 다시 시도하라고 격려했다.",
+      "koreanPronunciationTip": "'인커리지' - '커'에 강세",
+      "mnemonic": "En + courage = 용기를 주다 = 격려하다",
+      "additionalExamples": [
+        { "sentence": "We encourage questions.", "meaning": "질문을 권장합니다." }
+      ]
+    },
+    {
+      "id": "w40",
+      "word": "Prevent",
+      "pronunciation": "/prɪˈvent/",
+      "partOfSpeech": "verb",
+      "meaning": "막다, 방지하다",
+      "example": "We must prevent accidents.",
+      "exampleMeaning": "우리는 사고를 방지해야 합니다.",
+      "koreanPronunciationTip": "'프리벤트' - '벤'에 강세",
+      "mnemonic": "Pre + vent = 미리 오지 못하게 = 방지하다",
+      "additionalExamples": [
+        { "sentence": "How can we prevent this?", "meaning": "이것을 어떻게 방지할 수 있나요?" }
+      ]
+    },
+    {
+      "id": "w41",
+      "word": "Sure",
+      "pronunciation": "/ʃʊr/",
+      "partOfSpeech": "adjective",
+      "meaning": "확신하는",
+      "example": "I am sure about it.",
+      "exampleMeaning": "나는 그것에 대해 확신합니다.",
+      "koreanPronunciationTip": "'슈어' - 짧게",
+      "mnemonic": "Sure = 확실한",
+      "confusableWords": [
+        { "word": "Certain", "difference": "Sure는 구어적, Certain은 격식적" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Are you sure?", "meaning": "확실해요?" }
+      ]
+    },
+    {
+      "id": "w42",
+      "word": "Certain",
+      "pronunciation": "/ˈsɜːrtn/",
+      "partOfSpeech": "adjective",
+      "meaning": "확실한, 어떤",
+      "example": "I am certain he will come.",
+      "exampleMeaning": "나는 그가 올 것이라고 확신한다.",
+      "koreanPronunciationTip": "'써튼' - '써'에 강세",
+      "mnemonic": "Certain = 확실한",
+      "additionalExamples": [
+        { "sentence": "It is certain.", "meaning": "그것은 확실합니다." }
+      ]
+    },
+    {
+      "id": "w43",
+      "word": "Doubt",
+      "pronunciation": "/daʊt/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "의심하다, 의심",
+      "example": "I doubt he will come.",
+      "exampleMeaning": "그가 올지 의심스럽다.",
+      "koreanPronunciationTip": "'다우트' - 'b'는 묵음!",
+      "mnemonic": "Doubt = 의심 (b는 발음 안 함)",
+      "additionalExamples": [
+        { "sentence": "No doubt about it.", "meaning": "의심의 여지가 없어요." }
+      ]
+    },
+    {
+      "id": "w44",
+      "word": "Confident",
+      "pronunciation": "/ˈkɑːnfɪdənt/",
+      "partOfSpeech": "adjective",
+      "meaning": "자신감 있는",
+      "example": "She is confident about the test.",
+      "exampleMeaning": "그녀는 시험에 대해 자신감이 있다.",
+      "koreanPronunciationTip": "'칸피던트' - '칸'에 강세",
+      "mnemonic": "Con + fid(믿다) = 자신을 믿는 = 자신감 있는",
+      "additionalExamples": [
+        { "sentence": "Be confident!", "meaning": "자신감을 가져요!" }
+      ]
+    },
+    {
+      "id": "w45",
+      "word": "Likely",
+      "pronunciation": "/ˈlaɪkli/",
+      "partOfSpeech": "adjective/adverb",
+      "meaning": "~할 것 같은, 아마도",
+      "example": "It is likely to rain.",
+      "exampleMeaning": "비가 올 것 같다.",
+      "koreanPronunciationTip": "'라이클리' - '라'에 강세",
+      "mnemonic": "Like + ly = ~할 것 같은",
+      "confusableWords": [
+        { "word": "Unlikely", "difference": "Likely는 ~할 것 같은, Unlikely는 ~할 것 같지 않은" }
+      ],
+      "additionalExamples": [
+        { "sentence": "He is likely to agree.", "meaning": "그는 동의할 것 같다." }
+      ]
+    },
+    {
+      "id": "w46",
+      "word": "Unlikely",
+      "pronunciation": "/ʌnˈlaɪkli/",
+      "partOfSpeech": "adjective",
+      "meaning": "~할 것 같지 않은",
+      "example": "It is unlikely to happen.",
+      "exampleMeaning": "그것은 일어날 것 같지 않다.",
+      "koreanPronunciationTip": "'언라이클리' - '라'에 강세",
+      "mnemonic": "Un + likely = ~할 것 같지 않은",
+      "additionalExamples": [
+        { "sentence": "It's unlikely.", "meaning": "그럴 것 같지 않아요." }
+      ]
+    },
+    {
+      "id": "w47",
+      "word": "Require",
+      "pronunciation": "/rɪˈkwaɪər/",
+      "partOfSpeech": "verb",
+      "meaning": "필요로 하다, 요구하다",
+      "example": "This job requires experience.",
+      "exampleMeaning": "이 일은 경험이 필요합니다.",
+      "koreanPronunciationTip": "'리콰이어' - '콰'에 강세",
+      "mnemonic": "Require = 요구하다 (Need보다 공식적)",
+      "additionalExamples": [
+        { "sentence": "What do you require?", "meaning": "무엇이 필요하세요?" }
+      ]
+    },
+    {
+      "id": "w48",
+      "word": "Enable",
+      "pronunciation": "/ɪˈneɪbl/",
+      "partOfSpeech": "verb",
+      "meaning": "가능하게 하다",
+      "example": "This app enables you to learn English.",
+      "exampleMeaning": "이 앱은 영어를 배울 수 있게 해줍니다.",
+      "koreanPronunciationTip": "'이네이블' - '네'에 강세",
+      "mnemonic": "En + able = 가능하게 하다",
+      "additionalExamples": [
+        { "sentence": "Technology enables us to connect.", "meaning": "기술은 우리가 연결할 수 있게 해줍니다." }
+      ]
+    },
+    {
+      "id": "w49",
+      "word": "Decide",
+      "pronunciation": "/dɪˈsaɪd/",
+      "partOfSpeech": "verb",
+      "meaning": "결정하다",
+      "example": "I can't decide what to eat.",
+      "exampleMeaning": "뭘 먹을지 결정할 수 없어요.",
+      "koreanPronunciationTip": "'디사이드' - '사'에 강세",
+      "mnemonic": "Decide = 결정하다",
+      "additionalExamples": [
+        { "sentence": "Have you decided?", "meaning": "결정했어요?" }
+      ]
+    },
+    {
+      "id": "w50",
+      "word": "Choose",
+      "pronunciation": "/tʃuːz/",
+      "partOfSpeech": "verb",
+      "meaning": "선택하다",
+      "example": "You can choose any color.",
+      "exampleMeaning": "어떤 색이든 선택할 수 있어요.",
+      "koreanPronunciationTip": "'추즈' - 길게",
+      "mnemonic": "Choose = 고르다/선택하다",
+      "confusableWords": [
+        { "word": "Chose", "difference": "Choose는 현재, Chose는 과거" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Which one do you choose?", "meaning": "어느 것을 선택하세요?" }
+      ]
     }
   ],
 
@@ -303,6 +883,1028 @@
       "question": "I ___ to go now. (외부 의무)",
       "answer": ["have"],
       "explanation": "외부에서 주어진 의무를 나타낼 때 'have to'를 사용합니다."
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "What does 'possible' mean?",
+      "options": ["불가능한", "가능한", "필요한", "확실한"],
+      "answer": "가능한",
+      "explanation": "'Possible'은 '가능한'이라는 뜻입니다."
+    },
+    {
+      "id": "ex17",
+      "type": "fill_blank",
+      "question": "Nothing is ___. (불가능한)",
+      "answer": ["impossible"],
+      "explanation": "'Impossible'은 '불가능한'이라는 뜻입니다."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "'Maybe' 와 같은 의미는?",
+      "options": ["Definitely", "Perhaps", "Certainly", "Never"],
+      "answer": "Perhaps",
+      "explanation": "'Maybe'와 'Perhaps'는 둘 다 '아마도'라는 뜻입니다."
+    },
+    {
+      "id": "ex19",
+      "type": "fill_blank",
+      "question": "He will ___ come. (높은 확률로 아마도)",
+      "answer": ["probably"],
+      "explanation": "'Probably'는 높은 확률의 '아마도'를 나타냅니다."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "Which word means '확실히'?",
+      "options": ["Maybe", "Perhaps", "Certainly", "Possibly"],
+      "answer": "Certainly",
+      "explanation": "'Certainly'는 '확실히, 물론'이라는 뜻입니다."
+    },
+    {
+      "id": "ex21",
+      "type": "fill_blank",
+      "question": "I ___ your help. (필요하다)",
+      "answer": ["need"],
+      "explanation": "'Need'는 '필요하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "'Want' 와 'Need' 의 차이는?",
+      "options": ["같은 의미", "Want=원함, Need=필요", "Want=필요, Need=원함", "둘 다 의무"],
+      "answer": "Want=원함, Need=필요",
+      "explanation": "'Want'는 원함, 'Need'는 필요를 나타냅니다."
+    },
+    {
+      "id": "ex23",
+      "type": "fill_blank",
+      "question": "I ___ coffee to tea. (선호하다)",
+      "answer": ["prefer"],
+      "explanation": "'Prefer A to B'는 'B보다 A를 선호하다'입니다."
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "What does 'suggest' mean?",
+      "options": ["거절하다", "제안하다", "강요하다", "허락하다"],
+      "answer": "제안하다",
+      "explanation": "'Suggest'는 '제안하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex25",
+      "type": "fill_blank",
+      "question": "I ___ this restaurant. (추천하다)",
+      "answer": ["recommend"],
+      "explanation": "'Recommend'는 '추천하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex26",
+      "type": "matching",
+      "question": "Match the word with its meaning:",
+      "options": ["offer", "refuse", "accept", "allow"],
+      "answer": ["제안하다", "거절하다", "수락하다", "허락하다"],
+      "explanation": "각 동사의 의미를 연결합니다."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'refuse'?",
+      "options": ["Reject", "Accept", "Deny", "Decline"],
+      "answer": "Accept",
+      "explanation": "'Refuse(거절하다)'의 반대는 'accept(수락하다)'입니다."
+    },
+    {
+      "id": "ex28",
+      "type": "fill_blank",
+      "question": "Please ___ me to explain. (허락하다)",
+      "answer": ["allow"],
+      "explanation": "'Allow'는 '허락하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "'Permit' 의 의미는?",
+      "options": ["금지하다", "허가하다", "거절하다", "강요하다"],
+      "answer": "허가하다",
+      "explanation": "'Permit'은 '허가하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex30",
+      "type": "fill_blank",
+      "question": "Don't ___ me to do it. (강요하다)",
+      "answer": ["force"],
+      "explanation": "'Force'는 '강요하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex31",
+      "type": "multiple_choice",
+      "question": "What does 'encourage' mean?",
+      "options": ["낙담시키다", "격려하다", "강요하다", "방해하다"],
+      "answer": "격려하다",
+      "explanation": "'Encourage'는 '격려하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "question": "We must ___ accidents. (방지하다)",
+      "answer": ["prevent"],
+      "explanation": "'Prevent'는 '방지하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex33",
+      "type": "multiple_choice",
+      "question": "'Sure' 와 'Certain' 의 공통점은?",
+      "options": ["둘 다 의심", "둘 다 확신", "둘 다 불확실", "둘 다 거절"],
+      "answer": "둘 다 확신",
+      "explanation": "'Sure'와 'Certain'은 둘 다 '확실한'이라는 뜻입니다."
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "I ___ he will come. (의심하다)",
+      "answer": ["doubt"],
+      "explanation": "'Doubt'는 '의심하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex35",
+      "type": "multiple_choice",
+      "question": "What does 'confident' mean?",
+      "options": ["불안한", "자신감 있는", "의심스러운", "확실하지 않은"],
+      "answer": "자신감 있는",
+      "explanation": "'Confident'는 '자신감 있는'이라는 뜻입니다."
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "It is ___ to rain. (~할 것 같은)",
+      "answer": ["likely"],
+      "explanation": "'Likely'는 '~할 것 같은'이라는 뜻입니다."
+    },
+    {
+      "id": "ex37",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'likely'?",
+      "options": ["Possibly", "Probably", "Unlikely", "Certainly"],
+      "answer": "Unlikely",
+      "explanation": "'Likely(~할 것 같은)'의 반대는 'unlikely(~할 것 같지 않은)'입니다."
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "This job ___ experience. (필요로 하다)",
+      "answer": ["requires"],
+      "explanation": "'Require'는 '필요로 하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex39",
+      "type": "multiple_choice",
+      "question": "What does 'enable' mean?",
+      "options": ["불가능하게 하다", "가능하게 하다", "금지하다", "방해하다"],
+      "answer": "가능하게 하다",
+      "explanation": "'Enable'은 '가능하게 하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "I can't ___ what to eat. (결정하다)",
+      "answer": ["decide"],
+      "explanation": "'Decide'는 '결정하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple_choice",
+      "question": "'Choose' 의 과거형은?",
+      "options": ["Choosed", "Chose", "Chosen", "Choosing"],
+      "answer": "Chose",
+      "explanation": "'Choose'의 과거형은 'chose'입니다."
+    },
+    {
+      "id": "ex42",
+      "type": "matching",
+      "question": "Match the modal with its Korean meaning:",
+      "options": ["will", "would", "shall", "might"],
+      "answer": ["~할 것이다", "~하곤 했다/~하시겠어요?", "~할까요?", "~일지도 모른다"],
+      "explanation": "각 조동사의 한국어 의미를 연결합니다."
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "___ you like some coffee? (공손한 권유)",
+      "answer": ["Would"],
+      "explanation": "'Would you like~?'는 공손하게 권유할 때 사용합니다."
+    },
+    {
+      "id": "ex44",
+      "type": "multiple_choice",
+      "question": "'I am able to swim' 과 같은 의미는?",
+      "options": ["I must swim", "I can swim", "I should swim", "I will swim"],
+      "answer": "I can swim",
+      "explanation": "'Be able to'는 'can'과 같은 의미입니다."
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "You ___ not smoke here. (금지)",
+      "answer": ["must", "should", "can"],
+      "explanation": "'Must not'은 금지를 나타냅니다."
+    },
+    {
+      "id": "ex46",
+      "type": "multiple_choice",
+      "question": "'Must' 와 'Have to' 의 차이는?",
+      "options": ["같은 의미", "Must=내부, Have to=외부", "Must=외부, Have to=내부", "둘 다 허가"],
+      "answer": "Must=내부, Have to=외부",
+      "explanation": "'Must'는 내부적 의무, 'Have to'는 외부적 의무입니다."
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "___ I use your phone? (정중한 허가 요청)",
+      "answer": ["May", "Can", "Could"],
+      "explanation": "'May I~?'는 정중하게 허가를 구할 때 사용합니다."
+    },
+    {
+      "id": "ex48",
+      "type": "matching",
+      "question": "Match the degree of certainty:",
+      "options": ["definitely", "probably", "maybe", "unlikely"],
+      "answer": ["100%", "70-80%", "50%", "20-30%"],
+      "explanation": "확실성의 정도를 연결합니다."
+    },
+    {
+      "id": "ex49",
+      "type": "multiple_choice",
+      "question": "'You should see a doctor' 는 무엇을 나타내는가?",
+      "options": ["의무", "조언", "허가", "능력"],
+      "answer": "조언",
+      "explanation": "'Should'는 조언을 나타냅니다."
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "It ___ be true. (강한 추측 - 틀림없다)",
+      "answer": ["must"],
+      "explanation": "'Must'는 강한 추측(~임에 틀림없다)을 나타냅니다."
+    },
+    {
+      "id": "ex51",
+      "type": "multiple_choice",
+      "question": "I ___ swim when I was 5. (과거 능력)",
+      "options": ["can", "could", "will", "would"],
+      "answer": "could",
+      "explanation": "'Could'는 과거의 능력을 나타냅니다."
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "I ___ like a cup of tea, please. (공손한 요청)",
+      "answer": ["would"],
+      "explanation": "'Would like'는 공손하게 원하는 것을 말할 때 사용합니다."
+    },
+    {
+      "id": "ex53",
+      "type": "multiple_choice",
+      "question": "'You shouldn't eat too much' 의 의미는?",
+      "options": ["너무 많이 먹어야 한다", "너무 많이 먹지 않는 게 좋다", "너무 많이 먹을 수 있다", "너무 많이 먹어도 된다"],
+      "answer": "너무 많이 먹지 않는 게 좋다",
+      "explanation": "'Shouldn't'는 하지 않는 것이 좋다는 조언입니다."
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "You ___ go now. (허가 - 가도 된다)",
+      "answer": ["may", "can"],
+      "explanation": "'May'와 'Can'은 허가를 나타냅니다."
+    },
+    {
+      "id": "ex55",
+      "type": "multiple_choice",
+      "question": "'She might be at home' 의 가능성은?",
+      "options": ["100%", "70-80%", "50% 이하", "0%"],
+      "answer": "50% 이하",
+      "explanation": "'Might'는 낮은 가능성을 나타냅니다."
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "You don't ___ to come early. (불필요)",
+      "answer": ["have", "need"],
+      "explanation": "'Don't have to'는 ~할 필요가 없다는 뜻입니다."
+    },
+    {
+      "id": "ex57",
+      "type": "matching",
+      "question": "Match the expression with its Korean meaning:",
+      "options": ["be able to", "have to", "be allowed to", "be supposed to"],
+      "answer": ["~할 수 있다", "~해야 한다", "~해도 된다", "~하기로 되어있다"],
+      "explanation": "각 표현의 한국어 의미를 연결합니다."
+    },
+    {
+      "id": "ex58",
+      "type": "multiple_choice",
+      "question": "'Must not' 과 'Don't have to' 의 차이는?",
+      "options": ["같은 의미", "Must not=금지, Don't have to=불필요", "Must not=불필요, Don't have to=금지", "둘 다 허가"],
+      "answer": "Must not=금지, Don't have to=불필요",
+      "explanation": "'Must not'은 금지, 'Don't have to'는 불필요를 나타냅니다."
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "She ___ be tired after working all day. (강한 추측)",
+      "answer": ["must"],
+      "explanation": "'Must'는 강한 추측(~임에 틀림없다)을 나타냅니다."
+    },
+    {
+      "id": "ex60",
+      "type": "multiple_choice",
+      "question": "What does 'definitely' mean?",
+      "options": ["아마도", "분명히", "어쩌면", "거의 아니다"],
+      "answer": "분명히",
+      "explanation": "'Definitely'는 '분명히, 확실히'라는 뜻입니다."
+    },
+    {
+      "id": "ex61",
+      "type": "fill_blank",
+      "question": "What do you ___? (원하다)",
+      "answer": ["want"],
+      "explanation": "'Want'는 '원하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex62",
+      "type": "multiple_choice",
+      "question": "'I suggest we take a break' 의 의미는?",
+      "options": ["휴식을 취해야 한다", "휴식을 취하는 것을 제안한다", "휴식을 취해도 된다", "휴식을 취할 수 있다"],
+      "answer": "휴식을 취하는 것을 제안한다",
+      "explanation": "'Suggest'는 '제안하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex63",
+      "type": "fill_blank",
+      "question": "Can you ___ a good movie? (추천하다)",
+      "answer": ["recommend"],
+      "explanation": "'Recommend'는 '추천하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex64",
+      "type": "matching",
+      "question": "Match the word with its opposite:",
+      "options": ["accept", "allow", "possible", "likely"],
+      "answer": ["refuse", "forbid", "impossible", "unlikely"],
+      "explanation": "각 단어의 반의어를 연결합니다."
+    },
+    {
+      "id": "ex65",
+      "type": "multiple_choice",
+      "question": "'She offered to help' 의 의미는?",
+      "options": ["그녀가 도움을 거절했다", "그녀가 도움을 제안했다", "그녀가 도움을 강요했다", "그녀가 도움이 필요했다"],
+      "answer": "그녀가 도움을 제안했다",
+      "explanation": "'Offer'는 '제안하다, 제공하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex66",
+      "type": "fill_blank",
+      "question": "I ___ to answer that question. (거절하다)",
+      "answer": ["refuse"],
+      "explanation": "'Refuse'는 '거절하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex67",
+      "type": "multiple_choice",
+      "question": "'Do you accept credit cards?' 의 의미는?",
+      "options": ["신용카드를 거절하나요?", "신용카드를 받나요?", "신용카드가 필요한가요?", "신용카드를 원하나요?"],
+      "answer": "신용카드를 받나요?",
+      "explanation": "'Accept'는 '수락하다, 받아들이다'라는 뜻입니다."
+    },
+    {
+      "id": "ex68",
+      "type": "fill_blank",
+      "question": "Smoking is not ___ here. (허용된)",
+      "answer": ["allowed", "permitted"],
+      "explanation": "'Allowed'와 'Permitted'는 '허용된'이라는 뜻입니다."
+    },
+    {
+      "id": "ex69",
+      "type": "multiple_choice",
+      "question": "'Permit' 과 'Allow' 의 차이는?",
+      "options": ["같은 의미", "Permit이 더 공식적", "Allow가 더 공식적", "반대 의미"],
+      "answer": "Permit이 더 공식적",
+      "explanation": "'Permit'은 'Allow'보다 더 공식적인 표현입니다."
+    },
+    {
+      "id": "ex70",
+      "type": "fill_blank",
+      "question": "Don't ___ me to go. (강요하다)",
+      "answer": ["force"],
+      "explanation": "'Force'는 '강요하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex71",
+      "type": "multiple_choice",
+      "question": "'She encouraged me to try' 의 의미는?",
+      "options": ["그녀가 나를 낙담시켰다", "그녀가 나를 격려했다", "그녀가 나를 막았다", "그녀가 나를 강요했다"],
+      "answer": "그녀가 나를 격려했다",
+      "explanation": "'Encourage'는 '격려하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex72",
+      "type": "fill_blank",
+      "question": "We must ___ this from happening. (방지하다)",
+      "answer": ["prevent"],
+      "explanation": "'Prevent'는 '방지하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex73",
+      "type": "matching",
+      "question": "Match the word with its meaning:",
+      "options": ["sure", "certain", "doubt", "confident"],
+      "answer": ["확실한 (구어)", "확실한 (격식)", "의심하다", "자신감 있는"],
+      "explanation": "각 단어의 의미를 연결합니다."
+    },
+    {
+      "id": "ex74",
+      "type": "multiple_choice",
+      "question": "'No doubt about it' 의 의미는?",
+      "options": ["의심이 많다", "의심의 여지가 없다", "의심스럽다", "확실하지 않다"],
+      "answer": "의심의 여지가 없다",
+      "explanation": "'No doubt'은 '의심의 여지가 없다'는 뜻입니다."
+    },
+    {
+      "id": "ex75",
+      "type": "fill_blank",
+      "question": "Be ___! (자신감 있게)",
+      "answer": ["confident"],
+      "explanation": "'Confident'는 '자신감 있는'이라는 뜻입니다."
+    },
+    {
+      "id": "ex76",
+      "type": "multiple_choice",
+      "question": "'It is likely to rain' 의 의미는?",
+      "options": ["비가 올 리 없다", "비가 올 것 같다", "비가 확실히 온다", "비가 올지도 모른다"],
+      "answer": "비가 올 것 같다",
+      "explanation": "'Likely'는 '~할 것 같은'이라는 뜻입니다."
+    },
+    {
+      "id": "ex77",
+      "type": "fill_blank",
+      "question": "It is ___ to happen. (~할 것 같지 않은)",
+      "answer": ["unlikely"],
+      "explanation": "'Unlikely'는 '~할 것 같지 않은'이라는 뜻입니다."
+    },
+    {
+      "id": "ex78",
+      "type": "multiple_choice",
+      "question": "'This job requires experience' 의 의미는?",
+      "options": ["이 일은 경험을 제공한다", "이 일은 경험이 필요하다", "이 일은 경험을 거부한다", "이 일은 경험을 권장한다"],
+      "answer": "이 일은 경험이 필요하다",
+      "explanation": "'Require'는 '필요로 하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex79",
+      "type": "fill_blank",
+      "question": "This technology ___ us to communicate faster. (가능하게 하다)",
+      "answer": ["enables"],
+      "explanation": "'Enable'은 '가능하게 하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex80",
+      "type": "multiple_choice",
+      "question": "'Decide' 와 'Choose' 의 공통점은?",
+      "options": ["둘 다 거절", "둘 다 선택/결정", "둘 다 허가", "둘 다 강요"],
+      "answer": "둘 다 선택/결정",
+      "explanation": "'Decide'와 'Choose'는 둘 다 선택/결정과 관련됩니다."
+    },
+    {
+      "id": "ex81",
+      "type": "fill_blank",
+      "question": "Which one do you ___? (선택하다)",
+      "answer": ["choose", "prefer"],
+      "explanation": "'Choose'는 '선택하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex82",
+      "type": "matching",
+      "question": "Match the modal with the sentence:",
+      "options": ["ability", "advice", "obligation", "possibility"],
+      "answer": ["I can swim.", "You should rest.", "You must go.", "It may rain."],
+      "explanation": "각 조동사의 용법에 맞는 문장을 연결합니다."
+    },
+    {
+      "id": "ex83",
+      "type": "multiple_choice",
+      "question": "Can I ___ a suggestion? (제안하다)",
+      "options": ["make", "do", "have", "get"],
+      "answer": "make",
+      "explanation": "'Make a suggestion'은 '제안하다'라는 표현입니다."
+    },
+    {
+      "id": "ex84",
+      "type": "fill_blank",
+      "question": "I'm not ___ if he will come. (확실한)",
+      "answer": ["sure", "certain"],
+      "explanation": "'Sure'와 'Certain'은 '확실한'이라는 뜻입니다."
+    },
+    {
+      "id": "ex85",
+      "type": "multiple_choice",
+      "question": "'Perhaps we should leave' 의 의미는?",
+      "options": ["우리가 떠나야 한다", "아마도 우리가 떠나야 할 것 같다", "우리가 떠나면 안 된다", "우리가 떠날 수 있다"],
+      "answer": "아마도 우리가 떠나야 할 것 같다",
+      "explanation": "'Perhaps'는 '아마도'라는 뜻입니다."
+    },
+    {
+      "id": "ex86",
+      "type": "fill_blank",
+      "question": "It will ___ be sunny tomorrow. (높은 확률로 아마도)",
+      "answer": ["probably"],
+      "explanation": "'Probably'는 높은 확률의 '아마도'를 나타냅니다."
+    },
+    {
+      "id": "ex87",
+      "type": "multiple_choice",
+      "question": "'Certainly, sir' 의 의미는?",
+      "options": ["아마도요, 선생님", "물론이죠, 선생님", "잘 모르겠어요, 선생님", "절대 아니에요, 선생님"],
+      "answer": "물론이죠, 선생님",
+      "explanation": "'Certainly'는 '물론, 확실히'라는 뜻입니다."
+    },
+    {
+      "id": "ex88",
+      "type": "fill_blank",
+      "question": "I will ___ come to the party. (분명히)",
+      "answer": ["definitely", "certainly"],
+      "explanation": "'Definitely'와 'Certainly'는 '분명히'라는 뜻입니다."
+    },
+    {
+      "id": "ex89",
+      "type": "matching",
+      "question": "Match the word with its Korean meaning:",
+      "options": ["need", "want", "prefer", "require"],
+      "answer": ["필요하다", "원하다", "선호하다", "요구하다"],
+      "explanation": "각 동사의 한국어 의미를 연결합니다."
+    },
+    {
+      "id": "ex90",
+      "type": "multiple_choice",
+      "question": "'I don't need your help' 의 의미는?",
+      "options": ["당신의 도움이 필요해요", "당신의 도움이 필요 없어요", "당신의 도움을 원해요", "당신의 도움을 거절해요"],
+      "answer": "당신의 도움이 필요 없어요",
+      "explanation": "'Don't need'는 '필요 없다'는 뜻입니다."
+    },
+    {
+      "id": "ex91",
+      "type": "fill_blank",
+      "question": "I ___ to stay home today. (원하다)",
+      "answer": ["want"],
+      "explanation": "'Want to'는 '~하고 싶다'라는 뜻입니다."
+    },
+    {
+      "id": "ex92",
+      "type": "multiple_choice",
+      "question": "'I prefer tea to coffee' 의 의미는?",
+      "options": ["나는 커피를 더 좋아한다", "나는 차를 더 좋아한다", "나는 둘 다 좋아한다", "나는 둘 다 싫어한다"],
+      "answer": "나는 차를 더 좋아한다",
+      "explanation": "'Prefer A to B'는 'B보다 A를 더 좋아하다'입니다."
+    },
+    {
+      "id": "ex93",
+      "type": "fill_blank",
+      "question": "What do you ___? (제안하다)",
+      "answer": ["suggest", "recommend"],
+      "explanation": "'Suggest'는 '제안하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex94",
+      "type": "multiple_choice",
+      "question": "'Can I offer you something to drink?' 의 의미는?",
+      "options": ["마실 것을 드릴까요?", "마실 것을 주세요", "마실 것이 필요해요", "마실 것을 거절해요"],
+      "answer": "마실 것을 드릴까요?",
+      "explanation": "'Offer'는 '제안하다, 제공하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex95",
+      "type": "fill_blank",
+      "question": "I can't ___ your offer. (거절하다)",
+      "answer": ["refuse", "reject"],
+      "explanation": "'Refuse'는 '거절하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex96",
+      "type": "matching",
+      "question": "Match the expression with its use:",
+      "options": ["Can I...?", "Could you...?", "Would you like...?", "May I...?"],
+      "answer": ["비격식 요청", "공손한 요청", "권유", "격식 허가 요청"],
+      "explanation": "각 표현의 사용법을 연결합니다."
+    },
+    {
+      "id": "ex97",
+      "type": "multiple_choice",
+      "question": "'You are not allowed to enter' 의 의미는?",
+      "options": ["들어가도 된다", "들어가면 안 된다", "들어가야 한다", "들어갈 수 있다"],
+      "answer": "들어가면 안 된다",
+      "explanation": "'Not allowed'는 '허용되지 않는다'는 뜻입니다."
+    },
+    {
+      "id": "ex98",
+      "type": "fill_blank",
+      "question": "You need a ___ to park here. (허가증)",
+      "answer": ["permit"],
+      "explanation": "'Permit'은 명사로 '허가증'이라는 뜻입니다."
+    },
+    {
+      "id": "ex99",
+      "type": "multiple_choice",
+      "question": "'Don't force yourself' 의 의미는?",
+      "options": ["자신을 격려해", "자신을 강요하지 마", "자신을 허락해", "자신을 믿어"],
+      "answer": "자신을 강요하지 마",
+      "explanation": "'Force'는 '강요하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex100",
+      "type": "fill_blank",
+      "question": "She ___ me to try again. (격려하다)",
+      "answer": ["encouraged"],
+      "explanation": "'Encourage'는 '격려하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex101",
+      "type": "multiple_choice",
+      "question": "'Prevent someone from doing' 의 의미는?",
+      "options": ["~하도록 격려하다", "~하는 것을 막다", "~하도록 허락하다", "~하도록 강요하다"],
+      "answer": "~하는 것을 막다",
+      "explanation": "'Prevent from'은 '~하는 것을 막다'라는 뜻입니다."
+    },
+    {
+      "id": "ex102",
+      "type": "fill_blank",
+      "question": "Are you ___ about this? (확실한)",
+      "answer": ["sure", "certain"],
+      "explanation": "'Sure'와 'Certain'은 '확실한'이라는 뜻입니다."
+    },
+    {
+      "id": "ex103",
+      "type": "matching",
+      "question": "Match the probability word:",
+      "options": ["definitely", "probably", "possibly", "unlikely"],
+      "answer": ["확실히 (~100%)", "아마도 (~80%)", "어쩌면 (~50%)", "~할 것 같지 않은 (~20%)"],
+      "explanation": "확률을 나타내는 단어를 연결합니다."
+    },
+    {
+      "id": "ex104",
+      "type": "multiple_choice",
+      "question": "I ___ swim. (현재 능력)",
+      "options": ["can", "could", "was able to", "might"],
+      "answer": "can",
+      "explanation": "'Can'은 현재의 능력을 나타냅니다."
+    },
+    {
+      "id": "ex105",
+      "type": "fill_blank",
+      "question": "You ___ take an umbrella. It may rain. (조언)",
+      "answer": ["should"],
+      "explanation": "'Should'는 조언을 나타냅니다."
+    },
+    {
+      "id": "ex106",
+      "type": "multiple_choice",
+      "question": "'Must' 와 'Should' 의 차이는?",
+      "options": ["같은 강도", "Must가 더 강함", "Should가 더 강함", "반대 의미"],
+      "answer": "Must가 더 강함",
+      "explanation": "'Must'는 강한 의무, 'Should'는 조언입니다."
+    },
+    {
+      "id": "ex107",
+      "type": "fill_blank",
+      "question": "___ you pass the salt, please? (공손한 요청)",
+      "answer": ["Could", "Would", "Can"],
+      "explanation": "공손한 요청에는 'Could', 'Would', 'Can'을 사용합니다."
+    },
+    {
+      "id": "ex108",
+      "type": "multiple_choice",
+      "question": "'Have you decided yet?' 의 의미는?",
+      "options": ["아직 결정했나요?", "벌써 결정했나요?", "결정할 수 있나요?", "결정해야 하나요?"],
+      "answer": "아직 결정했나요?",
+      "explanation": "'Decide'는 '결정하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex109",
+      "type": "fill_blank",
+      "question": "You can ___ any one you like. (선택하다)",
+      "answer": ["choose"],
+      "explanation": "'Choose'는 '선택하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex110",
+      "type": "matching",
+      "question": "Match the modal with its negation:",
+      "options": ["can", "must", "should", "have to"],
+      "answer": ["cannot/can't", "must not/mustn't", "should not/shouldn't", "don't have to"],
+      "explanation": "각 조동사의 부정형을 연결합니다."
+    },
+    {
+      "id": "ex111",
+      "type": "multiple_choice",
+      "question": "'Able' 의 명사형은?",
+      "options": ["Ableity", "Ability", "Ableness", "Abler"],
+      "answer": "Ability",
+      "explanation": "'Able'의 명사형은 'Ability'입니다."
+    },
+    {
+      "id": "ex112",
+      "type": "fill_blank",
+      "question": "You need ___ to enter. (허가)",
+      "answer": ["permission"],
+      "explanation": "'Permission'은 '허가'라는 뜻입니다."
+    },
+    {
+      "id": "ex113",
+      "type": "multiple_choice",
+      "question": "'There is a possibility' 의 의미는?",
+      "options": ["불가능하다", "가능성이 있다", "필요하다", "확실하다"],
+      "answer": "가능성이 있다",
+      "explanation": "'Possibility'는 '가능성'이라는 뜻입니다."
+    },
+    {
+      "id": "ex114",
+      "type": "fill_blank",
+      "question": "It is ___ to bring your ID. (필요한)",
+      "answer": ["necessary"],
+      "explanation": "'Necessary'는 '필요한'이라는 뜻입니다."
+    },
+    {
+      "id": "ex115",
+      "type": "matching",
+      "question": "Match the word with its opposite:",
+      "options": ["necessary", "possible", "certain", "capable"],
+      "answer": ["unnecessary", "impossible", "uncertain", "incapable"],
+      "explanation": "각 단어의 반의어를 연결합니다."
+    },
+    {
+      "id": "ex116",
+      "type": "multiple_choice",
+      "question": "'He has an obligation to help' 의 의미는?",
+      "options": ["그는 도울 능력이 있다", "그는 도울 의무가 있다", "그는 도울 수 있다", "그는 도움을 원한다"],
+      "answer": "그는 도울 의무가 있다",
+      "explanation": "'Obligation'은 '의무'라는 뜻입니다."
+    },
+    {
+      "id": "ex117",
+      "type": "fill_blank",
+      "question": "Can you give me some ___? (조언)",
+      "answer": ["advice"],
+      "explanation": "'Advice'는 '조언'이라는 뜻입니다."
+    },
+    {
+      "id": "ex118",
+      "type": "multiple_choice",
+      "question": "'Advice' 와 'Advise' 의 차이는?",
+      "options": ["같은 의미", "Advice=명사, Advise=동사", "Advice=동사, Advise=명사", "반대 의미"],
+      "answer": "Advice=명사, Advise=동사",
+      "explanation": "'Advice'는 명사, 'Advise'는 동사입니다."
+    },
+    {
+      "id": "ex119",
+      "type": "fill_blank",
+      "question": "I have a ___ to make. (요청)",
+      "answer": ["request"],
+      "explanation": "'Request'는 '요청'이라는 뜻입니다."
+    },
+    {
+      "id": "ex120",
+      "type": "multiple_choice",
+      "question": "'Allowed' 와 'Aloud' 의 차이는?",
+      "options": ["같은 발음, 같은 의미", "같은 발음, 다른 의미", "다른 발음, 같은 의미", "다른 발음, 다른 의미"],
+      "answer": "같은 발음, 다른 의미",
+      "explanation": "'Allowed'는 '허용된', 'Aloud'는 '큰 소리로'입니다."
+    },
+    {
+      "id": "ex121",
+      "type": "fill_blank",
+      "question": "Taking photos is ___. (금지된)",
+      "answer": ["forbidden", "prohibited"],
+      "explanation": "'Forbidden'과 'Prohibited'는 '금지된'이라는 뜻입니다."
+    },
+    {
+      "id": "ex122",
+      "type": "matching",
+      "question": "Match the word with its adjective form:",
+      "options": ["ability", "possibility", "necessity", "capability"],
+      "answer": ["able", "possible", "necessary", "capable"],
+      "explanation": "각 명사의 형용사형을 연결합니다."
+    },
+    {
+      "id": "ex123",
+      "type": "multiple_choice",
+      "question": "'She is capable of success' 의 의미는?",
+      "options": ["그녀는 성공할 능력이 있다", "그녀는 성공해야 한다", "그녀는 성공할 수 없다", "그녀는 성공을 원한다"],
+      "answer": "그녀는 성공할 능력이 있다",
+      "explanation": "'Capable of'는 '~할 능력이 있는'이라는 뜻입니다."
+    },
+    {
+      "id": "ex124",
+      "type": "fill_blank",
+      "question": "Is it ___ to change the date? (가능한)",
+      "answer": ["possible"],
+      "explanation": "'Possible'은 '가능한'이라는 뜻입니다."
+    },
+    {
+      "id": "ex125",
+      "type": "multiple_choice",
+      "question": "'Nothing is impossible' 의 의미는?",
+      "options": ["모든 것이 불가능하다", "불가능한 것은 없다", "가능한 것이 없다", "모든 것이 어렵다"],
+      "answer": "불가능한 것은 없다",
+      "explanation": "'Nothing is impossible'은 '불가능한 것은 없다'라는 뜻입니다."
+    },
+    {
+      "id": "ex126",
+      "type": "fill_blank",
+      "question": "___ I will come tomorrow. (아마도)",
+      "answer": ["Maybe", "Perhaps"],
+      "explanation": "'Maybe'와 'Perhaps'는 '아마도'라는 뜻입니다."
+    },
+    {
+      "id": "ex127",
+      "type": "matching",
+      "question": "Match the word with its formality:",
+      "options": ["maybe", "perhaps", "probably", "certainly"],
+      "answer": ["비격식", "격식", "중립", "확신"],
+      "explanation": "각 단어의 격식 수준을 연결합니다."
+    },
+    {
+      "id": "ex128",
+      "type": "multiple_choice",
+      "question": "'Probably' 와 'Maybe' 의 확률 차이는?",
+      "options": ["Probably가 더 높음", "Maybe가 더 높음", "같은 확률", "반대 의미"],
+      "answer": "Probably가 더 높음",
+      "explanation": "'Probably'는 'Maybe'보다 더 높은 확률입니다."
+    },
+    {
+      "id": "ex129",
+      "type": "fill_blank",
+      "question": "I will ___ help you. (확실히, 물론)",
+      "answer": ["certainly", "definitely"],
+      "explanation": "'Certainly'와 'Definitely'는 '확실히'라는 뜻입니다."
+    },
+    {
+      "id": "ex130",
+      "type": "multiple_choice",
+      "question": "'Need' 를 조동사로 사용하면?",
+      "options": ["I need go", "I need to go", "I needs go", "Need I go"],
+      "answer": "Need I go",
+      "explanation": "'Need'가 조동사일 때는 'Need I~?' 형태입니다."
+    },
+    {
+      "id": "ex131",
+      "type": "fill_blank",
+      "question": "I ___ coffee to tea. (선호하다)",
+      "answer": ["prefer"],
+      "explanation": "'Prefer A to B'는 'B보다 A를 선호하다'입니다."
+    },
+    {
+      "id": "ex132",
+      "type": "matching",
+      "question": "Match the word with its meaning:",
+      "options": ["suggest", "recommend", "offer", "request"],
+      "answer": ["제안하다", "추천하다", "제공하다", "요청하다"],
+      "explanation": "각 동사의 의미를 연결합니다."
+    },
+    {
+      "id": "ex133",
+      "type": "multiple_choice",
+      "question": "'I strongly recommend' 의 의미는?",
+      "options": ["약하게 제안한다", "강력히 추천한다", "거절한다", "요구한다"],
+      "answer": "강력히 추천한다",
+      "explanation": "'Strongly recommend'는 '강력히 추천하다'입니다."
+    },
+    {
+      "id": "ex134",
+      "type": "fill_blank",
+      "question": "He ___ to help me. (제안하다)",
+      "answer": ["offered"],
+      "explanation": "'Offer to'는 '~하겠다고 제안하다'입니다."
+    },
+    {
+      "id": "ex135",
+      "type": "multiple_choice",
+      "question": "'She refused to go' 의 의미는?",
+      "options": ["그녀가 가겠다고 했다", "그녀가 가기를 거절했다", "그녀가 갈 수 있다", "그녀가 가야 한다"],
+      "answer": "그녀가 가기를 거절했다",
+      "explanation": "'Refuse to'는 '~하기를 거절하다'입니다."
+    },
+    {
+      "id": "ex136",
+      "type": "fill_blank",
+      "question": "I ___ your apology. (수락하다)",
+      "answer": ["accept"],
+      "explanation": "'Accept'는 '수락하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex137",
+      "type": "matching",
+      "question": "Match the verb with its pattern:",
+      "options": ["allow", "force", "encourage", "prevent"],
+      "answer": ["allow + to V", "force + to V", "encourage + to V", "prevent + from V-ing"],
+      "explanation": "각 동사의 패턴을 연결합니다."
+    },
+    {
+      "id": "ex138",
+      "type": "multiple_choice",
+      "question": "'Please allow me to speak' 의 의미는?",
+      "options": ["말하도록 강요해 주세요", "말하도록 허락해 주세요", "말하지 마세요", "말해야 합니다"],
+      "answer": "말하도록 허락해 주세요",
+      "explanation": "'Allow + to V'는 '~하도록 허락하다'입니다."
+    },
+    {
+      "id": "ex139",
+      "type": "fill_blank",
+      "question": "Do you have a work ___? (허가증)",
+      "answer": ["permit"],
+      "explanation": "'Permit'은 명사로 '허가증'이라는 뜻입니다."
+    },
+    {
+      "id": "ex140",
+      "type": "multiple_choice",
+      "question": "'He forced me to sign' 의 의미는?",
+      "options": ["그가 나에게 서명하도록 허락했다", "그가 나에게 서명하도록 강요했다", "그가 나에게 서명하도록 격려했다", "그가 나에게 서명하도록 제안했다"],
+      "answer": "그가 나에게 서명하도록 강요했다",
+      "explanation": "'Force + to V'는 '~하도록 강요하다'입니다."
+    },
+    {
+      "id": "ex141",
+      "type": "fill_blank",
+      "question": "We should ___ young people to learn. (격려하다)",
+      "answer": ["encourage"],
+      "explanation": "'Encourage'는 '격려하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex142",
+      "type": "multiple_choice",
+      "question": "'Prevent from' 다음에는?",
+      "options": ["동사원형", "to + 동사원형", "동사-ing", "과거형"],
+      "answer": "동사-ing",
+      "explanation": "'Prevent from + V-ing' 형태입니다."
+    },
+    {
+      "id": "ex143",
+      "type": "fill_blank",
+      "question": "I am ___ he will succeed. (확신하는)",
+      "answer": ["sure", "certain", "confident"],
+      "explanation": "'Sure', 'Certain', 'Confident'는 '확신하는'이라는 뜻입니다."
+    },
+    {
+      "id": "ex144",
+      "type": "matching",
+      "question": "Match the word with its meaning:",
+      "options": ["doubt", "trust", "believe", "suspect"],
+      "answer": ["의심하다", "신뢰하다", "믿다", "의심하다/추측하다"],
+      "explanation": "각 동사의 의미를 연결합니다."
+    },
+    {
+      "id": "ex145",
+      "type": "multiple_choice",
+      "question": "'It is likely that' 다음에는?",
+      "options": ["동사원형", "동사-ing", "주어 + 동사", "to + 동사원형"],
+      "answer": "주어 + 동사",
+      "explanation": "'It is likely that + 주어 + 동사' 형태입니다."
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "question": "It is ___ that he will fail. (~할 것 같지 않은)",
+      "answer": ["unlikely"],
+      "explanation": "'Unlikely'는 '~할 것 같지 않은'이라는 뜻입니다."
+    },
+    {
+      "id": "ex147",
+      "type": "multiple_choice",
+      "question": "'Require' 와 'Need' 의 차이는?",
+      "options": ["같은 의미", "Require가 더 공식적", "Need가 더 공식적", "반대 의미"],
+      "answer": "Require가 더 공식적",
+      "explanation": "'Require'는 'Need'보다 더 공식적입니다."
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "question": "This program ___ you to create documents. (가능하게 하다)",
+      "answer": ["enables"],
+      "explanation": "'Enable'은 '가능하게 하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex149",
+      "type": "multiple_choice",
+      "question": "'Make a decision' 와 같은 의미는?",
+      "options": ["Choose", "Decide", "Select", "Pick"],
+      "answer": "Decide",
+      "explanation": "'Make a decision'은 'Decide'와 같은 의미입니다."
+    },
+    {
+      "id": "ex150",
+      "type": "matching",
+      "question": "Match the modal verb usage:",
+      "options": ["능력", "조언", "의무", "가능성"],
+      "answer": ["can/be able to", "should", "must/have to", "may/might"],
+      "explanation": "각 용법에 맞는 조동사를 연결합니다."
     }
   ]
 }
