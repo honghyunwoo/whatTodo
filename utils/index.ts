@@ -14,3 +14,4 @@ export {
   addBreadcrumb,
   Sentry,
 } from './sentry';
+export { exportBackup, importBackup, rehydratePersistedStores } from './backup';
