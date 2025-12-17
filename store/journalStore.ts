@@ -108,6 +108,12 @@ const createInitialSkillProgress = (): SkillProgress => ({
   lastUpdated: new Date().toISOString(),
 });
 
+const INITIAL_JOURNAL_STATE: JournalState = {
+  entries: {},
+  streak: createInitialStreak(),
+  skillProgress: createInitialSkillProgress(),
+};
+
 // ─────────────────────────────────────
 // Store
 // ─────────────────────────────────────
@@ -378,6 +384,23 @@ export const useJournalStore = create<JournalState & JournalActions>()(
     {
       name: STORAGE_KEYS.JOURNAL,
       storage: createJSONStorage(() => AsyncStorage),
+      version: 1,
+      migrate: (persistedState) => {
+        const state = (persistedState as Partial<JournalState>) || {};
+
+        return {
+          ...INITIAL_JOURNAL_STATE,
+          ...state,
+          streak: {
+            ...INITIAL_JOURNAL_STATE.streak,
+            ...(state.streak || {}),
+          },
+          skillProgress: {
+            ...INITIAL_JOURNAL_STATE.skillProgress,
+            ...(state.skillProgress || {}),
+          },
+        };
+      },
     }
   )
 );

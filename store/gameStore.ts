@@ -219,24 +219,24 @@ const checkWin = (tiles: Tile[], gridSize: number): boolean => {
   return tiles.some((tile) => tile.value >= winningTile);
 };
 
+const INITIAL_GAME_STATE: GameState = {
+  tiles: [],
+  score: 0,
+  bestScore: 0,
+  status: 'playing',
+  gridSize: GRID_SIZE,
+  currentTheme: 'classic',
+  history: [],
+  undoCount: 0,
+  moveCount: 0,
+  gameStartedAt: undefined,
+  stats: DEFAULT_STATS,
+};
+
 export const useGameStore = create<GameState & GameActions>()(
   persist(
     (set, get) => ({
-      tiles: [],
-      score: 0,
-      bestScore: 0,
-      status: 'playing',
-      gridSize: GRID_SIZE,
-      currentTheme: 'classic',
-
-      // Undo 관련
-      history: [],
-      undoCount: 0,
-      moveCount: 0,
-      gameStartedAt: undefined,
-
-      // 통계
-      stats: DEFAULT_STATS,
+      ...INITIAL_GAME_STATE,
 
       // ========================================
       // 게임 제어
@@ -463,6 +463,17 @@ export const useGameStore = create<GameState & GameActions>()(
         moveCount: state.moveCount,
         gameStartedAt: state.gameStartedAt,
         stats: state.stats,
+      }),
+      version: 1,
+      migrate: (persistedState) => ({
+        ...INITIAL_GAME_STATE,
+        ...(persistedState as Partial<GameState>),
+        tiles: (persistedState as Partial<GameState>)?.tiles || [],
+        history: (persistedState as Partial<GameState>)?.history || [],
+        stats: {
+          ...DEFAULT_STATS,
+          ...(persistedState as Partial<GameState>)?.stats,
+        },
       }),
     }
   )

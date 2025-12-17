@@ -274,6 +274,16 @@ export const useUserStore = create<UserState & UserActions>()(
     {
       name: STORAGE_KEYS.REWARDS + '_user',
       storage: createJSONStorage(() => AsyncStorage),
+      version: 1,
+      migrate: (persistedState) => ({
+        ...DEFAULT_STATE,
+        ...(persistedState as Partial<UserState>),
+        createdAt: (persistedState as Partial<UserState>)?.createdAt || null,
+        firstStudyDate: (persistedState as Partial<UserState>)?.firstStudyDate || null,
+        reminderSettings:
+          (persistedState as Partial<UserState>)?.reminderSettings || DEFAULT_STATE.reminderSettings,
+        skillScores: (persistedState as Partial<UserState>)?.skillScores || {},
+      }),
     }
   )
 );

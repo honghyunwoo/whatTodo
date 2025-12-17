@@ -29,6 +29,15 @@ const ACTIVITY_TYPES: ActivityType[] = [
 
 const WEEK_IDS = ['week-1', 'week-2', 'week-3', 'week-4', 'week-5', 'week-6', 'week-7', 'week-8'];
 
+const INITIAL_LEARN_STATE: LearnState = {
+  currentWeek: 'week-1',
+  currentLevel: 'A1',
+  progress: [],
+  weekProgress: [],
+  streak: 0,
+  lastStudyDate: null,
+};
+
 // ─────────────────────────────────────
 // State & Actions
 // ─────────────────────────────────────
@@ -86,12 +95,7 @@ export const useLearnStore = create<LearnState & LearnActions>()(
   persist(
     (set, get) => ({
       // 초기 상태
-      currentWeek: 'week-1',
-      currentLevel: 'A1',
-      progress: [],
-      weekProgress: [],
-      streak: 0,
-      lastStudyDate: null,
+      ...INITIAL_LEARN_STATE,
 
       // 주차/레벨 설정
       setCurrentWeek: (weekId) => {
@@ -315,6 +319,14 @@ export const useLearnStore = create<LearnState & LearnActions>()(
     {
       name: STORAGE_KEYS.LEARN_PROGRESS,
       storage: createJSONStorage(() => AsyncStorage),
+      version: 1,
+      migrate: (persistedState) => ({
+        ...INITIAL_LEARN_STATE,
+        ...(persistedState as Partial<LearnState>),
+        progress: (persistedState as Partial<LearnState>)?.progress || [],
+        weekProgress: (persistedState as Partial<LearnState>)?.weekProgress || [],
+        lastStudyDate: (persistedState as Partial<LearnState>)?.lastStudyDate || null,
+      }),
     }
   )
 );

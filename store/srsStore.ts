@@ -87,6 +87,20 @@ const getToday = (): string => {
   return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
 };
 
+const INITIAL_SRS_STATE: SrsState = {
+  words: [],
+  reviewStats: {
+    totalReviews: 0,
+    correctReviews: 0,
+    averageEaseFactor: 2.5,
+    longestInterval: 0,
+    lastReviewDate: null,
+  },
+  dailyReviewGoal: 20,
+  todayReviewCount: 0,
+  lastReviewDate: null,
+};
+
 // ─────────────────────────────────────
 // Store
 // ─────────────────────────────────────
@@ -95,17 +109,7 @@ export const useSrsStore = create<SrsState & SrsActions>()(
   persist(
     (set, get) => ({
       // Initial state
-      words: [],
-      reviewStats: {
-        totalReviews: 0,
-        correctReviews: 0,
-        averageEaseFactor: 2.5,
-        longestInterval: 0,
-        lastReviewDate: null,
-      },
-      dailyReviewGoal: 20,
-      todayReviewCount: 0,
-      lastReviewDate: null,
+      ...INITIAL_SRS_STATE,
 
       // Add a single word
       addWord: (wordData) => {
@@ -281,6 +285,16 @@ export const useSrsStore = create<SrsState & SrsActions>()(
     {
       name: STORAGE_KEYS.SRS || 'srs-storage',
       storage: createJSONStorage(() => AsyncStorage),
+      version: 1,
+      migrate: (persistedState) => ({
+        ...INITIAL_SRS_STATE,
+        ...(persistedState as Partial<SrsState>),
+        reviewStats: {
+          ...INITIAL_SRS_STATE.reviewStats,
+          ...(persistedState as Partial<SrsState>)?.reviewStats,
+        },
+        lastReviewDate: (persistedState as Partial<SrsState>)?.lastReviewDate || null,
+      }),
     }
   )
 );

@@ -40,6 +40,23 @@ const getStreakMultiplier = (streak: number): number => {
   return 1.0;
 };
 
+const INITIAL_REWARD_STATE: RewardState = {
+  stars: 0,
+  totalStarsEarned: 0,
+  streak: 0,
+  longestStreak: 0,
+  lastActiveDate: null,
+  unlockedThemes: ['classic'],
+  unlockedBadges: [],
+  todayTasksCompleted: 0,
+  todayStarsEarned: 0,
+  todayLearningActivities: 0,
+  todayLearningStars: 0,
+  totalLearningActivities: 0,
+  perfectScores: 0,
+  todaySkillsCompleted: [],
+};
+
 interface RewardState {
   // Core stats
   stars: number;
@@ -108,21 +125,7 @@ export const useRewardStore = create<RewardState & RewardActions>()(
   persist(
     (set, get) => ({
       // Initial state
-      stars: 0,
-      totalStarsEarned: 0,
-      streak: 0,
-      longestStreak: 0,
-      lastActiveDate: null,
-      unlockedThemes: ['classic'], // Default theme is always unlocked
-      unlockedBadges: [],
-      todayTasksCompleted: 0,
-      todayStarsEarned: 0,
-      // Learning stats
-      todayLearningActivities: 0,
-      todayLearningStars: 0,
-      totalLearningActivities: 0,
-      perfectScores: 0,
-      todaySkillsCompleted: [],
+      ...INITIAL_REWARD_STATE,
 
       earnStars: (amount, priority) => {
         const state = get();
@@ -284,6 +287,22 @@ export const useRewardStore = create<RewardState & RewardActions>()(
     {
       name: STORAGE_KEYS.REWARDS,
       storage: createJSONStorage(() => AsyncStorage),
+      version: 1,
+      migrate: (persistedState) => {
+        const state = (persistedState as Partial<RewardState>) || {};
+        const unlockedThemes = state.unlockedThemes || [];
+        const ensureClassic = unlockedThemes.includes('classic')
+          ? unlockedThemes
+          : ['classic', ...unlockedThemes];
+
+        return {
+          ...INITIAL_REWARD_STATE,
+          ...state,
+          unlockedThemes: ensureClassic,
+          unlockedBadges: state.unlockedBadges || [],
+          todaySkillsCompleted: state.todaySkillsCompleted || [],
+        };
+      },
     }
   )
 );

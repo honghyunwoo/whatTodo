@@ -53,13 +53,17 @@ interface TaskActions {
 
 const PRIORITY_ORDER = { urgent: 0, high: 1, medium: 2, low: 3 } as const;
 
+const INITIAL_TASK_STATE: TaskState = {
+  tasks: [],
+  filter: 'all',
+  sortBy: 'createdAt',
+  smartList: 'today',
+};
+
 export const useTaskStore = create<TaskState & TaskActions>()(
   persist(
     (set, get) => ({
-      tasks: [],
-      filter: 'all',
-      sortBy: 'createdAt',
-      smartList: 'today',
+      ...INITIAL_TASK_STATE,
 
       addTask: (data) => {
         const now = new Date().toISOString();
@@ -422,6 +426,11 @@ export const useTaskStore = create<TaskState & TaskActions>()(
     {
       name: STORAGE_KEYS.TASKS,
       storage: createJSONStorage(() => AsyncStorage),
+      version: 1,
+      migrate: (persistedState) => ({
+        ...INITIAL_TASK_STATE,
+        ...(persistedState as Partial<TaskState>),
+      }),
     }
   )
 );

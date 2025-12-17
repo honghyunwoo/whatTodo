@@ -76,6 +76,17 @@ const MILESTONES = [3, 7, 14, 30, 60, 100, 365];
 const RISK_HOUR = 20; // 저녁 8시 이후 경고
 const DEFAULT_FREEZES = 1; // 기본 프리즈 1개
 
+const INITIAL_STREAK_STATE: StreakState = {
+  currentStreak: 0,
+  longestStreak: 0,
+  lastStudyDate: null,
+  streakFreezes: DEFAULT_FREEZES,
+  usedFreezeToday: false,
+  streakAtRisk: false,
+  lastWarningShown: null,
+  streakMilestones: [],
+};
+
 // ─────────────────────────────────────
 // Helper Functions
 // ─────────────────────────────────────
@@ -124,14 +135,7 @@ export const useStreakStore = create<StreakState & StreakActions>()(
   persist(
     (set, get) => ({
       // 초기 상태
-      currentStreak: 0,
-      longestStreak: 0,
-      lastStudyDate: null,
-      streakFreezes: DEFAULT_FREEZES,
-      usedFreezeToday: false,
-      streakAtRisk: false,
-      lastWarningShown: null,
-      streakMilestones: [],
+      ...INITIAL_STREAK_STATE,
 
       /**
        * 스트릭 상태 체크 (앱 시작 시 호출)
@@ -333,6 +337,14 @@ export const useStreakStore = create<StreakState & StreakActions>()(
     {
       name: STORAGE_KEYS.REWARDS + '_streak', // 별도 키 사용
       storage: createJSONStorage(() => AsyncStorage),
+      version: 1,
+      migrate: (persistedState) => ({
+        ...INITIAL_STREAK_STATE,
+        ...(persistedState as Partial<StreakState>),
+        lastStudyDate: (persistedState as Partial<StreakState>)?.lastStudyDate || null,
+        lastWarningShown: (persistedState as Partial<StreakState>)?.lastWarningShown || null,
+        streakMilestones: (persistedState as Partial<StreakState>)?.streakMilestones || [],
+      }),
     }
   )
 );

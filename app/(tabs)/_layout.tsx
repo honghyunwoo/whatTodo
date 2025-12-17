@@ -1,5 +1,6 @@
-import { Tabs } from 'expo-router';
+import { Tabs, Link } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
+import { Pressable } from 'react-native';
 
 import { COLORS } from '@/constants/colors';
 
@@ -10,6 +11,20 @@ export default function TabLayout() {
         tabBarActiveTintColor: COLORS.primary,
         tabBarInactiveTintColor: COLORS.textSecondary,
         headerShown: true,
+        headerRight: () => (
+          <Link href="/settings" asChild>
+            <Pressable>
+              {({ pressed }) => (
+                <Ionicons
+                  name="settings-outline"
+                  size={22}
+                  color={COLORS.textSecondary}
+                  style={{ opacity: pressed ? 0.6 : 1 }}
+                />
+              )}
+            </Pressable>
+          </Link>
+        ),
       }}
     >
       <Tabs.Screen
