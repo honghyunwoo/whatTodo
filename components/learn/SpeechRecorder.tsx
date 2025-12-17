@@ -30,10 +30,10 @@ import speechService from '@/services/speechService';
 // ─────────────────────────────────────
 
 type RecorderPhase =
-  | 'ready'        // Initial state - ready to play model
-  | 'recording'    // Recording user voice
-  | 'recorded'     // Recording complete, ready for playback
-  | 'self-check';  // Showing self-check options
+  | 'ready' // Initial state - ready to play model
+  | 'recording' // Recording user voice
+  | 'recorded' // Recording complete, ready for playback
+  | 'self-check'; // Showing self-check options
 
 interface SpeechRecorderProps {
   expectedText: string;
@@ -68,9 +68,7 @@ export function SpeechRecorder({
 
   // Recording state
   const [duration, setDuration] = useState(0);
-  const [audioLevels, setAudioLevels] = useState<number[]>(
-    Array(AUDIO_LEVEL_BARS).fill(0)
-  );
+  const [audioLevels, setAudioLevels] = useState<number[]>(Array(AUDIO_LEVEL_BARS).fill(0));
   const [recordedUri, setRecordedUri] = useState<string | null>(null);
 
   // TTS state
@@ -82,6 +80,7 @@ export function SpeechRecorder({
 
   const durationTimerRef = useRef<NodeJS.Timeout | null>(null);
   const audioLevelTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const playbackTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   // Animation values
   const pulseScale = useSharedValue(1);
@@ -98,11 +97,7 @@ export function SpeechRecorder({
   // Pulse animation when recording
   useEffect(() => {
     if (phase === 'recording') {
-      pulseScale.value = withRepeat(
-        withSpring(1.2, { damping: 2, stiffness: 80 }),
-        -1,
-        true
-      );
+      pulseScale.value = withRepeat(withSpring(1.2, { damping: 2, stiffness: 80 }), -1, true);
       recordingOpacity.value = withTiming(1, { duration: 200 });
     } else {
       pulseScale.value = withSpring(1);
@@ -165,6 +160,9 @@ export function SpeechRecorder({
     return () => {
       speechService.stopTTS();
       speechService.stopPlayback();
+      if (playbackTimerRef.current) {
+        clearTimeout(playbackTimerRef.current);
+      }
     };
   }, []);
 
@@ -179,25 +177,28 @@ export function SpeechRecorder({
   // TTS Handlers
   // ─────────────────────────────────────
 
-  const handlePlayModel = useCallback(async (speed: 'slow' | 'normal') => {
-    if (disabled || isTTSPlaying) return;
+  const handlePlayModel = useCallback(
+    async (speed: 'slow' | 'normal') => {
+      if (disabled || isTTSPlaying) return;
 
-    try {
-      await learnHaptics.selection();
-      setIsTTSPlaying(true);
-      setTtsSpeed(speed);
+      try {
+        await learnHaptics.selection();
+        setIsTTSPlaying(true);
+        setTtsSpeed(speed);
 
-      if (speed === 'slow') {
-        await speechService.playSlowPronunciation(expectedText);
-      } else {
-        await speechService.playNormalPronunciation(expectedText);
+        if (speed === 'slow') {
+          await speechService.playSlowPronunciation(expectedText);
+        } else {
+          await speechService.playNormalPronunciation(expectedText);
+        }
+      } catch (error) {
+        console.error('TTS playback failed:', error);
+      } finally {
+        setIsTTSPlaying(false);
       }
-    } catch (error) {
-      console.error('TTS playback failed:', error);
-    } finally {
-      setIsTTSPlaying(false);
-    }
-  }, [disabled, isTTSPlaying, expectedText]);
+    },
+    [disabled, isTTSPlaying, expectedText]
+  );
 
   const handleStopTTS = useCallback(async () => {
     await speechService.stopTTS();
@@ -263,7 +264,7 @@ export function SpeechRecorder({
     } finally {
       // Note: This will fire immediately since playAudio doesn't wait for completion
       // In a real implementation, we'd want to track the sound playback status
-      setTimeout(() => setIsPlayingRecording(false), 3000);
+      playbackTimerRef.current = setTimeout(() => setIsPlayingRecording(false), 3000);
     }
   }, [recordedUri, isPlayingRecording]);
 
@@ -281,16 +282,19 @@ export function SpeechRecorder({
     learnHaptics.selection();
   }, []);
 
-  const handleSelfCheck = useCallback((satisfied: boolean) => {
-    learnHaptics.impact();
-    onComplete(satisfied);
+  const handleSelfCheck = useCallback(
+    (satisfied: boolean) => {
+      learnHaptics.impact();
+      onComplete(satisfied);
 
-    // Reset state for next attempt if not satisfied
-    if (!satisfied) {
-      setPhase('ready');
-      setRecordedUri(null);
-    }
-  }, [onComplete]);
+      // Reset state for next attempt if not satisfied
+      if (!satisfied) {
+        setPhase('ready');
+        setRecordedUri(null);
+      }
+    },
+    [onComplete]
+  );
 
   const handleRetry = useCallback(() => {
     setPhase('ready');
@@ -306,19 +310,9 @@ export function SpeechRecorder({
     <View style={styles.container}>
       {/* Expected Text Display */}
       <View style={[styles.textCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}>
-        <MaterialCommunityIcons
-          name="format-quote-open"
-          size={16}
-          color={colors.textSecondary}
-        />
-        <Text style={[styles.expectedText, { color: colors.text }]}>
-          {expectedText}
-        </Text>
-        <MaterialCommunityIcons
-          name="format-quote-close"
-          size={16}
-          color={colors.textSecondary}
-        />
+        <MaterialCommunityIcons name="format-quote-open" size={16} color={colors.textSecondary} />
+        <Text style={[styles.expectedText, { color: colors.text }]}>{expectedText}</Text>
+        <MaterialCommunityIcons name="format-quote-close" size={16} color={colors.textSecondary} />
       </View>
 
       {/* TTS Model Pronunciation Buttons */}
@@ -336,7 +330,7 @@ export function SpeechRecorder({
                 borderWidth: 2,
               },
             ]}
-            onPress={() => isTTSPlaying ? handleStopTTS() : handlePlayModel('slow')}
+            onPress={() => (isTTSPlaying ? handleStopTTS() : handlePlayModel('slow'))}
             disabled={disabled}
           >
             <MaterialCommunityIcons
@@ -344,9 +338,7 @@ export function SpeechRecorder({
               size={20}
               color={COLORS.primary}
             />
-            <Text style={[styles.ttsButtonText, { color: colors.text }]}>
-              Slow
-            </Text>
+            <Text style={[styles.ttsButtonText, { color: colors.text }]}>Slow</Text>
           </Pressable>
 
           <Pressable
@@ -358,7 +350,7 @@ export function SpeechRecorder({
                 borderWidth: 2,
               },
             ]}
-            onPress={() => isTTSPlaying ? handleStopTTS() : handlePlayModel('normal')}
+            onPress={() => (isTTSPlaying ? handleStopTTS() : handlePlayModel('normal'))}
             disabled={disabled}
           >
             <MaterialCommunityIcons
@@ -366,9 +358,7 @@ export function SpeechRecorder({
               size={20}
               color={COLORS.primary}
             />
-            <Text style={[styles.ttsButtonText, { color: colors.text }]}>
-              Normal
-            </Text>
+            <Text style={[styles.ttsButtonText, { color: colors.text }]}>Normal</Text>
           </Pressable>
         </View>
       </View>
@@ -380,15 +370,13 @@ export function SpeechRecorder({
             key={index}
             animate={{
               height: level * 40 + 8,
-              backgroundColor:
-                phase === 'recording' ? '#ef4444' : COLORS.border,
+              backgroundColor: phase === 'recording' ? '#ef4444' : COLORS.border,
             }}
             transition={{ type: 'timing', duration: 100 }}
             style={[
               styles.levelBar,
               {
-                backgroundColor:
-                  phase === 'recording' ? '#ef4444' : COLORS.border,
+                backgroundColor: phase === 'recording' ? '#ef4444' : COLORS.border,
               },
             ]}
           />
@@ -412,7 +400,7 @@ export function SpeechRecorder({
             style={[
               styles.recordButton,
               {
-                backgroundColor: phase === 'recording' ? '#ef4444' : COLORS.primary
+                backgroundColor: phase === 'recording' ? '#ef4444' : COLORS.primary,
               },
             ]}
             onPress={phase === 'recording' ? handleStopRecording : handleStartRecording}
@@ -458,15 +446,11 @@ export function SpeechRecorder({
           transition={{ type: 'spring', damping: 15 }}
           style={styles.recordedContainer}
         >
-          <View style={[styles.recordedCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}>
-            <MaterialCommunityIcons
-              name="check-circle"
-              size={24}
-              color="#22c55e"
-            />
-            <Text style={[styles.recordedText, { color: colors.text }]}>
-              Recording complete!
-            </Text>
+          <View
+            style={[styles.recordedCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
+          >
+            <MaterialCommunityIcons name="check-circle" size={24} color="#22c55e" />
+            <Text style={[styles.recordedText, { color: colors.text }]}>Recording complete!</Text>
           </View>
 
           {/* Playback Button */}
@@ -474,7 +458,7 @@ export function SpeechRecorder({
             style={[
               styles.playbackButton,
               {
-                backgroundColor: isPlayingRecording ? '#f59e0b' : COLORS.primary
+                backgroundColor: isPlayingRecording ? '#f59e0b' : COLORS.primary,
               },
             ]}
             onPress={isPlayingRecording ? handleStopPlayback : handlePlayRecording}
@@ -495,28 +479,16 @@ export function SpeechRecorder({
               style={[styles.retryButton, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
               onPress={handleRetry}
             >
-              <MaterialCommunityIcons
-                name="replay"
-                size={20}
-                color={colors.text}
-              />
-              <Text style={[styles.retryButtonText, { color: colors.text }]}>
-                Record Again
-              </Text>
+              <MaterialCommunityIcons name="replay" size={20} color={colors.text} />
+              <Text style={[styles.retryButtonText, { color: colors.text }]}>Record Again</Text>
             </Pressable>
 
             <Pressable
               style={[styles.checkButton, { backgroundColor: '#22c55e' }]}
               onPress={handleShowSelfCheck}
             >
-              <MaterialCommunityIcons
-                name="check"
-                size={20}
-                color="#fff"
-              />
-              <Text style={styles.checkButtonText}>
-                Compare & Rate
-              </Text>
+              <MaterialCommunityIcons name="check" size={20} color="#fff" />
+              <Text style={styles.checkButtonText}>Compare & Rate</Text>
             </Pressable>
           </View>
         </MotiView>
@@ -530,12 +502,13 @@ export function SpeechRecorder({
           transition={{ type: 'spring', damping: 15 }}
           style={styles.selfCheckContainer}
         >
-          <View style={[styles.selfCheckCard, { backgroundColor: isDark ? '#1C1C1E' : COLORS.background }]}>
-            <MaterialCommunityIcons
-              name="head-question"
-              size={32}
-              color={COLORS.primary}
-            />
+          <View
+            style={[
+              styles.selfCheckCard,
+              { backgroundColor: isDark ? '#1C1C1E' : COLORS.background },
+            ]}
+          >
+            <MaterialCommunityIcons name="head-question" size={32} color={COLORS.primary} />
             <Text style={[styles.selfCheckTitle, { color: colors.text }]}>
               How was your pronunciation?
             </Text>
@@ -546,7 +519,10 @@ export function SpeechRecorder({
             {/* Quick playback buttons */}
             <View style={styles.quickPlayButtons}>
               <Pressable
-                style={[styles.quickPlayButton, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
+                style={[
+                  styles.quickPlayButton,
+                  { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface },
+                ]}
                 onPress={() => handlePlayModel('normal')}
               >
                 <MaterialCommunityIcons name="account-voice" size={16} color={COLORS.primary} />
@@ -554,7 +530,10 @@ export function SpeechRecorder({
               </Pressable>
 
               <Pressable
-                style={[styles.quickPlayButton, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
+                style={[
+                  styles.quickPlayButton,
+                  { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface },
+                ]}
                 onPress={handlePlayRecording}
               >
                 <MaterialCommunityIcons name="microphone" size={16} color="#f59e0b" />
@@ -568,28 +547,16 @@ export function SpeechRecorder({
                 style={[styles.satisfiedButton, { backgroundColor: '#22c55e' }]}
                 onPress={() => handleSelfCheck(true)}
               >
-                <MaterialCommunityIcons
-                  name="thumb-up"
-                  size={24}
-                  color="#fff"
-                />
-                <Text style={styles.selfCheckButtonText}>
-                  Good enough!
-                </Text>
+                <MaterialCommunityIcons name="thumb-up" size={24} color="#fff" />
+                <Text style={styles.selfCheckButtonText}>Good enough!</Text>
               </Pressable>
 
               <Pressable
                 style={[styles.unsatisfiedButton, { backgroundColor: '#f59e0b' }]}
                 onPress={() => handleSelfCheck(false)}
               >
-                <MaterialCommunityIcons
-                  name="replay"
-                  size={24}
-                  color="#fff"
-                />
-                <Text style={styles.selfCheckButtonText}>
-                  Try again
-                </Text>
+                <MaterialCommunityIcons name="replay" size={24} color="#fff" />
+                <Text style={styles.selfCheckButtonText}>Try again</Text>
               </Pressable>
             </View>
           </View>
@@ -598,12 +565,10 @@ export function SpeechRecorder({
 
       {/* Instructions */}
       {phase === 'ready' && (
-        <View style={[styles.instructionBox, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}>
-          <MaterialCommunityIcons
-            name="lightbulb-outline"
-            size={16}
-            color="#f59e0b"
-          />
+        <View
+          style={[styles.instructionBox, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
+        >
+          <MaterialCommunityIcons name="lightbulb-outline" size={16} color="#f59e0b" />
           <Text style={[styles.instructionText, { color: colors.textSecondary }]}>
             Listen to the model first, then record yourself
           </Text>
@@ -612,10 +577,7 @@ export function SpeechRecorder({
 
       {/* Skip Button */}
       {onSkip && phase === 'ready' && (
-        <Pressable
-          style={styles.skipButton}
-          onPress={onSkip}
-        >
+        <Pressable style={styles.skipButton} onPress={onSkip}>
           <Text style={[styles.skipButtonText, { color: colors.textSecondary }]}>
             Skip this exercise
           </Text>

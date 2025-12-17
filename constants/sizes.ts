@@ -20,7 +20,6 @@ export const SIZES = {
     md: 8,
     lg: 12,
     xl: 16,
-    round: 9999, // Alias for full (circular)
     full: 9999,
   },
   radius: {

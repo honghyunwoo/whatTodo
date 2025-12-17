@@ -4,8 +4,8 @@
  */
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import React, { useCallback, useMemo, useRef, useState } from 'react';
-import { Animated, StyleSheet, TouchableOpacity, View, ViewStyle, TextStyle } from 'react-native';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { Animated, StyleSheet, TextStyle, TouchableOpacity, View, ViewStyle } from 'react-native';
 import { Button, Card, ProgressBar as PaperProgressBar, Text } from 'react-native-paper';
 
 import { COLORS, withAlpha } from '@/constants/colors';
@@ -45,9 +45,16 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
   // Animation values
   const fadeAnim = useRef(new Animated.Value(1)).current;
   const scaleAnim = useRef(new Animated.Value(1)).current;
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Ref for handleNextQuestion to avoid circular dependency
-  const handleNextQuestionRef = useRef<(answerIndex: number) => void>(() => {});
+  // Cleanup timer on unmount
+  useEffect(() => {
+    return () => {
+      if (timerRef.current) {
+        clearTimeout(timerRef.current);
+      }
+    };
+  }, []);
 
   // ─────────────────────────────────────
   // Test Initialization
@@ -89,9 +96,9 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
         }),
       ]).start();
 
-      // Auto-advance after delay - use ref to get latest function
-      setTimeout(() => {
-        handleNextQuestionRef.current(index);
+      // Auto-advance after delay
+      timerRef.current = setTimeout(() => {
+        handleNextQuestion(index);
       }, 1000);
     },
     [showFeedback, selectedAnswer, scaleAnim]
@@ -139,14 +146,9 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
     [test, currentQuestion, startTime, fadeAnim, setCurrentLevel, onComplete]
   );
 
-  // Keep ref updated with latest function
-  handleNextQuestionRef.current = handleNextQuestion;
-
   // ─────────────────────────────────────
   // Progress Info
   // ─────────────────────────────────────
-
-  // Note: currentQuestion is intentionally in deps to trigger recalc when question changes
 
   const progress = useMemo(() => {
     if (!test) return { current: 0, max: 30, percentage: 0 };
@@ -364,7 +366,11 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
       >
         <View style={styles.questionTypeTag}>
           <MaterialCommunityIcons
-            name={getQuestionTypeIcon(currentQuestion.type) as any}
+            name={
+              getQuestionTypeIcon(currentQuestion.type) as React.ComponentProps<
+                typeof MaterialCommunityIcons
+              >['name']
+            }
             size={16}
             color={COLORS.textSecondary}
           />
@@ -391,14 +397,17 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
 
             if (showFeedback) {
               if (isCorrectOption) {
-                optionStyle = { ...styles.option, ...styles.optionCorrect };
-                optionTextStyle = { ...styles.optionText, ...styles.optionTextCorrect };
+                optionStyle = { ...styles.option, ...styles.optionCorrect } as ViewStyle;
+                optionTextStyle = {
+                  ...styles.optionText,
+                  ...styles.optionTextCorrect,
+                } as TextStyle;
               } else if (isSelected && !isCorrectOption) {
-                optionStyle = { ...styles.option, ...styles.optionWrong };
-                optionTextStyle = { ...styles.optionText, ...styles.optionTextWrong };
+                optionStyle = { ...styles.option, ...styles.optionWrong } as ViewStyle;
+                optionTextStyle = { ...styles.optionText, ...styles.optionTextWrong } as TextStyle;
               }
             } else if (isSelected) {
-              optionStyle = { ...styles.option, ...styles.optionSelected };
+              optionStyle = { ...styles.option, ...styles.optionSelected } as ViewStyle;
             }
 
             return (

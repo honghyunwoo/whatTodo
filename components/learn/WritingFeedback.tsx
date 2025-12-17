@@ -96,7 +96,9 @@ export function WritingFeedback({
   const [showSampleAnswer, setShowSampleAnswer] = useState(false);
   const [showOriginalText, setShowOriginalText] = useState(false);
   const [selfCheckItems, setSelfCheckItems] = useState<Map<string, boolean>>(new Map());
-  const [selectedRating, setSelectedRating] = useState<'excellent' | 'good' | 'needs_practice' | null>(null);
+  const [selectedRating, setSelectedRating] = useState<
+    'excellent' | 'good' | 'needs_practice' | null
+  >(null);
 
   // Get self-check items from service
   const checklistItems = useMemo(() => writingService.getSelfCheckItems(), []);
@@ -109,7 +111,7 @@ export function WritingFeedback({
       vocabulary: [],
       organization: [],
     };
-    checklistItems.forEach(item => {
+    checklistItems.forEach((item) => {
       if (grouped[item.category]) {
         grouped[item.category].push(item);
       }
@@ -128,7 +130,7 @@ export function WritingFeedback({
   // ─────────────────────────────────────
 
   const handleToggleCheck = useCallback((id: string) => {
-    setSelfCheckItems(prev => {
+    setSelfCheckItems((prev) => {
       const next = new Map(prev);
       if (next.has(id)) {
         next.delete(id);
@@ -140,11 +142,14 @@ export function WritingFeedback({
     learnHaptics.selection();
   }, []);
 
-  const handleSelectRating = useCallback((rating: 'excellent' | 'good' | 'needs_practice') => {
-    setSelectedRating(rating);
-    learnHaptics.selection();
-    onSelfEvaluate?.(rating);
-  }, [onSelfEvaluate]);
+  const handleSelectRating = useCallback(
+    (rating: 'excellent' | 'good' | 'needs_practice') => {
+      setSelectedRating(rating);
+      learnHaptics.selection();
+      onSelfEvaluate?.(rating);
+    },
+    [onSelfEvaluate]
+  );
 
   const handleRetry = useCallback(() => {
     learnHaptics.impact();
@@ -169,16 +174,16 @@ export function WritingFeedback({
           animate={{ opacity: 1, translateY: 0 }}
           transition={{ type: 'spring', damping: 15 }}
         >
-          <Card style={[styles.scoreCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}>
+          <Card
+            style={[styles.scoreCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
+          >
             <Card.Content style={styles.scoreCardContent}>
               {/* Score Circle */}
               <View style={[styles.scoreCircle, { borderColor: scoreColor }]}>
                 <Text style={[styles.scoreValue, { color: scoreColor }]}>
                   {evaluation.overallScore}
                 </Text>
-                <Text style={[styles.scorePercent, { color: colors.textSecondary }]}>
-                  /100
-                </Text>
+                <Text style={[styles.scorePercent, { color: colors.textSecondary }]}>/100</Text>
               </View>
 
               {/* Score Label */}
@@ -196,23 +201,27 @@ export function WritingFeedback({
               {/* Quick Stats */}
               <View style={styles.quickStats}>
                 <View style={styles.statItem}>
-                  <MaterialCommunityIcons name="file-word-box" size={16} color={colors.textSecondary} />
+                  <MaterialCommunityIcons
+                    name="file-word-box"
+                    size={16}
+                    color={colors.textSecondary}
+                  />
                   <Text style={[styles.statValue, { color: colors.text }]}>
                     {evaluation.ruleBasedScore?.wordCount || 0}
                   </Text>
-                  <Text style={[styles.statLabel, { color: colors.textSecondary }]}>
-                    words
-                  </Text>
+                  <Text style={[styles.statLabel, { color: colors.textSecondary }]}>words</Text>
                 </View>
                 <View style={[styles.statDivider, { backgroundColor: colors.textSecondary }]} />
                 <View style={styles.statItem}>
-                  <MaterialCommunityIcons name="format-line-spacing" size={16} color={colors.textSecondary} />
+                  <MaterialCommunityIcons
+                    name="format-line-spacing"
+                    size={16}
+                    color={colors.textSecondary}
+                  />
                   <Text style={[styles.statValue, { color: colors.text }]}>
                     {evaluation.ruleBasedScore?.sentenceCount || 0}
                   </Text>
-                  <Text style={[styles.statLabel, { color: colors.textSecondary }]}>
-                    sentences
-                  </Text>
+                  <Text style={[styles.statLabel, { color: colors.textSecondary }]}>sentences</Text>
                 </View>
               </View>
             </Card.Content>
@@ -225,11 +234,14 @@ export function WritingFeedback({
           animate={{ opacity: 1, translateY: 0 }}
           transition={{ type: 'spring', damping: 15, delay: 100 }}
         >
-          <Card style={[styles.categoriesCard, { backgroundColor: isDark ? '#1C1C1E' : COLORS.background }]}>
+          <Card
+            style={[
+              styles.categoriesCard,
+              { backgroundColor: isDark ? '#1C1C1E' : COLORS.background },
+            ]}
+          >
             <Card.Content>
-              <Text style={[styles.sectionTitle, { color: colors.text }]}>
-                Category Scores
-              </Text>
+              <Text style={[styles.sectionTitle, { color: colors.text }]}>Category Scores</Text>
 
               <View style={styles.categoriesGrid}>
                 {Object.entries(evaluation.categories).map(([key, category]) => (
@@ -289,26 +301,29 @@ export function WritingFeedback({
             animate={{ opacity: 1, translateY: 0 }}
             transition={{ type: 'spring', damping: 15, delay: 150 }}
           >
-            <Card style={[styles.analysisCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}>
+            <Card
+              style={[
+                styles.analysisCard,
+                { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface },
+              ]}
+            >
               <Card.Content>
-                <Text style={[styles.sectionTitle, { color: colors.text }]}>
-                  Writing Analysis
-                </Text>
+                <Text style={[styles.sectionTitle, { color: colors.text }]}>Writing Analysis</Text>
 
                 {/* Word Count Check */}
                 <View style={styles.analysisItem}>
                   <MaterialCommunityIcons
-                    name={evaluation.ruleBasedScore.isWordCountValid ? 'check-circle' : 'alert-circle'}
+                    name={
+                      evaluation.ruleBasedScore.isWordCountValid ? 'check-circle' : 'alert-circle'
+                    }
                     size={20}
                     color={evaluation.ruleBasedScore.isWordCountValid ? '#22c55e' : '#f59e0b'}
                   />
                   <View style={styles.analysisContent}>
-                    <Text style={[styles.analysisLabel, { color: colors.text }]}>
-                      Word Count
-                    </Text>
+                    <Text style={[styles.analysisLabel, { color: colors.text }]}>Word Count</Text>
                     <Text style={[styles.analysisValue, { color: colors.textSecondary }]}>
-                      {evaluation.ruleBasedScore.wordCount} words
-                      (target: {prompt.wordCount.min}-{prompt.wordCount.max})
+                      {evaluation.ruleBasedScore.wordCount} words (target: {prompt.wordCount.min}-
+                      {prompt.wordCount.max})
                     </Text>
                   </View>
                 </View>
@@ -316,18 +331,28 @@ export function WritingFeedback({
                 {/* Keywords Check */}
                 <View style={styles.analysisItem}>
                   <MaterialCommunityIcons
-                    name={evaluation.ruleBasedScore.keywordsFound.length > 0 ? 'check-circle' : 'alert-circle'}
+                    name={
+                      evaluation.ruleBasedScore.keywordsFound.length > 0
+                        ? 'check-circle'
+                        : 'alert-circle'
+                    }
                     size={20}
-                    color={evaluation.ruleBasedScore.keywordsFound.length > 0 ? '#22c55e' : '#f59e0b'}
+                    color={
+                      evaluation.ruleBasedScore.keywordsFound.length > 0 ? '#22c55e' : '#f59e0b'
+                    }
                   />
                   <View style={styles.analysisContent}>
-                    <Text style={[styles.analysisLabel, { color: colors.text }]}>
-                      Key Topics
-                    </Text>
+                    <Text style={[styles.analysisLabel, { color: colors.text }]}>Key Topics</Text>
                     {evaluation.ruleBasedScore.keywordsFound.length > 0 ? (
                       <View style={styles.keywordTags}>
                         {evaluation.ruleBasedScore.keywordsFound.map((keyword, idx) => (
-                          <View key={idx} style={[styles.keywordTag, { backgroundColor: 'rgba(34, 197, 94, 0.1)' }]}>
+                          <View
+                            key={idx}
+                            style={[
+                              styles.keywordTag,
+                              { backgroundColor: 'rgba(34, 197, 94, 0.1)' },
+                            ]}
+                          >
                             <Text style={[styles.keywordText, { color: '#22c55e' }]}>
                               {keyword}
                             </Text>
@@ -354,7 +379,9 @@ export function WritingFeedback({
                       Opening Phrase
                     </Text>
                     <Text style={[styles.analysisValue, { color: colors.textSecondary }]}>
-                      {evaluation.ruleBasedScore.hasOpening ? 'Good opening detected' : 'Consider adding an opening phrase'}
+                      {evaluation.ruleBasedScore.hasOpening
+                        ? 'Good opening detected'
+                        : 'Consider adding an opening phrase'}
                     </Text>
                   </View>
                 </View>
@@ -370,7 +397,9 @@ export function WritingFeedback({
                       Closing Phrase
                     </Text>
                     <Text style={[styles.analysisValue, { color: colors.textSecondary }]}>
-                      {evaluation.ruleBasedScore.hasClosing ? 'Good closing detected' : 'Consider adding a closing phrase'}
+                      {evaluation.ruleBasedScore.hasClosing
+                        ? 'Good closing detected'
+                        : 'Consider adding a closing phrase'}
                     </Text>
                   </View>
                 </View>
@@ -385,7 +414,12 @@ export function WritingFeedback({
           animate={{ opacity: 1, translateY: 0 }}
           transition={{ type: 'spring', damping: 15, delay: 200 }}
         >
-          <Card style={[styles.selfCheckCard, { backgroundColor: isDark ? '#1C1C1E' : COLORS.background }]}>
+          <Card
+            style={[
+              styles.selfCheckCard,
+              { backgroundColor: isDark ? '#1C1C1E' : COLORS.background },
+            ]}
+          >
             <Card.Content>
               <View style={styles.selfCheckHeader}>
                 <MaterialCommunityIcons
@@ -414,11 +448,16 @@ export function WritingFeedback({
                         size={14}
                         color={CATEGORY_COLORS[category] || colors.textSecondary}
                       />
-                      <Text style={[styles.checkCategoryTitle, { color: CATEGORY_COLORS[category] || colors.text }]}>
+                      <Text
+                        style={[
+                          styles.checkCategoryTitle,
+                          { color: CATEGORY_COLORS[category] || colors.text },
+                        ]}
+                      >
                         {category.charAt(0).toUpperCase() + category.slice(1)}
                       </Text>
                     </View>
-                    {items.map(item => {
+                    {items.map((item) => {
                       const isChecked = selfCheckItems.has(item.id);
                       return (
                         <Pressable
@@ -428,17 +467,26 @@ export function WritingFeedback({
                             {
                               backgroundColor: isChecked
                                 ? 'rgba(34, 197, 94, 0.1)'
-                                : isDark ? '#2C2C2E' : COLORS.surface,
+                                : isDark
+                                  ? '#2C2C2E'
+                                  : COLORS.surface,
                             },
                           ]}
                           onPress={() => handleToggleCheck(item.id)}
                         >
                           <MaterialCommunityIcons
-                            name={isChecked ? 'checkbox-marked-circle' : 'checkbox-blank-circle-outline'}
+                            name={
+                              isChecked ? 'checkbox-marked-circle' : 'checkbox-blank-circle-outline'
+                            }
                             size={20}
                             color={isChecked ? '#22c55e' : colors.textSecondary}
                           />
-                          <Text style={[styles.checkItemText, { color: isChecked ? '#22c55e' : colors.text }]}>
+                          <Text
+                            style={[
+                              styles.checkItemText,
+                              { color: isChecked ? '#22c55e' : colors.text },
+                            ]}
+                          >
                             {item.label}
                           </Text>
                         </Pressable>
@@ -464,7 +512,9 @@ export function WritingFeedback({
                 {
                   backgroundColor: showOriginalText
                     ? COLORS.primary
-                    : isDark ? '#2C2C2E' : COLORS.surface,
+                    : isDark
+                      ? '#2C2C2E'
+                      : COLORS.surface,
                 },
               ]}
               onPress={() => {
@@ -478,7 +528,9 @@ export function WritingFeedback({
                 size={18}
                 color={showOriginalText ? '#fff' : colors.text}
               />
-              <Text style={[styles.textToggleText, { color: showOriginalText ? '#fff' : colors.text }]}>
+              <Text
+                style={[styles.textToggleText, { color: showOriginalText ? '#fff' : colors.text }]}
+              >
                 My Writing
               </Text>
             </Pressable>
@@ -490,7 +542,9 @@ export function WritingFeedback({
                   {
                     backgroundColor: showSampleAnswer
                       ? COLORS.primary
-                      : isDark ? '#2C2C2E' : COLORS.surface,
+                      : isDark
+                        ? '#2C2C2E'
+                        : COLORS.surface,
                   },
                 ]}
                 onPress={() => {
@@ -504,7 +558,12 @@ export function WritingFeedback({
                   size={18}
                   color={showSampleAnswer ? '#fff' : colors.text}
                 />
-                <Text style={[styles.textToggleText, { color: showSampleAnswer ? '#fff' : colors.text }]}>
+                <Text
+                  style={[
+                    styles.textToggleText,
+                    { color: showSampleAnswer ? '#fff' : colors.text },
+                  ]}
+                >
                   Sample Answer
                 </Text>
               </Pressable>
@@ -517,11 +576,11 @@ export function WritingFeedback({
               animate={{ opacity: 1, height: 'auto' }}
               transition={{ type: 'timing', duration: 200 }}
             >
-              <Card style={[styles.textCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}>
+              <Card
+                style={[styles.textCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
+              >
                 <Card.Content>
-                  <Text style={[styles.textContent, { color: colors.text }]}>
-                    {originalText}
-                  </Text>
+                  <Text style={[styles.textContent, { color: colors.text }]}>{originalText}</Text>
                 </Card.Content>
               </Card>
             </MotiView>
@@ -537,13 +596,9 @@ export function WritingFeedback({
                 <Card.Content>
                   <View style={styles.sampleHeader}>
                     <MaterialCommunityIcons name="star" size={16} color="#22c55e" />
-                    <Text style={[styles.sampleLabel, { color: '#22c55e' }]}>
-                      Sample Answer
-                    </Text>
+                    <Text style={[styles.sampleLabel, { color: '#22c55e' }]}>Sample Answer</Text>
                   </View>
-                  <Text style={[styles.textContent, { color: colors.text }]}>
-                    {sampleAnswer}
-                  </Text>
+                  <Text style={[styles.textContent, { color: colors.text }]}>{sampleAnswer}</Text>
                 </Card.Content>
               </Card>
             </MotiView>
@@ -605,7 +660,9 @@ export function WritingFeedback({
           animate={{ opacity: 1, translateY: 0 }}
           transition={{ type: 'spring', damping: 15, delay: 350 }}
         >
-          <Card style={[styles.ratingCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}>
+          <Card
+            style={[styles.ratingCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
+          >
             <Card.Content>
               <Text style={[styles.sectionTitle, { color: colors.text }]}>
                 How would you rate your writing?
@@ -616,7 +673,12 @@ export function WritingFeedback({
                   style={[
                     styles.ratingButton,
                     {
-                      backgroundColor: selectedRating === 'excellent' ? '#22c55e' : isDark ? '#1C1C1E' : COLORS.background,
+                      backgroundColor:
+                        selectedRating === 'excellent'
+                          ? '#22c55e'
+                          : isDark
+                            ? '#1C1C1E'
+                            : COLORS.background,
                       borderColor: selectedRating === 'excellent' ? '#22c55e' : 'transparent',
                     },
                   ]}
@@ -641,7 +703,12 @@ export function WritingFeedback({
                   style={[
                     styles.ratingButton,
                     {
-                      backgroundColor: selectedRating === 'good' ? '#3b82f6' : isDark ? '#1C1C1E' : COLORS.background,
+                      backgroundColor:
+                        selectedRating === 'good'
+                          ? '#3b82f6'
+                          : isDark
+                            ? '#1C1C1E'
+                            : COLORS.background,
                       borderColor: selectedRating === 'good' ? '#3b82f6' : 'transparent',
                     },
                   ]}
@@ -666,7 +733,12 @@ export function WritingFeedback({
                   style={[
                     styles.ratingButton,
                     {
-                      backgroundColor: selectedRating === 'needs_practice' ? '#f59e0b' : isDark ? '#1C1C1E' : COLORS.background,
+                      backgroundColor:
+                        selectedRating === 'needs_practice'
+                          ? '#f59e0b'
+                          : isDark
+                            ? '#1C1C1E'
+                            : COLORS.background,
                       borderColor: selectedRating === 'needs_practice' ? '#f59e0b' : 'transparent',
                     },
                   ]}
@@ -704,9 +776,7 @@ export function WritingFeedback({
               onPress={handleRetry}
             >
               <MaterialCommunityIcons name="pencil" size={20} color={COLORS.primary} />
-              <Text style={[styles.retryButtonText, { color: COLORS.primary }]}>
-                Revise
-              </Text>
+              <Text style={[styles.retryButtonText, { color: COLORS.primary }]}>Revise</Text>
             </Pressable>
           )}
 

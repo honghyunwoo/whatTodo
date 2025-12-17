@@ -1,4 +1,4 @@
-import React, { memo, useCallback } from 'react';
+import React, { memo, useCallback, useRef, useEffect } from 'react';
 import { StyleSheet, View, Pressable } from 'react-native';
 import { Checkbox, Text } from 'react-native-paper';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -36,9 +36,19 @@ function TaskItemComponent({ task, onPress, index = 0 }: TaskItemProps) {
   const [showCheckAnimation, setShowCheckAnimation] = React.useState(false);
   const lottieRef = React.useRef<LottieView>(null);
   const router = useRouter();
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   // Get subtask progress
   const subtaskProgress = getSubTaskProgress(task.id);
+
+  // Cleanup timer on unmount
+  useEffect(() => {
+    return () => {
+      if (timerRef.current) {
+        clearTimeout(timerRef.current);
+      }
+    };
+  }, []);
 
   const handleToggle = useCallback(async () => {
     if (!task.completed) {
@@ -46,7 +56,7 @@ function TaskItemComponent({ task, onPress, index = 0 }: TaskItemProps) {
       await todoHaptics.complete();
       lottieRef.current?.play();
       // 애니메이션이 끝나면 실제 토글
-      setTimeout(() => {
+      timerRef.current = setTimeout(() => {
         toggleComplete(task.id);
         setShowCheckAnimation(false);
       }, 400);

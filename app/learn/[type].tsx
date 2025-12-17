@@ -4,8 +4,8 @@
  */
 
 import { Stack, useLocalSearchParams, router } from 'expo-router';
-import React, { useCallback, useMemo, useState } from 'react';
-import { StyleSheet, View } from 'react-native';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
+import { ActivityIndicator, StyleSheet, View } from 'react-native';
 import { IconButton, Text } from 'react-native-paper';
 
 import {
@@ -31,7 +31,13 @@ import {
   VocabularyActivity,
   WritingActivity,
 } from '@/types/activity';
-import { getActivityLabel, loadActivity, loadWeekActivities } from '@/utils/activityLoader';
+import {
+  getActivityLabel,
+  isLevelLoaded,
+  loadActivity,
+  loadWeekActivities,
+  preloadLevel,
+} from '@/utils/activityLoader';
 
 // Activity types for navigation
 const ACTIVITY_TYPES: ActivityType[] = [
@@ -45,8 +51,8 @@ const ACTIVITY_TYPES: ActivityType[] = [
 
 export default function ActivityDetailScreen() {
   const { type, weekId } = useLocalSearchParams<{ type: ActivityType; weekId: string }>();
-  const markActivityComplete = useLearnStore((state) => state.markActivityComplete);
   const currentLevel = useLearnStore((state) => state.currentLevel);
+  const markActivityComplete = useLearnStore((state) => state.markActivityComplete);
   const streak = useStreakStore((state) => state.currentStreak);
   const updateStreak = useStreakStore((state) => state.updateStreak);
 
@@ -55,10 +61,25 @@ export default function ActivityDetailScreen() {
   const [sessionScore, setSessionScore] = useState(0);
   const [sessionXP, setSessionXP] = useState(0);
 
+  // 레벨 데이터 로딩 상태
+  const [isLoading, setIsLoading] = useState(!isLevelLoaded(currentLevel));
+
+  // 레벨 변경 시 데이터 프리로드
+  useEffect(() => {
+    if (!isLevelLoaded(currentLevel)) {
+      setIsLoading(true);
+      preloadLevel(currentLevel).then(() => {
+        setIsLoading(false);
+      });
+    } else {
+      setIsLoading(false);
+    }
+  }, [currentLevel]);
+
   const activity = useMemo(() => {
-    if (!type || !weekId) return null;
+    if (!type || !weekId || isLoading) return null;
     return loadActivity(currentLevel, type as ActivityType, weekId);
-  }, [currentLevel, type, weekId]);
+  }, [currentLevel, type, weekId, isLoading]);
 
   // Get next activity type for "one more" feature
   const getNextActivity = useCallback(() => {
@@ -131,6 +152,16 @@ export default function ActivityDetailScreen() {
   const handleBack = useCallback(() => {
     router.back();
   }, []);
+
+  // 로딩 중일 때
+  if (isLoading) {
+    return (
+      <View style={styles.loadingContainer}>
+        <ActivityIndicator size="large" color={COLORS.primary} />
+        <Text style={styles.loadingText}>학습 콘텐츠 로딩 중...</Text>
+      </View>
+    );
+  }
 
   if (!activity || !type) {
     return (
@@ -217,6 +248,17 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: COLORS.background,
     flex: 1,
+  },
+  loadingContainer: {
+    alignItems: 'center',
+    backgroundColor: COLORS.background,
+    flex: 1,
+    justifyContent: 'center',
+  },
+  loadingText: {
+    color: COLORS.textSecondary,
+    fontSize: SIZES.fontSize.md,
+    marginTop: SIZES.spacing.md,
   },
   errorContainer: {
     alignItems: 'center',

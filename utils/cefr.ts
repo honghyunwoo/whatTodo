@@ -4,11 +4,11 @@
  * A1.1 ~ C2.2 (12 detailed levels)
  */
 
-import { CEFRLevel } from '@/types/activity';
+import { CEFRLevel, FullCEFRLevel } from '@/types/activity';
 
-// CEFR Level Definition
+// CEFR Level Definition (all 6 levels)
 export interface CEFRLevelDefinition {
-  code: CEFRLevel;
+  code: FullCEFRLevel;
   major: string; // A1, A2, B1, B2, C1, C2
   minor: string; // 1, 2
   name: string;
@@ -55,7 +55,12 @@ export const CEFR_LEVELS: CEFRLevelDefinition[] = [
       'Handle simple travel situations',
       'Talk about personal interests',
     ],
-    grammarPoints: ['future tense', 'comparatives/superlatives', 'modals (can, should)', 'conjunctions'],
+    grammarPoints: [
+      'future tense',
+      'comparatives/superlatives',
+      'modals (can, should)',
+      'conjunctions',
+    ],
     vocabularySize: 1500,
     estimatedHours: 250,
     color: '#3b82f6',
@@ -74,7 +79,13 @@ export const CEFR_LEVELS: CEFRLevelDefinition[] = [
       'Handle most travel situations',
       'Give simple presentations',
     ],
-    grammarPoints: ['past perfect', 'future perfect', 'relative adverbs', 'participles', 'conditionals'],
+    grammarPoints: [
+      'past perfect',
+      'future perfect',
+      'relative adverbs',
+      'participles',
+      'conditionals',
+    ],
     vocabularySize: 3500,
     estimatedHours: 550,
     color: '#f59e0b',
@@ -93,7 +104,13 @@ export const CEFR_LEVELS: CEFRLevelDefinition[] = [
       'Engage in technical discussions',
       'Communicate fluently with natives',
     ],
-    grammarPoints: ['advanced passive', 'complex conditionals', 'reported speech', 'emphasis', 'ellipsis'],
+    grammarPoints: [
+      'advanced passive',
+      'complex conditionals',
+      'reported speech',
+      'emphasis',
+      'ellipsis',
+    ],
     vocabularySize: 6500,
     estimatedHours: 900,
     color: '#ef4444',
@@ -112,7 +129,12 @@ export const CEFR_LEVELS: CEFRLevelDefinition[] = [
       'Express fluently and spontaneously',
       'Use language effectively for all purposes',
     ],
-    grammarPoints: ['advanced grammar', 'idiomatic expressions', 'academic writing', 'logical connectors'],
+    grammarPoints: [
+      'advanced grammar',
+      'idiomatic expressions',
+      'academic writing',
+      'logical connectors',
+    ],
     vocabularySize: 11000,
     estimatedHours: 1300,
     color: '#8b5cf6',
@@ -131,7 +153,12 @@ export const CEFR_LEVELS: CEFRLevelDefinition[] = [
       'Summarize from various sources',
       'Express precisely in complex situations',
     ],
-    grammarPoints: ['native level', 'all structures mastered', 'nuance understanding', 'literary analysis'],
+    grammarPoints: [
+      'native level',
+      'all structures mastered',
+      'nuance understanding',
+      'literary analysis',
+    ],
     vocabularySize: 20000,
     estimatedHours: 2000,
     color: '#ec4899',
@@ -139,7 +166,7 @@ export const CEFR_LEVELS: CEFRLevelDefinition[] = [
 ];
 
 // Helper functions
-export function getCEFRLevel(code: CEFRLevel): CEFRLevelDefinition | undefined {
+export function getCEFRLevel(code: FullCEFRLevel): CEFRLevelDefinition | undefined {
   return CEFR_LEVELS.find((level) => level.code === code);
 }
 
@@ -147,7 +174,7 @@ export function getCEFRLevelsByMajor(major: string): CEFRLevelDefinition[] {
   return CEFR_LEVELS.filter((level) => level.major === major);
 }
 
-export function getNextLevel(currentLevel: CEFRLevel): CEFRLevel | null {
+export function getNextLevel(currentLevel: FullCEFRLevel): FullCEFRLevel | null {
   const currentIndex = CEFR_LEVELS.findIndex((level) => level.code === currentLevel);
   if (currentIndex === -1 || currentIndex === CEFR_LEVELS.length - 1) {
     return null;
@@ -155,7 +182,7 @@ export function getNextLevel(currentLevel: CEFRLevel): CEFRLevel | null {
   return CEFR_LEVELS[currentIndex + 1].code;
 }
 
-export function getPreviousLevel(currentLevel: CEFRLevel): CEFRLevel | null {
+export function getPreviousLevel(currentLevel: FullCEFRLevel): FullCEFRLevel | null {
   const currentIndex = CEFR_LEVELS.findIndex((level) => level.code === currentLevel);
   if (currentIndex === -1 || currentIndex === 0) {
     return null;
@@ -163,7 +190,7 @@ export function getPreviousLevel(currentLevel: CEFRLevel): CEFRLevel | null {
   return CEFR_LEVELS[currentIndex - 1].code;
 }
 
-export function calculateProgress(currentLevel: CEFRLevel): {
+export function calculateProgress(currentLevel: FullCEFRLevel): {
   percentage: number;
   currentIndex: number;
   totalLevels: number;
@@ -176,7 +203,7 @@ export function calculateProgress(currentLevel: CEFRLevel): {
   };
 }
 
-export function estimateTimeToNextLevel(currentLevel: CEFRLevel): number {
+export function estimateTimeToNextLevel(currentLevel: FullCEFRLevel): number {
   const current = getCEFRLevel(currentLevel);
   const next = getNextLevel(currentLevel);
 
@@ -192,8 +219,8 @@ export function estimateTimeToNextLevel(currentLevel: CEFRLevel): number {
   return nextDef.estimatedHours - current.estimatedHours;
 }
 
-// Determine CEFR level from test score
-export function determineCEFRLevel(score: number): CEFRLevel {
+// Determine CEFR level from test score (returns full level for display)
+export function determineCEFRLevel(score: number): FullCEFRLevel {
   // Map 0-100 score to 6 levels
   if (score < 16.67) return 'A1';
   if (score < 33.33) return 'A2';
@@ -203,8 +230,17 @@ export function determineCEFRLevel(score: number): CEFRLevel {
   return 'C2';
 }
 
+// Determine supported app level (A1-B2 only)
+export function determineAppLevel(score: number): CEFRLevel {
+  // Map 0-100 score to 4 supported levels
+  if (score < 25) return 'A1';
+  if (score < 50) return 'A2';
+  if (score < 75) return 'B1';
+  return 'B2';
+}
+
 // Recommended study time per level
-export function getRecommendedStudyTime(level: CEFRLevel): {
+export function getRecommendedStudyTime(level: FullCEFRLevel): {
   hoursPerWeek: number;
   weeksToNextLevel: number;
   totalHours: number;
@@ -219,13 +255,13 @@ export function getRecommendedStudyTime(level: CEFRLevel): {
 }
 
 // Get level color
-export function getLevelColor(level: CEFRLevel): string {
+export function getLevelColor(level: FullCEFRLevel): string {
   const def = getCEFRLevel(level);
   return def?.color || '#6b7280';
 }
 
 // Get level display name
-export function getLevelDisplayName(level: CEFRLevel): string {
+export function getLevelDisplayName(level: FullCEFRLevel): string {
   const def = getCEFRLevel(level);
   return def ? `${def.code} - ${def.koreanName}` : level;
 }
