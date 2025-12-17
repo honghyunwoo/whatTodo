@@ -2,7 +2,13 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Text } from 'react-native-paper';
 
-import { GameBoard, GameHeader, GameOverModal } from '@/components/game';
+import {
+  GameBoard,
+  GameHeader,
+  GameOverModal,
+  GameStats,
+  BoardSizeSelector,
+} from '@/components/game';
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { useGameStore } from '@/store/gameStore';
@@ -15,10 +21,13 @@ export default function GameScreen() {
   const status = useGameStore((state) => state.status);
   const newGame = useGameStore((state) => state.newGame);
   const move = useGameStore((state) => state.move);
+  const gridSize = useGameStore((state) => state.gridSize);
 
   const [showModal, setShowModal] = useState(false);
+  const [showStats, setShowStats] = useState(false);
+  const [showSettings, setShowSettings] = useState(false);
 
-  // 게임 시작 시 초기화
+  // 게임 시작 시 초기화 (저장된 게임이 없을 때만)
   useEffect(() => {
     if (tiles.length === 0) {
       newGame();
@@ -48,17 +57,33 @@ export default function GameScreen() {
     setShowModal(false);
   }, []);
 
+  const handleShowStats = useCallback(() => {
+    setShowStats(true);
+  }, []);
+
+  const handleShowSettings = useCallback(() => {
+    setShowSettings(true);
+  }, []);
+
   return (
     <View style={styles.container}>
-      <GameHeader score={score} bestScore={bestScore} onNewGame={handleNewGame} />
+      <GameHeader
+        score={score}
+        bestScore={bestScore}
+        onNewGame={handleNewGame}
+        onShowStats={handleShowStats}
+        onShowSettings={handleShowSettings}
+      />
 
       <View style={styles.boardContainer}>
-        <GameBoard tiles={tiles} onMove={handleMove} />
+        <GameBoard tiles={tiles} onMove={handleMove} gridSize={gridSize} />
       </View>
 
       <View style={styles.instructions}>
         <Text style={styles.instructionText}>스와이프로 타일을 이동하세요</Text>
-        <Text style={styles.instructionSubtext}>같은 숫자끼리 합쳐집니다!</Text>
+        <Text style={styles.instructionSubtext}>
+          같은 숫자끼리 합쳐집니다! ({gridSize}×{gridSize} 보드)
+        </Text>
       </View>
 
       <GameOverModal
@@ -68,6 +93,10 @@ export default function GameScreen() {
         onNewGame={handleNewGame}
         onContinue={status === 'won' ? handleContinue : undefined}
       />
+
+      <GameStats visible={showStats} onClose={() => setShowStats(false)} />
+
+      <BoardSizeSelector visible={showSettings} onClose={() => setShowSettings(false)} />
     </View>
   );
 }

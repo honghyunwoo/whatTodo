@@ -5,6 +5,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { MotiView } from 'moti';
 import { Ionicons } from '@expo/vector-icons';
 import LottieView from 'lottie-react-native';
+import { useRouter } from 'expo-router';
 
 import { useTheme } from '@/contexts/ThemeContext';
 import { COLORS, withAlpha } from '@/constants/colors';
@@ -14,19 +15,13 @@ import { useTaskStore } from '@/store/taskStore';
 import { Task, TaskPriority } from '@/types/task';
 import { SwipeableRow } from '@/components/common/SwipeableRow';
 import { todoHaptics } from '@/services/hapticService';
+import { SubTaskProgress } from '@/components/todo/subtask';
 
 interface TaskItemProps {
   task: Task;
   onPress?: (task: Task) => void;
   index?: number;
 }
-
-const PRIORITY_COLORS: Record<TaskPriority, string> = {
-  low: COLORS.priority.low,
-  medium: COLORS.priority.medium,
-  high: COLORS.priority.high,
-  urgent: COLORS.priority.urgent,
-};
 
 const PRIORITY_GRADIENTS: Record<TaskPriority, [string, string]> = {
   low: [COLORS.priority.low, withAlpha(COLORS.priority.low, 0.7)],
@@ -37,9 +32,13 @@ const PRIORITY_GRADIENTS: Record<TaskPriority, [string, string]> = {
 
 function TaskItemComponent({ task, onPress, index = 0 }: TaskItemProps) {
   const { colors, isDark } = useTheme();
-  const { toggleComplete, deleteTask } = useTaskStore();
+  const { toggleComplete, deleteTask, getSubTaskProgress } = useTaskStore();
   const [showCheckAnimation, setShowCheckAnimation] = React.useState(false);
   const lottieRef = React.useRef<LottieView>(null);
+  const router = useRouter();
+
+  // Get subtask progress
+  const subtaskProgress = getSubTaskProgress(task.id);
 
   const handleToggle = useCallback(async () => {
     if (!task.completed) {
@@ -62,8 +61,12 @@ function TaskItemComponent({ task, onPress, index = 0 }: TaskItemProps) {
   }, [task.id, deleteTask]);
 
   const handlePress = useCallback(() => {
-    onPress?.(task);
-  }, [task, onPress]);
+    if (onPress) {
+      onPress(task);
+    } else {
+      router.push(`/task/${task.id}`);
+    }
+  }, [task, onPress, router]);
 
   const handleSwipeLeft = useCallback(() => {
     handleDelete();
@@ -142,21 +145,14 @@ function TaskItemComponent({ task, onPress, index = 0 }: TaskItemProps) {
           {/* Content */}
           <View style={styles.content}>
             <Text
-              style={[
-                styles.title,
-                { color: colors.text },
-                task.completed && styles.completedText,
-              ]}
+              style={[styles.title, { color: colors.text }, task.completed && styles.completedText]}
               numberOfLines={1}
             >
               {task.title}
             </Text>
             {task.description && (
               <Text
-                style={[
-                  styles.description,
-                  { color: isDark ? '#8E8E93' : COLORS.textSecondary },
-                ]}
+                style={[styles.description, { color: isDark ? '#8E8E93' : COLORS.textSecondary }]}
                 numberOfLines={1}
               >
                 {task.description}
@@ -170,13 +166,16 @@ function TaskItemComponent({ task, onPress, index = 0 }: TaskItemProps) {
                   color={isDark ? '#8E8E93' : COLORS.textSecondary}
                 />
                 <Text
-                  style={[
-                    styles.dueDate,
-                    { color: isDark ? '#8E8E93' : COLORS.textSecondary },
-                  ]}
+                  style={[styles.dueDate, { color: isDark ? '#8E8E93' : COLORS.textSecondary }]}
                 >
                   {new Date(task.dueDate).toLocaleDateString('ko-KR')}
                 </Text>
+              </View>
+            )}
+            {/* Subtask Progress */}
+            {subtaskProgress.total > 0 && (
+              <View style={styles.subtaskProgressContainer}>
+                <SubTaskProgress progress={subtaskProgress} compact />
               </View>
             )}
           </View>
@@ -184,17 +183,9 @@ function TaskItemComponent({ task, onPress, index = 0 }: TaskItemProps) {
           {/* Category Badge */}
           {task.category && (
             <View
-              style={[
-                styles.categoryBadge,
-                { backgroundColor: isDark ? '#2C2C2E' : '#F2F2F7' },
-              ]}
+              style={[styles.categoryBadge, { backgroundColor: isDark ? '#2C2C2E' : '#F2F2F7' }]}
             >
-              <Text
-                style={[
-                  styles.categoryText,
-                  { color: isDark ? '#8E8E93' : '#6B6B6B' },
-                ]}
-              >
+              <Text style={[styles.categoryText, { color: isDark ? '#8E8E93' : '#6B6B6B' }]}>
                 {task.category}
               </Text>
             </View>
@@ -262,6 +253,9 @@ const styles = StyleSheet.create({
   },
   dueDate: {
     ...TYPOGRAPHY.caption,
+  },
+  subtaskProgressContainer: {
+    marginTop: 4,
   },
   categoryBadge: {
     paddingHorizontal: SIZES.spacing.sm,

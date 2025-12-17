@@ -16,8 +16,8 @@ export async function lightHaptic(): Promise<void> {
   if (!isHapticAvailable) return;
   try {
     await Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-  } catch (error) {
-    console.warn('Haptic feedback failed:', error);
+  } catch {
+    // Silently fail - haptic feedback is non-critical
   }
 }
 
@@ -29,8 +29,8 @@ export async function mediumHaptic(): Promise<void> {
   if (!isHapticAvailable) return;
   try {
     await Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-  } catch (error) {
-    console.warn('Haptic feedback failed:', error);
+  } catch {
+    // Silently fail - haptic feedback is non-critical
   }
 }
 
@@ -42,8 +42,8 @@ export async function heavyHaptic(): Promise<void> {
   if (!isHapticAvailable) return;
   try {
     await Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy);
-  } catch (error) {
-    console.warn('Haptic feedback failed:', error);
+  } catch {
+    // Silently fail - haptic feedback is non-critical
   }
 }
 
@@ -55,8 +55,8 @@ export async function successHaptic(): Promise<void> {
   if (!isHapticAvailable) return;
   try {
     await Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
-  } catch (error) {
-    console.warn('Haptic feedback failed:', error);
+  } catch {
+    // Silently fail - haptic feedback is non-critical
   }
 }
 
@@ -68,8 +68,8 @@ export async function warningHaptic(): Promise<void> {
   if (!isHapticAvailable) return;
   try {
     await Haptics.notificationAsync(Haptics.NotificationFeedbackType.Warning);
-  } catch (error) {
-    console.warn('Haptic feedback failed:', error);
+  } catch {
+    // Silently fail - haptic feedback is non-critical
   }
 }
 
@@ -81,8 +81,8 @@ export async function errorHaptic(): Promise<void> {
   if (!isHapticAvailable) return;
   try {
     await Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);
-  } catch (error) {
-    console.warn('Haptic feedback failed:', error);
+  } catch {
+    // Silently fail - haptic feedback is non-critical
   }
 }
 
@@ -94,8 +94,8 @@ export async function selectionHaptic(): Promise<void> {
   if (!isHapticAvailable) return;
   try {
     await Haptics.selectionAsync();
-  } catch (error) {
-    console.warn('Haptic feedback failed:', error);
+  } catch {
+    // Silently fail - haptic feedback is non-critical
   }
 }
 
@@ -235,6 +235,13 @@ export const todoHaptics = {
    */
   swipeTrigger: async (): Promise<void> => {
     await mediumHaptic();
+  },
+
+  /**
+   * Haptic for tab selection / light tap
+   */
+  tap: async (): Promise<void> => {
+    await selectionHaptic();
   },
 };
 
