@@ -67,6 +67,7 @@ export default function GameScreen() {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.breakNote}>잠깐 쉬어가요. 부담 없이 몇 판만 즐겨요.</Text>
       <GameHeader
         score={score}
         bestScore={bestScore}
@@ -110,6 +111,13 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: '#faf8ef',
     flex: 1,
+  },
+  breakNote: {
+    color: COLORS.textSecondary,
+    fontSize: SIZES.fontSize.sm,
+    paddingHorizontal: SIZES.spacing.md,
+    paddingTop: SIZES.spacing.md,
+    textAlign: 'center',
   },
   instructionSubtext: {
     color: COLORS.textSecondary,

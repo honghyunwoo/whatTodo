@@ -172,8 +172,10 @@ export default function LearnScreen() {
       <View style={styles.header}>
         <View style={styles.headerTop}>
           <View>
-            <Text style={styles.title}>영어 학습</Text>
-            <Text style={styles.subtitle}>8주 영어 마스터 코스</Text>
+            <Text style={styles.title}>오늘의 영어 한 조각</Text>
+            <Text style={styles.subtitle}>
+              {currentProgress === 0 ? '이번 주 기록 없음' : '천천히 쌓인 기록을 이어가요'}
+            </Text>
           </View>
           <View style={styles.headerActions}>
             <IconButton
@@ -203,9 +205,9 @@ export default function LearnScreen() {
               style={styles.actionIcon}
             />
             <View style={styles.actionTextContainer}>
-              <Text style={styles.actionTitle}>레벨 테스트</Text>
+              <Text style={styles.actionTitle}>레벨 체크</Text>
               <Text style={styles.actionSubtitle}>
-                {currentLevel ? `현재: ${currentLevel.toUpperCase()}` : '레벨 확인하기'}
+                {currentLevel ? `지금: ${currentLevel.toUpperCase()}` : '현재 감각 살펴보기'}
               </Text>
             </View>
           </TouchableOpacity>
@@ -221,9 +223,9 @@ export default function LearnScreen() {
               style={styles.actionIcon}
             />
             <View style={styles.actionTextContainer}>
-              <Text style={styles.actionTitle}>복습하기</Text>
+              <Text style={styles.actionTitle}>짧은 복습</Text>
               <Text style={styles.actionSubtitle}>
-                {dueCount > 0 ? `${dueCount}개 복습 대기` : '복습 완료!'}
+                {dueCount > 0 ? `${dueCount}개 준비됨` : '오늘은 가볍게 쉬어도 좋아요'}
               </Text>
             </View>
             {dueCount > 0 && (
@@ -243,11 +245,15 @@ export default function LearnScreen() {
 
       <ScrollView style={styles.content} contentContainerStyle={styles.contentContainer}>
         <View style={styles.progressSection}>
-          <Text style={styles.progressLabel}>{currentWeek.replace('week-', '')}주차 진행률</Text>
+          <Text style={styles.progressLabel}>{currentWeek.replace('week-', '')}주차 기록 흐름</Text>
           <View style={styles.progressBarContainer}>
             <View style={[styles.progressBar, { width: `${currentProgress}%` }]} />
           </View>
-          <Text style={styles.progressText}>{currentProgress}% 완료</Text>
+          <Text style={styles.progressText}>
+            {currentProgress === 0
+              ? '이번 주엔 아직 기록이 없어요.'
+              : `${currentProgress}%만큼 기록이 쌓였어요.`}
+          </Text>
         </View>
 
         {isLoading ? (
