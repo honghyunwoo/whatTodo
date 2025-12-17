@@ -14,3 +14,9 @@ export {
   addBreadcrumb,
   Sentry,
 } from './sentry';
+export {
+  BACKUP_KEYS,
+  createBackup,
+  restoreBackup,
+  clearBackupTargets,
+} from './backup';

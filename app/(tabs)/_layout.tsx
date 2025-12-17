@@ -13,6 +13,15 @@ export default function TabLayout() {
       }}
     >
       <Tabs.Screen
+        name="backup"
+        options={{
+          title: 'Backup',
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="cloud-upload-outline" size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
         name="index"
         options={{
           title: 'Todo',
