@@ -1,0 +1,102 @@
+{
+  "id": "c2-writing-week-5",
+  "type": "writing",
+  "level": "C2",
+  "weekId": "week-5",
+  "title": "The Critical Review and Scholarly Response",
+  "description": "Writing rigorous critical assessments of scholarly work",
+  "estimatedMinutes": 35,
+  "xpReward": 65,
+  "sections": [
+    {
+      "id": "c2-w5-s1",
+      "title": "The Structure of Critical Review",
+      "description": "Organizing a scholarly critique",
+      "components": [
+        {
+          "element": "Accurate exposition",
+          "description": "Present the position fairly before critiquing",
+          "example": "Smith argues that X, on the grounds that Y. Their key innovation is to show that Z.",
+          "importance": "Establishes credibility and fairness"
+        },
+        {
+          "element": "Internal critique",
+          "description": "Identify tensions or gaps within the argument on its own terms",
+          "example": "Granting Smith's premises, the conclusion does not follow because...",
+          "importance": "Shows careful engagement"
+        },
+        {
+          "element": "External critique",
+          "description": "Challenge assumptions or offer counterexamples from outside the framework",
+          "example": "Smith's argument assumes that P, but there are reasons to doubt P...",
+          "importance": "Broadens scope of evaluation"
+        },
+        {
+          "element": "Constructive contribution",
+          "description": "Suggest modifications or alternatives",
+          "example": "These difficulties might be addressed by modifying the framework as follows...",
+          "importance": "Advances the discussion"
+        }
+      ]
+    },
+    {
+      "id": "c2-w5-s2",
+      "title": "Critical Vocabulary",
+      "description": "Precise terms for scholarly evaluation",
+      "evaluative_terms": [
+        {
+          "term": "compelling/persuasive",
+          "use": "Arguments that successfully establish their conclusions",
+          "caution": "Reserve for genuinely strong arguments"
+        },
+        {
+          "term": "suggestive",
+          "use": "Ideas that open productive lines of inquiry without proving their case",
+          "example": "While not conclusive, the parallel is suggestive."
+        },
+        {
+          "term": "problematic",
+          "use": "Features that raise significant difficulties",
+          "example": "The assumption of cognitive transparency is problematic."
+        },
+        {
+          "term": "question-begging",
+          "use": "Arguments that presuppose what they seek to prove",
+          "example": "This move appears question-begging, as it assumes..."
+        },
+        {
+          "term": "underdeveloped",
+          "use": "Ideas that need more elaboration",
+          "example": "The account of agency remains underdeveloped."
+        }
+      ]
+    },
+    {
+      "id": "c2-w5-s3",
+      "title": "Charitable Reading",
+      "description": "The principle of interpretive charity in scholarly discourse",
+      "principles": [
+        {
+          "principle": "Strongest interpretation",
+          "description": "Interpret ambiguous passages in the way that makes them most defensible",
+          "example": "While the text could be read as claiming X, a more charitable reading would take it as..."
+        },
+        {
+          "principle": "Anticipating responses",
+          "description": "Consider how the author might respond to your objections",
+          "example": "A defender of this view might respond that... However, this response fails because..."
+        },
+        {
+          "principle": "Acknowledging strengths",
+          "description": "Credit genuine achievements even in work you criticize",
+          "example": "Despite these reservations, Smith's contribution to understanding Y remains significant."
+        }
+      ]
+    }
+  ],
+  "writingTask": {
+    "title": "Critical Response to a Philosophical Claim",
+    "prompt": "Write a critical response (300-350 words) to the following claim: 'The persistent disagreement among experts in philosophy proves that philosophical knowledge is impossible.' Present the argument, then offer a carefully reasoned critique.",
+    "sampleResponse": "The Argument from Disagreement Against Philosophical Knowledge: A Response\n\nThe argument from expert disagreement against philosophical knowledge can be reconstructed as follows: (1) If knowledge in domain D is possible, then experts in D should eventually converge on the truth. (2) Philosophical experts persistently disagree. (3) Therefore, philosophical knowledge is impossible. The argument is valid, so if sound, its conclusion follows. I shall argue that premise (1) is false.\n\nPremise (1) implicitly assumes that convergence is a necessary condition of knowledge. This assumption is questionable on both empirical and conceptual grounds. Empirically, persistent disagreement characterizes many domains where knowledge claims are uncontroversial—including theoretical physics, historical interpretation, and economic analysis. If disagreement entailed impossibility of knowledge, we would be committed to a skepticism far broader than the argument intends.\n\nConceptually, the connection between knowledge and convergence presupposes a particular model of inquiry: one where evidence is public, methods are shared, and rational inquirers must eventually agree. But philosophical inquiry may not fit this model. Philosophical questions often concern the adequacy of our conceptual frameworks themselves—the very tools with which we assess evidence. Where frameworks differ, convergence may be neither expected nor, perhaps, desirable.\n\nMoreover, the argument conflates two distinct phenomena: disagreement about the truth and absence of truth. That philosophers disagree about whether P does not entail that P has no truth value. At most, disagreement shows that philosophers lack a reliable method for collectively identifying truth—but this is compatible with some philosophers knowing the truth while others are mistaken.\n\nFinally, we should note the argument's self-undermining character. The claim that philosophical knowledge is impossible is itself a philosophical claim. If it is known to be true, then philosophical knowledge is possible; if it cannot be known, then we have no reason to accept it. The persistent disagreement about this very argument illustrates the difficulty but does not resolve it in favor of skepticism.\n\nThe argument from disagreement thus fails to establish its conclusion. Philosophical knowledge, while perhaps harder to confirm than empirical knowledge, remains a coherent possibility."
+  }
+}

@@ -49,7 +49,12 @@ interface LearnActions {
 
   // 진행률 관리
   updateProgress: (progress: LearnProgress) => void;
-  markActivityComplete: (activityId: string, weekId: string, type: ActivityType, score: number) => void;
+  markActivityComplete: (
+    activityId: string,
+    weekId: string,
+    type: ActivityType,
+    score: number
+  ) => void;
 
   // 퀴즈/플래시카드 결과 저장
   saveQuizResults: (activityId: string, results: QuizResult[]) => void;

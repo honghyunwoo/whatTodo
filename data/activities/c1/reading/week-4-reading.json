@@ -1,0 +1,100 @@
+{
+  "id": "c1-reading-week-4",
+  "type": "reading",
+  "level": "C1",
+  "weekId": "week-4",
+  "title": "Behavioral Economics and Decision-Making",
+  "description": "Exploring cognitive biases and their impact on economic behavior",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passage": {
+    "title": "The Illusion of Rationality",
+    "author": "Adapted from behavioral economics research",
+    "paragraphs": [
+      "Classical economic theory rests on the assumption of homo economicus—the rational agent who consistently maximizes utility, processes all available information, and maintains stable preferences. This elegant model has yielded powerful predictions, yet it fails to account for the systematic ways in which human decision-making deviates from rationality. Behavioral economics, pioneered by Daniel Kahneman, Amos Tversky, and Richard Thaler, has documented these deviations with remarkable precision.",
+      "Consider loss aversion, perhaps the most robust finding in the field. Losses loom larger than equivalent gains—roughly twice as large, according to most estimates. This asymmetry explains why investors hold losing stocks too long while selling winners too quickly, why insurance is often overpriced yet oversubscribed, and why negotiations so frequently deadlock over what both parties stand to lose rather than what they might gain. Loss aversion is not merely a preference; it appears to be hardwired into our neural architecture.",
+      "Equally pervasive is the anchoring effect. Initial numbers—even arbitrary ones—powerfully influence subsequent judgments. Real estate agents shown a higher listing price estimate properties more generously. Judges presented with higher sentencing demands impose harsher sentences. The anchoring effect persists even when subjects are warned about it, suggesting that awareness alone cannot neutralize its influence. This has profound implications for negotiations, pricing strategies, and policy design.",
+      "What are we to make of these systematic errors? Thaler argues that the goal is not to replace homo economicus with homo irrationalis but to develop more realistic models that retain predictive power. The emerging consensus is that human cognition operates through two systems: a fast, intuitive System 1 that handles most decisions automatically, and a slower, more deliberate System 2 that can override System 1 when engaged. Most biases arise when System 1 operates unchecked. The practical challenge is designing environments—choice architectures—that either engage System 2 or align System 1's default responses with better outcomes."
+    ]
+  },
+  "questions": [
+    {
+      "id": "c1-r4-q1",
+      "type": "main-idea",
+      "question": "What is the central argument of the passage?",
+      "options": [
+        "Classical economics should be abandoned entirely",
+        "Human decision-making systematically deviates from rational models",
+        "Loss aversion is the only significant cognitive bias",
+        "System 2 thinking is always superior to System 1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage argues that while classical economics assumes rationality, behavioral economics has documented 'systematic ways in which human decision-making deviates from rationality'"
+    },
+    {
+      "id": "c1-r4-q2",
+      "type": "detail",
+      "question": "According to the passage, how much larger do losses feel compared to equivalent gains?",
+      "options": [
+        "About 1.5 times larger",
+        "About twice as large",
+        "About three times larger",
+        "The ratio varies by individual"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Losses loom 'roughly twice as large, according to most estimates'"
+    },
+    {
+      "id": "c1-r4-q3",
+      "type": "inference",
+      "question": "Why does the author mention that awareness of anchoring cannot neutralize it?",
+      "options": [
+        "To suggest people are unintelligent",
+        "To emphasize the bias is deeply embedded and automatic",
+        "To argue against behavioral economics",
+        "To recommend avoiding negotiations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The persistence despite awareness 'suggests that awareness alone cannot neutralize its influence,' showing how deeply embedded these biases are"
+    },
+    {
+      "id": "c1-r4-q4",
+      "type": "vocabulary",
+      "question": "In this context, what does 'choice architecture' refer to?",
+      "options": [
+        "Building design for retail spaces",
+        "Computer interface design",
+        "The design of decision-making environments",
+        "Architectural preferences of consumers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Choice architecture refers to 'designing environments' that influence how decisions are made"
+    },
+    {
+      "id": "c1-r4-q5",
+      "type": "analysis",
+      "question": "What does Thaler's position suggest about the relationship between classical and behavioral economics?",
+      "options": [
+        "They are completely incompatible",
+        "Classical economics is superior",
+        "Behavioral economics should complement, not replace, classical models",
+        "Both should be abandoned for new theories"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Thaler argues the goal is 'not to replace homo economicus with homo irrationalis but to develop more realistic models that retain predictive power'"
+    },
+    {
+      "id": "c1-r4-q6",
+      "type": "application",
+      "question": "Based on the passage, which strategy would best counteract cognitive biases?",
+      "options": [
+        "Simply warning people about biases",
+        "Eliminating all choices",
+        "Designing environments that engage deliberate thinking",
+        "Increasing the speed of decision-making"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage concludes with the importance of 'designing environments—choice architectures—that either engage System 2 or align System 1's default responses'"
+    }
+  ]
+}

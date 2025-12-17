@@ -1,0 +1,100 @@
+{
+  "id": "c2-reading-week-5",
+  "type": "reading",
+  "level": "C2",
+  "weekId": "week-5",
+  "title": "The Limits of Knowledge",
+  "description": "Engaging with philosophical texts on epistemological limits",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passage": {
+    "title": "What Cannot Be Known",
+    "author": "Adapted from epistemology and philosophy of science sources",
+    "paragraphs": [
+      "The Enlightenment bequeathed to us an image of knowledge without limits—every mystery, in principle, solvable by the advance of science and reason. This cognitive optimism found its purest expression in Laplace's demon: given complete knowledge of the present state of the universe and the laws governing it, a sufficiently powerful intellect could calculate both the infinite past and the infinite future. Nothing, in principle, would be hidden. Contemporary philosophy of science has thoroughly dismantled this vision. Heisenberg's uncertainty principle establishes that precise simultaneous knowledge of certain conjugate variables is physically impossible. Gödel's incompleteness theorems demonstrate that sufficiently powerful formal systems cannot prove all truths expressible within them. And computational complexity theory reveals problems whose solutions exist but require more time to compute than the lifespan of the universe.",
+      "These limitations are not mere practical obstacles to be overcome by more powerful instruments or more clever methods; they are, in some sense, structural features of knowledge itself. Yet we should be careful about drawing the wrong conclusions. The existence of necessary limits does not imply that all knowledge is arbitrary or that science makes no progress. The boundaries of the knowable may be real without being everywhere the same. Within those boundaries, genuine knowledge—fallible, revisable, but progressively more accurate—remains possible. The challenge is to distinguish necessary limits from contingent ignorance, to know what we cannot know without assuming that nothing can be known.",
+      "There is, however, a deeper dimension to epistemic limitation that transcends the formal results of logic and physics. This is the perspectival character of all knowledge. We know as embodied creatures occupying particular positions in space and time, shaped by particular histories and languages. The view from nowhere is not merely unavailable to us; it may not be coherent. What would it mean to know reality as it is 'in itself,' independent of any perspective? Perhaps the question contains its own refutation: to know is always to know as, from some position, within some framework. This does not reduce knowledge to subjective opinion—the view from somewhere is not the same as the view from just anywhere—but it does suggest that the dream of absolute knowledge may be not just unreachable but unintelligible.",
+      "Wittgenstein remarked that whereof one cannot speak, thereof one must be silent. But perhaps the more important question concerns what remains unspoken at the heart of what we do say—the presuppositions we cannot articulate because they are the very conditions that make articulation possible. Every inquiry rests on something that, in that inquiry, is not questioned. The limits of knowledge are not only external barriers but internal conditions."
+    ]
+  },
+  "questions": [
+    {
+      "id": "c2-r5-q1",
+      "type": "main-idea",
+      "question": "What is the author's central argument about epistemic limits?",
+      "options": [
+        "All knowledge is impossible",
+        "Science has proven nothing can be known with certainty",
+        "Limits are structural features of knowledge, not just practical obstacles",
+        "We should abandon the pursuit of knowledge"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The author argues that limitations 'are not mere practical obstacles' but 'structural features of knowledge itself'"
+    },
+    {
+      "id": "c2-r5-q2",
+      "type": "detail",
+      "question": "Which formal results does the author cite as evidence for epistemic limits?",
+      "options": [
+        "Quantum mechanics and string theory",
+        "Uncertainty principle, Gödel's theorems, and complexity theory",
+        "Relativity and thermodynamics",
+        "Evolutionary biology and neuroscience"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage cites 'Heisenberg's uncertainty principle,' 'Gödel's incompleteness theorems,' and 'computational complexity theory'"
+    },
+    {
+      "id": "c2-r5-q3",
+      "type": "inference",
+      "question": "What does the author suggest about 'the view from nowhere'?",
+      "options": [
+        "It is the goal science should pursue",
+        "It is difficult but achievable",
+        "It may not be coherent as a concept",
+        "It was achieved by Laplace's demon"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'The view from nowhere is not merely unavailable to us; it may not be coherent'"
+    },
+    {
+      "id": "c2-r5-q4",
+      "type": "vocabulary",
+      "question": "What does 'conjugate variables' refer to in the context of Heisenberg's principle?",
+      "options": [
+        "Variables that are mathematically complex",
+        "Pairs of physical properties that cannot both be measured precisely",
+        "Variables that combine to form new measurements",
+        "Properties shared by conjugate particles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the uncertainty principle, conjugate variables (like position and momentum) cannot both be known precisely simultaneously"
+    },
+    {
+      "id": "c2-r5-q5",
+      "type": "critical-analysis",
+      "question": "Why does the author distinguish 'the view from somewhere' from 'the view from just anywhere'?",
+      "options": [
+        "To defend the objectivity of perspectival knowledge",
+        "To reject all forms of objectivity",
+        "To support complete relativism",
+        "To show that location determines truth"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The distinction shows that perspectival knowledge 'does not reduce knowledge to subjective opinion'"
+    },
+    {
+      "id": "c2-r5-q6",
+      "type": "synthesis",
+      "question": "How does the final paragraph relate to the rest of the argument?",
+      "options": [
+        "It contradicts the earlier claims about formal limits",
+        "It shifts from external limits to limits internal to inquiry itself",
+        "It advocates for silence on all philosophical matters",
+        "It suggests Wittgenstein solved the problem of knowledge"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The conclusion moves to 'internal conditions'—'presuppositions we cannot articulate because they are the very conditions that make articulation possible'"
+    }
+  ]
+}

@@ -27,11 +27,11 @@ export interface WritingEvaluation {
   sentenceCount: number;
   averageSentenceLength: number;
 
-  // Rule-based analysis (optional)
+  // Rule-based analysis score
   ruleBasedScore?: RuleBasedScore;
 }
 
-// Rule-based writing analysis
+// Rule-based analysis for writing
 export interface RuleBasedScore {
   wordCount: number;
   sentenceCount: number;

@@ -197,7 +197,7 @@ export function TrueFalse({ questions, onComplete }: TrueFalseProps) {
               Is this statement TRUE or FALSE?
             </Text>
             <Text style={[styles.statement, { color: colors.text }]}>
-              "{currentQuestion.statement}"
+              &ldquo;{currentQuestion.statement}&rdquo;
             </Text>
           </Card.Content>
         </Card>

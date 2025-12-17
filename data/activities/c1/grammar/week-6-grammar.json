@@ -1,0 +1,151 @@
+{
+  "id": "c1-grammar-week-6",
+  "type": "grammar",
+  "level": "C1",
+  "weekId": "week-6",
+  "title": "Legal and Formal Register",
+  "description": "Grammatical patterns characteristic of legal and highly formal discourse",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c1-g6-s1",
+      "title": "Legal Conditionals and Provisos",
+      "explanation": "Conditional structures used in contracts, regulations, and legal documents.",
+      "patterns": [
+        {
+          "pattern": "Subject to",
+          "meaning": "Dependent on; conditional upon",
+          "example": "Subject to board approval, the merger will proceed as planned.",
+          "position": "Usually clause-initial"
+        },
+        {
+          "pattern": "Provided that / Providing that",
+          "meaning": "On the condition that",
+          "example": "The license remains valid provided that all fees are paid annually.",
+          "note": "More formal than 'if'"
+        },
+        {
+          "pattern": "In the event that / In the event of",
+          "meaning": "If (something happens)",
+          "example": "In the event of termination, all rights revert to the licensor.",
+          "note": "Highly formal, common in contracts"
+        },
+        {
+          "pattern": "Unless otherwise specified/stated",
+          "meaning": "Except where explicitly indicated differently",
+          "example": "Unless otherwise specified, delivery will occur within 30 days.",
+          "note": "Sets default condition"
+        }
+      ]
+    },
+    {
+      "id": "c1-g6-s2",
+      "title": "Shall and Legal Obligation",
+      "explanation": "The modal 'shall' in legal and regulatory contexts.",
+      "distinctions": [
+        {
+          "form": "Shall (legal)",
+          "function": "Creates binding obligation",
+          "example": "The tenant shall maintain the premises in good condition.",
+          "note": "Stronger than 'must' in legal contexts"
+        },
+        {
+          "form": "May",
+          "function": "Grants permission or discretion",
+          "example": "The court may extend the deadline upon request.",
+          "note": "Permissive, not obligatory"
+        },
+        {
+          "form": "Must",
+          "function": "Strong obligation (but less formal than shall)",
+          "example": "All employees must complete the training.",
+          "note": "Common in policies, less in contracts"
+        },
+        {
+          "form": "Is/Are to",
+          "function": "Fixed arrangement or instruction",
+          "example": "Payments are to be made on the first of each month.",
+          "note": "Formal, indicates predetermined arrangement"
+        }
+      ]
+    },
+    {
+      "id": "c1-g6-s3",
+      "title": "Nominalization in Legal Language",
+      "explanation": "Converting verbs to nouns for formal, precise expression.",
+      "examples": [
+        {
+          "verbal": "if the contract is terminated",
+          "nominal": "upon termination of the contract",
+          "effect": "More concise, more formal"
+        },
+        {
+          "verbal": "when the parties agree",
+          "nominal": "upon agreement of the parties",
+          "effect": "Removes personal agency"
+        },
+        {
+          "verbal": "if you fail to comply",
+          "nominal": "in the event of non-compliance",
+          "effect": "Neutral, impersonal"
+        }
+      ]
+    },
+    {
+      "id": "c1-g6-s4",
+      "title": "Hereby, Herein, and Legal Deixis",
+      "explanation": "Formal deictic expressions pointing to elements within a document.",
+      "terms": [
+        {
+          "term": "hereby",
+          "meaning": "by means of this document/statement",
+          "example": "The company hereby agrees to the terms set forth below."
+        },
+        {
+          "term": "herein",
+          "meaning": "in this document",
+          "example": "The terms defined herein shall apply throughout the agreement."
+        },
+        {
+          "term": "hereinafter",
+          "meaning": "later in this document",
+          "example": "ABC Corporation (hereinafter 'the Company')..."
+        },
+        {
+          "term": "thereof",
+          "meaning": "of that thing previously mentioned",
+          "example": "...and any amendments thereof."
+        },
+        {
+          "term": "notwithstanding",
+          "meaning": "despite; regardless of",
+          "example": "Notwithstanding the above, the following exceptions apply."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-g6-ex1",
+      "type": "transformation",
+      "instruction": "Convert to legal register using 'shall'",
+      "original": "The employee has to give two weeks notice before leaving.",
+      "answer": "The employee shall provide two weeks' notice prior to termination of employment."
+    },
+    {
+      "id": "c1-g6-ex2",
+      "type": "nominalization",
+      "instruction": "Nominalize the conditional clause",
+      "original": "If the buyer fails to pay on time, the seller can cancel the contract.",
+      "answer": "In the event of non-payment by the buyer, the seller may terminate the contract."
+    },
+    {
+      "id": "c1-g6-ex3",
+      "type": "legal-deixis",
+      "instruction": "Complete with appropriate legal deictic expression",
+      "sentence": "XYZ Ltd. (_____ referred to as 'the Supplier') agrees to the following terms.",
+      "answer": "hereinafter"
+    }
+  ]
+}

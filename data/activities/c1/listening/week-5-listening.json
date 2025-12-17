@@ -1,0 +1,116 @@
+{
+  "id": "c1-listening-week-5",
+  "type": "listening",
+  "level": "C1",
+  "weekId": "week-5",
+  "title": "Scientific Presentations and Environmental Debates",
+  "description": "Understanding technical presentations and policy discussions",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passages": [
+    {
+      "id": "c1-l5-p1",
+      "title": "Climate Science Update",
+      "context": "Scientific conference presentation",
+      "transcript": "The latest IPCC synthesis report consolidates findings from working groups on physical science, impacts, and mitigation. The headline findings are stark: we are on track for approximately 2.7 degrees Celsius of warming by century's end under current policies—well above the 1.5 degree target of the Paris Agreement. However, the report also notes that deep, rapid emissions cuts could still limit warming to 1.5 degrees, though this window is closing rapidly. What's particularly concerning is the updated assessment of tipping points—self-reinforcing feedback loops that could accelerate warming beyond model predictions. These include Amazon dieback, permafrost methane release, and ice sheet destabilization. The report emphasizes that every fraction of a degree matters: the difference between 1.5 and 2 degrees represents millions of additional climate refugees, significantly more species extinction, and substantially greater economic damage.",
+      "audioDescription": "Climate scientist presenting IPCC findings",
+      "questions": [
+        {
+          "id": "c1-l5-p1-q1",
+          "question": "What temperature increase does the speaker project under current policies?",
+          "options": [
+            "1.5 degrees Celsius",
+            "2.0 degrees Celsius",
+            "2.7 degrees Celsius",
+            "3.5 degrees Celsius"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The report shows 'we are on track for approximately 2.7 degrees Celsius of warming by century's end under current policies'"
+        },
+        {
+          "id": "c1-l5-p1-q2",
+          "question": "What are 'tipping points' in this context?",
+          "options": [
+            "Economic thresholds for policy change",
+            "Self-reinforcing feedback loops that accelerate warming",
+            "Political decision-making moments",
+            "Scientific measurement standards"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tipping points are 'self-reinforcing feedback loops that could accelerate warming beyond model predictions'"
+        },
+        {
+          "id": "c1-l5-p1-q3",
+          "question": "What does the speaker emphasize about the difference between 1.5 and 2 degrees?",
+          "options": [
+            "It is statistically insignificant",
+            "It cannot be accurately measured",
+            "It represents major differences in impacts",
+            "It is primarily a political distinction"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The difference 'represents millions of additional climate refugees, significantly more species extinction, and substantially greater economic damage'"
+        }
+      ]
+    },
+    {
+      "id": "c1-l5-p2",
+      "title": "Renewable Energy Policy Debate",
+      "context": "Panel discussion",
+      "transcript": "The transition to renewable energy raises complex questions about grid reliability, economic disruption, and social equity. Critics argue that intermittency—the sun doesn't always shine, the wind doesn't always blow—makes renewables unsuitable as baseload power. Proponents counter that advances in battery storage, grid interconnection, and demand-response technologies are rapidly addressing this limitation. There's also the jobs question: while renewable energy creates more jobs per unit of energy than fossil fuels, these jobs are often in different locations, requiring just transition policies that support affected communities. Finally, there's the question of who bears the costs. Subsidies for renewables have historically benefited wealthier households who can afford solar panels and electric vehicles. If we're serious about a just transition, we need policies that ensure the benefits of clean energy are equitably distributed—that low-income communities aren't left behind as the energy system transforms.",
+      "audioDescription": "Policy experts discussing renewable energy transition",
+      "questions": [
+        {
+          "id": "c1-l5-p2-q1",
+          "question": "What is the 'intermittency' problem with renewables?",
+          "options": [
+            "Renewable equipment breaks down frequently",
+            "Sun and wind are not always available",
+            "Electricity demand fluctuates unpredictably",
+            "Grid infrastructure is unreliable"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Intermittency refers to the fact that 'the sun doesn't always shine, the wind doesn't always blow'"
+        },
+        {
+          "id": "c1-l5-p2-q2",
+          "question": "How do renewable energy jobs compare to fossil fuel jobs?",
+          "options": [
+            "Fewer jobs but higher paying",
+            "More jobs per unit of energy but in different locations",
+            "Same number of jobs in the same locations",
+            "Fewer jobs overall in the economy"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Renewable energy creates more jobs per unit of energy than fossil fuels' but 'these jobs are often in different locations'"
+        },
+        {
+          "id": "c1-l5-p2-q3",
+          "question": "What equity concern is raised about current renewable subsidies?",
+          "options": [
+            "They are too expensive for governments",
+            "They have historically benefited wealthier households",
+            "They create unfair competition with fossil fuels",
+            "They are distributed internationally rather than domestically"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Subsidies for renewables have historically benefited wealthier households who can afford solar panels and electric vehicles'"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "baseload power",
+      "definition": "The minimum level of electricity demand that must be continuously supplied"
+    },
+    {
+      "term": "just transition",
+      "definition": "Policies ensuring the shift to clean energy is fair to workers and communities"
+    },
+    {
+      "term": "demand-response",
+      "definition": "Adjusting consumer electricity usage based on grid conditions"
+    }
+  ]
+}

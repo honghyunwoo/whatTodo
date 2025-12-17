@@ -14,7 +14,16 @@
       "partOfSpeech": "phrasal verb",
       "meaning": "일어나다, 깨다",
       "example": "I wake up at 7 o'clock every day.",
-      "exampleMeaning": "나는 매일 7시에 일어납니다."
+      "exampleMeaning": "나는 매일 7시에 일어납니다.",
+      "koreanPronunciationTip": "'웨이크 업' - '웨이'는 '웨딩'의 '웨'처럼, '업'은 짧게",
+      "mnemonic": "Wake(깨다) + Up(위로) = 위로 일어나서 깨다",
+      "confusableWords": [
+        { "word": "Get up", "difference": "Wake up은 잠에서 깨는 것, Get up은 침대에서 일어나는 것" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I wake up early on weekdays.", "meaning": "나는 평일에 일찍 일어납니다." },
+        { "sentence": "Don't wake up the baby.", "meaning": "아기를 깨우지 마세요." }
+      ]
     },
     {
       "id": "w2",
@@ -23,7 +32,16 @@
       "partOfSpeech": "verb",
       "meaning": "먹다",
       "example": "I eat breakfast at 7:30.",
-      "exampleMeaning": "나는 7시 30분에 아침을 먹습니다."
+      "exampleMeaning": "나는 7시 30분에 아침을 먹습니다.",
+      "koreanPronunciationTip": "'잇' - '이'를 길게 발음하고 't'로 끝냄",
+      "mnemonic": "Eat의 'E'가 입을 벌린 모양처럼 생겼다고 상상해보세요",
+      "confusableWords": [
+        { "word": "Have", "difference": "'Eat breakfast'와 'Have breakfast' 둘 다 가능하지만 have가 더 자연스러움" }
+      ],
+      "additionalExamples": [
+        { "sentence": "What do you want to eat?", "meaning": "뭘 먹고 싶어요?" },
+        { "sentence": "I eat lunch at noon.", "meaning": "나는 정오에 점심을 먹어요." }
+      ]
     },
     {
       "id": "w3",
@@ -32,7 +50,14 @@
       "partOfSpeech": "noun",
       "meaning": "아침식사",
       "example": "Breakfast is the most important meal.",
-      "exampleMeaning": "아침식사는 가장 중요한 식사입니다."
+      "exampleMeaning": "아침식사는 가장 중요한 식사입니다.",
+      "koreanPronunciationTip": "'브렉퍼스트' - 강세는 '브렉'에, '퍼스트'는 약하게",
+      "mnemonic": "Break(깨다) + Fast(단식) = 밤새 단식을 깨는 식사 = 아침식사",
+      "etymology": "Break(깨다) + Fast(단식)에서 유래. 밤새 먹지 않은 것(fast)을 깨는(break) 식사",
+      "additionalExamples": [
+        { "sentence": "I had toast for breakfast.", "meaning": "아침으로 토스트를 먹었어요." },
+        { "sentence": "Did you eat breakfast?", "meaning": "아침 먹었어요?" }
+      ]
     },
     {
       "id": "w4",
@@ -41,7 +66,16 @@
       "partOfSpeech": "noun",
       "meaning": "점심식사",
       "example": "I have lunch at school.",
-      "exampleMeaning": "나는 학교에서 점심을 먹습니다."
+      "exampleMeaning": "나는 학교에서 점심을 먹습니다.",
+      "koreanPronunciationTip": "'런치' - '런'의 'ʌ'는 '아'와 '어' 사이 소리",
+      "mnemonic": "Launch(발사)와 비슷한 발음 - 점심 먹고 오후를 발사!",
+      "confusableWords": [
+        { "word": "Launch", "difference": "Lunch(점심), Launch(발사) - 철자와 의미가 다름" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Let's have lunch together.", "meaning": "같이 점심 먹자." },
+        { "sentence": "What's for lunch today?", "meaning": "오늘 점심 뭐야?" }
+      ]
     },
     {
       "id": "w5",
@@ -50,7 +84,16 @@
       "partOfSpeech": "noun",
       "meaning": "저녁식사",
       "example": "We eat dinner together every evening.",
-      "exampleMeaning": "우리는 매일 저녁 함께 저녁식사를 합니다."
+      "exampleMeaning": "우리는 매일 저녁 함께 저녁식사를 합니다.",
+      "koreanPronunciationTip": "'디너' - '디'에 강세, '너'는 약하게",
+      "mnemonic": "Dinner의 'D'가 저녁의 '저'와 비슷 - Dinner = 저녁",
+      "confusableWords": [
+        { "word": "Supper", "difference": "Dinner는 하루 중 메인 식사, Supper는 가벼운 저녁 (지역마다 다름)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Mom is cooking dinner.", "meaning": "엄마가 저녁을 요리하고 계세요." },
+        { "sentence": "Dinner is ready!", "meaning": "저녁 준비됐어요!" }
+      ]
     },
     {
       "id": "w6",
@@ -59,7 +102,16 @@
       "partOfSpeech": "verb",
       "meaning": "가다",
       "example": "I go to school by bus.",
-      "exampleMeaning": "나는 버스로 학교에 갑니다."
+      "exampleMeaning": "나는 버스로 학교에 갑니다.",
+      "koreanPronunciationTip": "'고우' - '고'에서 '우'로 부드럽게 연결",
+      "mnemonic": "GO! 신호등의 초록불처럼 '가!'",
+      "confusableWords": [
+        { "word": "Come", "difference": "Go는 화자에게서 멀어지는 방향, Come은 화자에게 가까워지는 방향" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Let's go home.", "meaning": "집에 가자." },
+        { "sentence": "Where do you go?", "meaning": "어디 가세요?" }
+      ]
     },
     {
       "id": "w7",
@@ -68,7 +120,14 @@
       "partOfSpeech": "noun",
       "meaning": "학교",
       "example": "School starts at 8:30.",
-      "exampleMeaning": "학교는 8시 30분에 시작합니다."
+      "exampleMeaning": "학교는 8시 30분에 시작합니다.",
+      "koreanPronunciationTip": "'스쿨' - 'sch'는 '스크'가 아닌 '스ㅋ'처럼",
+      "mnemonic": "School에서 배우는 Scholar(학자)가 된다",
+      "etymology": "그리스어 'skhole'(여가)에서 유래. 고대에는 여가 시간에 공부했음",
+      "additionalExamples": [
+        { "sentence": "I like my school.", "meaning": "나는 우리 학교가 좋아요." },
+        { "sentence": "School is fun.", "meaning": "학교는 재미있어요." }
+      ]
     },
     {
       "id": "w8",
@@ -77,7 +136,16 @@
       "partOfSpeech": "verb",
       "meaning": "공부하다",
       "example": "I study English every day.",
-      "exampleMeaning": "나는 매일 영어를 공부합니다."
+      "exampleMeaning": "나는 매일 영어를 공부합니다.",
+      "koreanPronunciationTip": "'스터디' - '스'에 강세, '터디'는 빠르게",
+      "mnemonic": "Student(학생)가 Study(공부)한다",
+      "confusableWords": [
+        { "word": "Learn", "difference": "Study는 공부하는 행위, Learn은 배워서 습득하는 것" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I study math at night.", "meaning": "나는 밤에 수학을 공부해요." },
+        { "sentence": "Study hard!", "meaning": "열심히 공부해!" }
+      ]
     },
     {
       "id": "w9",
@@ -86,7 +154,16 @@
       "partOfSpeech": "verb",
       "meaning": "놀다, (운동을) 하다",
       "example": "I play soccer with my friends.",
-      "exampleMeaning": "나는 친구들과 축구를 합니다."
+      "exampleMeaning": "나는 친구들과 축구를 합니다.",
+      "koreanPronunciationTip": "'플레이' - '플'은 짧게, '레이'에 강세",
+      "mnemonic": "Play Station(플레이스테이션)에서 Play = 놀다",
+      "confusableWords": [
+        { "word": "Do", "difference": "Play는 ball 스포츠(soccer, basketball), Do는 개인 운동(yoga, karate)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Can I play with you?", "meaning": "너랑 놀아도 돼?" },
+        { "sentence": "I play the piano.", "meaning": "나는 피아노를 쳐요." }
+      ]
     },
     {
       "id": "w10",
@@ -95,7 +172,16 @@
       "partOfSpeech": "verb",
       "meaning": "일하다",
       "example": "My father works at a hospital.",
-      "exampleMeaning": "우리 아버지는 병원에서 일하십니다."
+      "exampleMeaning": "우리 아버지는 병원에서 일하십니다.",
+      "koreanPronunciationTip": "'워크' - '워'는 '어'에 가깝게, 'r'은 혀를 말아서",
+      "mnemonic": "Work(일하다) → Worker(일꾼) → Homework(집에서 하는 일=숙제)",
+      "confusableWords": [
+        { "word": "Job", "difference": "Work는 일하는 행위/동사, Job은 직업/명사" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I work on Saturdays.", "meaning": "나는 토요일에 일해요." },
+        { "sentence": "Where do you work?", "meaning": "어디서 일하세요?" }
+      ]
     },
     {
       "id": "w11",
@@ -104,7 +190,17 @@
       "partOfSpeech": "verb",
       "meaning": "보다 (TV, 영화 등)",
       "example": "I watch TV in the evening.",
-      "exampleMeaning": "나는 저녁에 TV를 봅니다."
+      "exampleMeaning": "나는 저녁에 TV를 봅니다.",
+      "koreanPronunciationTip": "'와치' - '와'에 강세, 'tch'는 '치'",
+      "mnemonic": "손목시계(Watch)를 볼 때처럼 집중해서 보다",
+      "confusableWords": [
+        { "word": "See", "difference": "Watch는 집중해서 보다, See는 자연스럽게 눈에 들어오다" },
+        { "word": "Look", "difference": "Look은 시선을 향하다, Watch는 움직이는 것을 보다" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Let's watch a movie.", "meaning": "영화 보자." },
+        { "sentence": "I watch YouTube.", "meaning": "나는 유튜브를 봐요." }
+      ]
     },
     {
       "id": "w12",
@@ -113,7 +209,16 @@
       "partOfSpeech": "verb",
       "meaning": "읽다",
       "example": "She reads a book before bed.",
-      "exampleMeaning": "그녀는 자기 전에 책을 읽습니다."
+      "exampleMeaning": "그녀는 자기 전에 책을 읽습니다.",
+      "koreanPronunciationTip": "'리드' - '리'를 길게, '드'는 짧게",
+      "mnemonic": "Read(읽다) → Reader(독자) → Reading(독서)",
+      "confusableWords": [
+        { "word": "Read (과거형)", "difference": "현재형: /riːd/(리드), 과거형: /red/(레드) - 철자 같고 발음 다름!" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I read comics.", "meaning": "나는 만화를 읽어요." },
+        { "sentence": "Read this book.", "meaning": "이 책을 읽어봐." }
+      ]
     },
     {
       "id": "w13",
@@ -122,7 +227,16 @@
       "partOfSpeech": "verb",
       "meaning": "자다",
       "example": "I sleep eight hours every night.",
-      "exampleMeaning": "나는 매일 밤 8시간 잡니다."
+      "exampleMeaning": "나는 매일 밤 8시간 잡니다.",
+      "koreanPronunciationTip": "'슬립' - 'sl'은 부드럽게, '리'를 길게",
+      "mnemonic": "Sleep 할 때 Sheep(양)을 세는 것처럼 - 발음도 비슷!",
+      "confusableWords": [
+        { "word": "Asleep", "difference": "Sleep은 동사(자다), Asleep은 형용사(잠든 상태인)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I can't sleep.", "meaning": "잠이 안 와요." },
+        { "sentence": "Sleep well!", "meaning": "잘 자!" }
+      ]
     },
     {
       "id": "w14",
@@ -131,7 +245,16 @@
       "partOfSpeech": "verb",
       "meaning": "하다",
       "example": "I do my homework after school.",
-      "exampleMeaning": "나는 방과 후에 숙제를 합니다."
+      "exampleMeaning": "나는 방과 후에 숙제를 합니다.",
+      "koreanPronunciationTip": "'두' - 길게 '두~'로 발음",
+      "mnemonic": "Just Do It! (나이키 슬로건처럼) - 그냥 해!",
+      "confusableWords": [
+        { "word": "Make", "difference": "Do는 활동(do homework), Make는 창조(make food)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "What do you do?", "meaning": "무슨 일 하세요? (직업)" },
+        { "sentence": "I do exercise.", "meaning": "나는 운동해요." }
+      ]
     },
     {
       "id": "w15",
@@ -140,7 +263,14 @@
       "partOfSpeech": "noun",
       "meaning": "숙제",
       "example": "I have a lot of homework today.",
-      "exampleMeaning": "오늘 숙제가 많아요."
+      "exampleMeaning": "오늘 숙제가 많아요.",
+      "koreanPronunciationTip": "'홈워크' - '홈'에 강세, '워크'는 약하게",
+      "mnemonic": "Home(집) + Work(일) = 집에서 하는 일 = 숙제",
+      "etymology": "Home(집) + Work(일)의 합성어",
+      "additionalExamples": [
+        { "sentence": "Did you finish your homework?", "meaning": "숙제 다 했어?" },
+        { "sentence": "I forgot my homework.", "meaning": "숙제를 잊어버렸어요." }
+      ]
     },
     {
       "id": "w16",
@@ -149,7 +279,16 @@
       "partOfSpeech": "verb",
       "meaning": "좋아하다",
       "example": "I like playing basketball.",
-      "exampleMeaning": "나는 농구하는 것을 좋아합니다."
+      "exampleMeaning": "나는 농구하는 것을 좋아합니다.",
+      "koreanPronunciationTip": "'라이크' - '라이'에 강세, 'k'로 끝냄",
+      "mnemonic": "페이스북의 Like(좋아요) 버튼처럼!",
+      "confusableWords": [
+        { "word": "Love", "difference": "Like는 좋아하다, Love는 매우 좋아하다/사랑하다 (더 강함)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I like ice cream.", "meaning": "나는 아이스크림을 좋아해요." },
+        { "sentence": "Do you like pizza?", "meaning": "피자 좋아해요?" }
+      ]
     },
     {
       "id": "w17",
@@ -158,7 +297,16 @@
       "partOfSpeech": "verb",
       "meaning": "매우 좋아하다, 사랑하다",
       "example": "I love reading books.",
-      "exampleMeaning": "나는 책 읽기를 매우 좋아합니다."
+      "exampleMeaning": "나는 책 읽기를 매우 좋아합니다.",
+      "koreanPronunciationTip": "'러브' - '러'는 '아'와 '어' 사이, '브'로 끝",
+      "mnemonic": "Love Letter(러브레터), I Love You에서 익숙한 단어!",
+      "confusableWords": [
+        { "word": "Like", "difference": "Love가 Like보다 더 강한 감정 표현" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I love you.", "meaning": "사랑해요." },
+        { "sentence": "I love this song.", "meaning": "이 노래 너무 좋아요." }
+      ]
     },
     {
       "id": "w18",
@@ -167,7 +315,17 @@
       "partOfSpeech": "verb",
       "meaning": "만들다",
       "example": "She makes breakfast every morning.",
-      "exampleMeaning": "그녀는 매일 아침 아침식사를 만듭니다."
+      "exampleMeaning": "그녀는 매일 아침 아침식사를 만듭니다.",
+      "koreanPronunciationTip": "'메이크' - '메이'에 강세, 'k'로 끝",
+      "mnemonic": "Make-up(메이크업)할 때처럼 무언가를 만들어내는 것",
+      "confusableWords": [
+        { "word": "Do", "difference": "Make는 무언가를 만들 때, Do는 활동할 때" },
+        { "word": "Cook", "difference": "Make food는 일반적, Cook은 열을 사용해 요리" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I make my bed.", "meaning": "나는 침대를 정리해요." },
+        { "sentence": "Let's make a cake.", "meaning": "케이크 만들자." }
+      ]
     },
     {
       "id": "w19",
@@ -176,7 +334,16 @@
       "partOfSpeech": "verb",
       "meaning": "가져가다, (교통수단을) 타다",
       "example": "I take the bus to school.",
-      "exampleMeaning": "나는 학교에 버스를 타고 갑니다."
+      "exampleMeaning": "나는 학교에 버스를 타고 갑니다.",
+      "koreanPronunciationTip": "'테이크' - '테이'에 강세, 'k'로 끝",
+      "mnemonic": "Take out(테이크아웃) - 가져가다",
+      "confusableWords": [
+        { "word": "Bring", "difference": "Take는 가져가다(멀어지는 방향), Bring은 가져오다(가까워지는 방향)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Take your umbrella.", "meaning": "우산 가져가." },
+        { "sentence": "I take a shower.", "meaning": "나는 샤워해요." }
+      ]
     },
     {
       "id": "w20",
@@ -185,7 +352,536 @@
       "partOfSpeech": "verb",
       "meaning": "오다",
       "example": "Come home before 6 o'clock.",
-      "exampleMeaning": "6시 전에 집에 오세요."
+      "exampleMeaning": "6시 전에 집에 오세요.",
+      "koreanPronunciationTip": "'컴' - '커'와 '캄' 사이, 짧게 발음",
+      "mnemonic": "Welcome(웰컴)에서 Come = 오다",
+      "confusableWords": [
+        { "word": "Go", "difference": "Come은 화자에게 가까워지는 방향, Go는 화자에게서 멀어지는 방향" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Come here, please.", "meaning": "여기로 오세요." },
+        { "sentence": "Can you come to my house?", "meaning": "우리 집에 올 수 있어?" }
+      ]
+    },
+    {
+      "id": "w21",
+      "word": "Drink",
+      "pronunciation": "/drɪŋk/",
+      "partOfSpeech": "verb",
+      "meaning": "마시다",
+      "example": "I drink water every morning.",
+      "exampleMeaning": "나는 매일 아침 물을 마십니다.",
+      "koreanPronunciationTip": "'드링크' - '드'와 '링'을 빠르게, 'k'로 끝",
+      "mnemonic": "Drink(음료)를 Drink(마시다) - 명사와 동사가 같은 형태",
+      "confusableWords": [
+        { "word": "Eat", "difference": "Drink는 액체를 마시다, Eat은 고체를 먹다" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Do you want something to drink?", "meaning": "뭐 마실래요?" },
+        { "sentence": "I drink coffee every day.", "meaning": "나는 매일 커피를 마셔요." }
+      ]
+    },
+    {
+      "id": "w22",
+      "word": "Walk",
+      "pronunciation": "/wɔːk/",
+      "partOfSpeech": "verb",
+      "meaning": "걷다",
+      "example": "I walk to school every day.",
+      "exampleMeaning": "나는 매일 학교까지 걸어갑니다.",
+      "koreanPronunciationTip": "'워크' - '워'를 길게, 'l'은 묵음!",
+      "mnemonic": "Walk(걷다)할 때 Talk(말하다)하기 좋다 - 발음도 비슷!",
+      "confusableWords": [
+        { "word": "Work", "difference": "Walk(걷다)는 'l'이 묵음, Work(일하다)는 'r' 발음" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Let's take a walk.", "meaning": "산책하자." },
+        { "sentence": "I walk my dog.", "meaning": "나는 강아지를 산책시켜요." }
+      ]
+    },
+    {
+      "id": "w23",
+      "word": "Run",
+      "pronunciation": "/rʌn/",
+      "partOfSpeech": "verb",
+      "meaning": "뛰다, 달리다",
+      "example": "I run in the park every morning.",
+      "exampleMeaning": "나는 매일 아침 공원에서 뜁니다.",
+      "koreanPronunciationTip": "'런' - '러'와 '안' 사이 소리, 짧게",
+      "mnemonic": "Run은 짧고 빠른 발음처럼, 달리기도 빠르다!",
+      "confusableWords": [
+        { "word": "Walk", "difference": "Run은 뛰다(빠름), Walk는 걷다(느림)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Don't run in the hallway.", "meaning": "복도에서 뛰지 마세요." },
+        { "sentence": "I run every day.", "meaning": "나는 매일 달려요." }
+      ]
+    },
+    {
+      "id": "w24",
+      "word": "Shower",
+      "pronunciation": "/ˈʃaʊər/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "샤워, 샤워하다",
+      "example": "I take a shower every morning.",
+      "exampleMeaning": "나는 매일 아침 샤워를 합니다.",
+      "koreanPronunciationTip": "'샤워' - 한국어 '샤워'와 거의 같음",
+      "mnemonic": "한국어 '샤워'가 영어 Shower에서 왔어요!",
+      "additionalExamples": [
+        { "sentence": "I need to shower.", "meaning": "샤워해야 해요." },
+        { "sentence": "The shower is broken.", "meaning": "샤워기가 고장났어요." }
+      ]
+    },
+    {
+      "id": "w25",
+      "word": "Brush",
+      "pronunciation": "/brʌʃ/",
+      "partOfSpeech": "verb",
+      "meaning": "(이를) 닦다, 빗질하다",
+      "example": "I brush my teeth after every meal.",
+      "exampleMeaning": "나는 매 식사 후에 이를 닦습니다.",
+      "koreanPronunciationTip": "'브러쉬' - '브'와 '러'를 빠르게, '쉬'로 끝",
+      "mnemonic": "Brush로 Teeth(이)를 닦고, Hair(머리)를 빗는다",
+      "additionalExamples": [
+        { "sentence": "Brush your hair.", "meaning": "머리 빗어." },
+        { "sentence": "I brush my teeth twice a day.", "meaning": "나는 하루에 두 번 이를 닦아요." }
+      ]
+    },
+    {
+      "id": "w26",
+      "word": "Wash",
+      "pronunciation": "/wɑːʃ/",
+      "partOfSpeech": "verb",
+      "meaning": "씻다, 세탁하다",
+      "example": "Wash your hands before eating.",
+      "exampleMeaning": "먹기 전에 손을 씻으세요.",
+      "koreanPronunciationTip": "'워시' - '워'를 길게, '시'로 끝",
+      "mnemonic": "Wash(씻다) → Washing machine(세탁기)",
+      "confusableWords": [
+        { "word": "Clean", "difference": "Wash는 물로 씻다, Clean은 일반적으로 깨끗이 하다" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I wash my face.", "meaning": "나는 세수해요." },
+        { "sentence": "Please wash the dishes.", "meaning": "설거지 해주세요." }
+      ]
+    },
+    {
+      "id": "w27",
+      "word": "Clean",
+      "pronunciation": "/kliːn/",
+      "partOfSpeech": "verb/adjective",
+      "meaning": "청소하다, 깨끗한",
+      "example": "I clean my room every weekend.",
+      "exampleMeaning": "나는 매주 주말에 방 청소를 합니다.",
+      "koreanPronunciationTip": "'클린' - '클'에 강세, '리'를 길게",
+      "mnemonic": "Clean(깨끗한) 상태로 만드는 것이 Clean(청소하다)",
+      "confusableWords": [
+        { "word": "Clear", "difference": "Clean은 깨끗한, Clear는 맑은/명확한" }
+      ],
+      "additionalExamples": [
+        { "sentence": "My room is clean.", "meaning": "내 방은 깨끗해요." },
+        { "sentence": "Help me clean the house.", "meaning": "집 청소하는 것 도와줘." }
+      ]
+    },
+    {
+      "id": "w28",
+      "word": "Cook",
+      "pronunciation": "/kʊk/",
+      "partOfSpeech": "verb",
+      "meaning": "요리하다",
+      "example": "My mom cooks dinner every day.",
+      "exampleMeaning": "우리 엄마는 매일 저녁을 요리하십니다.",
+      "koreanPronunciationTip": "'쿡' - '쿠'를 짧게, 'k'로 끝",
+      "mnemonic": "Cook(요리사)이 Cook(요리하다) - 같은 단어!",
+      "confusableWords": [
+        { "word": "Make", "difference": "Cook은 열을 사용해 요리, Make는 일반적으로 만들다" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Can you cook?", "meaning": "요리할 줄 알아요?" },
+        { "sentence": "I like to cook.", "meaning": "나는 요리하는 것을 좋아해요." }
+      ]
+    },
+    {
+      "id": "w29",
+      "word": "Listen",
+      "pronunciation": "/ˈlɪsən/",
+      "partOfSpeech": "verb",
+      "meaning": "듣다 (집중해서)",
+      "example": "Listen to the teacher carefully.",
+      "exampleMeaning": "선생님 말씀을 주의 깊게 들으세요.",
+      "koreanPronunciationTip": "'리슨' - 't'는 묵음! '리'에 강세",
+      "mnemonic": "Listen의 't'는 Silent(조용한)처럼 묵음!",
+      "confusableWords": [
+        { "word": "Hear", "difference": "Listen은 집중해서 듣다, Hear는 자연스럽게 들리다" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I listen to music.", "meaning": "나는 음악을 들어요." },
+        { "sentence": "Listen to me!", "meaning": "내 말 들어!" }
+      ]
+    },
+    {
+      "id": "w30",
+      "word": "Talk",
+      "pronunciation": "/tɔːk/",
+      "partOfSpeech": "verb",
+      "meaning": "말하다, 이야기하다",
+      "example": "I talk with my friends every day.",
+      "exampleMeaning": "나는 매일 친구들과 이야기합니다.",
+      "koreanPronunciationTip": "'토크' - '토'를 길게, 'l'은 묵음!",
+      "mnemonic": "Talk Show(토크쇼)에서 Talk = 말하다",
+      "confusableWords": [
+        { "word": "Speak", "difference": "Talk은 대화하다, Speak은 (언어를) 말하다" },
+        { "word": "Say", "difference": "Talk은 대화, Say는 특정 말을 하다" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Can we talk?", "meaning": "우리 이야기 좀 할 수 있을까?" },
+        { "sentence": "Don't talk in class.", "meaning": "수업 시간에 떠들지 마." }
+      ]
+    },
+    {
+      "id": "w31",
+      "word": "Call",
+      "pronunciation": "/kɔːl/",
+      "partOfSpeech": "verb",
+      "meaning": "전화하다, 부르다",
+      "example": "I call my mom every evening.",
+      "exampleMeaning": "나는 매일 저녁 엄마에게 전화합니다.",
+      "koreanPronunciationTip": "'콜' - '코'를 길게, 'l'은 혀를 입천장에",
+      "mnemonic": "전화 Call(콜) - 이미 한국어로도 쓰는 표현!",
+      "additionalExamples": [
+        { "sentence": "Call me later.", "meaning": "나중에 전화해." },
+        { "sentence": "I'll call you back.", "meaning": "다시 전화할게." }
+      ]
+    },
+    {
+      "id": "w32",
+      "word": "Meet",
+      "pronunciation": "/miːt/",
+      "partOfSpeech": "verb",
+      "meaning": "만나다",
+      "example": "I meet my friends at the cafe.",
+      "exampleMeaning": "나는 카페에서 친구들을 만납니다.",
+      "koreanPronunciationTip": "'밋' - '미'를 길게, 't'로 끝",
+      "mnemonic": "Meet(만나다)에서 Meeting(회의)이 나왔다",
+      "confusableWords": [
+        { "word": "See", "difference": "Meet은 약속해서 만나다, See는 우연히 보다/만나다" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Nice to meet you.", "meaning": "만나서 반가워요." },
+        { "sentence": "Let's meet tomorrow.", "meaning": "내일 만나자." }
+      ]
+    },
+    {
+      "id": "w33",
+      "word": "Wait",
+      "pronunciation": "/weɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "기다리다",
+      "example": "Please wait here.",
+      "exampleMeaning": "여기서 기다려 주세요.",
+      "koreanPronunciationTip": "'웨이트' - '웨이'에 강세, 't'로 끝",
+      "mnemonic": "Wait(기다리다)하면서 Weight(체중)이 늘었다 - 발음 같음!",
+      "confusableWords": [
+        { "word": "Weight", "difference": "Wait(기다리다), Weight(무게) - 발음 같고 철자/의미 다름" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Wait for me!", "meaning": "나 기다려!" },
+        { "sentence": "I can't wait.", "meaning": "기다릴 수가 없어요. (기대돼요)" }
+      ]
+    },
+    {
+      "id": "w34",
+      "word": "Help",
+      "pronunciation": "/help/",
+      "partOfSpeech": "verb",
+      "meaning": "돕다",
+      "example": "Can you help me?",
+      "exampleMeaning": "저를 도와주실 수 있나요?",
+      "koreanPronunciationTip": "'헬프' - '헬'에 강세, 'p'로 끝",
+      "mnemonic": "Help!(도와줘!) - 긴급 상황에 외치는 말",
+      "additionalExamples": [
+        { "sentence": "I need help.", "meaning": "도움이 필요해요." },
+        { "sentence": "Let me help you.", "meaning": "내가 도와줄게." }
+      ]
+    },
+    {
+      "id": "w35",
+      "word": "Buy",
+      "pronunciation": "/baɪ/",
+      "partOfSpeech": "verb",
+      "meaning": "사다",
+      "example": "I buy groceries every Saturday.",
+      "exampleMeaning": "나는 매주 토요일에 식료품을 삽니다.",
+      "koreanPronunciationTip": "'바이' - '바이바이'의 '바이'와 같은 발음",
+      "mnemonic": "Buy(사다) ↔ Bye(안녕) 발음 같지만 의미 다름!",
+      "confusableWords": [
+        { "word": "Bye", "difference": "Buy(사다), Bye(안녕) - 발음 같고 의미 다름" },
+        { "word": "Sell", "difference": "Buy는 사다, Sell은 팔다 (반대말)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I want to buy this.", "meaning": "이거 사고 싶어요." },
+        { "sentence": "Where did you buy it?", "meaning": "어디서 샀어요?" }
+      ]
+    },
+    {
+      "id": "w36",
+      "word": "Open",
+      "pronunciation": "/ˈoʊpən/",
+      "partOfSpeech": "verb/adjective",
+      "meaning": "열다, 열린",
+      "example": "Open the door, please.",
+      "exampleMeaning": "문 좀 열어주세요.",
+      "koreanPronunciationTip": "'오픈' - 한국어 '오픈'과 거의 같음",
+      "mnemonic": "Open(오픈) - 가게가 Open 했다 = 문 열었다",
+      "confusableWords": [
+        { "word": "Close", "difference": "Open은 열다, Close는 닫다 (반대말)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "The store is open.", "meaning": "가게가 열었어요." },
+        { "sentence": "Open your book.", "meaning": "책 펴세요." }
+      ]
+    },
+    {
+      "id": "w37",
+      "word": "Close",
+      "pronunciation": "/kloʊz/",
+      "partOfSpeech": "verb",
+      "meaning": "닫다",
+      "example": "Close the window, please.",
+      "exampleMeaning": "창문 좀 닫아주세요.",
+      "koreanPronunciationTip": "'클로우즈' - 동사일 때 'z' 소리로 끝남",
+      "mnemonic": "Close(닫다)하면 공간이 Closed(닫힌) 상태가 된다",
+      "confusableWords": [
+        { "word": "Close (형용사)", "difference": "동사 Close /kloʊz/(닫다), 형용사 Close /kloʊs/(가까운)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Close your eyes.", "meaning": "눈 감아." },
+        { "sentence": "The store closes at 9.", "meaning": "가게는 9시에 닫아요." }
+      ]
+    },
+    {
+      "id": "w38",
+      "word": "Start",
+      "pronunciation": "/stɑːrt/",
+      "partOfSpeech": "verb",
+      "meaning": "시작하다",
+      "example": "School starts at 8:30.",
+      "exampleMeaning": "학교는 8시 30분에 시작합니다.",
+      "koreanPronunciationTip": "'스타트' - '스타'에 강세, 't'로 끝",
+      "mnemonic": "Start(시작) - 달리기 출발선에서 'Start!'",
+      "confusableWords": [
+        { "word": "Begin", "difference": "Start와 Begin은 거의 같은 의미, Start가 더 일상적" },
+        { "word": "Finish", "difference": "Start는 시작하다, Finish는 끝내다 (반대말)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Let's start!", "meaning": "시작하자!" },
+        { "sentence": "When does the movie start?", "meaning": "영화 언제 시작해요?" }
+      ]
+    },
+    {
+      "id": "w39",
+      "word": "Finish",
+      "pronunciation": "/ˈfɪnɪʃ/",
+      "partOfSpeech": "verb",
+      "meaning": "끝내다, 마치다",
+      "example": "I finish work at 6 o'clock.",
+      "exampleMeaning": "나는 6시에 일을 마칩니다.",
+      "koreanPronunciationTip": "'피니쉬' - '피'에 강세, '쉬'로 끝",
+      "mnemonic": "Finish line(결승선)에서 Finish(끝내다)",
+      "confusableWords": [
+        { "word": "End", "difference": "Finish는 완료하다, End는 끝나다/끝" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Did you finish?", "meaning": "다 했어?" },
+        { "sentence": "Finish your homework.", "meaning": "숙제 끝내." }
+      ]
+    },
+    {
+      "id": "w40",
+      "word": "Get",
+      "pronunciation": "/ɡet/",
+      "partOfSpeech": "verb",
+      "meaning": "얻다, 받다, ~하게 되다",
+      "example": "I get up at 7 o'clock.",
+      "exampleMeaning": "나는 7시에 일어납니다.",
+      "koreanPronunciationTip": "'겟' - 짧고 강하게 '겟'",
+      "mnemonic": "Get은 여러 의미로 쓰이는 만능 동사!",
+      "confusableWords": [
+        { "word": "Receive", "difference": "Get은 일상적, Receive는 격식체로 받다" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I get home at 5.", "meaning": "나는 5시에 집에 도착해요." },
+        { "sentence": "Did you get my message?", "meaning": "내 메시지 받았어?" }
+      ]
+    },
+    {
+      "id": "w41",
+      "word": "Morning",
+      "pronunciation": "/ˈmɔːrnɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "아침",
+      "example": "I exercise every morning.",
+      "exampleMeaning": "나는 매일 아침 운동합니다.",
+      "koreanPronunciationTip": "'모닝' - '모'에 강세, '닝'은 약하게",
+      "mnemonic": "Good Morning!(굿모닝) - 아침 인사!",
+      "confusableWords": [
+        { "word": "Afternoon", "difference": "Morning은 아침(~12시), Afternoon은 오후(12시~)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Good morning!", "meaning": "좋은 아침이에요!" },
+        { "sentence": "I wake up early in the morning.", "meaning": "나는 아침 일찍 일어나요." }
+      ]
+    },
+    {
+      "id": "w42",
+      "word": "Afternoon",
+      "pronunciation": "/ˌæftərˈnuːn/",
+      "partOfSpeech": "noun",
+      "meaning": "오후",
+      "example": "I have classes in the afternoon.",
+      "exampleMeaning": "나는 오후에 수업이 있습니다.",
+      "koreanPronunciationTip": "'애프터눈' - '눈'에 강세가 있음",
+      "mnemonic": "After(후에) + Noon(정오) = 정오 후 = 오후",
+      "etymology": "After(후에) + Noon(정오)의 합성어",
+      "additionalExamples": [
+        { "sentence": "Good afternoon!", "meaning": "안녕하세요! (오후 인사)" },
+        { "sentence": "See you this afternoon.", "meaning": "오후에 봐요." }
+      ]
+    },
+    {
+      "id": "w43",
+      "word": "Evening",
+      "pronunciation": "/ˈiːvnɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "저녁 (시간대)",
+      "example": "I watch TV in the evening.",
+      "exampleMeaning": "나는 저녁에 TV를 봅니다.",
+      "koreanPronunciationTip": "'이브닝' - '이'를 길게, '브닝'은 빠르게",
+      "mnemonic": "Evening dress(이브닝드레스) - 저녁 파티에 입는 옷",
+      "confusableWords": [
+        { "word": "Night", "difference": "Evening은 해질 무렵~밤, Night은 어두운 밤" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Good evening!", "meaning": "안녕하세요! (저녁 인사)" },
+        { "sentence": "What do you do in the evening?", "meaning": "저녁에 뭐 해요?" }
+      ]
+    },
+    {
+      "id": "w44",
+      "word": "Night",
+      "pronunciation": "/naɪt/",
+      "partOfSpeech": "noun",
+      "meaning": "밤",
+      "example": "I sleep well at night.",
+      "exampleMeaning": "나는 밤에 잘 잡니다.",
+      "koreanPronunciationTip": "'나이트' - '나이'에 강세, 't'로 끝",
+      "mnemonic": "Night(밤) vs Knight(기사) - 발음 같음!",
+      "confusableWords": [
+        { "word": "Knight", "difference": "Night(밤), Knight(기사) - 발음 같고 의미 다름" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Good night!", "meaning": "잘 자!" },
+        { "sentence": "Last night was fun.", "meaning": "어젯밤 재미있었어." }
+      ]
+    },
+    {
+      "id": "w45",
+      "word": "Today",
+      "pronunciation": "/təˈdeɪ/",
+      "partOfSpeech": "noun/adverb",
+      "meaning": "오늘",
+      "example": "Today is Monday.",
+      "exampleMeaning": "오늘은 월요일입니다.",
+      "koreanPronunciationTip": "'투데이' - '데이'에 강세",
+      "mnemonic": "To(~로) + Day(날) = 이 날로 = 오늘",
+      "additionalExamples": [
+        { "sentence": "What day is today?", "meaning": "오늘 무슨 요일이에요?" },
+        { "sentence": "I'm busy today.", "meaning": "오늘 바빠요." }
+      ]
+    },
+    {
+      "id": "w46",
+      "word": "Tomorrow",
+      "pronunciation": "/təˈmɑːroʊ/",
+      "partOfSpeech": "noun/adverb",
+      "meaning": "내일",
+      "example": "See you tomorrow!",
+      "exampleMeaning": "내일 봐요!",
+      "koreanPronunciationTip": "'투마로우' - '마'에 강세, '로우'는 약하게",
+      "mnemonic": "To(~로) + Morrow(아침) = 다음 아침 = 내일",
+      "additionalExamples": [
+        { "sentence": "Tomorrow is Saturday.", "meaning": "내일은 토요일이에요." },
+        { "sentence": "I'll do it tomorrow.", "meaning": "내일 할게요." }
+      ]
+    },
+    {
+      "id": "w47",
+      "word": "Yesterday",
+      "pronunciation": "/ˈjestərdeɪ/",
+      "partOfSpeech": "noun/adverb",
+      "meaning": "어제",
+      "example": "Yesterday was a good day.",
+      "exampleMeaning": "어제는 좋은 날이었습니다.",
+      "koreanPronunciationTip": "'예스터데이' - '예'에 강세, '데이'도 강조",
+      "mnemonic": "Yesterday - 비틀즈의 유명한 노래 제목!",
+      "additionalExamples": [
+        { "sentence": "I saw her yesterday.", "meaning": "어제 그녀를 봤어요." },
+        { "sentence": "What did you do yesterday?", "meaning": "어제 뭐 했어요?" }
+      ]
+    },
+    {
+      "id": "w48",
+      "word": "Always",
+      "pronunciation": "/ˈɔːlweɪz/",
+      "partOfSpeech": "adverb",
+      "meaning": "항상",
+      "example": "I always eat breakfast.",
+      "exampleMeaning": "나는 항상 아침을 먹습니다.",
+      "koreanPronunciationTip": "'올웨이즈' - '올'에 강세",
+      "mnemonic": "All(모든) + Ways(방법) = 모든 경우에 = 항상",
+      "confusableWords": [
+        { "word": "Usually", "difference": "Always는 100% 항상, Usually는 보통(80-90%)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She always smiles.", "meaning": "그녀는 항상 웃어요." },
+        { "sentence": "I always do my best.", "meaning": "나는 항상 최선을 다해요." }
+      ]
+    },
+    {
+      "id": "w49",
+      "word": "Sometimes",
+      "pronunciation": "/ˈsʌmtaɪmz/",
+      "partOfSpeech": "adverb",
+      "meaning": "가끔",
+      "example": "Sometimes I walk to school.",
+      "exampleMeaning": "가끔 나는 학교에 걸어갑니다.",
+      "koreanPronunciationTip": "'썸타임즈' - '썸'에 강세",
+      "mnemonic": "Some(일부) + Times(시간) = 일부 시간에 = 가끔",
+      "confusableWords": [
+        { "word": "Sometime", "difference": "Sometimes(가끔-빈도), Sometime(언젠가-미래)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Sometimes I'm late.", "meaning": "가끔 늦어요." },
+        { "sentence": "I sometimes cook.", "meaning": "나는 가끔 요리해요." }
+      ]
+    },
+    {
+      "id": "w50",
+      "word": "Usually",
+      "pronunciation": "/ˈjuːʒuəli/",
+      "partOfSpeech": "adverb",
+      "meaning": "보통, 대개",
+      "example": "I usually wake up at 7.",
+      "exampleMeaning": "나는 보통 7시에 일어납니다.",
+      "koreanPronunciationTip": "'유주얼리' - '유'에 강세, 'zh' 소리 주의",
+      "mnemonic": "Usual(평소의) + ly = 평소처럼 = 보통",
+      "confusableWords": [
+        { "word": "Always", "difference": "Usually는 보통(80-90%), Always는 항상(100%)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I usually take the bus.", "meaning": "나는 보통 버스를 타요." },
+        { "sentence": "What do you usually eat?", "meaning": "보통 뭐 먹어요?" }
+      ]
     }
   ],
 
@@ -196,32 +892,25 @@
       "question": "What does 'wake up' mean in Korean?",
       "options": ["일어나다", "먹다", "자다", "가다"],
       "answer": "일어나다",
-      "explanation": "'Wake up'은 잠에서 깨서 일어나다는 뜻입니다."
+      "explanation": "'Wake up'은 잠에서 깨어나는 것을 의미합니다."
     },
     {
       "id": "ex2",
       "type": "multiple_choice",
-      "question": "Which word means '학교'?",
-      "options": ["Home", "School", "Work", "Hospital"],
-      "answer": "School",
-      "explanation": "'School'은 '학교'라는 뜻입니다."
+      "question": "Which word means '먹다'?",
+      "options": ["Sleep", "Eat", "Go", "Come"],
+      "answer": "Eat",
+      "explanation": "'Eat'는 음식을 먹다는 뜻입니다."
     },
     {
       "id": "ex3",
       "type": "fill_blank",
-      "question": "I _____ breakfast at 7 o'clock. (먹다)",
-      "answer": ["eat"],
-      "explanation": "식사를 먹다는 'eat'을 사용합니다."
+      "question": "I _____ at 7 o'clock every day. (일어나다)",
+      "answer": ["wake up"],
+      "explanation": "'Wake up'은 잠에서 깨서 일어나다는 뜻입니다."
     },
     {
       "id": "ex4",
-      "type": "fill_blank",
-      "question": "I _____ English every day. (공부하다)",
-      "answer": ["study"],
-      "explanation": "공부하다는 'study'입니다."
-    },
-    {
-      "id": "ex5",
       "type": "multiple_choice",
       "question": "What is the first meal of the day?",
       "options": ["Breakfast", "Lunch", "Dinner", "Snack"],
@@ -229,80 +918,1128 @@
       "explanation": "'Breakfast'는 하루의 첫 번째 식사인 아침식사입니다."
     },
     {
+      "id": "ex5",
+      "type": "fill_blank",
+      "question": "I _____ breakfast at 7:30. (먹다)",
+      "answer": ["eat", "have"],
+      "explanation": "'Eat'과 'Have' 모두 식사할 때 사용할 수 있습니다."
+    },
+    {
       "id": "ex6",
       "type": "multiple_choice",
-      "question": "Which verb means '좋아하다'?",
-      "options": ["Like", "Love", "Hate", "Want"],
-      "answer": "Like",
-      "explanation": "'Like'는 '좋아하다'라는 뜻입니다."
+      "question": "Which meal is eaten in the middle of the day?",
+      "options": ["Breakfast", "Lunch", "Dinner", "Supper"],
+      "answer": "Lunch",
+      "explanation": "'Lunch'는 점심식사로 하루 중간에 먹는 식사입니다."
     },
     {
       "id": "ex7",
+      "type": "multiple_choice",
+      "question": "What does 'dinner' mean?",
+      "options": ["아침식사", "점심식사", "저녁식사", "간식"],
+      "answer": "저녁식사",
+      "explanation": "'Dinner'는 저녁식사를 의미합니다."
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "I _____ to school by bus. (가다)",
+      "answer": ["go"],
+      "explanation": "'Go'는 어딘가로 가다는 뜻입니다."
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "Which word means '학교'?",
+      "options": ["Home", "School", "Hospital", "Office"],
+      "answer": "School",
+      "explanation": "'School'은 학교를 의미합니다."
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "I _____ English every day. (공부하다)",
+      "answer": ["study"],
+      "explanation": "'Study'는 공부하다는 뜻입니다."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "What does 'play' mean?",
+      "options": ["놀다", "일하다", "자다", "먹다"],
+      "answer": "놀다",
+      "explanation": "'Play'는 놀다, 또는 운동/게임을 하다는 뜻입니다."
+    },
+    {
+      "id": "ex12",
       "type": "fill_blank",
       "question": "I _____ soccer with my friends. (놀다/하다)",
       "answer": ["play"],
       "explanation": "운동을 하다는 'play'를 사용합니다."
     },
     {
-      "id": "ex8",
+      "id": "ex13",
       "type": "multiple_choice",
-      "question": "What does 'homework' mean?",
-      "options": ["숙제", "집", "일", "공부"],
-      "answer": "숙제",
-      "explanation": "'Homework'는 집에서 하는 학교 숙제를 의미합니다."
+      "question": "Which verb means '일하다'?",
+      "options": ["Play", "Work", "Sleep", "Eat"],
+      "answer": "Work",
+      "explanation": "'Work'는 일하다는 뜻입니다."
     },
     {
-      "id": "ex9",
-      "type": "matching",
-      "question": "Match the English with Korean:",
-      "options": ["eat", "go", "study", "sleep"],
-      "answer": ["먹다", "가다", "공부하다", "자다"],
-      "explanation": "각 영어 동사와 한국어 의미를 연결합니다."
-    },
-    {
-      "id": "ex10",
+      "id": "ex14",
       "type": "fill_blank",
       "question": "I _____ TV in the evening. (보다)",
       "answer": ["watch"],
       "explanation": "TV나 영화를 보다는 'watch'를 사용합니다."
     },
     {
-      "id": "ex11",
+      "id": "ex15",
       "type": "multiple_choice",
-      "question": "Which verb is used for 'reading'?",
-      "options": ["Read", "Write", "Look", "See"],
-      "answer": "Read",
+      "question": "What does 'read' mean?",
+      "options": ["쓰다", "읽다", "듣다", "말하다"],
+      "answer": "읽다",
       "explanation": "'Read'는 책이나 글을 읽다는 뜻입니다."
     },
     {
-      "id": "ex12",
+      "id": "ex16",
+      "type": "fill_blank",
+      "question": "She _____ a book before bed. (읽다)",
+      "answer": ["reads"],
+      "explanation": "책을 읽다는 'read'를 사용합니다. 3인칭 단수는 reads."
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "Which word means '자다'?",
+      "options": ["Wake up", "Sleep", "Eat", "Go"],
+      "answer": "Sleep",
+      "explanation": "'Sleep'은 자다는 뜻입니다."
+    },
+    {
+      "id": "ex18",
+      "type": "fill_blank",
+      "question": "I _____ eight hours every night. (자다)",
+      "answer": ["sleep"],
+      "explanation": "'Sleep'은 자다는 뜻입니다."
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "What does 'do homework' mean?",
+      "options": ["숙제를 하다", "집에 가다", "일을 하다", "공부하다"],
+      "answer": "숙제를 하다",
+      "explanation": "'Do homework'는 숙제를 하다는 뜻입니다."
+    },
+    {
+      "id": "ex20",
       "type": "fill_blank",
       "question": "I _____ my homework after school. (하다)",
       "answer": ["do"],
       "explanation": "숙제를 하다는 'do homework'를 사용합니다."
     },
     {
-      "id": "ex13",
+      "id": "ex21",
       "type": "multiple_choice",
-      "question": "What does 'make' mean?",
-      "options": ["만들다", "먹다", "가다", "오다"],
-      "answer": "만들다",
-      "explanation": "'Make'는 무언가를 만들다는 뜻입니다."
+      "question": "Which word means '좋아하다'?",
+      "options": ["Love", "Like", "Hate", "Want"],
+      "answer": "Like",
+      "explanation": "'Like'는 좋아하다는 뜻입니다."
     },
     {
-      "id": "ex14",
+      "id": "ex22",
       "type": "multiple_choice",
       "question": "Which is stronger: 'like' or 'love'?",
-      "options": ["Love", "Like", "Same", "Neither"],
+      "options": ["Like", "Love", "Same", "Neither"],
       "answer": "Love",
       "explanation": "'Love'가 'like'보다 더 강한 감정을 나타냅니다."
     },
     {
-      "id": "ex15",
+      "id": "ex23",
+      "type": "fill_blank",
+      "question": "I _____ playing basketball. (좋아하다)",
+      "answer": ["like"],
+      "explanation": "'Like'는 좋아하다는 뜻입니다."
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "What does 'make' mean?",
+      "options": ["만들다", "가져가다", "오다", "가다"],
+      "answer": "만들다",
+      "explanation": "'Make'는 만들다는 뜻입니다."
+    },
+    {
+      "id": "ex25",
+      "type": "fill_blank",
+      "question": "She _____ breakfast every morning. (만들다)",
+      "answer": ["makes"],
+      "explanation": "'Make'는 만들다는 뜻입니다. 3인칭 단수는 makes."
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "Which word means '가져가다' or '타다'?",
+      "options": ["Make", "Take", "Give", "Put"],
+      "answer": "Take",
+      "explanation": "'Take'는 가져가다, 교통수단을 타다는 뜻입니다."
+    },
+    {
+      "id": "ex27",
       "type": "fill_blank",
       "question": "I _____ the bus to school. (타다)",
       "answer": ["take"],
       "explanation": "교통수단을 타다는 'take'를 사용합니다."
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'go'?",
+      "options": ["Come", "Leave", "Stay", "Walk"],
+      "answer": "Come",
+      "explanation": "'Go'(가다)의 반대는 'Come'(오다)입니다."
+    },
+    {
+      "id": "ex29",
+      "type": "fill_blank",
+      "question": "_____ home before 6 o'clock. (오다)",
+      "answer": ["Come"],
+      "explanation": "'Come'은 오다는 뜻입니다."
+    },
+    {
+      "id": "ex30",
+      "type": "matching",
+      "question": "Match the English with Korean:",
+      "options": ["Breakfast", "Lunch", "Dinner", "School"],
+      "answer": ["아침식사", "점심식사", "저녁식사", "학교"],
+      "explanation": "각 영어 단어와 한국어 의미를 연결합니다."
+    },
+    {
+      "id": "ex31",
+      "type": "multiple_choice",
+      "question": "What does 'drink' mean?",
+      "options": ["먹다", "마시다", "요리하다", "만들다"],
+      "answer": "마시다",
+      "explanation": "'Drink'는 마시다는 뜻입니다."
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "question": "I _____ water every day. (마시다)",
+      "answer": ["drink"],
+      "explanation": "'Drink'는 마시다는 뜻입니다."
+    },
+    {
+      "id": "ex33",
+      "type": "multiple_choice",
+      "question": "Which word means '걷다'?",
+      "options": ["Run", "Walk", "Jump", "Sit"],
+      "answer": "Walk",
+      "explanation": "'Walk'는 걷다는 뜻입니다."
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "I _____ to school every day. (걷다)",
+      "answer": ["walk"],
+      "explanation": "'Walk'는 걷다는 뜻입니다."
+    },
+    {
+      "id": "ex35",
+      "type": "multiple_choice",
+      "question": "What does 'run' mean?",
+      "options": ["걷다", "달리다", "점프하다", "앉다"],
+      "answer": "달리다",
+      "explanation": "'Run'은 달리다는 뜻입니다."
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "I _____ in the park every morning. (달리다)",
+      "answer": ["run"],
+      "explanation": "'Run'은 달리다는 뜻입니다."
+    },
+    {
+      "id": "ex37",
+      "type": "multiple_choice",
+      "question": "What do you do in the bathroom with water?",
+      "options": ["Sleep", "Eat", "Shower", "Study"],
+      "answer": "Shower",
+      "explanation": "'Shower'는 샤워하다는 뜻입니다."
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "I _____ every morning. (샤워하다)",
+      "answer": ["shower", "take a shower"],
+      "explanation": "'Shower'는 샤워하다는 뜻입니다."
+    },
+    {
+      "id": "ex39",
+      "type": "multiple_choice",
+      "question": "What does 'brush' mean?",
+      "options": ["씻다", "닦다", "청소하다", "요리하다"],
+      "answer": "닦다",
+      "explanation": "'Brush'는 (솔로) 닦다는 뜻입니다. 예: brush teeth (이를 닦다)"
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "I _____ my teeth after meals. (닦다)",
+      "answer": ["brush"],
+      "explanation": "'Brush teeth'는 이를 닦다는 뜻입니다."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple_choice",
+      "question": "Which word means '씻다'?",
+      "options": ["Brush", "Wash", "Clean", "Dry"],
+      "answer": "Wash",
+      "explanation": "'Wash'는 (물로) 씻다는 뜻입니다."
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "Please _____ your hands before eating. (씻다)",
+      "answer": ["wash"],
+      "explanation": "'Wash'는 씻다는 뜻입니다."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple_choice",
+      "question": "What does 'clean' mean?",
+      "options": ["더럽히다", "청소하다", "씻다", "닦다"],
+      "answer": "청소하다",
+      "explanation": "'Clean'은 청소하다, 깨끗하게 하다는 뜻입니다."
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "I _____ my room on weekends. (청소하다)",
+      "answer": ["clean"],
+      "explanation": "'Clean'은 청소하다는 뜻입니다."
+    },
+    {
+      "id": "ex45",
+      "type": "multiple_choice",
+      "question": "Which word means '요리하다'?",
+      "options": ["Eat", "Cook", "Drink", "Clean"],
+      "answer": "Cook",
+      "explanation": "'Cook'은 요리하다는 뜻입니다."
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "My mom _____ dinner every evening. (요리하다)",
+      "answer": ["cooks"],
+      "explanation": "'Cook'은 요리하다는 뜻입니다."
+    },
+    {
+      "id": "ex47",
+      "type": "matching",
+      "question": "Match the English with Korean:",
+      "options": ["Walk", "Run", "Wash", "Cook"],
+      "answer": ["걷다", "달리다", "씻다", "요리하다"],
+      "explanation": "각 영어 단어와 한국어 의미를 연결합니다."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple_choice",
+      "question": "What does 'listen' mean?",
+      "options": ["말하다", "듣다", "보다", "읽다"],
+      "answer": "듣다",
+      "explanation": "'Listen'은 듣다는 뜻입니다."
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "I _____ to music every day. (듣다)",
+      "answer": ["listen"],
+      "explanation": "'Listen to'는 ~을 듣다는 뜻입니다."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple_choice",
+      "question": "Which word means '말하다'?",
+      "options": ["Listen", "Talk", "Read", "Write"],
+      "answer": "Talk",
+      "explanation": "'Talk'은 말하다, 이야기하다는 뜻입니다."
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "I _____ with my friends every day. (말하다)",
+      "answer": ["talk"],
+      "explanation": "'Talk'은 말하다, 이야기하다는 뜻입니다."
+    },
+    {
+      "id": "ex52",
+      "type": "multiple_choice",
+      "question": "What does 'call' mean?",
+      "options": ["만나다", "전화하다", "기다리다", "돕다"],
+      "answer": "전화하다",
+      "explanation": "'Call'은 전화하다, 부르다는 뜻입니다."
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "I _____ my mom every evening. (전화하다)",
+      "answer": ["call"],
+      "explanation": "'Call'은 전화하다는 뜻입니다."
+    },
+    {
+      "id": "ex54",
+      "type": "multiple_choice",
+      "question": "Which word means '만나다'?",
+      "options": ["Call", "Meet", "Wait", "Help"],
+      "answer": "Meet",
+      "explanation": "'Meet'는 만나다는 뜻입니다."
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "Let's _____ at the cafe. (만나다)",
+      "answer": ["meet"],
+      "explanation": "'Meet'는 만나다는 뜻입니다."
+    },
+    {
+      "id": "ex56",
+      "type": "multiple_choice",
+      "question": "What does 'wait' mean?",
+      "options": ["기다리다", "돕다", "사다", "열다"],
+      "answer": "기다리다",
+      "explanation": "'Wait'는 기다리다는 뜻입니다."
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "Please _____ for me. (기다리다)",
+      "answer": ["wait"],
+      "explanation": "'Wait'는 기다리다는 뜻입니다."
+    },
+    {
+      "id": "ex58",
+      "type": "multiple_choice",
+      "question": "Which word means '돕다'?",
+      "options": ["Wait", "Help", "Buy", "Open"],
+      "answer": "Help",
+      "explanation": "'Help'는 돕다는 뜻입니다."
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "Can you _____ me? (돕다)",
+      "answer": ["help"],
+      "explanation": "'Help'는 돕다는 뜻입니다."
+    },
+    {
+      "id": "ex60",
+      "type": "multiple_choice",
+      "question": "What does 'buy' mean?",
+      "options": ["팔다", "사다", "열다", "닫다"],
+      "answer": "사다",
+      "explanation": "'Buy'는 사다는 뜻입니다."
+    },
+    {
+      "id": "ex61",
+      "type": "fill_blank",
+      "question": "I want to _____ a book. (사다)",
+      "answer": ["buy"],
+      "explanation": "'Buy'는 사다는 뜻입니다."
+    },
+    {
+      "id": "ex62",
+      "type": "multiple_choice",
+      "question": "Which word means '열다'?",
+      "options": ["Close", "Open", "Start", "Finish"],
+      "answer": "Open",
+      "explanation": "'Open'은 열다는 뜻입니다."
+    },
+    {
+      "id": "ex63",
+      "type": "fill_blank",
+      "question": "Please _____ the door. (열다)",
+      "answer": ["open"],
+      "explanation": "'Open'은 열다는 뜻입니다."
+    },
+    {
+      "id": "ex64",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'open'?",
+      "options": ["Start", "Finish", "Close", "Get"],
+      "answer": "Close",
+      "explanation": "'Open'(열다)의 반대는 'Close'(닫다)입니다."
+    },
+    {
+      "id": "ex65",
+      "type": "fill_blank",
+      "question": "Please _____ the window. (닫다)",
+      "answer": ["close"],
+      "explanation": "'Close'는 닫다는 뜻입니다."
+    },
+    {
+      "id": "ex66",
+      "type": "multiple_choice",
+      "question": "Which word means '시작하다'?",
+      "options": ["Finish", "Start", "Get", "Open"],
+      "answer": "Start",
+      "explanation": "'Start'는 시작하다는 뜻입니다."
+    },
+    {
+      "id": "ex67",
+      "type": "fill_blank",
+      "question": "The movie _____ at 7 o'clock. (시작하다)",
+      "answer": ["starts"],
+      "explanation": "'Start'는 시작하다는 뜻입니다."
+    },
+    {
+      "id": "ex68",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'start'?",
+      "options": ["Open", "Close", "Finish", "Get"],
+      "answer": "Finish",
+      "explanation": "'Start'(시작하다)의 반대는 'Finish'(끝내다)입니다."
+    },
+    {
+      "id": "ex69",
+      "type": "fill_blank",
+      "question": "I need to _____ my homework. (끝내다)",
+      "answer": ["finish"],
+      "explanation": "'Finish'는 끝내다는 뜻입니다."
+    },
+    {
+      "id": "ex70",
+      "type": "multiple_choice",
+      "question": "What does 'get' mean?",
+      "options": ["얻다", "주다", "열다", "닫다"],
+      "answer": "얻다",
+      "explanation": "'Get'는 얻다, 받다는 뜻입니다."
+    },
+    {
+      "id": "ex71",
+      "type": "fill_blank",
+      "question": "I _____ a gift from my friend. (받다)",
+      "answer": ["get", "got"],
+      "explanation": "'Get'는 얻다, 받다는 뜻입니다."
+    },
+    {
+      "id": "ex72",
+      "type": "matching",
+      "question": "Match the English with Korean:",
+      "options": ["Open", "Close", "Start", "Finish"],
+      "answer": ["열다", "닫다", "시작하다", "끝내다"],
+      "explanation": "각 영어 단어와 한국어 의미를 연결합니다."
+    },
+    {
+      "id": "ex73",
+      "type": "multiple_choice",
+      "question": "Which word means '아침'?",
+      "options": ["Afternoon", "Evening", "Morning", "Night"],
+      "answer": "Morning",
+      "explanation": "'Morning'은 아침을 의미합니다."
+    },
+    {
+      "id": "ex74",
+      "type": "fill_blank",
+      "question": "Good _____! (아침)",
+      "answer": ["morning"],
+      "explanation": "'Good morning'은 아침 인사입니다."
+    },
+    {
+      "id": "ex75",
+      "type": "multiple_choice",
+      "question": "What does 'afternoon' mean?",
+      "options": ["아침", "오후", "저녁", "밤"],
+      "answer": "오후",
+      "explanation": "'Afternoon'은 오후를 의미합니다."
+    },
+    {
+      "id": "ex76",
+      "type": "fill_blank",
+      "question": "Good _____! (오후)",
+      "answer": ["afternoon"],
+      "explanation": "'Good afternoon'은 오후 인사입니다."
+    },
+    {
+      "id": "ex77",
+      "type": "multiple_choice",
+      "question": "Which word means '저녁'?",
+      "options": ["Morning", "Afternoon", "Evening", "Night"],
+      "answer": "Evening",
+      "explanation": "'Evening'은 저녁을 의미합니다."
+    },
+    {
+      "id": "ex78",
+      "type": "fill_blank",
+      "question": "Good _____! (저녁)",
+      "answer": ["evening"],
+      "explanation": "'Good evening'은 저녁 인사입니다."
+    },
+    {
+      "id": "ex79",
+      "type": "multiple_choice",
+      "question": "What does 'night' mean?",
+      "options": ["아침", "오후", "저녁", "밤"],
+      "answer": "밤",
+      "explanation": "'Night'는 밤을 의미합니다."
+    },
+    {
+      "id": "ex80",
+      "type": "fill_blank",
+      "question": "Good _____! (밤 - 잘 자요)",
+      "answer": ["night"],
+      "explanation": "'Good night'은 밤에 하는 인사입니다."
+    },
+    {
+      "id": "ex81",
+      "type": "matching",
+      "question": "Match the English with Korean:",
+      "options": ["Morning", "Afternoon", "Evening", "Night"],
+      "answer": ["아침", "오후", "저녁", "밤"],
+      "explanation": "각 영어 단어와 한국어 의미를 연결합니다."
+    },
+    {
+      "id": "ex82",
+      "type": "multiple_choice",
+      "question": "Which word means '오늘'?",
+      "options": ["Yesterday", "Today", "Tomorrow", "Always"],
+      "answer": "Today",
+      "explanation": "'Today'는 오늘을 의미합니다."
+    },
+    {
+      "id": "ex83",
+      "type": "fill_blank",
+      "question": "What day is it _____? (오늘)",
+      "answer": ["today"],
+      "explanation": "'Today'는 오늘을 의미합니다."
+    },
+    {
+      "id": "ex84",
+      "type": "multiple_choice",
+      "question": "What does 'tomorrow' mean?",
+      "options": ["어제", "오늘", "내일", "항상"],
+      "answer": "내일",
+      "explanation": "'Tomorrow'는 내일을 의미합니다."
+    },
+    {
+      "id": "ex85",
+      "type": "fill_blank",
+      "question": "I will go to school _____. (내일)",
+      "answer": ["tomorrow"],
+      "explanation": "'Tomorrow'는 내일을 의미합니다."
+    },
+    {
+      "id": "ex86",
+      "type": "multiple_choice",
+      "question": "Which word means '어제'?",
+      "options": ["Today", "Tomorrow", "Yesterday", "Always"],
+      "answer": "Yesterday",
+      "explanation": "'Yesterday'는 어제를 의미합니다."
+    },
+    {
+      "id": "ex87",
+      "type": "fill_blank",
+      "question": "I met my friend _____. (어제)",
+      "answer": ["yesterday"],
+      "explanation": "'Yesterday'는 어제를 의미합니다."
+    },
+    {
+      "id": "ex88",
+      "type": "matching",
+      "question": "Match the English with Korean:",
+      "options": ["Today", "Tomorrow", "Yesterday", "Night"],
+      "answer": ["오늘", "내일", "어제", "밤"],
+      "explanation": "각 영어 단어와 한국어 의미를 연결합니다."
+    },
+    {
+      "id": "ex89",
+      "type": "multiple_choice",
+      "question": "What does 'always' mean?",
+      "options": ["가끔", "보통", "항상", "결코"],
+      "answer": "항상",
+      "explanation": "'Always'는 항상을 의미합니다."
+    },
+    {
+      "id": "ex90",
+      "type": "fill_blank",
+      "question": "I _____ brush my teeth. (항상)",
+      "answer": ["always"],
+      "explanation": "'Always'는 항상을 의미합니다."
+    },
+    {
+      "id": "ex91",
+      "type": "multiple_choice",
+      "question": "Which word means '가끔'?",
+      "options": ["Always", "Usually", "Sometimes", "Never"],
+      "answer": "Sometimes",
+      "explanation": "'Sometimes'는 가끔을 의미합니다."
+    },
+    {
+      "id": "ex92",
+      "type": "fill_blank",
+      "question": "I _____ eat pizza. (가끔)",
+      "answer": ["sometimes"],
+      "explanation": "'Sometimes'는 가끔을 의미합니다."
+    },
+    {
+      "id": "ex93",
+      "type": "multiple_choice",
+      "question": "What does 'usually' mean?",
+      "options": ["항상", "보통", "가끔", "결코"],
+      "answer": "보통",
+      "explanation": "'Usually'는 보통, 대개를 의미합니다."
+    },
+    {
+      "id": "ex94",
+      "type": "fill_blank",
+      "question": "I _____ wake up at 7. (보통)",
+      "answer": ["usually"],
+      "explanation": "'Usually'는 보통을 의미합니다."
+    },
+    {
+      "id": "ex95",
+      "type": "matching",
+      "question": "Match the English with Korean:",
+      "options": ["Always", "Usually", "Sometimes", "Today"],
+      "answer": ["항상", "보통", "가끔", "오늘"],
+      "explanation": "각 영어 단어와 한국어 의미를 연결합니다."
+    },
+    {
+      "id": "ex96",
+      "type": "multiple_choice",
+      "question": "Which frequency word is strongest (100%)?",
+      "options": ["Sometimes", "Usually", "Always", "Often"],
+      "answer": "Always",
+      "explanation": "'Always'는 100% 빈도를 나타내는 가장 강한 빈도 부사입니다."
+    },
+    {
+      "id": "ex97",
+      "type": "multiple_choice",
+      "question": "What do you do before eating to keep clean?",
+      "options": ["Brush teeth", "Wash hands", "Take a shower", "Clean room"],
+      "answer": "Wash hands",
+      "explanation": "먹기 전에 손을 씻어야(wash hands) 합니다."
+    },
+    {
+      "id": "ex98",
+      "type": "fill_blank",
+      "question": "I _____ my teeth twice a day. (닦다)",
+      "answer": ["brush"],
+      "explanation": "'Brush teeth'는 이를 닦다는 뜻입니다."
+    },
+    {
+      "id": "ex99",
+      "type": "multiple_choice",
+      "question": "When do you say 'Good night'?",
+      "options": ["In the morning", "In the afternoon", "Before sleeping", "At lunch"],
+      "answer": "Before sleeping",
+      "explanation": "'Good night'은 자기 전에 하는 인사입니다."
+    },
+    {
+      "id": "ex100",
+      "type": "matching",
+      "question": "Match the English with Korean:",
+      "options": ["Call", "Meet", "Wait", "Help"],
+      "answer": ["전화하다", "만나다", "기다리다", "돕다"],
+      "explanation": "각 영어 단어와 한국어 의미를 연결합니다."
+    },
+    {
+      "id": "ex101",
+      "type": "multiple_choice",
+      "question": "What do you do after waking up?",
+      "options": ["Go to sleep", "Take a shower", "Have dinner", "Say goodbye"],
+      "answer": "Take a shower",
+      "explanation": "아침에 일어난 후에는 샤워를 합니다."
+    },
+    {
+      "id": "ex102",
+      "type": "fill_blank",
+      "question": "I _____ up at 6 o'clock and _____ to school. (일어나다, 가다)",
+      "answer": ["wake", "go"],
+      "explanation": "'Wake up'은 일어나다, 'go'는 가다는 뜻입니다."
+    },
+    {
+      "id": "ex103",
+      "type": "multiple_choice",
+      "question": "Complete: 'I _____ TV after dinner.'",
+      "options": ["see", "look", "watch", "view"],
+      "answer": "watch",
+      "explanation": "TV를 보다는 'watch TV'를 사용합니다."
+    },
+    {
+      "id": "ex104",
+      "type": "fill_blank",
+      "question": "She _____ books and _____ music. (읽다, 듣다)",
+      "answer": ["reads", "listens to"],
+      "explanation": "'Read'는 읽다, 'listen to'는 듣다입니다."
+    },
+    {
+      "id": "ex105",
+      "type": "multiple_choice",
+      "question": "Which is correct for playing sports?",
+      "options": ["I do soccer", "I make soccer", "I play soccer", "I go soccer"],
+      "answer": "I play soccer",
+      "explanation": "구기 운동은 'play'를 사용합니다."
+    },
+    {
+      "id": "ex106",
+      "type": "fill_blank",
+      "question": "My dad _____ at a hospital. (일하다)",
+      "answer": ["works"],
+      "explanation": "'Work'는 일하다는 뜻입니다."
+    },
+    {
+      "id": "ex107",
+      "type": "multiple_choice",
+      "question": "What is the difference between 'wake up' and 'get up'?",
+      "options": [
+        "Same meaning",
+        "Wake up = open eyes, Get up = leave bed",
+        "Get up = open eyes, Wake up = leave bed",
+        "No difference"
+      ],
+      "answer": "Wake up = open eyes, Get up = leave bed",
+      "explanation": "'Wake up'은 잠에서 깨는 것, 'Get up'은 침대에서 일어나는 것입니다."
+    },
+    {
+      "id": "ex108",
+      "type": "fill_blank",
+      "question": "I _____ my homework _____ school. (하다, 후에)",
+      "answer": ["do", "after"],
+      "explanation": "'Do homework'는 숙제를 하다는 뜻입니다."
+    },
+    {
+      "id": "ex109",
+      "type": "multiple_choice",
+      "question": "How do you say '나는 커피를 마셔요' in English?",
+      "options": ["I eat coffee", "I drink coffee", "I have coffee", "I take coffee"],
+      "answer": ["I drink coffee"],
+      "explanation": "음료를 마시다는 'drink'를 사용합니다. 'have coffee'도 가능합니다."
+    },
+    {
+      "id": "ex110",
+      "type": "fill_blank",
+      "question": "_____ you _____ me? (조동사, 돕다)",
+      "answer": ["Can", "help"],
+      "explanation": "'Can you help me?'는 '저를 도와주실 수 있나요?'입니다."
+    },
+    {
+      "id": "ex111",
+      "type": "matching",
+      "question": "Match the verbs with body parts:",
+      "options": ["Brush", "Wash", "Walk", "Listen"],
+      "answer": ["teeth (이)", "hands (손)", "feet (발)", "ears (귀)"],
+      "explanation": "각 동사와 관련된 신체 부위를 연결합니다."
+    },
+    {
+      "id": "ex112",
+      "type": "multiple_choice",
+      "question": "What time of day is '5 PM'?",
+      "options": ["Morning", "Afternoon", "Evening", "Night"],
+      "answer": "Afternoon",
+      "explanation": "오후 5시는 afternoon(오후)입니다."
+    },
+    {
+      "id": "ex113",
+      "type": "fill_blank",
+      "question": "I _____ go to bed at 10 PM. (보통)",
+      "answer": ["usually"],
+      "explanation": "'Usually'는 보통을 의미합니다."
+    },
+    {
+      "id": "ex114",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "I always sometimes eat pizza",
+        "I sometimes eat pizza",
+        "I eat pizza sometimes always",
+        "Sometimes always I eat pizza"
+      ],
+      "answer": "I sometimes eat pizza",
+      "explanation": "빈도 부사는 일반동사 앞에 위치합니다."
+    },
+    {
+      "id": "ex115",
+      "type": "fill_blank",
+      "question": "The store _____ at 9 AM and _____ at 9 PM. (열다, 닫다)",
+      "answer": ["opens", "closes"],
+      "explanation": "'Open'은 열다, 'Close'는 닫다입니다."
+    },
+    {
+      "id": "ex116",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'buy'?",
+      "options": ["Get", "Take", "Sell", "Give"],
+      "answer": "Sell",
+      "explanation": "'Buy'(사다)의 반대는 'Sell'(팔다)입니다."
+    },
+    {
+      "id": "ex117",
+      "type": "fill_blank",
+      "question": "I want to _____ a new book _____ (사다, 내일)",
+      "answer": ["buy", "tomorrow"],
+      "explanation": "'Buy'는 사다, 'tomorrow'는 내일입니다."
+    },
+    {
+      "id": "ex118",
+      "type": "multiple_choice",
+      "question": "When did you do it? '_____ I met my friend.'",
+      "options": ["Tomorrow", "Today", "Yesterday", "Always"],
+      "answer": "Yesterday",
+      "explanation": "과거의 일이므로 'yesterday'(어제)를 사용합니다."
+    },
+    {
+      "id": "ex119",
+      "type": "fill_blank",
+      "question": "Please _____ for me at the station. (기다리다)",
+      "answer": ["wait"],
+      "explanation": "'Wait'는 기다리다는 뜻입니다."
+    },
+    {
+      "id": "ex120",
+      "type": "matching",
+      "question": "Match the meals with time:",
+      "options": ["Breakfast", "Lunch", "Dinner"],
+      "answer": ["Morning (아침)", "Afternoon (점심)", "Evening (저녁)"],
+      "explanation": "각 식사와 시간을 연결합니다."
+    },
+    {
+      "id": "ex121",
+      "type": "multiple_choice",
+      "question": "Fill in: 'I _____ my friend every weekend.'",
+      "options": ["meet", "meeting", "meets", "to meet"],
+      "answer": "meet",
+      "explanation": "주어가 I이므로 동사 원형 'meet'을 사용합니다."
+    },
+    {
+      "id": "ex122",
+      "type": "fill_blank",
+      "question": "She _____ her mom every day. (전화하다)",
+      "answer": ["calls"],
+      "explanation": "'Call'은 전화하다는 뜻입니다. 3인칭 단수는 calls."
+    },
+    {
+      "id": "ex123",
+      "type": "multiple_choice",
+      "question": "What does 'I love reading' mean?",
+      "options": [
+        "나는 읽기를 좋아해요",
+        "나는 읽기를 매우 좋아해요",
+        "나는 읽기를 싫어해요",
+        "나는 읽기를 원해요"
+      ],
+      "answer": "나는 읽기를 매우 좋아해요",
+      "explanation": "'Love'는 'like'보다 강한 감정으로 '매우 좋아하다'입니다."
+    },
+    {
+      "id": "ex124",
+      "type": "fill_blank",
+      "question": "My mom _____ breakfast every _____. (만들다, 아침)",
+      "answer": ["makes", "morning"],
+      "explanation": "'Make'는 만들다, 'morning'은 아침입니다."
+    },
+    {
+      "id": "ex125",
+      "type": "multiple_choice",
+      "question": "Which word means '시작하다'?",
+      "options": ["End", "Begin", "Start", "Both B and C"],
+      "answer": "Both B and C",
+      "explanation": "'Begin'과 'Start' 모두 '시작하다'는 뜻입니다."
+    },
+    {
+      "id": "ex126",
+      "type": "fill_blank",
+      "question": "Class _____ at 9 AM and _____ at 3 PM. (시작하다, 끝나다)",
+      "answer": ["starts", "finishes"],
+      "explanation": "'Start'는 시작하다, 'Finish'는 끝나다입니다."
+    },
+    {
+      "id": "ex127",
+      "type": "multiple_choice",
+      "question": "What do you do with a book?",
+      "options": ["Watch", "Listen", "Read", "Speak"],
+      "answer": "Read",
+      "explanation": "책은 'read'(읽다)합니다."
+    },
+    {
+      "id": "ex128",
+      "type": "fill_blank",
+      "question": "I _____ to school and _____ home at 4 PM. (가다, 오다)",
+      "answer": ["go", "come"],
+      "explanation": "'Go'는 가다, 'Come'은 오다입니다."
+    },
+    {
+      "id": "ex129",
+      "type": "multiple_choice",
+      "question": "How often is 'usually'?",
+      "options": ["0%", "50%", "80-90%", "100%"],
+      "answer": "80-90%",
+      "explanation": "'Usually'는 약 80-90%의 빈도를 나타냅니다."
+    },
+    {
+      "id": "ex130",
+      "type": "matching",
+      "question": "Match the opposites:",
+      "options": ["Open", "Start", "Go", "Wake up"],
+      "answer": ["Close", "Finish", "Come", "Sleep"],
+      "explanation": "각 단어의 반의어를 연결합니다."
+    },
+    {
+      "id": "ex131",
+      "type": "multiple_choice",
+      "question": "What does 'I get a present' mean?",
+      "options": ["선물을 주다", "선물을 받다", "선물을 사다", "선물을 만들다"],
+      "answer": "선물을 받다",
+      "explanation": "'Get'는 받다, 얻다는 뜻입니다."
+    },
+    {
+      "id": "ex132",
+      "type": "fill_blank",
+      "question": "I _____ my room on _____. (청소하다, 주말)",
+      "answer": ["clean", "weekends"],
+      "explanation": "'Clean'은 청소하다, 'weekends'는 주말입니다."
+    },
+    {
+      "id": "ex133",
+      "type": "multiple_choice",
+      "question": "Which is NOT a time of day?",
+      "options": ["Morning", "Tomorrow", "Evening", "Night"],
+      "answer": "Tomorrow",
+      "explanation": "'Tomorrow'는 시간대가 아니라 '내일'이라는 날입니다."
+    },
+    {
+      "id": "ex134",
+      "type": "fill_blank",
+      "question": "_____ I help you? (조동사)",
+      "answer": ["Can", "May"],
+      "explanation": "'Can I help you?'는 '도와드릴까요?'입니다."
+    },
+    {
+      "id": "ex135",
+      "type": "multiple_choice",
+      "question": "What do you say when leaving at night?",
+      "options": ["Good morning", "Good afternoon", "Good evening", "Good night"],
+      "answer": "Good night",
+      "explanation": "밤에 헤어질 때는 'Good night'이라고 합니다."
+    },
+    {
+      "id": "ex136",
+      "type": "fill_blank",
+      "question": "I _____ English _____ day. (공부하다, 매)",
+      "answer": ["study", "every"],
+      "explanation": "'Study'는 공부하다, 'every'는 매입니다."
+    },
+    {
+      "id": "ex137",
+      "type": "multiple_choice",
+      "question": "What is the past of 'yesterday'?",
+      "options": ["Today", "Tomorrow", "The day before yesterday", "Next day"],
+      "answer": "The day before yesterday",
+      "explanation": "'Yesterday'(어제)의 전날은 'the day before yesterday'(그저께)입니다."
+    },
+    {
+      "id": "ex138",
+      "type": "fill_blank",
+      "question": "I _____ with my family. (살다/이야기하다)",
+      "answer": ["live", "talk"],
+      "explanation": "문맥에 따라 'live'(살다) 또는 'talk'(이야기하다)를 사용합니다."
+    },
+    {
+      "id": "ex139",
+      "type": "multiple_choice",
+      "question": "Which verb goes with 'teeth'?",
+      "options": ["Wash", "Clean", "Brush", "Walk"],
+      "answer": "Brush",
+      "explanation": "이를 닦다는 'brush teeth'입니다."
+    },
+    {
+      "id": "ex140",
+      "type": "matching",
+      "question": "Match daily activities to time of day:",
+      "options": ["Wake up", "Have lunch", "Have dinner", "Sleep"],
+      "answer": ["Morning", "Afternoon", "Evening", "Night"],
+      "explanation": "각 활동과 시간대를 연결합니다."
+    },
+    {
+      "id": "ex141",
+      "type": "multiple_choice",
+      "question": "What does 'take a shower' mean?",
+      "options": ["목욕하다", "샤워하다", "씻다", "수영하다"],
+      "answer": "샤워하다",
+      "explanation": "'Take a shower'는 샤워하다는 뜻입니다."
+    },
+    {
+      "id": "ex142",
+      "type": "fill_blank",
+      "question": "I _____ the bus to _____. (타다, 학교)",
+      "answer": ["take", "school"],
+      "explanation": "'Take'는 (교통수단을) 타다, 'school'은 학교입니다."
+    },
+    {
+      "id": "ex143",
+      "type": "multiple_choice",
+      "question": "Which is the correct order?",
+      "options": [
+        "Morning → Evening → Afternoon → Night",
+        "Morning → Afternoon → Evening → Night",
+        "Night → Morning → Afternoon → Evening",
+        "Afternoon → Morning → Night → Evening"
+      ],
+      "answer": "Morning → Afternoon → Evening → Night",
+      "explanation": "하루의 순서는 아침 → 오후 → 저녁 → 밤입니다."
+    },
+    {
+      "id": "ex144",
+      "type": "fill_blank",
+      "question": "I _____ dinner with my family. (먹다/가지다)",
+      "answer": ["have", "eat"],
+      "explanation": "'Have dinner' 또는 'eat dinner' 모두 사용 가능합니다."
+    },
+    {
+      "id": "ex145",
+      "type": "multiple_choice",
+      "question": "What do you do in the park?",
+      "options": ["Cook", "Walk", "Study", "Sleep"],
+      "answer": "Walk",
+      "explanation": "공원에서는 보통 'walk'(걷다)을 합니다."
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "question": "Let's _____ at the cafe _____. (만나다, 내일)",
+      "answer": ["meet", "tomorrow"],
+      "explanation": "'Meet'는 만나다, 'tomorrow'는 내일입니다."
+    },
+    {
+      "id": "ex147",
+      "type": "multiple_choice",
+      "question": "Which activity is usually done in the morning?",
+      "options": ["Have dinner", "Go to sleep", "Wake up", "Watch late-night TV"],
+      "answer": "Wake up",
+      "explanation": "아침에는 'wake up'(일어나다)을 합니다."
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "question": "I _____ exercise _____ morning. (하다, 매)",
+      "answer": ["do", "every"],
+      "explanation": "'Do exercise'는 운동하다입니다."
+    },
+    {
+      "id": "ex149",
+      "type": "matching",
+      "question": "Match the frequency words:",
+      "options": ["Always", "Usually", "Sometimes", "Never"],
+      "answer": ["100%", "80-90%", "30-50%", "0%"],
+      "explanation": "각 빈도 부사의 의미를 연결합니다."
+    },
+    {
+      "id": "ex150",
+      "type": "multiple_choice",
+      "question": "Complete the daily routine: Wake up → _____ → Eat breakfast → Go to school",
+      "options": ["Sleep", "Take a shower", "Have dinner", "Go home"],
+      "answer": "Take a shower",
+      "explanation": "일어난 후 샤워를 하고 아침을 먹고 학교에 갑니다."
     }
   ]
 }

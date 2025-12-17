@@ -256,6 +256,256 @@
       "translation": "고정관념",
       "example": "We should avoid cultural stereotypes.",
       "exampleTranslation": "문화적 고정관념을 피해야 해요."
+    },
+    {
+      "id": "w26",
+      "word": "legacy",
+      "pronunciation": "/ˈleɡəsi/",
+      "partOfSpeech": "noun",
+      "meaning": "something left by people from the past",
+      "translation": "유산, 유물",
+      "example": "The temple is a legacy of ancient civilization.",
+      "exampleTranslation": "그 사원은 고대 문명의 유산이에요."
+    },
+    {
+      "id": "w27",
+      "word": "commemorate",
+      "pronunciation": "/kəˈmeməreɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "to remember and honor someone or something",
+      "translation": "기념하다",
+      "example": "We commemorate the war heroes every year.",
+      "exampleTranslation": "우리는 매년 전쟁 영웅들을 기념해요."
+    },
+    {
+      "id": "w28",
+      "word": "folklore",
+      "pronunciation": "/ˈfəʊklɔː/",
+      "partOfSpeech": "noun",
+      "meaning": "traditional stories and beliefs of a community",
+      "translation": "민속, 민간 전승",
+      "example": "Korean folklore includes many interesting stories.",
+      "exampleTranslation": "한국 민속에는 많은 흥미로운 이야기가 포함되어 있어요."
+    },
+    {
+      "id": "w29",
+      "word": "monument",
+      "pronunciation": "/ˈmɒnjumənt/",
+      "partOfSpeech": "noun",
+      "meaning": "a structure built to remember a person or event",
+      "translation": "기념비, 기념물",
+      "example": "The monument honors those who died in the war.",
+      "exampleTranslation": "그 기념비는 전쟁에서 사망한 사람들을 기리고 있어요."
+    },
+    {
+      "id": "w30",
+      "word": "pilgrimage",
+      "pronunciation": "/ˈpɪlɡrɪmɪdʒ/",
+      "partOfSpeech": "noun",
+      "meaning": "a journey to a sacred place",
+      "translation": "순례",
+      "example": "Many people make a pilgrimage to holy sites.",
+      "exampleTranslation": "많은 사람들이 성지로 순례를 떠나요."
+    },
+    {
+      "id": "w31",
+      "word": "sacred",
+      "pronunciation": "/ˈseɪkrɪd/",
+      "partOfSpeech": "adjective",
+      "meaning": "connected with religion; holy",
+      "translation": "신성한",
+      "example": "This mountain is sacred to the local people.",
+      "exampleTranslation": "이 산은 지역 주민들에게 신성해요."
+    },
+    {
+      "id": "w32",
+      "word": "indigenous",
+      "pronunciation": "/ɪnˈdɪdʒənəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "native to a particular place",
+      "translation": "토착의, 원주민의",
+      "example": "Indigenous people have unique cultural traditions.",
+      "exampleTranslation": "원주민들은 독특한 문화적 전통을 가지고 있어요."
+    },
+    {
+      "id": "w33",
+      "word": "taboo",
+      "pronunciation": "/təˈbuː/",
+      "partOfSpeech": "noun",
+      "meaning": "something forbidden by social custom",
+      "translation": "금기",
+      "example": "In some cultures, certain topics are taboo.",
+      "exampleTranslation": "어떤 문화에서는 특정 주제가 금기예요."
+    },
+    {
+      "id": "w34",
+      "word": "manners",
+      "pronunciation": "/ˈmænəz/",
+      "partOfSpeech": "noun",
+      "meaning": "polite ways of behaving in society",
+      "translation": "예의, 매너",
+      "example": "Good table manners are important in formal dinners.",
+      "exampleTranslation": "정식 만찬에서는 좋은 식탁 예절이 중요해요."
+    },
+    {
+      "id": "w35",
+      "word": "etiquette",
+      "pronunciation": "/ˈetɪket/",
+      "partOfSpeech": "noun",
+      "meaning": "rules of polite behavior in society",
+      "translation": "예절, 에티켓",
+      "example": "Business etiquette differs from country to country.",
+      "exampleTranslation": "비즈니스 예절은 나라마다 달라요."
+    },
+    {
+      "id": "w36",
+      "word": "patriotic",
+      "pronunciation": "/ˌpætriˈɒtɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "showing love for your country",
+      "translation": "애국적인",
+      "example": "Singing the national anthem is a patriotic act.",
+      "exampleTranslation": "국가를 부르는 것은 애국적인 행위예요."
+    },
+    {
+      "id": "w37",
+      "word": "harmony",
+      "pronunciation": "/ˈhɑːməni/",
+      "partOfSpeech": "noun",
+      "meaning": "peaceful agreement and cooperation",
+      "translation": "조화, 화합",
+      "example": "Cultural harmony helps society function well.",
+      "exampleTranslation": "문화적 조화는 사회가 잘 작동하도록 도와요."
+    },
+    {
+      "id": "w38",
+      "word": "unity",
+      "pronunciation": "/ˈjuːnɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "the state of being united or joined as a whole",
+      "translation": "통합, 단결",
+      "example": "The festival promotes unity among different cultures.",
+      "exampleTranslation": "그 축제는 다양한 문화들 사이의 단결을 촉진해요."
+    },
+    {
+      "id": "w39",
+      "word": "worship",
+      "pronunciation": "/ˈwɜːʃɪp/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to show respect and love for a god",
+      "translation": "숭배하다; 예배",
+      "example": "People worship in different ways around the world.",
+      "exampleTranslation": "사람들은 전 세계에서 다양한 방식으로 예배를 드려요."
+    },
+    {
+      "id": "w40",
+      "word": "blessing",
+      "pronunciation": "/ˈblesɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "a prayer asking for God's favor or protection",
+      "translation": "축복",
+      "example": "The priest gave a blessing to the newlyweds.",
+      "exampleTranslation": "신부님이 신혼부부에게 축복을 주었어요."
+    },
+    {
+      "id": "w41",
+      "word": "myth",
+      "pronunciation": "/mɪθ/",
+      "partOfSpeech": "noun",
+      "meaning": "a traditional story often about gods or heroes",
+      "translation": "신화",
+      "example": "Greek myths are studied around the world.",
+      "exampleTranslation": "그리스 신화는 전 세계에서 연구되고 있어요."
+    },
+    {
+      "id": "w42",
+      "word": "legend",
+      "pronunciation": "/ˈledʒənd/",
+      "partOfSpeech": "noun",
+      "meaning": "a traditional story from the past",
+      "translation": "전설",
+      "example": "The legend of King Arthur is very famous.",
+      "exampleTranslation": "아서 왕의 전설은 매우 유명해요."
+    },
+    {
+      "id": "w43",
+      "word": "oral",
+      "pronunciation": "/ˈɔːrəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "spoken rather than written",
+      "translation": "구전의, 구두의",
+      "example": "Oral traditions pass stories down through generations.",
+      "exampleTranslation": "구전 전통은 세대를 거쳐 이야기를 전달해요."
+    },
+    {
+      "id": "w44",
+      "word": "dialect",
+      "pronunciation": "/ˈdaɪəlekt/",
+      "partOfSpeech": "noun",
+      "meaning": "a form of a language spoken in a particular area",
+      "translation": "방언",
+      "example": "Each region has its own dialect.",
+      "exampleTranslation": "각 지역은 자체 방언을 가지고 있어요."
+    },
+    {
+      "id": "w45",
+      "word": "tribe",
+      "pronunciation": "/traɪb/",
+      "partOfSpeech": "noun",
+      "meaning": "a social group with shared culture and ancestry",
+      "translation": "부족",
+      "example": "Many tribes have their own languages and customs.",
+      "exampleTranslation": "많은 부족들이 자체 언어와 관습을 가지고 있어요."
+    },
+    {
+      "id": "w46",
+      "word": "colonial",
+      "pronunciation": "/kəˈləʊniəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "relating to a colony or colonialism",
+      "translation": "식민지의",
+      "example": "Colonial architecture can still be seen in the city.",
+      "exampleTranslation": "그 도시에서는 여전히 식민지 건축물을 볼 수 있어요."
+    },
+    {
+      "id": "w47",
+      "word": "empire",
+      "pronunciation": "/ˈempaɪə/",
+      "partOfSpeech": "noun",
+      "meaning": "a group of countries ruled by one authority",
+      "translation": "제국",
+      "example": "The Roman Empire influenced many cultures.",
+      "exampleTranslation": "로마 제국은 많은 문화에 영향을 미쳤어요."
+    },
+    {
+      "id": "w48",
+      "word": "dynasty",
+      "pronunciation": "/ˈdɪnəsti/",
+      "partOfSpeech": "noun",
+      "meaning": "a series of rulers from the same family",
+      "translation": "왕조",
+      "example": "The Joseon Dynasty lasted for over 500 years.",
+      "exampleTranslation": "조선 왕조는 500년 이상 지속되었어요."
+    },
+    {
+      "id": "w49",
+      "word": "reign",
+      "pronunciation": "/reɪn/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "the period when a king or queen rules",
+      "translation": "통치 기간; 통치하다",
+      "example": "During his reign, the country prospered.",
+      "exampleTranslation": "그의 통치 기간 동안 나라가 번영했어요."
+    },
+    {
+      "id": "w50",
+      "word": "era",
+      "pronunciation": "/ˈɪərə/",
+      "partOfSpeech": "noun",
+      "meaning": "a long period of history marked by particular events",
+      "translation": "시대",
+      "example": "The Victorian era was a time of great change.",
+      "exampleTranslation": "빅토리아 시대는 큰 변화의 시기였어요."
     }
   ],
 
@@ -328,6 +578,944 @@
       "question": "We should avoid cultural _____ and learn about cultures directly.",
       "options": ["traditions", "celebrations", "stereotypes", "customs"],
       "answer": "stereotypes"
+    },
+    {
+      "id": "ex11",
+      "type": "fill_blank",
+      "question": "The ancient palace is a _____ of the royal family.",
+      "answer": "legacy"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "We _____ our independence day every year with a parade.",
+      "options": ["commemorate", "celebrate", "worship", "honor"],
+      "answer": "commemorate"
+    },
+    {
+      "id": "ex13",
+      "type": "fill_blank",
+      "question": "_____ includes traditional stories and beliefs of a community.",
+      "answer": "Folklore"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "The _____ was built to remember those who died in battle.",
+      "options": ["temple", "monument", "palace", "museum"],
+      "answer": "monument"
+    },
+    {
+      "id": "ex15",
+      "type": "fill_blank",
+      "question": "Many religious people make a _____ to visit holy places.",
+      "answer": "pilgrimage"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "This temple is _____ to the Buddhist community.",
+      "options": ["sacred", "secret", "similar", "simple"],
+      "answer": "sacred"
+    },
+    {
+      "id": "ex17",
+      "type": "fill_blank",
+      "question": "_____ people have lived in this area for thousands of years.",
+      "answer": "Indigenous"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "Discussing politics at dinner is considered a _____ in some families.",
+      "options": ["tradition", "taboo", "custom", "ritual"],
+      "answer": "taboo"
+    },
+    {
+      "id": "ex19",
+      "type": "fill_blank",
+      "question": "Good _____ are essential when dining with important clients.",
+      "answer": "manners"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "Wedding _____ varies greatly between different cultures.",
+      "options": ["etiquette", "education", "equipment", "evidence"],
+      "answer": "etiquette"
+    },
+    {
+      "id": "ex21",
+      "type": "matching",
+      "pairs": [
+        {"word": "patriotic", "match": "showing love for your country"},
+        {"word": "harmony", "match": "peaceful agreement"},
+        {"word": "unity", "match": "state of being united"},
+        {"word": "worship", "match": "show respect to a god"}
+      ]
+    },
+    {
+      "id": "ex22",
+      "type": "fill_blank",
+      "question": "The elder gave his _____ to the young couple.",
+      "answer": "blessing"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "Greek _____ tell stories about gods and heroes.",
+      "options": ["myths", "legends", "stories", "tales"],
+      "answer": "myths"
+    },
+    {
+      "id": "ex24",
+      "type": "fill_blank",
+      "question": "The _____ of Robin Hood has been told for centuries.",
+      "answer": "legend"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "_____ traditions pass knowledge through speaking, not writing.",
+      "options": ["Written", "Oral", "Modern", "Ancient"],
+      "answer": "Oral"
+    },
+    {
+      "id": "ex26",
+      "type": "fill_blank",
+      "question": "Each region speaks a different _____ of the same language.",
+      "answer": "dialect"
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "The indigenous _____ has its own unique customs.",
+      "options": ["tribe", "group", "team", "club"],
+      "answer": "tribe"
+    },
+    {
+      "id": "ex28",
+      "type": "fill_blank",
+      "question": "The building shows _____ architecture from the 1800s.",
+      "answer": "colonial"
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "The Roman _____ spread across Europe, Africa, and Asia.",
+      "options": ["empire", "kingdom", "country", "nation"],
+      "answer": "empire"
+    },
+    {
+      "id": "ex30",
+      "type": "fill_blank",
+      "question": "The Joseon _____ ruled Korea for over 500 years.",
+      "answer": "dynasty"
+    },
+    {
+      "id": "ex31",
+      "type": "matching",
+      "pairs": [
+        {"word": "reign", "match": "period of ruling"},
+        {"word": "era", "match": "long period of history"},
+        {"word": "legacy", "match": "something left from the past"},
+        {"word": "monument", "match": "structure to remember something"}
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple_choice",
+      "question": "We need to _____ traditional crafts before they disappear.",
+      "options": ["preserve", "prevent", "present", "pretend"],
+      "answer": "preserve"
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "question": "Western fashion has had a strong _____ on Asian style.",
+      "answer": "influence"
+    },
+    {
+      "id": "ex34",
+      "type": "multiple_choice",
+      "question": "Our cultural _____ shapes how we see the world.",
+      "options": ["identity", "idea", "image", "income"],
+      "answer": "identity"
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "The _____ community includes people from many different backgrounds.",
+      "answer": "diverse"
+    },
+    {
+      "id": "ex36",
+      "type": "multiple_choice",
+      "question": "Different _____ groups celebrate unique festivals.",
+      "options": ["ethnic", "electric", "elastic", "economic"],
+      "answer": "ethnic"
+    },
+    {
+      "id": "ex37",
+      "type": "fill_blank",
+      "question": "Dancers wore colorful _____ for the traditional performance.",
+      "answer": "costumes"
+    },
+    {
+      "id": "ex38",
+      "type": "multiple_choice",
+      "question": "Many cultures have _____ about black cats.",
+      "options": ["superstitions", "suspicions", "suggestions", "solutions"],
+      "answer": "superstitions"
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "question": "We must _____ our war heroes who sacrificed their lives.",
+      "answer": "honor"
+    },
+    {
+      "id": "ex40",
+      "type": "translation_ko_en",
+      "question": "그 축제는 전통 문화를 기념합니다.",
+      "answer": "The festival celebrates traditional culture."
+    },
+    {
+      "id": "ex41",
+      "type": "translation_en_ko",
+      "question": "My ancestors lived in this village for many generations.",
+      "answer": "제 조상들은 여러 세대 동안 이 마을에 살았어요."
+    },
+    {
+      "id": "ex42",
+      "type": "matching",
+      "pairs": [
+        {"word": "ceremony", "match": "formal event"},
+        {"word": "festival", "match": "period of celebration"},
+        {"word": "tradition", "match": "custom passed down"},
+        {"word": "custom", "match": "traditional behavior"}
+      ]
+    },
+    {
+      "id": "ex43",
+      "type": "multiple_choice",
+      "question": "The tea ceremony is an important _____ in Japanese culture.",
+      "options": ["ritual", "rival", "riddle", "rhythm"],
+      "answer": "ritual"
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "Flags and anthems are important national _____.",
+      "answer": "symbols"
+    },
+    {
+      "id": "ex45",
+      "type": "multiple_choice",
+      "question": "Many holidays have _____ origins and meanings.",
+      "options": ["religious", "ridiculous", "regional", "regular"],
+      "answer": "religious"
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "She wore _____ dress to the cultural event.",
+      "answer": "traditional"
+    },
+    {
+      "id": "ex47",
+      "type": "translation_ko_en",
+      "question": "우리는 문화 유산을 보호해야 합니다.",
+      "answer": "We should protect our cultural heritage."
+    },
+    {
+      "id": "ex48",
+      "type": "translation_en_ko",
+      "question": "Korean hospitality is famous throughout the world.",
+      "answer": "한국의 환대는 전 세계적으로 유명합니다."
+    },
+    {
+      "id": "ex49",
+      "type": "multiple_choice",
+      "question": "During his _____, the king built many temples.",
+      "options": ["rain", "rein", "reign", "range"],
+      "answer": "reign"
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "The Victorian _____ was a time of industrial progress.",
+      "answer": "era"
+    },
+    {
+      "id": "ex51",
+      "type": "matching",
+      "pairs": [
+        {"word": "folklore", "match": "traditional stories"},
+        {"word": "myth", "match": "story about gods"},
+        {"word": "legend", "match": "traditional story from past"},
+        {"word": "oral", "match": "spoken not written"}
+      ]
+    },
+    {
+      "id": "ex52",
+      "type": "multiple_choice",
+      "question": "The memorial service will _____ the victims of the disaster.",
+      "options": ["commemorate", "communicate", "commute", "command"],
+      "answer": "commemorate"
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "Thousands of people visit the _____ to holy sites each year.",
+      "answer": "pilgrimage"
+    },
+    {
+      "id": "ex54",
+      "type": "translation_ko_en",
+      "question": "많은 관습이 세대를 거쳐 전해집니다.",
+      "answer": "Many customs are passed down through generations."
+    },
+    {
+      "id": "ex55",
+      "type": "translation_en_ko",
+      "question": "The festival attracts visitors from all over the world.",
+      "answer": "그 축제는 전 세계에서 방문객을 끌어들입니다."
+    },
+    {
+      "id": "ex56",
+      "type": "multiple_choice",
+      "question": "Mountains are considered _____ in many cultures.",
+      "options": ["scared", "scarred", "sacred", "secret"],
+      "answer": "sacred"
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "_____ peoples have lived here since ancient times.",
+      "answer": "Indigenous"
+    },
+    {
+      "id": "ex58",
+      "type": "multiple_choice",
+      "question": "In some cultures, certain foods are _____.",
+      "options": ["taboo", "table", "tablet", "tactics"],
+      "answer": "taboo"
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "Learning proper _____ is important in business.",
+      "answer": "etiquette"
+    },
+    {
+      "id": "ex60",
+      "type": "translation_ko_en",
+      "question": "그 기념비는 전쟁 영웅들을 기립니다.",
+      "answer": "The monument honors war heroes."
+    },
+    {
+      "id": "ex61",
+      "type": "translation_en_ko",
+      "question": "Good manners show respect for others.",
+      "answer": "좋은 예의는 다른 사람에 대한 존중을 보여줍니다."
+    },
+    {
+      "id": "ex62",
+      "type": "matching",
+      "pairs": [
+        {"word": "manners", "match": "polite behavior"},
+        {"word": "etiquette", "match": "rules of politeness"},
+        {"word": "taboo", "match": "forbidden by custom"},
+        {"word": "sacred", "match": "connected with religion"}
+      ]
+    },
+    {
+      "id": "ex63",
+      "type": "multiple_choice",
+      "question": "Singing the national anthem is a _____ act.",
+      "options": ["patriotic", "pathetic", "poetic", "plastic"],
+      "answer": "patriotic"
+    },
+    {
+      "id": "ex64",
+      "type": "fill_blank",
+      "question": "Cultural _____ helps different groups live together peacefully.",
+      "answer": "harmony"
+    },
+    {
+      "id": "ex65",
+      "type": "multiple_choice",
+      "question": "The event promotes _____ among different communities.",
+      "options": ["unity", "university", "universe", "uniform"],
+      "answer": "unity"
+    },
+    {
+      "id": "ex66",
+      "type": "fill_blank",
+      "question": "People _____ their gods in different ways.",
+      "answer": "worship"
+    },
+    {
+      "id": "ex67",
+      "type": "translation_ko_en",
+      "question": "신부님이 신혼부부에게 축복을 주었습니다.",
+      "answer": "The priest gave a blessing to the newlyweds."
+    },
+    {
+      "id": "ex68",
+      "type": "translation_en_ko",
+      "question": "Greek myths are studied in schools around the world.",
+      "answer": "그리스 신화는 전 세계 학교에서 공부됩니다."
+    },
+    {
+      "id": "ex69",
+      "type": "multiple_choice",
+      "question": "Each region speaks its own _____.",
+      "options": ["dialogue", "dialect", "diagram", "diameter"],
+      "answer": "dialect"
+    },
+    {
+      "id": "ex70",
+      "type": "fill_blank",
+      "question": "The indigenous _____ has preserved its traditions for centuries.",
+      "answer": "tribe"
+    },
+    {
+      "id": "ex71",
+      "type": "matching",
+      "pairs": [
+        {"word": "empire", "match": "group of countries under one rule"},
+        {"word": "dynasty", "match": "series of rulers from same family"},
+        {"word": "colonial", "match": "relating to a colony"},
+        {"word": "tribe", "match": "social group with shared culture"}
+      ]
+    },
+    {
+      "id": "ex72",
+      "type": "multiple_choice",
+      "question": "The old building shows _____ architecture from the past.",
+      "options": ["colonial", "colonel", "colossal", "collision"],
+      "answer": "colonial"
+    },
+    {
+      "id": "ex73",
+      "type": "fill_blank",
+      "question": "The Roman _____ lasted for hundreds of years.",
+      "answer": "empire"
+    },
+    {
+      "id": "ex74",
+      "type": "translation_ko_en",
+      "question": "조선 왕조는 한국을 500년 이상 통치했습니다.",
+      "answer": "The Joseon Dynasty ruled Korea for over 500 years."
+    },
+    {
+      "id": "ex75",
+      "type": "translation_en_ko",
+      "question": "Oral traditions pass stories through generations by speaking.",
+      "answer": "구전 전통은 말로 세대를 거쳐 이야기를 전달합니다."
+    },
+    {
+      "id": "ex76",
+      "type": "multiple_choice",
+      "question": "_____ has made the world more connected.",
+      "options": ["Globalization", "Glorification", "Gratification", "Graduation"],
+      "answer": "Globalization"
+    },
+    {
+      "id": "ex77",
+      "type": "fill_blank",
+      "question": "We should challenge cultural _____ and learn the truth.",
+      "answer": "stereotypes"
+    },
+    {
+      "id": "ex78",
+      "type": "multiple_choice",
+      "question": "Our cultural _____ makes us who we are.",
+      "options": ["identity", "identical", "identification", "ideology"],
+      "answer": "identity"
+    },
+    {
+      "id": "ex79",
+      "type": "fill_blank",
+      "question": "Italian _____ is famous for pasta and pizza.",
+      "answer": "cuisine"
+    },
+    {
+      "id": "ex80",
+      "type": "translation_ko_en",
+      "question": "다양한 문화는 사회를 풍요롭게 만듭니다.",
+      "answer": "Diverse cultures make society richer."
+    },
+    {
+      "id": "ex81",
+      "type": "translation_en_ko",
+      "question": "The festival celebrates ethnic diversity.",
+      "answer": "그 축제는 민족적 다양성을 축하합니다."
+    },
+    {
+      "id": "ex82",
+      "type": "matching",
+      "pairs": [
+        {"word": "diverse", "match": "showing variety"},
+        {"word": "multicultural", "match": "including many cultures"},
+        {"word": "ethnic", "match": "relating to cultural group"},
+        {"word": "indigenous", "match": "native to a place"}
+      ]
+    },
+    {
+      "id": "ex83",
+      "type": "multiple_choice",
+      "question": "_____ art is passed down from generation to generation.",
+      "options": ["Folk", "Fake", "Fork", "Folk"],
+      "answer": "Folk"
+    },
+    {
+      "id": "ex84",
+      "type": "fill_blank",
+      "question": "The dancers wore beautiful traditional _____ for the show.",
+      "answer": "costumes"
+    },
+    {
+      "id": "ex85",
+      "type": "multiple_choice",
+      "question": "Some people believe in _____ about lucky numbers.",
+      "options": ["superstitions", "supervisions", "supermarkets", "superiors"],
+      "answer": "superstitions"
+    },
+    {
+      "id": "ex86",
+      "type": "fill_blank",
+      "question": "Korean _____ means treating guests with great respect.",
+      "answer": "hospitality"
+    },
+    {
+      "id": "ex87",
+      "type": "translation_ko_en",
+      "question": "우리는 어른을 공경하는 것이 중요합니다.",
+      "answer": "It's important to honor our elders."
+    },
+    {
+      "id": "ex88",
+      "type": "translation_en_ko",
+      "question": "Western culture has influenced many Asian countries.",
+      "answer": "서양 문화는 많은 아시아 국가에 영향을 미쳤습니다."
+    },
+    {
+      "id": "ex89",
+      "type": "multiple_choice",
+      "question": "The ancient temple is part of our cultural _____.",
+      "options": ["heritage", "heroine", "hermit", "herald"],
+      "answer": "heritage"
+    },
+    {
+      "id": "ex90",
+      "type": "fill_blank",
+      "question": "My _____ came to this country over 200 years ago.",
+      "answer": "ancestors"
+    },
+    {
+      "id": "ex91",
+      "type": "matching",
+      "pairs": [
+        {"word": "blessing", "match": "prayer for favor"},
+        {"word": "worship", "match": "show respect to god"},
+        {"word": "pilgrimage", "match": "journey to sacred place"},
+        {"word": "commemorate", "match": "remember and honor"}
+      ]
+    },
+    {
+      "id": "ex92",
+      "type": "multiple_choice",
+      "question": "The New Year _____ includes fireworks and music.",
+      "options": ["celebration", "celebrity", "cemetery", "century"],
+      "answer": "celebration"
+    },
+    {
+      "id": "ex93",
+      "type": "fill_blank",
+      "question": "Many holidays have _____ significance and meaning.",
+      "answer": "religious"
+    },
+    {
+      "id": "ex94",
+      "type": "translation_ko_en",
+      "question": "차 의식은 일본에서 중요한 의례입니다.",
+      "answer": "The tea ceremony is an important ritual in Japan."
+    },
+    {
+      "id": "ex95",
+      "type": "translation_en_ko",
+      "question": "The dragon is a symbol of power in many cultures.",
+      "answer": "용은 많은 문화에서 힘의 상징입니다."
+    },
+    {
+      "id": "ex96",
+      "type": "multiple_choice",
+      "question": "Museums work to _____ artifacts from ancient times.",
+      "options": ["preserve", "present", "prevent", "pretend"],
+      "answer": "preserve"
+    },
+    {
+      "id": "ex97",
+      "type": "fill_blank",
+      "question": "Toronto is a very _____ city with people from all over the world.",
+      "answer": "multicultural"
+    },
+    {
+      "id": "ex98",
+      "type": "multiple_choice",
+      "question": "The region has a _____ population with many different languages.",
+      "options": ["diverse", "divorce", "divide", "divine"],
+      "answer": "diverse"
+    },
+    {
+      "id": "ex99",
+      "type": "fill_blank",
+      "question": "French _____ is considered one of the finest in the world.",
+      "answer": "cuisine"
+    },
+    {
+      "id": "ex100",
+      "type": "translation_ko_en",
+      "question": "민속 음악은 우리 문화의 중요한 부분입니다.",
+      "answer": "Folk music is an important part of our culture."
+    },
+    {
+      "id": "ex101",
+      "type": "translation_en_ko",
+      "question": "Traditional costumes are worn during special festivals.",
+      "answer": "전통 의상은 특별한 축제 때 입습니다."
+    },
+    {
+      "id": "ex102",
+      "type": "matching",
+      "pairs": [
+        {"word": "cuisine", "match": "style of cooking"},
+        {"word": "costume", "match": "traditional clothing"},
+        {"word": "custom", "match": "traditional behavior"},
+        {"word": "ceremony", "match": "formal event"}
+      ]
+    },
+    {
+      "id": "ex103",
+      "type": "multiple_choice",
+      "question": "The museum displays _____ artifacts from different cultures.",
+      "options": ["ethnic", "ethic", "ether", "ethics"],
+      "answer": "ethnic"
+    },
+    {
+      "id": "ex104",
+      "type": "fill_blank",
+      "question": "Stories and songs are part of _____ tradition.",
+      "answer": "folk"
+    },
+    {
+      "id": "ex105",
+      "type": "multiple_choice",
+      "question": "Walking under a ladder is considered bad luck in some _____.",
+      "options": ["superstitions", "suggestions", "supervisions", "suspicions"],
+      "answer": "superstitions"
+    },
+    {
+      "id": "ex106",
+      "type": "fill_blank",
+      "question": "Visitors often comment on the warm _____ of the local people.",
+      "answer": "hospitality"
+    },
+    {
+      "id": "ex107",
+      "type": "translation_ko_en",
+      "question": "그 나라는 독립 영웅들을 기립니다.",
+      "answer": "The country honors its independence heroes."
+    },
+    {
+      "id": "ex108",
+      "type": "translation_en_ko",
+      "question": "Social media has influenced modern culture significantly.",
+      "answer": "소셜 미디어는 현대 문화에 크게 영향을 미쳤습니다."
+    },
+    {
+      "id": "ex109",
+      "type": "multiple_choice",
+      "question": "Language is an important part of our cultural _____.",
+      "options": ["identity", "industry", "injury", "inquiry"],
+      "answer": "identity"
+    },
+    {
+      "id": "ex110",
+      "type": "fill_blank",
+      "question": "_____ has brought cultures closer together.",
+      "answer": "Globalization"
+    },
+    {
+      "id": "ex111",
+      "type": "matching",
+      "pairs": [
+        {"word": "globalization", "match": "becoming worldwide"},
+        {"word": "stereotype", "match": "oversimplified idea"},
+        {"word": "identity", "match": "who you are"},
+        {"word": "influence", "match": "power to affect"}
+      ]
+    },
+    {
+      "id": "ex112",
+      "type": "multiple_choice",
+      "question": "The palace is a _____ from the imperial era.",
+      "options": ["legacy", "legality", "legend", "leisure"],
+      "answer": "legacy"
+    },
+    {
+      "id": "ex113",
+      "type": "fill_blank",
+      "question": "A statue was built to _____ the founding of the city.",
+      "answer": "commemorate"
+    },
+    {
+      "id": "ex114",
+      "type": "translation_ko_en",
+      "question": "한국 민속에는 흥미로운 이야기가 많습니다.",
+      "answer": "Korean folklore has many interesting stories."
+    },
+    {
+      "id": "ex115",
+      "type": "translation_en_ko",
+      "question": "The monument stands in the center of the city.",
+      "answer": "그 기념비는 도시 중심에 서 있습니다."
+    },
+    {
+      "id": "ex116",
+      "type": "multiple_choice",
+      "question": "Many people make a _____ to Mecca every year.",
+      "options": ["pilgrimage", "privilege", "principle", "procedure"],
+      "answer": "pilgrimage"
+    },
+    {
+      "id": "ex117",
+      "type": "fill_blank",
+      "question": "This mountain is _____ to the local community.",
+      "answer": "sacred"
+    },
+    {
+      "id": "ex118",
+      "type": "multiple_choice",
+      "question": "_____ peoples have their own languages and traditions.",
+      "options": ["Indigenous", "Ingenious", "Indignant", "Industrial"],
+      "answer": "Indigenous"
+    },
+    {
+      "id": "ex119",
+      "type": "fill_blank",
+      "question": "In many Asian cultures, showing your feet is a _____.",
+      "answer": "taboo"
+    },
+    {
+      "id": "ex120",
+      "type": "translation_ko_en",
+      "question": "좋은 식탁 예절은 중요합니다.",
+      "answer": "Good table manners are important."
+    },
+    {
+      "id": "ex121",
+      "type": "translation_en_ko",
+      "question": "Business etiquette is different in each country.",
+      "answer": "비즈니스 예절은 각 나라마다 다릅니다."
+    },
+    {
+      "id": "ex122",
+      "type": "matching",
+      "pairs": [
+        {"word": "patriotic", "match": "loving your country"},
+        {"word": "harmony", "match": "peaceful agreement"},
+        {"word": "unity", "match": "being united"},
+        {"word": "blessing", "match": "prayer for favor"}
+      ]
+    },
+    {
+      "id": "ex123",
+      "type": "multiple_choice",
+      "question": "Waving the flag is a _____ gesture.",
+      "options": ["patriotic", "pathetic", "prophetic", "prosthetic"],
+      "answer": "patriotic"
+    },
+    {
+      "id": "ex124",
+      "type": "fill_blank",
+      "question": "Living in _____ is important for a peaceful society.",
+      "answer": "harmony"
+    },
+    {
+      "id": "ex125",
+      "type": "multiple_choice",
+      "question": "The celebration promotes _____ among all citizens.",
+      "options": ["unity", "utility", "university", "uniform"],
+      "answer": "unity"
+    },
+    {
+      "id": "ex126",
+      "type": "fill_blank",
+      "question": "Christians _____ in churches on Sundays.",
+      "answer": "worship"
+    },
+    {
+      "id": "ex127",
+      "type": "translation_ko_en",
+      "question": "그리스 신화는 흥미진진한 이야기를 담고 있습니다.",
+      "answer": "Greek myths contain fascinating stories."
+    },
+    {
+      "id": "ex128",
+      "type": "translation_en_ko",
+      "question": "The legend has been told for hundreds of years.",
+      "answer": "그 전설은 수백 년 동안 전해졌습니다."
+    },
+    {
+      "id": "ex129",
+      "type": "multiple_choice",
+      "question": "_____ history is passed down by speaking, not writing.",
+      "options": ["Oral", "Aural", "Oracle", "Overall"],
+      "answer": "Oral"
+    },
+    {
+      "id": "ex130",
+      "type": "fill_blank",
+      "question": "The southern _____ sounds quite different from the northern one.",
+      "answer": "dialect"
+    },
+    {
+      "id": "ex131",
+      "type": "matching",
+      "pairs": [
+        {"word": "myth", "match": "story about gods"},
+        {"word": "legend", "match": "traditional story"},
+        {"word": "oral", "match": "spoken tradition"},
+        {"word": "dialect", "match": "regional language form"}
+      ]
+    },
+    {
+      "id": "ex132",
+      "type": "multiple_choice",
+      "question": "The Amazon is home to many indigenous _____.",
+      "options": ["tribes", "trends", "trades", "trials"],
+      "answer": "tribes"
+    },
+    {
+      "id": "ex133",
+      "type": "fill_blank",
+      "question": "The city has many _____ buildings from the 19th century.",
+      "answer": "colonial"
+    },
+    {
+      "id": "ex134",
+      "type": "translation_ko_en",
+      "question": "로마 제국은 유럽 전역을 지배했습니다.",
+      "answer": "The Roman Empire ruled across Europe."
+    },
+    {
+      "id": "ex135",
+      "type": "translation_en_ko",
+      "question": "The Ming Dynasty built the Forbidden City.",
+      "answer": "명나라는 자금성을 건설했습니다."
+    },
+    {
+      "id": "ex136",
+      "type": "multiple_choice",
+      "question": "The Ottoman _____ lasted for over 600 years.",
+      "options": ["Empire", "Emperor", "Employer", "Emphasis"],
+      "answer": "Empire"
+    },
+    {
+      "id": "ex137",
+      "type": "fill_blank",
+      "question": "The Tang _____ was a golden age in Chinese history.",
+      "answer": "Dynasty"
+    },
+    {
+      "id": "ex138",
+      "type": "multiple_choice",
+      "question": "Queen Elizabeth II had the longest _____ in British history.",
+      "options": ["reign", "rain", "rein", "range"],
+      "answer": "reign"
+    },
+    {
+      "id": "ex139",
+      "type": "fill_blank",
+      "question": "The medieval _____ was a time of castles and knights.",
+      "answer": "era"
+    },
+    {
+      "id": "ex140",
+      "type": "translation_ko_en",
+      "question": "그 시대는 큰 변화의 시기였습니다.",
+      "answer": "That era was a time of great change."
+    },
+    {
+      "id": "ex141",
+      "type": "translation_en_ko",
+      "question": "Cultural harmony helps society function smoothly.",
+      "answer": "문화적 조화는 사회가 원활하게 작동하도록 돕습니다."
+    },
+    {
+      "id": "ex142",
+      "type": "matching",
+      "pairs": [
+        {"word": "empire", "match": "countries under one rule"},
+        {"word": "dynasty", "match": "ruling family line"},
+        {"word": "reign", "match": "period of ruling"},
+        {"word": "era", "match": "historical period"}
+      ]
+    },
+    {
+      "id": "ex143",
+      "type": "multiple_choice",
+      "question": "We should _____ cultural diversity in our communities.",
+      "options": ["celebrate", "celebrity", "celery", "cemetery"],
+      "answer": "celebrate"
+    },
+    {
+      "id": "ex144",
+      "type": "fill_blank",
+      "question": "The ancient ruins are part of our historical _____.",
+      "answer": "legacy"
+    },
+    {
+      "id": "ex145",
+      "type": "multiple_choice",
+      "question": "Many cultures have interesting _____ about creation.",
+      "options": ["myths", "mists", "myths", "musts"],
+      "answer": "myths"
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "question": "Respecting local _____ is important when traveling abroad.",
+      "answer": "customs"
+    },
+    {
+      "id": "ex147",
+      "type": "translation_ko_en",
+      "question": "전통 의식은 세대를 거쳐 전해집니다.",
+      "answer": "Traditional rituals are passed down through generations."
+    },
+    {
+      "id": "ex148",
+      "type": "translation_en_ko",
+      "question": "Learning about different cultures broadens our perspective.",
+      "answer": "다양한 문화에 대해 배우는 것은 우리의 시야를 넓혀줍니다."
+    },
+    {
+      "id": "ex149",
+      "type": "multiple_choice",
+      "question": "Traditional _____ are performed at the annual festival.",
+      "options": ["ceremonies", "centuries", "cemeteries", "celebrities"],
+      "answer": "ceremonies"
+    },
+    {
+      "id": "ex150",
+      "type": "fill_blank",
+      "question": "Understanding cultural _____ helps us communicate better internationally.",
+      "answer": "etiquette"
     }
   ]
 }

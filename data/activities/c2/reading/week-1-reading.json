@@ -1,0 +1,63 @@
+{
+  "id": "week-1-reading",
+  "weekId": "week-1",
+  "type": "reading",
+  "level": "C2",
+  "title": "Critical Theory & Literary Criticism",
+  "description": "Analyze sophisticated theoretical and literary texts.",
+
+  "passages": [
+    {
+      "id": "p1",
+      "title": "The Limits of Representation",
+      "text": "The epistemological crisis that has animated much of twentieth-century thought finds its apotheosis in the question of representation itself. If, as poststructuralist critiques have persuasively argued, there exists no unmediated access to reality—if all knowledge is ineluctably filtered through the prism of language and ideology—then the very foundation of empirical inquiry becomes profoundly problematized. Yet to dismiss the possibility of knowledge altogether would be antithetical to our most basic intuitions about the world.\n\nSome philosophers have sought to ameliorate this apparent impasse through what might be termed a 'pragmatic turn'—foregrounding the efficacy of knowledge claims rather than their correspondence to some ineffable 'reality.' Such an approach, however perspicacious it may appear, remains vulnerable to charges of circumlocution: by redefining truth in terms of utility, have we not simply obfuscated the original question rather than addressing it?\n\nPerhaps what is needed is a more liminal stance—one that acknowledges the validity of both the skeptical critique and our quotidian engagement with the world. The relationship between language and reality may indeed function as a palimpsest, with each layer of interpretation building upon and transforming what came before. This need not lead to a paralysis of judgment; rather, it can serve as a propitious starting point for a more nuanced, self-reflexive mode of inquiry.\n\nWhat distinguishes perspicacious scholarship from mere sophistry is precisely this willingness to dwell in uncertainty while nevertheless making substantive claims. The recognition that our conclusions are provisional—that future exegesis may reveal hitherto unnoticed assumptions—does not obviate the value of rigorous analysis. Rather, it renders such analysis all the more urgent, for it is only through sustained critical engagement that we can hope to illuminate the recondite dimensions of human experience.",
+      "translation": "20세기 사상의 많은 부분을 활기 띄게 한 인식론적 위기는 재현 자체의 문제에서 그 극치를 찾습니다. 후기구조주의 비평이 설득력 있게 주장했듯이, 현실에 대한 매개되지 않은 접근이 존재하지 않는다면—모든 지식이 불가피하게 언어와 이데올로기의 프리즘을 통해 걸러진다면—실증적 탐구의 기초 자체가 심각하게 문제화됩니다. 그러나 지식의 가능성을 완전히 부정하는 것은 세계에 대한 우리의 가장 기본적인 직관과 정반대일 것입니다.\n\n일부 철학자들은 '실용적 전환'이라고 부를 수 있는 것을 통해 이 명백한 교착 상태를 개선하려고 시도했습니다—어떤 말로 표현할 수 없는 '현실'과의 대응보다 지식 주장의 효능을 전면에 내세우는 것입니다. 그러나 그러한 접근법은 아무리 통찰력 있어 보일지라도 우회적 표현이라는 비난에 취약합니다: 진리를 유용성의 관점에서 재정의함으로써 우리는 원래의 질문을 해결하기보다 단순히 모호하게 만든 것이 아닐까요?\n\n아마도 필요한 것은 더 경계적인 입장일 것입니다—회의적 비평과 세계에 대한 우리의 일상적 참여 모두의 타당성을 인정하는 입장입니다. 언어와 현실 사이의 관계는 실제로 양피지 사본처럼 기능할 수 있으며, 해석의 각 층이 이전에 온 것 위에 쌓이고 변형시킵니다. 이것이 반드시 판단의 마비로 이어질 필요는 없습니다; 오히려 더 미묘하고 자기반성적인 탐구 방식을 위한 유리한 출발점으로 작용할 수 있습니다.\n\n통찰력 있는 학문을 단순한 궤변과 구별하는 것은 바로 불확실성 속에 머물면서도 실질적인 주장을 하려는 이러한 의지입니다. 우리의 결론이 잠정적이라는 인식—미래의 주석이 지금까지 눈치채지 못한 가정을 드러낼 수 있다는 인식—은 엄격한 분석의 가치를 무효화하지 않습니다. 오히려 그것은 그러한 분석을 더욱 긴급하게 만듭니다, 왜냐하면 지속적인 비판적 참여를 통해서만 우리가 인간 경험의 심오한 차원을 조명할 수 있기를 희망할 수 있기 때문입니다.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the 'epistemological crisis' mentioned in the passage?",
+          "options": [
+            "A financial crisis in universities",
+            "The questioning of whether unmediated access to reality is possible",
+            "A lack of interest in philosophy",
+            "The declining quality of education"
+          ],
+          "answer": "The questioning of whether unmediated access to reality is possible"
+        },
+        {
+          "id": "q2",
+          "question": "What criticism does the author level against the 'pragmatic turn'?",
+          "options": [
+            "It is too difficult to understand",
+            "It redefines truth in ways that may obfuscate rather than answer the original question",
+            "It is not practical enough",
+            "It ignores all previous philosophy"
+          ],
+          "answer": "It redefines truth in ways that may obfuscate rather than answer the original question"
+        },
+        {
+          "id": "q3",
+          "question": "What does the author mean by a 'liminal stance'?",
+          "options": [
+            "A position of complete certainty",
+            "A boundary position acknowledging both skepticism and everyday engagement with the world",
+            "A position of total skepticism",
+            "An approach that rejects all interpretation"
+          ],
+          "answer": "A boundary position acknowledging both skepticism and everyday engagement with the world"
+        },
+        {
+          "id": "q4",
+          "question": "According to the passage, why is recognizing that conclusions are provisional valuable?",
+          "options": [
+            "It allows researchers to avoid criticism",
+            "It makes research unnecessary",
+            "It makes rigorous analysis more urgent and necessary",
+            "It proves that knowledge is impossible"
+          ],
+          "answer": "It makes rigorous analysis more urgent and necessary"
+        }
+      ]
+    }
+  ]
+}

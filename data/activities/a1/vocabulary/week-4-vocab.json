@@ -2,7 +2,7 @@
   "id": "week-4-vocab",
   "weekId": "week-4",
   "type": "vocabulary",
-  "level": "A2",
+  "level": "A1",
   "title": "경험과 현재완료 표현",
   "description": "경험을 나타내는 현재완료 시제와 관련된 단어와 표현을 배웁니다.",
 
@@ -14,7 +14,15 @@
       "partOfSpeech": "adverb",
       "meaning": "지금까지, 한 번이라도",
       "example": "Have you ever been to Paris?",
-      "exampleMeaning": "파리에 가본 적이 있나요?"
+      "exampleMeaning": "파리에 가본 적이 있나요?",
+      "koreanPronunciationTip": "'에버' - '에'에 강세",
+      "mnemonic": "Ever = 지금까지 한 번이라도",
+      "confusableWords": [
+        { "word": "Never", "difference": "Never는 '한 번도 ~않다', Ever는 '한 번이라도'" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Have you ever tried sushi?", "meaning": "초밥을 먹어본 적 있어요?" }
+      ]
     },
     {
       "id": "w2",
@@ -23,7 +31,15 @@
       "partOfSpeech": "adverb",
       "meaning": "한 번도 ~않다",
       "example": "I have never tried sushi.",
-      "exampleMeaning": "나는 초밥을 먹어본 적이 없다."
+      "exampleMeaning": "나는 초밥을 먹어본 적이 없다.",
+      "koreanPronunciationTip": "'네버' - '네'에 강세",
+      "mnemonic": "Never = No + Ever (지금까지 없다)",
+      "confusableWords": [
+        { "word": "Ever", "difference": "Ever는 의문문에서 '한 번이라도'" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She has never been late.", "meaning": "그녀는 한 번도 늦은 적이 없다." }
+      ]
     },
     {
       "id": "w3",
@@ -32,7 +48,15 @@
       "partOfSpeech": "adverb",
       "meaning": "이미, 벌써",
       "example": "I have already finished my homework.",
-      "exampleMeaning": "나는 이미 숙제를 끝냈다."
+      "exampleMeaning": "나는 이미 숙제를 끝냈다.",
+      "koreanPronunciationTip": "'올레디' - '레'에 강세",
+      "mnemonic": "All ready = 다 준비됨 = 이미",
+      "confusableWords": [
+        { "word": "Yet", "difference": "Already는 긍정문, Yet은 부정문/의문문" }
+      ],
+      "additionalExamples": [
+        { "sentence": "They have already left.", "meaning": "그들은 이미 떠났다." }
+      ]
     },
     {
       "id": "w4",
@@ -41,7 +65,15 @@
       "partOfSpeech": "adverb",
       "meaning": "아직 (부정문/의문문)",
       "example": "Have you finished yet?",
-      "exampleMeaning": "아직 끝냈나요?"
+      "exampleMeaning": "아직 끝냈나요?",
+      "koreanPronunciationTip": "'옛' - 짧고 날카롭게",
+      "mnemonic": "Yet = 아직 (문장 끝에 위치)",
+      "confusableWords": [
+        { "word": "Already", "difference": "Already는 긍정문에서 '이미'" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I haven't eaten yet.", "meaning": "나는 아직 먹지 않았다." }
+      ]
     },
     {
       "id": "w5",
@@ -50,7 +82,15 @@
       "partOfSpeech": "adverb",
       "meaning": "막, 방금",
       "example": "I have just arrived.",
-      "exampleMeaning": "나는 막 도착했다."
+      "exampleMeaning": "나는 막 도착했다.",
+      "koreanPronunciationTip": "'저스트' - '저'에 강세",
+      "mnemonic": "Just now = 방금 막",
+      "confusableWords": [
+        { "word": "Recently", "difference": "Just는 '방금', Recently는 '최근에'" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She has just called.", "meaning": "그녀가 막 전화했다." }
+      ]
     },
     {
       "id": "w6",
@@ -59,7 +99,15 @@
       "partOfSpeech": "adverb",
       "meaning": "최근에",
       "example": "I have recently moved to Seoul.",
-      "exampleMeaning": "나는 최근에 서울로 이사했다."
+      "exampleMeaning": "나는 최근에 서울로 이사했다.",
+      "koreanPronunciationTip": "'리슨틀리' - '리'에 강세",
+      "mnemonic": "Recent + ly = 최근에",
+      "confusableWords": [
+        { "word": "Lately", "difference": "둘 다 '최근에'라는 뜻으로 비슷함" }
+      ],
+      "additionalExamples": [
+        { "sentence": "He has recently started a new job.", "meaning": "그는 최근에 새 직장을 시작했다." }
+      ]
     },
     {
       "id": "w7",
@@ -68,7 +116,15 @@
       "partOfSpeech": "preposition",
       "meaning": "~동안 (기간)",
       "example": "I have lived here for five years.",
-      "exampleMeaning": "나는 여기에 5년 동안 살았다."
+      "exampleMeaning": "나는 여기에 5년 동안 살았다.",
+      "koreanPronunciationTip": "'포' - 길게 발음",
+      "mnemonic": "For + 숫자 = ~동안",
+      "confusableWords": [
+        { "word": "Since", "difference": "For는 기간, Since는 시작점" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I have waited for two hours.", "meaning": "나는 두 시간 동안 기다렸다." }
+      ]
     },
     {
       "id": "w8",
@@ -77,7 +133,15 @@
       "partOfSpeech": "preposition",
       "meaning": "~부터 (시작점)",
       "example": "I have known her since 2020.",
-      "exampleMeaning": "나는 2020년부터 그녀를 알고 지냈다."
+      "exampleMeaning": "나는 2020년부터 그녀를 알고 지냈다.",
+      "koreanPronunciationTip": "'신스' - '신'에 강세",
+      "mnemonic": "Since + 시점 = ~부터",
+      "confusableWords": [
+        { "word": "For", "difference": "For는 기간 (숫자), Since는 시점" }
+      ],
+      "additionalExamples": [
+        { "sentence": "We have been friends since Monday.", "meaning": "우리는 월요일부터 친구였다." }
+      ]
     },
     {
       "id": "w9",
@@ -86,7 +150,12 @@
       "partOfSpeech": "phrase",
       "meaning": "지금까지",
       "example": "So far, everything is good.",
-      "exampleMeaning": "지금까지는 모든 것이 좋다."
+      "exampleMeaning": "지금까지는 모든 것이 좋다.",
+      "koreanPronunciationTip": "'소 파' - 두 단어 따로",
+      "mnemonic": "So far = So(그렇게) far(멀리) = 지금까지",
+      "additionalExamples": [
+        { "sentence": "So far, I have learned 50 words.", "meaning": "지금까지 50개 단어를 배웠다." }
+      ]
     },
     {
       "id": "w10",
@@ -95,7 +164,15 @@
       "partOfSpeech": "adverb",
       "meaning": "한 번",
       "example": "I have been there once.",
-      "exampleMeaning": "나는 거기에 한 번 가본 적이 있다."
+      "exampleMeaning": "나는 거기에 한 번 가본 적이 있다.",
+      "koreanPronunciationTip": "'원스' - '원'에 강세",
+      "mnemonic": "One + ce = 한 번",
+      "confusableWords": [
+        { "word": "Twice", "difference": "Once는 한 번, Twice는 두 번" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I have met him once.", "meaning": "나는 그를 한 번 만났다." }
+      ]
     },
     {
       "id": "w11",
@@ -104,7 +181,15 @@
       "partOfSpeech": "adverb",
       "meaning": "두 번",
       "example": "I have visited Japan twice.",
-      "exampleMeaning": "나는 일본에 두 번 방문했다."
+      "exampleMeaning": "나는 일본에 두 번 방문했다.",
+      "koreanPronunciationTip": "'트와이스' - '와'에 강세",
+      "mnemonic": "Two + ice = 두 번 (숫자 2처럼 tw로 시작)",
+      "confusableWords": [
+        { "word": "Once", "difference": "Once는 한 번" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She has called twice.", "meaning": "그녀가 두 번 전화했다." }
+      ]
     },
     {
       "id": "w12",
@@ -113,7 +198,12 @@
       "partOfSpeech": "phrase",
       "meaning": "여러 번",
       "example": "I have seen that movie several times.",
-      "exampleMeaning": "나는 그 영화를 여러 번 봤다."
+      "exampleMeaning": "나는 그 영화를 여러 번 봤다.",
+      "koreanPronunciationTip": "'세버럴 타임즈'",
+      "mnemonic": "Several = 여러 + times = 번",
+      "additionalExamples": [
+        { "sentence": "I have been to that restaurant several times.", "meaning": "그 식당에 여러 번 갔다." }
+      ]
     },
     {
       "id": "w13",
@@ -122,7 +212,15 @@
       "partOfSpeech": "adverb",
       "meaning": "전에, 이전에",
       "example": "I have met him before.",
-      "exampleMeaning": "나는 그를 전에 만난 적이 있다."
+      "exampleMeaning": "나는 그를 전에 만난 적이 있다.",
+      "koreanPronunciationTip": "'비포' - '포'에 강세",
+      "mnemonic": "Be + fore = 앞에 = 전에",
+      "confusableWords": [
+        { "word": "After", "difference": "Before는 전에, After는 후에" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Have you been here before?", "meaning": "여기 전에 와본 적 있어요?" }
+      ]
     },
     {
       "id": "w14",
@@ -131,7 +229,12 @@
       "partOfSpeech": "noun",
       "meaning": "경험",
       "example": "This has been a great experience.",
-      "exampleMeaning": "이것은 훌륭한 경험이었다."
+      "exampleMeaning": "이것은 훌륭한 경험이었다.",
+      "koreanPronunciationTip": "'익스피리언스' - '피'에 강세",
+      "mnemonic": "Ex(밖으로) + perience(겪다) = 경험",
+      "additionalExamples": [
+        { "sentence": "I have had many experiences.", "meaning": "나는 많은 경험을 했다." }
+      ]
     },
     {
       "id": "w15",
@@ -140,7 +243,15 @@
       "partOfSpeech": "verb/noun",
       "meaning": "여행하다, 여행",
       "example": "I have traveled to many countries.",
-      "exampleMeaning": "나는 많은 나라를 여행했다."
+      "exampleMeaning": "나는 많은 나라를 여행했다.",
+      "koreanPronunciationTip": "'트래블' - '트'에 강세",
+      "mnemonic": "Travel = 여행",
+      "confusableWords": [
+        { "word": "Trip", "difference": "Travel은 동사/명사, Trip은 주로 명사" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Have you traveled abroad?", "meaning": "해외여행 해본 적 있어요?" }
+      ]
     },
     {
       "id": "w16",
@@ -149,7 +260,12 @@
       "partOfSpeech": "verb",
       "meaning": "방문하다",
       "example": "I have visited my grandparents.",
-      "exampleMeaning": "나는 조부모님을 방문했다."
+      "exampleMeaning": "나는 조부모님을 방문했다.",
+      "koreanPronunciationTip": "'비짓' - '비'에 강세",
+      "mnemonic": "Visit = 방문하다",
+      "additionalExamples": [
+        { "sentence": "Have you visited the museum?", "meaning": "박물관에 가본 적 있어요?" }
+      ]
     },
     {
       "id": "w17",
@@ -158,7 +274,12 @@
       "partOfSpeech": "verb",
       "meaning": "시도하다, 먹어보다",
       "example": "Have you tried Korean food?",
-      "exampleMeaning": "한국 음식을 먹어봤나요?"
+      "exampleMeaning": "한국 음식을 먹어봤나요?",
+      "koreanPronunciationTip": "'트라이'",
+      "mnemonic": "Try = 시도하다, 해보다",
+      "additionalExamples": [
+        { "sentence": "I have tried many new things.", "meaning": "나는 많은 새로운 것들을 시도해봤다." }
+      ]
     },
     {
       "id": "w18",
@@ -167,7 +288,12 @@
       "partOfSpeech": "verb",
       "meaning": "만나다",
       "example": "I have met many interesting people.",
-      "exampleMeaning": "나는 많은 흥미로운 사람들을 만났다."
+      "exampleMeaning": "나는 많은 흥미로운 사람들을 만났다.",
+      "koreanPronunciationTip": "'밋' - 길게 '미잇'",
+      "mnemonic": "Meet - Met - Met (과거분사)",
+      "additionalExamples": [
+        { "sentence": "Have you met my friend?", "meaning": "내 친구를 만난 적 있어요?" }
+      ]
     },
     {
       "id": "w19",
@@ -176,7 +302,12 @@
       "partOfSpeech": "verb",
       "meaning": "배우다",
       "example": "I have learned a lot from this class.",
-      "exampleMeaning": "나는 이 수업에서 많은 것을 배웠다."
+      "exampleMeaning": "나는 이 수업에서 많은 것을 배웠다.",
+      "koreanPronunciationTip": "'런' - '러'에 강세",
+      "mnemonic": "Learn - Learned/Learnt (규칙/불규칙)",
+      "additionalExamples": [
+        { "sentence": "Have you learned English before?", "meaning": "전에 영어를 배운 적 있어요?" }
+      ]
     },
     {
       "id": "w20",
@@ -185,7 +316,438 @@
       "partOfSpeech": "verb/noun",
       "meaning": "변화하다, 변화",
       "example": "My life has changed a lot.",
-      "exampleMeaning": "내 인생은 많이 변했다."
+      "exampleMeaning": "내 인생은 많이 변했다.",
+      "koreanPronunciationTip": "'체인지' - '체'에 강세",
+      "mnemonic": "Change = 바꾸다, 변화",
+      "additionalExamples": [
+        { "sentence": "The weather has changed.", "meaning": "날씨가 변했다." }
+      ]
+    },
+    {
+      "id": "w21",
+      "word": "Been",
+      "pronunciation": "/biːn/",
+      "partOfSpeech": "verb (past participle)",
+      "meaning": "~였다, ~에 가본 적이 있다",
+      "example": "I have been to London.",
+      "exampleMeaning": "나는 런던에 가본 적이 있다.",
+      "koreanPronunciationTip": "'빈' - 길게 발음",
+      "mnemonic": "Be → Been: have been to = ~에 가본 적 있다",
+      "confusableWords": [
+        { "word": "Gone", "difference": "Been은 갔다 왔다, Gone은 가서 없다" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She has been sick.", "meaning": "그녀는 아팠다." }
+      ]
+    },
+    {
+      "id": "w22",
+      "word": "Gone",
+      "pronunciation": "/ɡɔːn/",
+      "partOfSpeech": "verb (past participle)",
+      "meaning": "가버린 (go의 과거분사)",
+      "example": "He has gone to school.",
+      "exampleMeaning": "그는 학교에 갔다 (지금 없다).",
+      "koreanPronunciationTip": "'곤' - 길게 발음",
+      "mnemonic": "Go → Gone: 가버려서 지금 없다",
+      "confusableWords": [
+        { "word": "Been", "difference": "Gone은 가서 없다, Been은 갔다 왔다" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She has gone home.", "meaning": "그녀는 집에 갔다 (지금 여기 없다)." }
+      ]
+    },
+    {
+      "id": "w23",
+      "word": "Done",
+      "pronunciation": "/dʌn/",
+      "partOfSpeech": "verb (past participle)",
+      "meaning": "했다, 끝냈다 (do의 과거분사)",
+      "example": "I have done my homework.",
+      "exampleMeaning": "나는 숙제를 했다.",
+      "koreanPronunciationTip": "'던' - 짧게",
+      "mnemonic": "Do → Did → Done",
+      "additionalExamples": [
+        { "sentence": "Have you done this before?", "meaning": "이거 전에 해본 적 있어요?" }
+      ]
+    },
+    {
+      "id": "w24",
+      "word": "Seen",
+      "pronunciation": "/siːn/",
+      "partOfSpeech": "verb (past participle)",
+      "meaning": "봤다 (see의 과거분사)",
+      "example": "I have seen this movie.",
+      "exampleMeaning": "나는 이 영화를 봤다.",
+      "koreanPronunciationTip": "'신' - 길게 '시인'",
+      "mnemonic": "See → Saw → Seen",
+      "additionalExamples": [
+        { "sentence": "Have you seen my keys?", "meaning": "내 열쇠 봤어요?" }
+      ]
+    },
+    {
+      "id": "w25",
+      "word": "Eaten",
+      "pronunciation": "/ˈiːtn/",
+      "partOfSpeech": "verb (past participle)",
+      "meaning": "먹었다 (eat의 과거분사)",
+      "example": "I have eaten lunch.",
+      "exampleMeaning": "나는 점심을 먹었다.",
+      "koreanPronunciationTip": "'이튼' - '이'에 강세",
+      "mnemonic": "Eat → Ate → Eaten",
+      "additionalExamples": [
+        { "sentence": "Have you eaten yet?", "meaning": "아직 밥 먹었어요?" }
+      ]
+    },
+    {
+      "id": "w26",
+      "word": "Taken",
+      "pronunciation": "/ˈteɪkən/",
+      "partOfSpeech": "verb (past participle)",
+      "meaning": "가져갔다, 찍었다 (take의 과거분사)",
+      "example": "I have taken many photos.",
+      "exampleMeaning": "나는 많은 사진을 찍었다.",
+      "koreanPronunciationTip": "'테이큰' - '테'에 강세",
+      "mnemonic": "Take → Took → Taken",
+      "additionalExamples": [
+        { "sentence": "Have you taken the medicine?", "meaning": "약 먹었어요?" }
+      ]
+    },
+    {
+      "id": "w27",
+      "word": "Given",
+      "pronunciation": "/ˈɡɪvn/",
+      "partOfSpeech": "verb (past participle)",
+      "meaning": "줬다 (give의 과거분사)",
+      "example": "I have given her a gift.",
+      "exampleMeaning": "나는 그녀에게 선물을 줬다.",
+      "koreanPronunciationTip": "'기븐' - '기'에 강세",
+      "mnemonic": "Give → Gave → Given",
+      "additionalExamples": [
+        { "sentence": "Have you given him the message?", "meaning": "그에게 메시지를 전했어요?" }
+      ]
+    },
+    {
+      "id": "w28",
+      "word": "Written",
+      "pronunciation": "/ˈrɪtn/",
+      "partOfSpeech": "verb (past participle)",
+      "meaning": "썼다 (write의 과거분사)",
+      "example": "I have written a letter.",
+      "exampleMeaning": "나는 편지를 썼다.",
+      "koreanPronunciationTip": "'리튼' - 'w'는 묵음!",
+      "mnemonic": "Write → Wrote → Written (w 묵음 주의)",
+      "additionalExamples": [
+        { "sentence": "Have you written the report?", "meaning": "보고서 썼어요?" }
+      ]
+    },
+    {
+      "id": "w29",
+      "word": "Spoken",
+      "pronunciation": "/ˈspoʊkən/",
+      "partOfSpeech": "verb (past participle)",
+      "meaning": "말했다 (speak의 과거분사)",
+      "example": "I have spoken to her.",
+      "exampleMeaning": "나는 그녀와 이야기했다.",
+      "koreanPronunciationTip": "'스포큰' - '스'에 강세",
+      "mnemonic": "Speak → Spoke → Spoken",
+      "additionalExamples": [
+        { "sentence": "Have you spoken to the teacher?", "meaning": "선생님과 이야기했어요?" }
+      ]
+    },
+    {
+      "id": "w30",
+      "word": "Broken",
+      "pronunciation": "/ˈbroʊkən/",
+      "partOfSpeech": "verb (past participle)",
+      "meaning": "부서졌다 (break의 과거분사)",
+      "example": "The window has broken.",
+      "exampleMeaning": "창문이 깨졌다.",
+      "koreanPronunciationTip": "'브로큰' - '브'에 강세",
+      "mnemonic": "Break → Broke → Broken",
+      "additionalExamples": [
+        { "sentence": "I have broken my phone.", "meaning": "나는 폰을 망가뜨렸다." }
+      ]
+    },
+    {
+      "id": "w31",
+      "word": "Chosen",
+      "pronunciation": "/ˈtʃoʊzən/",
+      "partOfSpeech": "verb (past participle)",
+      "meaning": "선택했다 (choose의 과거분사)",
+      "example": "I have chosen this one.",
+      "exampleMeaning": "나는 이것을 선택했다.",
+      "koreanPronunciationTip": "'초즌' - '초'에 강세",
+      "mnemonic": "Choose → Chose → Chosen",
+      "additionalExamples": [
+        { "sentence": "Have you chosen your meal?", "meaning": "음식 골랐어요?" }
+      ]
+    },
+    {
+      "id": "w32",
+      "word": "Forgotten",
+      "pronunciation": "/fərˈɡɑːtn/",
+      "partOfSpeech": "verb (past participle)",
+      "meaning": "잊었다 (forget의 과거분사)",
+      "example": "I have forgotten his name.",
+      "exampleMeaning": "나는 그의 이름을 잊었다.",
+      "koreanPronunciationTip": "'포가튼' - '가'에 강세",
+      "mnemonic": "Forget → Forgot → Forgotten",
+      "additionalExamples": [
+        { "sentence": "Have you forgotten your password?", "meaning": "비밀번호를 잊었어요?" }
+      ]
+    },
+    {
+      "id": "w33",
+      "word": "Driven",
+      "pronunciation": "/ˈdrɪvn/",
+      "partOfSpeech": "verb (past participle)",
+      "meaning": "운전했다 (drive의 과거분사)",
+      "example": "I have driven this car.",
+      "exampleMeaning": "나는 이 차를 운전해봤다.",
+      "koreanPronunciationTip": "'드리븐' - '드'에 강세",
+      "mnemonic": "Drive → Drove → Driven",
+      "additionalExamples": [
+        { "sentence": "Have you driven before?", "meaning": "운전해본 적 있어요?" }
+      ]
+    },
+    {
+      "id": "w34",
+      "word": "Flown",
+      "pronunciation": "/floʊn/",
+      "partOfSpeech": "verb (past participle)",
+      "meaning": "날았다, 비행했다 (fly의 과거분사)",
+      "example": "I have flown to Japan.",
+      "exampleMeaning": "나는 일본으로 비행기를 탔다.",
+      "koreanPronunciationTip": "'플로운' - '플'에 강세",
+      "mnemonic": "Fly → Flew → Flown",
+      "additionalExamples": [
+        { "sentence": "Have you flown in a plane?", "meaning": "비행기 타본 적 있어요?" }
+      ]
+    },
+    {
+      "id": "w35",
+      "word": "Grown",
+      "pronunciation": "/ɡroʊn/",
+      "partOfSpeech": "verb (past participle)",
+      "meaning": "자랐다, 키웠다 (grow의 과거분사)",
+      "example": "The tree has grown tall.",
+      "exampleMeaning": "나무가 크게 자랐다.",
+      "koreanPronunciationTip": "'그로운' - '그'에 강세",
+      "mnemonic": "Grow → Grew → Grown",
+      "additionalExamples": [
+        { "sentence": "I have grown flowers.", "meaning": "나는 꽃을 키웠다." }
+      ]
+    },
+    {
+      "id": "w36",
+      "word": "Known",
+      "pronunciation": "/noʊn/",
+      "partOfSpeech": "verb (past participle)",
+      "meaning": "알았다 (know의 과거분사)",
+      "example": "I have known him for years.",
+      "exampleMeaning": "나는 그를 수년간 알고 지냈다.",
+      "koreanPronunciationTip": "'노운' - 'k'는 묵음!",
+      "mnemonic": "Know → Knew → Known (k 묵음)",
+      "additionalExamples": [
+        { "sentence": "Have you known about this?", "meaning": "이것에 대해 알고 있었어요?" }
+      ]
+    },
+    {
+      "id": "w37",
+      "word": "Shown",
+      "pronunciation": "/ʃoʊn/",
+      "partOfSpeech": "verb (past participle)",
+      "meaning": "보여줬다 (show의 과거분사)",
+      "example": "I have shown her the way.",
+      "exampleMeaning": "나는 그녀에게 길을 보여줬다.",
+      "koreanPronunciationTip": "'쇼운'",
+      "mnemonic": "Show → Showed → Shown",
+      "additionalExamples": [
+        { "sentence": "Have you shown him the photo?", "meaning": "그에게 사진 보여줬어요?" }
+      ]
+    },
+    {
+      "id": "w38",
+      "word": "Bought",
+      "pronunciation": "/bɔːt/",
+      "partOfSpeech": "verb (past/past participle)",
+      "meaning": "샀다 (buy의 과거/과거분사)",
+      "example": "I have bought a new bag.",
+      "exampleMeaning": "나는 새 가방을 샀다.",
+      "koreanPronunciationTip": "'보ㅌ' - 'ough'는 '오'로",
+      "mnemonic": "Buy → Bought → Bought",
+      "additionalExamples": [
+        { "sentence": "Have you bought the tickets?", "meaning": "표 샀어요?" }
+      ]
+    },
+    {
+      "id": "w39",
+      "word": "Brought",
+      "pronunciation": "/brɔːt/",
+      "partOfSpeech": "verb (past/past participle)",
+      "meaning": "가져왔다 (bring의 과거/과거분사)",
+      "example": "I have brought my book.",
+      "exampleMeaning": "나는 내 책을 가져왔다.",
+      "koreanPronunciationTip": "'브로ㅌ' - 'ough'는 '오'로",
+      "mnemonic": "Bring → Brought → Brought",
+      "additionalExamples": [
+        { "sentence": "Have you brought your lunch?", "meaning": "점심 가져왔어요?" }
+      ]
+    },
+    {
+      "id": "w40",
+      "word": "Thought",
+      "pronunciation": "/θɔːt/",
+      "partOfSpeech": "verb (past/past participle)",
+      "meaning": "생각했다 (think의 과거/과거분사)",
+      "example": "I have thought about it.",
+      "exampleMeaning": "나는 그것에 대해 생각해봤다.",
+      "koreanPronunciationTip": "'쏘ㅌ' - 'th'는 혀를 내밀어",
+      "mnemonic": "Think → Thought → Thought",
+      "additionalExamples": [
+        { "sentence": "Have you thought about your answer?", "meaning": "답에 대해 생각해봤어요?" }
+      ]
+    },
+    {
+      "id": "w41",
+      "word": "Caught",
+      "pronunciation": "/kɔːt/",
+      "partOfSpeech": "verb (past/past participle)",
+      "meaning": "잡았다 (catch의 과거/과거분사)",
+      "example": "I have caught a cold.",
+      "exampleMeaning": "나는 감기에 걸렸다.",
+      "koreanPronunciationTip": "'코ㅌ' - 'augh'는 '오'로",
+      "mnemonic": "Catch → Caught → Caught (catch a cold = 감기 걸리다)",
+      "additionalExamples": [
+        { "sentence": "Have you caught the ball?", "meaning": "공 잡았어요?" }
+      ]
+    },
+    {
+      "id": "w42",
+      "word": "Taught",
+      "pronunciation": "/tɔːt/",
+      "partOfSpeech": "verb (past/past participle)",
+      "meaning": "가르쳤다 (teach의 과거/과거분사)",
+      "example": "I have taught English.",
+      "exampleMeaning": "나는 영어를 가르쳤다.",
+      "koreanPronunciationTip": "'토ㅌ'",
+      "mnemonic": "Teach → Taught → Taught",
+      "additionalExamples": [
+        { "sentence": "Have you taught children before?", "meaning": "아이들을 가르쳐본 적 있어요?" }
+      ]
+    },
+    {
+      "id": "w43",
+      "word": "Felt",
+      "pronunciation": "/felt/",
+      "partOfSpeech": "verb (past/past participle)",
+      "meaning": "느꼈다 (feel의 과거/과거분사)",
+      "example": "I have felt happy today.",
+      "exampleMeaning": "나는 오늘 행복함을 느꼈다.",
+      "koreanPronunciationTip": "'펠트'",
+      "mnemonic": "Feel → Felt → Felt",
+      "additionalExamples": [
+        { "sentence": "Have you felt this way before?", "meaning": "전에 이런 기분이었던 적 있어요?" }
+      ]
+    },
+    {
+      "id": "w44",
+      "word": "Kept",
+      "pronunciation": "/kept/",
+      "partOfSpeech": "verb (past/past participle)",
+      "meaning": "유지했다, 지켰다 (keep의 과거/과거분사)",
+      "example": "I have kept my promise.",
+      "exampleMeaning": "나는 약속을 지켰다.",
+      "koreanPronunciationTip": "'켑트'",
+      "mnemonic": "Keep → Kept → Kept",
+      "additionalExamples": [
+        { "sentence": "Have you kept the receipt?", "meaning": "영수증 가지고 있어요?" }
+      ]
+    },
+    {
+      "id": "w45",
+      "word": "Slept",
+      "pronunciation": "/slept/",
+      "partOfSpeech": "verb (past/past participle)",
+      "meaning": "잤다 (sleep의 과거/과거분사)",
+      "example": "I have slept well.",
+      "exampleMeaning": "나는 잘 잤다.",
+      "koreanPronunciationTip": "'슬렙트'",
+      "mnemonic": "Sleep → Slept → Slept",
+      "additionalExamples": [
+        { "sentence": "Have you slept enough?", "meaning": "충분히 잤어요?" }
+      ]
+    },
+    {
+      "id": "w46",
+      "word": "Sent",
+      "pronunciation": "/sent/",
+      "partOfSpeech": "verb (past/past participle)",
+      "meaning": "보냈다 (send의 과거/과거분사)",
+      "example": "I have sent the email.",
+      "exampleMeaning": "나는 이메일을 보냈다.",
+      "koreanPronunciationTip": "'센트'",
+      "mnemonic": "Send → Sent → Sent",
+      "additionalExamples": [
+        { "sentence": "Have you sent the message?", "meaning": "메시지 보냈어요?" }
+      ]
+    },
+    {
+      "id": "w47",
+      "word": "Spent",
+      "pronunciation": "/spent/",
+      "partOfSpeech": "verb (past/past participle)",
+      "meaning": "썼다, 보냈다 (시간/돈) (spend의 과거/과거분사)",
+      "example": "I have spent all my money.",
+      "exampleMeaning": "나는 돈을 다 썼다.",
+      "koreanPronunciationTip": "'스펜트'",
+      "mnemonic": "Spend → Spent → Spent",
+      "additionalExamples": [
+        { "sentence": "Have you spent time with family?", "meaning": "가족과 시간을 보냈어요?" }
+      ]
+    },
+    {
+      "id": "w48",
+      "word": "Lost",
+      "pronunciation": "/lɔːst/",
+      "partOfSpeech": "verb (past/past participle)",
+      "meaning": "잃어버렸다 (lose의 과거/과거분사)",
+      "example": "I have lost my wallet.",
+      "exampleMeaning": "나는 지갑을 잃어버렸다.",
+      "koreanPronunciationTip": "'로스트'",
+      "mnemonic": "Lose → Lost → Lost",
+      "additionalExamples": [
+        { "sentence": "Have you lost your keys?", "meaning": "열쇠 잃어버렸어요?" }
+      ]
+    },
+    {
+      "id": "w49",
+      "word": "Found",
+      "pronunciation": "/faʊnd/",
+      "partOfSpeech": "verb (past/past participle)",
+      "meaning": "찾았다 (find의 과거/과거분사)",
+      "example": "I have found my phone.",
+      "exampleMeaning": "나는 전화기를 찾았다.",
+      "koreanPronunciationTip": "'파운드'",
+      "mnemonic": "Find → Found → Found",
+      "additionalExamples": [
+        { "sentence": "Have you found the answer?", "meaning": "답을 찾았어요?" }
+      ]
+    },
+    {
+      "id": "w50",
+      "word": "Made",
+      "pronunciation": "/meɪd/",
+      "partOfSpeech": "verb (past/past participle)",
+      "meaning": "만들었다 (make의 과거/과거분사)",
+      "example": "I have made a cake.",
+      "exampleMeaning": "나는 케이크를 만들었다.",
+      "koreanPronunciationTip": "'메이드'",
+      "mnemonic": "Make → Made → Made",
+      "additionalExamples": [
+        { "sentence": "Have you made your decision?", "meaning": "결정했어요?" }
+      ]
     }
   ],
 
@@ -303,6 +865,1025 @@
       "options": ["과거에", "최근에", "미래에", "항상"],
       "answer": "최근에",
       "explanation": "'Recently'는 '최근에'라는 뜻입니다."
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "I have ___ to London. (가본 적이 있다)",
+      "options": ["been", "gone", "went", "go"],
+      "answer": "been",
+      "explanation": "Have been to = ~에 가본 적이 있다 (갔다 왔다)"
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "He has ___ to school. (가버려서 지금 없다)",
+      "options": ["been", "gone", "went", "go"],
+      "answer": "gone",
+      "explanation": "Have gone to = 가버려서 지금 여기 없다"
+    },
+    {
+      "id": "ex18",
+      "type": "fill_blank",
+      "question": "I have ___ my homework. (do의 과거분사)",
+      "answer": ["done"],
+      "explanation": "Do → Did → Done"
+    },
+    {
+      "id": "ex19",
+      "type": "fill_blank",
+      "question": "Have you ___ this movie? (see의 과거분사)",
+      "answer": ["seen"],
+      "explanation": "See → Saw → Seen"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "What is the past participle of 'eat'?",
+      "options": ["Ate", "Eaten", "Eating", "Eats"],
+      "answer": "Eaten",
+      "explanation": "Eat → Ate → Eaten"
+    },
+    {
+      "id": "ex21",
+      "type": "fill_blank",
+      "question": "I have ___ many photos. (take의 과거분사)",
+      "answer": ["taken"],
+      "explanation": "Take → Took → Taken"
+    },
+    {
+      "id": "ex22",
+      "type": "fill_blank",
+      "question": "I have ___ her a gift. (give의 과거분사)",
+      "answer": ["given"],
+      "explanation": "Give → Gave → Given"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "What is the past participle of 'write'?",
+      "options": ["Wrote", "Written", "Writing", "Writes"],
+      "answer": "Written",
+      "explanation": "Write → Wrote → Written (w는 발음 안 함)"
+    },
+    {
+      "id": "ex24",
+      "type": "fill_blank",
+      "question": "I have ___ to her. (speak의 과거분사)",
+      "answer": ["spoken"],
+      "explanation": "Speak → Spoke → Spoken"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "The window has ___. (break의 과거분사)",
+      "options": ["break", "broke", "broken", "breaking"],
+      "answer": "broken",
+      "explanation": "Break → Broke → Broken"
+    },
+    {
+      "id": "ex26",
+      "type": "fill_blank",
+      "question": "I have ___ this one. (choose의 과거분사)",
+      "answer": ["chosen"],
+      "explanation": "Choose → Chose → Chosen"
+    },
+    {
+      "id": "ex27",
+      "type": "fill_blank",
+      "question": "I have ___ his name. (forget의 과거분사)",
+      "answer": ["forgotten"],
+      "explanation": "Forget → Forgot → Forgotten"
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "What is the past participle of 'drive'?",
+      "options": ["Drove", "Driven", "Driving", "Drives"],
+      "answer": "Driven",
+      "explanation": "Drive → Drove → Driven"
+    },
+    {
+      "id": "ex29",
+      "type": "fill_blank",
+      "question": "I have ___ to Japan. (fly의 과거분사)",
+      "answer": ["flown"],
+      "explanation": "Fly → Flew → Flown"
+    },
+    {
+      "id": "ex30",
+      "type": "fill_blank",
+      "question": "The tree has ___ tall. (grow의 과거분사)",
+      "answer": ["grown"],
+      "explanation": "Grow → Grew → Grown"
+    },
+    {
+      "id": "ex31",
+      "type": "multiple_choice",
+      "question": "I have ___ him for years. (know의 과거분사)",
+      "options": ["know", "knew", "known", "knowing"],
+      "answer": "known",
+      "explanation": "Know → Knew → Known (k는 묵음)"
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "question": "I have ___ her the way. (show의 과거분사)",
+      "answer": ["shown"],
+      "explanation": "Show → Showed → Shown"
+    },
+    {
+      "id": "ex33",
+      "type": "multiple_choice",
+      "question": "What is the past participle of 'buy'?",
+      "options": ["Buy", "Buyed", "Bought", "Buying"],
+      "answer": "Bought",
+      "explanation": "Buy → Bought → Bought"
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "I have ___ my book. (bring의 과거분사)",
+      "answer": ["brought"],
+      "explanation": "Bring → Brought → Brought"
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "I have ___ about it. (think의 과거분사)",
+      "answer": ["thought"],
+      "explanation": "Think → Thought → Thought"
+    },
+    {
+      "id": "ex36",
+      "type": "multiple_choice",
+      "question": "I have ___ a cold. (감기에 걸렸다)",
+      "options": ["catch", "caught", "catched", "catching"],
+      "answer": "caught",
+      "explanation": "Catch → Caught → Caught (catch a cold = 감기 걸리다)"
+    },
+    {
+      "id": "ex37",
+      "type": "fill_blank",
+      "question": "I have ___ English. (teach의 과거분사)",
+      "answer": ["taught"],
+      "explanation": "Teach → Taught → Taught"
+    },
+    {
+      "id": "ex38",
+      "type": "multiple_choice",
+      "question": "What is the past participle of 'feel'?",
+      "options": ["Feel", "Feeled", "Felt", "Feeling"],
+      "answer": "Felt",
+      "explanation": "Feel → Felt → Felt"
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "question": "I have ___ my promise. (keep의 과거분사)",
+      "answer": ["kept"],
+      "explanation": "Keep → Kept → Kept"
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "I have ___ well. (sleep의 과거분사)",
+      "answer": ["slept"],
+      "explanation": "Sleep → Slept → Slept"
+    },
+    {
+      "id": "ex41",
+      "type": "multiple_choice",
+      "question": "What is the past participle of 'send'?",
+      "options": ["Send", "Sended", "Sent", "Sending"],
+      "answer": "Sent",
+      "explanation": "Send → Sent → Sent"
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "I have ___ all my money. (spend의 과거분사)",
+      "answer": ["spent"],
+      "explanation": "Spend → Spent → Spent"
+    },
+    {
+      "id": "ex43",
+      "type": "multiple_choice",
+      "question": "I have ___ my wallet. (lose의 과거분사)",
+      "options": ["lose", "losed", "lost", "losing"],
+      "answer": "lost",
+      "explanation": "Lose → Lost → Lost"
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "I have ___ my phone. (find의 과거분사)",
+      "answer": ["found"],
+      "explanation": "Find → Found → Found"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "I have ___ a cake. (make의 과거분사)",
+      "answer": ["made"],
+      "explanation": "Make → Made → Made"
+    },
+    {
+      "id": "ex46",
+      "type": "matching",
+      "question": "Match the verb with its past participle:",
+      "options": ["go", "do", "see", "eat"],
+      "answer": ["gone/been", "done", "seen", "eaten"],
+      "explanation": "불규칙 동사의 과거분사를 연결합니다."
+    },
+    {
+      "id": "ex47",
+      "type": "matching",
+      "question": "Match the verb with its past participle:",
+      "options": ["take", "give", "write", "speak"],
+      "answer": ["taken", "given", "written", "spoken"],
+      "explanation": "불규칙 동사의 과거분사를 연결합니다."
+    },
+    {
+      "id": "ex48",
+      "type": "matching",
+      "question": "Match the verb with its past participle:",
+      "options": ["buy", "bring", "think", "catch"],
+      "answer": ["bought", "brought", "thought", "caught"],
+      "explanation": "'ought' 형태의 과거분사를 연결합니다."
+    },
+    {
+      "id": "ex49",
+      "type": "multiple_choice",
+      "question": "Which is correct? 'I have ___ there.'",
+      "options": ["be", "been", "being", "was"],
+      "answer": "been",
+      "explanation": "현재완료에서는 have + 과거분사를 사용합니다. Be → Been"
+    },
+    {
+      "id": "ex50",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": ["I have went to Paris.", "I have been to Paris.", "I have go to Paris.", "I have going to Paris."],
+      "answer": "I have been to Paris.",
+      "explanation": "현재완료는 have + 과거분사입니다. Been이 맞습니다."
+    },
+    {
+      "id": "ex51",
+      "type": "multiple_choice",
+      "question": "She has ___ that book many times. (read의 과거분사)",
+      "options": ["read", "readed", "reading", "reads"],
+      "answer": "read",
+      "explanation": "Read → Read → Read (발음만 다름: /red/)"
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "I have ___ to that song before. (listen은 규칙동사)",
+      "answer": ["listened"],
+      "explanation": "Listen → Listened → Listened (규칙 동사)"
+    },
+    {
+      "id": "ex53",
+      "type": "multiple_choice",
+      "question": "Have you ___ your room? (clean은 규칙동사)",
+      "options": ["clean", "cleaned", "cleaning", "cleans"],
+      "answer": "cleaned",
+      "explanation": "Clean → Cleaned → Cleaned (규칙 동사)"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "They have ___ here for many years. (live의 과거분사)",
+      "answer": ["lived"],
+      "explanation": "Live → Lived → Lived (규칙 동사)"
+    },
+    {
+      "id": "ex55",
+      "type": "multiple_choice",
+      "question": "'Have you ever been to Paris?' 의 의미는?",
+      "options": ["파리에 지금 있나요?", "파리에 가본 적 있나요?", "파리에 갈 건가요?", "파리에 살았나요?"],
+      "answer": "파리에 가본 적 있나요?",
+      "explanation": "Have been to = ~에 가본 적이 있다 (경험)"
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "I have ___ this before. (hear의 과거분사)",
+      "answer": ["heard"],
+      "explanation": "Hear → Heard → Heard"
+    },
+    {
+      "id": "ex57",
+      "type": "multiple_choice",
+      "question": "She has ___ a lot of weight. (lose의 과거분사)",
+      "options": ["lose", "lost", "losing", "loses"],
+      "answer": "lost",
+      "explanation": "Lose → Lost → Lost"
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "I have ___ him the truth. (tell의 과거분사)",
+      "answer": ["told"],
+      "explanation": "Tell → Told → Told"
+    },
+    {
+      "id": "ex59",
+      "type": "multiple_choice",
+      "question": "We have ___ a new car. (get의 과거분사)",
+      "options": ["get", "got/gotten", "getting", "gets"],
+      "answer": "got/gotten",
+      "explanation": "Get → Got → Got/Gotten (영국식: got, 미국식: gotten)"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "Have you ___ about the news? (hear의 과거분사)",
+      "answer": ["heard"],
+      "explanation": "Hear → Heard → Heard"
+    },
+    {
+      "id": "ex61",
+      "type": "multiple_choice",
+      "question": "I have ___ 5km today. (run의 과거분사)",
+      "options": ["run", "ran", "running", "runs"],
+      "answer": "run",
+      "explanation": "Run → Ran → Run"
+    },
+    {
+      "id": "ex62",
+      "type": "fill_blank",
+      "question": "She has ___ here since 2019. (work은 규칙동사)",
+      "answer": ["worked"],
+      "explanation": "Work → Worked → Worked (규칙 동사)"
+    },
+    {
+      "id": "ex63",
+      "type": "matching",
+      "question": "Match the verb with its past participle:",
+      "options": ["sleep", "send", "spend", "keep"],
+      "answer": ["slept", "sent", "spent", "kept"],
+      "explanation": "e → t 변화하는 동사들입니다."
+    },
+    {
+      "id": "ex64",
+      "type": "multiple_choice",
+      "question": "'I haven't finished yet' 의 의미는?",
+      "options": ["나는 이미 끝냈다", "나는 아직 끝내지 않았다", "나는 막 끝냈다", "나는 전에 끝냈다"],
+      "answer": "나는 아직 끝내지 않았다",
+      "explanation": "Haven't + yet = 아직 ~하지 않았다"
+    },
+    {
+      "id": "ex65",
+      "type": "fill_blank",
+      "question": "I have ___ to move to a new city. (decide는 규칙동사)",
+      "answer": ["decided"],
+      "explanation": "Decide → Decided → Decided (규칙 동사)"
+    },
+    {
+      "id": "ex66",
+      "type": "multiple_choice",
+      "question": "She has ___ all her homework. (finish는 규칙동사)",
+      "options": ["finish", "finished", "finishing", "finishes"],
+      "answer": "finished",
+      "explanation": "Finish → Finished → Finished (규칙 동사)"
+    },
+    {
+      "id": "ex67",
+      "type": "fill_blank",
+      "question": "Have you ever ___ skiing? (try의 과거분사)",
+      "answer": ["tried"],
+      "explanation": "Try → Tried → Tried (y → ied)"
+    },
+    {
+      "id": "ex68",
+      "type": "multiple_choice",
+      "question": "I have ___ this song many times. (sing의 과거분사)",
+      "options": ["sing", "sang", "sung", "singing"],
+      "answer": "sung",
+      "explanation": "Sing → Sang → Sung"
+    },
+    {
+      "id": "ex69",
+      "type": "fill_blank",
+      "question": "She has ___ in the ocean. (swim의 과거분사)",
+      "answer": ["swum"],
+      "explanation": "Swim → Swam → Swum"
+    },
+    {
+      "id": "ex70",
+      "type": "multiple_choice",
+      "question": "We have ___ the bell. (ring의 과거분사)",
+      "options": ["ring", "rang", "rung", "ringing"],
+      "answer": "rung",
+      "explanation": "Ring → Rang → Rung"
+    },
+    {
+      "id": "ex71",
+      "type": "fill_blank",
+      "question": "I have ___ coffee this morning. (have의 과거분사)",
+      "answer": ["had"],
+      "explanation": "Have → Had → Had"
+    },
+    {
+      "id": "ex72",
+      "type": "matching",
+      "question": "Match the time expression with its meaning:",
+      "options": ["for five years", "since 2020", "just now", "so far"],
+      "answer": ["5년 동안", "2020년부터", "방금", "지금까지"],
+      "explanation": "시간 표현과 한국어 의미를 연결합니다."
+    },
+    {
+      "id": "ex73",
+      "type": "multiple_choice",
+      "question": "I have ___ many mistakes. (make의 과거분사)",
+      "options": ["make", "maked", "made", "making"],
+      "answer": "made",
+      "explanation": "Make → Made → Made"
+    },
+    {
+      "id": "ex74",
+      "type": "fill_blank",
+      "question": "He has ___ a lot recently. (grow의 과거분사)",
+      "answer": ["grown"],
+      "explanation": "Grow → Grew → Grown"
+    },
+    {
+      "id": "ex75",
+      "type": "multiple_choice",
+      "question": "'I have just eaten' 의 의미는?",
+      "options": ["나는 곧 먹을 것이다", "나는 막 먹었다", "나는 먹고 있다", "나는 먹지 않았다"],
+      "answer": "나는 막 먹었다",
+      "explanation": "Have just + 과거분사 = 막 ~했다"
+    },
+    {
+      "id": "ex76",
+      "type": "fill_blank",
+      "question": "She has ___ me before. (see의 과거분사)",
+      "answer": ["seen"],
+      "explanation": "See → Saw → Seen"
+    },
+    {
+      "id": "ex77",
+      "type": "multiple_choice",
+      "question": "I have ___ the door. (shut의 과거분사)",
+      "options": ["shut", "shutted", "shutting", "shuts"],
+      "answer": "shut",
+      "explanation": "Shut → Shut → Shut (형태 동일)"
+    },
+    {
+      "id": "ex78",
+      "type": "fill_blank",
+      "question": "We have ___ this game before. (play는 규칙동사)",
+      "answer": ["played"],
+      "explanation": "Play → Played → Played (규칙 동사)"
+    },
+    {
+      "id": "ex79",
+      "type": "matching",
+      "question": "Match the verb with its past participle:",
+      "options": ["lose", "find", "make", "tell"],
+      "answer": ["lost", "found", "made", "told"],
+      "explanation": "불규칙 동사의 과거분사를 연결합니다."
+    },
+    {
+      "id": "ex80",
+      "type": "multiple_choice",
+      "question": "I have ___ the whole book. (read의 과거분사)",
+      "options": ["read", "readed", "reading", "reads"],
+      "answer": "read",
+      "explanation": "Read → Read → Read (철자는 같지만 발음이 다름)"
+    },
+    {
+      "id": "ex81",
+      "type": "fill_blank",
+      "question": "She has ___ a new car. (buy의 과거분사)",
+      "answer": ["bought"],
+      "explanation": "Buy → Bought → Bought"
+    },
+    {
+      "id": "ex82",
+      "type": "multiple_choice",
+      "question": "'He has gone home' 의 의미는?",
+      "options": ["그는 집에 갔다 왔다", "그는 집에 가버렸다 (지금 없다)", "그는 집에 갈 것이다", "그는 집에 있다"],
+      "answer": "그는 집에 가버렸다 (지금 없다)",
+      "explanation": "Have gone to = 가버려서 지금 여기 없다"
+    },
+    {
+      "id": "ex83",
+      "type": "fill_blank",
+      "question": "I have ___ all night. (study는 규칙동사)",
+      "answer": ["studied"],
+      "explanation": "Study → Studied → Studied (y → ied)"
+    },
+    {
+      "id": "ex84",
+      "type": "multiple_choice",
+      "question": "Have you ___ of this artist?",
+      "options": ["hear", "heard", "heared", "hearing"],
+      "answer": "heard",
+      "explanation": "Hear → Heard → Heard"
+    },
+    {
+      "id": "ex85",
+      "type": "fill_blank",
+      "question": "They have ___ the party. (leave의 과거분사)",
+      "answer": ["left"],
+      "explanation": "Leave → Left → Left"
+    },
+    {
+      "id": "ex86",
+      "type": "multiple_choice",
+      "question": "I have ___ a letter to my friend. (write의 과거분사)",
+      "options": ["write", "wrote", "written", "writing"],
+      "answer": "written",
+      "explanation": "Write → Wrote → Written"
+    },
+    {
+      "id": "ex87",
+      "type": "matching",
+      "question": "Match the verb with its past participle:",
+      "options": ["fly", "grow", "know", "show"],
+      "answer": ["flown", "grown", "known", "shown"],
+      "explanation": "-own으로 끝나는 과거분사를 연결합니다."
+    },
+    {
+      "id": "ex88",
+      "type": "fill_blank",
+      "question": "He has ___ his bag at home. (forget의 과거분사)",
+      "answer": ["forgotten"],
+      "explanation": "Forget → Forgot → Forgotten"
+    },
+    {
+      "id": "ex89",
+      "type": "multiple_choice",
+      "question": "For vs Since: I have lived here ___ 10 years.",
+      "options": ["for", "since", "at", "in"],
+      "answer": "for",
+      "explanation": "기간(10년)을 나타낼 때는 'for'를 사용합니다."
+    },
+    {
+      "id": "ex90",
+      "type": "multiple_choice",
+      "question": "For vs Since: I have lived here ___ 2015.",
+      "options": ["for", "since", "at", "in"],
+      "answer": "since",
+      "explanation": "시작 시점(2015년)을 나타낼 때는 'since'를 사용합니다."
+    },
+    {
+      "id": "ex91",
+      "type": "fill_blank",
+      "question": "She has ___ him the news. (tell의 과거분사)",
+      "answer": ["told"],
+      "explanation": "Tell → Told → Told"
+    },
+    {
+      "id": "ex92",
+      "type": "multiple_choice",
+      "question": "I have ___ my keys somewhere. (put의 과거분사)",
+      "options": ["put", "putted", "putting", "puts"],
+      "answer": "put",
+      "explanation": "Put → Put → Put (형태 동일)"
+    },
+    {
+      "id": "ex93",
+      "type": "fill_blank",
+      "question": "We have ___ the game. (win의 과거분사)",
+      "answer": ["won"],
+      "explanation": "Win → Won → Won"
+    },
+    {
+      "id": "ex94",
+      "type": "multiple_choice",
+      "question": "They have ___ married for 5 years.",
+      "options": ["be", "been", "being", "was"],
+      "answer": "been",
+      "explanation": "Have been married = 결혼한 상태로 있다"
+    },
+    {
+      "id": "ex95",
+      "type": "matching",
+      "question": "Match the verb with its past participle:",
+      "options": ["sing", "swim", "ring", "drink"],
+      "answer": ["sung", "swum", "rung", "drunk"],
+      "explanation": "i → a → u 변화 패턴의 동사들입니다."
+    },
+    {
+      "id": "ex96",
+      "type": "fill_blank",
+      "question": "I have ___ the bill. (pay의 과거분사)",
+      "answer": ["paid"],
+      "explanation": "Pay → Paid → Paid"
+    },
+    {
+      "id": "ex97",
+      "type": "multiple_choice",
+      "question": "She has ___ us a lot. (help는 규칙동사)",
+      "options": ["help", "helped", "helping", "helps"],
+      "answer": "helped",
+      "explanation": "Help → Helped → Helped (규칙 동사)"
+    },
+    {
+      "id": "ex98",
+      "type": "fill_blank",
+      "question": "They have ___ the movie. (begin의 과거분사)",
+      "answer": ["begun"],
+      "explanation": "Begin → Began → Begun"
+    },
+    {
+      "id": "ex99",
+      "type": "multiple_choice",
+      "question": "I have ___ enough water today. (drink의 과거분사)",
+      "options": ["drink", "drank", "drunk", "drinking"],
+      "answer": "drunk",
+      "explanation": "Drink → Drank → Drunk"
+    },
+    {
+      "id": "ex100",
+      "type": "fill_blank",
+      "question": "We have ___ the truth. (understand의 과거분사)",
+      "answer": ["understood"],
+      "explanation": "Understand → Understood → Understood"
+    },
+    {
+      "id": "ex101",
+      "type": "multiple_choice",
+      "question": "I have ___ this movie three times. (watch는 규칙동사)",
+      "options": ["watch", "watched", "watching", "watches"],
+      "answer": "watched",
+      "explanation": "Watch → Watched → Watched (규칙 동사)"
+    },
+    {
+      "id": "ex102",
+      "type": "fill_blank",
+      "question": "She has ___ her leg. (break의 과거분사)",
+      "answer": ["broken"],
+      "explanation": "Break → Broke → Broken"
+    },
+    {
+      "id": "ex103",
+      "type": "multiple_choice",
+      "question": "'She has already left' 의 의미는?",
+      "options": ["그녀는 떠날 것이다", "그녀는 아직 안 떠났다", "그녀는 이미 떠났다", "그녀는 떠나고 있다"],
+      "answer": "그녀는 이미 떠났다",
+      "explanation": "Have already + 과거분사 = 이미 ~했다"
+    },
+    {
+      "id": "ex104",
+      "type": "fill_blank",
+      "question": "I have never ___ to that restaurant. (go의 과거분사)",
+      "answer": ["been", "gone"],
+      "explanation": "Have never been to = ~에 가본 적이 없다"
+    },
+    {
+      "id": "ex105",
+      "type": "multiple_choice",
+      "question": "They have ___ a decision. (make의 과거분사)",
+      "options": ["make", "made", "making", "maked"],
+      "answer": "made",
+      "explanation": "Make a decision = 결정을 내리다. Make → Made → Made"
+    },
+    {
+      "id": "ex106",
+      "type": "fill_blank",
+      "question": "Have you ever ___ a car? (drive의 과거분사)",
+      "answer": ["driven"],
+      "explanation": "Drive → Drove → Driven"
+    },
+    {
+      "id": "ex107",
+      "type": "matching",
+      "question": "Match the sentence with its meaning:",
+      "options": ["I have been there.", "I have gone there.", "I have just arrived.", "I haven't eaten yet."],
+      "answer": ["거기 갔다 왔다.", "거기 가버렸다 (없다).", "막 도착했다.", "아직 안 먹었다."],
+      "explanation": "현재완료 문장의 의미를 연결합니다."
+    },
+    {
+      "id": "ex108",
+      "type": "multiple_choice",
+      "question": "How long have you ___ here? (live의 과거분사)",
+      "options": ["live", "lived", "living", "lives"],
+      "answer": "lived",
+      "explanation": "How long have you lived = 얼마나 오래 살았나요?"
+    },
+    {
+      "id": "ex109",
+      "type": "fill_blank",
+      "question": "I have ___ the newspaper. (read의 과거분사)",
+      "answer": ["read"],
+      "explanation": "Read → Read → Read (철자 동일, 발음 다름)"
+    },
+    {
+      "id": "ex110",
+      "type": "multiple_choice",
+      "question": "She has ___ a new language. (learn의 과거분사)",
+      "options": ["learn", "learned/learnt", "learning", "learns"],
+      "answer": "learned/learnt",
+      "explanation": "Learn → Learned/Learnt (둘 다 맞음)"
+    },
+    {
+      "id": "ex111",
+      "type": "fill_blank",
+      "question": "We have ___ together for years. (work는 규칙동사)",
+      "answer": ["worked"],
+      "explanation": "Work → Worked → Worked (규칙 동사)"
+    },
+    {
+      "id": "ex112",
+      "type": "multiple_choice",
+      "question": "Have you ___ dinner?",
+      "options": ["eat", "ate", "eaten", "eating"],
+      "answer": "eaten",
+      "explanation": "Have you eaten? = 밥 먹었어요?"
+    },
+    {
+      "id": "ex113",
+      "type": "fill_blank",
+      "question": "She has ___ a lot of money. (save는 규칙동사)",
+      "answer": ["saved"],
+      "explanation": "Save → Saved → Saved (규칙 동사)"
+    },
+    {
+      "id": "ex114",
+      "type": "multiple_choice",
+      "question": "'I have lived here for 3 years' - for의 역할은?",
+      "options": ["시작점", "기간", "빈도", "순서"],
+      "answer": "기간",
+      "explanation": "For + 기간 = ~동안"
+    },
+    {
+      "id": "ex115",
+      "type": "matching",
+      "question": "Match the verb with its past participle:",
+      "options": ["begin", "drink", "swim", "sing"],
+      "answer": ["begun", "drunk", "swum", "sung"],
+      "explanation": "i → a → u 변화하는 동사들입니다."
+    },
+    {
+      "id": "ex116",
+      "type": "fill_blank",
+      "question": "I have ___ my keys again. (lose의 과거분사)",
+      "answer": ["lost"],
+      "explanation": "Lose → Lost → Lost"
+    },
+    {
+      "id": "ex117",
+      "type": "multiple_choice",
+      "question": "They have ___ married since 2018.",
+      "options": ["be", "been", "being", "was"],
+      "answer": "been",
+      "explanation": "Have been married since = ~부터 결혼한 상태"
+    },
+    {
+      "id": "ex118",
+      "type": "fill_blank",
+      "question": "She has ___ me the answer. (give의 과거분사)",
+      "answer": ["given"],
+      "explanation": "Give → Gave → Given"
+    },
+    {
+      "id": "ex119",
+      "type": "multiple_choice",
+      "question": "I have ___ to this city before. (come의 과거분사)",
+      "options": ["come", "came", "coming", "comes"],
+      "answer": "come",
+      "explanation": "Come → Came → Come"
+    },
+    {
+      "id": "ex120",
+      "type": "fill_blank",
+      "question": "Have you ___ the new movie? (see의 과거분사)",
+      "answer": ["seen"],
+      "explanation": "See → Saw → Seen"
+    },
+    {
+      "id": "ex121",
+      "type": "multiple_choice",
+      "question": "Which is the past participle of 'become'?",
+      "options": ["became", "become", "becoming", "becomes"],
+      "answer": "become",
+      "explanation": "Become → Became → Become"
+    },
+    {
+      "id": "ex122",
+      "type": "fill_blank",
+      "question": "We have ___ a lot of pizza. (order는 규칙동사)",
+      "answer": ["ordered"],
+      "explanation": "Order → Ordered → Ordered (규칙 동사)"
+    },
+    {
+      "id": "ex123",
+      "type": "matching",
+      "question": "Match For or Since:",
+      "options": ["___ Monday", "___ three days", "___ 2020", "___ a long time"],
+      "answer": ["since", "for", "since", "for"],
+      "explanation": "시점은 since, 기간은 for를 사용합니다."
+    },
+    {
+      "id": "ex124",
+      "type": "multiple_choice",
+      "question": "She has ___ a book about history. (write의 과거분사)",
+      "options": ["write", "wrote", "written", "writing"],
+      "answer": "written",
+      "explanation": "Write → Wrote → Written"
+    },
+    {
+      "id": "ex125",
+      "type": "fill_blank",
+      "question": "I have ___ to call him many times. (try의 과거분사)",
+      "answer": ["tried"],
+      "explanation": "Try → Tried → Tried (y → ied)"
+    },
+    {
+      "id": "ex126",
+      "type": "multiple_choice",
+      "question": "'Have you heard?' 의 의미는?",
+      "options": ["들을 거야?", "들었어?", "듣고 있어?", "들을 수 있어?"],
+      "answer": "들었어?",
+      "explanation": "Have you heard? = 들었어? (경험/소식)"
+    },
+    {
+      "id": "ex127",
+      "type": "fill_blank",
+      "question": "He has ___ in many countries. (live의 과거분사)",
+      "answer": ["lived"],
+      "explanation": "Live → Lived → Lived (규칙 동사)"
+    },
+    {
+      "id": "ex128",
+      "type": "multiple_choice",
+      "question": "They have ___ the project. (finish는 규칙동사)",
+      "options": ["finish", "finished", "finishing", "finishes"],
+      "answer": "finished",
+      "explanation": "Finish → Finished → Finished (규칙 동사)"
+    },
+    {
+      "id": "ex129",
+      "type": "fill_blank",
+      "question": "I have ___ a new job. (find의 과거분사)",
+      "answer": ["found"],
+      "explanation": "Find → Found → Found"
+    },
+    {
+      "id": "ex130",
+      "type": "matching",
+      "question": "Match the expression with correct usage:",
+      "options": ["ever", "never", "already", "yet"],
+      "answer": ["의문문", "부정 경험", "긍정문 (이미)", "의문문/부정문 (아직)"],
+      "explanation": "현재완료에서 각 부사의 사용법을 연결합니다."
+    },
+    {
+      "id": "ex131",
+      "type": "multiple_choice",
+      "question": "I have ___ the door. (open은 규칙동사)",
+      "options": ["open", "opened", "opening", "opens"],
+      "answer": "opened",
+      "explanation": "Open → Opened → Opened (규칙 동사)"
+    },
+    {
+      "id": "ex132",
+      "type": "fill_blank",
+      "question": "She has ___ her phone. (drop은 규칙동사, pp 추가)",
+      "answer": ["dropped"],
+      "explanation": "Drop → Dropped → Dropped (자음 중복)"
+    },
+    {
+      "id": "ex133",
+      "type": "multiple_choice",
+      "question": "We have ___ the test. (pass는 규칙동사)",
+      "options": ["pass", "passed", "passing", "passes"],
+      "answer": "passed",
+      "explanation": "Pass → Passed → Passed (규칙 동사)"
+    },
+    {
+      "id": "ex134",
+      "type": "fill_blank",
+      "question": "I have ___ the problem. (solve는 규칙동사)",
+      "answer": ["solved"],
+      "explanation": "Solve → Solved → Solved (규칙 동사)"
+    },
+    {
+      "id": "ex135",
+      "type": "multiple_choice",
+      "question": "'She has become famous' - become의 과거분사는?",
+      "options": ["became", "become", "becoming", "becomed"],
+      "answer": "become",
+      "explanation": "Become → Became → Become (원형과 동일)"
+    },
+    {
+      "id": "ex136",
+      "type": "fill_blank",
+      "question": "Have you ___ the email? (receive는 규칙동사)",
+      "answer": ["received"],
+      "explanation": "Receive → Received → Received (규칙 동사)"
+    },
+    {
+      "id": "ex137",
+      "type": "matching",
+      "question": "Match the verb with its past participle:",
+      "options": ["cut", "put", "shut", "hit"],
+      "answer": ["cut", "put", "shut", "hit"],
+      "explanation": "형태가 변하지 않는 동사들입니다."
+    },
+    {
+      "id": "ex138",
+      "type": "multiple_choice",
+      "question": "I have ___ to Europe twice. (fly의 과거분사)",
+      "options": ["fly", "flew", "flown", "flying"],
+      "answer": "flown",
+      "explanation": "Fly → Flew → Flown"
+    },
+    {
+      "id": "ex139",
+      "type": "fill_blank",
+      "question": "She has ___ her room. (clean은 규칙동사)",
+      "answer": ["cleaned"],
+      "explanation": "Clean → Cleaned → Cleaned (규칙 동사)"
+    },
+    {
+      "id": "ex140",
+      "type": "multiple_choice",
+      "question": "'I have known him for years' 의 의미는?",
+      "options": ["나는 그를 몇 년 후에 알게 될 것이다", "나는 그를 수년간 알고 지냈다", "나는 그를 몇 년 전에 알았다", "나는 그를 알고 싶다"],
+      "answer": "나는 그를 수년간 알고 지냈다",
+      "explanation": "Have known + for years = 수년간 알고 지내다 (계속)"
+    },
+    {
+      "id": "ex141",
+      "type": "fill_blank",
+      "question": "They have ___ the building. (build의 과거분사)",
+      "answer": ["built"],
+      "explanation": "Build → Built → Built"
+    },
+    {
+      "id": "ex142",
+      "type": "multiple_choice",
+      "question": "I have ___ lunch. (eat의 과거분사)",
+      "options": ["eat", "ate", "eaten", "eating"],
+      "answer": "eaten",
+      "explanation": "Eat → Ate → Eaten"
+    },
+    {
+      "id": "ex143",
+      "type": "fill_blank",
+      "question": "She has ___ me a message. (send의 과거분사)",
+      "answer": ["sent"],
+      "explanation": "Send → Sent → Sent"
+    },
+    {
+      "id": "ex144",
+      "type": "matching",
+      "question": "Match the verb with its past participle:",
+      "options": ["teach", "catch", "buy", "bring"],
+      "answer": ["taught", "caught", "bought", "brought"],
+      "explanation": "-aught/-ought로 끝나는 과거분사들입니다."
+    },
+    {
+      "id": "ex145",
+      "type": "multiple_choice",
+      "question": "We have ___ a new house. (buy의 과거분사)",
+      "options": ["buy", "buyed", "bought", "buying"],
+      "answer": "bought",
+      "explanation": "Buy → Bought → Bought"
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "question": "I have ___ the movie twice. (watch는 규칙동사)",
+      "answer": ["watched"],
+      "explanation": "Watch → Watched → Watched (규칙 동사)"
+    },
+    {
+      "id": "ex147",
+      "type": "multiple_choice",
+      "question": "'Have you ever met a celebrity?' 의 의미는?",
+      "options": ["유명인을 만날 거야?", "유명인을 만난 적 있어?", "유명인을 만나고 싶어?", "유명인을 알아?"],
+      "answer": "유명인을 만난 적 있어?",
+      "explanation": "Have you ever met = ~을 만난 적 있나요? (경험)"
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "question": "He has ___ me a favor. (do의 과거분사)",
+      "answer": ["done"],
+      "explanation": "Do a favor = 부탁을 들어주다. Do → Did → Done"
+    },
+    {
+      "id": "ex149",
+      "type": "multiple_choice",
+      "question": "I have ___ this book before. (read의 과거분사)",
+      "options": ["read", "readed", "reading", "reads"],
+      "answer": "read",
+      "explanation": "Read → Read → Read (철자 동일, 발음: /red/)"
+    },
+    {
+      "id": "ex150",
+      "type": "matching",
+      "question": "Match the present perfect sentence with its use:",
+      "options": ["I have visited Paris.", "I have lived here for 5 years.", "I have just finished.", "I have never tried sushi."],
+      "answer": ["경험", "계속", "완료", "부정 경험"],
+      "explanation": "현재완료의 다양한 용법 (경험, 계속, 완료, 부정 경험)을 연결합니다."
     }
   ]
 }

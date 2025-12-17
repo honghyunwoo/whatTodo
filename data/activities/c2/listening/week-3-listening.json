@@ -1,0 +1,116 @@
+{
+  "id": "c2-listening-week-3",
+  "type": "listening",
+  "level": "C2",
+  "weekId": "week-3",
+  "title": "Literary Criticism and Cultural Commentary",
+  "description": "Understanding sophisticated cultural analysis and literary interpretation",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passages": [
+    {
+      "id": "c2-l3-p1",
+      "title": "The Death of the Author Reconsidered",
+      "context": "Literary theory lecture",
+      "transcript": "Barthes's proclamation of the death of the author, now over fifty years old, continues to provoke. His central claim—that the meaning of a text resides not in authorial intention but in the process of reading—has become something of a critical commonplace. And yet, the author refuses to die. Biographical criticism persists; readers remain fascinated by the lives behind the works; courts adjudicate authorial intent in copyright cases. Perhaps what Barthes accomplished was not so much the murder of the author as a productive estrangement—forcing us to see that our intuitive equation of meaning with intention is neither natural nor necessary. The author, we might say, has been demoted from origin to one voice among many.",
+      "audioDescription": "A literary scholar discusses Barthes's theory of authorship",
+      "questions": [
+        {
+          "id": "c2-l3-p1-q1",
+          "question": "According to the speaker, what is Barthes's central claim?",
+          "options": [
+            "Authors should not write about their own lives",
+            "Textual meaning arises from reading, not authorial intention",
+            "Literary criticism is impossible without biographical knowledge",
+            "Readers cannot understand texts without knowing the author"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Barthes claimed 'the meaning of a text resides not in authorial intention but in the process of reading'"
+        },
+        {
+          "id": "c2-l3-p1-q2",
+          "question": "What evidence does the speaker give that 'the author refuses to die'?",
+          "options": [
+            "Literary theory is no longer taught",
+            "Barthes's essay is now forgotten",
+            "Biographical criticism persists and courts consider authorial intent",
+            "Authors have become more famous than ever"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The speaker cites 'biographical criticism persists; readers remain fascinated by the lives behind the works; courts adjudicate authorial intent'"
+        },
+        {
+          "id": "c2-l3-p1-q3",
+          "question": "What does the speaker suggest Barthes actually accomplished?",
+          "options": [
+            "Completely eliminating the author from literary study",
+            "A productive estrangement that denaturalizes intention-meaning equivalence",
+            "Proving that authorial intention is always recoverable",
+            "Making biography the dominant mode of criticism"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Barthes achieved 'a productive estrangement—forcing us to see that our intuitive equation of meaning with intention is neither natural nor necessary'"
+        }
+      ]
+    },
+    {
+      "id": "c2-l3-p2",
+      "title": "Nostalgia and Cultural Memory",
+      "context": "Cultural studies seminar",
+      "transcript": "There's something paradoxical about nostalgia's contemporary prevalence. We live in a culture obsessed with innovation, with disruption, with the new—and yet we are simultaneously awash in retro aesthetics, reboots, and period dramas. Svetlana Boym distinguished between restorative nostalgia, which seeks to recreate the past, and reflective nostalgia, which dwells in longing itself. The former can be politically dangerous—think of nationalist movements promising to restore past glory. The latter, Boym suggests, has ethical potential: by acknowledging the irretrievability of the past, it opens space for mourning, for irony, for the recognition of our own historical situatedness. Contemporary nostalgia, I would argue, oscillates uneasily between these poles.",
+      "audioDescription": "A cultural theorist discusses the phenomenon of nostalgia",
+      "questions": [
+        {
+          "id": "c2-l3-p2-q1",
+          "question": "What paradox does the speaker identify?",
+          "options": [
+            "Young people are nostalgic while old people embrace change",
+            "Nostalgia is widespread despite cultural emphasis on innovation",
+            "Restorative nostalgia is more common than reflective nostalgia",
+            "Historical accuracy in period dramas has improved"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The paradox is that 'we live in a culture obsessed with innovation' yet are 'simultaneously awash in retro aesthetics, reboots, and period dramas'"
+        },
+        {
+          "id": "c2-l3-p2-q2",
+          "question": "According to Boym's distinction, what characterizes 'restorative nostalgia'?",
+          "options": [
+            "Acknowledging the irretrievability of the past",
+            "Opening space for mourning and irony",
+            "Seeking to recreate the past",
+            "Recognizing historical situatedness"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Restorative nostalgia 'seeks to recreate the past'"
+        },
+        {
+          "id": "c2-l3-p2-q3",
+          "question": "Why does the speaker suggest restorative nostalgia can be 'politically dangerous'?",
+          "options": [
+            "It is associated with nationalist movements promising to restore past glory",
+            "It prevents economic innovation",
+            "It makes people reject technology",
+            "It creates unrealistic expectations for the future"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The former 'can be politically dangerous—think of nationalist movements promising to restore past glory'"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "estrangement",
+      "definition": "The state of being made unfamiliar or distanced from something"
+    },
+    {
+      "term": "adjudicate",
+      "definition": "To make a formal judgment or decision about a disputed matter"
+    },
+    {
+      "term": "situatedness",
+      "definition": "The condition of being placed within a particular historical, cultural, or social context"
+    }
+  ]
+}

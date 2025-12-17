@@ -1,0 +1,129 @@
+{
+  "id": "c2-grammar-week-2",
+  "type": "grammar",
+  "level": "C2",
+  "weekId": "week-2",
+  "title": "Rhetorical Devices and Syntactic Variation",
+  "description": "Advanced rhetorical structures for persuasive and elegant prose",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c2-g2-s1",
+      "title": "Periodic vs. Loose Sentences",
+      "explanation": "A periodic sentence withholds its main clause until the end, building suspense. A loose sentence states its main point first, then adds qualifications.",
+      "examples": [
+        {
+          "type": "periodic",
+          "sentence": "Despite the mounting evidence, the relentless criticism, and the growing public outcry, the government maintained its position.",
+          "analysis": "Main clause ('the government maintained its position') is delayed, creating emphasis"
+        },
+        {
+          "type": "loose",
+          "sentence": "The government maintained its position, despite the mounting evidence, the relentless criticism, and the growing public outcry.",
+          "analysis": "Main clause comes first; additional elements trail after"
+        }
+      ],
+      "effect": "Periodic sentences create suspense and emphasis; loose sentences feel more conversational and natural"
+    },
+    {
+      "id": "c2-g2-s2",
+      "title": "Anaphora and Epistrophe",
+      "explanation": "Anaphora repeats words at the beginning of successive clauses; epistrophe repeats them at the end. Both create rhetorical emphasis.",
+      "examples": [
+        {
+          "type": "anaphora",
+          "sentence": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields.",
+          "analysis": "Repetition of 'we shall fight' at the beginning of each clause"
+        },
+        {
+          "type": "epistrophe",
+          "sentence": "When I was a child, I spoke as a child, I understood as a child, I thought as a child.",
+          "analysis": "Repetition of 'as a child' at the end of each clause"
+        }
+      ],
+      "effect": "Creates rhythm, emphasis, and memorability in formal and persuasive writing"
+    },
+    {
+      "id": "c2-g2-s3",
+      "title": "Chiasmus and Antimetabole",
+      "explanation": "Chiasmus reverses the grammatical structure of successive phrases; antimetabole reverses the words themselves.",
+      "examples": [
+        {
+          "type": "chiasmus",
+          "sentence": "By day the frolic, and the dance by night.",
+          "structure": "noun + by + time / by + time + noun"
+        },
+        {
+          "type": "antimetabole",
+          "sentence": "Ask not what your country can do for you; ask what you can do for your country.",
+          "structure": "The key words 'you' and 'country' are reversed"
+        }
+      ],
+      "effect": "Creates a sense of balance and invites reflection on contrasts"
+    },
+    {
+      "id": "c2-g2-s4",
+      "title": "Polysyndeton and Asyndeton",
+      "explanation": "Polysyndeton uses multiple conjunctions; asyndeton omits them entirely.",
+      "examples": [
+        {
+          "type": "polysyndeton",
+          "sentence": "He ran and jumped and laughed and shouted.",
+          "effect": "Slows pace; emphasizes each element; creates a sense of abundance"
+        },
+        {
+          "type": "asyndeton",
+          "sentence": "He ran, jumped, laughed, shouted.",
+          "effect": "Quickens pace; creates urgency; emphasizes rapidity"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-g2-ex1",
+      "type": "identification",
+      "instruction": "Identify the rhetorical device used",
+      "sentence": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+      "options": ["Anaphora", "Epistrophe", "Chiasmus", "Antimetabole"],
+      "correctAnswer": 0,
+      "explanation": "'And the Word' is repeated at the beginning of successive clauses (anaphora)"
+    },
+    {
+      "id": "c2-g2-ex2",
+      "type": "transformation",
+      "instruction": "Convert this loose sentence into a periodic sentence",
+      "sentence": "The proposal was rejected, after months of negotiation, despite broad public support, and notwithstanding significant financial backing.",
+      "answer": "After months of negotiation, despite broad public support, and notwithstanding significant financial backing, the proposal was rejected.",
+      "explanation": "Move the main clause to the end to create suspense"
+    },
+    {
+      "id": "c2-g2-ex3",
+      "type": "creation",
+      "instruction": "Create an antimetabole based on the relationship between 'learn' and 'live'",
+      "examples": ["Live to learn, and learn to live.", "Do not learn to live; live to learn."],
+      "note": "Antimetabole creates memorable, quotable phrases"
+    },
+    {
+      "id": "c2-g2-ex4",
+      "type": "analysis",
+      "instruction": "Analyze the effect of asyndeton in this passage",
+      "sentence": "I came, I saw, I conquered.",
+      "analysis": "The absence of conjunctions creates a sense of rapid, decisive action. Each verb stands starkly alone, emphasizing the completeness and speed of each action. The brevity mirrors the swiftness of the conquest."
+    },
+    {
+      "id": "c2-g2-ex5",
+      "type": "multiple-choice",
+      "question": "Which sentence demonstrates chiasmus?",
+      "options": [
+        "The rich get richer and the poor get poorer.",
+        "Fair is foul, and foul is fair.",
+        "To be or not to be.",
+        "All for one and one for all."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Fair is foul, and foul is fair' reverses the syntactic structure (adjective-verb-adjective becomes adjective-verb-adjective with reversed words)"
+    }
+  ]
+}

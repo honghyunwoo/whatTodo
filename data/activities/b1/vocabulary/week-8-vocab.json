@@ -256,6 +256,256 @@
       "translation": "비전",
       "example": "She has a clear vision for her future.",
       "exampleTranslation": "그녀는 미래에 대한 명확한 비전이 있어요."
+    },
+    {
+      "id": "w26",
+      "word": "persevere",
+      "pronunciation": "/ˌpɜːsɪˈvɪə/",
+      "partOfSpeech": "verb",
+      "meaning": "to continue despite difficulties",
+      "translation": "인내하다, 견디다",
+      "example": "You must persevere if you want to succeed.",
+      "exampleTranslation": "성공하고 싶다면 인내해야 해요."
+    },
+    {
+      "id": "w27",
+      "word": "dedication",
+      "pronunciation": "/ˌdedɪˈkeɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "the quality of being committed to a task",
+      "translation": "헌신",
+      "example": "His dedication to his work is admirable.",
+      "exampleTranslation": "일에 대한 그의 헌신은 훌륭해요."
+    },
+    {
+      "id": "w28",
+      "word": "strive",
+      "pronunciation": "/straɪv/",
+      "partOfSpeech": "verb",
+      "meaning": "to try very hard to achieve something",
+      "translation": "노력하다, 애쓰다",
+      "example": "We should strive for excellence in everything we do.",
+      "exampleTranslation": "우리가 하는 모든 일에서 탁월함을 위해 노력해야 해요."
+    },
+    {
+      "id": "w29",
+      "word": "endeavor",
+      "pronunciation": "/ɪnˈdevə/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "an attempt to achieve a goal",
+      "translation": "노력, 시도; 노력하다",
+      "example": "This is a worthwhile endeavor.",
+      "exampleTranslation": "이것은 가치 있는 노력이에요."
+    },
+    {
+      "id": "w30",
+      "word": "challenge",
+      "pronunciation": "/ˈtʃælɪndʒ/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "a difficult task or problem",
+      "translation": "도전; 도전하다",
+      "example": "Learning a new language is a big challenge.",
+      "exampleTranslation": "새로운 언어를 배우는 것은 큰 도전이에요."
+    },
+    {
+      "id": "w31",
+      "word": "overcome",
+      "pronunciation": "/ˌəʊvəˈkʌm/",
+      "partOfSpeech": "verb",
+      "meaning": "to succeed in dealing with a problem",
+      "translation": "극복하다",
+      "example": "She overcame many obstacles to get where she is today.",
+      "exampleTranslation": "그녀는 오늘날의 위치에 도달하기 위해 많은 장애물을 극복했어요."
+    },
+    {
+      "id": "w32",
+      "word": "struggle",
+      "pronunciation": "/ˈstrʌɡl/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to have difficulty doing something",
+      "translation": "고군분투하다; 투쟁",
+      "example": "Many people struggle to balance work and family.",
+      "exampleTranslation": "많은 사람들이 일과 가족의 균형을 맞추는 데 애를 먹어요."
+    },
+    {
+      "id": "w33",
+      "word": "commitment",
+      "pronunciation": "/kəˈmɪtmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "a promise or firm decision to do something",
+      "translation": "헌신, 약속",
+      "example": "Success requires commitment and hard work.",
+      "exampleTranslation": "성공은 헌신과 노력을 필요로 해요."
+    },
+    {
+      "id": "w34",
+      "word": "persistence",
+      "pronunciation": "/pəˈsɪstəns/",
+      "partOfSpeech": "noun",
+      "meaning": "continuing despite difficulty",
+      "translation": "끈기",
+      "example": "Persistence is key to achieving your goals.",
+      "exampleTranslation": "끈기는 목표 달성의 핵심이에요."
+    },
+    {
+      "id": "w35",
+      "word": "resilience",
+      "pronunciation": "/rɪˈzɪliəns/",
+      "partOfSpeech": "noun",
+      "meaning": "the ability to recover from difficulties",
+      "translation": "회복력",
+      "example": "Building resilience helps you cope with challenges.",
+      "exampleTranslation": "회복력을 기르면 도전에 대처하는 데 도움이 돼요."
+    },
+    {
+      "id": "w36",
+      "word": "fantasy",
+      "pronunciation": "/ˈfæntəsi/",
+      "partOfSpeech": "noun",
+      "meaning": "an imagined situation",
+      "translation": "환상",
+      "example": "It's nice to have fantasies, but you need realistic goals too.",
+      "exampleTranslation": "환상을 갖는 것도 좋지만 현실적인 목표도 필요해요."
+    },
+    {
+      "id": "w37",
+      "word": "imagination",
+      "pronunciation": "/ɪˌmædʒɪˈneɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "the ability to form mental images",
+      "translation": "상상력",
+      "example": "Children have amazing imagination.",
+      "exampleTranslation": "아이들은 놀라운 상상력을 가지고 있어요."
+    },
+    {
+      "id": "w38",
+      "word": "ideal",
+      "pronunciation": "/aɪˈdɪəl/",
+      "partOfSpeech": "adjective/noun",
+      "meaning": "perfect or most suitable",
+      "translation": "이상적인; 이상",
+      "example": "This is the ideal job for me.",
+      "exampleTranslation": "이것이 저에게 이상적인 일이에요."
+    },
+    {
+      "id": "w39",
+      "word": "desire",
+      "pronunciation": "/dɪˈzaɪə/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "a strong wish for something",
+      "translation": "욕망, 욕구; 원하다",
+      "example": "She has a strong desire to help others.",
+      "exampleTranslation": "그녀는 다른 사람들을 돕고자 하는 강한 욕구가 있어요."
+    },
+    {
+      "id": "w40",
+      "word": "longing",
+      "pronunciation": "/ˈlɒŋɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "a strong wish for something",
+      "translation": "갈망",
+      "example": "He felt a longing for his hometown.",
+      "exampleTranslation": "그는 고향에 대한 갈망을 느꼈어요."
+    },
+    {
+      "id": "w41",
+      "word": "aim",
+      "pronunciation": "/eɪm/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "a purpose or goal",
+      "translation": "목표; 목표로 하다",
+      "example": "My aim is to improve my English this year.",
+      "exampleTranslation": "올해 제 목표는 영어 실력을 향상시키는 거예요."
+    },
+    {
+      "id": "w42",
+      "word": "target",
+      "pronunciation": "/ˈtɑːɡɪt/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "a goal or objective",
+      "translation": "목표, 표적",
+      "example": "We need to set clear targets for the project.",
+      "exampleTranslation": "프로젝트를 위한 명확한 목표를 세워야 해요."
+    },
+    {
+      "id": "w43",
+      "word": "progress",
+      "pronunciation": "/ˈprəʊɡres/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "forward movement toward a goal",
+      "translation": "진전, 발전; 진전하다",
+      "example": "You're making good progress with your studies.",
+      "exampleTranslation": "공부에서 좋은 진전을 보이고 있어요."
+    },
+    {
+      "id": "w44",
+      "word": "advance",
+      "pronunciation": "/ədˈvɑːns/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to move forward or make progress",
+      "translation": "전진하다, 발전하다; 진전",
+      "example": "Technology continues to advance rapidly.",
+      "exampleTranslation": "기술은 계속해서 빠르게 발전하고 있어요."
+    },
+    {
+      "id": "w45",
+      "word": "objective",
+      "pronunciation": "/əbˈdʒektɪv/",
+      "partOfSpeech": "noun",
+      "meaning": "something you are trying to achieve",
+      "translation": "목표, 목적",
+      "example": "Our main objective is to increase sales.",
+      "exampleTranslation": "우리의 주요 목표는 판매를 늘리는 것이에요."
+    },
+    {
+      "id": "w46",
+      "word": "failure",
+      "pronunciation": "/ˈfeɪljə/",
+      "partOfSpeech": "noun",
+      "meaning": "lack of success",
+      "translation": "실패",
+      "example": "Don't be afraid of failure; it's part of learning.",
+      "exampleTranslation": "실패를 두려워하지 마세요; 그것은 배움의 일부예요."
+    },
+    {
+      "id": "w47",
+      "word": "victory",
+      "pronunciation": "/ˈvɪktəri/",
+      "partOfSpeech": "noun",
+      "meaning": "success in a competition or battle",
+      "translation": "승리",
+      "example": "The team celebrated their victory.",
+      "exampleTranslation": "팀은 승리를 축하했어요."
+    },
+    {
+      "id": "w48",
+      "word": "conquer",
+      "pronunciation": "/ˈkɒŋkə/",
+      "partOfSpeech": "verb",
+      "meaning": "to overcome or defeat",
+      "translation": "정복하다, 극복하다",
+      "example": "She conquered her fear of public speaking.",
+      "exampleTranslation": "그녀는 대중 연설에 대한 두려움을 극복했어요."
+    },
+    {
+      "id": "w49",
+      "word": "aspire",
+      "pronunciation": "/əˈspaɪə/",
+      "partOfSpeech": "verb",
+      "meaning": "to have a strong desire to achieve something",
+      "translation": "열망하다",
+      "example": "Many young people aspire to become famous.",
+      "exampleTranslation": "많은 젊은이들이 유명해지기를 열망해요."
+    },
+    {
+      "id": "w50",
+      "word": "hope",
+      "pronunciation": "/həʊp/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "a feeling that something desired will happen",
+      "translation": "희망; 희망하다",
+      "example": "Never lose hope, even in difficult times.",
+      "exampleTranslation": "어려운 시기에도 절대 희망을 잃지 마세요."
     }
   ],
 
@@ -328,6 +578,965 @@
       "question": "Don't let _____ discourage you from pursuing your dreams.",
       "options": ["visions", "priorities", "setbacks", "opportunities"],
       "answer": "setbacks"
+    },
+    {
+      "id": "ex11",
+      "type": "translation_ko_en",
+      "question": "그녀는 미래에 대한 명확한 비전이 있어요.",
+      "answer": "She has a clear vision for her future."
+    },
+    {
+      "id": "ex12",
+      "type": "translation_en_ko",
+      "question": "Sometimes you have to take risks to succeed.",
+      "answer": "때때로 성공하려면 위험을 감수해야 해요."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "You must _____ if you want to succeed.",
+      "options": ["persevere", "sacrifice", "regret", "risk"],
+      "answer": "persevere"
+    },
+    {
+      "id": "ex14",
+      "type": "fill_blank",
+      "question": "His _____ to his work is admirable.",
+      "answer": "dedication"
+    },
+    {
+      "id": "ex15",
+      "type": "matching",
+      "pairs": [
+        {"word": "strive", "match": "to try very hard"},
+        {"word": "challenge", "match": "a difficult task"},
+        {"word": "overcome", "match": "to defeat a problem"},
+        {"word": "persevere", "match": "to continue despite difficulties"}
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "translation_ko_en",
+      "question": "일에 대한 그의 헌신은 훌륭해요.",
+      "answer": "His dedication to his work is admirable."
+    },
+    {
+      "id": "ex17",
+      "type": "translation_en_ko",
+      "question": "We should strive for excellence in everything we do.",
+      "answer": "우리가 하는 모든 일에서 탁월함을 위해 노력해야 해요."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "This is a worthwhile _____.",
+      "options": ["endeavor", "setback", "regret", "sacrifice"],
+      "answer": "endeavor"
+    },
+    {
+      "id": "ex19",
+      "type": "fill_blank",
+      "question": "Learning a new language is a big _____.",
+      "answer": "challenge"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "She _____ many obstacles to get where she is today.",
+      "options": ["inspired", "overcame", "regretted", "pursued"],
+      "answer": "overcame"
+    },
+    {
+      "id": "ex21",
+      "type": "fill_blank",
+      "question": "Many people _____ to balance work and family.",
+      "answer": "struggle"
+    },
+    {
+      "id": "ex22",
+      "type": "matching",
+      "pairs": [
+        {"word": "commitment", "match": "a promise to do something"},
+        {"word": "persistence", "match": "continuing despite difficulty"},
+        {"word": "resilience", "match": "ability to recover"},
+        {"word": "dedication", "match": "being committed to a task"}
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "translation_ko_en",
+      "question": "성공은 헌신과 노력을 필요로 해요.",
+      "answer": "Success requires commitment and hard work."
+    },
+    {
+      "id": "ex24",
+      "type": "translation_en_ko",
+      "question": "Persistence is key to achieving your goals.",
+      "answer": "끈기는 목표 달성의 핵심이에요."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "Building _____ helps you cope with challenges.",
+      "options": ["fantasy", "resilience", "imagination", "longing"],
+      "answer": "resilience"
+    },
+    {
+      "id": "ex26",
+      "type": "fill_blank",
+      "question": "It's nice to have fantasies, but you need _____ goals too.",
+      "answer": "realistic"
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "Children have amazing _____.",
+      "options": ["imagination", "sacrifice", "regret", "risk"],
+      "answer": "imagination"
+    },
+    {
+      "id": "ex28",
+      "type": "fill_blank",
+      "question": "This is the _____ job for me.",
+      "answer": "ideal"
+    },
+    {
+      "id": "ex29",
+      "type": "matching",
+      "pairs": [
+        {"word": "fantasy", "match": "an imagined situation"},
+        {"word": "imagination", "match": "ability to form mental images"},
+        {"word": "ideal", "match": "perfect or most suitable"},
+        {"word": "desire", "match": "a strong wish"}
+      ]
+    },
+    {
+      "id": "ex30",
+      "type": "translation_ko_en",
+      "question": "아이들은 놀라운 상상력을 가지고 있어요.",
+      "answer": "Children have amazing imagination."
+    },
+    {
+      "id": "ex31",
+      "type": "translation_en_ko",
+      "question": "She has a strong desire to help others.",
+      "answer": "그녀는 다른 사람들을 돕고자 하는 강한 욕구가 있어요."
+    },
+    {
+      "id": "ex32",
+      "type": "multiple_choice",
+      "question": "He felt a _____ for his hometown.",
+      "options": ["longing", "setback", "sacrifice", "risk"],
+      "answer": "longing"
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "question": "My _____ is to improve my English this year.",
+      "answer": "aim"
+    },
+    {
+      "id": "ex34",
+      "type": "multiple_choice",
+      "question": "We need to set clear _____ for the project.",
+      "options": ["targets", "fantasies", "longings", "regrets"],
+      "answer": "targets"
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "You're making good _____ with your studies.",
+      "answer": "progress"
+    },
+    {
+      "id": "ex36",
+      "type": "matching",
+      "pairs": [
+        {"word": "aim", "match": "a purpose or goal"},
+        {"word": "target", "match": "a goal or objective"},
+        {"word": "progress", "match": "forward movement"},
+        {"word": "advance", "match": "to move forward"}
+      ]
+    },
+    {
+      "id": "ex37",
+      "type": "translation_ko_en",
+      "question": "올해 제 목표는 영어 실력을 향상시키는 거예요.",
+      "answer": "My aim is to improve my English this year."
+    },
+    {
+      "id": "ex38",
+      "type": "translation_en_ko",
+      "question": "Technology continues to advance rapidly.",
+      "answer": "기술은 계속해서 빠르게 발전하고 있어요."
+    },
+    {
+      "id": "ex39",
+      "type": "multiple_choice",
+      "question": "Our main _____ is to increase sales.",
+      "options": ["objective", "fantasy", "longing", "regret"],
+      "answer": "objective"
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "Don't be afraid of _____; it's part of learning.",
+      "answer": "failure"
+    },
+    {
+      "id": "ex41",
+      "type": "multiple_choice",
+      "question": "The team celebrated their _____.",
+      "options": ["victory", "failure", "setback", "sacrifice"],
+      "answer": "victory"
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "She _____ her fear of public speaking.",
+      "answer": "conquered"
+    },
+    {
+      "id": "ex43",
+      "type": "matching",
+      "pairs": [
+        {"word": "failure", "match": "lack of success"},
+        {"word": "victory", "match": "success in competition"},
+        {"word": "conquer", "match": "to overcome or defeat"},
+        {"word": "aspire", "match": "to have a strong desire"}
+      ]
+    },
+    {
+      "id": "ex44",
+      "type": "translation_ko_en",
+      "question": "팀은 승리를 축하했어요.",
+      "answer": "The team celebrated their victory."
+    },
+    {
+      "id": "ex45",
+      "type": "translation_en_ko",
+      "question": "Many young people aspire to become famous.",
+      "answer": "많은 젊은이들이 유명해지기를 열망해요."
+    },
+    {
+      "id": "ex46",
+      "type": "multiple_choice",
+      "question": "Never lose _____, even in difficult times.",
+      "options": ["hope", "failure", "setback", "sacrifice"],
+      "answer": "hope"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "If I were _____, I would travel the world.",
+      "answer": "wealthy"
+    },
+    {
+      "id": "ex48",
+      "type": "multiple_choice",
+      "question": "I feel _____ to have such supportive friends.",
+      "options": ["fortunate", "imaginary", "hypothetical", "wealthy"],
+      "answer": "fortunate"
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "Health should be your top _____.",
+      "answer": "priority"
+    },
+    {
+      "id": "ex50",
+      "type": "matching",
+      "pairs": [
+        {"word": "wealthy", "match": "having a lot of money"},
+        {"word": "fortunate", "match": "lucky"},
+        {"word": "priority", "match": "something more important"},
+        {"word": "hope", "match": "a feeling something will happen"}
+      ]
+    },
+    {
+      "id": "ex51",
+      "type": "translation_ko_en",
+      "question": "건강이 최우선이 되어야 해요.",
+      "answer": "Health should be your top priority."
+    },
+    {
+      "id": "ex52",
+      "type": "translation_en_ko",
+      "question": "Never lose hope, even in difficult times.",
+      "answer": "어려운 시기에도 절대 희망을 잃지 마세요."
+    },
+    {
+      "id": "ex53",
+      "type": "multiple_choice",
+      "question": "Let's discuss a _____ situation.",
+      "options": ["hypothetical", "wealthy", "fortunate", "motivated"],
+      "answer": "hypothetical"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "Children often have _____ friends.",
+      "answer": "imaginary"
+    },
+    {
+      "id": "ex55",
+      "type": "multiple_choice",
+      "question": "This job is a great _____ for growth.",
+      "options": ["opportunity", "setback", "sacrifice", "regret"],
+      "answer": "opportunity"
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "I want to _____ my potential.",
+      "answer": "fulfill"
+    },
+    {
+      "id": "ex57",
+      "type": "matching",
+      "pairs": [
+        {"word": "opportunity", "match": "a chance to do something"},
+        {"word": "potential", "match": "ability to develop"},
+        {"word": "motivated", "match": "having a strong reason"},
+        {"word": "passionate", "match": "having strong enthusiasm"}
+      ]
+    },
+    {
+      "id": "ex58",
+      "type": "translation_ko_en",
+      "question": "이 일은 성장을 위한 좋은 기회예요.",
+      "answer": "This job is a great opportunity for growth."
+    },
+    {
+      "id": "ex59",
+      "type": "translation_en_ko",
+      "question": "I feel more motivated when I have clear goals.",
+      "answer": "명확한 목표가 있으면 더 동기 부여가 돼요."
+    },
+    {
+      "id": "ex60",
+      "type": "multiple_choice",
+      "question": "Her story _____ me to start my own business.",
+      "options": ["inspired", "regretted", "sacrificed", "risked"],
+      "answer": "inspired"
+    },
+    {
+      "id": "ex61",
+      "type": "fill_blank",
+      "question": "She _____ her dream of becoming a pilot.",
+      "answer": "achieved"
+    },
+    {
+      "id": "ex62",
+      "type": "multiple_choice",
+      "question": "Many students have _____ of studying abroad.",
+      "options": ["aspirations", "setbacks", "sacrifices", "regrets"],
+      "answer": "aspirations"
+    },
+    {
+      "id": "ex63",
+      "type": "fill_blank",
+      "question": "She _____ all her goals before turning 30.",
+      "answer": "accomplished"
+    },
+    {
+      "id": "ex64",
+      "type": "matching",
+      "pairs": [
+        {"word": "achieve", "match": "to succeed in reaching"},
+        {"word": "accomplish", "match": "to succeed in doing"},
+        {"word": "aspiration", "match": "a hope or dream"},
+        {"word": "ambition", "match": "a strong desire"}
+      ]
+    },
+    {
+      "id": "ex65",
+      "type": "translation_ko_en",
+      "question": "그녀는 조종사가 되겠다는 꿈을 이뤘어요.",
+      "answer": "She achieved her dream of becoming a pilot."
+    },
+    {
+      "id": "ex66",
+      "type": "translation_en_ko",
+      "question": "Many students have aspirations of studying abroad.",
+      "answer": "많은 학생들이 해외 유학에 대한 열망이 있어요."
+    },
+    {
+      "id": "ex67",
+      "type": "multiple_choice",
+      "question": "It takes _____ to follow your dreams.",
+      "options": ["courage", "setback", "sacrifice", "regret"],
+      "answer": "courage"
+    },
+    {
+      "id": "ex68",
+      "type": "fill_blank",
+      "question": "With _____, you can achieve anything.",
+      "answer": "determination"
+    },
+    {
+      "id": "ex69",
+      "type": "multiple_choice",
+      "question": "Her _____ for music started when she was young.",
+      "options": ["passion", "setback", "sacrifice", "regret"],
+      "answer": "passion"
+    },
+    {
+      "id": "ex70",
+      "type": "fill_blank",
+      "question": "Don't let _____ stop you from pursuing your dreams.",
+      "answer": "obstacles"
+    },
+    {
+      "id": "ex71",
+      "type": "matching",
+      "pairs": [
+        {"word": "courage", "match": "ability to face difficulty"},
+        {"word": "passion", "match": "strong enthusiasm"},
+        {"word": "determination", "match": "continuing despite difficulties"},
+        {"word": "obstacle", "match": "something that blocks"}
+      ]
+    },
+    {
+      "id": "ex72",
+      "type": "translation_ko_en",
+      "question": "꿈을 따르려면 용기가 필요해요.",
+      "answer": "It takes courage to follow your dreams."
+    },
+    {
+      "id": "ex73",
+      "type": "translation_en_ko",
+      "question": "Her passion for music started when she was young.",
+      "answer": "음악에 대한 그녀의 열정은 어렸을 때 시작되었어요."
+    },
+    {
+      "id": "ex74",
+      "type": "multiple_choice",
+      "question": "Success often requires _____.",
+      "options": ["sacrifice", "regret", "setback", "fantasy"],
+      "answer": "sacrifice"
+    },
+    {
+      "id": "ex75",
+      "type": "fill_blank",
+      "question": "I don't want to _____ not trying.",
+      "answer": "regret"
+    },
+    {
+      "id": "ex76",
+      "type": "multiple_choice",
+      "question": "Sometimes you have to take _____ to succeed.",
+      "options": ["risks", "regrets", "setbacks", "sacrifices"],
+      "answer": "risks"
+    },
+    {
+      "id": "ex77",
+      "type": "fill_blank",
+      "question": "He decided to _____ his dream of being a musician.",
+      "answer": "pursue"
+    },
+    {
+      "id": "ex78",
+      "type": "matching",
+      "pairs": [
+        {"word": "sacrifice", "match": "to give up something"},
+        {"word": "regret", "match": "to feel sorry about"},
+        {"word": "risk", "match": "possibility of bad happening"},
+        {"word": "pursue", "match": "to try to achieve"}
+      ]
+    },
+    {
+      "id": "ex79",
+      "type": "translation_ko_en",
+      "question": "성공은 종종 희생을 필요로 해요.",
+      "answer": "Success often requires sacrifice."
+    },
+    {
+      "id": "ex80",
+      "type": "translation_en_ko",
+      "question": "I don't want to regret not trying.",
+      "answer": "시도하지 않은 것을 후회하고 싶지 않아요."
+    },
+    {
+      "id": "ex81",
+      "type": "multiple_choice",
+      "question": "We should _____ for excellence in everything we do.",
+      "options": ["strive", "regret", "sacrifice", "risk"],
+      "answer": "strive"
+    },
+    {
+      "id": "ex82",
+      "type": "fill_blank",
+      "question": "She _____ many obstacles to get where she is today.",
+      "answer": "overcame"
+    },
+    {
+      "id": "ex83",
+      "type": "multiple_choice",
+      "question": "Many people _____ to balance work and family.",
+      "options": ["struggle", "inspire", "achieve", "fulfill"],
+      "answer": "struggle"
+    },
+    {
+      "id": "ex84",
+      "type": "fill_blank",
+      "question": "_____ is key to achieving your goals.",
+      "answer": "Persistence"
+    },
+    {
+      "id": "ex85",
+      "type": "matching",
+      "pairs": [
+        {"word": "strive", "match": "to try very hard"},
+        {"word": "overcome", "match": "to defeat a problem"},
+        {"word": "struggle", "match": "to have difficulty"},
+        {"word": "persistence", "match": "continuing despite difficulty"}
+      ]
+    },
+    {
+      "id": "ex86",
+      "type": "translation_ko_en",
+      "question": "우리가 하는 모든 일에서 탁월함을 위해 노력해야 해요.",
+      "answer": "We should strive for excellence in everything we do."
+    },
+    {
+      "id": "ex87",
+      "type": "translation_en_ko",
+      "question": "She overcame many obstacles to get where she is today.",
+      "answer": "그녀는 오늘날의 위치에 도달하기 위해 많은 장애물을 극복했어요."
+    },
+    {
+      "id": "ex88",
+      "type": "multiple_choice",
+      "question": "Building _____ helps you cope with challenges.",
+      "options": ["resilience", "fantasy", "longing", "regret"],
+      "answer": "resilience"
+    },
+    {
+      "id": "ex89",
+      "type": "fill_blank",
+      "question": "Success requires _____ and hard work.",
+      "answer": "commitment"
+    },
+    {
+      "id": "ex90",
+      "type": "multiple_choice",
+      "question": "This is a worthwhile _____.",
+      "options": ["endeavor", "setback", "regret", "fantasy"],
+      "answer": "endeavor"
+    },
+    {
+      "id": "ex91",
+      "type": "fill_blank",
+      "question": "His _____ to his work is admirable.",
+      "answer": "dedication"
+    },
+    {
+      "id": "ex92",
+      "type": "matching",
+      "pairs": [
+        {"word": "resilience", "match": "ability to recover"},
+        {"word": "commitment", "match": "a promise to do something"},
+        {"word": "endeavor", "match": "an attempt to achieve"},
+        {"word": "dedication", "match": "being committed to a task"}
+      ]
+    },
+    {
+      "id": "ex93",
+      "type": "translation_ko_en",
+      "question": "회복력을 기르면 도전에 대처하는 데 도움이 돼요.",
+      "answer": "Building resilience helps you cope with challenges."
+    },
+    {
+      "id": "ex94",
+      "type": "translation_en_ko",
+      "question": "Success requires commitment and hard work.",
+      "answer": "성공은 헌신과 노력을 필요로 해요."
+    },
+    {
+      "id": "ex95",
+      "type": "multiple_choice",
+      "question": "Children have amazing _____.",
+      "options": ["imagination", "sacrifice", "regret", "risk"],
+      "answer": "imagination"
+    },
+    {
+      "id": "ex96",
+      "type": "fill_blank",
+      "question": "It's nice to have fantasies, but you need realistic _____ too.",
+      "answer": "goals"
+    },
+    {
+      "id": "ex97",
+      "type": "multiple_choice",
+      "question": "This is the _____ job for me.",
+      "options": ["ideal", "imaginary", "hypothetical", "fortunate"],
+      "answer": "ideal"
+    },
+    {
+      "id": "ex98",
+      "type": "fill_blank",
+      "question": "She has a strong _____ to help others.",
+      "answer": "desire"
+    },
+    {
+      "id": "ex99",
+      "type": "matching",
+      "pairs": [
+        {"word": "imagination", "match": "ability to form mental images"},
+        {"word": "fantasy", "match": "an imagined situation"},
+        {"word": "ideal", "match": "perfect or most suitable"},
+        {"word": "desire", "match": "a strong wish"}
+      ]
+    },
+    {
+      "id": "ex100",
+      "type": "translation_ko_en",
+      "question": "아이들은 놀라운 상상력을 가지고 있어요.",
+      "answer": "Children have amazing imagination."
+    },
+    {
+      "id": "ex101",
+      "type": "translation_en_ko",
+      "question": "This is the ideal job for me.",
+      "answer": "이것이 저에게 이상적인 일이에요."
+    },
+    {
+      "id": "ex102",
+      "type": "multiple_choice",
+      "question": "He felt a _____ for his hometown.",
+      "options": ["longing", "setback", "sacrifice", "risk"],
+      "answer": "longing"
+    },
+    {
+      "id": "ex103",
+      "type": "fill_blank",
+      "question": "My _____ is to improve my English this year.",
+      "answer": "aim"
+    },
+    {
+      "id": "ex104",
+      "type": "multiple_choice",
+      "question": "We need to set clear _____ for the project.",
+      "options": ["targets", "fantasies", "longings", "regrets"],
+      "answer": "targets"
+    },
+    {
+      "id": "ex105",
+      "type": "fill_blank",
+      "question": "You're making good _____ with your studies.",
+      "answer": "progress"
+    },
+    {
+      "id": "ex106",
+      "type": "matching",
+      "pairs": [
+        {"word": "longing", "match": "a strong wish for something"},
+        {"word": "aim", "match": "a purpose or goal"},
+        {"word": "target", "match": "a goal or objective"},
+        {"word": "progress", "match": "forward movement"}
+      ]
+    },
+    {
+      "id": "ex107",
+      "type": "translation_ko_en",
+      "question": "그는 고향에 대한 갈망을 느꼈어요.",
+      "answer": "He felt a longing for his hometown."
+    },
+    {
+      "id": "ex108",
+      "type": "translation_en_ko",
+      "question": "You're making good progress with your studies.",
+      "answer": "공부에서 좋은 진전을 보이고 있어요."
+    },
+    {
+      "id": "ex109",
+      "type": "multiple_choice",
+      "question": "Technology continues to _____ rapidly.",
+      "options": ["advance", "regret", "sacrifice", "struggle"],
+      "answer": "advance"
+    },
+    {
+      "id": "ex110",
+      "type": "fill_blank",
+      "question": "Our main _____ is to increase sales.",
+      "answer": "objective"
+    },
+    {
+      "id": "ex111",
+      "type": "multiple_choice",
+      "question": "Don't be afraid of _____; it's part of learning.",
+      "options": ["failure", "victory", "success", "achievement"],
+      "answer": "failure"
+    },
+    {
+      "id": "ex112",
+      "type": "fill_blank",
+      "question": "The team celebrated their _____.",
+      "answer": "victory"
+    },
+    {
+      "id": "ex113",
+      "type": "matching",
+      "pairs": [
+        {"word": "advance", "match": "to move forward"},
+        {"word": "objective", "match": "something you're trying to achieve"},
+        {"word": "failure", "match": "lack of success"},
+        {"word": "victory", "match": "success in competition"}
+      ]
+    },
+    {
+      "id": "ex114",
+      "type": "translation_ko_en",
+      "question": "기술은 계속해서 빠르게 발전하고 있어요.",
+      "answer": "Technology continues to advance rapidly."
+    },
+    {
+      "id": "ex115",
+      "type": "translation_en_ko",
+      "question": "Don't be afraid of failure; it's part of learning.",
+      "answer": "실패를 두려워하지 마세요; 그것은 배움의 일부예요."
+    },
+    {
+      "id": "ex116",
+      "type": "multiple_choice",
+      "question": "She _____ her fear of public speaking.",
+      "options": ["conquered", "regretted", "sacrificed", "risked"],
+      "answer": "conquered"
+    },
+    {
+      "id": "ex117",
+      "type": "fill_blank",
+      "question": "Many young people _____ to become famous.",
+      "answer": "aspire"
+    },
+    {
+      "id": "ex118",
+      "type": "multiple_choice",
+      "question": "Never lose _____, even in difficult times.",
+      "options": ["hope", "failure", "setback", "sacrifice"],
+      "answer": "hope"
+    },
+    {
+      "id": "ex119",
+      "type": "fill_blank",
+      "question": "You must _____ if you want to succeed.",
+      "answer": "persevere"
+    },
+    {
+      "id": "ex120",
+      "type": "matching",
+      "pairs": [
+        {"word": "conquer", "match": "to overcome or defeat"},
+        {"word": "aspire", "match": "to have a strong desire"},
+        {"word": "hope", "match": "a feeling something will happen"},
+        {"word": "persevere", "match": "to continue despite difficulties"}
+      ]
+    },
+    {
+      "id": "ex121",
+      "type": "translation_ko_en",
+      "question": "그녀는 대중 연설에 대한 두려움을 극복했어요.",
+      "answer": "She conquered her fear of public speaking."
+    },
+    {
+      "id": "ex122",
+      "type": "translation_en_ko",
+      "question": "Never lose hope, even in difficult times.",
+      "answer": "어려운 시기에도 절대 희망을 잃지 마세요."
+    },
+    {
+      "id": "ex123",
+      "type": "multiple_choice",
+      "question": "If I were _____, I would travel the world.",
+      "options": ["wealthy", "imaginary", "hypothetical", "motivated"],
+      "answer": "wealthy"
+    },
+    {
+      "id": "ex124",
+      "type": "fill_blank",
+      "question": "I feel _____ to have such supportive friends.",
+      "answer": "fortunate"
+    },
+    {
+      "id": "ex125",
+      "type": "multiple_choice",
+      "question": "Health should be your top _____.",
+      "options": ["priority", "fantasy", "longing", "regret"],
+      "answer": "priority"
+    },
+    {
+      "id": "ex126",
+      "type": "fill_blank",
+      "question": "Don't let _____ discourage you.",
+      "answer": "setbacks"
+    },
+    {
+      "id": "ex127",
+      "type": "matching",
+      "pairs": [
+        {"word": "wealthy", "match": "having a lot of money"},
+        {"word": "fortunate", "match": "lucky"},
+        {"word": "priority", "match": "something more important"},
+        {"word": "setback", "match": "a problem that delays"}
+      ]
+    },
+    {
+      "id": "ex128",
+      "type": "translation_ko_en",
+      "question": "부유하다면 세계 여행을 할 텐데요.",
+      "answer": "If I were wealthy, I would travel the world."
+    },
+    {
+      "id": "ex129",
+      "type": "translation_en_ko",
+      "question": "I feel fortunate to have such supportive friends.",
+      "answer": "이렇게 도움을 주는 친구들이 있어서 운이 좋아요."
+    },
+    {
+      "id": "ex130",
+      "type": "multiple_choice",
+      "question": "She has a clear _____ for her future.",
+      "options": ["vision", "setback", "sacrifice", "regret"],
+      "answer": "vision"
+    },
+    {
+      "id": "ex131",
+      "type": "fill_blank",
+      "question": "Everyone has the _____ to succeed.",
+      "answer": "potential"
+    },
+    {
+      "id": "ex132",
+      "type": "multiple_choice",
+      "question": "It's important to set _____ goals.",
+      "options": ["realistic", "imaginary", "hypothetical", "wealthy"],
+      "answer": "realistic"
+    },
+    {
+      "id": "ex133",
+      "type": "fill_blank",
+      "question": "Let's discuss a _____ situation.",
+      "answer": "hypothetical"
+    },
+    {
+      "id": "ex134",
+      "type": "matching",
+      "pairs": [
+        {"word": "vision", "match": "an idea about the future"},
+        {"word": "potential", "match": "ability to develop"},
+        {"word": "realistic", "match": "based on what is possible"},
+        {"word": "hypothetical", "match": "imagined but not real"}
+      ]
+    },
+    {
+      "id": "ex135",
+      "type": "translation_ko_en",
+      "question": "그녀는 미래에 대한 명확한 비전이 있어요.",
+      "answer": "She has a clear vision for her future."
+    },
+    {
+      "id": "ex136",
+      "type": "translation_en_ko",
+      "question": "It's important to set realistic goals.",
+      "answer": "현실적인 목표를 세우는 것이 중요해요."
+    },
+    {
+      "id": "ex137",
+      "type": "multiple_choice",
+      "question": "Children often have _____ friends.",
+      "options": ["imaginary", "realistic", "wealthy", "fortunate"],
+      "answer": "imaginary"
+    },
+    {
+      "id": "ex138",
+      "type": "fill_blank",
+      "question": "This job is a great _____ for growth.",
+      "answer": "opportunity"
+    },
+    {
+      "id": "ex139",
+      "type": "multiple_choice",
+      "question": "Her _____ is to become a doctor.",
+      "options": ["ambition", "setback", "sacrifice", "regret"],
+      "answer": "ambition"
+    },
+    {
+      "id": "ex140",
+      "type": "fill_blank",
+      "question": "I feel more _____ when I have clear goals.",
+      "answer": "motivated"
+    },
+    {
+      "id": "ex141",
+      "type": "matching",
+      "pairs": [
+        {"word": "imaginary", "match": "existing only in the mind"},
+        {"word": "opportunity", "match": "a chance to do something"},
+        {"word": "ambition", "match": "a strong desire to achieve"},
+        {"word": "motivated", "match": "having a strong reason"}
+      ]
+    },
+    {
+      "id": "ex142",
+      "type": "translation_ko_en",
+      "question": "아이들은 종종 상상 속 친구가 있어요.",
+      "answer": "Children often have imaginary friends."
+    },
+    {
+      "id": "ex143",
+      "type": "translation_en_ko",
+      "question": "Her ambition is to become a doctor.",
+      "answer": "그녀의 꿈은 의사가 되는 거예요."
+    },
+    {
+      "id": "ex144",
+      "type": "multiple_choice",
+      "question": "Her story _____ me to start my own business.",
+      "options": ["inspired", "regretted", "sacrificed", "risked"],
+      "answer": "inspired"
+    },
+    {
+      "id": "ex145",
+      "type": "fill_blank",
+      "question": "She _____ all her goals before turning 30.",
+      "answer": "accomplished"
+    },
+    {
+      "id": "ex146",
+      "type": "multiple_choice",
+      "question": "I want to _____ my potential.",
+      "options": ["fulfill", "regret", "sacrifice", "risk"],
+      "answer": "fulfill"
+    },
+    {
+      "id": "ex147",
+      "type": "fill_blank",
+      "question": "Learning a new language is a big _____.",
+      "answer": "challenge"
+    },
+    {
+      "id": "ex148",
+      "type": "matching",
+      "pairs": [
+        {"word": "inspire", "match": "to make someone want to do"},
+        {"word": "accomplish", "match": "to succeed in doing"},
+        {"word": "fulfill", "match": "to achieve or realize"},
+        {"word": "challenge", "match": "a difficult task"}
+      ]
+    },
+    {
+      "id": "ex149",
+      "type": "translation_ko_en",
+      "question": "그녀의 이야기가 나에게 사업을 시작할 영감을 줬어요.",
+      "answer": "Her story inspired me to start my own business."
+    },
+    {
+      "id": "ex150",
+      "type": "translation_en_ko",
+      "question": "I want to fulfill my potential.",
+      "answer": "잠재력을 발휘하고 싶어요."
     }
   ]
 }

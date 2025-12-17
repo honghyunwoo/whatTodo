@@ -276,48 +276,1193 @@
       "translation": "다재다능한",
       "example": "She is a versatile actress who can play any role.",
       "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w31",
+      "word": "repertoire",
+      "pronunciation": "/ˈrepətwɑːr/",
+      "meaning": "a collection of works that an artist can perform",
+      "translation": "레퍼토리",
+      "example": "The pianist has a wide repertoire of classical pieces.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w32",
+      "word": "ensemble",
+      "pronunciation": "/ɒnˈsɒmbl/",
+      "meaning": "a group of musicians, actors, or dancers performing together",
+      "translation": "앙상블",
+      "example": "The ensemble performed a beautiful symphony.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w33",
+      "word": "improvise",
+      "pronunciation": "/ˈɪmprəvaɪz/",
+      "meaning": "to create and perform spontaneously without preparation",
+      "translation": "즉흥 연주하다",
+      "example": "Jazz musicians often improvise during performances.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w34",
+      "word": "harmonize",
+      "pronunciation": "/ˈhɑːmənaɪz/",
+      "meaning": "to add notes to a melody to form chords",
+      "translation": "화음을 이루다",
+      "example": "The choir harmonized beautifully on the final verse.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w35",
+      "word": "choreography",
+      "pronunciation": "/ˌkɒriˈɒɡrəfi/",
+      "meaning": "the sequence of steps and movements in dance",
+      "translation": "안무",
+      "example": "The choreography for the ballet was intricate and graceful.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w36",
+      "word": "monologue",
+      "pronunciation": "/ˈmɒnəlɒɡ/",
+      "meaning": "a long speech by one actor in a play",
+      "translation": "독백",
+      "example": "The actor delivered a powerful monologue in the final scene.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w37",
+      "word": "prologue",
+      "pronunciation": "/ˈprəʊlɒɡ/",
+      "meaning": "an introduction to a book or play",
+      "translation": "프롤로그, 서문",
+      "example": "The prologue sets the scene for the story that follows.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w38",
+      "word": "epilogue",
+      "pronunciation": "/ˈepɪlɒɡ/",
+      "meaning": "a concluding section that rounds out the design of a literary work",
+      "translation": "에필로그, 후기",
+      "example": "The epilogue reveals what happens to the characters years later.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w39",
+      "word": "curator",
+      "pronunciation": "/kjʊəˈreɪtər/",
+      "meaning": "a keeper or custodian of a museum or art collection",
+      "translation": "큐레이터",
+      "example": "The curator selected paintings for the new exhibition.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w40",
+      "word": "retrospective",
+      "pronunciation": "/ˌretrəˈspektɪv/",
+      "meaning": "an exhibition or compilation showing the development of an artist's work",
+      "translation": "회고전",
+      "example": "The museum held a retrospective of the photographer's career.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w41",
+      "word": "renaissance",
+      "pronunciation": "/rɪˈneɪsns/",
+      "meaning": "a revival of art and literature",
+      "translation": "르네상스, 부흥",
+      "example": "The Italian Renaissance produced many great artists.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w42",
+      "word": "cinematographer",
+      "pronunciation": "/ˌsɪnəməˈtɒɡrəfər/",
+      "meaning": "a person who oversees camera work and lighting in filmmaking",
+      "translation": "촬영 감독",
+      "example": "The cinematographer won an Oscar for his work on the film.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w43",
+      "word": "director",
+      "pronunciation": "/dɪˈrektər/",
+      "meaning": "a person who supervises the actors and crew in film or theatre",
+      "translation": "감독",
+      "example": "The director gave clear instructions to the actors.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w44",
+      "word": "critic",
+      "pronunciation": "/ˈkrɪtɪk/",
+      "meaning": "a person who judges the merits of literary or artistic works",
+      "translation": "비평가",
+      "example": "The critic wrote a negative review of the play.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w45",
+      "word": "virtuoso",
+      "pronunciation": "/ˌvɜːtʃuˈəʊsəʊ/",
+      "meaning": "a person highly skilled in music or another artistic pursuit",
+      "translation": "거장, 명인",
+      "example": "The young violinist is already considered a virtuoso.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w46",
+      "word": "libretto",
+      "pronunciation": "/lɪˈbretəʊ/",
+      "meaning": "the text of an opera or musical",
+      "translation": "대본, 가사",
+      "example": "Mozart composed the music while Da Ponte wrote the libretto.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w47",
+      "word": "score",
+      "pronunciation": "/skɔːr/",
+      "meaning": "the written form of a musical composition",
+      "translation": "악보",
+      "example": "The conductor studied the score before the rehearsal.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w48",
+      "word": "fresco",
+      "pronunciation": "/ˈfreskəʊ/",
+      "meaning": "a painting done on wet plaster on a wall or ceiling",
+      "translation": "프레스코화",
+      "example": "Michelangelo painted the famous fresco on the Sistine Chapel ceiling.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w49",
+      "word": "mosaic",
+      "pronunciation": "/məʊˈzeɪɪk/",
+      "meaning": "a picture or pattern made from small pieces of colored material",
+      "translation": "모자이크",
+      "example": "The Byzantine church features stunning mosaic artwork.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w50",
+      "word": "anthology",
+      "pronunciation": "/ænˈθɒlədʒi/",
+      "meaning": "a collection of poems or literary pieces",
+      "translation": "선집, 명시선",
+      "example": "The anthology contains works by various contemporary poets.",
+      "partOfSpeech": "noun"
     }
   ],
 
   "exercises": [
     {
       "id": "ex1",
-      "type": "matching",
-      "instruction": "Match the words with their definitions",
-      "pairs": [
-        { "word": "masterpiece", "definition": "an outstanding work of art" },
-        { "word": "protagonist", "definition": "the main character in a story" },
-        { "word": "avant-garde", "definition": "new and experimental in style" },
-        { "word": "premiere", "definition": "the first public performance of a work" }
-      ]
+      "type": "multiple_choice",
+      "question": "The painting is considered a _____ of Renaissance art.",
+      "options": ["masterpiece", "blockbuster", "prologue", "mosaic"],
+      "answer": "masterpiece"
     },
     {
       "id": "ex2",
-      "type": "fill_blank",
-      "instruction": "Complete the sentences with the correct words",
-      "sentences": [
-        { "sentence": "The museum is hosting a _____ of Impressionist paintings.", "answer": "exhibition" },
-        { "sentence": "The film was _____ by critics for its original storyline.", "answer": "critically acclaimed" },
-        { "sentence": "Beethoven is considered one of the greatest _____ of all time.", "answer": "composers" },
-        { "sentence": "The painting uses _____ to represent the passage of time.", "answer": "symbolism" }
-      ]
+      "type": "multiple_choice",
+      "question": "Science fiction is my favorite film _____.",
+      "options": ["critique", "genre", "score", "narrative"],
+      "answer": "genre"
     },
     {
       "id": "ex3",
       "type": "multiple_choice",
-      "instruction": "Choose the best word to complete each sentence",
-      "questions": [
-        {
-          "question": "The actor gave a _____ performance that moved the audience to tears.",
-          "options": ["abstract", "captivating", "narrative", "versatile"],
-          "answer": "captivating"
-        },
-        {
-          "question": "The novel _____ life in 19th century London.",
-          "options": ["rehearses", "depicts", "premieres", "composes"],
-          "answer": "depicts"
-        }
+      "question": "The museum is hosting an _____ of modern sculptures.",
+      "options": ["epilogue", "exhibition", "ensemble", "anthology"],
+      "answer": "exhibition"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "The orchestra gave a stunning _____ last night.",
+      "options": ["performance", "portrait", "repertoire", "fresco"],
+      "answer": "performance"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "Beethoven is one of the greatest _____ in history.",
+      "options": ["critics", "composers", "curators", "cinematographers"],
+      "answer": "composers"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "Shakespeare is the most famous _____ in English literature.",
+      "options": ["playwright", "protagonist", "virtuoso", "director"],
+      "answer": "playwright"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "The _____ was carved from a single block of marble.",
+      "options": ["sculpture", "libretto", "monologue", "soundtrack"],
+      "answer": "sculpture"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "The artist painted a beautiful _____ of the queen.",
+      "options": ["portrait", "mosaic", "premiere", "choreography"],
+      "answer": "portrait"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "The gallery specializes in _____ art.",
+      "options": ["contemporary", "abstract", "aesthetic", "influential"],
+      "answer": "contemporary"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "_____ art often focuses on shapes and colors rather than objects.",
+      "options": ["Abstract", "Evocative", "Versatile", "Avant-garde"],
+      "answer": "Abstract"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "Picasso was one of the most _____ artists of the 20th century.",
+      "options": ["influential", "captivating", "aesthetic", "versatile"],
+      "answer": "influential"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "The film had a _____ storyline that kept viewers engaged.",
+      "options": ["captivating", "contemporary", "abstract", "critically acclaimed"],
+      "answer": "captivating"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "The music was _____ of summer days.",
+      "options": ["evocative", "aesthetic", "versatile", "influential"],
+      "answer": "evocative"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "The film was _____ but failed at the box office.",
+      "options": ["critically acclaimed", "blockbuster", "avant-garde", "contemporary"],
+      "answer": "critically acclaimed"
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "The movie became the summer's biggest _____.",
+      "options": ["blockbuster", "premiere", "retrospective", "exhibition"],
+      "answer": "blockbuster"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "The film had its world _____ at the festival.",
+      "options": ["premiere", "performance", "exhibition", "rehearsal"],
+      "answer": "premiere"
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "Critics _____ the painting as a commentary on society.",
+      "options": ["interpret", "portray", "depict", "rehearse"],
+      "answer": "interpret"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "The actor _____ the historical figure brilliantly.",
+      "options": ["portrayed", "inspired", "depicted", "harmonized"],
+      "answer": "portrayed"
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "The landscape _____ many of her paintings.",
+      "options": ["inspired", "portrayed", "rehearsed", "improvised"],
+      "answer": "inspired"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "The novel _____ life in rural Japan.",
+      "options": ["depicts", "rehearses", "harmonizes", "improvises"],
+      "answer": "depicts"
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "The cast _____ the play for weeks before opening night.",
+      "options": ["rehearsed", "portrayed", "inspired", "improvised"],
+      "answer": "rehearsed"
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "The professor wrote a _____ of the artist's work.",
+      "options": ["critique", "narrative", "prologue", "libretto"],
+      "answer": "critique"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "The building has great _____ appeal.",
+      "options": ["aesthetic", "abstract", "evocative", "versatile"],
+      "answer": "aesthetic"
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "The _____ won an award for best original score.",
+      "options": ["soundtrack", "narrative", "symbolism", "repertoire"],
+      "answer": "soundtrack"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "The film has a complex _____ structure.",
+      "options": ["narrative", "soundtrack", "critique", "repertoire"],
+      "answer": "narrative"
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "The director used _____ throughout the film.",
+      "options": ["symbolism", "choreography", "cinematography", "renaissance"],
+      "answer": "symbolism"
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "The artist is known for her _____ approach.",
+      "options": ["avant-garde", "contemporary", "aesthetic", "versatile"],
+      "answer": "avant-garde"
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "The _____ struggles with moral dilemmas throughout the novel.",
+      "options": ["protagonist", "playwright", "composer", "critic"],
+      "answer": "protagonist"
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "The _____ of the film was breathtaking.",
+      "options": ["cinematography", "choreography", "symbolism", "narrative"],
+      "answer": "cinematography"
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "She is a _____ actress who can play any role.",
+      "options": ["versatile", "influential", "captivating", "aesthetic"],
+      "answer": "versatile"
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "question": "The pianist has a wide _____ of classical pieces.",
+      "answer": "repertoire"
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "question": "The _____ performed a beautiful symphony.",
+      "answer": "ensemble"
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "question": "Jazz musicians often _____ during performances.",
+      "answer": "improvise"
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "The choir _____ beautifully on the final verse.",
+      "answer": "harmonized"
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "The _____ for the ballet was intricate and graceful.",
+      "answer": "choreography"
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "The actor delivered a powerful _____ in the final scene.",
+      "answer": "monologue"
+    },
+    {
+      "id": "ex37",
+      "type": "fill_blank",
+      "question": "The _____ sets the scene for the story that follows.",
+      "answer": "prologue"
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "The _____ reveals what happens to the characters years later.",
+      "answer": "epilogue"
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "question": "The _____ selected paintings for the new exhibition.",
+      "answer": "curator"
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "The museum held a _____ of the photographer's career.",
+      "answer": "retrospective"
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "The Italian _____ produced many great artists.",
+      "answer": "Renaissance"
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "The _____ won an Oscar for his work on the film.",
+      "answer": "cinematographer"
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "The _____ gave clear instructions to the actors.",
+      "answer": "director"
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "The _____ wrote a negative review of the play.",
+      "answer": "critic"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "The young violinist is already considered a _____.",
+      "answer": "virtuoso"
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "Mozart composed the music while Da Ponte wrote the _____.",
+      "answer": "libretto"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "The conductor studied the _____ before the rehearsal.",
+      "answer": "score"
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "Michelangelo painted the famous _____ on the Sistine Chapel ceiling.",
+      "answer": "fresco"
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "The Byzantine church features stunning _____ artwork.",
+      "answer": "mosaic"
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "The _____ contains works by various contemporary poets.",
+      "answer": "anthology"
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "The painting uses _____ to represent the passage of time.",
+      "answer": "symbolism"
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "The sculpture was carved from a single block of _____.",
+      "answer": "marble"
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "The gallery specializes in _____ art from emerging artists.",
+      "answer": "contemporary"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "The movie became an instant _____ hit.",
+      "answer": "blockbuster"
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "The orchestra's _____ was met with a standing ovation.",
+      "answer": "performance"
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "The _____ of the painting is truly remarkable.",
+      "answer": "masterpiece"
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "Horror is not my favorite _____ of film.",
+      "answer": "genre"
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "The art _____ will run for three months.",
+      "answer": "exhibition"
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "Vivaldi was a famous Baroque _____.",
+      "answer": "composer"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "Tennessee Williams was a renowned American _____.",
+      "answer": "playwright"
+    },
+    {
+      "id": "ex61",
+      "type": "matching",
+      "pairs": [
+        {"word": "masterpiece", "match": "an outstanding work of art"},
+        {"word": "genre", "match": "a category of art or literature"},
+        {"word": "exhibition", "match": "a public display of art"},
+        {"word": "performance", "match": "an act of presenting entertainment"}
       ]
+    },
+    {
+      "id": "ex62",
+      "type": "matching",
+      "pairs": [
+        {"word": "composer", "match": "a person who writes music"},
+        {"word": "playwright", "match": "a person who writes plays"},
+        {"word": "curator", "match": "a keeper of a museum collection"},
+        {"word": "critic", "match": "a person who judges artistic works"}
+      ]
+    },
+    {
+      "id": "ex63",
+      "type": "matching",
+      "pairs": [
+        {"word": "sculpture", "match": "a three-dimensional work of art"},
+        {"word": "portrait", "match": "a painting of a person"},
+        {"word": "fresco", "match": "a painting on wet plaster"},
+        {"word": "mosaic", "match": "a picture made from small pieces"}
+      ]
+    },
+    {
+      "id": "ex64",
+      "type": "matching",
+      "pairs": [
+        {"word": "contemporary", "match": "belonging to the present time"},
+        {"word": "abstract", "match": "not representing reality directly"},
+        {"word": "influential", "match": "having great influence"},
+        {"word": "aesthetic", "match": "relating to beauty"}
+      ]
+    },
+    {
+      "id": "ex65",
+      "type": "matching",
+      "pairs": [
+        {"word": "captivating", "match": "attracting attention"},
+        {"word": "evocative", "match": "bringing feelings to mind"},
+        {"word": "versatile", "match": "able to adapt to many functions"},
+        {"word": "avant-garde", "match": "new and experimental"}
+      ]
+    },
+    {
+      "id": "ex66",
+      "type": "matching",
+      "pairs": [
+        {"word": "blockbuster", "match": "a highly successful production"},
+        {"word": "premiere", "match": "first public performance"},
+        {"word": "retrospective", "match": "exhibition of an artist's life work"},
+        {"word": "renaissance", "match": "a revival of art and literature"}
+      ]
+    },
+    {
+      "id": "ex67",
+      "type": "matching",
+      "pairs": [
+        {"word": "interpret", "match": "to explain the meaning"},
+        {"word": "portray", "match": "to represent in a picture"},
+        {"word": "inspire", "match": "to fill with motivation"},
+        {"word": "depict", "match": "to show or represent"}
+      ]
+    },
+    {
+      "id": "ex68",
+      "type": "matching",
+      "pairs": [
+        {"word": "rehearse", "match": "to practice for a performance"},
+        {"word": "improvise", "match": "to create spontaneously"},
+        {"word": "harmonize", "match": "to add notes to form chords"},
+        {"word": "choreograph", "match": "to design dance movements"}
+      ]
+    },
+    {
+      "id": "ex69",
+      "type": "matching",
+      "pairs": [
+        {"word": "critique", "match": "a detailed analysis"},
+        {"word": "soundtrack", "match": "music accompanying a film"},
+        {"word": "narrative", "match": "a story or account"},
+        {"word": "symbolism", "match": "use of symbols to represent ideas"}
+      ]
+    },
+    {
+      "id": "ex70",
+      "type": "matching",
+      "pairs": [
+        {"word": "protagonist", "match": "the main character"},
+        {"word": "ensemble", "match": "a group performing together"},
+        {"word": "virtuoso", "match": "a highly skilled performer"},
+        {"word": "director", "match": "person who supervises actors"}
+      ]
+    },
+    {
+      "id": "ex71",
+      "type": "matching",
+      "pairs": [
+        {"word": "cinematography", "match": "camera work in film"},
+        {"word": "choreography", "match": "sequence of dance movements"},
+        {"word": "repertoire", "match": "collection of works an artist can perform"},
+        {"word": "anthology", "match": "collection of literary pieces"}
+      ]
+    },
+    {
+      "id": "ex72",
+      "type": "matching",
+      "pairs": [
+        {"word": "monologue", "match": "a long speech by one actor"},
+        {"word": "prologue", "match": "an introduction to a book"},
+        {"word": "epilogue", "match": "a concluding section"},
+        {"word": "libretto", "match": "the text of an opera"}
+      ]
+    },
+    {
+      "id": "ex73",
+      "type": "matching",
+      "pairs": [
+        {"word": "critically acclaimed", "match": "highly praised by critics"},
+        {"word": "captivating", "match": "holding attention"},
+        {"word": "evocative", "match": "bringing memories to mind"},
+        {"word": "aesthetic", "match": "relating to artistic taste"}
+      ]
+    },
+    {
+      "id": "ex74",
+      "type": "matching",
+      "pairs": [
+        {"word": "score", "match": "written form of a composition"},
+        {"word": "genre", "match": "a category of art"},
+        {"word": "masterpiece", "match": "outstanding work of art"},
+        {"word": "portrait", "match": "painting of a person"}
+      ]
+    },
+    {
+      "id": "ex75",
+      "type": "matching",
+      "pairs": [
+        {"word": "cinema", "match": "the art of film"},
+        {"word": "theatre", "match": "the art of performance"},
+        {"word": "sculpture", "match": "three-dimensional art"},
+        {"word": "painting", "match": "art created with paint"}
+      ]
+    },
+    {
+      "id": "ex76",
+      "type": "translation_ko_en",
+      "question": "그 그림은 르네상스 미술의 걸작으로 여겨진다.",
+      "answer": "The painting is considered a masterpiece of Renaissance art."
+    },
+    {
+      "id": "ex77",
+      "type": "translation_ko_en",
+      "question": "공상과학 소설은 내가 가장 좋아하는 영화 장르이다.",
+      "answer": "Science fiction is my favorite film genre."
+    },
+    {
+      "id": "ex78",
+      "type": "translation_ko_en",
+      "question": "박물관은 현대 조각 전시회를 개최하고 있다.",
+      "answer": "The museum is hosting an exhibition of modern sculptures."
+    },
+    {
+      "id": "ex79",
+      "type": "translation_ko_en",
+      "question": "오케스트라는 어젯밤 놀라운 공연을 했다.",
+      "answer": "The orchestra gave a stunning performance last night."
+    },
+    {
+      "id": "ex80",
+      "type": "translation_ko_en",
+      "question": "베토벤은 역사상 가장 위대한 작곡가 중 한 명이다.",
+      "answer": "Beethoven is one of the greatest composers in history."
+    },
+    {
+      "id": "ex81",
+      "type": "translation_ko_en",
+      "question": "셰익스피어는 영문학에서 가장 유명한 극작가이다.",
+      "answer": "Shakespeare is the most famous playwright in English literature."
+    },
+    {
+      "id": "ex82",
+      "type": "translation_ko_en",
+      "question": "그 조각은 단일 대리석 블록으로 조각되었다.",
+      "answer": "The sculpture was carved from a single block of marble."
+    },
+    {
+      "id": "ex83",
+      "type": "translation_ko_en",
+      "question": "그 화가는 여왕의 아름다운 초상화를 그렸다.",
+      "answer": "The artist painted a beautiful portrait of the queen."
+    },
+    {
+      "id": "ex84",
+      "type": "translation_ko_en",
+      "question": "그 갤러리는 현대 미술을 전문으로 한다.",
+      "answer": "The gallery specializes in contemporary art."
+    },
+    {
+      "id": "ex85",
+      "type": "translation_ko_en",
+      "question": "추상 미술은 종종 사물보다는 형태와 색상에 초점을 맞춘다.",
+      "answer": "Abstract art often focuses on shapes and colors rather than objects."
+    },
+    {
+      "id": "ex86",
+      "type": "translation_ko_en",
+      "question": "피카소는 20세기의 가장 영향력 있는 예술가 중 한 명이었다.",
+      "answer": "Picasso was one of the most influential artists of the 20th century."
+    },
+    {
+      "id": "ex87",
+      "type": "translation_ko_en",
+      "question": "그 영화는 매혹적인 줄거리를 가지고 있었다.",
+      "answer": "The film had a captivating storyline."
+    },
+    {
+      "id": "ex88",
+      "type": "translation_ko_en",
+      "question": "그 음악은 여름날을 연상시켰다.",
+      "answer": "The music was evocative of summer days."
+    },
+    {
+      "id": "ex89",
+      "type": "translation_ko_en",
+      "question": "그 영화는 비평가들의 극찬을 받았지만 흥행에는 실패했다.",
+      "answer": "The film was critically acclaimed but failed at the box office."
+    },
+    {
+      "id": "ex90",
+      "type": "translation_ko_en",
+      "question": "그 영화는 여름의 가장 큰 블록버스터가 되었다.",
+      "answer": "The movie became the summer's biggest blockbuster."
+    },
+    {
+      "id": "ex91",
+      "type": "translation_en_ko",
+      "question": "The film had its world premiere at the festival.",
+      "answer": "그 영화는 페스티벌에서 세계 초연을 가졌다."
+    },
+    {
+      "id": "ex92",
+      "type": "translation_en_ko",
+      "question": "Critics interpret the painting as a commentary on society.",
+      "answer": "비평가들은 그 그림을 사회에 대한 논평으로 해석한다."
+    },
+    {
+      "id": "ex93",
+      "type": "translation_en_ko",
+      "question": "The actor portrayed the historical figure brilliantly.",
+      "answer": "그 배우는 역사적 인물을 훌륭하게 묘사했다."
+    },
+    {
+      "id": "ex94",
+      "type": "translation_en_ko",
+      "question": "The landscape inspired many of her paintings.",
+      "answer": "그 풍경은 그녀의 많은 그림에 영감을 주었다."
+    },
+    {
+      "id": "ex95",
+      "type": "translation_en_ko",
+      "question": "The novel depicts life in rural Japan.",
+      "answer": "그 소설은 일본 시골의 삶을 묘사한다."
+    },
+    {
+      "id": "ex96",
+      "type": "translation_en_ko",
+      "question": "The cast rehearsed the play for weeks before opening night.",
+      "answer": "출연진은 개막일 전에 몇 주 동안 연극을 리허설했다."
+    },
+    {
+      "id": "ex97",
+      "type": "translation_en_ko",
+      "question": "The professor wrote a critique of the artist's work.",
+      "answer": "교수는 그 예술가의 작품에 대한 비평을 썼다."
+    },
+    {
+      "id": "ex98",
+      "type": "translation_en_ko",
+      "question": "The building has great aesthetic appeal.",
+      "answer": "그 건물은 훌륭한 미적 매력을 가지고 있다."
+    },
+    {
+      "id": "ex99",
+      "type": "translation_en_ko",
+      "question": "The soundtrack won an award for best original score.",
+      "answer": "그 사운드트랙은 최고의 오리지널 스코어로 상을 받았다."
+    },
+    {
+      "id": "ex100",
+      "type": "translation_en_ko",
+      "question": "The film has a complex narrative structure.",
+      "answer": "그 영화는 복잡한 서사 구조를 가지고 있다."
+    },
+    {
+      "id": "ex101",
+      "type": "translation_en_ko",
+      "question": "The director used symbolism throughout the film.",
+      "answer": "감독은 영화 전반에 걸쳐 상징주의를 사용했다."
+    },
+    {
+      "id": "ex102",
+      "type": "translation_en_ko",
+      "question": "The artist is known for her avant-garde approach.",
+      "answer": "그 예술가는 그녀의 아방가르드 접근법으로 알려져 있다."
+    },
+    {
+      "id": "ex103",
+      "type": "translation_en_ko",
+      "question": "The protagonist struggles with moral dilemmas throughout the novel.",
+      "answer": "주인공은 소설 전반에 걸쳐 도덕적 딜레마로 고민한다."
+    },
+    {
+      "id": "ex104",
+      "type": "translation_en_ko",
+      "question": "The cinematography was breathtaking.",
+      "answer": "촬영술은 숨이 멎을 만큼 아름다웠다."
+    },
+    {
+      "id": "ex105",
+      "type": "translation_en_ko",
+      "question": "She is a versatile actress who can play any role.",
+      "answer": "그녀는 어떤 역할이든 연기할 수 있는 다재다능한 여배우이다."
+    },
+    {
+      "id": "ex106",
+      "type": "translation_ko_en",
+      "question": "그 피아니스트는 클래식 곡의 폭넓은 레퍼토리를 가지고 있다.",
+      "answer": "The pianist has a wide repertoire of classical pieces."
+    },
+    {
+      "id": "ex107",
+      "type": "translation_ko_en",
+      "question": "그 앙상블은 아름다운 교향곡을 연주했다.",
+      "answer": "The ensemble performed a beautiful symphony."
+    },
+    {
+      "id": "ex108",
+      "type": "translation_ko_en",
+      "question": "재즈 음악가들은 공연 중에 종종 즉흥 연주를 한다.",
+      "answer": "Jazz musicians often improvise during performances."
+    },
+    {
+      "id": "ex109",
+      "type": "translation_ko_en",
+      "question": "합창단은 마지막 절에서 아름답게 화음을 이루었다.",
+      "answer": "The choir harmonized beautifully on the final verse."
+    },
+    {
+      "id": "ex110",
+      "type": "translation_ko_en",
+      "question": "발레의 안무는 복잡하고 우아했다.",
+      "answer": "The choreography for the ballet was intricate and graceful."
+    },
+    {
+      "id": "ex111",
+      "type": "translation_ko_en",
+      "question": "그 배우는 마지막 장면에서 강력한 독백을 전달했다.",
+      "answer": "The actor delivered a powerful monologue in the final scene."
+    },
+    {
+      "id": "ex112",
+      "type": "translation_ko_en",
+      "question": "프롤로그는 뒤따를 이야기의 배경을 설정한다.",
+      "answer": "The prologue sets the scene for the story that follows."
+    },
+    {
+      "id": "ex113",
+      "type": "translation_ko_en",
+      "question": "에필로그는 몇 년 후 등장인물들에게 무슨 일이 일어나는지 밝힌다.",
+      "answer": "The epilogue reveals what happens to the characters years later."
+    },
+    {
+      "id": "ex114",
+      "type": "translation_ko_en",
+      "question": "큐레이터는 새 전시회를 위해 그림들을 선택했다.",
+      "answer": "The curator selected paintings for the new exhibition."
+    },
+    {
+      "id": "ex115",
+      "type": "translation_ko_en",
+      "question": "박물관은 사진작가의 경력 회고전을 개최했다.",
+      "answer": "The museum held a retrospective of the photographer's career."
+    },
+    {
+      "id": "ex116",
+      "type": "translation_en_ko",
+      "question": "The Italian Renaissance produced many great artists.",
+      "answer": "이탈리아 르네상스는 많은 위대한 예술가들을 배출했다."
+    },
+    {
+      "id": "ex117",
+      "type": "translation_en_ko",
+      "question": "The cinematographer won an Oscar for his work on the film.",
+      "answer": "촬영 감독은 그 영화 작업으로 오스카상을 받았다."
+    },
+    {
+      "id": "ex118",
+      "type": "translation_en_ko",
+      "question": "The director gave clear instructions to the actors.",
+      "answer": "감독은 배우들에게 명확한 지시를 했다."
+    },
+    {
+      "id": "ex119",
+      "type": "translation_en_ko",
+      "question": "The critic wrote a negative review of the play.",
+      "answer": "비평가는 그 연극에 대한 부정적인 평론을 썼다."
+    },
+    {
+      "id": "ex120",
+      "type": "translation_en_ko",
+      "question": "The young violinist is already considered a virtuoso.",
+      "answer": "그 젊은 바이올리니스트는 이미 거장으로 여겨진다."
+    },
+    {
+      "id": "ex121",
+      "type": "translation_en_ko",
+      "question": "Mozart composed the music while Da Ponte wrote the libretto.",
+      "answer": "모차르트가 음악을 작곡하는 동안 다 폰테가 대본을 썼다."
+    },
+    {
+      "id": "ex122",
+      "type": "translation_en_ko",
+      "question": "The conductor studied the score before the rehearsal.",
+      "answer": "지휘자는 리허설 전에 악보를 공부했다."
+    },
+    {
+      "id": "ex123",
+      "type": "translation_en_ko",
+      "question": "Michelangelo painted the famous fresco on the Sistine Chapel ceiling.",
+      "answer": "미켈란젤로는 시스티나 성당 천장에 유명한 프레스코화를 그렸다."
+    },
+    {
+      "id": "ex124",
+      "type": "translation_en_ko",
+      "question": "The Byzantine church features stunning mosaic artwork.",
+      "answer": "비잔틴 교회는 놀라운 모자이크 예술 작품을 특징으로 한다."
+    },
+    {
+      "id": "ex125",
+      "type": "translation_en_ko",
+      "question": "The anthology contains works by various contemporary poets.",
+      "answer": "그 선집은 다양한 현대 시인들의 작품을 포함하고 있다."
+    },
+    {
+      "id": "ex126",
+      "type": "multiple_choice",
+      "question": "The _____ for the ballet required months of practice.",
+      "options": ["choreography", "cinematography", "narrative", "critique"],
+      "answer": "choreography"
+    },
+    {
+      "id": "ex127",
+      "type": "multiple_choice",
+      "question": "The jazz band decided to _____ during their performance.",
+      "options": ["improvise", "rehearse", "harmonize", "portray"],
+      "answer": "improvise"
+    },
+    {
+      "id": "ex128",
+      "type": "multiple_choice",
+      "question": "The string _____ performed at the wedding.",
+      "options": ["ensemble", "repertoire", "anthology", "prologue"],
+      "answer": "ensemble"
+    },
+    {
+      "id": "ex129",
+      "type": "multiple_choice",
+      "question": "The _____ of the museum carefully organized the new display.",
+      "options": ["curator", "critic", "director", "composer"],
+      "answer": "curator"
+    },
+    {
+      "id": "ex130",
+      "type": "multiple_choice",
+      "question": "The book's _____ explained the author's intentions.",
+      "options": ["prologue", "epilogue", "monologue", "anthology"],
+      "answer": "prologue"
+    },
+    {
+      "id": "ex131",
+      "type": "fill_blank",
+      "question": "The three-act play ended with a dramatic _____.",
+      "answer": "epilogue"
+    },
+    {
+      "id": "ex132",
+      "type": "fill_blank",
+      "question": "Ancient Rome is famous for its beautiful _____ floors.",
+      "answer": "mosaic"
+    },
+    {
+      "id": "ex133",
+      "type": "fill_blank",
+      "question": "The film _____ was responsible for the stunning visuals.",
+      "answer": "cinematographer"
+    },
+    {
+      "id": "ex134",
+      "type": "fill_blank",
+      "question": "The opera's _____ was written in Italian.",
+      "answer": "libretto"
+    },
+    {
+      "id": "ex135",
+      "type": "fill_blank",
+      "question": "Yo-Yo Ma is considered a _____ of the cello.",
+      "answer": "virtuoso"
+    },
+    {
+      "id": "ex136",
+      "type": "translation_ko_en",
+      "question": "그 배우는 마지막 장면에서 강렬한 독백을 했다.",
+      "answer": "The actor delivered an intense monologue in the final scene."
+    },
+    {
+      "id": "ex137",
+      "type": "translation_ko_en",
+      "question": "그 전시회는 예술가의 일생 작품을 보여주는 회고전이었다.",
+      "answer": "The exhibition was a retrospective showing the artist's life work."
+    },
+    {
+      "id": "ex138",
+      "type": "translation_ko_en",
+      "question": "영화 감독은 촬영장에서 모든 것을 감독한다.",
+      "answer": "The film director supervises everything on set."
+    },
+    {
+      "id": "ex139",
+      "type": "translation_ko_en",
+      "question": "비평가는 새 영화에 대한 긍정적인 평론을 썼다.",
+      "answer": "The critic wrote a positive review of the new film."
+    },
+    {
+      "id": "ex140",
+      "type": "translation_ko_en",
+      "question": "오케스트라는 베토벤의 악보를 연주했다.",
+      "answer": "The orchestra performed Beethoven's score."
+    },
+    {
+      "id": "ex141",
+      "type": "translation_en_ko",
+      "question": "The museum's art collection spans several centuries.",
+      "answer": "박물관의 미술 컬렉션은 수 세기에 걸쳐 있다."
+    },
+    {
+      "id": "ex142",
+      "type": "translation_en_ko",
+      "question": "The dance company performs a diverse repertoire.",
+      "answer": "그 무용단은 다양한 레퍼토리를 공연한다."
+    },
+    {
+      "id": "ex143",
+      "type": "translation_en_ko",
+      "question": "The singers harmonized perfectly throughout the concert.",
+      "answer": "가수들은 콘서트 내내 완벽하게 화음을 이루었다."
+    },
+    {
+      "id": "ex144",
+      "type": "translation_en_ko",
+      "question": "The anthology includes poetry from around the world.",
+      "answer": "그 선집은 전 세계의 시를 포함하고 있다."
+    },
+    {
+      "id": "ex145",
+      "type": "translation_en_ko",
+      "question": "The Renaissance period was a time of great artistic achievement.",
+      "answer": "르네상스 시대는 위대한 예술적 성취의 시기였다."
+    },
+    {
+      "id": "ex146",
+      "type": "matching",
+      "pairs": [
+        {"word": "cinematographer", "match": "oversees camera work in films"},
+        {"word": "choreographer", "match": "designs dance movements"},
+        {"word": "playwright", "match": "writes plays"},
+        {"word": "composer", "match": "writes music"}
+      ]
+    },
+    {
+      "id": "ex147",
+      "type": "matching",
+      "pairs": [
+        {"word": "retrospective", "match": "exhibition of life work"},
+        {"word": "premiere", "match": "first public showing"},
+        {"word": "rehearsal", "match": "practice session"},
+        {"word": "performance", "match": "public presentation"}
+      ]
+    },
+    {
+      "id": "ex148",
+      "type": "multiple_choice",
+      "question": "The artist's _____ paintings challenged traditional artistic conventions.",
+      "options": ["avant-garde", "aesthetic", "versatile", "contemporary"],
+      "answer": "avant-garde"
+    },
+    {
+      "id": "ex149",
+      "type": "fill_blank",
+      "question": "The film received _____ reviews from all major critics.",
+      "answer": "critically acclaimed"
+    },
+    {
+      "id": "ex150",
+      "type": "translation_ko_en",
+      "question": "그 소설의 주인공은 복잡한 성격을 가진 인물이다.",
+      "answer": "The protagonist of the novel is a character with a complex personality."
     }
   ]
 }

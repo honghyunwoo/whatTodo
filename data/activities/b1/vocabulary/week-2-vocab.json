@@ -266,6 +266,246 @@
       "translation": "~하는 경향이 있다",
       "example": "Prices tend to rise in summer.",
       "exampleTranslation": "가격은 여름에 오르는 경향이 있어요."
+    },
+    {
+      "id": "w27",
+      "word": "accomplish",
+      "pronunciation": "/əˈkʌmplɪʃ/",
+      "partOfSpeech": "verb",
+      "meaning": "to succeed in doing something",
+      "translation": "성취하다, 달성하다",
+      "example": "She accomplished all her goals this year.",
+      "exampleTranslation": "그녀는 올해 모든 목표를 달성했어요."
+    },
+    {
+      "id": "w28",
+      "word": "objective",
+      "pronunciation": "/əbˈdʒektɪv/",
+      "partOfSpeech": "noun",
+      "meaning": "something you are trying to achieve",
+      "translation": "목표, 목적",
+      "example": "Our main objective is to increase sales.",
+      "exampleTranslation": "우리의 주요 목표는 판매를 늘리는 거예요."
+    },
+    {
+      "id": "w29",
+      "word": "aspiration",
+      "pronunciation": "/ˌæspəˈreɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "a strong desire to achieve something",
+      "translation": "포부, 열망",
+      "example": "His aspiration is to become a doctor.",
+      "exampleTranslation": "그의 포부는 의사가 되는 거예요."
+    },
+    {
+      "id": "w30",
+      "word": "outlook",
+      "pronunciation": "/ˈaʊtlʊk/",
+      "partOfSpeech": "noun",
+      "meaning": "what is expected to happen in the future",
+      "translation": "전망",
+      "example": "The economic outlook is positive.",
+      "exampleTranslation": "경제 전망이 긍정적이에요."
+    },
+    {
+      "id": "w31",
+      "word": "preparation",
+      "pronunciation": "/ˌprepəˈreɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "the act of getting ready for something",
+      "translation": "준비",
+      "example": "Good preparation is key to success.",
+      "exampleTranslation": "철저한 준비가 성공의 열쇠예요."
+    },
+    {
+      "id": "w32",
+      "word": "strategy",
+      "pronunciation": "/ˈstrætədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "a plan for achieving something",
+      "translation": "전략",
+      "example": "We need a new marketing strategy.",
+      "exampleTranslation": "우리는 새로운 마케팅 전략이 필요해요."
+    },
+    {
+      "id": "w33",
+      "word": "implement",
+      "pronunciation": "/ˈɪmplɪment/",
+      "partOfSpeech": "verb",
+      "meaning": "to put a plan into action",
+      "translation": "실행하다, 이행하다",
+      "example": "The company will implement the new policy next month.",
+      "exampleTranslation": "회사는 다음 달 새 정책을 실행할 거예요."
+    },
+    {
+      "id": "w34",
+      "word": "achieve",
+      "pronunciation": "/əˈtʃiːv/",
+      "partOfSpeech": "verb",
+      "meaning": "to successfully complete or gain something",
+      "translation": "달성하다, 이루다",
+      "example": "I hope to achieve my dreams someday.",
+      "exampleTranslation": "언젠가 제 꿈을 이루길 바라요."
+    },
+    {
+      "id": "w35",
+      "word": "proposal",
+      "pronunciation": "/prəˈpəʊzl/",
+      "partOfSpeech": "noun",
+      "meaning": "a plan or suggestion",
+      "translation": "제안, 제안서",
+      "example": "They submitted a proposal for the new project.",
+      "exampleTranslation": "그들은 새 프로젝트 제안서를 제출했어요."
+    },
+    {
+      "id": "w36",
+      "word": "outcome",
+      "pronunciation": "/ˈaʊtkʌm/",
+      "partOfSpeech": "noun",
+      "meaning": "the result of something",
+      "translation": "결과",
+      "example": "We're waiting for the outcome of the meeting.",
+      "exampleTranslation": "회의 결과를 기다리고 있어요."
+    },
+    {
+      "id": "w37",
+      "word": "prospect",
+      "pronunciation": "/ˈprɒspekt/",
+      "partOfSpeech": "noun",
+      "meaning": "the possibility that something will happen",
+      "translation": "전망, 가능성",
+      "example": "There's little prospect of improvement.",
+      "exampleTranslation": "개선의 가능성이 거의 없어요."
+    },
+    {
+      "id": "w38",
+      "word": "intend",
+      "pronunciation": "/ɪnˈtend/",
+      "partOfSpeech": "verb",
+      "meaning": "to plan to do something",
+      "translation": "의도하다, 계획하다",
+      "example": "I intend to study abroad next year.",
+      "exampleTranslation": "내년에 유학 갈 계획이에요."
+    },
+    {
+      "id": "w39",
+      "word": "resolution",
+      "pronunciation": "/ˌrezəˈluːʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "a firm decision to do something",
+      "translation": "결심, 결의",
+      "example": "My New Year's resolution is to eat healthier.",
+      "exampleTranslation": "제 새해 결심은 더 건강하게 먹는 거예요."
+    },
+    {
+      "id": "w40",
+      "word": "potential",
+      "pronunciation": "/pəˈtenʃl/",
+      "partOfSpeech": "adjective/noun",
+      "meaning": "possible; the ability to develop",
+      "translation": "잠재적인; 잠재력",
+      "example": "This idea has great potential.",
+      "exampleTranslation": "이 아이디어는 큰 잠재력이 있어요."
+    },
+    {
+      "id": "w41",
+      "word": "likely",
+      "pronunciation": "/ˈlaɪkli/",
+      "partOfSpeech": "adjective",
+      "meaning": "probable; expected to happen",
+      "translation": "~할 것 같은",
+      "example": "It's likely to rain this afternoon.",
+      "exampleTranslation": "오늘 오후에 비가 올 것 같아요."
+    },
+    {
+      "id": "w42",
+      "word": "beforehand",
+      "pronunciation": "/bɪˈfɔːhænd/",
+      "partOfSpeech": "adverb",
+      "meaning": "before something happens; in advance",
+      "translation": "미리, 사전에",
+      "example": "Please let me know beforehand if you can't come.",
+      "exampleTranslation": "올 수 없으면 미리 알려주세요."
+    },
+    {
+      "id": "w43",
+      "word": "project",
+      "pronunciation": "/ˈprɒdʒekt/",
+      "partOfSpeech": "verb",
+      "meaning": "to estimate or predict future trends",
+      "translation": "예상하다, 추정하다",
+      "example": "Analysts project growth of 5% next year.",
+      "exampleTranslation": "분석가들은 내년 5% 성장을 예상해요."
+    },
+    {
+      "id": "w44",
+      "word": "pursue",
+      "pronunciation": "/pəˈsjuː/",
+      "partOfSpeech": "verb",
+      "meaning": "to follow or try to achieve something",
+      "translation": "추구하다",
+      "example": "She decided to pursue a career in medicine.",
+      "exampleTranslation": "그녀는 의학 분야의 경력을 추구하기로 했어요."
+    },
+    {
+      "id": "w45",
+      "word": "vision",
+      "pronunciation": "/ˈvɪʒn/",
+      "partOfSpeech": "noun",
+      "meaning": "an idea or plan for the future",
+      "translation": "비전, 구상",
+      "example": "He has a clear vision for the company's future.",
+      "exampleTranslation": "그는 회사의 미래에 대한 명확한 비전이 있어요."
+    },
+    {
+      "id": "w46",
+      "word": "timeline",
+      "pronunciation": "/ˈtaɪmlaɪn/",
+      "partOfSpeech": "noun",
+      "meaning": "a plan showing when things should happen",
+      "translation": "일정표, 타임라인",
+      "example": "What's the timeline for completing this project?",
+      "exampleTranslation": "이 프로젝트 완료 일정이 어떻게 되나요?"
+    },
+    {
+      "id": "w47",
+      "word": "milestone",
+      "pronunciation": "/ˈmaɪlstəʊn/",
+      "partOfSpeech": "noun",
+      "meaning": "an important event or stage",
+      "translation": "중요한 단계, 이정표",
+      "example": "Graduating from university was a major milestone.",
+      "exampleTranslation": "대학 졸업은 중요한 이정표였어요."
+    },
+    {
+      "id": "w48",
+      "word": "forthcoming",
+      "pronunciation": "/ˌfɔːθˈkʌmɪŋ/",
+      "partOfSpeech": "adjective",
+      "meaning": "happening or coming soon",
+      "translation": "다가오는, 곧 있을",
+      "example": "Details will be announced in the forthcoming weeks.",
+      "exampleTranslation": "세부사항은 다가오는 몇 주 안에 발표될 거예요."
+    },
+    {
+      "id": "w49",
+      "word": "envisage",
+      "pronunciation": "/ɪnˈvɪzɪdʒ/",
+      "partOfSpeech": "verb",
+      "meaning": "to imagine or expect something in the future",
+      "translation": "상상하다, 예상하다",
+      "example": "I don't envisage any problems with the plan.",
+      "exampleTranslation": "계획에 어떤 문제도 예상되지 않아요."
+    },
+    {
+      "id": "w50",
+      "word": "projection",
+      "pronunciation": "/prəˈdʒekʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "an estimate of future trends or results",
+      "translation": "예측, 추정",
+      "example": "Sales projections for next quarter look good.",
+      "exampleTranslation": "다음 분기 매출 예측이 좋아 보여요."
     }
   ],
 
@@ -338,6 +578,962 @@
       "question": "We _____ high demand during the holiday season.",
       "options": ["anticipate", "postpone", "cancel", "schedule"],
       "answer": "anticipate"
+    },
+    {
+      "id": "ex11",
+      "type": "fill_blank",
+      "question": "She managed to _____ all her goals this year.",
+      "answer": "accomplish"
+    },
+    {
+      "id": "ex12",
+      "type": "translation_ko_en",
+      "question": "회의를 내일로 연기해야 해요.",
+      "answer": "We need to postpone the meeting until tomorrow."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "Our main _____ is to improve customer satisfaction.",
+      "options": ["objective", "estimate", "forecast", "deadline"],
+      "answer": "objective"
+    },
+    {
+      "id": "ex14",
+      "type": "fill_blank",
+      "question": "The weather _____ says it will be sunny tomorrow.",
+      "answer": "forecast"
+    },
+    {
+      "id": "ex15",
+      "type": "translation_en_ko",
+      "question": "I intend to start my own business next year.",
+      "answer": "내년에 제 사업을 시작할 계획이에요."
+    },
+    {
+      "id": "ex16",
+      "type": "matching",
+      "pairs": [
+        {"word": "intention", "match": "what you plan to do"},
+        {"word": "commitment", "match": "a promise or dedication"},
+        {"word": "aspiration", "match": "a strong desire to achieve"},
+        {"word": "resolution", "match": "a firm decision"}
+      ]
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "His _____ is to become a professional musician.",
+      "options": ["aspiration", "deadline", "schedule", "forecast"],
+      "answer": "aspiration"
+    },
+    {
+      "id": "ex18",
+      "type": "fill_blank",
+      "question": "The economic _____ for next year is positive.",
+      "answer": "outlook"
+    },
+    {
+      "id": "ex19",
+      "type": "translation_ko_en",
+      "question": "저는 현실적인 목표를 세우는 게 중요하다고 생각해요.",
+      "answer": "I think it's important to set realistic goals."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "Good _____ is essential for success.",
+      "options": ["preparation", "cancellation", "possibility", "tendency"],
+      "answer": "preparation"
+    },
+    {
+      "id": "ex21",
+      "type": "fill_blank",
+      "question": "We need a new marketing _____ to reach younger customers.",
+      "answer": "strategy"
+    },
+    {
+      "id": "ex22",
+      "type": "translation_en_ko",
+      "question": "They will implement the new policy next month.",
+      "answer": "그들은 다음 달 새 정책을 실행할 거예요."
+    },
+    {
+      "id": "ex23",
+      "type": "matching",
+      "pairs": [
+        {"word": "achieve", "match": "to successfully complete"},
+        {"word": "accomplish", "match": "to succeed in doing"},
+        {"word": "pursue", "match": "to try to achieve"},
+        {"word": "implement", "match": "to put into action"}
+      ]
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "I hope to _____ my dreams someday.",
+      "options": ["achieve", "postpone", "cancel", "estimate"],
+      "answer": "achieve"
+    },
+    {
+      "id": "ex25",
+      "type": "fill_blank",
+      "question": "They submitted a _____ for the new project.",
+      "answer": "proposal"
+    },
+    {
+      "id": "ex26",
+      "type": "translation_ko_en",
+      "question": "우리는 회의 결과를 기다리고 있어요.",
+      "answer": "We're waiting for the outcome of the meeting."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "There's little _____ of improvement in the situation.",
+      "options": ["prospect", "schedule", "deadline", "commitment"],
+      "answer": "prospect"
+    },
+    {
+      "id": "ex28",
+      "type": "fill_blank",
+      "question": "My New Year's _____ is to exercise more regularly.",
+      "answer": "resolution"
+    },
+    {
+      "id": "ex29",
+      "type": "translation_en_ko",
+      "question": "This idea has great potential.",
+      "answer": "이 아이디어는 큰 잠재력이 있어요."
+    },
+    {
+      "id": "ex30",
+      "type": "matching",
+      "pairs": [
+        {"word": "potential", "match": "ability to develop"},
+        {"word": "prospect", "match": "possibility in the future"},
+        {"word": "outlook", "match": "expected future situation"},
+        {"word": "vision", "match": "plan for the future"}
+      ]
+    },
+    {
+      "id": "ex31",
+      "type": "multiple_choice",
+      "question": "It's _____ to rain this afternoon according to the forecast.",
+      "options": ["likely", "schedule", "deadline", "intention"],
+      "answer": "likely"
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "question": "Please let me know _____ if you need any help.",
+      "answer": "beforehand"
+    },
+    {
+      "id": "ex33",
+      "type": "translation_ko_en",
+      "question": "분석가들은 내년 5% 성장을 예상해요.",
+      "answer": "Analysts project growth of 5% next year."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple_choice",
+      "question": "She decided to _____ a career in medicine.",
+      "options": ["pursue", "cancel", "postpone", "estimate"],
+      "answer": "pursue"
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "He has a clear _____ for the company's future.",
+      "answer": "vision"
+    },
+    {
+      "id": "ex36",
+      "type": "translation_en_ko",
+      "question": "What's the timeline for completing this project?",
+      "answer": "이 프로젝트 완료 일정이 어떻게 되나요?"
+    },
+    {
+      "id": "ex37",
+      "type": "matching",
+      "pairs": [
+        {"word": "timeline", "match": "plan showing when things happen"},
+        {"word": "deadline", "match": "last time for completion"},
+        {"word": "schedule", "match": "plan of activities"},
+        {"word": "milestone", "match": "important stage"}
+      ]
+    },
+    {
+      "id": "ex38",
+      "type": "multiple_choice",
+      "question": "Graduating from university was a major _____.",
+      "options": ["milestone", "estimate", "tendency", "possibility"],
+      "answer": "milestone"
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "question": "Details will be announced in the _____ weeks.",
+      "answer": "forthcoming"
+    },
+    {
+      "id": "ex40",
+      "type": "translation_ko_en",
+      "question": "계획에 어떤 문제도 예상되지 않아요.",
+      "answer": "I don't envisage any problems with the plan."
+    },
+    {
+      "id": "ex41",
+      "type": "multiple_choice",
+      "question": "Sales _____ for next quarter look good.",
+      "options": ["projections", "cancellations", "postponements", "confirmations"],
+      "answer": "projections"
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "I _____ the project will take about three months.",
+      "answer": "estimate"
+    },
+    {
+      "id": "ex43",
+      "type": "translation_en_ko",
+      "question": "Prices tend to rise during the holiday season.",
+      "answer": "가격은 휴가 시즌에 오르는 경향이 있어요."
+    },
+    {
+      "id": "ex44",
+      "type": "matching",
+      "pairs": [
+        {"word": "predict", "match": "say what will happen"},
+        {"word": "expect", "match": "think something will happen"},
+        {"word": "anticipate", "match": "expect and prepare for"},
+        {"word": "envisage", "match": "imagine in the future"}
+      ]
+    },
+    {
+      "id": "ex45",
+      "type": "multiple_choice",
+      "question": "Change is _____ in any growing organization.",
+      "options": ["inevitable", "unlikely", "cancelled", "postponed"],
+      "answer": "inevitable"
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "Are you ready for the _____ exam?",
+      "answer": "upcoming"
+    },
+    {
+      "id": "ex47",
+      "type": "translation_ko_en",
+      "question": "결국에는 제 목표를 달성하고 싶어요.",
+      "answer": "Eventually, I want to achieve my goals."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple_choice",
+      "question": "I've _____ a meeting with the new client for next Tuesday.",
+      "options": ["arranged", "estimated", "predicted", "tended"],
+      "answer": "arranged"
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "We _____ that sales will increase next year.",
+      "answer": "expect"
+    },
+    {
+      "id": "ex50",
+      "type": "translation_en_ko",
+      "question": "My intention is to finish this course by the end of the year.",
+      "answer": "제 계획은 연말까지 이 과정을 끝내는 거예요."
+    },
+    {
+      "id": "ex51",
+      "type": "matching",
+      "pairs": [
+        {"word": "probably", "match": "likely to happen"},
+        {"word": "definitely", "match": "certainly; without doubt"},
+        {"word": "eventually", "match": "in the end"},
+        {"word": "beforehand", "match": "in advance"}
+      ]
+    },
+    {
+      "id": "ex52",
+      "type": "multiple_choice",
+      "question": "I've made a _____ to study every day.",
+      "options": ["commitment", "cancellation", "postponement", "estimation"],
+      "answer": "commitment"
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "My _____ is to improve my English speaking skills.",
+      "answer": "aim"
+    },
+    {
+      "id": "ex54",
+      "type": "translation_ko_en",
+      "question": "우리는 새 정책을 다음 달에 실행할 거예요.",
+      "answer": "We will implement the new policy next month."
+    },
+    {
+      "id": "ex55",
+      "type": "multiple_choice",
+      "question": "What's your _____ for next week?",
+      "options": ["schedule", "prospect", "vision", "resolution"],
+      "answer": "schedule"
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "She has very _____ plans for her career.",
+      "answer": "ambitious"
+    },
+    {
+      "id": "ex57",
+      "type": "translation_en_ko",
+      "question": "There's a possibility that the flight will be delayed.",
+      "answer": "비행기가 지연될 가능성이 있어요."
+    },
+    {
+      "id": "ex58",
+      "type": "matching",
+      "pairs": [
+        {"word": "proposal", "match": "a plan or suggestion"},
+        {"word": "strategy", "match": "plan for achieving something"},
+        {"word": "preparation", "match": "getting ready"},
+        {"word": "outcome", "match": "the result"}
+      ]
+    },
+    {
+      "id": "ex59",
+      "type": "multiple_choice",
+      "question": "It's _____ that we'll finish on time with this delay.",
+      "options": ["unlikely", "definite", "scheduled", "committed"],
+      "answer": "unlikely"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "I _____ arrive around 7 o'clock.",
+      "answer": "probably"
+    },
+    {
+      "id": "ex61",
+      "type": "translation_ko_en",
+      "question": "미리 티켓을 예약하는 게 좋아요.",
+      "answer": "It's better to book tickets in advance."
+    },
+    {
+      "id": "ex62",
+      "type": "multiple_choice",
+      "question": "I had to _____ my dentist appointment.",
+      "options": ["cancel", "achieve", "accomplish", "pursue"],
+      "answer": "cancel"
+    },
+    {
+      "id": "ex63",
+      "type": "fill_blank",
+      "question": "Can you _____ the reservation for tomorrow?",
+      "answer": "confirm"
+    },
+    {
+      "id": "ex64",
+      "type": "translation_en_ko",
+      "question": "We need to set realistic goals for the team.",
+      "answer": "우리는 팀을 위한 현실적인 목표를 세워야 해요."
+    },
+    {
+      "id": "ex65",
+      "type": "matching",
+      "pairs": [
+        {"word": "likely", "match": "probable"},
+        {"word": "unlikely", "match": "not probable"},
+        {"word": "inevitable", "match": "certain to happen"},
+        {"word": "potential", "match": "possible"}
+      ]
+    },
+    {
+      "id": "ex66",
+      "type": "multiple_choice",
+      "question": "The _____ for the application is next Friday.",
+      "options": ["deadline", "vision", "aspiration", "resolution"],
+      "answer": "deadline"
+    },
+    {
+      "id": "ex67",
+      "type": "fill_blank",
+      "question": "My top _____ right now is finding a new job.",
+      "answer": "priority"
+    },
+    {
+      "id": "ex68",
+      "type": "translation_ko_en",
+      "question": "그는 회사의 미래에 대한 명확한 비전이 있어요.",
+      "answer": "He has a clear vision for the company's future."
+    },
+    {
+      "id": "ex69",
+      "type": "multiple_choice",
+      "question": "The company will _____ the new system in January.",
+      "options": ["implement", "postpone", "cancel", "estimate"],
+      "answer": "implement"
+    },
+    {
+      "id": "ex70",
+      "type": "fill_blank",
+      "question": "I _____ to learn Spanish next year.",
+      "answer": "intend"
+    },
+    {
+      "id": "ex71",
+      "type": "translation_en_ko",
+      "question": "They submitted a proposal for the new project.",
+      "answer": "그들은 새 프로젝트 제안서를 제출했어요."
+    },
+    {
+      "id": "ex72",
+      "type": "matching",
+      "pairs": [
+        {"word": "arrange", "match": "organize or plan"},
+        {"word": "schedule", "match": "plan when things happen"},
+        {"word": "postpone", "match": "delay to later"},
+        {"word": "cancel", "match": "decide not to do"}
+      ]
+    },
+    {
+      "id": "ex73",
+      "type": "multiple_choice",
+      "question": "Sales _____ for next year are very optimistic.",
+      "options": ["projections", "arrangements", "cancellations", "postponements"],
+      "answer": "projections"
+    },
+    {
+      "id": "ex74",
+      "type": "fill_blank",
+      "question": "Graduating was an important _____ in my life.",
+      "answer": "milestone"
+    },
+    {
+      "id": "ex75",
+      "type": "translation_ko_en",
+      "question": "다음 분기 매출 예측이 좋아 보여요.",
+      "answer": "Sales projections for next quarter look good."
+    },
+    {
+      "id": "ex76",
+      "type": "multiple_choice",
+      "question": "The _____ is expected to be announced tomorrow.",
+      "options": ["outcome", "intention", "commitment", "tendency"],
+      "answer": "outcome"
+    },
+    {
+      "id": "ex77",
+      "type": "fill_blank",
+      "question": "Details will be provided in the _____ newsletter.",
+      "answer": "forthcoming"
+    },
+    {
+      "id": "ex78",
+      "type": "translation_en_ko",
+      "question": "I don't anticipate any problems with the plan.",
+      "answer": "계획에 어떤 문제도 예상하지 않아요."
+    },
+    {
+      "id": "ex79",
+      "type": "matching",
+      "pairs": [
+        {"word": "aim", "match": "purpose or goal"},
+        {"word": "objective", "match": "something to achieve"},
+        {"word": "aspiration", "match": "strong desire"},
+        {"word": "commitment", "match": "promise or dedication"}
+      ]
+    },
+    {
+      "id": "ex80",
+      "type": "multiple_choice",
+      "question": "She decided to _____ a degree in engineering.",
+      "options": ["pursue", "estimate", "forecast", "tend"],
+      "answer": "pursue"
+    },
+    {
+      "id": "ex81",
+      "type": "fill_blank",
+      "question": "The economic _____ is uncertain at the moment.",
+      "answer": "outlook"
+    },
+    {
+      "id": "ex82",
+      "type": "translation_ko_en",
+      "question": "철저한 준비가 성공의 열쇠예요.",
+      "answer": "Good preparation is the key to success."
+    },
+    {
+      "id": "ex83",
+      "type": "multiple_choice",
+      "question": "I _____ the repair will cost around $200.",
+      "options": ["estimate", "confirm", "cancel", "postpone"],
+      "answer": "estimate"
+    },
+    {
+      "id": "ex84",
+      "type": "fill_blank",
+      "question": "There's little _____ of change in the near future.",
+      "answer": "prospect"
+    },
+    {
+      "id": "ex85",
+      "type": "translation_en_ko",
+      "question": "My aspiration is to become a successful entrepreneur.",
+      "answer": "제 포부는 성공한 기업가가 되는 거예요."
+    },
+    {
+      "id": "ex86",
+      "type": "matching",
+      "pairs": [
+        {"word": "forecast", "match": "predict the future"},
+        {"word": "projection", "match": "estimate of trends"},
+        {"word": "estimate", "match": "guess size or cost"},
+        {"word": "anticipate", "match": "expect something"}
+      ]
+    },
+    {
+      "id": "ex87",
+      "type": "multiple_choice",
+      "question": "This project has great _____.",
+      "options": ["potential", "deadline", "schedule", "cancellation"],
+      "answer": "potential"
+    },
+    {
+      "id": "ex88",
+      "type": "fill_blank",
+      "question": "We need to _____ a strategy for the new market.",
+      "answer": "implement"
+    },
+    {
+      "id": "ex89",
+      "type": "translation_ko_en",
+      "question": "올 수 없으면 미리 알려주세요.",
+      "answer": "Please let me know beforehand if you can't come."
+    },
+    {
+      "id": "ex90",
+      "type": "multiple_choice",
+      "question": "I don't _____ any difficulties with this task.",
+      "options": ["envisage", "cancel", "postpone", "confirm"],
+      "answer": "envisage"
+    },
+    {
+      "id": "ex91",
+      "type": "fill_blank",
+      "question": "What's the _____ for completing the construction?",
+      "answer": "timeline"
+    },
+    {
+      "id": "ex92",
+      "type": "translation_en_ko",
+      "question": "Experts predict that prices will continue to rise.",
+      "answer": "전문가들은 가격이 계속 오를 것이라고 예측해요."
+    },
+    {
+      "id": "ex93",
+      "type": "matching",
+      "pairs": [
+        {"word": "upcoming", "match": "happening soon"},
+        {"word": "forthcoming", "match": "coming soon"},
+        {"word": "eventual", "match": "happening in the end"},
+        {"word": "in advance", "match": "beforehand"}
+      ]
+    },
+    {
+      "id": "ex94",
+      "type": "multiple_choice",
+      "question": "She managed to _____ all her objectives this year.",
+      "options": ["accomplish", "postpone", "cancel", "estimate"],
+      "answer": "accomplish"
+    },
+    {
+      "id": "ex95",
+      "type": "fill_blank",
+      "question": "The weather _____ predicts rain for the weekend.",
+      "answer": "forecast"
+    },
+    {
+      "id": "ex96",
+      "type": "translation_ko_en",
+      "question": "이 아이디어는 큰 가능성이 있어요.",
+      "answer": "This idea has great potential."
+    },
+    {
+      "id": "ex97",
+      "type": "multiple_choice",
+      "question": "People _____ spend more during the holidays.",
+      "options": ["tend to", "confirm to", "cancel to", "postpone to"],
+      "answer": "tend to"
+    },
+    {
+      "id": "ex98",
+      "type": "fill_blank",
+      "question": "_____, I want to retire by the age of 60.",
+      "answer": "Eventually"
+    },
+    {
+      "id": "ex99",
+      "type": "translation_en_ko",
+      "question": "I expect the meeting to last about two hours.",
+      "answer": "회의가 약 두 시간 정도 걸릴 것으로 예상해요."
+    },
+    {
+      "id": "ex100",
+      "type": "matching",
+      "pairs": [
+        {"word": "achieve", "match": "successfully complete"},
+        {"word": "accomplish", "match": "succeed in doing"},
+        {"word": "implement", "match": "put into action"},
+        {"word": "pursue", "match": "try to achieve"}
+      ]
+    },
+    {
+      "id": "ex101",
+      "type": "multiple_choice",
+      "question": "Making a detailed plan is good _____.",
+      "options": ["preparation", "cancellation", "postponement", "estimation"],
+      "answer": "preparation"
+    },
+    {
+      "id": "ex102",
+      "type": "fill_blank",
+      "question": "We _____ to open three new stores next year.",
+      "answer": "intend"
+    },
+    {
+      "id": "ex103",
+      "type": "translation_ko_en",
+      "question": "제 새해 결심은 더 건강하게 먹는 거예요.",
+      "answer": "My New Year's resolution is to eat healthier."
+    },
+    {
+      "id": "ex104",
+      "type": "multiple_choice",
+      "question": "The CEO shared his _____ for the company's future.",
+      "options": ["vision", "deadline", "cancellation", "postponement"],
+      "answer": "vision"
+    },
+    {
+      "id": "ex105",
+      "type": "fill_blank",
+      "question": "Analysts _____ 10% growth for the industry.",
+      "answer": "project"
+    },
+    {
+      "id": "ex106",
+      "type": "translation_en_ko",
+      "question": "Are you ready for the upcoming presentation?",
+      "answer": "다가오는 발표 준비 됐어요?"
+    },
+    {
+      "id": "ex107",
+      "type": "matching",
+      "pairs": [
+        {"word": "priority", "match": "most important thing"},
+        {"word": "milestone", "match": "important stage"},
+        {"word": "timeline", "match": "schedule of events"},
+        {"word": "deadline", "match": "final date"}
+      ]
+    },
+    {
+      "id": "ex108",
+      "type": "multiple_choice",
+      "question": "She has very _____ expectations for her children.",
+      "options": ["realistic", "cancelled", "postponed", "estimated"],
+      "answer": "realistic"
+    },
+    {
+      "id": "ex109",
+      "type": "fill_blank",
+      "question": "We need a clear _____ to win this competition.",
+      "answer": "strategy"
+    },
+    {
+      "id": "ex110",
+      "type": "translation_ko_en",
+      "question": "언젠가 제 꿈을 이루길 바라요.",
+      "answer": "I hope to achieve my dreams someday."
+    },
+    {
+      "id": "ex111",
+      "type": "multiple_choice",
+      "question": "I _____ that this task will be challenging.",
+      "options": ["expect", "cancel", "postpone", "confirm"],
+      "answer": "expect"
+    },
+    {
+      "id": "ex112",
+      "type": "fill_blank",
+      "question": "Please prepare all documents _____.",
+      "answer": "beforehand"
+    },
+    {
+      "id": "ex113",
+      "type": "translation_en_ko",
+      "question": "They decided to postpone the event until next month.",
+      "answer": "그들은 행사를 다음 달로 연기하기로 했어요."
+    },
+    {
+      "id": "ex114",
+      "type": "matching",
+      "pairs": [
+        {"word": "predict", "match": "say what will happen"},
+        {"word": "project", "match": "estimate future trends"},
+        {"word": "forecast", "match": "statement about future"},
+        {"word": "envisage", "match": "imagine in future"}
+      ]
+    },
+    {
+      "id": "ex115",
+      "type": "multiple_choice",
+      "question": "The _____ date for completion is December 31st.",
+      "options": ["deadline", "vision", "aspiration", "commitment"],
+      "answer": "deadline"
+    },
+    {
+      "id": "ex116",
+      "type": "fill_blank",
+      "question": "There's a strong _____ that prices will increase.",
+      "answer": "possibility"
+    },
+    {
+      "id": "ex117",
+      "type": "translation_ko_en",
+      "question": "우리는 높은 수요를 예상해요.",
+      "answer": "We anticipate high demand."
+    },
+    {
+      "id": "ex118",
+      "type": "multiple_choice",
+      "question": "I've _____ all the travel arrangements.",
+      "options": ["arranged", "estimated", "predicted", "tended"],
+      "answer": "arranged"
+    },
+    {
+      "id": "ex119",
+      "type": "fill_blank",
+      "question": "Becoming a doctor is her lifelong _____.",
+      "answer": "aspiration"
+    },
+    {
+      "id": "ex120",
+      "type": "translation_en_ko",
+      "question": "It's unlikely that we'll finish before Friday.",
+      "answer": "금요일 전에 끝내기는 어려울 것 같아요."
+    },
+    {
+      "id": "ex121",
+      "type": "matching",
+      "pairs": [
+        {"word": "intention", "match": "plan to do something"},
+        {"word": "aim", "match": "purpose or goal"},
+        {"word": "objective", "match": "target to achieve"},
+        {"word": "vision", "match": "idea for future"}
+      ]
+    },
+    {
+      "id": "ex122",
+      "type": "multiple_choice",
+      "question": "We must _____ our promises to customers.",
+      "options": ["confirm", "estimate", "predict", "tend"],
+      "answer": "confirm"
+    },
+    {
+      "id": "ex123",
+      "type": "fill_blank",
+      "question": "The _____ results exceeded our expectations.",
+      "answer": "outcome"
+    },
+    {
+      "id": "ex124",
+      "type": "translation_ko_en",
+      "question": "내년에 유학 갈 계획이에요.",
+      "answer": "I intend to study abroad next year."
+    },
+    {
+      "id": "ex125",
+      "type": "multiple_choice",
+      "question": "Further details will be available in the _____ days.",
+      "options": ["forthcoming", "cancelled", "postponed", "estimated"],
+      "answer": "forthcoming"
+    },
+    {
+      "id": "ex126",
+      "type": "fill_blank",
+      "question": "I'll _____ arrive late due to traffic.",
+      "answer": "probably"
+    },
+    {
+      "id": "ex127",
+      "type": "translation_en_ko",
+      "question": "She has ambitious plans for her business.",
+      "answer": "그녀는 사업에 대해 야심 찬 계획을 갖고 있어요."
+    },
+    {
+      "id": "ex128",
+      "type": "matching",
+      "pairs": [
+        {"word": "outcome", "match": "the result"},
+        {"word": "projection", "match": "estimate of future"},
+        {"word": "prospect", "match": "possibility ahead"},
+        {"word": "potential", "match": "ability to develop"}
+      ]
+    },
+    {
+      "id": "ex129",
+      "type": "multiple_choice",
+      "question": "Technological advancement is _____.",
+      "options": ["inevitable", "cancelled", "postponed", "estimated"],
+      "answer": "inevitable"
+    },
+    {
+      "id": "ex130",
+      "type": "fill_blank",
+      "question": "I've made a strong _____ to improving my health.",
+      "answer": "commitment"
+    },
+    {
+      "id": "ex131",
+      "type": "translation_ko_en",
+      "question": "확실히 내일 그곳에 갈 거예요.",
+      "answer": "I'll definitely be there tomorrow."
+    },
+    {
+      "id": "ex132",
+      "type": "multiple_choice",
+      "question": "What's the _____ for this quarter's sales?",
+      "options": ["projection", "cancellation", "postponement", "confirmation"],
+      "answer": "projection"
+    },
+    {
+      "id": "ex133",
+      "type": "fill_blank",
+      "question": "Please _____ your reservation 24 hours in advance.",
+      "answer": "confirm"
+    },
+    {
+      "id": "ex134",
+      "type": "translation_en_ko",
+      "question": "Good preparation is essential for success.",
+      "answer": "좋은 준비는 성공에 필수적이에요."
+    },
+    {
+      "id": "ex135",
+      "type": "matching",
+      "pairs": [
+        {"word": "realistic", "match": "based on facts"},
+        {"word": "ambitious", "match": "having big goals"},
+        {"word": "likely", "match": "probable"},
+        {"word": "unlikely", "match": "not probable"}
+      ]
+    },
+    {
+      "id": "ex136",
+      "type": "multiple_choice",
+      "question": "I _____ to retire early and travel the world.",
+      "options": ["aim", "cancel", "postpone", "estimate"],
+      "answer": "aim"
+    },
+    {
+      "id": "ex137",
+      "type": "fill_blank",
+      "question": "Reaching this sales target is an important _____.",
+      "answer": "milestone"
+    },
+    {
+      "id": "ex138",
+      "type": "translation_ko_en",
+      "question": "가격은 여름에 오르는 경향이 있어요.",
+      "answer": "Prices tend to rise in summer."
+    },
+    {
+      "id": "ex139",
+      "type": "multiple_choice",
+      "question": "We need to _____ a new marketing campaign soon.",
+      "options": ["implement", "estimate", "predict", "tend"],
+      "answer": "implement"
+    },
+    {
+      "id": "ex140",
+      "type": "fill_blank",
+      "question": "The company's financial _____ is improving.",
+      "answer": "outlook"
+    },
+    {
+      "id": "ex141",
+      "type": "translation_en_ko",
+      "question": "I estimate the project will take six months.",
+      "answer": "프로젝트가 6개월 정도 걸릴 것으로 추정해요."
+    },
+    {
+      "id": "ex142",
+      "type": "matching",
+      "pairs": [
+        {"word": "arrange", "match": "organize or plan"},
+        {"word": "implement", "match": "put into action"},
+        {"word": "accomplish", "match": "succeed in doing"},
+        {"word": "achieve", "match": "successfully complete"}
+      ]
+    },
+    {
+      "id": "ex143",
+      "type": "multiple_choice",
+      "question": "They _____ strong growth in the Asian market.",
+      "options": ["anticipate", "cancel", "postpone", "confirm"],
+      "answer": "anticipate"
+    },
+    {
+      "id": "ex144",
+      "type": "fill_blank",
+      "question": "Setting clear objectives is important for any _____.",
+      "answer": "strategy"
+    },
+    {
+      "id": "ex145",
+      "type": "translation_ko_en",
+      "question": "그녀는 올해 모든 목표를 달성했어요.",
+      "answer": "She accomplished all her goals this year."
+    },
+    {
+      "id": "ex146",
+      "type": "multiple_choice",
+      "question": "The weather _____ shows rain for the entire week.",
+      "options": ["forecast", "deadline", "schedule", "commitment"],
+      "answer": "forecast"
+    },
+    {
+      "id": "ex147",
+      "type": "fill_blank",
+      "question": "I don't _____ any major changes in the near future.",
+      "answer": "envisage"
+    },
+    {
+      "id": "ex148",
+      "type": "translation_en_ko",
+      "question": "There's little prospect of improvement this year.",
+      "answer": "올해 개선의 가능성이 거의 없어요."
+    },
+    {
+      "id": "ex149",
+      "type": "multiple_choice",
+      "question": "Her _____ is to get promoted within two years.",
+      "options": ["objective", "cancellation", "postponement", "estimation"],
+      "answer": "objective"
+    },
+    {
+      "id": "ex150",
+      "type": "fill_blank",
+      "question": "It's _____ to snow tomorrow according to the forecast.",
+      "answer": "likely"
     }
   ]
 }

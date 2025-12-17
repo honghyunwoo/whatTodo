@@ -1,0 +1,132 @@
+{
+  "id": "c2-speaking-week-2",
+  "type": "speaking",
+  "level": "C2",
+  "weekId": "week-2",
+  "title": "Philosophical Dialogue",
+  "description": "Engaging in Socratic questioning and dialectical exchange",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "exercises": [
+    {
+      "id": "c2-s2-ex1",
+      "type": "socratic-questioning",
+      "title": "The Elenchus Method",
+      "instruction": "Practice Socratic questioning by challenging assumptions in the given claim",
+      "claim": "Knowledge is simply true belief.",
+      "questioningSequence": [
+        {
+          "step": 1,
+          "technique": "Request definition",
+          "example": "What exactly do you mean by 'belief' in this context?"
+        },
+        {
+          "step": 2,
+          "technique": "Test with counterexample",
+          "example": "Consider someone who believes it will rain tomorrow, and it does rain. Did they 'know' it would rain, or merely believe correctly?"
+        },
+        {
+          "step": 3,
+          "technique": "Probe for justification",
+          "example": "If someone believes something true by accident—a lucky guess—would you call that knowledge?"
+        },
+        {
+          "step": 4,
+          "technique": "Reveal inconsistency",
+          "example": "So you're suggesting that knowledge requires something more than true belief—perhaps justification? But this seems to contradict your original definition."
+        }
+      ],
+      "usefulPhrases": [
+        "What do you mean precisely when you say...?",
+        "But consider the case where...",
+        "Wouldn't that imply that...?",
+        "How do you reconcile that with...?",
+        "If we follow that reasoning, wouldn't we have to conclude...?"
+      ]
+    },
+    {
+      "id": "c2-s2-ex2",
+      "type": "thought-experiment",
+      "title": "Constructing Thought Experiments",
+      "instruction": "Present and analyze the following thought experiment orally",
+      "experiment": {
+        "name": "The Experience Machine",
+        "description": "Imagine a machine that could give you any experience you desired. While connected, you would believe the experiences were real. Would you plug in for life?",
+        "purpose": "Tests whether we value only experiences or also reality and authenticity"
+      },
+      "discussionFramework": [
+        "Present the scenario clearly and neutrally",
+        "Articulate the intuitive response the experiment is designed to elicit",
+        "Consider objections to the intuition",
+        "Explore what the thought experiment reveals about our values",
+        "Acknowledge the limits of the experiment's probative force"
+      ],
+      "modelOpening": "I'd like to present a thought experiment devised by the philosopher Robert Nozick. Imagine, if you will, a machine capable of simulating any experience you might desire..."
+    },
+    {
+      "id": "c2-s2-ex3",
+      "type": "devil's-advocate",
+      "title": "Steelmanning Opposing Views",
+      "instruction": "Present the strongest version of a position you personally reject",
+      "position": "Moral truths are objective and universal, not culturally relative",
+      "task": "Even if you personally believe in moral relativism, construct and articulate the most compelling argument for moral objectivism",
+      "steelmanningPrinciples": [
+        "Present the position more compellingly than its proponents might",
+        "Address the best arguments, not the weakest",
+        "Acknowledge genuine insights in the opposing view",
+        "Distinguish the strongest version from weaker variants"
+      ],
+      "usefulPhrases": [
+        "The most sophisticated version of this argument holds that...",
+        "While often caricatured as..., the position is better understood as...",
+        "Even skeptics must acknowledge that this view has explanatory power regarding...",
+        "The most formidable challenge this position poses to my own view is..."
+      ]
+    },
+    {
+      "id": "c2-s2-ex4",
+      "type": "meta-commentary",
+      "title": "Reflecting on Discourse",
+      "instruction": "Practice stepping back to comment on the nature and structure of a discussion",
+      "scenarios": [
+        "The discussion has reached an impasse; both parties are talking past each other",
+        "A key term is being used in different senses by different participants",
+        "The conversation has drifted far from its original topic"
+      ],
+      "phrases": {
+        "diagnosing": [
+          "I suspect we're operating with different definitions of...",
+          "It seems we may be addressing different questions here.",
+          "Our disagreement appears to be less substantive than terminological."
+        ],
+        "reframing": [
+          "Perhaps we might approach this from a different angle.",
+          "Let's step back and clarify what we're actually disputing.",
+          "I wonder whether our disagreement dissolves if we distinguish between..."
+        ],
+        "synthesizing": [
+          "Despite our apparent disagreement, we both seem to accept that...",
+          "If I understand correctly, the crux of our difference lies in...",
+          "Perhaps there's a formulation that preserves the insights of both positions."
+        ]
+      }
+    }
+  ],
+  "pronunciationFocus": [
+    {
+      "word": "epistemological",
+      "ipa": "/ɪˌpɪstəməˈlɒdʒɪkəl/",
+      "note": "Five syllables; stress on fourth syllable 'lo'"
+    },
+    {
+      "word": "hermeneutic",
+      "ipa": "/ˌhɜːmɪˈnjuːtɪk/",
+      "note": "Stress on third syllable 'neu'; often mispronounced"
+    },
+    {
+      "word": "dialectical",
+      "ipa": "/ˌdaɪəˈlektɪkəl/",
+      "note": "Stress on third syllable 'lec'"
+    }
+  ]
+}

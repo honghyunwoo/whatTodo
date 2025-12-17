@@ -1,0 +1,142 @@
+{
+  "id": "c2-speaking-week-3",
+  "type": "speaking",
+  "level": "C2",
+  "weekId": "week-3",
+  "title": "Academic Discourse and Symposia",
+  "description": "Participating in high-level academic discussions and conferences",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "exercises": [
+    {
+      "id": "c2-s3-ex1",
+      "type": "paper-presentation",
+      "title": "Presenting Research Findings",
+      "instruction": "Practice the structure and language of academic paper presentations",
+      "structure": {
+        "opening": [
+          "I want to thank the organizers for the opportunity to share this work.",
+          "Today I'll be presenting findings from a study that examines...",
+          "My aim is to contribute to ongoing conversations about..."
+        ],
+        "contextualizing": [
+          "This research emerges from a broader inquiry into...",
+          "My work builds on and extends scholarship by...",
+          "The question I want to address has implications for..."
+        ],
+        "presenting_argument": [
+          "I want to advance three claims today...",
+          "My central thesis is that...",
+          "I will argue that previous accounts have overlooked..."
+        ],
+        "closing": [
+          "In closing, I want to emphasize the provisional nature of these findings.",
+          "I look forward to your questions and the opportunity to think together about these issues.",
+          "This research opens several avenues for further inquiry, particularly..."
+        ]
+      }
+    },
+    {
+      "id": "c2-s3-ex2",
+      "type": "scholarly-intervention",
+      "title": "Making Scholarly Interventions",
+      "instruction": "Learn to position your contribution within existing debates",
+      "moves": [
+        {
+          "name": "The corrective",
+          "description": "Identify a gap or error in existing scholarship",
+          "example": "While scholarship has thoroughly examined X, it has largely neglected the significance of Y."
+        },
+        {
+          "name": "The synthesis",
+          "description": "Bring together disparate approaches",
+          "example": "By bringing insights from literary studies into dialogue with cognitive science, we can develop a richer understanding of..."
+        },
+        {
+          "name": "The paradigm challenge",
+          "description": "Question fundamental assumptions",
+          "example": "I want to suggest that our very framing of this problem is what prevents progress. Rather than asking X, we should be asking Y."
+        },
+        {
+          "name": "The case study",
+          "description": "Use a specific example to illuminate broader issues",
+          "example": "This particular text, while seemingly marginal, reveals tensions that are constitutive of the entire genre."
+        }
+      ]
+    },
+    {
+      "id": "c2-s3-ex3",
+      "type": "scholarly-disagreement",
+      "title": "Disagreeing Respectfully",
+      "instruction": "Practice expressing disagreement in academic contexts",
+      "strategies": [
+        {
+          "approach": "The partial agreement",
+          "phrases": [
+            "I take your point about X, but I wonder whether it fully accounts for...",
+            "There's much to admire in this analysis, though I'm not yet persuaded that...",
+            "I'm sympathetic to this reading, but it seems to me that..."
+          ]
+        },
+        {
+          "approach": "The clarification request",
+          "phrases": [
+            "I want to make sure I understand your claim correctly. Are you suggesting that...?",
+            "Could you say more about how you're using the term X? I wonder if we might mean different things by it.",
+            "Help me understand how this squares with..."
+          ]
+        },
+        {
+          "approach": "The methodological concern",
+          "phrases": [
+            "I'm curious about the archive you've constructed. How do you account for...?",
+            "What would count as evidence against this thesis?",
+            "Is there a risk that this framework is confirming what we already expect to find?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-s3-ex4",
+      "type": "response-to-criticism",
+      "title": "Responding to Critique",
+      "instruction": "Practice receiving and responding to scholarly criticism graciously",
+      "scenario": "A questioner has challenged a fundamental assumption in your presentation",
+      "responses": {
+        "acknowledging": [
+          "That's a really generative challenge, and I think you've identified a tension I haven't fully resolved.",
+          "You've put your finger on exactly the issue that has given me the most trouble in this project."
+        ],
+        "clarifying": [
+          "I think there may be a misunderstanding about my claim. Let me try to state it more precisely...",
+          "My argument is perhaps more modest than it appeared. I'm not claiming X, but rather..."
+        ],
+        "engaging": [
+          "That's an interesting counter-example. Let me think through how it might relate to my framework...",
+          "I think that objection would be decisive if my argument depended on X. But my claim is actually..."
+        ],
+        "deferring": [
+          "That's a question I don't have a satisfying answer to yet, and I think it points to where this project needs to go next.",
+          "You've raised something that deserves more attention than I can give it in the time remaining. Might we continue this conversation afterward?"
+        ]
+      }
+    }
+  ],
+  "pronunciationFocus": [
+    {
+      "word": "paradigm",
+      "ipa": "/ˈpærədaɪm/",
+      "note": "Stress on first syllable; 'g' is silent"
+    },
+    {
+      "word": "genre",
+      "ipa": "/ˈʒɒnrə/",
+      "note": "French origin; 'g' is soft as in 'measure'"
+    },
+    {
+      "word": "nuance",
+      "ipa": "/ˈnjuːɑːns/",
+      "note": "French origin; stress on first syllable"
+    }
+  ]
+}

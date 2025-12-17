@@ -276,48 +276,1219 @@
       "translation": "다각화하다",
       "example": "The company decided to diversify its product range.",
       "partOfSpeech": "verb"
+    },
+    {
+      "id": "w31",
+      "word": "accountability",
+      "pronunciation": "/əˌkaʊntəˈbɪləti/",
+      "meaning": "responsibility for one's actions and decisions",
+      "translation": "책임, 의무",
+      "example": "Managers must demonstrate accountability for their team's performance.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w32",
+      "word": "objective",
+      "pronunciation": "/əbˈdʒektɪv/",
+      "meaning": "a goal or aim to be achieved",
+      "translation": "목표, 목적",
+      "example": "Our main objective is to increase market share by 20%.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w33",
+      "word": "portfolio",
+      "pronunciation": "/pɔːtˈfəʊliəʊ/",
+      "meaning": "a range of products, investments, or projects",
+      "translation": "포트폴리오",
+      "example": "The company has a diverse portfolio of software products.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w34",
+      "word": "franchise",
+      "pronunciation": "/ˈfræntʃaɪz/",
+      "meaning": "authorization to sell a company's goods or services",
+      "translation": "프랜차이즈",
+      "example": "He opened a franchise of the popular restaurant chain.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w35",
+      "word": "liability",
+      "pronunciation": "/ˌlaɪəˈbɪləti/",
+      "meaning": "legal or financial responsibility; a debt or obligation",
+      "translation": "책임, 부채",
+      "example": "The company's liabilities exceeded its assets.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w36",
+      "word": "comply",
+      "pronunciation": "/kəmˈplaɪ/",
+      "meaning": "to act in accordance with rules or requests",
+      "translation": "준수하다",
+      "example": "All employees must comply with safety regulations.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w37",
+      "word": "streamline",
+      "pronunciation": "/ˈstriːmlaɪn/",
+      "meaning": "to make a process more efficient by simplifying it",
+      "translation": "간소화하다",
+      "example": "We need to streamline our approval process to save time.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w38",
+      "word": "facilitate",
+      "pronunciation": "/fəˈsɪlɪteɪt/",
+      "meaning": "to make an action or process easier",
+      "translation": "촉진하다, 용이하게 하다",
+      "example": "Technology can facilitate communication between remote teams.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w39",
+      "word": "leverage",
+      "pronunciation": "/ˈliːvərɪdʒ/",
+      "meaning": "to use something to maximum advantage",
+      "translation": "활용하다, 지렛대로 삼다",
+      "example": "The company leveraged its brand reputation to enter new markets.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w40",
+      "word": "restructure",
+      "pronunciation": "/riːˈstrʌktʃər/",
+      "meaning": "to organize something differently",
+      "translation": "구조조정하다",
+      "example": "The firm decided to restructure its management team.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w41",
+      "word": "redundant",
+      "pronunciation": "/rɪˈdʌndənt/",
+      "meaning": "no longer needed or useful; superfluous",
+      "translation": "불필요한, 여분의",
+      "example": "Manual data entry became redundant after automation.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w42",
+      "word": "lucrative",
+      "pronunciation": "/ˈluːkrətɪv/",
+      "meaning": "producing a great deal of profit",
+      "translation": "수익성이 높은",
+      "example": "Software development can be a lucrative career.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w43",
+      "word": "competitive",
+      "pronunciation": "/kəmˈpetətɪv/",
+      "meaning": "involving rivalry or as good as others",
+      "translation": "경쟁력 있는",
+      "example": "We offer competitive salaries to attract top talent.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w44",
+      "word": "proactive",
+      "pronunciation": "/prəʊˈæktɪv/",
+      "meaning": "taking action in anticipation of future problems",
+      "translation": "사전 대응하는, 적극적인",
+      "example": "A proactive approach helps prevent problems before they occur.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w45",
+      "word": "versatile",
+      "pronunciation": "/ˈvɜːsətaɪl/",
+      "meaning": "able to adapt to many different functions or activities",
+      "translation": "다재다능한",
+      "example": "We need versatile employees who can handle multiple tasks.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w46",
+      "word": "expenditure",
+      "pronunciation": "/ɪkˈspendɪtʃər/",
+      "meaning": "the action of spending funds; money spent",
+      "translation": "지출",
+      "example": "The company reduced its expenditure on travel costs.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w47",
+      "word": "forecasting",
+      "pronunciation": "/ˈfɔːkɑːstɪŋ/",
+      "meaning": "the process of predicting future trends or events",
+      "translation": "예측",
+      "example": "Accurate forecasting is crucial for business planning.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w48",
+      "word": "consultation",
+      "pronunciation": "/ˌkɒnsəlˈteɪʃn/",
+      "meaning": "a meeting to discuss something or seek advice",
+      "translation": "협의, 상담",
+      "example": "The decision was made after consultation with all departments.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w49",
+      "word": "compromise",
+      "pronunciation": "/ˈkɒmprəmaɪz/",
+      "meaning": "an agreement reached by mutual concessions",
+      "translation": "타협, 절충",
+      "example": "Both parties reached a compromise on the contract terms.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w50",
+      "word": "workforce",
+      "pronunciation": "/ˈwɜːkfɔːs/",
+      "meaning": "the people engaged in or available for work",
+      "translation": "노동력, 인력",
+      "example": "The company has a diverse workforce of over 500 employees.",
+      "partOfSpeech": "noun"
     }
   ],
 
   "exercises": [
     {
       "id": "ex1",
-      "type": "matching",
-      "instruction": "Match the words with their definitions",
-      "pairs": [
-        { "word": "redundancy", "definition": "dismissal from a job because the position is no longer needed" },
-        { "word": "stakeholder", "definition": "a person with an interest in a business" },
-        { "word": "merger", "definition": "the combining of two companies into one" },
-        { "word": "delegate", "definition": "to assign tasks to others" }
-      ]
+      "type": "multiple_choice",
+      "question": "She received a _____ after working hard for three years.",
+      "options": ["promotion", "redundancy", "resignation", "deadline"],
+      "answer": "promotion"
     },
     {
       "id": "ex2",
-      "type": "fill_blank",
-      "instruction": "Complete the sentences with the correct words",
-      "sentences": [
-        { "sentence": "She received a _____ to senior manager after five years.", "answer": "promotion" },
-        { "sentence": "Good managers know how to _____ with employees during salary reviews.", "answer": "negotiate" },
-        { "sentence": "The company's annual _____ exceeded expectations this quarter.", "answer": "revenue" },
-        { "sentence": "It's important to set realistic _____ for project completion.", "answer": "deadlines" }
-      ]
+      "type": "multiple_choice",
+      "question": "The company's _____ increased by 25% this year.",
+      "options": ["hierarchy", "revenue", "networking", "merger"],
+      "answer": "revenue"
     },
     {
       "id": "ex3",
       "type": "multiple_choice",
-      "instruction": "Choose the best word to complete each sentence",
-      "questions": [
-        {
-          "question": "The company needs to _____ its operations to remain competitive.",
-          "options": ["resign", "diversify", "outsource", "delegate"],
-          "answer": "diversify"
-        },
-        {
-          "question": "High employee _____ can be costly for organizations.",
-          "options": ["productivity", "hierarchy", "turnover", "benchmark"],
-          "answer": "turnover"
-        }
+      "question": "All _____ must be informed about the new policy.",
+      "options": ["deadlines", "stakeholders", "entrepreneurs", "benchmarks"],
+      "answer": "stakeholders"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "We need to meet the _____ for the project by Friday.",
+      "options": ["deadline", "promotion", "revenue", "networking"],
+      "answer": "deadline"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "Professional _____ is essential for career development.",
+      "options": ["merger", "networking", "redundancy", "hierarchy"],
+      "answer": "networking"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "The _____ of the two companies created market uncertainty.",
+      "options": ["merger", "deadline", "entrepreneur", "stakeholder"],
+      "answer": "merger"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "She's very _____ and wants to become a senior executive.",
+      "options": ["ambitious", "redundant", "transparent", "feasible"],
+      "answer": "ambitious"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "A _____ employee can handle all aspects of the job.",
+      "options": ["competent", "corporate", "strategic", "sustainable"],
+      "answer": "competent"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "The business became _____ within two years.",
+      "options": ["profitable", "ambitious", "competitive", "versatile"],
+      "answer": "profitable"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "Their _____ approach revolutionized the industry.",
+      "options": ["innovative", "redundant", "feasible", "transparent"],
+      "answer": "innovative"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "The company focuses on _____ business practices.",
+      "options": ["sustainable", "ambitious", "lucrative", "versatile"],
+      "answer": "sustainable"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "We need a _____ plan for the next five years.",
+      "options": ["strategic", "redundant", "transparent", "feasible"],
+      "answer": "strategic"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "The _____ culture encourages formal communication.",
+      "options": ["corporate", "innovative", "sustainable", "competitive"],
+      "answer": "corporate"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "They managed to _____ a better deal with the supplier.",
+      "options": ["negotiate", "resign", "delegate", "implement"],
+      "answer": "negotiate"
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "Good managers know how to _____ tasks effectively.",
+      "options": ["delegate", "resign", "outsource", "diversify"],
+      "answer": "delegate"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "Teams need to _____ to achieve common goals.",
+      "options": ["collaborate", "resign", "negotiate", "comply"],
+      "answer": "collaborate"
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "We will _____ the new system next month.",
+      "options": ["implement", "resign", "outsource", "leverage"],
+      "answer": "implement"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "He decided to _____ from his position.",
+      "options": ["resign", "delegate", "negotiate", "collaborate"],
+      "answer": "resign"
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "Bonuses serve as _____ for better performance.",
+      "options": ["incentives", "objectives", "liabilities", "expenditures"],
+      "answer": "incentives"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "Remote work has improved employee _____.",
+      "options": ["productivity", "turnover", "hierarchy", "accountability"],
+      "answer": "productivity"
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "High _____ rates can indicate workplace problems.",
+      "options": ["turnover", "productivity", "revenue", "expenditure"],
+      "answer": "turnover"
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "The organization has a flat _____ with few levels.",
+      "options": ["hierarchy", "portfolio", "franchise", "workforce"],
+      "answer": "hierarchy"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "Many firms _____ their customer service operations.",
+      "options": ["outsource", "resign", "comply", "facilitate"],
+      "answer": "outsource"
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "This product sets the _____ for quality in the industry.",
+      "options": ["benchmark", "objective", "incentive", "consultation"],
+      "answer": "benchmark"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "We need to check if the plan is _____.",
+      "options": ["feasible", "ambitious", "transparent", "versatile"],
+      "answer": "feasible"
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "_____ leadership builds trust within teams.",
+      "options": ["Transparent", "Redundant", "Lucrative", "Competitive"],
+      "answer": "Transparent"
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "The _____ of the competitor strengthened our position.",
+      "options": ["acquisition", "resignation", "consultation", "compromise"],
+      "answer": "acquisition"
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "The company plans to _____ into new markets.",
+      "options": ["diversify", "resign", "comply", "streamline"],
+      "answer": "diversify"
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "Managers must demonstrate _____ for their decisions.",
+      "options": ["accountability", "productivity", "networking", "forecasting"],
+      "answer": "accountability"
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "Our main _____ is to expand into Asia.",
+      "options": ["objective", "liability", "expenditure", "compromise"],
+      "answer": "objective"
+    },
+    {
+      "id": "ex31",
+      "type": "multiple_choice",
+      "question": "The company has a diverse _____ of products.",
+      "options": ["portfolio", "franchise", "workforce", "consultation"],
+      "answer": "portfolio"
+    },
+    {
+      "id": "ex32",
+      "type": "multiple_choice",
+      "question": "He opened a _____ of the international brand.",
+      "options": ["franchise", "merger", "acquisition", "benchmark"],
+      "answer": "franchise"
+    },
+    {
+      "id": "ex33",
+      "type": "multiple_choice",
+      "question": "The company's _____ exceeded its assets.",
+      "options": ["liabilities", "revenues", "incentives", "objectives"],
+      "answer": "liabilities"
+    },
+    {
+      "id": "ex34",
+      "type": "multiple_choice",
+      "question": "All staff must _____ with data protection laws.",
+      "options": ["comply", "resign", "negotiate", "facilitate"],
+      "answer": "comply"
+    },
+    {
+      "id": "ex35",
+      "type": "multiple_choice",
+      "question": "We should _____ the approval process.",
+      "options": ["streamline", "diversify", "leverage", "restructure"],
+      "answer": "streamline"
+    },
+    {
+      "id": "ex36",
+      "type": "multiple_choice",
+      "question": "Technology can _____ better communication.",
+      "options": ["facilitate", "comply", "outsource", "resign"],
+      "answer": "facilitate"
+    },
+    {
+      "id": "ex37",
+      "type": "multiple_choice",
+      "question": "The firm _____ its reputation to gain investors.",
+      "options": ["leveraged", "complied", "facilitated", "streamlined"],
+      "answer": "leveraged"
+    },
+    {
+      "id": "ex38",
+      "type": "multiple_choice",
+      "question": "The organization decided to _____ its departments.",
+      "options": ["restructure", "resign", "diversify", "outsource"],
+      "answer": "restructure"
+    },
+    {
+      "id": "ex39",
+      "type": "multiple_choice",
+      "question": "Paper files became _____ after digitalization.",
+      "options": ["redundant", "lucrative", "versatile", "proactive"],
+      "answer": "redundant"
+    },
+    {
+      "id": "ex40",
+      "type": "multiple_choice",
+      "question": "Consulting can be a _____ career path.",
+      "options": ["lucrative", "redundant", "transparent", "feasible"],
+      "answer": "lucrative"
+    },
+    {
+      "id": "ex41",
+      "type": "multiple_choice",
+      "question": "We offer _____ prices compared to our rivals.",
+      "options": ["competitive", "redundant", "versatile", "proactive"],
+      "answer": "competitive"
+    },
+    {
+      "id": "ex42",
+      "type": "multiple_choice",
+      "question": "A _____ manager anticipates problems early.",
+      "options": ["proactive", "redundant", "lucrative", "competitive"],
+      "answer": "proactive"
+    },
+    {
+      "id": "ex43",
+      "type": "multiple_choice",
+      "question": "We need _____ staff who can adapt quickly.",
+      "options": ["versatile", "redundant", "lucrative", "transparent"],
+      "answer": "versatile"
+    },
+    {
+      "id": "ex44",
+      "type": "multiple_choice",
+      "question": "The company reduced its _____ on marketing.",
+      "options": ["expenditure", "revenue", "productivity", "accountability"],
+      "answer": "expenditure"
+    },
+    {
+      "id": "ex45",
+      "type": "multiple_choice",
+      "question": "Accurate _____ helps with planning.",
+      "options": ["forecasting", "networking", "benchmarking", "consulting"],
+      "answer": "forecasting"
+    },
+    {
+      "id": "ex46",
+      "type": "multiple_choice",
+      "question": "The decision followed _____ with experts.",
+      "options": ["consultation", "expenditure", "forecasting", "accountability"],
+      "answer": "consultation"
+    },
+    {
+      "id": "ex47",
+      "type": "multiple_choice",
+      "question": "Both sides reached a _____ on the terms.",
+      "options": ["compromise", "consultation", "acquisition", "merger"],
+      "answer": "compromise"
+    },
+    {
+      "id": "ex48",
+      "type": "multiple_choice",
+      "question": "The company has a skilled _____ of 800 people.",
+      "options": ["workforce", "portfolio", "hierarchy", "franchise"],
+      "answer": "workforce"
+    },
+    {
+      "id": "ex49",
+      "type": "multiple_choice",
+      "question": "The _____ founded several tech companies.",
+      "options": ["entrepreneur", "stakeholder", "consultant", "competitor"],
+      "answer": "entrepreneur"
+    },
+    {
+      "id": "ex50",
+      "type": "multiple_choice",
+      "question": "Staff received _____ training on new procedures.",
+      "options": ["corporate", "strategic", "innovative", "sustainable"],
+      "answer": "corporate"
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "She earned a _____ to department head.",
+      "answer": "promotion"
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "The factory announced 150 _____ due to automation.",
+      "answer": "redundancies"
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "The successful _____ built three companies.",
+      "answer": "entrepreneur"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "Annual _____ grew by 30% last year.",
+      "answer": "revenue"
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "All _____ agreed to the new contract.",
+      "answer": "stakeholders"
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "The project _____ is next Friday.",
+      "answer": "deadline"
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "Professional _____ helps build career connections.",
+      "answer": "networking"
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "The _____ formed the country's largest bank.",
+      "answer": "merger"
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "He's very _____ and aims for the top position.",
+      "answer": "ambitious"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "A _____ worker can complete tasks independently.",
+      "answer": "competent"
+    },
+    {
+      "id": "ex61",
+      "type": "fill_blank",
+      "question": "The store became _____ after six months.",
+      "answer": "profitable"
+    },
+    {
+      "id": "ex62",
+      "type": "fill_blank",
+      "question": "Their _____ solution changed the market.",
+      "answer": "innovative"
+    },
+    {
+      "id": "ex63",
+      "type": "fill_blank",
+      "question": "We adopt _____ practices to protect the environment.",
+      "answer": "sustainable"
+    },
+    {
+      "id": "ex64",
+      "type": "fill_blank",
+      "question": "_____ planning is crucial for long-term success.",
+      "answer": "Strategic"
+    },
+    {
+      "id": "ex65",
+      "type": "fill_blank",
+      "question": "The _____ office is located downtown.",
+      "answer": "corporate"
+    },
+    {
+      "id": "ex66",
+      "type": "fill_blank",
+      "question": "She will _____ her salary with HR.",
+      "answer": "negotiate"
+    },
+    {
+      "id": "ex67",
+      "type": "fill_blank",
+      "question": "Effective leaders _____ responsibilities appropriately.",
+      "answer": "delegate"
+    },
+    {
+      "id": "ex68",
+      "type": "fill_blank",
+      "question": "We _____ with other teams on this project.",
+      "answer": "collaborate"
+    },
+    {
+      "id": "ex69",
+      "type": "fill_blank",
+      "question": "The company will _____ new software next week.",
+      "answer": "implement"
+    },
+    {
+      "id": "ex70",
+      "type": "fill_blank",
+      "question": "He chose to _____ after ten years of service.",
+      "answer": "resign"
+    },
+    {
+      "id": "ex71",
+      "type": "fill_blank",
+      "question": "Financial _____ motivate sales teams.",
+      "answer": "incentives"
+    },
+    {
+      "id": "ex72",
+      "type": "fill_blank",
+      "question": "Flexible hours increased overall _____.",
+      "answer": "productivity"
+    },
+    {
+      "id": "ex73",
+      "type": "fill_blank",
+      "question": "High staff _____ is costly for businesses.",
+      "answer": "turnover"
+    },
+    {
+      "id": "ex74",
+      "type": "fill_blank",
+      "question": "The company has a traditional management _____.",
+      "answer": "hierarchy"
+    },
+    {
+      "id": "ex75",
+      "type": "fill_blank",
+      "question": "We _____ our manufacturing to Asia.",
+      "answer": "outsource"
+    },
+    {
+      "id": "ex76",
+      "type": "fill_blank",
+      "question": "Their service quality is the industry _____.",
+      "answer": "benchmark"
+    },
+    {
+      "id": "ex77",
+      "type": "fill_blank",
+      "question": "The proposal doesn't seem _____ with our budget.",
+      "answer": "feasible"
+    },
+    {
+      "id": "ex78",
+      "type": "fill_blank",
+      "question": "_____ communication prevents misunderstandings.",
+      "answer": "Transparent"
+    },
+    {
+      "id": "ex79",
+      "type": "fill_blank",
+      "question": "The _____ doubled the company's market share.",
+      "answer": "acquisition"
+    },
+    {
+      "id": "ex80",
+      "type": "fill_blank",
+      "question": "Smart investors _____ their portfolios.",
+      "answer": "diversify"
+    },
+    {
+      "id": "ex81",
+      "type": "fill_blank",
+      "question": "Leaders should take _____ for their team's results.",
+      "answer": "accountability"
+    },
+    {
+      "id": "ex82",
+      "type": "fill_blank",
+      "question": "The quarterly _____ is to cut costs by 10%.",
+      "answer": "objective"
+    },
+    {
+      "id": "ex83",
+      "type": "fill_blank",
+      "question": "Our product _____ includes software and hardware.",
+      "answer": "portfolio"
+    },
+    {
+      "id": "ex84",
+      "type": "fill_blank",
+      "question": "She owns a coffee shop _____ with 12 locations.",
+      "answer": "franchise"
+    },
+    {
+      "id": "ex85",
+      "type": "fill_blank",
+      "question": "The firm's _____ have increased this quarter.",
+      "answer": "liabilities"
+    },
+    {
+      "id": "ex86",
+      "type": "fill_blank",
+      "question": "Employees must _____ with company policies.",
+      "answer": "comply"
+    },
+    {
+      "id": "ex87",
+      "type": "fill_blank",
+      "question": "Let's _____ the reporting process.",
+      "answer": "streamline"
+    },
+    {
+      "id": "ex88",
+      "type": "fill_blank",
+      "question": "Good tools _____ efficient teamwork.",
+      "answer": "facilitate"
+    },
+    {
+      "id": "ex89",
+      "type": "fill_blank",
+      "question": "The startup _____ social media for marketing.",
+      "answer": "leveraged"
+    },
+    {
+      "id": "ex90",
+      "type": "fill_blank",
+      "question": "They plan to _____ the entire organization.",
+      "answer": "restructure"
+    },
+    {
+      "id": "ex91",
+      "type": "fill_blank",
+      "question": "Old processes became _____ after the upgrade.",
+      "answer": "redundant"
+    },
+    {
+      "id": "ex92",
+      "type": "fill_blank",
+      "question": "Investment banking is a _____ field.",
+      "answer": "lucrative"
+    },
+    {
+      "id": "ex93",
+      "type": "fill_blank",
+      "question": "Our prices are _____ with market leaders.",
+      "answer": "competitive"
+    },
+    {
+      "id": "ex94",
+      "type": "fill_blank",
+      "question": "_____ managers solve problems before they escalate.",
+      "answer": "Proactive"
+    },
+    {
+      "id": "ex95",
+      "type": "fill_blank",
+      "question": "We need _____ employees for various roles.",
+      "answer": "versatile"
+    },
+    {
+      "id": "ex96",
+      "type": "fill_blank",
+      "question": "Annual _____ decreased by 15%.",
+      "answer": "expenditure"
+    },
+    {
+      "id": "ex97",
+      "type": "fill_blank",
+      "question": "Sales _____ helps predict future trends.",
+      "answer": "forecasting"
+    },
+    {
+      "id": "ex98",
+      "type": "fill_blank",
+      "question": "The merger required extensive _____ with lawyers.",
+      "answer": "consultation"
+    },
+    {
+      "id": "ex99",
+      "type": "fill_blank",
+      "question": "We reached a _____ acceptable to both parties.",
+      "answer": "compromise"
+    },
+    {
+      "id": "ex100",
+      "type": "fill_blank",
+      "question": "The company's _____ includes 600 employees.",
+      "answer": "workforce"
+    },
+    {
+      "id": "ex101",
+      "type": "matching",
+      "pairs": [
+        {"word": "promotion", "match": "advancement to a higher position"},
+        {"word": "redundancy", "match": "dismissal because job is no longer needed"},
+        {"word": "entrepreneur", "match": "person who starts their own business"},
+        {"word": "revenue", "match": "income from business operations"}
       ]
+    },
+    {
+      "id": "ex102",
+      "type": "matching",
+      "pairs": [
+        {"word": "stakeholder", "match": "person with interest in a business"},
+        {"word": "deadline", "match": "time limit for completion"},
+        {"word": "networking", "match": "building professional relationships"},
+        {"word": "merger", "match": "combining two companies into one"}
+      ]
+    },
+    {
+      "id": "ex103",
+      "type": "matching",
+      "pairs": [
+        {"word": "ambitious", "match": "having strong desire for success"},
+        {"word": "competent", "match": "having necessary skills"},
+        {"word": "profitable", "match": "producing financial gain"},
+        {"word": "innovative", "match": "introducing new ideas"}
+      ]
+    },
+    {
+      "id": "ex104",
+      "type": "matching",
+      "pairs": [
+        {"word": "sustainable", "match": "able to continue long-term"},
+        {"word": "strategic", "match": "relating to long-term planning"},
+        {"word": "corporate", "match": "relating to large companies"},
+        {"word": "feasible", "match": "possible and practical"}
+      ]
+    },
+    {
+      "id": "ex105",
+      "type": "matching",
+      "pairs": [
+        {"word": "negotiate", "match": "discuss to reach agreement"},
+        {"word": "delegate", "match": "assign tasks to others"},
+        {"word": "collaborate", "match": "work jointly with others"},
+        {"word": "implement", "match": "put plan into effect"}
+      ]
+    },
+    {
+      "id": "ex106",
+      "type": "matching",
+      "pairs": [
+        {"word": "resign", "match": "voluntarily leave a job"},
+        {"word": "outsource", "match": "contract work to external suppliers"},
+        {"word": "diversify", "match": "expand into different areas"},
+        {"word": "comply", "match": "act according to rules"}
+      ]
+    },
+    {
+      "id": "ex107",
+      "type": "matching",
+      "pairs": [
+        {"word": "incentive", "match": "something that motivates action"},
+        {"word": "productivity", "match": "rate of output per input"},
+        {"word": "turnover", "match": "rate employees leave and are replaced"},
+        {"word": "hierarchy", "match": "system of ranking by authority"}
+      ]
+    },
+    {
+      "id": "ex108",
+      "type": "matching",
+      "pairs": [
+        {"word": "benchmark", "match": "standard for comparison"},
+        {"word": "transparent", "match": "open and honest"},
+        {"word": "acquisition", "match": "buying or obtaining a company"},
+        {"word": "accountability", "match": "responsibility for decisions"}
+      ]
+    },
+    {
+      "id": "ex109",
+      "type": "matching",
+      "pairs": [
+        {"word": "objective", "match": "goal to be achieved"},
+        {"word": "portfolio", "match": "range of products or investments"},
+        {"word": "franchise", "match": "authorization to sell company goods"},
+        {"word": "liability", "match": "financial responsibility or debt"}
+      ]
+    },
+    {
+      "id": "ex110",
+      "type": "matching",
+      "pairs": [
+        {"word": "streamline", "match": "make process more efficient"},
+        {"word": "facilitate", "match": "make action easier"},
+        {"word": "leverage", "match": "use to maximum advantage"},
+        {"word": "restructure", "match": "organize differently"}
+      ]
+    },
+    {
+      "id": "ex111",
+      "type": "matching",
+      "pairs": [
+        {"word": "redundant", "match": "no longer needed"},
+        {"word": "lucrative", "match": "producing great profit"},
+        {"word": "competitive", "match": "as good as others"},
+        {"word": "proactive", "match": "taking anticipatory action"}
+      ]
+    },
+    {
+      "id": "ex112",
+      "type": "matching",
+      "pairs": [
+        {"word": "versatile", "match": "able to adapt to many functions"},
+        {"word": "expenditure", "match": "money spent"},
+        {"word": "forecasting", "match": "predicting future trends"},
+        {"word": "consultation", "match": "meeting to seek advice"}
+      ]
+    },
+    {
+      "id": "ex113",
+      "type": "matching",
+      "pairs": [
+        {"word": "compromise", "match": "agreement by mutual concessions"},
+        {"word": "workforce", "match": "people engaged in work"},
+        {"word": "promotion", "match": "job advancement"},
+        {"word": "revenue", "match": "business income"}
+      ]
+    },
+    {
+      "id": "ex114",
+      "type": "matching",
+      "pairs": [
+        {"word": "entrepreneur", "match": "business founder"},
+        {"word": "stakeholder", "match": "person with business interest"},
+        {"word": "deadline", "match": "completion time limit"},
+        {"word": "merger", "match": "company combination"}
+      ]
+    },
+    {
+      "id": "ex115",
+      "type": "matching",
+      "pairs": [
+        {"word": "ambitious", "match": "strongly desires success"},
+        {"word": "innovative", "match": "introduces new methods"},
+        {"word": "strategic", "match": "relates to long-term plans"},
+        {"word": "transparent", "match": "open without hidden agendas"}
+      ]
+    },
+    {
+      "id": "ex116",
+      "type": "matching",
+      "pairs": [
+        {"word": "negotiate", "match": "discuss for agreement"},
+        {"word": "delegate", "match": "assign responsibilities"},
+        {"word": "implement", "match": "put into effect"},
+        {"word": "collaborate", "match": "work together"}
+      ]
+    },
+    {
+      "id": "ex117",
+      "type": "matching",
+      "pairs": [
+        {"word": "productivity", "match": "output efficiency"},
+        {"word": "turnover", "match": "employee replacement rate"},
+        {"word": "hierarchy", "match": "authority ranking system"},
+        {"word": "benchmark", "match": "comparison standard"}
+      ]
+    },
+    {
+      "id": "ex118",
+      "type": "matching",
+      "pairs": [
+        {"word": "objective", "match": "intended goal"},
+        {"word": "portfolio", "match": "collection of products"},
+        {"word": "franchise", "match": "business authorization"},
+        {"word": "accountability", "match": "action responsibility"}
+      ]
+    },
+    {
+      "id": "ex119",
+      "type": "matching",
+      "pairs": [
+        {"word": "streamline", "match": "simplify process"},
+        {"word": "leverage", "match": "maximize advantage"},
+        {"word": "restructure", "match": "reorganize structure"},
+        {"word": "facilitate", "match": "ease action"}
+      ]
+    },
+    {
+      "id": "ex120",
+      "type": "matching",
+      "pairs": [
+        {"word": "lucrative", "match": "highly profitable"},
+        {"word": "competitive", "match": "rivalry-based"},
+        {"word": "versatile", "match": "adaptable"},
+        {"word": "proactive", "match": "anticipatory"}
+      ]
+    },
+    {
+      "id": "ex121",
+      "type": "translation_ko_en",
+      "question": "그녀는 3년 동안 열심히 일한 후 승진했다.",
+      "answer": "She got a promotion after working hard for three years."
+    },
+    {
+      "id": "ex122",
+      "type": "translation_ko_en",
+      "question": "회사의 연간 수익이 증가했다.",
+      "answer": "The company's annual revenue increased."
+    },
+    {
+      "id": "ex123",
+      "type": "translation_ko_en",
+      "question": "모든 이해관계자들이 회의에 참석했다.",
+      "answer": "All stakeholders attended the meeting."
+    },
+    {
+      "id": "ex124",
+      "type": "translation_ko_en",
+      "question": "프로젝트 마감 기한은 다음 주이다.",
+      "answer": "The project deadline is next week."
+    },
+    {
+      "id": "ex125",
+      "type": "translation_ko_en",
+      "question": "네트워킹은 경력 개발에 중요하다.",
+      "answer": "Networking is important for career development."
+    },
+    {
+      "id": "ex126",
+      "type": "translation_ko_en",
+      "question": "두 회사의 합병이 발표되었다.",
+      "answer": "The merger of two companies was announced."
+    },
+    {
+      "id": "ex127",
+      "type": "translation_ko_en",
+      "question": "그는 야심 있는 사업가이다.",
+      "answer": "He is an ambitious entrepreneur."
+    },
+    {
+      "id": "ex128",
+      "type": "translation_ko_en",
+      "question": "유능한 직원들이 회사를 성장시킨다.",
+      "answer": "Competent employees grow the company."
+    },
+    {
+      "id": "ex129",
+      "type": "translation_ko_en",
+      "question": "그들은 급여를 협상했다.",
+      "answer": "They negotiated the salary."
+    },
+    {
+      "id": "ex130",
+      "type": "translation_ko_en",
+      "question": "관리자는 업무를 위임해야 한다.",
+      "answer": "Managers should delegate tasks."
+    },
+    {
+      "id": "ex131",
+      "type": "translation_ko_en",
+      "question": "팀들은 프로젝트에서 협력한다.",
+      "answer": "Teams collaborate on projects."
+    },
+    {
+      "id": "ex132",
+      "type": "translation_ko_en",
+      "question": "회사는 새로운 시스템을 실행할 것이다.",
+      "answer": "The company will implement a new system."
+    },
+    {
+      "id": "ex133",
+      "type": "translation_ko_en",
+      "question": "그는 직장을 사직하기로 결정했다.",
+      "answer": "He decided to resign from his job."
+    },
+    {
+      "id": "ex134",
+      "type": "translation_en_ko",
+      "question": "Performance bonuses are financial incentives.",
+      "answer": "성과 보너스는 금전적 인센티브이다."
+    },
+    {
+      "id": "ex135",
+      "type": "translation_en_ko",
+      "question": "Remote work improved productivity levels.",
+      "answer": "원격 근무는 생산성 수준을 향상시켰다."
+    },
+    {
+      "id": "ex136",
+      "type": "translation_en_ko",
+      "question": "High turnover rates concern management.",
+      "answer": "높은 이직률은 경영진을 우려하게 한다."
+    },
+    {
+      "id": "ex137",
+      "type": "translation_en_ko",
+      "question": "The company has a clear hierarchy.",
+      "answer": "회사는 명확한 계층 구조를 가지고 있다."
+    },
+    {
+      "id": "ex138",
+      "type": "translation_en_ko",
+      "question": "Many firms outsource IT services.",
+      "answer": "많은 기업들이 IT 서비스를 외주로 준다."
+    },
+    {
+      "id": "ex139",
+      "type": "translation_en_ko",
+      "question": "This sets the benchmark for quality.",
+      "answer": "이것은 품질의 기준을 설정한다."
+    },
+    {
+      "id": "ex140",
+      "type": "translation_en_ko",
+      "question": "The plan is not feasible right now.",
+      "answer": "그 계획은 지금 당장 실현 가능하지 않다."
+    },
+    {
+      "id": "ex141",
+      "type": "translation_en_ko",
+      "question": "Transparent leadership builds trust.",
+      "answer": "투명한 리더십은 신뢰를 구축한다."
+    },
+    {
+      "id": "ex142",
+      "type": "translation_en_ko",
+      "question": "The acquisition expanded market share.",
+      "answer": "그 인수는 시장 점유율을 확대했다."
+    },
+    {
+      "id": "ex143",
+      "type": "translation_en_ko",
+      "question": "Investors should diversify their portfolios.",
+      "answer": "투자자들은 그들의 포트폴리오를 다각화해야 한다."
+    },
+    {
+      "id": "ex144",
+      "type": "translation_en_ko",
+      "question": "Managers must show accountability.",
+      "answer": "관리자들은 책임감을 보여야 한다."
+    },
+    {
+      "id": "ex145",
+      "type": "translation_en_ko",
+      "question": "Our objective is to increase sales.",
+      "answer": "우리의 목표는 판매를 증가시키는 것이다."
+    },
+    {
+      "id": "ex146",
+      "type": "translation_en_ko",
+      "question": "He owns a successful franchise.",
+      "answer": "그는 성공적인 프랜차이즈를 소유하고 있다."
+    },
+    {
+      "id": "ex147",
+      "type": "translation_en_ko",
+      "question": "Employees must comply with regulations.",
+      "answer": "직원들은 규정을 준수해야 한다."
+    },
+    {
+      "id": "ex148",
+      "type": "translation_ko_en",
+      "question": "우리는 승인 절차를 간소화해야 한다.",
+      "answer": "We need to streamline the approval process."
+    },
+    {
+      "id": "ex149",
+      "type": "translation_ko_en",
+      "question": "기술은 의사소통을 용이하게 한다.",
+      "answer": "Technology facilitates communication."
+    },
+    {
+      "id": "ex150",
+      "type": "translation_ko_en",
+      "question": "회사는 평판을 활용했다.",
+      "answer": "The company leveraged its reputation."
     }
   ]
 }

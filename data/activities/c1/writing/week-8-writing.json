@@ -1,0 +1,95 @@
+{
+  "id": "c1-writing-week-8",
+  "type": "writing",
+  "level": "C1",
+  "weekId": "week-8",
+  "title": "Op-Eds and Persuasive Essays",
+  "description": "Writing compelling opinion pieces for public audiences",
+  "estimatedMinutes": 35,
+  "xpReward": 65,
+  "sections": [
+    {
+      "id": "c1-w8-s1",
+      "title": "Op-Ed Structure",
+      "description": "Organizing opinion pieces for maximum impact",
+      "structure": [
+        {
+          "element": "Hook",
+          "description": "Opening that grabs attention",
+          "example": "Last week, my daughter asked me why grown-ups can't agree on basic facts. I didn't have a good answer."
+        },
+        {
+          "element": "Thesis/Argument",
+          "description": "Clear statement of your position",
+          "example": "We need to treat media literacy as seriously as we treat mathematics."
+        },
+        {
+          "element": "Evidence/Support",
+          "description": "Facts, examples, expert views",
+          "example": "Research shows that students trained in media literacy are 50% better at identifying misinformation."
+        },
+        {
+          "element": "Counterargument",
+          "description": "Acknowledge and address opposition",
+          "example": "Critics worry this amounts to telling students what to think. But teaching how to evaluate sources isn't ideological—it's essential."
+        },
+        {
+          "element": "Call to Action",
+          "description": "Specific request of readers",
+          "example": "Contact your school board. Ask what they're doing to prepare students for our information environment."
+        }
+      ]
+    },
+    {
+      "id": "c1-w8-s2",
+      "title": "Persuasive Writing Techniques",
+      "description": "Rhetorical moves for compelling arguments",
+      "techniques": [
+        {
+          "technique": "Concrete examples",
+          "weak": "Misinformation is a problem.",
+          "strong": "When my uncle forwarded a viral claim about vaccines, I spent two hours fact-checking. Most people won't do that."
+        },
+        {
+          "technique": "Strategic concession",
+          "example": "Social media companies have made genuine efforts. They're not enough, but they show the problem is solvable."
+        },
+        {
+          "technique": "Reframing",
+          "example": "This isn't about left versus right. It's about citizens versus the algorithms that manipulate us all."
+        },
+        {
+          "technique": "Vivid language",
+          "weak": "The situation is bad.",
+          "strong": "We're drowning in information while starving for wisdom."
+        }
+      ]
+    },
+    {
+      "id": "c1-w8-s3",
+      "title": "Voice and Tone",
+      "description": "Finding the right register for opinion writing",
+      "guidelines": [
+        {
+          "principle": "Confident but not arrogant",
+          "poor": "Anyone who disagrees with me is simply ignorant.",
+          "better": "The evidence on this point is compelling, though I understand why some resist it."
+        },
+        {
+          "principle": "Passionate but reasoned",
+          "poor": "This is an outrage that must be stopped!",
+          "better": "This pattern should alarm us—and motivate us to act."
+        },
+        {
+          "principle": "Personal but universal",
+          "example": "My experience may be particular, but the problem it illustrates is not."
+        }
+      ]
+    }
+  ],
+  "writingTask": {
+    "title": "Opinion Piece",
+    "prompt": "Write an op-ed (250-300 words) arguing for or against requiring social media platforms to verify users' real identities.",
+    "sampleResponse": "The Case Against Mandatory Identity Verification\n\nWhen harassment drove her off social media, my friend didn't want anonymity abolished—she wanted it protected. Her harassers used their real names proudly. Anonymity let her rebuild a presence without them finding her.\n\nProposals to require real-name verification on social media sound sensible: accountability would reduce abuse, the argument goes. If trolls couldn't hide, they wouldn't troll. But this well-intentioned idea would cause more harm than it prevents.\n\nFirst, it wouldn't work. The most toxic behavior often comes from people using their real names—and proudly so. Studies of Facebook, which has long required real names, show harassment rates comparable to more anonymous platforms. Bad actors determined to cause harm will create fake IDs or steal others'.\n\nSecond, it would endanger vulnerable users. Activists in authoritarian countries use anonymity to organize without persecution. LGBTQ youth in unsupportive families use it to find community safely. Domestic violence survivors use it to rebuild lives away from abusers. Mandatory verification hands these users to those who would harm them.\n\nThird, it conflates anonymity with the absence of accountability. Platforms can—and do—enforce community standards without knowing users' legal names. Account suspensions, content removal, and IP bans address behavior without requiring government ID.\n\nThe real solution isn't eliminating anonymity but investing in better moderation, clearer standards, and tools that give users more control over their experiences. These approaches address abuse without sacrificing the legitimate benefits of pseudonymity.\n\nBefore we dismantle online anonymity in the name of safety, we should ask: whose safety, and at whose expense? For many users, anonymity isn't the problem—it's the protection."
+  }
+}

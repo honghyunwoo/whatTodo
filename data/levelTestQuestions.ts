@@ -608,6 +608,8 @@ export const LEVEL_TEST_QUESTIONS: Record<CEFRLevel, TestQuestion[]> = {
   A2: A2_QUESTIONS,
   B1: B1_QUESTIONS,
   B2: B2_QUESTIONS,
+  C1: [], // TODO: Add C1 questions
+  C2: [], // TODO: Add C2 questions
 };
 
 export function createQuestionBank(): Map<CEFRLevel, TestQuestion[]> {

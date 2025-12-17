@@ -85,7 +85,10 @@ function normalizeText(text: string): string {
 /**
  * Compare two texts word by word
  */
-function compareWords(expected: string, actual: string): {
+function compareWords(
+  expected: string,
+  actual: string
+): {
   accuracy: number;
   details: WordDetail[];
   isCorrect: boolean;
@@ -130,11 +133,13 @@ function compareWords(expected: string, actual: string): {
  */
 function getFirstLetterHint(text: string): string {
   const words = text.split(' ');
-  return words.map(word => {
-    const firstChar = word.charAt(0);
-    const rest = word.slice(1).replace(/[a-zA-Z]/g, '_');
-    return firstChar + rest;
-  }).join(' ');
+  return words
+    .map((word) => {
+      const firstChar = word.charAt(0);
+      const rest = word.slice(1).replace(/[a-zA-Z]/g, '_');
+      return firstChar + rest;
+    })
+    .join(' ');
 }
 
 /**
@@ -148,11 +153,7 @@ function getWordCountHint(text: string): number {
 // Component
 // ─────────────────────────────────────
 
-export function Dictation({
-  questions,
-  onComplete,
-  speeds = DEFAULT_SPEEDS
-}: DictationProps) {
+export function Dictation({ questions, onComplete, speeds = DEFAULT_SPEEDS }: DictationProps) {
   const { colors, isDark } = useTheme();
   const inputRef = useRef<TextInput>(null);
   const focusTimerRef = useRef<NodeJS.Timeout | null>(null);
@@ -204,7 +205,7 @@ export function Dictation({
     if (isPlaying || !canReplay) return;
 
     setIsPlaying(true);
-    setReplaysUsed(prev => prev + 1);
+    setReplaysUsed((prev) => prev + 1);
 
     try {
       await Speech.speak(currentQuestion.audioText, {
@@ -254,7 +255,7 @@ export function Dictation({
       wordDetails: result.details,
     };
 
-    setResults(prev => [...prev, dictationResult]);
+    setResults((prev) => [...prev, dictationResult]);
     setAnswerResult(result);
     setIsSubmitted(true);
   }, [isSubmitted, userInput, currentQuestion, startTime, replaysUsed]);
@@ -264,7 +265,7 @@ export function Dictation({
     if (isLastQuestion) {
       onComplete(results);
     } else {
-      setCurrentIndex(prev => prev + 1);
+      setCurrentIndex((prev) => prev + 1);
       setUserInput('');
       setIsSubmitted(false);
       setAnswerResult(null);
@@ -297,7 +298,9 @@ export function Dictation({
   return (
     <View style={[styles.container, { backgroundColor: colors.background }]}>
       {/* Progress Bar */}
-      <View style={[styles.progressContainer, { backgroundColor: isDark ? '#38383A' : COLORS.border }]}>
+      <View
+        style={[styles.progressContainer, { backgroundColor: isDark ? '#38383A' : COLORS.border }]}
+      >
         <MotiView
           animate={{ width: `${progress}%` }}
           transition={{ type: 'timing', duration: 300 }}
@@ -315,7 +318,9 @@ export function Dictation({
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ type: 'timing', duration: 300 }}
       >
-        <Card style={[styles.questionCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}>
+        <Card
+          style={[styles.questionCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
+        >
           <Card.Content>
             {/* Difficulty Badge */}
             {currentQuestion.difficulty && (
@@ -325,16 +330,16 @@ export function Dictation({
                     currentQuestion.difficulty === 'easy'
                       ? 'circle-outline'
                       : currentQuestion.difficulty === 'medium'
-                      ? 'circle-half-full'
-                      : 'circle'
+                        ? 'circle-half-full'
+                        : 'circle'
                   }
                   size={14}
                   color={
                     currentQuestion.difficulty === 'easy'
                       ? '#22c55e'
                       : currentQuestion.difficulty === 'medium'
-                      ? '#f59e0b'
-                      : '#ef4444'
+                        ? '#f59e0b'
+                        : '#ef4444'
                   }
                 />
                 <Text
@@ -345,16 +350,16 @@ export function Dictation({
                         currentQuestion.difficulty === 'easy'
                           ? '#22c55e'
                           : currentQuestion.difficulty === 'medium'
-                          ? '#f59e0b'
-                          : '#ef4444',
+                            ? '#f59e0b'
+                            : '#ef4444',
                     },
                   ]}
                 >
                   {currentQuestion.difficulty === 'easy'
                     ? 'Easy'
                     : currentQuestion.difficulty === 'medium'
-                    ? 'Medium'
-                    : 'Hard'}
+                      ? 'Medium'
+                      : 'Hard'}
                 </Text>
               </View>
             )}
@@ -385,11 +390,7 @@ export function Dictation({
             style={[
               styles.playButton,
               {
-                backgroundColor: isPlaying
-                  ? '#f59e0b'
-                  : canReplay
-                  ? COLORS.primary
-                  : COLORS.border,
+                backgroundColor: isPlaying ? '#f59e0b' : canReplay ? COLORS.primary : COLORS.border,
               },
             ]}
             onPress={playAudio}
@@ -421,10 +422,7 @@ export function Dictation({
               color={canReplay ? colors.textSecondary : '#ef4444'}
             />
             <Text
-              style={[
-                styles.replayText,
-                { color: canReplay ? colors.textSecondary : '#ef4444' },
-              ]}
+              style={[styles.replayText, { color: canReplay ? colors.textSecondary : '#ef4444' }]}
             >
               {replaysUsed}/{maxReplays}
             </Text>
@@ -437,10 +435,7 @@ export function Dictation({
         <View style={styles.hintButtons}>
           {/* Word Count Hint */}
           {!showWordCountHint && (
-            <Pressable
-              style={styles.hintButton}
-              onPress={() => setShowWordCountHint(true)}
-            >
+            <Pressable style={styles.hintButton} onPress={() => setShowWordCountHint(true)}>
               <MaterialCommunityIcons name="counter" size={16} color="#f59e0b" />
               <Text style={styles.hintButtonText}>Word Count</Text>
             </Pressable>
@@ -448,10 +443,7 @@ export function Dictation({
 
           {/* First Letter Hint */}
           {!showFirstLetterHint && (
-            <Pressable
-              style={styles.hintButton}
-              onPress={() => setShowFirstLetterHint(true)}
-            >
+            <Pressable style={styles.hintButton} onPress={() => setShowFirstLetterHint(true)}>
               <MaterialCommunityIcons name="format-letter-case" size={16} color="#f59e0b" />
               <Text style={styles.hintButtonText}>First Letters</Text>
             </Pressable>
@@ -500,8 +492,8 @@ export function Dictation({
               borderColor: isSubmitted
                 ? getFeedbackColor()
                 : userInput.length > 0
-                ? COLORS.primary
-                : COLORS.border,
+                  ? COLORS.primary
+                  : COLORS.border,
             },
           ]}
         >
@@ -576,8 +568,8 @@ export function Dictation({
                       answerResult.isCorrect
                         ? 'check-decagram'
                         : answerResult.accuracy >= 80
-                        ? 'alert-circle'
-                        : 'close-octagon'
+                          ? 'alert-circle'
+                          : 'close-octagon'
                     }
                     size={28}
                     color={getFeedbackColor()}
@@ -638,9 +630,7 @@ export function Dictation({
                           </Text>
                         )}
                         {!detail.correct && detail.actual && (
-                          <Text style={styles.wordActual}>
-                            ({detail.actual})
-                          </Text>
+                          <Text style={styles.wordActual}>({detail.actual})</Text>
                         )}
                         {!detail.correct && !detail.actual && detail.expected && (
                           <MaterialCommunityIcons

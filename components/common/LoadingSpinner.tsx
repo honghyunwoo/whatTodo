@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, ViewStyle } from 'react-native';
+import { Text, StyleSheet, ViewStyle } from 'react-native';
 import LottieView from 'lottie-react-native';
 import { MotiView } from 'moti';
 import { useTheme } from '@/contexts/ThemeContext';
@@ -25,7 +25,7 @@ export function LoadingSpinner({
   overlay = false,
   style,
 }: LoadingSpinnerProps) {
-  const { colors, isDark } = useTheme();
+  const { isDark } = useTheme();
   const dimension = SIZES_MAP[size];
 
   const content = (
@@ -43,11 +43,7 @@ export function LoadingSpinner({
       />
       {message && (
         <Text
-          style={[
-            styles.message,
-            TYPOGRAPHY.bodySmall,
-            { color: isDark ? '#8E8E93' : '#6B6B6B' },
-          ]}
+          style={[styles.message, TYPOGRAPHY.bodySmall, { color: isDark ? '#8E8E93' : '#6B6B6B' }]}
         >
           {message}
         </Text>

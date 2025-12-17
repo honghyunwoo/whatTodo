@@ -1,0 +1,136 @@
+{
+  "id": "c2-grammar-week-8",
+  "type": "grammar",
+  "level": "C2",
+  "weekId": "week-8",
+  "title": "Mastery of Academic Register",
+  "description": "The highest level of scholarly and intellectual expression",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c2-g8-s1",
+      "title": "Complex Sentence Architecture",
+      "explanation": "Building sophisticated sentences that convey nuanced relationships.",
+      "patterns": [
+        {
+          "pattern": "Periodic sentence",
+          "description": "Main clause withheld until end for emphasis",
+          "example": "If we consider the historical evidence, take into account the theoretical objections, and weigh the practical consequences—only then can we begin to appreciate the complexity of this issue.",
+          "effect": "Creates suspense and emphasis"
+        },
+        {
+          "pattern": "Cumulative sentence",
+          "description": "Main clause first, followed by elaborating phrases",
+          "example": "The theory collapses under scrutiny, unable to account for contradictory evidence, undermined by its own assumptions, and ultimately revealing more about its proponents than about reality.",
+          "effect": "Adds weight to initial statement"
+        },
+        {
+          "pattern": "Balanced sentence",
+          "description": "Parallel structures of similar length and weight",
+          "example": "What reason promises, experience often denies; what philosophy proclaims, life frequently refutes.",
+          "effect": "Creates memorable, aphoristic quality"
+        }
+      ]
+    },
+    {
+      "id": "c2-g8-s2",
+      "title": "Epistemic Positioning",
+      "explanation": "Grammatical resources for calibrating certainty and commitment.",
+      "spectrum": [
+        {
+          "level": "Categorical assertion",
+          "markers": ["is", "demonstrates", "proves"],
+          "example": "This demonstrates the inadequacy of the model.",
+          "use": "Only for strongly supported claims"
+        },
+        {
+          "level": "Strong probability",
+          "markers": ["clearly", "evidently", "undoubtedly"],
+          "example": "This evidently points to a systemic failure.",
+          "use": "Well-supported but not logically necessary"
+        },
+        {
+          "level": "Moderate probability",
+          "markers": ["suggests", "indicates", "appears to"],
+          "example": "The evidence suggests a causal relationship.",
+          "use": "Standard academic hedging"
+        },
+        {
+          "level": "Possibility",
+          "markers": ["may", "might", "could", "possibly"],
+          "example": "This might indicate an underlying mechanism.",
+          "use": "Speculative but worth noting"
+        },
+        {
+          "level": "Tentative speculation",
+          "markers": ["one might speculate", "it is conceivable that", "perhaps"],
+          "example": "One might speculate that this reflects deeper structural factors.",
+          "use": "Ideas worth exploring but unsupported"
+        }
+      ]
+    },
+    {
+      "id": "c2-g8-s3",
+      "title": "Metadiscourse",
+      "explanation": "Language about language—guiding readers through your text.",
+      "functions": [
+        {
+          "function": "Text organization",
+          "expressions": ["The following section examines...", "To recapitulate the argument thus far...", "Before proceeding, it is necessary to..."],
+          "purpose": "Guide readers through structure"
+        },
+        {
+          "function": "Argument status",
+          "expressions": ["It is not my contention that...", "The claim here is more modest...", "What I am arguing is distinct from..."],
+          "purpose": "Clarify the nature and limits of your claims"
+        },
+        {
+          "function": "Reader engagement",
+          "expressions": ["The reader will recall that...", "Consider how this applies to...", "As we have seen..."],
+          "purpose": "Create dialogue with reader"
+        },
+        {
+          "function": "Self-positioning",
+          "expressions": ["I depart from X in holding that...", "My approach differs from...", "Like X, I maintain that..."],
+          "purpose": "Locate yourself in scholarly conversation"
+        }
+      ]
+    },
+    {
+      "id": "c2-g8-s4",
+      "title": "Integrating Multiple Perspectives",
+      "explanation": "Structures for weaving together different viewpoints.",
+      "patterns": [
+        {
+          "pattern": "While X argues that... Y contends that... I maintain that...",
+          "example": "While Taylor argues that identity is dialogically constituted, Appiah contends that scripts themselves are negotiated. I maintain that both underestimate the role of material conditions."
+        },
+        {
+          "pattern": "On the standard view,... However, recent work suggests that...",
+          "example": "On the standard view, language acquisition is innate. However, recent work suggests that statistical learning plays a larger role than previously recognized."
+        },
+        {
+          "pattern": "X and Y share the assumption that... This assumption deserves scrutiny.",
+          "example": "Realists and antirealists share the assumption that the debate concerns truth. This assumption itself deserves scrutiny."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-g8-ex1",
+      "type": "sentence-transformation",
+      "instruction": "Transform into a periodic sentence",
+      "original": "We can appreciate the magnitude of this challenge only after considering all the evidence.",
+      "answer": "After surveying the historical record, evaluating the competing interpretations, and confronting the contradictions in our own assumptions—only then can we appreciate the magnitude of this challenge."
+    },
+    {
+      "id": "c2-g8-ex2",
+      "type": "epistemic-calibration",
+      "instruction": "Adjust the epistemic commitment appropriately",
+      "overconfident": "This proves that the theory is wrong.",
+      "calibrated": "This strongly suggests that the theory requires significant modification."
+    }
+  ]
+}

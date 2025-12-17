@@ -37,11 +37,7 @@ export default function ReviewScreen() {
           headerShown: true,
           title: '단어 복습',
           headerLeft: () => (
-            <IconButton
-              icon="close"
-              onPress={handleCancel}
-              iconColor={COLORS.text}
-            />
+            <IconButton icon="close" onPress={handleCancel} iconColor={COLORS.text} />
           ),
           headerStyle: { backgroundColor: COLORS.surface },
           headerTitleStyle: { color: COLORS.text },

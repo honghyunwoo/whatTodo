@@ -615,6 +615,8 @@ export function getLevelInfo(level: CEFRLevel): { name: string; color: string; d
     A2: { name: '기초', color: '#3b82f6', description: '일상적인 상황 대처 가능' },
     B1: { name: '중급', color: '#f59e0b', description: '주요 상황에서 자연스러운 대화' },
     B2: { name: '중상급', color: '#ef4444', description: '복잡한 주제 이해 및 토론 가능' },
+    C1: { name: '고급', color: '#8b5cf6', description: '복잡한 텍스트 이해 및 자연스러운 표현' },
+    C2: { name: '최상급', color: '#ec4899', description: '원어민 수준의 유창함' },
   };
   return info[level];
 }

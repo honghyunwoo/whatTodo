@@ -13,15 +13,17 @@ import {
 // CEFR 레벨 타입 정의
 // ─────────────────────────────────────
 
-export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2';
+export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
 
-export const CEFR_LEVELS: CEFRLevel[] = ['A1', 'A2', 'B1', 'B2'];
+export const CEFR_LEVELS: CEFRLevel[] = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 
 export const CEFR_LEVEL_INFO: Record<CEFRLevel, { name: string; description: string }> = {
   A1: { name: 'Beginner', description: 'Basic phrases and expressions' },
   A2: { name: 'Elementary', description: 'Everyday expressions and simple sentences' },
   B1: { name: 'Intermediate', description: 'Main points and simple connected text' },
   B2: { name: 'Upper Intermediate', description: 'Complex text and abstract topics' },
+  C1: { name: 'Advanced', description: 'Complex ideas and implicit meaning' },
+  C2: { name: 'Proficient', description: 'Near-native fluency and precision' },
 };
 
 // ─────────────────────────────────────
@@ -36,6 +38,8 @@ const activityCache: ActivityCache = {
   A2: null,
   B1: null,
   B2: null,
+  C1: null,
+  C2: null,
 };
 
 // 레벨별 로딩 상태
@@ -44,6 +48,8 @@ const loadingPromises: Record<CEFRLevel, Promise<void> | null> = {
   A2: null,
   B1: null,
   B2: null,
+  C1: null,
+  C2: null,
 };
 
 // 레벨이 로드되었는지 확인
@@ -342,6 +348,8 @@ export function getLevelLabel(level: CEFRLevel): string {
     A2: '초급',
     B1: '중급',
     B2: '중상급',
+    C1: '고급',
+    C2: '최고급',
   };
 
   return labels[level] || level;

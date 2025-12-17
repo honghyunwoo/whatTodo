@@ -234,7 +234,9 @@ export function ShortAnswer({ questions, onComplete }: ShortAnswerProps) {
   return (
     <View style={[styles.container, { backgroundColor: colors.background }]}>
       {/* Progress Bar */}
-      <View style={[styles.progressContainer, { backgroundColor: isDark ? '#38383A' : COLORS.border }]}>
+      <View
+        style={[styles.progressContainer, { backgroundColor: isDark ? '#38383A' : COLORS.border }]}
+      >
         <MotiView
           animate={{ width: `${progress}%` }}
           transition={{ type: 'timing', duration: 300 }}
@@ -252,7 +254,9 @@ export function ShortAnswer({ questions, onComplete }: ShortAnswerProps) {
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ type: 'timing', duration: 300 }}
       >
-        <Card style={[styles.questionCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}>
+        <Card
+          style={[styles.questionCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
+        >
           <Card.Content>
             {/* Difficulty Badge */}
             {currentQuestion.difficulty && (
@@ -262,16 +266,16 @@ export function ShortAnswer({ questions, onComplete }: ShortAnswerProps) {
                     currentQuestion.difficulty === 'easy'
                       ? 'circle-outline'
                       : currentQuestion.difficulty === 'medium'
-                      ? 'circle-half-full'
-                      : 'circle'
+                        ? 'circle-half-full'
+                        : 'circle'
                   }
                   size={14}
                   color={
                     currentQuestion.difficulty === 'easy'
                       ? '#22c55e'
                       : currentQuestion.difficulty === 'medium'
-                      ? '#f59e0b'
-                      : '#ef4444'
+                        ? '#f59e0b'
+                        : '#ef4444'
                   }
                 />
                 <Text
@@ -282,16 +286,16 @@ export function ShortAnswer({ questions, onComplete }: ShortAnswerProps) {
                         currentQuestion.difficulty === 'easy'
                           ? '#22c55e'
                           : currentQuestion.difficulty === 'medium'
-                          ? '#f59e0b'
-                          : '#ef4444',
+                            ? '#f59e0b'
+                            : '#ef4444',
                     },
                   ]}
                 >
                   {currentQuestion.difficulty === 'easy'
                     ? 'Easy'
                     : currentQuestion.difficulty === 'medium'
-                    ? 'Medium'
-                    : 'Hard'}
+                      ? 'Medium'
+                      : 'Hard'}
                 </Text>
               </View>
             )}
@@ -317,8 +321,8 @@ export function ShortAnswer({ questions, onComplete }: ShortAnswerProps) {
               borderColor: isSubmitted
                 ? getFeedbackColor()
                 : userInput.length > 0
-                ? COLORS.primary
-                : COLORS.border,
+                  ? COLORS.primary
+                  : COLORS.border,
             },
           ]}
         >
@@ -337,10 +341,7 @@ export function ShortAnswer({ questions, onComplete }: ShortAnswerProps) {
             returnKeyType="done"
           />
           {userInput.length > 0 && !isSubmitted && (
-            <Pressable
-              style={styles.clearButton}
-              onPress={() => setUserInput('')}
-            >
+            <Pressable style={styles.clearButton} onPress={() => setUserInput('')}>
               <MaterialCommunityIcons name="close-circle" size={20} color={colors.textSecondary} />
             </Pressable>
           )}
@@ -394,7 +395,12 @@ export function ShortAnswer({ questions, onComplete }: ShortAnswerProps) {
             onPress={handleSubmit}
             disabled={!userInput.trim()}
           >
-            <Text style={[styles.submitButtonText, { color: userInput.trim() ? '#fff' : colors.textSecondary }]}>
+            <Text
+              style={[
+                styles.submitButtonText,
+                { color: userInput.trim() ? '#fff' : colors.textSecondary },
+              ]}
+            >
               Check Answer
             </Text>
             <MaterialCommunityIcons
@@ -428,8 +434,8 @@ export function ShortAnswer({ questions, onComplete }: ShortAnswerProps) {
                       answerResult.isCorrect
                         ? 'check-decagram'
                         : answerResult.similarity >= 80
-                        ? 'alert-circle'
-                        : 'close-octagon'
+                          ? 'alert-circle'
+                          : 'close-octagon'
                     }
                     size={28}
                     color={getFeedbackColor()}

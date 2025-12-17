@@ -1,0 +1,128 @@
+{
+  "id": "c1-speaking-week-3",
+  "type": "speaking",
+  "level": "C1",
+  "weekId": "week-3",
+  "title": "Professional Presentations",
+  "description": "Delivering clear, persuasive presentations in professional contexts",
+  "estimatedMinutes": 20,
+  "xpReward": 45,
+  "exercises": [
+    {
+      "id": "c1-s3-ex1",
+      "type": "signposting",
+      "title": "Structuring Your Presentation",
+      "instruction": "Learn and practice phrases that guide your audience through your presentation",
+      "categories": {
+        "introduction": [
+          "Today I'd like to examine three key aspects of...",
+          "My presentation will be divided into three parts.",
+          "I'll begin by outlining..., then move on to..., and finally..."
+        ],
+        "transitioning": [
+          "Having established that..., let's now turn to...",
+          "This brings us to our next point.",
+          "With that context in mind, I want to shift our focus to..."
+        ],
+        "emphasizing": [
+          "I want to stress that this is particularly significant because...",
+          "The key takeaway here is...",
+          "What's crucial to understand is..."
+        ],
+        "summarizing": [
+          "To recap the main points we've covered...",
+          "So, to bring this together...",
+          "In essence, what I've argued is..."
+        ]
+      }
+    },
+    {
+      "id": "c1-s3-ex2",
+      "type": "data-presentation",
+      "title": "Presenting Data Effectively",
+      "instruction": "Practice describing trends and presenting statistical information",
+      "scenario": "Present the following data trend to your audience",
+      "data": "Customer satisfaction increased from 72% in 2020 to 89% in 2023, with the steepest rise occurring between 2021 and 2022.",
+      "phrases": {
+        "describing_trends": [
+          "We can observe a marked increase in...",
+          "The data reveals a steady upward trajectory.",
+          "There was a notable spike during..."
+        ],
+        "comparing": [
+          "In contrast to the previous period...",
+          "This represents a significant departure from...",
+          "When we compare 2020 to 2023, we see..."
+        ],
+        "qualifying": [
+          "While these figures are promising, we should note that...",
+          "These numbers need to be interpreted in context.",
+          "However, we must exercise caution when..."
+        ]
+      },
+      "modelResponse": "As you can see from this graph, customer satisfaction has improved substantially over the past three years. We've observed an increase from 72 percent in 2020 to 89 percent in 2023—that's a 17-percentage-point improvement. What's particularly noteworthy is that the steepest rise occurred between 2021 and 2022, which coincided with our implementation of the new feedback system. While these figures are certainly encouraging, we should be mindful that satisfaction metrics can be influenced by various external factors."
+    },
+    {
+      "id": "c1-s3-ex3",
+      "type": "Q&A-handling",
+      "title": "Managing Questions and Challenges",
+      "instruction": "Practice responding to challenging questions after a presentation",
+      "scenarios": [
+        {
+          "challenge": "How do you respond when you don't know the answer?",
+          "responses": [
+            "That's an excellent question, and I want to make sure I give you accurate information. Could I follow up with you after I've had a chance to consult the data?",
+            "I don't have those specific figures at hand, but I can certainly find out and get back to you.",
+            "That's outside my area of expertise, but I'd be happy to connect you with someone who can address that."
+          ]
+        },
+        {
+          "challenge": "How do you redirect an off-topic question?",
+          "responses": [
+            "That's an interesting point, though it's perhaps tangential to today's focus. Perhaps we could discuss that offline?",
+            "I appreciate the question—it opens up a broader discussion that's somewhat beyond our current scope, but I'd be happy to explore it after the session."
+          ]
+        },
+        {
+          "challenge": "How do you handle a hostile question?",
+          "responses": [
+            "I can see this is an area where we might have different perspectives. Let me address the specific concern you've raised...",
+            "That's a fair challenge. Let me explain the reasoning behind our approach..."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-s3-ex4",
+      "type": "executive-summary",
+      "title": "The Elevator Pitch",
+      "instruction": "Condense a complex proposal into a 60-second summary",
+      "scenario": "You have 60 seconds to pitch a new remote work policy to senior leadership",
+      "structure": [
+        "Hook: Why should they care? (5-10 seconds)",
+        "Problem: What issue are you addressing? (10-15 seconds)",
+        "Solution: What do you propose? (15-20 seconds)",
+        "Evidence: Why will it work? (10-15 seconds)",
+        "Call to action: What do you want them to do? (5-10 seconds)"
+      ],
+      "modelPitch": "Our employee turnover rate has increased 40% since mandating full-time office work. Exit interviews consistently cite work-life balance as the primary concern. I'm proposing a hybrid model—three days in office, two remote—that maintains collaboration while offering flexibility. Companies like Microsoft and Salesforce have seen 20% improvements in retention with similar policies. I'm asking for approval to pilot this with the marketing team next quarter, with clear metrics for evaluation."
+    }
+  ],
+  "pronunciationFocus": [
+    {
+      "word": "significant",
+      "ipa": "/sɪɡˈnɪfɪkənt/",
+      "note": "Stress on second syllable; common mispronunciation stresses first"
+    },
+    {
+      "word": "statistics",
+      "ipa": "/stəˈtɪstɪks/",
+      "note": "Stress on second syllable"
+    },
+    {
+      "word": "percentage",
+      "ipa": "/pəˈsentɪdʒ/",
+      "note": "Stress on second syllable; final 'e' is silent"
+    }
+  ]
+}

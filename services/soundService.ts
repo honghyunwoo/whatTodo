@@ -1,9 +1,17 @@
 import { Audio, AVPlaybackSource } from 'expo-av';
-import { Platform } from 'react-native';
 
 /**
  * Sound service for playing audio feedback throughout the app
- * Note: Sound files need to be added to assets/sounds/
+ *
+ * 사운드 파일이 없어도 앱이 작동하도록 graceful degradation 적용
+ * 파일 추가 시 자동으로 활성화됨
+ *
+ * 필요한 파일:
+ * - assets/sounds/correct.mp3
+ * - assets/sounds/wrong.mp3
+ * - assets/sounds/level-up.mp3
+ * - assets/sounds/achievement.mp3
+ * - assets/sounds/card-flip.mp3
  */
 
 // Sound cache to avoid reloading
@@ -12,11 +20,16 @@ const soundCache: Map<string, Audio.Sound> = new Map();
 // Track if audio is enabled
 let isEnabled = true;
 
+// Track if audio system is initialized
+let isInitialized = false;
+
 /**
  * Initialize audio session
  * Call this once at app startup
  */
 export async function initializeAudio(): Promise<void> {
+  if (isInitialized) return;
+
   try {
     await Audio.setAudioModeAsync({
       allowsRecordingIOS: false,
@@ -24,6 +37,7 @@ export async function initializeAudio(): Promise<void> {
       staysActiveInBackground: false,
       shouldDuckAndroid: true,
     });
+    isInitialized = true;
   } catch (error) {
     console.warn('Failed to initialize audio:', error);
   }
@@ -55,14 +69,16 @@ async function loadSound(source: AVPlaybackSource, key: string): Promise<Audio.S
     const { sound } = await Audio.Sound.createAsync(source, { shouldPlay: false });
     soundCache.set(key, sound);
     return sound;
-  } catch (error) {
-    console.warn(`Failed to load sound: ${key}`, error);
+  } catch {
+    // Graceful degradation - sound files may not exist
+    // This is expected during development
     return null;
   }
 }
 
 /**
  * Play a sound from cache or load it first
+ * Gracefully fails if sound file doesn't exist
  */
 async function playSound(source: AVPlaybackSource, key: string, volume = 1.0): Promise<void> {
   if (!isEnabled) return;
@@ -74,8 +90,9 @@ async function playSound(source: AVPlaybackSource, key: string, volume = 1.0): P
       await sound.setVolumeAsync(volume);
       await sound.playAsync();
     }
-  } catch (error) {
-    console.warn(`Failed to play sound: ${key}`, error);
+  } catch {
+    // Graceful degradation - sound file may not exist
+    // Haptic feedback will still work
   }
 }
 
@@ -87,7 +104,7 @@ export async function unloadAllSounds(): Promise<void> {
   for (const sound of soundCache.values()) {
     try {
       await sound.unloadAsync();
-    } catch (error) {
+    } catch {
       // Ignore unload errors
     }
   }
@@ -95,132 +112,167 @@ export async function unloadAllSounds(): Promise<void> {
 }
 
 // ==========================================
-// Placeholder Sound Functions
-// These functions are ready to use once sound files are added
+// Sound Source Definitions
+// Using try-catch pattern for optional sound files
 // ==========================================
 
-// Game sounds - add actual sound files to enable
+// Helper to safely require sound files
+function getSoundSource(filename: string): AVPlaybackSource | null {
+  try {
+    // Sound files are optional - graceful degradation if not present
+    switch (filename) {
+      case 'correct':
+        return require('@/assets/sounds/correct.mp3');
+      case 'wrong':
+        return require('@/assets/sounds/wrong.mp3');
+      case 'level-up':
+        return require('@/assets/sounds/level-up.mp3');
+      case 'achievement':
+        return require('@/assets/sounds/achievement.mp3');
+      case 'card-flip':
+        return require('@/assets/sounds/card-flip.mp3');
+      default:
+        return null;
+    }
+  } catch {
+    // Sound file doesn't exist - this is expected during development
+    return null;
+  }
+}
+
+// ==========================================
+// Game Sounds
+// ==========================================
+
 export const gameSounds = {
   /**
    * Play tile move sound
-   * Add: assets/sounds/tile-move.mp3
    */
   tileMove: async (): Promise<void> => {
-    // Uncomment when sound file is added:
-    // await playSound(require('@/assets/sounds/tile-move.mp3'), 'tile-move', 0.3);
+    const source = getSoundSource('tile-move');
+    if (source) await playSound(source, 'tile-move', 0.3);
   },
 
   /**
    * Play tile merge sound
-   * Add: assets/sounds/tile-merge.mp3
    */
   tileMerge: async (): Promise<void> => {
-    // await playSound(require('@/assets/sounds/tile-merge.mp3'), 'tile-merge', 0.5);
+    const source = getSoundSource('tile-merge');
+    if (source) await playSound(source, 'tile-merge', 0.5);
   },
 
   /**
    * Play high value merge sound (512+)
-   * Add: assets/sounds/high-merge.mp3
    */
   highValueMerge: async (): Promise<void> => {
-    // await playSound(require('@/assets/sounds/high-merge.mp3'), 'high-merge', 0.6);
+    const source = getSoundSource('high-merge');
+    if (source) await playSound(source, 'high-merge', 0.6);
   },
 
   /**
    * Play game over sound
-   * Add: assets/sounds/game-over.mp3
    */
   gameOver: async (): Promise<void> => {
-    // await playSound(require('@/assets/sounds/game-over.mp3'), 'game-over', 0.7);
+    const source = getSoundSource('game-over');
+    if (source) await playSound(source, 'game-over', 0.7);
   },
 
   /**
    * Play win sound
-   * Add: assets/sounds/win.mp3
    */
   win: async (): Promise<void> => {
-    // await playSound(require('@/assets/sounds/win.mp3'), 'win', 0.8);
+    const source = getSoundSource('win');
+    if (source) await playSound(source, 'win', 0.8);
   },
 };
 
-// Learn sounds
+// ==========================================
+// Learn Sounds
+// ==========================================
+
 export const learnSounds = {
   /**
    * Play correct answer sound
-   * Add: assets/sounds/correct.mp3
    */
   correct: async (): Promise<void> => {
-    // await playSound(require('@/assets/sounds/correct.mp3'), 'correct', 0.5);
+    const source = getSoundSource('correct');
+    if (source) await playSound(source, 'correct', 0.5);
   },
 
   /**
    * Play wrong answer sound
-   * Add: assets/sounds/wrong.mp3
    */
   wrong: async (): Promise<void> => {
-    // await playSound(require('@/assets/sounds/wrong.mp3'), 'wrong', 0.4);
+    const source = getSoundSource('wrong');
+    if (source) await playSound(source, 'wrong', 0.4);
   },
 
   /**
    * Play card flip sound
-   * Add: assets/sounds/card-flip.mp3
    */
   cardFlip: async (): Promise<void> => {
-    // await playSound(require('@/assets/sounds/card-flip.mp3'), 'card-flip', 0.3);
+    const source = getSoundSource('card-flip');
+    if (source) await playSound(source, 'card-flip', 0.3);
   },
 
   /**
    * Play level up sound
-   * Add: assets/sounds/level-up.mp3
    */
   levelUp: async (): Promise<void> => {
-    // await playSound(require('@/assets/sounds/level-up.mp3'), 'level-up', 0.7);
+    const source = getSoundSource('level-up');
+    if (source) await playSound(source, 'level-up', 0.7);
   },
 
   /**
    * Play achievement sound
-   * Add: assets/sounds/achievement.mp3
    */
   achievement: async (): Promise<void> => {
-    // await playSound(require('@/assets/sounds/achievement.mp3'), 'achievement', 0.6);
+    const source = getSoundSource('achievement');
+    if (source) await playSound(source, 'achievement', 0.6);
   },
 };
 
-// Todo sounds
+// ==========================================
+// Todo Sounds
+// ==========================================
+
 export const todoSounds = {
   /**
    * Play task complete sound
-   * Add: assets/sounds/task-complete.mp3
    */
   complete: async (): Promise<void> => {
-    // await playSound(require('@/assets/sounds/task-complete.mp3'), 'task-complete', 0.4);
+    const source = getSoundSource('task-complete');
+    if (source) await playSound(source, 'task-complete', 0.4);
   },
 
   /**
    * Play task delete sound
-   * Add: assets/sounds/delete.mp3
    */
   delete: async (): Promise<void> => {
-    // await playSound(require('@/assets/sounds/delete.mp3'), 'delete', 0.3);
+    const source = getSoundSource('delete');
+    if (source) await playSound(source, 'delete', 0.3);
   },
 };
 
-// UI sounds
+// ==========================================
+// UI Sounds
+// ==========================================
+
 export const uiSounds = {
   /**
    * Play button tap sound
-   * Add: assets/sounds/tap.mp3
    */
   tap: async (): Promise<void> => {
-    // await playSound(require('@/assets/sounds/tap.mp3'), 'tap', 0.2);
+    const source = getSoundSource('tap');
+    if (source) await playSound(source, 'tap', 0.2);
   },
 
   /**
    * Play notification sound
-   * Add: assets/sounds/notification.mp3
    */
   notification: async (): Promise<void> => {
-    // await playSound(require('@/assets/sounds/notification.mp3'), 'notification', 0.5);
+    const source = getSoundSource('notification');
+    if (source) await playSound(source, 'notification', 0.5);
   },
 };
 

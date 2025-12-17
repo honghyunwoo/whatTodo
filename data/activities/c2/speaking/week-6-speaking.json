@@ -1,0 +1,112 @@
+{
+  "id": "c2-speaking-week-6",
+  "type": "speaking",
+  "level": "C2",
+  "weekId": "week-6",
+  "title": "Ethical Argumentation and Applied Ethics",
+  "description": "Engaging in sophisticated moral reasoning in discourse",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c2-s6-s1",
+      "title": "Constructing Ethical Arguments",
+      "description": "Building rigorous moral arguments in speech",
+      "structures": [
+        {
+          "name": "From principle to application",
+          "structure": "Establish principle → Apply to case → Address objections",
+          "example": "The principle that persons should not be used merely as means applies here because... One might object that... However..."
+        },
+        {
+          "name": "Reflective equilibrium",
+          "structure": "Present intuition → Test against principle → Adjust either as needed",
+          "example": "Our intuition that X is wrong might lead us to revise our commitment to consequentialism, or alternatively, careful reflection might reveal our intuition as unreliable because..."
+        },
+        {
+          "name": "Case comparison",
+          "structure": "Establish judgment in clear case → Show parallel to contested case",
+          "example": "If we agree that action A is wrong because of feature F, and action B shares feature F, then we should also judge B to be wrong—unless we can identify a morally relevant difference."
+        }
+      ]
+    },
+    {
+      "id": "c2-s6-s2",
+      "title": "Responding to Ethical Objections",
+      "description": "Defending positions against moral challenges",
+      "strategies": [
+        {
+          "objection": "That leads to counterintuitive conclusions",
+          "responses": [
+            "I accept that conclusion—our intuitions may be unreliable here because...",
+            "The appearance of counterintuitiveness dissolves when we consider...",
+            "The principle can be refined to avoid that implication while preserving its core insight."
+          ]
+        },
+        {
+          "objection": "That's too demanding/permissive",
+          "responses": [
+            "The demandingness of a view doesn't make it false—perhaps morality is demanding.",
+            "The scope of obligation can be constrained by agent-relative prerogatives.",
+            "We must distinguish between ideal theory and what's required given human limitations."
+          ]
+        },
+        {
+          "objection": "Who decides what's right?",
+          "responses": [
+            "Moral truth doesn't require an arbiter any more than mathematical truth does.",
+            "We reason together toward moral understanding, just as we do in other domains.",
+            "The lack of a decision procedure doesn't entail that there are no right answers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-s6-s3",
+      "title": "Applied Ethics Discourse",
+      "description": "Discussing specific ethical issues with philosophical rigor",
+      "phrases": [
+        {
+          "function": "Identifying the moral question",
+          "expressions": [
+            "The core ethical issue here is whether...",
+            "What we're really disagreeing about is...",
+            "The question is not X but rather Y."
+          ]
+        },
+        {
+          "function": "Applying theories",
+          "expressions": [
+            "A consequentialist would evaluate this by...",
+            "From a rights-based perspective, the issue is...",
+            "Virtue ethics would ask what a person of good character would do."
+          ]
+        },
+        {
+          "function": "Navigating disagreement",
+          "expressions": [
+            "Our disagreement may reduce to different weightings of the competing values.",
+            "We agree on the relevant considerations but differ on their application.",
+            "This may be a case where reasonable people can reach different conclusions."
+          ]
+        }
+      ]
+    }
+  ],
+  "practiceScenarios": [
+    {
+      "id": "c2-s6-sc1",
+      "title": "Defending Consequentialism",
+      "context": "Someone objects that consequentialism would justify lying if it produces good outcomes.",
+      "task": "Offer a sophisticated defense of consequentialist ethics against this common objection.",
+      "sampleResponse": "The objection is fair as stated against crude forms of act consequentialism. But consider: rule consequentialists argue that we should follow rules that, when generally adopted, produce the best consequences. A rule permitting lying whenever we judge it beneficial would, when generally followed, undermine trust and produce worse outcomes than a rule requiring truthfulness. So sophisticated consequentialism can ground robust constraints on lying. More fundamentally, the fact that a theory might permit lying in extreme circumstances—say, lying to the murderer at the door—may count in its favor, not against it. The alternative—that we must tell the truth even when doing so enables terrible harm—seems to make a fetish of truth-telling. Consequentialism captures something important: that morality is ultimately about making the world better, not about following rules regardless of consequences."
+    },
+    {
+      "id": "c2-s6-sc2",
+      "title": "Discussing AI Ethics",
+      "context": "A discussion about whether AI systems can have moral status.",
+      "task": "Present a philosophically sophisticated position on AI moral status.",
+      "sampleResponse": "The question of AI moral status turns on what grounds moral status in the first place. If it's sentience—the capacity to suffer—then AI systems would need genuine phenomenal experience, not merely behavior that mimics it. And here we face the hard problem of consciousness: we can't verify from the outside whether any system is genuinely sentient. But perhaps sentience isn't the only ground for moral status. Some argue that personhood—the capacity for reason, autonomy, and moral agency—matters independently. On this view, an AI that can engage in genuine moral reasoning and act on moral reasons might have a form of moral status regardless of whether it 'feels' anything. I'm skeptical that current AI systems meet either criterion. They process information in ways that are statistically impressive but—I would argue—lack genuine understanding or experience. However, I'm open to the possibility that future systems might cross this threshold. What concerns me is our tendency to anthropomorphize: we should be careful not to attribute moral status based on superficial similarity to humans."
+    }
+  ]
+}

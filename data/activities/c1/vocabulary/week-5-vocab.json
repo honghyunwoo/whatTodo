@@ -1,0 +1,1609 @@
+{
+  "id": "c1-vocab-week-5",
+  "type": "vocabulary",
+  "level": "C1",
+  "weekId": "week-5",
+  "title": "Environmental and Scientific Terminology",
+  "description": "Specialized vocabulary for environmental science and sustainability discourse",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "words": [
+    {
+      "id": "w1",
+      "word": "sustainability",
+      "pronunciation": "/səˌsteɪnəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "meaning": "The capacity to maintain ecological processes and meet present needs without compromising future generations",
+      "translation": "지속가능성",
+      "example": "Corporate sustainability reports now include environmental, social, and governance metrics."
+    },
+    {
+      "id": "w2",
+      "word": "biodiversity",
+      "pronunciation": "/ˌbaɪoʊdaɪˈvɜːrsəti/",
+      "partOfSpeech": "noun",
+      "meaning": "The variety of plant and animal life in a particular habitat or ecosystem",
+      "translation": "생물다양성",
+      "example": "The Amazon rainforest represents the greatest biodiversity on Earth."
+    },
+    {
+      "id": "w3",
+      "word": "anthropogenic",
+      "pronunciation": "/ˌænθrəpoʊˈdʒenɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Originating from human activity",
+      "translation": "인위적인, 인간 활동으로 인한",
+      "example": "Anthropogenic climate change is driven primarily by greenhouse gas emissions."
+    },
+    {
+      "id": "w4",
+      "word": "mitigation",
+      "pronunciation": "/ˌmɪtɪˈɡeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The action of reducing severity, seriousness, or painfulness of something",
+      "translation": "완화, 경감",
+      "example": "Climate mitigation strategies include transitioning to renewable energy sources."
+    },
+    {
+      "id": "w5",
+      "word": "ecosystem",
+      "pronunciation": "/ˈiːkoʊˌsɪstəm/",
+      "partOfSpeech": "noun",
+      "meaning": "A biological community of interacting organisms and their physical environment",
+      "translation": "생태계",
+      "example": "Coral reefs are fragile ecosystems that support countless marine species."
+    },
+    {
+      "id": "w6",
+      "word": "resilience",
+      "pronunciation": "/rɪˈzɪliəns/",
+      "partOfSpeech": "noun",
+      "meaning": "The capacity to recover quickly from difficulties; ecological ability to absorb disturbance",
+      "translation": "회복력, 탄력성",
+      "example": "Building climate resilience requires both adaptation and mitigation strategies."
+    },
+    {
+      "id": "w7",
+      "word": "sequestration",
+      "pronunciation": "/ˌsiːkwəˈstreɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The process of capturing and storing atmospheric carbon dioxide",
+      "translation": "격리, 탄소 포집",
+      "example": "Forest sequestration plays a vital role in removing CO2 from the atmosphere."
+    },
+    {
+      "id": "w8",
+      "word": "renewable",
+      "pronunciation": "/rɪˈnjuːəbl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Capable of being replaced by natural processes in a relatively short time",
+      "translation": "재생 가능한",
+      "example": "Renewable energy sources like solar and wind are key to decarbonization."
+    },
+    {
+      "id": "w9",
+      "word": "deforestation",
+      "pronunciation": "/diːˌfɒrɪˈsteɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The action of clearing a wide area of trees",
+      "translation": "삼림 벌채",
+      "example": "Deforestation in tropical regions contributes significantly to global carbon emissions."
+    },
+    {
+      "id": "w10",
+      "word": "biodegradable",
+      "pronunciation": "/ˌbaɪoʊdɪˈɡreɪdəbl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Capable of being decomposed by bacteria or other living organisms",
+      "translation": "생분해성의",
+      "example": "Biodegradable packaging materials reduce long-term environmental impact."
+    },
+    {
+      "id": "w11",
+      "word": "photosynthesis",
+      "pronunciation": "/ˌfoʊtoʊˈsɪnθəsɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "The process by which green plants use sunlight to synthesize nutrients from carbon dioxide and water",
+      "translation": "광합성",
+      "example": "Photosynthesis is fundamental to the carbon cycle and oxygen production on Earth."
+    },
+    {
+      "id": "w12",
+      "word": "emissions",
+      "pronunciation": "/ɪˈmɪʃənz/",
+      "partOfSpeech": "noun",
+      "meaning": "The production and discharge of gases or radiation into the atmosphere",
+      "translation": "배출물, 배출량",
+      "example": "Reducing carbon emissions is critical to limiting global temperature rise."
+    },
+    {
+      "id": "w13",
+      "word": "conservation",
+      "pronunciation": "/ˌkɒnsərˈveɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The preservation, protection, or restoration of the natural environment and wildlife",
+      "translation": "보존, 보전",
+      "example": "Conservation efforts have helped several endangered species recover their populations."
+    },
+    {
+      "id": "w14",
+      "word": "pollutant",
+      "pronunciation": "/pəˈluːtənt/",
+      "partOfSpeech": "noun",
+      "meaning": "A substance that pollutes something, especially water or the atmosphere",
+      "translation": "오염 물질",
+      "example": "Industrial pollutants continue to contaminate rivers and groundwater sources."
+    },
+    {
+      "id": "w15",
+      "word": "extinction",
+      "pronunciation": "/ɪkˈstɪŋkʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The state or process of a species, family, or larger group ceasing to exist",
+      "translation": "멸종",
+      "example": "Habitat loss is pushing many species toward extinction at an alarming rate."
+    },
+    {
+      "id": "w16",
+      "word": "greenhouse",
+      "pronunciation": "/ˈɡriːnhaʊs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to or denoting the trapping of the sun's warmth in a planet's atmosphere",
+      "translation": "온실의",
+      "example": "Greenhouse gases trap heat in the atmosphere, causing global warming."
+    },
+    {
+      "id": "w17",
+      "word": "aquifer",
+      "pronunciation": "/ˈækwɪfər/",
+      "partOfSpeech": "noun",
+      "meaning": "A body of permeable rock that can contain or transmit groundwater",
+      "translation": "대수층, 지하수층",
+      "example": "Over-extraction from aquifers threatens water security in many regions."
+    },
+    {
+      "id": "w18",
+      "word": "precipitation",
+      "pronunciation": "/prɪˌsɪpɪˈteɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "Rain, snow, sleet, or hail that falls to the ground",
+      "translation": "강수, 강수량",
+      "example": "Changes in precipitation patterns are affecting agricultural productivity worldwide."
+    },
+    {
+      "id": "w19",
+      "word": "erosion",
+      "pronunciation": "/ɪˈroʊʒən/",
+      "partOfSpeech": "noun",
+      "meaning": "The process by which soil and rock are removed from the Earth's surface by wind or water flow",
+      "translation": "침식",
+      "example": "Soil erosion reduces agricultural land productivity and pollutes waterways."
+    },
+    {
+      "id": "w20",
+      "word": "desertification",
+      "pronunciation": "/dɪˌzɜːrtɪfɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The process by which fertile land becomes desert, typically due to drought or deforestation",
+      "translation": "사막화",
+      "example": "Desertification threatens the livelihoods of millions in sub-Saharan Africa."
+    },
+    {
+      "id": "w21",
+      "word": "remediation",
+      "pronunciation": "/rɪˌmiːdiˈeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The action of remedying something, especially the reversal or stopping of environmental damage",
+      "translation": "정화, 복원",
+      "example": "Soil remediation techniques can remove toxic contaminants from polluted sites."
+    },
+    {
+      "id": "w22",
+      "word": "watershed",
+      "pronunciation": "/ˈwɔːtərʃed/",
+      "partOfSpeech": "noun",
+      "meaning": "An area of land that drains all water to a common outlet",
+      "translation": "유역, 분수령",
+      "example": "Protecting the watershed is essential for maintaining clean drinking water supplies."
+    },
+    {
+      "id": "w23",
+      "word": "ozone",
+      "pronunciation": "/ˈoʊzoʊn/",
+      "partOfSpeech": "noun",
+      "meaning": "A colorless unstable toxic gas with a pungent odor, formed in the stratosphere and protecting Earth from UV radiation",
+      "translation": "오존",
+      "example": "The ozone layer shields the planet from harmful ultraviolet radiation."
+    },
+    {
+      "id": "w24",
+      "word": "toxicity",
+      "pronunciation": "/tɒkˈsɪsəti/",
+      "partOfSpeech": "noun",
+      "meaning": "The quality of being toxic or poisonous",
+      "translation": "독성",
+      "example": "Heavy metals in water supplies pose serious toxicity risks to human health."
+    },
+    {
+      "id": "w25",
+      "word": "symbiotic",
+      "pronunciation": "/ˌsɪmbaɪˈɒtɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Involving interaction between two different organisms living in close physical association",
+      "translation": "공생의",
+      "example": "Coral and algae have a symbiotic relationship that benefits both species."
+    },
+    {
+      "id": "w26",
+      "word": "habitat",
+      "pronunciation": "/ˈhæbɪtæt/",
+      "partOfSpeech": "noun",
+      "meaning": "The natural home or environment of an animal, plant, or other organism",
+      "translation": "서식지",
+      "example": "Habitat destruction is the leading cause of species decline globally."
+    },
+    {
+      "id": "w27",
+      "word": "permafrost",
+      "pronunciation": "/ˈpɜːrməfrɔːst/",
+      "partOfSpeech": "noun",
+      "meaning": "A thick subsurface layer of soil that remains frozen throughout the year",
+      "translation": "영구 동토층",
+      "example": "Melting permafrost releases methane, a potent greenhouse gas."
+    },
+    {
+      "id": "w28",
+      "word": "algae",
+      "pronunciation": "/ˈældʒiː/",
+      "partOfSpeech": "noun",
+      "meaning": "Simple non-flowering plants that include seaweeds and many single-celled forms",
+      "translation": "조류, 해조류",
+      "example": "Algae blooms in polluted waters can deplete oxygen and harm marine life."
+    },
+    {
+      "id": "w29",
+      "word": "biofuel",
+      "pronunciation": "/ˈbaɪoʊfjuːəl/",
+      "partOfSpeech": "noun",
+      "meaning": "A fuel derived from living matter, such as plants or agricultural waste",
+      "translation": "바이오 연료",
+      "example": "Biofuels offer a renewable alternative to fossil fuels but raise sustainability concerns."
+    },
+    {
+      "id": "w30",
+      "word": "acidification",
+      "pronunciation": "/əˌsɪdɪfɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The action or process of making or becoming acidic",
+      "translation": "산성화",
+      "example": "Ocean acidification threatens coral reefs and shellfish populations."
+    },
+    {
+      "id": "w31",
+      "word": "indigenous",
+      "pronunciation": "/ɪnˈdɪdʒənəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Originating or occurring naturally in a particular place; native",
+      "translation": "토착의, 고유의",
+      "example": "Indigenous species are often better adapted to local environmental conditions."
+    },
+    {
+      "id": "w32",
+      "word": "invasive",
+      "pronunciation": "/ɪnˈveɪsɪv/",
+      "partOfSpeech": "adjective",
+      "meaning": "Tending to spread prolifically and undesirably or harmfully",
+      "translation": "침입성의, 외래의",
+      "example": "Invasive species can outcompete native organisms and disrupt ecosystems."
+    },
+    {
+      "id": "w33",
+      "word": "photovoltaic",
+      "pronunciation": "/ˌfoʊtoʊvɒlˈteɪɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to the production of electric current at the junction of two substances exposed to light",
+      "translation": "광전지의, 태양광 발전의",
+      "example": "Photovoltaic panels convert sunlight directly into electricity."
+    },
+    {
+      "id": "w34",
+      "word": "geothermal",
+      "pronunciation": "/ˌdʒiːoʊˈθɜːrməl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to or produced by the internal heat of the earth",
+      "translation": "지열의",
+      "example": "Geothermal energy provides a reliable source of renewable power."
+    },
+    {
+      "id": "w35",
+      "word": "cultivation",
+      "pronunciation": "/ˌkʌltɪˈveɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The action of cultivating land, or the state of being cultivated",
+      "translation": "경작, 재배",
+      "example": "Sustainable cultivation practices help maintain soil health and productivity."
+    },
+    {
+      "id": "w36",
+      "word": "pesticide",
+      "pronunciation": "/ˈpestɪsaɪd/",
+      "partOfSpeech": "noun",
+      "meaning": "A substance used for destroying insects or other organisms harmful to cultivated plants or animals",
+      "translation": "살충제, 농약",
+      "example": "Excessive pesticide use can contaminate groundwater and harm beneficial insects."
+    },
+    {
+      "id": "w37",
+      "word": "herbivore",
+      "pronunciation": "/ˈhɜːrbɪvɔːr/",
+      "partOfSpeech": "noun",
+      "meaning": "An animal that feeds on plants",
+      "translation": "초식동물",
+      "example": "Large herbivores play a crucial role in shaping grassland ecosystems."
+    },
+    {
+      "id": "w38",
+      "word": "carnivore",
+      "pronunciation": "/ˈkɑːrnɪvɔːr/",
+      "partOfSpeech": "noun",
+      "meaning": "An animal that feeds on other animals",
+      "translation": "육식동물",
+      "example": "Apex carnivores help regulate prey populations in healthy ecosystems."
+    },
+    {
+      "id": "w39",
+      "word": "decomposer",
+      "pronunciation": "/ˌdiːkəmˈpoʊzər/",
+      "partOfSpeech": "noun",
+      "meaning": "An organism, especially a soil bacterium or fungus, that breaks down organic material",
+      "translation": "분해자",
+      "example": "Decomposers recycle nutrients from dead organisms back into the soil."
+    },
+    {
+      "id": "w40",
+      "word": "trophic",
+      "pronunciation": "/ˈtroʊfɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to feeding and nutrition; relating to a position in a food chain",
+      "translation": "영양의, 먹이 단계의",
+      "example": "Energy is lost as it moves up each trophic level in a food chain."
+    },
+    {
+      "id": "w41",
+      "word": "eutrophication",
+      "pronunciation": "/juːˌtrɒfɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "Excessive richness of nutrients in a body of water, frequently causing dense plant growth",
+      "translation": "부영양화",
+      "example": "Eutrophication from agricultural runoff creates dead zones in coastal waters."
+    },
+    {
+      "id": "w42",
+      "word": "assimilation",
+      "pronunciation": "/əˌsɪmɪˈleɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The process by which organisms absorb and incorporate nutrients",
+      "translation": "동화 작용",
+      "example": "Nitrogen assimilation by plants is essential for protein synthesis."
+    },
+    {
+      "id": "w43",
+      "word": "stratosphere",
+      "pronunciation": "/ˈstrætəsfɪr/",
+      "partOfSpeech": "noun",
+      "meaning": "The layer of the earth's atmosphere above the troposphere, extending to about 50 km above the surface",
+      "translation": "성층권",
+      "example": "The stratosphere contains the ozone layer that protects Earth from UV radiation."
+    },
+    {
+      "id": "w44",
+      "word": "volatile",
+      "pronunciation": "/ˈvɒlətaɪl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Easily evaporated at normal temperatures; liable to change rapidly and unpredictably",
+      "translation": "휘발성의, 변덕스러운",
+      "example": "Volatile organic compounds contribute to air pollution and smog formation."
+    },
+    {
+      "id": "w45",
+      "word": "watershed",
+      "pronunciation": "/ˈwɔːtərʃed/",
+      "partOfSpeech": "noun",
+      "meaning": "A ridge of land that separates waters flowing to different rivers, basins, or seas",
+      "translation": "분수령, 전환점",
+      "example": "The conference marked a watershed moment in international climate policy."
+    },
+    {
+      "id": "w46",
+      "word": "bioaccumulation",
+      "pronunciation": "/ˌbaɪoʊəˌkjuːmjəˈleɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The gradual accumulation of substances in an organism",
+      "translation": "생물농축",
+      "example": "Bioaccumulation of mercury in fish poses health risks to humans."
+    },
+    {
+      "id": "w47",
+      "word": "photochemical",
+      "pronunciation": "/ˌfoʊtoʊˈkemɪkəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to or caused by the chemical action of light",
+      "translation": "광화학의",
+      "example": "Photochemical smog forms when sunlight reacts with pollutants in the atmosphere."
+    },
+    {
+      "id": "w48",
+      "word": "terrestrial",
+      "pronunciation": "/təˈrestriəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to the earth or dry land; living on or in the ground",
+      "translation": "육상의, 지구의",
+      "example": "Terrestrial ecosystems include forests, grasslands, and deserts."
+    },
+    {
+      "id": "w49",
+      "word": "marine",
+      "pronunciation": "/məˈriːn/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to or found in the sea",
+      "translation": "해양의",
+      "example": "Marine protected areas help conserve ocean biodiversity."
+    },
+    {
+      "id": "w50",
+      "word": "afforestation",
+      "pronunciation": "/əˌfɒrɪˈsteɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The establishment of a forest or stand of trees in an area where there was no previous tree cover",
+      "translation": "조림, 산림 조성",
+      "example": "Afforestation projects can help sequester carbon and restore degraded landscapes."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "The capacity to maintain ecological processes without compromising future generations is called ___.",
+      "options": ["sustainability", "resilience", "conservation", "mitigation"],
+      "correctAnswer": "sustainability",
+      "relatedWordId": "w1"
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "What term describes the variety of plant and animal life in an ecosystem?",
+      "options": ["biodiversity", "ecosystem", "habitat", "biome"],
+      "correctAnswer": "biodiversity",
+      "relatedWordId": "w2"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "Climate change caused by human activity is described as ___.",
+      "options": ["anthropogenic", "biogenic", "natural", "endemic"],
+      "correctAnswer": "anthropogenic",
+      "relatedWordId": "w3"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "The process of capturing and storing atmospheric carbon dioxide is called ___.",
+      "options": ["sequestration", "emission", "precipitation", "cultivation"],
+      "correctAnswer": "sequestration",
+      "relatedWordId": "w7"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "Energy sources that can be naturally replenished are called ___.",
+      "options": ["renewable", "finite", "exhaustible", "volatile"],
+      "correctAnswer": "renewable",
+      "relatedWordId": "w8"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "The clearing of a wide area of trees is known as ___.",
+      "options": ["deforestation", "afforestation", "cultivation", "erosion"],
+      "correctAnswer": "deforestation",
+      "relatedWordId": "w9"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "Materials that can be decomposed by bacteria are ___.",
+      "options": ["biodegradable", "volatile", "toxic", "renewable"],
+      "correctAnswer": "biodegradable",
+      "relatedWordId": "w10"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "The process by which plants use sunlight to produce nutrients is ___.",
+      "options": ["photosynthesis", "assimilation", "precipitation", "erosion"],
+      "correctAnswer": "photosynthesis",
+      "relatedWordId": "w11"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "A substance that pollutes water or air is called a ___.",
+      "options": ["pollutant", "nutrient", "decomposer", "herbivore"],
+      "correctAnswer": "pollutant",
+      "relatedWordId": "w14"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "The complete disappearance of a species is called ___.",
+      "options": ["extinction", "conservation", "mitigation", "resilience"],
+      "correctAnswer": "extinction",
+      "relatedWordId": "w15"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "A body of permeable rock containing groundwater is an ___.",
+      "options": ["aquifer", "watershed", "habitat", "ecosystem"],
+      "correctAnswer": "aquifer",
+      "relatedWordId": "w17"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "Rain, snow, and hail are forms of ___.",
+      "options": ["precipitation", "erosion", "assimilation", "cultivation"],
+      "correctAnswer": "precipitation",
+      "relatedWordId": "w18"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "The process of fertile land becoming desert is ___.",
+      "options": ["desertification", "afforestation", "eutrophication", "acidification"],
+      "correctAnswer": "desertification",
+      "relatedWordId": "w20"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "The gas in the stratosphere that protects Earth from UV radiation is ___.",
+      "options": ["ozone", "methane", "carbon dioxide", "nitrogen"],
+      "correctAnswer": "ozone",
+      "relatedWordId": "w23"
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "A relationship where two organisms benefit each other is ___.",
+      "options": ["symbiotic", "invasive", "indigenous", "volatile"],
+      "correctAnswer": "symbiotic",
+      "relatedWordId": "w25"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "The natural home of an organism is its ___.",
+      "options": ["habitat", "watershed", "aquifer", "biome"],
+      "correctAnswer": "habitat",
+      "relatedWordId": "w26"
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "Frozen soil that remains frozen year-round is called ___.",
+      "options": ["permafrost", "tundra", "glacier", "iceberg"],
+      "correctAnswer": "permafrost",
+      "relatedWordId": "w27"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "Fuel derived from living matter like plants is ___.",
+      "options": ["biofuel", "fossil fuel", "geothermal", "photovoltaic"],
+      "correctAnswer": "biofuel",
+      "relatedWordId": "w29"
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "Species that originate naturally in a particular place are ___.",
+      "options": ["indigenous", "invasive", "exotic", "endemic"],
+      "correctAnswer": "indigenous",
+      "relatedWordId": "w31"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "Energy from the Earth's internal heat is ___.",
+      "options": ["geothermal", "photovoltaic", "biofuel", "renewable"],
+      "correctAnswer": "geothermal",
+      "relatedWordId": "w34"
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "Substances used to kill harmful insects are ___.",
+      "options": ["pesticides", "herbivores", "decomposers", "nutrients"],
+      "correctAnswer": "pesticides",
+      "relatedWordId": "w36"
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "An animal that feeds on plants is a ___.",
+      "options": ["herbivore", "carnivore", "decomposer", "omnivore"],
+      "correctAnswer": "herbivore",
+      "relatedWordId": "w37"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "An organism that breaks down dead organic material is a ___.",
+      "options": ["decomposer", "herbivore", "carnivore", "producer"],
+      "correctAnswer": "decomposer",
+      "relatedWordId": "w39"
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "Excessive nutrient richness in water causing plant overgrowth is ___.",
+      "options": ["eutrophication", "acidification", "erosion", "desertification"],
+      "correctAnswer": "eutrophication",
+      "relatedWordId": "w41"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "The layer of atmosphere containing the ozone layer is the ___.",
+      "options": ["stratosphere", "troposphere", "mesosphere", "thermosphere"],
+      "correctAnswer": "stratosphere",
+      "relatedWordId": "w43"
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "The gradual accumulation of substances in an organism is ___.",
+      "options": ["bioaccumulation", "assimilation", "eutrophication", "remediation"],
+      "correctAnswer": "bioaccumulation",
+      "relatedWordId": "w46"
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "Ecosystems on land are called ___ ecosystems.",
+      "options": ["terrestrial", "marine", "aquatic", "aerial"],
+      "correctAnswer": "terrestrial",
+      "relatedWordId": "w48"
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "Planting trees in an area with no previous forest is ___.",
+      "options": ["afforestation", "deforestation", "cultivation", "conservation"],
+      "correctAnswer": "afforestation",
+      "relatedWordId": "w50"
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "The ability to recover quickly from environmental disturbance is ___.",
+      "options": ["resilience", "sustainability", "mitigation", "conservation"],
+      "correctAnswer": "resilience",
+      "relatedWordId": "w6"
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "Relating to the ocean or sea is ___.",
+      "options": ["marine", "terrestrial", "atmospheric", "geological"],
+      "correctAnswer": "marine",
+      "relatedWordId": "w49"
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "sentence": "Corporate ___ reports track environmental and social impacts.",
+      "correctAnswer": "sustainability",
+      "relatedWordId": "w1"
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "sentence": "The Amazon rainforest has incredible ___.",
+      "correctAnswer": "biodiversity",
+      "relatedWordId": "w2"
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "sentence": "___ climate change is caused by human activities.",
+      "correctAnswer": "Anthropogenic",
+      "relatedWordId": "w3"
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "sentence": "Climate ___ strategies help reduce global warming.",
+      "correctAnswer": "mitigation",
+      "relatedWordId": "w4"
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "sentence": "Coral reefs are fragile ___ that support marine life.",
+      "correctAnswer": "ecosystems",
+      "relatedWordId": "w5"
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "sentence": "Building climate ___ helps communities adapt to change.",
+      "correctAnswer": "resilience",
+      "relatedWordId": "w6"
+    },
+    {
+      "id": "ex37",
+      "type": "fill_blank",
+      "sentence": "Forest ___ captures carbon dioxide from the atmosphere.",
+      "correctAnswer": "sequestration",
+      "relatedWordId": "w7"
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "sentence": "___ energy sources include solar and wind power.",
+      "correctAnswer": "Renewable",
+      "relatedWordId": "w8"
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "sentence": "___ contributes to habitat loss and carbon emissions.",
+      "correctAnswer": "Deforestation",
+      "relatedWordId": "w9"
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "sentence": "___ plastics break down naturally over time.",
+      "correctAnswer": "Biodegradable",
+      "relatedWordId": "w10"
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "sentence": "___ converts carbon dioxide and water into glucose.",
+      "correctAnswer": "Photosynthesis",
+      "relatedWordId": "w11"
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "sentence": "Reducing carbon ___ is crucial for climate action.",
+      "correctAnswer": "emissions",
+      "relatedWordId": "w12"
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "sentence": "Wildlife ___ helps protect endangered species.",
+      "correctAnswer": "conservation",
+      "relatedWordId": "w13"
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "sentence": "Industrial ___ contaminate rivers and lakes.",
+      "correctAnswer": "pollutants",
+      "relatedWordId": "w14"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "sentence": "Many species face ___ due to habitat loss.",
+      "correctAnswer": "extinction",
+      "relatedWordId": "w15"
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "sentence": "___ gases trap heat in Earth's atmosphere.",
+      "correctAnswer": "Greenhouse",
+      "relatedWordId": "w16"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "sentence": "The ___ provides groundwater for many communities.",
+      "correctAnswer": "aquifer",
+      "relatedWordId": "w17"
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "sentence": "Climate change is altering ___ patterns globally.",
+      "correctAnswer": "precipitation",
+      "relatedWordId": "w18"
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "sentence": "Soil ___ reduces agricultural productivity.",
+      "correctAnswer": "erosion",
+      "relatedWordId": "w19"
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "sentence": "___ threatens millions of people in Africa.",
+      "correctAnswer": "Desertification",
+      "relatedWordId": "w20"
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "sentence": "Soil ___ can remove toxic contaminants.",
+      "correctAnswer": "remediation",
+      "relatedWordId": "w21"
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "sentence": "Protecting the ___ ensures clean drinking water.",
+      "correctAnswer": "watershed",
+      "relatedWordId": "w22"
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "sentence": "The ___ layer protects Earth from UV radiation.",
+      "correctAnswer": "ozone",
+      "relatedWordId": "w23"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "sentence": "Heavy metals pose serious ___ risks to health.",
+      "correctAnswer": "toxicity",
+      "relatedWordId": "w24"
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "sentence": "Coral and algae have a ___ relationship.",
+      "correctAnswer": "symbiotic",
+      "relatedWordId": "w25"
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "sentence": "___ destruction is the main cause of species decline.",
+      "correctAnswer": "Habitat",
+      "relatedWordId": "w26"
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "sentence": "Melting ___ releases methane into the atmosphere.",
+      "correctAnswer": "permafrost",
+      "relatedWordId": "w27"
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "sentence": "___ blooms can deplete oxygen in water bodies.",
+      "correctAnswer": "Algae",
+      "relatedWordId": "w28"
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "sentence": "___ offer a renewable alternative to fossil fuels.",
+      "correctAnswer": "Biofuels",
+      "relatedWordId": "w29"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "sentence": "Ocean ___ threatens coral reefs worldwide.",
+      "correctAnswer": "acidification",
+      "relatedWordId": "w30"
+    },
+    {
+      "id": "ex61",
+      "type": "matching",
+      "pairs": [
+        {"left": "sustainability", "right": "Maintaining ecological balance"},
+        {"left": "biodiversity", "right": "Variety of species in an ecosystem"},
+        {"left": "anthropogenic", "right": "Caused by human activity"},
+        {"left": "mitigation", "right": "Reducing severity of problems"}
+      ],
+      "relatedWordIds": ["w1", "w2", "w3", "w4"]
+    },
+    {
+      "id": "ex62",
+      "type": "matching",
+      "pairs": [
+        {"left": "ecosystem", "right": "Community of organisms and environment"},
+        {"left": "resilience", "right": "Ability to recover from disturbance"},
+        {"left": "sequestration", "right": "Capturing and storing carbon"},
+        {"left": "renewable", "right": "Can be naturally replenished"}
+      ],
+      "relatedWordIds": ["w5", "w6", "w7", "w8"]
+    },
+    {
+      "id": "ex63",
+      "type": "matching",
+      "pairs": [
+        {"left": "deforestation", "right": "Clearing of forest areas"},
+        {"left": "biodegradable", "right": "Can decompose naturally"},
+        {"left": "photosynthesis", "right": "Plants producing food from sunlight"},
+        {"left": "emissions", "right": "Gases released into atmosphere"}
+      ],
+      "relatedWordIds": ["w9", "w10", "w11", "w12"]
+    },
+    {
+      "id": "ex64",
+      "type": "matching",
+      "pairs": [
+        {"left": "conservation", "right": "Protection of natural resources"},
+        {"left": "pollutant", "right": "Substance that contaminates"},
+        {"left": "extinction", "right": "Complete disappearance of species"},
+        {"left": "greenhouse", "right": "Trapping heat in atmosphere"}
+      ],
+      "relatedWordIds": ["w13", "w14", "w15", "w16"]
+    },
+    {
+      "id": "ex65",
+      "type": "matching",
+      "pairs": [
+        {"left": "aquifer", "right": "Underground water source"},
+        {"left": "precipitation", "right": "Rain, snow, or hail"},
+        {"left": "erosion", "right": "Wearing away of soil"},
+        {"left": "desertification", "right": "Land becoming desert"}
+      ],
+      "relatedWordIds": ["w17", "w18", "w19", "w20"]
+    },
+    {
+      "id": "ex66",
+      "type": "matching",
+      "pairs": [
+        {"left": "remediation", "right": "Cleaning polluted environments"},
+        {"left": "watershed", "right": "Area draining to common outlet"},
+        {"left": "ozone", "right": "Gas protecting from UV radiation"},
+        {"left": "toxicity", "right": "Quality of being poisonous"}
+      ],
+      "relatedWordIds": ["w21", "w22", "w23", "w24"]
+    },
+    {
+      "id": "ex67",
+      "type": "matching",
+      "pairs": [
+        {"left": "symbiotic", "right": "Mutually beneficial relationship"},
+        {"left": "habitat", "right": "Natural home of organism"},
+        {"left": "permafrost", "right": "Permanently frozen soil"},
+        {"left": "algae", "right": "Simple aquatic plants"}
+      ],
+      "relatedWordIds": ["w25", "w26", "w27", "w28"]
+    },
+    {
+      "id": "ex68",
+      "type": "matching",
+      "pairs": [
+        {"left": "biofuel", "right": "Fuel from living matter"},
+        {"left": "acidification", "right": "Becoming more acidic"},
+        {"left": "indigenous", "right": "Native to a place"},
+        {"left": "invasive", "right": "Spreading harmfully"}
+      ],
+      "relatedWordIds": ["w29", "w30", "w31", "w32"]
+    },
+    {
+      "id": "ex69",
+      "type": "matching",
+      "pairs": [
+        {"left": "photovoltaic", "right": "Converting light to electricity"},
+        {"left": "geothermal", "right": "Heat from Earth's interior"},
+        {"left": "cultivation", "right": "Growing plants or crops"},
+        {"left": "pesticide", "right": "Chemical killing pests"}
+      ],
+      "relatedWordIds": ["w33", "w34", "w35", "w36"]
+    },
+    {
+      "id": "ex70",
+      "type": "matching",
+      "pairs": [
+        {"left": "herbivore", "right": "Plant-eating animal"},
+        {"left": "carnivore", "right": "Meat-eating animal"},
+        {"left": "decomposer", "right": "Organism breaking down organic matter"},
+        {"left": "trophic", "right": "Relating to feeding levels"}
+      ],
+      "relatedWordIds": ["w37", "w38", "w39", "w40"]
+    },
+    {
+      "id": "ex71",
+      "type": "matching",
+      "pairs": [
+        {"left": "eutrophication", "right": "Excessive nutrients in water"},
+        {"left": "assimilation", "right": "Absorbing and incorporating nutrients"},
+        {"left": "stratosphere", "right": "Atmospheric layer with ozone"},
+        {"left": "volatile", "right": "Easily evaporated"}
+      ],
+      "relatedWordIds": ["w41", "w42", "w43", "w44"]
+    },
+    {
+      "id": "ex72",
+      "type": "matching",
+      "pairs": [
+        {"left": "bioaccumulation", "right": "Substances building up in organisms"},
+        {"left": "photochemical", "right": "Caused by light and chemicals"},
+        {"left": "terrestrial", "right": "Relating to land"},
+        {"left": "marine", "right": "Relating to the sea"}
+      ],
+      "relatedWordIds": ["w46", "w47", "w48", "w49"]
+    },
+    {
+      "id": "ex73",
+      "type": "matching",
+      "pairs": [
+        {"left": "afforestation", "right": "Creating new forests"},
+        {"left": "sustainability", "right": "Long-term ecological balance"},
+        {"left": "biodiversity", "right": "Range of species present"},
+        {"left": "ecosystem", "right": "Interacting organisms and environment"}
+      ],
+      "relatedWordIds": ["w50", "w1", "w2", "w5"]
+    },
+    {
+      "id": "ex74",
+      "type": "matching",
+      "pairs": [
+        {"left": "renewable", "right": "Naturally replaceable"},
+        {"left": "conservation", "right": "Protecting nature"},
+        {"left": "extinction", "right": "Species dying out"},
+        {"left": "habitat", "right": "Where organisms live"}
+      ],
+      "relatedWordIds": ["w8", "w13", "w15", "w26"]
+    },
+    {
+      "id": "ex75",
+      "type": "matching",
+      "pairs": [
+        {"left": "erosion", "right": "Soil being worn away"},
+        {"left": "precipitation", "right": "Water falling from sky"},
+        {"left": "aquifer", "right": "Underground water reservoir"},
+        {"left": "watershed", "right": "Water drainage area"}
+      ],
+      "relatedWordIds": ["w19", "w18", "w17", "w22"]
+    },
+    {
+      "id": "ex76",
+      "type": "translation_ko_en",
+      "koreanSentence": "기업의 지속가능성 보고서는 환경 영향을 추적합니다.",
+      "correctAnswer": "Corporate sustainability reports track environmental impacts.",
+      "relatedWordId": "w1"
+    },
+    {
+      "id": "ex77",
+      "type": "translation_ko_en",
+      "koreanSentence": "아마존 열대우림은 가장 큰 생물다양성을 나타냅니다.",
+      "correctAnswer": "The Amazon rainforest represents the greatest biodiversity.",
+      "relatedWordId": "w2"
+    },
+    {
+      "id": "ex78",
+      "type": "translation_ko_en",
+      "koreanSentence": "인위적인 기후 변화는 온실가스 배출에 의해 발생합니다.",
+      "correctAnswer": "Anthropogenic climate change is driven by greenhouse gas emissions.",
+      "relatedWordId": "w3"
+    },
+    {
+      "id": "ex79",
+      "type": "translation_ko_en",
+      "koreanSentence": "기후 완화 전략은 재생 에너지로의 전환을 포함합니다.",
+      "correctAnswer": "Climate mitigation strategies include transitioning to renewable energy.",
+      "relatedWordId": "w4"
+    },
+    {
+      "id": "ex80",
+      "type": "translation_ko_en",
+      "koreanSentence": "산호초는 수많은 해양 종을 지원하는 생태계입니다.",
+      "correctAnswer": "Coral reefs are ecosystems that support countless marine species.",
+      "relatedWordId": "w5"
+    },
+    {
+      "id": "ex81",
+      "type": "translation_ko_en",
+      "koreanSentence": "기후 회복력을 구축하려면 적응과 완화가 필요합니다.",
+      "correctAnswer": "Building climate resilience requires adaptation and mitigation.",
+      "relatedWordId": "w6"
+    },
+    {
+      "id": "ex82",
+      "type": "translation_ko_en",
+      "koreanSentence": "산림 탄소 포집은 대기에서 이산화탄소를 제거합니다.",
+      "correctAnswer": "Forest sequestration removes carbon dioxide from the atmosphere.",
+      "relatedWordId": "w7"
+    },
+    {
+      "id": "ex83",
+      "type": "translation_ko_en",
+      "koreanSentence": "재생 가능한 에너지원은 탈탄소화의 핵심입니다.",
+      "correctAnswer": "Renewable energy sources are key to decarbonization.",
+      "relatedWordId": "w8"
+    },
+    {
+      "id": "ex84",
+      "type": "translation_ko_en",
+      "koreanSentence": "열대 지역의 삼림 벌채는 탄소 배출에 기여합니다.",
+      "correctAnswer": "Deforestation in tropical regions contributes to carbon emissions.",
+      "relatedWordId": "w9"
+    },
+    {
+      "id": "ex85",
+      "type": "translation_ko_en",
+      "koreanSentence": "생분해성 포장재는 환경 영향을 줄입니다.",
+      "correctAnswer": "Biodegradable packaging materials reduce environmental impact.",
+      "relatedWordId": "w10"
+    },
+    {
+      "id": "ex86",
+      "type": "translation_ko_en",
+      "koreanSentence": "광합성은 탄소 순환의 기본입니다.",
+      "correctAnswer": "Photosynthesis is fundamental to the carbon cycle.",
+      "relatedWordId": "w11"
+    },
+    {
+      "id": "ex87",
+      "type": "translation_ko_en",
+      "koreanSentence": "탄소 배출을 줄이는 것은 기온 상승을 제한하는 데 중요합니다.",
+      "correctAnswer": "Reducing carbon emissions is critical to limiting temperature rise.",
+      "relatedWordId": "w12"
+    },
+    {
+      "id": "ex88",
+      "type": "translation_ko_en",
+      "koreanSentence": "보전 노력은 멸종 위기 종의 회복을 도왔습니다.",
+      "correctAnswer": "Conservation efforts have helped endangered species recover.",
+      "relatedWordId": "w13"
+    },
+    {
+      "id": "ex89",
+      "type": "translation_ko_en",
+      "koreanSentence": "산업 오염 물질은 강과 지하수를 오염시킵니다.",
+      "correctAnswer": "Industrial pollutants contaminate rivers and groundwater.",
+      "relatedWordId": "w14"
+    },
+    {
+      "id": "ex90",
+      "type": "translation_ko_en",
+      "koreanSentence": "서식지 손실은 많은 종을 멸종으로 몰고 있습니다.",
+      "correctAnswer": "Habitat loss is pushing many species toward extinction.",
+      "relatedWordId": "w15"
+    },
+    {
+      "id": "ex91",
+      "type": "translation_en_ko",
+      "englishSentence": "Greenhouse gases trap heat in the atmosphere, causing global warming.",
+      "correctAnswer": "온실 가스는 대기에 열을 가두어 지구 온난화를 일으킵니다.",
+      "relatedWordId": "w16"
+    },
+    {
+      "id": "ex92",
+      "type": "translation_en_ko",
+      "englishSentence": "Over-extraction from aquifers threatens water security in many regions.",
+      "correctAnswer": "대수층에서의 과잉 추출은 많은 지역의 물 안보를 위협합니다.",
+      "relatedWordId": "w17"
+    },
+    {
+      "id": "ex93",
+      "type": "translation_en_ko",
+      "englishSentence": "Changes in precipitation patterns are affecting agricultural productivity.",
+      "correctAnswer": "강수 패턴의 변화는 농업 생산성에 영향을 미치고 있습니다.",
+      "relatedWordId": "w18"
+    },
+    {
+      "id": "ex94",
+      "type": "translation_en_ko",
+      "englishSentence": "Soil erosion reduces agricultural land productivity and pollutes waterways.",
+      "correctAnswer": "토양 침식은 농지 생산성을 줄이고 수로를 오염시킵니다.",
+      "relatedWordId": "w19"
+    },
+    {
+      "id": "ex95",
+      "type": "translation_en_ko",
+      "englishSentence": "Desertification threatens the livelihoods of millions in sub-Saharan Africa.",
+      "correctAnswer": "사막화는 사하라 사막 이남 아프리카에서 수백만 명의 생계를 위협합니다.",
+      "relatedWordId": "w20"
+    },
+    {
+      "id": "ex96",
+      "type": "translation_en_ko",
+      "englishSentence": "Soil remediation techniques can remove toxic contaminants from polluted sites.",
+      "correctAnswer": "토양 정화 기술은 오염된 지역에서 독성 오염 물질을 제거할 수 있습니다.",
+      "relatedWordId": "w21"
+    },
+    {
+      "id": "ex97",
+      "type": "translation_en_ko",
+      "englishSentence": "Protecting the watershed is essential for maintaining clean drinking water.",
+      "correctAnswer": "유역을 보호하는 것은 깨끗한 식수를 유지하는 데 필수적입니다.",
+      "relatedWordId": "w22"
+    },
+    {
+      "id": "ex98",
+      "type": "translation_en_ko",
+      "englishSentence": "The ozone layer shields the planet from harmful ultraviolet radiation.",
+      "correctAnswer": "오존층은 유해한 자외선으로부터 지구를 보호합니다.",
+      "relatedWordId": "w23"
+    },
+    {
+      "id": "ex99",
+      "type": "translation_en_ko",
+      "englishSentence": "Heavy metals in water supplies pose serious toxicity risks to human health.",
+      "correctAnswer": "수원의 중금속은 인간 건강에 심각한 독성 위험을 초래합니다.",
+      "relatedWordId": "w24"
+    },
+    {
+      "id": "ex100",
+      "type": "translation_en_ko",
+      "englishSentence": "Coral and algae have a symbiotic relationship that benefits both species.",
+      "correctAnswer": "산호와 조류는 양쪽 종에게 이익이 되는 공생 관계를 가지고 있습니다.",
+      "relatedWordId": "w25"
+    },
+    {
+      "id": "ex101",
+      "type": "translation_en_ko",
+      "englishSentence": "Habitat destruction is the leading cause of species decline globally.",
+      "correctAnswer": "서식지 파괴는 전 세계적으로 종 감소의 주요 원인입니다.",
+      "relatedWordId": "w26"
+    },
+    {
+      "id": "ex102",
+      "type": "translation_en_ko",
+      "englishSentence": "Melting permafrost releases methane, a potent greenhouse gas.",
+      "correctAnswer": "녹는 영구 동토층은 강력한 온실가스인 메탄을 방출합니다.",
+      "relatedWordId": "w27"
+    },
+    {
+      "id": "ex103",
+      "type": "translation_en_ko",
+      "englishSentence": "Algae blooms in polluted waters can deplete oxygen and harm marine life.",
+      "correctAnswer": "오염된 물에서 조류 번식은 산소를 고갈시키고 해양 생물에 해를 끼칠 수 있습니다.",
+      "relatedWordId": "w28"
+    },
+    {
+      "id": "ex104",
+      "type": "translation_en_ko",
+      "englishSentence": "Biofuels offer a renewable alternative to fossil fuels.",
+      "correctAnswer": "바이오 연료는 화석 연료에 대한 재생 가능한 대안을 제공합니다.",
+      "relatedWordId": "w29"
+    },
+    {
+      "id": "ex105",
+      "type": "translation_en_ko",
+      "englishSentence": "Ocean acidification threatens coral reefs and shellfish populations.",
+      "correctAnswer": "해양 산성화는 산호초와 조개류 개체군을 위협합니다.",
+      "relatedWordId": "w30"
+    },
+    {
+      "id": "ex106",
+      "type": "translation_ko_en",
+      "koreanSentence": "토착 종은 지역 환경 조건에 더 잘 적응되어 있습니다.",
+      "correctAnswer": "Indigenous species are better adapted to local environmental conditions.",
+      "relatedWordId": "w31"
+    },
+    {
+      "id": "ex107",
+      "type": "translation_ko_en",
+      "koreanSentence": "침입성 종은 토착 생물과 경쟁하고 생태계를 교란합니다.",
+      "correctAnswer": "Invasive species compete with native organisms and disrupt ecosystems.",
+      "relatedWordId": "w32"
+    },
+    {
+      "id": "ex108",
+      "type": "translation_ko_en",
+      "koreanSentence": "태양광 패널은 햇빛을 전기로 직접 변환합니다.",
+      "correctAnswer": "Photovoltaic panels convert sunlight directly into electricity.",
+      "relatedWordId": "w33"
+    },
+    {
+      "id": "ex109",
+      "type": "translation_ko_en",
+      "koreanSentence": "지열 에너지는 신뢰할 수 있는 재생 에너지원을 제공합니다.",
+      "correctAnswer": "Geothermal energy provides a reliable source of renewable power.",
+      "relatedWordId": "w34"
+    },
+    {
+      "id": "ex110",
+      "type": "translation_ko_en",
+      "koreanSentence": "지속 가능한 경작 관행은 토양 건강을 유지합니다.",
+      "correctAnswer": "Sustainable cultivation practices maintain soil health.",
+      "relatedWordId": "w35"
+    },
+    {
+      "id": "ex111",
+      "type": "translation_ko_en",
+      "koreanSentence": "과도한 살충제 사용은 지하수를 오염시킬 수 있습니다.",
+      "correctAnswer": "Excessive pesticide use can contaminate groundwater.",
+      "relatedWordId": "w36"
+    },
+    {
+      "id": "ex112",
+      "type": "translation_ko_en",
+      "koreanSentence": "대형 초식동물은 초원 생태계를 형성하는 데 중요한 역할을 합니다.",
+      "correctAnswer": "Large herbivores play a crucial role in shaping grassland ecosystems.",
+      "relatedWordId": "w37"
+    },
+    {
+      "id": "ex113",
+      "type": "translation_ko_en",
+      "koreanSentence": "최상위 육식동물은 건강한 생태계에서 먹이 개체군을 조절합니다.",
+      "correctAnswer": "Apex carnivores help regulate prey populations in healthy ecosystems.",
+      "relatedWordId": "w38"
+    },
+    {
+      "id": "ex114",
+      "type": "translation_ko_en",
+      "koreanSentence": "분해자는 죽은 생물의 영양분을 토양으로 재활용합니다.",
+      "correctAnswer": "Decomposers recycle nutrients from dead organisms back into the soil.",
+      "relatedWordId": "w39"
+    },
+    {
+      "id": "ex115",
+      "type": "translation_ko_en",
+      "koreanSentence": "에너지는 먹이 사슬의 각 영양 단계를 올라가면서 손실됩니다.",
+      "correctAnswer": "Energy is lost as it moves up each trophic level in a food chain.",
+      "relatedWordId": "w40"
+    },
+    {
+      "id": "ex116",
+      "type": "translation_en_ko",
+      "englishSentence": "Eutrophication from agricultural runoff creates dead zones in coastal waters.",
+      "correctAnswer": "농업 유출수로 인한 부영양화는 연안 해역에 데드존을 만듭니다.",
+      "relatedWordId": "w41"
+    },
+    {
+      "id": "ex117",
+      "type": "translation_en_ko",
+      "englishSentence": "Nitrogen assimilation by plants is essential for protein synthesis.",
+      "correctAnswer": "식물에 의한 질소 동화는 단백질 합성에 필수적입니다.",
+      "relatedWordId": "w42"
+    },
+    {
+      "id": "ex118",
+      "type": "translation_en_ko",
+      "englishSentence": "The stratosphere contains the ozone layer that protects Earth from UV radiation.",
+      "correctAnswer": "성층권에는 지구를 자외선으로부터 보호하는 오존층이 있습니다.",
+      "relatedWordId": "w43"
+    },
+    {
+      "id": "ex119",
+      "type": "translation_en_ko",
+      "englishSentence": "Volatile organic compounds contribute to air pollution and smog formation.",
+      "correctAnswer": "휘발성 유기 화합물은 대기 오염과 스모그 형성에 기여합니다.",
+      "relatedWordId": "w44"
+    },
+    {
+      "id": "ex120",
+      "type": "translation_en_ko",
+      "englishSentence": "Bioaccumulation of mercury in fish poses health risks to humans.",
+      "correctAnswer": "물고기의 수은 생물농축은 인간에게 건강 위험을 초래합니다.",
+      "relatedWordId": "w46"
+    },
+    {
+      "id": "ex121",
+      "type": "translation_en_ko",
+      "englishSentence": "Photochemical smog forms when sunlight reacts with pollutants in the atmosphere.",
+      "correctAnswer": "광화학 스모그는 햇빛이 대기의 오염 물질과 반응할 때 형성됩니다.",
+      "relatedWordId": "w47"
+    },
+    {
+      "id": "ex122",
+      "type": "translation_en_ko",
+      "englishSentence": "Terrestrial ecosystems include forests, grasslands, and deserts.",
+      "correctAnswer": "육상 생태계에는 숲, 초원, 사막이 포함됩니다.",
+      "relatedWordId": "w48"
+    },
+    {
+      "id": "ex123",
+      "type": "translation_en_ko",
+      "englishSentence": "Marine protected areas help conserve ocean biodiversity.",
+      "correctAnswer": "해양 보호 구역은 해양 생물다양성을 보존하는 데 도움이 됩니다.",
+      "relatedWordId": "w49"
+    },
+    {
+      "id": "ex124",
+      "type": "translation_en_ko",
+      "englishSentence": "Afforestation projects can help sequester carbon and restore degraded landscapes.",
+      "correctAnswer": "조림 프로젝트는 탄소를 격리하고 황폐한 경관을 복원하는 데 도움이 될 수 있습니다.",
+      "relatedWordId": "w50"
+    },
+    {
+      "id": "ex125",
+      "type": "translation_ko_en",
+      "koreanSentence": "지속가능성은 미래 세대를 위협하지 않으면서 현재 필요를 충족시킵니다.",
+      "correctAnswer": "Sustainability meets present needs without compromising future generations.",
+      "relatedWordId": "w1"
+    },
+    {
+      "id": "ex126",
+      "type": "translation_ko_en",
+      "koreanSentence": "생물다양성 손실은 생태계 기능을 약화시킵니다.",
+      "correctAnswer": "Biodiversity loss weakens ecosystem functions.",
+      "relatedWordId": "w2"
+    },
+    {
+      "id": "ex127",
+      "type": "translation_ko_en",
+      "koreanSentence": "인위적 요인은 기후 변화의 주요 원인입니다.",
+      "correctAnswer": "Anthropogenic factors are the main cause of climate change.",
+      "relatedWordId": "w3"
+    },
+    {
+      "id": "ex128",
+      "type": "translation_ko_en",
+      "koreanSentence": "완화 조치는 환경 피해를 줄입니다.",
+      "correctAnswer": "Mitigation measures reduce environmental damage.",
+      "relatedWordId": "w4"
+    },
+    {
+      "id": "ex129",
+      "type": "translation_ko_en",
+      "koreanSentence": "건강한 생태계는 깨끗한 공기와 물을 제공합니다.",
+      "correctAnswer": "Healthy ecosystems provide clean air and water.",
+      "relatedWordId": "w5"
+    },
+    {
+      "id": "ex130",
+      "type": "translation_ko_en",
+      "koreanSentence": "회복력 있는 시스템은 교란에서 빠르게 회복됩니다.",
+      "correctAnswer": "Resilient systems recover quickly from disturbances.",
+      "relatedWordId": "w6"
+    },
+    {
+      "id": "ex131",
+      "type": "translation_en_ko",
+      "englishSentence": "Carbon sequestration helps mitigate climate change impacts.",
+      "correctAnswer": "탄소 격리는 기후 변화 영향을 완화하는 데 도움이 됩니다.",
+      "relatedWordId": "w7"
+    },
+    {
+      "id": "ex132",
+      "type": "translation_en_ko",
+      "englishSentence": "Renewable resources can be replenished naturally over time.",
+      "correctAnswer": "재생 가능한 자원은 시간이 지나면 자연적으로 보충될 수 있습니다.",
+      "relatedWordId": "w8"
+    },
+    {
+      "id": "ex133",
+      "type": "translation_en_ko",
+      "englishSentence": "Deforestation releases stored carbon into the atmosphere.",
+      "correctAnswer": "삼림 벌채는 저장된 탄소를 대기로 방출합니다.",
+      "relatedWordId": "w9"
+    },
+    {
+      "id": "ex134",
+      "type": "translation_en_ko",
+      "englishSentence": "Biodegradable materials break down without harming the environment.",
+      "correctAnswer": "생분해성 재료는 환경에 해를 끼치지 않고 분해됩니다.",
+      "relatedWordId": "w10"
+    },
+    {
+      "id": "ex135",
+      "type": "translation_en_ko",
+      "englishSentence": "Photosynthesis produces oxygen as a byproduct.",
+      "correctAnswer": "광합성은 부산물로 산소를 생성합니다.",
+      "relatedWordId": "w11"
+    },
+    {
+      "id": "ex136",
+      "type": "multiple_choice",
+      "question": "What describes the relationship where both organisms benefit?",
+      "options": ["symbiotic", "parasitic", "predatory", "competitive"],
+      "correctAnswer": "symbiotic",
+      "relatedWordId": "w25"
+    },
+    {
+      "id": "ex137",
+      "type": "multiple_choice",
+      "question": "The process by which soil nutrients are absorbed by plants is called ___.",
+      "options": ["assimilation", "eutrophication", "erosion", "precipitation"],
+      "correctAnswer": "assimilation",
+      "relatedWordId": "w42"
+    },
+    {
+      "id": "ex138",
+      "type": "multiple_choice",
+      "question": "Substances that easily evaporate are described as ___.",
+      "options": ["volatile", "stable", "inert", "solid"],
+      "correctAnswer": "volatile",
+      "relatedWordId": "w44"
+    },
+    {
+      "id": "ex139",
+      "type": "multiple_choice",
+      "question": "Smog caused by light reacting with chemicals is ___.",
+      "options": ["photochemical", "geothermal", "photovoltaic", "volcanic"],
+      "correctAnswer": "photochemical",
+      "relatedWordId": "w47"
+    },
+    {
+      "id": "ex140",
+      "type": "multiple_choice",
+      "question": "An animal that eats meat is a ___.",
+      "options": ["carnivore", "herbivore", "omnivore", "decomposer"],
+      "correctAnswer": "carnivore",
+      "relatedWordId": "w38"
+    },
+    {
+      "id": "ex141",
+      "type": "fill_blank",
+      "sentence": "___ species spread harmfully and outcompete native organisms.",
+      "correctAnswer": "Invasive",
+      "relatedWordId": "w32"
+    },
+    {
+      "id": "ex142",
+      "type": "fill_blank",
+      "sentence": "___ panels convert sunlight into electricity.",
+      "correctAnswer": "Photovoltaic",
+      "relatedWordId": "w33"
+    },
+    {
+      "id": "ex143",
+      "type": "fill_blank",
+      "sentence": "___ energy comes from Earth's internal heat.",
+      "correctAnswer": "Geothermal",
+      "relatedWordId": "w34"
+    },
+    {
+      "id": "ex144",
+      "type": "fill_blank",
+      "sentence": "Sustainable ___ maintains soil health and productivity.",
+      "correctAnswer": "cultivation",
+      "relatedWordId": "w35"
+    },
+    {
+      "id": "ex145",
+      "type": "fill_blank",
+      "sentence": "Energy moves through different ___ levels in food chains.",
+      "correctAnswer": "trophic",
+      "relatedWordId": "w40"
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "sentence": "___ from runoff creates oxygen-depleted zones in water.",
+      "correctAnswer": "Eutrophication",
+      "relatedWordId": "w41"
+    },
+    {
+      "id": "ex147",
+      "type": "fill_blank",
+      "sentence": "The ___ contains the ozone layer.",
+      "correctAnswer": "stratosphere",
+      "relatedWordId": "w43"
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "sentence": "___ of toxins in fish poses health risks.",
+      "correctAnswer": "Bioaccumulation",
+      "relatedWordId": "w46"
+    },
+    {
+      "id": "ex149",
+      "type": "fill_blank",
+      "sentence": "___ ecosystems are found on land.",
+      "correctAnswer": "Terrestrial",
+      "relatedWordId": "w48"
+    },
+    {
+      "id": "ex150",
+      "type": "fill_blank",
+      "sentence": "___ involves establishing forests where none existed before.",
+      "correctAnswer": "Afforestation",
+      "relatedWordId": "w50"
+    }
+  ]
+}

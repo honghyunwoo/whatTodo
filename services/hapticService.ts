@@ -227,6 +227,13 @@ export const todoHaptics = {
   swipeTrigger: async (): Promise<void> => {
     await mediumHaptic();
   },
+
+  /**
+   * Haptic for tab selection / light tap
+   */
+  tap: async (): Promise<void> => {
+    await selectionHaptic();
+  },
 };
 
 export default {

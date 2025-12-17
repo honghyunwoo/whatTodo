@@ -1,0 +1,130 @@
+{
+  "id": "c1-grammar-week-7",
+  "type": "grammar",
+  "level": "C1",
+  "weekId": "week-7",
+  "title": "Technical Writing and Process Description",
+  "description": "Grammatical structures for describing technical processes and systems",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c1-g7-s1",
+      "title": "Process Description Structures",
+      "explanation": "Grammatical patterns for explaining how systems and processes work.",
+      "patterns": [
+        {
+          "pattern": "Passive for process focus",
+          "example": "Data is collected from multiple sensors, processed in real-time, and transmitted to the central server.",
+          "note": "Agent is often omitted when the process itself is the focus"
+        },
+        {
+          "pattern": "Sequential connectors",
+          "connectors": ["Initially", "Subsequently", "Following this", "At this point", "Finally"],
+          "example": "Initially, the user submits credentials. Subsequently, the system validates them against the database."
+        },
+        {
+          "pattern": "Conditional process branches",
+          "structure": "If/When condition, then outcome",
+          "example": "If authentication succeeds, the user is granted access; otherwise, the system requests re-entry."
+        },
+        {
+          "pattern": "Present simple for established processes",
+          "example": "The algorithm analyzes patterns and generates recommendations based on user behavior.",
+          "note": "Use present simple for describing how systems generally work"
+        }
+      ]
+    },
+    {
+      "id": "c1-g7-s2",
+      "title": "Describing System Components",
+      "explanation": "Structures for explaining parts and their relationships.",
+      "patterns": [
+        {
+          "pattern": "Component identification",
+          "structure": "The system consists of/comprises/is made up of X, Y, and Z",
+          "example": "The platform consists of three main components: the user interface, the processing engine, and the database layer."
+        },
+        {
+          "pattern": "Functional description",
+          "structure": "X serves to/functions to/is designed to + infinitive",
+          "example": "The cache serves to reduce database load by storing frequently accessed data."
+        },
+        {
+          "pattern": "Interaction description",
+          "structure": "X communicates with/interfaces with/connects to Y",
+          "example": "The API interfaces with external services to retrieve real-time data."
+        }
+      ]
+    },
+    {
+      "id": "c1-g7-s3",
+      "title": "Expressing Technical Possibility and Capability",
+      "explanation": "Modal expressions for describing system capabilities.",
+      "distinctions": [
+        {
+          "expression": "can/is able to",
+          "meaning": "General capability",
+          "example": "The system can process up to 10,000 requests per second."
+        },
+        {
+          "expression": "enables/allows/permits",
+          "meaning": "What the system makes possible for users",
+          "example": "The interface enables users to customize their dashboards."
+        },
+        {
+          "expression": "supports",
+          "meaning": "Compatible with or provides functionality for",
+          "example": "The platform supports multiple authentication methods."
+        },
+        {
+          "expression": "is capable of + gerund",
+          "meaning": "Formal expression of ability",
+          "example": "The AI is capable of processing natural language queries."
+        }
+      ]
+    },
+    {
+      "id": "c1-g7-s4",
+      "title": "Hedging in Technical Communication",
+      "explanation": "Expressing uncertainty and limitations in technical writing.",
+      "techniques": [
+        {
+          "type": "Performance qualifiers",
+          "examples": [
+            "typically achieves",
+            "under optimal conditions",
+            "in most cases",
+            "approximately"
+          ],
+          "example": "The algorithm typically achieves 95% accuracy under optimal conditions."
+        },
+        {
+          "type": "Limitation statements",
+          "examples": [
+            "is limited to",
+            "may not perform well when",
+            "is constrained by"
+          ],
+          "example": "Performance is limited to scenarios with sufficient training data."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-g7-ex1",
+      "type": "process-description",
+      "instruction": "Convert to passive process description",
+      "original": "The system administrator configures the firewall and the firewall blocks unauthorized access.",
+      "answer": "The firewall is configured (by the system administrator) and unauthorized access is blocked."
+    },
+    {
+      "id": "c1-g7-ex2",
+      "type": "component-description",
+      "instruction": "Describe the functional relationship",
+      "components": "Load balancer, multiple servers",
+      "answer": "The load balancer distributes incoming traffic across multiple servers to ensure optimal resource utilization and prevent any single server from becoming overwhelmed."
+    }
+  ]
+}

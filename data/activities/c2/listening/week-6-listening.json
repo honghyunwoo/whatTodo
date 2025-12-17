@@ -1,0 +1,116 @@
+{
+  "id": "c2-listening-week-6",
+  "type": "listening",
+  "level": "C2",
+  "weekId": "week-6",
+  "title": "Ethics Seminars and Moral Philosophy Discourse",
+  "description": "Engaging with sophisticated discussions in moral philosophy",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passages": [
+    {
+      "id": "c2-l6-p1",
+      "title": "The Trolley Problem Revisited",
+      "context": "Philosophy seminar discussion",
+      "transcript": "The trolley problem, despite its ubiquity, continues to illuminate deep questions in ethics. The standard version: a runaway trolley will kill five people unless you divert it to a side track, where it will kill one. Most people consider diverting permissible. But in the footbridge variant—where you must push a large man off a bridge to stop the trolley—most judge pushing impermissible, even though the numbers are identical. What explains this asymmetry? Deontologists locate the difference in the doctrine of double effect: in the first case, the one death is a foreseen but unintended side effect; in the second, the death is a means to the end. Consequentialists struggle with the asymmetry: if outcomes are all that matter, the cases should be equivalent. Some have argued that our differential intuitions reveal not moral truth but evolutionary heuristics—we evolved to oppose direct physical violence regardless of consequences. If so, should we override our intuitions with utilitarian calculation, or do the intuitions track something morally significant?",
+      "audioDescription": "Philosophy professor leading discussion on trolley problem",
+      "questions": [
+        {
+          "id": "c2-l6-p1-q1",
+          "question": "What asymmetry does the trolley problem reveal?",
+          "options": [
+            "People prefer helping strangers over friends",
+            "Diverting the trolley seems permissible but pushing someone does not",
+            "Consequentialists are more common than deontologists",
+            "Physical intervention is always wrong"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Most consider 'diverting permissible' but in the footbridge case 'most judge pushing impermissible, even though the numbers are identical'"
+        },
+        {
+          "id": "c2-l6-p1-q2",
+          "question": "How do deontologists explain the asymmetry?",
+          "options": [
+            "The number of deaths differs",
+            "Violence is always worse than inaction",
+            "Using death as a means differs from foreseeing it as a side effect",
+            "The scenarios are not comparable"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Deontologists invoke 'the doctrine of double effect: in the first case, the one death is a foreseen but unintended side effect; in the second, the death is a means to the end'"
+        },
+        {
+          "id": "c2-l6-p1-q3",
+          "question": "What evolutionary explanation is suggested?",
+          "options": [
+            "Humans are naturally consequentialist",
+            "We evolved to oppose direct physical violence regardless of consequences",
+            "Moral intuitions are always reliable",
+            "The doctrine of double effect is innate"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Some argue 'our differential intuitions reveal not moral truth but evolutionary heuristics—we evolved to oppose direct physical violence regardless of consequences'"
+        }
+      ]
+    },
+    {
+      "id": "c2-l6-p2",
+      "title": "The Demands of Morality",
+      "context": "Academic lecture",
+      "transcript": "Peter Singer's argument from the drowning child has troubled comfortable moralities for decades. If you walked past a drowning child you could easily save, failing to help would be monstrous. But Singer argues: if proximity doesn't morally matter—and why should it?—then we are similarly obligated to save distant children through charitable donation. The argument seems to commit us to demanding morality: we must sacrifice our luxuries so long as marginal donations save lives. Critics have responded in various ways. Some bite the bullet: yes, morality is demanding, and we are all moral failures. Others invoke agent-relative prerogatives: we are permitted—though not required—to weight our own projects more heavily than impartial morality would suggest. Still others question the empirical premise: perhaps aid is ineffective, or perhaps the correct response is institutional change rather than individual charity. What's striking is that none of these responses comfortably dismisses the nagging sense that more is required of us than we give.",
+      "audioDescription": "Ethicist discussing obligations of beneficence",
+      "questions": [
+        {
+          "id": "c2-l6-p2-q1",
+          "question": "What is the structure of Singer's argument?",
+          "options": [
+            "If we must save nearby drowning children, we must similarly help distant children",
+            "Charity is always supererogatory",
+            "Proximity is the most important moral factor",
+            "Aid is ineffective"
+          ],
+          "correctAnswer": 0,
+          "explanation": "If 'proximity doesn't morally matter—and why should it?—then we are similarly obligated to save distant children'"
+        },
+        {
+          "id": "c2-l6-p2-q2",
+          "question": "What are 'agent-relative prerogatives'?",
+          "options": [
+            "Requirements that apply only to moral agents",
+            "Permission to weight our own projects more heavily than impartial morality suggests",
+            "The authority of moral agents to determine right and wrong",
+            "Special duties to family and friends"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Agent-relative prerogatives' means 'we are permitted—though not required—to weight our own projects more heavily than impartial morality would suggest'"
+        },
+        {
+          "id": "c2-l6-p2-q3",
+          "question": "What does the speaker suggest about responses to Singer's argument?",
+          "options": [
+            "They successfully refute the argument",
+            "They show Singer is wrong about proximity",
+            "None comfortably dismisses the sense that more is required of us",
+            "They prove charity is not obligatory"
+          ],
+          "correctAnswer": 2,
+          "explanation": "'None of these responses comfortably dismisses the nagging sense that more is required of us than we give'"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "doctrine of double effect",
+      "definition": "Principle distinguishing intended effects from foreseen but unintended side effects"
+    },
+    {
+      "term": "agent-relative",
+      "definition": "Moral considerations that apply specifically to the individual agent rather than impartially"
+    },
+    {
+      "term": "bite the bullet",
+      "definition": "Accept an uncomfortable implication of one's position"
+    }
+  ]
+}

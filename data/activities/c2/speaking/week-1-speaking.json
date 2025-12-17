@@ -1,0 +1,74 @@
+{
+  "id": "week-1-speaking",
+  "weekId": "week-1",
+  "type": "speaking",
+  "level": "C2",
+  "title": "Academic Discourse & Philosophical Discussion",
+  "description": "Articulate complex ideas with precision and rhetorical sophistication.",
+
+  "prompts": [
+    {
+      "id": "sp1",
+      "title": "Presenting Theoretical Framework",
+      "context": "You are presenting your theoretical approach at an academic conference.",
+      "targetText": "What I find particularly perspicacious about this epistemological framework is its refusal to obfuscate the fundamental tensions inherent in any theory of knowledge.",
+      "translation": "이 인식론적 프레임워크에서 특히 통찰력 있다고 생각하는 것은 어떤 지식 이론에도 내재된 근본적인 긴장을 모호하게 하기를 거부한다는 점입니다.",
+      "tips": [
+        "Pronounce 'perspicacious' with stress on the third syllable: per-spi-KA-cious",
+        "Use measured, scholarly pacing throughout",
+        "Allow the complex sentence structure to unfold naturally with appropriate pauses"
+      ]
+    },
+    {
+      "id": "sp2",
+      "title": "Critiquing an Argument",
+      "context": "You are responding to a colleague's paper in a symposium.",
+      "targetText": "However efficacious this approach may appear in ameliorating the apparent impasse, I would argue that it remains fundamentally antithetical to our intuitive understanding of truth.",
+      "translation": "이 접근법이 명백한 교착 상태를 개선하는 데 아무리 효과적으로 보일지라도, 그것이 진리에 대한 우리의 직관적 이해와 근본적으로 정반대라고 주장하겠습니다.",
+      "tips": [
+        "Begin with a measured concessive tone on 'However efficacious'",
+        "Build toward the main claim with 'I would argue'",
+        "Emphasize 'antithetical' to signal the key opposition"
+      ]
+    },
+    {
+      "id": "sp3",
+      "title": "Discussing Literary Merit",
+      "context": "You are participating in a literary panel discussion.",
+      "targetText": "The text functions as a palimpsest of intertextual references, each reading revealing new layers of meaning that were previously recondite.",
+      "translation": "텍스트는 상호텍스트적 참조의 양피지 사본으로 기능하며, 각 독서는 이전에 난해했던 새로운 의미 층을 드러냅니다.",
+      "tips": [
+        "Pronounce 'palimpsest' clearly: PAL-imp-sest",
+        "Use a contemplative tone appropriate for literary analysis",
+        "Let 'recondite' carry its weight as the final descriptor"
+      ]
+    },
+    {
+      "id": "sp4",
+      "title": "Philosophical Synthesis",
+      "context": "You are concluding a seminar discussion.",
+      "targetText": "Perhaps the most prescient insight we can draw from this analysis is that dwelling in liminal spaces—between certainty and doubt—may itself be propitious for genuine understanding.",
+      "translation": "아마도 이 분석에서 우리가 도출할 수 있는 가장 선견지명 있는 통찰은 경계적 공간—확실성과 의심 사이—에 머무는 것 자체가 진정한 이해에 유리할 수 있다는 것입니다.",
+      "tips": [
+        "Project thoughtful authority with 'Perhaps the most prescient'",
+        "Create a slight pause around the dash-bounded phrase",
+        "End with rising-then-falling intonation on 'genuine understanding'"
+      ]
+    }
+  ],
+
+  "discussionTopics": [
+    {
+      "id": "dt1",
+      "topic": "To what extent can language accurately represent reality, and what are the implications of its limitations?",
+      "sampleResponse": "This question strikes at the heart of epistemological inquiry. While it would be antithetical to our lived experience to suggest that language is entirely disconnected from reality, poststructuralist critiques have persuasively demonstrated the ways in which linguistic structures can obfuscate as much as they reveal...",
+      "vocabularyToUse": ["epistemological", "antithetical", "obfuscate", "liminal", "verisimilitude"]
+    },
+    {
+      "id": "dt2",
+      "topic": "How should scholars balance accessibility with the intellectual rigor that complex ideas demand?",
+      "sampleResponse": "This is indeed a question that animates much scholarly discourse. Some have excoriated recondite academic writing as elitist circumlocution, yet others argue that certain ineffable complexities resist simplification. A perspicacious approach might recognize that different audiences require different rhetorical strategies...",
+      "vocabularyToUse": ["recondite", "circumlocution", "ineffable", "perspicacious", "didactic"]
+    }
+  ]
+}

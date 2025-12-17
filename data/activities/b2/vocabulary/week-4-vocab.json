@@ -276,6 +276,186 @@
       "translation": "복제하다, 재현하다",
       "example": "Other scientists were unable to replicate the results.",
       "partOfSpeech": "verb"
+    },
+    {
+      "id": "w31",
+      "word": "catalyst",
+      "pronunciation": "/ˈkætəlɪst/",
+      "meaning": "a substance that speeds up a chemical reaction",
+      "translation": "촉매",
+      "example": "The catalyst accelerated the reaction significantly.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w32",
+      "word": "specimen",
+      "pronunciation": "/ˈspesɪmən/",
+      "meaning": "a sample taken for scientific testing",
+      "translation": "표본, 샘플",
+      "example": "The specimen was preserved for further analysis.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w33",
+      "word": "bionic",
+      "pronunciation": "/baɪˈɒnɪk/",
+      "meaning": "having artificial body parts",
+      "translation": "생체 공학의",
+      "example": "She was fitted with a bionic arm after the accident.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w34",
+      "word": "pharmaceutical",
+      "pronunciation": "/ˌfɑːməˈsuːtɪkl/",
+      "meaning": "relating to medicinal drugs",
+      "translation": "제약의",
+      "example": "The pharmaceutical industry invests heavily in research.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w35",
+      "word": "microscopic",
+      "pronunciation": "/ˌmaɪkrəˈskɒpɪk/",
+      "meaning": "extremely small, visible only with a microscope",
+      "translation": "현미경의, 극미한",
+      "example": "Microscopic organisms were found in the water sample.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w36",
+      "word": "contaminate",
+      "pronunciation": "/kənˈtæmɪneɪt/",
+      "meaning": "to make something impure by exposure to harmful substances",
+      "translation": "오염시키다",
+      "example": "The samples were contaminated during transport.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w37",
+      "word": "diagnose",
+      "pronunciation": "/ˈdaɪəɡnəʊz/",
+      "meaning": "to identify a disease or problem",
+      "translation": "진단하다",
+      "example": "The doctor diagnosed the patient with diabetes.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w38",
+      "word": "synthesize",
+      "pronunciation": "/ˈsɪnθəsaɪz/",
+      "meaning": "to produce a substance by combining chemical elements",
+      "translation": "합성하다",
+      "example": "The compound was synthesized in the laboratory.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w39",
+      "word": "hypothesis",
+      "pronunciation": "/haɪˈpɒθəsɪs/",
+      "meaning": "a proposed explanation that can be tested",
+      "translation": "가설",
+      "example": "The hypothesis was confirmed through rigorous testing.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w40",
+      "word": "telescope",
+      "pronunciation": "/ˈtelɪskəʊp/",
+      "meaning": "an instrument for viewing distant objects",
+      "translation": "망원경",
+      "example": "The telescope revealed previously unknown galaxies.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w41",
+      "word": "biodegradable",
+      "pronunciation": "/ˌbaɪəʊdɪˈɡreɪdəbl/",
+      "meaning": "capable of being decomposed by bacteria",
+      "translation": "생분해성의",
+      "example": "Biodegradable packaging reduces environmental impact.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w42",
+      "word": "cybernetics",
+      "pronunciation": "/ˌsaɪbəˈnetɪks/",
+      "meaning": "the science of communications and control systems",
+      "translation": "사이버네틱스, 인공두뇌학",
+      "example": "Cybernetics combines biology, engineering, and mathematics.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w43",
+      "word": "transplant",
+      "pronunciation": "/trænsˈplɑːnt/",
+      "meaning": "to transfer an organ or tissue from one body to another",
+      "translation": "이식하다",
+      "example": "The heart was successfully transplanted into the patient.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w44",
+      "word": "radiation",
+      "pronunciation": "/ˌreɪdiˈeɪʃn/",
+      "meaning": "energy transmitted in the form of rays or waves",
+      "translation": "방사선, 복사",
+      "example": "The treatment uses radiation to destroy cancer cells.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w45",
+      "word": "accelerator",
+      "pronunciation": "/əkˈseləreɪtər/",
+      "meaning": "a device that increases the speed of particles",
+      "translation": "가속기",
+      "example": "The particle accelerator enables groundbreaking physics research.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w46",
+      "word": "ecosystem",
+      "pronunciation": "/ˈiːkəʊsɪstəm/",
+      "meaning": "a biological community of interacting organisms",
+      "translation": "생태계",
+      "example": "The ecosystem is threatened by pollution and climate change.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w47",
+      "word": "extrapolate",
+      "pronunciation": "/ɪkˈstræpəleɪt/",
+      "meaning": "to estimate or conclude from known facts",
+      "translation": "추정하다, 외삽하다",
+      "example": "Scientists extrapolated future trends from current data.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w48",
+      "word": "sequencing",
+      "pronunciation": "/ˈsiːkwənsɪŋ/",
+      "meaning": "determining the order of components",
+      "translation": "순서 결정, 시퀀싱",
+      "example": "DNA sequencing has revolutionized genetic research.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w49",
+      "word": "automation",
+      "pronunciation": "/ˌɔːtəˈmeɪʃn/",
+      "meaning": "the use of machines to perform tasks without human intervention",
+      "translation": "자동화",
+      "example": "Automation has increased efficiency in manufacturing.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w50",
+      "word": "pioneering",
+      "pronunciation": "/ˌpaɪəˈnɪərɪŋ/",
+      "meaning": "involving new ideas or methods",
+      "translation": "선구적인",
+      "example": "Her pioneering work in genetics earned her international recognition.",
+      "partOfSpeech": "adjective"
     }
   ],
 
@@ -318,6 +498,995 @@
           "answer": "clinical trials"
         }
       ]
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "The team developed a new _____ to solve the complex problem.",
+      "options": ["algorithm", "telescope", "specimen", "catalyst"],
+      "answer": "algorithm"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "_____ energy sources like solar and wind are becoming more affordable.",
+      "options": ["Theoretical", "Renewable", "Quantum", "Microscopic"],
+      "answer": "Renewable"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "The researchers collected _____ to support their theory.",
+      "options": ["data", "patents", "catalysts", "telescopes"],
+      "answer": "data"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "_____ testing can reveal inherited health conditions.",
+      "options": ["Artificial", "Genetic", "Quantum", "Bionic"],
+      "answer": "Genetic"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "The _____ industry develops new medicines and treatments.",
+      "options": ["pharmaceutical", "biomedical", "theoretical", "empirical"],
+      "answer": "pharmaceutical"
+    },
+    {
+      "id": "ex9",
+      "type": "fill_blank",
+      "question": "The scientist used a microscope to examine the _____ organisms in the sample.",
+      "answer": "microscopic"
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "The company filed for a _____ to protect their new invention.",
+      "answer": "patent"
+    },
+    {
+      "id": "ex11",
+      "type": "fill_blank",
+      "question": "The experiment was conducted in a secure _____.",
+      "answer": "laboratory"
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "Scientists must _____ their findings through repeated experiments.",
+      "answer": "validate"
+    },
+    {
+      "id": "ex13",
+      "type": "fill_blank",
+      "question": "The computer program can _____ complex weather patterns.",
+      "answer": "simulate"
+    },
+    {
+      "id": "ex14",
+      "type": "translation_ko_en",
+      "question": "과학자들은 실험을 통해 가설을 검증했다.",
+      "answer": "Scientists validated the hypothesis through experiments."
+    },
+    {
+      "id": "ex15",
+      "type": "translation_ko_en",
+      "question": "이 연구는 획기적인 발견으로 이어졌다.",
+      "answer": "This research led to a breakthrough discovery."
+    },
+    {
+      "id": "ex16",
+      "type": "translation_ko_en",
+      "question": "나노기술은 다양한 산업 분야에서 사용되고 있다.",
+      "answer": "Nanotechnology is being used in various industries."
+    },
+    {
+      "id": "ex17",
+      "type": "translation_en_ko",
+      "question": "The team analyzed the data using advanced algorithms.",
+      "answer": "팀은 고급 알고리즘을 사용하여 데이터를 분석했다."
+    },
+    {
+      "id": "ex18",
+      "type": "translation_en_ko",
+      "question": "Sustainable practices are essential for environmental protection.",
+      "answer": "지속 가능한 관행은 환경 보호에 필수적이다."
+    },
+    {
+      "id": "ex19",
+      "type": "translation_en_ko",
+      "question": "The prototype was modified based on test results.",
+      "answer": "시제품은 테스트 결과를 바탕으로 수정되었다."
+    },
+    {
+      "id": "ex20",
+      "type": "matching",
+      "pairs": [
+        { "word": "catalyst", "definition": "a substance that speeds up a chemical reaction" },
+        { "word": "specimen", "definition": "a sample taken for scientific testing" },
+        { "word": "radiation", "definition": "energy transmitted in the form of rays or waves" },
+        { "word": "ecosystem", "definition": "a biological community of interacting organisms" }
+      ]
+    },
+    {
+      "id": "ex21",
+      "type": "matching",
+      "pairs": [
+        { "word": "innovation", "definition": "the introduction of new ideas or methods" },
+        { "word": "methodology", "definition": "the system of methods used in research" },
+        { "word": "nanotechnology", "definition": "technology at the molecular or atomic scale" },
+        { "word": "automation", "definition": "the use of machines to perform tasks without human intervention" }
+      ]
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "The doctor was able to _____ the patient's condition accurately.",
+      "options": ["diagnose", "transplant", "contaminate", "extrapolate"],
+      "answer": "diagnose"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "_____ packaging helps reduce environmental pollution.",
+      "options": ["Biodegradable", "Microscopic", "Quantum", "Bionic"],
+      "answer": "Biodegradable"
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "The chemist was able to _____ a new compound in the lab.",
+      "options": ["synthesize", "replicate", "contaminate", "diagnose"],
+      "answer": "synthesize"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "The _____ revealed distant stars that were previously unknown.",
+      "options": ["microscope", "telescope", "accelerator", "catalyst"],
+      "answer": "telescope"
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "DNA _____ has transformed our understanding of genetics.",
+      "options": ["sequencing", "radiation", "automation", "cybernetics"],
+      "answer": "sequencing"
+    },
+    {
+      "id": "ex27",
+      "type": "fill_blank",
+      "question": "The researchers had to _____ the design to improve its performance.",
+      "answer": "modify"
+    },
+    {
+      "id": "ex28",
+      "type": "fill_blank",
+      "question": "The study was based on _____ evidence rather than theory.",
+      "answer": "empirical"
+    },
+    {
+      "id": "ex29",
+      "type": "fill_blank",
+      "question": "The new treatment is currently undergoing clinical _____.",
+      "answer": "trials"
+    },
+    {
+      "id": "ex30",
+      "type": "fill_blank",
+      "question": "_____ computing promises to revolutionize data processing.",
+      "answer": "Quantum"
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "question": "The particle _____ enables scientists to study subatomic particles.",
+      "answer": "accelerator"
+    },
+    {
+      "id": "ex32",
+      "type": "translation_ko_en",
+      "question": "생의학 연구는 많은 새로운 치료법을 개발했다.",
+      "answer": "Biomedical research has developed many new treatments."
+    },
+    {
+      "id": "ex33",
+      "type": "translation_ko_en",
+      "question": "그 실험의 방법론은 동료 심사를 거쳤다.",
+      "answer": "The experiment's methodology underwent peer review."
+    },
+    {
+      "id": "ex34",
+      "type": "translation_ko_en",
+      "question": "인공 지능은 의료 진단을 개선하고 있다.",
+      "answer": "Artificial intelligence is improving medical diagnosis."
+    },
+    {
+      "id": "ex35",
+      "type": "translation_en_ko",
+      "question": "The specimen was carefully preserved for future analysis.",
+      "answer": "표본은 향후 분석을 위해 신중하게 보존되었다."
+    },
+    {
+      "id": "ex36",
+      "type": "translation_en_ko",
+      "question": "Scientists discovered a new species in the ecosystem.",
+      "answer": "과학자들은 생태계에서 새로운 종을 발견했다."
+    },
+    {
+      "id": "ex37",
+      "type": "translation_en_ko",
+      "question": "The catalyst significantly accelerated the chemical reaction.",
+      "answer": "촉매가 화학 반응을 크게 가속화했다."
+    },
+    {
+      "id": "ex38",
+      "type": "matching",
+      "pairs": [
+        { "word": "bionic", "definition": "having artificial body parts" },
+        { "word": "sustainable", "definition": "able to be maintained without depleting resources" },
+        { "word": "pioneering", "definition": "involving new ideas or methods" },
+        { "word": "biodegradable", "definition": "capable of being decomposed by bacteria" }
+      ]
+    },
+    {
+      "id": "ex39",
+      "type": "matching",
+      "pairs": [
+        { "word": "replicate", "definition": "to reproduce or copy exactly" },
+        { "word": "implement", "definition": "to put a plan into action" },
+        { "word": "diagnose", "definition": "to identify a disease or problem" },
+        { "word": "contaminate", "definition": "to make something impure" }
+      ]
+    },
+    {
+      "id": "ex40",
+      "type": "multiple_choice",
+      "question": "The team plans to _____ the new system next quarter.",
+      "options": ["implement", "contaminate", "diagnose", "extrapolate"],
+      "answer": "implement"
+    },
+    {
+      "id": "ex41",
+      "type": "multiple_choice",
+      "question": "_____ research focuses on developing medical treatments.",
+      "options": ["Biomedical", "Theoretical", "Quantum", "Microscopic"],
+      "answer": "Biomedical"
+    },
+    {
+      "id": "ex42",
+      "type": "multiple_choice",
+      "question": "The concept remains _____ until it can be tested experimentally.",
+      "options": ["theoretical", "empirical", "genetic", "renewable"],
+      "answer": "theoretical"
+    },
+    {
+      "id": "ex43",
+      "type": "multiple_choice",
+      "question": "Scientists use _____ to study extremely small organisms.",
+      "options": ["telescopes", "accelerators", "microscopes", "catalysts"],
+      "answer": "microscopes"
+    },
+    {
+      "id": "ex44",
+      "type": "multiple_choice",
+      "question": "The organ was successfully _____ into the patient.",
+      "options": ["transplanted", "contaminated", "synthesized", "extrapolated"],
+      "answer": "transplanted"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "The researchers hope to _____ a cure for the disease.",
+      "answer": "discover"
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "The team will _____ the findings to understand future trends.",
+      "answer": "extrapolate"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "Her _____ work in robotics changed the field forever.",
+      "answer": "pioneering"
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "_____ has increased productivity in many industries.",
+      "answer": "Automation"
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "The water supply was _____ by industrial waste.",
+      "answer": "contaminated"
+    },
+    {
+      "id": "ex50",
+      "type": "translation_ko_en",
+      "question": "연구팀은 새로운 시제품을 개발했다.",
+      "answer": "The research team developed a new prototype."
+    },
+    {
+      "id": "ex51",
+      "type": "translation_ko_en",
+      "question": "그 약물은 현재 임상 시험 중이다.",
+      "answer": "The drug is currently in clinical trials."
+    },
+    {
+      "id": "ex52",
+      "type": "translation_ko_en",
+      "question": "재생 가능 에너지는 환경 친화적이다.",
+      "answer": "Renewable energy is environmentally friendly."
+    },
+    {
+      "id": "ex53",
+      "type": "translation_en_ko",
+      "question": "The hypothesis was tested through rigorous experiments.",
+      "answer": "가설은 엄격한 실험을 통해 검증되었다."
+    },
+    {
+      "id": "ex54",
+      "type": "translation_en_ko",
+      "question": "Innovation drives progress in science and technology.",
+      "answer": "혁신은 과학과 기술의 발전을 주도한다."
+    },
+    {
+      "id": "ex55",
+      "type": "translation_en_ko",
+      "question": "The laboratory is equipped with state-of-the-art equipment.",
+      "answer": "연구실은 최첨단 장비를 갖추고 있다."
+    },
+    {
+      "id": "ex56",
+      "type": "matching",
+      "pairs": [
+        { "word": "analyze", "definition": "to examine something in detail" },
+        { "word": "develop", "definition": "to create or improve something over time" },
+        { "word": "simulate", "definition": "to imitate conditions for testing purposes" },
+        { "word": "transplant", "definition": "to transfer an organ from one body to another" }
+      ]
+    },
+    {
+      "id": "ex57",
+      "type": "matching",
+      "pairs": [
+        { "word": "patent", "definition": "exclusive rights granted for an invention" },
+        { "word": "breakthrough", "definition": "an important discovery or achievement" },
+        { "word": "experiment", "definition": "a scientific test to discover something" },
+        { "word": "accelerator", "definition": "a device that increases the speed of particles" }
+      ]
+    },
+    {
+      "id": "ex58",
+      "type": "multiple_choice",
+      "question": "The researchers _____ the samples to identify the compounds.",
+      "options": ["analyzed", "contaminated", "transplanted", "extrapolated"],
+      "answer": "analyzed"
+    },
+    {
+      "id": "ex59",
+      "type": "multiple_choice",
+      "question": "_____ combines biology, engineering, and mathematics.",
+      "options": ["Cybernetics", "Radiation", "Sequencing", "Automation"],
+      "answer": "Cybernetics"
+    },
+    {
+      "id": "ex60",
+      "type": "multiple_choice",
+      "question": "The paper must undergo _____ before publication.",
+      "options": ["peer review", "clinical trials", "automation", "sequencing"],
+      "answer": "peer review"
+    },
+    {
+      "id": "ex61",
+      "type": "multiple_choice",
+      "question": "The treatment uses _____ to destroy cancer cells.",
+      "options": ["radiation", "sequencing", "cybernetics", "automation"],
+      "answer": "radiation"
+    },
+    {
+      "id": "ex62",
+      "type": "multiple_choice",
+      "question": "Scientists hope to _____ new technologies from this research.",
+      "options": ["develop", "contaminate", "diagnose", "transplant"],
+      "answer": "develop"
+    },
+    {
+      "id": "ex63",
+      "type": "fill_blank",
+      "question": "The _____ was carefully examined under controlled conditions.",
+      "answer": "specimen"
+    },
+    {
+      "id": "ex64",
+      "type": "fill_blank",
+      "question": "She received a _____ arm after losing her limb in an accident.",
+      "answer": "bionic"
+    },
+    {
+      "id": "ex65",
+      "type": "fill_blank",
+      "question": "The team conducted extensive _____ on the new treatment.",
+      "answer": "research"
+    },
+    {
+      "id": "ex66",
+      "type": "fill_blank",
+      "question": "DNA _____ has made personalized medicine possible.",
+      "answer": "sequencing"
+    },
+    {
+      "id": "ex67",
+      "type": "fill_blank",
+      "question": "The _____ sped up the chemical process significantly.",
+      "answer": "catalyst"
+    },
+    {
+      "id": "ex68",
+      "type": "translation_ko_en",
+      "question": "이론적 물리학은 우주를 이해하는 데 도움이 된다.",
+      "answer": "Theoretical physics helps us understand the universe."
+    },
+    {
+      "id": "ex69",
+      "type": "translation_ko_en",
+      "question": "과학자들은 데이터를 분석하여 패턴을 찾았다.",
+      "answer": "Scientists analyzed the data to find patterns."
+    },
+    {
+      "id": "ex70",
+      "type": "translation_ko_en",
+      "question": "자동화는 제조업의 효율성을 높였다.",
+      "answer": "Automation has increased efficiency in manufacturing."
+    },
+    {
+      "id": "ex71",
+      "type": "translation_en_ko",
+      "question": "The pharmaceutical company is developing a new vaccine.",
+      "answer": "제약 회사는 새로운 백신을 개발하고 있다."
+    },
+    {
+      "id": "ex72",
+      "type": "translation_en_ko",
+      "question": "Genetic engineering raises important ethical questions.",
+      "answer": "유전 공학은 중요한 윤리적 질문을 제기한다."
+    },
+    {
+      "id": "ex73",
+      "type": "translation_en_ko",
+      "question": "The telescope allowed astronomers to observe distant galaxies.",
+      "answer": "망원경은 천문학자들이 먼 은하를 관찰할 수 있게 했다."
+    },
+    {
+      "id": "ex74",
+      "type": "matching",
+      "pairs": [
+        { "word": "quantum", "definition": "relating to the smallest units of energy" },
+        { "word": "artificial", "definition": "made by humans rather than occurring naturally" },
+        { "word": "pharmaceutical", "definition": "relating to medicinal drugs" },
+        { "word": "microscopic", "definition": "extremely small, visible only with a microscope" }
+      ]
+    },
+    {
+      "id": "ex75",
+      "type": "matching",
+      "pairs": [
+        { "word": "validate", "definition": "to confirm or verify something" },
+        { "word": "modify", "definition": "to make partial changes to something" },
+        { "word": "discover", "definition": "to find something for the first time" },
+        { "word": "synthesize", "definition": "to produce a substance by combining elements" }
+      ]
+    },
+    {
+      "id": "ex76",
+      "type": "multiple_choice",
+      "question": "The new system will be _____ across all departments next month.",
+      "options": ["implemented", "contaminated", "diagnosed", "extrapolated"],
+      "answer": "implemented"
+    },
+    {
+      "id": "ex77",
+      "type": "multiple_choice",
+      "question": "Scientists used computer models to _____ various scenarios.",
+      "options": ["simulate", "contaminate", "transplant", "diagnose"],
+      "answer": "simulate"
+    },
+    {
+      "id": "ex78",
+      "type": "multiple_choice",
+      "question": "The study collected _____ data through direct observation.",
+      "options": ["empirical", "theoretical", "quantum", "genetic"],
+      "answer": "empirical"
+    },
+    {
+      "id": "ex79",
+      "type": "multiple_choice",
+      "question": "Other labs were unable to _____ the experimental results.",
+      "options": ["replicate", "diagnose", "transplant", "contaminate"],
+      "answer": "replicate"
+    },
+    {
+      "id": "ex80",
+      "type": "multiple_choice",
+      "question": "The research team used an _____ to study particle physics.",
+      "options": ["accelerator", "ecosystem", "specimen", "catalyst"],
+      "answer": "accelerator"
+    },
+    {
+      "id": "ex81",
+      "type": "fill_blank",
+      "question": "The _____ is threatened by deforestation and pollution.",
+      "answer": "ecosystem"
+    },
+    {
+      "id": "ex82",
+      "type": "fill_blank",
+      "question": "Scientists must follow strict _____ to ensure valid results.",
+      "answer": "methodology"
+    },
+    {
+      "id": "ex83",
+      "type": "fill_blank",
+      "question": "The _____ materials break down naturally over time.",
+      "answer": "biodegradable"
+    },
+    {
+      "id": "ex84",
+      "type": "fill_blank",
+      "question": "Researchers used advanced algorithms to _____ future trends.",
+      "answer": "extrapolate"
+    },
+    {
+      "id": "ex85",
+      "type": "fill_blank",
+      "question": "The company invested heavily in research and _____.",
+      "answer": "development"
+    },
+    {
+      "id": "ex86",
+      "type": "translation_ko_en",
+      "question": "양자 컴퓨팅은 기술을 혁신할 것으로 예상된다.",
+      "answer": "Quantum computing is expected to revolutionize technology."
+    },
+    {
+      "id": "ex87",
+      "type": "translation_ko_en",
+      "question": "표본은 추가 분석을 위해 보존되었다.",
+      "answer": "The specimen was preserved for further analysis."
+    },
+    {
+      "id": "ex88",
+      "type": "translation_ko_en",
+      "question": "방사선 치료는 암 세포를 파괴하는 데 사용된다.",
+      "answer": "Radiation therapy is used to destroy cancer cells."
+    },
+    {
+      "id": "ex89",
+      "type": "translation_en_ko",
+      "question": "Nanotechnology enables manipulation at the molecular level.",
+      "answer": "나노기술은 분자 수준에서의 조작을 가능하게 한다."
+    },
+    {
+      "id": "ex90",
+      "type": "translation_en_ko",
+      "question": "The methodology was revised based on preliminary results.",
+      "answer": "방법론은 예비 결과를 바탕으로 수정되었다."
+    },
+    {
+      "id": "ex91",
+      "type": "translation_en_ko",
+      "question": "Pioneering scientists often face skepticism from their peers.",
+      "answer": "선구적인 과학자들은 종종 동료들의 회의론에 직면한다."
+    },
+    {
+      "id": "ex92",
+      "type": "matching",
+      "pairs": [
+        { "word": "laboratory", "definition": "a room equipped for scientific work" },
+        { "word": "telescope", "definition": "an instrument for viewing distant objects" },
+        { "word": "data", "definition": "facts and statistics collected for analysis" },
+        { "word": "research", "definition": "systematic investigation to establish facts" }
+      ]
+    },
+    {
+      "id": "ex93",
+      "type": "matching",
+      "pairs": [
+        { "word": "clinical trial", "definition": "a research study testing medical treatments" },
+        { "word": "algorithm", "definition": "a set of rules for solving problems" },
+        { "word": "sequencing", "definition": "determining the order of components" },
+        { "word": "cybernetics", "definition": "the science of communications and control systems" }
+      ]
+    },
+    {
+      "id": "ex94",
+      "type": "multiple_choice",
+      "question": "The compound was _____ in the laboratory using basic elements.",
+      "options": ["synthesized", "contaminated", "diagnosed", "extrapolated"],
+      "answer": "synthesized"
+    },
+    {
+      "id": "ex95",
+      "type": "multiple_choice",
+      "question": "_____ materials help reduce plastic waste in landfills.",
+      "options": ["Biodegradable", "Theoretical", "Quantum", "Microscopic"],
+      "answer": "Biodegradable"
+    },
+    {
+      "id": "ex96",
+      "type": "multiple_choice",
+      "question": "The doctor used advanced imaging to _____ the condition.",
+      "options": ["diagnose", "contaminate", "simulate", "extrapolate"],
+      "answer": "diagnose"
+    },
+    {
+      "id": "ex97",
+      "type": "multiple_choice",
+      "question": "The team used a _____ to observe distant celestial objects.",
+      "options": ["telescope", "microscope", "catalyst", "specimen"],
+      "answer": "telescope"
+    },
+    {
+      "id": "ex98",
+      "type": "multiple_choice",
+      "question": "_____ practices ensure resources for future generations.",
+      "options": ["Sustainable", "Theoretical", "Microscopic", "Quantum"],
+      "answer": "Sustainable"
+    },
+    {
+      "id": "ex99",
+      "type": "fill_blank",
+      "question": "The _____ approval process ensures safety and efficacy.",
+      "answer": "patent"
+    },
+    {
+      "id": "ex100",
+      "type": "fill_blank",
+      "question": "The team's _____ work opened new research directions.",
+      "answer": "pioneering"
+    },
+    {
+      "id": "ex101",
+      "type": "fill_blank",
+      "question": "Scientists must _____ their findings before drawing conclusions.",
+      "answer": "validate"
+    },
+    {
+      "id": "ex102",
+      "type": "fill_blank",
+      "question": "The new drug underwent rigorous _____ before approval.",
+      "answer": "testing"
+    },
+    {
+      "id": "ex103",
+      "type": "fill_blank",
+      "question": "The _____ of genes has revolutionized medical research.",
+      "answer": "sequencing"
+    },
+    {
+      "id": "ex104",
+      "type": "translation_ko_en",
+      "question": "생분해성 포장재는 환경 영향을 줄인다.",
+      "answer": "Biodegradable packaging reduces environmental impact."
+    },
+    {
+      "id": "ex105",
+      "type": "translation_ko_en",
+      "question": "임상 시험은 새로운 치료법의 안전성을 확인한다.",
+      "answer": "Clinical trials confirm the safety of new treatments."
+    },
+    {
+      "id": "ex106",
+      "type": "translation_ko_en",
+      "question": "입자 가속기는 물리학 연구에 필수적이다.",
+      "answer": "Particle accelerators are essential for physics research."
+    },
+    {
+      "id": "ex107",
+      "type": "translation_en_ko",
+      "question": "The ecosystem depends on biodiversity for stability.",
+      "answer": "생태계는 안정성을 위해 생물 다양성에 의존한다."
+    },
+    {
+      "id": "ex108",
+      "type": "translation_en_ko",
+      "question": "Scientists extrapolated the data to predict future outcomes.",
+      "answer": "과학자들은 미래 결과를 예측하기 위해 데이터를 추정했다."
+    },
+    {
+      "id": "ex109",
+      "type": "translation_en_ko",
+      "question": "Bionic limbs have improved quality of life for many patients.",
+      "answer": "생체 공학 의수족은 많은 환자들의 삶의 질을 향상시켰다."
+    },
+    {
+      "id": "ex110",
+      "type": "matching",
+      "pairs": [
+        { "word": "extrapolate", "definition": "to estimate or conclude from known facts" },
+        { "word": "contaminate", "definition": "to make something impure" },
+        { "word": "diagnose", "definition": "to identify a disease or problem" },
+        { "word": "analyze", "definition": "to examine something in detail" }
+      ]
+    },
+    {
+      "id": "ex111",
+      "type": "matching",
+      "pairs": [
+        { "word": "renewable", "definition": "capable of being replaced naturally" },
+        { "word": "genetic", "definition": "relating to genes or heredity" },
+        { "word": "theoretical", "definition": "based on theory rather than practice" },
+        { "word": "biomedical", "definition": "relating to biology and medicine" }
+      ]
+    },
+    {
+      "id": "ex112",
+      "type": "multiple_choice",
+      "question": "The researchers hope their work will lead to a major _____.",
+      "options": ["breakthrough", "specimen", "catalyst", "ecosystem"],
+      "answer": "breakthrough"
+    },
+    {
+      "id": "ex113",
+      "type": "multiple_choice",
+      "question": "_____ technology works at the atomic and molecular scale.",
+      "options": ["Nanotechnology", "Automation", "Sequencing", "Radiation"],
+      "answer": "Nanotechnology"
+    },
+    {
+      "id": "ex114",
+      "type": "multiple_choice",
+      "question": "The new invention received a _____ to protect intellectual property.",
+      "options": ["patent", "specimen", "catalyst", "ecosystem"],
+      "answer": "patent"
+    },
+    {
+      "id": "ex115",
+      "type": "multiple_choice",
+      "question": "The team worked to _____ a new approach to the problem.",
+      "options": ["develop", "contaminate", "diagnose", "transplant"],
+      "answer": "develop"
+    },
+    {
+      "id": "ex116",
+      "type": "multiple_choice",
+      "question": "The study required careful collection and analysis of _____.",
+      "options": ["data", "patents", "ecosystems", "telescopes"],
+      "answer": "data"
+    },
+    {
+      "id": "ex117",
+      "type": "fill_blank",
+      "question": "The _____ provides a framework for conducting the study.",
+      "answer": "methodology"
+    },
+    {
+      "id": "ex118",
+      "type": "fill_blank",
+      "question": "The team used _____ methods to collect and analyze data.",
+      "answer": "empirical"
+    },
+    {
+      "id": "ex119",
+      "type": "fill_blank",
+      "question": "The new technology underwent extensive _____ and development.",
+      "answer": "research"
+    },
+    {
+      "id": "ex120",
+      "type": "fill_blank",
+      "question": "Scientists hope to _____ the organ successfully.",
+      "answer": "transplant"
+    },
+    {
+      "id": "ex121",
+      "type": "fill_blank",
+      "question": "The _____ showed promising results in early testing.",
+      "answer": "prototype"
+    },
+    {
+      "id": "ex122",
+      "type": "translation_ko_en",
+      "question": "연구팀은 실험 결과를 검증했다.",
+      "answer": "The research team validated the experimental results."
+    },
+    {
+      "id": "ex123",
+      "type": "translation_ko_en",
+      "question": "지속 가능한 발전은 미래 세대를 위해 중요하다.",
+      "answer": "Sustainable development is important for future generations."
+    },
+    {
+      "id": "ex124",
+      "type": "translation_ko_en",
+      "question": "인공 지능 알고리즘은 패턴을 인식할 수 있다.",
+      "answer": "Artificial intelligence algorithms can recognize patterns."
+    },
+    {
+      "id": "ex125",
+      "type": "translation_en_ko",
+      "question": "The hypothesis must be tested through controlled experiments.",
+      "answer": "가설은 통제된 실험을 통해 검증되어야 한다."
+    },
+    {
+      "id": "ex126",
+      "type": "translation_en_ko",
+      "question": "Innovation is the key to solving complex global challenges.",
+      "answer": "혁신은 복잡한 글로벌 과제를 해결하는 열쇠이다."
+    },
+    {
+      "id": "ex127",
+      "type": "translation_en_ko",
+      "question": "The laboratory is equipped with cutting-edge technology.",
+      "answer": "연구실은 최첨단 기술을 갖추고 있다."
+    },
+    {
+      "id": "ex128",
+      "type": "matching",
+      "pairs": [
+        { "word": "innovation", "definition": "the introduction of new ideas or methods" },
+        { "word": "prototype", "definition": "an early model of a product" },
+        { "word": "automation", "definition": "the use of machines to perform tasks" },
+        { "word": "radiation", "definition": "energy transmitted in the form of rays" }
+      ]
+    },
+    {
+      "id": "ex129",
+      "type": "matching",
+      "pairs": [
+        { "word": "simulate", "definition": "to imitate conditions for testing" },
+        { "word": "implement", "definition": "to put a plan into action" },
+        { "word": "replicate", "definition": "to reproduce or copy exactly" },
+        { "word": "develop", "definition": "to create or improve over time" }
+      ]
+    },
+    {
+      "id": "ex130",
+      "type": "multiple_choice",
+      "question": "Scientists conducted a _____ to test their theory.",
+      "options": ["experiment", "patent", "catalyst", "specimen"],
+      "answer": "experiment"
+    },
+    {
+      "id": "ex131",
+      "type": "multiple_choice",
+      "question": "The research article underwent rigorous _____ before publication.",
+      "options": ["peer review", "automation", "sequencing", "radiation"],
+      "answer": "peer review"
+    },
+    {
+      "id": "ex132",
+      "type": "multiple_choice",
+      "question": "_____ organisms can only be seen with special equipment.",
+      "options": ["Microscopic", "Renewable", "Sustainable", "Genetic"],
+      "answer": "Microscopic"
+    },
+    {
+      "id": "ex133",
+      "type": "multiple_choice",
+      "question": "The results were based on _____ observation rather than theory.",
+      "options": ["empirical", "theoretical", "quantum", "artificial"],
+      "answer": "empirical"
+    },
+    {
+      "id": "ex134",
+      "type": "multiple_choice",
+      "question": "The team was able to _____ the chemical compound in the lab.",
+      "options": ["synthesize", "contaminate", "diagnose", "extrapolate"],
+      "answer": "synthesize"
+    },
+    {
+      "id": "ex135",
+      "type": "fill_blank",
+      "question": "The new medical device received _____ approval.",
+      "answer": "patent"
+    },
+    {
+      "id": "ex136",
+      "type": "fill_blank",
+      "question": "Scientists must carefully _____ their data before drawing conclusions.",
+      "answer": "analyze"
+    },
+    {
+      "id": "ex137",
+      "type": "fill_blank",
+      "question": "The _____ of DNA has transformed genetic research.",
+      "answer": "sequencing"
+    },
+    {
+      "id": "ex138",
+      "type": "fill_blank",
+      "question": "_____ limbs use advanced technology to restore function.",
+      "answer": "Bionic"
+    },
+    {
+      "id": "ex139",
+      "type": "fill_blank",
+      "question": "The study's _____ was carefully designed to ensure accuracy.",
+      "answer": "methodology"
+    },
+    {
+      "id": "ex140",
+      "type": "translation_ko_en",
+      "question": "제약 산업은 연구 개발에 많은 투자를 한다.",
+      "answer": "The pharmaceutical industry invests heavily in research and development."
+    },
+    {
+      "id": "ex141",
+      "type": "translation_ko_en",
+      "question": "현미경 생물체는 특수 장비로만 볼 수 있다.",
+      "answer": "Microscopic organisms can only be seen with special equipment."
+    },
+    {
+      "id": "ex142",
+      "type": "translation_ko_en",
+      "question": "사이버네틱스는 여러 학문을 결합한다.",
+      "answer": "Cybernetics combines multiple disciplines."
+    },
+    {
+      "id": "ex143",
+      "type": "translation_en_ko",
+      "question": "The catalyst speeds up chemical reactions without being consumed.",
+      "answer": "촉매는 소모되지 않으면서 화학 반응을 가속화한다."
+    },
+    {
+      "id": "ex144",
+      "type": "translation_en_ko",
+      "question": "Renewable energy sources are crucial for a sustainable future.",
+      "answer": "재생 가능 에너지원은 지속 가능한 미래에 중요하다."
+    },
+    {
+      "id": "ex145",
+      "type": "translation_en_ko",
+      "question": "The specimen was carefully analyzed under laboratory conditions.",
+      "answer": "표본은 실험실 조건에서 신중하게 분석되었다."
+    },
+    {
+      "id": "ex146",
+      "type": "matching",
+      "pairs": [
+        { "word": "pioneering", "definition": "involving new ideas or methods" },
+        { "word": "sustainable", "definition": "able to be maintained without depleting resources" },
+        { "word": "artificial", "definition": "made by humans rather than natural" },
+        { "word": "microscopic", "definition": "extremely small" }
+      ]
+    },
+    {
+      "id": "ex147",
+      "type": "matching",
+      "pairs": [
+        { "word": "hypothesis", "definition": "a proposed explanation based on evidence" },
+        { "word": "methodology", "definition": "the system of methods used in research" },
+        { "word": "breakthrough", "definition": "an important discovery" },
+        { "word": "experiment", "definition": "a scientific test" }
+      ]
+    },
+    {
+      "id": "ex148",
+      "type": "multiple_choice",
+      "question": "The team hopes to _____ new species in the ecosystem.",
+      "options": ["discover", "contaminate", "simulate", "diagnose"],
+      "answer": "discover"
+    },
+    {
+      "id": "ex149",
+      "type": "multiple_choice",
+      "question": "_____ research combines biological and medical sciences.",
+      "options": ["Biomedical", "Theoretical", "Quantum", "Empirical"],
+      "answer": "Biomedical"
+    },
+    {
+      "id": "ex150",
+      "type": "multiple_choice",
+      "question": "The scientists worked to _____ their experimental findings.",
+      "options": ["validate", "contaminate", "diagnose", "transplant"],
+      "answer": "validate"
     }
   ]
 }

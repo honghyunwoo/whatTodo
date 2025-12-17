@@ -276,48 +276,1194 @@
       "translation": "화해",
       "example": "Reconciliation is necessary after years of conflict.",
       "partOfSpeech": "noun"
+    },
+    {
+      "id": "w31",
+      "word": "persecution",
+      "pronunciation": "/ˌpɜːsɪˈkjuːʃn/",
+      "meaning": "hostility and ill-treatment because of race or beliefs",
+      "translation": "박해",
+      "example": "Religious persecution forced them to flee the country.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w32",
+      "word": "asylum",
+      "pronunciation": "/əˈsaɪləm/",
+      "meaning": "protection granted by a country to refugees",
+      "translation": "망명, 피난처",
+      "example": "She applied for political asylum in a neighboring country.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w33",
+      "word": "displacement",
+      "pronunciation": "/dɪsˈpleɪsmənt/",
+      "meaning": "forced movement of people from their homes",
+      "translation": "이재민, 강제 이주",
+      "example": "The war caused massive displacement of civilians.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w34",
+      "word": "ceasefire",
+      "pronunciation": "/ˈsiːsfaɪə/",
+      "meaning": "temporary suspension of fighting",
+      "translation": "휴전",
+      "example": "Both sides agreed to a ceasefire.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w35",
+      "word": "peacekeeping",
+      "pronunciation": "/ˈpiːskiːpɪŋ/",
+      "meaning": "maintaining peace, especially by military forces",
+      "translation": "평화유지",
+      "example": "UN peacekeeping forces were deployed to the region.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w36",
+      "word": "terrorism",
+      "pronunciation": "/ˈterərɪzəm/",
+      "meaning": "use of violence for political aims",
+      "translation": "테러리즘",
+      "example": "International cooperation is essential to combat terrorism.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w37",
+      "word": "extremism",
+      "pronunciation": "/ɪkˈstriːmɪzəm/",
+      "meaning": "holding extreme political or religious views",
+      "translation": "극단주의",
+      "example": "Extremism poses a threat to global security.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w38",
+      "word": "radicalization",
+      "pronunciation": "/ˌrædɪkəlaɪˈzeɪʃn/",
+      "meaning": "process of adopting extreme views",
+      "translation": "급진화",
+      "example": "Programs aim to prevent radicalization of youth.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w39",
+      "word": "deforestation",
+      "pronunciation": "/diːˌfɒrɪˈsteɪʃn/",
+      "meaning": "clearing forests for other land uses",
+      "translation": "삼림 벌채",
+      "example": "Deforestation contributes to climate change.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w40",
+      "word": "emissions",
+      "pronunciation": "/ɪˈmɪʃnz/",
+      "meaning": "production and discharge of gases",
+      "translation": "배출(물)",
+      "example": "Countries must reduce carbon emissions urgently.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w41",
+      "word": "globalization",
+      "pronunciation": "/ˌɡləʊbəlaɪˈzeɪʃn/",
+      "meaning": "worldwide integration of economies and cultures",
+      "translation": "세계화",
+      "example": "Globalization has both benefits and drawbacks.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w42",
+      "word": "multinational",
+      "pronunciation": "/ˌmʌltiˈnæʃnəl/",
+      "meaning": "operating in several countries",
+      "translation": "다국적의",
+      "example": "Multinational corporations have significant global influence.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w43",
+      "word": "infrastructure",
+      "pronunciation": "/ˈɪnfrəstrʌktʃə/",
+      "meaning": "basic physical systems of a country",
+      "translation": "기반시설",
+      "example": "War destroyed much of the country's infrastructure.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w44",
+      "word": "reconstruction",
+      "pronunciation": "/ˌriːkənˈstrʌkʃn/",
+      "meaning": "rebuilding after destruction",
+      "translation": "재건",
+      "example": "Post-war reconstruction will take many years.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w45",
+      "word": "transparency",
+      "pronunciation": "/trænsˈpærənsi/",
+      "meaning": "openness and accountability in governance",
+      "translation": "투명성",
+      "example": "Transparency in government reduces corruption.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w46",
+      "word": "integrity",
+      "pronunciation": "/ɪnˈteɡrəti/",
+      "meaning": "quality of being honest and having strong moral principles",
+      "translation": "진실성, 청렴",
+      "example": "Leaders must demonstrate integrity in their decisions.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w47",
+      "word": "alleviate",
+      "pronunciation": "/əˈliːvieɪt/",
+      "meaning": "to make suffering or problems less severe",
+      "translation": "완화하다",
+      "example": "Aid organizations work to alleviate poverty.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w48",
+      "word": "eradicate",
+      "pronunciation": "/ɪˈrædɪkeɪt/",
+      "meaning": "to completely destroy or eliminate",
+      "translation": "근절하다",
+      "example": "The goal is to eradicate extreme poverty by 2030.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w49",
+      "word": "mitigate",
+      "pronunciation": "/ˈmɪtɪɡeɪt/",
+      "meaning": "to make less severe or serious",
+      "translation": "완화하다, 경감하다",
+      "example": "Policies aim to mitigate the effects of climate change.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w50",
+      "word": "empower",
+      "pronunciation": "/ɪmˈpaʊə/",
+      "meaning": "to give power or authority to someone",
+      "translation": "권한을 주다",
+      "example": "Education can empower marginalized communities.",
+      "partOfSpeech": "verb"
     }
   ],
 
   "exercises": [
     {
       "id": "ex1",
-      "type": "matching",
-      "instruction": "Match the words with their definitions",
-      "pairs": [
-        { "word": "refugee", "definition": "a person forced to flee their country" },
-        { "word": "sanction", "definition": "a penalty imposed on a country" },
-        { "word": "sovereignty", "definition": "supreme power of a country to govern itself" },
-        { "word": "reconciliation", "definition": "restoration of friendly relations" }
-      ]
+      "type": "multiple_choice",
+      "question": "The _____ crisis has affected millions of people who need immediate help.",
+      "options": ["humanitarian", "multinational", "controversial", "underlying"],
+      "answer": "humanitarian"
     },
     {
       "id": "ex2",
-      "type": "fill_blank",
-      "instruction": "Complete the sentences with the correct words",
-      "sentences": [
-        { "sentence": "The _____ crisis has affected millions of civilians.", "answer": "humanitarian" },
-        { "sentence": "International _____ helped avoid a military conflict.", "answer": "diplomacy" },
-        { "sentence": "Economic _____ were imposed after the human rights violations.", "answer": "sanctions" },
-        { "sentence": "We need to address the _____ causes of poverty.", "answer": "underlying" }
-      ]
+      "type": "multiple_choice",
+      "question": "Thousands of _____ fled across the border to escape the war.",
+      "options": ["sanctions", "refugees", "emissions", "treaties"],
+      "answer": "refugees"
     },
     {
       "id": "ex3",
       "type": "multiple_choice",
-      "instruction": "Choose the best word to complete each sentence",
-      "questions": [
-        {
-          "question": "The two countries finally achieved _____ after decades of conflict.",
-          "options": ["corruption", "reconciliation", "oppression", "disparity"],
-          "answer": "reconciliation"
-        },
-        {
-          "question": "Climate change has caused mass _____ from coastal areas.",
-          "options": ["intervention", "advocacy", "migration", "treaty"],
-          "answer": "migration"
-        }
+      "question": "Economic _____ continues to be a major problem in many societies.",
+      "options": ["reconciliation", "transparency", "inequality", "advocacy"],
+      "answer": "inequality"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "Extreme _____ affects billions of people worldwide.",
+      "options": ["prosperity", "poverty", "integrity", "accountability"],
+      "answer": "poverty"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "The armed _____ has been going on for several years.",
+      "options": ["conflict", "ceasefire", "treaty", "intervention"],
+      "answer": "conflict"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "International _____ is the best way to resolve disputes peacefully.",
+      "options": ["terrorism", "extremism", "diplomacy", "oppression"],
+      "answer": "diplomacy"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "The UN imposed economic _____ on the country for violating international law.",
+      "options": ["sanctions", "treaties", "migrations", "advocacy"],
+      "answer": "sanctions"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "Both nations signed a peace _____ to end the conflict.",
+      "options": ["sovereignty", "treaty", "disparity", "corruption"],
+      "answer": "treaty"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "The _____ spread rapidly through the region, affecting thousands.",
+      "options": ["epidemic", "famine", "genocide", "displacement"],
+      "answer": "epidemic"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "The drought caused a severe _____ in several African countries.",
+      "options": ["prosperity", "infrastructure", "famine", "ceasefire"],
+      "answer": "famine"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "We need _____ development that doesn't harm the environment.",
+      "options": ["devastating", "controversial", "sustainable", "marginalized"],
+      "answer": "sustainable"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "Climate change is causing mass _____ from coastal areas.",
+      "options": ["migration", "persecution", "reconstruction", "transparency"],
+      "answer": "migration"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "Government _____ prevents economic development and progress.",
+      "options": ["integrity", "accountability", "corruption", "advocacy"],
+      "answer": "corruption"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "Military _____ in the region remains highly controversial.",
+      "options": ["intervention", "reconciliation", "asylum", "emissions"],
+      "answer": "intervention"
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "Every nation has the right to protect its own _____.",
+      "options": ["sovereignty", "disparity", "deforestation", "radicalization"],
+      "answer": "sovereignty"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "The international community must work to prevent _____.",
+      "options": ["genocide", "prosperity", "collaboration", "globalization"],
+      "answer": "genocide"
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "Some companies _____ workers in developing countries by paying very low wages.",
+      "options": ["collaborate", "stabilize", "exploit", "empower"],
+      "answer": "exploit"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "Relations between the two countries have _____ over the past year.",
+      "options": ["deteriorated", "alleviated", "eradicated", "mitigated"],
+      "answer": "deteriorated"
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "Nations must _____ to address global challenges like climate change.",
+      "options": ["exploit", "deteriorate", "collaborate", "persecute"],
+      "answer": "collaborate"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "Peacekeeping forces were sent to _____ the region.",
+      "options": ["stabilize", "devastate", "displace", "radicalize"],
+      "answer": "stabilize"
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "Foreign aid policies remain highly _____.",
+      "options": ["sustainable", "controversial", "marginalized", "multinational"],
+      "answer": "controversial"
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "The earthquake had _____ effects on the entire region.",
+      "options": ["underlying", "devastating", "transparent", "prosperous"],
+      "answer": "devastating"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "We must address the _____ causes of poverty and conflict.",
+      "options": ["underlying", "marginalized", "multinational", "controversial"],
+      "answer": "underlying"
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "_____ communities often lack access to basic services.",
+      "options": ["Sustainable", "Marginalized", "Devastating", "Controversial"],
+      "answer": "Marginalized"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "Peace and stability are essential for economic _____.",
+      "options": ["disparity", "oppression", "prosperity", "persecution"],
+      "answer": "prosperity"
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "The wealth _____ between rich and poor nations continues to grow.",
+      "options": ["reconciliation", "advocacy", "disparity", "integrity"],
+      "answer": "disparity"
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "People organized protests against political _____.",
+      "options": ["prosperity", "transparency", "oppression", "collaboration"],
+      "answer": "oppression"
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "There must be _____ for those responsible for human rights violations.",
+      "options": ["accountability", "displacement", "emissions", "radicalization"],
+      "answer": "accountability"
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "_____ groups work to protect the rights of vulnerable populations.",
+      "options": ["Advocacy", "Persecution", "Extremism", "Deforestation"],
+      "answer": "Advocacy"
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "_____ between former enemies takes time and effort.",
+      "options": ["Terrorism", "Corruption", "Reconciliation", "Displacement"],
+      "answer": "Reconciliation"
+    },
+    {
+      "id": "ex31",
+      "type": "multiple_choice",
+      "question": "Religious _____ forced many people to leave their homeland.",
+      "options": ["persecution", "prosperity", "transparency", "reconstruction"],
+      "answer": "persecution"
+    },
+    {
+      "id": "ex32",
+      "type": "multiple_choice",
+      "question": "She sought political _____ in a neighboring country.",
+      "options": ["sovereignty", "asylum", "ceasefire", "infrastructure"],
+      "answer": "asylum"
+    },
+    {
+      "id": "ex33",
+      "type": "multiple_choice",
+      "question": "The conflict caused massive _____ of local populations.",
+      "options": ["displacement", "globalization", "transparency", "integrity"],
+      "answer": "displacement"
+    },
+    {
+      "id": "ex34",
+      "type": "multiple_choice",
+      "question": "Both sides agreed to a temporary _____ to allow humanitarian aid.",
+      "options": ["ceasefire", "treaty", "sanction", "intervention"],
+      "answer": "ceasefire"
+    },
+    {
+      "id": "ex35",
+      "type": "multiple_choice",
+      "question": "UN _____ forces help maintain stability in conflict zones.",
+      "options": ["peacekeeping", "terrorism", "extremism", "exploitation"],
+      "answer": "peacekeeping"
+    },
+    {
+      "id": "ex36",
+      "type": "multiple_choice",
+      "question": "International cooperation is crucial to combat _____.",
+      "options": ["prosperity", "reconciliation", "terrorism", "advocacy"],
+      "answer": "terrorism"
+    },
+    {
+      "id": "ex37",
+      "type": "multiple_choice",
+      "question": "Political _____ threatens democratic values and stability.",
+      "options": ["integrity", "extremism", "transparency", "accountability"],
+      "answer": "extremism"
+    },
+    {
+      "id": "ex38",
+      "type": "multiple_choice",
+      "question": "Programs aim to prevent the _____ of vulnerable youth.",
+      "options": ["radicalization", "alleviation", "mitigation", "empowerment"],
+      "answer": "radicalization"
+    },
+    {
+      "id": "ex39",
+      "type": "multiple_choice",
+      "question": "_____ is a major contributor to climate change and biodiversity loss.",
+      "options": ["Reconstruction", "Deforestation", "Peacekeeping", "Asylum"],
+      "answer": "Deforestation"
+    },
+    {
+      "id": "ex40",
+      "type": "multiple_choice",
+      "question": "Reducing carbon _____ is essential to combat global warming.",
+      "options": ["emissions", "treaties", "sanctions", "migrations"],
+      "answer": "emissions"
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "The _____ crisis requires immediate international aid.",
+      "answer": "humanitarian"
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "Millions of _____ have crossed the border seeking safety.",
+      "answer": "refugees"
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "Social _____ leads to tension and instability in society.",
+      "answer": "inequality"
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "The organization works to reduce _____ in developing nations.",
+      "answer": "poverty"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "The armed _____ has lasted for over a decade.",
+      "answer": "conflict"
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "Skilled _____ helped avoid a military confrontation.",
+      "answer": "diplomacy"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "Economic _____ were imposed after the invasion.",
+      "answer": "sanctions"
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "The peace _____ was signed after years of negotiation.",
+      "answer": "treaty"
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "The _____ spread quickly through densely populated areas.",
+      "answer": "epidemic"
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "The _____ was caused by years of drought and crop failure.",
+      "answer": "famine"
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "_____ practices protect the environment for future generations.",
+      "answer": "Sustainable"
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "Economic _____ from rural to urban areas continues to increase.",
+      "answer": "migration"
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "Government _____ hinders economic progress and development.",
+      "answer": "corruption"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "Humanitarian _____ saved thousands of lives during the crisis.",
+      "answer": "intervention"
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "National _____ is a fundamental principle of international law.",
+      "answer": "sovereignty"
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "The prevention of _____ is a primary goal of the United Nations.",
+      "answer": "genocide"
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "Companies should not _____ workers by paying unfair wages.",
+      "answer": "exploit"
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "The security situation continues to _____ despite international efforts.",
+      "answer": "deteriorate"
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "Countries must _____ to address global environmental challenges.",
+      "answer": "collaborate"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "International forces work to _____ the post-conflict region.",
+      "answer": "stabilize"
+    },
+    {
+      "id": "ex61",
+      "type": "fill_blank",
+      "question": "The decision to intervene militarily remains highly _____.",
+      "answer": "controversial"
+    },
+    {
+      "id": "ex62",
+      "type": "fill_blank",
+      "question": "The natural disaster had _____ effects on the local population.",
+      "answer": "devastating"
+    },
+    {
+      "id": "ex63",
+      "type": "fill_blank",
+      "question": "Addressing the _____ causes of conflict is essential for lasting peace.",
+      "answer": "underlying"
+    },
+    {
+      "id": "ex64",
+      "type": "fill_blank",
+      "question": "_____ groups often face discrimination and lack of opportunities.",
+      "answer": "Marginalized"
+    },
+    {
+      "id": "ex65",
+      "type": "fill_blank",
+      "question": "Economic _____ depends on political stability and good governance.",
+      "answer": "prosperity"
+    },
+    {
+      "id": "ex66",
+      "type": "fill_blank",
+      "question": "The income _____ between rich and poor is widening.",
+      "answer": "disparity"
+    },
+    {
+      "id": "ex67",
+      "type": "fill_blank",
+      "question": "Citizens protested against government _____ and demanded freedom.",
+      "answer": "oppression"
+    },
+    {
+      "id": "ex68",
+      "type": "fill_blank",
+      "question": "Leaders must demonstrate _____ for their decisions and actions.",
+      "answer": "accountability"
+    },
+    {
+      "id": "ex69",
+      "type": "fill_blank",
+      "question": "_____ for human rights is essential in any democratic society.",
+      "answer": "Advocacy"
+    },
+    {
+      "id": "ex70",
+      "type": "fill_blank",
+      "question": "National _____ requires acknowledgment of past wrongs and forgiveness.",
+      "answer": "reconciliation"
+    },
+    {
+      "id": "ex71",
+      "type": "fill_blank",
+      "question": "Many people fled their country to escape religious _____.",
+      "answer": "persecution"
+    },
+    {
+      "id": "ex72",
+      "type": "fill_blank",
+      "question": "Political dissidents often seek _____ in democratic countries.",
+      "answer": "asylum"
+    },
+    {
+      "id": "ex73",
+      "type": "fill_blank",
+      "question": "The war caused massive _____ of civilian populations.",
+      "answer": "displacement"
+    },
+    {
+      "id": "ex74",
+      "type": "fill_blank",
+      "question": "A _____ was declared to allow negotiations between the warring parties.",
+      "answer": "ceasefire"
+    },
+    {
+      "id": "ex75",
+      "type": "fill_blank",
+      "question": "The UN _____ mission helped restore order in the region.",
+      "answer": "peacekeeping"
+    },
+    {
+      "id": "ex76",
+      "type": "fill_blank",
+      "question": "International _____ poses a serious threat to global security.",
+      "answer": "terrorism"
+    },
+    {
+      "id": "ex77",
+      "type": "fill_blank",
+      "question": "Political _____ undermines democratic institutions and values.",
+      "answer": "extremism"
+    },
+    {
+      "id": "ex78",
+      "type": "fill_blank",
+      "question": "Programs aim to prevent the _____ of young people online.",
+      "answer": "radicalization"
+    },
+    {
+      "id": "ex79",
+      "type": "fill_blank",
+      "question": "_____ destroys habitats and contributes to climate change.",
+      "answer": "Deforestation"
+    },
+    {
+      "id": "ex80",
+      "type": "fill_blank",
+      "question": "Countries must reduce greenhouse gas _____ to meet climate targets.",
+      "answer": "emissions"
+    },
+    {
+      "id": "ex81",
+      "type": "matching",
+      "pairs": [
+        {"word": "humanitarian", "match": "concerned with reducing suffering"},
+        {"word": "refugee", "match": "person forced to flee their country"},
+        {"word": "inequality", "match": "unfair difference in society"},
+        {"word": "poverty", "match": "state of being extremely poor"}
       ]
+    },
+    {
+      "id": "ex82",
+      "type": "matching",
+      "pairs": [
+        {"word": "conflict", "match": "serious disagreement or fighting"},
+        {"word": "diplomacy", "match": "managing international relations"},
+        {"word": "sanction", "match": "penalty imposed on a country"},
+        {"word": "treaty", "match": "formal agreement between countries"}
+      ]
+    },
+    {
+      "id": "ex83",
+      "type": "matching",
+      "pairs": [
+        {"word": "epidemic", "match": "widespread disease occurrence"},
+        {"word": "famine", "match": "extreme food scarcity"},
+        {"word": "sustainable", "match": "environmentally maintainable"},
+        {"word": "migration", "match": "movement to new areas"}
+      ]
+    },
+    {
+      "id": "ex84",
+      "type": "matching",
+      "pairs": [
+        {"word": "corruption", "match": "dishonest behavior in power"},
+        {"word": "intervention", "match": "action to improve situation"},
+        {"word": "sovereignty", "match": "power to govern oneself"},
+        {"word": "genocide", "match": "deliberate mass killing"}
+      ]
+    },
+    {
+      "id": "ex85",
+      "type": "matching",
+      "pairs": [
+        {"word": "exploit", "match": "use unfairly for advantage"},
+        {"word": "deteriorate", "match": "become progressively worse"},
+        {"word": "collaborate", "match": "work together on goal"},
+        {"word": "stabilize", "match": "make or become steady"}
+      ]
+    },
+    {
+      "id": "ex86",
+      "type": "matching",
+      "pairs": [
+        {"word": "controversial", "match": "causing disagreement"},
+        {"word": "devastating", "match": "causing severe damage"},
+        {"word": "underlying", "match": "fundamental or basic"},
+        {"word": "marginalized", "match": "excluded or unimportant"}
+      ]
+    },
+    {
+      "id": "ex87",
+      "type": "matching",
+      "pairs": [
+        {"word": "prosperity", "match": "state of being wealthy"},
+        {"word": "disparity", "match": "great difference"},
+        {"word": "oppression", "match": "cruel unfair treatment"},
+        {"word": "accountability", "match": "responsibility for actions"}
+      ]
+    },
+    {
+      "id": "ex88",
+      "type": "matching",
+      "pairs": [
+        {"word": "advocacy", "match": "public support for cause"},
+        {"word": "reconciliation", "match": "restoration of friendly relations"},
+        {"word": "persecution", "match": "hostility due to beliefs"},
+        {"word": "asylum", "match": "protection for refugees"}
+      ]
+    },
+    {
+      "id": "ex89",
+      "type": "matching",
+      "pairs": [
+        {"word": "displacement", "match": "forced movement from homes"},
+        {"word": "ceasefire", "match": "temporary fighting suspension"},
+        {"word": "peacekeeping", "match": "maintaining peace by forces"},
+        {"word": "terrorism", "match": "violence for political aims"}
+      ]
+    },
+    {
+      "id": "ex90",
+      "type": "matching",
+      "pairs": [
+        {"word": "extremism", "match": "holding extreme views"},
+        {"word": "radicalization", "match": "adopting extreme views"},
+        {"word": "deforestation", "match": "clearing forests"},
+        {"word": "emissions", "match": "discharge of gases"}
+      ]
+    },
+    {
+      "id": "ex91",
+      "type": "matching",
+      "pairs": [
+        {"word": "globalization", "match": "worldwide integration"},
+        {"word": "multinational", "match": "operating in several countries"},
+        {"word": "infrastructure", "match": "basic physical systems"},
+        {"word": "reconstruction", "match": "rebuilding after destruction"}
+      ]
+    },
+    {
+      "id": "ex92",
+      "type": "matching",
+      "pairs": [
+        {"word": "transparency", "match": "openness in governance"},
+        {"word": "integrity", "match": "honesty and moral principles"},
+        {"word": "alleviate", "match": "make less severe"},
+        {"word": "eradicate", "match": "completely eliminate"}
+      ]
+    },
+    {
+      "id": "ex93",
+      "type": "matching",
+      "pairs": [
+        {"word": "mitigate", "match": "reduce severity"},
+        {"word": "empower", "match": "give power to someone"},
+        {"word": "humanitarian", "match": "focused on human welfare"},
+        {"word": "conflict", "match": "armed fighting"}
+      ]
+    },
+    {
+      "id": "ex94",
+      "type": "matching",
+      "pairs": [
+        {"word": "diplomacy", "match": "peaceful negotiation"},
+        {"word": "treaty", "match": "international agreement"},
+        {"word": "refugee", "match": "displaced person"},
+        {"word": "migration", "match": "population movement"}
+      ]
+    },
+    {
+      "id": "ex95",
+      "type": "matching",
+      "pairs": [
+        {"word": "poverty", "match": "extreme lack of resources"},
+        {"word": "inequality", "match": "unequal distribution"},
+        {"word": "prosperity", "match": "economic success"},
+        {"word": "disparity", "match": "significant gap"}
+      ]
+    },
+    {
+      "id": "ex96",
+      "type": "translation_ko_en",
+      "question": "인도주의적 위기는 즉각적인 국제적 행동을 요구합니다.",
+      "answer": "The humanitarian crisis requires immediate international action."
+    },
+    {
+      "id": "ex97",
+      "type": "translation_ko_en",
+      "question": "수백만 명의 난민들이 분쟁 지역을 떠났습니다.",
+      "answer": "Millions of refugees have fled the conflict zone."
+    },
+    {
+      "id": "ex98",
+      "type": "translation_ko_en",
+      "question": "경제적 불평등이 전 세계적으로 계속 확대되고 있습니다.",
+      "answer": "Economic inequality continues to widen globally."
+    },
+    {
+      "id": "ex99",
+      "type": "translation_ko_en",
+      "question": "극심한 빈곤은 전 세계 수십억 명에게 영향을 미칩니다.",
+      "answer": "Extreme poverty affects billions worldwide."
+    },
+    {
+      "id": "ex100",
+      "type": "translation_ko_en",
+      "question": "그 분쟁으로 수천 가구가 이재민이 되었습니다.",
+      "answer": "The conflict has displaced thousands of families."
+    },
+    {
+      "id": "ex101",
+      "type": "translation_ko_en",
+      "question": "외교는 평화적 해결에 필수적입니다.",
+      "answer": "Diplomacy is essential for peaceful resolution."
+    },
+    {
+      "id": "ex102",
+      "type": "translation_ko_en",
+      "question": "경제 제재가 그 정권에 부과되었습니다.",
+      "answer": "Economic sanctions were imposed on the regime."
+    },
+    {
+      "id": "ex103",
+      "type": "translation_ko_en",
+      "question": "그 나라들은 평화 조약에 서명했습니다.",
+      "answer": "The countries signed a peace treaty."
+    },
+    {
+      "id": "ex104",
+      "type": "translation_ko_en",
+      "question": "전염병이 국경을 넘어 빠르게 퍼졌습니다.",
+      "answer": "The epidemic spread rapidly across borders."
+    },
+    {
+      "id": "ex105",
+      "type": "translation_ko_en",
+      "question": "기근이 전 지역을 위협하고 있습니다.",
+      "answer": "Famine threatens the entire region."
+    },
+    {
+      "id": "ex106",
+      "type": "translation_ko_en",
+      "question": "지속 가능한 개발은 미래 세대에 이익이 됩니다.",
+      "answer": "Sustainable development benefits future generations."
+    },
+    {
+      "id": "ex107",
+      "type": "translation_ko_en",
+      "question": "기후 변화가 대규모 이주를 야기하고 있습니다.",
+      "answer": "Climate change is causing mass migration."
+    },
+    {
+      "id": "ex108",
+      "type": "translation_ko_en",
+      "question": "정부 부패가 발전을 방해합니다.",
+      "answer": "Government corruption hinders development."
+    },
+    {
+      "id": "ex109",
+      "type": "translation_ko_en",
+      "question": "군사 개입은 여전히 논란의 여지가 있습니다.",
+      "answer": "Military intervention remains controversial."
+    },
+    {
+      "id": "ex110",
+      "type": "translation_ko_en",
+      "question": "국가들은 자국의 주권을 보호합니다.",
+      "answer": "Nations are protective of their sovereignty."
+    },
+    {
+      "id": "ex111",
+      "type": "translation_ko_en",
+      "question": "국제 사회는 대량학살을 방지해야 합니다.",
+      "answer": "The international community must prevent genocide."
+    },
+    {
+      "id": "ex112",
+      "type": "translation_ko_en",
+      "question": "일부 기업들은 개발도상국의 노동자들을 착취합니다.",
+      "answer": "Some corporations exploit workers in developing nations."
+    },
+    {
+      "id": "ex113",
+      "type": "translation_ko_en",
+      "question": "국가 간 관계가 악화되었습니다.",
+      "answer": "Relations between the countries have deteriorated."
+    },
+    {
+      "id": "ex114",
+      "type": "translation_ko_en",
+      "question": "국가들은 기후 변화에 대처하기 위해 협력해야 합니다.",
+      "answer": "Nations must collaborate to address climate change."
+    },
+    {
+      "id": "ex115",
+      "type": "translation_ko_en",
+      "question": "그 지역을 안정시키려는 노력이 계속되고 있습니다.",
+      "answer": "Efforts to stabilize the region continue."
+    },
+    {
+      "id": "ex116",
+      "type": "translation_ko_en",
+      "question": "대외 원조 정책은 여전히 논란의 여지가 있습니다.",
+      "answer": "Foreign aid policies remain controversial."
+    },
+    {
+      "id": "ex117",
+      "type": "translation_ko_en",
+      "question": "지진은 파괴적인 영향을 미쳤습니다.",
+      "answer": "The earthquake had devastating effects."
+    },
+    {
+      "id": "ex118",
+      "type": "translation_ko_en",
+      "question": "우리는 분쟁의 근본적인 원인을 다루어야 합니다.",
+      "answer": "We must address the underlying causes of conflict."
+    },
+    {
+      "id": "ex119",
+      "type": "translation_ko_en",
+      "question": "소외된 공동체는 더 많은 지원이 필요합니다.",
+      "answer": "Marginalized communities need greater support."
+    },
+    {
+      "id": "ex120",
+      "type": "translation_ko_en",
+      "question": "평화는 경제적 번영에 필수적입니다.",
+      "answer": "Peace is essential for economic prosperity."
+    },
+    {
+      "id": "ex121",
+      "type": "translation_en_ko",
+      "question": "The wealth disparity continues to grow.",
+      "answer": "부의 격차가 계속 커지고 있습니다."
+    },
+    {
+      "id": "ex122",
+      "type": "translation_en_ko",
+      "question": "People fought against political oppression.",
+      "answer": "사람들은 정치적 억압에 맞서 싸웠습니다."
+    },
+    {
+      "id": "ex123",
+      "type": "translation_en_ko",
+      "question": "There must be accountability for human rights violations.",
+      "answer": "인권 침해에 대한 책임이 있어야 합니다."
+    },
+    {
+      "id": "ex124",
+      "type": "translation_en_ko",
+      "question": "Advocacy groups pressure governments for change.",
+      "answer": "옹호 단체들은 정부에 변화를 압박합니다."
+    },
+    {
+      "id": "ex125",
+      "type": "translation_en_ko",
+      "question": "Reconciliation is necessary after years of conflict.",
+      "answer": "수년간의 분쟁 후에 화해가 필요합니다."
+    },
+    {
+      "id": "ex126",
+      "type": "translation_en_ko",
+      "question": "Religious persecution forced them to flee the country.",
+      "answer": "종교적 박해로 그들은 나라를 떠나야 했습니다."
+    },
+    {
+      "id": "ex127",
+      "type": "translation_en_ko",
+      "question": "She applied for political asylum in a neighboring country.",
+      "answer": "그녀는 이웃 나라에 정치적 망명을 신청했습니다."
+    },
+    {
+      "id": "ex128",
+      "type": "translation_en_ko",
+      "question": "The war caused massive displacement of civilians.",
+      "answer": "전쟁은 민간인의 대규모 이재민을 발생시켰습니다."
+    },
+    {
+      "id": "ex129",
+      "type": "translation_en_ko",
+      "question": "Both sides agreed to a ceasefire.",
+      "answer": "양측은 휴전에 합의했습니다."
+    },
+    {
+      "id": "ex130",
+      "type": "translation_en_ko",
+      "question": "UN peacekeeping forces were deployed to the region.",
+      "answer": "유엔 평화유지군이 그 지역에 배치되었습니다."
+    },
+    {
+      "id": "ex131",
+      "type": "translation_en_ko",
+      "question": "International cooperation is essential to combat terrorism.",
+      "answer": "테러리즘과 싸우기 위해서는 국제 협력이 필수적입니다."
+    },
+    {
+      "id": "ex132",
+      "type": "translation_en_ko",
+      "question": "Extremism poses a threat to global security.",
+      "answer": "극단주의는 세계 안보에 위협이 됩니다."
+    },
+    {
+      "id": "ex133",
+      "type": "translation_en_ko",
+      "question": "Programs aim to prevent radicalization of youth.",
+      "answer": "프로그램은 청소년의 급진화를 방지하는 것을 목표로 합니다."
+    },
+    {
+      "id": "ex134",
+      "type": "translation_en_ko",
+      "question": "Deforestation contributes to climate change.",
+      "answer": "삼림 벌채는 기후 변화에 기여합니다."
+    },
+    {
+      "id": "ex135",
+      "type": "translation_en_ko",
+      "question": "Countries must reduce carbon emissions urgently.",
+      "answer": "국가들은 긴급히 탄소 배출을 줄여야 합니다."
+    },
+    {
+      "id": "ex136",
+      "type": "translation_en_ko",
+      "question": "Globalization has both benefits and drawbacks.",
+      "answer": "세계화는 이점과 단점을 모두 가지고 있습니다."
+    },
+    {
+      "id": "ex137",
+      "type": "translation_en_ko",
+      "question": "Multinational corporations have significant global influence.",
+      "answer": "다국적 기업들은 상당한 글로벌 영향력을 가지고 있습니다."
+    },
+    {
+      "id": "ex138",
+      "type": "translation_en_ko",
+      "question": "War destroyed much of the country's infrastructure.",
+      "answer": "전쟁은 그 나라 기반시설의 많은 부분을 파괴했습니다."
+    },
+    {
+      "id": "ex139",
+      "type": "translation_en_ko",
+      "question": "Post-war reconstruction will take many years.",
+      "answer": "전후 재건은 수년이 걸릴 것입니다."
+    },
+    {
+      "id": "ex140",
+      "type": "translation_en_ko",
+      "question": "Transparency in government reduces corruption.",
+      "answer": "정부의 투명성은 부패를 줄입니다."
+    },
+    {
+      "id": "ex141",
+      "type": "translation_en_ko",
+      "question": "Leaders must demonstrate integrity in their decisions.",
+      "answer": "지도자들은 그들의 결정에서 진실성을 보여야 합니다."
+    },
+    {
+      "id": "ex142",
+      "type": "translation_en_ko",
+      "question": "Aid organizations work to alleviate poverty.",
+      "answer": "원조 단체들은 빈곤을 완화하기 위해 노력합니다."
+    },
+    {
+      "id": "ex143",
+      "type": "translation_en_ko",
+      "question": "The goal is to eradicate extreme poverty by 2030.",
+      "answer": "목표는 2030년까지 극심한 빈곤을 근절하는 것입니다."
+    },
+    {
+      "id": "ex144",
+      "type": "translation_en_ko",
+      "question": "Policies aim to mitigate the effects of climate change.",
+      "answer": "정책들은 기후 변화의 영향을 완화하는 것을 목표로 합니다."
+    },
+    {
+      "id": "ex145",
+      "type": "translation_en_ko",
+      "question": "Education can empower marginalized communities.",
+      "answer": "교육은 소외된 공동체에 권한을 줄 수 있습니다."
+    },
+    {
+      "id": "ex146",
+      "type": "multiple_choice",
+      "question": "_____ has increased economic interconnectedness between nations.",
+      "options": ["Globalization", "Persecution", "Displacement", "Oppression"],
+      "answer": "Globalization"
+    },
+    {
+      "id": "ex147",
+      "type": "multiple_choice",
+      "question": "_____ companies operate across multiple countries simultaneously.",
+      "options": ["Marginalized", "Controversial", "Multinational", "Sustainable"],
+      "answer": "Multinational"
+    },
+    {
+      "id": "ex148",
+      "type": "multiple_choice",
+      "question": "The country's _____ was severely damaged during the conflict.",
+      "options": ["infrastructure", "prosperity", "advocacy", "integrity"],
+      "answer": "infrastructure"
+    },
+    {
+      "id": "ex149",
+      "type": "multiple_choice",
+      "question": "Post-war _____ requires significant international investment.",
+      "options": ["persecution", "radicalization", "reconstruction", "exploitation"],
+      "answer": "reconstruction"
+    },
+    {
+      "id": "ex150",
+      "type": "multiple_choice",
+      "question": "Good governance requires _____ and public accountability.",
+      "options": ["oppression", "corruption", "extremism", "transparency"],
+      "answer": "transparency"
     }
   ]
 }

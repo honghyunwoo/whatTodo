@@ -1,0 +1,90 @@
+{
+  "id": "week-1-listening",
+  "weekId": "week-1",
+  "type": "listening",
+  "level": "C1",
+  "title": "Academic Lectures & Professional Presentations",
+  "description": "Comprehend complex academic discussions and professional presentations.",
+
+  "dialogues": [
+    {
+      "id": "d1",
+      "title": "University Lecture: Climate Policy",
+      "context": "A professor discusses the challenges of implementing global climate policies.",
+      "transcript": "Today I want to examine the inherent tensions between economic growth and environmental sustainability. While policymakers frequently claim that these goals are reconcilable, empirical evidence suggests a more nuanced picture. The fundamental question we must grapple with is whether incremental policy changes can truly address what many scientists consider an unprecedented global crisis. Some researchers postulate that without a paradigm shift in our approach to development, mere policy adjustments will prove insufficient. However, others argue that technological innovation, coupled with market-based solutions, could substantiate a more optimistic outlook.",
+      "translation": "오늘은 경제 성장과 환경 지속가능성 사이의 본질적인 긴장 관계를 살펴보고자 합니다. 정책 입안자들은 이러한 목표들이 조화될 수 있다고 자주 주장하지만, 실증적 증거는 더 미묘한 그림을 보여줍니다. 우리가 씨름해야 할 근본적인 질문은 점진적인 정책 변화가 많은 과학자들이 전례 없는 글로벌 위기로 간주하는 것을 진정으로 해결할 수 있는지 여부입니다. 일부 연구자들은 발전에 대한 접근 방식의 패러다임 전환 없이는 단순한 정책 조정만으로는 불충분할 것이라고 가정합니다. 그러나 다른 이들은 시장 기반 솔루션과 결합된 기술 혁신이 더 낙관적인 전망을 뒷받침할 수 있다고 주장합니다.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the main tension the professor discusses?",
+          "options": [
+            "Technology and tradition",
+            "Economic growth and environmental sustainability",
+            "Global and local policies",
+            "Scientists and policymakers"
+          ],
+          "answer": "Economic growth and environmental sustainability"
+        },
+        {
+          "id": "q2",
+          "question": "What do some researchers postulate about addressing the crisis?",
+          "options": [
+            "Market solutions are sufficient",
+            "Technology alone can solve it",
+            "A paradigm shift in development approach is needed",
+            "Incremental changes work best"
+          ],
+          "answer": "A paradigm shift in development approach is needed"
+        },
+        {
+          "id": "q3",
+          "question": "What does 'empirical evidence' suggest according to the lecture?",
+          "options": [
+            "Goals are easily reconcilable",
+            "The picture is more nuanced than claimed",
+            "Economic growth must stop",
+            "Policy changes are unnecessary"
+          ],
+          "answer": "The picture is more nuanced than claimed"
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "title": "Business Presentation: Market Analysis",
+      "context": "A senior analyst presents quarterly findings to the executive board.",
+      "transcript": "Let me delineate the key findings from our comprehensive market analysis. First, we've observed an unprecedented shift in consumer behavior, with digital engagement increasing by forty-seven percent year-over-year. Second, there's a significant discrepancy between our projected figures and actual performance in the Asian markets—a discrepancy we need to scrutinize more carefully. What's particularly pertinent is the correlation between our brand perception scores and sales figures. The data substantiates what we've long suspected: customer loyalty is increasingly contingent upon perceived corporate responsibility. I would argue that this represents a cogent case for realigning our sustainability initiatives.",
+      "translation": "시장 분석의 주요 결과를 설명하겠습니다. 첫째, 디지털 참여가 전년 대비 47% 증가하면서 소비자 행동에 전례 없는 변화가 관찰되었습니다. 둘째, 아시아 시장에서 예상 수치와 실제 실적 사이에 상당한 불일치가 있습니다—이 불일치는 더 면밀히 조사해야 합니다. 특히 관련 있는 것은 우리 브랜드 인식 점수와 판매 수치 간의 상관관계입니다. 데이터는 우리가 오랫동안 의심해온 것을 입증합니다: 고객 충성도는 점점 더 인식된 기업의 책임감에 의존하고 있습니다. 이것이 지속가능성 이니셔티브를 재조정하기 위한 설득력 있는 사례를 나타낸다고 주장하겠습니다.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What percentage increase in digital engagement was reported?",
+          "options": ["27%", "37%", "47%", "57%"],
+          "answer": "47%"
+        },
+        {
+          "id": "q2",
+          "question": "What issue was identified in the Asian markets?",
+          "options": [
+            "Lack of digital presence",
+            "Discrepancy between projected and actual figures",
+            "Low brand awareness",
+            "Supply chain problems"
+          ],
+          "answer": "Discrepancy between projected and actual figures"
+        },
+        {
+          "id": "q3",
+          "question": "What does the data substantiate about customer loyalty?",
+          "options": [
+            "It depends on price alone",
+            "It's increasingly tied to perceived corporate responsibility",
+            "It's declining overall",
+            "It's unrelated to brand perception"
+          ],
+          "answer": "It's increasingly tied to perceived corporate responsibility"
+        }
+      ]
+    }
+  ]
+}

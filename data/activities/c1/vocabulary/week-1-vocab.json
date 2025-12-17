@@ -1,0 +1,2084 @@
+{
+  "id": "week-1-vocab",
+  "weekId": "week-1",
+  "type": "vocabulary",
+  "level": "C1",
+  "title": "Academic & Professional Discourse",
+  "description": "Master sophisticated vocabulary for academic writing and professional settings.",
+
+  "words": [
+    {
+      "id": "w1",
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "meaning": "a typical example or model of something; a framework of ideas",
+      "translation": "패러다임, 전형",
+      "example": "This discovery represents a paradigm shift in our understanding of genetics.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w2",
+      "word": "elucidate",
+      "pronunciation": "/ɪˈluːsɪdeɪt/",
+      "meaning": "to make something clear; to explain",
+      "translation": "명확히 하다, 해명하다",
+      "example": "The professor elucidated the complex theory with simple examples.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w3",
+      "word": "empirical",
+      "pronunciation": "/ɪmˈpɪrɪkəl/",
+      "meaning": "based on observation or experience rather than theory",
+      "translation": "경험적인, 실증적인",
+      "example": "The hypothesis must be supported by empirical evidence.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w4",
+      "word": "nuanced",
+      "pronunciation": "/ˈnjuːɑːnst/",
+      "meaning": "characterized by subtle differences or distinctions",
+      "translation": "미묘한 차이가 있는",
+      "example": "Her nuanced analysis revealed hidden complexities in the data.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w5",
+      "word": "corroborate",
+      "pronunciation": "/kəˈrɒbəreɪt/",
+      "meaning": "to confirm or give support to a statement or theory",
+      "translation": "확증하다, 뒷받침하다",
+      "example": "Multiple witnesses corroborated the defendant's alibi.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w6",
+      "word": "unprecedented",
+      "pronunciation": "/ʌnˈpresɪdentɪd/",
+      "meaning": "never done or known before",
+      "translation": "전례 없는",
+      "example": "The pandemic created unprecedented challenges for global healthcare.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w7",
+      "word": "scrutinize",
+      "pronunciation": "/ˈskruːtɪnaɪz/",
+      "meaning": "to examine or inspect closely and thoroughly",
+      "translation": "면밀히 조사하다",
+      "example": "The committee will scrutinize every aspect of the proposal.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w8",
+      "word": "inherent",
+      "pronunciation": "/ɪnˈhɪərənt/",
+      "meaning": "existing as a natural or permanent part of something",
+      "translation": "본질적인, 내재하는",
+      "example": "There are inherent risks in any investment strategy.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w9",
+      "word": "reconcile",
+      "pronunciation": "/ˈrekənsaɪl/",
+      "meaning": "to find a way to make two different ideas compatible",
+      "translation": "조화시키다, 화해시키다",
+      "example": "Scientists are trying to reconcile these contradictory findings.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w10",
+      "word": "pertinent",
+      "pronunciation": "/ˈpɜːtɪnənt/",
+      "meaning": "relevant or applicable to a particular matter",
+      "translation": "적절한, 관련 있는",
+      "example": "Please only include pertinent information in your report.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w11",
+      "word": "delineate",
+      "pronunciation": "/dɪˈlɪnieɪt/",
+      "meaning": "to describe or portray something precisely",
+      "translation": "서술하다, 묘사하다",
+      "example": "The report delineates the boundaries of the research scope.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w12",
+      "word": "proliferation",
+      "pronunciation": "/prəˌlɪfəˈreɪʃən/",
+      "meaning": "rapid increase in numbers or spread",
+      "translation": "확산, 급증",
+      "example": "The proliferation of misinformation poses a serious threat.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w13",
+      "word": "substantiate",
+      "pronunciation": "/səbˈstænʃieɪt/",
+      "meaning": "to provide evidence to support a claim",
+      "translation": "입증하다, 실증하다",
+      "example": "The researcher failed to substantiate her controversial claims.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w14",
+      "word": "cogent",
+      "pronunciation": "/ˈkəʊdʒənt/",
+      "meaning": "clear, logical, and convincing",
+      "translation": "설득력 있는, 명쾌한",
+      "example": "She presented a cogent argument for policy reform.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w15",
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "meaning": "present, appearing, or found everywhere",
+      "translation": "어디에나 있는, 편재하는",
+      "example": "Smartphones have become ubiquitous in modern society.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w16",
+      "word": "discrepancy",
+      "pronunciation": "/dɪsˈkrepənsi/",
+      "meaning": "a difference between things that should be the same",
+      "translation": "불일치, 차이",
+      "example": "There was a discrepancy between the two reports.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w17",
+      "word": "postulate",
+      "pronunciation": "/ˈpɒstjʊleɪt/",
+      "meaning": "to suggest or assume as a basis for reasoning",
+      "translation": "가정하다, 상정하다",
+      "example": "The theory postulates the existence of dark matter.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w18",
+      "word": "tangible",
+      "pronunciation": "/ˈtændʒɪbl/",
+      "meaning": "clear and definite; able to be perceived",
+      "translation": "명백한, 실체가 있는",
+      "example": "We need tangible results to secure further funding.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w19",
+      "word": "arbitrary",
+      "pronunciation": "/ˈɑːbɪtrəri/",
+      "meaning": "based on random choice rather than reason",
+      "translation": "임의의, 자의적인",
+      "example": "The decision seemed arbitrary and unfair.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w20",
+      "word": "synthesis",
+      "pronunciation": "/ˈsɪnθəsɪs/",
+      "meaning": "the combination of components to form a connected whole",
+      "translation": "종합, 합성",
+      "example": "The paper provides a synthesis of recent research findings.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w21",
+      "word": "articulate",
+      "pronunciation": "/ɑːˈtɪkjʊleɪt/",
+      "meaning": "to express thoughts or ideas clearly and effectively",
+      "translation": "명확히 표현하다",
+      "example": "She articulated her concerns about the research methodology.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w22",
+      "word": "concomitant",
+      "pronunciation": "/kənˈkɒmɪtənt/",
+      "meaning": "naturally accompanying or associated with something",
+      "translation": "수반하는, 부수적인",
+      "example": "Economic growth often brings concomitant environmental challenges.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w23",
+      "word": "methodology",
+      "pronunciation": "/ˌmeθəˈdɒlədʒi/",
+      "meaning": "a system of methods used in a particular area of study",
+      "translation": "방법론, 연구 방법",
+      "example": "The research methodology was clearly outlined in the introduction.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w24",
+      "word": "stipulate",
+      "pronunciation": "/ˈstɪpjʊleɪt/",
+      "meaning": "to specify as a condition or requirement in an agreement",
+      "translation": "규정하다, 명시하다",
+      "example": "The contract stipulates that payment must be made within 30 days.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w25",
+      "word": "exemplify",
+      "pronunciation": "/ɪɡˈzemplɪfaɪ/",
+      "meaning": "to be a typical example of something",
+      "translation": "예시하다, 전형적으로 보여주다",
+      "example": "This case exemplifies the challenges facing modern educators.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w26",
+      "word": "juxtapose",
+      "pronunciation": "/ˌdʒʌkstəˈpəʊz/",
+      "meaning": "to place things side by side for comparison",
+      "translation": "병치하다, 나란히 놓다",
+      "example": "The author juxtaposes traditional and modern teaching methods.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w27",
+      "word": "inference",
+      "pronunciation": "/ˈɪnfərəns/",
+      "meaning": "a conclusion reached based on evidence and reasoning",
+      "translation": "추론, 추정",
+      "example": "The inference drawn from the data suggests a strong correlation.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w28",
+      "word": "constraint",
+      "pronunciation": "/kənˈstreɪnt/",
+      "meaning": "a limitation or restriction",
+      "translation": "제약, 한계",
+      "example": "Budget constraints forced the team to reconsider their approach.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w29",
+      "word": "ambiguous",
+      "pronunciation": "/æmˈbɪɡjuəs/",
+      "meaning": "open to more than one interpretation; unclear",
+      "translation": "애매한, 모호한",
+      "example": "The results were ambiguous and required further investigation.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w30",
+      "word": "expedite",
+      "pronunciation": "/ˈekspɪdaɪt/",
+      "meaning": "to make a process happen more quickly",
+      "translation": "신속히 처리하다",
+      "example": "We need to expedite the approval process for this proposal.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w31",
+      "word": "ascertain",
+      "pronunciation": "/ˌæsəˈteɪn/",
+      "meaning": "to discover or determine with certainty",
+      "translation": "확인하다, 알아내다",
+      "example": "Researchers are trying to ascertain the cause of the phenomenon.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w32",
+      "word": "tentative",
+      "pronunciation": "/ˈtentətɪv/",
+      "meaning": "not certain or fixed; provisional",
+      "translation": "잠정적인, 임시의",
+      "example": "The committee reached a tentative agreement on the proposal.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w33",
+      "word": "rigorous",
+      "pronunciation": "/ˈrɪɡərəs/",
+      "meaning": "extremely thorough and careful",
+      "translation": "엄격한, 철저한",
+      "example": "The study employed rigorous statistical methods.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w34",
+      "word": "plausible",
+      "pronunciation": "/ˈplɔːzəbl/",
+      "meaning": "seeming reasonable or probable",
+      "translation": "그럴듯한, 타당해 보이는",
+      "example": "She offered a plausible explanation for the unexpected results.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w35",
+      "word": "comprehensive",
+      "pronunciation": "/ˌkɒmprɪˈhensɪv/",
+      "meaning": "complete; including all or nearly all elements",
+      "translation": "종합적인, 포괄적인",
+      "example": "The report provides a comprehensive overview of the situation.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w36",
+      "word": "undermine",
+      "pronunciation": "/ˌʌndəˈmaɪn/",
+      "meaning": "to weaken or damage something gradually",
+      "translation": "약화시키다, 손상시키다",
+      "example": "These findings could undermine the credibility of previous research.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w37",
+      "word": "aggregate",
+      "pronunciation": "/ˈæɡrɪɡət/",
+      "meaning": "formed by combining several elements; total",
+      "translation": "집합체, 총계",
+      "example": "The aggregate data shows a clear trend over time.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w38",
+      "word": "preclude",
+      "pronunciation": "/prɪˈkluːd/",
+      "meaning": "to prevent something from happening; to make impossible",
+      "translation": "방해하다, 배제하다",
+      "example": "Budget limitations may preclude certain research options.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w39",
+      "word": "pivotal",
+      "pronunciation": "/ˈpɪvətl/",
+      "meaning": "of crucial importance in relation to development or success",
+      "translation": "중추적인, 핵심적인",
+      "example": "This discovery was pivotal in advancing our understanding.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w40",
+      "word": "ostensibly",
+      "pronunciation": "/ɒˈstensɪbli/",
+      "meaning": "apparently or purportedly, but perhaps not actually",
+      "translation": "표면상으로, 겉보기에",
+      "example": "The study was ostensibly about education but focused on economics.",
+      "partOfSpeech": "adverb"
+    },
+    {
+      "id": "w41",
+      "word": "adversary",
+      "pronunciation": "/ˈædvəsəri/",
+      "meaning": "one's opponent in a contest or conflict",
+      "translation": "적수, 대적자",
+      "example": "Academic debate requires respecting your intellectual adversary.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w42",
+      "word": "discourse",
+      "pronunciation": "/ˈdɪskɔːs/",
+      "meaning": "written or spoken communication or debate",
+      "translation": "담론, 담화",
+      "example": "Academic discourse requires precise and formal language.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w43",
+      "word": "meticulous",
+      "pronunciation": "/məˈtɪkjʊləs/",
+      "meaning": "showing great attention to detail; very careful",
+      "translation": "세심한, 꼼꼼한",
+      "example": "The researcher maintained meticulous records throughout the study.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w44",
+      "word": "feasible",
+      "pronunciation": "/ˈfiːzəbl/",
+      "meaning": "possible to do easily or conveniently",
+      "translation": "실행 가능한",
+      "example": "We need to determine whether this approach is feasible.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w45",
+      "word": "criterion",
+      "pronunciation": "/kraɪˈtɪəriən/",
+      "meaning": "a principle or standard by which something is judged",
+      "translation": "기준, 척도",
+      "example": "What criteria did you use to evaluate the proposals?",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w46",
+      "word": "supplement",
+      "pronunciation": "/ˈsʌplɪmənt/",
+      "meaning": "to add something to enhance or complete",
+      "translation": "보충하다, 추가하다",
+      "example": "The textbook is supplemented with online resources.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w47",
+      "word": "analogous",
+      "pronunciation": "/əˈnæləɡəs/",
+      "meaning": "comparable in certain respects; similar",
+      "translation": "유사한, 비슷한",
+      "example": "This situation is analogous to what we observed in previous studies.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w48",
+      "word": "facilitate",
+      "pronunciation": "/fəˈsɪlɪteɪt/",
+      "meaning": "to make an action or process easier",
+      "translation": "촉진하다, 용이하게 하다",
+      "example": "Technology can facilitate collaboration among researchers.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w49",
+      "word": "repudiate",
+      "pronunciation": "/rɪˈpjuːdieɪt/",
+      "meaning": "to refuse to accept or reject with denial",
+      "translation": "거부하다, 부인하다",
+      "example": "The author repudiated the accusations of plagiarism.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w50",
+      "word": "implications",
+      "pronunciation": "/ˌɪmplɪˈkeɪʃənz/",
+      "meaning": "conclusions that can be drawn from something; consequences",
+      "translation": "함축, 영향",
+      "example": "The findings have significant implications for future research.",
+      "partOfSpeech": "noun"
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "What does 'paradigm' mean?",
+      "options": [
+        "A framework of ideas or model",
+        "A complicated problem",
+        "A scientific instrument",
+        "A type of research method"
+      ],
+      "answer": "A framework of ideas or model"
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "Which word means 'to make something clear'?",
+      "options": [
+        "elucidate",
+        "obfuscate",
+        "complicate",
+        "confuse"
+      ],
+      "answer": "elucidate"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "What type of evidence is based on observation rather than theory?",
+      "options": [
+        "empirical",
+        "hypothetical",
+        "theoretical",
+        "speculative"
+      ],
+      "answer": "empirical"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "If something is 'nuanced', it is:",
+      "options": [
+        "characterized by subtle differences",
+        "simple and straightforward",
+        "complicated and confusing",
+        "obvious and clear"
+      ],
+      "answer": "characterized by subtle differences"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "What does 'corroborate' mean?",
+      "options": [
+        "to confirm or support",
+        "to deny or reject",
+        "to question or doubt",
+        "to ignore or dismiss"
+      ],
+      "answer": "to confirm or support"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "Something that is 'unprecedented' is:",
+      "options": [
+        "never done before",
+        "commonly occurring",
+        "easily predictable",
+        "well-established"
+      ],
+      "answer": "never done before"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "Which word means 'to examine closely'?",
+      "options": [
+        "scrutinize",
+        "ignore",
+        "overlook",
+        "dismiss"
+      ],
+      "answer": "scrutinize"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "An 'inherent' quality is one that:",
+      "options": [
+        "exists naturally as part of something",
+        "is added from outside",
+        "is temporary",
+        "can be easily removed"
+      ],
+      "answer": "exists naturally as part of something"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "What does 'reconcile' mean?",
+      "options": [
+        "to make compatible",
+        "to separate",
+        "to complicate",
+        "to destroy"
+      ],
+      "answer": "to make compatible"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "'Pertinent' information is:",
+      "options": [
+        "relevant and applicable",
+        "irrelevant and useless",
+        "confusing and unclear",
+        "outdated and obsolete"
+      ],
+      "answer": "relevant and applicable"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "Which word means 'to describe precisely'?",
+      "options": [
+        "delineate",
+        "obscure",
+        "confuse",
+        "generalize"
+      ],
+      "answer": "delineate"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "What is 'proliferation'?",
+      "options": [
+        "rapid increase or spread",
+        "gradual decrease",
+        "complete elimination",
+        "stable maintenance"
+      ],
+      "answer": "rapid increase or spread"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "To 'substantiate' a claim means to:",
+      "options": [
+        "provide evidence to support it",
+        "reject it completely",
+        "question its validity",
+        "ignore it entirely"
+      ],
+      "answer": "provide evidence to support it"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "A 'cogent' argument is:",
+      "options": [
+        "clear, logical, and convincing",
+        "weak and unconvincing",
+        "confusing and unclear",
+        "irrelevant and pointless"
+      ],
+      "answer": "clear, logical, and convincing"
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "Something 'ubiquitous' is:",
+      "options": [
+        "found everywhere",
+        "extremely rare",
+        "completely absent",
+        "occasionally seen"
+      ],
+      "answer": "found everywhere"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "A 'discrepancy' is:",
+      "options": [
+        "a difference or inconsistency",
+        "perfect agreement",
+        "complete harmony",
+        "exact match"
+      ],
+      "answer": "a difference or inconsistency"
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "What does 'postulate' mean?",
+      "options": [
+        "to assume as a basis for reasoning",
+        "to prove conclusively",
+        "to reject completely",
+        "to ignore deliberately"
+      ],
+      "answer": "to assume as a basis for reasoning"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "'Tangible' results are:",
+      "options": [
+        "clear and definite",
+        "vague and uncertain",
+        "invisible and abstract",
+        "imaginary and false"
+      ],
+      "answer": "clear and definite"
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "An 'arbitrary' decision is based on:",
+      "options": [
+        "random choice rather than reason",
+        "careful analysis",
+        "logical reasoning",
+        "scientific evidence"
+      ],
+      "answer": "random choice rather than reason"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "What is a 'synthesis'?",
+      "options": [
+        "combination of components into a whole",
+        "separation into parts",
+        "complete destruction",
+        "individual element"
+      ],
+      "answer": "combination of components into a whole"
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "To 'articulate' means to:",
+      "options": [
+        "express clearly and effectively",
+        "speak unclearly",
+        "remain silent",
+        "write illegibly"
+      ],
+      "answer": "express clearly and effectively"
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "A 'concomitant' effect is:",
+      "options": [
+        "naturally accompanying something",
+        "completely unrelated",
+        "happening much later",
+        "occurring before"
+      ],
+      "answer": "naturally accompanying something"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "What is 'methodology'?",
+      "options": [
+        "a system of methods used in study",
+        "a single technique",
+        "a random approach",
+        "an accidental discovery"
+      ],
+      "answer": "a system of methods used in study"
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "To 'stipulate' means to:",
+      "options": [
+        "specify as a condition",
+        "suggest vaguely",
+        "ignore completely",
+        "forget intentionally"
+      ],
+      "answer": "specify as a condition"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "Which word means 'to be a typical example'?",
+      "options": [
+        "exemplify",
+        "contradict",
+        "oppose",
+        "differ"
+      ],
+      "answer": "exemplify"
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "To 'juxtapose' means to:",
+      "options": [
+        "place side by side for comparison",
+        "separate completely",
+        "hide from view",
+        "destroy entirely"
+      ],
+      "answer": "place side by side for comparison"
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "An 'inference' is:",
+      "options": [
+        "a conclusion based on evidence",
+        "a random guess",
+        "an obvious fact",
+        "a proven theorem"
+      ],
+      "answer": "a conclusion based on evidence"
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "A 'constraint' is:",
+      "options": [
+        "a limitation or restriction",
+        "unlimited freedom",
+        "complete access",
+        "total control"
+      ],
+      "answer": "a limitation or restriction"
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "Something 'ambiguous' is:",
+      "options": [
+        "open to multiple interpretations",
+        "perfectly clear",
+        "absolutely certain",
+        "completely obvious"
+      ],
+      "answer": "open to multiple interpretations"
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "To 'expedite' means to:",
+      "options": [
+        "make a process happen more quickly",
+        "slow something down",
+        "stop something completely",
+        "maintain current speed"
+      ],
+      "answer": "make a process happen more quickly"
+    },
+    {
+      "id": "ex31",
+      "type": "multiple_choice",
+      "question": "To 'ascertain' means to:",
+      "options": [
+        "discover with certainty",
+        "guess randomly",
+        "ignore deliberately",
+        "forget completely"
+      ],
+      "answer": "discover with certainty"
+    },
+    {
+      "id": "ex32",
+      "type": "multiple_choice",
+      "question": "A 'tentative' agreement is:",
+      "options": [
+        "not certain or fixed",
+        "absolutely final",
+        "completely binding",
+        "permanently established"
+      ],
+      "answer": "not certain or fixed"
+    },
+    {
+      "id": "ex33",
+      "type": "multiple_choice",
+      "question": "'Rigorous' methods are:",
+      "options": [
+        "extremely thorough and careful",
+        "careless and sloppy",
+        "quick and superficial",
+        "random and haphazard"
+      ],
+      "answer": "extremely thorough and careful"
+    },
+    {
+      "id": "ex34",
+      "type": "multiple_choice",
+      "question": "A 'plausible' explanation is:",
+      "options": [
+        "seeming reasonable or probable",
+        "clearly impossible",
+        "obviously false",
+        "definitely incorrect"
+      ],
+      "answer": "seeming reasonable or probable"
+    },
+    {
+      "id": "ex35",
+      "type": "multiple_choice",
+      "question": "A 'comprehensive' report is:",
+      "options": [
+        "complete and all-inclusive",
+        "partial and incomplete",
+        "brief and minimal",
+        "superficial and shallow"
+      ],
+      "answer": "complete and all-inclusive"
+    },
+    {
+      "id": "ex36",
+      "type": "multiple_choice",
+      "question": "To 'undermine' means to:",
+      "options": [
+        "weaken or damage gradually",
+        "strengthen and support",
+        "build and construct",
+        "reinforce and fortify"
+      ],
+      "answer": "weaken or damage gradually"
+    },
+    {
+      "id": "ex37",
+      "type": "multiple_choice",
+      "question": "An 'aggregate' is:",
+      "options": [
+        "a total formed by combining elements",
+        "a single item",
+        "an individual part",
+        "a separate component"
+      ],
+      "answer": "a total formed by combining elements"
+    },
+    {
+      "id": "ex38",
+      "type": "multiple_choice",
+      "question": "To 'preclude' means to:",
+      "options": [
+        "prevent from happening",
+        "encourage strongly",
+        "facilitate easily",
+        "promote actively"
+      ],
+      "answer": "prevent from happening"
+    },
+    {
+      "id": "ex39",
+      "type": "multiple_choice",
+      "question": "Something 'pivotal' is:",
+      "options": [
+        "of crucial importance",
+        "completely unimportant",
+        "slightly relevant",
+        "totally irrelevant"
+      ],
+      "answer": "of crucial importance"
+    },
+    {
+      "id": "ex40",
+      "type": "multiple_choice",
+      "question": "'Ostensibly' means:",
+      "options": [
+        "apparently but perhaps not actually",
+        "definitely and certainly",
+        "obviously and clearly",
+        "undoubtedly and truly"
+      ],
+      "answer": "apparently but perhaps not actually"
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "This discovery represents a _____ shift in our understanding.",
+      "answer": "paradigm"
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "The professor _____ the complex theory with simple examples.",
+      "answer": "elucidated"
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "The hypothesis must be supported by _____ evidence.",
+      "answer": "empirical"
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "Her _____ analysis revealed hidden complexities in the data.",
+      "answer": "nuanced"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "Multiple witnesses _____ the defendant's alibi.",
+      "answer": "corroborated"
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "The pandemic created _____ challenges for global healthcare.",
+      "answer": "unprecedented"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "The committee will _____ every aspect of the proposal.",
+      "answer": "scrutinize"
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "There are _____ risks in any investment strategy.",
+      "answer": "inherent"
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "Scientists are trying to _____ these contradictory findings.",
+      "answer": "reconcile"
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "Please only include _____ information in your report.",
+      "answer": "pertinent"
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "The report _____ the boundaries of the research scope.",
+      "answer": "delineates"
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "The _____ of misinformation poses a serious threat.",
+      "answer": "proliferation"
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "The researcher failed to _____ her controversial claims.",
+      "answer": "substantiate"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "She presented a _____ argument for policy reform.",
+      "answer": "cogent"
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "Smartphones have become _____ in modern society.",
+      "answer": "ubiquitous"
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "There was a _____ between the two reports.",
+      "answer": "discrepancy"
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "The theory _____ the existence of dark matter.",
+      "answer": "postulates"
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "We need _____ results to secure further funding.",
+      "answer": "tangible"
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "The decision seemed _____ and unfair.",
+      "answer": "arbitrary"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "The paper provides a _____ of recent research findings.",
+      "answer": "synthesis"
+    },
+    {
+      "id": "ex61",
+      "type": "fill_blank",
+      "question": "She _____ her concerns about the research methodology.",
+      "answer": "articulated"
+    },
+    {
+      "id": "ex62",
+      "type": "fill_blank",
+      "question": "Economic growth often brings _____ environmental challenges.",
+      "answer": "concomitant"
+    },
+    {
+      "id": "ex63",
+      "type": "fill_blank",
+      "question": "The research _____ was clearly outlined in the introduction.",
+      "answer": "methodology"
+    },
+    {
+      "id": "ex64",
+      "type": "fill_blank",
+      "question": "The contract _____ that payment must be made within 30 days.",
+      "answer": "stipulates"
+    },
+    {
+      "id": "ex65",
+      "type": "fill_blank",
+      "question": "This case _____ the challenges facing modern educators.",
+      "answer": "exemplifies"
+    },
+    {
+      "id": "ex66",
+      "type": "fill_blank",
+      "question": "The author _____ traditional and modern teaching methods.",
+      "answer": "juxtaposes"
+    },
+    {
+      "id": "ex67",
+      "type": "fill_blank",
+      "question": "The _____ drawn from the data suggests a strong correlation.",
+      "answer": "inference"
+    },
+    {
+      "id": "ex68",
+      "type": "fill_blank",
+      "question": "Budget _____ forced the team to reconsider their approach.",
+      "answer": "constraints"
+    },
+    {
+      "id": "ex69",
+      "type": "fill_blank",
+      "question": "The results were _____ and required further investigation.",
+      "answer": "ambiguous"
+    },
+    {
+      "id": "ex70",
+      "type": "fill_blank",
+      "question": "We need to _____ the approval process for this proposal.",
+      "answer": "expedite"
+    },
+    {
+      "id": "ex71",
+      "type": "fill_blank",
+      "question": "Researchers are trying to _____ the cause of the phenomenon.",
+      "answer": "ascertain"
+    },
+    {
+      "id": "ex72",
+      "type": "fill_blank",
+      "question": "The committee reached a _____ agreement on the proposal.",
+      "answer": "tentative"
+    },
+    {
+      "id": "ex73",
+      "type": "fill_blank",
+      "question": "The study employed _____ statistical methods.",
+      "answer": "rigorous"
+    },
+    {
+      "id": "ex74",
+      "type": "fill_blank",
+      "question": "She offered a _____ explanation for the unexpected results.",
+      "answer": "plausible"
+    },
+    {
+      "id": "ex75",
+      "type": "fill_blank",
+      "question": "The report provides a _____ overview of the situation.",
+      "answer": "comprehensive"
+    },
+    {
+      "id": "ex76",
+      "type": "fill_blank",
+      "question": "These findings could _____ the credibility of previous research.",
+      "answer": "undermine"
+    },
+    {
+      "id": "ex77",
+      "type": "fill_blank",
+      "question": "The _____ data shows a clear trend over time.",
+      "answer": "aggregate"
+    },
+    {
+      "id": "ex78",
+      "type": "fill_blank",
+      "question": "Budget limitations may _____ certain research options.",
+      "answer": "preclude"
+    },
+    {
+      "id": "ex79",
+      "type": "fill_blank",
+      "question": "This discovery was _____ in advancing our understanding.",
+      "answer": "pivotal"
+    },
+    {
+      "id": "ex80",
+      "type": "fill_blank",
+      "question": "The study was _____ about education but focused on economics.",
+      "answer": "ostensibly"
+    },
+    {
+      "id": "ex81",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "paradigm",
+          "match": "a framework of ideas"
+        },
+        {
+          "word": "elucidate",
+          "match": "to make something clear"
+        },
+        {
+          "word": "empirical",
+          "match": "based on observation"
+        },
+        {
+          "word": "nuanced",
+          "match": "having subtle differences"
+        }
+      ]
+    },
+    {
+      "id": "ex82",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "corroborate",
+          "match": "to confirm or support"
+        },
+        {
+          "word": "unprecedented",
+          "match": "never done before"
+        },
+        {
+          "word": "scrutinize",
+          "match": "to examine closely"
+        },
+        {
+          "word": "inherent",
+          "match": "naturally existing"
+        }
+      ]
+    },
+    {
+      "id": "ex83",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "reconcile",
+          "match": "to make compatible"
+        },
+        {
+          "word": "pertinent",
+          "match": "relevant and applicable"
+        },
+        {
+          "word": "delineate",
+          "match": "to describe precisely"
+        },
+        {
+          "word": "proliferation",
+          "match": "rapid increase"
+        }
+      ]
+    },
+    {
+      "id": "ex84",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "substantiate",
+          "match": "to provide evidence"
+        },
+        {
+          "word": "cogent",
+          "match": "clear and convincing"
+        },
+        {
+          "word": "ubiquitous",
+          "match": "found everywhere"
+        },
+        {
+          "word": "discrepancy",
+          "match": "a difference or inconsistency"
+        }
+      ]
+    },
+    {
+      "id": "ex85",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "postulate",
+          "match": "to assume as basis"
+        },
+        {
+          "word": "tangible",
+          "match": "clear and definite"
+        },
+        {
+          "word": "arbitrary",
+          "match": "based on random choice"
+        },
+        {
+          "word": "synthesis",
+          "match": "combination into whole"
+        }
+      ]
+    },
+    {
+      "id": "ex86",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "articulate",
+          "match": "to express clearly"
+        },
+        {
+          "word": "concomitant",
+          "match": "naturally accompanying"
+        },
+        {
+          "word": "methodology",
+          "match": "system of methods"
+        },
+        {
+          "word": "stipulate",
+          "match": "to specify as condition"
+        }
+      ]
+    },
+    {
+      "id": "ex87",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "exemplify",
+          "match": "to be typical example"
+        },
+        {
+          "word": "juxtapose",
+          "match": "to place side by side"
+        },
+        {
+          "word": "inference",
+          "match": "conclusion from evidence"
+        },
+        {
+          "word": "constraint",
+          "match": "a limitation"
+        }
+      ]
+    },
+    {
+      "id": "ex88",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "ambiguous",
+          "match": "open to multiple interpretations"
+        },
+        {
+          "word": "expedite",
+          "match": "to make faster"
+        },
+        {
+          "word": "ascertain",
+          "match": "to discover with certainty"
+        },
+        {
+          "word": "tentative",
+          "match": "not certain or fixed"
+        }
+      ]
+    },
+    {
+      "id": "ex89",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "rigorous",
+          "match": "extremely thorough"
+        },
+        {
+          "word": "plausible",
+          "match": "seeming reasonable"
+        },
+        {
+          "word": "comprehensive",
+          "match": "complete and all-inclusive"
+        },
+        {
+          "word": "undermine",
+          "match": "to weaken gradually"
+        }
+      ]
+    },
+    {
+      "id": "ex90",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "aggregate",
+          "match": "combined total"
+        },
+        {
+          "word": "preclude",
+          "match": "to prevent"
+        },
+        {
+          "word": "pivotal",
+          "match": "crucially important"
+        },
+        {
+          "word": "ostensibly",
+          "match": "apparently but not actually"
+        }
+      ]
+    },
+    {
+      "id": "ex91",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "adversary",
+          "match": "an opponent"
+        },
+        {
+          "word": "discourse",
+          "match": "written or spoken communication"
+        },
+        {
+          "word": "meticulous",
+          "match": "showing great attention to detail"
+        },
+        {
+          "word": "feasible",
+          "match": "possible to do"
+        }
+      ]
+    },
+    {
+      "id": "ex92",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "criterion",
+          "match": "a standard for judgment"
+        },
+        {
+          "word": "supplement",
+          "match": "to add to enhance"
+        },
+        {
+          "word": "analogous",
+          "match": "comparable or similar"
+        },
+        {
+          "word": "facilitate",
+          "match": "to make easier"
+        }
+      ]
+    },
+    {
+      "id": "ex93",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "repudiate",
+          "match": "to refuse to accept"
+        },
+        {
+          "word": "implications",
+          "match": "conclusions or consequences"
+        },
+        {
+          "word": "paradigm",
+          "match": "a model or framework"
+        },
+        {
+          "word": "elucidate",
+          "match": "to explain clearly"
+        }
+      ]
+    },
+    {
+      "id": "ex94",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "empirical",
+          "match": "based on experience"
+        },
+        {
+          "word": "nuanced",
+          "match": "subtle and refined"
+        },
+        {
+          "word": "corroborate",
+          "match": "to confirm"
+        },
+        {
+          "word": "unprecedented",
+          "match": "without precedent"
+        }
+      ]
+    },
+    {
+      "id": "ex95",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "scrutinize",
+          "match": "to examine thoroughly"
+        },
+        {
+          "word": "inherent",
+          "match": "existing naturally"
+        },
+        {
+          "word": "reconcile",
+          "match": "to resolve differences"
+        },
+        {
+          "word": "pertinent",
+          "match": "relevant to the matter"
+        }
+      ]
+    },
+    {
+      "id": "ex96",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "delineate",
+          "match": "to outline clearly"
+        },
+        {
+          "word": "proliferation",
+          "match": "rapid multiplication"
+        },
+        {
+          "word": "substantiate",
+          "match": "to prove with evidence"
+        },
+        {
+          "word": "cogent",
+          "match": "logically persuasive"
+        }
+      ]
+    },
+    {
+      "id": "ex97",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "ubiquitous",
+          "match": "present everywhere"
+        },
+        {
+          "word": "discrepancy",
+          "match": "lack of agreement"
+        },
+        {
+          "word": "postulate",
+          "match": "to propose as true"
+        },
+        {
+          "word": "tangible",
+          "match": "perceptible and real"
+        }
+      ]
+    },
+    {
+      "id": "ex98",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "arbitrary",
+          "match": "random and unreasoned"
+        },
+        {
+          "word": "synthesis",
+          "match": "unified combination"
+        },
+        {
+          "word": "articulate",
+          "match": "to express fluently"
+        },
+        {
+          "word": "concomitant",
+          "match": "occurring together"
+        }
+      ]
+    },
+    {
+      "id": "ex99",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "methodology",
+          "match": "systematic approach"
+        },
+        {
+          "word": "stipulate",
+          "match": "to demand as part of agreement"
+        },
+        {
+          "word": "exemplify",
+          "match": "to serve as example"
+        },
+        {
+          "word": "juxtapose",
+          "match": "to compare by placing together"
+        }
+      ]
+    },
+    {
+      "id": "ex100",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "inference",
+          "match": "logical deduction"
+        },
+        {
+          "word": "constraint",
+          "match": "restricting condition"
+        },
+        {
+          "word": "ambiguous",
+          "match": "unclear in meaning"
+        },
+        {
+          "word": "expedite",
+          "match": "to speed up"
+        }
+      ]
+    },
+    {
+      "id": "ex101",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "ascertain",
+          "match": "to find out definitely"
+        },
+        {
+          "word": "tentative",
+          "match": "provisional and uncertain"
+        },
+        {
+          "word": "rigorous",
+          "match": "strictly precise"
+        },
+        {
+          "word": "plausible",
+          "match": "believable and credible"
+        }
+      ]
+    },
+    {
+      "id": "ex102",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "comprehensive",
+          "match": "thorough and extensive"
+        },
+        {
+          "word": "undermine",
+          "match": "to weaken effectiveness"
+        },
+        {
+          "word": "aggregate",
+          "match": "collected whole"
+        },
+        {
+          "word": "preclude",
+          "match": "to make impossible"
+        }
+      ]
+    },
+    {
+      "id": "ex103",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "pivotal",
+          "match": "vitally important"
+        },
+        {
+          "word": "ostensibly",
+          "match": "seemingly but not necessarily"
+        },
+        {
+          "word": "adversary",
+          "match": "opponent or enemy"
+        },
+        {
+          "word": "discourse",
+          "match": "formal discussion"
+        }
+      ]
+    },
+    {
+      "id": "ex104",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "meticulous",
+          "match": "extremely careful"
+        },
+        {
+          "word": "feasible",
+          "match": "practically achievable"
+        },
+        {
+          "word": "criterion",
+          "match": "benchmark for evaluation"
+        },
+        {
+          "word": "supplement",
+          "match": "to add extra material"
+        }
+      ]
+    },
+    {
+      "id": "ex105",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "analogous",
+          "match": "similar in relevant respects"
+        },
+        {
+          "word": "facilitate",
+          "match": "to assist progress"
+        },
+        {
+          "word": "repudiate",
+          "match": "to deny or reject"
+        },
+        {
+          "word": "implications",
+          "match": "likely effects"
+        }
+      ]
+    },
+    {
+      "id": "ex106",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "paradigm",
+          "match": "conceptual framework"
+        },
+        {
+          "word": "tangible",
+          "match": "concrete and measurable"
+        },
+        {
+          "word": "synthesis",
+          "match": "integrated whole"
+        },
+        {
+          "word": "inference",
+          "match": "reasoned conclusion"
+        }
+      ]
+    },
+    {
+      "id": "ex107",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "methodology",
+          "match": "research procedures"
+        },
+        {
+          "word": "rigorous",
+          "match": "meticulously accurate"
+        },
+        {
+          "word": "comprehensive",
+          "match": "all-encompassing"
+        },
+        {
+          "word": "pivotal",
+          "match": "of decisive importance"
+        }
+      ]
+    },
+    {
+      "id": "ex108",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "discourse",
+          "match": "academic discussion"
+        },
+        {
+          "word": "criterion",
+          "match": "evaluative measure"
+        },
+        {
+          "word": "facilitate",
+          "match": "to enable"
+        },
+        {
+          "word": "implications",
+          "match": "potential consequences"
+        }
+      ]
+    },
+    {
+      "id": "ex109",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "elucidate",
+          "match": "to clarify"
+        },
+        {
+          "word": "substantiate",
+          "match": "to verify"
+        },
+        {
+          "word": "articulate",
+          "match": "to state clearly"
+        },
+        {
+          "word": "ascertain",
+          "match": "to determine"
+        }
+      ]
+    },
+    {
+      "id": "ex110",
+      "type": "matching",
+      "pairs": [
+        {
+          "word": "exemplify",
+          "match": "to illustrate by example"
+        },
+        {
+          "word": "juxtapose",
+          "match": "to contrast"
+        },
+        {
+          "word": "stipulate",
+          "match": "to require formally"
+        },
+        {
+          "word": "facilitate",
+          "match": "to simplify"
+        }
+      ]
+    },
+    {
+      "id": "ex111",
+      "type": "translation_ko_en",
+      "question": "이 발견은 우리의 유전학 이해에서 패러다임의 전환을 나타낸다.",
+      "answer": "This discovery represents a paradigm shift in our understanding of genetics."
+    },
+    {
+      "id": "ex112",
+      "type": "translation_ko_en",
+      "question": "교수는 간단한 예시로 복잡한 이론을 명확히 설명했다.",
+      "answer": "The professor elucidated the complex theory with simple examples."
+    },
+    {
+      "id": "ex113",
+      "type": "translation_ko_en",
+      "question": "가설은 경험적 증거로 뒷받침되어야 한다.",
+      "answer": "The hypothesis must be supported by empirical evidence."
+    },
+    {
+      "id": "ex114",
+      "type": "translation_ko_en",
+      "question": "여러 목격자들이 피고의 알리바이를 확증했다.",
+      "answer": "Multiple witnesses corroborated the defendant's alibi."
+    },
+    {
+      "id": "ex115",
+      "type": "translation_ko_en",
+      "question": "위원회는 제안서의 모든 측면을 면밀히 조사할 것이다.",
+      "answer": "The committee will scrutinize every aspect of the proposal."
+    },
+    {
+      "id": "ex116",
+      "type": "translation_ko_en",
+      "question": "과학자들은 이러한 모순된 발견들을 조화시키려고 노력하고 있다.",
+      "answer": "Scientists are trying to reconcile these contradictory findings."
+    },
+    {
+      "id": "ex117",
+      "type": "translation_ko_en",
+      "question": "연구원은 그녀의 논란이 되는 주장을 입증하는 데 실패했다.",
+      "answer": "The researcher failed to substantiate her controversial claims."
+    },
+    {
+      "id": "ex118",
+      "type": "translation_ko_en",
+      "question": "그녀는 정책 개혁을 위한 설득력 있는 주장을 제시했다.",
+      "answer": "She presented a cogent argument for policy reform."
+    },
+    {
+      "id": "ex119",
+      "type": "translation_ko_en",
+      "question": "스마트폰은 현대 사회에서 어디에나 있게 되었다.",
+      "answer": "Smartphones have become ubiquitous in modern society."
+    },
+    {
+      "id": "ex120",
+      "type": "translation_ko_en",
+      "question": "이론은 암흑 물질의 존재를 가정한다.",
+      "answer": "The theory postulates the existence of dark matter."
+    },
+    {
+      "id": "ex121",
+      "type": "translation_ko_en",
+      "question": "논문은 최근 연구 결과들의 종합을 제공한다.",
+      "answer": "The paper provides a synthesis of recent research findings."
+    },
+    {
+      "id": "ex122",
+      "type": "translation_ko_en",
+      "question": "그녀는 연구 방법론에 대한 우려를 명확히 표현했다.",
+      "answer": "She articulated her concerns about the research methodology."
+    },
+    {
+      "id": "ex123",
+      "type": "translation_ko_en",
+      "question": "경제 성장은 종종 수반하는 환경 문제를 가져온다.",
+      "answer": "Economic growth often brings concomitant environmental challenges."
+    },
+    {
+      "id": "ex124",
+      "type": "translation_ko_en",
+      "question": "계약서는 30일 이내에 지불해야 한다고 명시한다.",
+      "answer": "The contract stipulates that payment must be made within 30 days."
+    },
+    {
+      "id": "ex125",
+      "type": "translation_ko_en",
+      "question": "이 사례는 현대 교육자들이 직면한 도전들을 예시한다.",
+      "answer": "This case exemplifies the challenges facing modern educators."
+    },
+    {
+      "id": "ex126",
+      "type": "translation_ko_en",
+      "question": "예산 제약으로 팀은 접근 방식을 재고해야 했다.",
+      "answer": "Budget constraints forced the team to reconsider their approach."
+    },
+    {
+      "id": "ex127",
+      "type": "translation_ko_en",
+      "question": "우리는 이 제안서의 승인 절차를 신속히 처리해야 한다.",
+      "answer": "We need to expedite the approval process for this proposal."
+    },
+    {
+      "id": "ex128",
+      "type": "translation_ko_en",
+      "question": "연구자들은 현상의 원인을 확인하려고 노력하고 있다.",
+      "answer": "Researchers are trying to ascertain the cause of the phenomenon."
+    },
+    {
+      "id": "ex129",
+      "type": "translation_ko_en",
+      "question": "연구는 엄격한 통계적 방법을 사용했다.",
+      "answer": "The study employed rigorous statistical methods."
+    },
+    {
+      "id": "ex130",
+      "type": "translation_ko_en",
+      "question": "보고서는 상황에 대한 포괄적인 개요를 제공한다.",
+      "answer": "The report provides a comprehensive overview of the situation."
+    },
+    {
+      "id": "ex131",
+      "type": "translation_en_ko",
+      "question": "Her nuanced analysis revealed hidden complexities in the data.",
+      "answer": "그녀의 미묘한 분석은 데이터의 숨겨진 복잡성을 드러냈다."
+    },
+    {
+      "id": "ex132",
+      "type": "translation_en_ko",
+      "question": "The pandemic created unprecedented challenges for global healthcare.",
+      "answer": "팬데믹은 전 세계 보건의료에 전례 없는 도전을 만들었다."
+    },
+    {
+      "id": "ex133",
+      "type": "translation_en_ko",
+      "question": "There are inherent risks in any investment strategy.",
+      "answer": "어떤 투자 전략에도 본질적인 위험이 있다."
+    },
+    {
+      "id": "ex134",
+      "type": "translation_en_ko",
+      "question": "Please only include pertinent information in your report.",
+      "answer": "보고서에 적절한 정보만 포함해 주세요."
+    },
+    {
+      "id": "ex135",
+      "type": "translation_en_ko",
+      "question": "The report delineates the boundaries of the research scope.",
+      "answer": "보고서는 연구 범위의 경계를 서술한다."
+    },
+    {
+      "id": "ex136",
+      "type": "translation_en_ko",
+      "question": "The proliferation of misinformation poses a serious threat.",
+      "answer": "잘못된 정보의 확산은 심각한 위협이 된다."
+    },
+    {
+      "id": "ex137",
+      "type": "translation_en_ko",
+      "question": "There was a discrepancy between the two reports.",
+      "answer": "두 보고서 사이에 불일치가 있었다."
+    },
+    {
+      "id": "ex138",
+      "type": "translation_en_ko",
+      "question": "We need tangible results to secure further funding.",
+      "answer": "추가 자금을 확보하려면 명백한 결과가 필요하다."
+    },
+    {
+      "id": "ex139",
+      "type": "translation_en_ko",
+      "question": "The decision seemed arbitrary and unfair.",
+      "answer": "그 결정은 임의적이고 불공평해 보였다."
+    },
+    {
+      "id": "ex140",
+      "type": "translation_en_ko",
+      "question": "The research methodology was clearly outlined in the introduction.",
+      "answer": "연구 방법론은 서론에서 명확하게 설명되었다."
+    },
+    {
+      "id": "ex141",
+      "type": "translation_en_ko",
+      "question": "The author juxtaposes traditional and modern teaching methods.",
+      "answer": "저자는 전통적인 교수법과 현대적인 교수법을 병치한다."
+    },
+    {
+      "id": "ex142",
+      "type": "translation_en_ko",
+      "question": "The inference drawn from the data suggests a strong correlation.",
+      "answer": "데이터에서 도출된 추론은 강한 상관관계를 시사한다."
+    },
+    {
+      "id": "ex143",
+      "type": "translation_en_ko",
+      "question": "The results were ambiguous and required further investigation.",
+      "answer": "결과는 애매했고 추가 조사가 필요했다."
+    },
+    {
+      "id": "ex144",
+      "type": "translation_en_ko",
+      "question": "The committee reached a tentative agreement on the proposal.",
+      "answer": "위원회는 제안서에 대해 잠정적인 합의에 도달했다."
+    },
+    {
+      "id": "ex145",
+      "type": "translation_en_ko",
+      "question": "She offered a plausible explanation for the unexpected results.",
+      "answer": "그녀는 예상치 못한 결과에 대해 그럴듯한 설명을 제시했다."
+    },
+    {
+      "id": "ex146",
+      "type": "translation_en_ko",
+      "question": "These findings could undermine the credibility of previous research.",
+      "answer": "이러한 발견들은 이전 연구의 신뢰성을 약화시킬 수 있다."
+    },
+    {
+      "id": "ex147",
+      "type": "translation_en_ko",
+      "question": "The aggregate data shows a clear trend over time.",
+      "answer": "집합 데이터는 시간 경과에 따른 명확한 추세를 보여준다."
+    },
+    {
+      "id": "ex148",
+      "type": "translation_en_ko",
+      "question": "Budget limitations may preclude certain research options.",
+      "answer": "예산 제한은 특정 연구 옵션을 배제할 수 있다."
+    },
+    {
+      "id": "ex149",
+      "type": "translation_en_ko",
+      "question": "This discovery was pivotal in advancing our understanding.",
+      "answer": "이 발견은 우리의 이해를 발전시키는 데 중추적이었다."
+    },
+    {
+      "id": "ex150",
+      "type": "translation_en_ko",
+      "question": "The study was ostensibly about education but focused on economics.",
+      "answer": "연구는 표면상으로는 교육에 관한 것이었지만 경제학에 초점을 맞췄다."
+    }
+  ]
+}

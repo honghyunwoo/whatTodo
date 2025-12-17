@@ -1,0 +1,120 @@
+{
+  "id": "c2-speaking-week-5",
+  "type": "speaking",
+  "level": "C2",
+  "weekId": "week-5",
+  "title": "Philosophical Disputation and Academic Discourse",
+  "description": "Engaging in sophisticated philosophical debate and academic discussion",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c2-s5-s1",
+      "title": "The Art of Philosophical Questioning",
+      "description": "Formulating questions that advance philosophical inquiry",
+      "techniques": [
+        {
+          "type": "Clarificatory question",
+          "purpose": "Requesting precision on terms or claims",
+          "examples": [
+            "When you use the term 'knowledge,' are you assuming a justified true belief account, or something else?",
+            "Could you clarify what you mean by 'real' in this context?",
+            "I want to make sure I understand: is your claim that X is impossible, or merely that we have no evidence for it?"
+          ]
+        },
+        {
+          "type": "Implication question",
+          "purpose": "Drawing out consequences of a position",
+          "examples": [
+            "If that's right, doesn't it follow that...?",
+            "What are the implications of this view for...?",
+            "Wouldn't that commit you to also accepting...?"
+          ]
+        },
+        {
+          "type": "Counterexample probe",
+          "purpose": "Testing generality of claims",
+          "examples": [
+            "How would your account handle cases like...?",
+            "What about the situation where...? Does your principle still apply?",
+            "Consider this example: would that qualify as X on your view?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-s5-s2",
+      "title": "Responding to Objections",
+      "description": "Addressing challenges to your position constructively",
+      "strategies": [
+        {
+          "response": "Accept and accommodate",
+          "use": "When objection is valid but doesn't defeat main argument",
+          "example": "That's a fair point. I should modify my claim to exclude those cases. The revised formulation would be..."
+        },
+        {
+          "response": "Distinguish",
+          "use": "When objection conflates different meanings or cases",
+          "example": "I think we need to distinguish between X in the strong sense and X in the weak sense. My claim applies only to..."
+        },
+        {
+          "response": "Turn",
+          "use": "When objection actually supports your position",
+          "example": "Actually, I think that example supports rather than undermines my point. Notice that..."
+        },
+        {
+          "response": "Cost-benefit",
+          "use": "When objection identifies a cost but not a refutation",
+          "example": "You're right that my view has that consequence. The question is whether any alternative view does better. It seems to me that..."
+        }
+      ]
+    },
+    {
+      "id": "c2-s5-s3",
+      "title": "Metalevel Discussion",
+      "description": "Discussing the method and framework of inquiry itself",
+      "phrases": [
+        {
+          "function": "Shifting levels",
+          "expressions": [
+            "Before we continue, let's step back and consider what kind of question this is.",
+            "I want to raise a methodological point about how we're framing this issue.",
+            "Perhaps the disagreement is not substantive but concerns our criteria for..."
+          ]
+        },
+        {
+          "function": "Identifying presuppositions",
+          "expressions": [
+            "This argument seems to presuppose that... Is that assumption justified?",
+            "What would have to be true for this question to have a determinate answer?",
+            "We've been taking for granted that... Should we?"
+          ]
+        },
+        {
+          "function": "Reconciling positions",
+          "expressions": [
+            "Could our disagreement be reconciled if we distinguished between...?",
+            "Perhaps we're talking past each other because we're using different senses of...",
+            "What would it take for us to agree? Is there a shared framework we can appeal to?"
+          ]
+        }
+      ]
+    }
+  ],
+  "practiceScenarios": [
+    {
+      "id": "c2-s5-sc1",
+      "title": "Defending a Position",
+      "context": "You've argued that moral knowledge is possible. An objector claims that the existence of persistent moral disagreement shows that moral knowledge is impossible.",
+      "task": "Respond to this objection thoughtfully.",
+      "sampleResponse": "That's a common and initially compelling objection. But I think it proves too much. Consider: there's persistent disagreement in many domains where we're confident knowledge is possible—philosophy, history, even theoretical physics. The existence of disagreement doesn't by itself establish that no one has knowledge. Second, we should distinguish between disagreement on specific moral questions and disagreement about whether there's moral truth at all. Much apparent moral disagreement may stem from non-moral disagreements—about empirical facts or conceptual confusion—rather than fundamental value difference. Third, even if some moral questions lack determinate answers, that's compatible with there being moral knowledge about other questions. So the persistence of disagreement may show that complete moral knowledge is unattainable, but that's different from showing that moral knowledge as such is impossible."
+    },
+    {
+      "id": "c2-s5-sc2",
+      "title": "Clarifying a Complex Position",
+      "context": "Someone has mischaracterized your position on scientific realism as claiming that 'science is just opinion.'",
+      "task": "Correct the mischaracterization while clarifying your actual view.",
+      "sampleResponse": "I want to resist that characterization, which I think misses the nuance of what I'm arguing. I'm not claiming that science is 'just opinion' in the sense that any view is as good as any other. Scientific claims are constrained by evidence in ways that mere opinions are not. What I am suggesting is more limited: that the relationship between our theories and the world is more complex than naive realism suggests. When I express skepticism about whether we can know that unobservable entities like quarks exist as our theories describe them, I'm not saying that physics is arbitrary. I'm raising a question about what scientific success licenses us to infer. Scientists can have reliable methods for predicting observations without those methods guaranteeing metaphysical truth. The view I'm defending is sometimes called constructive empiricism: scientific theories aim at empirical adequacy—saving the phenomena—and that's a genuine and valuable achievement, even if it falls short of describing the deep structure of reality."
+    }
+  ]
+}

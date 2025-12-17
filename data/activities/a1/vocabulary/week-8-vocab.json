@@ -2,322 +2,2106 @@
   "id": "week-8-vocab",
   "weekId": "week-8",
   "type": "vocabulary",
-  "level": "B2",
-  "title": "수동태와 관계대명사 관련 어휘",
-  "description": "수동태와 관계대명사에 자주 사용되는 동사와 표현을 배웁니다.",
+  "level": "A1",
+  "title": "복습과 연결 어휘",
+  "description": "A1 마무리: 이전 주차에서 배운 어휘를 복습하고 문장을 연결하는 표현을 배웁니다.",
 
   "words": [
     {
       "id": "w1",
-      "word": "write",
+      "word": "Write",
       "pronunciation": "/raɪt/",
       "partOfSpeech": "verb",
       "meaning": "쓰다",
-      "example": "The book was written by a famous author.",
-      "exampleMeaning": "그 책은 유명한 작가에 의해 쓰여졌다.",
-      "pastParticiple": "written"
+      "example": "I write emails every day.",
+      "exampleMeaning": "나는 매일 이메일을 쓴다.",
+      "koreanPronunciationTip": "'라잇' - 'w'는 묵음",
+      "mnemonic": "Write = 쓰다 (wrote-written)",
+      "ingForm": "writing",
+      "confusableWords": [
+        { "word": "Right", "difference": "Write=쓰다, Right=오른쪽/맞는 (발음 동일)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She is writing a letter.", "meaning": "그녀는 편지를 쓰고 있다." }
+      ]
     },
     {
       "id": "w2",
-      "word": "make",
+      "word": "Make",
       "pronunciation": "/meɪk/",
       "partOfSpeech": "verb",
       "meaning": "만들다",
-      "example": "This car was made in Japan.",
-      "exampleMeaning": "이 차는 일본에서 만들어졌다.",
-      "pastParticiple": "made"
+      "example": "I make breakfast every morning.",
+      "exampleMeaning": "나는 매일 아침 아침식사를 만든다.",
+      "koreanPronunciationTip": "'메이크' - '에이' 길게",
+      "mnemonic": "Make = 만들다 (made-made)",
+      "ingForm": "making",
+      "confusableWords": [
+        { "word": "Do", "difference": "Make=만들다/생성, Do=하다/행동" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She makes delicious cakes.", "meaning": "그녀는 맛있는 케이크를 만든다." }
+      ]
     },
     {
       "id": "w3",
-      "word": "build",
+      "word": "Build",
       "pronunciation": "/bɪld/",
       "partOfSpeech": "verb",
       "meaning": "짓다, 건설하다",
-      "example": "The house will be built next year.",
-      "exampleMeaning": "그 집은 내년에 지어질 것이다.",
-      "pastParticiple": "built"
+      "example": "They are building a new school.",
+      "exampleMeaning": "그들은 새 학교를 짓고 있다.",
+      "koreanPronunciationTip": "'빌드' - 짧게",
+      "mnemonic": "Build = 짓다 (built-built)",
+      "ingForm": "building",
+      "additionalExamples": [
+        { "sentence": "He built a house last year.", "meaning": "그는 작년에 집을 지었다." }
+      ]
     },
     {
       "id": "w4",
-      "word": "speak",
+      "word": "Speak",
       "pronunciation": "/spiːk/",
       "partOfSpeech": "verb",
       "meaning": "말하다",
-      "example": "English is spoken in many countries.",
-      "exampleMeaning": "영어는 많은 나라에서 사용된다.",
-      "pastParticiple": "spoken"
+      "example": "Can you speak English?",
+      "exampleMeaning": "영어를 할 수 있어요?",
+      "koreanPronunciationTip": "'스피크' - '이~' 길게",
+      "mnemonic": "Speak = 말하다 (spoke-spoken)",
+      "ingForm": "speaking",
+      "confusableWords": [
+        { "word": "Talk", "difference": "Speak=언어능력, Talk=대화하다" },
+        { "word": "Say", "difference": "Speak=말하다(동작), Say=말하다(내용)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She speaks three languages.", "meaning": "그녀는 세 개 국어를 한다." }
+      ]
     },
     {
       "id": "w5",
-      "word": "send",
+      "word": "Send",
       "pronunciation": "/send/",
       "partOfSpeech": "verb",
       "meaning": "보내다",
-      "example": "The letters have been sent already.",
-      "exampleMeaning": "편지들은 이미 보내졌다.",
-      "pastParticiple": "sent"
+      "example": "I will send you an email.",
+      "exampleMeaning": "이메일을 보내드릴게요.",
+      "koreanPronunciationTip": "'센드' - 짧게",
+      "mnemonic": "Send = 보내다 (sent-sent)",
+      "ingForm": "sending",
+      "additionalExamples": [
+        { "sentence": "She sent me a message.", "meaning": "그녀가 나에게 메시지를 보냈다." }
+      ]
     },
     {
       "id": "w6",
-      "word": "find",
+      "word": "Find",
       "pronunciation": "/faɪnd/",
       "partOfSpeech": "verb",
       "meaning": "찾다",
-      "example": "The missing keys were found in the car.",
-      "exampleMeaning": "잃어버린 열쇠가 차 안에서 발견되었다.",
-      "pastParticiple": "found"
+      "example": "I can't find my keys.",
+      "exampleMeaning": "내 열쇠를 찾을 수 없어요.",
+      "koreanPronunciationTip": "'파인드' - '아이' 강조",
+      "mnemonic": "Find = 찾다 (found-found)",
+      "ingForm": "finding",
+      "confusableWords": [
+        { "word": "Search", "difference": "Find=발견하다, Search=수색하다" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I found my wallet!", "meaning": "내 지갑을 찾았어!" }
+      ]
     },
     {
       "id": "w7",
-      "word": "sell",
+      "word": "Sell",
       "pronunciation": "/sel/",
       "partOfSpeech": "verb",
       "meaning": "팔다",
-      "example": "The house was sold last month.",
-      "exampleMeaning": "그 집은 지난달에 팔렸다.",
-      "pastParticiple": "sold"
+      "example": "They sell fresh fruits here.",
+      "exampleMeaning": "그들은 여기서 신선한 과일을 판다.",
+      "koreanPronunciationTip": "'셀' - 짧게",
+      "mnemonic": "Sell = 팔다 (sold-sold)",
+      "ingForm": "selling",
+      "confusableWords": [
+        { "word": "Buy", "difference": "Sell=팔다, Buy=사다 (반대)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "He sold his car.", "meaning": "그는 차를 팔았다." }
+      ]
     },
     {
       "id": "w8",
-      "word": "publish",
-      "pronunciation": "/ˈpʌblɪʃ/",
+      "word": "Give",
+      "pronunciation": "/ɡɪv/",
       "partOfSpeech": "verb",
-      "meaning": "출판하다",
-      "example": "The book was published in 2020.",
-      "exampleMeaning": "그 책은 2020년에 출판되었다.",
-      "pastParticiple": "published"
+      "meaning": "주다",
+      "example": "Please give me the book.",
+      "exampleMeaning": "책을 주세요.",
+      "koreanPronunciationTip": "'기브' - 짧게",
+      "mnemonic": "Give = 주다 (gave-given)",
+      "ingForm": "giving",
+      "confusableWords": [
+        { "word": "Get", "difference": "Give=주다, Get=받다 (반대)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She gave me a gift.", "meaning": "그녀가 나에게 선물을 주었다." }
+      ]
     },
     {
       "id": "w9",
-      "word": "create",
-      "pronunciation": "/kriˈeɪt/",
+      "word": "Take",
+      "pronunciation": "/teɪk/",
       "partOfSpeech": "verb",
-      "meaning": "창조하다, 만들다",
-      "example": "This design was created by a famous artist.",
-      "exampleMeaning": "이 디자인은 유명한 예술가에 의해 만들어졌다.",
-      "pastParticiple": "created"
+      "meaning": "가져가다, 걸리다",
+      "example": "I take the bus to work.",
+      "exampleMeaning": "나는 버스를 타고 출근한다.",
+      "koreanPronunciationTip": "'테이크' - '에이' 길게",
+      "mnemonic": "Take = 가져가다 (took-taken)",
+      "ingForm": "taking",
+      "confusableWords": [
+        { "word": "Bring", "difference": "Take=가져가다, Bring=가져오다" }
+      ],
+      "additionalExamples": [
+        { "sentence": "It takes 30 minutes.", "meaning": "30분 걸려요." }
+      ]
     },
     {
       "id": "w10",
-      "word": "design",
-      "pronunciation": "/dɪˈzaɪn/",
+      "word": "Tell",
+      "pronunciation": "/tel/",
       "partOfSpeech": "verb",
-      "meaning": "디자인하다",
-      "example": "The building was designed by a British architect.",
-      "exampleMeaning": "그 건물은 영국 건축가에 의해 설계되었다.",
-      "pastParticiple": "designed"
+      "meaning": "말하다, 알려주다",
+      "example": "Please tell me your name.",
+      "exampleMeaning": "이름을 알려주세요.",
+      "koreanPronunciationTip": "'텔' - 짧게",
+      "mnemonic": "Tell = 알려주다 (told-told)",
+      "ingForm": "telling",
+      "confusableWords": [
+        { "word": "Say", "difference": "Tell+사람+내용, Say+내용" }
+      ],
+      "additionalExamples": [
+        { "sentence": "He told me the news.", "meaning": "그가 나에게 소식을 알려줬다." }
+      ]
     },
     {
       "id": "w11",
-      "word": "direct",
-      "pronunciation": "/dəˈrekt/",
+      "word": "Show",
+      "pronunciation": "/ʃoʊ/",
       "partOfSpeech": "verb",
-      "meaning": "감독하다",
-      "example": "The movie was directed by Steven Spielberg.",
-      "exampleMeaning": "그 영화는 스티븐 스필버그에 의해 감독되었다.",
-      "pastParticiple": "directed"
+      "meaning": "보여주다",
+      "example": "Can you show me the way?",
+      "exampleMeaning": "길을 보여주시겠어요?",
+      "koreanPronunciationTip": "'쇼우' - '오우' 길게",
+      "mnemonic": "Show = 보여주다 (showed-shown)",
+      "ingForm": "showing",
+      "additionalExamples": [
+        { "sentence": "She showed me her photos.", "meaning": "그녀가 나에게 사진을 보여줬다." }
+      ]
     },
     {
       "id": "w12",
-      "word": "invent",
-      "pronunciation": "/ɪnˈvent/",
+      "word": "Think",
+      "pronunciation": "/θɪŋk/",
       "partOfSpeech": "verb",
-      "meaning": "발명하다",
-      "example": "The telephone was invented by Alexander Graham Bell.",
-      "exampleMeaning": "전화기는 알렉산더 그레이엄 벨에 의해 발명되었다.",
-      "pastParticiple": "invented"
+      "meaning": "생각하다",
+      "example": "I think you are right.",
+      "exampleMeaning": "네가 맞는 것 같아.",
+      "koreanPronunciationTip": "'씽크' - 'th' 혀 내밀기",
+      "mnemonic": "Think = 생각하다 (thought-thought)",
+      "ingForm": "thinking",
+      "additionalExamples": [
+        { "sentence": "What do you think?", "meaning": "어떻게 생각해?" }
+      ]
     },
     {
       "id": "w13",
-      "word": "discover",
-      "pronunciation": "/dɪˈskʌvər/",
+      "word": "Know",
+      "pronunciation": "/noʊ/",
       "partOfSpeech": "verb",
-      "meaning": "발견하다",
-      "example": "America was discovered by Columbus in 1492.",
-      "exampleMeaning": "아메리카는 1492년 콜럼버스에 의해 발견되었다.",
-      "pastParticiple": "discovered"
+      "meaning": "알다",
+      "example": "I know the answer.",
+      "exampleMeaning": "나는 답을 알아.",
+      "koreanPronunciationTip": "'노우' - 'k'는 묵음",
+      "mnemonic": "Know = 알다 (knew-known)",
+      "ingForm": "knowing",
+      "confusableWords": [
+        { "word": "No", "difference": "Know=알다, No=아니요 (발음 동일)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Do you know her?", "meaning": "그녀를 알아?" }
+      ]
     },
     {
       "id": "w14",
-      "word": "who",
-      "pronunciation": "/huː/",
-      "partOfSpeech": "pronoun",
-      "meaning": "~하는 (사람)",
-      "example": "The man who called you is my friend.",
-      "exampleMeaning": "당신에게 전화한 남자는 내 친구다.",
-      "note": "주격 관계대명사"
+      "word": "And",
+      "pronunciation": "/ænd/",
+      "partOfSpeech": "conjunction",
+      "meaning": "그리고",
+      "example": "I like coffee and tea.",
+      "exampleMeaning": "나는 커피와 차를 좋아한다.",
+      "koreanPronunciationTip": "'앤드' - '애' 짧게",
+      "mnemonic": "And = 그리고 (덧셈처럼 +)",
+      "additionalExamples": [
+        { "sentence": "He is tall and handsome.", "meaning": "그는 키가 크고 잘생겼다." }
+      ]
     },
     {
       "id": "w15",
-      "word": "which",
-      "pronunciation": "/wɪtʃ/",
-      "partOfSpeech": "pronoun",
-      "meaning": "~하는 (사물)",
-      "example": "The book which is on the table is mine.",
-      "exampleMeaning": "테이블 위에 있는 책은 내 것이다.",
-      "note": "관계대명사 (사물)"
+      "word": "But",
+      "pronunciation": "/bʌt/",
+      "partOfSpeech": "conjunction",
+      "meaning": "그러나, 하지만",
+      "example": "I want to go, but I'm tired.",
+      "exampleMeaning": "가고 싶지만, 피곤해.",
+      "koreanPronunciationTip": "'벗' - 짧게",
+      "mnemonic": "But = 하지만 (반전!)",
+      "additionalExamples": [
+        { "sentence": "It's small but nice.", "meaning": "작지만 좋다." }
+      ]
     },
     {
       "id": "w16",
-      "word": "that",
-      "pronunciation": "/ðæt/",
-      "partOfSpeech": "pronoun",
-      "meaning": "~하는 (사람/사물)",
-      "example": "This is the car that I bought.",
-      "exampleMeaning": "이것은 내가 산 차다.",
-      "note": "관계대명사 (사람/사물 모두)"
+      "word": "Or",
+      "pronunciation": "/ɔːr/",
+      "partOfSpeech": "conjunction",
+      "meaning": "또는",
+      "example": "Coffee or tea?",
+      "exampleMeaning": "커피 아니면 차?",
+      "koreanPronunciationTip": "'오어' - '어~' 길게",
+      "mnemonic": "Or = 또는 (선택)",
+      "additionalExamples": [
+        { "sentence": "Is it Monday or Tuesday?", "meaning": "월요일이야 화요일이야?" }
+      ]
     },
     {
       "id": "w17",
-      "word": "whose",
-      "pronunciation": "/huːz/",
-      "partOfSpeech": "pronoun",
-      "meaning": "~의",
-      "example": "The woman whose car is red lives here.",
-      "exampleMeaning": "차가 빨간색인 여자가 여기 산다.",
-      "note": "소유격 관계대명사"
+      "word": "So",
+      "pronunciation": "/soʊ/",
+      "partOfSpeech": "conjunction",
+      "meaning": "그래서",
+      "example": "I was tired, so I went to bed.",
+      "exampleMeaning": "피곤해서 잠자리에 들었다.",
+      "koreanPronunciationTip": "'소우' - '오우' 길게",
+      "mnemonic": "So = 그래서 (결과)",
+      "additionalExamples": [
+        { "sentence": "It was raining, so I stayed home.", "meaning": "비가 와서 집에 있었다." }
+      ]
     },
     {
       "id": "w18",
-      "word": "author",
-      "pronunciation": "/ˈɔːθər/",
-      "partOfSpeech": "noun",
-      "meaning": "작가, 저자",
-      "example": "The author who wrote this book is famous.",
-      "exampleMeaning": "이 책을 쓴 작가는 유명하다."
+      "word": "Because",
+      "pronunciation": "/bɪˈkɔːz/",
+      "partOfSpeech": "conjunction",
+      "meaning": "왜냐하면",
+      "example": "I'm happy because it's Friday.",
+      "exampleMeaning": "금요일이라서 행복해.",
+      "koreanPronunciationTip": "'비코즈' - '코~' 강조",
+      "mnemonic": "Because = 왜냐하면 (이유)",
+      "additionalExamples": [
+        { "sentence": "I stayed home because I was sick.", "meaning": "아파서 집에 있었다." }
+      ]
     },
     {
       "id": "w19",
-      "word": "film",
-      "pronunciation": "/fɪlm/",
-      "partOfSpeech": "noun",
-      "meaning": "영화",
-      "example": "The film that was released yesterday is popular.",
-      "exampleMeaning": "어제 개봉한 영화는 인기가 있다."
+      "word": "When",
+      "pronunciation": "/wen/",
+      "partOfSpeech": "conjunction",
+      "meaning": "~할 때",
+      "example": "Call me when you arrive.",
+      "exampleMeaning": "도착하면 전화해.",
+      "koreanPronunciationTip": "'웬' - 짧게",
+      "mnemonic": "When = ~할 때 (시간)",
+      "additionalExamples": [
+        { "sentence": "I was happy when I saw you.", "meaning": "널 봤을 때 행복했어." }
+      ]
     },
     {
       "id": "w20",
-      "word": "architect",
-      "pronunciation": "/ˈɑːrkɪtekt/",
-      "partOfSpeech": "noun",
-      "meaning": "건축가",
-      "example": "The architect whose design won is young.",
-      "exampleMeaning": "디자인이 수상한 건축가는 젊다."
+      "word": "If",
+      "pronunciation": "/ɪf/",
+      "partOfSpeech": "conjunction",
+      "meaning": "만약 ~라면",
+      "example": "If you need help, call me.",
+      "exampleMeaning": "도움이 필요하면 전화해.",
+      "koreanPronunciationTip": "'이프' - 짧게",
+      "mnemonic": "If = 만약 (조건)",
+      "additionalExamples": [
+        { "sentence": "If it rains, I'll stay home.", "meaning": "비가 오면 집에 있을 거야." }
+      ]
+    },
+    {
+      "id": "w21",
+      "word": "Before",
+      "pronunciation": "/bɪˈfɔːr/",
+      "partOfSpeech": "preposition/conjunction",
+      "meaning": "~전에",
+      "example": "Wash your hands before eating.",
+      "exampleMeaning": "먹기 전에 손을 씻어.",
+      "koreanPronunciationTip": "'비포어' - '포~' 강조",
+      "mnemonic": "Before = ~전에 (먼저)",
+      "confusableWords": [
+        { "word": "After", "difference": "Before=~전에, After=~후에 (반대)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I brush my teeth before bed.", "meaning": "잠자기 전에 양치를 한다." }
+      ]
+    },
+    {
+      "id": "w22",
+      "word": "After",
+      "pronunciation": "/ˈæftər/",
+      "partOfSpeech": "preposition/conjunction",
+      "meaning": "~후에",
+      "example": "I'll call you after work.",
+      "exampleMeaning": "퇴근 후에 전화할게.",
+      "koreanPronunciationTip": "'애프터' - '애' 강조",
+      "mnemonic": "After = ~후에 (나중에)",
+      "additionalExamples": [
+        { "sentence": "Let's meet after lunch.", "meaning": "점심 후에 만나자." }
+      ]
+    },
+    {
+      "id": "w23",
+      "word": "While",
+      "pronunciation": "/waɪl/",
+      "partOfSpeech": "conjunction",
+      "meaning": "~하는 동안",
+      "example": "I listen to music while I work.",
+      "exampleMeaning": "일하는 동안 음악을 듣는다.",
+      "koreanPronunciationTip": "'와일' - '아이' 강조",
+      "mnemonic": "While = ~하는 동안 (동시에)",
+      "additionalExamples": [
+        { "sentence": "Don't talk while eating.", "meaning": "먹는 동안 말하지 마." }
+      ]
+    },
+    {
+      "id": "w24",
+      "word": "First",
+      "pronunciation": "/fɜːrst/",
+      "partOfSpeech": "adverb/adjective",
+      "meaning": "먼저, 첫 번째",
+      "example": "First, wash your hands.",
+      "exampleMeaning": "먼저 손을 씻어.",
+      "koreanPronunciationTip": "'퍼스트' - '어~' 길게",
+      "mnemonic": "First = 첫 번째 (1st)",
+      "additionalExamples": [
+        { "sentence": "This is my first time.", "meaning": "이게 내 첫 번째야." }
+      ]
+    },
+    {
+      "id": "w25",
+      "word": "Then",
+      "pronunciation": "/ðen/",
+      "partOfSpeech": "adverb",
+      "meaning": "그 다음에, 그러면",
+      "example": "First study, then play.",
+      "exampleMeaning": "먼저 공부하고, 그 다음에 놀아.",
+      "koreanPronunciationTip": "'덴' - 'th' 혀 내밀기",
+      "mnemonic": "Then = 그 다음 (순서)",
+      "additionalExamples": [
+        { "sentence": "I ate, and then I slept.", "meaning": "먹고, 그 다음 잤다." }
+      ]
+    },
+    {
+      "id": "w26",
+      "word": "Also",
+      "pronunciation": "/ˈɔːlsoʊ/",
+      "partOfSpeech": "adverb",
+      "meaning": "또한, ~도",
+      "example": "I like coffee. I also like tea.",
+      "exampleMeaning": "나는 커피를 좋아해. 차도 좋아해.",
+      "koreanPronunciationTip": "'올소우' - '올' 강조",
+      "mnemonic": "Also = 또한 (+1)",
+      "confusableWords": [
+        { "word": "Too", "difference": "Also는 문장 중간, Too는 문장 끝" }
+      ],
+      "additionalExamples": [
+        { "sentence": "He is also a teacher.", "meaning": "그도 선생님이다." }
+      ]
+    },
+    {
+      "id": "w27",
+      "word": "Too",
+      "pronunciation": "/tuː/",
+      "partOfSpeech": "adverb",
+      "meaning": "~도, 너무",
+      "example": "I like pizza too.",
+      "exampleMeaning": "나도 피자 좋아해.",
+      "koreanPronunciationTip": "'투~' - 길게",
+      "mnemonic": "Too = ~도 (Me too!)",
+      "confusableWords": [
+        { "word": "Two", "difference": "Too=~도/너무, Two=2 (발음 동일)" },
+        { "word": "To", "difference": "Too=~도/너무, To=~에게/~으로 (발음 동일)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "It's too expensive.", "meaning": "너무 비싸." }
+      ]
+    },
+    {
+      "id": "w28",
+      "word": "Very",
+      "pronunciation": "/ˈveri/",
+      "partOfSpeech": "adverb",
+      "meaning": "매우",
+      "example": "This is very good.",
+      "exampleMeaning": "이것은 매우 좋다.",
+      "koreanPronunciationTip": "'베리' - 'v' 윗니로 아랫입술",
+      "mnemonic": "Very = 매우 (강조)",
+      "additionalExamples": [
+        { "sentence": "She is very kind.", "meaning": "그녀는 매우 친절하다." }
+      ]
+    },
+    {
+      "id": "w29",
+      "word": "Really",
+      "pronunciation": "/ˈriːəli/",
+      "partOfSpeech": "adverb",
+      "meaning": "정말로",
+      "example": "I really like this song.",
+      "exampleMeaning": "나는 이 노래를 정말 좋아해.",
+      "koreanPronunciationTip": "'리얼리' - '리~' 길게",
+      "mnemonic": "Really = 정말로 (진짜)",
+      "additionalExamples": [
+        { "sentence": "Is it really true?", "meaning": "그거 정말 사실이야?" }
+      ]
+    },
+    {
+      "id": "w30",
+      "word": "Just",
+      "pronunciation": "/dʒʌst/",
+      "partOfSpeech": "adverb",
+      "meaning": "단지, 방금",
+      "example": "I just arrived.",
+      "exampleMeaning": "방금 도착했어.",
+      "koreanPronunciationTip": "'저스트' - '저' 강조",
+      "mnemonic": "Just = 단지/방금 (딱!)",
+      "additionalExamples": [
+        { "sentence": "It's just a joke.", "meaning": "그냥 농담이야." }
+      ]
+    },
+    {
+      "id": "w31",
+      "word": "Only",
+      "pronunciation": "/ˈoʊnli/",
+      "partOfSpeech": "adverb/adjective",
+      "meaning": "오직, 단지",
+      "example": "I have only one brother.",
+      "exampleMeaning": "나는 형제가 한 명뿐이야.",
+      "koreanPronunciationTip": "'온리' - '온' 강조",
+      "mnemonic": "Only = 오직 (유일한)",
+      "additionalExamples": [
+        { "sentence": "It's the only way.", "meaning": "그게 유일한 방법이야." }
+      ]
+    },
+    {
+      "id": "w32",
+      "word": "Even",
+      "pronunciation": "/ˈiːvn/",
+      "partOfSpeech": "adverb",
+      "meaning": "심지어, ~조차",
+      "example": "Even children can do it.",
+      "exampleMeaning": "어린이도 할 수 있어.",
+      "koreanPronunciationTip": "'이븐' - '이~' 길게",
+      "mnemonic": "Even = 심지어 (놀람!)",
+      "additionalExamples": [
+        { "sentence": "I can't even walk.", "meaning": "걷지도 못해." }
+      ]
+    },
+    {
+      "id": "w33",
+      "word": "Almost",
+      "pronunciation": "/ˈɔːlmoʊst/",
+      "partOfSpeech": "adverb",
+      "meaning": "거의",
+      "example": "I'm almost done.",
+      "exampleMeaning": "거의 다 됐어.",
+      "koreanPronunciationTip": "'올모스트' - '올' 강조",
+      "mnemonic": "Almost = 거의 (조금만 더!)",
+      "additionalExamples": [
+        { "sentence": "It's almost 5 o'clock.", "meaning": "거의 5시야." }
+      ]
+    },
+    {
+      "id": "w34",
+      "word": "Enough",
+      "pronunciation": "/ɪˈnʌf/",
+      "partOfSpeech": "adverb/adjective",
+      "meaning": "충분히",
+      "example": "I have enough money.",
+      "exampleMeaning": "돈이 충분해.",
+      "koreanPronunciationTip": "'이너프' - '너' 강조",
+      "mnemonic": "Enough = 충분히 (OK!)",
+      "additionalExamples": [
+        { "sentence": "Is it big enough?", "meaning": "충분히 커?" }
+      ]
+    },
+    {
+      "id": "w35",
+      "word": "Here",
+      "pronunciation": "/hɪr/",
+      "partOfSpeech": "adverb",
+      "meaning": "여기",
+      "example": "Come here, please.",
+      "exampleMeaning": "여기로 와주세요.",
+      "koreanPronunciationTip": "'히어' - '이~' 강조",
+      "mnemonic": "Here = 여기 (이곳)",
+      "confusableWords": [
+        { "word": "Hear", "difference": "Here=여기, Hear=듣다 (발음 동일)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I live here.", "meaning": "나는 여기 살아." }
+      ]
+    },
+    {
+      "id": "w36",
+      "word": "There",
+      "pronunciation": "/ðer/",
+      "partOfSpeech": "adverb",
+      "meaning": "거기, 저기",
+      "example": "The book is over there.",
+      "exampleMeaning": "책은 저기에 있어.",
+      "koreanPronunciationTip": "'데어' - 'th' 혀 내밀기",
+      "mnemonic": "There = 거기 (저곳)",
+      "confusableWords": [
+        { "word": "Their", "difference": "There=거기, Their=그들의 (발음 동일)" },
+        { "word": "They're", "difference": "There=거기, They're=그들은 (발음 동일)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Go there.", "meaning": "거기로 가." }
+      ]
+    },
+    {
+      "id": "w37",
+      "word": "Where",
+      "pronunciation": "/wer/",
+      "partOfSpeech": "adverb",
+      "meaning": "어디",
+      "example": "Where do you live?",
+      "exampleMeaning": "어디 살아?",
+      "koreanPronunciationTip": "'웨어' - '웨' 강조",
+      "mnemonic": "Where = 어디 (장소 질문)",
+      "additionalExamples": [
+        { "sentence": "Where is the station?", "meaning": "역이 어디야?" }
+      ]
+    },
+    {
+      "id": "w38",
+      "word": "Why",
+      "pronunciation": "/waɪ/",
+      "partOfSpeech": "adverb",
+      "meaning": "왜",
+      "example": "Why are you late?",
+      "exampleMeaning": "왜 늦었어?",
+      "koreanPronunciationTip": "'와이' - '아이' 강조",
+      "mnemonic": "Why = 왜 (이유 질문)",
+      "additionalExamples": [
+        { "sentence": "Why not?", "meaning": "왜 안 돼?" }
+      ]
+    },
+    {
+      "id": "w39",
+      "word": "How",
+      "pronunciation": "/haʊ/",
+      "partOfSpeech": "adverb",
+      "meaning": "어떻게",
+      "example": "How are you?",
+      "exampleMeaning": "어떻게 지내?",
+      "koreanPronunciationTip": "'하우' - '아우' 강조",
+      "mnemonic": "How = 어떻게 (방법 질문)",
+      "additionalExamples": [
+        { "sentence": "How do you spell it?", "meaning": "어떻게 철자해?" }
+      ]
+    },
+    {
+      "id": "w40",
+      "word": "What",
+      "pronunciation": "/wɑːt/",
+      "partOfSpeech": "pronoun",
+      "meaning": "무엇",
+      "example": "What is your name?",
+      "exampleMeaning": "이름이 뭐야?",
+      "koreanPronunciationTip": "'왓' - 짧게",
+      "mnemonic": "What = 무엇 (사물 질문)",
+      "additionalExamples": [
+        { "sentence": "What time is it?", "meaning": "몇 시야?" }
+      ]
+    },
+    {
+      "id": "w41",
+      "word": "Who",
+      "pronunciation": "/huː/",
+      "partOfSpeech": "pronoun",
+      "meaning": "누구",
+      "example": "Who is she?",
+      "exampleMeaning": "그녀는 누구야?",
+      "koreanPronunciationTip": "'후~' - 길게",
+      "mnemonic": "Who = 누구 (사람 질문)",
+      "additionalExamples": [
+        { "sentence": "Who called you?", "meaning": "누가 전화했어?" }
+      ]
+    },
+    {
+      "id": "w42",
+      "word": "Which",
+      "pronunciation": "/wɪtʃ/",
+      "partOfSpeech": "pronoun",
+      "meaning": "어느 것",
+      "example": "Which one do you want?",
+      "exampleMeaning": "어느 걸 원해?",
+      "koreanPronunciationTip": "'위치' - 짧게",
+      "mnemonic": "Which = 어느 것 (선택 질문)",
+      "additionalExamples": [
+        { "sentence": "Which is better?", "meaning": "어느 게 더 좋아?" }
+      ]
+    },
+    {
+      "id": "w43",
+      "word": "Something",
+      "pronunciation": "/ˈsʌmθɪŋ/",
+      "partOfSpeech": "pronoun",
+      "meaning": "무언가",
+      "example": "I want to eat something.",
+      "exampleMeaning": "뭔가 먹고 싶어.",
+      "koreanPronunciationTip": "'썸씽' - 'th' 혀 내밀기",
+      "mnemonic": "Something = 무언가 (some+thing)",
+      "additionalExamples": [
+        { "sentence": "Something is wrong.", "meaning": "뭔가 잘못됐어." }
+      ]
+    },
+    {
+      "id": "w44",
+      "word": "Nothing",
+      "pronunciation": "/ˈnʌθɪŋ/",
+      "partOfSpeech": "pronoun",
+      "meaning": "아무것도 ~않다",
+      "example": "I have nothing to do.",
+      "exampleMeaning": "할 일이 없어.",
+      "koreanPronunciationTip": "'너씽' - 'th' 혀 내밀기",
+      "mnemonic": "Nothing = 아무것도 (no+thing)",
+      "additionalExamples": [
+        { "sentence": "Nothing happened.", "meaning": "아무 일도 없었어." }
+      ]
+    },
+    {
+      "id": "w45",
+      "word": "Everything",
+      "pronunciation": "/ˈevriθɪŋ/",
+      "partOfSpeech": "pronoun",
+      "meaning": "모든 것",
+      "example": "Everything is ready.",
+      "exampleMeaning": "모든 게 준비됐어.",
+      "koreanPronunciationTip": "'에브리씽' - 'th' 혀 내밀기",
+      "mnemonic": "Everything = 모든 것 (every+thing)",
+      "additionalExamples": [
+        { "sentence": "I like everything here.", "meaning": "여기 모든 게 좋아." }
+      ]
+    },
+    {
+      "id": "w46",
+      "word": "Someone",
+      "pronunciation": "/ˈsʌmwʌn/",
+      "partOfSpeech": "pronoun",
+      "meaning": "누군가",
+      "example": "Someone is at the door.",
+      "exampleMeaning": "누군가 문 앞에 있어.",
+      "koreanPronunciationTip": "'썸원' - '썸' 강조",
+      "mnemonic": "Someone = 누군가 (some+one)",
+      "confusableWords": [
+        { "word": "Somebody", "difference": "Someone=Somebody (같은 뜻)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I need someone to help.", "meaning": "도와줄 사람이 필요해." }
+      ]
+    },
+    {
+      "id": "w47",
+      "word": "Everyone",
+      "pronunciation": "/ˈevriwʌn/",
+      "partOfSpeech": "pronoun",
+      "meaning": "모든 사람",
+      "example": "Everyone is happy.",
+      "exampleMeaning": "모두 행복해.",
+      "koreanPronunciationTip": "'에브리원' - '에브리' 강조",
+      "mnemonic": "Everyone = 모든 사람 (every+one)",
+      "confusableWords": [
+        { "word": "Everybody", "difference": "Everyone=Everybody (같은 뜻)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Everyone knows that.", "meaning": "모두 그걸 알아." }
+      ]
+    },
+    {
+      "id": "w48",
+      "word": "No one",
+      "pronunciation": "/ˈnoʊ wʌn/",
+      "partOfSpeech": "pronoun",
+      "meaning": "아무도 ~않다",
+      "example": "No one is here.",
+      "exampleMeaning": "아무도 없어.",
+      "koreanPronunciationTip": "'노 원' - 띄어서",
+      "mnemonic": "No one = 아무도 (no+one)",
+      "confusableWords": [
+        { "word": "Nobody", "difference": "No one=Nobody (같은 뜻)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "No one knows.", "meaning": "아무도 몰라." }
+      ]
+    },
+    {
+      "id": "w49",
+      "word": "Anywhere",
+      "pronunciation": "/ˈeniwer/",
+      "partOfSpeech": "adverb",
+      "meaning": "어디든지, 어딘가",
+      "example": "I can't find it anywhere.",
+      "exampleMeaning": "어디서도 찾을 수 없어.",
+      "koreanPronunciationTip": "'애니웨어' - '애니' 강조",
+      "mnemonic": "Anywhere = 어디든지 (any+where)",
+      "additionalExamples": [
+        { "sentence": "You can sit anywhere.", "meaning": "어디든 앉아도 돼." }
+      ]
+    },
+    {
+      "id": "w50",
+      "word": "Everywhere",
+      "pronunciation": "/ˈevriwer/",
+      "partOfSpeech": "adverb",
+      "meaning": "어디에나, 모든 곳",
+      "example": "There are flowers everywhere.",
+      "exampleMeaning": "어디에나 꽃이 있어.",
+      "koreanPronunciationTip": "'에브리웨어' - '에브리' 강조",
+      "mnemonic": "Everywhere = 어디에나 (every+where)",
+      "additionalExamples": [
+        { "sentence": "I looked everywhere.", "meaning": "모든 곳을 찾아봤어." }
+      ]
     }
   ],
 
   "exercises": [
     {
       "id": "ex1",
-      "type": "fill_blank",
-      "question": "The book was _____ by Shakespeare. (write의 과거분사)",
-      "answer": ["written"],
-      "explanation": "'write'의 과거분사는 'written'입니다."
+      "type": "multiple_choice",
+      "question": "What does 'write' mean?",
+      "options": ["읽다", "쓰다", "말하다", "듣다"],
+      "answer": "쓰다",
+      "explanation": "'write'는 '쓰다'라는 뜻입니다."
     },
     {
       "id": "ex2",
       "type": "fill_blank",
-      "question": "This car was _____ in Germany. (make의 과거분사)",
-      "answer": ["made"],
-      "explanation": "'make'의 과거분사는 'made'입니다."
+      "question": "I _____ breakfast every morning. (만들다)",
+      "answer": ["make"],
+      "explanation": "'make'는 '만들다'라는 뜻입니다."
     },
     {
       "id": "ex3",
       "type": "multiple_choice",
-      "question": "What is the past participle of 'build'?",
-      "options": ["builded", "built", "building", "builds"],
-      "answer": "built",
-      "explanation": "'build'의 과거분사는 'built'입니다."
+      "question": "What does 'and' mean?",
+      "options": ["그러나", "그리고", "또는", "그래서"],
+      "answer": "그리고",
+      "explanation": "'and'는 '그리고'라는 뜻입니다."
     },
     {
       "id": "ex4",
       "type": "fill_blank",
-      "question": "English is _____ in many countries. (speak의 과거분사)",
-      "answer": ["spoken"],
-      "explanation": "'speak'의 과거분사는 'spoken'입니다."
+      "question": "I want to go, _____ I'm tired. (그러나)",
+      "answer": ["but"],
+      "explanation": "'but'는 '그러나'라는 뜻입니다."
     },
     {
       "id": "ex5",
-      "type": "multiple_choice",
-      "question": "Which relative pronoun is used for people?",
-      "options": ["which", "who", "whose", "that"],
-      "answer": "who",
-      "explanation": "'who'는 사람을 지칭하는 주격 관계대명사입니다."
+      "type": "matching",
+      "question": "접속사와 의미를 연결하세요.",
+      "pairs": [
+        { "left": "and", "right": "그리고" },
+        { "left": "but", "right": "그러나" },
+        { "left": "or", "right": "또는" },
+        { "left": "so", "right": "그래서" }
+      ],
+      "explanation": "기본 접속사들입니다."
     },
     {
       "id": "ex6",
       "type": "multiple_choice",
-      "question": "Which relative pronoun shows possession?",
-      "options": ["who", "which", "whose", "that"],
-      "answer": "whose",
-      "explanation": "'whose'는 소유를 나타내는 관계대명사입니다."
+      "question": "Which word means '왜냐하면'?",
+      "options": ["because", "before", "after", "when"],
+      "answer": "because",
+      "explanation": "'because'는 '왜냐하면'이라는 뜻입니다."
     },
     {
       "id": "ex7",
       "type": "fill_blank",
-      "question": "The letters have been _____. (send의 과거분사)",
-      "answer": ["sent"],
-      "explanation": "'send'의 과거분사는 'sent'입니다."
+      "question": "Call me _____ you arrive. (~할 때)",
+      "answer": ["when"],
+      "explanation": "'when'은 '~할 때'라는 뜻입니다."
     },
     {
       "id": "ex8",
       "type": "multiple_choice",
-      "question": "What does 'author' mean?",
-      "options": ["감독", "작가", "건축가", "발명가"],
-      "answer": "작가",
-      "explanation": "'author'는 '작가, 저자'라는 뜻입니다."
+      "question": "What does 'if' mean?",
+      "options": ["만약", "언제", "어디", "왜"],
+      "answer": "만약",
+      "explanation": "'if'는 '만약 ~라면'이라는 뜻입니다."
     },
     {
       "id": "ex9",
       "type": "fill_blank",
-      "question": "The house was _____ last month. (sell의 과거분사)",
-      "answer": ["sold"],
-      "explanation": "'sell'의 과거분사는 'sold'입니다."
+      "question": "Wash your hands _____ eating. (~전에)",
+      "answer": ["before"],
+      "explanation": "'before'는 '~전에'라는 뜻입니다."
     },
     {
       "id": "ex10",
-      "type": "multiple_choice",
-      "question": "The movie _____ was released is popular.",
-      "options": ["who", "which", "whose", "whom"],
-      "answer": "which",
-      "explanation": "사물(movie)을 지칭하므로 'which'를 사용합니다."
+      "type": "matching",
+      "question": "시간 접속사와 의미를 연결하세요.",
+      "pairs": [
+        { "left": "before", "right": "~전에" },
+        { "left": "after", "right": "~후에" },
+        { "left": "when", "right": "~할 때" },
+        { "left": "while", "right": "~하는 동안" }
+      ],
+      "explanation": "시간을 나타내는 접속사들입니다."
     },
     {
       "id": "ex11",
-      "type": "fill_blank",
-      "question": "The book was _____ in 2020. (publish의 과거분사)",
-      "answer": ["published"],
-      "explanation": "'publish'의 과거분사는 'published'입니다."
+      "type": "multiple_choice",
+      "question": "What does 'first' mean?",
+      "options": ["마지막에", "먼저", "나중에", "그 다음에"],
+      "answer": "먼저",
+      "explanation": "'first'는 '먼저'라는 뜻입니다."
     },
     {
       "id": "ex12",
-      "type": "multiple_choice",
-      "question": "What is the past participle of 'find'?",
-      "options": ["finded", "found", "finding", "finds"],
-      "answer": "found",
-      "explanation": "'find'의 과거분사는 'found'입니다."
+      "type": "fill_blank",
+      "question": "First study, _____ play. (그 다음에)",
+      "answer": ["then"],
+      "explanation": "'then'은 '그 다음에'라는 뜻입니다."
     },
     {
       "id": "ex13",
-      "type": "fill_blank",
-      "question": "The man _____ car is red lives here.",
-      "answer": ["whose"],
-      "explanation": "소유를 나타내므로 'whose'를 사용합니다."
+      "type": "multiple_choice",
+      "question": "What is the difference between 'also' and 'too'?",
+      "options": [
+        "They are the same",
+        "Also is at the end",
+        "Too is in the middle",
+        "Also is usually in the middle, Too is at the end"
+      ],
+      "answer": "Also is usually in the middle, Too is at the end",
+      "explanation": "'also'는 문장 중간에, 'too'는 문장 끝에 주로 사용합니다."
     },
     {
       "id": "ex14",
-      "type": "multiple_choice",
-      "question": "What does 'architect' mean?",
-      "options": ["작가", "감독", "건축가", "발명가"],
-      "answer": "건축가",
-      "explanation": "'architect'는 '건축가'라는 뜻입니다."
+      "type": "fill_blank",
+      "question": "I like coffee. I _____ like tea. (또한)",
+      "answer": ["also"],
+      "explanation": "'also'는 '또한'이라는 뜻으로 문장 중간에 사용합니다."
     },
     {
       "id": "ex15",
+      "type": "multiple_choice",
+      "question": "What does 'very' mean?",
+      "options": ["조금", "매우", "거의", "단지"],
+      "answer": "매우",
+      "explanation": "'very'는 '매우'라는 뜻입니다."
+    },
+    {
+      "id": "ex16",
       "type": "fill_blank",
-      "question": "The telephone was _____ by Alexander Graham Bell. (invent의 과거분사)",
-      "answer": ["invented"],
-      "explanation": "'invent'의 과거분사는 'invented'입니다."
+      "question": "I _____ like this song. (정말로)",
+      "answer": ["really"],
+      "explanation": "'really'는 '정말로'라는 뜻입니다."
+    },
+    {
+      "id": "ex17",
+      "type": "matching",
+      "question": "정도 부사와 의미를 연결하세요.",
+      "pairs": [
+        { "left": "very", "right": "매우" },
+        { "left": "really", "right": "정말로" },
+        { "left": "just", "right": "단지/방금" },
+        { "left": "only", "right": "오직" }
+      ],
+      "explanation": "정도를 나타내는 부사들입니다."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "What does 'almost' mean?",
+      "options": ["완전히", "전혀", "거의", "항상"],
+      "answer": "거의",
+      "explanation": "'almost'는 '거의'라는 뜻입니다."
+    },
+    {
+      "id": "ex19",
+      "type": "fill_blank",
+      "question": "I have _____ money. (충분한)",
+      "answer": ["enough"],
+      "explanation": "'enough'는 '충분한'이라는 뜻입니다."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'here'?",
+      "options": ["there", "where", "everywhere", "anywhere"],
+      "answer": "there",
+      "explanation": "'here'(여기)의 반대는 'there'(거기)입니다."
+    },
+    {
+      "id": "ex21",
+      "type": "fill_blank",
+      "question": "_____ do you live? (어디)",
+      "answer": ["Where"],
+      "explanation": "'where'는 '어디'라는 뜻입니다."
+    },
+    {
+      "id": "ex22",
+      "type": "matching",
+      "question": "의문사와 의미를 연결하세요.",
+      "pairs": [
+        { "left": "what", "right": "무엇" },
+        { "left": "who", "right": "누구" },
+        { "left": "where", "right": "어디" },
+        { "left": "why", "right": "왜" }
+      ],
+      "explanation": "기본 의문사들입니다."
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "What does 'how' mean?",
+      "options": ["무엇", "언제", "어떻게", "어디"],
+      "answer": "어떻게",
+      "explanation": "'how'는 '어떻게'라는 뜻입니다."
+    },
+    {
+      "id": "ex24",
+      "type": "fill_blank",
+      "question": "_____ is she? (누구)",
+      "answer": ["Who"],
+      "explanation": "'who'는 '누구'라는 뜻입니다."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "What does 'something' mean?",
+      "options": ["아무것도", "모든 것", "무언가", "아무것이나"],
+      "answer": "무언가",
+      "explanation": "'something'은 '무언가'라는 뜻입니다."
+    },
+    {
+      "id": "ex26",
+      "type": "fill_blank",
+      "question": "I have _____ to do. (아무것도 ~않다)",
+      "answer": ["nothing"],
+      "explanation": "'nothing'은 '아무것도 ~않다'라는 뜻입니다."
+    },
+    {
+      "id": "ex27",
+      "type": "matching",
+      "question": "-thing 단어와 의미를 연결하세요.",
+      "pairs": [
+        { "left": "something", "right": "무언가" },
+        { "left": "nothing", "right": "아무것도 않다" },
+        { "left": "everything", "right": "모든 것" },
+        { "left": "anything", "right": "아무것이나" }
+      ],
+      "explanation": "-thing으로 끝나는 대명사들입니다."
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "What does 'everyone' mean?",
+      "options": ["아무도", "누군가", "모든 사람", "한 사람"],
+      "answer": "모든 사람",
+      "explanation": "'everyone'은 '모든 사람'이라는 뜻입니다."
+    },
+    {
+      "id": "ex29",
+      "type": "fill_blank",
+      "question": "_____ is at the door. (누군가)",
+      "answer": ["Someone", "Somebody"],
+      "explanation": "'someone'은 '누군가'라는 뜻입니다."
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "What does 'no one' mean?",
+      "options": ["한 사람", "누군가", "아무도 않다", "모든 사람"],
+      "answer": "아무도 않다",
+      "explanation": "'no one'은 '아무도 ~않다'라는 뜻입니다."
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "question": "I can't find it _____. (어디서도)",
+      "answer": ["anywhere"],
+      "explanation": "'anywhere'는 부정문에서 '어디서도'라는 뜻입니다."
+    },
+    {
+      "id": "ex32",
+      "type": "matching",
+      "question": "-where 단어와 의미를 연결하세요.",
+      "pairs": [
+        { "left": "here", "right": "여기" },
+        { "left": "there", "right": "거기" },
+        { "left": "anywhere", "right": "어디든지" },
+        { "left": "everywhere", "right": "어디에나" }
+      ],
+      "explanation": "장소를 나타내는 부사들입니다."
+    },
+    {
+      "id": "ex33",
+      "type": "multiple_choice",
+      "question": "What is the -ing form of 'write'?",
+      "options": ["writeing", "writing", "writting", "wrting"],
+      "answer": "writing",
+      "explanation": "'write'는 e를 빼고 -ing를 붙입니다."
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "She is _____ (make) a cake.",
+      "answer": ["making"],
+      "explanation": "'make'의 -ing 형태는 'making'입니다."
+    },
+    {
+      "id": "ex35",
+      "type": "multiple_choice",
+      "question": "Which word is a conjunction?",
+      "options": ["very", "but", "here", "who"],
+      "answer": "but",
+      "explanation": "'but'는 접속사입니다."
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "Can you _____ English? (말하다)",
+      "answer": ["speak"],
+      "explanation": "'speak'는 '말하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex37",
+      "type": "matching",
+      "question": "동사와 의미를 연결하세요.",
+      "pairs": [
+        { "left": "write", "right": "쓰다" },
+        { "left": "make", "right": "만들다" },
+        { "left": "speak", "right": "말하다" },
+        { "left": "send", "right": "보내다" }
+      ],
+      "explanation": "기본 동사들입니다."
+    },
+    {
+      "id": "ex38",
+      "type": "multiple_choice",
+      "question": "What does 'find' mean?",
+      "options": ["잃다", "찾다", "만들다", "보내다"],
+      "answer": "찾다",
+      "explanation": "'find'는 '찾다'라는 뜻입니다."
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "question": "Please _____ me the book. (주다)",
+      "answer": ["give"],
+      "explanation": "'give'는 '주다'라는 뜻입니다."
+    },
+    {
+      "id": "ex40",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'give'?",
+      "options": ["sell", "take", "get", "make"],
+      "answer": "get",
+      "explanation": "'give'(주다)의 반대는 'get'(받다)입니다."
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "I _____ the bus to work. (타다)",
+      "answer": ["take"],
+      "explanation": "'take'는 '(교통수단을) 타다'라는 뜻도 있습니다."
+    },
+    {
+      "id": "ex42",
+      "type": "matching",
+      "question": "동사와 과거형을 연결하세요.",
+      "pairs": [
+        { "left": "write", "right": "wrote" },
+        { "left": "make", "right": "made" },
+        { "left": "give", "right": "gave" },
+        { "left": "take", "right": "took" }
+      ],
+      "explanation": "불규칙 동사의 과거형입니다."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple_choice",
+      "question": "What does 'tell' mean?",
+      "options": ["듣다", "보다", "알려주다", "느끼다"],
+      "answer": "알려주다",
+      "explanation": "'tell'은 '말하다, 알려주다'라는 뜻입니다."
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "Can you _____ me the way? (보여주다)",
+      "answer": ["show"],
+      "explanation": "'show'는 '보여주다'라는 뜻입니다."
+    },
+    {
+      "id": "ex45",
+      "type": "multiple_choice",
+      "question": "What does 'think' mean?",
+      "options": ["알다", "생각하다", "믿다", "기억하다"],
+      "answer": "생각하다",
+      "explanation": "'think'는 '생각하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "I _____ the answer. (알다)",
+      "answer": ["know"],
+      "explanation": "'know'는 '알다'라는 뜻입니다."
+    },
+    {
+      "id": "ex47",
+      "type": "matching",
+      "question": "반대말을 연결하세요.",
+      "pairs": [
+        { "left": "before", "right": "after" },
+        { "left": "here", "right": "there" },
+        { "left": "something", "right": "nothing" },
+        { "left": "everyone", "right": "no one" }
+      ],
+      "explanation": "반대 의미의 단어들입니다."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "I like coffee and tea.",
+        "I and like coffee tea.",
+        "Coffee I and like tea.",
+        "Like I coffee and tea."
+      ],
+      "answer": "I like coffee and tea.",
+      "explanation": "'and'는 같은 종류의 단어를 연결합니다."
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "I was tired, _____ I went to bed. (그래서)",
+      "answer": ["so"],
+      "explanation": "'so'는 '그래서'라는 뜻입니다."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple_choice",
+      "question": "What does 'even' mean?",
+      "options": ["거의", "심지어", "단지", "오직"],
+      "answer": "심지어",
+      "explanation": "'even'은 '심지어'라는 뜻입니다."
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "I'm _____ done. (거의)",
+      "answer": ["almost"],
+      "explanation": "'almost'는 '거의'라는 뜻입니다."
+    },
+    {
+      "id": "ex52",
+      "type": "multiple_choice",
+      "question": "Which word is NOT a question word?",
+      "options": ["what", "who", "very", "where"],
+      "answer": "very",
+      "explanation": "'very'는 의문사가 아니라 부사입니다."
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "_____ time is it? (몇)",
+      "answer": ["What"],
+      "explanation": "'What time'은 '몇 시'라는 뜻입니다."
+    },
+    {
+      "id": "ex54",
+      "type": "matching",
+      "question": "동사와 -ing 형태를 연결하세요.",
+      "pairs": [
+        { "left": "give", "right": "giving" },
+        { "left": "take", "right": "taking" },
+        { "left": "think", "right": "thinking" },
+        { "left": "show", "right": "showing" }
+      ],
+      "explanation": "-ing 형태입니다."
+    },
+    {
+      "id": "ex55",
+      "type": "multiple_choice",
+      "question": "Which sentence uses 'because' correctly?",
+      "options": [
+        "Because I'm tired.",
+        "I'm tired because.",
+        "I'm tired because I worked all day.",
+        "Because tired I'm."
+      ],
+      "answer": "I'm tired because I worked all day.",
+      "explanation": "'because'는 이유를 설명하는 절과 함께 사용합니다."
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "_____ it rains, I'll stay home. (만약)",
+      "answer": ["If"],
+      "explanation": "'if'는 '만약'이라는 뜻입니다."
+    },
+    {
+      "id": "ex57",
+      "type": "multiple_choice",
+      "question": "What does 'which' mean?",
+      "options": ["무엇", "누구", "어느 것", "언제"],
+      "answer": "어느 것",
+      "explanation": "'which'는 '어느 것'이라는 뜻입니다."
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "_____ is ready. (모든 것)",
+      "answer": ["Everything"],
+      "explanation": "'everything'은 '모든 것'이라는 뜻입니다."
+    },
+    {
+      "id": "ex59",
+      "type": "matching",
+      "question": "-one 단어와 의미를 연결하세요.",
+      "pairs": [
+        { "left": "someone", "right": "누군가" },
+        { "left": "everyone", "right": "모든 사람" },
+        { "left": "no one", "right": "아무도 않다" },
+        { "left": "anyone", "right": "누구든지" }
+      ],
+      "explanation": "-one으로 끝나는 대명사들입니다."
+    },
+    {
+      "id": "ex60",
+      "type": "multiple_choice",
+      "question": "Which word means '정말로'?",
+      "options": ["very", "really", "just", "only"],
+      "answer": "really",
+      "explanation": "'really'는 '정말로'라는 뜻입니다."
+    },
+    {
+      "id": "ex61",
+      "type": "fill_blank",
+      "question": "I _____ arrived. (방금)",
+      "answer": ["just"],
+      "explanation": "'just'는 '방금'이라는 뜻도 있습니다."
+    },
+    {
+      "id": "ex62",
+      "type": "multiple_choice",
+      "question": "What does 'only' mean?",
+      "options": ["또한", "오직", "심지어", "거의"],
+      "answer": "오직",
+      "explanation": "'only'는 '오직'이라는 뜻입니다."
+    },
+    {
+      "id": "ex63",
+      "type": "fill_blank",
+      "question": "Come _____, please. (여기)",
+      "answer": ["here"],
+      "explanation": "'here'는 '여기'라는 뜻입니다."
+    },
+    {
+      "id": "ex64",
+      "type": "matching",
+      "question": "동사와 과거형을 연결하세요.",
+      "pairs": [
+        { "left": "think", "right": "thought" },
+        { "left": "know", "right": "knew" },
+        { "left": "tell", "right": "told" },
+        { "left": "find", "right": "found" }
+      ],
+      "explanation": "불규칙 동사의 과거형입니다."
+    },
+    {
+      "id": "ex65",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "I'm go to home.",
+        "I going home.",
+        "I'm going home.",
+        "I go to going home."
+      ],
+      "answer": "I'm going home.",
+      "explanation": "현재 진행형은 'be + -ing'입니다."
+    },
+    {
+      "id": "ex66",
+      "type": "fill_blank",
+      "question": "She is _____ (build) a house.",
+      "answer": ["building"],
+      "explanation": "'build'의 -ing 형태는 'building'입니다."
+    },
+    {
+      "id": "ex67",
+      "type": "multiple_choice",
+      "question": "What does 'sell' mean?",
+      "options": ["사다", "팔다", "주다", "받다"],
+      "answer": "팔다",
+      "explanation": "'sell'은 '팔다'라는 뜻입니다."
+    },
+    {
+      "id": "ex68",
+      "type": "fill_blank",
+      "question": "I will _____ you an email. (보내다)",
+      "answer": ["send"],
+      "explanation": "'send'는 '보내다'라는 뜻입니다."
+    },
+    {
+      "id": "ex69",
+      "type": "matching",
+      "question": "반대말을 연결하세요.",
+      "pairs": [
+        { "left": "sell", "right": "buy" },
+        { "left": "give", "right": "get" },
+        { "left": "take", "right": "bring" },
+        { "left": "first", "right": "last" }
+      ],
+      "explanation": "반대 의미의 단어들입니다."
+    },
+    {
+      "id": "ex70",
+      "type": "multiple_choice",
+      "question": "Which word connects two ideas?",
+      "options": ["very", "here", "and", "really"],
+      "answer": "and",
+      "explanation": "'and'는 두 아이디어를 연결하는 접속사입니다."
+    },
+    {
+      "id": "ex71",
+      "type": "fill_blank",
+      "question": "I listen to music _____ I work. (~하는 동안)",
+      "answer": ["while"],
+      "explanation": "'while'은 '~하는 동안'이라는 뜻입니다."
+    },
+    {
+      "id": "ex72",
+      "type": "multiple_choice",
+      "question": "What does 'too' mean in 'I like pizza too'?",
+      "options": ["너무", "~도", "거의", "오직"],
+      "answer": "~도",
+      "explanation": "'too'는 '~도'라는 뜻으로 문장 끝에 사용합니다."
+    },
+    {
+      "id": "ex73",
+      "type": "fill_blank",
+      "question": "It's _____ expensive. (너무)",
+      "answer": ["too"],
+      "explanation": "'too'는 '너무'라는 뜻도 있습니다."
+    },
+    {
+      "id": "ex74",
+      "type": "matching",
+      "question": "비슷한 의미의 단어를 연결하세요.",
+      "pairs": [
+        { "left": "someone", "right": "somebody" },
+        { "left": "everyone", "right": "everybody" },
+        { "left": "no one", "right": "nobody" },
+        { "left": "also", "right": "too" }
+      ],
+      "explanation": "같은 의미의 단어들입니다."
+    },
+    {
+      "id": "ex75",
+      "type": "multiple_choice",
+      "question": "Which sentence is about possibility?",
+      "options": [
+        "I go to school.",
+        "I went to school.",
+        "If it rains, I'll stay home.",
+        "I am at school."
+      ],
+      "answer": "If it rains, I'll stay home.",
+      "explanation": "'if'는 가능성/조건을 나타냅니다."
+    },
+    {
+      "id": "ex76",
+      "type": "fill_blank",
+      "question": "I'll call you _____ work. (~후에)",
+      "answer": ["after"],
+      "explanation": "'after'는 '~후에'라는 뜻입니다."
+    },
+    {
+      "id": "ex77",
+      "type": "multiple_choice",
+      "question": "What does 'there' mean?",
+      "options": ["여기", "거기", "어디", "언제"],
+      "answer": "거기",
+      "explanation": "'there'는 '거기'라는 뜻입니다."
+    },
+    {
+      "id": "ex78",
+      "type": "fill_blank",
+      "question": "There are flowers _____. (어디에나)",
+      "answer": ["everywhere"],
+      "explanation": "'everywhere'는 '어디에나'라는 뜻입니다."
+    },
+    {
+      "id": "ex79",
+      "type": "matching",
+      "question": "혼동하기 쉬운 단어를 연결하세요.",
+      "pairs": [
+        { "left": "here", "right": "hear" },
+        { "left": "there", "right": "their" },
+        { "left": "too", "right": "two" },
+        { "left": "know", "right": "no" }
+      ],
+      "explanation": "발음이 같지만 의미가 다른 단어들입니다."
+    },
+    {
+      "id": "ex80",
+      "type": "multiple_choice",
+      "question": "Which word is an adverb of degree?",
+      "options": ["and", "but", "very", "if"],
+      "answer": "very",
+      "explanation": "'very'는 정도를 나타내는 부사입니다."
+    },
+    {
+      "id": "ex81",
+      "type": "fill_blank",
+      "question": "_____ children can do it. (심지어)",
+      "answer": ["Even"],
+      "explanation": "'even'은 '심지어'라는 뜻입니다."
+    },
+    {
+      "id": "ex82",
+      "type": "multiple_choice",
+      "question": "What does 'build' mean?",
+      "options": ["부수다", "짓다", "청소하다", "칠하다"],
+      "answer": "짓다",
+      "explanation": "'build'는 '짓다, 건설하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex83",
+      "type": "fill_blank",
+      "question": "What do you _____? (생각하다)",
+      "answer": ["think"],
+      "explanation": "'think'는 '생각하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex84",
+      "type": "matching",
+      "question": "접속사와 용도를 연결하세요.",
+      "pairs": [
+        { "left": "because", "right": "이유" },
+        { "left": "if", "right": "조건" },
+        { "left": "when", "right": "시간" },
+        { "left": "so", "right": "결과" }
+      ],
+      "explanation": "접속사의 용도입니다."
+    },
+    {
+      "id": "ex85",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "I don't have something.",
+        "I don't have anything.",
+        "I don't have everything.",
+        "I don't have someone."
+      ],
+      "answer": "I don't have anything.",
+      "explanation": "부정문에서는 'anything'을 사용합니다."
+    },
+    {
+      "id": "ex86",
+      "type": "fill_blank",
+      "question": "_____ knows the answer. (모든 사람)",
+      "answer": ["Everyone", "Everybody"],
+      "explanation": "'everyone'은 '모든 사람'이라는 뜻입니다."
+    },
+    {
+      "id": "ex87",
+      "type": "multiple_choice",
+      "question": "What does 'why' ask about?",
+      "options": ["시간", "장소", "이유", "방법"],
+      "answer": "이유",
+      "explanation": "'why'는 이유를 물을 때 사용합니다."
+    },
+    {
+      "id": "ex88",
+      "type": "fill_blank",
+      "question": "_____ are you late? (왜)",
+      "answer": ["Why"],
+      "explanation": "'why'는 '왜'라는 뜻입니다."
+    },
+    {
+      "id": "ex89",
+      "type": "matching",
+      "question": "의문사와 물어보는 것을 연결하세요.",
+      "pairs": [
+        { "left": "what", "right": "사물" },
+        { "left": "who", "right": "사람" },
+        { "left": "how", "right": "방법" },
+        { "left": "when", "right": "시간" }
+      ],
+      "explanation": "의문사가 물어보는 것입니다."
+    },
+    {
+      "id": "ex90",
+      "type": "multiple_choice",
+      "question": "Which word means '단지'?",
+      "options": ["very", "just", "too", "also"],
+      "answer": "just",
+      "explanation": "'just'는 '단지'라는 뜻입니다."
+    },
+    {
+      "id": "ex91",
+      "type": "fill_blank",
+      "question": "He is _____ a teacher. (또한)",
+      "answer": ["also"],
+      "explanation": "'also'는 '또한'이라는 뜻입니다."
+    },
+    {
+      "id": "ex92",
+      "type": "multiple_choice",
+      "question": "What does 'enough' mean?",
+      "options": ["부족한", "충분한", "과도한", "조금"],
+      "answer": "충분한",
+      "explanation": "'enough'는 '충분한'이라는 뜻입니다."
+    },
+    {
+      "id": "ex93",
+      "type": "fill_blank",
+      "question": "Is it big _____? (충분히)",
+      "answer": ["enough"],
+      "explanation": "'enough'는 형용사 뒤에 옵니다."
+    },
+    {
+      "id": "ex94",
+      "type": "matching",
+      "question": "'enough'의 위치를 확인하세요.",
+      "pairs": [
+        { "left": "big enough", "right": "형용사 + enough" },
+        { "left": "enough money", "right": "enough + 명사" },
+        { "left": "fast enough", "right": "부사 + enough" },
+        { "left": "enough time", "right": "enough + 명사" }
+      ],
+      "explanation": "'enough'의 위치 규칙입니다."
+    },
+    {
+      "id": "ex95",
+      "type": "multiple_choice",
+      "question": "Which sentence uses 'while' correctly?",
+      "options": [
+        "While I eat.",
+        "I listen to music while I work.",
+        "While working I.",
+        "Music while listen."
+      ],
+      "answer": "I listen to music while I work.",
+      "explanation": "'while'은 두 개의 동시 행동을 연결합니다."
+    },
+    {
+      "id": "ex96",
+      "type": "fill_blank",
+      "question": "First study, _____ play. (그 다음에)",
+      "answer": ["then"],
+      "explanation": "'then'은 '그 다음에'라는 뜻입니다."
+    },
+    {
+      "id": "ex97",
+      "type": "multiple_choice",
+      "question": "What does 'know' mean?",
+      "options": ["모르다", "알다", "배우다", "가르치다"],
+      "answer": "알다",
+      "explanation": "'know'는 '알다'라는 뜻입니다."
+    },
+    {
+      "id": "ex98",
+      "type": "fill_blank",
+      "question": "He _____ me the news. (알려줬다)",
+      "answer": ["told"],
+      "explanation": "'tell'의 과거형은 'told'입니다."
+    },
+    {
+      "id": "ex99",
+      "type": "matching",
+      "question": "순서 표현을 연결하세요.",
+      "pairs": [
+        { "left": "first", "right": "첫 번째" },
+        { "left": "then", "right": "그 다음에" },
+        { "left": "finally", "right": "마침내" },
+        { "left": "last", "right": "마지막" }
+      ],
+      "explanation": "순서를 나타내는 표현입니다."
+    },
+    {
+      "id": "ex100",
+      "type": "multiple_choice",
+      "question": "Which word can mean both '~도' and '너무'?",
+      "options": ["also", "too", "very", "really"],
+      "answer": "too",
+      "explanation": "'too'는 '~도'와 '너무' 두 가지 뜻이 있습니다."
+    },
+    {
+      "id": "ex101",
+      "type": "fill_blank",
+      "question": "_____ happened. (아무 일도 않다)",
+      "answer": ["Nothing"],
+      "explanation": "'nothing'은 '아무것도 ~않다'라는 뜻입니다."
+    },
+    {
+      "id": "ex102",
+      "type": "multiple_choice",
+      "question": "Which sentence expresses reason?",
+      "options": [
+        "I'm tired but I'll work.",
+        "I'm tired because I worked all day.",
+        "I'm tired and sleepy.",
+        "I'm tired or hungry."
+      ],
+      "answer": "I'm tired because I worked all day.",
+      "explanation": "'because'는 이유를 나타냅니다."
+    },
+    {
+      "id": "ex103",
+      "type": "fill_blank",
+      "question": "_____ is wrong. (무언가)",
+      "answer": ["Something"],
+      "explanation": "'something'은 '무언가'라는 뜻입니다."
+    },
+    {
+      "id": "ex104",
+      "type": "matching",
+      "question": "동사와 의미를 연결하세요.",
+      "pairs": [
+        { "left": "tell", "right": "알려주다" },
+        { "left": "show", "right": "보여주다" },
+        { "left": "think", "right": "생각하다" },
+        { "left": "know", "right": "알다" }
+      ],
+      "explanation": "인지/전달 관련 동사들입니다."
+    },
+    {
+      "id": "ex105",
+      "type": "multiple_choice",
+      "question": "What is the past of 'send'?",
+      "options": ["sended", "sent", "send", "sending"],
+      "answer": "sent",
+      "explanation": "'send'의 과거형은 'sent'입니다."
+    },
+    {
+      "id": "ex106",
+      "type": "fill_blank",
+      "question": "She _____ me a message. (보냈다)",
+      "answer": ["sent"],
+      "explanation": "'send'의 과거형은 'sent'입니다."
+    },
+    {
+      "id": "ex107",
+      "type": "multiple_choice",
+      "question": "Which is the correct order?",
+      "options": [
+        "Then first finally",
+        "First then finally",
+        "Finally first then",
+        "Then finally first"
+      ],
+      "answer": "First then finally",
+      "explanation": "순서는 first → then → finally입니다."
+    },
+    {
+      "id": "ex108",
+      "type": "fill_blank",
+      "question": "You can sit _____. (어디든)",
+      "answer": ["anywhere"],
+      "explanation": "'anywhere'는 긍정문에서 '어디든'이라는 뜻입니다."
+    },
+    {
+      "id": "ex109",
+      "type": "matching",
+      "question": "문장과 접속사를 연결하세요.",
+      "pairs": [
+        { "left": "I'm tired, ___ I went to bed.", "right": "so" },
+        { "left": "I want to go, ___ I'm tired.", "right": "but" },
+        { "left": "I like coffee ___ tea.", "right": "and" },
+        { "left": "Coffee ___ tea?", "right": "or" }
+      ],
+      "explanation": "문맥에 맞는 접속사를 선택합니다."
+    },
+    {
+      "id": "ex110",
+      "type": "multiple_choice",
+      "question": "Which word asks about manner?",
+      "options": ["what", "who", "where", "how"],
+      "answer": "how",
+      "explanation": "'how'는 방법/방식을 물을 때 사용합니다."
+    },
+    {
+      "id": "ex111",
+      "type": "fill_blank",
+      "question": "_____ do you spell it? (어떻게)",
+      "answer": ["How"],
+      "explanation": "'how'는 '어떻게'라는 뜻입니다."
+    },
+    {
+      "id": "ex112",
+      "type": "multiple_choice",
+      "question": "What does 'show' mean?",
+      "options": ["숨기다", "보여주다", "찾다", "잃다"],
+      "answer": "보여주다",
+      "explanation": "'show'는 '보여주다'라는 뜻입니다."
+    },
+    {
+      "id": "ex113",
+      "type": "fill_blank",
+      "question": "She _____ me her photos. (보여줬다)",
+      "answer": ["showed"],
+      "explanation": "'show'의 과거형은 'showed'입니다."
+    },
+    {
+      "id": "ex114",
+      "type": "matching",
+      "question": "장소 표현을 연결하세요.",
+      "pairs": [
+        { "left": "here", "right": "이곳" },
+        { "left": "there", "right": "저곳" },
+        { "left": "where", "right": "어디" },
+        { "left": "everywhere", "right": "모든 곳" }
+      ],
+      "explanation": "장소를 나타내는 표현입니다."
+    },
+    {
+      "id": "ex115",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "I very like it.",
+        "I like very it.",
+        "I like it very much.",
+        "Very I like it."
+      ],
+      "answer": "I like it very much.",
+      "explanation": "'very much'는 동사 뒤에 옵니다."
+    },
+    {
+      "id": "ex116",
+      "type": "fill_blank",
+      "question": "Do you _____ her? (알다)",
+      "answer": ["know"],
+      "explanation": "'know'는 '알다'라는 뜻입니다."
+    },
+    {
+      "id": "ex117",
+      "type": "multiple_choice",
+      "question": "What does 'take' mean in 'It takes 30 minutes'?",
+      "options": ["가져가다", "걸리다", "타다", "찍다"],
+      "answer": "걸리다",
+      "explanation": "'take'는 '(시간이) 걸리다'라는 뜻도 있습니다."
+    },
+    {
+      "id": "ex118",
+      "type": "fill_blank",
+      "question": "It _____ 30 minutes. (걸린다)",
+      "answer": ["takes"],
+      "explanation": "'take'는 '걸리다'라는 뜻으로 3인칭 단수 주어와 함께 takes를 사용합니다."
+    },
+    {
+      "id": "ex119",
+      "type": "matching",
+      "question": "복합 대명사를 연결하세요.",
+      "pairs": [
+        { "left": "some + thing", "right": "something" },
+        { "left": "every + one", "right": "everyone" },
+        { "left": "no + where", "right": "nowhere" },
+        { "left": "any + thing", "right": "anything" }
+      ],
+      "explanation": "복합 대명사의 구성입니다."
+    },
+    {
+      "id": "ex120",
+      "type": "multiple_choice",
+      "question": "Which word connects opposite ideas?",
+      "options": ["and", "but", "or", "so"],
+      "answer": "but",
+      "explanation": "'but'는 반대되는 아이디어를 연결합니다."
+    },
+    {
+      "id": "ex121",
+      "type": "fill_blank",
+      "question": "I found my wallet! (내 지갑을 _____!)",
+      "answer": ["찾았어"],
+      "explanation": "'found'는 'find'의 과거형입니다."
+    },
+    {
+      "id": "ex122",
+      "type": "multiple_choice",
+      "question": "What is the -ing form of 'give'?",
+      "options": ["giveing", "giving", "givving", "giveeing"],
+      "answer": "giving",
+      "explanation": "'give'는 e를 빼고 -ing를 붙입니다."
+    },
+    {
+      "id": "ex123",
+      "type": "fill_blank",
+      "question": "She is _____ (give) me a gift.",
+      "answer": ["giving"],
+      "explanation": "'give'의 -ing 형태는 'giving'입니다."
+    },
+    {
+      "id": "ex124",
+      "type": "matching",
+      "question": "문장 유형과 접속사를 연결하세요.",
+      "pairs": [
+        { "left": "추가", "right": "and, also, too" },
+        { "left": "대조", "right": "but" },
+        { "left": "선택", "right": "or" },
+        { "left": "결과", "right": "so" }
+      ],
+      "explanation": "접속사의 문장 유형별 분류입니다."
+    },
+    {
+      "id": "ex125",
+      "type": "multiple_choice",
+      "question": "Which sentence is NOT correct?",
+      "options": [
+        "Everyone is happy.",
+        "Everyone are happy.",
+        "Everybody is here.",
+        "No one knows."
+      ],
+      "answer": "Everyone are happy.",
+      "explanation": "'everyone'은 단수 취급하므로 'is'를 사용합니다."
+    },
+    {
+      "id": "ex126",
+      "type": "fill_blank",
+      "question": "_____ one do you want? (어느)",
+      "answer": ["Which"],
+      "explanation": "'which'는 '어느'라는 뜻입니다."
+    },
+    {
+      "id": "ex127",
+      "type": "multiple_choice",
+      "question": "What does 'really' mean?",
+      "options": ["거의", "정말로", "거의 않다", "조금"],
+      "answer": "정말로",
+      "explanation": "'really'는 '정말로'라는 뜻입니다."
+    },
+    {
+      "id": "ex128",
+      "type": "fill_blank",
+      "question": "Is it _____ true? (정말)",
+      "answer": ["really"],
+      "explanation": "'really'는 '정말로'라는 뜻입니다."
+    },
+    {
+      "id": "ex129",
+      "type": "matching",
+      "question": "동사의 변화를 연결하세요.",
+      "pairs": [
+        { "left": "speak", "right": "spoke - spoken" },
+        { "left": "write", "right": "wrote - written" },
+        { "left": "sell", "right": "sold - sold" },
+        { "left": "build", "right": "built - built" }
+      ],
+      "explanation": "불규칙 동사의 변화입니다."
+    },
+    {
+      "id": "ex130",
+      "type": "multiple_choice",
+      "question": "Which word means '그 다음에'?",
+      "options": ["first", "then", "finally", "before"],
+      "answer": "then",
+      "explanation": "'then'은 '그 다음에'라는 뜻입니다."
+    },
+    {
+      "id": "ex131",
+      "type": "fill_blank",
+      "question": "_____, wash your hands. (먼저)",
+      "answer": ["First"],
+      "explanation": "'first'는 '먼저'라는 뜻입니다."
+    },
+    {
+      "id": "ex132",
+      "type": "multiple_choice",
+      "question": "What is the past of 'think'?",
+      "options": ["thinked", "thought", "thank", "thinking"],
+      "answer": "thought",
+      "explanation": "'think'의 과거형은 'thought'입니다."
+    },
+    {
+      "id": "ex133",
+      "type": "fill_blank",
+      "question": "I _____ you were right. (생각했다)",
+      "answer": ["thought"],
+      "explanation": "'think'의 과거형은 'thought'입니다."
+    },
+    {
+      "id": "ex134",
+      "type": "matching",
+      "question": "의문사와 대답 유형을 연결하세요.",
+      "pairs": [
+        { "left": "what", "right": "사물/정보" },
+        { "left": "who", "right": "사람" },
+        { "left": "where", "right": "장소" },
+        { "left": "when", "right": "시간" }
+      ],
+      "explanation": "의문사와 대답 유형입니다."
+    },
+    {
+      "id": "ex135",
+      "type": "multiple_choice",
+      "question": "Which sentence uses 'because' correctly?",
+      "options": [
+        "I'm happy because.",
+        "Because I'm happy.",
+        "I'm happy because it's Friday.",
+        "Happy because I'm."
+      ],
+      "answer": "I'm happy because it's Friday.",
+      "explanation": "'because'는 이유절과 함께 완전한 문장을 만듭니다."
+    },
+    {
+      "id": "ex136",
+      "type": "fill_blank",
+      "question": "I stayed home _____ I was sick. (왜냐하면)",
+      "answer": ["because"],
+      "explanation": "'because'는 '왜냐하면'이라는 뜻입니다."
+    },
+    {
+      "id": "ex137",
+      "type": "multiple_choice",
+      "question": "What does 'while' express?",
+      "options": ["이유", "결과", "동시 행동", "조건"],
+      "answer": "동시 행동",
+      "explanation": "'while'은 두 행동이 동시에 일어남을 나타냅니다."
+    },
+    {
+      "id": "ex138",
+      "type": "fill_blank",
+      "question": "Don't talk _____ eating. (~하는 동안)",
+      "answer": ["while"],
+      "explanation": "'while'은 '~하는 동안'이라는 뜻입니다."
+    },
+    {
+      "id": "ex139",
+      "type": "matching",
+      "question": "시간 순서를 나타내는 표현을 연결하세요.",
+      "pairs": [
+        { "left": "before", "right": "그 전에" },
+        { "left": "while", "right": "그 동안" },
+        { "left": "after", "right": "그 후에" },
+        { "left": "then", "right": "그 다음에" }
+      ],
+      "explanation": "시간 순서 표현입니다."
+    },
+    {
+      "id": "ex140",
+      "type": "multiple_choice",
+      "question": "Which word is used in negative sentences for 'something'?",
+      "options": ["something", "anything", "everything", "nothing"],
+      "answer": "anything",
+      "explanation": "부정문에서는 'anything'을 사용합니다."
+    },
+    {
+      "id": "ex141",
+      "type": "fill_blank",
+      "question": "I don't have _____ to say. (아무것도)",
+      "answer": ["anything"],
+      "explanation": "부정문에서는 'anything'을 사용합니다."
+    },
+    {
+      "id": "ex142",
+      "type": "multiple_choice",
+      "question": "What is the past of 'know'?",
+      "options": ["knowed", "knew", "known", "knowing"],
+      "answer": "knew",
+      "explanation": "'know'의 과거형은 'knew'입니다."
+    },
+    {
+      "id": "ex143",
+      "type": "fill_blank",
+      "question": "I _____ you would come. (알았다)",
+      "answer": ["knew"],
+      "explanation": "'know'의 과거형은 'knew'입니다."
+    },
+    {
+      "id": "ex144",
+      "type": "matching",
+      "question": "A1 복습: 주요 동사와 의미를 연결하세요.",
+      "pairs": [
+        { "left": "write", "right": "쓰다" },
+        { "left": "speak", "right": "말하다" },
+        { "left": "know", "right": "알다" },
+        { "left": "give", "right": "주다" }
+      ],
+      "explanation": "A1 핵심 동사들입니다."
+    },
+    {
+      "id": "ex145",
+      "type": "multiple_choice",
+      "question": "Complete: 'I like it ___'",
+      "options": ["too", "also", "very", "really"],
+      "answer": "too",
+      "explanation": "문장 끝에서는 'too'를 사용합니다."
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "question": "_____ not? (왜)",
+      "answer": ["Why"],
+      "explanation": "'Why not?'은 '왜 안 돼?'라는 뜻입니다."
+    },
+    {
+      "id": "ex147",
+      "type": "multiple_choice",
+      "question": "Which sentence shows contrast?",
+      "options": [
+        "I like coffee and tea.",
+        "I like coffee or tea.",
+        "I like coffee, but not tea.",
+        "I like coffee, so I drink it."
+      ],
+      "answer": "I like coffee, but not tea.",
+      "explanation": "'but'는 대조를 나타냅니다."
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "question": "I looked _____. (모든 곳을)",
+      "answer": ["everywhere"],
+      "explanation": "'everywhere'는 '모든 곳'이라는 뜻입니다."
+    },
+    {
+      "id": "ex149",
+      "type": "matching",
+      "question": "A1 복습: 접속사 용법을 연결하세요.",
+      "pairs": [
+        { "left": "and", "right": "A와 B를 더하기" },
+        { "left": "but", "right": "A이지만 B" },
+        { "left": "so", "right": "A, 그래서 B" },
+        { "left": "because", "right": "B이기 때문에 A" }
+      ],
+      "explanation": "A1 핵심 접속사 용법입니다."
+    },
+    {
+      "id": "ex150",
+      "type": "multiple_choice",
+      "question": "A1 복습: Which is the correct sentence?",
+      "options": [
+        "I very happy am.",
+        "I am very happy.",
+        "Very I am happy.",
+        "Happy very I am."
+      ],
+      "answer": "I am very happy.",
+      "explanation": "영어 문장 어순: 주어 + 동사 + 부사 + 형용사"
     }
   ]
 }

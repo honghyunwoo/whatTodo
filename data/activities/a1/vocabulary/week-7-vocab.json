@@ -2,208 +2,824 @@
   "id": "week-7-vocab",
   "weekId": "week-7",
   "type": "vocabulary",
-  "level": "B2",
+  "level": "A1",
   "title": "현재와 미래 관련 어휘",
   "description": "현재 활동과 미래 계획을 표현하는 데 필요한 동사와 표현을 배웁니다.",
 
   "words": [
     {
       "id": "w1",
-      "word": "study",
+      "word": "Study",
       "pronunciation": "/ˈstʌdi/",
       "partOfSpeech": "verb",
       "meaning": "공부하다",
       "example": "I am studying for my exam.",
       "exampleMeaning": "나는 시험을 위해 공부하고 있다.",
-      "ingForm": "studying"
+      "koreanPronunciationTip": "'스터디' - '어' 발음 주의",
+      "mnemonic": "Study = 공부하다 (-ing: studying)",
+      "ingForm": "studying",
+      "additionalExamples": [
+        { "sentence": "She studies English every day.", "meaning": "그녀는 매일 영어를 공부한다." }
+      ]
     },
     {
       "id": "w2",
-      "word": "work",
+      "word": "Work",
       "pronunciation": "/wɜːrk/",
       "partOfSpeech": "verb",
       "meaning": "일하다, 작업하다",
       "example": "She is working on a new project.",
       "exampleMeaning": "그녀는 새 프로젝트를 진행하고 있다.",
-      "ingForm": "working"
+      "koreanPronunciationTip": "'워크' - '어~' 길게",
+      "mnemonic": "Work = 일하다 (-ing: working)",
+      "ingForm": "working",
+      "confusableWords": [
+        { "word": "Job", "difference": "Work는 동사/명사, Job은 직업(명사)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I work at a bank.", "meaning": "나는 은행에서 일한다." }
+      ]
     },
     {
       "id": "w3",
-      "word": "plan",
+      "word": "Plan",
       "pronunciation": "/plæn/",
       "partOfSpeech": "verb/noun",
       "meaning": "계획하다 / 계획",
       "example": "We are planning a trip to Europe.",
       "exampleMeaning": "우리는 유럽 여행을 계획하고 있다.",
-      "ingForm": "planning"
+      "koreanPronunciationTip": "'플랜' - '애' 발음 주의",
+      "mnemonic": "Plan = 계획 (n 두 번: planning)",
+      "ingForm": "planning",
+      "additionalExamples": [
+        { "sentence": "What is your plan?", "meaning": "너의 계획이 뭐야?" }
+      ]
     },
     {
       "id": "w4",
-      "word": "meet",
+      "word": "Meet",
       "pronunciation": "/miːt/",
       "partOfSpeech": "verb",
       "meaning": "만나다",
       "example": "I'm meeting my friend tomorrow.",
       "exampleMeaning": "나는 내일 친구를 만날 예정이다.",
-      "ingForm": "meeting"
+      "koreanPronunciationTip": "'미트' - '이~' 길게",
+      "mnemonic": "Meet = 만나다 (-ing: meeting)",
+      "ingForm": "meeting",
+      "confusableWords": [
+        { "word": "Meat", "difference": "Meet=만나다, Meat=고기 (발음 동일)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Nice to meet you.", "meaning": "만나서 반가워요." }
+      ]
     },
     {
       "id": "w5",
-      "word": "visit",
+      "word": "Visit",
       "pronunciation": "/ˈvɪzɪt/",
       "partOfSpeech": "verb",
       "meaning": "방문하다",
       "example": "I am going to visit my grandparents.",
       "exampleMeaning": "나는 조부모님을 방문할 예정이다.",
-      "ingForm": "visiting"
+      "koreanPronunciationTip": "'비짓' - 'z' 소리 주의",
+      "mnemonic": "Visit = 방문하다 (-ing: visiting)",
+      "ingForm": "visiting",
+      "additionalExamples": [
+        { "sentence": "I visited Seoul last year.", "meaning": "작년에 서울을 방문했다." }
+      ]
     },
     {
       "id": "w6",
-      "word": "travel",
+      "word": "Travel",
       "pronunciation": "/ˈtrævl/",
       "partOfSpeech": "verb",
       "meaning": "여행하다",
       "example": "We're traveling to Japan next month.",
       "exampleMeaning": "우리는 다음 달에 일본으로 여행할 예정이다.",
-      "ingForm": "traveling"
+      "koreanPronunciationTip": "'트래블' - '애' 발음 주의",
+      "mnemonic": "Travel = 여행하다 (-ing: traveling)",
+      "ingForm": "traveling",
+      "confusableWords": [
+        { "word": "Trip", "difference": "Travel은 동사, Trip은 명사" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I love to travel.", "meaning": "나는 여행을 좋아한다." }
+      ]
     },
     {
       "id": "w7",
-      "word": "prepare",
+      "word": "Prepare",
       "pronunciation": "/prɪˈper/",
       "partOfSpeech": "verb",
       "meaning": "준비하다",
       "example": "I'm preparing for the presentation.",
       "exampleMeaning": "나는 프레젠테이션을 준비하고 있다.",
-      "ingForm": "preparing"
+      "koreanPronunciationTip": "'프리페어' - 강세 두 번째",
+      "mnemonic": "Prepare = 준비하다 (e 빼고 -ing)",
+      "ingForm": "preparing",
+      "additionalExamples": [
+        { "sentence": "Are you prepared?", "meaning": "준비됐어?" }
+      ]
     },
     {
       "id": "w8",
-      "word": "leave",
+      "word": "Leave",
       "pronunciation": "/liːv/",
       "partOfSpeech": "verb",
       "meaning": "떠나다, 출발하다",
       "example": "The train is leaving in five minutes.",
       "exampleMeaning": "기차가 5분 후에 출발한다.",
-      "ingForm": "leaving"
+      "koreanPronunciationTip": "'리브' - '이~' 길게",
+      "mnemonic": "Leave = 떠나다 (e 빼고 -ing: leaving)",
+      "ingForm": "leaving",
+      "confusableWords": [
+        { "word": "Live", "difference": "Leave=떠나다, Live=살다" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I leave at 8 AM.", "meaning": "나는 오전 8시에 출발한다." }
+      ]
     },
     {
       "id": "w9",
-      "word": "arrive",
+      "word": "Arrive",
       "pronunciation": "/əˈraɪv/",
       "partOfSpeech": "verb",
       "meaning": "도착하다",
       "example": "We will arrive at the airport at 6 PM.",
       "exampleMeaning": "우리는 오후 6시에 공항에 도착할 것이다.",
-      "ingForm": "arriving"
+      "koreanPronunciationTip": "'어라이브' - '아이' 이중모음",
+      "mnemonic": "Arrive = 도착하다 (e 빼고 -ing)",
+      "ingForm": "arriving",
+      "confusableWords": [
+        { "word": "Leave", "difference": "Arrive=도착, Leave=출발 (반대)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "What time will you arrive?", "meaning": "몇 시에 도착해?" }
+      ]
     },
     {
       "id": "w10",
-      "word": "start",
+      "word": "Start",
       "pronunciation": "/stɑːrt/",
       "partOfSpeech": "verb",
       "meaning": "시작하다",
       "example": "I'm starting a new job next week.",
       "exampleMeaning": "나는 다음 주에 새 직장을 시작한다.",
-      "ingForm": "starting"
+      "koreanPronunciationTip": "'스타트' - '아~' 길게",
+      "mnemonic": "Start = 시작하다 (-ing: starting)",
+      "ingForm": "starting",
+      "confusableWords": [
+        { "word": "Begin", "difference": "같은 의미, Start가 더 일상적" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Let's start!", "meaning": "시작하자!" }
+      ]
     },
     {
       "id": "w11",
-      "word": "finish",
+      "word": "Finish",
       "pronunciation": "/ˈfɪnɪʃ/",
       "partOfSpeech": "verb",
       "meaning": "끝내다",
       "example": "I will finish my homework tonight.",
       "exampleMeaning": "나는 오늘 밤 숙제를 끝낼 것이다.",
-      "ingForm": "finishing"
+      "koreanPronunciationTip": "'피니시' - 세 음절",
+      "mnemonic": "Finish = 끝내다 (-ing: finishing)",
+      "ingForm": "finishing",
+      "confusableWords": [
+        { "word": "End", "difference": "Finish는 완료, End는 종료" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Have you finished?", "meaning": "다 끝났어?" }
+      ]
     },
     {
       "id": "w12",
-      "word": "continue",
+      "word": "Continue",
       "pronunciation": "/kənˈtɪnjuː/",
       "partOfSpeech": "verb",
       "meaning": "계속하다",
       "example": "We're going to continue this discussion tomorrow.",
       "exampleMeaning": "우리는 내일 이 논의를 계속할 것이다.",
-      "ingForm": "continuing"
+      "koreanPronunciationTip": "'컨티뉴' - 강세 두 번째",
+      "mnemonic": "Continue = 계속하다 (e→ing)",
+      "ingForm": "continuing",
+      "additionalExamples": [
+        { "sentence": "Please continue.", "meaning": "계속하세요." }
+      ]
     },
     {
       "id": "w13",
-      "word": "change",
+      "word": "Change",
       "pronunciation": "/tʃeɪndʒ/",
       "partOfSpeech": "verb/noun",
       "meaning": "변화하다 / 변화",
       "example": "Technology is changing our lives.",
       "exampleMeaning": "기술이 우리 삶을 변화시키고 있다.",
-      "ingForm": "changing"
+      "koreanPronunciationTip": "'체인지' - '에이' 이중모음",
+      "mnemonic": "Change = 변화 (e 빼고 -ing)",
+      "ingForm": "changing",
+      "additionalExamples": [
+        { "sentence": "I need change.", "meaning": "잔돈이 필요해요." }
+      ]
     },
     {
       "id": "w14",
-      "word": "improve",
+      "word": "Improve",
       "pronunciation": "/ɪmˈpruːv/",
       "partOfSpeech": "verb",
       "meaning": "개선하다, 향상시키다",
       "example": "I'm trying to improve my English.",
       "exampleMeaning": "나는 영어 실력을 향상시키려고 노력하고 있다.",
-      "ingForm": "improving"
+      "koreanPronunciationTip": "'임프루브' - '우~' 길게",
+      "mnemonic": "Improve = 개선하다 (e 빼고 -ing)",
+      "ingForm": "improving",
+      "additionalExamples": [
+        { "sentence": "Your English is improving.", "meaning": "영어가 좋아지고 있네요." }
+      ]
     },
     {
       "id": "w15",
-      "word": "develop",
+      "word": "Develop",
       "pronunciation": "/dɪˈveləp/",
       "partOfSpeech": "verb",
       "meaning": "개발하다, 발전시키다",
       "example": "They are developing a new app.",
       "exampleMeaning": "그들은 새로운 앱을 개발하고 있다.",
-      "ingForm": "developing"
+      "koreanPronunciationTip": "'디벨롭' - 강세 두 번째",
+      "mnemonic": "Develop = 개발하다 (-ing: developing)",
+      "ingForm": "developing",
+      "additionalExamples": [
+        { "sentence": "I want to develop my skills.", "meaning": "실력을 발전시키고 싶다." }
+      ]
     },
     {
       "id": "w16",
-      "word": "predict",
+      "word": "Predict",
       "pronunciation": "/prɪˈdɪkt/",
       "partOfSpeech": "verb",
       "meaning": "예측하다",
       "example": "Scientists predict that the climate will change.",
       "exampleMeaning": "과학자들은 기후가 변화할 것이라고 예측한다.",
-      "ingForm": "predicting"
+      "koreanPronunciationTip": "'프리딕트' - 강세 두 번째",
+      "mnemonic": "Predict = 예측하다 (-ing: predicting)",
+      "ingForm": "predicting",
+      "confusableWords": [
+        { "word": "Expect", "difference": "Predict는 추측, Expect는 기대" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Can you predict the future?", "meaning": "미래를 예측할 수 있어?" }
+      ]
     },
     {
       "id": "w17",
-      "word": "promise",
+      "word": "Promise",
       "pronunciation": "/ˈprɑːmɪs/",
       "partOfSpeech": "verb/noun",
       "meaning": "약속하다 / 약속",
       "example": "I promise I will be there on time.",
       "exampleMeaning": "나는 제시간에 거기 있을 것을 약속한다.",
-      "ingForm": "promising"
+      "koreanPronunciationTip": "'프라미스' - 강세 첫 음절",
+      "mnemonic": "Promise = 약속 (e 빼고 -ing)",
+      "ingForm": "promising",
+      "additionalExamples": [
+        { "sentence": "Keep your promise.", "meaning": "약속을 지켜." }
+      ]
     },
     {
       "id": "w18",
-      "word": "decide",
+      "word": "Decide",
       "pronunciation": "/dɪˈsaɪd/",
       "partOfSpeech": "verb",
       "meaning": "결정하다",
       "example": "We are going to decide tomorrow.",
       "exampleMeaning": "우리는 내일 결정할 것이다.",
-      "ingForm": "deciding"
+      "koreanPronunciationTip": "'디사이드' - '아이' 이중모음",
+      "mnemonic": "Decide = 결정하다 (e 빼고 -ing)",
+      "ingForm": "deciding",
+      "confusableWords": [
+        { "word": "Choose", "difference": "Decide는 결정, Choose는 선택" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I can't decide.", "meaning": "결정 못 하겠어." }
+      ]
     },
     {
       "id": "w19",
-      "word": "currently",
+      "word": "Currently",
       "pronunciation": "/ˈkɜːrəntli/",
       "partOfSpeech": "adverb",
       "meaning": "현재, 지금",
       "example": "I am currently working from home.",
-      "exampleMeaning": "나는 현재 재택근무를 하고 있다."
+      "exampleMeaning": "나는 현재 재택근무를 하고 있다.",
+      "koreanPronunciationTip": "'커런틀리' - '어' 발음 주의",
+      "mnemonic": "Currently = 현재 (현재진행형과 함께)",
+      "confusableWords": [
+        { "word": "Now", "difference": "Currently가 더 격식적" }
+      ],
+      "additionalExamples": [
+        { "sentence": "What are you currently doing?", "meaning": "지금 뭐 하고 있어?" }
+      ]
     },
     {
       "id": "w20",
-      "word": "soon",
+      "word": "Soon",
       "pronunciation": "/suːn/",
       "partOfSpeech": "adverb",
       "meaning": "곧",
       "example": "I will contact you soon.",
-      "exampleMeaning": "나는 곧 당신에게 연락할 것이다."
+      "exampleMeaning": "나는 곧 당신에게 연락할 것이다.",
+      "koreanPronunciationTip": "'순' - '우~' 길게",
+      "mnemonic": "Soon = 곧 (미래 시제와 함께)",
+      "additionalExamples": [
+        { "sentence": "See you soon!", "meaning": "곧 봐!" }
+      ]
+    },
+    {
+      "id": "w21",
+      "word": "Tomorrow",
+      "pronunciation": "/təˈmɔːroʊ/",
+      "partOfSpeech": "adverb/noun",
+      "meaning": "내일",
+      "example": "I will call you tomorrow.",
+      "exampleMeaning": "내일 전화할게.",
+      "koreanPronunciationTip": "'투마로우' - 강세 두 번째",
+      "mnemonic": "Tomorrow = 내일 (미래 시제와 함께)",
+      "confusableWords": [
+        { "word": "Yesterday", "difference": "Tomorrow=내일, Yesterday=어제" }
+      ],
+      "additionalExamples": [
+        { "sentence": "See you tomorrow!", "meaning": "내일 봐!" }
+      ]
+    },
+    {
+      "id": "w22",
+      "word": "Today",
+      "pronunciation": "/təˈdeɪ/",
+      "partOfSpeech": "adverb/noun",
+      "meaning": "오늘",
+      "example": "What are you doing today?",
+      "exampleMeaning": "오늘 뭐 해?",
+      "koreanPronunciationTip": "'투데이' - '에이' 이중모음",
+      "mnemonic": "Today = 오늘 (현재 시제와 함께)",
+      "additionalExamples": [
+        { "sentence": "I'm busy today.", "meaning": "오늘 바빠." }
+      ]
+    },
+    {
+      "id": "w23",
+      "word": "Tonight",
+      "pronunciation": "/təˈnaɪt/",
+      "partOfSpeech": "adverb/noun",
+      "meaning": "오늘 밤",
+      "example": "I'm going out tonight.",
+      "exampleMeaning": "오늘 밤 외출할 거야.",
+      "koreanPronunciationTip": "'투나이트' - '아이' 이중모음",
+      "mnemonic": "Tonight = 오늘 밤 (to+night)",
+      "additionalExamples": [
+        { "sentence": "What's on TV tonight?", "meaning": "오늘 밤 TV에 뭐 해?" }
+      ]
+    },
+    {
+      "id": "w24",
+      "word": "Later",
+      "pronunciation": "/ˈleɪtər/",
+      "partOfSpeech": "adverb",
+      "meaning": "나중에",
+      "example": "I'll do it later.",
+      "exampleMeaning": "나중에 할게.",
+      "koreanPronunciationTip": "'레이터' - '에이' 이중모음",
+      "mnemonic": "Later = 나중에 (Late의 비교급)",
+      "additionalExamples": [
+        { "sentence": "See you later!", "meaning": "나중에 봐!" }
+      ]
+    },
+    {
+      "id": "w25",
+      "word": "Hope",
+      "pronunciation": "/hoʊp/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "희망하다 / 희망",
+      "example": "I hope you feel better soon.",
+      "exampleMeaning": "빨리 나아지길 바라.",
+      "koreanPronunciationTip": "'호프' - '오우' 이중모음",
+      "mnemonic": "Hope = 희망하다 (e 빼고 -ing)",
+      "ingForm": "hoping",
+      "confusableWords": [
+        { "word": "Wish", "difference": "Hope는 가능한 것, Wish는 불가능한 것" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I hope so.", "meaning": "그러길 바라." }
+      ]
+    },
+    {
+      "id": "w26",
+      "word": "Expect",
+      "pronunciation": "/ɪkˈspekt/",
+      "partOfSpeech": "verb",
+      "meaning": "기대하다, 예상하다",
+      "example": "I expect him to arrive at 5.",
+      "exampleMeaning": "그가 5시에 도착할 거라고 예상해.",
+      "koreanPronunciationTip": "'익스펙트' - 강세 두 번째",
+      "mnemonic": "Expect = 기대하다 (-ing: expecting)",
+      "ingForm": "expecting",
+      "confusableWords": [
+        { "word": "Wait", "difference": "Expect는 예상, Wait는 기다림" }
+      ],
+      "additionalExamples": [
+        { "sentence": "What do you expect?", "meaning": "뭘 기대해?" }
+      ]
+    },
+    {
+      "id": "w27",
+      "word": "Want",
+      "pronunciation": "/wɑːnt/",
+      "partOfSpeech": "verb",
+      "meaning": "원하다",
+      "example": "I want to go home.",
+      "exampleMeaning": "집에 가고 싶어.",
+      "koreanPronunciationTip": "'원트' - '아' 발음 주의",
+      "mnemonic": "Want = 원하다 (-ing: wanting)",
+      "ingForm": "wanting",
+      "confusableWords": [
+        { "word": "Need", "difference": "Want는 원함, Need는 필요" }
+      ],
+      "additionalExamples": [
+        { "sentence": "What do you want?", "meaning": "뭘 원해?" }
+      ]
+    },
+    {
+      "id": "w28",
+      "word": "Need",
+      "pronunciation": "/niːd/",
+      "partOfSpeech": "verb",
+      "meaning": "필요하다",
+      "example": "I need to study more.",
+      "exampleMeaning": "더 공부해야 해.",
+      "koreanPronunciationTip": "'니드' - '이~' 길게",
+      "mnemonic": "Need = 필요하다 (-ing: needing)",
+      "ingForm": "needing",
+      "confusableWords": [
+        { "word": "Want", "difference": "Need는 필요, Want는 원함" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I need help.", "meaning": "도움이 필요해." }
+      ]
+    },
+    {
+      "id": "w29",
+      "word": "Try",
+      "pronunciation": "/traɪ/",
+      "partOfSpeech": "verb",
+      "meaning": "시도하다, 노력하다",
+      "example": "I'm trying to learn Korean.",
+      "exampleMeaning": "한국어를 배우려고 노력하고 있어.",
+      "koreanPronunciationTip": "'트라이' - '아이' 이중모음",
+      "mnemonic": "Try = 시도하다 (y→i+ing: trying)",
+      "ingForm": "trying",
+      "additionalExamples": [
+        { "sentence": "Try again.", "meaning": "다시 시도해." }
+      ]
+    },
+    {
+      "id": "w30",
+      "word": "Learn",
+      "pronunciation": "/lɜːrn/",
+      "partOfSpeech": "verb",
+      "meaning": "배우다",
+      "example": "I'm learning to drive.",
+      "exampleMeaning": "운전을 배우고 있어.",
+      "koreanPronunciationTip": "'러른' - '어~' 길게",
+      "mnemonic": "Learn = 배우다 (-ing: learning)",
+      "ingForm": "learning",
+      "confusableWords": [
+        { "word": "Study", "difference": "Learn은 습득, Study는 공부 행위" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I learn something new every day.", "meaning": "매일 새로운 것을 배워." }
+      ]
+    },
+    {
+      "id": "w31",
+      "word": "Wait",
+      "pronunciation": "/weɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "기다리다",
+      "example": "I'm waiting for the bus.",
+      "exampleMeaning": "버스를 기다리고 있어.",
+      "koreanPronunciationTip": "'웨이트' - '에이' 이중모음",
+      "mnemonic": "Wait = 기다리다 (-ing: waiting)",
+      "ingForm": "waiting",
+      "confusableWords": [
+        { "word": "Weight", "difference": "Wait=기다리다, Weight=무게 (발음 동일)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Wait a moment.", "meaning": "잠깐 기다려." }
+      ]
+    },
+    {
+      "id": "w32",
+      "word": "Call",
+      "pronunciation": "/kɔːl/",
+      "partOfSpeech": "verb",
+      "meaning": "전화하다, 부르다",
+      "example": "I'll call you tomorrow.",
+      "exampleMeaning": "내일 전화할게.",
+      "koreanPronunciationTip": "'콜' - '오~' 길게",
+      "mnemonic": "Call = 전화하다 (-ing: calling)",
+      "ingForm": "calling",
+      "additionalExamples": [
+        { "sentence": "Who's calling?", "meaning": "누구세요? (전화)" }
+      ]
+    },
+    {
+      "id": "w33",
+      "word": "Send",
+      "pronunciation": "/send/",
+      "partOfSpeech": "verb",
+      "meaning": "보내다",
+      "example": "I'm sending an email.",
+      "exampleMeaning": "이메일을 보내고 있어.",
+      "koreanPronunciationTip": "'센드' - 짧게",
+      "mnemonic": "Send = 보내다 (-ing: sending)",
+      "ingForm": "sending",
+      "additionalExamples": [
+        { "sentence": "Please send me the file.", "meaning": "파일 좀 보내줘." }
+      ]
+    },
+    {
+      "id": "w34",
+      "word": "Move",
+      "pronunciation": "/muːv/",
+      "partOfSpeech": "verb",
+      "meaning": "움직이다, 이사하다",
+      "example": "We're moving to a new house.",
+      "exampleMeaning": "우리는 새 집으로 이사할 거야.",
+      "koreanPronunciationTip": "'무브' - '우~' 길게",
+      "mnemonic": "Move = 움직이다 (e 빼고 -ing)",
+      "ingForm": "moving",
+      "additionalExamples": [
+        { "sentence": "Don't move!", "meaning": "움직이지 마!" }
+      ]
+    },
+    {
+      "id": "w35",
+      "word": "Stay",
+      "pronunciation": "/steɪ/",
+      "partOfSpeech": "verb",
+      "meaning": "머무르다",
+      "example": "I'm staying at a hotel.",
+      "exampleMeaning": "호텔에 머무르고 있어.",
+      "koreanPronunciationTip": "'스테이' - '에이' 이중모음",
+      "mnemonic": "Stay = 머무르다 (-ing: staying)",
+      "ingForm": "staying",
+      "confusableWords": [
+        { "word": "Live", "difference": "Stay는 일시적, Live는 거주" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Stay here.", "meaning": "여기 있어." }
+      ]
+    },
+    {
+      "id": "w36",
+      "word": "Return",
+      "pronunciation": "/rɪˈtɜːrn/",
+      "partOfSpeech": "verb",
+      "meaning": "돌아오다, 반환하다",
+      "example": "I will return next week.",
+      "exampleMeaning": "다음 주에 돌아올 거야.",
+      "koreanPronunciationTip": "'리턴' - 강세 두 번째",
+      "mnemonic": "Return = 돌아오다 (-ing: returning)",
+      "ingForm": "returning",
+      "confusableWords": [
+        { "word": "Come back", "difference": "같은 의미, Return이 더 격식적" }
+      ],
+      "additionalExamples": [
+        { "sentence": "When will you return?", "meaning": "언제 돌아와?" }
+      ]
+    },
+    {
+      "id": "w37",
+      "word": "Begin",
+      "pronunciation": "/bɪˈɡɪn/",
+      "partOfSpeech": "verb",
+      "meaning": "시작하다",
+      "example": "The movie is beginning.",
+      "exampleMeaning": "영화가 시작하고 있어.",
+      "koreanPronunciationTip": "'비긴' - 강세 두 번째",
+      "mnemonic": "Begin = 시작하다 (n 두 번: beginning)",
+      "ingForm": "beginning",
+      "confusableWords": [
+        { "word": "Start", "difference": "같은 의미, Begin이 더 격식적" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Let's begin.", "meaning": "시작하자." }
+      ]
+    },
+    {
+      "id": "w38",
+      "word": "End",
+      "pronunciation": "/end/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "끝나다 / 끝",
+      "example": "The class is ending at 5.",
+      "exampleMeaning": "수업이 5시에 끝나.",
+      "koreanPronunciationTip": "'엔드' - 짧게",
+      "mnemonic": "End = 끝 (-ing: ending)",
+      "ingForm": "ending",
+      "confusableWords": [
+        { "word": "Finish", "difference": "End는 종료, Finish는 완료" }
+      ],
+      "additionalExamples": [
+        { "sentence": "The end.", "meaning": "끝." }
+      ]
+    },
+    {
+      "id": "w39",
+      "word": "Complete",
+      "pronunciation": "/kəmˈpliːt/",
+      "partOfSpeech": "verb/adjective",
+      "meaning": "완료하다 / 완전한",
+      "example": "I'm completing the task now.",
+      "exampleMeaning": "지금 작업을 완료하고 있어.",
+      "koreanPronunciationTip": "'컴플리트' - 강세 두 번째",
+      "mnemonic": "Complete = 완료하다 (e 빼고 -ing)",
+      "ingForm": "completing",
+      "additionalExamples": [
+        { "sentence": "Please complete the form.", "meaning": "양식을 완성해 주세요." }
+      ]
+    },
+    {
+      "id": "w40",
+      "word": "Always",
+      "pronunciation": "/ˈɔːlweɪz/",
+      "partOfSpeech": "adverb",
+      "meaning": "항상",
+      "example": "I always wake up early.",
+      "exampleMeaning": "나는 항상 일찍 일어나.",
+      "koreanPronunciationTip": "'올웨이즈' - '오~' 길게",
+      "mnemonic": "Always = 항상 (빈도 100%)",
+      "confusableWords": [
+        { "word": "Never", "difference": "Always=항상(100%), Never=절대 않음(0%)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "You're always late!", "meaning": "너 항상 늦어!" }
+      ]
+    },
+    {
+      "id": "w41",
+      "word": "Usually",
+      "pronunciation": "/ˈjuːʒuəli/",
+      "partOfSpeech": "adverb",
+      "meaning": "보통, 대개",
+      "example": "I usually go to bed at 11.",
+      "exampleMeaning": "나는 보통 11시에 잠자리에 들어.",
+      "koreanPronunciationTip": "'유주얼리' - 'zh' 소리 주의",
+      "mnemonic": "Usually = 보통 (빈도 약 80%)",
+      "additionalExamples": [
+        { "sentence": "What do you usually eat?", "meaning": "보통 뭐 먹어?" }
+      ]
+    },
+    {
+      "id": "w42",
+      "word": "Often",
+      "pronunciation": "/ˈɔːfn/",
+      "partOfSpeech": "adverb",
+      "meaning": "자주",
+      "example": "I often exercise in the morning.",
+      "exampleMeaning": "나는 자주 아침에 운동해.",
+      "koreanPronunciationTip": "'오픈' - 't' 묵음",
+      "mnemonic": "Often = 자주 (빈도 약 60%)",
+      "additionalExamples": [
+        { "sentence": "How often do you travel?", "meaning": "얼마나 자주 여행해?" }
+      ]
+    },
+    {
+      "id": "w43",
+      "word": "Sometimes",
+      "pronunciation": "/ˈsʌmtaɪmz/",
+      "partOfSpeech": "adverb",
+      "meaning": "때때로, 가끔",
+      "example": "I sometimes eat out.",
+      "exampleMeaning": "나는 가끔 외식해.",
+      "koreanPronunciationTip": "'섬타임즈' - '어' 발음 주의",
+      "mnemonic": "Sometimes = 가끔 (빈도 약 40%)",
+      "additionalExamples": [
+        { "sentence": "Sometimes I feel tired.", "meaning": "가끔 피곤해." }
+      ]
+    },
+    {
+      "id": "w44",
+      "word": "Never",
+      "pronunciation": "/ˈnevər/",
+      "partOfSpeech": "adverb",
+      "meaning": "절대 ~않다",
+      "example": "I never eat fast food.",
+      "exampleMeaning": "나는 절대 패스트푸드를 먹지 않아.",
+      "koreanPronunciationTip": "'네버' - '에' 발음 주의",
+      "mnemonic": "Never = 절대 않음 (빈도 0%)",
+      "confusableWords": [
+        { "word": "Ever", "difference": "Never=절대 않음, Ever=언젠가/한번이라도" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Never give up!", "meaning": "절대 포기하지 마!" }
+      ]
+    },
+    {
+      "id": "w45",
+      "word": "Next",
+      "pronunciation": "/nekst/",
+      "partOfSpeech": "adjective/adverb",
+      "meaning": "다음의",
+      "example": "I'll see you next week.",
+      "exampleMeaning": "다음 주에 보자.",
+      "koreanPronunciationTip": "'넥스트' - '넥' 강하게",
+      "mnemonic": "Next = 다음 (미래 표현과 함께)",
+      "confusableWords": [
+        { "word": "Last", "difference": "Next=다음, Last=지난" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Who's next?", "meaning": "다음 누구야?" }
+      ]
+    },
+    {
+      "id": "w46",
+      "word": "Finally",
+      "pronunciation": "/ˈfaɪnəli/",
+      "partOfSpeech": "adverb",
+      "meaning": "마침내, 드디어",
+      "example": "I finally finished my work.",
+      "exampleMeaning": "마침내 일을 끝냈어.",
+      "koreanPronunciationTip": "'파이널리' - '아이' 이중모음",
+      "mnemonic": "Finally = 마침내 (Final+ly)",
+      "additionalExamples": [
+        { "sentence": "Finally! You're here!", "meaning": "드디어! 왔구나!" }
+      ]
+    },
+    {
+      "id": "w47",
+      "word": "Maybe",
+      "pronunciation": "/ˈmeɪbi/",
+      "partOfSpeech": "adverb",
+      "meaning": "아마, 어쩌면",
+      "example": "Maybe I'll go tomorrow.",
+      "exampleMeaning": "아마 내일 갈지도 몰라.",
+      "koreanPronunciationTip": "'메이비' - '에이' 이중모음",
+      "mnemonic": "Maybe = 아마 (May+be)",
+      "confusableWords": [
+        { "word": "Perhaps", "difference": "같은 의미, Perhaps가 더 격식적" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Maybe later.", "meaning": "나중에 할게." }
+      ]
+    },
+    {
+      "id": "w48",
+      "word": "Probably",
+      "pronunciation": "/ˈprɑːbəbli/",
+      "partOfSpeech": "adverb",
+      "meaning": "아마도",
+      "example": "I'll probably be late.",
+      "exampleMeaning": "아마 늦을 거야.",
+      "koreanPronunciationTip": "'프라버블리' - 강세 첫 음절",
+      "mnemonic": "Probably = 아마도 (Maybe보다 확률 높음)",
+      "additionalExamples": [
+        { "sentence": "It will probably rain.", "meaning": "아마 비가 올 거야." }
+      ]
+    },
+    {
+      "id": "w49",
+      "word": "Already",
+      "pronunciation": "/ɔːlˈredi/",
+      "partOfSpeech": "adverb",
+      "meaning": "이미, 벌써",
+      "example": "I've already finished.",
+      "exampleMeaning": "이미 끝났어.",
+      "koreanPronunciationTip": "'올레디' - 강세 두 번째",
+      "mnemonic": "Already = 이미 (완료형과 함께)",
+      "confusableWords": [
+        { "word": "Yet", "difference": "Already=긍정문, Yet=부정문/의문문" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Are you already here?", "meaning": "벌써 왔어?" }
+      ]
+    },
+    {
+      "id": "w50",
+      "word": "Still",
+      "pronunciation": "/stɪl/",
+      "partOfSpeech": "adverb",
+      "meaning": "아직, 여전히",
+      "example": "I'm still working.",
+      "exampleMeaning": "아직 일하고 있어.",
+      "koreanPronunciationTip": "'스틸' - '이' 짧게",
+      "mnemonic": "Still = 아직 (진행 중 상태)",
+      "confusableWords": [
+        { "word": "Yet", "difference": "Still=긍정문, Yet=부정문" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Are you still there?", "meaning": "아직 거기 있어?" }
+      ]
     }
   ],
 
@@ -325,6 +941,1185 @@
       "options": ["항상", "결코", "곧", "때때로"],
       "answer": "곧",
       "explanation": "'soon'은 '곧'이라는 뜻입니다."
+    },
+    {
+      "id": "ex16",
+      "type": "fill_blank",
+      "question": "I will _____ you tomorrow. (전화하다)",
+      "answer": ["call"],
+      "explanation": "'call'은 '전화하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "What is the -ing form of 'begin'?",
+      "options": ["begining", "beginning", "beginining", "begining"],
+      "answer": "beginning",
+      "explanation": "'begin'은 n을 두 번 쓰고 -ing를 붙여 'beginning'이 됩니다."
+    },
+    {
+      "id": "ex18",
+      "type": "fill_blank",
+      "question": "I _____ (hope) to see you soon.",
+      "answer": ["hope"],
+      "explanation": "'hope'는 미래에 대한 희망을 나타냅니다."
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "Which word means '기다리다'?",
+      "options": ["want", "wait", "walk", "watch"],
+      "answer": "wait",
+      "explanation": "'wait'는 '기다리다'라는 뜻입니다."
+    },
+    {
+      "id": "ex20",
+      "type": "fill_blank",
+      "question": "What are you doing _____? (오늘)",
+      "answer": ["today"],
+      "explanation": "'today'는 '오늘'이라는 뜻입니다."
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "What does 'always' mean?",
+      "options": ["가끔", "항상", "절대", "보통"],
+      "answer": "항상",
+      "explanation": "'always'는 '항상'이라는 뜻입니다 (빈도 100%)."
+    },
+    {
+      "id": "ex22",
+      "type": "fill_blank",
+      "question": "I'm _____ (move) to a new house next month.",
+      "answer": ["moving"],
+      "explanation": "'move'는 e를 빼고 -ing를 붙여 'moving'이 됩니다."
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "Which adverb shows the lowest frequency?",
+      "options": ["always", "usually", "sometimes", "never"],
+      "answer": "never",
+      "explanation": "'never'는 빈도 0%로 가장 낮은 빈도를 나타냅니다."
+    },
+    {
+      "id": "ex24",
+      "type": "fill_blank",
+      "question": "I _____ (expect) him to arrive at 5.",
+      "answer": ["expect"],
+      "explanation": "'expect'는 '기대하다, 예상하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex25",
+      "type": "matching",
+      "question": "빈도 부사와 빈도를 연결하세요.",
+      "pairs": [
+        { "left": "always", "right": "100%" },
+        { "left": "usually", "right": "약 80%" },
+        { "left": "sometimes", "right": "약 40%" },
+        { "left": "never", "right": "0%" }
+      ],
+      "explanation": "빈도 부사는 행동의 빈도를 나타냅니다."
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "What is the -ing form of 'try'?",
+      "options": ["trying", "triing", "trysing", "tryying"],
+      "answer": "trying",
+      "explanation": "'try'는 y를 그대로 두고 -ing를 붙여 'trying'이 됩니다."
+    },
+    {
+      "id": "ex27",
+      "type": "fill_blank",
+      "question": "I'll see you _____ week. (다음)",
+      "answer": ["next"],
+      "explanation": "'next'는 '다음'이라는 뜻입니다."
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "Which sentence expresses present continuous?",
+      "options": [
+        "I study English.",
+        "I am studying English.",
+        "I will study English.",
+        "I studied English."
+      ],
+      "answer": "I am studying English.",
+      "explanation": "'am/is/are + -ing'는 현재 진행형을 나타냅니다."
+    },
+    {
+      "id": "ex29",
+      "type": "fill_blank",
+      "question": "I _____ finished my homework. (이미)",
+      "answer": ["already", "have already"],
+      "explanation": "'already'는 '이미'라는 뜻으로 완료를 나타냅니다."
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "What does 'maybe' mean?",
+      "options": ["확실히", "아마", "절대", "항상"],
+      "answer": "아마",
+      "explanation": "'maybe'는 '아마'라는 뜻으로 불확실성을 나타냅니다."
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "question": "I'm _____ (stay) at a hotel tonight.",
+      "answer": ["staying"],
+      "explanation": "'stay'의 -ing 형태는 'staying'입니다."
+    },
+    {
+      "id": "ex32",
+      "type": "matching",
+      "question": "동사와 -ing 형태를 연결하세요.",
+      "pairs": [
+        { "left": "plan", "right": "planning" },
+        { "left": "leave", "right": "leaving" },
+        { "left": "begin", "right": "beginning" },
+        { "left": "hope", "right": "hoping" }
+      ],
+      "explanation": "-ing 형태 규칙: 자음 두 번, e 빼기 등"
+    },
+    {
+      "id": "ex33",
+      "type": "multiple_choice",
+      "question": "Which word means '보내다'?",
+      "options": ["send", "spend", "lend", "bend"],
+      "answer": "send",
+      "explanation": "'send'는 '보내다'라는 뜻입니다."
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "I _____ (usually) go to bed at 11.",
+      "answer": ["usually"],
+      "explanation": "'usually'는 '보통'이라는 뜻입니다 (빈도 약 80%)."
+    },
+    {
+      "id": "ex35",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'start'?",
+      "options": ["begin", "continue", "finish", "change"],
+      "answer": "finish",
+      "explanation": "'start'의 반대말은 'finish'입니다."
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "I'm _____ (learn) to drive.",
+      "answer": ["learning"],
+      "explanation": "'learn'의 -ing 형태는 'learning'입니다."
+    },
+    {
+      "id": "ex37",
+      "type": "multiple_choice",
+      "question": "What does 'still' mean?",
+      "options": ["이미", "아직", "절대", "항상"],
+      "answer": "아직",
+      "explanation": "'still'은 '아직, 여전히'라는 뜻입니다."
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "I _____ (want) to go home.",
+      "answer": ["want"],
+      "explanation": "'want'는 '원하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex39",
+      "type": "multiple_choice",
+      "question": "Which is correct for expressing future plans?",
+      "options": [
+        "I go to Paris tomorrow.",
+        "I am going to Paris tomorrow.",
+        "I went to Paris tomorrow.",
+        "I going to Paris tomorrow."
+      ],
+      "answer": "I am going to Paris tomorrow.",
+      "explanation": "확정된 미래 계획은 현재 진행형으로 표현할 수 있습니다."
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "I will _____ (return) next week.",
+      "answer": ["return"],
+      "explanation": "'return'은 '돌아오다'라는 뜻입니다."
+    },
+    {
+      "id": "ex41",
+      "type": "matching",
+      "question": "시간 표현을 연결하세요.",
+      "pairs": [
+        { "left": "today", "right": "오늘" },
+        { "left": "tomorrow", "right": "내일" },
+        { "left": "tonight", "right": "오늘 밤" },
+        { "left": "later", "right": "나중에" }
+      ],
+      "explanation": "시간 표현을 정확히 알아야 합니다."
+    },
+    {
+      "id": "ex42",
+      "type": "multiple_choice",
+      "question": "What is the -ing form of 'complete'?",
+      "options": ["completeing", "completing", "completting", "complet"],
+      "answer": "completing",
+      "explanation": "'complete'는 e를 빼고 -ing를 붙여 'completing'이 됩니다."
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "I _____ (often) exercise in the morning.",
+      "answer": ["often"],
+      "explanation": "'often'은 '자주'라는 뜻입니다 (빈도 약 60%)."
+    },
+    {
+      "id": "ex44",
+      "type": "multiple_choice",
+      "question": "Which word means '필요하다'?",
+      "options": ["need", "want", "hope", "wish"],
+      "answer": "need",
+      "explanation": "'need'는 '필요하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "_____ I'll go tomorrow. (아마)",
+      "answer": ["Maybe", "Probably"],
+      "explanation": "'Maybe'와 'Probably'는 둘 다 '아마'라는 뜻입니다."
+    },
+    {
+      "id": "ex46",
+      "type": "multiple_choice",
+      "question": "What does 'finally' mean?",
+      "options": ["처음에", "마침내", "때때로", "항상"],
+      "answer": "마침내",
+      "explanation": "'finally'는 '마침내, 드디어'라는 뜻입니다."
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "I'm _____ (wait) for the bus.",
+      "answer": ["waiting"],
+      "explanation": "'wait'의 -ing 형태는 'waiting'입니다."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple_choice",
+      "question": "Which adverb shows the highest frequency?",
+      "options": ["sometimes", "often", "always", "usually"],
+      "answer": "always",
+      "explanation": "'always'는 빈도 100%로 가장 높은 빈도를 나타냅니다."
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "I _____ (never) eat fast food.",
+      "answer": ["never"],
+      "explanation": "'never'는 '절대 ~않다'라는 뜻입니다 (빈도 0%)."
+    },
+    {
+      "id": "ex50",
+      "type": "matching",
+      "question": "동사와 뜻을 연결하세요.",
+      "pairs": [
+        { "left": "arrive", "right": "도착하다" },
+        { "left": "leave", "right": "떠나다" },
+        { "left": "start", "right": "시작하다" },
+        { "left": "finish", "right": "끝내다" }
+      ],
+      "explanation": "기본 동사의 뜻을 알아야 합니다."
+    },
+    {
+      "id": "ex51",
+      "type": "multiple_choice",
+      "question": "What is the -ing form of 'send'?",
+      "options": ["sennding", "sending", "sendding", "senting"],
+      "answer": "sending",
+      "explanation": "'send'의 -ing 형태는 'sending'입니다."
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "I'm _____ working. (아직)",
+      "answer": ["still"],
+      "explanation": "'still'은 '아직, 여전히'라는 뜻입니다."
+    },
+    {
+      "id": "ex53",
+      "type": "multiple_choice",
+      "question": "Which sentence uses 'will' correctly?",
+      "options": [
+        "I will going home.",
+        "I will to go home.",
+        "I will go home.",
+        "I will went home."
+      ],
+      "answer": "I will go home.",
+      "explanation": "'will + 동사원형'으로 미래를 표현합니다."
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "I'm _____ (end) my work now.",
+      "answer": ["ending"],
+      "explanation": "'end'의 -ing 형태는 'ending'입니다."
+    },
+    {
+      "id": "ex55",
+      "type": "multiple_choice",
+      "question": "What does 'probably' mean?",
+      "options": ["절대로", "아마도", "가끔", "항상"],
+      "answer": "아마도",
+      "explanation": "'probably'는 '아마도'라는 뜻입니다 (높은 확률)."
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "She _____ (sometimes) cooks dinner.",
+      "answer": ["sometimes"],
+      "explanation": "'sometimes'는 '가끔'이라는 뜻입니다 (빈도 약 40%)."
+    },
+    {
+      "id": "ex57",
+      "type": "matching",
+      "question": "불확실성 표현을 연결하세요.",
+      "pairs": [
+        { "left": "maybe", "right": "아마 (낮은 확률)" },
+        { "left": "probably", "right": "아마도 (높은 확률)" },
+        { "left": "definitely", "right": "확실히" },
+        { "left": "possibly", "right": "어쩌면" }
+      ],
+      "explanation": "불확실성의 정도를 나타내는 부사입니다."
+    },
+    {
+      "id": "ex58",
+      "type": "multiple_choice",
+      "question": "Which is the opposite of 'arrive'?",
+      "options": ["come", "stay", "leave", "visit"],
+      "answer": "leave",
+      "explanation": "'arrive'의 반대말은 'leave'입니다."
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "I _____ (develop) a new app.",
+      "answer": ["am developing", "developing"],
+      "explanation": "'develop'의 -ing 형태는 'developing'입니다."
+    },
+    {
+      "id": "ex60",
+      "type": "multiple_choice",
+      "question": "What does 'currently' mean?",
+      "options": ["과거에", "현재", "미래에", "항상"],
+      "answer": "현재",
+      "explanation": "'currently'는 '현재, 지금'이라는 뜻입니다."
+    },
+    {
+      "id": "ex61",
+      "type": "fill_blank",
+      "question": "I'm going to _____ (visit) my grandparents.",
+      "answer": ["visit"],
+      "explanation": "'be going to + 동사원형'으로 미래 계획을 표현합니다."
+    },
+    {
+      "id": "ex62",
+      "type": "multiple_choice",
+      "question": "What is the -ing form of 'decide'?",
+      "options": ["decideing", "deciding", "decidding", "decid"],
+      "answer": "deciding",
+      "explanation": "'decide'는 e를 빼고 -ing를 붙여 'deciding'이 됩니다."
+    },
+    {
+      "id": "ex63",
+      "type": "fill_blank",
+      "question": "I _____ finished my work. (마침내)",
+      "answer": ["finally"],
+      "explanation": "'finally'는 '마침내'라는 뜻입니다."
+    },
+    {
+      "id": "ex64",
+      "type": "matching",
+      "question": "미래 표현을 연결하세요.",
+      "pairs": [
+        { "left": "will + 동사원형", "right": "예측, 약속" },
+        { "left": "be going to + 동사원형", "right": "계획, 의도" },
+        { "left": "현재 진행형", "right": "확정된 계획" },
+        { "left": "현재 시제", "right": "스케줄, 시간표" }
+      ],
+      "explanation": "영어의 다양한 미래 표현 방법입니다."
+    },
+    {
+      "id": "ex65",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "I meet her tomorrow.",
+        "I am meeting her tomorrow.",
+        "I met her tomorrow.",
+        "I meeting her tomorrow."
+      ],
+      "answer": "I am meeting her tomorrow.",
+      "explanation": "확정된 미래 계획은 현재 진행형으로 표현합니다."
+    },
+    {
+      "id": "ex66",
+      "type": "fill_blank",
+      "question": "I _____ (change) my job next month.",
+      "answer": ["am changing", "will change", "am going to change"],
+      "explanation": "미래 계획을 표현하는 다양한 방법입니다."
+    },
+    {
+      "id": "ex67",
+      "type": "multiple_choice",
+      "question": "What does 'continue' mean?",
+      "options": ["시작하다", "계속하다", "끝내다", "변화하다"],
+      "answer": "계속하다",
+      "explanation": "'continue'는 '계속하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex68",
+      "type": "fill_blank",
+      "question": "What time will you _____? (도착하다)",
+      "answer": ["arrive"],
+      "explanation": "'arrive'는 '도착하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex69",
+      "type": "multiple_choice",
+      "question": "Which is the correct order of frequency?",
+      "options": [
+        "never < sometimes < always",
+        "always < sometimes < never",
+        "sometimes < never < always",
+        "never < always < sometimes"
+      ],
+      "answer": "never < sometimes < always",
+      "explanation": "빈도 순서: never(0%) < sometimes(40%) < always(100%)"
+    },
+    {
+      "id": "ex70",
+      "type": "fill_blank",
+      "question": "I'm _____ (work) on a new project.",
+      "answer": ["working"],
+      "explanation": "'work'의 -ing 형태는 'working'입니다."
+    },
+    {
+      "id": "ex71",
+      "type": "multiple_choice",
+      "question": "What is the -ing form of 'continue'?",
+      "options": ["continueing", "continuing", "contining", "continueig"],
+      "answer": "continuing",
+      "explanation": "'continue'는 e를 빼고 -ing를 붙여 'continuing'이 됩니다."
+    },
+    {
+      "id": "ex72",
+      "type": "fill_blank",
+      "question": "I _____ (hope) you feel better soon.",
+      "answer": ["hope"],
+      "explanation": "'hope'는 희망을 나타내는 동사입니다."
+    },
+    {
+      "id": "ex73",
+      "type": "matching",
+      "question": "반대 동사를 연결하세요.",
+      "pairs": [
+        { "left": "start", "right": "finish" },
+        { "left": "arrive", "right": "leave" },
+        { "left": "begin", "right": "end" },
+        { "left": "improve", "right": "worsen" }
+      ],
+      "explanation": "반대 의미를 가진 동사 쌍입니다."
+    },
+    {
+      "id": "ex74",
+      "type": "multiple_choice",
+      "question": "Which sentence expresses habit?",
+      "options": [
+        "I am eating breakfast.",
+        "I always eat breakfast.",
+        "I ate breakfast.",
+        "I will eat breakfast."
+      ],
+      "answer": "I always eat breakfast.",
+      "explanation": "빈도 부사와 현재 시제로 습관을 표현합니다."
+    },
+    {
+      "id": "ex75",
+      "type": "fill_blank",
+      "question": "I _____ to study more. (필요하다)",
+      "answer": ["need"],
+      "explanation": "'need'는 '필요하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex76",
+      "type": "multiple_choice",
+      "question": "What does 'predict' mean?",
+      "options": ["약속하다", "예측하다", "결정하다", "준비하다"],
+      "answer": "예측하다",
+      "explanation": "'predict'는 '예측하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex77",
+      "type": "fill_blank",
+      "question": "I'll _____ you soon. (전화하다)",
+      "answer": ["call"],
+      "explanation": "'call'은 '전화하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex78",
+      "type": "multiple_choice",
+      "question": "What is the -ing form of 'improve'?",
+      "options": ["improveing", "improving", "improvving", "improv"],
+      "answer": "improving",
+      "explanation": "'improve'는 e를 빼고 -ing를 붙여 'improving'이 됩니다."
+    },
+    {
+      "id": "ex79",
+      "type": "fill_blank",
+      "question": "I _____ (promise) to help you.",
+      "answer": ["promise"],
+      "explanation": "'promise'는 '약속하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex80",
+      "type": "matching",
+      "question": "시간 부사와 시제를 연결하세요.",
+      "pairs": [
+        { "left": "tomorrow", "right": "미래" },
+        { "left": "yesterday", "right": "과거" },
+        { "left": "now", "right": "현재" },
+        { "left": "soon", "right": "가까운 미래" }
+      ],
+      "explanation": "시간 부사는 특정 시제와 함께 사용됩니다."
+    },
+    {
+      "id": "ex81",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "I am want to go.",
+        "I wanting to go.",
+        "I want to go.",
+        "I want going."
+      ],
+      "answer": "I want to go.",
+      "explanation": "'want'는 상태 동사로 진행형을 잘 쓰지 않습니다."
+    },
+    {
+      "id": "ex82",
+      "type": "fill_blank",
+      "question": "The movie is _____ (begin) now.",
+      "answer": ["beginning"],
+      "explanation": "'begin'은 n을 두 번 쓰고 -ing를 붙입니다."
+    },
+    {
+      "id": "ex83",
+      "type": "multiple_choice",
+      "question": "What does 'prepare' mean?",
+      "options": ["준비하다", "결정하다", "변화하다", "예측하다"],
+      "answer": "준비하다",
+      "explanation": "'prepare'는 '준비하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex84",
+      "type": "fill_blank",
+      "question": "I _____ (usually) wake up at 7.",
+      "answer": ["usually"],
+      "explanation": "'usually'는 '보통'이라는 뜻입니다."
+    },
+    {
+      "id": "ex85",
+      "type": "multiple_choice",
+      "question": "What is the difference between 'want' and 'need'?",
+      "options": [
+        "They are the same",
+        "Want is stronger",
+        "Need implies necessity",
+        "There is no difference"
+      ],
+      "answer": "Need implies necessity",
+      "explanation": "'need'는 필요성을, 'want'는 원함을 나타냅니다."
+    },
+    {
+      "id": "ex86",
+      "type": "fill_blank",
+      "question": "I'm _____ (try) to learn English.",
+      "answer": ["trying"],
+      "explanation": "'try'의 -ing 형태는 'trying'입니다."
+    },
+    {
+      "id": "ex87",
+      "type": "matching",
+      "question": "동사와 전치사를 연결하세요.",
+      "pairs": [
+        { "left": "wait", "right": "for" },
+        { "left": "arrive", "right": "at" },
+        { "left": "prepare", "right": "for" },
+        { "left": "work", "right": "on" }
+      ],
+      "explanation": "동사와 자주 쓰이는 전치사입니다."
+    },
+    {
+      "id": "ex88",
+      "type": "multiple_choice",
+      "question": "Which sentence uses 'be going to' correctly?",
+      "options": [
+        "I going to study.",
+        "I am going study.",
+        "I am going to study.",
+        "I going to studying."
+      ],
+      "answer": "I am going to study.",
+      "explanation": "'be going to + 동사원형'으로 미래를 표현합니다."
+    },
+    {
+      "id": "ex89",
+      "type": "fill_blank",
+      "question": "See you _____! (나중에)",
+      "answer": ["later"],
+      "explanation": "'later'는 '나중에'라는 뜻입니다."
+    },
+    {
+      "id": "ex90",
+      "type": "multiple_choice",
+      "question": "What does 'develop' mean?",
+      "options": ["개발하다", "방문하다", "여행하다", "만나다"],
+      "answer": "개발하다",
+      "explanation": "'develop'은 '개발하다, 발전시키다'라는 뜻입니다."
+    },
+    {
+      "id": "ex91",
+      "type": "fill_blank",
+      "question": "I _____ (decide) to quit my job.",
+      "answer": ["decided", "have decided"],
+      "explanation": "'decide'는 '결정하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex92",
+      "type": "multiple_choice",
+      "question": "Which word is NOT a frequency adverb?",
+      "options": ["always", "tomorrow", "usually", "never"],
+      "answer": "tomorrow",
+      "explanation": "'tomorrow'은 시간 부사이지 빈도 부사가 아닙니다."
+    },
+    {
+      "id": "ex93",
+      "type": "fill_blank",
+      "question": "I _____ (expect) you to come on time.",
+      "answer": ["expect"],
+      "explanation": "'expect'는 '기대하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex94",
+      "type": "matching",
+      "question": "-ing 형태 규칙을 연결하세요.",
+      "pairs": [
+        { "left": "run → running", "right": "자음 두 번" },
+        { "left": "make → making", "right": "e 빼기" },
+        { "left": "study → studying", "right": "y 유지" },
+        { "left": "play → playing", "right": "그대로 +ing" }
+      ],
+      "explanation": "-ing 형태를 만드는 다양한 규칙입니다."
+    },
+    {
+      "id": "ex95",
+      "type": "multiple_choice",
+      "question": "Which sentence expresses a promise?",
+      "options": [
+        "I am going home.",
+        "I promise I will help you.",
+        "I am working now.",
+        "I studied yesterday."
+      ],
+      "answer": "I promise I will help you.",
+      "explanation": "'promise + will'로 약속을 표현합니다."
+    },
+    {
+      "id": "ex96",
+      "type": "fill_blank",
+      "question": "I'm _____ (plan) a trip to Europe.",
+      "answer": ["planning"],
+      "explanation": "'plan'은 n을 두 번 쓰고 -ing를 붙입니다."
+    },
+    {
+      "id": "ex97",
+      "type": "multiple_choice",
+      "question": "What does 'improve' mean?",
+      "options": ["악화시키다", "개선하다", "유지하다", "파괴하다"],
+      "answer": "개선하다",
+      "explanation": "'improve'는 '개선하다, 향상시키다'라는 뜻입니다."
+    },
+    {
+      "id": "ex98",
+      "type": "fill_blank",
+      "question": "I _____ here. (아직)",
+      "answer": ["am still", "still am"],
+      "explanation": "'still'은 '아직'이라는 뜻입니다."
+    },
+    {
+      "id": "ex99",
+      "type": "multiple_choice",
+      "question": "Which is correct?",
+      "options": [
+        "I already finished.",
+        "I finished already.",
+        "I have already finished.",
+        "Both A and C"
+      ],
+      "answer": "Both A and C",
+      "explanation": "'already'는 다양한 위치에서 사용할 수 있습니다."
+    },
+    {
+      "id": "ex100",
+      "type": "fill_blank",
+      "question": "I'm _____ (travel) to Japan next month.",
+      "answer": ["traveling", "travelling"],
+      "explanation": "'travel'의 -ing 형태: traveling (미국식) / travelling (영국식)"
+    },
+    {
+      "id": "ex101",
+      "type": "multiple_choice",
+      "question": "What does 'finally' mean?",
+      "options": ["처음에", "마침내", "항상", "절대"],
+      "answer": "마침내",
+      "explanation": "'finally'는 '마침내'라는 뜻입니다."
+    },
+    {
+      "id": "ex102",
+      "type": "fill_blank",
+      "question": "_____ you come to my party? (올 거니?)",
+      "answer": ["Will"],
+      "explanation": "'Will you...?'는 미래 의문문입니다."
+    },
+    {
+      "id": "ex103",
+      "type": "multiple_choice",
+      "question": "Which word means '아마도'?",
+      "options": ["never", "always", "maybe", "already"],
+      "answer": "maybe",
+      "explanation": "'maybe'는 '아마도'라는 뜻입니다."
+    },
+    {
+      "id": "ex104",
+      "type": "fill_blank",
+      "question": "I'm _____ (send) you an email now.",
+      "answer": ["sending"],
+      "explanation": "'send'의 -ing 형태는 'sending'입니다."
+    },
+    {
+      "id": "ex105",
+      "type": "matching",
+      "question": "반대 의미의 단어를 연결하세요.",
+      "pairs": [
+        { "left": "begin", "right": "end" },
+        { "left": "stay", "right": "leave" },
+        { "left": "always", "right": "never" },
+        { "left": "early", "right": "late" }
+      ],
+      "explanation": "반대 의미의 단어 쌍입니다."
+    },
+    {
+      "id": "ex106",
+      "type": "multiple_choice",
+      "question": "What does 'return' mean?",
+      "options": ["떠나다", "돌아오다", "머무르다", "움직이다"],
+      "answer": "돌아오다",
+      "explanation": "'return'은 '돌아오다'라는 뜻입니다."
+    },
+    {
+      "id": "ex107",
+      "type": "fill_blank",
+      "question": "I _____ (hope) you feel better soon.",
+      "answer": ["hope"],
+      "explanation": "'hope'는 '바라다'라는 뜻입니다."
+    },
+    {
+      "id": "ex108",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "I will meeting you.",
+        "I will to meet you.",
+        "I will meet you.",
+        "I will meets you."
+      ],
+      "answer": "I will meet you.",
+      "explanation": "'will + 동사원형'으로 미래를 표현합니다."
+    },
+    {
+      "id": "ex109",
+      "type": "fill_blank",
+      "question": "She is _____ (move) to a new house.",
+      "answer": ["moving"],
+      "explanation": "'move'는 e를 빼고 -ing를 붙입니다."
+    },
+    {
+      "id": "ex110",
+      "type": "multiple_choice",
+      "question": "What does 'complete' mean?",
+      "options": ["시작하다", "완료하다", "포기하다", "지연시키다"],
+      "answer": "완료하다",
+      "explanation": "'complete'는 '완료하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex111",
+      "type": "fill_blank",
+      "question": "_____ me when you arrive. (전화해)",
+      "answer": ["Call"],
+      "explanation": "'call'은 '전화하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex112",
+      "type": "matching",
+      "question": "시간 표현과 의미를 연결하세요.",
+      "pairs": [
+        { "left": "tonight", "right": "오늘 밤" },
+        { "left": "tomorrow", "right": "내일" },
+        { "left": "next week", "right": "다음 주" },
+        { "left": "later", "right": "나중에" }
+      ],
+      "explanation": "미래를 나타내는 시간 표현입니다."
+    },
+    {
+      "id": "ex113",
+      "type": "multiple_choice",
+      "question": "What is the difference between 'probably' and 'maybe'?",
+      "options": [
+        "They are the same",
+        "Probably is more certain",
+        "Maybe is more certain",
+        "There is no difference"
+      ],
+      "answer": "Probably is more certain",
+      "explanation": "'probably'가 'maybe'보다 더 확실한 표현입니다."
+    },
+    {
+      "id": "ex114",
+      "type": "fill_blank",
+      "question": "I'm _____ (wait) for the bus.",
+      "answer": ["waiting"],
+      "explanation": "'wait'의 -ing 형태는 'waiting'입니다."
+    },
+    {
+      "id": "ex115",
+      "type": "multiple_choice",
+      "question": "Which word means '배우다'?",
+      "options": ["teach", "learn", "study", "read"],
+      "answer": "learn",
+      "explanation": "'learn'은 '배우다'라는 뜻입니다."
+    },
+    {
+      "id": "ex116",
+      "type": "fill_blank",
+      "question": "I need _____ (buy) some groceries.",
+      "answer": ["to buy"],
+      "explanation": "'need + to + 동사원형'으로 필요성을 표현합니다."
+    },
+    {
+      "id": "ex117",
+      "type": "multiple_choice",
+      "question": "What does 'stay' mean?",
+      "options": ["떠나다", "머무르다", "도착하다", "움직이다"],
+      "answer": "머무르다",
+      "explanation": "'stay'는 '머무르다'라는 뜻입니다."
+    },
+    {
+      "id": "ex118",
+      "type": "fill_blank",
+      "question": "The class will _____ (begin) at 9 o'clock.",
+      "answer": ["begin"],
+      "explanation": "'begin'은 '시작하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex119",
+      "type": "matching",
+      "question": "빈도 부사와 빈도를 연결하세요.",
+      "pairs": [
+        { "left": "always", "right": "100%" },
+        { "left": "usually", "right": "80%" },
+        { "left": "sometimes", "right": "50%" },
+        { "left": "never", "right": "0%" }
+      ],
+      "explanation": "빈도 부사는 얼마나 자주 하는지를 나타냅니다."
+    },
+    {
+      "id": "ex120",
+      "type": "multiple_choice",
+      "question": "Which sentence uses 'try' correctly?",
+      "options": [
+        "I try to learning English.",
+        "I try learn English.",
+        "I try to learn English.",
+        "I try to learned English."
+      ],
+      "answer": "I try to learn English.",
+      "explanation": "'try + to + 동사원형'으로 '~하려고 노력하다'를 표현합니다."
+    },
+    {
+      "id": "ex121",
+      "type": "fill_blank",
+      "question": "I _____ (often) go to the gym.",
+      "answer": ["often"],
+      "explanation": "'often'은 '자주'라는 뜻입니다."
+    },
+    {
+      "id": "ex122",
+      "type": "multiple_choice",
+      "question": "What does 'end' mean?",
+      "options": ["시작하다", "계속하다", "끝나다", "반복하다"],
+      "answer": "끝나다",
+      "explanation": "'end'는 '끝나다'라는 뜻입니다."
+    },
+    {
+      "id": "ex123",
+      "type": "fill_blank",
+      "question": "_____ you help me? (도와줄 수 있어?)",
+      "answer": ["Can", "Could", "Will"],
+      "explanation": "요청할 때 'Can/Could/Will you...?'를 사용합니다."
+    },
+    {
+      "id": "ex124",
+      "type": "multiple_choice",
+      "question": "What is the -ing form of 'run'?",
+      "options": ["runing", "running", "runeing", "runnng"],
+      "answer": "running",
+      "explanation": "'run'은 n을 두 번 쓰고 -ing를 붙입니다."
+    },
+    {
+      "id": "ex125",
+      "type": "fill_blank",
+      "question": "I'm _____ (learn) Korean.",
+      "answer": ["learning"],
+      "explanation": "'learn'의 -ing 형태는 'learning'입니다."
+    },
+    {
+      "id": "ex126",
+      "type": "matching",
+      "question": "동사와 의미를 연결하세요.",
+      "pairs": [
+        { "left": "hope", "right": "바라다" },
+        { "left": "expect", "right": "기대하다" },
+        { "left": "want", "right": "원하다" },
+        { "left": "need", "right": "필요하다" }
+      ],
+      "explanation": "바람과 필요를 나타내는 동사들입니다."
+    },
+    {
+      "id": "ex127",
+      "type": "multiple_choice",
+      "question": "Which sentence is about the future?",
+      "options": [
+        "I went to school.",
+        "I am at school.",
+        "I will go to school.",
+        "I was at school."
+      ],
+      "answer": "I will go to school.",
+      "explanation": "'will'은 미래 시제를 나타냅니다."
+    },
+    {
+      "id": "ex128",
+      "type": "fill_blank",
+      "question": "See you _____ week! (다음)",
+      "answer": ["next"],
+      "explanation": "'next week'은 '다음 주'라는 뜻입니다."
+    },
+    {
+      "id": "ex129",
+      "type": "multiple_choice",
+      "question": "What does 'already' mean?",
+      "options": ["아직", "이미", "절대", "항상"],
+      "answer": "이미",
+      "explanation": "'already'는 '이미'라는 뜻입니다."
+    },
+    {
+      "id": "ex130",
+      "type": "fill_blank",
+      "question": "He is _____ (still) sleeping.",
+      "answer": ["still"],
+      "explanation": "'still'은 '아직'이라는 뜻입니다."
+    },
+    {
+      "id": "ex131",
+      "type": "multiple_choice",
+      "question": "Which is NOT correct?",
+      "options": [
+        "I am always happy.",
+        "I always am happy.",
+        "Always I am happy.",
+        "Both B and C"
+      ],
+      "answer": "Both B and C",
+      "explanation": "빈도 부사는 보통 be동사 뒤, 일반동사 앞에 옵니다."
+    },
+    {
+      "id": "ex132",
+      "type": "fill_blank",
+      "question": "I'm _____ (call) my mom now.",
+      "answer": ["calling"],
+      "explanation": "'call'의 -ing 형태는 'calling'입니다."
+    },
+    {
+      "id": "ex133",
+      "type": "matching",
+      "question": "현재 진행형을 사용하는 상황을 연결하세요.",
+      "pairs": [
+        { "left": "now", "right": "현재 행동" },
+        { "left": "at the moment", "right": "현재 순간" },
+        { "left": "tomorrow", "right": "미래 계획" },
+        { "left": "these days", "right": "요즘 상황" }
+      ],
+      "explanation": "현재 진행형은 현재 행동과 가까운 미래 계획에 사용됩니다."
+    },
+    {
+      "id": "ex134",
+      "type": "multiple_choice",
+      "question": "What does 'move' mean?",
+      "options": ["멈추다", "움직이다", "앉다", "서다"],
+      "answer": "움직이다",
+      "explanation": "'move'는 '움직이다, 이사하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex135",
+      "type": "fill_blank",
+      "question": "I _____ (want) to eat pizza.",
+      "answer": ["want"],
+      "explanation": "'want'는 상태 동사로 진행형을 잘 쓰지 않습니다."
+    },
+    {
+      "id": "ex136",
+      "type": "multiple_choice",
+      "question": "Which word means '시도하다'?",
+      "options": ["try", "buy", "fly", "cry"],
+      "answer": "try",
+      "explanation": "'try'는 '시도하다'라는 뜻입니다."
+    },
+    {
+      "id": "ex137",
+      "type": "fill_blank",
+      "question": "_____ (Maybe) it will rain tomorrow.",
+      "answer": ["Maybe"],
+      "explanation": "'maybe'는 '아마도'라는 뜻입니다."
+    },
+    {
+      "id": "ex138",
+      "type": "multiple_choice",
+      "question": "What is the -ing form of 'stop'?",
+      "options": ["stoping", "stopping", "stopeing", "stoppng"],
+      "answer": "stopping",
+      "explanation": "'stop'은 p를 두 번 쓰고 -ing를 붙입니다."
+    },
+    {
+      "id": "ex139",
+      "type": "fill_blank",
+      "question": "The party will _____ (end) at midnight.",
+      "answer": ["end"],
+      "explanation": "'end'는 '끝나다'라는 뜻입니다."
+    },
+    {
+      "id": "ex140",
+      "type": "matching",
+      "question": "단어와 -ing 형태를 연결하세요.",
+      "pairs": [
+        { "left": "sit", "right": "sitting" },
+        { "left": "write", "right": "writing" },
+        { "left": "play", "right": "playing" },
+        { "left": "swim", "right": "swimming" }
+      ],
+      "explanation": "-ing 형태를 만드는 다양한 규칙입니다."
+    },
+    {
+      "id": "ex141",
+      "type": "multiple_choice",
+      "question": "Which sentence expresses a plan?",
+      "options": [
+        "I played tennis yesterday.",
+        "I am playing tennis.",
+        "I am going to play tennis tomorrow.",
+        "I play tennis every day."
+      ],
+      "answer": "I am going to play tennis tomorrow.",
+      "explanation": "'be going to'는 미래 계획을 표현합니다."
+    },
+    {
+      "id": "ex142",
+      "type": "fill_blank",
+      "question": "I _____ (never) eat breakfast.",
+      "answer": ["never"],
+      "explanation": "'never'는 '절대 ~않다'라는 뜻입니다."
+    },
+    {
+      "id": "ex143",
+      "type": "multiple_choice",
+      "question": "What does 'soon' mean?",
+      "options": ["이전에", "나중에", "곧", "항상"],
+      "answer": "곧",
+      "explanation": "'soon'은 '곧'이라는 뜻입니다."
+    },
+    {
+      "id": "ex144",
+      "type": "fill_blank",
+      "question": "I'm _____ (stay) at home today.",
+      "answer": ["staying"],
+      "explanation": "'stay'의 -ing 형태는 'staying'입니다."
+    },
+    {
+      "id": "ex145",
+      "type": "multiple_choice",
+      "question": "Which word means '기다리다'?",
+      "options": ["work", "walk", "wait", "want"],
+      "answer": "wait",
+      "explanation": "'wait'는 '기다리다'라는 뜻입니다."
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "question": "I will _____ (return) the book tomorrow.",
+      "answer": ["return"],
+      "explanation": "'return'은 '돌려주다, 돌아오다'라는 뜻입니다."
+    },
+    {
+      "id": "ex147",
+      "type": "matching",
+      "question": "미래 표현과 사용 상황을 연결하세요.",
+      "pairs": [
+        { "left": "will", "right": "즉흥적 결정" },
+        { "left": "be going to", "right": "미리 계획한 것" },
+        { "left": "present continuous", "right": "확정된 약속" },
+        { "left": "might", "right": "불확실한 미래" }
+      ],
+      "explanation": "미래를 표현하는 다양한 방법입니다."
+    },
+    {
+      "id": "ex148",
+      "type": "multiple_choice",
+      "question": "What is the -ing form of 'die'?",
+      "options": ["dieing", "dying", "diing", "dieying"],
+      "answer": "dying",
+      "explanation": "'die'는 ie를 y로 바꾸고 -ing를 붙입니다."
+    },
+    {
+      "id": "ex149",
+      "type": "fill_blank",
+      "question": "I'm _____ (complete) my homework now.",
+      "answer": ["completing"],
+      "explanation": "'complete'는 e를 빼고 -ing를 붙입니다."
+    },
+    {
+      "id": "ex150",
+      "type": "multiple_choice",
+      "question": "Which sentence is about a future promise?",
+      "options": [
+        "I am eating lunch.",
+        "I will help you, I promise.",
+        "I helped you yesterday.",
+        "I help my mom every day."
+      ],
+      "answer": "I will help you, I promise.",
+      "explanation": "'will + promise'로 미래의 약속을 표현합니다."
     }
   ]
 }

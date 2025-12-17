@@ -85,7 +85,9 @@ export function PronunciationFeedback({
   const [checkedCriteria, setCheckedCriteria] = useState<Set<string>>(new Set());
   const [isTTSPlaying, setIsTTSPlaying] = useState(false);
   const [isPlayingRecording, setIsPlayingRecording] = useState(false);
-  const [selectedRating, setSelectedRating] = useState<'excellent' | 'good' | 'needs_practice' | null>(null);
+  const [selectedRating, setSelectedRating] = useState<
+    'excellent' | 'good' | 'needs_practice' | null
+  >(null);
   const playbackTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   // Cleanup timer on unmount
@@ -106,7 +108,7 @@ export function PronunciationFeedback({
   // ─────────────────────────────────────
 
   const handleToggleCriterion = useCallback((id: string) => {
-    setCheckedCriteria(prev => {
+    setCheckedCriteria((prev) => {
       const next = new Set(prev);
       if (next.has(id)) {
         next.delete(id);
@@ -118,28 +120,31 @@ export function PronunciationFeedback({
     learnHaptics.selection();
   }, []);
 
-  const handlePlayModel = useCallback(async (speed: 'slow' | 'normal') => {
-    if (isTTSPlaying) {
-      await speechService.stopTTS();
-      setIsTTSPlaying(false);
-      return;
-    }
-
-    try {
-      setIsTTSPlaying(true);
-      learnHaptics.selection();
-
-      if (speed === 'slow') {
-        await speechService.playSlowPronunciation(expectedText);
-      } else {
-        await speechService.playNormalPronunciation(expectedText);
+  const handlePlayModel = useCallback(
+    async (speed: 'slow' | 'normal') => {
+      if (isTTSPlaying) {
+        await speechService.stopTTS();
+        setIsTTSPlaying(false);
+        return;
       }
-    } catch (error) {
-      console.error('TTS playback failed:', error);
-    } finally {
-      setIsTTSPlaying(false);
-    }
-  }, [isTTSPlaying, expectedText]);
+
+      try {
+        setIsTTSPlaying(true);
+        learnHaptics.selection();
+
+        if (speed === 'slow') {
+          await speechService.playSlowPronunciation(expectedText);
+        } else {
+          await speechService.playNormalPronunciation(expectedText);
+        }
+      } catch (error) {
+        console.error('TTS playback failed:', error);
+      } finally {
+        setIsTTSPlaying(false);
+      }
+    },
+    [isTTSPlaying, expectedText]
+  );
 
   const handlePlayRecording = useCallback(async () => {
     if (!recordedAudioUri) return;
@@ -161,11 +166,14 @@ export function PronunciationFeedback({
     }
   }, [recordedAudioUri, isPlayingRecording]);
 
-  const handleSelectRating = useCallback((rating: 'excellent' | 'good' | 'needs_practice') => {
-    setSelectedRating(rating);
-    learnHaptics.selection();
-    onSelfEvaluate?.(rating);
-  }, [onSelfEvaluate]);
+  const handleSelectRating = useCallback(
+    (rating: 'excellent' | 'good' | 'needs_practice') => {
+      setSelectedRating(rating);
+      learnHaptics.selection();
+      onSelfEvaluate?.(rating);
+    },
+    [onSelfEvaluate]
+  );
 
   const handleRetry = useCallback(() => {
     learnHaptics.impact();
@@ -193,17 +201,13 @@ export function PronunciationFeedback({
           <Card style={[styles.textCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}>
             <Card.Content>
               <View style={styles.textHeader}>
-                <MaterialCommunityIcons
-                  name="text-box-outline"
-                  size={20}
-                  color={COLORS.primary}
-                />
+                <MaterialCommunityIcons name="text-box-outline" size={20} color={COLORS.primary} />
                 <Text style={[styles.textLabel, { color: colors.textSecondary }]}>
                   Practice Text
                 </Text>
               </View>
               <Text style={[styles.expectedText, { color: colors.text }]}>
-                "{expectedText}"
+                &ldquo;{expectedText}&rdquo;
               </Text>
             </Card.Content>
           </Card>
@@ -215,7 +219,12 @@ export function PronunciationFeedback({
           animate={{ opacity: 1, translateY: 0 }}
           transition={{ type: 'spring', damping: 15, delay: 100 }}
         >
-          <Card style={[styles.comparisonCard, { backgroundColor: isDark ? '#1C1C1E' : COLORS.background }]}>
+          <Card
+            style={[
+              styles.comparisonCard,
+              { backgroundColor: isDark ? '#1C1C1E' : COLORS.background },
+            ]}
+          >
             <Card.Content>
               <Text style={[styles.sectionTitle, { color: colors.text }]}>
                 Compare Your Pronunciation
@@ -227,9 +236,7 @@ export function PronunciationFeedback({
               <View style={styles.playbackButtons}>
                 {/* Model Pronunciation */}
                 <View style={styles.playbackColumn}>
-                  <Text style={[styles.playbackLabel, { color: colors.textSecondary }]}>
-                    Model
-                  </Text>
+                  <Text style={[styles.playbackLabel, { color: colors.textSecondary }]}>Model</Text>
                   <View style={styles.modelButtons}>
                     <Pressable
                       style={[
@@ -243,9 +250,7 @@ export function PronunciationFeedback({
                         size={20}
                         color={COLORS.primary}
                       />
-                      <Text style={[styles.playButtonText, { color: colors.text }]}>
-                        Slow
-                      </Text>
+                      <Text style={[styles.playButtonText, { color: colors.text }]}>Slow</Text>
                     </Pressable>
 
                     <Pressable
@@ -260,9 +265,7 @@ export function PronunciationFeedback({
                         size={20}
                         color={COLORS.primary}
                       />
-                      <Text style={[styles.playButtonText, { color: colors.text }]}>
-                        Normal
-                      </Text>
+                      <Text style={[styles.playButtonText, { color: colors.text }]}>Normal</Text>
                     </Pressable>
                   </View>
                 </View>
@@ -280,7 +283,9 @@ export function PronunciationFeedback({
                       styles.myRecordingButton,
                       {
                         backgroundColor: recordedAudioUri
-                          ? (isPlayingRecording ? '#f59e0b' : '#22c55e')
+                          ? isPlayingRecording
+                            ? '#f59e0b'
+                            : '#22c55e'
                           : COLORS.border,
                       },
                     ]}
@@ -308,7 +313,9 @@ export function PronunciationFeedback({
           animate={{ opacity: 1, translateY: 0 }}
           transition={{ type: 'spring', damping: 15, delay: 200 }}
         >
-          <Card style={[styles.criteriaCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}>
+          <Card
+            style={[styles.criteriaCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
+          >
             <Card.Content>
               <View style={styles.criteriaHeader}>
                 <MaterialCommunityIcons
@@ -316,9 +323,7 @@ export function PronunciationFeedback({
                   size={20}
                   color={COLORS.primary}
                 />
-                <Text style={[styles.sectionTitle, { color: colors.text }]}>
-                  Self-Check
-                </Text>
+                <Text style={[styles.sectionTitle, { color: colors.text }]}>Self-Check</Text>
                 <Text style={[styles.criteriaCount, { color: colors.textSecondary }]}>
                   {checkedCount}/{totalCriteria}
                 </Text>
@@ -335,14 +340,18 @@ export function PronunciationFeedback({
                         {
                           backgroundColor: isChecked
                             ? 'rgba(34, 197, 94, 0.1)'
-                            : isDark ? '#1C1C1E' : COLORS.background,
+                            : isDark
+                              ? '#1C1C1E'
+                              : COLORS.background,
                           borderColor: isChecked ? '#22c55e' : 'transparent',
                         },
                       ]}
                       onPress={() => handleToggleCriterion(criterion.id)}
                     >
                       <MaterialCommunityIcons
-                        name={isChecked ? 'checkbox-marked-circle' : 'checkbox-blank-circle-outline'}
+                        name={
+                          isChecked ? 'checkbox-marked-circle' : 'checkbox-blank-circle-outline'
+                        }
                         size={24}
                         color={isChecked ? '#22c55e' : colors.textSecondary}
                       />
@@ -362,7 +371,9 @@ export function PronunciationFeedback({
                             {criterion.label}
                           </Text>
                         </View>
-                        <Text style={[styles.criterionDescription, { color: colors.textSecondary }]}>
+                        <Text
+                          style={[styles.criterionDescription, { color: colors.textSecondary }]}
+                        >
                           {criterion.description}
                         </Text>
                       </View>
@@ -380,7 +391,9 @@ export function PronunciationFeedback({
           animate={{ opacity: 1, translateY: 0 }}
           transition={{ type: 'spring', damping: 15, delay: 300 }}
         >
-          <Card style={[styles.ratingCard, { backgroundColor: isDark ? '#1C1C1E' : COLORS.background }]}>
+          <Card
+            style={[styles.ratingCard, { backgroundColor: isDark ? '#1C1C1E' : COLORS.background }]}
+          >
             <Card.Content>
               <Text style={[styles.sectionTitle, { color: colors.text }]}>
                 How would you rate your attempt?
@@ -391,7 +404,12 @@ export function PronunciationFeedback({
                   style={[
                     styles.ratingButton,
                     {
-                      backgroundColor: selectedRating === 'excellent' ? '#22c55e' : isDark ? '#2C2C2E' : COLORS.surface,
+                      backgroundColor:
+                        selectedRating === 'excellent'
+                          ? '#22c55e'
+                          : isDark
+                            ? '#2C2C2E'
+                            : COLORS.surface,
                       borderColor: selectedRating === 'excellent' ? '#22c55e' : 'transparent',
                     },
                   ]}
@@ -416,7 +434,8 @@ export function PronunciationFeedback({
                   style={[
                     styles.ratingButton,
                     {
-                      backgroundColor: selectedRating === 'good' ? '#3b82f6' : isDark ? '#2C2C2E' : COLORS.surface,
+                      backgroundColor:
+                        selectedRating === 'good' ? '#3b82f6' : isDark ? '#2C2C2E' : COLORS.surface,
                       borderColor: selectedRating === 'good' ? '#3b82f6' : 'transparent',
                     },
                   ]}
@@ -441,7 +460,12 @@ export function PronunciationFeedback({
                   style={[
                     styles.ratingButton,
                     {
-                      backgroundColor: selectedRating === 'needs_practice' ? '#f59e0b' : isDark ? '#2C2C2E' : COLORS.surface,
+                      backgroundColor:
+                        selectedRating === 'needs_practice'
+                          ? '#f59e0b'
+                          : isDark
+                            ? '#2C2C2E'
+                            : COLORS.surface,
                       borderColor: selectedRating === 'needs_practice' ? '#f59e0b' : 'transparent',
                     },
                   ]}
@@ -473,19 +497,15 @@ export function PronunciationFeedback({
           transition={{ type: 'spring', damping: 15, delay: 400 }}
         >
           <View style={[styles.tipsContainer, { backgroundColor: 'rgba(245, 158, 11, 0.1)' }]}>
-            <MaterialCommunityIcons
-              name="lightbulb-outline"
-              size={20}
-              color="#f59e0b"
-            />
+            <MaterialCommunityIcons name="lightbulb-outline" size={20} color="#f59e0b" />
             <View style={styles.tipsContent}>
               <Text style={styles.tipsTitle}>Tips for improvement:</Text>
               <Text style={[styles.tipsText, { color: colors.textSecondary }]}>
                 {checkedCount < 2
                   ? 'Try speaking slower and focus on each word. Listen to the model multiple times.'
                   : checkedCount < totalCriteria
-                  ? 'Good progress! Pay attention to the unchecked areas for improvement.'
-                  : 'Great job! Keep practicing to maintain your pronunciation skills.'}
+                    ? 'Good progress! Pay attention to the unchecked areas for improvement.'
+                    : 'Great job! Keep practicing to maintain your pronunciation skills.'}
               </Text>
             </View>
           </View>
@@ -499,20 +519,11 @@ export function PronunciationFeedback({
           style={styles.actionsContainer}
         >
           <Pressable
-            style={[
-              styles.retryButton,
-              { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface },
-            ]}
+            style={[styles.retryButton, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
             onPress={handleRetry}
           >
-            <MaterialCommunityIcons
-              name="replay"
-              size={20}
-              color={COLORS.primary}
-            />
-            <Text style={[styles.retryButtonText, { color: COLORS.primary }]}>
-              Try Again
-            </Text>
+            <MaterialCommunityIcons name="replay" size={20} color={COLORS.primary} />
+            <Text style={[styles.retryButtonText, { color: COLORS.primary }]}>Try Again</Text>
           </Pressable>
 
           <Pressable
@@ -520,11 +531,7 @@ export function PronunciationFeedback({
             onPress={handleContinue}
           >
             <Text style={styles.continueButtonText}>Continue</Text>
-            <MaterialCommunityIcons
-              name="arrow-right"
-              size={20}
-              color="#fff"
-            />
+            <MaterialCommunityIcons name="arrow-right" size={20} color="#fff" />
           </Pressable>
         </MotiView>
       </ScrollView>

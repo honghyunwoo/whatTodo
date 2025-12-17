@@ -31,11 +31,7 @@ export default function LevelTestScreen() {
           headerShown: true,
           title: '레벨 테스트',
           headerLeft: () => (
-            <IconButton
-              icon="close"
-              onPress={handleCancel}
-              iconColor={COLORS.text}
-            />
+            <IconButton icon="close" onPress={handleCancel} iconColor={COLORS.text} />
           ),
           headerStyle: { backgroundColor: COLORS.surface },
           headerTitleStyle: { color: COLORS.text },
