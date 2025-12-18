@@ -18,7 +18,8 @@
       "bundleIdentifier": "com.honghyunwoo.whattodo",
       "buildNumber": "1",
       "infoPlist": {
-        "NSMicrophoneUsageDescription": "영어 발음 연습을 위해 마이크 접근이 필요합니다."
+        "NSMicrophoneUsageDescription": "영어 발음 연습을 위해 마이크 접근이 필요합니다.",
+        "NSSpeechRecognitionUsageDescription": "음성 인식을 위해 권한이 필요합니다."
       }
     },
     "android": {
@@ -30,7 +31,8 @@
       },
       "edgeToEdgeEnabled": true,
       "permissions": [
-        "RECORD_AUDIO"
+        "RECORD_AUDIO",
+        "android.permission.SCHEDULE_EXACT_ALARM"
       ]
     },
     "web": {
@@ -45,7 +47,20 @@
         {
           "microphonePermission": "영어 발음 연습을 위해 마이크 접근이 필요합니다."
         }
+      ],
+      "@sentry/react-native/expo",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#4A90D9"
+        }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0ebda4ee-0bed-4f8f-91fe-913f500fbbf8"
+      }
+    }
   }
 }
