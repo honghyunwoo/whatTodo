@@ -3,7 +3,7 @@
 > 프로젝트 관련 모든 중요 정보를 기록하는 문서입니다.
 > 나중에 프로젝트를 다시 볼 때 빠르게 상황을 파악할 수 있습니다.
 
-**최종 업데이트**: 2025-12-13
+**최종 업데이트**: 2025-12-19
 
 ---
 
@@ -28,6 +28,7 @@ whatTodo/
 │   │   ├── index.tsx       # Todo 탭
 │   │   ├── game.tsx        # 2048 게임 탭
 │   │   └── learn.tsx       # 영어 학습 탭
+│   ├── settings.tsx        # 설정 화면 (백업/복원)
 │   └── _layout.tsx         # 루트 레이아웃
 ├── components/             # UI 컴포넌트
 │   ├── common/             # 공용 컴포넌트 (BlurModal, EmptyState 등)
@@ -42,14 +43,30 @@ whatTodo/
 │   └── typography.ts       # 타이포그래피
 ├── services/               # 서비스 레이어
 │   ├── hapticService.ts    # 햅틱 피드백
-│   └── soundService.ts     # 사운드 (미구현)
+│   ├── soundService.ts     # 사운드
+│   ├── notificationService.ts  # 학습 리마인더 알림
+│   ├── feedbackService.ts  # 피드백 서비스
+│   └── speechService.ts    # 음성 인식/TTS
 ├── store/                  # Zustand 스토어
+│   ├── taskStore.ts        # Todo 상태 관리
+│   ├── gameStore.ts        # 2048 게임 상태
+│   ├── learnStore.ts       # 학습 진행 상태
+│   ├── streakStore.ts      # 스트릭 관리
+│   └── userStore.ts        # 사용자 설정
+├── utils/                  # 유틸리티
+│   ├── backup.ts           # 백업/복원 기능
+│   ├── activityLoader.ts   # 학습 콘텐츠 로더
+│   └── sentry.ts           # 에러 모니터링
 ├── hooks/                  # 커스텀 훅
 ├── assets/                 # 에셋
 │   └── animations/         # Lottie JSON 파일
 ├── patches/                # node_modules 패치 파일
 │   └── _ctx.web.js         # expo-router 웹 컨텍스트 패치
-└── docs/                   # 문서
+├── docs/                   # 문서
+│   ├── PROJECT_KNOWLEDGE.md    # 프로젝트 지식 베이스
+│   └── backup_instructions.md  # 백업/복원 가이드
+└── data/                   # 학습 데이터
+    └── activities/         # A1~C2 학습 활동 (288개 파일)
 ```
 
 ### 주요 의존성 (SDK 51)
@@ -64,6 +81,10 @@ whatTodo/
   "expo-blur": "~13.0.3",
   "expo-haptics": "~13.0.1",
   "expo-speech": "~12.0.2",
+  "expo-notifications": "~0.28.0",
+  "expo-device": "latest",
+  "@react-native-community/datetimepicker": "latest",
+  "@sentry/react-native": "^5.22.0",
   "@expo/webpack-config": "latest",
   "@lottiefiles/react-lottie-player": "latest"
 }
@@ -427,20 +448,136 @@ npx expo run:ios
 ### 해결된 이슈
 - [x] 웹 빌드 시 import.meta 에러 → SDK 51 + Webpack으로 해결
 - [x] expo-router Webpack 경로 에러 → _ctx.web.js 패치로 해결
+- [x] 분산된 브랜치 통합 → 2025-12-19 완료
+- [x] 심리학 시스템 부담 → 제거 완료
+- [x] 백업/복원 기능 → 구현 완료
+- [x] 상용화 설정 → EAS Build + Sentry 완료
 
 ### 알려진 이슈
-- [ ] soundService 미구현
 - [ ] npm install 후 _ctx.web.js 패치 재적용 필요
+- [ ] Settings 화면 네비게이션 미연결 (수동 URL 접근만 가능)
 
 ### 향후 개선 사항
 - [ ] patch-package로 패치 자동화
-- [ ] 오프라인 지원 (AsyncStorage 활용)
-- [ ] 푸시 알림
+- [ ] Settings 탭/버튼 추가
+- [ ] 서버 푸시 알림 (현재는 로컬 알림만)
 - [ ] 위젯 지원
+- [ ] C1/C2 음성 녹음 콘텐츠 추가
 
 ---
 
-## 8. 참고 자료
+## 8. 브랜치 통합 히스토리
+
+### 8.1 2025-12-19: 전체 브랜치 통합 (Production Ready)
+
+**목표**: 분산된 4개 브랜치를 선택적으로 통합하여 main 브랜치로 병합
+
+**통합 전략**
+- 기준 브랜치: `origin/claude/load-recent-commit-V73iw` (가장 안정적, 콘텐츠 풍부)
+- 작업 브랜치: `integrate-all-features` (통합 작업용)
+- 백업 브랜치: `backup-before-merge` (안전장치)
+
+**통합된 기능**
+
+| 브랜치 | 주요 기능 | 파일 수 | 상태 |
+|--------|----------|---------|------|
+| V73iw | A1~C2 완전한 학습 콘텐츠, UI 개선 | 220개 | ✅ 통합 |
+| codex | 백업/복원 시스템 | 4개 | ✅ 통합 |
+| 7vKOB | 학습 리마인더 알림 | 1개 | ✅ 부분 통합 |
+| cPmvt | EAS Build + Sentry 설정 | 3개 | ✅ 통합 |
+
+**제거된 기능 (사용자 부담 완화)**
+- ❌ 심리학 시스템 (XP, Combo, 진행률 압박)
+  - DailyGoalProgress 컴포넌트
+  - StreakWarning 컴포넌트
+  - XPPopup 컴포넌트
+  - ComboIndicator 컴포넌트
+  - SessionCompleteModal 컴포넌트
+- ❌ 스트릭 경고 알림 (부담스러운 푸시)
+- ❌ 축하 알림 (스트릭과 강하게 결합)
+
+**통합 단계**
+
+**Phase 0: 사전 준비**
+```bash
+git branch backup-before-merge
+git checkout -b integrate-all-features
+```
+
+**Phase 1: V73iw 기준 병합**
+- 220개 파일 병합
+- A1~C2 완전한 학습 콘텐츠 포함 (C1/C2는 이미 V73iw에 포함)
+- TypeScript 에러 0개 확인
+
+**Phase 2: 백업 시스템 통합**
+- `utils/backup.ts` - AsyncStorage 백업/복원
+- `app/settings.tsx` - 설정 화면
+- `constants/storage.ts` - 스토리지 키 정의 (8개 키)
+- `docs/backup_instructions.md` - 사용자 가이드
+- 의존성 추가: expo-notifications, expo-device, @react-native-community/datetimepicker, @sentry/react-native
+
+**Phase 3: C1/C2 데이터**
+- V73iw에 이미 포함되어 자동 완료
+- 96개 활동 파일 (grammar, listening, reading, speaking, writing, vocabulary × 8주)
+
+**Phase 4: 심리학 시스템 제거**
+- 5개 컴포넌트 삭제 (1,994줄 삭제)
+- `notificationService.ts`에서 스트릭 경고 로직 제거
+- VocabularyView, QuizView, AnswerFeedback 단순화
+- 학습 리마인더 기능만 유지
+
+**Phase 5: 상용화 설정 통합**
+- `app.json` 수정:
+  - iOS: NSSpeechRecognitionUsageDescription 추가
+  - Android: SCHEDULE_EXACT_ALARM 권한 추가
+  - Sentry 플러그인 추가
+  - expo-notifications 플러그인 설정
+  - EAS project ID 설정
+- `eas.json`, `utils/sentry.ts` 확인
+
+**Phase 6: 통합 검증**
+- TypeScript 에러: 0개
+- ESLint 경고: 일부 있으나 모두 허용 가능 수준
+- 빌드 준비 완료
+
+**최종 결과**
+```
+232 files changed
+89,505 insertions(+)
+2,236 deletions(-)
+```
+
+**병합 커밋**
+```bash
+git checkout main
+git merge integrate-all-features --no-ff
+git push origin main
+```
+
+**주요 파일 변경**
+- `app.json` - 상용화 설정 추가
+- `constants/storage.ts` - 8개 스토리지 키 정의
+- `services/notificationService.ts` - 학습 리마인더만 유지
+- `components/learn/*` - 심리학 요소 제거
+- `data/activities/c1/**` - 48개 C1 활동 파일
+- `data/activities/c2/**` - 48개 C2 활동 파일
+
+**프로젝트 철학 유지**
+- ✅ 품질 우선 (Quality over speed)
+- ✅ 부담 없는 앱 (No pressure)
+- ✅ 코드 품질 최우선 (Code quality first)
+- ✅ TypeScript strict mode
+- ✅ 테스트 통과
+
+**앱 배포 준비 완료**
+- ✅ EAS Build 설정 완료
+- ✅ Sentry 에러 모니터링 준비
+- ✅ 앱 스토어 제출을 위한 권한 설정 완료
+- ✅ 중간점검 배포 준비 완료
+
+---
+
+## 9. 참고 자료
 
 - [Expo 문서](https://docs.expo.dev/)
 - [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/)
