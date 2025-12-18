@@ -16,9 +16,7 @@ export { VocabularyView } from './VocabularyView';
 export { WeekSelector } from './WeekSelector';
 export { WritingView } from './WritingView';
 
-// Phase 0.5 Enhanced Components
-export { SessionCompleteModal } from './SessionCompleteModal';
-export { ComboIndicator } from './ComboIndicator';
+// Enhanced Components
 export { AnswerFeedback } from './AnswerFeedback';
 export { PersonalizedHeader } from './PersonalizedHeader';
 

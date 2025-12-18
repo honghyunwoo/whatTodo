@@ -1,6 +1,6 @@
 /**
- * Activity Detail Screen - Phase 0.5 Enhanced
- * 학습 활동 상세 화면 with SessionCompleteModal
+ * Activity Detail Screen
+ * 학습 활동 상세 화면
  */
 
 import { Stack, useLocalSearchParams, router } from 'expo-router';
@@ -15,13 +15,11 @@ import {
   SpeakingView,
   VocabularyView,
   WritingView,
-  SessionCompleteModal,
 } from '@/components/learn';
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { useLearnStore } from '@/store/learnStore';
 import { useStreakStore } from '@/store/streakStore';
-import { notificationService } from '@/services/notificationService';
 import {
   ActivityType,
   GrammarActivity,
@@ -53,13 +51,7 @@ export default function ActivityDetailScreen() {
   const { type, weekId } = useLocalSearchParams<{ type: ActivityType; weekId: string }>();
   const currentLevel = useLearnStore((state) => state.currentLevel);
   const markActivityComplete = useLearnStore((state) => state.markActivityComplete);
-  const streak = useStreakStore((state) => state.currentStreak);
   const updateStreak = useStreakStore((state) => state.updateStreak);
-
-  // Session complete modal state
-  const [showCompleteModal, setShowCompleteModal] = useState(false);
-  const [sessionScore, setSessionScore] = useState(0);
-  const [sessionXP, setSessionXP] = useState(0);
 
   // 레벨 데이터 로딩 상태
   const [isLoading, setIsLoading] = useState(!isLevelLoaded(currentLevel));
@@ -111,43 +103,17 @@ export default function ActivityDetailScreen() {
   }, [type, weekId, currentLevel]);
 
   const handleComplete = useCallback(
-    async (score: number, xpEarned?: number) => {
+    (score: number, xpEarned?: number) => {
       if (activity && weekId && type) {
         markActivityComplete(activity.id, weekId, type as ActivityType, score);
         updateStreak(); // Update streak on completion
       }
 
-      // Handle notification updates
-      await notificationService.onLearningComplete(streak + 1);
-
-      // Show completion modal
-      setSessionScore(score);
-      setSessionXP(xpEarned || Math.round(score / 10) * 10); // Fallback XP calculation
-      setShowCompleteModal(true);
-    },
-    [activity, weekId, type, markActivityComplete, updateStreak, streak]
-  );
-
-  const handleOneMore = useCallback(() => {
-    setShowCompleteModal(false);
-
-    const nextActivity = getNextActivity();
-    if (nextActivity) {
-      // Navigate to next activity
-      router.replace({
-        pathname: '/learn/[type]',
-        params: { type: nextActivity.type, weekId: nextActivity.weekId },
-      });
-    } else {
-      // No more activities, go back to learn screen
+      // Navigate back to learn screen
       router.back();
-    }
-  }, [getNextActivity]);
-
-  const handleGoHome = useCallback(() => {
-    setShowCompleteModal(false);
-    router.back();
-  }, []);
+    },
+    [activity, weekId, type, markActivityComplete, updateStreak]
+  );
 
   const handleBack = useCallback(() => {
     router.back();
@@ -228,18 +194,6 @@ export default function ActivityDetailScreen() {
         }}
       />
       {renderActivityView()}
-
-      {/* Session Complete Modal */}
-      <SessionCompleteModal
-        visible={showCompleteModal}
-        score={sessionScore}
-        xpEarned={sessionXP}
-        streak={streak}
-        perfectScore={sessionScore === 100}
-        activityType={type as string}
-        onOneMore={handleOneMore}
-        onGoHome={handleGoHome}
-      />
     </View>
   );
 }
