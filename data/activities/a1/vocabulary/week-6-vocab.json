@@ -2,230 +2,924 @@
   "id": "week-6-vocab",
   "weekId": "week-6",
   "type": "vocabulary",
-  "level": "B1",
+  "level": "A1",
   "title": "비교 표현 어휘",
   "description": "비교급과 최상급에 자주 사용되는 형용사와 부사를 배웁니다.",
 
   "words": [
     {
       "id": "w1",
-      "word": "tall",
+      "word": "Tall",
       "pronunciation": "/tɔːl/",
       "partOfSpeech": "adjective",
       "meaning": "키가 큰, 높은",
       "example": "He is taller than his brother.",
       "exampleMeaning": "그는 그의 형보다 키가 더 크다.",
+      "koreanPronunciationTip": "'톨' - '토'에서 입을 크게",
+      "mnemonic": "Tall = 크다 (키, 높이)",
       "comparative": "taller",
-      "superlative": "tallest"
+      "superlative": "tallest",
+      "confusableWords": [
+        { "word": "High", "difference": "Tall은 사람/건물 키, High는 높이/고도" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She is the tallest in her class.", "meaning": "그녀는 반에서 가장 키가 크다." }
+      ]
     },
     {
       "id": "w2",
-      "word": "short",
+      "word": "Short",
       "pronunciation": "/ʃɔːrt/",
       "partOfSpeech": "adjective",
       "meaning": "키가 작은, 짧은",
       "example": "This book is shorter than that one.",
       "exampleMeaning": "이 책이 저 책보다 더 짧다.",
+      "koreanPronunciationTip": "'숏' - '쇼'에서 시작",
+      "mnemonic": "Short = 짧다/작다",
       "comparative": "shorter",
-      "superlative": "shortest"
+      "superlative": "shortest",
+      "confusableWords": [
+        { "word": "Small", "difference": "Short는 길이/키, Small은 크기 전반" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I need a shorter pencil.", "meaning": "더 짧은 연필이 필요해요." }
+      ]
     },
     {
       "id": "w3",
-      "word": "big",
+      "word": "Big",
       "pronunciation": "/bɪɡ/",
       "partOfSpeech": "adjective",
       "meaning": "큰",
       "example": "Tokyo is bigger than Seoul.",
       "exampleMeaning": "도쿄는 서울보다 더 크다.",
+      "koreanPronunciationTip": "'빅' - 짧고 강하게",
+      "mnemonic": "Big = 큰 (자음 두 번: bigger, biggest)",
       "comparative": "bigger",
-      "superlative": "biggest"
+      "superlative": "biggest",
+      "confusableWords": [
+        { "word": "Large", "difference": "Big은 일상적, Large는 좀 더 격식" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the biggest pizza I've seen.", "meaning": "이것은 내가 본 가장 큰 피자다." }
+      ]
     },
     {
       "id": "w4",
-      "word": "small",
+      "word": "Small",
       "pronunciation": "/smɔːl/",
       "partOfSpeech": "adjective",
       "meaning": "작은",
       "example": "My room is smaller than yours.",
       "exampleMeaning": "내 방은 너의 방보다 더 작다.",
+      "koreanPronunciationTip": "'스몰' - '스'를 약하게",
+      "mnemonic": "Small = 작다 (크기 전반)",
       "comparative": "smaller",
-      "superlative": "smallest"
+      "superlative": "smallest",
+      "confusableWords": [
+        { "word": "Little", "difference": "Small은 크기, Little은 양/정도에도 사용" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Can I have a smaller size?", "meaning": "더 작은 사이즈 있나요?" }
+      ]
     },
     {
       "id": "w5",
-      "word": "hot",
+      "word": "Hot",
       "pronunciation": "/hɑːt/",
       "partOfSpeech": "adjective",
       "meaning": "더운, 뜨거운",
       "example": "Today is hotter than yesterday.",
       "exampleMeaning": "오늘이 어제보다 더 덥다.",
+      "koreanPronunciationTip": "'핫' - 짧고 강하게",
+      "mnemonic": "Hot = 뜨겁다 (자음 두 번: hotter, hottest)",
       "comparative": "hotter",
-      "superlative": "hottest"
+      "superlative": "hottest",
+      "confusableWords": [
+        { "word": "Warm", "difference": "Hot은 뜨거운, Warm은 따뜻한" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the hottest day of the year.", "meaning": "오늘은 올해 가장 더운 날이다." }
+      ]
     },
     {
       "id": "w6",
-      "word": "cold",
+      "word": "Cold",
       "pronunciation": "/koʊld/",
       "partOfSpeech": "adjective",
       "meaning": "추운, 차가운",
       "example": "Winter is colder than autumn.",
       "exampleMeaning": "겨울이 가을보다 더 춥다.",
+      "koreanPronunciationTip": "'콜드' - '오우' 발음 주의",
+      "mnemonic": "Cold = 춥다/차갑다",
       "comparative": "colder",
-      "superlative": "coldest"
+      "superlative": "coldest",
+      "confusableWords": [
+        { "word": "Cool", "difference": "Cold는 추운, Cool은 시원한" }
+      ],
+      "additionalExamples": [
+        { "sentence": "January is the coldest month.", "meaning": "1월이 가장 추운 달이다." }
+      ]
     },
     {
       "id": "w7",
-      "word": "fast",
+      "word": "Fast",
       "pronunciation": "/fæst/",
       "partOfSpeech": "adjective",
       "meaning": "빠른",
       "example": "This car is faster than that one.",
       "exampleMeaning": "이 차가 저 차보다 더 빠르다.",
+      "koreanPronunciationTip": "'패스트' - '애' 발음 주의",
+      "mnemonic": "Fast = 빠른 (형용사/부사 둘 다)",
       "comparative": "faster",
-      "superlative": "fastest"
+      "superlative": "fastest",
+      "confusableWords": [
+        { "word": "Quick", "difference": "Fast는 속도, Quick은 동작이 빠른" }
+      ],
+      "additionalExamples": [
+        { "sentence": "He is the fastest runner.", "meaning": "그는 가장 빠른 주자다." }
+      ]
     },
     {
       "id": "w8",
-      "word": "slow",
+      "word": "Slow",
       "pronunciation": "/sloʊ/",
       "partOfSpeech": "adjective",
       "meaning": "느린",
       "example": "The bus is slower than the subway.",
       "exampleMeaning": "버스가 지하철보다 더 느리다.",
+      "koreanPronunciationTip": "'슬로우' - '오우' 이중모음",
+      "mnemonic": "Slow = 느린 (Slowly는 부사)",
       "comparative": "slower",
-      "superlative": "slowest"
+      "superlative": "slowest",
+      "additionalExamples": [
+        { "sentence": "This is the slowest computer.", "meaning": "이것은 가장 느린 컴퓨터다." }
+      ]
     },
     {
       "id": "w9",
-      "word": "easy",
+      "word": "Easy",
       "pronunciation": "/ˈiːzi/",
       "partOfSpeech": "adjective",
       "meaning": "쉬운",
       "example": "This test is easier than the last one.",
       "exampleMeaning": "이번 시험이 지난 시험보다 더 쉽다.",
+      "koreanPronunciationTip": "'이지' - 길게 '이~'",
+      "mnemonic": "Easy = 쉬운 (y→i+er: easier)",
       "comparative": "easier",
-      "superlative": "easiest"
+      "superlative": "easiest",
+      "confusableWords": [
+        { "word": "Simple", "difference": "Easy는 어렵지 않은, Simple은 복잡하지 않은" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the easiest question.", "meaning": "이것은 가장 쉬운 질문이다." }
+      ]
     },
     {
       "id": "w10",
-      "word": "difficult",
+      "word": "Difficult",
       "pronunciation": "/ˈdɪfɪkəlt/",
       "partOfSpeech": "adjective",
       "meaning": "어려운",
       "example": "Math is more difficult than English for me.",
       "exampleMeaning": "내게는 수학이 영어보다 더 어렵다.",
+      "koreanPronunciationTip": "'디피컬트' - 세 음절",
+      "mnemonic": "Difficult = 어려운 (more/most 사용)",
       "comparative": "more difficult",
-      "superlative": "most difficult"
+      "superlative": "most difficult",
+      "confusableWords": [
+        { "word": "Hard", "difference": "같은 의미, Hard가 더 일상적" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the most difficult problem.", "meaning": "이것은 가장 어려운 문제다." }
+      ]
     },
     {
       "id": "w11",
-      "word": "expensive",
+      "word": "Expensive",
       "pronunciation": "/ɪkˈspensɪv/",
       "partOfSpeech": "adjective",
       "meaning": "비싼",
       "example": "This restaurant is more expensive than that one.",
       "exampleMeaning": "이 식당이 저 식당보다 더 비싸다.",
+      "koreanPronunciationTip": "'익스펜시브' - 강세 두 번째",
+      "mnemonic": "Expensive = 비싼 (expense+ive)",
       "comparative": "more expensive",
-      "superlative": "most expensive"
+      "superlative": "most expensive",
+      "confusableWords": [
+        { "word": "Cheap", "difference": "반대말 관계" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the most expensive car.", "meaning": "이것은 가장 비싼 차다." }
+      ]
     },
     {
       "id": "w12",
-      "word": "cheap",
+      "word": "Cheap",
       "pronunciation": "/tʃiːp/",
       "partOfSpeech": "adjective",
       "meaning": "싼, 저렴한",
       "example": "Online shopping is cheaper than shopping in stores.",
       "exampleMeaning": "온라인 쇼핑이 매장 쇼핑보다 더 저렴하다.",
+      "koreanPronunciationTip": "'칩' - '치~' 길게",
+      "mnemonic": "Cheap = 싸다 (가격이 낮은)",
       "comparative": "cheaper",
-      "superlative": "cheapest"
+      "superlative": "cheapest",
+      "confusableWords": [
+        { "word": "Inexpensive", "difference": "같은 의미지만 Cheap은 '싸구려' 느낌 가능" }
+      ],
+      "additionalExamples": [
+        { "sentence": "Where is the cheapest hotel?", "meaning": "가장 싼 호텔이 어디인가요?" }
+      ]
     },
     {
       "id": "w13",
-      "word": "interesting",
+      "word": "Interesting",
       "pronunciation": "/ˈɪntrəstɪŋ/",
       "partOfSpeech": "adjective",
       "meaning": "흥미로운",
       "example": "This movie is more interesting than that one.",
       "exampleMeaning": "이 영화가 저 영화보다 더 흥미롭다.",
+      "koreanPronunciationTip": "'인터레스팅' - 강세 첫 음절",
+      "mnemonic": "Interesting = 흥미로운 (interest+ing)",
       "comparative": "more interesting",
-      "superlative": "most interesting"
+      "superlative": "most interesting",
+      "confusableWords": [
+        { "word": "Interested", "difference": "Interesting은 것이, Interested는 사람이" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the most interesting book.", "meaning": "이것은 가장 흥미로운 책이다." }
+      ]
     },
     {
       "id": "w14",
-      "word": "boring",
+      "word": "Boring",
       "pronunciation": "/ˈbɔːrɪŋ/",
       "partOfSpeech": "adjective",
       "meaning": "지루한",
       "example": "The lecture was more boring than I expected.",
       "exampleMeaning": "강의가 내가 예상했던 것보다 더 지루했다.",
+      "koreanPronunciationTip": "'보링' - '보~' 길게",
+      "mnemonic": "Boring = 지루한 (bore+ing)",
       "comparative": "more boring",
-      "superlative": "most boring"
+      "superlative": "most boring",
+      "confusableWords": [
+        { "word": "Bored", "difference": "Boring은 것이, Bored는 사람이" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the most boring movie.", "meaning": "이것은 가장 지루한 영화다." }
+      ]
     },
     {
       "id": "w15",
-      "word": "beautiful",
+      "word": "Beautiful",
       "pronunciation": "/ˈbjuːtɪfl/",
       "partOfSpeech": "adjective",
       "meaning": "아름다운",
       "example": "Paris is one of the most beautiful cities in the world.",
       "exampleMeaning": "파리는 세계에서 가장 아름다운 도시 중 하나다.",
+      "koreanPronunciationTip": "'뷰티풀' - '뷰~' 길게",
+      "mnemonic": "Beautiful = 아름다운 (beauty+ful)",
       "comparative": "more beautiful",
-      "superlative": "most beautiful"
+      "superlative": "most beautiful",
+      "confusableWords": [
+        { "word": "Pretty", "difference": "Beautiful은 더 강한 표현" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She is more beautiful than anyone.", "meaning": "그녀는 누구보다 아름답다." }
+      ]
     },
     {
       "id": "w16",
-      "word": "good",
+      "word": "Good",
       "pronunciation": "/ɡʊd/",
       "partOfSpeech": "adjective",
       "meaning": "좋은",
       "example": "This pizza is better than the one we had yesterday.",
       "exampleMeaning": "이 피자가 우리가 어제 먹었던 것보다 더 좋다.",
+      "koreanPronunciationTip": "'굿' - 짧게",
+      "mnemonic": "Good → Better → Best (불규칙!)",
       "comparative": "better",
-      "superlative": "best"
+      "superlative": "best",
+      "confusableWords": [
+        { "word": "Well", "difference": "Good은 형용사, Well은 부사" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the best day ever.", "meaning": "오늘이 최고의 날이다." }
+      ]
     },
     {
       "id": "w17",
-      "word": "bad",
+      "word": "Bad",
       "pronunciation": "/bæd/",
       "partOfSpeech": "adjective",
       "meaning": "나쁜",
       "example": "Today's weather is worse than yesterday's.",
       "exampleMeaning": "오늘 날씨가 어제보다 더 나쁘다.",
+      "koreanPronunciationTip": "'배드' - '애' 발음",
+      "mnemonic": "Bad → Worse → Worst (불규칙!)",
       "comparative": "worse",
-      "superlative": "worst"
+      "superlative": "worst",
+      "confusableWords": [
+        { "word": "Badly", "difference": "Bad은 형용사, Badly는 부사" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the worst mistake.", "meaning": "이것은 최악의 실수다." }
+      ]
     },
     {
       "id": "w18",
-      "word": "far",
+      "word": "Far",
       "pronunciation": "/fɑːr/",
       "partOfSpeech": "adverb",
       "meaning": "멀리",
       "example": "My house is farther from school than yours.",
       "exampleMeaning": "내 집이 너의 집보다 학교에서 더 멀다.",
+      "koreanPronunciationTip": "'파~' - 길게",
+      "mnemonic": "Far → Farther/Further → Farthest/Furthest",
       "comparative": "farther/further",
-      "superlative": "farthest/furthest"
+      "superlative": "farthest/furthest",
+      "confusableWords": [
+        { "word": "Further", "difference": "Farther는 거리, Further는 정도/추가" }
+      ],
+      "additionalExamples": [
+        { "sentence": "How much farther is it?", "meaning": "얼마나 더 멀어요?" }
+      ]
     },
     {
       "id": "w19",
-      "word": "modern",
+      "word": "Modern",
       "pronunciation": "/ˈmɑːdərn/",
       "partOfSpeech": "adjective",
       "meaning": "현대적인",
       "example": "Tokyo is more modern than many other cities.",
       "exampleMeaning": "도쿄는 많은 다른 도시들보다 더 현대적이다.",
+      "koreanPronunciationTip": "'모던' - 강세 첫 음절",
+      "mnemonic": "Modern = 현대적인 (more/most 사용)",
       "comparative": "more modern",
-      "superlative": "most modern"
+      "superlative": "most modern",
+      "confusableWords": [
+        { "word": "New", "difference": "Modern은 스타일, New는 시간적으로 새로운" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the most modern building.", "meaning": "이것은 가장 현대적인 건물이다." }
+      ]
     },
     {
       "id": "w20",
-      "word": "popular",
+      "word": "Popular",
       "pronunciation": "/ˈpɑːpjələr/",
       "partOfSpeech": "adjective",
       "meaning": "인기 있는",
       "example": "Soccer is more popular than baseball in most countries.",
       "exampleMeaning": "대부분의 나라에서 축구가 야구보다 더 인기가 있다.",
+      "koreanPronunciationTip": "'파퓰러' - 강세 첫 음절",
+      "mnemonic": "Popular = 인기 있는 (more/most 사용)",
       "comparative": "more popular",
-      "superlative": "most popular"
+      "superlative": "most popular",
+      "confusableWords": [
+        { "word": "Famous", "difference": "Popular는 많이 좋아하는, Famous는 유명한" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the most popular song.", "meaning": "이것은 가장 인기 있는 노래다." }
+      ]
+    },
+    {
+      "id": "w21",
+      "word": "Old",
+      "pronunciation": "/oʊld/",
+      "partOfSpeech": "adjective",
+      "meaning": "오래된, 나이 든",
+      "example": "My grandfather is older than my grandmother.",
+      "exampleMeaning": "우리 할아버지가 할머니보다 나이가 더 많다.",
+      "koreanPronunciationTip": "'올드' - '오울' 이중모음",
+      "mnemonic": "Old = 나이/시간이 많은",
+      "comparative": "older",
+      "superlative": "oldest",
+      "confusableWords": [
+        { "word": "Elder", "difference": "Old는 일반적, Elder는 가족 중 손위" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the oldest building here.", "meaning": "이것은 여기서 가장 오래된 건물이다." }
+      ]
+    },
+    {
+      "id": "w22",
+      "word": "Young",
+      "pronunciation": "/jʌŋ/",
+      "partOfSpeech": "adjective",
+      "meaning": "어린, 젊은",
+      "example": "She is younger than her sister.",
+      "exampleMeaning": "그녀는 언니보다 나이가 어리다.",
+      "koreanPronunciationTip": "'영' - '어' 발음 주의",
+      "mnemonic": "Young = 젊은 (Old의 반대)",
+      "comparative": "younger",
+      "superlative": "youngest",
+      "additionalExamples": [
+        { "sentence": "He is the youngest in the family.", "meaning": "그는 가족 중 막내다." }
+      ]
+    },
+    {
+      "id": "w23",
+      "word": "New",
+      "pronunciation": "/nuː/",
+      "partOfSpeech": "adjective",
+      "meaning": "새로운",
+      "example": "This phone is newer than mine.",
+      "exampleMeaning": "이 전화기가 내 것보다 더 새것이다.",
+      "koreanPronunciationTip": "'뉴' - '누~' 길게",
+      "mnemonic": "New = 새로운 (Old의 반대)",
+      "comparative": "newer",
+      "superlative": "newest",
+      "confusableWords": [
+        { "word": "Recent", "difference": "New는 새 것, Recent는 최근의" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the newest model.", "meaning": "이것은 가장 새로운 모델이다." }
+      ]
+    },
+    {
+      "id": "w24",
+      "word": "Heavy",
+      "pronunciation": "/ˈhevi/",
+      "partOfSpeech": "adjective",
+      "meaning": "무거운",
+      "example": "This box is heavier than that one.",
+      "exampleMeaning": "이 상자가 저것보다 더 무겁다.",
+      "koreanPronunciationTip": "'헤비' - '헤' 강하게",
+      "mnemonic": "Heavy = 무거운 (y→i: heavier)",
+      "comparative": "heavier",
+      "superlative": "heaviest",
+      "confusableWords": [
+        { "word": "Light", "difference": "반대말 관계" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the heaviest bag.", "meaning": "이것은 가장 무거운 가방이다." }
+      ]
+    },
+    {
+      "id": "w25",
+      "word": "Light",
+      "pronunciation": "/laɪt/",
+      "partOfSpeech": "adjective",
+      "meaning": "가벼운",
+      "example": "A feather is lighter than a stone.",
+      "exampleMeaning": "깃털은 돌보다 더 가볍다.",
+      "koreanPronunciationTip": "'라이트' - '아이' 이중모음",
+      "mnemonic": "Light = 가벼운 (Heavy의 반대)",
+      "comparative": "lighter",
+      "superlative": "lightest",
+      "confusableWords": [
+        { "word": "Light (명사)", "difference": "형용사=가벼운, 명사=빛" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the lightest laptop.", "meaning": "이것은 가장 가벼운 노트북이다." }
+      ]
+    },
+    {
+      "id": "w26",
+      "word": "Strong",
+      "pronunciation": "/strɔːŋ/",
+      "partOfSpeech": "adjective",
+      "meaning": "강한, 힘센",
+      "example": "He is stronger than me.",
+      "exampleMeaning": "그는 나보다 더 힘이 세다.",
+      "koreanPronunciationTip": "'스트롱' - '스'를 약하게",
+      "mnemonic": "Strong = 강한/힘센",
+      "comparative": "stronger",
+      "superlative": "strongest",
+      "confusableWords": [
+        { "word": "Powerful", "difference": "Strong은 물리적 힘, Powerful은 권력/영향력도" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She is the strongest player.", "meaning": "그녀는 가장 강한 선수다." }
+      ]
+    },
+    {
+      "id": "w27",
+      "word": "Weak",
+      "pronunciation": "/wiːk/",
+      "partOfSpeech": "adjective",
+      "meaning": "약한",
+      "example": "The patient is weaker today.",
+      "exampleMeaning": "환자가 오늘 더 약해졌다.",
+      "koreanPronunciationTip": "'위크' - '위~' 길게",
+      "mnemonic": "Weak = 약한 (Strong의 반대)",
+      "comparative": "weaker",
+      "superlative": "weakest",
+      "confusableWords": [
+        { "word": "Week", "difference": "Weak=약한(형용사), Week=주(명사)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is my weakest subject.", "meaning": "이것은 내가 가장 약한 과목이다." }
+      ]
+    },
+    {
+      "id": "w28",
+      "word": "Long",
+      "pronunciation": "/lɔːŋ/",
+      "partOfSpeech": "adjective",
+      "meaning": "긴",
+      "example": "Her hair is longer than mine.",
+      "exampleMeaning": "그녀의 머리카락이 내 것보다 더 길다.",
+      "koreanPronunciationTip": "'롱' - '로~' 길게",
+      "mnemonic": "Long = 긴 (길이, 시간)",
+      "comparative": "longer",
+      "superlative": "longest",
+      "confusableWords": [
+        { "word": "Tall", "difference": "Long은 수평 길이, Tall은 수직 높이" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the longest river.", "meaning": "이것은 가장 긴 강이다." }
+      ]
+    },
+    {
+      "id": "w29",
+      "word": "Wide",
+      "pronunciation": "/waɪd/",
+      "partOfSpeech": "adjective",
+      "meaning": "넓은",
+      "example": "This road is wider than that street.",
+      "exampleMeaning": "이 도로가 저 거리보다 더 넓다.",
+      "koreanPronunciationTip": "'와이드' - '아이' 이중모음",
+      "mnemonic": "Wide = 넓은 (폭이 넓은)",
+      "comparative": "wider",
+      "superlative": "widest",
+      "confusableWords": [
+        { "word": "Broad", "difference": "같은 의미, Broad가 더 격식적" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the widest bridge.", "meaning": "이것은 가장 넓은 다리다." }
+      ]
+    },
+    {
+      "id": "w30",
+      "word": "Narrow",
+      "pronunciation": "/ˈnæroʊ/",
+      "partOfSpeech": "adjective",
+      "meaning": "좁은",
+      "example": "This alley is narrower than I thought.",
+      "exampleMeaning": "이 골목이 생각보다 더 좁다.",
+      "koreanPronunciationTip": "'내로우' - '애' 발음 주의",
+      "mnemonic": "Narrow = 좁은 (Wide의 반대)",
+      "comparative": "narrower",
+      "superlative": "narrowest",
+      "additionalExamples": [
+        { "sentence": "This is the narrowest path.", "meaning": "이것은 가장 좁은 길이다." }
+      ]
+    },
+    {
+      "id": "w31",
+      "word": "Deep",
+      "pronunciation": "/diːp/",
+      "partOfSpeech": "adjective",
+      "meaning": "깊은",
+      "example": "The ocean is deeper than any lake.",
+      "exampleMeaning": "바다는 어떤 호수보다도 더 깊다.",
+      "koreanPronunciationTip": "'딥' - '디~' 길게",
+      "mnemonic": "Deep = 깊은 (물리적/추상적)",
+      "comparative": "deeper",
+      "superlative": "deepest",
+      "confusableWords": [
+        { "word": "Shallow", "difference": "반대말 관계" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the deepest pool.", "meaning": "이것은 가장 깊은 수영장이다." }
+      ]
+    },
+    {
+      "id": "w32",
+      "word": "Thin",
+      "pronunciation": "/θɪn/",
+      "partOfSpeech": "adjective",
+      "meaning": "얇은, 마른",
+      "example": "This paper is thinner than cardboard.",
+      "exampleMeaning": "이 종이가 판지보다 더 얇다.",
+      "koreanPronunciationTip": "'씬' - 'th' 혀 끝 내밀기",
+      "mnemonic": "Thin = 얇은/마른 (n 두 번: thinner)",
+      "comparative": "thinner",
+      "superlative": "thinnest",
+      "confusableWords": [
+        { "word": "Slim", "difference": "Thin은 일반적, Slim은 날씬한(긍정)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She is the thinnest model.", "meaning": "그녀는 가장 마른 모델이다." }
+      ]
+    },
+    {
+      "id": "w33",
+      "word": "Thick",
+      "pronunciation": "/θɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "두꺼운",
+      "example": "This book is thicker than that one.",
+      "exampleMeaning": "이 책이 저 책보다 더 두껍다.",
+      "koreanPronunciationTip": "'씩' - 'th' 혀 끝 내밀기",
+      "mnemonic": "Thick = 두꺼운 (Thin의 반대)",
+      "comparative": "thicker",
+      "superlative": "thickest",
+      "additionalExamples": [
+        { "sentence": "This is the thickest blanket.", "meaning": "이것은 가장 두꺼운 담요다." }
+      ]
+    },
+    {
+      "id": "w34",
+      "word": "High",
+      "pronunciation": "/haɪ/",
+      "partOfSpeech": "adjective",
+      "meaning": "높은",
+      "example": "This mountain is higher than that hill.",
+      "exampleMeaning": "이 산이 저 언덕보다 더 높다.",
+      "koreanPronunciationTip": "'하이' - '아이' 이중모음",
+      "mnemonic": "High = 높은 (고도, 수준)",
+      "comparative": "higher",
+      "superlative": "highest",
+      "confusableWords": [
+        { "word": "Tall", "difference": "High는 고도/수준, Tall은 키" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the highest score.", "meaning": "이것은 가장 높은 점수다." }
+      ]
+    },
+    {
+      "id": "w35",
+      "word": "Low",
+      "pronunciation": "/loʊ/",
+      "partOfSpeech": "adjective",
+      "meaning": "낮은",
+      "example": "Today's temperature is lower than yesterday.",
+      "exampleMeaning": "오늘 온도가 어제보다 더 낮다.",
+      "koreanPronunciationTip": "'로우' - '오우' 이중모음",
+      "mnemonic": "Low = 낮은 (High의 반대)",
+      "comparative": "lower",
+      "superlative": "lowest",
+      "additionalExamples": [
+        { "sentence": "This is the lowest price.", "meaning": "이것은 가장 낮은 가격이다." }
+      ]
+    },
+    {
+      "id": "w36",
+      "word": "Happy",
+      "pronunciation": "/ˈhæpi/",
+      "partOfSpeech": "adjective",
+      "meaning": "행복한",
+      "example": "I am happier today than yesterday.",
+      "exampleMeaning": "나는 오늘 어제보다 더 행복하다.",
+      "koreanPronunciationTip": "'해피' - '애' 발음 주의",
+      "mnemonic": "Happy = 행복한 (y→i: happier)",
+      "comparative": "happier",
+      "superlative": "happiest",
+      "confusableWords": [
+        { "word": "Glad", "difference": "Happy는 지속적, Glad는 순간적 기쁨" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the happiest day.", "meaning": "오늘이 가장 행복한 날이다." }
+      ]
+    },
+    {
+      "id": "w37",
+      "word": "Sad",
+      "pronunciation": "/sæd/",
+      "partOfSpeech": "adjective",
+      "meaning": "슬픈",
+      "example": "She looks sadder than before.",
+      "exampleMeaning": "그녀가 전보다 더 슬퍼 보인다.",
+      "koreanPronunciationTip": "'새드' - '애' 발음 주의",
+      "mnemonic": "Sad = 슬픈 (d 두 번: sadder)",
+      "comparative": "sadder",
+      "superlative": "saddest",
+      "confusableWords": [
+        { "word": "Unhappy", "difference": "Sad는 슬픈, Unhappy는 불행한" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the saddest movie.", "meaning": "이것은 가장 슬픈 영화다." }
+      ]
+    },
+    {
+      "id": "w38",
+      "word": "Quiet",
+      "pronunciation": "/ˈkwaɪət/",
+      "partOfSpeech": "adjective",
+      "meaning": "조용한",
+      "example": "This room is quieter than the other.",
+      "exampleMeaning": "이 방이 다른 방보다 더 조용하다.",
+      "koreanPronunciationTip": "'콰이엇' - 두 음절",
+      "mnemonic": "Quiet = 조용한 (more/most 또는 -er/-est)",
+      "comparative": "quieter",
+      "superlative": "quietest",
+      "confusableWords": [
+        { "word": "Quite", "difference": "Quiet=조용한, Quite=꽤" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the quietest place.", "meaning": "여기가 가장 조용한 곳이다." }
+      ]
+    },
+    {
+      "id": "w39",
+      "word": "Loud",
+      "pronunciation": "/laʊd/",
+      "partOfSpeech": "adjective",
+      "meaning": "시끄러운",
+      "example": "The music is louder than before.",
+      "exampleMeaning": "음악이 전보다 더 시끄럽다.",
+      "koreanPronunciationTip": "'라우드' - '아우' 이중모음",
+      "mnemonic": "Loud = 시끄러운 (Quiet의 반대)",
+      "comparative": "louder",
+      "superlative": "loudest",
+      "additionalExamples": [
+        { "sentence": "This is the loudest speaker.", "meaning": "이것은 가장 시끄러운 스피커다." }
+      ]
+    },
+    {
+      "id": "w40",
+      "word": "Clean",
+      "pronunciation": "/kliːn/",
+      "partOfSpeech": "adjective",
+      "meaning": "깨끗한",
+      "example": "This room is cleaner than mine.",
+      "exampleMeaning": "이 방이 내 방보다 더 깨끗하다.",
+      "koreanPronunciationTip": "'클린' - '클리~' 길게",
+      "mnemonic": "Clean = 깨끗한",
+      "comparative": "cleaner",
+      "superlative": "cleanest",
+      "confusableWords": [
+        { "word": "Tidy", "difference": "Clean은 청결, Tidy는 정돈된" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the cleanest hotel.", "meaning": "이곳은 가장 깨끗한 호텔이다." }
+      ]
+    },
+    {
+      "id": "w41",
+      "word": "Dirty",
+      "pronunciation": "/ˈdɜːrti/",
+      "partOfSpeech": "adjective",
+      "meaning": "더러운",
+      "example": "My shoes are dirtier than yours.",
+      "exampleMeaning": "내 신발이 네 것보다 더 더럽다.",
+      "koreanPronunciationTip": "'더티' - '어' 발음 주의",
+      "mnemonic": "Dirty = 더러운 (y→i: dirtier)",
+      "comparative": "dirtier",
+      "superlative": "dirtiest",
+      "additionalExamples": [
+        { "sentence": "This is the dirtiest street.", "meaning": "이곳이 가장 더러운 거리다." }
+      ]
+    },
+    {
+      "id": "w42",
+      "word": "Safe",
+      "pronunciation": "/seɪf/",
+      "partOfSpeech": "adjective",
+      "meaning": "안전한",
+      "example": "This area is safer than the city center.",
+      "exampleMeaning": "이 지역이 도심보다 더 안전하다.",
+      "koreanPronunciationTip": "'세이프' - '에이' 이중모음",
+      "mnemonic": "Safe = 안전한",
+      "comparative": "safer",
+      "superlative": "safest",
+      "confusableWords": [
+        { "word": "Secure", "difference": "Safe는 위험 없음, Secure는 보호됨" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the safest route.", "meaning": "이것이 가장 안전한 경로다." }
+      ]
+    },
+    {
+      "id": "w43",
+      "word": "Dangerous",
+      "pronunciation": "/ˈdeɪndʒərəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "위험한",
+      "example": "Driving fast is more dangerous than walking.",
+      "exampleMeaning": "빨리 운전하는 것이 걷는 것보다 더 위험하다.",
+      "koreanPronunciationTip": "'데인저러스' - 세 음절",
+      "mnemonic": "Dangerous = 위험한 (more/most 사용)",
+      "comparative": "more dangerous",
+      "superlative": "most dangerous",
+      "additionalExamples": [
+        { "sentence": "This is the most dangerous sport.", "meaning": "이것은 가장 위험한 스포츠다." }
+      ]
+    },
+    {
+      "id": "w44",
+      "word": "Healthy",
+      "pronunciation": "/ˈhelθi/",
+      "partOfSpeech": "adjective",
+      "meaning": "건강한",
+      "example": "Vegetables are healthier than fast food.",
+      "exampleMeaning": "채소가 패스트푸드보다 더 건강하다.",
+      "koreanPronunciationTip": "'헬씨' - 'th' 혀 끝 내밀기",
+      "mnemonic": "Healthy = 건강한 (y→i: healthier)",
+      "comparative": "healthier",
+      "superlative": "healthiest",
+      "additionalExamples": [
+        { "sentence": "This is the healthiest food.", "meaning": "이것은 가장 건강한 음식이다." }
+      ]
+    },
+    {
+      "id": "w45",
+      "word": "Wise",
+      "pronunciation": "/waɪz/",
+      "partOfSpeech": "adjective",
+      "meaning": "현명한",
+      "example": "Grandpa is wiser than anyone.",
+      "exampleMeaning": "할아버지는 누구보다 현명하다.",
+      "koreanPronunciationTip": "'와이즈' - '아이' 이중모음",
+      "mnemonic": "Wise = 현명한 (지혜로운)",
+      "comparative": "wiser",
+      "superlative": "wisest",
+      "confusableWords": [
+        { "word": "Smart", "difference": "Wise는 지혜, Smart는 똑똑함" }
+      ],
+      "additionalExamples": [
+        { "sentence": "He is the wisest person I know.", "meaning": "그는 내가 아는 가장 현명한 사람이다." }
+      ]
+    },
+    {
+      "id": "w46",
+      "word": "Busy",
+      "pronunciation": "/ˈbɪzi/",
+      "partOfSpeech": "adjective",
+      "meaning": "바쁜",
+      "example": "Today is busier than yesterday.",
+      "exampleMeaning": "오늘이 어제보다 더 바쁘다.",
+      "koreanPronunciationTip": "'비지' - '비' 짧게",
+      "mnemonic": "Busy = 바쁜 (y→i: busier)",
+      "comparative": "busier",
+      "superlative": "busiest",
+      "additionalExamples": [
+        { "sentence": "Monday is the busiest day.", "meaning": "월요일이 가장 바쁜 날이다." }
+      ]
+    },
+    {
+      "id": "w47",
+      "word": "Late",
+      "pronunciation": "/leɪt/",
+      "partOfSpeech": "adjective",
+      "meaning": "늦은",
+      "example": "I arrived later than expected.",
+      "exampleMeaning": "나는 예상보다 늦게 도착했다.",
+      "koreanPronunciationTip": "'레이트' - '에이' 이중모음",
+      "mnemonic": "Late = 늦은 (시간)",
+      "comparative": "later",
+      "superlative": "latest",
+      "confusableWords": [
+        { "word": "Latter", "difference": "Late는 늦은, Latter는 후자의" }
+      ],
+      "additionalExamples": [
+        { "sentence": "What is the latest news?", "meaning": "최신 뉴스가 뭐예요?" }
+      ]
+    },
+    {
+      "id": "w48",
+      "word": "Early",
+      "pronunciation": "/ˈɜːrli/",
+      "partOfSpeech": "adjective",
+      "meaning": "이른",
+      "example": "I woke up earlier than usual.",
+      "exampleMeaning": "나는 평소보다 일찍 일어났다.",
+      "koreanPronunciationTip": "'얼리' - '얼~' 길게",
+      "mnemonic": "Early = 이른 (Late의 반대)",
+      "comparative": "earlier",
+      "superlative": "earliest",
+      "additionalExamples": [
+        { "sentence": "This is the earliest train.", "meaning": "이것이 가장 이른 기차다." }
+      ]
+    },
+    {
+      "id": "w49",
+      "word": "Near",
+      "pronunciation": "/nɪr/",
+      "partOfSpeech": "adjective",
+      "meaning": "가까운",
+      "example": "The park is nearer than the mall.",
+      "exampleMeaning": "공원이 쇼핑몰보다 더 가깝다.",
+      "koreanPronunciationTip": "'니어' - '이어' 두 음절",
+      "mnemonic": "Near = 가까운 (Far의 반대)",
+      "comparative": "nearer",
+      "superlative": "nearest",
+      "additionalExamples": [
+        { "sentence": "Where is the nearest station?", "meaning": "가장 가까운 역이 어디예요?" }
+      ]
+    },
+    {
+      "id": "w50",
+      "word": "Large",
+      "pronunciation": "/lɑːrdʒ/",
+      "partOfSpeech": "adjective",
+      "meaning": "큰, 넓은",
+      "example": "Our garden is larger than theirs.",
+      "exampleMeaning": "우리 정원이 그들 것보다 더 크다.",
+      "koreanPronunciationTip": "'라지' - '라~' 길게",
+      "mnemonic": "Large = 큰 (Big보다 격식적)",
+      "comparative": "larger",
+      "superlative": "largest",
+      "confusableWords": [
+        { "word": "Big", "difference": "Large가 더 격식적" }
+      ],
+      "additionalExamples": [
+        { "sentence": "This is the largest room.", "meaning": "이것은 가장 큰 방이다." }
+      ]
     }
   ],
 
@@ -352,6 +1046,1166 @@
       "options": ["tall", "good", "expensive", "modern"],
       "answer": "good",
       "explanation": "'good'의 비교급은 'better'로 불규칙 변화를 합니다."
+    },
+    {
+      "id": "ex16",
+      "type": "fill_blank",
+      "question": "This room is _____ than the kitchen. (clean)",
+      "answer": ["cleaner"],
+      "explanation": "'clean'은 짧은 형용사이므로 -er을 붙여 'cleaner'가 됩니다."
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "What is the superlative form of 'heavy'?",
+      "options": ["heavyer", "heaviest", "most heavy", "heavyest"],
+      "answer": "heaviest",
+      "explanation": "'heavy'는 -y를 -i로 바꾸고 -est를 붙여 'heaviest'가 됩니다."
+    },
+    {
+      "id": "ex18",
+      "type": "fill_blank",
+      "question": "My grandfather is _____ than my father. (old)",
+      "answer": ["older"],
+      "explanation": "'old'의 비교급은 -er을 붙여 'older'가 됩니다."
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "Which is the correct comparative of 'thin'?",
+      "options": ["thiner", "thinner", "more thin", "thinest"],
+      "answer": "thinner",
+      "explanation": "'thin'은 자음을 한 번 더 쓰고 -er을 붙여 'thinner'가 됩니다."
+    },
+    {
+      "id": "ex20",
+      "type": "fill_blank",
+      "question": "This test was _____ than the last one. (difficult)",
+      "answer": ["more difficult"],
+      "explanation": "'difficult'는 긴 형용사이므로 'more difficult'로 비교급을 만듭니다."
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "What is the superlative form of 'young'?",
+      "options": ["younger", "youngest", "most young", "younggest"],
+      "answer": "youngest",
+      "explanation": "'young'은 짧은 형용사이므로 -est를 붙여 'youngest'가 됩니다."
+    },
+    {
+      "id": "ex22",
+      "type": "fill_blank",
+      "question": "Winter is _____ than autumn. (cold)",
+      "answer": ["colder"],
+      "explanation": "'cold'의 비교급은 -er을 붙여 'colder'가 됩니다."
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "This is the more dangerous road.",
+        "This is the most dangerous road.",
+        "This is the dangerousest road.",
+        "This is dangerous road."
+      ],
+      "answer": "This is the most dangerous road.",
+      "explanation": "'dangerous'는 긴 형용사이므로 최상급은 'the most dangerous'입니다."
+    },
+    {
+      "id": "ex24",
+      "type": "fill_blank",
+      "question": "She is _____ than her brother. (happy)",
+      "answer": ["happier"],
+      "explanation": "'happy'는 -y를 -i로 바꾸고 -er을 붙여 'happier'가 됩니다."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "What is the comparative form of 'wide'?",
+      "options": ["wider", "widder", "more wide", "widest"],
+      "answer": "wider",
+      "explanation": "'wide'는 -e로 끝나므로 -r만 붙여 'wider'가 됩니다."
+    },
+    {
+      "id": "ex26",
+      "type": "fill_blank",
+      "question": "The Pacific Ocean is _____ than the Atlantic. (deep)",
+      "answer": ["deeper"],
+      "explanation": "'deep'의 비교급은 -er을 붙여 'deeper'가 됩니다."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "Which word uses 'more' for the comparative?",
+      "options": ["tall", "fast", "beautiful", "old"],
+      "answer": "beautiful",
+      "explanation": "'beautiful'은 긴 형용사(3음절)이므로 'more beautiful'로 비교급을 만듭니다."
+    },
+    {
+      "id": "ex28",
+      "type": "fill_blank",
+      "question": "This street is _____ than that one. (narrow)",
+      "answer": ["narrower"],
+      "explanation": "'narrow'의 비교급은 -er을 붙여 'narrower'가 됩니다."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "What is the superlative of 'sad'?",
+      "options": ["sader", "sadest", "saddest", "most sad"],
+      "answer": "saddest",
+      "explanation": "'sad'는 자음을 한 번 더 쓰고 -est를 붙여 'saddest'가 됩니다."
+    },
+    {
+      "id": "ex30",
+      "type": "fill_blank",
+      "question": "My bag is _____ than yours. (light)",
+      "answer": ["lighter"],
+      "explanation": "'light'의 비교급은 -er을 붙여 'lighter'가 됩니다."
+    },
+    {
+      "id": "ex31",
+      "type": "matching",
+      "question": "비교급과 원형을 연결하세요.",
+      "pairs": [
+        { "left": "better", "right": "good" },
+        { "left": "worse", "right": "bad" },
+        { "left": "farther", "right": "far" },
+        { "left": "older", "right": "old" }
+      ],
+      "explanation": "불규칙 비교급: good→better, bad→worse, far→farther/further"
+    },
+    {
+      "id": "ex32",
+      "type": "multiple_choice",
+      "question": "Which is correct?",
+      "options": [
+        "He is strongest than me.",
+        "He is more strong than me.",
+        "He is stronger than me.",
+        "He is the stronger than me."
+      ],
+      "answer": "He is stronger than me.",
+      "explanation": "'strong'은 짧은 형용사이므로 -er을 붙여 비교급을 만듭니다."
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "question": "Today I arrived _____ than yesterday. (early)",
+      "answer": ["earlier"],
+      "explanation": "'early'는 -y를 -i로 바꾸고 -er을 붙여 'earlier'가 됩니다."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple_choice",
+      "question": "What is the superlative form of 'safe'?",
+      "options": ["safer", "safest", "most safe", "safeest"],
+      "answer": "safest",
+      "explanation": "'safe'는 -e로 끝나므로 -st만 붙여 'safest'가 됩니다."
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "This movie is _____ than the book. (boring)",
+      "answer": ["more boring"],
+      "explanation": "'boring'은 -ing로 끝나는 긴 형용사이므로 'more boring'으로 비교급을 만듭니다."
+    },
+    {
+      "id": "ex36",
+      "type": "multiple_choice",
+      "question": "Which is the correct superlative of 'busy'?",
+      "options": ["busyer", "busyest", "busiest", "most busy"],
+      "answer": "busiest",
+      "explanation": "'busy'는 -y를 -i로 바꾸고 -est를 붙여 'busiest'가 됩니다."
+    },
+    {
+      "id": "ex37",
+      "type": "fill_blank",
+      "question": "This box is _____ than that one. (thick)",
+      "answer": ["thicker"],
+      "explanation": "'thick'의 비교급은 -er을 붙여 'thicker'가 됩니다."
+    },
+    {
+      "id": "ex38",
+      "type": "multiple_choice",
+      "question": "What is the comparative of 'new'?",
+      "options": ["newer", "newwer", "more new", "newest"],
+      "answer": "newer",
+      "explanation": "'new'의 비교급은 -er을 붙여 'newer'가 됩니다."
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "question": "The library is _____ than the mall. (quiet)",
+      "answer": ["quieter"],
+      "explanation": "'quiet'의 비교급은 -er을 붙여 'quieter'가 됩니다."
+    },
+    {
+      "id": "ex40",
+      "type": "multiple_choice",
+      "question": "Which is the correct superlative of 'high'?",
+      "options": ["higher", "highest", "most high", "highiest"],
+      "answer": "highest",
+      "explanation": "'high'의 최상급은 -est를 붙여 'highest'가 됩니다."
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "Her room is _____ than mine. (dirty)",
+      "answer": ["dirtier"],
+      "explanation": "'dirty'는 -y를 -i로 바꾸고 -er을 붙여 'dirtier'가 됩니다."
+    },
+    {
+      "id": "ex42",
+      "type": "matching",
+      "question": "최상급과 원형을 연결하세요.",
+      "pairs": [
+        { "left": "best", "right": "good" },
+        { "left": "worst", "right": "bad" },
+        { "left": "farthest", "right": "far" },
+        { "left": "newest", "right": "new" }
+      ],
+      "explanation": "불규칙 최상급: good→best, bad→worst, far→farthest/furthest"
+    },
+    {
+      "id": "ex43",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "My house is more near than yours.",
+        "My house is nearer than yours.",
+        "My house is nearest than yours.",
+        "My house is the nearer than yours."
+      ],
+      "answer": "My house is nearer than yours.",
+      "explanation": "'near'은 짧은 형용사이므로 -er을 붙여 비교급을 만듭니다."
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "This problem is _____ than I thought. (easy)",
+      "answer": ["easier"],
+      "explanation": "'easy'는 -y를 -i로 바꾸고 -er을 붙여 'easier'가 됩니다."
+    },
+    {
+      "id": "ex45",
+      "type": "multiple_choice",
+      "question": "What is the comparative form of 'low'?",
+      "options": ["lower", "lowwer", "more low", "lowest"],
+      "answer": "lower",
+      "explanation": "'low'의 비교급은 -er을 붙여 'lower'가 됩니다."
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "He is _____ person I know. (wise, superlative)",
+      "answer": ["the wisest"],
+      "explanation": "'wise'의 최상급은 -st를 붙여 'the wisest'가 됩니다."
+    },
+    {
+      "id": "ex47",
+      "type": "multiple_choice",
+      "question": "Which is the correct comparative of 'loud'?",
+      "options": ["louder", "loudder", "more loud", "loudest"],
+      "answer": "louder",
+      "explanation": "'loud'의 비교급은 -er을 붙여 'louder'가 됩니다."
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "This garden is _____ than theirs. (large)",
+      "answer": ["larger"],
+      "explanation": "'large'는 -e로 끝나므로 -r만 붙여 'larger'가 됩니다."
+    },
+    {
+      "id": "ex49",
+      "type": "multiple_choice",
+      "question": "What is the superlative of 'long'?",
+      "options": ["longer", "longest", "most long", "longgest"],
+      "answer": "longest",
+      "explanation": "'long'의 최상급은 -est를 붙여 'longest'가 됩니다."
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "Vegetables are _____ than fast food. (healthy)",
+      "answer": ["healthier"],
+      "explanation": "'healthy'는 -y를 -i로 바꾸고 -er을 붙여 'healthier'가 됩니다."
+    },
+    {
+      "id": "ex51",
+      "type": "multiple_choice",
+      "question": "Which is the correct superlative of 'weak'?",
+      "options": ["weaker", "weakest", "most weak", "weakiest"],
+      "answer": "weakest",
+      "explanation": "'weak'의 최상급은 -est를 붙여 'weakest'가 됩니다."
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "The music is _____ than before. (loud)",
+      "answer": ["louder"],
+      "explanation": "'loud'의 비교급은 -er을 붙여 'louder'가 됩니다."
+    },
+    {
+      "id": "ex53",
+      "type": "multiple_choice",
+      "question": "What is the comparative of 'late'?",
+      "options": ["later", "lateer", "more late", "latest"],
+      "answer": "later",
+      "explanation": "'late'는 -e로 끝나므로 -r만 붙여 'later'가 됩니다."
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "This is _____ building in our city. (tall, superlative)",
+      "answer": ["the tallest"],
+      "explanation": "'tall'의 최상급은 -est를 붙여 'the tallest'가 됩니다."
+    },
+    {
+      "id": "ex55",
+      "type": "matching",
+      "question": "형용사와 비교급을 연결하세요.",
+      "pairs": [
+        { "left": "hot", "right": "hotter" },
+        { "left": "big", "right": "bigger" },
+        { "left": "thin", "right": "thinner" },
+        { "left": "sad", "right": "sadder" }
+      ],
+      "explanation": "짧은 모음 + 자음으로 끝나는 형용사는 자음을 두 번 쓰고 -er을 붙입니다."
+    },
+    {
+      "id": "ex56",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "She is the beautifulest girl.",
+        "She is the most beautiful girl.",
+        "She is more beautiful girl.",
+        "She is beautifuler girl."
+      ],
+      "answer": "She is the most beautiful girl.",
+      "explanation": "'beautiful'은 긴 형용사이므로 최상급은 'the most beautiful'입니다."
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "Today's weather is _____ than yesterday's. (bad)",
+      "answer": ["worse"],
+      "explanation": "'bad'의 비교급은 불규칙 변화로 'worse'입니다."
+    },
+    {
+      "id": "ex58",
+      "type": "multiple_choice",
+      "question": "What is the superlative of 'slow'?",
+      "options": ["slower", "slowest", "most slow", "slowwest"],
+      "answer": "slowest",
+      "explanation": "'slow'의 최상급은 -est를 붙여 'slowest'가 됩니다."
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "My brother is _____ than me. (strong)",
+      "answer": ["stronger"],
+      "explanation": "'strong'의 비교급은 -er을 붙여 'stronger'가 됩니다."
+    },
+    {
+      "id": "ex60",
+      "type": "multiple_choice",
+      "question": "Which is the correct comparative of 'modern'?",
+      "options": ["moderner", "modernner", "more modern", "modernest"],
+      "answer": "more modern",
+      "explanation": "'modern'은 2음절이지만 'more modern'으로 비교급을 만듭니다."
+    },
+    {
+      "id": "ex61",
+      "type": "fill_blank",
+      "question": "This road is _____ than the highway. (safe)",
+      "answer": ["safer"],
+      "explanation": "'safe'는 -e로 끝나므로 -r만 붙여 'safer'가 됩니다."
+    },
+    {
+      "id": "ex62",
+      "type": "matching",
+      "question": "-y로 끝나는 형용사의 비교급을 연결하세요.",
+      "pairs": [
+        { "left": "happy", "right": "happier" },
+        { "left": "easy", "right": "easier" },
+        { "left": "busy", "right": "busier" },
+        { "left": "dirty", "right": "dirtier" }
+      ],
+      "explanation": "-y로 끝나는 형용사는 y를 i로 바꾸고 -er을 붙입니다."
+    },
+    {
+      "id": "ex63",
+      "type": "multiple_choice",
+      "question": "What is the comparative of 'cheap'?",
+      "options": ["cheaper", "cheapper", "more cheap", "cheapest"],
+      "answer": "cheaper",
+      "explanation": "'cheap'의 비교급은 -er을 붙여 'cheaper'가 됩니다."
+    },
+    {
+      "id": "ex64",
+      "type": "fill_blank",
+      "question": "This is _____ movie I've ever watched. (interesting, superlative)",
+      "answer": ["the most interesting"],
+      "explanation": "'interesting'은 긴 형용사이므로 최상급은 'the most interesting'입니다."
+    },
+    {
+      "id": "ex65",
+      "type": "multiple_choice",
+      "question": "Which is the correct superlative of 'far'?",
+      "options": ["farer", "farest", "farthest", "most far"],
+      "answer": "farthest",
+      "explanation": "'far'의 최상급은 불규칙 변화로 'farthest' 또는 'furthest'입니다."
+    },
+    {
+      "id": "ex66",
+      "type": "fill_blank",
+      "question": "The park is _____ than the mall from here. (near)",
+      "answer": ["nearer"],
+      "explanation": "'near'의 비교급은 -er을 붙여 'nearer'가 됩니다."
+    },
+    {
+      "id": "ex67",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "This is more easy than that.",
+        "This is easyer than that.",
+        "This is easier than that.",
+        "This is the easier than that."
+      ],
+      "answer": "This is easier than that.",
+      "explanation": "'easy'는 -y를 -i로 바꾸고 -er을 붙여 비교급을 만듭니다."
+    },
+    {
+      "id": "ex68",
+      "type": "fill_blank",
+      "question": "He is _____ player on the team. (good, superlative)",
+      "answer": ["the best"],
+      "explanation": "'good'의 최상급은 불규칙 변화로 'the best'입니다."
+    },
+    {
+      "id": "ex69",
+      "type": "multiple_choice",
+      "question": "What is the comparative of 'short'?",
+      "options": ["shorter", "shortter", "more short", "shortest"],
+      "answer": "shorter",
+      "explanation": "'short'의 비교급은 -er을 붙여 'shorter'가 됩니다."
+    },
+    {
+      "id": "ex70",
+      "type": "fill_blank",
+      "question": "My sister is _____ than me. (young)",
+      "answer": ["younger"],
+      "explanation": "'young'의 비교급은 -er을 붙여 'younger'가 됩니다."
+    },
+    {
+      "id": "ex71",
+      "type": "matching",
+      "question": "-e로 끝나는 형용사의 비교급을 연결하세요.",
+      "pairs": [
+        { "left": "wide", "right": "wider" },
+        { "left": "large", "right": "larger" },
+        { "left": "safe", "right": "safer" },
+        { "left": "wise", "right": "wiser" }
+      ],
+      "explanation": "-e로 끝나는 형용사는 -r만 붙여 비교급을 만듭니다."
+    },
+    {
+      "id": "ex72",
+      "type": "multiple_choice",
+      "question": "Which is the correct superlative of 'popular'?",
+      "options": ["popularer", "popularest", "most popular", "more popular"],
+      "answer": "most popular",
+      "explanation": "'popular'은 긴 형용사이므로 최상급은 'most popular'입니다."
+    },
+    {
+      "id": "ex73",
+      "type": "fill_blank",
+      "question": "This blanket is _____ than that one. (thick)",
+      "answer": ["thicker"],
+      "explanation": "'thick'의 비교급은 -er을 붙여 'thicker'가 됩니다."
+    },
+    {
+      "id": "ex74",
+      "type": "multiple_choice",
+      "question": "What is the comparative of 'small'?",
+      "options": ["smaller", "smalller", "more small", "smallest"],
+      "answer": "smaller",
+      "explanation": "'small'의 비교급은 -er을 붙여 'smaller'가 됩니다."
+    },
+    {
+      "id": "ex75",
+      "type": "fill_blank",
+      "question": "January is _____ month of the year. (cold, superlative)",
+      "answer": ["the coldest"],
+      "explanation": "'cold'의 최상급은 -est를 붙여 'the coldest'가 됩니다."
+    },
+    {
+      "id": "ex76",
+      "type": "multiple_choice",
+      "question": "Which word does NOT double the consonant in comparative?",
+      "options": ["hot", "big", "fast", "thin"],
+      "answer": "fast",
+      "explanation": "'fast'는 모음이 짧지만 -st로 끝나므로 자음을 두 번 쓰지 않습니다."
+    },
+    {
+      "id": "ex77",
+      "type": "fill_blank",
+      "question": "The Amazon is _____ river in the world. (long, superlative)",
+      "answer": ["the longest"],
+      "explanation": "'long'의 최상급은 -est를 붙여 'the longest'가 됩니다."
+    },
+    {
+      "id": "ex78",
+      "type": "matching",
+      "question": "불규칙 비교급/최상급을 연결하세요.",
+      "pairs": [
+        { "left": "good - better", "right": "best" },
+        { "left": "bad - worse", "right": "worst" },
+        { "left": "far - farther", "right": "farthest" },
+        { "left": "little - less", "right": "least" }
+      ],
+      "explanation": "불규칙 변화: good→better→best, bad→worse→worst 등"
+    },
+    {
+      "id": "ex79",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "This coffee is hoter than that.",
+        "This coffee is hotter than that.",
+        "This coffee is more hot than that.",
+        "This coffee is the hotter than that."
+      ],
+      "answer": "This coffee is hotter than that.",
+      "explanation": "'hot'은 자음을 한 번 더 쓰고 -er을 붙여 'hotter'가 됩니다."
+    },
+    {
+      "id": "ex80",
+      "type": "fill_blank",
+      "question": "This laptop is _____ than the old one. (light)",
+      "answer": ["lighter"],
+      "explanation": "'light'의 비교급은 -er을 붙여 'lighter'가 됩니다."
+    },
+    {
+      "id": "ex81",
+      "type": "multiple_choice",
+      "question": "What is the superlative of 'clean'?",
+      "options": ["cleaner", "cleanest", "most clean", "cleaniest"],
+      "answer": "cleanest",
+      "explanation": "'clean'의 최상급은 -est를 붙여 'cleanest'가 됩니다."
+    },
+    {
+      "id": "ex82",
+      "type": "fill_blank",
+      "question": "Today is _____ day of the week. (busy, superlative)",
+      "answer": ["the busiest"],
+      "explanation": "'busy'는 -y를 -i로 바꾸고 -est를 붙여 'the busiest'가 됩니다."
+    },
+    {
+      "id": "ex83",
+      "type": "multiple_choice",
+      "question": "Which is the correct comparative of 'interesting'?",
+      "options": ["interestinger", "interestingest", "more interesting", "most interesting"],
+      "answer": "more interesting",
+      "explanation": "'interesting'은 긴 형용사이므로 'more interesting'으로 비교급을 만듭니다."
+    },
+    {
+      "id": "ex84",
+      "type": "fill_blank",
+      "question": "This street is _____ than the other one. (wide)",
+      "answer": ["wider"],
+      "explanation": "'wide'는 -e로 끝나므로 -r만 붙여 'wider'가 됩니다."
+    },
+    {
+      "id": "ex85",
+      "type": "multiple_choice",
+      "question": "What is the superlative of 'deep'?",
+      "options": ["deeper", "deepest", "most deep", "deepper"],
+      "answer": "deepest",
+      "explanation": "'deep'의 최상급은 -est를 붙여 'deepest'가 됩니다."
+    },
+    {
+      "id": "ex86",
+      "type": "fill_blank",
+      "question": "She looks _____ today than yesterday. (sad)",
+      "answer": ["sadder"],
+      "explanation": "'sad'는 자음을 한 번 더 쓰고 -er을 붙여 'sadder'가 됩니다."
+    },
+    {
+      "id": "ex87",
+      "type": "matching",
+      "question": "긴 형용사의 비교급을 연결하세요.",
+      "pairs": [
+        { "left": "expensive", "right": "more expensive" },
+        { "left": "beautiful", "right": "more beautiful" },
+        { "left": "dangerous", "right": "more dangerous" },
+        { "left": "interesting", "right": "more interesting" }
+      ],
+      "explanation": "긴 형용사(2음절 이상)는 'more + 형용사'로 비교급을 만듭니다."
+    },
+    {
+      "id": "ex88",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "Mount Everest is the higher mountain.",
+        "Mount Everest is the most high mountain.",
+        "Mount Everest is the highest mountain.",
+        "Mount Everest is the most highest mountain."
+      ],
+      "answer": "Mount Everest is the highest mountain.",
+      "explanation": "'high'의 최상급은 -est를 붙여 'the highest'가 됩니다."
+    },
+    {
+      "id": "ex89",
+      "type": "fill_blank",
+      "question": "This paper is _____ than cardboard. (thin)",
+      "answer": ["thinner"],
+      "explanation": "'thin'은 자음을 한 번 더 쓰고 -er을 붙여 'thinner'가 됩니다."
+    },
+    {
+      "id": "ex90",
+      "type": "multiple_choice",
+      "question": "What is the comparative of 'quiet'?",
+      "options": ["quieter", "quietter", "more quiet", "quietest"],
+      "answer": "quieter",
+      "explanation": "'quiet'의 비교급은 -er을 붙여 'quieter'가 됩니다."
+    },
+    {
+      "id": "ex91",
+      "type": "fill_blank",
+      "question": "This is _____ weather this week. (bad, superlative)",
+      "answer": ["the worst"],
+      "explanation": "'bad'의 최상급은 불규칙 변화로 'the worst'입니다."
+    },
+    {
+      "id": "ex92",
+      "type": "multiple_choice",
+      "question": "Which is the correct superlative of 'narrow'?",
+      "options": ["narrower", "narrowest", "most narrow", "narrowwest"],
+      "answer": "narrowest",
+      "explanation": "'narrow'의 최상급은 -est를 붙여 'narrowest'가 됩니다."
+    },
+    {
+      "id": "ex93",
+      "type": "fill_blank",
+      "question": "English is _____ than Japanese for me. (easy)",
+      "answer": ["easier"],
+      "explanation": "'easy'는 -y를 -i로 바꾸고 -er을 붙여 'easier'가 됩니다."
+    },
+    {
+      "id": "ex94",
+      "type": "matching",
+      "question": "반대말 형용사의 비교급을 연결하세요.",
+      "pairs": [
+        { "left": "tall - taller", "right": "short - shorter" },
+        { "left": "hot - hotter", "right": "cold - colder" },
+        { "left": "fast - faster", "right": "slow - slower" },
+        { "left": "old - older", "right": "young - younger" }
+      ],
+      "explanation": "반대말 형용사도 같은 비교급 규칙을 따릅니다."
+    },
+    {
+      "id": "ex95",
+      "type": "multiple_choice",
+      "question": "Which word is an irregular comparative?",
+      "options": ["taller", "faster", "worse", "longer"],
+      "answer": "worse",
+      "explanation": "'worse'는 'bad'의 불규칙 비교급입니다."
+    },
+    {
+      "id": "ex96",
+      "type": "fill_blank",
+      "question": "This hotel is _____ than that one. (expensive)",
+      "answer": ["more expensive"],
+      "explanation": "'expensive'는 긴 형용사이므로 'more expensive'로 비교급을 만듭니다."
+    },
+    {
+      "id": "ex97",
+      "type": "multiple_choice",
+      "question": "What is the superlative of 'happy'?",
+      "options": ["happyer", "happyest", "happiest", "most happy"],
+      "answer": "happiest",
+      "explanation": "'happy'는 -y를 -i로 바꾸고 -est를 붙여 'happiest'가 됩니다."
+    },
+    {
+      "id": "ex98",
+      "type": "fill_blank",
+      "question": "He is _____ student in the class. (tall, superlative)",
+      "answer": ["the tallest"],
+      "explanation": "'tall'의 최상급은 -est를 붙여 'the tallest'가 됩니다."
+    },
+    {
+      "id": "ex99",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "I am as tall than you.",
+        "I am as tall as you.",
+        "I am taller as you.",
+        "I am as taller as you."
+      ],
+      "answer": "I am as tall as you.",
+      "explanation": "동등 비교는 'as + 형용사 원형 + as' 형태를 사용합니다."
+    },
+    {
+      "id": "ex100",
+      "type": "fill_blank",
+      "question": "This exercise is _____ than the last one. (difficult)",
+      "answer": ["more difficult"],
+      "explanation": "'difficult'는 긴 형용사이므로 'more difficult'로 비교급을 만듭니다."
+    },
+    {
+      "id": "ex101",
+      "type": "multiple_choice",
+      "question": "Which is the correct superlative of 'early'?",
+      "options": ["earlier", "earliest", "most early", "earlyest"],
+      "answer": "earliest",
+      "explanation": "'early'는 -y를 -i로 바꾸고 -est를 붙여 'earliest'가 됩니다."
+    },
+    {
+      "id": "ex102",
+      "type": "fill_blank",
+      "question": "This car is _____ than the bus. (fast)",
+      "answer": ["faster"],
+      "explanation": "'fast'의 비교급은 -er을 붙여 'faster'가 됩니다."
+    },
+    {
+      "id": "ex103",
+      "type": "multiple_choice",
+      "question": "What is the comparative of 'boring'?",
+      "options": ["boringer", "boringest", "more boring", "most boring"],
+      "answer": "more boring",
+      "explanation": "'boring'은 -ing로 끝나는 긴 형용사이므로 'more boring'으로 비교급을 만듭니다."
+    },
+    {
+      "id": "ex104",
+      "type": "fill_blank",
+      "question": "She is _____ girl in our school. (popular, superlative)",
+      "answer": ["the most popular"],
+      "explanation": "'popular'은 긴 형용사이므로 최상급은 'the most popular'입니다."
+    },
+    {
+      "id": "ex105",
+      "type": "matching",
+      "question": "최상급과 원형을 연결하세요.",
+      "pairs": [
+        { "left": "tallest", "right": "tall" },
+        { "left": "biggest", "right": "big" },
+        { "left": "happiest", "right": "happy" },
+        { "left": "most expensive", "right": "expensive" }
+      ],
+      "explanation": "짧은 형용사는 -est, 긴 형용사는 'most'를 사용합니다."
+    },
+    {
+      "id": "ex106",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "This book is gooder than that.",
+        "This book is more good than that.",
+        "This book is better than that.",
+        "This book is the better than that."
+      ],
+      "answer": "This book is better than that.",
+      "explanation": "'good'의 비교급은 불규칙 변화로 'better'입니다."
+    },
+    {
+      "id": "ex107",
+      "type": "fill_blank",
+      "question": "The patient is _____ today than yesterday. (weak)",
+      "answer": ["weaker"],
+      "explanation": "'weak'의 비교급은 -er을 붙여 'weaker'가 됩니다."
+    },
+    {
+      "id": "ex108",
+      "type": "multiple_choice",
+      "question": "What is the superlative of 'dangerous'?",
+      "options": ["dangerouser", "dangerousest", "more dangerous", "most dangerous"],
+      "answer": "most dangerous",
+      "explanation": "'dangerous'는 긴 형용사이므로 최상급은 'most dangerous'입니다."
+    },
+    {
+      "id": "ex109",
+      "type": "fill_blank",
+      "question": "This path is _____ than the road. (narrow)",
+      "answer": ["narrower"],
+      "explanation": "'narrow'의 비교급은 -er을 붙여 'narrower'가 됩니다."
+    },
+    {
+      "id": "ex110",
+      "type": "multiple_choice",
+      "question": "Which is the correct comparative of 'healthy'?",
+      "options": ["healthyer", "healthier", "more healthy", "healthyest"],
+      "answer": "healthier",
+      "explanation": "'healthy'는 -y를 -i로 바꾸고 -er을 붙여 'healthier'가 됩니다."
+    },
+    {
+      "id": "ex111",
+      "type": "fill_blank",
+      "question": "My room is _____ than yours. (clean)",
+      "answer": ["cleaner"],
+      "explanation": "'clean'의 비교급은 -er을 붙여 'cleaner'가 됩니다."
+    },
+    {
+      "id": "ex112",
+      "type": "matching",
+      "question": "비교급 형태와 규칙을 연결하세요.",
+      "pairs": [
+        { "left": "taller", "right": "짧은 형용사 + er" },
+        { "left": "bigger", "right": "자음 두 번 + er" },
+        { "left": "easier", "right": "y → i + er" },
+        { "left": "more beautiful", "right": "more + 긴 형용사" }
+      ],
+      "explanation": "비교급 형성 규칙은 형용사 유형에 따라 다릅니다."
+    },
+    {
+      "id": "ex113",
+      "type": "multiple_choice",
+      "question": "Which sentence uses the superlative correctly?",
+      "options": [
+        "He is the taller in the class.",
+        "He is tallest in the class.",
+        "He is the tallest in the class.",
+        "He is most tall in the class."
+      ],
+      "answer": "He is the tallest in the class.",
+      "explanation": "최상급 앞에는 반드시 'the'를 붙여야 합니다."
+    },
+    {
+      "id": "ex114",
+      "type": "fill_blank",
+      "question": "Today I woke up _____ than usual. (late)",
+      "answer": ["later"],
+      "explanation": "'late'는 -e로 끝나므로 -r만 붙여 'later'가 됩니다."
+    },
+    {
+      "id": "ex115",
+      "type": "multiple_choice",
+      "question": "What is the comparative of 'wise'?",
+      "options": ["wiser", "wiseer", "more wise", "wisest"],
+      "answer": "wiser",
+      "explanation": "'wise'는 -e로 끝나므로 -r만 붙여 'wiser'가 됩니다."
+    },
+    {
+      "id": "ex116",
+      "type": "fill_blank",
+      "question": "This restaurant is _____ than that cafe. (cheap)",
+      "answer": ["cheaper"],
+      "explanation": "'cheap'의 비교급은 -er을 붙여 'cheaper'가 됩니다."
+    },
+    {
+      "id": "ex117",
+      "type": "multiple_choice",
+      "question": "Which word has an irregular superlative?",
+      "options": ["fast", "bad", "tall", "old"],
+      "answer": "bad",
+      "explanation": "'bad'의 최상급은 'worst'로 불규칙 변화를 합니다."
+    },
+    {
+      "id": "ex118",
+      "type": "fill_blank",
+      "question": "Seoul is _____ than many other cities. (modern)",
+      "answer": ["more modern"],
+      "explanation": "'modern'은 'more modern'으로 비교급을 만듭니다."
+    },
+    {
+      "id": "ex119",
+      "type": "matching",
+      "question": "형용사의 세 가지 형태를 연결하세요.",
+      "pairs": [
+        { "left": "good", "right": "better - best" },
+        { "left": "bad", "right": "worse - worst" },
+        { "left": "far", "right": "farther - farthest" },
+        { "left": "little", "right": "less - least" }
+      ],
+      "explanation": "불규칙 변화 형용사의 원형, 비교급, 최상급을 암기해야 합니다."
+    },
+    {
+      "id": "ex120",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "She runs faster as me.",
+        "She runs more fast than me.",
+        "She runs faster than me.",
+        "She runs fastest than me."
+      ],
+      "answer": "She runs faster than me.",
+      "explanation": "비교급 다음에는 'than'을 사용합니다."
+    },
+    {
+      "id": "ex121",
+      "type": "fill_blank",
+      "question": "This bag is _____ than that suitcase. (heavy)",
+      "answer": ["heavier"],
+      "explanation": "'heavy'는 -y를 -i로 바꾸고 -er을 붙여 'heavier'가 됩니다."
+    },
+    {
+      "id": "ex122",
+      "type": "multiple_choice",
+      "question": "What is the superlative of 'new'?",
+      "options": ["newer", "newest", "most new", "newwest"],
+      "answer": "newest",
+      "explanation": "'new'의 최상급은 -est를 붙여 'newest'가 됩니다."
+    },
+    {
+      "id": "ex123",
+      "type": "fill_blank",
+      "question": "His answer is _____ than mine. (good)",
+      "answer": ["better"],
+      "explanation": "'good'의 비교급은 불규칙 변화로 'better'입니다."
+    },
+    {
+      "id": "ex124",
+      "type": "multiple_choice",
+      "question": "Which is the correct superlative of 'dirty'?",
+      "options": ["dirtyer", "dirtyest", "dirtiest", "most dirty"],
+      "answer": "dirtiest",
+      "explanation": "'dirty'는 -y를 -i로 바꾸고 -est를 붙여 'dirtiest'가 됩니다."
+    },
+    {
+      "id": "ex125",
+      "type": "fill_blank",
+      "question": "The ocean is _____ than the lake. (deep)",
+      "answer": ["deeper"],
+      "explanation": "'deep'의 비교급은 -er을 붙여 'deeper'가 됩니다."
+    },
+    {
+      "id": "ex126",
+      "type": "matching",
+      "question": "동등 비교 표현을 완성하세요.",
+      "pairs": [
+        { "left": "as tall", "right": "as" },
+        { "left": "as fast", "right": "as" },
+        { "left": "as big", "right": "as" },
+        { "left": "as beautiful", "right": "as" }
+      ],
+      "explanation": "동등 비교는 'as + 형용사 원형 + as' 형태를 사용합니다."
+    },
+    {
+      "id": "ex127",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "This is the most cheapest option.",
+        "This is the cheapest option.",
+        "This is the more cheaper option.",
+        "This is cheaper option."
+      ],
+      "answer": "This is the cheapest option.",
+      "explanation": "최상급은 'the + -est' 또는 'the most + 형용사' 형태입니다."
+    },
+    {
+      "id": "ex128",
+      "type": "fill_blank",
+      "question": "The music is _____ than I expected. (loud)",
+      "answer": ["louder"],
+      "explanation": "'loud'의 비교급은 -er을 붙여 'louder'가 됩니다."
+    },
+    {
+      "id": "ex129",
+      "type": "multiple_choice",
+      "question": "What is the comparative of 'large'?",
+      "options": ["larger", "largger", "more large", "largest"],
+      "answer": "larger",
+      "explanation": "'large'는 -e로 끝나므로 -r만 붙여 'larger'가 됩니다."
+    },
+    {
+      "id": "ex130",
+      "type": "fill_blank",
+      "question": "Summer is _____ season of the year. (hot, superlative)",
+      "answer": ["the hottest"],
+      "explanation": "'hot'은 자음을 한 번 더 쓰고 -est를 붙여 'the hottest'가 됩니다."
+    },
+    {
+      "id": "ex131",
+      "type": "multiple_choice",
+      "question": "Which is the correct comparative of 'safe'?",
+      "options": ["safer", "safeer", "more safe", "safest"],
+      "answer": "safer",
+      "explanation": "'safe'는 -e로 끝나므로 -r만 붙여 'safer'가 됩니다."
+    },
+    {
+      "id": "ex132",
+      "type": "fill_blank",
+      "question": "This movie is _____ than the book. (interesting)",
+      "answer": ["more interesting"],
+      "explanation": "'interesting'은 긴 형용사이므로 'more interesting'으로 비교급을 만듭니다."
+    },
+    {
+      "id": "ex133",
+      "type": "matching",
+      "question": "최상급 형태와 규칙을 연결하세요.",
+      "pairs": [
+        { "left": "tallest", "right": "짧은 형용사 + est" },
+        { "left": "biggest", "right": "자음 두 번 + est" },
+        { "left": "happiest", "right": "y → i + est" },
+        { "left": "most popular", "right": "most + 긴 형용사" }
+      ],
+      "explanation": "최상급 형성 규칙은 형용사 유형에 따라 다릅니다."
+    },
+    {
+      "id": "ex134",
+      "type": "multiple_choice",
+      "question": "Which sentence uses comparison correctly?",
+      "options": [
+        "He is more tall than his brother.",
+        "He is taller than his brother.",
+        "He is tallest than his brother.",
+        "He is the taller than his brother."
+      ],
+      "answer": "He is taller than his brother.",
+      "explanation": "'tall'은 짧은 형용사이므로 -er을 붙여 비교급을 만듭니다."
+    },
+    {
+      "id": "ex135",
+      "type": "fill_blank",
+      "question": "My grandmother is _____ person in our family. (old, superlative)",
+      "answer": ["the oldest"],
+      "explanation": "'old'의 최상급은 -est를 붙여 'the oldest'가 됩니다."
+    },
+    {
+      "id": "ex136",
+      "type": "multiple_choice",
+      "question": "What is the superlative of 'strong'?",
+      "options": ["stronger", "strongest", "most strong", "stronggest"],
+      "answer": "strongest",
+      "explanation": "'strong'의 최상급은 -est를 붙여 'strongest'가 됩니다."
+    },
+    {
+      "id": "ex137",
+      "type": "fill_blank",
+      "question": "This chair is _____ than that bench. (comfortable)",
+      "answer": ["more comfortable"],
+      "explanation": "'comfortable'은 긴 형용사이므로 'more comfortable'로 비교급을 만듭니다."
+    },
+    {
+      "id": "ex138",
+      "type": "multiple_choice",
+      "question": "Which is the correct superlative of 'low'?",
+      "options": ["lower", "lowest", "most low", "lowwest"],
+      "answer": "lowest",
+      "explanation": "'low'의 최상급은 -est를 붙여 'lowest'가 됩니다."
+    },
+    {
+      "id": "ex139",
+      "type": "fill_blank",
+      "question": "This road is _____ than I thought. (long)",
+      "answer": ["longer"],
+      "explanation": "'long'의 비교급은 -er을 붙여 'longer'가 됩니다."
+    },
+    {
+      "id": "ex140",
+      "type": "matching",
+      "question": "비교급과 최상급을 연결하세요.",
+      "pairs": [
+        { "left": "better", "right": "best" },
+        { "left": "worse", "right": "worst" },
+        { "left": "farther", "right": "farthest" },
+        { "left": "more", "right": "most" }
+      ],
+      "explanation": "불규칙 변화의 비교급과 최상급을 연결합니다."
+    },
+    {
+      "id": "ex141",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "This is the interestingest story.",
+        "This is the more interesting story.",
+        "This is the most interesting story.",
+        "This is most interesting story."
+      ],
+      "answer": "This is the most interesting story.",
+      "explanation": "긴 형용사의 최상급은 'the most + 형용사' 형태입니다."
+    },
+    {
+      "id": "ex142",
+      "type": "fill_blank",
+      "question": "Where is _____ station from here? (near, superlative)",
+      "answer": ["the nearest"],
+      "explanation": "'near'의 최상급은 -est를 붙여 'the nearest'가 됩니다."
+    },
+    {
+      "id": "ex143",
+      "type": "multiple_choice",
+      "question": "What is the comparative of 'young'?",
+      "options": ["younger", "youngger", "more young", "youngest"],
+      "answer": "younger",
+      "explanation": "'young'의 비교급은 -er을 붙여 'younger'가 됩니다."
+    },
+    {
+      "id": "ex144",
+      "type": "fill_blank",
+      "question": "The situation is _____ than before. (bad)",
+      "answer": ["worse"],
+      "explanation": "'bad'의 비교급은 불규칙 변화로 'worse'입니다."
+    },
+    {
+      "id": "ex145",
+      "type": "multiple_choice",
+      "question": "Which is the correct superlative of 'quiet'?",
+      "options": ["quieter", "quietest", "most quiet", "quiettest"],
+      "answer": "quietest",
+      "explanation": "'quiet'의 최상급은 -est를 붙여 'quietest'가 됩니다."
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "question": "This is _____ book I have ever read. (good, superlative)",
+      "answer": ["the best"],
+      "explanation": "'good'의 최상급은 불규칙 변화로 'the best'입니다."
+    },
+    {
+      "id": "ex147",
+      "type": "matching",
+      "question": "비교급 문장 구조를 연결하세요.",
+      "pairs": [
+        { "left": "비교급 + than", "right": "A is taller than B" },
+        { "left": "the + 최상급", "right": "A is the tallest" },
+        { "left": "as + 원형 + as", "right": "A is as tall as B" },
+        { "left": "not as + 원형 + as", "right": "A is not as tall as B" }
+      ],
+      "explanation": "비교 표현의 기본 구조를 익힙니다."
+    },
+    {
+      "id": "ex148",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "Today is more cold than yesterday.",
+        "Today is colder than yesterday.",
+        "Today is coldest than yesterday.",
+        "Today is the colder than yesterday."
+      ],
+      "answer": "Today is colder than yesterday.",
+      "explanation": "'cold'는 짧은 형용사이므로 -er을 붙여 비교급을 만듭니다."
+    },
+    {
+      "id": "ex149",
+      "type": "fill_blank",
+      "question": "This is _____ day of my life. (happy, superlative)",
+      "answer": ["the happiest"],
+      "explanation": "'happy'는 -y를 -i로 바꾸고 -est를 붙여 'the happiest'가 됩니다."
+    },
+    {
+      "id": "ex150",
+      "type": "multiple_choice",
+      "question": "Which comparison rule is correct?",
+      "options": [
+        "All 2-syllable adjectives use 'more'",
+        "Adjectives ending in -y use 'more'",
+        "Short adjectives add -er/-est",
+        "All adjectives can use both forms"
+      ],
+      "answer": "Short adjectives add -er/-est",
+      "explanation": "짧은 형용사(1음절, 일부 2음절)는 -er/-est를 붙여 비교급/최상급을 만듭니다."
     }
   ]
 }

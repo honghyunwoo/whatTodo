@@ -256,6 +256,256 @@
       "translation": "사이버 보안",
       "example": "Cybersecurity is more important than ever.",
       "exampleTranslation": "사이버 보안은 그 어느 때보다 중요해요."
+    },
+    {
+      "id": "w26",
+      "word": "software",
+      "pronunciation": "/ˈsɒftweə/",
+      "partOfSpeech": "noun",
+      "meaning": "programs and applications used by a computer",
+      "translation": "소프트웨어",
+      "example": "This software makes photo editing easy.",
+      "exampleTranslation": "이 소프트웨어는 사진 편집을 쉽게 만들어요."
+    },
+    {
+      "id": "w27",
+      "word": "hardware",
+      "pronunciation": "/ˈhɑːdweə/",
+      "partOfSpeech": "noun",
+      "meaning": "the physical parts of a computer",
+      "translation": "하드웨어",
+      "example": "You need to upgrade your hardware for better performance.",
+      "exampleTranslation": "더 나은 성능을 위해 하드웨어를 업그레이드해야 해요."
+    },
+    {
+      "id": "w28",
+      "word": "install",
+      "pronunciation": "/ɪnˈstɔːl/",
+      "partOfSpeech": "verb",
+      "meaning": "to put software on a computer",
+      "translation": "설치하다",
+      "example": "I need to install this program on my laptop.",
+      "exampleTranslation": "노트북에 이 프로그램을 설치해야 해요."
+    },
+    {
+      "id": "w29",
+      "word": "crash",
+      "pronunciation": "/kræʃ/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "when a computer or app suddenly stops working",
+      "translation": "다운되다, 충돌",
+      "example": "My computer crashed and I lost all my work.",
+      "exampleTranslation": "컴퓨터가 다운되어 작업한 것을 모두 잃었어요."
+    },
+    {
+      "id": "w30",
+      "word": "backup",
+      "pronunciation": "/ˈbækʌp/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "a copy of data saved for safety",
+      "translation": "백업",
+      "example": "Always make a backup of important files.",
+      "exampleTranslation": "중요한 파일은 항상 백업하세요."
+    },
+    {
+      "id": "w31",
+      "word": "virus",
+      "pronunciation": "/ˈvaɪrəs/",
+      "partOfSpeech": "noun",
+      "meaning": "harmful software that damages computers",
+      "translation": "바이러스",
+      "example": "My computer got a virus from a suspicious email.",
+      "exampleTranslation": "의심스러운 이메일 때문에 컴퓨터가 바이러스에 감염되었어요."
+    },
+    {
+      "id": "w32",
+      "word": "spam",
+      "pronunciation": "/spæm/",
+      "partOfSpeech": "noun",
+      "meaning": "unwanted emails or messages",
+      "translation": "스팸",
+      "example": "I get a lot of spam emails every day.",
+      "exampleTranslation": "매일 스팸 이메일을 많이 받아요."
+    },
+    {
+      "id": "w33",
+      "word": "emoji",
+      "pronunciation": "/ɪˈməʊdʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "a small digital image expressing emotion",
+      "translation": "이모지",
+      "example": "She always uses emojis in her messages.",
+      "exampleTranslation": "그녀는 메시지에서 항상 이모지를 사용해요."
+    },
+    {
+      "id": "w34",
+      "word": "hashtag",
+      "pronunciation": "/ˈhæʃtæɡ/",
+      "partOfSpeech": "noun",
+      "meaning": "a word or phrase preceded by # to categorize content",
+      "translation": "해시태그",
+      "example": "Use hashtags to make your posts more visible.",
+      "exampleTranslation": "게시물을 더 잘 보이게 하려면 해시태그를 사용하세요."
+    },
+    {
+      "id": "w35",
+      "word": "blog",
+      "pronunciation": "/blɒɡ/",
+      "partOfSpeech": "noun",
+      "meaning": "a personal website with regular articles",
+      "translation": "블로그",
+      "example": "She writes a travel blog about her adventures.",
+      "exampleTranslation": "그녀는 자신의 모험에 대한 여행 블로그를 써요."
+    },
+    {
+      "id": "w36",
+      "word": "podcast",
+      "pronunciation": "/ˈpɒdkɑːst/",
+      "partOfSpeech": "noun",
+      "meaning": "an audio program available online",
+      "translation": "팟캐스트",
+      "example": "I listen to podcasts while commuting.",
+      "exampleTranslation": "출퇴근할 때 팟캐스트를 들어요."
+    },
+    {
+      "id": "w37",
+      "word": "wireless",
+      "pronunciation": "/ˈwaɪələs/",
+      "partOfSpeech": "adjective",
+      "meaning": "not using wires or cables",
+      "translation": "무선의",
+      "example": "I bought wireless headphones for my phone.",
+      "exampleTranslation": "휴대폰용 무선 헤드폰을 샀어요."
+    },
+    {
+      "id": "w38",
+      "word": "keyboard",
+      "pronunciation": "/ˈkiːbɔːd/",
+      "partOfSpeech": "noun",
+      "meaning": "a device with keys for typing",
+      "translation": "키보드",
+      "example": "My keyboard has stopped working properly.",
+      "exampleTranslation": "키보드가 제대로 작동하지 않아요."
+    },
+    {
+      "id": "w39",
+      "word": "click",
+      "pronunciation": "/klɪk/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to press a button on a mouse",
+      "translation": "클릭하다",
+      "example": "Click here to continue.",
+      "exampleTranslation": "계속하려면 여기를 클릭하세요."
+    },
+    {
+      "id": "w40",
+      "word": "touchscreen",
+      "pronunciation": "/ˈtʌtʃskriːn/",
+      "partOfSpeech": "noun",
+      "meaning": "a screen that responds to touch",
+      "translation": "터치스크린",
+      "example": "Smartphones have touchscreen displays.",
+      "exampleTranslation": "스마트폰에는 터치스크린 디스플레이가 있어요."
+    },
+    {
+      "id": "w41",
+      "word": "profile",
+      "pronunciation": "/ˈprəʊfaɪl/",
+      "partOfSpeech": "noun",
+      "meaning": "personal information on a social media account",
+      "translation": "프로필",
+      "example": "I updated my profile picture yesterday.",
+      "exampleTranslation": "어제 프로필 사진을 업데이트했어요."
+    },
+    {
+      "id": "w42",
+      "word": "account",
+      "pronunciation": "/əˈkaʊnt/",
+      "partOfSpeech": "noun",
+      "meaning": "a user's registration on a website or app",
+      "translation": "계정",
+      "example": "You need to create an account to use this service.",
+      "exampleTranslation": "이 서비스를 사용하려면 계정을 만들어야 해요."
+    },
+    {
+      "id": "w43",
+      "word": "post",
+      "pronunciation": "/pəʊst/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to publish content online",
+      "translation": "게시하다, 게시물",
+      "example": "I post photos on Instagram every week.",
+      "exampleTranslation": "매주 인스타그램에 사진을 게시해요."
+    },
+    {
+      "id": "w44",
+      "word": "comment",
+      "pronunciation": "/ˈkɒment/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to write a response to online content",
+      "translation": "댓글을 달다, 댓글",
+      "example": "Many people commented on her video.",
+      "exampleTranslation": "많은 사람들이 그녀의 동영상에 댓글을 달았어요."
+    },
+    {
+      "id": "w45",
+      "word": "tag",
+      "pronunciation": "/tæɡ/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to label or identify someone in content",
+      "translation": "태그하다",
+      "example": "She tagged me in a photo from the party.",
+      "exampleTranslation": "그녀는 파티 사진에 나를 태그했어요."
+    },
+    {
+      "id": "w46",
+      "word": "trending",
+      "pronunciation": "/ˈtrendɪŋ/",
+      "partOfSpeech": "adjective",
+      "meaning": "currently popular on social media",
+      "translation": "인기 있는, 트렌딩",
+      "example": "This topic is trending on Twitter right now.",
+      "exampleTranslation": "이 주제가 지금 트위터에서 인기를 끌고 있어요."
+    },
+    {
+      "id": "w47",
+      "word": "website",
+      "pronunciation": "/ˈwebsaɪt/",
+      "partOfSpeech": "noun",
+      "meaning": "a collection of web pages on the internet",
+      "translation": "웹사이트",
+      "example": "I found this information on a government website.",
+      "exampleTranslation": "정부 웹사이트에서 이 정보를 찾았어요."
+    },
+    {
+      "id": "w48",
+      "word": "link",
+      "pronunciation": "/lɪŋk/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "a connection between web pages",
+      "translation": "링크",
+      "example": "Click on the link to read the full article.",
+      "exampleTranslation": "전체 기사를 읽으려면 링크를 클릭하세요."
+    },
+    {
+      "id": "w49",
+      "word": "online",
+      "pronunciation": "/ˌɒnˈlaɪn/",
+      "partOfSpeech": "adjective/adverb",
+      "meaning": "connected to the internet",
+      "translation": "온라인의, 온라인으로",
+      "example": "I do most of my shopping online.",
+      "exampleTranslation": "대부분의 쇼핑을 온라인으로 해요."
+    },
+    {
+      "id": "w50",
+      "word": "offline",
+      "pronunciation": "/ˌɒfˈlaɪn/",
+      "partOfSpeech": "adjective/adverb",
+      "meaning": "not connected to the internet",
+      "translation": "오프라인의, 오프라인으로",
+      "example": "You can use this app offline without internet.",
+      "exampleTranslation": "인터넷 없이 오프라인으로 이 앱을 사용할 수 있어요."
     }
   ],
 
@@ -328,6 +578,965 @@
       "question": "Phone _____ is becoming a serious problem for many people.",
       "options": ["privacy", "addiction", "notification", "connection"],
       "answer": "addiction"
+    },
+    {
+      "id": "ex11",
+      "type": "translation_ko_en",
+      "question": "나는 매일 여러 기기를 사용해요.",
+      "answer": "I use several devices every day."
+    },
+    {
+      "id": "ex12",
+      "type": "translation_en_ko",
+      "question": "You need to update your software.",
+      "answer": "소프트웨어를 업데이트해야 해요."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "I need to _____ this program before I can use it.",
+      "options": ["install", "upload", "browse", "crash"],
+      "answer": "install"
+    },
+    {
+      "id": "ex14",
+      "type": "fill_blank",
+      "question": "Always make a _____ of your important files.",
+      "answer": "backup"
+    },
+    {
+      "id": "ex15",
+      "type": "matching",
+      "pairs": [
+        {"word": "software", "match": "programs for computers"},
+        {"word": "hardware", "match": "physical computer parts"},
+        {"word": "keyboard", "match": "device for typing"},
+        {"word": "touchscreen", "match": "screen that responds to touch"}
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "translation_ko_en",
+      "question": "내 컴퓨터가 다운되었어요.",
+      "answer": "My computer crashed."
+    },
+    {
+      "id": "ex17",
+      "type": "fill_blank",
+      "question": "My computer got a _____ from a suspicious email.",
+      "answer": "virus"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "I get too much _____ in my email inbox.",
+      "options": ["spam", "backup", "virus", "link"],
+      "answer": "spam"
+    },
+    {
+      "id": "ex19",
+      "type": "translation_en_ko",
+      "question": "She writes a travel blog.",
+      "answer": "그녀는 여행 블로그를 써요."
+    },
+    {
+      "id": "ex20",
+      "type": "fill_blank",
+      "question": "I listen to _____ while exercising.",
+      "answer": "podcasts"
+    },
+    {
+      "id": "ex21",
+      "type": "matching",
+      "pairs": [
+        {"word": "blog", "match": "personal website with articles"},
+        {"word": "podcast", "match": "audio program online"},
+        {"word": "emoji", "match": "small digital image"},
+        {"word": "hashtag", "match": "word with # symbol"}
+      ]
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "I bought _____ headphones so I don't need any cables.",
+      "options": ["online", "wireless", "digital", "offline"],
+      "answer": "wireless"
+    },
+    {
+      "id": "ex23",
+      "type": "translation_ko_en",
+      "question": "프로필 사진을 업데이트했어요.",
+      "answer": "I updated my profile picture."
+    },
+    {
+      "id": "ex24",
+      "type": "fill_blank",
+      "question": "You need to create an _____ to use this service.",
+      "answer": "account"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "She _____ a photo from her vacation on Instagram.",
+      "options": ["posted", "crashed", "installed", "backed up"],
+      "answer": "posted"
+    },
+    {
+      "id": "ex26",
+      "type": "translation_en_ko",
+      "question": "Many people commented on the video.",
+      "answer": "많은 사람들이 동영상에 댓글을 달았어요."
+    },
+    {
+      "id": "ex27",
+      "type": "fill_blank",
+      "question": "She _____ me in a photo from the party.",
+      "answer": "tagged"
+    },
+    {
+      "id": "ex28",
+      "type": "matching",
+      "pairs": [
+        {"word": "profile", "match": "personal info on social media"},
+        {"word": "account", "match": "user registration"},
+        {"word": "post", "match": "publish content online"},
+        {"word": "comment", "match": "write a response"}
+      ]
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "This topic is _____ on Twitter right now.",
+      "options": ["trending", "crashing", "browsing", "installing"],
+      "answer": "trending"
+    },
+    {
+      "id": "ex30",
+      "type": "translation_ko_en",
+      "question": "링크를 클릭해서 전체 기사를 읽으세요.",
+      "answer": "Click the link to read the full article."
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "question": "I found this information on a government _____.",
+      "answer": "website"
+    },
+    {
+      "id": "ex32",
+      "type": "multiple_choice",
+      "question": "I do most of my shopping _____.",
+      "options": ["offline", "wireless", "online", "viral"],
+      "answer": "online"
+    },
+    {
+      "id": "ex33",
+      "type": "translation_en_ko",
+      "question": "You can use this app offline.",
+      "answer": "오프라인으로 이 앱을 사용할 수 있어요."
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "The WiFi _____ is very weak in this room.",
+      "answer": "connection"
+    },
+    {
+      "id": "ex35",
+      "type": "matching",
+      "pairs": [
+        {"word": "website", "match": "collection of web pages"},
+        {"word": "link", "match": "connection between pages"},
+        {"word": "online", "match": "connected to internet"},
+        {"word": "offline", "match": "not connected to internet"}
+      ]
+    },
+    {
+      "id": "ex36",
+      "type": "multiple_choice",
+      "question": "I need to _____ my photos to the cloud.",
+      "options": ["download", "upload", "crash", "tag"],
+      "answer": "upload"
+    },
+    {
+      "id": "ex37",
+      "type": "translation_ko_en",
+      "question": "화면을 너무 오래 보고 있어요.",
+      "answer": "I'm looking at the screen for too long."
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "Just _____ for the information on Google.",
+      "answer": "search"
+    },
+    {
+      "id": "ex39",
+      "type": "multiple_choice",
+      "question": "She _____ interesting articles with her followers.",
+      "options": ["shares", "crashes", "installs", "tags"],
+      "answer": "shares"
+    },
+    {
+      "id": "ex40",
+      "type": "translation_en_ko",
+      "question": "I follow several news accounts.",
+      "answer": "여러 뉴스 계정을 팔로우해요."
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "The platform has great educational _____.",
+      "answer": "content"
+    },
+    {
+      "id": "ex42",
+      "type": "matching",
+      "pairs": [
+        {"word": "search", "match": "look for information"},
+        {"word": "share", "match": "post for others to see"},
+        {"word": "follow", "match": "subscribe to account"},
+        {"word": "content", "match": "material on website"}
+      ]
+    },
+    {
+      "id": "ex43",
+      "type": "multiple_choice",
+      "question": "I usually _____ movies instead of downloading them.",
+      "options": ["stream", "crash", "backup", "tag"],
+      "answer": "stream"
+    },
+    {
+      "id": "ex44",
+      "type": "translation_ko_en",
+      "question": "사이버 보안은 매우 중요해요.",
+      "answer": "Cybersecurity is very important."
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "Social media _____ decide what you see in your feed.",
+      "answer": "algorithms"
+    },
+    {
+      "id": "ex46",
+      "type": "multiple_choice",
+      "question": "Social media raises concerns about _____.",
+      "options": ["privacy", "hardware", "keyboard", "emoji"],
+      "answer": "privacy"
+    },
+    {
+      "id": "ex47",
+      "type": "translation_en_ko",
+      "question": "We live in a digital age.",
+      "answer": "우리는 디지털 시대에 살아요."
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "I spent hours just _____ online stores.",
+      "answer": "browsing"
+    },
+    {
+      "id": "ex49",
+      "type": "matching",
+      "pairs": [
+        {"word": "privacy", "match": "keeping info secret"},
+        {"word": "cybersecurity", "match": "protection from threats"},
+        {"word": "algorithm", "match": "set of computer rules"},
+        {"word": "digital", "match": "relating to technology"}
+      ]
+    },
+    {
+      "id": "ex50",
+      "type": "multiple_choice",
+      "question": "Social media can _____ public opinion.",
+      "options": ["influence", "crash", "install", "browse"],
+      "answer": "influence"
+    },
+    {
+      "id": "ex51",
+      "type": "translation_ko_en",
+      "question": "가짜 뉴스를 식별하는 것이 중요해요.",
+      "answer": "It's important to identify fake news."
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "This software makes photo editing _____.",
+      "answer": "easy"
+    },
+    {
+      "id": "ex53",
+      "type": "multiple_choice",
+      "question": "You need to upgrade your _____ for better performance.",
+      "options": ["hardware", "emoji", "hashtag", "spam"],
+      "answer": "hardware"
+    },
+    {
+      "id": "ex54",
+      "type": "translation_en_ko",
+      "question": "Click here to continue.",
+      "answer": "계속하려면 여기를 클릭하세요."
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "Smartphones have _____ displays.",
+      "answer": "touchscreen"
+    },
+    {
+      "id": "ex56",
+      "type": "matching",
+      "pairs": [
+        {"word": "click", "match": "press mouse button"},
+        {"word": "install", "match": "put software on computer"},
+        {"word": "crash", "match": "suddenly stop working"},
+        {"word": "backup", "match": "copy of saved data"}
+      ]
+    },
+    {
+      "id": "ex57",
+      "type": "multiple_choice",
+      "question": "She always uses _____ in her messages.",
+      "options": ["emojis", "viruses", "backups", "crashes"],
+      "answer": "emojis"
+    },
+    {
+      "id": "ex58",
+      "type": "translation_ko_en",
+      "question": "해시태그를 사용해서 게시물을 더 잘 보이게 하세요.",
+      "answer": "Use hashtags to make your posts more visible."
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "My _____ has stopped working properly.",
+      "answer": "keyboard"
+    },
+    {
+      "id": "ex60",
+      "type": "multiple_choice",
+      "question": "I lost all my work when my computer _____.",
+      "options": ["crashed", "posted", "shared", "followed"],
+      "answer": "crashed"
+    },
+    {
+      "id": "ex61",
+      "type": "translation_en_ko",
+      "question": "I subscribe to several YouTube channels.",
+      "answer": "여러 유튜브 채널을 구독해요."
+    },
+    {
+      "id": "ex62",
+      "type": "fill_blank",
+      "question": "Instagram is a popular social media _____.",
+      "answer": "platform"
+    },
+    {
+      "id": "ex63",
+      "type": "matching",
+      "pairs": [
+        {"word": "subscribe", "match": "sign up for content"},
+        {"word": "platform", "match": "website providing service"},
+        {"word": "notification", "match": "alert from app"},
+        {"word": "device", "match": "electronic equipment"}
+      ]
+    },
+    {
+      "id": "ex64",
+      "type": "multiple_choice",
+      "question": "It's important to identify _____ online.",
+      "options": ["fake news", "good news", "real news", "old news"],
+      "answer": "fake news"
+    },
+    {
+      "id": "ex65",
+      "type": "translation_ko_en",
+      "question": "스마트폰 중독은 점점 커지는 문제예요.",
+      "answer": "Phone addiction is a growing problem."
+    },
+    {
+      "id": "ex66",
+      "type": "fill_blank",
+      "question": "You can download the app for _____.",
+      "answer": "free"
+    },
+    {
+      "id": "ex67",
+      "type": "multiple_choice",
+      "question": "I get a lot of _____ emails every day.",
+      "options": ["spam", "reliable", "viral", "trending"],
+      "answer": "spam"
+    },
+    {
+      "id": "ex68",
+      "type": "translation_en_ko",
+      "question": "I uploaded the photos to social media.",
+      "answer": "SNS에 사진을 업로드했어요."
+    },
+    {
+      "id": "ex69",
+      "type": "fill_blank",
+      "question": "Don't forget to _____ your software regularly.",
+      "answer": "update"
+    },
+    {
+      "id": "ex70",
+      "type": "matching",
+      "pairs": [
+        {"word": "update", "match": "add newest features"},
+        {"word": "virus", "match": "harmful software"},
+        {"word": "spam", "match": "unwanted messages"},
+        {"word": "wireless", "match": "without wires"}
+      ]
+    },
+    {
+      "id": "ex71",
+      "type": "translation_ko_en",
+      "question": "출퇴근할 때 팟캐스트를 들어요.",
+      "answer": "I listen to podcasts while commuting."
+    },
+    {
+      "id": "ex72",
+      "type": "multiple_choice",
+      "question": "You should change your _____ regularly for security.",
+      "options": ["password", "screen", "device", "emoji"],
+      "answer": "password"
+    },
+    {
+      "id": "ex73",
+      "type": "fill_blank",
+      "question": "She _____ several interesting articles on her feed.",
+      "answer": "shares"
+    },
+    {
+      "id": "ex74",
+      "type": "translation_en_ko",
+      "question": "The WiFi connection is very slow today.",
+      "answer": "오늘 와이파이 연결이 아주 느려요."
+    },
+    {
+      "id": "ex75",
+      "type": "multiple_choice",
+      "question": "I _____ news accounts to stay informed.",
+      "options": ["follow", "crash", "install", "backup"],
+      "answer": "follow"
+    },
+    {
+      "id": "ex76",
+      "type": "fill_blank",
+      "question": "The video went _____ overnight.",
+      "answer": "viral"
+    },
+    {
+      "id": "ex77",
+      "type": "matching",
+      "pairs": [
+        {"word": "viral", "match": "spreading quickly online"},
+        {"word": "reliable", "match": "able to be trusted"},
+        {"word": "trending", "match": "currently popular"},
+        {"word": "fake news", "match": "false information"}
+      ]
+    },
+    {
+      "id": "ex78",
+      "type": "translation_ko_en",
+      "question": "무선 헤드폰을 샀어요.",
+      "answer": "I bought wireless headphones."
+    },
+    {
+      "id": "ex79",
+      "type": "multiple_choice",
+      "question": "I turned off _____ to focus better.",
+      "options": ["notifications", "devices", "screens", "keyboards"],
+      "answer": "notifications"
+    },
+    {
+      "id": "ex80",
+      "type": "fill_blank",
+      "question": "I need to _____ this program on my laptop.",
+      "answer": "install"
+    },
+    {
+      "id": "ex81",
+      "type": "translation_en_ko",
+      "question": "Always make a backup of important files.",
+      "answer": "중요한 파일은 항상 백업하세요."
+    },
+    {
+      "id": "ex82",
+      "type": "multiple_choice",
+      "question": "This _____ makes photo editing very easy.",
+      "options": ["software", "hardware", "keyboard", "spam"],
+      "answer": "software"
+    },
+    {
+      "id": "ex83",
+      "type": "fill_blank",
+      "question": "She writes a _____ about her travel adventures.",
+      "answer": "blog"
+    },
+    {
+      "id": "ex84",
+      "type": "matching",
+      "pairs": [
+        {"word": "influence", "match": "power to affect others"},
+        {"word": "addiction", "match": "unable to stop using"},
+        {"word": "stream", "match": "watch without downloading"},
+        {"word": "browse", "match": "look without purpose"}
+      ]
+    },
+    {
+      "id": "ex85",
+      "type": "translation_ko_en",
+      "question": "매일 스팸 이메일을 많이 받아요.",
+      "answer": "I get a lot of spam emails every day."
+    },
+    {
+      "id": "ex86",
+      "type": "multiple_choice",
+      "question": "My computer got a _____ from a suspicious email.",
+      "options": ["virus", "password", "profile", "link"],
+      "answer": "virus"
+    },
+    {
+      "id": "ex87",
+      "type": "fill_blank",
+      "question": "Use _____ to make your posts more visible.",
+      "answer": "hashtags"
+    },
+    {
+      "id": "ex88",
+      "type": "translation_en_ko",
+      "question": "I spend too much time staring at a screen.",
+      "answer": "화면을 너무 오래 쳐다봐요."
+    },
+    {
+      "id": "ex89",
+      "type": "multiple_choice",
+      "question": "I bought _____ headphones for my phone.",
+      "options": ["wireless", "online", "offline", "digital"],
+      "answer": "wireless"
+    },
+    {
+      "id": "ex90",
+      "type": "fill_blank",
+      "question": "_____ here to continue to the next page.",
+      "answer": "Click"
+    },
+    {
+      "id": "ex91",
+      "type": "matching",
+      "pairs": [
+        {"word": "tag", "match": "label someone in content"},
+        {"word": "post", "match": "publish online"},
+        {"word": "comment", "match": "write a response"},
+        {"word": "link", "match": "connection to page"}
+      ]
+    },
+    {
+      "id": "ex92",
+      "type": "translation_ko_en",
+      "question": "정부 웹사이트에서 이 정보를 찾았어요.",
+      "answer": "I found this information on a government website."
+    },
+    {
+      "id": "ex93",
+      "type": "multiple_choice",
+      "question": "I updated my _____ picture yesterday.",
+      "options": ["profile", "spam", "virus", "backup"],
+      "answer": "profile"
+    },
+    {
+      "id": "ex94",
+      "type": "fill_blank",
+      "question": "You need to create an _____ to use this service.",
+      "answer": "account"
+    },
+    {
+      "id": "ex95",
+      "type": "translation_en_ko",
+      "question": "This topic is trending on Twitter right now.",
+      "answer": "이 주제가 지금 트위터에서 인기를 끌고 있어요."
+    },
+    {
+      "id": "ex96",
+      "type": "multiple_choice",
+      "question": "I do most of my shopping _____.",
+      "options": ["online", "offline", "wireless", "viral"],
+      "answer": "online"
+    },
+    {
+      "id": "ex97",
+      "type": "fill_blank",
+      "question": "You can use this app _____ without internet.",
+      "answer": "offline"
+    },
+    {
+      "id": "ex98",
+      "type": "matching",
+      "pairs": [
+        {"word": "account", "match": "user registration"},
+        {"word": "profile", "match": "personal info display"},
+        {"word": "website", "match": "web pages collection"},
+        {"word": "password", "match": "secret access word"}
+      ]
+    },
+    {
+      "id": "ex99",
+      "type": "translation_ko_en",
+      "question": "그 플랫폼에는 훌륭한 교육 콘텐츠가 있어요.",
+      "answer": "The platform has great educational content."
+    },
+    {
+      "id": "ex100",
+      "type": "multiple_choice",
+      "question": "She _____ me in a photo from the party.",
+      "options": ["tagged", "crashed", "installed", "backed up"],
+      "answer": "tagged"
+    },
+    {
+      "id": "ex101",
+      "type": "fill_blank",
+      "question": "Many people _____ on her video.",
+      "answer": "commented"
+    },
+    {
+      "id": "ex102",
+      "type": "translation_en_ko",
+      "question": "Social media can influence public opinion.",
+      "answer": "소셜 미디어는 여론에 영향을 줄 수 있어요."
+    },
+    {
+      "id": "ex103",
+      "type": "multiple_choice",
+      "question": "I _____ movies instead of downloading them.",
+      "options": ["stream", "crash", "install", "tag"],
+      "answer": "stream"
+    },
+    {
+      "id": "ex104",
+      "type": "fill_blank",
+      "question": "Social media _____ decide what appears in your feed.",
+      "answer": "algorithms"
+    },
+    {
+      "id": "ex105",
+      "type": "matching",
+      "pairs": [
+        {"word": "software", "match": "computer programs"},
+        {"word": "hardware", "match": "physical parts"},
+        {"word": "touchscreen", "match": "touch-responsive display"},
+        {"word": "keyboard", "match": "typing device"}
+      ]
+    },
+    {
+      "id": "ex106",
+      "type": "translation_ko_en",
+      "question": "소셜 미디어 알고리즘이 무엇을 볼지 결정해요.",
+      "answer": "Social media algorithms decide what you see."
+    },
+    {
+      "id": "ex107",
+      "type": "multiple_choice",
+      "question": "_____ is more important than ever for protecting data.",
+      "options": ["Cybersecurity", "Emoji", "Hashtag", "Blog"],
+      "answer": "Cybersecurity"
+    },
+    {
+      "id": "ex108",
+      "type": "fill_blank",
+      "question": "I spent an hour just _____ online stores.",
+      "answer": "browsing"
+    },
+    {
+      "id": "ex109",
+      "type": "translation_en_ko",
+      "question": "Just search for it on the internet.",
+      "answer": "인터넷에서 검색해 보세요."
+    },
+    {
+      "id": "ex110",
+      "type": "multiple_choice",
+      "question": "She always uses _____ in her text messages.",
+      "options": ["emojis", "viruses", "backups", "links"],
+      "answer": "emojis"
+    },
+    {
+      "id": "ex111",
+      "type": "fill_blank",
+      "question": "Click on the _____ to read the full article.",
+      "answer": "link"
+    },
+    {
+      "id": "ex112",
+      "type": "matching",
+      "pairs": [
+        {"word": "emoji", "match": "digital emotion image"},
+        {"word": "hashtag", "match": "# categorizing word"},
+        {"word": "blog", "match": "personal website"},
+        {"word": "podcast", "match": "online audio show"}
+      ]
+    },
+    {
+      "id": "ex113",
+      "type": "translation_ko_en",
+      "question": "비밀번호를 정기적으로 바꿔야 해요.",
+      "answer": "You should change your password regularly."
+    },
+    {
+      "id": "ex114",
+      "type": "multiple_choice",
+      "question": "I _____ to several YouTube channels.",
+      "options": ["subscribe", "crash", "install", "browse"],
+      "answer": "subscribe"
+    },
+    {
+      "id": "ex115",
+      "type": "fill_blank",
+      "question": "Is this website a _____ source of information?",
+      "answer": "reliable"
+    },
+    {
+      "id": "ex116",
+      "type": "translation_en_ko",
+      "question": "I turned off notifications to focus better.",
+      "answer": "집중하려고 알림을 껐어요."
+    },
+    {
+      "id": "ex117",
+      "type": "multiple_choice",
+      "question": "Phone _____ is a growing problem among teenagers.",
+      "options": ["addiction", "connection", "notification", "privacy"],
+      "answer": "addiction"
+    },
+    {
+      "id": "ex118",
+      "type": "fill_blank",
+      "question": "We live in a _____ age with technology everywhere.",
+      "answer": "digital"
+    },
+    {
+      "id": "ex119",
+      "type": "matching",
+      "pairs": [
+        {"word": "download", "match": "get from internet"},
+        {"word": "upload", "match": "send to internet"},
+        {"word": "update", "match": "add new features"},
+        {"word": "install", "match": "put on computer"}
+      ]
+    },
+    {
+      "id": "ex120",
+      "type": "translation_ko_en",
+      "question": "인스타그램은 인기 있는 소셜 미디어 플랫폼이에요.",
+      "answer": "Instagram is a popular social media platform."
+    },
+    {
+      "id": "ex121",
+      "type": "multiple_choice",
+      "question": "You need to upgrade your _____ for better performance.",
+      "options": ["hardware", "emoji", "hashtag", "spam"],
+      "answer": "hardware"
+    },
+    {
+      "id": "ex122",
+      "type": "fill_blank",
+      "question": "I found this on a government _____.",
+      "answer": "website"
+    },
+    {
+      "id": "ex123",
+      "type": "translation_en_ko",
+      "question": "The video went viral overnight.",
+      "answer": "그 동영상이 하룻밤 사이에 입소문이 났어요."
+    },
+    {
+      "id": "ex124",
+      "type": "multiple_choice",
+      "question": "Smartphones have _____ displays that respond to touch.",
+      "options": ["touchscreen", "wireless", "digital", "viral"],
+      "answer": "touchscreen"
+    },
+    {
+      "id": "ex125",
+      "type": "fill_blank",
+      "question": "My computer _____ and I lost all my work.",
+      "answer": "crashed"
+    },
+    {
+      "id": "ex126",
+      "type": "matching",
+      "pairs": [
+        {"word": "privacy", "match": "personal info protection"},
+        {"word": "cybersecurity", "match": "online threat protection"},
+        {"word": "connection", "match": "link to internet"},
+        {"word": "device", "match": "electronic equipment"}
+      ]
+    },
+    {
+      "id": "ex127",
+      "type": "translation_ko_en",
+      "question": "온라인 쇼핑몰을 한 시간 동안 그냥 둘러봤어요.",
+      "answer": "I spent an hour just browsing online stores."
+    },
+    {
+      "id": "ex128",
+      "type": "multiple_choice",
+      "question": "I need to _____ the app from the app store.",
+      "options": ["download", "crash", "browse", "tag"],
+      "answer": "download"
+    },
+    {
+      "id": "ex129",
+      "type": "fill_blank",
+      "question": "Social media raises concerns about _____.",
+      "answer": "privacy"
+    },
+    {
+      "id": "ex130",
+      "type": "translation_en_ko",
+      "question": "She shares interesting articles on her feed.",
+      "answer": "그녀는 피드에 흥미로운 기사를 공유해요."
+    },
+    {
+      "id": "ex131",
+      "type": "multiple_choice",
+      "question": "I _____ several news accounts on Twitter.",
+      "options": ["follow", "crash", "install", "backup"],
+      "answer": "follow"
+    },
+    {
+      "id": "ex132",
+      "type": "fill_blank",
+      "question": "I usually _____ movies instead of downloading them.",
+      "answer": "stream"
+    },
+    {
+      "id": "ex133",
+      "type": "matching",
+      "pairs": [
+        {"word": "search", "match": "look for online info"},
+        {"word": "share", "match": "let others see content"},
+        {"word": "follow", "match": "subscribe to someone"},
+        {"word": "stream", "match": "watch without saving"}
+      ]
+    },
+    {
+      "id": "ex134",
+      "type": "translation_ko_en",
+      "question": "그 어느 때보다 사이버 보안이 중요해요.",
+      "answer": "Cybersecurity is more important than ever."
+    },
+    {
+      "id": "ex135",
+      "type": "multiple_choice",
+      "question": "_____ news can spread very quickly on social media.",
+      "options": ["Fake", "Real", "Old", "True"],
+      "answer": "Fake"
+    },
+    {
+      "id": "ex136",
+      "type": "fill_blank",
+      "question": "I _____ photos on Instagram every week.",
+      "answer": "post"
+    },
+    {
+      "id": "ex137",
+      "type": "translation_en_ko",
+      "question": "I use several devices for work.",
+      "answer": "저는 업무에 여러 기기를 사용해요."
+    },
+    {
+      "id": "ex138",
+      "type": "multiple_choice",
+      "question": "You can use this app _____ without internet.",
+      "options": ["offline", "online", "wireless", "digital"],
+      "answer": "offline"
+    },
+    {
+      "id": "ex139",
+      "type": "fill_blank",
+      "question": "Always make a _____ of your important data.",
+      "answer": "backup"
+    },
+    {
+      "id": "ex140",
+      "type": "matching",
+      "pairs": [
+        {"word": "viral", "match": "spreading fast online"},
+        {"word": "trending", "match": "popular right now"},
+        {"word": "reliable", "match": "trustworthy"},
+        {"word": "influence", "match": "power to affect"}
+      ]
+    },
+    {
+      "id": "ex141",
+      "type": "translation_ko_en",
+      "question": "의심스러운 이메일 때문에 컴퓨터가 바이러스에 감염되었어요.",
+      "answer": "My computer got a virus from a suspicious email."
+    },
+    {
+      "id": "ex142",
+      "type": "multiple_choice",
+      "question": "This _____ makes photo editing very easy.",
+      "options": ["software", "hardware", "keyboard", "screen"],
+      "answer": "software"
+    },
+    {
+      "id": "ex143",
+      "type": "fill_blank",
+      "question": "I need to _____ the latest version of the app.",
+      "answer": "download"
+    },
+    {
+      "id": "ex144",
+      "type": "translation_en_ko",
+      "question": "I listen to podcasts while commuting.",
+      "answer": "출퇴근할 때 팟캐스트를 들어요."
+    },
+    {
+      "id": "ex145",
+      "type": "multiple_choice",
+      "question": "Use _____ to categorize your posts on social media.",
+      "options": ["hashtags", "viruses", "backups", "crashes"],
+      "answer": "hashtags"
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "question": "I _____ the photos to social media yesterday.",
+      "answer": "uploaded"
+    },
+    {
+      "id": "ex147",
+      "type": "matching",
+      "pairs": [
+        {"word": "online", "match": "connected to internet"},
+        {"word": "offline", "match": "not connected"},
+        {"word": "wireless", "match": "no cables needed"},
+        {"word": "click", "match": "press button"}
+      ]
+    },
+    {
+      "id": "ex148",
+      "type": "translation_ko_en",
+      "question": "메시지에서 항상 이모지를 사용해요.",
+      "answer": "I always use emojis in messages."
+    },
+    {
+      "id": "ex149",
+      "type": "multiple_choice",
+      "question": "Social media can _____ what people think.",
+      "options": ["influence", "crash", "install", "browse"],
+      "answer": "influence"
+    },
+    {
+      "id": "ex150",
+      "type": "fill_blank",
+      "question": "Don't forget to _____ your software to get the latest features.",
+      "answer": "update"
     }
   ]
 }

@@ -44,12 +44,7 @@ function BadgeGridComponent({ category, showLocked = true }: BadgeGridProps) {
       contentContainerStyle={styles.scrollContainer}
     >
       {displayBadges.map((badge, index) => (
-        <BadgeItem
-          key={badge.id}
-          badge={badge}
-          isUnlocked={hasBadge(badge.id)}
-          index={index}
-        />
+        <BadgeItem key={badge.id} badge={badge} isUnlocked={hasBadge(badge.id)} index={index} />
       ))}
     </ScrollView>
   );
@@ -81,11 +76,7 @@ function BadgeItemComponent({ badge, isUnlocked, index }: BadgeItemProps) {
   return (
     <Animated.View
       entering={FadeIn.delay(index * 50).duration(300)}
-      style={[
-        styles.badgeItem,
-        animatedStyle,
-        !isUnlocked && styles.badgeItemLocked,
-      ]}
+      style={[styles.badgeItem, animatedStyle, !isUnlocked && styles.badgeItemLocked]}
     >
       {/* Badge Icon Container */}
       <View
@@ -109,10 +100,7 @@ function BadgeItemComponent({ badge, isUnlocked, index }: BadgeItemProps) {
       </View>
 
       {/* Badge Name */}
-      <Text
-        style={[styles.badgeName, !isUnlocked && styles.badgeNameLocked]}
-        numberOfLines={1}
-      >
+      <Text style={[styles.badgeName, !isUnlocked && styles.badgeNameLocked]} numberOfLines={1}>
         {badge.name}
       </Text>
     </Animated.View>
@@ -144,9 +132,7 @@ export function BadgeCard({ badge, isUnlocked }: BadgeCardProps) {
       </View>
 
       <View style={styles.cardContent}>
-        <Text style={[styles.cardName, !isUnlocked && styles.cardNameLocked]}>
-          {badge.name}
-        </Text>
+        <Text style={[styles.cardName, !isUnlocked && styles.cardNameLocked]}>{badge.name}</Text>
         <Text style={[styles.cardDescription, !isUnlocked && styles.cardDescriptionLocked]}>
           {badge.description}
         </Text>
@@ -157,9 +143,7 @@ export function BadgeCard({ badge, isUnlocked }: BadgeCardProps) {
         </View>
       </View>
 
-      {isUnlocked && (
-        <MaterialCommunityIcons name="check-circle" size={24} color="#4CAF50" />
-      )}
+      {isUnlocked && <MaterialCommunityIcons name="check-circle" size={24} color="#4CAF50" />}
     </View>
   );
 }
@@ -189,9 +173,7 @@ export function BadgeStats({ showLabel = true }: BadgeStatsProps) {
         <View style={[styles.progressFill, { width: `${progress * 100}%` }]} />
       </View>
 
-      {showLabel && (
-        <Text style={styles.statsLabel}>Badges Earned</Text>
-      )}
+      {showLabel && <Text style={styles.statsLabel}>Badges Earned</Text>}
     </View>
   );
 }
@@ -298,7 +280,7 @@ const styles = StyleSheet.create({
   },
   iconContainer: {
     alignItems: 'center',
-    borderRadius: SIZES.borderRadius.round,
+    borderRadius: SIZES.borderRadius.full,
     height: 56,
     justifyContent: 'center',
     position: 'relative',

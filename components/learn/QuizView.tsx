@@ -1,3 +1,8 @@
+/**
+ * Quiz View
+ * 퀴즈 뷰
+ */
+
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import { Button, Card, Text } from 'react-native-paper';
@@ -9,11 +14,11 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { Exercise, QuizResult } from '@/types/activity';
-import { learnHaptics } from '@/services/hapticService';
+import { feedbackService } from '@/services/feedbackService';
 
 interface QuizViewProps {
   exercises: Exercise[];
-  onComplete: (results: QuizResult[]) => void;
+  onComplete: (results: QuizResult[], totalXP: number) => void;
 }
 
 interface AnswerState {
@@ -51,11 +56,11 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
       const isCorrect = answer === currentExercise.answer;
       const timeSpent = Math.round((Date.now() - startTime) / 1000);
 
-      // Haptic feedback
+      // Trigger feedback
       if (isCorrect) {
-        await learnHaptics.correct();
+        await feedbackService.success();
       } else {
-        await learnHaptics.wrong();
+        await feedbackService.wrong();
       }
 
       setShowFeedback(true);
@@ -80,7 +85,7 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
 
   const handleNext = useCallback(() => {
     if (isLastQuestion) {
-      onComplete(results);
+      onComplete(results, 0);
     } else {
       setCurrentIndex((prev) => prev + 1);
       setAnswerState({
@@ -152,17 +157,26 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
         </Animated.View>
       )}
 
-      {/* 진행률 바 */}
-      <View style={[styles.progressContainer, { backgroundColor: isDark ? '#38383A' : COLORS.border }]}>
-        <MotiView
-          animate={{ width: `${progress}%` }}
-          transition={{ type: 'timing', duration: 300 }}
-          style={[styles.progressBar, { backgroundColor: COLORS.primary }]}
-        />
+      {/* 상단: 진행률 & 콤보 */}
+      <View style={styles.header}>
+        <View style={styles.progressSection}>
+          <View
+            style={[
+              styles.progressContainer,
+              { backgroundColor: isDark ? '#38383A' : COLORS.border },
+            ]}
+          >
+            <MotiView
+              animate={{ width: `${progress}%` }}
+              transition={{ type: 'timing', duration: 300 }}
+              style={[styles.progressBar, { backgroundColor: COLORS.primary }]}
+            />
+          </View>
+          <Text style={[styles.progressText, { color: colors.textSecondary }]}>
+            {currentIndex + 1} / {exercises.length}
+          </Text>
+        </View>
       </View>
-      <Text style={[styles.progressText, { color: colors.textSecondary }]}>
-        {currentIndex + 1} / {exercises.length}
-      </Text>
 
       {/* 질문 */}
       <MotiView
@@ -171,7 +185,9 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ type: 'timing', duration: 300 }}
       >
-        <Card style={[styles.questionCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}>
+        <Card
+          style={[styles.questionCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
+        >
           <Card.Content>
             <Text style={[styles.question, { color: colors.text }]}>
               {currentExercise.question}
@@ -210,12 +226,19 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
           animate={{ opacity: 1, translateY: 0 }}
           transition={{ type: 'spring', damping: 15 }}
         >
-          <Card style={[styles.explanationCard, { backgroundColor: isDark ? '#1C1C1E' : COLORS.background }]}>
+          <Card
+            style={[
+              styles.explanationCard,
+              { backgroundColor: isDark ? '#1C1C1E' : COLORS.background },
+            ]}
+          >
             <Card.Content>
-              <Text style={[
-                styles.explanationLabel,
-                { color: answerState.isCorrect ? COLORS.success : COLORS.danger }
-              ]}>
+              <Text
+                style={[
+                  styles.explanationLabel,
+                  { color: answerState.isCorrect ? COLORS.success : COLORS.danger },
+                ]}
+              >
                 {answerState.isCorrect ? '🎉 정답입니다!' : '😢 오답입니다'}
               </Text>
               <Text style={[styles.explanationText, { color: colors.text }]}>
@@ -247,15 +270,51 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: SIZES.spacing.md,
   },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginBottom: SIZES.spacing.md,
+  },
+  progressSection: {
+    flex: 1,
+    marginRight: SIZES.spacing.md,
+  },
   feedbackOverlay: {
     ...StyleSheet.absoluteFillObject,
     justifyContent: 'center',
     alignItems: 'center',
     zIndex: 100,
+    backgroundColor: 'rgba(0, 0, 0, 0.3)',
   },
   feedbackAnimation: {
     width: 150,
     height: 150,
+  },
+  praiseContainer: {
+    alignItems: 'center',
+    marginTop: SIZES.spacing.md,
+  },
+  praiseEmoji: {
+    fontSize: 32,
+    marginBottom: SIZES.spacing.xs,
+  },
+  praiseText: {
+    fontSize: 18,
+    fontWeight: '700',
+    textAlign: 'center',
+  },
+  xpBadge: {
+    alignSelf: 'flex-end',
+    paddingHorizontal: SIZES.spacing.sm,
+    paddingVertical: 4,
+    borderRadius: SIZES.borderRadius.md,
+    marginBottom: SIZES.spacing.sm,
+  },
+  xpBadgeText: {
+    fontSize: 12,
+    fontWeight: '600',
+    color: COLORS.warning,
   },
   correctOption: {
     backgroundColor: COLORS.success + '20',
@@ -319,7 +378,6 @@ const styles = StyleSheet.create({
   progressText: {
     color: COLORS.textSecondary,
     fontSize: SIZES.fontSize.sm,
-    marginBottom: SIZES.spacing.md,
     textAlign: 'right',
   },
   question: {

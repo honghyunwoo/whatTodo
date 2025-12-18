@@ -256,6 +256,256 @@
       "translation": "믿을 수 있는",
       "example": "He's a reliable person who always keeps his promises.",
       "exampleTranslation": "그는 항상 약속을 지키는 믿을 수 있는 사람이에요."
+    },
+    {
+      "id": "w26",
+      "word": "conflict",
+      "pronunciation": "/ˈkɒnflɪkt/",
+      "partOfSpeech": "noun",
+      "meaning": "a serious disagreement or argument",
+      "translation": "갈등, 충돌",
+      "example": "We need to avoid conflicts in the workplace.",
+      "exampleTranslation": "직장에서 갈등을 피해야 해요."
+    },
+    {
+      "id": "w27",
+      "word": "discuss",
+      "pronunciation": "/dɪˈskʌs/",
+      "partOfSpeech": "verb",
+      "meaning": "to talk about something with someone",
+      "translation": "논의하다",
+      "example": "Let's discuss this problem calmly.",
+      "exampleTranslation": "이 문제를 차분히 논의해 봐요."
+    },
+    {
+      "id": "w28",
+      "word": "negotiate",
+      "pronunciation": "/nɪˈɡəʊʃieɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "to try to reach an agreement through discussion",
+      "translation": "협상하다",
+      "example": "They're negotiating the terms of their partnership.",
+      "exampleTranslation": "그들은 파트너십 조건을 협상하고 있어요."
+    },
+    {
+      "id": "w29",
+      "word": "understanding",
+      "pronunciation": "/ˌʌndəˈstændɪŋ/",
+      "partOfSpeech": "noun/adjective",
+      "meaning": "the ability to know why something happens",
+      "translation": "이해; 이해심 있는",
+      "example": "Thank you for being so understanding.",
+      "exampleTranslation": "이해해 주셔서 감사해요."
+    },
+    {
+      "id": "w30",
+      "word": "sensitive",
+      "pronunciation": "/ˈsensətɪv/",
+      "partOfSpeech": "adjective",
+      "meaning": "easily hurt or upset",
+      "translation": "민감한",
+      "example": "She's very sensitive about her appearance.",
+      "exampleTranslation": "그녀는 외모에 대해 매우 민감해요."
+    },
+    {
+      "id": "w31",
+      "word": "affection",
+      "pronunciation": "/əˈfekʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "a gentle feeling of liking someone",
+      "translation": "애정",
+      "example": "He shows his affection through small gestures.",
+      "exampleTranslation": "그는 작은 행동으로 애정을 보여요."
+    },
+    {
+      "id": "w32",
+      "word": "companion",
+      "pronunciation": "/kəmˈpæniən/",
+      "partOfSpeech": "noun",
+      "meaning": "a person you spend time with",
+      "translation": "동반자, 친구",
+      "example": "My dog is my best companion.",
+      "exampleTranslation": "제 개는 제 최고의 친구예요."
+    },
+    {
+      "id": "w33",
+      "word": "intimacy",
+      "pronunciation": "/ˈɪntɪməsi/",
+      "partOfSpeech": "noun",
+      "meaning": "a close, familiar, and affectionate relationship",
+      "translation": "친밀함",
+      "example": "Intimacy develops slowly in relationships.",
+      "exampleTranslation": "친밀함은 관계에서 천천히 발전해요."
+    },
+    {
+      "id": "w34",
+      "word": "commitment",
+      "pronunciation": "/kəˈmɪtmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "a promise to do something or to be loyal",
+      "translation": "헌신, 전념",
+      "example": "Marriage requires a strong commitment.",
+      "exampleTranslation": "결혼은 강한 헌신이 필요해요."
+    },
+    {
+      "id": "w35",
+      "word": "breakup",
+      "pronunciation": "/ˈbreɪkʌp/",
+      "partOfSpeech": "noun",
+      "meaning": "the end of a relationship",
+      "translation": "이별",
+      "example": "The breakup was difficult for both of them.",
+      "exampleTranslation": "이별은 둘 다에게 힘들었어요."
+    },
+    {
+      "id": "w36",
+      "word": "reconcile",
+      "pronunciation": "/ˈrekənsaɪl/",
+      "partOfSpeech": "verb",
+      "meaning": "to become friends again after an argument",
+      "translation": "화해하다",
+      "example": "They reconciled after a long argument.",
+      "exampleTranslation": "긴 다툼 후에 그들은 화해했어요."
+    },
+    {
+      "id": "w37",
+      "word": "quarrel",
+      "pronunciation": "/ˈkwɒrəl/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "an angry argument or disagreement",
+      "translation": "말다툼",
+      "example": "They had a quarrel over something silly.",
+      "exampleTranslation": "그들은 어리석은 일로 말다툼을 했어요."
+    },
+    {
+      "id": "w38",
+      "word": "gossip",
+      "pronunciation": "/ˈɡɒsɪp/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "informal talk about other people's private lives",
+      "translation": "소문, 험담",
+      "example": "Don't listen to gossip - it's often not true.",
+      "exampleTranslation": "소문을 듣지 마세요 - 종종 사실이 아니에요."
+    },
+    {
+      "id": "w39",
+      "word": "rumor",
+      "pronunciation": "/ˈruːmə/",
+      "partOfSpeech": "noun",
+      "meaning": "information that may not be true",
+      "translation": "소문",
+      "example": "I heard a rumor that they're getting married.",
+      "exampleTranslation": "그들이 결혼한다는 소문을 들었어요."
+    },
+    {
+      "id": "w40",
+      "word": "betray",
+      "pronunciation": "/bɪˈtreɪ/",
+      "partOfSpeech": "verb",
+      "meaning": "to be disloyal to someone who trusts you",
+      "translation": "배신하다",
+      "example": "I felt betrayed when she told my secret.",
+      "exampleTranslation": "그녀가 제 비밀을 말했을 때 배신감을 느꼈어요."
+    },
+    {
+      "id": "w41",
+      "word": "loyalty",
+      "pronunciation": "/ˈlɔɪəlti/",
+      "partOfSpeech": "noun",
+      "meaning": "the quality of being faithful to someone",
+      "translation": "충성심",
+      "example": "Loyalty is important in friendships.",
+      "exampleTranslation": "충성심은 우정에서 중요해요."
+    },
+    {
+      "id": "w42",
+      "word": "dependable",
+      "pronunciation": "/dɪˈpendəbl/",
+      "partOfSpeech": "adjective",
+      "meaning": "can be trusted to do what is needed",
+      "translation": "믿음직한",
+      "example": "She's a dependable friend who never lets me down.",
+      "exampleTranslation": "그녀는 절대 실망시키지 않는 믿음직한 친구예요."
+    },
+    {
+      "id": "w43",
+      "word": "genuine",
+      "pronunciation": "/ˈdʒenjuɪn/",
+      "partOfSpeech": "adjective",
+      "meaning": "real and sincere",
+      "translation": "진실한, 진짜의",
+      "example": "He showed genuine concern for my well-being.",
+      "exampleTranslation": "그는 제 안녕에 대해 진실한 관심을 보였어요."
+    },
+    {
+      "id": "w44",
+      "word": "sincere",
+      "pronunciation": "/sɪnˈsɪə/",
+      "partOfSpeech": "adjective",
+      "meaning": "honest and truly meaning what you say",
+      "translation": "진심 어린",
+      "example": "She gave me a sincere apology.",
+      "exampleTranslation": "그녀는 저에게 진심 어린 사과를 했어요."
+    },
+    {
+      "id": "w45",
+      "word": "sympathetic",
+      "pronunciation": "/ˌsɪmpəˈθetɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "showing understanding of someone's problems",
+      "translation": "동정적인",
+      "example": "My boss was sympathetic when I explained the situation.",
+      "exampleTranslation": "상황을 설명했을 때 상사는 동정적이었어요."
+    },
+    {
+      "id": "w46",
+      "word": "concern",
+      "pronunciation": "/kənˈsɜːn/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "a feeling of worry about something",
+      "translation": "걱정, 염려",
+      "example": "I have some concerns about your health.",
+      "exampleTranslation": "당신의 건강에 대해 걱정이 돼요."
+    },
+    {
+      "id": "w47",
+      "word": "comfort",
+      "pronunciation": "/ˈkʌmfət/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "to make someone feel better when sad",
+      "translation": "위로하다; 위안",
+      "example": "She tried to comfort me when I was upset.",
+      "exampleTranslation": "제가 속상할 때 그녀는 저를 위로하려고 했어요."
+    },
+    {
+      "id": "w48",
+      "word": "reassure",
+      "pronunciation": "/ˌriːəˈʃʊə/",
+      "partOfSpeech": "verb",
+      "meaning": "to say something to stop someone worrying",
+      "translation": "안심시키다",
+      "example": "He reassured me that everything would be fine.",
+      "exampleTranslation": "그는 모든 것이 괜찮을 거라고 저를 안심시켰어요."
+    },
+    {
+      "id": "w49",
+      "word": "compatible",
+      "pronunciation": "/kəmˈpætəbl/",
+      "partOfSpeech": "adjective",
+      "meaning": "able to exist together without problems",
+      "translation": "잘 맞는",
+      "example": "They're very compatible - they never argue.",
+      "exampleTranslation": "그들은 잘 맞아요 - 절대 다투지 않아요."
+    },
+    {
+      "id": "w50",
+      "word": "connection",
+      "pronunciation": "/kəˈnekʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "a relationship between people or things",
+      "translation": "연결, 관계",
+      "example": "I felt an instant connection with her.",
+      "exampleTranslation": "그녀와 즉시 연결감을 느꼈어요."
     }
   ],
 
@@ -328,6 +578,936 @@
       "question": "We have a strong _____ because we've been friends since childhood.",
       "options": ["argument", "bond", "jealousy", "criticism"],
       "answer": "bond"
+    },
+    {
+      "id": "ex11",
+      "type": "fill_blank",
+      "question": "She's very _____ to her friends and never abandons them.",
+      "answer": "loyal"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "Please _____ me - I didn't mean to hurt you.",
+      "options": ["betray", "criticize", "forgive", "argue"],
+      "answer": "forgive"
+    },
+    {
+      "id": "ex13",
+      "type": "fill_blank",
+      "question": "They often _____ about politics at dinner.",
+      "answer": "argue"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "He gets _____ when his girlfriend talks to other men.",
+      "options": ["loyal", "jealous", "reliable", "patient"],
+      "answer": "jealous"
+    },
+    {
+      "id": "ex15",
+      "type": "fill_blank",
+      "question": "Mutual _____ is the foundation of a healthy relationship.",
+      "answer": "respect"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "It's important to _____ openly in a relationship.",
+      "options": ["gossip", "betray", "communicate", "criticize"],
+      "answer": "communicate"
+    },
+    {
+      "id": "ex17",
+      "type": "fill_blank",
+      "question": "The teacher tried to _____ the conflict between the two students.",
+      "answer": "resolve"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "You need to be more _____ of other people's feelings.",
+      "options": ["jealous", "considerate", "critical", "sensitive"],
+      "answer": "considerate"
+    },
+    {
+      "id": "ex19",
+      "type": "fill_blank",
+      "question": "It's difficult to _____ long-distance friendships.",
+      "answer": "maintain"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "_____ helps you understand what others are feeling.",
+      "options": ["Jealousy", "Criticism", "Empathy", "Gossip"],
+      "answer": "Empathy"
+    },
+    {
+      "id": "ex21",
+      "type": "fill_blank",
+      "question": "He's a _____ person who always arrives on time.",
+      "answer": "reliable"
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "There's been a major _____ in our team about the new project.",
+      "options": ["connection", "conflict", "companion", "comfort"],
+      "answer": "conflict"
+    },
+    {
+      "id": "ex23",
+      "type": "fill_blank",
+      "question": "Let's _____ the problem before making any decisions.",
+      "answer": "discuss"
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "Both sides will need to _____ to reach an agreement.",
+      "options": ["betray", "negotiate", "gossip", "quarrel"],
+      "answer": "negotiate"
+    },
+    {
+      "id": "ex25",
+      "type": "fill_blank",
+      "question": "Thank you for being so _____ about my situation.",
+      "answer": "understanding"
+    },
+    {
+      "id": "ex26",
+      "type": "matching",
+      "pairs": [
+        {"word": "trust", "match": "belief in honesty"},
+        {"word": "support", "match": "to help someone"},
+        {"word": "respect", "match": "admiration for someone"},
+        {"word": "empathy", "match": "understanding feelings"}
+      ]
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "She's very _____ about her weight - don't mention it.",
+      "options": ["reliable", "loyal", "sensitive", "patient"],
+      "answer": "sensitive"
+    },
+    {
+      "id": "ex28",
+      "type": "fill_blank",
+      "question": "He shows his _____ through hugs and kind words.",
+      "answer": "affection"
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "My cat is my constant _____.",
+      "options": ["conflict", "companion", "compromise", "criticism"],
+      "answer": "companion"
+    },
+    {
+      "id": "ex30",
+      "type": "fill_blank",
+      "question": "Building _____ takes time in any relationship.",
+      "answer": "intimacy"
+    },
+    {
+      "id": "ex31",
+      "type": "multiple_choice",
+      "question": "Marriage requires a strong _____ from both partners.",
+      "options": ["breakup", "quarrel", "commitment", "rumor"],
+      "answer": "commitment"
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "question": "Their _____ was very painful for everyone involved.",
+      "answer": "breakup"
+    },
+    {
+      "id": "ex33",
+      "type": "multiple_choice",
+      "question": "After years apart, they finally decided to _____.",
+      "options": ["betray", "reconcile", "criticize", "gossip"],
+      "answer": "reconcile"
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "They had a silly _____ about where to go for dinner.",
+      "answer": "quarrel"
+    },
+    {
+      "id": "ex35",
+      "type": "multiple_choice",
+      "question": "Don't spread _____ about people - it's not nice.",
+      "options": ["affection", "empathy", "gossip", "loyalty"],
+      "answer": "gossip"
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "I heard a _____ that they're moving to another city.",
+      "answer": "rumor"
+    },
+    {
+      "id": "ex37",
+      "type": "multiple_choice",
+      "question": "I felt _____ when my friend shared my private information.",
+      "options": ["appreciated", "encouraged", "betrayed", "supported"],
+      "answer": "betrayed"
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "_____ is one of the most important qualities in a friend.",
+      "answer": "Loyalty"
+    },
+    {
+      "id": "ex39",
+      "type": "multiple_choice",
+      "question": "She's very _____ - you can always count on her.",
+      "options": ["sensitive", "jealous", "dependable", "critical"],
+      "answer": "dependable"
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "His smile seemed _____ and friendly.",
+      "answer": "genuine"
+    },
+    {
+      "id": "ex41",
+      "type": "matching",
+      "pairs": [
+        {"word": "apologize", "match": "to say sorry"},
+        {"word": "forgive", "match": "to stop being angry"},
+        {"word": "encourage", "match": "to give confidence"},
+        {"word": "criticize", "match": "to say negative things"}
+      ]
+    },
+    {
+      "id": "ex42",
+      "type": "multiple_choice",
+      "question": "Her apology seemed very _____.",
+      "options": ["jealous", "sincere", "critical", "sensitive"],
+      "answer": "sincere"
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "The doctor was very _____ when I told her about my anxiety.",
+      "answer": "sympathetic"
+    },
+    {
+      "id": "ex44",
+      "type": "multiple_choice",
+      "question": "I have some _____ about your plan.",
+      "options": ["companions", "concerns", "commitments", "connections"],
+      "answer": "concerns"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "She tried to _____ me after I failed the exam.",
+      "answer": "comfort"
+    },
+    {
+      "id": "ex46",
+      "type": "multiple_choice",
+      "question": "He _____ me that everything would be okay.",
+      "options": ["betrayed", "criticized", "reassured", "argued"],
+      "answer": "reassured"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "We're very _____ - we like the same things and never fight.",
+      "answer": "compatible"
+    },
+    {
+      "id": "ex48",
+      "type": "multiple_choice",
+      "question": "I felt an immediate _____ with my new colleague.",
+      "options": ["conflict", "breakup", "connection", "quarrel"],
+      "answer": "connection"
+    },
+    {
+      "id": "ex49",
+      "type": "translation_ko_en",
+      "question": "우리는 좋은 관계를 맺고 있어요.",
+      "answer": "We have a good relationship."
+    },
+    {
+      "id": "ex50",
+      "type": "translation_en_ko",
+      "question": "Trust is important in friendship.",
+      "answer": "신뢰는 우정에서 중요해요."
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "You need to be more _____ with young children.",
+      "answer": "patient"
+    },
+    {
+      "id": "ex52",
+      "type": "multiple_choice",
+      "question": "Don't _____ other people behind their backs.",
+      "options": ["support", "appreciate", "criticize", "encourage"],
+      "answer": "criticize"
+    },
+    {
+      "id": "ex53",
+      "type": "translation_ko_en",
+      "question": "그녀는 항상 저를 격려해요.",
+      "answer": "She always encourages me."
+    },
+    {
+      "id": "ex54",
+      "type": "translation_en_ko",
+      "question": "I need to apologize for my behavior.",
+      "answer": "제 행동에 대해 사과해야 해요."
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "We need to _____ this issue before it gets worse.",
+      "answer": "resolve"
+    },
+    {
+      "id": "ex56",
+      "type": "multiple_choice",
+      "question": "_____ is the ability to understand others' feelings.",
+      "options": ["Jealousy", "Empathy", "Gossip", "Rumor"],
+      "answer": "Empathy"
+    },
+    {
+      "id": "ex57",
+      "type": "translation_ko_en",
+      "question": "그들은 종종 돈 문제로 다퉈요.",
+      "answer": "They often argue about money."
+    },
+    {
+      "id": "ex58",
+      "type": "translation_en_ko",
+      "question": "I can confide in you about anything.",
+      "answer": "무엇이든 당신에게 털어놓을 수 있어요."
+    },
+    {
+      "id": "ex59",
+      "type": "matching",
+      "pairs": [
+        {"word": "conflict", "match": "serious disagreement"},
+        {"word": "compromise", "match": "mutual agreement"},
+        {"word": "misunderstanding", "match": "failure to understand"},
+        {"word": "reconcile", "match": "become friends again"}
+      ]
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "She's very _____ - she always thinks about others first.",
+      "answer": "considerate"
+    },
+    {
+      "id": "ex61",
+      "type": "multiple_choice",
+      "question": "We have a strong _____ that developed over many years.",
+      "options": ["criticism", "bond", "argument", "conflict"],
+      "answer": "bond"
+    },
+    {
+      "id": "ex62",
+      "type": "translation_ko_en",
+      "question": "그는 믿을 수 있는 사람이에요.",
+      "answer": "He is a reliable person."
+    },
+    {
+      "id": "ex63",
+      "type": "translation_en_ko",
+      "question": "We need to maintain our friendship.",
+      "answer": "우리는 우정을 유지해야 해요."
+    },
+    {
+      "id": "ex64",
+      "type": "fill_blank",
+      "question": "It's important to _____ your feelings honestly.",
+      "answer": "express"
+    },
+    {
+      "id": "ex65",
+      "type": "multiple_choice",
+      "question": "I really _____ all your hard work.",
+      "options": ["argue", "appreciate", "betray", "criticize"],
+      "answer": "appreciate"
+    },
+    {
+      "id": "ex66",
+      "type": "translation_ko_en",
+      "question": "상호 존중이 중요해요.",
+      "answer": "Mutual respect is important."
+    },
+    {
+      "id": "ex67",
+      "type": "translation_en_ko",
+      "question": "Let's discuss this problem together.",
+      "answer": "이 문제를 함께 논의해요."
+    },
+    {
+      "id": "ex68",
+      "type": "fill_blank",
+      "question": "My family has always _____ my decisions.",
+      "answer": "supported"
+    },
+    {
+      "id": "ex69",
+      "type": "multiple_choice",
+      "question": "Don't be _____ of your sister's success.",
+      "options": ["loyal", "honest", "patient", "jealous"],
+      "answer": "jealous"
+    },
+    {
+      "id": "ex70",
+      "type": "matching",
+      "pairs": [
+        {"word": "genuine", "match": "real and sincere"},
+        {"word": "sincere", "match": "truly meaning it"},
+        {"word": "dependable", "match": "can be trusted"},
+        {"word": "sympathetic", "match": "showing understanding"}
+      ]
+    },
+    {
+      "id": "ex71",
+      "type": "translation_ko_en",
+      "question": "타협은 관계에서 필요해요.",
+      "answer": "Compromise is necessary in relationships."
+    },
+    {
+      "id": "ex72",
+      "type": "translation_en_ko",
+      "question": "Being honest is very important.",
+      "answer": "정직한 것이 매우 중요해요."
+    },
+    {
+      "id": "ex73",
+      "type": "fill_blank",
+      "question": "They're trying to _____ a peace agreement.",
+      "answer": "negotiate"
+    },
+    {
+      "id": "ex74",
+      "type": "multiple_choice",
+      "question": "She gave me a _____ apology for what she did.",
+      "options": ["jealous", "critical", "sincere", "sensitive"],
+      "answer": "sincere"
+    },
+    {
+      "id": "ex75",
+      "type": "translation_ko_en",
+      "question": "소통은 관계의 열쇠예요.",
+      "answer": "Communication is the key to relationships."
+    },
+    {
+      "id": "ex76",
+      "type": "translation_en_ko",
+      "question": "I have concerns about the plan.",
+      "answer": "그 계획에 대해 걱정이 돼요."
+    },
+    {
+      "id": "ex77",
+      "type": "fill_blank",
+      "question": "He felt _____ when his friend revealed his secret.",
+      "answer": "betrayed"
+    },
+    {
+      "id": "ex78",
+      "type": "multiple_choice",
+      "question": "Their _____ lasted for three years before they broke up.",
+      "options": ["conflict", "quarrel", "relationship", "rumor"],
+      "answer": "relationship"
+    },
+    {
+      "id": "ex79",
+      "type": "matching",
+      "pairs": [
+        {"word": "affection", "match": "gentle liking"},
+        {"word": "intimacy", "match": "close relationship"},
+        {"word": "commitment", "match": "promise to be loyal"},
+        {"word": "loyalty", "match": "being faithful"}
+      ]
+    },
+    {
+      "id": "ex80",
+      "type": "fill_blank",
+      "question": "She's very _____ about criticism - she takes it personally.",
+      "answer": "sensitive"
+    },
+    {
+      "id": "ex81",
+      "type": "multiple_choice",
+      "question": "My dog is my best _____.",
+      "options": ["conflict", "companion", "criticism", "commitment"],
+      "answer": "companion"
+    },
+    {
+      "id": "ex82",
+      "type": "translation_ko_en",
+      "question": "그는 진실한 관심을 보였어요.",
+      "answer": "He showed genuine concern."
+    },
+    {
+      "id": "ex83",
+      "type": "translation_en_ko",
+      "question": "Loyalty is important to me.",
+      "answer": "충성심은 저에게 중요해요."
+    },
+    {
+      "id": "ex84",
+      "type": "fill_blank",
+      "question": "Building _____ takes time in new relationships.",
+      "answer": "trust"
+    },
+    {
+      "id": "ex85",
+      "type": "multiple_choice",
+      "question": "Don't spread _____ - it might not be true.",
+      "options": ["empathy", "affection", "rumors", "respect"],
+      "answer": "rumors"
+    },
+    {
+      "id": "ex86",
+      "type": "translation_ko_en",
+      "question": "우리는 화해해야 해요.",
+      "answer": "We need to reconcile."
+    },
+    {
+      "id": "ex87",
+      "type": "translation_en_ko",
+      "question": "She tried to comfort me.",
+      "answer": "그녀는 저를 위로하려고 했어요."
+    },
+    {
+      "id": "ex88",
+      "type": "fill_blank",
+      "question": "The _____ ended peacefully after they talked.",
+      "answer": "conflict"
+    },
+    {
+      "id": "ex89",
+      "type": "multiple_choice",
+      "question": "We need more _____ between team members.",
+      "options": ["gossip", "quarrels", "conflicts", "communication"],
+      "answer": "communication"
+    },
+    {
+      "id": "ex90",
+      "type": "matching",
+      "pairs": [
+        {"word": "betray", "match": "to be disloyal"},
+        {"word": "confide", "match": "to share secrets"},
+        {"word": "comfort", "match": "to make feel better"},
+        {"word": "reassure", "match": "to stop worrying"}
+      ]
+    },
+    {
+      "id": "ex91",
+      "type": "fill_blank",
+      "question": "Their _____ was painful but necessary.",
+      "answer": "breakup"
+    },
+    {
+      "id": "ex92",
+      "type": "multiple_choice",
+      "question": "She's a _____ friend who never lets me down.",
+      "options": ["jealous", "sensitive", "dependable", "critical"],
+      "answer": "dependable"
+    },
+    {
+      "id": "ex93",
+      "type": "translation_ko_en",
+      "question": "그는 저를 안심시켰어요.",
+      "answer": "He reassured me."
+    },
+    {
+      "id": "ex94",
+      "type": "translation_en_ko",
+      "question": "We are very compatible.",
+      "answer": "우리는 매우 잘 맞아요."
+    },
+    {
+      "id": "ex95",
+      "type": "fill_blank",
+      "question": "I felt an instant _____ with my new roommate.",
+      "answer": "connection"
+    },
+    {
+      "id": "ex96",
+      "type": "multiple_choice",
+      "question": "Marriage requires strong _____ from both people.",
+      "options": ["gossip", "quarrels", "commitment", "rumors"],
+      "answer": "commitment"
+    },
+    {
+      "id": "ex97",
+      "type": "fill_blank",
+      "question": "Let's try to _____ this disagreement calmly.",
+      "answer": "discuss"
+    },
+    {
+      "id": "ex98",
+      "type": "multiple_choice",
+      "question": "He shows his _____ through small gifts and gestures.",
+      "options": ["conflict", "affection", "criticism", "gossip"],
+      "answer": "affection"
+    },
+    {
+      "id": "ex99",
+      "type": "translation_ko_en",
+      "question": "인내심이 필요해요.",
+      "answer": "You need to be patient."
+    },
+    {
+      "id": "ex100",
+      "type": "translation_en_ko",
+      "question": "I appreciate your understanding.",
+      "answer": "이해해 주셔서 감사해요."
+    },
+    {
+      "id": "ex101",
+      "type": "fill_blank",
+      "question": "They had a _____ about who should do the dishes.",
+      "answer": "quarrel"
+    },
+    {
+      "id": "ex102",
+      "type": "multiple_choice",
+      "question": "_____ helps you understand what others are experiencing.",
+      "options": ["Jealousy", "Criticism", "Empathy", "Gossip"],
+      "answer": "Empathy"
+    },
+    {
+      "id": "ex103",
+      "type": "matching",
+      "pairs": [
+        {"word": "discuss", "match": "to talk about"},
+        {"word": "negotiate", "match": "to reach agreement"},
+        {"word": "maintain", "match": "to keep in condition"},
+        {"word": "resolve", "match": "to solve a problem"}
+      ]
+    },
+    {
+      "id": "ex104",
+      "type": "fill_blank",
+      "question": "Don't _____ about people - it's unkind.",
+      "answer": "gossip"
+    },
+    {
+      "id": "ex105",
+      "type": "multiple_choice",
+      "question": "She was very _____ when I told her about my problems.",
+      "options": ["jealous", "critical", "sympathetic", "sensitive"],
+      "answer": "sympathetic"
+    },
+    {
+      "id": "ex106",
+      "type": "translation_ko_en",
+      "question": "사려 깊어서 감사해요.",
+      "answer": "Thank you for being considerate."
+    },
+    {
+      "id": "ex107",
+      "type": "translation_en_ko",
+      "question": "We need to maintain our connection.",
+      "answer": "우리는 관계를 유지해야 해요."
+    },
+    {
+      "id": "ex108",
+      "type": "fill_blank",
+      "question": "Being _____ means always telling the truth.",
+      "answer": "honest"
+    },
+    {
+      "id": "ex109",
+      "type": "multiple_choice",
+      "question": "After their fight, they decided to _____.",
+      "options": ["betray", "criticize", "reconcile", "gossip"],
+      "answer": "reconcile"
+    },
+    {
+      "id": "ex110",
+      "type": "fill_blank",
+      "question": "Thank you for being so _____ about the delay.",
+      "answer": "understanding"
+    },
+    {
+      "id": "ex111",
+      "type": "multiple_choice",
+      "question": "His concern seemed _____.",
+      "options": ["jealous", "genuine", "critical", "sensitive"],
+      "answer": "genuine"
+    },
+    {
+      "id": "ex112",
+      "type": "translation_ko_en",
+      "question": "우리는 의견 차이를 해결했어요.",
+      "answer": "We resolved our differences."
+    },
+    {
+      "id": "ex113",
+      "type": "translation_en_ko",
+      "question": "She is a loyal friend.",
+      "answer": "그녀는 충실한 친구예요."
+    },
+    {
+      "id": "ex114",
+      "type": "matching",
+      "pairs": [
+        {"word": "reliable", "match": "can be trusted"},
+        {"word": "compatible", "match": "work well together"},
+        {"word": "understanding", "match": "showing acceptance"},
+        {"word": "patient", "match": "can wait calmly"}
+      ]
+    },
+    {
+      "id": "ex115",
+      "type": "fill_blank",
+      "question": "I have some _____ about the new policy.",
+      "answer": "concerns"
+    },
+    {
+      "id": "ex116",
+      "type": "multiple_choice",
+      "question": "Stop _____ her - she's doing her best.",
+      "options": ["supporting", "encouraging", "criticizing", "appreciating"],
+      "answer": "criticizing"
+    },
+    {
+      "id": "ex117",
+      "type": "fill_blank",
+      "question": "The two countries are trying to _____ a trade deal.",
+      "answer": "negotiate"
+    },
+    {
+      "id": "ex118",
+      "type": "multiple_choice",
+      "question": "I felt _____ by my best friend's actions.",
+      "options": ["appreciated", "supported", "encouraged", "betrayed"],
+      "answer": "betrayed"
+    },
+    {
+      "id": "ex119",
+      "type": "translation_ko_en",
+      "question": "그의 사과는 진심 어린 것 같았어요.",
+      "answer": "His apology seemed sincere."
+    },
+    {
+      "id": "ex120",
+      "type": "translation_en_ko",
+      "question": "Intimacy develops over time.",
+      "answer": "친밀함은 시간이 지나면서 발전해요."
+    },
+    {
+      "id": "ex121",
+      "type": "fill_blank",
+      "question": "We have a _____ because we've known each other for years.",
+      "answer": "bond"
+    },
+    {
+      "id": "ex122",
+      "type": "multiple_choice",
+      "question": "It's hard to _____ friendships when you move away.",
+      "options": ["betray", "criticize", "maintain", "gossip"],
+      "answer": "maintain"
+    },
+    {
+      "id": "ex123",
+      "type": "fill_blank",
+      "question": "He tried to _____ me that the test wouldn't be hard.",
+      "answer": "reassure"
+    },
+    {
+      "id": "ex124",
+      "type": "multiple_choice",
+      "question": "Parents should _____ their children's efforts.",
+      "options": ["betray", "criticize", "encourage", "gossip"],
+      "answer": "encourage"
+    },
+    {
+      "id": "ex125",
+      "type": "matching",
+      "pairs": [
+        {"word": "companion", "match": "person you spend time with"},
+        {"word": "connection", "match": "relationship between people"},
+        {"word": "breakup", "match": "end of relationship"},
+        {"word": "quarrel", "match": "angry argument"}
+      ]
+    },
+    {
+      "id": "ex126",
+      "type": "translation_ko_en",
+      "question": "공감은 소통의 핵심이에요.",
+      "answer": "Empathy is the key to communication."
+    },
+    {
+      "id": "ex127",
+      "type": "translation_en_ko",
+      "question": "I can confide in you.",
+      "answer": "당신에게 털어놓을 수 있어요."
+    },
+    {
+      "id": "ex128",
+      "type": "fill_blank",
+      "question": "It's important to _____ how you feel to your partner.",
+      "answer": "express"
+    },
+    {
+      "id": "ex129",
+      "type": "multiple_choice",
+      "question": "They're very _____ - they never fight.",
+      "options": ["jealous", "sensitive", "compatible", "critical"],
+      "answer": "compatible"
+    },
+    {
+      "id": "ex130",
+      "type": "fill_blank",
+      "question": "_____ is earned, not given.",
+      "answer": "Trust"
+    },
+    {
+      "id": "ex131",
+      "type": "multiple_choice",
+      "question": "She's very _____ - she always keeps her promises.",
+      "options": ["sensitive", "jealous", "dependable", "critical"],
+      "answer": "dependable"
+    },
+    {
+      "id": "ex132",
+      "type": "translation_ko_en",
+      "question": "그들은 갈등을 평화롭게 해결했어요.",
+      "answer": "They resolved the conflict peacefully."
+    },
+    {
+      "id": "ex133",
+      "type": "translation_en_ko",
+      "question": "Don't spread rumors about people.",
+      "answer": "사람들에 대한 소문을 퍼뜨리지 마세요."
+    },
+    {
+      "id": "ex134",
+      "type": "matching",
+      "pairs": [
+        {"word": "argue", "match": "to fight with words"},
+        {"word": "apologize", "match": "to say sorry"},
+        {"word": "forgive", "match": "to stop being angry"},
+        {"word": "express", "match": "to show feelings"}
+      ]
+    },
+    {
+      "id": "ex135",
+      "type": "fill_blank",
+      "question": "A successful relationship needs _____ from both partners.",
+      "answer": "commitment"
+    },
+    {
+      "id": "ex136",
+      "type": "multiple_choice",
+      "question": "I heard a _____ that the company is closing.",
+      "options": ["bond", "companion", "rumor", "connection"],
+      "answer": "rumor"
+    },
+    {
+      "id": "ex137",
+      "type": "fill_blank",
+      "question": "She tried to _____ me during my difficult time.",
+      "answer": "comfort"
+    },
+    {
+      "id": "ex138",
+      "type": "multiple_choice",
+      "question": "It was just a _____. We actually agree on most things.",
+      "options": ["relationship", "connection", "misunderstanding", "bond"],
+      "answer": "misunderstanding"
+    },
+    {
+      "id": "ex139",
+      "type": "translation_ko_en",
+      "question": "애정을 보이는 것이 중요해요.",
+      "answer": "It's important to show affection."
+    },
+    {
+      "id": "ex140",
+      "type": "translation_en_ko",
+      "question": "Be patient with yourself.",
+      "answer": "자신에게 인내심을 가지세요."
+    },
+    {
+      "id": "ex141",
+      "type": "fill_blank",
+      "question": "We need to _____ this matter before it escalates.",
+      "answer": "resolve"
+    },
+    {
+      "id": "ex142",
+      "type": "multiple_choice",
+      "question": "_____ means being faithful and supportive.",
+      "options": ["Jealousy", "Loyalty", "Gossip", "Criticism"],
+      "answer": "Loyalty"
+    },
+    {
+      "id": "ex143",
+      "type": "fill_blank",
+      "question": "Both sides need to _____ if they want peace.",
+      "answer": "compromise"
+    },
+    {
+      "id": "ex144",
+      "type": "multiple_choice",
+      "question": "He's a _____ person - he never lies.",
+      "options": ["jealous", "honest", "sensitive", "critical"],
+      "answer": "honest"
+    },
+    {
+      "id": "ex145",
+      "type": "matching",
+      "pairs": [
+        {"word": "respect", "match": "admiration for someone"},
+        {"word": "appreciate", "match": "to be grateful"},
+        {"word": "support", "match": "to help someone"},
+        {"word": "communicate", "match": "to share information"}
+      ]
+    },
+    {
+      "id": "ex146",
+      "type": "translation_ko_en",
+      "question": "동정심을 보여주셔서 감사해요.",
+      "answer": "Thank you for being sympathetic."
+    },
+    {
+      "id": "ex147",
+      "type": "translation_en_ko",
+      "question": "We felt an instant connection.",
+      "answer": "우리는 즉시 연결감을 느꼈어요."
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "question": "She's always been _____ about other people's needs.",
+      "answer": "considerate"
+    },
+    {
+      "id": "ex149",
+      "type": "multiple_choice",
+      "question": "I really _____ everything you've done for me.",
+      "options": ["betray", "criticize", "appreciate", "gossip"],
+      "answer": "appreciate"
+    },
+    {
+      "id": "ex150",
+      "type": "fill_blank",
+      "question": "Good _____ is essential for any healthy relationship.",
+      "answer": "communication"
     }
   ]
 }

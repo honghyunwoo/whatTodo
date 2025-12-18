@@ -4,9 +4,9 @@
  */
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import React, { useCallback, useMemo, useRef, useState } from 'react';
 import { Animated, StyleSheet, TouchableOpacity, View } from 'react-native';
-import { Button, Card, ProgressBar as PaperProgressBar, Text } from 'react-native-paper';
+import { Button, ProgressBar as PaperProgressBar, Text } from 'react-native-paper';
 
 import { COLORS, withAlpha } from '@/constants/colors';
 import { SHADOWS, SIZES } from '@/constants/sizes';
@@ -37,7 +37,10 @@ type SessionPhase = 'intro' | 'reviewing' | 'complete';
 // Constants
 // ─────────────────────────────────────
 
-const RATING_CONFIG: Record<ReviewRating, { icon: string; label: string; color: string; shortcut: string }> = {
+const RATING_CONFIG: Record<
+  ReviewRating,
+  { icon: string; label: string; color: string; shortcut: string }
+> = {
   again: { icon: 'refresh', label: '다시', color: COLORS.danger, shortcut: '1' },
   hard: { icon: 'emoticon-neutral-outline', label: '어려움', color: COLORS.warning, shortcut: '2' },
   good: { icon: 'emoticon-happy-outline', label: '알겠음', color: COLORS.success, shortcut: '3' },
@@ -135,68 +138,81 @@ export function SrsReviewSession({ onComplete, onCancel }: SrsReviewSessionProps
   // Handle Rating
   // ─────────────────────────────────────
 
-  const handleRating = useCallback((rating: ReviewRating) => {
-    if (currentIndex >= reviewQueue.length) return;
+  const handleRating = useCallback(
+    (rating: ReviewRating) => {
+      if (currentIndex >= reviewQueue.length) return;
 
-    const currentWord = reviewQueue[currentIndex];
-    reviewWord(currentWord.wordId, rating);
+      const currentWord = reviewQueue[currentIndex];
+      reviewWord(currentWord.wordId, rating);
 
-    const isCorrect = rating !== 'again';
-    const newTotalReviewed = sessionStats.totalReviewed + 1;
-    const newCorrectCount = sessionStats.correctCount + (isCorrect ? 1 : 0);
-    const newAccuracy = Math.round((newCorrectCount / newTotalReviewed) * 100);
+      const isCorrect = rating !== 'again';
+      const newTotalReviewed = sessionStats.totalReviewed + 1;
+      const newCorrectCount = sessionStats.correctCount + (isCorrect ? 1 : 0);
+      const newAccuracy = Math.round((newCorrectCount / newTotalReviewed) * 100);
 
-    // Calculate stars: 1 star per 5 correct reviews
-    const previousStars = Math.floor(sessionStats.correctCount / 5);
-    const newStars = Math.floor(newCorrectCount / 5);
-    const starsToAdd = newStars - previousStars;
+      // Calculate stars: 1 star per 5 correct reviews
+      const previousStars = Math.floor(sessionStats.correctCount / 5);
+      const newStars = Math.floor(newCorrectCount / 5);
+      const starsToAdd = newStars - previousStars;
 
-    if (starsToAdd > 0) {
-      earnStars(starsToAdd);
-    }
-
-    // Animate card out
-    Animated.timing(fadeAnim, {
-      toValue: 0,
-      duration: 200,
-      useNativeDriver: true,
-    }).start(() => {
-      const nextIndex = currentIndex + 1;
-
-      if (nextIndex >= reviewQueue.length) {
-        // Session complete
-        const timeSpent = Math.round((Date.now() - startTime) / 1000);
-        const finalStats: SessionStats = {
-          totalReviewed: newTotalReviewed,
-          correctCount: newCorrectCount,
-          accuracy: newAccuracy,
-          starsEarned: newStars,
-          timeSpent,
-        };
-        setSessionStats(finalStats);
-        setPhase('complete');
-        onComplete?.(finalStats);
-      } else {
-        // Next card
-        setSessionStats((prev) => ({
-          ...prev,
-          totalReviewed: newTotalReviewed,
-          correctCount: newCorrectCount,
-          accuracy: newAccuracy,
-          starsEarned: newStars,
-        }));
-        setCurrentIndex(nextIndex);
-        setIsFlipped(false);
-        flipAnim.setValue(0);
-
-        Animated.timing(fadeAnim, {
-          toValue: 1,
-          duration: 200,
-          useNativeDriver: true,
-        }).start();
+      if (starsToAdd > 0) {
+        earnStars(starsToAdd);
       }
-    });
-  }, [currentIndex, reviewQueue, reviewWord, sessionStats, earnStars, fadeAnim, flipAnim, startTime, onComplete]);
+
+      // Animate card out
+      Animated.timing(fadeAnim, {
+        toValue: 0,
+        duration: 200,
+        useNativeDriver: true,
+      }).start(() => {
+        const nextIndex = currentIndex + 1;
+
+        if (nextIndex >= reviewQueue.length) {
+          // Session complete
+          const timeSpent = Math.round((Date.now() - startTime) / 1000);
+          const finalStats: SessionStats = {
+            totalReviewed: newTotalReviewed,
+            correctCount: newCorrectCount,
+            accuracy: newAccuracy,
+            starsEarned: newStars,
+            timeSpent,
+          };
+          setSessionStats(finalStats);
+          setPhase('complete');
+          onComplete?.(finalStats);
+        } else {
+          // Next card
+          setSessionStats((prev) => ({
+            ...prev,
+            totalReviewed: newTotalReviewed,
+            correctCount: newCorrectCount,
+            accuracy: newAccuracy,
+            starsEarned: newStars,
+          }));
+          setCurrentIndex(nextIndex);
+          setIsFlipped(false);
+          flipAnim.setValue(0);
+
+          Animated.timing(fadeAnim, {
+            toValue: 1,
+            duration: 200,
+            useNativeDriver: true,
+          }).start();
+        }
+      });
+    },
+    [
+      currentIndex,
+      reviewQueue,
+      reviewWord,
+      sessionStats,
+      earnStars,
+      fadeAnim,
+      flipAnim,
+      startTime,
+      onComplete,
+    ]
+  );
 
   // ─────────────────────────────────────
   // Current Word
@@ -224,9 +240,7 @@ export function SrsReviewSession({ onComplete, onCancel }: SrsReviewSessionProps
           </View>
 
           <Text style={styles.introTitle}>단어 복습</Text>
-          <Text style={styles.introSubtitle}>
-            간격 반복 학습으로 단어를 복습하세요
-          </Text>
+          <Text style={styles.introSubtitle}>간격 반복 학습으로 단어를 복습하세요</Text>
 
           <View style={styles.statsPreview}>
             <View style={styles.statItem}>
@@ -236,7 +250,11 @@ export function SrsReviewSession({ onComplete, onCancel }: SrsReviewSessionProps
             </View>
             <View style={styles.statDivider} />
             <View style={styles.statItem}>
-              <MaterialCommunityIcons name="check-circle-outline" size={24} color={COLORS.success} />
+              <MaterialCommunityIcons
+                name="check-circle-outline"
+                size={24}
+                color={COLORS.success}
+              />
               <Text style={styles.statValue}>{todayProgress.done}</Text>
               <Text style={styles.statLabel}>오늘 완료</Text>
             </View>
@@ -252,7 +270,12 @@ export function SrsReviewSession({ onComplete, onCancel }: SrsReviewSessionProps
             <>
               <View style={styles.ratingGuide}>
                 <Text style={styles.ratingGuideTitle}>평가 가이드</Text>
-                {(Object.entries(RATING_CONFIG) as [ReviewRating, typeof RATING_CONFIG[ReviewRating]][]).map(([rating, config]) => (
+                {(
+                  Object.entries(RATING_CONFIG) as [
+                    ReviewRating,
+                    (typeof RATING_CONFIG)[ReviewRating],
+                  ][]
+                ).map(([rating, config]) => (
                   <View key={rating} style={styles.ratingRow}>
                     <View style={[styles.ratingBadge, { backgroundColor: config.color }]}>
                       <MaterialCommunityIcons name={config.icon as any} size={16} color="#fff" />
@@ -281,9 +304,7 @@ export function SrsReviewSession({ onComplete, onCancel }: SrsReviewSessionProps
             <View style={styles.noWordsContainer}>
               <MaterialCommunityIcons name="check-all" size={48} color={COLORS.success} />
               <Text style={styles.noWordsTitle}>복습 완료!</Text>
-              <Text style={styles.noWordsText}>
-                오늘 복습할 단어가 없습니다. 잘하고 있어요!
-              </Text>
+              <Text style={styles.noWordsText}>오늘 복습할 단어가 없습니다. 잘하고 있어요!</Text>
             </View>
           )}
 
@@ -310,9 +331,7 @@ export function SrsReviewSession({ onComplete, onCancel }: SrsReviewSessionProps
           </View>
 
           <Text style={styles.completeTitle}>복습 완료!</Text>
-          <Text style={styles.completeSubtitle}>
-            단어 복습을 잘 마쳤습니다
-          </Text>
+          <Text style={styles.completeSubtitle}>단어 복습을 잘 마쳤습니다</Text>
 
           <View style={styles.resultStats}>
             <View style={styles.resultStat}>
@@ -348,20 +367,12 @@ export function SrsReviewSession({ onComplete, onCancel }: SrsReviewSessionProps
             </View>
           )}
 
-          <Button
-            mode="contained"
-            onPress={onCancel}
-            style={styles.doneButton}
-          >
+          <Button mode="contained" onPress={onCancel} style={styles.doneButton}>
             완료
           </Button>
 
           {getWordsForReview().length > 0 && (
-            <Button
-              mode="outlined"
-              onPress={initSession}
-              style={styles.continueButton}
-            >
+            <Button mode="outlined" onPress={initSession} style={styles.continueButton}>
               계속하기 ({getWordsForReview().length}개 남음)
             </Button>
           )}
@@ -392,9 +403,7 @@ export function SrsReviewSession({ onComplete, onCancel }: SrsReviewSessionProps
           <Text style={styles.progressText}>
             {currentIndex + 1} / {reviewQueue.length}
           </Text>
-          <Text style={styles.accuracyText}>
-            {sessionStats.accuracy}% 정답
-          </Text>
+          <Text style={styles.accuracyText}>{sessionStats.accuracy}% 정답</Text>
         </View>
 
         <View style={styles.starsDisplay}>
@@ -412,11 +421,7 @@ export function SrsReviewSession({ onComplete, onCancel }: SrsReviewSessionProps
 
       {/* Flashcard */}
       <Animated.View style={[styles.cardContainer, { opacity: fadeAnim }]}>
-        <TouchableOpacity
-          activeOpacity={0.95}
-          onPress={flipCard}
-          style={styles.cardTouchable}
-        >
+        <TouchableOpacity activeOpacity={0.95} onPress={flipCard} style={styles.cardTouchable}>
           {/* Front of card (Word) */}
           <Animated.View style={[styles.card, styles.cardFront, frontAnimatedStyle]}>
             <View style={styles.cardContent}>
@@ -439,7 +444,11 @@ export function SrsReviewSession({ onComplete, onCancel }: SrsReviewSessionProps
               <Text style={styles.meaningText}>{currentWord.meaning}</Text>
               {currentWord.example && (
                 <View style={styles.exampleContainer}>
-                  <MaterialCommunityIcons name="format-quote-open" size={16} color={COLORS.textSecondary} />
+                  <MaterialCommunityIcons
+                    name="format-quote-open"
+                    size={16}
+                    color={COLORS.textSecondary}
+                  />
                   <Text style={styles.exampleText}>{currentWord.example}</Text>
                 </View>
               )}
@@ -453,7 +462,12 @@ export function SrsReviewSession({ onComplete, onCancel }: SrsReviewSessionProps
         <View style={styles.ratingContainer}>
           <Text style={styles.ratingQuestion}>얼마나 잘 기억했나요?</Text>
           <View style={styles.ratingButtons}>
-            {(Object.entries(RATING_CONFIG) as [ReviewRating, typeof RATING_CONFIG[ReviewRating]][]).map(([rating, config]) => (
+            {(
+              Object.entries(RATING_CONFIG) as [
+                ReviewRating,
+                (typeof RATING_CONFIG)[ReviewRating],
+              ][]
+            ).map(([rating, config]) => (
               <TouchableOpacity
                 key={rating}
                 style={[styles.ratingButton, { backgroundColor: withAlpha(config.color, 0.1) }]}

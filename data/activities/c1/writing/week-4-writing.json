@@ -1,0 +1,100 @@
+{
+  "id": "c1-writing-week-4",
+  "type": "writing",
+  "level": "C1",
+  "weekId": "week-4",
+  "title": "Business Reports and Executive Summaries",
+  "description": "Crafting concise, impactful business communications",
+  "estimatedMinutes": 35,
+  "xpReward": 65,
+  "sections": [
+    {
+      "id": "c1-w4-s1",
+      "title": "Executive Summary Structure",
+      "description": "Writing summaries that busy executives will actually read",
+      "principles": [
+        {
+          "name": "The Inverted Pyramid",
+          "description": "Lead with conclusions and recommendations, then supporting details",
+          "example": "Recommendation: Approve the $2M digital transformation initiative. This investment will generate $8M in efficiency gains over three years while reducing operational risk."
+        },
+        {
+          "name": "Quantify Impact",
+          "description": "Use numbers to make abstract concepts concrete",
+          "weak": "This will significantly improve efficiency.",
+          "strong": "This will reduce processing time by 40%, saving 200 staff hours per month."
+        },
+        {
+          "name": "Action-Oriented Language",
+          "description": "Clearly state what decision or action is needed",
+          "weak": "The committee should consider whether to proceed.",
+          "strong": "The committee is asked to approve Phase 1 funding by March 15."
+        }
+      ]
+    },
+    {
+      "id": "c1-w4-s2",
+      "title": "Report Sections",
+      "description": "Standard components of business reports",
+      "components": [
+        {
+          "section": "Executive Summary",
+          "length": "1/2 to 1 page",
+          "content": "Key findings, recommendations, and requested decisions"
+        },
+        {
+          "section": "Background/Context",
+          "length": "1/2 page",
+          "content": "Why this report exists, what problem it addresses"
+        },
+        {
+          "section": "Methodology",
+          "length": "As needed",
+          "content": "How data was gathered and analyzed"
+        },
+        {
+          "section": "Findings",
+          "length": "Core of report",
+          "content": "What the analysis revealed, organized by theme"
+        },
+        {
+          "section": "Recommendations",
+          "length": "1-2 pages",
+          "content": "Specific actions with rationale and expected outcomes"
+        },
+        {
+          "section": "Appendices",
+          "length": "As needed",
+          "content": "Supporting data, detailed methodology, supplementary analysis"
+        }
+      ]
+    },
+    {
+      "id": "c1-w4-s3",
+      "title": "Tone and Style",
+      "description": "Professional voice in business writing",
+      "guidelines": [
+        {
+          "principle": "Be direct, not blunt",
+          "poor": "Your department failed to meet targets.",
+          "improved": "Q3 results fell 15% below target, primarily due to supply chain delays."
+        },
+        {
+          "principle": "Use active voice for accountability",
+          "passive": "Mistakes were made in the process.",
+          "active": "The project team identified three process errors."
+        },
+        {
+          "principle": "Avoid hedge words when certainty exists",
+          "hedged": "It seems like we might possibly need additional resources.",
+          "direct": "The project requires two additional engineers."
+        }
+      ]
+    }
+  ],
+  "writingTask": {
+    "title": "Market Expansion Executive Summary",
+    "prompt": "Write an executive summary (200-250 words) recommending whether your company should expand into the Southeast Asian market. Include: a clear recommendation, 2-3 supporting reasons with data, potential risks, and requested decision.",
+    "sampleResponse": "Executive Summary: Southeast Asian Market Expansion\n\nRecommendation: Proceed with market entry in Vietnam and Thailand in Q3, with Indonesia to follow in Q1 of the next fiscal year.\n\nRationale:\nThe Southeast Asian market presents a compelling growth opportunity with acceptable risk levels.\n\n1. Market Size: The target region represents 680 million consumers with a growing middle class projected to reach 350 million by 2030. Our product category is growing at 18% annually in these markets.\n\n2. Competitive Positioning: Only two major competitors have established presence. Early entry gives us 18-24 months' first-mover advantage in Vietnam.\n\n3. Cost Structure: Operating costs are 40% lower than our current markets, with access to a skilled workforce graduating 500,000 engineers annually.\n\nRisks and Mitigation:\n- Regulatory complexity: We recommend partnering with local distributors initially (reducing upfront investment by 60%)\n- Currency volatility: Treasury has identified hedging strategies to limit exposure\n- Cultural adaptation: Market research budget of $200K allocated for localization\n\nInvestment Required: $3.5M over 18 months\nProjected ROI: 180% by Year 3, breakeven at Month 18\n\nDecision Requested: Approve Phase 1 funding ($1.2M) to establish Vietnam operations by end of Q2. Full business case in Appendix A."
+  }
+}

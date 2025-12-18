@@ -2,7 +2,7 @@
   "id": "week-3-vocab",
   "weekId": "week-3",
   "type": "vocabulary",
-  "level": "A2",
+  "level": "A1",
   "title": "과거 활동 표현",
   "description": "과거에 했던 활동과 경험을 표현하는 동사의 과거형을 배웁니다.",
 
@@ -14,7 +14,16 @@
       "partOfSpeech": "verb (past)",
       "meaning": "갔다 (go의 과거)",
       "example": "I went to the park yesterday.",
-      "exampleMeaning": "나는 어제 공원에 갔다."
+      "exampleMeaning": "나는 어제 공원에 갔다.",
+      "koreanPronunciationTip": "'웬트' - '웬'에 강세, 't'는 짧게 끊어서",
+      "mnemonic": "Go → Went: 완전히 다른 모양! '갔다'는 '간 것'이 변한 것처럼",
+      "confusableWords": [
+        { "word": "Gone", "difference": "Went는 과거형, Gone은 과거분사 (have gone)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She went home early.", "meaning": "그녀는 일찍 집에 갔다." },
+        { "sentence": "We went shopping.", "meaning": "우리는 쇼핑하러 갔다." }
+      ]
     },
     {
       "id": "w2",
@@ -23,7 +32,16 @@
       "partOfSpeech": "verb (past)",
       "meaning": "먹었다 (eat의 과거)",
       "example": "We ate pizza for dinner.",
-      "exampleMeaning": "우리는 저녁으로 피자를 먹었다."
+      "exampleMeaning": "우리는 저녁으로 피자를 먹었다.",
+      "koreanPronunciationTip": "'에잇' - '에이'를 길게, '숫자 8'과 같은 발음",
+      "mnemonic": "Ate = Eight(8)과 발음이 같다! '8조각 피자를 먹었다'",
+      "confusableWords": [
+        { "word": "Eight", "difference": "Ate(먹었다)와 Eight(8)는 발음이 같은 동음이의어" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I ate breakfast at 7.", "meaning": "나는 7시에 아침을 먹었다." },
+        { "sentence": "He ate too much.", "meaning": "그는 너무 많이 먹었다." }
+      ]
     },
     {
       "id": "w3",
@@ -32,7 +50,16 @@
       "partOfSpeech": "verb (past)",
       "meaning": "봤다 (see의 과거)",
       "example": "I saw a movie last night.",
-      "exampleMeaning": "나는 어젯밤에 영화를 봤다."
+      "exampleMeaning": "나는 어젯밤에 영화를 봤다.",
+      "koreanPronunciationTip": "'쏘' - '소'보다 길게, 입을 동그랗게",
+      "mnemonic": "See → Saw: 톱(saw)으로 나무를 자르는 것을 '봤다'",
+      "confusableWords": [
+        { "word": "Saw (noun)", "difference": "Saw는 동사 '봤다'와 명사 '톱' 두 가지 의미" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I saw my friend.", "meaning": "나는 친구를 봤다." },
+        { "sentence": "Did you see that?", "meaning": "그거 봤어?" }
+      ]
     },
     {
       "id": "w4",
@@ -41,7 +68,13 @@
       "partOfSpeech": "verb (past)",
       "meaning": "가졌다, 먹었다 (have의 과거)",
       "example": "She had a good time.",
-      "exampleMeaning": "그녀는 좋은 시간을 보냈다."
+      "exampleMeaning": "그녀는 좋은 시간을 보냈다.",
+      "koreanPronunciationTip": "'해드' - '해'에 강세",
+      "mnemonic": "Have → Had: 'v'가 'd'로 변함",
+      "additionalExamples": [
+        { "sentence": "I had lunch at noon.", "meaning": "나는 정오에 점심을 먹었다." },
+        { "sentence": "We had fun.", "meaning": "우리는 재미있었다." }
+      ]
     },
     {
       "id": "w5",
@@ -50,7 +83,13 @@
       "partOfSpeech": "verb (past)",
       "meaning": "했다 (do의 과거)",
       "example": "I did my homework.",
-      "exampleMeaning": "나는 숙제를 했다."
+      "exampleMeaning": "나는 숙제를 했다.",
+      "koreanPronunciationTip": "'디드' - 짧고 강하게",
+      "mnemonic": "Do → Did: 'o'가 'i'로 변함",
+      "additionalExamples": [
+        { "sentence": "She did her best.", "meaning": "그녀는 최선을 다했다." },
+        { "sentence": "What did you do?", "meaning": "뭐 했어?" }
+      ]
     },
     {
       "id": "w6",
@@ -59,7 +98,13 @@
       "partOfSpeech": "verb (past)",
       "meaning": "놀았다, 했다 (play의 과거)",
       "example": "We played basketball.",
-      "exampleMeaning": "우리는 농구를 했다."
+      "exampleMeaning": "우리는 농구를 했다.",
+      "koreanPronunciationTip": "'플레이드' - 'd'는 거의 안 들림",
+      "mnemonic": "Play + ed = Played (규칙 동사)",
+      "additionalExamples": [
+        { "sentence": "I played games.", "meaning": "나는 게임을 했다." },
+        { "sentence": "They played soccer.", "meaning": "그들은 축구를 했다." }
+      ]
     },
     {
       "id": "w7",
@@ -68,7 +113,16 @@
       "partOfSpeech": "verb (past)",
       "meaning": "봤다 (watch의 과거)",
       "example": "They watched TV.",
-      "exampleMeaning": "그들은 TV를 봤다."
+      "exampleMeaning": "그들은 TV를 봤다.",
+      "koreanPronunciationTip": "'와치트' - 't'는 짧게",
+      "mnemonic": "Watch + ed = Watched (규칙 동사)",
+      "confusableWords": [
+        { "word": "Saw", "difference": "Watched는 집중해서 본 것, Saw는 눈에 들어온 것" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I watched a movie.", "meaning": "나는 영화를 봤다." },
+        { "sentence": "We watched the game.", "meaning": "우리는 경기를 봤다." }
+      ]
     },
     {
       "id": "w8",
@@ -77,7 +131,13 @@
       "partOfSpeech": "verb (past)",
       "meaning": "방문했다 (visit의 과거)",
       "example": "I visited my grandparents.",
-      "exampleMeaning": "나는 조부모님을 방문했다."
+      "exampleMeaning": "나는 조부모님을 방문했다.",
+      "koreanPronunciationTip": "'비지티드' - '비'에 강세, 'ted'는 약하게",
+      "mnemonic": "Visit + ed = Visited (규칙 동사)",
+      "additionalExamples": [
+        { "sentence": "We visited Seoul.", "meaning": "우리는 서울을 방문했다." },
+        { "sentence": "She visited the museum.", "meaning": "그녀는 박물관을 방문했다." }
+      ]
     },
     {
       "id": "w9",
@@ -86,7 +146,16 @@
       "partOfSpeech": "verb (past)",
       "meaning": "만들었다 (make의 과거)",
       "example": "She made a cake.",
-      "exampleMeaning": "그녀는 케이크를 만들었다."
+      "exampleMeaning": "그녀는 케이크를 만들었다.",
+      "koreanPronunciationTip": "'메이드' - '메이'에 강세",
+      "mnemonic": "Make → Made: 'k'가 'd'로 변함, 'Maid(하녀)'와 발음 같음",
+      "confusableWords": [
+        { "word": "Maid", "difference": "Made(만들었다)와 Maid(하녀)는 발음이 같음" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I made dinner.", "meaning": "나는 저녁을 만들었다." },
+        { "sentence": "He made a mistake.", "meaning": "그는 실수를 했다." }
+      ]
     },
     {
       "id": "w10",
@@ -95,7 +164,13 @@
       "partOfSpeech": "verb (past)",
       "meaning": "가져갔다, 탔다 (take의 과거)",
       "example": "I took the bus.",
-      "exampleMeaning": "나는 버스를 탔다."
+      "exampleMeaning": "나는 버스를 탔다.",
+      "koreanPronunciationTip": "'툭' - 짧게, 'book'과 비슷한 모음",
+      "mnemonic": "Take → Took: 'a'가 'oo'로 변함",
+      "additionalExamples": [
+        { "sentence": "She took a photo.", "meaning": "그녀는 사진을 찍었다." },
+        { "sentence": "I took a shower.", "meaning": "나는 샤워를 했다." }
+      ]
     },
     {
       "id": "w11",
@@ -104,7 +179,13 @@
       "partOfSpeech": "verb (past)",
       "meaning": "샀다 (buy의 과거)",
       "example": "He bought a new phone.",
-      "exampleMeaning": "그는 새 휴대폰을 샀다."
+      "exampleMeaning": "그는 새 휴대폰을 샀다.",
+      "koreanPronunciationTip": "'보트' - 'gh'는 발음 안 함, '보트(배)'와 비슷",
+      "mnemonic": "Buy → Bought: 완전히 다른 모양! 'ought' 패턴 (thought, brought)",
+      "additionalExamples": [
+        { "sentence": "I bought a book.", "meaning": "나는 책을 샀다." },
+        { "sentence": "She bought clothes.", "meaning": "그녀는 옷을 샀다." }
+      ]
     },
     {
       "id": "w12",
@@ -113,7 +194,13 @@
       "partOfSpeech": "verb (past)",
       "meaning": "왔다 (come의 과거)",
       "example": "They came to my house.",
-      "exampleMeaning": "그들은 우리 집에 왔다."
+      "exampleMeaning": "그들은 우리 집에 왔다.",
+      "koreanPronunciationTip": "'케임' - '케이'에 강세",
+      "mnemonic": "Come → Came: 'o'가 'a'로 변함",
+      "additionalExamples": [
+        { "sentence": "She came home late.", "meaning": "그녀는 늦게 집에 왔다." },
+        { "sentence": "My friend came to visit.", "meaning": "친구가 방문하러 왔다." }
+      ]
     },
     {
       "id": "w13",
@@ -122,7 +209,13 @@
       "partOfSpeech": "verb (past)",
       "meaning": "공부했다 (study의 과거)",
       "example": "I studied English last night.",
-      "exampleMeaning": "나는 어젯밤에 영어를 공부했다."
+      "exampleMeaning": "나는 어젯밤에 영어를 공부했다.",
+      "koreanPronunciationTip": "'스터디드' - 'y→i+ed' 규칙",
+      "mnemonic": "Study → Studied: y를 i로 바꾸고 ed 추가",
+      "additionalExamples": [
+        { "sentence": "She studied hard.", "meaning": "그녀는 열심히 공부했다." },
+        { "sentence": "We studied together.", "meaning": "우리는 함께 공부했다." }
+      ]
     },
     {
       "id": "w14",
@@ -131,7 +224,13 @@
       "partOfSpeech": "verb (past)",
       "meaning": "말했다 (talk의 과거)",
       "example": "We talked about the movie.",
-      "exampleMeaning": "우리는 영화에 대해 이야기했다."
+      "exampleMeaning": "우리는 영화에 대해 이야기했다.",
+      "koreanPronunciationTip": "'토크트' - 'l'은 발음 안 함",
+      "mnemonic": "Talk + ed = Talked (규칙 동사)",
+      "additionalExamples": [
+        { "sentence": "I talked to my mom.", "meaning": "나는 엄마와 이야기했다." },
+        { "sentence": "They talked for hours.", "meaning": "그들은 몇 시간 동안 이야기했다." }
+      ]
     },
     {
       "id": "w15",
@@ -140,7 +239,13 @@
       "partOfSpeech": "adverb",
       "meaning": "어제",
       "example": "I went shopping yesterday.",
-      "exampleMeaning": "나는 어제 쇼핑을 갔다."
+      "exampleMeaning": "나는 어제 쇼핑을 갔다.",
+      "koreanPronunciationTip": "'예스터데이' - '예스'에 강세",
+      "mnemonic": "Yester(지난) + Day(날) = 지난 날 = 어제",
+      "additionalExamples": [
+        { "sentence": "Yesterday was Monday.", "meaning": "어제는 월요일이었다." },
+        { "sentence": "I met her yesterday.", "meaning": "나는 어제 그녀를 만났다." }
+      ]
     },
     {
       "id": "w16",
@@ -149,7 +254,13 @@
       "partOfSpeech": "phrase",
       "meaning": "어젯밤",
       "example": "I slept well last night.",
-      "exampleMeaning": "나는 어젯밤에 잘 잤다."
+      "exampleMeaning": "나는 어젯밤에 잘 잤다.",
+      "koreanPronunciationTip": "'라스트 나잇' - '라'와 '나'에 강세",
+      "mnemonic": "Last(지난) + Night(밤) = 지난 밤 = 어젯밤",
+      "additionalExamples": [
+        { "sentence": "What did you do last night?", "meaning": "어젯밤에 뭐 했어?" },
+        { "sentence": "I watched TV last night.", "meaning": "어젯밤에 TV를 봤다." }
+      ]
     },
     {
       "id": "w17",
@@ -158,7 +269,13 @@
       "partOfSpeech": "phrase",
       "meaning": "지난주",
       "example": "I saw him last week.",
-      "exampleMeaning": "나는 지난주에 그를 봤다."
+      "exampleMeaning": "나는 지난주에 그를 봤다.",
+      "koreanPronunciationTip": "'라스트 위크' - '라'와 '위'에 강세",
+      "mnemonic": "Last(지난) + Week(주) = 지난 주",
+      "additionalExamples": [
+        { "sentence": "Last week was busy.", "meaning": "지난주는 바빴다." },
+        { "sentence": "I started last week.", "meaning": "지난주에 시작했다." }
+      ]
     },
     {
       "id": "w18",
@@ -167,7 +284,13 @@
       "partOfSpeech": "phrase",
       "meaning": "지난 주말",
       "example": "We went hiking last weekend.",
-      "exampleMeaning": "우리는 지난 주말에 하이킹을 갔다."
+      "exampleMeaning": "우리는 지난 주말에 하이킹을 갔다.",
+      "koreanPronunciationTip": "'라스트 위켄드' - '위'에 강세",
+      "mnemonic": "Last(지난) + Weekend(주말) = 지난 주말",
+      "additionalExamples": [
+        { "sentence": "Last weekend was fun.", "meaning": "지난 주말은 재미있었다." },
+        { "sentence": "What did you do last weekend?", "meaning": "지난 주말에 뭐 했어?" }
+      ]
     },
     {
       "id": "w19",
@@ -176,7 +299,13 @@
       "partOfSpeech": "adverb",
       "meaning": "전에",
       "example": "Two days ago, I met her.",
-      "exampleMeaning": "이틀 전에, 나는 그녀를 만났다."
+      "exampleMeaning": "이틀 전에, 나는 그녀를 만났다.",
+      "koreanPronunciationTip": "'어고우' - '고'에 강세",
+      "mnemonic": "숫자 + 시간 + ago = ~전에 (예: 2 days ago)",
+      "additionalExamples": [
+        { "sentence": "A week ago, I was in Seoul.", "meaning": "일주일 전에 나는 서울에 있었다." },
+        { "sentence": "Long ago, there was a king.", "meaning": "오래전에 왕이 있었다." }
+      ]
     },
     {
       "id": "w20",
@@ -185,7 +314,484 @@
       "partOfSpeech": "verb (past)",
       "meaning": "~였다/~이었다 (be의 과거)",
       "example": "I was happy. They were tired.",
-      "exampleMeaning": "나는 행복했다. 그들은 피곤했다."
+      "exampleMeaning": "나는 행복했다. 그들은 피곤했다.",
+      "koreanPronunciationTip": "'와즈/워' - Was는 '와즈', Were는 '워'",
+      "mnemonic": "I/He/She/It → Was, You/We/They → Were",
+      "confusableWords": [
+        { "word": "Was vs Were", "difference": "Was는 단수(I, he, she, it), Were는 복수(we, they) 및 you" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She was sick yesterday.", "meaning": "그녀는 어제 아팠다." },
+        { "sentence": "We were at school.", "meaning": "우리는 학교에 있었다." }
+      ]
+    },
+    {
+      "id": "w21",
+      "word": "Slept",
+      "pronunciation": "/slept/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "잤다 (sleep의 과거)",
+      "example": "I slept for 8 hours.",
+      "exampleMeaning": "나는 8시간 잤다.",
+      "koreanPronunciationTip": "'슬렙트' - 짧게 발음",
+      "mnemonic": "Sleep → Slept: 'ee'가 'e'로 줄어듦",
+      "additionalExamples": [
+        { "sentence": "She slept well.", "meaning": "그녀는 잘 잤다." },
+        { "sentence": "I slept late.", "meaning": "나는 늦게까지 잤다." }
+      ]
+    },
+    {
+      "id": "w22",
+      "word": "Woke up",
+      "pronunciation": "/woʊk ʌp/",
+      "partOfSpeech": "phrasal verb (past)",
+      "meaning": "일어났다 (wake up의 과거)",
+      "example": "I woke up at 7 AM.",
+      "exampleMeaning": "나는 오전 7시에 일어났다.",
+      "koreanPronunciationTip": "'워크 업' - '워'에 강세",
+      "mnemonic": "Wake → Woke: 'a'가 'o'로 변함",
+      "additionalExamples": [
+        { "sentence": "She woke up early.", "meaning": "그녀는 일찍 일어났다." },
+        { "sentence": "I woke up late.", "meaning": "나는 늦게 일어났다." }
+      ]
+    },
+    {
+      "id": "w23",
+      "word": "Drank",
+      "pronunciation": "/dræŋk/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "마셨다 (drink의 과거)",
+      "example": "I drank water.",
+      "exampleMeaning": "나는 물을 마셨다.",
+      "koreanPronunciationTip": "'드랭크' - '랭'에 강세",
+      "mnemonic": "Drink → Drank → Drunk (현재-과거-과거분사)",
+      "confusableWords": [
+        { "word": "Drunk", "difference": "Drank는 과거형, Drunk는 과거분사/형용사(취한)" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She drank coffee.", "meaning": "그녀는 커피를 마셨다." },
+        { "sentence": "We drank juice.", "meaning": "우리는 주스를 마셨다." }
+      ]
+    },
+    {
+      "id": "w24",
+      "word": "Walked",
+      "pronunciation": "/wɔːkt/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "걸었다 (walk의 과거)",
+      "example": "I walked to school.",
+      "exampleMeaning": "나는 학교까지 걸어갔다.",
+      "koreanPronunciationTip": "'워크트' - 'l'은 발음 안 함",
+      "mnemonic": "Walk + ed = Walked (규칙 동사)",
+      "additionalExamples": [
+        { "sentence": "We walked in the park.", "meaning": "우리는 공원에서 걸었다." },
+        { "sentence": "She walked home.", "meaning": "그녀는 집까지 걸어갔다." }
+      ]
+    },
+    {
+      "id": "w25",
+      "word": "Ran",
+      "pronunciation": "/ræn/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "달렸다 (run의 과거)",
+      "example": "He ran fast.",
+      "exampleMeaning": "그는 빨리 달렸다.",
+      "koreanPronunciationTip": "'랜' - 짧고 강하게",
+      "mnemonic": "Run → Ran: 'u'가 'a'로 변함",
+      "additionalExamples": [
+        { "sentence": "I ran to the bus.", "meaning": "나는 버스로 달려갔다." },
+        { "sentence": "She ran every day.", "meaning": "그녀는 매일 달렸다." }
+      ]
+    },
+    {
+      "id": "w26",
+      "word": "Read",
+      "pronunciation": "/red/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "읽었다 (read의 과거)",
+      "example": "I read a book yesterday.",
+      "exampleMeaning": "나는 어제 책을 읽었다.",
+      "koreanPronunciationTip": "'레드' - 현재형 /riːd/와 다름! 과거형은 '레드'",
+      "mnemonic": "Read 현재(/리드/)와 Read 과거(/레드/)는 철자 같지만 발음 다름!",
+      "confusableWords": [
+        { "word": "Red", "difference": "Read(과거)와 Red(빨간)는 발음이 같음" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She read the newspaper.", "meaning": "그녀는 신문을 읽었다." },
+        { "sentence": "I read it last night.", "meaning": "어젯밤에 그것을 읽었다." }
+      ]
+    },
+    {
+      "id": "w27",
+      "word": "Wrote",
+      "pronunciation": "/roʊt/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "썼다 (write의 과거)",
+      "example": "I wrote a letter.",
+      "exampleMeaning": "나는 편지를 썼다.",
+      "koreanPronunciationTip": "'로우트' - '로'에 강세",
+      "mnemonic": "Write → Wrote → Written",
+      "additionalExamples": [
+        { "sentence": "She wrote an email.", "meaning": "그녀는 이메일을 썼다." },
+        { "sentence": "He wrote a story.", "meaning": "그는 이야기를 썼다." }
+      ]
+    },
+    {
+      "id": "w28",
+      "word": "Got",
+      "pronunciation": "/ɡɑːt/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "얻었다, 받았다 (get의 과거)",
+      "example": "I got a gift.",
+      "exampleMeaning": "나는 선물을 받았다.",
+      "koreanPronunciationTip": "'갓' - 짧게",
+      "mnemonic": "Get → Got: 'e'가 'o'로 변함",
+      "additionalExamples": [
+        { "sentence": "She got a good grade.", "meaning": "그녀는 좋은 성적을 받았다." },
+        { "sentence": "I got home late.", "meaning": "나는 늦게 집에 도착했다." }
+      ]
+    },
+    {
+      "id": "w29",
+      "word": "Met",
+      "pronunciation": "/met/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "만났다 (meet의 과거)",
+      "example": "I met my friend.",
+      "exampleMeaning": "나는 친구를 만났다.",
+      "koreanPronunciationTip": "'멧' - 짧게",
+      "mnemonic": "Meet → Met: 'ee'가 'e'로 줄어듦",
+      "additionalExamples": [
+        { "sentence": "We met yesterday.", "meaning": "우리는 어제 만났다." },
+        { "sentence": "I met him at the cafe.", "meaning": "카페에서 그를 만났다." }
+      ]
+    },
+    {
+      "id": "w30",
+      "word": "Helped",
+      "pronunciation": "/helpt/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "도왔다 (help의 과거)",
+      "example": "I helped my mom.",
+      "exampleMeaning": "나는 엄마를 도왔다.",
+      "koreanPronunciationTip": "'헬프트' - 짧게",
+      "mnemonic": "Help + ed = Helped (규칙 동사)",
+      "additionalExamples": [
+        { "sentence": "She helped me.", "meaning": "그녀가 나를 도왔다." },
+        { "sentence": "We helped each other.", "meaning": "우리는 서로 도왔다." }
+      ]
+    },
+    {
+      "id": "w31",
+      "word": "Called",
+      "pronunciation": "/kɔːld/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "전화했다, 불렀다 (call의 과거)",
+      "example": "I called my friend.",
+      "exampleMeaning": "나는 친구에게 전화했다.",
+      "koreanPronunciationTip": "'콜드' - 'd'는 약하게",
+      "mnemonic": "Call + ed = Called (규칙 동사)",
+      "additionalExamples": [
+        { "sentence": "She called me.", "meaning": "그녀가 나에게 전화했다." },
+        { "sentence": "I called a taxi.", "meaning": "나는 택시를 불렀다." }
+      ]
+    },
+    {
+      "id": "w32",
+      "word": "Listened",
+      "pronunciation": "/ˈlɪsənd/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "들었다 (listen의 과거)",
+      "example": "I listened to music.",
+      "exampleMeaning": "나는 음악을 들었다.",
+      "koreanPronunciationTip": "'리슨드' - 't'는 발음 안 함",
+      "mnemonic": "Listen + ed = Listened (규칙 동사)",
+      "additionalExamples": [
+        { "sentence": "She listened carefully.", "meaning": "그녀는 주의 깊게 들었다." },
+        { "sentence": "We listened to the teacher.", "meaning": "우리는 선생님 말씀을 들었다." }
+      ]
+    },
+    {
+      "id": "w33",
+      "word": "Opened",
+      "pronunciation": "/ˈoʊpənd/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "열었다 (open의 과거)",
+      "example": "I opened the door.",
+      "exampleMeaning": "나는 문을 열었다.",
+      "koreanPronunciationTip": "'오픈드' - '오'에 강세",
+      "mnemonic": "Open + ed = Opened (규칙 동사)",
+      "additionalExamples": [
+        { "sentence": "She opened the window.", "meaning": "그녀는 창문을 열었다." },
+        { "sentence": "He opened the book.", "meaning": "그는 책을 펼쳤다." }
+      ]
+    },
+    {
+      "id": "w34",
+      "word": "Closed",
+      "pronunciation": "/kloʊzd/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "닫았다 (close의 과거)",
+      "example": "I closed the window.",
+      "exampleMeaning": "나는 창문을 닫았다.",
+      "koreanPronunciationTip": "'클로즈드' - '클로'에 강세",
+      "mnemonic": "Close + d = Closed (규칙 동사)",
+      "additionalExamples": [
+        { "sentence": "She closed the door.", "meaning": "그녀는 문을 닫았다." },
+        { "sentence": "The store closed early.", "meaning": "가게가 일찍 닫았다." }
+      ]
+    },
+    {
+      "id": "w35",
+      "word": "Started",
+      "pronunciation": "/ˈstɑːrtɪd/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "시작했다 (start의 과거)",
+      "example": "The movie started at 7.",
+      "exampleMeaning": "영화가 7시에 시작했다.",
+      "koreanPronunciationTip": "'스타티드' - '스타'에 강세",
+      "mnemonic": "Start + ed = Started (규칙 동사)",
+      "additionalExamples": [
+        { "sentence": "I started working.", "meaning": "나는 일을 시작했다." },
+        { "sentence": "She started learning English.", "meaning": "그녀는 영어 배우기를 시작했다." }
+      ]
+    },
+    {
+      "id": "w36",
+      "word": "Finished",
+      "pronunciation": "/ˈfɪnɪʃt/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "끝냈다 (finish의 과거)",
+      "example": "I finished my homework.",
+      "exampleMeaning": "나는 숙제를 끝냈다.",
+      "koreanPronunciationTip": "'피니쉬트' - '피'에 강세",
+      "mnemonic": "Finish + ed = Finished (규칙 동사)",
+      "additionalExamples": [
+        { "sentence": "She finished the book.", "meaning": "그녀는 책을 다 읽었다." },
+        { "sentence": "We finished eating.", "meaning": "우리는 식사를 마쳤다." }
+      ]
+    },
+    {
+      "id": "w37",
+      "word": "Cleaned",
+      "pronunciation": "/kliːnd/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "청소했다 (clean의 과거)",
+      "example": "I cleaned my room.",
+      "exampleMeaning": "나는 방을 청소했다.",
+      "koreanPronunciationTip": "'클린드' - 'd'는 약하게",
+      "mnemonic": "Clean + ed = Cleaned (규칙 동사)",
+      "additionalExamples": [
+        { "sentence": "She cleaned the house.", "meaning": "그녀는 집을 청소했다." },
+        { "sentence": "We cleaned together.", "meaning": "우리는 함께 청소했다." }
+      ]
+    },
+    {
+      "id": "w38",
+      "word": "Cooked",
+      "pronunciation": "/kʊkt/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "요리했다 (cook의 과거)",
+      "example": "My mom cooked dinner.",
+      "exampleMeaning": "엄마가 저녁을 요리했다.",
+      "koreanPronunciationTip": "'쿡트' - 짧게",
+      "mnemonic": "Cook + ed = Cooked (규칙 동사)",
+      "additionalExamples": [
+        { "sentence": "I cooked pasta.", "meaning": "나는 파스타를 요리했다." },
+        { "sentence": "She cooked for us.", "meaning": "그녀가 우리를 위해 요리했다." }
+      ]
+    },
+    {
+      "id": "w39",
+      "word": "Worked",
+      "pronunciation": "/wɜːrkt/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "일했다 (work의 과거)",
+      "example": "I worked all day.",
+      "exampleMeaning": "나는 하루 종일 일했다.",
+      "koreanPronunciationTip": "'워크트' - '워'에 강세",
+      "mnemonic": "Work + ed = Worked (규칙 동사)",
+      "additionalExamples": [
+        { "sentence": "She worked hard.", "meaning": "그녀는 열심히 일했다." },
+        { "sentence": "He worked late.", "meaning": "그는 늦게까지 일했다." }
+      ]
+    },
+    {
+      "id": "w40",
+      "word": "Lived",
+      "pronunciation": "/lɪvd/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "살았다 (live의 과거)",
+      "example": "I lived in Seoul.",
+      "exampleMeaning": "나는 서울에 살았다.",
+      "koreanPronunciationTip": "'리브드' - 짧게",
+      "mnemonic": "Live + d = Lived (규칙 동사)",
+      "additionalExamples": [
+        { "sentence": "She lived here for 5 years.", "meaning": "그녀는 여기서 5년 살았다." },
+        { "sentence": "They lived happily.", "meaning": "그들은 행복하게 살았다." }
+      ]
+    },
+    {
+      "id": "w41",
+      "word": "Loved",
+      "pronunciation": "/lʌvd/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "사랑했다, 매우 좋아했다 (love의 과거)",
+      "example": "I loved the movie.",
+      "exampleMeaning": "나는 그 영화를 매우 좋아했다.",
+      "koreanPronunciationTip": "'러브드' - 짧게",
+      "mnemonic": "Love + d = Loved (규칙 동사)",
+      "additionalExamples": [
+        { "sentence": "She loved him.", "meaning": "그녀는 그를 사랑했다." },
+        { "sentence": "We loved the food.", "meaning": "우리는 음식을 매우 좋아했다." }
+      ]
+    },
+    {
+      "id": "w42",
+      "word": "Liked",
+      "pronunciation": "/laɪkt/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "좋아했다 (like의 과거)",
+      "example": "I liked the cake.",
+      "exampleMeaning": "나는 케이크를 좋아했다.",
+      "koreanPronunciationTip": "'라이크트' - 짧게",
+      "mnemonic": "Like + d = Liked (규칙 동사)",
+      "additionalExamples": [
+        { "sentence": "She liked the song.", "meaning": "그녀는 그 노래를 좋아했다." },
+        { "sentence": "They liked the idea.", "meaning": "그들은 그 아이디어를 좋아했다." }
+      ]
+    },
+    {
+      "id": "w43",
+      "word": "Thought",
+      "pronunciation": "/θɔːt/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "생각했다 (think의 과거)",
+      "example": "I thought about it.",
+      "exampleMeaning": "나는 그것에 대해 생각했다.",
+      "koreanPronunciationTip": "'쏘트' - 'th'는 혀를 내밀어서",
+      "mnemonic": "Think → Thought: 완전히 다른 모양! 'ought' 패턴",
+      "additionalExamples": [
+        { "sentence": "She thought it was good.", "meaning": "그녀는 그것이 좋다고 생각했다." },
+        { "sentence": "I thought so.", "meaning": "나도 그렇게 생각했어." }
+      ]
+    },
+    {
+      "id": "w44",
+      "word": "Knew",
+      "pronunciation": "/nuː/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "알았다 (know의 과거)",
+      "example": "I knew the answer.",
+      "exampleMeaning": "나는 답을 알았다.",
+      "koreanPronunciationTip": "'뉴' - 'k'는 발음 안 함",
+      "mnemonic": "Know → Knew: 'ow'가 'ew'로 변함",
+      "confusableWords": [
+        { "word": "New", "difference": "Knew(알았다)와 New(새로운)는 발음이 같음" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She knew him well.", "meaning": "그녀는 그를 잘 알았다." },
+        { "sentence": "I knew it!", "meaning": "그럴 줄 알았어!" }
+      ]
+    },
+    {
+      "id": "w45",
+      "word": "Told",
+      "pronunciation": "/toʊld/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "말했다 (tell의 과거)",
+      "example": "She told me the news.",
+      "exampleMeaning": "그녀가 나에게 소식을 말해줬다.",
+      "koreanPronunciationTip": "'톨드' - '톨'에 강세",
+      "mnemonic": "Tell → Told: 'e'가 'o'로 변함",
+      "confusableWords": [
+        { "word": "Said", "difference": "Told는 '~에게 말했다', Said는 '~라고 말했다'" }
+      ],
+      "additionalExamples": [
+        { "sentence": "I told him to wait.", "meaning": "나는 그에게 기다리라고 말했다." },
+        { "sentence": "Who told you?", "meaning": "누가 말해줬어?" }
+      ]
+    },
+    {
+      "id": "w46",
+      "word": "Left",
+      "pronunciation": "/left/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "떠났다, 남겼다 (leave의 과거)",
+      "example": "I left home at 8.",
+      "exampleMeaning": "나는 8시에 집을 떠났다.",
+      "koreanPronunciationTip": "'레프트' - '레'에 강세",
+      "mnemonic": "Leave → Left: 완전히 다른 모양!",
+      "confusableWords": [
+        { "word": "Left (direction)", "difference": "Left는 동사 '떠났다'와 명사/형용사 '왼쪽' 두 가지 의미" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She left early.", "meaning": "그녀는 일찍 떠났다." },
+        { "sentence": "I left my bag.", "meaning": "나는 가방을 두고 왔다." }
+      ]
+    },
+    {
+      "id": "w47",
+      "word": "Found",
+      "pronunciation": "/faʊnd/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "찾았다, 발견했다 (find의 과거)",
+      "example": "I found my keys.",
+      "exampleMeaning": "나는 열쇠를 찾았다.",
+      "koreanPronunciationTip": "'파운드' - '파'에 강세",
+      "mnemonic": "Find → Found: 'i'가 'ou'로 변함",
+      "confusableWords": [
+        { "word": "Found (establish)", "difference": "Found는 '찾았다'와 '설립하다' 두 가지 의미" }
+      ],
+      "additionalExamples": [
+        { "sentence": "She found a job.", "meaning": "그녀는 직장을 찾았다." },
+        { "sentence": "I found it interesting.", "meaning": "나는 그것이 흥미롭다고 생각했다." }
+      ]
+    },
+    {
+      "id": "w48",
+      "word": "Gave",
+      "pronunciation": "/ɡeɪv/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "주었다 (give의 과거)",
+      "example": "I gave her a gift.",
+      "exampleMeaning": "나는 그녀에게 선물을 주었다.",
+      "koreanPronunciationTip": "'게이브' - '게이'에 강세",
+      "mnemonic": "Give → Gave: 'i'가 'a'로 변함",
+      "additionalExamples": [
+        { "sentence": "She gave me advice.", "meaning": "그녀가 나에게 조언을 해줬다." },
+        { "sentence": "He gave up.", "meaning": "그는 포기했다." }
+      ]
+    },
+    {
+      "id": "w49",
+      "word": "Spent",
+      "pronunciation": "/spent/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "보냈다, (돈/시간을) 썼다 (spend의 과거)",
+      "example": "I spent time with friends.",
+      "exampleMeaning": "나는 친구들과 시간을 보냈다.",
+      "koreanPronunciationTip": "'스펜트' - '스'에 강세",
+      "mnemonic": "Spend → Spent: 'd'가 't'로 변함",
+      "additionalExamples": [
+        { "sentence": "She spent money.", "meaning": "그녀는 돈을 썼다." },
+        { "sentence": "We spent the weekend there.", "meaning": "우리는 그곳에서 주말을 보냈다." }
+      ]
+    },
+    {
+      "id": "w50",
+      "word": "Forgot",
+      "pronunciation": "/fərˈɡɑːt/",
+      "partOfSpeech": "verb (past)",
+      "meaning": "잊었다 (forget의 과거)",
+      "example": "I forgot my password.",
+      "exampleMeaning": "나는 비밀번호를 잊었다.",
+      "koreanPronunciationTip": "'퍼갓' - '갓'에 강세",
+      "mnemonic": "Forget → Forgot: 'e'가 'o'로 변함",
+      "additionalExamples": [
+        { "sentence": "She forgot to call.", "meaning": "그녀는 전화하는 것을 잊었다." },
+        { "sentence": "I forgot his name.", "meaning": "나는 그의 이름을 잊었다." }
+      ]
     }
   ],
 
@@ -303,6 +909,1027 @@
       "question": "I ___ happy yesterday. (be동사의 과거형 - I)",
       "answer": ["was"],
       "explanation": "'I'의 be동사 과거형은 'was'입니다."
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'sleep'?",
+      "options": ["Sleeped", "Slept", "Sleeping", "Sleeps"],
+      "answer": "Slept",
+      "explanation": "'sleep'의 과거형은 'slept'입니다."
+    },
+    {
+      "id": "ex17",
+      "type": "fill_blank",
+      "question": "I ___ up at 7 AM. (wake의 과거형)",
+      "answer": ["woke"],
+      "explanation": "'wake'의 과거형은 'woke'입니다."
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "Which word means '마셨다'?",
+      "options": ["Drink", "Drank", "Drunk", "Drinks"],
+      "answer": "Drank",
+      "explanation": "'drink'의 과거형은 'drank'입니다."
+    },
+    {
+      "id": "ex19",
+      "type": "fill_blank",
+      "question": "She ___ coffee this morning. (drink의 과거형)",
+      "answer": ["drank"],
+      "explanation": "'drink'의 과거형은 'drank'입니다."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'walk'?",
+      "options": ["Walk", "Walked", "Walking", "Walks"],
+      "answer": "Walked",
+      "explanation": "'walk'는 규칙 동사로 '-ed'를 붙여 'walked'가 됩니다."
+    },
+    {
+      "id": "ex21",
+      "type": "fill_blank",
+      "question": "He ___ fast. (run의 과거형)",
+      "answer": ["ran"],
+      "explanation": "'run'의 과거형은 'ran'입니다."
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "What is special about 'read' past tense?",
+      "options": ["Same spelling, same sound", "Same spelling, different sound", "Different spelling", "No past tense"],
+      "answer": "Same spelling, different sound",
+      "explanation": "'read' 현재(/리드/)와 과거(/레드/)는 철자가 같지만 발음이 다릅니다."
+    },
+    {
+      "id": "ex23",
+      "type": "fill_blank",
+      "question": "I ___ a letter to my friend. (write의 과거형)",
+      "answer": ["wrote"],
+      "explanation": "'write'의 과거형은 'wrote'입니다."
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'get'?",
+      "options": ["Getted", "Got", "Getting", "Gets"],
+      "answer": "Got",
+      "explanation": "'get'의 과거형은 'got'입니다."
+    },
+    {
+      "id": "ex25",
+      "type": "fill_blank",
+      "question": "I ___ my friend at the cafe. (meet의 과거형)",
+      "answer": ["met"],
+      "explanation": "'meet'의 과거형은 'met'입니다."
+    },
+    {
+      "id": "ex26",
+      "type": "matching",
+      "question": "Match the present with past tense:",
+      "options": ["sleep", "drink", "run", "write"],
+      "answer": ["slept", "drank", "ran", "wrote"],
+      "explanation": "각 동사의 현재형과 과거형을 연결합니다."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "Which is a regular verb (규칙 동사)?",
+      "options": ["Go-Went", "Play-Played", "Eat-Ate", "See-Saw"],
+      "answer": "Play-Played",
+      "explanation": "'play-played'는 -ed를 붙이는 규칙 동사입니다."
+    },
+    {
+      "id": "ex28",
+      "type": "fill_blank",
+      "question": "She ___ me with my homework. (help의 과거형)",
+      "answer": ["helped"],
+      "explanation": "'help'의 과거형은 'helped'입니다."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'call'?",
+      "options": ["Call", "Called", "Calling", "Calls"],
+      "answer": "Called",
+      "explanation": "'call'의 과거형은 'called'입니다."
+    },
+    {
+      "id": "ex30",
+      "type": "fill_blank",
+      "question": "I ___ to music yesterday. (listen의 과거형)",
+      "answer": ["listened"],
+      "explanation": "'listen'의 과거형은 'listened'입니다."
+    },
+    {
+      "id": "ex31",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'open'?",
+      "options": ["Open", "Opened", "Opening", "Opens"],
+      "answer": "Opened",
+      "explanation": "'open'의 과거형은 'opened'입니다."
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "question": "She ___ the door. (close의 과거형)",
+      "answer": ["closed"],
+      "explanation": "'close'의 과거형은 'closed'입니다."
+    },
+    {
+      "id": "ex33",
+      "type": "multiple_choice",
+      "question": "Which word means '시작했다'?",
+      "options": ["Start", "Started", "Starting", "Starts"],
+      "answer": "Started",
+      "explanation": "'start'의 과거형은 'started'입니다."
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "I ___ my homework at 5 PM. (finish의 과거형)",
+      "answer": ["finished"],
+      "explanation": "'finish'의 과거형은 'finished'입니다."
+    },
+    {
+      "id": "ex35",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'clean'?",
+      "options": ["Clean", "Cleaned", "Cleaning", "Cleans"],
+      "answer": "Cleaned",
+      "explanation": "'clean'의 과거형은 'cleaned'입니다."
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "My mom ___ dinner. (cook의 과거형)",
+      "answer": ["cooked"],
+      "explanation": "'cook'의 과거형은 'cooked'입니다."
+    },
+    {
+      "id": "ex37",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'work'?",
+      "options": ["Work", "Worked", "Working", "Works"],
+      "answer": "Worked",
+      "explanation": "'work'의 과거형은 'worked'입니다."
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "I ___ in Seoul for 5 years. (live의 과거형)",
+      "answer": ["lived"],
+      "explanation": "'live'의 과거형은 'lived'입니다."
+    },
+    {
+      "id": "ex39",
+      "type": "matching",
+      "question": "Match the present with past tense:",
+      "options": ["help", "call", "open", "start"],
+      "answer": ["helped", "called", "opened", "started"],
+      "explanation": "모두 규칙 동사로 -ed를 붙입니다."
+    },
+    {
+      "id": "ex40",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'love'?",
+      "options": ["Love", "Loved", "Loving", "Loves"],
+      "answer": "Loved",
+      "explanation": "'love'의 과거형은 'loved'입니다."
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "She ___ the cake. (like의 과거형)",
+      "answer": ["liked"],
+      "explanation": "'like'의 과거형은 'liked'입니다."
+    },
+    {
+      "id": "ex42",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'think'?",
+      "options": ["Thinked", "Thought", "Thinking", "Thinks"],
+      "answer": "Thought",
+      "explanation": "'think'의 과거형은 'thought'입니다."
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "I ___ the answer. (know의 과거형)",
+      "answer": ["knew"],
+      "explanation": "'know'의 과거형은 'knew'입니다."
+    },
+    {
+      "id": "ex44",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'tell'?",
+      "options": ["Telled", "Told", "Telling", "Tells"],
+      "answer": "Told",
+      "explanation": "'tell'의 과거형은 'told'입니다."
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "She ___ me the news. (tell의 과거형)",
+      "answer": ["told"],
+      "explanation": "'tell'의 과거형은 'told'입니다."
+    },
+    {
+      "id": "ex46",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'leave'?",
+      "options": ["Leaved", "Left", "Leaving", "Leaves"],
+      "answer": "Left",
+      "explanation": "'leave'의 과거형은 'left'입니다."
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "I ___ my keys. (find의 과거형)",
+      "answer": ["found"],
+      "explanation": "'find'의 과거형은 'found'입니다."
+    },
+    {
+      "id": "ex48",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'give'?",
+      "options": ["Gived", "Gave", "Giving", "Gives"],
+      "answer": "Gave",
+      "explanation": "'give'의 과거형은 'gave'입니다."
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "I ___ time with my family. (spend의 과거형)",
+      "answer": ["spent"],
+      "explanation": "'spend'의 과거형은 'spent'입니다."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'forget'?",
+      "options": ["Forgetted", "Forgot", "Forgetting", "Forgets"],
+      "answer": "Forgot",
+      "explanation": "'forget'의 과거형은 'forgot'입니다."
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "I ___ my password. (forget의 과거형)",
+      "answer": ["forgot"],
+      "explanation": "'forget'의 과거형은 'forgot'입니다."
+    },
+    {
+      "id": "ex52",
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": ["I goed to school.", "I went to school.", "I go to school yesterday.", "I wented to school."],
+      "answer": "I went to school.",
+      "explanation": "'go'의 과거형은 'went'입니다."
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "They ___ tired yesterday. (be동사의 과거형 - they)",
+      "answer": ["were"],
+      "explanation": "'they'의 be동사 과거형은 'were'입니다."
+    },
+    {
+      "id": "ex54",
+      "type": "multiple_choice",
+      "question": "When do we use 'was'?",
+      "options": ["With I, he, she, it", "With we, they, you", "With all subjects", "Only with I"],
+      "answer": "With I, he, she, it",
+      "explanation": "'was'는 I, he, she, it과 함께 사용합니다."
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "She ___ at school yesterday. (be동사의 과거형)",
+      "answer": ["was"],
+      "explanation": "'she'의 be동사 과거형은 'was'입니다."
+    },
+    {
+      "id": "ex56",
+      "type": "matching",
+      "question": "Match the present with past tense:",
+      "options": ["think", "know", "tell", "leave"],
+      "answer": ["thought", "knew", "told", "left"],
+      "explanation": "각 동사의 현재형과 과거형을 연결합니다."
+    },
+    {
+      "id": "ex57",
+      "type": "multiple_choice",
+      "question": "How do you say '2일 전에' in English?",
+      "options": ["2 days before", "2 days ago", "Before 2 days", "Ago 2 days"],
+      "answer": "2 days ago",
+      "explanation": "'~전에'는 '숫자 + 시간 + ago' 형태로 표현합니다."
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "I saw him three days ___. (전에)",
+      "answer": ["ago"],
+      "explanation": "'ago'는 '~전에'라는 뜻입니다."
+    },
+    {
+      "id": "ex59",
+      "type": "multiple_choice",
+      "question": "Which time expression is used with past tense?",
+      "options": ["Tomorrow", "Next week", "Yesterday", "Every day"],
+      "answer": "Yesterday",
+      "explanation": "'yesterday'는 과거 시제와 함께 사용됩니다."
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "I ___ TV last night. (watch의 과거형)",
+      "answer": ["watched"],
+      "explanation": "'watch'의 과거형은 'watched'입니다."
+    },
+    {
+      "id": "ex61",
+      "type": "multiple_choice",
+      "question": "What does 'last weekend' mean?",
+      "options": ["다음 주말", "이번 주말", "지난 주말", "매 주말"],
+      "answer": "지난 주말",
+      "explanation": "'last weekend'는 '지난 주말'이라는 뜻입니다."
+    },
+    {
+      "id": "ex62",
+      "type": "fill_blank",
+      "question": "We ___ hiking last weekend. (go의 과거형)",
+      "answer": ["went"],
+      "explanation": "'go'의 과거형은 'went'입니다."
+    },
+    {
+      "id": "ex63",
+      "type": "multiple_choice",
+      "question": "Which verb has the same spelling in present and past?",
+      "options": ["Go", "Read", "Make", "Take"],
+      "answer": "Read",
+      "explanation": "'read'는 현재형과 과거형의 철자가 같습니다 (발음은 다름)."
+    },
+    {
+      "id": "ex64",
+      "type": "fill_blank",
+      "question": "I ___ a book yesterday. (read의 과거형 - 발음: /red/)",
+      "answer": ["read"],
+      "explanation": "'read'의 과거형도 'read'이지만 발음이 /red/입니다."
+    },
+    {
+      "id": "ex65",
+      "type": "matching",
+      "question": "Match the present with past tense:",
+      "options": ["find", "give", "spend", "forget"],
+      "answer": ["found", "gave", "spent", "forgot"],
+      "explanation": "각 동사의 현재형과 과거형을 연결합니다."
+    },
+    {
+      "id": "ex66",
+      "type": "multiple_choice",
+      "question": "What is the correct past tense sentence?",
+      "options": ["I study English yesterday.", "I studied English yesterday.", "I studying English yesterday.", "I studies English yesterday."],
+      "answer": "I studied English yesterday.",
+      "explanation": "'study'의 과거형은 'studied'입니다."
+    },
+    {
+      "id": "ex67",
+      "type": "fill_blank",
+      "question": "She ___ her grandparents last week. (visit의 과거형)",
+      "answer": ["visited"],
+      "explanation": "'visit'의 과거형은 'visited'입니다."
+    },
+    {
+      "id": "ex68",
+      "type": "multiple_choice",
+      "question": "How do you change 'study' to past tense?",
+      "options": ["Add -ed", "Change y to i, add -ed", "Add -d", "Change completely"],
+      "answer": "Change y to i, add -ed",
+      "explanation": "자음 + y로 끝나는 동사는 y를 i로 바꾸고 -ed를 붙입니다."
+    },
+    {
+      "id": "ex69",
+      "type": "fill_blank",
+      "question": "I ___ to my friend about the movie. (talk의 과거형)",
+      "answer": ["talked"],
+      "explanation": "'talk'의 과거형은 'talked'입니다."
+    },
+    {
+      "id": "ex70",
+      "type": "multiple_choice",
+      "question": "What is the difference between 'saw' and 'watched'?",
+      "options": ["Same meaning", "Saw = noticed, Watched = focused viewing", "Watched = noticed, Saw = focused viewing", "No difference"],
+      "answer": "Saw = noticed, Watched = focused viewing",
+      "explanation": "'saw'는 눈에 들어온 것, 'watched'는 집중해서 본 것입니다."
+    },
+    {
+      "id": "ex71",
+      "type": "fill_blank",
+      "question": "I ___ a strange bird in the park. (see의 과거형)",
+      "answer": ["saw"],
+      "explanation": "'see'의 과거형은 'saw'입니다."
+    },
+    {
+      "id": "ex72",
+      "type": "matching",
+      "question": "Match with correct time expression:",
+      "options": ["went (어제)", "will go (내일)", "go (매일)", "going (지금)"],
+      "answer": ["yesterday", "tomorrow", "every day", "now"],
+      "explanation": "과거 동사는 과거 시간 표현과 함께 사용합니다."
+    },
+    {
+      "id": "ex73",
+      "type": "multiple_choice",
+      "question": "Which is an irregular verb?",
+      "options": ["Played", "Walked", "Went", "Cleaned"],
+      "answer": "Went",
+      "explanation": "'went'는 'go'의 불규칙 과거형입니다."
+    },
+    {
+      "id": "ex74",
+      "type": "fill_blank",
+      "question": "He ___ home at 8 PM. (leave의 과거형)",
+      "answer": ["left"],
+      "explanation": "'leave'의 과거형은 'left'입니다."
+    },
+    {
+      "id": "ex75",
+      "type": "multiple_choice",
+      "question": "What does 'I had fun' mean?",
+      "options": ["나는 재미있다", "나는 재미있었다", "나는 재미있을 것이다", "나는 재미있니?"],
+      "answer": "나는 재미있었다",
+      "explanation": "'had'는 'have'의 과거형으로 '가졌다, ~했다'의 의미입니다."
+    },
+    {
+      "id": "ex76",
+      "type": "fill_blank",
+      "question": "We ___ a great time at the party. (have의 과거형)",
+      "answer": ["had"],
+      "explanation": "'have'의 과거형은 'had'입니다."
+    },
+    {
+      "id": "ex77",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'take a shower'?",
+      "options": ["Took a shower", "Taked a shower", "Taking a shower", "Take a showered"],
+      "answer": "Took a shower",
+      "explanation": "'take'의 과거형은 'took'입니다."
+    },
+    {
+      "id": "ex78",
+      "type": "fill_blank",
+      "question": "She ___ a photo of the sunset. (take의 과거형)",
+      "answer": ["took"],
+      "explanation": "'take'의 과거형은 'took'입니다."
+    },
+    {
+      "id": "ex79",
+      "type": "matching",
+      "question": "Match the time expressions:",
+      "options": ["Yesterday", "Last night", "Last week", "Two days ago"],
+      "answer": ["어제", "어젯밤", "지난주", "이틀 전"],
+      "explanation": "각 시간 표현과 한국어 의미를 연결합니다."
+    },
+    {
+      "id": "ex80",
+      "type": "multiple_choice",
+      "question": "Which sentence uses past tense correctly?",
+      "options": ["I go to school yesterday.", "I went to school yesterday.", "I going to school yesterday.", "I gone to school yesterday."],
+      "answer": "I went to school yesterday.",
+      "explanation": "과거 시간 표현 'yesterday'와 함께 과거형 'went'를 사용합니다."
+    },
+    {
+      "id": "ex81",
+      "type": "fill_blank",
+      "question": "She ___ me a gift for my birthday. (give의 과거형)",
+      "answer": ["gave"],
+      "explanation": "'give'의 과거형은 'gave'입니다."
+    },
+    {
+      "id": "ex82",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'buy'?",
+      "options": ["Buyed", "Bought", "Buying", "Buys"],
+      "answer": "Bought",
+      "explanation": "'buy'의 과거형은 'bought'입니다. 'ought' 패턴입니다."
+    },
+    {
+      "id": "ex83",
+      "type": "fill_blank",
+      "question": "I ___ a new laptop last month. (buy의 과거형)",
+      "answer": ["bought"],
+      "explanation": "'buy'의 과거형은 'bought'입니다."
+    },
+    {
+      "id": "ex84",
+      "type": "multiple_choice",
+      "question": "Which verbs follow the 'ought' pattern?",
+      "options": ["Go, Come, Take", "Buy, Think, Bring", "Play, Work, Walk", "Eat, Drink, Sleep"],
+      "answer": "Buy, Think, Bring",
+      "explanation": "bought, thought, brought는 'ought' 패턴을 따릅니다."
+    },
+    {
+      "id": "ex85",
+      "type": "fill_blank",
+      "question": "I ___ it was a good idea. (think의 과거형)",
+      "answer": ["thought"],
+      "explanation": "'think'의 과거형은 'thought'입니다."
+    },
+    {
+      "id": "ex86",
+      "type": "matching",
+      "question": "Match verbs that sound the same:",
+      "options": ["Ate", "Knew", "Made", "Read (past)"],
+      "answer": ["Eight (8)", "New", "Maid", "Red"],
+      "explanation": "동음이의어를 연결합니다."
+    },
+    {
+      "id": "ex87",
+      "type": "multiple_choice",
+      "question": "What does 'I met him' mean?",
+      "options": ["나는 그를 만날 것이다", "나는 그를 만났다", "나는 그를 만난다", "나는 그를 만나고 있다"],
+      "answer": "나는 그를 만났다",
+      "explanation": "'met'는 'meet'의 과거형으로 '만났다'는 뜻입니다."
+    },
+    {
+      "id": "ex88",
+      "type": "fill_blank",
+      "question": "We ___ at the cafe yesterday. (meet의 과거형)",
+      "answer": ["met"],
+      "explanation": "'meet'의 과거형은 'met'입니다."
+    },
+    {
+      "id": "ex89",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'get up'?",
+      "options": ["Got up", "Getted up", "Get upped", "Getting up"],
+      "answer": "Got up",
+      "explanation": "'get'의 과거형은 'got'입니다."
+    },
+    {
+      "id": "ex90",
+      "type": "fill_blank",
+      "question": "I ___ up early this morning. (get의 과거형)",
+      "answer": ["got"],
+      "explanation": "'get'의 과거형은 'got'입니다."
+    },
+    {
+      "id": "ex91",
+      "type": "multiple_choice",
+      "question": "Which is correct for 'They be tired yesterday'?",
+      "options": ["They was tired.", "They were tired.", "They be tired.", "They being tired."],
+      "answer": "They were tired.",
+      "explanation": "'they'의 be동사 과거형은 'were'입니다."
+    },
+    {
+      "id": "ex92",
+      "type": "fill_blank",
+      "question": "The movie ___ at 7 PM. (start의 과거형)",
+      "answer": ["started"],
+      "explanation": "'start'의 과거형은 'started'입니다."
+    },
+    {
+      "id": "ex93",
+      "type": "matching",
+      "question": "Match the regular verb patterns:",
+      "options": ["play", "stop", "study", "like"],
+      "answer": ["played (+ed)", "stopped (+ped)", "studied (y→i+ed)", "liked (+d)"],
+      "explanation": "규칙 동사의 과거형 변화 패턴입니다."
+    },
+    {
+      "id": "ex94",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'run'?",
+      "options": ["Runned", "Ran", "Running", "Runs"],
+      "answer": "Ran",
+      "explanation": "'run'의 과거형은 'ran'입니다."
+    },
+    {
+      "id": "ex95",
+      "type": "fill_blank",
+      "question": "She ___ to catch the bus. (run의 과거형)",
+      "answer": ["ran"],
+      "explanation": "'run'의 과거형은 'ran'입니다."
+    },
+    {
+      "id": "ex96",
+      "type": "multiple_choice",
+      "question": "What does 'She left early' mean?",
+      "options": ["그녀는 일찍 남았다", "그녀는 일찍 떠났다", "그녀는 왼쪽으로 갔다", "그녀는 일찍 떠날 것이다"],
+      "answer": "그녀는 일찍 떠났다",
+      "explanation": "'left'는 'leave'(떠나다)의 과거형입니다."
+    },
+    {
+      "id": "ex97",
+      "type": "fill_blank",
+      "question": "I ___ my umbrella at the restaurant. (leave의 과거형 - 두고 왔다)",
+      "answer": ["left"],
+      "explanation": "'leave'의 과거형은 'left'입니다. '두고 오다'의 의미도 있습니다."
+    },
+    {
+      "id": "ex98",
+      "type": "multiple_choice",
+      "question": "How do you say '나는 어젯밤 잘 잤다' in English?",
+      "options": ["I sleep well last night.", "I slept well last night.", "I sleeping well last night.", "I sleeps well last night."],
+      "answer": "I slept well last night.",
+      "explanation": "'sleep'의 과거형은 'slept'입니다."
+    },
+    {
+      "id": "ex99",
+      "type": "fill_blank",
+      "question": "I ___ 8 hours last night. (sleep의 과거형)",
+      "answer": ["slept"],
+      "explanation": "'sleep'의 과거형은 'slept'입니다."
+    },
+    {
+      "id": "ex100",
+      "type": "matching",
+      "question": "Match the irregular verbs:",
+      "options": ["go", "come", "take", "give"],
+      "answer": ["went", "came", "took", "gave"],
+      "explanation": "불규칙 동사의 현재형과 과거형을 연결합니다."
+    },
+    {
+      "id": "ex101",
+      "type": "multiple_choice",
+      "question": "Complete: 'I ___ to the store and ___ some milk.'",
+      "options": ["go, buy", "went, bought", "goes, buys", "going, buying"],
+      "answer": "went, bought",
+      "explanation": "과거 문장에서는 모든 동사가 과거형이어야 합니다."
+    },
+    {
+      "id": "ex102",
+      "type": "fill_blank",
+      "question": "Yesterday, I ___ up, ___ breakfast, and ___ to school. (wake, eat, go)",
+      "answer": ["woke", "ate", "went"],
+      "explanation": "모든 동사가 과거형입니다: woke, ate, went."
+    },
+    {
+      "id": "ex103",
+      "type": "multiple_choice",
+      "question": "What did you do last night?",
+      "options": ["I watch TV.", "I watched TV.", "I watching TV.", "I will watch TV."],
+      "answer": "I watched TV.",
+      "explanation": "'last night'은 과거이므로 과거형 'watched'를 사용합니다."
+    },
+    {
+      "id": "ex104",
+      "type": "fill_blank",
+      "question": "She ___ a letter and ___ it to her friend. (write, send)",
+      "answer": ["wrote", "sent"],
+      "explanation": "'write'의 과거형은 'wrote', 'send'의 과거형은 'sent'입니다."
+    },
+    {
+      "id": "ex105",
+      "type": "multiple_choice",
+      "question": "Which sentence describes a completed action?",
+      "options": ["I eat breakfast every day.", "I ate breakfast this morning.", "I am eating breakfast.", "I will eat breakfast."],
+      "answer": "I ate breakfast this morning.",
+      "explanation": "과거형 'ate'는 완료된 행동을 나타냅니다."
+    },
+    {
+      "id": "ex106",
+      "type": "fill_blank",
+      "question": "We ___ the movie and ___ about it all night. (see, talk)",
+      "answer": ["saw", "talked"],
+      "explanation": "'see'의 과거형은 'saw', 'talk'의 과거형은 'talked'입니다."
+    },
+    {
+      "id": "ex107",
+      "type": "multiple_choice",
+      "question": "What is the negative past tense of 'I went'?",
+      "options": ["I don't went.", "I didn't go.", "I not went.", "I didn't went."],
+      "answer": "I didn't go.",
+      "explanation": "과거 부정문은 'didn't + 동사원형'입니다."
+    },
+    {
+      "id": "ex108",
+      "type": "fill_blank",
+      "question": "I didn't ___ to the party. (go)",
+      "answer": ["go"],
+      "explanation": "'didn't' 뒤에는 동사원형이 옵니다."
+    },
+    {
+      "id": "ex109",
+      "type": "multiple_choice",
+      "question": "How do you ask 'Did you eat breakfast?' in Korean?",
+      "options": ["아침 먹을 거야?", "아침 먹었어?", "아침 먹어?", "아침 먹고 있어?"],
+      "answer": "아침 먹었어?",
+      "explanation": "'Did you eat?'는 과거 의문문으로 '먹었어?'입니다."
+    },
+    {
+      "id": "ex110",
+      "type": "fill_blank",
+      "question": "Did you ___ the homework? (do)",
+      "answer": ["do"],
+      "explanation": "'Did' 뒤에는 동사원형이 옵니다."
+    },
+    {
+      "id": "ex111",
+      "type": "matching",
+      "question": "Match the daily routine (past):",
+      "options": ["Woke up", "Ate breakfast", "Went to school", "Came home"],
+      "answer": ["일어났다", "아침을 먹었다", "학교에 갔다", "집에 왔다"],
+      "explanation": "일상 루틴의 과거형입니다."
+    },
+    {
+      "id": "ex112",
+      "type": "multiple_choice",
+      "question": "What is the question form of 'She went to the park'?",
+      "options": ["Did she went to the park?", "Did she go to the park?", "Does she went to the park?", "Was she go to the park?"],
+      "answer": "Did she go to the park?",
+      "explanation": "과거 의문문은 'Did + 주어 + 동사원형'입니다."
+    },
+    {
+      "id": "ex113",
+      "type": "fill_blank",
+      "question": "Where did you ___ last weekend? (go)",
+      "answer": ["go"],
+      "explanation": "'Did' 뒤에는 동사원형이 옵니다."
+    },
+    {
+      "id": "ex114",
+      "type": "multiple_choice",
+      "question": "Complete: 'A: Did you see the movie? B: Yes, I ___.'",
+      "options": ["did", "do", "see", "saw"],
+      "answer": "did",
+      "explanation": "짧은 대답에서는 'Yes, I did.'를 사용합니다."
+    },
+    {
+      "id": "ex115",
+      "type": "fill_blank",
+      "question": "No, I ___ see the movie. (didn't)",
+      "answer": ["didn't"],
+      "explanation": "부정 대답은 'No, I didn't.'입니다."
+    },
+    {
+      "id": "ex116",
+      "type": "matching",
+      "question": "Match present and past:",
+      "options": ["eat", "drink", "sleep", "wake up"],
+      "answer": ["ate", "drank", "slept", "woke up"],
+      "explanation": "불규칙 동사의 현재형과 과거형입니다."
+    },
+    {
+      "id": "ex117",
+      "type": "multiple_choice",
+      "question": "What time did you wake up yesterday?",
+      "options": ["I wake up at 7.", "I woke up at 7.", "I waking up at 7.", "I will wake up at 7."],
+      "answer": "I woke up at 7.",
+      "explanation": "'yesterday'가 있으므로 과거형 'woke up'을 사용합니다."
+    },
+    {
+      "id": "ex118",
+      "type": "fill_blank",
+      "question": "I ___ a delicious dinner last night. (have)",
+      "answer": ["had"],
+      "explanation": "'have'의 과거형은 'had'입니다."
+    },
+    {
+      "id": "ex119",
+      "type": "multiple_choice",
+      "question": "Which is the correct order for a past routine?",
+      "options": ["Woke up → Had breakfast → Went to school", "Wake up → Have breakfast → Go to school", "Waking up → Having breakfast → Going to school", "Will wake → Will have → Will go"],
+      "answer": "Woke up → Had breakfast → Went to school",
+      "explanation": "과거 루틴은 모든 동사가 과거형입니다."
+    },
+    {
+      "id": "ex120",
+      "type": "fill_blank",
+      "question": "She ___ her room and ___ the dishes. (clean, wash)",
+      "answer": ["cleaned", "washed"],
+      "explanation": "두 동사 모두 규칙 동사로 -ed를 붙입니다."
+    },
+    {
+      "id": "ex121",
+      "type": "multiple_choice",
+      "question": "What does 'I found my phone' mean?",
+      "options": ["나는 핸드폰을 찾고 있다", "나는 핸드폰을 찾았다", "나는 핸드폰을 찾을 것이다", "나는 핸드폰을 찾는다"],
+      "answer": "나는 핸드폰을 찾았다",
+      "explanation": "'found'는 'find'의 과거형입니다."
+    },
+    {
+      "id": "ex122",
+      "type": "fill_blank",
+      "question": "I ___ my wallet. I ___ it at home. (lose, leave)",
+      "answer": ["lost", "left"],
+      "explanation": "'lose'의 과거형은 'lost', 'leave'의 과거형은 'left'입니다."
+    },
+    {
+      "id": "ex123",
+      "type": "matching",
+      "question": "Match the 'ought' pattern verbs:",
+      "options": ["buy", "think", "bring", "teach"],
+      "answer": ["bought", "thought", "brought", "taught"],
+      "explanation": "'ought' 패턴 동사들입니다."
+    },
+    {
+      "id": "ex124",
+      "type": "multiple_choice",
+      "question": "Complete: 'She ___ me a message yesterday.'",
+      "options": ["send", "sent", "sended", "sending"],
+      "answer": "sent",
+      "explanation": "'send'의 과거형은 'sent'입니다."
+    },
+    {
+      "id": "ex125",
+      "type": "fill_blank",
+      "question": "I ___ my best, but I ___ the test. (do, fail)",
+      "answer": ["did", "failed"],
+      "explanation": "'do'의 과거형은 'did', 'fail'의 과거형은 'failed'입니다."
+    },
+    {
+      "id": "ex126",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'begin'?",
+      "options": ["Beginned", "Began", "Beginning", "Begins"],
+      "answer": "Began",
+      "explanation": "'begin'의 과거형은 'began'입니다."
+    },
+    {
+      "id": "ex127",
+      "type": "fill_blank",
+      "question": "The class ___ at 9 and ___ at 3. (begin, end)",
+      "answer": ["began", "ended"],
+      "explanation": "'begin'의 과거형은 'began', 'end'의 과거형은 'ended'입니다."
+    },
+    {
+      "id": "ex128",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'swim'?",
+      "options": ["Swimmed", "Swam", "Swimming", "Swims"],
+      "answer": "Swam",
+      "explanation": "'swim'의 과거형은 'swam'입니다."
+    },
+    {
+      "id": "ex129",
+      "type": "fill_blank",
+      "question": "We ___ in the pool yesterday. (swim)",
+      "answer": ["swam"],
+      "explanation": "'swim'의 과거형은 'swam'입니다."
+    },
+    {
+      "id": "ex130",
+      "type": "matching",
+      "question": "Match with Korean meaning:",
+      "options": ["Forgot", "Spent", "Found", "Lost"],
+      "answer": ["잊었다", "보냈다/썼다", "찾았다", "잃었다"],
+      "explanation": "각 과거형 동사와 한국어 의미를 연결합니다."
+    },
+    {
+      "id": "ex131",
+      "type": "multiple_choice",
+      "question": "How do you say 'I spent 2 hours studying' in English?",
+      "options": ["I spend 2 hours studying.", "I spent 2 hours studying.", "I spended 2 hours studying.", "I spending 2 hours studying."],
+      "answer": "I spent 2 hours studying.",
+      "explanation": "'spend'의 과거형은 'spent'입니다."
+    },
+    {
+      "id": "ex132",
+      "type": "fill_blank",
+      "question": "He ___ all his money on games. (spend)",
+      "answer": ["spent"],
+      "explanation": "'spend'의 과거형은 'spent'입니다."
+    },
+    {
+      "id": "ex133",
+      "type": "multiple_choice",
+      "question": "What does 'I knew it!' mean?",
+      "options": ["나도 알아!", "그럴 줄 알았어!", "난 몰라!", "알고 싶어!"],
+      "answer": "그럴 줄 알았어!",
+      "explanation": "'I knew it!'은 예상했던 것이 맞았을 때 하는 표현입니다."
+    },
+    {
+      "id": "ex134",
+      "type": "fill_blank",
+      "question": "I ___ the answer, but I ___ to tell you. (know, forget)",
+      "answer": ["knew", "forgot"],
+      "explanation": "'know'의 과거형은 'knew', 'forget'의 과거형은 'forgot'입니다."
+    },
+    {
+      "id": "ex135",
+      "type": "matching",
+      "question": "Match the verbs with same vowel change pattern:",
+      "options": ["drink-drank", "sing-sang", "swim-swam", "begin-began"],
+      "answer": ["i→a pattern", "i→a pattern", "i→a pattern", "i→a pattern"],
+      "explanation": "모두 'i→a' 패턴을 따릅니다."
+    },
+    {
+      "id": "ex136",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'sing'?",
+      "options": ["Singed", "Sang", "Singing", "Sings"],
+      "answer": "Sang",
+      "explanation": "'sing'의 과거형은 'sang'입니다."
+    },
+    {
+      "id": "ex137",
+      "type": "fill_blank",
+      "question": "She ___ a beautiful song at the concert. (sing)",
+      "answer": ["sang"],
+      "explanation": "'sing'의 과거형은 'sang'입니다."
+    },
+    {
+      "id": "ex138",
+      "type": "multiple_choice",
+      "question": "Complete the diary: 'Yesterday, I ___ (wake) up early, ___ (eat) breakfast, and ___ (go) to school.'",
+      "options": ["wake, eat, go", "woke, ate, went", "waked, eated, goed", "waking, eating, going"],
+      "answer": "woke, ate, went",
+      "explanation": "일기는 과거형으로 씁니다."
+    },
+    {
+      "id": "ex139",
+      "type": "fill_blank",
+      "question": "Last summer, I ___ to Japan and ___ many temples. (go, visit)",
+      "answer": ["went", "visited"],
+      "explanation": "여행 경험을 과거형으로 표현합니다."
+    },
+    {
+      "id": "ex140",
+      "type": "matching",
+      "question": "Match the regular verbs:",
+      "options": ["watch", "clean", "cook", "study"],
+      "answer": ["watched", "cleaned", "cooked", "studied"],
+      "explanation": "규칙 동사의 과거형입니다."
+    },
+    {
+      "id": "ex141",
+      "type": "multiple_choice",
+      "question": "What is the difference between 'told' and 'said'?",
+      "options": ["Same meaning", "Told + person, Said = direct speech", "Said + person, Told = direct speech", "No difference"],
+      "answer": "Told + person, Said = direct speech",
+      "explanation": "'told'는 사람이 필요하고, 'said'는 인용문에 사용합니다."
+    },
+    {
+      "id": "ex142",
+      "type": "fill_blank",
+      "question": "She ___ me to wait. He ___ 'Hello'. (tell, say)",
+      "answer": ["told", "said"],
+      "explanation": "'tell'은 사람 목적어가 필요하고, 'say'는 직접 인용에 사용합니다."
+    },
+    {
+      "id": "ex143",
+      "type": "multiple_choice",
+      "question": "What is the past tense of 'sit'?",
+      "options": ["Sitted", "Sat", "Sitting", "Sits"],
+      "answer": "Sat",
+      "explanation": "'sit'의 과거형은 'sat'입니다."
+    },
+    {
+      "id": "ex144",
+      "type": "fill_blank",
+      "question": "I ___ on the bench and ___ the sunset. (sit, watch)",
+      "answer": ["sat", "watched"],
+      "explanation": "'sit'의 과거형은 'sat', 'watch'의 과거형은 'watched'입니다."
+    },
+    {
+      "id": "ex145",
+      "type": "matching",
+      "question": "Match the irregular verbs:",
+      "options": ["sit", "stand", "run", "swim"],
+      "answer": ["sat", "stood", "ran", "swam"],
+      "explanation": "불규칙 동사의 과거형입니다."
+    },
+    {
+      "id": "ex146",
+      "type": "multiple_choice",
+      "question": "Complete: 'What ___ you ___ yesterday?'",
+      "options": ["do, do", "did, do", "did, did", "do, did"],
+      "answer": "did, do",
+      "explanation": "과거 의문문: 'What did you do?'"
+    },
+    {
+      "id": "ex147",
+      "type": "fill_blank",
+      "question": "A: What did you eat for dinner? B: I ___ pizza. (eat)",
+      "answer": ["ate"],
+      "explanation": "대답에서는 과거형 'ate'를 사용합니다."
+    },
+    {
+      "id": "ex148",
+      "type": "multiple_choice",
+      "question": "Which sentence tells about past experience?",
+      "options": ["I go to Paris every year.", "I went to Paris last year.", "I will go to Paris next year.", "I am going to Paris."],
+      "answer": "I went to Paris last year.",
+      "explanation": "'last year'와 과거형 'went'가 과거 경험을 나타냅니다."
+    },
+    {
+      "id": "ex149",
+      "type": "fill_blank",
+      "question": "I ___ English for 2 years. (study - 과거에 시작해서 지금은 안 함)",
+      "answer": ["studied"],
+      "explanation": "과거에 완료된 학습 경험을 나타냅니다."
+    },
+    {
+      "id": "ex150",
+      "type": "matching",
+      "question": "Complete the story with past tense:",
+      "options": ["Yesterday I (wake) up at 7", "I (eat) breakfast", "I (go) to school", "I (come) home at 4"],
+      "answer": ["woke", "ate", "went", "came"],
+      "explanation": "이야기는 과거형으로 씁니다."
     }
   ]
 }

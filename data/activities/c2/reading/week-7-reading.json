@@ -1,0 +1,100 @@
+{
+  "id": "c2-reading-week-7",
+  "type": "reading",
+  "level": "C2",
+  "weekId": "week-7",
+  "title": "Language, Power, and Society",
+  "description": "Analyzing critical perspectives on language and social structure",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passage": {
+    "title": "The Politics of Language",
+    "author": "Adapted from sociolinguistics and critical theory sources",
+    "paragraphs": [
+      "Language is never neutral. Every utterance bears traces of the social conditions of its production: the speaker's class, region, education, and identity. Bourdieu's concept of linguistic capital illuminates how language functions in the reproduction of social inequality. Speakers of prestige varieties—Standard English, Received Pronunciation—possess cultural capital convertible to educational and economic advantage. Their speech is heard as intelligent, authoritative, competent. Speakers of stigmatized varieties face the opposite: their knowledge dismissed, their competence doubted, their accent 'corrected.' The linguistic market, like other markets, distributes resources unequally.",
+      "Standard languages are themselves political constructs. There is nothing linguistically superior about Standard American English over African American Vernacular English; both are rule-governed systems of equal expressive capacity. The difference is social: one variety is associated with power, institutionalized in education and media; the other is marginalized, its speakers pathologized. The ideology of the standard—the belief that one variety is inherently correct—obscures this social hierarchy, naturalizing what is in fact historical and political. To speak of 'bad grammar' is already to take sides in a struggle over whose language counts.",
+      "Critical discourse analysis examines how language constructs and maintains power relations. The passive voice can obscure agency: 'mistakes were made' erases responsibility. Nominalization transforms processes into things: 'ethnic cleansing' converts deliberate killing into an abstract concept. Metaphors frame understanding: speaking of refugees as a 'flood' naturalizes hostile responses. These are not merely stylistic choices; they shape what can be thought and said. To analyze discourse is to ask: who benefits from this way of representing reality?",
+      "Yet language is also a site of resistance. Subordinated groups can appropriate dominant codes, develop counterdiscourses, reclaim stigmatized terms. The emergence of new identities often involves linguistic innovation. If language is implicated in domination, it is also a resource for liberation. The question is not whether language has politics, but what politics our linguistic choices enact."
+    ]
+  },
+  "questions": [
+    {
+      "id": "c2-r7-q1",
+      "type": "main-idea",
+      "question": "What is the central claim of the passage?",
+      "options": [
+        "Standard languages are grammatically superior",
+        "Language is politically neutral if used correctly",
+        "Language both reflects and reproduces social power relations",
+        "Linguistic analysis cannot reveal political structures"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage argues that language 'is never neutral' and examines 'how language constructs and maintains power relations'"
+    },
+    {
+      "id": "c2-r7-q2",
+      "type": "detail",
+      "question": "According to Bourdieu's concept, what is 'linguistic capital'?",
+      "options": [
+        "The number of languages a person speaks",
+        "Command of prestige varieties that converts to social advantage",
+        "Financial investment in language education",
+        "The economic value of translation services"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Speakers of prestige varieties... possess cultural capital convertible to educational and economic advantage'"
+    },
+    {
+      "id": "c2-r7-q3",
+      "type": "inference",
+      "question": "What does the author mean by saying the 'ideology of the standard' 'naturalizes what is historical and political'?",
+      "options": [
+        "Standard languages developed naturally over time",
+        "Linguistic standards are based on scientific principles",
+        "Beliefs about correct language obscure the social construction of standards",
+        "All languages are equally natural"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The ideology makes a historically contingent, politically constructed hierarchy appear natural and inevitable"
+    },
+    {
+      "id": "c2-r7-q4",
+      "type": "vocabulary",
+      "question": "In discourse analysis, what does 'nominalization' do?",
+      "options": [
+        "Assigns proper names to concepts",
+        "Transforms processes into abstract noun concepts",
+        "Names previously unnamed phenomena",
+        "Standardizes terminology"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Nominalization transforms processes into things: \"ethnic cleansing\" converts deliberate killing into an abstract concept'"
+    },
+    {
+      "id": "c2-r7-q5",
+      "type": "critical-analysis",
+      "question": "How does the passage complicate a purely deterministic view of language and power?",
+      "options": [
+        "By denying that language has political effects",
+        "By arguing that language is also a resource for resistance",
+        "By claiming that power relations are purely economic",
+        "By suggesting linguistic analysis is impossible"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Yet language is also a site of resistance. Subordinated groups can appropriate dominant codes, develop counterdiscourses, reclaim stigmatized terms'"
+    },
+    {
+      "id": "c2-r7-q6",
+      "type": "synthesis",
+      "question": "What does the passage suggest about the relationship between linguistic description and political stance?",
+      "options": [
+        "Linguistic description can be politically neutral",
+        "Describing language is always already political",
+        "Politics should be excluded from linguistic analysis",
+        "Only critical analysts take political positions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'To speak of \"bad grammar\" is already to take sides in a struggle over whose language counts'—even description involves political choices"
+    }
+  ]
+}

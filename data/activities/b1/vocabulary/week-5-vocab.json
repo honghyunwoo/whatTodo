@@ -256,6 +256,256 @@
       "translation": "친환경적인",
       "example": "This product is eco-friendly and biodegradable.",
       "exampleTranslation": "이 제품은 친환경적이고 생분해성이에요."
+    },
+    {
+      "id": "w26",
+      "word": "biodiversity",
+      "pronunciation": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+      "partOfSpeech": "noun",
+      "meaning": "variety of plant and animal life in an environment",
+      "translation": "생물 다양성",
+      "example": "The rainforest has incredible biodiversity.",
+      "exampleTranslation": "열대우림은 놀라운 생물 다양성을 가지고 있어요."
+    },
+    {
+      "id": "w27",
+      "word": "landfill",
+      "pronunciation": "/ˈlændfɪl/",
+      "partOfSpeech": "noun",
+      "meaning": "a place where waste is buried in the ground",
+      "translation": "매립지",
+      "example": "Most of our garbage goes to landfills.",
+      "exampleTranslation": "우리 쓰레기의 대부분은 매립지로 가요."
+    },
+    {
+      "id": "w28",
+      "word": "greenhouse gas",
+      "pronunciation": "/ˈɡriːnhaʊs ɡæs/",
+      "partOfSpeech": "noun",
+      "meaning": "gas that traps heat in the atmosphere",
+      "translation": "온실가스",
+      "example": "Carbon dioxide is a major greenhouse gas.",
+      "exampleTranslation": "이산화탄소는 주요 온실가스예요."
+    },
+    {
+      "id": "w29",
+      "word": "fossil fuel",
+      "pronunciation": "/ˈfɒsl fjuːəl/",
+      "partOfSpeech": "noun",
+      "meaning": "fuel formed from ancient plants and animals",
+      "translation": "화석 연료",
+      "example": "Coal and oil are fossil fuels.",
+      "exampleTranslation": "석탄과 석유는 화석 연료예요."
+    },
+    {
+      "id": "w30",
+      "word": "solar panel",
+      "pronunciation": "/ˈsəʊlə ˈpænl/",
+      "partOfSpeech": "noun",
+      "meaning": "device that converts sunlight into electricity",
+      "translation": "태양광 패널",
+      "example": "We installed solar panels on our roof.",
+      "exampleTranslation": "우리는 지붕에 태양광 패널을 설치했어요."
+    },
+    {
+      "id": "w31",
+      "word": "wind turbine",
+      "pronunciation": "/wɪnd ˈtɜːbaɪn/",
+      "partOfSpeech": "noun",
+      "meaning": "a machine that generates electricity from wind",
+      "translation": "풍력 터빈",
+      "example": "Wind turbines are becoming more common.",
+      "exampleTranslation": "풍력 터빈이 점점 더 보편화되고 있어요."
+    },
+    {
+      "id": "w32",
+      "word": "compost",
+      "pronunciation": "/ˈkɒmpɒst/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "decayed organic material used as fertilizer",
+      "translation": "퇴비",
+      "example": "I compost my food scraps in the garden.",
+      "exampleTranslation": "저는 정원에서 음식물 찌꺼기를 퇴비로 만들어요."
+    },
+    {
+      "id": "w33",
+      "word": "contamination",
+      "pronunciation": "/kənˌtæmɪˈneɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "making something impure or harmful",
+      "translation": "오염",
+      "example": "Water contamination is a serious health risk.",
+      "exampleTranslation": "수질 오염은 심각한 건강 위험이에요."
+    },
+    {
+      "id": "w34",
+      "word": "glacier",
+      "pronunciation": "/ˈɡlæsiə/",
+      "partOfSpeech": "noun",
+      "meaning": "a large mass of ice that moves slowly",
+      "translation": "빙하",
+      "example": "Glaciers are melting due to climate change.",
+      "exampleTranslation": "기후 변화로 빙하가 녹고 있어요."
+    },
+    {
+      "id": "w35",
+      "word": "sea level",
+      "pronunciation": "/siː ˈlevl/",
+      "partOfSpeech": "noun",
+      "meaning": "the average height of the ocean's surface",
+      "translation": "해수면",
+      "example": "Rising sea levels threaten coastal cities.",
+      "exampleTranslation": "해수면 상승이 해안 도시를 위협하고 있어요."
+    },
+    {
+      "id": "w36",
+      "word": "atmosphere",
+      "pronunciation": "/ˈætməsfɪə/",
+      "partOfSpeech": "noun",
+      "meaning": "the layer of gases surrounding Earth",
+      "translation": "대기",
+      "example": "Pollution is damaging our atmosphere.",
+      "exampleTranslation": "오염이 우리의 대기를 손상시키고 있어요."
+    },
+    {
+      "id": "w37",
+      "word": "ozone layer",
+      "pronunciation": "/ˈəʊzəʊn ˈleɪə/",
+      "partOfSpeech": "noun",
+      "meaning": "layer of gas that protects Earth from harmful rays",
+      "translation": "오존층",
+      "example": "The ozone layer protects us from UV radiation.",
+      "exampleTranslation": "오존층은 우리를 자외선으로부터 보호해요."
+    },
+    {
+      "id": "w38",
+      "word": "pesticide",
+      "pronunciation": "/ˈpestɪsaɪd/",
+      "partOfSpeech": "noun",
+      "meaning": "chemical used to kill pests on crops",
+      "translation": "살충제",
+      "example": "Organic farms don't use pesticides.",
+      "exampleTranslation": "유기농 농장은 살충제를 사용하지 않아요."
+    },
+    {
+      "id": "w39",
+      "word": "fertilizer",
+      "pronunciation": "/ˈfɜːtəlaɪzə/",
+      "partOfSpeech": "noun",
+      "meaning": "substance added to soil to help plants grow",
+      "translation": "비료",
+      "example": "Too much fertilizer can pollute rivers.",
+      "exampleTranslation": "비료를 너무 많이 사용하면 강을 오염시킬 수 있어요."
+    },
+    {
+      "id": "w40",
+      "word": "erosion",
+      "pronunciation": "/ɪˈrəʊʒn/",
+      "partOfSpeech": "noun",
+      "meaning": "gradual wearing away of soil or rock",
+      "translation": "침식",
+      "example": "Heavy rainfall causes soil erosion.",
+      "exampleTranslation": "폭우는 토양 침식을 일으켜요."
+    },
+    {
+      "id": "w41",
+      "word": "biodegradable",
+      "pronunciation": "/ˌbaɪəʊdɪˈɡreɪdəbl/",
+      "partOfSpeech": "adjective",
+      "meaning": "able to decompose naturally",
+      "translation": "생분해성의",
+      "example": "These bags are biodegradable and eco-friendly.",
+      "exampleTranslation": "이 봉지는 생분해성이고 친환경적이에요."
+    },
+    {
+      "id": "w42",
+      "word": "toxic",
+      "pronunciation": "/ˈtɒksɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "poisonous and harmful",
+      "translation": "유독한",
+      "example": "Many cleaning products contain toxic chemicals.",
+      "exampleTranslation": "많은 청소 제품에는 유독한 화학물질이 들어 있어요."
+    },
+    {
+      "id": "w43",
+      "word": "protected area",
+      "pronunciation": "/prəˈtektɪd ˈeəriə/",
+      "partOfSpeech": "noun",
+      "meaning": "land where wildlife is legally protected",
+      "translation": "보호 구역",
+      "example": "National parks are protected areas.",
+      "exampleTranslation": "국립공원은 보호 구역이에요."
+    },
+    {
+      "id": "w44",
+      "word": "nature reserve",
+      "pronunciation": "/ˈneɪtʃə rɪˈzɜːv/",
+      "partOfSpeech": "noun",
+      "meaning": "area of land managed to protect wildlife",
+      "translation": "자연 보호 구역",
+      "example": "The nature reserve is home to rare birds.",
+      "exampleTranslation": "자연 보호 구역에는 희귀한 새들이 살고 있어요."
+    },
+    {
+      "id": "w45",
+      "word": "replant",
+      "pronunciation": "/riːˈplɑːnt/",
+      "partOfSpeech": "verb",
+      "meaning": "to plant trees or crops again",
+      "translation": "다시 심다",
+      "example": "We need to replant the forest after the fire.",
+      "exampleTranslation": "화재 후 숲을 다시 심어야 해요."
+    },
+    {
+      "id": "w46",
+      "word": "reforestation",
+      "pronunciation": "/riːˌfɒrɪˈsteɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "planting trees in an area that was forested",
+      "translation": "재조림",
+      "example": "Reforestation helps fight climate change.",
+      "exampleTranslation": "재조림은 기후 변화와 싸우는 데 도움이 돼요."
+    },
+    {
+      "id": "w47",
+      "word": "marine life",
+      "pronunciation": "/məˈriːn laɪf/",
+      "partOfSpeech": "noun",
+      "meaning": "plants and animals living in the ocean",
+      "translation": "해양 생물",
+      "example": "Plastic pollution threatens marine life.",
+      "exampleTranslation": "플라스틱 오염이 해양 생물을 위협하고 있어요."
+    },
+    {
+      "id": "w48",
+      "word": "coral reef",
+      "pronunciation": "/ˈkɒrəl riːf/",
+      "partOfSpeech": "noun",
+      "meaning": "underwater structure made of coral",
+      "translation": "산호초",
+      "example": "Coral reefs are dying due to ocean warming.",
+      "exampleTranslation": "해양 온난화로 산호초가 죽어가고 있어요."
+    },
+    {
+      "id": "w49",
+      "word": "melting",
+      "pronunciation": "/ˈmeltɪŋ/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "changing from solid to liquid due to heat",
+      "translation": "녹는 것",
+      "example": "The melting of ice caps is accelerating.",
+      "exampleTranslation": "빙하가 녹는 속도가 빨라지고 있어요."
+    },
+    {
+      "id": "w50",
+      "word": "ice cap",
+      "pronunciation": "/aɪs kæp/",
+      "partOfSpeech": "noun",
+      "meaning": "thick layer of ice covering polar regions",
+      "translation": "만년설, 빙관",
+      "example": "The polar ice caps are shrinking every year.",
+      "exampleTranslation": "극지방 빙하는 매년 줄어들고 있어요."
     }
   ],
 
@@ -328,6 +578,960 @@
       "question": "Products that don't harm the environment are called _____.",
       "options": ["disposable", "renewable", "eco-friendly", "organic"],
       "answer": "eco-friendly"
+    },
+    {
+      "id": "ex11",
+      "type": "translation_ko_en",
+      "question": "우리는 미래 세대를 위해 환경을 보호해야 해요.",
+      "answer": "We need to protect the environment for future generations."
+    },
+    {
+      "id": "ex12",
+      "type": "translation_en_ko",
+      "question": "Air pollution is a serious problem in many cities.",
+      "answer": "대기 오염은 많은 도시에서 심각한 문제예요."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "The _____ of plant and animal life in an area is called biodiversity.",
+      "options": ["variety", "pollution", "waste", "emission"],
+      "answer": "variety"
+    },
+    {
+      "id": "ex14",
+      "type": "fill_blank",
+      "question": "Most garbage ends up in _____.",
+      "answer": "landfills"
+    },
+    {
+      "id": "ex15",
+      "type": "matching",
+      "pairs": [
+        {"word": "biodiversity", "match": "variety of life"},
+        {"word": "landfill", "match": "waste burial site"},
+        {"word": "glacier", "match": "large ice mass"},
+        {"word": "compost", "match": "organic fertilizer"}
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "translation_ko_en",
+      "question": "기후 변화는 전 세계의 날씨 패턴에 영향을 미치고 있어요.",
+      "answer": "Climate change is affecting weather patterns worldwide."
+    },
+    {
+      "id": "ex17",
+      "type": "fill_blank",
+      "question": "Carbon dioxide is a major _____ gas.",
+      "answer": "greenhouse"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "Coal and oil are examples of _____.",
+      "options": ["renewable energy", "fossil fuels", "solar panels", "wind turbines"],
+      "answer": "fossil fuels"
+    },
+    {
+      "id": "ex19",
+      "type": "translation_en_ko",
+      "question": "We installed solar panels on our roof.",
+      "answer": "우리는 지붕에 태양광 패널을 설치했어요."
+    },
+    {
+      "id": "ex20",
+      "type": "fill_blank",
+      "question": "_____ turbines generate electricity from wind.",
+      "answer": "Wind"
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "Food scraps can be turned into _____.",
+      "options": ["pollution", "compost", "waste", "emission"],
+      "answer": "compost"
+    },
+    {
+      "id": "ex22",
+      "type": "matching",
+      "pairs": [
+        {"word": "fossil fuel", "match": "coal and oil"},
+        {"word": "solar panel", "match": "converts sunlight"},
+        {"word": "wind turbine", "match": "generates from wind"},
+        {"word": "pesticide", "match": "kills crop pests"}
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "translation_ko_en",
+      "question": "수질 오염은 심각한 건강 위험이에요.",
+      "answer": "Water contamination is a serious health risk."
+    },
+    {
+      "id": "ex24",
+      "type": "fill_blank",
+      "question": "_____ are melting due to climate change.",
+      "answer": "Glaciers"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "Rising _____ threatens coastal cities.",
+      "options": ["sea levels", "mountains", "forests", "deserts"],
+      "answer": "sea levels"
+    },
+    {
+      "id": "ex26",
+      "type": "translation_en_ko",
+      "question": "Pollution is damaging our atmosphere.",
+      "answer": "오염이 우리의 대기를 손상시키고 있어요."
+    },
+    {
+      "id": "ex27",
+      "type": "fill_blank",
+      "question": "The _____ layer protects us from UV radiation.",
+      "answer": "ozone"
+    },
+    {
+      "id": "ex28",
+      "type": "matching",
+      "pairs": [
+        {"word": "atmosphere", "match": "layer of gases"},
+        {"word": "ozone layer", "match": "protects from UV"},
+        {"word": "sea level", "match": "ocean surface height"},
+        {"word": "erosion", "match": "soil wearing away"}
+      ]
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "Organic farms don't use _____.",
+      "options": ["water", "soil", "pesticides", "sunlight"],
+      "answer": "pesticides"
+    },
+    {
+      "id": "ex30",
+      "type": "translation_ko_en",
+      "question": "비료를 너무 많이 사용하면 강을 오염시킬 수 있어요.",
+      "answer": "Too much fertilizer can pollute rivers."
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "question": "Heavy rainfall causes soil _____.",
+      "answer": "erosion"
+    },
+    {
+      "id": "ex32",
+      "type": "multiple_choice",
+      "question": "Materials that can decompose naturally are _____.",
+      "options": ["toxic", "biodegradable", "disposable", "renewable"],
+      "answer": "biodegradable"
+    },
+    {
+      "id": "ex33",
+      "type": "translation_en_ko",
+      "question": "Many cleaning products contain toxic chemicals.",
+      "answer": "많은 청소 제품에는 유독한 화학물질이 들어 있어요."
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "National parks are _____ areas.",
+      "answer": "protected"
+    },
+    {
+      "id": "ex35",
+      "type": "matching",
+      "pairs": [
+        {"word": "biodegradable", "match": "decomposes naturally"},
+        {"word": "toxic", "match": "poisonous"},
+        {"word": "protected area", "match": "wildlife sanctuary"},
+        {"word": "nature reserve", "match": "managed wildlife area"}
+      ]
+    },
+    {
+      "id": "ex36",
+      "type": "translation_ko_en",
+      "question": "자연 보호 구역에는 희귀한 새들이 살고 있어요.",
+      "answer": "The nature reserve is home to rare birds."
+    },
+    {
+      "id": "ex37",
+      "type": "multiple_choice",
+      "question": "After a fire, we need to _____ the forest.",
+      "options": ["pollute", "waste", "replant", "destroy"],
+      "answer": "replant"
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "_____ helps fight climate change.",
+      "answer": "Reforestation"
+    },
+    {
+      "id": "ex39",
+      "type": "translation_en_ko",
+      "question": "Plastic pollution threatens marine life.",
+      "answer": "플라스틱 오염이 해양 생물을 위협하고 있어요."
+    },
+    {
+      "id": "ex40",
+      "type": "multiple_choice",
+      "question": "_____ are dying due to ocean warming.",
+      "options": ["Mountains", "Forests", "Coral reefs", "Deserts"],
+      "answer": "Coral reefs"
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "The _____ of ice caps is accelerating.",
+      "answer": "melting"
+    },
+    {
+      "id": "ex42",
+      "type": "matching",
+      "pairs": [
+        {"word": "replant", "match": "plant again"},
+        {"word": "reforestation", "match": "planting trees"},
+        {"word": "marine life", "match": "ocean creatures"},
+        {"word": "coral reef", "match": "underwater structure"}
+      ]
+    },
+    {
+      "id": "ex43",
+      "type": "translation_ko_en",
+      "question": "극지방 빙하는 매년 줄어들고 있어요.",
+      "answer": "The polar ice caps are shrinking every year."
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "We should recycle plastic, paper, and _____.",
+      "answer": "glass"
+    },
+    {
+      "id": "ex45",
+      "type": "multiple_choice",
+      "question": "The natural home of an animal is called its _____.",
+      "options": ["pollution", "habitat", "waste", "emission"],
+      "answer": "habitat"
+    },
+    {
+      "id": "ex46",
+      "type": "translation_en_ko",
+      "question": "Solar power is a renewable energy source.",
+      "answer": "태양광은 재생 가능한 에너지원이에요."
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "The forest is home to diverse _____.",
+      "answer": "wildlife"
+    },
+    {
+      "id": "ex48",
+      "type": "multiple_choice",
+      "question": "Conservation efforts have helped save many _____.",
+      "options": ["pollution", "waste", "species", "emissions"],
+      "answer": "species"
+    },
+    {
+      "id": "ex49",
+      "type": "translation_ko_en",
+      "question": "우리는 플라스틱 쓰레기를 너무 많이 만들어요.",
+      "answer": "We produce too much plastic waste."
+    },
+    {
+      "id": "ex50",
+      "type": "matching",
+      "pairs": [
+        {"word": "sustainable", "match": "environmentally sound"},
+        {"word": "conservation", "match": "protecting nature"},
+        {"word": "wildlife", "match": "wild animals"},
+        {"word": "resource", "match": "useful supply"}
+      ]
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "Flying has a large carbon _____.",
+      "answer": "footprint"
+    },
+    {
+      "id": "ex52",
+      "type": "multiple_choice",
+      "question": "The gradual increase in Earth's temperature is called _____.",
+      "options": ["climate change", "global warming", "pollution", "deforestation"],
+      "answer": "global warming"
+    },
+    {
+      "id": "ex53",
+      "type": "translation_en_ko",
+      "question": "Car emissions contribute to air pollution.",
+      "answer": "자동차 배출가스가 대기 오염에 기여해요."
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "The drought has destroyed many _____.",
+      "answer": "crops"
+    },
+    {
+      "id": "ex55",
+      "type": "multiple_choice",
+      "question": "When water covers dry land, it's called a _____.",
+      "options": ["drought", "flood", "emission", "waste"],
+      "answer": "flood"
+    },
+    {
+      "id": "ex56",
+      "type": "translation_ko_en",
+      "question": "판다는 멸종 위기종이에요.",
+      "answer": "Pandas are an endangered species."
+    },
+    {
+      "id": "ex57",
+      "type": "matching",
+      "pairs": [
+        {"word": "organic", "match": "no chemicals"},
+        {"word": "disposable", "match": "single use"},
+        {"word": "extinct", "match": "no longer exists"},
+        {"word": "endangered", "match": "at risk"}
+      ]
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "I prefer to buy _____ vegetables.",
+      "answer": "organic"
+    },
+    {
+      "id": "ex59",
+      "type": "multiple_choice",
+      "question": "The rainforest has incredible _____.",
+      "options": ["pollution", "biodiversity", "waste", "emission"],
+      "answer": "biodiversity"
+    },
+    {
+      "id": "ex60",
+      "type": "translation_en_ko",
+      "question": "This product is eco-friendly and biodegradable.",
+      "answer": "이 제품은 친환경적이고 생분해성이에요."
+    },
+    {
+      "id": "ex61",
+      "type": "fill_blank",
+      "question": "I _____ my food scraps in the garden.",
+      "answer": "compost"
+    },
+    {
+      "id": "ex62",
+      "type": "multiple_choice",
+      "question": "A large mass of ice that moves slowly is a _____.",
+      "options": ["flood", "drought", "glacier", "wave"],
+      "answer": "glacier"
+    },
+    {
+      "id": "ex63",
+      "type": "translation_ko_en",
+      "question": "열대우림은 복잡한 생태계예요.",
+      "answer": "Rainforests are complex ecosystems."
+    },
+    {
+      "id": "ex64",
+      "type": "fill_blank",
+      "question": "Wind turbines are becoming more _____.",
+      "answer": "common"
+    },
+    {
+      "id": "ex65",
+      "type": "matching",
+      "pairs": [
+        {"word": "contamination", "match": "making impure"},
+        {"word": "fertilizer", "match": "plant food"},
+        {"word": "melting", "match": "turning to liquid"},
+        {"word": "ice cap", "match": "polar ice layer"}
+      ]
+    },
+    {
+      "id": "ex66",
+      "type": "translation_en_ko",
+      "question": "Deforestation destroys animal habitats.",
+      "answer": "산림 벌채는 동물의 서식지를 파괴해요."
+    },
+    {
+      "id": "ex67",
+      "type": "multiple_choice",
+      "question": "Water is our most precious natural _____.",
+      "options": ["pollution", "waste", "resource", "emission"],
+      "answer": "resource"
+    },
+    {
+      "id": "ex68",
+      "type": "fill_blank",
+      "question": "These bags are _____ and eco-friendly.",
+      "answer": "biodegradable"
+    },
+    {
+      "id": "ex69",
+      "type": "translation_ko_en",
+      "question": "산호초는 중요한 해양 서식지예요.",
+      "answer": "Coral reefs are important marine habitats."
+    },
+    {
+      "id": "ex70",
+      "type": "multiple_choice",
+      "question": "Cutting down large areas of forest is called _____.",
+      "options": ["reforestation", "deforestation", "conservation", "preservation"],
+      "answer": "deforestation"
+    },
+    {
+      "id": "ex71",
+      "type": "fill_blank",
+      "question": "We need more _____ farming methods.",
+      "answer": "sustainable"
+    },
+    {
+      "id": "ex72",
+      "type": "translation_en_ko",
+      "question": "Global warming is melting the polar ice caps.",
+      "answer": "지구 온난화로 극지방의 빙하가 녹고 있어요."
+    },
+    {
+      "id": "ex73",
+      "type": "matching",
+      "pairs": [
+        {"word": "environment", "match": "natural world"},
+        {"word": "pollution", "match": "harmful substances"},
+        {"word": "climate change", "match": "weather pattern shifts"},
+        {"word": "recycle", "match": "reuse materials"}
+      ]
+    },
+    {
+      "id": "ex74",
+      "type": "fill_blank",
+      "question": "Thousands of _____ live in the Amazon.",
+      "answer": "species"
+    },
+    {
+      "id": "ex75",
+      "type": "multiple_choice",
+      "question": "The layer of gases surrounding Earth is the _____.",
+      "options": ["ozone layer", "atmosphere", "greenhouse", "emission"],
+      "answer": "atmosphere"
+    },
+    {
+      "id": "ex76",
+      "type": "translation_ko_en",
+      "question": "가뭄으로 많은 농작물이 파괴되었어요.",
+      "answer": "The drought has destroyed many crops."
+    },
+    {
+      "id": "ex77",
+      "type": "fill_blank",
+      "question": "Heavy rain caused _____ in the city.",
+      "answer": "flooding"
+    },
+    {
+      "id": "ex78",
+      "type": "multiple_choice",
+      "question": "To keep safe from harm is to _____.",
+      "options": ["waste", "pollute", "preserve", "destroy"],
+      "answer": "preserve"
+    },
+    {
+      "id": "ex79",
+      "type": "translation_en_ko",
+      "question": "We should use fewer disposable products.",
+      "answer": "우리는 일회용 제품을 덜 사용해야 해요."
+    },
+    {
+      "id": "ex80",
+      "type": "matching",
+      "pairs": [
+        {"word": "greenhouse gas", "match": "traps heat"},
+        {"word": "carbon footprint", "match": "CO2 produced"},
+        {"word": "global warming", "match": "Earth heating up"},
+        {"word": "emission", "match": "gas released"}
+      ]
+    },
+    {
+      "id": "ex81",
+      "type": "fill_blank",
+      "question": "Conservation efforts have helped save many _____.",
+      "answer": "species"
+    },
+    {
+      "id": "ex82",
+      "type": "multiple_choice",
+      "question": "A long period without rain is called a _____.",
+      "options": ["flood", "drought", "storm", "hurricane"],
+      "answer": "drought"
+    },
+    {
+      "id": "ex83",
+      "type": "translation_ko_en",
+      "question": "공룡은 수백만 년 전에 멸종했어요.",
+      "answer": "Dinosaurs became extinct millions of years ago."
+    },
+    {
+      "id": "ex84",
+      "type": "fill_blank",
+      "question": "Rising _____ levels threaten coastal cities.",
+      "answer": "sea"
+    },
+    {
+      "id": "ex85",
+      "type": "multiple_choice",
+      "question": "Planting trees in a cleared area is called _____.",
+      "options": ["deforestation", "reforestation", "pollution", "erosion"],
+      "answer": "reforestation"
+    },
+    {
+      "id": "ex86",
+      "type": "translation_en_ko",
+      "question": "Reforestation helps fight climate change.",
+      "answer": "재조림은 기후 변화와 싸우는 데 도움이 돼요."
+    },
+    {
+      "id": "ex87",
+      "type": "matching",
+      "pairs": [
+        {"word": "habitat", "match": "natural home"},
+        {"word": "ecosystem", "match": "living community"},
+        {"word": "species", "match": "group of organisms"},
+        {"word": "biodiversity", "match": "variety of life"}
+      ]
+    },
+    {
+      "id": "ex88",
+      "type": "fill_blank",
+      "question": "Coral reefs are dying due to ocean _____.",
+      "answer": "warming"
+    },
+    {
+      "id": "ex89",
+      "type": "multiple_choice",
+      "question": "Plants and animals living in the ocean are called _____.",
+      "options": ["wildlife", "marine life", "biodiversity", "species"],
+      "answer": "marine life"
+    },
+    {
+      "id": "ex90",
+      "type": "translation_ko_en",
+      "question": "저는 유기농 채소를 사는 것을 선호해요.",
+      "answer": "I prefer to buy organic vegetables."
+    },
+    {
+      "id": "ex91",
+      "type": "fill_blank",
+      "question": "The polar ice _____ are shrinking every year.",
+      "answer": "caps"
+    },
+    {
+      "id": "ex92",
+      "type": "multiple_choice",
+      "question": "Chemicals that kill pests on crops are called _____.",
+      "options": ["fertilizers", "pesticides", "compost", "resources"],
+      "answer": "pesticides"
+    },
+    {
+      "id": "ex93",
+      "type": "translation_en_ko",
+      "question": "The ozone layer protects us from UV radiation.",
+      "answer": "오존층은 우리를 자외선으로부터 보호해요."
+    },
+    {
+      "id": "ex94",
+      "type": "matching",
+      "pairs": [
+        {"word": "landfill", "match": "garbage site"},
+        {"word": "waste", "match": "unwanted material"},
+        {"word": "toxic", "match": "poisonous"},
+        {"word": "contamination", "match": "pollution"}
+      ]
+    },
+    {
+      "id": "ex95",
+      "type": "fill_blank",
+      "question": "Most of our garbage goes to _____.",
+      "answer": "landfills"
+    },
+    {
+      "id": "ex96",
+      "type": "multiple_choice",
+      "question": "Gradual wearing away of soil is called _____.",
+      "options": ["erosion", "pollution", "emission", "waste"],
+      "answer": "erosion"
+    },
+    {
+      "id": "ex97",
+      "type": "translation_ko_en",
+      "question": "이산화탄소는 주요 온실가스예요.",
+      "answer": "Carbon dioxide is a major greenhouse gas."
+    },
+    {
+      "id": "ex98",
+      "type": "fill_blank",
+      "question": "We must _____ our natural resources.",
+      "answer": "preserve"
+    },
+    {
+      "id": "ex99",
+      "type": "multiple_choice",
+      "question": "An area where wildlife is legally protected is a _____.",
+      "options": ["landfill", "protected area", "fossil fuel", "emission"],
+      "answer": "protected area"
+    },
+    {
+      "id": "ex100",
+      "type": "translation_en_ko",
+      "question": "We need to protect the environment for future generations.",
+      "answer": "우리는 미래 세대를 위해 환경을 보호해야 해요."
+    },
+    {
+      "id": "ex101",
+      "type": "matching",
+      "pairs": [
+        {"word": "solar panel", "match": "sunlight to power"},
+        {"word": "wind turbine", "match": "wind to power"},
+        {"word": "fossil fuel", "match": "ancient energy"},
+        {"word": "renewable", "match": "naturally replaced"}
+      ]
+    },
+    {
+      "id": "ex102",
+      "type": "fill_blank",
+      "question": "The melting of ice caps is _____.",
+      "answer": "accelerating"
+    },
+    {
+      "id": "ex103",
+      "type": "multiple_choice",
+      "question": "A device that converts sunlight into electricity is a _____.",
+      "options": ["wind turbine", "solar panel", "fossil fuel", "landfill"],
+      "answer": "solar panel"
+    },
+    {
+      "id": "ex104",
+      "type": "translation_ko_en",
+      "question": "석탄과 석유는 화석 연료예요.",
+      "answer": "Coal and oil are fossil fuels."
+    },
+    {
+      "id": "ex105",
+      "type": "fill_blank",
+      "question": "National parks are _____ areas.",
+      "answer": "protected"
+    },
+    {
+      "id": "ex106",
+      "type": "multiple_choice",
+      "question": "Decayed organic material used as fertilizer is called _____.",
+      "options": ["waste", "pollution", "compost", "pesticide"],
+      "answer": "compost"
+    },
+    {
+      "id": "ex107",
+      "type": "translation_en_ko",
+      "question": "Climate change is affecting weather patterns worldwide.",
+      "answer": "기후 변화는 전 세계의 날씨 패턴에 영향을 미치고 있어요."
+    },
+    {
+      "id": "ex108",
+      "type": "matching",
+      "pairs": [
+        {"word": "drought", "match": "no rain"},
+        {"word": "flood", "match": "too much water"},
+        {"word": "erosion", "match": "soil loss"},
+        {"word": "glacier", "match": "moving ice"}
+      ]
+    },
+    {
+      "id": "ex109",
+      "type": "fill_blank",
+      "question": "Glaciers are _____ due to climate change.",
+      "answer": "melting"
+    },
+    {
+      "id": "ex110",
+      "type": "multiple_choice",
+      "question": "Materials able to decompose naturally are _____.",
+      "options": ["toxic", "renewable", "biodegradable", "endangered"],
+      "answer": "biodegradable"
+    },
+    {
+      "id": "ex111",
+      "type": "translation_ko_en",
+      "question": "폭우로 도시에 홍수가 났어요.",
+      "answer": "Heavy rain caused flooding in the city."
+    },
+    {
+      "id": "ex112",
+      "type": "fill_blank",
+      "question": "We need to _____ the forest after the fire.",
+      "answer": "replant"
+    },
+    {
+      "id": "ex113",
+      "type": "multiple_choice",
+      "question": "The average height of the ocean's surface is called _____.",
+      "options": ["atmosphere", "sea level", "glacier", "habitat"],
+      "answer": "sea level"
+    },
+    {
+      "id": "ex114",
+      "type": "translation_en_ko",
+      "question": "Thousands of species live in the Amazon.",
+      "answer": "수천 종의 생물이 아마존에 살아요."
+    },
+    {
+      "id": "ex115",
+      "type": "matching",
+      "pairs": [
+        {"word": "eco-friendly", "match": "not harmful"},
+        {"word": "sustainable", "match": "can continue"},
+        {"word": "organic", "match": "no chemicals"},
+        {"word": "biodegradable", "match": "breaks down"}
+      ]
+    },
+    {
+      "id": "ex116",
+      "type": "fill_blank",
+      "question": "Plastic pollution threatens _____ life.",
+      "answer": "marine"
+    },
+    {
+      "id": "ex117",
+      "type": "multiple_choice",
+      "question": "An underwater structure made of coral is a _____.",
+      "options": ["glacier", "coral reef", "landfill", "habitat"],
+      "answer": "coral reef"
+    },
+    {
+      "id": "ex118",
+      "type": "translation_ko_en",
+      "question": "수질 오염은 심각한 건강 위험이에요.",
+      "answer": "Water contamination is a serious health risk."
+    },
+    {
+      "id": "ex119",
+      "type": "fill_blank",
+      "question": "Too much fertilizer can _____ rivers.",
+      "answer": "pollute"
+    },
+    {
+      "id": "ex120",
+      "type": "multiple_choice",
+      "question": "A thick layer of ice covering polar regions is an _____.",
+      "options": ["ecosystem", "ice cap", "atmosphere", "emission"],
+      "answer": "ice cap"
+    },
+    {
+      "id": "ex121",
+      "type": "translation_en_ko",
+      "question": "Heavy rainfall causes soil erosion.",
+      "answer": "폭우는 토양 침식을 일으켜요."
+    },
+    {
+      "id": "ex122",
+      "type": "matching",
+      "pairs": [
+        {"word": "deforestation", "match": "cutting forests"},
+        {"word": "reforestation", "match": "planting forests"},
+        {"word": "conservation", "match": "protecting nature"},
+        {"word": "preservation", "match": "keeping safe"}
+      ]
+    },
+    {
+      "id": "ex123",
+      "type": "fill_blank",
+      "question": "Many cleaning products contain _____ chemicals.",
+      "answer": "toxic"
+    },
+    {
+      "id": "ex124",
+      "type": "multiple_choice",
+      "question": "A community of living things and their environment is an _____.",
+      "options": ["emission", "ecosystem", "atmosphere", "erosion"],
+      "answer": "ecosystem"
+    },
+    {
+      "id": "ex125",
+      "type": "translation_ko_en",
+      "question": "그 숲에는 다양한 야생 동식물이 살고 있어요.",
+      "answer": "The forest is home to diverse wildlife."
+    },
+    {
+      "id": "ex126",
+      "type": "fill_blank",
+      "question": "The nature reserve is home to rare _____.",
+      "answer": "birds"
+    },
+    {
+      "id": "ex127",
+      "type": "multiple_choice",
+      "question": "Substance added to soil to help plants grow is _____.",
+      "options": ["pesticide", "fertilizer", "waste", "pollution"],
+      "answer": "fertilizer"
+    },
+    {
+      "id": "ex128",
+      "type": "translation_en_ko",
+      "question": "We should recycle plastic, paper, and glass.",
+      "answer": "우리는 플라스틱, 종이, 유리를 재활용해야 해요."
+    },
+    {
+      "id": "ex129",
+      "type": "matching",
+      "pairs": [
+        {"word": "extinct", "match": "no longer exists"},
+        {"word": "endangered", "match": "at risk"},
+        {"word": "protected", "match": "legally safe"},
+        {"word": "preserved", "match": "kept safe"}
+      ]
+    },
+    {
+      "id": "ex130",
+      "type": "fill_blank",
+      "question": "The rainforest has incredible _____.",
+      "answer": "biodiversity"
+    },
+    {
+      "id": "ex131",
+      "type": "multiple_choice",
+      "question": "Gas that traps heat in the atmosphere is a _____.",
+      "options": ["fossil fuel", "greenhouse gas", "solar panel", "wind turbine"],
+      "answer": "greenhouse gas"
+    },
+    {
+      "id": "ex132",
+      "type": "translation_ko_en",
+      "question": "우리는 더 지속 가능한 농업 방법이 필요해요.",
+      "answer": "We need more sustainable farming methods."
+    },
+    {
+      "id": "ex133",
+      "type": "fill_blank",
+      "question": "Organic farms don't use _____.",
+      "answer": "pesticides"
+    },
+    {
+      "id": "ex134",
+      "type": "multiple_choice",
+      "question": "Making something impure or harmful is _____.",
+      "options": ["preservation", "contamination", "conservation", "reforestation"],
+      "answer": "contamination"
+    },
+    {
+      "id": "ex135",
+      "type": "translation_en_ko",
+      "question": "Flying has a large carbon footprint.",
+      "answer": "비행기를 타면 탄소 발자국이 커요."
+    },
+    {
+      "id": "ex136",
+      "type": "matching",
+      "pairs": [
+        {"word": "replant", "match": "plant again"},
+        {"word": "recycle", "match": "use again"},
+        {"word": "preserve", "match": "keep safe"},
+        {"word": "protect", "match": "guard from harm"}
+      ]
+    },
+    {
+      "id": "ex137",
+      "type": "fill_blank",
+      "question": "These bags are biodegradable and _____.",
+      "answer": "eco-friendly"
+    },
+    {
+      "id": "ex138",
+      "type": "multiple_choice",
+      "question": "An area of land managed to protect wildlife is a _____.",
+      "options": ["landfill", "nature reserve", "fossil fuel", "emission"],
+      "answer": "nature reserve"
+    },
+    {
+      "id": "ex139",
+      "type": "translation_ko_en",
+      "question": "보존 노력이 많은 종을 구하는 데 도움이 되었어요.",
+      "answer": "Conservation efforts have helped save many species."
+    },
+    {
+      "id": "ex140",
+      "type": "fill_blank",
+      "question": "Water is our most precious natural _____.",
+      "answer": "resource"
+    },
+    {
+      "id": "ex141",
+      "type": "multiple_choice",
+      "question": "The amount of carbon dioxide we produce is our _____.",
+      "options": ["habitat", "carbon footprint", "ecosystem", "biodiversity"],
+      "answer": "carbon footprint"
+    },
+    {
+      "id": "ex142",
+      "type": "translation_en_ko",
+      "question": "I compost my food scraps in the garden.",
+      "answer": "저는 정원에서 음식물 찌꺼기를 퇴비로 만들어요."
+    },
+    {
+      "id": "ex143",
+      "type": "matching",
+      "pairs": [
+        {"word": "atmosphere", "match": "air layer"},
+        {"word": "sea level", "match": "ocean height"},
+        {"word": "ice cap", "match": "polar ice"},
+        {"word": "coral reef", "match": "ocean structure"}
+      ]
+    },
+    {
+      "id": "ex144",
+      "type": "fill_blank",
+      "question": "Pollution is damaging our _____.",
+      "answer": "atmosphere"
+    },
+    {
+      "id": "ex145",
+      "type": "multiple_choice",
+      "question": "Products grown without artificial chemicals are _____.",
+      "options": ["toxic", "organic", "disposable", "extinct"],
+      "answer": "organic"
+    },
+    {
+      "id": "ex146",
+      "type": "translation_ko_en",
+      "question": "산림 벌채는 동물의 서식지를 파괴해요.",
+      "answer": "Deforestation destroys animal habitats."
+    },
+    {
+      "id": "ex147",
+      "type": "fill_blank",
+      "question": "Rising sea levels _____ coastal cities.",
+      "answer": "threaten"
+    },
+    {
+      "id": "ex148",
+      "type": "multiple_choice",
+      "question": "Energy sources that can be replaced naturally are _____.",
+      "options": ["fossil fuels", "renewable", "toxic", "extinct"],
+      "answer": "renewable"
+    },
+    {
+      "id": "ex149",
+      "type": "translation_en_ko",
+      "question": "Wind turbines are becoming more common.",
+      "answer": "풍력 터빈이 점점 더 보편화되고 있어요."
+    },
+    {
+      "id": "ex150",
+      "type": "fill_blank",
+      "question": "We produce too much plastic _____.",
+      "answer": "waste"
     }
   ]
 }

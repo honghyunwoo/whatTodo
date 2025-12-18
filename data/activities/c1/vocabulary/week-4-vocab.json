@@ -1,0 +1,1604 @@
+{
+  "id": "c1-vocab-week-4",
+  "type": "vocabulary",
+  "level": "C1",
+  "weekId": "week-4",
+  "title": "Business and Economics Lexicon",
+  "description": "Specialized vocabulary for business, finance, and economic discourse",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "words": [
+    {
+      "id": "w1",
+      "word": "amortization",
+      "pronunciation": "/əˌmɔːrtɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The gradual reduction of debt through periodic payments; spreading costs over time",
+      "translation": "상각, 분할상환",
+      "example": "The amortization schedule shows the loan will be fully paid off in 30 years."
+    },
+    {
+      "id": "w2",
+      "word": "leverage",
+      "pronunciation": "/ˈlevərɪdʒ/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "The use of borrowed capital to increase potential return; strategic advantage",
+      "translation": "레버리지, 지렛대 효과",
+      "example": "The company used financial leverage to fund its expansion into Asian markets."
+    },
+    {
+      "id": "w3",
+      "word": "liquidity",
+      "pronunciation": "/lɪˈkwɪdəti/",
+      "partOfSpeech": "noun",
+      "meaning": "The availability of liquid assets; how quickly assets can be converted to cash",
+      "translation": "유동성",
+      "example": "During the crisis, many banks faced severe liquidity shortages."
+    },
+    {
+      "id": "w4",
+      "word": "diversification",
+      "pronunciation": "/daɪˌvɜːrsɪfɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The practice of spreading investments to reduce risk",
+      "translation": "다각화, 분산투자",
+      "example": "Portfolio diversification helps protect against market volatility."
+    },
+    {
+      "id": "w5",
+      "word": "depreciation",
+      "pronunciation": "/dɪˌpriːʃiˈeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The decrease in value of an asset over time; currency value decline",
+      "translation": "감가상각, 가치하락",
+      "example": "The depreciation of the currency made exports more competitive."
+    },
+    {
+      "id": "w6",
+      "word": "stakeholder",
+      "pronunciation": "/ˈsteɪkˌhoʊldər/",
+      "partOfSpeech": "noun",
+      "meaning": "A person or group with interest or concern in an organization",
+      "translation": "이해관계자",
+      "example": "The CEO met with key stakeholders to discuss the merger proposal."
+    },
+    {
+      "id": "w7",
+      "word": "acquisition",
+      "pronunciation": "/ˌækwɪˈzɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The act of gaining possession, especially of a company or asset",
+      "translation": "인수, 획득",
+      "example": "The acquisition of the startup gave them access to cutting-edge technology."
+    },
+    {
+      "id": "w8",
+      "word": "benchmark",
+      "pronunciation": "/ˈbentʃmɑːrk/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "A standard or point of reference against which things may be compared",
+      "translation": "기준점, 벤치마크",
+      "example": "The S&P 500 serves as a benchmark for measuring portfolio performance."
+    },
+    {
+      "id": "w9",
+      "word": "arbitrage",
+      "pronunciation": "/ˈɑːrbɪtrɑːʒ/",
+      "partOfSpeech": "noun",
+      "meaning": "The simultaneous purchase and sale of an asset to profit from price differences",
+      "translation": "차익거래",
+      "example": "Currency arbitrage opportunities exist when exchange rates differ across markets."
+    },
+    {
+      "id": "w10",
+      "word": "commoditization",
+      "pronunciation": "/kəˌmɒdɪtaɪˈzeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The process by which goods become indistinguishable from competing products",
+      "translation": "상품화, 범용화",
+      "example": "The commoditization of smartphones has led to fierce price competition."
+    },
+    {
+      "id": "w11",
+      "word": "conglomerate",
+      "pronunciation": "/kənˈɡlɒmərət/",
+      "partOfSpeech": "noun",
+      "meaning": "A large corporation formed by merging different firms in unrelated industries",
+      "translation": "복합기업, 대기업집단",
+      "example": "The conglomerate operates in sectors ranging from electronics to insurance."
+    },
+    {
+      "id": "w12",
+      "word": "divestment",
+      "pronunciation": "/daɪˈvestmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "The action of selling off subsidiary business interests or investments",
+      "translation": "매각, 투자철회",
+      "example": "The company announced the divestment of its unprofitable retail division."
+    },
+    {
+      "id": "w13",
+      "word": "equity",
+      "pronunciation": "/ˈekwɪti/",
+      "partOfSpeech": "noun",
+      "meaning": "The value of shares issued by a company; ownership interest in a company",
+      "translation": "자본, 주식",
+      "example": "Private equity firms invested heavily in the technology sector last year."
+    },
+    {
+      "id": "w14",
+      "word": "fiduciary",
+      "pronunciation": "/fɪˈduːʃieri/",
+      "partOfSpeech": "adjective/noun",
+      "meaning": "Involving trust, especially with regard to financial matters; a trustee",
+      "translation": "신탁의, 수탁자",
+      "example": "Financial advisors have a fiduciary duty to act in their clients' best interests."
+    },
+    {
+      "id": "w15",
+      "word": "hedging",
+      "pronunciation": "/ˈhedʒɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "Making an investment to reduce the risk of adverse price movements",
+      "translation": "헤지, 위험회피",
+      "example": "The airline used fuel hedging strategies to protect against rising oil prices."
+    },
+    {
+      "id": "w16",
+      "word": "infrastructure",
+      "pronunciation": "/ˈɪnfrəstrʌktʃər/",
+      "partOfSpeech": "noun",
+      "meaning": "The basic physical and organizational structures needed for operation",
+      "translation": "인프라, 기반시설",
+      "example": "Government investment in infrastructure is crucial for economic growth."
+    },
+    {
+      "id": "w17",
+      "word": "insolvency",
+      "pronunciation": "/ɪnˈsɒlvənsi/",
+      "partOfSpeech": "noun",
+      "meaning": "The state of being unable to pay debts owed",
+      "translation": "지불불능, 파산",
+      "example": "The company faced insolvency after years of declining revenues."
+    },
+    {
+      "id": "w18",
+      "word": "monopoly",
+      "pronunciation": "/məˈnɒpəli/",
+      "partOfSpeech": "noun",
+      "meaning": "Exclusive control of the supply of a commodity or service in a market",
+      "translation": "독점",
+      "example": "The government broke up the telecommunications monopoly to encourage competition."
+    },
+    {
+      "id": "w19",
+      "word": "oligopoly",
+      "pronunciation": "/ˌɒlɪˈɡɒpəli/",
+      "partOfSpeech": "noun",
+      "meaning": "A market dominated by a small number of large suppliers",
+      "translation": "과점",
+      "example": "The automotive industry is characterized by oligopoly with a few major players."
+    },
+    {
+      "id": "w20",
+      "word": "portfolio",
+      "pronunciation": "/pɔːrtˈfoʊlioʊ/",
+      "partOfSpeech": "noun",
+      "meaning": "A range of investments held by a person or organization",
+      "translation": "포트폴리오, 투자조합",
+      "example": "A balanced portfolio should include both stocks and bonds."
+    },
+    {
+      "id": "w21",
+      "word": "proprietary",
+      "pronunciation": "/prəˈpraɪəteri/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to an owner or ownership; protected by patent or trademark",
+      "translation": "독점적인, 소유권의",
+      "example": "The company's proprietary technology gives it a competitive advantage."
+    },
+    {
+      "id": "w22",
+      "word": "receivables",
+      "pronunciation": "/rɪˈsiːvəbəlz/",
+      "partOfSpeech": "noun",
+      "meaning": "Money owed to a company by its debtors",
+      "translation": "매출채권",
+      "example": "The company's accounts receivables increased by 15% this quarter."
+    },
+    {
+      "id": "w23",
+      "word": "remuneration",
+      "pronunciation": "/rɪˌmjuːnəˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "Money paid for work or services; compensation",
+      "translation": "보수, 급여",
+      "example": "Executive remuneration packages often include bonuses and stock options."
+    },
+    {
+      "id": "w24",
+      "word": "sovereign",
+      "pronunciation": "/ˈsɒvrɪn/",
+      "partOfSpeech": "adjective/noun",
+      "meaning": "Possessing supreme or ultimate power; relating to a nation's government",
+      "translation": "주권의, 국가의",
+      "example": "Sovereign debt refers to bonds issued by national governments."
+    },
+    {
+      "id": "w25",
+      "word": "subsidy",
+      "pronunciation": "/ˈsʌbsɪdi/",
+      "partOfSpeech": "noun",
+      "meaning": "A sum of money granted by the government to assist an industry or business",
+      "translation": "보조금, 지원금",
+      "example": "Agricultural subsidies help farmers maintain production during difficult times."
+    },
+    {
+      "id": "w26",
+      "word": "tariff",
+      "pronunciation": "/ˈtærɪf/",
+      "partOfSpeech": "noun",
+      "meaning": "A tax or duty imposed on imported or exported goods",
+      "translation": "관세",
+      "example": "The new tariffs on steel imports affected manufacturers significantly."
+    },
+    {
+      "id": "w27",
+      "word": "turnover",
+      "pronunciation": "/ˈtɜːrnˌoʊvər/",
+      "partOfSpeech": "noun",
+      "meaning": "The amount of money taken by a business in a period; rate of employee replacement",
+      "translation": "매출액, 이직률",
+      "example": "The company reported an annual turnover of $50 million."
+    },
+    {
+      "id": "w28",
+      "word": "valuation",
+      "pronunciation": "/ˌvæljuˈeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "An estimation of something's worth, especially of a company or property",
+      "translation": "가치평가, 평가액",
+      "example": "The startup received a valuation of $1 billion after its latest funding round."
+    },
+    {
+      "id": "w29",
+      "word": "venture",
+      "pronunciation": "/ˈventʃər/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "A risky or daring business enterprise or undertaking",
+      "translation": "벤처, 모험사업",
+      "example": "The venture capital firm invested in several promising tech startups."
+    },
+    {
+      "id": "w30",
+      "word": "volatility",
+      "pronunciation": "/ˌvɒləˈtɪləti/",
+      "partOfSpeech": "noun",
+      "meaning": "Liability to change rapidly and unpredictably, especially for the worse",
+      "translation": "변동성",
+      "example": "Market volatility increased dramatically during the financial crisis."
+    },
+    {
+      "id": "w31",
+      "word": "collateral",
+      "pronunciation": "/kəˈlætərəl/",
+      "partOfSpeech": "noun",
+      "meaning": "Property pledged as security for repayment of a loan",
+      "translation": "담보물",
+      "example": "The bank required collateral before approving the business loan."
+    },
+    {
+      "id": "w32",
+      "word": "consortium",
+      "pronunciation": "/kənˈsɔːrtiəm/",
+      "partOfSpeech": "noun",
+      "meaning": "An association of several companies for a common purpose",
+      "translation": "컨소시엄, 기업연합",
+      "example": "A consortium of banks financed the infrastructure project."
+    },
+    {
+      "id": "w33",
+      "word": "default",
+      "pronunciation": "/dɪˈfɔːlt/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "Failure to fulfill an obligation, especially to repay a loan",
+      "translation": "채무불이행, 디폴트",
+      "example": "The country was at risk of default on its international debt obligations."
+    },
+    {
+      "id": "w34",
+      "word": "derivative",
+      "pronunciation": "/dɪˈrɪvətɪv/",
+      "partOfSpeech": "noun",
+      "meaning": "A financial contract whose value depends on underlying assets",
+      "translation": "파생상품",
+      "example": "Options and futures are common types of financial derivatives."
+    },
+    {
+      "id": "w35",
+      "word": "fiscal",
+      "pronunciation": "/ˈfɪskəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to government revenue, especially taxes",
+      "translation": "재정의, 회계의",
+      "example": "The government announced new fiscal policies to stimulate economic growth."
+    },
+    {
+      "id": "w36",
+      "word": "inflation",
+      "pronunciation": "/ɪnˈfleɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "A general increase in prices and fall in the purchasing value of money",
+      "translation": "인플레이션, 물가상승",
+      "example": "Central banks raise interest rates to combat inflation."
+    },
+    {
+      "id": "w37",
+      "word": "IPO",
+      "pronunciation": "/ˌaɪ piː ˈoʊ/",
+      "partOfSpeech": "noun",
+      "meaning": "Initial Public Offering; the first sale of stock by a private company",
+      "translation": "기업공개, 상장",
+      "example": "The tech company's IPO raised $2 billion from investors."
+    },
+    {
+      "id": "w38",
+      "word": "liability",
+      "pronunciation": "/ˌlaɪəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "meaning": "A financial obligation or debt; legal responsibility",
+      "translation": "부채, 책임",
+      "example": "The company's liabilities exceeded its assets by a significant margin."
+    },
+    {
+      "id": "w39",
+      "word": "merger",
+      "pronunciation": "/ˈmɜːrdʒər/",
+      "partOfSpeech": "noun",
+      "meaning": "The combination of two or more companies into one",
+      "translation": "합병",
+      "example": "The merger created the world's largest telecommunications company."
+    },
+    {
+      "id": "w40",
+      "word": "procurement",
+      "pronunciation": "/prəˈkjʊərmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "The action of obtaining or procuring goods or services",
+      "translation": "조달, 구매",
+      "example": "The procurement department negotiated better terms with suppliers."
+    },
+    {
+      "id": "w41",
+      "word": "quota",
+      "pronunciation": "/ˈkwoʊtə/",
+      "partOfSpeech": "noun",
+      "meaning": "A limited quantity of a product that may be produced or imported",
+      "translation": "할당량, 쿼터",
+      "example": "Import quotas were imposed to protect domestic manufacturers."
+    },
+    {
+      "id": "w42",
+      "word": "recession",
+      "pronunciation": "/rɪˈseʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "A period of temporary economic decline during which trade and industrial activity are reduced",
+      "translation": "경기침체, 불황",
+      "example": "The economy entered a recession following the financial crisis."
+    },
+    {
+      "id": "w43",
+      "word": "subsidiary",
+      "pronunciation": "/səbˈsɪdiˌeri/",
+      "partOfSpeech": "noun",
+      "meaning": "A company controlled by a holding or parent company",
+      "translation": "자회사",
+      "example": "The multinational corporation has subsidiaries in over 50 countries."
+    },
+    {
+      "id": "w44",
+      "word": "surplus",
+      "pronunciation": "/ˈsɜːrpləs/",
+      "partOfSpeech": "noun",
+      "meaning": "An amount that is more than needed; excess of revenue over expenditure",
+      "translation": "잉여, 흑자",
+      "example": "The country recorded a trade surplus for the first time in five years."
+    },
+    {
+      "id": "w45",
+      "word": "syndicate",
+      "pronunciation": "/ˈsɪndɪkət/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "A group of individuals or organizations combined to undertake a business venture",
+      "translation": "신디케이트, 기업연합",
+      "example": "A syndicate of investors purchased the commercial property."
+    },
+    {
+      "id": "w46",
+      "word": "tangible",
+      "pronunciation": "/ˈtændʒəbəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Perceptible by touch; having physical substance or real assets",
+      "translation": "유형의, 실체적인",
+      "example": "Tangible assets include property, equipment, and inventory."
+    },
+    {
+      "id": "w47",
+      "word": "underwriter",
+      "pronunciation": "/ˈʌndərˌraɪtər/",
+      "partOfSpeech": "noun",
+      "meaning": "A person or company that underwrites insurance or investment risks",
+      "translation": "보험업자, 인수업자",
+      "example": "The underwriters assessed the risk before approving the insurance policy."
+    },
+    {
+      "id": "w48",
+      "word": "yield",
+      "pronunciation": "/jiːld/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "The income return on an investment; to produce or provide",
+      "translation": "수익률, 산출하다",
+      "example": "Government bonds currently yield around 3% annually."
+    },
+    {
+      "id": "w49",
+      "word": "write-off",
+      "pronunciation": "/ˈraɪt ɒf/",
+      "partOfSpeech": "noun",
+      "meaning": "A reduction in the value of an asset or earnings by the amount of an expense",
+      "translation": "상각, 제각",
+      "example": "The company took a significant write-off on its obsolete inventory."
+    },
+    {
+      "id": "w50",
+      "word": "capital",
+      "pronunciation": "/ˈkæpɪtəl/",
+      "partOfSpeech": "noun",
+      "meaning": "Wealth in the form of money or assets used to start or maintain a business",
+      "translation": "자본, 자금",
+      "example": "The entrepreneur needed significant capital to launch the new venture."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "What does 'amortization' mean in a financial context?",
+      "options": [
+        "The gradual reduction of debt through periodic payments",
+        "A sudden increase in asset value",
+        "The total amount of interest paid",
+        "The process of declaring bankruptcy"
+      ],
+      "answer": "The gradual reduction of debt through periodic payments"
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "Which term describes the use of borrowed capital to increase potential returns?",
+      "options": [
+        "Diversification",
+        "Leverage",
+        "Liquidity",
+        "Depreciation"
+      ],
+      "answer": "Leverage"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "What is 'liquidity' in financial terms?",
+      "options": [
+        "The total debt of a company",
+        "How quickly assets can be converted to cash",
+        "The profit margin of a business",
+        "The number of shareholders in a company"
+      ],
+      "answer": "How quickly assets can be converted to cash"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "What does 'diversification' mean in investment strategy?",
+      "options": [
+        "Investing all money in one asset",
+        "Spreading investments to reduce risk",
+        "Selling all investments immediately",
+        "Borrowing money to invest"
+      ],
+      "answer": "Spreading investments to reduce risk"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "A person or group with interest in an organization is called a:",
+      "options": [
+        "Stakeholder",
+        "Shareholder only",
+        "Employee",
+        "Competitor"
+      ],
+      "answer": "Stakeholder"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "What is an 'acquisition'?",
+      "options": [
+        "Selling a company",
+        "Gaining possession of a company or asset",
+        "Declaring bankruptcy",
+        "Reducing workforce"
+      ],
+      "answer": "Gaining possession of a company or asset"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "A 'benchmark' is:",
+      "options": [
+        "A type of investment fund",
+        "A standard for comparison",
+        "A government regulation",
+        "A tax deduction"
+      ],
+      "answer": "A standard for comparison"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "What is 'arbitrage'?",
+      "options": [
+        "Long-term investment strategy",
+        "Profiting from price differences in different markets",
+        "Paying off debt early",
+        "Filing for bankruptcy protection"
+      ],
+      "answer": "Profiting from price differences in different markets"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "A 'conglomerate' is:",
+      "options": [
+        "A small startup company",
+        "A large corporation with diverse business interests",
+        "A government agency",
+        "A non-profit organization"
+      ],
+      "answer": "A large corporation with diverse business interests"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "What does 'divestment' mean?",
+      "options": [
+        "Acquiring new businesses",
+        "Selling off business interests or investments",
+        "Increasing production capacity",
+        "Hiring more employees"
+      ],
+      "answer": "Selling off business interests or investments"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "What is 'equity' in business terms?",
+      "options": [
+        "Company debt",
+        "Ownership interest in a company",
+        "Employee benefits",
+        "Tax obligations"
+      ],
+      "answer": "Ownership interest in a company"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "'Fiduciary' duty means:",
+      "options": [
+        "Acting in clients' best interests with trust",
+        "Maximizing personal profit",
+        "Following company rules only",
+        "Avoiding all risks"
+      ],
+      "answer": "Acting in clients' best interests with trust"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "What is 'hedging' in finance?",
+      "options": [
+        "Planting bushes around property",
+        "Making investments to reduce risk",
+        "Increasing leverage",
+        "Avoiding all investments"
+      ],
+      "answer": "Making investments to reduce risk"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "'Insolvency' means:",
+      "options": [
+        "High profitability",
+        "Unable to pay debts owed",
+        "Strong cash flow",
+        "Rapid growth"
+      ],
+      "answer": "Unable to pay debts owed"
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "A 'monopoly' exists when:",
+      "options": [
+        "Many companies compete equally",
+        "One company controls the entire market",
+        "Government owns all businesses",
+        "No companies exist in a market"
+      ],
+      "answer": "One company controls the entire market"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "An 'oligopoly' is characterized by:",
+      "options": [
+        "Perfect competition with many firms",
+        "A few large suppliers dominating the market",
+        "Government monopoly",
+        "No competition"
+      ],
+      "answer": "A few large suppliers dominating the market"
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "What is a 'portfolio' in investment?",
+      "options": [
+        "A type of briefcase",
+        "A range of investments held",
+        "A single stock",
+        "A government bond"
+      ],
+      "answer": "A range of investments held"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "'Proprietary' technology means:",
+      "options": [
+        "Open-source and free",
+        "Protected by ownership rights",
+        "Government-owned",
+        "Publicly available"
+      ],
+      "answer": "Protected by ownership rights"
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "'Receivables' are:",
+      "options": [
+        "Money a company owes",
+        "Money owed to a company",
+        "Company expenses",
+        "Tax deductions"
+      ],
+      "answer": "Money owed to a company"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "What is 'remuneration'?",
+      "options": [
+        "Company debts",
+        "Money paid for work or services",
+        "Business expenses",
+        "Tax payments"
+      ],
+      "answer": "Money paid for work or services"
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "A 'subsidy' is:",
+      "options": [
+        "A tax on businesses",
+        "Government financial support to industry",
+        "A business loan",
+        "A trade agreement"
+      ],
+      "answer": "Government financial support to industry"
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "What is a 'tariff'?",
+      "options": [
+        "A business license",
+        "A tax on imported or exported goods",
+        "A company regulation",
+        "A payment schedule"
+      ],
+      "answer": "A tax on imported or exported goods"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "'Turnover' can refer to:",
+      "options": [
+        "Only employee departure rate",
+        "Business revenue or employee replacement rate",
+        "Product defects",
+        "Marketing costs"
+      ],
+      "answer": "Business revenue or employee replacement rate"
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "What is 'valuation'?",
+      "options": [
+        "Company bankruptcy",
+        "Estimation of worth or value",
+        "Tax calculation",
+        "Employee performance review"
+      ],
+      "answer": "Estimation of worth or value"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "'Volatility' in markets refers to:",
+      "options": [
+        "Stable, predictable prices",
+        "Rapid and unpredictable price changes",
+        "Government intervention",
+        "Fixed interest rates"
+      ],
+      "answer": "Rapid and unpredictable price changes"
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "What is 'collateral'?",
+      "options": [
+        "A business partner",
+        "Property pledged as security for a loan",
+        "A type of insurance",
+        "A government subsidy"
+      ],
+      "answer": "Property pledged as security for a loan"
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "A 'consortium' is:",
+      "options": [
+        "A single company",
+        "An association of companies for a common purpose",
+        "A government agency",
+        "A trade union"
+      ],
+      "answer": "An association of companies for a common purpose"
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "'Default' in finance means:",
+      "options": [
+        "Making all payments on time",
+        "Failure to fulfill an obligation",
+        "Earning high profits",
+        "Starting a new business"
+      ],
+      "answer": "Failure to fulfill an obligation"
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "What is a 'derivative'?",
+      "options": [
+        "A type of savings account",
+        "A financial contract based on underlying assets",
+        "A business license",
+        "A company stock"
+      ],
+      "answer": "A financial contract based on underlying assets"
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "'Fiscal' policy relates to:",
+      "options": [
+        "Physical exercise",
+        "Government revenue and taxation",
+        "Employee benefits",
+        "Marketing strategies"
+      ],
+      "answer": "Government revenue and taxation"
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "question": "The _____ schedule shows how the loan will be repaid over time through periodic payments.",
+      "answer": "amortization"
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "question": "The company used financial _____ to increase its potential returns by borrowing capital.",
+      "answer": "leverage"
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "question": "During the financial crisis, many banks experienced severe _____ problems.",
+      "answer": "liquidity"
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "Portfolio _____ is essential for reducing investment risk.",
+      "answer": "diversification"
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "The _____ of company assets must be calculated annually for tax purposes.",
+      "answer": "depreciation"
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "The CEO consulted with key _____ before making the strategic decision.",
+      "answer": "stakeholders"
+    },
+    {
+      "id": "ex37",
+      "type": "fill_blank",
+      "question": "The _____ of the smaller firm gave the company access to new technology.",
+      "answer": "acquisition"
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "The S&P 500 index serves as a _____ for measuring investment performance.",
+      "answer": "benchmark"
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "question": "Currency _____ allows traders to profit from price differences across markets.",
+      "answer": "arbitrage"
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "The _____ operates businesses in multiple unrelated industries.",
+      "answer": "conglomerate"
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "The company announced the _____ of its unprofitable divisions.",
+      "answer": "divestment"
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "Private _____ investors provided funding for the startup.",
+      "answer": "equity"
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "Financial advisors have a _____ duty to act in their clients' best interests.",
+      "answer": "fiduciary"
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "The airline used _____ strategies to protect against fuel price increases.",
+      "answer": "hedging"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "Government investment in _____ is crucial for economic development.",
+      "answer": "infrastructure"
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "The company faced _____ after years of mounting debts.",
+      "answer": "insolvency"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "The government broke up the telecommunications _____ to encourage competition.",
+      "answer": "monopoly"
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "The automotive industry is characterized by _____ with only a few major manufacturers.",
+      "answer": "oligopoly"
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "A well-balanced investment _____ includes both stocks and bonds.",
+      "answer": "portfolio"
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "The company's _____ technology is protected by multiple patents.",
+      "answer": "proprietary"
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "Accounts _____ represent money that customers owe to the company.",
+      "answer": "receivables"
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "Executive _____ packages often include bonuses and stock options.",
+      "answer": "remuneration"
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "_____ debt refers to bonds issued by national governments.",
+      "answer": "Sovereign"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "Agricultural _____ help farmers maintain production during difficult economic times.",
+      "answer": "subsidies"
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "New _____ on imported steel affected manufacturing costs significantly.",
+      "answer": "tariffs"
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "The company reported an annual _____ of $50 million in sales.",
+      "answer": "turnover"
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "The startup received a _____ of $1 billion after its latest funding round.",
+      "answer": "valuation"
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "The _____ capital firm invested in several promising technology startups.",
+      "answer": "venture"
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "Market _____ increased dramatically during the economic uncertainty.",
+      "answer": "volatility"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "The bank required _____ before approving the large business loan.",
+      "answer": "collateral"
+    },
+    {
+      "id": "ex61",
+      "type": "matching",
+      "pairs": [
+        {"left": "amortization", "right": "gradual debt reduction"},
+        {"left": "leverage", "right": "use of borrowed capital"},
+        {"left": "liquidity", "right": "asset convertibility to cash"},
+        {"left": "diversification", "right": "risk reduction strategy"}
+      ]
+    },
+    {
+      "id": "ex62",
+      "type": "matching",
+      "pairs": [
+        {"left": "depreciation", "right": "decrease in asset value"},
+        {"left": "stakeholder", "right": "interested party"},
+        {"left": "acquisition", "right": "gaining possession"},
+        {"left": "benchmark", "right": "standard for comparison"}
+      ]
+    },
+    {
+      "id": "ex63",
+      "type": "matching",
+      "pairs": [
+        {"left": "arbitrage", "right": "profit from price differences"},
+        {"left": "conglomerate", "right": "diversified corporation"},
+        {"left": "divestment", "right": "selling business interests"},
+        {"left": "equity", "right": "ownership interest"}
+      ]
+    },
+    {
+      "id": "ex64",
+      "type": "matching",
+      "pairs": [
+        {"left": "fiduciary", "right": "trustee responsibility"},
+        {"left": "hedging", "right": "risk reduction investment"},
+        {"left": "infrastructure", "right": "basic physical structures"},
+        {"left": "insolvency", "right": "inability to pay debts"}
+      ]
+    },
+    {
+      "id": "ex65",
+      "type": "matching",
+      "pairs": [
+        {"left": "monopoly", "right": "exclusive market control"},
+        {"left": "oligopoly", "right": "few large suppliers"},
+        {"left": "portfolio", "right": "investment collection"},
+        {"left": "proprietary", "right": "ownership protected"}
+      ]
+    },
+    {
+      "id": "ex66",
+      "type": "matching",
+      "pairs": [
+        {"left": "receivables", "right": "money owed to company"},
+        {"left": "remuneration", "right": "payment for services"},
+        {"left": "sovereign", "right": "government-related"},
+        {"left": "subsidy", "right": "government financial support"}
+      ]
+    },
+    {
+      "id": "ex67",
+      "type": "matching",
+      "pairs": [
+        {"left": "tariff", "right": "import/export tax"},
+        {"left": "turnover", "right": "revenue or replacement rate"},
+        {"left": "valuation", "right": "worth estimation"},
+        {"left": "venture", "right": "risky enterprise"}
+      ]
+    },
+    {
+      "id": "ex68",
+      "type": "matching",
+      "pairs": [
+        {"left": "volatility", "right": "rapid price changes"},
+        {"left": "collateral", "right": "loan security"},
+        {"left": "consortium", "right": "company association"},
+        {"left": "default", "right": "obligation failure"}
+      ]
+    },
+    {
+      "id": "ex69",
+      "type": "matching",
+      "pairs": [
+        {"left": "derivative", "right": "contract based on assets"},
+        {"left": "fiscal", "right": "government revenue"},
+        {"left": "inflation", "right": "price increase"},
+        {"left": "IPO", "right": "initial public offering"}
+      ]
+    },
+    {
+      "id": "ex70",
+      "type": "matching",
+      "pairs": [
+        {"left": "liability", "right": "financial obligation"},
+        {"left": "merger", "right": "company combination"},
+        {"left": "procurement", "right": "obtaining goods"},
+        {"left": "quota", "right": "limited quantity"}
+      ]
+    },
+    {
+      "id": "ex71",
+      "type": "matching",
+      "pairs": [
+        {"left": "recession", "right": "economic decline"},
+        {"left": "subsidiary", "right": "controlled company"},
+        {"left": "surplus", "right": "excess amount"},
+        {"left": "syndicate", "right": "business group"}
+      ]
+    },
+    {
+      "id": "ex72",
+      "type": "matching",
+      "pairs": [
+        {"left": "tangible", "right": "physical substance"},
+        {"left": "underwriter", "right": "risk assessor"},
+        {"left": "yield", "right": "investment return"},
+        {"left": "write-off", "right": "asset value reduction"}
+      ]
+    },
+    {
+      "id": "ex73",
+      "type": "matching",
+      "pairs": [
+        {"left": "capital", "right": "business wealth"},
+        {"left": "commoditization", "right": "product indistinguishability"},
+        {"left": "leverage ratio", "right": "debt measurement"},
+        {"left": "market liquidity", "right": "trading ease"}
+      ]
+    },
+    {
+      "id": "ex74",
+      "type": "matching",
+      "pairs": [
+        {"left": "hostile acquisition", "right": "unwanted takeover"},
+        {"left": "performance benchmark", "right": "comparison standard"},
+        {"left": "private equity", "right": "non-public ownership"},
+        {"left": "fiduciary duty", "right": "trust obligation"}
+      ]
+    },
+    {
+      "id": "ex75",
+      "type": "matching",
+      "pairs": [
+        {"left": "fuel hedging", "right": "price protection"},
+        {"left": "trade surplus", "right": "export excess"},
+        {"left": "financial derivative", "right": "asset-based contract"},
+        {"left": "fiscal policy", "right": "tax and spending"}
+      ]
+    },
+    {
+      "id": "ex76",
+      "type": "translation_ko_en",
+      "question": "상각",
+      "answer": "amortization"
+    },
+    {
+      "id": "ex77",
+      "type": "translation_ko_en",
+      "question": "레버리지",
+      "answer": "leverage"
+    },
+    {
+      "id": "ex78",
+      "type": "translation_ko_en",
+      "question": "유동성",
+      "answer": "liquidity"
+    },
+    {
+      "id": "ex79",
+      "type": "translation_ko_en",
+      "question": "다각화",
+      "answer": "diversification"
+    },
+    {
+      "id": "ex80",
+      "type": "translation_ko_en",
+      "question": "감가상각",
+      "answer": "depreciation"
+    },
+    {
+      "id": "ex81",
+      "type": "translation_ko_en",
+      "question": "이해관계자",
+      "answer": "stakeholder"
+    },
+    {
+      "id": "ex82",
+      "type": "translation_ko_en",
+      "question": "인수",
+      "answer": "acquisition"
+    },
+    {
+      "id": "ex83",
+      "type": "translation_ko_en",
+      "question": "기준점",
+      "answer": "benchmark"
+    },
+    {
+      "id": "ex84",
+      "type": "translation_ko_en",
+      "question": "차익거래",
+      "answer": "arbitrage"
+    },
+    {
+      "id": "ex85",
+      "type": "translation_ko_en",
+      "question": "상품화",
+      "answer": "commoditization"
+    },
+    {
+      "id": "ex86",
+      "type": "translation_ko_en",
+      "question": "복합기업",
+      "answer": "conglomerate"
+    },
+    {
+      "id": "ex87",
+      "type": "translation_ko_en",
+      "question": "매각",
+      "answer": "divestment"
+    },
+    {
+      "id": "ex88",
+      "type": "translation_ko_en",
+      "question": "자본",
+      "answer": "equity"
+    },
+    {
+      "id": "ex89",
+      "type": "translation_ko_en",
+      "question": "수탁자",
+      "answer": "fiduciary"
+    },
+    {
+      "id": "ex90",
+      "type": "translation_ko_en",
+      "question": "헤지",
+      "answer": "hedging"
+    },
+    {
+      "id": "ex91",
+      "type": "translation_ko_en",
+      "question": "인프라",
+      "answer": "infrastructure"
+    },
+    {
+      "id": "ex92",
+      "type": "translation_ko_en",
+      "question": "지불불능",
+      "answer": "insolvency"
+    },
+    {
+      "id": "ex93",
+      "type": "translation_ko_en",
+      "question": "독점",
+      "answer": "monopoly"
+    },
+    {
+      "id": "ex94",
+      "type": "translation_ko_en",
+      "question": "과점",
+      "answer": "oligopoly"
+    },
+    {
+      "id": "ex95",
+      "type": "translation_ko_en",
+      "question": "포트폴리오",
+      "answer": "portfolio"
+    },
+    {
+      "id": "ex96",
+      "type": "translation_ko_en",
+      "question": "독점적인",
+      "answer": "proprietary"
+    },
+    {
+      "id": "ex97",
+      "type": "translation_ko_en",
+      "question": "매출채권",
+      "answer": "receivables"
+    },
+    {
+      "id": "ex98",
+      "type": "translation_ko_en",
+      "question": "보수",
+      "answer": "remuneration"
+    },
+    {
+      "id": "ex99",
+      "type": "translation_ko_en",
+      "question": "주권의",
+      "answer": "sovereign"
+    },
+    {
+      "id": "ex100",
+      "type": "translation_ko_en",
+      "question": "보조금",
+      "answer": "subsidy"
+    },
+    {
+      "id": "ex101",
+      "type": "translation_ko_en",
+      "question": "관세",
+      "answer": "tariff"
+    },
+    {
+      "id": "ex102",
+      "type": "translation_ko_en",
+      "question": "매출액",
+      "answer": "turnover"
+    },
+    {
+      "id": "ex103",
+      "type": "translation_ko_en",
+      "question": "가치평가",
+      "answer": "valuation"
+    },
+    {
+      "id": "ex104",
+      "type": "translation_ko_en",
+      "question": "벤처",
+      "answer": "venture"
+    },
+    {
+      "id": "ex105",
+      "type": "translation_ko_en",
+      "question": "변동성",
+      "answer": "volatility"
+    },
+    {
+      "id": "ex106",
+      "type": "translation_en_ko",
+      "question": "The bank required collateral for the loan.",
+      "answer": "은행은 대출에 담보물을 요구했다"
+    },
+    {
+      "id": "ex107",
+      "type": "translation_en_ko",
+      "question": "A consortium of banks financed the project.",
+      "answer": "은행 컨소시엄이 프로젝트에 자금을 지원했다"
+    },
+    {
+      "id": "ex108",
+      "type": "translation_en_ko",
+      "question": "The company was at risk of default.",
+      "answer": "회사는 채무불이행 위험에 처했다"
+    },
+    {
+      "id": "ex109",
+      "type": "translation_en_ko",
+      "question": "Options are a type of financial derivative.",
+      "answer": "옵션은 파생상품의 한 종류이다"
+    },
+    {
+      "id": "ex110",
+      "type": "translation_en_ko",
+      "question": "The government announced new fiscal policies.",
+      "answer": "정부는 새로운 재정 정책을 발표했다"
+    },
+    {
+      "id": "ex111",
+      "type": "translation_en_ko",
+      "question": "Central banks combat inflation by raising rates.",
+      "answer": "중앙은행은 금리 인상으로 인플레이션에 대응한다"
+    },
+    {
+      "id": "ex112",
+      "type": "translation_en_ko",
+      "question": "The company's IPO raised $2 billion.",
+      "answer": "회사의 기업공개는 20억 달러를 조달했다"
+    },
+    {
+      "id": "ex113",
+      "type": "translation_en_ko",
+      "question": "The company's liabilities exceeded its assets.",
+      "answer": "회사의 부채가 자산을 초과했다"
+    },
+    {
+      "id": "ex114",
+      "type": "translation_en_ko",
+      "question": "The merger created the largest company.",
+      "answer": "합병으로 최대 기업이 탄생했다"
+    },
+    {
+      "id": "ex115",
+      "type": "translation_en_ko",
+      "question": "The procurement department negotiated better terms.",
+      "answer": "조달 부서가 더 나은 조건을 협상했다"
+    },
+    {
+      "id": "ex116",
+      "type": "translation_en_ko",
+      "question": "Import quotas protect domestic manufacturers.",
+      "answer": "수입 할당량은 국내 제조업체를 보호한다"
+    },
+    {
+      "id": "ex117",
+      "type": "translation_en_ko",
+      "question": "The economy entered a recession.",
+      "answer": "경제가 불황에 진입했다"
+    },
+    {
+      "id": "ex118",
+      "type": "translation_en_ko",
+      "question": "The corporation has subsidiaries worldwide.",
+      "answer": "이 기업은 전 세계에 자회사를 두고 있다"
+    },
+    {
+      "id": "ex119",
+      "type": "translation_en_ko",
+      "question": "The country recorded a trade surplus.",
+      "answer": "국가가 무역 흑자를 기록했다"
+    },
+    {
+      "id": "ex120",
+      "type": "translation_en_ko",
+      "question": "A syndicate of investors purchased the property.",
+      "answer": "투자자 신디케이트가 부동산을 매입했다"
+    },
+    {
+      "id": "ex121",
+      "type": "translation_en_ko",
+      "question": "Tangible assets include property and equipment.",
+      "answer": "유형 자산에는 부동산과 장비가 포함된다"
+    },
+    {
+      "id": "ex122",
+      "type": "translation_en_ko",
+      "question": "The underwriters assessed the insurance risk.",
+      "answer": "보험업자들이 위험을 평가했다"
+    },
+    {
+      "id": "ex123",
+      "type": "translation_en_ko",
+      "question": "Government bonds yield around 3% annually.",
+      "answer": "국채는 연간 약 3%의 수익률을 낸다"
+    },
+    {
+      "id": "ex124",
+      "type": "translation_en_ko",
+      "question": "The company took a significant write-off.",
+      "answer": "회사는 상당한 제각을 실시했다"
+    },
+    {
+      "id": "ex125",
+      "type": "translation_en_ko",
+      "question": "The entrepreneur needed capital to start the business.",
+      "answer": "기업가는 사업을 시작하기 위해 자본이 필요했다"
+    },
+    {
+      "id": "ex126",
+      "type": "translation_en_ko",
+      "question": "The amortization period is 30 years.",
+      "answer": "상각 기간은 30년이다"
+    },
+    {
+      "id": "ex127",
+      "type": "translation_en_ko",
+      "question": "Financial leverage can amplify returns.",
+      "answer": "재무 레버리지는 수익을 증폭시킬 수 있다"
+    },
+    {
+      "id": "ex128",
+      "type": "translation_en_ko",
+      "question": "The market faces a liquidity crisis.",
+      "answer": "시장이 유동성 위기에 직면했다"
+    },
+    {
+      "id": "ex129",
+      "type": "translation_en_ko",
+      "question": "Risk diversification is a prudent strategy.",
+      "answer": "위험 분산은 신중한 전략이다"
+    },
+    {
+      "id": "ex130",
+      "type": "translation_en_ko",
+      "question": "Currency depreciation affects export competitiveness.",
+      "answer": "통화 가치 하락은 수출 경쟁력에 영향을 미친다"
+    },
+    {
+      "id": "ex131",
+      "type": "fill_blank",
+      "question": "A _____ of banks provided funding for the major infrastructure project.",
+      "answer": "consortium"
+    },
+    {
+      "id": "ex132",
+      "type": "fill_blank",
+      "question": "The country was on the brink of _____ on its international debt.",
+      "answer": "default"
+    },
+    {
+      "id": "ex133",
+      "type": "fill_blank",
+      "question": "Options and futures are common types of financial _____.",
+      "answer": "derivatives"
+    },
+    {
+      "id": "ex134",
+      "type": "fill_blank",
+      "question": "The government's _____ policy includes both taxation and spending measures.",
+      "answer": "fiscal"
+    },
+    {
+      "id": "ex135",
+      "type": "fill_blank",
+      "question": "Central banks raise interest rates to control _____.",
+      "answer": "inflation"
+    },
+    {
+      "id": "ex136",
+      "type": "fill_blank",
+      "question": "The tech company's _____ was highly successful, raising billions in capital.",
+      "answer": "IPO"
+    },
+    {
+      "id": "ex137",
+      "type": "fill_blank",
+      "question": "The company's _____ exceeded its assets, raising concerns about solvency.",
+      "answer": "liabilities"
+    },
+    {
+      "id": "ex138",
+      "type": "fill_blank",
+      "question": "The _____ of the two companies created an industry giant.",
+      "answer": "merger"
+    },
+    {
+      "id": "ex139",
+      "type": "fill_blank",
+      "question": "The _____ department is responsible for sourcing and purchasing supplies.",
+      "answer": "procurement"
+    },
+    {
+      "id": "ex140",
+      "type": "fill_blank",
+      "question": "Import _____ limit the quantity of goods that can enter the country.",
+      "answer": "quotas"
+    },
+    {
+      "id": "ex141",
+      "type": "fill_blank",
+      "question": "The economy is showing signs of entering a _____.",
+      "answer": "recession"
+    },
+    {
+      "id": "ex142",
+      "type": "fill_blank",
+      "question": "The multinational corporation operates through numerous _____ worldwide.",
+      "answer": "subsidiaries"
+    },
+    {
+      "id": "ex143",
+      "type": "fill_blank",
+      "question": "The country achieved a trade _____ for the first time in years.",
+      "answer": "surplus"
+    },
+    {
+      "id": "ex144",
+      "type": "fill_blank",
+      "question": "A _____ of investors jointly financed the commercial real estate purchase.",
+      "answer": "syndicate"
+    },
+    {
+      "id": "ex145",
+      "type": "fill_blank",
+      "question": "_____ assets have physical substance, unlike intangible assets.",
+      "answer": "Tangible"
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "question": "The insurance _____ evaluated the risk before approving the policy.",
+      "answer": "underwriter"
+    },
+    {
+      "id": "ex147",
+      "type": "fill_blank",
+      "question": "The bond's _____ is currently 4.5% per annum.",
+      "answer": "yield"
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "question": "The company had to take a major _____ on its outdated inventory.",
+      "answer": "write-off"
+    },
+    {
+      "id": "ex149",
+      "type": "fill_blank",
+      "question": "Raising _____ is essential for expanding business operations.",
+      "answer": "capital"
+    },
+    {
+      "id": "ex150",
+      "type": "fill_blank",
+      "question": "The _____ of products makes it difficult to differentiate brands in the market.",
+      "answer": "commoditization"
+    }
+  ]
+}

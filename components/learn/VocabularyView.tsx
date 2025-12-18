@@ -1,3 +1,8 @@
+/**
+ * Vocabulary View
+ * 어휘 학습
+ */
+
 import React, { useCallback, useMemo, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Button, Text } from 'react-native-paper';
@@ -6,13 +11,14 @@ import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { useLearnStore } from '@/store/learnStore';
 import { FlashCardResult, VocabularyActivity } from '@/types/activity';
+import { feedbackService } from '@/services/feedbackService';
 
 import { FlashCard } from './FlashCard';
 import { ProgressBar } from './ProgressBar';
 
 interface VocabularyViewProps {
   activity: VocabularyActivity;
-  onComplete?: (score: number) => void;
+  onComplete?: (score: number, xpEarned: number) => void;
 }
 
 export function VocabularyView({ activity, onComplete }: VocabularyViewProps) {
@@ -31,27 +37,39 @@ export function VocabularyView({ activity, onComplete }: VocabularyViewProps) {
     return Math.round((knownCount / results.length) * 100);
   }, [results]);
 
-  const handleKnown = useCallback(() => {
+  const handleKnown = useCallback(async () => {
+    // Trigger success feedback
+    await feedbackService.success();
+
     const newResults = [...results, { wordId: currentWord.id, known: true, attempts: 1 }];
     setResults(newResults);
 
     if (isLastWord) {
       saveFlashCardResults(activity.id, newResults);
       setIsCompleted(true);
-      onComplete?.(Math.round((newResults.filter((r) => r.known).length / newResults.length) * 100));
+      const finalScore = Math.round(
+        (newResults.filter((r) => r.known).length / newResults.length) * 100
+      );
+      onComplete?.(finalScore, 0);
     } else {
       setCurrentIndex((prev) => prev + 1);
     }
   }, [currentWord, results, isLastWord, activity.id, saveFlashCardResults, onComplete]);
 
-  const handleUnknown = useCallback(() => {
+  const handleUnknown = useCallback(async () => {
+    // Trigger wrong feedback
+    await feedbackService.wrong();
+
     const newResults = [...results, { wordId: currentWord.id, known: false, attempts: 1 }];
     setResults(newResults);
 
     if (isLastWord) {
       saveFlashCardResults(activity.id, newResults);
       setIsCompleted(true);
-      onComplete?.(Math.round((newResults.filter((r) => r.known).length / newResults.length) * 100));
+      const finalScore = Math.round(
+        (newResults.filter((r) => r.known).length / newResults.length) * 100
+      );
+      onComplete?.(finalScore, 0);
     } else {
       setCurrentIndex((prev) => prev + 1);
     }
@@ -85,6 +103,7 @@ export function VocabularyView({ activity, onComplete }: VocabularyViewProps) {
         <Text style={styles.title}>{activity.title}</Text>
         <ProgressBar current={currentIndex + 1} total={words.length} />
       </View>
+
       <FlashCard word={currentWord} onKnown={handleKnown} onUnknown={handleUnknown} />
     </View>
   );
@@ -130,7 +149,7 @@ const styles = StyleSheet.create({
     color: COLORS.text,
     fontSize: SIZES.fontSize.xl,
     fontWeight: '600',
-    marginBottom: SIZES.spacing.md,
     textAlign: 'center',
+    marginBottom: SIZES.spacing.md,
   },
 });

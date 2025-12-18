@@ -204,6 +204,538 @@
       "meaning": "환불",
       "example": "Can I get a refund?",
       "exampleMeaning": "환불 받을 수 있나요?"
+    },
+    {
+      "id": "w23",
+      "word": "Terminal",
+      "pronunciation": "/ˈtɜːrmɪnəl/",
+      "partOfSpeech": "noun",
+      "meaning": "터미널",
+      "example": "International flights depart from terminal 2.",
+      "exampleMeaning": "국제선은 2번 터미널에서 출발합니다.",
+      "koreanPronunciationTip": "'터'에 강세, 끝 '-널'은 약하게",
+      "koreanCommonMistake": "'터미날'이 아니라 '터미널'로 발음",
+      "mnemonic": "Terminal = term(끝) + inal → 여행의 끝, 시작점",
+      "wordFamily": ["terminate (끝내다)", "termination (종료)"],
+      "collocations": ["airport terminal", "bus terminal", "terminal building"],
+      "synonyms": ["station"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "w24",
+      "word": "Itinerary",
+      "pronunciation": "/aɪˈtɪnəreri/",
+      "partOfSpeech": "noun",
+      "meaning": "여행 일정표",
+      "example": "Here is your travel itinerary.",
+      "exampleMeaning": "여기 당신의 여행 일정표입니다.",
+      "koreanPronunciationTip": "아이-'티'너레리, 'ti'에 강세",
+      "koreanCommonMistake": "첫 음절을 '이'가 아닌 '아이'로 발음",
+      "mnemonic": "It-in-erary = 여정(journey) 안의 모든 것",
+      "wordFamily": ["itinerant (순회하는)"],
+      "collocations": ["travel itinerary", "detailed itinerary", "itinerary plan"],
+      "synonyms": ["schedule", "plan", "route"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "w25",
+      "word": "Tour",
+      "pronunciation": "/tʊr/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "여행, 관광, 둘러보다",
+      "example": "We took a city tour yesterday.",
+      "exampleMeaning": "어제 우리는 시티 투어를 했습니다.",
+      "koreanPronunciationTip": "'투어'보다는 '투얼'에 가깝게",
+      "koreanCommonMistake": "'투어'로 너무 짧게 발음하지 말기",
+      "mnemonic": "Tour = 투어 = 돌아다니다",
+      "wordFamily": ["tourist (관광객)", "tourism (관광업)", "touristy (관광객이 많은)"],
+      "collocations": ["city tour", "guided tour", "tour guide", "package tour"],
+      "synonyms": ["trip", "excursion"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w26",
+      "word": "Sightseeing",
+      "pronunciation": "/ˈsaɪtsiːɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "관광",
+      "example": "We went sightseeing in Seoul.",
+      "exampleMeaning": "우리는 서울에서 관광했습니다.",
+      "koreanPronunciationTip": "'사잇-씨잉', 두 단어처럼 발음",
+      "koreanCommonMistake": "'사이트시잉'이 아니라 '사잇씨잉'",
+      "mnemonic": "Sight(경치) + seeing(보기) = 경치 구경",
+      "wordFamily": ["sight (경치)", "see (보다)", "sightseer (관광객)"],
+      "collocations": ["go sightseeing", "sightseeing tour", "sightseeing spot"],
+      "synonyms": ["tourism", "touring"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w27",
+      "word": "Accommodation",
+      "pronunciation": "/əˌkɑːməˈdeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "숙박시설",
+      "example": "The hotel provides comfortable accommodation.",
+      "exampleMeaning": "그 호텔은 편안한 숙박시설을 제공합니다.",
+      "koreanPronunciationTip": "어-카머-'데이'-션, 'da'에 강세",
+      "koreanCommonMistake": "'아코모데이션'보다 '어카머데이션'",
+      "mnemonic": "Accommodate(수용하다) + ion = 사람을 수용하는 곳",
+      "wordFamily": ["accommodate (수용하다)", "accommodating (친절한)"],
+      "collocations": ["book accommodation", "luxury accommodation", "shared accommodation"],
+      "synonyms": ["lodging", "housing"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "w28",
+      "word": "Check-out",
+      "pronunciation": "/ˈtʃekaʊt/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "체크아웃",
+      "example": "Check-out time is 11 AM.",
+      "exampleMeaning": "체크아웃 시간은 오전 11시입니다.",
+      "koreanPronunciationTip": "'첵-아웃', 명확하게 두 부분으로",
+      "koreanCommonMistake": "하이픈 발음 시 연결하지 말고 분리",
+      "mnemonic": "Check-out = 방을 확인하고 나가다",
+      "wordFamily": ["check (확인하다)", "checkout counter (계산대)"],
+      "collocations": ["check-out time", "late check-out", "early check-out"],
+      "synonyms": ["departure"],
+      "antonyms": ["check-in"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w29",
+      "word": "Fare",
+      "pronunciation": "/fer/",
+      "partOfSpeech": "noun",
+      "meaning": "요금",
+      "example": "The bus fare is 2 dollars.",
+      "exampleMeaning": "버스 요금은 2달러입니다.",
+      "koreanPronunciationTip": "'페어', 공평한 fair와 같은 발음",
+      "koreanCommonMistake": "'파어'가 아니라 '페어'",
+      "mnemonic": "Fare = 이동에 필요한 요금",
+      "wordFamily": ["fair (공정한)", "farewell (작별)"],
+      "collocations": ["bus fare", "taxi fare", "air fare", "fare increase"],
+      "synonyms": ["price", "fee", "charge"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w30",
+      "word": "Route",
+      "pronunciation": "/ruːt/",
+      "partOfSpeech": "noun",
+      "meaning": "경로, 노선",
+      "example": "This bus follows a different route.",
+      "exampleMeaning": "이 버스는 다른 경로를 따릅니다.",
+      "koreanPronunciationTip": "'루트', 긴 '우' 소리",
+      "koreanCommonMistake": "짧게 '룻'이 아니라 길게 '루-트'",
+      "mnemonic": "Route = 루트 = 가는 길",
+      "wordFamily": ["reroute (경로 변경)", "en route (도중에)"],
+      "collocations": ["bus route", "flight route", "scenic route", "shortest route"],
+      "synonyms": ["path", "way", "course"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w31",
+      "word": "Journey",
+      "pronunciation": "/ˈdʒɜːrni/",
+      "partOfSpeech": "noun",
+      "meaning": "여행, 여정",
+      "example": "The journey takes five hours.",
+      "exampleMeaning": "그 여정은 다섯 시간이 걸립니다.",
+      "koreanPronunciationTip": "'저-니', '저'에 강세",
+      "koreanCommonMistake": "'조니'가 아니라 '저니'",
+      "mnemonic": "Journey = 하루(jour in French) 걸리는 여행",
+      "wordFamily": ["journalist (기자 - 날마다 쓰는 사람)"],
+      "collocations": ["long journey", "safe journey", "journey time"],
+      "synonyms": ["trip", "voyage", "travel"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w32",
+      "word": "Baggage claim",
+      "pronunciation": "/ˈbæɡɪdʒ kleɪm/",
+      "partOfSpeech": "noun",
+      "meaning": "수하물 찾는 곳",
+      "example": "Meet me at the baggage claim area.",
+      "exampleMeaning": "수하물 찾는 곳에서 만나요.",
+      "koreanPronunciationTip": "'배기지 클레임'",
+      "koreanCommonMistake": "'배기지'의 'ge' 발음 주의",
+      "mnemonic": "Baggage(짐) + claim(찾다) = 짐 찾는 곳",
+      "wordFamily": ["baggage (짐)", "claim (요구하다)"],
+      "collocations": ["baggage claim area", "at baggage claim"],
+      "synonyms": ["luggage pickup"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w33",
+      "word": "Visa",
+      "pronunciation": "/ˈviːzə/",
+      "partOfSpeech": "noun",
+      "meaning": "비자",
+      "example": "Do I need a visa to visit Korea?",
+      "exampleMeaning": "한국을 방문하려면 비자가 필요한가요?",
+      "koreanPronunciationTip": "'비-저', 길게",
+      "koreanCommonMistake": "'비사'가 아니라 '비저'",
+      "mnemonic": "Visa = 방문 허가증",
+      "wordFamily": ["visit (방문하다)"],
+      "collocations": ["apply for visa", "tourist visa", "work visa", "visa application"],
+      "synonyms": ["permit", "authorization"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w34",
+      "word": "Domestic",
+      "pronunciation": "/dəˈmestɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "국내의",
+      "example": "This is a domestic flight.",
+      "exampleMeaning": "이것은 국내선입니다.",
+      "koreanPronunciationTip": "더-'메스'-틱, 'me'에 강세",
+      "koreanCommonMistake": "'도메스틱'이 아니라 '더메스틱'",
+      "mnemonic": "Domestic = 집(domus in Latin) 안의 = 나라 안의",
+      "wordFamily": ["domesticate (길들이다)", "domestically (국내적으로)"],
+      "collocations": ["domestic flight", "domestic terminal", "domestic travel"],
+      "synonyms": ["internal", "local"],
+      "antonyms": ["international", "foreign"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "w35",
+      "word": "International",
+      "pronunciation": "/ˌɪntərˈnæʃənəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "국제의",
+      "example": "I need to go to the international terminal.",
+      "exampleMeaning": "국제선 터미널로 가야 합니다.",
+      "koreanPronunciationTip": "인터-'내-셔널', 'na'에 강세",
+      "koreanCommonMistake": "'인터네셔널'보다 '인터내셔널'",
+      "mnemonic": "Inter(사이) + national = 나라들 사이의",
+      "wordFamily": ["nation (국가)", "nationality (국적)", "nationally (전국적으로)"],
+      "collocations": ["international flight", "international terminal", "international travel"],
+      "synonyms": ["global", "worldwide"],
+      "antonyms": ["domestic", "local"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 2
+    },
+    {
+      "id": "w36",
+      "word": "Aisle",
+      "pronunciation": "/aɪl/",
+      "partOfSpeech": "noun",
+      "meaning": "통로",
+      "example": "I prefer an aisle seat.",
+      "exampleMeaning": "저는 통로 쪽 좌석을 선호합니다.",
+      "koreanPronunciationTip": "'아일', 'island'의 isle과 같은 발음",
+      "koreanCommonMistake": "철자와 달리 '에이슬'이 아니라 '아일'",
+      "mnemonic": "Aisle = I(아이) + sle = 나 혼자 걷는 길",
+      "wordFamily": ["isle (섬 - 같은 발음)"],
+      "collocations": ["aisle seat", "down the aisle", "window or aisle"],
+      "synonyms": ["corridor", "passageway"],
+      "antonyms": ["window (창가)"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w37",
+      "word": "Window seat",
+      "pronunciation": "/ˈwɪndoʊ siːt/",
+      "partOfSpeech": "noun",
+      "meaning": "창가 좌석",
+      "example": "Can I have a window seat?",
+      "exampleMeaning": "창가 좌석으로 주실 수 있나요?",
+      "koreanPronunciationTip": "'윈도우 씨트'",
+      "koreanCommonMistake": "'윈도'가 아니라 '윈도우'",
+      "mnemonic": "Window(창문) + seat(좌석) = 창가 자리",
+      "wordFamily": ["window (창문)", "seat (좌석)"],
+      "collocations": ["prefer window seat", "window or aisle"],
+      "synonyms": [],
+      "antonyms": ["aisle seat"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "w38",
+      "word": "Direct flight",
+      "pronunciation": "/dəˈrekt flaɪt/",
+      "partOfSpeech": "noun",
+      "meaning": "직항",
+      "example": "Is there a direct flight to New York?",
+      "exampleMeaning": "뉴욕행 직항이 있나요?",
+      "koreanPronunciationTip": "더-'렉트' 플라잇",
+      "koreanCommonMistake": "'디렉트'보다 '더렉트'에 가깝게",
+      "mnemonic": "Direct(직접) = 중간 기착 없이 바로",
+      "wordFamily": ["direct (직접의)", "direction (방향)", "directly (직접)"],
+      "collocations": ["book a direct flight", "prefer direct flights"],
+      "synonyms": ["non-stop flight"],
+      "antonyms": ["connecting flight", "flight with stopover"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w39",
+      "word": "Stopover",
+      "pronunciation": "/ˈstɑːpoʊvər/",
+      "partOfSpeech": "noun",
+      "meaning": "경유, 중간 체류",
+      "example": "We have a stopover in Dubai.",
+      "exampleMeaning": "두바이에서 경유합니다.",
+      "koreanPronunciationTip": "'스탑-오버', 두 부분으로",
+      "koreanCommonMistake": "연결하지 말고 stop + over로",
+      "mnemonic": "Stop(멈추다) + over(넘어서) = 중간에 잠깐 멈추기",
+      "wordFamily": ["stop (멈추다)", "layover (경유)"],
+      "collocations": ["have a stopover", "short stopover", "stopover city"],
+      "synonyms": ["layover", "transit"],
+      "antonyms": ["direct", "non-stop"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w40",
+      "word": "Taxi",
+      "pronunciation": "/ˈtæksi/",
+      "partOfSpeech": "noun",
+      "meaning": "택시",
+      "example": "Let's take a taxi to the hotel.",
+      "exampleMeaning": "호텔까지 택시를 타요.",
+      "koreanPronunciationTip": "'택-씨', '택'에 강세",
+      "koreanCommonMistake": "'택시'는 한국어식, 영어는 '택씨'",
+      "mnemonic": "Taxi = 택시 = 편리한 교통수단",
+      "wordFamily": ["cab (택시)"],
+      "collocations": ["take a taxi", "taxi driver", "taxi fare", "call a taxi"],
+      "synonyms": ["cab"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w41",
+      "word": "Bus",
+      "pronunciation": "/bʌs/",
+      "partOfSpeech": "noun",
+      "meaning": "버스",
+      "example": "The bus comes every 10 minutes.",
+      "exampleMeaning": "버스는 10분마다 옵니다.",
+      "koreanPronunciationTip": "'버스'보다 '버쓰'에 가깝게",
+      "koreanCommonMistake": "끝소리 's'를 '스'가 아니라 '쓰'로",
+      "mnemonic": "Bus = 대중 교통의 기본",
+      "wordFamily": ["minibus (소형버스)", "school bus (스쿨버스)"],
+      "collocations": ["take a bus", "bus stop", "bus station", "bus fare"],
+      "synonyms": ["coach"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w42",
+      "word": "Train",
+      "pronunciation": "/treɪn/",
+      "partOfSpeech": "noun",
+      "meaning": "기차",
+      "example": "I travel to work by train.",
+      "exampleMeaning": "저는 기차로 출근합니다.",
+      "koreanPronunciationTip": "'트레인', 이중모음 'ei'",
+      "koreanCommonMistake": "'트레인'의 'ei'를 분명히",
+      "mnemonic": "Train = 기차 = 긴 교통수단",
+      "wordFamily": ["trainer (트레이너)", "training (훈련)"],
+      "collocations": ["catch a train", "train station", "express train", "train ticket"],
+      "synonyms": ["railway"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w43",
+      "word": "Subway",
+      "pronunciation": "/ˈsʌbweɪ/",
+      "partOfSpeech": "noun",
+      "meaning": "지하철",
+      "example": "The subway is faster than the bus.",
+      "exampleMeaning": "지하철이 버스보다 빠릅니다.",
+      "koreanPronunciationTip": "'섭-웨이', '섭'에 강세",
+      "koreanCommonMistake": "'서브웨이'가 아니라 '섭웨이'",
+      "mnemonic": "Sub(아래) + way(길) = 지하로 다니는 길",
+      "wordFamily": ["submarine (잠수함)", "subterranean (지하의)"],
+      "collocations": ["subway station", "subway line", "take the subway"],
+      "synonyms": ["underground", "metro"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w44",
+      "word": "Station",
+      "pronunciation": "/ˈsteɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "역",
+      "example": "Which station should I get off at?",
+      "exampleMeaning": "어느 역에서 내려야 하나요?",
+      "koreanPronunciationTip": "'스테이-션', '스테'에 강세",
+      "koreanCommonMistake": "'스타션'이 아니라 '스테이션'",
+      "mnemonic": "Station = 멈추는(stationary) 곳",
+      "wordFamily": ["stationary (정지된)", "stationery (문구)"],
+      "collocations": ["train station", "subway station", "gas station", "police station"],
+      "synonyms": ["stop", "terminal"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w45",
+      "word": "Ticket office",
+      "pronunciation": "/ˈtɪkɪt ˈɑːfɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "매표소",
+      "example": "Buy your tickets at the ticket office.",
+      "exampleMeaning": "매표소에서 표를 사세요.",
+      "koreanPronunciationTip": "'티킷 아피스'",
+      "koreanCommonMistake": "'오피스'가 아니라 '아피스'",
+      "mnemonic": "Ticket(표) + office(사무실) = 표 파는 곳",
+      "wordFamily": ["ticket (표)", "office (사무실)"],
+      "collocations": ["at the ticket office", "ticket office hours"],
+      "synonyms": ["ticket booth", "box office"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "w46",
+      "word": "Information desk",
+      "pronunciation": "/ˌɪnfərˈmeɪʃən desk/",
+      "partOfSpeech": "noun",
+      "meaning": "안내 데스크",
+      "example": "Ask at the information desk for help.",
+      "exampleMeaning": "도움이 필요하면 안내 데스크에 문의하세요.",
+      "koreanPronunciationTip": "인퍼-'메이'-션 데스크",
+      "koreanCommonMistake": "'인포메이션'보다 '인퍼메이션'",
+      "mnemonic": "Information(정보) + desk(책상) = 정보 주는 곳",
+      "wordFamily": ["inform (알리다)", "informative (유익한)"],
+      "collocations": ["at the information desk", "information desk clerk"],
+      "synonyms": ["help desk", "inquiry desk"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w47",
+      "word": "Lost and found",
+      "pronunciation": "/lɔːst ənd faʊnd/",
+      "partOfSpeech": "noun",
+      "meaning": "분실물 보관소",
+      "example": "I left my bag on the train. Where is the lost and found?",
+      "exampleMeaning": "기차에 가방을 두고 내렸어요. 분실물 보관소가 어디에 있나요?",
+      "koreanPronunciationTip": "'로스트 앤 파운드'",
+      "koreanCommonMistake": "각 단어를 명확하게 발음",
+      "mnemonic": "Lost(잃어버린) and found(찾은) = 잃어버린 물건 찾는 곳",
+      "wordFamily": ["lose (잃다)", "find (찾다)"],
+      "collocations": ["go to lost and found", "lost and found office"],
+      "synonyms": ["lost property office"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w48",
+      "word": "Reservation",
+      "pronunciation": "/ˌrezərˈveɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "예약",
+      "example": "Do you have a reservation?",
+      "exampleMeaning": "예약하셨나요?",
+      "koreanPronunciationTip": "레저-'베이'-션, 've'에 강세",
+      "koreanCommonMistake": "'레저베이션'의 각 음절 명확히",
+      "mnemonic": "Reserve(예약하다) + ation = 예약한 것",
+      "wordFamily": ["reserve (예약하다)", "reserved (예약된)"],
+      "collocations": ["make a reservation", "cancel a reservation", "confirm a reservation"],
+      "synonyms": ["booking"],
+      "antonyms": ["cancellation"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "w49",
+      "word": "Timetable",
+      "pronunciation": "/ˈtaɪmteɪbəl/",
+      "partOfSpeech": "noun",
+      "meaning": "시간표",
+      "example": "Check the train timetable online.",
+      "exampleMeaning": "온라인으로 기차 시간표를 확인하세요.",
+      "koreanPronunciationTip": "'타임-테이블', 두 단어처럼",
+      "koreanCommonMistake": "연결하지 말고 time + table로",
+      "mnemonic": "Time(시간) + table(표) = 시간표",
+      "wordFamily": ["time (시간)", "table (표)"],
+      "collocations": ["bus timetable", "train timetable", "check the timetable"],
+      "synonyms": ["schedule"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w50",
+      "word": "Passenger",
+      "pronunciation": "/ˈpæsɪndʒər/",
+      "partOfSpeech": "noun",
+      "meaning": "승객",
+      "example": "All passengers must show their tickets.",
+      "exampleMeaning": "모든 승객은 표를 보여주어야 합니다.",
+      "koreanPronunciationTip": "'패-신저', '패'에 강세",
+      "koreanCommonMistake": "'패신저'의 'nger'는 '저'로",
+      "mnemonic": "Pass(통과하다) + enger = 통과하는 사람",
+      "wordFamily": ["pass (통과하다)", "passage (통로)"],
+      "collocations": ["passenger seat", "passenger train", "fellow passenger"],
+      "synonyms": ["traveler", "commuter"],
+      "antonyms": ["driver"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
     }
   ],
 
@@ -321,6 +853,997 @@
       "options": ["Cancel", "Confirm", "Complete", "Continue"],
       "answer": "Cancel",
       "explanation": "'Cancel' means to stop or end a reservation or booking."
+    },
+    {
+      "id": "ex16",
+      "type": "fill_blank",
+      "question": "International flights depart from _____ 2. (terminal)",
+      "answer": ["terminal"],
+      "explanation": "A 'terminal' is a building at an airport where passengers arrive and depart."
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "What document shows your detailed travel plans?",
+      "options": ["Itinerary", "Passport", "Visa", "Ticket"],
+      "answer": "Itinerary",
+      "explanation": "An 'itinerary' is a detailed plan or route of a journey."
+    },
+    {
+      "id": "ex18",
+      "type": "translation_ko_en",
+      "question": "어제 우리는 시티 투어를 했습니다.",
+      "answer": ["We took a city tour yesterday", "We did a city tour yesterday", "We went on a city tour yesterday"],
+      "explanation": "'Tour' means a journey for pleasure in which several places are visited."
+    },
+    {
+      "id": "ex19",
+      "type": "fill_blank",
+      "question": "We went _____ in Seoul. (sightseeing)",
+      "answer": ["sightseeing"],
+      "explanation": "'Sightseeing' is the activity of visiting places of interest in a particular location."
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "What is another word for lodging?",
+      "options": ["Accommodation", "Transportation", "Destination", "Journey"],
+      "answer": "Accommodation",
+      "explanation": "'Accommodation' means a place to stay, such as a hotel or apartment."
+    },
+    {
+      "id": "ex21",
+      "type": "true_false",
+      "question": "Check-out is when you leave your hotel room. (True/False)",
+      "answer": "True",
+      "explanation": "'Check-out' is the process of leaving a hotel and paying for your stay."
+    },
+    {
+      "id": "ex22",
+      "type": "fill_blank",
+      "question": "The bus _____ is 2 dollars. (fare)",
+      "answer": ["fare", "fee", "price"],
+      "explanation": "'Fare' is the money you pay for a journey on public transportation."
+    },
+    {
+      "id": "ex23",
+      "type": "translation_en_ko",
+      "question": "This bus follows a different route.",
+      "answer": ["이 버스는 다른 경로를 따릅니다", "이 버스는 다른 노선을 따릅니다"],
+      "explanation": "'Route' means the path or way taken to get from one place to another."
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "How long does the _____ take? Five hours.",
+      "options": ["journey", "passenger", "terminal", "visa"],
+      "answer": "journey",
+      "explanation": "A 'journey' is the act of traveling from one place to another."
+    },
+    {
+      "id": "ex25",
+      "type": "fill_blank",
+      "question": "Meet me at the _____ _____ area. (baggage claim)",
+      "answer": ["baggage claim", "luggage claim"],
+      "explanation": "'Baggage claim' is the area in an airport where you collect your luggage."
+    },
+    {
+      "id": "ex26",
+      "type": "true_false",
+      "question": "You need a visa to enter every country. (True/False)",
+      "answer": "False",
+      "explanation": "Visa requirements vary by country. Some countries don't require visas for certain nationalities."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "What is the opposite of international?",
+      "options": ["Domestic", "Foreign", "Global", "Overseas"],
+      "answer": "Domestic",
+      "explanation": "'Domestic' means relating to your own country, while 'international' means between countries."
+    },
+    {
+      "id": "ex28",
+      "type": "matching",
+      "question": "Match the travel terms:",
+      "options": ["Aisle", "Window seat", "Direct flight", "Stopover"],
+      "answer": ["통로", "창가 좌석", "직항", "경유"],
+      "explanation": "Match each English term with its Korean meaning."
+    },
+    {
+      "id": "ex29",
+      "type": "fill_blank",
+      "question": "Let's take a _____ to the hotel. (taxi)",
+      "answer": ["taxi", "cab"],
+      "explanation": "A 'taxi' is a car that you can hire with a driver to take you somewhere."
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "Which is faster in a city: bus or subway?",
+      "options": ["Usually subway", "Always bus", "Both same speed", "Never subway"],
+      "answer": "Usually subway",
+      "explanation": "Subways are often faster because they don't get stuck in traffic."
+    },
+    {
+      "id": "ex31",
+      "type": "translation_ko_en",
+      "question": "기차는 10분마다 옵니다.",
+      "answer": ["The train comes every 10 minutes", "Trains come every 10 minutes"],
+      "explanation": "'Every 10 minutes' expresses frequency."
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "question": "Which _____ should I get off at? (station)",
+      "answer": ["station", "stop"],
+      "explanation": "A 'station' is a place where trains or buses stop."
+    },
+    {
+      "id": "ex33",
+      "type": "true_false",
+      "question": "You can buy tickets at the ticket office. (True/False)",
+      "answer": "True",
+      "explanation": "A 'ticket office' is where tickets are sold."
+    },
+    {
+      "id": "ex34",
+      "type": "multiple_choice",
+      "question": "Where do you ask for help at a train station?",
+      "options": ["Information desk", "Lost and found", "Baggage claim", "Gate"],
+      "answer": "Information desk",
+      "explanation": "The 'information desk' provides assistance and answers questions."
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "I left my bag on the train. I need to go to _____ and _____. (lost and found)",
+      "answer": ["lost and found", "the lost and found"],
+      "explanation": "'Lost and found' is where lost items are kept."
+    },
+    {
+      "id": "ex36",
+      "type": "translation_en_ko",
+      "question": "Do you have a reservation?",
+      "answer": ["예약하셨나요", "예약이 있으신가요"],
+      "explanation": "A 'reservation' is an arrangement to have something kept for you."
+    },
+    {
+      "id": "ex37",
+      "type": "multiple_choice",
+      "question": "Another word for schedule is:",
+      "options": ["Timetable", "Terminal", "Transfer", "Ticket"],
+      "answer": "Timetable",
+      "explanation": "A 'timetable' shows the times when buses, trains, etc. arrive and depart."
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "All _____ must show their tickets. (passengers)",
+      "answer": ["passengers"],
+      "explanation": "A 'passenger' is a person traveling in a vehicle."
+    },
+    {
+      "id": "ex39",
+      "type": "error_correction",
+      "question": "Find the error: I need take a taxi to airport.",
+      "answer": ["I need to take a taxi to the airport"],
+      "explanation": "Need 'to' + verb, and use 'the' before specific places like 'airport'."
+    },
+    {
+      "id": "ex40",
+      "type": "multiple_choice",
+      "question": "If your flight stops in another city, you have a:",
+      "options": ["Stopover", "Direct flight", "Fare", "Visa"],
+      "answer": "Stopover",
+      "explanation": "A 'stopover' is a stop at an intermediate point on a journey."
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "I prefer an _____ seat on the plane. (aisle)",
+      "answer": ["aisle"],
+      "explanation": "An 'aisle seat' is next to the passage between rows."
+    },
+    {
+      "id": "ex42",
+      "type": "translation_ko_en",
+      "question": "뉴욕행 직항이 있나요?",
+      "answer": ["Is there a direct flight to New York", "Do you have a direct flight to New York"],
+      "explanation": "A 'direct flight' goes straight to the destination without stops."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple_choice",
+      "question": "Domestic flights are within:",
+      "options": ["Your own country", "Different countries", "Different continents", "Different cities only"],
+      "answer": "Your own country",
+      "explanation": "'Domestic' means within your own country."
+    },
+    {
+      "id": "ex44",
+      "type": "true_false",
+      "question": "A window seat is next to the aisle. (True/False)",
+      "answer": "False",
+      "explanation": "A 'window seat' is next to the window, not the aisle."
+    },
+    {
+      "id": "ex45",
+      "type": "sentence_ordering",
+      "question": "Put in order: at / arrive / airport / the / early / We",
+      "answer": ["We arrive at the airport early"],
+      "explanation": "Subject + verb + preposition + object + adverb."
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "Check-out _____ is 11 AM. (time)",
+      "answer": ["time"],
+      "explanation": "'Check-out time' is when you must leave your hotel room."
+    },
+    {
+      "id": "ex47",
+      "type": "multiple_choice",
+      "question": "What do you call the money charged for bus travel?",
+      "options": ["Fare", "Fair", "Fear", "Fire"],
+      "answer": "Fare",
+      "explanation": "'Fare' is the price for public transport. (Note: 'fair' means just/reasonable)"
+    },
+    {
+      "id": "ex48",
+      "type": "translation_en_ko",
+      "question": "Here is your travel itinerary.",
+      "answer": ["여기 당신의 여행 일정표입니다", "여기 여행 일정표가 있습니다"],
+      "explanation": "An 'itinerary' is a detailed plan for a journey."
+    },
+    {
+      "id": "ex49",
+      "type": "collocation_match",
+      "question": "Match: take a _____",
+      "options": ["taxi", "tour", "bus", "train"],
+      "answer": ["taxi", "tour", "bus", "train"],
+      "explanation": "All of these collocate with 'take a': take a taxi/tour/bus/train."
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "The hotel provides comfortable _____. (accommodation)",
+      "answer": ["accommodation", "lodging"],
+      "explanation": "'Accommodation' is a place where you live or stay temporarily."
+    },
+    {
+      "id": "ex51",
+      "type": "multiple_choice",
+      "question": "What is the British English word for subway?",
+      "options": ["Underground", "Overtrain", "Downway", "Subroad"],
+      "answer": "Underground",
+      "explanation": "In British English, 'underground' or 'tube' is used instead of 'subway'."
+    },
+    {
+      "id": "ex52",
+      "type": "true_false",
+      "question": "You go through customs when entering a country. (True/False)",
+      "answer": "True",
+      "explanation": "Customs is where officials check what you're bringing into a country."
+    },
+    {
+      "id": "ex53",
+      "type": "translation_ko_en",
+      "question": "서울이 우리의 최종 목적지입니다.",
+      "answer": ["Seoul is our final destination", "Seoul is our last destination"],
+      "explanation": "'Destination' is the place to which someone is going."
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "We went _____ in Seoul last weekend. (sightseeing)",
+      "answer": ["sightseeing"],
+      "explanation": "'Go sightseeing' means to visit famous or interesting places."
+    },
+    {
+      "id": "ex55",
+      "type": "error_correction",
+      "question": "Find the error: My luggage were lost.",
+      "answer": ["My luggage was lost"],
+      "explanation": "'Luggage' is uncountable, so use 'was' not 'were'."
+    },
+    {
+      "id": "ex56",
+      "type": "multiple_choice",
+      "question": "Which requires a verb after it: 'I need _____'?",
+      "options": ["to go", "go", "going", "went"],
+      "answer": "to go",
+      "explanation": "'Need' is followed by 'to' + base verb."
+    },
+    {
+      "id": "ex57",
+      "type": "matching",
+      "question": "Match transport with location:",
+      "options": ["Train", "Plane", "Bus", "Subway"],
+      "answer": ["Platform", "Gate", "Bus stop", "Station"],
+      "explanation": "Each mode of transport has its specific boarding location."
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "Do I need a _____ to visit Korea? (visa)",
+      "answer": ["visa"],
+      "explanation": "A 'visa' is official permission to enter a country."
+    },
+    {
+      "id": "ex59",
+      "type": "translation_en_ko",
+      "question": "The journey takes five hours.",
+      "answer": ["그 여정은 다섯 시간이 걸립니다", "여행은 5시간 걸립니다"],
+      "explanation": "'Takes' + time = how long something requires."
+    },
+    {
+      "id": "ex60",
+      "type": "multiple_choice",
+      "question": "What's the American English word for return ticket?",
+      "options": ["Round-trip", "Two-way", "Back-forth", "Double ticket"],
+      "answer": "Round-trip",
+      "explanation": "Americans say 'round-trip' while British say 'return ticket'."
+    },
+    {
+      "id": "ex61",
+      "type": "pronunciation_compare",
+      "question": "Which pair has the same pronunciation?",
+      "options": ["aisle/isle", "route/root", "fare/fear", "visa/visor"],
+      "answer": "aisle/isle",
+      "explanation": "'Aisle' (통로) and 'isle' (섬) are pronounced the same: /aɪl/."
+    },
+    {
+      "id": "ex62",
+      "type": "fill_blank",
+      "question": "Online _____-_____ opens 24 hours before. (check-in)",
+      "answer": ["check-in", "check in"],
+      "explanation": "'Check-in' is registering for a flight or hotel."
+    },
+    {
+      "id": "ex63",
+      "type": "true_false",
+      "question": "A passenger is someone who drives a vehicle. (True/False)",
+      "answer": "False",
+      "explanation": "A 'passenger' is someone who travels in a vehicle, not the driver."
+    },
+    {
+      "id": "ex64",
+      "type": "multiple_choice",
+      "question": "Which means the same as 'lodging'?",
+      "options": ["Accommodation", "Transportation", "Information", "Reservation"],
+      "answer": "Accommodation",
+      "explanation": "Both 'accommodation' and 'lodging' mean a place to stay."
+    },
+    {
+      "id": "ex65",
+      "type": "sentence_ordering",
+      "question": "Order: ticket / need / I / buy / to / a",
+      "answer": ["I need to buy a ticket"],
+      "explanation": "Subject + need to + verb + object."
+    },
+    {
+      "id": "ex66",
+      "type": "translation_ko_en",
+      "question": "두바이에서 경유합니다.",
+      "answer": ["We have a stopover in Dubai", "There's a stopover in Dubai"],
+      "explanation": "A 'stopover' is a brief stay at an intermediate place."
+    },
+    {
+      "id": "ex67",
+      "type": "fill_blank",
+      "question": "The _____ is faster than the bus. (subway)",
+      "answer": ["subway", "underground", "metro"],
+      "explanation": "'Subway', 'underground', and 'metro' all mean underground railway."
+    },
+    {
+      "id": "ex68",
+      "type": "multiple_choice",
+      "question": "At which place do international travelers show their passport?",
+      "options": ["Customs", "Gate", "Baggage claim", "Terminal"],
+      "answer": "Customs",
+      "explanation": "At 'customs', officials check passports and belongings."
+    },
+    {
+      "id": "ex69",
+      "type": "error_correction",
+      "question": "Fix: I want reserve a seat.",
+      "answer": ["I want to reserve a seat"],
+      "explanation": "'Want' is followed by 'to' + base verb."
+    },
+    {
+      "id": "ex70",
+      "type": "collocation_match",
+      "question": "Match: _____ a reservation",
+      "options": ["make", "cancel", "confirm"],
+      "answer": ["make", "cancel", "confirm"],
+      "explanation": "Common collocations with 'reservation': make/cancel/confirm a reservation."
+    },
+    {
+      "id": "ex71",
+      "type": "translation_en_ko",
+      "question": "Buy your tickets at the ticket office.",
+      "answer": ["매표소에서 표를 사세요", "티켓 오피스에서 표를 구매하세요"],
+      "explanation": "'Ticket office' is where you purchase tickets."
+    },
+    {
+      "id": "ex72",
+      "type": "fill_blank",
+      "question": "I have a _____ in Tokyo. (connection)",
+      "answer": ["connection", "layover", "transfer"],
+      "explanation": "A 'connection' is a flight or train that continues your journey."
+    },
+    {
+      "id": "ex73",
+      "type": "multiple_choice",
+      "question": "What do you call the place where trains stop?",
+      "options": ["Platform", "Terminal", "Gate", "Dock"],
+      "answer": "Platform",
+      "explanation": "A 'platform' is the raised area at a railway station."
+    },
+    {
+      "id": "ex74",
+      "type": "true_false",
+      "question": "An itinerary shows your travel plans. (True/False)",
+      "answer": "True",
+      "explanation": "An 'itinerary' is a detailed plan of a journey."
+    },
+    {
+      "id": "ex75",
+      "type": "translation_ko_en",
+      "question": "온라인으로 기차 시간표를 확인하세요.",
+      "answer": ["Check the train timetable online", "Check the train schedule online"],
+      "explanation": "'Timetable' and 'schedule' are synonyms."
+    },
+    {
+      "id": "ex76",
+      "type": "fill_blank",
+      "question": "Boarding starts at _____ 12. (gate)",
+      "answer": ["gate"],
+      "explanation": "A 'gate' is where you board a plane at an airport."
+    },
+    {
+      "id": "ex77",
+      "type": "multiple_choice",
+      "question": "The opposite of arrival is:",
+      "options": ["Departure", "Transfer", "Delay", "Cancel"],
+      "answer": "Departure",
+      "explanation": "'Departure' means leaving; 'arrival' means coming."
+    },
+    {
+      "id": "ex78",
+      "type": "sentence_ordering",
+      "question": "Order: tour / We / city / yesterday / a / took",
+      "answer": ["We took a city tour yesterday"],
+      "explanation": "Subject + verb + object + time."
+    },
+    {
+      "id": "ex79",
+      "type": "matching",
+      "question": "Match opposites:",
+      "options": ["Check-in", "Domestic", "One-way", "Arrival"],
+      "answer": ["Check-out", "International", "Round-trip", "Departure"],
+      "explanation": "Each word has a clear opposite in travel vocabulary."
+    },
+    {
+      "id": "ex80",
+      "type": "fill_blank",
+      "question": "The train was _____ by 30 minutes. (delayed)",
+      "answer": ["delayed"],
+      "explanation": "'Delayed' means made late or postponed."
+    },
+    {
+      "id": "ex81",
+      "type": "translation_en_ko",
+      "question": "I need a one-way ticket to Busan.",
+      "answer": ["부산행 편도 티켓이 필요합니다", "부산까지 편도표가 필요합니다"],
+      "explanation": "'One-way' means traveling in only one direction."
+    },
+    {
+      "id": "ex82",
+      "type": "multiple_choice",
+      "question": "Where do you collect your bags at the airport?",
+      "options": ["Baggage claim", "Check-in", "Gate", "Customs"],
+      "answer": "Baggage claim",
+      "explanation": "'Baggage claim' is where you pick up checked luggage."
+    },
+    {
+      "id": "ex83",
+      "type": "true_false",
+      "question": "A round-trip ticket is cheaper than two one-way tickets. (True/False)",
+      "answer": "True",
+      "explanation": "Usually, round-trip tickets offer better value than buying two one-way tickets."
+    },
+    {
+      "id": "ex84",
+      "type": "error_correction",
+      "question": "Fix: Can I get refund?",
+      "answer": ["Can I get a refund"],
+      "explanation": "Countable nouns need an article: 'a refund'."
+    },
+    {
+      "id": "ex85",
+      "type": "fill_blank",
+      "question": "I want to _____ my reservation. (cancel)",
+      "answer": ["cancel"],
+      "explanation": "'Cancel' means to decide that something will not happen."
+    },
+    {
+      "id": "ex86",
+      "type": "multiple_choice",
+      "question": "What's a synonym for 'cab'?",
+      "options": ["Taxi", "Bus", "Train", "Subway"],
+      "answer": "Taxi",
+      "explanation": "'Cab' and 'taxi' mean the same thing."
+    },
+    {
+      "id": "ex87",
+      "type": "translation_ko_en",
+      "question": "모든 승객은 표를 보여주어야 합니다.",
+      "answer": ["All passengers must show their tickets", "Every passenger must show their ticket"],
+      "explanation": "'Must' expresses strong obligation or necessity."
+    },
+    {
+      "id": "ex88",
+      "type": "pronunciation_compare",
+      "question": "Which word has silent letters?",
+      "options": ["Aisle", "Taxi", "Fare", "Gate"],
+      "answer": "Aisle",
+      "explanation": "'Aisle' is pronounced /aɪl/ - the 's' is silent."
+    },
+    {
+      "id": "ex89",
+      "type": "fill_blank",
+      "question": "We need to _____ to line 2. (transfer)",
+      "answer": ["transfer", "change"],
+      "explanation": "'Transfer' means to change from one vehicle/line to another."
+    },
+    {
+      "id": "ex90",
+      "type": "multiple_choice",
+      "question": "Information desk is where you:",
+      "options": ["Ask for help", "Buy tickets", "Board trains", "Collect luggage"],
+      "answer": "Ask for help",
+      "explanation": "The 'information desk' provides assistance and answers questions."
+    },
+    {
+      "id": "ex91",
+      "type": "sentence_ordering",
+      "question": "Order: passport / bring / Don't / your / forget / to",
+      "answer": ["Don't forget to bring your passport"],
+      "explanation": "Don't forget + to + verb is a common warning structure."
+    },
+    {
+      "id": "ex92",
+      "type": "translation_en_ko",
+      "question": "What's the bus schedule?",
+      "answer": ["버스 시간표가 어떻게 되나요", "버스 운행시간이 어떻게 되나요"],
+      "explanation": "'Schedule' is a timetable showing when things happen."
+    },
+    {
+      "id": "ex93",
+      "type": "true_false",
+      "question": "Lost and found is where you find lost items. (True/False)",
+      "answer": "True",
+      "explanation": "'Lost and found' keeps items that people have lost."
+    },
+    {
+      "id": "ex94",
+      "type": "fill_blank",
+      "question": "Please show your _____ _____. (boarding pass)",
+      "answer": ["boarding pass"],
+      "explanation": "A 'boarding pass' allows you to get on a plane."
+    },
+    {
+      "id": "ex95",
+      "type": "multiple_choice",
+      "question": "If you miss your flight, it means you:",
+      "options": ["Didn't catch it", "Caught it early", "Cancelled it", "Delayed it"],
+      "answer": "Didn't catch it",
+      "explanation": "'Miss' a flight means you arrived too late to board."
+    },
+    {
+      "id": "ex96",
+      "type": "collocation_match",
+      "question": "Complete: go through _____",
+      "options": ["customs", "security"],
+      "answer": ["customs", "security"],
+      "explanation": "Common collocations: go through customs/security at airports."
+    },
+    {
+      "id": "ex97",
+      "type": "translation_ko_en",
+      "question": "출발 시간이 변경되었습니다.",
+      "answer": ["The departure time has changed", "Departure time changed"],
+      "explanation": "'Has changed' indicates a recent change (present perfect)."
+    },
+    {
+      "id": "ex98",
+      "type": "fill_blank",
+      "question": "A _____ ticket is cheaper. (round-trip)",
+      "answer": ["round-trip", "return"],
+      "explanation": "'Round-trip' (US) or 'return' (UK) means going and coming back."
+    },
+    {
+      "id": "ex99",
+      "type": "error_correction",
+      "question": "Fix: My flight leave at 3 PM.",
+      "answer": ["My flight leaves at 3 PM"],
+      "explanation": "Third person singular needs 's': 'leaves' not 'leave'."
+    },
+    {
+      "id": "ex100",
+      "type": "multiple_choice",
+      "question": "Which preposition: arrive _____ the airport?",
+      "options": ["at", "to", "in", "on"],
+      "answer": "at",
+      "explanation": "Use 'arrive at' for specific places like airports, stations."
+    },
+    {
+      "id": "ex101",
+      "type": "translation_en_ko",
+      "question": "I travel to work by train.",
+      "answer": ["저는 기차로 출근합니다", "나는 기차로 회사에 갑니다"],
+      "explanation": "'By train' indicates the mode of transportation."
+    },
+    {
+      "id": "ex102",
+      "type": "matching",
+      "question": "Match verbs with transport:",
+      "options": ["Take", "Catch", "Board", "Miss"],
+      "answer": ["a taxi/bus", "a train/flight", "a plane", "a flight/train"],
+      "explanation": "Different verbs collocate with different transport modes."
+    },
+    {
+      "id": "ex103",
+      "type": "fill_blank",
+      "question": "This is a _____ flight within Korea. (domestic)",
+      "answer": ["domestic", "local"],
+      "explanation": "'Domestic' means within the same country."
+    },
+    {
+      "id": "ex104",
+      "type": "true_false",
+      "question": "Terminal and station mean exactly the same thing. (True/False)",
+      "answer": "False",
+      "explanation": "While similar, 'terminal' is usually for airports/buses, 'station' for trains."
+    },
+    {
+      "id": "ex105",
+      "type": "multiple_choice",
+      "question": "What do you need to travel internationally?",
+      "options": ["Passport", "Driver's license", "Student ID", "Library card"],
+      "answer": "Passport",
+      "explanation": "A 'passport' is required for international travel."
+    },
+    {
+      "id": "ex106",
+      "type": "sentence_ordering",
+      "question": "Order: sightseeing / went / We / Seoul / in",
+      "answer": ["We went sightseeing in Seoul"],
+      "explanation": "Go + -ing form expresses activities: go shopping, go swimming, go sightseeing."
+    },
+    {
+      "id": "ex107",
+      "type": "fill_blank",
+      "question": "I left my bag. Where is the _____ and _____? (lost and found)",
+      "answer": ["lost and found"],
+      "explanation": "'Lost and found' is where lost items are kept."
+    },
+    {
+      "id": "ex108",
+      "type": "translation_ko_en",
+      "question": "가기 전에 도착 시간을 확인하세요.",
+      "answer": ["Check the arrival time before going", "Check the arrival time before you go"],
+      "explanation": "'Before going' or 'before you go' expresses time sequence."
+    },
+    {
+      "id": "ex109",
+      "type": "multiple_choice",
+      "question": "Which needs 'the': I'm going to _____ airport?",
+      "options": ["the", "a", "an", "no article"],
+      "answer": "the",
+      "explanation": "Use 'the' when both speaker and listener know which airport."
+    },
+    {
+      "id": "ex110",
+      "type": "error_correction",
+      "question": "Fix: You need go through customs.",
+      "answer": ["You need to go through customs"],
+      "explanation": "'Need' requires 'to' before the verb."
+    },
+    {
+      "id": "ex111",
+      "type": "collocation_match",
+      "question": "Complete: book a _____",
+      "options": ["flight", "hotel", "ticket", "tour"],
+      "answer": ["flight", "hotel", "ticket", "tour"],
+      "explanation": "'Book' collocates with many travel-related nouns."
+    },
+    {
+      "id": "ex112",
+      "type": "fill_blank",
+      "question": "Can I have a _____ seat? (window)",
+      "answer": ["window"],
+      "explanation": "A 'window seat' is next to the window on a plane or train."
+    },
+    {
+      "id": "ex113",
+      "type": "translation_en_ko",
+      "question": "The departure time has changed.",
+      "answer": ["출발 시간이 변경되었습니다", "출발 시간이 바뀌었습니다"],
+      "explanation": "'Has changed' shows a completed action affecting the present."
+    },
+    {
+      "id": "ex114",
+      "type": "true_false",
+      "question": "Route and root have the same pronunciation. (True/False)",
+      "answer": "True",
+      "explanation": "Both 'route' /ruːt/ and 'root' /ruːt/ sound the same in American English."
+    },
+    {
+      "id": "ex115",
+      "type": "multiple_choice",
+      "question": "What's the verb form of 'reservation'?",
+      "options": ["Reserve", "Reservate", "Reserving", "Reserv"],
+      "answer": "Reserve",
+      "explanation": "The verb is 'reserve'; the noun is 'reservation'."
+    },
+    {
+      "id": "ex116",
+      "type": "sentence_ordering",
+      "question": "Order: show / must / passengers / All / tickets / their",
+      "answer": ["All passengers must show their tickets"],
+      "explanation": "Subject + must + verb + object structure."
+    },
+    {
+      "id": "ex117",
+      "type": "fill_blank",
+      "question": "The bus comes _____ 10 minutes. (every)",
+      "answer": ["every"],
+      "explanation": "'Every' + time period expresses regular frequency."
+    },
+    {
+      "id": "ex118",
+      "type": "translation_ko_en",
+      "question": "국제선 터미널로 가야 합니다.",
+      "answer": ["I need to go to the international terminal", "I have to go to the international terminal"],
+      "explanation": "'Need to' and 'have to' express necessity."
+    },
+    {
+      "id": "ex119",
+      "type": "multiple_choice",
+      "question": "Another word for 'trip' is:",
+      "options": ["Journey", "Passenger", "Terminal", "Station"],
+      "answer": "Journey",
+      "explanation": "'Journey', 'trip', and 'voyage' are synonyms."
+    },
+    {
+      "id": "ex120",
+      "type": "error_correction",
+      "question": "Fix: I want cancel my reservation.",
+      "answer": ["I want to cancel my reservation"],
+      "explanation": "'Want' needs 'to' before the verb."
+    },
+    {
+      "id": "ex121",
+      "type": "fill_blank",
+      "question": "Apply for a _____ at the embassy. (visa)",
+      "answer": ["visa"],
+      "explanation": "'Apply for' is used when requesting official permission or documents."
+    },
+    {
+      "id": "ex122",
+      "type": "matching",
+      "question": "Match the collocations:",
+      "options": ["Catch", "Miss", "Board", "Book"],
+      "answer": ["a flight", "a train", "a plane", "a ticket"],
+      "explanation": "Each verb has natural collocations with travel nouns."
+    },
+    {
+      "id": "ex123",
+      "type": "translation_en_ko",
+      "question": "Ask at the information desk for help.",
+      "answer": ["도움이 필요하면 안내 데스크에 문의하세요", "안내 데스크에서 도움을 요청하세요"],
+      "explanation": "'Ask at' indicates where to request information."
+    },
+    {
+      "id": "ex124",
+      "type": "true_false",
+      "question": "Fare and fair have the same meaning. (True/False)",
+      "answer": "False",
+      "explanation": "'Fare' is a price; 'fair' means just/reasonable (though pronounced the same)."
+    },
+    {
+      "id": "ex125",
+      "type": "multiple_choice",
+      "question": "Which preposition: travel _____ train?",
+      "options": ["by", "with", "on", "in"],
+      "answer": "by",
+      "explanation": "Use 'by' + transport for the mode: by train, by bus, by plane."
+    },
+    {
+      "id": "ex126",
+      "type": "sentence_ordering",
+      "question": "Order: stopover / have / in / We / Dubai / a",
+      "answer": ["We have a stopover in Dubai"],
+      "explanation": "Subject + have + object + place."
+    },
+    {
+      "id": "ex127",
+      "type": "fill_blank",
+      "question": "Is there a _____ flight to New York? (direct)",
+      "answer": ["direct", "non-stop"],
+      "explanation": "'Direct' or 'non-stop' flights go without intermediate stops."
+    },
+    {
+      "id": "ex128",
+      "type": "translation_ko_en",
+      "question": "어느 역에서 내려야 하나요?",
+      "answer": ["Which station should I get off at", "At which station should I get off"],
+      "explanation": "'Get off' means to leave a bus, train, or other vehicle."
+    },
+    {
+      "id": "ex129",
+      "type": "collocation_match",
+      "question": "Complete: check the _____",
+      "options": ["timetable", "schedule", "time"],
+      "answer": ["timetable", "schedule", "time"],
+      "explanation": "'Check' commonly pairs with timetable/schedule/time."
+    },
+    {
+      "id": "ex130",
+      "type": "multiple_choice",
+      "question": "The place where you wait to board a train:",
+      "options": ["Platform", "Gate", "Terminal", "Counter"],
+      "answer": "Platform",
+      "explanation": "A 'platform' is the raised area at a train station."
+    },
+    {
+      "id": "ex131",
+      "type": "error_correction",
+      "question": "Fix: The train depart from platform 5.",
+      "answer": ["The train departs from platform 5"],
+      "explanation": "Third person singular present needs 's': 'departs'."
+    },
+    {
+      "id": "ex132",
+      "type": "fill_blank",
+      "question": "Meet me at the _____ area. (baggage claim)",
+      "answer": ["baggage claim", "luggage collection"],
+      "explanation": "This is where you collect your checked bags at the airport."
+    },
+    {
+      "id": "ex133",
+      "type": "translation_en_ko",
+      "question": "My luggage was lost during the flight.",
+      "answer": ["비행 중에 제 짐을 분실했습니다", "비행기 타는 동안 짐을 잃어버렸습니다"],
+      "explanation": "'Was lost' (passive) indicates something happened to your luggage."
+    },
+    {
+      "id": "ex134",
+      "type": "true_false",
+      "question": "Accommodation is always a hotel. (True/False)",
+      "answer": "False",
+      "explanation": "'Accommodation' includes hotels, hostels, apartments, guesthouses, etc."
+    },
+    {
+      "id": "ex135",
+      "type": "multiple_choice",
+      "question": "What do you call a brief stop during a long journey?",
+      "options": ["Stopover", "Departure", "Destination", "Terminal"],
+      "answer": "Stopover",
+      "explanation": "A 'stopover' is a short stay at an intermediate point."
+    },
+    {
+      "id": "ex136",
+      "type": "sentence_ordering",
+      "question": "Order: time / Check-out / 11 AM / is",
+      "answer": ["Check-out time is 11 AM"],
+      "explanation": "Subject + verb + complement structure."
+    },
+    {
+      "id": "ex137",
+      "type": "fill_blank",
+      "question": "I need to _____ a hotel room. (book)",
+      "answer": ["book", "reserve"],
+      "explanation": "'Book' and 'reserve' both mean to arrange in advance."
+    },
+    {
+      "id": "ex138",
+      "type": "translation_ko_en",
+      "question": "지하철이 버스보다 빠릅니다.",
+      "answer": ["The subway is faster than the bus", "Subways are faster than buses"],
+      "explanation": "'Faster than' is the comparative form for speed comparisons."
+    },
+    {
+      "id": "ex139",
+      "type": "matching",
+      "question": "Match synonyms:",
+      "options": ["Journey", "Reserve", "Fare", "Luggage"],
+      "answer": ["Trip", "Book", "Price", "Baggage"],
+      "explanation": "Each word has a common synonym in travel vocabulary."
+    },
+    {
+      "id": "ex140",
+      "type": "multiple_choice",
+      "question": "If you want to sit next to the window, ask for:",
+      "options": ["Window seat", "Aisle seat", "Middle seat", "Front seat"],
+      "answer": "Window seat",
+      "explanation": "A 'window seat' is located next to the window."
+    },
+    {
+      "id": "ex141",
+      "type": "error_correction",
+      "question": "Fix: I prefer aisle seat.",
+      "answer": ["I prefer an aisle seat"],
+      "explanation": "Countable singular nouns need an article: 'an aisle seat'."
+    },
+    {
+      "id": "ex142",
+      "type": "fill_blank",
+      "question": "Let's _____ a taxi to the hotel. (take)",
+      "answer": ["take", "get", "catch"],
+      "explanation": "'Take', 'get', or 'catch' a taxi are all common expressions."
+    },
+    {
+      "id": "ex143",
+      "type": "translation_en_ko",
+      "question": "Don't forget to bring your passport.",
+      "answer": ["여권 가져오는 것 잊지 마세요", "여권 챙기는 것 잊지 마세요"],
+      "explanation": "'Don't forget to' warns about something important."
+    },
+    {
+      "id": "ex144",
+      "type": "true_false",
+      "question": "You can change your route after booking. (True/False)",
+      "answer": "True",
+      "explanation": "Usually you can change routes, though there may be fees."
+    },
+    {
+      "id": "ex145",
+      "type": "collocation_match",
+      "question": "Complete: _____ a journey",
+      "options": ["take", "make"],
+      "answer": ["take", "make"],
+      "explanation": "Both 'take a journey' and 'make a journey' are correct."
+    },
+    {
+      "id": "ex146",
+      "type": "multiple_choice",
+      "question": "The train _____ from platform 3.",
+      "options": ["departs", "departures", "departure", "departed"],
+      "answer": "departs",
+      "explanation": "Present simple third person: 'departs' (verb)."
+    },
+    {
+      "id": "ex147",
+      "type": "sentence_ordering",
+      "question": "Order: provides / hotel / The / accommodation / comfortable",
+      "answer": ["The hotel provides comfortable accommodation"],
+      "explanation": "Subject + verb + adjective + object structure."
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "question": "Seoul is our final _____. (destination)",
+      "answer": ["destination", "stop"],
+      "explanation": "'Final destination' is the last place in your journey."
+    },
+    {
+      "id": "ex149",
+      "type": "translation_ko_en",
+      "question": "도쿄에서 환승이 있습니다.",
+      "answer": ["I have a connection in Tokyo", "There's a connection in Tokyo"],
+      "explanation": "A 'connection' is a continuing journey via another transport."
+    },
+    {
+      "id": "ex150",
+      "type": "multiple_choice",
+      "question": "Which is correct: 'the fare _____ 5 dollars'?",
+      "options": ["is", "are", "be", "am"],
+      "answer": "is",
+      "explanation": "'Fare' is singular, so use 'is' not 'are'."
     }
   ]
 }

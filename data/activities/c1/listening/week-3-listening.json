@@ -1,0 +1,108 @@
+{
+  "id": "c1-listening-week-3",
+  "type": "listening",
+  "level": "C1",
+  "weekId": "week-3",
+  "title": "Policy Debates and Expert Interviews",
+  "description": "Understanding nuanced policy discussions and expert commentary",
+  "estimatedMinutes": 25,
+  "xpReward": 50,
+  "passages": [
+    {
+      "id": "c1-l3-p1",
+      "title": "Healthcare Policy Discussion",
+      "context": "Radio interview with a health policy expert",
+      "transcript": "Well, the situation is considerably more nuanced than the headlines suggest. Yes, we're seeing rising healthcare costs, but attributing this solely to administrative inefficiency, as some commentators have done, oversimplifies a complex issue. There are structural factors at play—an aging population, the cost of new medical technologies, and frankly, the fee-for-service model itself creates perverse incentives. That said, I wouldn't dismiss administrative costs entirely. Some estimates suggest they account for up to thirty percent of total healthcare spending. But the solution isn't simply to cut administrators—it's to redesign systems so that administrative work becomes less necessary in the first place.",
+      "audioDescription": "A health policy expert responds to questions in a radio interview",
+      "questions": [
+        {
+          "id": "c1-l3-p1-q1",
+          "question": "What is the speaker's main criticism of some commentators?",
+          "options": [
+            "They ignore healthcare costs entirely",
+            "They oversimplify by blaming only administrative inefficiency",
+            "They focus too much on structural factors",
+            "They support the fee-for-service model"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The speaker says 'attributing this solely to administrative inefficiency... oversimplifies a complex issue'"
+        },
+        {
+          "id": "c1-l3-p1-q2",
+          "question": "What does the speaker mean by 'perverse incentives'?",
+          "options": [
+            "Incentives that are morally wrong",
+            "Incentives that produce unintended negative effects",
+            "Incentives that are too generous",
+            "Incentives that discourage work"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Perverse incentives' in policy discourse refers to incentive structures that unintentionally encourage undesirable outcomes"
+        },
+        {
+          "id": "c1-l3-p1-q3",
+          "question": "What solution does the speaker advocate?",
+          "options": [
+            "Cutting administrative staff",
+            "Increasing healthcare funding",
+            "Redesigning systems to reduce administrative needs",
+            "Abandoning the fee-for-service model immediately"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The speaker says 'to redesign systems so that administrative work becomes less necessary in the first place'"
+        }
+      ]
+    },
+    {
+      "id": "c1-l3-p2",
+      "title": "Education Reform Debate",
+      "context": "Panel discussion on standardized testing",
+      "transcript": "I want to push back on that characterization. It's not that critics of standardized testing are opposed to accountability—quite the contrary. What we're questioning is whether these particular instruments actually measure what they claim to measure. When you have schools narrowing their curriculum to teach to the test, when you see creative subjects and physical education being marginalized, you have to ask: is this the kind of accountability we want? The irony is that in trying to measure educational quality, we may actually be degrading it. Now, I grant that we need some way of assessing student progress and school performance. But surely we can develop assessment systems that don't have these distorting effects.",
+      "audioDescription": "An education expert responds to criticism during a panel discussion",
+      "questions": [
+        {
+          "id": "c1-l3-p2-q1",
+          "question": "According to the speaker, what do testing critics actually oppose?",
+          "options": [
+            "All forms of accountability",
+            "The specific instruments used, not accountability itself",
+            "Measuring student progress",
+            "School performance evaluation"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The speaker says critics aren't 'opposed to accountability—quite the contrary' but question 'whether these particular instruments actually measure what they claim'"
+        },
+        {
+          "id": "c1-l3-p2-q2",
+          "question": "What 'irony' does the speaker identify?",
+          "options": [
+            "Students enjoy standardized tests",
+            "Teachers support testing but students don't",
+            "Attempting to measure quality may reduce it",
+            "Testing is cheaper than expected"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The 'irony is that in trying to measure educational quality, we may actually be degrading it'"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "nuanced",
+      "definition": "Characterized by subtle distinctions or variations"
+    },
+    {
+      "term": "perverse incentives",
+      "definition": "Incentive structures that unintentionally encourage undesirable behavior"
+    },
+    {
+      "term": "push back",
+      "definition": "To resist or challenge an argument or position"
+    },
+    {
+      "term": "distorting effects",
+      "definition": "Unintended changes or misrepresentations caused by a policy or action"
+    }
+  ]
+}

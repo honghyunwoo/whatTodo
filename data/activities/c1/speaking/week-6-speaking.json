@@ -1,0 +1,133 @@
+{
+  "id": "c1-speaking-week-6",
+  "type": "speaking",
+  "level": "C1",
+  "weekId": "week-6",
+  "title": "Formal Meetings and Procedural Discourse",
+  "description": "Language for formal meetings, hearings, and institutional proceedings",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c1-s6-s1",
+      "title": "Meeting Procedure Language",
+      "description": "Formal expressions for conducting and participating in meetings",
+      "phrases": [
+        {
+          "function": "Opening",
+          "expressions": [
+            "I call this meeting to order.",
+            "The purpose of today's meeting is to...",
+            "Before we proceed to the agenda, are there any preliminary matters?"
+          ]
+        },
+        {
+          "function": "Managing agenda",
+          "expressions": [
+            "Moving to the next item on the agenda...",
+            "I'd like to table this discussion until we have more information.",
+            "Can we defer this item to the next meeting?"
+          ]
+        },
+        {
+          "function": "Requesting the floor",
+          "expressions": [
+            "May I have the floor?",
+            "I'd like to speak to this point, if I may.",
+            "Point of order, Chair."
+          ]
+        },
+        {
+          "function": "Making motions",
+          "expressions": [
+            "I move that we approve the proposed budget.",
+            "I'd like to propose an amendment to the motion.",
+            "Is there a second to this motion?"
+          ]
+        },
+        {
+          "function": "Voting",
+          "expressions": [
+            "All those in favor? All opposed? The motion carries/fails.",
+            "I'd like to request a roll call vote.",
+            "The Chair abstains from this vote."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-s6-s2",
+      "title": "Legal and Formal Argumentation",
+      "description": "Presenting arguments in formal proceedings",
+      "techniques": [
+        {
+          "technique": "Establishing standing",
+          "example": "Speaking as a shareholder directly affected by this decision...",
+          "purpose": "Establishes right to be heard"
+        },
+        {
+          "technique": "Citing authority",
+          "example": "As established in the 2019 ruling, the standard for such claims requires...",
+          "purpose": "Grounds argument in precedent or rules"
+        },
+        {
+          "technique": "Distinguishing cases",
+          "example": "The circumstances here differ materially from those in the prior case in that...",
+          "purpose": "Argues precedent doesn't apply"
+        },
+        {
+          "technique": "Balancing interests",
+          "example": "While the interests of efficiency favor X, the interests of fairness require us to also consider Y.",
+          "purpose": "Shows consideration of multiple factors"
+        }
+      ]
+    },
+    {
+      "id": "c1-s6-s3",
+      "title": "Diplomatic Disagreement in Formal Settings",
+      "description": "Expressing opposition professionally in institutional contexts",
+      "phrases": [
+        {
+          "function": "Expressing reservations",
+          "expressions": [
+            "I have some reservations about this approach.",
+            "While I understand the reasoning, I'm not yet convinced that...",
+            "I'd like to register my concerns about..."
+          ]
+        },
+        {
+          "function": "Formal objection",
+          "expressions": [
+            "I must respectfully object to this characterization.",
+            "With respect, I believe this misrepresents the situation.",
+            "I'm obliged to point out that this proposal conflicts with..."
+          ]
+        },
+        {
+          "function": "Requesting reconsideration",
+          "expressions": [
+            "I would urge the committee to reconsider its position on...",
+            "Might we revisit this decision in light of new information?",
+            "I formally request a review of this determination."
+          ]
+        }
+      ]
+    }
+  ],
+  "practiceScenarios": [
+    {
+      "id": "c1-s6-sc1",
+      "title": "Board Meeting Participation",
+      "context": "You're a board member concerned about a proposed merger. Present your objection formally.",
+      "task": "Express opposition while maintaining professional decorum.",
+      "sampleResponse": "Thank you, Chair. Before we proceed to a vote on this merger, I'd like to register several concerns. First, the due diligence report identifies significant integration risks that, in my view, have not been adequately addressed in management's presentation. Specifically, the cultural integration challenges with the target company suggest a longer timeline and higher costs than currently budgeted. Second, I question whether the projected synergies are realistic given comparable transactions in our industry. I would therefore move to defer this vote pending an independent assessment of the integration plan. Is there a second to this motion?"
+    },
+    {
+      "id": "c1-s6-sc2",
+      "title": "Regulatory Hearing",
+      "context": "You're presenting your company's position at a regulatory hearing on proposed new requirements.",
+      "task": "Argue against certain aspects of the proposal while showing willingness to comply.",
+      "sampleResponse": "Good morning. I'm here to present our company's perspective on the proposed regulations. Let me begin by affirming our commitment to the underlying objectives—we share the agency's concern for consumer protection. However, we respectfully submit that certain provisions of the proposal would impose costs disproportionate to their benefits. Specifically, the reporting requirement in Section 4.3 would require investment in new systems that our analysis suggests would exceed $2 million annually, while achieving the same transparency goals as the less burdensome approach used in neighboring jurisdictions. We would urge the commission to consider adopting the alternative framework outlined in our written submission, which achieves compliance while permitting operational flexibility."
+    }
+  ]
+}

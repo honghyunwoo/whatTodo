@@ -1,0 +1,116 @@
+{
+  "id": "c2-listening-week-8",
+  "type": "listening",
+  "level": "C2",
+  "weekId": "week-8",
+  "title": "Advanced Academic Discourse",
+  "description": "The most sophisticated levels of scholarly discussion and intellectual exchange",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passages": [
+    {
+      "id": "c2-l8-p1",
+      "title": "The Crisis of the Humanities",
+      "context": "Academic panel discussion",
+      "transcript": "The humanities find themselves in a peculiar position: never more necessary, never less valued. In an age of artificial intelligence and algorithmic governance, the human capacities the humanities cultivate—critical interpretation, ethical reasoning, historical consciousness—are precisely what we need to navigate technological transformation. Yet enrollments decline, departments shrink, and administrators demand 'return on investment' in terms the humanities cannot and should not provide. The response has taken two forms. One strategy, the instrumental defense, argues that humanities education produces transferable skills valuable in the job market: communication, critical thinking, creativity. This is true but ultimately capitulates to the very framework that devalues the humanities. The alternative, perhaps more honest but harder to make in funding meetings, is that some forms of knowledge are intrinsically valuable—that understanding Shakespeare or Confucius, that grappling with the history of slavery or the philosophy of justice, that learning to interpret images and narratives, matters not because it produces measurable outcomes but because it constitutes what it means to be a cultivated human being.",
+      "audioDescription": "Humanities scholars discussing the state of their disciplines",
+      "questions": [
+        {
+          "id": "c2-l8-p1-q1",
+          "question": "What paradox does the speaker identify about the humanities' current situation?",
+          "options": [
+            "They are both expensive and underfunded",
+            "They are more necessary but less valued than ever",
+            "They attract students but not faculty",
+            "They are rigorous but not scholarly"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Never more necessary, never less valued'"
+        },
+        {
+          "id": "c2-l8-p1-q2",
+          "question": "Why does the speaker consider the 'instrumental defense' problematic?",
+          "options": [
+            "It's factually incorrect",
+            "It doesn't persuade administrators",
+            "It capitulates to the framework that devalues the humanities",
+            "It ignores job market realities"
+          ],
+          "correctAnswer": 2,
+          "explanation": "'This is true but ultimately capitulates to the very framework that devalues the humanities'"
+        },
+        {
+          "id": "c2-l8-p1-q3",
+          "question": "What alternative justification does the speaker offer?",
+          "options": [
+            "Better job outcomes",
+            "Higher earning potential",
+            "Intrinsic value and human cultivation",
+            "Scientific advancement"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The alternative holds 'that some forms of knowledge are intrinsically valuable' and constitute 'what it means to be a cultivated human being'"
+        }
+      ]
+    },
+    {
+      "id": "c2-l8-p2",
+      "title": "The Future of Knowledge",
+      "context": "Interdisciplinary symposium",
+      "transcript": "The question of what counts as knowledge is always also a question of power. Who gets to know, what methods are authorized, which questions are deemed legitimate—these are not merely epistemological matters but political ones. The dominance of the natural sciences as the paradigm of knowledge production has marginalized other ways of knowing: indigenous knowledge, embodied practice, narrative understanding. This is not to say science is merely one opinion among others—the methodological achievements of scientific inquiry are genuine. But the assumption that all real knowledge must take scientific form—scientism—is itself not a scientific claim but a philosophical one, and a contestable one at that. What would it mean to take seriously plural epistemologies? Not relativism, where every claim is as good as any other, but pluralism, where different methods yield different but complementary forms of knowledge. A complete understanding of climate change, for instance, requires not just atmospheric physics but also political economy, cultural analysis, and yes, the perspectives of those most affected by it.",
+      "audioDescription": "Epistemologist discussing knowledge paradigms",
+      "questions": [
+        {
+          "id": "c2-l8-p2-q1",
+          "question": "What does the speaker mean by saying the question of knowledge is 'also a question of power'?",
+          "options": [
+            "Only powerful people can know things",
+            "What counts as knowledge is politically determined",
+            "Science is about gaining power",
+            "Knowledge should serve political goals"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Who gets to know, what methods are authorized, which questions are deemed legitimate—these are not merely epistemological matters but political ones'"
+        },
+        {
+          "id": "c2-l8-p2-q2",
+          "question": "How does the speaker distinguish 'scientism' from science?",
+          "options": [
+            "Scientism is bad science",
+            "Scientism claims all real knowledge must be scientific—which is itself a philosophical, not scientific, claim",
+            "Science is rigorous, scientism is not",
+            "Scientism includes more than science"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'The assumption that all real knowledge must take scientific form—scientism—is itself not a scientific claim but a philosophical one'"
+        },
+        {
+          "id": "c2-l8-p2-q3",
+          "question": "What distinction does the speaker draw between relativism and pluralism?",
+          "options": [
+            "Relativism is scientific, pluralism is not",
+            "They are the same thing",
+            "Relativism says every claim is equally valid; pluralism says different methods yield complementary knowledge",
+            "Pluralism is a weaker form of relativism"
+          ],
+          "correctAnswer": 2,
+          "explanation": "'Not relativism, where every claim is as good as any other, but pluralism, where different methods yield different but complementary forms of knowledge'"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "scientism",
+      "definition": "The view that scientific knowledge is the only valid form of knowledge"
+    },
+    {
+      "term": "epistemological pluralism",
+      "definition": "Recognition that multiple methods can yield different but valid forms of knowledge"
+    },
+    {
+      "term": "intrinsic value",
+      "definition": "Value something has in itself, not merely as a means to other ends"
+    }
+  ]
+}

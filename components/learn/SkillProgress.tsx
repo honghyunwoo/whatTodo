@@ -7,7 +7,7 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import React, { useMemo } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Svg, { Circle, Line, Path, Polygon } from 'react-native-svg';
+import Svg, { Circle, Line, Polygon } from 'react-native-svg';
 
 import { SkillProgress as SkillProgressType } from '@/types/journal';
 
@@ -46,7 +46,7 @@ export const SkillProgress: React.FC<SkillProgressProps> = ({
     const angleStep = (Math.PI * 2) / 6;
 
     SKILLS.forEach((skill, index) => {
-      const value = progress[skill.key as keyof SkillProgressType] as number || 0;
+      const value = (progress[skill.key as keyof SkillProgressType] as number) || 0;
       const normalizedValue = Math.min(100, Math.max(0, value)) / 100;
       const radius = maxRadius * normalizedValue;
       // Start from top (-90 degrees)
@@ -118,13 +118,7 @@ export const SkillProgress: React.FC<SkillProgressProps> = ({
         {SKILLS.map((skill, index) => {
           const endpoint = getAxisEndpoint(index);
           return (
-            <Circle
-              key={`dot-${index}`}
-              cx={endpoint.x}
-              cy={endpoint.y}
-              r={4}
-              fill={skill.color}
-            />
+            <Circle key={`dot-${index}`} cx={endpoint.x} cy={endpoint.y} r={4} fill={skill.color} />
           );
         })}
 
@@ -143,7 +137,7 @@ export const SkillProgress: React.FC<SkillProgressProps> = ({
       {/* Labels and icons around the chart */}
       {SKILLS.map((skill, index) => {
         const pos = getLabelPosition(index);
-        const value = progress[skill.key as keyof SkillProgressType] as number || 0;
+        const value = (progress[skill.key as keyof SkillProgressType] as number) || 0;
 
         return (
           <View
@@ -168,9 +162,7 @@ export const SkillProgress: React.FC<SkillProgressProps> = ({
                 {skill.label.slice(0, 4)}
               </Text>
             )}
-            {showValues && (
-              <Text style={styles.valueText}>{Math.round(value)}%</Text>
-            )}
+            {showValues && <Text style={styles.valueText}>{Math.round(value)}%</Text>}
           </View>
         );
       })}
@@ -188,7 +180,7 @@ export const SkillBars: React.FC<SkillBarsProps> = ({ progress, compact = false 
   return (
     <View style={styles.barsContainer}>
       {SKILLS.map((skill) => {
-        const value = progress[skill.key as keyof SkillProgressType] as number || 0;
+        const value = (progress[skill.key as keyof SkillProgressType] as number) || 0;
         const normalizedValue = Math.min(100, Math.max(0, value));
 
         return (
@@ -200,9 +192,7 @@ export const SkillBars: React.FC<SkillBarsProps> = ({ progress, compact = false 
                 color={skill.color}
               />
               {!compact && (
-                <Text style={[styles.barLabel, { color: skill.color }]}>
-                  {skill.label}
-                </Text>
+                <Text style={[styles.barLabel, { color: skill.color }]}>{skill.label}</Text>
               )}
             </View>
             <View style={styles.barBackground}>
@@ -234,7 +224,7 @@ export const SkillIndicators: React.FC<SkillIndicatorsProps> = ({ progress, size
   return (
     <View style={styles.indicatorsContainer}>
       {SKILLS.map((skill) => {
-        const value = progress[skill.key as keyof SkillProgressType] as number || 0;
+        const value = (progress[skill.key as keyof SkillProgressType] as number) || 0;
         const opacity = 0.3 + (value / 100) * 0.7; // 30% to 100% opacity
 
         return (
@@ -243,7 +233,11 @@ export const SkillIndicators: React.FC<SkillIndicatorsProps> = ({ progress, size
             style={[
               styles.indicator,
               {
-                backgroundColor: skill.color + Math.round(opacity * 255).toString(16).padStart(2, '0'),
+                backgroundColor:
+                  skill.color +
+                  Math.round(opacity * 255)
+                    .toString(16)
+                    .padStart(2, '0'),
               },
             ]}
           >

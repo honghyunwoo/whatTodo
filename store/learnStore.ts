@@ -49,7 +49,12 @@ interface LearnActions {
 
   // 진행률 관리
   updateProgress: (progress: LearnProgress) => void;
-  markActivityComplete: (activityId: string, weekId: string, type: ActivityType, score: number) => void;
+  markActivityComplete: (
+    activityId: string,
+    weekId: string,
+    type: ActivityType,
+    score: number
+  ) => void;
 
   // 퀴즈/플래시카드 결과 저장
   saveQuizResults: (activityId: string, results: QuizResult[]) => void;
@@ -135,7 +140,9 @@ export const useLearnStore = create<LearnState & LearnActions>()(
 
         // Earn learning stars (higher than Todo rewards!)
         const starsEarned = useRewardStore.getState().earnLearningStars(type, score);
-        console.log(`[Learning] Earned ${starsEarned} stars for ${type} (score: ${score})`);
+        if (__DEV__) {
+          console.log(`[Learning] Earned ${starsEarned} stars for ${type} (score: ${score})`);
+        }
 
         // 주간 진행률 업데이트
         set((state) => {

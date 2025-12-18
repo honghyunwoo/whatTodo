@@ -1,0 +1,116 @@
+{
+  "id": "c1-listening-week-7",
+  "type": "listening",
+  "level": "C1",
+  "weekId": "week-7",
+  "title": "Technology Industry Discussions",
+  "description": "Understanding technical presentations and industry analysis",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passages": [
+    {
+      "id": "c1-l7-p1",
+      "title": "AI Product Launch Keynote",
+      "context": "Tech company keynote presentation",
+      "transcript": "Today we're introducing our next-generation AI assistant. What sets this apart from previous versions—and from competitors—is its multimodal capability. It doesn't just process text; it understands images, audio, and video in context. More importantly, it reasons across these modalities. Show it a chart and ask a question; it will analyze the visual data and provide insights. The second breakthrough is contextual memory. Previous AI systems treated each interaction as isolated. Our new architecture maintains context across sessions, learning your preferences and building on past conversations. Privacy is paramount here: all personalization occurs on-device, with no data transmitted to our servers. Finally, we've dramatically reduced latency. Real-time interaction requires responses in under 300 milliseconds. Our new inference engine achieves sub-200 millisecond response times on consumer hardware.",
+      "audioDescription": "Tech CEO presenting new AI product features",
+      "questions": [
+        {
+          "id": "c1-l7-p1-q1",
+          "question": "What does 'multimodal capability' mean in this context?",
+          "options": [
+            "Supporting multiple languages",
+            "Processing text, images, audio, and video",
+            "Working on multiple devices",
+            "Having multiple user modes"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Multimodal' means it 'doesn't just process text; it understands images, audio, and video'"
+        },
+        {
+          "id": "c1-l7-p1-q2",
+          "question": "How does the new system address privacy concerns about personalization?",
+          "options": [
+            "It doesn't collect any data",
+            "Users can opt out of personalization",
+            "All personalization occurs on-device with no data transmitted",
+            "Data is encrypted before transmission"
+          ],
+          "correctAnswer": 2,
+          "explanation": "'All personalization occurs on-device, with no data transmitted to our servers'"
+        },
+        {
+          "id": "c1-l7-p1-q3",
+          "question": "What latency does the new system achieve?",
+          "options": [
+            "Under 300 milliseconds",
+            "Under 200 milliseconds",
+            "Under 500 milliseconds",
+            "Under 100 milliseconds"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Our new inference engine achieves sub-200 millisecond response times'"
+        }
+      ]
+    },
+    {
+      "id": "c1-l7-p2",
+      "title": "Tech Industry Analysis",
+      "context": "Industry analyst podcast",
+      "transcript": "The semiconductor shortage has exposed critical vulnerabilities in global supply chains. The concentration of advanced chip manufacturing in Taiwan—particularly TSMC's dominance of sub-7-nanometer production—represents a single point of failure for the entire tech industry. Companies are responding in two ways. First, inventory strategies have shifted from just-in-time to just-in-case, with firms stockpiling chips despite the working capital implications. Second, we're seeing massive investment in domestic manufacturing capacity. The US CHIPS Act allocates 52 billion dollars to rebuild American semiconductor production. Intel's new Arizona fabs, Samsung's Texas facility, and TSMC's Arizona plant all reflect this reshoring trend. But there's a catch: advanced fabs take years to build and require specialized talent that's in short supply. The skills gap may prove more challenging than the capital investment.",
+      "audioDescription": "Tech analyst discussing semiconductor industry trends",
+      "questions": [
+        {
+          "id": "c1-l7-p2-q1",
+          "question": "What vulnerability does the speaker identify in tech supply chains?",
+          "options": [
+            "Dependence on Chinese assembly",
+            "Concentration of advanced chip manufacturing in Taiwan",
+            "Rising labor costs in Asia",
+            "Environmental regulations"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The 'concentration of advanced chip manufacturing in Taiwan' represents 'a single point of failure'"
+        },
+        {
+          "id": "c1-l7-p2-q2",
+          "question": "How have companies changed their inventory strategies?",
+          "options": [
+            "From just-in-case to just-in-time",
+            "From just-in-time to just-in-case",
+            "From domestic to international sourcing",
+            "From stockpiling to ordering on demand"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'Inventory strategies have shifted from just-in-time to just-in-case, with firms stockpiling chips'"
+        },
+        {
+          "id": "c1-l7-p2-q3",
+          "question": "What challenge does the speaker suggest may be harder than capital investment?",
+          "options": [
+            "Regulatory approval",
+            "Environmental compliance",
+            "The skills gap and lack of specialized talent",
+            "International competition"
+          ],
+          "correctAnswer": 2,
+          "explanation": "'The skills gap may prove more challenging than the capital investment'"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "inference engine",
+      "definition": "Software component that applies logical rules to generate conclusions"
+    },
+    {
+      "term": "reshoring",
+      "definition": "Moving manufacturing back to the company's original country"
+    },
+    {
+      "term": "fab",
+      "definition": "Short for fabrication plant; a semiconductor manufacturing facility"
+    }
+  ]
+}

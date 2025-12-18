@@ -6,7 +6,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
@@ -14,15 +14,26 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.honghyunwoo.whattodo",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "영어 발음 연습을 위해 마이크 접근이 필요합니다.",
+        "NSSpeechRecognitionUsageDescription": "음성 인식을 위해 권한이 필요합니다."
+      }
     },
     "android": {
+      "package": "com.honghyunwoo.whattodo",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "permissions": [
+        "RECORD_AUDIO",
+        "android.permission.SCHEDULE_EXACT_ALARM"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png",
@@ -30,7 +41,26 @@
     },
     "plugins": [
       "expo-router",
-      "expo-font"
-    ]
+      "expo-font",
+      [
+        "expo-av",
+        {
+          "microphonePermission": "영어 발음 연습을 위해 마이크 접근이 필요합니다."
+        }
+      ],
+      "@sentry/react-native/expo",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#4A90D9"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0ebda4ee-0bed-4f8f-91fe-913f500fbbf8"
+      }
+    }
   }
 }

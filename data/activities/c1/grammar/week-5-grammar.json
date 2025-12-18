@@ -1,0 +1,142 @@
+{
+  "id": "c1-grammar-week-5",
+  "type": "grammar",
+  "level": "C1",
+  "weekId": "week-5",
+  "title": "Advanced Passive and Causative Structures",
+  "description": "Mastering complex passive constructions and causative forms",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c1-g5-s1",
+      "title": "Complex Passive Constructions",
+      "explanation": "Advanced passive forms for reporting and distancing in academic and professional contexts.",
+      "patterns": [
+        {
+          "name": "Impersonal passive with reporting verbs",
+          "structure": "It + passive reporting verb + that-clause",
+          "examples": [
+            "It is widely acknowledged that climate change poses existential risks.",
+            "It has been suggested that the methodology requires revision.",
+            "It was initially believed that the species was extinct."
+          ],
+          "function": "Introduces information without attributing to specific source"
+        },
+        {
+          "name": "Subject-to-subject raising passive",
+          "structure": "Subject + passive verb + to-infinitive",
+          "examples": [
+            "The policy is expected to reduce emissions by 40%.",
+            "The economy is forecast to grow by 3%.",
+            "The results are thought to support the hypothesis."
+          ],
+          "function": "More concise than it-extraposition"
+        },
+        {
+          "name": "Past participle reporting",
+          "structure": "Past participle + to-infinitive/that-clause",
+          "examples": [
+            "Believed to be the oldest specimen...",
+            "Said to have originated in Asia...",
+            "Reported to cause significant side effects..."
+          ],
+          "function": "Compressed academic style"
+        }
+      ]
+    },
+    {
+      "id": "c1-g5-s2",
+      "title": "Causative Structures",
+      "explanation": "Expressing that someone causes something to happen or be done.",
+      "patterns": [
+        {
+          "name": "Have something done",
+          "structure": "Have + object + past participle",
+          "examples": [
+            "We had the contract reviewed by legal counsel.",
+            "She's having her thesis proofread before submission."
+          ],
+          "function": "Arranging for service"
+        },
+        {
+          "name": "Get something done",
+          "structure": "Get + object + past participle",
+          "examples": [
+            "I need to get this proposal approved by Friday.",
+            "How did you get your paper published so quickly?"
+          ],
+          "function": "Less formal, implies effort or achievement"
+        },
+        {
+          "name": "Have/Get someone do something",
+          "structure": "Have/Get + person + infinitive/to-infinitive",
+          "examples": [
+            "I'll have my assistant send you the files. (have + bare infinitive)",
+            "Can you get the IT department to fix this? (get + to-infinitive)"
+          ],
+          "function": "Persuade or arrange for action"
+        },
+        {
+          "name": "Make/Let someone do something",
+          "structure": "Make/Let + person + bare infinitive",
+          "examples": [
+            "The evidence made me reconsider my position.",
+            "The professor let students choose their own topics."
+          ],
+          "function": "Force (make) or allow (let)"
+        }
+      ]
+    },
+    {
+      "id": "c1-g5-s3",
+      "title": "Passive with Modal Verbs",
+      "explanation": "Complex modal passive constructions for speculative and hypothetical meanings.",
+      "patterns": [
+        {
+          "tense": "Present/Future possibility",
+          "structure": "may/might/could + be + past participle",
+          "example": "The results could be influenced by sample size."
+        },
+        {
+          "tense": "Past possibility",
+          "structure": "may/might/could + have been + past participle",
+          "example": "The data may have been compromised during transfer."
+        },
+        {
+          "tense": "Present deduction",
+          "structure": "must + be + past participle",
+          "example": "The error must be caused by corrupted input."
+        },
+        {
+          "tense": "Past deduction",
+          "structure": "must + have been + past participle",
+          "example": "The document must have been deleted accidentally."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-g5-ex1",
+      "type": "transformation",
+      "instruction": "Transform to impersonal passive",
+      "original": "Scientists believe that the universe is expanding.",
+      "answer": "It is believed that the universe is expanding."
+    },
+    {
+      "id": "c1-g5-ex2",
+      "type": "causative",
+      "instruction": "Complete with appropriate causative structure",
+      "sentence": "The CEO _____ (the board/approve) the restructuring plan.",
+      "answer": "had the board approve / got the board to approve"
+    },
+    {
+      "id": "c1-g5-ex3",
+      "type": "modal-passive",
+      "instruction": "Express past possibility in passive",
+      "situation": "Someone possibly leaked the confidential information.",
+      "answer": "The confidential information may/might have been leaked."
+    }
+  ]
+}

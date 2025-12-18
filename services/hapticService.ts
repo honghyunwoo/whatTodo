@@ -182,6 +182,20 @@ export const learnHaptics = {
   streakMilestone: async (): Promise<void> => {
     await heavyHaptic();
   },
+
+  /**
+   * Haptic for selection
+   */
+  selection: async (): Promise<void> => {
+    await selectionHaptic();
+  },
+
+  /**
+   * Haptic for impact/button press
+   */
+  impact: async (): Promise<void> => {
+    await mediumHaptic();
+  },
 };
 
 // Todo-specific haptic patterns
@@ -212,6 +226,13 @@ export const todoHaptics = {
    */
   swipeTrigger: async (): Promise<void> => {
     await mediumHaptic();
+  },
+
+  /**
+   * Haptic for tab selection / light tap
+   */
+  tap: async (): Promise<void> => {
+    await selectionHaptic();
   },
 };
 

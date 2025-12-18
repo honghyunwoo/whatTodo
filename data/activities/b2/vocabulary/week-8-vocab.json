@@ -276,6 +276,186 @@
       "translation": "대륙 횡단의",
       "example": "By next year, we will have completed our transcontinental journey.",
       "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w31",
+      "word": "expedition",
+      "pronunciation": "/ˌekspəˈdɪʃn/",
+      "meaning": "a journey undertaken for a specific purpose",
+      "translation": "탐험, 원정",
+      "example": "The scientific expedition explored the Amazon rainforest.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w32",
+      "word": "wanderlust",
+      "pronunciation": "/ˈwɒndəlʌst/",
+      "meaning": "a strong desire to travel and explore the world",
+      "translation": "여행에 대한 열망",
+      "example": "Her wanderlust has taken her to over fifty countries.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w33",
+      "word": "backpacker",
+      "pronunciation": "/ˈbækˌpækər/",
+      "meaning": "a traveler carrying belongings in a backpack",
+      "translation": "배낭여행객",
+      "example": "Many backpackers stay in hostels to save money.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w34",
+      "word": "expatriate",
+      "pronunciation": "/eksˈpætriət/",
+      "meaning": "a person living outside their native country",
+      "translation": "국외 거주자, 해외 교포",
+      "example": "She's an expatriate working in Hong Kong.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w35",
+      "word": "refugee",
+      "pronunciation": "/ˌrefjuˈdʒiː/",
+      "meaning": "a person forced to leave their country due to danger",
+      "translation": "난민",
+      "example": "The refugee crisis requires international cooperation.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w36",
+      "word": "assimilate",
+      "pronunciation": "/əˈsɪməleɪt/",
+      "meaning": "to absorb and integrate into a new culture",
+      "translation": "동화하다",
+      "example": "It can take years to assimilate into a new culture.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w37",
+      "word": "bilingual",
+      "pronunciation": "/baɪˈlɪŋɡwəl/",
+      "meaning": "able to speak two languages fluently",
+      "translation": "이중 언어를 구사하는",
+      "example": "Being bilingual is a great advantage when traveling.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w38",
+      "word": "dialect",
+      "pronunciation": "/ˈdaɪəlekt/",
+      "meaning": "a regional variety of a language",
+      "translation": "방언",
+      "example": "Each region has its own distinct dialect.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w39",
+      "word": "etiquette",
+      "pronunciation": "/ˈetɪket/",
+      "meaning": "customary rules of polite behavior",
+      "translation": "예절, 에티켓",
+      "example": "Understanding local etiquette is important when traveling.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w40",
+      "word": "immersion",
+      "pronunciation": "/ɪˈmɜːʃn/",
+      "meaning": "deep involvement in a particular activity or culture",
+      "translation": "몰입, 침수",
+      "example": "Language immersion programs are very effective.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w41",
+      "word": "ecotourism",
+      "pronunciation": "/ˈiːkəʊˌtʊərɪzəm/",
+      "meaning": "tourism focused on environmental conservation",
+      "translation": "생태 관광",
+      "example": "Ecotourism promotes responsible travel to natural areas.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w42",
+      "word": "overtourism",
+      "pronunciation": "/ˈəʊvəˌtʊərɪzəm/",
+      "meaning": "excessive tourism causing negative impacts",
+      "translation": "과잉 관광",
+      "example": "Venice struggles with the effects of overtourism.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w43",
+      "word": "transit",
+      "pronunciation": "/ˈtrænzɪt/",
+      "meaning": "the process of traveling through a place",
+      "translation": "통과, 운송",
+      "example": "We had a brief transit stop in Dubai.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w44",
+      "word": "layover",
+      "pronunciation": "/ˈleɪˌəʊvər/",
+      "meaning": "a stop between flights or journeys",
+      "translation": "경유, 대기 시간",
+      "example": "We have a three-hour layover in Frankfurt.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w45",
+      "word": "frontier",
+      "pronunciation": "/ˈfrʌntɪər/",
+      "meaning": "a border between countries or unexplored region",
+      "translation": "국경, 미개척지",
+      "example": "The frontier regions are difficult to access.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w46",
+      "word": "cross-cultural",
+      "pronunciation": "/ˌkrɒs ˈkʌltʃərəl/",
+      "meaning": "relating to different cultures",
+      "translation": "문화 간의, 다문화의",
+      "example": "Cross-cultural communication skills are essential in business.",
+      "partOfSpeech": "adjective"
+    },
+    {
+      "id": "w47",
+      "word": "tolerance",
+      "pronunciation": "/ˈtɒlərəns/",
+      "meaning": "willingness to accept different beliefs or behaviors",
+      "translation": "관용, 포용",
+      "example": "Cultural tolerance is vital in multicultural societies.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w48",
+      "word": "prejudice",
+      "pronunciation": "/ˈpredʒudɪs/",
+      "meaning": "preconceived opinion not based on reason",
+      "translation": "편견",
+      "example": "Travel can help break down cultural prejudice.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w49",
+      "word": "stereotype",
+      "pronunciation": "/ˈsteriətaɪp/",
+      "meaning": "a widely held but oversimplified image or idea",
+      "translation": "고정관념",
+      "example": "We should avoid cultural stereotypes when traveling.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w50",
+      "word": "intercultural",
+      "pronunciation": "/ˌɪntəˈkʌltʃərəl/",
+      "meaning": "involving or representing different cultures",
+      "translation": "문화 간의, 이문화적",
+      "example": "Intercultural dialogue promotes global understanding.",
+      "partOfSpeech": "adjective"
     }
   ],
 
@@ -283,41 +463,1025 @@
     {
       "id": "ex1",
       "type": "matching",
-      "instruction": "Match the words with their definitions",
       "pairs": [
-        { "word": "itinerary", "definition": "a planned route or schedule of a journey" },
-        { "word": "heritage", "definition": "valued traditions passed down through generations" },
-        { "word": "indigenous", "definition": "originating naturally in a particular place" },
-        { "word": "cosmopolitan", "definition": "including people from many different countries" }
+        { "word": "itinerary", "match": "a planned route or schedule of a journey" },
+        { "word": "heritage", "match": "valued traditions passed down through generations" },
+        { "word": "indigenous", "match": "originating naturally in a particular place" },
+        { "word": "cosmopolitan", "match": "including people from many different countries" }
       ]
     },
     {
       "id": "ex2",
       "type": "fill_blank",
-      "instruction": "Complete the sentences with the correct words",
-      "sentences": [
-        { "sentence": "We need to go through _____ before entering the country.", "answer": "customs" },
-        { "sentence": "By tomorrow evening, we will have arrived at our _____.", "answer": "destination" },
-        { "sentence": "_____ tourism focuses on minimizing environmental damage.", "answer": "Sustainable" },
-        { "sentence": "It took weeks to _____ to the different time zone.", "answer": "adapt" }
-      ]
+      "question": "We need to go through _____ before entering the country.",
+      "answer": "customs"
     },
     {
       "id": "ex3",
       "type": "multiple_choice",
-      "instruction": "Choose the best word to complete each sentence",
-      "questions": [
-        {
-          "question": "The city has a _____ population with residents from over 100 countries.",
-          "options": ["remote", "diverse", "indigenous", "exotic"],
-          "answer": "diverse"
-        },
-        {
-          "question": "Many people _____ to new countries seeking better opportunities.",
-          "options": ["explore", "navigate", "immigrate", "adapt"],
-          "answer": "immigrate"
-        }
+      "question": "The city has a _____ population with residents from over 100 countries.",
+      "options": ["remote", "diverse", "indigenous", "exotic"],
+      "answer": "diverse"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "Many people _____ to new countries seeking better opportunities.",
+      "options": ["explore", "navigate", "immigrate", "adapt"],
+      "answer": "immigrate"
+    },
+    {
+      "id": "ex5",
+      "type": "fill_blank",
+      "question": "By tomorrow evening, we will have arrived at our _____.",
+      "answer": "destination"
+    },
+    {
+      "id": "ex6",
+      "type": "fill_blank",
+      "question": "_____ tourism focuses on minimizing environmental damage.",
+      "answer": "Sustainable"
+    },
+    {
+      "id": "ex7",
+      "type": "fill_blank",
+      "question": "It took weeks to _____ to the different time zone.",
+      "answer": "adapt"
+    },
+    {
+      "id": "ex8",
+      "type": "matching",
+      "pairs": [
+        { "word": "visa", "match": "official permission to enter a country" },
+        { "word": "embassy", "match": "official residence of an ambassador" },
+        { "word": "currency", "match": "money used in a particular country" },
+        { "word": "landmark", "match": "a recognizable feature of a place" }
       ]
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "We wanted an _____ cultural experience during our trip.",
+      "options": ["authentic", "exotic", "remote", "diverse"],
+      "answer": "authentic"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "The _____ between countries is heavily guarded.",
+      "options": ["heritage", "frontier", "landmark", "destination"],
+      "answer": "frontier"
+    },
+    {
+      "id": "ex11",
+      "type": "fill_blank",
+      "question": "She collects _____ from every country she visits.",
+      "answer": "souvenirs"
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "We sampled the local _____ everywhere we visited.",
+      "answer": "cuisine"
+    },
+    {
+      "id": "ex13",
+      "type": "translation_ko_en",
+      "question": "우리는 다음 달에 여행 비자를 받을 것입니다.",
+      "answer": "We will have obtained our travel visa by next month."
+    },
+    {
+      "id": "ex14",
+      "type": "translation_en_ko",
+      "question": "Paris remains one of the world's most popular tourist destinations.",
+      "answer": "파리는 세계에서 가장 인기 있는 관광지 중 하나로 남아 있습니다."
+    },
+    {
+      "id": "ex15",
+      "type": "matching",
+      "pairs": [
+        { "word": "expedition", "match": "a journey undertaken for a specific purpose" },
+        { "word": "wanderlust", "match": "a strong desire to travel and explore the world" },
+        { "word": "backpacker", "match": "a traveler carrying belongings in a backpack" },
+        { "word": "expatriate", "match": "a person living outside their native country" }
+      ]
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "Her _____ has taken her to over fifty countries.",
+      "options": ["wanderlust", "migration", "expedition", "transit"],
+      "answer": "wanderlust"
+    },
+    {
+      "id": "ex17",
+      "type": "fill_blank",
+      "question": "Many _____ stay in hostels to save money while traveling.",
+      "answer": "backpackers"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "Being _____ is a great advantage when traveling internationally.",
+      "options": ["bilingual", "indigenous", "cosmopolitan", "authentic"],
+      "answer": "bilingual"
+    },
+    {
+      "id": "ex19",
+      "type": "fill_blank",
+      "question": "Understanding local _____ is important when visiting foreign countries.",
+      "answer": "etiquette"
+    },
+    {
+      "id": "ex20",
+      "type": "translation_ko_en",
+      "question": "세계화는 전 세계적으로 비즈니스 운영 방식을 변화시켰습니다.",
+      "answer": "Globalization has transformed how businesses operate worldwide."
+    },
+    {
+      "id": "ex21",
+      "type": "translation_en_ko",
+      "question": "Sustainable tourism aims to minimize environmental impact.",
+      "answer": "지속 가능한 관광은 환경 영향을 최소화하는 것을 목표로 합니다."
+    },
+    {
+      "id": "ex22",
+      "type": "matching",
+      "pairs": [
+        { "word": "ecotourism", "match": "tourism focused on environmental conservation" },
+        { "word": "overtourism", "match": "excessive tourism causing negative impacts" },
+        { "word": "immersion", "match": "deep involvement in a particular activity or culture" },
+        { "word": "assimilate", "match": "to absorb and integrate into a new culture" }
+      ]
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "Venice struggles with the effects of _____.",
+      "options": ["ecotourism", "overtourism", "wanderlust", "immersion"],
+      "answer": "overtourism"
+    },
+    {
+      "id": "ex24",
+      "type": "fill_blank",
+      "question": "We had a three-hour _____ in Frankfurt between flights.",
+      "answer": "layover"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "The _____ crisis requires international cooperation.",
+      "options": ["refugee", "expatriate", "backpacker", "immigrant"],
+      "answer": "refugee"
+    },
+    {
+      "id": "ex26",
+      "type": "fill_blank",
+      "question": "Each region has its own distinct _____.",
+      "answer": "dialect"
+    },
+    {
+      "id": "ex27",
+      "type": "translation_ko_en",
+      "question": "우리는 공항에 도착하면 세관을 통과해야 합니다.",
+      "answer": "We'll need to go through customs when we arrive at the airport."
+    },
+    {
+      "id": "ex28",
+      "type": "translation_en_ko",
+      "question": "The city has a diverse population from many backgrounds.",
+      "answer": "그 도시는 다양한 배경의 인구를 가지고 있습니다."
+    },
+    {
+      "id": "ex29",
+      "type": "matching",
+      "pairs": [
+        { "word": "tolerance", "match": "willingness to accept different beliefs or behaviors" },
+        { "word": "prejudice", "match": "preconceived opinion not based on reason" },
+        { "word": "stereotype", "match": "a widely held but oversimplified image or idea" },
+        { "word": "intercultural", "match": "involving or representing different cultures" }
+      ]
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "Cultural _____ is vital in multicultural societies.",
+      "options": ["tolerance", "prejudice", "stereotype", "etiquette"],
+      "answer": "tolerance"
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "question": "We should avoid cultural _____ when traveling to new places.",
+      "answer": "stereotypes"
+    },
+    {
+      "id": "ex32",
+      "type": "multiple_choice",
+      "question": "_____ communication skills are essential in international business.",
+      "options": ["Cross-cultural", "Indigenous", "Remote", "Authentic"],
+      "answer": "Cross-cultural"
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "question": "Language _____ programs are very effective for learning.",
+      "answer": "immersion"
+    },
+    {
+      "id": "ex34",
+      "type": "translation_ko_en",
+      "question": "그들은 동남아시아 전역의 이국적인 장소를 방문했습니다.",
+      "answer": "They visited exotic locations throughout Southeast Asia."
+    },
+    {
+      "id": "ex35",
+      "type": "translation_en_ko",
+      "question": "Modern apps help travelers navigate unfamiliar cities.",
+      "answer": "현대적인 앱은 여행자들이 낯선 도시를 탐색하는 데 도움을 줍니다."
+    },
+    {
+      "id": "ex36",
+      "type": "matching",
+      "pairs": [
+        { "word": "accommodation", "match": "a place to live or stay" },
+        { "word": "hospitality", "match": "friendly treatment of guests" },
+        { "word": "jet lag", "match": "tiredness after a long flight across time zones" },
+        { "word": "transit", "match": "the process of traveling through a place" }
+      ]
+    },
+    {
+      "id": "ex37",
+      "type": "multiple_choice",
+      "question": "We've booked _____ near the city center for our trip.",
+      "options": ["accommodation", "destination", "itinerary", "landmark"],
+      "answer": "accommodation"
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "It takes days to recover from _____ after a long international flight.",
+      "answer": "jet lag"
+    },
+    {
+      "id": "ex39",
+      "type": "multiple_choice",
+      "question": "The local _____ was remarkable throughout our stay.",
+      "options": ["hospitality", "etiquette", "customs", "heritage"],
+      "answer": "hospitality"
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "UNESCO protects world _____ sites around the globe.",
+      "answer": "heritage"
+    },
+    {
+      "id": "ex41",
+      "type": "translation_ko_en",
+      "question": "런던은 세계에서 가장 다문화적인 도시 중 하나입니다.",
+      "answer": "London is one of the most multicultural cities in the world."
+    },
+    {
+      "id": "ex42",
+      "type": "translation_en_ko",
+      "question": "Immigrants often work hard to integrate into new societies.",
+      "answer": "이민자들은 새로운 사회에 통합되기 위해 열심히 노력합니다."
+    },
+    {
+      "id": "ex43",
+      "type": "matching",
+      "pairs": [
+        { "word": "explore", "match": "to travel through unfamiliar areas" },
+        { "word": "navigate", "match": "to find one's way; to direct the course" },
+        { "word": "integrate", "match": "to combine or be combined into a whole" },
+        { "word": "migrate", "match": "to move from one region to another" }
+      ]
+    },
+    {
+      "id": "ex44",
+      "type": "multiple_choice",
+      "question": "We'll be _____ ancient ruins throughout our trip.",
+      "options": ["exploring", "navigating", "integrating", "migrating"],
+      "answer": "exploring"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "Travelers must _____ to different cultural norms when abroad.",
+      "answer": "adapt"
+    },
+    {
+      "id": "ex46",
+      "type": "multiple_choice",
+      "question": "Our world is becoming increasingly _____.",
+      "options": ["interconnected", "remote", "authentic", "indigenous"],
+      "answer": "interconnected"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "They explored _____ villages in the mountains.",
+      "answer": "remote"
+    },
+    {
+      "id": "ex48",
+      "type": "translation_ko_en",
+      "question": "에펠탑은 파리에서 가장 유명한 랜드마크입니다.",
+      "answer": "The Eiffel Tower is Paris's most famous landmark."
+    },
+    {
+      "id": "ex49",
+      "type": "translation_en_ko",
+      "question": "Contact your embassy if you lose your passport abroad.",
+      "answer": "해외에서 여권을 잃어버리면 대사관에 연락하세요."
+    },
+    {
+      "id": "ex50",
+      "type": "matching",
+      "pairs": [
+        { "word": "sustainable", "match": "able to continue without causing damage" },
+        { "word": "diverse", "match": "showing a great deal of variety" },
+        { "word": "exotic", "match": "originating from a distant foreign country" },
+        { "word": "authentic", "match": "genuine and true to its origins" }
+      ]
+    },
+    {
+      "id": "ex51",
+      "type": "multiple_choice",
+      "question": "Singapore is a truly _____ city with people from all over the world.",
+      "options": ["cosmopolitan", "indigenous", "remote", "exotic"],
+      "answer": "cosmopolitan"
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "We learned about _____ cultures during our trip.",
+      "answer": "indigenous"
+    },
+    {
+      "id": "ex53",
+      "type": "multiple_choice",
+      "question": "By next year, we will have completed our _____ journey across Asia.",
+      "options": ["transcontinental", "multicultural", "cosmopolitan", "indigenous"],
+      "answer": "transcontinental"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "The scientific _____ explored the Amazon rainforest.",
+      "answer": "expedition"
+    },
+    {
+      "id": "ex55",
+      "type": "translation_ko_en",
+      "question": "여행은 문화적 편견을 깨는 데 도움이 될 수 있습니다.",
+      "answer": "Travel can help break down cultural prejudice."
+    },
+    {
+      "id": "ex56",
+      "type": "translation_en_ko",
+      "question": "You'll need to exchange your currency before traveling.",
+      "answer": "여행하기 전에 통화를 환전해야 합니다."
+    },
+    {
+      "id": "ex57",
+      "type": "matching",
+      "pairs": [
+        { "word": "globalization", "match": "the process of international integration" },
+        { "word": "migration", "match": "movement of people to a new area or country" },
+        { "word": "multicultural", "match": "relating to many different cultures" },
+        { "word": "cross-cultural", "match": "relating to different cultures" }
+      ]
+    },
+    {
+      "id": "ex58",
+      "type": "multiple_choice",
+      "question": "_____ promotes responsible travel to natural areas.",
+      "options": ["Ecotourism", "Overtourism", "Globalization", "Migration"],
+      "answer": "Ecotourism"
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "She's an _____ working in Hong Kong.",
+      "answer": "expatriate"
+    },
+    {
+      "id": "ex60",
+      "type": "multiple_choice",
+      "question": "It can take years to _____ into a new culture.",
+      "options": ["assimilate", "immigrate", "migrate", "navigate"],
+      "answer": "assimilate"
+    },
+    {
+      "id": "ex61",
+      "type": "fill_blank",
+      "question": "_____ dialogue promotes global understanding.",
+      "answer": "Intercultural"
+    },
+    {
+      "id": "ex62",
+      "type": "translation_ko_en",
+      "question": "우리의 여행 일정에는 세 나라 방문이 포함되어 있습니다.",
+      "answer": "Our itinerary includes visits to three different countries."
+    },
+    {
+      "id": "ex63",
+      "type": "translation_en_ko",
+      "question": "Mass migration has reshaped many urban centers.",
+      "answer": "대규모 이주는 많은 도시 중심지를 재편했습니다."
+    },
+    {
+      "id": "ex64",
+      "type": "matching",
+      "pairs": [
+        { "word": "destination", "match": "the place to which someone is traveling" },
+        { "word": "itinerary", "match": "a planned route or schedule of a journey" },
+        { "word": "expedition", "match": "a journey undertaken for a specific purpose" },
+        { "word": "layover", "match": "a stop between flights or journeys" }
+      ]
+    },
+    {
+      "id": "ex65",
+      "type": "multiple_choice",
+      "question": "We had a brief _____ stop in Dubai on our way to India.",
+      "options": ["transit", "destination", "heritage", "frontier"],
+      "answer": "transit"
+    },
+    {
+      "id": "ex66",
+      "type": "fill_blank",
+      "question": "The _____ regions are difficult to access.",
+      "answer": "frontier"
+    },
+    {
+      "id": "ex67",
+      "type": "multiple_choice",
+      "question": "Travel can help break down cultural _____.",
+      "options": ["prejudice", "tolerance", "hospitality", "etiquette"],
+      "answer": "prejudice"
+    },
+    {
+      "id": "ex68",
+      "type": "fill_blank",
+      "question": "You'll need to exchange your _____ before traveling abroad.",
+      "answer": "currency"
+    },
+    {
+      "id": "ex69",
+      "type": "translation_ko_en",
+      "question": "생태 관광은 자연 지역으로의 책임 있는 여행을 촉진합니다.",
+      "answer": "Ecotourism promotes responsible travel to natural areas."
+    },
+    {
+      "id": "ex70",
+      "type": "translation_en_ko",
+      "question": "We wanted an authentic cultural experience during our journey.",
+      "answer": "우리는 여행 중에 진정한 문화 경험을 원했습니다."
+    },
+    {
+      "id": "ex71",
+      "type": "matching",
+      "pairs": [
+        { "word": "cuisine", "match": "a style of cooking" },
+        { "word": "souvenir", "match": "an object kept as a reminder of a place visited" },
+        { "word": "landmark", "match": "a recognizable feature of a place" },
+        { "word": "heritage", "match": "valued traditions passed down through generations" }
+      ]
+    },
+    {
+      "id": "ex72",
+      "type": "multiple_choice",
+      "question": "Our _____ includes visits to three different countries over two weeks.",
+      "options": ["itinerary", "expedition", "destination", "transit"],
+      "answer": "itinerary"
+    },
+    {
+      "id": "ex73",
+      "type": "fill_blank",
+      "question": "Being _____ is a great advantage when traveling.",
+      "answer": "bilingual"
+    },
+    {
+      "id": "ex74",
+      "type": "multiple_choice",
+      "question": "The _____ between the two countries is heavily patrolled.",
+      "options": ["frontier", "heritage", "landmark", "destination"],
+      "answer": "frontier"
+    },
+    {
+      "id": "ex75",
+      "type": "fill_blank",
+      "question": "Mass _____ has reshaped many urban centers worldwide.",
+      "answer": "migration"
+    },
+    {
+      "id": "ex76",
+      "type": "translation_ko_en",
+      "question": "많은 가족들이 더 나은 기회를 찾아 이민을 옵니다.",
+      "answer": "Many families immigrate seeking better opportunities."
+    },
+    {
+      "id": "ex77",
+      "type": "translation_en_ko",
+      "question": "The local hospitality was remarkable throughout our stay.",
+      "answer": "우리가 머무는 동안 현지인들의 환대가 놀라웠습니다."
+    },
+    {
+      "id": "ex78",
+      "type": "matching",
+      "pairs": [
+        { "word": "bilingual", "match": "able to speak two languages fluently" },
+        { "word": "dialect", "match": "a regional variety of a language" },
+        { "word": "etiquette", "match": "customary rules of polite behavior" },
+        { "word": "immersion", "match": "deep involvement in a particular activity or culture" }
+      ]
+    },
+    {
+      "id": "ex79",
+      "type": "multiple_choice",
+      "question": "Understanding local _____ is important when visiting foreign countries.",
+      "options": ["etiquette", "dialect", "currency", "transit"],
+      "answer": "etiquette"
+    },
+    {
+      "id": "ex80",
+      "type": "fill_blank",
+      "question": "Language _____ programs help students learn more effectively.",
+      "answer": "immersion"
+    },
+    {
+      "id": "ex81",
+      "type": "multiple_choice",
+      "question": "Each region has its own distinct _____.",
+      "options": ["dialect", "visa", "currency", "souvenir"],
+      "answer": "dialect"
+    },
+    {
+      "id": "ex82",
+      "type": "fill_blank",
+      "question": "_____ has transformed how businesses operate worldwide.",
+      "answer": "Globalization"
+    },
+    {
+      "id": "ex83",
+      "type": "translation_ko_en",
+      "question": "베니스는 과잉 관광의 영향으로 어려움을 겪고 있습니다.",
+      "answer": "Venice struggles with the effects of overtourism."
+    },
+    {
+      "id": "ex84",
+      "type": "translation_en_ko",
+      "question": "It can take years to assimilate into a new culture.",
+      "answer": "새로운 문화에 동화되는 데 몇 년이 걸릴 수 있습니다."
+    },
+    {
+      "id": "ex85",
+      "type": "matching",
+      "pairs": [
+        { "word": "wanderlust", "match": "a strong desire to travel and explore the world" },
+        { "word": "backpacker", "match": "a traveler carrying belongings in a backpack" },
+        { "word": "expatriate", "match": "a person living outside their native country" },
+        { "word": "refugee", "match": "a person forced to leave their country due to danger" }
+      ]
+    },
+    {
+      "id": "ex86",
+      "type": "multiple_choice",
+      "question": "Her _____ has taken her to over fifty countries around the world.",
+      "options": ["wanderlust", "migration", "expedition", "transit"],
+      "answer": "wanderlust"
+    },
+    {
+      "id": "ex87",
+      "type": "fill_blank",
+      "question": "Many _____ stay in hostels to save money.",
+      "answer": "backpackers"
+    },
+    {
+      "id": "ex88",
+      "type": "multiple_choice",
+      "question": "The _____ crisis requires international cooperation and support.",
+      "options": ["refugee", "expatriate", "backpacker", "immigrant"],
+      "answer": "refugee"
+    },
+    {
+      "id": "ex89",
+      "type": "fill_blank",
+      "question": "She's an _____ working as a teacher in Hong Kong.",
+      "answer": "expatriate"
+    },
+    {
+      "id": "ex90",
+      "type": "translation_ko_en",
+      "question": "문화적 관용은 다문화 사회에서 필수적입니다.",
+      "answer": "Cultural tolerance is vital in multicultural societies."
+    },
+    {
+      "id": "ex91",
+      "type": "translation_en_ko",
+      "question": "We should avoid cultural stereotypes when traveling.",
+      "answer": "우리는 여행할 때 문화적 고정관념을 피해야 합니다."
+    },
+    {
+      "id": "ex92",
+      "type": "matching",
+      "pairs": [
+        { "word": "ecotourism", "match": "tourism focused on environmental conservation" },
+        { "word": "overtourism", "match": "excessive tourism causing negative impacts" },
+        { "word": "sustainable", "match": "able to continue without causing damage" },
+        { "word": "remote", "match": "far away from main centers; isolated" }
+      ]
+    },
+    {
+      "id": "ex93",
+      "type": "multiple_choice",
+      "question": "_____ aims to minimize environmental impact on natural areas.",
+      "options": ["Ecotourism", "Overtourism", "Globalization", "Migration"],
+      "answer": "Ecotourism"
+    },
+    {
+      "id": "ex94",
+      "type": "fill_blank",
+      "question": "Venice struggles with the effects of _____.",
+      "answer": "overtourism"
+    },
+    {
+      "id": "ex95",
+      "type": "multiple_choice",
+      "question": "They explored _____ villages in the mountains far from any city.",
+      "options": ["remote", "cosmopolitan", "multicultural", "authentic"],
+      "answer": "remote"
+    },
+    {
+      "id": "ex96",
+      "type": "fill_blank",
+      "question": "_____ tourism aims to minimize environmental impact.",
+      "answer": "Sustainable"
+    },
+    {
+      "id": "ex97",
+      "type": "translation_ko_en",
+      "question": "상호 문화 대화는 세계적 이해를 촉진합니다.",
+      "answer": "Intercultural dialogue promotes global understanding."
+    },
+    {
+      "id": "ex98",
+      "type": "translation_en_ko",
+      "question": "Cross-cultural communication skills are essential in business.",
+      "answer": "문화 간 의사소통 능력은 비즈니스에서 필수적입니다."
+    },
+    {
+      "id": "ex99",
+      "type": "matching",
+      "pairs": [
+        { "word": "tolerance", "match": "willingness to accept different beliefs or behaviors" },
+        { "word": "prejudice", "match": "preconceived opinion not based on reason" },
+        { "word": "stereotype", "match": "a widely held but oversimplified image or idea" },
+        { "word": "intercultural", "match": "involving or representing different cultures" }
+      ]
+    },
+    {
+      "id": "ex100",
+      "type": "multiple_choice",
+      "question": "Cultural _____ is vital in diverse, multicultural societies.",
+      "options": ["tolerance", "prejudice", "stereotype", "dialect"],
+      "answer": "tolerance"
+    },
+    {
+      "id": "ex101",
+      "type": "fill_blank",
+      "question": "Travel can help break down cultural _____.",
+      "answer": "prejudice"
+    },
+    {
+      "id": "ex102",
+      "type": "multiple_choice",
+      "question": "We should avoid cultural _____ when meeting new people.",
+      "options": ["stereotypes", "tolerance", "hospitality", "etiquette"],
+      "answer": "stereotypes"
+    },
+    {
+      "id": "ex103",
+      "type": "fill_blank",
+      "question": "_____ dialogue promotes global understanding.",
+      "answer": "Intercultural"
+    },
+    {
+      "id": "ex104",
+      "type": "translation_ko_en",
+      "question": "프랑크푸르트에서 세 시간 경유가 있습니다.",
+      "answer": "We have a three-hour layover in Frankfurt."
+    },
+    {
+      "id": "ex105",
+      "type": "translation_en_ko",
+      "question": "We had a brief transit stop in Dubai on our journey.",
+      "answer": "우리는 여행 중에 두바이에서 짧은 경유를 했습니다."
+    },
+    {
+      "id": "ex106",
+      "type": "matching",
+      "pairs": [
+        { "word": "accommodation", "match": "a place to live or stay" },
+        { "word": "hospitality", "match": "friendly treatment of guests" },
+        { "word": "jet lag", "match": "tiredness after a long flight across time zones" },
+        { "word": "transit", "match": "the process of traveling through a place" }
+      ]
+    },
+    {
+      "id": "ex107",
+      "type": "multiple_choice",
+      "question": "We've booked _____ near the city center for our vacation.",
+      "options": ["accommodation", "destination", "itinerary", "transit"],
+      "answer": "accommodation"
+    },
+    {
+      "id": "ex108",
+      "type": "fill_blank",
+      "question": "The local _____ was remarkable throughout our stay.",
+      "answer": "hospitality"
+    },
+    {
+      "id": "ex109",
+      "type": "multiple_choice",
+      "question": "It takes days to recover from _____ after crossing many time zones.",
+      "options": ["jet lag", "transit", "layover", "expedition"],
+      "answer": "jet lag"
+    },
+    {
+      "id": "ex110",
+      "type": "fill_blank",
+      "question": "We had a brief _____ stop in Dubai.",
+      "answer": "transit"
+    },
+    {
+      "id": "ex111",
+      "type": "translation_ko_en",
+      "question": "우리는 도심 근처에 숙소를 예약했습니다.",
+      "answer": "We've booked accommodation near the city center."
+    },
+    {
+      "id": "ex112",
+      "type": "translation_en_ko",
+      "question": "It takes days to recover from jet lag after a long flight.",
+      "answer": "장시간 비행 후 시차증에서 회복하는 데 며칠이 걸립니다."
+    },
+    {
+      "id": "ex113",
+      "type": "matching",
+      "pairs": [
+        { "word": "explore", "match": "to travel through unfamiliar areas" },
+        { "word": "navigate", "match": "to find one's way; to direct the course" },
+        { "word": "integrate", "match": "to combine or be combined into a whole" },
+        { "word": "adapt", "match": "to adjust to new conditions" }
+      ]
+    },
+    {
+      "id": "ex114",
+      "type": "multiple_choice",
+      "question": "We'll be _____ ancient ruins throughout our entire trip.",
+      "options": ["exploring", "navigating", "integrating", "adapting"],
+      "answer": "exploring"
+    },
+    {
+      "id": "ex115",
+      "type": "fill_blank",
+      "question": "Modern apps help travelers _____ unfamiliar cities.",
+      "answer": "navigate"
+    },
+    {
+      "id": "ex116",
+      "type": "multiple_choice",
+      "question": "Immigrants often work hard to _____ into new societies.",
+      "options": ["integrate", "explore", "navigate", "migrate"],
+      "answer": "integrate"
+    },
+    {
+      "id": "ex117",
+      "type": "fill_blank",
+      "question": "Travelers must _____ to different cultural norms.",
+      "answer": "adapt"
+    },
+    {
+      "id": "ex118",
+      "type": "translation_ko_en",
+      "question": "현대 앱은 여행자들이 낯선 도시를 탐색하는 데 도움을 줍니다.",
+      "answer": "Modern apps help travelers navigate unfamiliar cities."
+    },
+    {
+      "id": "ex119",
+      "type": "translation_en_ko",
+      "question": "Travelers must adapt to different cultural norms.",
+      "answer": "여행자들은 다양한 문화적 규범에 적응해야 합니다."
+    },
+    {
+      "id": "ex120",
+      "type": "matching",
+      "pairs": [
+        { "word": "cosmopolitan", "match": "including people from many different countries" },
+        { "word": "indigenous", "match": "originating naturally in a particular place" },
+        { "word": "multicultural", "match": "relating to many different cultures" },
+        { "word": "transcontinental", "match": "crossing a continent" }
+      ]
+    },
+    {
+      "id": "ex121",
+      "type": "multiple_choice",
+      "question": "Singapore is a truly _____ city with international residents.",
+      "options": ["cosmopolitan", "indigenous", "remote", "authentic"],
+      "answer": "cosmopolitan"
+    },
+    {
+      "id": "ex122",
+      "type": "fill_blank",
+      "question": "We learned about _____ cultures during our trip.",
+      "answer": "indigenous"
+    },
+    {
+      "id": "ex123",
+      "type": "multiple_choice",
+      "question": "London is one of the most _____ cities in the world.",
+      "options": ["multicultural", "indigenous", "remote", "exotic"],
+      "answer": "multicultural"
+    },
+    {
+      "id": "ex124",
+      "type": "fill_blank",
+      "question": "By next year, we will have completed our _____ journey.",
+      "answer": "transcontinental"
+    },
+    {
+      "id": "ex125",
+      "type": "translation_ko_en",
+      "question": "싱가포르는 진정으로 국제적인 도시입니다.",
+      "answer": "Singapore is a truly cosmopolitan city."
+    },
+    {
+      "id": "ex126",
+      "type": "translation_en_ko",
+      "question": "We learned about indigenous cultures during our trip.",
+      "answer": "우리는 여행 중에 토착 문화에 대해 배웠습니다."
+    },
+    {
+      "id": "ex127",
+      "type": "matching",
+      "pairs": [
+        { "word": "visa", "match": "official permission to enter a country" },
+        { "word": "embassy", "match": "official residence of an ambassador" },
+        { "word": "customs", "match": "official department that controls imports" },
+        { "word": "frontier", "match": "a border between countries or unexplored region" }
+      ]
+    },
+    {
+      "id": "ex128",
+      "type": "multiple_choice",
+      "question": "By next month, I will have obtained my travel _____.",
+      "options": ["visa", "currency", "souvenir", "landmark"],
+      "answer": "visa"
+    },
+    {
+      "id": "ex129",
+      "type": "fill_blank",
+      "question": "Contact your _____ if you lose your passport abroad.",
+      "answer": "embassy"
+    },
+    {
+      "id": "ex130",
+      "type": "multiple_choice",
+      "question": "We'll need to go through _____ when we arrive at the airport.",
+      "options": ["customs", "transit", "layover", "accommodation"],
+      "answer": "customs"
+    },
+    {
+      "id": "ex131",
+      "type": "fill_blank",
+      "question": "The _____ regions are difficult to access.",
+      "answer": "frontier"
+    },
+    {
+      "id": "ex132",
+      "type": "translation_ko_en",
+      "question": "해외에서 여권을 잃어버리면 대사관에 연락하세요.",
+      "answer": "Contact your embassy if you lose your passport abroad."
+    },
+    {
+      "id": "ex133",
+      "type": "translation_en_ko",
+      "question": "We'll need to go through customs when we arrive.",
+      "answer": "우리는 도착하면 세관을 통과해야 합니다."
+    },
+    {
+      "id": "ex134",
+      "type": "matching",
+      "pairs": [
+        { "word": "destination", "match": "the place to which someone is traveling" },
+        { "word": "landmark", "match": "a recognizable feature of a place" },
+        { "word": "cuisine", "match": "a style of cooking" },
+        { "word": "souvenir", "match": "an object kept as a reminder of a place visited" }
+      ]
+    },
+    {
+      "id": "ex135",
+      "type": "multiple_choice",
+      "question": "Paris remains one of the world's most popular tourist _____.",
+      "options": ["destinations", "landmarks", "souvenirs", "expeditions"],
+      "answer": "destinations"
+    },
+    {
+      "id": "ex136",
+      "type": "fill_blank",
+      "question": "The Eiffel Tower is Paris's most famous _____.",
+      "answer": "landmark"
+    },
+    {
+      "id": "ex137",
+      "type": "multiple_choice",
+      "question": "We sampled the local _____ everywhere we visited.",
+      "options": ["cuisine", "currency", "dialect", "etiquette"],
+      "answer": "cuisine"
+    },
+    {
+      "id": "ex138",
+      "type": "fill_blank",
+      "question": "She collects _____ from every country she visits.",
+      "answer": "souvenirs"
+    },
+    {
+      "id": "ex139",
+      "type": "translation_ko_en",
+      "question": "파리는 세계에서 가장 인기 있는 관광지 중 하나로 남아 있습니다.",
+      "answer": "Paris remains one of the world's most popular tourist destinations."
+    },
+    {
+      "id": "ex140",
+      "type": "translation_en_ko",
+      "question": "She collects souvenirs from every country she visits.",
+      "answer": "그녀는 방문하는 모든 나라에서 기념품을 수집합니다."
+    },
+    {
+      "id": "ex141",
+      "type": "multiple_choice",
+      "question": "Our world is becoming increasingly _____.",
+      "options": ["interconnected", "remote", "indigenous", "exotic"],
+      "answer": "interconnected"
+    },
+    {
+      "id": "ex142",
+      "type": "fill_blank",
+      "question": "They visited _____ locations throughout Southeast Asia.",
+      "answer": "exotic"
+    },
+    {
+      "id": "ex143",
+      "type": "multiple_choice",
+      "question": "We wanted an _____ cultural experience on our journey.",
+      "options": ["authentic", "exotic", "remote", "diverse"],
+      "answer": "authentic"
+    },
+    {
+      "id": "ex144",
+      "type": "fill_blank",
+      "question": "The city has a _____ population from many backgrounds.",
+      "answer": "diverse"
+    },
+    {
+      "id": "ex145",
+      "type": "translation_ko_en",
+      "question": "우리의 세계는 점점 더 상호 연결되고 있습니다.",
+      "answer": "Our world is becoming increasingly interconnected."
+    },
+    {
+      "id": "ex146",
+      "type": "translation_en_ko",
+      "question": "We wanted an authentic cultural experience.",
+      "answer": "우리는 진정한 문화 경험을 원했습니다."
+    },
+    {
+      "id": "ex147",
+      "type": "multiple_choice",
+      "question": "The scientific _____ explored the Amazon rainforest.",
+      "options": ["expedition", "migration", "transit", "layover"],
+      "answer": "expedition"
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "question": "UNESCO protects world _____ sites.",
+      "answer": "heritage"
+    },
+    {
+      "id": "ex149",
+      "type": "translation_ko_en",
+      "question": "유네스코는 세계 문화유산을 보호합니다.",
+      "answer": "UNESCO protects world heritage sites."
+    },
+    {
+      "id": "ex150",
+      "type": "translation_en_ko",
+      "question": "The scientific expedition explored the Amazon rainforest.",
+      "answer": "과학 탐험대는 아마존 열대우림을 탐사했습니다."
     }
   ]
 }

@@ -39,43 +39,38 @@ export function FlashCard({ word, onKnown, onUnknown, showActions = true }: Flas
       damping: 15,
       stiffness: 100,
     });
-  }, [isFlipped]);
+  }, [isFlipped, flipProgress]);
 
   const handleKnown = useCallback(async () => {
     await learnHaptics.correct();
     setIsFlipped(false);
     flipProgress.value = withSpring(0);
     onKnown?.();
-  }, [onKnown]);
+  }, [onKnown, flipProgress]);
 
   const handleUnknown = useCallback(async () => {
     await learnHaptics.wrong();
     setIsFlipped(false);
     flipProgress.value = withSpring(0);
     onUnknown?.();
-  }, [onUnknown]);
+  }, [onUnknown, flipProgress]);
 
-  const handleSpeak = useCallback(() => {
-    Speech.speak(word.word, {
-      language: 'en-US',
-      rate: 0.8,
-    });
-  }, [word.word]);
+  const handleSpeak = useCallback(
+    (e?: { stopPropagation?: () => void }) => {
+      // Stop event from propagating to parent (card flip)
+      e?.stopPropagation?.();
+      Speech.speak(word.word, {
+        language: 'en-US',
+        rate: 0.8,
+      });
+    },
+    [word.word]
+  );
 
   // Front card animation (visible when not flipped)
   const frontAnimatedStyle = useAnimatedStyle(() => {
-    const rotateY = interpolate(
-      flipProgress.value,
-      [0, 1],
-      [0, 180],
-      Extrapolation.CLAMP
-    );
-    const opacity = interpolate(
-      flipProgress.value,
-      [0, 0.5, 1],
-      [1, 0, 0],
-      Extrapolation.CLAMP
-    );
+    const rotateY = interpolate(flipProgress.value, [0, 1], [0, 180], Extrapolation.CLAMP);
+    const opacity = interpolate(flipProgress.value, [0, 0.5, 1], [1, 0, 0], Extrapolation.CLAMP);
     return {
       transform: [{ perspective: 1000 }, { rotateY: `${rotateY}deg` }],
       opacity,
@@ -85,18 +80,8 @@ export function FlashCard({ word, onKnown, onUnknown, showActions = true }: Flas
 
   // Back card animation (visible when flipped)
   const backAnimatedStyle = useAnimatedStyle(() => {
-    const rotateY = interpolate(
-      flipProgress.value,
-      [0, 1],
-      [180, 360],
-      Extrapolation.CLAMP
-    );
-    const opacity = interpolate(
-      flipProgress.value,
-      [0, 0.5, 1],
-      [0, 0, 1],
-      Extrapolation.CLAMP
-    );
+    const rotateY = interpolate(flipProgress.value, [0, 1], [180, 360], Extrapolation.CLAMP);
+    const opacity = interpolate(flipProgress.value, [0, 0.5, 1], [0, 0, 1], Extrapolation.CLAMP);
     return {
       transform: [{ perspective: 1000 }, { rotateY: `${rotateY}deg` }],
       opacity,
@@ -140,7 +125,12 @@ export function FlashCard({ word, onKnown, onUnknown, showActions = true }: Flas
             <Card.Content style={styles.cardContent}>
               <View style={styles.backFace}>
                 <Text style={[styles.meaning, { color: colors.text }]}>{word.meaning}</Text>
-                <View style={[styles.exampleContainer, { backgroundColor: isDark ? '#1C1C1E' : COLORS.background }]}>
+                <View
+                  style={[
+                    styles.exampleContainer,
+                    { backgroundColor: isDark ? '#1C1C1E' : COLORS.background },
+                  ]}
+                >
                   <Text style={[styles.exampleLabel, { color: colors.textSecondary }]}>예문</Text>
                   <Text style={[styles.example, { color: colors.text }]}>{word.example}</Text>
                   <Text style={[styles.exampleMeaning, { color: colors.textSecondary }]}>

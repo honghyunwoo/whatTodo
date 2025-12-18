@@ -1,0 +1,93 @@
+{
+  "id": "c2-writing-week-8",
+  "type": "writing",
+  "level": "C2",
+  "weekId": "week-8",
+  "title": "The Scholarly Monograph and Magisterial Prose",
+  "description": "Writing at the highest level of academic achievement",
+  "estimatedMinutes": 35,
+  "xpReward": 65,
+  "sections": [
+    {
+      "id": "c2-w8-s1",
+      "title": "Architectonics of Argument",
+      "description": "Large-scale organization of complex intellectual projects",
+      "principles": [
+        {
+          "principle": "The governing question",
+          "description": "A book-length argument needs a question capacious enough to sustain extended inquiry",
+          "example": "What accounts for the persistence of inequality despite egalitarian commitment? This question requires historical, philosophical, and sociological investigation."
+        },
+        {
+          "principle": "Progressive disclosure",
+          "description": "Reveal complexity gradually; prepare readers for later moves with earlier ones",
+          "example": "Chapter 1 establishes the puzzle. Chapters 2-3 show why standard solutions fail. Chapters 4-6 develop the alternative. Chapter 7 addresses objections."
+        },
+        {
+          "principle": "Thematic unity",
+          "description": "Maintain coherence across diverse material through recurring motifs",
+          "example": "The tension between structure and agency appears differently in each chapter but unifies the whole."
+        }
+      ]
+    },
+    {
+      "id": "c2-w8-s2",
+      "title": "Achieving Scholarly Voice",
+      "description": "Developing a distinctive yet authoritative academic presence",
+      "dimensions": [
+        {
+          "dimension": "Intellectual personality",
+          "description": "Your characteristic way of approaching problems",
+          "example": "Some scholars are synthesizers; others are analysts. Some lead with evidence; others with theory. Your voice emerges from consistent intellectual habits."
+        },
+        {
+          "dimension": "Rhetorical choices",
+          "description": "Patterns in how you construct arguments",
+          "example": "Do you prefer the direct challenge or the indirect approach? The patient build-up or the striking opening?"
+        },
+        {
+          "dimension": "Ethical stance",
+          "description": "How you position yourself toward your subject and interlocutors",
+          "example": "Charitable interpretation of opponents, honest acknowledgment of limits, commitment to following the argument wherever it leads."
+        }
+      ]
+    },
+    {
+      "id": "c2-w8-s3",
+      "title": "The Art of the Introduction",
+      "description": "Opening a major scholarly work",
+      "elements": [
+        {
+          "element": "Establishing stakes",
+          "description": "Why should anyone care?",
+          "example": "This question matters because..."
+        },
+        {
+          "element": "Positioning within field",
+          "description": "Where does this contribute?",
+          "example": "Existing accounts have neglected... This study addresses..."
+        },
+        {
+          "element": "Thesis statement",
+          "description": "What will you argue?",
+          "example": "I argue that... contrary to prevailing views..."
+        },
+        {
+          "element": "Method and scope",
+          "description": "How will you proceed?",
+          "example": "My approach combines... The scope is limited to..."
+        },
+        {
+          "element": "Chapter preview",
+          "description": "What does each part contribute?",
+          "example": "Chapter 1 establishes... Chapter 2 turns to..."
+        }
+      ]
+    }
+  ],
+  "writingTask": {
+    "title": "Book Introduction Opening",
+    "prompt": "Write the opening paragraphs (300-350 words) of a scholarly book introduction. The book examines how language shapes our understanding of time.",
+    "sampleResponse": "Tense and Temporality: How Language Shapes Our Experience of Time\n\nIntroduction: The Linguistic Construction of Temporal Experience\n\nWe inhabit time as fish inhabit water—so immersed that we rarely notice the medium. Time seems simply given: an objective feature of the world that we passively experience. Yet this immediacy is deceptive. Between raw temporal experience and conscious understanding lies a vast apparatus of linguistic and conceptual structure. We do not merely experience time; we interpret it, and we interpret it through language.\n\nThis book examines how linguistic resources shape temporal understanding. Its central claim is that different languages offer different architectures for constructing temporal experience—and that these differences matter for thought, memory, and action. English speakers, with their obligatory tense marking, cannot speak of an event without locating it temporally. Speakers of tenseless languages like Mandarin organize temporal information through different, equally systematic means. These are not merely alternative ways of expressing the same underlying experience but genuinely different ways of organizing that experience.\n\nThe argument proceeds at three levels. At the linguistic level, I analyze how temporal information is encoded across typologically diverse languages, drawing on fieldwork with speakers of Hopi, Aymara, and several African languages alongside familiar European cases. At the cognitive level, I examine experimental evidence suggesting that linguistic differences correlate with differences in non-linguistic temporal cognition—in memory, planning, and counterfactual reasoning. At the philosophical level, I argue that these findings have implications for debates about the nature of temporal experience and the possibility of objective temporal knowledge.\n\nI should be clear at the outset about what I am not claiming. I am not arguing that language determines thought—that speakers of one language cannot think what speakers of another can express. The strong Whorfian hypothesis has been rightly abandoned. My claim is more modest but, I hope, still significant: that language makes certain ways of thinking about time more cognitively available, more default, more habitual. We can step outside our linguistic habits, but stepping outside takes effort. The path of least cognitive resistance follows the grooves our language has worn."
+  }
+}

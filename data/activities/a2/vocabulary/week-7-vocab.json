@@ -15,7 +15,17 @@
       "meaning": "an activity you enjoy doing in your free time",
       "translation": "취미",
       "example": "My hobby is playing the guitar.",
-      "exampleMeaning": "제 취미는 기타 치는 것이에요."
+      "exampleMeaning": "제 취미는 기타 치는 것이에요.",
+      "koreanPronunciationTip": "하비 - '호'가 아니라 '하'에 가깝게 발음",
+      "koreanCommonMistake": "hobby를 '호비'로 발음하지 않도록 주의",
+      "mnemonic": "하비 = 하루하루 비는 시간에 하는 일",
+      "wordFamily": ["hobbies (plural)", "hobbyist (noun)"],
+      "collocations": ["favorite hobby", "take up a hobby", "pursue a hobby"],
+      "synonyms": ["pastime", "interest", "leisure activity"],
+      "antonyms": ["work", "job", "chore"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w2",
@@ -25,7 +35,17 @@
       "meaning": "to gather similar items as a hobby",
       "translation": "수집하다",
       "example": "He collects stamps from different countries.",
-      "exampleMeaning": "그는 여러 나라의 우표를 수집해요."
+      "exampleMeaning": "그는 여러 나라의 우표를 수집해요.",
+      "koreanPronunciationTip": "컬렉트 - 첫 음절은 약하게, 두 번째 음절 강세",
+      "koreanCommonMistake": "'콜렉트'가 아니라 '컬렉트'",
+      "mnemonic": "collect = co(함께) + lect(모으다) = 함께 모으다",
+      "wordFamily": ["collection (noun)", "collector (noun)", "collective (adj)"],
+      "collocations": ["collect stamps", "collect data", "collect coins"],
+      "synonyms": ["gather", "accumulate", "amass"],
+      "antonyms": ["distribute", "scatter", "disperse"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
     },
     {
       "id": "w3",
@@ -35,7 +55,17 @@
       "meaning": "the art of taking photographs",
       "translation": "사진 촬영",
       "example": "I'm interested in photography.",
-      "exampleMeaning": "저는 사진 촬영에 관심이 있어요."
+      "exampleMeaning": "저는 사진 촬영에 관심이 있어요.",
+      "koreanPronunciationTip": "퍼타그러피 - 두 번째 음절 'ta'에 강세",
+      "koreanCommonMistake": "'포토그래피'가 아니라 '퍼타그러피'",
+      "mnemonic": "photo(빛) + graphy(그리기) = 빛으로 그리기",
+      "wordFamily": ["photograph (noun)", "photographer (noun)", "photographic (adj)"],
+      "collocations": ["wildlife photography", "digital photography", "photography class"],
+      "synonyms": ["picture-taking", "photo art"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
     },
     {
       "id": "w4",
@@ -45,7 +75,17 @@
       "meaning": "the activity of making pictures with paint",
       "translation": "그림 그리기",
       "example": "She enjoys painting landscapes.",
-      "exampleMeaning": "그녀는 풍경화 그리는 것을 즐겨요."
+      "exampleMeaning": "그녀는 풍경화 그리는 것을 즐겨요.",
+      "koreanPronunciationTip": "페인팅 - '페'를 길게",
+      "koreanCommonMistake": "'팬팅'이 아니라 '페인팅'",
+      "mnemonic": "paint + ing = 페인트로 하는 행동",
+      "wordFamily": ["paint (verb/noun)", "painter (noun)", "paintbrush (noun)"],
+      "collocations": ["oil painting", "watercolor painting", "painting class"],
+      "synonyms": ["drawing", "artwork", "picture"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
     },
     {
       "id": "w5",
@@ -55,7 +95,17 @@
       "meaning": "the activity of growing plants",
       "translation": "정원 가꾸기",
       "example": "Gardening is relaxing for me.",
-      "exampleMeaning": "정원 가꾸기는 저에게 편안해요."
+      "exampleMeaning": "정원 가꾸기는 저에게 편안해요.",
+      "koreanPronunciationTip": "가드닝 - '가'에 강세",
+      "koreanCommonMistake": "'가든닝'이 아니라 '가드닝'",
+      "mnemonic": "garden + ing = 정원에서 하는 활동",
+      "wordFamily": ["garden (noun/verb)", "gardener (noun)"],
+      "collocations": ["gardening tools", "enjoy gardening", "gardening tips"],
+      "synonyms": ["horticulture", "cultivation"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 1
     },
     {
       "id": "w6",
@@ -65,7 +115,17 @@
       "meaning": "to become a member of a group",
       "translation": "가입하다",
       "example": "I want to join a dance club.",
-      "exampleMeaning": "댄스 동호회에 가입하고 싶어요."
+      "exampleMeaning": "댄스 동호회에 가입하고 싶어요.",
+      "koreanPronunciationTip": "조인 - '조'와 '인'을 붙여서",
+      "koreanCommonMistake": "'죠인'이 아니라 '조인'",
+      "mnemonic": "join = 조인해서 함께하기",
+      "wordFamily": ["joint (adj/noun)", "joiner (noun)"],
+      "collocations": ["join a club", "join a team", "join a group"],
+      "synonyms": ["enroll", "sign up", "become a member"],
+      "antonyms": ["leave", "quit", "resign"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w7",
@@ -75,7 +135,17 @@
       "meaning": "to do something repeatedly to improve",
       "translation": "연습하다",
       "example": "I practice piano every day.",
-      "exampleMeaning": "저는 매일 피아노를 연습해요."
+      "exampleMeaning": "저는 매일 피아노를 연습해요.",
+      "koreanPronunciationTip": "프랙티스 - '프랙'에 강세",
+      "koreanCommonMistake": "'프락티스'가 아니라 '프랙티스'",
+      "mnemonic": "practice = 프로가 되기 위한 액션",
+      "wordFamily": ["practice (noun)", "practical (adj)", "practitioner (noun)"],
+      "collocations": ["practice daily", "practice makes perfect", "need practice"],
+      "synonyms": ["rehearse", "train", "drill"],
+      "antonyms": ["neglect", "ignore"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w8",
@@ -85,7 +155,17 @@
       "meaning": "an ability to do something well",
       "translation": "기술, 능력",
       "example": "Playing chess improves thinking skills.",
-      "exampleMeaning": "체스는 사고력을 향상시켜요."
+      "exampleMeaning": "체스는 사고력을 향상시켜요.",
+      "koreanPronunciationTip": "스킬 - 짧고 명확하게",
+      "koreanCommonMistake": "'스킬'을 길게 발음하지 않도록 주의",
+      "mnemonic": "skill = 스스로 킬러가 될 수 있는 능력",
+      "wordFamily": ["skilled (adj)", "skillful (adj)", "skillfully (adv)"],
+      "collocations": ["develop skills", "learn skills", "practical skills"],
+      "synonyms": ["ability", "talent", "expertise"],
+      "antonyms": ["inability", "incompetence"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w9",
@@ -95,7 +175,17 @@
       "meaning": "a tool for making music",
       "translation": "악기",
       "example": "What instrument do you play?",
-      "exampleMeaning": "어떤 악기를 연주하세요?"
+      "exampleMeaning": "어떤 악기를 연주하세요?",
+      "koreanPronunciationTip": "인스트러먼트 - '인'에 강세",
+      "koreanCommonMistake": "'인스투르먼트'가 아니라 '인스트러먼트'",
+      "mnemonic": "instrument = 인이 스트레스를 푸는 도구",
+      "wordFamily": ["instrumental (adj)", "instrumentalist (noun)"],
+      "collocations": ["musical instrument", "play an instrument", "string instrument"],
+      "synonyms": ["tool", "device"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 2
     },
     {
       "id": "w10",
@@ -105,7 +195,17 @@
       "meaning": "a musical performance",
       "translation": "콘서트, 음악회",
       "example": "We went to a concert last weekend.",
-      "exampleMeaning": "우리는 지난 주말에 콘서트에 갔어요."
+      "exampleMeaning": "우리는 지난 주말에 콘서트에 갔어요.",
+      "koreanPronunciationTip": "칸서트 - '칸'에 강세",
+      "koreanCommonMistake": "'콘서트'가 아니라 '칸서트'",
+      "mnemonic": "concert = 칸에서 서서 보는 음악회",
+      "wordFamily": ["concerto (noun)"],
+      "collocations": ["go to a concert", "rock concert", "concert hall"],
+      "synonyms": ["performance", "show", "gig"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
     },
     {
       "id": "w11",
@@ -115,7 +215,17 @@
       "meaning": "a public display of art or objects",
       "translation": "전시회",
       "example": "There's a photography exhibition at the museum.",
-      "exampleMeaning": "박물관에서 사진 전시회가 열려요."
+      "exampleMeaning": "박물관에서 사진 전시회가 열려요.",
+      "koreanPronunciationTip": "엑시비션 - '비'에 강세",
+      "koreanCommonMistake": "'엑시비숀'이 아니라 '엑시비션'",
+      "mnemonic": "exhibition = 엑스트라 비주얼 쇼",
+      "wordFamily": ["exhibit (verb/noun)", "exhibitor (noun)"],
+      "collocations": ["art exhibition", "attend an exhibition", "exhibition hall"],
+      "synonyms": ["display", "show", "exposition"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
     },
     {
       "id": "w12",
@@ -125,7 +235,17 @@
       "meaning": "done or located outside",
       "translation": "야외의",
       "example": "I enjoy outdoor activities like hiking.",
-      "exampleMeaning": "저는 등산 같은 야외 활동을 즐겨요."
+      "exampleMeaning": "저는 등산 같은 야외 활동을 즐겨요.",
+      "koreanPronunciationTip": "아웃도어 - '아웃'에 강세",
+      "koreanCommonMistake": "'아웃도르'가 아니라 '아웃도어'",
+      "mnemonic": "outdoor = 아웃(밖)에서 도어(문) 열고 하는 활동",
+      "wordFamily": ["outdoors (adv/noun)"],
+      "collocations": ["outdoor activities", "outdoor sports", "outdoor concert"],
+      "synonyms": ["outside", "open-air", "alfresco"],
+      "antonyms": ["indoor", "inside"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
     },
     {
       "id": "w13",
@@ -135,7 +255,17 @@
       "meaning": "done or located inside",
       "translation": "실내의",
       "example": "Chess is an indoor activity.",
-      "exampleMeaning": "체스는 실내 활동이에요."
+      "exampleMeaning": "체스는 실내 활동이에요.",
+      "koreanPronunciationTip": "인도어 - '인'에 강세",
+      "koreanCommonMistake": "'인도르'가 아니라 '인도어'",
+      "mnemonic": "indoor = 인(안)에서 도어(문) 닫고 하는 활동",
+      "wordFamily": ["indoors (adv/noun)"],
+      "collocations": ["indoor activities", "indoor sports", "indoor pool"],
+      "synonyms": ["inside", "interior"],
+      "antonyms": ["outdoor", "outside"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
     },
     {
       "id": "w14",
@@ -145,7 +275,17 @@
       "meaning": "Saturday and Sunday",
       "translation": "주말",
       "example": "What do you do on weekends?",
-      "exampleMeaning": "주말에 뭐 하세요?"
+      "exampleMeaning": "주말에 뭐 하세요?",
+      "koreanPronunciationTip": "위켄드 - '엔드'에 강세",
+      "koreanCommonMistake": "'위크엔드'를 '위켄드'로 발음",
+      "mnemonic": "weekend = 위크(주)의 끝(end)",
+      "wordFamily": ["weekday (noun)", "weekly (adj/adv)"],
+      "collocations": ["on the weekend", "weekend plan", "long weekend"],
+      "synonyms": [],
+      "antonyms": ["weekday"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w15",
@@ -155,7 +295,17 @@
       "meaning": "to rest and become calm",
       "translation": "휴식을 취하다",
       "example": "I like to relax at home after work.",
-      "exampleMeaning": "퇴근 후 집에서 쉬는 것을 좋아해요."
+      "exampleMeaning": "퇴근 후 집에서 쉬는 것을 좋아해요.",
+      "koreanPronunciationTip": "릴랙스 - '랙'에 강세",
+      "koreanCommonMistake": "'리랙스'가 아니라 '릴랙스'",
+      "mnemonic": "relax = 리턴해서 랙(침대)에서 쉬다",
+      "wordFamily": ["relaxation (noun)", "relaxing (adj)", "relaxed (adj)"],
+      "collocations": ["relax at home", "relax and unwind", "need to relax"],
+      "synonyms": ["rest", "unwind", "chill"],
+      "antonyms": ["stress", "tense", "worry"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w16",
@@ -165,7 +315,17 @@
       "meaning": "feeling tired because something is not interesting",
       "translation": "지루한",
       "example": "I get bored on rainy days.",
-      "exampleMeaning": "비 오는 날에는 지루해져요."
+      "exampleMeaning": "비 오는 날에는 지루해져요.",
+      "koreanPronunciationTip": "보어드 - '보'를 길게",
+      "koreanCommonMistake": "'보레드'가 아니라 '보어드'",
+      "mnemonic": "bored = 보드게임도 지루할 때",
+      "wordFamily": ["bore (verb/noun)", "boring (adj)", "boredom (noun)"],
+      "collocations": ["get bored", "feel bored", "bored to death"],
+      "synonyms": ["uninterested", "weary", "tired"],
+      "antonyms": ["interested", "excited", "engaged"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w17",
@@ -175,7 +335,17 @@
       "meaning": "causing great enthusiasm",
       "translation": "신나는, 흥미진진한",
       "example": "Rock climbing is very exciting.",
-      "exampleMeaning": "암벽 등반은 매우 신나요."
+      "exampleMeaning": "암벽 등반은 매우 신나요.",
+      "koreanPronunciationTip": "익사이팅 - '사이'에 강세",
+      "koreanCommonMistake": "'엑사이팅'이 아니라 '익사이팅'",
+      "mnemonic": "exciting = 익스트림 사이트를 보는 느낌",
+      "wordFamily": ["excite (verb)", "excited (adj)", "excitement (noun)"],
+      "collocations": ["very exciting", "exciting news", "exciting experience"],
+      "synonyms": ["thrilling", "exhilarating", "stimulating"],
+      "antonyms": ["boring", "dull", "tedious"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w18",
@@ -185,7 +355,17 @@
       "meaning": "involving imagination and new ideas",
       "translation": "창의적인",
       "example": "Painting is a creative hobby.",
-      "exampleMeaning": "그림 그리기는 창의적인 취미예요."
+      "exampleMeaning": "그림 그리기는 창의적인 취미예요.",
+      "koreanPronunciationTip": "크리에이티브 - '에이'에 강세",
+      "koreanCommonMistake": "'크리에티브'가 아니라 '크리에이티브'",
+      "mnemonic": "creative = 크리에이터가 되는 능력",
+      "wordFamily": ["create (verb)", "creation (noun)", "creativity (noun)", "creator (noun)"],
+      "collocations": ["creative thinking", "creative work", "creative ideas"],
+      "synonyms": ["imaginative", "innovative", "artistic"],
+      "antonyms": ["uncreative", "unimaginative"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 2
     },
     {
       "id": "w19",
@@ -195,7 +375,17 @@
       "meaning": "a person just starting to learn something",
       "translation": "초보자",
       "example": "This class is for beginners.",
-      "exampleMeaning": "이 수업은 초보자용이에요."
+      "exampleMeaning": "이 수업은 초보자용이에요.",
+      "koreanPronunciationTip": "비기너 - '기'에 강세",
+      "koreanCommonMistake": "'비지너'가 아니라 '비기너'",
+      "mnemonic": "beginner = 비긴(시작)한 사람",
+      "wordFamily": ["begin (verb)", "beginning (noun)"],
+      "collocations": ["beginner level", "complete beginner", "beginner course"],
+      "synonyms": ["novice", "learner", "starter"],
+      "antonyms": ["expert", "professional", "master"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
     },
     {
       "id": "w20",
@@ -205,7 +395,17 @@
       "meaning": "to get better at something",
       "translation": "향상시키다",
       "example": "I want to improve my cooking skills.",
-      "exampleMeaning": "요리 실력을 향상시키고 싶어요."
+      "exampleMeaning": "요리 실력을 향상시키고 싶어요.",
+      "koreanPronunciationTip": "임프루브 - '프루'에 강세",
+      "koreanCommonMistake": "'임프로브'가 아니라 '임프루브'",
+      "mnemonic": "improve = 임팩트있게 프로가 되도록 무브",
+      "wordFamily": ["improvement (noun)", "improved (adj)"],
+      "collocations": ["improve skills", "improve performance", "need to improve"],
+      "synonyms": ["enhance", "better", "develop"],
+      "antonyms": ["worsen", "deteriorate", "decline"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w21",
@@ -215,7 +415,17 @@
       "meaning": "a person who belongs to a group",
       "translation": "회원",
       "example": "She's a member of a book club.",
-      "exampleMeaning": "그녀는 독서 클럽 회원이에요."
+      "exampleMeaning": "그녀는 독서 클럽 회원이에요.",
+      "koreanPronunciationTip": "멤버 - '멤'에 강세",
+      "koreanCommonMistake": "'맴버'가 아니라 '멤버'",
+      "mnemonic": "member = 멤버십을 가진 사람",
+      "wordFamily": ["membership (noun)", "remember (verb)"],
+      "collocations": ["club member", "team member", "become a member"],
+      "synonyms": ["participant", "associate"],
+      "antonyms": ["outsider", "non-member"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w22",
@@ -225,7 +435,577 @@
       "meaning": "to suggest something is good",
       "translation": "추천하다",
       "example": "I recommend trying yoga.",
-      "exampleMeaning": "요가를 시도해 보는 것을 추천해요."
+      "exampleMeaning": "요가를 시도해 보는 것을 추천해요.",
+      "koreanPronunciationTip": "레커멘드 - '멘'에 강세",
+      "koreanCommonMistake": "'리커멘드'가 아니라 '레커멘드'",
+      "mnemonic": "recommend = 리코더를 멘토가 추천",
+      "wordFamily": ["recommendation (noun)", "recommended (adj)"],
+      "collocations": ["highly recommend", "recommend a book", "recommend trying"],
+      "synonyms": ["suggest", "advise", "propose"],
+      "antonyms": ["discourage", "dissuade"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 2
+    },
+    {
+      "id": "w23",
+      "word": "leisure",
+      "pronunciation": "/ˈliːʒər/",
+      "partOfSpeech": "noun",
+      "meaning": "time when you are free from work",
+      "translation": "여가, 레저",
+      "example": "I enjoy reading in my leisure time.",
+      "exampleMeaning": "여가 시간에 독서를 즐겨요.",
+      "koreanPronunciationTip": "리저 - '리'를 길게",
+      "koreanCommonMistake": "'레저'가 아니라 '리저'",
+      "mnemonic": "leisure = 리듬있게 쉬는 시간",
+      "wordFamily": ["leisurely (adj/adv)"],
+      "collocations": ["leisure time", "leisure activities", "at leisure"],
+      "synonyms": ["free time", "spare time", "recreation"],
+      "antonyms": ["work", "labor", "duty"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w24",
+      "word": "entertainment",
+      "pronunciation": "/ˌentərˈteɪnmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "activities that people enjoy watching or doing",
+      "translation": "오락, 엔터테인먼트",
+      "example": "Movies are a popular form of entertainment.",
+      "exampleMeaning": "영화는 인기있는 오락의 형태예요.",
+      "koreanPronunciationTip": "엔터테인먼트 - '테인'에 강세",
+      "koreanCommonMistake": "긴 단어이므로 천천히 또박또박 발음",
+      "mnemonic": "entertainment = 엔터(들어가서) 테인먼트(즐기는 것)",
+      "wordFamily": ["entertain (verb)", "entertaining (adj)", "entertainer (noun)"],
+      "collocations": ["entertainment industry", "for entertainment", "popular entertainment"],
+      "synonyms": ["amusement", "recreation", "fun"],
+      "antonyms": ["boredom", "work"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "w25",
+      "word": "crafts",
+      "pronunciation": "/kræfts/",
+      "partOfSpeech": "noun",
+      "meaning": "activities involving making things by hand",
+      "translation": "수공예",
+      "example": "She does arts and crafts on weekends.",
+      "exampleMeaning": "그녀는 주말에 미술과 공예를 해요.",
+      "koreanPronunciationTip": "크래프츠 - '크래'에 강세",
+      "koreanCommonMistake": "'크라프츠'가 아니라 '크래프츠'",
+      "mnemonic": "crafts = 크래프트지로 만드는 공예",
+      "wordFamily": ["craft (noun/verb)", "craftsman (noun)", "crafty (adj)"],
+      "collocations": ["arts and crafts", "craft materials", "craft project"],
+      "synonyms": ["handicrafts", "handiwork"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w26",
+      "word": "hiking",
+      "pronunciation": "/ˈhaɪkɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "the activity of going for long walks in nature",
+      "translation": "하이킹, 등산",
+      "example": "We go hiking every Sunday.",
+      "exampleMeaning": "우리는 매주 일요일에 등산을 가요.",
+      "koreanPronunciationTip": "하이킹 - '하이'에 강세",
+      "koreanCommonMistake": "'하이킹'을 정확하게 발음",
+      "mnemonic": "hiking = 하이(높이) 킹(왕)처럼 올라가기",
+      "wordFamily": ["hike (verb/noun)", "hiker (noun)"],
+      "collocations": ["go hiking", "hiking trail", "hiking boots"],
+      "synonyms": ["trekking", "walking", "rambling"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w27",
+      "word": "camping",
+      "pronunciation": "/ˈkæmpɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "staying in a tent outdoors",
+      "translation": "캠핑",
+      "example": "Let's go camping this summer.",
+      "exampleMeaning": "이번 여름에 캠핑 가요.",
+      "koreanPronunciationTip": "캠핑 - '캠'에 강세",
+      "koreanCommonMistake": "'켐핑'이 아니라 '캠핑'",
+      "mnemonic": "camping = 캠프를 치고 머무르기",
+      "wordFamily": ["camp (verb/noun)", "camper (noun)", "campsite (noun)"],
+      "collocations": ["go camping", "camping trip", "camping gear"],
+      "synonyms": ["outdoor living"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w28",
+      "word": "fishing",
+      "pronunciation": "/ˈfɪʃɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "catching fish as a sport or hobby",
+      "translation": "낚시",
+      "example": "My dad loves fishing.",
+      "exampleMeaning": "우리 아빠는 낚시를 좋아하세요.",
+      "koreanPronunciationTip": "피싱 - '피'에 강세",
+      "koreanCommonMistake": "'피쉬잉'이 아니라 '피싱'",
+      "mnemonic": "fishing = 피쉬(물고기) 잡기",
+      "wordFamily": ["fish (verb/noun)", "fisherman (noun)"],
+      "collocations": ["go fishing", "fishing rod", "fishing trip"],
+      "synonyms": ["angling"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w29",
+      "word": "cycling",
+      "pronunciation": "/ˈsaɪklɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "riding a bicycle",
+      "translation": "자전거 타기",
+      "example": "Cycling is good exercise.",
+      "exampleMeaning": "자전거 타기는 좋은 운동이에요.",
+      "koreanPronunciationTip": "사이클링 - '사이'에 강세",
+      "koreanCommonMistake": "'싸이클링'이 아니라 '사이클링'",
+      "mnemonic": "cycling = 사이클을 타는 활동",
+      "wordFamily": ["cycle (verb/noun)", "cyclist (noun)", "bicycle (noun)"],
+      "collocations": ["go cycling", "cycling path", "cycling tour"],
+      "synonyms": ["biking", "riding"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w30",
+      "word": "yoga",
+      "pronunciation": "/ˈjoʊɡə/",
+      "partOfSpeech": "noun",
+      "meaning": "exercises for body and mind relaxation",
+      "translation": "요가",
+      "example": "I do yoga three times a week.",
+      "exampleMeaning": "저는 일주일에 세 번 요가를 해요.",
+      "koreanPronunciationTip": "요가 - '요'에 강세",
+      "koreanCommonMistake": "한글 '요가'와 비슷하게 발음",
+      "mnemonic": "yoga = 요(조용히) 가만히 명상",
+      "wordFamily": ["yogi (noun)"],
+      "collocations": ["do yoga", "yoga class", "yoga mat"],
+      "synonyms": ["meditation exercises"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w31",
+      "word": "meditation",
+      "pronunciation": "/ˌmedɪˈteɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "thinking deeply and quietly",
+      "translation": "명상",
+      "example": "Meditation helps reduce stress.",
+      "exampleMeaning": "명상은 스트레스를 줄이는 데 도움이 돼요.",
+      "koreanPronunciationTip": "메디테이션 - '테이'에 강세",
+      "koreanCommonMistake": "'메디테이숀'이 아니라 '메디테이션'",
+      "mnemonic": "meditation = 메디(의학적으로) 테이션(상태 유지)",
+      "wordFamily": ["meditate (verb)", "meditative (adj)"],
+      "collocations": ["practice meditation", "meditation session", "guided meditation"],
+      "synonyms": ["contemplation", "reflection"],
+      "antonyms": ["distraction", "agitation"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w32",
+      "word": "theater",
+      "pronunciation": "/ˈθiːətər/",
+      "partOfSpeech": "noun",
+      "meaning": "a place to watch plays or performances",
+      "translation": "극장",
+      "example": "We're going to the theater tonight.",
+      "exampleMeaning": "오늘 밤 우리는 극장에 가요.",
+      "koreanPronunciationTip": "씨어터 - '씨'에 강세, th 발음 주의",
+      "koreanCommonMistake": "'띠어터'가 아니라 '씨어터'",
+      "mnemonic": "theater = 씨어터(보는 곳)",
+      "wordFamily": ["theatrical (adj)", "theatrics (noun)"],
+      "collocations": ["movie theater", "theater ticket", "theater performance"],
+      "synonyms": ["playhouse", "auditorium", "cinema"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "w33",
+      "word": "novel",
+      "pronunciation": "/ˈnɑːvəl/",
+      "partOfSpeech": "noun",
+      "meaning": "a long written story",
+      "translation": "소설",
+      "example": "I'm reading an interesting novel.",
+      "exampleMeaning": "재미있는 소설을 읽고 있어요.",
+      "koreanPronunciationTip": "나벌 - '나'에 강세",
+      "koreanCommonMistake": "'노블'이 아니라 '나벌'",
+      "mnemonic": "novel = 나(새로운) 벌(이야기)",
+      "wordFamily": ["novelist (noun)", "novella (noun)"],
+      "collocations": ["read a novel", "mystery novel", "historical novel"],
+      "synonyms": ["book", "story", "fiction"],
+      "antonyms": ["non-fiction"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w34",
+      "word": "podcast",
+      "pronunciation": "/ˈpɑːdkæst/",
+      "partOfSpeech": "noun",
+      "meaning": "a digital audio program you can download",
+      "translation": "팟캐스트",
+      "example": "I listen to podcasts while commuting.",
+      "exampleMeaning": "출퇴근할 때 팟캐스트를 들어요.",
+      "koreanPronunciationTip": "팟캐스트 - '팟'에 강세",
+      "koreanCommonMistake": "'포드캐스트'가 아니라 '팟캐스트'",
+      "mnemonic": "podcast = 팟(포켓)에 캐스트(방송)",
+      "wordFamily": ["podcaster (noun)", "podcasting (noun)"],
+      "collocations": ["listen to a podcast", "podcast episode", "popular podcast"],
+      "synonyms": ["audio show", "digital broadcast"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "w35",
+      "word": "knitting",
+      "pronunciation": "/ˈnɪtɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "making clothes with yarn and needles",
+      "translation": "뜨개질",
+      "example": "My grandmother enjoys knitting.",
+      "exampleMeaning": "우리 할머니는 뜨개질을 즐기세요.",
+      "koreanPronunciationTip": "니팅 - '니'에 강세",
+      "koreanCommonMistake": "k는 묵음이므로 '니팅'으로 발음",
+      "mnemonic": "knitting = 니트를 만드는 활동",
+      "wordFamily": ["knit (verb)", "knitwear (noun)"],
+      "collocations": ["knitting needles", "knitting pattern", "enjoy knitting"],
+      "synonyms": ["needlework"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w36",
+      "word": "pottery",
+      "pronunciation": "/ˈpɑːtəri/",
+      "partOfSpeech": "noun",
+      "meaning": "making objects from clay",
+      "translation": "도예, 도자기 만들기",
+      "example": "I take a pottery class on Saturdays.",
+      "exampleMeaning": "토요일에 도예 수업을 들어요.",
+      "koreanPronunciationTip": "파터리 - '파'에 강세",
+      "koreanCommonMistake": "'포터리'가 아니라 '파터리'",
+      "mnemonic": "pottery = 팟(pot, 항아리) 만들기",
+      "wordFamily": ["potter (noun)", "pot (noun)"],
+      "collocations": ["pottery class", "pottery wheel", "pottery studio"],
+      "synonyms": ["ceramics", "claywork"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w37",
+      "word": "drawing",
+      "pronunciation": "/ˈdrɔːɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "making pictures with pencils or pens",
+      "translation": "그림 그리기, 소묘",
+      "example": "He's good at drawing portraits.",
+      "exampleMeaning": "그는 인물화 그리는 것을 잘해요.",
+      "koreanPronunciationTip": "드로잉 - '드로'에 강세",
+      "koreanCommonMistake": "'드라잉'이 아니라 '드로잉'",
+      "mnemonic": "drawing = 드로우(그리다) + ing",
+      "wordFamily": ["draw (verb)", "drawer (noun)"],
+      "collocations": ["drawing class", "pencil drawing", "technical drawing"],
+      "synonyms": ["sketching", "illustration"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w38",
+      "word": "sketching",
+      "pronunciation": "/ˈsketʃɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "making quick rough drawings",
+      "translation": "스케치하기",
+      "example": "I enjoy sketching in the park.",
+      "exampleMeaning": "공원에서 스케치하는 것을 즐겨요.",
+      "koreanPronunciationTip": "스케칭 - '스케'에 강세",
+      "koreanCommonMistake": "ch는 '치'로 발음",
+      "mnemonic": "sketching = 스케치 그리기",
+      "wordFamily": ["sketch (verb/noun)", "sketchy (adj)"],
+      "collocations": ["sketching pencil", "go sketching", "sketching pad"],
+      "synonyms": ["drawing", "outlining"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w39",
+      "word": "sculpture",
+      "pronunciation": "/ˈskʌlptʃər/",
+      "partOfSpeech": "noun",
+      "meaning": "art of making three-dimensional forms",
+      "translation": "조각",
+      "example": "There are beautiful sculptures in the park.",
+      "exampleMeaning": "공원에 아름다운 조각품들이 있어요.",
+      "koreanPronunciationTip": "스컬프처 - '스컬'에 강세",
+      "koreanCommonMistake": "'스컬쳐'로 발음",
+      "mnemonic": "sculpture = 스컬(skull, 두상) 조각",
+      "wordFamily": ["sculpt (verb)", "sculptor (noun)"],
+      "collocations": ["sculpture garden", "ice sculpture", "sculpture exhibition"],
+      "synonyms": ["carving", "statue"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w40",
+      "word": "dance",
+      "pronunciation": "/dæns/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "moving your body to music",
+      "translation": "춤, 춤추다",
+      "example": "She loves to dance.",
+      "exampleMeaning": "그녀는 춤추는 것을 좋아해요.",
+      "koreanPronunciationTip": "댄스 - '댄'을 명확하게",
+      "koreanCommonMistake": "'단스'가 아니라 '댄스'",
+      "mnemonic": "dance = 댄스 음악에 맞춰 춤추기",
+      "wordFamily": ["dancer (noun)", "dancing (noun)"],
+      "collocations": ["dance class", "dance music", "learn to dance"],
+      "synonyms": ["dancing", "movement"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w41",
+      "word": "cooking",
+      "pronunciation": "/ˈkʊkɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "preparing food by heating",
+      "translation": "요리하기",
+      "example": "Cooking is my favorite hobby.",
+      "exampleMeaning": "요리는 제가 가장 좋아하는 취미예요.",
+      "koreanPronunciationTip": "쿠킹 - '쿠'에 강세",
+      "koreanCommonMistake": "'쿠킹'을 정확하게",
+      "mnemonic": "cooking = 쿡(cook) + ing",
+      "wordFamily": ["cook (verb/noun)", "cooker (noun)", "cookbook (noun)"],
+      "collocations": ["cooking class", "enjoy cooking", "cooking skills"],
+      "synonyms": ["cuisine", "culinary arts"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w42",
+      "word": "baking",
+      "pronunciation": "/ˈbeɪkɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "cooking in an oven",
+      "translation": "베이킹, 제빵",
+      "example": "I love baking cakes.",
+      "exampleMeaning": "케이크 굽는 것을 좋아해요.",
+      "koreanPronunciationTip": "베이킹 - '베이'에 강세",
+      "koreanCommonMistake": "'바킹'이 아니라 '베이킹'",
+      "mnemonic": "baking = 베이크(굽다) + ing",
+      "wordFamily": ["bake (verb)", "baker (noun)", "bakery (noun)"],
+      "collocations": ["baking bread", "baking powder", "love baking"],
+      "synonyms": ["pastry making"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w43",
+      "word": "exercise",
+      "pronunciation": "/ˈeksərsaɪz/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "physical activity to stay healthy",
+      "translation": "운동, 운동하다",
+      "example": "I exercise every morning.",
+      "exampleMeaning": "저는 매일 아침 운동해요.",
+      "koreanPronunciationTip": "엑서사이즈 - '엑'에 강세",
+      "koreanCommonMistake": "'엑설사이즈'가 아니라 '엑서사이즈'",
+      "mnemonic": "exercise = 엑스트라 사이즈를 줄이기",
+      "wordFamily": ["exercising (noun)"],
+      "collocations": ["do exercise", "regular exercise", "exercise routine"],
+      "synonyms": ["workout", "physical activity", "training"],
+      "antonyms": ["rest", "inactivity"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w44",
+      "word": "fitness",
+      "pronunciation": "/ˈfɪtnəs/",
+      "partOfSpeech": "noun",
+      "meaning": "being physically healthy and strong",
+      "translation": "건강, 체력",
+      "example": "She goes to a fitness center.",
+      "exampleMeaning": "그녀는 피트니스 센터에 다녀요.",
+      "koreanPronunciationTip": "피트니스 - '피트'에 강세",
+      "koreanCommonMistake": "'피트네스'가 아니라 '피트니스'",
+      "mnemonic": "fitness = 핏(fit, 맞다) + ness = 건강에 맞는 상태",
+      "wordFamily": ["fit (adj/verb)", "unfit (adj)"],
+      "collocations": ["fitness center", "fitness level", "improve fitness"],
+      "synonyms": ["health", "wellness", "physical condition"],
+      "antonyms": ["unfitness", "poor health"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "w45",
+      "word": "jogging",
+      "pronunciation": "/ˈdʒɑːɡɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "running slowly for exercise",
+      "translation": "조깅",
+      "example": "I go jogging in the park.",
+      "exampleMeaning": "공원에서 조깅해요.",
+      "koreanPronunciationTip": "자깅 - '자'에 강세",
+      "koreanCommonMistake": "'조깅'이 아니라 '자깅'",
+      "mnemonic": "jogging = 조그(jog) 달리기",
+      "wordFamily": ["jog (verb/noun)", "jogger (noun)"],
+      "collocations": ["go jogging", "jogging path", "morning jogging"],
+      "synonyms": ["running", "light running"],
+      "antonyms": ["walking"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w46",
+      "word": "swimming",
+      "pronunciation": "/ˈswɪmɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "moving through water",
+      "translation": "수영",
+      "example": "Swimming is great exercise.",
+      "exampleMeaning": "수영은 훌륭한 운동이에요.",
+      "koreanPronunciationTip": "스위밍 - '스위'에 강세",
+      "koreanCommonMistake": "'스위밍'을 정확하게",
+      "mnemonic": "swimming = 스윔(swim) + ing",
+      "wordFamily": ["swim (verb)", "swimmer (noun)", "swimsuit (noun)"],
+      "collocations": ["go swimming", "swimming pool", "swimming lessons"],
+      "synonyms": ["aquatics"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w47",
+      "word": "reading",
+      "pronunciation": "/ˈriːdɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "looking at and understanding written words",
+      "translation": "독서",
+      "example": "Reading is a relaxing hobby.",
+      "exampleMeaning": "독서는 편안한 취미예요.",
+      "koreanPronunciationTip": "리딩 - '리'를 길게",
+      "koreanCommonMistake": "'레딩'이 아니라 '리딩'",
+      "mnemonic": "reading = 리드(read) + ing",
+      "wordFamily": ["read (verb)", "reader (noun)", "readable (adj)"],
+      "collocations": ["reading books", "reading habit", "enjoy reading"],
+      "synonyms": ["studying texts", "perusing"],
+      "antonyms": ["writing"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w48",
+      "word": "writing",
+      "pronunciation": "/ˈraɪtɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "putting words on paper or screen",
+      "translation": "글쓰기",
+      "example": "Creative writing is my passion.",
+      "exampleMeaning": "창작 글쓰기가 제 열정이에요.",
+      "koreanPronunciationTip": "라이팅 - '라이'에 강세",
+      "koreanCommonMistake": "'리팅'이 아니라 '라이팅'",
+      "mnemonic": "writing = 라이트(write) + ing",
+      "wordFamily": ["write (verb)", "writer (noun)", "written (adj)"],
+      "collocations": ["writing skills", "creative writing", "enjoy writing"],
+      "synonyms": ["composition", "authoring"],
+      "antonyms": ["reading"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w49",
+      "word": "relaxation",
+      "pronunciation": "/ˌriːlækˈseɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "the state of being calm and free from stress",
+      "translation": "휴식, 이완",
+      "example": "Music is good for relaxation.",
+      "exampleMeaning": "음악은 휴식에 좋아요.",
+      "koreanPronunciationTip": "릴랙세이션 - '세이'에 강세",
+      "koreanCommonMistake": "'릴랙세이숀'이 아니라 '릴랙세이션'",
+      "mnemonic": "relaxation = relax(쉬다) + ation(상태)",
+      "wordFamily": ["relax (verb)", "relaxing (adj)", "relaxed (adj)"],
+      "collocations": ["for relaxation", "relaxation technique", "deep relaxation"],
+      "synonyms": ["rest", "leisure", "unwinding"],
+      "antonyms": ["stress", "tension", "anxiety"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w50",
+      "word": "enjoy",
+      "pronunciation": "/ɪnˈdʒɔɪ/",
+      "partOfSpeech": "verb",
+      "meaning": "to take pleasure in something",
+      "translation": "즐기다",
+      "example": "I enjoy playing tennis.",
+      "exampleMeaning": "테니스 치는 것을 즐겨요.",
+      "koreanPronunciationTip": "인조이 - '조이'에 강세",
+      "koreanCommonMistake": "'엔조이'가 아니라 '인조이'",
+      "mnemonic": "enjoy = 인(안에서) 조이(기쁨)를 느끼다",
+      "wordFamily": ["enjoyment (noun)", "enjoyable (adj)"],
+      "collocations": ["enjoy doing", "enjoy yourself", "really enjoy"],
+      "synonyms": ["like", "love", "appreciate"],
+      "antonyms": ["dislike", "hate", "detest"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
     }
   ],
 
@@ -334,6 +1114,906 @@
       "type": "fill_blank",
       "question": "Rock climbing is very _____. I love the adrenaline!",
       "answer": "exciting"
+    },
+    {
+      "id": "ex16",
+      "type": "translation_ko_en",
+      "question": "여가 시간에 독서를 즐겨요.",
+      "answer": "I enjoy reading in my leisure time."
+    },
+    {
+      "id": "ex17",
+      "type": "translation_en_ko",
+      "question": "Movies are a popular form of entertainment.",
+      "answer": "영화는 인기있는 오락의 형태예요."
+    },
+    {
+      "id": "ex18",
+      "type": "true_false",
+      "question": "Hiking means going for long walks in nature.",
+      "answer": true
+    },
+    {
+      "id": "ex19",
+      "type": "sentence_ordering",
+      "question": "Arrange the words: camping / go / summer / Let's / this",
+      "answer": "Let's go camping this summer."
+    },
+    {
+      "id": "ex20",
+      "type": "error_correction",
+      "question": "Find the error: 'My dad love fishing very much.'",
+      "answer": "My dad loves fishing very much."
+    },
+    {
+      "id": "ex21",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "go", "collocation": "fishing"},
+        {"word": "do", "collocation": "yoga"},
+        {"word": "take", "collocation": "a class"},
+        {"word": "play", "collocation": "an instrument"}
+      ]
+    },
+    {
+      "id": "ex22",
+      "type": "pronunciation_compare",
+      "question": "Which word has stress on the first syllable?",
+      "options": ["relax", "hobby", "improve", "enjoy"],
+      "answer": "hobby"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "'Meditation' helps you to:",
+      "options": ["exercise your body", "think deeply and quietly", "paint pictures", "collect things"],
+      "answer": "think deeply and quietly"
+    },
+    {
+      "id": "ex24",
+      "type": "fill_blank",
+      "question": "We're going to the _____ to watch a play tonight.",
+      "answer": "theater"
+    },
+    {
+      "id": "ex25",
+      "type": "translation_ko_en",
+      "question": "재미있는 소설을 읽고 있어요.",
+      "answer": "I'm reading an interesting novel."
+    },
+    {
+      "id": "ex26",
+      "type": "translation_en_ko",
+      "question": "I listen to podcasts while commuting.",
+      "answer": "출퇴근할 때 팟캐스트를 들어요."
+    },
+    {
+      "id": "ex27",
+      "type": "true_false",
+      "question": "Knitting is making clothes with yarn and needles.",
+      "answer": true
+    },
+    {
+      "id": "ex28",
+      "type": "sentence_ordering",
+      "question": "Arrange the words: pottery / on / I / a / class / take / Saturdays",
+      "answer": "I take a pottery class on Saturdays."
+    },
+    {
+      "id": "ex29",
+      "type": "error_correction",
+      "question": "Find the error: 'He is good at draw portraits.'",
+      "answer": "He is good at drawing portraits."
+    },
+    {
+      "id": "ex30",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "arts and", "collocation": "crafts"},
+        {"word": "hiking", "collocation": "trail"},
+        {"word": "camping", "collocation": "trip"},
+        {"word": "fishing", "collocation": "rod"}
+      ]
+    },
+    {
+      "id": "ex31",
+      "type": "pronunciation_compare",
+      "question": "Which word has the /θ/ sound?",
+      "options": ["theater", "dancing", "fitness", "pottery"],
+      "answer": "theater"
+    },
+    {
+      "id": "ex32",
+      "type": "multiple_choice",
+      "question": "What is 'sketching'?",
+      "options": ["making quick rough drawings", "taking photos", "making pottery", "playing music"],
+      "answer": "making quick rough drawings"
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "question": "There are beautiful _____ in the park.",
+      "answer": "sculptures"
+    },
+    {
+      "id": "ex34",
+      "type": "translation_ko_en",
+      "question": "그녀는 춤추는 것을 좋아해요.",
+      "answer": "She loves to dance."
+    },
+    {
+      "id": "ex35",
+      "type": "translation_en_ko",
+      "question": "Cooking is my favorite hobby.",
+      "answer": "요리는 제가 가장 좋아하는 취미예요."
+    },
+    {
+      "id": "ex36",
+      "type": "true_false",
+      "question": "Baking means cooking in an oven.",
+      "answer": true
+    },
+    {
+      "id": "ex37",
+      "type": "sentence_ordering",
+      "question": "Arrange the words: exercise / morning / I / every",
+      "answer": "I exercise every morning."
+    },
+    {
+      "id": "ex38",
+      "type": "error_correction",
+      "question": "Find the error: 'She go to a fitness center.'",
+      "answer": "She goes to a fitness center."
+    },
+    {
+      "id": "ex39",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "do", "collocation": "exercise"},
+        {"word": "improve", "collocation": "fitness"},
+        {"word": "go", "collocation": "jogging"},
+        {"word": "go", "collocation": "swimming"}
+      ]
+    },
+    {
+      "id": "ex40",
+      "type": "pronunciation_compare",
+      "question": "Which word rhymes with 'cooking'?",
+      "options": ["looking", "making", "writing", "dancing"],
+      "answer": "looking"
+    },
+    {
+      "id": "ex41",
+      "type": "multiple_choice",
+      "question": "'Relaxation' means:",
+      "options": ["working hard", "being calm and free from stress", "exercising", "studying"],
+      "answer": "being calm and free from stress"
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "I _____ playing tennis on weekends.",
+      "answer": "enjoy"
+    },
+    {
+      "id": "ex43",
+      "type": "translation_ko_en",
+      "question": "정원 가꾸기는 저에게 편안해요.",
+      "answer": "Gardening is relaxing for me."
+    },
+    {
+      "id": "ex44",
+      "type": "translation_en_ko",
+      "question": "Cycling is good exercise.",
+      "answer": "자전거 타기는 좋은 운동이에요."
+    },
+    {
+      "id": "ex45",
+      "type": "true_false",
+      "question": "A beginner is someone who is an expert.",
+      "answer": false
+    },
+    {
+      "id": "ex46",
+      "type": "sentence_ordering",
+      "question": "Arrange the words: three / yoga / do / I / a / times / week",
+      "answer": "I do yoga three times a week."
+    },
+    {
+      "id": "ex47",
+      "type": "error_correction",
+      "question": "Find the error: 'I'm interest in photography.'",
+      "answer": "I'm interested in photography."
+    },
+    {
+      "id": "ex48",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "take up a", "collocation": "hobby"},
+        {"word": "practice", "collocation": "daily"},
+        {"word": "learn", "collocation": "skills"},
+        {"word": "attend an", "collocation": "exhibition"}
+      ]
+    },
+    {
+      "id": "ex49",
+      "type": "pronunciation_compare",
+      "question": "Which word has stress on the second syllable?",
+      "options": ["leisure", "outdoor", "improve", "weekend"],
+      "answer": "improve"
+    },
+    {
+      "id": "ex50",
+      "type": "multiple_choice",
+      "question": "Which is an indoor activity?",
+      "options": ["hiking", "camping", "chess", "fishing"],
+      "answer": "chess"
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "She _____ painting landscapes on weekends.",
+      "answer": "enjoys"
+    },
+    {
+      "id": "ex52",
+      "type": "translation_ko_en",
+      "question": "저는 매일 피아노를 연습해요.",
+      "answer": "I practice piano every day."
+    },
+    {
+      "id": "ex53",
+      "type": "translation_en_ko",
+      "question": "I want to improve my cooking skills.",
+      "answer": "요리 실력을 향상시키고 싶어요."
+    },
+    {
+      "id": "ex54",
+      "type": "true_false",
+      "question": "A concert is a place to read books.",
+      "answer": false
+    },
+    {
+      "id": "ex55",
+      "type": "sentence_ordering",
+      "question": "Arrange the words: book / a / member / She's / of / club",
+      "answer": "She's a member of a book club."
+    },
+    {
+      "id": "ex56",
+      "type": "error_correction",
+      "question": "Find the error: 'What instrument do you plays?'",
+      "answer": "What instrument do you play?"
+    },
+    {
+      "id": "ex57",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "collect", "collocation": "stamps"},
+        {"word": "join a", "collocation": "club"},
+        {"word": "musical", "collocation": "instrument"},
+        {"word": "rock", "collocation": "concert"}
+      ]
+    },
+    {
+      "id": "ex58",
+      "type": "pronunciation_compare",
+      "question": "Which word has three syllables?",
+      "options": ["hobby", "creative", "relax", "skill"],
+      "answer": "creative"
+    },
+    {
+      "id": "ex59",
+      "type": "multiple_choice",
+      "question": "What does 'recommend' mean?",
+      "options": ["to dislike", "to suggest something is good", "to forget", "to lose"],
+      "answer": "to suggest something is good"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "This class is for _____. No experience needed!",
+      "answer": "beginners"
+    },
+    {
+      "id": "ex61",
+      "type": "translation_ko_en",
+      "question": "우리는 지난 주말에 콘서트에 갔어요.",
+      "answer": "We went to a concert last weekend."
+    },
+    {
+      "id": "ex62",
+      "type": "translation_en_ko",
+      "question": "What do you do on weekends?",
+      "answer": "주말에 뭐 하세요?"
+    },
+    {
+      "id": "ex63",
+      "type": "true_false",
+      "question": "Leisure time is when you are free from work.",
+      "answer": true
+    },
+    {
+      "id": "ex64",
+      "type": "sentence_ordering",
+      "question": "Arrange the words: outdoor / enjoy / I / like / activities / hiking",
+      "answer": "I enjoy outdoor activities like hiking."
+    },
+    {
+      "id": "ex65",
+      "type": "error_correction",
+      "question": "Find the error: 'I get boring on rainy days.'",
+      "answer": "I get bored on rainy days."
+    },
+    {
+      "id": "ex66",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "free", "collocation": "time"},
+        {"word": "popular", "collocation": "entertainment"},
+        {"word": "hiking", "collocation": "boots"},
+        {"word": "yoga", "collocation": "mat"}
+      ]
+    },
+    {
+      "id": "ex67",
+      "type": "pronunciation_compare",
+      "question": "Which word starts with a silent letter?",
+      "options": ["knitting", "pottery", "dancing", "fishing"],
+      "answer": "knitting"
+    },
+    {
+      "id": "ex68",
+      "type": "multiple_choice",
+      "question": "Which activity uses yarn and needles?",
+      "options": ["pottery", "knitting", "painting", "photography"],
+      "answer": "knitting"
+    },
+    {
+      "id": "ex69",
+      "type": "fill_blank",
+      "question": "Swimming is great _____ for your whole body.",
+      "answer": "exercise"
+    },
+    {
+      "id": "ex70",
+      "type": "translation_ko_en",
+      "question": "독서는 편안한 취미예요.",
+      "answer": "Reading is a relaxing hobby."
+    },
+    {
+      "id": "ex71",
+      "type": "translation_en_ko",
+      "question": "Creative writing is my passion.",
+      "answer": "창작 글쓰기가 제 열정이에요."
+    },
+    {
+      "id": "ex72",
+      "type": "true_false",
+      "question": "Sculpture is making three-dimensional forms.",
+      "answer": true
+    },
+    {
+      "id": "ex73",
+      "type": "sentence_ordering",
+      "question": "Arrange the words: park / the / in / jogging / I / go",
+      "answer": "I go jogging in the park."
+    },
+    {
+      "id": "ex74",
+      "type": "error_correction",
+      "question": "Find the error: 'She does arts and craft on weekends.'",
+      "answer": "She does arts and crafts on weekends."
+    },
+    {
+      "id": "ex75",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "practice", "collocation": "meditation"},
+        {"word": "theater", "collocation": "performance"},
+        {"word": "read a", "collocation": "novel"},
+        {"word": "podcast", "collocation": "episode"}
+      ]
+    },
+    {
+      "id": "ex76",
+      "type": "pronunciation_compare",
+      "question": "Which word has the /dʒ/ sound?",
+      "options": ["jogging", "yoga", "fishing", "pottery"],
+      "answer": "jogging"
+    },
+    {
+      "id": "ex77",
+      "type": "multiple_choice",
+      "question": "What is 'pottery'?",
+      "options": ["making music", "making objects from clay", "taking photos", "writing stories"],
+      "answer": "making objects from clay"
+    },
+    {
+      "id": "ex78",
+      "type": "fill_blank",
+      "question": "I love _____ cakes for my family.",
+      "answer": "baking"
+    },
+    {
+      "id": "ex79",
+      "type": "translation_ko_en",
+      "question": "음악은 휴식에 좋아요.",
+      "answer": "Music is good for relaxation."
+    },
+    {
+      "id": "ex80",
+      "type": "translation_en_ko",
+      "question": "I enjoy sketching in the park.",
+      "answer": "공원에서 스케치하는 것을 즐겨요."
+    },
+    {
+      "id": "ex81",
+      "type": "true_false",
+      "question": "Fitness means being physically healthy and strong.",
+      "answer": true
+    },
+    {
+      "id": "ex82",
+      "type": "sentence_ordering",
+      "question": "Arrange the words: skills / my / to / I / cooking / want / improve",
+      "answer": "I want to improve my cooking skills."
+    },
+    {
+      "id": "ex83",
+      "type": "error_correction",
+      "question": "Find the error: 'Meditation help reduce stress.'",
+      "answer": "Meditation helps reduce stress."
+    },
+    {
+      "id": "ex84",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "knitting", "collocation": "needles"},
+        {"word": "pottery", "collocation": "wheel"},
+        {"word": "drawing", "collocation": "class"},
+        {"word": "sketching", "collocation": "pad"}
+      ]
+    },
+    {
+      "id": "ex85",
+      "type": "pronunciation_compare",
+      "question": "Which word has stress on the last syllable?",
+      "options": ["recommend", "creative", "beginner", "instrument"],
+      "answer": "recommend"
+    },
+    {
+      "id": "ex86",
+      "type": "multiple_choice",
+      "question": "Which word is the opposite of 'bored'?",
+      "options": ["tired", "excited", "sad", "angry"],
+      "answer": "excited"
+    },
+    {
+      "id": "ex87",
+      "type": "fill_blank",
+      "question": "I _____ trying yoga. It's very relaxing!",
+      "answer": "recommend"
+    },
+    {
+      "id": "ex88",
+      "type": "translation_ko_en",
+      "question": "박물관에서 사진 전시회가 열려요.",
+      "answer": "There's a photography exhibition at the museum."
+    },
+    {
+      "id": "ex89",
+      "type": "translation_en_ko",
+      "question": "We go hiking every Sunday.",
+      "answer": "우리는 매주 일요일에 등산을 가요."
+    },
+    {
+      "id": "ex90",
+      "type": "true_false",
+      "question": "A podcast is a digital audio program you can download.",
+      "answer": true
+    },
+    {
+      "id": "ex91",
+      "type": "sentence_ordering",
+      "question": "Arrange the words: landscapes / enjoys / She / painting",
+      "answer": "She enjoys painting landscapes."
+    },
+    {
+      "id": "ex92",
+      "type": "error_correction",
+      "question": "Find the error: 'I like to relax at home after works.'",
+      "answer": "I like to relax at home after work."
+    },
+    {
+      "id": "ex93",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "sculpture", "collocation": "garden"},
+        {"word": "dance", "collocation": "class"},
+        {"word": "cooking", "collocation": "skills"},
+        {"word": "baking", "collocation": "bread"}
+      ]
+    },
+    {
+      "id": "ex94",
+      "type": "pronunciation_compare",
+      "question": "Which word has two syllables?",
+      "options": ["exhibition", "entertainment", "member", "creative"],
+      "answer": "member"
+    },
+    {
+      "id": "ex95",
+      "type": "multiple_choice",
+      "question": "What does 'crafts' mean?",
+      "options": ["outdoor sports", "making things by hand", "computer games", "reading books"],
+      "answer": "making things by hand"
+    },
+    {
+      "id": "ex96",
+      "type": "fill_blank",
+      "question": "Playing chess improves thinking _____.",
+      "answer": "skills"
+    },
+    {
+      "id": "ex97",
+      "type": "translation_ko_en",
+      "question": "이번 여름에 캠핑 가요.",
+      "answer": "Let's go camping this summer."
+    },
+    {
+      "id": "ex98",
+      "type": "translation_en_ko",
+      "question": "My dad loves fishing.",
+      "answer": "우리 아빠는 낚시를 좋아하세요."
+    },
+    {
+      "id": "ex99",
+      "type": "true_false",
+      "question": "Indoor activities are done outside.",
+      "answer": false
+    },
+    {
+      "id": "ex100",
+      "type": "sentence_ordering",
+      "question": "Arrange the words: good / portraits / at / He's / drawing",
+      "answer": "He's good at drawing portraits."
+    },
+    {
+      "id": "ex101",
+      "type": "error_correction",
+      "question": "Find the error: 'Rock climbing is very excited.'",
+      "answer": "Rock climbing is very exciting."
+    },
+    {
+      "id": "ex102",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "exercise", "collocation": "routine"},
+        {"word": "fitness", "collocation": "center"},
+        {"word": "jogging", "collocation": "path"},
+        {"word": "swimming", "collocation": "pool"}
+      ]
+    },
+    {
+      "id": "ex103",
+      "type": "pronunciation_compare",
+      "question": "Which word has the /aɪ/ sound?",
+      "options": ["hiking", "fishing", "cooking", "reading"],
+      "answer": "hiking"
+    },
+    {
+      "id": "ex104",
+      "type": "multiple_choice",
+      "question": "Which is an outdoor activity?",
+      "options": ["pottery", "camping", "knitting", "reading"],
+      "answer": "camping"
+    },
+    {
+      "id": "ex105",
+      "type": "fill_blank",
+      "question": "I _____ stamps and coins as a hobby.",
+      "answer": "collect"
+    },
+    {
+      "id": "ex106",
+      "type": "translation_ko_en",
+      "question": "요가를 시도해 보는 것을 추천해요.",
+      "answer": "I recommend trying yoga."
+    },
+    {
+      "id": "ex107",
+      "type": "translation_en_ko",
+      "question": "Painting is a creative hobby.",
+      "answer": "그림 그리기는 창의적인 취미예요."
+    },
+    {
+      "id": "ex108",
+      "type": "true_false",
+      "question": "Weekend means Monday to Friday.",
+      "answer": false
+    },
+    {
+      "id": "ex109",
+      "type": "sentence_ordering",
+      "question": "Arrange the words: swimming / great / is / exercise",
+      "answer": "Swimming is great exercise."
+    },
+    {
+      "id": "ex110",
+      "type": "error_correction",
+      "question": "Find the error: 'I'm good in photography.'",
+      "answer": "I'm good at photography."
+    },
+    {
+      "id": "ex111",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "reading", "collocation": "habit"},
+        {"word": "writing", "collocation": "skills"},
+        {"word": "relaxation", "collocation": "technique"},
+        {"word": "enjoy", "collocation": "doing"}
+      ]
+    },
+    {
+      "id": "ex112",
+      "type": "pronunciation_compare",
+      "question": "Which word ends with /ʃən/?",
+      "options": ["exhibition", "weekend", "outdoor", "member"],
+      "answer": "exhibition"
+    },
+    {
+      "id": "ex113",
+      "type": "multiple_choice",
+      "question": "What does 'leisure' mean?",
+      "options": ["work time", "free time", "sleep time", "meal time"],
+      "answer": "free time"
+    },
+    {
+      "id": "ex114",
+      "type": "fill_blank",
+      "question": "She's a _____ of a photography club.",
+      "answer": "member"
+    },
+    {
+      "id": "ex115",
+      "type": "translation_ko_en",
+      "question": "체스는 실내 활동이에요.",
+      "answer": "Chess is an indoor activity."
+    },
+    {
+      "id": "ex116",
+      "type": "translation_en_ko",
+      "question": "I do yoga three times a week.",
+      "answer": "저는 일주일에 세 번 요가를 해요."
+    },
+    {
+      "id": "ex117",
+      "type": "true_false",
+      "question": "Entertainment means activities that people enjoy.",
+      "answer": true
+    },
+    {
+      "id": "ex118",
+      "type": "sentence_ordering",
+      "question": "Arrange the words: at / good / drawing / is / She",
+      "answer": "She is good at drawing."
+    },
+    {
+      "id": "ex119",
+      "type": "error_correction",
+      "question": "Find the error: 'What do you does on weekends?'",
+      "answer": "What do you do on weekends?"
+    },
+    {
+      "id": "ex120",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "favorite", "collocation": "hobby"},
+        {"word": "take up a", "collocation": "hobby"},
+        {"word": "pursue a", "collocation": "hobby"},
+        {"word": "develop", "collocation": "skills"}
+      ]
+    },
+    {
+      "id": "ex121",
+      "type": "pronunciation_compare",
+      "question": "Which word has stress on 'tain'?",
+      "options": ["entertainment", "contain", "maintain", "all of them"],
+      "answer": "all of them"
+    },
+    {
+      "id": "ex122",
+      "type": "multiple_choice",
+      "question": "A 'novel' is:",
+      "options": ["a short poem", "a long written story", "a news article", "a recipe"],
+      "answer": "a long written story"
+    },
+    {
+      "id": "ex123",
+      "type": "fill_blank",
+      "question": "I listen to _____ while commuting to work.",
+      "answer": "podcasts"
+    },
+    {
+      "id": "ex124",
+      "type": "translation_ko_en",
+      "question": "출퇴근할 때 팟캐스트를 들어요.",
+      "answer": "I listen to podcasts while commuting."
+    },
+    {
+      "id": "ex125",
+      "type": "translation_en_ko",
+      "question": "My grandmother enjoys knitting.",
+      "answer": "우리 할머니는 뜨개질을 즐기세요."
+    },
+    {
+      "id": "ex126",
+      "type": "true_false",
+      "question": "Jogging is running slowly for exercise.",
+      "answer": true
+    },
+    {
+      "id": "ex127",
+      "type": "sentence_ordering",
+      "question": "Arrange the words: beautiful / are / park / the / sculptures / in / There",
+      "answer": "There are beautiful sculptures in the park."
+    },
+    {
+      "id": "ex128",
+      "type": "error_correction",
+      "question": "Find the error: 'I enjoy to play tennis.'",
+      "answer": "I enjoy playing tennis."
+    },
+    {
+      "id": "ex129",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "oil", "collocation": "painting"},
+        {"word": "watercolor", "collocation": "painting"},
+        {"word": "wildlife", "collocation": "photography"},
+        {"word": "digital", "collocation": "photography"}
+      ]
+    },
+    {
+      "id": "ex130",
+      "type": "pronunciation_compare",
+      "question": "Which word has a long /iː/ sound?",
+      "options": ["reading", "cooking", "hiking", "jogging"],
+      "answer": "reading"
+    },
+    {
+      "id": "ex131",
+      "type": "multiple_choice",
+      "question": "Which activity involves clay?",
+      "options": ["knitting", "pottery", "fishing", "cycling"],
+      "answer": "pottery"
+    },
+    {
+      "id": "ex132",
+      "type": "fill_blank",
+      "question": "I take a _____ class on Saturdays to learn how to make vases.",
+      "answer": "pottery"
+    },
+    {
+      "id": "ex133",
+      "type": "translation_ko_en",
+      "question": "그는 인물화 그리는 것을 잘해요.",
+      "answer": "He's good at drawing portraits."
+    },
+    {
+      "id": "ex134",
+      "type": "translation_en_ko",
+      "question": "We're going to the theater tonight.",
+      "answer": "오늘 밤 우리는 극장에 가요."
+    },
+    {
+      "id": "ex135",
+      "type": "true_false",
+      "question": "Cycling is the same as driving a car.",
+      "answer": false
+    },
+    {
+      "id": "ex136",
+      "type": "sentence_ordering",
+      "question": "Arrange the words: love / cakes / I / baking",
+      "answer": "I love baking cakes."
+    },
+    {
+      "id": "ex137",
+      "type": "error_correction",
+      "question": "Find the error: 'She goes to a fitness center every days.'",
+      "answer": "She goes to a fitness center every day."
+    },
+    {
+      "id": "ex138",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "beginner", "collocation": "level"},
+        {"word": "complete", "collocation": "beginner"},
+        {"word": "beginner", "collocation": "course"},
+        {"word": "advanced", "collocation": "level"}
+      ]
+    },
+    {
+      "id": "ex139",
+      "type": "pronunciation_compare",
+      "question": "Which word has a silent 'k'?",
+      "options": ["knitting", "hiking", "cooking", "baking"],
+      "answer": "knitting"
+    },
+    {
+      "id": "ex140",
+      "type": "multiple_choice",
+      "question": "The opposite of 'indoor' is:",
+      "options": ["outside", "outdoor", "external", "all of them"],
+      "answer": "outdoor"
+    },
+    {
+      "id": "ex141",
+      "type": "fill_blank",
+      "question": "Meditation helps _____ stress and anxiety.",
+      "answer": "reduce"
+    },
+    {
+      "id": "ex142",
+      "type": "translation_ko_en",
+      "question": "공원에서 조깅해요.",
+      "answer": "I go jogging in the park."
+    },
+    {
+      "id": "ex143",
+      "type": "translation_en_ko",
+      "question": "There are beautiful sculptures in the park.",
+      "answer": "공원에 아름다운 조각품들이 있어요."
+    },
+    {
+      "id": "ex144",
+      "type": "true_false",
+      "question": "Writing and reading are opposite activities.",
+      "answer": true
+    },
+    {
+      "id": "ex145",
+      "type": "sentence_ordering",
+      "question": "Arrange the words: hobby / Cooking / favorite / is / my",
+      "answer": "Cooking is my favorite hobby."
+    },
+    {
+      "id": "ex146",
+      "type": "error_correction",
+      "question": "Find the error: 'I practice to play piano every day.'",
+      "answer": "I practice piano every day."
+    },
+    {
+      "id": "ex147",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "highly", "collocation": "recommend"},
+        {"word": "really", "collocation": "enjoy"},
+        {"word": "get", "collocation": "bored"},
+        {"word": "feel", "collocation": "bored"}
+      ]
+    },
+    {
+      "id": "ex148",
+      "type": "pronunciation_compare",
+      "question": "Which word has the /ʒ/ sound?",
+      "options": ["leisure", "measure", "pleasure", "all of them"],
+      "answer": "all of them"
+    },
+    {
+      "id": "ex149",
+      "type": "multiple_choice",
+      "question": "Which hobby improves your physical fitness?",
+      "options": ["reading", "swimming", "watching TV", "sleeping"],
+      "answer": "swimming"
+    },
+    {
+      "id": "ex150",
+      "type": "fill_blank",
+      "question": "I _____ to improve my English by reading novels.",
+      "answer": "want"
     }
   ]
 }

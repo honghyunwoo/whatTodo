@@ -1,0 +1,100 @@
+{
+  "id": "c2-reading-week-2",
+  "type": "reading",
+  "level": "C2",
+  "weekId": "week-2",
+  "title": "The Aesthetics of Difficulty",
+  "description": "Engaging with complex theoretical texts on art and interpretation",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passage": {
+    "title": "Difficulty as Aesthetic Strategy",
+    "author": "Adapted from literary theory sources",
+    "paragraphs": [
+      "The deliberately obscure text occupies an ambivalent position within contemporary literary culture. On the one hand, difficulty is often derided as elitism, a barrier erected to exclude the uninitiated and confer prestige upon those who claim to penetrate its mysteries. On the other hand, difficulty may be defended as a necessary resistance to the easy consumption that characterizes much of contemporary media—a refusal to become just another commodity in the attention economy. The question, then, is not simply whether a text is difficult, but what work that difficulty performs.",
+      "George Steiner distinguished between contingent difficulties—those arising from allusions, foreign words, or historical distance—and ontological difficulties that arise from the fundamental opacity of the text itself. The former can, in principle, be resolved through research and annotation; the latter cannot, for they are constitutive of the text's meaning. A poem that remains inexhaustible after repeated readings achieves this not despite but because of its resistance to final interpretation. The hermeneutic task is not to close the circle of meaning but to keep it open.",
+      "This conception of difficulty invites us to reconsider the temporality of reading. The difficult text demands what the philosopher Hans-Georg Gadamer called 'tarrying'—a willingness to dwell with the text rather than pass through it. Such tarrying is not merely a cognitive activity but an ethical one: it cultivates the patience and attention that consumer culture systematically erodes. In this sense, the difficult text functions as a form of resistance, not merely aesthetic but political.",
+      "Yet we must be wary of romanticizing difficulty for its own sake. Not all obscurity is meaningful; some is merely the product of unclear thinking or failed craft. The distinction between productive and unproductive difficulty is itself difficult to draw, but it must be drawn if we are to evaluate literary works critically. The test, perhaps, is whether the difficulty rewards engagement—whether struggling with the text yields insights that simpler formulations could not provide."
+    ]
+  },
+  "questions": [
+    {
+      "id": "c2-r2-q1",
+      "type": "main-idea",
+      "question": "What is the author's primary purpose in this passage?",
+      "options": [
+        "To condemn difficult texts as elitist",
+        "To examine the various functions and justifications of textual difficulty",
+        "To provide a history of literary theory",
+        "To argue that all difficult texts are valuable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage explores different views on difficulty—as elitism, as resistance to commodification, as hermeneutic openness—without simply endorsing or condemning it"
+    },
+    {
+      "id": "c2-r2-q2",
+      "type": "detail",
+      "question": "According to Steiner's distinction, which type of difficulty cannot be resolved through research?",
+      "options": [
+        "Contingent difficulty",
+        "Historical difficulty",
+        "Ontological difficulty",
+        "Linguistic difficulty"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ontological difficulties 'cannot be resolved, for they are constitutive of the text's meaning'"
+    },
+    {
+      "id": "c2-r2-q3",
+      "type": "inference",
+      "question": "What does the author imply by describing 'tarrying' as 'ethical'?",
+      "options": [
+        "Reading difficult texts makes one a better person morally",
+        "Patient attention counters the dehumanizing effects of consumer culture",
+        "Difficult texts contain explicit moral lessons",
+        "Speed-reading is morally wrong"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tarrying 'cultivates the patience and attention that consumer culture systematically erodes'"
+    },
+    {
+      "id": "c2-r2-q4",
+      "type": "critical-analysis",
+      "question": "What tension does the final paragraph introduce?",
+      "options": [
+        "Between difficulty and clarity",
+        "Between productive difficulty and mere obscurity",
+        "Between old and new literature",
+        "Between readers and authors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The author distinguishes 'productive and unproductive difficulty' and warns against 'romanticizing difficulty for its own sake'"
+    },
+    {
+      "id": "c2-r2-q5",
+      "type": "vocabulary",
+      "question": "In this context, 'hermeneutic' most nearly relates to:",
+      "options": [
+        "Hermetically sealed containers",
+        "The interpretation of texts",
+        "Mathematical proofs",
+        "Hermit-like isolation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hermeneutics is the theory and practice of interpretation; 'hermeneutic task' refers to the interpretive work of reading"
+    },
+    {
+      "id": "c2-r2-q6",
+      "type": "rhetoric",
+      "question": "What rhetorical strategy does the author employ in the final paragraph?",
+      "options": [
+        "Ad hominem attack",
+        "Qualification of the main argument",
+        "Appeal to authority",
+        "Emotional manipulation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The author qualifies the defense of difficulty by warning against 'romanticizing difficulty for its own sake' and distinguishing productive from unproductive obscurity"
+    }
+  ]
+}

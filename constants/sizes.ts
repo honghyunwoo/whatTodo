@@ -28,6 +28,7 @@ export const SIZES = {
     lg: 12,
     xl: 16,
     xxl: 24,
+    round: 9999, // Alias for full (circular)
     full: 9999,
   },
   icon: {

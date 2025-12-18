@@ -1,0 +1,105 @@
+{
+  "id": "c1-speaking-week-8",
+  "type": "speaking",
+  "level": "C1",
+  "weekId": "week-8",
+  "title": "Debates and Public Speaking",
+  "description": "Advanced skills for formal debates and persuasive public speaking",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c1-s8-s1",
+      "title": "Debate Structure and Techniques",
+      "description": "Organizing and delivering arguments in formal debate",
+      "structure": [
+        {
+          "element": "Opening/Constructive",
+          "purpose": "Present main arguments and framework",
+          "tips": "State your position clearly; outline your key points; establish criteria for evaluation"
+        },
+        {
+          "element": "Rebuttal",
+          "purpose": "Respond to opponent's arguments",
+          "tips": "Address their strongest points; explain why they fail; don't just assert disagreement"
+        },
+        {
+          "element": "Cross-examination",
+          "purpose": "Probe weaknesses in opponent's position",
+          "tips": "Ask focused questions; don't argue during your opponent's answer time"
+        },
+        {
+          "element": "Summary/Closing",
+          "purpose": "Crystallize why your side wins",
+          "tips": "Identify key clashes; explain why you win each; end memorably"
+        }
+      ]
+    },
+    {
+      "id": "c1-s8-s2",
+      "title": "Persuasive Speaking Techniques",
+      "description": "Rhetorical strategies for public speaking",
+      "techniques": [
+        {
+          "technique": "Ethos (credibility)",
+          "description": "Establish your authority and trustworthiness",
+          "example": "As someone who has worked in this field for twenty years..."
+        },
+        {
+          "technique": "Pathos (emotion)",
+          "description": "Connect with audience's emotions and values",
+          "example": "Imagine a child who goes to bed hungry tonight..."
+        },
+        {
+          "technique": "Logos (logic)",
+          "description": "Present sound reasoning and evidence",
+          "example": "The data clearly shows a 40% reduction when this approach is used..."
+        },
+        {
+          "technique": "Kairos (timing)",
+          "description": "Frame the urgency and timeliness of action",
+          "example": "This is a pivotal moment. If we don't act now..."
+        }
+      ]
+    },
+    {
+      "id": "c1-s8-s3",
+      "title": "Handling Opposition",
+      "description": "Responding to challenges and hostile questions",
+      "strategies": [
+        {
+          "situation": "Factual challenge",
+          "response": "You're right about X, but that actually supports my point because... / I'd want to verify that figure, but even if it's accurate..."
+        },
+        {
+          "situation": "Strawman attack",
+          "response": "That's not quite my argument. What I'm actually saying is... Let me clarify..."
+        },
+        {
+          "situation": "Hostile interruption",
+          "response": "I'll address that point—let me just finish this thought first... / I appreciate your passion, but let me complete my argument."
+        },
+        {
+          "situation": "Loaded question",
+          "response": "That question contains an assumption I don't accept. Let me reframe: the real issue is..."
+        }
+      ]
+    }
+  ],
+  "practiceScenarios": [
+    {
+      "id": "c1-s8-sc1",
+      "title": "Opening Statement",
+      "context": "Debate on social media regulation. You support requiring platforms to be more transparent about algorithmic amplification.",
+      "task": "Deliver a 90-second opening statement.",
+      "sampleResponse": "Today we're not debating whether social media has changed public discourse—we know it has. We're debating whether citizens have a right to understand how. When you open a news app, an algorithm decides what you see. That algorithm is designed not to inform but to engage—and outrage engages. The result: we're each presented with a different reality, optimized not for truth but for clicks. This isn't just a commercial issue; it's a democratic one. Voters can't make informed decisions when their information is shaped by systems they don't understand and can't see. Our proposal is modest: require platforms to disclose the basic principles by which content is ranked and amplified. Not their proprietary code—just enough for citizens to understand why they're seeing what they're seeing. Our opponents will say this threatens innovation. But democracy shouldn't be sacrificed for innovation we don't understand. Transparency isn't censorship; it's the foundation of accountability."
+    },
+    {
+      "id": "c1-s8-sc2",
+      "title": "Rebuttal",
+      "context": "Your opponent argued that media literacy education is sufficient without platform regulation.",
+      "task": "Deliver a focused rebuttal.",
+      "sampleResponse": "My opponent puts the entire burden on individual users to navigate a system designed by some of the world's most sophisticated engineers to exploit human psychology. Think about that. They're saying that a teenager should be expected to out-think algorithms refined by billions in investment to capture attention. Media literacy helps—we don't dispute that—but it's a complement to structural solutions, not a substitute. Consider: we require nutritional labels on food. We don't say, 'Just educate people about nutrition and let companies hide ingredients.' The information asymmetry is too great. The same logic applies here. And crucially, my opponent's approach leaves the business model untouched. As long as platforms profit from engagement regardless of accuracy, they have no incentive to change. Our approach aligns incentives with outcomes. Transparency creates accountability; education alone cannot."
+    }
+  ]
+}

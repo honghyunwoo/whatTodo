@@ -1,0 +1,103 @@
+{
+  "id": "c2-speaking-week-4",
+  "type": "speaking",
+  "level": "C2",
+  "weekId": "week-4",
+  "title": "Critical Discourse and Public Intellectualism",
+  "description": "Articulating complex theoretical positions in public discourse",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c2-s4-s1",
+      "title": "Theoretical Explication",
+      "description": "Explaining complex theories accessibly without oversimplifying",
+      "techniques": [
+        {
+          "name": "Generative metaphor",
+          "description": "Use illuminating comparisons while acknowledging their limits",
+          "example": "Think of ideology not as a veil over reality but as the lens through which we see—necessary for vision, but always shaping what we perceive. Like any metaphor, this has limits..."
+        },
+        {
+          "name": "Genealogical framing",
+          "description": "Trace the history of concepts to denaturalize them",
+          "example": "What we now call 'the economy' as an autonomous sphere is itself a relatively recent invention. Before the 18th century..."
+        },
+        {
+          "name": "Dialectical exposition",
+          "description": "Present position through its negation",
+          "example": "To understand what Foucault means by 'power,' we must first abandon our commonsense notion that power is simply repression..."
+        }
+      ]
+    },
+    {
+      "id": "c2-s4-s2",
+      "title": "Public Intellectual Discourse",
+      "description": "Speaking to non-specialist audiences about theoretical matters",
+      "strategies": [
+        {
+          "name": "Connect abstract to concrete",
+          "principle": "Ground theoretical claims in recognizable experience",
+          "example": "When sociologists speak of 'structural inequality,' they mean something you've likely experienced: that moment when you realize the game was rigged before you started playing."
+        },
+        {
+          "name": "Anticipate resistance",
+          "principle": "Address likely objections from common sense",
+          "example": "Now, you might object that if structures are so determinative, how can we explain individual success stories? This is precisely the question that..."
+        },
+        {
+          "name": "Maintain intellectual honesty",
+          "principle": "Acknowledge complexity and uncertainty",
+          "example": "I want to be clear about what we know and what remains contested. The evidence strongly suggests X, but the mechanisms remain debated."
+        }
+      ]
+    },
+    {
+      "id": "c2-s4-s3",
+      "title": "Critical Intervention",
+      "description": "Constructive critique of positions and policies",
+      "phrases": [
+        {
+          "function": "Identifying assumptions",
+          "expressions": [
+            "The unstated premise here seems to be...",
+            "This argument presupposes that...",
+            "What goes unexamined in this framing is..."
+          ]
+        },
+        {
+          "function": "Revealing contradictions",
+          "expressions": [
+            "There's a tension between claiming X and assuming Y...",
+            "The logic of this position, if followed through, leads to...",
+            "What's interesting is the contradiction between the stated aims and..."
+          ]
+        },
+        {
+          "function": "Proposing alternatives",
+          "expressions": [
+            "What if we reframed the question entirely...",
+            "An alternative would be to start from the premise that...",
+            "Rather than accepting this binary, we might consider..."
+          ]
+        }
+      ]
+    }
+  ],
+  "practiceScenarios": [
+    {
+      "id": "c2-s4-sc1",
+      "title": "Public Lecture on Technology",
+      "context": "You're giving a public talk on the political implications of artificial intelligence.",
+      "task": "Explain algorithmic bias in accessible terms while maintaining analytical rigor.",
+      "sampleResponse": "When we talk about algorithmic bias, we're not primarily talking about prejudiced programmers—though that's the intuitive assumption. The deeper issue is this: machine learning systems learn from historical data, and history is not neutral. If a hiring algorithm is trained on decades of hiring decisions, it learns not just qualifications but all the biases embedded in those decisions. The algorithm optimizes for what was, not what should be. And here's the troubling part: because the discrimination is statistical rather than explicit, it becomes both more pervasive and harder to challenge. The system can discriminate without anyone intending discrimination. This raises a fundamental question about accountability: if outcomes are unjust but no individual is prejudiced, who is responsible?"
+    },
+    {
+      "id": "c2-s4-sc2",
+      "title": "Panel Discussion on Democracy",
+      "context": "Responding to a claim that social media strengthens democracy by giving everyone a voice.",
+      "task": "Offer a critical perspective without dismissing the point entirely.",
+      "sampleResponse": "There's something importantly right in what you're saying—these platforms have democratized who can speak publicly. That's not nothing. But I want to complicate the picture. Having a voice and being heard are not the same thing. What we're seeing is a proliferation of speech alongside a concentration of attention. The platforms that host this speech are not neutral conduits; their architectures shape what spreads and what disappears. Content that provokes outrage travels faster than nuance. What's optimized is engagement, not enlightenment. So we might ask: is democracy well-served by a public sphere engineered for engagement? Are we seeing the democratization of speech or its fragmentation into echo chambers? I'm genuinely uncertain, but I think we need to resist both uncritical celebration and knee-jerk dismissal."
+    }
+  ]
+}

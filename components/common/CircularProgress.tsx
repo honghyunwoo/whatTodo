@@ -1,15 +1,9 @@
 import React from 'react';
 import { View, Text, StyleSheet, ViewStyle } from 'react-native';
 import Svg, { Circle, G } from 'react-native-svg';
-import Animated, {
-  useAnimatedProps,
-  useSharedValue,
-  withTiming,
-  useDerivedValue,
-} from 'react-native-reanimated';
+import Animated, { useAnimatedProps, useSharedValue, withTiming } from 'react-native-reanimated';
 import { useTheme } from '@/contexts/ThemeContext';
 import { TYPOGRAPHY } from '@/constants/typography';
-import { COLORS } from '@/constants/colors';
 
 const AnimatedCircle = Animated.createAnimatedComponent(Circle);
 
@@ -48,7 +42,7 @@ export function CircularProgress({
     progressValue.value = animated
       ? withTiming(clampedProgress, { duration: 800 })
       : clampedProgress;
-  }, [progress, animated]);
+  }, [progress, animated, progressValue]);
 
   const animatedProps = useAnimatedProps(() => {
     const strokeDashoffset = circumference - (progressValue.value / 100) * circumference;
@@ -90,20 +84,21 @@ export function CircularProgress({
 
       {/* Center Content */}
       <View style={styles.centerContent}>
-        {centerContent || (showPercentage && (
-          <Text
-            style={[
-              styles.percentage,
-              TYPOGRAPHY.h3,
-              {
-                color: colors.text,
-                fontSize: size * 0.2,
-              },
-            ]}
-          >
-            {Math.round(progress)}%
-          </Text>
-        ))}
+        {centerContent ||
+          (showPercentage && (
+            <Text
+              style={[
+                styles.percentage,
+                TYPOGRAPHY.h3,
+                {
+                  color: colors.text,
+                  fontSize: size * 0.2,
+                },
+              ]}
+            >
+              {Math.round(progress)}%
+            </Text>
+          ))}
       </View>
     </View>
   );

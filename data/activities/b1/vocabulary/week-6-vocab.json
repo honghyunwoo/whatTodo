@@ -256,6 +256,256 @@
       "translation": "비판적 사고",
       "example": "Schools should teach critical thinking skills.",
       "exampleTranslation": "학교는 비판적 사고력을 가르쳐야 해요."
+    },
+    {
+      "id": "w26",
+      "word": "enroll",
+      "pronunciation": "/ɪnˈrəʊl/",
+      "partOfSpeech": "verb",
+      "meaning": "to officially register for a course or school",
+      "translation": "등록하다",
+      "example": "I want to enroll in a photography course.",
+      "exampleTranslation": "저는 사진 과정에 등록하고 싶어요."
+    },
+    {
+      "id": "w27",
+      "word": "attendance",
+      "pronunciation": "/əˈtendəns/",
+      "partOfSpeech": "noun",
+      "meaning": "being present at a place; the number of people present",
+      "translation": "출석; 참석",
+      "example": "Attendance is mandatory for all students.",
+      "exampleTranslation": "모든 학생들에게 출석은 필수예요."
+    },
+    {
+      "id": "w28",
+      "word": "literacy",
+      "pronunciation": "/ˈlɪtərəsi/",
+      "partOfSpeech": "noun",
+      "meaning": "the ability to read and write",
+      "translation": "읽고 쓰는 능력, 문해력",
+      "example": "The country is working to improve literacy rates.",
+      "exampleTranslation": "그 나라는 문해율을 높이기 위해 노력하고 있어요."
+    },
+    {
+      "id": "w29",
+      "word": "comprehension",
+      "pronunciation": "/ˌkɒmprɪˈhenʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "the ability to understand something",
+      "translation": "이해력",
+      "example": "Reading comprehension is an important skill.",
+      "exampleTranslation": "독해력은 중요한 기술이에요."
+    },
+    {
+      "id": "w30",
+      "word": "assessment",
+      "pronunciation": "/əˈsesmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "the process of evaluating or testing something",
+      "translation": "평가",
+      "example": "The teacher will give us an assessment next week.",
+      "exampleTranslation": "선생님께서 다음 주에 우리에게 평가를 하실 거예요."
+    },
+    {
+      "id": "w31",
+      "word": "evaluation",
+      "pronunciation": "/ɪˌvæljuˈeɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "the act of judging or calculating the value of something",
+      "translation": "평가",
+      "example": "The course includes both self-evaluation and peer evaluation.",
+      "exampleTranslation": "그 과정은 자기 평가와 동료 평가를 모두 포함해요."
+    },
+    {
+      "id": "w32",
+      "word": "syllabus",
+      "pronunciation": "/ˈsɪləbəs/",
+      "partOfSpeech": "noun",
+      "meaning": "a plan showing what will be taught in a course",
+      "translation": "강의 계획서",
+      "example": "The syllabus lists all the topics we will cover.",
+      "exampleTranslation": "강의 계획서는 우리가 다룰 모든 주제를 나열해요."
+    },
+    {
+      "id": "w33",
+      "word": "textbook",
+      "pronunciation": "/ˈtekstbʊk/",
+      "partOfSpeech": "noun",
+      "meaning": "a book used for studying a subject",
+      "translation": "교과서",
+      "example": "Don't forget to bring your textbook to class.",
+      "exampleTranslation": "수업에 교과서를 가져오는 것을 잊지 마세요."
+    },
+    {
+      "id": "w34",
+      "word": "reference",
+      "pronunciation": "/ˈrefrəns/",
+      "partOfSpeech": "noun",
+      "meaning": "a source of information; mentioning a source",
+      "translation": "참고 자료; 참조",
+      "example": "You need to include references in your essay.",
+      "exampleTranslation": "에세이에 참고 문헌을 포함해야 해요."
+    },
+    {
+      "id": "w35",
+      "word": "bibliography",
+      "pronunciation": "/ˌbɪbliˈɒɡrəfi/",
+      "partOfSpeech": "noun",
+      "meaning": "a list of books and articles used in preparing a work",
+      "translation": "참고 문헌 목록",
+      "example": "The bibliography should be at the end of your paper.",
+      "exampleTranslation": "참고 문헌 목록은 논문 끝에 있어야 해요."
+    },
+    {
+      "id": "w36",
+      "word": "plagiarize",
+      "pronunciation": "/ˈpleɪdʒəraɪz/",
+      "partOfSpeech": "verb",
+      "meaning": "to copy someone else's work and pretend it's your own",
+      "translation": "표절하다",
+      "example": "Students who plagiarize can be expelled from university.",
+      "exampleTranslation": "표절하는 학생들은 대학에서 퇴학당할 수 있어요."
+    },
+    {
+      "id": "w37",
+      "word": "citation",
+      "pronunciation": "/saɪˈteɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "a reference to a source of information",
+      "translation": "인용",
+      "example": "Make sure you include proper citations.",
+      "exampleTranslation": "적절한 인용을 포함하세요."
+    },
+    {
+      "id": "w38",
+      "word": "presentation",
+      "pronunciation": "/ˌpreznˈteɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "a talk or demonstration to an audience",
+      "translation": "발표",
+      "example": "I have to give a presentation on climate change.",
+      "exampleTranslation": "저는 기후 변화에 대해 발표해야 해요."
+    },
+    {
+      "id": "w39",
+      "word": "skill",
+      "pronunciation": "/skɪl/",
+      "partOfSpeech": "noun",
+      "meaning": "the ability to do something well",
+      "translation": "기술, 능력",
+      "example": "Communication skills are essential for this job.",
+      "exampleTranslation": "의사소통 능력은 이 일에 필수적이에요."
+    },
+    {
+      "id": "w40",
+      "word": "knowledge",
+      "pronunciation": "/ˈnɒlɪdʒ/",
+      "partOfSpeech": "noun",
+      "meaning": "information and understanding about a subject",
+      "translation": "지식",
+      "example": "She has extensive knowledge of ancient history.",
+      "exampleTranslation": "그녀는 고대 역사에 대한 폭넓은 지식을 가지고 있어요."
+    },
+    {
+      "id": "w41",
+      "word": "ability",
+      "pronunciation": "/əˈbɪləti/",
+      "partOfSpeech": "noun",
+      "meaning": "the power or capacity to do something",
+      "translation": "능력",
+      "example": "He has the ability to learn languages quickly.",
+      "exampleTranslation": "그는 언어를 빨리 배우는 능력이 있어요."
+    },
+    {
+      "id": "w42",
+      "word": "progress",
+      "pronunciation": "/ˈprəʊɡres/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "forward movement; to develop or improve",
+      "translation": "진전; 진전하다",
+      "example": "You're making good progress with your English.",
+      "exampleTranslation": "영어 실력이 좋은 진전을 보이고 있어요."
+    },
+    {
+      "id": "w43",
+      "word": "improvement",
+      "pronunciation": "/ɪmˈpruːvmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "the act of becoming better",
+      "translation": "향상, 개선",
+      "example": "There has been a significant improvement in his grades.",
+      "exampleTranslation": "그의 성적이 크게 향상되었어요."
+    },
+    {
+      "id": "w44",
+      "word": "achievement",
+      "pronunciation": "/əˈtʃiːvmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "something successfully completed or accomplished",
+      "translation": "성취, 업적",
+      "example": "Graduating from university is a great achievement.",
+      "exampleTranslation": "대학 졸업은 큰 성취예요."
+    },
+    {
+      "id": "w45",
+      "word": "fail",
+      "pronunciation": "/feɪl/",
+      "partOfSpeech": "verb",
+      "meaning": "to not succeed; to not pass a test",
+      "translation": "실패하다; 낙제하다",
+      "example": "I'm worried I might fail the math exam.",
+      "exampleTranslation": "수학 시험에 떨어질까 걱정돼요."
+    },
+    {
+      "id": "w46",
+      "word": "pass",
+      "pronunciation": "/pɑːs/",
+      "partOfSpeech": "verb",
+      "meaning": "to succeed in a test or exam",
+      "translation": "합격하다, 통과하다",
+      "example": "I'm confident I will pass all my exams.",
+      "exampleTranslation": "모든 시험에 합격할 거라 확신해요."
+    },
+    {
+      "id": "w47",
+      "word": "grade",
+      "pronunciation": "/ɡreɪd/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "a mark showing the quality of work; to evaluate work",
+      "translation": "성적; 채점하다",
+      "example": "What grade did you get on your essay?",
+      "exampleTranslation": "에세이에서 무슨 성적을 받았어요?"
+    },
+    {
+      "id": "w48",
+      "word": "exam",
+      "pronunciation": "/ɪɡˈzæm/",
+      "partOfSpeech": "noun",
+      "meaning": "a formal test of knowledge or ability",
+      "translation": "시험",
+      "example": "The final exam will be in two weeks.",
+      "exampleTranslation": "기말 시험은 2주 후에 있을 거예요."
+    },
+    {
+      "id": "w49",
+      "word": "test",
+      "pronunciation": "/test/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "an examination of knowledge; to examine",
+      "translation": "시험; 시험하다",
+      "example": "We have a vocabulary test tomorrow.",
+      "exampleTranslation": "우리는 내일 어휘 시험이 있어요."
+    },
+    {
+      "id": "w50",
+      "word": "certification",
+      "pronunciation": "/ˌsɜːtɪfɪˈkeɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "an official document proving qualification",
+      "translation": "자격증",
+      "example": "I need a teaching certification to work in schools.",
+      "exampleTranslation": "학교에서 일하려면 교사 자격증이 필요해요."
     }
   ],
 
@@ -328,6 +578,948 @@
       "question": "_____ learning has become more popular since the pandemic.",
       "options": ["Academic", "Practical", "Online", "Critical"],
       "answer": "Online"
+    },
+    {
+      "id": "ex11",
+      "type": "fill_blank",
+      "question": "I want to _____ in a Spanish course this semester.",
+      "answer": "enroll"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "_____ is mandatory for all lectures.",
+      "options": ["Attendance", "Literacy", "Bibliography", "Citation"],
+      "answer": "Attendance"
+    },
+    {
+      "id": "ex13",
+      "type": "fill_blank",
+      "question": "The _____ shows all the topics we will study this semester.",
+      "answer": "syllabus"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "Reading _____ is essential for language learning.",
+      "options": ["comprehension", "plagiarize", "attendance", "tuition"],
+      "answer": "comprehension"
+    },
+    {
+      "id": "ex15",
+      "type": "fill_blank",
+      "question": "Students who _____ will face serious consequences.",
+      "answer": "plagiarize"
+    },
+    {
+      "id": "ex16",
+      "type": "matching",
+      "pairs": [
+        {"word": "enroll", "match": "register for course"},
+        {"word": "graduate", "match": "complete studies"},
+        {"word": "qualify", "match": "get certification"},
+        {"word": "fail", "match": "not pass exam"}
+      ]
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "Make sure you include all _____ at the end of your paper.",
+      "options": ["citations", "textbooks", "seminars", "lectures"],
+      "answer": "citations"
+    },
+    {
+      "id": "ex18",
+      "type": "fill_blank",
+      "question": "I have to give a _____ on environmental issues tomorrow.",
+      "answer": "presentation"
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "The teacher will _____ our understanding with a quiz.",
+      "options": ["assess", "enroll", "plagiarize", "concentrate"],
+      "answer": "assess"
+    },
+    {
+      "id": "ex20",
+      "type": "fill_blank",
+      "question": "His _____ performance has improved this year.",
+      "answer": "academic"
+    },
+    {
+      "id": "ex21",
+      "type": "translation_ko_en",
+      "question": "저는 장학금을 받고 싶어요.",
+      "answer": "I want to get a scholarship."
+    },
+    {
+      "id": "ex22",
+      "type": "translation_en_ko",
+      "question": "The curriculum includes both theory and practice.",
+      "answer": "교육 과정은 이론과 실습을 모두 포함해요."
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "She qualified _____ a teacher last year.",
+      "options": ["as", "for", "to", "with"],
+      "answer": "as"
+    },
+    {
+      "id": "ex24",
+      "type": "fill_blank",
+      "question": "Don't forget to bring your _____ to class tomorrow.",
+      "answer": "textbook"
+    },
+    {
+      "id": "ex25",
+      "type": "matching",
+      "pairs": [
+        {"word": "skill", "match": "ability to do well"},
+        {"word": "knowledge", "match": "understanding of subject"},
+        {"word": "ability", "match": "power to do something"},
+        {"word": "achievement", "match": "successful completion"}
+      ]
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "The library has many _____ books for students.",
+      "options": ["reference", "tuition", "deadline", "attendance"],
+      "answer": "reference"
+    },
+    {
+      "id": "ex27",
+      "type": "fill_blank",
+      "question": "Her reading _____ has improved significantly.",
+      "answer": "literacy"
+    },
+    {
+      "id": "ex28",
+      "type": "translation_ko_en",
+      "question": "그는 세 개 국어에 유창해요.",
+      "answer": "He is fluent in three languages."
+    },
+    {
+      "id": "ex29",
+      "type": "translation_en_ko",
+      "question": "I need to concentrate on my studies.",
+      "answer": "저는 공부에 집중해야 해요."
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "The _____ showed excellent results from our experiment.",
+      "options": ["research", "tuition", "attendance", "literacy"],
+      "answer": "research"
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "question": "You need a _____ to work as a nurse.",
+      "answer": "certification"
+    },
+    {
+      "id": "ex32",
+      "type": "multiple_choice",
+      "question": "What's the most _____ way to learn vocabulary?",
+      "options": ["effective", "distracted", "motivated", "academic"],
+      "answer": "effective"
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "question": "The teacher will _____ our essays based on content and grammar.",
+      "answer": "grade"
+    },
+    {
+      "id": "ex34",
+      "type": "matching",
+      "pairs": [
+        {"word": "progress", "match": "forward movement"},
+        {"word": "improvement", "match": "becoming better"},
+        {"word": "achievement", "match": "accomplishment"},
+        {"word": "evaluation", "match": "judging value"}
+      ]
+    },
+    {
+      "id": "ex35",
+      "type": "translation_ko_en",
+      "question": "그녀는 작년에 졸업했어요.",
+      "answer": "She graduated last year."
+    },
+    {
+      "id": "ex36",
+      "type": "translation_en_ko",
+      "question": "I have a math tutor who helps me.",
+      "answer": "저를 도와주는 수학 과외 선생님이 있어요."
+    },
+    {
+      "id": "ex37",
+      "type": "multiple_choice",
+      "question": "The _____ is a detailed plan of what we'll study.",
+      "options": ["syllabus", "textbook", "scholarship", "seminar"],
+      "answer": "syllabus"
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "I'm making good _____ with my language learning.",
+      "answer": "progress"
+    },
+    {
+      "id": "ex39",
+      "type": "multiple_choice",
+      "question": "We need to _____ the results of the survey.",
+      "options": ["analyze", "enroll", "plagiarize", "graduate"],
+      "answer": "analyze"
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "The final _____ will test everything we learned.",
+      "answer": "exam"
+    },
+    {
+      "id": "ex41",
+      "type": "translation_ko_en",
+      "question": "마감일을 지키는 것이 중요해요.",
+      "answer": "It's important to meet the deadline."
+    },
+    {
+      "id": "ex42",
+      "type": "translation_en_ko",
+      "question": "The assignment is due next Friday.",
+      "answer": "과제는 다음 금요일까지예요."
+    },
+    {
+      "id": "ex43",
+      "type": "matching",
+      "pairs": [
+        {"word": "lecture", "match": "formal talk"},
+        {"word": "seminar", "match": "discussion class"},
+        {"word": "presentation", "match": "talk to audience"},
+        {"word": "assessment", "match": "evaluation test"}
+      ]
+    },
+    {
+      "id": "ex44",
+      "type": "multiple_choice",
+      "question": "You need to include a _____ at the end of your research paper.",
+      "options": ["bibliography", "curriculum", "attendance", "tuition"],
+      "answer": "bibliography"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "I hope I will _____ all my exams this semester.",
+      "answer": "pass"
+    },
+    {
+      "id": "ex46",
+      "type": "multiple_choice",
+      "question": "_____ students learn better than unmotivated ones.",
+      "options": ["Motivated", "Distracted", "Academic", "Practical"],
+      "answer": "Motivated"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "She has the _____ to become a great scientist.",
+      "answer": "ability"
+    },
+    {
+      "id": "ex48",
+      "type": "translation_ko_en",
+      "question": "온라인 학습이 인기 있어졌어요.",
+      "answer": "Online learning has become popular."
+    },
+    {
+      "id": "ex49",
+      "type": "translation_en_ko",
+      "question": "Critical thinking is an important skill.",
+      "answer": "비판적 사고는 중요한 기술이에요."
+    },
+    {
+      "id": "ex50",
+      "type": "multiple_choice",
+      "question": "University _____ is very expensive in some countries.",
+      "options": ["tuition", "literacy", "attendance", "citation"],
+      "answer": "tuition"
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "I need to _____ these formulas for the test.",
+      "answer": "memorize"
+    },
+    {
+      "id": "ex52",
+      "type": "matching",
+      "pairs": [
+        {"word": "exam", "match": "formal knowledge test"},
+        {"word": "test", "match": "examination"},
+        {"word": "grade", "match": "mark for work"},
+        {"word": "pass", "match": "succeed in exam"}
+      ]
+    },
+    {
+      "id": "ex53",
+      "type": "multiple_choice",
+      "question": "The course includes both _____ and theoretical components.",
+      "options": ["practical", "academic", "motivated", "fluent"],
+      "answer": "practical"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "Communication _____ are essential for this job.",
+      "answer": "skills"
+    },
+    {
+      "id": "ex55",
+      "type": "translation_ko_en",
+      "question": "저는 시험 공부를 위해 복습해야 해요.",
+      "answer": "I need to revise for the exam."
+    },
+    {
+      "id": "ex56",
+      "type": "translation_en_ko",
+      "question": "She has extensive knowledge of history.",
+      "answer": "그녀는 역사에 대한 폭넓은 지식을 가지고 있어요."
+    },
+    {
+      "id": "ex57",
+      "type": "multiple_choice",
+      "question": "There has been a significant _____ in his grades.",
+      "options": ["improvement", "curriculum", "tuition", "literacy"],
+      "answer": "improvement"
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "Can you _____ the main points of the article?",
+      "answer": "summarize"
+    },
+    {
+      "id": "ex59",
+      "type": "multiple_choice",
+      "question": "I'm worried I might _____ the math exam.",
+      "options": ["fail", "pass", "graduate", "enroll"],
+      "answer": "fail"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "Schools should teach _____ thinking skills.",
+      "answer": "critical"
+    },
+    {
+      "id": "ex61",
+      "type": "matching",
+      "pairs": [
+        {"word": "curriculum", "match": "subjects taught"},
+        {"word": "syllabus", "match": "course plan"},
+        {"word": "textbook", "match": "study book"},
+        {"word": "reference", "match": "information source"}
+      ]
+    },
+    {
+      "id": "ex62",
+      "type": "translation_ko_en",
+      "question": "출석은 모든 학생들에게 필수예요.",
+      "answer": "Attendance is mandatory for all students."
+    },
+    {
+      "id": "ex63",
+      "type": "translation_en_ko",
+      "question": "The professor conducts research on climate change.",
+      "answer": "교수님은 기후 변화에 대한 연구를 하세요."
+    },
+    {
+      "id": "ex64",
+      "type": "multiple_choice",
+      "question": "Graduating from university is a great _____.",
+      "options": ["achievement", "attendance", "literacy", "tuition"],
+      "answer": "achievement"
+    },
+    {
+      "id": "ex65",
+      "type": "fill_blank",
+      "question": "The teacher will do an _____ of our work next week.",
+      "answer": "evaluation"
+    },
+    {
+      "id": "ex66",
+      "type": "multiple_choice",
+      "question": "I get _____ by my phone when studying.",
+      "options": ["distracted", "motivated", "fluent", "effective"],
+      "answer": "distracted"
+    },
+    {
+      "id": "ex67",
+      "type": "fill_blank",
+      "question": "Make sure you include proper _____ in your essay.",
+      "answer": "citations"
+    },
+    {
+      "id": "ex68",
+      "type": "translation_ko_en",
+      "question": "그는 컴퓨터 과학 학위가 있어요.",
+      "answer": "He has a degree in computer science."
+    },
+    {
+      "id": "ex69",
+      "type": "translation_en_ko",
+      "question": "I find it hard to concentrate when it's noisy.",
+      "answer": "시끄러우면 집중하기 어려워요."
+    },
+    {
+      "id": "ex70",
+      "type": "matching",
+      "pairs": [
+        {"word": "scholarship", "match": "education money"},
+        {"word": "tuition", "match": "payment for study"},
+        {"word": "certification", "match": "qualification document"},
+        {"word": "degree", "match": "university qualification"}
+      ]
+    },
+    {
+      "id": "ex71",
+      "type": "multiple_choice",
+      "question": "The country is working to improve _____ rates.",
+      "options": ["literacy", "tuition", "deadline", "citation"],
+      "answer": "literacy"
+    },
+    {
+      "id": "ex72",
+      "type": "fill_blank",
+      "question": "We have a vocabulary _____ tomorrow.",
+      "answer": "test"
+    },
+    {
+      "id": "ex73",
+      "type": "multiple_choice",
+      "question": "What _____ did you get on your essay?",
+      "options": ["grade", "enroll", "fail", "pass"],
+      "answer": "grade"
+    },
+    {
+      "id": "ex74",
+      "type": "fill_blank",
+      "question": "The team is conducting _____ on new technologies.",
+      "answer": "research"
+    },
+    {
+      "id": "ex75",
+      "type": "translation_ko_en",
+      "question": "이 과정은 이론과 실습을 포함해요.",
+      "answer": "The course includes theory and practice."
+    },
+    {
+      "id": "ex76",
+      "type": "translation_en_ko",
+      "question": "You need to memorize these vocabulary words.",
+      "answer": "이 단어들을 암기해야 해요."
+    },
+    {
+      "id": "ex77",
+      "type": "matching",
+      "pairs": [
+        {"word": "revise", "match": "study again"},
+        {"word": "memorize", "match": "learn by heart"},
+        {"word": "analyze", "match": "examine carefully"},
+        {"word": "summarize", "match": "give brief version"}
+      ]
+    },
+    {
+      "id": "ex78",
+      "type": "multiple_choice",
+      "question": "The _____ includes all the books I used for my research.",
+      "options": ["bibliography", "attendance", "literacy", "tuition"],
+      "answer": "bibliography"
+    },
+    {
+      "id": "ex79",
+      "type": "fill_blank",
+      "question": "I have a math _____ who helps me twice a week.",
+      "answer": "tutor"
+    },
+    {
+      "id": "ex80",
+      "type": "multiple_choice",
+      "question": "She will _____ from university next year.",
+      "options": ["graduate", "enroll", "plagiarize", "fail"],
+      "answer": "graduate"
+    },
+    {
+      "id": "ex81",
+      "type": "fill_blank",
+      "question": "He has extensive _____ of computer programming.",
+      "answer": "knowledge"
+    },
+    {
+      "id": "ex82",
+      "type": "translation_ko_en",
+      "question": "효과적인 학습 방법이 필요해요.",
+      "answer": "I need an effective learning method."
+    },
+    {
+      "id": "ex83",
+      "type": "translation_en_ko",
+      "question": "The syllabus lists all the topics we will cover.",
+      "answer": "강의 계획서는 우리가 다룰 모든 주제를 나열해요."
+    },
+    {
+      "id": "ex84",
+      "type": "multiple_choice",
+      "question": "Reading _____ is essential for understanding texts.",
+      "options": ["comprehension", "tuition", "attendance", "deadline"],
+      "answer": "comprehension"
+    },
+    {
+      "id": "ex85",
+      "type": "fill_blank",
+      "question": "You're making good _____ with your studies.",
+      "answer": "progress"
+    },
+    {
+      "id": "ex86",
+      "type": "matching",
+      "pairs": [
+        {"word": "assignment", "match": "student work"},
+        {"word": "deadline", "match": "completion time"},
+        {"word": "assessment", "match": "evaluation process"},
+        {"word": "evaluation", "match": "judging value"}
+      ]
+    },
+    {
+      "id": "ex87",
+      "type": "multiple_choice",
+      "question": "The professor gives _____ twice a week.",
+      "options": ["lectures", "scholarships", "degrees", "textbooks"],
+      "answer": "lectures"
+    },
+    {
+      "id": "ex88",
+      "type": "fill_blank",
+      "question": "I'm confident I will _____ all my exams.",
+      "answer": "pass"
+    },
+    {
+      "id": "ex89",
+      "type": "translation_ko_en",
+      "question": "비판적 사고력을 가르쳐야 해요.",
+      "answer": "We should teach critical thinking skills."
+    },
+    {
+      "id": "ex90",
+      "type": "translation_en_ko",
+      "question": "Students who plagiarize face serious consequences.",
+      "answer": "표절하는 학생들은 심각한 결과에 직면해요."
+    },
+    {
+      "id": "ex91",
+      "type": "multiple_choice",
+      "question": "We have a _____ on research methods this afternoon.",
+      "options": ["seminar", "scholarship", "curriculum", "tuition"],
+      "answer": "seminar"
+    },
+    {
+      "id": "ex92",
+      "type": "fill_blank",
+      "question": "Her _____ performance has improved significantly.",
+      "answer": "academic"
+    },
+    {
+      "id": "ex93",
+      "type": "multiple_choice",
+      "question": "I need a teaching _____ to work in schools.",
+      "options": ["certification", "attendance", "literacy", "tuition"],
+      "answer": "certification"
+    },
+    {
+      "id": "ex94",
+      "type": "fill_blank",
+      "question": "Don't forget to include _____ in your research paper.",
+      "answer": "references"
+    },
+    {
+      "id": "ex95",
+      "type": "matching",
+      "pairs": [
+        {"word": "plagiarize", "match": "copy others' work"},
+        {"word": "citation", "match": "source reference"},
+        {"word": "bibliography", "match": "list of sources"},
+        {"word": "reference", "match": "information source"}
+      ]
+    },
+    {
+      "id": "ex96",
+      "type": "translation_ko_en",
+      "question": "동기 부여된 학생들이 더 잘해요.",
+      "answer": "Motivated students perform better."
+    },
+    {
+      "id": "ex97",
+      "type": "translation_en_ko",
+      "question": "I want to enroll in a Spanish course.",
+      "answer": "저는 스페인어 과정에 등록하고 싶어요."
+    },
+    {
+      "id": "ex98",
+      "type": "multiple_choice",
+      "question": "The final _____ will be in two weeks.",
+      "options": ["exam", "enroll", "graduate", "plagiarize"],
+      "answer": "exam"
+    },
+    {
+      "id": "ex99",
+      "type": "fill_blank",
+      "question": "I have to give a _____ on environmental issues.",
+      "answer": "presentation"
+    },
+    {
+      "id": "ex100",
+      "type": "multiple_choice",
+      "question": "Communication _____ are essential for success.",
+      "options": ["skills", "textbooks", "deadlines", "syllabuses"],
+      "answer": "skills"
+    },
+    {
+      "id": "ex101",
+      "type": "fill_blank",
+      "question": "There has been great _____ in his writing skills.",
+      "answer": "improvement"
+    },
+    {
+      "id": "ex102",
+      "type": "translation_ko_en",
+      "question": "교과서를 가져오는 것을 잊지 마세요.",
+      "answer": "Don't forget to bring your textbook."
+    },
+    {
+      "id": "ex103",
+      "type": "translation_en_ko",
+      "question": "She is fluent in three languages.",
+      "answer": "그녀는 세 개 국어에 유창해요."
+    },
+    {
+      "id": "ex104",
+      "type": "matching",
+      "pairs": [
+        {"word": "fluent", "match": "speaks smoothly"},
+        {"word": "motivated", "match": "has strong desire"},
+        {"word": "distracted", "match": "unable to focus"},
+        {"word": "effective", "match": "produces results"}
+      ]
+    },
+    {
+      "id": "ex105",
+      "type": "multiple_choice",
+      "question": "She _____ as a doctor two years ago.",
+      "options": ["qualified", "enrolled", "plagiarized", "failed"],
+      "answer": "qualified"
+    },
+    {
+      "id": "ex106",
+      "type": "fill_blank",
+      "question": "We need to _____ the data from the experiment.",
+      "answer": "analyze"
+    },
+    {
+      "id": "ex107",
+      "type": "multiple_choice",
+      "question": "The school has updated its _____.",
+      "options": ["curriculum", "attendance", "literacy", "citation"],
+      "answer": "curriculum"
+    },
+    {
+      "id": "ex108",
+      "type": "fill_blank",
+      "question": "Graduating from university is a great _____.",
+      "answer": "achievement"
+    },
+    {
+      "id": "ex109",
+      "type": "translation_ko_en",
+      "question": "성적이 크게 향상되었어요.",
+      "answer": "The grades have improved significantly."
+    },
+    {
+      "id": "ex110",
+      "type": "translation_en_ko",
+      "question": "The teacher will assess our understanding.",
+      "answer": "선생님께서 우리의 이해도를 평가하실 거예요."
+    },
+    {
+      "id": "ex111",
+      "type": "multiple_choice",
+      "question": "He has the _____ to learn languages quickly.",
+      "options": ["ability", "attendance", "tuition", "deadline"],
+      "answer": "ability"
+    },
+    {
+      "id": "ex112",
+      "type": "fill_blank",
+      "question": "The _____ is very expensive at this university.",
+      "answer": "tuition"
+    },
+    {
+      "id": "ex113",
+      "type": "matching",
+      "pairs": [
+        {"word": "online learning", "match": "internet education"},
+        {"word": "critical thinking", "match": "analyze and evaluate"},
+        {"word": "practical", "match": "real situations"},
+        {"word": "academic", "match": "related to education"}
+      ]
+    },
+    {
+      "id": "ex114",
+      "type": "multiple_choice",
+      "question": "_____ thinking helps you evaluate ideas critically.",
+      "options": ["Critical", "Practical", "Academic", "Online"],
+      "answer": "Critical"
+    },
+    {
+      "id": "ex115",
+      "type": "fill_blank",
+      "question": "I always try to meet my _____.",
+      "answer": "deadlines"
+    },
+    {
+      "id": "ex116",
+      "type": "translation_ko_en",
+      "question": "참고 문헌 목록을 포함해야 해요.",
+      "answer": "You need to include a bibliography."
+    },
+    {
+      "id": "ex117",
+      "type": "translation_en_ko",
+      "question": "The course includes both theory and practical skills.",
+      "answer": "이 과정은 이론과 실용적인 기술을 모두 포함해요."
+    },
+    {
+      "id": "ex118",
+      "type": "multiple_choice",
+      "question": "Can you _____ the main ideas?",
+      "options": ["summarize", "enroll", "plagiarize", "fail"],
+      "answer": "summarize"
+    },
+    {
+      "id": "ex119",
+      "type": "fill_blank",
+      "question": "The _____ for the essay is next Monday.",
+      "answer": "assignment"
+    },
+    {
+      "id": "ex120",
+      "type": "multiple_choice",
+      "question": "_____ is mandatory for all students.",
+      "options": ["Attendance", "Tuition", "Scholarship", "Degree"],
+      "answer": "Attendance"
+    },
+    {
+      "id": "ex121",
+      "type": "fill_blank",
+      "question": "The library has many _____ books.",
+      "answer": "reference"
+    },
+    {
+      "id": "ex122",
+      "type": "matching",
+      "pairs": [
+        {"word": "test", "match": "knowledge examination"},
+        {"word": "exam", "match": "formal assessment"},
+        {"word": "grade", "match": "quality mark"},
+        {"word": "certification", "match": "qualification proof"}
+      ]
+    },
+    {
+      "id": "ex123",
+      "type": "translation_ko_en",
+      "question": "개인 교사가 도움이 돼요.",
+      "answer": "A tutor is helpful."
+    },
+    {
+      "id": "ex124",
+      "type": "translation_en_ko",
+      "question": "I need to revise for my exams next week.",
+      "answer": "다음 주 시험을 위해 복습해야 해요."
+    },
+    {
+      "id": "ex125",
+      "type": "multiple_choice",
+      "question": "The teacher will _____ our essays tomorrow.",
+      "options": ["grade", "enroll", "plagiarize", "concentrate"],
+      "answer": "grade"
+    },
+    {
+      "id": "ex126",
+      "type": "fill_blank",
+      "question": "She is _____ in five languages.",
+      "answer": "fluent"
+    },
+    {
+      "id": "ex127",
+      "type": "multiple_choice",
+      "question": "I get easily _____ when using social media.",
+      "options": ["distracted", "motivated", "fluent", "practical"],
+      "answer": "distracted"
+    },
+    {
+      "id": "ex128",
+      "type": "fill_blank",
+      "question": "Make sure you include all _____ in your paper.",
+      "answer": "citations"
+    },
+    {
+      "id": "ex129",
+      "type": "translation_ko_en",
+      "question": "연구 방법을 배워야 해요.",
+      "answer": "I need to learn research methods."
+    },
+    {
+      "id": "ex130",
+      "type": "translation_en_ko",
+      "question": "Online learning has become very popular.",
+      "answer": "온라인 학습이 매우 인기 있어졌어요."
+    },
+    {
+      "id": "ex131",
+      "type": "matching",
+      "pairs": [
+        {"word": "qualify", "match": "get official recognition"},
+        {"word": "enroll", "match": "register officially"},
+        {"word": "graduate", "match": "complete studies"},
+        {"word": "concentrate", "match": "focus attention"}
+      ]
+    },
+    {
+      "id": "ex132",
+      "type": "multiple_choice",
+      "question": "The _____ will be held in the main hall.",
+      "options": ["presentation", "attendance", "literacy", "tuition"],
+      "answer": "presentation"
+    },
+    {
+      "id": "ex133",
+      "type": "fill_blank",
+      "question": "Reading _____ is important for success.",
+      "answer": "comprehension"
+    },
+    {
+      "id": "ex134",
+      "type": "multiple_choice",
+      "question": "The country is improving education _____.",
+      "options": ["literacy", "tuition", "deadline", "citation"],
+      "answer": "literacy"
+    },
+    {
+      "id": "ex135",
+      "type": "fill_blank",
+      "question": "I hope to _____ in the Spanish program next semester.",
+      "answer": "enroll"
+    },
+    {
+      "id": "ex136",
+      "type": "translation_ko_en",
+      "question": "자격증이 필요해요.",
+      "answer": "I need a certification."
+    },
+    {
+      "id": "ex137",
+      "type": "translation_en_ko",
+      "question": "He has a degree in economics.",
+      "answer": "그는 경제학 학위가 있어요."
+    },
+    {
+      "id": "ex138",
+      "type": "multiple_choice",
+      "question": "The _____ showed positive results.",
+      "options": ["research", "tuition", "attendance", "deadline"],
+      "answer": "research"
+    },
+    {
+      "id": "ex139",
+      "type": "fill_blank",
+      "question": "The _____ includes what we need to study.",
+      "answer": "syllabus"
+    },
+    {
+      "id": "ex140",
+      "type": "matching",
+      "pairs": [
+        {"word": "improvement", "match": "getting better"},
+        {"word": "progress", "match": "moving forward"},
+        {"word": "achievement", "match": "successful result"},
+        {"word": "ability", "match": "capacity to do"}
+      ]
+    },
+    {
+      "id": "ex141",
+      "type": "multiple_choice",
+      "question": "She won a _____ for academic excellence.",
+      "options": ["scholarship", "textbook", "deadline", "attendance"],
+      "answer": "scholarship"
+    },
+    {
+      "id": "ex142",
+      "type": "fill_blank",
+      "question": "The final _____ will cover all the material.",
+      "answer": "exam"
+    },
+    {
+      "id": "ex143",
+      "type": "translation_ko_en",
+      "question": "분석 능력이 중요해요.",
+      "answer": "Analytical skills are important."
+    },
+    {
+      "id": "ex144",
+      "type": "translation_en_ko",
+      "question": "I have a vocabulary test tomorrow.",
+      "answer": "내일 어휘 시험이 있어요."
+    },
+    {
+      "id": "ex145",
+      "type": "multiple_choice",
+      "question": "The _____ takes place over the internet.",
+      "options": ["online learning", "textbook", "scholarship", "degree"],
+      "answer": "online learning"
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "question": "You must not _____ other people's work.",
+      "answer": "plagiarize"
+    },
+    {
+      "id": "ex147",
+      "type": "multiple_choice",
+      "question": "I need to _____ on my homework.",
+      "options": ["concentrate", "enroll", "graduate", "plagiarize"],
+      "answer": "concentrate"
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "question": "There has been significant _____ in the education system.",
+      "answer": "improvement"
+    },
+    {
+      "id": "ex149",
+      "type": "translation_ko_en",
+      "question": "실용적인 기술을 배워야 해요.",
+      "answer": "I need to learn practical skills."
+    },
+    {
+      "id": "ex150",
+      "type": "translation_en_ko",
+      "question": "Motivated students tend to perform better.",
+      "answer": "동기 부여된 학생들이 성적이 더 좋은 편이에요."
     }
   ]
 }

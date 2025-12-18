@@ -1,0 +1,103 @@
+{
+  "id": "week-1-writing",
+  "weekId": "week-1",
+  "type": "writing",
+  "level": "C2",
+  "title": "Scholarly Writing & Critical Essays",
+  "description": "Compose sophisticated academic texts with rhetorical precision.",
+
+  "exercises": [
+    {
+      "id": "wr1",
+      "type": "critical_essay",
+      "title": "Philosophical Critique",
+      "prompt": "Write a critical essay responding to the following claim: 'In an age of information abundance, the pursuit of truth has become not only difficult but fundamentally meaningless.' Present a nuanced argument that engages with both the merits and limitations of this position.",
+      "guidelines": [
+        "Write 350-450 words",
+        "Demonstrate sophisticated understanding of epistemological issues",
+        "Use advanced rhetorical structures (fronting, cleft sentences, complex concessives)",
+        "Acknowledge the complexity of the issue while developing a clear thesis",
+        "Employ precise academic vocabulary throughout",
+        "Conclude with a synthesis that opens new avenues for inquiry"
+      ],
+      "sampleOutline": {
+        "introduction": "Problematize the claim while acknowledging its perspicacity",
+        "body1": "Examine the apparent validity: information overload and epistemic uncertainty",
+        "body2": "Challenge the conclusion: why 'meaninglessness' is too strong",
+        "body3": "Develop your nuanced position on truth-seeking in contemporary contexts",
+        "conclusion": "Synthesis and implications for scholarly inquiry"
+      },
+      "vocabularyToInclude": ["epistemological", "obfuscate", "antithetical", "perspicacious", "ameliorate", "liminal"],
+      "minWords": 350,
+      "maxWords": 450
+    },
+    {
+      "id": "wr2",
+      "type": "literary_analysis",
+      "title": "Textual Exegesis",
+      "prompt": "Perform a close reading of a literary or philosophical text of your choice (or a hypothetical passage), analyzing how its formal properties—structure, diction, rhetorical devices—relate to its thematic concerns.",
+      "guidelines": [
+        "Write 280-350 words",
+        "Identify specific formal elements and analyze their significance",
+        "Connect formal analysis to larger interpretive claims",
+        "Use appropriate literary-critical vocabulary",
+        "Demonstrate awareness of how meaning emerges through form"
+      ],
+      "sampleOutline": {
+        "opening": "Introduce the text and your analytical focus",
+        "analysis": "Detailed examination of formal properties",
+        "interpretation": "How form produces or complicates meaning",
+        "conclusion": "Broader implications for understanding the text"
+      },
+      "vocabularyToInclude": ["exegesis", "palimpsest", "verisimilitude", "recondite", "ineffable"],
+      "minWords": 280,
+      "maxWords": 350
+    },
+    {
+      "id": "wr3",
+      "type": "theoretical_synthesis",
+      "title": "Conceptual Framework",
+      "prompt": "Develop a theoretical framework that synthesizes two seemingly antithetical positions on a topic of your choice (e.g., individual agency vs. structural determinism, objectivity vs. subjectivity in research).",
+      "guidelines": [
+        "Write 300-400 words",
+        "Clearly articulate the tension between the two positions",
+        "Identify potential points of synthesis or productive tension",
+        "Propose a framework that acknowledges both perspectives",
+        "Use sophisticated transitional and concessive structures",
+        "Demonstrate rhetorical precision in presenting complex ideas"
+      ],
+      "sampleOutline": {
+        "problem": "Articulate the apparent irreconcilability of the positions",
+        "analysis1": "Examine what is perspicacious about each view",
+        "synthesis": "Develop your integrative framework",
+        "implications": "Consider how this framework might be applied"
+      },
+      "vocabularyToInclude": ["antithetical", "perspicacious", "ineluctable", "propitious", "efficacious"],
+      "minWords": 300,
+      "maxWords": 400
+    }
+  ],
+
+  "usefulPhrases": {
+    "introducing_complex_ideas": [
+      "What is particularly perspicacious about this view...",
+      "The epistemological implications of...",
+      "It would be antithetical to our understanding to suggest..."
+    ],
+    "concessive_structures": [
+      "However efficacious this approach may appear...",
+      "Perspicacious though this analysis may be...",
+      "Much as one might wish to ameliorate..."
+    ],
+    "synthesis_and_nuance": [
+      "A more liminal position would acknowledge...",
+      "The relationship functions as a kind of palimpsest...",
+      "What emerges from this exegesis is..."
+    ],
+    "scholarly_hedging": [
+      "It might be postulated that...",
+      "The verisimilitude of this claim rests on...",
+      "Such conclusions, while provisional, suggest..."
+    ]
+  }
+}

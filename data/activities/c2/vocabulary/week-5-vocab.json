@@ -1,0 +1,1692 @@
+{
+  "id": "week-5-vocab",
+  "weekId": "week-5",
+  "type": "vocabulary",
+  "level": "C2",
+  "title": "Epistemology and Philosophy of Science",
+  "description": "Master sophisticated vocabulary for philosophical inquiry into knowledge and scientific method.",
+  "words": [
+    {
+      "id": "w1",
+      "word": "epistemology",
+      "pronunciation": "/ɪˌpɪstəˈmɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "the philosophical study of knowledge: its nature, sources, scope, and justification",
+      "translation": "인식론",
+      "example": "Social epistemology examines how knowledge is produced and distributed in communities."
+    },
+    {
+      "id": "w2",
+      "word": "falsifiability",
+      "pronunciation": "/ˌfɔːlsɪfaɪəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "meaning": "the quality of a theory that makes it capable of being proved wrong by observation or experiment",
+      "translation": "반증가능성",
+      "example": "Popper argued that falsifiability, not verifiability, distinguishes science from pseudoscience."
+    },
+    {
+      "id": "w3",
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "meaning": "a dominant theoretical framework in Kuhn's usage, the shared assumptions and practices of a scientific community",
+      "translation": "패러다임",
+      "example": "Kuhn argued that scientific revolutions involve paradigm shifts that transform the field's fundamental assumptions."
+    },
+    {
+      "id": "w4",
+      "word": "empiricism",
+      "pronunciation": "/ɪmˈpɪrɪsɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the view that knowledge derives primarily from sensory experience rather than innate ideas",
+      "translation": "경험주의",
+      "example": "Logical empiricism sought to ground all meaningful statements in observational evidence."
+    },
+    {
+      "id": "w5",
+      "word": "incommensurability",
+      "pronunciation": "/ɪnkəˌmenʃərəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "meaning": "the impossibility of meaningful comparison between different paradigms or conceptual frameworks",
+      "translation": "공약불가능성",
+      "example": "The incommensurability thesis suggests that scientists in different paradigms literally see different worlds."
+    },
+    {
+      "id": "w6",
+      "word": "hermeneutics",
+      "pronunciation": "/ˌhɜːrməˈnjuːtɪks/",
+      "partOfSpeech": "noun",
+      "meaning": "the theory and methodology of interpretation, especially of texts and human action",
+      "translation": "해석학",
+      "example": "Gadamer's hermeneutics emphasizes the role of tradition and prejudice in understanding."
+    },
+    {
+      "id": "w7",
+      "word": "underdetermination",
+      "pronunciation": "/ˌʌndərdɪˌtɜːrmɪˈneɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "the situation where available evidence is insufficient to determine which of competing theories is correct",
+      "translation": "미결정성",
+      "example": "The underdetermination of theory by evidence suggests that extra-empirical values influence theory choice."
+    },
+    {
+      "id": "w8",
+      "word": "phenomenology",
+      "pronunciation": "/fɪˌnɒmɪˈnɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "the philosophical study of structures of conscious experience from the first-person point of view",
+      "translation": "현상학",
+      "example": "Husserlian phenomenology seeks to describe the essential structures of experience without presuppositions."
+    },
+    {
+      "id": "w9",
+      "word": "rationalism",
+      "pronunciation": "/ˈræʃənəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the philosophical view that regards reason as the chief source of knowledge",
+      "translation": "합리주의",
+      "example": "Cartesian rationalism holds that certain truths can be known by reason alone, independent of experience."
+    },
+    {
+      "id": "w10",
+      "word": "skepticism",
+      "pronunciation": "/ˈskeptɪsɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the philosophical position questioning the possibility of certainty in knowledge",
+      "translation": "회의주의",
+      "example": "Pyrrhonian skepticism advocates suspension of judgment on all matters requiring evidence."
+    },
+    {
+      "id": "w11",
+      "word": "verisimilitude",
+      "pronunciation": "/ˌverɪsɪˈmɪlɪtjuːd/",
+      "partOfSpeech": "noun",
+      "meaning": "the appearance of being true or real; in philosophy of science, closeness to truth",
+      "translation": "진실다움, 개연성",
+      "example": "Popper's notion of verisimilitude attempts to measure how close a theory is to the truth."
+    },
+    {
+      "id": "w12",
+      "word": "inductivism",
+      "pronunciation": "/ɪnˈdʌktɪvɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the view that scientific theories are derived from repeated observations",
+      "translation": "귀납주의",
+      "example": "Naive inductivism has been widely criticized for failing to account for theory-laden observations."
+    },
+    {
+      "id": "w13",
+      "word": "reductionism",
+      "pronunciation": "/rɪˈdʌkʃənɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the practice of analyzing complex phenomena in terms of simpler or more fundamental components",
+      "translation": "환원주의",
+      "example": "Methodological reductionism seeks to explain higher-level phenomena using lower-level theories."
+    },
+    {
+      "id": "w14",
+      "word": "holism",
+      "pronunciation": "/ˈhəʊlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the view that systems should be understood as wholes rather than as collections of parts",
+      "translation": "전체론",
+      "example": "Quine's semantic holism argues that the meaning of a statement depends on the entire language."
+    },
+    {
+      "id": "w15",
+      "word": "ontology",
+      "pronunciation": "/ɒnˈtɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "the philosophical study of the nature of being, existence, and reality",
+      "translation": "존재론",
+      "example": "Quine's ontology is committed to the existence of mathematical entities required by our best theories."
+    },
+    {
+      "id": "w16",
+      "word": "metaphysics",
+      "pronunciation": "/ˌmetəˈfɪzɪks/",
+      "partOfSpeech": "noun",
+      "meaning": "the branch of philosophy dealing with the fundamental nature of reality",
+      "translation": "형이상학",
+      "example": "Kant's metaphysics distinguishes between phenomena that we experience and noumena beyond experience."
+    },
+    {
+      "id": "w17",
+      "word": "nominalism",
+      "pronunciation": "/ˈnɒmɪnəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the philosophical view that abstract concepts have no independent existence",
+      "translation": "유명론",
+      "example": "Nominalism denies the existence of universal entities, accepting only particular objects."
+    },
+    {
+      "id": "w18",
+      "word": "realism",
+      "pronunciation": "/ˈriːəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the philosophical view that objects exist independently of our perception or conception",
+      "translation": "실재론",
+      "example": "Scientific realism holds that our best theories accurately describe an observer-independent reality."
+    },
+    {
+      "id": "w19",
+      "word": "instrumentalism",
+      "pronunciation": "/ˌɪnstrəˈmentəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the view that theories are merely tools for prediction rather than true descriptions",
+      "translation": "도구주의",
+      "example": "Instrumentalism treats scientific theories as useful fictions without commitment to their truth."
+    },
+    {
+      "id": "w20",
+      "word": "positivism",
+      "pronunciation": "/ˈpɒzɪtɪvɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the philosophical stance that authentic knowledge is scientific knowledge",
+      "translation": "실증주의",
+      "example": "Logical positivism insisted that meaningful statements must be either analytic or empirically verifiable."
+    },
+    {
+      "id": "w21",
+      "word": "verificationism",
+      "pronunciation": "/ˌverɪfɪˈkeɪʃənɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the doctrine that a statement is meaningful only if it can be verified",
+      "translation": "검증주의",
+      "example": "The verificationism of the Vienna Circle faced serious challenges from its own criteria."
+    },
+    {
+      "id": "w22",
+      "word": "demarcation",
+      "pronunciation": "/ˌdiːmɑːˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "the problem of distinguishing science from non-science or pseudoscience",
+      "translation": "경계설정",
+      "example": "The demarcation problem asks what criteria distinguish genuine science from mere speculation."
+    },
+    {
+      "id": "w23",
+      "word": "objectivity",
+      "pronunciation": "/ˌɒbdʒekˈtɪvəti/",
+      "partOfSpeech": "noun",
+      "meaning": "the quality of being independent of individual biases and perspectives",
+      "translation": "객관성",
+      "example": "Scientific objectivity requires that findings be reproducible by different researchers."
+    },
+    {
+      "id": "w24",
+      "word": "subjectivity",
+      "pronunciation": "/ˌsʌbdʒekˈtɪvəti/",
+      "partOfSpeech": "noun",
+      "meaning": "the quality of being based on personal perspectives and interpretations",
+      "translation": "주관성",
+      "example": "Phenomenologists argue that subjectivity is fundamental to understanding human experience."
+    },
+    {
+      "id": "w25",
+      "word": "determinism",
+      "pronunciation": "/dɪˈtɜːrmɪnɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the philosophical view that all events are determined by prior causes",
+      "translation": "결정론",
+      "example": "Scientific determinism holds that the state of the universe at any time determines all future states."
+    },
+    {
+      "id": "w26",
+      "word": "contingency",
+      "pronunciation": "/kənˈtɪndʒənsi/",
+      "partOfSpeech": "noun",
+      "meaning": "the state of being dependent on chance or conditions rather than necessity",
+      "translation": "우연성",
+      "example": "The contingency of scientific knowledge means it could have developed differently under other circumstances."
+    },
+    {
+      "id": "w27",
+      "word": "априори",
+      "pronunciation": "/ˌeɪpriːˈɔːraɪ/",
+      "partOfSpeech": "adjective",
+      "meaning": "relating to knowledge that is independent of experience",
+      "translation": "선험적인",
+      "example": "Mathematical truths are often considered a priori, knowable without empirical investigation."
+    },
+    {
+      "id": "w28",
+      "word": "aposteriori",
+      "pronunciation": "/ˌeɪpɒsteriˈɔːraɪ/",
+      "partOfSpeech": "adjective",
+      "meaning": "relating to knowledge derived from experience",
+      "translation": "후험적인",
+      "example": "Scientific theories are a posteriori, requiring empirical evidence for their justification."
+    },
+    {
+      "id": "w29",
+      "word": "tautology",
+      "pronunciation": "/tɔːˈtɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "a statement that is true by virtue of its logical form alone",
+      "translation": "동어반복",
+      "example": "Critics argued that Freudian theory was unfalsifiable and therefore merely tautological."
+    },
+    {
+      "id": "w30",
+      "word": "axiom",
+      "pronunciation": "/ˈæksiəm/",
+      "partOfSpeech": "noun",
+      "meaning": "a self-evident principle accepted as true without proof",
+      "translation": "공리",
+      "example": "Euclidean geometry is built upon five axioms from which all theorems are derived."
+    },
+    {
+      "id": "w31",
+      "word": "dialectic",
+      "pronunciation": "/ˌdaɪəˈlektɪk/",
+      "partOfSpeech": "noun",
+      "meaning": "a method of philosophical argument through thesis, antithesis, and synthesis",
+      "translation": "변증법",
+      "example": "Hegelian dialectic proposes that contradictions are resolved through synthesis at higher levels."
+    },
+    {
+      "id": "w32",
+      "word": "teleology",
+      "pronunciation": "/ˌteliˈɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "the explanation of phenomena by their purposes or goals",
+      "translation": "목적론",
+      "example": "Aristotelian teleology explains natural processes in terms of their final causes or purposes."
+    },
+    {
+      "id": "w33",
+      "word": "causality",
+      "pronunciation": "/kɔːˈzæləti/",
+      "partOfSpeech": "noun",
+      "meaning": "the relationship between cause and effect",
+      "translation": "인과성",
+      "example": "Hume's analysis of causality questioned whether we can ever observe causal necessity."
+    },
+    {
+      "id": "w34",
+      "word": "correlation",
+      "pronunciation": "/ˌkɒrəˈleɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "a mutual relationship between two variables without implying causation",
+      "translation": "상관관계",
+      "example": "Correlation between variables does not necessarily imply that one causes the other."
+    },
+    {
+      "id": "w35",
+      "word": "hypothesis",
+      "pronunciation": "/haɪˈpɒθəsɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "a proposed explanation made on the basis of limited evidence",
+      "translation": "가설",
+      "example": "A scientific hypothesis must be testable through observation or experimentation."
+    },
+    {
+      "id": "w36",
+      "word": "conjecture",
+      "pronunciation": "/kənˈdʒektʃə/",
+      "partOfSpeech": "noun",
+      "meaning": "an opinion or conclusion formed on incomplete information",
+      "translation": "추측",
+      "example": "Goldbach's conjecture remains unproven despite extensive mathematical investigation."
+    },
+    {
+      "id": "w37",
+      "word": "corroboration",
+      "pronunciation": "/kəˌrɒbəˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "evidence that confirms or supports a statement or theory",
+      "translation": "확증",
+      "example": "Popper emphasized corroboration rather than verification in evaluating scientific theories."
+    },
+    {
+      "id": "w38",
+      "word": "refutation",
+      "pronunciation": "/ˌrefjʊˈteɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "the action of proving a statement or theory to be wrong",
+      "translation": "반박",
+      "example": "The refutation of phlogiston theory led to the modern understanding of combustion."
+    },
+    {
+      "id": "w39",
+      "word": "anomaly",
+      "pronunciation": "/əˈnɒməli/",
+      "partOfSpeech": "noun",
+      "meaning": "something that deviates from what is standard or expected",
+      "translation": "변칙",
+      "example": "Kuhn argued that anomalies accumulate during normal science until they trigger a paradigm shift."
+    },
+    {
+      "id": "w40",
+      "word": "empirical",
+      "pronunciation": "/ɪmˈpɪrɪkəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "based on observation or experience rather than theory",
+      "translation": "경험적인",
+      "example": "Empirical evidence is essential for testing the validity of scientific claims."
+    },
+    {
+      "id": "w41",
+      "word": "theoretical",
+      "pronunciation": "/ˌθɪəˈretɪkəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "concerned with theories rather than their practical application",
+      "translation": "이론적인",
+      "example": "Theoretical physics explores fundamental principles underlying natural phenomena."
+    },
+    {
+      "id": "w42",
+      "word": "pragmatism",
+      "pronunciation": "/ˈpræɡmətɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "a philosophical approach that evaluates theories by their practical consequences",
+      "translation": "실용주의",
+      "example": "Pragmatism judges the truth of beliefs by their usefulness in solving problems."
+    },
+    {
+      "id": "w43",
+      "word": "foundationalism",
+      "pronunciation": "/ˌfaʊndeɪʃənəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the view that knowledge rests on a foundation of basic beliefs",
+      "translation": "기초론",
+      "example": "Cartesian foundationalism seeks indubitable beliefs upon which to build the edifice of knowledge."
+    },
+    {
+      "id": "w44",
+      "word": "coherentism",
+      "pronunciation": "/kəʊˈhɪərəntɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the view that beliefs are justified by their coherence with other beliefs",
+      "translation": "정합론",
+      "example": "Coherentism holds that justification derives from mutual support among beliefs in a system."
+    },
+    {
+      "id": "w45",
+      "word": "relativism",
+      "pronunciation": "/ˈrelətɪvɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the view that knowledge and truth are relative to contexts or frameworks",
+      "translation": "상대주의",
+      "example": "Epistemic relativism denies the existence of universal standards for evaluating knowledge claims."
+    },
+    {
+      "id": "w46",
+      "word": "absolutism",
+      "pronunciation": "/ˈæbsəluːtɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the view that certain truths are absolute and universal",
+      "translation": "절대주의",
+      "example": "Moral absolutism maintains that some ethical principles hold regardless of context."
+    },
+    {
+      "id": "w47",
+      "word": "fallibilism",
+      "pronunciation": "/ˈfæləbəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the view that knowledge claims are always subject to revision",
+      "translation": "가류주의",
+      "example": "Peirce's fallibilism acknowledges that even our best-justified beliefs might be mistaken."
+    },
+    {
+      "id": "w48",
+      "word": "infallibilism",
+      "pronunciation": "/ɪnˈfæləbəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the view that genuine knowledge must be absolutely certain",
+      "translation": "불가류주의",
+      "example": "Infallibilism sets an impossibly high standard that few if any beliefs can meet."
+    },
+    {
+      "id": "w49",
+      "word": "naturalism",
+      "pronunciation": "/ˈnætʃərəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "the philosophical view that everything arises from natural properties",
+      "translation": "자연주의",
+      "example": "Methodological naturalism restricts scientific investigation to natural causes and phenomena."
+    },
+    {
+      "id": "w50",
+      "word": "antinomy",
+      "pronunciation": "/ænˈtɪnəmi/",
+      "partOfSpeech": "noun",
+      "meaning": "a contradiction between two equally valid principles or conclusions",
+      "translation": "이율배반",
+      "example": "Kant's antinomies demonstrate apparent contradictions in pure reason's attempt to grasp the infinite."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "mc1",
+      "type": "multiple_choice",
+      "question": "The branch of philosophy concerned with the nature and scope of knowledge is called _____.",
+      "options": ["epistemology", "ontology", "metaphysics", "teleology"],
+      "correctAnswer": "epistemology",
+      "wordId": "w1"
+    },
+    {
+      "id": "mc2",
+      "type": "multiple_choice",
+      "question": "What does 'falsifiability' mean in philosophy of science?",
+      "options": ["the quality of being capable of being proved wrong", "the quality of being verifiable", "the quality of being true", "the quality of being useful"],
+      "correctAnswer": "the quality of being capable of being proved wrong",
+      "wordId": "w2"
+    },
+    {
+      "id": "mc3",
+      "type": "multiple_choice",
+      "question": "Kuhn used the term _____ to describe the shared assumptions of a scientific community.",
+      "options": ["hypothesis", "paradigm", "axiom", "conjecture"],
+      "correctAnswer": "paradigm",
+      "wordId": "w3"
+    },
+    {
+      "id": "mc4",
+      "type": "multiple_choice",
+      "question": "The view that knowledge comes primarily from sensory experience is called _____.",
+      "options": ["rationalism", "empiricism", "skepticism", "idealism"],
+      "correctAnswer": "empiricism",
+      "wordId": "w4"
+    },
+    {
+      "id": "mc5",
+      "type": "multiple_choice",
+      "question": "The impossibility of comparing different paradigms meaningfully is termed _____.",
+      "options": ["underdetermination", "incommensurability", "falsifiability", "verisimilitude"],
+      "correctAnswer": "incommensurability",
+      "wordId": "w5"
+    },
+    {
+      "id": "mc6",
+      "type": "multiple_choice",
+      "question": "What does 'hermeneutics' study?",
+      "options": ["the nature of being", "the theory of interpretation", "the structure of logic", "the origin of knowledge"],
+      "correctAnswer": "the theory of interpretation",
+      "wordId": "w6"
+    },
+    {
+      "id": "mc7",
+      "type": "multiple_choice",
+      "question": "When evidence is insufficient to determine which theory is correct, we face _____.",
+      "options": ["underdetermination", "falsification", "verification", "corroboration"],
+      "correctAnswer": "underdetermination",
+      "wordId": "w7"
+    },
+    {
+      "id": "mc8",
+      "type": "multiple_choice",
+      "question": "The study of conscious experience from the first-person perspective is _____.",
+      "options": ["empiricism", "phenomenology", "positivism", "nominalism"],
+      "correctAnswer": "phenomenology",
+      "wordId": "w8"
+    },
+    {
+      "id": "mc9",
+      "type": "multiple_choice",
+      "question": "The philosophical view that reason is the chief source of knowledge is _____.",
+      "options": ["empiricism", "rationalism", "skepticism", "pragmatism"],
+      "correctAnswer": "rationalism",
+      "wordId": "w9"
+    },
+    {
+      "id": "mc10",
+      "type": "multiple_choice",
+      "question": "The philosophical position that questions the possibility of certain knowledge is _____.",
+      "options": ["skepticism", "absolutism", "foundationalism", "realism"],
+      "correctAnswer": "skepticism",
+      "wordId": "w10"
+    },
+    {
+      "id": "mc11",
+      "type": "multiple_choice",
+      "question": "Popper's concept of closeness to truth is called _____.",
+      "options": ["verisimilitude", "tautology", "axiom", "dialectic"],
+      "correctAnswer": "verisimilitude",
+      "wordId": "w11"
+    },
+    {
+      "id": "mc12",
+      "type": "multiple_choice",
+      "question": "The view that theories are derived from repeated observations is _____.",
+      "options": ["deductivism", "inductivism", "reductionism", "holism"],
+      "correctAnswer": "inductivism",
+      "wordId": "w12"
+    },
+    {
+      "id": "mc13",
+      "type": "multiple_choice",
+      "question": "Explaining complex phenomena in terms of simpler components is _____.",
+      "options": ["holism", "reductionism", "emergentism", "pluralism"],
+      "correctAnswer": "reductionism",
+      "wordId": "w13"
+    },
+    {
+      "id": "mc14",
+      "type": "multiple_choice",
+      "question": "The view that systems should be understood as wholes is _____.",
+      "options": ["reductionism", "atomism", "holism", "nominalism"],
+      "correctAnswer": "holism",
+      "wordId": "w14"
+    },
+    {
+      "id": "mc15",
+      "type": "multiple_choice",
+      "question": "The philosophical study of being and existence is _____.",
+      "options": ["epistemology", "ontology", "teleology", "axiology"],
+      "correctAnswer": "ontology",
+      "wordId": "w15"
+    },
+    {
+      "id": "mc16",
+      "type": "multiple_choice",
+      "question": "The branch of philosophy dealing with fundamental reality is _____.",
+      "options": ["ethics", "aesthetics", "metaphysics", "logic"],
+      "correctAnswer": "metaphysics",
+      "wordId": "w16"
+    },
+    {
+      "id": "mc17",
+      "type": "multiple_choice",
+      "question": "The view that abstract concepts have no independent existence is _____.",
+      "options": ["realism", "nominalism", "idealism", "materialism"],
+      "correctAnswer": "nominalism",
+      "wordId": "w17"
+    },
+    {
+      "id": "mc18",
+      "type": "multiple_choice",
+      "question": "The view that objects exist independently of perception is _____.",
+      "options": ["idealism", "realism", "phenomenalism", "constructivism"],
+      "correctAnswer": "realism",
+      "wordId": "w18"
+    },
+    {
+      "id": "mc19",
+      "type": "multiple_choice",
+      "question": "The view that theories are merely tools for prediction is _____.",
+      "options": ["realism", "instrumentalism", "foundationalism", "absolutism"],
+      "correctAnswer": "instrumentalism",
+      "wordId": "w19"
+    },
+    {
+      "id": "mc20",
+      "type": "multiple_choice",
+      "question": "The stance that authentic knowledge is scientific knowledge is _____.",
+      "options": ["romanticism", "positivism", "existentialism", "mysticism"],
+      "correctAnswer": "positivism",
+      "wordId": "w20"
+    },
+    {
+      "id": "mc21",
+      "type": "multiple_choice",
+      "question": "The doctrine that statements are meaningful only if verifiable is _____.",
+      "options": ["falsificationism", "verificationism", "pragmatism", "relativism"],
+      "correctAnswer": "verificationism",
+      "wordId": "w21"
+    },
+    {
+      "id": "mc22",
+      "type": "multiple_choice",
+      "question": "The problem of distinguishing science from pseudoscience is the _____ problem.",
+      "options": ["demarcation", "induction", "verification", "justification"],
+      "correctAnswer": "demarcation",
+      "wordId": "w22"
+    },
+    {
+      "id": "mc23",
+      "type": "multiple_choice",
+      "question": "Independence from individual biases and perspectives is _____.",
+      "options": ["subjectivity", "relativity", "objectivity", "contingency"],
+      "correctAnswer": "objectivity",
+      "wordId": "w23"
+    },
+    {
+      "id": "mc24",
+      "type": "multiple_choice",
+      "question": "Being based on personal perspectives and interpretations is _____.",
+      "options": ["objectivity", "universality", "subjectivity", "necessity"],
+      "correctAnswer": "subjectivity",
+      "wordId": "w24"
+    },
+    {
+      "id": "mc25",
+      "type": "multiple_choice",
+      "question": "The view that all events are determined by prior causes is _____.",
+      "options": ["libertarianism", "determinism", "indeterminism", "voluntarism"],
+      "correctAnswer": "determinism",
+      "wordId": "w25"
+    },
+    {
+      "id": "mc26",
+      "type": "multiple_choice",
+      "question": "Dependence on chance rather than necessity is _____.",
+      "options": ["determinism", "necessity", "contingency", "causality"],
+      "correctAnswer": "contingency",
+      "wordId": "w26"
+    },
+    {
+      "id": "mc27",
+      "type": "multiple_choice",
+      "question": "Knowledge independent of experience is called _____ knowledge.",
+      "options": ["a posteriori", "empirical", "a priori", "inductive"],
+      "correctAnswer": "a priori",
+      "wordId": "w27"
+    },
+    {
+      "id": "mc28",
+      "type": "multiple_choice",
+      "question": "Knowledge derived from experience is called _____ knowledge.",
+      "options": ["a priori", "deductive", "innate", "a posteriori"],
+      "correctAnswer": "a posteriori",
+      "wordId": "w28"
+    },
+    {
+      "id": "mc29",
+      "type": "multiple_choice",
+      "question": "A statement true by virtue of its logical form alone is a _____.",
+      "options": ["hypothesis", "conjecture", "tautology", "paradox"],
+      "correctAnswer": "tautology",
+      "wordId": "w29"
+    },
+    {
+      "id": "mc30",
+      "type": "multiple_choice",
+      "question": "A self-evident principle accepted without proof is an _____.",
+      "options": ["axiom", "theorem", "corollary", "lemma"],
+      "correctAnswer": "axiom",
+      "wordId": "w30"
+    },
+    {
+      "id": "fb1",
+      "type": "fill_blank",
+      "question": "Hegelian _____ proposes that contradictions are resolved through synthesis.",
+      "correctAnswer": "dialectic",
+      "wordId": "w31"
+    },
+    {
+      "id": "fb2",
+      "type": "fill_blank",
+      "question": "Aristotelian _____ explains phenomena by their purposes or final causes.",
+      "correctAnswer": "teleology",
+      "wordId": "w32"
+    },
+    {
+      "id": "fb3",
+      "type": "fill_blank",
+      "question": "Hume's analysis questioned whether we can observe causal _____.",
+      "correctAnswer": "causality",
+      "wordId": "w33"
+    },
+    {
+      "id": "fb4",
+      "type": "fill_blank",
+      "question": "_____ between variables does not necessarily imply that one causes the other.",
+      "correctAnswer": "Correlation",
+      "wordId": "w34"
+    },
+    {
+      "id": "fb5",
+      "type": "fill_blank",
+      "question": "A scientific _____ must be testable through observation or experimentation.",
+      "correctAnswer": "hypothesis",
+      "wordId": "w35"
+    },
+    {
+      "id": "fb6",
+      "type": "fill_blank",
+      "question": "Goldbach's _____ remains unproven despite extensive investigation.",
+      "correctAnswer": "conjecture",
+      "wordId": "w36"
+    },
+    {
+      "id": "fb7",
+      "type": "fill_blank",
+      "question": "Popper emphasized _____ rather than verification in evaluating theories.",
+      "correctAnswer": "corroboration",
+      "wordId": "w37"
+    },
+    {
+      "id": "fb8",
+      "type": "fill_blank",
+      "question": "The _____ of phlogiston theory led to modern understanding of combustion.",
+      "correctAnswer": "refutation",
+      "wordId": "w38"
+    },
+    {
+      "id": "fb9",
+      "type": "fill_blank",
+      "question": "Kuhn argued that anomalies accumulate until they trigger a paradigm shift.",
+      "correctAnswer": "anomaly",
+      "wordId": "w39"
+    },
+    {
+      "id": "fb10",
+      "type": "fill_blank",
+      "question": "_____ evidence is essential for testing the validity of scientific claims.",
+      "correctAnswer": "Empirical",
+      "wordId": "w40"
+    },
+    {
+      "id": "fb11",
+      "type": "fill_blank",
+      "question": "_____ physics explores fundamental principles underlying natural phenomena.",
+      "correctAnswer": "Theoretical",
+      "wordId": "w41"
+    },
+    {
+      "id": "fb12",
+      "type": "fill_blank",
+      "question": "_____ judges the truth of beliefs by their usefulness in solving problems.",
+      "correctAnswer": "Pragmatism",
+      "wordId": "w42"
+    },
+    {
+      "id": "fb13",
+      "type": "fill_blank",
+      "question": "Cartesian _____ seeks indubitable beliefs as foundations for knowledge.",
+      "correctAnswer": "foundationalism",
+      "wordId": "w43"
+    },
+    {
+      "id": "fb14",
+      "type": "fill_blank",
+      "question": "_____ holds that justification derives from mutual support among beliefs.",
+      "correctAnswer": "Coherentism",
+      "wordId": "w44"
+    },
+    {
+      "id": "fb15",
+      "type": "fill_blank",
+      "question": "Epistemic _____ denies universal standards for evaluating knowledge claims.",
+      "correctAnswer": "relativism",
+      "wordId": "w45"
+    },
+    {
+      "id": "fb16",
+      "type": "fill_blank",
+      "question": "Moral _____ maintains that some ethical principles hold regardless of context.",
+      "correctAnswer": "absolutism",
+      "wordId": "w46"
+    },
+    {
+      "id": "fb17",
+      "type": "fill_blank",
+      "question": "Peirce's _____ acknowledges that even our best beliefs might be mistaken.",
+      "correctAnswer": "fallibilism",
+      "wordId": "w47"
+    },
+    {
+      "id": "fb18",
+      "type": "fill_blank",
+      "question": "_____ sets an impossibly high standard requiring absolute certainty.",
+      "correctAnswer": "Infallibilism",
+      "wordId": "w48"
+    },
+    {
+      "id": "fb19",
+      "type": "fill_blank",
+      "question": "Methodological _____ restricts science to natural causes and phenomena.",
+      "correctAnswer": "naturalism",
+      "wordId": "w49"
+    },
+    {
+      "id": "fb20",
+      "type": "fill_blank",
+      "question": "Kant's _____ demonstrate contradictions in pure reason's grasp of the infinite.",
+      "correctAnswer": "antinomy",
+      "wordId": "w50"
+    },
+    {
+      "id": "fb21",
+      "type": "fill_blank",
+      "question": "Social _____ examines how knowledge is produced in communities.",
+      "correctAnswer": "epistemology",
+      "wordId": "w1"
+    },
+    {
+      "id": "fb22",
+      "type": "fill_blank",
+      "question": "Popper argued that _____ distinguishes science from pseudoscience.",
+      "correctAnswer": "falsifiability",
+      "wordId": "w2"
+    },
+    {
+      "id": "fb23",
+      "type": "fill_blank",
+      "question": "Scientific revolutions involve _____ shifts that transform fundamental assumptions.",
+      "correctAnswer": "paradigm",
+      "wordId": "w3"
+    },
+    {
+      "id": "fb24",
+      "type": "fill_blank",
+      "question": "Logical _____ sought to ground statements in observational evidence.",
+      "correctAnswer": "empiricism",
+      "wordId": "w4"
+    },
+    {
+      "id": "fb25",
+      "type": "fill_blank",
+      "question": "The _____ thesis suggests scientists in different paradigms see different worlds.",
+      "correctAnswer": "incommensurability",
+      "wordId": "w5"
+    },
+    {
+      "id": "fb26",
+      "type": "fill_blank",
+      "question": "Gadamer's _____ emphasizes the role of tradition in understanding.",
+      "correctAnswer": "hermeneutics",
+      "wordId": "w6"
+    },
+    {
+      "id": "fb27",
+      "type": "fill_blank",
+      "question": "The _____ of theory by evidence suggests values influence theory choice.",
+      "correctAnswer": "underdetermination",
+      "wordId": "w7"
+    },
+    {
+      "id": "fb28",
+      "type": "fill_blank",
+      "question": "Husserlian _____ describes essential structures of experience.",
+      "correctAnswer": "phenomenology",
+      "wordId": "w8"
+    },
+    {
+      "id": "fb29",
+      "type": "fill_blank",
+      "question": "Cartesian _____ holds that certain truths can be known by reason alone.",
+      "correctAnswer": "rationalism",
+      "wordId": "w9"
+    },
+    {
+      "id": "fb30",
+      "type": "fill_blank",
+      "question": "Pyrrhonian _____ advocates suspension of judgment on all matters.",
+      "correctAnswer": "skepticism",
+      "wordId": "w10"
+    },
+    {
+      "id": "matching1",
+      "type": "matching",
+      "question": "Match the philosophical positions with their meanings:",
+      "pairs": [
+        {"left": "epistemology", "right": "study of knowledge"},
+        {"left": "ontology", "right": "study of being"},
+        {"left": "metaphysics", "right": "study of reality"},
+        {"left": "teleology", "right": "study of purposes"}
+      ],
+      "wordId": "w1"
+    },
+    {
+      "id": "matching2",
+      "type": "matching",
+      "question": "Match the scientific philosophy terms:",
+      "pairs": [
+        {"left": "falsifiability", "right": "capacity to be disproven"},
+        {"left": "verificationism", "right": "meaningful if verifiable"},
+        {"left": "corroboration", "right": "confirming evidence"},
+        {"left": "refutation", "right": "proving wrong"}
+      ],
+      "wordId": "w2"
+    },
+    {
+      "id": "matching3",
+      "type": "matching",
+      "question": "Match the epistemological positions:",
+      "pairs": [
+        {"left": "empiricism", "right": "knowledge from experience"},
+        {"left": "rationalism", "right": "knowledge from reason"},
+        {"left": "skepticism", "right": "doubts about certainty"},
+        {"left": "pragmatism", "right": "truth by consequences"}
+      ],
+      "wordId": "w4"
+    },
+    {
+      "id": "matching4",
+      "type": "matching",
+      "question": "Match the methodological concepts:",
+      "pairs": [
+        {"left": "reductionism", "right": "explain by simpler parts"},
+        {"left": "holism", "right": "understand as wholes"},
+        {"left": "inductivism", "right": "derive from observations"},
+        {"left": "deductivism", "right": "derive from principles"}
+      ],
+      "wordId": "w13"
+    },
+    {
+      "id": "matching5",
+      "type": "matching",
+      "question": "Match the metaphysical positions:",
+      "pairs": [
+        {"left": "realism", "right": "objects exist independently"},
+        {"left": "nominalism", "right": "no independent abstracts"},
+        {"left": "idealism", "right": "reality is mental"},
+        {"left": "materialism", "right": "reality is physical"}
+      ],
+      "wordId": "w18"
+    },
+    {
+      "id": "matching6",
+      "type": "matching",
+      "question": "Match the theoretical stances:",
+      "pairs": [
+        {"left": "positivism", "right": "scientific knowledge only"},
+        {"left": "instrumentalism", "right": "theories as tools"},
+        {"left": "naturalism", "right": "everything from nature"},
+        {"left": "phenomenology", "right": "study of experience"}
+      ],
+      "wordId": "w20"
+    },
+    {
+      "id": "matching7",
+      "type": "matching",
+      "question": "Match the justification theories:",
+      "pairs": [
+        {"left": "foundationalism", "right": "knowledge on basic beliefs"},
+        {"left": "coherentism", "right": "beliefs justify mutually"},
+        {"left": "fallibilism", "right": "knowledge always revisable"},
+        {"left": "infallibilism", "right": "knowledge must be certain"}
+      ],
+      "wordId": "w43"
+    },
+    {
+      "id": "matching8",
+      "type": "matching",
+      "question": "Match the logical concepts:",
+      "pairs": [
+        {"left": "axiom", "right": "self-evident principle"},
+        {"left": "tautology", "right": "logically true statement"},
+        {"left": "hypothesis", "right": "testable explanation"},
+        {"left": "conjecture", "right": "unproven proposition"}
+      ],
+      "wordId": "w30"
+    },
+    {
+      "id": "matching9",
+      "type": "matching",
+      "question": "Match the causal concepts:",
+      "pairs": [
+        {"left": "causality", "right": "cause and effect"},
+        {"left": "correlation", "right": "mutual relationship"},
+        {"left": "determinism", "right": "events predetermined"},
+        {"left": "contingency", "right": "dependent on chance"}
+      ],
+      "wordId": "w33"
+    },
+    {
+      "id": "matching10",
+      "type": "matching",
+      "question": "Match the knowledge types:",
+      "pairs": [
+        {"left": "a priori", "right": "independent of experience"},
+        {"left": "a posteriori", "right": "derived from experience"},
+        {"left": "empirical", "right": "based on observation"},
+        {"left": "theoretical", "right": "based on theory"}
+      ],
+      "wordId": "w27"
+    },
+    {
+      "id": "matching11",
+      "type": "matching",
+      "question": "Match the philosophical problems:",
+      "pairs": [
+        {"left": "demarcation", "right": "science vs pseudoscience"},
+        {"left": "incommensurability", "right": "incomparable paradigms"},
+        {"left": "underdetermination", "right": "insufficient evidence"},
+        {"left": "antinomy", "right": "valid contradiction"}
+      ],
+      "wordId": "w22"
+    },
+    {
+      "id": "matching12",
+      "type": "matching",
+      "question": "Match the value concepts:",
+      "pairs": [
+        {"left": "objectivity", "right": "bias-independent"},
+        {"left": "subjectivity", "right": "perspective-based"},
+        {"left": "relativism", "right": "context-dependent"},
+        {"left": "absolutism", "right": "universally true"}
+      ],
+      "wordId": "w23"
+    },
+    {
+      "id": "matching13",
+      "type": "matching",
+      "question": "Match the Kuhnian concepts:",
+      "pairs": [
+        {"left": "paradigm", "right": "shared framework"},
+        {"left": "anomaly", "right": "unexplained deviation"},
+        {"left": "normal science", "right": "puzzle-solving"},
+        {"left": "revolution", "right": "paradigm change"}
+      ],
+      "wordId": "w3"
+    },
+    {
+      "id": "matching14",
+      "type": "matching",
+      "question": "Match the interpretive concepts:",
+      "pairs": [
+        {"left": "hermeneutics", "right": "theory of interpretation"},
+        {"left": "dialectic", "right": "thesis-antithesis-synthesis"},
+        {"left": "phenomenology", "right": "conscious experience study"},
+        {"left": "exegesis", "right": "critical explanation"}
+      ],
+      "wordId": "w6"
+    },
+    {
+      "id": "matching15",
+      "type": "matching",
+      "question": "Match the truth-related concepts:",
+      "pairs": [
+        {"left": "verisimilitude", "right": "closeness to truth"},
+        {"left": "correspondence", "right": "matching reality"},
+        {"left": "coherence", "right": "internal consistency"},
+        {"left": "pragmatic", "right": "practical utility"}
+      ],
+      "wordId": "w11"
+    },
+    {
+      "id": "matching16",
+      "type": "matching",
+      "question": "Match the philosophical methods:",
+      "pairs": [
+        {"left": "induction", "right": "general from particular"},
+        {"left": "deduction", "right": "particular from general"},
+        {"left": "abduction", "right": "inference to best explanation"},
+        {"left": "dialectic", "right": "resolving contradictions"}
+      ],
+      "wordId": "w12"
+    },
+    {
+      "id": "matching17",
+      "type": "matching",
+      "question": "Match the scientific concepts:",
+      "pairs": [
+        {"left": "hypothesis", "right": "proposed explanation"},
+        {"left": "theory", "right": "well-substantiated explanation"},
+        {"left": "law", "right": "universal statement"},
+        {"left": "model", "right": "simplified representation"}
+      ],
+      "wordId": "w35"
+    },
+    {
+      "id": "matching18",
+      "type": "matching",
+      "question": "Match the explanatory concepts:",
+      "pairs": [
+        {"left": "teleology", "right": "explanation by purpose"},
+        {"left": "mechanism", "right": "explanation by process"},
+        {"left": "functionalism", "right": "explanation by role"},
+        {"left": "structuralism", "right": "explanation by relations"}
+      ],
+      "wordId": "w32"
+    },
+    {
+      "id": "matching19",
+      "type": "matching",
+      "question": "Match the philosophical schools:",
+      "pairs": [
+        {"left": "logical positivism", "right": "Vienna Circle"},
+        {"left": "critical rationalism", "right": "Popper"},
+        {"left": "historical relativism", "right": "Kuhn"},
+        {"left": "American pragmatism", "right": "Peirce, James"}
+      ],
+      "wordId": "w20"
+    },
+    {
+      "id": "matching20",
+      "type": "matching",
+      "question": "Match the evidential concepts:",
+      "pairs": [
+        {"left": "empirical", "right": "observational data"},
+        {"left": "corroboration", "right": "supporting evidence"},
+        {"left": "falsification", "right": "disproving evidence"},
+        {"left": "verification", "right": "confirming evidence"}
+      ],
+      "wordId": "w40"
+    },
+    {
+      "id": "matching21",
+      "type": "matching",
+      "question": "Match the reality concepts:",
+      "pairs": [
+        {"left": "ontology", "right": "what exists"},
+        {"left": "metaphysics", "right": "fundamental nature"},
+        {"left": "cosmology", "right": "universe structure"},
+        {"left": "theology", "right": "divine nature"}
+      ],
+      "wordId": "w15"
+    },
+    {
+      "id": "matching22",
+      "type": "matching",
+      "question": "Match the certainty concepts:",
+      "pairs": [
+        {"left": "infallibilism", "right": "absolute certainty required"},
+        {"left": "fallibilism", "right": "error always possible"},
+        {"left": "skepticism", "right": "certainty impossible"},
+        {"left": "dogmatism", "right": "certainty assumed"}
+      ],
+      "wordId": "w47"
+    },
+    {
+      "id": "matching23",
+      "type": "matching",
+      "question": "Match the reasoning patterns:",
+      "pairs": [
+        {"left": "deductive", "right": "necessarily true conclusion"},
+        {"left": "inductive", "right": "probably true conclusion"},
+        {"left": "abductive", "right": "best explanation"},
+        {"left": "analogical", "right": "similar cases"}
+      ],
+      "wordId": "w41"
+    },
+    {
+      "id": "matching24",
+      "type": "matching",
+      "question": "Match the problematic concepts:",
+      "pairs": [
+        {"left": "anomaly", "right": "unexplained phenomenon"},
+        {"left": "paradox", "right": "self-contradictory"},
+        {"left": "antinomy", "right": "valid contradiction"},
+        {"left": "aporia", "right": "logical puzzle"}
+      ],
+      "wordId": "w39"
+    },
+    {
+      "id": "matching25",
+      "type": "matching",
+      "question": "Match the philosophical traditions:",
+      "pairs": [
+        {"left": "Continental", "right": "phenomenology, hermeneutics"},
+        {"left": "Analytic", "right": "logical analysis"},
+        {"left": "Pragmatist", "right": "practical consequences"},
+        {"left": "Empiricist", "right": "sensory experience"}
+      ],
+      "wordId": "w42"
+    },
+    {
+      "id": "matching26",
+      "type": "matching",
+      "question": "Match the systematic concepts:",
+      "pairs": [
+        {"left": "holism", "right": "whole greater than parts"},
+        {"left": "reductionism", "right": "parts explain whole"},
+        {"left": "emergentism", "right": "novel properties arise"},
+        {"left": "atomism", "right": "fundamental particles"}
+      ],
+      "wordId": "w14"
+    },
+    {
+      "id": "matching27",
+      "type": "matching",
+      "question": "Match the relationship concepts:",
+      "pairs": [
+        {"left": "causality", "right": "one produces another"},
+        {"left": "correlation", "right": "vary together"},
+        {"left": "supervenience", "right": "dependent on base"},
+        {"left": "identity", "right": "one and same"}
+      ],
+      "wordId": "w34"
+    },
+    {
+      "id": "matching28",
+      "type": "matching",
+      "question": "Match the modal concepts:",
+      "pairs": [
+        {"left": "necessity", "right": "must be true"},
+        {"left": "possibility", "right": "could be true"},
+        {"left": "contingency", "right": "happens to be true"},
+        {"left": "impossibility", "right": "cannot be true"}
+      ],
+      "wordId": "w26"
+    },
+    {
+      "id": "matching29",
+      "type": "matching",
+      "question": "Match the theory evaluation concepts:",
+      "pairs": [
+        {"left": "falsifiability", "right": "can be tested"},
+        {"left": "verisimilitude", "right": "truth-likeness"},
+        {"left": "simplicity", "right": "Occam's razor"},
+        {"left": "fruitfulness", "right": "generates research"}
+      ],
+      "wordId": "w37"
+    },
+    {
+      "id": "matching30",
+      "type": "matching",
+      "question": "Match the knowledge structures:",
+      "pairs": [
+        {"left": "foundationalism", "right": "pyramid structure"},
+        {"left": "coherentism", "right": "web structure"},
+        {"left": "infinitism", "right": "infinite chain"},
+        {"left": "contextualism", "right": "context-dependent"}
+      ],
+      "wordId": "w44"
+    },
+    {
+      "id": "tr_ko_en1",
+      "type": "translation_ko_en",
+      "question": "인식론",
+      "correctAnswer": "epistemology",
+      "wordId": "w1"
+    },
+    {
+      "id": "tr_ko_en2",
+      "type": "translation_ko_en",
+      "question": "반증가능성",
+      "correctAnswer": "falsifiability",
+      "wordId": "w2"
+    },
+    {
+      "id": "tr_ko_en3",
+      "type": "translation_ko_en",
+      "question": "패러다임",
+      "correctAnswer": "paradigm",
+      "wordId": "w3"
+    },
+    {
+      "id": "tr_ko_en4",
+      "type": "translation_ko_en",
+      "question": "경험주의",
+      "correctAnswer": "empiricism",
+      "wordId": "w4"
+    },
+    {
+      "id": "tr_ko_en5",
+      "type": "translation_ko_en",
+      "question": "공약불가능성",
+      "correctAnswer": "incommensurability",
+      "wordId": "w5"
+    },
+    {
+      "id": "tr_ko_en6",
+      "type": "translation_ko_en",
+      "question": "해석학",
+      "correctAnswer": "hermeneutics",
+      "wordId": "w6"
+    },
+    {
+      "id": "tr_ko_en7",
+      "type": "translation_ko_en",
+      "question": "미결정성",
+      "correctAnswer": "underdetermination",
+      "wordId": "w7"
+    },
+    {
+      "id": "tr_ko_en8",
+      "type": "translation_ko_en",
+      "question": "현상학",
+      "correctAnswer": "phenomenology",
+      "wordId": "w8"
+    },
+    {
+      "id": "tr_ko_en9",
+      "type": "translation_ko_en",
+      "question": "합리주의",
+      "correctAnswer": "rationalism",
+      "wordId": "w9"
+    },
+    {
+      "id": "tr_ko_en10",
+      "type": "translation_ko_en",
+      "question": "회의주의",
+      "correctAnswer": "skepticism",
+      "wordId": "w10"
+    },
+    {
+      "id": "tr_ko_en11",
+      "type": "translation_ko_en",
+      "question": "진실다움, 개연성",
+      "correctAnswer": "verisimilitude",
+      "wordId": "w11"
+    },
+    {
+      "id": "tr_ko_en12",
+      "type": "translation_ko_en",
+      "question": "귀납주의",
+      "correctAnswer": "inductivism",
+      "wordId": "w12"
+    },
+    {
+      "id": "tr_ko_en13",
+      "type": "translation_ko_en",
+      "question": "환원주의",
+      "correctAnswer": "reductionism",
+      "wordId": "w13"
+    },
+    {
+      "id": "tr_ko_en14",
+      "type": "translation_ko_en",
+      "question": "전체론",
+      "correctAnswer": "holism",
+      "wordId": "w14"
+    },
+    {
+      "id": "tr_ko_en15",
+      "type": "translation_ko_en",
+      "question": "존재론",
+      "correctAnswer": "ontology",
+      "wordId": "w15"
+    },
+    {
+      "id": "tr_ko_en16",
+      "type": "translation_ko_en",
+      "question": "형이상학",
+      "correctAnswer": "metaphysics",
+      "wordId": "w16"
+    },
+    {
+      "id": "tr_ko_en17",
+      "type": "translation_ko_en",
+      "question": "유명론",
+      "correctAnswer": "nominalism",
+      "wordId": "w17"
+    },
+    {
+      "id": "tr_ko_en18",
+      "type": "translation_ko_en",
+      "question": "실재론",
+      "correctAnswer": "realism",
+      "wordId": "w18"
+    },
+    {
+      "id": "tr_ko_en19",
+      "type": "translation_ko_en",
+      "question": "도구주의",
+      "correctAnswer": "instrumentalism",
+      "wordId": "w19"
+    },
+    {
+      "id": "tr_ko_en20",
+      "type": "translation_ko_en",
+      "question": "실증주의",
+      "correctAnswer": "positivism",
+      "wordId": "w20"
+    },
+    {
+      "id": "tr_ko_en21",
+      "type": "translation_ko_en",
+      "question": "검증주의",
+      "correctAnswer": "verificationism",
+      "wordId": "w21"
+    },
+    {
+      "id": "tr_ko_en22",
+      "type": "translation_ko_en",
+      "question": "경계설정",
+      "correctAnswer": "demarcation",
+      "wordId": "w22"
+    },
+    {
+      "id": "tr_ko_en23",
+      "type": "translation_ko_en",
+      "question": "객관성",
+      "correctAnswer": "objectivity",
+      "wordId": "w23"
+    },
+    {
+      "id": "tr_ko_en24",
+      "type": "translation_ko_en",
+      "question": "주관성",
+      "correctAnswer": "subjectivity",
+      "wordId": "w24"
+    },
+    {
+      "id": "tr_ko_en25",
+      "type": "translation_ko_en",
+      "question": "결정론",
+      "correctAnswer": "determinism",
+      "wordId": "w25"
+    },
+    {
+      "id": "tr_ko_en26",
+      "type": "translation_ko_en",
+      "question": "우연성",
+      "correctAnswer": "contingency",
+      "wordId": "w26"
+    },
+    {
+      "id": "tr_ko_en27",
+      "type": "translation_ko_en",
+      "question": "선험적인",
+      "correctAnswer": "a priori",
+      "wordId": "w27"
+    },
+    {
+      "id": "tr_ko_en28",
+      "type": "translation_ko_en",
+      "question": "후험적인",
+      "correctAnswer": "a posteriori",
+      "wordId": "w28"
+    },
+    {
+      "id": "tr_ko_en29",
+      "type": "translation_ko_en",
+      "question": "동어반복",
+      "correctAnswer": "tautology",
+      "wordId": "w29"
+    },
+    {
+      "id": "tr_ko_en30",
+      "type": "translation_ko_en",
+      "question": "공리",
+      "correctAnswer": "axiom",
+      "wordId": "w30"
+    },
+    {
+      "id": "tr_en_ko1",
+      "type": "translation_en_ko",
+      "question": "dialectic",
+      "correctAnswer": "변증법",
+      "wordId": "w31"
+    },
+    {
+      "id": "tr_en_ko2",
+      "type": "translation_en_ko",
+      "question": "teleology",
+      "correctAnswer": "목적론",
+      "wordId": "w32"
+    },
+    {
+      "id": "tr_en_ko3",
+      "type": "translation_en_ko",
+      "question": "causality",
+      "correctAnswer": "인과성",
+      "wordId": "w33"
+    },
+    {
+      "id": "tr_en_ko4",
+      "type": "translation_en_ko",
+      "question": "correlation",
+      "correctAnswer": "상관관계",
+      "wordId": "w34"
+    },
+    {
+      "id": "tr_en_ko5",
+      "type": "translation_en_ko",
+      "question": "hypothesis",
+      "correctAnswer": "가설",
+      "wordId": "w35"
+    },
+    {
+      "id": "tr_en_ko6",
+      "type": "translation_en_ko",
+      "question": "conjecture",
+      "correctAnswer": "추측",
+      "wordId": "w36"
+    },
+    {
+      "id": "tr_en_ko7",
+      "type": "translation_en_ko",
+      "question": "corroboration",
+      "correctAnswer": "확증",
+      "wordId": "w37"
+    },
+    {
+      "id": "tr_en_ko8",
+      "type": "translation_en_ko",
+      "question": "refutation",
+      "correctAnswer": "반박",
+      "wordId": "w38"
+    },
+    {
+      "id": "tr_en_ko9",
+      "type": "translation_en_ko",
+      "question": "anomaly",
+      "correctAnswer": "변칙",
+      "wordId": "w39"
+    },
+    {
+      "id": "tr_en_ko10",
+      "type": "translation_en_ko",
+      "question": "empirical",
+      "correctAnswer": "경험적인",
+      "wordId": "w40"
+    },
+    {
+      "id": "tr_en_ko11",
+      "type": "translation_en_ko",
+      "question": "theoretical",
+      "correctAnswer": "이론적인",
+      "wordId": "w41"
+    },
+    {
+      "id": "tr_en_ko12",
+      "type": "translation_en_ko",
+      "question": "pragmatism",
+      "correctAnswer": "실용주의",
+      "wordId": "w42"
+    },
+    {
+      "id": "tr_en_ko13",
+      "type": "translation_en_ko",
+      "question": "foundationalism",
+      "correctAnswer": "기초론",
+      "wordId": "w43"
+    },
+    {
+      "id": "tr_en_ko14",
+      "type": "translation_en_ko",
+      "question": "coherentism",
+      "correctAnswer": "정합론",
+      "wordId": "w44"
+    },
+    {
+      "id": "tr_en_ko15",
+      "type": "translation_en_ko",
+      "question": "relativism",
+      "correctAnswer": "상대주의",
+      "wordId": "w45"
+    },
+    {
+      "id": "tr_en_ko16",
+      "type": "translation_en_ko",
+      "question": "absolutism",
+      "correctAnswer": "절대주의",
+      "wordId": "w46"
+    },
+    {
+      "id": "tr_en_ko17",
+      "type": "translation_en_ko",
+      "question": "fallibilism",
+      "correctAnswer": "가류주의",
+      "wordId": "w47"
+    },
+    {
+      "id": "tr_en_ko18",
+      "type": "translation_en_ko",
+      "question": "infallibilism",
+      "correctAnswer": "불가류주의",
+      "wordId": "w48"
+    },
+    {
+      "id": "tr_en_ko19",
+      "type": "translation_en_ko",
+      "question": "naturalism",
+      "correctAnswer": "자연주의",
+      "wordId": "w49"
+    },
+    {
+      "id": "tr_en_ko20",
+      "type": "translation_en_ko",
+      "question": "antinomy",
+      "correctAnswer": "이율배반",
+      "wordId": "w50"
+    },
+    {
+      "id": "tr_en_ko21",
+      "type": "translation_en_ko",
+      "question": "epistemology",
+      "correctAnswer": "인식론",
+      "wordId": "w1"
+    },
+    {
+      "id": "tr_en_ko22",
+      "type": "translation_en_ko",
+      "question": "falsifiability",
+      "correctAnswer": "반증가능성",
+      "wordId": "w2"
+    },
+    {
+      "id": "tr_en_ko23",
+      "type": "translation_en_ko",
+      "question": "paradigm",
+      "correctAnswer": "패러다임",
+      "wordId": "w3"
+    },
+    {
+      "id": "tr_en_ko24",
+      "type": "translation_en_ko",
+      "question": "empiricism",
+      "correctAnswer": "경험주의",
+      "wordId": "w4"
+    },
+    {
+      "id": "tr_en_ko25",
+      "type": "translation_en_ko",
+      "question": "incommensurability",
+      "correctAnswer": "공약불가능성",
+      "wordId": "w5"
+    },
+    {
+      "id": "tr_en_ko26",
+      "type": "translation_en_ko",
+      "question": "hermeneutics",
+      "correctAnswer": "해석학",
+      "wordId": "w6"
+    },
+    {
+      "id": "tr_en_ko27",
+      "type": "translation_en_ko",
+      "question": "underdetermination",
+      "correctAnswer": "미결정성",
+      "wordId": "w7"
+    },
+    {
+      "id": "tr_en_ko28",
+      "type": "translation_en_ko",
+      "question": "phenomenology",
+      "correctAnswer": "현상학",
+      "wordId": "w8"
+    },
+    {
+      "id": "tr_en_ko29",
+      "type": "translation_en_ko",
+      "question": "rationalism",
+      "correctAnswer": "합리주의",
+      "wordId": "w9"
+    },
+    {
+      "id": "tr_en_ko30",
+      "type": "translation_en_ko",
+      "question": "skepticism",
+      "correctAnswer": "회의주의",
+      "wordId": "w10"
+    }
+  ]
+}

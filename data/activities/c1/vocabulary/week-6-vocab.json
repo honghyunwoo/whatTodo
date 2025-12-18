@@ -1,0 +1,1742 @@
+{
+  "id": "c1-vocab-week-6",
+  "type": "vocabulary",
+  "level": "C1",
+  "weekId": "week-6",
+  "title": "Legal and Governance Terminology",
+  "description": "Specialized vocabulary for legal discourse and institutional governance",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "words": [
+    {
+      "id": "w1",
+      "word": "jurisdiction",
+      "pronunciation": "/ˌdʒʊrɪsˈdɪkʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The official authority to make legal decisions; the territory within which authority is exercised",
+      "translation": "관할권, 사법권",
+      "example": "The case falls outside the court's jurisdiction and must be heard elsewhere."
+    },
+    {
+      "id": "w2",
+      "word": "precedent",
+      "pronunciation": "/ˈpresɪdənt/",
+      "partOfSpeech": "noun",
+      "meaning": "A legal decision that serves as an authoritative rule for similar future cases",
+      "translation": "선례, 판례",
+      "example": "The Supreme Court ruling set a precedent for how such cases would be handled."
+    },
+    {
+      "id": "w3",
+      "word": "liability",
+      "pronunciation": "/ˌlaɪəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "meaning": "Legal responsibility for one's actions; an obligation to pay or perform",
+      "translation": "법적 책임, 부채",
+      "example": "The company faces significant liability for the environmental damage caused by the spill."
+    },
+    {
+      "id": "w4",
+      "word": "adjudication",
+      "pronunciation": "/əˌdʒuːdɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The formal judgment or resolution of a dispute by a court or tribunal",
+      "translation": "재판, 심판",
+      "example": "The dispute was resolved through adjudication rather than arbitration."
+    },
+    {
+      "id": "w5",
+      "word": "statute",
+      "pronunciation": "/ˈstætʃuːt/",
+      "partOfSpeech": "noun",
+      "meaning": "A written law passed by a legislative body",
+      "translation": "법령, 제정법",
+      "example": "The statute of limitations prevents prosecution after a certain period."
+    },
+    {
+      "id": "w6",
+      "word": "compliance",
+      "pronunciation": "/kəmˈplaɪəns/",
+      "partOfSpeech": "noun",
+      "meaning": "Acting in accordance with rules, regulations, or demands",
+      "translation": "준수, 이행",
+      "example": "Regulatory compliance has become a major concern for financial institutions."
+    },
+    {
+      "id": "w7",
+      "word": "arbitration",
+      "pronunciation": "/ˌɑːrbɪˈtreɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "A method of dispute resolution using an impartial third party",
+      "translation": "중재",
+      "example": "The contract requires that disputes be settled through binding arbitration."
+    },
+    {
+      "id": "w8",
+      "word": "indemnity",
+      "pronunciation": "/ɪnˈdemnəti/",
+      "partOfSpeech": "noun",
+      "meaning": "Security or protection against loss or damage; compensation for loss",
+      "translation": "면책, 보상",
+      "example": "The contract includes an indemnity clause protecting the vendor from third-party claims."
+    },
+    {
+      "id": "w9",
+      "word": "litigation",
+      "pronunciation": "/ˌlɪtɪˈɡeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The process of taking legal action; a lawsuit",
+      "translation": "소송",
+      "example": "The company is involved in lengthy litigation over patent infringement."
+    },
+    {
+      "id": "w10",
+      "word": "jurisprudence",
+      "pronunciation": "/ˌdʒʊrɪsˈpruːdəns/",
+      "partOfSpeech": "noun",
+      "meaning": "The theory or philosophy of law; a legal system",
+      "translation": "법학, 법률학",
+      "example": "She studied comparative jurisprudence to understand different legal systems."
+    },
+    {
+      "id": "w11",
+      "word": "plaintiff",
+      "pronunciation": "/ˈpleɪntɪf/",
+      "partOfSpeech": "noun",
+      "meaning": "A person who brings a case against another in a court of law",
+      "translation": "원고",
+      "example": "The plaintiff alleged that the defendant had breached the contract."
+    },
+    {
+      "id": "w12",
+      "word": "defendant",
+      "pronunciation": "/dɪˈfendənt/",
+      "partOfSpeech": "noun",
+      "meaning": "A person or entity accused in a court of law",
+      "translation": "피고",
+      "example": "The defendant pleaded not guilty to all charges."
+    },
+    {
+      "id": "w13",
+      "word": "tort",
+      "pronunciation": "/tɔːrt/",
+      "partOfSpeech": "noun",
+      "meaning": "A wrongful act or infringement of a right leading to civil legal liability",
+      "translation": "불법 행위",
+      "example": "Negligence is one of the most common types of tort in civil law."
+    },
+    {
+      "id": "w14",
+      "word": "covenant",
+      "pronunciation": "/ˈkʌvənənt/",
+      "partOfSpeech": "noun",
+      "meaning": "A formal agreement or contract; a binding promise",
+      "translation": "계약, 서약",
+      "example": "The property deed contains restrictive covenants regarding construction."
+    },
+    {
+      "id": "w15",
+      "word": "referendum",
+      "pronunciation": "/ˌrefəˈrendəm/",
+      "partOfSpeech": "noun",
+      "meaning": "A general vote by the electorate on a single political question",
+      "translation": "국민투표",
+      "example": "The government called a referendum on constitutional reform."
+    },
+    {
+      "id": "w16",
+      "word": "ratification",
+      "pronunciation": "/ˌrætɪfɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The formal approval or confirmation of an agreement or treaty",
+      "translation": "비준, 승인",
+      "example": "The treaty requires ratification by at least two-thirds of the member states."
+    },
+    {
+      "id": "w17",
+      "word": "sovereignty",
+      "pronunciation": "/ˈsɑːvrənti/",
+      "partOfSpeech": "noun",
+      "meaning": "Supreme power or authority; the authority of a state to govern itself",
+      "translation": "주권",
+      "example": "The nation fiercely defends its sovereignty against foreign interference."
+    },
+    {
+      "id": "w18",
+      "word": "amendment",
+      "pronunciation": "/əˈmendmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "A change or addition to a legal document or constitution",
+      "translation": "수정안, 개정안",
+      "example": "The First Amendment protects freedom of speech and religion."
+    },
+    {
+      "id": "w19",
+      "word": "veto",
+      "pronunciation": "/ˈviːtoʊ/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "The constitutional right to reject a decision or proposal; to exercise such rejection",
+      "translation": "거부권, 거부하다",
+      "example": "The president exercised his veto power to block the legislation."
+    },
+    {
+      "id": "w20",
+      "word": "judicial",
+      "pronunciation": "/dʒuːˈdɪʃəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Relating to courts of law or the administration of justice",
+      "translation": "사법의, 재판의",
+      "example": "The judicial system ensures that laws are interpreted fairly."
+    },
+    {
+      "id": "w21",
+      "word": "prosecute",
+      "pronunciation": "/ˈprɑːsɪkjuːt/",
+      "partOfSpeech": "verb",
+      "meaning": "To institute legal proceedings against someone; to conduct a criminal case",
+      "translation": "기소하다, 고소하다",
+      "example": "The district attorney decided to prosecute the case aggressively."
+    },
+    {
+      "id": "w22",
+      "word": "acquittal",
+      "pronunciation": "/əˈkwɪtəl/",
+      "partOfSpeech": "noun",
+      "meaning": "A judgment that a person is not guilty of the crime charged",
+      "translation": "무죄 판결",
+      "example": "The jury's acquittal came after three hours of deliberation."
+    },
+    {
+      "id": "w23",
+      "word": "verdict",
+      "pronunciation": "/ˈvɜːrdɪkt/",
+      "partOfSpeech": "noun",
+      "meaning": "A decision on a disputed issue in a civil or criminal case",
+      "translation": "평결, 판결",
+      "example": "The jury returned a guilty verdict after reviewing all the evidence."
+    },
+    {
+      "id": "w24",
+      "word": "testimony",
+      "pronunciation": "/ˈtestɪmoʊni/",
+      "partOfSpeech": "noun",
+      "meaning": "A formal written or spoken statement given in a court of law",
+      "translation": "증언",
+      "example": "The witness provided crucial testimony that contradicted the defendant's alibi."
+    },
+    {
+      "id": "w25",
+      "word": "subpoena",
+      "pronunciation": "/səˈpiːnə/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "A writ ordering a person to attend a court; to summon with such a writ",
+      "translation": "소환장, 소환하다",
+      "example": "The lawyer issued a subpoena to compel the witness to testify."
+    },
+    {
+      "id": "w26",
+      "word": "enact",
+      "pronunciation": "/ɪˈnækt/",
+      "partOfSpeech": "verb",
+      "meaning": "To make a bill into law; to put into practice",
+      "translation": "제정하다, 법령화하다",
+      "example": "Congress enacted legislation to protect consumer privacy rights."
+    },
+    {
+      "id": "w27",
+      "word": "repeal",
+      "pronunciation": "/rɪˈpiːl/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "To revoke or annul a law; the revocation of a law",
+      "translation": "폐지하다, 폐지",
+      "example": "The legislature voted to repeal the controversial tax law."
+    },
+    {
+      "id": "w28",
+      "word": "ordinance",
+      "pronunciation": "/ˈɔːrdɪnəns/",
+      "partOfSpeech": "noun",
+      "meaning": "A piece of legislation enacted by a municipal authority",
+      "translation": "조례, 법령",
+      "example": "The city council passed an ordinance banning smoking in public parks."
+    },
+    {
+      "id": "w29",
+      "word": "sanction",
+      "pronunciation": "/ˈsæŋkʃən/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "A threatened penalty for disobeying a law; official permission or approval",
+      "translation": "제재, 승인, 제재하다",
+      "example": "The UN imposed economic sanctions on the country for human rights violations."
+    },
+    {
+      "id": "w30",
+      "word": "embargo",
+      "pronunciation": "/ɪmˈbɑːrɡoʊ/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "An official ban on trade or other commercial activity with a country",
+      "translation": "금수 조치, 통상 금지",
+      "example": "The government lifted the embargo on agricultural exports to the neighboring nation."
+    },
+    {
+      "id": "w31",
+      "word": "clemency",
+      "pronunciation": "/ˈklemənsi/",
+      "partOfSpeech": "noun",
+      "meaning": "Mercy shown by reducing a sentence or pardoning an offender",
+      "translation": "관용, 사면",
+      "example": "The governor granted clemency to several non-violent offenders."
+    },
+    {
+      "id": "w32",
+      "word": "pardon",
+      "pronunciation": "/ˈpɑːrdən/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "The action of forgiving or being forgiven; to forgive or excuse",
+      "translation": "사면, 용서, 사면하다",
+      "example": "The president issued a pardon for the convicted official."
+    },
+    {
+      "id": "w33",
+      "word": "exonerate",
+      "pronunciation": "/ɪɡˈzɑːnəreɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To officially absolve someone from blame; to clear from accusation",
+      "translation": "무죄를 입증하다, 면책하다",
+      "example": "New DNA evidence exonerated the man who had spent years in prison."
+    },
+    {
+      "id": "w34",
+      "word": "impeachment",
+      "pronunciation": "/ɪmˈpiːtʃmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "A charge of misconduct against a public official; the process of removing such an official",
+      "translation": "탄핵",
+      "example": "The House of Representatives voted on articles of impeachment against the president."
+    },
+    {
+      "id": "w35",
+      "word": "dissolution",
+      "pronunciation": "/ˌdɪsəˈluːʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The closing down or dismissal of an assembly, partnership, or official body",
+      "translation": "해산, 해체",
+      "example": "The prime minister announced the dissolution of parliament and called for new elections."
+    },
+    {
+      "id": "w36",
+      "word": "caucus",
+      "pronunciation": "/ˈkɔːkəs/",
+      "partOfSpeech": "noun",
+      "meaning": "A meeting of members of a political party to select candidates or decide policy",
+      "translation": "당원 집회, 코커스",
+      "example": "The senator attended the caucus to discuss the party's legislative priorities."
+    },
+    {
+      "id": "w37",
+      "word": "constituency",
+      "pronunciation": "/kənˈstɪtʃuənsi/",
+      "partOfSpeech": "noun",
+      "meaning": "A body of voters in a specified area who elect a representative; the area itself",
+      "translation": "선거구, 지역구",
+      "example": "The representative regularly holds town halls to listen to her constituency."
+    },
+    {
+      "id": "w38",
+      "word": "lobby",
+      "pronunciation": "/ˈlɑːbi/",
+      "partOfSpeech": "verb/noun",
+      "meaning": "To seek to influence a politician on an issue; a group seeking such influence",
+      "translation": "로비하다, 로비 단체",
+      "example": "Environmental groups are lobbying Congress to pass stricter emissions standards."
+    },
+    {
+      "id": "w39",
+      "word": "bicameral",
+      "pronunciation": "/baɪˈkæmərəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Having two legislative chambers or houses",
+      "translation": "양원제의",
+      "example": "The United States has a bicameral legislature consisting of the Senate and House."
+    },
+    {
+      "id": "w40",
+      "word": "mandate",
+      "pronunciation": "/ˈmændeɪt/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "An official order or authorization to do something; to give such authority",
+      "translation": "권한, 명령, 위임하다",
+      "example": "The election victory gave the party a mandate to implement its reform agenda."
+    },
+    {
+      "id": "w41",
+      "word": "decree",
+      "pronunciation": "/dɪˈkriː/",
+      "partOfSpeech": "noun/verb",
+      "meaning": "An official order issued by a legal authority; to order officially",
+      "translation": "법령, 포고, 포고하다",
+      "example": "The king issued a decree abolishing the outdated feudal laws."
+    },
+    {
+      "id": "w42",
+      "word": "provision",
+      "pronunciation": "/prəˈvɪʒən/",
+      "partOfSpeech": "noun",
+      "meaning": "A condition or requirement in a legal document; a clause",
+      "translation": "조항, 규정",
+      "example": "The contract contains a provision allowing either party to terminate with notice."
+    },
+    {
+      "id": "w43",
+      "word": "rescind",
+      "pronunciation": "/rɪˈsɪnd/",
+      "partOfSpeech": "verb",
+      "meaning": "To revoke, cancel, or repeal a law, order, or agreement",
+      "translation": "폐지하다, 취소하다",
+      "example": "The board voted to rescind its previous decision on executive compensation."
+    },
+    {
+      "id": "w44",
+      "word": "nullify",
+      "pronunciation": "/ˈnʌlɪfaɪ/",
+      "partOfSpeech": "verb",
+      "meaning": "To make legally null and void; to invalidate",
+      "translation": "무효화하다",
+      "example": "The appellate court nullified the lower court's ruling due to procedural errors."
+    },
+    {
+      "id": "w45",
+      "word": "injunction",
+      "pronunciation": "/ɪnˈdʒʌŋkʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "A court order requiring a person to do or cease doing a specific action",
+      "translation": "금지 명령, 가처분",
+      "example": "The judge issued an injunction preventing the company from demolishing the historic building."
+    },
+    {
+      "id": "w46",
+      "word": "affidavit",
+      "pronunciation": "/ˌæfɪˈdeɪvɪt/",
+      "partOfSpeech": "noun",
+      "meaning": "A written statement confirmed by oath for use as evidence in court",
+      "translation": "진술서, 선서 공술서",
+      "example": "The witness signed an affidavit stating what she had observed on the night in question."
+    },
+    {
+      "id": "w47",
+      "word": "probation",
+      "pronunciation": "/proʊˈbeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The release of an offender subject to supervision instead of imprisonment",
+      "translation": "집행 유예, 보호 관찰",
+      "example": "The judge sentenced him to two years of probation with community service."
+    },
+    {
+      "id": "w48",
+      "word": "extradition",
+      "pronunciation": "/ˌekstrəˈdɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The action of delivering a person accused of a crime to another jurisdiction",
+      "translation": "범죄인 인도, 송환",
+      "example": "The country agreed to the extradition request for the fugitive businessman."
+    },
+    {
+      "id": "w49",
+      "word": "perjury",
+      "pronunciation": "/ˈpɜːrdʒəri/",
+      "partOfSpeech": "noun",
+      "meaning": "The offense of willfully telling an untruth in court after taking an oath",
+      "translation": "위증죄",
+      "example": "The witness was charged with perjury after contradicting her sworn testimony."
+    },
+    {
+      "id": "w50",
+      "word": "contempt",
+      "pronunciation": "/kənˈtempt/",
+      "partOfSpeech": "noun",
+      "meaning": "The offense of being disobedient to or disrespectful of a court of law",
+      "translation": "법정 모독죄",
+      "example": "The attorney was held in contempt of court for refusing to follow the judge's orders."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "The official authority to make legal decisions in a territory is called:",
+      "options": [
+        "jurisdiction",
+        "prosecution",
+        "litigation",
+        "arbitration"
+      ],
+      "correctAnswer": 0,
+      "wordId": "w1"
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "A legal decision that serves as a rule for future cases is a:",
+      "options": [
+        "statute",
+        "precedent",
+        "verdict",
+        "decree"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w2"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "Legal responsibility for one's actions is known as:",
+      "options": [
+        "indemnity",
+        "immunity",
+        "liability",
+        "clemency"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w3"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "The formal judgment of a dispute by a court is called:",
+      "options": [
+        "arbitration",
+        "mediation",
+        "adjudication",
+        "negotiation"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w4"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "A written law passed by a legislative body is a:",
+      "options": [
+        "statute",
+        "covenant",
+        "affidavit",
+        "injunction"
+      ],
+      "correctAnswer": 0,
+      "wordId": "w5"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "Acting in accordance with rules and regulations is:",
+      "options": [
+        "violation",
+        "compliance",
+        "defiance",
+        "resistance"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w6"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "A method of dispute resolution using an impartial third party is:",
+      "options": [
+        "litigation",
+        "prosecution",
+        "arbitration",
+        "adjudication"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w7"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "Protection against loss or compensation for damage is:",
+      "options": [
+        "liability",
+        "indemnity",
+        "tort",
+        "sanction"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w8"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "The process of taking legal action or a lawsuit is:",
+      "options": [
+        "litigation",
+        "mediation",
+        "arbitration",
+        "negotiation"
+      ],
+      "correctAnswer": 0,
+      "wordId": "w9"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "The theory or philosophy of law is called:",
+      "options": [
+        "jurisprudence",
+        "precedent",
+        "jurisdiction",
+        "adjudication"
+      ],
+      "correctAnswer": 0,
+      "wordId": "w10"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "The person who brings a case to court is the:",
+      "options": [
+        "defendant",
+        "plaintiff",
+        "witness",
+        "prosecutor"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w11"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "The person accused in a court of law is the:",
+      "options": [
+        "plaintiff",
+        "prosecutor",
+        "defendant",
+        "judge"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w12"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "A wrongful act leading to civil legal liability is a:",
+      "options": [
+        "tort",
+        "covenant",
+        "statute",
+        "decree"
+      ],
+      "correctAnswer": 0,
+      "wordId": "w13"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "A formal agreement or binding promise is a:",
+      "options": [
+        "provision",
+        "covenant",
+        "sanction",
+        "mandate"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w14"
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "A general vote by the electorate on a political question is a:",
+      "options": [
+        "caucus",
+        "referendum",
+        "mandate",
+        "decree"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w15"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "The formal approval of an agreement or treaty is:",
+      "options": [
+        "ratification",
+        "nullification",
+        "rescission",
+        "dissolution"
+      ],
+      "correctAnswer": 0,
+      "wordId": "w16"
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "Supreme power or authority of a state to govern itself is:",
+      "options": [
+        "jurisdiction",
+        "sovereignty",
+        "mandate",
+        "clemency"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w17"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "A change or addition to a legal document is an:",
+      "options": [
+        "amendment",
+        "statute",
+        "ordinance",
+        "decree"
+      ],
+      "correctAnswer": 0,
+      "wordId": "w18"
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "The constitutional right to reject a decision is a:",
+      "options": [
+        "mandate",
+        "sanction",
+        "veto",
+        "pardon"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w19"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "To institute legal proceedings against someone is to:",
+      "options": [
+        "exonerate",
+        "pardon",
+        "prosecute",
+        "acquit"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w21"
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "A judgment that a person is not guilty is an:",
+      "options": [
+        "conviction",
+        "acquittal",
+        "verdict",
+        "testimony"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w22"
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "A decision on a disputed issue in a case is a:",
+      "options": [
+        "testimony",
+        "verdict",
+        "affidavit",
+        "subpoena"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w23"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "A formal statement given in court is:",
+      "options": [
+        "testimony",
+        "perjury",
+        "contempt",
+        "probation"
+      ],
+      "correctAnswer": 0,
+      "wordId": "w24"
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "A writ ordering someone to attend court is a:",
+      "options": [
+        "subpoena",
+        "injunction",
+        "decree",
+        "warrant"
+      ],
+      "correctAnswer": 0,
+      "wordId": "w25"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "To make a bill into law is to:",
+      "options": [
+        "repeal",
+        "rescind",
+        "enact",
+        "nullify"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w26"
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "To revoke or annul a law is to:",
+      "options": [
+        "enact",
+        "repeal",
+        "ratify",
+        "sanction"
+      ],
+      "correctAnswer": 1,
+      "wordId": "w27"
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "Legislation enacted by a municipal authority is an:",
+      "options": [
+        "ordinance",
+        "statute",
+        "amendment",
+        "decree"
+      ],
+      "correctAnswer": 0,
+      "wordId": "w28"
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "A threatened penalty for disobeying a law is a:",
+      "options": [
+        "pardon",
+        "clemency",
+        "sanction",
+        "indemnity"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w29"
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "An official ban on trade with a country is an:",
+      "options": [
+        "embargo",
+        "sanction",
+        "decree",
+        "ordinance"
+      ],
+      "correctAnswer": 0,
+      "wordId": "w30"
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "Mercy shown by reducing a sentence is:",
+      "options": [
+        "contempt",
+        "perjury",
+        "clemency",
+        "extradition"
+      ],
+      "correctAnswer": 2,
+      "wordId": "w31"
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "sentence": "The case falls outside the court's _____ and must be heard elsewhere.",
+      "correctAnswer": "jurisdiction",
+      "wordId": "w1"
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "sentence": "The Supreme Court ruling set a _____ for how such cases would be handled.",
+      "correctAnswer": "precedent",
+      "wordId": "w2"
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "sentence": "The company faces significant _____ for the environmental damage.",
+      "correctAnswer": "liability",
+      "wordId": "w3"
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "sentence": "The dispute was resolved through _____ rather than arbitration.",
+      "correctAnswer": "adjudication",
+      "wordId": "w4"
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "sentence": "The _____ of limitations prevents prosecution after a certain period.",
+      "correctAnswer": "statute",
+      "wordId": "w5"
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "sentence": "Regulatory _____ has become a major concern for financial institutions.",
+      "correctAnswer": "compliance",
+      "wordId": "w6"
+    },
+    {
+      "id": "ex37",
+      "type": "fill_blank",
+      "sentence": "The contract requires that disputes be settled through binding _____.",
+      "correctAnswer": "arbitration",
+      "wordId": "w7"
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "sentence": "The contract includes an _____ clause protecting the vendor from claims.",
+      "correctAnswer": "indemnity",
+      "wordId": "w8"
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "sentence": "The company is involved in lengthy _____ over patent infringement.",
+      "correctAnswer": "litigation",
+      "wordId": "w9"
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "sentence": "She studied comparative _____ to understand different legal systems.",
+      "correctAnswer": "jurisprudence",
+      "wordId": "w10"
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "sentence": "The _____ alleged that the defendant had breached the contract.",
+      "correctAnswer": "plaintiff",
+      "wordId": "w11"
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "sentence": "The _____ pleaded not guilty to all charges.",
+      "correctAnswer": "defendant",
+      "wordId": "w12"
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "sentence": "Negligence is one of the most common types of _____ in civil law.",
+      "correctAnswer": "tort",
+      "wordId": "w13"
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "sentence": "The property deed contains restrictive _____ regarding construction.",
+      "correctAnswer": "covenant",
+      "wordId": "w14"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "sentence": "The government called a _____ on constitutional reform.",
+      "correctAnswer": "referendum",
+      "wordId": "w15"
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "sentence": "The treaty requires _____ by at least two-thirds of member states.",
+      "correctAnswer": "ratification",
+      "wordId": "w16"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "sentence": "The nation fiercely defends its _____ against foreign interference.",
+      "correctAnswer": "sovereignty",
+      "wordId": "w17"
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "sentence": "The First _____ protects freedom of speech and religion.",
+      "correctAnswer": "Amendment",
+      "wordId": "w18"
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "sentence": "The president exercised his _____ power to block the legislation.",
+      "correctAnswer": "veto",
+      "wordId": "w19"
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "sentence": "The _____ system ensures that laws are interpreted fairly.",
+      "correctAnswer": "judicial",
+      "wordId": "w20"
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "sentence": "The district attorney decided to _____ the case aggressively.",
+      "correctAnswer": "prosecute",
+      "wordId": "w21"
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "sentence": "The jury's _____ came after three hours of deliberation.",
+      "correctAnswer": "acquittal",
+      "wordId": "w22"
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "sentence": "The jury returned a guilty _____ after reviewing all the evidence.",
+      "correctAnswer": "verdict",
+      "wordId": "w23"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "sentence": "The witness provided crucial _____ that contradicted the alibi.",
+      "correctAnswer": "testimony",
+      "wordId": "w24"
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "sentence": "The lawyer issued a _____ to compel the witness to testify.",
+      "correctAnswer": "subpoena",
+      "wordId": "w25"
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "sentence": "Congress _____ legislation to protect consumer privacy rights.",
+      "correctAnswer": "enacted",
+      "wordId": "w26"
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "sentence": "The legislature voted to _____ the controversial tax law.",
+      "correctAnswer": "repeal",
+      "wordId": "w27"
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "sentence": "The city council passed an _____ banning smoking in public parks.",
+      "correctAnswer": "ordinance",
+      "wordId": "w28"
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "sentence": "The UN imposed economic _____ on the country for human rights violations.",
+      "correctAnswer": "sanctions",
+      "wordId": "w29"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "sentence": "The government lifted the _____ on agricultural exports.",
+      "correctAnswer": "embargo",
+      "wordId": "w30"
+    },
+    {
+      "id": "ex61",
+      "type": "translation_ko_en",
+      "koreanSentence": "그 사건은 법원의 관할권 밖에 있다.",
+      "englishAnswer": "The case falls outside the court's jurisdiction.",
+      "wordId": "w1"
+    },
+    {
+      "id": "ex62",
+      "type": "translation_ko_en",
+      "koreanSentence": "대법원 판결이 선례를 남겼다.",
+      "englishAnswer": "The Supreme Court ruling set a precedent.",
+      "wordId": "w2"
+    },
+    {
+      "id": "ex63",
+      "type": "translation_ko_en",
+      "koreanSentence": "그 회사는 상당한 법적 책임에 직면했다.",
+      "englishAnswer": "The company faces significant liability.",
+      "wordId": "w3"
+    },
+    {
+      "id": "ex64",
+      "type": "translation_ko_en",
+      "koreanSentence": "분쟁은 재판을 통해 해결되었다.",
+      "englishAnswer": "The dispute was resolved through adjudication.",
+      "wordId": "w4"
+    },
+    {
+      "id": "ex65",
+      "type": "translation_ko_en",
+      "koreanSentence": "공소시효법은 일정 기간 후 기소를 방지한다.",
+      "englishAnswer": "The statute of limitations prevents prosecution after a certain period.",
+      "wordId": "w5"
+    },
+    {
+      "id": "ex66",
+      "type": "translation_ko_en",
+      "koreanSentence": "규제 준수는 금융 기관의 주요 관심사가 되었다.",
+      "englishAnswer": "Regulatory compliance has become a major concern for financial institutions.",
+      "wordId": "w6"
+    },
+    {
+      "id": "ex67",
+      "type": "translation_ko_en",
+      "koreanSentence": "계약은 구속력 있는 중재를 요구한다.",
+      "englishAnswer": "The contract requires binding arbitration.",
+      "wordId": "w7"
+    },
+    {
+      "id": "ex68",
+      "type": "translation_ko_en",
+      "koreanSentence": "계약에는 면책 조항이 포함되어 있다.",
+      "englishAnswer": "The contract includes an indemnity clause.",
+      "wordId": "w8"
+    },
+    {
+      "id": "ex69",
+      "type": "translation_ko_en",
+      "koreanSentence": "그 회사는 특허 침해 소송에 연루되어 있다.",
+      "englishAnswer": "The company is involved in litigation over patent infringement.",
+      "wordId": "w9"
+    },
+    {
+      "id": "ex70",
+      "type": "translation_ko_en",
+      "koreanSentence": "그녀는 비교 법학을 공부했다.",
+      "englishAnswer": "She studied comparative jurisprudence.",
+      "wordId": "w10"
+    },
+    {
+      "id": "ex71",
+      "type": "translation_ko_en",
+      "koreanSentence": "원고는 피고가 계약을 위반했다고 주장했다.",
+      "englishAnswer": "The plaintiff alleged that the defendant had breached the contract.",
+      "wordId": "w11"
+    },
+    {
+      "id": "ex72",
+      "type": "translation_ko_en",
+      "koreanSentence": "피고는 모든 혐의에 대해 무죄를 주장했다.",
+      "englishAnswer": "The defendant pleaded not guilty to all charges.",
+      "wordId": "w12"
+    },
+    {
+      "id": "ex73",
+      "type": "translation_ko_en",
+      "koreanSentence": "과실은 민법에서 가장 일반적인 불법 행위이다.",
+      "englishAnswer": "Negligence is one of the most common types of tort in civil law.",
+      "wordId": "w13"
+    },
+    {
+      "id": "ex74",
+      "type": "translation_ko_en",
+      "koreanSentence": "정부는 헌법 개혁에 대한 국민투표를 실시했다.",
+      "englishAnswer": "The government called a referendum on constitutional reform.",
+      "wordId": "w15"
+    },
+    {
+      "id": "ex75",
+      "type": "translation_ko_en",
+      "koreanSentence": "조약은 회원국 3분의 2의 비준이 필요하다.",
+      "englishAnswer": "The treaty requires ratification by at least two-thirds of member states.",
+      "wordId": "w16"
+    },
+    {
+      "id": "ex76",
+      "type": "translation_ko_en",
+      "koreanSentence": "그 나라는 주권을 열렬히 방어한다.",
+      "englishAnswer": "The nation fiercely defends its sovereignty.",
+      "wordId": "w17"
+    },
+    {
+      "id": "ex77",
+      "type": "translation_ko_en",
+      "koreanSentence": "대통령은 거부권을 행사했다.",
+      "englishAnswer": "The president exercised his veto power.",
+      "wordId": "w19"
+    },
+    {
+      "id": "ex78",
+      "type": "translation_ko_en",
+      "koreanSentence": "검사는 사건을 적극적으로 기소하기로 결정했다.",
+      "englishAnswer": "The district attorney decided to prosecute the case.",
+      "wordId": "w21"
+    },
+    {
+      "id": "ex79",
+      "type": "translation_ko_en",
+      "koreanSentence": "배심원은 무죄 평결을 내렸다.",
+      "englishAnswer": "The jury returned an acquittal.",
+      "wordId": "w22"
+    },
+    {
+      "id": "ex80",
+      "type": "translation_ko_en",
+      "koreanSentence": "증인은 중요한 증언을 제공했다.",
+      "englishAnswer": "The witness provided crucial testimony.",
+      "wordId": "w24"
+    },
+    {
+      "id": "ex81",
+      "type": "translation_ko_en",
+      "koreanSentence": "변호사는 소환장을 발부했다.",
+      "englishAnswer": "The lawyer issued a subpoena.",
+      "wordId": "w25"
+    },
+    {
+      "id": "ex82",
+      "type": "translation_ko_en",
+      "koreanSentence": "의회는 개인정보 보호법을 제정했다.",
+      "englishAnswer": "Congress enacted privacy protection legislation.",
+      "wordId": "w26"
+    },
+    {
+      "id": "ex83",
+      "type": "translation_ko_en",
+      "koreanSentence": "의회는 세법을 폐지했다.",
+      "englishAnswer": "The legislature voted to repeal the tax law.",
+      "wordId": "w27"
+    },
+    {
+      "id": "ex84",
+      "type": "translation_ko_en",
+      "koreanSentence": "시의회는 금연 조례를 통과시켰다.",
+      "englishAnswer": "The city council passed a smoking ban ordinance.",
+      "wordId": "w28"
+    },
+    {
+      "id": "ex85",
+      "type": "translation_ko_en",
+      "koreanSentence": "유엔은 경제 제재를 부과했다.",
+      "englishAnswer": "The UN imposed economic sanctions.",
+      "wordId": "w29"
+    },
+    {
+      "id": "ex86",
+      "type": "translation_ko_en",
+      "koreanSentence": "정부는 금수 조치를 해제했다.",
+      "englishAnswer": "The government lifted the embargo.",
+      "wordId": "w30"
+    },
+    {
+      "id": "ex87",
+      "type": "translation_ko_en",
+      "koreanSentence": "주지사는 사면을 승인했다.",
+      "englishAnswer": "The governor granted clemency.",
+      "wordId": "w31"
+    },
+    {
+      "id": "ex88",
+      "type": "translation_ko_en",
+      "koreanSentence": "대통령은 사면을 발표했다.",
+      "englishAnswer": "The president issued a pardon.",
+      "wordId": "w32"
+    },
+    {
+      "id": "ex89",
+      "type": "translation_ko_en",
+      "koreanSentence": "새로운 DNA 증거가 그를 무죄로 입증했다.",
+      "englishAnswer": "New DNA evidence exonerated him.",
+      "wordId": "w33"
+    },
+    {
+      "id": "ex90",
+      "type": "translation_ko_en",
+      "koreanSentence": "하원은 탄핵안을 표결했다.",
+      "englishAnswer": "The House voted on articles of impeachment.",
+      "wordId": "w34"
+    },
+    {
+      "id": "ex91",
+      "type": "translation_en_ko",
+      "englishSentence": "The case falls outside the court's jurisdiction.",
+      "koreanAnswer": "그 사건은 법원의 관할권 밖에 있다.",
+      "wordId": "w1"
+    },
+    {
+      "id": "ex92",
+      "type": "translation_en_ko",
+      "englishSentence": "The Supreme Court ruling set a precedent.",
+      "koreanAnswer": "대법원 판결이 선례를 남겼다.",
+      "wordId": "w2"
+    },
+    {
+      "id": "ex93",
+      "type": "translation_en_ko",
+      "englishSentence": "The company faces significant liability.",
+      "koreanAnswer": "그 회사는 상당한 법적 책임에 직면했다.",
+      "wordId": "w3"
+    },
+    {
+      "id": "ex94",
+      "type": "translation_en_ko",
+      "englishSentence": "The dispute was resolved through adjudication.",
+      "koreanAnswer": "분쟁은 재판을 통해 해결되었다.",
+      "wordId": "w4"
+    },
+    {
+      "id": "ex95",
+      "type": "translation_en_ko",
+      "englishSentence": "Regulatory compliance has become a major concern.",
+      "koreanAnswer": "규제 준수는 주요 관심사가 되었다.",
+      "wordId": "w6"
+    },
+    {
+      "id": "ex96",
+      "type": "translation_en_ko",
+      "englishSentence": "The contract requires binding arbitration.",
+      "koreanAnswer": "계약은 구속력 있는 중재를 요구한다.",
+      "wordId": "w7"
+    },
+    {
+      "id": "ex97",
+      "type": "translation_en_ko",
+      "englishSentence": "The company is involved in litigation.",
+      "koreanAnswer": "그 회사는 소송에 연루되어 있다.",
+      "wordId": "w9"
+    },
+    {
+      "id": "ex98",
+      "type": "translation_en_ko",
+      "englishSentence": "She studied comparative jurisprudence.",
+      "koreanAnswer": "그녀는 비교 법학을 공부했다.",
+      "wordId": "w10"
+    },
+    {
+      "id": "ex99",
+      "type": "translation_en_ko",
+      "englishSentence": "The plaintiff alleged a breach of contract.",
+      "koreanAnswer": "원고는 계약 위반을 주장했다.",
+      "wordId": "w11"
+    },
+    {
+      "id": "ex100",
+      "type": "translation_en_ko",
+      "englishSentence": "The defendant pleaded not guilty.",
+      "koreanAnswer": "피고는 무죄를 주장했다.",
+      "wordId": "w12"
+    },
+    {
+      "id": "ex101",
+      "type": "translation_en_ko",
+      "englishSentence": "Negligence is a common type of tort.",
+      "koreanAnswer": "과실은 일반적인 불법 행위이다.",
+      "wordId": "w13"
+    },
+    {
+      "id": "ex102",
+      "type": "translation_en_ko",
+      "englishSentence": "The government called a referendum.",
+      "koreanAnswer": "정부는 국민투표를 실시했다.",
+      "wordId": "w15"
+    },
+    {
+      "id": "ex103",
+      "type": "translation_en_ko",
+      "englishSentence": "The treaty requires ratification.",
+      "koreanAnswer": "조약은 비준이 필요하다.",
+      "wordId": "w16"
+    },
+    {
+      "id": "ex104",
+      "type": "translation_en_ko",
+      "englishSentence": "The nation defends its sovereignty.",
+      "koreanAnswer": "그 나라는 주권을 방어한다.",
+      "wordId": "w17"
+    },
+    {
+      "id": "ex105",
+      "type": "translation_en_ko",
+      "englishSentence": "The president exercised veto power.",
+      "koreanAnswer": "대통령은 거부권을 행사했다.",
+      "wordId": "w19"
+    },
+    {
+      "id": "ex106",
+      "type": "translation_en_ko",
+      "englishSentence": "The attorney decided to prosecute the case.",
+      "koreanAnswer": "변호사는 사건을 기소하기로 결정했다.",
+      "wordId": "w21"
+    },
+    {
+      "id": "ex107",
+      "type": "translation_en_ko",
+      "englishSentence": "The jury returned an acquittal.",
+      "koreanAnswer": "배심원은 무죄 평결을 내렸다.",
+      "wordId": "w22"
+    },
+    {
+      "id": "ex108",
+      "type": "translation_en_ko",
+      "englishSentence": "The witness provided crucial testimony.",
+      "koreanAnswer": "증인은 중요한 증언을 제공했다.",
+      "wordId": "w24"
+    },
+    {
+      "id": "ex109",
+      "type": "translation_en_ko",
+      "englishSentence": "Congress enacted privacy legislation.",
+      "koreanAnswer": "의회는 개인정보 보호법을 제정했다.",
+      "wordId": "w26"
+    },
+    {
+      "id": "ex110",
+      "type": "translation_en_ko",
+      "englishSentence": "The legislature repealed the tax law.",
+      "koreanAnswer": "의회는 세법을 폐지했다.",
+      "wordId": "w27"
+    },
+    {
+      "id": "ex111",
+      "type": "translation_en_ko",
+      "englishSentence": "The UN imposed economic sanctions.",
+      "koreanAnswer": "유엔은 경제 제재를 부과했다.",
+      "wordId": "w29"
+    },
+    {
+      "id": "ex112",
+      "type": "translation_en_ko",
+      "englishSentence": "The government lifted the embargo.",
+      "koreanAnswer": "정부는 금수 조치를 해제했다.",
+      "wordId": "w30"
+    },
+    {
+      "id": "ex113",
+      "type": "translation_en_ko",
+      "englishSentence": "The governor granted clemency.",
+      "koreanAnswer": "주지사는 사면을 승인했다.",
+      "wordId": "w31"
+    },
+    {
+      "id": "ex114",
+      "type": "translation_en_ko",
+      "englishSentence": "The president issued a pardon.",
+      "koreanAnswer": "대통령은 사면을 발표했다.",
+      "wordId": "w32"
+    },
+    {
+      "id": "ex115",
+      "type": "translation_en_ko",
+      "englishSentence": "DNA evidence exonerated him.",
+      "koreanAnswer": "DNA 증거가 그를 무죄로 입증했다.",
+      "wordId": "w33"
+    },
+    {
+      "id": "ex116",
+      "type": "translation_en_ko",
+      "englishSentence": "The House voted on impeachment.",
+      "koreanAnswer": "하원은 탄핵안을 표결했다.",
+      "wordId": "w34"
+    },
+    {
+      "id": "ex117",
+      "type": "translation_en_ko",
+      "englishSentence": "The prime minister announced dissolution of parliament.",
+      "koreanAnswer": "총리는 의회 해산을 발표했다.",
+      "wordId": "w35"
+    },
+    {
+      "id": "ex118",
+      "type": "translation_en_ko",
+      "englishSentence": "Environmental groups are lobbying Congress.",
+      "koreanAnswer": "환경 단체들이 의회에 로비하고 있다.",
+      "wordId": "w38"
+    },
+    {
+      "id": "ex119",
+      "type": "translation_en_ko",
+      "englishSentence": "The US has a bicameral legislature.",
+      "koreanAnswer": "미국은 양원제 의회를 가지고 있다.",
+      "wordId": "w39"
+    },
+    {
+      "id": "ex120",
+      "type": "translation_en_ko",
+      "englishSentence": "The election gave the party a mandate.",
+      "koreanAnswer": "선거는 정당에게 권한을 부여했다.",
+      "wordId": "w40"
+    },
+    {
+      "id": "ex121",
+      "type": "matching",
+      "pairs": [
+        { "term": "jurisdiction", "definition": "관할권, 사법권" },
+        { "term": "precedent", "definition": "선례, 판례" },
+        { "term": "liability", "definition": "법적 책임" },
+        { "term": "statute", "definition": "법령, 제정법" }
+      ],
+      "wordIds": ["w1", "w2", "w3", "w5"]
+    },
+    {
+      "id": "ex122",
+      "type": "matching",
+      "pairs": [
+        { "term": "compliance", "definition": "준수, 이행" },
+        { "term": "arbitration", "definition": "중재" },
+        { "term": "indemnity", "definition": "면책, 보상" },
+        { "term": "litigation", "definition": "소송" }
+      ],
+      "wordIds": ["w6", "w7", "w8", "w9"]
+    },
+    {
+      "id": "ex123",
+      "type": "matching",
+      "pairs": [
+        { "term": "plaintiff", "definition": "원고" },
+        { "term": "defendant", "definition": "피고" },
+        { "term": "tort", "definition": "불법 행위" },
+        { "term": "covenant", "definition": "계약, 서약" }
+      ],
+      "wordIds": ["w11", "w12", "w13", "w14"]
+    },
+    {
+      "id": "ex124",
+      "type": "matching",
+      "pairs": [
+        { "term": "referendum", "definition": "국민투표" },
+        { "term": "ratification", "definition": "비준, 승인" },
+        { "term": "sovereignty", "definition": "주권" },
+        { "term": "amendment", "definition": "수정안" }
+      ],
+      "wordIds": ["w15", "w16", "w17", "w18"]
+    },
+    {
+      "id": "ex125",
+      "type": "matching",
+      "pairs": [
+        { "term": "veto", "definition": "거부권" },
+        { "term": "prosecute", "definition": "기소하다" },
+        { "term": "acquittal", "definition": "무죄 판결" },
+        { "term": "verdict", "definition": "평결, 판결" }
+      ],
+      "wordIds": ["w19", "w21", "w22", "w23"]
+    },
+    {
+      "id": "ex126",
+      "type": "matching",
+      "pairs": [
+        { "term": "testimony", "definition": "증언" },
+        { "term": "subpoena", "definition": "소환장" },
+        { "term": "enact", "definition": "제정하다" },
+        { "term": "repeal", "definition": "폐지하다" }
+      ],
+      "wordIds": ["w24", "w25", "w26", "w27"]
+    },
+    {
+      "id": "ex127",
+      "type": "matching",
+      "pairs": [
+        { "term": "ordinance", "definition": "조례, 법령" },
+        { "term": "sanction", "definition": "제재" },
+        { "term": "embargo", "definition": "금수 조치" },
+        { "term": "clemency", "definition": "관용, 사면" }
+      ],
+      "wordIds": ["w28", "w29", "w30", "w31"]
+    },
+    {
+      "id": "ex128",
+      "type": "matching",
+      "pairs": [
+        { "term": "pardon", "definition": "사면" },
+        { "term": "exonerate", "definition": "무죄를 입증하다" },
+        { "term": "impeachment", "definition": "탄핵" },
+        { "term": "dissolution", "definition": "해산, 해체" }
+      ],
+      "wordIds": ["w32", "w33", "w34", "w35"]
+    },
+    {
+      "id": "ex129",
+      "type": "matching",
+      "pairs": [
+        { "term": "caucus", "definition": "당원 집회" },
+        { "term": "constituency", "definition": "선거구" },
+        { "term": "lobby", "definition": "로비하다" },
+        { "term": "bicameral", "definition": "양원제의" }
+      ],
+      "wordIds": ["w36", "w37", "w38", "w39"]
+    },
+    {
+      "id": "ex130",
+      "type": "matching",
+      "pairs": [
+        { "term": "mandate", "definition": "권한, 명령" },
+        { "term": "decree", "definition": "법령, 포고" },
+        { "term": "provision", "definition": "조항, 규정" },
+        { "term": "rescind", "definition": "폐지하다, 취소하다" }
+      ],
+      "wordIds": ["w40", "w41", "w42", "w43"]
+    },
+    {
+      "id": "ex131",
+      "type": "matching",
+      "pairs": [
+        { "term": "nullify", "definition": "무효화하다" },
+        { "term": "injunction", "definition": "금지 명령" },
+        { "term": "affidavit", "definition": "진술서" },
+        { "term": "probation", "definition": "집행 유예" }
+      ],
+      "wordIds": ["w44", "w45", "w46", "w47"]
+    },
+    {
+      "id": "ex132",
+      "type": "matching",
+      "pairs": [
+        { "term": "extradition", "definition": "범죄인 인도" },
+        { "term": "perjury", "definition": "위증죄" },
+        { "term": "contempt", "definition": "법정 모독죄" },
+        { "term": "adjudication", "definition": "재판, 심판" }
+      ],
+      "wordIds": ["w48", "w49", "w50", "w4"]
+    },
+    {
+      "id": "ex133",
+      "type": "fill_blank",
+      "sentence": "The governor granted _____ to several non-violent offenders.",
+      "correctAnswer": "clemency",
+      "wordId": "w31"
+    },
+    {
+      "id": "ex134",
+      "type": "fill_blank",
+      "sentence": "The president issued a _____ for the convicted official.",
+      "correctAnswer": "pardon",
+      "wordId": "w32"
+    },
+    {
+      "id": "ex135",
+      "type": "fill_blank",
+      "sentence": "New DNA evidence _____ the man who had spent years in prison.",
+      "correctAnswer": "exonerated",
+      "wordId": "w33"
+    },
+    {
+      "id": "ex136",
+      "type": "fill_blank",
+      "sentence": "The House voted on articles of _____ against the president.",
+      "correctAnswer": "impeachment",
+      "wordId": "w34"
+    },
+    {
+      "id": "ex137",
+      "type": "fill_blank",
+      "sentence": "The prime minister announced the _____ of parliament.",
+      "correctAnswer": "dissolution",
+      "wordId": "w35"
+    },
+    {
+      "id": "ex138",
+      "type": "fill_blank",
+      "sentence": "The senator attended the _____ to discuss legislative priorities.",
+      "correctAnswer": "caucus",
+      "wordId": "w36"
+    },
+    {
+      "id": "ex139",
+      "type": "fill_blank",
+      "sentence": "The representative holds town halls to listen to her _____.",
+      "correctAnswer": "constituency",
+      "wordId": "w37"
+    },
+    {
+      "id": "ex140",
+      "type": "fill_blank",
+      "sentence": "Environmental groups are _____ Congress to pass stricter standards.",
+      "correctAnswer": "lobbying",
+      "wordId": "w38"
+    },
+    {
+      "id": "ex141",
+      "type": "fill_blank",
+      "sentence": "The United States has a _____ legislature with the Senate and House.",
+      "correctAnswer": "bicameral",
+      "wordId": "w39"
+    },
+    {
+      "id": "ex142",
+      "type": "fill_blank",
+      "sentence": "The election victory gave the party a _____ to implement reforms.",
+      "correctAnswer": "mandate",
+      "wordId": "w40"
+    },
+    {
+      "id": "ex143",
+      "type": "fill_blank",
+      "sentence": "The king issued a _____ abolishing outdated laws.",
+      "correctAnswer": "decree",
+      "wordId": "w41"
+    },
+    {
+      "id": "ex144",
+      "type": "fill_blank",
+      "sentence": "The contract contains a _____ allowing termination with notice.",
+      "correctAnswer": "provision",
+      "wordId": "w42"
+    },
+    {
+      "id": "ex145",
+      "type": "fill_blank",
+      "sentence": "The board voted to _____ its previous decision.",
+      "correctAnswer": "rescind",
+      "wordId": "w43"
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "sentence": "The appellate court _____ the lower court's ruling.",
+      "correctAnswer": "nullified",
+      "wordId": "w44"
+    },
+    {
+      "id": "ex147",
+      "type": "fill_blank",
+      "sentence": "The judge issued an _____ preventing the building's demolition.",
+      "correctAnswer": "injunction",
+      "wordId": "w45"
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "sentence": "The witness signed an _____ stating what she had observed.",
+      "correctAnswer": "affidavit",
+      "wordId": "w46"
+    },
+    {
+      "id": "ex149",
+      "type": "fill_blank",
+      "sentence": "The judge sentenced him to two years of _____.",
+      "correctAnswer": "probation",
+      "wordId": "w47"
+    },
+    {
+      "id": "ex150",
+      "type": "fill_blank",
+      "sentence": "The country agreed to the _____ request for the fugitive.",
+      "correctAnswer": "extradition",
+      "wordId": "w48"
+    }
+  ]
+}

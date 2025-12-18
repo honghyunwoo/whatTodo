@@ -1,0 +1,108 @@
+{
+  "id": "c2-speaking-week-7",
+  "type": "speaking",
+  "level": "C2",
+  "weekId": "week-7",
+  "title": "Academic Lectures and Scholarly Discourse",
+  "description": "Delivering and engaging with sophisticated academic presentations",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c2-s7-s1",
+      "title": "Lecturing Techniques",
+      "description": "Strategies for effective academic presentation",
+      "techniques": [
+        {
+          "technique": "Problematizing the topic",
+          "description": "Frame your lecture around a puzzle or question",
+          "example": "We might think we know what 'language' means—but the moment we try to define it precisely, the concept proves remarkably elusive. What counts as a language versus a dialect? Where does language end and gesture begin?"
+        },
+        {
+          "technique": "Intellectual signposting",
+          "description": "Orient audience within complex argumentation",
+          "example": "I've argued that position A fails. Now I want to consider whether position B fares better—but spoiler alert: I'll suggest it falls prey to a related difficulty."
+        },
+        {
+          "technique": "Engaging with complexity",
+          "description": "Acknowledge nuance rather than oversimplifying",
+          "example": "The picture I'm painting is inevitably simplified. The reality is that these factors interact in ways we don't fully understand—but this framework gives us a place to start."
+        },
+        {
+          "technique": "Soliciting engagement",
+          "description": "Involve audience in intellectual work",
+          "example": "Before I give you my answer, take a moment to consider: if you were defending this position, how would you respond to the objection I just raised?"
+        }
+      ]
+    },
+    {
+      "id": "c2-s7-s2",
+      "title": "Scholarly Discussion Language",
+      "description": "Phrases for high-level academic exchange",
+      "contexts": [
+        {
+          "context": "Building on others' points",
+          "phrases": [
+            "To elaborate on what Professor X said...",
+            "This connects to an earlier point about...",
+            "If I can bring together the threads of this discussion..."
+          ]
+        },
+        {
+          "context": "Introducing nuance",
+          "phrases": [
+            "I think we need to distinguish between...",
+            "The situation is complicated by the fact that...",
+            "There's a tension here that deserves attention..."
+          ]
+        },
+        {
+          "context": "Respectful disagreement",
+          "phrases": [
+            "I find myself pulling in a different direction...",
+            "I want to push back gently on this characterization...",
+            "While I'm sympathetic to this view, I wonder whether..."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-s7-s3",
+      "title": "Handling Challenging Questions",
+      "description": "Responding to difficult academic queries",
+      "scenarios": [
+        {
+          "type": "Hostile question",
+          "strategy": "Find the legitimate concern and address it",
+          "example": "I hear a real concern in your question about whether this framework excludes important cases. Let me address that directly..."
+        },
+        {
+          "type": "Confused question",
+          "strategy": "Clarify charitably before responding",
+          "example": "If I understand your question, you're asking whether my claim applies to X as well as Y. Let me make sure I'm addressing what you're really after..."
+        },
+        {
+          "type": "Question that exposes a gap",
+          "strategy": "Acknowledge honestly and think aloud",
+          "example": "That's an excellent question and I confess I haven't fully worked out this part. My tentative thought is... but this clearly needs more development."
+        }
+      ]
+    }
+  ],
+  "practiceScenarios": [
+    {
+      "id": "c2-s7-sc1",
+      "title": "Mini-Lecture Opening",
+      "context": "You're beginning a lecture on the philosophy of language.",
+      "task": "Deliver an engaging opening that problematizes the topic and orients your audience.",
+      "sampleResponse": "Consider this sentence: 'The present king of France is bald.' Is it true or false? You might think the answer is straightforward—but philosophers have been debating this since Bertrand Russell raised it over a century ago. The problem is that there is no present king of France. So the sentence can't be true—there's no bald king. But it seems wrong to call it false either—that would suggest there's a non-bald king. And we can't simply say it's meaningless—we understand it perfectly well. This puzzle illuminates something profound about how language connects to reality. Today I want to use it as a window into three competing theories of meaning and reference. By the end, you'll see why philosophers care so much about sentences that seem, at first glance, simply defective."
+    },
+    {
+      "id": "c2-s7-sc2",
+      "title": "Responding to Academic Challenge",
+      "context": "After your presentation on linguistic relativity, a colleague challenges you: 'Isn't this just a warmed-over version of discredited Whorfianism?'",
+      "task": "Respond respectfully while defending your position.",
+      "sampleResponse": "That's a fair provocation, and I want to take it seriously. You're right that the strong Whorfian hypothesis—that language determines thought—has been largely discredited. What I'm defending is more modest. The question isn't whether thought is imprisoned by language, but whether language habituates us to attend to certain distinctions over others. The evidence I've cited—color perception, spatial reasoning, time concepts—suggests these habitual patterns are real and measurable. This isn't language constraining what we can think, but language making certain ways of thinking more cognitively available. I'd argue this is importantly different from Whorf's determinism while still preserving the insight that language matters to cognition. But I'm curious whether you think even this weaker claim goes too far?"
+    }
+  ]
+}

@@ -14,7 +14,44 @@
       "partOfSpeech": "interjection",
       "meaning": "안녕하세요",
       "example": "Hello, how are you?",
-      "exampleMeaning": "안녕하세요, 어떻게 지내세요?"
+      "exampleMeaning": "안녕하세요, 어떻게 지내세요?",
+      "imageUrl": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=400",
+      "audioUrl": "https://forvo.com/word/hello/#en",
+      "koreanPronunciationTip": "두 번째 음절 '-LO'에 강세! '헬로'가 아니라 '헐-로우~'처럼 부드럽게",
+      "koreanCommonMistake": "'헬로'라고 또박또박 발음하면 어색해요. 자연스럽게 흘리듯이 발음하세요.",
+      "etymology": "고대 영어 'hāl'(건강한)에서 유래. 전화기 발명 후 인사말로 정착",
+      "mnemonic": "Hell(지옥) + O = 지옥에서도 인사는 해야죠! 인사는 기본!",
+      "wordFamily": ["hi", "hey", "greet", "greeting"],
+      "collocations": ["say hello", "hello there", "hello everyone"],
+      "synonyms": ["hi", "hey", "greetings", "howdy"],
+      "antonyms": ["goodbye", "bye", "farewell"],
+      "confusableWords": [
+        {
+          "word": "halo",
+          "meaning": "후광, 천사의 고리",
+          "difference": "Hello는 인사, Halo는 머리 위 빛나는 고리"
+        }
+      ],
+      "additionalExamples": [
+        {
+          "sentence": "Hello, this is customer service.",
+          "context": "전화 비즈니스",
+          "register": "formal"
+        },
+        {
+          "sentence": "Oh hello! Fancy seeing you here!",
+          "context": "우연한 만남",
+          "register": "informal"
+        },
+        {
+          "sentence": "Hello and welcome to our show.",
+          "context": "방송/행사",
+          "register": "formal"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w2",
@@ -23,7 +60,39 @@
       "partOfSpeech": "interjection",
       "meaning": "안녕 (비격식)",
       "example": "Hi! Nice to see you.",
-      "exampleMeaning": "안녕! 만나서 반가워."
+      "exampleMeaning": "안녕! 만나서 반가워.",
+      "imageUrl": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400",
+      "audioUrl": "https://forvo.com/word/hi/#en",
+      "koreanPronunciationTip": "'하이'처럼 입을 크게 벌려서 발음. 짧고 밝게!",
+      "koreanCommonMistake": "'히'로 발음하지 마세요. /haɪ/는 '하이'에 가깝습니다.",
+      "etymology": "Hello의 비격식 축약형. 1800년대 미국에서 시작",
+      "mnemonic": "High(높은) 텐션으로 밝게 인사해요!",
+      "wordFamily": ["hello", "hey", "greet"],
+      "collocations": ["hi there", "hi guys", "hi everyone"],
+      "synonyms": ["hello", "hey", "yo"],
+      "antonyms": ["bye", "goodbye"],
+      "confusableWords": [
+        {
+          "word": "high",
+          "meaning": "높은",
+          "difference": "Hi는 인사, High는 '높은'이라는 형용사"
+        }
+      ],
+      "additionalExamples": [
+        {
+          "sentence": "Hi, I'm John. Nice to meet you.",
+          "context": "첫 만남",
+          "register": "informal"
+        },
+        {
+          "sentence": "Hi there! Can I help you?",
+          "context": "가게에서",
+          "register": "informal"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w3",
@@ -32,7 +101,32 @@
       "partOfSpeech": "phrase",
       "meaning": "좋은 아침입니다",
       "example": "Good morning, everyone!",
-      "exampleMeaning": "좋은 아침입니다, 여러분!"
+      "exampleMeaning": "좋은 아침입니다, 여러분!",
+      "imageUrl": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=400",
+      "audioUrl": "https://forvo.com/word/good_morning/#en",
+      "koreanPronunciationTip": "'굿 모-닝' 아니고 '굿모어닝'처럼 연결해서. morning의 r은 약하게!",
+      "koreanCommonMistake": "morning의 'r'을 너무 강하게 발음하지 마세요. 혀를 살짝 말기만 하세요.",
+      "etymology": "Good(좋은) + Morning(아침). 중세 영어에서 시작된 정중한 인사",
+      "mnemonic": "Good(좋은) + Morning(아침) = 아침에 좋은 하루 시작!",
+      "wordFamily": ["good afternoon", "good evening", "good night"],
+      "collocations": ["say good morning", "good morning to you"],
+      "synonyms": ["morning", "good day"],
+      "antonyms": ["good night", "good evening"],
+      "additionalExamples": [
+        {
+          "sentence": "Good morning! Did you sleep well?",
+          "context": "가족/친구",
+          "register": "informal"
+        },
+        {
+          "sentence": "Good morning, Mr. Kim. How can I help you today?",
+          "context": "비즈니스",
+          "register": "formal"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w4",
@@ -41,7 +135,27 @@
       "partOfSpeech": "phrase",
       "meaning": "안녕하세요 (오후)",
       "example": "Good afternoon, how can I help you?",
-      "exampleMeaning": "안녕하세요, 무엇을 도와드릴까요?"
+      "exampleMeaning": "안녕하세요, 무엇을 도와드릴까요?",
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400",
+      "audioUrl": "https://forvo.com/word/good_afternoon/#en",
+      "koreanPronunciationTip": "'굿 애프터눈' - afternoon의 강세는 'noon'에!",
+      "koreanCommonMistake": "'애프터눈'이 아니라 '애프터누운'처럼 길게 발음하세요.",
+      "etymology": "Good + Afternoon(오후). 정오~저녁 사이 인사",
+      "mnemonic": "After(~후에) + Noon(정오) = 점심 먹은 후의 인사!",
+      "wordFamily": ["good morning", "good evening", "good night"],
+      "collocations": ["good afternoon everyone", "good afternoon sir"],
+      "synonyms": ["afternoon"],
+      "antonyms": ["good morning", "good evening"],
+      "additionalExamples": [
+        {
+          "sentence": "Good afternoon. Table for two, please.",
+          "context": "레스토랑",
+          "register": "formal"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 4,
+      "difficulty": 1
     },
     {
       "id": "w5",
@@ -50,16 +164,61 @@
       "partOfSpeech": "phrase",
       "meaning": "안녕하세요 (저녁)",
       "example": "Good evening, welcome to our restaurant.",
-      "exampleMeaning": "안녕하세요, 저희 레스토랑에 오신 것을 환영합니다."
+      "exampleMeaning": "안녕하세요, 저희 레스토랑에 오신 것을 환영합니다.",
+      "imageUrl": "https://images.unsplash.com/photo-1507400492013-162706c8c05e?w=400",
+      "audioUrl": "https://forvo.com/word/good_evening/#en",
+      "koreanPronunciationTip": "'굿 이브닝' - evening의 'v' 발음 주의! 아랫입술을 물고",
+      "koreanCommonMistake": "'이븐닝'이 아니라 '이브닝'. v와 b 발음을 구분하세요.",
+      "etymology": "Good + Evening(저녁). 해질 무렵~밤 사이 인사",
+      "mnemonic": "Even(평평한) 해가 지면 Evening(저녁)!",
+      "wordFamily": ["good morning", "good afternoon", "good night"],
+      "collocations": ["good evening ladies and gentlemen"],
+      "synonyms": ["evening"],
+      "antonyms": ["good morning"],
+      "additionalExamples": [
+        {
+          "sentence": "Good evening. I have a reservation under Kim.",
+          "context": "호텔/레스토랑",
+          "register": "formal"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 4,
+      "difficulty": 1
     },
     {
       "id": "w6",
       "word": "Goodbye",
       "pronunciation": "/ˌɡʊdˈbaɪ/",
       "partOfSpeech": "interjection",
-      "meaning": "안녕히 가세요",
+      "meaning": "안녕히 가세요 / 안녕히 계세요",
       "example": "Goodbye! See you tomorrow.",
-      "exampleMeaning": "안녕히 가세요! 내일 봐요."
+      "exampleMeaning": "안녕히 가세요! 내일 봐요.",
+      "imageUrl": "https://images.unsplash.com/photo-1527236438218-d82077ae1f85?w=400",
+      "audioUrl": "https://forvo.com/word/goodbye/#en",
+      "koreanPronunciationTip": "'굿바이' 아니고 '굴바이'처럼 d가 약하게",
+      "koreanCommonMistake": "Goodbye를 너무 또박또박 발음하면 어색해요. 자연스럽게 '굴바이'",
+      "etymology": "God be with ye(신이 함께 하길)의 축약형",
+      "mnemonic": "Good(좋은) + Bye(안녕) = 좋은 이별 인사!",
+      "wordFamily": ["bye", "farewell", "see you"],
+      "collocations": ["say goodbye", "wave goodbye", "kiss goodbye"],
+      "synonyms": ["bye", "farewell", "see you", "take care"],
+      "antonyms": ["hello", "hi", "welcome"],
+      "additionalExamples": [
+        {
+          "sentence": "Goodbye, it was nice meeting you.",
+          "context": "첫 만남 후 헤어짐",
+          "register": "formal"
+        },
+        {
+          "sentence": "Goodbye! Have a safe trip!",
+          "context": "여행 보내기",
+          "register": "neutral"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w7",
@@ -68,7 +227,39 @@
       "partOfSpeech": "interjection",
       "meaning": "잘 가 (비격식)",
       "example": "Bye! Have a nice day.",
-      "exampleMeaning": "잘 가! 좋은 하루 보내."
+      "exampleMeaning": "잘 가! 좋은 하루 보내.",
+      "imageUrl": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400",
+      "audioUrl": "https://forvo.com/word/bye/#en",
+      "koreanPronunciationTip": "'바이' - 짧고 간결하게!",
+      "koreanCommonMistake": "'빠이'가 아니라 '바이'. 첫 자음이 p가 아니라 b예요.",
+      "etymology": "Goodbye의 축약형",
+      "mnemonic": "Buy(사다)와 발음이 같아요! 물건 사고 Bye!",
+      "wordFamily": ["goodbye", "bye-bye", "see ya"],
+      "collocations": ["bye for now", "bye bye", "bye everyone"],
+      "synonyms": ["goodbye", "see you", "later"],
+      "antonyms": ["hi", "hello"],
+      "confusableWords": [
+        {
+          "word": "buy",
+          "meaning": "사다",
+          "difference": "Bye는 인사, Buy는 '구매하다'"
+        },
+        {
+          "word": "by",
+          "meaning": "~에 의해, ~옆에",
+          "difference": "Bye는 인사, By는 전치사"
+        }
+      ],
+      "additionalExamples": [
+        {
+          "sentence": "Bye! See you later!",
+          "context": "친구와 헤어질 때",
+          "register": "informal"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w8",
@@ -77,7 +268,39 @@
       "partOfSpeech": "phrase",
       "meaning": "감사합니다",
       "example": "Thank you for your help.",
-      "exampleMeaning": "도와주셔서 감사합니다."
+      "exampleMeaning": "도와주셔서 감사합니다.",
+      "imageUrl": "https://images.unsplash.com/photo-1530099486328-e021101a494a?w=400",
+      "audioUrl": "https://forvo.com/word/thank_you/#en",
+      "koreanPronunciationTip": "/θ/ 발음 주의! 혀를 윗니 사이에 살짝 넣고 '땡큐' 아닌 '쌩큐'처럼",
+      "koreanCommonMistake": "'땡큐'가 아닙니다! /θ/는 혀를 이빨 사이에 넣어서 's'와 'th' 사이 소리",
+      "etymology": "고대 영어 'þancian'(생각하다, 감사하다)에서 유래",
+      "mnemonic": "Thank(생각) + You(너) = 네 도움을 생각하며 감사!",
+      "wordFamily": ["thanks", "thankful", "thanksgiving"],
+      "collocations": ["thank you very much", "thank you so much", "thank you for"],
+      "synonyms": ["thanks", "cheers", "much appreciated"],
+      "antonyms": [],
+      "confusableWords": [
+        {
+          "word": "tank",
+          "meaning": "탱크, 물탱크",
+          "difference": "Thank은 /θ/, Tank는 /t/ 발음"
+        }
+      ],
+      "additionalExamples": [
+        {
+          "sentence": "Thank you for coming to our wedding.",
+          "context": "행사",
+          "register": "formal"
+        },
+        {
+          "sentence": "Thank you, that's very kind of you.",
+          "context": "친절에 대한 감사",
+          "register": "formal"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 2
     },
     {
       "id": "w9",
@@ -86,7 +309,32 @@
       "partOfSpeech": "interjection",
       "meaning": "고마워 (비격식)",
       "example": "Thanks a lot!",
-      "exampleMeaning": "정말 고마워!"
+      "exampleMeaning": "정말 고마워!",
+      "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400",
+      "audioUrl": "https://forvo.com/word/thanks/#en",
+      "koreanPronunciationTip": "/θ/+/æ/ 연속! '탱스' 아닌 '쌩크스'처럼 혀를 이빨 사이에",
+      "koreanCommonMistake": "'탱스'가 아니에요. th 발음을 정확히 해주세요.",
+      "etymology": "Thank you의 비격식 축약형",
+      "mnemonic": "Thank(감사) + s = 가볍게 감사!",
+      "wordFamily": ["thank you", "thankful", "thanksgiving"],
+      "collocations": ["thanks a lot", "thanks so much", "many thanks"],
+      "synonyms": ["thank you", "cheers", "ta"],
+      "antonyms": [],
+      "additionalExamples": [
+        {
+          "sentence": "Thanks for the coffee!",
+          "context": "일상",
+          "register": "informal"
+        },
+        {
+          "sentence": "Thanks, I really appreciate it.",
+          "context": "진심 어린 감사",
+          "register": "informal"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 2
     },
     {
       "id": "w10",
@@ -95,16 +343,73 @@
       "partOfSpeech": "adverb",
       "meaning": "제발, ~해 주세요",
       "example": "Please sit down.",
-      "exampleMeaning": "앉아 주세요."
+      "exampleMeaning": "앉아 주세요.",
+      "imageUrl": "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=400",
+      "audioUrl": "https://forvo.com/word/please/#en",
+      "koreanPronunciationTip": "'플리즈' - z 발음에 주의! 's'가 아니라 진동하는 'z'",
+      "koreanCommonMistake": "'플리스'가 아니라 '플리즈'. 끝이 z 발음이에요.",
+      "etymology": "라틴어 'placere'(기쁘게 하다)에서 유래",
+      "mnemonic": "Please(기쁘게) 해주세요! 정중한 요청의 마법 단어",
+      "wordFamily": ["pleased", "pleasant", "pleasure"],
+      "collocations": ["please help", "please come", "please wait"],
+      "synonyms": ["kindly"],
+      "antonyms": [],
+      "additionalExamples": [
+        {
+          "sentence": "Could you please repeat that?",
+          "context": "정중한 요청",
+          "register": "formal"
+        },
+        {
+          "sentence": "Please don't worry about it.",
+          "context": "위로",
+          "register": "neutral"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w11",
       "word": "Sorry",
       "pronunciation": "/ˈsɑːri/",
       "partOfSpeech": "adjective",
-      "meaning": "미안해요",
+      "meaning": "미안해요, 죄송해요",
       "example": "I'm sorry, I don't understand.",
-      "exampleMeaning": "미안해요, 이해하지 못했어요."
+      "exampleMeaning": "미안해요, 이해하지 못했어요.",
+      "imageUrl": "https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?w=400",
+      "audioUrl": "https://forvo.com/word/sorry/#en",
+      "koreanPronunciationTip": "미국: '사-리', 영국: '소-리'. 첫 음절에 강세!",
+      "koreanCommonMistake": "'쏘리'보다는 '사-리'(미국)나 '소-리'(영국)에 가까워요.",
+      "etymology": "고대 영어 'sārig'(슬픈, 괴로운)에서 유래",
+      "mnemonic": "So(그래서) + rry = 그래서 미안해!",
+      "wordFamily": ["sorrow", "sorrowful"],
+      "collocations": ["I'm sorry", "sorry about", "sorry for", "sorry to hear"],
+      "synonyms": ["apologize", "excuse me", "my bad"],
+      "antonyms": [],
+      "confusableWords": [
+        {
+          "word": "sari",
+          "meaning": "사리 (인도 전통 의상)",
+          "difference": "Sorry는 사과, Sari는 의상"
+        }
+      ],
+      "additionalExamples": [
+        {
+          "sentence": "I'm sorry I'm late.",
+          "context": "지각 사과",
+          "register": "neutral"
+        },
+        {
+          "sentence": "Sorry, could you say that again?",
+          "context": "못 들었을 때",
+          "register": "informal"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w12",
@@ -113,7 +418,32 @@
       "partOfSpeech": "phrase",
       "meaning": "실례합니다",
       "example": "Excuse me, where is the bathroom?",
-      "exampleMeaning": "실례합니다, 화장실이 어디에 있나요?"
+      "exampleMeaning": "실례합니다, 화장실이 어디에 있나요?",
+      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400",
+      "audioUrl": "https://forvo.com/word/excuse_me/#en",
+      "koreanPronunciationTip": "'익스큐즈 미' - excuse의 s는 /z/ 소리!",
+      "koreanCommonMistake": "'엑스큐즈'가 아니라 '익스큐즈'. 첫 음절은 '익'이에요.",
+      "etymology": "라틴어 'excusare'(면제하다)에서 유래",
+      "mnemonic": "Ex(밖으로) + cuse(비난) = 비난에서 빠져나가게 해주세요!",
+      "wordFamily": ["excuse", "excusable"],
+      "collocations": ["excuse me for", "if you'll excuse me"],
+      "synonyms": ["pardon me", "sorry"],
+      "antonyms": [],
+      "additionalExamples": [
+        {
+          "sentence": "Excuse me, is this seat taken?",
+          "context": "자리 확인",
+          "register": "formal"
+        },
+        {
+          "sentence": "Excuse me, I need to get through.",
+          "context": "지나가려 할 때",
+          "register": "neutral"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 2
     },
     {
       "id": "w13",
@@ -122,7 +452,32 @@
       "partOfSpeech": "adverb",
       "meaning": "네, 예",
       "example": "Yes, I agree.",
-      "exampleMeaning": "네, 동의합니다."
+      "exampleMeaning": "네, 동의합니다.",
+      "imageUrl": "https://images.unsplash.com/photo-1534367507873-d2d7e24c797f?w=400",
+      "audioUrl": "https://forvo.com/word/yes/#en",
+      "koreanPronunciationTip": "'예스' - 짧고 확실하게!",
+      "koreanCommonMistake": "'이에스'가 아니라 '예스'. y 발음을 확실히!",
+      "etymology": "고대 영어 'gēse'(그래, 그렇다)에서 유래",
+      "mnemonic": "Yes = 예스 = 예!",
+      "wordFamily": ["yeah", "yep", "yup"],
+      "collocations": ["yes please", "yes sir", "yes of course"],
+      "synonyms": ["yeah", "yep", "sure", "okay", "certainly"],
+      "antonyms": ["no", "nope"],
+      "additionalExamples": [
+        {
+          "sentence": "Yes, I would love to come.",
+          "context": "초대 수락",
+          "register": "formal"
+        },
+        {
+          "sentence": "Yes! We won!",
+          "context": "기쁨 표현",
+          "register": "informal"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w14",
@@ -131,7 +486,39 @@
       "partOfSpeech": "adverb",
       "meaning": "아니요",
       "example": "No, thank you.",
-      "exampleMeaning": "아니요, 괜찮습니다."
+      "exampleMeaning": "아니요, 괜찮습니다.",
+      "imageUrl": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=400",
+      "audioUrl": "https://forvo.com/word/no/#en",
+      "koreanPronunciationTip": "'노우' - '오' 소리를 길게!",
+      "koreanCommonMistake": "'노'가 아니라 '노우'. 이중모음 /oʊ/를 살려주세요.",
+      "etymology": "고대 영어 'nā'(아니)에서 유래",
+      "mnemonic": "No = 노 = 아니!",
+      "wordFamily": ["nope", "nah"],
+      "collocations": ["no way", "no problem", "no thank you", "no worries"],
+      "synonyms": ["nope", "nah", "not at all"],
+      "antonyms": ["yes", "yeah"],
+      "confusableWords": [
+        {
+          "word": "know",
+          "meaning": "알다",
+          "difference": "No는 부정, Know는 '알다' (발음 같음!)"
+        }
+      ],
+      "additionalExamples": [
+        {
+          "sentence": "No, I haven't been there before.",
+          "context": "질문에 대한 부정",
+          "register": "neutral"
+        },
+        {
+          "sentence": "No problem!",
+          "context": "괜찮다는 표현",
+          "register": "informal"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w15",
@@ -140,7 +527,27 @@
       "partOfSpeech": "phrase",
       "meaning": "만나서 반갑습니다",
       "example": "Nice to meet you! My name is Sarah.",
-      "exampleMeaning": "만나서 반갑습니다! 제 이름은 Sarah입니다."
+      "exampleMeaning": "만나서 반갑습니다! 제 이름은 Sarah입니다.",
+      "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400",
+      "audioUrl": "https://forvo.com/word/nice_to_meet_you/#en",
+      "koreanPronunciationTip": "'나이스 투 밋츄' - 연결해서 자연스럽게!",
+      "koreanCommonMistake": "'나이스 투 미트 유'처럼 끊어 읽지 마세요. 자연스럽게 연결!",
+      "etymology": "Nice(좋은) + to meet(만나다) + you(당신)",
+      "mnemonic": "나이스(좋은) + 투 밋(만남) + 유(너) = 너 만나서 좋아!",
+      "wordFamily": ["pleased to meet you", "good to meet you"],
+      "collocations": ["nice to meet you too", "it's nice to meet you"],
+      "synonyms": ["pleased to meet you", "good to meet you", "lovely to meet you"],
+      "antonyms": [],
+      "additionalExamples": [
+        {
+          "sentence": "Nice to meet you. I've heard a lot about you.",
+          "context": "소개받은 후",
+          "register": "formal"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w16",
@@ -149,7 +556,27 @@
       "partOfSpeech": "phrase",
       "meaning": "어떻게 지내세요?",
       "example": "How are you today?",
-      "exampleMeaning": "오늘 어떻게 지내세요?"
+      "exampleMeaning": "오늘 어떻게 지내세요?",
+      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400",
+      "audioUrl": "https://forvo.com/word/how_are_you/#en",
+      "koreanPronunciationTip": "'하우 아 유' - are는 약하게 '아'처럼",
+      "koreanCommonMistake": "진짜 안부를 묻는 게 아니라 인사예요! 'Fine, thanks!'라고 답하면 됩니다.",
+      "etymology": "How(어떻게) + are(~이다) + you(당신)",
+      "mnemonic": "How(어떻게) + Are You(너는) = 너는 어떠니?",
+      "wordFamily": ["how's it going", "how are you doing"],
+      "collocations": ["how are you doing", "how are you feeling"],
+      "synonyms": ["how's it going", "what's up", "how do you do"],
+      "antonyms": [],
+      "additionalExamples": [
+        {
+          "sentence": "How are you? Haven't seen you in ages!",
+          "context": "오랜만에 만남",
+          "register": "informal"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w17",
@@ -158,7 +585,39 @@
       "partOfSpeech": "adjective",
       "meaning": "좋아요, 괜찮아요",
       "example": "I'm fine, thank you.",
-      "exampleMeaning": "저는 좋아요, 감사합니다."
+      "exampleMeaning": "저는 좋아요, 감사합니다.",
+      "imageUrl": "https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?w=400",
+      "audioUrl": "https://forvo.com/word/fine/#en",
+      "koreanPronunciationTip": "'파인' - '아이' 발음을 확실히!",
+      "koreanCommonMistake": "'핀'이 아니라 '파인'. /aɪ/ 이중모음이에요.",
+      "etymology": "라틴어 'finis'(끝, 완성)에서 유래 → 완벽한 → 좋은",
+      "mnemonic": "Fine(좋은) wine(와인)처럼 발음!",
+      "wordFamily": ["finely", "fineness"],
+      "collocations": ["I'm fine", "that's fine", "fine with me"],
+      "synonyms": ["good", "okay", "well", "great"],
+      "antonyms": ["bad", "terrible", "awful"],
+      "confusableWords": [
+        {
+          "word": "fine",
+          "meaning": "벌금",
+          "difference": "같은 단어지만 명사로는 '벌금'이라는 뜻도 있어요"
+        }
+      ],
+      "additionalExamples": [
+        {
+          "sentence": "The weather is fine today.",
+          "context": "날씨 표현",
+          "register": "neutral"
+        },
+        {
+          "sentence": "That's fine with me.",
+          "context": "동의 표현",
+          "register": "informal"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w18",
@@ -167,7 +626,32 @@
       "partOfSpeech": "adjective",
       "meaning": "환영하는, 환영합니다",
       "example": "You're welcome!",
-      "exampleMeaning": "천만에요!"
+      "exampleMeaning": "천만에요!",
+      "imageUrl": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=400",
+      "audioUrl": "https://forvo.com/word/welcome/#en",
+      "koreanPronunciationTip": "'웰컴' - 'l' 발음을 살려서!",
+      "koreanCommonMistake": "'웨컴'이 아니라 '웰컴'. l 발음을 잊지 마세요!",
+      "etymology": "고대 영어 'wilcuma'(환영받는 손님)에서 유래",
+      "mnemonic": "Well(잘) + Come(오다) = 잘 왔어요, 환영해요!",
+      "wordFamily": ["welcoming", "unwelcome"],
+      "collocations": ["you're welcome", "welcome home", "welcome to"],
+      "synonyms": ["greetings", "hello"],
+      "antonyms": ["unwelcome"],
+      "additionalExamples": [
+        {
+          "sentence": "Welcome to Korea!",
+          "context": "환영 인사",
+          "register": "formal"
+        },
+        {
+          "sentence": "You're very welcome.",
+          "context": "감사에 대한 답변",
+          "register": "formal"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w19",
@@ -176,7 +660,32 @@
       "partOfSpeech": "noun",
       "meaning": "이름",
       "example": "What is your name?",
-      "exampleMeaning": "당신의 이름은 무엇인가요?"
+      "exampleMeaning": "당신의 이름은 무엇인가요?",
+      "imageUrl": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400",
+      "audioUrl": "https://forvo.com/word/name/#en",
+      "koreanPronunciationTip": "'네임' - '에이' 발음을 길게!",
+      "koreanCommonMistake": "'남'이 아니라 '네임'. /eɪ/ 이중모음이에요.",
+      "etymology": "고대 영어 'nama'에서 유래",
+      "mnemonic": "Name(이름)을 Name tag(이름표)에 적어요!",
+      "wordFamily": ["named", "nameless", "nickname"],
+      "collocations": ["first name", "last name", "full name", "name tag"],
+      "synonyms": ["title", "identity"],
+      "antonyms": [],
+      "additionalExamples": [
+        {
+          "sentence": "My name is John. What's yours?",
+          "context": "자기소개",
+          "register": "neutral"
+        },
+        {
+          "sentence": "Could you spell your name, please?",
+          "context": "이름 확인",
+          "register": "formal"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
     },
     {
       "id": "w20",
@@ -185,124 +694,2366 @@
       "partOfSpeech": "verb",
       "meaning": "돕다, 도움",
       "example": "Can you help me?",
-      "exampleMeaning": "저를 도와주실 수 있나요?"
+      "exampleMeaning": "저를 도와주실 수 있나요?",
+      "imageUrl": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?w=400",
+      "audioUrl": "https://forvo.com/word/help/#en",
+      "koreanPronunciationTip": "'헬프' - p 발음을 확실히!",
+      "koreanCommonMistake": "'헬프'의 p를 생략하지 마세요. 끝까지 발음!",
+      "etymology": "고대 영어 'helpan'(돕다)에서 유래",
+      "mnemonic": "Help! 도와줘! 긴급 상황에 외치는 말!",
+      "wordFamily": ["helpful", "helpless", "helper"],
+      "collocations": ["help me", "help out", "need help", "help yourself"],
+      "synonyms": ["assist", "aid", "support"],
+      "antonyms": ["hinder", "obstruct"],
+      "additionalExamples": [
+        {
+          "sentence": "Help! I need somebody!",
+          "context": "긴급/노래 가사",
+          "register": "informal"
+        },
+        {
+          "sentence": "How can I help you today?",
+          "context": "고객 서비스",
+          "register": "formal"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w21",
+      "word": "Good night",
+      "pronunciation": "/ɡʊd naɪt/",
+      "partOfSpeech": "phrase",
+      "meaning": "안녕히 주무세요, 잘 자요",
+      "example": "Good night! Sleep well.",
+      "exampleMeaning": "잘 자요! 푹 쉬어.",
+      "imageUrl": "https://images.unsplash.com/photo-1507400492013-162706c8c05e?w=400",
+      "audioUrl": "https://forvo.com/word/good_night/#en",
+      "koreanPronunciationTip": "'굿 나잇' - night의 gh는 묵음!",
+      "koreanCommonMistake": "'굿 나이트'가 아니라 '굿 나잇'. gh는 발음하지 않아요.",
+      "etymology": "Good(좋은) + Night(밤). 잠자리에 들 때 하는 인사",
+      "mnemonic": "Night(밤)에 Good(좋은) 꿈 꾸세요!",
+      "wordFamily": ["good morning", "good evening", "goodnight"],
+      "collocations": ["good night sleep", "say good night", "kiss good night"],
+      "synonyms": ["night", "sleep well", "sweet dreams"],
+      "antonyms": ["good morning"],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w22",
+      "word": "See you",
+      "pronunciation": "/siː juː/",
+      "partOfSpeech": "phrase",
+      "meaning": "또 봐, 다음에 봐",
+      "example": "See you tomorrow!",
+      "exampleMeaning": "내일 봐!",
+      "imageUrl": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400",
+      "audioUrl": "https://forvo.com/word/see_you/#en",
+      "koreanPronunciationTip": "'씨 유' - 연결해서 '씨유'처럼 빠르게",
+      "koreanCommonMistake": "너무 또박또박 '씨 유'하지 말고 자연스럽게 연결하세요.",
+      "etymology": "See(보다) + You(너). 다시 만날 것을 기대하는 인사",
+      "mnemonic": "See(보다) + You(너) = 너를 또 볼게!",
+      "wordFamily": ["see you later", "see you soon", "see ya"],
+      "collocations": ["see you later", "see you tomorrow", "see you soon"],
+      "synonyms": ["bye", "goodbye", "later"],
+      "antonyms": ["hello", "hi"],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w23",
+      "word": "Take care",
+      "pronunciation": "/teɪk keər/",
+      "partOfSpeech": "phrase",
+      "meaning": "잘 지내, 조심해",
+      "example": "Take care! See you next week.",
+      "exampleMeaning": "잘 지내! 다음 주에 봐.",
+      "imageUrl": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400",
+      "audioUrl": "https://forvo.com/word/take_care/#en",
+      "koreanPronunciationTip": "'테이크 케어' - care의 r은 약하게",
+      "koreanCommonMistake": "'테이크 캐어'보다는 '테이크 케어'에 가깝게 발음하세요.",
+      "etymology": "Take(취하다) + Care(주의). 스스로를 잘 돌보라는 의미",
+      "mnemonic": "Care(돌봄)를 Take(취해)! 자기 몸 잘 챙겨!",
+      "wordFamily": ["careful", "careless", "caring"],
+      "collocations": ["take care of yourself", "take good care"],
+      "synonyms": ["goodbye", "be careful", "look after yourself"],
+      "antonyms": [],
+      "cefrLevel": "A1",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w24",
+      "word": "Have a nice day",
+      "pronunciation": "/hæv ə naɪs deɪ/",
+      "partOfSpeech": "phrase",
+      "meaning": "좋은 하루 보내세요",
+      "example": "Thank you! Have a nice day!",
+      "exampleMeaning": "감사합니다! 좋은 하루 보내세요!",
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400",
+      "audioUrl": "https://forvo.com/word/have_a_nice_day/#en",
+      "koreanPronunciationTip": "'해브 어 나이스 데이' - 빠르게 연결해서 '해버나이스데이'",
+      "koreanCommonMistake": "미국에서 상점 직원이 자주 쓰는 인사예요. 'You too!'라고 답하면 됩니다.",
+      "etymology": "Have(가지다) + a nice day(좋은 하루)",
+      "mnemonic": "Nice(좋은) Day(하루)를 Have(가져)!",
+      "wordFamily": ["have a good day", "have a great day"],
+      "collocations": ["have a nice day too", "have a wonderful day"],
+      "synonyms": ["have a good day", "have a great day"],
+      "antonyms": [],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w25",
+      "word": "What's up",
+      "pronunciation": "/wɒts ʌp/",
+      "partOfSpeech": "phrase",
+      "meaning": "뭐해?, 안녕 (비격식)",
+      "example": "Hey! What's up?",
+      "exampleMeaning": "야! 뭐해?",
+      "imageUrl": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=400",
+      "audioUrl": "https://forvo.com/word/what's_up/#en",
+      "koreanPronunciationTip": "'왓츠 업' - 연결해서 '왓썹'처럼",
+      "koreanCommonMistake": "진짜 질문이 아니라 인사예요! 'Nothing much'나 'Not much'로 답해요.",
+      "etymology": "What is up의 축약. 무슨 일이 있냐는 의미에서 인사로 발전",
+      "mnemonic": "What's(뭐가) Up(위에)? = 뭐 좀 있어?",
+      "wordFamily": ["sup", "wassup"],
+      "collocations": ["what's up with you", "what's up man"],
+      "synonyms": ["how's it going", "what's going on", "hey"],
+      "antonyms": [],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w26",
+      "word": "Long time no see",
+      "pronunciation": "/lɒŋ taɪm noʊ siː/",
+      "partOfSpeech": "phrase",
+      "meaning": "오랜만이야",
+      "example": "Long time no see! How have you been?",
+      "exampleMeaning": "오랜만이야! 어떻게 지냈어?",
+      "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400",
+      "audioUrl": "https://forvo.com/word/long_time_no_see/#en",
+      "koreanPronunciationTip": "'롱 타임 노 씨' - 각 단어 또박또박",
+      "koreanCommonMistake": "사실 영어 문법에 맞지 않는 표현이지만 널리 쓰여요!",
+      "etymology": "중국어 pidgin에서 유래. 문법적으로 맞진 않지만 관용구로 정착",
+      "mnemonic": "Long(긴) Time(시간) No(없이) See(봄) = 오래 못 봤네!",
+      "wordFamily": ["it's been a while", "ages ago"],
+      "collocations": ["long time no see friend"],
+      "synonyms": ["it's been a while", "it's been ages"],
+      "antonyms": [],
+      "cefrLevel": "A1",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w27",
+      "word": "Nice to see you",
+      "pronunciation": "/naɪs tə siː juː/",
+      "partOfSpeech": "phrase",
+      "meaning": "만나서 반가워 (다시 만났을 때)",
+      "example": "Nice to see you again!",
+      "exampleMeaning": "다시 만나서 반가워!",
+      "imageUrl": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400",
+      "audioUrl": "https://forvo.com/word/nice_to_see_you/#en",
+      "koreanPronunciationTip": "'나이스 투 씨 유' - meet가 아니라 see!",
+      "koreanCommonMistake": "'Nice to meet you'는 처음 만남, 'Nice to see you'는 다시 만남!",
+      "etymology": "Nice(좋은) + to see(보다) + you(너). 재회의 인사",
+      "mnemonic": "See(보다)는 다시 만남! Meet(만나다)은 처음!",
+      "wordFamily": ["nice to meet you", "good to see you"],
+      "collocations": ["nice to see you again", "nice to see you too"],
+      "synonyms": ["good to see you", "great to see you"],
+      "antonyms": [],
+      "confusableWords": [
+        {
+          "word": "nice to meet you",
+          "meaning": "만나서 반가워요 (처음)",
+          "difference": "meet은 처음 만남, see는 다시 만남"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w28",
+      "word": "How's it going",
+      "pronunciation": "/haʊz ɪt ˈɡoʊɪŋ/",
+      "partOfSpeech": "phrase",
+      "meaning": "어떻게 지내? (비격식)",
+      "example": "Hey! How's it going?",
+      "exampleMeaning": "야! 어떻게 지내?",
+      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400",
+      "audioUrl": "https://forvo.com/word/how's_it_going/#en",
+      "koreanPronunciationTip": "'하우즈 잇 고잉' - 빠르게 '하우짓고잉'",
+      "koreanCommonMistake": "'How are you'보다 더 캐주얼한 표현이에요.",
+      "etymology": "How is it going의 축약. 일이 어떻게 진행되냐는 의미",
+      "mnemonic": "It(그것이) Going(가고 있다) How(어떻게)? = 일이 어때?",
+      "wordFamily": ["how are you", "what's up"],
+      "collocations": ["how's it going with you"],
+      "synonyms": ["how are you", "what's up", "how are things"],
+      "antonyms": [],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w29",
+      "word": "Pardon",
+      "pronunciation": "/ˈpɑːrdən/",
+      "partOfSpeech": "interjection",
+      "meaning": "뭐라고요?, 실례합니다",
+      "example": "Pardon? I didn't hear you.",
+      "exampleMeaning": "뭐라고요? 못 들었어요.",
+      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400",
+      "audioUrl": "https://forvo.com/word/pardon/#en",
+      "koreanPronunciationTip": "'파든' - 영국식은 '파:든', 미국식은 '파아든'",
+      "koreanCommonMistake": "영국에서 더 자주 쓰여요. 미국은 'Excuse me?'나 'Sorry?'를 더 써요.",
+      "etymology": "라틴어 'perdonare'(용서하다)에서 유래",
+      "mnemonic": "Pardon(용서) = 못 들어서 미안, 다시 말해줘!",
+      "wordFamily": ["pardon me", "I beg your pardon"],
+      "collocations": ["I beg your pardon", "pardon me"],
+      "synonyms": ["excuse me", "sorry", "what"],
+      "antonyms": [],
+      "cefrLevel": "A1",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w30",
+      "word": "Cheers",
+      "pronunciation": "/tʃɪərz/",
+      "partOfSpeech": "interjection",
+      "meaning": "건배!, 고마워 (영국식)",
+      "example": "Cheers! Thanks for your help.",
+      "exampleMeaning": "고마워! 도와줘서 감사해.",
+      "imageUrl": "https://images.unsplash.com/photo-1528823872057-9c018a7a7553?w=400",
+      "audioUrl": "https://forvo.com/word/cheers/#en",
+      "koreanPronunciationTip": "'치어즈' - 밝고 경쾌하게!",
+      "koreanCommonMistake": "영국에서는 'Thanks'처럼 가볍게 감사를 표현할 때도 써요.",
+      "etymology": "고대 프랑스어 'chiere'(얼굴, 기분)에서 유래",
+      "mnemonic": "Cheer(응원) + s = 건배하며 응원!",
+      "wordFamily": ["cheerful", "cheer up"],
+      "collocations": ["cheers mate", "cheers everyone"],
+      "synonyms": ["thanks", "thank you", "bottoms up"],
+      "antonyms": [],
+      "cefrLevel": "A1",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w31",
+      "word": "Happy",
+      "pronunciation": "/ˈhæpi/",
+      "partOfSpeech": "adjective",
+      "meaning": "행복한, 기쁜",
+      "example": "I'm happy to meet you.",
+      "exampleMeaning": "만나서 기뻐요.",
+      "imageUrl": "https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?w=400",
+      "audioUrl": "https://forvo.com/word/happy/#en",
+      "koreanPronunciationTip": "'해피' - 첫 음절에 강세! '해-피'",
+      "koreanCommonMistake": "'해피'의 a는 /æ/ 발음. 입을 크게 벌려요.",
+      "etymology": "중세 영어 'hap'(행운)에서 유래",
+      "mnemonic": "Happy(행복) = 해피! 생일 축하 노래에서 익숙!",
+      "wordFamily": ["happiness", "happily", "unhappy"],
+      "collocations": ["happy birthday", "happy new year", "I'm happy"],
+      "synonyms": ["glad", "pleased", "joyful", "cheerful"],
+      "antonyms": ["sad", "unhappy", "upset"],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w32",
+      "word": "Sad",
+      "pronunciation": "/sæd/",
+      "partOfSpeech": "adjective",
+      "meaning": "슬픈",
+      "example": "I feel sad today.",
+      "exampleMeaning": "오늘 슬퍼요.",
+      "imageUrl": "https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?w=400",
+      "audioUrl": "https://forvo.com/word/sad/#en",
+      "koreanPronunciationTip": "'쌔드' - /æ/ 발음에 주의!",
+      "koreanCommonMistake": "'새드'가 아니라 '쌔드'. 입을 크게 벌려 /æ/ 발음",
+      "etymology": "고대 영어 'sæd'(충분한, 만족한)에서 의미 변화",
+      "mnemonic": "Sad = 새드 = 슬퍼서 새됨 (기운 빠짐)",
+      "wordFamily": ["sadness", "sadly", "saddening"],
+      "collocations": ["feel sad", "look sad", "so sad"],
+      "synonyms": ["unhappy", "upset", "down", "blue"],
+      "antonyms": ["happy", "glad", "cheerful"],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w33",
+      "word": "Tired",
+      "pronunciation": "/ˈtaɪərd/",
+      "partOfSpeech": "adjective",
+      "meaning": "피곤한",
+      "example": "I'm very tired.",
+      "exampleMeaning": "저는 매우 피곤해요.",
+      "imageUrl": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=400",
+      "audioUrl": "https://forvo.com/word/tired/#en",
+      "koreanPronunciationTip": "'타이어드' - tire(타이어)와 발음이 비슷해요",
+      "koreanCommonMistake": "1음절처럼 '타이드'가 아니라 '타이-어드' 2음절로!",
+      "etymology": "고대 영어 'tēorian'(지치게 하다)에서 유래",
+      "mnemonic": "Tire(타이어)가 펑크 나면 Tired(피곤)해!",
+      "wordFamily": ["tire", "tiredness", "tiring"],
+      "collocations": ["feel tired", "look tired", "so tired"],
+      "synonyms": ["exhausted", "sleepy", "worn out"],
+      "antonyms": ["energetic", "awake", "refreshed"],
+      "confusableWords": [
+        {
+          "word": "tire",
+          "meaning": "타이어, 지치게 하다",
+          "difference": "Tired는 형용사(피곤한), Tire는 명사/동사"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w34",
+      "word": "Hungry",
+      "pronunciation": "/ˈhʌŋɡri/",
+      "partOfSpeech": "adjective",
+      "meaning": "배고픈",
+      "example": "I'm hungry. Let's eat!",
+      "exampleMeaning": "배고파요. 먹어요!",
+      "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400",
+      "audioUrl": "https://forvo.com/word/hungry/#en",
+      "koreanPronunciationTip": "'헝그리' - '헝'에 강세!",
+      "koreanCommonMistake": "'항그리'가 아니라 '헝그리'. /ʌ/는 '어'와 '아' 사이",
+      "etymology": "고대 영어 'hungor'(굶주림)에서 유래",
+      "mnemonic": "Hungry(배고프다) = 헝그리 정신! 도전적인 마음!",
+      "wordFamily": ["hunger", "hungrily"],
+      "collocations": ["feel hungry", "get hungry", "so hungry"],
+      "synonyms": ["starving", "famished"],
+      "antonyms": ["full", "satisfied"],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w35",
+      "word": "Thirsty",
+      "pronunciation": "/ˈθɜːrsti/",
+      "partOfSpeech": "adjective",
+      "meaning": "목마른",
+      "example": "I'm thirsty. Can I have some water?",
+      "exampleMeaning": "목말라요. 물 좀 마실 수 있을까요?",
+      "imageUrl": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400",
+      "audioUrl": "https://forvo.com/word/thirsty/#en",
+      "koreanPronunciationTip": "'써스티' - /θ/ 발음! 혀를 이빨 사이에",
+      "koreanCommonMistake": "'떠스티'가 아니라 '써스티'. th 발음 연습!",
+      "etymology": "고대 영어 'þurstig'에서 유래",
+      "mnemonic": "Thirsty = 서스티 = 서(목)가 스티(마르다)",
+      "wordFamily": ["thirst", "thirstily"],
+      "collocations": ["feel thirsty", "get thirsty"],
+      "synonyms": ["parched", "dry"],
+      "antonyms": [],
+      "cefrLevel": "A1",
+      "frequency": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "w36",
+      "word": "Hot",
+      "pronunciation": "/hɒt/",
+      "partOfSpeech": "adjective",
+      "meaning": "더운, 뜨거운",
+      "example": "It's hot today.",
+      "exampleMeaning": "오늘 더워요.",
+      "imageUrl": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=400",
+      "audioUrl": "https://forvo.com/word/hot/#en",
+      "koreanPronunciationTip": "'핫' - 짧고 강하게!",
+      "koreanCommonMistake": "'핫'처럼 짧게. '호트'라고 길게 발음하지 마세요.",
+      "etymology": "고대 영어 'hāt'에서 유래",
+      "mnemonic": "Hot(뜨거운) dog(핫도그)!",
+      "wordFamily": ["heat", "hotly", "hotter"],
+      "collocations": ["hot weather", "hot water", "too hot"],
+      "synonyms": ["warm", "boiling", "burning"],
+      "antonyms": ["cold", "cool", "freezing"],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w37",
+      "word": "Cold",
+      "pronunciation": "/koʊld/",
+      "partOfSpeech": "adjective",
+      "meaning": "추운, 차가운",
+      "example": "It's cold outside.",
+      "exampleMeaning": "밖이 추워요.",
+      "imageUrl": "https://images.unsplash.com/photo-1483664852095-d6cc6870702d?w=400",
+      "audioUrl": "https://forvo.com/word/cold/#en",
+      "koreanPronunciationTip": "'콜드' - '오우' 이중모음!",
+      "koreanCommonMistake": "'콜드'가 아니라 '코울드'. /oʊ/ 이중모음이에요.",
+      "etymology": "고대 영어 'cald'에서 유래",
+      "mnemonic": "Cold(추운) = 콜드 = 코(감기) 걸려요!",
+      "wordFamily": ["coldness", "coldly", "colder"],
+      "collocations": ["cold weather", "cold water", "catch a cold"],
+      "synonyms": ["cool", "chilly", "freezing"],
+      "antonyms": ["hot", "warm"],
+      "confusableWords": [
+        {
+          "word": "a cold",
+          "meaning": "감기",
+          "difference": "형용사로는 '추운', 명사로는 '감기'"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w38",
+      "word": "Good",
+      "pronunciation": "/ɡʊd/",
+      "partOfSpeech": "adjective",
+      "meaning": "좋은",
+      "example": "That's good!",
+      "exampleMeaning": "그거 좋네요!",
+      "imageUrl": "https://images.unsplash.com/photo-1534367507873-d2d7e24c797f?w=400",
+      "audioUrl": "https://forvo.com/word/good/#en",
+      "koreanPronunciationTip": "'굿' - '우' 소리가 짧게!",
+      "koreanCommonMistake": "'구드'가 아니라 '굿'. 끝의 d를 가볍게!",
+      "etymology": "고대 영어 'gōd'에서 유래",
+      "mnemonic": "Good(좋은) = 굿! 엄지 척!",
+      "wordFamily": ["goodness", "goods", "better", "best"],
+      "collocations": ["good job", "good idea", "good morning"],
+      "synonyms": ["great", "nice", "fine", "excellent"],
+      "antonyms": ["bad", "poor", "terrible"],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w39",
+      "word": "Bad",
+      "pronunciation": "/bæd/",
+      "partOfSpeech": "adjective",
+      "meaning": "나쁜",
+      "example": "That's too bad.",
+      "exampleMeaning": "그거 안됐네요.",
+      "imageUrl": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=400",
+      "audioUrl": "https://forvo.com/word/bad/#en",
+      "koreanPronunciationTip": "'배드' - /æ/ 발음! 입 크게!",
+      "koreanCommonMistake": "'베드'(침대)가 아니라 '배드'. /æ/를 정확히!",
+      "etymology": "고대 영어에서 유래",
+      "mnemonic": "Bad(나쁜) = 배드민턴의 배드!",
+      "wordFamily": ["badly", "badness", "worse", "worst"],
+      "collocations": ["bad news", "too bad", "not bad"],
+      "synonyms": ["poor", "terrible", "awful"],
+      "antonyms": ["good", "great", "excellent"],
+      "confusableWords": [
+        {
+          "word": "bed",
+          "meaning": "침대",
+          "difference": "Bad은 /æ/(배드), Bed는 /e/(베드)"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w40",
+      "word": "OK / Okay",
+      "pronunciation": "/ˌoʊˈkeɪ/",
+      "partOfSpeech": "adjective",
+      "meaning": "괜찮은, 좋아",
+      "example": "Are you okay?",
+      "exampleMeaning": "괜찮아요?",
+      "imageUrl": "https://images.unsplash.com/photo-1534367507873-d2d7e24c797f?w=400",
+      "audioUrl": "https://forvo.com/word/okay/#en",
+      "koreanPronunciationTip": "'오케이' - 두 음절 모두 강하게!",
+      "koreanCommonMistake": "'오게이'가 아니라 '오케이'. k 발음을 확실히!",
+      "etymology": "여러 설이 있음. 'oll korrect'(all correct의 재미있는 철자)에서 유래",
+      "mnemonic": "OK = 오케이 = 손가락 동그라미!",
+      "wordFamily": ["alright", "fine"],
+      "collocations": ["that's okay", "I'm okay", "is that okay"],
+      "synonyms": ["fine", "alright", "good"],
+      "antonyms": ["not okay", "bad"],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w41",
+      "word": "What",
+      "pronunciation": "/wɒt/",
+      "partOfSpeech": "pronoun",
+      "meaning": "무엇, 뭐",
+      "example": "What is this?",
+      "exampleMeaning": "이것은 무엇인가요?",
+      "imageUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400",
+      "audioUrl": "https://forvo.com/word/what/#en",
+      "koreanPronunciationTip": "'왓' - wh는 /w/ 소리!",
+      "koreanCommonMistake": "'훗'이 아니라 '왓'. wh의 h는 묵음이에요.",
+      "etymology": "고대 영어 'hwæt'에서 유래",
+      "mnemonic": "What = 왓 = 뭣이? 뭐?",
+      "wordFamily": ["whatever", "what's"],
+      "collocations": ["what time", "what day", "what color"],
+      "synonyms": ["which", "that"],
+      "antonyms": [],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w42",
+      "word": "Where",
+      "pronunciation": "/weər/",
+      "partOfSpeech": "adverb",
+      "meaning": "어디",
+      "example": "Where are you from?",
+      "exampleMeaning": "어디에서 오셨어요?",
+      "imageUrl": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=400",
+      "audioUrl": "https://forvo.com/word/where/#en",
+      "koreanPronunciationTip": "'웨어' - wear(입다)와 발음 같아요!",
+      "koreanCommonMistake": "'휘어'가 아니라 '웨어'. wh는 /w/ 발음!",
+      "etymology": "고대 영어 'hwǣr'에서 유래",
+      "mnemonic": "Where = 웨어 = 어디에?",
+      "wordFamily": ["wherever", "somewhere", "anywhere"],
+      "collocations": ["where is", "where are", "where do"],
+      "synonyms": [],
+      "antonyms": [],
+      "confusableWords": [
+        {
+          "word": "wear",
+          "meaning": "입다",
+          "difference": "Where는 '어디', Wear는 '입다' (발음 같음!)"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w43",
+      "word": "When",
+      "pronunciation": "/wen/",
+      "partOfSpeech": "adverb",
+      "meaning": "언제",
+      "example": "When is your birthday?",
+      "exampleMeaning": "생일이 언제예요?",
+      "imageUrl": "https://images.unsplash.com/photo-1501139083538-0139583c060f?w=400",
+      "audioUrl": "https://forvo.com/word/when/#en",
+      "koreanPronunciationTip": "'웬' - 짧게!",
+      "koreanCommonMistake": "'휀'이 아니라 '웬'. wh는 /w/!",
+      "etymology": "고대 영어 'hwænne'에서 유래",
+      "mnemonic": "When = 웬 = 웬일이야? 언제?",
+      "wordFamily": ["whenever"],
+      "collocations": ["when is", "when are", "when do"],
+      "synonyms": [],
+      "antonyms": [],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w44",
+      "word": "Who",
+      "pronunciation": "/huː/",
+      "partOfSpeech": "pronoun",
+      "meaning": "누구",
+      "example": "Who is she?",
+      "exampleMeaning": "그녀는 누구예요?",
+      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400",
+      "audioUrl": "https://forvo.com/word/who/#en",
+      "koreanPronunciationTip": "'후' - w는 묵음! h만 발음!",
+      "koreanCommonMistake": "'우'가 아니라 '후'. h 소리가 있어요!",
+      "etymology": "고대 영어 'hwā'에서 유래",
+      "mnemonic": "Who = 후 = 후가 누구?",
+      "wordFamily": ["whoever", "whom", "whose"],
+      "collocations": ["who is", "who are", "who's that"],
+      "synonyms": [],
+      "antonyms": [],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w45",
+      "word": "Why",
+      "pronunciation": "/waɪ/",
+      "partOfSpeech": "adverb",
+      "meaning": "왜",
+      "example": "Why are you here?",
+      "exampleMeaning": "왜 여기 있어요?",
+      "imageUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400",
+      "audioUrl": "https://forvo.com/word/why/#en",
+      "koreanPronunciationTip": "'와이' - /aɪ/ 이중모음!",
+      "koreanCommonMistake": "'휘'가 아니라 '와이'. wh는 /w/!",
+      "etymology": "고대 영어 'hwȳ'에서 유래",
+      "mnemonic": "Why = 와이 = 와이? 왜?",
+      "wordFamily": [],
+      "collocations": ["why not", "why do", "why is"],
+      "synonyms": [],
+      "antonyms": [],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w46",
+      "word": "How",
+      "pronunciation": "/haʊ/",
+      "partOfSpeech": "adverb",
+      "meaning": "어떻게",
+      "example": "How do you do?",
+      "exampleMeaning": "처음 뵙겠습니다.",
+      "imageUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400",
+      "audioUrl": "https://forvo.com/word/how/#en",
+      "koreanPronunciationTip": "'하우' - /aʊ/ 이중모음!",
+      "koreanCommonMistake": "'호우'가 아니라 '하우'. 입을 크게 벌려서 시작!",
+      "etymology": "고대 영어 'hū'에서 유래",
+      "mnemonic": "How = 하우 = 하우(어떻게)?",
+      "wordFamily": ["however", "somehow"],
+      "collocations": ["how much", "how many", "how old"],
+      "synonyms": [],
+      "antonyms": [],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w47",
+      "word": "This",
+      "pronunciation": "/ðɪs/",
+      "partOfSpeech": "pronoun",
+      "meaning": "이것, 이",
+      "example": "This is my book.",
+      "exampleMeaning": "이것은 내 책이에요.",
+      "imageUrl": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400",
+      "audioUrl": "https://forvo.com/word/this/#en",
+      "koreanPronunciationTip": "'디스' - /ð/ 발음! 혀를 이빨 사이에!",
+      "koreanCommonMistake": "'디스'가 아니라 혀를 이빨 사이에 넣고 '디스'",
+      "etymology": "고대 영어 'þis'에서 유래",
+      "mnemonic": "This = 디스 = 이 디스플레이!",
+      "wordFamily": ["these"],
+      "collocations": ["this is", "this one", "like this"],
+      "synonyms": [],
+      "antonyms": ["that"],
+      "confusableWords": [
+        {
+          "word": "these",
+          "meaning": "이것들 (복수)",
+          "difference": "This는 단수, These는 복수"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 2
+    },
+    {
+      "id": "w48",
+      "word": "That",
+      "pronunciation": "/ðæt/",
+      "partOfSpeech": "pronoun",
+      "meaning": "저것, 저",
+      "example": "That is nice.",
+      "exampleMeaning": "저거 좋네요.",
+      "imageUrl": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400",
+      "audioUrl": "https://forvo.com/word/that/#en",
+      "koreanPronunciationTip": "'댓' - /ð/+/æ/! 혀 이빨 사이 + 입 크게",
+      "koreanCommonMistake": "/ð/ 발음을 /d/로 하지 마세요. 혀를 이빨 사이에!",
+      "etymology": "고대 영어 'þæt'에서 유래",
+      "mnemonic": "That = 댓 = 저거 댓글!",
+      "wordFamily": ["those"],
+      "collocations": ["that is", "that one", "like that"],
+      "synonyms": [],
+      "antonyms": ["this"],
+      "confusableWords": [
+        {
+          "word": "those",
+          "meaning": "저것들 (복수)",
+          "difference": "That은 단수, Those는 복수"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 2
+    },
+    {
+      "id": "w49",
+      "word": "I",
+      "pronunciation": "/aɪ/",
+      "partOfSpeech": "pronoun",
+      "meaning": "나, 저",
+      "example": "I am a student.",
+      "exampleMeaning": "저는 학생이에요.",
+      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400",
+      "audioUrl": "https://forvo.com/word/i/#en",
+      "koreanPronunciationTip": "'아이' - 항상 대문자!",
+      "koreanCommonMistake": "'아이'예요. 문장 어디서든 항상 대문자 I!",
+      "etymology": "고대 영어 'ic'에서 유래",
+      "mnemonic": "I = 아이 = 나!",
+      "wordFamily": ["me", "my", "mine"],
+      "collocations": ["I am", "I have", "I like"],
+      "synonyms": [],
+      "antonyms": ["you"],
+      "confusableWords": [
+        {
+          "word": "eye",
+          "meaning": "눈",
+          "difference": "I는 '나', Eye는 '눈' (발음 같음!)"
+        }
+      ],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w50",
+      "word": "You",
+      "pronunciation": "/juː/",
+      "partOfSpeech": "pronoun",
+      "meaning": "너, 당신",
+      "example": "You are my friend.",
+      "exampleMeaning": "너는 내 친구야.",
+      "imageUrl": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400",
+      "audioUrl": "https://forvo.com/word/you/#en",
+      "koreanPronunciationTip": "'유' - 단순하게!",
+      "koreanCommonMistake": "영어는 '너'와 '당신' 구분 없이 다 You!",
+      "etymology": "고대 영어 'ēow'에서 유래",
+      "mnemonic": "You = 유 = 너!",
+      "wordFamily": ["your", "yours", "yourself"],
+      "collocations": ["you are", "you have", "thank you"],
+      "synonyms": [],
+      "antonyms": ["I", "me"],
+      "cefrLevel": "A1",
+      "frequency": 5,
+      "difficulty": 1
     }
   ],
 
   "exercises": [
     {
-      "id": "ex1",
+      "id": "ex001",
       "type": "multiple_choice",
+      "difficulty": "easy",
       "question": "What does 'Hello' mean in Korean?",
       "options": ["안녕하세요", "감사합니다", "미안합니다", "잘 가세요"],
       "answer": "안녕하세요",
-      "explanation": "'Hello'는 사람을 만났을 때 하는 인사말로 '안녕하세요'라는 뜻입니다."
+      "explanation": "'Hello'는 사람을 만났을 때 하는 인사말로 '안녕하세요'라는 뜻입니다.",
+      "relatedWordIds": ["w1"]
     },
     {
-      "id": "ex2",
+      "id": "ex002",
       "type": "multiple_choice",
+      "difficulty": "easy",
       "question": "Which word means '감사합니다'?",
       "options": ["Please", "Thank you", "Sorry", "Welcome"],
       "answer": "Thank you",
-      "explanation": "'Thank you'는 누군가에게 고마움을 표현할 때 사용하는 표현입니다."
+      "explanation": "'Thank you'는 누군가에게 고마움을 표현할 때 사용하는 표현입니다.",
+      "relatedWordIds": ["w6"]
     },
     {
-      "id": "ex3",
-      "type": "fill_blank",
-      "question": "_____, how are you? (안녕하세요를 넣으세요)",
-      "answer": ["Hello", "Hi"],
-      "explanation": "인사말로 'Hello' 또는 'Hi'를 사용할 수 있습니다."
-    },
-    {
-      "id": "ex4",
-      "type": "fill_blank",
-      "question": "_____ you for your help. (감사합니다를 넣으세요)",
-      "answer": ["Thank"],
-      "explanation": "'Thank you'는 '감사합니다'라는 뜻입니다."
-    },
-    {
-      "id": "ex5",
+      "id": "ex003",
       "type": "multiple_choice",
+      "difficulty": "easy",
       "question": "What is the correct response to 'Thank you'?",
       "options": ["You're welcome", "I'm sorry", "Goodbye", "Hello"],
       "answer": "You're welcome",
-      "explanation": "'Thank you'에 대한 답변으로 'You're welcome(천만에요)'을 사용합니다."
+      "explanation": "'Thank you'에 대한 답변으로 'You're welcome(천만에요)'을 사용합니다.",
+      "relatedWordIds": ["w6", "w11"]
     },
     {
-      "id": "ex6",
+      "id": "ex004",
       "type": "multiple_choice",
+      "difficulty": "easy",
       "question": "When do you say 'Good morning'?",
       "options": ["In the morning", "In the afternoon", "In the evening", "At night"],
       "answer": "In the morning",
-      "explanation": "'Good morning'은 아침에 하는 인사입니다."
+      "explanation": "'Good morning'은 아침에 하는 인사입니다.",
+      "relatedWordIds": ["w3"]
     },
     {
-      "id": "ex7",
-      "type": "fill_blank",
-      "question": "I'm _____, I don't understand. (미안해요를 넣으세요)",
-      "answer": ["sorry"],
-      "explanation": "'I'm sorry'는 사과하거나 유감을 표현할 때 사용합니다."
-    },
-    {
-      "id": "ex8",
+      "id": "ex005",
       "type": "multiple_choice",
+      "difficulty": "easy",
       "question": "Which word is used when leaving?",
       "options": ["Goodbye", "Hello", "Please", "Thank you"],
       "answer": "Goodbye",
-      "explanation": "'Goodbye'는 작별 인사로 '안녕히 가세요'라는 뜻입니다."
+      "explanation": "'Goodbye'는 작별 인사로 '안녕히 가세요'라는 뜻입니다.",
+      "relatedWordIds": ["w9"]
     },
     {
-      "id": "ex9",
-      "type": "matching",
-      "question": "Match the English with Korean:",
-      "options": ["Hello", "Thank you", "Sorry", "Goodbye"],
-      "answer": ["안녕하세요", "감사합니다", "미안해요", "안녕히 가세요"],
-      "explanation": "각 영어 표현과 한국어 의미를 연결합니다."
-    },
-    {
-      "id": "ex10",
-      "type": "fill_blank",
-      "question": "Nice to _____ you! (만나다를 넣으세요)",
-      "answer": ["meet"],
-      "explanation": "'Nice to meet you'는 '만나서 반갑습니다'라는 표현입니다."
-    },
-    {
-      "id": "ex11",
+      "id": "ex006",
       "type": "multiple_choice",
+      "difficulty": "easy",
       "question": "What is a polite way to get someone's attention?",
-      "options": ["Excuse me", "Hey", "Hello", "Goodbye"],
+      "options": ["Excuse me", "Hey", "What", "Go away"],
       "answer": "Excuse me",
-      "explanation": "'Excuse me'는 누군가의 주의를 끌 때 사용하는 정중한 표현입니다."
+      "explanation": "'Excuse me'는 누군가의 주의를 끌 때 사용하는 정중한 표현입니다.",
+      "relatedWordIds": ["w12"]
     },
     {
-      "id": "ex12",
-      "type": "fill_blank",
-      "question": "_____ sit down. (앉아 주세요를 넣으세요)",
-      "answer": ["Please"],
-      "explanation": "'Please'는 정중한 요청을 할 때 사용하는 단어입니다."
-    },
-    {
-      "id": "ex13",
+      "id": "ex007",
       "type": "multiple_choice",
+      "difficulty": "easy",
       "question": "What does 'How are you?' mean?",
       "options": ["어떻게 지내세요?", "이름이 뭐예요?", "어디 가세요?", "무엇을 원하세요?"],
       "answer": "어떻게 지내세요?",
-      "explanation": "'How are you?'는 상대방의 안부를 묻는 표현입니다."
+      "explanation": "'How are you?'는 상대방의 안부를 묻는 표현입니다.",
+      "relatedWordIds": ["w14"]
     },
     {
-      "id": "ex14",
+      "id": "ex008",
       "type": "multiple_choice",
+      "difficulty": "easy",
       "question": "Which is the informal way to say 'Thank you'?",
       "options": ["Thanks", "Please", "Sorry", "Welcome"],
       "answer": "Thanks",
-      "explanation": "'Thanks'는 'Thank you'의 비격식적인 표현입니다."
+      "explanation": "'Thanks'는 'Thank you'의 비격식적인 표현입니다.",
+      "relatedWordIds": ["w7"]
     },
     {
-      "id": "ex15",
+      "id": "ex009",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "What does 'Happy' mean?",
+      "options": ["행복한", "슬픈", "피곤한", "배고픈"],
+      "answer": "행복한",
+      "explanation": "'Happy'는 기쁘거나 만족스러운 감정 상태를 나타냅니다.",
+      "relatedWordIds": ["w31"]
+    },
+    {
+      "id": "ex010",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Which word means '슬픈'?",
+      "options": ["Happy", "Sad", "Angry", "Tired"],
+      "answer": "Sad",
+      "explanation": "'Sad'는 슬프거나 우울한 감정을 나타냅니다.",
+      "relatedWordIds": ["w32"]
+    },
+    {
+      "id": "ex011",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "What is 'Good night' used for?",
+      "options": ["자기 전 인사", "아침 인사", "점심 인사", "만났을 때 인사"],
+      "answer": "자기 전 인사",
+      "explanation": "'Good night'는 밤에 자기 전이나 헤어질 때 하는 인사입니다.",
+      "relatedWordIds": ["w21"]
+    },
+    {
+      "id": "ex012",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Which expression is used when you'll meet someone again soon?",
+      "options": ["See you", "Goodbye forever", "Nice to meet you", "Hello"],
+      "answer": "See you",
+      "explanation": "'See you'는 곧 다시 만날 것을 기대하며 하는 작별 인사입니다.",
+      "relatedWordIds": ["w22"]
+    },
+    {
+      "id": "ex013",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "What does 'Take care' express?",
+      "options": ["상대방의 안녕을 바라는 마음", "화난 감정", "놀라움", "질문"],
+      "answer": "상대방의 안녕을 바라는 마음",
+      "explanation": "'Take care'는 헤어질 때 상대방의 안녕을 바라며 하는 인사입니다.",
+      "relatedWordIds": ["w23"]
+    },
+    {
+      "id": "ex014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "When someone sneezes, what do you say?",
+      "options": ["Bless you", "Thank you", "Sorry", "Hello"],
+      "answer": "Bless you",
+      "explanation": "'Bless you'는 누군가 재채기했을 때 건강을 빌어주는 표현입니다.",
+      "relatedWordIds": ["w26"]
+    },
+    {
+      "id": "ex015",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "What does 'Tired' mean?",
+      "options": ["피곤한", "행복한", "배고픈", "화난"],
+      "answer": "피곤한",
+      "explanation": "'Tired'는 에너지가 부족하고 쉬고 싶은 상태를 나타냅니다.",
+      "relatedWordIds": ["w33"]
+    },
+    {
+      "id": "ex016",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Which word means '배고픈'?",
+      "options": ["Thirsty", "Hungry", "Full", "Tired"],
+      "answer": "Hungry",
+      "explanation": "'Hungry'는 음식이 먹고 싶은 상태를 나타냅니다.",
+      "relatedWordIds": ["w34"]
+    },
+    {
+      "id": "ex017",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "What question word asks about location?",
+      "options": ["Where", "When", "What", "Why"],
+      "answer": "Where",
+      "explanation": "'Where'는 장소나 위치를 물을 때 사용합니다.",
+      "relatedWordIds": ["w42"]
+    },
+    {
+      "id": "ex018",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Which word asks about time?",
+      "options": ["When", "Where", "Who", "How"],
+      "answer": "When",
+      "explanation": "'When'은 시간이나 시기를 물을 때 사용합니다.",
+      "relatedWordIds": ["w43"]
+    },
+    {
+      "id": "ex019",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "What does 'Who' ask about?",
+      "options": ["사람", "장소", "시간", "이유"],
+      "answer": "사람",
+      "explanation": "'Who'는 사람이 누구인지 물을 때 사용합니다.",
+      "relatedWordIds": ["w44"]
+    },
+    {
+      "id": "ex020",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Which word means 'I' in English?",
+      "options": ["I", "You", "He", "They"],
+      "answer": "I",
+      "explanation": "'I'는 자기 자신을 가리키는 1인칭 대명사입니다.",
+      "relatedWordIds": ["w47"]
+    },
+    {
+      "id": "ex021",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Which greeting is most appropriate for a formal business email?",
+      "options": ["Good morning", "Hey", "Hi there", "What's up"],
+      "answer": "Good morning",
+      "explanation": "비즈니스 이메일에서는 'Good morning'이 가장 격식 있는 인사입니다.",
+      "relatedWordIds": ["w3"]
+    },
+    {
+      "id": "ex022",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "What is the difference between 'Excuse me' and 'Sorry'?",
+      "options": ["Excuse me는 주의를 끌 때, Sorry는 사과할 때", "둘 다 같은 의미", "Excuse me는 사과, Sorry는 인사", "Excuse me는 작별인사"],
+      "answer": "Excuse me는 주의를 끌 때, Sorry는 사과할 때",
+      "explanation": "'Excuse me'는 주로 주의를 끌거나 양해를 구할 때, 'Sorry'는 사과할 때 사용합니다.",
+      "relatedWordIds": ["w12", "w8"]
+    },
+    {
+      "id": "ex023",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "Which is the most casual way to say goodbye?",
+      "options": ["Bye", "Farewell", "Goodbye", "Good evening"],
+      "answer": "Bye",
+      "explanation": "'Bye'는 가장 캐주얼한 작별 인사이며, 'Farewell'은 가장 격식적입니다.",
+      "relatedWordIds": ["w10"]
+    },
+    {
+      "id": "ex024",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "When would you NOT say 'How are you?'",
+      "options": ["처음 만난 사람에게 바로", "친구를 만났을 때", "가게 직원에게", "동료를 만났을 때"],
+      "answer": "처음 만난 사람에게 바로",
+      "explanation": "처음 만난 사람에게는 먼저 'Nice to meet you'를 사용하고, 'How are you'는 이미 아는 사이에서 사용합니다.",
+      "relatedWordIds": ["w14", "w15"]
+    },
+    {
+      "id": "ex025",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "question": "What is the nuance difference between 'Happy' and 'Glad'?",
+      "options": ["Happy는 일반적 행복, Glad는 특정 상황에 대한 기쁨", "같은 의미", "Glad가 더 강한 감정", "Happy는 슬픔을 의미"],
+      "answer": "Happy는 일반적 행복, Glad는 특정 상황에 대한 기쁨",
+      "explanation": "'Happy'는 전반적인 행복 상태, 'Glad'는 특정 일에 대해 기쁘다는 의미로 사용됩니다.",
+      "relatedWordIds": ["w31"]
+    },
+    {
+      "id": "ex026",
       "type": "fill_blank",
+      "difficulty": "easy",
+      "question": "_____, how are you? (안녕하세요를 넣으세요)",
+      "answer": ["Hello", "Hi"],
+      "explanation": "인사말로 'Hello' 또는 'Hi'를 사용할 수 있습니다.",
+      "relatedWordIds": ["w1", "w2"]
+    },
+    {
+      "id": "ex027",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "question": "_____ you for your help. (감사합니다를 넣으세요)",
+      "answer": ["Thank"],
+      "explanation": "'Thank you'는 '감사합니다'라는 뜻입니다.",
+      "relatedWordIds": ["w6"]
+    },
+    {
+      "id": "ex028",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "question": "I'm _____, I don't understand. (미안해요를 넣으세요)",
+      "answer": ["sorry"],
+      "explanation": "'I'm sorry'는 사과하거나 유감을 표현할 때 사용합니다.",
+      "relatedWordIds": ["w8"]
+    },
+    {
+      "id": "ex029",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "question": "Nice to _____ you! (만나다를 넣으세요)",
+      "answer": ["meet"],
+      "explanation": "'Nice to meet you'는 '만나서 반갑습니다'라는 표현입니다.",
+      "relatedWordIds": ["w15"]
+    },
+    {
+      "id": "ex030",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "question": "_____ sit down. (앉아 주세요를 넣으세요)",
+      "answer": ["Please"],
+      "explanation": "'Please'는 정중한 요청을 할 때 사용하는 단어입니다.",
+      "relatedWordIds": ["w13"]
+    },
+    {
+      "id": "ex031",
+      "type": "fill_blank",
+      "difficulty": "easy",
       "question": "I'm _____, thank you. (좋아요를 넣으세요)",
-      "answer": ["fine", "good", "well"],
-      "explanation": "'I'm fine'은 '저는 좋아요'라는 뜻으로 안부 질문에 대한 답변입니다."
+      "answer": ["fine", "good", "well", "great"],
+      "explanation": "'I'm fine'은 '저는 좋아요'라는 뜻으로 안부 질문에 대한 답변입니다.",
+      "relatedWordIds": ["w16"]
+    },
+    {
+      "id": "ex032",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "question": "Good _____! (아침을 넣으세요)",
+      "answer": ["morning"],
+      "explanation": "'Good morning'은 아침 인사입니다.",
+      "relatedWordIds": ["w3"]
+    },
+    {
+      "id": "ex033",
+      "type": "fill_blank",
+      "difficulty": "easy",
+      "question": "See you _____! (나중에를 넣으세요)",
+      "answer": ["later"],
+      "explanation": "'See you later'는 '나중에 봐요'라는 뜻입니다.",
+      "relatedWordIds": ["w22"]
+    },
+    {
+      "id": "ex034",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "question": "_____ me, where is the station? (실례합니다를 넣으세요)",
+      "answer": ["Excuse"],
+      "explanation": "'Excuse me'는 누군가에게 말을 걸 때 사용하는 정중한 표현입니다.",
+      "relatedWordIds": ["w12"]
+    },
+    {
+      "id": "ex035",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "question": "Good _____, sleep well! (밤을 넣으세요)",
+      "answer": ["night"],
+      "explanation": "'Good night'는 밤에 잠자리에 들기 전 하는 인사입니다.",
+      "relatedWordIds": ["w21"]
+    },
+    {
+      "id": "ex036",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "question": "Take _____! (조심하세요의 빈칸을 넣으세요)",
+      "answer": ["care"],
+      "explanation": "'Take care'는 헤어질 때 상대방의 안녕을 바라며 하는 인사입니다.",
+      "relatedWordIds": ["w23"]
+    },
+    {
+      "id": "ex037",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "question": "I am _____. (피곤해요의 빈칸을 넣으세요)",
+      "answer": ["tired"],
+      "explanation": "'I am tired'는 '나는 피곤해요'라는 뜻입니다.",
+      "relatedWordIds": ["w33"]
+    },
+    {
+      "id": "ex038",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "question": "I am _____. I want to eat. (배고파요의 빈칸을 넣으세요)",
+      "answer": ["hungry"],
+      "explanation": "'I am hungry'는 '나는 배고파요'라는 뜻입니다.",
+      "relatedWordIds": ["w34"]
+    },
+    {
+      "id": "ex039",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "question": "_____ is your name? (무엇을 넣으세요)",
+      "answer": ["What"],
+      "explanation": "'What is your name?'은 '이름이 뭐예요?'라는 뜻입니다.",
+      "relatedWordIds": ["w41"]
+    },
+    {
+      "id": "ex040",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "question": "_____ are you from? (어디를 넣으세요)",
+      "answer": ["Where"],
+      "explanation": "'Where are you from?'은 '어디에서 오셨어요?'라는 뜻입니다.",
+      "relatedWordIds": ["w42"]
+    },
+    {
+      "id": "ex041",
+      "type": "fill_blank",
+      "difficulty": "medium",
+      "question": "_____ is the meeting? (언제를 넣으세요)",
+      "answer": ["When"],
+      "explanation": "'When is the meeting?'은 '회의가 언제예요?'라는 뜻입니다.",
+      "relatedWordIds": ["w43"]
+    },
+    {
+      "id": "ex042",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "question": "_____ you _____ my pen? (혹시 제 펜을 봤어요? - 2개의 빈칸)",
+      "answer": ["Have", "seen"],
+      "explanation": "'Have you seen ~?'은 '~을 본 적 있어요?'라는 현재완료 의문문입니다.",
+      "relatedWordIds": ["w48"]
+    },
+    {
+      "id": "ex043",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "question": "I _____ like to order coffee. (주문하고 싶습니다의 빈칸)",
+      "answer": ["would"],
+      "explanation": "'I would like to ~'는 정중하게 원하는 것을 표현하는 방법입니다.",
+      "relatedWordIds": ["w47"]
+    },
+    {
+      "id": "ex044",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "question": "It was nice _____ to you. (대화해서 좋았어요의 빈칸)",
+      "answer": ["talking"],
+      "explanation": "'It was nice talking to you'는 대화 후 작별할 때 사용하는 표현입니다.",
+      "relatedWordIds": ["w15"]
+    },
+    {
+      "id": "ex045",
+      "type": "fill_blank",
+      "difficulty": "hard",
+      "question": "_____ do you spell that? (어떻게를 넣으세요)",
+      "answer": ["How"],
+      "explanation": "'How do you spell that?'은 '그거 철자가 어떻게 돼요?'라는 뜻입니다.",
+      "relatedWordIds": ["w46"]
+    },
+    {
+      "id": "ex046",
+      "type": "listening_dictation",
+      "difficulty": "easy",
+      "question": "들리는 문장을 받아쓰세요",
+      "audioText": "Hello, how are you?",
+      "answer": "Hello, how are you?",
+      "acceptableAnswers": ["Hello how are you", "hello, how are you?", "Hello, how are you"],
+      "explanation": "기본적인 인사와 안부 묻기 표현입니다.",
+      "relatedWordIds": ["w1", "w14"]
+    },
+    {
+      "id": "ex047",
+      "type": "listening_dictation",
+      "difficulty": "easy",
+      "question": "들리는 문장을 받아쓰세요",
+      "audioText": "Thank you very much.",
+      "answer": "Thank you very much.",
+      "acceptableAnswers": ["Thank you very much", "thank you very much."],
+      "explanation": "감사를 표현하는 정중한 표현입니다.",
+      "relatedWordIds": ["w6"]
+    },
+    {
+      "id": "ex048",
+      "type": "listening_dictation",
+      "difficulty": "easy",
+      "question": "들리는 문장을 받아쓰세요",
+      "audioText": "Good morning!",
+      "answer": "Good morning!",
+      "acceptableAnswers": ["Good morning", "good morning!"],
+      "explanation": "아침 인사입니다.",
+      "relatedWordIds": ["w3"]
+    },
+    {
+      "id": "ex049",
+      "type": "listening_dictation",
+      "difficulty": "easy",
+      "question": "들리는 문장을 받아쓰세요",
+      "audioText": "Nice to meet you.",
+      "answer": "Nice to meet you.",
+      "acceptableAnswers": ["Nice to meet you", "nice to meet you."],
+      "explanation": "처음 만났을 때 하는 인사입니다.",
+      "relatedWordIds": ["w15"]
+    },
+    {
+      "id": "ex050",
+      "type": "listening_dictation",
+      "difficulty": "easy",
+      "question": "들리는 문장을 받아쓰세요",
+      "audioText": "I'm fine, thanks.",
+      "answer": "I'm fine, thanks.",
+      "acceptableAnswers": ["I'm fine thanks", "Im fine, thanks"],
+      "explanation": "안부 질문에 대한 대답입니다.",
+      "relatedWordIds": ["w16", "w7"]
+    },
+    {
+      "id": "ex051",
+      "type": "listening_dictation",
+      "difficulty": "easy",
+      "question": "들리는 문장을 받아쓰세요",
+      "audioText": "Goodbye!",
+      "answer": "Goodbye!",
+      "acceptableAnswers": ["Goodbye", "goodbye!"],
+      "explanation": "작별 인사입니다.",
+      "relatedWordIds": ["w9"]
+    },
+    {
+      "id": "ex052",
+      "type": "listening_dictation",
+      "difficulty": "medium",
+      "question": "들리는 문장을 받아쓰세요",
+      "audioText": "Excuse me, where is the bathroom?",
+      "answer": "Excuse me, where is the bathroom?",
+      "acceptableAnswers": ["Excuse me where is the bathroom", "excuse me, where is the bathroom?"],
+      "explanation": "정중하게 길을 물을 때 사용하는 표현입니다.",
+      "relatedWordIds": ["w12", "w42"]
+    },
+    {
+      "id": "ex053",
+      "type": "listening_dictation",
+      "difficulty": "medium",
+      "question": "들리는 문장을 받아쓰세요",
+      "audioText": "See you tomorrow!",
+      "answer": "See you tomorrow!",
+      "acceptableAnswers": ["See you tomorrow", "see you tomorrow!"],
+      "explanation": "내일 다시 만날 것을 기대하는 작별 인사입니다.",
+      "relatedWordIds": ["w22"]
+    },
+    {
+      "id": "ex054",
+      "type": "listening_dictation",
+      "difficulty": "medium",
+      "question": "들리는 문장을 받아쓰세요",
+      "audioText": "What is your name?",
+      "answer": "What is your name?",
+      "acceptableAnswers": ["What is your name", "What's your name?"],
+      "explanation": "이름을 물을 때 사용하는 표현입니다.",
+      "relatedWordIds": ["w41"]
+    },
+    {
+      "id": "ex055",
+      "type": "listening_dictation",
+      "difficulty": "medium",
+      "question": "들리는 문장을 받아쓰세요",
+      "audioText": "I am happy to meet you.",
+      "answer": "I am happy to meet you.",
+      "acceptableAnswers": ["I am happy to meet you", "I'm happy to meet you."],
+      "explanation": "만나서 기쁘다는 표현입니다.",
+      "relatedWordIds": ["w31", "w15"]
+    },
+    {
+      "id": "ex056",
+      "type": "listening_dictation",
+      "difficulty": "medium",
+      "question": "들리는 문장을 받아쓰세요",
+      "audioText": "Take care of yourself.",
+      "answer": "Take care of yourself.",
+      "acceptableAnswers": ["Take care of yourself", "take care of yourself."],
+      "explanation": "건강히 지내라는 따뜻한 작별 인사입니다.",
+      "relatedWordIds": ["w23"]
+    },
+    {
+      "id": "ex057",
+      "type": "listening_dictation",
+      "difficulty": "medium",
+      "question": "들리는 문장을 받아쓰세요",
+      "audioText": "How do you do?",
+      "answer": "How do you do?",
+      "acceptableAnswers": ["How do you do", "how do you do?"],
+      "explanation": "격식적인 첫 만남 인사입니다.",
+      "relatedWordIds": ["w46"]
+    },
+    {
+      "id": "ex058",
+      "type": "listening_dictation",
+      "difficulty": "hard",
+      "question": "들리는 문장을 받아쓰세요",
+      "audioText": "I'm sorry, but I didn't catch your name.",
+      "answer": "I'm sorry, but I didn't catch your name.",
+      "acceptableAnswers": ["I'm sorry but I didn't catch your name", "Im sorry, but I didnt catch your name"],
+      "explanation": "상대방의 이름을 다시 물을 때 정중한 표현입니다.",
+      "relatedWordIds": ["w8"]
+    },
+    {
+      "id": "ex059",
+      "type": "listening_dictation",
+      "difficulty": "hard",
+      "question": "들리는 문장을 받아쓰세요",
+      "audioText": "It was wonderful meeting you.",
+      "answer": "It was wonderful meeting you.",
+      "acceptableAnswers": ["It was wonderful meeting you", "it was wonderful meeting you."],
+      "explanation": "만남 후 작별할 때 사용하는 정중한 표현입니다.",
+      "relatedWordIds": ["w15"]
+    },
+    {
+      "id": "ex060",
+      "type": "listening_dictation",
+      "difficulty": "hard",
+      "question": "들리는 문장을 받아쓰세요",
+      "audioText": "Please let me know if you need anything.",
+      "answer": "Please let me know if you need anything.",
+      "acceptableAnswers": ["Please let me know if you need anything"],
+      "explanation": "도움을 제안하는 정중한 표현입니다.",
+      "relatedWordIds": ["w13"]
+    },
+    {
+      "id": "ex061",
+      "type": "context_selection",
+      "difficulty": "easy",
+      "question": "친구를 아침에 만났을 때 가장 적절한 인사는?",
+      "options": ["Good morning!", "Good night!", "Goodbye!", "Sorry!"],
+      "answer": "Good morning!",
+      "context": "아침에 친구를 만남",
+      "explanation": "아침 시간대에는 'Good morning'이 적절합니다.",
+      "relatedWordIds": ["w3"]
+    },
+    {
+      "id": "ex062",
+      "type": "context_selection",
+      "difficulty": "easy",
+      "question": "누군가에게 도움을 받았을 때 뭐라고 말해야 할까요?",
+      "options": ["Thank you", "Sorry", "Hello", "Goodbye"],
+      "answer": "Thank you",
+      "context": "친구가 문을 열어줌",
+      "explanation": "도움을 받으면 'Thank you'로 감사를 표현합니다.",
+      "relatedWordIds": ["w6"]
+    },
+    {
+      "id": "ex063",
+      "type": "context_selection",
+      "difficulty": "easy",
+      "question": "실수로 남의 발을 밟았을 때 뭐라고 해야 할까요?",
+      "options": ["Sorry!", "Thank you!", "Hello!", "Please!"],
+      "answer": "Sorry!",
+      "context": "버스에서 옆 사람 발을 밟음",
+      "explanation": "실수했을 때는 'Sorry'로 사과합니다.",
+      "relatedWordIds": ["w8"]
+    },
+    {
+      "id": "ex064",
+      "type": "context_selection",
+      "difficulty": "easy",
+      "question": "저녁에 잠자리에 들기 전 가족에게 하는 인사는?",
+      "options": ["Good night", "Good morning", "Good afternoon", "Hello"],
+      "answer": "Good night",
+      "context": "밤 10시, 방으로 들어가기 전",
+      "explanation": "잠자리에 들기 전에는 'Good night'라고 합니다.",
+      "relatedWordIds": ["w21"]
+    },
+    {
+      "id": "ex065",
+      "type": "context_selection",
+      "difficulty": "easy",
+      "question": "처음 만난 사람에게 자기소개 후 하는 말은?",
+      "options": ["Nice to meet you", "See you later", "Thank you", "Sorry"],
+      "answer": "Nice to meet you",
+      "context": "새 동료와 첫 인사",
+      "explanation": "처음 만나면 'Nice to meet you'라고 합니다.",
+      "relatedWordIds": ["w15"]
+    },
+    {
+      "id": "ex066",
+      "type": "context_selection",
+      "difficulty": "easy",
+      "question": "친한 친구와 헤어질 때 간단히 하는 말은?",
+      "options": ["Bye!", "Good morning!", "Thank you!", "Please!"],
+      "answer": "Bye!",
+      "context": "학교 끝나고 친구와 헤어짐",
+      "explanation": "친구와 캐주얼하게 헤어질 때 'Bye'를 사용합니다.",
+      "relatedWordIds": ["w10"]
+    },
+    {
+      "id": "ex067",
+      "type": "context_selection",
+      "difficulty": "medium",
+      "question": "모르는 사람에게 길을 물을 때 먼저 해야 할 말은?",
+      "options": ["Excuse me", "Thank you", "Goodbye", "Sorry"],
+      "answer": "Excuse me",
+      "context": "지하철역에서 출구를 찾음",
+      "explanation": "모르는 사람에게 말을 걸 때는 'Excuse me'로 시작합니다.",
+      "relatedWordIds": ["w12"]
+    },
+    {
+      "id": "ex068",
+      "type": "context_selection",
+      "difficulty": "medium",
+      "question": "친구가 재채기를 했을 때 뭐라고 말해야 할까요?",
+      "options": ["Bless you!", "Sorry!", "Thank you!", "Excuse me!"],
+      "answer": "Bless you!",
+      "context": "친구가 옆에서 재채기함",
+      "explanation": "재채기에는 'Bless you'로 건강을 빌어줍니다.",
+      "relatedWordIds": ["w26"]
+    },
+    {
+      "id": "ex069",
+      "type": "context_selection",
+      "difficulty": "medium",
+      "question": "내일 다시 만날 동료에게 하는 작별 인사는?",
+      "options": ["See you tomorrow!", "Goodbye forever!", "Nice to meet you!", "Good morning!"],
+      "answer": "See you tomorrow!",
+      "context": "퇴근하면서 동료에게",
+      "explanation": "곧 다시 만날 때는 'See you'를 사용합니다.",
+      "relatedWordIds": ["w22"]
+    },
+    {
+      "id": "ex070",
+      "type": "context_selection",
+      "difficulty": "medium",
+      "question": "배가 고플 때 상태를 표현하는 말은?",
+      "options": ["I'm hungry", "I'm tired", "I'm happy", "I'm sorry"],
+      "answer": "I'm hungry",
+      "context": "점심 먹기 전",
+      "explanation": "배고픈 상태는 'I'm hungry'로 표현합니다.",
+      "relatedWordIds": ["w34"]
+    },
+    {
+      "id": "ex071",
+      "type": "context_selection",
+      "difficulty": "medium",
+      "question": "긴 하루 후 피곤함을 표현하는 말은?",
+      "options": ["I'm tired", "I'm hungry", "I'm happy", "I'm angry"],
+      "answer": "I'm tired",
+      "context": "야근 후 집에 와서",
+      "explanation": "피곤한 상태는 'I'm tired'로 표현합니다.",
+      "relatedWordIds": ["w33"]
+    },
+    {
+      "id": "ex072",
+      "type": "context_selection",
+      "difficulty": "medium",
+      "question": "좋은 소식을 들었을 때 기쁨을 표현하는 말은?",
+      "options": ["I'm so happy!", "I'm so sad!", "I'm so tired!", "I'm so angry!"],
+      "answer": "I'm so happy!",
+      "context": "시험에 합격했다는 소식",
+      "explanation": "기쁜 상태는 'I'm happy'로 표현합니다.",
+      "relatedWordIds": ["w31"]
+    },
+    {
+      "id": "ex073",
+      "type": "context_selection",
+      "difficulty": "hard",
+      "question": "비즈니스 미팅에서 처음 만난 사람에게 가장 적절한 인사는?",
+      "options": ["How do you do? Nice to meet you.", "Hey, what's up?", "Hi there!", "Yo!"],
+      "answer": "How do you do? Nice to meet you.",
+      "context": "중요한 클라이언트와의 첫 미팅",
+      "explanation": "격식적인 상황에서는 정중한 표현을 사용합니다.",
+      "relatedWordIds": ["w15"]
+    },
+    {
+      "id": "ex074",
+      "type": "context_selection",
+      "difficulty": "hard",
+      "question": "아픈 친구에게 위로하며 작별할 때 적절한 말은?",
+      "options": ["Take care and get well soon!", "See you!", "Bye!", "Whatever!"],
+      "answer": "Take care and get well soon!",
+      "context": "감기 걸린 친구 병문안 후",
+      "explanation": "아픈 사람에게는 'Take care'와 'Get well soon'을 함께 사용합니다.",
+      "relatedWordIds": ["w23", "w28"]
+    },
+    {
+      "id": "ex075",
+      "type": "context_selection",
+      "difficulty": "hard",
+      "question": "레스토랑에서 주문할 때 가장 정중한 표현은?",
+      "options": ["Could I have a coffee, please?", "Give me coffee", "Coffee", "I want coffee"],
+      "answer": "Could I have a coffee, please?",
+      "context": "카페에서 주문",
+      "explanation": "'Could I have ~ please'가 가장 정중한 주문 표현입니다.",
+      "relatedWordIds": ["w13"]
+    },
+    {
+      "id": "ex076",
+      "type": "dialogue_completion",
+      "difficulty": "easy",
+      "question": "A: Hello! B: _____",
+      "options": ["Hello!", "Goodbye!", "Sorry!", "Thank you!"],
+      "answer": "Hello!",
+      "explanation": "인사에는 같은 인사로 답합니다.",
+      "relatedWordIds": ["w1"]
+    },
+    {
+      "id": "ex077",
+      "type": "dialogue_completion",
+      "difficulty": "easy",
+      "question": "A: Thank you! B: _____",
+      "options": ["You're welcome!", "I'm sorry!", "Hello!", "Goodbye!"],
+      "answer": "You're welcome!",
+      "explanation": "감사에는 'You're welcome'으로 답합니다.",
+      "relatedWordIds": ["w6", "w11"]
+    },
+    {
+      "id": "ex078",
+      "type": "dialogue_completion",
+      "difficulty": "easy",
+      "question": "A: How are you? B: _____",
+      "options": ["I'm fine, thank you.", "Goodbye!", "Nice to meet you!", "Sorry!"],
+      "answer": "I'm fine, thank you.",
+      "explanation": "안부 질문에는 상태를 답합니다.",
+      "relatedWordIds": ["w14", "w16"]
+    },
+    {
+      "id": "ex079",
+      "type": "dialogue_completion",
+      "difficulty": "easy",
+      "question": "A: Nice to meet you. B: _____",
+      "options": ["Nice to meet you too.", "Goodbye!", "Thank you!", "Sorry!"],
+      "answer": "Nice to meet you too.",
+      "explanation": "'Nice to meet you'에는 'too'를 붙여 답합니다.",
+      "relatedWordIds": ["w15"]
+    },
+    {
+      "id": "ex080",
+      "type": "dialogue_completion",
+      "difficulty": "easy",
+      "question": "A: Good night! B: _____",
+      "options": ["Good night!", "Good morning!", "Hello!", "Thank you!"],
+      "answer": "Good night!",
+      "explanation": "잠자리 인사에는 같은 말로 답합니다.",
+      "relatedWordIds": ["w21"]
+    },
+    {
+      "id": "ex081",
+      "type": "dialogue_completion",
+      "difficulty": "easy",
+      "question": "A: See you later! B: _____",
+      "options": ["See you!", "Sorry!", "Thank you!", "Hello!"],
+      "answer": "See you!",
+      "explanation": "작별 인사에는 비슷한 작별 인사로 답합니다.",
+      "relatedWordIds": ["w22"]
+    },
+    {
+      "id": "ex082",
+      "type": "dialogue_completion",
+      "difficulty": "medium",
+      "question": "A: What is your name? B: _____",
+      "options": ["My name is John.", "I'm fine.", "Thank you.", "Goodbye."],
+      "answer": "My name is John.",
+      "explanation": "이름을 물으면 'My name is ~'로 답합니다.",
+      "relatedWordIds": ["w41", "w47"]
+    },
+    {
+      "id": "ex083",
+      "type": "dialogue_completion",
+      "difficulty": "medium",
+      "question": "A: Where are you from? B: _____",
+      "options": ["I'm from Korea.", "I'm fine.", "My name is Kim.", "See you later."],
+      "answer": "I'm from Korea.",
+      "explanation": "출신을 물으면 'I'm from ~'으로 답합니다.",
+      "relatedWordIds": ["w42", "w47"]
+    },
+    {
+      "id": "ex084",
+      "type": "dialogue_completion",
+      "difficulty": "medium",
+      "question": "A: I'm sorry. B: _____",
+      "options": ["That's okay.", "Thank you.", "Hello.", "Goodbye."],
+      "answer": "That's okay.",
+      "explanation": "사과에는 'That's okay' 또는 'No problem'으로 답합니다.",
+      "relatedWordIds": ["w8"]
+    },
+    {
+      "id": "ex085",
+      "type": "dialogue_completion",
+      "difficulty": "medium",
+      "question": "A: Bless you! B: _____",
+      "options": ["Thank you!", "Sorry!", "Hello!", "Goodbye!"],
+      "answer": "Thank you!",
+      "explanation": "'Bless you'에는 감사로 답합니다.",
+      "relatedWordIds": ["w26", "w6"]
+    },
+    {
+      "id": "ex086",
+      "type": "dialogue_completion",
+      "difficulty": "medium",
+      "question": "A: Are you hungry? B: Yes, _____",
+      "options": ["I'm very hungry.", "I'm very tired.", "I'm very happy.", "I'm very sad."],
+      "answer": "I'm very hungry.",
+      "explanation": "배고픔을 물으면 'I'm hungry'로 답합니다.",
+      "relatedWordIds": ["w34"]
+    },
+    {
+      "id": "ex087",
+      "type": "dialogue_completion",
+      "difficulty": "medium",
+      "question": "A: When is the meeting? B: _____",
+      "options": ["It's at 3 o'clock.", "It's in the office.", "It's John.", "It's good."],
+      "answer": "It's at 3 o'clock.",
+      "explanation": "'When'에는 시간으로 답합니다.",
+      "relatedWordIds": ["w43"]
+    },
+    {
+      "id": "ex088",
+      "type": "dialogue_completion",
+      "difficulty": "hard",
+      "question": "A: How do you do? B: _____",
+      "options": ["How do you do?", "I'm fine.", "Thank you.", "Nice day."],
+      "answer": "How do you do?",
+      "explanation": "격식적인 'How do you do?'에는 같은 말로 답합니다.",
+      "relatedWordIds": ["w46"]
+    },
+    {
+      "id": "ex089",
+      "type": "dialogue_completion",
+      "difficulty": "hard",
+      "question": "A: It was wonderful meeting you. B: _____",
+      "options": ["The pleasure was mine.", "Sorry.", "Hello.", "What?"],
+      "answer": "The pleasure was mine.",
+      "explanation": "정중한 작별에는 격식있게 답합니다.",
+      "relatedWordIds": ["w15"]
+    },
+    {
+      "id": "ex090",
+      "type": "dialogue_completion",
+      "difficulty": "hard",
+      "question": "A: Could you help me, please? B: _____",
+      "options": ["Of course! What do you need?", "Goodbye!", "Sorry, hello!", "Thank you!"],
+      "answer": "Of course! What do you need?",
+      "explanation": "도움 요청에는 긍정적으로 답하고 무엇이 필요한지 묻습니다.",
+      "relatedWordIds": ["w13"]
+    },
+    {
+      "id": "ex091",
+      "type": "image_word_match",
+      "difficulty": "easy",
+      "question": "이 이미지와 맞는 단어를 선택하세요",
+      "imageDescription": "두 사람이 웃으며 악수하는 사진",
+      "imageUrl": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=400",
+      "options": ["Hello", "Goodbye", "Sorry", "Angry"],
+      "answer": "Hello",
+      "explanation": "두 사람이 만나서 인사하는 모습입니다.",
+      "relatedWordIds": ["w1"]
+    },
+    {
+      "id": "ex092",
+      "type": "image_word_match",
+      "difficulty": "easy",
+      "question": "이 이미지와 맞는 단어를 선택하세요",
+      "imageDescription": "활짝 웃고 있는 사람",
+      "imageUrl": "https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?w=400",
+      "options": ["Happy", "Sad", "Angry", "Tired"],
+      "answer": "Happy",
+      "explanation": "웃고 있는 모습은 행복한 상태입니다.",
+      "relatedWordIds": ["w31"]
+    },
+    {
+      "id": "ex093",
+      "type": "image_word_match",
+      "difficulty": "easy",
+      "question": "이 이미지와 맞는 단어를 선택하세요",
+      "imageDescription": "슬픈 표정의 사람",
+      "imageUrl": "https://images.unsplash.com/photo-1541199249251-f713e6145474?w=400",
+      "options": ["Sad", "Happy", "Excited", "Hungry"],
+      "answer": "Sad",
+      "explanation": "우울한 표정은 슬픔을 나타냅니다.",
+      "relatedWordIds": ["w32"]
+    },
+    {
+      "id": "ex094",
+      "type": "image_word_match",
+      "difficulty": "easy",
+      "question": "이 이미지와 맞는 단어를 선택하세요",
+      "imageDescription": "하품하며 졸린 표정의 사람",
+      "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400",
+      "options": ["Tired", "Happy", "Hungry", "Angry"],
+      "answer": "Tired",
+      "explanation": "하품하는 모습은 피곤한 상태입니다.",
+      "relatedWordIds": ["w33"]
+    },
+    {
+      "id": "ex095",
+      "type": "image_word_match",
+      "difficulty": "easy",
+      "question": "이 이미지와 맞는 단어를 선택하세요",
+      "imageDescription": "아침 해가 뜨는 풍경",
+      "imageUrl": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=400",
+      "options": ["Morning", "Night", "Evening", "Afternoon"],
+      "answer": "Morning",
+      "explanation": "해가 뜨는 것은 아침을 의미합니다.",
+      "relatedWordIds": ["w3"]
+    },
+    {
+      "id": "ex096",
+      "type": "image_word_match",
+      "difficulty": "easy",
+      "question": "이 이미지와 맞는 단어를 선택하세요",
+      "imageDescription": "밤하늘의 달과 별",
+      "imageUrl": "https://images.unsplash.com/photo-1507400492013-162706c8c05e?w=400",
+      "options": ["Night", "Morning", "Afternoon", "Noon"],
+      "answer": "Night",
+      "explanation": "달과 별이 있는 하늘은 밤입니다.",
+      "relatedWordIds": ["w21"]
+    },
+    {
+      "id": "ex097",
+      "type": "image_word_match",
+      "difficulty": "medium",
+      "question": "이 이미지와 맞는 표현을 선택하세요",
+      "imageDescription": "손을 흔들며 작별하는 사람",
+      "imageUrl": "https://images.unsplash.com/photo-1516534775068-ba3e7458af70?w=400",
+      "options": ["Goodbye", "Hello", "Sorry", "Please"],
+      "answer": "Goodbye",
+      "explanation": "손을 흔드는 것은 작별 인사입니다.",
+      "relatedWordIds": ["w9"]
+    },
+    {
+      "id": "ex098",
+      "type": "image_word_match",
+      "difficulty": "medium",
+      "question": "이 이미지와 맞는 표현을 선택하세요",
+      "imageDescription": "미안한 표정으로 고개 숙인 사람",
+      "imageUrl": "https://images.unsplash.com/photo-1555952494-efd681c7e3f9?w=400",
+      "options": ["Sorry", "Happy", "Hello", "Thank you"],
+      "answer": "Sorry",
+      "explanation": "고개를 숙이는 것은 사과의 모습입니다.",
+      "relatedWordIds": ["w8"]
+    },
+    {
+      "id": "ex099",
+      "type": "image_word_match",
+      "difficulty": "medium",
+      "question": "이 이미지와 맞는 표현을 선택하세요",
+      "imageDescription": "배를 잡고 있는 배고픈 사람",
+      "imageUrl": "https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?w=400",
+      "options": ["Hungry", "Tired", "Happy", "Sad"],
+      "answer": "Hungry",
+      "explanation": "배를 잡는 것은 배고픈 상태를 나타냅니다.",
+      "relatedWordIds": ["w34"]
+    },
+    {
+      "id": "ex100",
+      "type": "image_word_match",
+      "difficulty": "medium",
+      "question": "이 이미지와 맞는 단어를 선택하세요",
+      "imageDescription": "화난 표정의 사람",
+      "imageUrl": "https://images.unsplash.com/photo-1534570122623-99e8378a9aa7?w=400",
+      "options": ["Angry", "Happy", "Tired", "Scared"],
+      "answer": "Angry",
+      "explanation": "화난 표정은 분노를 나타냅니다.",
+      "relatedWordIds": ["w36"]
+    },
+    {
+      "id": "ex101",
+      "type": "image_word_match",
+      "difficulty": "medium",
+      "question": "이 이미지와 맞는 단어를 선택하세요",
+      "imageDescription": "놀란 표정의 사람",
+      "imageUrl": "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=400",
+      "options": ["Surprised", "Sad", "Angry", "Tired"],
+      "answer": "Surprised",
+      "explanation": "눈이 커진 모습은 놀람을 나타냅니다.",
+      "relatedWordIds": ["w38"]
+    },
+    {
+      "id": "ex102",
+      "type": "image_word_match",
+      "difficulty": "medium",
+      "question": "이 이미지와 맞는 단어를 선택하세요",
+      "imageDescription": "겁먹은 표정의 사람",
+      "imageUrl": "https://images.unsplash.com/photo-1590935217281-8f102120d683?w=400",
+      "options": ["Scared", "Happy", "Excited", "Hungry"],
+      "answer": "Scared",
+      "explanation": "겁먹은 표정은 두려움을 나타냅니다.",
+      "relatedWordIds": ["w39"]
+    },
+    {
+      "id": "ex103",
+      "type": "image_word_match",
+      "difficulty": "hard",
+      "question": "이 상황과 맞는 표현을 선택하세요",
+      "imageDescription": "사무실에서 정중하게 악수하는 두 비즈니스맨",
+      "imageUrl": "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=400",
+      "options": ["Nice to meet you", "Bye!", "Sorry!", "What's up?"],
+      "answer": "Nice to meet you",
+      "explanation": "비즈니스 첫 만남에는 정중한 인사를 합니다.",
+      "relatedWordIds": ["w15"]
+    },
+    {
+      "id": "ex104",
+      "type": "image_word_match",
+      "difficulty": "hard",
+      "question": "이 상황과 맞는 표현을 선택하세요",
+      "imageDescription": "카페에서 손을 들어 직원을 부르는 사람",
+      "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400",
+      "options": ["Excuse me", "Goodbye", "Thank you", "Sorry"],
+      "answer": "Excuse me",
+      "explanation": "직원을 부를 때는 'Excuse me'를 사용합니다.",
+      "relatedWordIds": ["w12"]
+    },
+    {
+      "id": "ex105",
+      "type": "image_word_match",
+      "difficulty": "hard",
+      "question": "이 상황과 맞는 표현을 선택하세요",
+      "imageDescription": "선물을 받고 기뻐하는 사람",
+      "imageUrl": "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=400",
+      "options": ["Thank you so much!", "Sorry!", "Hello!", "Goodbye!"],
+      "answer": "Thank you so much!",
+      "explanation": "선물을 받으면 감사를 표현합니다.",
+      "relatedWordIds": ["w6"]
+    },
+    {
+      "id": "ex106",
+      "type": "sentence_ordering",
+      "difficulty": "easy",
+      "question": "올바른 순서로 배열하세요",
+      "words": ["you", "are", "How", "?"],
+      "correctOrder": ["How", "are", "you", "?"],
+      "answer": "How are you?",
+      "explanation": "'How are you?'는 안부를 묻는 기본 표현입니다.",
+      "relatedWordIds": ["w14"]
+    },
+    {
+      "id": "ex107",
+      "type": "sentence_ordering",
+      "difficulty": "easy",
+      "question": "올바른 순서로 배열하세요",
+      "words": ["you", "Thank", "much", "very", "."],
+      "correctOrder": ["Thank", "you", "very", "much", "."],
+      "answer": "Thank you very much.",
+      "explanation": "'Thank you very much'는 정중한 감사 표현입니다.",
+      "relatedWordIds": ["w6"]
+    },
+    {
+      "id": "ex108",
+      "type": "sentence_ordering",
+      "difficulty": "easy",
+      "question": "올바른 순서로 배열하세요",
+      "words": ["meet", "Nice", "you", "to", "."],
+      "correctOrder": ["Nice", "to", "meet", "you", "."],
+      "answer": "Nice to meet you.",
+      "explanation": "'Nice to meet you'는 첫 만남 인사입니다.",
+      "relatedWordIds": ["w15"]
+    },
+    {
+      "id": "ex109",
+      "type": "sentence_ordering",
+      "difficulty": "easy",
+      "question": "올바른 순서로 배열하세요",
+      "words": ["morning", "Good", "!"],
+      "correctOrder": ["Good", "morning", "!"],
+      "answer": "Good morning!",
+      "explanation": "'Good morning'은 아침 인사입니다.",
+      "relatedWordIds": ["w3"]
+    },
+    {
+      "id": "ex110",
+      "type": "sentence_ordering",
+      "difficulty": "medium",
+      "question": "올바른 순서로 배열하세요",
+      "words": ["name", "What", "your", "is", "?"],
+      "correctOrder": ["What", "is", "your", "name", "?"],
+      "answer": "What is your name?",
+      "explanation": "'What is your name?'은 이름을 묻는 표현입니다.",
+      "relatedWordIds": ["w41"]
+    },
+    {
+      "id": "ex111",
+      "type": "sentence_ordering",
+      "difficulty": "medium",
+      "question": "올바른 순서로 배열하세요",
+      "words": ["from", "are", "Where", "you", "?"],
+      "correctOrder": ["Where", "are", "you", "from", "?"],
+      "answer": "Where are you from?",
+      "explanation": "'Where are you from?'은 출신을 묻는 표현입니다.",
+      "relatedWordIds": ["w42"]
+    },
+    {
+      "id": "ex112",
+      "type": "sentence_ordering",
+      "difficulty": "medium",
+      "question": "올바른 순서로 배열하세요",
+      "words": ["fine", "I'm", "you", "thank", ",", "."],
+      "correctOrder": ["I'm", "fine", ",", "thank", "you", "."],
+      "answer": "I'm fine, thank you.",
+      "explanation": "안부 질문에 대한 정중한 대답입니다.",
+      "relatedWordIds": ["w16", "w6"]
+    },
+    {
+      "id": "ex113",
+      "type": "sentence_ordering",
+      "difficulty": "medium",
+      "question": "올바른 순서로 배열하세요",
+      "words": ["you", "See", "later", "!"],
+      "correctOrder": ["See", "you", "later", "!"],
+      "answer": "See you later!",
+      "explanation": "'See you later'는 작별 인사입니다.",
+      "relatedWordIds": ["w22"]
+    },
+    {
+      "id": "ex114",
+      "type": "sentence_ordering",
+      "difficulty": "hard",
+      "question": "올바른 순서로 배열하세요",
+      "words": ["meeting", "was", "It", "wonderful", "you", "."],
+      "correctOrder": ["It", "was", "wonderful", "meeting", "you", "."],
+      "answer": "It was wonderful meeting you.",
+      "explanation": "격식적인 작별 인사입니다.",
+      "relatedWordIds": ["w15"]
+    },
+    {
+      "id": "ex115",
+      "type": "sentence_ordering",
+      "difficulty": "hard",
+      "question": "올바른 순서로 배열하세요",
+      "words": ["help", "I", "Can", "you", "?"],
+      "correctOrder": ["Can", "I", "help", "you", "?"],
+      "answer": "Can I help you?",
+      "explanation": "도움을 제안하는 정중한 표현입니다.",
+      "relatedWordIds": ["w47"]
+    },
+    {
+      "id": "ex116",
+      "type": "error_correction",
+      "difficulty": "easy",
+      "question": "다음 문장의 오류를 찾아 고치세요: 'Helo, how are you?'",
+      "errorSentence": "Helo, how are you?",
+      "answer": "Hello, how are you?",
+      "errorType": "spelling",
+      "explanation": "'Hello'의 철자가 틀렸습니다. 'l'이 두 개입니다.",
+      "relatedWordIds": ["w1"]
+    },
+    {
+      "id": "ex117",
+      "type": "error_correction",
+      "difficulty": "easy",
+      "question": "다음 문장의 오류를 찾아 고치세요: 'Thank you much.'",
+      "errorSentence": "Thank you much.",
+      "answer": "Thank you very much.",
+      "errorType": "missing_word",
+      "explanation": "'very'가 빠졌습니다.",
+      "relatedWordIds": ["w6"]
+    },
+    {
+      "id": "ex118",
+      "type": "error_correction",
+      "difficulty": "easy",
+      "question": "다음 문장의 오류를 찾아 고치세요: 'Good mornig!'",
+      "errorSentence": "Good mornig!",
+      "answer": "Good morning!",
+      "errorType": "spelling",
+      "explanation": "'morning'의 철자가 틀렸습니다.",
+      "relatedWordIds": ["w3"]
+    },
+    {
+      "id": "ex119",
+      "type": "error_correction",
+      "difficulty": "easy",
+      "question": "다음 문장의 오류를 찾아 고치세요: 'I am sorry.'를 캐주얼하게",
+      "errorSentence": "I am sorry.",
+      "answer": "I'm sorry.",
+      "errorType": "contraction",
+      "explanation": "캐주얼한 표현에서는 축약형 'I'm'을 사용합니다.",
+      "relatedWordIds": ["w8"]
+    },
+    {
+      "id": "ex120",
+      "type": "error_correction",
+      "difficulty": "medium",
+      "question": "다음 문장의 오류를 찾아 고치세요: 'Nice to meeting you.'",
+      "errorSentence": "Nice to meeting you.",
+      "answer": "Nice to meet you.",
+      "errorType": "grammar",
+      "explanation": "'to' 뒤에는 동사원형이 옵니다.",
+      "relatedWordIds": ["w15"]
+    },
+    {
+      "id": "ex121",
+      "type": "error_correction",
+      "difficulty": "medium",
+      "question": "다음 문장의 오류를 찾아 고치세요: 'How are your?'",
+      "errorSentence": "How are your?",
+      "answer": "How are you?",
+      "errorType": "wrong_word",
+      "explanation": "'your'(너의)가 아니라 'you'(너)가 맞습니다.",
+      "relatedWordIds": ["w14", "w48"]
+    },
+    {
+      "id": "ex122",
+      "type": "error_correction",
+      "difficulty": "medium",
+      "question": "다음 문장의 오류를 찾아 고치세요: 'Excuse I, where is the station?'",
+      "errorSentence": "Excuse I, where is the station?",
+      "answer": "Excuse me, where is the station?",
+      "errorType": "pronoun",
+      "explanation": "'I'가 아니라 'me'가 맞습니다.",
+      "relatedWordIds": ["w12", "w47"]
+    },
+    {
+      "id": "ex123",
+      "type": "error_correction",
+      "difficulty": "medium",
+      "question": "다음 문장의 오류를 찾아 고치세요: 'What is you name?'",
+      "errorSentence": "What is you name?",
+      "answer": "What is your name?",
+      "errorType": "possessive",
+      "explanation": "'you'가 아니라 소유격 'your'가 맞습니다.",
+      "relatedWordIds": ["w41", "w48"]
+    },
+    {
+      "id": "ex124",
+      "type": "error_correction",
+      "difficulty": "hard",
+      "question": "다음 문장의 오류를 찾아 고치세요: 'I am very much tired.'",
+      "errorSentence": "I am very much tired.",
+      "answer": "I am very tired.",
+      "errorType": "word_order",
+      "explanation": "'very much'는 형용사 앞에 쓰지 않습니다. 'very tired'가 맞습니다.",
+      "relatedWordIds": ["w33"]
+    },
+    {
+      "id": "ex125",
+      "type": "error_correction",
+      "difficulty": "hard",
+      "question": "다음 문장의 오류를 찾아 고치세요: 'Where you are from?'",
+      "errorSentence": "Where you are from?",
+      "answer": "Where are you from?",
+      "errorType": "word_order",
+      "explanation": "의문문에서는 'are you' 순서입니다.",
+      "relatedWordIds": ["w42"]
+    },
+    {
+      "id": "ex126",
+      "type": "collocation_match",
+      "difficulty": "easy",
+      "question": "'Hello'와 자주 함께 쓰이는 표현을 선택하세요",
+      "word": "Hello",
+      "options": ["Hello there", "Hello goodbye", "Hello sorry", "Hello angry"],
+      "answer": "Hello there",
+      "explanation": "'Hello there'는 자연스러운 인사 표현입니다.",
+      "relatedWordIds": ["w1"]
+    },
+    {
+      "id": "ex127",
+      "type": "collocation_match",
+      "difficulty": "easy",
+      "question": "'Thank'과 함께 쓰이는 단어를 선택하세요",
+      "word": "Thank",
+      "options": ["you", "me", "we", "they"],
+      "answer": "you",
+      "explanation": "'Thank you'가 올바른 감사 표현입니다.",
+      "relatedWordIds": ["w6"]
+    },
+    {
+      "id": "ex128",
+      "type": "collocation_match",
+      "difficulty": "easy",
+      "question": "'Nice to'와 함께 쓰이는 표현을 선택하세요",
+      "word": "Nice to",
+      "options": ["meet you", "sorry you", "hello you", "goodbye you"],
+      "answer": "meet you",
+      "explanation": "'Nice to meet you'가 올바른 인사 표현입니다.",
+      "relatedWordIds": ["w15"]
+    },
+    {
+      "id": "ex129",
+      "type": "collocation_match",
+      "difficulty": "easy",
+      "question": "'Good'과 함께 쓰이는 시간대 표현을 선택하세요",
+      "word": "Good",
+      "options": ["morning", "thank", "sorry", "please"],
+      "answer": "morning",
+      "explanation": "'Good morning'은 아침 인사입니다.",
+      "relatedWordIds": ["w3"]
+    },
+    {
+      "id": "ex130",
+      "type": "collocation_match",
+      "difficulty": "easy",
+      "question": "'See you'와 함께 쓰이는 표현을 선택하세요",
+      "word": "See you",
+      "options": ["later", "sorry", "please", "thank"],
+      "answer": "later",
+      "explanation": "'See you later'는 '나중에 봐요'입니다.",
+      "relatedWordIds": ["w22"]
+    },
+    {
+      "id": "ex131",
+      "type": "collocation_match",
+      "difficulty": "easy",
+      "question": "'Take'와 함께 쓰이는 작별 표현을 선택하세요",
+      "word": "Take",
+      "options": ["care", "sorry", "hello", "morning"],
+      "answer": "care",
+      "explanation": "'Take care'는 '조심해요'입니다.",
+      "relatedWordIds": ["w23"]
+    },
+    {
+      "id": "ex132",
+      "type": "collocation_match",
+      "difficulty": "medium",
+      "question": "'Excuse'와 함께 쓰이는 대명사를 선택하세요",
+      "word": "Excuse",
+      "options": ["me", "I", "my", "mine"],
+      "answer": "me",
+      "explanation": "'Excuse me'가 올바른 표현입니다.",
+      "relatedWordIds": ["w12"]
+    },
+    {
+      "id": "ex133",
+      "type": "collocation_match",
+      "difficulty": "medium",
+      "question": "'You're'와 함께 쓰이는 표현을 선택하세요",
+      "word": "You're",
+      "options": ["welcome", "sorry", "excuse", "please"],
+      "answer": "welcome",
+      "explanation": "'You're welcome'은 감사에 대한 답입니다.",
+      "relatedWordIds": ["w11"]
+    },
+    {
+      "id": "ex134",
+      "type": "collocation_match",
+      "difficulty": "medium",
+      "question": "'I'm'과 함께 쓰이는 상태 표현을 선택하세요",
+      "word": "I'm",
+      "options": ["fine", "name", "meet", "hello"],
+      "answer": "fine",
+      "explanation": "'I'm fine'은 '저는 좋아요'입니다.",
+      "relatedWordIds": ["w16"]
+    },
+    {
+      "id": "ex135",
+      "type": "collocation_match",
+      "difficulty": "medium",
+      "question": "'Bless'와 함께 쓰이는 대명사를 선택하세요",
+      "word": "Bless",
+      "options": ["you", "me", "I", "we"],
+      "answer": "you",
+      "explanation": "'Bless you'는 재채기할 때 하는 말입니다.",
+      "relatedWordIds": ["w26"]
+    },
+    {
+      "id": "ex136",
+      "type": "collocation_match",
+      "difficulty": "medium",
+      "question": "'Get well'과 함께 쓰이는 표현을 선택하세요",
+      "word": "Get well",
+      "options": ["soon", "later", "now", "here"],
+      "answer": "soon",
+      "explanation": "'Get well soon'은 빨리 나으라는 표현입니다.",
+      "relatedWordIds": ["w28"]
+    },
+    {
+      "id": "ex137",
+      "type": "collocation_match",
+      "difficulty": "medium",
+      "question": "'Have a'와 함께 쓰이는 인사 표현을 선택하세요",
+      "word": "Have a",
+      "options": ["nice day", "good morning", "thank you", "excuse me"],
+      "answer": "nice day",
+      "explanation": "'Have a nice day'는 '좋은 하루 보내세요'입니다.",
+      "relatedWordIds": ["w29"]
+    },
+    {
+      "id": "ex138",
+      "type": "collocation_match",
+      "difficulty": "hard",
+      "question": "'How do you'와 함께 쓰이는 격식적 인사를 선택하세요",
+      "word": "How do you",
+      "options": ["do", "are", "is", "am"],
+      "answer": "do",
+      "explanation": "'How do you do?'는 격식적인 첫 만남 인사입니다.",
+      "relatedWordIds": ["w46"]
+    },
+    {
+      "id": "ex139",
+      "type": "collocation_match",
+      "difficulty": "hard",
+      "question": "'It was nice'와 함께 쓰이는 표현을 선택하세요",
+      "word": "It was nice",
+      "options": ["meeting you", "goodbye you", "hello you", "sorry you"],
+      "answer": "meeting you",
+      "explanation": "'It was nice meeting you'는 작별할 때 쓰는 표현입니다.",
+      "relatedWordIds": ["w15"]
+    },
+    {
+      "id": "ex140",
+      "type": "collocation_match",
+      "difficulty": "hard",
+      "question": "'The pleasure'와 함께 쓰이는 표현을 선택하세요",
+      "word": "The pleasure",
+      "options": ["is mine", "is you", "is hello", "is thank"],
+      "answer": "is mine",
+      "explanation": "'The pleasure is mine'은 정중한 답례 표현입니다.",
+      "relatedWordIds": ["w15"]
+    },
+    {
+      "id": "ex141",
+      "type": "pronunciation_compare",
+      "difficulty": "easy",
+      "question": "'Hello'와 'Halo'의 발음 차이를 확인하세요",
+      "word1": "Hello",
+      "word2": "Halo",
+      "pronunciation1": "/həˈloʊ/",
+      "pronunciation2": "/ˈheɪloʊ/",
+      "difference": "Hello는 첫 음절이 약하고 /hə/, Halo는 /heɪ/로 'ei' 소리",
+      "answer": "Hello는 '헐로우', Halo는 '헤일로'에 가깝습니다",
+      "explanation": "두 단어는 철자가 비슷하지만 발음이 다릅니다.",
+      "relatedWordIds": ["w1"]
+    },
+    {
+      "id": "ex142",
+      "type": "pronunciation_compare",
+      "difficulty": "easy",
+      "question": "'Hi'와 'High'의 발음을 비교하세요",
+      "word1": "Hi",
+      "word2": "High",
+      "pronunciation1": "/haɪ/",
+      "pronunciation2": "/haɪ/",
+      "difference": "발음은 같지만 의미가 다름 (인사 vs 높은)",
+      "answer": "두 단어는 발음이 같은 동음이의어입니다",
+      "explanation": "'Hi'는 인사, 'High'는 '높은'이라는 형용사입니다.",
+      "relatedWordIds": ["w2"]
+    },
+    {
+      "id": "ex143",
+      "type": "pronunciation_compare",
+      "difficulty": "easy",
+      "question": "'Thanks'와 'Tanks'의 발음 차이를 확인하세요",
+      "word1": "Thanks",
+      "word2": "Tanks",
+      "pronunciation1": "/θæŋks/",
+      "pronunciation2": "/tæŋks/",
+      "difference": "Thanks는 /θ/ (혀를 이 사이에), Tanks는 /t/ 소리",
+      "answer": "Thanks의 'th'는 혀를 이 사이에 대고 발음합니다",
+      "explanation": "'th' 발음은 한국어에 없어서 연습이 필요합니다.",
+      "relatedWordIds": ["w7"]
+    },
+    {
+      "id": "ex144",
+      "type": "pronunciation_compare",
+      "difficulty": "easy",
+      "question": "'Good'와 'God'의 발음 차이를 확인하세요",
+      "word1": "Good",
+      "word2": "God",
+      "pronunciation1": "/ɡʊd/",
+      "pronunciation2": "/ɡɑːd/",
+      "difference": "Good는 /ʊ/ (입을 둥글게), God는 /ɑː/ (입을 크게 벌림)",
+      "answer": "Good는 '굿', God는 '갓'에 가깝습니다",
+      "explanation": "모음 소리가 다릅니다.",
+      "relatedWordIds": ["w3"]
+    },
+    {
+      "id": "ex145",
+      "type": "pronunciation_compare",
+      "difficulty": "medium",
+      "question": "'Where'와 'Were'의 발음 차이를 확인하세요",
+      "word1": "Where",
+      "word2": "Were",
+      "pronunciation1": "/wer/",
+      "pronunciation2": "/wɜːr/",
+      "difference": "Where는 /e/ 소리, Were는 /ɜː/ (어)로 더 깊은 소리",
+      "answer": "Where는 '웨어', Were는 '워'에 가깝습니다",
+      "explanation": "비슷해 보이지만 다른 발음입니다.",
+      "relatedWordIds": ["w42"]
+    },
+    {
+      "id": "ex146",
+      "type": "pronunciation_compare",
+      "difficulty": "medium",
+      "question": "'What'과 'Watt'의 발음을 비교하세요",
+      "word1": "What",
+      "word2": "Watt",
+      "pronunciation1": "/wɑːt/",
+      "pronunciation2": "/wɑːt/",
+      "difference": "발음은 같지만 의미가 다름 (무엇 vs 와트/전력단위)",
+      "answer": "두 단어는 발음이 같은 동음이의어입니다",
+      "explanation": "문맥으로 구분해야 합니다.",
+      "relatedWordIds": ["w41"]
+    },
+    {
+      "id": "ex147",
+      "type": "pronunciation_compare",
+      "difficulty": "medium",
+      "question": "'Sorry'와 'Story'의 발음 차이를 확인하세요",
+      "word1": "Sorry",
+      "word2": "Story",
+      "pronunciation1": "/ˈsɑːri/",
+      "pronunciation2": "/ˈstɔːri/",
+      "difference": "Sorry는 /sɑː/, Story는 /stɔː/로 'st' 자음군과 모음이 다름",
+      "answer": "Sorry는 '쏘리', Story는 '스토리'입니다",
+      "explanation": "자음과 모음이 모두 다릅니다.",
+      "relatedWordIds": ["w8"]
+    },
+    {
+      "id": "ex148",
+      "type": "pronunciation_compare",
+      "difficulty": "medium",
+      "question": "'Welcome'의 올바른 발음을 선택하세요",
+      "word1": "Welcome (올바른)",
+      "word2": "Welcome (흔한 실수)",
+      "pronunciation1": "/ˈwelkəm/",
+      "pronunciation2": "/ˈwelkoːm/",
+      "difference": "두 번째 음절은 약하게 /əm/으로 발음",
+      "answer": "'웰컴'이 아니라 '웰큼'에 가깝게 발음합니다",
+      "explanation": "마지막 음절을 약하게 발음해야 자연스럽습니다.",
+      "relatedWordIds": ["w11"]
+    },
+    {
+      "id": "ex149",
+      "type": "pronunciation_compare",
+      "difficulty": "hard",
+      "question": "'Excuse me'의 두 가지 발음 차이를 확인하세요",
+      "word1": "Excuse me (양해 구함)",
+      "word2": "Excuse me (주의 끔)",
+      "pronunciation1": "/ɪkˈskjuːz mi/",
+      "pronunciation2": "/ɪkˈskjuːs mi/",
+      "difference": "양해를 구할 때는 /z/, 주의를 끌 때는 /s/로 발음하기도 함",
+      "answer": "상황에 따라 미세하게 다르지만 /z/가 일반적입니다",
+      "explanation": "문맥과 억양이 더 중요합니다.",
+      "relatedWordIds": ["w12"]
+    },
+    {
+      "id": "ex150",
+      "type": "pronunciation_compare",
+      "difficulty": "hard",
+      "question": "'How are you?'의 자연스러운 발음을 확인하세요",
+      "word1": "How are you? (또박또박)",
+      "word2": "How are you? (자연스럽게)",
+      "pronunciation1": "/haʊ ɑːr juː/",
+      "pronunciation2": "/haʊərjə/",
+      "difference": "일상 대화에서는 연음되어 '하워야'처럼 들림",
+      "answer": "자연스럽게 말할 때는 '하워야'에 가깝습니다",
+      "explanation": "빠르게 말하면 단어가 연결되어 발음됩니다.",
+      "relatedWordIds": ["w14"]
     }
   ]
 }

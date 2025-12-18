@@ -1,0 +1,116 @@
+{
+  "id": "c1-listening-week-4",
+  "type": "listening",
+  "level": "C1",
+  "weekId": "week-4",
+  "title": "Financial News and Market Analysis",
+  "description": "Understanding complex financial reporting and economic analysis",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passages": [
+    {
+      "id": "c1-l4-p1",
+      "title": "Quarterly Earnings Report",
+      "context": "Financial news broadcast",
+      "transcript": "TechGlobal reported mixed results in its fourth-quarter earnings, with revenue exceeding analyst expectations at 42.3 billion dollars, while earnings per share fell short at 2.17 versus the projected 2.35. The shortfall was attributed primarily to increased R&D spending, which the company insists will drive long-term growth. CFO Sarah Chen noted that cloud services revenue grew 34 percent year-over-year, offsetting declines in hardware sales. The company also announced a 15 billion dollar share buyback program, which some analysts view as a signal of confidence while others question whether the capital could be better deployed elsewhere.",
+      "audioDescription": "Financial reporter discussing quarterly earnings",
+      "questions": [
+        {
+          "id": "c1-l4-p1-q1",
+          "question": "How did TechGlobal's revenue compare to expectations?",
+          "options": [
+            "It fell short of expectations",
+            "It exceeded analyst expectations",
+            "It matched expectations exactly",
+            "It was not disclosed"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Revenue 'exceeded analyst expectations at 42.3 billion dollars'"
+        },
+        {
+          "id": "c1-l4-p1-q2",
+          "question": "What caused the earnings per share to miss projections?",
+          "options": [
+            "Declining cloud revenue",
+            "Currency fluctuations",
+            "Increased R&D spending",
+            "Rising labor costs"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The shortfall was 'attributed primarily to increased R&D spending'"
+        },
+        {
+          "id": "c1-l4-p1-q3",
+          "question": "What is the mixed analyst opinion about?",
+          "options": [
+            "The quarterly revenue figures",
+            "The CFO's performance",
+            "The share buyback program",
+            "The cloud services growth"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The share buyback program is viewed differently - 'some analysts view as a signal of confidence while others question whether the capital could be better deployed elsewhere'"
+        }
+      ]
+    },
+    {
+      "id": "c1-l4-p2",
+      "title": "Central Bank Policy Decision",
+      "context": "Economic analysis podcast",
+      "transcript": "The Federal Reserve's decision to hold rates steady at 5.25 to 5.5 percent was largely anticipated, but what surprised markets was the hawkish tone of Chair Powell's subsequent remarks. While acknowledging that inflation has moderated from its peaks, Powell emphasized that the committee isn't confident enough to begin cutting rates. The dot plot now suggests just three cuts in the coming year, down from four in the previous projection. Bond yields rose immediately following the announcement, while equities pulled back. For consumers, this means mortgage rates, auto loans, and credit card APRs are likely to remain elevated through at least the first half of the year.",
+      "audioDescription": "Economic analyst discussing Federal Reserve policy",
+      "questions": [
+        {
+          "id": "c1-l4-p2-q1",
+          "question": "What surprised the markets about the Fed announcement?",
+          "options": [
+            "The rate decision itself",
+            "The hawkish tone of Powell's remarks",
+            "The inflation figures",
+            "The bond yield movement"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The rate hold 'was largely anticipated, but what surprised markets was the hawkish tone of Chair Powell's subsequent remarks'"
+        },
+        {
+          "id": "c1-l4-p2-q2",
+          "question": "How did the projected rate cuts change?",
+          "options": [
+            "From three to four",
+            "From four to three",
+            "From two to one",
+            "They remained unchanged"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The dot plot now suggests 'just three cuts in the coming year, down from four in the previous projection'"
+        },
+        {
+          "id": "c1-l4-p2-q3",
+          "question": "What was the immediate market reaction to the announcement?",
+          "options": [
+            "Bond yields fell and equities rose",
+            "Both bond yields and equities fell",
+            "Bond yields rose and equities pulled back",
+            "Markets showed no reaction"
+          ],
+          "correctAnswer": 2,
+          "explanation": "'Bond yields rose immediately following the announcement, while equities pulled back'"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "earnings per share",
+      "definition": "Company profit divided by outstanding shares of common stock"
+    },
+    {
+      "term": "hawkish",
+      "definition": "Favoring tighter monetary policy to combat inflation"
+    },
+    {
+      "term": "dot plot",
+      "definition": "Chart showing Federal Reserve officials' interest rate projections"
+    }
+  ]
+}

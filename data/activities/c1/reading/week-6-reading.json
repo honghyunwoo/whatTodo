@@ -1,0 +1,100 @@
+{
+  "id": "c1-reading-week-6",
+  "type": "reading",
+  "level": "C1",
+  "weekId": "week-6",
+  "title": "Constitutional Interpretation and Rule of Law",
+  "description": "Analyzing legal reasoning and constitutional discourse",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "passage": {
+    "title": "The Living Constitution Debate",
+    "author": "Adapted from legal and constitutional sources",
+    "paragraphs": [
+      "The question of how to interpret constitutional text has divided legal scholars into two broad camps. Originalists argue that the Constitution should be interpreted according to its original public meaning—the meaning a reasonable person would have ascribed to the text at the time of ratification. On this view, the Constitution's meaning is fixed; only its application to new circumstances can evolve. Judges who depart from original meaning, originalists contend, are not interpreting the Constitution but rewriting it, usurping the democratic power of amendment.",
+      "Living constitutionalists counter that constitutional meaning necessarily evolves with society. The framers, they note, employed broad, abstract language—'due process,' 'equal protection,' 'cruel and unusual punishment'—precisely because they expected future generations to fill in the content. A constitution that cannot adapt becomes irrelevant; a constitution whose meaning is determined entirely by the past cannot govern the present. Moreover, they argue, the apparent objectivity of originalism is illusory: historical evidence is incomplete and contested, and originalists themselves disagree about which historical meaning to recover.",
+      "This debate has concrete consequences. Consider the Eighth Amendment's prohibition on 'cruel and unusual punishment.' An originalist might ask what punishments were considered cruel in 1791; a living constitutionalist might ask what punishments violate evolving standards of decency today. The death penalty, solitary confinement, and juvenile life sentences have all been contested through this lens. The choice of interpretive method is not merely academic; it shapes rights and lives.",
+      "Perhaps the dichotomy is too stark. Some scholars propose intermediate positions: originalism about the constitutional text but living interpretation of implementing doctrines; or original meaning constrained by precedent and practical consequences. What all positions share is a commitment to the rule of law—the principle that government power must be exercised according to established, public rules rather than arbitrary will. The question is what rule of law demands when the foundational rules are themselves contested."
+    ]
+  },
+  "questions": [
+    {
+      "id": "c1-r6-q1",
+      "type": "main-idea",
+      "question": "What is the central debate described in the passage?",
+      "options": [
+        "Whether the Constitution should be amended more frequently",
+        "How constitutional text should be interpreted",
+        "Whether judges should be elected or appointed",
+        "The role of precedent in legal decisions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage is about 'how to interpret constitutional text' and the divide between originalists and living constitutionalists"
+    },
+    {
+      "id": "c1-r6-q2",
+      "type": "detail",
+      "question": "According to originalists, what are judges who depart from original meaning doing?",
+      "options": [
+        "Applying the Constitution correctly",
+        "Following precedent appropriately",
+        "Rewriting the Constitution and usurping democratic power",
+        "Exercising judicial restraint"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Originalists contend that such judges 'are not interpreting the Constitution but rewriting it, usurping the democratic power of amendment'"
+    },
+    {
+      "id": "c1-r6-q3",
+      "type": "inference",
+      "question": "Why do living constitutionalists emphasize the framers' use of 'broad, abstract language'?",
+      "options": [
+        "To show the framers were poor writers",
+        "To argue the framers expected future interpretation to evolve",
+        "To prove originalism is correct",
+        "To suggest the Constitution needs amendment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Living constitutionalists argue abstract language was used 'precisely because they expected future generations to fill in the content'"
+    },
+    {
+      "id": "c1-r6-q4",
+      "type": "vocabulary",
+      "question": "In this context, 'implementing doctrines' refers to:",
+      "options": [
+        "The original Constitutional text",
+        "Rules developed by courts to apply constitutional principles",
+        "Congressional legislation",
+        "Executive orders"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Implementing doctrines are the rules and tests courts develop to apply abstract constitutional provisions to specific cases"
+    },
+    {
+      "id": "c1-r6-q5",
+      "type": "analysis",
+      "question": "How does the Eighth Amendment example illustrate the interpretive debate?",
+      "options": [
+        "It shows originalism is obviously correct",
+        "It demonstrates the choice of method has concrete consequences for rights",
+        "It proves living constitutionalism is the only viable approach",
+        "It suggests the Constitution is unclear about punishment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The example shows 'the choice of interpretive method is not merely academic; it shapes rights and lives'"
+    },
+    {
+      "id": "c1-r6-q6",
+      "type": "synthesis",
+      "question": "What does the passage suggest about the relationship between interpretive methods and rule of law?",
+      "options": [
+        "Only originalism supports rule of law",
+        "Living constitutionalism undermines rule of law",
+        "All positions share commitment to rule of law despite disagreement on method",
+        "Rule of law is impossible when foundational rules are contested"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'What all positions share is a commitment to the rule of law' even when 'the foundational rules are themselves contested'"
+    }
+  ]
+}

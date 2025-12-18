@@ -1,0 +1,149 @@
+{
+  "id": "c2-grammar-week-6",
+  "type": "grammar",
+  "level": "C2",
+  "weekId": "week-6",
+  "title": "The Language of Moral Reasoning",
+  "description": "Grammatical structures for expressing ethical arguments and obligations",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c2-g6-s1",
+      "title": "Deontic Modality",
+      "explanation": "Expressing obligation, permission, and prohibition in moral discourse.",
+      "patterns": [
+        {
+          "type": "Strong obligation",
+          "forms": ["must", "ought to", "is obligated to", "is required to"],
+          "example": "One ought to keep one's promises.",
+          "note": "'Ought' is preferred in philosophical discourse over 'should'"
+        },
+        {
+          "type": "Permission",
+          "forms": ["may", "is permitted to", "has the right to"],
+          "example": "A person may defend themselves against aggression.",
+          "note": "Distinguishes what is allowed from what is required"
+        },
+        {
+          "type": "Prohibition",
+          "forms": ["must not", "ought not to", "is forbidden to"],
+          "example": "One must not use persons merely as means.",
+          "note": "'Must not' is stronger than 'should not'"
+        },
+        {
+          "type": "Supererogation",
+          "forms": ["it would be good to", "one would be praiseworthy for", "while not obligated, one could"],
+          "example": "While not obligated to do so, donating a kidney would be praiseworthy.",
+          "note": "Beyond duty but commendable"
+        }
+      ]
+    },
+    {
+      "id": "c2-g6-s2",
+      "title": "Conditional Structures in Ethics",
+      "explanation": "Expressing hypothetical imperatives and conditional duties.",
+      "patterns": [
+        {
+          "type": "Hypothetical imperative",
+          "structure": "If one wants X, one ought to Y",
+          "example": "If you want to be trusted, you ought to be honest.",
+          "contrast": "Differs from categorical imperative, which applies unconditionally"
+        },
+        {
+          "type": "Pro tanto duty",
+          "structure": "Other things being equal / In the absence of countervailing considerations",
+          "example": "Other things being equal, one ought to tell the truth.",
+          "note": "Acknowledges duties can be overridden"
+        },
+        {
+          "type": "Prima facie duty",
+          "structure": "X is prima facie wrong / At first glance, X is...",
+          "example": "Lying is prima facie wrong, but may be justified in extreme circumstances.",
+          "note": "Ross's concept of defeasible duties"
+        }
+      ]
+    },
+    {
+      "id": "c2-g6-s3",
+      "title": "Logical Connectors in Ethical Argument",
+      "explanation": "Structures for building and analyzing moral arguments.",
+      "connectors": [
+        {
+          "connector": "If and only if (iff)",
+          "meaning": "Biconditional: both directions hold",
+          "example": "An action is right if and only if it maximizes utility."
+        },
+        {
+          "connector": "It follows that / Therefore",
+          "meaning": "Logical consequence",
+          "example": "Lying violates the categorical imperative. Therefore, lying is wrong."
+        },
+        {
+          "connector": "This entails / implies",
+          "meaning": "Logical implication",
+          "example": "The principle entails that we must never treat persons merely as means."
+        },
+        {
+          "connector": "Assuming / Granted that",
+          "meaning": "Premises taken as given",
+          "example": "Granted that pleasure is the only intrinsic good, utilitarianism follows."
+        }
+      ]
+    },
+    {
+      "id": "c2-g6-s4",
+      "title": "Expressing Moral Intuitions and Counterexamples",
+      "explanation": "Structures for presenting intuitive judgments and testing theories.",
+      "patterns": [
+        {
+          "function": "Appealing to intuition",
+          "expressions": [
+            "Intuitively, X seems wrong/right.",
+            "Most would judge that...",
+            "The case elicits the intuition that..."
+          ]
+        },
+        {
+          "function": "Presenting counterexamples",
+          "expressions": [
+            "Consider a case in which...",
+            "The theory implies that X, which seems absurd.",
+            "This commits one to the counterintuitive position that..."
+          ]
+        },
+        {
+          "function": "Defending against counterexamples",
+          "expressions": [
+            "This apparent counterexample can be accommodated by...",
+            "The intuition in this case may be unreliable because...",
+            "A sufficiently refined version of the theory would hold that..."
+          ]
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-g6-ex1",
+      "type": "deontic-analysis",
+      "instruction": "Identify the type of deontic claim",
+      "sentence": "While not required, donating to charity would be morally admirable.",
+      "answer": "Supererogation - beyond duty but praiseworthy"
+    },
+    {
+      "id": "c2-g6-ex2",
+      "type": "transformation",
+      "instruction": "Express as a prima facie duty",
+      "original": "Telling the truth is always obligatory.",
+      "answer": "Telling the truth is prima facie obligatory, though it may be overridden by weightier considerations."
+    },
+    {
+      "id": "c2-g6-ex3",
+      "type": "counterexample-construction",
+      "instruction": "Construct a counterexample to this principle",
+      "principle": "The consequences of an action determine its moral status.",
+      "answer": "Consider a case where two agents act identically but with different outcomes due to luck. If consequences alone matter, then one acted wrongly and the other rightly, despite identical intentions and actions. Yet intuitively, they seem equally blameworthy or praiseworthy."
+    }
+  ]
+}

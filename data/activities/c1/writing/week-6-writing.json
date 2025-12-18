@@ -1,0 +1,100 @@
+{
+  "id": "c1-writing-week-6",
+  "type": "writing",
+  "level": "C1",
+  "weekId": "week-6",
+  "title": "Legal and Policy Writing",
+  "description": "Drafting formal documents for legal and institutional contexts",
+  "estimatedMinutes": 35,
+  "xpReward": 65,
+  "sections": [
+    {
+      "id": "c1-w6-s1",
+      "title": "Position Paper Structure",
+      "description": "Organizing arguments for policy advocacy",
+      "structure": [
+        {
+          "section": "Executive Summary",
+          "content": "Clear statement of position and key supporting arguments",
+          "example": "This paper argues that the proposed regulation should be modified to include a small business exemption, based on disproportionate compliance costs and minimal risk reduction."
+        },
+        {
+          "section": "Background",
+          "content": "Context necessary to understand the issue",
+          "example": "The proposed rule would require all businesses to implement a comprehensive data protection program by January 2025."
+        },
+        {
+          "section": "Position",
+          "content": "Clear statement of your organization's stance",
+          "example": "We support the regulation's objectives but oppose its application to businesses with fewer than 50 employees."
+        },
+        {
+          "section": "Supporting Arguments",
+          "content": "Evidence and reasoning for each key claim",
+          "example": "Compliance costs for small businesses would average $45,000—15% of annual revenue for the typical affected firm."
+        },
+        {
+          "section": "Counterarguments and Responses",
+          "content": "Acknowledge opposing views and address them",
+          "example": "While some argue exemptions create loopholes, empirical data shows small businesses account for only 3% of data breaches."
+        },
+        {
+          "section": "Recommendations",
+          "content": "Specific proposed actions",
+          "example": "We recommend: (1) exempting businesses with fewer than 50 employees, (2) providing a 24-month implementation timeline, (3) establishing technical assistance for compliance."
+        }
+      ]
+    },
+    {
+      "id": "c1-w6-s2",
+      "title": "Legal Drafting Conventions",
+      "description": "Style elements for formal legal documents",
+      "conventions": [
+        {
+          "convention": "Defined terms",
+          "example": "'Company' means ABC Corporation and its wholly-owned subsidiaries.",
+          "note": "Capitalize defined terms throughout"
+        },
+        {
+          "convention": "Enumeration",
+          "example": "The Licensee shall: (a) maintain adequate insurance; (b) comply with all applicable laws; and (c) permit reasonable inspections.",
+          "note": "Use (a), (b), (c) for sub-clauses"
+        },
+        {
+          "convention": "Parallelism",
+          "example": "This Agreement may be terminated by either party for breach, by mutual consent, or by operation of law.",
+          "note": "Maintain grammatical consistency in lists"
+        },
+        {
+          "convention": "Precision over elegance",
+          "example": "payment shall be made within thirty (30) days",
+          "note": "Numbers in both words and figures for clarity"
+        }
+      ]
+    },
+    {
+      "id": "c1-w6-s3",
+      "title": "Formal Correspondence",
+      "description": "Letters for official and legal purposes",
+      "elements": [
+        {
+          "element": "Reference line",
+          "example": "Re: Response to Notice of Violation dated March 15, 2024"
+        },
+        {
+          "element": "Reservation of rights",
+          "example": "Nothing in this letter shall be construed as a waiver of any rights or defenses available to us."
+        },
+        {
+          "element": "Without prejudice",
+          "example": "This communication is made without prejudice to our position should this matter proceed to litigation."
+        }
+      ]
+    }
+  ],
+  "writingTask": {
+    "title": "Formal Policy Comment Letter",
+    "prompt": "Write a formal comment letter (250-300 words) to a regulatory agency opposing a proposed rule that would require all employers to provide 12 weeks of paid family leave, arguing that small businesses should be exempt or given longer implementation timelines.",
+    "sampleResponse": "Re: Comments on Proposed Rule on Mandatory Paid Family Leave\n\nDear Administrator Chen:\n\nThe Small Business Alliance submits these comments in response to the proposed rule on mandatory paid family leave published in the Federal Register on November 1, 2024.\n\nPosition: While we support the policy objective of providing workers with adequate family leave, we respectfully submit that the proposed rule, as drafted, would impose disproportionate burdens on small businesses. We urge the agency to adopt modifications that achieve the rule's goals while preserving small business viability.\n\nSupporting Analysis:\n\nFirst, compliance costs would be substantially higher for small businesses on a per-employee basis. Our member survey indicates that businesses with fewer than 50 employees would face implementation costs averaging $1,500 per employee—three times the per-employee cost for larger firms due to lack of economies of scale.\n\nSecond, the loss of a single employee for 12 weeks creates greater operational disruption for small businesses, where individual employees often possess unique institutional knowledge and fulfill multiple functions.\n\nThird, small businesses typically lack the financial reserves to fund extended leave while maintaining operations, particularly in service industries where customer relationships depend on personnel continuity.\n\nRecommendations:\n\nWe propose the following modifications:\n(a) Exempt businesses with fewer than 25 employees from the mandatory provisions;\n(b) Provide a 36-month implementation timeline for businesses with 25-50 employees; and\n(c) Establish a tax credit to offset compliance costs for qualifying small businesses.\n\nThese modifications would preserve the rule's benefits for the majority of workers while preventing unintended harm to small business employment.\n\nRespectfully submitted,\n\nMaria Johnson\nPolicy Director\nSmall Business Alliance"
+  }
+}

@@ -226,6 +226,566 @@
       "translation": "책임",
       "example": "It's my responsibility to train new staff.",
       "exampleMeaning": "신입 직원 교육은 제 책임이에요."
+    },
+    {
+      "id": "w23",
+      "word": "employer",
+      "pronunciation": "/ɪmˈplɔɪər/",
+      "partOfSpeech": "noun",
+      "meaning": "a person or company that employs people",
+      "translation": "고용주, 사용자",
+      "example": "My employer offers good benefits.",
+      "exampleMeaning": "제 고용주는 좋은 복리후생을 제공해요.",
+      "koreanPronunciationTip": "임플로이어 - '플로이' 부분을 강조",
+      "koreanCommonMistake": "employee(직원)와 혼동하지 않도록 주의",
+      "mnemonic": "employ + er = 고용하는 사람",
+      "wordFamily": ["employ (v)", "employee (n)", "employment (n)", "employed (adj)"],
+      "collocations": ["good employer", "former employer", "potential employer"],
+      "synonyms": ["boss", "company"],
+      "antonyms": ["employee"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w24",
+      "word": "employee",
+      "pronunciation": "/ɪmˌplɔɪˈiː/",
+      "partOfSpeech": "noun",
+      "meaning": "a person who works for someone",
+      "translation": "직원, 고용인",
+      "example": "The company has 50 employees.",
+      "exampleMeaning": "그 회사에는 50명의 직원이 있어요.",
+      "koreanPronunciationTip": "임플로이이 - 마지막 '이' 소리를 길게",
+      "koreanCommonMistake": "employer(고용주)와 발음이 비슷해서 혼동하기 쉬움",
+      "mnemonic": "employ + ee = 고용되는 사람",
+      "wordFamily": ["employ (v)", "employer (n)", "employment (n)"],
+      "collocations": ["full-time employee", "part-time employee", "new employee"],
+      "synonyms": ["worker", "staff member"],
+      "antonyms": ["employer"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "w25",
+      "word": "promotion",
+      "pronunciation": "/prəˈmoʊʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "moving to a higher position at work",
+      "translation": "승진, 진급",
+      "example": "She got a promotion last month.",
+      "exampleMeaning": "그녀는 지난달에 승진했어요.",
+      "koreanPronunciationTip": "프러모션 - '모' 부분을 강조",
+      "koreanCommonMistake": "'프로모션'으로 발음하지 않도록 주의",
+      "mnemonic": "promote(승진시키다)의 명사형",
+      "wordFamily": ["promote (v)", "promotional (adj)"],
+      "collocations": ["get a promotion", "promotion opportunity", "deserve a promotion"],
+      "synonyms": ["advancement", "elevation"],
+      "antonyms": ["demotion"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w26",
+      "word": "resign",
+      "pronunciation": "/rɪˈzaɪn/",
+      "partOfSpeech": "verb",
+      "meaning": "to leave a job voluntarily",
+      "translation": "사직하다, 그만두다",
+      "example": "He decided to resign from his position.",
+      "exampleMeaning": "그는 직책을 사임하기로 결정했어요.",
+      "koreanPronunciationTip": "리자인 - '자' 부분을 강조하고 '인'을 길게",
+      "koreanCommonMistake": "design과 발음이 비슷하므로 주의",
+      "mnemonic": "re(다시) + sign(서명하다) → 사직서에 서명",
+      "wordFamily": ["resignation (n)", "resigned (adj)"],
+      "collocations": ["resign from", "resign voluntarily", "decide to resign"],
+      "synonyms": ["quit", "leave"],
+      "antonyms": ["hire", "join"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w27",
+      "word": "hire",
+      "pronunciation": "/haɪər/",
+      "partOfSpeech": "verb",
+      "meaning": "to employ someone",
+      "translation": "고용하다, 채용하다",
+      "example": "The company will hire five new workers.",
+      "exampleMeaning": "회사는 5명의 신입사원을 채용할 거예요.",
+      "koreanPronunciationTip": "하이어 - '하' 부분을 강조",
+      "koreanCommonMistake": "higher(더 높은)와 발음이 같으므로 문맥으로 구분",
+      "mnemonic": "hire a person = 사람을 고용하다",
+      "wordFamily": ["hiring (n)", "hired (adj)"],
+      "collocations": ["hire someone", "hire staff", "hire a new employee"],
+      "synonyms": ["employ", "recruit"],
+      "antonyms": ["fire", "dismiss"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w28",
+      "word": "interview",
+      "pronunciation": "/ˈɪntərvjuː/",
+      "partOfSpeech": "noun",
+      "meaning": "a formal meeting to assess someone for a job",
+      "translation": "면접",
+      "example": "I have a job interview tomorrow.",
+      "exampleMeaning": "내일 취업 면접이 있어요.",
+      "koreanPronunciationTip": "인터뷰 - '인' 부분을 강조",
+      "koreanCommonMistake": "한국어 '인터뷰'와 비슷하게 발음해도 됨",
+      "mnemonic": "inter(사이) + view(보다) → 서로 보는 것",
+      "wordFamily": ["interview (v)", "interviewer (n)", "interviewee (n)"],
+      "collocations": ["job interview", "have an interview", "conduct an interview"],
+      "synonyms": ["meeting", "consultation"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w29",
+      "word": "resume",
+      "pronunciation": "/ˈrezəmeɪ/",
+      "partOfSpeech": "noun",
+      "meaning": "a document showing work history and skills",
+      "translation": "이력서",
+      "example": "Please send your resume by email.",
+      "exampleMeaning": "이메일로 이력서를 보내주세요.",
+      "koreanPronunciationTip": "레저메이 - 첫 번째 '레'를 강조",
+      "koreanCommonMistake": "'리줌'으로 발음하지 않도록 주의",
+      "mnemonic": "resume = 이력서 (CV와 같은 의미)",
+      "wordFamily": [],
+      "collocations": ["submit a resume", "update resume", "impressive resume"],
+      "synonyms": ["CV", "curriculum vitae"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "w30",
+      "word": "department",
+      "pronunciation": "/dɪˈpɑːrtmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "a section of an organization",
+      "translation": "부서",
+      "example": "She works in the marketing department.",
+      "exampleMeaning": "그녀는 마케팅 부서에서 일해요.",
+      "koreanPronunciationTip": "디파트먼트 - '파'를 강조",
+      "koreanCommonMistake": "'디파트'로 줄여서 말하지 않도록 주의",
+      "mnemonic": "depart(나누다) + ment → 나눈 부분 = 부서",
+      "wordFamily": ["departmental (adj)"],
+      "collocations": ["department head", "sales department", "work in a department"],
+      "synonyms": ["division", "section"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "w31",
+      "word": "supervisor",
+      "pronunciation": "/ˈsuːpərvaɪzər/",
+      "partOfSpeech": "noun",
+      "meaning": "a person who watches and directs work",
+      "translation": "감독자, 관리자",
+      "example": "My supervisor gave me feedback on my work.",
+      "exampleMeaning": "제 관리자가 제 업무에 대한 피드백을 주셨어요.",
+      "koreanPronunciationTip": "수퍼바이저 - '수'와 '바이'를 강조",
+      "koreanCommonMistake": "'슈퍼바이저'로 발음하지 않도록 주의",
+      "mnemonic": "super(위에서) + visor(보는 사람) → 위에서 지켜보는 사람",
+      "wordFamily": ["supervise (v)", "supervision (n)", "supervisory (adj)"],
+      "collocations": ["direct supervisor", "report to supervisor", "ask supervisor"],
+      "synonyms": ["manager", "overseer"],
+      "antonyms": ["subordinate"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w32",
+      "word": "vacation",
+      "pronunciation": "/veɪˈkeɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "time off from work for rest",
+      "translation": "휴가",
+      "example": "I'm taking a vacation next week.",
+      "exampleMeaning": "다음 주에 휴가를 가요.",
+      "koreanPronunciationTip": "베이케이션 - '케이'를 강조",
+      "koreanCommonMistake": "'바케이션'으로 발음하지 않도록 주의",
+      "mnemonic": "vacate(비우다) + tion → 일을 비우는 시간",
+      "wordFamily": ["vacate (v)", "vacationer (n)"],
+      "collocations": ["take a vacation", "summer vacation", "vacation days"],
+      "synonyms": ["holiday", "leave"],
+      "antonyms": ["work"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w33",
+      "word": "sick leave",
+      "pronunciation": "/sɪk liːv/",
+      "partOfSpeech": "noun",
+      "meaning": "time off work due to illness",
+      "translation": "병가",
+      "example": "She's on sick leave this week.",
+      "exampleMeaning": "그녀는 이번 주에 병가 중이에요.",
+      "koreanPronunciationTip": "식 리브 - 두 단어를 자연스럽게 연결",
+      "koreanCommonMistake": "leave를 '떠나다'로 해석하지 않도록 주의",
+      "mnemonic": "sick(아픈) + leave(휴가) → 아파서 쉬는 것",
+      "wordFamily": [],
+      "collocations": ["take sick leave", "on sick leave", "sick leave policy"],
+      "synonyms": ["medical leave"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w34",
+      "word": "conference",
+      "pronunciation": "/ˈkɑːnfərəns/",
+      "partOfSpeech": "noun",
+      "meaning": "a large formal meeting",
+      "translation": "회의, 학회",
+      "example": "I'm attending a business conference.",
+      "exampleMeaning": "저는 비즈니스 컨퍼런스에 참석해요.",
+      "koreanPronunciationTip": "칸퍼런스 - '칸'을 강조",
+      "koreanCommonMistake": "한국어 '컨퍼런스'와 비슷하게 발음",
+      "mnemonic": "con(함께) + fer(가져오다) → 함께 모이는 것",
+      "wordFamily": [],
+      "collocations": ["attend conference", "conference room", "business conference"],
+      "synonyms": ["meeting", "convention"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "w35",
+      "word": "presentation",
+      "pronunciation": "/ˌprezənˈteɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "a formal talk about a topic",
+      "translation": "발표, 프레젠테이션",
+      "example": "I have to give a presentation tomorrow.",
+      "exampleMeaning": "내일 발표를 해야 해요.",
+      "koreanPronunciationTip": "프레젠테이션 - '테이'를 강조",
+      "koreanCommonMistake": "한국어 '프레젠테이션'과 거의 동일",
+      "mnemonic": "present(제시하다) + ation → 제시하는 것",
+      "wordFamily": ["present (v)", "presenter (n)"],
+      "collocations": ["give a presentation", "prepare presentation", "PowerPoint presentation"],
+      "synonyms": ["talk", "speech"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 2
+    },
+    {
+      "id": "w36",
+      "word": "contract",
+      "pronunciation": "/ˈkɑːntrækt/",
+      "partOfSpeech": "noun",
+      "meaning": "a written legal agreement",
+      "translation": "계약서",
+      "example": "Please sign the employment contract.",
+      "exampleMeaning": "고용 계약서에 서명해주세요.",
+      "koreanPronunciationTip": "칸트랙트 - '칸'을 강조",
+      "koreanCommonMistake": "'콘트랙트'로 발음하지 않도록 주의",
+      "mnemonic": "contract = 계약 (약속을 묶는다)",
+      "wordFamily": ["contract (v)", "contractor (n)", "contractual (adj)"],
+      "collocations": ["sign contract", "employment contract", "contract terms"],
+      "synonyms": ["agreement", "deal"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "w37",
+      "word": "benefits",
+      "pronunciation": "/ˈbenɪfɪts/",
+      "partOfSpeech": "noun",
+      "meaning": "extra advantages from a job",
+      "translation": "복리후생, 혜택",
+      "example": "The job offers great benefits.",
+      "exampleMeaning": "그 직업은 훌륭한 복리후생을 제공해요.",
+      "koreanPronunciationTip": "베니핏츠 - '베'를 강조",
+      "koreanCommonMistake": "단수 benefit과 복수 benefits 구분",
+      "mnemonic": "benefit = 이익, benefits = 직장 혜택들",
+      "wordFamily": ["benefit (n/v)", "beneficial (adj)"],
+      "collocations": ["employee benefits", "health benefits", "offer benefits"],
+      "synonyms": ["perks", "advantages"],
+      "antonyms": ["disadvantages"],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 2
+    },
+    {
+      "id": "w38",
+      "word": "retirement",
+      "pronunciation": "/rɪˈtaɪərmənt/",
+      "partOfSpeech": "noun",
+      "meaning": "stopping work permanently, usually due to age",
+      "translation": "은퇴, 퇴직",
+      "example": "He's planning for retirement next year.",
+      "exampleMeaning": "그는 내년 은퇴를 계획하고 있어요.",
+      "koreanPronunciationTip": "리타이어먼트 - '타이어'를 강조",
+      "koreanCommonMistake": "'리타이어'만으로 끝내지 말고 '먼트'까지 발음",
+      "mnemonic": "retire(은퇴하다) + ment → 은퇴",
+      "wordFamily": ["retire (v)", "retired (adj)", "retiree (n)"],
+      "collocations": ["early retirement", "retirement age", "retirement plan"],
+      "synonyms": ["退職"],
+      "antonyms": ["employment"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w39",
+      "word": "pay",
+      "pronunciation": "/peɪ/",
+      "partOfSpeech": "verb",
+      "meaning": "to give money for work or goods",
+      "translation": "지불하다, 급여를 주다",
+      "example": "The company pays well.",
+      "exampleMeaning": "그 회사는 급여를 잘 줘요.",
+      "koreanPronunciationTip": "페이 - 간단하게 '페이'",
+      "koreanCommonMistake": "pay, paid, paid 불규칙 동사 주의",
+      "mnemonic": "pay = 돈을 주다",
+      "wordFamily": ["pay (n)", "payment (n)", "paid (adj)"],
+      "collocations": ["pay salary", "pay well", "pay on time"],
+      "synonyms": ["compensate", "remunerate"],
+      "antonyms": ["receive"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w40",
+      "word": "earn",
+      "pronunciation": "/ɜːrn/",
+      "partOfSpeech": "verb",
+      "meaning": "to receive money for work",
+      "translation": "벌다, 얻다",
+      "example": "She earns $50,000 a year.",
+      "exampleMeaning": "그녀는 연간 5만 달러를 벌어요.",
+      "koreanPronunciationTip": "언 - '어'를 길게 발음",
+      "koreanCommonMistake": "learn(배우다)과 발음이 비슷하므로 주의",
+      "mnemonic": "earn money = 돈을 벌다",
+      "wordFamily": ["earnings (n)", "earner (n)"],
+      "collocations": ["earn money", "earn a living", "earn salary"],
+      "synonyms": ["make", "gain"],
+      "antonyms": ["spend", "lose"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w41",
+      "word": "apply",
+      "pronunciation": "/əˈplaɪ/",
+      "partOfSpeech": "verb",
+      "meaning": "to formally request something, especially a job",
+      "translation": "지원하다, 신청하다",
+      "example": "I want to apply for this job.",
+      "exampleMeaning": "이 직업에 지원하고 싶어요.",
+      "koreanPronunciationTip": "어플라이 - '플라이'를 강조",
+      "koreanCommonMistake": "apply for (직업), apply to (학교) 전치사 구분",
+      "mnemonic": "apply for a job = 직업에 지원하다",
+      "wordFamily": ["application (n)", "applicant (n)", "applied (adj)"],
+      "collocations": ["apply for job", "apply online", "apply in person"],
+      "synonyms": ["request", "submit"],
+      "antonyms": ["withdraw"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w42",
+      "word": "qualification",
+      "pronunciation": "/ˌkwɑːlɪfɪˈkeɪʃn/",
+      "partOfSpeech": "noun",
+      "meaning": "a skill or certificate needed for a job",
+      "translation": "자격, 자격증",
+      "example": "Do you have the right qualifications?",
+      "exampleMeaning": "적절한 자격이 있나요?",
+      "koreanPronunciationTip": "퀄리피케이션 - '케이'를 강조",
+      "koreanCommonMistake": "긴 단어이므로 천천히 발음 연습 필요",
+      "mnemonic": "qualify(자격을 얻다) + cation → 자격",
+      "wordFamily": ["qualify (v)", "qualified (adj)"],
+      "collocations": ["job qualifications", "educational qualifications", "meet qualifications"],
+      "synonyms": ["credential", "certificate"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "w43",
+      "word": "experience",
+      "pronunciation": "/ɪkˈspɪriəns/",
+      "partOfSpeech": "noun",
+      "meaning": "knowledge or skill from doing something",
+      "translation": "경험",
+      "example": "She has five years of work experience.",
+      "exampleMeaning": "그녀는 5년의 업무 경험이 있어요.",
+      "koreanPronunciationTip": "익스피리언스 - '스피'를 강조",
+      "koreanCommonMistake": "한국어 '익스피리언스'와 비슷하게 발음",
+      "mnemonic": "experience = 경험 (experiential learning)",
+      "wordFamily": ["experience (v)", "experienced (adj)"],
+      "collocations": ["work experience", "gain experience", "years of experience"],
+      "synonyms": ["knowledge", "expertise"],
+      "antonyms": ["inexperience"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 2
+    },
+    {
+      "id": "w44",
+      "word": "skill",
+      "pronunciation": "/skɪl/",
+      "partOfSpeech": "noun",
+      "meaning": "an ability to do something well",
+      "translation": "기술, 능력",
+      "example": "Communication is an important skill.",
+      "exampleMeaning": "의사소통은 중요한 기술이에요.",
+      "koreanPronunciationTip": "스킬 - 짧고 강하게 발음",
+      "koreanCommonMistake": "한국어 '스킬'과 거의 동일",
+      "mnemonic": "skill = 잘하는 능력",
+      "wordFamily": ["skilled (adj)", "skillful (adj)"],
+      "collocations": ["develop skills", "technical skills", "communication skills"],
+      "synonyms": ["ability", "talent"],
+      "antonyms": ["inability"],
+      "cefrLevel": "A2",
+      "frequency": 5,
+      "difficulty": 1
+    },
+    {
+      "id": "w45",
+      "word": "training",
+      "pronunciation": "/ˈtreɪnɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "the process of learning skills",
+      "translation": "교육, 훈련",
+      "example": "New employees receive training.",
+      "exampleMeaning": "신입사원들은 교육을 받아요.",
+      "koreanPronunciationTip": "트레이닝 - '트레이'를 강조",
+      "koreanCommonMistake": "한국어 '트레이닝'과 거의 동일",
+      "mnemonic": "train(훈련하다) + ing → 훈련",
+      "wordFamily": ["train (v)", "trainer (n)", "trainee (n)"],
+      "collocations": ["job training", "receive training", "training program"],
+      "synonyms": ["instruction", "education"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 4,
+      "difficulty": 1
+    },
+    {
+      "id": "w46",
+      "word": "workspace",
+      "pronunciation": "/ˈwɜːrkspeɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "an area where someone works",
+      "translation": "작업 공간",
+      "example": "Keep your workspace clean and organized.",
+      "exampleMeaning": "작업 공간을 깨끗하고 정돈되게 유지하세요.",
+      "koreanPronunciationTip": "워크스페이스 - '워크'와 '스페이스'를 명확히",
+      "koreanCommonMistake": "work + space로 이해하면 쉬움",
+      "mnemonic": "work(일) + space(공간) → 일하는 공간",
+      "wordFamily": ["work (n/v)", "space (n)"],
+      "collocations": ["clean workspace", "shared workspace", "personal workspace"],
+      "synonyms": ["workstation", "desk area"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "w47",
+      "word": "cubicle",
+      "pronunciation": "/ˈkjuːbɪkl/",
+      "partOfSpeech": "noun",
+      "meaning": "a small separated work area in an office",
+      "translation": "칸막이 사무실",
+      "example": "Each employee has their own cubicle.",
+      "exampleMeaning": "각 직원은 자신의 칸막이 공간이 있어요.",
+      "koreanPronunciationTip": "큐비클 - '큐'를 강조",
+      "koreanCommonMistake": "'큐빅'으로 줄여 말하지 않도록 주의",
+      "mnemonic": "cube(정육면체) + icle → 작은 사각 공간",
+      "wordFamily": [],
+      "collocations": ["office cubicle", "work in cubicle", "cubicle partition"],
+      "synonyms": ["workstation", "booth"],
+      "antonyms": ["open office"],
+      "cefrLevel": "A2",
+      "frequency": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "w48",
+      "word": "paperwork",
+      "pronunciation": "/ˈpeɪpərwɜːrk/",
+      "partOfSpeech": "noun",
+      "meaning": "written work and documents",
+      "translation": "서류 작업",
+      "example": "I have a lot of paperwork to complete.",
+      "exampleMeaning": "완료해야 할 서류 작업이 많아요.",
+      "koreanPronunciationTip": "페이퍼워크 - '페이퍼'를 강조",
+      "koreanCommonMistake": "paper + work로 이해하면 쉬움",
+      "mnemonic": "paper(종이) + work(일) → 종이 일 = 서류 작업",
+      "wordFamily": ["paper (n)", "work (n)"],
+      "collocations": ["complete paperwork", "do paperwork", "administrative paperwork"],
+      "synonyms": ["documentation", "forms"],
+      "antonyms": [],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w49",
+      "word": "attendance",
+      "pronunciation": "/əˈtendəns/",
+      "partOfSpeech": "noun",
+      "meaning": "the act of being present at work or school",
+      "translation": "출석, 출근",
+      "example": "Good attendance is important for this job.",
+      "exampleMeaning": "이 직업에는 좋은 출근율이 중요해요.",
+      "koreanPronunciationTip": "어텐던스 - '텐'을 강조",
+      "koreanCommonMistake": "attend(참석하다)와 연결지어 기억",
+      "mnemonic": "attend(참석하다) + ance → 참석",
+      "wordFamily": ["attend (v)", "attendant (n)"],
+      "collocations": ["perfect attendance", "attendance record", "take attendance"],
+      "synonyms": ["presence", "participation"],
+      "antonyms": ["absence"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "w50",
+      "word": "punctual",
+      "pronunciation": "/ˈpʌŋktʃuəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "arriving or doing something at the expected time",
+      "translation": "시간을 지키는, 정시의",
+      "example": "Please be punctual for the meeting.",
+      "exampleMeaning": "회의에 시간을 지켜 주세요.",
+      "koreanPronunciationTip": "펑츄얼 - '펑'을 강조",
+      "koreanCommonMistake": "puncture(펑크)와 혼동하지 않도록 주의",
+      "mnemonic": "punct(점) + ual → 정확한 시점 = 시간 엄수",
+      "wordFamily": ["punctuality (n)", "punctually (adv)"],
+      "collocations": ["be punctual", "punctual person", "arrive punctual"],
+      "synonyms": ["on time", "prompt"],
+      "antonyms": ["late", "tardy"],
+      "cefrLevel": "A2",
+      "frequency": 3,
+      "difficulty": 2
     }
   ],
 
@@ -334,6 +894,922 @@
       "type": "fill_blank",
       "question": "It's my _____ to help new employees.",
       "answer": "responsibility"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "What is an 'employer'?",
+      "options": ["a person who works for a company", "a person or company that hires people", "a document for a job", "a meeting"],
+      "answer": "a person or company that hires people"
+    },
+    {
+      "id": "ex17",
+      "type": "translation_ko_en",
+      "question": "그녀는 지난달에 승진했어요.",
+      "answer": "She got a promotion last month."
+    },
+    {
+      "id": "ex18",
+      "type": "fill_blank",
+      "question": "I need to _____ for this job position.",
+      "answer": "apply"
+    },
+    {
+      "id": "ex19",
+      "type": "true_false",
+      "question": "An 'employee' is someone who hires people.",
+      "answer": false
+    },
+    {
+      "id": "ex20",
+      "type": "translation_en_ko",
+      "question": "I have a job interview tomorrow.",
+      "answer": "내일 취업 면접이 있어요."
+    },
+    {
+      "id": "ex21",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "take a", "collocation": "vacation"},
+        {"word": "sign a", "collocation": "contract"},
+        {"word": "give a", "collocation": "presentation"},
+        {"word": "attend a", "collocation": "conference"}
+      ]
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "What does 'resign' mean?",
+      "options": ["to get a promotion", "to leave a job voluntarily", "to hire someone", "to work overtime"],
+      "answer": "to leave a job voluntarily"
+    },
+    {
+      "id": "ex23",
+      "type": "error_correction",
+      "question": "She work in the marketing department.",
+      "answer": "She works in the marketing department."
+    },
+    {
+      "id": "ex24",
+      "type": "fill_blank",
+      "question": "Please send your _____ by email.",
+      "answer": "resume"
+    },
+    {
+      "id": "ex25",
+      "type": "sentence_ordering",
+      "words": ["I", "wake", "up", "at", "7", "a.m."],
+      "answer": "I wake up at 7 a.m."
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "Which word means 'time off work due to illness'?",
+      "options": ["vacation", "sick leave", "promotion", "training"],
+      "answer": "sick leave"
+    },
+    {
+      "id": "ex27",
+      "type": "translation_ko_en",
+      "question": "제 관리자가 피드백을 주셨어요.",
+      "answer": "My supervisor gave me feedback."
+    },
+    {
+      "id": "ex28",
+      "type": "true_false",
+      "question": "'Benefits' means extra advantages from a job.",
+      "answer": true
+    },
+    {
+      "id": "ex29",
+      "type": "fill_blank",
+      "question": "The company will _____ five new workers.",
+      "answer": "hire"
+    },
+    {
+      "id": "ex30",
+      "type": "pronunciation_compare",
+      "pairs": [
+        {"word": "employer", "similar": "employee"},
+        {"word": "hire", "similar": "higher"}
+      ]
+    },
+    {
+      "id": "ex31",
+      "type": "matching",
+      "pairs": [
+        {"word": "retire", "meaning": "stop working permanently"},
+        {"word": "earn", "meaning": "receive money for work"},
+        {"word": "pay", "meaning": "give money for work"},
+        {"word": "apply", "meaning": "request a job"}
+      ]
+    },
+    {
+      "id": "ex32",
+      "type": "multiple_choice",
+      "question": "What is a 'qualification'?",
+      "options": ["a type of meeting", "a skill or certificate needed for a job", "a work schedule", "a vacation day"],
+      "answer": "a skill or certificate needed for a job"
+    },
+    {
+      "id": "ex33",
+      "type": "translation_en_ko",
+      "question": "She has five years of work experience.",
+      "answer": "그녀는 5년의 업무 경험이 있어요."
+    },
+    {
+      "id": "ex34",
+      "type": "error_correction",
+      "question": "He decided to resign from he position.",
+      "answer": "He decided to resign from his position."
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "Communication is an important _____.",
+      "answer": "skill"
+    },
+    {
+      "id": "ex36",
+      "type": "sentence_ordering",
+      "words": ["New", "employees", "receive", "training"],
+      "answer": "New employees receive training."
+    },
+    {
+      "id": "ex37",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "earn", "collocation": "money"},
+        {"word": "develop", "collocation": "skills"},
+        {"word": "gain", "collocation": "experience"},
+        {"word": "meet", "collocation": "qualifications"}
+      ]
+    },
+    {
+      "id": "ex38",
+      "type": "multiple_choice",
+      "question": "Choose the correct word: 'Keep your _____ clean and organized.'",
+      "options": ["cubicle", "workspace", "paperwork", "attendance"],
+      "answer": "workspace"
+    },
+    {
+      "id": "ex39",
+      "type": "translation_ko_en",
+      "question": "회의에 시간을 지켜 주세요.",
+      "answer": "Please be punctual for the meeting."
+    },
+    {
+      "id": "ex40",
+      "type": "true_false",
+      "question": "'Attendance' means being absent from work.",
+      "answer": false
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "Each employee has their own _____.",
+      "answer": "cubicle"
+    },
+    {
+      "id": "ex42",
+      "type": "multiple_choice",
+      "question": "What does 'punctual' mean?",
+      "options": ["arriving late", "being on time", "working overtime", "taking a break"],
+      "answer": "being on time"
+    },
+    {
+      "id": "ex43",
+      "type": "error_correction",
+      "question": "I have a lot of paperworks to complete.",
+      "answer": "I have a lot of paperwork to complete."
+    },
+    {
+      "id": "ex44",
+      "type": "translation_en_ko",
+      "question": "The job offers great benefits.",
+      "answer": "그 직업은 훌륭한 복리후생을 제공해요."
+    },
+    {
+      "id": "ex45",
+      "type": "matching",
+      "pairs": [
+        {"word": "workspace", "meaning": "an area where someone works"},
+        {"word": "cubicle", "meaning": "small separated work area"},
+        {"word": "department", "meaning": "a section of organization"},
+        {"word": "conference", "meaning": "a large formal meeting"}
+      ]
+    },
+    {
+      "id": "ex46",
+      "type": "sentence_ordering",
+      "words": ["She", "earns", "$50,000", "a", "year"],
+      "answer": "She earns $50,000 a year."
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "I'm attending a business _____.",
+      "answer": "conference"
+    },
+    {
+      "id": "ex48",
+      "type": "translation_ko_en",
+      "question": "내일 발표를 해야 해요.",
+      "answer": "I have to give a presentation tomorrow."
+    },
+    {
+      "id": "ex49",
+      "type": "multiple_choice",
+      "question": "Choose the correct sentence:",
+      "options": ["I'm taking a vacation next week.", "I'm taking a resign next week.", "I'm taking a promotion next week.", "I'm taking a contract next week."],
+      "answer": "I'm taking a vacation next week."
+    },
+    {
+      "id": "ex50",
+      "type": "true_false",
+      "question": "'Retirement' means starting a new job.",
+      "answer": false
+    },
+    {
+      "id": "ex51",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "submit a", "collocation": "resume"},
+        {"word": "apply for", "collocation": "job"},
+        {"word": "work", "collocation": "overtime"},
+        {"word": "take", "collocation": "break"}
+      ]
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "Please sign the employment _____.",
+      "answer": "contract"
+    },
+    {
+      "id": "ex53",
+      "type": "error_correction",
+      "question": "She get a promotion last month.",
+      "answer": "She got a promotion last month."
+    },
+    {
+      "id": "ex54",
+      "type": "translation_en_ko",
+      "question": "He's planning for retirement next year.",
+      "answer": "그는 내년 은퇴를 계획하고 있어요."
+    },
+    {
+      "id": "ex55",
+      "type": "multiple_choice",
+      "question": "What is a 'supervisor'?",
+      "options": ["a person who watches and directs work", "a type of vacation", "a work document", "a meeting room"],
+      "answer": "a person who watches and directs work"
+    },
+    {
+      "id": "ex56",
+      "type": "sentence_ordering",
+      "words": ["The", "company", "pays", "well"],
+      "answer": "The company pays well."
+    },
+    {
+      "id": "ex57",
+      "type": "translation_ko_en",
+      "question": "저는 비즈니스 컨퍼런스에 참석해요.",
+      "answer": "I'm attending a business conference."
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "Do you have the right _____?",
+      "answer": "qualifications"
+    },
+    {
+      "id": "ex59",
+      "type": "true_false",
+      "question": "'Training' is the process of learning skills.",
+      "answer": true
+    },
+    {
+      "id": "ex60",
+      "type": "matching",
+      "pairs": [
+        {"word": "presentation", "meaning": "a formal talk"},
+        {"word": "resume", "meaning": "document showing work history"},
+        {"word": "interview", "meaning": "formal meeting for job"},
+        {"word": "contract", "meaning": "written legal agreement"}
+      ]
+    },
+    {
+      "id": "ex61",
+      "type": "multiple_choice",
+      "question": "Which word is the opposite of 'hire'?",
+      "options": ["employ", "recruit", "fire", "promote"],
+      "answer": "fire"
+    },
+    {
+      "id": "ex62",
+      "type": "error_correction",
+      "question": "I want to apply to this job.",
+      "answer": "I want to apply for this job."
+    },
+    {
+      "id": "ex63",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "report to", "collocation": "supervisor"},
+        {"word": "perfect", "collocation": "attendance"},
+        {"word": "job", "collocation": "training"},
+        {"word": "early", "collocation": "retirement"}
+      ]
+    },
+    {
+      "id": "ex64",
+      "type": "translation_en_ko",
+      "question": "Good attendance is important for this job.",
+      "answer": "이 직업에는 좋은 출근율이 중요해요."
+    },
+    {
+      "id": "ex65",
+      "type": "fill_blank",
+      "question": "She's on _____ _____ this week.",
+      "answer": "sick leave"
+    },
+    {
+      "id": "ex66",
+      "type": "sentence_ordering",
+      "words": ["I", "commute", "by", "subway", "every", "day"],
+      "answer": "I commute by subway every day."
+    },
+    {
+      "id": "ex67",
+      "type": "multiple_choice",
+      "question": "What does 'earn' mean?",
+      "options": ["to spend money", "to receive money for work", "to lose money", "to save money"],
+      "answer": "to receive money for work"
+    },
+    {
+      "id": "ex68",
+      "type": "translation_ko_en",
+      "question": "그 회사에는 50명의 직원이 있어요.",
+      "answer": "The company has 50 employees."
+    },
+    {
+      "id": "ex69",
+      "type": "true_false",
+      "question": "A 'cubicle' is a large open office space.",
+      "answer": false
+    },
+    {
+      "id": "ex70",
+      "type": "pronunciation_compare",
+      "pairs": [
+        {"word": "earn", "similar": "learn"},
+        {"word": "resign", "similar": "design"}
+      ]
+    },
+    {
+      "id": "ex71",
+      "type": "fill_blank",
+      "question": "My _____ offers good benefits.",
+      "answer": "employer"
+    },
+    {
+      "id": "ex72",
+      "type": "error_correction",
+      "question": "He often works overtimes on Fridays.",
+      "answer": "He often works overtime on Fridays."
+    },
+    {
+      "id": "ex73",
+      "type": "matching",
+      "pairs": [
+        {"word": "promotion", "meaning": "moving to higher position"},
+        {"word": "vacation", "meaning": "time off for rest"},
+        {"word": "sick leave", "meaning": "time off due to illness"},
+        {"word": "overtime", "meaning": "extra work hours"}
+      ]
+    },
+    {
+      "id": "ex74",
+      "type": "translation_en_ko",
+      "question": "I want to apply for this job.",
+      "answer": "이 직업에 지원하고 싶어요."
+    },
+    {
+      "id": "ex75",
+      "type": "multiple_choice",
+      "question": "Choose the correct word: 'She works in the marketing _____.'",
+      "options": ["department", "apartment", "retirement", "agreement"],
+      "answer": "department"
+    },
+    {
+      "id": "ex76",
+      "type": "sentence_ordering",
+      "words": ["Let's", "take", "a", "break", "for", "10", "minutes"],
+      "answer": "Let's take a break for 10 minutes."
+    },
+    {
+      "id": "ex77",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "work in", "collocation": "department"},
+        {"word": "office", "collocation": "cubicle"},
+        {"word": "health", "collocation": "benefits"},
+        {"word": "retirement", "collocation": "plan"}
+      ]
+    },
+    {
+      "id": "ex78",
+      "type": "fill_blank",
+      "question": "I have a lot of _____ to complete.",
+      "answer": "paperwork"
+    },
+    {
+      "id": "ex79",
+      "type": "translation_ko_en",
+      "question": "회사는 5명의 신입사원을 채용할 거예요.",
+      "answer": "The company will hire five new workers."
+    },
+    {
+      "id": "ex80",
+      "type": "true_false",
+      "question": "'Pay' means to receive money.",
+      "answer": false
+    },
+    {
+      "id": "ex81",
+      "type": "multiple_choice",
+      "question": "What is 'paperwork'?",
+      "options": ["a type of paper", "written work and documents", "a newspaper", "office furniture"],
+      "answer": "written work and documents"
+    },
+    {
+      "id": "ex82",
+      "type": "error_correction",
+      "question": "Please be punctual to the meeting.",
+      "answer": "Please be punctual for the meeting."
+    },
+    {
+      "id": "ex83",
+      "type": "translation_en_ko",
+      "question": "Communication is an important skill.",
+      "answer": "의사소통은 중요한 기술이에요."
+    },
+    {
+      "id": "ex84",
+      "type": "fill_blank",
+      "question": "The deadline for the _____ is Friday.",
+      "answer": "report"
+    },
+    {
+      "id": "ex85",
+      "type": "matching",
+      "pairs": [
+        {"word": "skill", "meaning": "ability to do something well"},
+        {"word": "experience", "meaning": "knowledge from doing"},
+        {"word": "qualification", "meaning": "certificate needed for job"},
+        {"word": "training", "meaning": "process of learning skills"}
+      ]
+    },
+    {
+      "id": "ex86",
+      "type": "sentence_ordering",
+      "words": ["We", "have", "a", "meeting", "at", "10", "o'clock"],
+      "answer": "We have a meeting at 10 o'clock."
+    },
+    {
+      "id": "ex87",
+      "type": "translation_ko_en",
+      "question": "작업 공간을 깨끗하게 유지하세요.",
+      "answer": "Keep your workspace clean."
+    },
+    {
+      "id": "ex88",
+      "type": "multiple_choice",
+      "question": "Which word means 'to travel regularly between home and work'?",
+      "options": ["commute", "promote", "retire", "resign"],
+      "answer": "commute"
+    },
+    {
+      "id": "ex89",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "job", "collocation": "interview"},
+        {"word": "work", "collocation": "experience"},
+        {"word": "business", "collocation": "conference"},
+        {"word": "employment", "collocation": "contract"}
+      ]
+    },
+    {
+      "id": "ex90",
+      "type": "true_false",
+      "question": "A 'resume' is a document showing work history.",
+      "answer": true
+    },
+    {
+      "id": "ex91",
+      "type": "fill_blank",
+      "question": "She receives her _____ every month.",
+      "answer": "salary"
+    },
+    {
+      "id": "ex92",
+      "type": "error_correction",
+      "question": "I prepare my lunch in the night before.",
+      "answer": "I prepare my lunch the night before."
+    },
+    {
+      "id": "ex93",
+      "type": "translation_en_ko",
+      "question": "Please send your resume by email.",
+      "answer": "이메일로 이력서를 보내주세요."
+    },
+    {
+      "id": "ex94",
+      "type": "multiple_choice",
+      "question": "What is the opposite of 'employee'?",
+      "options": ["employer", "worker", "staff", "colleague"],
+      "answer": "employer"
+    },
+    {
+      "id": "ex95",
+      "type": "sentence_ordering",
+      "words": ["My", "schedule", "is", "very", "busy", "this", "week"],
+      "answer": "My schedule is very busy this week."
+    },
+    {
+      "id": "ex96",
+      "type": "fill_blank",
+      "question": "Exercise is part of my daily _____.",
+      "answer": "routine"
+    },
+    {
+      "id": "ex97",
+      "type": "translation_ko_en",
+      "question": "그는 직책을 사임하기로 결정했어요.",
+      "answer": "He decided to resign from his position."
+    },
+    {
+      "id": "ex98",
+      "type": "matching",
+      "pairs": [
+        {"word": "manager", "meaning": "person in charge of team"},
+        {"word": "supervisor", "meaning": "person who directs work"},
+        {"word": "colleague", "meaning": "person you work with"},
+        {"word": "employer", "meaning": "person who hires people"}
+      ]
+    },
+    {
+      "id": "ex99",
+      "type": "true_false",
+      "question": "'Promotion' means moving to a lower position.",
+      "answer": false
+    },
+    {
+      "id": "ex100",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "get", "collocation": "dressed"},
+        {"word": "finish", "collocation": "work"},
+        {"word": "take", "collocation": "attendance"},
+        {"word": "complete", "collocation": "paperwork"}
+      ]
+    },
+    {
+      "id": "ex101",
+      "type": "multiple_choice",
+      "question": "Choose the correct word: 'I have an _____ with the dentist.'",
+      "options": ["appointment", "application", "attendance", "agreement"],
+      "answer": "appointment"
+    },
+    {
+      "id": "ex102",
+      "type": "error_correction",
+      "question": "The manager approved my vacation requests.",
+      "answer": "The manager approved my vacation request."
+    },
+    {
+      "id": "ex103",
+      "type": "translation_en_ko",
+      "question": "New employees receive training.",
+      "answer": "신입사원들은 교육을 받아요."
+    },
+    {
+      "id": "ex104",
+      "type": "fill_blank",
+      "question": "We're starting a new _____ next month.",
+      "answer": "project"
+    },
+    {
+      "id": "ex105",
+      "type": "sentence_ordering",
+      "words": ["I", "get", "dressed", "after", "taking", "a", "shower"],
+      "answer": "I get dressed after taking a shower."
+    },
+    {
+      "id": "ex106",
+      "type": "translation_ko_en",
+      "question": "매니저가 내 휴가 신청을 승인했어요.",
+      "answer": "The manager approved my vacation request."
+    },
+    {
+      "id": "ex107",
+      "type": "multiple_choice",
+      "question": "What does 'benefits' refer to in a job context?",
+      "options": ["salary only", "extra advantages from a job", "work hours", "job duties"],
+      "answer": "extra advantages from a job"
+    },
+    {
+      "id": "ex108",
+      "type": "true_false",
+      "question": "'Shift' means a period of work time.",
+      "answer": true
+    },
+    {
+      "id": "ex109",
+      "type": "fill_blank",
+      "question": "I finished all my _____ for today.",
+      "answer": "tasks"
+    },
+    {
+      "id": "ex110",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "direct", "collocation": "supervisor"},
+        {"word": "night", "collocation": "shift"},
+        {"word": "monthly", "collocation": "report"},
+        {"word": "new", "collocation": "project"}
+      ]
+    },
+    {
+      "id": "ex111",
+      "type": "error_correction",
+      "question": "She work the night shift.",
+      "answer": "She works the night shift."
+    },
+    {
+      "id": "ex112",
+      "type": "translation_en_ko",
+      "question": "I finish work at 6 p.m.",
+      "answer": "저는 오후 6시에 퇴근해요."
+    },
+    {
+      "id": "ex113",
+      "type": "multiple_choice",
+      "question": "What is a 'task'?",
+      "options": ["a type of meeting", "a piece of work to be done", "a vacation day", "a salary increase"],
+      "answer": "a piece of work to be done"
+    },
+    {
+      "id": "ex114",
+      "type": "sentence_ordering",
+      "words": ["The", "office", "opens", "at", "9", "a.m."],
+      "answer": "The office opens at 9 a.m."
+    },
+    {
+      "id": "ex115",
+      "type": "fill_blank",
+      "question": "I'm too _____ to meet today.",
+      "answer": "busy"
+    },
+    {
+      "id": "ex116",
+      "type": "translation_ko_en",
+      "question": "오늘 할 업무를 다 끝냈어요.",
+      "answer": "I finished all my tasks for today."
+    },
+    {
+      "id": "ex117",
+      "type": "matching",
+      "pairs": [
+        {"word": "schedule", "meaning": "plan of activities and times"},
+        {"word": "routine", "meaning": "regular series of actions"},
+        {"word": "appointment", "meaning": "scheduled meeting"},
+        {"word": "meeting", "meaning": "gathering to discuss"}
+      ]
+    },
+    {
+      "id": "ex118",
+      "type": "true_false",
+      "question": "'Busy' means having nothing to do.",
+      "answer": false
+    },
+    {
+      "id": "ex119",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "make an", "collocation": "appointment"},
+        {"word": "daily", "collocation": "routine"},
+        {"word": "busy", "collocation": "schedule"},
+        {"word": "finish", "collocation": "task"}
+      ]
+    },
+    {
+      "id": "ex120",
+      "type": "multiple_choice",
+      "question": "Which phrasal verb means 'to stop sleeping'?",
+      "options": ["get dressed", "wake up", "finish work", "take a break"],
+      "answer": "wake up"
+    },
+    {
+      "id": "ex121",
+      "type": "error_correction",
+      "question": "I wake up in 7 a.m. every day.",
+      "answer": "I wake up at 7 a.m. every day."
+    },
+    {
+      "id": "ex122",
+      "type": "translation_en_ko",
+      "question": "It's my responsibility to train new staff.",
+      "answer": "신입 직원 교육은 제 책임이에요."
+    },
+    {
+      "id": "ex123",
+      "type": "fill_blank",
+      "question": "I need to write a monthly _____.",
+      "answer": "report"
+    },
+    {
+      "id": "ex124",
+      "type": "sentence_ordering",
+      "words": ["I'm", "too", "busy", "to", "meet", "today"],
+      "answer": "I'm too busy to meet today."
+    },
+    {
+      "id": "ex125",
+      "type": "translation_ko_en",
+      "question": "이번 주 내 일정이 아주 바빠요.",
+      "answer": "My schedule is very busy this week."
+    },
+    {
+      "id": "ex126",
+      "type": "multiple_choice",
+      "question": "What does 'prepare' mean?",
+      "options": ["to finish", "to make ready", "to start", "to stop"],
+      "answer": "to make ready"
+    },
+    {
+      "id": "ex127",
+      "type": "true_false",
+      "question": "An 'office' is a place where people work.",
+      "answer": true
+    },
+    {
+      "id": "ex128",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "wake", "collocation": "up"},
+        {"word": "get", "collocation": "dressed"},
+        {"word": "commute", "collocation": "by subway"},
+        {"word": "work", "collocation": "overtime"}
+      ]
+    },
+    {
+      "id": "ex129",
+      "type": "fill_blank",
+      "question": "My colleague helped me with the _____.",
+      "answer": "project"
+    },
+    {
+      "id": "ex130",
+      "type": "error_correction",
+      "question": "I commute with subway every day.",
+      "answer": "I commute by subway every day."
+    },
+    {
+      "id": "ex131",
+      "type": "translation_en_ko",
+      "question": "I prepare my lunch the night before.",
+      "answer": "저는 전날 밤에 점심을 준비해요."
+    },
+    {
+      "id": "ex132",
+      "type": "matching",
+      "pairs": [
+        {"word": "wake up", "meaning": "stop sleeping"},
+        {"word": "get dressed", "meaning": "put on clothes"},
+        {"word": "commute", "meaning": "travel to work"},
+        {"word": "prepare", "meaning": "make ready"}
+      ]
+    },
+    {
+      "id": "ex133",
+      "type": "multiple_choice",
+      "question": "Choose the correct sentence:",
+      "options": ["She works night shift.", "She works the night shift.", "She works in night shift.", "She works at night shift."],
+      "answer": "She works the night shift."
+    },
+    {
+      "id": "ex134",
+      "type": "sentence_ordering",
+      "words": ["He", "decided", "to", "resign", "from", "his", "position"],
+      "answer": "He decided to resign from his position."
+    },
+    {
+      "id": "ex135",
+      "type": "translation_ko_en",
+      "question": "내 동료가 프로젝트를 도와줬어요.",
+      "answer": "My colleague helped me with the project."
+    },
+    {
+      "id": "ex136",
+      "type": "fill_blank",
+      "question": "The _____ for the report is Friday.",
+      "answer": "deadline"
+    },
+    {
+      "id": "ex137",
+      "type": "true_false",
+      "question": "'Salary' is money paid regularly for work.",
+      "answer": true
+    },
+    {
+      "id": "ex138",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "receive", "collocation": "salary"},
+        {"word": "meet", "collocation": "deadline"},
+        {"word": "attend", "collocation": "meeting"},
+        {"word": "work on", "collocation": "project"}
+      ]
+    },
+    {
+      "id": "ex139",
+      "type": "multiple_choice",
+      "question": "What is a 'break'?",
+      "options": ["a long vacation", "a short rest period", "a type of meeting", "a work schedule"],
+      "answer": "a short rest period"
+    },
+    {
+      "id": "ex140",
+      "type": "error_correction",
+      "question": "Let's take break for 10 minutes.",
+      "answer": "Let's take a break for 10 minutes."
+    },
+    {
+      "id": "ex141",
+      "type": "translation_en_ko",
+      "question": "My employer offers good benefits.",
+      "answer": "제 고용주는 좋은 복리후생을 제공해요."
+    },
+    {
+      "id": "ex142",
+      "type": "fill_blank",
+      "question": "She works in the marketing _____.",
+      "answer": "department"
+    },
+    {
+      "id": "ex143",
+      "type": "sentence_ordering",
+      "words": ["Do", "you", "have", "the", "right", "qualifications"],
+      "answer": "Do you have the right qualifications?"
+    },
+    {
+      "id": "ex144",
+      "type": "translation_ko_en",
+      "question": "고용 계약서에 서명해주세요.",
+      "answer": "Please sign the employment contract."
+    },
+    {
+      "id": "ex145",
+      "type": "multiple_choice",
+      "question": "Which word means 'arriving at the expected time'?",
+      "options": ["late", "busy", "punctual", "absent"],
+      "answer": "punctual"
+    },
+    {
+      "id": "ex146",
+      "type": "true_false",
+      "question": "'Conference' is a small informal meeting.",
+      "answer": false
+    },
+    {
+      "id": "ex147",
+      "type": "collocation_match",
+      "pairs": [
+        {"word": "PowerPoint", "collocation": "presentation"},
+        {"word": "conference", "collocation": "room"},
+        {"word": "shared", "collocation": "workspace"},
+        {"word": "full-time", "collocation": "employee"}
+      ]
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "question": "I _____ by subway every day.",
+      "answer": "commute"
+    },
+    {
+      "id": "ex149",
+      "type": "error_correction",
+      "question": "She has five year of work experience.",
+      "answer": "She has five years of work experience."
+    },
+    {
+      "id": "ex150",
+      "type": "translation_en_ko",
+      "question": "Each employee has their own cubicle.",
+      "answer": "각 직원은 자신의 칸막이 공간이 있어요."
     }
   ]
 }

@@ -5,3 +5,12 @@ export {
   addQuestionsToBank,
   getLevelInfo,
 } from './levelTest';
+export {
+  initSentry,
+  setSentryUser,
+  setSentryTag,
+  captureError,
+  captureMessage,
+  addBreadcrumb,
+  Sentry,
+} from './sentry';

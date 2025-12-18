@@ -1,0 +1,1654 @@
+{
+  "id": "week-2-vocab",
+  "weekId": "week-2",
+  "type": "vocabulary",
+  "level": "C1",
+  "title": "Academic Discourse Vocabulary",
+  "description": "Master advanced terminology essential for scholarly writing, formal debates, and academic discourse. These words will enhance your ability to express complex ideas with precision and engage in high-level intellectual discussions.",
+  "estimatedMinutes": 25,
+  "xpReward": 50,
+  "words": [
+    {
+      "id": "w1",
+      "word": "substantiate",
+      "pronunciation": "/səbˈstænʃieɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To provide evidence to support or prove the truth of something",
+      "translation": "입증하다, 실증하다",
+      "example": "The researcher failed to substantiate her claims with empirical data."
+    },
+    {
+      "id": "w2",
+      "word": "nuance",
+      "pronunciation": "/ˈnjuːɑːns/",
+      "partOfSpeech": "noun",
+      "meaning": "A subtle difference in meaning, expression, or sound",
+      "translation": "뉘앙스, 미묘한 차이",
+      "example": "The translator captured every nuance of the original text."
+    },
+    {
+      "id": "w3",
+      "word": "corroborate",
+      "pronunciation": "/kəˈrɒbəreɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To confirm or give support to a statement or theory",
+      "translation": "확증하다, 뒷받침하다",
+      "example": "Witnesses corroborated the defendant's alibi in court."
+    },
+    {
+      "id": "w4",
+      "word": "juxtaposition",
+      "pronunciation": "/ˌdʒʌkstəpəˈzɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "The act of placing two things side by side for comparison or contrast",
+      "translation": "병치, 대조",
+      "example": "The artist's juxtaposition of light and darkness creates a powerful effect."
+    },
+    {
+      "id": "w5",
+      "word": "presuppose",
+      "pronunciation": "/ˌpriːsəˈpəʊz/",
+      "partOfSpeech": "verb",
+      "meaning": "To assume or require something as a precondition",
+      "translation": "전제하다, 미리 가정하다",
+      "example": "The theory presupposes a fundamental understanding of quantum mechanics."
+    },
+    {
+      "id": "w6",
+      "word": "delineate",
+      "pronunciation": "/dɪˈlɪnieɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To describe or portray something precisely",
+      "translation": "서술하다, 묘사하다",
+      "example": "The report clearly delineates the boundaries of the study."
+    },
+    {
+      "id": "w7",
+      "word": "implicit",
+      "pronunciation": "/ɪmˈplɪsɪt/",
+      "partOfSpeech": "adjective",
+      "meaning": "Implied though not plainly expressed",
+      "translation": "암묵적인, 함축적인",
+      "example": "There was an implicit understanding between the negotiators."
+    },
+    {
+      "id": "w8",
+      "word": "reconcile",
+      "pronunciation": "/ˈrekənsaɪl/",
+      "partOfSpeech": "verb",
+      "meaning": "To make two seemingly different ideas compatible or consistent",
+      "translation": "조화시키다, 조정하다",
+      "example": "Scientists struggle to reconcile quantum mechanics with general relativity."
+    },
+    {
+      "id": "w9",
+      "word": "paradigm",
+      "pronunciation": "/ˈpærədaɪm/",
+      "partOfSpeech": "noun",
+      "meaning": "A typical example or pattern of something; a model or framework",
+      "translation": "패러다임, 전형",
+      "example": "The discovery led to a paradigm shift in biological research."
+    },
+    {
+      "id": "w10",
+      "word": "discourse",
+      "pronunciation": "/ˈdɪskɔːrs/",
+      "partOfSpeech": "noun",
+      "meaning": "Written or spoken communication or debate on a particular topic",
+      "translation": "담론, 논의",
+      "example": "Academic discourse requires rigorous argumentation and evidence."
+    },
+    {
+      "id": "w11",
+      "word": "elucidate",
+      "pronunciation": "/ɪˈluːsɪdeɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To make something clear by explaining it in detail",
+      "translation": "명확히 하다, 설명하다",
+      "example": "The professor elucidated the complex theory with practical examples."
+    },
+    {
+      "id": "w12",
+      "word": "premise",
+      "pronunciation": "/ˈpremɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "A previous statement or proposition from which another is inferred",
+      "translation": "전제, 가정",
+      "example": "The argument is flawed because it is based on a false premise."
+    },
+    {
+      "id": "w13",
+      "word": "postulate",
+      "pronunciation": "/ˈpɒstjʊleɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To suggest or assume the existence of something as a basis for reasoning",
+      "translation": "가정하다, 공준으로 삼다",
+      "example": "Einstein postulated that nothing can travel faster than light."
+    },
+    {
+      "id": "w14",
+      "word": "refute",
+      "pronunciation": "/rɪˈfjuːt/",
+      "partOfSpeech": "verb",
+      "meaning": "To prove a statement or theory to be wrong or false",
+      "translation": "논박하다, 반박하다",
+      "example": "The scientist refuted the hypothesis with compelling evidence."
+    },
+    {
+      "id": "w15",
+      "word": "empirical",
+      "pronunciation": "/ɪmˈpɪrɪkəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Based on observation or experience rather than theory or logic",
+      "translation": "경험적인, 실증적인",
+      "example": "The conclusions were supported by empirical research conducted over five years."
+    },
+    {
+      "id": "w16",
+      "word": "contend",
+      "pronunciation": "/kənˈtend/",
+      "partOfSpeech": "verb",
+      "meaning": "To assert something as a position in an argument",
+      "translation": "주장하다, 논쟁하다",
+      "example": "The author contends that traditional methods are no longer effective."
+    },
+    {
+      "id": "w17",
+      "word": "hypothesis",
+      "pronunciation": "/haɪˈpɒθəsɪs/",
+      "partOfSpeech": "noun",
+      "meaning": "A proposed explanation made on the basis of limited evidence as a starting point",
+      "translation": "가설",
+      "example": "The research team tested their hypothesis through controlled experiments."
+    },
+    {
+      "id": "w18",
+      "word": "scrutiny",
+      "pronunciation": "/ˈskruːtɪni/",
+      "partOfSpeech": "noun",
+      "meaning": "Critical observation or examination",
+      "translation": "정밀 조사, 면밀한 검토",
+      "example": "The manuscript underwent intense scrutiny before publication."
+    },
+    {
+      "id": "w19",
+      "word": "analogous",
+      "pronunciation": "/əˈnæləɡəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Comparable in certain respects; showing analogy",
+      "translation": "유사한, 비슷한",
+      "example": "The political situation is analogous to events that occurred in 1848."
+    },
+    {
+      "id": "w20",
+      "word": "intrinsic",
+      "pronunciation": "/ɪnˈtrɪnsɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Belonging naturally or essential to something",
+      "translation": "본질적인, 고유의",
+      "example": "The intrinsic value of education extends beyond economic benefits."
+    },
+    {
+      "id": "w21",
+      "word": "assertion",
+      "pronunciation": "/əˈsɜːrʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "A confident and forceful statement of fact or belief",
+      "translation": "주장, 단언",
+      "example": "The author's assertions are not supported by sufficient evidence."
+    },
+    {
+      "id": "w22",
+      "word": "stipulate",
+      "pronunciation": "/ˈstɪpjʊleɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To demand or specify a requirement as part of an agreement",
+      "translation": "규정하다, 명시하다",
+      "example": "The contract stipulates that payment must be made within 30 days."
+    },
+    {
+      "id": "w23",
+      "word": "corollary",
+      "pronunciation": "/kəˈrɒləri/",
+      "partOfSpeech": "noun",
+      "meaning": "A proposition that follows from one already proved",
+      "translation": "결과, 필연적 결과",
+      "example": "A corollary of increased investment is higher economic growth."
+    },
+    {
+      "id": "w24",
+      "word": "ubiquitous",
+      "pronunciation": "/juːˈbɪkwɪtəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Present, appearing, or found everywhere",
+      "translation": "어디에나 있는, 편재하는",
+      "example": "Smartphones have become ubiquitous in modern society."
+    },
+    {
+      "id": "w25",
+      "word": "nomenclature",
+      "pronunciation": "/nəˈmenklətʃər/",
+      "partOfSpeech": "noun",
+      "meaning": "A system of names or terms used in a particular field",
+      "translation": "명명법, 용어",
+      "example": "Medical nomenclature can be challenging for new students to master."
+    },
+    {
+      "id": "w26",
+      "word": "ramification",
+      "pronunciation": "/ˌræmɪfɪˈkeɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "A complex or unwelcome consequence of an action or event",
+      "translation": "파급 효과, 결과",
+      "example": "The policy change had far-reaching ramifications for the entire industry."
+    },
+    {
+      "id": "w27",
+      "word": "perpetuate",
+      "pronunciation": "/pərˈpetʃueɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To make something continue indefinitely",
+      "translation": "영속시키다, 지속시키다",
+      "example": "These stereotypes perpetuate harmful misconceptions about different cultures."
+    },
+    {
+      "id": "w28",
+      "word": "extrapolate",
+      "pronunciation": "/ɪkˈstræpəleɪt/",
+      "partOfSpeech": "verb",
+      "meaning": "To extend the application of a method or conclusion to an unknown situation",
+      "translation": "외삽하다, 추론하다",
+      "example": "We can extrapolate from current trends to predict future outcomes."
+    },
+    {
+      "id": "w29",
+      "word": "dichotomy",
+      "pronunciation": "/daɪˈkɒtəmi/",
+      "partOfSpeech": "noun",
+      "meaning": "A division into two contrasting or mutually exclusive categories",
+      "translation": "이분법, 양분",
+      "example": "The traditional dichotomy between nature and nurture is increasingly questioned."
+    },
+    {
+      "id": "w30",
+      "word": "synthesize",
+      "pronunciation": "/ˈsɪnθəsaɪz/",
+      "partOfSpeech": "verb",
+      "meaning": "To combine various elements into a coherent whole",
+      "translation": "종합하다, 통합하다",
+      "example": "The researcher synthesized data from multiple studies to reach her conclusion."
+    },
+    {
+      "id": "w31",
+      "word": "contentious",
+      "pronunciation": "/kənˈtenʃəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Causing or likely to cause disagreement or controversy",
+      "translation": "논쟁의 여지가 있는, 논란이 되는",
+      "example": "The proposal remains contentious among scholars in the field."
+    },
+    {
+      "id": "w32",
+      "word": "rigorous",
+      "pronunciation": "/ˈrɪɡərəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Extremely thorough and careful",
+      "translation": "엄격한, 철저한",
+      "example": "The study employed a rigorous methodology to ensure validity."
+    },
+    {
+      "id": "w33",
+      "word": "pragmatic",
+      "pronunciation": "/præɡˈmætɪk/",
+      "partOfSpeech": "adjective",
+      "meaning": "Dealing with things sensibly and realistically based on practical considerations",
+      "translation": "실용적인, 실리적인",
+      "example": "The committee took a pragmatic approach to solving the budget crisis."
+    },
+    {
+      "id": "w34",
+      "word": "intricate",
+      "pronunciation": "/ˈɪntrɪkət/",
+      "partOfSpeech": "adjective",
+      "meaning": "Very complicated or detailed",
+      "translation": "복잡한, 정교한",
+      "example": "The argument presents an intricate analysis of social structures."
+    },
+    {
+      "id": "w35",
+      "word": "equivocal",
+      "pronunciation": "/ɪˈkwɪvəkəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Open to more than one interpretation; ambiguous",
+      "translation": "애매한, 모호한",
+      "example": "The data yielded equivocal results that require further investigation."
+    },
+    {
+      "id": "w36",
+      "word": "divergent",
+      "pronunciation": "/daɪˈvɜːrdʒənt/",
+      "partOfSpeech": "adjective",
+      "meaning": "Tending to develop in different directions or be different from each other",
+      "translation": "다른, 분기하는",
+      "example": "The two theories offer divergent explanations for the same phenomenon."
+    },
+    {
+      "id": "w37",
+      "word": "catalyst",
+      "pronunciation": "/ˈkætəlɪst/",
+      "partOfSpeech": "noun",
+      "meaning": "Something that causes an event or change to happen",
+      "translation": "촉매, 계기",
+      "example": "The publication served as a catalyst for reform in educational policy."
+    },
+    {
+      "id": "w38",
+      "word": "ambiguous",
+      "pronunciation": "/æmˈbɪɡjuəs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Open to more than one interpretation; not having one obvious meaning",
+      "translation": "모호한, 애매한",
+      "example": "The author's ambiguous phrasing led to multiple interpretations."
+    },
+    {
+      "id": "w39",
+      "word": "salient",
+      "pronunciation": "/ˈseɪliənt/",
+      "partOfSpeech": "adjective",
+      "meaning": "Most noticeable or important",
+      "translation": "두드러진, 현저한",
+      "example": "The study highlights the salient features of effective leadership."
+    },
+    {
+      "id": "w40",
+      "word": "anomaly",
+      "pronunciation": "/əˈnɒməli/",
+      "partOfSpeech": "noun",
+      "meaning": "Something that deviates from what is standard, normal, or expected",
+      "translation": "변칙, 이례",
+      "example": "The unexpected result was dismissed as a statistical anomaly."
+    },
+    {
+      "id": "w41",
+      "word": "meticulous",
+      "pronunciation": "/məˈtɪkjələs/",
+      "partOfSpeech": "adjective",
+      "meaning": "Showing great attention to detail; very careful and precise",
+      "translation": "꼼꼼한, 세심한",
+      "example": "The historian's meticulous research uncovered previously unknown documents."
+    },
+    {
+      "id": "w42",
+      "word": "viable",
+      "pronunciation": "/ˈvaɪəbəl/",
+      "partOfSpeech": "adjective",
+      "meaning": "Capable of working successfully; feasible",
+      "translation": "실행 가능한, 실현 가능한",
+      "example": "The committee must determine whether the proposal is economically viable."
+    },
+    {
+      "id": "w43",
+      "word": "inherent",
+      "pronunciation": "/ɪnˈhɪrənt/",
+      "partOfSpeech": "adjective",
+      "meaning": "Existing as a permanent, essential, or characteristic attribute",
+      "translation": "내재하는, 고유의",
+      "example": "There are inherent risks in any experimental procedure."
+    },
+    {
+      "id": "w44",
+      "word": "tentative",
+      "pronunciation": "/ˈtentətɪv/",
+      "partOfSpeech": "adjective",
+      "meaning": "Not certain or fixed; provisional",
+      "translation": "잠정적인, 시험적인",
+      "example": "The researchers reached tentative conclusions pending further data."
+    },
+    {
+      "id": "w45",
+      "word": "discrepancy",
+      "pronunciation": "/dɪsˈkrepənsi/",
+      "partOfSpeech": "noun",
+      "meaning": "A lack of compatibility or similarity between two or more facts",
+      "translation": "불일치, 차이",
+      "example": "Researchers noted a significant discrepancy between the two data sets."
+    },
+    {
+      "id": "w46",
+      "word": "juxtapose",
+      "pronunciation": "/ˌdʒʌkstəˈpəʊz/",
+      "partOfSpeech": "verb",
+      "meaning": "To place close together for contrasting effect",
+      "translation": "나란히 놓다, 병치하다",
+      "example": "The essay juxtaposes traditional and modern approaches to education."
+    },
+    {
+      "id": "w47",
+      "word": "exemplify",
+      "pronunciation": "/ɪɡˈzemplɪfaɪ/",
+      "partOfSpeech": "verb",
+      "meaning": "To serve as a typical example of something",
+      "translation": "예시하다, 전형이 되다",
+      "example": "This case study exemplifies the challenges facing urban planners."
+    },
+    {
+      "id": "w48",
+      "word": "connotation",
+      "pronunciation": "/ˌkɒnəˈteɪʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "An idea or feeling that a word invokes in addition to its literal meaning",
+      "translation": "함축적 의미, 내포",
+      "example": "The word 'home' has emotional connotations beyond its dictionary definition."
+    },
+    {
+      "id": "w49",
+      "word": "substantive",
+      "pronunciation": "/səbˈstæntɪv/",
+      "partOfSpeech": "adjective",
+      "meaning": "Having a firm basis in reality and therefore important or meaningful",
+      "translation": "실질적인, 본질적인",
+      "example": "The committee made substantive changes to the original proposal."
+    },
+    {
+      "id": "w50",
+      "word": "erudite",
+      "pronunciation": "/ˈerjʊdaɪt/",
+      "partOfSpeech": "adjective",
+      "meaning": "Having or showing great knowledge or learning",
+      "translation": "박식한, 학식이 높은",
+      "example": "The professor's erudite commentary illuminated complex philosophical concepts."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "The researcher failed to _____ her claims with empirical data.",
+      "options": ["substantiate", "nuance", "presuppose", "delineate"],
+      "correctAnswer": "substantiate",
+      "explanation": "Substantiate means to provide evidence to support or prove something."
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "Which word means 'a subtle difference in meaning or expression'?",
+      "options": ["paradigm", "nuance", "premise", "anomaly"],
+      "correctAnswer": "nuance",
+      "explanation": "Nuance refers to a subtle difference in meaning, expression, or sound."
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "Witnesses _____ the defendant's alibi in court.",
+      "options": ["refuted", "corroborated", "stipulated", "postulated"],
+      "correctAnswer": "corroborated",
+      "explanation": "Corroborate means to confirm or give support to a statement."
+    },
+    {
+      "id": "ex4",
+      "type": "fill_blank",
+      "question": "The artist's _____ of light and darkness creates a powerful effect.",
+      "correctAnswer": "juxtaposition",
+      "explanation": "Juxtaposition is the act of placing two things side by side for comparison."
+    },
+    {
+      "id": "ex5",
+      "type": "fill_blank",
+      "question": "The theory _____ a fundamental understanding of quantum mechanics.",
+      "correctAnswer": "presupposes",
+      "explanation": "Presuppose means to assume or require something as a precondition."
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "The report clearly _____ the boundaries of the study.",
+      "options": ["delineates", "elucidates", "extrapolates", "synthesizes"],
+      "correctAnswer": "delineates",
+      "explanation": "Delineate means to describe or portray something precisely."
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "Which word means 'implied though not plainly expressed'?",
+      "options": ["explicit", "implicit", "intrinsic", "inherent"],
+      "correctAnswer": "implicit",
+      "explanation": "Implicit means implied though not plainly expressed."
+    },
+    {
+      "id": "ex8",
+      "type": "fill_blank",
+      "question": "Scientists struggle to _____ quantum mechanics with general relativity.",
+      "correctAnswer": "reconcile",
+      "explanation": "Reconcile means to make two different ideas compatible or consistent."
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "The discovery led to a _____ shift in biological research.",
+      "options": ["paradigm", "discourse", "premise", "corollary"],
+      "correctAnswer": "paradigm",
+      "explanation": "Paradigm refers to a typical example, pattern, or model of something."
+    },
+    {
+      "id": "ex10",
+      "type": "fill_blank",
+      "question": "Academic _____ requires rigorous argumentation and evidence.",
+      "correctAnswer": "discourse",
+      "explanation": "Discourse refers to written or spoken communication or debate on a topic."
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "The professor _____ the complex theory with practical examples.",
+      "options": ["substantiated", "elucidated", "refuted", "stipulated"],
+      "correctAnswer": "elucidated",
+      "explanation": "Elucidate means to make something clear by explaining it in detail."
+    },
+    {
+      "id": "ex12",
+      "type": "fill_blank",
+      "question": "The argument is flawed because it is based on a false _____.",
+      "correctAnswer": "premise",
+      "explanation": "Premise is a previous statement or proposition from which another is inferred."
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "Einstein _____ that nothing can travel faster than light.",
+      "options": ["postulated", "refuted", "corroborated", "stipulated"],
+      "correctAnswer": "postulated",
+      "explanation": "Postulate means to suggest or assume something as a basis for reasoning."
+    },
+    {
+      "id": "ex14",
+      "type": "fill_blank",
+      "question": "The scientist _____ the hypothesis with compelling evidence.",
+      "correctAnswer": "refuted",
+      "explanation": "Refute means to prove a statement or theory to be wrong or false."
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "Which word means 'based on observation rather than theory'?",
+      "options": ["theoretical", "empirical", "implicit", "tentative"],
+      "correctAnswer": "empirical",
+      "explanation": "Empirical means based on observation or experience rather than theory."
+    },
+    {
+      "id": "ex16",
+      "type": "fill_blank",
+      "question": "The author _____ that traditional methods are no longer effective.",
+      "correctAnswer": "contends",
+      "explanation": "Contend means to assert something as a position in an argument."
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "The research team tested their _____ through controlled experiments.",
+      "options": ["hypothesis", "corollary", "assertion", "stipulation"],
+      "correctAnswer": "hypothesis",
+      "explanation": "Hypothesis is a proposed explanation based on limited evidence."
+    },
+    {
+      "id": "ex18",
+      "type": "fill_blank",
+      "question": "The manuscript underwent intense _____ before publication.",
+      "correctAnswer": "scrutiny",
+      "explanation": "Scrutiny means critical observation or examination."
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "The political situation is _____ to events that occurred in 1848.",
+      "options": ["ambiguous", "analogous", "contentious", "divergent"],
+      "correctAnswer": "analogous",
+      "explanation": "Analogous means comparable in certain respects or showing analogy."
+    },
+    {
+      "id": "ex20",
+      "type": "fill_blank",
+      "question": "The _____ value of education extends beyond economic benefits.",
+      "correctAnswer": "intrinsic",
+      "explanation": "Intrinsic means belonging naturally or essential to something."
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "The author's _____ are not supported by sufficient evidence.",
+      "options": ["assertions", "nuances", "premises", "discrepancies"],
+      "correctAnswer": "assertions",
+      "explanation": "Assertion is a confident and forceful statement of fact or belief."
+    },
+    {
+      "id": "ex22",
+      "type": "fill_blank",
+      "question": "The contract _____ that payment must be made within 30 days.",
+      "correctAnswer": "stipulates",
+      "explanation": "Stipulate means to demand or specify a requirement as part of an agreement."
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "Which word means 'a proposition that follows from one already proved'?",
+      "options": ["corollary", "premise", "hypothesis", "postulate"],
+      "correctAnswer": "corollary",
+      "explanation": "Corollary is a proposition that follows from one already proved."
+    },
+    {
+      "id": "ex24",
+      "type": "fill_blank",
+      "question": "Smartphones have become _____ in modern society.",
+      "correctAnswer": "ubiquitous",
+      "explanation": "Ubiquitous means present, appearing, or found everywhere."
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "Medical _____ can be challenging for new students to master.",
+      "options": ["nomenclature", "discourse", "paradigm", "dichotomy"],
+      "correctAnswer": "nomenclature",
+      "explanation": "Nomenclature is a system of names or terms used in a particular field."
+    },
+    {
+      "id": "ex26",
+      "type": "fill_blank",
+      "question": "The policy change had far-reaching _____ for the entire industry.",
+      "correctAnswer": "ramifications",
+      "explanation": "Ramification is a complex or unwelcome consequence of an action."
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "These stereotypes _____ harmful misconceptions about different cultures.",
+      "options": ["perpetuate", "elucidate", "substantiate", "reconcile"],
+      "correctAnswer": "perpetuate",
+      "explanation": "Perpetuate means to make something continue indefinitely."
+    },
+    {
+      "id": "ex28",
+      "type": "fill_blank",
+      "question": "We can _____ from current trends to predict future outcomes.",
+      "correctAnswer": "extrapolate",
+      "explanation": "Extrapolate means to extend the application of a method to an unknown situation."
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "Which word refers to 'a division into two contrasting categories'?",
+      "options": ["dichotomy", "juxtaposition", "discrepancy", "anomaly"],
+      "correctAnswer": "dichotomy",
+      "explanation": "Dichotomy is a division into two contrasting or mutually exclusive categories."
+    },
+    {
+      "id": "ex30",
+      "type": "fill_blank",
+      "question": "The researcher _____ data from multiple studies to reach her conclusion.",
+      "correctAnswer": "synthesized",
+      "explanation": "Synthesize means to combine various elements into a coherent whole."
+    },
+    {
+      "id": "ex31",
+      "type": "translation_ko_en",
+      "question": "그 제안은 학자들 사이에서 논란이 되고 있다.",
+      "correctAnswer": "The proposal remains contentious among scholars.",
+      "explanation": "Contentious means causing or likely to cause disagreement or controversy."
+    },
+    {
+      "id": "ex32",
+      "type": "translation_ko_en",
+      "question": "그 연구는 타당성을 보장하기 위해 엄격한 방법론을 사용했다.",
+      "correctAnswer": "The study employed a rigorous methodology to ensure validity.",
+      "explanation": "Rigorous means extremely thorough and careful."
+    },
+    {
+      "id": "ex33",
+      "type": "multiple_choice",
+      "question": "The committee took a _____ approach to solving the budget crisis.",
+      "options": ["pragmatic", "erudite", "ambiguous", "contentious"],
+      "correctAnswer": "pragmatic",
+      "explanation": "Pragmatic means dealing with things sensibly and realistically."
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "The argument presents an _____ analysis of social structures.",
+      "correctAnswer": "intricate",
+      "explanation": "Intricate means very complicated or detailed."
+    },
+    {
+      "id": "ex35",
+      "type": "multiple_choice",
+      "question": "Which word means 'open to more than one interpretation'?",
+      "options": ["explicit", "rigorous", "equivocal", "meticulous"],
+      "correctAnswer": "equivocal",
+      "explanation": "Equivocal means open to more than one interpretation; ambiguous."
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "The two theories offer _____ explanations for the same phenomenon.",
+      "correctAnswer": "divergent",
+      "explanation": "Divergent means tending to develop in different directions."
+    },
+    {
+      "id": "ex37",
+      "type": "multiple_choice",
+      "question": "The publication served as a _____ for reform in educational policy.",
+      "options": ["catalyst", "corollary", "anomaly", "premise"],
+      "correctAnswer": "catalyst",
+      "explanation": "Catalyst is something that causes an event or change to happen."
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "The author's _____ phrasing led to multiple interpretations.",
+      "correctAnswer": "ambiguous",
+      "explanation": "Ambiguous means open to more than one interpretation."
+    },
+    {
+      "id": "ex39",
+      "type": "multiple_choice",
+      "question": "The study highlights the _____ features of effective leadership.",
+      "options": ["salient", "tentative", "equivocal", "implicit"],
+      "correctAnswer": "salient",
+      "explanation": "Salient means most noticeable or important."
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "The unexpected result was dismissed as a statistical _____.",
+      "correctAnswer": "anomaly",
+      "explanation": "Anomaly is something that deviates from what is standard or expected."
+    },
+    {
+      "id": "ex41",
+      "type": "translation_en_ko",
+      "question": "The historian's meticulous research uncovered previously unknown documents.",
+      "correctAnswer": "역사학자의 꼼꼼한 연구는 이전에 알려지지 않은 문서들을 발견했다.",
+      "explanation": "Meticulous means showing great attention to detail."
+    },
+    {
+      "id": "ex42",
+      "type": "translation_en_ko",
+      "question": "The committee must determine whether the proposal is economically viable.",
+      "correctAnswer": "위원회는 그 제안이 경제적으로 실행 가능한지 판단해야 한다.",
+      "explanation": "Viable means capable of working successfully; feasible."
+    },
+    {
+      "id": "ex43",
+      "type": "multiple_choice",
+      "question": "There are _____ risks in any experimental procedure.",
+      "options": ["inherent", "tentative", "ubiquitous", "pragmatic"],
+      "correctAnswer": "inherent",
+      "explanation": "Inherent means existing as a permanent, essential attribute."
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "The researchers reached _____ conclusions pending further data.",
+      "correctAnswer": "tentative",
+      "explanation": "Tentative means not certain or fixed; provisional."
+    },
+    {
+      "id": "ex45",
+      "type": "multiple_choice",
+      "question": "Which word means 'a lack of compatibility between two or more facts'?",
+      "options": ["dichotomy", "discrepancy", "connotation", "nuance"],
+      "correctAnswer": "discrepancy",
+      "explanation": "Discrepancy is a lack of compatibility or similarity between facts."
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "The essay _____ traditional and modern approaches to education.",
+      "correctAnswer": "juxtaposes",
+      "explanation": "Juxtapose means to place close together for contrasting effect."
+    },
+    {
+      "id": "ex47",
+      "type": "multiple_choice",
+      "question": "This case study _____ the challenges facing urban planners.",
+      "options": ["exemplifies", "refutes", "stipulates", "postulates"],
+      "correctAnswer": "exemplifies",
+      "explanation": "Exemplify means to serve as a typical example of something."
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "The word 'home' has emotional _____ beyond its dictionary definition.",
+      "correctAnswer": "connotations",
+      "explanation": "Connotation is an idea or feeling that a word invokes beyond its literal meaning."
+    },
+    {
+      "id": "ex49",
+      "type": "multiple_choice",
+      "question": "The committee made _____ changes to the original proposal.",
+      "options": ["tentative", "substantive", "equivocal", "implicit"],
+      "correctAnswer": "substantive",
+      "explanation": "Substantive means having a firm basis in reality and therefore important."
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "The professor's _____ commentary illuminated complex philosophical concepts.",
+      "correctAnswer": "erudite",
+      "explanation": "Erudite means having or showing great knowledge or learning."
+    },
+    {
+      "id": "ex51",
+      "type": "matching",
+      "question": "Match each word to its meaning.",
+      "pairs": [
+        { "left": "substantiate", "right": "to provide evidence to support something" },
+        { "left": "nuance", "right": "a subtle difference in meaning" },
+        { "left": "corroborate", "right": "to confirm or give support to a statement" },
+        { "left": "implicit", "right": "implied though not plainly expressed" }
+      ],
+      "explanation": "These are key academic discourse vocabulary words."
+    },
+    {
+      "id": "ex52",
+      "type": "matching",
+      "question": "Match each word to its definition.",
+      "pairs": [
+        { "left": "paradigm", "right": "a typical example or model" },
+        { "left": "discourse", "right": "communication or debate on a topic" },
+        { "left": "premise", "right": "a statement from which another is inferred" },
+        { "left": "hypothesis", "right": "a proposed explanation based on limited evidence" }
+      ],
+      "explanation": "These words are fundamental to academic argumentation."
+    },
+    {
+      "id": "ex53",
+      "type": "translation_ko_en",
+      "question": "연구자들은 이전에 증명된 명제로부터 따라오는 결과를 발견했다.",
+      "correctAnswer": "The researchers discovered a corollary that follows from the previously proved proposition.",
+      "explanation": "Corollary refers to a proposition that follows from one already proved."
+    },
+    {
+      "id": "ex54",
+      "type": "translation_ko_en",
+      "question": "그 이론은 양자 역학의 기본적인 이해를 전제한다.",
+      "correctAnswer": "The theory presupposes a fundamental understanding of quantum mechanics.",
+      "explanation": "Presuppose means to assume or require something as a precondition."
+    },
+    {
+      "id": "ex55",
+      "type": "multiple_choice",
+      "question": "Which word means 'to describe or portray something precisely'?",
+      "options": ["delineate", "elucidate", "stipulate", "exemplify"],
+      "correctAnswer": "delineate",
+      "explanation": "Delineate means to describe or portray something precisely."
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "The conclusions were supported by _____ research conducted over five years.",
+      "correctAnswer": "empirical",
+      "explanation": "Empirical means based on observation or experience rather than theory."
+    },
+    {
+      "id": "ex57",
+      "type": "multiple_choice",
+      "question": "Which word means 'to make something clear by explaining it in detail'?",
+      "options": ["elucidate", "perpetuate", "reconcile", "synthesize"],
+      "correctAnswer": "elucidate",
+      "explanation": "Elucidate means to make something clear by explaining it in detail."
+    },
+    {
+      "id": "ex58",
+      "type": "translation_en_ko",
+      "question": "The traditional dichotomy between nature and nurture is increasingly questioned.",
+      "correctAnswer": "본성과 양육 사이의 전통적인 이분법이 점점 더 의문시되고 있다.",
+      "explanation": "Dichotomy refers to a division into two contrasting categories."
+    },
+    {
+      "id": "ex59",
+      "type": "translation_en_ko",
+      "question": "We can extrapolate from current trends to predict future outcomes.",
+      "correctAnswer": "우리는 현재의 경향으로부터 미래의 결과를 추론할 수 있다.",
+      "explanation": "Extrapolate means to extend the application of a method to an unknown situation."
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "A _____ of increased investment is higher economic growth.",
+      "correctAnswer": "corollary",
+      "explanation": "Corollary is a proposition that follows from one already proved."
+    },
+    {
+      "id": "ex61",
+      "type": "multiple_choice",
+      "question": "Which word means 'present, appearing, or found everywhere'?",
+      "options": ["ubiquitous", "salient", "intrinsic", "inherent"],
+      "correctAnswer": "ubiquitous",
+      "explanation": "Ubiquitous means present, appearing, or found everywhere."
+    },
+    {
+      "id": "ex62",
+      "type": "matching",
+      "question": "Match each word to its meaning.",
+      "pairs": [
+        { "left": "refute", "right": "to prove a statement to be wrong" },
+        { "left": "postulate", "right": "to assume something as a basis for reasoning" },
+        { "left": "contend", "right": "to assert something as a position" },
+        { "left": "reconcile", "right": "to make two ideas compatible" }
+      ],
+      "explanation": "These verbs are commonly used in academic argumentation."
+    },
+    {
+      "id": "ex63",
+      "type": "matching",
+      "question": "Match each word to its definition.",
+      "pairs": [
+        { "left": "scrutiny", "right": "critical observation or examination" },
+        { "left": "assertion", "right": "a confident statement of fact or belief" },
+        { "left": "catalyst", "right": "something that causes change to happen" },
+        { "left": "anomaly", "right": "something that deviates from what is expected" }
+      ],
+      "explanation": "These nouns are essential for academic discussion."
+    },
+    {
+      "id": "ex64",
+      "type": "fill_blank",
+      "question": "Medical _____ can be challenging for new students to master.",
+      "correctAnswer": "nomenclature",
+      "explanation": "Nomenclature is a system of names or terms used in a particular field."
+    },
+    {
+      "id": "ex65",
+      "type": "multiple_choice",
+      "question": "The policy change had far-reaching _____ for the entire industry.",
+      "options": ["ramifications", "connotations", "assertions", "premises"],
+      "correctAnswer": "ramifications",
+      "explanation": "Ramification is a complex or unwelcome consequence of an action."
+    },
+    {
+      "id": "ex66",
+      "type": "translation_ko_en",
+      "question": "이러한 고정관념은 다른 문화에 대한 해로운 오해를 영속시킨다.",
+      "correctAnswer": "These stereotypes perpetuate harmful misconceptions about different cultures.",
+      "explanation": "Perpetuate means to make something continue indefinitely."
+    },
+    {
+      "id": "ex67",
+      "type": "translation_ko_en",
+      "question": "데이터는 추가 조사가 필요한 애매한 결과를 산출했다.",
+      "correctAnswer": "The data yielded equivocal results that require further investigation.",
+      "explanation": "Equivocal means open to more than one interpretation; ambiguous."
+    },
+    {
+      "id": "ex68",
+      "type": "multiple_choice",
+      "question": "Which word means 'dealing with things sensibly and realistically'?",
+      "options": ["pragmatic", "rigorous", "meticulous", "erudite"],
+      "correctAnswer": "pragmatic",
+      "explanation": "Pragmatic means dealing with things sensibly based on practical considerations."
+    },
+    {
+      "id": "ex69",
+      "type": "fill_blank",
+      "question": "The argument presents an _____ analysis of social structures.",
+      "correctAnswer": "intricate",
+      "explanation": "Intricate means very complicated or detailed."
+    },
+    {
+      "id": "ex70",
+      "type": "multiple_choice",
+      "question": "The two theories offer _____ explanations for the same phenomenon.",
+      "options": ["analogous", "divergent", "tentative", "substantive"],
+      "correctAnswer": "divergent",
+      "explanation": "Divergent means tending to develop in different directions."
+    },
+    {
+      "id": "ex71",
+      "type": "translation_en_ko",
+      "question": "The author's ambiguous phrasing led to multiple interpretations.",
+      "correctAnswer": "저자의 모호한 표현은 여러 해석으로 이어졌다.",
+      "explanation": "Ambiguous means open to more than one interpretation."
+    },
+    {
+      "id": "ex72",
+      "type": "translation_en_ko",
+      "question": "The study highlights the salient features of effective leadership.",
+      "correctAnswer": "그 연구는 효과적인 리더십의 두드러진 특징을 강조한다.",
+      "explanation": "Salient means most noticeable or important."
+    },
+    {
+      "id": "ex73",
+      "type": "fill_blank",
+      "question": "The committee must determine whether the proposal is economically _____.",
+      "correctAnswer": "viable",
+      "explanation": "Viable means capable of working successfully; feasible."
+    },
+    {
+      "id": "ex74",
+      "type": "multiple_choice",
+      "question": "Which word means 'existing as a permanent, essential attribute'?",
+      "options": ["inherent", "intrinsic", "implicit", "all of the above"],
+      "correctAnswer": "all of the above",
+      "explanation": "Inherent, intrinsic, and implicit all relate to essential, built-in qualities."
+    },
+    {
+      "id": "ex75",
+      "type": "matching",
+      "question": "Match each adjective to its meaning.",
+      "pairs": [
+        { "left": "analogous", "right": "comparable in certain respects" },
+        { "left": "contentious", "right": "causing disagreement or controversy" },
+        { "left": "rigorous", "right": "extremely thorough and careful" },
+        { "left": "tentative", "right": "not certain or fixed; provisional" }
+      ],
+      "explanation": "These adjectives are frequently used in academic writing."
+    },
+    {
+      "id": "ex76",
+      "type": "matching",
+      "question": "Match each word to its definition.",
+      "pairs": [
+        { "left": "ambiguous", "right": "open to more than one interpretation" },
+        { "left": "meticulous", "right": "showing great attention to detail" },
+        { "left": "erudite", "right": "having or showing great knowledge" },
+        { "left": "pragmatic", "right": "dealing with things realistically" }
+      ],
+      "explanation": "These adjectives describe qualities valued in academic work."
+    },
+    {
+      "id": "ex77",
+      "type": "fill_blank",
+      "question": "Researchers noted a significant _____ between the two data sets.",
+      "correctAnswer": "discrepancy",
+      "explanation": "Discrepancy is a lack of compatibility between two or more facts."
+    },
+    {
+      "id": "ex78",
+      "type": "multiple_choice",
+      "question": "The essay _____ traditional and modern approaches to education.",
+      "options": ["juxtaposes", "exemplifies", "synthesizes", "delineates"],
+      "correctAnswer": "juxtaposes",
+      "explanation": "Juxtapose means to place close together for contrasting effect."
+    },
+    {
+      "id": "ex79",
+      "type": "translation_ko_en",
+      "question": "이 사례 연구는 도시 계획자들이 직면한 과제를 예시한다.",
+      "correctAnswer": "This case study exemplifies the challenges facing urban planners.",
+      "explanation": "Exemplify means to serve as a typical example of something."
+    },
+    {
+      "id": "ex80",
+      "type": "translation_ko_en",
+      "question": "위원회는 원래 제안에 실질적인 변경을 가했다.",
+      "correctAnswer": "The committee made substantive changes to the original proposal.",
+      "explanation": "Substantive means having a firm basis in reality and therefore important."
+    },
+    {
+      "id": "ex81",
+      "type": "multiple_choice",
+      "question": "Which word means 'an idea that a word invokes beyond its literal meaning'?",
+      "options": ["connotation", "nuance", "nomenclature", "discourse"],
+      "correctAnswer": "connotation",
+      "explanation": "Connotation is an idea or feeling a word invokes beyond its literal meaning."
+    },
+    {
+      "id": "ex82",
+      "type": "fill_blank",
+      "question": "The professor's _____ commentary illuminated complex philosophical concepts.",
+      "correctAnswer": "erudite",
+      "explanation": "Erudite means having or showing great knowledge or learning."
+    },
+    {
+      "id": "ex83",
+      "type": "multiple_choice",
+      "question": "Which word means 'to combine various elements into a coherent whole'?",
+      "options": ["synthesize", "reconcile", "corroborate", "delineate"],
+      "correctAnswer": "synthesize",
+      "explanation": "Synthesize means to combine various elements into a coherent whole."
+    },
+    {
+      "id": "ex84",
+      "type": "translation_en_ko",
+      "question": "There are inherent risks in any experimental procedure.",
+      "correctAnswer": "모든 실험 절차에는 내재된 위험이 있다.",
+      "explanation": "Inherent means existing as a permanent, essential attribute."
+    },
+    {
+      "id": "ex85",
+      "type": "translation_en_ko",
+      "question": "The researchers reached tentative conclusions pending further data.",
+      "correctAnswer": "연구자들은 추가 데이터가 나올 때까지 잠정적인 결론에 도달했다.",
+      "explanation": "Tentative means not certain or fixed; provisional."
+    },
+    {
+      "id": "ex86",
+      "type": "matching",
+      "question": "Match each word to its meaning.",
+      "pairs": [
+        { "left": "juxtaposition", "right": "placing things side by side for contrast" },
+        { "left": "dichotomy", "right": "division into two contrasting categories" },
+        { "left": "discrepancy", "right": "lack of compatibility between facts" },
+        { "left": "ramification", "right": "complex consequence of an action" }
+      ],
+      "explanation": "These nouns describe relationships and consequences in academic contexts."
+    },
+    {
+      "id": "ex87",
+      "type": "matching",
+      "question": "Match each word to its definition.",
+      "pairs": [
+        { "left": "nomenclature", "right": "system of names or terms in a field" },
+        { "left": "connotation", "right": "idea a word invokes beyond literal meaning" },
+        { "left": "corollary", "right": "proposition following from one proved" },
+        { "left": "paradigm", "right": "typical example or model" }
+      ],
+      "explanation": "These nouns are important for understanding academic frameworks."
+    },
+    {
+      "id": "ex88",
+      "type": "fill_blank",
+      "question": "The political situation is _____ to events that occurred in 1848.",
+      "correctAnswer": "analogous",
+      "explanation": "Analogous means comparable in certain respects or showing analogy."
+    },
+    {
+      "id": "ex89",
+      "type": "multiple_choice",
+      "question": "The _____ value of education extends beyond economic benefits.",
+      "options": ["intrinsic", "extrinsic", "tentative", "substantive"],
+      "correctAnswer": "intrinsic",
+      "explanation": "Intrinsic means belonging naturally or essential to something."
+    },
+    {
+      "id": "ex90",
+      "type": "translation_ko_en",
+      "question": "그 보고서는 연구의 경계를 명확하게 서술한다.",
+      "correctAnswer": "The report clearly delineates the boundaries of the study.",
+      "explanation": "Delineate means to describe or portray something precisely."
+    },
+    {
+      "id": "ex91",
+      "type": "translation_ko_en",
+      "question": "협상자들 사이에는 암묵적인 이해가 있었다.",
+      "correctAnswer": "There was an implicit understanding between the negotiators.",
+      "explanation": "Implicit means implied though not plainly expressed."
+    },
+    {
+      "id": "ex92",
+      "type": "multiple_choice",
+      "question": "Which word means 'to prove a statement or theory to be wrong'?",
+      "options": ["refute", "corroborate", "substantiate", "postulate"],
+      "correctAnswer": "refute",
+      "explanation": "Refute means to prove a statement or theory to be wrong or false."
+    },
+    {
+      "id": "ex93",
+      "type": "fill_blank",
+      "question": "The author _____ that traditional methods are no longer effective.",
+      "correctAnswer": "contends",
+      "explanation": "Contend means to assert something as a position in an argument."
+    },
+    {
+      "id": "ex94",
+      "type": "multiple_choice",
+      "question": "The manuscript underwent intense _____ before publication.",
+      "options": ["scrutiny", "juxtaposition", "discourse", "nomenclature"],
+      "correctAnswer": "scrutiny",
+      "explanation": "Scrutiny means critical observation or examination."
+    },
+    {
+      "id": "ex95",
+      "type": "translation_en_ko",
+      "question": "The contract stipulates that payment must be made within 30 days.",
+      "correctAnswer": "계약은 30일 이내에 지불이 이루어져야 한다고 규정한다.",
+      "explanation": "Stipulate means to demand or specify a requirement."
+    },
+    {
+      "id": "ex96",
+      "type": "translation_en_ko",
+      "question": "Smartphones have become ubiquitous in modern society.",
+      "correctAnswer": "스마트폰은 현대 사회에서 어디에나 있게 되었다.",
+      "explanation": "Ubiquitous means present, appearing, or found everywhere."
+    },
+    {
+      "id": "ex97",
+      "type": "fill_blank",
+      "question": "The publication served as a _____ for reform in educational policy.",
+      "correctAnswer": "catalyst",
+      "explanation": "Catalyst is something that causes an event or change to happen."
+    },
+    {
+      "id": "ex98",
+      "type": "multiple_choice",
+      "question": "Which word means 'most noticeable or important'?",
+      "options": ["salient", "ubiquitous", "tentative", "equivocal"],
+      "correctAnswer": "salient",
+      "explanation": "Salient means most noticeable or important."
+    },
+    {
+      "id": "ex99",
+      "type": "matching",
+      "question": "Match each verb to its meaning.",
+      "pairs": [
+        { "left": "substantiate", "right": "to provide evidence to support" },
+        { "left": "delineate", "right": "to describe precisely" },
+        { "left": "elucidate", "right": "to make clear by explaining" },
+        { "left": "extrapolate", "right": "to extend application to unknown situations" }
+      ],
+      "explanation": "These verbs are essential for academic explanation and argumentation."
+    },
+    {
+      "id": "ex100",
+      "type": "matching",
+      "question": "Match each verb to its definition.",
+      "pairs": [
+        { "left": "perpetuate", "right": "to make something continue indefinitely" },
+        { "left": "juxtapose", "right": "to place close together for contrast" },
+        { "left": "exemplify", "right": "to serve as a typical example" },
+        { "left": "stipulate", "right": "to specify a requirement" }
+      ],
+      "explanation": "These verbs are commonly used in formal academic writing."
+    },
+    {
+      "id": "ex101",
+      "type": "translation_ko_en",
+      "question": "교수는 실용적인 예시로 복잡한 이론을 명확히 했다.",
+      "correctAnswer": "The professor elucidated the complex theory with practical examples.",
+      "explanation": "Elucidate means to make something clear by explaining it in detail."
+    },
+    {
+      "id": "ex102",
+      "type": "translation_ko_en",
+      "question": "그 발견은 생물학 연구의 패러다임 전환으로 이어졌다.",
+      "correctAnswer": "The discovery led to a paradigm shift in biological research.",
+      "explanation": "Paradigm refers to a typical example, pattern, or model."
+    },
+    {
+      "id": "ex103",
+      "type": "multiple_choice",
+      "question": "The author's _____ are not supported by sufficient evidence.",
+      "options": ["assertions", "connotations", "anomalies", "discrepancies"],
+      "correctAnswer": "assertions",
+      "explanation": "Assertion is a confident and forceful statement of fact or belief."
+    },
+    {
+      "id": "ex104",
+      "type": "fill_blank",
+      "question": "The unexpected result was dismissed as a statistical _____.",
+      "correctAnswer": "anomaly",
+      "explanation": "Anomaly is something that deviates from what is standard or expected."
+    },
+    {
+      "id": "ex105",
+      "type": "multiple_choice",
+      "question": "Which word means 'showing great attention to detail'?",
+      "options": ["meticulous", "rigorous", "pragmatic", "all of the above"],
+      "correctAnswer": "meticulous",
+      "explanation": "Meticulous specifically means showing great attention to detail."
+    },
+    {
+      "id": "ex106",
+      "type": "translation_en_ko",
+      "question": "The word 'home' has emotional connotations beyond its dictionary definition.",
+      "correctAnswer": "'집'이라는 단어는 사전적 정의를 넘어 감정적인 함축적 의미를 가지고 있다.",
+      "explanation": "Connotation is an idea or feeling a word invokes beyond literal meaning."
+    },
+    {
+      "id": "ex107",
+      "type": "translation_en_ko",
+      "question": "The researcher synthesized data from multiple studies to reach her conclusion.",
+      "correctAnswer": "연구자는 결론에 도달하기 위해 여러 연구의 데이터를 종합했다.",
+      "explanation": "Synthesize means to combine various elements into a coherent whole."
+    },
+    {
+      "id": "ex108",
+      "type": "fill_blank",
+      "question": "The proposal remains _____ among scholars in the field.",
+      "correctAnswer": "contentious",
+      "explanation": "Contentious means causing or likely to cause disagreement or controversy."
+    },
+    {
+      "id": "ex109",
+      "type": "multiple_choice",
+      "question": "The study employed a _____ methodology to ensure validity.",
+      "options": ["rigorous", "tentative", "equivocal", "implicit"],
+      "correctAnswer": "rigorous",
+      "explanation": "Rigorous means extremely thorough and careful."
+    },
+    {
+      "id": "ex110",
+      "type": "matching",
+      "question": "Match each word to its meaning.",
+      "pairs": [
+        { "left": "empirical", "right": "based on observation or experience" },
+        { "left": "intrinsic", "right": "belonging naturally to something" },
+        { "left": "inherent", "right": "existing as a permanent attribute" },
+        { "left": "substantive", "right": "having a firm basis in reality" }
+      ],
+      "explanation": "These adjectives describe essential qualities and approaches in research."
+    },
+    {
+      "id": "ex111",
+      "type": "matching",
+      "question": "Match each word to its definition.",
+      "pairs": [
+        { "left": "intricate", "right": "very complicated or detailed" },
+        { "left": "divergent", "right": "developing in different directions" },
+        { "left": "viable", "right": "capable of working successfully" },
+        { "left": "salient", "right": "most noticeable or important" }
+      ],
+      "explanation": "These adjectives help describe complexity and significance."
+    },
+    {
+      "id": "ex112",
+      "type": "translation_ko_en",
+      "question": "아인슈타인은 빛보다 빠르게 이동할 수 있는 것은 없다고 가정했다.",
+      "correctAnswer": "Einstein postulated that nothing can travel faster than light.",
+      "explanation": "Postulate means to suggest or assume something as a basis for reasoning."
+    },
+    {
+      "id": "ex113",
+      "type": "translation_ko_en",
+      "question": "과학자는 설득력 있는 증거로 그 가설을 논박했다.",
+      "correctAnswer": "The scientist refuted the hypothesis with compelling evidence.",
+      "explanation": "Refute means to prove a statement or theory to be wrong or false."
+    },
+    {
+      "id": "ex114",
+      "type": "fill_blank",
+      "question": "The research team tested their _____ through controlled experiments.",
+      "correctAnswer": "hypothesis",
+      "explanation": "Hypothesis is a proposed explanation based on limited evidence."
+    },
+    {
+      "id": "ex115",
+      "type": "multiple_choice",
+      "question": "Which word means 'a system of names or terms used in a particular field'?",
+      "options": ["nomenclature", "discourse", "paradigm", "premise"],
+      "correctAnswer": "nomenclature",
+      "explanation": "Nomenclature is a system of names or terms used in a particular field."
+    },
+    {
+      "id": "ex116",
+      "type": "translation_en_ko",
+      "question": "The translator captured every nuance of the original text.",
+      "correctAnswer": "번역가는 원문의 모든 뉘앙스를 포착했다.",
+      "explanation": "Nuance refers to a subtle difference in meaning, expression, or sound."
+    },
+    {
+      "id": "ex117",
+      "type": "translation_en_ko",
+      "question": "Witnesses corroborated the defendant's alibi in court.",
+      "correctAnswer": "증인들은 법정에서 피고인의 알리바이를 확증했다.",
+      "explanation": "Corroborate means to confirm or give support to a statement."
+    },
+    {
+      "id": "ex118",
+      "type": "multiple_choice",
+      "question": "The argument is flawed because it is based on a false _____.",
+      "options": ["premise", "corollary", "catalyst", "anomaly"],
+      "correctAnswer": "premise",
+      "explanation": "Premise is a previous statement from which another is inferred."
+    },
+    {
+      "id": "ex119",
+      "type": "fill_blank",
+      "question": "Scientists struggle to _____ quantum mechanics with general relativity.",
+      "correctAnswer": "reconcile",
+      "explanation": "Reconcile means to make two seemingly different ideas compatible."
+    },
+    {
+      "id": "ex120",
+      "type": "multiple_choice",
+      "question": "Academic _____ requires rigorous argumentation and evidence.",
+      "options": ["discourse", "nomenclature", "dichotomy", "juxtaposition"],
+      "correctAnswer": "discourse",
+      "explanation": "Discourse refers to written or spoken communication or debate on a topic."
+    },
+    {
+      "id": "ex121",
+      "type": "matching",
+      "question": "Match each word to its meaning.",
+      "pairs": [
+        { "left": "presuppose", "right": "to assume as a precondition" },
+        { "left": "reconcile", "right": "to make ideas compatible" },
+        { "left": "corroborate", "right": "to confirm or give support" },
+        { "left": "synthesize", "right": "to combine into a coherent whole" }
+      ],
+      "explanation": "These verbs describe intellectual processes in academic work."
+    },
+    {
+      "id": "ex122",
+      "type": "matching",
+      "question": "Match each word to its definition.",
+      "pairs": [
+        { "left": "ubiquitous", "right": "present everywhere" },
+        { "left": "analogous", "right": "comparable in certain respects" },
+        { "left": "equivocal", "right": "open to multiple interpretations" },
+        { "left": "ambiguous", "right": "not having one obvious meaning" }
+      ],
+      "explanation": "These adjectives describe degrees of clarity and prevalence."
+    },
+    {
+      "id": "ex123",
+      "type": "translation_ko_en",
+      "question": "그 연구는 타당성을 보장하기 위해 엄격한 방법론을 사용했다.",
+      "correctAnswer": "The study employed a rigorous methodology to ensure validity.",
+      "explanation": "Rigorous means extremely thorough and careful."
+    },
+    {
+      "id": "ex124",
+      "type": "translation_ko_en",
+      "question": "위원회는 예산 위기를 해결하기 위해 실용적인 접근을 취했다.",
+      "correctAnswer": "The committee took a pragmatic approach to solving the budget crisis.",
+      "explanation": "Pragmatic means dealing with things sensibly and realistically."
+    },
+    {
+      "id": "ex125",
+      "type": "fill_blank",
+      "question": "The data yielded _____ results that require further investigation.",
+      "correctAnswer": "equivocal",
+      "explanation": "Equivocal means open to more than one interpretation; ambiguous."
+    },
+    {
+      "id": "ex126",
+      "type": "multiple_choice",
+      "question": "Which word means 'to extend the application of a method to an unknown situation'?",
+      "options": ["extrapolate", "elucidate", "delineate", "exemplify"],
+      "correctAnswer": "extrapolate",
+      "explanation": "Extrapolate means to extend the application of a method to an unknown situation."
+    },
+    {
+      "id": "ex127",
+      "type": "translation_en_ko",
+      "question": "The historian's meticulous research uncovered previously unknown documents.",
+      "correctAnswer": "역사학자의 꼼꼼한 연구는 이전에 알려지지 않은 문서들을 발견했다.",
+      "explanation": "Meticulous means showing great attention to detail."
+    },
+    {
+      "id": "ex128",
+      "type": "translation_en_ko",
+      "question": "The essay juxtaposes traditional and modern approaches to education.",
+      "correctAnswer": "그 에세이는 전통적인 교육 접근법과 현대적인 교육 접근법을 대조한다.",
+      "explanation": "Juxtapose means to place close together for contrasting effect."
+    },
+    {
+      "id": "ex129",
+      "type": "multiple_choice",
+      "question": "The conclusions were supported by _____ research conducted over five years.",
+      "options": ["empirical", "tentative", "implicit", "equivocal"],
+      "correctAnswer": "empirical",
+      "explanation": "Empirical means based on observation or experience rather than theory."
+    },
+    {
+      "id": "ex130",
+      "type": "fill_blank",
+      "question": "The contract _____ that payment must be made within 30 days.",
+      "correctAnswer": "stipulates",
+      "explanation": "Stipulate means to demand or specify a requirement as part of an agreement."
+    },
+    {
+      "id": "ex131",
+      "type": "matching",
+      "question": "Match each noun to its meaning.",
+      "pairs": [
+        { "left": "scrutiny", "right": "critical observation or examination" },
+        { "left": "hypothesis", "right": "proposed explanation based on limited evidence" },
+        { "left": "assertion", "right": "confident statement of fact or belief" },
+        { "left": "catalyst", "right": "something that causes change" }
+      ],
+      "explanation": "These nouns are fundamental to research and argumentation."
+    },
+    {
+      "id": "ex132",
+      "type": "matching",
+      "question": "Match each word to its definition.",
+      "pairs": [
+        { "left": "anomaly", "right": "something that deviates from expected" },
+        { "left": "ramification", "right": "complex consequence of an action" },
+        { "left": "discrepancy", "right": "lack of compatibility between facts" },
+        { "left": "nuance", "right": "subtle difference in meaning" }
+      ],
+      "explanation": "These nouns describe variations and consequences in academic contexts."
+    },
+    {
+      "id": "ex133",
+      "type": "translation_ko_en",
+      "question": "그 주장은 잘못된 전제에 기반하고 있기 때문에 결함이 있다.",
+      "correctAnswer": "The argument is flawed because it is based on a false premise.",
+      "explanation": "Premise is a previous statement from which another is inferred."
+    },
+    {
+      "id": "ex134",
+      "type": "translation_ko_en",
+      "question": "학술 담론은 엄격한 논증과 증거를 요구한다.",
+      "correctAnswer": "Academic discourse requires rigorous argumentation and evidence.",
+      "explanation": "Discourse refers to written or spoken communication on a topic."
+    },
+    {
+      "id": "ex135",
+      "type": "fill_blank",
+      "question": "The artist's _____ of light and darkness creates a powerful effect.",
+      "correctAnswer": "juxtaposition",
+      "explanation": "Juxtaposition is the act of placing things side by side for comparison."
+    },
+    {
+      "id": "ex136",
+      "type": "multiple_choice",
+      "question": "Which word means 'to assert something as a position in an argument'?",
+      "options": ["contend", "refute", "stipulate", "postulate"],
+      "correctAnswer": "contend",
+      "explanation": "Contend means to assert something as a position in an argument."
+    },
+    {
+      "id": "ex137",
+      "type": "translation_en_ko",
+      "question": "The traditional dichotomy between nature and nurture is increasingly questioned.",
+      "correctAnswer": "본성과 양육 사이의 전통적인 이분법이 점점 더 의문시되고 있다.",
+      "explanation": "Dichotomy is a division into two contrasting categories."
+    },
+    {
+      "id": "ex138",
+      "type": "translation_en_ko",
+      "question": "These stereotypes perpetuate harmful misconceptions about different cultures.",
+      "correctAnswer": "이러한 고정관념은 다른 문화에 대한 해로운 오해를 영속시킨다.",
+      "explanation": "Perpetuate means to make something continue indefinitely."
+    },
+    {
+      "id": "ex139",
+      "type": "multiple_choice",
+      "question": "Researchers noted a significant _____ between the two data sets.",
+      "options": ["discrepancy", "dichotomy", "connotation", "catalyst"],
+      "correctAnswer": "discrepancy",
+      "explanation": "Discrepancy is a lack of compatibility between two or more facts."
+    },
+    {
+      "id": "ex140",
+      "type": "fill_blank",
+      "question": "This case study _____ the challenges facing urban planners.",
+      "correctAnswer": "exemplifies",
+      "explanation": "Exemplify means to serve as a typical example of something."
+    },
+    {
+      "id": "ex141",
+      "type": "matching",
+      "question": "Match each word to its meaning.",
+      "pairs": [
+        { "left": "erudite", "right": "having or showing great knowledge" },
+        { "left": "meticulous", "right": "showing great attention to detail" },
+        { "left": "rigorous", "right": "extremely thorough and careful" },
+        { "left": "pragmatic", "right": "dealing with things realistically" }
+      ],
+      "explanation": "These adjectives describe valued qualities in academic scholarship."
+    },
+    {
+      "id": "ex142",
+      "type": "matching",
+      "question": "Match each word to its definition.",
+      "pairs": [
+        { "left": "contentious", "right": "causing disagreement or controversy" },
+        { "left": "intricate", "right": "very complicated or detailed" },
+        { "left": "viable", "right": "capable of working successfully" },
+        { "left": "tentative", "right": "not certain or fixed" }
+      ],
+      "explanation": "These adjectives help characterize arguments and proposals."
+    },
+    {
+      "id": "ex143",
+      "type": "translation_ko_en",
+      "question": "번역가는 원문의 모든 뉘앙스를 포착했다.",
+      "correctAnswer": "The translator captured every nuance of the original text.",
+      "explanation": "Nuance refers to a subtle difference in meaning or expression."
+    },
+    {
+      "id": "ex144",
+      "type": "translation_ko_en",
+      "question": "예상치 못한 결과는 통계적 변칙으로 기각되었다.",
+      "correctAnswer": "The unexpected result was dismissed as a statistical anomaly.",
+      "explanation": "Anomaly is something that deviates from what is standard or expected."
+    },
+    {
+      "id": "ex145",
+      "type": "fill_blank",
+      "question": "The committee made _____ changes to the original proposal.",
+      "correctAnswer": "substantive",
+      "explanation": "Substantive means having a firm basis in reality and therefore important."
+    },
+    {
+      "id": "ex146",
+      "type": "multiple_choice",
+      "question": "Which word means 'having or showing great knowledge or learning'?",
+      "options": ["erudite", "meticulous", "pragmatic", "rigorous"],
+      "correctAnswer": "erudite",
+      "explanation": "Erudite means having or showing great knowledge or learning."
+    },
+    {
+      "id": "ex147",
+      "type": "translation_en_ko",
+      "question": "The publication served as a catalyst for reform in educational policy.",
+      "correctAnswer": "그 출판물은 교육 정책 개혁의 촉매 역할을 했다.",
+      "explanation": "Catalyst is something that causes an event or change to happen."
+    },
+    {
+      "id": "ex148",
+      "type": "translation_en_ko",
+      "question": "The policy change had far-reaching ramifications for the entire industry.",
+      "correctAnswer": "그 정책 변경은 전체 산업에 대해 광범위한 파급 효과를 가졌다.",
+      "explanation": "Ramification is a complex or unwelcome consequence of an action."
+    },
+    {
+      "id": "ex149",
+      "type": "multiple_choice",
+      "question": "The _____ value of education extends beyond economic benefits.",
+      "options": ["intrinsic", "tentative", "substantive", "pragmatic"],
+      "correctAnswer": "intrinsic",
+      "explanation": "Intrinsic means belonging naturally or essential to something."
+    },
+    {
+      "id": "ex150",
+      "type": "fill_blank",
+      "question": "There are _____ risks in any experimental procedure.",
+      "correctAnswer": "inherent",
+      "explanation": "Inherent means existing as a permanent, essential attribute."
+    }
+  ]
+}

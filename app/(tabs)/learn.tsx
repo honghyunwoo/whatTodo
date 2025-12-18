@@ -1,6 +1,11 @@
+/**
+ * Learn Screen
+ * 학습 화면
+ */
+
 import { router } from 'expo-router';
-import React, { useCallback, useMemo, useState } from 'react';
-import { ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
+import { ActivityIndicator, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
 import { IconButton, Modal, Portal, Text } from 'react-native-paper';
 
 import { ActivityCard, StatsView, WeekSelector } from '@/components/learn';
@@ -10,7 +15,7 @@ import { SIZES } from '@/constants/sizes';
 import { useLearnStore } from '@/store/learnStore';
 import { useSrsStore } from '@/store/srsStore';
 import { ActivityType } from '@/types/activity';
-import { loadWeekActivities } from '@/utils/activityLoader';
+import { isLevelLoaded, loadWeekActivities, preloadLevel } from '@/utils/activityLoader';
 
 const ACTIVITY_TYPES: ActivityType[] = [
   'vocabulary',
@@ -36,10 +41,26 @@ export default function LearnScreen() {
   const [showStats, setShowStats] = useState(false);
   const [showBadges, setShowBadges] = useState(false);
 
+  // 레벨 데이터 로딩 상태
+  const [isLoading, setIsLoading] = useState(!isLevelLoaded(currentLevel));
+
+  // 레벨 변경 시 데이터 프리로드
+  useEffect(() => {
+    if (!isLevelLoaded(currentLevel)) {
+      setIsLoading(true);
+      preloadLevel(currentLevel).then(() => {
+        setIsLoading(false);
+      });
+    } else {
+      setIsLoading(false);
+    }
+  }, [currentLevel]);
+
   // 현재 주차의 활동 로드
   const weekActivities = useMemo(() => {
-    return loadWeekActivities(currentWeek);
-  }, [currentWeek]);
+    if (isLoading) return [];
+    return loadWeekActivities(currentLevel, currentWeek);
+  }, [currentLevel, currentWeek, isLoading]);
 
   // 주차별 진행률 계산 (store 함수 대신 직접 계산하여 무한 루프 방지)
   const weekProgress = useMemo(() => {
@@ -47,9 +68,7 @@ export default function LearnScreen() {
     for (let i = 1; i <= 8; i++) {
       const weekId = `week-${i}`;
       const week = storeWeekProgress.find((w) => w.weekId === weekId);
-      progressMap[weekId] = week
-        ? Math.round((week.activitiesCompleted.length / 6) * 100)
-        : 0;
+      progressMap[weekId] = week ? Math.round((week.activitiesCompleted.length / 6) * 100) : 0;
     }
     return progressMap;
   }, [storeWeekProgress]);
@@ -119,10 +138,7 @@ export default function LearnScreen() {
 
         {/* Quick Actions */}
         <View style={styles.quickActions}>
-          <TouchableOpacity
-            style={styles.actionButton}
-            onPress={handleLevelTest}
-          >
+          <TouchableOpacity style={styles.actionButton} onPress={handleLevelTest}>
             <IconButton
               icon="clipboard-check-outline"
               iconColor={COLORS.surface}
@@ -170,33 +186,38 @@ export default function LearnScreen() {
 
       <ScrollView style={styles.content} contentContainerStyle={styles.contentContainer}>
         <View style={styles.progressSection}>
-          <Text style={styles.progressLabel}>
-            {currentWeek.replace('week-', '')}주차 진행률
-          </Text>
+          <Text style={styles.progressLabel}>{currentWeek.replace('week-', '')}주차 진행률</Text>
           <View style={styles.progressBarContainer}>
             <View style={[styles.progressBar, { width: `${currentProgress}%` }]} />
           </View>
           <Text style={styles.progressText}>{currentProgress}% 완료</Text>
         </View>
 
-        <View style={styles.activitiesGrid}>
-          {ACTIVITY_TYPES.map((type) => {
-            const activity = weekActivities.find((a) => a.type === type);
-            const { completed } = getActivityProgress(type);
+        {isLoading ? (
+          <View style={styles.loadingContainer}>
+            <ActivityIndicator size="large" color={COLORS.primary} />
+            <Text style={styles.loadingText}>학습 콘텐츠 로딩 중...</Text>
+          </View>
+        ) : (
+          <View style={styles.activitiesGrid}>
+            {ACTIVITY_TYPES.map((type) => {
+              const activity = weekActivities.find((a) => a.type === type);
+              const { completed } = getActivityProgress(type);
 
-            if (!activity) return null;
+              if (!activity) return null;
 
-            return (
-              <ActivityCard
-                key={type}
-                type={type}
-                progress={completed ? 100 : 0}
-                completed={completed}
-                onPress={() => handleActivityPress(type)}
-              />
-            );
-          })}
-        </View>
+              return (
+                <ActivityCard
+                  key={type}
+                  type={type}
+                  progress={completed ? 100 : 0}
+                  completed={completed}
+                  onPress={() => handleActivityPress(type)}
+                />
+              );
+            })}
+          </View>
+        )}
       </ScrollView>
 
       {/* Stats Modal */}
@@ -255,6 +276,16 @@ const styles = StyleSheet.create({
     gap: SIZES.spacing.md,
     justifyContent: 'space-between',
   },
+  loadingContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: SIZES.spacing.xxl,
+  },
+  loadingText: {
+    color: COLORS.textSecondary,
+    fontSize: SIZES.fontSize.md,
+    marginTop: SIZES.spacing.md,
+  },
   badge: {
     alignItems: 'center',
     backgroundColor: COLORS.error,
@@ -284,7 +315,7 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.surface,
     paddingBottom: SIZES.spacing.md,
     paddingHorizontal: SIZES.spacing.md,
-    paddingTop: SIZES.spacing.xl,
+    paddingTop: SIZES.spacing.md,
   },
   headerActions: {
     flexDirection: 'row',

@@ -276,48 +276,1249 @@
       "translation": "구조조정하다",
       "example": "The company decided to restructure its departments.",
       "partOfSpeech": "verb"
+    },
+    {
+      "id": "w31",
+      "word": "resume",
+      "pronunciation": "/ˈrezjumeɪ/",
+      "meaning": "a document summarizing qualifications and experience",
+      "translation": "이력서",
+      "example": "Make sure your resume is updated before applying.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w32",
+      "word": "qualification",
+      "pronunciation": "/ˌkwɒlɪfɪˈkeɪʃn/",
+      "meaning": "a skill or achievement that makes someone suitable",
+      "translation": "자격",
+      "example": "A master's degree is a key qualification for this role.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w33",
+      "word": "accountability",
+      "pronunciation": "/əˌkaʊntəˈbɪləti/",
+      "meaning": "responsibility for one's actions",
+      "translation": "책임감",
+      "example": "The new policy increases accountability among managers.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w34",
+      "word": "autonomy",
+      "pronunciation": "/ɔːˈtɒnəmi/",
+      "meaning": "independence and freedom to make decisions",
+      "translation": "자율성",
+      "example": "Employees value autonomy in their work.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w35",
+      "word": "merger",
+      "pronunciation": "/ˈmɜːdʒə/",
+      "meaning": "combination of two companies into one",
+      "translation": "합병",
+      "example": "The merger created the largest tech company in Asia.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w36",
+      "word": "subsidiary",
+      "pronunciation": "/səbˈsɪdiəri/",
+      "meaning": "a company controlled by another company",
+      "translation": "자회사",
+      "example": "The subsidiary operates independently in foreign markets.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w37",
+      "word": "portfolio",
+      "pronunciation": "/pɔːtˈfəʊliəʊ/",
+      "meaning": "collection of work samples or investments",
+      "translation": "포트폴리오",
+      "example": "Your design portfolio should showcase your best work.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w38",
+      "word": "sabbatical",
+      "pronunciation": "/səˈbætɪkl/",
+      "meaning": "extended leave from work for personal development",
+      "translation": "안식년",
+      "example": "She took a sabbatical to travel and recharge.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w39",
+      "word": "internship",
+      "pronunciation": "/ˈɪntɜːnʃɪp/",
+      "meaning": "temporary position for gaining work experience",
+      "translation": "인턴십",
+      "example": "The internship provides valuable industry experience.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w40",
+      "word": "apprenticeship",
+      "pronunciation": "/əˈprentɪsʃɪp/",
+      "meaning": "training program combining work and learning",
+      "translation": "견습, 도제 과정",
+      "example": "He completed a four-year apprenticeship as an electrician.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w41",
+      "word": "resignation",
+      "pronunciation": "/ˌrezɪɡˈneɪʃn/",
+      "meaning": "the act of leaving a job voluntarily",
+      "translation": "사직",
+      "example": "His resignation came as a surprise to everyone.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w42",
+      "word": "terminate",
+      "pronunciation": "/ˈtɜːmɪneɪt/",
+      "meaning": "to end employment or a contract",
+      "translation": "해고하다, 종료하다",
+      "example": "The company decided to terminate his contract early.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w43",
+      "word": "telework",
+      "pronunciation": "/ˈteliwɜːk/",
+      "meaning": "to work from home using technology",
+      "translation": "재택근무하다",
+      "example": "Many employees now telework several days a week.",
+      "partOfSpeech": "verb"
+    },
+    {
+      "id": "w44",
+      "word": "pension",
+      "pronunciation": "/ˈpenʃn/",
+      "meaning": "regular payment to retired employees",
+      "translation": "연금",
+      "example": "The company offers a generous pension scheme.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w45",
+      "word": "redundancy",
+      "pronunciation": "/rɪˈdʌndənsi/",
+      "meaning": "loss of job due to position elimination",
+      "translation": "정리해고",
+      "example": "Mass redundancies followed the factory closure.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w46",
+      "word": "grievance",
+      "pronunciation": "/ˈɡriːvəns/",
+      "meaning": "formal complaint about workplace treatment",
+      "translation": "불만, 고충",
+      "example": "Employees can file a grievance with HR.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w47",
+      "word": "discrimination",
+      "pronunciation": "/dɪˌskrɪmɪˈneɪʃn/",
+      "meaning": "unfair treatment based on personal characteristics",
+      "translation": "차별",
+      "example": "Age discrimination is illegal in most countries.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w48",
+      "word": "transparency",
+      "pronunciation": "/trænsˈpærənsi/",
+      "meaning": "openness and clarity in communication",
+      "translation": "투명성",
+      "example": "The company values transparency in decision-making.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w49",
+      "word": "benchmark",
+      "pronunciation": "/ˈbentʃmɑːk/",
+      "meaning": "a standard for measuring performance",
+      "translation": "기준점, 벤치마크",
+      "example": "We use industry benchmarks to evaluate our performance.",
+      "partOfSpeech": "noun"
+    },
+    {
+      "id": "w50",
+      "word": "leverage",
+      "pronunciation": "/ˈliːvərɪdʒ/",
+      "meaning": "to use something to maximum advantage",
+      "translation": "활용하다, 영향력",
+      "example": "We can leverage our expertise to win new clients.",
+      "partOfSpeech": "verb"
     }
   ],
 
   "exercises": [
     {
       "id": "ex1",
-      "type": "matching",
-      "instruction": "Match the words with their definitions",
-      "pairs": [
-        { "word": "delegate", "definition": "to assign tasks to others" },
-        { "word": "burnout", "definition": "exhaustion from excessive work stress" },
-        { "word": "tenure", "definition": "the length of time in a position" },
-        { "word": "incentive", "definition": "something that motivates action" }
-      ]
+      "type": "multiple_choice",
+      "question": "The company decided to _____ its IT services to reduce costs.",
+      "options": ["delegate", "outsource", "negotiate", "recruit"],
+      "answer": "outsource"
     },
     {
       "id": "ex2",
-      "type": "fill_blank",
-      "instruction": "Complete the sentences with the correct words",
-      "sentences": [
-        { "sentence": "After ten years at the company, she finally received a _____.", "answer": "promotion" },
-        { "sentence": "The manager needs to learn to _____ more tasks to the team.", "answer": "delegate" },
-        { "sentence": "High employee _____ can indicate problems with workplace culture.", "answer": "turnover" },
-        { "sentence": "We need to _____ with the marketing department on this project.", "answer": "collaborate" }
-      ]
+      "type": "multiple_choice",
+      "question": "New employees undergo a three-month _____ period.",
+      "options": ["appraisal", "tenure", "probation", "hierarchy"],
+      "answer": "probation"
     },
     {
       "id": "ex3",
       "type": "multiple_choice",
-      "instruction": "Choose the best word to complete each sentence",
-      "questions": [
-        {
-          "question": "The company decided to _____ its IT services to reduce costs.",
-          "options": ["delegate", "outsource", "negotiate", "recruit"],
-          "answer": "outsource"
-        },
-        {
-          "question": "New employees undergo a three-month _____ period.",
-          "options": ["appraisal", "tenure", "probation", "hierarchy"],
-          "answer": "probation"
-        }
+      "question": "She took the _____ to reorganize the filing system.",
+      "options": ["initiative", "liability", "incentive", "autonomy"],
+      "answer": "initiative"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "The _____ package includes health insurance and a company car.",
+      "options": ["compensation", "resignation", "grievance", "benchmark"],
+      "answer": "compensation"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "Good managers know how to _____ tasks effectively.",
+      "options": ["leverage", "delegate", "terminate", "negotiate"],
+      "answer": "delegate"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "He became a successful _____ after leaving his corporate job.",
+      "options": ["entrepreneur", "mentor", "stakeholder", "applicant"],
+      "answer": "entrepreneur"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "High employee _____ can indicate workplace problems.",
+      "options": ["turnover", "tenure", "workload", "accountability"],
+      "answer": "turnover"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "The _____ of the two companies created a global leader.",
+      "options": ["merger", "subsidiary", "portfolio", "sabbatical"],
+      "answer": "merger"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "Make sure your _____ is updated before applying for jobs.",
+      "options": ["resume", "pension", "grievance", "benchmark"],
+      "answer": "resume"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "The company offers _____ working hours to support work-life balance.",
+      "options": ["flexible", "proficient", "redundant", "transparent"],
+      "answer": "flexible"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "We need to _____ with suppliers to get better prices.",
+      "options": ["negotiate", "collaborate", "restructure", "leverage"],
+      "answer": "negotiate"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "Many employees experience _____ from excessive work stress.",
+      "options": ["burnout", "promotion", "appraisal", "networking"],
+      "answer": "burnout"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "The _____ provides valuable industry experience for students.",
+      "options": ["internship", "apprenticeship", "sabbatical", "tenure"],
+      "answer": "internship"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "Employees value _____ in making their own decisions.",
+      "options": ["autonomy", "hierarchy", "liability", "redundancy"],
+      "answer": "autonomy"
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "The company is _____ graduates from top universities.",
+      "options": ["recruiting", "resigning", "terminating", "restructuring"],
+      "answer": "recruiting"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "Remote work has increased employee _____.",
+      "options": ["productivity", "redundancy", "grievance", "discrimination"],
+      "answer": "productivity"
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "A master's degree is a key _____ for this position.",
+      "options": ["qualification", "resignation", "incentive", "deadline"],
+      "answer": "qualification"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "The company values _____ in all business communications.",
+      "options": ["transparency", "hierarchy", "workload", "freelance"],
+      "answer": "transparency"
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "Fifty workers were made _____ due to automation.",
+      "options": ["redundant", "flexible", "proficient", "accountable"],
+      "answer": "redundant"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "She took a _____ to travel and pursue personal projects.",
+      "options": ["sabbatical", "probation", "pension", "appraisal"],
+      "answer": "sabbatical"
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "We can _____ our expertise to win new clients.",
+      "options": ["leverage", "outsource", "resign", "collaborate"],
+      "answer": "leverage"
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "The new policy increases _____ among managers.",
+      "options": ["accountability", "networking", "turnover", "freelance"],
+      "answer": "accountability"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "Your design _____ should showcase your best work.",
+      "options": ["portfolio", "resume", "benchmark", "stakeholder"],
+      "answer": "portfolio"
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "Annual _____ determine salary increases and bonuses.",
+      "options": ["appraisals", "deadlines", "incentives", "liabilities"],
+      "answer": "appraisals"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "The company operates through several international _____.",
+      "options": ["subsidiaries", "mentors", "applicants", "benchmarks"],
+      "answer": "subsidiaries"
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "Many employees now _____ several days per week.",
+      "options": ["telework", "restructure", "terminate", "negotiate"],
+      "answer": "telework"
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "Bonuses serve as _____ for better performance.",
+      "options": ["incentives", "liabilities", "grievances", "tenures"],
+      "answer": "incentives"
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "Age _____ is illegal in most countries.",
+      "options": ["discrimination", "networking", "collaboration", "promotion"],
+      "answer": "discrimination"
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "The company decided to _____ its departments.",
+      "options": ["restructure", "delegate", "leverage", "recruit"],
+      "answer": "restructure"
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "We use industry _____ to evaluate our performance.",
+      "options": ["benchmarks", "hierarchies", "portfolios", "sabbaticals"],
+      "answer": "benchmarks"
+    },
+    {
+      "id": "ex31",
+      "type": "multiple_choice",
+      "question": "He decided to _____ and pursue other opportunities.",
+      "options": ["resign", "collaborate", "delegate", "recruit"],
+      "answer": "resign"
+    },
+    {
+      "id": "ex32",
+      "type": "multiple_choice",
+      "question": "The company offers a generous _____ scheme for retirees.",
+      "options": ["pension", "probation", "internship", "apprenticeship"],
+      "answer": "pension"
+    },
+    {
+      "id": "ex33",
+      "type": "multiple_choice",
+      "question": "Employees can file a _____ with the HR department.",
+      "options": ["grievance", "benchmark", "stakeholder", "subsidiary"],
+      "answer": "grievance"
+    },
+    {
+      "id": "ex34",
+      "type": "multiple_choice",
+      "question": "His _____ came as a surprise to the entire team.",
+      "options": ["resignation", "promotion", "recruitment", "collaboration"],
+      "answer": "resignation"
+    },
+    {
+      "id": "ex35",
+      "type": "multiple_choice",
+      "question": "We need to consider all _____' perspectives.",
+      "options": ["stakeholders", "applicants", "mentors", "entrepreneurs"],
+      "answer": "stakeholders"
+    },
+    {
+      "id": "ex36",
+      "type": "multiple_choice",
+      "question": "The company decided to _____ his contract early.",
+      "options": ["terminate", "negotiate", "leverage", "outsource"],
+      "answer": "terminate"
+    },
+    {
+      "id": "ex37",
+      "type": "multiple_choice",
+      "question": "Candidates must be _____ in Excel and PowerPoint.",
+      "options": ["proficient", "flexible", "redundant", "transparent"],
+      "answer": "proficient"
+    },
+    {
+      "id": "ex38",
+      "type": "multiple_choice",
+      "question": "The _____ has a flat structure with few managers.",
+      "options": ["hierarchy", "turnover", "workload", "deadline"],
+      "answer": "hierarchy"
+    },
+    {
+      "id": "ex39",
+      "type": "multiple_choice",
+      "question": "During her _____ as CEO, the company expanded globally.",
+      "options": ["tenure", "probation", "sabbatical", "internship"],
+      "answer": "tenure"
+    },
+    {
+      "id": "ex40",
+      "type": "multiple_choice",
+      "question": "Mass _____ followed the factory closure.",
+      "options": ["redundancies", "promotions", "appraisals", "incentives"],
+      "answer": "redundancies"
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "After ten years at the company, she finally received a _____.",
+      "answer": "promotion"
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "The manager needs to learn to _____ more tasks to the team.",
+      "answer": "delegate"
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "We need to _____ with the marketing department on this project.",
+      "answer": "collaborate"
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "We're working overtime to meet the _____.",
+      "answer": "deadline"
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "The _____ has increased significantly this quarter.",
+      "answer": "workload"
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "My _____ helped me navigate the corporate world.",
+      "answer": "mentor"
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "_____ events are essential for career growth.",
+      "answer": "Networking"
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "She became a successful _____ in her thirties.",
+      "answer": "entrepreneur"
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "Many designers work _____ rather than for one company.",
+      "answer": "freelance"
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "The company is _____ graduates from top universities.",
+      "answer": "recruiting"
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "New employees are on _____ for three months.",
+      "answer": "probation"
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "Many companies _____ customer service to other countries.",
+      "answer": "outsource"
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "The company has a flat _____ with few managers.",
+      "answer": "hierarchy"
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "Bonuses serve as _____ for better performance.",
+      "answer": "incentives"
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "Many employees experience _____ from overwork.",
+      "answer": "burnout"
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "We offer _____ working hours to our employees.",
+      "answer": "flexible"
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "We need to consider all _____' perspectives.",
+      "answer": "stakeholders"
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "Candidates must be _____ in Microsoft Office.",
+      "answer": "proficient"
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "The company faces significant legal _____.",
+      "answer": "liabilities"
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "During her _____ as director, the team doubled in size.",
+      "answer": "tenure"
+    },
+    {
+      "id": "ex61",
+      "type": "fill_blank",
+      "question": "The company decided to _____ its departments.",
+      "answer": "restructure"
+    },
+    {
+      "id": "ex62",
+      "type": "fill_blank",
+      "question": "Make sure your _____ is updated before applying.",
+      "answer": "resume"
+    },
+    {
+      "id": "ex63",
+      "type": "fill_blank",
+      "question": "A master's degree is a key _____ for this role.",
+      "answer": "qualification"
+    },
+    {
+      "id": "ex64",
+      "type": "fill_blank",
+      "question": "The new policy increases _____ among managers.",
+      "answer": "accountability"
+    },
+    {
+      "id": "ex65",
+      "type": "fill_blank",
+      "question": "Employees value _____ in their work.",
+      "answer": "autonomy"
+    },
+    {
+      "id": "ex66",
+      "type": "fill_blank",
+      "question": "The _____ created the largest tech company in Asia.",
+      "answer": "merger"
+    },
+    {
+      "id": "ex67",
+      "type": "fill_blank",
+      "question": "The _____ operates independently in foreign markets.",
+      "answer": "subsidiary"
+    },
+    {
+      "id": "ex68",
+      "type": "fill_blank",
+      "question": "Your design _____ should showcase your best work.",
+      "answer": "portfolio"
+    },
+    {
+      "id": "ex69",
+      "type": "fill_blank",
+      "question": "She took a _____ to travel and recharge.",
+      "answer": "sabbatical"
+    },
+    {
+      "id": "ex70",
+      "type": "fill_blank",
+      "question": "The _____ provides valuable industry experience.",
+      "answer": "internship"
+    },
+    {
+      "id": "ex71",
+      "type": "fill_blank",
+      "question": "He completed a four-year _____ as an electrician.",
+      "answer": "apprenticeship"
+    },
+    {
+      "id": "ex72",
+      "type": "fill_blank",
+      "question": "His _____ came as a surprise to everyone.",
+      "answer": "resignation"
+    },
+    {
+      "id": "ex73",
+      "type": "fill_blank",
+      "question": "The company decided to _____ his contract early.",
+      "answer": "terminate"
+    },
+    {
+      "id": "ex74",
+      "type": "fill_blank",
+      "question": "Many employees now _____ several days a week.",
+      "answer": "telework"
+    },
+    {
+      "id": "ex75",
+      "type": "fill_blank",
+      "question": "The company offers a generous _____ scheme.",
+      "answer": "pension"
+    },
+    {
+      "id": "ex76",
+      "type": "fill_blank",
+      "question": "Mass _____ followed the factory closure.",
+      "answer": "redundancies"
+    },
+    {
+      "id": "ex77",
+      "type": "fill_blank",
+      "question": "Employees can file a _____ with HR.",
+      "answer": "grievance"
+    },
+    {
+      "id": "ex78",
+      "type": "fill_blank",
+      "question": "Age _____ is illegal in most countries.",
+      "answer": "discrimination"
+    },
+    {
+      "id": "ex79",
+      "type": "fill_blank",
+      "question": "The company values _____ in decision-making.",
+      "answer": "transparency"
+    },
+    {
+      "id": "ex80",
+      "type": "fill_blank",
+      "question": "We use industry _____ to evaluate our performance.",
+      "answer": "benchmarks"
+    },
+    {
+      "id": "ex81",
+      "type": "matching",
+      "pairs": [
+        {"word": "delegate", "match": "to assign tasks to others"},
+        {"word": "burnout", "match": "exhaustion from excessive work stress"},
+        {"word": "tenure", "match": "the length of time in a position"},
+        {"word": "incentive", "match": "something that motivates action"}
       ]
+    },
+    {
+      "id": "ex82",
+      "type": "matching",
+      "pairs": [
+        {"word": "applicant", "match": "a person who applies for a job"},
+        {"word": "promotion", "match": "advancement to a higher position"},
+        {"word": "resign", "match": "to voluntarily leave a job"},
+        {"word": "redundant", "match": "no longer needed for a job"}
+      ]
+    },
+    {
+      "id": "ex83",
+      "type": "matching",
+      "pairs": [
+        {"word": "deadline", "match": "the time by which something must be completed"},
+        {"word": "workload", "match": "the amount of work to be done"},
+        {"word": "collaborate", "match": "to work together with others"},
+        {"word": "productivity", "match": "the effectiveness of productive effort"}
+      ]
+    },
+    {
+      "id": "ex84",
+      "type": "matching",
+      "pairs": [
+        {"word": "compensation", "match": "payment or benefits for work"},
+        {"word": "negotiate", "match": "to discuss in order to reach an agreement"},
+        {"word": "mentor", "match": "an experienced person who guides others"},
+        {"word": "networking", "match": "building professional relationships"}
+      ]
+    },
+    {
+      "id": "ex85",
+      "type": "matching",
+      "pairs": [
+        {"word": "entrepreneur", "match": "a person who starts and runs a business"},
+        {"word": "freelance", "match": "self-employed and working for various clients"},
+        {"word": "recruit", "match": "to find and hire new employees"},
+        {"word": "appraisal", "match": "evaluation of job performance"}
+      ]
+    },
+    {
+      "id": "ex86",
+      "type": "matching",
+      "pairs": [
+        {"word": "probation", "match": "a trial period for new employees"},
+        {"word": "turnover", "match": "the rate at which employees leave a company"},
+        {"word": "outsource", "match": "to contract work to external providers"},
+        {"word": "hierarchy", "match": "system of ranking within an organization"}
+      ]
+    },
+    {
+      "id": "ex87",
+      "type": "matching",
+      "pairs": [
+        {"word": "flexible", "match": "able to adapt or change easily"},
+        {"word": "stakeholder", "match": "person with interest in a company or project"},
+        {"word": "proficient", "match": "skilled and competent"},
+        {"word": "liability", "match": "legal responsibility"}
+      ]
+    },
+    {
+      "id": "ex88",
+      "type": "matching",
+      "pairs": [
+        {"word": "restructure", "match": "to reorganize a company or system"},
+        {"word": "resume", "match": "a document summarizing qualifications"},
+        {"word": "qualification", "match": "a skill that makes someone suitable"},
+        {"word": "accountability", "match": "responsibility for one's actions"}
+      ]
+    },
+    {
+      "id": "ex89",
+      "type": "matching",
+      "pairs": [
+        {"word": "autonomy", "match": "independence and freedom to make decisions"},
+        {"word": "merger", "match": "combination of two companies into one"},
+        {"word": "subsidiary", "match": "a company controlled by another company"},
+        {"word": "portfolio", "match": "collection of work samples"}
+      ]
+    },
+    {
+      "id": "ex90",
+      "type": "matching",
+      "pairs": [
+        {"word": "sabbatical", "match": "extended leave from work"},
+        {"word": "internship", "match": "temporary position for gaining experience"},
+        {"word": "apprenticeship", "match": "training program combining work and learning"},
+        {"word": "resignation", "match": "the act of leaving a job voluntarily"}
+      ]
+    },
+    {
+      "id": "ex91",
+      "type": "matching",
+      "pairs": [
+        {"word": "terminate", "match": "to end employment or a contract"},
+        {"word": "telework", "match": "to work from home using technology"},
+        {"word": "pension", "match": "regular payment to retired employees"},
+        {"word": "redundancy", "match": "loss of job due to position elimination"}
+      ]
+    },
+    {
+      "id": "ex92",
+      "type": "matching",
+      "pairs": [
+        {"word": "grievance", "match": "formal complaint about workplace treatment"},
+        {"word": "discrimination", "match": "unfair treatment based on characteristics"},
+        {"word": "transparency", "match": "openness and clarity in communication"},
+        {"word": "benchmark", "match": "a standard for measuring performance"}
+      ]
+    },
+    {
+      "id": "ex93",
+      "type": "matching",
+      "pairs": [
+        {"word": "leverage", "match": "to use something to maximum advantage"},
+        {"word": "initiative", "match": "the ability to act independently"},
+        {"word": "outsource", "match": "to contract work to external providers"},
+        {"word": "delegate", "match": "to assign tasks to others"}
+      ]
+    },
+    {
+      "id": "ex94",
+      "type": "matching",
+      "pairs": [
+        {"word": "recruit", "match": "to find and hire new employees"},
+        {"word": "promotion", "match": "advancement to a higher position"},
+        {"word": "appraisal", "match": "evaluation of job performance"},
+        {"word": "probation", "match": "a trial period for new employees"}
+      ]
+    },
+    {
+      "id": "ex95",
+      "type": "matching",
+      "pairs": [
+        {"word": "burnout", "match": "exhaustion from excessive work stress"},
+        {"word": "workload", "match": "the amount of work to be done"},
+        {"word": "deadline", "match": "the time by which something must be completed"},
+        {"word": "productivity", "match": "the effectiveness of productive effort"}
+      ]
+    },
+    {
+      "id": "ex96",
+      "type": "matching",
+      "pairs": [
+        {"word": "entrepreneur", "match": "a person who starts and runs a business"},
+        {"word": "freelance", "match": "self-employed and working for various clients"},
+        {"word": "mentor", "match": "an experienced person who guides others"},
+        {"word": "networking", "match": "building professional relationships"}
+      ]
+    },
+    {
+      "id": "ex97",
+      "type": "matching",
+      "pairs": [
+        {"word": "compensation", "match": "payment or benefits for work"},
+        {"word": "incentive", "match": "something that motivates action"},
+        {"word": "pension", "match": "regular payment to retired employees"},
+        {"word": "salary", "match": "regular payment for employment"}
+      ]
+    },
+    {
+      "id": "ex98",
+      "type": "matching",
+      "pairs": [
+        {"word": "hierarchy", "match": "system of ranking within an organization"},
+        {"word": "stakeholder", "match": "person with interest in a company"},
+        {"word": "subsidiary", "match": "a company controlled by another company"},
+        {"word": "merger", "match": "combination of two companies into one"}
+      ]
+    },
+    {
+      "id": "ex99",
+      "type": "matching",
+      "pairs": [
+        {"word": "sabbatical", "match": "extended leave from work"},
+        {"word": "internship", "match": "temporary position for gaining experience"},
+        {"word": "apprenticeship", "match": "training program combining work and learning"},
+        {"word": "probation", "match": "a trial period for new employees"}
+      ]
+    },
+    {
+      "id": "ex100",
+      "type": "matching",
+      "pairs": [
+        {"word": "accountability", "match": "responsibility for one's actions"},
+        {"word": "autonomy", "match": "independence and freedom to make decisions"},
+        {"word": "transparency", "match": "openness and clarity in communication"},
+        {"word": "liability", "match": "legal responsibility"}
+      ]
+    },
+    {
+      "id": "ex101",
+      "type": "matching",
+      "pairs": [
+        {"word": "terminate", "match": "to end employment or a contract"},
+        {"word": "resign", "match": "to voluntarily leave a job"},
+        {"word": "recruit", "match": "to find and hire new employees"},
+        {"word": "restructure", "match": "to reorganize a company or system"}
+      ]
+    },
+    {
+      "id": "ex102",
+      "type": "matching",
+      "pairs": [
+        {"word": "qualification", "match": "a skill that makes someone suitable"},
+        {"word": "proficient", "match": "skilled and competent"},
+        {"word": "portfolio", "match": "collection of work samples"},
+        {"word": "resume", "match": "a document summarizing qualifications"}
+      ]
+    },
+    {
+      "id": "ex103",
+      "type": "matching",
+      "pairs": [
+        {"word": "telework", "match": "to work from home using technology"},
+        {"word": "flexible", "match": "able to adapt or change easily"},
+        {"word": "collaborate", "match": "to work together with others"},
+        {"word": "delegate", "match": "to assign tasks to others"}
+      ]
+    },
+    {
+      "id": "ex104",
+      "type": "matching",
+      "pairs": [
+        {"word": "redundancy", "match": "loss of job due to position elimination"},
+        {"word": "turnover", "match": "the rate at which employees leave"},
+        {"word": "grievance", "match": "formal complaint about workplace treatment"},
+        {"word": "discrimination", "match": "unfair treatment based on characteristics"}
+      ]
+    },
+    {
+      "id": "ex105",
+      "type": "matching",
+      "pairs": [
+        {"word": "benchmark", "match": "a standard for measuring performance"},
+        {"word": "leverage", "match": "to use something to maximum advantage"},
+        {"word": "negotiate", "match": "to discuss to reach an agreement"},
+        {"word": "initiative", "match": "the ability to act independently"}
+      ]
+    },
+    {
+      "id": "ex106",
+      "type": "matching",
+      "pairs": [
+        {"word": "applicant", "match": "a person who applies for a job"},
+        {"word": "entrepreneur", "match": "a person who starts a business"},
+        {"word": "mentor", "match": "an experienced person who guides others"},
+        {"word": "stakeholder", "match": "person with interest in a company"}
+      ]
+    },
+    {
+      "id": "ex107",
+      "type": "matching",
+      "pairs": [
+        {"word": "promotion", "match": "advancement to a higher position"},
+        {"word": "tenure", "match": "the length of time in a position"},
+        {"word": "resignation", "match": "the act of leaving a job voluntarily"},
+        {"word": "appraisal", "match": "evaluation of job performance"}
+      ]
+    },
+    {
+      "id": "ex108",
+      "type": "matching",
+      "pairs": [
+        {"word": "outsource", "match": "to contract work to external providers"},
+        {"word": "restructure", "match": "to reorganize a company"},
+        {"word": "merger", "match": "combination of two companies"},
+        {"word": "subsidiary", "match": "a company controlled by another"}
+      ]
+    },
+    {
+      "id": "ex109",
+      "type": "matching",
+      "pairs": [
+        {"word": "workload", "match": "the amount of work to be done"},
+        {"word": "deadline", "match": "the time by which something must be completed"},
+        {"word": "productivity", "match": "the effectiveness of productive effort"},
+        {"word": "burnout", "match": "exhaustion from work stress"}
+      ]
+    },
+    {
+      "id": "ex110",
+      "type": "matching",
+      "pairs": [
+        {"word": "flexible", "match": "able to adapt or change easily"},
+        {"word": "proficient", "match": "skilled and competent"},
+        {"word": "redundant", "match": "no longer needed for a job"},
+        {"word": "accountable", "match": "responsible for actions"}
+      ]
+    },
+    {
+      "id": "ex111",
+      "type": "translation_ko_en",
+      "question": "우리는 그 직책에 200명이 넘는 지원자를 받았습니다.",
+      "answer": "We received over 200 applicants for the position."
+    },
+    {
+      "id": "ex112",
+      "type": "translation_ko_en",
+      "question": "그녀는 단 2년 만에 승진했습니다.",
+      "answer": "She earned a promotion after just two years."
+    },
+    {
+      "id": "ex113",
+      "type": "translation_ko_en",
+      "question": "그는 사직하고 자신의 사업을 시작하기로 결정했습니다.",
+      "answer": "He decided to resign and start his own business."
+    },
+    {
+      "id": "ex114",
+      "type": "translation_ko_en",
+      "question": "자동화로 인해 50명의 근로자가 해고되었습니다.",
+      "answer": "Fifty workers were made redundant due to automation."
+    },
+    {
+      "id": "ex115",
+      "type": "translation_ko_en",
+      "question": "우리는 마감 기한을 맞추기 위해 초과 근무를 하고 있습니다.",
+      "answer": "We're working overtime to meet the deadline."
+    },
+    {
+      "id": "ex116",
+      "type": "translation_ko_en",
+      "question": "업무량이 이번 분기에 크게 증가했습니다.",
+      "answer": "The workload has increased significantly this quarter."
+    },
+    {
+      "id": "ex117",
+      "type": "translation_ko_en",
+      "question": "우리 팀들은 여러 프로젝트에서 협력합니다.",
+      "answer": "Our teams collaborate on several projects."
+    },
+    {
+      "id": "ex118",
+      "type": "translation_ko_en",
+      "question": "좋은 관리자는 효과적으로 위임하는 방법을 압니다.",
+      "answer": "Good managers know how to delegate effectively."
+    },
+    {
+      "id": "ex119",
+      "type": "translation_ko_en",
+      "question": "그녀는 프로세스를 개선하기 위해 주도권을 잡았습니다.",
+      "answer": "She took the initiative to improve the process."
+    },
+    {
+      "id": "ex120",
+      "type": "translation_ko_en",
+      "question": "재택근무는 실제로 생산성을 증가시켰습니다.",
+      "answer": "Remote work has actually increased productivity."
+    },
+    {
+      "id": "ex121",
+      "type": "translation_ko_en",
+      "question": "보상 패키지에는 건강 보험이 포함됩니다.",
+      "answer": "The compensation package includes health insurance."
+    },
+    {
+      "id": "ex122",
+      "type": "translation_ko_en",
+      "question": "그녀는 더 높은 급여를 성공적으로 협상했습니다.",
+      "answer": "She successfully negotiated a higher salary."
+    },
+    {
+      "id": "ex123",
+      "type": "translation_ko_en",
+      "question": "내 멘토는 기업 세계를 탐색하는 데 도움을 주었습니다.",
+      "answer": "My mentor helped me navigate the corporate world."
+    },
+    {
+      "id": "ex124",
+      "type": "translation_ko_en",
+      "question": "네트워킹 행사는 경력 성장에 필수적입니다.",
+      "answer": "Networking events are essential for career growth."
+    },
+    {
+      "id": "ex125",
+      "type": "translation_ko_en",
+      "question": "그녀는 30대에 성공한 기업가가 되었습니다.",
+      "answer": "She became a successful entrepreneur in her thirties."
+    },
+    {
+      "id": "ex126",
+      "type": "translation_ko_en",
+      "question": "많은 디자이너들이 한 회사가 아닌 프리랜서로 일합니다.",
+      "answer": "Many designers work freelance rather than for one company."
+    },
+    {
+      "id": "ex127",
+      "type": "translation_ko_en",
+      "question": "회사는 최고 대학의 졸업생들을 채용하고 있습니다.",
+      "answer": "The company is recruiting graduates from top universities."
+    },
+    {
+      "id": "ex128",
+      "type": "translation_ko_en",
+      "question": "연례 평가가 급여 인상을 결정합니다.",
+      "answer": "Annual appraisals determine salary increases."
+    },
+    {
+      "id": "ex129",
+      "type": "translation_ko_en",
+      "question": "신입 사원들은 3개월간 수습 기간을 거칩니다.",
+      "answer": "New employees are on probation for three months."
+    },
+    {
+      "id": "ex130",
+      "type": "translation_ko_en",
+      "question": "높은 이직률은 직장 문제를 나타냅니다.",
+      "answer": "High turnover indicates workplace problems."
+    },
+    {
+      "id": "ex131",
+      "type": "translation_en_ko",
+      "question": "The company offers a generous pension scheme.",
+      "answer": "회사는 관대한 연금 제도를 제공합니다."
+    },
+    {
+      "id": "ex132",
+      "type": "translation_en_ko",
+      "question": "Employees value autonomy in their work.",
+      "answer": "직원들은 업무에서 자율성을 중요하게 생각합니다."
+    },
+    {
+      "id": "ex133",
+      "type": "translation_en_ko",
+      "question": "The merger created the largest tech company in Asia.",
+      "answer": "합병은 아시아에서 가장 큰 기술 회사를 만들었습니다."
+    },
+    {
+      "id": "ex134",
+      "type": "translation_en_ko",
+      "question": "Your design portfolio should showcase your best work.",
+      "answer": "당신의 디자인 포트폴리오는 최고의 작품을 보여줘야 합니다."
+    },
+    {
+      "id": "ex135",
+      "type": "translation_en_ko",
+      "question": "She took a sabbatical to travel and recharge.",
+      "answer": "그녀는 여행하고 재충전하기 위해 안식년을 가졌습니다."
+    },
+    {
+      "id": "ex136",
+      "type": "translation_en_ko",
+      "question": "The internship provides valuable industry experience.",
+      "answer": "인턴십은 귀중한 산업 경험을 제공합니다."
+    },
+    {
+      "id": "ex137",
+      "type": "translation_en_ko",
+      "question": "He completed a four-year apprenticeship as an electrician.",
+      "answer": "그는 전기 기술자로 4년간의 견습 과정을 마쳤습니다."
+    },
+    {
+      "id": "ex138",
+      "type": "translation_en_ko",
+      "question": "His resignation came as a surprise to everyone.",
+      "answer": "그의 사직은 모두에게 놀라움으로 다가왔습니다."
+    },
+    {
+      "id": "ex139",
+      "type": "translation_en_ko",
+      "question": "The company decided to terminate his contract early.",
+      "answer": "회사는 그의 계약을 조기에 종료하기로 결정했습니다."
+    },
+    {
+      "id": "ex140",
+      "type": "translation_en_ko",
+      "question": "Many employees now telework several days a week.",
+      "answer": "많은 직원들이 이제 일주일에 며칠 재택근무를 합니다."
+    },
+    {
+      "id": "ex141",
+      "type": "translation_en_ko",
+      "question": "Mass redundancies followed the factory closure.",
+      "answer": "공장 폐쇄 후 대규모 정리해고가 이어졌습니다."
+    },
+    {
+      "id": "ex142",
+      "type": "translation_en_ko",
+      "question": "Employees can file a grievance with HR.",
+      "answer": "직원들은 인사부에 고충을 제기할 수 있습니다."
+    },
+    {
+      "id": "ex143",
+      "type": "translation_en_ko",
+      "question": "Age discrimination is illegal in most countries.",
+      "answer": "연령 차별은 대부분의 나라에서 불법입니다."
+    },
+    {
+      "id": "ex144",
+      "type": "translation_en_ko",
+      "question": "The company values transparency in decision-making.",
+      "answer": "회사는 의사 결정에서 투명성을 중요하게 여깁니다."
+    },
+    {
+      "id": "ex145",
+      "type": "translation_en_ko",
+      "question": "We use industry benchmarks to evaluate our performance.",
+      "answer": "우리는 성과를 평가하기 위해 산업 벤치마크를 사용합니다."
+    },
+    {
+      "id": "ex146",
+      "type": "translation_en_ko",
+      "question": "We can leverage our expertise to win new clients.",
+      "answer": "우리는 새로운 고객을 확보하기 위해 전문성을 활용할 수 있습니다."
+    },
+    {
+      "id": "ex147",
+      "type": "translation_en_ko",
+      "question": "The new policy increases accountability among managers.",
+      "answer": "새로운 정책은 관리자들 사이의 책임감을 높입니다."
+    },
+    {
+      "id": "ex148",
+      "type": "translation_en_ko",
+      "question": "A master's degree is a key qualification for this role.",
+      "answer": "석사 학위는 이 직책의 핵심 자격입니다."
+    },
+    {
+      "id": "ex149",
+      "type": "translation_en_ko",
+      "question": "Make sure your resume is updated before applying.",
+      "answer": "지원하기 전에 이력서가 업데이트되었는지 확인하세요."
+    },
+    {
+      "id": "ex150",
+      "type": "translation_en_ko",
+      "question": "The company decided to restructure its departments.",
+      "answer": "회사는 부서를 구조조정하기로 결정했습니다."
     }
   ]
 }

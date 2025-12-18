@@ -1,0 +1,2009 @@
+{
+  "id": "c2-vocab-week-6",
+  "type": "vocabulary",
+  "level": "C2",
+  "weekId": "week-6",
+  "title": "Ethics and Moral Philosophy Lexicon",
+  "description": "Specialized vocabulary for ethical theory and moral philosophy",
+  "estimatedMinutes": 25,
+  "xpReward": 55,
+  "words": [
+    {
+      "id": "w1",
+      "word": "deontology",
+      "pronunciation": "/ˌdiːɒnˈtɒlədʒi/",
+      "partOfSpeech": "noun",
+      "meaning": "Ethical theory that judges actions based on adherence to rules or duties rather than consequences",
+      "translation": "의무론",
+      "example": "Kantian deontology holds that certain acts are intrinsically wrong regardless of their outcomes."
+    },
+    {
+      "id": "w2",
+      "word": "consequentialism",
+      "pronunciation": "/ˌkɒnsɪˈkwenʃəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The view that actions should be judged solely by their consequences",
+      "translation": "결과주의",
+      "example": "Act consequentialism evaluates individual actions; rule consequentialism evaluates rules for action."
+    },
+    {
+      "id": "w3",
+      "word": "categorical imperative",
+      "pronunciation": "/ˌkætəˈɡɒrɪkəl ɪmˈperətɪv/",
+      "partOfSpeech": "noun",
+      "meaning": "Kant's supreme principle of morality: act only according to rules you could will as universal laws",
+      "translation": "정언명령",
+      "example": "The categorical imperative forbids using persons merely as means to ends."
+    },
+    {
+      "id": "w4",
+      "word": "supererogatory",
+      "pronunciation": "/ˌsuːpərɪˈrɒɡətɔːri/",
+      "partOfSpeech": "adjective",
+      "meaning": "Beyond what is required by duty; morally praiseworthy but not obligatory",
+      "translation": "의무 이상의",
+      "example": "Heroic self-sacrifice is typically considered supererogatory rather than obligatory."
+    },
+    {
+      "id": "w5",
+      "word": "moral particularism",
+      "pronunciation": "/ˈmɒrəl pɑːˈtɪkjʊlərɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The view that moral principles cannot be stated in general terms; each situation requires unique judgment",
+      "translation": "도덕적 특수주의",
+      "example": "Moral particularism challenges the search for universal ethical principles."
+    },
+    {
+      "id": "w6",
+      "word": "akrasia",
+      "pronunciation": "/əˈkreɪziə/",
+      "partOfSpeech": "noun",
+      "meaning": "Acting against one's better judgment; weakness of will",
+      "translation": "의지의 나약",
+      "example": "Akrasia presents a puzzle: how can we knowingly act against our own perceived good?"
+    },
+    {
+      "id": "w7",
+      "word": "metaethics",
+      "pronunciation": "/ˌmetəˈeθɪks/",
+      "partOfSpeech": "noun",
+      "meaning": "The study of the nature, foundations, and meaning of ethical statements themselves",
+      "translation": "메타윤리학",
+      "example": "Metaethics asks whether moral statements can be true or false, and what makes them so."
+    },
+    {
+      "id": "w8",
+      "word": "moral luck",
+      "pronunciation": "/ˈmɒrəl lʌk/",
+      "partOfSpeech": "noun",
+      "meaning": "The phenomenon that factors beyond our control affect moral judgment of our actions",
+      "translation": "도덕적 운",
+      "example": "The concept of moral luck challenges the assumption that we are only responsible for what we control."
+    },
+    {
+      "id": "w9",
+      "word": "virtue ethics",
+      "pronunciation": "/ˈvɜːtʃuː ˈeθɪks/",
+      "partOfSpeech": "noun",
+      "meaning": "Ethical theory emphasizing character and virtues rather than rules or consequences",
+      "translation": "덕 윤리학",
+      "example": "Virtue ethics focuses on cultivating moral character rather than following universal principles."
+    },
+    {
+      "id": "w10",
+      "word": "eudaimonia",
+      "pronunciation": "/ˌjuːdaɪˈməʊniə/",
+      "partOfSpeech": "noun",
+      "meaning": "Human flourishing or living well; the highest good in Aristotelian ethics",
+      "translation": "행복, 번영",
+      "example": "Aristotle argued that eudaimonia is achieved through the practice of virtue over a complete life."
+    },
+    {
+      "id": "w11",
+      "word": "utilitarianism",
+      "pronunciation": "/ˌjuːtɪlɪˈteəriənɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "Ethical theory that the right action maximizes overall happiness or well-being",
+      "translation": "공리주의",
+      "example": "Classical utilitarianism judges actions by their tendency to promote the greatest happiness for the greatest number."
+    },
+    {
+      "id": "w12",
+      "word": "moral relativism",
+      "pronunciation": "/ˈmɒrəl ˈrelətɪvɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The view that moral judgments are true or false only relative to particular standpoints",
+      "translation": "도덕적 상대주의",
+      "example": "Cultural moral relativism holds that moral standards vary across cultures with no objective standard."
+    },
+    {
+      "id": "w13",
+      "word": "moral realism",
+      "pronunciation": "/ˈmɒrəl ˈrɪəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The view that there exist objective moral facts independent of human opinion",
+      "translation": "도덕적 실재론",
+      "example": "Moral realism asserts that statements like 'murder is wrong' are objectively true."
+    },
+    {
+      "id": "w14",
+      "word": "ethical egoism",
+      "pronunciation": "/ˈeθɪkəl ˈiːɡəʊɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The normative view that moral agents ought to act in their own self-interest",
+      "translation": "윤리적 이기주의",
+      "example": "Ethical egoism differs from psychological egoism, which merely describes human motivation."
+    },
+    {
+      "id": "w15",
+      "word": "altruism",
+      "pronunciation": "/ˈæltruɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "Selfless concern for the well-being of others",
+      "translation": "이타주의",
+      "example": "Pure altruism involves acting for others' benefit without expectation of personal gain."
+    },
+    {
+      "id": "w16",
+      "word": "moral autonomy",
+      "pronunciation": "/ˈmɒrəl ɔːˈtɒnəmi/",
+      "partOfSpeech": "noun",
+      "meaning": "The capacity for self-governance in moral matters; giving oneself moral law",
+      "translation": "도덕적 자율성",
+      "example": "Kant argued that moral autonomy distinguishes rational beings from mere animals."
+    },
+    {
+      "id": "w17",
+      "word": "moral heteronomy",
+      "pronunciation": "/ˈmɒrəl ˌhetəˈrɒnəmi/",
+      "partOfSpeech": "noun",
+      "meaning": "Moral law imposed from outside rather than self-legislated",
+      "translation": "도덕적 타율성",
+      "example": "Following divine commands out of fear represents moral heteronomy rather than autonomy."
+    },
+    {
+      "id": "w18",
+      "word": "moral nihilism",
+      "pronunciation": "/ˈmɒrəl ˈnaɪɪlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The view that nothing is morally right or wrong; moral statements are universally false",
+      "translation": "도덕적 허무주의",
+      "example": "Moral nihilism denies the existence of moral properties or moral knowledge."
+    },
+    {
+      "id": "w19",
+      "word": "emotivism",
+      "pronunciation": "/ɪˈməʊtɪvɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The metaethical view that moral statements merely express emotions rather than facts",
+      "translation": "정서주의",
+      "example": "According to emotivism, saying 'murder is wrong' just expresses disapproval of murder."
+    },
+    {
+      "id": "w20",
+      "word": "prescriptivism",
+      "pronunciation": "/prɪˈskrɪptɪvɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The view that moral judgments are prescriptions or commands rather than descriptions",
+      "translation": "규정주의",
+      "example": "Hare's prescriptivism holds that moral language has both prescriptive and universalizable features."
+    },
+    {
+      "id": "w21",
+      "word": "moral skepticism",
+      "pronunciation": "/ˈmɒrəl ˈskeptɪsɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "Doubt about the possibility of moral knowledge or justified moral beliefs",
+      "translation": "도덕적 회의주의",
+      "example": "Moral skepticism questions whether we can ever truly know what is right or wrong."
+    },
+    {
+      "id": "w22",
+      "word": "moral sentimentalism",
+      "pronunciation": "/ˈmɒrəl ˌsentɪˈmentəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The view that moral judgments are based on sentiment or emotion rather than reason",
+      "translation": "도덕적 감정주의",
+      "example": "Hume's moral sentimentalism grounds ethics in human feelings of sympathy and approval."
+    },
+    {
+      "id": "w23",
+      "word": "moral rationalism",
+      "pronunciation": "/ˈmɒrəl ˈræʃənəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The view that moral truths can be known through reason alone",
+      "translation": "도덕적 합리주의",
+      "example": "Moral rationalism asserts that ethical principles are discoverable through rational reflection."
+    },
+    {
+      "id": "w24",
+      "word": "moral cognitivism",
+      "pronunciation": "/ˈmɒrəl ˈkɒɡnɪtɪvɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The view that moral statements express beliefs and can be true or false",
+      "translation": "도덕적 인지주의",
+      "example": "Moral cognitivism contrasts with emotivism by treating moral claims as truth-apt."
+    },
+    {
+      "id": "w25",
+      "word": "moral non-cognitivism",
+      "pronunciation": "/ˈmɒrəl nɒn-ˈkɒɡnɪtɪvɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The view that moral statements do not express beliefs but rather attitudes or emotions",
+      "translation": "도덕적 비인지주의",
+      "example": "Moral non-cognitivism includes theories like emotivism and prescriptivism."
+    },
+    {
+      "id": "w26",
+      "word": "prima facie duty",
+      "pronunciation": "/ˌpraɪmə ˈfeɪʃi ˈdjuːti/",
+      "partOfSpeech": "noun",
+      "meaning": "A conditional duty that can be overridden by more stringent duties",
+      "translation": "일견상의 의무",
+      "example": "Ross identified several prima facie duties including fidelity, gratitude, and non-maleficence."
+    },
+    {
+      "id": "w27",
+      "word": "moral desert",
+      "pronunciation": "/ˈmɒrəl dɪˈzɜːt/",
+      "partOfSpeech": "noun",
+      "meaning": "What someone morally deserves based on their actions or character",
+      "translation": "도덕적 응분",
+      "example": "Retributive justice is based on the concept of moral desert—giving people what they deserve."
+    },
+    {
+      "id": "w28",
+      "word": "moral responsibility",
+      "pronunciation": "/ˈmɒrəl rɪˌspɒnsəˈbɪləti/",
+      "partOfSpeech": "noun",
+      "meaning": "Being accountable for one's actions in a way that makes praise or blame appropriate",
+      "translation": "도덕적 책임",
+      "example": "Moral responsibility typically requires both freedom and knowledge of one's actions."
+    },
+    {
+      "id": "w29",
+      "word": "compatibilism",
+      "pronunciation": "/kəmˌpætəˈbɪlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The view that free will and determinism are compatible",
+      "translation": "양립가능론",
+      "example": "Compatibilism allows for moral responsibility even if all actions are causally determined."
+    },
+    {
+      "id": "w30",
+      "word": "libertarianism",
+      "pronunciation": "/ˌlɪbəˈteəriənɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The view that free will requires indeterminism; we must have genuine alternative possibilities",
+      "translation": "자유지상주의",
+      "example": "In metaphysics, libertarianism holds that humans have genuine free will incompatible with determinism."
+    },
+    {
+      "id": "w31",
+      "word": "hard determinism",
+      "pronunciation": "/hɑːd dɪˈtɜːmɪnɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The view that determinism is true and therefore free will does not exist",
+      "translation": "강경 결정론",
+      "example": "Hard determinism concludes that no one is truly morally responsible for their actions."
+    },
+    {
+      "id": "w32",
+      "word": "moral dilemma",
+      "pronunciation": "/ˈmɒrəl dɪˈlemə/",
+      "partOfSpeech": "noun",
+      "meaning": "A situation where all available options involve violating some moral obligation",
+      "translation": "도덕적 딜레마",
+      "example": "Sophie's Choice presents a tragic moral dilemma with no right answer."
+    },
+    {
+      "id": "w33",
+      "word": "double effect",
+      "pronunciation": "/ˌdʌbəl ɪˈfekt/",
+      "partOfSpeech": "noun",
+      "meaning": "The principle that harmful side effects may be permissible if not intended, though foreseen",
+      "translation": "이중효과",
+      "example": "The doctrine of double effect distinguishes intended from merely foreseen consequences."
+    },
+    {
+      "id": "w34",
+      "word": "moral agency",
+      "pronunciation": "/ˈmɒrəl ˈeɪdʒənsi/",
+      "partOfSpeech": "noun",
+      "meaning": "The capacity to make moral judgments and be held morally responsible",
+      "translation": "도덕적 행위주체성",
+      "example": "Moral agency requires both rationality and the capacity for moral reasoning."
+    },
+    {
+      "id": "w35",
+      "word": "moral patiency",
+      "pronunciation": "/ˈmɒrəl ˈpeɪʃənsi/",
+      "partOfSpeech": "noun",
+      "meaning": "The status of being owed moral consideration; being a bearer of moral rights",
+      "translation": "도덳적 피행위자성",
+      "example": "Animal rights advocates argue that sentient beings possess moral patiency."
+    },
+    {
+      "id": "w36",
+      "word": "speciesism",
+      "pronunciation": "/ˈspiːʃiːzɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "Unjustified discrimination based on species membership",
+      "translation": "종차별주의",
+      "example": "Singer argues that speciesism is analogous to racism in its arbitrary discrimination."
+    },
+    {
+      "id": "w37",
+      "word": "moral standing",
+      "pronunciation": "/ˈmɒrəl ˈstændɪŋ/",
+      "partOfSpeech": "noun",
+      "meaning": "The status of being morally considerable in one's own right",
+      "translation": "도덕적 지위",
+      "example": "Debates about abortion often center on whether fetuses have moral standing."
+    },
+    {
+      "id": "w38",
+      "word": "intrinsic value",
+      "pronunciation": "/ɪnˈtrɪnsɪk ˈvæljuː/",
+      "partOfSpeech": "noun",
+      "meaning": "Value that something has in itself, independent of its usefulness",
+      "translation": "내재적 가치",
+      "example": "Many philosophers argue that human beings have intrinsic value, not merely instrumental value."
+    },
+    {
+      "id": "w39",
+      "word": "instrumental value",
+      "pronunciation": "/ˌɪnstrəˈmentəl ˈvæljuː/",
+      "partOfSpeech": "noun",
+      "meaning": "Value derived from usefulness as a means to something else",
+      "translation": "도구적 가치",
+      "example": "Money has instrumental value—it's valuable for what it can purchase, not in itself."
+    },
+    {
+      "id": "w40",
+      "word": "moral absolutism",
+      "pronunciation": "/ˈmɒrəl ˈæbsəluːtɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The view that certain actions are absolutely right or wrong regardless of context",
+      "translation": "도덕적 절대주의",
+      "example": "Moral absolutism holds that rules like 'never lie' admit no exceptions."
+    },
+    {
+      "id": "w41",
+      "word": "moral universalism",
+      "pronunciation": "/ˈmɒrəl ˌjuːnɪˈvɜːsəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The position that moral principles apply universally to all people",
+      "translation": "도덕적 보편주의",
+      "example": "Moral universalism asserts that human rights apply to all persons everywhere."
+    },
+    {
+      "id": "w42",
+      "word": "moral exemplar",
+      "pronunciation": "/ˈmɒrəl ɪɡˈzemplɑː/",
+      "partOfSpeech": "noun",
+      "meaning": "A person who embodies moral virtue and serves as a model for others",
+      "translation": "도덕적 모범",
+      "example": "Figures like Gandhi and Mother Teresa are often cited as moral exemplars."
+    },
+    {
+      "id": "w43",
+      "word": "moral corruption",
+      "pronunciation": "/ˈmɒrəl kəˈrʌpʃən/",
+      "partOfSpeech": "noun",
+      "meaning": "Deterioration of moral character or the undermining of moral values",
+      "translation": "도덕적 타락",
+      "example": "Absolute power tends toward moral corruption, as Lord Acton famously observed."
+    },
+    {
+      "id": "w44",
+      "word": "moral turpitude",
+      "pronunciation": "/ˈmɒrəl ˈtɜːpɪtjuːd/",
+      "partOfSpeech": "noun",
+      "meaning": "Inherent baseness or vileness of character; depravity",
+      "translation": "도덕적 타락",
+      "example": "Crimes of moral turpitude involve dishonesty, fraud, or deliberate cruelty."
+    },
+    {
+      "id": "w45",
+      "word": "moral suasion",
+      "pronunciation": "/ˈmɒrəl ˈsweɪʒən/",
+      "partOfSpeech": "noun",
+      "meaning": "Persuasion by appeal to moral principles rather than force or legal authority",
+      "translation": "도덕적 설득",
+      "example": "Civil rights leaders employed moral suasion to change unjust laws."
+    },
+    {
+      "id": "w46",
+      "word": "casuistry",
+      "pronunciation": "/ˈkæzjuɪstri/",
+      "partOfSpeech": "noun",
+      "meaning": "Case-based moral reasoning; resolving moral problems by applying general principles to specific cases",
+      "translation": "궤변론, 사례 윤리학",
+      "example": "Medieval casuistry developed detailed analyses of moral cases, though the term now often implies sophistry."
+    },
+    {
+      "id": "w47",
+      "word": "moral hazard",
+      "pronunciation": "/ˈmɒrəl ˈhæzəd/",
+      "partOfSpeech": "noun",
+      "meaning": "The situation where protection from consequences leads to riskier behavior",
+      "translation": "도덕적 해이",
+      "example": "Insurance creates moral hazard by reducing the insured party's incentive to prevent losses."
+    },
+    {
+      "id": "w48",
+      "word": "amoralism",
+      "pronunciation": "/eɪˈmɒrəlɪzəm/",
+      "partOfSpeech": "noun",
+      "meaning": "The position of being unconcerned with morality; neither moral nor immoral",
+      "translation": "무도덕주의",
+      "example": "Nietzsche's immoralist goes beyond morality rather than simply violating it, embracing amoralism."
+    },
+    {
+      "id": "w49",
+      "word": "moral clarity",
+      "pronunciation": "/ˈmɒrəl ˈklærəti/",
+      "partOfSpeech": "noun",
+      "meaning": "Clear perception and understanding of moral truth or rightness",
+      "translation": "도덕적 명확성",
+      "example": "In war, moral clarity about the difference between combatants and civilians is essential."
+    },
+    {
+      "id": "w50",
+      "word": "moral imperative",
+      "pronunciation": "/ˈmɒrəl ɪmˈperətɪv/",
+      "partOfSpeech": "noun",
+      "meaning": "A principle or command that one is morally obligated to follow",
+      "translation": "도덕적 명령",
+      "example": "Many view combating climate change as a moral imperative for our generation."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "type": "multiple_choice",
+      "question": "Which ethical theory judges actions based on adherence to rules rather than consequences?",
+      "options": [
+        "Deontology",
+        "Consequentialism",
+        "Virtue ethics",
+        "Utilitarianism"
+      ],
+      "correctAnswer": 0,
+      "translation": "어떤 윤리 이론이 결과보다는 규칙 준수에 따라 행동을 판단합니까?"
+    },
+    {
+      "id": "ex2",
+      "type": "multiple_choice",
+      "question": "What is the term for acting against one's better judgment?",
+      "options": [
+        "Eudaimonia",
+        "Akrasia",
+        "Altruism",
+        "Autonomy"
+      ],
+      "correctAnswer": 1,
+      "translation": "자신의 더 나은 판단에 반하여 행동하는 것을 무엇이라고 합니까?"
+    },
+    {
+      "id": "ex3",
+      "type": "multiple_choice",
+      "question": "What does 'supererogatory' mean?",
+      "options": [
+        "Morally required",
+        "Morally forbidden",
+        "Beyond what is required by duty",
+        "Against moral principles"
+      ],
+      "correctAnswer": 2,
+      "translation": "'의무 이상의'는 무엇을 의미합니까?"
+    },
+    {
+      "id": "ex4",
+      "type": "multiple_choice",
+      "question": "Which term refers to the study of the nature and meaning of ethical statements themselves?",
+      "options": [
+        "Applied ethics",
+        "Normative ethics",
+        "Metaethics",
+        "Virtue ethics"
+      ],
+      "correctAnswer": 2,
+      "translation": "윤리적 진술 자체의 본질과 의미에 대한 연구를 무엇이라고 합니까?"
+    },
+    {
+      "id": "ex5",
+      "type": "multiple_choice",
+      "question": "What is Kant's supreme principle of morality called?",
+      "options": [
+        "Categorical imperative",
+        "Golden rule",
+        "Moral law",
+        "Universal maxim"
+      ],
+      "correctAnswer": 0,
+      "translation": "칸트의 최고 도덕 원리는 무엇이라고 불립니까?"
+    },
+    {
+      "id": "ex6",
+      "type": "multiple_choice",
+      "question": "Which view holds that moral principles cannot be stated in general terms?",
+      "options": [
+        "Moral universalism",
+        "Moral particularism",
+        "Moral absolutism",
+        "Moral rationalism"
+      ],
+      "correctAnswer": 1,
+      "translation": "도덕 원칙을 일반적인 용어로 표현할 수 없다는 견해는 무엇입니까?"
+    },
+    {
+      "id": "ex7",
+      "type": "multiple_choice",
+      "question": "What is the highest good in Aristotelian ethics?",
+      "options": [
+        "Pleasure",
+        "Virtue",
+        "Eudaimonia",
+        "Honor"
+      ],
+      "correctAnswer": 2,
+      "translation": "아리스토텔레스 윤리학에서 최고선은 무엇입니까?"
+    },
+    {
+      "id": "ex8",
+      "type": "multiple_choice",
+      "question": "Which theory focuses on cultivating moral character rather than following rules?",
+      "options": [
+        "Deontology",
+        "Consequentialism",
+        "Virtue ethics",
+        "Utilitarianism"
+      ],
+      "correctAnswer": 2,
+      "translation": "규칙을 따르기보다는 도덕적 성격을 기르는 데 초점을 맞추는 이론은 무엇입니까?"
+    },
+    {
+      "id": "ex9",
+      "type": "multiple_choice",
+      "question": "What is the view that actions should be judged solely by their consequences?",
+      "options": [
+        "Deontology",
+        "Consequentialism",
+        "Virtue ethics",
+        "Contractarianism"
+      ],
+      "correctAnswer": 1,
+      "translation": "행동을 오직 그 결과로만 판단해야 한다는 견해는 무엇입니까?"
+    },
+    {
+      "id": "ex10",
+      "type": "multiple_choice",
+      "question": "Which term refers to selfless concern for the well-being of others?",
+      "options": [
+        "Egoism",
+        "Altruism",
+        "Hedonism",
+        "Nihilism"
+      ],
+      "correctAnswer": 1,
+      "translation": "다른 사람의 행복에 대한 이타적인 관심을 가리키는 용어는 무엇입니까?"
+    },
+    {
+      "id": "ex11",
+      "type": "multiple_choice",
+      "question": "What do we call factors beyond our control that affect moral judgment of our actions?",
+      "options": [
+        "Moral hazard",
+        "Moral luck",
+        "Moral desert",
+        "Moral clarity"
+      ],
+      "correctAnswer": 1,
+      "translation": "우리의 행동에 대한 도덕적 판단에 영향을 미치는 우리 통제 밖의 요인을 무엇이라고 합니까?"
+    },
+    {
+      "id": "ex12",
+      "type": "multiple_choice",
+      "question": "Which view holds that the right action maximizes overall happiness?",
+      "options": [
+        "Deontology",
+        "Virtue ethics",
+        "Utilitarianism",
+        "Nihilism"
+      ],
+      "correctAnswer": 2,
+      "translation": "올바른 행동이 전체적인 행복을 극대화한다고 주장하는 견해는 무엇입니까?"
+    },
+    {
+      "id": "ex13",
+      "type": "multiple_choice",
+      "question": "What is the view that moral judgments are true only relative to particular standpoints?",
+      "options": [
+        "Moral absolutism",
+        "Moral universalism",
+        "Moral relativism",
+        "Moral realism"
+      ],
+      "correctAnswer": 2,
+      "translation": "도덕적 판단이 특정 관점에 상대적으로만 참이라는 견해는 무엇입니까?"
+    },
+    {
+      "id": "ex14",
+      "type": "multiple_choice",
+      "question": "Which term refers to objective moral facts independent of human opinion?",
+      "options": [
+        "Moral relativism",
+        "Moral realism",
+        "Emotivism",
+        "Moral nihilism"
+      ],
+      "correctAnswer": 1,
+      "translation": "인간의 의견과 무관한 객관적 도덕적 사실을 가리키는 용어는 무엇입니까?"
+    },
+    {
+      "id": "ex15",
+      "type": "multiple_choice",
+      "question": "What is the normative view that moral agents ought to act in their own self-interest?",
+      "options": [
+        "Altruism",
+        "Ethical egoism",
+        "Utilitarianism",
+        "Deontology"
+      ],
+      "correctAnswer": 1,
+      "translation": "도덕적 행위자가 자신의 이익을 위해 행동해야 한다는 규범적 견해는 무엇입니까?"
+    },
+    {
+      "id": "ex16",
+      "type": "multiple_choice",
+      "question": "What is the capacity for self-governance in moral matters called?",
+      "options": [
+        "Moral autonomy",
+        "Moral heteronomy",
+        "Moral agency",
+        "Moral patiency"
+      ],
+      "correctAnswer": 0,
+      "translation": "도덕적 문제에 있어서 자기 지배 능력을 무엇이라고 합니까?"
+    },
+    {
+      "id": "ex17",
+      "type": "multiple_choice",
+      "question": "Which view holds that nothing is morally right or wrong?",
+      "options": [
+        "Moral skepticism",
+        "Moral relativism",
+        "Moral nihilism",
+        "Amoralism"
+      ],
+      "correctAnswer": 2,
+      "translation": "아무것도 도덕적으로 옳거나 그르지 않다는 견해는 무엇입니까?"
+    },
+    {
+      "id": "ex18",
+      "type": "multiple_choice",
+      "question": "What is the metaethical view that moral statements merely express emotions?",
+      "options": [
+        "Cognitivism",
+        "Emotivism",
+        "Prescriptivism",
+        "Realism"
+      ],
+      "correctAnswer": 1,
+      "translation": "도덕적 진술이 단지 감정을 표현할 뿐이라는 메타윤리적 견해는 무엇입니까?"
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "Which view holds that moral judgments are prescriptions or commands?",
+      "options": [
+        "Emotivism",
+        "Prescriptivism",
+        "Descriptivism",
+        "Realism"
+      ],
+      "correctAnswer": 1,
+      "translation": "도덕적 판단이 처방이나 명령이라고 주장하는 견해는 무엇입니까?"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "What term describes doubt about the possibility of moral knowledge?",
+      "options": [
+        "Moral nihilism",
+        "Moral skepticism",
+        "Moral relativism",
+        "Amoralism"
+      ],
+      "correctAnswer": 1,
+      "translation": "도덕적 지식의 가능성에 대한 의심을 설명하는 용어는 무엇입니까?"
+    },
+    {
+      "id": "ex21",
+      "type": "multiple_choice",
+      "question": "Which view grounds ethics in human feelings of sympathy and approval?",
+      "options": [
+        "Moral rationalism",
+        "Moral sentimentalism",
+        "Moral cognitivism",
+        "Moral realism"
+      ],
+      "correctAnswer": 1,
+      "translation": "공감과 승인의 인간 감정에 윤리를 기초로 하는 견해는 무엇입니까?"
+    },
+    {
+      "id": "ex22",
+      "type": "multiple_choice",
+      "question": "Which view asserts that moral truths can be known through reason alone?",
+      "options": [
+        "Moral empiricism",
+        "Moral sentimentalism",
+        "Moral rationalism",
+        "Moral intuitionism"
+      ],
+      "correctAnswer": 2,
+      "translation": "도덕적 진리가 이성만으로 알 수 있다고 주장하는 견해는 무엇입니까?"
+    },
+    {
+      "id": "ex23",
+      "type": "multiple_choice",
+      "question": "What is the view that moral statements express beliefs and can be true or false?",
+      "options": [
+        "Moral non-cognitivism",
+        "Moral cognitivism",
+        "Emotivism",
+        "Prescriptivism"
+      ],
+      "correctAnswer": 1,
+      "translation": "도덕적 진술이 믿음을 표현하며 참 또는 거짓일 수 있다는 견해는 무엇입니까?"
+    },
+    {
+      "id": "ex24",
+      "type": "multiple_choice",
+      "question": "What term describes a conditional duty that can be overridden by more stringent duties?",
+      "options": [
+        "Absolute duty",
+        "Prima facie duty",
+        "Perfect duty",
+        "Imperfect duty"
+      ],
+      "correctAnswer": 1,
+      "translation": "더 엄격한 의무에 의해 무시될 수 있는 조건부 의무를 설명하는 용어는 무엇입니까?"
+    },
+    {
+      "id": "ex25",
+      "type": "multiple_choice",
+      "question": "What do we call what someone morally deserves based on their actions?",
+      "options": [
+        "Moral luck",
+        "Moral desert",
+        "Moral standing",
+        "Moral agency"
+      ],
+      "correctAnswer": 1,
+      "translation": "그들의 행동에 기반하여 누군가가 도덕적으로 받을 자격이 있는 것을 무엇이라고 합니까?"
+    },
+    {
+      "id": "ex26",
+      "type": "multiple_choice",
+      "question": "Which view holds that free will and determinism are compatible?",
+      "options": [
+        "Libertarianism",
+        "Hard determinism",
+        "Compatibilism",
+        "Indeterminism"
+      ],
+      "correctAnswer": 2,
+      "translation": "자유 의지와 결정론이 양립 가능하다고 주장하는 견해는 무엇입니까?"
+    },
+    {
+      "id": "ex27",
+      "type": "multiple_choice",
+      "question": "Which view requires indeterminism for free will to exist?",
+      "options": [
+        "Compatibilism",
+        "Hard determinism",
+        "Libertarianism",
+        "Soft determinism"
+      ],
+      "correctAnswer": 2,
+      "translation": "자유 의지가 존재하기 위해 비결정론이 필요하다고 하는 견해는 무엇입니까?"
+    },
+    {
+      "id": "ex28",
+      "type": "multiple_choice",
+      "question": "What is a situation where all available options violate some moral obligation?",
+      "options": [
+        "Moral hazard",
+        "Moral dilemma",
+        "Moral luck",
+        "Moral clarity"
+      ],
+      "correctAnswer": 1,
+      "translation": "모든 가능한 선택이 일부 도덕적 의무를 위반하는 상황은 무엇입니까?"
+    },
+    {
+      "id": "ex29",
+      "type": "multiple_choice",
+      "question": "What principle allows harmful side effects if not intended, though foreseen?",
+      "options": [
+        "Single effect",
+        "Double effect",
+        "Triple effect",
+        "Unintended effect"
+      ],
+      "correctAnswer": 1,
+      "translation": "의도하지 않았지만 예견된 해로운 부작용을 허용하는 원칙은 무엇입니까?"
+    },
+    {
+      "id": "ex30",
+      "type": "multiple_choice",
+      "question": "What is the capacity to make moral judgments and be held morally responsible?",
+      "options": [
+        "Moral patiency",
+        "Moral agency",
+        "Moral standing",
+        "Moral autonomy"
+      ],
+      "correctAnswer": 1,
+      "translation": "도덕적 판단을 하고 도덕적 책임을 질 수 있는 능력은 무엇입니까?"
+    },
+    {
+      "id": "ex31",
+      "type": "fill_blank",
+      "question": "_______ is the ethical theory that judges actions based on adherence to rules rather than consequences.",
+      "correctAnswer": "Deontology",
+      "translation": "_______는 결과보다는 규칙 준수에 따라 행동을 판단하는 윤리 이론입니다."
+    },
+    {
+      "id": "ex32",
+      "type": "fill_blank",
+      "question": "Kant's supreme principle of morality is called the _______.",
+      "correctAnswer": "categorical imperative",
+      "translation": "칸트의 최고 도덕 원리는 _______라고 불립니다."
+    },
+    {
+      "id": "ex33",
+      "type": "fill_blank",
+      "question": "_______ refers to acting against one's better judgment or weakness of will.",
+      "correctAnswer": "Akrasia",
+      "translation": "_______는 자신의 더 나은 판단에 반하여 행동하거나 의지의 나약함을 가리킵니다."
+    },
+    {
+      "id": "ex34",
+      "type": "fill_blank",
+      "question": "_______ is the study of the nature, foundations, and meaning of ethical statements themselves.",
+      "correctAnswer": "Metaethics",
+      "translation": "_______는 윤리적 진술 자체의 본질, 기초 및 의미에 대한 연구입니다."
+    },
+    {
+      "id": "ex35",
+      "type": "fill_blank",
+      "question": "Actions that are beyond what is required by duty are called _______.",
+      "correctAnswer": "supererogatory",
+      "translation": "의무에서 요구하는 것 이상의 행동을 _______라고 합니다."
+    },
+    {
+      "id": "ex36",
+      "type": "fill_blank",
+      "question": "The view that moral principles cannot be stated in general terms is called _______.",
+      "correctAnswer": "moral particularism",
+      "translation": "도덕 원칙을 일반적인 용어로 표현할 수 없다는 견해를 _______라고 합니다."
+    },
+    {
+      "id": "ex37",
+      "type": "fill_blank",
+      "question": "_______ is the highest good in Aristotelian ethics, often translated as human flourishing.",
+      "correctAnswer": "Eudaimonia",
+      "translation": "_______는 아리스토텔레스 윤리학에서 최고선이며, 종종 인간의 번영으로 번역됩니다."
+    },
+    {
+      "id": "ex38",
+      "type": "fill_blank",
+      "question": "_______ focuses on cultivating moral character and virtues rather than following rules.",
+      "correctAnswer": "Virtue ethics",
+      "translation": "_______는 규칙을 따르기보다는 도덕적 성격과 덕을 기르는 데 초점을 맞춥니다."
+    },
+    {
+      "id": "ex39",
+      "type": "fill_blank",
+      "question": "_______ is the view that actions should be judged solely by their consequences.",
+      "correctAnswer": "Consequentialism",
+      "translation": "_______는 행동을 오직 그 결과로만 판단해야 한다는 견해입니다."
+    },
+    {
+      "id": "ex40",
+      "type": "fill_blank",
+      "question": "Selfless concern for the well-being of others is called _______.",
+      "correctAnswer": "altruism",
+      "translation": "다른 사람의 행복에 대한 이타적인 관심을 _______라고 합니다."
+    },
+    {
+      "id": "ex41",
+      "type": "fill_blank",
+      "question": "The phenomenon that factors beyond our control affect moral judgment is called _______.",
+      "correctAnswer": "moral luck",
+      "translation": "우리 통제 밖의 요인이 도덕적 판단에 영향을 미치는 현상을 _______라고 합니다."
+    },
+    {
+      "id": "ex42",
+      "type": "fill_blank",
+      "question": "_______ holds that the right action is the one that maximizes overall happiness.",
+      "correctAnswer": "Utilitarianism",
+      "translation": "_______는 올바른 행동이 전체적인 행복을 극대화하는 것이라고 주장합니다."
+    },
+    {
+      "id": "ex43",
+      "type": "fill_blank",
+      "question": "The view that moral judgments are true only relative to particular standpoints is called _______.",
+      "correctAnswer": "moral relativism",
+      "translation": "도덕적 판단이 특정 관점에 상대적으로만 참이라는 견해를 _______라고 합니다."
+    },
+    {
+      "id": "ex44",
+      "type": "fill_blank",
+      "question": "_______ is the view that there exist objective moral facts independent of human opinion.",
+      "correctAnswer": "Moral realism",
+      "translation": "_______는 인간의 의견과 무관한 객관적 도덕적 사실이 존재한다는 견해입니다."
+    },
+    {
+      "id": "ex45",
+      "type": "fill_blank",
+      "question": "The normative view that moral agents ought to act in their own self-interest is called _______.",
+      "correctAnswer": "ethical egoism",
+      "translation": "도덕적 행위자가 자신의 이익을 위해 행동해야 한다는 규범적 견해를 _______라고 합니다."
+    },
+    {
+      "id": "ex46",
+      "type": "fill_blank",
+      "question": "The capacity for self-governance in moral matters is called _______.",
+      "correctAnswer": "moral autonomy",
+      "translation": "도덕적 문제에 있어서 자기 지배 능력을 _______라고 합니다."
+    },
+    {
+      "id": "ex47",
+      "type": "fill_blank",
+      "question": "Moral law imposed from outside rather than self-legislated is called _______.",
+      "correctAnswer": "moral heteronomy",
+      "translation": "자기 입법이 아닌 외부에서 부과된 도덕 법칙을 _______라고 합니다."
+    },
+    {
+      "id": "ex48",
+      "type": "fill_blank",
+      "question": "_______ is the view that nothing is morally right or wrong.",
+      "correctAnswer": "Moral nihilism",
+      "translation": "_______는 아무것도 도덕적으로 옳거나 그르지 않다는 견해입니다."
+    },
+    {
+      "id": "ex49",
+      "type": "fill_blank",
+      "question": "The metaethical view that moral statements merely express emotions is called _______.",
+      "correctAnswer": "emotivism",
+      "translation": "도덕적 진술이 단지 감정을 표현할 뿐이라는 메타윤리적 견해를 _______라고 합니다."
+    },
+    {
+      "id": "ex50",
+      "type": "fill_blank",
+      "question": "_______ holds that moral judgments are prescriptions or commands rather than descriptions.",
+      "correctAnswer": "Prescriptivism",
+      "translation": "_______는 도덕적 판단이 설명이 아닌 처방이나 명령이라고 주장합니다."
+    },
+    {
+      "id": "ex51",
+      "type": "fill_blank",
+      "question": "Doubt about the possibility of moral knowledge is called _______.",
+      "correctAnswer": "moral skepticism",
+      "translation": "도덕적 지식의 가능성에 대한 의심을 _______라고 합니다."
+    },
+    {
+      "id": "ex52",
+      "type": "fill_blank",
+      "question": "_______ grounds ethics in human feelings of sympathy and approval rather than reason.",
+      "correctAnswer": "Moral sentimentalism",
+      "translation": "_______는 이성보다는 공감과 승인의 인간 감정에 윤리를 기초로 합니다."
+    },
+    {
+      "id": "ex53",
+      "type": "fill_blank",
+      "question": "The view that moral truths can be known through reason alone is called _______.",
+      "correctAnswer": "moral rationalism",
+      "translation": "도덕적 진리가 이성만으로 알 수 있다는 견해를 _______라고 합니다."
+    },
+    {
+      "id": "ex54",
+      "type": "fill_blank",
+      "question": "_______ is the view that moral statements express beliefs and can be true or false.",
+      "correctAnswer": "Moral cognitivism",
+      "translation": "_______는 도덕적 진술이 믿음을 표현하며 참 또는 거짓일 수 있다는 견해입니다."
+    },
+    {
+      "id": "ex55",
+      "type": "fill_blank",
+      "question": "A conditional duty that can be overridden by more stringent duties is called a _______.",
+      "correctAnswer": "prima facie duty",
+      "translation": "더 엄격한 의무에 의해 무시될 수 있는 조건부 의무를 _______라고 합니다."
+    },
+    {
+      "id": "ex56",
+      "type": "fill_blank",
+      "question": "What someone morally deserves based on their actions is called _______.",
+      "correctAnswer": "moral desert",
+      "translation": "그들의 행동에 기반하여 누군가가 도덕적으로 받을 자격이 있는 것을 _______라고 합니다."
+    },
+    {
+      "id": "ex57",
+      "type": "fill_blank",
+      "question": "Being accountable for one's actions in a way that makes praise or blame appropriate is called _______.",
+      "correctAnswer": "moral responsibility",
+      "translation": "칭찬이나 비난을 적절하게 만드는 방식으로 자신의 행동에 책임을 지는 것을 _______라고 합니다."
+    },
+    {
+      "id": "ex58",
+      "type": "fill_blank",
+      "question": "_______ is the view that free will and determinism are compatible.",
+      "correctAnswer": "Compatibilism",
+      "translation": "_______는 자유 의지와 결정론이 양립 가능하다고 주장하는 견해입니다."
+    },
+    {
+      "id": "ex59",
+      "type": "fill_blank",
+      "question": "The view that free will requires indeterminism is called _______.",
+      "correctAnswer": "libertarianism",
+      "translation": "자유 의지가 비결정론을 요구한다는 견해를 _______라고 합니다."
+    },
+    {
+      "id": "ex60",
+      "type": "fill_blank",
+      "question": "_______ is the view that determinism is true and therefore free will does not exist.",
+      "correctAnswer": "Hard determinism",
+      "translation": "_______는 결정론이 참이므로 자유 의지가 존재하지 않는다는 견해입니다."
+    },
+    {
+      "id": "ex61",
+      "type": "matching",
+      "question": "Match the ethical theory with its description:",
+      "pairs": [
+        {
+          "left": "Deontology",
+          "right": "Judges actions by adherence to rules"
+        },
+        {
+          "left": "Consequentialism",
+          "right": "Judges actions by their outcomes"
+        },
+        {
+          "left": "Virtue ethics",
+          "right": "Focuses on moral character"
+        },
+        {
+          "left": "Utilitarianism",
+          "right": "Maximizes overall happiness"
+        }
+      ],
+      "translation": "윤리 이론을 설명과 일치시키십시오"
+    },
+    {
+      "id": "ex62",
+      "type": "matching",
+      "question": "Match the term with its meaning:",
+      "pairs": [
+        {
+          "left": "Akrasia",
+          "right": "Weakness of will"
+        },
+        {
+          "left": "Eudaimonia",
+          "right": "Human flourishing"
+        },
+        {
+          "left": "Altruism",
+          "right": "Selfless concern for others"
+        },
+        {
+          "left": "Moral luck",
+          "right": "Factors beyond our control affecting judgment"
+        }
+      ],
+      "translation": "용어를 의미와 일치시키십시오"
+    },
+    {
+      "id": "ex63",
+      "type": "matching",
+      "question": "Match the metaethical view with its claim:",
+      "pairs": [
+        {
+          "left": "Moral realism",
+          "right": "Objective moral facts exist"
+        },
+        {
+          "left": "Moral relativism",
+          "right": "Moral truth is relative to standpoints"
+        },
+        {
+          "left": "Emotivism",
+          "right": "Moral statements express emotions"
+        },
+        {
+          "left": "Moral nihilism",
+          "right": "Nothing is morally right or wrong"
+        }
+      ],
+      "translation": "메타윤리적 견해를 주장과 일치시키십시오"
+    },
+    {
+      "id": "ex64",
+      "type": "matching",
+      "question": "Match the philosopher with their ethical concept:",
+      "pairs": [
+        {
+          "left": "Kant",
+          "right": "Categorical imperative"
+        },
+        {
+          "left": "Aristotle",
+          "right": "Eudaimonia"
+        },
+        {
+          "left": "Bentham",
+          "right": "Utilitarianism"
+        },
+        {
+          "left": "Hume",
+          "right": "Moral sentimentalism"
+        }
+      ],
+      "translation": "철학자를 그들의 윤리 개념과 일치시키십시오"
+    },
+    {
+      "id": "ex65",
+      "type": "matching",
+      "question": "Match the term with its opposite:",
+      "pairs": [
+        {
+          "left": "Moral autonomy",
+          "right": "Moral heteronomy"
+        },
+        {
+          "left": "Altruism",
+          "right": "Ethical egoism"
+        },
+        {
+          "left": "Moral cognitivism",
+          "right": "Moral non-cognitivism"
+        },
+        {
+          "left": "Moral rationalism",
+          "right": "Moral sentimentalism"
+        }
+      ],
+      "translation": "용어를 그 반대와 일치시키십시오"
+    },
+    {
+      "id": "ex66",
+      "type": "matching",
+      "question": "Match the concept with its field:",
+      "pairs": [
+        {
+          "left": "Metaethics",
+          "right": "Nature of ethical statements"
+        },
+        {
+          "left": "Normative ethics",
+          "right": "What we ought to do"
+        },
+        {
+          "left": "Applied ethics",
+          "right": "Specific moral issues"
+        },
+        {
+          "left": "Virtue ethics",
+          "right": "Character development"
+        }
+      ],
+      "translation": "개념을 그 분야와 일치시키십시오"
+    },
+    {
+      "id": "ex67",
+      "type": "matching",
+      "question": "Match the term with its description:",
+      "pairs": [
+        {
+          "left": "Supererogatory",
+          "right": "Beyond what duty requires"
+        },
+        {
+          "left": "Prima facie duty",
+          "right": "Conditional obligation"
+        },
+        {
+          "left": "Moral desert",
+          "right": "What someone deserves"
+        },
+        {
+          "left": "Moral agency",
+          "right": "Capacity for moral judgment"
+        }
+      ],
+      "translation": "용어를 설명과 일치시키십시오"
+    },
+    {
+      "id": "ex68",
+      "type": "matching",
+      "question": "Match the value type with its meaning:",
+      "pairs": [
+        {
+          "left": "Intrinsic value",
+          "right": "Value in itself"
+        },
+        {
+          "left": "Instrumental value",
+          "right": "Value as means to ends"
+        },
+        {
+          "left": "Moral standing",
+          "right": "Being morally considerable"
+        },
+        {
+          "left": "Moral patiency",
+          "right": "Being owed moral consideration"
+        }
+      ],
+      "translation": "가치 유형을 의미와 일치시키십시오"
+    },
+    {
+      "id": "ex69",
+      "type": "matching",
+      "question": "Match the free will position with its claim:",
+      "pairs": [
+        {
+          "left": "Compatibilism",
+          "right": "Free will and determinism compatible"
+        },
+        {
+          "left": "Libertarianism",
+          "right": "Free will requires indeterminism"
+        },
+        {
+          "left": "Hard determinism",
+          "right": "No free will exists"
+        },
+        {
+          "left": "Soft determinism",
+          "right": "Another name for compatibilism"
+        }
+      ],
+      "translation": "자유 의지 입장을 주장과 일치시키십시오"
+    },
+    {
+      "id": "ex70",
+      "type": "matching",
+      "question": "Match the term with its ethical context:",
+      "pairs": [
+        {
+          "left": "Double effect",
+          "right": "Foreseen but unintended harm"
+        },
+        {
+          "left": "Moral dilemma",
+          "right": "All options violate obligations"
+        },
+        {
+          "left": "Moral hazard",
+          "right": "Protection encourages risk"
+        },
+        {
+          "left": "Casuistry",
+          "right": "Case-based reasoning"
+        }
+      ],
+      "translation": "용어를 윤리적 맥락과 일치시키십시오"
+    },
+    {
+      "id": "ex71",
+      "type": "matching",
+      "question": "Match the concept with its focus:",
+      "pairs": [
+        {
+          "left": "Moral particularism",
+          "right": "Context-specific judgment"
+        },
+        {
+          "left": "Moral universalism",
+          "right": "Universal principles"
+        },
+        {
+          "left": "Moral absolutism",
+          "right": "No exceptions to rules"
+        },
+        {
+          "left": "Moral clarity",
+          "right": "Clear moral perception"
+        }
+      ],
+      "translation": "개념을 그 초점과 일치시키십시오"
+    },
+    {
+      "id": "ex72",
+      "type": "matching",
+      "question": "Match the negative concept with its meaning:",
+      "pairs": [
+        {
+          "left": "Moral corruption",
+          "right": "Deterioration of character"
+        },
+        {
+          "left": "Moral turpitude",
+          "right": "Inherent baseness"
+        },
+        {
+          "left": "Amoralism",
+          "right": "Unconcerned with morality"
+        },
+        {
+          "left": "Speciesism",
+          "right": "Discrimination by species"
+        }
+      ],
+      "translation": "부정적 개념을 의미와 일치시키십시오"
+    },
+    {
+      "id": "ex73",
+      "type": "matching",
+      "question": "Match the positive concept with its description:",
+      "pairs": [
+        {
+          "left": "Moral exemplar",
+          "right": "Model of virtue"
+        },
+        {
+          "left": "Moral suasion",
+          "right": "Persuasion by moral appeal"
+        },
+        {
+          "left": "Moral imperative",
+          "right": "Obligatory principle"
+        },
+        {
+          "left": "Moral responsibility",
+          "right": "Accountability for actions"
+        }
+      ],
+      "translation": "긍정적 개념을 설명과 일치시키십시오"
+    },
+    {
+      "id": "ex74",
+      "type": "matching",
+      "question": "Match the theory with its key feature:",
+      "pairs": [
+        {
+          "left": "Deontology",
+          "right": "Duty-based"
+        },
+        {
+          "left": "Consequentialism",
+          "right": "Outcome-based"
+        },
+        {
+          "left": "Virtue ethics",
+          "right": "Character-based"
+        },
+        {
+          "left": "Care ethics",
+          "right": "Relationship-based"
+        }
+      ],
+      "translation": "이론을 주요 특징과 일치시키십시오"
+    },
+    {
+      "id": "ex75",
+      "type": "matching",
+      "question": "Match the philosophical term with its root meaning:",
+      "pairs": [
+        {
+          "left": "Deontology",
+          "right": "Study of duty"
+        },
+        {
+          "left": "Metaethics",
+          "right": "Beyond ethics"
+        },
+        {
+          "left": "Eudaimonia",
+          "right": "Good spirit/flourishing"
+        },
+        {
+          "left": "Akrasia",
+          "right": "Lack of command"
+        }
+      ],
+      "translation": "철학 용어를 어원 의미와 일치시키십시오"
+    },
+    {
+      "id": "ex76",
+      "type": "translation_ko_en",
+      "question": "의무론",
+      "correctAnswer": "deontology",
+      "translation": "Translate to English: 의무론"
+    },
+    {
+      "id": "ex77",
+      "type": "translation_ko_en",
+      "question": "결과주의",
+      "correctAnswer": "consequentialism",
+      "translation": "Translate to English: 결과주의"
+    },
+    {
+      "id": "ex78",
+      "type": "translation_ko_en",
+      "question": "정언명령",
+      "correctAnswer": "categorical imperative",
+      "translation": "Translate to English: 정언명령"
+    },
+    {
+      "id": "ex79",
+      "type": "translation_ko_en",
+      "question": "의무 이상의",
+      "correctAnswer": "supererogatory",
+      "translation": "Translate to English: 의무 이상의"
+    },
+    {
+      "id": "ex80",
+      "type": "translation_ko_en",
+      "question": "도덕적 특수주의",
+      "correctAnswer": "moral particularism",
+      "translation": "Translate to English: 도덕적 특수주의"
+    },
+    {
+      "id": "ex81",
+      "type": "translation_ko_en",
+      "question": "의지의 나약",
+      "correctAnswer": "akrasia",
+      "translation": "Translate to English: 의지의 나약"
+    },
+    {
+      "id": "ex82",
+      "type": "translation_ko_en",
+      "question": "메타윤리학",
+      "correctAnswer": "metaethics",
+      "translation": "Translate to English: 메타윤리학"
+    },
+    {
+      "id": "ex83",
+      "type": "translation_ko_en",
+      "question": "도덕적 운",
+      "correctAnswer": "moral luck",
+      "translation": "Translate to English: 도덕적 운"
+    },
+    {
+      "id": "ex84",
+      "type": "translation_ko_en",
+      "question": "덕 윤리학",
+      "correctAnswer": "virtue ethics",
+      "translation": "Translate to English: 덕 윤리학"
+    },
+    {
+      "id": "ex85",
+      "type": "translation_ko_en",
+      "question": "행복, 번영",
+      "correctAnswer": "eudaimonia",
+      "translation": "Translate to English: 행복, 번영"
+    },
+    {
+      "id": "ex86",
+      "type": "translation_ko_en",
+      "question": "공리주의",
+      "correctAnswer": "utilitarianism",
+      "translation": "Translate to English: 공리주의"
+    },
+    {
+      "id": "ex87",
+      "type": "translation_ko_en",
+      "question": "도덕적 상대주의",
+      "correctAnswer": "moral relativism",
+      "translation": "Translate to English: 도덕적 상대주의"
+    },
+    {
+      "id": "ex88",
+      "type": "translation_ko_en",
+      "question": "도덕적 실재론",
+      "correctAnswer": "moral realism",
+      "translation": "Translate to English: 도덕적 실재론"
+    },
+    {
+      "id": "ex89",
+      "type": "translation_ko_en",
+      "question": "윤리적 이기주의",
+      "correctAnswer": "ethical egoism",
+      "translation": "Translate to English: 윤리적 이기주의"
+    },
+    {
+      "id": "ex90",
+      "type": "translation_ko_en",
+      "question": "이타주의",
+      "correctAnswer": "altruism",
+      "translation": "Translate to English: 이타주의"
+    },
+    {
+      "id": "ex91",
+      "type": "translation_ko_en",
+      "question": "도덕적 자율성",
+      "correctAnswer": "moral autonomy",
+      "translation": "Translate to English: 도덕적 자율성"
+    },
+    {
+      "id": "ex92",
+      "type": "translation_ko_en",
+      "question": "도덕적 타율성",
+      "correctAnswer": "moral heteronomy",
+      "translation": "Translate to English: 도덕적 타율성"
+    },
+    {
+      "id": "ex93",
+      "type": "translation_ko_en",
+      "question": "도덕적 허무주의",
+      "correctAnswer": "moral nihilism",
+      "translation": "Translate to English: 도덕적 허무주의"
+    },
+    {
+      "id": "ex94",
+      "type": "translation_ko_en",
+      "question": "정서주의",
+      "correctAnswer": "emotivism",
+      "translation": "Translate to English: 정서주의"
+    },
+    {
+      "id": "ex95",
+      "type": "translation_ko_en",
+      "question": "규정주의",
+      "correctAnswer": "prescriptivism",
+      "translation": "Translate to English: 규정주의"
+    },
+    {
+      "id": "ex96",
+      "type": "translation_ko_en",
+      "question": "도덕적 회의주의",
+      "correctAnswer": "moral skepticism",
+      "translation": "Translate to English: 도덕적 회의주의"
+    },
+    {
+      "id": "ex97",
+      "type": "translation_ko_en",
+      "question": "도덕적 감정주의",
+      "correctAnswer": "moral sentimentalism",
+      "translation": "Translate to English: 도덕적 감정주의"
+    },
+    {
+      "id": "ex98",
+      "type": "translation_ko_en",
+      "question": "도덕적 합리주의",
+      "correctAnswer": "moral rationalism",
+      "translation": "Translate to English: 도덕적 합리주의"
+    },
+    {
+      "id": "ex99",
+      "type": "translation_ko_en",
+      "question": "도덕적 인지주의",
+      "correctAnswer": "moral cognitivism",
+      "translation": "Translate to English: 도덕적 인지주의"
+    },
+    {
+      "id": "ex100",
+      "type": "translation_ko_en",
+      "question": "도덕적 비인지주의",
+      "correctAnswer": "moral non-cognitivism",
+      "translation": "Translate to English: 도덕적 비인지주의"
+    },
+    {
+      "id": "ex101",
+      "type": "translation_en_ko",
+      "question": "prima facie duty",
+      "correctAnswer": "일견상의 의무",
+      "translation": "Translate to Korean: prima facie duty"
+    },
+    {
+      "id": "ex102",
+      "type": "translation_en_ko",
+      "question": "moral desert",
+      "correctAnswer": "도덕적 응분",
+      "translation": "Translate to Korean: moral desert"
+    },
+    {
+      "id": "ex103",
+      "type": "translation_en_ko",
+      "question": "moral responsibility",
+      "correctAnswer": "도덕적 책임",
+      "translation": "Translate to Korean: moral responsibility"
+    },
+    {
+      "id": "ex104",
+      "type": "translation_en_ko",
+      "question": "compatibilism",
+      "correctAnswer": "양립가능론",
+      "translation": "Translate to Korean: compatibilism"
+    },
+    {
+      "id": "ex105",
+      "type": "translation_en_ko",
+      "question": "libertarianism",
+      "correctAnswer": "자유지상주의",
+      "translation": "Translate to Korean: libertarianism"
+    },
+    {
+      "id": "ex106",
+      "type": "translation_en_ko",
+      "question": "hard determinism",
+      "correctAnswer": "강경 결정론",
+      "translation": "Translate to Korean: hard determinism"
+    },
+    {
+      "id": "ex107",
+      "type": "translation_en_ko",
+      "question": "moral dilemma",
+      "correctAnswer": "도덕적 딜레마",
+      "translation": "Translate to Korean: moral dilemma"
+    },
+    {
+      "id": "ex108",
+      "type": "translation_en_ko",
+      "question": "double effect",
+      "correctAnswer": "이중효과",
+      "translation": "Translate to Korean: double effect"
+    },
+    {
+      "id": "ex109",
+      "type": "translation_en_ko",
+      "question": "moral agency",
+      "correctAnswer": "도덕적 행위주체성",
+      "translation": "Translate to Korean: moral agency"
+    },
+    {
+      "id": "ex110",
+      "type": "translation_en_ko",
+      "question": "moral patiency",
+      "correctAnswer": "도덳적 피행위자성",
+      "translation": "Translate to Korean: moral patiency"
+    },
+    {
+      "id": "ex111",
+      "type": "translation_en_ko",
+      "question": "speciesism",
+      "correctAnswer": "종차별주의",
+      "translation": "Translate to Korean: speciesism"
+    },
+    {
+      "id": "ex112",
+      "type": "translation_en_ko",
+      "question": "moral standing",
+      "correctAnswer": "도덕적 지위",
+      "translation": "Translate to Korean: moral standing"
+    },
+    {
+      "id": "ex113",
+      "type": "translation_en_ko",
+      "question": "intrinsic value",
+      "correctAnswer": "내재적 가치",
+      "translation": "Translate to Korean: intrinsic value"
+    },
+    {
+      "id": "ex114",
+      "type": "translation_en_ko",
+      "question": "instrumental value",
+      "correctAnswer": "도구적 가치",
+      "translation": "Translate to Korean: instrumental value"
+    },
+    {
+      "id": "ex115",
+      "type": "translation_en_ko",
+      "question": "moral absolutism",
+      "correctAnswer": "도덕적 절대주의",
+      "translation": "Translate to Korean: moral absolutism"
+    },
+    {
+      "id": "ex116",
+      "type": "translation_en_ko",
+      "question": "moral universalism",
+      "correctAnswer": "도덕적 보편주의",
+      "translation": "Translate to Korean: moral universalism"
+    },
+    {
+      "id": "ex117",
+      "type": "translation_en_ko",
+      "question": "moral exemplar",
+      "correctAnswer": "도덕적 모범",
+      "translation": "Translate to Korean: moral exemplar"
+    },
+    {
+      "id": "ex118",
+      "type": "translation_en_ko",
+      "question": "moral corruption",
+      "correctAnswer": "도덕적 타락",
+      "translation": "Translate to Korean: moral corruption"
+    },
+    {
+      "id": "ex119",
+      "type": "translation_en_ko",
+      "question": "moral turpitude",
+      "correctAnswer": "도덕적 타락",
+      "translation": "Translate to Korean: moral turpitude"
+    },
+    {
+      "id": "ex120",
+      "type": "translation_en_ko",
+      "question": "moral suasion",
+      "correctAnswer": "도덕적 설득",
+      "translation": "Translate to Korean: moral suasion"
+    },
+    {
+      "id": "ex121",
+      "type": "translation_en_ko",
+      "question": "casuistry",
+      "correctAnswer": "궤변론, 사례 윤리학",
+      "translation": "Translate to Korean: casuistry"
+    },
+    {
+      "id": "ex122",
+      "type": "translation_en_ko",
+      "question": "moral hazard",
+      "correctAnswer": "도덕적 해이",
+      "translation": "Translate to Korean: moral hazard"
+    },
+    {
+      "id": "ex123",
+      "type": "translation_en_ko",
+      "question": "amoralism",
+      "correctAnswer": "무도덕주의",
+      "translation": "Translate to Korean: amoralism"
+    },
+    {
+      "id": "ex124",
+      "type": "translation_en_ko",
+      "question": "moral clarity",
+      "correctAnswer": "도덕적 명확성",
+      "translation": "Translate to Korean: moral clarity"
+    },
+    {
+      "id": "ex125",
+      "type": "translation_en_ko",
+      "question": "moral imperative",
+      "correctAnswer": "도덕적 명령",
+      "translation": "Translate to Korean: moral imperative"
+    },
+    {
+      "id": "ex126",
+      "type": "multiple_choice",
+      "question": "The status of being owed moral consideration is called:",
+      "options": [
+        "Moral agency",
+        "Moral patiency",
+        "Moral standing",
+        "Moral desert"
+      ],
+      "correctAnswer": 1,
+      "translation": "도덕적 고려를 받을 자격이 있는 지위를 무엇이라고 합니까?"
+    },
+    {
+      "id": "ex127",
+      "type": "multiple_choice",
+      "question": "Unjustified discrimination based on species membership is called:",
+      "options": [
+        "Racism",
+        "Speciesism",
+        "Sexism",
+        "Classism"
+      ],
+      "correctAnswer": 1,
+      "translation": "종 구성원에 기반한 부당한 차별을 무엇이라고 합니까?"
+    },
+    {
+      "id": "ex128",
+      "type": "multiple_choice",
+      "question": "Value that something has in itself, independent of usefulness, is:",
+      "options": [
+        "Instrumental value",
+        "Extrinsic value",
+        "Intrinsic value",
+        "Relative value"
+      ],
+      "correctAnswer": 2,
+      "translation": "유용성과 무관하게 그 자체로 갖는 가치는 무엇입니까?"
+    },
+    {
+      "id": "ex129",
+      "type": "multiple_choice",
+      "question": "The view that certain actions are absolutely right or wrong regardless of context is:",
+      "options": [
+        "Moral relativism",
+        "Moral particularism",
+        "Moral absolutism",
+        "Moral contextualism"
+      ],
+      "correctAnswer": 2,
+      "translation": "맥락과 관계없이 특정 행동이 절대적으로 옳거나 그르다는 견해는 무엇입니까?"
+    },
+    {
+      "id": "ex130",
+      "type": "multiple_choice",
+      "question": "Case-based moral reasoning is called:",
+      "options": [
+        "Casuistry",
+        "Sophistry",
+        "Dialectic",
+        "Rhetoric"
+      ],
+      "correctAnswer": 0,
+      "translation": "사례 기반 도덕적 추론을 무엇이라고 합니까?"
+    },
+    {
+      "id": "ex131",
+      "type": "multiple_choice",
+      "question": "The situation where protection from consequences leads to riskier behavior is:",
+      "options": [
+        "Moral luck",
+        "Moral hazard",
+        "Moral dilemma",
+        "Moral corruption"
+      ],
+      "correctAnswer": 1,
+      "translation": "결과로부터의 보호가 더 위험한 행동으로 이어지는 상황은 무엇입니까?"
+    },
+    {
+      "id": "ex132",
+      "type": "multiple_choice",
+      "question": "Being unconcerned with morality; neither moral nor immoral, is called:",
+      "options": [
+        "Immoralism",
+        "Amoralism",
+        "Moral nihilism",
+        "Moral skepticism"
+      ],
+      "correctAnswer": 1,
+      "translation": "도덕에 무관심한 것; 도덕적이지도 비도덕적이지도 않은 것을 무엇이라고 합니까?"
+    },
+    {
+      "id": "ex133",
+      "type": "multiple_choice",
+      "question": "A person who embodies moral virtue and serves as a model is a:",
+      "options": [
+        "Moral agent",
+        "Moral patient",
+        "Moral exemplar",
+        "Moral authority"
+      ],
+      "correctAnswer": 2,
+      "translation": "도덕적 덕을 체현하고 모델 역할을 하는 사람은 무엇입니까?"
+    },
+    {
+      "id": "ex134",
+      "type": "multiple_choice",
+      "question": "Persuasion by appeal to moral principles rather than force is:",
+      "options": [
+        "Moral coercion",
+        "Moral suasion",
+        "Moral authority",
+        "Moral pressure"
+      ],
+      "correctAnswer": 1,
+      "translation": "힘이 아닌 도덕적 원칙에 호소하는 설득은 무엇입니까?"
+    },
+    {
+      "id": "ex135",
+      "type": "multiple_choice",
+      "question": "A principle that one is morally obligated to follow is a:",
+      "options": [
+        "Moral suggestion",
+        "Moral preference",
+        "Moral imperative",
+        "Moral option"
+      ],
+      "correctAnswer": 2,
+      "translation": "도덕적으로 따라야 할 의무가 있는 원칙은 무엇입니까?"
+    },
+    {
+      "id": "ex136",
+      "type": "fill_blank",
+      "question": "The status of being owed moral consideration is called _______.",
+      "correctAnswer": "moral patiency",
+      "translation": "도덕적 고려를 받을 자격이 있는 지위를 _______라고 합니다."
+    },
+    {
+      "id": "ex137",
+      "type": "fill_blank",
+      "question": "_______ is unjustified discrimination based on species membership.",
+      "correctAnswer": "Speciesism",
+      "translation": "_______는 종 구성원에 기반한 부당한 차별입니다."
+    },
+    {
+      "id": "ex138",
+      "type": "fill_blank",
+      "question": "Value that something has in itself is called _______.",
+      "correctAnswer": "intrinsic value",
+      "translation": "그 자체로 갖는 가치를 _______라고 합니다."
+    },
+    {
+      "id": "ex139",
+      "type": "fill_blank",
+      "question": "Value derived from usefulness as a means is called _______.",
+      "correctAnswer": "instrumental value",
+      "translation": "수단으로서의 유용성에서 파생된 가치를 _______라고 합니다."
+    },
+    {
+      "id": "ex140",
+      "type": "fill_blank",
+      "question": "The view that certain actions are absolutely right or wrong is _______.",
+      "correctAnswer": "moral absolutism",
+      "translation": "특정 행동이 절대적으로 옳거나 그르다는 견해는 _______입니다."
+    },
+    {
+      "id": "ex141",
+      "type": "fill_blank",
+      "question": "The position that moral principles apply universally is called _______.",
+      "correctAnswer": "moral universalism",
+      "translation": "도덕 원칙이 보편적으로 적용된다는 입장을 _______라고 합니다."
+    },
+    {
+      "id": "ex142",
+      "type": "fill_blank",
+      "question": "A person who embodies moral virtue as a model is a _______.",
+      "correctAnswer": "moral exemplar",
+      "translation": "도덕적 덕을 모델로 체현하는 사람은 _______입니다."
+    },
+    {
+      "id": "ex143",
+      "type": "fill_blank",
+      "question": "Deterioration of moral character is called _______.",
+      "correctAnswer": "moral corruption",
+      "translation": "도덕적 성격의 악화를 _______라고 합니다."
+    },
+    {
+      "id": "ex144",
+      "type": "fill_blank",
+      "question": "Inherent baseness or vileness of character is called _______.",
+      "correctAnswer": "moral turpitude",
+      "translation": "성격의 내재적 천박함이나 비열함을 _______라고 합니다."
+    },
+    {
+      "id": "ex145",
+      "type": "fill_blank",
+      "question": "Persuasion by appeal to moral principles is called _______.",
+      "correctAnswer": "moral suasion",
+      "translation": "도덕적 원칙에 호소하는 설득을 _______라고 합니다."
+    },
+    {
+      "id": "ex146",
+      "type": "fill_blank",
+      "question": "Case-based moral reasoning is called _______.",
+      "correctAnswer": "casuistry",
+      "translation": "사례 기반 도덕적 추론을 _______라고 합니다."
+    },
+    {
+      "id": "ex147",
+      "type": "fill_blank",
+      "question": "When protection from consequences leads to riskier behavior, this is _______.",
+      "correctAnswer": "moral hazard",
+      "translation": "결과로부터의 보호가 더 위험한 행동으로 이어질 때, 이것은 _______입니다."
+    },
+    {
+      "id": "ex148",
+      "type": "fill_blank",
+      "question": "Being unconcerned with morality is called _______.",
+      "correctAnswer": "amoralism",
+      "translation": "도덕에 무관심한 것을 _______라고 합니다."
+    },
+    {
+      "id": "ex149",
+      "type": "fill_blank",
+      "question": "Clear perception of moral truth is called _______.",
+      "correctAnswer": "moral clarity",
+      "translation": "도덕적 진리의 명확한 인식을 _______라고 합니다."
+    },
+    {
+      "id": "ex150",
+      "type": "fill_blank",
+      "question": "A principle one is morally obligated to follow is a _______.",
+      "correctAnswer": "moral imperative",
+      "translation": "도덕적으로 따라야 할 의무가 있는 원칙은 _______입니다."
+    }
+  ]
+}

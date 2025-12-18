@@ -1,0 +1,153 @@
+{
+  "id": "c2-grammar-week-3",
+  "type": "grammar",
+  "level": "C2",
+  "weekId": "week-3",
+  "title": "Register and Style Variation",
+  "description": "Mastering shifts in register and stylistic choices for different contexts",
+  "estimatedMinutes": 30,
+  "xpReward": 60,
+  "sections": [
+    {
+      "id": "c2-g3-s1",
+      "title": "The Register Continuum",
+      "explanation": "Register ranges from frozen (ritual) to intimate (private), with formal academic writing occupying the formal-consultative range.",
+      "registers": [
+        {
+          "level": "Frozen/Static",
+          "characteristics": "Unchanging, often archaic or ritualized language",
+          "example": "We the People of the United States, in Order to form a more perfect Union..."
+        },
+        {
+          "level": "Formal",
+          "characteristics": "Complete sentences, standard grammar, no contractions, precise vocabulary",
+          "example": "The committee recommends that the proposed amendments be adopted forthwith."
+        },
+        {
+          "level": "Consultative",
+          "characteristics": "Professional discourse, some background provided, less rigid than formal",
+          "example": "Based on our analysis, we'd suggest reconsidering the timeline."
+        },
+        {
+          "level": "Casual",
+          "characteristics": "Ellipsis, slang, in-group vocabulary, assumes shared knowledge",
+          "example": "Looks like the project's gonna need more time. Thoughts?"
+        },
+        {
+          "level": "Intimate",
+          "characteristics": "Private language, incomplete utterances, nonverbal communication",
+          "example": "You know that thing we talked about? Yeah."
+        }
+      ]
+    },
+    {
+      "id": "c2-g3-s2",
+      "title": "Lexical Density and Abstraction",
+      "explanation": "Formal registers feature higher lexical density (content words per clause) and greater abstraction through nominalization.",
+      "examples": [
+        {
+          "informal": "When people get sick because they can't afford medicine, it costs the government more in the end.",
+          "formal": "The lack of pharmaceutical accessibility among economically disadvantaged populations ultimately results in increased governmental expenditure on emergency healthcare services.",
+          "analysis": "The formal version nominalizes verbs (accessibility, expenditure) and uses abstract noun phrases"
+        }
+      ],
+      "techniques": [
+        "Nominalization: turn verbs into nouns (decide → decision, fail → failure)",
+        "Abstraction: replace concrete examples with general categories",
+        "Impersonalization: remove personal pronouns and active agency",
+        "Lexical density: pack more content words into fewer clauses"
+      ]
+    },
+    {
+      "id": "c2-g3-s3",
+      "title": "Stylistic Inversion for Effect",
+      "explanation": "Word order inversions can create emphasis, formality, or literary effect beyond their grammatical function.",
+      "types": [
+        {
+          "name": "Negative fronting",
+          "standard": "I have never seen such incompetence.",
+          "inverted": "Never have I seen such incompetence.",
+          "effect": "Emphatic, formal"
+        },
+        {
+          "name": "Locative inversion",
+          "standard": "A vast forest lies beyond the mountains.",
+          "inverted": "Beyond the mountains lies a vast forest.",
+          "effect": "Literary, scene-setting"
+        },
+        {
+          "name": "Conditional inversion",
+          "standard": "If I had known, I would have acted differently.",
+          "inverted": "Had I known, I would have acted differently.",
+          "effect": "Formal, archaic"
+        }
+      ]
+    },
+    {
+      "id": "c2-g3-s4",
+      "title": "Voice and Stance",
+      "explanation": "Authorial stance—the writer's attitude toward content and audience—is constructed through grammatical choices.",
+      "dimensions": {
+        "epistemic": {
+          "certain": "This clearly demonstrates...",
+          "hedged": "This appears to suggest...",
+          "speculative": "This might conceivably indicate..."
+        },
+        "attitudinal": {
+          "positive": "This remarkably elegant solution...",
+          "negative": "This unfortunately flawed approach...",
+          "neutral": "This proposed solution..."
+        },
+        "engagement": {
+          "direct": "You will notice that...",
+          "impersonal": "It may be observed that...",
+          "inclusive": "We can see that..."
+        }
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-g3-ex1",
+      "type": "register-shift",
+      "instruction": "Transform this casual message into a formal business communication",
+      "casual": "Hey, just wanted to let you know we can't make the deadline. Too much stuff came up. Can we push it back a week?",
+      "formal": "I am writing to inform you that, due to unforeseen circumstances, we will be unable to meet the agreed-upon deadline. We respectfully request an extension of one week. We apologize for any inconvenience this may cause."
+    },
+    {
+      "id": "c2-g3-ex2",
+      "type": "nominalization",
+      "instruction": "Rewrite using nominalization to increase formality",
+      "original": "When students fail to attend class regularly, they perform worse on exams.",
+      "nominalized": "Irregular class attendance correlates with diminished examination performance.",
+      "explanation": "Verbs (fail, attend, perform) become nouns (attendance, performance)"
+    },
+    {
+      "id": "c2-g3-ex3",
+      "type": "inversion-creation",
+      "instruction": "Create an inverted sentence for emphasis",
+      "original": "The opportunity to witness such creativity is rare.",
+      "inverted": "Rarely does one have the opportunity to witness such creativity.",
+      "explanation": "Fronting the adverb 'rarely' triggers subject-auxiliary inversion"
+    },
+    {
+      "id": "c2-g3-ex4",
+      "type": "stance-analysis",
+      "instruction": "Identify the authorial stance in each sentence",
+      "sentences": [
+        {
+          "text": "The evidence incontrovertibly demonstrates...",
+          "stance": "High certainty, objective presentation"
+        },
+        {
+          "text": "While one might be tempted to conclude...",
+          "stance": "Hedged, somewhat dismissive of opposing view"
+        },
+        {
+          "text": "As any careful reader will recognize...",
+          "stance": "High certainty, appeal to reader, slightly condescending"
+        }
+      ]
+    }
+  ]
+}
