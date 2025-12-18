@@ -25,6 +25,8 @@ export {
   TrueFalse,
   ShortAnswer,
   Dictation,
+  MinimalPairs,
+  Shadowing,
   type TrueFalseQuestion,
   type TrueFalseResult,
   type ShortAnswerQuestion,
@@ -32,7 +34,21 @@ export {
   type DictationQuestion,
   type DictationResult,
   type WordDetail,
+  type MinimalPair,
+  type MinimalPairQuestion,
+  type MinimalPairsResult,
+  type ShadowingSentence,
+  type ShadowingResult,
 } from './exercises';
+
+// Korean-specific Learning Components
+export {
+  KonglishAlert,
+  KonglishBanner,
+  KonglishQuiz,
+  KONGLISH_DATABASE,
+  type KonglishItem,
+} from './KonglishAlert';
 
 // AI-Powered Components
 export { SpeechRecorder } from './SpeechRecorder';
