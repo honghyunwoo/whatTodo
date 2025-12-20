@@ -145,9 +145,10 @@ class NotificationService {
           data: { type: 'daily-reminder' },
         },
         trigger: {
-          type: Notifications.SchedulableTriggerInputTypes.DAILY,
           hour: settings.hour,
           minute: settings.minute,
+          repeats: true,
+          channelId: 'learning-reminders',
         },
       });
 
