@@ -6,32 +6,9 @@
  * 1. 일일 학습 리마인더 (사용자 설정 시간)
  */
 
-import * as Device from 'expo-device';
-import * as Notifications from 'expo-notifications';
 import { Platform } from 'react-native';
 
-// ─────────────────────────────────────
-// Configuration
-// ─────────────────────────────────────
-
-// 알림 채널 설정 (Android)
-Notifications.setNotificationChannelAsync('learning-reminders', {
-  name: '학습 리마인더',
-  importance: Notifications.AndroidImportance.HIGH,
-  vibrationPattern: [0, 250, 250, 250],
-  lightColor: '#4A90D9',
-});
-
-// 알림 핸들러 설정
-Notifications.setNotificationHandler({
-  handleNotification: async () => ({
-    shouldShowAlert: true,
-    shouldPlaySound: true,
-    shouldSetBadge: true,
-    shouldShowBanner: true,
-    shouldShowList: true,
-  }),
-});
+const isWeb = Platform.OS === 'web';
 
 // ─────────────────────────────────────
 // Types
@@ -67,23 +44,66 @@ const REMINDER_MESSAGES = [
 
 class NotificationService {
   private expoPushToken: string | null = null;
+  private notificationsModule: typeof import('expo-notifications') | null = null;
+  private initialized = false;
+
+  private async getNotificationsModule() {
+    if (isWeb) return null;
+    if (!this.notificationsModule) {
+      try {
+        this.notificationsModule = await import('expo-notifications');
+      } catch (e) {
+        console.log('[NotificationService] Failed to load expo-notifications:', e);
+        return null;
+      }
+    }
+    return this.notificationsModule;
+  }
 
   /**
    * 푸시 알림 권한 요청 및 토큰 획득
    */
   async initialize(): Promise<boolean> {
-    // 실제 디바이스에서만 작동
+    if (isWeb) {
+      console.log('[expo-notifications] Web platform - notifications disabled');
+      return false;
+    }
+
+    if (this.initialized) return true;
+
+    const Notifications = await this.getNotificationsModule();
+    if (!Notifications) return false;
+
+    const Device = await import('expo-device');
+
     if (!Device.isDevice) {
       console.log('Notifications only work on physical devices');
       return false;
     }
 
     try {
-      // 기존 권한 확인
+      // 알림 채널 설정 (Android)
+      await Notifications.setNotificationChannelAsync('learning-reminders', {
+        name: '학습 리마인더',
+        importance: Notifications.AndroidImportance.HIGH,
+        vibrationPattern: [0, 250, 250, 250],
+        lightColor: '#4A90D9',
+      });
+
+      // 알림 핸들러 설정
+      Notifications.setNotificationHandler({
+        handleNotification: async () => ({
+          shouldShowAlert: true,
+          shouldPlaySound: true,
+          shouldSetBadge: true,
+          shouldShowBanner: true,
+          shouldShowList: true,
+        }),
+      });
+
       const { status: existingStatus } = await Notifications.getPermissionsAsync();
       let finalStatus = existingStatus;
 
-      // 권한이 없으면 요청
       if (existingStatus !== 'granted') {
         const { status } = await Notifications.requestPermissionsAsync();
         finalStatus = status;
@@ -94,17 +114,16 @@ class NotificationService {
         return false;
       }
 
-      // Expo Push Token 획득 (선택적 - 서버 푸시용)
       try {
         const token = await Notifications.getExpoPushTokenAsync({
-          projectId: 'your-project-id', // EAS 프로젝트 ID
+          projectId: 'your-project-id',
         });
         this.expoPushToken = token.data;
       } catch {
-        // 로컬 알림만 사용하는 경우 토큰 없어도 됨
         console.log('Push token not available (local notifications still work)');
       }
 
+      this.initialized = true;
       return true;
     } catch (error) {
       console.error('Failed to initialize notifications:', error);
@@ -116,6 +135,9 @@ class NotificationService {
    * 알림 권한 상태 확인
    */
   async checkPermission(): Promise<boolean> {
+    if (isWeb) return false;
+    const Notifications = await this.getNotificationsModule();
+    if (!Notifications) return false;
     const { status } = await Notifications.getPermissionsAsync();
     return status === 'granted';
   }
@@ -124,15 +146,18 @@ class NotificationService {
    * 일일 학습 리마인더 스케줄링
    */
   async scheduleDailyReminder(settings: ReminderSettings): Promise<string | null> {
+    if (isWeb) return null;
+
+    const Notifications = await this.getNotificationsModule();
+    if (!Notifications) return null;
+
     if (!settings.enabled) {
       await this.cancelDailyReminder();
       return null;
     }
 
-    // 기존 리마인더 취소
     await this.cancelDailyReminder();
 
-    // 랜덤 메시지 선택
     const message = REMINDER_MESSAGES[Math.floor(Math.random() * REMINDER_MESSAGES.length)];
 
     try {
@@ -163,6 +188,9 @@ class NotificationService {
    * 일일 학습 리마인더 취소
    */
   async cancelDailyReminder(): Promise<void> {
+    if (isWeb) return;
+    const Notifications = await this.getNotificationsModule();
+    if (!Notifications) return;
     const scheduled = await Notifications.getAllScheduledNotificationsAsync();
     for (const notification of scheduled) {
       if (notification.content.data?.type === 'daily-reminder') {
@@ -175,13 +203,19 @@ class NotificationService {
    * 모든 예약된 알림 취소
    */
   async cancelAll(): Promise<void> {
+    if (isWeb) return;
+    const Notifications = await this.getNotificationsModule();
+    if (!Notifications) return;
     await Notifications.cancelAllScheduledNotificationsAsync();
   }
 
   /**
    * 예약된 알림 목록 조회 (디버그용)
    */
-  async getScheduled(): Promise<Notifications.NotificationRequest[]> {
+  async getScheduled(): Promise<unknown[]> {
+    if (isWeb) return [];
+    const Notifications = await this.getNotificationsModule();
+    if (!Notifications) return [];
     return Notifications.getAllScheduledNotificationsAsync();
   }
 
@@ -189,6 +223,9 @@ class NotificationService {
    * 알림 배지 수 설정
    */
   async setBadgeCount(count: number): Promise<void> {
+    if (isWeb) return;
+    const Notifications = await this.getNotificationsModule();
+    if (!Notifications) return;
     if (Platform.OS === 'ios') {
       await Notifications.setBadgeCountAsync(count);
     }
@@ -198,6 +235,7 @@ class NotificationService {
    * 알림 배지 초기화
    */
   async clearBadge(): Promise<void> {
+    if (isWeb) return;
     await this.setBadgeCount(0);
   }
 }
