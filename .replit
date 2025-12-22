@@ -45,3 +45,8 @@ externalPort = 3000
 
 [userenv.development]
 EXPO_ROUTER_APP_ROOT = "./app"
+
+[deployment]
+deploymentTarget = "static"
+build = ["npx", "expo", "export", "--platform", "web"]
+publicDir = "dist"
