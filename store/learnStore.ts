@@ -27,7 +27,7 @@ const ACTIVITY_TYPES: ActivityType[] = [
   'writing',
 ];
 
-const WEEK_IDS = ['week-1', 'week-2', 'week-3', 'week-4', 'week-5', 'week-6', 'week-7', 'week-8'];
+export const WEEK_IDS = ['week-1', 'week-2', 'week-3', 'week-4', 'week-5', 'week-6', 'week-7', 'week-8'];
 
 // ─────────────────────────────────────
 // State & Actions
@@ -335,4 +335,4 @@ export function getWeekNumber(weekId: string): number {
 }
 
 /** 활동 타입 목록 */
-export { ACTIVITY_TYPES, WEEK_IDS };
+export { ACTIVITY_TYPES };
