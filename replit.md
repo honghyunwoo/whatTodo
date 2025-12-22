@@ -1,40 +1,57 @@
-# Diary Calendar App
+# Multi-Feature Learning & Diary App
 
 ## Overview
-A mobile diary/calendar application built with Expo + React Native + TypeScript. Originally a todo list app, it has been transformed into a diary app where users can select dates on a calendar and write diary entries with mood tracking.
+A comprehensive mobile application built with Expo + React Native + TypeScript featuring:
+1. **Enhanced Diary/Journal** - Mood tracking with 8 moods, tags, search, daily prompts, and statistics
+2. **English Learning System** - CEFR A1-C2 support with 6 activity types and adaptive level testing
+3. **2048 Game** - Classic puzzle game with tile animations, undo, and statistics
 
 ## Current State
 - App runs successfully in Replit web environment
-- Monthly calendar view displays with date selection
-- Diary entries are stored locally using AsyncStorage via Zustand
+- All three tabs (Todo/Diary, Learn, Game) fully functional
+- Local storage via AsyncStorage/Zustand for persistence
 
 ## Project Architecture
 
-### Key Components
-- `components/calendar/MonthView.tsx` - Monthly calendar grid with navigation
-- `store/diaryStore.ts` - Zustand store with AsyncStorage persistence for diary entries
-- `app/diary/[date].tsx` - Diary entry editor page with mood selection
-- `app/(tabs)/index.tsx` - Main calendar view screen
+### Diary System
+- `store/diaryStore.ts` - 8 mood types with color coding, tags, streaks, search, statistics
+- `app/diary/[date].tsx` - Entry editor with mood selection, prompts, tag input
+- `app/(tabs)/index.tsx` - Calendar view with stats dashboard
+- `components/calendar/MonthView.tsx` - Monthly calendar grid
+
+### Learning System
+- `store/learnStore.ts` - CEFR A1-C2 levels, 8 weeks of content, activity tracking
+- `utils/levelTest.ts` - Adaptive placement test covering all 6 CEFR levels
+- `components/learn/LevelTestView.tsx` - Interactive level test UI
+- `data/vocabulary.ts` - Vocabulary data organized by CEFR level
+
+### 2048 Game
+- `store/gameStore.ts` - Game state, undo history, statistics, themes
+- `components/game/Tile.tsx` - Animated tiles (pop-in, merge, position transitions)
+- `components/game/GameBoard.tsx` - Swipe gesture handling, game grid
+- `components/game/GameHeader.tsx` - Score, undo button with badge, settings
 
 ### Technical Notes
-- **expo-notifications**: Uses lazy loading pattern to avoid web platform issues. The module is only dynamically imported on native platforms.
-- **Web Compatibility**: Proxy server forwards port 5000 to Expo dev server on port 19006
-- **Sound files**: Currently missing (warning only, not blocking)
+- **expo-notifications**: Lazy loading for web platform compatibility
+- **Web Compatibility**: Proxy server on port 5000 forwards to Expo dev server (19006)
+- **Sound files**: Optional, handled gracefully with try-catch
 
 ## Workflow
-- `Expo Web`: Runs `bash start-web.sh` to start Expo webpack server with proxy
+- `Expo Web`: Runs `bash start-web.sh` for development
 
 ## Development Setup
-The app uses:
 - Expo SDK with webpack for web builds
 - React Native Paper for UI components
 - expo-router for navigation
 - Zustand + AsyncStorage for state management
+- react-native-reanimated for tile animations
 
 ## Recent Changes
-- 2025-12-22: Fixed expo-notifications web compatibility by implementing lazy loading
-- 2025-12-22: Resolved circular dependency between userStore and notificationService
-- 2025-12-22: Converted app from todo list to diary/calendar application
+- 2025-12-22: Fixed stats dashboard reactivity issue
+- 2025-12-22: Added C1/C2 CEFR levels to level test
+- 2025-12-22: Fixed WEEK_IDS duplicate export error
+- 2025-12-22: Enhanced diary with 8 moods, tags, prompts, streaks, statistics
+- 2025-12-22: Verified 2048 game animations and undo functionality
 
 ## User Preferences
 - App displays in Korean by default
