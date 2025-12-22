@@ -1,0 +1,150 @@
+Step 1: Create monthly calendar view feature
+components/calendar/MonthView.tsx 파일을 만들어줘.
+
+기술 요구사항:
+- React Native + TypeScript
+- constants/colors.ts의 COLORS 사용
+- constants/sizes.ts의 SIZES 사용  
+- contexts/ThemeContext.tsx의 useTheme() 훅으로 다크모드 지원
+
+기능:
+- 월간 캘린더 그리드 (일~토, 6주)
+- 이전/다음 달 이동 버튼
+- 오늘 날짜 하이라이트 (COLORS.primary)
+- 날짜 클릭 시 onSelectDate(date: string) 콜백 호출
+- 선택된 날짜 표시
+- 특정 날짜에 점(dot) 표시 기능 (markedDates prop)
+
+Props 인터페이스:
+interface MonthViewProps {
+  selectedDate?: string; // YYYY-MM-DD
+  markedDates?: string[]; // 점 표시할 날짜들
+  onSelectDate: (date: string) => void;
+}
+
+스타일은 components/learn/WeekSelector.tsx 참고해서 일관성 있게 만들어줘.
+
+→ 완료되면 Checkpoint 저장!
+
+Step 2: Add diary storage and features
+store/diaryStore.ts 파일을 만들어줘.
+
+store/taskStore.ts 패턴을 그대로 따라해:
+- Zustand + persist 미들웨어
+- AsyncStorage 사용 (createJSONStorage)
+- constants/storage.ts의 STORAGE_KEYS 활용
+
+타입 정의:
+interface DiaryEntry {
+  id: string;
+  date: string; // YYYY-MM-DD
+  title: string;
+  content: string;
+  mood?: 'happy' | 'sad' | 'angry' | 'tired' | 'neutral';
+  createdAt: string;
+  updatedAt: string;
+}
+
+Actions:
+- addEntry(entry: Omit<DiaryEntry, 'id' | 'createdAt' | 'updatedAt'>)
+- updateEntry(id: string, updates: Partial<DiaryEntry>)
+- deleteEntry(id: string)
+- getEntryByDate(date: string): DiaryEntry | undefined
+- getEntriesForMonth(year: number, month: number): DiaryEntry[]
+- getAllDatesWithEntries(): string[] // 캘린더 마킹용
+
+nanoid 라이브러리로 ID 생성 (이미 설치되어 있음)
+
+→ 완료되면 Checkpoint 저장!
+
+Step 3: Create page for diary entries
+app/diary/[date].tsx 파일을 만들어줘.
+
+다이어리 작성/수정 화면:
+- useLocalSearchParams로 date 파라미터 받기
+- 해당 날짜에 기존 다이어리가 있으면 수정 모드, 없으면 새 작성
+- store/diaryStore.ts 사용
+
+UI 구성:
+1. 헤더: 날짜 표시 + 뒤로가기 버튼 + 저장 버튼
+2. 제목 입력 (TextInput, 한 줄)
+3. 기분 선택 (5개 이모지 버튼: 😊😢😠😴😐)
+4. 본문 입력 (TextInput, multiline, 최소 높이 200)
+5. 삭제 버튼 (수정 모드일 때만)
+
+스타일:
+- useTheme()으로 다크모드 지원
+- react-native-paper의 TextInput, Button 컴포넌트 사용
+- 기존 app/task/[id].tsx 레이아웃 참고
+
+저장 시 services/hapticService.ts의 todoHaptics.complete() 호출
+
+→ 완료되면 Checkpoint 저장!
+
+Step 4: Change to calendar view with diaries
+app/(tabs)/index.tsx를 완전히 수정해줘.
+
+기존 투두리스트 코드 전부 제거하고 캘린더+다이어리 뷰로 교체:
+
+화면 구성:
+1. 헤더: "다이어리" 제목 + 설정 아이콘
+2. MonthView 캘린더 (components/calendar/MonthView.tsx)
+3. 선택된 날짜의 다이어리 미리보기 카드
+   - 다이어리가 있으면: 제목 + 기분 이모지 + 내용 일부
+   - 없으면: "오늘의 이야기를 기록해보세요" + 작성 버튼
+
+기능:
+- 캘린더에서 다이어리가 있는 날짜에 점(dot) 표시
+- 날짜 클릭 → 미리보기 카드 업데이트
+- 미리보기 카드 또는 + 버튼 클릭 → app/diary/[date].tsx로 이동
+- useDiaryStore()로 데이터 조회
+
+임포트 수정:
+- 기존 투두 관련 import 제거
+- MonthView, useDiaryStore import 추가
+
+→ 완료되면 Checkpoint 저장!
+
+Step 5: Fix development environment setup
+개발 환경 점검:
+
+1. 사용하지 않는 투두 관련 파일 정리:
+   - components/todo/ 폴더는 일단 유지 (나중에 삭제)
+   - store/taskStore.ts도 일단 유지
+
+2. 타입 체크 실행: npx tsc --noEmit
+   - 에러 있으면 수정
+
+3. 린트 실행: npm run lint
+   - 경고/에러 수정
+
+4. constants/storage.ts에 다이어리 키 추가:
+   DIARY: 'diary-entries'
+
+5. 웹과 모바일 동시 테스트:
+   npx expo start --tunnel --web
+
+→ 완료되면 Checkpoint 저장!
+
+Step 6: Test and prepare for launch
+최종 테스트:
+
+1. 웹 브라우저에서 테스트:
+   - 캘린더 월 이동
+   - 날짜 선택
+   - 다이어리 작성/수정/삭제
+   - 새로고침 후 데이터 유지 확인
+
+2. 모바일 Expo Go에서 테스트:
+   - 같은 기능 테스트
+   - 햅틱 피드백 작동 확인
+
+3. 다크모드 테스트:
+   - 기기 설정에서 다크모드 전환
+   - UI 깨짐 없는지 확인
+
+4. 에러 핸들링:
+   - 빈 제목으로 저장 시도
+   - 긴 텍스트 입력
+
+문제 있으면 알려줘.

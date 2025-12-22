@@ -11,3 +11,5 @@ export { useGameStore } from './gameStore';
 export { useSrsStore } from './srsStore';
 export type { WordWithSrs, ReviewStats } from './srsStore';
 export { useJournalStore } from './journalStore';
+export { useDiaryStore } from './diaryStore';
+export type { DiaryEntry, MoodType } from './diaryStore';
