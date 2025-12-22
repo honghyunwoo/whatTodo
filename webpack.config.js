@@ -26,5 +26,16 @@ module.exports = async function (env, argv) {
     type: 'javascript/auto',
   });
 
+  // Configure dev server for Replit environment
+  config.devServer = {
+    ...config.devServer,
+    host: '0.0.0.0',
+    port: parseInt(process.env.EXPO_WEBPACK_PORT || '5000', 10),
+    allowedHosts: 'all',
+    client: {
+      webSocketURL: 'auto://0.0.0.0:0/ws',
+    },
+  };
+
   return config;
 };
