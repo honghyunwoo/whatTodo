@@ -9,7 +9,7 @@ import {
   KeyboardAvoidingView,
   Platform,
 } from 'react-native';
-import { Text, Button, IconButton } from 'react-native-paper';
+import { Text, Button, IconButton, Chip } from 'react-native-paper';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
@@ -17,16 +17,12 @@ import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from '@/contexts/ThemeContext';
 import { COLORS } from '@/constants/colors';
 import { SIZES, SHADOWS } from '@/constants/sizes';
-import { useDiaryStore, MoodType } from '@/store/diaryStore';
+import { useDiaryStore, MoodType, MOOD_CONFIG, getTodayPrompt } from '@/store/diaryStore';
 import { todoHaptics } from '@/services/hapticService';
 
-const MOOD_CONFIG: { type: MoodType; emoji: string; label: string }[] = [
-  { type: 'happy', emoji: '😊', label: '행복' },
-  { type: 'sad', emoji: '😢', label: '슬픔' },
-  { type: 'angry', emoji: '😠', label: '화남' },
-  { type: 'tired', emoji: '😴', label: '피곤' },
-  { type: 'neutral', emoji: '😐', label: '보통' },
-];
+const MOOD_TYPES: MoodType[] = ['happy', 'excited', 'peaceful', 'neutral', 'tired', 'sad', 'anxious', 'angry'];
+
+const COMMON_TAGS = ['일상', '운동', '여행', '맛집', '독서', '영화', '공부', '친구', '가족', '취미'];
 
 function formatDateDisplay(dateStr: string): string {
   const date = new Date(dateStr);
@@ -42,7 +38,7 @@ export default function DiaryScreen() {
   const { date } = useLocalSearchParams<{ date: string }>();
   const router = useRouter();
   const { colors, isDark } = useTheme();
-  const { getEntryByDate, addEntry, updateEntry, deleteEntry } = useDiaryStore();
+  const { getEntryByDate, addEntry, updateEntry, deleteEntry, tags: allTags } = useDiaryStore();
 
   const existingEntry = date ? getEntryByDate(date) : undefined;
   const isEditMode = !!existingEntry;
@@ -50,12 +46,18 @@ export default function DiaryScreen() {
   const [title, setTitle] = useState(existingEntry?.title || '');
   const [content, setContent] = useState(existingEntry?.content || '');
   const [mood, setMood] = useState<MoodType | undefined>(existingEntry?.mood);
+  const [tags, setTags] = useState<string[]>(existingEntry?.tags || []);
+  const [newTag, setNewTag] = useState('');
+  const [showPrompt, setShowPrompt] = useState(!isEditMode && !content);
+
+  const dailyPrompt = getTodayPrompt();
 
   useEffect(() => {
     if (existingEntry) {
       setTitle(existingEntry.title);
       setContent(existingEntry.content);
       setMood(existingEntry.mood);
+      setTags(existingEntry.tags || []);
     }
   }, [existingEntry]);
 
@@ -73,6 +75,7 @@ export default function DiaryScreen() {
         title: title.trim(),
         content: content.trim(),
         mood,
+        tags: tags.length > 0 ? tags : undefined,
       });
     } else {
       addEntry({
@@ -80,10 +83,11 @@ export default function DiaryScreen() {
         title: title.trim(),
         content: content.trim(),
         mood,
+        tags: tags.length > 0 ? tags : undefined,
       });
     }
     router.back();
-  }, [date, title, content, mood, isEditMode, existingEntry, addEntry, updateEntry, router]);
+  }, [date, title, content, mood, tags, isEditMode, existingEntry, addEntry, updateEntry, router]);
 
   const handleDelete = useCallback(async () => {
     if (!existingEntry) return;
@@ -101,6 +105,23 @@ export default function DiaryScreen() {
       },
     ]);
   }, [existingEntry, deleteEntry, router]);
+
+  const handleUsePrompt = useCallback(() => {
+    setContent(dailyPrompt + '\n\n');
+    setShowPrompt(false);
+  }, [dailyPrompt]);
+
+  const handleAddTag = useCallback((tag: string) => {
+    const trimmed = tag.trim();
+    if (trimmed && !tags.includes(trimmed)) {
+      setTags([...tags, trimmed]);
+    }
+    setNewTag('');
+  }, [tags]);
+
+  const handleRemoveTag = useCallback((tag: string) => {
+    setTags(tags.filter((t) => t !== tag));
+  }, [tags]);
 
   if (!date) {
     return (
@@ -162,31 +183,53 @@ export default function DiaryScreen() {
 
           <View style={styles.moodSection}>
             <Text style={[styles.sectionLabel, { color: colors.textSecondary }]}>오늘의 기분</Text>
-            <View style={styles.moodContainer}>
-              {MOOD_CONFIG.map((item) => (
-                <Pressable
-                  key={item.type}
-                  style={[
-                    styles.moodButton,
-                    { backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF' },
-                    mood === item.type && styles.selectedMoodButton,
-                    mood === item.type && { borderColor: COLORS.primary },
-                  ]}
-                  onPress={() => setMood(mood === item.type ? undefined : item.type)}
-                >
-                  <Text style={styles.moodEmoji}>{item.emoji}</Text>
-                  <Text
-                    style={[
-                      styles.moodLabel,
-                      { color: mood === item.type ? COLORS.primary : colors.textSecondary },
-                    ]}
-                  >
-                    {item.label}
-                  </Text>
-                </Pressable>
-              ))}
-            </View>
+            <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+              <View style={styles.moodContainer}>
+                {MOOD_TYPES.map((type) => {
+                  const config = MOOD_CONFIG[type];
+                  const isSelected = mood === type;
+                  return (
+                    <Pressable
+                      key={type}
+                      style={[
+                        styles.moodButton,
+                        { backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF' },
+                        isSelected && { borderColor: config.color, backgroundColor: config.color + '20' },
+                      ]}
+                      onPress={() => setMood(mood === type ? undefined : type)}
+                    >
+                      <Text style={styles.moodEmoji}>{config.emoji}</Text>
+                      <Text
+                        style={[
+                          styles.moodLabel,
+                          { color: isSelected ? config.color : colors.textSecondary },
+                        ]}
+                      >
+                        {config.label}
+                      </Text>
+                    </Pressable>
+                  );
+                })}
+              </View>
+            </ScrollView>
           </View>
+
+          {showPrompt && (
+            <Pressable
+              style={[
+                styles.promptCard,
+                { backgroundColor: isDark ? '#1C1C1E' : '#FFF8E1' },
+              ]}
+              onPress={handleUsePrompt}
+            >
+              <View style={styles.promptHeader}>
+                <Ionicons name="bulb-outline" size={20} color="#F59E0B" />
+                <Text style={styles.promptLabel}>오늘의 질문</Text>
+              </View>
+              <Text style={[styles.promptText, { color: colors.text }]}>{dailyPrompt}</Text>
+              <Text style={styles.promptHint}>탭하여 사용하기</Text>
+            </Pressable>
+          )}
 
           <View
             style={[
@@ -204,6 +247,62 @@ export default function DiaryScreen() {
               multiline
               textAlignVertical="top"
             />
+          </View>
+
+          <View style={styles.tagSection}>
+            <Text style={[styles.sectionLabel, { color: colors.textSecondary }]}>태그</Text>
+            
+            <View style={styles.tagInputRow}>
+              <TextInput
+                value={newTag}
+                onChangeText={setNewTag}
+                placeholder="태그 추가..."
+                placeholderTextColor={isDark ? '#6B6B6B' : '#A0A0A0'}
+                style={[
+                  styles.tagInput,
+                  { 
+                    backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF',
+                    color: colors.text 
+                  },
+                ]}
+                onSubmitEditing={() => handleAddTag(newTag)}
+                returnKeyType="done"
+              />
+              <IconButton
+                icon="plus"
+                size={20}
+                onPress={() => handleAddTag(newTag)}
+                disabled={!newTag.trim()}
+              />
+            </View>
+
+            {tags.length > 0 && (
+              <View style={styles.selectedTags}>
+                {tags.map((tag) => (
+                  <Chip
+                    key={tag}
+                    onClose={() => handleRemoveTag(tag)}
+                    style={styles.tagChip}
+                    textStyle={styles.tagChipText}
+                  >
+                    #{tag}
+                  </Chip>
+                ))}
+              </View>
+            )}
+
+            <View style={styles.suggestedTags}>
+              {COMMON_TAGS.filter((t) => !tags.includes(t)).slice(0, 5).map((tag) => (
+                <Chip
+                  key={tag}
+                  onPress={() => handleAddTag(tag)}
+                  style={styles.suggestedChip}
+                  textStyle={styles.suggestedChipText}
+                >
+                  #{tag}
+                </Chip>
+              ))}
+            </View>
           </View>
 
           {isEditMode && (
@@ -317,12 +416,14 @@ const styles = StyleSheet.create({
     borderRadius: SIZES.borderRadius.md,
     borderWidth: 2,
     borderColor: 'transparent',
-    paddingHorizontal: SIZES.spacing.sm,
+    marginRight: SIZES.spacing.sm,
+    paddingHorizontal: SIZES.spacing.md,
     paddingVertical: SIZES.spacing.sm,
+    minWidth: 70,
   },
   moodContainer: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    paddingRight: SIZES.spacing.md,
   },
   moodEmoji: {
     fontSize: 28,
@@ -334,13 +435,77 @@ const styles = StyleSheet.create({
   moodSection: {
     marginBottom: SIZES.spacing.md,
   },
+  promptCard: {
+    borderRadius: SIZES.borderRadius.lg,
+    marginBottom: SIZES.spacing.md,
+    padding: SIZES.spacing.md,
+  },
+  promptHeader: {
+    alignItems: 'center',
+    flexDirection: 'row',
+    gap: SIZES.spacing.xs,
+    marginBottom: SIZES.spacing.sm,
+  },
+  promptHint: {
+    color: '#F59E0B',
+    fontSize: SIZES.fontSize.sm,
+    marginTop: SIZES.spacing.sm,
+    textAlign: 'right',
+  },
+  promptLabel: {
+    color: '#F59E0B',
+    fontSize: SIZES.fontSize.sm,
+    fontWeight: '600',
+  },
+  promptText: {
+    fontSize: SIZES.fontSize.md,
+    fontStyle: 'italic',
+    lineHeight: 22,
+  },
   sectionLabel: {
     fontSize: SIZES.fontSize.sm,
     fontWeight: '600',
     marginBottom: SIZES.spacing.sm,
   },
-  selectedMoodButton: {
-    borderWidth: 2,
+  selectedTags: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: SIZES.spacing.xs,
+    marginBottom: SIZES.spacing.sm,
+  },
+  suggestedChip: {
+    backgroundColor: 'transparent',
+    borderColor: COLORS.border,
+    borderWidth: 1,
+  },
+  suggestedChipText: {
+    fontSize: SIZES.fontSize.sm,
+  },
+  suggestedTags: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: SIZES.spacing.xs,
+  },
+  tagChip: {
+    backgroundColor: COLORS.primary + '20',
+  },
+  tagChipText: {
+    fontSize: SIZES.fontSize.sm,
+  },
+  tagInput: {
+    borderRadius: SIZES.borderRadius.md,
+    flex: 1,
+    fontSize: SIZES.fontSize.md,
+    paddingHorizontal: SIZES.spacing.md,
+    paddingVertical: SIZES.spacing.sm,
+  },
+  tagInputRow: {
+    alignItems: 'center',
+    flexDirection: 'row',
+    marginBottom: SIZES.spacing.sm,
+  },
+  tagSection: {
+    marginBottom: SIZES.spacing.md,
   },
   titleInput: {
     fontSize: SIZES.fontSize.xl,
