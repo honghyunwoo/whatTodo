@@ -16,7 +16,6 @@ module.exports = async function (env, argv) {
     '@': path.resolve(__dirname),
     'nanoid/non-secure': path.resolve(__dirname, 'patches/nanoid-shim.js'),
     'nanoid': path.resolve(__dirname, 'patches/nanoid-shim.js'),
-    'expo-notifications': path.resolve(__dirname, 'patches/expo-notifications-shim.ts'),
   };
 
   // ESLint 관련 파일 제외
