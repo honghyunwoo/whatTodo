@@ -32,6 +32,24 @@ export type BackupPayload = {
   data: Record<string, string | null>;
 };
 
+/**
+ * 자동 백업 설정
+ */
+export type AutoBackupSettings = {
+  enabled: boolean;
+  intervalHours: number; // 자동 백업 주기 (시간 단위)
+  maxBackups: number; // 최대 백업 파일 개수
+};
+
+/**
+ * 기본 자동 백업 설정
+ */
+export const DEFAULT_AUTO_BACKUP_SETTINGS: AutoBackupSettings = {
+  enabled: true,
+  intervalHours: 24, // 1일 1회
+  maxBackups: 7, // 최근 7개 보관
+};
+
 const getAppVersion = () => appConfig.expo?.version ?? 'unknown';
 
 export async function exportBackup(): Promise<BackupPayload> {
@@ -206,4 +224,136 @@ export async function restoreBackupFromFile(): Promise<boolean> {
 
   await restoreBackup(backup);
   return true;
+}
+
+// ============================================================================
+// 자동 백업 기능
+// ============================================================================
+
+/**
+ * 자동 백업 설정 로드
+ */
+export async function getAutoBackupSettings(): Promise<AutoBackupSettings> {
+  try {
+    const stored = await AsyncStorage.getItem(STORAGE_KEYS.AUTO_BACKUP_SETTINGS);
+    if (!stored) {
+      return DEFAULT_AUTO_BACKUP_SETTINGS;
+    }
+    return JSON.parse(stored);
+  } catch (error) {
+    console.warn('자동 백업 설정 로드 실패, 기본값 사용:', error);
+    return DEFAULT_AUTO_BACKUP_SETTINGS;
+  }
+}
+
+/**
+ * 자동 백업 설정 저장
+ */
+export async function saveAutoBackupSettings(settings: AutoBackupSettings): Promise<void> {
+  await AsyncStorage.setItem(STORAGE_KEYS.AUTO_BACKUP_SETTINGS, JSON.stringify(settings));
+}
+
+/**
+ * 마지막 백업 시간 가져오기
+ */
+export async function getLastBackupTime(): Promise<Date | null> {
+  try {
+    const stored = await AsyncStorage.getItem(STORAGE_KEYS.LAST_BACKUP_TIME);
+    return stored ? new Date(stored) : null;
+  } catch (error) {
+    console.warn('마지막 백업 시간 로드 실패:', error);
+    return null;
+  }
+}
+
+/**
+ * 마지막 백업 시간 저장
+ */
+export async function setLastBackupTime(time: Date): Promise<void> {
+  await AsyncStorage.setItem(STORAGE_KEYS.LAST_BACKUP_TIME, time.toISOString());
+}
+
+/**
+ * 자동 백업이 필요한지 확인
+ */
+export async function shouldAutoBackup(): Promise<boolean> {
+  const settings = await getAutoBackupSettings();
+
+  if (!settings.enabled) {
+    return false;
+  }
+
+  const lastBackupTime = await getLastBackupTime();
+
+  if (!lastBackupTime) {
+    return true; // 한 번도 백업하지 않았으면 백업 필요
+  }
+
+  const now = new Date();
+  const hoursSinceLastBackup = (now.getTime() - lastBackupTime.getTime()) / (1000 * 60 * 60);
+
+  return hoursSinceLastBackup >= settings.intervalHours;
+}
+
+/**
+ * 자동 백업 실행 (백그라운드, 사용자 개입 없음)
+ */
+export async function performAutoBackup(): Promise<void> {
+  try {
+    const backup = await exportBackup();
+    const json = JSON.stringify(backup, null, 2);
+
+    const now = new Date();
+    const timestamp = now.toISOString().replace(/[:.]/g, '-').slice(0, -5); // 2025-12-24T12-30-45
+    const filename = `whatTodo-auto-${timestamp}.json`;
+
+    // 자동 백업은 캐시 디렉토리에 저장 (공유 안 함)
+    const file = new File(Paths.cache, filename);
+    await file.write(json);
+
+    // 마지막 백업 시간 업데이트
+    await setLastBackupTime(now);
+
+    // 오래된 백업 파일 정리
+    await cleanupOldBackups();
+  } catch (error) {
+    console.error('자동 백업 실패:', error);
+    // 자동 백업 실패는 조용히 처리 (사용자에게 알리지 않음)
+  }
+}
+
+/**
+ * 오래된 자동 백업 파일 삭제
+ */
+async function cleanupOldBackups(): Promise<void> {
+  try {
+    const settings = await getAutoBackupSettings();
+    const cacheDir = Paths.cache;
+
+    // 캐시 디렉토리의 모든 파일 목록 가져오기
+    const files = await cacheDir.list();
+
+    // 자동 백업 파일만 필터링 (whatTodo-auto-*.json)
+    const backupFiles = files
+      .filter((file) => {
+        if (file instanceof File) {
+          return file.name.startsWith('whatTodo-auto-') && file.name.endsWith('.json');
+        }
+        return false;
+      })
+      .map((file) => file as File);
+
+    // 파일이 maxBackups보다 많으면 오래된 것부터 삭제
+    if (backupFiles.length > settings.maxBackups) {
+      // 파일명으로 정렬 (타임스탬프가 파일명에 포함되어 있음)
+      backupFiles.sort((a, b) => a.name.localeCompare(b.name));
+
+      const filesToDelete = backupFiles.slice(0, backupFiles.length - settings.maxBackups);
+
+      await Promise.all(filesToDelete.map((file) => file.delete()));
+    }
+  } catch (error) {
+    console.warn('오래된 백업 파일 정리 실패:', error);
+    // 정리 실패는 조용히 처리
+  }
 }

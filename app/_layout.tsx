@@ -9,6 +9,7 @@ import { ErrorBoundary } from '@/components/common/ErrorBoundary';
 import { ThemeProvider, useTheme } from '@/contexts/ThemeContext';
 import { useUserStore } from '@/store/userStore';
 import { useStreakStore } from '@/store/streakStore';
+import { performAutoBackup, shouldAutoBackup } from '@/utils/backup';
 import { initSentry } from '@/utils/sentry';
 
 function AppContent() {
@@ -24,6 +25,12 @@ function AppContent() {
 
       // Check streak status
       checkStreak();
+
+      // 자동 백업 체크 및 실행
+      const needsBackup = await shouldAutoBackup();
+      if (needsBackup) {
+        await performAutoBackup();
+      }
     };
 
     init();

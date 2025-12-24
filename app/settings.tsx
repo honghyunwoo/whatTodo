@@ -1,11 +1,26 @@
-import React, { useState } from 'react';
-import { Alert, Button, ScrollView, Share, StyleSheet, Text, TextInput, View } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import {
+  Alert,
+  Button,
+  ScrollView,
+  Share,
+  StyleSheet,
+  Switch,
+  Text,
+  TextInput,
+  View,
+} from 'react-native';
 import { useRouter } from 'expo-router';
 
 import {
+  AutoBackupSettings,
+  DEFAULT_AUTO_BACKUP_SETTINGS,
   exportBackup,
+  getAutoBackupSettings,
+  getLastBackupTime,
   restoreBackup,
   restoreBackupFromFile,
+  saveAutoBackupSettings,
   saveBackupToFile,
 } from '@/utils/backup';
 import { showUserFriendlyError } from '@/utils/errorHandler';
@@ -16,7 +31,28 @@ export default function SettingsScreen() {
   const [isImporting, setIsImporting] = useState(false);
   const [isSavingFile, setIsSavingFile] = useState(false);
   const [isLoadingFile, setIsLoadingFile] = useState(false);
+  const [autoBackupSettings, setAutoBackupSettings] = useState<AutoBackupSettings>(
+    DEFAULT_AUTO_BACKUP_SETTINGS
+  );
+  const [lastBackupTime, setLastBackupTime] = useState<Date | null>(null);
   const router = useRouter();
+
+  // 자동 백업 설정 로드
+  useEffect(() => {
+    loadAutoBackupSettings();
+  }, []);
+
+  const loadAutoBackupSettings = async () => {
+    try {
+      const settings = await getAutoBackupSettings();
+      setAutoBackupSettings(settings);
+
+      const lastTime = await getLastBackupTime();
+      setLastBackupTime(lastTime);
+    } catch (error) {
+      console.error('자동 백업 설정 로드 실패:', error);
+    }
+  };
 
   const handleExport = async () => {
     try {
@@ -91,10 +127,74 @@ export default function SettingsScreen() {
     }
   };
 
+  const handleToggleAutoBackup = async (enabled: boolean) => {
+    try {
+      const newSettings = { ...autoBackupSettings, enabled };
+      await saveAutoBackupSettings(newSettings);
+      setAutoBackupSettings(newSettings);
+
+      Alert.alert(
+        enabled ? '자동 백업 활성화' : '자동 백업 비활성화',
+        enabled
+          ? `앱 시작 시 자동으로 백업이 생성됩니다.\n주기: ${autoBackupSettings.intervalHours}시간마다`
+          : '자동 백업이 비활성화되었습니다.'
+      );
+    } catch (error) {
+      showUserFriendlyError(error, '자동 백업 설정');
+    }
+  };
+
+  const formatLastBackupTime = () => {
+    if (!lastBackupTime) return '없음';
+
+    const now = new Date();
+    const diff = now.getTime() - lastBackupTime.getTime();
+    const hours = Math.floor(diff / (1000 * 60 * 60));
+    const days = Math.floor(hours / 24);
+
+    if (days > 0) {
+      return `${days}일 전`;
+    } else if (hours > 0) {
+      return `${hours}시간 전`;
+    } else {
+      return '방금 전';
+    }
+  };
+
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.title}>백업 & 복원</Text>
       <Text style={styles.subtitle}>데이터를 안전하게 백업하고 복원할 수 있습니다.</Text>
+
+      {/* 자동 백업 설정 */}
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>⚙️ 자동 백업 설정</Text>
+        <Text style={styles.hint}>
+          앱 시작 시 자동으로 백업을 생성합니다. (최근 {autoBackupSettings.maxBackups}개 보관)
+        </Text>
+
+        <View style={styles.settingRow}>
+          <View style={styles.settingInfo}>
+            <Text style={styles.settingLabel}>자동 백업 활성화</Text>
+            <Text style={styles.settingHint}>
+              {autoBackupSettings.intervalHours}시간마다 자동 백업
+            </Text>
+          </View>
+          <Switch
+            value={autoBackupSettings.enabled}
+            onValueChange={handleToggleAutoBackup}
+            trackColor={{ false: '#ccc', true: '#4CAF50' }}
+            thumbColor="#fff"
+          />
+        </View>
+
+        <View style={styles.divider} />
+
+        <View style={styles.infoRow}>
+          <Text style={styles.infoLabel}>마지막 백업:</Text>
+          <Text style={styles.infoValue}>{formatLastBackupTime()}</Text>
+        </View>
+      </View>
 
       {/* 파일로 백업/복원 (권장) */}
       <View style={styles.section}>
@@ -233,5 +333,38 @@ const styles = StyleSheet.create({
     fontSize: 13,
     color: '#1565C0',
     lineHeight: 20,
+  },
+  settingRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingVertical: 8,
+  },
+  settingInfo: {
+    flex: 1,
+  },
+  settingLabel: {
+    fontSize: 15,
+    fontWeight: '500',
+    color: '#333',
+    marginBottom: 4,
+  },
+  settingHint: {
+    fontSize: 12,
+    color: '#666',
+  },
+  infoRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  infoLabel: {
+    fontSize: 14,
+    color: '#666',
+  },
+  infoValue: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#333',
   },
 });

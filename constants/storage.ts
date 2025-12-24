@@ -7,4 +7,6 @@ export const STORAGE_KEYS = {
   REWARDS: '@whatTodo:rewards',
   GAME_THEMES: '@whatTodo:game_themes',
   THEME: '@whatTodo:theme',
+  AUTO_BACKUP_SETTINGS: '@whatTodo:auto_backup_settings',
+  LAST_BACKUP_TIME: '@whatTodo:last_backup_time',
 } as const;
