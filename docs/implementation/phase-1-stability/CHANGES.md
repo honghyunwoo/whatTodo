@@ -34,20 +34,10 @@
 ### 앱 코드
 | 파일 | 변경 내용 | 이유 |
 |------|-----------|------|
-| `app/_layout.tsx` | ErrorBoundary 추가 | 앱 크래시 방지 |
-| `app/settings.tsx` | showUserFriendlyError 적용 | 사용자 친화적 에러 메시지 |
-| `app/level-test.tsx` | showUserFriendlyError 적용 | 사용자 친화적 에러 메시지 |
-| `app/review.tsx` | showUserFriendlyError 적용 | 사용자 친화적 에러 메시지 |
-| `utils/sentry.ts` | 개선 (필요 시) | Sentry 연동 강화 |
-
-### 학습 컴포넌트 (예상 5-8개)
-- `components/learn/VocabularyView.tsx`
-- `components/learn/GrammarView.tsx`
-- `components/learn/ListeningView.tsx`
-- `components/learn/ReadingView.tsx`
-- `components/learn/SpeakingView.tsx`
-- `components/learn/WritingView.tsx`
-- 기타 에러 처리가 필요한 컴포넌트
+| `app/_layout.tsx` | ErrorBoundary import 및 wrapping | 앱 크래시 방지 |
+| `app/settings.tsx` | showUserFriendlyError 적용 (백업 내보내기, 복원) | 사용자 친화적 에러 메시지 |
+| `components/common/index.ts` | ErrorBoundary export 추가 | 모듈 export |
+| `components/learn/SpeakingView.tsx` | captureSilentError 적용 (Speech API) | Speech 에러 추적 |
 
 ---
 

@@ -6,6 +6,7 @@ import { Button, Card, Checkbox, IconButton, Text } from 'react-native-paper';
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { SpeakingActivity, SpeakingSentence } from '@/types/activity';
+import { captureSilentError } from '@/utils/errorHandler';
 
 import { ProgressBar } from './ProgressBar';
 
@@ -41,10 +42,14 @@ export function SpeakingView({ activity, onComplete }: SpeakingViewProps) {
           language: 'en-US',
           rate: 0.8, // 천천히 발음
           onDone: () => setIsPlaying(false),
-          onError: () => setIsPlaying(false),
+          onError: (error) => {
+            setIsPlaying(false);
+            captureSilentError(error, { context: 'Speech.speak', sentence: sentence.text });
+          },
         });
-      } catch {
+      } catch (error) {
         setIsPlaying(false);
+        captureSilentError(error, { context: 'Speech.speak', sentence: sentence.text });
       }
     },
     [isPlaying]
@@ -131,10 +136,7 @@ export function SpeakingView({ activity, onComplete }: SpeakingViewProps) {
                       onPress={() => handleChecklistToggle(key)}
                       color={COLORS.primary}
                     />
-                    <Text
-                      style={styles.checklistText}
-                      onPress={() => handleChecklistToggle(key)}
-                    >
+                    <Text style={styles.checklistText} onPress={() => handleChecklistToggle(key)}>
                       {item}
                     </Text>
                   </View>

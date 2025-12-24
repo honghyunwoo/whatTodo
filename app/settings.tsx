@@ -3,6 +3,7 @@ import { Alert, Button, ScrollView, Share, StyleSheet, Text, TextInput, View } f
 import { useRouter } from 'expo-router';
 
 import { exportBackup, restoreBackup } from '@/utils/backup';
+import { showUserFriendlyError } from '@/utils/errorHandler';
 
 export default function SettingsScreen() {
   const [backupText, setBackupText] = useState('');
@@ -24,7 +25,7 @@ export default function SettingsScreen() {
 
       Alert.alert('백업 완료', 'JSON을 안전한 곳에 저장해주세요.');
     } catch (error) {
-      Alert.alert('백업 실패', (error as Error).message);
+      showUserFriendlyError(error, '백업 내보내기');
     } finally {
       setIsExporting(false);
     }
@@ -42,7 +43,7 @@ export default function SettingsScreen() {
       Alert.alert('복원 완료', '앱을 다시 실행하거나 탭을 전환하면 새 데이터가 적용됩니다.');
       router.back();
     } catch (error) {
-      Alert.alert('복원 실패', (error as Error).message);
+      showUserFriendlyError(error, '백업 복원');
     } finally {
       setIsImporting(false);
     }
