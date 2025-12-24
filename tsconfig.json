@@ -6,6 +6,7 @@
     "isolatedModules": true,
     "jsx": "react-native",
     "lib": ["es2017"],
+    "module": "esnext",
     "moduleResolution": "node",
     "noEmit": true,
     "strict": true,
@@ -16,7 +17,7 @@
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "types": ["react-native", "jest"]
+    "types": ["react-native", "jest", "node"]
   },
   "include": [
     "**/*.ts",
