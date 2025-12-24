@@ -9,6 +9,7 @@ import { ActivityIndicator, ScrollView, StyleSheet, TouchableOpacity, View } fro
 import { IconButton, Modal, Portal, Text } from 'react-native-paper';
 
 import { ActivityCard, StatsView, WeekSelector } from '@/components/learn';
+import { LearningDashboard } from '@/components/dashboard/LearningDashboard';
 import { BadgeShowcase } from '@/components/reward';
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
@@ -102,7 +103,9 @@ export default function LearnScreen() {
   }, []);
 
   const currentProgress = weekProgress[currentWeek] || 0;
-  const completedToday = ACTIVITY_TYPES.filter((type) => getActivityProgress(type).completed).length;
+  const completedToday = ACTIVITY_TYPES.filter(
+    (type) => getActivityProgress(type).completed
+  ).length;
 
   return (
     <View style={styles.container}>
@@ -154,7 +157,9 @@ export default function LearnScreen() {
 
         <View style={styles.quickActionsSection}>
           <TouchableOpacity style={styles.actionCard} onPress={handleLevelTest}>
-            <View style={[styles.actionIconBg, { backgroundColor: COLORS.activity.vocabulary.light }]}>
+            <View
+              style={[styles.actionIconBg, { backgroundColor: COLORS.activity.vocabulary.light }]}
+            >
               <Text style={styles.actionEmoji}>📋</Text>
             </View>
             <View style={styles.actionInfo}>
@@ -194,9 +199,7 @@ export default function LearnScreen() {
 
         <View style={styles.activitiesSection}>
           <View style={styles.sectionHeader}>
-            <Text style={styles.sectionTitle}>
-              {currentWeek.replace('week-', '')}주차 학습
-            </Text>
+            <Text style={styles.sectionTitle}>{currentWeek.replace('week-', '')}주차 학습</Text>
             <View style={styles.progressPill}>
               <View style={[styles.progressPillFill, { width: `${currentProgress}%` }]} />
               <Text style={styles.progressPillText}>{currentProgress}%</Text>
@@ -237,7 +240,11 @@ export default function LearnScreen() {
           onDismiss={() => setShowStats(false)}
           contentContainerStyle={styles.modalContainer}
         >
-          <StatsView onClose={() => setShowStats(false)} />
+          <View style={styles.modalHeader}>
+            <Text style={styles.modalTitle}>📊 학습 통계</Text>
+            <IconButton icon="close" size={24} onPress={() => setShowStats(false)} />
+          </View>
+          <LearningDashboard />
         </Modal>
       </Portal>
 
@@ -373,6 +380,20 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.background,
     flex: 1,
     margin: 0,
+  },
+  modalHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: SIZES.spacing.md,
+    paddingTop: SIZES.spacing.lg,
+    paddingBottom: SIZES.spacing.sm,
+    backgroundColor: COLORS.surface,
+  },
+  modalTitle: {
+    fontSize: SIZES.fontSize.xl,
+    fontWeight: '700',
+    color: COLORS.text,
   },
   progressPill: {
     backgroundColor: COLORS.border,
