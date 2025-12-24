@@ -314,28 +314,33 @@ whatTodo/
 
 **결과**:
 ```
-app/(tabs)/learn.tsx:352:48 - error TS2339: Property 'xxl' does not exist
-app/(tabs)/learn.tsx:353:49 - error TS2339: Property 'xxl' does not exist
-
-Found 2 errors in 1 file.
+error TS2688: Cannot find type definition file for 'jest'.
+  The file is in the program because:
+    Entry point of type library 'jest' specified in compilerOptions
 ```
 
 **분석**:
-- ✅ **총 2개 오류** (매우 낮음!)
-- ⚠️ **SPACING.xxl 미정의** - `constants/theme.ts`에 누락
+- ⚠️ **Jest 타입 정의 미설치** - tsconfig.json에 'jest'가 types에 포함되어 있으나 @types/jest 패키지가 없음
+- ⚠️ **SIZES.borderRadius.xxl 미정의** - `constants/sizes.ts`에 누락 (app/(tabs)/learn.tsx:352-353에서 사용 중)
 - ✅ 나머지 코드베이스는 타입 안전
 
-**해결책** (5분):
+**해결책** (10분):
 ```typescript
-// constants/theme.ts
-export const SPACING = {
-  sm: 4,
-  md: 8,
-  lg: 12,
-  xl: 16,
-  xxl: 24,  // 👈 추가
-  full: 9999,
+// 1. constants/sizes.ts
+export const SIZES = {
+  ...
+  borderRadius: {
+    sm: 4,
+    md: 8,
+    lg: 12,
+    xl: 16,
+    xxl: 24,  // 👈 추가
+    full: 9999,
+  },
+  ...
 } as const;
+
+// 2. tsconfig.json에서 jest 제거 또는 npm install --save-dev @types/jest
 ```
 
 ---
@@ -580,21 +585,33 @@ import NetInfo from '@react-native-community/netinfo';  // ❌ 없음
 
 ### 6.1 즉시 개선 (1주 이내)
 
-#### ✅ SPACING.xxl 타입 오류 수정
+#### ✅ TypeScript 타입 오류 수정
 
-**파일**: `constants/theme.ts`
-**소요 시간**: 5분
-**영향**: TypeScript 오류 0개 달성
+**파일**: `constants/sizes.ts`, `tsconfig.json`
+**소요 시간**: 10분
+**영향**: TypeScript 오류 해결
 
 ```typescript
-export const SPACING = {
-  sm: 4,
-  md: 8,
-  lg: 12,
-  xl: 16,
-  xxl: 24,  // 👈 추가
-  full: 9999,
+// 1. constants/sizes.ts
+export const SIZES = {
+  ...
+  borderRadius: {
+    sm: 4,
+    md: 8,
+    lg: 12,
+    xl: 16,
+    xxl: 24,  // 👈 추가 (app/(tabs)/learn.tsx에서 사용 중)
+    full: 9999,
+  },
+  ...
 } as const;
+
+// 2. tsconfig.json - jest 타입 문제 해결
+// Option A: jest 제거 (테스트 없으므로)
+"types": ["react-native"]  // "jest" 제거
+
+// Option B: jest 타입 설치
+// npm install --save-dev @types/jest
 ```
 
 ---
@@ -1009,7 +1026,7 @@ import { LineChart, BarChart } from 'react-native-chart-kit';
 
 **목표**: 코드 품질 기본 정리
 
-- [ ] SPACING.xxl 타입 오류 수정 (5분)
+- [ ] TypeScript 타입 오류 수정 (borderRadius.xxl, jest) (10분)
 - [ ] journal/diary store 통합 (2시간)
 - [ ] console.log 제거 또는 조건부 처리 (1시간)
 - [ ] Sentry DSN 설정 (30분)
@@ -1122,7 +1139,7 @@ import { LineChart, BarChart } from 'react-native-chart-kit';
 ### 최종 권장사항
 
 **즉시 실행** (이번 주):
-1. ✅ SPACING.xxl 수정 (5분)
+1. ✅ TypeScript 타입 오류 수정 (borderRadius.xxl, jest) (10분)
 2. ✅ journal/diary 통합 (2시간)
 3. ✅ Sentry DSN 설정 (30분)
 
