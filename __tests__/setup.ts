@@ -16,6 +16,23 @@ jest.mock('expo-speech', () => ({
   isSpeakingAsync: jest.fn(() => Promise.resolve(false)),
 }));
 
+jest.mock('expo-document-picker', () => ({
+  getDocumentAsync: jest.fn(() => Promise.resolve({ canceled: true })),
+}));
+
+jest.mock('expo-file-system', () => ({
+  File: jest.fn(),
+  Paths: {
+    document: { uri: 'file:///mock/document' },
+    cache: { uri: 'file:///mock/cache' },
+  },
+}));
+
+jest.mock('expo-sharing', () => ({
+  isAvailableAsync: jest.fn(() => Promise.resolve(true)),
+  shareAsync: jest.fn(() => Promise.resolve()),
+}));
+
 jest.mock('expo-router', () => ({
   useRouter: () => ({
     push: jest.fn(),
@@ -39,6 +56,16 @@ jest.mock('@sentry/react-native', () => ({
 
 // Mock react-native modules
 jest.mock('react-native/Libraries/Animated/NativeAnimatedHelper');
+
+jest.mock('react-native', () => ({
+  Alert: {
+    alert: jest.fn(),
+  },
+  Platform: {
+    OS: 'ios',
+    select: jest.fn((obj) => obj.ios),
+  },
+}));
 
 // Clear all mocks before each test
 beforeEach(() => {

@@ -47,4 +47,9 @@ module.exports = {
 
   // Module file extensions
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+
+  // Transform node_modules for expo packages (ESM → CommonJS)
+  transformIgnorePatterns: [
+    'node_modules/(?!(expo-document-picker|expo-file-system|expo-sharing|expo-modules-core)/)',
+  ],
 };
