@@ -51,10 +51,8 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
         errorInfo: errorInfo.componentStack,
         timestamp: new Date().toISOString(),
       });
-    } else {
-      // 개발 환경에서는 콘솔에 출력
-      console.error('ErrorBoundary caught an error:', error, errorInfo);
     }
+    // 개발 환경에서는 React DevTools에서 자동으로 표시됨
   }
 
   handleReset = (): void => {
