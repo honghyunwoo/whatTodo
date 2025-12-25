@@ -24,6 +24,7 @@ import {
   saveBackupToFile,
 } from '@/utils/backup';
 import { showUserFriendlyError } from '@/utils/errorHandler';
+import { resetOnboarding } from '@/utils/onboarding';
 
 export default function SettingsScreen() {
   const [backupText, setBackupText] = useState('');
@@ -161,6 +162,28 @@ export default function SettingsScreen() {
     }
   };
 
+  const handleResetOnboarding = async () => {
+    Alert.alert(
+      '온보딩 재설정',
+      '온보딩 화면을 다시 보시겠습니까?\n앱을 재시작하면 온보딩이 다시 표시됩니다.',
+      [
+        { text: '취소', style: 'cancel' },
+        {
+          text: '재설정',
+          style: 'destructive',
+          onPress: async () => {
+            try {
+              await resetOnboarding();
+              Alert.alert('완료', '온보딩이 재설정되었습니다.\n앱을 재시작해주세요.');
+            } catch (error) {
+              showUserFriendlyError(error, '온보딩 재설정');
+            }
+          },
+        },
+      ]
+    );
+  };
+
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.title}>백업 & 복원</Text>
@@ -256,6 +279,13 @@ export default function SettingsScreen() {
         <Text style={styles.infoText}>• 할 일 목록</Text>
         <Text style={styles.infoText}>• SRS 단어 복습 데이터</Text>
         <Text style={styles.infoText}>• 설정</Text>
+      </View>
+
+      {/* 기타 설정 */}
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>🔧 기타</Text>
+        <Button title="온보딩 다시 보기" onPress={handleResetOnboarding} color="#FF9800" />
+        <Text style={styles.hint}>앱을 재시작하면 온보딩 화면이 다시 표시됩니다.</Text>
       </View>
     </ScrollView>
   );
