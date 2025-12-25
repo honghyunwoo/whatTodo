@@ -158,3 +158,52 @@ describe('Day Utils - 색상/이모지 변환', () => {
     expect(getEmojiByCompletionRate(100)).toBe('🎉');
   });
 });
+
+describe('Day Utils - 엣지 케이스', () => {
+  test('generateDaySummary - Todo 없고 학습도 없을 때', () => {
+    const summary = generateDaySummary([]);
+
+    expect(summary.completedTodos).toBe(0);
+    expect(summary.totalTodos).toBe(0);
+    expect(summary.completionRate).toBe(0);
+    expect(summary.learningTime).toBe(0);
+    expect(summary.hasNote).toBe(false);
+    expect(summary.insight).toBeUndefined();
+  });
+
+  test('formatDateToString - 월/일이 한 자리 수일 때 패딩', () => {
+    const date = new Date('2025-01-05T00:00:00');
+    const result = formatDateToString(date);
+    expect(result).toBe('2025-01-05'); // 05로 패딩
+  });
+
+  test('getKoreanDayOfWeek - 모든 요일 테스트', () => {
+    expect(getKoreanDayOfWeek('2025-01-12')).toBe('일'); // 일요일
+    expect(getKoreanDayOfWeek('2025-01-13')).toBe('월'); // 월요일
+    expect(getKoreanDayOfWeek('2025-01-14')).toBe('화'); // 화요일
+    expect(getKoreanDayOfWeek('2025-01-15')).toBe('수'); // 수요일
+    expect(getKoreanDayOfWeek('2025-01-16')).toBe('목'); // 목요일
+    expect(getKoreanDayOfWeek('2025-01-17')).toBe('금'); // 금요일
+    expect(getKoreanDayOfWeek('2025-01-18')).toBe('토'); // 토요일
+  });
+
+  test('generateDaySummary - 모든 Todo 미완료일 때', () => {
+    const todos: Task[] = [
+      {
+        id: '1',
+        title: 'Task 1',
+        category: 'work',
+        priority: 'medium',
+        completed: false,
+        subtasks: [],
+        createdAt: '2025-01-15',
+        updatedAt: '2025-01-15',
+      },
+    ];
+
+    const summary = generateDaySummary(todos);
+
+    expect(summary.completionRate).toBe(0);
+    expect(summary.insight).toBeUndefined();
+  });
+});

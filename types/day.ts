@@ -12,7 +12,10 @@ import type { JournalEntry } from './journal';
  * 기존 Store들의 데이터를 날짜 기준으로 통합한 뷰
  */
 export interface DayData {
-  /** 날짜 (YYYY-MM-DD 형식) */
+  /**
+   * 날짜 (YYYY-MM-DD 형식)
+   * @example "2025-01-15"
+   */
   date: string;
 
   /** 해당 날짜의 Todo 리스트 */
