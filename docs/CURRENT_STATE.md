@@ -1,6 +1,6 @@
 # whatTodo 현재 상태
 
-**최종 업데이트**: 2025-12-24 04:00 UTC
+**최종 업데이트**: 2025-12-25 00:00 UTC
 **업데이트한 사람**: Claude (Release Manager)
 **브랜치**: `claude/fix-mobile-touch-input-9Am35`
 
@@ -34,8 +34,8 @@ data/activities/
 ├── a2/ (48개 활동)
 ├── b1/ (48개 활동)
 ├── b2/ (48개 활동)
-├── c1/ (48개 활동)  ← 이전 README에 누락되어 있었음!
-└── c2/ (48개 활동)  ← 이전 README에 누락되어 있었음!
+├── c1/ (48개 활동)
+└── c2/ (48개 활동)
 ```
 
 ### 기술 스택
@@ -50,6 +50,9 @@ data/activities/
   "react-native-reanimated": "~3.10.1",
   "react-native-gesture-handler": "~2.16.1",
   "expo-speech": "~12.0.2",
+  "expo-document-picker": "~12.0.2",
+  "expo-file-system": "~17.0.1",
+  "expo-sharing": "~12.0.1",
   "@sentry/react-native": "^7.8.0"
 }
 ```
@@ -57,35 +60,70 @@ data/activities/
 ### 아키텍처
 - **상태 관리**: Zustand (10개 store)
   - taskStore, learnStore, srsStore, rewardStore, streakStore
-  - gameStore, userStore, journalStore, diaryStore (중복!)
+  - gameStore, userStore, journalStore, diaryStore
 - **라우팅**: Expo Router (file-based)
-- **컴포넌트**: 62개 (.tsx/.ts 파일)
+- **컴포넌트**: 70개 (.tsx/.ts 파일)
 - **데이터 저장**: AsyncStorage (영구 저장)
+- **백업**: 자동 백업 시스템 (24시간 간격, 최근 7개 보관)
 
 ---
 
 ## 🚧 현재 작업 중
 
 ### 다음 세션 시작점
-- **현재 Phase**: Phase 1-2 완료 ✅ → Phase 3 준비 중
-- **다음 Phase**: Phase 3 - UX 개선 (백업 UX, 통계 대시보드, 온보딩)
+- **현재 Phase**: Phase 3 완료 ✅ → Phase 4 준비 중
+- **다음 Phase**: Phase 4 - 성능 최적화 또는 추가 기능
 - **브랜치**: `claude/fix-mobile-touch-input-9Am35`
-- **마지막 커밋**: `d42f139 - fix(phase-2): resolve ESLint error in static-server.js`
+- **마지막 커밋**: `9b7d8dd - feat(phase-3): implement onboarding flow`
 
-### 최근 완료한 작업 (Phase 1-2)
+### 최근 완료한 작업 (Phase 3)
 
-**Phase 1: 안정성 확보** ✅
-- ✅ 테스트 환경 구축 (Jest + ts-jest)
-- ✅ Critical Path 테스트 작성 (35개 - 목표 30개 초과)
-- ✅ 사용자 친화적 에러 처리 시스템 (showUserFriendlyError)
-- ✅ ErrorBoundary 추가 및 적용
-- ✅ Sentry 설정 준비 완료
+**Phase 3: UX 개선** ✅ 완료
+- ✅ 백업 UX 개선
+  - 파일 기반 백업/복원 (expo-document-picker, expo-file-system, expo-sharing)
+  - 자동 백업 시스템 (24시간 간격, 최근 7개 보관)
+  - 설정 화면에서 자동 백업 활성화/비활성화 토글
+  - 마지막 백업 시간 표시
+- ✅ 학습 통계 대시보드
+  - 통합 통계 계산 유틸리티 (`utils/statistics.ts`)
+  - 통계 카드 컴포넌트 (`StatsCard`)
+  - 주간 활동 차트 (`WeeklyChart`)
+  - 대시보드 메인 화면 (`LearningDashboard`)
+  - 학습 화면 모달 통합
+- ✅ 온보딩 플로우
+  - 5개 슬라이드 온보딩 화면 (`OnboardingScreen`)
+  - 온보딩 완료 상태 관리 (`utils/onboarding.ts`)
+  - 앱 시작 시 온보딩 체크 (`app/_layout.tsx`)
+  - 설정에서 온보딩 재설정 기능
 
-**Phase 2: 코드 품질** ✅
-- ✅ TypeScript 오류 19개 → 0개
-- ✅ ESLint 에러 1개 → 0개
-- ✅ borderRadius.xxl 추가
-- ✅ @types/node 설치
+**커밋 이력**:
+- `b39d9c4` - feat(phase-3): implement file-based backup/restore
+- `a9ed7df` - fix(tests): add mocks for expo packages to fix Jest tests
+- `f3c83ee` - feat(phase-3): implement automatic backup system
+- `ca2b958` - feat(phase-3): implement learning statistics dashboard
+- `9b7d8dd` - feat(phase-3): implement onboarding flow
+
+**생성된 파일** (8개):
+- `utils/statistics.ts` - 통합 학습 통계 계산
+- `utils/onboarding.ts` - 온보딩 상태 관리
+- `components/dashboard/StatsCard.tsx` - 통계 카드 컴포넌트
+- `components/dashboard/WeeklyChart.tsx` - 주간 활동 차트
+- `components/dashboard/LearningDashboard.tsx` - 대시보드 메인
+- `components/onboarding/OnboardingScreen.tsx` - 온보딩 화면
+
+**수정된 파일** (7개):
+- `app/_layout.tsx` - 온보딩 체크 및 자동 백업 시작 로직
+- `app/settings.tsx` - 자동 백업 설정 UI 및 온보딩 재설정
+- `app/(tabs)/learn.tsx` - 통계 대시보드 모달 통합
+- `constants/storage.ts` - 새 스토리지 키 추가
+- `utils/backup.ts` - 파일 백업 및 자동 백업 기능 확장
+- `__tests__/setup.ts` - expo 패키지 mocks 추가
+- `jest.config.js` - transformIgnorePatterns 설정
+
+**품질 지표**:
+- TypeScript: 0 errors ✅
+- ESLint: 0 errors, 80 warnings ✅
+- Tests: 35/35 passing ✅
 
 ---
 
@@ -120,12 +158,13 @@ import { showUserFriendlyError } from '@/utils/errorHandler';
 - ✅ utils/sentry.ts 검증 완료
 - ⏳ 실제 DSN 설정은 사용자가 직접 수행 필요
 
-### 🟡 HIGH
+### ✅ Phase 3에서 해결된 HIGH 이슈
 
-#### 4. 백업 UX 원시적
-- JSON 수동 복사/붙여넣기 방식
-- 파일 저장/불러오기 없음
-- 자동 백업 없음
+#### 4. ~~백업 UX 원시적~~ → **완전히 개선됨** ✅
+- ✅ 파일 저장/불러오기 기능 추가
+- ✅ 자동 백업 시스템 구현 (24시간 간격)
+- ✅ 설정 UI에서 자동 백업 제어
+- ✅ 마지막 백업 시간 표시
 
 ### 🟢 MEDIUM/LOW
 
@@ -138,10 +177,9 @@ npm run typecheck
 - ✅ borderRadius.xxl 추가 (2개 해결)
 - ✅ tsconfig module: 'esnext' (7개 해결)
 
-#### 6. ESLint 경고 (70개 - 에러 0개)
+#### 6. ESLint 경고 (80개 - 에러 0개)
 - console.log 사용 (다수)
 - unused imports (journalStore, learnStore 등)
-- static-server.js: __dirname undefined (1 error)
 
 #### 7. ~~중복 코드~~ → **검증 완료: 중복 아님**
 - `store/journalStore.ts`: 학습 저널 (ActivityLog, LearningStreak)
@@ -168,7 +206,7 @@ npm run typecheck
 
 ---
 
-## 🎯 다음 단계
+## 🎯 완료된 단계
 
 ### Phase 1: 안정성 확보 ✅ 완료
 1. ✅ 테스트 환경 구축 (Jest + ts-jest)
@@ -188,14 +226,27 @@ npm run typecheck
 3. ⏭️ 코드 리팩토링 (Phase 3+ 연기)
 4. ⏭️ 주석 개선 (Phase 3+ 연기)
 
-**완료 보고서**: `docs/implementation/phase-2-quality/COMPLETE.md` (작성 예정)
+**완료 보고서**: `docs/implementation/phase-2-quality/COMPLETE.md`
 
-### Phase 3: UX 개선 (예상 2-3주)
-1. 백업 UX 개선 (파일 저장/불러오기, 자동 백업)
-2. 학습 통계 대시보드 (주간/월간 통계, 시각화)
-3. 온보딩 플로우 (튜토리얼, 가이드)
+### Phase 3: UX 개선 ✅ 완료
+1. ✅ 백업 UX 개선
+   - 파일 기반 백업/복원 (expo-document-picker, expo-file-system, expo-sharing)
+   - 자동 백업 시스템 (24시간 간격, 최근 7개 보관)
+   - 설정 UI 통합 (활성화/비활성화 토글, 마지막 백업 시간 표시)
+2. ✅ 학습 통계 대시보드
+   - 통합 통계 유틸리티 (`utils/statistics.ts`)
+   - 대시보드 컴포넌트 (StatsCard, WeeklyChart, LearningDashboard)
+   - 학습 화면 모달 통합
+3. ✅ 온보딩 플로우
+   - 5개 슬라이드 온보딩 화면
+   - 온보딩 상태 관리 유틸리티
+   - 앱 시작 시 온보딩 체크 로직
+   - 설정에서 재설정 기능
 
-**계획서**: `docs/implementation/MASTER_PLAN.md` (Phase 3 섹션)
+**완료 시점**: 2025-12-25
+**커밋 개수**: 5개
+**파일 변경**: 신규 8개, 수정 7개
+**테스트**: 35/35 통과 ✅
 
 ---
 
@@ -211,14 +262,85 @@ npx expo start
 ```bash
 npm run typecheck  # TypeScript
 npm run lint       # ESLint
+npm test           # Jest (35 tests)
 ```
 
 ### Git 브랜치 전략
 - `main`: 안정 버전
-- `claude/fix-mobile-touch-input-9Am35`: 현재 작업 브랜치
+- `claude/fix-mobile-touch-input-9Am35`: 현재 작업 브랜치 (Phase 1-3 완료)
 - `phase/1-stability`: Phase 1 작업 완료 (merged)
 
 ---
 
-**마지막 확인**: 2025-12-24 05:30 UTC
-**다음 업데이트**: Phase 3 시작 시
+## 🎉 Phase 3 완료 상세
+
+### 새로운 기능
+
+#### 1. 파일 기반 백업/복원
+- **위치**: `app/settings.tsx`, `utils/backup.ts`
+- **사용 패키지**: expo-document-picker, expo-file-system, expo-sharing
+- **기능**:
+  - 💾 파일로 백업 저장 (공유 화면 표시)
+  - 📂 파일에서 복원 (문서 선택기)
+  - JSON 텍스트 수동 복사/붙여넣기 (고급 사용자용)
+
+#### 2. 자동 백업 시스템
+- **위치**: `utils/backup.ts`, `app/_layout.tsx`, `app/settings.tsx`
+- **기능**:
+  - 앱 시작 시 자동으로 백업 체크 및 실행
+  - 24시간 간격으로 백업 생성
+  - 최근 7개 백업 자동 보관 (오래된 파일 자동 삭제)
+  - 설정에서 활성화/비활성화 토글
+  - 마지막 백업 시간 표시 ("3시간 전", "1일 전" 형식)
+- **저장 위치**: 캐시 디렉토리 (`Paths.cache`)
+
+#### 3. 학습 통계 대시보드
+- **위치**: `components/dashboard/`, `utils/statistics.ts`
+- **컴포넌트**:
+  - `LearningDashboard`: 메인 대시보드
+  - `StatsCard`: 개별 통계 카드
+  - `WeeklyChart`: 최근 7일 활동 바 차트
+- **통계 항목**:
+  - 🔥 현재 연속 학습일
+  - ⏱️ 총 학습 시간
+  - 📚 완료한 활동 수
+  - 📖 학습한 단어 수
+  - 📊 주간 활동 차트
+  - 🔄 SRS 복습 상태 (완료/목표)
+- **데이터 출처**: journalStore, learnStore, srsStore 통합 집계
+
+#### 4. 온보딩 플로우
+- **위치**: `components/onboarding/OnboardingScreen.tsx`, `utils/onboarding.ts`
+- **슬라이드**:
+  1. 🎯 whatTodo 소개
+  2. 📚 주차별 학습 프로그램 (A1-C2)
+  3. 🔄 간격 반복 학습 (SRS)
+  4. 📊 학습 통계 & 진도 관리
+  5. 💾 자동 백업
+- **기능**:
+  - 수평 스크롤 FlatList (pagingEnabled)
+  - 페이지네이션 도트 표시
+  - "건너뛰기" 버튼 (마지막 슬라이드 제외)
+  - "다음" / "시작하기" 버튼
+  - 완료 상태 AsyncStorage 저장
+  - 설정에서 재설정 기능
+
+### 기술적 개선사항
+
+#### API 마이그레이션
+- **expo-file-system**: Legacy API → 새 API (File, Paths 클래스)
+- **이유**: TypeScript 정의 개선 및 안정성
+
+#### 테스트 개선
+- **추가된 mocks**: expo-document-picker, expo-file-system, expo-sharing
+- **설정 파일**: `__tests__/setup.ts`, `jest.config.js`
+- **결과**: 35/35 테스트 통과 유지
+
+#### 에러 처리
+- BackupError 생성자 시그니처 통일
+- 모든 백업 함수에 try-catch 및 showUserFriendlyError 적용
+
+---
+
+**마지막 확인**: 2025-12-25 00:00 UTC
+**다음 업데이트**: Phase 4 시작 시 또는 새 기능 추가 시
