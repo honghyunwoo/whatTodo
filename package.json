@@ -1,6 +1,31 @@
 {
   "name": "whattodo",
   "version": "1.0.0",
+  "description": "Todo 중심 하루 기록 + 영어 학습 통합 앱. Day 단위로 Todo, Journal, Diary를 관리하고 학습 보상을 받으세요.",
+  "keywords": [
+    "todo",
+    "task-manager",
+    "english-learning",
+    "srs",
+    "spaced-repetition",
+    "journal",
+    "diary",
+    "productivity",
+    "react-native",
+    "expo",
+    "typescript",
+    "offline-first",
+    "korean"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/honghyunwoo/whatTodo.git"
+  },
+  "author": {
+    "name": "honghyunwoo",
+    "url": "https://github.com/honghyunwoo"
+  },
+  "license": "MIT",
   "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
