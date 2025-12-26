@@ -1,11 +1,12 @@
 import React, { memo, useCallback, useRef, useEffect } from 'react';
-import { StyleSheet, View, Pressable } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { Checkbox, Text } from 'react-native-paper';
 import { LinearGradient } from 'expo-linear-gradient';
 import { MotiView } from 'moti';
 import { Ionicons } from '@expo/vector-icons';
 import LottieView from 'lottie-react-native';
 import { useRouter } from 'expo-router';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 
 import { useTheme } from '@/contexts/ThemeContext';
 import { COLORS, withAlpha } from '@/constants/colors';
@@ -113,13 +114,13 @@ function TaskItemComponent({ task, onPress, index = 0 }: TaskItemProps) {
         onSwipeLeft={handleSwipeLeft}
         onSwipeRight={handleSwipeRight}
       >
-        <Pressable
+        <TouchableOpacity
           onPress={handlePress}
-          style={({ pressed }) => [
+          activeOpacity={0.7}
+          style={[
             styles.container,
             {
               backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF',
-              transform: [{ scale: pressed ? 0.98 : 1 }],
             },
             isDark ? {} : SHADOWS.sm,
           ]}
@@ -200,7 +201,7 @@ function TaskItemComponent({ task, onPress, index = 0 }: TaskItemProps) {
               </Text>
             </View>
           )}
-        </Pressable>
+        </TouchableOpacity>
       </SwipeableRow>
     </MotiView>
   );

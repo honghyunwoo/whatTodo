@@ -4,6 +4,7 @@
     "slug": "whattodo",
     "scheme": "whattodo",
     "version": "1.0.0",
+    "description": "Todo 중심으로 하루를 기록하고 영어 학습까지! Day 단위로 할 일, 일기, 저널을 관리하며 완료한 Todo로 별을 모아 영어 학습을 잠금 해제하세요. 완전 오프라인 지원.",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",

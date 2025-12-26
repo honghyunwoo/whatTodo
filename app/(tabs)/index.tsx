@@ -6,6 +6,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 
 import { MonthView } from '@/components/calendar';
+import { TodaySummary } from '@/components/home/TodaySummary';
+import { QuickNoteInput } from '@/components/home/QuickNoteInput';
 import { COLORS } from '@/constants/colors';
 import { SIZES, SHADOWS } from '@/constants/sizes';
 import { useTheme } from '@/contexts/ThemeContext';
@@ -28,7 +30,7 @@ export default function DiaryCalendarScreen() {
   const [selectedDate, setSelectedDate] = useState(today);
 
   const entries = useDiaryStore((state) => state.entries);
-  
+
   const markedDates = useMemo(() => entries.map((e) => e.date), [entries]);
   const selectedEntry = useMemo(
     () => entries.find((e) => e.date === selectedDate),
@@ -67,7 +69,10 @@ export default function DiaryCalendarScreen() {
   }, [stats.moodDistribution]);
 
   return (
-    <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['top']}>
+    <SafeAreaView
+      style={[styles.container, { backgroundColor: colors.background }]}
+      edges={['top']}
+    >
       <View style={[styles.header, { borderBottomColor: isDark ? '#2C2C2E' : '#E5E5E7' }]}>
         <Text style={[styles.headerTitle, { color: colors.text }]}>다이어리</Text>
         <IconButton
@@ -77,6 +82,16 @@ export default function DiaryCalendarScreen() {
       </View>
 
       <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
+        {/* Day 중심 섹션 - Phase 3 */}
+        <TodaySummary />
+        <QuickNoteInput />
+
+        {/* 구분선 */}
+        <View style={[styles.divider, { backgroundColor: isDark ? '#2C2C2E' : '#E5E5E7' }]} />
+
+        {/* 다이어리 섹션 (기존 기능) */}
+        <Text style={[styles.sectionTitle, { color: colors.text }]}>📔 나의 다이어리</Text>
+
         <View style={styles.statsRow}>
           <View style={[styles.statCard, { backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF' }]}>
             <Text style={styles.statEmoji}>🔥</Text>
@@ -129,7 +144,10 @@ export default function DiaryCalendarScreen() {
                     {selectedEntry.title}
                   </Text>
                 </View>
-                <Text style={[styles.entryPreview, { color: colors.textSecondary }]} numberOfLines={2}>
+                <Text
+                  style={[styles.entryPreview, { color: colors.textSecondary }]}
+                  numberOfLines={2}
+                >
                   {selectedEntry.content || '내용 없음'}
                 </Text>
                 {selectedEntry.tags && selectedEntry.tags.length > 0 && (
@@ -164,7 +182,9 @@ export default function DiaryCalendarScreen() {
         </View>
 
         {longestStreak > 0 && (
-          <View style={[styles.achievementCard, { backgroundColor: isDark ? '#1C1C1E' : '#FFF8E1' }]}>
+          <View
+            style={[styles.achievementCard, { backgroundColor: isDark ? '#1C1C1E' : '#FFF8E1' }]}
+          >
             <Text style={styles.achievementEmoji}>🏆</Text>
             <View style={styles.achievementInfo}>
               <Text style={[styles.achievementTitle, { color: colors.text }]}>최장 연속 기록</Text>
@@ -178,6 +198,17 @@ export default function DiaryCalendarScreen() {
 }
 
 const styles = StyleSheet.create({
+  divider: {
+    height: 1,
+    marginHorizontal: SIZES.spacing.md,
+    marginVertical: SIZES.spacing.lg,
+  },
+  sectionTitle: {
+    fontSize: SIZES.fontSize.lg,
+    fontWeight: '700',
+    marginBottom: SIZES.spacing.sm,
+    marginHorizontal: SIZES.spacing.lg,
+  },
   achievementCard: {
     alignItems: 'center',
     borderRadius: SIZES.borderRadius.lg,
