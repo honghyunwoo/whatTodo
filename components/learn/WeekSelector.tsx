@@ -9,7 +9,7 @@ import { WEEK_IDS } from '@/store/learnStore';
 interface WeekSelectorProps {
   selectedWeek: string;
   onSelectWeek: (weekId: string) => void;
-  weekProgress?: Record<string, number>; // weekId -> completion %
+  weekProgress?: Record<string, number>;
 }
 
 export function WeekSelector({ selectedWeek, onSelectWeek, weekProgress = {} }: WeekSelectorProps) {
@@ -22,27 +22,40 @@ export function WeekSelector({ selectedWeek, onSelectWeek, weekProgress = {} }: 
       return (
         <Pressable
           key={weekId}
-          style={[styles.weekItem, isSelected && styles.selectedWeekItem]}
+          style={({ pressed }) => [
+            styles.weekItem,
+            isSelected && styles.selectedWeekItem,
+            isCompleted && !isSelected && styles.completedWeekItem,
+            pressed && styles.pressed,
+          ]}
           onPress={() => onSelectWeek(weekId)}
         >
-          <Text style={[styles.weekNumber, isSelected && styles.selectedWeekNumber]}>
-            Week {index + 1}
+          <Text style={[
+            styles.weekNumber, 
+            isSelected && styles.selectedWeekNumber,
+            isCompleted && !isSelected && styles.completedWeekNumber,
+          ]}>
+            {index + 1}주차
           </Text>
+          
           {isCompleted ? (
-            <Text style={styles.completedIndicator}>완료</Text>
-          ) : progress > 0 ? (
-            <View style={styles.progressDots}>
-              {[...Array(6)].map((_, i) => (
-                <View
-                  key={i}
-                  style={[
-                    styles.dot,
-                    i < Math.round((progress / 100) * 6) && styles.filledDot,
-                  ]}
-                />
-              ))}
+            <View style={[styles.statusIcon, isSelected && styles.selectedStatusIcon]}>
+              <Text style={styles.checkIcon}>✓</Text>
             </View>
-          ) : null}
+          ) : progress > 0 ? (
+            <View style={styles.progressContainer}>
+              <View style={styles.progressBarBg}>
+                <View style={[styles.progressBar, { width: `${progress}%` }]} />
+              </View>
+              <Text style={[styles.progressText, isSelected && styles.selectedProgressText]}>
+                {progress}%
+              </Text>
+            </View>
+          ) : (
+            <Text style={[styles.notStarted, isSelected && styles.selectedNotStarted]}>
+              시작 전
+            </Text>
+          )}
         </Pressable>
       );
     },
@@ -50,44 +63,70 @@ export function WeekSelector({ selectedWeek, onSelectWeek, weekProgress = {} }: 
   );
 
   return (
-    <View style={styles.container}>
-      <ScrollView
-        horizontal
-        showsHorizontalScrollIndicator={false}
-        contentContainerStyle={styles.scrollContent}
-      >
-        {WEEK_IDS.map(renderWeekItem)}
-      </ScrollView>
-    </View>
+    <ScrollView
+      horizontal
+      showsHorizontalScrollIndicator={false}
+      contentContainerStyle={styles.scrollContent}
+    >
+      {WEEK_IDS.map(renderWeekItem)}
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  completedIndicator: {
+  checkIcon: {
+    color: COLORS.surface,
+    fontSize: 12,
+    fontWeight: '700',
+  },
+  completedWeekItem: {
+    backgroundColor: COLORS.success + '15',
+    borderColor: COLORS.success,
+  },
+  completedWeekNumber: {
     color: COLORS.success,
+  },
+  notStarted: {
+    color: COLORS.textSecondary,
     fontSize: SIZES.fontSize.xs,
     marginTop: SIZES.spacing.xs,
   },
-  container: {
-    backgroundColor: COLORS.surface,
-    paddingVertical: SIZES.spacing.sm,
+  pressed: {
+    opacity: 0.8,
+    transform: [{ scale: 0.98 }],
   },
-  dot: {
-    backgroundColor: COLORS.border,
-    borderRadius: 3,
-    height: 6,
-    marginHorizontal: 1,
-    width: 6,
-  },
-  filledDot: {
+  progressBar: {
     backgroundColor: COLORS.primary,
+    borderRadius: 2,
+    height: '100%',
   },
-  progressDots: {
-    flexDirection: 'row',
+  progressBarBg: {
+    backgroundColor: COLORS.border,
+    borderRadius: 2,
+    height: 4,
+    marginBottom: 2,
+    overflow: 'hidden',
+    width: 50,
+  },
+  progressContainer: {
+    alignItems: 'center',
     marginTop: SIZES.spacing.xs,
   },
+  progressText: {
+    color: COLORS.textSecondary,
+    fontSize: 10,
+  },
   scrollContent: {
-    paddingHorizontal: SIZES.spacing.md,
+    paddingVertical: SIZES.spacing.sm,
+  },
+  selectedNotStarted: {
+    color: COLORS.surface + 'CC',
+  },
+  selectedProgressText: {
+    color: COLORS.surface + 'CC',
+  },
+  selectedStatusIcon: {
+    backgroundColor: COLORS.surface,
   },
   selectedWeekItem: {
     backgroundColor: COLORS.primary,
@@ -96,14 +135,23 @@ const styles = StyleSheet.create({
   selectedWeekNumber: {
     color: COLORS.surface,
   },
+  statusIcon: {
+    alignItems: 'center',
+    backgroundColor: COLORS.success,
+    borderRadius: SIZES.borderRadius.full,
+    height: 20,
+    justifyContent: 'center',
+    marginTop: SIZES.spacing.xs,
+    width: 20,
+  },
   weekItem: {
     alignItems: 'center',
-    backgroundColor: COLORS.background,
+    backgroundColor: COLORS.surface,
     borderColor: COLORS.border,
-    borderRadius: SIZES.borderRadius.md,
-    borderWidth: 1,
+    borderRadius: SIZES.borderRadius.lg,
+    borderWidth: 1.5,
     marginRight: SIZES.spacing.sm,
-    minWidth: 80,
+    minWidth: 72,
     paddingHorizontal: SIZES.spacing.md,
     paddingVertical: SIZES.spacing.sm,
   },

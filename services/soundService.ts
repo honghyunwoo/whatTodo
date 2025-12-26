@@ -116,28 +116,13 @@ export async function unloadAllSounds(): Promise<void> {
 // Using try-catch pattern for optional sound files
 // ==========================================
 
-// Helper to safely require sound files
-function getSoundSource(filename: string): AVPlaybackSource | null {
-  try {
-    // Sound files are optional - graceful degradation if not present
-    switch (filename) {
-      case 'correct':
-        return require('@/assets/sounds/correct.mp3');
-      case 'wrong':
-        return require('@/assets/sounds/wrong.mp3');
-      case 'level-up':
-        return require('@/assets/sounds/level-up.mp3');
-      case 'achievement':
-        return require('@/assets/sounds/achievement.mp3');
-      case 'card-flip':
-        return require('@/assets/sounds/card-flip.mp3');
-      default:
-        return null;
-    }
-  } catch {
-    // Sound file doesn't exist - this is expected during development
-    return null;
-  }
+// Sound files are currently not included in the project
+// This function returns null to allow builds to succeed
+// To enable sounds, add mp3 files to assets/sounds/ and update this function
+function getSoundSource(_filename: string): AVPlaybackSource | null {
+  // Sound files not available - graceful degradation
+  // No require() calls to avoid webpack build errors
+  return null;
 }
 
 // ==========================================

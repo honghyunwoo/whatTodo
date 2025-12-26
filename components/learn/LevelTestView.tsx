@@ -196,13 +196,13 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
             </View>
             <View style={styles.infoCard}>
               <MaterialCommunityIcons name="target" size={24} color={COLORS.textSecondary} />
-              <Text style={styles.infoText}>A1~B2 레벨</Text>
+              <Text style={styles.infoText}>A1~C2 레벨</Text>
             </View>
           </View>
 
           <View style={styles.levelPreview}>
             <Text style={styles.levelPreviewTitle}>레벨 안내</Text>
-            {(['A1', 'A2', 'B1', 'B2'] as CEFRLevel[]).map((level) => {
+            {(['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as CEFRLevel[]).map((level) => {
               const info = getLevelInfo(level);
               return (
                 <View key={level} style={styles.levelRow}>

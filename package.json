@@ -36,6 +36,7 @@
     "expo-router": "~3.5.24",
     "expo-speech": "~12.0.2",
     "expo-status-bar": "~1.12.1",
+    "http-proxy": "^1.18.1",
     "lottie-react-native": "6.7.0",
     "moti": "^0.30.0",
     "nanoid": "^3.3.11",

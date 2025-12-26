@@ -1,6 +1,6 @@
 /**
  * Learn Screen
- * 학습 화면
+ * 학습 화면 - 개선된 UI
  */
 
 import { router } from 'expo-router';
@@ -32,19 +32,15 @@ export default function LearnScreen() {
   const progress = useLearnStore((state) => state.progress);
   const storeWeekProgress = useLearnStore((state) => state.weekProgress);
   const currentLevel = useLearnStore((state) => state.currentLevel);
+  const streak = useLearnStore((state) => state.streak);
 
-  // SRS 복습 대기 수
   const getWordsForReview = useSrsStore((state) => state.getWordsForReview);
   const dueCount = useMemo(() => getWordsForReview().length, [getWordsForReview]);
 
-  // 모달 상태
   const [showStats, setShowStats] = useState(false);
   const [showBadges, setShowBadges] = useState(false);
-
-  // 레벨 데이터 로딩 상태
   const [isLoading, setIsLoading] = useState(!isLevelLoaded(currentLevel));
 
-  // 레벨 변경 시 데이터 프리로드
   useEffect(() => {
     if (!isLevelLoaded(currentLevel)) {
       setIsLoading(true);
@@ -56,13 +52,11 @@ export default function LearnScreen() {
     }
   }, [currentLevel]);
 
-  // 현재 주차의 활동 로드
   const weekActivities = useMemo(() => {
     if (isLoading) return [];
     return loadWeekActivities(currentLevel, currentWeek);
   }, [currentLevel, currentWeek, isLoading]);
 
-  // 주차별 진행률 계산 (store 함수 대신 직접 계산하여 무한 루프 방지)
   const weekProgress = useMemo(() => {
     const progressMap: Record<string, number> = {};
     for (let i = 1; i <= 8; i++) {
@@ -73,7 +67,6 @@ export default function LearnScreen() {
     return progressMap;
   }, [storeWeekProgress]);
 
-  // 활동별 진행 상태 확인
   const getActivityProgress = useCallback(
     (type: ActivityType) => {
       const activity = weekActivities.find((a) => a.type === type);
@@ -109,64 +102,76 @@ export default function LearnScreen() {
   }, []);
 
   const currentProgress = weekProgress[currentWeek] || 0;
+  const completedToday = ACTIVITY_TYPES.filter((type) => getActivityProgress(type).completed).length;
 
   return (
     <View style={styles.container}>
-      <View style={styles.header}>
-        <View style={styles.headerTop}>
-          <View>
-            <Text style={styles.title}>영어 학습</Text>
-            <Text style={styles.subtitle}>8주 영어 마스터 코스</Text>
-          </View>
-          <View style={styles.headerActions}>
-            <IconButton
-              icon="chart-bar"
-              iconColor={COLORS.text}
-              size={24}
-              onPress={() => setShowStats(true)}
-              style={styles.headerButton}
-            />
-            <IconButton
-              icon="medal"
-              iconColor={COLORS.text}
-              size={24}
-              onPress={() => setShowBadges(true)}
-              style={styles.headerButton}
-            />
+      <ScrollView style={styles.scrollView} contentContainerStyle={styles.scrollContent}>
+        <View style={styles.heroSection}>
+          <View style={styles.heroContent}>
+            <View style={styles.greetingRow}>
+              <View>
+                <Text style={styles.greeting}>오늘도 영어와 함께!</Text>
+                <Text style={styles.levelBadge}>{currentLevel.toUpperCase()} 레벨</Text>
+              </View>
+              <View style={styles.headerActions}>
+                <IconButton
+                  icon="chart-bar"
+                  iconColor={COLORS.text}
+                  size={22}
+                  onPress={() => setShowStats(true)}
+                  style={styles.headerButton}
+                />
+                <IconButton
+                  icon="medal"
+                  iconColor={COLORS.text}
+                  size={22}
+                  onPress={() => setShowBadges(true)}
+                  style={styles.headerButton}
+                />
+              </View>
+            </View>
+
+            <View style={styles.statsRow}>
+              <View style={styles.statCard}>
+                <Text style={styles.streakEmoji}>🔥</Text>
+                <Text style={styles.statValue}>{streak}</Text>
+                <Text style={styles.statLabel}>연속 학습</Text>
+              </View>
+              <View style={styles.statCard}>
+                <Text style={styles.streakEmoji}>📚</Text>
+                <Text style={styles.statValue}>{completedToday}/6</Text>
+                <Text style={styles.statLabel}>오늘 완료</Text>
+              </View>
+              <View style={styles.statCard}>
+                <Text style={styles.streakEmoji}>📈</Text>
+                <Text style={styles.statValue}>{currentProgress}%</Text>
+                <Text style={styles.statLabel}>주간 진행</Text>
+              </View>
+            </View>
           </View>
         </View>
 
-        {/* Quick Actions */}
-        <View style={styles.quickActions}>
-          <TouchableOpacity style={styles.actionButton} onPress={handleLevelTest}>
-            <IconButton
-              icon="clipboard-check-outline"
-              iconColor={COLORS.surface}
-              size={20}
-              style={styles.actionIcon}
-            />
-            <View style={styles.actionTextContainer}>
-              <Text style={styles.actionTitle}>레벨 테스트</Text>
-              <Text style={styles.actionSubtitle}>
-                {currentLevel ? `현재: ${currentLevel.toUpperCase()}` : '레벨 확인하기'}
-              </Text>
+        <View style={styles.quickActionsSection}>
+          <TouchableOpacity style={styles.actionCard} onPress={handleLevelTest}>
+            <View style={[styles.actionIconBg, { backgroundColor: COLORS.activity.vocabulary.light }]}>
+              <Text style={styles.actionEmoji}>📋</Text>
             </View>
+            <View style={styles.actionInfo}>
+              <Text style={styles.actionTitle}>레벨 테스트</Text>
+              <Text style={styles.actionSubtitle}>나의 실력 확인하기</Text>
+            </View>
+            <Text style={styles.actionArrow}>›</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity
-            style={[styles.actionButton, styles.reviewButton]}
-            onPress={handleReview}
-          >
-            <IconButton
-              icon="cards-outline"
-              iconColor={COLORS.surface}
-              size={20}
-              style={styles.actionIcon}
-            />
-            <View style={styles.actionTextContainer}>
+          <TouchableOpacity style={styles.actionCard} onPress={handleReview}>
+            <View style={[styles.actionIconBg, { backgroundColor: COLORS.activity.grammar.light }]}>
+              <Text style={styles.actionEmoji}>🔄</Text>
+            </View>
+            <View style={styles.actionInfo}>
               <Text style={styles.actionTitle}>복습하기</Text>
               <Text style={styles.actionSubtitle}>
-                {dueCount > 0 ? `${dueCount}개 복습 대기` : '복습 완료!'}
+                {dueCount > 0 ? `${dueCount}개 복습 대기 중` : '모두 복습 완료!'}
               </Text>
             </View>
             {dueCount > 0 && (
@@ -174,53 +179,58 @@ export default function LearnScreen() {
                 <Text style={styles.badgeText}>{dueCount > 99 ? '99+' : dueCount}</Text>
               </View>
             )}
+            <Text style={styles.actionArrow}>›</Text>
           </TouchableOpacity>
         </View>
-      </View>
 
-      <WeekSelector
-        selectedWeek={currentWeek}
-        onSelectWeek={setCurrentWeek}
-        weekProgress={weekProgress}
-      />
-
-      <ScrollView style={styles.content} contentContainerStyle={styles.contentContainer}>
-        <View style={styles.progressSection}>
-          <Text style={styles.progressLabel}>{currentWeek.replace('week-', '')}주차 진행률</Text>
-          <View style={styles.progressBarContainer}>
-            <View style={[styles.progressBar, { width: `${currentProgress}%` }]} />
-          </View>
-          <Text style={styles.progressText}>{currentProgress}% 완료</Text>
+        <View style={styles.weekSelectorContainer}>
+          <Text style={styles.sectionTitle}>학습 주차 선택</Text>
+          <WeekSelector
+            selectedWeek={currentWeek}
+            onSelectWeek={setCurrentWeek}
+            weekProgress={weekProgress}
+          />
         </View>
 
-        {isLoading ? (
-          <View style={styles.loadingContainer}>
-            <ActivityIndicator size="large" color={COLORS.primary} />
-            <Text style={styles.loadingText}>학습 콘텐츠 로딩 중...</Text>
+        <View style={styles.activitiesSection}>
+          <View style={styles.sectionHeader}>
+            <Text style={styles.sectionTitle}>
+              {currentWeek.replace('week-', '')}주차 학습
+            </Text>
+            <View style={styles.progressPill}>
+              <View style={[styles.progressPillFill, { width: `${currentProgress}%` }]} />
+              <Text style={styles.progressPillText}>{currentProgress}%</Text>
+            </View>
           </View>
-        ) : (
-          <View style={styles.activitiesGrid}>
-            {ACTIVITY_TYPES.map((type) => {
-              const activity = weekActivities.find((a) => a.type === type);
-              const { completed } = getActivityProgress(type);
 
-              if (!activity) return null;
+          {isLoading ? (
+            <View style={styles.loadingContainer}>
+              <ActivityIndicator size="large" color={COLORS.primary} />
+              <Text style={styles.loadingText}>학습 콘텐츠 로딩 중...</Text>
+            </View>
+          ) : (
+            <View style={styles.activitiesGrid}>
+              {ACTIVITY_TYPES.map((type) => {
+                const activity = weekActivities.find((a) => a.type === type);
+                const { completed } = getActivityProgress(type);
 
-              return (
-                <ActivityCard
-                  key={type}
-                  type={type}
-                  progress={completed ? 100 : 0}
-                  completed={completed}
-                  onPress={() => handleActivityPress(type)}
-                />
-              );
-            })}
-          </View>
-        )}
+                if (!activity) return null;
+
+                return (
+                  <ActivityCard
+                    key={type}
+                    type={type}
+                    progress={completed ? 100 : 0}
+                    completed={completed}
+                    onPress={() => handleActivityPress(type)}
+                  />
+                );
+              })}
+            </View>
+          )}
+        </View>
       </ScrollView>
 
-      {/* Stats Modal */}
       <Portal>
         <Modal
           visible={showStats}
@@ -231,7 +241,6 @@ export default function LearnScreen() {
         </Modal>
       </Portal>
 
-      {/* Badges Modal */}
       <Portal>
         <Modal
           visible={showBadges}
@@ -246,28 +255,46 @@ export default function LearnScreen() {
 }
 
 const styles = StyleSheet.create({
-  actionButton: {
-    alignItems: 'center',
-    backgroundColor: COLORS.primary,
-    borderRadius: SIZES.borderRadius.lg,
-    flex: 1,
-    flexDirection: 'row',
-    paddingHorizontal: SIZES.spacing.sm,
-    paddingVertical: SIZES.spacing.sm,
+  actionArrow: {
+    color: COLORS.textSecondary,
+    fontSize: 24,
+    fontWeight: '300',
   },
-  actionIcon: {
-    margin: 0,
+  actionCard: {
+    alignItems: 'center',
+    backgroundColor: COLORS.surface,
+    borderRadius: SIZES.borderRadius.xl,
+    elevation: 2,
+    flexDirection: 'row',
+    marginBottom: SIZES.spacing.sm,
+    padding: SIZES.spacing.md,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.06,
+    shadowRadius: 8,
+  },
+  actionEmoji: {
+    fontSize: 22,
+  },
+  actionIconBg: {
+    alignItems: 'center',
+    borderRadius: SIZES.borderRadius.lg,
+    height: 48,
+    justifyContent: 'center',
+    marginRight: SIZES.spacing.md,
+    width: 48,
+  },
+  actionInfo: {
+    flex: 1,
   },
   actionSubtitle: {
-    color: 'rgba(255, 255, 255, 0.8)',
-    fontSize: SIZES.fontSize.xs,
-  },
-  actionTextContainer: {
-    flex: 1,
+    color: COLORS.textSecondary,
+    fontSize: SIZES.fontSize.sm,
+    marginTop: 2,
   },
   actionTitle: {
-    color: COLORS.surface,
-    fontSize: SIZES.fontSize.sm,
+    color: COLORS.text,
+    fontSize: SIZES.fontSize.md,
     fontWeight: '600',
   },
   activitiesGrid: {
@@ -276,21 +303,16 @@ const styles = StyleSheet.create({
     gap: SIZES.spacing.md,
     justifyContent: 'space-between',
   },
-  loadingContainer: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingVertical: SIZES.spacing.xxl,
-  },
-  loadingText: {
-    color: COLORS.textSecondary,
-    fontSize: SIZES.fontSize.md,
-    marginTop: SIZES.spacing.md,
+  activitiesSection: {
+    paddingHorizontal: SIZES.spacing.md,
+    paddingTop: SIZES.spacing.lg,
   },
   badge: {
     alignItems: 'center',
     backgroundColor: COLORS.error,
     borderRadius: SIZES.borderRadius.full,
     justifyContent: 'center',
+    marginRight: SIZES.spacing.sm,
     minWidth: 24,
     paddingHorizontal: SIZES.spacing.xs,
     paddingVertical: 2,
@@ -304,18 +326,16 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.background,
     flex: 1,
   },
-  content: {
-    flex: 1,
+  greeting: {
+    color: COLORS.text,
+    fontSize: SIZES.fontSize.xl,
+    fontWeight: '700',
   },
-  contentContainer: {
-    padding: SIZES.spacing.md,
-    paddingBottom: SIZES.spacing.xl,
-  },
-  header: {
-    backgroundColor: COLORS.surface,
-    paddingBottom: SIZES.spacing.md,
-    paddingHorizontal: SIZES.spacing.md,
-    paddingTop: SIZES.spacing.md,
+  greetingRow: {
+    alignItems: 'flex-start',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: SIZES.spacing.lg,
   },
   headerActions: {
     flexDirection: 'row',
@@ -323,61 +343,106 @@ const styles = StyleSheet.create({
   headerButton: {
     margin: 0,
   },
-  headerTop: {
-    alignItems: 'flex-start',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+  heroContent: {
+    paddingHorizontal: SIZES.spacing.md,
+    paddingVertical: SIZES.spacing.lg,
+  },
+  heroSection: {
+    backgroundColor: COLORS.surface,
+    borderBottomLeftRadius: SIZES.borderRadius.xxl,
+    borderBottomRightRadius: SIZES.borderRadius.xxl,
+    marginBottom: SIZES.spacing.md,
+  },
+  levelBadge: {
+    color: COLORS.primary,
+    fontSize: SIZES.fontSize.md,
+    fontWeight: '600',
+    marginTop: SIZES.spacing.xs,
+  },
+  loadingContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: SIZES.spacing.xxl,
+  },
+  loadingText: {
+    color: COLORS.textSecondary,
+    fontSize: SIZES.fontSize.md,
+    marginTop: SIZES.spacing.md,
   },
   modalContainer: {
     backgroundColor: COLORS.background,
     flex: 1,
     margin: 0,
   },
-  progressBar: {
-    backgroundColor: COLORS.primary,
-    borderRadius: SIZES.borderRadius.full,
-    height: '100%',
-  },
-  progressBarContainer: {
+  progressPill: {
     backgroundColor: COLORS.border,
     borderRadius: SIZES.borderRadius.full,
-    height: 8,
-    marginVertical: SIZES.spacing.sm,
+    height: 24,
+    justifyContent: 'center',
     overflow: 'hidden',
-    width: '100%',
+    width: 80,
   },
-  progressLabel: {
+  progressPillFill: {
+    backgroundColor: COLORS.success,
+    borderRadius: SIZES.borderRadius.full,
+    height: '100%',
+    left: 0,
+    position: 'absolute',
+    top: 0,
+  },
+  progressPillText: {
     color: COLORS.text,
-    fontSize: SIZES.fontSize.md,
+    fontSize: SIZES.fontSize.xs,
     fontWeight: '600',
+    textAlign: 'center',
   },
-  progressSection: {
-    backgroundColor: COLORS.surface,
-    borderRadius: SIZES.borderRadius.lg,
-    marginBottom: SIZES.spacing.lg,
-    padding: SIZES.spacing.md,
+  quickActionsSection: {
+    paddingHorizontal: SIZES.spacing.md,
   },
-  progressText: {
-    color: COLORS.primary,
-    fontSize: SIZES.fontSize.sm,
-    fontWeight: '600',
+  scrollContent: {
+    paddingBottom: SIZES.spacing.xxl,
   },
-  quickActions: {
+  scrollView: {
+    flex: 1,
+  },
+  sectionHeader: {
+    alignItems: 'center',
     flexDirection: 'row',
-    gap: SIZES.spacing.sm,
-    marginTop: SIZES.spacing.md,
+    justifyContent: 'space-between',
+    marginBottom: SIZES.spacing.md,
   },
-  reviewButton: {
-    backgroundColor: COLORS.secondary,
-  },
-  subtitle: {
-    color: COLORS.textSecondary,
-    fontSize: SIZES.fontSize.md,
-    marginTop: SIZES.spacing.xs,
-  },
-  title: {
+  sectionTitle: {
     color: COLORS.text,
-    fontSize: SIZES.fontSize.xxl,
+    fontSize: SIZES.fontSize.lg,
     fontWeight: '700',
+  },
+  statCard: {
+    alignItems: 'center',
+    backgroundColor: COLORS.background,
+    borderRadius: SIZES.borderRadius.lg,
+    flex: 1,
+    marginHorizontal: SIZES.spacing.xs,
+    paddingVertical: SIZES.spacing.md,
+  },
+  statLabel: {
+    color: COLORS.textSecondary,
+    fontSize: SIZES.fontSize.xs,
+  },
+  statValue: {
+    color: COLORS.text,
+    fontSize: SIZES.fontSize.lg,
+    fontWeight: '700',
+  },
+  statsRow: {
+    flexDirection: 'row',
+    marginHorizontal: -SIZES.spacing.xs,
+  },
+  streakEmoji: {
+    fontSize: 20,
+    marginBottom: SIZES.spacing.xs,
+  },
+  weekSelectorContainer: {
+    paddingHorizontal: SIZES.spacing.md,
+    paddingTop: SIZES.spacing.lg,
   },
 });

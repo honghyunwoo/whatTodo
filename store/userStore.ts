@@ -11,7 +11,17 @@ import { createJSONStorage, persist } from 'zustand/middleware';
 
 import { STORAGE_KEYS } from '@/constants/storage';
 import { ActivityType } from '@/types/activity';
-import { notificationService, ReminderSettings } from '@/services/notificationService';
+
+export interface ReminderSettings {
+  enabled: boolean;
+  hour: number;
+  minute: number;
+}
+
+const getNotificationService = async () => {
+  const mod = await import('@/services/notificationService');
+  return mod.notificationService;
+};
 
 // ─────────────────────────────────────
 // Types
@@ -167,11 +177,12 @@ export const useUserStore = create<UserState & UserActions>()(
        */
       setReminderSettings: async (settings: ReminderSettings) => {
         set({ reminderSettings: settings });
-        // 알림 스케줄링
+        // 알림 스케줄링 (lazy load)
+        const service = await getNotificationService();
         if (settings.enabled) {
-          await notificationService.scheduleDailyReminder(settings);
+          await service.scheduleDailyReminder(settings);
         } else {
-          await notificationService.cancelDailyReminder();
+          await service.cancelDailyReminder();
         }
       },
 
@@ -179,11 +190,12 @@ export const useUserStore = create<UserState & UserActions>()(
        * 알림 초기화 (앱 시작 시 호출)
        */
       initializeNotifications: async () => {
-        const hasPermission = await notificationService.initialize();
+        const service = await getNotificationService();
+        const hasPermission = await service.initialize();
         if (hasPermission) {
           const { reminderSettings } = get();
           if (reminderSettings.enabled) {
-            await notificationService.scheduleDailyReminder(reminderSettings);
+            await service.scheduleDailyReminder(reminderSettings);
           }
         }
         return hasPermission;

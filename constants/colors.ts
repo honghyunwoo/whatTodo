@@ -20,6 +20,24 @@ export const COLORS = {
     urgent: '#FF2D55',
   },
 
+  // Activity colors - 활동별 고유 색상
+  activity: {
+    vocabulary: { main: '#FF6B6B', light: '#FFE8E8', gradient: ['#FF6B6B', '#FF8E8E'] },
+    grammar: { main: '#4ECDC4', light: '#E0F7F5', gradient: ['#4ECDC4', '#7EDBD4'] },
+    listening: { main: '#45B7D1', light: '#E0F4F9', gradient: ['#45B7D1', '#72C9DD'] },
+    reading: { main: '#96CEB4', light: '#E8F5EE', gradient: ['#96CEB4', '#B3DBC9'] },
+    speaking: { main: '#DDA0DD', light: '#F5E8F5', gradient: ['#DDA0DD', '#E6BCE6'] },
+    writing: { main: '#F7DC6F', light: '#FDF8E4', gradient: ['#F7DC6F', '#F9E68F'] },
+  },
+
+  // Streak and motivation colors
+  streak: {
+    fire: '#FF6B35',
+    gold: '#FFD700',
+    silver: '#C0C0C0',
+    bronze: '#CD7F32',
+  },
+
   // Dark mode
   dark: {
     background: '#000000',

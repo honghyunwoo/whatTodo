@@ -1,5 +1,4 @@
 const createExpoWebpackConfigAsync = require('@expo/webpack-config');
-const webpack = require('webpack');
 const path = require('path');
 
 module.exports = async function (env, argv) {
@@ -11,7 +10,7 @@ module.exports = async function (env, argv) {
     crypto: false,
   };
 
-  // app 디렉토리 및 nanoid alias 추가
+  // app 디렉토리 및 웹 호환성 alias 추가
   config.resolve.alias = {
     ...config.resolve.alias,
     '@': path.resolve(__dirname),
@@ -25,6 +24,24 @@ module.exports = async function (env, argv) {
     include: /node_modules/,
     type: 'javascript/auto',
   });
+
+  // Configure dev server for Replit environment - use port 5000 for web
+  config.devServer = {
+    ...config.devServer,
+    host: '0.0.0.0',
+    port: 5000,
+    allowedHosts: 'all',
+    client: {
+      webSocketURL: {
+        hostname: '0.0.0.0',
+        port: 0,
+        pathname: '/ws',
+      },
+    },
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    },
+  };
 
   return config;
 };

@@ -1,0 +1,52 @@
+modules = ["nodejs-20"]
+[agent]
+expertMode = true
+
+[nix]
+channel = "stable-25_05"
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Expo Web"
+
+[[workflows.workflow]]
+name = "Expo Web"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "bash start-web.sh"
+waitForPort = 5000
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[[ports]]
+localPort = 8081
+externalPort = 8081
+
+[[ports]]
+localPort = 19006
+externalPort = 3000
+
+[userenv]
+
+[userenv.development]
+EXPO_ROUTER_APP_ROOT = "./app"
+
+[deployment]
+deploymentTarget = "static"
+build = ["npx", "expo", "export:web"]
+publicDir = "web-build"
