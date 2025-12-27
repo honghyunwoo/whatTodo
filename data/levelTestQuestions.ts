@@ -298,7 +298,8 @@ const A2_QUESTIONS: TestQuestion[] = [
     type: 'listening',
     level: 'A2',
     difficulty: 5,
-    question: 'Listen: "I usually wake up at 7 and go to work at 8." What time does the speaker go to work?',
+    question:
+      'Listen: "I usually wake up at 7 and go to work at 8." What time does the speaker go to work?',
     options: ['7 AM', '8 AM', '9 AM', '10 AM'],
     correctAnswer: 1,
   },
@@ -417,8 +418,14 @@ const B1_QUESTIONS: TestQuestion[] = [
     type: 'reading',
     level: 'B1',
     difficulty: 6,
-    question: 'What is the main idea of a text that discusses "the benefits and drawbacks of remote work"?',
-    options: ['History of offices', 'Pros and cons of working from home', 'How to find a job', 'Office furniture'],
+    question:
+      'What is the main idea of a text that discusses "the benefits and drawbacks of remote work"?',
+    options: [
+      'History of offices',
+      'Pros and cons of working from home',
+      'How to find a job',
+      'Office furniture',
+    ],
     correctAnswer: 1,
     context: 'The passage discusses both advantages and disadvantages of remote work.',
   },
@@ -427,7 +434,8 @@ const B1_QUESTIONS: TestQuestion[] = [
     type: 'reading',
     level: 'B1',
     difficulty: 7,
-    question: 'If an article mentions "growing concern about climate change," the author is likely:',
+    question:
+      'If an article mentions "growing concern about climate change," the author is likely:',
     options: ['Happy', 'Worried', 'Indifferent', 'Confused'],
     correctAnswer: 1,
   },
@@ -437,7 +445,8 @@ const B1_QUESTIONS: TestQuestion[] = [
     type: 'listening',
     level: 'B1',
     difficulty: 6,
-    question: 'In a conversation where someone says "I\'m not so sure about that," they are expressing:',
+    question:
+      'In a conversation where someone says "I\'m not so sure about that," they are expressing:',
     options: ['Strong agreement', 'Doubt', 'Excitement', 'Anger'],
     correctAnswer: 1,
   },
@@ -474,7 +483,12 @@ const B2_QUESTIONS: TestQuestion[] = [
     level: 'B2',
     difficulty: 8,
     question: 'What is an "implication"?',
-    options: ['A direct statement', 'Something suggested but not stated', 'A question', 'A command'],
+    options: [
+      'A direct statement',
+      'Something suggested but not stated',
+      'A question',
+      'A command',
+    ],
     correctAnswer: 1,
     explanation: 'Implication은 함축, 암시를 의미합니다.',
   },
@@ -566,7 +580,12 @@ const B2_QUESTIONS: TestQuestion[] = [
     level: 'B2',
     difficulty: 8,
     question: 'When a text says "The data suggests a correlation," it means:',
-    options: ['There is definite proof', 'There might be a connection', 'There is no relationship', 'The data is wrong'],
+    options: [
+      'There is definite proof',
+      'There might be a connection',
+      'There is no relationship',
+      'The data is wrong',
+    ],
     correctAnswer: 1,
   },
   {
@@ -575,7 +594,12 @@ const B2_QUESTIONS: TestQuestion[] = [
     level: 'B2',
     difficulty: 9,
     question: 'An author using "allegedly" is indicating that:',
-    options: ['The information is confirmed', 'The information is unverified', 'They strongly believe it', 'They witnessed it'],
+    options: [
+      'The information is confirmed',
+      'The information is unverified',
+      'They strongly believe it',
+      'They witnessed it',
+    ],
     correctAnswer: 1,
   },
   // Listening
@@ -585,7 +609,12 @@ const B2_QUESTIONS: TestQuestion[] = [
     level: 'B2',
     difficulty: 8,
     question: 'When a speaker says "That being said," they are about to:',
-    options: ['End the conversation', 'Present a contrasting point', 'Ask a question', 'Agree completely'],
+    options: [
+      'End the conversation',
+      'Present a contrasting point',
+      'Ask a question',
+      'Agree completely',
+    ],
     correctAnswer: 1,
   },
   {
@@ -594,7 +623,316 @@ const B2_QUESTIONS: TestQuestion[] = [
     level: 'B2',
     difficulty: 9,
     question: '"To play devil\'s advocate" means to:',
-    options: ['Support evil', 'Argue the opposing side for discussion', 'Be dishonest', 'Avoid the topic'],
+    options: [
+      'Support evil',
+      'Argue the opposing side for discussion',
+      'Be dishonest',
+      'Avoid the topic',
+    ],
+    correctAnswer: 1,
+  },
+];
+
+// ─────────────────────────────────────
+// C1 Level Questions (Advanced)
+// ─────────────────────────────────────
+
+const C1_QUESTIONS: TestQuestion[] = [
+  // Vocabulary - Advanced idioms and nuanced meanings
+  {
+    id: 'c1-v1',
+    type: 'vocabulary',
+    level: 'C1',
+    difficulty: 9,
+    question: '"To turn a blind eye" means to:',
+    options: ['lose vision', 'pretend not to notice', 'look carefully', 'be surprised'],
+    correctAnswer: 1,
+    explanation: '눈감아주다, 못 본 척하다 라는 관용표현입니다.',
+  },
+  {
+    id: 'c1-v2',
+    type: 'vocabulary',
+    level: 'C1',
+    difficulty: 10,
+    question: '"Ubiquitous" is closest in meaning to:',
+    options: ['rare', 'everywhere present', 'ancient', 'temporary'],
+    correctAnswer: 1,
+    explanation: 'Ubiquitous는 어디에나 있는, 편재하는 이라는 뜻입니다.',
+  },
+  {
+    id: 'c1-v3',
+    type: 'vocabulary',
+    level: 'C1',
+    difficulty: 10,
+    question: '"Precarious" describes a situation that is:',
+    options: ['stable', 'uncertain and risky', 'profitable', 'boring'],
+    correctAnswer: 1,
+    explanation: 'Precarious는 불안정한, 위태로운 이라는 뜻입니다.',
+  },
+  // Grammar - Complex structures
+  {
+    id: 'c1-g1',
+    type: 'grammar',
+    level: 'C1',
+    difficulty: 9,
+    question: 'Scarcely had he arrived ___ the meeting began.',
+    options: ['than', 'when', 'that', 'as'],
+    correctAnswer: 1,
+    explanation: 'Scarcely...when 구문은 ~하자마자 를 의미합니다.',
+  },
+  {
+    id: 'c1-g2',
+    type: 'grammar',
+    level: 'C1',
+    difficulty: 10,
+    question: '___ it not for your help, I would have failed.',
+    options: ['Were', 'Had', 'Should', 'If'],
+    correctAnswer: 0,
+    explanation: '가정법에서 Were it not for는 If it were not for와 같습니다.',
+  },
+  {
+    id: 'c1-g3',
+    type: 'grammar',
+    level: 'C1',
+    difficulty: 10,
+    question: 'Under no circumstances ___ this information.',
+    options: ['you should reveal', 'should you reveal', 'you reveal', 'reveal you'],
+    correctAnswer: 1,
+    explanation: '부정 부사구가 문두에 오면 도치가 일어납니다.',
+  },
+  // Reading - Inference and academic texts
+  {
+    id: 'c1-r1',
+    type: 'reading',
+    level: 'C1',
+    difficulty: 9,
+    question:
+      'When an author describes a character\'s "cavalier attitude," they are suggesting the character is:',
+    options: ['careful', 'dismissive and careless', 'brave', 'romantic'],
+    correctAnswer: 1,
+    context: 'Academic usage of cavalier implies a dismissive or offhand manner.',
+  },
+  {
+    id: 'c1-r2',
+    type: 'reading',
+    level: 'C1',
+    difficulty: 10,
+    question: 'If an article concludes "the jury is still out," it means:',
+    options: [
+      'The trial has ended',
+      'No final conclusion has been reached',
+      'Experts agree',
+      'The case is closed',
+    ],
+    correctAnswer: 1,
+  },
+  {
+    id: 'c1-r3',
+    type: 'reading',
+    level: 'C1',
+    difficulty: 10,
+    question: 'An "implicit assumption" in an argument is one that is:',
+    options: [
+      'clearly stated',
+      'unstated but necessary for the argument',
+      'false',
+      'obvious to everyone',
+    ],
+    correctAnswer: 1,
+  },
+  // Listening - Complex arguments
+  {
+    id: 'c1-l1',
+    type: 'listening',
+    level: 'C1',
+    difficulty: 9,
+    question: 'When a speaker says "I\'d be remiss not to mention," they are:',
+    options: [
+      'apologizing',
+      'about to add an important point',
+      'ending the conversation',
+      'expressing doubt',
+    ],
+    correctAnswer: 1,
+  },
+  {
+    id: 'c1-l2',
+    type: 'listening',
+    level: 'C1',
+    difficulty: 10,
+    question: '"To cut to the chase" in a discussion means to:',
+    options: [
+      'run away',
+      'get to the main point directly',
+      'change the subject',
+      'ask for more time',
+    ],
+    correctAnswer: 1,
+  },
+  {
+    id: 'c1-l3',
+    type: 'listening',
+    level: 'C1',
+    difficulty: 10,
+    question: 'When someone says "That\'s a moot point," they mean the issue is:',
+    options: [
+      'very important',
+      'no longer relevant or debatable',
+      'controversial',
+      'clearly correct',
+    ],
+    correctAnswer: 1,
+  },
+];
+
+// ─────────────────────────────────────
+// C2 Level Questions (Proficient)
+// ─────────────────────────────────────
+
+const C2_QUESTIONS: TestQuestion[] = [
+  // Vocabulary - Near-native level, subtle connotations
+  {
+    id: 'c2-v1',
+    type: 'vocabulary',
+    level: 'C2',
+    difficulty: 11,
+    question: '"Sycophant" best describes someone who:',
+    options: [
+      'speaks truth to power',
+      'flatters powerful people for personal gain',
+      'works independently',
+      'avoids conflict',
+    ],
+    correctAnswer: 1,
+    explanation: 'Sycophant는 아첨꾼, 아부하는 사람을 의미합니다.',
+  },
+  {
+    id: 'c2-v2',
+    type: 'vocabulary',
+    level: 'C2',
+    difficulty: 11,
+    question: 'The difference between "uninterested" and "disinterested" is:',
+    options: [
+      'They are synonyms',
+      'Uninterested means bored; disinterested means impartial',
+      'Disinterested is more negative',
+      'No real difference',
+    ],
+    correctAnswer: 1,
+    explanation: 'Uninterested는 관심 없는, disinterested는 공정한/편견 없는 의미입니다.',
+  },
+  {
+    id: 'c2-v3',
+    type: 'vocabulary',
+    level: 'C2',
+    difficulty: 12,
+    question: '"Obsequious" behavior is characterized by:',
+    options: ['rebellion', 'excessive eagerness to please', 'indifference', 'aggression'],
+    correctAnswer: 1,
+    explanation: 'Obsequious는 굽실거리는, 아첨하는 이라는 뜻입니다.',
+  },
+  // Grammar - Most advanced structures, stylistic nuances
+  {
+    id: 'c2-g1',
+    type: 'grammar',
+    level: 'C2',
+    difficulty: 11,
+    question: '"He demanded that the report ___ submitted immediately." Which is correct?',
+    options: ['be', 'is', 'was', 'would be'],
+    correctAnswer: 0,
+    explanation: '요구/명령/제안의 동사 뒤 that절에서는 가정법 현재(동사 원형)를 사용합니다.',
+  },
+  {
+    id: 'c2-g2',
+    type: 'grammar',
+    level: 'C2',
+    difficulty: 11,
+    question: 'The subjunctive in "It is vital that she ___ present" requires:',
+    options: ['is', 'be', 'was', 'being'],
+    correctAnswer: 1,
+    explanation: '중요성/필요성을 나타내는 형용사 뒤 that절에서 동사 원형을 사용합니다.',
+  },
+  {
+    id: 'c2-g3',
+    type: 'grammar',
+    level: 'C2',
+    difficulty: 12,
+    question: '"The more I learn, ___ I realize I don\'t know."',
+    options: ['the more', 'more', 'the most', 'most'],
+    correctAnswer: 0,
+    explanation: 'The + 비교급, the + 비교급 구문입니다.',
+  },
+  // Reading - Native-level comprehension
+  {
+    id: 'c2-r1',
+    type: 'reading',
+    level: 'C2',
+    difficulty: 11,
+    question: 'When a literary critic describes prose as "turgid," they mean it is:',
+    options: ['exciting', 'swollen and pompous', 'concise', 'poetic'],
+    correctAnswer: 1,
+    context: 'Turgid prose is overly complex, inflated, and difficult to read.',
+  },
+  {
+    id: 'c2-r2',
+    type: 'reading',
+    level: 'C2',
+    difficulty: 11,
+    question: '"Apocryphal" stories are those that are:',
+    options: ['verified', 'of doubtful authenticity', 'religious', 'ancient'],
+    correctAnswer: 1,
+  },
+  {
+    id: 'c2-r3',
+    type: 'reading',
+    level: 'C2',
+    difficulty: 12,
+    question: 'A "pyrrhic victory" is one where:',
+    options: [
+      'the win is decisive',
+      'the cost of winning outweighs the benefits',
+      'both sides win',
+      'luck determines the outcome',
+    ],
+    correctAnswer: 1,
+    context: 'Named after King Pyrrhus, whose victories came at devastating cost.',
+  },
+  // Listening - Native speed, nuanced meaning
+  {
+    id: 'c2-l1',
+    type: 'listening',
+    level: 'C2',
+    difficulty: 11,
+    question: 'When someone says "I\'ll take that with a grain of salt," they:',
+    options: ['want salt', 'are skeptical about what was said', 'completely agree', 'are confused'],
+    correctAnswer: 1,
+  },
+  {
+    id: 'c2-l2',
+    type: 'listening',
+    level: 'C2',
+    difficulty: 11,
+    question: '"Damning with faint praise" means:',
+    options: [
+      'criticizing openly',
+      'praising enthusiastically',
+      'giving such weak praise that it implies disapproval',
+      'refusing to comment',
+    ],
+    correctAnswer: 2,
+  },
+  {
+    id: 'c2-l3',
+    type: 'listening',
+    level: 'C2',
+    difficulty: 12,
+    question: 'The idiom "a distinction without a difference" describes:',
+    options: [
+      'a meaningful distinction',
+      'two things that are essentially the same despite seeming different',
+      'a clear contrast',
+      'an obvious error',
+    ],
     correctAnswer: 1,
   },
 ];
@@ -608,8 +946,8 @@ export const LEVEL_TEST_QUESTIONS: Record<CEFRLevel, TestQuestion[]> = {
   A2: A2_QUESTIONS,
   B1: B1_QUESTIONS,
   B2: B2_QUESTIONS,
-  C1: [], // TODO: Add C1 questions
-  C2: [], // TODO: Add C2 questions
+  C1: C1_QUESTIONS,
+  C2: C2_QUESTIONS,
 };
 
 export function createQuestionBank(): Map<CEFRLevel, TestQuestion[]> {
@@ -618,9 +956,18 @@ export function createQuestionBank(): Map<CEFRLevel, TestQuestion[]> {
   bank.set('A2', [...A2_QUESTIONS]);
   bank.set('B1', [...B1_QUESTIONS]);
   bank.set('B2', [...B2_QUESTIONS]);
+  bank.set('C1', [...C1_QUESTIONS]);
+  bank.set('C2', [...C2_QUESTIONS]);
   return bank;
 }
 
 export function getTotalQuestionCount(): number {
-  return A1_QUESTIONS.length + A2_QUESTIONS.length + B1_QUESTIONS.length + B2_QUESTIONS.length;
+  return (
+    A1_QUESTIONS.length +
+    A2_QUESTIONS.length +
+    B1_QUESTIONS.length +
+    B2_QUESTIONS.length +
+    C1_QUESTIONS.length +
+    C2_QUESTIONS.length
+  );
 }

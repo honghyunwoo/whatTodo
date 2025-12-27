@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useCallback, useMemo, useEffect } from 'react';
-import { useColorScheme } from 'react-native';
+import { useColorScheme, View, ActivityIndicator } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { COLORS } from '@/constants/colors';
 
@@ -118,9 +118,20 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     [isDark, themeMode, colors, setThemeMode, toggleTheme]
   );
 
-  // Don't render until theme is loaded to prevent flash
+  // 로딩 중 스피너 표시 (null 대신)
   if (!isLoaded) {
-    return null;
+    return (
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+          backgroundColor: COLORS.background,
+        }}
+      >
+        <ActivityIndicator size="large" color={COLORS.primary} />
+      </View>
+    );
   }
 
   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;

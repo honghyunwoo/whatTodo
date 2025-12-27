@@ -6,7 +6,7 @@ export const COLORS = {
   danger: '#FF3B30',
   error: '#FF3B30', // Alias for danger
 
-  background: '#F2F2F7',
+  background: '#FFF9F0', // Warm cream (was #F2F2F7)
   surface: '#FFFFFF',
   text: '#000000',
   textSecondary: '#8E8E93',

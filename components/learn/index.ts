@@ -19,6 +19,7 @@ export { WritingView } from './WritingView';
 // Lesson-based Components
 export { UnitSelector } from './UnitSelector';
 export { LessonSelector } from './LessonSelector';
+export { LevelSelector } from './LevelSelector';
 
 // Enhanced Components
 export { AnswerFeedback } from './AnswerFeedback';
@@ -45,14 +46,14 @@ export {
   type ShadowingResult,
 } from './exercises';
 
-// Korean-specific Learning Components
-export {
-  KonglishAlert,
-  KonglishBanner,
-  KonglishQuiz,
-  KONGLISH_DATABASE,
-  type KonglishItem,
-} from './KonglishAlert';
+// 미사용 - Korean-specific Learning Components (향후 사용 가능):
+// export {
+//   KonglishAlert,
+//   KonglishBanner,
+//   KonglishQuiz,
+//   KONGLISH_DATABASE,
+//   type KonglishItem,
+// } from './KonglishAlert';
 
 // AI-Powered Components
 export { SpeechRecorder } from './SpeechRecorder';

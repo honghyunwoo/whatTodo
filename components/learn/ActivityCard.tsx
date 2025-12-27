@@ -1,11 +1,15 @@
+/**
+ * ActivityCard Component
+ * Redesigned with color accent bar and gradient icon background
+ */
+
+import { LinearGradient } from 'expo-linear-gradient';
 import React, { memo } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import { Text } from 'react-native-paper';
 
 import { COLORS } from '@/constants/colors';
-import { SIZES } from '@/constants/sizes';
 import { ActivityType } from '@/types/activity';
-import { getActivityIcon, getActivityLabel } from '@/utils/activityLoader';
 
 interface ActivityCardProps {
   type: ActivityType;
@@ -40,51 +44,47 @@ function ActivityCardComponent({
   completed = false,
   onPress,
 }: ActivityCardProps) {
-  const icon = ACTIVITY_ICONS[type] || getActivityIcon(type);
-  const label = title || ACTIVITY_LABELS_KR[type] || getActivityLabel(type);
+  const icon = ACTIVITY_ICONS[type] ?? '📖';
+  const label = title ?? ACTIVITY_LABELS_KR[type] ?? type;
   const colors = COLORS.activity[type];
 
   return (
-    <Pressable 
-      onPress={onPress} 
-      style={({ pressed }) => [
-        styles.pressable,
-        pressed && styles.pressed,
-      ]}
+    <Pressable
+      onPress={onPress}
+      style={({ pressed }) => [styles.pressable, pressed && styles.pressed]}
     >
-      <View style={[
-        styles.card,
-        { backgroundColor: completed ? colors.light : COLORS.surface },
-        completed && { borderColor: colors.main, borderWidth: 2 },
-      ]}>
-        <View style={[styles.iconContainer, { backgroundColor: colors.light }]}>
+      <View
+        style={[styles.card, { borderLeftColor: colors.main }, completed && styles.cardCompleted]}
+      >
+        {/* Gradient Icon Container */}
+        <LinearGradient
+          colors={colors.gradient}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={styles.iconContainer}
+        >
           <Text style={styles.icon}>{icon}</Text>
-        </View>
-        
+        </LinearGradient>
+
         <Text style={[styles.label, completed && { color: colors.main }]}>{label}</Text>
-        
-        {completed ? (
-          <View style={[styles.statusBadge, { backgroundColor: colors.main }]}>
-            <Text style={styles.statusText}>완료</Text>
+
+        {/* Progress Section */}
+        <View style={styles.progressSection}>
+          <View style={styles.progressBarContainer}>
+            <View
+              style={[
+                styles.progressBar,
+                {
+                  width: `${Math.min(completed ? 100 : progress, 100)}%`,
+                  backgroundColor: colors.main,
+                },
+              ]}
+            />
           </View>
-        ) : (
-          <View style={styles.progressSection}>
-            <View style={styles.progressBarContainer}>
-              <View 
-                style={[
-                  styles.progressBar, 
-                  { 
-                    width: `${Math.min(progress, 100)}%`,
-                    backgroundColor: colors.main,
-                  }
-                ]} 
-              />
-            </View>
-            <Text style={[styles.startText, { color: colors.main }]}>
-              {progress > 0 ? `${progress}%` : '시작하기'}
-            </Text>
-          </View>
-        )}
+          <Text style={[styles.progressText, { color: colors.main }]}>
+            {completed ? '✓ 완료' : progress > 0 ? `${progress}%` : '시작'}
+          </Text>
+        </View>
       </View>
     </Pressable>
   );
@@ -94,33 +94,35 @@ export const ActivityCard = memo(ActivityCardComponent);
 
 const styles = StyleSheet.create({
   card: {
-    alignItems: 'center',
-    backgroundColor: COLORS.surface,
-    borderRadius: SIZES.borderRadius.xl,
-    elevation: 2,
-    padding: SIZES.spacing.md,
+    backgroundColor: '#FFFFFF',
+    borderLeftWidth: 4,
+    borderRadius: 16,
+    elevation: 4,
+    padding: 16,
     shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
+    shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.08,
-    shadowRadius: 8,
+    shadowRadius: 12,
+  },
+  cardCompleted: {
+    backgroundColor: '#F8FFF8',
   },
   icon: {
     fontSize: 28,
   },
   iconContainer: {
     alignItems: 'center',
-    borderRadius: SIZES.borderRadius.lg,
+    borderRadius: 14,
     height: 56,
     justifyContent: 'center',
-    marginBottom: SIZES.spacing.sm,
+    marginBottom: 12,
     width: 56,
   },
   label: {
-    color: COLORS.text,
-    fontSize: SIZES.fontSize.md,
-    fontWeight: '600',
-    marginBottom: SIZES.spacing.sm,
-    textAlign: 'center',
+    color: '#1A1A1A',
+    fontSize: 16,
+    fontWeight: '700',
+    marginBottom: 8,
   },
   pressable: {
     flex: 1,
@@ -128,37 +130,29 @@ const styles = StyleSheet.create({
     minWidth: 140,
   },
   pressed: {
-    opacity: 0.8,
-    transform: [{ scale: 0.98 }],
+    opacity: 0.9,
+    transform: [{ scale: 0.97 }],
   },
   progressBar: {
-    borderRadius: SIZES.borderRadius.full,
+    borderRadius: 3,
     height: '100%',
   },
   progressBarContainer: {
-    backgroundColor: COLORS.border,
-    borderRadius: SIZES.borderRadius.full,
+    backgroundColor: '#F0F0F0',
+    borderRadius: 3,
+    flex: 1,
     height: 6,
-    marginBottom: SIZES.spacing.xs,
     overflow: 'hidden',
-    width: '100%',
   },
   progressSection: {
     alignItems: 'center',
-    width: '100%',
+    flexDirection: 'row',
+    gap: 8,
   },
-  startText: {
-    fontSize: SIZES.fontSize.sm,
-    fontWeight: '500',
-  },
-  statusBadge: {
-    borderRadius: SIZES.borderRadius.full,
-    paddingHorizontal: SIZES.spacing.md,
-    paddingVertical: SIZES.spacing.xs,
-  },
-  statusText: {
-    color: COLORS.surface,
-    fontSize: SIZES.fontSize.sm,
-    fontWeight: '700',
+  progressText: {
+    fontSize: 12,
+    fontWeight: '600',
+    minWidth: 44,
+    textAlign: 'right',
   },
 });

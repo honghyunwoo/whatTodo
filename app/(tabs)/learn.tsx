@@ -3,20 +3,34 @@
  * 학습 화면 - 레슨 기반 UI (레거시 Week 모드 병행)
  */
 
+import { LinearGradient } from 'expo-linear-gradient';
 import { router } from 'expo-router';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
-import { ActivityIndicator, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
-import { IconButton, Modal, Portal, SegmentedButtons, Text } from 'react-native-paper';
+import {
+  ActivityIndicator,
+  Pressable,
+  ScrollView,
+  StyleSheet,
+  TouchableOpacity,
+  View,
+} from 'react-native';
+import { IconButton, Modal, Portal, Text } from 'react-native-paper';
 
-import { ActivityCard, LessonSelector, UnitSelector, WeekSelector } from '@/components/learn';
+import {
+  ActivityCard,
+  LessonSelector,
+  LevelSelector,
+  UnitSelector,
+  WeekSelector,
+} from '@/components/learn';
 import { LearningDashboard } from '@/components/dashboard/LearningDashboard';
 import { BadgeShowcase } from '@/components/reward';
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { useLearnStore } from '@/store/learnStore';
+import type { CEFRLevel, ActivityType } from '@/types/activity';
 import { useLessonStore } from '@/store/lessonStore';
 import { useSrsStore } from '@/store/srsStore';
-import type { ActivityType } from '@/types/activity';
 import type { LessonCardData, UnitCardData } from '@/types/lesson';
 import { isLevelLoaded, loadWeekActivities, preloadLevel } from '@/utils/activityLoader';
 import {
@@ -208,6 +222,15 @@ export default function LearnScreen() {
     });
   }, []);
 
+  // 레벨 변경 핸들러
+  const setCurrentLevel = useLearnStore((state) => state.setCurrentLevel);
+  const handleLevelChange = useCallback(
+    (newLevel: string) => {
+      setCurrentLevel(newLevel.toUpperCase() as CEFRLevel);
+    },
+    [setCurrentLevel]
+  );
+
   const currentProgress = weekProgress[currentWeek] || 0;
   const completedToday = ACTIVITY_TYPES.filter(
     (type) => getActivityProgress(type).completed
@@ -216,24 +239,27 @@ export default function LearnScreen() {
   return (
     <View style={styles.container}>
       <ScrollView style={styles.scrollView} contentContainerStyle={styles.scrollContent}>
-        <View style={styles.heroSection}>
+        {/* Hero Section with Gradient */}
+        <LinearGradient
+          colors={['#4A90D9', '#6B5CE7']}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={styles.heroGradient}
+        >
           <View style={styles.heroContent}>
             <View style={styles.greetingRow}>
-              <View>
-                <Text style={styles.greeting}>오늘도 영어와 함께!</Text>
-                <Text style={styles.levelBadge}>{currentLevel.toUpperCase()} 레벨</Text>
-              </View>
+              <Text style={styles.greetingWhite}>오늘도 영어와 함께! 🌱</Text>
               <View style={styles.headerActions}>
                 <IconButton
                   icon="chart-bar"
-                  iconColor={COLORS.text}
+                  iconColor="#FFFFFF"
                   size={22}
                   onPress={() => setShowStats(true)}
                   style={styles.headerButton}
                 />
                 <IconButton
                   icon="medal"
-                  iconColor={COLORS.text}
+                  iconColor="#FFFFFF"
                   size={22}
                   onPress={() => setShowBadges(true)}
                   style={styles.headerButton}
@@ -241,25 +267,29 @@ export default function LearnScreen() {
               </View>
             </View>
 
+            {/* Level Selector */}
+            <LevelSelector currentLevel={currentLevel} onLevelChange={handleLevelChange} />
+
+            {/* Stats Row - Glassmorphism */}
             <View style={styles.statsRow}>
-              <View style={styles.statCard}>
-                <Text style={styles.streakEmoji}>🔥</Text>
-                <Text style={styles.statValue}>{streak}</Text>
-                <Text style={styles.statLabel}>연속 학습</Text>
+              <View style={styles.statCardGlass}>
+                <Text style={styles.statEmoji}>🔥</Text>
+                <Text style={styles.statValueWhite}>{streak}</Text>
+                <Text style={styles.statLabelWhite}>연속</Text>
               </View>
-              <View style={styles.statCard}>
-                <Text style={styles.streakEmoji}>📚</Text>
-                <Text style={styles.statValue}>{completedToday}/6</Text>
-                <Text style={styles.statLabel}>오늘 완료</Text>
+              <View style={styles.statCardGlass}>
+                <Text style={styles.statEmoji}>📚</Text>
+                <Text style={styles.statValueWhite}>{completedToday}/6</Text>
+                <Text style={styles.statLabelWhite}>오늘</Text>
               </View>
-              <View style={styles.statCard}>
-                <Text style={styles.streakEmoji}>📈</Text>
-                <Text style={styles.statValue}>{currentProgress}%</Text>
-                <Text style={styles.statLabel}>주간 진행</Text>
+              <View style={styles.statCardGlass}>
+                <Text style={styles.statEmoji}>📈</Text>
+                <Text style={styles.statValueWhite}>{currentProgress}%</Text>
+                <Text style={styles.statLabelWhite}>주간</Text>
               </View>
             </View>
           </View>
-        </View>
+        </LinearGradient>
 
         <View style={styles.quickActionsSection}>
           <TouchableOpacity style={styles.actionCard} onPress={handleLevelTest}>
@@ -294,17 +324,26 @@ export default function LearnScreen() {
           </TouchableOpacity>
         </View>
 
-        {/* View Mode Toggle */}
-        <View style={styles.modeToggleContainer}>
-          <SegmentedButtons
-            value={viewMode}
-            onValueChange={(value) => setViewMode(value as ViewMode)}
-            buttons={[
-              { value: 'lesson', label: '레슨 모드', icon: 'book-open-variant' },
-              { value: 'week', label: '주차 모드', icon: 'calendar-week' },
-            ]}
-            style={styles.segmentedButtons}
-          />
+        {/* Custom Mode Toggle (fixes icon bug) */}
+        <View style={styles.modeToggle}>
+          <Pressable
+            onPress={() => setViewMode('lesson')}
+            style={[styles.modeButton, viewMode === 'lesson' && styles.modeButtonActive]}
+          >
+            <Text style={styles.modeIcon}>📚</Text>
+            <Text style={[styles.modeText, viewMode === 'lesson' && styles.modeTextActive]}>
+              레슨
+            </Text>
+          </Pressable>
+          <Pressable
+            onPress={() => setViewMode('week')}
+            style={[styles.modeButton, viewMode === 'week' && styles.modeButtonActive]}
+          >
+            <Text style={styles.modeIcon}>📅</Text>
+            <Text style={[styles.modeText, viewMode === 'week' && styles.modeTextActive]}>
+              주차
+            </Text>
+          </Pressable>
         </View>
 
         {viewMode === 'lesson' ? (
@@ -507,10 +546,14 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   greetingRow: {
-    alignItems: 'flex-start',
+    alignItems: 'center',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginBottom: SIZES.spacing.lg,
+  },
+  greetingWhite: {
+    color: '#FFFFFF',
+    fontSize: 22,
+    fontWeight: '700',
   },
   headerActions: {
     flexDirection: 'row',
@@ -520,12 +563,12 @@ const styles = StyleSheet.create({
   },
   heroContent: {
     paddingHorizontal: SIZES.spacing.md,
-    paddingVertical: SIZES.spacing.lg,
+    paddingBottom: SIZES.spacing.lg,
+    paddingTop: SIZES.spacing.xl,
   },
-  heroSection: {
-    backgroundColor: COLORS.surface,
-    borderBottomLeftRadius: SIZES.borderRadius.xxl,
-    borderBottomRightRadius: SIZES.borderRadius.xxl,
+  heroGradient: {
+    borderBottomLeftRadius: 32,
+    borderBottomRightRadius: 32,
     marginBottom: SIZES.spacing.md,
   },
   levelBadge: {
@@ -613,18 +656,41 @@ const styles = StyleSheet.create({
     marginHorizontal: SIZES.spacing.xs,
     paddingVertical: SIZES.spacing.md,
   },
+  statCardGlass: {
+    alignItems: 'center',
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    borderColor: 'rgba(255, 255, 255, 0.3)',
+    borderRadius: 16,
+    borderWidth: 1,
+    flex: 1,
+    marginHorizontal: 4,
+    paddingVertical: 12,
+  },
+  statEmoji: {
+    fontSize: 24,
+    marginBottom: 4,
+  },
   statLabel: {
     color: COLORS.textSecondary,
     fontSize: SIZES.fontSize.xs,
+  },
+  statLabelWhite: {
+    color: 'rgba(255, 255, 255, 0.8)',
+    fontSize: 11,
   },
   statValue: {
     color: COLORS.text,
     fontSize: SIZES.fontSize.lg,
     fontWeight: '700',
   },
+  statValueWhite: {
+    color: '#FFFFFF',
+    fontSize: 20,
+    fontWeight: '800',
+  },
   statsRow: {
     flexDirection: 'row',
-    marginHorizontal: -SIZES.spacing.xs,
+    marginTop: 8,
   },
   streakEmoji: {
     fontSize: 20,
@@ -634,13 +700,37 @@ const styles = StyleSheet.create({
     paddingHorizontal: SIZES.spacing.md,
     paddingTop: SIZES.spacing.lg,
   },
-  // New lesson-based styles
-  modeToggleContainer: {
-    paddingHorizontal: SIZES.spacing.md,
-    paddingTop: SIZES.spacing.md,
+  // Custom mode toggle styles
+  modeButton: {
+    alignItems: 'center',
+    borderRadius: 12,
+    flex: 1,
+    flexDirection: 'row',
+    gap: 6,
+    justifyContent: 'center',
+    paddingVertical: 12,
   },
-  segmentedButtons: {
+  modeButtonActive: {
+    backgroundColor: COLORS.primary,
+  },
+  modeIcon: {
+    fontSize: 18,
+  },
+  modeText: {
+    color: COLORS.textSecondary,
+    fontSize: 14,
+    fontWeight: '600',
+  },
+  modeTextActive: {
+    color: '#FFFFFF',
+  },
+  modeToggle: {
     backgroundColor: COLORS.surface,
+    borderRadius: 16,
+    flexDirection: 'row',
+    marginHorizontal: SIZES.spacing.md,
+    marginTop: SIZES.spacing.md,
+    padding: 4,
   },
   unitSelectorContainer: {
     paddingTop: SIZES.spacing.lg,

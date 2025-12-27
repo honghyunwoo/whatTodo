@@ -1,10 +1,13 @@
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
+import { ActivityIndicator, View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { PaperProvider } from 'react-native-paper';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
+import { COLORS } from '@/constants/colors';
 import { ErrorBoundary } from '@/components/common/ErrorBoundary';
 import { OnboardingScreen } from '@/components/onboarding/OnboardingScreen';
 import { ThemeProvider, useTheme } from '@/contexts/ThemeContext';
@@ -60,9 +63,20 @@ function AppContent() {
     }
   };
 
-  // Loading state
+  // Loading state - 로딩 스피너 표시
   if (onboardingDone === null) {
-    return null; // or a loading spinner
+    return (
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+          backgroundColor: COLORS.background,
+        }}
+      >
+        <ActivityIndicator size="large" color={COLORS.primary} />
+      </View>
+    );
   }
 
   // Show onboarding if not completed
@@ -91,7 +105,11 @@ export default function RootLayout() {
       <GestureHandlerRootView style={{ flex: 1 }}>
         <SafeAreaProvider>
           <ThemeProvider>
-            <PaperProvider>
+            <PaperProvider
+              settings={{
+                icon: (props) => <MaterialCommunityIcons {...props} />,
+              }}
+            >
               <AppContent />
             </PaperProvider>
           </ThemeProvider>

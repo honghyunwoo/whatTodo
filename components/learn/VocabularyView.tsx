@@ -10,11 +10,70 @@ import { Button, Text } from 'react-native-paper';
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { useLearnStore } from '@/store/learnStore';
+import { useSrsStore } from '@/store/srsStore';
 import { FlashCardResult, VocabularyActivity } from '@/types/activity';
 import { feedbackService } from '@/services/feedbackService';
 
+import { MinimalPairs, MinimalPairQuestion, MinimalPairsResult } from './exercises/MinimalPairs';
 import { FlashCard } from './FlashCard';
 import { ProgressBar } from './ProgressBar';
+
+// 한국인 학습자를 위한 샘플 최소대립쌍 데이터
+const SAMPLE_MINIMAL_PAIRS: MinimalPairQuestion[] = [
+  {
+    pair: {
+      id: 'ship-sheep',
+      word1: 'ship',
+      word2: 'sheep',
+      pronunciation1: '/ʃɪp/',
+      pronunciation2: '/ʃiːp/',
+      meaning1: '배',
+      meaning2: '양',
+      soundFocus: '/ɪ/ vs /iː/',
+      koreanTip:
+        "한국어에는 이 두 소리 구분이 없어요. ship은 짧게 '쉽', sheep은 길게 '쉬~프'처럼 발음해요.",
+      category: 'vowel',
+      difficulty: 'medium',
+    },
+    targetWord: 1,
+    showHint: false,
+  },
+  {
+    pair: {
+      id: 'rice-lice',
+      word1: 'rice',
+      word2: 'lice',
+      pronunciation1: '/raɪs/',
+      pronunciation2: '/laɪs/',
+      meaning1: '쌀',
+      meaning2: '이(머릿니)',
+      soundFocus: '/r/ vs /l/',
+      koreanTip:
+        'R은 혀를 뒤로 말아서, L은 혀를 윗니 뒤에 대고 발음해요. 한국어 ㄹ과는 둘 다 달라요!',
+      category: 'consonant',
+      difficulty: 'hard',
+    },
+    targetWord: 2,
+    showHint: false,
+  },
+  {
+    pair: {
+      id: 'bat-bet',
+      word1: 'bat',
+      word2: 'bet',
+      pronunciation1: '/bæt/',
+      pronunciation2: '/bet/',
+      meaning1: '박쥐/방망이',
+      meaning2: '내기하다',
+      soundFocus: '/æ/ vs /e/',
+      koreanTip: "bat의 /æ/는 입을 크게 벌려서 '애'와 '아' 사이, bet의 /e/는 그냥 '에' 발음이에요.",
+      category: 'vowel',
+      difficulty: 'medium',
+    },
+    targetWord: 1,
+    showHint: false,
+  },
+];
 
 interface VocabularyViewProps {
   activity: VocabularyActivity;
@@ -23,9 +82,11 @@ interface VocabularyViewProps {
 
 export function VocabularyView({ activity, onComplete }: VocabularyViewProps) {
   const saveFlashCardResults = useLearnStore((state) => state.saveFlashCardResults);
+  const addWordToSrs = useSrsStore((state) => state.addWord);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [results, setResults] = useState<FlashCardResult[]>([]);
   const [isCompleted, setIsCompleted] = useState(false);
+  const [showMinimalPairs, setShowMinimalPairs] = useState(false);
 
   // Null safety: activity.words가 없으면 빈 배열 사용
   const words = activity?.words ?? [];
@@ -63,6 +124,15 @@ export function VocabularyView({ activity, onComplete }: VocabularyViewProps) {
     // Trigger wrong feedback
     await feedbackService.wrong();
 
+    // SRS에 단어 추가 (복습이 필요한 단어)
+    addWordToSrs({
+      wordId: currentWord.id,
+      word: currentWord.word,
+      meaning: currentWord.meaning,
+      example: currentWord.example,
+      pronunciation: currentWord.pronunciation,
+    });
+
     const newResults = [...results, { wordId: currentWord.id, known: false, attempts: 1 }];
     setResults(newResults);
 
@@ -76,12 +146,28 @@ export function VocabularyView({ activity, onComplete }: VocabularyViewProps) {
     } else {
       setCurrentIndex((prev) => prev + 1);
     }
-  }, [currentWord, results, isLastWord, activity?.id, saveFlashCardResults, onComplete]);
+  }, [
+    currentWord,
+    results,
+    isLastWord,
+    activity?.id,
+    saveFlashCardResults,
+    onComplete,
+    addWordToSrs,
+  ]);
 
   const handleRestart = useCallback(() => {
     setCurrentIndex(0);
     setResults([]);
     setIsCompleted(false);
+    setShowMinimalPairs(false);
+  }, []);
+
+  const handleMinimalPairsComplete = useCallback((pairResults: MinimalPairsResult[]) => {
+    const correctCount = pairResults.filter((r) => r.correct).length;
+    const pairScore = Math.round((correctCount / pairResults.length) * 100);
+    console.log(`발음 구분 연습 완료: ${pairScore}점`);
+    setShowMinimalPairs(false);
   }, []);
 
   // 데이터가 없는 경우 빈 상태 표시 (hooks 호출 후에 조건부 반환)
@@ -96,6 +182,13 @@ export function VocabularyView({ activity, onComplete }: VocabularyViewProps) {
   }
 
   if (isCompleted) {
+    // 발음 구분 연습 모드
+    if (showMinimalPairs) {
+      return (
+        <MinimalPairs questions={SAMPLE_MINIMAL_PAIRS} onComplete={handleMinimalPairsComplete} />
+      );
+    }
+
     return (
       <View style={styles.completedContainer}>
         <Text style={styles.completedIcon}>🎉</Text>
@@ -104,6 +197,17 @@ export function VocabularyView({ activity, onComplete }: VocabularyViewProps) {
         <Text style={styles.statsText}>
           {results.filter((r) => r.known).length}개 암기 / {results.length}개 중
         </Text>
+
+        {/* 발음 구분 연습 버튼 */}
+        <Button
+          mode="outlined"
+          onPress={() => setShowMinimalPairs(true)}
+          style={styles.minimalPairsButton}
+          icon="ear-hearing"
+        >
+          발음 구분 연습
+        </Button>
+
         <Button mode="contained" onPress={handleRestart} style={styles.restartButton}>
           다시 학습하기
         </Button>
@@ -146,8 +250,12 @@ const styles = StyleSheet.create({
   header: {
     padding: SIZES.spacing.md,
   },
+  minimalPairsButton: {
+    marginTop: SIZES.spacing.lg,
+    borderColor: COLORS.primary,
+  },
   restartButton: {
-    marginTop: SIZES.spacing.xl,
+    marginTop: SIZES.spacing.md,
   },
   scoreText: {
     color: COLORS.primary,

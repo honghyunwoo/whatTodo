@@ -151,6 +151,7 @@ export interface SpeakingSentence {
   text: string;
   translation: string;
   tips: string;
+  pronunciation?: string;
 }
 
 /** 쓰기 활동 - 실제 JSON 구조 반영 */

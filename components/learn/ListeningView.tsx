@@ -7,6 +7,7 @@ import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { ListeningActivity } from '@/types/activity';
 
+import { Dictation, DictationQuestion, DictationResult } from './exercises/Dictation';
 import { QuizView } from './QuizView';
 
 interface ListeningViewProps {
@@ -14,7 +15,22 @@ interface ListeningViewProps {
   onComplete?: (score: number) => void;
 }
 
-type ViewMode = 'listen' | 'quiz' | 'complete';
+type ViewMode = 'listen' | 'quiz' | 'dictation' | 'complete';
+
+// 받아쓰기 문제 생성 함수
+function createDictationQuestions(audioText: string): DictationQuestion[] {
+  const sentences = audioText
+    .split(/[.!?]+/)
+    .map((s) => s.trim())
+    .filter((s) => s.length > 0);
+
+  return sentences.slice(0, 5).map((sentence, index) => ({
+    id: `dictation-${index}`,
+    audioText: sentence,
+    difficulty:
+      sentence.split(' ').length < 5 ? 'easy' : sentence.split(' ').length < 10 ? 'medium' : 'hard',
+  }));
+}
 
 export function ListeningView({ activity, onComplete }: ListeningViewProps) {
   const [mode, setMode] = useState<ViewMode>('listen');
@@ -67,6 +83,23 @@ export function ListeningView({ activity, onComplete }: ListeningViewProps) {
     [onComplete]
   );
 
+  const handleDictationComplete = useCallback(
+    (results: DictationResult[]) => {
+      const correctCount = results.filter((r) => r.correct).length;
+      const calculatedScore = Math.round((correctCount / results.length) * 100);
+      setScore(calculatedScore);
+      setMode('complete');
+      onComplete?.(calculatedScore);
+    },
+    [onComplete]
+  );
+
+  const handleStartDictation = useCallback(() => {
+    Speech.stop();
+    setIsPlaying(false);
+    setMode('dictation');
+  }, []);
+
   const handleRestart = useCallback(() => {
     setMode('listen');
     setScore(0);
@@ -83,6 +116,22 @@ export function ListeningView({ activity, onComplete }: ListeningViewProps) {
       );
     }
     return <QuizView exercises={questions} onComplete={handleQuizComplete} />;
+  }
+
+  if (mode === 'dictation') {
+    const dictationQuestions = audio?.text ? createDictationQuestions(audio.text) : [];
+    if (dictationQuestions.length === 0) {
+      return (
+        <View style={styles.completedContainer}>
+          <Text style={styles.completedIcon}>📝</Text>
+          <Text style={styles.completedTitle}>받아쓰기 데이터 없음</Text>
+          <Text style={{ color: '#666', textAlign: 'center' }}>
+            이 레슨의 받아쓰기 데이터를 생성할 수 없습니다.
+          </Text>
+        </View>
+      );
+    }
+    return <Dictation questions={dictationQuestions} onComplete={handleDictationComplete} />;
   }
 
   // 오디오 데이터가 없는 경우
@@ -153,6 +202,15 @@ export function ListeningView({ activity, onComplete }: ListeningViewProps) {
       >
         퀴즈 시작 ({questions.length}문제)
       </Button>
+
+      <Button
+        mode="outlined"
+        onPress={handleStartDictation}
+        style={styles.dictationButton}
+        icon="pencil"
+      >
+        받아쓰기 연습
+      </Button>
     </View>
   );
 }
@@ -200,6 +258,9 @@ const styles = StyleSheet.create({
   },
   quizButton: {
     marginTop: SIZES.spacing.lg,
+  },
+  dictationButton: {
+    marginTop: SIZES.spacing.sm,
   },
   restartButton: {
     marginTop: SIZES.spacing.xl,

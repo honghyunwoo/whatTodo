@@ -8,6 +8,7 @@ import { SIZES } from '@/constants/sizes';
 import { SpeakingActivity, SpeakingSentence } from '@/types/activity';
 import { captureSilentError } from '@/utils/errorHandler';
 
+import { Shadowing, ShadowingSentence, ShadowingResult } from './exercises/Shadowing';
 import { ProgressBar } from './ProgressBar';
 
 interface SpeakingViewProps {
@@ -15,7 +16,23 @@ interface SpeakingViewProps {
   onComplete?: (score: number) => void;
 }
 
-type ViewMode = 'practice' | 'checklist' | 'complete';
+type ViewMode = 'practice' | 'shadowing' | 'checklist' | 'complete';
+
+// SpeakingSentence를 ShadowingSentence로 변환
+function convertToShadowingSentences(
+  sentences: SpeakingSentence[],
+  index: number
+): ShadowingSentence[] {
+  return sentences.map((s, i) => ({
+    id: s.id,
+    text: s.text,
+    translation: s.translation,
+    pronunciation: s.pronunciation,
+    tips: s.tips,
+    speed: 0.8,
+    difficulty: i < 3 ? 'easy' : i < 6 ? 'medium' : 'hard',
+  }));
+}
 
 export function SpeakingView({ activity, onComplete }: SpeakingViewProps) {
   const [mode, setMode] = useState<ViewMode>('practice');
@@ -94,6 +111,22 @@ export function SpeakingView({ activity, onComplete }: SpeakingViewProps) {
     onComplete?.(score);
   }, [activity.evaluationChecklist, checklistCompleted, onComplete]);
 
+  const handleShadowingComplete = useCallback(
+    (results: ShadowingResult[]) => {
+      const completedCount = results.filter((r) => r.completed).length;
+      const score = Math.round((completedCount / results.length) * 100);
+      setMode('complete');
+      onComplete?.(score);
+    },
+    [onComplete]
+  );
+
+  const handleStartShadowing = useCallback(() => {
+    Speech.stop();
+    setIsPlaying(false);
+    setMode('shadowing');
+  }, []);
+
   const handleRestart = useCallback(() => {
     setMode('practice');
     setCurrentIndex(0);
@@ -112,6 +145,12 @@ export function SpeakingView({ activity, onComplete }: SpeakingViewProps) {
         <Text style={styles.statsText}>이 레슨의 문장 데이터를 불러올 수 없습니다.</Text>
       </View>
     );
+  }
+
+  // 쉐도잉 모드
+  if (mode === 'shadowing') {
+    const shadowingSentences = convertToShadowingSentences(sentences, currentIndex);
+    return <Shadowing sentences={shadowingSentences} onComplete={handleShadowingComplete} />;
   }
 
   if (mode === 'complete') {
@@ -171,6 +210,18 @@ export function SpeakingView({ activity, onComplete }: SpeakingViewProps) {
       <View style={styles.header}>
         <Text style={styles.title}>{activity.title}</Text>
         <ProgressBar current={currentIndex + 1} total={sentences.length} />
+      </View>
+
+      {/* 쉐도잉 모드 버튼 */}
+      <View style={styles.modeButtons}>
+        <Button
+          mode="outlined"
+          onPress={handleStartShadowing}
+          style={styles.modeButton}
+          icon="account-voice"
+        >
+          쉐도잉 모드
+        </Button>
       </View>
 
       <ScrollView style={styles.sentenceContainer} contentContainerStyle={styles.sentenceContent}>
@@ -278,6 +329,13 @@ const styles = StyleSheet.create({
   },
   header: {
     padding: SIZES.spacing.md,
+  },
+  modeButtons: {
+    paddingHorizontal: SIZES.spacing.md,
+    marginBottom: SIZES.spacing.sm,
+  },
+  modeButton: {
+    borderColor: COLORS.primary,
   },
   navButton: {
     flex: 1,
