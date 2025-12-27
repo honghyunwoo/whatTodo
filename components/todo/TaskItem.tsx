@@ -2,7 +2,7 @@ import React, { memo, useCallback, useRef, useEffect } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Checkbox, Text } from 'react-native-paper';
 import { LinearGradient } from 'expo-linear-gradient';
-import { MotiView } from 'moti';
+import Animated, { FadeInLeft } from 'react-native-reanimated';
 import { Ionicons } from '@expo/vector-icons';
 import LottieView from 'lottie-react-native';
 import { useRouter } from 'expo-router';
@@ -88,16 +88,7 @@ function TaskItemComponent({ task, onPress, index = 0 }: TaskItemProps) {
   }, [handleToggle]);
 
   return (
-    <MotiView
-      from={{ opacity: 0, translateX: -20 }}
-      animate={{ opacity: 1, translateX: 0 }}
-      transition={{
-        type: 'timing',
-        duration: 300,
-        delay: index * 50,
-      }}
-      style={styles.wrapper}
-    >
+    <Animated.View entering={FadeInLeft.duration(300).delay(index * 50)} style={styles.wrapper}>
       <SwipeableRow
         leftAction={{
           icon: task.completed ? 'arrow-undo' : 'checkmark',
@@ -203,7 +194,7 @@ function TaskItemComponent({ task, onPress, index = 0 }: TaskItemProps) {
           )}
         </TouchableOpacity>
       </SwipeableRow>
-    </MotiView>
+    </Animated.View>
   );
 }
 

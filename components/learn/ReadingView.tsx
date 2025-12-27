@@ -20,6 +20,11 @@ export function ReadingView({ activity, onComplete }: ReadingViewProps) {
   const [score, setScore] = useState(0);
   const [showVocabulary, setShowVocabulary] = useState(false);
 
+  // Null safety: activity.passage, activity.vocabulary, activity.questions가 없으면 기본값 사용
+  const passage = activity?.passage;
+  const vocabulary = activity?.vocabulary ?? [];
+  const questions = activity?.questions ?? [];
+
   const handleStartQuiz = useCallback(() => {
     setMode('quiz');
   }, []);
@@ -42,7 +47,28 @@ export function ReadingView({ activity, onComplete }: ReadingViewProps) {
   }, []);
 
   if (mode === 'quiz') {
-    return <QuizView exercises={activity.questions} onComplete={handleQuizComplete} />;
+    if (questions.length === 0) {
+      return (
+        <View style={styles.completedContainer}>
+          <Text style={styles.completedIcon}>📄</Text>
+          <Text style={styles.completedTitle}>퀴즈 데이터 없음</Text>
+        </View>
+      );
+    }
+    return <QuizView exercises={questions} onComplete={handleQuizComplete} />;
+  }
+
+  // 지문 데이터가 없는 경우
+  if (!passage?.text) {
+    return (
+      <View style={styles.completedContainer}>
+        <Text style={styles.completedIcon}>📄</Text>
+        <Text style={styles.completedTitle}>읽기 데이터 없음</Text>
+        <Text style={{ color: '#666', textAlign: 'center' }}>
+          이 레슨의 지문 데이터를 불러올 수 없습니다.
+        </Text>
+      </View>
+    );
   }
 
   if (mode === 'complete') {
@@ -67,10 +93,10 @@ export function ReadingView({ activity, onComplete }: ReadingViewProps) {
         <Card.Content>
           <View style={styles.passageHeader}>
             <Text style={styles.passageLabel}>지문</Text>
-            <Text style={styles.wordCount}>{activity.passage.wordCount} words</Text>
+            <Text style={styles.wordCount}>{passage.wordCount ?? 0} words</Text>
           </View>
           <Divider style={styles.divider} />
-          <Text style={styles.passageText}>{activity.passage.text}</Text>
+          <Text style={styles.passageText}>{passage.text}</Text>
         </Card.Content>
       </Card>
 
@@ -80,14 +106,14 @@ export function ReadingView({ activity, onComplete }: ReadingViewProps) {
         style={styles.vocabularyToggle}
         icon={showVocabulary ? 'chevron-up' : 'chevron-down'}
       >
-        핵심 어휘 ({activity.vocabulary.length}개)
+        핵심 어휘 ({vocabulary.length}개)
       </Button>
 
-      {showVocabulary && (
+      {showVocabulary && vocabulary.length > 0 && (
         <Card style={styles.vocabularyCard}>
           <Card.Content>
             <View style={styles.vocabularyList}>
-              {activity.vocabulary.map((vocab, index) => (
+              {vocabulary.map((vocab, index) => (
                 <Chip key={index} style={styles.vocabularyChip} textStyle={styles.vocabularyText}>
                   {vocab.word}: {vocab.meaning}
                 </Chip>
@@ -97,8 +123,13 @@ export function ReadingView({ activity, onComplete }: ReadingViewProps) {
         </Card>
       )}
 
-      <Button mode="contained" onPress={handleStartQuiz} style={styles.quizButton}>
-        독해 퀴즈 시작 ({activity.questions.length}문제)
+      <Button
+        mode="contained"
+        onPress={handleStartQuiz}
+        style={styles.quizButton}
+        disabled={questions.length === 0}
+      >
+        독해 퀴즈 시작 ({questions.length}문제)
       </Button>
     </ScrollView>
   );

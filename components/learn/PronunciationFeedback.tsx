@@ -6,11 +6,10 @@
  */
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { MotiView } from 'moti';
 import React, { useCallback, useState, useRef, useEffect } from 'react';
 import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { Card, Text } from 'react-native-paper';
-import Animated, { FadeIn } from 'react-native-reanimated';
+import Animated, { FadeIn, FadeInUp } from 'react-native-reanimated';
 
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
@@ -193,11 +192,7 @@ export function PronunciationFeedback({
     <Animated.View entering={FadeIn.duration(300)} style={styles.container}>
       <ScrollView showsVerticalScrollIndicator={false}>
         {/* Expected Text Card */}
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'spring', damping: 15 }}
-        >
+        <Animated.View entering={FadeInUp.duration(300)}>
           <Card style={[styles.textCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}>
             <Card.Content>
               <View style={styles.textHeader}>
@@ -211,14 +206,10 @@ export function PronunciationFeedback({
               </Text>
             </Card.Content>
           </Card>
-        </MotiView>
+        </Animated.View>
 
         {/* Playback Comparison Card */}
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'spring', damping: 15, delay: 100 }}
-        >
+        <Animated.View entering={FadeInUp.duration(300).delay(100)}>
           <Card
             style={[
               styles.comparisonCard,
@@ -305,14 +296,10 @@ export function PronunciationFeedback({
               </View>
             </Card.Content>
           </Card>
-        </MotiView>
+        </Animated.View>
 
         {/* Self-Check Criteria */}
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'spring', damping: 15, delay: 200 }}
-        >
+        <Animated.View entering={FadeInUp.duration(300).delay(200)}>
           <Card
             style={[styles.criteriaCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
           >
@@ -383,14 +370,10 @@ export function PronunciationFeedback({
               </View>
             </Card.Content>
           </Card>
-        </MotiView>
+        </Animated.View>
 
         {/* Self-Rating Section */}
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'spring', damping: 15, delay: 300 }}
-        >
+        <Animated.View entering={FadeInUp.duration(300).delay(300)}>
           <Card
             style={[styles.ratingCard, { backgroundColor: isDark ? '#1C1C1E' : COLORS.background }]}
           >
@@ -488,14 +471,10 @@ export function PronunciationFeedback({
               </View>
             </Card.Content>
           </Card>
-        </MotiView>
+        </Animated.View>
 
         {/* Tips Section */}
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'spring', damping: 15, delay: 400 }}
-        >
+        <Animated.View entering={FadeInUp.duration(300).delay(400)}>
           <View style={[styles.tipsContainer, { backgroundColor: 'rgba(245, 158, 11, 0.1)' }]}>
             <MaterialCommunityIcons name="lightbulb-outline" size={20} color="#f59e0b" />
             <View style={styles.tipsContent}>
@@ -509,15 +488,10 @@ export function PronunciationFeedback({
               </Text>
             </View>
           </View>
-        </MotiView>
+        </Animated.View>
 
         {/* Action Buttons */}
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'spring', damping: 15, delay: 500 }}
-          style={styles.actionsContainer}
-        >
+        <Animated.View entering={FadeInUp.duration(300).delay(500)} style={styles.actionsContainer}>
           <Pressable
             style={[styles.retryButton, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
             onPress={handleRetry}
@@ -533,7 +507,7 @@ export function PronunciationFeedback({
             <Text style={styles.continueButtonText}>Continue</Text>
             <MaterialCommunityIcons name="arrow-right" size={20} color="#fff" />
           </Pressable>
-        </MotiView>
+        </Animated.View>
       </ScrollView>
     </Animated.View>
   );

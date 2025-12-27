@@ -5,11 +5,10 @@
  */
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { MotiView } from 'moti';
 import React, { useCallback, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import { Card, Text } from 'react-native-paper';
-import Animated, { FadeIn, FadeOut } from 'react-native-reanimated';
+import Animated, { FadeIn, FadeOut, FadeInUp, ZoomIn } from 'react-native-reanimated';
 
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
@@ -131,11 +130,11 @@ export function TrueFalse({ questions, onComplete }: TrueFalseProps) {
   return (
     <View style={[styles.container, { backgroundColor: colors.background }]}>
       {/* Progress Bar */}
-      <View style={[styles.progressContainer, { backgroundColor: isDark ? '#38383A' : COLORS.border }]}>
-        <MotiView
-          animate={{ width: `${progress}%` }}
-          transition={{ type: 'timing', duration: 300 }}
-          style={[styles.progressBar, { backgroundColor: COLORS.primary }]}
+      <View
+        style={[styles.progressContainer, { backgroundColor: isDark ? '#38383A' : COLORS.border }]}
+      >
+        <View
+          style={[styles.progressBar, { backgroundColor: COLORS.primary, width: `${progress}%` }]}
         />
       </View>
       <Text style={[styles.progressText, { color: colors.textSecondary }]}>
@@ -143,13 +142,10 @@ export function TrueFalse({ questions, onComplete }: TrueFalseProps) {
       </Text>
 
       {/* Question Card */}
-      <MotiView
-        key={currentIndex}
-        from={{ opacity: 0, translateX: 30 }}
-        animate={{ opacity: 1, translateX: 0 }}
-        transition={{ type: 'timing', duration: 300 }}
-      >
-        <Card style={[styles.questionCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}>
+      <Animated.View key={currentIndex} entering={FadeInUp.duration(300)}>
+        <Card
+          style={[styles.questionCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
+        >
           <Card.Content>
             {/* Difficulty Badge */}
             {currentQuestion.difficulty && (
@@ -159,16 +155,16 @@ export function TrueFalse({ questions, onComplete }: TrueFalseProps) {
                     currentQuestion.difficulty === 'easy'
                       ? 'circle-outline'
                       : currentQuestion.difficulty === 'medium'
-                      ? 'circle-half-full'
-                      : 'circle'
+                        ? 'circle-half-full'
+                        : 'circle'
                   }
                   size={14}
                   color={
                     currentQuestion.difficulty === 'easy'
                       ? '#22c55e'
                       : currentQuestion.difficulty === 'medium'
-                      ? '#f59e0b'
-                      : '#ef4444'
+                        ? '#f59e0b'
+                        : '#ef4444'
                   }
                 />
                 <Text
@@ -179,16 +175,16 @@ export function TrueFalse({ questions, onComplete }: TrueFalseProps) {
                         currentQuestion.difficulty === 'easy'
                           ? '#22c55e'
                           : currentQuestion.difficulty === 'medium'
-                          ? '#f59e0b'
-                          : '#ef4444',
+                            ? '#f59e0b'
+                            : '#ef4444',
                     },
                   ]}
                 >
                   {currentQuestion.difficulty === 'easy'
                     ? 'Easy'
                     : currentQuestion.difficulty === 'medium'
-                    ? 'Medium'
-                    : 'Hard'}
+                      ? 'Medium'
+                      : 'Hard'}
                 </Text>
               </View>
             )}
@@ -201,16 +197,11 @@ export function TrueFalse({ questions, onComplete }: TrueFalseProps) {
             </Text>
           </Card.Content>
         </Card>
-      </MotiView>
+      </Animated.View>
 
       {/* True/False Buttons */}
       <View style={styles.buttonsContainer}>
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'timing', duration: 300, delay: 100 }}
-          style={styles.buttonWrapper}
-        >
+        <Animated.View entering={FadeInUp.duration(300).delay(100)} style={styles.buttonWrapper}>
           <Pressable
             style={getButtonStyle(true)}
             onPress={() => handleSelect(true)}
@@ -223,12 +214,12 @@ export function TrueFalse({ questions, onComplete }: TrueFalseProps) {
                 selectedAnswer === null
                   ? '#22c55e'
                   : selectedAnswer === true && isCorrect
-                  ? '#fff'
-                  : selectedAnswer === true
-                  ? '#fff'
-                  : currentQuestion.isTrue && !isCorrect
-                  ? '#fff'
-                  : '#9ca3af'
+                    ? '#fff'
+                    : selectedAnswer === true
+                      ? '#fff'
+                      : currentQuestion.isTrue && !isCorrect
+                        ? '#fff'
+                        : '#9ca3af'
               }
             />
             <Text
@@ -239,24 +230,19 @@ export function TrueFalse({ questions, onComplete }: TrueFalseProps) {
                     selectedAnswer === null
                       ? '#22c55e'
                       : selectedAnswer === true
-                      ? '#fff'
-                      : currentQuestion.isTrue && !isCorrect
-                      ? '#fff'
-                      : '#9ca3af',
+                        ? '#fff'
+                        : currentQuestion.isTrue && !isCorrect
+                          ? '#fff'
+                          : '#9ca3af',
                 },
               ]}
             >
               TRUE
             </Text>
           </Pressable>
-        </MotiView>
+        </Animated.View>
 
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'timing', duration: 300, delay: 200 }}
-          style={styles.buttonWrapper}
-        >
+        <Animated.View entering={FadeInUp.duration(300).delay(200)} style={styles.buttonWrapper}>
           <Pressable
             style={getButtonStyle(false)}
             onPress={() => handleSelect(false)}
@@ -269,12 +255,12 @@ export function TrueFalse({ questions, onComplete }: TrueFalseProps) {
                 selectedAnswer === null
                   ? '#ef4444'
                   : selectedAnswer === false && isCorrect
-                  ? '#fff'
-                  : selectedAnswer === false
-                  ? '#fff'
-                  : !currentQuestion.isTrue && !isCorrect
-                  ? '#fff'
-                  : '#9ca3af'
+                    ? '#fff'
+                    : selectedAnswer === false
+                      ? '#fff'
+                      : !currentQuestion.isTrue && !isCorrect
+                        ? '#fff'
+                        : '#9ca3af'
               }
             />
             <Text
@@ -285,27 +271,23 @@ export function TrueFalse({ questions, onComplete }: TrueFalseProps) {
                     selectedAnswer === null
                       ? '#ef4444'
                       : selectedAnswer === false
-                      ? '#fff'
-                      : !currentQuestion.isTrue && !isCorrect
-                      ? '#fff'
-                      : '#9ca3af',
+                        ? '#fff'
+                        : !currentQuestion.isTrue && !isCorrect
+                          ? '#fff'
+                          : '#9ca3af',
                 },
               ]}
             >
               FALSE
             </Text>
           </Pressable>
-        </MotiView>
+        </Animated.View>
       </View>
 
       {/* Explanation */}
       {showExplanation && (
         <Animated.View entering={FadeIn.duration(300)} exiting={FadeOut.duration(200)}>
-          <MotiView
-            from={{ opacity: 0, translateY: 20 }}
-            animate={{ opacity: 1, translateY: 0 }}
-            transition={{ type: 'spring', damping: 15 }}
-          >
+          <Animated.View entering={FadeInUp.duration(300)}>
             <Card
               style={[
                 styles.explanationCard,
@@ -320,12 +302,7 @@ export function TrueFalse({ questions, onComplete }: TrueFalseProps) {
                     size={28}
                     color={isCorrect ? '#22c55e' : '#ef4444'}
                   />
-                  <Text
-                    style={[
-                      styles.resultText,
-                      { color: isCorrect ? '#22c55e' : '#ef4444' },
-                    ]}
-                  >
+                  <Text style={[styles.resultText, { color: isCorrect ? '#22c55e' : '#ef4444' }]}>
                     {isCorrect ? 'Correct!' : 'Incorrect'}
                   </Text>
                 </View>
@@ -368,17 +345,13 @@ export function TrueFalse({ questions, onComplete }: TrueFalseProps) {
                 )}
               </Card.Content>
             </Card>
-          </MotiView>
+          </Animated.View>
         </Animated.View>
       )}
 
       {/* Next Button */}
       {selectedAnswer !== null && (
-        <MotiView
-          from={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ type: 'spring', damping: 12 }}
-        >
+        <Animated.View entering={ZoomIn.duration(300)}>
           <Pressable
             style={[styles.nextButton, { backgroundColor: COLORS.primary }]}
             onPress={handleNext}
@@ -388,7 +361,7 @@ export function TrueFalse({ questions, onComplete }: TrueFalseProps) {
             </Text>
             <MaterialCommunityIcons name="arrow-right" size={20} color="#fff" />
           </Pressable>
-        </MotiView>
+        </Animated.View>
       )}
     </View>
   );

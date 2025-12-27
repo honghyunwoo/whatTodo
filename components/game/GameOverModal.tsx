@@ -2,7 +2,7 @@ import React, { memo, useEffect, useRef } from 'react';
 import { StyleSheet, TouchableOpacity, View } from 'react-native';
 import { Text } from 'react-native-paper';
 import LottieView from 'lottie-react-native';
-import { MotiView } from 'moti';
+import Animated, { ZoomIn, FadeInUp } from 'react-native-reanimated';
 
 import { SIZES } from '@/constants/sizes';
 import { useTheme } from '@/contexts/ThemeContext';
@@ -60,47 +60,25 @@ function GameOverModalComponent({
           </View>
         )}
 
-        <MotiView
-          from={{ scale: 0.8, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ type: 'spring', damping: 12 }}
-        >
+        <Animated.View entering={ZoomIn.springify().damping(12)}>
           <Text
-            style={[
-              styles.title,
-              { color: isWon ? '#edc22e' : isDark ? '#8E8E93' : '#776e65' },
-            ]}
+            style={[styles.title, { color: isWon ? '#edc22e' : isDark ? '#8E8E93' : '#776e65' }]}
           >
             {isWon ? '🎉 축하합니다!' : '😢 게임 오버'}
           </Text>
-        </MotiView>
+        </Animated.View>
 
-        <MotiView
-          from={{ translateY: 20, opacity: 0 }}
-          animate={{ translateY: 0, opacity: 1 }}
-          transition={{ type: 'timing', duration: 300, delay: 100 }}
-        >
+        <Animated.View entering={FadeInUp.duration(300).delay(100)}>
           <Text style={[styles.message, { color: colors.textSecondary }]}>
             {isWon ? '2048을 달성했습니다!' : '더 이상 이동할 수 없습니다'}
           </Text>
-        </MotiView>
+        </Animated.View>
 
-        <MotiView
-          from={{ scale: 0.5, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ type: 'spring', damping: 10, delay: 200 }}
-        >
-          <Text style={[styles.score, { color: colors.text }]}>
-            점수: {score.toLocaleString()}
-          </Text>
-        </MotiView>
+        <Animated.View entering={ZoomIn.springify().damping(10).delay(200)}>
+          <Text style={[styles.score, { color: colors.text }]}>점수: {score.toLocaleString()}</Text>
+        </Animated.View>
 
-        <MotiView
-          from={{ translateY: 30, opacity: 0 }}
-          animate={{ translateY: 0, opacity: 1 }}
-          transition={{ type: 'timing', duration: 300, delay: 300 }}
-          style={styles.buttons}
-        >
+        <Animated.View entering={FadeInUp.duration(300).delay(300)} style={styles.buttons}>
           {isWon && onContinue && (
             <TouchableOpacity
               style={[styles.button, styles.continueButton]}
@@ -118,7 +96,7 @@ function GameOverModalComponent({
           >
             <Text style={styles.buttonText}>새 게임</Text>
           </TouchableOpacity>
-        </MotiView>
+        </Animated.View>
       </View>
     </BlurModal>
   );

@@ -20,6 +20,10 @@ export function GrammarView({ activity, onComplete }: GrammarViewProps) {
   const [score, setScore] = useState(0);
   const [earnedXP, setEarnedXP] = useState(0);
 
+  // Null safety: activity.rules와 activity.exercises가 없으면 빈 배열 사용
+  const rules = activity?.rules ?? [];
+  const exercises = activity?.exercises ?? [];
+
   const handleStartQuiz = useCallback(() => {
     setMode('quiz');
   }, []);
@@ -43,7 +47,15 @@ export function GrammarView({ activity, onComplete }: GrammarViewProps) {
   }, []);
 
   if (mode === 'quiz') {
-    return <QuizView exercises={activity.exercises} onComplete={handleQuizComplete} />;
+    if (exercises.length === 0) {
+      return (
+        <View style={styles.completedContainer}>
+          <Text style={styles.completedIcon}>📝</Text>
+          <Text style={styles.completedTitle}>퀴즈 데이터 없음</Text>
+        </View>
+      );
+    }
+    return <QuizView exercises={exercises} onComplete={handleQuizComplete} />;
   }
 
   if (mode === 'complete') {
@@ -65,7 +77,7 @@ export function GrammarView({ activity, onComplete }: GrammarViewProps) {
       <Text style={styles.title}>{activity.title}</Text>
       {activity.description && <Text style={styles.description}>{activity.description}</Text>}
 
-      {activity.rules.map((rule, index) => (
+      {rules.map((rule, index) => (
         <Card key={rule.id} style={styles.ruleCard}>
           <Card.Content>
             <Text style={styles.ruleNumber}>규칙 {index + 1}</Text>
@@ -88,8 +100,13 @@ export function GrammarView({ activity, onComplete }: GrammarViewProps) {
         </Card>
       ))}
 
-      <Button mode="contained" onPress={handleStartQuiz} style={styles.quizButton}>
-        퀴즈 시작 ({activity.exercises.length}문제)
+      <Button
+        mode="contained"
+        onPress={handleStartQuiz}
+        style={styles.quizButton}
+        disabled={exercises.length === 0}
+      >
+        퀴즈 시작 ({exercises.length}문제)
       </Button>
     </ScrollView>
   );

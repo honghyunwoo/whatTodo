@@ -15,34 +15,43 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Todo',
+          title: '오늘',
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="checkbox-outline" size={size} color={color} />
+            <Ionicons name="today-outline" size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="calendar"
+        options={{
+          title: '캘린더',
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="calendar-outline" size={size} color={color} />
           ),
         }}
       />
       <Tabs.Screen
         name="learn"
         options={{
-          title: 'Learn',
+          title: '학습',
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="book-outline" size={size} color={color} />
           ),
         }}
       />
       <Tabs.Screen
-        name="game"
+        name="records"
         options={{
-          title: 'Game',
+          title: '기록',
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="game-controller-outline" size={size} color={color} />
+            <Ionicons name="library-outline" size={size} color={color} />
           ),
         }}
       />
       <Tabs.Screen
         name="settings"
         options={{
-          title: 'Settings',
+          title: '설정',
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="settings-outline" size={size} color={color} />
           ),

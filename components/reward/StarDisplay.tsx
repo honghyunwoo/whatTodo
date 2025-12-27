@@ -1,12 +1,15 @@
 import React, { useEffect } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { MotiView } from 'moti';
 import { Ionicons } from '@expo/vector-icons';
 import Animated, {
   useSharedValue,
   useAnimatedStyle,
   withSpring,
   withSequence,
+  withTiming,
+  ZoomIn,
+  FadeOut,
+  FadeIn,
 } from 'react-native-reanimated';
 
 import { useRewardStore } from '@/store/rewardStore';
@@ -48,7 +51,7 @@ const STAR_COLORS = {
 };
 
 export function StarDisplay({ size = 'md', showAnimation = true }: StarDisplayProps) {
-  const { stars, todayStarsEarned } = useRewardStore();
+  const { stars } = useRewardStore();
   const { isDark } = useTheme();
   const config = SIZE_CONFIG[size];
 
@@ -65,7 +68,7 @@ export function StarDisplay({ size = 'md', showAnimation = true }: StarDisplayPr
       );
     }
     prevStars.value = stars;
-  }, [stars, showAnimation]);
+  }, [stars, showAnimation, prevStars, scale]);
 
   const animatedStyle = useAnimatedStyle(() => ({
     transform: [{ scale: scale.value }],
@@ -78,11 +81,7 @@ export function StarDisplay({ size = 'md', showAnimation = true }: StarDisplayPr
   };
 
   return (
-    <MotiView
-      from={{ opacity: 0, scale: 0.8 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ type: 'spring', damping: 15 }}
-    >
+    <Animated.View entering={ZoomIn.springify().damping(15)}>
       <Animated.View
         style={[
           styles.container,
@@ -96,11 +95,7 @@ export function StarDisplay({ size = 'md', showAnimation = true }: StarDisplayPr
         ]}
       >
         <View style={[styles.iconWrapper, { marginRight: config.gap }]}>
-          <Ionicons
-            name="star"
-            size={config.iconSize}
-            color={STAR_COLORS.primary}
-          />
+          <Ionicons name="star" size={config.iconSize} color={STAR_COLORS.primary} />
         </View>
         <Text
           style={[
@@ -114,7 +109,7 @@ export function StarDisplay({ size = 'md', showAnimation = true }: StarDisplayPr
           {formatNumber(stars)}
         </Text>
       </Animated.View>
-    </MotiView>
+    </Animated.View>
   );
 }
 
@@ -126,12 +121,7 @@ export function StarDisplayCompact() {
   return (
     <View style={styles.compactContainer}>
       <Ionicons name="star" size={18} color={STAR_COLORS.primary} />
-      <Text
-        style={[
-          styles.compactText,
-          { color: isDark ? '#FFFFFF' : '#333333' },
-        ]}
-      >
+      <Text style={[styles.compactText, { color: isDark ? '#FFFFFF' : '#333333' }]}>
         {stars.toLocaleString()}
       </Text>
     </View>
@@ -146,19 +136,26 @@ interface FloatingRewardProps {
 }
 
 export function FloatingReward({ amount, visible, onComplete }: FloatingRewardProps) {
+  useEffect(() => {
+    if (visible && amount > 0) {
+      const timer = setTimeout(() => {
+        onComplete();
+      }, 1200);
+      return () => clearTimeout(timer);
+    }
+  }, [visible, amount, onComplete]);
+
   if (!visible || amount <= 0) return null;
 
   return (
-    <MotiView
-      from={{ opacity: 1, translateY: 0 }}
-      animate={{ opacity: 0, translateY: -50 }}
-      transition={{ type: 'timing', duration: 1200 }}
-      onDidAnimate={() => onComplete()}
+    <Animated.View
+      entering={FadeIn.duration(200)}
+      exiting={FadeOut.duration(1000)}
       style={styles.floatingContainer}
     >
       <Ionicons name="star" size={20} color={STAR_COLORS.primary} />
       <Text style={styles.floatingText}>+{amount}</Text>
-    </MotiView>
+    </Animated.View>
   );
 }
 

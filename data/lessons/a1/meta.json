@@ -1,0 +1,180 @@
+{
+  "id": "a1",
+  "level": "A1",
+  "title": "기초 입문",
+  "description": "영어의 기본 인사, 자기소개, 일상 표현을 학습합니다.",
+  "goal": "해외여행에서 기본 의사소통 가능",
+  "icon": "🌱",
+  "color": "#4CAF50",
+  "estimatedHours": 20,
+  "units": [
+    {
+      "id": "a1-u1",
+      "title": "첫 만남",
+      "description": "기본 인사와 자기소개 표현을 배웁니다.",
+      "icon": "👋",
+      "themeColor": "#2196F3",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "a1-u1-l1",
+          "title": "Hello & Goodbye",
+          "subtitle": "기본 인사 표현",
+          "estimatedMinutes": 12,
+          "keyPhrasesCount": 5,
+          "prerequisites": [],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "greetings",
+          "objectives": [
+            "기본 인사 표현 5개 익히기",
+            "인사에 대한 적절한 응답하기",
+            "격식/비격식 인사 구분하기"
+          ],
+          "weekMapping": "week-1"
+        },
+        {
+          "id": "a1-u1-l2",
+          "title": "Where are you from?",
+          "subtitle": "출신과 직업 소개",
+          "estimatedMinutes": 12,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["a1-u1-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "introduction",
+          "objectives": [
+            "출신 국가 말하기",
+            "직업 소개하기",
+            "간단한 질문에 답하기"
+          ],
+          "weekMapping": "week-2"
+        }
+      ]
+    },
+    {
+      "id": "a1-u2",
+      "title": "일상 필수",
+      "description": "쇼핑, 음식 주문, 길 찾기 등 필수 상황을 배웁니다.",
+      "icon": "🛒",
+      "themeColor": "#FF9800",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "a1-u2-l1",
+          "title": "Shopping Basics",
+          "subtitle": "기본 쇼핑 표현",
+          "estimatedMinutes": 12,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["a1-u1-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "shopping",
+          "objectives": [
+            "가격 묻고 답하기",
+            "물건 요청하기",
+            "결제 관련 표현"
+          ],
+          "weekMapping": "week-3"
+        },
+        {
+          "id": "a1-u2-l2",
+          "title": "Ordering Food",
+          "subtitle": "음식 주문하기",
+          "estimatedMinutes": 12,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["a1-u2-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "food",
+          "objectives": [
+            "메뉴 주문하기",
+            "음식 선호도 표현하기",
+            "계산 요청하기"
+          ],
+          "weekMapping": "week-4"
+        }
+      ]
+    },
+    {
+      "id": "a1-u3",
+      "title": "의사소통",
+      "description": "전화, 약속, 일상 대화를 배웁니다.",
+      "icon": "📱",
+      "themeColor": "#9C27B0",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "a1-u3-l1",
+          "title": "Phone & Messaging",
+          "subtitle": "전화와 메시지",
+          "estimatedMinutes": 12,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["a1-u2-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "communication",
+          "objectives": [
+            "전화 받고 걸기",
+            "메시지 작성하기",
+            "통화 중 표현"
+          ],
+          "weekMapping": "week-5"
+        },
+        {
+          "id": "a1-u3-l2",
+          "title": "Making Plans",
+          "subtitle": "약속 잡기",
+          "estimatedMinutes": 12,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["a1-u3-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "scheduling",
+          "objectives": [
+            "날짜와 시간 말하기",
+            "약속 제안하기",
+            "일정 조율하기"
+          ],
+          "weekMapping": "week-6"
+        }
+      ]
+    },
+    {
+      "id": "a1-u4",
+      "title": "문제 해결",
+      "description": "도움 요청, 감정 표현, 의견 말하기를 배웁니다.",
+      "icon": "💡",
+      "themeColor": "#F44336",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "a1-u4-l1",
+          "title": "Asking for Help",
+          "subtitle": "도움 요청하기",
+          "estimatedMinutes": 12,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["a1-u3-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "help",
+          "objectives": [
+            "공손하게 도움 요청하기",
+            "길 묻기",
+            "문제 상황 설명하기"
+          ],
+          "weekMapping": "week-7"
+        },
+        {
+          "id": "a1-u4-l2",
+          "title": "Expressing Feelings",
+          "subtitle": "감정과 의견 표현",
+          "estimatedMinutes": 12,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["a1-u4-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "feelings",
+          "objectives": [
+            "기본 감정 표현하기",
+            "좋아하는 것 말하기",
+            "간단한 의견 표현하기"
+          ],
+          "weekMapping": "week-8"
+        }
+      ]
+    }
+  ]
+}

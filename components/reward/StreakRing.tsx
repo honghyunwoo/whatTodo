@@ -1,12 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import Svg, { Circle, Defs, LinearGradient, Stop } from 'react-native-svg';
-import { MotiView } from 'moti';
-import Animated, {
-  useAnimatedProps,
-  withTiming,
-  Easing,
-} from 'react-native-reanimated';
+import Animated, { useAnimatedProps, withTiming, Easing, ZoomIn } from 'react-native-reanimated';
 
 import { useRewardStore } from '@/store/rewardStore';
 import { useTheme } from '@/contexts/ThemeContext';
@@ -29,11 +24,7 @@ const getStreakColor = (streak: number): { start: string; end: string } => {
   return { start: '#A0A0A0', end: '#C0C0C0' }; // Gray
 };
 
-export function StreakRing({
-  size = 100,
-  strokeWidth = 10,
-  maxStreak = 30,
-}: StreakRingProps) {
+export function StreakRing({ size = 100, strokeWidth = 10, maxStreak = 30 }: StreakRingProps) {
   const { streak, longestStreak } = useRewardStore();
   const { isDark } = useTheme();
 
@@ -52,12 +43,7 @@ export function StreakRing({
   }));
 
   return (
-    <MotiView
-      from={{ opacity: 0, scale: 0.8 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ type: 'spring', damping: 12 }}
-      style={styles.container}
-    >
+    <Animated.View entering={ZoomIn.springify().damping(12)} style={styles.container}>
       <View style={[styles.ringContainer, { width: size, height: size }]}>
         <Svg width={size} height={size} style={styles.svg}>
           <Defs>
@@ -129,7 +115,7 @@ export function StreakRing({
           </Text>
         </View>
       )}
-    </MotiView>
+    </Animated.View>
   );
 }
 
@@ -148,20 +134,8 @@ export function StreakBadge() {
         { backgroundColor: isDark ? 'rgba(255,107,107,0.2)' : 'rgba(255,107,107,0.1)' },
       ]}
     >
-      <View
-        style={[
-          styles.badgeIndicator,
-          { backgroundColor: colors.start },
-        ]}
-      />
-      <Text
-        style={[
-          styles.badgeText,
-          { color: isDark ? '#FFFFFF' : '#333333' },
-        ]}
-      >
-        {streak}
-      </Text>
+      <View style={[styles.badgeIndicator, { backgroundColor: colors.start }]} />
+      <Text style={[styles.badgeText, { color: isDark ? '#FFFFFF' : '#333333' }]}>{streak}</Text>
     </View>
   );
 }

@@ -7,11 +7,12 @@
  */
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { MotiView } from 'moti';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import { Text } from 'react-native-paper';
 import Animated, {
+  FadeInUp,
+  ZoomIn,
   useAnimatedStyle,
   useSharedValue,
   withRepeat,
@@ -366,16 +367,12 @@ export function SpeechRecorder({
       {/* Audio Level Visualization */}
       <View style={styles.levelsContainer}>
         {audioLevels.map((level, index) => (
-          <MotiView
+          <View
             key={index}
-            animate={{
-              height: level * 40 + 8,
-              backgroundColor: phase === 'recording' ? '#ef4444' : COLORS.border,
-            }}
-            transition={{ type: 'timing', duration: 100 }}
             style={[
               styles.levelBar,
               {
+                height: level * 40 + 8,
                 backgroundColor: phase === 'recording' ? '#ef4444' : COLORS.border,
               },
             ]}
@@ -417,18 +414,13 @@ export function SpeechRecorder({
 
       {/* Duration Display */}
       {phase === 'recording' && (
-        <MotiView
-          from={{ opacity: 0, translateY: 10 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'timing', duration: 200 }}
-          style={styles.durationContainer}
-        >
+        <Animated.View entering={FadeInUp.duration(200)} style={styles.durationContainer}>
           <View style={styles.recordingDot} />
           <Text style={styles.durationText}>{formatDuration(duration)}</Text>
           <Text style={[styles.maxDurationText, { color: colors.textSecondary }]}>
             / {formatDuration(maxDuration)}
           </Text>
-        </MotiView>
+        </Animated.View>
       )}
 
       {/* Status Text */}
@@ -440,12 +432,7 @@ export function SpeechRecorder({
 
       {/* Recorded Phase - Playback and Self-Check */}
       {phase === 'recorded' && (
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'spring', damping: 15 }}
-          style={styles.recordedContainer}
-        >
+        <Animated.View entering={FadeInUp.duration(300)} style={styles.recordedContainer}>
           <View
             style={[styles.recordedCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
           >
@@ -491,17 +478,12 @@ export function SpeechRecorder({
               <Text style={styles.checkButtonText}>Compare & Rate</Text>
             </Pressable>
           </View>
-        </MotiView>
+        </Animated.View>
       )}
 
       {/* Self-Check Phase */}
       {phase === 'self-check' && (
-        <MotiView
-          from={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ type: 'spring', damping: 15 }}
-          style={styles.selfCheckContainer}
-        >
+        <Animated.View entering={ZoomIn.duration(300)} style={styles.selfCheckContainer}>
           <View
             style={[
               styles.selfCheckCard,
@@ -560,7 +542,7 @@ export function SpeechRecorder({
               </Pressable>
             </View>
           </View>
-        </MotiView>
+        </Animated.View>
       )}
 
       {/* Instructions */}

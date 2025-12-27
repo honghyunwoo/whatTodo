@@ -12,6 +12,7 @@ import {
   QuizResult,
   WeekProgress,
 } from '@/types/activity';
+import { useDiaryStore } from './diaryStore';
 import { useRewardStore } from './rewardStore';
 
 // ─────────────────────────────────────
@@ -143,6 +144,13 @@ export const useLearnStore = create<LearnState & LearnActions>()(
         if (__DEV__) {
           console.log(`[Learning] Earned ${starsEarned} stars for ${type} (score: ${score})`);
         }
+
+        // 일기에 학습 기록 자동 추가
+        useDiaryStore.getState().addLearningRecord({
+          activityType: type,
+          weekId,
+          score,
+        });
 
         // 주간 진행률 업데이트
         set((state) => {

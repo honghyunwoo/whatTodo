@@ -1,7 +1,7 @@
 import React, { memo, useCallback, useRef } from 'react';
 import { StyleSheet, View, Pressable, TextInput } from 'react-native';
 import { Checkbox, Text, IconButton } from 'react-native-paper';
-import { MotiView } from 'moti';
+import Animated, { FadeInLeft, FadeOutRight } from 'react-native-reanimated';
 import { Ionicons } from '@expo/vector-icons';
 
 import { useTheme } from '@/contexts/ThemeContext';
@@ -63,15 +63,9 @@ function SubTaskItemComponent({
   }, [subtask.title]);
 
   return (
-    <MotiView
-      from={{ opacity: 0, translateX: -10 }}
-      animate={{ opacity: 1, translateX: 0 }}
-      exit={{ opacity: 0, translateX: 10 }}
-      transition={{
-        type: 'timing',
-        duration: 200,
-        delay: index * 30,
-      }}
+    <Animated.View
+      entering={FadeInLeft.duration(200).delay(index * 30)}
+      exiting={FadeOutRight.duration(200)}
       style={[
         styles.container,
         {
@@ -151,7 +145,7 @@ function SubTaskItemComponent({
           />
         </View>
       )}
-    </MotiView>
+    </Animated.View>
   );
 }
 

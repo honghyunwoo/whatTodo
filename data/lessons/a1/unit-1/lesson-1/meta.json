@@ -1,0 +1,32 @@
+{
+  "id": "a1-u1-l1",
+  "unitId": "a1-u1",
+  "levelId": "a1",
+  "lessonNumber": 1,
+  "title": "Hello & Goodbye",
+  "titleKo": "안녕하세요 & 안녕히 가세요",
+  "subtitle": "Essential greetings for any situation",
+  "subtitleKo": "모든 상황에서 쓰는 필수 인사",
+  "theme": "greetings",
+  "estimatedMinutes": 15,
+  "keyPhrasesCount": 5,
+  "prerequisites": [],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "objectives": [
+    "Use formal and informal greetings",
+    "Say goodbye appropriately",
+    "Use time-based greetings (morning, afternoon, evening)"
+  ],
+  "objectivesKo": [
+    "격식체와 비격식체 인사 사용하기",
+    "적절하게 작별 인사하기",
+    "시간대별 인사 사용하기 (아침, 오후, 저녁)"
+  ],
+  "keyPhrases": [
+    { "phrase": "Hello", "meaning": "안녕하세요" },
+    { "phrase": "Goodbye", "meaning": "안녕히 가세요" },
+    { "phrase": "Good morning", "meaning": "좋은 아침이에요" },
+    { "phrase": "See you later", "meaning": "나중에 봐요" },
+    { "phrase": "Nice to meet you", "meaning": "만나서 반가워요" }
+  ]
+}

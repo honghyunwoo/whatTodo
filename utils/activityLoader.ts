@@ -117,9 +117,18 @@ export async function preloadLevel(level: CEFRLevel): Promise<void> {
     for (const type of types) {
       for (let week = 1; week <= 8; week++) {
         promises.push(
-          loadActivityFile(level, type, week).then((activity) => {
-            levelData[type][`week-${week}`] = activity;
-          })
+          loadActivityFile(level, type, week)
+            .then((activity) => {
+              levelData[type][`week-${week}`] = activity;
+            })
+            .catch((error) => {
+              console.warn(
+                `Failed to load ${level}/${type}/week-${week}:`,
+                error?.message || error
+              );
+              // null로 설정하여 로딩 실패를 표시하지만 전체 로딩은 계속 진행
+              levelData[type][`week-${week}`] = null as unknown as Activity;
+            })
         );
       }
     }

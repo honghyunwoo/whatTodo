@@ -11,7 +11,7 @@
 
 import React, { useMemo } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { MotiView } from 'moti';
+import Animated, { FadeInUp, FadeIn, useAnimatedStyle, withTiming } from 'react-native-reanimated';
 import { LinearGradient } from 'expo-linear-gradient';
 
 import { COLORS } from '@/constants/colors';
@@ -90,30 +90,17 @@ export function PersonalizedHeader({
       style={styles.container}
     >
       {/* 인사말 */}
-      <MotiView
-        from={{ opacity: 0, translateY: -10 }}
-        animate={{ opacity: 1, translateY: 0 }}
-        transition={{ type: 'timing', duration: 400 }}
-      >
+      <Animated.View entering={FadeInUp.duration(400)}>
         <Text style={styles.greeting}>{greeting}</Text>
-      </MotiView>
+      </Animated.View>
 
       {/* 동기부여 메시지 */}
-      <MotiView
-        from={{ opacity: 0, translateY: -10 }}
-        animate={{ opacity: 1, translateY: 0 }}
-        transition={{ type: 'timing', duration: 400, delay: 100 }}
-      >
+      <Animated.View entering={FadeInUp.duration(400).delay(100)}>
         <Text style={styles.motivation}>{motivation}</Text>
-      </MotiView>
+      </Animated.View>
 
       {/* 일일 목표 진행률 */}
-      <MotiView
-        from={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 200 }}
-        style={styles.progressSection}
-      >
+      <Animated.View entering={FadeIn.duration(300).delay(200)} style={styles.progressSection}>
         <View style={styles.progressLabels}>
           <Text style={styles.progressLabel}>오늘의 목표</Text>
           <Text style={styles.progressLabel}>
@@ -122,33 +109,19 @@ export function PersonalizedHeader({
         </View>
 
         <View style={styles.progressBar}>
-          <MotiView
-            from={{ width: '0%' }}
-            animate={{ width: `${progressPercent}%` }}
-            transition={{ type: 'timing', duration: 800, delay: 300 }}
-            style={styles.progressFill}
-          />
+          <View style={[styles.progressFill, { width: `${progressPercent}%` }]} />
         </View>
 
         <Text style={styles.progressMessage}>{progress}</Text>
-      </MotiView>
+      </Animated.View>
 
       {/* 스트릭 & XP 통계 */}
-      <MotiView
-        from={{ opacity: 0, translateY: 10 }}
-        animate={{ opacity: 1, translateY: 0 }}
-        transition={{ type: 'timing', duration: 400, delay: 300 }}
-        style={styles.statsContainer}
-      >
+      <Animated.View entering={FadeInUp.duration(400).delay(300)} style={styles.statsContainer}>
         {/* 스트릭 */}
         <View style={styles.statItem}>
-          <MotiView
-            from={{ scale: 1 }}
-            animate={{ scale: currentStreak >= 3 ? [1, 1.1, 1] : 1 }}
-            transition={{ type: 'timing', duration: 600, loop: currentStreak >= 3 }}
-          >
+          <View>
             <Text style={styles.statEmoji}>🔥</Text>
-          </MotiView>
+          </View>
           <Text style={styles.statValue}>{currentStreak}</Text>
           <Text style={styles.statLabel}>연속</Text>
         </View>
@@ -161,7 +134,7 @@ export function PersonalizedHeader({
           <Text style={styles.statValue}>{totalXP.toLocaleString()}</Text>
           <Text style={styles.statLabel}>XP</Text>
         </View>
-      </MotiView>
+      </Animated.View>
     </LinearGradient>
   );
 }

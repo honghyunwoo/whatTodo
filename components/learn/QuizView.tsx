@@ -7,8 +7,15 @@ import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import { Button, Card, Text } from 'react-native-paper';
 import LottieView from 'lottie-react-native';
-import { MotiView } from 'moti';
-import Animated, { FadeIn, FadeOut } from 'react-native-reanimated';
+import Animated, {
+  FadeIn,
+  FadeOut,
+  FadeInRight,
+  FadeInUp,
+  ZoomIn,
+  useAnimatedStyle,
+  withTiming,
+} from 'react-native-reanimated';
 
 import { useTheme } from '@/contexts/ThemeContext';
 import { COLORS } from '@/constants/colors';
@@ -166,10 +173,11 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
               { backgroundColor: isDark ? '#38383A' : COLORS.border },
             ]}
           >
-            <MotiView
-              animate={{ width: `${progress}%` }}
-              transition={{ type: 'timing', duration: 300 }}
-              style={[styles.progressBar, { backgroundColor: COLORS.primary }]}
+            <Animated.View
+              style={[
+                styles.progressBar,
+                { backgroundColor: COLORS.primary, width: `${progress}%` },
+              ]}
             />
           </View>
           <Text style={[styles.progressText, { color: colors.textSecondary }]}>
@@ -179,12 +187,7 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
       </View>
 
       {/* 질문 */}
-      <MotiView
-        key={currentIndex}
-        from={{ opacity: 0, translateX: 30 }}
-        animate={{ opacity: 1, translateX: 0 }}
-        transition={{ type: 'timing', duration: 300 }}
-      >
+      <Animated.View key={currentIndex} entering={FadeInRight.duration(300)}>
         <Card
           style={[styles.questionCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
         >
@@ -194,16 +197,14 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
             </Text>
           </Card.Content>
         </Card>
-      </MotiView>
+      </Animated.View>
 
       {/* 선택지 */}
       <View style={styles.optionsContainer}>
         {currentExercise.options?.map((option, index) => (
-          <MotiView
+          <Animated.View
             key={`${currentIndex}-${index}`}
-            from={{ opacity: 0, translateY: 20 }}
-            animate={{ opacity: 1, translateY: 0 }}
-            transition={{ type: 'timing', duration: 300, delay: index * 100 }}
+            entering={FadeInUp.duration(300).delay(index * 100)}
           >
             <Pressable
               style={[
@@ -215,17 +216,13 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
             >
               <Text style={getOptionTextStyle(option)}>{option}</Text>
             </Pressable>
-          </MotiView>
+          </Animated.View>
         ))}
       </View>
 
       {/* 해설 */}
       {answerState.showExplanation && currentExercise.explanation && (
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'spring', damping: 15 }}
-        >
+        <Animated.View entering={FadeInUp.springify().damping(15)}>
           <Card
             style={[
               styles.explanationCard,
@@ -246,20 +243,16 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
               </Text>
             </Card.Content>
           </Card>
-        </MotiView>
+        </Animated.View>
       )}
 
       {/* 다음 버튼 */}
       {answerState.selected && (
-        <MotiView
-          from={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ type: 'spring', damping: 12 }}
-        >
+        <Animated.View entering={ZoomIn.springify().damping(12)}>
           <Button mode="contained" onPress={handleNext} style={styles.nextButton}>
             {isLastQuestion ? '결과 보기' : '다음 문제'}
           </Button>
-        </MotiView>
+        </Animated.View>
       )}
     </View>
   );

@@ -1,7 +1,7 @@
 import React, { memo, useMemo } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Text } from 'react-native-paper';
-import { MotiView } from 'moti';
+import Animated, { useAnimatedStyle, withTiming } from 'react-native-reanimated';
 import { Ionicons } from '@expo/vector-icons';
 
 import { useTheme } from '@/contexts/ThemeContext';
@@ -24,6 +24,11 @@ function SubTaskProgressComponent({ progress, compact }: SubTaskProgressProps) {
     if (progress.percentage >= 25) return '#FF9500'; // Orange
     return isDark ? '#8E8E93' : '#A0A0A0'; // Gray
   }, [progress.percentage, isDark]);
+
+  const animatedStyle = useAnimatedStyle(() => ({
+    width: withTiming(`${progress.percentage}%`, { duration: 300 }),
+    backgroundColor: withTiming(progressColor, { duration: 300 }),
+  }));
 
   if (progress.total === 0) {
     return null;
@@ -55,17 +60,7 @@ function SubTaskProgressComponent({ progress, compact }: SubTaskProgressProps) {
 
       {/* Progress Bar */}
       <View style={[styles.progressBar, { backgroundColor: isDark ? '#3A3A3C' : '#E5E5E7' }]}>
-        <MotiView
-          animate={{
-            width: `${progress.percentage}%`,
-            backgroundColor: progressColor,
-          }}
-          transition={{
-            type: 'timing',
-            duration: 300,
-          }}
-          style={styles.progressFill}
-        />
+        <Animated.View style={[styles.progressFill, animatedStyle]} />
       </View>
 
       {/* Percentage */}

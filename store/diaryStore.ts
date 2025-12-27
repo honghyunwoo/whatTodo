@@ -6,7 +6,15 @@ import { generateId } from '@/utils/id';
 
 const DIARY_STORAGE_KEY = '@whatTodo:diary';
 
-export type MoodType = 'happy' | 'excited' | 'peaceful' | 'sad' | 'angry' | 'tired' | 'anxious' | 'neutral';
+export type MoodType =
+  | 'happy'
+  | 'excited'
+  | 'peaceful'
+  | 'sad'
+  | 'angry'
+  | 'tired'
+  | 'anxious'
+  | 'neutral';
 
 export const MOOD_CONFIG: Record<MoodType, { emoji: string; label: string; color: string }> = {
   happy: { emoji: '😊', label: '행복해요', color: '#FFD93D' },
@@ -19,6 +27,21 @@ export const MOOD_CONFIG: Record<MoodType, { emoji: string; label: string; color
   neutral: { emoji: '😐', label: '그저 그래요', color: '#95A5A6' },
 };
 
+/** 학습 기록 */
+export interface LearningRecord {
+  /** 활동 타입 */
+  activityType: string;
+  /** 레슨 또는 주차 ID */
+  lessonId?: string;
+  weekId?: string;
+  /** 점수 */
+  score: number;
+  /** 학습 시간 (초) */
+  timeSpent?: number;
+  /** 완료 시간 */
+  completedAt: string;
+}
+
 export interface DiaryEntry {
   id: string;
   date: string;
@@ -27,6 +50,8 @@ export interface DiaryEntry {
   mood?: MoodType;
   tags?: string[];
   weather?: string;
+  /** 오늘의 학습 기록 */
+  learningRecords?: LearningRecord[];
   createdAt: string;
   updatedAt: string;
 }
@@ -63,6 +88,12 @@ interface DiaryActions {
   getStats: () => DiaryStats;
   updateStreak: () => void;
   getRecentEntries: (limit: number) => DiaryEntry[];
+  /** 학습 기록 추가 (오늘 일기에 자동 기록) */
+  addLearningRecord: (record: Omit<LearningRecord, 'completedAt'>) => void;
+  /** 오늘의 학습 기록 조회 */
+  getTodayLearningRecords: () => LearningRecord[];
+  /** 특정 날짜의 학습 기록 조회 */
+  getLearningRecordsByDate: (date: string) => LearningRecord[];
 }
 
 function getTodayString(): string {
@@ -123,9 +154,7 @@ export const useDiaryStore = create<DiaryState & DiaryActions>()(
 
         set((state) => ({
           entries: state.entries.map((entry) =>
-            entry.id === id
-              ? { ...entry, ...updates, updatedAt: new Date().toISOString() }
-              : entry
+            entry.id === id ? { ...entry, ...updates, updatedAt: new Date().toISOString() } : entry
           ),
         }));
       },
@@ -250,6 +279,66 @@ export const useDiaryStore = create<DiaryState & DiaryActions>()(
         return get()
           .entries.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
           .slice(0, limit);
+      },
+
+      addLearningRecord: (record) => {
+        const today = getTodayString();
+        const now = new Date().toISOString();
+
+        const newRecord: LearningRecord = {
+          ...record,
+          completedAt: now,
+        };
+
+        const existingEntry = get().entries.find((e) => e.date === today);
+
+        if (existingEntry) {
+          // 기존 일기에 학습 기록 추가
+          const updatedRecords = [...(existingEntry.learningRecords || []), newRecord];
+          set((state) => ({
+            entries: state.entries.map((entry) =>
+              entry.id === existingEntry.id
+                ? { ...entry, learningRecords: updatedRecords, updatedAt: now }
+                : entry
+            ),
+          }));
+        } else {
+          // 오늘 일기가 없으면 학습 기록만 있는 일기 자동 생성
+          const activityLabels: Record<string, string> = {
+            vocabulary: '단어',
+            grammar: '문법',
+            listening: '듣기',
+            reading: '읽기',
+            speaking: '말하기',
+            writing: '쓰기',
+          };
+          const activityLabel = activityLabels[record.activityType] || record.activityType;
+
+          const newEntry: DiaryEntry = {
+            id: generateId(),
+            date: today,
+            title: `오늘의 영어 학습`,
+            content: `${activityLabel} 학습을 완료했어요! (${record.score}점)`,
+            tags: ['영어학습', activityLabel],
+            learningRecords: [newRecord],
+            createdAt: now,
+            updatedAt: now,
+          };
+
+          set((state) => ({ entries: [...state.entries, newEntry] }));
+          get().updateStreak();
+        }
+      },
+
+      getTodayLearningRecords: () => {
+        const today = getTodayString();
+        const todayEntry = get().entries.find((e) => e.date === today);
+        return todayEntry?.learningRecords || [];
+      },
+
+      getLearningRecordsByDate: (date) => {
+        const entry = get().entries.find((e) => e.date === date);
+        return entry?.learningRecords || [];
       },
     }),
     {

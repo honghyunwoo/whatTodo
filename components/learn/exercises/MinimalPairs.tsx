@@ -6,11 +6,10 @@
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import * as Speech from 'expo-speech';
-import { MotiView } from 'moti';
 import React, { useCallback, useEffect, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import { Card, Text } from 'react-native-paper';
-import Animated, { FadeIn, FadeOut } from 'react-native-reanimated';
+import Animated, { FadeIn, FadeOut, FadeInUp, ZoomIn } from 'react-native-reanimated';
 
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
@@ -232,10 +231,8 @@ export function MinimalPairs({ questions, onComplete }: MinimalPairsProps) {
       <View
         style={[styles.progressContainer, { backgroundColor: isDark ? '#38383A' : COLORS.border }]}
       >
-        <MotiView
-          animate={{ width: `${progress}%` }}
-          transition={{ type: 'timing', duration: 300 }}
-          style={[styles.progressBar, { backgroundColor: COLORS.primary }]}
+        <View
+          style={[styles.progressBar, { backgroundColor: COLORS.primary, width: `${progress}%` }]}
         />
       </View>
       <Text style={[styles.progressText, { color: colors.textSecondary }]}>
@@ -243,12 +240,7 @@ export function MinimalPairs({ questions, onComplete }: MinimalPairsProps) {
       </Text>
 
       {/* Question Card */}
-      <MotiView
-        key={currentIndex}
-        from={{ opacity: 0, translateX: 30 }}
-        animate={{ opacity: 1, translateX: 0 }}
-        transition={{ type: 'timing', duration: 300 }}
-      >
+      <Animated.View key={currentIndex} entering={FadeInUp.duration(300)}>
         <Card
           style={[styles.questionCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
         >
@@ -303,14 +295,10 @@ export function MinimalPairs({ questions, onComplete }: MinimalPairsProps) {
             </View>
           </Card.Content>
         </Card>
-      </MotiView>
+      </Animated.View>
 
       {/* Audio Controls */}
-      <MotiView
-        from={{ opacity: 0, translateY: 20 }}
-        animate={{ opacity: 1, translateY: 0 }}
-        transition={{ type: 'timing', duration: 300, delay: 100 }}
-      >
+      <Animated.View entering={FadeInUp.duration(300).delay(100)}>
         <View style={styles.audioControls}>
           {/* Play Button */}
           <Pressable
@@ -355,14 +343,10 @@ export function MinimalPairs({ questions, onComplete }: MinimalPairsProps) {
             </Text>
           </View>
         </View>
-      </MotiView>
+      </Animated.View>
 
       {/* Word Choices */}
-      <MotiView
-        from={{ opacity: 0, translateY: 20 }}
-        animate={{ opacity: 1, translateY: 0 }}
-        transition={{ type: 'timing', duration: 300, delay: 200 }}
-      >
+      <Animated.View entering={FadeInUp.duration(300).delay(200)}>
         <View style={styles.choicesContainer}>
           {/* Word 1 */}
           <Pressable
@@ -440,15 +424,11 @@ export function MinimalPairs({ questions, onComplete }: MinimalPairsProps) {
             )}
           </Pressable>
         </View>
-      </MotiView>
+      </Animated.View>
 
       {/* Submit Button */}
       {!isSubmitted && (
-        <MotiView
-          from={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ type: 'spring', damping: 12 }}
-        >
+        <Animated.View entering={ZoomIn.duration(300)}>
           <Pressable
             style={[
               styles.submitButton,
@@ -473,17 +453,13 @@ export function MinimalPairs({ questions, onComplete }: MinimalPairsProps) {
               color={selectedChoice ? '#fff' : colors.textSecondary}
             />
           </Pressable>
-        </MotiView>
+        </Animated.View>
       )}
 
       {/* Result */}
       {isSubmitted && (
         <Animated.View entering={FadeIn.duration(300)} exiting={FadeOut.duration(200)}>
-          <MotiView
-            from={{ opacity: 0, translateY: 20 }}
-            animate={{ opacity: 1, translateY: 0 }}
-            transition={{ type: 'spring', damping: 15 }}
-          >
+          <Animated.View entering={FadeInUp.duration(300)}>
             <Card
               style={[
                 styles.resultCard,
@@ -537,31 +513,23 @@ export function MinimalPairs({ questions, onComplete }: MinimalPairsProps) {
 
                 {/* Korean Pronunciation Tip */}
                 {showTip && (
-                  <MotiView
-                    from={{ opacity: 0, height: 0 }}
-                    animate={{ opacity: 1, height: 'auto' }}
-                    transition={{ type: 'timing', duration: 200 }}
-                  >
+                  <Animated.View entering={FadeInUp.duration(200)}>
                     <View style={styles.tipContainer}>
                       <Text style={[styles.tipText, { color: colors.text }]}>
                         {currentPair.koreanTip}
                       </Text>
                     </View>
-                  </MotiView>
+                  </Animated.View>
                 )}
               </Card.Content>
             </Card>
-          </MotiView>
+          </Animated.View>
         </Animated.View>
       )}
 
       {/* Next Button */}
       {isSubmitted && (
-        <MotiView
-          from={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ type: 'spring', damping: 12 }}
-        >
+        <Animated.View entering={ZoomIn.duration(300)}>
           <Pressable
             style={[styles.nextButton, { backgroundColor: COLORS.primary }]}
             onPress={handleNext}
@@ -569,7 +537,7 @@ export function MinimalPairs({ questions, onComplete }: MinimalPairsProps) {
             <Text style={styles.nextButtonText}>{isLastQuestion ? '결과 보기' : '다음 문제'}</Text>
             <MaterialCommunityIcons name="arrow-right" size={20} color="#fff" />
           </Pressable>
-        </MotiView>
+        </Animated.View>
       )}
     </View>
   );

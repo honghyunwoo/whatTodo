@@ -1,22 +1,31 @@
 /**
  * Learn Screen
- * 학습 화면 - 개선된 UI
+ * 학습 화면 - 레슨 기반 UI (레거시 Week 모드 병행)
  */
 
 import { router } from 'expo-router';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { ActivityIndicator, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
-import { IconButton, Modal, Portal, Text } from 'react-native-paper';
+import { IconButton, Modal, Portal, SegmentedButtons, Text } from 'react-native-paper';
 
-import { ActivityCard, StatsView, WeekSelector } from '@/components/learn';
+import { ActivityCard, LessonSelector, UnitSelector, WeekSelector } from '@/components/learn';
 import { LearningDashboard } from '@/components/dashboard/LearningDashboard';
 import { BadgeShowcase } from '@/components/reward';
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { useLearnStore } from '@/store/learnStore';
+import { useLessonStore } from '@/store/lessonStore';
 import { useSrsStore } from '@/store/srsStore';
-import { ActivityType } from '@/types/activity';
+import type { ActivityType } from '@/types/activity';
+import type { LessonCardData, UnitCardData } from '@/types/lesson';
 import { isLevelLoaded, loadWeekActivities, preloadLevel } from '@/utils/activityLoader';
+import {
+  getLessonCardData,
+  getLevelMeta,
+  getUnitCardData,
+  loadLevelMeta,
+  isLevelMetaLoaded,
+} from '@/utils/lessonLoader';
 
 const ACTIVITY_TYPES: ActivityType[] = [
   'vocabulary',
@@ -27,13 +36,21 @@ const ACTIVITY_TYPES: ActivityType[] = [
   'writing',
 ];
 
+type ViewMode = 'lesson' | 'week';
+
 export default function LearnScreen() {
+  // Legacy week-based state
   const currentWeek = useLearnStore((state) => state.currentWeek);
   const setCurrentWeek = useLearnStore((state) => state.setCurrentWeek);
   const progress = useLearnStore((state) => state.progress);
   const storeWeekProgress = useLearnStore((state) => state.weekProgress);
   const currentLevel = useLearnStore((state) => state.currentLevel);
   const streak = useLearnStore((state) => state.streak);
+
+  // Lesson-based state
+  const lessonProgress = useLessonStore((state) => state.lessonProgress);
+  const getLessonProgress = useLessonStore((state) => state.getLessonProgress);
+  const isLessonUnlocked = useLessonStore((state) => state.isLessonUnlocked);
 
   const getWordsForReview = useSrsStore((state) => state.getWordsForReview);
   const dueCount = useMemo(() => getWordsForReview().length, [getWordsForReview]);
@@ -42,16 +59,36 @@ export default function LearnScreen() {
   const [showBadges, setShowBadges] = useState(false);
   const [isLoading, setIsLoading] = useState(!isLevelLoaded(currentLevel));
 
+  // New lesson-based UI state
+  const [viewMode, setViewMode] = useState<ViewMode>('lesson');
+  const [selectedUnitId, setSelectedUnitId] = useState<string | null>(null);
+  const [selectedLessonId, setSelectedLessonId] = useState<string | null>(null);
+
   useEffect(() => {
-    if (!isLevelLoaded(currentLevel)) {
+    const loadData = async () => {
       setIsLoading(true);
-      preloadLevel(currentLevel).then(() => {
-        setIsLoading(false);
-      });
-    } else {
+
+      // Load activity data (legacy)
+      if (!isLevelLoaded(currentLevel)) {
+        await preloadLevel(currentLevel);
+      }
+
+      // Load lesson metadata (new)
+      if (!isLevelMetaLoaded(currentLevel)) {
+        await loadLevelMeta(currentLevel);
+      }
+
+      // Set default selected unit
+      const levelMeta = getLevelMeta(currentLevel);
+      if (levelMeta && levelMeta.units.length > 0 && !selectedUnitId) {
+        setSelectedUnitId(levelMeta.units[0].id);
+      }
+
       setIsLoading(false);
-    }
-  }, [currentLevel]);
+    };
+
+    loadData();
+  }, [currentLevel]); // selectedUnitId 제거 - 무한 루프 방지
 
   const weekActivities = useMemo(() => {
     if (isLoading) return [];
@@ -67,6 +104,51 @@ export default function LearnScreen() {
     }
     return progressMap;
   }, [storeWeekProgress]);
+
+  // Lesson-based data
+  const unitCards = useMemo((): UnitCardData[] => {
+    const levelMeta = getLevelMeta(currentLevel);
+    if (!levelMeta) return [];
+
+    return levelMeta.units
+      .map((unit, index) => {
+        const lessonsCompleted = lessonProgress
+          .filter((p) => p.completed && unit.lessons?.some((l) => l.id === p.lessonId))
+          .map((p) => ({ lessonId: p.lessonId, completed: true }));
+
+        return getUnitCardData(currentLevel, index + 1, lessonsCompleted) as UnitCardData;
+      })
+      .filter(Boolean) as UnitCardData[];
+  }, [currentLevel, lessonProgress]);
+
+  const lessonCards = useMemo((): LessonCardData[] => {
+    if (!selectedUnitId) return [];
+
+    const levelMeta = getLevelMeta(currentLevel);
+    if (!levelMeta) return [];
+
+    const unit = levelMeta.units.find((u) => u.id === selectedUnitId);
+    if (!unit) return [];
+
+    return unit.lessons
+      .map((lesson) => {
+        const progress = getLessonProgress(lesson.id);
+        const unlocked = isLessonUnlocked(lesson.id);
+
+        return getLessonCardData(
+          lesson.id,
+          progress
+            ? {
+                completed: progress.completed,
+                score: progress.score,
+                activitiesCompleted: progress.activitiesCompleted,
+              }
+            : null,
+          unlocked
+        );
+      })
+      .filter(Boolean) as LessonCardData[];
+  }, [currentLevel, selectedUnitId, lessonProgress, getLessonProgress, isLessonUnlocked]);
 
   const getActivityProgress = useCallback(
     (type: ActivityType) => {
@@ -100,6 +182,30 @@ export default function LearnScreen() {
 
   const handleReview = useCallback(() => {
     router.push('/review');
+  }, []);
+
+  const handleLessonPress = useCallback(
+    (lessonId: string) => {
+      setSelectedLessonId(lessonId);
+      // Navigate to lesson detail (using legacy week route for now)
+      // TODO: Create dedicated lesson route
+      const lessonMeta = lessonCards.find((l) => l.id === lessonId);
+      if (lessonMeta) {
+        // For now, navigate to first activity type
+        router.push({
+          pathname: '/learn/[type]',
+          params: { type: 'vocabulary', weekId: `week-${lessonMeta.lessonNumber}` },
+        });
+      }
+    },
+    [lessonCards]
+  );
+
+  const handleTakeTest = useCallback((lessonId: string) => {
+    router.push({
+      pathname: '/test/[testId]',
+      params: { testId: `test-${lessonId}` },
+    });
   }, []);
 
   const currentProgress = weekProgress[currentWeek] || 0;
@@ -188,50 +294,112 @@ export default function LearnScreen() {
           </TouchableOpacity>
         </View>
 
-        <View style={styles.weekSelectorContainer}>
-          <Text style={styles.sectionTitle}>학습 주차 선택</Text>
-          <WeekSelector
-            selectedWeek={currentWeek}
-            onSelectWeek={setCurrentWeek}
-            weekProgress={weekProgress}
+        {/* View Mode Toggle */}
+        <View style={styles.modeToggleContainer}>
+          <SegmentedButtons
+            value={viewMode}
+            onValueChange={(value) => setViewMode(value as ViewMode)}
+            buttons={[
+              { value: 'lesson', label: '레슨 모드', icon: 'book-open-variant' },
+              { value: 'week', label: '주차 모드', icon: 'calendar-week' },
+            ]}
+            style={styles.segmentedButtons}
           />
         </View>
 
-        <View style={styles.activitiesSection}>
-          <View style={styles.sectionHeader}>
-            <Text style={styles.sectionTitle}>{currentWeek.replace('week-', '')}주차 학습</Text>
-            <View style={styles.progressPill}>
-              <View style={[styles.progressPillFill, { width: `${currentProgress}%` }]} />
-              <Text style={styles.progressPillText}>{currentProgress}%</Text>
+        {viewMode === 'lesson' ? (
+          <>
+            {/* Unit Selector */}
+            <View style={styles.unitSelectorContainer}>
+              <Text style={styles.sectionTitle}>유닛 선택</Text>
+              {unitCards.length > 0 ? (
+                <UnitSelector
+                  units={unitCards}
+                  selectedUnitId={selectedUnitId}
+                  onSelectUnit={setSelectedUnitId}
+                />
+              ) : (
+                <Text style={styles.emptyText}>레슨 데이터를 불러오는 중...</Text>
+              )}
             </View>
-          </View>
 
-          {isLoading ? (
-            <View style={styles.loadingContainer}>
-              <ActivityIndicator size="large" color={COLORS.primary} />
-              <Text style={styles.loadingText}>학습 콘텐츠 로딩 중...</Text>
+            {/* Lesson List */}
+            <View style={styles.lessonSection}>
+              <View style={styles.sectionHeader}>
+                <Text style={styles.sectionTitle}>
+                  {unitCards.find((u) => u.id === selectedUnitId)?.title || '레슨'}
+                </Text>
+              </View>
+
+              {isLoading ? (
+                <View style={styles.loadingContainer}>
+                  <ActivityIndicator size="large" color={COLORS.primary} />
+                  <Text style={styles.loadingText}>레슨 로딩 중...</Text>
+                </View>
+              ) : lessonCards.length > 0 ? (
+                <LessonSelector
+                  lessons={lessonCards}
+                  selectedLessonId={selectedLessonId}
+                  onSelectLesson={handleLessonPress}
+                  onTakeTest={handleTakeTest}
+                />
+              ) : (
+                <View style={styles.emptyContainer}>
+                  <Text style={styles.emptyEmoji}>📚</Text>
+                  <Text style={styles.emptyText}>유닛을 선택해주세요</Text>
+                </View>
+              )}
             </View>
-          ) : (
-            <View style={styles.activitiesGrid}>
-              {ACTIVITY_TYPES.map((type) => {
-                const activity = weekActivities.find((a) => a.type === type);
-                const { completed } = getActivityProgress(type);
-
-                if (!activity) return null;
-
-                return (
-                  <ActivityCard
-                    key={type}
-                    type={type}
-                    progress={completed ? 100 : 0}
-                    completed={completed}
-                    onPress={() => handleActivityPress(type)}
-                  />
-                );
-              })}
+          </>
+        ) : (
+          <>
+            {/* Legacy Week Mode */}
+            <View style={styles.weekSelectorContainer}>
+              <Text style={styles.sectionTitle}>학습 주차 선택</Text>
+              <WeekSelector
+                selectedWeek={currentWeek}
+                onSelectWeek={setCurrentWeek}
+                weekProgress={weekProgress}
+              />
             </View>
-          )}
-        </View>
+
+            <View style={styles.activitiesSection}>
+              <View style={styles.sectionHeader}>
+                <Text style={styles.sectionTitle}>{currentWeek.replace('week-', '')}주차 학습</Text>
+                <View style={styles.progressPill}>
+                  <View style={[styles.progressPillFill, { width: `${currentProgress}%` }]} />
+                  <Text style={styles.progressPillText}>{currentProgress}%</Text>
+                </View>
+              </View>
+
+              {isLoading ? (
+                <View style={styles.loadingContainer}>
+                  <ActivityIndicator size="large" color={COLORS.primary} />
+                  <Text style={styles.loadingText}>학습 콘텐츠 로딩 중...</Text>
+                </View>
+              ) : (
+                <View style={styles.activitiesGrid}>
+                  {ACTIVITY_TYPES.map((type) => {
+                    const activity = weekActivities.find((a) => a.type === type);
+                    const { completed } = getActivityProgress(type);
+
+                    if (!activity) return null;
+
+                    return (
+                      <ActivityCard
+                        key={type}
+                        type={type}
+                        progress={completed ? 100 : 0}
+                        completed={completed}
+                        onPress={() => handleActivityPress(type)}
+                      />
+                    );
+                  })}
+                </View>
+              )}
+            </View>
+          </>
+        )}
       </ScrollView>
 
       <Portal>
@@ -465,5 +633,34 @@ const styles = StyleSheet.create({
   weekSelectorContainer: {
     paddingHorizontal: SIZES.spacing.md,
     paddingTop: SIZES.spacing.lg,
+  },
+  // New lesson-based styles
+  modeToggleContainer: {
+    paddingHorizontal: SIZES.spacing.md,
+    paddingTop: SIZES.spacing.md,
+  },
+  segmentedButtons: {
+    backgroundColor: COLORS.surface,
+  },
+  unitSelectorContainer: {
+    paddingTop: SIZES.spacing.lg,
+  },
+  lessonSection: {
+    paddingTop: SIZES.spacing.lg,
+    paddingBottom: SIZES.spacing.md,
+  },
+  emptyContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: SIZES.spacing.xxl,
+  },
+  emptyEmoji: {
+    fontSize: 48,
+    marginBottom: SIZES.spacing.sm,
+  },
+  emptyText: {
+    color: COLORS.textSecondary,
+    fontSize: SIZES.fontSize.md,
+    textAlign: 'center',
   },
 });

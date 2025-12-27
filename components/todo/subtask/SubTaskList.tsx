@@ -1,7 +1,6 @@
 import React, { memo, useCallback } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Text } from 'react-native-paper';
-import { AnimatePresence } from 'moti';
 
 import { useTheme } from '@/contexts/ThemeContext';
 import { SIZES } from '@/constants/sizes';
@@ -80,19 +79,17 @@ function SubTaskListComponent({
       {/* Subtask list */}
       {subtasks.length > 0 && (
         <View style={styles.list}>
-          <AnimatePresence>
-            {sortedSubtasks.map((subtask, index) => (
-              <SubTaskItem
-                key={subtask.id}
-                subtask={subtask}
-                taskId={taskId}
-                onToggle={handleToggle}
-                onDelete={handleDelete}
-                onUpdate={handleUpdate}
-                index={index}
-              />
-            ))}
-          </AnimatePresence>
+          {sortedSubtasks.map((subtask, index) => (
+            <SubTaskItem
+              key={subtask.id}
+              subtask={subtask}
+              taskId={taskId}
+              onToggle={handleToggle}
+              onDelete={handleDelete}
+              onUpdate={handleUpdate}
+              index={index}
+            />
+          ))}
         </View>
       )}
 

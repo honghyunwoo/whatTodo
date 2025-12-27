@@ -1,0 +1,148 @@
+{
+  "id": "a2",
+  "level": "A2",
+  "title": "기초 완성",
+  "description": "일상생활에서 자주 쓰는 표현과 간단한 대화를 학습합니다.",
+  "goal": "일상적인 상황에서 기본적인 의사소통 가능",
+  "icon": "🌿",
+  "color": "#8BC34A",
+  "estimatedHours": 25,
+  "units": [
+    {
+      "id": "a2-u1",
+      "title": "일상 심화",
+      "description": "일상생활 표현을 더 깊이 배웁니다.",
+      "icon": "🏠",
+      "themeColor": "#2196F3",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "a2-u1-l1",
+          "title": "Daily Routines",
+          "subtitle": "일과 표현",
+          "estimatedMinutes": 15,
+          "keyPhrasesCount": 5,
+          "prerequisites": [],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "routines",
+          "objectives": ["하루 일과 설명하기", "시간 표현 활용", "습관 말하기"],
+          "weekMapping": "week-1"
+        },
+        {
+          "id": "a2-u1-l2",
+          "title": "Weather Talk",
+          "subtitle": "날씨 대화",
+          "estimatedMinutes": 15,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["a2-u1-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "weather",
+          "objectives": ["날씨 표현하기", "날씨에 대한 의견 나누기", "계절 활동 말하기"],
+          "weekMapping": "week-2"
+        }
+      ]
+    },
+    {
+      "id": "a2-u2",
+      "title": "사회생활",
+      "description": "직장과 사회에서 필요한 표현을 배웁니다.",
+      "icon": "💼",
+      "themeColor": "#FF9800",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "a2-u2-l1",
+          "title": "At Work",
+          "subtitle": "직장 생활",
+          "estimatedMinutes": 15,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["a2-u1-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "work",
+          "objectives": ["업무 관련 표현", "동료와 대화", "회의 참여"],
+          "weekMapping": "week-3"
+        },
+        {
+          "id": "a2-u2-l2",
+          "title": "Public Services",
+          "subtitle": "공공 서비스 이용",
+          "estimatedMinutes": 15,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["a2-u2-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "services",
+          "objectives": ["은행 이용", "우체국 이용", "관공서 문의"],
+          "weekMapping": "week-4"
+        }
+      ]
+    },
+    {
+      "id": "a2-u3",
+      "title": "여가 활동",
+      "description": "취미와 여가 관련 표현을 배웁니다.",
+      "icon": "🎯",
+      "themeColor": "#9C27B0",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "a2-u3-l1",
+          "title": "Hobbies",
+          "subtitle": "취미 생활",
+          "estimatedMinutes": 15,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["a2-u2-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "hobbies",
+          "objectives": ["취미 설명하기", "관심사 공유", "여가 활동 제안"],
+          "weekMapping": "week-5"
+        },
+        {
+          "id": "a2-u3-l2",
+          "title": "Entertainment",
+          "subtitle": "오락과 문화",
+          "estimatedMinutes": 15,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["a2-u3-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "entertainment",
+          "objectives": ["영화/음악 추천", "공연 예약", "문화 체험 말하기"],
+          "weekMapping": "week-6"
+        }
+      ]
+    },
+    {
+      "id": "a2-u4",
+      "title": "건강과 안전",
+      "description": "건강 관리와 안전 관련 표현을 배웁니다.",
+      "icon": "🏥",
+      "themeColor": "#F44336",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "a2-u4-l1",
+          "title": "Health Care",
+          "subtitle": "건강 관리",
+          "estimatedMinutes": 15,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["a2-u3-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "health",
+          "objectives": ["증상 설명하기", "병원 예약", "약국 이용"],
+          "weekMapping": "week-7"
+        },
+        {
+          "id": "a2-u4-l2",
+          "title": "Safety First",
+          "subtitle": "안전 수칙",
+          "estimatedMinutes": 15,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["a2-u4-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "safety",
+          "objectives": ["위험 상황 설명", "도움 요청", "안전 수칙 이해"],
+          "weekMapping": "week-8"
+        }
+      ]
+    }
+  ]
+}

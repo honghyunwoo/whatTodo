@@ -16,6 +16,10 @@ export { VocabularyView } from './VocabularyView';
 export { WeekSelector } from './WeekSelector';
 export { WritingView } from './WritingView';
 
+// Lesson-based Components
+export { UnitSelector } from './UnitSelector';
+export { LessonSelector } from './LessonSelector';
+
 // Enhanced Components
 export { AnswerFeedback } from './AnswerFeedback';
 export { PersonalizedHeader } from './PersonalizedHeader';

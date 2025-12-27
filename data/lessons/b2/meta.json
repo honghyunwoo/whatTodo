@@ -1,0 +1,148 @@
+{
+  "id": "b2",
+  "level": "B2",
+  "title": "중급 완성",
+  "description": "복잡한 주제에 대해 유창하게 대화하고 글을 쓸 수 있습니다.",
+  "goal": "다양한 주제에 대해 유창한 의사소통 가능",
+  "icon": "🌲",
+  "color": "#00BCD4",
+  "estimatedHours": 35,
+  "units": [
+    {
+      "id": "b2-u1",
+      "title": "전문 분야",
+      "description": "전문적인 주제에 대해 토론하는 방법을 배웁니다.",
+      "icon": "🎓",
+      "themeColor": "#2196F3",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "b2-u1-l1",
+          "title": "Academic English",
+          "subtitle": "학술 영어",
+          "estimatedMinutes": 20,
+          "keyPhrasesCount": 6,
+          "prerequisites": [],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "academic",
+          "objectives": ["학술 용어 사용", "논문 구조 이해", "발표 기술"],
+          "weekMapping": "week-1"
+        },
+        {
+          "id": "b2-u1-l2",
+          "title": "Technical Writing",
+          "subtitle": "기술 문서",
+          "estimatedMinutes": 20,
+          "keyPhrasesCount": 6,
+          "prerequisites": ["b2-u1-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "technical",
+          "objectives": ["기술 문서 작성", "명확한 설명", "전문 용어 활용"],
+          "weekMapping": "week-2"
+        }
+      ]
+    },
+    {
+      "id": "b2-u2",
+      "title": "논쟁과 설득",
+      "description": "설득력 있는 의사소통 방법을 배웁니다.",
+      "icon": "⚖️",
+      "themeColor": "#FF9800",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "b2-u2-l1",
+          "title": "Persuasion",
+          "subtitle": "설득의 기술",
+          "estimatedMinutes": 20,
+          "keyPhrasesCount": 6,
+          "prerequisites": ["b2-u1-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "persuasion",
+          "objectives": ["논리적 설득", "감정적 호소", "반론 대응"],
+          "weekMapping": "week-3"
+        },
+        {
+          "id": "b2-u2-l2",
+          "title": "Critical Thinking",
+          "subtitle": "비판적 사고",
+          "estimatedMinutes": 20,
+          "keyPhrasesCount": 6,
+          "prerequisites": ["b2-u2-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "critical",
+          "objectives": ["분석하기", "평가하기", "대안 제시"],
+          "weekMapping": "week-4"
+        }
+      ]
+    },
+    {
+      "id": "b2-u3",
+      "title": "사회 이슈",
+      "description": "사회적 주제에 대해 토론하는 방법을 배웁니다.",
+      "icon": "🌍",
+      "themeColor": "#9C27B0",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "b2-u3-l1",
+          "title": "Current Issues",
+          "subtitle": "시사 문제",
+          "estimatedMinutes": 20,
+          "keyPhrasesCount": 6,
+          "prerequisites": ["b2-u2-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "issues",
+          "objectives": ["시사 이해", "의견 표명", "토론 참여"],
+          "weekMapping": "week-5"
+        },
+        {
+          "id": "b2-u3-l2",
+          "title": "Environment",
+          "subtitle": "환경 문제",
+          "estimatedMinutes": 20,
+          "keyPhrasesCount": 6,
+          "prerequisites": ["b2-u3-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "environment",
+          "objectives": ["환경 용어", "문제 분석", "해결책 제안"],
+          "weekMapping": "week-6"
+        }
+      ]
+    },
+    {
+      "id": "b2-u4",
+      "title": "문화와 예술",
+      "description": "문화와 예술에 대해 깊이 있게 토론합니다.",
+      "icon": "🎨",
+      "themeColor": "#F44336",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "b2-u4-l1",
+          "title": "Art & Literature",
+          "subtitle": "예술과 문학",
+          "estimatedMinutes": 20,
+          "keyPhrasesCount": 6,
+          "prerequisites": ["b2-u3-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "art",
+          "objectives": ["작품 분석", "비평하기", "감상 표현"],
+          "weekMapping": "week-7"
+        },
+        {
+          "id": "b2-u4-l2",
+          "title": "Film & Music",
+          "subtitle": "영화와 음악",
+          "estimatedMinutes": 20,
+          "keyPhrasesCount": 6,
+          "prerequisites": ["b2-u4-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "media",
+          "objectives": ["리뷰 작성", "추천하기", "토론하기"],
+          "weekMapping": "week-8"
+        }
+      ]
+    }
+  ]
+}

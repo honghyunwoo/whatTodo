@@ -12,7 +12,7 @@ import {
 import { Text, Button, Chip, IconButton, Portal, Modal } from 'react-native-paper';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { MotiView } from 'moti';
+import Animated, { FadeInUp } from 'react-native-reanimated';
 import { Ionicons } from '@expo/vector-icons';
 import DateTimePicker from '@react-native-community/datetimepicker';
 
@@ -190,11 +190,7 @@ export default function TaskDetailScreen() {
 
         <ScrollView style={styles.content} showsVerticalScrollIndicator={false}>
           {/* Title */}
-          <MotiView
-            from={{ opacity: 0, translateY: 10 }}
-            animate={{ opacity: 1, translateY: 0 }}
-            transition={{ type: 'timing', duration: 300 }}
-          >
+          <Animated.View entering={FadeInUp.duration(300)}>
             <TextInput
               value={title}
               onChangeText={setTitle}
@@ -210,13 +206,11 @@ export default function TaskDetailScreen() {
               ]}
               multiline
             />
-          </MotiView>
+          </Animated.View>
 
           {/* Properties */}
-          <MotiView
-            from={{ opacity: 0, translateY: 10 }}
-            animate={{ opacity: 1, translateY: 0 }}
-            transition={{ type: 'timing', duration: 300, delay: 50 }}
+          <Animated.View
+            entering={FadeInUp.duration(300).delay(50)}
             style={[
               styles.propertiesCard,
               {
@@ -324,13 +318,11 @@ export default function TaskDetailScreen() {
                 </View>
               </Pressable>
             )}
-          </MotiView>
+          </Animated.View>
 
           {/* Description */}
-          <MotiView
-            from={{ opacity: 0, translateY: 10 }}
-            animate={{ opacity: 1, translateY: 0 }}
-            transition={{ type: 'timing', duration: 300, delay: 100 }}
+          <Animated.View
+            entering={FadeInUp.duration(300).delay(100)}
             style={[
               styles.descriptionCard,
               {
@@ -358,13 +350,11 @@ export default function TaskDetailScreen() {
               multiline
               numberOfLines={4}
             />
-          </MotiView>
+          </Animated.View>
 
           {/* Subtasks */}
-          <MotiView
-            from={{ opacity: 0, translateY: 10 }}
-            animate={{ opacity: 1, translateY: 0 }}
-            transition={{ type: 'timing', duration: 300, delay: 150 }}
+          <Animated.View
+            entering={FadeInUp.duration(300).delay(150)}
             style={[
               styles.subtasksCard,
               {
@@ -380,14 +370,12 @@ export default function TaskDetailScreen() {
               </Text>
             </View>
             <SubTaskList taskId={task.id} subtasks={task.subtasks || []} />
-          </MotiView>
+          </Animated.View>
 
           {/* Tags */}
           {task.tags && task.tags.length > 0 && (
-            <MotiView
-              from={{ opacity: 0, translateY: 10 }}
-              animate={{ opacity: 1, translateY: 0 }}
-              transition={{ type: 'timing', duration: 300, delay: 200 }}
+            <Animated.View
+              entering={FadeInUp.duration(300).delay(200)}
               style={styles.tagsContainer}
             >
               {task.tags.map((tag) => (
@@ -400,14 +388,12 @@ export default function TaskDetailScreen() {
                   #{tag}
                 </Chip>
               ))}
-            </MotiView>
+            </Animated.View>
           )}
 
           {/* Delete Button */}
-          <MotiView
-            from={{ opacity: 0, translateY: 10 }}
-            animate={{ opacity: 1, translateY: 0 }}
-            transition={{ type: 'timing', duration: 300, delay: 250 }}
+          <Animated.View
+            entering={FadeInUp.duration(300).delay(250)}
             style={styles.deleteContainer}
           >
             <Button
@@ -419,7 +405,7 @@ export default function TaskDetailScreen() {
             >
               삭제
             </Button>
-          </MotiView>
+          </Animated.View>
 
           {/* Metadata */}
           <View style={styles.metadata}>

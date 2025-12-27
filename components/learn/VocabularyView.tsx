@@ -27,9 +27,10 @@ export function VocabularyView({ activity, onComplete }: VocabularyViewProps) {
   const [results, setResults] = useState<FlashCardResult[]>([]);
   const [isCompleted, setIsCompleted] = useState(false);
 
-  const words = activity.words;
-  const currentWord = words[currentIndex];
-  const isLastWord = currentIndex === words.length - 1;
+  // Null safety: activity.words가 없으면 빈 배열 사용
+  const words = activity?.words ?? [];
+  const currentWord = words.length > 0 ? words[currentIndex] : null;
+  const isLastWord = words.length > 0 && currentIndex === words.length - 1;
 
   const score = useMemo(() => {
     if (results.length === 0) return 0;
@@ -38,6 +39,7 @@ export function VocabularyView({ activity, onComplete }: VocabularyViewProps) {
   }, [results]);
 
   const handleKnown = useCallback(async () => {
+    if (!currentWord) return;
     // Trigger success feedback
     await feedbackService.success();
 
@@ -45,7 +47,7 @@ export function VocabularyView({ activity, onComplete }: VocabularyViewProps) {
     setResults(newResults);
 
     if (isLastWord) {
-      saveFlashCardResults(activity.id, newResults);
+      saveFlashCardResults(activity?.id ?? '', newResults);
       setIsCompleted(true);
       const finalScore = Math.round(
         (newResults.filter((r) => r.known).length / newResults.length) * 100
@@ -54,9 +56,10 @@ export function VocabularyView({ activity, onComplete }: VocabularyViewProps) {
     } else {
       setCurrentIndex((prev) => prev + 1);
     }
-  }, [currentWord, results, isLastWord, activity.id, saveFlashCardResults, onComplete]);
+  }, [currentWord, results, isLastWord, activity?.id, saveFlashCardResults, onComplete]);
 
   const handleUnknown = useCallback(async () => {
+    if (!currentWord) return;
     // Trigger wrong feedback
     await feedbackService.wrong();
 
@@ -64,7 +67,7 @@ export function VocabularyView({ activity, onComplete }: VocabularyViewProps) {
     setResults(newResults);
 
     if (isLastWord) {
-      saveFlashCardResults(activity.id, newResults);
+      saveFlashCardResults(activity?.id ?? '', newResults);
       setIsCompleted(true);
       const finalScore = Math.round(
         (newResults.filter((r) => r.known).length / newResults.length) * 100
@@ -73,13 +76,24 @@ export function VocabularyView({ activity, onComplete }: VocabularyViewProps) {
     } else {
       setCurrentIndex((prev) => prev + 1);
     }
-  }, [currentWord, results, isLastWord, activity.id, saveFlashCardResults, onComplete]);
+  }, [currentWord, results, isLastWord, activity?.id, saveFlashCardResults, onComplete]);
 
   const handleRestart = useCallback(() => {
     setCurrentIndex(0);
     setResults([]);
     setIsCompleted(false);
   }, []);
+
+  // 데이터가 없는 경우 빈 상태 표시 (hooks 호출 후에 조건부 반환)
+  if (words.length === 0 || !currentWord) {
+    return (
+      <View style={styles.completedContainer}>
+        <Text style={styles.completedIcon}>📚</Text>
+        <Text style={styles.completedTitle}>단어 데이터 없음</Text>
+        <Text style={styles.statsText}>이 레슨의 단어 데이터를 불러올 수 없습니다.</Text>
+      </View>
+    );
+  }
 
   if (isCompleted) {
     return (

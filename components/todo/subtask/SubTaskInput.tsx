@@ -1,7 +1,7 @@
 import React, { memo, useCallback, useRef, useState } from 'react';
 import { StyleSheet, View, TextInput, Pressable } from 'react-native';
 import { Text } from 'react-native-paper';
-import { MotiView } from 'moti';
+import Animated, { useAnimatedStyle, withTiming } from 'react-native-reanimated';
 import { Ionicons } from '@expo/vector-icons';
 
 import { useTheme } from '@/contexts/ThemeContext';
@@ -35,6 +35,12 @@ function SubTaskInputComponent({ onAdd, disabled, maxReached }: SubTaskInputProp
     handleAdd();
   }, [handleAdd]);
 
+  const animatedStyle = useAnimatedStyle(() => ({
+    borderColor: withTiming(isFocused ? COLORS.primary : isDark ? '#3A3A3C' : '#E5E5E7', {
+      duration: 150,
+    }),
+  }));
+
   if (maxReached) {
     return (
       <View style={[styles.maxContainer, { backgroundColor: isDark ? '#2C2C2E' : '#FFF5F5' }]}>
@@ -47,13 +53,10 @@ function SubTaskInputComponent({ onAdd, disabled, maxReached }: SubTaskInputProp
   }
 
   return (
-    <MotiView
-      animate={{
-        borderColor: isFocused ? COLORS.primary : isDark ? '#3A3A3C' : '#E5E5E7',
-      }}
-      transition={{ type: 'timing', duration: 150 }}
+    <Animated.View
       style={[
         styles.container,
+        animatedStyle,
         {
           backgroundColor: isDark ? '#2C2C2E' : '#F9F9FB',
           borderWidth: 1,
@@ -89,7 +92,7 @@ function SubTaskInputComponent({ onAdd, disabled, maxReached }: SubTaskInputProp
           <Ionicons name="checkmark-circle" size={24} color={COLORS.primary} />
         </Pressable>
       )}
-    </MotiView>
+    </Animated.View>
   );
 }
 

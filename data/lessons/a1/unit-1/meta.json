@@ -1,0 +1,23 @@
+{
+  "id": "a1-u1",
+  "levelId": "a1",
+  "unitNumber": 1,
+  "title": "First Encounters",
+  "titleKo": "첫 만남",
+  "description": "Learn essential greetings and introduce yourself confidently.",
+  "descriptionKo": "필수 인사말을 배우고 자신있게 자기소개를 하세요.",
+  "icon": "hand-wave",
+  "themeColor": "#4CAF50",
+  "lessons": ["a1-u1-l1", "a1-u1-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Greet people appropriately",
+    "Introduce yourself",
+    "Ask and answer basic personal questions"
+  ],
+  "objectivesKo": [
+    "적절하게 인사하기",
+    "자기소개하기",
+    "기본적인 개인 질문 주고받기"
+  ]
+}

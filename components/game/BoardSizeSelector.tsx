@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { StyleSheet, TouchableOpacity, View } from 'react-native';
 import { Text } from 'react-native-paper';
-import { MotiView } from 'moti';
+import Animated, { FadeInUp } from 'react-native-reanimated';
 
 import { SIZES } from '@/constants/sizes';
 import { BoardSize, BOARD_SIZES } from '@/types/game';
@@ -34,12 +34,7 @@ function BoardSizeSelectorComponent({ visible, onClose }: BoardSizeSelectorProps
 
         <View style={styles.options}>
           {BOARD_SIZES.map((option, index) => (
-            <MotiView
-              key={option.size}
-              from={{ opacity: 0, translateY: 20 }}
-              animate={{ opacity: 1, translateY: 0 }}
-              transition={{ delay: index * 100 }}
-            >
+            <Animated.View key={option.size} entering={FadeInUp.duration(300).delay(index * 100)}>
               <TouchableOpacity
                 style={[styles.option, gridSize === option.size && styles.optionSelected]}
                 onPress={() => handleSelect(option.size)}
@@ -59,7 +54,7 @@ function BoardSizeSelectorComponent({ visible, onClose }: BoardSizeSelectorProps
                   {option.difficulty}
                 </Text>
               </TouchableOpacity>
-            </MotiView>
+            </Animated.View>
           ))}
         </View>
       </View>

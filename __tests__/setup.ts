@@ -54,9 +54,31 @@ jest.mock('@sentry/react-native', () => ({
   setContext: jest.fn(),
 }));
 
-// Mock react-native modules
-jest.mock('react-native/Libraries/Animated/NativeAnimatedHelper');
+// Mock react-native-reanimated
+jest.mock('react-native-reanimated', () => {
+  const View = require('react-native').View;
+  return {
+    default: {
+      View,
+    },
+    FadeInUp: { duration: () => ({ delay: () => ({}) }) },
+    FadeInRight: { duration: () => ({ delay: () => ({}) }) },
+    FadeIn: { duration: () => ({}) },
+    FadeOut: { duration: () => ({}) },
+    ZoomIn: { duration: () => ({}), springify: () => ({ damping: () => ({}) }) },
+    useSharedValue: jest.fn(() => ({ value: 0 })),
+    useAnimatedStyle: jest.fn(() => ({})),
+    withTiming: jest.fn((v) => v),
+    withSpring: jest.fn((v) => v),
+    runOnJS: jest.fn((fn) => fn),
+    Easing: {
+      bezier: jest.fn(),
+      linear: jest.fn(),
+    },
+  };
+});
 
+// Mock react-native modules
 jest.mock('react-native', () => ({
   Alert: {
     alert: jest.fn(),

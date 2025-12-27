@@ -17,12 +17,56 @@ import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from '@/contexts/ThemeContext';
 import { COLORS } from '@/constants/colors';
 import { SIZES, SHADOWS } from '@/constants/sizes';
-import { useDiaryStore, MoodType, MOOD_CONFIG, getTodayPrompt } from '@/store/diaryStore';
+import {
+  useDiaryStore,
+  MoodType,
+  MOOD_CONFIG,
+  getTodayPrompt,
+  LearningRecord,
+} from '@/store/diaryStore';
 import { todoHaptics } from '@/services/hapticService';
 
-const MOOD_TYPES: MoodType[] = ['happy', 'excited', 'peaceful', 'neutral', 'tired', 'sad', 'anxious', 'angry'];
+const MOOD_TYPES: MoodType[] = [
+  'happy',
+  'excited',
+  'peaceful',
+  'neutral',
+  'tired',
+  'sad',
+  'anxious',
+  'angry',
+];
 
-const COMMON_TAGS = ['일상', '운동', '여행', '맛집', '독서', '영화', '공부', '친구', '가족', '취미'];
+const COMMON_TAGS = [
+  '일상',
+  '운동',
+  '여행',
+  '맛집',
+  '독서',
+  '영화',
+  '공부',
+  '친구',
+  '가족',
+  '취미',
+];
+
+const ACTIVITY_ICONS: Record<string, string> = {
+  vocabulary: '📚',
+  grammar: '📝',
+  listening: '🎧',
+  reading: '📖',
+  speaking: '🎤',
+  writing: '✏️',
+};
+
+const ACTIVITY_LABELS: Record<string, string> = {
+  vocabulary: '단어',
+  grammar: '문법',
+  listening: '듣기',
+  reading: '읽기',
+  speaking: '말하기',
+  writing: '쓰기',
+};
 
 function formatDateDisplay(dateStr: string): string {
   const date = new Date(dateStr);
@@ -111,17 +155,23 @@ export default function DiaryScreen() {
     setShowPrompt(false);
   }, [dailyPrompt]);
 
-  const handleAddTag = useCallback((tag: string) => {
-    const trimmed = tag.trim();
-    if (trimmed && !tags.includes(trimmed)) {
-      setTags([...tags, trimmed]);
-    }
-    setNewTag('');
-  }, [tags]);
+  const handleAddTag = useCallback(
+    (tag: string) => {
+      const trimmed = tag.trim();
+      if (trimmed && !tags.includes(trimmed)) {
+        setTags([...tags, trimmed]);
+      }
+      setNewTag('');
+    },
+    [tags]
+  );
 
-  const handleRemoveTag = useCallback((tag: string) => {
-    setTags(tags.filter((t) => t !== tag));
-  }, [tags]);
+  const handleRemoveTag = useCallback(
+    (tag: string) => {
+      setTags(tags.filter((t) => t !== tag));
+    },
+    [tags]
+  );
 
   if (!date) {
     return (
@@ -194,7 +244,10 @@ export default function DiaryScreen() {
                       style={[
                         styles.moodButton,
                         { backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF' },
-                        isSelected && { borderColor: config.color, backgroundColor: config.color + '20' },
+                        isSelected && {
+                          borderColor: config.color,
+                          backgroundColor: config.color + '20',
+                        },
                       ]}
                       onPress={() => setMood(mood === type ? undefined : type)}
                     >
@@ -216,10 +269,7 @@ export default function DiaryScreen() {
 
           {showPrompt && (
             <Pressable
-              style={[
-                styles.promptCard,
-                { backgroundColor: isDark ? '#1C1C1E' : '#FFF8E1' },
-              ]}
+              style={[styles.promptCard, { backgroundColor: isDark ? '#1C1C1E' : '#FFF8E1' }]}
               onPress={handleUsePrompt}
             >
               <View style={styles.promptHeader}>
@@ -249,9 +299,58 @@ export default function DiaryScreen() {
             />
           </View>
 
+          {existingEntry?.learningRecords && existingEntry.learningRecords.length > 0 && (
+            <View
+              style={[styles.learningSection, { backgroundColor: isDark ? '#1C1C1E' : '#E8F5E9' }]}
+            >
+              <View style={styles.learningSectionHeader}>
+                <Text style={styles.learningIcon}>📚</Text>
+                <Text
+                  style={[styles.sectionLabel, { color: colors.textSecondary, marginBottom: 0 }]}
+                >
+                  오늘의 영어 학습
+                </Text>
+              </View>
+              <View style={styles.learningRecords}>
+                {existingEntry.learningRecords.map((record: LearningRecord, index: number) => (
+                  <View
+                    key={index}
+                    style={[
+                      styles.learningRecordItem,
+                      { backgroundColor: isDark ? '#2C2C2E' : '#FFFFFF' },
+                    ]}
+                  >
+                    <Text style={styles.learningRecordIcon}>
+                      {ACTIVITY_ICONS[record.activityType] || '📖'}
+                    </Text>
+                    <View style={styles.learningRecordInfo}>
+                      <Text style={[styles.learningRecordType, { color: colors.text }]}>
+                        {ACTIVITY_LABELS[record.activityType] || record.activityType}
+                      </Text>
+                      <Text style={[styles.learningRecordMeta, { color: colors.textSecondary }]}>
+                        {record.lessonId
+                          ? record.lessonId
+                              .toUpperCase()
+                              .replace(/-U/g, ' Unit ')
+                              .replace(/-L/g, ' Lesson ')
+                          : record.weekId?.replace('week-', '주차 ')}{' '}
+                        · {record.score}점
+                      </Text>
+                    </View>
+                    <View style={[styles.scoreBadge, { backgroundColor: COLORS.primary + '20' }]}>
+                      <Text style={[styles.scoreText, { color: COLORS.primary }]}>
+                        {record.score}
+                      </Text>
+                    </View>
+                  </View>
+                ))}
+              </View>
+            </View>
+          )}
+
           <View style={styles.tagSection}>
             <Text style={[styles.sectionLabel, { color: colors.textSecondary }]}>태그</Text>
-            
+
             <View style={styles.tagInputRow}>
               <TextInput
                 value={newTag}
@@ -260,9 +359,9 @@ export default function DiaryScreen() {
                 placeholderTextColor={isDark ? '#6B6B6B' : '#A0A0A0'}
                 style={[
                   styles.tagInput,
-                  { 
+                  {
                     backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF',
-                    color: colors.text 
+                    color: colors.text,
                   },
                 ]}
                 onSubmitEditing={() => handleAddTag(newTag)}
@@ -292,16 +391,18 @@ export default function DiaryScreen() {
             )}
 
             <View style={styles.suggestedTags}>
-              {COMMON_TAGS.filter((t) => !tags.includes(t)).slice(0, 5).map((tag) => (
-                <Chip
-                  key={tag}
-                  onPress={() => handleAddTag(tag)}
-                  style={styles.suggestedChip}
-                  textStyle={styles.suggestedChipText}
-                >
-                  #{tag}
-                </Chip>
-              ))}
+              {COMMON_TAGS.filter((t) => !tags.includes(t))
+                .slice(0, 5)
+                .map((tag) => (
+                  <Chip
+                    key={tag}
+                    onPress={() => handleAddTag(tag)}
+                    style={styles.suggestedChip}
+                    textStyle={styles.suggestedChipText}
+                  >
+                    #{tag}
+                  </Chip>
+                ))}
             </View>
           </View>
 
@@ -510,5 +611,53 @@ const styles = StyleSheet.create({
   titleInput: {
     fontSize: SIZES.fontSize.xl,
     fontWeight: '600',
+  },
+  // Learning section styles
+  learningSection: {
+    borderRadius: SIZES.borderRadius.lg,
+    marginBottom: SIZES.spacing.md,
+    padding: SIZES.spacing.md,
+  },
+  learningSectionHeader: {
+    alignItems: 'center',
+    flexDirection: 'row',
+    gap: SIZES.spacing.xs,
+    marginBottom: SIZES.spacing.sm,
+  },
+  learningIcon: {
+    fontSize: 20,
+  },
+  learningRecords: {
+    gap: SIZES.spacing.sm,
+  },
+  learningRecordItem: {
+    alignItems: 'center',
+    borderRadius: SIZES.borderRadius.md,
+    flexDirection: 'row',
+    padding: SIZES.spacing.sm,
+  },
+  learningRecordIcon: {
+    fontSize: 24,
+    marginRight: SIZES.spacing.sm,
+  },
+  learningRecordInfo: {
+    flex: 1,
+  },
+  learningRecordType: {
+    fontSize: SIZES.fontSize.md,
+    fontWeight: '600',
+  },
+  learningRecordMeta: {
+    fontSize: SIZES.fontSize.sm,
+    marginTop: 2,
+  },
+  scoreBadge: {
+    borderRadius: SIZES.borderRadius.sm,
+    paddingHorizontal: SIZES.spacing.sm,
+    paddingVertical: SIZES.spacing.xs,
+  },
+  scoreText: {
+    fontSize: SIZES.fontSize.md,
+    fontWeight: '700',
   },
 });

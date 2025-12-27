@@ -5,19 +5,27 @@
     "esModuleInterop": true,
     "isolatedModules": true,
     "jsx": "react-native",
-    "lib": ["es2017"],
+    "lib": [
+      "es2017"
+    ],
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "noEmit": true,
     "strict": true,
     "target": "esnext",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": [
+        "./*"
+      ]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "types": ["react-native", "jest", "node"]
+    "types": [
+      "react-native",
+      "jest",
+      "node"
+    ]
   },
   "include": [
     "**/*.ts",
@@ -25,5 +33,6 @@
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "extends": "expo/tsconfig.base"
 }

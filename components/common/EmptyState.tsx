@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, ViewStyle } from 'react-native';
 import LottieView from 'lottie-react-native';
-import { MotiView } from 'moti';
+import Animated, { FadeInUp } from 'react-native-reanimated';
 import { useTheme } from '@/contexts/ThemeContext';
 import { TYPOGRAPHY } from '@/constants/typography';
 import { SIZES } from '@/constants/sizes';
@@ -32,45 +32,23 @@ export function EmptyState({
   const { colors, isDark } = useTheme();
 
   return (
-    <MotiView
-      from={{ opacity: 0, translateY: 20 }}
-      animate={{ opacity: 1, translateY: 0 }}
-      transition={{ type: 'timing', duration: 400 }}
-      style={[styles.container, style]}
-    >
+    <Animated.View entering={FadeInUp.duration(400)} style={[styles.container, style]}>
       <View style={styles.animationContainer}>
-        <LottieView
-          source={ANIMATIONS[type]}
-          autoPlay
-          loop
-          style={styles.animation}
-        />
+        <LottieView source={ANIMATIONS[type]} autoPlay loop style={styles.animation} />
       </View>
 
-      <Text
-        style={[
-          styles.title,
-          TYPOGRAPHY.h3,
-          { color: colors.text },
-        ]}
-      >
-        {title}
-      </Text>
+      <Text style={[styles.title, TYPOGRAPHY.h3, { color: colors.text }]}>{title}</Text>
 
       {description && (
         <Text
-          style={[
-            styles.description,
-            TYPOGRAPHY.body,
-            { color: isDark ? '#8E8E93' : '#6B6B6B' },
-          ]}
+          style={[styles.description, TYPOGRAPHY.body, { color: isDark ? '#8E8E93' : '#6B6B6B' }]}
         >
           {description}
         </Text>
       )}
 
       {action && <View style={styles.actionContainer}>{action}</View>}
-    </MotiView>
+    </Animated.View>
   );
 }
 

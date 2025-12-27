@@ -7,10 +7,10 @@
  */
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { MotiView } from 'moti';
 import React, { useCallback, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import { Card, Text } from 'react-native-paper';
+import Animated, { FadeInUp, ZoomIn } from 'react-native-reanimated';
 
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
@@ -243,11 +243,7 @@ export function KonglishAlert({
   const severityColor = getSeverityColor();
 
   return (
-    <MotiView
-      from={{ opacity: 0, translateY: -10 }}
-      animate={{ opacity: 1, translateY: 0 }}
-      transition={{ type: 'spring', damping: 15 }}
-    >
+    <Animated.View entering={FadeInUp.duration(300)}>
       <Card
         style={[
           styles.container,
@@ -315,11 +311,7 @@ export function KonglishAlert({
 
           {/* Expanded Content */}
           {expanded && (
-            <MotiView
-              from={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: 'auto' }}
-              transition={{ type: 'timing', duration: 200 }}
-            >
+            <Animated.View entering={FadeInUp.duration(200)}>
               {/* Explanation */}
               <View style={styles.explanationSection}>
                 <MaterialCommunityIcons name="lightbulb-on" size={18} color="#f59e0b" />
@@ -348,11 +340,11 @@ export function KonglishAlert({
                   </Text>
                 </View>
               </View>
-            </MotiView>
+            </Animated.View>
           )}
         </Card.Content>
       </Card>
-    </MotiView>
+    </Animated.View>
   );
 }
 
@@ -513,14 +505,14 @@ export function KonglishQuiz({ items, onComplete }: KonglishQuizProps) {
 
       {/* Explanation (after answering) */}
       {isAnswered && (
-        <MotiView from={{ opacity: 0, translateY: 10 }} animate={{ opacity: 1, translateY: 0 }}>
+        <Animated.View entering={FadeInUp.duration(300)}>
           <View style={styles.quizExplanation}>
             <MaterialCommunityIcons name="lightbulb-on" size={18} color="#f59e0b" />
             <Text style={[styles.quizExplanationText, { color: colors.text }]}>
               {currentItem.explanation}
             </Text>
           </View>
-        </MotiView>
+        </Animated.View>
       )}
 
       {/* Next Button */}

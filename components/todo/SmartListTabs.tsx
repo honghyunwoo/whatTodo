@@ -2,7 +2,7 @@ import React, { memo, useCallback } from 'react';
 import { StyleSheet, View, Pressable } from 'react-native';
 import { Text } from 'react-native-paper';
 import { Ionicons } from '@expo/vector-icons';
-import { MotiView } from 'moti';
+import Animated, { useAnimatedStyle, withTiming } from 'react-native-reanimated';
 
 import { useTheme } from '@/contexts/ThemeContext';
 import { SIZES } from '@/constants/sizes';
@@ -53,19 +53,22 @@ const SmartListTab = memo(function SmartListTab({
 }: SmartListTabProps) {
   const { isDark } = useTheme();
 
+  const animatedStyle = useAnimatedStyle(() => ({
+    backgroundColor: withTiming(
+      isActive ? (isDark ? `${config.color}20` : `${config.color}15`) : 'transparent',
+      { duration: 200 }
+    ),
+    transform: [{ scale: withTiming(isActive ? 1 : 0.95, { duration: 200 }) }],
+  }));
+
   return (
     <Pressable onPress={onPress} style={styles.tabWrapper}>
-      <MotiView
-        animate={{
-          backgroundColor: isActive
-            ? isDark
-              ? `${config.color}20`
-              : `${config.color}15`
-            : 'transparent',
-          scale: isActive ? 1 : 0.95,
-        }}
-        transition={{ type: 'timing', duration: 200 }}
-        style={[styles.tab, isActive && { borderColor: config.color, borderWidth: 1.5 }]}
+      <Animated.View
+        style={[
+          styles.tab,
+          animatedStyle,
+          isActive && { borderColor: config.color, borderWidth: 1.5 },
+        ]}
       >
         <Ionicons
           name={config.icon as keyof typeof Ionicons.glyphMap}
@@ -102,7 +105,7 @@ const SmartListTab = memo(function SmartListTab({
             </Text>
           </View>
         )}
-      </MotiView>
+      </Animated.View>
     </Pressable>
   );
 });

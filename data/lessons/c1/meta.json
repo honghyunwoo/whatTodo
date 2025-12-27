@@ -1,0 +1,148 @@
+{
+  "id": "c1",
+  "level": "C1",
+  "title": "고급 입문",
+  "description": "복잡한 텍스트를 이해하고 유창하게 의사소통할 수 있습니다.",
+  "goal": "사회적, 학문적, 전문적 목적에 맞는 유연한 언어 사용",
+  "icon": "🏔️",
+  "color": "#3F51B5",
+  "estimatedHours": 40,
+  "units": [
+    {
+      "id": "c1-u1",
+      "title": "고급 어휘",
+      "description": "고급 어휘와 관용적 표현을 배웁니다.",
+      "icon": "📚",
+      "themeColor": "#2196F3",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "c1-u1-l1",
+          "title": "Idioms & Expressions",
+          "subtitle": "관용어와 표현",
+          "estimatedMinutes": 25,
+          "keyPhrasesCount": 7,
+          "prerequisites": [],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "idioms",
+          "objectives": ["관용어 이해", "문맥 활용", "자연스러운 사용"],
+          "weekMapping": "week-1"
+        },
+        {
+          "id": "c1-u1-l2",
+          "title": "Nuanced Language",
+          "subtitle": "미묘한 표현",
+          "estimatedMinutes": 25,
+          "keyPhrasesCount": 7,
+          "prerequisites": ["c1-u1-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "nuance",
+          "objectives": ["뉘앙스 구분", "상황별 표현", "격식 조절"],
+          "weekMapping": "week-2"
+        }
+      ]
+    },
+    {
+      "id": "c1-u2",
+      "title": "학술 영어",
+      "description": "학술적 글쓰기와 발표를 배웁니다.",
+      "icon": "🎓",
+      "themeColor": "#FF9800",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "c1-u2-l1",
+          "title": "Research Writing",
+          "subtitle": "연구 글쓰기",
+          "estimatedMinutes": 25,
+          "keyPhrasesCount": 7,
+          "prerequisites": ["c1-u1-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "research",
+          "objectives": ["논문 구조", "인용하기", "결론 도출"],
+          "weekMapping": "week-3"
+        },
+        {
+          "id": "c1-u2-l2",
+          "title": "Academic Presentation",
+          "subtitle": "학술 발표",
+          "estimatedMinutes": 25,
+          "keyPhrasesCount": 7,
+          "prerequisites": ["c1-u2-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "presentation",
+          "objectives": ["발표 구성", "질의응답", "청중 참여"],
+          "weekMapping": "week-4"
+        }
+      ]
+    },
+    {
+      "id": "c1-u3",
+      "title": "비즈니스 고급",
+      "description": "고급 비즈니스 상황에 대처하는 방법을 배웁니다.",
+      "icon": "💼",
+      "themeColor": "#9C27B0",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "c1-u3-l1",
+          "title": "Leadership Communication",
+          "subtitle": "리더십 커뮤니케이션",
+          "estimatedMinutes": 25,
+          "keyPhrasesCount": 7,
+          "prerequisites": ["c1-u2-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "leadership",
+          "objectives": ["동기 부여", "피드백 주기", "갈등 해결"],
+          "weekMapping": "week-5"
+        },
+        {
+          "id": "c1-u3-l2",
+          "title": "Strategic Planning",
+          "subtitle": "전략 기획",
+          "estimatedMinutes": 25,
+          "keyPhrasesCount": 7,
+          "prerequisites": ["c1-u3-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "strategy",
+          "objectives": ["전략 수립", "계획 발표", "팀 협업"],
+          "weekMapping": "week-6"
+        }
+      ]
+    },
+    {
+      "id": "c1-u4",
+      "title": "문화 심화",
+      "description": "문화적 뉘앙스와 글로벌 이슈를 다룹니다.",
+      "icon": "🌐",
+      "themeColor": "#F44336",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "c1-u4-l1",
+          "title": "Cross-Cultural",
+          "subtitle": "다문화 이해",
+          "estimatedMinutes": 25,
+          "keyPhrasesCount": 7,
+          "prerequisites": ["c1-u3-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "culture",
+          "objectives": ["문화 차이 이해", "적응하기", "다양성 존중"],
+          "weekMapping": "week-7"
+        },
+        {
+          "id": "c1-u4-l2",
+          "title": "Global Issues",
+          "subtitle": "글로벌 이슈",
+          "estimatedMinutes": 25,
+          "keyPhrasesCount": 7,
+          "prerequisites": ["c1-u4-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "global",
+          "objectives": ["세계 문제 분석", "해결책 토론", "국제 협력"],
+          "weekMapping": "week-8"
+        }
+      ]
+    }
+  ]
+}

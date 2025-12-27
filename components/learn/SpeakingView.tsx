@@ -24,9 +24,10 @@ export function SpeakingView({ activity, onComplete }: SpeakingViewProps) {
   const [practicedSentences, setPracticedSentences] = useState<Set<string>>(new Set());
   const [checklistCompleted, setChecklistCompleted] = useState<Record<string, boolean>>({});
 
-  const sentences = activity.sentences;
-  const currentSentence = sentences[currentIndex];
-  const isLastSentence = currentIndex === sentences.length - 1;
+  // Null safety: activity.sentences가 없으면 빈 배열 사용
+  const sentences = activity?.sentences ?? [];
+  const currentSentence = sentences.length > 0 ? sentences[currentIndex] : null;
+  const isLastSentence = sentences.length > 0 && currentIndex === sentences.length - 1;
 
   const handlePlaySentence = useCallback(
     async (sentence: SpeakingSentence) => {
@@ -56,6 +57,7 @@ export function SpeakingView({ activity, onComplete }: SpeakingViewProps) {
   );
 
   const handleMarkPracticed = useCallback(() => {
+    if (!currentSentence) return;
     setPracticedSentences((prev) => new Set(prev).add(currentSentence.id));
   }, [currentSentence]);
 
@@ -100,6 +102,17 @@ export function SpeakingView({ activity, onComplete }: SpeakingViewProps) {
     Speech.stop();
     setIsPlaying(false);
   }, []);
+
+  // 데이터가 없는 경우 빈 상태 표시 (hooks 호출 후에 조건부 반환)
+  if (sentences.length === 0 || !currentSentence) {
+    return (
+      <View style={styles.completedContainer}>
+        <Text style={styles.completedIcon}>🎤</Text>
+        <Text style={styles.completedTitle}>말하기 데이터 없음</Text>
+        <Text style={styles.statsText}>이 레슨의 문장 데이터를 불러올 수 없습니다.</Text>
+      </View>
+    );
+  }
 
   if (mode === 'complete') {
     const practicedCount = practicedSentences.size;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, StyleSheet, ViewStyle } from 'react-native';
 import LottieView from 'lottie-react-native';
-import { MotiView } from 'moti';
+import Animated, { FadeIn, ZoomIn } from 'react-native-reanimated';
 import { useTheme } from '@/contexts/ThemeContext';
 import { TYPOGRAPHY } from '@/constants/typography';
 import { SIZES } from '@/constants/sizes';
@@ -29,12 +29,7 @@ export function LoadingSpinner({
   const dimension = SIZES_MAP[size];
 
   const content = (
-    <MotiView
-      from={{ opacity: 0, scale: 0.8 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ type: 'timing', duration: 300 }}
-      style={[styles.container, style]}
-    >
+    <Animated.View entering={ZoomIn.duration(300)} style={[styles.container, style]}>
       <LottieView
         source={require('@/assets/animations/loading.json')}
         autoPlay
@@ -48,22 +43,20 @@ export function LoadingSpinner({
           {message}
         </Text>
       )}
-    </MotiView>
+    </Animated.View>
   );
 
   if (overlay) {
     return (
-      <MotiView
-        from={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ type: 'timing', duration: 200 }}
+      <Animated.View
+        entering={FadeIn.duration(200)}
         style={[
           styles.overlay,
           { backgroundColor: isDark ? 'rgba(0,0,0,0.7)' : 'rgba(255,255,255,0.9)' },
         ]}
       >
         {content}
-      </MotiView>
+      </Animated.View>
     );
   }
 

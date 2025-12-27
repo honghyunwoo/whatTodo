@@ -22,7 +22,13 @@ export function ListeningView({ activity, onComplete }: ListeningViewProps) {
   const [score, setScore] = useState(0);
   const [showTranscript, setShowTranscript] = useState(false);
 
+  // Null safety: activity.audio와 activity.questions가 없으면 기본값 사용
+  const audio = activity?.audio;
+  const questions = activity?.questions ?? [];
+
   const handlePlay = useCallback(async () => {
+    if (!audio?.text) return;
+
     if (isPlaying) {
       Speech.stop();
       setIsPlaying(false);
@@ -30,10 +36,10 @@ export function ListeningView({ activity, onComplete }: ListeningViewProps) {
     }
 
     setIsPlaying(true);
-    const rate = activity.audio.speed || 1.0;
+    const rate = audio.speed || 1.0;
 
     try {
-      await Speech.speak(activity.audio.text, {
+      await Speech.speak(audio.text, {
         language: 'en-US',
         rate,
         onDone: () => setIsPlaying(false),
@@ -42,7 +48,7 @@ export function ListeningView({ activity, onComplete }: ListeningViewProps) {
     } catch {
       setIsPlaying(false);
     }
-  }, [isPlaying, activity.audio]);
+  }, [isPlaying, audio]);
 
   const handleStartQuiz = useCallback(() => {
     Speech.stop();
@@ -68,7 +74,28 @@ export function ListeningView({ activity, onComplete }: ListeningViewProps) {
   }, []);
 
   if (mode === 'quiz') {
-    return <QuizView exercises={activity.questions} onComplete={handleQuizComplete} />;
+    if (questions.length === 0) {
+      return (
+        <View style={styles.completedContainer}>
+          <Text style={styles.completedIcon}>🎧</Text>
+          <Text style={styles.completedTitle}>퀴즈 데이터 없음</Text>
+        </View>
+      );
+    }
+    return <QuizView exercises={questions} onComplete={handleQuizComplete} />;
+  }
+
+  // 오디오 데이터가 없는 경우
+  if (!audio?.text) {
+    return (
+      <View style={styles.completedContainer}>
+        <Text style={styles.completedIcon}>🎧</Text>
+        <Text style={styles.completedTitle}>오디오 데이터 없음</Text>
+        <Text style={{ color: '#666', textAlign: 'center' }}>
+          이 레슨의 오디오 데이터를 불러올 수 없습니다.
+        </Text>
+      </View>
+    );
   }
 
   if (mode === 'complete') {
@@ -98,7 +125,7 @@ export function ListeningView({ activity, onComplete }: ListeningViewProps) {
             onPress={handlePlay}
           />
           <Text style={styles.playerHint}>{isPlaying ? '재생 중...' : '탭하여 재생'}</Text>
-          <Text style={styles.speedInfo}>속도: {activity.audio.speed}x</Text>
+          <Text style={styles.speedInfo}>속도: {audio.speed}x</Text>
         </Card.Content>
       </Card>
 
@@ -113,13 +140,18 @@ export function ListeningView({ activity, onComplete }: ListeningViewProps) {
       {showTranscript && (
         <Card style={styles.transcriptCard}>
           <Card.Content>
-            <Text style={styles.transcriptText}>{activity.audio.text}</Text>
+            <Text style={styles.transcriptText}>{audio.text}</Text>
           </Card.Content>
         </Card>
       )}
 
-      <Button mode="contained" onPress={handleStartQuiz} style={styles.quizButton}>
-        퀴즈 시작 ({activity.questions.length}문제)
+      <Button
+        mode="contained"
+        onPress={handleStartQuiz}
+        style={styles.quizButton}
+        disabled={questions.length === 0}
+      >
+        퀴즈 시작 ({questions.length}문제)
       </Button>
     </View>
   );

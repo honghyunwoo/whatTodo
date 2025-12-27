@@ -5,16 +5,9 @@
  */
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { MotiView } from 'moti';
+import Animated, { FadeInUp, ZoomIn } from 'react-native-reanimated';
 import React, { useCallback, useMemo, useState } from 'react';
-import {
-  Keyboard,
-  Pressable,
-  ScrollView,
-  StyleSheet,
-  TextInput,
-  View,
-} from 'react-native';
+import { Keyboard, Pressable, ScrollView, StyleSheet, TextInput, View } from 'react-native';
 import { Card, Text } from 'react-native-paper';
 
 import { COLORS } from '@/constants/colors';
@@ -52,13 +45,7 @@ const WRITING_HELPERS: WritingHelper[] = [
     id: 'opening',
     title: 'Opening',
     icon: 'format-quote-open',
-    items: [
-      'Dear...',
-      'Hello...',
-      'I am writing to...',
-      'Thank you for...',
-      'I would like to...',
-    ],
+    items: ['Dear...', 'Hello...', 'I am writing to...', 'Thank you for...', 'I would like to...'],
   },
   {
     id: 'connectors',
@@ -127,8 +114,7 @@ export function WritingEditor({
   }, [value]);
 
   // Check if word count is in valid range
-  const isWordCountValid =
-    wordCount >= prompt.wordCount.min && wordCount <= prompt.wordCount.max;
+  const isWordCountValid = wordCount >= prompt.wordCount.min && wordCount <= prompt.wordCount.max;
 
   const isUnderMinimum = wordCount < prompt.wordCount.min;
   const isOverMaximum = wordCount > prompt.wordCount.max;
@@ -173,9 +159,7 @@ export function WritingEditor({
         <Card.Content>
           <View style={styles.promptHeader}>
             <MaterialCommunityIcons name="text-box-outline" size={20} color={COLORS.primary} />
-            <Text style={[styles.promptTitle, { color: colors.text }]}>
-              {prompt.topic}
-            </Text>
+            <Text style={[styles.promptTitle, { color: colors.text }]}>{prompt.topic}</Text>
           </View>
 
           {prompt.scenario && (
@@ -216,8 +200,8 @@ export function WritingEditor({
             borderColor: isOverMaximum
               ? '#ef4444'
               : value.length > 0
-              ? COLORS.primary
-              : COLORS.border,
+                ? COLORS.primary
+                : COLORS.border,
           },
         ]}
       >
@@ -254,10 +238,7 @@ export function WritingEditor({
 
       {/* Helper Toggle Button */}
       <Pressable
-        style={[
-          styles.helperToggle,
-          { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface },
-        ]}
+        style={[styles.helperToggle, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
         onPress={() => {
           setShowHelpers(!showHelpers);
           if (showHelpers) setActiveHelper(null);
@@ -272,21 +253,18 @@ export function WritingEditor({
         <Text style={[styles.helperToggleText, { color: colors.textSecondary }]}>
           {showHelpers ? 'Hide writing helpers' : 'Show writing helpers'}
         </Text>
-        <MaterialCommunityIcons
-          name="lightbulb-outline"
-          size={18}
-          color="#f59e0b"
-        />
+        <MaterialCommunityIcons name="lightbulb-outline" size={18} color="#f59e0b" />
       </Pressable>
 
       {/* Writing Helpers */}
       {showHelpers && (
-        <MotiView
-          from={{ opacity: 0, translateY: -10 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'timing', duration: 200 }}
-        >
-          <Card style={[styles.helpersCard, { backgroundColor: isDark ? '#1C1C1E' : COLORS.background }]}>
+        <Animated.View entering={FadeInUp.duration(200)}>
+          <Card
+            style={[
+              styles.helpersCard,
+              { backgroundColor: isDark ? '#1C1C1E' : COLORS.background },
+            ]}
+          >
             <Card.Content>
               {/* Helper Categories */}
               <ScrollView
@@ -304,8 +282,8 @@ export function WritingEditor({
                           activeHelper === helper.id
                             ? COLORS.primary
                             : isDark
-                            ? '#2C2C2E'
-                            : COLORS.surface,
+                              ? '#2C2C2E'
+                              : COLORS.surface,
                       },
                     ]}
                     onPress={() => toggleHelper(helper.id)}
@@ -319,8 +297,7 @@ export function WritingEditor({
                       style={[
                         styles.helperCategoryText,
                         {
-                          color:
-                            activeHelper === helper.id ? '#fff' : colors.text,
+                          color: activeHelper === helper.id ? '#fff' : colors.text,
                         },
                       ]}
                     >
@@ -332,11 +309,7 @@ export function WritingEditor({
 
               {/* Helper Items */}
               {activeHelper && (
-                <MotiView
-                  from={{ opacity: 0, height: 0 }}
-                  animate={{ opacity: 1, height: 'auto' }}
-                  transition={{ type: 'timing', duration: 150 }}
-                >
+                <Animated.View entering={FadeInUp.duration(150)}>
                   <View style={styles.helperItems}>
                     {WRITING_HELPERS.find((h) => h.id === activeHelper)?.items.map(
                       (item, index) => (
@@ -348,33 +321,23 @@ export function WritingEditor({
                           ]}
                           onPress={() => insertText(item)}
                         >
-                          <Text
-                            style={[styles.helperItemText, { color: colors.text }]}
-                          >
+                          <Text style={[styles.helperItemText, { color: colors.text }]}>
                             {item}
                           </Text>
-                          <MaterialCommunityIcons
-                            name="plus"
-                            size={14}
-                            color={COLORS.primary}
-                          />
+                          <MaterialCommunityIcons name="plus" size={14} color={COLORS.primary} />
                         </Pressable>
                       )
                     )}
                   </View>
-                </MotiView>
+                </Animated.View>
               )}
             </Card.Content>
           </Card>
-        </MotiView>
+        </Animated.View>
       )}
 
       {/* Submit Button */}
-      <MotiView
-        from={{ opacity: 0, scale: 0.9 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ type: 'spring', damping: 12 }}
-      >
+      <Animated.View entering={ZoomIn.duration(300)}>
         <Pressable
           style={[
             styles.submitButton,
@@ -390,13 +353,7 @@ export function WritingEditor({
         >
           {isSubmitting ? (
             <>
-              <MotiView
-                from={{ rotate: '0deg' }}
-                animate={{ rotate: '360deg' }}
-                transition={{ type: 'timing', duration: 1000, loop: true }}
-              >
-                <MaterialCommunityIcons name="loading" size={20} color="#fff" />
-              </MotiView>
+              <MaterialCommunityIcons name="loading" size={20} color="#fff" />
               <Text style={styles.submitButtonText}>Analyzing...</Text>
             </>
           ) : (
@@ -417,7 +374,7 @@ export function WritingEditor({
             </>
           )}
         </Pressable>
-      </MotiView>
+      </Animated.View>
     </View>
   );
 }

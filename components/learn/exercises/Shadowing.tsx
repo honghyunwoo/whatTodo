@@ -9,10 +9,10 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Audio } from 'expo-av';
 import * as Speech from 'expo-speech';
-import { MotiView } from 'moti';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { Card, Text } from 'react-native-paper';
+import Animated, { FadeInUp, ZoomIn } from 'react-native-reanimated';
 
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
@@ -338,10 +338,8 @@ export function Shadowing({ sentences, onComplete }: ShadowingProps) {
       <View
         style={[styles.progressContainer, { backgroundColor: isDark ? '#38383A' : COLORS.border }]}
       >
-        <MotiView
-          animate={{ width: `${progress}%` }}
-          transition={{ type: 'timing', duration: 300 }}
-          style={[styles.progressBar, { backgroundColor: COLORS.primary }]}
+        <View
+          style={[styles.progressBar, { backgroundColor: COLORS.primary, width: `${progress}%` }]}
         />
       </View>
       <Text style={[styles.progressText, { color: colors.textSecondary }]}>
@@ -349,12 +347,7 @@ export function Shadowing({ sentences, onComplete }: ShadowingProps) {
       </Text>
 
       {/* Sentence Card */}
-      <MotiView
-        key={currentIndex}
-        from={{ opacity: 0, translateX: 30 }}
-        animate={{ opacity: 1, translateX: 0 }}
-        transition={{ type: 'timing', duration: 300 }}
-      >
+      <Animated.View key={currentIndex} entering={FadeInUp.duration(300)}>
         <Card
           style={[styles.sentenceCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
         >
@@ -435,42 +428,30 @@ export function Shadowing({ sentences, onComplete }: ShadowingProps) {
 
             {/* Translation */}
             {showTranslation && (
-              <MotiView
-                from={{ opacity: 0, height: 0 }}
-                animate={{ opacity: 1, height: 'auto' }}
-                transition={{ type: 'timing', duration: 200 }}
-              >
+              <Animated.View entering={FadeInUp.duration(200)}>
                 <Text style={[styles.translationText, { color: colors.textSecondary }]}>
                   {currentSentence.translation}
                 </Text>
-              </MotiView>
+              </Animated.View>
             )}
 
             {/* Tips */}
             {showTips && currentSentence.tips && (
-              <MotiView
-                from={{ opacity: 0, height: 0 }}
-                animate={{ opacity: 1, height: 'auto' }}
-                transition={{ type: 'timing', duration: 200 }}
-              >
+              <Animated.View entering={FadeInUp.duration(200)}>
                 <View style={styles.tipsContainer}>
                   <MaterialCommunityIcons name="lightbulb-on" size={18} color="#f59e0b" />
                   <Text style={[styles.tipsText, { color: colors.text }]}>
                     {currentSentence.tips}
                   </Text>
                 </View>
-              </MotiView>
+              </Animated.View>
             )}
           </Card.Content>
         </Card>
-      </MotiView>
+      </Animated.View>
 
       {/* Audio Controls */}
-      <MotiView
-        from={{ opacity: 0, translateY: 20 }}
-        animate={{ opacity: 1, translateY: 0 }}
-        transition={{ type: 'timing', duration: 300, delay: 100 }}
-      >
+      <Animated.View entering={FadeInUp.duration(300).delay(100)}>
         <View style={styles.audioControls}>
           {/* Play/Stop Button */}
           <Pressable
@@ -499,15 +480,11 @@ export function Shadowing({ sentences, onComplete }: ShadowingProps) {
             </Text>
           </View>
         </View>
-      </MotiView>
+      </Animated.View>
 
       {/* Recording Section */}
       {permissionGranted && (
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'timing', duration: 300, delay: 200 }}
-        >
+        <Animated.View entering={FadeInUp.duration(300).delay(200)}>
           <Card
             style={[styles.recordingCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
           >
@@ -557,40 +534,22 @@ export function Shadowing({ sentences, onComplete }: ShadowingProps) {
 
               {isRecording && (
                 <View style={styles.recordingIndicator}>
-                  <MotiView
-                    from={{ opacity: 0.5, scale: 1 }}
-                    animate={{ opacity: 1, scale: 1.2 }}
-                    transition={{
-                      type: 'timing',
-                      duration: 500,
-                      loop: true,
-                    }}
-                  >
-                    <View style={styles.recordingDot} />
-                  </MotiView>
+                  <View style={styles.recordingDot} />
                   <Text style={styles.recordingText}>녹음 중...</Text>
                 </View>
               )}
             </Card.Content>
           </Card>
-        </MotiView>
+        </Animated.View>
       )}
 
       {/* Self Rating */}
-      <MotiView
-        from={{ opacity: 0, translateY: 20 }}
-        animate={{ opacity: 1, translateY: 0 }}
-        transition={{ type: 'timing', duration: 300, delay: 300 }}
-      >
+      <Animated.View entering={FadeInUp.duration(300).delay(300)}>
         {renderRatingStars()}
-      </MotiView>
+      </Animated.View>
 
       {/* Next Button */}
-      <MotiView
-        from={{ opacity: 0, scale: 0.9 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ type: 'spring', damping: 12 }}
-      >
+      <Animated.View entering={ZoomIn.duration(300)}>
         <Pressable
           style={[
             styles.nextButton,
@@ -615,7 +574,7 @@ export function Shadowing({ sentences, onComplete }: ShadowingProps) {
             color={practiceCount > 0 ? '#fff' : colors.textSecondary}
           />
         </Pressable>
-      </MotiView>
+      </Animated.View>
     </ScrollView>
   );
 }

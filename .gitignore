@@ -43,3 +43,6 @@ GoogleService-Info.plist
 # generated native folders
 /ios
 /android
+
+# Windows special files
+nul

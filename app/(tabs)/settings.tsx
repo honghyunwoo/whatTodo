@@ -1,3 +1,4 @@
+import { router } from 'expo-router';
 import React, { useState } from 'react';
 import {
   Alert,
@@ -309,6 +310,21 @@ export default function SettingsScreen() {
         )}
       </View>
 
+      {/* 미니게임 */}
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>미니게임</Text>
+        <TouchableOpacity style={styles.gameRow} onPress={() => router.push('/game')}>
+          <View style={styles.rowLeft}>
+            <Ionicons name="game-controller-outline" size={22} color={colors.primary} />
+            <View>
+              <Text style={styles.rowLabel}>2048</Text>
+              <Text style={styles.gameSubtitle}>숫자를 합쳐 2048을 만들어보세요!</Text>
+            </View>
+          </View>
+          <Ionicons name="chevron-forward" size={20} color={colors.textSecondary} />
+        </TouchableOpacity>
+      </View>
+
       {/* 앱 정보 */}
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>앱 정보</Text>
@@ -367,6 +383,17 @@ const createStyles = (
       paddingVertical: SIZES.spacing.sm,
       borderBottomWidth: 1,
       borderBottomColor: isDark ? '#38383A' : '#f0f0f0',
+    },
+    gameRow: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      paddingVertical: SIZES.spacing.md,
+    },
+    gameSubtitle: {
+      fontSize: SIZES.fontSize.sm,
+      color: colors.textSecondary,
+      marginTop: 2,
     },
     rowLeft: {
       flexDirection: 'row',

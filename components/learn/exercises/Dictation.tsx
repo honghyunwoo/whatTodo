@@ -6,11 +6,10 @@
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import * as Speech from 'expo-speech';
-import { MotiView } from 'moti';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Pressable, StyleSheet, TextInput, View } from 'react-native';
 import { Card, Text } from 'react-native-paper';
-import Animated, { FadeIn, FadeOut } from 'react-native-reanimated';
+import Animated, { FadeIn, FadeOut, FadeInUp, ZoomIn } from 'react-native-reanimated';
 
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
@@ -301,10 +300,8 @@ export function Dictation({ questions, onComplete, speeds = DEFAULT_SPEEDS }: Di
       <View
         style={[styles.progressContainer, { backgroundColor: isDark ? '#38383A' : COLORS.border }]}
       >
-        <MotiView
-          animate={{ width: `${progress}%` }}
-          transition={{ type: 'timing', duration: 300 }}
-          style={[styles.progressBar, { backgroundColor: COLORS.primary }]}
+        <View
+          style={[styles.progressBar, { backgroundColor: COLORS.primary, width: `${progress}%` }]}
         />
       </View>
       <Text style={[styles.progressText, { color: colors.textSecondary }]}>
@@ -312,12 +309,7 @@ export function Dictation({ questions, onComplete, speeds = DEFAULT_SPEEDS }: Di
       </Text>
 
       {/* Question Card */}
-      <MotiView
-        key={currentIndex}
-        from={{ opacity: 0, translateX: 30 }}
-        animate={{ opacity: 1, translateX: 0 }}
-        transition={{ type: 'timing', duration: 300 }}
-      >
+      <Animated.View key={currentIndex} entering={FadeInUp.duration(300)}>
         <Card
           style={[styles.questionCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
         >
@@ -376,14 +368,10 @@ export function Dictation({ questions, onComplete, speeds = DEFAULT_SPEEDS }: Di
             )}
           </Card.Content>
         </Card>
-      </MotiView>
+      </Animated.View>
 
       {/* Audio Controls */}
-      <MotiView
-        from={{ opacity: 0, translateY: 20 }}
-        animate={{ opacity: 1, translateY: 0 }}
-        transition={{ type: 'timing', duration: 300, delay: 100 }}
-      >
+      <Animated.View entering={FadeInUp.duration(300).delay(100)}>
         <View style={styles.audioControls}>
           {/* Play Button */}
           <Pressable
@@ -428,7 +416,7 @@ export function Dictation({ questions, onComplete, speeds = DEFAULT_SPEEDS }: Di
             </Text>
           </View>
         </View>
-      </MotiView>
+      </Animated.View>
 
       {/* Hint Buttons */}
       {!isSubmitted && (
@@ -453,12 +441,7 @@ export function Dictation({ questions, onComplete, speeds = DEFAULT_SPEEDS }: Di
 
       {/* Hint Displays */}
       {(showWordCountHint || showFirstLetterHint) && !isSubmitted && (
-        <MotiView
-          from={{ opacity: 0, translateY: -10 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'timing', duration: 200 }}
-          style={styles.hintContainer}
-        >
+        <Animated.View entering={FadeInUp.duration(200)} style={styles.hintContainer}>
           {showWordCountHint && (
             <View style={styles.hintRow}>
               <MaterialCommunityIcons name="counter" size={16} color="#f59e0b" />
@@ -475,15 +458,11 @@ export function Dictation({ questions, onComplete, speeds = DEFAULT_SPEEDS }: Di
               </Text>
             </View>
           )}
-        </MotiView>
+        </Animated.View>
       )}
 
       {/* Input Section */}
-      <MotiView
-        from={{ opacity: 0, translateY: 20 }}
-        animate={{ opacity: 1, translateY: 0 }}
-        transition={{ type: 'timing', duration: 300, delay: 200 }}
-      >
+      <Animated.View entering={FadeInUp.duration(300).delay(200)}>
         <View
           style={[
             styles.inputContainer,
@@ -510,15 +489,11 @@ export function Dictation({ questions, onComplete, speeds = DEFAULT_SPEEDS }: Di
             autoCorrect={false}
           />
         </View>
-      </MotiView>
+      </Animated.View>
 
       {/* Submit Button */}
       {!isSubmitted && (
-        <MotiView
-          from={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ type: 'spring', damping: 12 }}
-        >
+        <Animated.View entering={ZoomIn.duration(300)}>
           <Pressable
             style={[
               styles.submitButton,
@@ -543,17 +518,13 @@ export function Dictation({ questions, onComplete, speeds = DEFAULT_SPEEDS }: Di
               color={userInput.trim() ? '#fff' : colors.textSecondary}
             />
           </Pressable>
-        </MotiView>
+        </Animated.View>
       )}
 
       {/* Result Card */}
       {isSubmitted && answerResult && (
         <Animated.View entering={FadeIn.duration(300)} exiting={FadeOut.duration(200)}>
-          <MotiView
-            from={{ opacity: 0, translateY: 20 }}
-            animate={{ opacity: 1, translateY: 0 }}
-            transition={{ type: 'spring', damping: 15 }}
-          >
+          <Animated.View entering={FadeInUp.duration(300)}>
             <Card
               style={[
                 styles.resultCard,
@@ -655,17 +626,13 @@ export function Dictation({ questions, onComplete, speeds = DEFAULT_SPEEDS }: Di
                 </View>
               </Card.Content>
             </Card>
-          </MotiView>
+          </Animated.View>
         </Animated.View>
       )}
 
       {/* Next Button */}
       {isSubmitted && (
-        <MotiView
-          from={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ type: 'spring', damping: 12 }}
-        >
+        <Animated.View entering={ZoomIn.duration(300)}>
           <Pressable
             style={[styles.nextButton, { backgroundColor: COLORS.primary }]}
             onPress={handleNext}
@@ -675,7 +642,7 @@ export function Dictation({ questions, onComplete, speeds = DEFAULT_SPEEDS }: Di
             </Text>
             <MaterialCommunityIcons name="arrow-right" size={20} color="#fff" />
           </Pressable>
-        </MotiView>
+        </Animated.View>
       )}
     </View>
   );

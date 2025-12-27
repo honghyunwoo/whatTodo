@@ -20,7 +20,8 @@ export function WritingView({ activity, onComplete }: WritingViewProps) {
   const [showVocabulary, setShowVocabulary] = useState(false);
   const [checklistCompleted, setChecklistCompleted] = useState<Record<string, boolean>>({});
 
-  const prompt = activity.prompt;
+  // Null safety: activity.prompt가 없으면 기본값 사용
+  const prompt = activity?.prompt;
 
   const wordCount = useMemo(() => {
     return writtenText
@@ -29,7 +30,9 @@ export function WritingView({ activity, onComplete }: WritingViewProps) {
       .filter((word) => word.length > 0).length;
   }, [writtenText]);
 
-  const isWordCountValid = wordCount >= prompt.wordCount.min && wordCount <= prompt.wordCount.max;
+  const isWordCountValid = prompt?.wordCount
+    ? wordCount >= prompt.wordCount.min && wordCount <= prompt.wordCount.max
+    : false;
 
   const handleStartWriting = useCallback(() => {
     setMode('write');
@@ -48,13 +51,13 @@ export function WritingView({ activity, onComplete }: WritingViewProps) {
 
   const handleComplete = useCallback(() => {
     const totalItems =
-      activity.evaluationChecklist?.reduce((acc, cat) => acc + cat.items.length, 0) || 0;
+      activity?.evaluationChecklist?.reduce((acc, cat) => acc + cat.items.length, 0) || 0;
     const checkedItems = Object.values(checklistCompleted).filter(Boolean).length;
     const score = totalItems > 0 ? Math.round((checkedItems / totalItems) * 100) : 100;
 
     setMode('complete');
     onComplete?.(score);
-  }, [activity.evaluationChecklist, checklistCompleted, onComplete]);
+  }, [activity?.evaluationChecklist, checklistCompleted, onComplete]);
 
   const handleRestart = useCallback(() => {
     setMode('prompt');
@@ -63,6 +66,17 @@ export function WritingView({ activity, onComplete }: WritingViewProps) {
     setShowVocabulary(false);
     setChecklistCompleted({});
   }, []);
+
+  // 데이터가 없는 경우 빈 상태 표시 (hooks 호출 후에 조건부 반환)
+  if (!prompt?.topic) {
+    return (
+      <View style={styles.completedContainer}>
+        <Text style={styles.completedIcon}>✏️</Text>
+        <Text style={styles.completedTitle}>쓰기 데이터 없음</Text>
+        <Text style={styles.statsText}>이 레슨의 글쓰기 데이터를 불러올 수 없습니다.</Text>
+      </View>
+    );
+  }
 
   if (mode === 'complete') {
     return (
@@ -104,10 +118,7 @@ export function WritingView({ activity, onComplete }: WritingViewProps) {
                       onPress={() => handleChecklistToggle(key)}
                       color={COLORS.primary}
                     />
-                    <Text
-                      style={styles.checklistText}
-                      onPress={() => handleChecklistToggle(key)}
-                    >
+                    <Text style={styles.checklistText} onPress={() => handleChecklistToggle(key)}>
                       {item}
                     </Text>
                   </View>

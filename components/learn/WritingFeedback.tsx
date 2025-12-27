@@ -6,11 +6,10 @@
  */
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { MotiView } from 'moti';
 import React, { useCallback, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { Card, Text } from 'react-native-paper';
-import Animated, { FadeIn } from 'react-native-reanimated';
+import Animated, { FadeIn, FadeInUp } from 'react-native-reanimated';
 
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
@@ -169,11 +168,7 @@ export function WritingFeedback({
     <Animated.View entering={FadeIn.duration(300)} style={styles.container}>
       <ScrollView showsVerticalScrollIndicator={false}>
         {/* Overall Score Card */}
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'spring', damping: 15 }}
-        >
+        <Animated.View entering={FadeInUp.duration(300)}>
           <Card
             style={[styles.scoreCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
           >
@@ -226,14 +221,10 @@ export function WritingFeedback({
               </View>
             </Card.Content>
           </Card>
-        </MotiView>
+        </Animated.View>
 
         {/* Category Scores */}
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'spring', damping: 15, delay: 100 }}
-        >
+        <Animated.View entering={FadeInUp.duration(300).delay(100)}>
           <Card
             style={[
               styles.categoriesCard,
@@ -292,15 +283,11 @@ export function WritingFeedback({
               </View>
             </Card.Content>
           </Card>
-        </MotiView>
+        </Animated.View>
 
         {/* Rule-Based Analysis */}
         {evaluation.ruleBasedScore && (
-          <MotiView
-            from={{ opacity: 0, translateY: 20 }}
-            animate={{ opacity: 1, translateY: 0 }}
-            transition={{ type: 'spring', damping: 15, delay: 150 }}
-          >
+          <Animated.View entering={FadeInUp.duration(300).delay(150)}>
             <Card
               style={[
                 styles.analysisCard,
@@ -405,15 +392,11 @@ export function WritingFeedback({
                 </View>
               </Card.Content>
             </Card>
-          </MotiView>
+          </Animated.View>
         )}
 
         {/* Self-Check Criteria */}
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'spring', damping: 15, delay: 200 }}
-        >
+        <Animated.View entering={FadeInUp.duration(300).delay(200)}>
           <Card
             style={[
               styles.selfCheckCard,
@@ -497,14 +480,10 @@ export function WritingFeedback({
               })}
             </Card.Content>
           </Card>
-        </MotiView>
+        </Animated.View>
 
         {/* Your Writing / Sample Answer Toggle */}
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'spring', damping: 15, delay: 250 }}
-        >
+        <Animated.View entering={FadeInUp.duration(300).delay(250)}>
           <View style={styles.textToggles}>
             <Pressable
               style={[
@@ -571,11 +550,7 @@ export function WritingFeedback({
           </View>
 
           {showOriginalText && (
-            <MotiView
-              from={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: 'auto' }}
-              transition={{ type: 'timing', duration: 200 }}
-            >
+            <Animated.View entering={FadeInUp.duration(200)}>
               <Card
                 style={[styles.textCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
               >
@@ -583,15 +558,11 @@ export function WritingFeedback({
                   <Text style={[styles.textContent, { color: colors.text }]}>{originalText}</Text>
                 </Card.Content>
               </Card>
-            </MotiView>
+            </Animated.View>
           )}
 
           {showSampleAnswer && sampleAnswer && (
-            <MotiView
-              from={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: 'auto' }}
-              transition={{ type: 'timing', duration: 200 }}
-            >
+            <Animated.View entering={FadeInUp.duration(200)}>
               <Card style={[styles.textCard, { backgroundColor: 'rgba(34, 197, 94, 0.1)' }]}>
                 <Card.Content>
                   <View style={styles.sampleHeader}>
@@ -601,16 +572,12 @@ export function WritingFeedback({
                   <Text style={[styles.textContent, { color: colors.text }]}>{sampleAnswer}</Text>
                 </Card.Content>
               </Card>
-            </MotiView>
+            </Animated.View>
           )}
-        </MotiView>
+        </Animated.View>
 
         {/* Strengths & Improvements */}
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'spring', damping: 15, delay: 300 }}
-        >
+        <Animated.View entering={FadeInUp.duration(300).delay(300)}>
           <View style={styles.feedbackGrid}>
             {/* Strengths */}
             {evaluation.strengths.length > 0 && (
@@ -652,14 +619,10 @@ export function WritingFeedback({
               </Card>
             )}
           </View>
-        </MotiView>
+        </Animated.View>
 
         {/* Self-Rating */}
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'spring', damping: 15, delay: 350 }}
-        >
+        <Animated.View entering={FadeInUp.duration(300).delay(350)}>
           <Card
             style={[styles.ratingCard, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
           >
@@ -761,15 +724,10 @@ export function WritingFeedback({
               </View>
             </Card.Content>
           </Card>
-        </MotiView>
+        </Animated.View>
 
         {/* Action Buttons */}
-        <MotiView
-          from={{ opacity: 0, translateY: 20 }}
-          animate={{ opacity: 1, translateY: 0 }}
-          transition={{ type: 'spring', damping: 15, delay: 400 }}
-          style={styles.actionsContainer}
-        >
+        <Animated.View entering={FadeInUp.duration(300).delay(400)} style={styles.actionsContainer}>
           {onRetry && (
             <Pressable
               style={[styles.retryButton, { backgroundColor: isDark ? '#2C2C2E' : COLORS.surface }]}
@@ -789,7 +747,7 @@ export function WritingFeedback({
               <MaterialCommunityIcons name="arrow-right" size={20} color="#fff" />
             </Pressable>
           )}
-        </MotiView>
+        </Animated.View>
       </ScrollView>
     </Animated.View>
   );

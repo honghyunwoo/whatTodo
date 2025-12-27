@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 import { StyleSheet, View, TouchableOpacity } from 'react-native';
 import { Text } from 'react-native-paper';
 import { Ionicons } from '@expo/vector-icons';
-import { MotiView } from 'moti';
+import Animated, { ZoomIn } from 'react-native-reanimated';
 
 import { SIZES } from '@/constants/sizes';
 import { useGameStore } from '@/store/gameStore';
@@ -117,16 +117,11 @@ interface StatBoxProps {
 
 function StatBox({ icon, label, value, color = '#776e65' }: StatBoxProps) {
   return (
-    <MotiView
-      from={{ opacity: 0, scale: 0.9 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ type: 'timing', duration: 300 }}
-      style={styles.statBox}
-    >
+    <Animated.View entering={ZoomIn.duration(300)} style={styles.statBox}>
       <Ionicons name={icon as any} size={24} color={color} />
       <Text style={[styles.statValue, { color }]}>{value}</Text>
       <Text style={styles.statLabel}>{label}</Text>
-    </MotiView>
+    </Animated.View>
   );
 }
 

@@ -1,0 +1,148 @@
+{
+  "id": "b1",
+  "level": "B1",
+  "title": "중급 입문",
+  "description": "다양한 주제에 대해 자신의 의견을 표현하고 토론할 수 있습니다.",
+  "goal": "익숙한 주제에 대해 자연스러운 대화 가능",
+  "icon": "🌳",
+  "color": "#03A9F4",
+  "estimatedHours": 30,
+  "units": [
+    {
+      "id": "b1-u1",
+      "title": "의견 나누기",
+      "description": "자신의 생각과 의견을 표현하는 방법을 배웁니다.",
+      "icon": "💬",
+      "themeColor": "#2196F3",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "b1-u1-l1",
+          "title": "Sharing Opinions",
+          "subtitle": "의견 표현",
+          "estimatedMinutes": 15,
+          "keyPhrasesCount": 5,
+          "prerequisites": [],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "opinions",
+          "objectives": ["의견 제시하기", "동의/반대 표현", "이유 설명하기"],
+          "weekMapping": "week-1"
+        },
+        {
+          "id": "b1-u1-l2",
+          "title": "Discussion Skills",
+          "subtitle": "토론 기술",
+          "estimatedMinutes": 15,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["b1-u1-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "discussion",
+          "objectives": ["토론 참여", "반론 제기", "결론 도출"],
+          "weekMapping": "week-2"
+        }
+      ]
+    },
+    {
+      "id": "b1-u2",
+      "title": "비즈니스",
+      "description": "비즈니스 상황에서 필요한 표현을 배웁니다.",
+      "icon": "📊",
+      "themeColor": "#FF9800",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "b1-u2-l1",
+          "title": "Business Meetings",
+          "subtitle": "비즈니스 회의",
+          "estimatedMinutes": 15,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["b1-u1-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "meetings",
+          "objectives": ["회의 진행", "발표하기", "질의응답"],
+          "weekMapping": "week-3"
+        },
+        {
+          "id": "b1-u2-l2",
+          "title": "Negotiations",
+          "subtitle": "협상",
+          "estimatedMinutes": 15,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["b1-u2-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "negotiations",
+          "objectives": ["제안하기", "협상하기", "합의 도출"],
+          "weekMapping": "week-4"
+        }
+      ]
+    },
+    {
+      "id": "b1-u3",
+      "title": "여행",
+      "description": "여행 중 다양한 상황에 대처하는 방법을 배웁니다.",
+      "icon": "✈️",
+      "themeColor": "#9C27B0",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "b1-u3-l1",
+          "title": "Travel Planning",
+          "subtitle": "여행 계획",
+          "estimatedMinutes": 15,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["b1-u2-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "travel",
+          "objectives": ["여행 계획 세우기", "예약하기", "일정 조율"],
+          "weekMapping": "week-5"
+        },
+        {
+          "id": "b1-u3-l2",
+          "title": "Cultural Exchange",
+          "subtitle": "문화 교류",
+          "estimatedMinutes": 15,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["b1-u3-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "culture",
+          "objectives": ["문화 소개", "비교하기", "예절 배우기"],
+          "weekMapping": "week-6"
+        }
+      ]
+    },
+    {
+      "id": "b1-u4",
+      "title": "미디어",
+      "description": "뉴스와 미디어 관련 표현을 배웁니다.",
+      "icon": "📰",
+      "themeColor": "#F44336",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "b1-u4-l1",
+          "title": "News & Media",
+          "subtitle": "뉴스와 미디어",
+          "estimatedMinutes": 15,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["b1-u3-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "news",
+          "objectives": ["뉴스 이해", "요약하기", "의견 나누기"],
+          "weekMapping": "week-7"
+        },
+        {
+          "id": "b1-u4-l2",
+          "title": "Social Media",
+          "subtitle": "소셜 미디어",
+          "estimatedMinutes": 15,
+          "keyPhrasesCount": 5,
+          "prerequisites": ["b1-u4-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "social",
+          "objectives": ["SNS 표현", "온라인 소통", "디지털 에티켓"],
+          "weekMapping": "week-8"
+        }
+      ]
+    }
+  ]
+}

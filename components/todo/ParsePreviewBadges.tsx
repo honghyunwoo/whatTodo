@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 import { StyleSheet } from 'react-native';
 import { Chip } from 'react-native-paper';
 import { Ionicons } from '@expo/vector-icons';
-import { MotiView } from 'moti';
+import Animated, { FadeInUp } from 'react-native-reanimated';
 
 import { ParsePreview } from '@/types/naturalLanguage';
 import { useTheme } from '@/contexts/ThemeContext';
@@ -39,12 +39,7 @@ function ParsePreviewBadgesComponent({ preview }: Props) {
   });
 
   return (
-    <MotiView
-      from={{ opacity: 0, translateY: -10 }}
-      animate={{ opacity: 1, translateY: 0 }}
-      transition={{ type: 'timing', duration: 200 }}
-      style={styles.container}
-    >
+    <Animated.View entering={FadeInUp.duration(200)} style={styles.container}>
       {preview.hasDate && (
         <Chip
           icon={() => <Ionicons name="calendar-outline" size={14} color="#10B981" />}
@@ -101,7 +96,7 @@ function ParsePreviewBadgesComponent({ preview }: Props) {
             {tag}
           </Chip>
         ))}
-    </MotiView>
+    </Animated.View>
   );
 }
 

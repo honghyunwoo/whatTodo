@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { View, Text, StyleSheet, Dimensions } from 'react-native';
-import { MotiView } from 'moti';
+import Animated, { FadeInUp, FadeInDown, FadeOutUp, FadeOutDown } from 'react-native-reanimated';
 import { Ionicons } from '@expo/vector-icons';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import * as Haptics from 'expo-haptics';
@@ -22,11 +22,14 @@ interface ToastProps {
   position?: 'top' | 'bottom';
 }
 
-const TOAST_CONFIG: Record<ToastType, {
-  icon: keyof typeof Ionicons.glyphMap;
-  backgroundColor: string;
-  iconColor: string;
-}> = {
+const TOAST_CONFIG: Record<
+  ToastType,
+  {
+    icon: keyof typeof Ionicons.glyphMap;
+    backgroundColor: string;
+    iconColor: string;
+  }
+> = {
   success: {
     icon: 'checkmark-circle',
     backgroundColor: '#34C759',
@@ -85,32 +88,25 @@ export function Toast({
 
   if (!visible) return null;
 
-  const positionStyle = position === 'top'
-    ? { top: insets.top + SIZES.spacing.md }
-    : { bottom: insets.bottom + SIZES.spacing.md };
+  const positionStyle =
+    position === 'top'
+      ? { top: insets.top + SIZES.spacing.md }
+      : { bottom: insets.bottom + SIZES.spacing.md };
+
+  const enteringAnimation =
+    position === 'top'
+      ? FadeInUp.springify().damping(15).stiffness(150)
+      : FadeInDown.springify().damping(15).stiffness(150);
+
+  const exitingAnimation =
+    position === 'top'
+      ? FadeOutUp.springify().damping(15).stiffness(150)
+      : FadeOutDown.springify().damping(15).stiffness(150);
 
   return (
-    <MotiView
-      from={{
-        opacity: 0,
-        translateY: position === 'top' ? -20 : 20,
-        scale: 0.9,
-      }}
-      animate={{
-        opacity: 1,
-        translateY: 0,
-        scale: 1,
-      }}
-      exit={{
-        opacity: 0,
-        translateY: position === 'top' ? -20 : 20,
-        scale: 0.9,
-      }}
-      transition={{
-        type: 'spring',
-        damping: 15,
-        stiffness: 150,
-      }}
+    <Animated.View
+      entering={enteringAnimation}
+      exiting={exitingAnimation}
       style={[
         styles.container,
         positionStyle,
@@ -124,25 +120,12 @@ export function Toast({
         },
       ]}
     >
-      <View
-        style={[
-          styles.iconContainer,
-          { backgroundColor: config.backgroundColor },
-        ]}
-      >
-        <Ionicons
-          name={config.icon}
-          size={20}
-          color={config.iconColor}
-        />
+      <View style={[styles.iconContainer, { backgroundColor: config.backgroundColor }]}>
+        <Ionicons name={config.icon} size={20} color={config.iconColor} />
       </View>
       <View style={styles.content}>
         <Text
-          style={[
-            styles.title,
-            TYPOGRAPHY.body,
-            { color: isDark ? '#FFFFFF' : '#000000' },
-          ]}
+          style={[styles.title, TYPOGRAPHY.body, { color: isDark ? '#FFFFFF' : '#000000' }]}
           numberOfLines={1}
         >
           {title}
@@ -160,7 +143,7 @@ export function Toast({
           </Text>
         )}
       </View>
-    </MotiView>
+    </Animated.View>
   );
 }
 

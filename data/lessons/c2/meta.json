@@ -1,0 +1,148 @@
+{
+  "id": "c2",
+  "level": "C2",
+  "title": "고급 완성",
+  "description": "원어민 수준의 이해력과 표현력을 갖춥니다.",
+  "goal": "모든 상황에서 원어민과 동등한 의사소통 가능",
+  "icon": "⛰️",
+  "color": "#673AB7",
+  "estimatedHours": 50,
+  "units": [
+    {
+      "id": "c2-u1",
+      "title": "원어민 표현",
+      "description": "원어민이 사용하는 자연스러운 표현을 배웁니다.",
+      "icon": "💎",
+      "themeColor": "#2196F3",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "c2-u1-l1",
+          "title": "Native Expressions",
+          "subtitle": "원어민 표현",
+          "estimatedMinutes": 30,
+          "keyPhrasesCount": 8,
+          "prerequisites": [],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "native",
+          "objectives": ["슬랭 이해", "속어 활용", "문화적 표현"],
+          "weekMapping": "week-1"
+        },
+        {
+          "id": "c2-u1-l2",
+          "title": "Subtle Humor",
+          "subtitle": "미묘한 유머",
+          "estimatedMinutes": 30,
+          "keyPhrasesCount": 8,
+          "prerequisites": ["c2-u1-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "humor",
+          "objectives": ["유머 이해", "풍자 파악", "재치있는 표현"],
+          "weekMapping": "week-2"
+        }
+      ]
+    },
+    {
+      "id": "c2-u2",
+      "title": "전문 분야 마스터",
+      "description": "전문 분야에서 원어민 수준으로 소통합니다.",
+      "icon": "🏆",
+      "themeColor": "#FF9800",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "c2-u2-l1",
+          "title": "Expert Communication",
+          "subtitle": "전문가 소통",
+          "estimatedMinutes": 30,
+          "keyPhrasesCount": 8,
+          "prerequisites": ["c2-u1-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "expert",
+          "objectives": ["전문 토론", "심층 분석", "고급 발표"],
+          "weekMapping": "week-3"
+        },
+        {
+          "id": "c2-u2-l2",
+          "title": "Thought Leadership",
+          "subtitle": "사상 리더십",
+          "estimatedMinutes": 30,
+          "keyPhrasesCount": 8,
+          "prerequisites": ["c2-u2-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "leadership",
+          "objectives": ["아이디어 제시", "영향력 행사", "트렌드 선도"],
+          "weekMapping": "week-4"
+        }
+      ]
+    },
+    {
+      "id": "c2-u3",
+      "title": "창의적 표현",
+      "description": "창의적이고 예술적인 표현을 배웁니다.",
+      "icon": "✨",
+      "themeColor": "#9C27B0",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "c2-u3-l1",
+          "title": "Creative Writing",
+          "subtitle": "창작 글쓰기",
+          "estimatedMinutes": 30,
+          "keyPhrasesCount": 8,
+          "prerequisites": ["c2-u2-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "creative",
+          "objectives": ["스토리텔링", "시적 표현", "문학적 기법"],
+          "weekMapping": "week-5"
+        },
+        {
+          "id": "c2-u3-l2",
+          "title": "Rhetoric",
+          "subtitle": "수사학",
+          "estimatedMinutes": 30,
+          "keyPhrasesCount": 8,
+          "prerequisites": ["c2-u3-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "rhetoric",
+          "objectives": ["설득 기법", "연설 기술", "감동 전달"],
+          "weekMapping": "week-6"
+        }
+      ]
+    },
+    {
+      "id": "c2-u4",
+      "title": "마스터 레벨",
+      "description": "영어 마스터로서 모든 상황에 대응합니다.",
+      "icon": "👑",
+      "themeColor": "#F44336",
+      "promotionTestRequired": true,
+      "lessons": [
+        {
+          "id": "c2-u4-l1",
+          "title": "Complex Negotiations",
+          "subtitle": "고급 협상",
+          "estimatedMinutes": 30,
+          "keyPhrasesCount": 8,
+          "prerequisites": ["c2-u3-l2"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "negotiation",
+          "objectives": ["다자간 협상", "문화간 조율", "합의 도출"],
+          "weekMapping": "week-7"
+        },
+        {
+          "id": "c2-u4-l2",
+          "title": "Mastery",
+          "subtitle": "완전 마스터",
+          "estimatedMinutes": 30,
+          "keyPhrasesCount": 8,
+          "prerequisites": ["c2-u4-l1"],
+          "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+          "theme": "mastery",
+          "objectives": ["자유로운 소통", "문화적 유창함", "완벽한 적응"],
+          "weekMapping": "week-8"
+        }
+      ]
+    }
+  ]
+}
