@@ -1,8 +1,8 @@
 {
   "project": "whatTodo",
-  "lastUpdated": "2025-12-26T23:45:00Z",
-  "currentPhase": "lesson-system",
-  "currentTask": "Step 4 완료 - UI 컴포넌트 수정",
+  "lastUpdated": "2025-12-27T23:30:00Z",
+  "currentPhase": "ui-redesign-complete",
+  "currentTask": "UI/UX 전면 개선 완료 및 C1/C2 레벨 테스트 추가",
   "completedTasks": [
     {
       "id": "ENV-001",
@@ -74,6 +74,38 @@
         "components/learn/index.ts",
         "app/(tabs)/learn.tsx"
       ]
+    },
+    {
+      "id": "UI-001",
+      "name": "UI/UX 전면 리디자인",
+      "completedAt": "2025-12-27T23:00:00Z",
+      "details": "Warm Academia + Playful Progress 컨셉",
+      "files": [
+        "constants/colors.ts",
+        "components/learn/LevelSelector.tsx",
+        "components/learn/ActivityCard.tsx",
+        "app/(tabs)/learn.tsx"
+      ]
+    },
+    {
+      "id": "UI-002",
+      "name": "아이콘 버그 수정",
+      "completedAt": "2025-12-27T23:10:00Z",
+      "details": "SegmentedButtons 이모지 렌더링 버그 → 커스텀 컴포넌트로 대체"
+    },
+    {
+      "id": "TEST-001",
+      "name": "C1/C2 레벨 테스트 문제 24개 추가",
+      "completedAt": "2025-12-27T23:20:00Z",
+      "files": [
+        "data/levelTestQuestions.ts"
+      ]
+    },
+    {
+      "id": "CLEAN-001",
+      "name": "오래된 브랜치 정리",
+      "completedAt": "2025-12-27T23:30:00Z",
+      "details": "18개 원격 브랜치 삭제, 5개 로컬 브랜치 삭제"
     }
   ],
   "blockers": [],
@@ -83,23 +115,26 @@
     "TypeScript/ESLint 오류 없음",
     "moti 제거는 SDK 54 업그레이드 시 진행",
     "5탭 구조 완료: 오늘 | 캘린더 | 학습 | 기록 | 설정",
-    "Game은 설정에서 접근 가능하도록 이동",
-    "레슨 기반 타입 시스템 완료 (LessonMeta, UnitMeta, LevelMeta)",
-    "테스트 타입 시스템 완료 (TestType, TestResult, TestSession)",
-    "lessonStore/testStore 구현 완료 (기존 learnStore와 병행)",
-    "UnitSelector/LessonSelector UI 컴포넌트 완료",
-    "learn.tsx에 레슨/주차 전환 토글 추가"
+    "레슨 기반 타입 시스템 완료",
+    "=== 2025-12-27 UI/UX 개선 ===",
+    "배경색: #FFF9F0 (따뜻한 크림)",
+    "Hero 섹션: 그라데이션 (#4A90D9 → #6B5CE7)",
+    "LevelSelector: A1-C2 레벨 선택 가능",
+    "모드 토글: 이모지 아이콘 (📚/📅)",
+    "ActivityCard: 그라데이션 아이콘 + 색상 액센트 바",
+    "C1/C2 레벨 테스트 24문제 추가 완료"
   ],
   "statistics": {
     "testsTotal": 51,
     "testsPassing": 51,
     "typeErrors": 0,
     "lintErrors": 0,
-    "lintWarnings": 98
+    "totalQuestions": 80,
+    "c1c2Questions": 24
   },
   "nextSteps": [
-    "Step 5: 테스트 화면 구현 (app/test/[testId].tsx)",
-    "Step 6: 통합 테스트 및 버그 수정",
+    "앱 실행하여 UI 변경사항 확인",
+    "레벨 테스트 기능 테스트",
     "추가 레벨 메타데이터 생성 (A2-C2)",
     "SDK 54 업그레이드 (moti → Reanimated)"
   ]
