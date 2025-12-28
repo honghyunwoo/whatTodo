@@ -17,13 +17,19 @@ config.resolver.blockList = [
 // Web support: resolve .web.js extensions first
 config.resolver.sourceExts = ['web.js', 'web.jsx', 'web.ts', 'web.tsx', ...config.resolver.sourceExts];
 
+// Modules that need to be mocked on web (they use import.meta)
+const webMocks = {
+  'lottie-react-native': 'utils/lottie-mock.web.js',
+  '@sentry/react-native': 'utils/sentry-mock.web.js',
+};
+
 // Override modules that use import.meta on web
 const originalResolveRequest = config.resolver.resolveRequest;
 config.resolver.resolveRequest = (context, moduleName, platform) => {
-  // On web, redirect lottie-react-native to our empty mock
-  if (platform === 'web' && moduleName === 'lottie-react-native') {
+  // On web, redirect problematic modules to our mocks
+  if (platform === 'web' && webMocks[moduleName]) {
     return {
-      filePath: path.resolve(__dirname, 'utils/lottie-mock.web.js'),
+      filePath: path.resolve(__dirname, webMocks[moduleName]),
       type: 'sourceFile',
     };
   }
