@@ -15,7 +15,10 @@ import type {
   LevelCardData,
   ParsedLessonId,
 } from '@/types/lesson';
-import { loadActivity, preloadLevel, isLevelLoaded } from './activityLoader';
+import { loadActivity, preloadLevel } from './activityLoader';
+
+// Import static lesson meta data
+import { LEVEL_METAS } from '@/data/lessons';
 
 // ─────────────────────────────────────
 // 레슨 메타데이터 캐시
@@ -84,7 +87,7 @@ export function createUnitId(level: CEFRLevel, unitNumber: number): string {
 // ─────────────────────────────────────
 
 /**
- * 레벨 메타데이터 로드 (동적)
+ * 레벨 메타데이터 로드 (정적 import 사용)
  */
 export async function loadLevelMeta(level: CEFRLevel): Promise<LevelMeta | null> {
   // 캐시 확인
@@ -92,28 +95,18 @@ export async function loadLevelMeta(level: CEFRLevel): Promise<LevelMeta | null>
     return levelMetaCache[level];
   }
 
-  // 로딩 중이면 기다림
-  if (metaLoadingPromises[level]) {
-    return metaLoadingPromises[level];
-  }
-
-  // 로딩 시작
-  metaLoadingPromises[level] = (async () => {
-    try {
-      const levelLower = level.toLowerCase();
-      const module = await import(`@/data/lessons/${levelLower}/meta.json`);
-      const meta = module.default as LevelMeta;
+  // 정적 import에서 로드
+  try {
+    const meta = LEVEL_METAS[level];
+    if (meta) {
       levelMetaCache[level] = meta;
       return meta;
-    } catch (error) {
-      console.warn(`[lessonLoader] Failed to load ${level} meta:`, error);
-      return null;
-    } finally {
-      metaLoadingPromises[level] = null;
     }
-  })();
-
-  return metaLoadingPromises[level];
+    return null;
+  } catch (error) {
+    console.warn(`[lessonLoader] Failed to load ${level} meta:`, error);
+    return null;
+  }
 }
 
 /**
