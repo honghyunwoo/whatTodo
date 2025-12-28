@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, ViewStyle } from 'react-native';
-import LottieView from 'lottie-react-native';
+import { LottieWrapper } from './LottieWrapper';
 import Animated, { FadeInUp } from 'react-native-reanimated';
 import { useTheme } from '@/contexts/ThemeContext';
 import { TYPOGRAPHY } from '@/constants/typography';
@@ -34,7 +34,7 @@ export function EmptyState({
   return (
     <Animated.View entering={FadeInUp.duration(400)} style={[styles.container, style]}>
       <View style={styles.animationContainer}>
-        <LottieView source={ANIMATIONS[type]} autoPlay loop style={styles.animation} />
+        <LottieWrapper source={ANIMATIONS[type]} autoPlay loop style={styles.animation} />
       </View>
 
       <Text style={[styles.title, TYPOGRAPHY.h3, { color: colors.text }]}>{title}</Text>

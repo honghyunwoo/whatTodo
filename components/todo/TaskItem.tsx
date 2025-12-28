@@ -4,7 +4,7 @@ import { Checkbox, Text } from 'react-native-paper';
 import { LinearGradient } from 'expo-linear-gradient';
 import Animated, { FadeInLeft } from 'react-native-reanimated';
 import { Ionicons } from '@expo/vector-icons';
-import LottieView from 'lottie-react-native';
+import { LottieWrapper } from '@/components/common';
 import { useRouter } from 'expo-router';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
@@ -35,7 +35,7 @@ function TaskItemComponent({ task, onPress, index = 0 }: TaskItemProps) {
   const { colors, isDark } = useTheme();
   const { toggleComplete, deleteTask, getSubTaskProgress } = useTaskStore();
   const [showCheckAnimation, setShowCheckAnimation] = React.useState(false);
-  const lottieRef = React.useRef<LottieView>(null);
+  const lottieRef = React.useRef<any>(null);
   const router = useRouter();
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -128,7 +128,7 @@ function TaskItemComponent({ task, onPress, index = 0 }: TaskItemProps) {
           <View style={styles.checkboxContainer}>
             {showCheckAnimation ? (
               <View style={styles.lottieContainer}>
-                <LottieView
+                <LottieWrapper
                   ref={lottieRef}
                   source={require('@/assets/animations/check-success.json')}
                   style={styles.checkLottie}

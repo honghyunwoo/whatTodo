@@ -1,12 +1,11 @@
 import React, { memo, useEffect, useRef } from 'react';
 import { StyleSheet, TouchableOpacity, View } from 'react-native';
 import { Text } from 'react-native-paper';
-import LottieView from 'lottie-react-native';
+import { LottieWrapper, BlurModal } from '@/components/common';
 import Animated, { ZoomIn, FadeInUp } from 'react-native-reanimated';
 
 import { SIZES } from '@/constants/sizes';
 import { useTheme } from '@/contexts/ThemeContext';
-import { BlurModal } from '@/components/common';
 import { GameStatus } from '@/types/game';
 import { gameHaptics } from '@/services/hapticService';
 
@@ -27,7 +26,7 @@ function GameOverModalComponent({
 }: GameOverModalProps) {
   const { colors, isDark } = useTheme();
   const isWon = status === 'won';
-  const confettiRef = useRef<LottieView>(null);
+  const confettiRef = useRef<any>(null);
 
   useEffect(() => {
     if (visible) {
@@ -51,7 +50,7 @@ function GameOverModalComponent({
         {/* Confetti Animation for Win */}
         {isWon && (
           <View style={styles.confettiContainer}>
-            <LottieView
+            <LottieWrapper
               ref={confettiRef}
               source={require('@/assets/animations/confetti.json')}
               style={styles.confetti}

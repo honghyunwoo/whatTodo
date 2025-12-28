@@ -6,7 +6,7 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import { Button, Card, Text } from 'react-native-paper';
-import LottieView from 'lottie-react-native';
+import { LottieWrapper } from '@/components/common';
 import Animated, {
   FadeIn,
   FadeOut,
@@ -45,7 +45,7 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
   });
   const [startTime, setStartTime] = useState(Date.now());
   const [showFeedback, setShowFeedback] = useState(false);
-  const feedbackRef = useRef<LottieView>(null);
+  const feedbackRef = useRef<any>(null);
 
   const currentExercise = exercises[currentIndex];
   const isLastQuestion = currentIndex === exercises.length - 1;
@@ -151,7 +151,7 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
           style={styles.feedbackOverlay}
           pointerEvents="none"
         >
-          <LottieView
+          <LottieWrapper
             ref={feedbackRef}
             source={
               answerState.isCorrect

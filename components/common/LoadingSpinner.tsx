@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, StyleSheet, ViewStyle } from 'react-native';
-import LottieView from 'lottie-react-native';
+import { LottieWrapper } from './LottieWrapper';
 import Animated, { FadeIn, ZoomIn } from 'react-native-reanimated';
 import { useTheme } from '@/contexts/ThemeContext';
 import { TYPOGRAPHY } from '@/constants/typography';
@@ -30,7 +30,7 @@ export function LoadingSpinner({
 
   const content = (
     <Animated.View entering={ZoomIn.duration(300)} style={[styles.container, style]}>
-      <LottieView
+      <LottieWrapper
         source={require('@/assets/animations/loading.json')}
         autoPlay
         loop
