@@ -9,6 +9,9 @@ import {
   WritingActivity,
 } from '@/types/activity';
 
+// Import static activities data
+import { ACTIVITIES } from '@/data/activities';
+
 // ─────────────────────────────────────
 // CEFR 레벨 타입 정의
 // ─────────────────────────────────────
@@ -27,151 +30,18 @@ export const CEFR_LEVEL_INFO: Record<CEFRLevel, { name: string; description: str
 };
 
 // ─────────────────────────────────────
-// 동적 로딩 캐시 및 인프라
+// 레벨 로딩 상태 (하위 호환성 유지)
 // ─────────────────────────────────────
 
-type ActivityCache = Record<CEFRLevel, Record<ActivityType, Record<string, Activity>> | null>;
-
-// 레벨별 캐시 (동적 로딩된 데이터 저장)
-const activityCache: ActivityCache = {
-  A1: null,
-  A2: null,
-  B1: null,
-  B2: null,
-  C1: null,
-  C2: null,
-};
-
-// 레벨별 로딩 상태
-const loadingPromises: Record<CEFRLevel, Promise<void> | null> = {
-  A1: null,
-  A2: null,
-  B1: null,
-  B2: null,
-  C1: null,
-  C2: null,
-};
-
-// 레벨이 로드되었는지 확인
-export function isLevelLoaded(level: CEFRLevel): boolean {
-  return activityCache[level] !== null;
+// 정적 import이므로 항상 로드됨
+export function isLevelLoaded(_level: CEFRLevel): boolean {
+  return true;
 }
 
-// 단일 활동 파일 동적 로드
-async function loadActivityFile(
-  level: CEFRLevel,
-  type: ActivityType,
-  weekNum: number
-): Promise<Activity> {
-  const levelLower = level.toLowerCase();
-  const typeToFile: Record<ActivityType, string> = {
-    vocabulary: 'vocab',
-    grammar: 'grammar',
-    listening: 'listening',
-    reading: 'reading',
-    speaking: 'speaking',
-    writing: 'writing',
-  };
-  const fileName = `week-${weekNum}-${typeToFile[type]}`;
-
-  // 동적 import 사용
-  const module = await import(`@/data/activities/${levelLower}/${type}/${fileName}.json`);
-  return module.default as Activity;
+// 정적 import이므로 즉시 반환
+export async function preloadLevel(_level: CEFRLevel): Promise<void> {
+  return Promise.resolve();
 }
-
-// 레벨 전체 프리로드
-export async function preloadLevel(level: CEFRLevel): Promise<void> {
-  // 이미 로드되었으면 스킵
-  if (activityCache[level] !== null) {
-    return;
-  }
-
-  // 이미 로딩 중이면 기존 Promise 반환
-  if (loadingPromises[level] !== null) {
-    return loadingPromises[level]!;
-  }
-
-  // 로딩 시작
-  loadingPromises[level] = (async () => {
-    const types: ActivityType[] = [
-      'vocabulary',
-      'grammar',
-      'listening',
-      'reading',
-      'speaking',
-      'writing',
-    ];
-
-    const levelData: Record<ActivityType, Record<string, Activity>> = {
-      vocabulary: {},
-      grammar: {},
-      listening: {},
-      reading: {},
-      speaking: {},
-      writing: {},
-    };
-
-    // 병렬로 모든 활동 로드
-    const promises: Promise<void>[] = [];
-
-    for (const type of types) {
-      for (let week = 1; week <= 8; week++) {
-        promises.push(
-          loadActivityFile(level, type, week)
-            .then((activity) => {
-              levelData[type][`week-${week}`] = activity;
-            })
-            .catch((error) => {
-              console.warn(
-                `Failed to load ${level}/${type}/week-${week}:`,
-                error?.message || error
-              );
-              // null로 설정하여 로딩 실패를 표시하지만 전체 로딩은 계속 진행
-              levelData[type][`week-${week}`] = null as unknown as Activity;
-            })
-        );
-      }
-    }
-
-    await Promise.all(promises);
-    activityCache[level] = levelData;
-    loadingPromises[level] = null;
-  })();
-
-  return loadingPromises[level]!;
-}
-
-// ─────────────────────────────────────
-// A1 레벨: 동적 로딩 사용 (preloadLevel('A1') 필요)
-// ─────────────────────────────────────
-
-// ─────────────────────────────────────
-// A2 레벨: 동적 로딩 사용 (preloadLevel('A2') 필요)
-// ─────────────────────────────────────
-
-// ─────────────────────────────────────
-// B1 레벨: 동적 로딩 사용 (preloadLevel('B1') 필요)
-// ─────────────────────────────────────
-
-// ─────────────────────────────────────
-// B2 레벨: 동적 로딩 사용 (preloadLevel('B2') 필요)
-// ─────────────────────────────────────
-
-// ─────────────────────────────────────
-// 데이터 맵 (모든 레벨 동적 로딩 사용)
-// ─────────────────────────────────────
-
-type ActivityData = Record<ActivityType, Record<string, Activity>>;
-type LevelActivityData = Partial<Record<CEFRLevel, ActivityData>>;
-
-// 모든 레벨이 동적 로딩을 사용하므로 ACTIVITIES는 빈 객체
-// 레거시 호환성을 위해 유지
-const ACTIVITIES: LevelActivityData = {
-  // A1: 동적 로딩 사용 (preloadLevel('A1') 호출 필요)
-  // A2: 동적 로딩 사용 (preloadLevel('A2') 호출 필요)
-  // B1: 동적 로딩 사용 (preloadLevel('B1') 호출 필요)
-  // B2: 동적 로딩 사용 (preloadLevel('B2') 호출 필요)
-};
 
 // ─────────────────────────────────────
 // 활동 로더 함수
@@ -179,23 +49,12 @@ const ACTIVITIES: LevelActivityData = {
 
 /**
  * 특정 레벨과 주차의 활동 데이터 로드
- * 캐시를 먼저 확인하고, 없으면 정적 ACTIVITIES에서 조회
  */
 export function loadActivity(
   level: CEFRLevel,
   type: ActivityType,
   weekId: string
 ): Activity | null {
-  // 1. 캐시에서 먼저 확인 (동적 로딩된 데이터)
-  const cachedLevel = activityCache[level];
-  if (cachedLevel) {
-    const cachedType = cachedLevel[type];
-    if (cachedType && cachedType[weekId]) {
-      return cachedType[weekId];
-    }
-  }
-
-  // 2. 정적 ACTIVITIES에서 조회 (아직 마이그레이션되지 않은 레벨)
   const levelActivities = ACTIVITIES[level];
   if (!levelActivities) return null;
 
@@ -368,12 +227,12 @@ export function getLevelLabel(level: CEFRLevel): string {
  * 총 활동 수 반환
  */
 export function getTotalActivitiesCount(): number {
-  return CEFR_LEVELS.length * 8 * 6; // 4 levels * 8 weeks * 6 activities = 192
+  return CEFR_LEVELS.length * 8 * 6; // 6 levels * 8 weeks * 6 activities = 288
 }
 
 /**
  * 특정 레벨의 활동 수 반환
  */
-export function getLevelActivitiesCount(level: CEFRLevel): number {
+export function getLevelActivitiesCount(_level: CEFRLevel): number {
   return 8 * 6; // 8 weeks * 6 activities = 48
 }
