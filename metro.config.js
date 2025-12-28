@@ -7,6 +7,10 @@ config.resolver.blockList = [
   /eslint\.config\.mjs$/,
   /\.eslintrc\./,
   /prettier\.config\./,
+  /scripts\/.*/, // scripts 폴더 제외 (import.meta 사용)
 ];
+
+// Web support: resolve .web.js extensions
+config.resolver.sourceExts = ['web.js', 'web.jsx', 'web.ts', 'web.tsx', ...config.resolver.sourceExts];
 
 module.exports = config;
