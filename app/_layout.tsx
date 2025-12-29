@@ -2,12 +2,10 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
-import { ActivityIndicator, View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { PaperProvider } from 'react-native-paper';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
-import { COLORS } from '@/constants/colors';
 import { ErrorBoundary } from '@/components/common/ErrorBoundary';
 import { OnboardingScreen } from '@/components/onboarding/OnboardingScreen';
 import { ThemeProvider, useTheme } from '@/contexts/ThemeContext';
@@ -21,63 +19,57 @@ function AppContent() {
   const { isDark } = useTheme();
   const initializeNotifications = useUserStore((state) => state.initializeNotifications);
   const checkStreak = useStreakStore((state) => state.checkStreak);
-  const [onboardingDone, setOnboardingDone] = useState<boolean | null>(null);
+  // 기본값 false로 시작하여 즉시 렌더링 (로딩 블로킹 제거)
+  const [onboardingDone, setOnboardingDone] = useState<boolean>(false);
 
-  // Check onboarding status and initialize app
+  // Check onboarding status and initialize app (비블로킹)
   useEffect(() => {
     const init = async () => {
-      // Check if onboarding is completed
-      const completed = await isOnboardingCompleted();
-      setOnboardingDone(completed);
+      try {
+        // Check if onboarding is completed
+        const completed = await isOnboardingCompleted();
+        setOnboardingDone(completed);
 
-      // Only initialize if onboarding is done
-      if (completed) {
-        // Initialize notification permissions
-        await initializeNotifications();
+        // Only initialize if onboarding is done
+        if (completed) {
+          // 백그라운드에서 실행 (await 제거로 비블로킹)
+          initializeNotifications().catch(console.warn);
+          checkStreak();
 
-        // Check streak status
-        checkStreak();
-
-        // 자동 백업 체크 및 실행
-        const needsBackup = await shouldAutoBackup();
-        if (needsBackup) {
-          await performAutoBackup();
+          // 자동 백업 체크 및 실행 (백그라운드)
+          shouldAutoBackup()
+            .then((needsBackup) => {
+              if (needsBackup) {
+                performAutoBackup().catch(console.warn);
+              }
+            })
+            .catch(console.warn);
         }
+      } catch (error) {
+        console.warn('Init error:', error);
+        setOnboardingDone(false);
       }
     };
 
     init();
-  }, [initializeNotifications, checkStreak]);
+  }, []); // 의존성 제거 - Zustand persist rehydration 무한 루프 방지
 
   const handleOnboardingComplete = async () => {
     await markOnboardingCompleted();
     setOnboardingDone(true);
 
-    // Initialize app after onboarding
-    await initializeNotifications();
+    // Initialize app after onboarding (백그라운드)
+    initializeNotifications().catch(console.warn);
     checkStreak();
 
-    const needsBackup = await shouldAutoBackup();
-    if (needsBackup) {
-      await performAutoBackup();
-    }
+    shouldAutoBackup()
+      .then((needsBackup) => {
+        if (needsBackup) {
+          performAutoBackup().catch(console.warn);
+        }
+      })
+      .catch(console.warn);
   };
-
-  // Loading state - 로딩 스피너 표시
-  if (onboardingDone === null) {
-    return (
-      <View
-        style={{
-          flex: 1,
-          justifyContent: 'center',
-          alignItems: 'center',
-          backgroundColor: COLORS.background,
-        }}
-      >
-        <ActivityIndicator size="large" color={COLORS.primary} />
-      </View>
-    );
-  }
 
   // Show onboarding if not completed
   if (!onboardingDone) {

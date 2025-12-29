@@ -1,93 +1,65 @@
-import * as Sentry from '@sentry/react-native';
-
-// Sentry DSN은 환경 변수에서 가져오거나 빈 문자열로 설정
-// 실제 배포 시 Sentry 프로젝트에서 DSN을 발급받아 설정해야 합니다
-const SENTRY_DSN = process.env.EXPO_PUBLIC_SENTRY_DSN || '';
+// Sentry는 개발 중 비활성화 (Expo Go 호환성 문제)
+// 프로덕션 빌드 시 다시 활성화 필요
+// import * as Sentry from '@sentry/react-native';
 
 /**
- * Sentry 초기화
- * 앱 시작 시 한 번만 호출
+ * Sentry 초기화 (현재 비활성화)
  */
 export function initSentry(): void {
-  // DSN이 없으면 초기화하지 않음 (개발 환경)
-  if (!SENTRY_DSN) {
-    if (__DEV__) {
-      console.log('[Sentry] DSN not configured, skipping initialization');
-    }
-    return;
-  }
-
-  Sentry.init({
-    dsn: SENTRY_DSN,
-    // 프로덕션에서만 이벤트 전송
-    enabled: !__DEV__,
-    // 샘플링 비율 (프로덕션: 100%, 개발: 0%)
-    tracesSampleRate: __DEV__ ? 0 : 1.0,
-    // 환경 설정
-    environment: __DEV__ ? 'development' : 'production',
-    // 디버그 모드 (개발 환경에서만)
-    debug: __DEV__,
-    // 추가 설정
-    beforeSend(event) {
-      // 필요시 이벤트 필터링 로직 추가
-      return event;
-    },
-  });
-}
-
-/**
- * 사용자 정보 설정
- */
-export function setSentryUser(userId: string | null, email?: string): void {
-  if (userId) {
-    Sentry.setUser({ id: userId, email });
-  } else {
-    Sentry.setUser(null);
+  if (__DEV__) {
+    console.log('[Sentry] Disabled for development');
   }
 }
 
 /**
- * 커스텀 태그 설정
+ * 사용자 정보 설정 (비활성화)
  */
-export function setSentryTag(key: string, value: string): void {
-  Sentry.setTag(key, value);
+export function setSentryUser(_userId: string | null, _email?: string): void {
+  // Disabled
 }
 
 /**
- * 에러 수동 보고
+ * 커스텀 태그 설정 (비활성화)
  */
-export function captureError(error: Error, context?: Record<string, unknown>): void {
-  if (context) {
-    Sentry.setExtras(context);
-  }
-  Sentry.captureException(error);
+export function setSentryTag(_key: string, _value: string): void {
+  // Disabled
 }
 
 /**
- * 메시지 보고
+ * 에러 수동 보고 (비활성화)
+ */
+export function captureError(_error: Error, _context?: Record<string, unknown>): void {
+  // Disabled
+}
+
+/**
+ * 메시지 보고 (비활성화)
  */
 export function captureMessage(
-  message: string,
-  level: 'fatal' | 'error' | 'warning' | 'info' | 'debug' = 'info'
+  _message: string,
+  _level: 'fatal' | 'error' | 'warning' | 'info' | 'debug' = 'info'
 ): void {
-  Sentry.captureMessage(message, level);
+  // Disabled
 }
 
 /**
- * 브레드크럼 추가 (디버깅용 이벤트 추적)
+ * 브레드크럼 추가 (비활성화)
  */
 export function addBreadcrumb(
-  message: string,
-  category: string,
-  data?: Record<string, unknown>
+  _message: string,
+  _category: string,
+  _data?: Record<string, unknown>
 ): void {
-  Sentry.addBreadcrumb({
-    message,
-    category,
-    data,
-    level: 'info',
-  });
+  // Disabled
 }
 
-// Sentry 객체도 export (고급 사용 시)
-export { Sentry };
+// Sentry 객체 mock (호환성 유지)
+export const Sentry = {
+  init: () => {},
+  setUser: () => {},
+  setTag: () => {},
+  setExtras: () => {},
+  captureException: () => {},
+  captureMessage: () => {},
+  addBreadcrumb: () => {},
+};

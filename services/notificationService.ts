@@ -10,6 +10,14 @@ import { Platform } from 'react-native';
 
 const isWeb = Platform.OS === 'web';
 
+// 타임아웃 유틸리티 (블로킹 방지)
+const withTimeout = <T>(promise: Promise<T>, ms: number, fallback: T): Promise<T> => {
+  return Promise.race([
+    promise,
+    new Promise<T>((resolve) => setTimeout(() => resolve(fallback), ms)),
+  ]);
+};
+
 // ─────────────────────────────────────
 // Types
 // ─────────────────────────────────────
@@ -61,7 +69,7 @@ class NotificationService {
   }
 
   /**
-   * 푸시 알림 권한 요청 및 토큰 획득
+   * 푸시 알림 권한 요청 및 토큰 획득 (5초 타임아웃)
    */
   async initialize(): Promise<boolean> {
     if (isWeb) {
@@ -71,24 +79,28 @@ class NotificationService {
 
     if (this.initialized) return true;
 
-    const Notifications = await this.getNotificationsModule();
-    if (!Notifications) return false;
-
-    const Device = await import('expo-device');
-
-    if (!Device.isDevice) {
-      console.log('Notifications only work on physical devices');
-      return false;
-    }
-
     try {
-      // 알림 채널 설정 (Android)
-      await Notifications.setNotificationChannelAsync('learning-reminders', {
-        name: '학습 리마인더',
-        importance: Notifications.AndroidImportance.HIGH,
-        vibrationPattern: [0, 250, 250, 250],
-        lightColor: '#4A90D9',
-      });
+      const Notifications = await withTimeout(this.getNotificationsModule(), 3000, null);
+      if (!Notifications) return false;
+
+      const Device = await import('expo-device');
+
+      if (!Device.isDevice) {
+        console.log('Notifications only work on physical devices');
+        return false;
+      }
+
+      // 알림 채널 설정 (Android) - 타임아웃 적용
+      await withTimeout(
+        Notifications.setNotificationChannelAsync('learning-reminders', {
+          name: '학습 리마인더',
+          importance: Notifications.AndroidImportance.HIGH,
+          vibrationPattern: [0, 250, 250, 250],
+          lightColor: '#4A90D9',
+        }),
+        3000,
+        undefined
+      );
 
       // 알림 핸들러 설정
       Notifications.setNotificationHandler({
@@ -101,24 +113,44 @@ class NotificationService {
         }),
       });
 
-      const { status: existingStatus } = await Notifications.getPermissionsAsync();
-      let finalStatus = existingStatus;
+      // 권한 체크 (5초 타임아웃) - null이면 타임아웃
+      const permissionResult = await withTimeout(Notifications.getPermissionsAsync(), 5000, null);
+      if (!permissionResult) {
+        console.log('Permission check timed out');
+        return false;
+      }
+      let finalStatus = permissionResult.status;
 
-      if (existingStatus !== 'granted') {
-        const { status } = await Notifications.requestPermissionsAsync();
-        finalStatus = status;
+      if (finalStatus !== 'granted') {
+        // 권한 요청 (5초 타임아웃) - 타임아웃 시 조용히 실패
+        const requestResult = await withTimeout(
+          Notifications.requestPermissionsAsync(),
+          5000,
+          null
+        );
+        if (!requestResult) {
+          console.log('Permission request timed out');
+          return false;
+        }
+        finalStatus = requestResult.status;
       }
 
       if (finalStatus !== 'granted') {
-        console.log('Notification permission denied');
+        console.log('Notification permission denied or timed out');
         return false;
       }
 
       try {
-        const token = await Notifications.getExpoPushTokenAsync({
-          projectId: 'your-project-id',
-        });
-        this.expoPushToken = token.data;
+        const token = await withTimeout(
+          Notifications.getExpoPushTokenAsync({
+            projectId: 'your-project-id',
+          }),
+          3000,
+          null
+        );
+        if (token) {
+          this.expoPushToken = token.data;
+        }
       } catch {
         console.log('Push token not available (local notifications still work)');
       }
@@ -126,7 +158,7 @@ class NotificationService {
       this.initialized = true;
       return true;
     } catch (error) {
-      console.error('Failed to initialize notifications:', error);
+      console.warn('Failed to initialize notifications:', error);
       return false;
     }
   }

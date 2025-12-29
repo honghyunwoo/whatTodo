@@ -49,7 +49,6 @@
           "microphonePermission": "영어 발음 연습을 위해 마이크 접근이 필요합니다."
         }
       ],
-      "@sentry/react-native/expo",
       [
         "expo-notifications",
         {

@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useCallback, useMemo, useEffect } from 'react';
-import { useColorScheme, View, ActivityIndicator } from 'react-native';
+import { useColorScheme } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { COLORS } from '@/constants/colors';
 
@@ -59,9 +59,8 @@ const ThemeContext = createContext<ThemeContextValue | undefined>(undefined);
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const systemColorScheme = useColorScheme();
   const [themeMode, setThemeModeState] = useState<ThemeMode>('system');
-  const [isLoaded, setIsLoaded] = useState(false);
 
-  // Load saved theme preference
+  // Load saved theme preference (백그라운드에서 실행, 블로킹 없음)
   useEffect(() => {
     const loadTheme = async () => {
       try {
@@ -71,8 +70,6 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
         }
       } catch (error) {
         console.warn('Failed to load theme preference:', error);
-      } finally {
-        setIsLoaded(true);
       }
     };
     loadTheme();
@@ -118,22 +115,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     [isDark, themeMode, colors, setThemeMode, toggleTheme]
   );
 
-  // 로딩 중 스피너 표시 (null 대신)
-  if (!isLoaded) {
-    return (
-      <View
-        style={{
-          flex: 1,
-          justifyContent: 'center',
-          alignItems: 'center',
-          backgroundColor: COLORS.background,
-        }}
-      >
-        <ActivityIndicator size="large" color={COLORS.primary} />
-      </View>
-    );
-  }
-
+  // 로딩 대기 제거 - 기본 테마로 즉시 렌더링
   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
 }
 
