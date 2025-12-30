@@ -30,8 +30,6 @@ import { useGameStore } from '@/store/gameStore';
 import { useScenarioStore } from '@/store/scenarioStore';
 import { useSessionStore } from '@/store/sessionStore';
 import { useSkillStore } from '@/store/skillStore';
-import { useCommunityStore } from '@/store/communityStore';
-import { useAIStore } from '@/store/aiStore';
 
 // ─────────────────────────────────────
 // Types
@@ -70,8 +68,6 @@ const ALL_STORES: { name: string; store: StoreWithPersist }[] = [
   { name: 'scenario', store: useScenarioStore as unknown as StoreWithPersist },
   { name: 'session', store: useSessionStore as unknown as StoreWithPersist },
   { name: 'skill', store: useSkillStore as unknown as StoreWithPersist },
-  { name: 'community', store: useCommunityStore as unknown as StoreWithPersist },
-  { name: 'ai', store: useAIStore as unknown as StoreWithPersist },
 ];
 
 const TOTAL_STORES = ALL_STORES.length;
@@ -274,8 +270,6 @@ export function isStoreHydrated(
     | 'scenario'
     | 'session'
     | 'skill'
-    | 'community'
-    | 'ai'
 ): boolean {
   // 먼저 캐시된 상태 확인 (빠름)
   if (hydratedStores.has(storeName)) {
