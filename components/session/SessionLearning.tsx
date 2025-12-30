@@ -4,8 +4,9 @@
  */
 
 import React, { memo, useCallback, useEffect, useRef, useState } from 'react';
-import { Animated, Pressable, StyleSheet, View } from 'react-native';
+import { ActivityIndicator, Animated, Pressable, StyleSheet, View } from 'react-native';
 import { IconButton, Text } from 'react-native-paper';
+import { useShallow } from 'zustand/react/shallow';
 
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
@@ -18,32 +19,39 @@ interface SessionLearningProps {
 }
 
 function SessionLearningComponent({ onComplete, onCancel }: SessionLearningProps) {
-  const status = useSessionStore((state) => state.status);
-  const currentSession = useSessionStore((state) => state.currentSession);
+  // Phase 1.2: Zustand 셀렉터 통합 (useShallow)
+  const { status, currentSession } = useSessionStore(
+    useShallow((state) => ({
+      status: state.status,
+      currentSession: state.currentSession,
+    }))
+  );
+
+  // Actions (stable references - no need for useShallow)
   const getCurrentExpression = useSessionStore((state) => state.getCurrentExpression);
   const getSessionProgress = useSessionStore((state) => state.getSessionProgress);
   const getTimeRemaining = useSessionStore((state) => state.getTimeRemaining);
   const recordAnswer = useSessionStore((state) => state.recordAnswer);
   const nextExpression = useSessionStore((state) => state.nextExpression);
-  const tick = useSessionStore((state) => state.tick);
   const pauseSession = useSessionStore((state) => state.pauseSession);
   const resumeSession = useSessionStore((state) => state.resumeSession);
   const endSession = useSessionStore((state) => state.endSession);
 
   const [showAnswer, setShowAnswer] = useState(false);
   const [currentExpression, setCurrentExpression] = useState<Expression | null>(null);
-  const flipAnim = useRef(new Animated.Value(0)).current;
+  const flipAnimRef = useRef(new Animated.Value(0));
+  const flipAnim = flipAnimRef.current;
 
-  // Timer
+  // Phase 1.1: Timer 재구독 문제 수정 - tick 의존성 제거
   useEffect(() => {
     if (status !== 'active' || currentSession?.isPaused) return;
 
     const interval = setInterval(() => {
-      tick();
+      useSessionStore.getState().tick(); // 직접 참조로 재구독 방지
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [status, currentSession?.isPaused, tick]);
+  }, [status, currentSession?.isPaused]);
 
   // Update current expression
   useEffect(() => {
@@ -156,7 +164,13 @@ function SessionLearningComponent({ onComplete, onCancel }: SessionLearningProps
         <View style={styles.pauseOverlay}>
           <Text style={styles.pauseEmoji}>⏸️</Text>
           <Text style={styles.pauseText}>일시정지</Text>
-          <Pressable style={styles.resumeButton} onPress={handlePauseResume}>
+          <Pressable
+            style={styles.resumeButton}
+            onPress={handlePauseResume}
+            accessibilityLabel="계속하기"
+            accessibilityRole="button"
+            accessibilityHint="일시정지된 세션을 재개합니다"
+          >
             <Text style={styles.resumeButtonText}>계속하기</Text>
           </Pressable>
         </View>
@@ -175,7 +189,13 @@ function SessionLearningComponent({ onComplete, onCancel }: SessionLearningProps
               )}
             </View>
 
-            <Pressable style={styles.showAnswerButton} onPress={handleShowAnswer}>
+            <Pressable
+              style={styles.showAnswerButton}
+              onPress={handleShowAnswer}
+              accessibilityLabel="영어 정답 보기"
+              accessibilityRole="button"
+              accessibilityHint="카드를 뒤집어 영어 표현을 확인합니다"
+            >
               <Text style={styles.showAnswerText}>영어 보기</Text>
             </Pressable>
           </Animated.View>
@@ -200,6 +220,9 @@ function SessionLearningComponent({ onComplete, onCancel }: SessionLearningProps
               <Pressable
                 style={[styles.answerButton, styles.wrongButton]}
                 onPress={() => handleAnswer(false)}
+                accessibilityLabel="몰랐어요"
+                accessibilityRole="button"
+                accessibilityHint="이 표현을 복습 목록에 추가합니다"
               >
                 <Text style={styles.answerButtonEmoji}>😅</Text>
                 <Text style={styles.answerButtonText}>몰랐어요</Text>
@@ -207,6 +230,9 @@ function SessionLearningComponent({ onComplete, onCancel }: SessionLearningProps
               <Pressable
                 style={[styles.answerButton, styles.correctButton]}
                 onPress={() => handleAnswer(true)}
+                accessibilityLabel="알았어요"
+                accessibilityRole="button"
+                accessibilityHint="다음 표현으로 넘어갑니다"
               >
                 <Text style={styles.answerButtonEmoji}>✅</Text>
                 <Text style={styles.answerButtonText}>알았어요</Text>
@@ -220,6 +246,7 @@ function SessionLearningComponent({ onComplete, onCancel }: SessionLearningProps
 }
 
 export const SessionLearning = memo(SessionLearningComponent);
+SessionLearning.displayName = 'SessionLearning';
 
 const styles = StyleSheet.create({
   answerButton: {

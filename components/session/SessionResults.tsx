@@ -4,7 +4,7 @@
  */
 
 import { LinearGradient } from 'expo-linear-gradient';
-import React, { memo, useCallback, useMemo } from 'react';
+import React, { memo, useMemo } from 'react';
 import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import { Text } from 'react-native-paper';
 
@@ -12,6 +12,27 @@ import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { useSessionStore } from '@/store/sessionStore';
 import { SESSION_CONFIG } from '@/types/scenario';
+
+// Pure functions moved outside component for better performance
+const getScoreEmoji = (score: number): string => {
+  if (score >= 90) return '🎉';
+  if (score >= 70) return '👍';
+  if (score >= 50) return '💪';
+  return '📚';
+};
+
+const getScoreMessage = (score: number): string => {
+  if (score >= 90) return '완벽해요!';
+  if (score >= 70) return '잘했어요!';
+  if (score >= 50) return '좋은 시작이에요!';
+  return '다시 도전해봐요!';
+};
+
+const getGradientColors = (score: number): [string, string] => {
+  if (score >= 70) return ['#00B894', '#00CEC9'];
+  if (score >= 50) return ['#4A90D9', '#6B5CE7'];
+  return ['#FF6B6B', '#FF8E53'];
+};
 
 interface SessionResultsProps {
   onClose: () => void;
@@ -26,31 +47,12 @@ function SessionResultsComponent({ onClose, onRetry }: SessionResultsProps) {
   const lastSession = useMemo(() => getLastSession(), [getLastSession]);
   const todaySessions = useMemo(() => getTodaySessions(), [getTodaySessions]);
 
-  const getScoreEmoji = useCallback((score: number) => {
-    if (score >= 90) return '🎉';
-    if (score >= 70) return '👍';
-    if (score >= 50) return '💪';
-    return '📚';
-  }, []);
-
-  const getScoreMessage = useCallback((score: number) => {
-    if (score >= 90) return '완벽해요!';
-    if (score >= 70) return '잘했어요!';
-    if (score >= 50) return '좋은 시작이에요!';
-    return '다시 도전해봐요!';
-  }, []);
-
-  const getGradientColors = useCallback((score: number): [string, string] => {
-    if (score >= 70) return ['#00B894', '#00CEC9'];
-    if (score >= 50) return ['#4A90D9', '#6B5CE7'];
-    return ['#FF6B6B', '#FF8E53'];
-  }, []);
-
   if (!lastSession) {
     return null;
   }
 
-  const config = SESSION_CONFIG[lastSession.type];
+  // Phase 3: Type safety - fallback to default config
+  const config = SESSION_CONFIG[lastSession.type] ?? SESSION_CONFIG['30s'];
   const scorePercent = lastSession.score;
   const todayTotalTime = todaySessions.reduce((sum, s) => {
     const c = SESSION_CONFIG[s.type];
@@ -121,10 +123,22 @@ function SessionResultsComponent({ onClose, onRetry }: SessionResultsProps) {
 
       {/* Action Buttons */}
       <View style={styles.actionContainer}>
-        <Pressable style={styles.retryButton} onPress={onRetry}>
+        <Pressable
+          style={styles.retryButton}
+          onPress={onRetry}
+          accessibilityLabel="한 번 더 학습하기"
+          accessibilityRole="button"
+          accessibilityHint="같은 유형의 세션을 다시 시작합니다"
+        >
           <Text style={styles.retryButtonText}>한 번 더!</Text>
         </Pressable>
-        <Pressable style={styles.closeButton} onPress={onClose}>
+        <Pressable
+          style={styles.closeButton}
+          onPress={onClose}
+          accessibilityLabel="학습 완료"
+          accessibilityRole="button"
+          accessibilityHint="결과 화면을 닫고 홈으로 돌아갑니다"
+        >
           <Text style={styles.closeButtonText}>완료</Text>
         </Pressable>
       </View>
@@ -133,6 +147,7 @@ function SessionResultsComponent({ onClose, onRetry }: SessionResultsProps) {
 }
 
 export const SessionResults = memo(SessionResultsComponent);
+SessionResults.displayName = 'SessionResults';
 
 const styles = StyleSheet.create({
   actionContainer: {

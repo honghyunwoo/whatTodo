@@ -71,6 +71,10 @@ function SessionSelectorComponent({ onSelectSession, disabled = false }: Session
               key={option.type}
               onPress={() => handlePress(option.type)}
               disabled={disabled}
+              accessibilityLabel={`${config.label} 세션 시작`}
+              accessibilityRole="button"
+              accessibilityHint={`${config.expressionCount}개의 표현을 학습합니다`}
+              accessibilityState={{ disabled }}
               style={({ pressed }) => [
                 styles.optionCard,
                 pressed && styles.optionCardPressed,
@@ -97,6 +101,7 @@ function SessionSelectorComponent({ onSelectSession, disabled = false }: Session
 }
 
 export const SessionSelector = memo(SessionSelectorComponent);
+SessionSelector.displayName = 'SessionSelector';
 
 const styles = StyleSheet.create({
   container: {
