@@ -344,6 +344,13 @@ export const useDiaryStore = create<DiaryState & DiaryActions>()(
     {
       name: DIARY_STORAGE_KEY,
       storage: createJSONStorage(() => AsyncStorage),
+      onRehydrateStorage: () => (state, error) => {
+        if (error) {
+          console.error('[DiaryStore] rehydration failed:', error);
+        } else if (__DEV__) {
+          console.log('[DiaryStore] rehydrated');
+        }
+      },
     }
   )
 );

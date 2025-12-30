@@ -12,6 +12,7 @@ import {
   QuizResult,
   WeekProgress,
 } from '@/types/activity';
+import { isStoreHydrated } from '@/hooks/useStoreReady';
 import { useDiaryStore } from './diaryStore';
 import { useRewardStore } from './rewardStore';
 
@@ -140,17 +141,22 @@ export const useLearnStore = create<LearnState & LearnActions>()(
         get().updateProgress(newProgress);
 
         // Earn learning stars (higher than Todo rewards!)
-        const starsEarned = useRewardStore.getState().earnLearningStars(type, score);
-        if (__DEV__) {
-          console.log(`[Learning] Earned ${starsEarned} stars for ${type} (score: ${score})`);
+        // Hydration 체크 후 안전하게 호출
+        if (isStoreHydrated('reward')) {
+          const starsEarned = useRewardStore.getState().earnLearningStars(type, score);
+          if (__DEV__) {
+            console.log(`[Learning] Earned ${starsEarned} stars for ${type} (score: ${score})`);
+          }
         }
 
         // 일기에 학습 기록 자동 추가
-        useDiaryStore.getState().addLearningRecord({
-          activityType: type,
-          weekId,
-          score,
-        });
+        if (isStoreHydrated('diary')) {
+          useDiaryStore.getState().addLearningRecord({
+            activityType: type,
+            weekId,
+            score,
+          });
+        }
 
         // 주간 진행률 업데이트
         set((state) => {
@@ -323,6 +329,13 @@ export const useLearnStore = create<LearnState & LearnActions>()(
     {
       name: STORAGE_KEYS.LEARN_PROGRESS,
       storage: createJSONStorage(() => AsyncStorage),
+      onRehydrateStorage: () => (state, error) => {
+        if (error) {
+          console.error('[LearnStore] rehydration failed:', error);
+        } else if (__DEV__) {
+          console.log('[LearnStore] rehydrated');
+        }
+      },
     }
   )
 );

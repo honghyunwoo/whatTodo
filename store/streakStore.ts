@@ -333,6 +333,13 @@ export const useStreakStore = create<StreakState & StreakActions>()(
     {
       name: STORAGE_KEYS.REWARDS + '_streak', // 별도 키 사용
       storage: createJSONStorage(() => AsyncStorage),
+      onRehydrateStorage: () => (state, error) => {
+        if (error) {
+          console.error('[StreakStore] rehydration failed:', error);
+        } else if (__DEV__) {
+          console.log('[StreakStore] rehydrated');
+        }
+      },
     }
   )
 );

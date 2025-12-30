@@ -40,6 +40,14 @@ const getStreakMultiplier = (streak: number): number => {
   return 1.0;
 };
 
+// 일일 목표 설정
+const DAILY_STAR_GOAL = 50;
+const STREAK_FREEZE_COST = 200;
+const MAX_STREAK_FREEZES = 2;
+
+// 스트릭 마일스톤 (축하 대상)
+const STREAK_MILESTONES = [7, 14, 30, 60, 100, 365];
+
 interface RewardState {
   // Core stats
   stars: number;
@@ -49,6 +57,10 @@ interface RewardState {
   streak: number;
   longestStreak: number;
   lastActiveDate: string | null;
+
+  // Streak Freeze (스트릭 보호)
+  streakFreezes: number;
+  streakFreezeUsedToday: boolean;
 
   // Unlocked content
   unlockedThemes: string[];
@@ -64,6 +76,10 @@ interface RewardState {
   totalLearningActivities: number;
   perfectScores: number;
   todaySkillsCompleted: ActivityType[];
+
+  // Daily goal tracking
+  dailyStarGoal: number;
+  lastMilestoneAchieved: number | null;
 }
 
 interface RewardActions {
@@ -77,6 +93,11 @@ interface RewardActions {
   // Streak management
   updateStreak: () => void;
 
+  // Streak Freeze (스트릭 보호)
+  useStreakFreeze: () => boolean;
+  purchaseStreakFreeze: () => boolean;
+  getStreakFreezeCount: () => number;
+
   // Unlocks
   unlockTheme: (themeId: string, cost: number) => boolean;
   unlockBadge: (badgeId: string) => void;
@@ -87,6 +108,14 @@ interface RewardActions {
   getStreakMultiplier: () => number;
   canAfford: (amount: number) => boolean;
   hasCompletedAllSkillsToday: () => boolean;
+
+  // Daily goal
+  getDailyProgress: () => { current: number; goal: number; percentage: number };
+  hasDailyGoalCompleted: () => boolean;
+
+  // Milestones
+  checkStreakMilestone: () => number | null;
+  getNextMilestone: () => number | null;
 
   // Reset daily stats
   checkAndResetDaily: () => void;
@@ -113,6 +142,10 @@ export const useRewardStore = create<RewardState & RewardActions>()(
       streak: 0,
       longestStreak: 0,
       lastActiveDate: null,
+      // Streak Freeze
+      streakFreezes: 0,
+      streakFreezeUsedToday: false,
+      // Unlocked content
       unlockedThemes: ['classic'], // Default theme is always unlocked
       unlockedBadges: [],
       todayTasksCompleted: 0,
@@ -123,6 +156,9 @@ export const useRewardStore = create<RewardState & RewardActions>()(
       totalLearningActivities: 0,
       perfectScores: 0,
       todaySkillsCompleted: [],
+      // Daily goal
+      dailyStarGoal: DAILY_STAR_GOAL,
+      lastMilestoneAchieved: null,
 
       earnStars: (amount, priority) => {
         const state = get();
@@ -266,6 +302,97 @@ export const useRewardStore = create<RewardState & RewardActions>()(
         return allSkills.every((skill) => get().todaySkillsCompleted.includes(skill));
       },
 
+      // ─────────────────────────────────────
+      // Streak Freeze (스트릭 보호)
+      // ─────────────────────────────────────
+
+      useStreakFreeze: () => {
+        const { streakFreezes, streakFreezeUsedToday, streak } = get();
+
+        // 이미 오늘 사용했거나 보유량이 없으면 실패
+        if (streakFreezeUsedToday || streakFreezes <= 0 || streak === 0) {
+          return false;
+        }
+
+        set((s) => ({
+          streakFreezes: s.streakFreezes - 1,
+          streakFreezeUsedToday: true,
+          // 스트릭은 유지됨 (어제 활동 없어도)
+        }));
+
+        return true;
+      },
+
+      purchaseStreakFreeze: () => {
+        const { stars, streakFreezes } = get();
+
+        // 최대 보유량 초과
+        if (streakFreezes >= MAX_STREAK_FREEZES) {
+          return false;
+        }
+
+        // 비용 부족
+        if (stars < STREAK_FREEZE_COST) {
+          return false;
+        }
+
+        set((s) => ({
+          stars: s.stars - STREAK_FREEZE_COST,
+          streakFreezes: s.streakFreezes + 1,
+        }));
+
+        return true;
+      },
+
+      getStreakFreezeCount: () => get().streakFreezes,
+
+      // ─────────────────────────────────────
+      // Daily Goal (일일 목표)
+      // ─────────────────────────────────────
+
+      getDailyProgress: () => {
+        const { todayStarsEarned, dailyStarGoal } = get();
+        return {
+          current: todayStarsEarned,
+          goal: dailyStarGoal,
+          percentage: Math.min(100, Math.round((todayStarsEarned / dailyStarGoal) * 100)),
+        };
+      },
+
+      hasDailyGoalCompleted: () => {
+        const { todayStarsEarned, dailyStarGoal } = get();
+        return todayStarsEarned >= dailyStarGoal;
+      },
+
+      // ─────────────────────────────────────
+      // Milestones (마일스톤)
+      // ─────────────────────────────────────
+
+      checkStreakMilestone: () => {
+        const { streak, lastMilestoneAchieved } = get();
+
+        // 현재 스트릭에 해당하는 마일스톤 찾기
+        const milestone = STREAK_MILESTONES.find(
+          (m) => streak >= m && (lastMilestoneAchieved === null || m > lastMilestoneAchieved)
+        );
+
+        if (milestone) {
+          set({ lastMilestoneAchieved: milestone });
+          return milestone;
+        }
+
+        return null;
+      },
+
+      getNextMilestone: () => {
+        const { streak } = get();
+        return STREAK_MILESTONES.find((m) => m > streak) || null;
+      },
+
+      // ─────────────────────────────────────
+      // Daily Reset
+      // ─────────────────────────────────────
+
       checkAndResetDaily: () => {
         const { lastActiveDate } = get();
         const today = getToday();
@@ -277,6 +404,7 @@ export const useRewardStore = create<RewardState & RewardActions>()(
             todayLearningActivities: 0,
             todayLearningStars: 0,
             todaySkillsCompleted: [],
+            streakFreezeUsedToday: false, // 스트릭 프리즈 사용 리셋
           });
         }
       },
@@ -284,6 +412,13 @@ export const useRewardStore = create<RewardState & RewardActions>()(
     {
       name: STORAGE_KEYS.REWARDS,
       storage: createJSONStorage(() => AsyncStorage),
+      onRehydrateStorage: () => (state, error) => {
+        if (error) {
+          console.error('[RewardStore] rehydration failed:', error);
+        } else if (__DEV__) {
+          console.log('[RewardStore] rehydrated');
+        }
+      },
     }
   )
 );

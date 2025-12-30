@@ -422,6 +422,13 @@ export const useTaskStore = create<TaskState & TaskActions>()(
     {
       name: STORAGE_KEYS.TASKS,
       storage: createJSONStorage(() => AsyncStorage),
+      onRehydrateStorage: () => (state, error) => {
+        if (error) {
+          console.error('[TaskStore] rehydration failed:', error);
+        } else if (__DEV__) {
+          console.log('[TaskStore] rehydrated');
+        }
+      },
     }
   )
 );

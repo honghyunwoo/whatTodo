@@ -1,3 +1,65 @@
+import { Dimensions, PixelRatio } from 'react-native';
+
+// 기준 화면 크기 (iPhone 8)
+const BASE_WIDTH = 375;
+const BASE_HEIGHT = 667;
+
+// 현재 화면 크기
+const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get('window');
+
+/**
+ * 반응형 크기 계산
+ * 기준: iPhone 8 (375px)
+ * 최소: 75% / 최대: 125% 스케일
+ */
+export const getResponsiveSize = (baseSize: number): number => {
+  const scale = SCREEN_WIDTH / BASE_WIDTH;
+  const scaledSize = baseSize * scale;
+  const minSize = baseSize * 0.75;
+  const maxSize = baseSize * 1.25;
+  return Math.max(minSize, Math.min(scaledSize, maxSize));
+};
+
+/**
+ * 폰트 크기 반응형 계산 (PixelRatio 고려)
+ */
+export const getResponsiveFontSize = (baseSize: number): number => {
+  const scale = SCREEN_WIDTH / BASE_WIDTH;
+  const scaledSize = baseSize * scale;
+  const pixelRatio = PixelRatio.get();
+
+  // 고밀도 디스플레이에서는 약간 작게
+  const adjustedSize = pixelRatio > 2 ? scaledSize * 0.95 : scaledSize;
+
+  const minSize = baseSize * 0.8;
+  const maxSize = baseSize * 1.15;
+  return Math.max(minSize, Math.min(adjustedSize, maxSize));
+};
+
+/**
+ * 반응형 상수
+ */
+export const RESPONSIVE = {
+  // 터치 타겟 최소 크기 (접근성 기준: 44px)
+  touchTarget: Math.max(44, getResponsiveSize(48)),
+
+  // 모달 최대 너비
+  modalMaxWidth: Math.min(SCREEN_WIDTH - 32, 400),
+
+  // 카드 최대 너비
+  cardMaxWidth: Math.min(SCREEN_WIDTH - 32, 500),
+
+  // 화면 크기
+  screenWidth: SCREEN_WIDTH,
+  screenHeight: SCREEN_HEIGHT,
+
+  // 작은 화면 여부 (SE, 5s 등)
+  isSmallScreen: SCREEN_WIDTH < 375,
+
+  // 큰 화면 여부 (Plus, Max, 태블릿)
+  isLargeScreen: SCREEN_WIDTH >= 414,
+} as const;
+
 export const SIZES = {
   spacing: {
     xs: 4,

@@ -1,0 +1,217 @@
+{
+  "category": "business",
+  "scenarios": [
+    {
+      "id": "business-meeting-1",
+      "category": "business",
+      "name": "Business Meeting Basics",
+      "nameKo": "비즈니스 미팅 기초",
+      "description": "Basic phrases for professional meetings",
+      "descriptionKo": "비즈니스 미팅에서 쓰는 기본 표현",
+      "level": "B1",
+      "difficulty": 2,
+      "icon": "briefcase",
+      "estimatedTime": 20,
+      "tags": ["business", "meeting", "professional"],
+      "expressions": [
+        {
+          "id": "exp-meeting-1",
+          "korean": "오늘 회의 시작하겠습니다.",
+          "english": "Let's get started with today's meeting.",
+          "pronunciation": "/lets ɡet ˈstɑːrtɪd wɪð təˈdeɪz ˈmiːtɪŋ/",
+          "skills": ["grammar.suggestion", "vocab.business"],
+          "context": "Opening a business meeting",
+          "tips": "'Let's get started' = 시작하자는 표현"
+        },
+        {
+          "id": "exp-meeting-2",
+          "korean": "제 의견을 말씀드려도 될까요?",
+          "english": "May I share my thoughts on this?",
+          "pronunciation": "/meɪ aɪ ʃer maɪ θɔːts ɑːn ðɪs/",
+          "skills": ["grammar.permission", "vocab.business"],
+          "context": "When you want to contribute to a discussion",
+          "tips": "'May I...?' = 정중하게 허락을 구하는 표현"
+        },
+        {
+          "id": "exp-meeting-3",
+          "korean": "그 점에 동의합니다.",
+          "english": "I agree with that point.",
+          "pronunciation": "/aɪ əˈɡriː wɪð ðæt pɔɪnt/",
+          "skills": ["vocab.business"],
+          "context": "Expressing agreement"
+        },
+        {
+          "id": "exp-meeting-4",
+          "korean": "다른 관점에서 보면요...",
+          "english": "From a different perspective...",
+          "pronunciation": "/frʌm ə ˈdɪfrənt pərˈspektɪv/",
+          "skills": ["vocab.business"],
+          "context": "Introducing a different viewpoint",
+          "tips": "반대 의견을 부드럽게 제시할 때 유용해요"
+        },
+        {
+          "id": "exp-meeting-5",
+          "korean": "다음 단계는 무엇인가요?",
+          "english": "What are the next steps?",
+          "pronunciation": "/wʌt ɑːr ðə nekst steps/",
+          "skills": ["grammar.question", "vocab.business"],
+          "context": "Asking about action items"
+        },
+        {
+          "id": "exp-meeting-6",
+          "korean": "그건 좋은 지적입니다.",
+          "english": "That's a good point.",
+          "pronunciation": "/ðæts ə ɡʊd pɔɪnt/",
+          "skills": ["vocab.business"],
+          "context": "Acknowledging someone's contribution"
+        },
+        {
+          "id": "exp-meeting-7",
+          "korean": "마감일이 언제인가요?",
+          "english": "When is the deadline?",
+          "pronunciation": "/wen ɪz ðə ˈdedlaɪn/",
+          "skills": ["grammar.question", "vocab.business"],
+          "context": "Asking about deadlines"
+        }
+      ]
+    },
+    {
+      "id": "business-email-1",
+      "category": "business",
+      "name": "Business Email Phrases",
+      "nameKo": "비즈니스 이메일 표현",
+      "description": "Common phrases for professional emails",
+      "descriptionKo": "비즈니스 이메일에서 쓰는 표현",
+      "level": "B1",
+      "difficulty": 2,
+      "icon": "mail",
+      "estimatedTime": 15,
+      "tags": ["business", "email", "writing"],
+      "expressions": [
+        {
+          "id": "exp-email-1",
+          "korean": "안녕하세요, 잘 지내시길 바랍니다.",
+          "english": "Hi, I hope this email finds you well.",
+          "pronunciation": "/haɪ aɪ hoʊp ðɪs ˈiːmeɪl faɪndz juː wel/",
+          "skills": ["vocab.business", "writing.sentence"],
+          "context": "Opening an email",
+          "tips": "비즈니스 이메일의 가장 흔한 시작!"
+        },
+        {
+          "id": "exp-email-2",
+          "korean": "회의 일정을 확인하고자 합니다.",
+          "english": "I'm writing to confirm our meeting.",
+          "pronunciation": "/aɪm ˈraɪtɪŋ tuː kənˈfɜːrm ɑːr ˈmiːtɪŋ/",
+          "skills": ["vocab.business", "writing.sentence"],
+          "context": "Stating the purpose of email"
+        },
+        {
+          "id": "exp-email-3",
+          "korean": "첨부파일을 확인해 주세요.",
+          "english": "Please find attached the document.",
+          "pronunciation": "/pliːz faɪnd əˈtætʃt ðə ˈdɑːkjumənt/",
+          "skills": ["vocab.business", "grammar.polite"],
+          "context": "Referring to attachments",
+          "commonMistakes": [
+            {
+              "wrong": "I attach the document.",
+              "correct": "Please find attached the document.",
+              "explanation": "This is the standard formal way to mention attachments",
+              "explanationKo": "첨부파일을 언급할 때 쓰는 정형화된 표현이에요",
+              "percentage": 78
+            }
+          ]
+        },
+        {
+          "id": "exp-email-4",
+          "korean": "빠른 회신 부탁드립니다.",
+          "english": "I would appreciate a prompt reply.",
+          "pronunciation": "/aɪ wʊd əˈpriːʃieɪt ə prɑːmpt rɪˈplaɪ/",
+          "skills": ["vocab.business", "grammar.polite"],
+          "context": "Requesting a quick response"
+        },
+        {
+          "id": "exp-email-5",
+          "korean": "문의사항 있으시면 연락 주세요.",
+          "english": "Please feel free to contact me if you have any questions.",
+          "pronunciation": "/pliːz fiːl friː tuː ˈkɑːntækt miː/",
+          "skills": ["vocab.business", "grammar.polite"],
+          "context": "Closing an email"
+        },
+        {
+          "id": "exp-email-6",
+          "korean": "감사합니다.",
+          "english": "Best regards,",
+          "pronunciation": "/best rɪˈɡɑːrdz/",
+          "skills": ["vocab.business"],
+          "context": "Email sign-off",
+          "tips": "가장 일반적인 이메일 마무리"
+        }
+      ]
+    },
+    {
+      "id": "business-presentation-1",
+      "category": "business",
+      "name": "Presentation Skills",
+      "nameKo": "프레젠테이션",
+      "description": "Phrases for giving presentations",
+      "descriptionKo": "발표할 때 쓰는 표현",
+      "level": "B2",
+      "difficulty": 3,
+      "icon": "presentation",
+      "estimatedTime": 20,
+      "tags": ["business", "presentation", "speaking"],
+      "expressions": [
+        {
+          "id": "exp-pres-1",
+          "korean": "오늘 발표를 맡은 김철수입니다.",
+          "english": "Good morning, I'm Kim Chulsoo, and I'll be presenting today.",
+          "pronunciation": "/ɡʊd ˈmɔːrnɪŋ aɪm kɪm tʃʌlsuː/",
+          "skills": ["vocab.business", "speaking.fluency"],
+          "context": "Introducing yourself at the start"
+        },
+        {
+          "id": "exp-pres-2",
+          "korean": "오늘 발표 주제는 ~입니다.",
+          "english": "Today, I'll be talking about...",
+          "pronunciation": "/təˈdeɪ aɪl biː ˈtɔːkɪŋ əˈbaʊt/",
+          "skills": ["vocab.business", "speaking.fluency"],
+          "context": "Introducing the topic"
+        },
+        {
+          "id": "exp-pres-3",
+          "korean": "이 슬라이드를 보시면요...",
+          "english": "As you can see on this slide...",
+          "pronunciation": "/æz juː kæn siː ɑːn ðɪs slaɪd/",
+          "skills": ["vocab.business", "speaking.fluency"],
+          "context": "Referring to a slide"
+        },
+        {
+          "id": "exp-pres-4",
+          "korean": "요약하자면...",
+          "english": "To summarize...",
+          "pronunciation": "/tuː ˈsʌməraɪz/",
+          "skills": ["vocab.business"],
+          "context": "Summarizing points"
+        },
+        {
+          "id": "exp-pres-5",
+          "korean": "질문 있으신가요?",
+          "english": "Are there any questions?",
+          "pronunciation": "/ɑːr ðer ˈeni ˈkwestʃənz/",
+          "skills": ["grammar.question", "vocab.business"],
+          "context": "Opening Q&A session"
+        },
+        {
+          "id": "exp-pres-6",
+          "korean": "좋은 질문이네요.",
+          "english": "That's a great question.",
+          "pronunciation": "/ðæts ə ɡreɪt ˈkwestʃən/",
+          "skills": ["vocab.business"],
+          "context": "Responding to questions",
+          "tips": "질문에 답하기 전 시간을 벌 때도 유용해요"
+        }
+      ]
+    }
+  ]
+}

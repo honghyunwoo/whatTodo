@@ -29,6 +29,7 @@ import type {
   UnitProgress,
   LESSON_PASS_THRESHOLD,
 } from '@/types/progress';
+import { isStoreHydrated } from '@/hooks/useStoreReady';
 import { useDiaryStore } from './diaryStore';
 import { useRewardStore } from './rewardStore';
 
@@ -318,16 +319,23 @@ export const useLessonStore = create<LessonState & LessonActions>()(
           return { lessonProgress: updated };
         });
 
-        // 보상 지급
-        const starsEarned = useRewardStore.getState().earnLearningStars(type, result.score ?? 0);
+        // 보상 지급 (Hydration 체크 후 안전하게 호출)
+        if (isStoreHydrated('reward')) {
+          const starsEarned = useRewardStore.getState().earnLearningStars(type, result.score ?? 0);
+          if (__DEV__) {
+            console.log('[Lesson] Earned ' + starsEarned + ' stars for ' + type);
+          }
+        }
 
         // 일기에 학습 기록 추가
-        useDiaryStore.getState().addLearningRecord({
-          activityType: type,
-          lessonId,
-          score: result.score ?? 0,
-          timeSpent: result.timeSpent,
-        });
+        if (isStoreHydrated('diary')) {
+          useDiaryStore.getState().addLearningRecord({
+            activityType: type,
+            lessonId,
+            score: result.score ?? 0,
+            timeSpent: result.timeSpent,
+          });
+        }
 
         // 통계 업데이트
         get().updateStats();

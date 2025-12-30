@@ -16,13 +16,7 @@ import {
 } from 'react-native';
 import { IconButton, Modal, Portal, Text } from 'react-native-paper';
 
-import {
-  ActivityCard,
-  LessonSelector,
-  LevelSelector,
-  UnitSelector,
-  WeekSelector,
-} from '@/components/learn';
+import { ActivityCard, LessonSelector, LevelSelector, UnitSelector } from '@/components/learn';
 import { LearningDashboard } from '@/components/dashboard/LearningDashboard';
 import { BadgeShowcase } from '@/components/reward';
 import { COLORS } from '@/constants/colors';
@@ -50,8 +44,6 @@ const ACTIVITY_TYPES: ActivityType[] = [
   'writing',
 ];
 
-type ViewMode = 'lesson' | 'week';
-
 export default function LearnScreen() {
   // Legacy week-based state
   const currentWeek = useLearnStore((state) => state.currentWeek);
@@ -73,8 +65,7 @@ export default function LearnScreen() {
   const [showBadges, setShowBadges] = useState(false);
   const [isLoading, setIsLoading] = useState(!isLevelLoaded(currentLevel));
 
-  // New lesson-based UI state
-  const [viewMode, setViewMode] = useState<ViewMode>('lesson');
+  // Lesson-based UI state (Week 모드 제거됨)
   const [selectedUnitId, setSelectedUnitId] = useState<string | null>(null);
   const [selectedLessonId, setSelectedLessonId] = useState<string | null>(null);
 
@@ -324,121 +315,53 @@ export default function LearnScreen() {
           </TouchableOpacity>
         </View>
 
-        {/* Custom Mode Toggle (fixes icon bug) */}
-        <View style={styles.modeToggle}>
-          <Pressable
-            onPress={() => setViewMode('lesson')}
-            style={[styles.modeButton, viewMode === 'lesson' && styles.modeButtonActive]}
-          >
-            <Text style={styles.modeIcon}>📚</Text>
-            <Text style={[styles.modeText, viewMode === 'lesson' && styles.modeTextActive]}>
-              레슨
-            </Text>
-          </Pressable>
-          <Pressable
-            onPress={() => setViewMode('week')}
-            style={[styles.modeButton, viewMode === 'week' && styles.modeButtonActive]}
-          >
-            <Text style={styles.modeIcon}>📅</Text>
-            <Text style={[styles.modeText, viewMode === 'week' && styles.modeTextActive]}>
-              주차
-            </Text>
-          </Pressable>
+        {/* 레슨 기반 학습 (Duolingo 스타일) */}
+        <View style={styles.lessonModeHeader}>
+          <Text style={styles.lessonModeTitle}>📚 레슨 학습</Text>
+          <Text style={styles.lessonModeSubtitle}>한 번에 하나씩, 부담 없이</Text>
         </View>
 
-        {viewMode === 'lesson' ? (
-          <>
-            {/* Unit Selector */}
-            <View style={styles.unitSelectorContainer}>
-              <Text style={styles.sectionTitle}>유닛 선택</Text>
-              {unitCards.length > 0 ? (
-                <UnitSelector
-                  units={unitCards}
-                  selectedUnitId={selectedUnitId}
-                  onSelectUnit={setSelectedUnitId}
-                />
-              ) : (
-                <Text style={styles.emptyText}>레슨 데이터를 불러오는 중...</Text>
-              )}
+        {/* Unit Selector */}
+        <View style={styles.unitSelectorContainer}>
+          <Text style={styles.sectionTitle}>유닛 선택</Text>
+          {unitCards.length > 0 ? (
+            <UnitSelector
+              units={unitCards}
+              selectedUnitId={selectedUnitId}
+              onSelectUnit={setSelectedUnitId}
+            />
+          ) : (
+            <Text style={styles.emptyText}>레슨 데이터를 불러오는 중...</Text>
+          )}
+        </View>
+
+        {/* Lesson List */}
+        <View style={styles.lessonSection}>
+          <View style={styles.sectionHeader}>
+            <Text style={styles.sectionTitle}>
+              {unitCards.find((u) => u.id === selectedUnitId)?.title || '레슨'}
+            </Text>
+          </View>
+
+          {isLoading ? (
+            <View style={styles.loadingContainer}>
+              <ActivityIndicator size="large" color={COLORS.primary} />
+              <Text style={styles.loadingText}>레슨 로딩 중...</Text>
             </View>
-
-            {/* Lesson List */}
-            <View style={styles.lessonSection}>
-              <View style={styles.sectionHeader}>
-                <Text style={styles.sectionTitle}>
-                  {unitCards.find((u) => u.id === selectedUnitId)?.title || '레슨'}
-                </Text>
-              </View>
-
-              {isLoading ? (
-                <View style={styles.loadingContainer}>
-                  <ActivityIndicator size="large" color={COLORS.primary} />
-                  <Text style={styles.loadingText}>레슨 로딩 중...</Text>
-                </View>
-              ) : lessonCards.length > 0 ? (
-                <LessonSelector
-                  lessons={lessonCards}
-                  selectedLessonId={selectedLessonId}
-                  onSelectLesson={handleLessonPress}
-                  onTakeTest={handleTakeTest}
-                />
-              ) : (
-                <View style={styles.emptyContainer}>
-                  <Text style={styles.emptyEmoji}>📚</Text>
-                  <Text style={styles.emptyText}>유닛을 선택해주세요</Text>
-                </View>
-              )}
+          ) : lessonCards.length > 0 ? (
+            <LessonSelector
+              lessons={lessonCards}
+              selectedLessonId={selectedLessonId}
+              onSelectLesson={handleLessonPress}
+              onTakeTest={handleTakeTest}
+            />
+          ) : (
+            <View style={styles.emptyContainer}>
+              <Text style={styles.emptyEmoji}>📚</Text>
+              <Text style={styles.emptyText}>유닛을 선택해주세요</Text>
             </View>
-          </>
-        ) : (
-          <>
-            {/* Legacy Week Mode */}
-            <View style={styles.weekSelectorContainer}>
-              <Text style={styles.sectionTitle}>학습 주차 선택</Text>
-              <WeekSelector
-                selectedWeek={currentWeek}
-                onSelectWeek={setCurrentWeek}
-                weekProgress={weekProgress}
-              />
-            </View>
-
-            <View style={styles.activitiesSection}>
-              <View style={styles.sectionHeader}>
-                <Text style={styles.sectionTitle}>{currentWeek.replace('week-', '')}주차 학습</Text>
-                <View style={styles.progressPill}>
-                  <View style={[styles.progressPillFill, { width: `${currentProgress}%` }]} />
-                  <Text style={styles.progressPillText}>{currentProgress}%</Text>
-                </View>
-              </View>
-
-              {isLoading ? (
-                <View style={styles.loadingContainer}>
-                  <ActivityIndicator size="large" color={COLORS.primary} />
-                  <Text style={styles.loadingText}>학습 콘텐츠 로딩 중...</Text>
-                </View>
-              ) : (
-                <View style={styles.activitiesGrid}>
-                  {ACTIVITY_TYPES.map((type) => {
-                    const activity = weekActivities.find((a) => a.type === type);
-                    const { completed } = getActivityProgress(type);
-
-                    if (!activity) return null;
-
-                    return (
-                      <ActivityCard
-                        key={type}
-                        type={type}
-                        progress={completed ? 100 : 0}
-                        completed={completed}
-                        onPress={() => handleActivityPress(type)}
-                      />
-                    );
-                  })}
-                </View>
-              )}
-            </View>
-          </>
-        )}
+          )}
+        </View>
       </ScrollView>
 
       <Portal>
@@ -734,6 +657,22 @@ const styles = StyleSheet.create({
   },
   unitSelectorContainer: {
     paddingTop: SIZES.spacing.lg,
+  },
+  lessonModeHeader: {
+    alignItems: 'center',
+    paddingHorizontal: SIZES.spacing.md,
+    paddingTop: SIZES.spacing.lg,
+    paddingBottom: SIZES.spacing.sm,
+  },
+  lessonModeTitle: {
+    fontSize: SIZES.fontSize.xl,
+    fontWeight: '700',
+    color: COLORS.text,
+  },
+  lessonModeSubtitle: {
+    fontSize: SIZES.fontSize.sm,
+    color: COLORS.textSecondary,
+    marginTop: SIZES.spacing.xs,
   },
   lessonSection: {
     paddingTop: SIZES.spacing.lg,

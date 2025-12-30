@@ -1,0 +1,302 @@
+{
+  "category": "travel",
+  "scenarios": [
+    {
+      "id": "travel-airport-1",
+      "category": "travel",
+      "name": "At the Airport",
+      "nameKo": "공항에서",
+      "description": "Essential phrases for navigating the airport",
+      "descriptionKo": "공항에서 필요한 필수 표현들",
+      "level": "A1",
+      "difficulty": 1,
+      "icon": "airplane",
+      "estimatedTime": 15,
+      "tags": ["airport", "travel", "beginner"],
+      "expressions": [
+        {
+          "id": "exp-airport-1",
+          "korean": "여기가 탑승구인가요?",
+          "english": "Is this the boarding gate?",
+          "pronunciation": "/ɪz ðɪs ðə ˈbɔːrdɪŋ ɡeɪt/",
+          "skills": ["grammar.question", "vocab.airport"],
+          "context": "When looking for your gate at the airport",
+          "tips": "Is this...? 패턴은 확인할 때 사용해요",
+          "commonMistakes": [
+            {
+              "wrong": "Here is boarding gate?",
+              "correct": "Is this the boarding gate?",
+              "explanation": "Use 'Is this...' for questions, not 'Here is'",
+              "explanationKo": "'여기가 ~인가요?'는 'Is this...?'로 표현해요",
+              "percentage": 75
+            }
+          ]
+        },
+        {
+          "id": "exp-airport-2",
+          "korean": "제 여권이요.",
+          "english": "Here is my passport.",
+          "pronunciation": "/hɪr ɪz maɪ ˈpæspɔːrt/",
+          "skills": ["grammar.possession", "vocab.airport"],
+          "context": "When showing your passport at check-in or security",
+          "tips": "Here is + 명사: 무언가를 건네줄 때 사용"
+        },
+        {
+          "id": "exp-airport-3",
+          "korean": "창가 좌석 부탁드려요.",
+          "english": "I would like a window seat, please.",
+          "pronunciation": "/aɪ wʊd laɪk ə ˈwɪndoʊ siːt pliːz/",
+          "skills": ["grammar.polite", "vocab.airport"],
+          "context": "When checking in for your flight",
+          "tips": "'I would like' = 정중한 요청 표현",
+          "commonMistakes": [
+            {
+              "wrong": "I want window seat.",
+              "correct": "I would like a window seat, please.",
+              "explanation": "'I want' sounds too direct. Use 'I would like' for polite requests.",
+              "explanationKo": "'I want'는 너무 직접적이에요. 정중하게 'I would like'를 사용하세요.",
+              "percentage": 80
+            }
+          ]
+        },
+        {
+          "id": "exp-airport-4",
+          "korean": "짐은 몇 개까지 맡길 수 있나요?",
+          "english": "How many bags can I check in?",
+          "pronunciation": "/haʊ ˈmeni bæɡz kæn aɪ tʃek ɪn/",
+          "skills": ["grammar.question", "vocab.airport"],
+          "context": "When asking about luggage at check-in"
+        },
+        {
+          "id": "exp-airport-5",
+          "korean": "탑승 시간이 언제인가요?",
+          "english": "What time is boarding?",
+          "pronunciation": "/wʌt taɪm ɪz ˈbɔːrdɪŋ/",
+          "skills": ["grammar.question", "vocab.airport"],
+          "context": "When asking about your flight schedule"
+        },
+        {
+          "id": "exp-airport-6",
+          "korean": "이건 기내 반입이 가능한가요?",
+          "english": "Can I bring this on the plane?",
+          "pronunciation": "/kæn aɪ brɪŋ ðɪs ɑːn ðə pleɪn/",
+          "skills": ["grammar.permission", "vocab.airport"],
+          "context": "When asking about carry-on items at security",
+          "commonMistakes": [
+            {
+              "wrong": "This can bring plane?",
+              "correct": "Can I bring this on the plane?",
+              "explanation": "Use 'Can I...' to ask for permission",
+              "explanationKo": "허가를 구할 때는 'Can I...?'로 시작해요",
+              "percentage": 65
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel-hotel-1",
+      "category": "travel",
+      "name": "At the Hotel",
+      "nameKo": "호텔에서",
+      "description": "Checking in and communicating with hotel staff",
+      "descriptionKo": "호텔 체크인과 직원과의 대화",
+      "level": "A1",
+      "difficulty": 1,
+      "icon": "bed",
+      "estimatedTime": 12,
+      "tags": ["hotel", "travel", "beginner"],
+      "expressions": [
+        {
+          "id": "exp-hotel-1",
+          "korean": "체크인하고 싶습니다.",
+          "english": "I would like to check in, please.",
+          "pronunciation": "/aɪ wʊd laɪk tuː tʃek ɪn pliːz/",
+          "skills": ["grammar.polite", "vocab.hotel"],
+          "context": "When arriving at the hotel front desk"
+        },
+        {
+          "id": "exp-hotel-2",
+          "korean": "예약했습니다. 이름은 김철수입니다.",
+          "english": "I have a reservation. The name is Kim Chulsoo.",
+          "pronunciation": "/aɪ hæv ə ˌrezərˈveɪʃn̩/",
+          "skills": ["grammar.possession", "vocab.hotel"],
+          "context": "When confirming your booking"
+        },
+        {
+          "id": "exp-hotel-3",
+          "korean": "와이파이 비밀번호가 뭔가요?",
+          "english": "What is the WiFi password?",
+          "pronunciation": "/wʌt ɪz ðə ˈwaɪfaɪ ˈpæswɜːrd/",
+          "skills": ["grammar.question", "vocab.hotel"],
+          "context": "When asking about internet access",
+          "commonMistakes": [
+            {
+              "wrong": "WiFi password what?",
+              "correct": "What is the WiFi password?",
+              "explanation": "Questions start with 'What is...' in English",
+              "explanationKo": "영어에서 의문문은 'What is...'로 시작해요",
+              "percentage": 70
+            }
+          ]
+        },
+        {
+          "id": "exp-hotel-4",
+          "korean": "아침 식사는 몇 시인가요?",
+          "english": "What time is breakfast?",
+          "pronunciation": "/wʌt taɪm ɪz ˈbrekfəst/",
+          "skills": ["grammar.question", "vocab.hotel"],
+          "context": "When asking about meal times"
+        },
+        {
+          "id": "exp-hotel-5",
+          "korean": "수건 좀 더 주실 수 있나요?",
+          "english": "Could I have some more towels, please?",
+          "pronunciation": "/kʊd aɪ hæv sʌm mɔːr ˈtaʊəlz pliːz/",
+          "skills": ["grammar.polite", "vocab.hotel"],
+          "context": "When requesting additional amenities",
+          "tips": "'Could I have...' = 매우 정중한 요청"
+        }
+      ]
+    },
+    {
+      "id": "travel-directions-1",
+      "category": "travel",
+      "name": "Asking for Directions",
+      "nameKo": "길 묻기",
+      "description": "How to ask for and understand directions",
+      "descriptionKo": "길을 묻고 이해하는 방법",
+      "level": "A2",
+      "difficulty": 2,
+      "icon": "map",
+      "estimatedTime": 15,
+      "tags": ["directions", "travel", "navigation"],
+      "expressions": [
+        {
+          "id": "exp-dir-1",
+          "korean": "실례합니다. 지하철역이 어디인가요?",
+          "english": "Excuse me. Where is the subway station?",
+          "pronunciation": "/ɪkˈskjuːz miː wer ɪz ðə ˈsʌbweɪ ˈsteɪʃn̩/",
+          "skills": ["grammar.question", "vocab.directions"],
+          "context": "When looking for the subway",
+          "tips": "'Excuse me'로 먼저 주의를 끌어요"
+        },
+        {
+          "id": "exp-dir-2",
+          "korean": "여기서 얼마나 멀어요?",
+          "english": "How far is it from here?",
+          "pronunciation": "/haʊ fɑːr ɪz ɪt frʌm hɪr/",
+          "skills": ["grammar.question", "vocab.directions"],
+          "context": "When asking about distance"
+        },
+        {
+          "id": "exp-dir-3",
+          "korean": "걸어갈 수 있나요?",
+          "english": "Can I walk there?",
+          "pronunciation": "/kæn aɪ wɔːk ðer/",
+          "skills": ["grammar.permission", "vocab.directions"],
+          "context": "When asking if the destination is walkable"
+        },
+        {
+          "id": "exp-dir-4",
+          "korean": "왼쪽으로 가세요.",
+          "english": "Go left.",
+          "pronunciation": "/ɡoʊ left/",
+          "skills": ["vocab.directions"],
+          "context": "Direction instruction (understanding)",
+          "tips": "간단하지만 매우 유용한 표현!"
+        },
+        {
+          "id": "exp-dir-5",
+          "korean": "두 블록 직진하세요.",
+          "english": "Go straight for two blocks.",
+          "pronunciation": "/ɡoʊ streɪt fɔːr tuː blɑːks/",
+          "skills": ["vocab.directions", "vocab.numbers"],
+          "context": "Direction instruction (understanding)"
+        },
+        {
+          "id": "exp-dir-6",
+          "korean": "이 주소로 어떻게 가나요?",
+          "english": "How do I get to this address?",
+          "pronunciation": "/haʊ duː aɪ ɡet tuː ðɪs əˈdres/",
+          "skills": ["grammar.question", "vocab.directions"],
+          "context": "When showing an address and asking for directions",
+          "commonMistakes": [
+            {
+              "wrong": "How to go this address?",
+              "correct": "How do I get to this address?",
+              "explanation": "'How do I get to...?' is the correct pattern for asking directions",
+              "explanationKo": "길을 물을 때는 'How do I get to...?'를 사용해요",
+              "percentage": 72
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel-restaurant-1",
+      "category": "travel",
+      "name": "Restaurant Ordering",
+      "nameKo": "레스토랑 주문",
+      "description": "Ordering food and drinks at a restaurant",
+      "descriptionKo": "레스토랑에서 음식과 음료 주문하기",
+      "level": "A1",
+      "difficulty": 1,
+      "icon": "restaurant",
+      "estimatedTime": 12,
+      "tags": ["restaurant", "food", "travel"],
+      "expressions": [
+        {
+          "id": "exp-rest-1",
+          "korean": "두 명이요.",
+          "english": "Table for two, please.",
+          "pronunciation": "/ˈteɪbl̩ fɔːr tuː pliːz/",
+          "skills": ["vocab.restaurant", "vocab.numbers"],
+          "context": "When entering a restaurant"
+        },
+        {
+          "id": "exp-rest-2",
+          "korean": "메뉴 좀 주세요.",
+          "english": "Could I see the menu, please?",
+          "pronunciation": "/kʊd aɪ siː ðə ˈmenjuː pliːz/",
+          "skills": ["grammar.polite", "vocab.restaurant"],
+          "context": "When you want to see the menu"
+        },
+        {
+          "id": "exp-rest-3",
+          "korean": "이거 주문할게요.",
+          "english": "I'll have this, please.",
+          "pronunciation": "/aɪl hæv ðɪs pliːz/",
+          "skills": ["grammar.request", "vocab.restaurant"],
+          "context": "When pointing at something on the menu",
+          "tips": "'I'll have...'는 주문할 때 아주 자연스러운 표현"
+        },
+        {
+          "id": "exp-rest-4",
+          "korean": "물 좀 주세요.",
+          "english": "Could I have some water, please?",
+          "pronunciation": "/kʊd aɪ hæv sʌm ˈwɔːtər pliːz/",
+          "skills": ["grammar.polite", "vocab.restaurant"],
+          "context": "When requesting water"
+        },
+        {
+          "id": "exp-rest-5",
+          "korean": "계산서 주세요.",
+          "english": "Could I have the bill, please?",
+          "pronunciation": "/kʊd aɪ hæv ðə bɪl pliːz/",
+          "skills": ["grammar.polite", "vocab.restaurant"],
+          "context": "When you're ready to pay",
+          "tips": "미국에서는 'check', 영국에서는 'bill'을 더 많이 써요"
+        },
+        {
+          "id": "exp-rest-6",
+          "korean": "이거 추천하시나요?",
+          "english": "Do you recommend this?",
+          "pronunciation": "/duː juː ˌrekəˈmend ðɪs/",
+          "skills": ["grammar.question", "vocab.restaurant"],
+          "context": "When asking for recommendations"
+        }
+      ]
+    }
+  ]
+}

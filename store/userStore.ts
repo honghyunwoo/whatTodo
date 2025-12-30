@@ -286,6 +286,13 @@ export const useUserStore = create<UserState & UserActions>()(
     {
       name: STORAGE_KEYS.REWARDS + '_user',
       storage: createJSONStorage(() => AsyncStorage),
+      onRehydrateStorage: () => (state, error) => {
+        if (error) {
+          console.error('[UserStore] rehydration failed:', error);
+        } else if (__DEV__) {
+          console.log('[UserStore] rehydrated');
+        }
+      },
     }
   )
 );

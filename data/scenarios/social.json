@@ -1,0 +1,282 @@
+{
+  "category": "social",
+  "scenarios": [
+    {
+      "id": "social-introduction-1",
+      "category": "social",
+      "name": "Self Introduction",
+      "nameKo": "자기소개",
+      "description": "Introducing yourself to new people",
+      "descriptionKo": "새로운 사람에게 자기소개하기",
+      "level": "A1",
+      "difficulty": 1,
+      "icon": "user",
+      "estimatedTime": 10,
+      "tags": ["social", "introduction", "beginner"],
+      "expressions": [
+        {
+          "id": "exp-intro-1",
+          "korean": "안녕하세요, 저는 김철수입니다.",
+          "english": "Hi, I'm Kim Chulsoo.",
+          "pronunciation": "/haɪ aɪm kɪm tʃʌlsuː/",
+          "skills": ["grammar.tense"],
+          "context": "Introducing yourself",
+          "tips": "가장 기본적인 자기소개!"
+        },
+        {
+          "id": "exp-intro-2",
+          "korean": "저는 한국에서 왔어요.",
+          "english": "I'm from Korea.",
+          "pronunciation": "/aɪm frʌm kəˈriːə/",
+          "skills": ["grammar.tense"],
+          "context": "Telling where you're from"
+        },
+        {
+          "id": "exp-intro-3",
+          "korean": "저는 서울에서 일해요.",
+          "english": "I work in Seoul.",
+          "pronunciation": "/aɪ wɜːrk ɪn soʊl/",
+          "skills": ["grammar.tense", "vocab.business"],
+          "context": "Telling where you work"
+        },
+        {
+          "id": "exp-intro-4",
+          "korean": "만나서 반갑습니다.",
+          "english": "It's nice to meet you.",
+          "pronunciation": "/ɪts naɪs tuː miːt juː/",
+          "skills": ["vocab.emotions"],
+          "context": "Polite greeting after introduction"
+        },
+        {
+          "id": "exp-intro-5",
+          "korean": "뭐 하시는 분이세요?",
+          "english": "What do you do?",
+          "pronunciation": "/wʌt duː juː duː/",
+          "skills": ["grammar.question", "vocab.business"],
+          "context": "Asking about someone's job",
+          "tips": "직업을 물을 때 쓰는 표현"
+        },
+        {
+          "id": "exp-intro-6",
+          "korean": "저는 IT 회사에 다녀요.",
+          "english": "I work at an IT company.",
+          "pronunciation": "/aɪ wɜːrk æt ən ˌaɪˈtiː ˈkʌmpəni/",
+          "skills": ["grammar.tense", "vocab.business"],
+          "context": "Describing your workplace"
+        }
+      ]
+    },
+    {
+      "id": "social-invitation-1",
+      "category": "social",
+      "name": "Making Plans",
+      "nameKo": "약속 잡기",
+      "description": "Making and responding to invitations",
+      "descriptionKo": "약속을 잡고 응답하기",
+      "level": "A2",
+      "difficulty": 2,
+      "icon": "calendar",
+      "estimatedTime": 12,
+      "tags": ["social", "plans", "invitation"],
+      "expressions": [
+        {
+          "id": "exp-plan-1",
+          "korean": "토요일에 뭐 해요?",
+          "english": "What are you doing on Saturday?",
+          "pronunciation": "/wʌt ɑːr juː ˈduːɪŋ ɑːn ˈsætərdeɪ/",
+          "skills": ["grammar.question", "grammar.tense"],
+          "context": "Asking about plans"
+        },
+        {
+          "id": "exp-plan-2",
+          "korean": "커피 한잔 할래요?",
+          "english": "Would you like to grab coffee?",
+          "pronunciation": "/wʊd juː laɪk tuː ɡræb ˈkɔːfi/",
+          "skills": ["grammar.suggestion"],
+          "context": "Inviting someone for coffee",
+          "tips": "'grab coffee' = 간단히 커피 마시자"
+        },
+        {
+          "id": "exp-plan-3",
+          "korean": "좋아요! 몇 시가 좋으세요?",
+          "english": "Sounds good! What time works for you?",
+          "pronunciation": "/saʊndz ɡʊd wʌt taɪm wɜːrks fɔːr juː/",
+          "skills": ["grammar.question"],
+          "context": "Accepting an invitation",
+          "commonMistakes": [
+            {
+              "wrong": "What time is convenient?",
+              "correct": "What time works for you?",
+              "explanation": "'What time works for you?' is more casual and natural",
+              "explanationKo": "'What time works for you?'가 더 자연스러운 구어체예요",
+              "percentage": 65
+            }
+          ]
+        },
+        {
+          "id": "exp-plan-4",
+          "korean": "죄송한데, 선약이 있어요.",
+          "english": "Sorry, I already have plans.",
+          "pronunciation": "/ˈsɑːri aɪ ɔːlˈredi hæv plænz/",
+          "skills": ["grammar.tense"],
+          "context": "Declining an invitation politely"
+        },
+        {
+          "id": "exp-plan-5",
+          "korean": "다음에 할까요?",
+          "english": "How about next time?",
+          "pronunciation": "/haʊ əˈbaʊt nekst taɪm/",
+          "skills": ["grammar.suggestion"],
+          "context": "Suggesting alternative",
+          "tips": "거절 후 이 말을 덧붙이면 정중해요"
+        },
+        {
+          "id": "exp-plan-6",
+          "korean": "어디서 만날까요?",
+          "english": "Where should we meet?",
+          "pronunciation": "/wer ʃʊd wiː miːt/",
+          "skills": ["grammar.question", "grammar.suggestion"],
+          "context": "Asking about meeting place"
+        }
+      ]
+    },
+    {
+      "id": "social-compliments-1",
+      "category": "social",
+      "name": "Giving Compliments",
+      "nameKo": "칭찬하기",
+      "description": "How to give and receive compliments",
+      "descriptionKo": "칭찬하고 받는 방법",
+      "level": "A2",
+      "difficulty": 1,
+      "icon": "heart",
+      "estimatedTime": 10,
+      "tags": ["social", "compliments", "polite"],
+      "expressions": [
+        {
+          "id": "exp-comp-1",
+          "korean": "멋진 옷이네요!",
+          "english": "I love your outfit!",
+          "pronunciation": "/aɪ lʌv jʊr ˈaʊtfɪt/",
+          "skills": ["vocab.emotions", "vocab.shopping"],
+          "context": "Complimenting someone's clothes"
+        },
+        {
+          "id": "exp-comp-2",
+          "korean": "감사합니다! 정말 친절하시네요.",
+          "english": "Thank you! That's so kind of you.",
+          "pronunciation": "/θæŋk juː ðæts soʊ kaɪnd əv juː/",
+          "skills": ["vocab.emotions"],
+          "context": "Responding to a compliment",
+          "tips": "칭찬받으면 감사하게 받아들이세요!"
+        },
+        {
+          "id": "exp-comp-3",
+          "korean": "영어 잘하시네요!",
+          "english": "Your English is really good!",
+          "pronunciation": "/jʊr ˈɪŋɡlɪʃ ɪz ˈrɪəli ɡʊd/",
+          "skills": ["vocab.emotions"],
+          "context": "Complimenting language skills"
+        },
+        {
+          "id": "exp-comp-4",
+          "korean": "정말요? 아직 멀었어요.",
+          "english": "Really? I'm still learning.",
+          "pronunciation": "/ˈrɪəli aɪm stɪl ˈlɜːrnɪŋ/",
+          "skills": ["grammar.tense", "vocab.emotions"],
+          "context": "Humble response to compliment",
+          "tips": "겸손하게 응답하는 표현"
+        },
+        {
+          "id": "exp-comp-5",
+          "korean": "오늘 멋져 보여요!",
+          "english": "You look great today!",
+          "pronunciation": "/juː lʊk ɡreɪt təˈdeɪ/",
+          "skills": ["vocab.emotions"],
+          "context": "Complimenting appearance"
+        },
+        {
+          "id": "exp-comp-6",
+          "korean": "발표 정말 잘하셨어요.",
+          "english": "That was a great presentation.",
+          "pronunciation": "/ðæt wʌz ə ɡreɪt ˌprezn̩ˈteɪʃn̩/",
+          "skills": ["vocab.business", "vocab.emotions"],
+          "context": "Complimenting performance"
+        }
+      ]
+    },
+    {
+      "id": "social-apology-1",
+      "category": "social",
+      "name": "Apologizing",
+      "nameKo": "사과하기",
+      "description": "How to apologize properly",
+      "descriptionKo": "올바르게 사과하는 방법",
+      "level": "A2",
+      "difficulty": 1,
+      "icon": "frown",
+      "estimatedTime": 10,
+      "tags": ["social", "apology", "polite"],
+      "expressions": [
+        {
+          "id": "exp-sorry-1",
+          "korean": "죄송합니다.",
+          "english": "I'm sorry.",
+          "pronunciation": "/aɪm ˈsɑːri/",
+          "skills": ["vocab.emotions"],
+          "context": "Basic apology",
+          "tips": "가장 기본적인 사과 표현"
+        },
+        {
+          "id": "exp-sorry-2",
+          "korean": "정말 죄송합니다.",
+          "english": "I'm so sorry about that.",
+          "pronunciation": "/aɪm soʊ ˈsɑːri əˈbaʊt ðæt/",
+          "skills": ["vocab.emotions"],
+          "context": "Stronger apology"
+        },
+        {
+          "id": "exp-sorry-3",
+          "korean": "제 실수예요.",
+          "english": "It's my fault.",
+          "pronunciation": "/ɪts maɪ fɔːlt/",
+          "skills": ["vocab.emotions"],
+          "context": "Taking responsibility"
+        },
+        {
+          "id": "exp-sorry-4",
+          "korean": "괜찮아요, 걱정 마세요.",
+          "english": "That's okay, don't worry about it.",
+          "pronunciation": "/ðæts ˌoʊˈkeɪ doʊnt ˈwɜːri əˈbaʊt ɪt/",
+          "skills": ["vocab.emotions"],
+          "context": "Accepting an apology"
+        },
+        {
+          "id": "exp-sorry-5",
+          "korean": "늦어서 죄송합니다.",
+          "english": "I'm sorry for being late.",
+          "pronunciation": "/aɪm ˈsɑːri fɔːr ˈbiːɪŋ leɪt/",
+          "skills": ["vocab.emotions"],
+          "context": "Apologizing for lateness",
+          "commonMistakes": [
+            {
+              "wrong": "Sorry I am late.",
+              "correct": "I'm sorry for being late.",
+              "explanation": "'I'm sorry for + -ing' is more formal",
+              "explanationKo": "'I'm sorry for + -ing'가 더 격식 있는 표현이에요",
+              "percentage": 60
+            }
+          ]
+        },
+        {
+          "id": "exp-sorry-6",
+          "korean": "다음에는 이런 일 없을게요.",
+          "english": "It won't happen again.",
+          "pronunciation": "/ɪt woʊnt ˈhæpn̩ əˈɡen/",
+          "skills": ["grammar.tense", "vocab.emotions"],
+          "context": "Promising not to repeat mistake"
+        }
+      ]
+    }
+  ]
+}

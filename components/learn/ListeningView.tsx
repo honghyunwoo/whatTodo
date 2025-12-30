@@ -1,4 +1,3 @@
-import * as Speech from 'expo-speech';
 import React, { useCallback, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Button, Card, IconButton, Text } from 'react-native-paper';
@@ -6,6 +5,7 @@ import { Button, Card, IconButton, Text } from 'react-native-paper';
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { ListeningActivity } from '@/types/activity';
+import { speakListening, stop as stopTTS } from '@/utils/tts';
 
 import { Dictation, DictationQuestion, DictationResult } from './exercises/Dictation';
 import { QuizView } from './QuizView';
@@ -46,7 +46,7 @@ export function ListeningView({ activity, onComplete }: ListeningViewProps) {
     if (!audio?.text) return;
 
     if (isPlaying) {
-      Speech.stop();
+      await stopTTS();
       setIsPlaying(false);
       return;
     }
@@ -55,9 +55,7 @@ export function ListeningView({ activity, onComplete }: ListeningViewProps) {
     const rate = audio.speed || 1.0;
 
     try {
-      await Speech.speak(audio.text, {
-        language: 'en-US',
-        rate,
+      await speakListening(audio.text, rate, {
         onDone: () => setIsPlaying(false),
         onError: () => setIsPlaying(false),
       });
@@ -66,8 +64,8 @@ export function ListeningView({ activity, onComplete }: ListeningViewProps) {
     }
   }, [isPlaying, audio]);
 
-  const handleStartQuiz = useCallback(() => {
-    Speech.stop();
+  const handleStartQuiz = useCallback(async () => {
+    await stopTTS();
     setIsPlaying(false);
     setMode('quiz');
   }, []);
@@ -94,8 +92,8 @@ export function ListeningView({ activity, onComplete }: ListeningViewProps) {
     [onComplete]
   );
 
-  const handleStartDictation = useCallback(() => {
-    Speech.stop();
+  const handleStartDictation = useCallback(async () => {
+    await stopTTS();
     setIsPlaying(false);
     setMode('dictation');
   }, []);

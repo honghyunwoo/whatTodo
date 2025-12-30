@@ -281,6 +281,13 @@ export const useSrsStore = create<SrsState & SrsActions>()(
     {
       name: STORAGE_KEYS.SRS || 'srs-storage',
       storage: createJSONStorage(() => AsyncStorage),
+      onRehydrateStorage: () => (state, error) => {
+        if (error) {
+          console.error('[SrsStore] rehydration failed:', error);
+        } else if (__DEV__) {
+          console.log('[SrsStore] rehydrated');
+        }
+      },
     }
   )
 );

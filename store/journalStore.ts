@@ -325,15 +325,17 @@ export const useJournalStore = create<JournalState & JournalActions>()(
           });
         });
 
-        const favoriteActivityType =
-          Object.entries(activityCount).sort((a, b) => b[1] - a[1])[0]?.[0];
+        const favoriteActivityType = Object.entries(activityCount).sort(
+          (a, b) => b[1] - a[1]
+        )[0]?.[0];
 
         return {
           month,
           totalLearningTime: totalTime,
           learningDays: monthEntries.length,
           completedActivities: totalActivities,
-          averageDailyTime: monthEntries.length > 0 ? Math.round(totalTime / monthEntries.length) : 0,
+          averageDailyTime:
+            monthEntries.length > 0 ? Math.round(totalTime / monthEntries.length) : 0,
           totalStarsEarned: totalStars,
           mostProductiveDay,
           favoriteActivityType,
@@ -378,6 +380,13 @@ export const useJournalStore = create<JournalState & JournalActions>()(
     {
       name: STORAGE_KEYS.JOURNAL,
       storage: createJSONStorage(() => AsyncStorage),
+      onRehydrateStorage: () => (state, error) => {
+        if (error) {
+          console.error('[JournalStore] rehydration failed:', error);
+        } else if (__DEV__) {
+          console.log('[JournalStore] rehydrated');
+        }
+      },
     }
   )
 );

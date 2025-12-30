@@ -10,4 +10,9 @@ export const STORAGE_KEYS = {
   AUTO_BACKUP_SETTINGS: '@whatTodo:auto_backup_settings',
   LAST_BACKUP_TIME: '@whatTodo:last_backup_time',
   ONBOARDING_COMPLETED: '@whatTodo:onboarding_completed',
+  COMMUNITY: '@whatTodo:community',
+  AI: '@whatTodo:ai',
+  SCENARIOS: '@whatTodo:scenarios',
+  SKILLS: '@whatTodo:skills',
+  SESSIONS: '@whatTodo:sessions',
 } as const;

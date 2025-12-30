@@ -1,357 +1,326 @@
-import React, { useCallback, useMemo, useState } from 'react';
-import { StyleSheet, View, Pressable, ScrollView } from 'react-native';
+/**
+ * Home Screen - 시나리오 기반 학습 홈
+ *
+ * PRD 핵심:
+ * - 시나리오 카드 기반 (Week 구조 없음)
+ * - 30초/1분/5분 빠른 세션
+ * - 카테고리 필터
+ */
+
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
+import { StyleSheet, View, ScrollView, RefreshControl } from 'react-native';
 import { Text, IconButton } from 'react-native-paper';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 
-import { MonthView } from '@/components/calendar';
-import { TodaySummary } from '@/components/home/TodaySummary';
-import { QuickNoteInput } from '@/components/home/QuickNoteInput';
-import { COLORS } from '@/constants/colors';
-import { SIZES, SHADOWS } from '@/constants/sizes';
+import { QuickSession, CategoryFilter, ScenarioCard } from '@/components/scenario';
+import { SIZES } from '@/constants/sizes';
 import { useTheme } from '@/contexts/ThemeContext';
-import { useDiaryStore, MOOD_CONFIG, type MoodType } from '@/store/diaryStore';
+import { useScenarioStore } from '@/store/scenarioStore';
+import { useSessionStore } from '@/store/sessionStore';
+import { useStreakStore } from '@/store/streakStore';
+import { useRewardStore } from '@/store/rewardStore';
+import { Scenario, ScenarioCategory, SessionType } from '@/types/scenario';
+import { getScenarioCountByCategory } from '@/data/scenarios';
 
-function getTodayString(): string {
-  const now = new Date();
-  const year = now.getFullYear();
-  const month = String(now.getMonth() + 1).padStart(2, '0');
-  const day = String(now.getDate()).padStart(2, '0');
-  return `${year}-${month}-${day}`;
-}
+// ─────────────────────────────────────
+// 메인 컴포넌트
+// ─────────────────────────────────────
 
-export default function DiaryCalendarScreen() {
+export default function HomeScreen() {
   const router = useRouter();
   const { colors, isDark } = useTheme();
-  const { getStats, streak, longestStreak } = useDiaryStore();
 
-  const today = useMemo(() => getTodayString(), []);
-  const [selectedDate, setSelectedDate] = useState(today);
+  // Store 구독
+  const {
+    scenarios,
+    isLoading,
+    loadScenarios,
+    progress,
+    selectedCategory,
+    setCategory,
+    getFilteredScenarios,
+    getRecommendedScenarios,
+  } = useScenarioStore();
 
-  const entries = useDiaryStore((state) => state.entries);
+  const { todaySessionCount } = useSessionStore();
+  const { currentStreak } = useStreakStore();
+  const { stars } = useRewardStore();
 
-  const markedDates = useMemo(() => entries.map((e) => e.date), [entries]);
-  const selectedEntry = useMemo(
-    () => entries.find((e) => e.date === selectedDate),
-    [entries, selectedDate]
-  );
-  const stats = useMemo(() => getStats(), [getStats, entries]);
+  // 새로고침 상태
+  const [refreshing, setRefreshing] = useState(false);
 
-  const handleSelectDate = useCallback((date: string) => {
-    setSelectedDate(date);
+  // 시나리오 로드
+  useEffect(() => {
+    if (scenarios.length === 0) {
+      loadScenarios();
+    }
+  }, [scenarios.length, loadScenarios]);
+
+  // 새로고침
+  const handleRefresh = useCallback(async () => {
+    setRefreshing(true);
+    await loadScenarios();
+    setRefreshing(false);
+  }, [loadScenarios]);
+
+  // 카테고리별 시나리오 개수
+  const categoryCounts = useMemo(() => {
+    return getScenarioCountByCategory();
   }, []);
 
-  const handleOpenDiary = useCallback(() => {
-    router.push(`/diary/${selectedDate}`);
-  }, [router, selectedDate]);
+  // 필터링된 시나리오
+  const filteredScenarios = useMemo(() => {
+    return getFilteredScenarios();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [getFilteredScenarios, selectedCategory, scenarios.length]);
 
+  // 추천 시나리오
+  const recommendedScenarios = useMemo(() => {
+    return getRecommendedScenarios().slice(0, 3);
+  }, [getRecommendedScenarios]);
+
+  // 세션 시작
+  const handleStartSession = useCallback(
+    (type: SessionType) => {
+      // 추천 시나리오 중 첫 번째 선택 또는 랜덤
+      const targetScenario = recommendedScenarios[0] || filteredScenarios[0];
+      if (targetScenario) {
+        router.push({
+          pathname: '/session/[type]',
+          params: { type, scenarioId: targetScenario.id },
+        });
+      } else {
+        // 시나리오가 없으면 학습 탭으로
+        router.push('/learn');
+      }
+    },
+    [router, recommendedScenarios, filteredScenarios]
+  );
+
+  // 시나리오 선택
+  const handleSelectScenario = useCallback(
+    (scenario: Scenario) => {
+      router.push({
+        pathname: '/scenario/[id]',
+        params: { id: scenario.id },
+      });
+    },
+    [router]
+  );
+
+  // 카테고리 선택
+  const handleSelectCategory = useCallback(
+    (category: ScenarioCategory | null) => {
+      setCategory(category);
+    },
+    [setCategory]
+  );
+
+  // 설정 열기
   const handleOpenSettings = useCallback(() => {
     router.push('/settings');
   }, [router]);
-
-  const formatSelectedDate = useCallback((dateStr: string): string => {
-    const date = new Date(dateStr);
-    return date.toLocaleDateString('ko-KR', {
-      month: 'long',
-      day: 'numeric',
-      weekday: 'short',
-    });
-  }, []);
-
-  const topMood = useMemo(() => {
-    const moods = Object.entries(stats.moodDistribution) as [MoodType, number][];
-    const sorted = moods.sort((a, b) => b[1] - a[1]);
-    if (sorted[0] && sorted[0][1] > 0) {
-      return MOOD_CONFIG[sorted[0][0]];
-    }
-    return null;
-  }, [stats.moodDistribution]);
 
   return (
     <SafeAreaView
       style={[styles.container, { backgroundColor: colors.background }]}
       edges={['top']}
     >
+      {/* 헤더 */}
       <View style={[styles.header, { borderBottomColor: isDark ? '#2C2C2E' : '#E5E5E7' }]}>
-        <Text style={[styles.headerTitle, { color: colors.text }]}>다이어리</Text>
-        <IconButton
-          icon={() => <Ionicons name="settings-outline" size={24} color={colors.text} />}
-          onPress={handleOpenSettings}
-        />
+        <View>
+          <Text style={[styles.headerTitle, { color: colors.text }]}>영어 학습</Text>
+          <Text style={[styles.headerSubtitle, { color: colors.textSecondary }]}>
+            오늘도 조금씩 성장해요
+          </Text>
+        </View>
+        <View style={styles.headerRight}>
+          <View style={styles.starBadge}>
+            <Text style={styles.starEmoji}>⭐</Text>
+            <Text style={[styles.starCount, { color: colors.text }]}>{stars}</Text>
+          </View>
+          <IconButton
+            icon={() => <Ionicons name="settings-outline" size={24} color={colors.text} />}
+            onPress={handleOpenSettings}
+          />
+        </View>
       </View>
 
-      <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
-        {/* Day 중심 섹션 - Phase 3 */}
-        <TodaySummary />
-        <QuickNoteInput />
-
-        {/* 구분선 */}
-        <View style={[styles.divider, { backgroundColor: isDark ? '#2C2C2E' : '#E5E5E7' }]} />
-
-        {/* 다이어리 섹션 (기존 기능) */}
-        <Text style={[styles.sectionTitle, { color: colors.text }]}>📔 나의 다이어리</Text>
-
-        <View style={styles.statsRow}>
-          <View style={[styles.statCard, { backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF' }]}>
-            <Text style={styles.statEmoji}>🔥</Text>
-            <Text style={[styles.statValue, { color: colors.text }]}>{streak}</Text>
-            <Text style={[styles.statLabel, { color: colors.textSecondary }]}>연속 작성</Text>
-          </View>
-          <View style={[styles.statCard, { backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF' }]}>
-            <Text style={styles.statEmoji}>📝</Text>
-            <Text style={[styles.statValue, { color: colors.text }]}>{stats.totalEntries}</Text>
-            <Text style={[styles.statLabel, { color: colors.textSecondary }]}>총 기록</Text>
-          </View>
-          <View style={[styles.statCard, { backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF' }]}>
-            <Text style={styles.statEmoji}>📅</Text>
-            <Text style={[styles.statValue, { color: colors.text }]}>{stats.thisMonthEntries}</Text>
-            <Text style={[styles.statLabel, { color: colors.textSecondary }]}>이번 달</Text>
-          </View>
-          <View style={[styles.statCard, { backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF' }]}>
-            <Text style={styles.statEmoji}>{topMood?.emoji || '😐'}</Text>
-            <Text style={[styles.statValue, { color: colors.text }]}>{topMood?.label || '-'}</Text>
-            <Text style={[styles.statLabel, { color: colors.textSecondary }]}>주 기분</Text>
-          </View>
-        </View>
-
-        <MonthView
-          selectedDate={selectedDate}
-          markedDates={markedDates}
-          onSelectDate={handleSelectDate}
+      <ScrollView
+        style={styles.scrollView}
+        showsVerticalScrollIndicator={false}
+        refreshControl={<RefreshControl refreshing={refreshing} onRefresh={handleRefresh} />}
+      >
+        {/* 빠른 세션 시작 */}
+        <QuickSession
+          onSelectSession={handleStartSession}
+          todaySessionCount={todaySessionCount}
+          currentStreak={currentStreak}
         />
 
-        <View style={styles.previewContainer}>
-          <Text style={[styles.selectedDateText, { color: colors.textSecondary }]}>
-            {formatSelectedDate(selectedDate)}
-          </Text>
+        {/* 카테고리 필터 */}
+        <CategoryFilter
+          selectedCategory={selectedCategory}
+          onSelectCategory={handleSelectCategory}
+          counts={categoryCounts}
+        />
 
-          <Pressable
-            style={[
-              styles.previewCard,
-              { backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF' },
-              !isDark && SHADOWS.md,
-            ]}
-            onPress={handleOpenDiary}
-          >
-            {selectedEntry ? (
-              <View style={styles.entryContent}>
-                <View style={styles.entryHeader}>
-                  {selectedEntry.mood && (
-                    <Text style={styles.moodEmoji}>{MOOD_CONFIG[selectedEntry.mood]?.emoji}</Text>
-                  )}
-                  <Text style={[styles.entryTitle, { color: colors.text }]} numberOfLines={1}>
-                    {selectedEntry.title}
-                  </Text>
-                </View>
-                <Text
-                  style={[styles.entryPreview, { color: colors.textSecondary }]}
-                  numberOfLines={2}
-                >
-                  {selectedEntry.content || '내용 없음'}
-                </Text>
-                {selectedEntry.tags && selectedEntry.tags.length > 0 && (
-                  <View style={styles.tagsRow}>
-                    {selectedEntry.tags.slice(0, 3).map((tag) => (
-                      <View key={tag} style={styles.tagBadge}>
-                        <Text style={styles.tagText}>#{tag}</Text>
-                      </View>
-                    ))}
-                  </View>
-                )}
-                <View style={styles.editHint}>
-                  <Text style={[styles.editHintText, { color: COLORS.primary }]}>
-                    탭하여 수정하기
-                  </Text>
-                  <Ionicons name="chevron-forward" size={16} color={COLORS.primary} />
-                </View>
-              </View>
-            ) : (
-              <View style={styles.emptyContent}>
-                <Ionicons name="create-outline" size={48} color={colors.textSecondary} />
-                <Text style={[styles.emptyText, { color: colors.textSecondary }]}>
-                  오늘의 이야기를 기록해보세요
-                </Text>
-                <View style={styles.writeButton}>
-                  <Text style={[styles.writeButtonText, { color: COLORS.primary }]}>작성하기</Text>
-                  <Ionicons name="add-circle" size={20} color={COLORS.primary} />
-                </View>
-              </View>
-            )}
-          </Pressable>
-        </View>
-
-        {longestStreak > 0 && (
-          <View
-            style={[styles.achievementCard, { backgroundColor: isDark ? '#1C1C1E' : '#FFF8E1' }]}
-          >
-            <Text style={styles.achievementEmoji}>🏆</Text>
-            <View style={styles.achievementInfo}>
-              <Text style={[styles.achievementTitle, { color: colors.text }]}>최장 연속 기록</Text>
-              <Text style={[styles.achievementValue, { color: '#F59E0B' }]}>{longestStreak}일</Text>
+        {/* 추천 시나리오 섹션 */}
+        {recommendedScenarios.length > 0 && !selectedCategory && (
+          <View style={styles.section}>
+            <View style={styles.sectionHeader}>
+              <Text style={[styles.sectionTitle, { color: colors.text }]}>📌 추천 시나리오</Text>
+              <Text style={[styles.sectionSubtitle, { color: colors.textSecondary }]}>
+                진행 중인 학습을 이어가세요
+              </Text>
             </View>
+            {recommendedScenarios.map((scenario) => (
+              <ScenarioCard
+                key={scenario.id}
+                scenario={scenario}
+                progress={progress[scenario.id]}
+                onPress={handleSelectScenario}
+                compact
+              />
+            ))}
           </View>
         )}
+
+        {/* 시나리오 목록 */}
+        <View style={styles.section}>
+          <View style={styles.sectionHeader}>
+            <Text style={[styles.sectionTitle, { color: colors.text }]}>
+              {selectedCategory
+                ? `📚 ${
+                    selectedCategory === 'travel'
+                      ? '여행'
+                      : selectedCategory === 'business'
+                        ? '비즈니스'
+                        : selectedCategory === 'daily'
+                          ? '일상'
+                          : selectedCategory === 'social'
+                            ? '소셜'
+                            : '긴급상황'
+                  } 시나리오`
+                : '📚 모든 시나리오'}
+            </Text>
+            <Text style={[styles.sectionSubtitle, { color: colors.textSecondary }]}>
+              {filteredScenarios.length}개 시나리오
+            </Text>
+          </View>
+
+          {isLoading ? (
+            <View style={styles.loadingContainer}>
+              <Text style={[styles.loadingText, { color: colors.textSecondary }]}>
+                시나리오 불러오는 중...
+              </Text>
+            </View>
+          ) : filteredScenarios.length === 0 ? (
+            <View style={styles.emptyContainer}>
+              <Ionicons name="book-outline" size={48} color={colors.textSecondary} />
+              <Text style={[styles.emptyText, { color: colors.textSecondary }]}>
+                아직 시나리오가 없어요
+              </Text>
+            </View>
+          ) : (
+            filteredScenarios.map((scenario) => (
+              <ScenarioCard
+                key={scenario.id}
+                scenario={scenario}
+                progress={progress[scenario.id]}
+                onPress={handleSelectScenario}
+              />
+            ))
+          )}
+        </View>
+
+        {/* 하단 여백 */}
+        <View style={styles.bottomSpacer} />
       </ScrollView>
     </SafeAreaView>
   );
 }
 
+// ─────────────────────────────────────
+// 스타일
+// ─────────────────────────────────────
+
 const styles = StyleSheet.create({
-  divider: {
-    height: 1,
-    marginHorizontal: SIZES.spacing.md,
-    marginVertical: SIZES.spacing.lg,
-  },
-  sectionTitle: {
-    fontSize: SIZES.fontSize.lg,
-    fontWeight: '700',
-    marginBottom: SIZES.spacing.sm,
-    marginHorizontal: SIZES.spacing.lg,
-  },
-  achievementCard: {
-    alignItems: 'center',
-    borderRadius: SIZES.borderRadius.lg,
-    flexDirection: 'row',
-    marginHorizontal: SIZES.spacing.md,
-    marginBottom: SIZES.spacing.xl,
-    padding: SIZES.spacing.md,
-  },
-  achievementEmoji: {
-    fontSize: 32,
-    marginRight: SIZES.spacing.md,
-  },
-  achievementInfo: {
-    flex: 1,
-  },
-  achievementTitle: {
-    fontSize: SIZES.fontSize.sm,
-  },
-  achievementValue: {
-    fontSize: SIZES.fontSize.xl,
-    fontWeight: '700',
-  },
   container: {
     flex: 1,
   },
-  editHint: {
-    alignItems: 'center',
-    flexDirection: 'row',
-    justifyContent: 'flex-end',
-    marginTop: SIZES.spacing.sm,
-  },
-  editHintText: {
-    fontSize: SIZES.fontSize.sm,
-    fontWeight: '500',
-  },
-  emptyContent: {
-    alignItems: 'center',
-    paddingVertical: SIZES.spacing.lg,
-  },
-  emptyText: {
-    fontSize: SIZES.fontSize.md,
-    marginTop: SIZES.spacing.md,
-    textAlign: 'center',
-  },
-  entryContent: {
-    flex: 1,
-  },
-  entryHeader: {
-    alignItems: 'center',
-    flexDirection: 'row',
-    gap: SIZES.spacing.sm,
-    marginBottom: SIZES.spacing.sm,
-  },
-  entryPreview: {
-    fontSize: SIZES.fontSize.md,
-    lineHeight: 22,
-  },
-  entryTitle: {
-    flex: 1,
-    fontSize: SIZES.fontSize.lg,
-    fontWeight: '600',
-  },
   header: {
-    alignItems: 'center',
-    borderBottomWidth: 1,
     flexDirection: 'row',
     justifyContent: 'space-between',
+    alignItems: 'center',
     paddingHorizontal: SIZES.spacing.md,
-    paddingVertical: SIZES.spacing.xs,
+    paddingVertical: SIZES.spacing.sm,
+    borderBottomWidth: 1,
   },
   headerTitle: {
     fontSize: SIZES.fontSize.xl,
     fontWeight: '700',
   },
-  moodEmoji: {
-    fontSize: 24,
+  headerSubtitle: {
+    fontSize: SIZES.fontSize.sm,
+    marginTop: 2,
   },
-  previewCard: {
-    borderRadius: SIZES.borderRadius.lg,
-    marginHorizontal: SIZES.spacing.md,
-    minHeight: 120,
-    padding: SIZES.spacing.lg,
+  headerRight: {
+    flexDirection: 'row',
+    alignItems: 'center',
   },
-  previewContainer: {
-    paddingTop: SIZES.spacing.lg,
+  starBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#FFF8E1',
+    paddingHorizontal: SIZES.spacing.sm,
+    paddingVertical: SIZES.spacing.xs,
+    borderRadius: SIZES.borderRadius.full,
+    gap: 4,
+  },
+  starEmoji: {
+    fontSize: 14,
+  },
+  starCount: {
+    fontSize: SIZES.fontSize.sm,
+    fontWeight: '700',
   },
   scrollView: {
     flex: 1,
   },
-  selectedDateText: {
-    fontSize: SIZES.fontSize.md,
-    fontWeight: '500',
-    marginBottom: SIZES.spacing.sm,
-    marginLeft: SIZES.spacing.lg,
-  },
-  statCard: {
-    alignItems: 'center',
-    borderRadius: SIZES.borderRadius.md,
-    flex: 1,
-    marginHorizontal: 4,
-    paddingVertical: SIZES.spacing.sm,
-  },
-  statEmoji: {
-    fontSize: 20,
-    marginBottom: 4,
-  },
-  statLabel: {
-    fontSize: 10,
-    marginTop: 2,
-  },
-  statValue: {
-    fontSize: SIZES.fontSize.md,
-    fontWeight: '700',
-  },
-  statsRow: {
-    flexDirection: 'row',
-    paddingHorizontal: SIZES.spacing.md,
-    paddingVertical: SIZES.spacing.md,
-  },
-  tagBadge: {
-    backgroundColor: COLORS.primary + '20',
-    borderRadius: SIZES.borderRadius.sm,
-    paddingHorizontal: SIZES.spacing.sm,
-    paddingVertical: 2,
-  },
-  tagText: {
-    color: COLORS.primary,
-    fontSize: SIZES.fontSize.xs,
-  },
-  tagsRow: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    gap: SIZES.spacing.xs,
-    marginTop: SIZES.spacing.sm,
-  },
-  writeButton: {
-    alignItems: 'center',
-    flexDirection: 'row',
-    gap: SIZES.spacing.xs,
+  section: {
+    marginHorizontal: SIZES.spacing.md,
     marginTop: SIZES.spacing.md,
   },
-  writeButtonText: {
+  sectionHeader: {
+    marginBottom: SIZES.spacing.md,
+  },
+  sectionTitle: {
+    fontSize: SIZES.fontSize.lg,
+    fontWeight: '700',
+  },
+  sectionSubtitle: {
+    fontSize: SIZES.fontSize.sm,
+    marginTop: 2,
+  },
+  loadingContainer: {
+    alignItems: 'center',
+    paddingVertical: SIZES.spacing.xl,
+  },
+  loadingText: {
     fontSize: SIZES.fontSize.md,
-    fontWeight: '600',
+  },
+  emptyContainer: {
+    alignItems: 'center',
+    paddingVertical: SIZES.spacing.xl * 2,
+    gap: SIZES.spacing.md,
+  },
+  emptyText: {
+    fontSize: SIZES.fontSize.md,
+  },
+  bottomSpacer: {
+    height: SIZES.spacing.xl * 2,
   },
 });

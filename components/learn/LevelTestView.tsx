@@ -41,17 +41,24 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
   const [showFeedback, setShowFeedback] = useState(false);
   const [result, setResult] = useState<LevelTestResult | null>(null);
   const [startTime, setStartTime] = useState<number>(0);
+  const [showNextButton, setShowNextButton] = useState(false);
+  const [autoAdvanceCountdown, setAutoAdvanceCountdown] = useState<number | null>(null);
 
   // Animation values
   const fadeAnim = useRef(new Animated.Value(1)).current;
   const scaleAnim = useRef(new Animated.Value(1)).current;
   const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const countdownRef = useRef<NodeJS.Timeout | null>(null);
+  const handleNextQuestionRef = useRef<((answerIndex: number) => void) | null>(null);
 
-  // Cleanup timer on unmount
+  // Cleanup timers on unmount
   useEffect(() => {
     return () => {
       if (timerRef.current) {
         clearTimeout(timerRef.current);
+      }
+      if (countdownRef.current) {
+        clearTimeout(countdownRef.current);
       }
     };
   }, []);
@@ -77,10 +84,13 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
 
   const handleSelectAnswer = useCallback(
     (index: number) => {
-      if (showFeedback || selectedAnswer !== null) return;
+      if (showFeedback || selectedAnswer !== null || !currentQuestion) return;
+
+      const isCorrectAnswer = index === currentQuestion.correctAnswer;
 
       setSelectedAnswer(index);
       setShowFeedback(true);
+      setShowNextButton(true);
 
       // Animate feedback
       Animated.sequence([
@@ -96,17 +106,49 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
         }),
       ]).start();
 
-      // Auto-advance after delay
-      timerRef.current = setTimeout(() => {
-        handleNextQuestion(index);
-      }, 1000);
+      // 하이브리드 네비게이션:
+      // 정답 → 1.5초 카운트다운 + 자동 진행 (건너뛰기 가능)
+      // 오답 → 수동 "다음" 버튼만 (설명 읽을 시간 제공)
+      if (isCorrectAnswer) {
+        // 카운트다운 시작
+        setAutoAdvanceCountdown(1.5);
+
+        // 0.5초마다 카운트다운 업데이트
+        let remaining = 1.5;
+        countdownRef.current = setInterval(() => {
+          remaining -= 0.5;
+          if (remaining > 0) {
+            setAutoAdvanceCountdown(remaining);
+          } else {
+            if (countdownRef.current) clearInterval(countdownRef.current);
+            setAutoAdvanceCountdown(null);
+          }
+        }, 500) as unknown as NodeJS.Timeout;
+
+        // 1.5초 후 자동 진행
+        timerRef.current = setTimeout(() => {
+          if (countdownRef.current) clearInterval(countdownRef.current);
+          handleNextQuestionRef.current?.(index);
+        }, 1500);
+      }
+      // 오답일 경우: 자동 진행 없음, 버튼만 표시
     },
-    [showFeedback, selectedAnswer, scaleAnim]
+    [showFeedback, selectedAnswer, currentQuestion, scaleAnim]
   );
 
   const handleNextQuestion = useCallback(
     (answerIndex: number) => {
       if (!test || !currentQuestion) return;
+
+      // 타이머 정리
+      if (timerRef.current) {
+        clearTimeout(timerRef.current);
+        timerRef.current = null;
+      }
+      if (countdownRef.current) {
+        clearInterval(countdownRef.current);
+        countdownRef.current = null;
+      }
 
       const timeSpent = Math.round((Date.now() - startTime) / 1000);
       const { shouldContinue } = test.submitAnswer(currentQuestion, answerIndex, timeSpent);
@@ -122,6 +164,8 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
           setCurrentQuestion(nextQuestion);
           setSelectedAnswer(null);
           setShowFeedback(false);
+          setShowNextButton(false);
+          setAutoAdvanceCountdown(null);
           setStartTime(Date.now());
 
           Animated.timing(fadeAnim, {
@@ -145,6 +189,18 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
     },
     [test, currentQuestion, startTime, fadeAnim, setCurrentLevel, onComplete]
   );
+
+  // Ref 업데이트 (순환 의존성 방지)
+  useEffect(() => {
+    handleNextQuestionRef.current = handleNextQuestion;
+  }, [handleNextQuestion]);
+
+  // 수동 "다음" 버튼 핸들러
+  const handleManualNext = useCallback(() => {
+    if (selectedAnswer !== null) {
+      handleNextQuestion(selectedAnswer);
+    }
+  }, [selectedAnswer, handleNextQuestion]);
 
   // ─────────────────────────────────────
   // Progress Info
@@ -447,6 +503,28 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
             <Text style={styles.feedbackText}>{currentQuestion.explanation}</Text>
           </View>
         )}
+
+        {/* 다음 버튼 (하이브리드 네비게이션) */}
+        {showNextButton && (
+          <View style={styles.nextButtonContainer}>
+            <Button
+              mode="contained"
+              onPress={handleManualNext}
+              style={styles.nextButton}
+              contentStyle={styles.nextButtonContent}
+              icon={isCorrect ? 'arrow-right' : undefined}
+            >
+              {isCorrect
+                ? autoAdvanceCountdown
+                  ? `건너뛰기 (${autoAdvanceCountdown.toFixed(1)}s)`
+                  : '다음 문제'
+                : '다음 문제'}
+            </Button>
+            {!isCorrect && (
+              <Text style={styles.nextButtonHint}>설명을 확인한 후 다음으로 넘어가세요</Text>
+            )}
+          </View>
+        )}
       </Animated.View>
     </View>
   );
@@ -718,6 +796,24 @@ const styles = StyleSheet.create({
     flex: 1,
     fontSize: SIZES.fontSize.md,
     color: COLORS.text,
+  },
+
+  // Next Button
+  nextButtonContainer: {
+    marginTop: SIZES.spacing.xl,
+    alignItems: 'center',
+  },
+  nextButton: {
+    minWidth: 200,
+  },
+  nextButtonContent: {
+    paddingVertical: SIZES.spacing.xs,
+  },
+  nextButtonHint: {
+    marginTop: SIZES.spacing.sm,
+    fontSize: SIZES.fontSize.sm,
+    color: COLORS.textSecondary,
+    textAlign: 'center',
   },
 
   // Result

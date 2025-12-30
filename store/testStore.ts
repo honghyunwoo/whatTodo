@@ -561,6 +561,13 @@ export const useTestStore = create<TestState & TestActions>()(
     {
       name: TEST_STORAGE_KEY,
       storage: createJSONStorage(() => AsyncStorage),
+      onRehydrateStorage: () => (state, error) => {
+        if (error) {
+          console.error('[TestStore] rehydration failed:', error);
+        } else if (__DEV__) {
+          console.log('[TestStore] rehydrated');
+        }
+      },
     }
   )
 );

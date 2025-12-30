@@ -157,12 +157,14 @@ const moveTiles = (
       }
     }
 
-    // 이동 방향에 따라 순서 복원
-    if (isReverse) merged.reverse();
-
-    // 새 위치 계산
+    // 새 위치 계산 (reverse 없이 직접 인덱싱)
+    // merged 배열은 이동 방향의 "시작점" 순서로 정렬됨
+    // isReverse일 때: 끝에서부터 배치, 아닐 때: 처음부터 배치
     for (let j = 0; j < merged.length; j++) {
-      const tile = merged[isReverse ? merged.length - 1 - j : j];
+      const tile = merged[j];
+      if (!tile) continue; // 안전 체크
+
+      // 위치 계산: isReverse면 끝에서부터, 아니면 처음부터
       const newPos = isReverse ? gridSize - 1 - j : j;
 
       const newRow = isHorizontal ? i : newPos;
@@ -450,6 +452,13 @@ export const useGameStore = create<GameState & GameActions>()(
     {
       name: STORAGE_KEYS.SETTINGS + '/game',
       storage: createJSONStorage(() => AsyncStorage),
+      onRehydrateStorage: () => (state, error) => {
+        if (error) {
+          console.error('[GameStore] rehydration failed:', error);
+        } else if (__DEV__) {
+          console.log('[GameStore] rehydrated');
+        }
+      },
       // 게임 상태 전체 저장 (앱 종료해도 유지)
       partialize: (state) => ({
         tiles: state.tiles,

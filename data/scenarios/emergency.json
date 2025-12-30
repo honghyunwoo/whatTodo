@@ -1,0 +1,222 @@
+{
+  "category": "emergency",
+  "scenarios": [
+    {
+      "id": "emergency-health-1",
+      "category": "emergency",
+      "name": "Medical Emergency",
+      "nameKo": "의료 응급상황",
+      "description": "Essential phrases for medical emergencies",
+      "descriptionKo": "의료 응급상황에서 필요한 표현",
+      "level": "A2",
+      "difficulty": 2,
+      "icon": "alert-circle",
+      "estimatedTime": 15,
+      "tags": ["emergency", "health", "medical"],
+      "expressions": [
+        {
+          "id": "exp-med-1",
+          "korean": "도와주세요! 응급 상황이에요!",
+          "english": "Help! It's an emergency!",
+          "pronunciation": "/help ɪts ən ɪˈmɜːrdʒənsi/",
+          "skills": ["vocab.health"],
+          "context": "When you need immediate help",
+          "tips": "가장 중요한 응급 표현!"
+        },
+        {
+          "id": "exp-med-2",
+          "korean": "구급차를 불러주세요.",
+          "english": "Please call an ambulance.",
+          "pronunciation": "/pliːz kɔːl ən ˈæmbjələns/",
+          "skills": ["grammar.polite", "vocab.health"],
+          "context": "When someone needs medical transport"
+        },
+        {
+          "id": "exp-med-3",
+          "korean": "병원이 어디에 있나요?",
+          "english": "Where is the hospital?",
+          "pronunciation": "/wer ɪz ðə ˈhɑːspɪtl̩/",
+          "skills": ["grammar.question", "vocab.health"],
+          "context": "When looking for a hospital"
+        },
+        {
+          "id": "exp-med-4",
+          "korean": "여기가 아파요.",
+          "english": "It hurts here.",
+          "pronunciation": "/ɪt hɜːrts hɪr/",
+          "skills": ["vocab.health"],
+          "context": "When pointing to pain location",
+          "tips": "아픈 부위를 가리키며 사용해요"
+        },
+        {
+          "id": "exp-med-5",
+          "korean": "저는 ~에 알레르기가 있어요.",
+          "english": "I'm allergic to...",
+          "pronunciation": "/aɪm əˈlɜːrdʒɪk tuː/",
+          "skills": ["vocab.health"],
+          "context": "When informing about allergies",
+          "commonMistakes": [
+            {
+              "wrong": "I have allergy to...",
+              "correct": "I'm allergic to...",
+              "explanation": "Use 'I'm allergic to' not 'I have allergy to'",
+              "explanationKo": "'알레르기가 있다'는 'I'm allergic to...'로 표현해요",
+              "percentage": 85
+            }
+          ]
+        },
+        {
+          "id": "exp-med-6",
+          "korean": "약국은 어디에 있나요?",
+          "english": "Where is the pharmacy?",
+          "pronunciation": "/wer ɪz ðə ˈfɑːrməsi/",
+          "skills": ["grammar.question", "vocab.health"],
+          "context": "When looking for medicine"
+        },
+        {
+          "id": "exp-med-7",
+          "korean": "이 약 처방전 없이 살 수 있나요?",
+          "english": "Can I buy this medicine without a prescription?",
+          "pronunciation": "/kæn aɪ baɪ ðɪs ˈmedɪsn̩ wɪˈðaʊt ə prɪˈskrɪpʃn̩/",
+          "skills": ["grammar.question", "vocab.health"],
+          "context": "When asking about over-the-counter medicine"
+        },
+        {
+          "id": "exp-med-8",
+          "korean": "보험이 있습니다.",
+          "english": "I have insurance.",
+          "pronunciation": "/aɪ hæv ɪnˈʃʊrəns/",
+          "skills": ["grammar.possession", "vocab.health"],
+          "context": "When providing insurance information"
+        }
+      ]
+    },
+    {
+      "id": "emergency-lost-1",
+      "category": "emergency",
+      "name": "Lost & Found",
+      "nameKo": "분실물",
+      "description": "When you lose something important",
+      "descriptionKo": "중요한 것을 잃어버렸을 때",
+      "level": "A2",
+      "difficulty": 2,
+      "icon": "help-circle",
+      "estimatedTime": 12,
+      "tags": ["emergency", "lost", "help"],
+      "expressions": [
+        {
+          "id": "exp-lost-1",
+          "korean": "제 지갑을 잃어버렸어요.",
+          "english": "I lost my wallet.",
+          "pronunciation": "/aɪ lɔːst maɪ ˈwɔːlɪt/",
+          "skills": ["grammar.tense", "vocab.shopping"],
+          "context": "When reporting lost item"
+        },
+        {
+          "id": "exp-lost-2",
+          "korean": "분실물 센터가 어디인가요?",
+          "english": "Where is the lost and found?",
+          "pronunciation": "/wer ɪz ðə lɔːst ænd faʊnd/",
+          "skills": ["grammar.question"],
+          "context": "When looking for lost and found office"
+        },
+        {
+          "id": "exp-lost-3",
+          "korean": "여권을 도난당했어요.",
+          "english": "My passport was stolen.",
+          "pronunciation": "/maɪ ˈpæspɔːrt wʌz ˈstoʊlən/",
+          "skills": ["grammar.passive", "vocab.airport"],
+          "context": "When reporting theft"
+        },
+        {
+          "id": "exp-lost-4",
+          "korean": "대사관은 어디에 있나요?",
+          "english": "Where is the embassy?",
+          "pronunciation": "/wer ɪz ðə ˈembəsi/",
+          "skills": ["grammar.question"],
+          "context": "When you need consular help"
+        },
+        {
+          "id": "exp-lost-5",
+          "korean": "경찰서가 어디인가요?",
+          "english": "Where is the police station?",
+          "pronunciation": "/wer ɪz ðə pəˈliːs ˈsteɪʃn̩/",
+          "skills": ["grammar.question"],
+          "context": "When you need to report to police"
+        },
+        {
+          "id": "exp-lost-6",
+          "korean": "카드를 정지해야 해요.",
+          "english": "I need to cancel my card.",
+          "pronunciation": "/aɪ niːd tuː ˈkænsl̩ maɪ kɑːrd/",
+          "skills": ["grammar.request", "vocab.shopping"],
+          "context": "When reporting lost/stolen card"
+        }
+      ]
+    },
+    {
+      "id": "emergency-help-1",
+      "category": "emergency",
+      "name": "Asking for Help",
+      "nameKo": "도움 요청",
+      "description": "General phrases for asking help",
+      "descriptionKo": "도움을 요청하는 일반 표현",
+      "level": "A1",
+      "difficulty": 1,
+      "icon": "life-buoy",
+      "estimatedTime": 10,
+      "tags": ["emergency", "help", "basic"],
+      "expressions": [
+        {
+          "id": "exp-help-1",
+          "korean": "도와주실 수 있나요?",
+          "english": "Can you help me, please?",
+          "pronunciation": "/kæn juː help miː pliːz/",
+          "skills": ["grammar.request"],
+          "context": "General help request"
+        },
+        {
+          "id": "exp-help-2",
+          "korean": "영어를 못해요.",
+          "english": "I don't speak English well.",
+          "pronunciation": "/aɪ doʊnt spiːk ˈɪŋɡlɪʃ wel/",
+          "skills": ["grammar.tense"],
+          "context": "When explaining language barrier"
+        },
+        {
+          "id": "exp-help-3",
+          "korean": "천천히 말씀해 주세요.",
+          "english": "Could you speak slowly, please?",
+          "pronunciation": "/kʊd juː spiːk ˈsloʊli pliːz/",
+          "skills": ["grammar.polite"],
+          "context": "When you need them to slow down",
+          "tips": "외국에서 매우 유용한 표현!"
+        },
+        {
+          "id": "exp-help-4",
+          "korean": "다시 말씀해 주실 수 있나요?",
+          "english": "Could you repeat that, please?",
+          "pronunciation": "/kʊd juː rɪˈpiːt ðæt pliːz/",
+          "skills": ["grammar.polite"],
+          "context": "When you didn't understand"
+        },
+        {
+          "id": "exp-help-5",
+          "korean": "이거 적어주실 수 있나요?",
+          "english": "Could you write it down, please?",
+          "pronunciation": "/kʊd juː raɪt ɪt daʊn pliːz/",
+          "skills": ["grammar.polite"],
+          "context": "When you need written information"
+        },
+        {
+          "id": "exp-help-6",
+          "korean": "한국어 할 줄 아세요?",
+          "english": "Do you speak Korean?",
+          "pronunciation": "/duː juː spiːk kəˈriːən/",
+          "skills": ["grammar.question"],
+          "context": "When hoping to find a Korean speaker"
+        }
+      ]
+    }
+  ]
+}

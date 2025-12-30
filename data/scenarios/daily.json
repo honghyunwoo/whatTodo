@@ -1,0 +1,281 @@
+{
+  "category": "daily",
+  "scenarios": [
+    {
+      "id": "daily-cafe-1",
+      "category": "daily",
+      "name": "At the Cafe",
+      "nameKo": "카페에서",
+      "description": "Ordering drinks and food at a cafe",
+      "descriptionKo": "카페에서 음료와 음식 주문하기",
+      "level": "A1",
+      "difficulty": 1,
+      "icon": "cafe",
+      "estimatedTime": 10,
+      "tags": ["cafe", "food", "daily", "beginner"],
+      "expressions": [
+        {
+          "id": "exp-cafe-1",
+          "korean": "아메리카노 한 잔 주세요.",
+          "english": "Can I have an Americano, please?",
+          "pronunciation": "/kæn aɪ hæv ən əˌmerɪˈkɑːnoʊ pliːz/",
+          "skills": ["grammar.request", "vocab.food"],
+          "context": "Ordering coffee at a cafe",
+          "tips": "'Can I have...?' = 주문할 때 가장 많이 쓰는 표현"
+        },
+        {
+          "id": "exp-cafe-2",
+          "korean": "여기서 먹을게요.",
+          "english": "For here, please.",
+          "pronunciation": "/fɔːr hɪr pliːz/",
+          "skills": ["vocab.restaurant"],
+          "context": "When asked if your order is for here or to go"
+        },
+        {
+          "id": "exp-cafe-3",
+          "korean": "포장해 주세요.",
+          "english": "To go, please.",
+          "pronunciation": "/tuː ɡoʊ pliːz/",
+          "skills": ["vocab.restaurant"],
+          "context": "When you want to take your order with you",
+          "tips": "영국에서는 'Take away'라고 해요"
+        },
+        {
+          "id": "exp-cafe-4",
+          "korean": "아이스로 주세요.",
+          "english": "Iced, please.",
+          "pronunciation": "/aɪst pliːz/",
+          "skills": ["vocab.food"],
+          "context": "When you want a cold drink"
+        },
+        {
+          "id": "exp-cafe-5",
+          "korean": "설탕은 빼주세요.",
+          "english": "No sugar, please.",
+          "pronunciation": "/noʊ ˈʃʊɡər pliːz/",
+          "skills": ["vocab.food"],
+          "context": "When customizing your order",
+          "commonMistakes": [
+            {
+              "wrong": "Don't put sugar.",
+              "correct": "No sugar, please.",
+              "explanation": "'No + 명사' is more natural for customizing orders",
+              "explanationKo": "주문할 때는 'No + 명사'가 더 자연스러워요",
+              "percentage": 68
+            }
+          ]
+        },
+        {
+          "id": "exp-cafe-6",
+          "korean": "영수증 필요 없어요.",
+          "english": "I don't need a receipt.",
+          "pronunciation": "/aɪ doʊnt niːd ə rɪˈsiːt/",
+          "skills": ["grammar.tense", "vocab.shopping"],
+          "context": "When declining a receipt"
+        }
+      ]
+    },
+    {
+      "id": "daily-shopping-1",
+      "category": "daily",
+      "name": "Shopping Basics",
+      "nameKo": "쇼핑 기본",
+      "description": "Basic phrases for shopping",
+      "descriptionKo": "쇼핑할 때 필요한 기본 표현",
+      "level": "A1",
+      "difficulty": 1,
+      "icon": "shopping-bag",
+      "estimatedTime": 12,
+      "tags": ["shopping", "daily", "beginner"],
+      "expressions": [
+        {
+          "id": "exp-shop-1",
+          "korean": "이거 얼마예요?",
+          "english": "How much is this?",
+          "pronunciation": "/haʊ mʌtʃ ɪz ðɪs/",
+          "skills": ["grammar.question", "vocab.shopping"],
+          "context": "When asking the price of an item",
+          "tips": "가장 기본적인 쇼핑 표현!"
+        },
+        {
+          "id": "exp-shop-2",
+          "korean": "구경만 할게요.",
+          "english": "I'm just looking, thanks.",
+          "pronunciation": "/aɪm dʒʌst ˈlʊkɪŋ θæŋks/",
+          "skills": ["grammar.tense", "vocab.shopping"],
+          "context": "When a shop assistant asks if you need help",
+          "commonMistakes": [
+            {
+              "wrong": "I just see.",
+              "correct": "I'm just looking.",
+              "explanation": "'Looking' is the correct word for browsing in a store",
+              "explanationKo": "가게에서 구경할 때는 'see'가 아니라 'look'을 써요",
+              "percentage": 82
+            }
+          ]
+        },
+        {
+          "id": "exp-shop-3",
+          "korean": "다른 색상 있나요?",
+          "english": "Do you have this in another color?",
+          "pronunciation": "/duː juː hæv ðɪs ɪn əˈnʌðər ˈkʌlər/",
+          "skills": ["grammar.question", "vocab.shopping"],
+          "context": "When you want to see different colors"
+        },
+        {
+          "id": "exp-shop-4",
+          "korean": "입어봐도 될까요?",
+          "english": "Can I try this on?",
+          "pronunciation": "/kæn aɪ traɪ ðɪs ɑːn/",
+          "skills": ["grammar.permission", "vocab.shopping"],
+          "context": "When you want to try clothes"
+        },
+        {
+          "id": "exp-shop-5",
+          "korean": "더 큰 사이즈 있나요?",
+          "english": "Do you have a bigger size?",
+          "pronunciation": "/duː juː hæv ə ˈbɪɡər saɪz/",
+          "skills": ["grammar.question", "vocab.shopping"],
+          "context": "When you need a different size"
+        },
+        {
+          "id": "exp-shop-6",
+          "korean": "카드로 할게요.",
+          "english": "I'll pay by card.",
+          "pronunciation": "/aɪl peɪ baɪ kɑːrd/",
+          "skills": ["grammar.request", "vocab.shopping"],
+          "context": "When paying for your purchase"
+        }
+      ]
+    },
+    {
+      "id": "daily-greetings-1",
+      "category": "daily",
+      "name": "Daily Greetings",
+      "nameKo": "일상 인사",
+      "description": "Common greetings and small talk",
+      "descriptionKo": "일상에서 쓰는 인사와 대화",
+      "level": "A1",
+      "difficulty": 1,
+      "icon": "hand-wave",
+      "estimatedTime": 8,
+      "tags": ["greetings", "daily", "social", "beginner"],
+      "expressions": [
+        {
+          "id": "exp-greet-1",
+          "korean": "안녕하세요, 어떻게 지내세요?",
+          "english": "Hi, how are you?",
+          "pronunciation": "/haɪ haʊ ɑːr juː/",
+          "skills": ["grammar.question", "vocab.emotions"],
+          "context": "Standard greeting"
+        },
+        {
+          "id": "exp-greet-2",
+          "korean": "잘 지내요, 감사합니다. 당신은요?",
+          "english": "I'm good, thanks. And you?",
+          "pronunciation": "/aɪm ɡʊd θæŋks ænd juː/",
+          "skills": ["grammar.tense", "vocab.emotions"],
+          "context": "Response to 'How are you?'"
+        },
+        {
+          "id": "exp-greet-3",
+          "korean": "오랜만이에요!",
+          "english": "Long time no see!",
+          "pronunciation": "/lɔːŋ taɪm noʊ siː/",
+          "skills": ["vocab.emotions"],
+          "context": "When meeting someone after a long time",
+          "tips": "친근한 표현이에요!"
+        },
+        {
+          "id": "exp-greet-4",
+          "korean": "좋은 하루 보내세요.",
+          "english": "Have a nice day!",
+          "pronunciation": "/hæv ə naɪs deɪ/",
+          "skills": ["vocab.emotions"],
+          "context": "When saying goodbye"
+        },
+        {
+          "id": "exp-greet-5",
+          "korean": "만나서 반가워요.",
+          "english": "Nice to meet you.",
+          "pronunciation": "/naɪs tuː miːt juː/",
+          "skills": ["vocab.emotions"],
+          "context": "When meeting someone for the first time"
+        },
+        {
+          "id": "exp-greet-6",
+          "korean": "다음에 또 봐요!",
+          "english": "See you later!",
+          "pronunciation": "/siː juː ˈleɪtər/",
+          "skills": ["vocab.emotions"],
+          "context": "Casual goodbye"
+        }
+      ]
+    },
+    {
+      "id": "daily-weather-1",
+      "category": "daily",
+      "name": "Weather Talk",
+      "nameKo": "날씨 대화",
+      "description": "Talking about the weather",
+      "descriptionKo": "날씨에 대해 이야기하기",
+      "level": "A1",
+      "difficulty": 1,
+      "icon": "cloud-sun",
+      "estimatedTime": 8,
+      "tags": ["weather", "daily", "small-talk"],
+      "expressions": [
+        {
+          "id": "exp-weather-1",
+          "korean": "오늘 날씨가 좋네요!",
+          "english": "Nice weather today!",
+          "pronunciation": "/naɪs ˈweðər təˈdeɪ/",
+          "skills": ["vocab.emotions"],
+          "context": "Starting a conversation about weather",
+          "tips": "영어권에서 날씨는 대화의 시작점!"
+        },
+        {
+          "id": "exp-weather-2",
+          "korean": "오늘 덥네요.",
+          "english": "It's hot today.",
+          "pronunciation": "/ɪts hɑːt təˈdeɪ/",
+          "skills": ["grammar.tense"],
+          "context": "Commenting on hot weather"
+        },
+        {
+          "id": "exp-weather-3",
+          "korean": "비 올 것 같아요.",
+          "english": "It looks like it's going to rain.",
+          "pronunciation": "/ɪt lʊks laɪk ɪts ˈɡoʊɪŋ tuː reɪn/",
+          "skills": ["grammar.tense"],
+          "context": "Predicting rain",
+          "commonMistakes": [
+            {
+              "wrong": "Rain will come.",
+              "correct": "It looks like it's going to rain.",
+              "explanation": "Use 'It looks like...' for predictions based on observation",
+              "explanationKo": "보이는 것을 바탕으로 예측할 때 'It looks like...'를 써요",
+              "percentage": 75
+            }
+          ]
+        },
+        {
+          "id": "exp-weather-4",
+          "korean": "우산 가져오셨어요?",
+          "english": "Did you bring an umbrella?",
+          "pronunciation": "/dɪd juː brɪŋ ən ʌmˈbrelə/",
+          "skills": ["grammar.question", "grammar.tense"],
+          "context": "Asking about umbrella"
+        },
+        {
+          "id": "exp-weather-5",
+          "korean": "오늘 춥네요!",
+          "english": "It's cold today!",
+          "pronunciation": "/ɪts koʊld təˈdeɪ/",
+          "skills": ["grammar.tense"],
+          "context": "Commenting on cold weather"
+        }
+      ]
+    }
+  ]
+}

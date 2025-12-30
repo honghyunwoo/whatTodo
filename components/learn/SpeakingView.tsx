@@ -1,4 +1,3 @@
-import * as Speech from 'expo-speech';
 import React, { useCallback, useState } from 'react';
 import { ScrollView, StyleSheet, View } from 'react-native';
 import { Button, Card, Checkbox, IconButton, Text } from 'react-native-paper';
@@ -7,6 +6,7 @@ import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { SpeakingActivity, SpeakingSentence } from '@/types/activity';
 import { captureSilentError } from '@/utils/errorHandler';
+import { speakSentence, stop as stopTTS } from '@/utils/tts';
 
 import { Shadowing, ShadowingSentence, ShadowingResult } from './exercises/Shadowing';
 import { ProgressBar } from './ProgressBar';
@@ -49,25 +49,23 @@ export function SpeakingView({ activity, onComplete }: SpeakingViewProps) {
   const handlePlaySentence = useCallback(
     async (sentence: SpeakingSentence) => {
       if (isPlaying) {
-        Speech.stop();
+        await stopTTS();
         setIsPlaying(false);
         return;
       }
 
       setIsPlaying(true);
       try {
-        await Speech.speak(sentence.text, {
-          language: 'en-US',
-          rate: 0.8, // 천천히 발음
+        await speakSentence(sentence.text, {
           onDone: () => setIsPlaying(false),
           onError: (error) => {
             setIsPlaying(false);
-            captureSilentError(error, { context: 'Speech.speak', sentence: sentence.text });
+            captureSilentError(error, { context: 'TTS.speakSentence', sentence: sentence.text });
           },
         });
       } catch (error) {
         setIsPlaying(false);
-        captureSilentError(error, { context: 'Speech.speak', sentence: sentence.text });
+        captureSilentError(error, { context: 'TTS.speakSentence', sentence: sentence.text });
       }
     },
     [isPlaying]
@@ -78,9 +76,9 @@ export function SpeakingView({ activity, onComplete }: SpeakingViewProps) {
     setPracticedSentences((prev) => new Set(prev).add(currentSentence.id));
   }, [currentSentence]);
 
-  const handleNext = useCallback(() => {
+  const handleNext = useCallback(async () => {
     if (isLastSentence) {
-      Speech.stop();
+      await stopTTS();
       setIsPlaying(false);
       setMode('checklist');
     } else {
@@ -121,18 +119,18 @@ export function SpeakingView({ activity, onComplete }: SpeakingViewProps) {
     [onComplete]
   );
 
-  const handleStartShadowing = useCallback(() => {
-    Speech.stop();
+  const handleStartShadowing = useCallback(async () => {
+    await stopTTS();
     setIsPlaying(false);
     setMode('shadowing');
   }, []);
 
-  const handleRestart = useCallback(() => {
+  const handleRestart = useCallback(async () => {
     setMode('practice');
     setCurrentIndex(0);
     setPracticedSentences(new Set());
     setChecklistCompleted({});
-    Speech.stop();
+    await stopTTS();
     setIsPlaying(false);
   }, []);
 

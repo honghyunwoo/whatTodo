@@ -36,9 +36,9 @@ const slides: OnboardingSlide[] = [
   {
     id: '2',
     emoji: '📚',
-    title: '주차별 학습 프로그램',
+    title: '레슨 기반 학습',
     description:
-      'A1부터 C2까지 CEFR 레벨에 맞춘\n체계적인 학습 콘텐츠를 제공합니다.\n어휘, 문법, 듣기, 읽기, 말하기, 쓰기를 모두 학습하세요.',
+      'A1부터 C2까지 CEFR 레벨에 맞춘\n체계적인 레슨을 제공합니다.\n매일 조금씩, 부담 없이 학습하세요.',
     backgroundColor: '#F3E5F5',
   },
   {

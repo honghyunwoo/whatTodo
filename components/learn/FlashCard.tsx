@@ -9,13 +9,13 @@ import Animated, {
   Extrapolation,
 } from 'react-native-reanimated';
 import { Ionicons } from '@expo/vector-icons';
-import * as Speech from 'expo-speech';
 
 import { useTheme } from '@/contexts/ThemeContext';
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { Word } from '@/types/activity';
 import { learnHaptics } from '@/services/hapticService';
+import { speakWord } from '@/utils/tts';
 
 interface FlashCardProps {
   word: Word;
@@ -59,10 +59,7 @@ export function FlashCard({ word, onKnown, onUnknown, showActions = true }: Flas
     (e?: { stopPropagation?: () => void }) => {
       // Stop event from propagating to parent (card flip)
       e?.stopPropagation?.();
-      Speech.speak(word.word, {
-        language: 'en-US',
-        rate: 0.8,
-      });
+      speakWord(word.word);
     },
     [word.word]
   );
