@@ -87,8 +87,8 @@ const hydratedStores = new Set<string>();
 // ─────────────────────────────────────
 
 export function useStoreReady(): StoreReadyState {
-  // 🔧 임시 디버깅: 항상 ready로 반환하여 store hydration 문제인지 확인
-  const [debugSkipHydration] = useState(true); // true로 설정하여 테스트
+  // 🔧 디버깅 완료: 정상 hydration 모드로 복원
+  const [debugSkipHydration] = useState(false); // false = 정상 모드
 
   const [state, setState] = useState<StoreReadyState>(() => {
     // 디버깅 모드: 즉시 ready 반환
