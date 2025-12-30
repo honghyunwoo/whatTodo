@@ -17,6 +17,7 @@ import {
 import { IconButton, Modal, Portal, Text } from 'react-native-paper';
 
 import { ActivityCard, LessonSelector, LevelSelector, UnitSelector } from '@/components/learn';
+import { SessionSelector } from '@/components/session';
 import { LearningDashboard } from '@/components/dashboard/LearningDashboard';
 import { BadgeShowcase } from '@/components/reward';
 import { COLORS } from '@/constants/colors';
@@ -25,7 +26,9 @@ import { useLearnStore } from '@/store/learnStore';
 import type { CEFRLevel, ActivityType } from '@/types/activity';
 import { useLessonStore } from '@/store/lessonStore';
 import { useSrsStore } from '@/store/srsStore';
+import { useScenarioStore } from '@/store/scenarioStore';
 import type { LessonCardData, UnitCardData } from '@/types/lesson';
+import type { SessionType } from '@/types/scenario';
 import { isLevelLoaded, loadWeekActivities, preloadLevel } from '@/utils/activityLoader';
 import {
   getLessonCardData,
@@ -61,6 +64,12 @@ export default function LearnScreen() {
   const getWordsForReview = useSrsStore((state) => state.getWordsForReview);
   const dueCount = useMemo(() => getWordsForReview().length, [getWordsForReview]);
 
+  // Scenario store for session-based learning
+  const loadScenarios = useScenarioStore((state) => state.loadScenarios);
+  const scenarios = useScenarioStore((state) => state.scenarios);
+  const isScenarioLoading = useScenarioStore((state) => state.isLoading);
+  const getRecommendedScenarios = useScenarioStore((state) => state.getRecommendedScenarios);
+
   const [showStats, setShowStats] = useState(false);
   const [showBadges, setShowBadges] = useState(false);
   const [isLoading, setIsLoading] = useState(!isLevelLoaded(currentLevel));
@@ -83,6 +92,11 @@ export default function LearnScreen() {
         await loadLevelMeta(currentLevel);
       }
 
+      // Load scenarios for session-based learning
+      if (scenarios.length === 0) {
+        await loadScenarios();
+      }
+
       // Set default selected unit
       const levelMeta = getLevelMeta(currentLevel);
       if (levelMeta && levelMeta.units.length > 0 && !selectedUnitId) {
@@ -93,7 +107,7 @@ export default function LearnScreen() {
     };
 
     loadData();
-  }, [currentLevel]); // selectedUnitId 제거 - 무한 루프 방지
+  }, [currentLevel, scenarios.length, loadScenarios]); // selectedUnitId 제거 - 무한 루프 방지
 
   const weekActivities = useMemo(() => {
     if (isLoading) return [];
@@ -188,6 +202,32 @@ export default function LearnScreen() {
   const handleReview = useCallback(() => {
     router.push('/review');
   }, []);
+
+  // Session-based learning handler
+  const handleStartSession = useCallback(
+    (sessionType: SessionType) => {
+      // Get a recommended scenario based on current level
+      const recommended = getRecommendedScenarios();
+      const scenarioForLevel = recommended.find((s) => s.level === currentLevel) || recommended[0];
+
+      if (scenarioForLevel) {
+        router.push({
+          pathname: '/session/[type]',
+          params: { type: sessionType, scenarioId: scenarioForLevel.id },
+        });
+      } else {
+        // If no scenarios available, use first available
+        const fallback = scenarios[0];
+        if (fallback) {
+          router.push({
+            pathname: '/session/[type]',
+            params: { type: sessionType, scenarioId: fallback.id },
+          });
+        }
+      }
+    },
+    [getRecommendedScenarios, scenarios, currentLevel]
+  );
 
   const handleLessonPress = useCallback(
     (lessonId: string) => {
@@ -314,6 +354,12 @@ export default function LearnScreen() {
             <Text style={styles.actionArrow}>›</Text>
           </TouchableOpacity>
         </View>
+
+        {/* 세션 기반 학습 (30초/1분/5분) - PRD 핵심 기능 */}
+        <SessionSelector
+          onSelectSession={handleStartSession}
+          disabled={scenarios.length === 0 || isScenarioLoading}
+        />
 
         {/* 레슨 기반 학습 (Duolingo 스타일) */}
         <View style={styles.lessonModeHeader}>
