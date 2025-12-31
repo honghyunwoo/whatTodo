@@ -153,9 +153,22 @@ export default function SessionScreen() {
   // 시나리오 데이터
   const scenario = useMemo(() => getScenario(scenarioId), [getScenario, scenarioId]);
 
-  // 세션 시작
+  // 세션 시작 - 페이지 진입 시 한 번만 실행
+  const sessionStartedRef = useRef(false);
+
   useEffect(() => {
-    if (scenario && status === 'idle') {
+    // 이미 시작했거나, 시나리오가 없으면 무시
+    if (sessionStartedRef.current || !scenario) return;
+
+    // active 상태면 이미 진행 중
+    if (status === 'active') {
+      sessionStartedRef.current = true;
+      return;
+    }
+
+    // idle 또는 completed 상태에서 새 세션 시작
+    if (status === 'idle' || status === 'completed') {
+      sessionStartedRef.current = true;
       startSession(type, scenarioId, scenario.expressions);
     }
   }, [scenario, type, scenarioId, startSession, status]);
