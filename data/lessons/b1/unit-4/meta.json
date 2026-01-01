@@ -1,0 +1,23 @@
+{
+  "id": "b1-u4",
+  "levelId": "b1",
+  "unitNumber": 4,
+  "title": "Media & News",
+  "titleKo": "미디어",
+  "description": "Understand and discuss news and social media.",
+  "descriptionKo": "뉴스와 소셜 미디어를 이해하고 논의하세요.",
+  "icon": "newspaper",
+  "themeColor": "#F44336",
+  "lessons": ["b1-u4-l1", "b1-u4-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Understand news reports",
+    "Discuss current events",
+    "Use social media effectively"
+  ],
+  "objectivesKo": [
+    "뉴스 보도 이해하기",
+    "시사 토론하기",
+    "소셜 미디어 효과적으로 사용하기"
+  ]
+}

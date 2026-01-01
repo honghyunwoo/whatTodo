@@ -1,0 +1,36 @@
+{
+  "id": "c2-u4-l1",
+  "unitId": "c2-u4",
+  "levelId": "c2",
+  "lessonNumber": 1,
+  "title": "Complex Negotiations",
+  "titleKo": "고급 협상",
+  "subtitle": "Master high-stakes negotiations",
+  "subtitleKo": "고위험 협상 마스터하기",
+  "theme": "negotiation",
+  "estimatedMinutes": 30,
+  "keyPhrasesCount": 8,
+  "prerequisites": ["c2-u3-l2"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-7",
+  "objectives": [
+    "Conduct multilateral negotiations",
+    "Bridge cultural differences",
+    "Reach consensus in complex situations"
+  ],
+  "objectivesKo": [
+    "다자간 협상 진행하기",
+    "문화적 차이 극복하기",
+    "복잡한 상황에서 합의 도출하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "Let's find common ground", "meaning": "공통점을 찾아봅시다" },
+    { "phrase": "This is non-negotiable", "meaning": "이것은 협상 불가입니다" },
+    { "phrase": "We're prepared to make concessions on...", "meaning": "...에 대해 양보할 준비가 되어 있습니다" },
+    { "phrase": "What would it take to...?", "meaning": "...하려면 무엇이 필요할까요?" },
+    { "phrase": "Let's table this for now", "meaning": "이건 나중으로 미룹시다" },
+    { "phrase": "The devil is in the details", "meaning": "세부 사항이 중요합니다" },
+    { "phrase": "All parties must agree to...", "meaning": "모든 당사자가 ...에 동의해야 합니다" },
+    { "phrase": "A framework for moving forward", "meaning": "앞으로 나아가기 위한 프레임워크" }
+  ]
+}

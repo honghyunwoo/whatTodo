@@ -1,0 +1,36 @@
+{
+  "id": "c2-u3-l2",
+  "unitId": "c2-u3",
+  "levelId": "c2",
+  "lessonNumber": 2,
+  "title": "Rhetoric",
+  "titleKo": "수사학",
+  "subtitle": "Master the art of persuasion",
+  "subtitleKo": "설득의 예술 마스터하기",
+  "theme": "rhetoric",
+  "estimatedMinutes": 30,
+  "keyPhrasesCount": 8,
+  "prerequisites": ["c2-u3-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-6",
+  "objectives": [
+    "Apply classical rhetorical techniques",
+    "Structure powerful speeches",
+    "Move audiences emotionally"
+  ],
+  "objectivesKo": [
+    "고전 수사 기법 적용하기",
+    "강력한 연설 구성하기",
+    "청중을 감동시키기"
+  ],
+  "keyPhrases": [
+    { "phrase": "Ask not what... but what...", "meaning": "...이 아니라 ...을 물어라" },
+    { "phrase": "I have a dream that...", "meaning": "저에게는 꿈이 있습니다..." },
+    { "phrase": "Let us rise to the occasion", "meaning": "상황에 부응합시다" },
+    { "phrase": "Together, we can...", "meaning": "함께라면 우리는..." },
+    { "phrase": "History will judge us by...", "meaning": "역사는 우리를 ...로 판단할 것입니다" },
+    { "phrase": "The power of three: X, Y, and Z", "meaning": "세 가지 힘: X, Y, 그리고 Z" },
+    { "phrase": "Make no mistake about it", "meaning": "오해하지 마세요" },
+    { "phrase": "We shall not be deterred", "meaning": "우리는 물러서지 않을 것입니다" }
+  ]
+}

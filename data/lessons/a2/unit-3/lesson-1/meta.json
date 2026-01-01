@@ -1,0 +1,33 @@
+{
+  "id": "a2-u3-l1",
+  "unitId": "a2-u3",
+  "levelId": "a2",
+  "lessonNumber": 1,
+  "title": "Hobbies",
+  "titleKo": "취미 생활",
+  "subtitle": "Share your interests and hobbies",
+  "subtitleKo": "관심사와 취미 공유하기",
+  "theme": "hobbies",
+  "estimatedMinutes": 15,
+  "keyPhrasesCount": 5,
+  "prerequisites": ["a2-u2-l2"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-5",
+  "objectives": [
+    "Describe your hobbies in detail",
+    "Ask about others' interests",
+    "Suggest activities to do together"
+  ],
+  "objectivesKo": [
+    "취미를 상세히 설명하기",
+    "다른 사람의 관심사 묻기",
+    "함께 할 활동 제안하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "I'm really into photography", "meaning": "사진에 정말 빠져있어요" },
+    { "phrase": "How long have you been...?", "meaning": "...을 얼마나 했어요?" },
+    { "phrase": "Would you like to join me?", "meaning": "같이 할래요?" },
+    { "phrase": "I do it on weekends", "meaning": "주말에 해요" },
+    { "phrase": "It's a great way to relax", "meaning": "휴식하기 좋은 방법이에요" }
+  ]
+}

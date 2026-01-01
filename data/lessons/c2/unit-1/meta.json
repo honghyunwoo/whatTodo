@@ -1,0 +1,23 @@
+{
+  "id": "c2-u1",
+  "levelId": "c2",
+  "unitNumber": 1,
+  "title": "Native Fluency",
+  "titleKo": "원어민 표현",
+  "description": "Speak like a native with natural expressions.",
+  "descriptionKo": "자연스러운 표현으로 원어민처럼 말하세요.",
+  "icon": "diamond",
+  "themeColor": "#2196F3",
+  "lessons": ["c2-u1-l1", "c2-u1-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Use slang appropriately",
+    "Understand subtle humor",
+    "Express yourself naturally"
+  ],
+  "objectivesKo": [
+    "슬랭을 적절히 사용하기",
+    "미묘한 유머 이해하기",
+    "자연스럽게 표현하기"
+  ]
+}

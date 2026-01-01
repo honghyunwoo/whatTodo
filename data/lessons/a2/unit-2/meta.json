@@ -1,0 +1,23 @@
+{
+  "id": "a2-u2",
+  "levelId": "a2",
+  "unitNumber": 2,
+  "title": "Social Life",
+  "titleKo": "사회생활",
+  "description": "Learn essential expressions for work and public services.",
+  "descriptionKo": "직장과 공공 서비스 이용에 필요한 필수 표현을 배웁니다.",
+  "icon": "briefcase",
+  "themeColor": "#FF9800",
+  "lessons": ["a2-u2-l1", "a2-u2-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Communicate effectively at work",
+    "Use public services confidently",
+    "Handle common workplace situations"
+  ],
+  "objectivesKo": [
+    "직장에서 효과적으로 소통하기",
+    "공공 서비스 자신있게 이용하기",
+    "일반적인 직장 상황 대처하기"
+  ]
+}

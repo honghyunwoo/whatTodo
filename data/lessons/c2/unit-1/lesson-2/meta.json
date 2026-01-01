@@ -1,0 +1,36 @@
+{
+  "id": "c2-u1-l2",
+  "unitId": "c2-u1",
+  "levelId": "c2",
+  "lessonNumber": 2,
+  "title": "Subtle Humor",
+  "titleKo": "미묘한 유머",
+  "subtitle": "Understand and use English humor",
+  "subtitleKo": "영어 유머 이해하고 사용하기",
+  "theme": "humor",
+  "estimatedMinutes": 30,
+  "keyPhrasesCount": 8,
+  "prerequisites": ["c2-u1-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-2",
+  "objectives": [
+    "Understand wordplay and puns",
+    "Recognize sarcasm and irony",
+    "Use humor appropriately"
+  ],
+  "objectivesKo": [
+    "말장난과 펀 이해하기",
+    "풍자와 아이러니 인식하기",
+    "유머를 적절히 사용하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "I'm just pulling your leg", "meaning": "장난이에요" },
+    { "phrase": "That's a bit tongue-in-cheek", "meaning": "좀 빈정대는 거예요" },
+    { "phrase": "No pun intended", "meaning": "말장난은 아니에요" },
+    { "phrase": "Reading between the lines", "meaning": "행간을 읽다" },
+    { "phrase": "That went over my head", "meaning": "무슨 말인지 모르겠어요" },
+    { "phrase": "You're killing me!", "meaning": "웃겨 죽겠어요!" },
+    { "phrase": "Dry humor at its finest", "meaning": "무표정 유머의 정수네요" },
+    { "phrase": "I see what you did there", "meaning": "뭘 하려는지 알겠어요" }
+  ]
+}

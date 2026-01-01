@@ -1,0 +1,33 @@
+{
+  "id": "b1-u2-l2",
+  "unitId": "b1-u2",
+  "levelId": "b1",
+  "lessonNumber": 2,
+  "title": "Negotiations",
+  "titleKo": "협상",
+  "subtitle": "Negotiate deals and reach agreements",
+  "subtitleKo": "거래 협상하고 합의 도출하기",
+  "theme": "negotiations",
+  "estimatedMinutes": 15,
+  "keyPhrasesCount": 5,
+  "prerequisites": ["b1-u2-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-4",
+  "objectives": [
+    "Make and respond to proposals",
+    "Find common ground",
+    "Close deals successfully"
+  ],
+  "objectivesKo": [
+    "제안하고 응답하기",
+    "공통점 찾기",
+    "성공적으로 거래 마무리하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "What if we...?", "meaning": "...하면 어떨까요?" },
+    { "phrase": "I can offer you...", "meaning": "...을 제안할 수 있습니다" },
+    { "phrase": "That sounds fair", "meaning": "공정해 보이네요" },
+    { "phrase": "Let's meet halfway", "meaning": "서로 양보합시다" },
+    { "phrase": "We have a deal", "meaning": "합의했습니다" }
+  ]
+}

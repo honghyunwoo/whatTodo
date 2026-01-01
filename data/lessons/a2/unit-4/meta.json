@@ -1,0 +1,23 @@
+{
+  "id": "a2-u4",
+  "levelId": "a2",
+  "unitNumber": 4,
+  "title": "Health and Safety",
+  "titleKo": "건강과 안전",
+  "description": "Handle health issues and stay safe.",
+  "descriptionKo": "건강 문제를 다루고 안전을 지키세요.",
+  "icon": "medkit",
+  "themeColor": "#F44336",
+  "lessons": ["a2-u4-l1", "a2-u4-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Describe symptoms and health issues",
+    "Navigate healthcare services",
+    "Understand and follow safety instructions"
+  ],
+  "objectivesKo": [
+    "증상과 건강 문제 설명하기",
+    "의료 서비스 이용하기",
+    "안전 수칙 이해하고 따르기"
+  ]
+}

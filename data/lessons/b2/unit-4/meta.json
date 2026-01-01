@@ -1,0 +1,23 @@
+{
+  "id": "b2-u4",
+  "levelId": "b2",
+  "unitNumber": 4,
+  "title": "Culture & Arts",
+  "titleKo": "문화와 예술",
+  "description": "Discuss culture and arts at an advanced level.",
+  "descriptionKo": "문화와 예술을 고급 수준으로 토론하세요.",
+  "icon": "color-palette",
+  "themeColor": "#F44336",
+  "lessons": ["b2-u4-l1", "b2-u4-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Analyze art and literature",
+    "Write reviews and critiques",
+    "Discuss cultural movements"
+  ],
+  "objectivesKo": [
+    "예술과 문학 분석하기",
+    "리뷰와 비평 작성하기",
+    "문화 운동 토론하기"
+  ]
+}

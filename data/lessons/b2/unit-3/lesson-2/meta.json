@@ -1,0 +1,34 @@
+{
+  "id": "b2-u3-l2",
+  "unitId": "b2-u3",
+  "levelId": "b2",
+  "lessonNumber": 2,
+  "title": "Environment",
+  "titleKo": "환경 문제",
+  "subtitle": "Discuss environmental challenges",
+  "subtitleKo": "환경 문제 토론하기",
+  "theme": "environment",
+  "estimatedMinutes": 20,
+  "keyPhrasesCount": 6,
+  "prerequisites": ["b2-u3-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-6",
+  "objectives": [
+    "Use environmental terminology",
+    "Analyze environmental problems",
+    "Propose sustainable solutions"
+  ],
+  "objectivesKo": [
+    "환경 용어 사용하기",
+    "환경 문제 분석하기",
+    "지속 가능한 해결책 제안하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "Climate change is causing...", "meaning": "기후 변화가 ...을 야기하고 있습니다" },
+    { "phrase": "We need to reduce our carbon footprint", "meaning": "탄소 발자국을 줄여야 합니다" },
+    { "phrase": "Renewable energy sources include...", "meaning": "재생 에너지원으로는..." },
+    { "phrase": "Biodiversity is declining due to...", "meaning": "...으로 인해 생물 다양성이 감소하고 있습니다" },
+    { "phrase": "Sustainable practices involve...", "meaning": "지속 가능한 관행으로는..." },
+    { "phrase": "What can individuals do to help?", "meaning": "개인이 도울 수 있는 것은 무엇인가요?" }
+  ]
+}

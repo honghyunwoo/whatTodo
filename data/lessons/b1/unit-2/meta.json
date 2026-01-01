@@ -1,0 +1,23 @@
+{
+  "id": "b1-u2",
+  "levelId": "b1",
+  "unitNumber": 2,
+  "title": "Business Communication",
+  "titleKo": "비즈니스",
+  "description": "Master essential business communication skills.",
+  "descriptionKo": "필수 비즈니스 커뮤니케이션 스킬을 마스터하세요.",
+  "icon": "stats-chart",
+  "themeColor": "#FF9800",
+  "lessons": ["b1-u2-l1", "b1-u2-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Lead and participate in meetings",
+    "Present ideas professionally",
+    "Negotiate effectively"
+  ],
+  "objectivesKo": [
+    "회의 진행 및 참여하기",
+    "전문적으로 아이디어 발표하기",
+    "효과적으로 협상하기"
+  ]
+}

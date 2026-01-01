@@ -1,0 +1,33 @@
+{
+  "id": "a2-u1-l1",
+  "unitId": "a2-u1",
+  "levelId": "a2",
+  "lessonNumber": 1,
+  "title": "Daily Routines",
+  "titleKo": "일과 표현",
+  "subtitle": "Describe your typical day in detail",
+  "subtitleKo": "하루 일과를 상세히 설명하세요",
+  "theme": "routines",
+  "estimatedMinutes": 15,
+  "keyPhrasesCount": 5,
+  "prerequisites": [],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-1",
+  "objectives": [
+    "Describe morning and evening routines",
+    "Use time expressions accurately",
+    "Talk about habits using frequency adverbs"
+  ],
+  "objectivesKo": [
+    "아침과 저녁 일과 설명하기",
+    "시간 표현 정확하게 사용하기",
+    "빈도 부사를 사용해 습관 말하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "I usually wake up at 7", "meaning": "보통 7시에 일어나요" },
+    { "phrase": "After breakfast, I...", "meaning": "아침 식사 후에 저는..." },
+    { "phrase": "I always brush my teeth", "meaning": "항상 이를 닦아요" },
+    { "phrase": "On weekends, I sleep in", "meaning": "주말에는 늦잠을 자요" },
+    { "phrase": "Before bed, I read", "meaning": "자기 전에 책을 읽어요" }
+  ]
+}

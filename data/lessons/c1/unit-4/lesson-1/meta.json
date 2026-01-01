@@ -1,0 +1,35 @@
+{
+  "id": "c1-u4-l1",
+  "unitId": "c1-u4",
+  "levelId": "c1",
+  "lessonNumber": 1,
+  "title": "Cross-Cultural",
+  "titleKo": "다문화 이해",
+  "subtitle": "Navigate cultural differences",
+  "subtitleKo": "문화적 차이 다루기",
+  "theme": "culture",
+  "estimatedMinutes": 25,
+  "keyPhrasesCount": 7,
+  "prerequisites": ["c1-u3-l2"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-7",
+  "objectives": [
+    "Understand cultural norms",
+    "Adapt communication styles",
+    "Build cross-cultural rapport"
+  ],
+  "objectivesKo": [
+    "문화적 규범 이해하기",
+    "소통 스타일 적응하기",
+    "다문화적 관계 구축하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "In some cultures, it's customary to...", "meaning": "어떤 문화에서는 ...하는 것이 관례입니다" },
+    { "phrase": "This might be perceived differently in...", "meaning": "...에서는 다르게 인식될 수 있습니다" },
+    { "phrase": "Cultural sensitivity is crucial when...", "meaning": "...할 때 문화적 감수성이 중요합니다" },
+    { "phrase": "I'd like to learn more about your customs", "meaning": "귀하의 관습에 대해 더 알고 싶습니다" },
+    { "phrase": "We should respect local traditions", "meaning": "지역 전통을 존중해야 합니다" },
+    { "phrase": "There may be a cultural misunderstanding", "meaning": "문화적 오해가 있을 수 있습니다" },
+    { "phrase": "What's the appropriate etiquette for...?", "meaning": "...에 대한 적절한 예절은 무엇인가요?" }
+  ]
+}

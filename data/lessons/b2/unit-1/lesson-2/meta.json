@@ -1,0 +1,34 @@
+{
+  "id": "b2-u1-l2",
+  "unitId": "b2-u1",
+  "levelId": "b2",
+  "lessonNumber": 2,
+  "title": "Technical Writing",
+  "titleKo": "기술 문서",
+  "subtitle": "Write clear technical documentation",
+  "subtitleKo": "명확한 기술 문서 작성하기",
+  "theme": "technical",
+  "estimatedMinutes": 20,
+  "keyPhrasesCount": 6,
+  "prerequisites": ["b2-u1-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-2",
+  "objectives": [
+    "Write clear technical instructions",
+    "Explain complex processes simply",
+    "Use technical terminology accurately"
+  ],
+  "objectivesKo": [
+    "명확한 기술 지침 작성하기",
+    "복잡한 프로세스 간단히 설명하기",
+    "기술 용어 정확히 사용하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "The procedure involves...", "meaning": "절차는 ...을 포함합니다" },
+    { "phrase": "Ensure that the system...", "meaning": "시스템이 ...하는지 확인하세요" },
+    { "phrase": "Troubleshooting steps include...", "meaning": "문제 해결 단계로는..." },
+    { "phrase": "The specifications require...", "meaning": "사양에는 ...이 필요합니다" },
+    { "phrase": "For optimal performance...", "meaning": "최적의 성능을 위해..." },
+    { "phrase": "Refer to the diagram below", "meaning": "아래 다이어그램을 참조하세요" }
+  ]
+}

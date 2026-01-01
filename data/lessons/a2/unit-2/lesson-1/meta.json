@@ -1,0 +1,33 @@
+{
+  "id": "a2-u2-l1",
+  "unitId": "a2-u2",
+  "levelId": "a2",
+  "lessonNumber": 1,
+  "title": "At Work",
+  "titleKo": "직장 생활",
+  "subtitle": "Navigate office conversations",
+  "subtitleKo": "직장에서의 대화 다루기",
+  "theme": "work",
+  "estimatedMinutes": 15,
+  "keyPhrasesCount": 5,
+  "prerequisites": ["a2-u1-l2"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-3",
+  "objectives": [
+    "Use work-related vocabulary",
+    "Participate in simple meetings",
+    "Communicate with colleagues politely"
+  ],
+  "objectivesKo": [
+    "업무 관련 어휘 사용하기",
+    "간단한 회의 참여하기",
+    "동료와 예의 바르게 소통하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "Could I have a moment?", "meaning": "잠깐 시간 되세요?" },
+    { "phrase": "The deadline is Friday", "meaning": "마감이 금요일이에요" },
+    { "phrase": "I'll send you the report", "meaning": "보고서 보내드릴게요" },
+    { "phrase": "Let's schedule a meeting", "meaning": "회의 일정을 잡아요" },
+    { "phrase": "I'm working on a project", "meaning": "프로젝트 작업 중이에요" }
+  ]
+}

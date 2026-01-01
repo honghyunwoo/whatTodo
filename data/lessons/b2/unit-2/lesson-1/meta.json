@@ -1,0 +1,34 @@
+{
+  "id": "b2-u2-l1",
+  "unitId": "b2-u2",
+  "levelId": "b2",
+  "lessonNumber": 1,
+  "title": "Persuasion",
+  "titleKo": "설득의 기술",
+  "subtitle": "Convince others with strong arguments",
+  "subtitleKo": "강한 논거로 설득하기",
+  "theme": "persuasion",
+  "estimatedMinutes": 20,
+  "keyPhrasesCount": 6,
+  "prerequisites": ["b2-u1-l2"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-3",
+  "objectives": [
+    "Use logical reasoning",
+    "Appeal to emotions appropriately",
+    "Counter opposing arguments"
+  ],
+  "objectivesKo": [
+    "논리적 추론 사용하기",
+    "적절히 감정에 호소하기",
+    "반대 논거에 대응하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "The evidence clearly shows...", "meaning": "증거는 명확히 보여줍니다..." },
+    { "phrase": "Consider the implications of...", "meaning": "...의 함의를 생각해 보세요" },
+    { "phrase": "While some may argue...", "meaning": "일부는 주장하지만..." },
+    { "phrase": "This is a compelling reason to...", "meaning": "이것은 ...할 설득력 있는 이유입니다" },
+    { "phrase": "It would be beneficial if...", "meaning": "...하면 유익할 것입니다" },
+    { "phrase": "The bottom line is...", "meaning": "핵심은..." }
+  ]
+}

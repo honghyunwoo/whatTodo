@@ -1,0 +1,36 @@
+{
+  "id": "c2-u3-l1",
+  "unitId": "c2-u3",
+  "levelId": "c2",
+  "lessonNumber": 1,
+  "title": "Creative Writing",
+  "titleKo": "창작 글쓰기",
+  "subtitle": "Write with artistic flair",
+  "subtitleKo": "예술적 감각으로 글쓰기",
+  "theme": "creative",
+  "estimatedMinutes": 30,
+  "keyPhrasesCount": 8,
+  "prerequisites": ["c2-u2-l2"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-5",
+  "objectives": [
+    "Craft compelling narratives",
+    "Use figurative language",
+    "Develop your unique voice"
+  ],
+  "objectivesKo": [
+    "매력적인 내러티브 만들기",
+    "비유적 언어 사용하기",
+    "고유한 목소리 개발하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "The scene unfolded like...", "meaning": "장면이 마치 ...처럼 펼쳐졌다" },
+    { "phrase": "Words danced on the page", "meaning": "단어들이 페이지 위에서 춤을 추었다" },
+    { "phrase": "A tapestry of emotions", "meaning": "감정의 태피스트리" },
+    { "phrase": "The silence spoke volumes", "meaning": "침묵이 많은 것을 말해주었다" },
+    { "phrase": "Time stood still", "meaning": "시간이 멈춘 듯했다" },
+    { "phrase": "Her words cut like a knife", "meaning": "그녀의 말은 칼처럼 베었다" },
+    { "phrase": "Hope flickered like a candle", "meaning": "희망이 촛불처럼 깜빡였다" },
+    { "phrase": "The weight of the world on his shoulders", "meaning": "세상의 무게가 그의 어깨 위에" }
+  ]
+}

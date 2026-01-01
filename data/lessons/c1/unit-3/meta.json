@@ -1,0 +1,23 @@
+{
+  "id": "c1-u3",
+  "levelId": "c1",
+  "unitNumber": 3,
+  "title": "Business Leadership",
+  "titleKo": "비즈니스 고급",
+  "description": "Communicate as a business leader.",
+  "descriptionKo": "비즈니스 리더로서 소통하세요.",
+  "icon": "briefcase",
+  "themeColor": "#9C27B0",
+  "lessons": ["c1-u3-l1", "c1-u3-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Lead teams effectively",
+    "Develop strategic plans",
+    "Resolve conflicts diplomatically"
+  ],
+  "objectivesKo": [
+    "팀을 효과적으로 이끌기",
+    "전략 계획 개발하기",
+    "갈등을 외교적으로 해결하기"
+  ]
+}

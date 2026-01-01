@@ -1,0 +1,33 @@
+{
+  "id": "b1-u1-l1",
+  "unitId": "b1-u1",
+  "levelId": "b1",
+  "lessonNumber": 1,
+  "title": "Sharing Opinions",
+  "titleKo": "의견 표현",
+  "subtitle": "Express what you think and why",
+  "subtitleKo": "생각과 이유 표현하기",
+  "theme": "opinions",
+  "estimatedMinutes": 15,
+  "keyPhrasesCount": 5,
+  "prerequisites": [],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-1",
+  "objectives": [
+    "State opinions using appropriate expressions",
+    "Give reasons to support your views",
+    "Use hedging language for politeness"
+  ],
+  "objectivesKo": [
+    "적절한 표현으로 의견 제시하기",
+    "이유를 들어 주장 뒷받침하기",
+    "완곡한 표현으로 공손하게 말하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "In my opinion...", "meaning": "제 생각에는..." },
+    { "phrase": "I believe that...", "meaning": "저는 ...라고 생각해요" },
+    { "phrase": "The reason is...", "meaning": "그 이유는..." },
+    { "phrase": "From my point of view...", "meaning": "제 관점에서는..." },
+    { "phrase": "I would say that...", "meaning": "제가 말하자면..." }
+  ]
+}

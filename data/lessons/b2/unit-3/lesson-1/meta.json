@@ -1,0 +1,34 @@
+{
+  "id": "b2-u3-l1",
+  "unitId": "b2-u3",
+  "levelId": "b2",
+  "lessonNumber": 1,
+  "title": "Current Issues",
+  "titleKo": "시사 문제",
+  "subtitle": "Engage with current events",
+  "subtitleKo": "시사에 참여하기",
+  "theme": "issues",
+  "estimatedMinutes": 20,
+  "keyPhrasesCount": 6,
+  "prerequisites": ["b2-u2-l2"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-5",
+  "objectives": [
+    "Discuss news topics in depth",
+    "Express informed opinions",
+    "Debate current issues"
+  ],
+  "objectivesKo": [
+    "뉴스 주제 심층 토론하기",
+    "정보에 기반한 의견 표현하기",
+    "시사 토론하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "This issue affects us all because...", "meaning": "이 문제는 모두에게 영향을 미칩니다 왜냐하면..." },
+    { "phrase": "The government's stance on this is...", "meaning": "이에 대한 정부 입장은..." },
+    { "phrase": "Public opinion seems divided on...", "meaning": "...에 대해 여론이 분분해 보입니다" },
+    { "phrase": "Looking at the bigger picture...", "meaning": "큰 그림에서 보면..." },
+    { "phrase": "This raises questions about...", "meaning": "이것은 ...에 대한 의문을 제기합니다" },
+    { "phrase": "What are the long-term effects?", "meaning": "장기적인 영향은 무엇인가요?" }
+  ]
+}

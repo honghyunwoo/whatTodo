@@ -1,0 +1,34 @@
+{
+  "id": "b2-u4-l1",
+  "unitId": "b2-u4",
+  "levelId": "b2",
+  "lessonNumber": 1,
+  "title": "Art & Literature",
+  "titleKo": "예술과 문학",
+  "subtitle": "Analyze and discuss artistic works",
+  "subtitleKo": "예술 작품 분석하고 토론하기",
+  "theme": "art",
+  "estimatedMinutes": 20,
+  "keyPhrasesCount": 6,
+  "prerequisites": ["b2-u3-l2"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-7",
+  "objectives": [
+    "Analyze artistic works critically",
+    "Express aesthetic opinions",
+    "Discuss literary themes"
+  ],
+  "objectivesKo": [
+    "예술 작품 비평적으로 분석하기",
+    "미적 의견 표현하기",
+    "문학 주제 토론하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "The artist conveys a sense of...", "meaning": "작가는 ...의 감각을 전달합니다" },
+    { "phrase": "The underlying theme is...", "meaning": "근본적인 주제는..." },
+    { "phrase": "This symbolizes...", "meaning": "이것은 ...을 상징합니다" },
+    { "phrase": "The use of color creates...", "meaning": "색상 사용이 ...을 만들어냅니다" },
+    { "phrase": "The narrative structure is...", "meaning": "서사 구조는..." },
+    { "phrase": "What interpretation do you have?", "meaning": "어떤 해석을 하시나요?" }
+  ]
+}

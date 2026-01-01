@@ -83,7 +83,14 @@
 
 ## 📱 스크린샷
 
-> 실제 기기 스크린샷 (추후 추가)
+| 오늘 탭 | 학습 탭 | 캘린더 탭 | 설정 탭 |
+|---------|---------|-----------|---------|
+| ![오늘](docs/screenshots/01_today.png) | ![학습](docs/screenshots/02_learn.png) | ![캘린더](docs/screenshots/03_calendar.png) | ![설정](docs/screenshots/04_settings.png) |
+
+### 학습 세션
+| 문제 풀이 화면 |
+|----------------|
+| ![세션](docs/screenshots/05_session.png) |
 
 ---
 
@@ -175,6 +182,30 @@ npm run typecheck
 npm run lint
 ```
 
+### 6️⃣ 빌드 (EAS Build)
+
+```bash
+# EAS CLI 설치 (최초 1회)
+npm install -g eas-cli
+
+# EAS 로그인
+eas login
+
+# Android Preview 빌드 (APK)
+eas build --profile preview --platform android
+
+# Android Production 빌드 (AAB, Play Store용)
+eas build --profile production --platform android
+
+# iOS 빌드 (Apple Developer 계정 필요)
+eas build --profile production --platform ios
+```
+
+**빌드 프로필** (`eas.json`):
+- `development`: 개발용 (시뮬레이터)
+- `preview`: 테스트용 (APK 직접 설치)
+- `production`: 스토어 배포용 (AAB)
+
 ---
 
 ## 📂 프로젝트 구조
@@ -182,12 +213,11 @@ npm run lint
 ```
 whatTodo/
 ├── app/                       # 화면 (Expo Router)
-│   ├── (tabs)/               # 5탭 네비게이션 ✅
+│   ├── (tabs)/               # 4탭 네비게이션 ✅
 │   │   ├── _layout.tsx       # 탭 레이아웃
 │   │   ├── index.tsx         # 오늘 탭 (Day 중심)
-│   │   ├── calendar.tsx      # 캘린더 탭
 │   │   ├── learn.tsx         # 학습 탭
-│   │   ├── records.tsx       # 기록 탭
+│   │   ├── calendar.tsx      # 캘린더 탭
 │   │   └── settings.tsx      # 설정 탭
 │   ├── day/                  # Day 관련 (Phase 2 ✅)
 │   │   └── [date].tsx        # Day 페이지 (동적 라우팅)
@@ -433,13 +463,13 @@ MIT License - 자유롭게 사용, 수정, 배포 가능
 **최신 업데이트**: 2026-01-01
 
 - ✅ Phase 1-3 완료 (Day 중심 전환)
-- ✅ 탭 구조 변경 (4탭 → 5탭: 오늘|캘린더|학습|기록|설정)
+- ✅ 4탭 구조: 오늘|학습|캘린더|설정
 - ✅ 레슨 기반 학습 시스템 Step 1-4 완료
-- ✅ 51개 테스트 통과
-- ✅ TypeScript 0 errors, ESLint 0 warnings (97개→0개 정리)
-- ⚠️ 사용자 테스트 진행 중
+- ✅ 51개 테스트 통과 (SRS 21, Backup 14, Day 16)
+- ✅ TypeScript 0 errors, ESLint 0 warnings
+- ✅ 사용자 테스트 완료 (에뮬레이터)
 
-**다음 단계**: A2-C2 레슨 메타데이터 생성 → 실제 기기 테스트 → 배포
+**다음 단계**: EAS Build → Play Store 배포
 
 ---
 

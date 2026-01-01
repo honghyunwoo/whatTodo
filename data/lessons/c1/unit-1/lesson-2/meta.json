@@ -1,0 +1,35 @@
+{
+  "id": "c1-u1-l2",
+  "unitId": "c1-u1",
+  "levelId": "c1",
+  "lessonNumber": 2,
+  "title": "Nuanced Language",
+  "titleKo": "미묘한 표현",
+  "subtitle": "Understand subtle differences in meaning",
+  "subtitleKo": "의미의 미묘한 차이 이해하기",
+  "theme": "nuance",
+  "estimatedMinutes": 25,
+  "keyPhrasesCount": 7,
+  "prerequisites": ["c1-u1-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-2",
+  "objectives": [
+    "Distinguish similar expressions",
+    "Choose the right word for context",
+    "Adjust formality levels"
+  ],
+  "objectivesKo": [
+    "비슷한 표현 구분하기",
+    "문맥에 맞는 단어 선택하기",
+    "격식 수준 조절하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "I would suggest that...", "meaning": "(공손) 제안하자면..." },
+    { "phrase": "With all due respect...", "meaning": "실례를 무릅쓰고..." },
+    { "phrase": "It's worth considering that...", "meaning": "...을 고려해 볼 가치가 있어요" },
+    { "phrase": "To put it mildly...", "meaning": "완곡하게 말하자면..." },
+    { "phrase": "I couldn't agree more", "meaning": "전적으로 동의해요" },
+    { "phrase": "That's one way of looking at it", "meaning": "그렇게 볼 수도 있죠 (우회적 반대)" },
+    { "phrase": "I'm inclined to think that...", "meaning": "...라고 생각하는 편이에요" }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "c2-u3",
+  "levelId": "c2",
+  "unitNumber": 3,
+  "title": "Creative Expression",
+  "titleKo": "창의적 표현",
+  "description": "Express yourself creatively and artistically.",
+  "descriptionKo": "창의적이고 예술적으로 표현하세요.",
+  "icon": "sparkles",
+  "themeColor": "#9C27B0",
+  "lessons": ["c2-u3-l1", "c2-u3-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Write creatively in English",
+    "Use rhetorical devices",
+    "Express complex emotions"
+  ],
+  "objectivesKo": [
+    "영어로 창작하기",
+    "수사적 기법 사용하기",
+    "복잡한 감정 표현하기"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "c1-u1-l1",
+  "unitId": "c1-u1",
+  "levelId": "c1",
+  "lessonNumber": 1,
+  "title": "Idioms & Expressions",
+  "titleKo": "관용어와 표현",
+  "subtitle": "Master native-like expressions",
+  "subtitleKo": "원어민스러운 표현 마스터하기",
+  "theme": "idioms",
+  "estimatedMinutes": 25,
+  "keyPhrasesCount": 7,
+  "prerequisites": [],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-1",
+  "objectives": [
+    "Recognize common idioms",
+    "Use idioms in appropriate contexts",
+    "Understand cultural references"
+  ],
+  "objectivesKo": [
+    "일반적인 관용어 인식하기",
+    "적절한 문맥에서 관용어 사용하기",
+    "문화적 참조 이해하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "The ball is in your court", "meaning": "당신 차례예요 (결정권이 있어요)" },
+    { "phrase": "It's not rocket science", "meaning": "어렵지 않아요" },
+    { "phrase": "To bite off more than you can chew", "meaning": "감당 못할 일을 맡다" },
+    { "phrase": "The elephant in the room", "meaning": "다들 알지만 언급 안 하는 문제" },
+    { "phrase": "To be on the same page", "meaning": "같은 생각을 가지다" },
+    { "phrase": "That ship has sailed", "meaning": "이미 기회가 지나갔어요" },
+    { "phrase": "To cut to the chase", "meaning": "본론으로 들어가다" }
+  ]
+}

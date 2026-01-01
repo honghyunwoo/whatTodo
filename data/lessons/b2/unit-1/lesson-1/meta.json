@@ -1,0 +1,34 @@
+{
+  "id": "b2-u1-l1",
+  "unitId": "b2-u1",
+  "levelId": "b2",
+  "lessonNumber": 1,
+  "title": "Academic English",
+  "titleKo": "학술 영어",
+  "subtitle": "Master academic vocabulary and structures",
+  "subtitleKo": "학술 어휘와 구조 마스터하기",
+  "theme": "academic",
+  "estimatedMinutes": 20,
+  "keyPhrasesCount": 6,
+  "prerequisites": [],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-1",
+  "objectives": [
+    "Use formal academic language",
+    "Understand research paper structures",
+    "Present academic findings"
+  ],
+  "objectivesKo": [
+    "격식체 학술 언어 사용하기",
+    "연구 논문 구조 이해하기",
+    "학술 발견 발표하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "This study demonstrates that...", "meaning": "이 연구는 ...을 보여줍니다" },
+    { "phrase": "The findings suggest...", "meaning": "연구 결과에 따르면..." },
+    { "phrase": "As illustrated in Figure 1...", "meaning": "그림 1에 나타난 바와 같이..." },
+    { "phrase": "The hypothesis was supported by...", "meaning": "가설은 ...에 의해 뒷받침됨" },
+    { "phrase": "Further research is needed...", "meaning": "추가 연구가 필요합니다" },
+    { "phrase": "In conclusion, we can state...", "meaning": "결론적으로 말할 수 있는 것은..." }
+  ]
+}

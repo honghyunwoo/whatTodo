@@ -1,0 +1,33 @@
+{
+  "id": "b1-u3-l1",
+  "unitId": "b1-u3",
+  "levelId": "b1",
+  "lessonNumber": 1,
+  "title": "Travel Planning",
+  "titleKo": "여행 계획",
+  "subtitle": "Plan trips and make reservations",
+  "subtitleKo": "여행 계획하고 예약하기",
+  "theme": "travel",
+  "estimatedMinutes": 15,
+  "keyPhrasesCount": 5,
+  "prerequisites": ["b1-u2-l2"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-5",
+  "objectives": [
+    "Discuss travel preferences",
+    "Make and modify reservations",
+    "Handle travel problems"
+  ],
+  "objectivesKo": [
+    "여행 선호도 이야기하기",
+    "예약하고 변경하기",
+    "여행 문제 대처하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "I'd prefer a window seat", "meaning": "창가 좌석을 선호해요" },
+    { "phrase": "Is it possible to change...?", "meaning": "...을 변경할 수 있나요?" },
+    { "phrase": "My flight was cancelled", "meaning": "비행기가 취소됐어요" },
+    { "phrase": "What's included in the package?", "meaning": "패키지에 뭐가 포함되나요?" },
+    { "phrase": "I need to extend my stay", "meaning": "숙박을 연장해야 해요" }
+  ]
+}

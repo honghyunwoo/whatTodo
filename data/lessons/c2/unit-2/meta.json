@@ -1,0 +1,23 @@
+{
+  "id": "c2-u2",
+  "levelId": "c2",
+  "unitNumber": 2,
+  "title": "Expert Communication",
+  "titleKo": "전문 분야 마스터",
+  "description": "Communicate as a thought leader.",
+  "descriptionKo": "사상적 리더로서 소통하세요.",
+  "icon": "trophy",
+  "themeColor": "#FF9800",
+  "lessons": ["c2-u2-l1", "c2-u2-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Lead expert discussions",
+    "Influence through ideas",
+    "Establish thought leadership"
+  ],
+  "objectivesKo": [
+    "전문가 토론 이끌기",
+    "아이디어로 영향력 행사하기",
+    "사상적 리더십 확립하기"
+  ]
+}

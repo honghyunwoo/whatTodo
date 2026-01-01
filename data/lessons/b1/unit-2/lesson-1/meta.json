@@ -1,0 +1,33 @@
+{
+  "id": "b1-u2-l1",
+  "unitId": "b1-u2",
+  "levelId": "b1",
+  "lessonNumber": 1,
+  "title": "Business Meetings",
+  "titleKo": "비즈니스 회의",
+  "subtitle": "Run and participate in meetings",
+  "subtitleKo": "회의 진행 및 참여하기",
+  "theme": "meetings",
+  "estimatedMinutes": 15,
+  "keyPhrasesCount": 5,
+  "prerequisites": ["b1-u1-l2"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-3",
+  "objectives": [
+    "Open and close meetings professionally",
+    "Present agenda items clearly",
+    "Handle Q&A sessions"
+  ],
+  "objectivesKo": [
+    "전문적으로 회의 시작하고 마무리하기",
+    "안건을 명확하게 발표하기",
+    "질의응답 세션 진행하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "Let's get started", "meaning": "시작하겠습니다" },
+    { "phrase": "Moving on to the next point", "meaning": "다음 안건으로 넘어가겠습니다" },
+    { "phrase": "Any questions so far?", "meaning": "여기까지 질문 있으신가요?" },
+    { "phrase": "To conclude today's meeting", "meaning": "오늘 회의를 마무리하자면" },
+    { "phrase": "Let's schedule a follow-up", "meaning": "후속 회의를 잡읍시다" }
+  ]
+}

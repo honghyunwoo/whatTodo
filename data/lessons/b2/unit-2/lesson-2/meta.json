@@ -1,0 +1,34 @@
+{
+  "id": "b2-u2-l2",
+  "unitId": "b2-u2",
+  "levelId": "b2",
+  "lessonNumber": 2,
+  "title": "Critical Thinking",
+  "titleKo": "비판적 사고",
+  "subtitle": "Analyze and evaluate ideas critically",
+  "subtitleKo": "아이디어를 비판적으로 분석하고 평가하기",
+  "theme": "critical",
+  "estimatedMinutes": 20,
+  "keyPhrasesCount": 6,
+  "prerequisites": ["b2-u2-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-4",
+  "objectives": [
+    "Identify logical fallacies",
+    "Evaluate sources critically",
+    "Propose alternative perspectives"
+  ],
+  "objectivesKo": [
+    "논리적 오류 식별하기",
+    "출처를 비판적으로 평가하기",
+    "대안적 관점 제시하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "This assumption is flawed because...", "meaning": "이 가정은 ...이유로 결함이 있습니다" },
+    { "phrase": "Looking at it from another angle...", "meaning": "다른 각도에서 보면..." },
+    { "phrase": "The weakness of this argument is...", "meaning": "이 논거의 약점은..." },
+    { "phrase": "What's the source of this claim?", "meaning": "이 주장의 출처는 무엇인가요?" },
+    { "phrase": "A more balanced view would be...", "meaning": "더 균형 잡힌 관점은..." },
+    { "phrase": "This overlooks the fact that...", "meaning": "이것은 ...사실을 간과합니다" }
+  ]
+}

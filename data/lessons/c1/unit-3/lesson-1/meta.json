@@ -1,0 +1,35 @@
+{
+  "id": "c1-u3-l1",
+  "unitId": "c1-u3",
+  "levelId": "c1",
+  "lessonNumber": 1,
+  "title": "Leadership Communication",
+  "titleKo": "리더십 커뮤니케이션",
+  "subtitle": "Inspire and lead with words",
+  "subtitleKo": "말로 영감을 주고 이끌기",
+  "theme": "leadership",
+  "estimatedMinutes": 25,
+  "keyPhrasesCount": 7,
+  "prerequisites": ["c1-u2-l2"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-5",
+  "objectives": [
+    "Motivate team members",
+    "Deliver constructive feedback",
+    "Navigate difficult conversations"
+  ],
+  "objectivesKo": [
+    "팀원 동기부여하기",
+    "건설적인 피드백 전달하기",
+    "어려운 대화 다루기"
+  ],
+  "keyPhrases": [
+    { "phrase": "I have full confidence in you", "meaning": "당신을 전적으로 신뢰합니다" },
+    { "phrase": "Let's leverage our strengths", "meaning": "우리의 강점을 활용합시다" },
+    { "phrase": "I appreciate your candor", "meaning": "솔직함에 감사드립니다" },
+    { "phrase": "There's room for improvement in...", "meaning": "...에 개선의 여지가 있습니다" },
+    { "phrase": "Let's find a win-win solution", "meaning": "윈-윈 해결책을 찾읍시다" },
+    { "phrase": "I take full responsibility for...", "meaning": "...에 대해 전적으로 책임집니다" },
+    { "phrase": "We need to pivot our approach", "meaning": "접근 방식을 바꿔야 합니다" }
+  ]
+}

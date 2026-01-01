@@ -1,0 +1,35 @@
+{
+  "id": "c1-u2-l2",
+  "unitId": "c1-u2",
+  "levelId": "c1",
+  "lessonNumber": 2,
+  "title": "Academic Presentation",
+  "titleKo": "학술 발표",
+  "subtitle": "Deliver impactful academic presentations",
+  "subtitleKo": "영향력 있는 학술 발표하기",
+  "theme": "presentation",
+  "estimatedMinutes": 25,
+  "keyPhrasesCount": 7,
+  "prerequisites": ["c1-u2-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-4",
+  "objectives": [
+    "Structure presentations logically",
+    "Handle Q&A confidently",
+    "Engage academic audiences"
+  ],
+  "objectivesKo": [
+    "발표를 논리적으로 구성하기",
+    "Q&A를 자신있게 진행하기",
+    "학술 청중 참여시키기"
+  ],
+  "keyPhrases": [
+    { "phrase": "Today I'll be presenting...", "meaning": "오늘 ...을 발표하겠습니다" },
+    { "phrase": "As you can see from this graph...", "meaning": "이 그래프에서 보시다시피..." },
+    { "phrase": "This brings me to my next point", "meaning": "다음 요점으로 넘어가겠습니다" },
+    { "phrase": "To reiterate the key findings...", "meaning": "핵심 결과를 다시 말씀드리면..." },
+    { "phrase": "I'd be happy to take questions", "meaning": "질문 받겠습니다" },
+    { "phrase": "That's an interesting observation", "meaning": "흥미로운 관찰이시네요" },
+    { "phrase": "To address your concern...", "meaning": "귀하의 우려에 대해 말씀드리면..." }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "c2-u4-l2",
+  "unitId": "c2-u4",
+  "levelId": "c2",
+  "lessonNumber": 2,
+  "title": "Mastery",
+  "titleKo": "완전 마스터",
+  "subtitle": "Achieve complete English mastery",
+  "subtitleKo": "완전한 영어 마스터리 달성하기",
+  "theme": "mastery",
+  "estimatedMinutes": 30,
+  "keyPhrasesCount": 8,
+  "prerequisites": ["c2-u4-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-8",
+  "objectives": [
+    "Communicate with complete freedom",
+    "Navigate any linguistic situation",
+    "Express yourself like a native"
+  ],
+  "objectivesKo": [
+    "완전히 자유롭게 소통하기",
+    "어떤 언어 상황이든 다루기",
+    "원어민처럼 표현하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "In layman's terms...", "meaning": "쉽게 말하면..." },
+    { "phrase": "To put it in perspective...", "meaning": "관점에서 보면..." },
+    { "phrase": "The crux of the matter is...", "meaning": "문제의 핵심은..." },
+    { "phrase": "Without a shadow of a doubt", "meaning": "조금의 의심도 없이" },
+    { "phrase": "When all is said and done", "meaning": "결국에는" },
+    { "phrase": "It goes without saying that...", "meaning": "말할 것도 없이..." },
+    { "phrase": "To each their own", "meaning": "각자의 취향이니까요" },
+    { "phrase": "That really resonates with me", "meaning": "정말 공감돼요" }
+  ]
+}

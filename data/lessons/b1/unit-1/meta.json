@@ -1,0 +1,23 @@
+{
+  "id": "b1-u1",
+  "levelId": "b1",
+  "unitNumber": 1,
+  "title": "Sharing Opinions",
+  "titleKo": "의견 나누기",
+  "description": "Learn to express your thoughts and engage in discussions.",
+  "descriptionKo": "자신의 생각을 표현하고 토론에 참여하는 방법을 배웁니다.",
+  "icon": "chatbubbles",
+  "themeColor": "#2196F3",
+  "lessons": ["b1-u1-l1", "b1-u1-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Express opinions clearly",
+    "Agree and disagree politely",
+    "Support arguments with reasons"
+  ],
+  "objectivesKo": [
+    "의견을 명확하게 표현하기",
+    "공손하게 동의하고 반대하기",
+    "이유를 들어 주장 뒷받침하기"
+  ]
+}

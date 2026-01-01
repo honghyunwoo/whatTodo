@@ -1,0 +1,33 @@
+{
+  "id": "a2-u2-l2",
+  "unitId": "a2-u2",
+  "levelId": "a2",
+  "lessonNumber": 2,
+  "title": "Public Services",
+  "titleKo": "공공 서비스 이용",
+  "subtitle": "Use banks, post offices, and government offices",
+  "subtitleKo": "은행, 우체국, 관공서 이용하기",
+  "theme": "services",
+  "estimatedMinutes": 15,
+  "keyPhrasesCount": 5,
+  "prerequisites": ["a2-u2-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-4",
+  "objectives": [
+    "Handle bank transactions",
+    "Send packages at post office",
+    "Make inquiries at government offices"
+  ],
+  "objectivesKo": [
+    "은행 업무 처리하기",
+    "우체국에서 택배 보내기",
+    "관공서에서 문의하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "I'd like to open an account", "meaning": "계좌를 개설하고 싶어요" },
+    { "phrase": "How much is shipping?", "meaning": "배송비가 얼마예요?" },
+    { "phrase": "I need to fill out a form", "meaning": "양식을 작성해야 해요" },
+    { "phrase": "What documents do I need?", "meaning": "어떤 서류가 필요해요?" },
+    { "phrase": "Please take a number", "meaning": "번호표를 뽑으세요" }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "b1-u3",
+  "levelId": "b1",
+  "unitNumber": 3,
+  "title": "Travel & Culture",
+  "titleKo": "여행",
+  "description": "Navigate travel situations and cultural exchanges.",
+  "descriptionKo": "여행 상황과 문화 교류를 다루세요.",
+  "icon": "airplane",
+  "themeColor": "#9C27B0",
+  "lessons": ["b1-u3-l1", "b1-u3-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Plan and discuss travel arrangements",
+    "Handle unexpected travel situations",
+    "Engage in cultural exchanges"
+  ],
+  "objectivesKo": [
+    "여행 계획 세우고 논의하기",
+    "예상치 못한 여행 상황 대처하기",
+    "문화 교류에 참여하기"
+  ]
+}

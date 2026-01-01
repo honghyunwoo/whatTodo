@@ -1,0 +1,33 @@
+{
+  "id": "b1-u4-l2",
+  "unitId": "b1-u4",
+  "levelId": "b1",
+  "lessonNumber": 2,
+  "title": "Social Media",
+  "titleKo": "소셜 미디어",
+  "subtitle": "Navigate social media in English",
+  "subtitleKo": "영어로 소셜 미디어 사용하기",
+  "theme": "social",
+  "estimatedMinutes": 15,
+  "keyPhrasesCount": 5,
+  "prerequisites": ["b1-u4-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-8",
+  "objectives": [
+    "Use social media vocabulary",
+    "Engage in online discussions",
+    "Understand digital etiquette"
+  ],
+  "objectivesKo": [
+    "소셜 미디어 어휘 사용하기",
+    "온라인 토론 참여하기",
+    "디지털 에티켓 이해하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "Have you seen the viral post?", "meaning": "그 바이럴 게시물 봤어요?" },
+    { "phrase": "I'll DM you", "meaning": "DM 보낼게요" },
+    { "phrase": "That's trending right now", "meaning": "지금 트렌드예요" },
+    { "phrase": "Don't forget to like and share", "meaning": "좋아요와 공유 잊지 마세요" },
+    { "phrase": "I unfollowed them because...", "meaning": "...해서 언팔했어요" }
+  ]
+}

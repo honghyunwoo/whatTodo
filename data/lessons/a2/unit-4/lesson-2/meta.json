@@ -1,0 +1,33 @@
+{
+  "id": "a2-u4-l2",
+  "unitId": "a2-u4",
+  "levelId": "a2",
+  "lessonNumber": 2,
+  "title": "Safety First",
+  "titleKo": "안전 수칙",
+  "subtitle": "Handle emergencies and stay safe",
+  "subtitleKo": "비상 상황 대처하고 안전 지키기",
+  "theme": "safety",
+  "estimatedMinutes": 15,
+  "keyPhrasesCount": 5,
+  "prerequisites": ["a2-u4-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-8",
+  "objectives": [
+    "Report emergencies",
+    "Ask for help in dangerous situations",
+    "Understand safety signs and warnings"
+  ],
+  "objectivesKo": [
+    "비상 상황 신고하기",
+    "위험 상황에서 도움 요청하기",
+    "안전 표지와 경고 이해하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "Please call an ambulance", "meaning": "구급차 불러 주세요" },
+    { "phrase": "There's an emergency", "meaning": "응급 상황이에요" },
+    { "phrase": "Is it safe here?", "meaning": "여기 안전해요?" },
+    { "phrase": "Watch out for...", "meaning": "...을 조심하세요" },
+    { "phrase": "Exit is this way", "meaning": "출구가 이쪽이에요" }
+  ]
+}

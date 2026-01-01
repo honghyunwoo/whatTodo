@@ -1,0 +1,23 @@
+{
+  "id": "a2-u3",
+  "levelId": "a2",
+  "unitNumber": 3,
+  "title": "Leisure Activities",
+  "titleKo": "여가 활동",
+  "description": "Express hobbies and enjoy entertainment.",
+  "descriptionKo": "취미를 표현하고 오락을 즐기세요.",
+  "icon": "game-controller",
+  "themeColor": "#9C27B0",
+  "lessons": ["a2-u3-l1", "a2-u3-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Talk about hobbies and interests",
+    "Make recommendations for entertainment",
+    "Book tickets and make reservations"
+  ],
+  "objectivesKo": [
+    "취미와 관심사에 대해 이야기하기",
+    "오락 추천하기",
+    "티켓 예매하고 예약하기"
+  ]
+}

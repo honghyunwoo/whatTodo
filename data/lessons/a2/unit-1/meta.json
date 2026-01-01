@@ -1,0 +1,23 @@
+{
+  "id": "a2-u1",
+  "levelId": "a2",
+  "unitNumber": 1,
+  "title": "Daily Life Extended",
+  "titleKo": "일상 심화",
+  "description": "Expand your daily conversation skills with more detailed expressions.",
+  "descriptionKo": "더 자세한 표현으로 일상 대화 능력을 확장하세요.",
+  "icon": "home",
+  "themeColor": "#2196F3",
+  "lessons": ["a2-u1-l1", "a2-u1-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Describe daily routines in detail",
+    "Discuss weather and seasons",
+    "Express habits and preferences"
+  ],
+  "objectivesKo": [
+    "일과를 상세히 설명하기",
+    "날씨와 계절에 대해 이야기하기",
+    "습관과 선호도 표현하기"
+  ]
+}

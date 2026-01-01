@@ -1,0 +1,23 @@
+{
+  "id": "b2-u2",
+  "levelId": "b2",
+  "unitNumber": 2,
+  "title": "Argumentation",
+  "titleKo": "논쟁과 설득",
+  "description": "Master persuasion and critical thinking.",
+  "descriptionKo": "설득과 비판적 사고를 마스터하세요.",
+  "icon": "git-compare",
+  "themeColor": "#FF9800",
+  "lessons": ["b2-u2-l1", "b2-u2-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Build persuasive arguments",
+    "Analyze and critique ideas",
+    "Propose alternative solutions"
+  ],
+  "objectivesKo": [
+    "설득력 있는 논거 구축하기",
+    "아이디어 분석하고 비평하기",
+    "대안 제시하기"
+  ]
+}

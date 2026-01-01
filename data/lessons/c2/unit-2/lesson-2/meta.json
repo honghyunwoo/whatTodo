@@ -1,0 +1,36 @@
+{
+  "id": "c2-u2-l2",
+  "unitId": "c2-u2",
+  "levelId": "c2",
+  "lessonNumber": 2,
+  "title": "Thought Leadership",
+  "titleKo": "사상 리더십",
+  "subtitle": "Influence and inspire others",
+  "subtitleKo": "영향력 행사하고 영감 주기",
+  "theme": "leadership",
+  "estimatedMinutes": 30,
+  "keyPhrasesCount": 8,
+  "prerequisites": ["c2-u2-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-4",
+  "objectives": [
+    "Articulate innovative ideas",
+    "Build and share your vision",
+    "Lead industry conversations"
+  ],
+  "objectivesKo": [
+    "혁신적 아이디어 표현하기",
+    "비전 구축하고 공유하기",
+    "업계 대화 이끌기"
+  ],
+  "keyPhrases": [
+    { "phrase": "I envision a future where...", "meaning": "저는 ...한 미래를 그립니다" },
+    { "phrase": "This challenges conventional wisdom", "meaning": "이것은 기존 통념에 도전합니다" },
+    { "phrase": "We're at an inflection point", "meaning": "변곡점에 있습니다" },
+    { "phrase": "The trajectory is clear", "meaning": "궤적은 분명합니다" },
+    { "phrase": "Let me paint a picture for you", "meaning": "그림을 그려 드리겠습니다" },
+    { "phrase": "This is the tipping point", "meaning": "이것이 티핑 포인트입니다" },
+    { "phrase": "We must embrace disruption", "meaning": "파괴적 혁신을 받아들여야 합니다" },
+    { "phrase": "The stakes couldn't be higher", "meaning": "이보다 중요할 수 없습니다" }
+  ]
+}

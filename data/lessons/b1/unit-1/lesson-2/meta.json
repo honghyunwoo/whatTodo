@@ -1,0 +1,33 @@
+{
+  "id": "b1-u1-l2",
+  "unitId": "b1-u1",
+  "levelId": "b1",
+  "lessonNumber": 2,
+  "title": "Discussion Skills",
+  "titleKo": "토론 기술",
+  "subtitle": "Participate in productive discussions",
+  "subtitleKo": "생산적인 토론에 참여하기",
+  "theme": "discussion",
+  "estimatedMinutes": 15,
+  "keyPhrasesCount": 5,
+  "prerequisites": ["b1-u1-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-2",
+  "objectives": [
+    "Engage in group discussions",
+    "Counter arguments respectfully",
+    "Summarize and conclude discussions"
+  ],
+  "objectivesKo": [
+    "그룹 토론에 참여하기",
+    "정중하게 반론하기",
+    "토론 요약하고 결론 내리기"
+  ],
+  "keyPhrases": [
+    { "phrase": "I see your point, but...", "meaning": "말씀은 알겠지만..." },
+    { "phrase": "That's a good argument", "meaning": "좋은 논거네요" },
+    { "phrase": "To summarize...", "meaning": "요약하자면..." },
+    { "phrase": "Let me add to that...", "meaning": "덧붙이자면..." },
+    { "phrase": "We can agree that...", "meaning": "...에 동의할 수 있겠네요" }
+  ]
+}

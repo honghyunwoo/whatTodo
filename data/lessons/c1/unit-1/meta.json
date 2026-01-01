@@ -1,0 +1,23 @@
+{
+  "id": "c1-u1",
+  "levelId": "c1",
+  "unitNumber": 1,
+  "title": "Advanced Vocabulary",
+  "titleKo": "고급 어휘",
+  "description": "Master advanced vocabulary and idiomatic expressions.",
+  "descriptionKo": "고급 어휘와 관용 표현을 마스터하세요.",
+  "icon": "library",
+  "themeColor": "#2196F3",
+  "lessons": ["c1-u1-l1", "c1-u1-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Use idioms naturally in context",
+    "Understand nuanced expressions",
+    "Adjust register appropriately"
+  ],
+  "objectivesKo": [
+    "관용어를 문맥에 맞게 자연스럽게 사용하기",
+    "미묘한 표현 이해하기",
+    "적절하게 격식 조절하기"
+  ]
+}

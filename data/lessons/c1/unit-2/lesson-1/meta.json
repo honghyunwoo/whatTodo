@@ -1,0 +1,35 @@
+{
+  "id": "c1-u2-l1",
+  "unitId": "c1-u2",
+  "levelId": "c1",
+  "lessonNumber": 1,
+  "title": "Research Writing",
+  "titleKo": "연구 글쓰기",
+  "subtitle": "Write effective research papers",
+  "subtitleKo": "효과적인 연구 논문 작성하기",
+  "theme": "research",
+  "estimatedMinutes": 25,
+  "keyPhrasesCount": 7,
+  "prerequisites": ["c1-u1-l2"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-3",
+  "objectives": [
+    "Structure research papers effectively",
+    "Cite sources properly",
+    "Draw valid conclusions"
+  ],
+  "objectivesKo": [
+    "연구 논문을 효과적으로 구성하기",
+    "출처를 올바르게 인용하기",
+    "타당한 결론 도출하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "The literature suggests that...", "meaning": "문헌에 따르면..." },
+    { "phrase": "This study aims to investigate...", "meaning": "본 연구는 ...을 조사하고자 합니다" },
+    { "phrase": "The methodology employed...", "meaning": "사용된 방법론은..." },
+    { "phrase": "The data was analyzed using...", "meaning": "데이터는 ...을 사용하여 분석되었습니다" },
+    { "phrase": "It can be concluded that...", "meaning": "...라고 결론지을 수 있습니다" },
+    { "phrase": "Limitations of this study include...", "meaning": "본 연구의 한계는..." },
+    { "phrase": "Future research should explore...", "meaning": "향후 연구에서는 ...을 탐구해야 합니다" }
+  ]
+}

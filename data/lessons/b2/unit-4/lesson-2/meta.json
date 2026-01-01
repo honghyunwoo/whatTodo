@@ -1,0 +1,34 @@
+{
+  "id": "b2-u4-l2",
+  "unitId": "b2-u4",
+  "levelId": "b2",
+  "lessonNumber": 2,
+  "title": "Film & Music",
+  "titleKo": "영화와 음악",
+  "subtitle": "Review and recommend media",
+  "subtitleKo": "미디어 리뷰하고 추천하기",
+  "theme": "media",
+  "estimatedMinutes": 20,
+  "keyPhrasesCount": 6,
+  "prerequisites": ["b2-u4-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-8",
+  "objectives": [
+    "Write compelling reviews",
+    "Make sophisticated recommendations",
+    "Discuss film and music techniques"
+  ],
+  "objectivesKo": [
+    "설득력 있는 리뷰 작성하기",
+    "세련된 추천하기",
+    "영화와 음악 기법 토론하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "The director's vision is...", "meaning": "감독의 비전은..." },
+    { "phrase": "The cinematography captures...", "meaning": "촬영 기법이 ...을 포착합니다" },
+    { "phrase": "The soundtrack enhances...", "meaning": "사운드트랙이 ...을 향상시킵니다" },
+    { "phrase": "This reminds me of...", "meaning": "이것은 ...을 떠올리게 합니다" },
+    { "phrase": "If you liked X, you'll love Y", "meaning": "X를 좋아했다면 Y도 좋아할 거예요" },
+    { "phrase": "The performance was outstanding", "meaning": "연기가 뛰어났습니다" }
+  ]
+}

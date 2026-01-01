@@ -1,0 +1,33 @@
+{
+  "id": "a2-u4-l1",
+  "unitId": "a2-u4",
+  "levelId": "a2",
+  "lessonNumber": 1,
+  "title": "Health Care",
+  "titleKo": "건강 관리",
+  "subtitle": "Visit doctors and pharmacies",
+  "subtitleKo": "병원과 약국 이용하기",
+  "theme": "health",
+  "estimatedMinutes": 15,
+  "keyPhrasesCount": 5,
+  "prerequisites": ["a2-u3-l2"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-7",
+  "objectives": [
+    "Describe symptoms to a doctor",
+    "Make medical appointments",
+    "Understand medicine instructions"
+  ],
+  "objectivesKo": [
+    "의사에게 증상 설명하기",
+    "진료 예약하기",
+    "약 복용법 이해하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "I have a headache", "meaning": "머리가 아파요" },
+    { "phrase": "I'd like to make an appointment", "meaning": "예약하고 싶어요" },
+    { "phrase": "Take this twice a day", "meaning": "하루에 두 번 드세요" },
+    { "phrase": "I'm allergic to...", "meaning": "...에 알레르기가 있어요" },
+    { "phrase": "How long have you felt this way?", "meaning": "얼마나 이랬어요?" }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "c2-u2-l1",
+  "unitId": "c2-u2",
+  "levelId": "c2",
+  "lessonNumber": 1,
+  "title": "Expert Communication",
+  "titleKo": "전문가 소통",
+  "subtitle": "Communicate at the highest level",
+  "subtitleKo": "최고 수준에서 소통하기",
+  "theme": "expert",
+  "estimatedMinutes": 30,
+  "keyPhrasesCount": 8,
+  "prerequisites": ["c2-u1-l2"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-3",
+  "objectives": [
+    "Engage in expert-level debates",
+    "Analyze complex topics deeply",
+    "Present sophisticated arguments"
+  ],
+  "objectivesKo": [
+    "전문가 수준 토론 참여하기",
+    "복잡한 주제 심층 분석하기",
+    "세련된 논거 발표하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "From a theoretical standpoint...", "meaning": "이론적 관점에서..." },
+    { "phrase": "The paradigm shift indicates...", "meaning": "패러다임 전환은 ...을 나타냅니다" },
+    { "phrase": "Empirical evidence suggests...", "meaning": "경험적 증거에 따르면..." },
+    { "phrase": "This warrants further scrutiny", "meaning": "이것은 추가 조사가 필요합니다" },
+    { "phrase": "The implications are far-reaching", "meaning": "그 함의는 광범위합니다" },
+    { "phrase": "It's a double-edged sword", "meaning": "양날의 검이에요" },
+    { "phrase": "We must unpack this complexity", "meaning": "이 복잡성을 분석해야 합니다" },
+    { "phrase": "The nuance is often overlooked", "meaning": "뉘앙스가 종종 간과됩니다" }
+  ]
+}

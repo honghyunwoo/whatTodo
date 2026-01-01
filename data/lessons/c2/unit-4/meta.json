@@ -1,0 +1,23 @@
+{
+  "id": "c2-u4",
+  "levelId": "c2",
+  "unitNumber": 4,
+  "title": "Complete Mastery",
+  "titleKo": "마스터 레벨",
+  "description": "Achieve complete English mastery.",
+  "descriptionKo": "완전한 영어 마스터리를 달성하세요.",
+  "icon": "ribbon",
+  "themeColor": "#F44336",
+  "lessons": ["c2-u4-l1", "c2-u4-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Navigate any situation in English",
+    "Adapt perfectly to any context",
+    "Communicate with complete fluency"
+  ],
+  "objectivesKo": [
+    "어떤 상황이든 영어로 다루기",
+    "어떤 맥락에든 완벽히 적응하기",
+    "완전히 유창하게 소통하기"
+  ]
+}

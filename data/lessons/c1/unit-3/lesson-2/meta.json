@@ -1,0 +1,35 @@
+{
+  "id": "c1-u3-l2",
+  "unitId": "c1-u3",
+  "levelId": "c1",
+  "lessonNumber": 2,
+  "title": "Strategic Planning",
+  "titleKo": "전략 기획",
+  "subtitle": "Plan and communicate strategy",
+  "subtitleKo": "전략을 계획하고 소통하기",
+  "theme": "strategy",
+  "estimatedMinutes": 25,
+  "keyPhrasesCount": 7,
+  "prerequisites": ["c1-u3-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-6",
+  "objectives": [
+    "Articulate strategic vision",
+    "Present business plans",
+    "Coordinate cross-functional teams"
+  ],
+  "objectivesKo": [
+    "전략적 비전 표현하기",
+    "사업 계획 발표하기",
+    "부서간 팀 조율하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "Our strategic objective is...", "meaning": "우리의 전략적 목표는..." },
+    { "phrase": "The roadmap includes...", "meaning": "로드맵에는 ...이 포함됩니다" },
+    { "phrase": "Key performance indicators are...", "meaning": "핵심 성과 지표는..." },
+    { "phrase": "We need to align on priorities", "meaning": "우선순위를 맞춰야 합니다" },
+    { "phrase": "The ROI is projected to be...", "meaning": "ROI는 ...로 예상됩니다" },
+    { "phrase": "Let's circle back on this", "meaning": "이 건은 나중에 다시 논의합시다" },
+    { "phrase": "We're on track to achieve...", "meaning": "...를 달성할 예정입니다" }
+  ]
+}

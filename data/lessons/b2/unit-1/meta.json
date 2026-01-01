@@ -1,0 +1,23 @@
+{
+  "id": "b2-u1",
+  "levelId": "b2",
+  "unitNumber": 1,
+  "title": "Professional English",
+  "titleKo": "전문 분야",
+  "description": "Master academic and technical English.",
+  "descriptionKo": "학술 및 기술 영어를 마스터하세요.",
+  "icon": "school",
+  "themeColor": "#2196F3",
+  "lessons": ["b2-u1-l1", "b2-u1-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Use academic vocabulary confidently",
+    "Write technical documents",
+    "Present research findings"
+  ],
+  "objectivesKo": [
+    "학술 어휘 자신있게 사용하기",
+    "기술 문서 작성하기",
+    "연구 결과 발표하기"
+  ]
+}

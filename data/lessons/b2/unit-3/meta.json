@@ -1,0 +1,23 @@
+{
+  "id": "b2-u3",
+  "levelId": "b2",
+  "unitNumber": 3,
+  "title": "Social Issues",
+  "titleKo": "사회 이슈",
+  "description": "Discuss complex social topics confidently.",
+  "descriptionKo": "복잡한 사회 주제를 자신있게 토론하세요.",
+  "icon": "earth",
+  "themeColor": "#9C27B0",
+  "lessons": ["b2-u3-l1", "b2-u3-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Discuss current events intelligently",
+    "Analyze social problems",
+    "Propose solutions to issues"
+  ],
+  "objectivesKo": [
+    "시사를 지적으로 토론하기",
+    "사회 문제 분석하기",
+    "문제에 대한 해결책 제안하기"
+  ]
+}

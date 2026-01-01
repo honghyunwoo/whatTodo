@@ -1,0 +1,36 @@
+{
+  "id": "c2-u1-l1",
+  "unitId": "c2-u1",
+  "levelId": "c2",
+  "lessonNumber": 1,
+  "title": "Native Expressions",
+  "titleKo": "원어민 표현",
+  "subtitle": "Master native-level expressions",
+  "subtitleKo": "원어민 수준 표현 마스터하기",
+  "theme": "native",
+  "estimatedMinutes": 30,
+  "keyPhrasesCount": 8,
+  "prerequisites": [],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-1",
+  "objectives": [
+    "Use contemporary slang",
+    "Understand colloquial speech",
+    "Navigate regional variations"
+  ],
+  "objectivesKo": [
+    "현대 슬랭 사용하기",
+    "구어체 이해하기",
+    "지역별 차이 다루기"
+  ],
+  "keyPhrases": [
+    { "phrase": "That's a no-brainer", "meaning": "그건 당연하죠" },
+    { "phrase": "I'm totally swamped", "meaning": "일에 완전 파묻혀 있어요" },
+    { "phrase": "Let's play it by ear", "meaning": "상황 봐서 정하죠" },
+    { "phrase": "You're barking up the wrong tree", "meaning": "헛다리 짚고 있어요" },
+    { "phrase": "That's a game-changer", "meaning": "판도를 바꾸는 거예요" },
+    { "phrase": "I'll take a rain check", "meaning": "다음에 하죠" },
+    { "phrase": "Break a leg!", "meaning": "행운을 빌어요!" },
+    { "phrase": "That hit the nail on the head", "meaning": "정곡을 찔렀어요" }
+  ]
+}

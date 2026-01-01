@@ -1,0 +1,33 @@
+{
+  "id": "b1-u3-l2",
+  "unitId": "b1-u3",
+  "levelId": "b1",
+  "lessonNumber": 2,
+  "title": "Cultural Exchange",
+  "titleKo": "문화 교류",
+  "subtitle": "Share and learn about cultures",
+  "subtitleKo": "문화 공유하고 배우기",
+  "theme": "culture",
+  "estimatedMinutes": 15,
+  "keyPhrasesCount": 5,
+  "prerequisites": ["b1-u3-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-6",
+  "objectives": [
+    "Introduce your culture to others",
+    "Compare cultural practices",
+    "Show respect for cultural differences"
+  ],
+  "objectivesKo": [
+    "다른 사람에게 문화 소개하기",
+    "문화적 관습 비교하기",
+    "문화적 차이 존중하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "In Korea, we usually...", "meaning": "한국에서는 보통..." },
+    { "phrase": "That's interesting, here we...", "meaning": "흥미롭네요, 여기서는..." },
+    { "phrase": "Is it appropriate to...?", "meaning": "...해도 괜찮은가요?" },
+    { "phrase": "I'd love to try that", "meaning": "그거 해보고 싶어요" },
+    { "phrase": "How do you celebrate...?", "meaning": "...을 어떻게 축하하나요?" }
+  ]
+}

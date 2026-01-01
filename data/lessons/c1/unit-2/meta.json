@@ -1,0 +1,23 @@
+{
+  "id": "c1-u2",
+  "levelId": "c1",
+  "unitNumber": 2,
+  "title": "Academic Excellence",
+  "titleKo": "학술 영어",
+  "description": "Excel in academic writing and presentations.",
+  "descriptionKo": "학술 글쓰기와 발표에서 뛰어나세요.",
+  "icon": "school",
+  "themeColor": "#FF9800",
+  "lessons": ["c1-u2-l1", "c1-u2-l2"],
+  "promotionTestRequired": true,
+  "objectives": [
+    "Write research papers",
+    "Deliver academic presentations",
+    "Engage in scholarly debate"
+  ],
+  "objectivesKo": [
+    "연구 논문 작성하기",
+    "학술 발표하기",
+    "학문적 토론 참여하기"
+  ]
+}

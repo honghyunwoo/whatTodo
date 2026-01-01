@@ -1,0 +1,35 @@
+{
+  "id": "c1-u4-l2",
+  "unitId": "c1-u4",
+  "levelId": "c1",
+  "lessonNumber": 2,
+  "title": "Global Issues",
+  "titleKo": "글로벌 이슈",
+  "subtitle": "Discuss worldwide challenges",
+  "subtitleKo": "세계적 도전 토론하기",
+  "theme": "global",
+  "estimatedMinutes": 25,
+  "keyPhrasesCount": 7,
+  "prerequisites": ["c1-u4-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-8",
+  "objectives": [
+    "Analyze global problems",
+    "Propose international solutions",
+    "Advocate for cooperation"
+  ],
+  "objectivesKo": [
+    "글로벌 문제 분석하기",
+    "국제적 해결책 제안하기",
+    "협력 옹호하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "This is a global challenge requiring...", "meaning": "이것은 ...을 요하는 글로벌 과제입니다" },
+    { "phrase": "International cooperation is essential", "meaning": "국제 협력이 필수적입니다" },
+    { "phrase": "The UN has addressed this by...", "meaning": "UN은 ...으로 이를 해결했습니다" },
+    { "phrase": "Developing nations face...", "meaning": "개발도상국은 ...에 직면해 있습니다" },
+    { "phrase": "We must take collective action", "meaning": "집단적 행동을 취해야 합니다" },
+    { "phrase": "Sustainable development goals include...", "meaning": "지속 가능한 개발 목표에는..." },
+    { "phrase": "What role should individuals play?", "meaning": "개인은 어떤 역할을 해야 할까요?" }
+  ]
+}

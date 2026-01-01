@@ -1,0 +1,33 @@
+{
+  "id": "a2-u3-l2",
+  "unitId": "a2-u3",
+  "levelId": "a2",
+  "lessonNumber": 2,
+  "title": "Entertainment",
+  "titleKo": "오락과 문화",
+  "subtitle": "Enjoy movies, music, and cultural events",
+  "subtitleKo": "영화, 음악, 문화 행사 즐기기",
+  "theme": "entertainment",
+  "estimatedMinutes": 15,
+  "keyPhrasesCount": 5,
+  "prerequisites": ["a2-u3-l1"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-6",
+  "objectives": [
+    "Recommend movies and music",
+    "Book tickets for events",
+    "Describe cultural experiences"
+  ],
+  "objectivesKo": [
+    "영화와 음악 추천하기",
+    "행사 티켓 예매하기",
+    "문화 체험 설명하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "Have you seen this movie?", "meaning": "이 영화 봤어요?" },
+    { "phrase": "I'd recommend this album", "meaning": "이 앨범 추천해요" },
+    { "phrase": "Two tickets, please", "meaning": "티켓 두 장 주세요" },
+    { "phrase": "The concert was amazing", "meaning": "콘서트 정말 좋았어요" },
+    { "phrase": "What genre do you like?", "meaning": "어떤 장르 좋아해요?" }
+  ]
+}

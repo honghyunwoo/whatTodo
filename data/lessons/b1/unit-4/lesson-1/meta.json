@@ -1,0 +1,33 @@
+{
+  "id": "b1-u4-l1",
+  "unitId": "b1-u4",
+  "levelId": "b1",
+  "lessonNumber": 1,
+  "title": "News & Media",
+  "titleKo": "뉴스와 미디어",
+  "subtitle": "Understand and discuss news",
+  "subtitleKo": "뉴스 이해하고 토론하기",
+  "theme": "news",
+  "estimatedMinutes": 15,
+  "keyPhrasesCount": 5,
+  "prerequisites": ["b1-u3-l2"],
+  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "weekMapping": "week-7",
+  "objectives": [
+    "Understand news vocabulary",
+    "Summarize news articles",
+    "Express opinions on current events"
+  ],
+  "objectivesKo": [
+    "뉴스 어휘 이해하기",
+    "뉴스 기사 요약하기",
+    "시사에 대한 의견 표현하기"
+  ],
+  "keyPhrases": [
+    { "phrase": "According to the report...", "meaning": "보도에 따르면..." },
+    { "phrase": "Breaking news just came in", "meaning": "속보가 방금 들어왔어요" },
+    { "phrase": "The headline says...", "meaning": "헤드라인에 따르면..." },
+    { "phrase": "What do you think about...?", "meaning": "...에 대해 어떻게 생각해요?" },
+    { "phrase": "It's been all over the news", "meaning": "뉴스에서 많이 다뤘어요" }
+  ]
+}
