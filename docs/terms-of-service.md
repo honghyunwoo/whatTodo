@@ -156,8 +156,8 @@
 
 본 약관에 관한 문의사항이 있으시면 아래로 연락해 주세요.
 
-- **이메일**: honghyunwoo.dev@gmail.com
-- **GitHub Issues**: https://github.com/honghyunwoo/whatTodo/issues
+- **이메일**: hhynooo@gmail.com
+- **GitHub Issues**: https://github.com/hhynooo/whatTodo/issues
 
 ---
 
@@ -192,5 +192,5 @@ The app is provided "as is" without any warranties. The developer is not respons
 ## Contact
 
 For questions, please contact:
-- Email: honghyunwoo.dev@gmail.com
-- GitHub: https://github.com/honghyunwoo/whatTodo/issues
+- Email: hhynooo@gmail.com
+- GitHub: https://github.com/hhynooo/whatTodo/issues

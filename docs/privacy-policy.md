@@ -105,8 +105,8 @@
 
 개인정보 처리에 관한 문의사항이 있으시면 아래로 연락해 주세요.
 
-- **이메일**: honghyunwoo.dev@gmail.com
-- **GitHub Issues**: https://github.com/honghyunwoo/whatTodo/issues
+- **이메일**: hhynooo@gmail.com
+- **GitHub Issues**: https://github.com/hhynooo/whatTodo/issues
 
 ---
 
@@ -144,5 +144,5 @@ All your data (todos, learning progress, notes, diaries) is stored exclusively o
 ## Contact
 
 For questions about this privacy policy, please contact:
-- Email: honghyunwoo.dev@gmail.com
-- GitHub: https://github.com/honghyunwoo/whatTodo/issues
+- Email: hhynooo@gmail.com
+- GitHub: https://github.com/hhynooo/whatTodo/issues
