@@ -36,15 +36,7 @@ import {
   preloadLevel,
 } from '@/utils/activityLoader';
 
-// Activity types for navigation (reserved for future use)
-const _ACTIVITY_TYPES: ActivityType[] = [
-  'vocabulary',
-  'grammar',
-  'listening',
-  'reading',
-  'speaking',
-  'writing',
-];
+// Activity types - defined in types/activity.ts, imported via ACTIVITY_TYPES from learnStore
 
 export default function ActivityDetailScreen() {
   const { type, weekId } = useLocalSearchParams<{ type: ActivityType; weekId: string }>();

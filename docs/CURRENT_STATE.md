@@ -1,8 +1,38 @@
 # whatTodo 현재 상태
 
-**최종 업데이트**: 2025-12-25 00:00 UTC
+**최종 업데이트**: 2026-01-01 00:00 UTC
 **업데이트한 사람**: Claude (Release Manager)
-**브랜치**: `claude/fix-mobile-touch-input-9Am35`
+**브랜치**: `main`
+
+---
+
+## 📋 진행 상황 체크리스트
+
+### Phase 완료 상태
+- [x] Phase 1: Day 유틸리티 레이어 ✅
+- [x] Phase 2: Day Page 구현 ✅
+- [x] Phase 3: Home Screen Enhancement ✅
+- [x] 코드 품질 개선 (2026-01-01) ✅
+- [ ] 사용자 테스트
+- [ ] 배포 준비
+
+### 레슨 기반 학습 시스템
+- [x] Step 1: 타입 시스템 (`types/lesson.ts`, `types/progress.ts`, `types/test.ts`)
+- [x] Step 2: Store 구현 (`store/lessonStore.ts`, `store/testStore.ts`)
+- [x] Step 3: 데이터 마이그레이션 (`data/lessons/a1/`)
+- [x] Step 4: UI 컴포넌트 (LevelSelector, Lesson 화면)
+- [ ] 전체 레벨 레슨 메타데이터 생성 (현재 A1만)
+- [ ] 레슨 테스트 콘텐츠 추가
+
+### 코드 품질 (2026-01-01)
+- [x] ESLint 경고 97개 → 0개
+- [x] console.log 정리
+- [x] Store 에러 처리 강화
+- [x] 성능 최적화 (useMemo, 상수 추출)
+
+### 탭 구조 변경
+- [x] 4탭 → 5탭 전환 완료
+- [x] 오늘 | 캘린더 | 학습 | 기록 | 설정
 
 ---
 
@@ -71,11 +101,29 @@ data/activities/
 ## 🚧 현재 작업 중
 
 ### 다음 세션 시작점
-- **현재 Phase**: Phase 3 (Home Screen) 완료 ✅ → 사용자 테스트 단계
+- **현재 Phase**: 코드 품질 정리 완료 ✅ → 사용자 테스트 단계
 - **다음 작업**: 사용자 테스트 및 배포 준비
-- **브랜치**: `claude/fix-mobile-touch-input-9Am35`
-- **마지막 커밋**: `2729aad - feat(phase-3): add Today summary and Quick note to home screen`
+- **브랜치**: `main`
+- **마지막 커밋**: `9ef5504 - fix: Critical code quality improvements and performance optimizations`
 - **상용화 진행률**: 66.7% (50/75 자동 검증 완료)
+
+### 2026-01-01 코드 품질 개선 ✅
+
+**Cleanup Phase**:
+- ESLint 경고 97개 → 0개 정리
+- console.log 전면 제거
+- 사용하지 않는 import 정리
+
+**Improve Phase**:
+- `srsStore.ts`: 빈 배열 나눗셈 에러 방지
+- `userStore.ts`: async 작업 try-catch 래핑
+- `SrsReviewSession.tsx`: null 안전성 강화
+- `learnStore.ts`: hydration 에러 처리 강화
+- `learn.tsx`: async 작업 try-catch-finally 적용
+
+**Optimize Phase**:
+- `learn.tsx`: completedToday useMemo 최적화
+- `learn.tsx`: Gradient 상수 컴포넌트 외부 추출
 
 ### 최근 완료한 작업 (Phase 3: Home Screen Enhancement)
 
@@ -235,8 +283,8 @@ data/activities/
 
 **품질 지표**:
 - TypeScript: 0 errors ✅
-- ESLint: 0 errors, 80 warnings ✅
-- Tests: 35/35 passing ✅
+- ESLint: 0 errors, 0 warnings ✅ (2026-01-01 전면 정리)
+- Tests: 51/51 passing ✅
 
 ---
 
@@ -290,9 +338,9 @@ npm run typecheck
 - ✅ borderRadius.xxl 추가 (2개 해결)
 - ✅ tsconfig module: 'esnext' (7개 해결)
 
-#### 6. ESLint 경고 (80개 - 에러 0개)
-- console.log 사용 (다수)
-- unused imports (journalStore, learnStore 등)
+#### 6. ~~ESLint 경고 (80개)~~ → **0개 달성** ✅ (2026-01-01)
+- ~~console.log 사용~~ → 전면 제거
+- ~~unused imports~~ → 정리 완료
 
 #### 7. ~~중복 코드~~ → **검증 완료: 중복 아님**
 - `store/journalStore.ts`: 학습 저널 (ActivityLog, LearningStreak)
@@ -479,5 +527,5 @@ npm test           # Jest (35 tests)
 
 ---
 
-**마지막 확인**: 2025-12-25 (Phase 3 완료, 자동 검증 완료)
+**마지막 확인**: 2026-01-01 (코드 품질 정리 완료, ESLint 0 warnings)
 **다음 업데이트**: 사용자 테스트 완료 후

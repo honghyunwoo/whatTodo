@@ -82,7 +82,8 @@ function SessionLearningComponent({ onComplete, onCancel }: SessionLearningProps
   const [userAnswer, setUserAnswer] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
-  const [similarity, setSimilarity] = useState(0);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars -- setSimilarity is used, value stored for future scoring display
+  const [_similarity, setSimilarity] = useState(0);
   const [currentExpression, setCurrentExpression] = useState<Expression | null>(null);
 
   const inputRef = useRef<TextInput>(null);

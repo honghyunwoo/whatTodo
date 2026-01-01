@@ -49,12 +49,12 @@
 - 서브태스크 관리
 - 반복 작업 지원
 
-### 📚 영어 학습 (8주 마스터 코스)
+### 📚 영어 학습 (레슨 기반 학습)
 
 - **6개 레벨**: A1 (입문) ~ C2 (최상급) - CEFR 기준
-- **8주 코스**: 주당 6개 활동 = 48개/레벨
+- **구조**: 레벨당 4개 유닛, 유닛당 3개 레슨 (총 12레슨/레벨)
 - **6가지 영역**: 어휘, 문법, 듣기, 읽기, 말하기, 쓰기
-- **총 288개 활동**: 모든 학습 콘텐츠 내장
+- **총 288개 활동**: 레슨 기반으로 재구성 (레거시 Week 구조 병행)
 - **한국인 특화**: 발음 팁, 흔한 실수, 기억법 포함
 
 ### 🔄 간격 반복 학습 (SRS)
@@ -182,15 +182,19 @@ npm run lint
 ```
 whatTodo/
 ├── app/                       # 화면 (Expo Router)
-│   ├── (tabs)/               # 탭 네비게이션
-│   │   ├── index.tsx         # 홈 (Day 중심 - Phase 3 ✅)
-│   │   ├── learn.tsx         # 학습
-│   │   └── game.tsx          # 게임
+│   ├── (tabs)/               # 5탭 네비게이션 ✅
+│   │   ├── _layout.tsx       # 탭 레이아웃
+│   │   ├── index.tsx         # 오늘 탭 (Day 중심)
+│   │   ├── calendar.tsx      # 캘린더 탭
+│   │   ├── learn.tsx         # 학습 탭
+│   │   ├── records.tsx       # 기록 탭
+│   │   └── settings.tsx      # 설정 탭
 │   ├── day/                  # Day 관련 (Phase 2 ✅)
 │   │   └── [date].tsx        # Day 페이지 (동적 라우팅)
 │   ├── diary/                # 다이어리
 │   ├── level-test.tsx        # 레벨 테스트
-│   └── settings.tsx          # 설정
+│   └── lesson/               # 레슨 (NEW)
+│       └── [id].tsx          # 레슨 상세 페이지
 ├── components/               # 재사용 컴포넌트
 │   ├── home/                 # 홈 화면 (Phase 3 ✅)
 │   │   ├── TodaySummary.tsx  # 오늘의 요약 카드
@@ -204,13 +208,15 @@ whatTodo/
 │   ├── calendar/             # 캘린더
 │   ├── dashboard/            # 통계 대시보드
 │   └── onboarding/           # 온보딩
-├── store/                    # 상태 관리 (Zustand)
+├── store/                    # 상태 관리 (Zustand, 10개)
 │   ├── taskStore.ts          # Todo 관리
 │   ├── journalStore.ts       # 학습 저널
 │   ├── diaryStore.ts         # 개인 일기
 │   ├── srsStore.ts           # SRS 복습
 │   ├── learnStore.ts         # 학습 활동
-│   └── ...                   # 기타 5개 스토어
+│   ├── lessonStore.ts        # 레슨 진행 (NEW)
+│   ├── testStore.ts          # 레벨 테스트 (NEW)
+│   └── ...                   # 기타 스토어
 ├── utils/                    # 유틸리티 함수
 │   ├── day.ts                # Day 통합 함수 (Phase 1 ✅)
 │   ├── srs.ts                # SRS 알고리즘 (21 tests)
@@ -218,15 +224,15 @@ whatTodo/
 │   ├── statistics.ts         # 통계 계산
 │   └── errorHandler.ts       # 에러 처리
 ├── types/                    # TypeScript 타입
-│   └── day.ts                # Day 관련 타입 (Phase 1 ✅)
+│   ├── day.ts                # Day 관련 타입 (Phase 1 ✅)
+│   ├── lesson.ts             # 레슨 타입 (NEW)
+│   ├── progress.ts           # 진행률 타입 (NEW)
+│   └── test.ts               # 테스트 타입 (NEW)
 ├── data/                     # 학습 콘텐츠 (JSON)
-│   └── activities/           # 레벨별 활동 (288개)
-│       ├── a1/               # 입문 (48개)
-│       ├── a2/               # 초급 (48개)
-│       ├── b1/               # 중급 (48개)
-│       ├── b2/               # 중상급 (48개)
-│       ├── c1/               # 고급 (48개)
-│       └── c2/               # 최상급 (48개)
+│   ├── activities/           # 레벨별 활동 (288개)
+│   │   ├── a1/ ~ c2/         # 레벨별 (각 48개)
+│   └── lessons/              # 레슨 메타데이터 (NEW)
+│       └── a1/               # A1 레슨 매핑
 ├── __tests__/                # 테스트 (51개)
 │   └── utils/
 │       ├── srs.test.ts       # SRS 테스트 (21)
@@ -251,9 +257,9 @@ whatTodo/
 ### 📈 품질 지표
 
 - **TypeScript**: 0 errors ✅
-- **ESLint**: 0 errors, 82 warnings (console.log만) ✅
+- **ESLint**: 0 errors, 0 warnings ✅ (2026-01-01 전면 정리)
 - **Tests**: 51/51 passing ✅
-- **코드 파일**: 649 .ts/.tsx 파일
+- **코드 파일**: 650+ .ts/.tsx 파일
 
 ### 🚀 상용화 진행률
 
@@ -424,14 +430,16 @@ MIT License - 자유롭게 사용, 수정, 배포 가능
 
 ## 🎉 개발 현황
 
-**최신 업데이트**: 2025-12-25
+**최신 업데이트**: 2026-01-01
 
 - ✅ Phase 1-3 완료 (Day 중심 전환)
+- ✅ 탭 구조 변경 (4탭 → 5탭: 오늘|캘린더|학습|기록|설정)
+- ✅ 레슨 기반 학습 시스템 Step 1-4 완료
 - ✅ 51개 테스트 통과
-- ✅ TypeScript/ESLint 0 에러
+- ✅ TypeScript 0 errors, ESLint 0 warnings (97개→0개 정리)
 - ⚠️ 사용자 테스트 진행 중
 
-**다음 단계**: 실제 기기 테스트 → 배포 준비
+**다음 단계**: A2-C2 레슨 메타데이터 생성 → 실제 기기 테스트 → 배포
 
 ---
 

@@ -44,10 +44,13 @@ export default function DayPage() {
   const router = useRouter();
   const { colors, isDark } = useTheme();
 
-  // Store 구독 (변경 감지용)
-  const tasks = useTaskStore((state) => state.tasks);
-  const journalEntries = useJournalStore((state) => state.entries);
-  const diaryEntries = useDiaryStore((state) => state.entries);
+  // Store 구독 (변경 감지용) - 변수 자체는 사용되지 않지만 re-render 트리거에 필요
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const _tasks = useTaskStore((state) => state.tasks);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const _journalEntries = useJournalStore((state) => state.entries);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const _diaryEntries = useDiaryStore((state) => state.entries);
 
   // Day 데이터 조회 (useMemo로 캐싱)
   // Note: store subscriptions trigger re-render, dependencies trigger re-computation
