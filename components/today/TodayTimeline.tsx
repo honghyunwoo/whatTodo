@@ -1,16 +1,19 @@
 /**
- * TodayTimeline - 오늘의 타임라인
+ * TodayTimeline - 오늘의 타임라인 (리디자인)
  *
- * 메모/할일/일기를 시간순으로 통합 표시
+ * Soft Brutalism + 한지 스타일:
+ * - 우아한 섹션 헤더
+ * - 인장 스타일 통계 배지
+ * - 부드러운 빈 상태 디자인
  */
 
 import React, { useMemo } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Text } from 'react-native-paper';
 import { Ionicons } from '@expo/vector-icons';
+import Animated, { FadeIn, FadeInDown } from 'react-native-reanimated';
 
-import { SIZES } from '@/constants/sizes';
-import { useTheme } from '@/contexts/ThemeContext';
+import { PALETTE, TYPOGRAPHY, SPACE, RADIUS, SHADOW, withOpacity } from '@/constants/design';
 import { useTaskStore } from '@/store/taskStore';
 import { useDiaryStore } from '@/store/diaryStore';
 
@@ -37,8 +40,6 @@ function formatTime(isoString: string): string {
 }
 
 export function TodayTimeline() {
-  const { colors, isDark } = useTheme();
-
   // Store
   const tasks = useTaskStore((state) => state.tasks);
   const diaryEntries = useDiaryStore((state) => state.entries);
@@ -125,41 +126,104 @@ export function TodayTimeline() {
   // 빈 상태
   if (timelineEntries.length === 0) {
     return (
-      <View style={styles.emptyContainer}>
-        <View style={[styles.emptyCard, { backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF' }]}>
-          <Ionicons name="today-outline" size={48} color={colors.textSecondary} />
-          <Text style={[styles.emptyTitle, { color: colors.text }]}>오늘의 기록이 없어요</Text>
-          <Text style={[styles.emptySubtitle, { color: colors.textSecondary }]}>
-            위에서 메모, 할일, 또는 일기를 추가해보세요
-          </Text>
+      <Animated.View entering={FadeIn.delay(200).duration(400)} style={styles.emptyContainer}>
+        <View style={[styles.emptyCard, SHADOW.md]}>
+          {/* 장식 원 */}
+          <View style={styles.emptyIconWrapper}>
+            <View style={styles.emptyIconCircle}>
+              <Ionicons name="sunny-outline" size={36} color={PALETTE.seal.gold} />
+            </View>
+          </View>
+
+          <Text style={styles.emptyTitle}>오늘의 기록이 없어요</Text>
+          <Text style={styles.emptySubtitle}>위에서 메모, 할일, 또는 일기를 추가해보세요</Text>
+
+          {/* 힌트 아이콘들 */}
+          <View style={styles.emptyHints}>
+            <View
+              style={[
+                styles.hintBadge,
+                { backgroundColor: withOpacity(PALETTE.functional.memo, 0.1) },
+              ]}
+            >
+              <Text style={styles.hintEmoji}>📝</Text>
+              <Text style={[styles.hintText, { color: PALETTE.functional.memo }]}>메모</Text>
+            </View>
+            <View
+              style={[
+                styles.hintBadge,
+                { backgroundColor: withOpacity(PALETTE.functional.todo, 0.1) },
+              ]}
+            >
+              <Text style={styles.hintEmoji}>✓</Text>
+              <Text style={[styles.hintText, { color: PALETTE.functional.todo }]}>할일</Text>
+            </View>
+            <View
+              style={[
+                styles.hintBadge,
+                { backgroundColor: withOpacity(PALETTE.functional.diary, 0.1) },
+              ]}
+            >
+              <Text style={styles.hintEmoji}>📖</Text>
+              <Text style={[styles.hintText, { color: PALETTE.functional.diary }]}>일기</Text>
+            </View>
+          </View>
         </View>
-      </View>
+      </Animated.View>
     );
   }
 
   return (
     <View style={styles.container}>
       {/* 섹션 헤더 */}
-      <View style={styles.header}>
-        <Text style={[styles.headerTitle, { color: colors.text }]}>오늘의 기록</Text>
+      <Animated.View entering={FadeInDown.delay(100).duration(300)} style={styles.header}>
+        <View style={styles.headerLeft}>
+          <View style={styles.headerIcon}>
+            <Ionicons name="time-outline" size={18} color={PALETTE.ink.medium} />
+          </View>
+          <Text style={styles.headerTitle}>오늘의 기록</Text>
+        </View>
+
+        {/* 통계 배지들 */}
         <View style={styles.headerStats}>
           {stats.todos > 0 && (
-            <Text style={[styles.statText, { color: colors.textSecondary }]}>
-              할일 {stats.completedTodos}/{stats.todos}
-            </Text>
+            <View
+              style={[
+                styles.statBadge,
+                { backgroundColor: withOpacity(PALETTE.functional.todo, 0.1) },
+              ]}
+            >
+              <Text style={[styles.statNumber, { color: PALETTE.functional.todo }]}>
+                {stats.completedTodos}/{stats.todos}
+              </Text>
+            </View>
           )}
           {stats.memos > 0 && (
-            <Text style={[styles.statText, { color: colors.textSecondary }]}>
-              메모 {stats.memos}
-            </Text>
+            <View
+              style={[
+                styles.statBadge,
+                { backgroundColor: withOpacity(PALETTE.functional.memo, 0.1) },
+              ]}
+            >
+              <Text style={[styles.statNumber, { color: PALETTE.functional.memo }]}>
+                {stats.memos}
+              </Text>
+            </View>
           )}
           {stats.diaries > 0 && (
-            <Text style={[styles.statText, { color: colors.textSecondary }]}>
-              일기 {stats.diaries}
-            </Text>
+            <View
+              style={[
+                styles.statBadge,
+                { backgroundColor: withOpacity(PALETTE.functional.diary, 0.1) },
+              ]}
+            >
+              <Text style={[styles.statNumber, { color: PALETTE.functional.diary }]}>
+                {stats.diaries}
+              </Text>
+            </View>
           )}
         </View>
-      </View>
+      </Animated.View>
 
       {/* 타임라인 */}
       <View style={styles.timeline}>
@@ -167,6 +231,7 @@ export function TodayTimeline() {
           <EntryCard
             key={entry.type === 'todo' ? `todo-${entry.data.id}` : `diary-${entry.data.id}`}
             entry={entry}
+            index={index}
           />
         ))}
       </View>
@@ -176,47 +241,110 @@ export function TodayTimeline() {
 
 const styles = StyleSheet.create({
   container: {
-    marginHorizontal: SIZES.spacing.md,
-    marginTop: SIZES.spacing.lg,
+    marginHorizontal: SPACE.md,
+    marginTop: SPACE.lg,
+    marginBottom: SPACE.xxl,
   },
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: SIZES.spacing.md,
+    marginBottom: SPACE.lg,
+    paddingHorizontal: SPACE.xs,
+  },
+  headerLeft: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: SPACE.sm,
+  },
+  headerIcon: {
+    width: 32,
+    height: 32,
+    borderRadius: RADIUS.md,
+    backgroundColor: PALETTE.paper.warm,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   headerTitle: {
-    fontSize: SIZES.fontSize.lg,
-    fontWeight: '700',
+    fontSize: TYPOGRAPHY.size.lg,
+    fontWeight: TYPOGRAPHY.weight.bold,
+    color: PALETTE.ink.black,
+    letterSpacing: -0.3,
   },
   headerStats: {
     flexDirection: 'row',
-    gap: SIZES.spacing.sm,
+    gap: SPACE.xs,
   },
-  statText: {
-    fontSize: SIZES.fontSize.xs,
+  statBadge: {
+    paddingHorizontal: SPACE.sm,
+    paddingVertical: SPACE.xxs,
+    borderRadius: RADIUS.full,
+  },
+  statNumber: {
+    fontSize: TYPOGRAPHY.size.sm,
+    fontWeight: TYPOGRAPHY.weight.bold,
   },
   timeline: {
-    gap: SIZES.spacing.sm,
+    gap: SPACE.xs,
   },
   emptyContainer: {
-    marginHorizontal: SIZES.spacing.md,
-    marginTop: SIZES.spacing.xl,
+    marginHorizontal: SPACE.md,
+    marginTop: SPACE.xl,
   },
   emptyCard: {
     alignItems: 'center',
-    padding: SIZES.spacing.xl * 2,
-    borderRadius: SIZES.borderRadius.lg,
+    backgroundColor: '#FFFFFF',
+    borderRadius: RADIUS.xxl,
+    padding: SPACE.xl,
+    paddingVertical: SPACE.xxl,
+    borderWidth: 1,
+    borderColor: PALETTE.paper.aged,
+  },
+  emptyIconWrapper: {
+    marginBottom: SPACE.lg,
+  },
+  emptyIconCircle: {
+    width: 80,
+    height: 80,
+    borderRadius: RADIUS.full,
+    backgroundColor: withOpacity(PALETTE.seal.gold, 0.1),
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 2,
+    borderColor: withOpacity(PALETTE.seal.gold, 0.2),
+    borderStyle: 'dashed',
   },
   emptyTitle: {
-    fontSize: SIZES.fontSize.lg,
-    fontWeight: '600',
-    marginTop: SIZES.spacing.md,
+    fontSize: TYPOGRAPHY.size.xl,
+    fontWeight: TYPOGRAPHY.weight.bold,
+    color: PALETTE.ink.black,
+    marginBottom: SPACE.xs,
   },
   emptySubtitle: {
-    fontSize: SIZES.fontSize.sm,
+    fontSize: TYPOGRAPHY.size.md,
+    color: PALETTE.ink.medium,
     textAlign: 'center',
-    marginTop: SIZES.spacing.xs,
+    lineHeight: 22,
+    marginBottom: SPACE.lg,
+  },
+  emptyHints: {
+    flexDirection: 'row',
+    gap: SPACE.sm,
+  },
+  hintBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: SPACE.md,
+    paddingVertical: SPACE.sm,
+    borderRadius: RADIUS.lg,
+    gap: SPACE.xs,
+  },
+  hintEmoji: {
+    fontSize: 14,
+  },
+  hintText: {
+    fontSize: TYPOGRAPHY.size.sm,
+    fontWeight: TYPOGRAPHY.weight.semibold,
   },
 });
 

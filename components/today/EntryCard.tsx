@@ -1,7 +1,10 @@
 /**
- * EntryCard - 타임라인 항목 카드
+ * EntryCard - 타임라인 항목 카드 (리디자인)
  *
- * 메모/할일/일기를 타임라인에서 표시
+ * Soft Brutalism + 한지 스타일:
+ * - 우아한 카드 디자인
+ * - 타입별 색상 악센트
+ * - 인장 스타일 체크박스
  */
 
 import React, { useCallback } from 'react';
@@ -9,9 +12,9 @@ import { StyleSheet, View, Pressable } from 'react-native';
 import { Text } from 'react-native-paper';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
+import Animated, { FadeInRight, Layout } from 'react-native-reanimated';
 
-import { SIZES, SHADOWS } from '@/constants/sizes';
-import { useTheme } from '@/contexts/ThemeContext';
+import { PALETTE, TYPOGRAPHY, SPACE, RADIUS, SHADOW, withOpacity } from '@/constants/design';
 import { Task } from '@/types/task';
 import { DiaryEntry, MOOD_CONFIG } from '@/store/diaryStore';
 import { useTaskStore } from '@/store/taskStore';
@@ -24,17 +27,7 @@ export type TimelineEntry =
 
 interface EntryCardProps {
   entry: TimelineEntry;
-}
-
-// 시간 포맷 (HH:mm → 오전/오후 h:mm)
-function formatTime(isoString: string): string {
-  const date = new Date(isoString);
-  const hours = date.getHours();
-  const minutes = date.getMinutes();
-  const period = hours >= 12 ? '오후' : '오전';
-  const displayHours = hours > 12 ? hours - 12 : hours === 0 ? 12 : hours;
-
-  return `${period} ${displayHours}:${String(minutes).padStart(2, '0')}`;
+  index?: number;
 }
 
 // 타입별 설정
@@ -42,29 +35,29 @@ const TYPE_CONFIG = {
   todo: {
     icon: 'checkbox-outline' as const,
     iconDone: 'checkbox' as const,
-    color: '#10B981',
+    color: PALETTE.functional.todo,
     label: '할일',
+    emoji: '✓',
   },
   memo: {
-    icon: 'create-outline' as const,
-    iconDone: 'create-outline' as const,
-    color: '#3B82F6',
+    icon: 'document-text-outline' as const,
+    iconDone: 'document-text-outline' as const,
+    color: PALETTE.functional.memo,
     label: '메모',
+    emoji: '📝',
   },
   diary: {
     icon: 'book-outline' as const,
     iconDone: 'book-outline' as const,
-    color: '#8B5CF6',
+    color: PALETTE.functional.diary,
     label: '일기',
+    emoji: '📖',
   },
 };
 
-export function EntryCard({ entry }: EntryCardProps) {
-  const { colors, isDark } = useTheme();
+export function EntryCard({ entry, index = 0 }: EntryCardProps) {
   const router = useRouter();
-
   const toggleComplete = useTaskStore((state) => state.toggleComplete);
-
   const config = TYPE_CONFIG[entry.type];
 
   // 할일 체크 토글
@@ -79,7 +72,6 @@ export function EntryCard({ entry }: EntryCardProps) {
     if (entry.type === 'todo') {
       router.push(`/task/${entry.data.id}`);
     } else if (entry.type === 'diary' || entry.type === 'memo') {
-      // 일기/메모 상세 페이지로 (나중에 구현)
       router.push(`/diary/${entry.data.date}`);
     }
   }, [entry, router]);
@@ -90,61 +82,64 @@ export function EntryCard({ entry }: EntryCardProps) {
     const isCompleted = task.completed;
 
     return (
-      <View style={styles.container}>
+      <Animated.View
+        entering={FadeInRight.delay(index * 50).duration(300)}
+        layout={Layout.springify()}
+        style={styles.container}
+      >
         {/* 시간 + 타입 표시 */}
         <View style={styles.timeRow}>
-          <Text style={[styles.time, { color: colors.textSecondary }]}>{entry.time}</Text>
-          <View style={[styles.typeBadge, { backgroundColor: config.color + '20' }]}>
-            <Ionicons
-              name={isCompleted ? config.iconDone : config.icon}
-              size={12}
-              color={config.color}
-            />
+          <Text style={styles.time}>{entry.time}</Text>
+          <View style={[styles.typeBadge, { backgroundColor: withOpacity(config.color, 0.12) }]}>
+            <Text style={styles.typeEmoji}>{config.emoji}</Text>
             <Text style={[styles.typeLabel, { color: config.color }]}>{config.label}</Text>
           </View>
         </View>
 
         {/* 카드 */}
         <Pressable
-          style={[
+          style={({ pressed }) => [
             styles.card,
-            { backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF' },
-            !isDark && SHADOWS.sm,
+            SHADOW.sm,
             isCompleted && styles.cardCompleted,
+            pressed && styles.cardPressed,
           ]}
           onPress={handlePress}
         >
+          {/* 왼쪽 악센트 바 */}
+          <View style={[styles.cardAccent, { backgroundColor: config.color }]} />
+
+          {/* 체크박스 - 인장 스타일 */}
           <Pressable
             style={[
               styles.checkbox,
               {
-                borderColor: isCompleted ? config.color : colors.border,
-                backgroundColor: isCompleted ? config.color : 'transparent',
+                borderColor: isCompleted ? config.color : PALETTE.paper.aged,
+                backgroundColor: isCompleted ? config.color : PALETTE.paper.cream,
               },
             ]}
             onPress={handleToggleTodo}
-            hitSlop={8}
+            hitSlop={12}
           >
             {isCompleted && <Ionicons name="checkmark" size={16} color="#FFFFFF" />}
           </Pressable>
 
           <View style={styles.content}>
-            <Text
-              style={[styles.title, { color: colors.text }, isCompleted && styles.titleCompleted]}
-              numberOfLines={2}
-            >
+            <Text style={[styles.title, isCompleted && styles.titleCompleted]} numberOfLines={2}>
               {task.title}
             </Text>
             {task.subtasks && task.subtasks.length > 0 && (
-              <Text style={[styles.subtitle, { color: colors.textSecondary }]}>
+              <Text style={styles.subtitle}>
                 서브태스크 {task.subtasks.filter((s) => s.completed).length}/{task.subtasks.length}
               </Text>
             )}
           </View>
 
-          <Ionicons name="chevron-forward" size={18} color={colors.textSecondary} />
+          <View style={styles.chevronWrapper}>
+            <Ionicons name="chevron-forward" size={18} color={PALETTE.ink.light} />
+          </View>
         </Pressable>
-      </View>
+      </Animated.View>
     );
   }
 
@@ -154,97 +149,118 @@ export function EntryCard({ entry }: EntryCardProps) {
   const moodConfig = diaryEntry.mood ? MOOD_CONFIG[diaryEntry.mood] : null;
 
   return (
-    <View style={styles.container}>
+    <Animated.View
+      entering={FadeInRight.delay(index * 50).duration(300)}
+      layout={Layout.springify()}
+      style={styles.container}
+    >
       {/* 시간 + 타입 표시 */}
       <View style={styles.timeRow}>
-        <Text style={[styles.time, { color: colors.textSecondary }]}>{entry.time}</Text>
-        <View style={[styles.typeBadge, { backgroundColor: config.color + '20' }]}>
-          <Ionicons name={config.icon} size={12} color={config.color} />
+        <Text style={styles.time}>{entry.time}</Text>
+        <View style={[styles.typeBadge, { backgroundColor: withOpacity(config.color, 0.12) }]}>
+          <Text style={styles.typeEmoji}>{config.emoji}</Text>
           <Text style={[styles.typeLabel, { color: config.color }]}>{config.label}</Text>
         </View>
-        {moodConfig && <Text style={styles.moodEmoji}>{moodConfig.emoji}</Text>}
+        {moodConfig && (
+          <View style={styles.moodBadge}>
+            <Text style={styles.moodEmoji}>{moodConfig.emoji}</Text>
+          </View>
+        )}
       </View>
 
       {/* 카드 */}
       <Pressable
-        style={[
-          styles.card,
-          { backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF' },
-          !isDark && SHADOWS.sm,
-        ]}
+        style={({ pressed }) => [styles.card, SHADOW.sm, pressed && styles.cardPressed]}
         onPress={handlePress}
       >
+        {/* 왼쪽 악센트 바 */}
         <View style={[styles.cardAccent, { backgroundColor: config.color }]} />
 
         <View style={styles.contentFull}>
           {isDiaryType && diaryEntry.title !== '오늘의 일기' && (
-            <Text style={[styles.title, { color: colors.text }]} numberOfLines={1}>
+            <Text style={styles.diaryTitle} numberOfLines={1}>
               {diaryEntry.title}
             </Text>
           )}
-          <Text style={[styles.contentText, { color: colors.text }]} numberOfLines={3}>
+          <Text style={styles.contentText} numberOfLines={3}>
             {diaryEntry.content}
           </Text>
 
           {/* 태그 */}
           {diaryEntry.tags && diaryEntry.tags.length > 0 && (
             <View style={styles.tags}>
-              {diaryEntry.tags.slice(0, 3).map((tag, index) => (
-                <View
-                  key={index}
-                  style={[styles.tag, { backgroundColor: isDark ? '#2C2C2E' : '#F0F0F0' }]}
-                >
-                  <Text style={[styles.tagText, { color: colors.textSecondary }]}>#{tag}</Text>
+              {diaryEntry.tags.slice(0, 3).map((tag, idx) => (
+                <View key={idx} style={styles.tag}>
+                  <Text style={styles.tagText}>#{tag}</Text>
                 </View>
               ))}
             </View>
           )}
         </View>
+
+        <View style={styles.chevronWrapper}>
+          <Ionicons name="chevron-forward" size={18} color={PALETTE.ink.light} />
+        </View>
       </Pressable>
-    </View>
+    </Animated.View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    marginBottom: SIZES.spacing.md,
+    marginBottom: SPACE.md,
   },
   timeRow: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: SIZES.spacing.sm,
-    marginBottom: SIZES.spacing.xs,
-    paddingHorizontal: SIZES.spacing.xs,
+    gap: SPACE.sm,
+    marginBottom: SPACE.xs,
+    paddingHorizontal: SPACE.xs,
   },
   time: {
-    fontSize: SIZES.fontSize.xs,
-    fontWeight: '500',
+    fontSize: TYPOGRAPHY.size.xs,
+    fontWeight: TYPOGRAPHY.weight.medium,
+    color: PALETTE.ink.light,
+    letterSpacing: 0.5,
   },
   typeBadge: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingHorizontal: SIZES.spacing.xs,
-    paddingVertical: 2,
-    borderRadius: SIZES.borderRadius.sm,
+    paddingHorizontal: SPACE.sm,
+    paddingVertical: 3,
+    borderRadius: RADIUS.full,
     gap: 4,
   },
+  typeEmoji: {
+    fontSize: 11,
+  },
   typeLabel: {
-    fontSize: 10,
-    fontWeight: '600',
+    fontSize: TYPOGRAPHY.size.xs,
+    fontWeight: TYPOGRAPHY.weight.semibold,
+  },
+  moodBadge: {
+    marginLeft: 'auto',
   },
   moodEmoji: {
-    fontSize: 14,
+    fontSize: 16,
   },
   card: {
     flexDirection: 'row',
     alignItems: 'center',
-    padding: SIZES.spacing.md,
-    borderRadius: SIZES.borderRadius.md,
-    gap: SIZES.spacing.sm,
+    backgroundColor: '#FFFFFF',
+    borderRadius: RADIUS.xl,
+    padding: SPACE.md,
+    gap: SPACE.md,
     overflow: 'hidden',
+    borderWidth: 1,
+    borderColor: PALETTE.paper.aged,
   },
   cardCompleted: {
     opacity: 0.6,
+  },
+  cardPressed: {
+    opacity: 0.9,
+    transform: [{ scale: 0.99 }],
   },
   cardAccent: {
     position: 'absolute',
@@ -252,50 +268,72 @@ const styles = StyleSheet.create({
     top: 0,
     bottom: 0,
     width: 4,
+    borderTopLeftRadius: RADIUS.xl,
+    borderBottomLeftRadius: RADIUS.xl,
   },
   checkbox: {
-    width: 24,
-    height: 24,
-    borderRadius: 12,
+    width: 26,
+    height: 26,
+    borderRadius: RADIUS.md,
     borderWidth: 2,
     alignItems: 'center',
     justifyContent: 'center',
+    marginLeft: SPACE.xs,
   },
   content: {
     flex: 1,
   },
   contentFull: {
     flex: 1,
-    paddingLeft: SIZES.spacing.sm,
+    paddingLeft: SPACE.sm,
   },
   title: {
-    fontSize: SIZES.fontSize.md,
-    fontWeight: '500',
-    marginBottom: 2,
+    fontSize: TYPOGRAPHY.size.md,
+    fontWeight: TYPOGRAPHY.weight.medium,
+    color: PALETTE.ink.black,
+    lineHeight: 22,
   },
   titleCompleted: {
     textDecorationLine: 'line-through',
+    color: PALETTE.ink.light,
   },
   subtitle: {
-    fontSize: SIZES.fontSize.xs,
+    fontSize: TYPOGRAPHY.size.xs,
+    color: PALETTE.ink.light,
+    marginTop: 2,
+  },
+  diaryTitle: {
+    fontSize: TYPOGRAPHY.size.md,
+    fontWeight: TYPOGRAPHY.weight.semibold,
+    color: PALETTE.ink.black,
+    marginBottom: SPACE.xxs,
   },
   contentText: {
-    fontSize: SIZES.fontSize.md,
+    fontSize: TYPOGRAPHY.size.md,
     lineHeight: 22,
+    color: PALETTE.ink.dark,
   },
   tags: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    gap: SIZES.spacing.xs,
-    marginTop: SIZES.spacing.sm,
+    gap: SPACE.xs,
+    marginTop: SPACE.sm,
   },
   tag: {
-    paddingHorizontal: SIZES.spacing.sm,
-    paddingVertical: 2,
-    borderRadius: SIZES.borderRadius.full,
+    backgroundColor: PALETTE.paper.cream,
+    paddingHorizontal: SPACE.sm,
+    paddingVertical: 3,
+    borderRadius: RADIUS.full,
+    borderWidth: 1,
+    borderColor: PALETTE.paper.aged,
   },
   tagText: {
-    fontSize: SIZES.fontSize.xs,
+    fontSize: TYPOGRAPHY.size.xs,
+    color: PALETTE.ink.medium,
+  },
+  chevronWrapper: {
+    width: 24,
+    alignItems: 'center',
   },
 });
 

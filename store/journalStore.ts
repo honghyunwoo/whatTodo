@@ -11,11 +11,9 @@ import { STORAGE_KEYS } from '@/constants/storage';
 import {
   ActivityLog,
   CreateJournalData,
-  DifficultyRating,
   JournalEntry,
   LearningStreak,
   MonthlyStats,
-  Mood,
   SkillProgress,
   StreakRecord,
   UpdateJournalData,
@@ -384,7 +382,7 @@ export const useJournalStore = create<JournalState & JournalActions>()(
         if (error) {
           console.error('[JournalStore] rehydration failed:', error);
         } else if (__DEV__) {
-          console.log('[JournalStore] rehydrated');
+          // Debug: rehydration complete
         }
       },
     }

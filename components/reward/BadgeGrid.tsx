@@ -2,12 +2,7 @@ import React, { memo } from 'react';
 import { ScrollView, StyleSheet, View } from 'react-native';
 import { Text } from 'react-native-paper';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import Animated, {
-  useAnimatedStyle,
-  withSpring,
-  useSharedValue,
-  FadeIn,
-} from 'react-native-reanimated';
+import Animated, { useAnimatedStyle, useSharedValue, FadeIn } from 'react-native-reanimated';
 
 import { BADGES, Badge, BadgeCategory, getBadgesByCategory } from '@/types/badges';
 import { useRewardStore } from '@/store/rewardStore';
@@ -20,7 +15,7 @@ interface BadgeGridProps {
 }
 
 function BadgeGridComponent({ category, showLocked = true }: BadgeGridProps) {
-  const { unlockedBadges, hasBadge } = useRewardStore();
+  const { hasBadge } = useRewardStore();
 
   // Get badges to display
   const badges = category ? getBadgesByCategory(category) : Object.values(BADGES);
@@ -63,15 +58,8 @@ function BadgeItemComponent({ badge, isUnlocked, index }: BadgeItemProps) {
     transform: [{ scale: scale.value }],
   }));
 
-  const handlePressIn = () => {
-    if (isUnlocked) {
-      scale.value = withSpring(1.1, { damping: 15, stiffness: 300 });
-    }
-  };
-
-  const handlePressOut = () => {
-    scale.value = withSpring(1, { damping: 15, stiffness: 300 });
-  };
+  // Note: Press handlers available for future Pressable implementation
+  // scale.value = withSpring(1.1/1, { damping: 15, stiffness: 300 });
 
   return (
     <Animated.View

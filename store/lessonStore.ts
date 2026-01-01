@@ -9,17 +9,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 
-import { STORAGE_KEYS } from '@/constants/storage';
 import type { ActivityType, CEFRLevel } from '@/types/activity';
-import type {
-  LessonMeta,
-  LessonStatus,
-  ParsedLessonId,
-  ParsedUnitId,
-  UnitMeta,
-  LESSONS_PER_UNIT,
-  UNITS_PER_LEVEL,
-} from '@/types/lesson';
+import type { LessonStatus, ParsedLessonId, ParsedUnitId } from '@/types/lesson';
 import type {
   ActivityProgress,
   LearningSession,
@@ -27,7 +18,6 @@ import type {
   LessonProgress,
   LevelProgress,
   UnitProgress,
-  LESSON_PASS_THRESHOLD,
 } from '@/types/progress';
 import { isStoreHydrated } from '@/hooks/useStoreReady';
 import { useDiaryStore } from './diaryStore';
@@ -321,10 +311,7 @@ export const useLessonStore = create<LessonState & LessonActions>()(
 
         // 보상 지급 (Hydration 체크 후 안전하게 호출)
         if (isStoreHydrated('reward')) {
-          const starsEarned = useRewardStore.getState().earnLearningStars(type, result.score ?? 0);
-          if (__DEV__) {
-            console.log('[Lesson] Earned ' + starsEarned + ' stars for ' + type);
-          }
+          useRewardStore.getState().earnLearningStars(type, result.score ?? 0);
         }
 
         // 일기에 학습 기록 추가
@@ -372,13 +359,11 @@ export const useLessonStore = create<LessonState & LessonActions>()(
         });
 
         // 유닛 진행률 업데이트
-        const { lessonProgress, unitProgress } = get();
+        const { lessonProgress } = get();
         const unitLessons = lessonProgress.filter((p) => {
           const pParsed = parseLessonId(p.lessonId);
           return pParsed?.unitId === parsed.unitId;
         });
-
-        const completedCount = unitLessons.filter((p) => p.completed).length;
 
         // 유닛 진행률 업데이트 또는 생성
         set((state) => {

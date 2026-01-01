@@ -1,8 +1,12 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 /**
  * Jest Test Setup
  *
  * @created 2025-12-24 - Phase 1.1: 테스트 환경 구축
  */
+
+// Define React Native globals for test environment
+(global as any).__DEV__ = true;
 
 // Mock AsyncStorage
 jest.mock('@react-native-async-storage/async-storage', () =>

@@ -456,7 +456,7 @@ export const useGameStore = create<GameState & GameActions>()(
         if (error) {
           console.error('[GameStore] rehydration failed:', error);
         } else if (__DEV__) {
-          console.log('[GameStore] rehydrated');
+          // Debug: rehydration complete
         }
       },
       // 게임 상태 전체 저장 (앱 종료해도 유지)

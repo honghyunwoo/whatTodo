@@ -30,9 +30,14 @@ export default function RecordsScreen() {
   const [searchQuery, setSearchQuery] = useState('');
   const [filter, setFilter] = useState<FilterType>('all');
 
-  const tasks = useTaskStore((state) => state.tasks) ?? [];
-  const progress = useLearnStore((state) => state.progress) ?? [];
-  const entries = useDiaryStore((state) => state.entries) ?? [];
+  const storeTasks = useTaskStore((state) => state.tasks);
+  const storeProgress = useLearnStore((state) => state.progress);
+  const storeEntries = useDiaryStore((state) => state.entries);
+
+  // Memoize to avoid new array references on each render
+  const tasks = useMemo(() => storeTasks ?? [], [storeTasks]);
+  const progress = useMemo(() => storeProgress ?? [], [storeProgress]);
+  const entries = useMemo(() => storeEntries ?? [], [storeEntries]);
 
   // 최근 30일 기록 생성
   const records = useMemo(() => {

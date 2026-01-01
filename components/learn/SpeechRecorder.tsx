@@ -154,6 +154,7 @@ export function SpeechRecorder({
         clearInterval(durationTimerRef.current);
       }
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase, maxDuration]);
 
   // Cleanup on unmount
@@ -243,11 +244,8 @@ export function SpeechRecorder({
     }
   }, [phase, expectedText]);
 
-  const handleCancelRecording = useCallback(async () => {
-    await speechService.cancelRecording();
-    setPhase('ready');
-    setRecordedUri(null);
-  }, []);
+  // Note: Cancel recording functionality available for future use
+  // await speechService.cancelRecording(); setPhase('ready'); setRecordedUri(null);
 
   // ─────────────────────────────────────
   // Playback Handlers

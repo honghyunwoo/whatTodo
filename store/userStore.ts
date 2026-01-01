@@ -177,12 +177,19 @@ export const useUserStore = create<UserState & UserActions>()(
        */
       setReminderSettings: async (settings: ReminderSettings) => {
         set({ reminderSettings: settings });
-        // 알림 스케줄링 (lazy load)
-        const service = await getNotificationService();
-        if (settings.enabled) {
-          await service.scheduleDailyReminder(settings);
-        } else {
-          await service.cancelDailyReminder();
+        // 알림 스케줄링 (lazy load) with error handling
+        try {
+          const service = await getNotificationService();
+          if (settings.enabled) {
+            await service.scheduleDailyReminder(settings);
+          } else {
+            await service.cancelDailyReminder();
+          }
+        } catch (error) {
+          // Silently fail - notification is non-critical
+          if (__DEV__) {
+            console.warn('[UserStore] Failed to update reminder settings:', error);
+          }
         }
       },
 
@@ -190,15 +197,22 @@ export const useUserStore = create<UserState & UserActions>()(
        * 알림 초기화 (앱 시작 시 호출)
        */
       initializeNotifications: async () => {
-        const service = await getNotificationService();
-        const hasPermission = await service.initialize();
-        if (hasPermission) {
-          const { reminderSettings } = get();
-          if (reminderSettings.enabled) {
-            await service.scheduleDailyReminder(reminderSettings);
+        try {
+          const service = await getNotificationService();
+          const hasPermission = await service.initialize();
+          if (hasPermission) {
+            const { reminderSettings } = get();
+            if (reminderSettings.enabled) {
+              await service.scheduleDailyReminder(reminderSettings);
+            }
           }
+          return hasPermission;
+        } catch (error) {
+          if (__DEV__) {
+            console.warn('[UserStore] Failed to initialize notifications:', error);
+          }
+          return false;
         }
-        return hasPermission;
       },
 
       /**
@@ -290,7 +304,7 @@ export const useUserStore = create<UserState & UserActions>()(
         if (error) {
           console.error('[UserStore] rehydration failed:', error);
         } else if (__DEV__) {
-          console.log('[UserStore] rehydrated');
+          // Debug: rehydration complete
         }
       },
     }

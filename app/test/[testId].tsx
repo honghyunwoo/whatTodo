@@ -28,6 +28,7 @@ export default function TestScreen() {
 
   useEffect(() => {
     loadTestData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [testId]);
 
   const loadTestData = async () => {

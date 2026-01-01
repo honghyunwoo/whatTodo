@@ -143,6 +143,7 @@ export function SrsReviewSession({ onComplete, onCancel }: SrsReviewSessionProps
       if (currentIndex >= reviewQueue.length) return;
 
       const currentWord = reviewQueue[currentIndex];
+      if (!currentWord) return; // Additional null safety
       reviewWord(currentWord.wordId, rating);
 
       const isCorrect = rating !== 'again';

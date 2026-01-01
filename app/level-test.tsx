@@ -13,11 +13,8 @@ import { COLORS } from '@/constants/colors';
 import type { LevelTestResult } from '@/types/levelTest';
 
 export default function LevelTestScreen() {
-  const handleComplete = useCallback((result: LevelTestResult) => {
+  const handleComplete = useCallback((_result: LevelTestResult) => {
     // Result is already saved in LevelTestView
-    if (__DEV__) {
-      console.log('Level test completed:', result.finalLevel);
-    }
   }, []);
 
   const handleCancel = useCallback(() => {

@@ -348,7 +348,7 @@ export const useDiaryStore = create<DiaryState & DiaryActions>()(
         if (error) {
           console.error('[DiaryStore] rehydration failed:', error);
         } else if (__DEV__) {
-          console.log('[DiaryStore] rehydrated');
+          // Debug: rehydration complete
         }
       },
     }

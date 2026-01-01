@@ -2,7 +2,7 @@ import { Dimensions, PixelRatio } from 'react-native';
 
 // 기준 화면 크기 (iPhone 8)
 const BASE_WIDTH = 375;
-const BASE_HEIGHT = 667;
+// BASE_HEIGHT = 667 (reference only)
 
 // 현재 화면 크기
 const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get('window');

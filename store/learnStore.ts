@@ -4,7 +4,6 @@ import { createJSONStorage, persist } from 'zustand/middleware';
 
 import { STORAGE_KEYS } from '@/constants/storage';
 import {
-  Activity,
   ActivityType,
   CEFRLevel,
   FlashCardResult,
@@ -141,21 +140,26 @@ export const useLearnStore = create<LearnState & LearnActions>()(
         get().updateProgress(newProgress);
 
         // Earn learning stars (higher than Todo rewards!)
-        // Hydration 체크 후 안전하게 호출
-        if (isStoreHydrated('reward')) {
-          const starsEarned = useRewardStore.getState().earnLearningStars(type, score);
-          if (__DEV__) {
-            console.log(`[Learning] Earned ${starsEarned} stars for ${type} (score: ${score})`);
+        // Hydration 체크 후 안전하게 호출 with error handling
+        try {
+          if (isStoreHydrated('reward')) {
+            useRewardStore.getState().earnLearningStars(type, score);
           }
+        } catch {
+          // Silently fail - non-critical operation
         }
 
         // 일기에 학습 기록 자동 추가
-        if (isStoreHydrated('diary')) {
-          useDiaryStore.getState().addLearningRecord({
-            activityType: type,
-            weekId,
-            score,
-          });
+        try {
+          if (isStoreHydrated('diary')) {
+            useDiaryStore.getState().addLearningRecord({
+              activityType: type,
+              weekId,
+              score,
+            });
+          }
+        } catch {
+          // Silently fail - non-critical operation
         }
 
         // 주간 진행률 업데이트
@@ -333,7 +337,7 @@ export const useLearnStore = create<LearnState & LearnActions>()(
         if (error) {
           console.error('[LearnStore] rehydration failed:', error);
         } else if (__DEV__) {
-          console.log('[LearnStore] rehydrated');
+          // Debug: rehydration complete
         }
       },
     }

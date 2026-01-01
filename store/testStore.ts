@@ -15,7 +15,6 @@ import { createJSONStorage, persist } from 'zustand/middleware';
 import type { ActivityType, CEFRLevel } from '@/types/activity';
 import type {
   TestType,
-  TestStatus,
   TestMeta,
   TestQuestion,
   TestAnswer,
@@ -24,11 +23,7 @@ import type {
   TestHistoryEntry,
   ActivityScore,
   PlacementTestResult,
-  DiagnosticTestResult,
-  PromotionTestResult,
-  TEST_DEFAULTS,
 } from '@/types/test';
-import { TEST_PASS_THRESHOLD } from '@/types/progress';
 
 // ─────────────────────────────────────
 // 상수
@@ -565,7 +560,7 @@ export const useTestStore = create<TestState & TestActions>()(
         if (error) {
           console.error('[TestStore] rehydration failed:', error);
         } else if (__DEV__) {
-          console.log('[TestStore] rehydrated');
+          // Debug: rehydration complete
         }
       },
     }

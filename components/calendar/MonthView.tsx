@@ -66,7 +66,7 @@ function getMonthData(year: number, month: number) {
 }
 
 export function MonthView({ selectedDate, markedDates = [], onSelectDate }: MonthViewProps) {
-  const { isDark, colors } = useTheme();
+  const { colors } = useTheme();
   const today = useMemo(() => {
     const now = new Date();
     return formatDate(now.getFullYear(), now.getMonth(), now.getDate());
@@ -172,7 +172,7 @@ export function MonthView({ selectedDate, markedDates = [], onSelectDate }: Mont
   );
 
   const weeks = useMemo(() => {
-    const result: typeof days[] = [];
+    const result: (typeof days)[] = [];
     for (let i = 0; i < 6; i++) {
       result.push(days.slice(i * 7, (i + 1) * 7));
     }
@@ -182,12 +182,7 @@ export function MonthView({ selectedDate, markedDates = [], onSelectDate }: Mont
   return (
     <View style={[styles.container, { backgroundColor: colors.surface }]}>
       <View style={styles.header}>
-        <IconButton
-          icon="chevron-left"
-          size={24}
-          onPress={goToPrevMonth}
-          iconColor={colors.text}
-        />
+        <IconButton icon="chevron-left" size={24} onPress={goToPrevMonth} iconColor={colors.text} />
         <Text style={[styles.monthTitle, { color: colors.text }]}>
           {currentYear}년 {currentMonth + 1}월
         </Text>

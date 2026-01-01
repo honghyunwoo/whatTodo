@@ -30,7 +30,7 @@ export function TodaySummary() {
   const tasks = useTaskStore((state) => state.tasks);
   const { currentStreak, longestStreak } = useStreakStore();
   const currentLevel = useLearnStore((state) => state.currentLevel);
-  const { stars, todayStarsEarned, totalStarsEarned } = useRewardStore();
+  const { stars, todayStarsEarned } = useRewardStore();
 
   // 현재 레슨 정보
   const currentLessonId = useLessonStore((state) => state.currentLessonId);

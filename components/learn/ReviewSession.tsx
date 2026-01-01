@@ -9,7 +9,6 @@ import React, { useCallback, useMemo, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import Animated, {
   FadeIn,
-  FadeOut,
   SlideInRight,
   SlideOutLeft,
   useAnimatedStyle,
@@ -17,8 +16,8 @@ import Animated, {
   withSpring,
 } from 'react-native-reanimated';
 
-import { ReviewRating } from '@/types/srs';
-import { useSrsStore, WordWithSrs } from '@/store/srsStore';
+import type { ReviewRating } from '@/types/srs';
+import { useSrsStore } from '@/store/srsStore';
 import { useRewardStore } from '@/store/rewardStore';
 
 // ─────────────────────────────────────
@@ -82,11 +81,8 @@ interface ReviewStats {
 // Component
 // ─────────────────────────────────────
 
-export const ReviewSession: React.FC<ReviewSessionProps> = ({
-  onComplete,
-  maxWords = 20,
-}) => {
-  const { getWordsForReview, reviewWord, getDueWordCount } = useSrsStore();
+export const ReviewSession: React.FC<ReviewSessionProps> = ({ onComplete, maxWords = 20 }) => {
+  const { getWordsForReview, reviewWord } = useSrsStore();
   const { earnStars } = useRewardStore();
 
   // Get words to review
@@ -147,6 +143,7 @@ export const ReviewSession: React.FC<ReviewSessionProps> = ({
       setShowAnswer(false);
       setCurrentIndex((prev) => prev + 1);
     },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [currentWord, reviewWord, earnStars]
   );
 
@@ -190,10 +187,7 @@ export const ReviewSession: React.FC<ReviewSessionProps> = ({
         )}
 
         {onComplete && (
-          <Pressable
-            style={styles.doneButton}
-            onPress={() => onComplete(stats)}
-          >
+          <Pressable style={styles.doneButton} onPress={() => onComplete(stats)}>
             <Text style={styles.doneButtonText}>Done</Text>
           </Pressable>
         )}
@@ -220,10 +214,7 @@ export const ReviewSession: React.FC<ReviewSessionProps> = ({
         exiting={SlideOutLeft}
         style={[styles.card, cardAnimatedStyle]}
       >
-        <Pressable
-          style={styles.cardContent}
-          onPress={!showAnswer ? handleFlip : undefined}
-        >
+        <Pressable style={styles.cardContent} onPress={!showAnswer ? handleFlip : undefined}>
           {/* Front (Word) */}
           <View style={styles.cardFront}>
             <Text style={styles.wordText}>{currentWord.word}</Text>
@@ -237,9 +228,7 @@ export const ReviewSession: React.FC<ReviewSessionProps> = ({
             <Animated.View entering={FadeIn} style={styles.cardBack}>
               <View style={styles.divider} />
               <Text style={styles.meaningText}>{currentWord.meaning}</Text>
-              {currentWord.example && (
-                <Text style={styles.exampleText}>{currentWord.example}</Text>
-              )}
+              {currentWord.example && <Text style={styles.exampleText}>{currentWord.example}</Text>}
             </Animated.View>
           )}
 
@@ -264,14 +253,8 @@ export const ReviewSession: React.FC<ReviewSessionProps> = ({
                 style={[styles.ratingButton, { borderColor: config.color }]}
                 onPress={() => handleRating(config.rating)}
               >
-                <MaterialCommunityIcons
-                  name={config.icon}
-                  size={24}
-                  color={config.color}
-                />
-                <Text style={[styles.ratingLabel, { color: config.color }]}>
-                  {config.label}
-                </Text>
+                <MaterialCommunityIcons name={config.icon} size={24} color={config.color} />
+                <Text style={[styles.ratingLabel, { color: config.color }]}>{config.label}</Text>
                 <Text style={styles.ratingDescription}>{config.description}</Text>
               </Pressable>
             ))}

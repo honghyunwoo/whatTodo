@@ -82,7 +82,7 @@ export default function DiaryScreen() {
   const { date } = useLocalSearchParams<{ date: string }>();
   const router = useRouter();
   const { colors, isDark } = useTheme();
-  const { getEntryByDate, addEntry, updateEntry, deleteEntry, tags: allTags } = useDiaryStore();
+  const { getEntryByDate, addEntry, updateEntry, deleteEntry } = useDiaryStore();
 
   const existingEntry = date ? getEntryByDate(date) : undefined;
   const isEditMode = !!existingEntry;

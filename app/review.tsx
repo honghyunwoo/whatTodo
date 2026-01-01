@@ -20,10 +20,8 @@ interface SessionStats {
 }
 
 export default function ReviewScreen() {
-  const handleComplete = useCallback((stats: SessionStats) => {
-    if (__DEV__) {
-      console.log('Review session completed:', stats);
-    }
+  const handleComplete = useCallback((_stats: SessionStats) => {
+    // Session completed - stats available for future analytics
   }, []);
 
   const handleCancel = useCallback(() => {

@@ -6,6 +6,28 @@
 
 ## [Unreleased]
 
+### 2026-01-01 - 코드 품질 개선 및 최적화
+
+#### Fixed (Cleanup)
+- 97개 ESLint 경고 → 0개 완전 제거
+  - 미사용 imports/변수 제거 (40+ 파일)
+  - console.log 정리 및 __DEV__ 조건부 처리
+  - React Hook 의존성 경고 수정
+
+#### Improved (Quality)
+- `store/srsStore.ts` - 빈 배열 division by zero 방지
+- `store/userStore.ts` - 알림 관련 async 에러 처리 추가
+- `store/learnStore.ts` - Store 호출 시 try-catch 래핑
+- `store/testStore.ts` - ActivityType import 수정
+- `components/learn/SrsReviewSession.tsx` - null safety 강화
+- `app/(tabs)/learn.tsx` - async 로딩 에러 처리 (try-catch-finally)
+
+#### Optimized (Performance)
+- `app/(tabs)/learn.tsx` - completedToday 계산 useMemo 적용
+- `app/(tabs)/learn.tsx` - 그라디언트 상수 추출로 리렌더 최적화
+
+---
+
 ### 2025-12-26 - 학습 시스템 재설계 Step 1-4 완료
 
 #### Added (Step 4: UI 컴포넌트)

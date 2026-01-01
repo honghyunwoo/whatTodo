@@ -337,7 +337,7 @@ export const useStreakStore = create<StreakState & StreakActions>()(
         if (error) {
           console.error('[StreakStore] rehydration failed:', error);
         } else if (__DEV__) {
-          console.log('[StreakStore] rehydrated');
+          // Debug: rehydration complete
         }
       },
     }

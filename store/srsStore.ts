@@ -173,13 +173,16 @@ export const useSrsStore = create<SrsState & SrsActions>()(
           const newTotalReviews = state.reviewStats.totalReviews + 1;
           const newCorrectReviews = state.reviewStats.correctReviews + (isCorrect ? 1 : 0);
 
-          // Calculate average ease factor
+          // Calculate average ease factor (guard against empty array)
           const allEaseFactors = updatedWords.map((w) => w.srsData.easeFactor);
           const avgEaseFactor =
-            allEaseFactors.reduce((sum, ef) => sum + ef, 0) / allEaseFactors.length;
+            allEaseFactors.length > 0
+              ? allEaseFactors.reduce((sum, ef) => sum + ef, 0) / allEaseFactors.length
+              : 2.5; // Default ease factor
 
-          // Find longest interval
-          const maxInterval = Math.max(...updatedWords.map((w) => w.srsData.interval));
+          // Find longest interval (guard against empty array)
+          const intervals = updatedWords.map((w) => w.srsData.interval);
+          const maxInterval = intervals.length > 0 ? Math.max(...intervals) : 0;
 
           return {
             words: updatedWords,
@@ -285,7 +288,7 @@ export const useSrsStore = create<SrsState & SrsActions>()(
         if (error) {
           console.error('[SrsStore] rehydration failed:', error);
         } else if (__DEV__) {
-          console.log('[SrsStore] rehydrated');
+          // Debug: rehydration complete
         }
       },
     }

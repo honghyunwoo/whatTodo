@@ -35,14 +35,7 @@ const levelMetaCache: LevelMetaCache = {
   C2: null,
 };
 
-const metaLoadingPromises: Record<CEFRLevel, Promise<LevelMeta | null> | null> = {
-  A1: null,
-  A2: null,
-  B1: null,
-  B2: null,
-  C1: null,
-  C2: null,
-};
+// Note: metaLoadingPromises reserved for future concurrent loading optimization
 
 // ─────────────────────────────────────
 // 레슨 ID 유틸리티

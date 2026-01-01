@@ -7,15 +7,7 @@ import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import { Button, Card, Text } from 'react-native-paper';
 import { LottieWrapper } from '@/components/common';
-import Animated, {
-  FadeIn,
-  FadeOut,
-  FadeInRight,
-  FadeInUp,
-  ZoomIn,
-  useAnimatedStyle,
-  withTiming,
-} from 'react-native-reanimated';
+import Animated, { FadeIn, FadeOut, FadeInRight, FadeInUp, ZoomIn } from 'react-native-reanimated';
 
 import { useTheme } from '@/contexts/ThemeContext';
 import { COLORS } from '@/constants/colors';

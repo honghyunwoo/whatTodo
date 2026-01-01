@@ -1,7 +1,10 @@
 /**
- * TodayEntry - 통합 입력 컴포넌트
+ * TodayEntry - 통합 입력 컴포넌트 (리디자인)
  *
- * 메모/할일/일기를 한 곳에서 작성
+ * Soft Brutalism + 한지 스타일:
+ * - 우아한 카드 디자인
+ * - 세련된 탭 선택기
+ * - 인장 스타일 기분 선택
  */
 
 import React, { useState, useCallback, useRef } from 'react';
@@ -16,15 +19,12 @@ import {
 } from 'react-native';
 import { Text } from 'react-native-paper';
 import { Ionicons } from '@expo/vector-icons';
-import Animated, { FadeIn, FadeOut, SlideInDown } from 'react-native-reanimated';
+import Animated, { FadeIn, FadeOut, SlideInDown, SlideInUp, Layout } from 'react-native-reanimated';
 
-import { SIZES, SHADOWS } from '@/constants/sizes';
-import { COLORS } from '@/constants/colors';
-import { useTheme } from '@/contexts/ThemeContext';
+import { PALETTE, TYPOGRAPHY, SPACE, RADIUS, SHADOW, withOpacity } from '@/constants/design';
 import { useTaskStore } from '@/store/taskStore';
 import { useDiaryStore, MoodType, MOOD_CONFIG } from '@/store/diaryStore';
 
-// 입력 타입
 type EntryType = 'memo' | 'todo' | 'diary';
 
 interface EntryTypeConfig {
@@ -32,30 +32,37 @@ interface EntryTypeConfig {
   label: string;
   placeholder: string;
   color: string;
+  lightColor: string;
+  emoji: string;
 }
 
 const ENTRY_TYPES: Record<EntryType, EntryTypeConfig> = {
   memo: {
-    icon: 'create-outline',
+    icon: 'document-text-outline',
     label: '메모',
-    placeholder: '생각나는 것을 적어보세요...',
-    color: '#3B82F6',
+    placeholder: '떠오르는 생각을 자유롭게...',
+    color: PALETTE.functional.memo,
+    lightColor: withOpacity(PALETTE.functional.memo, 0.1),
+    emoji: '📝',
   },
   todo: {
     icon: 'checkbox-outline',
     label: '할일',
-    placeholder: '오늘 할 일을 추가하세요...',
-    color: '#10B981',
+    placeholder: '오늘 해야 할 일은...',
+    color: PALETTE.functional.todo,
+    lightColor: withOpacity(PALETTE.functional.todo, 0.1),
+    emoji: '✓',
   },
   diary: {
     icon: 'book-outline',
     label: '일기',
-    placeholder: '오늘 하루는 어땠나요?',
-    color: '#8B5CF6',
+    placeholder: '오늘 하루를 기록해보세요...',
+    color: PALETTE.functional.diary,
+    lightColor: withOpacity(PALETTE.functional.diary, 0.1),
+    emoji: '📖',
   },
 };
 
-// 기분 선택용 (일기)
 const MOODS: MoodType[] = [
   'happy',
   'excited',
@@ -68,14 +75,11 @@ const MOODS: MoodType[] = [
 ];
 
 export function TodayEntry() {
-  const { colors, isDark } = useTheme();
   const inputRef = useRef<TextInput>(null);
 
-  // Store
   const addTask = useTaskStore((state) => state.addTask);
   const addDiaryEntry = useDiaryStore((state) => state.addEntry);
 
-  // State
   const [entryType, setEntryType] = useState<EntryType>('memo');
   const [text, setText] = useState('');
   const [isExpanded, setIsExpanded] = useState(false);
@@ -83,12 +87,10 @@ export function TodayEntry() {
 
   const config = ENTRY_TYPES[entryType];
 
-  // 입력창 확장
   const handleFocus = useCallback(() => {
     setIsExpanded(true);
   }, []);
 
-  // 타입 변경
   const handleTypeChange = useCallback((type: EntryType) => {
     setEntryType(type);
     if (type !== 'diary') {
@@ -96,7 +98,6 @@ export function TodayEntry() {
     }
   }, []);
 
-  // 제출
   const handleSubmit = useCallback(() => {
     const trimmedText = text.trim();
     if (!trimmedText) return;
@@ -134,14 +135,12 @@ export function TodayEntry() {
         break;
     }
 
-    // 리셋
     setText('');
     setSelectedMood(null);
     setIsExpanded(false);
     Keyboard.dismiss();
   }, [text, entryType, selectedMood, addTask, addDiaryEntry]);
 
-  // 취소
   const handleCancel = useCallback(() => {
     setText('');
     setSelectedMood(null);
@@ -154,54 +153,53 @@ export function TodayEntry() {
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
       style={styles.container}
     >
-      <View
-        style={[
-          styles.card,
-          { backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF' },
-          !isDark && SHADOWS.md,
-        ]}
-      >
-        {/* 타입 선택 탭 */}
+      <Animated.View layout={Layout.springify()} style={[styles.card, SHADOW.md]}>
+        {/* 타입 선택 탭 - 우아한 스타일 */}
         <View style={styles.typeSelector}>
-          {(Object.keys(ENTRY_TYPES) as EntryType[]).map((type) => {
+          {(Object.keys(ENTRY_TYPES) as EntryType[]).map((type, index) => {
             const typeConfig = ENTRY_TYPES[type];
             const isSelected = entryType === type;
 
             return (
-              <Pressable
+              <Animated.View
                 key={type}
-                style={[
-                  styles.typeButton,
-                  isSelected && { backgroundColor: typeConfig.color + '20' },
-                ]}
-                onPress={() => handleTypeChange(type)}
+                entering={FadeIn.delay(index * 50).duration(300)}
+                style={styles.typeButtonWrapper}
               >
-                <Ionicons
-                  name={typeConfig.icon}
-                  size={18}
-                  color={isSelected ? typeConfig.color : colors.textSecondary}
-                />
-                <Text
+                <Pressable
                   style={[
-                    styles.typeLabel,
-                    { color: isSelected ? typeConfig.color : colors.textSecondary },
-                    isSelected && styles.typeLabelSelected,
+                    styles.typeButton,
+                    isSelected && [styles.typeButtonSelected, { borderColor: typeConfig.color }],
                   ]}
+                  onPress={() => handleTypeChange(type)}
                 >
-                  {typeConfig.label}
-                </Text>
-              </Pressable>
+                  {/* 선택 인디케이터 */}
+                  {isSelected && (
+                    <View style={[styles.typeIndicator, { backgroundColor: typeConfig.color }]} />
+                  )}
+                  <Text style={styles.typeEmoji}>{typeConfig.emoji}</Text>
+                  <Text
+                    style={[
+                      styles.typeLabel,
+                      isSelected && [styles.typeLabelSelected, { color: typeConfig.color }],
+                    ]}
+                  >
+                    {typeConfig.label}
+                  </Text>
+                </Pressable>
+              </Animated.View>
             );
           })}
         </View>
 
-        {/* 입력창 */}
-        <View style={styles.inputContainer}>
+        {/* 입력 영역 */}
+        <View style={styles.inputWrapper}>
+          <View style={[styles.inputAccent, { backgroundColor: config.color }]} />
           <TextInput
             ref={inputRef}
-            style={[styles.input, { color: colors.text }, isExpanded && styles.inputExpanded]}
+            style={[styles.input, isExpanded && styles.inputExpanded]}
             placeholder={config.placeholder}
-            placeholderTextColor={colors.textSecondary}
+            placeholderTextColor={PALETTE.ink.light}
             value={text}
             onChangeText={setText}
             onFocus={handleFocus}
@@ -213,30 +211,34 @@ export function TodayEntry() {
         {/* 일기 기분 선택 */}
         {isExpanded && entryType === 'diary' && (
           <Animated.View
-            entering={FadeIn.duration(200)}
+            entering={SlideInUp.duration(300)}
             exiting={FadeOut.duration(150)}
-            style={styles.moodSelector}
+            style={styles.moodSection}
           >
-            <Text style={[styles.moodLabel, { color: colors.textSecondary }]}>오늘 기분은?</Text>
-            <View style={styles.moodList}>
-              {MOODS.map((mood) => {
+            <Text style={styles.moodLabel}>오늘의 기분</Text>
+            <View style={styles.moodGrid}>
+              {MOODS.map((mood, index) => {
                 const moodConfig = MOOD_CONFIG[mood];
                 const isSelected = selectedMood === mood;
 
                 return (
-                  <Pressable
-                    key={mood}
-                    style={[
-                      styles.moodButton,
-                      isSelected && {
-                        backgroundColor: moodConfig.color + '20',
-                        borderColor: moodConfig.color,
-                      },
-                    ]}
-                    onPress={() => setSelectedMood(isSelected ? null : mood)}
-                  >
-                    <Text style={styles.moodEmoji}>{moodConfig.emoji}</Text>
-                  </Pressable>
+                  <Animated.View key={mood} entering={FadeIn.delay(index * 30).duration(200)}>
+                    <Pressable
+                      style={[
+                        styles.moodButton,
+                        isSelected && [
+                          styles.moodButtonSelected,
+                          {
+                            borderColor: moodConfig.color,
+                            backgroundColor: withOpacity(moodConfig.color, 0.1),
+                          },
+                        ],
+                      ]}
+                      onPress={() => setSelectedMood(isSelected ? null : mood)}
+                    >
+                      <Text style={styles.moodEmoji}>{moodConfig.emoji}</Text>
+                    </Pressable>
+                  </Animated.View>
                 );
               })}
             </View>
@@ -245,137 +247,183 @@ export function TodayEntry() {
 
         {/* 액션 버튼 */}
         {isExpanded && (
-          <Animated.View entering={SlideInDown.duration(200)} style={styles.actions}>
+          <Animated.View entering={SlideInDown.duration(250)} style={styles.actions}>
             <Pressable
-              style={[styles.cancelButton, { borderColor: colors.border }]}
+              style={({ pressed }) => [styles.cancelButton, pressed && styles.buttonPressed]}
               onPress={handleCancel}
             >
-              <Text style={[styles.cancelText, { color: colors.textSecondary }]}>취소</Text>
+              <Text style={styles.cancelText}>취소</Text>
             </Pressable>
 
             <Pressable
-              style={[
+              style={({ pressed }) => [
                 styles.submitButton,
                 { backgroundColor: config.color },
                 !text.trim() && styles.submitButtonDisabled,
+                pressed && styles.buttonPressed,
               ]}
               onPress={handleSubmit}
               disabled={!text.trim()}
             >
-              <Ionicons name="add" size={20} color="#FFFFFF" />
-              <Text style={styles.submitText}>추가</Text>
+              <Ionicons name="add-circle" size={20} color="#FFFFFF" />
+              <Text style={styles.submitText}>기록하기</Text>
             </Pressable>
           </Animated.View>
         )}
-      </View>
+      </Animated.View>
     </KeyboardAvoidingView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    marginHorizontal: SIZES.spacing.md,
-    marginTop: SIZES.spacing.md,
+    marginHorizontal: SPACE.md,
+    marginTop: SPACE.md,
   },
   card: {
-    borderRadius: SIZES.borderRadius.lg,
-    padding: SIZES.spacing.md,
+    backgroundColor: '#FFFFFF',
+    borderRadius: RADIUS.xxl,
+    padding: SPACE.lg,
+    borderWidth: 1,
+    borderColor: PALETTE.paper.aged,
   },
   typeSelector: {
     flexDirection: 'row',
-    gap: SIZES.spacing.sm,
-    marginBottom: SIZES.spacing.md,
+    gap: SPACE.sm,
+    marginBottom: SPACE.lg,
+  },
+  typeButtonWrapper: {
+    flex: 1,
   },
   typeButton: {
-    flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: SIZES.spacing.sm,
-    paddingHorizontal: SIZES.spacing.md,
-    borderRadius: SIZES.borderRadius.md,
-    gap: 6,
+    paddingVertical: SPACE.sm,
+    paddingHorizontal: SPACE.md,
+    borderRadius: RADIUS.lg,
+    backgroundColor: PALETTE.paper.cream,
+    gap: SPACE.xs,
+    borderWidth: 2,
+    borderColor: 'transparent',
+    overflow: 'hidden',
+  },
+  typeButtonSelected: {
+    backgroundColor: '#FFFFFF',
+  },
+  typeIndicator: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    height: 3,
+  },
+  typeEmoji: {
+    fontSize: 16,
   },
   typeLabel: {
-    fontSize: SIZES.fontSize.sm,
-    fontWeight: '500',
+    fontSize: TYPOGRAPHY.size.sm,
+    fontWeight: TYPOGRAPHY.weight.medium,
+    color: PALETTE.ink.medium,
   },
   typeLabelSelected: {
-    fontWeight: '600',
+    fontWeight: TYPOGRAPHY.weight.bold,
   },
-  inputContainer: {
-    minHeight: 44,
+  inputWrapper: {
+    flexDirection: 'row',
+    backgroundColor: PALETTE.paper.cream,
+    borderRadius: RADIUS.lg,
+    overflow: 'hidden',
+  },
+  inputAccent: {
+    width: 4,
   },
   input: {
-    fontSize: SIZES.fontSize.md,
-    lineHeight: 22,
-    paddingVertical: SIZES.spacing.xs,
+    flex: 1,
+    fontSize: TYPOGRAPHY.size.md,
+    lineHeight: 24,
+    padding: SPACE.md,
+    color: PALETTE.ink.black,
+    minHeight: 50,
   },
   inputExpanded: {
-    minHeight: 80,
+    minHeight: 100,
   },
-  moodSelector: {
-    marginTop: SIZES.spacing.md,
-    paddingTop: SIZES.spacing.md,
+  moodSection: {
+    marginTop: SPACE.lg,
+    paddingTop: SPACE.md,
     borderTopWidth: 1,
-    borderTopColor: '#E5E5E7',
+    borderTopColor: PALETTE.paper.aged,
   },
   moodLabel: {
-    fontSize: SIZES.fontSize.sm,
-    marginBottom: SIZES.spacing.sm,
+    fontSize: TYPOGRAPHY.size.sm,
+    fontWeight: TYPOGRAPHY.weight.semibold,
+    color: PALETTE.ink.medium,
+    marginBottom: SPACE.sm,
+    letterSpacing: 0.5,
   },
-  moodList: {
+  moodGrid: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    gap: SIZES.spacing.xs,
+    gap: SPACE.xs,
   },
   moodButton: {
-    width: 40,
-    height: 40,
-    borderRadius: 20,
+    width: 44,
+    height: 44,
+    borderRadius: RADIUS.lg,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: PALETTE.paper.cream,
     borderWidth: 2,
     borderColor: 'transparent',
   },
+  moodButtonSelected: {
+    transform: [{ scale: 1.05 }],
+  },
   moodEmoji: {
-    fontSize: 20,
+    fontSize: 22,
   },
   actions: {
     flexDirection: 'row',
-    gap: SIZES.spacing.sm,
-    marginTop: SIZES.spacing.md,
-    paddingTop: SIZES.spacing.md,
+    gap: SPACE.sm,
+    marginTop: SPACE.lg,
+    paddingTop: SPACE.md,
     borderTopWidth: 1,
-    borderTopColor: '#E5E5E7',
+    borderTopColor: PALETTE.paper.aged,
   },
   cancelButton: {
     flex: 1,
-    paddingVertical: SIZES.spacing.sm,
+    paddingVertical: SPACE.sm,
     alignItems: 'center',
-    borderRadius: SIZES.borderRadius.md,
-    borderWidth: 1,
+    justifyContent: 'center',
+    borderRadius: RADIUS.lg,
+    backgroundColor: PALETTE.paper.cream,
   },
   cancelText: {
-    fontSize: SIZES.fontSize.md,
-    fontWeight: '500',
+    fontSize: TYPOGRAPHY.size.md,
+    fontWeight: TYPOGRAPHY.weight.medium,
+    color: PALETTE.ink.medium,
   },
   submitButton: {
     flex: 2,
     flexDirection: 'row',
-    paddingVertical: SIZES.spacing.sm,
+    paddingVertical: SPACE.sm,
     alignItems: 'center',
     justifyContent: 'center',
-    borderRadius: SIZES.borderRadius.md,
-    gap: 4,
+    borderRadius: RADIUS.lg,
+    gap: SPACE.xs,
   },
   submitButtonDisabled: {
-    opacity: 0.5,
+    opacity: 0.4,
   },
   submitText: {
-    fontSize: SIZES.fontSize.md,
-    fontWeight: '600',
+    fontSize: TYPOGRAPHY.size.md,
+    fontWeight: TYPOGRAPHY.weight.semibold,
     color: '#FFFFFF',
+  },
+  buttonPressed: {
+    opacity: 0.8,
+    transform: [{ scale: 0.98 }],
   },
 });
 

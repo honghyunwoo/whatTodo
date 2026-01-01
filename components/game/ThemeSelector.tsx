@@ -2,11 +2,7 @@ import React, { memo } from 'react';
 import { StyleSheet, TouchableOpacity, View } from 'react-native';
 import { Text } from 'react-native-paper';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import Animated, {
-  useAnimatedStyle,
-  withSpring,
-  useSharedValue,
-} from 'react-native-reanimated';
+import Animated, { useAnimatedStyle, withSpring, useSharedValue } from 'react-native-reanimated';
 
 import { GAME_THEMES, getThemeList } from '@/types/themes';
 import { useGameStore } from '@/store/gameStore';
@@ -21,7 +17,7 @@ interface ThemeSelectorProps {
 
 function ThemeSelectorComponent({ onClose }: ThemeSelectorProps) {
   const { currentTheme, setTheme } = useGameStore();
-  const { stars, unlockedThemes, unlockTheme, hasTheme } = useRewardStore();
+  const { stars, unlockTheme, hasTheme } = useRewardStore();
   const themes = getThemeList();
 
   const handleThemeSelect = (themeId: string, cost: number) => {
@@ -70,7 +66,7 @@ function ThemeSelectorComponent({ onClose }: ThemeSelectorProps) {
 }
 
 interface ThemeItemProps {
-  theme: typeof GAME_THEMES[keyof typeof GAME_THEMES];
+  theme: (typeof GAME_THEMES)[keyof typeof GAME_THEMES];
   isUnlocked: boolean;
   isSelected: boolean;
   canAfford: boolean;
@@ -124,10 +120,7 @@ function ThemeItemComponent({
       <View style={[styles.themePreview, { backgroundColor: theme.boardBg }]}>
         <View style={styles.previewGrid}>
           {previewColors.map((color, index) => (
-            <View
-              key={index}
-              style={[styles.previewTile, { backgroundColor: color }]}
-            />
+            <View key={index} style={[styles.previewTile, { backgroundColor: color }]} />
           ))}
         </View>
       </View>
@@ -144,9 +137,7 @@ function ThemeItemComponent({
             color={canAfford ? '#4CAF50' : '#999'}
           />
           <MaterialCommunityIcons name="star" size={12} color="#FFD700" />
-          <Text style={[styles.costText, !canAfford && styles.costTextDisabled]}>
-            {theme.cost}
-          </Text>
+          <Text style={[styles.costText, !canAfford && styles.costTextDisabled]}>{theme.cost}</Text>
         </View>
       )}
 

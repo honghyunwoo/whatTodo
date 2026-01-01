@@ -163,10 +163,7 @@ export function VocabularyView({ activity, onComplete }: VocabularyViewProps) {
     setShowMinimalPairs(false);
   }, []);
 
-  const handleMinimalPairsComplete = useCallback((pairResults: MinimalPairsResult[]) => {
-    const correctCount = pairResults.filter((r) => r.correct).length;
-    const pairScore = Math.round((correctCount / pairResults.length) * 100);
-    console.log(`발음 구분 연습 완료: ${pairScore}점`);
+  const handleMinimalPairsComplete = useCallback((_pairResults: MinimalPairsResult[]) => {
     setShowMinimalPairs(false);
   }, []);
 

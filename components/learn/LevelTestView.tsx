@@ -209,18 +209,21 @@ export function LevelTestView({ onComplete, onCancel }: LevelTestViewProps) {
   const progress = useMemo(() => {
     if (!test) return { current: 0, max: 30, percentage: 0 };
     return test.getProgress();
-  }, [test, currentQuestion]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [test, currentQuestion]); // currentQuestion triggers recalc
 
   const currentAccuracy = useMemo(() => {
     if (!test) return 0;
     return test.getCurrentAccuracy();
-  }, [test, currentQuestion]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [test, currentQuestion]); // currentQuestion triggers recalc
 
   const currentLevelInfo = useMemo(() => {
     if (!test) return getLevelInfo('A2');
     const state = test.getState();
     return getLevelInfo(state.currentLevel);
-  }, [test, currentQuestion]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [test, currentQuestion]); // currentQuestion triggers recalc
 
   // ─────────────────────────────────────
   // Render: Intro Phase

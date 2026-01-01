@@ -1,3 +1,4 @@
+/* eslint-disable no-console, @typescript-eslint/no-unused-vars */
 /**
  * 콘텐츠 품질 개선 스크립트
  *

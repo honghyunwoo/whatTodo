@@ -10,7 +10,6 @@ import type {
   LevelTestResult,
   LevelTestState,
   QuestionType,
-  SkillResult,
   TestAnswer,
   TestQuestion,
 } from '@/types/levelTest';
@@ -609,7 +608,11 @@ export function addQuestionsToBank(
 /**
  * Get level display info
  */
-export function getLevelInfo(level: CEFRLevel): { name: string; color: string; description: string } {
+export function getLevelInfo(level: CEFRLevel): {
+  name: string;
+  color: string;
+  description: string;
+} {
   const info: Record<CEFRLevel, { name: string; color: string; description: string }> = {
     A1: { name: '초급', color: '#10b981', description: '기초 표현과 간단한 문장' },
     A2: { name: '기초', color: '#3b82f6', description: '일상적인 상황 대처 가능' },

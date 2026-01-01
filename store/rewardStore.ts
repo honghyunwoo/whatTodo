@@ -416,7 +416,7 @@ export const useRewardStore = create<RewardState & RewardActions>()(
         if (error) {
           console.error('[RewardStore] rehydration failed:', error);
         } else if (__DEV__) {
-          console.log('[RewardStore] rehydrated');
+          // Debug: rehydration complete
         }
       },
     }

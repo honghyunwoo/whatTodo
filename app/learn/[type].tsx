@@ -33,12 +33,11 @@ import {
   getActivityLabel,
   isLevelLoaded,
   loadActivity,
-  loadWeekActivities,
   preloadLevel,
 } from '@/utils/activityLoader';
 
-// Activity types for navigation
-const ACTIVITY_TYPES: ActivityType[] = [
+// Activity types for navigation (reserved for future use)
+const _ACTIVITY_TYPES: ActivityType[] = [
   'vocabulary',
   'grammar',
   'listening',
@@ -73,34 +72,8 @@ export default function ActivityDetailScreen() {
     return loadActivity(currentLevel, type as ActivityType, weekId);
   }, [currentLevel, type, weekId, isLoading]);
 
-  // Get next activity type for "one more" feature
-  const getNextActivity = useCallback(() => {
-    if (!type || !weekId) return null;
-
-    const currentIndex = ACTIVITY_TYPES.indexOf(type as ActivityType);
-    if (currentIndex === -1) return null;
-
-    // Try next activity in same week
-    for (let i = currentIndex + 1; i < ACTIVITY_TYPES.length; i++) {
-      const nextType = ACTIVITY_TYPES[i];
-      const nextActivity = loadActivity(currentLevel, nextType, weekId);
-      if (nextActivity) {
-        return { type: nextType, weekId };
-      }
-    }
-
-    // Try first activity in next week
-    const weekNum = parseInt(weekId.replace('week-', ''), 10);
-    if (weekNum < 8) {
-      const nextWeekId = `week-${weekNum + 1}`;
-      const nextWeekActivities = loadWeekActivities(currentLevel, nextWeekId);
-      if (nextWeekActivities.length > 0) {
-        return { type: nextWeekActivities[0].type, weekId: nextWeekId };
-      }
-    }
-
-    return null;
-  }, [type, weekId, currentLevel]);
+  // Note: getNextActivity reserved for future "one more" feature
+  // See git history for implementation
 
   const handleComplete = useCallback(
     (score: number, xpEarned?: number) => {

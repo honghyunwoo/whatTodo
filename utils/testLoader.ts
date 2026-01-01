@@ -7,9 +7,8 @@
  * - 승급 테스트는 유닛 전체 범위
  */
 
-import type { CEFRLevel, ActivityType } from '@/types/activity';
-import type { TestMeta, TestQuestion, TEST_DEFAULTS } from '@/types/test';
-import type { LessonMeta, UnitMeta, LevelMeta } from '@/types/lesson';
+import type { CEFRLevel } from '@/types/activity';
+import type { TestMeta, TestQuestion } from '@/types/test';
 import { loadLevelMeta, getLessonMeta, loadLessonActivity } from './lessonLoader';
 
 // ─────────────────────────────────────
@@ -76,9 +75,6 @@ const TEST_CONFIG = {
     retakeCooldown: 1, // 1시간
   },
 };
-
-/** 어휘 문제 유형 */
-type VocabQuestionType = 'meaning' | 'word' | 'example';
 
 // ─────────────────────────────────────
 // 문제 생성 함수

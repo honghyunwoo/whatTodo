@@ -6,7 +6,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import { getWeeklyActivity, WeeklyActivity } from '@/utils/statistics';
+import { getWeeklyActivity } from '@/utils/statistics';
 
 export function WeeklyChart() {
   const activities = getWeeklyActivity();

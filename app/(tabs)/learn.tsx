@@ -6,17 +6,10 @@
 import { LinearGradient } from 'expo-linear-gradient';
 import { router } from 'expo-router';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
-import {
-  ActivityIndicator,
-  Pressable,
-  ScrollView,
-  StyleSheet,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import { ActivityIndicator, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
 import { IconButton, Modal, Portal, Text } from 'react-native-paper';
 
-import { ActivityCard, LessonSelector, LevelSelector, UnitSelector } from '@/components/learn';
+import { LessonSelector, LevelSelector, UnitSelector } from '@/components/learn';
 import { SessionSelector } from '@/components/session';
 import { LearningDashboard } from '@/components/dashboard/LearningDashboard';
 import { BadgeShowcase } from '@/components/reward';
@@ -47,10 +40,14 @@ const ACTIVITY_TYPES: ActivityType[] = [
   'writing',
 ];
 
+// Memoized gradient config to prevent re-creation on renders
+const HERO_GRADIENT_COLORS: readonly [string, string] = ['#4A90D9', '#6B5CE7'];
+const HERO_GRADIENT_START = { x: 0, y: 0 } as const;
+const HERO_GRADIENT_END = { x: 1, y: 1 } as const;
+
 export default function LearnScreen() {
   // Legacy week-based state
   const currentWeek = useLearnStore((state) => state.currentWeek);
-  const setCurrentWeek = useLearnStore((state) => state.setCurrentWeek);
   const progress = useLearnStore((state) => state.progress);
   const storeWeekProgress = useLearnStore((state) => state.weekProgress);
   const currentLevel = useLearnStore((state) => state.currentLevel);
@@ -82,31 +79,39 @@ export default function LearnScreen() {
     const loadData = async () => {
       setIsLoading(true);
 
-      // Load activity data (legacy)
-      if (!isLevelLoaded(currentLevel)) {
-        await preloadLevel(currentLevel);
-      }
+      try {
+        // Load activity data (legacy)
+        if (!isLevelLoaded(currentLevel)) {
+          await preloadLevel(currentLevel);
+        }
 
-      // Load lesson metadata (new)
-      if (!isLevelMetaLoaded(currentLevel)) {
-        await loadLevelMeta(currentLevel);
-      }
+        // Load lesson metadata (new)
+        if (!isLevelMetaLoaded(currentLevel)) {
+          await loadLevelMeta(currentLevel);
+        }
 
-      // Load scenarios for session-based learning
-      if (scenarios.length === 0) {
-        await loadScenarios();
-      }
+        // Load scenarios for session-based learning
+        if (scenarios.length === 0) {
+          await loadScenarios();
+        }
 
-      // Set default selected unit
-      const levelMeta = getLevelMeta(currentLevel);
-      if (levelMeta && levelMeta.units.length > 0 && !selectedUnitId) {
-        setSelectedUnitId(levelMeta.units[0].id);
+        // Set default selected unit
+        const levelMeta = getLevelMeta(currentLevel);
+        if (levelMeta && levelMeta.units.length > 0 && !selectedUnitId) {
+          setSelectedUnitId(levelMeta.units[0].id);
+        }
+      } catch (error) {
+        // Handle loading error gracefully
+        if (__DEV__) {
+          console.warn('[Learn] Failed to load data:', error);
+        }
+      } finally {
+        setIsLoading(false);
       }
-
-      setIsLoading(false);
     };
 
     loadData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentLevel, scenarios.length, loadScenarios]); // selectedUnitId 제거 - 무한 루프 방지
 
   const weekActivities = useMemo(() => {
@@ -167,7 +172,7 @@ export default function LearnScreen() {
         );
       })
       .filter(Boolean) as LessonCardData[];
-  }, [currentLevel, selectedUnitId, lessonProgress, getLessonProgress, isLessonUnlocked]);
+  }, [currentLevel, selectedUnitId, getLessonProgress, isLessonUnlocked]);
 
   const getActivityProgress = useCallback(
     (type: ActivityType) => {
@@ -183,16 +188,6 @@ export default function LearnScreen() {
       };
     },
     [weekActivities, progress, currentWeek]
-  );
-
-  const handleActivityPress = useCallback(
-    (type: ActivityType) => {
-      router.push({
-        pathname: '/learn/[type]',
-        params: { type, weekId: currentWeek },
-      });
-    },
-    [currentWeek]
   );
 
   const handleLevelTest = useCallback(() => {
@@ -263,18 +258,22 @@ export default function LearnScreen() {
   );
 
   const currentProgress = weekProgress[currentWeek] || 0;
-  const completedToday = ACTIVITY_TYPES.filter(
-    (type) => getActivityProgress(type).completed
-  ).length;
+
+  // Memoize completed activity count to prevent re-computation on every render
+  const completedToday = useMemo(
+    () => ACTIVITY_TYPES.filter((type) => getActivityProgress(type).completed).length,
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [progress] // Depends on progress state from store
+  );
 
   return (
     <View style={styles.container}>
       <ScrollView style={styles.scrollView} contentContainerStyle={styles.scrollContent}>
         {/* Hero Section with Gradient */}
         <LinearGradient
-          colors={['#4A90D9', '#6B5CE7']}
-          start={{ x: 0, y: 0 }}
-          end={{ x: 1, y: 1 }}
+          colors={HERO_GRADIENT_COLORS}
+          start={HERO_GRADIENT_START}
+          end={HERO_GRADIENT_END}
           style={styles.heroGradient}
         >
           <View style={styles.heroContent}>

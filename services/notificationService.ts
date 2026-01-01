@@ -60,8 +60,8 @@ class NotificationService {
     if (!this.notificationsModule) {
       try {
         this.notificationsModule = await import('expo-notifications');
-      } catch (e) {
-        console.log('[NotificationService] Failed to load expo-notifications:', e);
+      } catch {
+        // Expo notifications not available
         return null;
       }
     }
@@ -73,7 +73,7 @@ class NotificationService {
    */
   async initialize(): Promise<boolean> {
     if (isWeb) {
-      console.log('[expo-notifications] Web platform - notifications disabled');
+      // Web platform - notifications disabled
       return false;
     }
 
@@ -86,7 +86,7 @@ class NotificationService {
       const Device = await import('expo-device');
 
       if (!Device.isDevice) {
-        console.log('Notifications only work on physical devices');
+        // Notifications only work on physical devices
         return false;
       }
 
@@ -116,7 +116,7 @@ class NotificationService {
       // 권한 체크 (5초 타임아웃) - null이면 타임아웃
       const permissionResult = await withTimeout(Notifications.getPermissionsAsync(), 5000, null);
       if (!permissionResult) {
-        console.log('Permission check timed out');
+        // Permission check timed out
         return false;
       }
       let finalStatus = permissionResult.status;
@@ -129,14 +129,14 @@ class NotificationService {
           null
         );
         if (!requestResult) {
-          console.log('Permission request timed out');
+          // Permission request timed out
           return false;
         }
         finalStatus = requestResult.status;
       }
 
       if (finalStatus !== 'granted') {
-        console.log('Notification permission denied or timed out');
+        // Notification permission denied or timed out
         return false;
       }
 
@@ -152,7 +152,7 @@ class NotificationService {
           this.expoPushToken = token.data;
         }
       } catch {
-        console.log('Push token not available (local notifications still work)');
+        // Push token not available (local notifications still work)
       }
 
       this.initialized = true;
@@ -209,7 +209,6 @@ class NotificationService {
         },
       });
 
-      console.log(`Daily reminder scheduled at ${settings.hour}:${settings.minute}`);
       return identifier;
     } catch (error) {
       console.error('Failed to schedule daily reminder:', error);

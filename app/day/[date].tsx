@@ -55,7 +55,7 @@ export default function DayPage() {
   const dayData = useMemo(() => {
     if (!date) return null;
     return getDayData(date);
-  }, [date, tasks, journalEntries, diaryEntries]);
+  }, [date]); // getDayData accesses stores internally
 
   if (!date || !dayData) {
     return (

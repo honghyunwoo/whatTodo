@@ -6,7 +6,6 @@ import Animated, {
   useAnimatedStyle,
   withSpring,
   withSequence,
-  withTiming,
   ZoomIn,
   FadeOut,
   FadeIn,

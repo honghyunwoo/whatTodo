@@ -11,7 +11,7 @@
 
 import React, { useMemo } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Animated, { FadeInUp, FadeIn, useAnimatedStyle, withTiming } from 'react-native-reanimated';
+import Animated, { FadeInUp, FadeIn } from 'react-native-reanimated';
 import { LinearGradient } from 'expo-linear-gradient';
 
 import { COLORS } from '@/constants/colors';

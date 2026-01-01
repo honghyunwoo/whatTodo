@@ -97,6 +97,7 @@ export function TestView({ testMeta, questions, onComplete, onCancel }: TestView
         }
       }, 1500);
     },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [showFeedback, currentQuestion, startTime, answerQuestion, isLastQuestion]
   );
 
@@ -110,7 +111,7 @@ export function TestView({ testMeta, questions, onComplete, onCancel }: TestView
 
   // Handle submit
   const handleSubmit = useCallback(() => {
-    const result = submitTest();
+    submitTest();
     onComplete?.();
     router.replace('/test/result');
   }, [submitTest, onComplete]);

@@ -5,18 +5,21 @@
  */
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import React, { useMemo, useState } from 'react';
+import React, { useMemo } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import Svg, { Rect } from 'react-native-svg';
 
 import { useJournalStore } from '@/store/journalStore';
-import { JournalEntry, Mood, MonthlyStats } from '@/types/journal';
+import type { JournalEntry, Mood } from '@/types/journal';
 
 // ─────────────────────────────────────
 // Mood Configuration (icons instead of emoji)
 // ─────────────────────────────────────
 
-const MOOD_CONFIG: Record<Mood, { icon: keyof typeof MaterialCommunityIcons.glyphMap; color: string; label: string }> = {
+const MOOD_CONFIG: Record<
+  Mood,
+  { icon: keyof typeof MaterialCommunityIcons.glyphMap; color: string; label: string }
+> = {
   great: { icon: 'emoticon-excited', color: '#22c55e', label: 'Great' },
   good: { icon: 'emoticon-happy', color: '#3b82f6', label: 'Good' },
   okay: { icon: 'emoticon-neutral', color: '#f59e0b', label: 'Okay' },
@@ -33,13 +36,13 @@ interface CalendarHeatmapProps {
 }
 
 const CalendarHeatmap: React.FC<CalendarHeatmapProps> = ({ entries, onDayPress }) => {
-  const today = new Date();
   const cellSize = 12;
   const cellGap = 2;
   const weeksToShow = 12; // ~3 months
 
   // Generate dates for the last N weeks
   const dates = useMemo(() => {
+    const today = new Date(); // Moved inside useMemo
     const result: { date: string; intensity: number }[] = [];
     const startDate = new Date(today);
     startDate.setDate(startDate.getDate() - (weeksToShow * 7 - 1));
@@ -63,16 +66,21 @@ const CalendarHeatmap: React.FC<CalendarHeatmapProps> = ({ entries, onDayPress }
       result.push({ date: dateStr, intensity });
     }
     return result;
-  }, [entries, today, weeksToShow]);
+  }, [entries, weeksToShow]);
 
   // Intensity colors
   const getColor = (intensity: number) => {
     switch (intensity) {
-      case 4: return '#166534';
-      case 3: return '#22c55e';
-      case 2: return '#86efac';
-      case 1: return '#dcfce7';
-      default: return '#f3f4f6';
+      case 4:
+        return '#166534';
+      case 3:
+        return '#22c55e';
+      case 2:
+        return '#86efac';
+      case 1:
+        return '#dcfce7';
+      default:
+        return '#f3f4f6';
     }
   };
 
@@ -109,10 +117,7 @@ const CalendarHeatmap: React.FC<CalendarHeatmapProps> = ({ entries, onDayPress }
       <View style={styles.legend}>
         <Text style={styles.legendLabel}>Less</Text>
         {[0, 1, 2, 3, 4].map((i) => (
-          <View
-            key={i}
-            style={[styles.legendCell, { backgroundColor: getColor(i) }]}
-          />
+          <View key={i} style={[styles.legendCell, { backgroundColor: getColor(i) }]} />
         ))}
         <Text style={styles.legendLabel}>More</Text>
       </View>
@@ -148,16 +153,8 @@ interface JournalViewProps {
 }
 
 export const JournalView: React.FC<JournalViewProps> = ({ onEntryPress }) => {
-  const {
-    entries,
-    streak,
-    skillProgress,
-    getMonthlyStats,
-    getRecentEntries,
-    getTotalLearningTime,
-  } = useJournalStore();
-
-  const [selectedDate, setSelectedDate] = useState<string | null>(null);
+  const { entries, streak, getMonthlyStats, getRecentEntries, getTotalLearningTime } =
+    useJournalStore();
 
   // Current month stats
   const currentMonth = useMemo(() => {
@@ -165,7 +162,10 @@ export const JournalView: React.FC<JournalViewProps> = ({ onEntryPress }) => {
     return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`;
   }, []);
 
-  const monthlyStats = useMemo(() => getMonthlyStats(currentMonth), [currentMonth, getMonthlyStats]);
+  const monthlyStats = useMemo(
+    () => getMonthlyStats(currentMonth),
+    [currentMonth, getMonthlyStats]
+  );
   const recentEntries = useMemo(() => getRecentEntries(7), [getRecentEntries]);
   const totalTime = useMemo(() => getTotalLearningTime(), [getTotalLearningTime]);
 
@@ -202,10 +202,7 @@ export const JournalView: React.FC<JournalViewProps> = ({ onEntryPress }) => {
       </View>
 
       {/* Calendar Heatmap */}
-      <CalendarHeatmap
-        entries={entries}
-        onDayPress={setSelectedDate}
-      />
+      <CalendarHeatmap entries={entries} />
 
       {/* Monthly Stats */}
       <View style={styles.section}>
@@ -261,17 +258,13 @@ export const JournalView: React.FC<JournalViewProps> = ({ onEntryPress }) => {
               onPress={() => onEntryPress?.(entry)}
             >
               <View style={styles.entryDate}>
-                <Text style={styles.entryDay}>
-                  {new Date(entry.date).getDate()}
-                </Text>
+                <Text style={styles.entryDay}>{new Date(entry.date).getDate()}</Text>
                 <Text style={styles.entryMonth}>
                   {new Date(entry.date).toLocaleDateString('en-US', { month: 'short' })}
                 </Text>
               </View>
               <View style={styles.entryContent}>
-                <Text style={styles.entryTitle}>
-                  {entry.completedActivities.length} activities
-                </Text>
+                <Text style={styles.entryTitle}>{entry.completedActivities.length} activities</Text>
                 <View style={styles.entryMeta}>
                   <MaterialCommunityIcons name="clock-outline" size={14} color="#9ca3af" />
                   <Text style={styles.entryMetaText}>{formatTime(entry.learningTime)}</Text>
@@ -283,7 +276,9 @@ export const JournalView: React.FC<JournalViewProps> = ({ onEntryPress }) => {
                         color={MOOD_CONFIG[entry.mood].color}
                         style={{ marginLeft: 12 }}
                       />
-                      <Text style={[styles.entryMetaText, { color: MOOD_CONFIG[entry.mood].color }]}>
+                      <Text
+                        style={[styles.entryMetaText, { color: MOOD_CONFIG[entry.mood].color }]}
+                      >
                         {MOOD_CONFIG[entry.mood].label}
                       </Text>
                     </>

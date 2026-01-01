@@ -6,9 +6,7 @@
  * Sentry 초기화 (현재 비활성화)
  */
 export function initSentry(): void {
-  if (__DEV__) {
-    console.log('[Sentry] Disabled for development');
-  }
+  // Sentry disabled for development
 }
 
 /**

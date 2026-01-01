@@ -113,9 +113,6 @@ export function WritingEditor({
       .filter((word) => word.length > 0).length;
   }, [value]);
 
-  // Check if word count is in valid range
-  const isWordCountValid = wordCount >= prompt.wordCount.min && wordCount <= prompt.wordCount.max;
-
   const isUnderMinimum = wordCount < prompt.wordCount.min;
   const isOverMaximum = wordCount > prompt.wordCount.max;
 

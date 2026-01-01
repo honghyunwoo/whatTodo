@@ -12,7 +12,7 @@ module.exports = [
   // Custom rules
   {
     rules: {
-      'no-console': 'warn',
+      'no-console': ['warn', { allow: ['warn', 'error'] }],
       'prefer-const': 'error',
     },
   },

@@ -9,7 +9,6 @@ import { Alert, Pressable, StyleSheet, View } from 'react-native';
 import { Text } from 'react-native-paper';
 
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as const;
-type Level = (typeof LEVELS)[number];
 
 interface LevelSelectorProps {
   currentLevel: string;

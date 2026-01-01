@@ -213,7 +213,7 @@ export function Dictation({ questions, onComplete, speeds = DEFAULT_SPEEDS }: Di
         onDone: () => setIsPlaying(false),
         onError: () => setIsPlaying(false),
       });
-    } catch (error) {
+    } catch {
       setIsPlaying(false);
     }
   }, [isPlaying, canReplay, currentQuestion.audioText, currentSpeed]);

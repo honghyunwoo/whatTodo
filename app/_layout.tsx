@@ -52,6 +52,7 @@ function AppContent() {
     };
 
     init();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []); // 의존성 제거 - Zustand persist rehydration 무한 루프 방지
 
   const handleOnboardingComplete = async () => {

@@ -21,12 +21,7 @@ import { useSessionStore } from '@/store/sessionStore';
 import { useScenarioStore } from '@/store/scenarioStore';
 import { useSkillStore } from '@/store/skillStore';
 import { useRewardStore } from '@/store/rewardStore';
-import {
-  SessionType,
-  SESSION_CONFIG,
-  Expression,
-  createNormalizedErrorMessage,
-} from '@/types/scenario';
+import { SessionType, Expression, createNormalizedErrorMessage } from '@/types/scenario';
 
 // ─────────────────────────────────────
 // 피드백 모달 컴포넌트
