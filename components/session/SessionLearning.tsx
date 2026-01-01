@@ -1,10 +1,19 @@
 /**
  * SessionLearning Component
- * 활성 학습 세션 화면 - 타이머 + 표현 학습
+ * 활성 학습 세션 화면 - 타이머 + 영어 입력 테스트
  */
 
 import React, { memo, useCallback, useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, Animated, Pressable, StyleSheet, View } from 'react-native';
+import {
+  Animated,
+  Keyboard,
+  KeyboardAvoidingView,
+  Platform,
+  Pressable,
+  StyleSheet,
+  TextInput,
+  View,
+} from 'react-native';
 import { IconButton, Text } from 'react-native-paper';
 import { useShallow } from 'zustand/react/shallow';
 
@@ -18,8 +27,42 @@ interface SessionLearningProps {
   onCancel: () => void;
 }
 
+// 정답 체크 함수 - 대소문자 무시, 공백/구두점 유연하게 처리
+function checkAnswer(userAnswer: string, correctAnswer: string): boolean {
+  const normalize = (str: string) =>
+    str
+      .toLowerCase()
+      .trim()
+      .replace(/[.,!?'"]/g, '') // 구두점 제거
+      .replace(/\s+/g, ' '); // 연속 공백을 하나로
+
+  return normalize(userAnswer) === normalize(correctAnswer);
+}
+
+// 유사도 체크 (부분 정답 인정)
+function getSimilarity(userAnswer: string, correctAnswer: string): number {
+  const normalize = (str: string) =>
+    str
+      .toLowerCase()
+      .trim()
+      .replace(/[.,!?'"]/g, '')
+      .replace(/\s+/g, ' ');
+
+  const user = normalize(userAnswer);
+  const correct = normalize(correctAnswer);
+
+  if (user === correct) return 100;
+  if (correct.includes(user) || user.includes(correct)) return 80;
+
+  // 단어 단위 비교
+  const userWords = user.split(' ');
+  const correctWords = correct.split(' ');
+  const matchingWords = userWords.filter((w) => correctWords.includes(w));
+
+  return Math.round((matchingWords.length / correctWords.length) * 100);
+}
+
 function SessionLearningComponent({ onComplete, onCancel }: SessionLearningProps) {
-  // Phase 1.2: Zustand 셀렉터 통합 (useShallow)
   const { status, currentSession } = useSessionStore(
     useShallow((state) => ({
       status: state.status,
@@ -27,7 +70,6 @@ function SessionLearningComponent({ onComplete, onCancel }: SessionLearningProps
     }))
   );
 
-  // Actions (stable references - no need for useShallow)
   const getCurrentExpression = useSessionStore((state) => state.getCurrentExpression);
   const getSessionProgress = useSessionStore((state) => state.getSessionProgress);
   const getTimeRemaining = useSessionStore((state) => state.getTimeRemaining);
@@ -37,17 +79,21 @@ function SessionLearningComponent({ onComplete, onCancel }: SessionLearningProps
   const resumeSession = useSessionStore((state) => state.resumeSession);
   const endSession = useSessionStore((state) => state.endSession);
 
-  const [showAnswer, setShowAnswer] = useState(false);
+  const [userAnswer, setUserAnswer] = useState('');
+  const [submitted, setSubmitted] = useState(false);
+  const [isCorrect, setIsCorrect] = useState(false);
+  const [similarity, setSimilarity] = useState(0);
   const [currentExpression, setCurrentExpression] = useState<Expression | null>(null);
-  const flipAnimRef = useRef(new Animated.Value(0));
-  const flipAnim = flipAnimRef.current;
 
-  // Phase 1.1: Timer 재구독 문제 수정 - tick 의존성 제거
+  const inputRef = useRef<TextInput>(null);
+  const feedbackAnim = useRef(new Animated.Value(0)).current;
+
+  // Timer tick
   useEffect(() => {
     if (status !== 'active' || currentSession?.isPaused) return;
 
     const interval = setInterval(() => {
-      useSessionStore.getState().tick(); // 직접 참조로 재구독 방지
+      useSessionStore.getState().tick();
     }, 1000);
 
     return () => clearInterval(interval);
@@ -56,9 +102,15 @@ function SessionLearningComponent({ onComplete, onCancel }: SessionLearningProps
   // Update current expression
   useEffect(() => {
     setCurrentExpression(getCurrentExpression());
-    setShowAnswer(false);
-    flipAnim.setValue(0);
-  }, [currentSession?.currentIndex, getCurrentExpression, flipAnim]);
+    setUserAnswer('');
+    setSubmitted(false);
+    setIsCorrect(false);
+    setSimilarity(0);
+    feedbackAnim.setValue(0);
+
+    // Focus input after a short delay
+    setTimeout(() => inputRef.current?.focus(), 300);
+  }, [currentSession?.currentIndex, getCurrentExpression, feedbackAnim]);
 
   // Check for completion
   useEffect(() => {
@@ -67,29 +119,36 @@ function SessionLearningComponent({ onComplete, onCancel }: SessionLearningProps
     }
   }, [status, onComplete]);
 
-  const handleShowAnswer = useCallback(() => {
-    setShowAnswer(true);
-    Animated.spring(flipAnim, {
+  const handleSubmit = useCallback(() => {
+    if (!currentExpression || submitted || !userAnswer.trim()) return;
+
+    Keyboard.dismiss();
+
+    const correct = checkAnswer(userAnswer, currentExpression.english);
+    const sim = getSimilarity(userAnswer, currentExpression.english);
+
+    setIsCorrect(correct);
+    setSimilarity(sim);
+    setSubmitted(true);
+
+    // Record answer
+    recordAnswer(currentExpression.id, correct, userAnswer);
+
+    // Animate feedback
+    Animated.spring(feedbackAnim, {
       toValue: 1,
       friction: 8,
-      tension: 10,
+      tension: 40,
       useNativeDriver: true,
     }).start();
-  }, [flipAnim]);
+  }, [currentExpression, submitted, userAnswer, recordAnswer, feedbackAnim]);
 
-  const handleAnswer = useCallback(
-    (isCorrect: boolean) => {
-      if (!currentExpression) return;
-
-      recordAnswer(currentExpression.id, isCorrect);
-
-      const hasNext = nextExpression();
-      if (!hasNext) {
-        endSession();
-      }
-    },
-    [currentExpression, recordAnswer, nextExpression, endSession]
-  );
+  const handleNext = useCallback(() => {
+    const hasNext = nextExpression();
+    if (!hasNext) {
+      endSession();
+    }
+  }, [nextExpression, endSession]);
 
   const handlePauseResume = useCallback(() => {
     if (currentSession?.isPaused) {
@@ -104,6 +163,23 @@ function SessionLearningComponent({ onComplete, onCancel }: SessionLearningProps
     onCancel();
   }, [endSession, onCancel]);
 
+  const handleSkip = useCallback(() => {
+    if (!currentExpression) return;
+
+    // Skip = wrong answer
+    recordAnswer(currentExpression.id, false, '');
+    setSubmitted(true);
+    setIsCorrect(false);
+    setSimilarity(0);
+
+    Animated.spring(feedbackAnim, {
+      toValue: 1,
+      friction: 8,
+      tension: 40,
+      useNativeDriver: true,
+    }).start();
+  }, [currentExpression, recordAnswer, feedbackAnim]);
+
   if (!currentSession || !currentExpression) {
     return null;
   }
@@ -113,18 +189,16 @@ function SessionLearningComponent({ onComplete, onCancel }: SessionLearningProps
   const config = SESSION_CONFIG[currentSession.type];
   const isPaused = currentSession.isPaused;
 
-  // Animation interpolations
-  const frontOpacity = flipAnim.interpolate({
-    inputRange: [0, 0.5, 1],
-    outputRange: [1, 0, 0],
-  });
-  const backOpacity = flipAnim.interpolate({
-    inputRange: [0, 0.5, 1],
-    outputRange: [0, 0, 1],
+  const feedbackScale = feedbackAnim.interpolate({
+    inputRange: [0, 1],
+    outputRange: [0.8, 1],
   });
 
   return (
-    <View style={styles.container}>
+    <KeyboardAvoidingView
+      style={styles.container}
+      behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+    >
       {/* Header with Timer */}
       <View style={styles.header}>
         <IconButton
@@ -164,84 +238,115 @@ function SessionLearningComponent({ onComplete, onCancel }: SessionLearningProps
         <View style={styles.pauseOverlay}>
           <Text style={styles.pauseEmoji}>⏸️</Text>
           <Text style={styles.pauseText}>일시정지</Text>
-          <Pressable
-            style={styles.resumeButton}
-            onPress={handlePauseResume}
-            accessibilityLabel="계속하기"
-            accessibilityRole="button"
-            accessibilityHint="일시정지된 세션을 재개합니다"
-          >
+          <Pressable style={styles.resumeButton} onPress={handlePauseResume}>
             <Text style={styles.resumeButtonText}>계속하기</Text>
           </Pressable>
         </View>
       )}
 
-      {/* Card Content */}
+      {/* Main Content */}
       {!isPaused && (
         <View style={styles.cardContainer}>
-          {/* Front - Korean */}
-          <Animated.View style={[styles.card, { opacity: frontOpacity }]}>
-            <View style={styles.cardContent}>
-              <Text style={styles.cardLabel}>한국어</Text>
-              <Text style={styles.cardKorean}>{currentExpression.korean}</Text>
-              {currentExpression.context && (
-                <Text style={styles.cardContext}>💡 {currentExpression.context}</Text>
-              )}
-            </View>
+          {/* Question Card */}
+          <View style={styles.card}>
+            <Text style={styles.questionLabel}>이 문장을 영어로?</Text>
+            <Text style={styles.koreanText}>{currentExpression.korean}</Text>
 
-            <Pressable
-              style={styles.showAnswerButton}
-              onPress={handleShowAnswer}
-              accessibilityLabel="영어 정답 보기"
-              accessibilityRole="button"
-              accessibilityHint="카드를 뒤집어 영어 표현을 확인합니다"
+            {currentExpression.context && (
+              <View style={styles.contextBox}>
+                <Text style={styles.contextText}>💡 {currentExpression.context}</Text>
+              </View>
+            )}
+          </View>
+
+          {/* Input Area - Only show if not submitted */}
+          {!submitted && (
+            <View style={styles.inputContainer}>
+              <TextInput
+                ref={inputRef}
+                style={styles.textInput}
+                placeholder="영어로 입력하세요..."
+                placeholderTextColor={COLORS.textSecondary}
+                value={userAnswer}
+                onChangeText={setUserAnswer}
+                onSubmitEditing={handleSubmit}
+                autoCapitalize="none"
+                autoCorrect={false}
+                multiline
+              />
+
+              <View style={styles.buttonRow}>
+                <Pressable style={styles.skipButton} onPress={handleSkip}>
+                  <Text style={styles.skipButtonText}>모르겠어요</Text>
+                </Pressable>
+
+                <Pressable
+                  style={[styles.submitButton, !userAnswer.trim() && styles.submitButtonDisabled]}
+                  onPress={handleSubmit}
+                  disabled={!userAnswer.trim()}
+                >
+                  <Text style={styles.submitButtonText}>제출</Text>
+                </Pressable>
+              </View>
+            </View>
+          )}
+
+          {/* Feedback - Only show after submit */}
+          {submitted && (
+            <Animated.View
+              style={[
+                styles.feedbackContainer,
+                { transform: [{ scale: feedbackScale }], opacity: feedbackAnim },
+              ]}
             >
-              <Text style={styles.showAnswerText}>영어 보기</Text>
-            </Pressable>
-          </Animated.View>
+              {/* Result Icon */}
+              <View style={[styles.resultIcon, isCorrect ? styles.correctIcon : styles.wrongIcon]}>
+                <Text style={styles.resultEmoji}>{isCorrect ? '🎉' : '😅'}</Text>
+              </View>
 
-          {/* Back - English */}
-          <Animated.View
-            style={[styles.card, styles.cardBack, { opacity: backOpacity }]}
-            pointerEvents={showAnswer ? 'auto' : 'none'}
-          >
-            <View style={styles.cardContent}>
-              <Text style={styles.cardLabel}>영어</Text>
-              <Text style={styles.cardEnglish}>{currentExpression.english}</Text>
+              <Text style={[styles.resultText, isCorrect ? styles.correctText : styles.wrongText]}>
+                {isCorrect ? '정답입니다!' : '아쉬워요!'}
+              </Text>
+
+              {/* User's answer */}
+              {userAnswer && (
+                <View style={styles.answerCompare}>
+                  <Text style={styles.answerLabel}>내 답변:</Text>
+                  <Text style={[styles.userAnswerText, isCorrect && styles.correctAnswer]}>
+                    {userAnswer}
+                  </Text>
+                </View>
+              )}
+
+              {/* Correct answer */}
+              <View style={styles.answerCompare}>
+                <Text style={styles.answerLabel}>정답:</Text>
+                <Text style={styles.correctAnswerText}>{currentExpression.english}</Text>
+              </View>
+
+              {/* Pronunciation */}
               {currentExpression.pronunciation && (
-                <Text style={styles.cardPronunciation}>/{currentExpression.pronunciation}/</Text>
+                <Text style={styles.pronunciation}>/{currentExpression.pronunciation}/</Text>
               )}
-              {currentExpression.tips && (
-                <Text style={styles.cardTips}>💡 {currentExpression.tips}</Text>
-              )}
-            </View>
 
-            <View style={styles.answerButtons}>
-              <Pressable
-                style={[styles.answerButton, styles.wrongButton]}
-                onPress={() => handleAnswer(false)}
-                accessibilityLabel="몰랐어요"
-                accessibilityRole="button"
-                accessibilityHint="이 표현을 복습 목록에 추가합니다"
-              >
-                <Text style={styles.answerButtonEmoji}>😅</Text>
-                <Text style={styles.answerButtonText}>몰랐어요</Text>
+              {/* Tips */}
+              {currentExpression.tips && (
+                <View style={styles.tipsBox}>
+                  <Text style={styles.tipsText}>💡 {currentExpression.tips}</Text>
+                </View>
+              )}
+
+              {/* Next Button */}
+              <Pressable style={styles.nextButton} onPress={handleNext}>
+                <Text style={styles.nextButtonText}>
+                  {current < total ? '다음 문제' : '결과 보기'}
+                </Text>
               </Pressable>
-              <Pressable
-                style={[styles.answerButton, styles.correctButton]}
-                onPress={() => handleAnswer(true)}
-                accessibilityLabel="알았어요"
-                accessibilityRole="button"
-                accessibilityHint="다음 표현으로 넘어갑니다"
-              >
-                <Text style={styles.answerButtonEmoji}>✅</Text>
-                <Text style={styles.answerButtonText}>알았어요</Text>
-              </Pressable>
-            </View>
-          </Animated.View>
+            </Animated.View>
+          )}
         </View>
       )}
-    </View>
+    </KeyboardAvoidingView>
   );
 }
 
@@ -249,102 +354,80 @@ export const SessionLearning = memo(SessionLearningComponent);
 SessionLearning.displayName = 'SessionLearning';
 
 const styles = StyleSheet.create({
-  answerButton: {
+  answerCompare: {
     alignItems: 'center',
-    borderRadius: 16,
-    flex: 1,
-    marginHorizontal: 8,
-    paddingVertical: 16,
+    marginVertical: 8,
+    width: '100%',
   },
-  answerButtonEmoji: {
-    fontSize: 28,
+  answerLabel: {
+    color: COLORS.textSecondary,
+    fontSize: 12,
     marginBottom: 4,
   },
-  answerButtonText: {
-    color: '#FFFFFF',
-    fontSize: 16,
-    fontWeight: '700',
-  },
-  answerButtons: {
+  buttonRow: {
     flexDirection: 'row',
-    paddingHorizontal: 16,
-    paddingTop: 16,
+    gap: 12,
+    marginTop: 16,
   },
   card: {
+    alignItems: 'center',
     backgroundColor: COLORS.surface,
-    borderRadius: 24,
-    elevation: 8,
+    borderRadius: 20,
     marginHorizontal: SIZES.spacing.md,
-    overflow: 'hidden',
+    padding: SIZES.spacing.xl,
     shadowColor: '#000',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.15,
-    shadowRadius: 12,
-  },
-  cardBack: {
-    bottom: 0,
-    left: 0,
-    position: 'absolute',
-    right: 0,
-    top: 0,
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+    elevation: 4,
   },
   cardContainer: {
     flex: 1,
-    justifyContent: 'center',
-    paddingVertical: SIZES.spacing.xl,
-  },
-  cardContent: {
-    alignItems: 'center',
-    padding: SIZES.spacing.xl,
-    paddingBottom: SIZES.spacing.md,
-  },
-  cardContext: {
-    color: COLORS.textSecondary,
-    fontSize: 14,
-    marginTop: 16,
-    textAlign: 'center',
-  },
-  cardEnglish: {
-    color: COLORS.primary,
-    fontSize: 24,
-    fontWeight: '700',
-    lineHeight: 34,
-    textAlign: 'center',
-  },
-  cardKorean: {
-    color: COLORS.text,
-    fontSize: 26,
-    fontWeight: '700',
-    lineHeight: 36,
-    textAlign: 'center',
-  },
-  cardLabel: {
-    color: COLORS.textSecondary,
-    fontSize: 14,
-    fontWeight: '600',
-    marginBottom: 12,
-  },
-  cardPronunciation: {
-    color: COLORS.textSecondary,
-    fontSize: 16,
-    fontStyle: 'italic',
-    marginTop: 8,
-  },
-  cardTips: {
-    backgroundColor: COLORS.background,
-    borderRadius: 12,
-    color: COLORS.text,
-    fontSize: 14,
-    marginTop: 16,
-    padding: 12,
-    textAlign: 'center',
+    justifyContent: 'flex-start',
+    paddingTop: SIZES.spacing.lg,
   },
   container: {
     backgroundColor: COLORS.background,
     flex: 1,
   },
-  correctButton: {
-    backgroundColor: COLORS.success,
+  contextBox: {
+    backgroundColor: COLORS.background,
+    borderRadius: 12,
+    marginTop: 16,
+    padding: 12,
+  },
+  contextText: {
+    color: COLORS.textSecondary,
+    fontSize: 14,
+    textAlign: 'center',
+  },
+  correctAnswer: {
+    color: COLORS.success,
+  },
+  correctAnswerText: {
+    color: COLORS.primary,
+    fontSize: 18,
+    fontWeight: '700',
+    textAlign: 'center',
+  },
+  correctIcon: {
+    backgroundColor: 'rgba(0, 200, 83, 0.15)',
+  },
+  correctText: {
+    color: COLORS.success,
+  },
+  feedbackContainer: {
+    alignItems: 'center',
+    backgroundColor: COLORS.surface,
+    borderRadius: 20,
+    marginHorizontal: SIZES.spacing.md,
+    marginTop: SIZES.spacing.lg,
+    padding: SIZES.spacing.xl,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+    elevation: 4,
   },
   header: {
     alignItems: 'center',
@@ -352,6 +435,29 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     paddingHorizontal: 4,
     paddingTop: SIZES.spacing.md,
+  },
+  inputContainer: {
+    marginHorizontal: SIZES.spacing.md,
+    marginTop: SIZES.spacing.lg,
+  },
+  koreanText: {
+    color: COLORS.text,
+    fontSize: 24,
+    fontWeight: '700',
+    lineHeight: 34,
+    textAlign: 'center',
+  },
+  nextButton: {
+    backgroundColor: COLORS.primary,
+    borderRadius: 16,
+    marginTop: 20,
+    paddingHorizontal: 48,
+    paddingVertical: 16,
+  },
+  nextButtonText: {
+    color: '#FFFFFF',
+    fontSize: 18,
+    fontWeight: '700',
   },
   pauseEmoji: {
     fontSize: 64,
@@ -398,6 +504,34 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '600',
   },
+  pronunciation: {
+    color: COLORS.textSecondary,
+    fontSize: 14,
+    fontStyle: 'italic',
+    marginTop: 4,
+  },
+  questionLabel: {
+    color: COLORS.textSecondary,
+    fontSize: 14,
+    fontWeight: '600',
+    marginBottom: 12,
+  },
+  resultEmoji: {
+    fontSize: 32,
+  },
+  resultIcon: {
+    alignItems: 'center',
+    borderRadius: 40,
+    height: 80,
+    justifyContent: 'center',
+    marginBottom: 12,
+    width: 80,
+  },
+  resultText: {
+    fontSize: 20,
+    fontWeight: '700',
+    marginBottom: 16,
+  },
   resumeButton: {
     backgroundColor: COLORS.primary,
     borderRadius: 24,
@@ -413,18 +547,43 @@ const styles = StyleSheet.create({
     color: COLORS.textSecondary,
     fontSize: 12,
   },
-  showAnswerButton: {
+  skipButton: {
+    alignItems: 'center',
+    backgroundColor: COLORS.border,
+    borderRadius: 16,
+    flex: 1,
+    paddingVertical: 16,
+  },
+  skipButtonText: {
+    color: COLORS.textSecondary,
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  submitButton: {
     alignItems: 'center',
     backgroundColor: COLORS.primary,
     borderRadius: 16,
-    marginHorizontal: SIZES.spacing.lg,
-    marginVertical: SIZES.spacing.lg,
+    flex: 2,
     paddingVertical: 16,
   },
-  showAnswerText: {
+  submitButtonDisabled: {
+    backgroundColor: COLORS.border,
+  },
+  submitButtonText: {
     color: '#FFFFFF',
     fontSize: 18,
     fontWeight: '700',
+  },
+  textInput: {
+    backgroundColor: COLORS.surface,
+    borderColor: COLORS.border,
+    borderRadius: 16,
+    borderWidth: 2,
+    color: COLORS.text,
+    fontSize: 18,
+    minHeight: 80,
+    padding: 16,
+    textAlignVertical: 'top',
   },
   timer: {
     color: COLORS.text,
@@ -438,7 +597,27 @@ const styles = StyleSheet.create({
   timerWarning: {
     color: COLORS.error,
   },
-  wrongButton: {
-    backgroundColor: COLORS.error,
+  tipsBox: {
+    backgroundColor: COLORS.background,
+    borderRadius: 12,
+    marginTop: 16,
+    padding: 12,
+    width: '100%',
+  },
+  tipsText: {
+    color: COLORS.text,
+    fontSize: 14,
+    textAlign: 'center',
+  },
+  userAnswerText: {
+    color: COLORS.error,
+    fontSize: 16,
+    textAlign: 'center',
+  },
+  wrongIcon: {
+    backgroundColor: 'rgba(255, 82, 82, 0.15)',
+  },
+  wrongText: {
+    color: COLORS.error,
   },
 });
