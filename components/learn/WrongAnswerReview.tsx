@@ -14,6 +14,8 @@ import { SIZES } from '@/constants/sizes';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useWrongAnswerStore, WrongAnswer } from '@/store/wrongAnswerStore';
 import { feedbackService } from '@/services/feedbackService';
+import { wrongAnswerGenerator, GeneratedOptions } from '@/utils/wrongAnswerGenerator';
+import { useUserStore } from '@/store/userStore';
 
 interface WrongAnswerReviewProps {
   limit?: number;
@@ -67,20 +69,18 @@ export function WrongAnswerReview({ limit = 10, onComplete, onClose }: WrongAnsw
   const isLastQuestion = currentIndex === wrongAnswers.length - 1;
   const progress = wrongAnswers.length > 0 ? ((currentIndex + 1) / wrongAnswers.length) * 100 : 0;
 
-  // 선택지 생성 (정답 + 랜덤 오답들)
-  const options = useMemo(() => {
-    if (!currentAnswer) return [];
+  // 사용자 레벨
+  const userLevel = useUserStore((state) => state.preferredLevel);
 
-    // 실제로는 유사 오답을 생성해야 하지만, 여기서는 간단히
-    // 정답과 사용자가 틀린 답만 표시
-    const opts = [currentAnswer.correctAnswer];
-    if (currentAnswer.userAnswer !== currentAnswer.correctAnswer) {
-      opts.push(currentAnswer.userAnswer);
-    }
+  // 선택지 생성 (4지선다 보장)
+  const generatedOptions = useMemo<GeneratedOptions | null>(() => {
+    if (!currentAnswer) return null;
 
-    // 셔플
-    return opts.sort(() => Math.random() - 0.5);
-  }, [currentAnswer]);
+    // wrongAnswerGenerator 사용: 정답(1) + 사용자오답(1) + 유사오답(2) = 최소 4개
+    return wrongAnswerGenerator.generate4Options(currentAnswer, wrongAnswers, userLevel);
+  }, [currentAnswer, wrongAnswers, userLevel]);
+
+  const options = generatedOptions?.options || [];
 
   // 답변 선택
   const handleSelectAnswer = useCallback(

@@ -17,4 +17,5 @@ export const STORAGE_KEYS = {
   SESSIONS: '@whatTodo:sessions',
   WRONG_ANSWERS: '@whatTodo:wrong_answers',
   REPORTS: '@whatTodo:reports',
+  MOTIVATION_COOLDOWN: '@whatTodo:motivation_cooldown',
 } as const;
