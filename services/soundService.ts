@@ -118,31 +118,30 @@ export async function unloadAllSounds(): Promise<void> {
 
 // Sound file mapping
 // All sounds are CC0 licensed from OpenGameArt.org
-/* eslint-disable @typescript-eslint/no-require-imports */
+
 const SOUND_FILES: Record<string, AVPlaybackSource> = {
   // Learn sounds
-  correct: require('@/assets/sounds/correct.wav'),
-  wrong: require('@/assets/sounds/wrong.ogg'),
-  'card-flip': require('@/assets/sounds/card-flip.wav'),
-  'level-up': require('@/assets/sounds/level-up.ogg'),
-  achievement: require('@/assets/sounds/achievement.wav'),
+  correct: require('../assets/sounds/correct.wav'),
+  wrong: require('../assets/sounds/wrong.wav'),
+  'card-flip': require('../assets/sounds/card-flip.wav'),
+  'level-up': require('../assets/sounds/level-up.wav'),
+  achievement: require('../assets/sounds/achievement.wav'),
 
   // Game sounds (2048)
-  'tile-move': require('@/assets/sounds/tile-move.wav'),
-  'tile-merge': require('@/assets/sounds/tile-merge.wav'),
-  'high-merge': require('@/assets/sounds/high-merge.ogg'),
-  win: require('@/assets/sounds/win.wav'),
-  'game-over': require('@/assets/sounds/game-over.wav'),
+  'tile-move': require('../assets/sounds/tile-move.wav'),
+  'tile-merge': require('../assets/sounds/tile-merge.wav'),
+  'high-merge': require('../assets/sounds/high-merge.wav'),
+  win: require('../assets/sounds/win.wav'),
+  'game-over': require('../assets/sounds/game-over.wav'),
 
   // Todo sounds
-  'task-complete': require('@/assets/sounds/task-complete.ogg'),
-  delete: require('@/assets/sounds/delete.ogg'),
+  'task-complete': require('../assets/sounds/task-complete.wav'),
+  delete: require('../assets/sounds/delete-sound.wav'),
 
   // UI sounds
-  tap: require('@/assets/sounds/tap.wav'),
-  notification: require('@/assets/sounds/notification.ogg'),
+  tap: require('../assets/sounds/tap.wav'),
+  notification: require('../assets/sounds/notification.wav'),
 };
-/* eslint-enable @typescript-eslint/no-require-imports */
 
 /**
  * Get sound source by filename
