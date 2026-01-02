@@ -1,0 +1,161 @@
+{
+  "level": "A1",
+  "version": "1.0",
+  "description": "CEFR A1 기능 언어 - 기본적인 일상 상호작용",
+  "functions": [
+    {
+      "id": "func-a1-001",
+      "name": "greeting",
+      "nameKo": "인사하기",
+      "canDo": "I can greet people and respond to greetings.",
+      "expressions": [
+        { "en": "Hello!", "ko": "안녕하세요!", "formality": "neutral" },
+        { "en": "Hi!", "ko": "안녕!", "formality": "informal" },
+        { "en": "Good morning.", "ko": "좋은 아침이에요.", "formality": "formal" },
+        { "en": "Good afternoon.", "ko": "좋은 오후예요.", "formality": "formal" },
+        { "en": "Good evening.", "ko": "좋은 저녁이에요.", "formality": "formal" },
+        { "en": "How are you?", "ko": "어떻게 지내세요?", "formality": "neutral" },
+        { "en": "I'm fine, thank you.", "ko": "잘 지내요, 감사합니다.", "formality": "neutral" },
+        { "en": "Nice to meet you.", "ko": "만나서 반가워요.", "formality": "neutral" }
+      ],
+      "contexts": ["meeting someone", "starting a conversation", "daily life"]
+    },
+    {
+      "id": "func-a1-002",
+      "name": "introduction",
+      "nameKo": "자기소개",
+      "canDo": "I can introduce myself with basic information.",
+      "expressions": [
+        { "en": "My name is [name].", "ko": "제 이름은 [이름]이에요.", "formality": "neutral" },
+        { "en": "I'm [name].", "ko": "저는 [이름]이에요.", "formality": "neutral" },
+        { "en": "I'm from [country].", "ko": "저는 [나라] 출신이에요.", "formality": "neutral" },
+        { "en": "I live in [city].", "ko": "저는 [도시]에 살아요.", "formality": "neutral" },
+        { "en": "I'm [age] years old.", "ko": "저는 [나이]살이에요.", "formality": "neutral" },
+        { "en": "I'm a student.", "ko": "저는 학생이에요.", "formality": "neutral" },
+        { "en": "I work at [company].", "ko": "저는 [회사]에서 일해요.", "formality": "neutral" }
+      ],
+      "contexts": ["meeting new people", "job interview", "class introduction"]
+    },
+    {
+      "id": "func-a1-003",
+      "name": "request",
+      "nameKo": "요청하기",
+      "canDo": "I can make simple requests.",
+      "expressions": [
+        { "en": "Can I have...?", "ko": "...를 주세요.", "formality": "neutral" },
+        { "en": "I'd like...", "ko": "...를 원해요.", "formality": "neutral" },
+        { "en": "Please give me...", "ko": "...를 주세요.", "formality": "neutral" },
+        { "en": "Can you help me?", "ko": "도와주실 수 있어요?", "formality": "polite" },
+        { "en": "Could you repeat that?", "ko": "다시 말해주실 수 있어요?", "formality": "polite" },
+        { "en": "Can I use this?", "ko": "이거 써도 돼요?", "formality": "neutral" }
+      ],
+      "contexts": ["shopping", "restaurant", "asking for help"]
+    },
+    {
+      "id": "func-a1-004",
+      "name": "thanking",
+      "nameKo": "감사 표현",
+      "canDo": "I can thank people and respond to thanks.",
+      "expressions": [
+        { "en": "Thank you.", "ko": "감사합니다.", "formality": "neutral" },
+        { "en": "Thanks!", "ko": "고마워요!", "formality": "informal" },
+        { "en": "Thank you very much.", "ko": "정말 감사합니다.", "formality": "formal" },
+        { "en": "You're welcome.", "ko": "천만에요.", "formality": "neutral" },
+        { "en": "No problem.", "ko": "괜찮아요.", "formality": "informal" },
+        { "en": "Thanks for your help.", "ko": "도와주셔서 감사해요.", "formality": "neutral" }
+      ],
+      "contexts": ["receiving help", "receiving a gift", "after service"]
+    },
+    {
+      "id": "func-a1-005",
+      "name": "apologizing",
+      "nameKo": "사과하기",
+      "canDo": "I can apologize and respond to apologies.",
+      "expressions": [
+        { "en": "Sorry.", "ko": "죄송해요.", "formality": "neutral" },
+        { "en": "I'm sorry.", "ko": "미안해요.", "formality": "neutral" },
+        { "en": "Excuse me.", "ko": "실례합니다.", "formality": "polite" },
+        { "en": "That's okay.", "ko": "괜찮아요.", "formality": "neutral" },
+        { "en": "Don't worry about it.", "ko": "신경 쓰지 마세요.", "formality": "neutral" },
+        { "en": "Sorry I'm late.", "ko": "늦어서 죄송해요.", "formality": "neutral" }
+      ],
+      "contexts": ["making mistakes", "being late", "bumping into someone"]
+    },
+    {
+      "id": "func-a1-006",
+      "name": "asking_price",
+      "nameKo": "가격 묻기",
+      "canDo": "I can ask about prices and pay for things.",
+      "expressions": [
+        { "en": "How much is this?", "ko": "이거 얼마예요?", "formality": "neutral" },
+        { "en": "How much does it cost?", "ko": "얼마예요?", "formality": "neutral" },
+        { "en": "It's [price].", "ko": "[가격]이에요.", "formality": "neutral" },
+        { "en": "That's too expensive.", "ko": "너무 비싸요.", "formality": "neutral" },
+        { "en": "Can I pay by card?", "ko": "카드로 결제할 수 있어요?", "formality": "neutral" },
+        { "en": "Here you are.", "ko": "여기요.", "formality": "neutral" }
+      ],
+      "contexts": ["shopping", "restaurant", "taxi"]
+    },
+    {
+      "id": "func-a1-007",
+      "name": "asking_directions",
+      "nameKo": "길 묻기",
+      "canDo": "I can ask for and understand simple directions.",
+      "expressions": [
+        { "en": "Where is...?", "ko": "...가 어디예요?", "formality": "neutral" },
+        { "en": "How do I get to...?", "ko": "...에 어떻게 가요?", "formality": "neutral" },
+        { "en": "Go straight.", "ko": "직진하세요.", "formality": "neutral" },
+        { "en": "Turn left/right.", "ko": "왼쪽/오른쪽으로 도세요.", "formality": "neutral" },
+        { "en": "It's next to...", "ko": "... 옆에 있어요.", "formality": "neutral" },
+        { "en": "It's near the station.", "ko": "역 근처에 있어요.", "formality": "neutral" }
+      ],
+      "contexts": ["street", "building", "public transport"]
+    },
+    {
+      "id": "func-a1-008",
+      "name": "ordering_food",
+      "nameKo": "음식 주문",
+      "canDo": "I can order food and drinks.",
+      "expressions": [
+        { "en": "I'll have...", "ko": "...로 할게요.", "formality": "neutral" },
+        { "en": "Can I have the menu?", "ko": "메뉴판 주세요.", "formality": "neutral" },
+        { "en": "What do you recommend?", "ko": "뭐가 맛있어요?", "formality": "neutral" },
+        { "en": "For here or to go?", "ko": "여기서 드실 건가요, 가져가실 건가요?", "formality": "neutral" },
+        { "en": "The check, please.", "ko": "계산서 주세요.", "formality": "neutral" },
+        { "en": "It was delicious.", "ko": "맛있었어요.", "formality": "neutral" }
+      ],
+      "contexts": ["restaurant", "cafe", "fast food"]
+    },
+    {
+      "id": "func-a1-009",
+      "name": "expressing_likes",
+      "nameKo": "좋아하는 것 표현",
+      "canDo": "I can say what I like and don't like.",
+      "expressions": [
+        { "en": "I like...", "ko": "...를 좋아해요.", "formality": "neutral" },
+        { "en": "I don't like...", "ko": "...를 싫어해요.", "formality": "neutral" },
+        { "en": "I love...", "ko": "...를 정말 좋아해요.", "formality": "neutral" },
+        { "en": "I hate...", "ko": "...를 정말 싫어해요.", "formality": "neutral" },
+        { "en": "Do you like...?", "ko": "...를 좋아해요?", "formality": "neutral" },
+        { "en": "My favorite is...", "ko": "제가 제일 좋아하는 건...이에요.", "formality": "neutral" }
+      ],
+      "contexts": ["hobbies", "food", "music", "movies"]
+    },
+    {
+      "id": "func-a1-010",
+      "name": "farewell",
+      "nameKo": "작별 인사",
+      "canDo": "I can say goodbye appropriately.",
+      "expressions": [
+        { "en": "Goodbye.", "ko": "안녕히 가세요.", "formality": "neutral" },
+        { "en": "Bye!", "ko": "잘 가!", "formality": "informal" },
+        { "en": "See you later.", "ko": "나중에 봐요.", "formality": "neutral" },
+        { "en": "See you tomorrow.", "ko": "내일 봐요.", "formality": "neutral" },
+        { "en": "Have a nice day.", "ko": "좋은 하루 보내세요.", "formality": "neutral" },
+        { "en": "Take care.", "ko": "조심히 가세요.", "formality": "neutral" },
+        { "en": "Good night.", "ko": "안녕히 주무세요.", "formality": "formal" }
+      ],
+      "contexts": ["leaving", "ending conversation", "bedtime"]
+    }
+  ]
+}

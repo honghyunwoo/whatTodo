@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-01-02",
+  "description": "스파인 콘텐츠 인덱스 - CEFR 기반 핵심 학습 자료",
+  "structure": {
+    "functions": {
+      "description": "기능 언어 (요청, 인사, 거절, 의견 등)",
+      "files": {
+        "A1": "functions/a1-functions.json",
+        "A2": "functions/a2-functions.json",
+        "B1": "functions/b1-functions.json",
+        "B2": "functions/b2-functions.json",
+        "C1": "functions/c1-functions.json",
+        "C2": "functions/c2-functions.json"
+      },
+      "available": ["A1"]
+    },
+    "grammar": {
+      "description": "핵심 문법 포인트",
+      "files": {
+        "A1": "grammar/a1-grammar.json",
+        "A2": "grammar/a2-grammar.json",
+        "B1": "grammar/b1-grammar.json",
+        "B2": "grammar/b2-grammar.json",
+        "C1": "grammar/c1-grammar.json",
+        "C2": "grammar/c2-grammar.json"
+      },
+      "available": ["A1"]
+    },
+    "lexis": {
+      "description": "어휘 덩어리 및 연어",
+      "files": {
+        "A1": "lexis/a1-lexis.json",
+        "A2": "lexis/a2-lexis.json",
+        "B1": "lexis/b1-lexis.json",
+        "B2": "lexis/b2-lexis.json",
+        "C1": "lexis/c1-lexis.json",
+        "C2": "lexis/c2-lexis.json"
+      },
+      "available": ["A1"]
+    },
+    "pronunciation": {
+      "description": "발음 포인트 (대상 언어 화자별)",
+      "files": {
+        "korean": "pronunciation/korean-focus.json"
+      },
+      "available": ["korean"]
+    }
+  },
+  "stats": {
+    "functions": {
+      "A1": { "count": 10, "expressions": 68 }
+    },
+    "grammar": {
+      "A1": { "count": 10, "examples": 40 }
+    },
+    "lexis": {
+      "A1": { "chunks": 10, "collocations": 5, "items": 80 }
+    },
+    "pronunciation": {
+      "korean": { "focusAreas": 10 }
+    }
+  }
+}

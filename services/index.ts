@@ -13,3 +13,4 @@ export { default as writingService, WritingService } from './writingService';
 export { packLoader } from './packLoader';
 export { motivationService } from './motivationService';
 export { learningAnalyzer } from './learningAnalyzer';
+export { spineLoader } from './spineLoader';

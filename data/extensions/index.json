@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-01-02",
+  "description": "확장 콘텐츠 인덱스 - 선택적/상황별 학습 자료",
+  "categories": {
+    "reading-packs": {
+      "description": "독해 확장팩",
+      "path": "reading-packs/",
+      "available": []
+    },
+    "listening-packs": {
+      "description": "청해 확장팩",
+      "path": "listening-packs/",
+      "available": []
+    },
+    "speaking-packs": {
+      "description": "말하기 확장팩 (훈련형)",
+      "path": "speaking-packs/",
+      "available": []
+    },
+    "writing-packs": {
+      "description": "쓰기 확장팩 (통제작문)",
+      "path": "writing-packs/",
+      "available": ["a1-controlled-writing.json"]
+    },
+    "topic-packs": {
+      "description": "주제별 팩 (일상/업무/시사/학술)",
+      "path": "topic-packs/",
+      "available": []
+    },
+    "korean-errors": {
+      "description": "한국인 오류 교정팩",
+      "path": "korean-errors/",
+      "available": ["common-korean-errors.json"]
+    }
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "id": "ext-korean-errors-001",
+  "version": "1.0",
+  "description": "한국인 학습자가 자주 하는 영어 오류 패턴",
+  "targetLearners": "Korean",
+  "categories": [
+    {
+      "id": "kerr-cat-001",
+      "name": "article_errors",
+      "nameKo": "관사 오류",
+      "description": "한국어에는 관사가 없어서 발생하는 오류",
+      "errors": [
+        {
+          "id": "kerr-001",
+          "wrong": "I am student.",
+          "correct": "I am a student.",
+          "explanation": "직업이나 신분을 나타내는 단수 명사 앞에는 a/an이 필요해요.",
+          "frequency": "very_common",
+          "level": "A1"
+        },
+        {
+          "id": "kerr-002",
+          "wrong": "I bought computer.",
+          "correct": "I bought a computer.",
+          "explanation": "처음 언급하는 단수 가산명사 앞에는 a/an이 필요해요.",
+          "frequency": "very_common",
+          "level": "A1"
+        },
+        {
+          "id": "kerr-003",
+          "wrong": "I like the coffee.",
+          "correct": "I like coffee.",
+          "explanation": "일반적인 것을 말할 때는 관사를 쓰지 않아요.",
+          "frequency": "common",
+          "level": "A2"
+        },
+        {
+          "id": "kerr-004",
+          "wrong": "I'm from the Korea.",
+          "correct": "I'm from Korea.",
+          "explanation": "대부분의 나라 이름 앞에는 관사를 쓰지 않아요.",
+          "frequency": "common",
+          "level": "A1"
+        }
+      ]
+    },
+    {
+      "id": "kerr-cat-002",
+      "name": "subject_omission",
+      "nameKo": "주어 생략",
+      "description": "한국어처럼 주어를 생략하는 오류",
+      "errors": [
+        {
+          "id": "kerr-005",
+          "wrong": "Is raining.",
+          "correct": "It is raining.",
+          "explanation": "영어에서는 날씨를 표현할 때도 주어(It)가 필요해요.",
+          "frequency": "very_common",
+          "level": "A1"
+        },
+        {
+          "id": "kerr-006",
+          "wrong": "Am tired.",
+          "correct": "I am tired.",
+          "explanation": "영어에서는 주어를 거의 항상 명시해요.",
+          "frequency": "common",
+          "level": "A1"
+        },
+        {
+          "id": "kerr-007",
+          "wrong": "Is very delicious.",
+          "correct": "It is very delicious.",
+          "explanation": "음식을 칭찬할 때도 주어(It)가 필요해요.",
+          "frequency": "common",
+          "level": "A1"
+        }
+      ]
+    },
+    {
+      "id": "kerr-cat-003",
+      "name": "word_order",
+      "nameKo": "어순 오류",
+      "description": "한국어 어순(SOV)을 영어에 적용하는 오류",
+      "errors": [
+        {
+          "id": "kerr-008",
+          "wrong": "I yesterday went to school.",
+          "correct": "I went to school yesterday.",
+          "explanation": "영어에서 시간 부사는 보통 문장 끝에 와요.",
+          "frequency": "common",
+          "level": "A1"
+        },
+        {
+          "id": "kerr-009",
+          "wrong": "I coffee like.",
+          "correct": "I like coffee.",
+          "explanation": "영어는 SVO(주어-동사-목적어) 어순이에요.",
+          "frequency": "common",
+          "level": "A1"
+        },
+        {
+          "id": "kerr-010",
+          "wrong": "Very much I like it.",
+          "correct": "I like it very much.",
+          "explanation": "부사구(very much)는 동사 뒤에 와요.",
+          "frequency": "common",
+          "level": "A2"
+        }
+      ]
+    },
+    {
+      "id": "kerr-cat-004",
+      "name": "singular_plural",
+      "nameKo": "단수/복수 오류",
+      "description": "한국어에서는 복수 표시가 선택적이라 발생하는 오류",
+      "errors": [
+        {
+          "id": "kerr-011",
+          "wrong": "I have two book.",
+          "correct": "I have two books.",
+          "explanation": "숫자나 many, some 등 뒤에는 복수형 명사가 와요.",
+          "frequency": "very_common",
+          "level": "A1"
+        },
+        {
+          "id": "kerr-012",
+          "wrong": "There are many people in the parks.",
+          "correct": "There are many people in the park.",
+          "explanation": "한 장소를 말할 때는 단수형을 써요.",
+          "frequency": "common",
+          "level": "A2"
+        },
+        {
+          "id": "kerr-013",
+          "wrong": "I need informations.",
+          "correct": "I need information.",
+          "explanation": "information은 셀 수 없는 명사라서 복수형이 없어요.",
+          "frequency": "common",
+          "level": "A2"
+        }
+      ]
+    },
+    {
+      "id": "kerr-cat-005",
+      "name": "tense_errors",
+      "nameKo": "시제 오류",
+      "description": "한국어는 시제가 덜 엄격해서 발생하는 오류",
+      "errors": [
+        {
+          "id": "kerr-014",
+          "wrong": "I go there yesterday.",
+          "correct": "I went there yesterday.",
+          "explanation": "yesterday는 과거를 나타내므로 과거형(went)을 써요.",
+          "frequency": "very_common",
+          "level": "A1"
+        },
+        {
+          "id": "kerr-015",
+          "wrong": "I am here since 2020.",
+          "correct": "I have been here since 2020.",
+          "explanation": "since와 함께는 현재완료를 써요.",
+          "frequency": "common",
+          "level": "A2"
+        },
+        {
+          "id": "kerr-016",
+          "wrong": "She live in Seoul now.",
+          "correct": "She lives in Seoul now.",
+          "explanation": "3인칭 단수 현재형에는 -s가 필요해요.",
+          "frequency": "very_common",
+          "level": "A1"
+        }
+      ]
+    },
+    {
+      "id": "kerr-cat-006",
+      "name": "preposition_errors",
+      "nameKo": "전치사 오류",
+      "description": "한국어와 영어의 전치사 사용법 차이로 발생하는 오류",
+      "errors": [
+        {
+          "id": "kerr-017",
+          "wrong": "I'm good in English.",
+          "correct": "I'm good at English.",
+          "explanation": "be good at ~: ~를 잘하다",
+          "frequency": "common",
+          "level": "A2"
+        },
+        {
+          "id": "kerr-018",
+          "wrong": "I arrived to Seoul.",
+          "correct": "I arrived in Seoul.",
+          "explanation": "arrive 뒤에는 in/at을 쓰고, to는 안 써요.",
+          "frequency": "common",
+          "level": "A2"
+        },
+        {
+          "id": "kerr-019",
+          "wrong": "I'm interesting in music.",
+          "correct": "I'm interested in music.",
+          "explanation": "사람이 주어면 -ed형 (interested), 사물이 주어면 -ing형 (interesting)",
+          "frequency": "common",
+          "level": "A2"
+        },
+        {
+          "id": "kerr-020",
+          "wrong": "I go to home.",
+          "correct": "I go home.",
+          "explanation": "home 앞에는 to를 쓰지 않아요.",
+          "frequency": "common",
+          "level": "A1"
+        }
+      ]
+    },
+    {
+      "id": "kerr-cat-007",
+      "name": "konglish",
+      "nameKo": "콩글리시",
+      "description": "한국식 영어 표현 오류",
+      "errors": [
+        {
+          "id": "kerr-021",
+          "wrong": "I'll call you later. Fighting!",
+          "correct": "I'll call you later. Good luck! / You can do it!",
+          "explanation": "Fighting은 콩글리시예요. 영어로는 Good luck, You can do it 등을 써요.",
+          "frequency": "very_common",
+          "level": "A1"
+        },
+        {
+          "id": "kerr-022",
+          "wrong": "I have a meeting in my office tel.",
+          "correct": "I have a meeting in my office building.",
+          "explanation": "오피스텔은 콩글리시예요. 영어로는 apartment, studio, office building 등을 써요.",
+          "frequency": "common",
+          "level": "A2"
+        },
+        {
+          "id": "kerr-023",
+          "wrong": "I ate a morning food.",
+          "correct": "I ate breakfast.",
+          "explanation": "아침밥/점심밥/저녁밥은 breakfast/lunch/dinner로 표현해요.",
+          "frequency": "common",
+          "level": "A1"
+        },
+        {
+          "id": "kerr-024",
+          "wrong": "I'm a high schooler.",
+          "correct": "I'm a high school student.",
+          "explanation": "영어에서는 고딩/대딩 같은 줄임말 대신 full form을 써요.",
+          "frequency": "common",
+          "level": "A1"
+        },
+        {
+          "id": "kerr-025",
+          "wrong": "I need a sharp pencil.",
+          "correct": "I need a mechanical pencil.",
+          "explanation": "샤프는 콩글리시예요. 영어로는 mechanical pencil이에요.",
+          "frequency": "common",
+          "level": "A1"
+        }
+      ]
+    },
+    {
+      "id": "kerr-cat-008",
+      "name": "direct_translation",
+      "nameKo": "직역 오류",
+      "description": "한국어를 그대로 영어로 번역해서 발생하는 오류",
+      "errors": [
+        {
+          "id": "kerr-026",
+          "wrong": "My age is 25.",
+          "correct": "I'm 25 years old.",
+          "explanation": "영어에서는 나이를 'I'm + 나이 + years old'로 표현해요.",
+          "frequency": "very_common",
+          "level": "A1"
+        },
+        {
+          "id": "kerr-027",
+          "wrong": "My name is called Tom.",
+          "correct": "My name is Tom.",
+          "explanation": "영어에서는 '제 이름은 ~입니다'를 My name is ~로 표현해요.",
+          "frequency": "common",
+          "level": "A1"
+        },
+        {
+          "id": "kerr-028",
+          "wrong": "Please give me a phone number.",
+          "correct": "Can I have your phone number?",
+          "explanation": "부탁할 때는 Can I...? / Could you...?가 더 자연스러워요.",
+          "frequency": "common",
+          "level": "A2"
+        },
+        {
+          "id": "kerr-029",
+          "wrong": "I ate medicine.",
+          "correct": "I took medicine.",
+          "explanation": "영어에서 약은 take medicine이라고 해요 (eat 아님).",
+          "frequency": "common",
+          "level": "A1"
+        },
+        {
+          "id": "kerr-030",
+          "wrong": "Please teach me English.",
+          "correct": "Can you help me with my English?",
+          "explanation": "일상 대화에서는 teach보다 help with가 더 자연스러워요.",
+          "frequency": "common",
+          "level": "A2"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "totalCategories": 8,
+    "totalErrors": 30,
+    "byLevel": {
+      "A1": 18,
+      "A2": 12
+    },
+    "byFrequency": {
+      "very_common": 10,
+      "common": 20
+    }
+  }
+}

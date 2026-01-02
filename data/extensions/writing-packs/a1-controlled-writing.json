@@ -1,0 +1,399 @@
+{
+  "id": "ext-writing-a1-001",
+  "level": "A1",
+  "version": "1.0",
+  "description": "A1 통제작문 - 채점 가능한 쓰기 연습",
+  "exercises": {
+    "sentenceAssembly": {
+      "description": "문장조립 - 주어진 단어를 올바른 순서로 배열",
+      "descriptionKo": "단어를 올바른 순서로 배열하여 문장을 만드세요",
+      "items": [
+        {
+          "id": "ext-writing-a1-001:assembly-001",
+          "words": ["am", "I", "student", "a"],
+          "correctOrder": "I am a student",
+          "alternates": ["I'm a student"],
+          "hint": "주어 + be동사 + 관사 + 명사",
+          "topic": "introduction"
+        },
+        {
+          "id": "ext-writing-a1-001:assembly-002",
+          "words": ["like", "I", "coffee"],
+          "correctOrder": "I like coffee",
+          "alternates": [],
+          "hint": "주어 + 동사 + 목적어",
+          "topic": "likes"
+        },
+        {
+          "id": "ext-writing-a1-001:assembly-003",
+          "words": ["is", "she", "Korea", "from"],
+          "correctOrder": "She is from Korea",
+          "alternates": ["She's from Korea"],
+          "hint": "주어 + be동사 + 전치사구",
+          "topic": "origin"
+        },
+        {
+          "id": "ext-writing-a1-001:assembly-004",
+          "words": ["the", "is", "book", "table", "on", "the"],
+          "correctOrder": "The book is on the table",
+          "alternates": [],
+          "hint": "주어 + be동사 + 전치사 + 명사",
+          "topic": "location"
+        },
+        {
+          "id": "ext-writing-a1-001:assembly-005",
+          "words": ["do", "where", "live", "you", "?"],
+          "correctOrder": "Where do you live?",
+          "alternates": [],
+          "hint": "의문사 + do/does + 주어 + 동사?",
+          "topic": "questions"
+        },
+        {
+          "id": "ext-writing-a1-001:assembly-006",
+          "words": ["are", "there", "two", "in", "bedrooms", "house", "my"],
+          "correctOrder": "There are two bedrooms in my house",
+          "alternates": [],
+          "hint": "There are + 복수명사 + 장소",
+          "topic": "describing_places"
+        },
+        {
+          "id": "ext-writing-a1-001:assembly-007",
+          "words": ["can", "I", "English", "speak"],
+          "correctOrder": "I can speak English",
+          "alternates": [],
+          "hint": "주어 + can + 동사원형",
+          "topic": "ability"
+        },
+        {
+          "id": "ext-writing-a1-001:assembly-008",
+          "words": ["what", "is", "name", "your", "?"],
+          "correctOrder": "What is your name?",
+          "alternates": ["What's your name?"],
+          "hint": "의문사 + be동사 + 소유격 + 명사?",
+          "topic": "questions"
+        },
+        {
+          "id": "ext-writing-a1-001:assembly-009",
+          "words": ["go", "I", "work", "to", "bus", "by"],
+          "correctOrder": "I go to work by bus",
+          "alternates": [],
+          "hint": "주어 + 동사 + 전치사구 + 수단",
+          "topic": "transportation"
+        },
+        {
+          "id": "ext-writing-a1-001:assembly-010",
+          "words": ["this", "how", "is", "much", "?"],
+          "correctOrder": "How much is this?",
+          "alternates": [],
+          "hint": "How much + be동사 + 주어?",
+          "topic": "shopping"
+        }
+      ]
+    },
+    "patternTransform": {
+      "description": "패턴변환 - 주어진 패턴에 맞게 문장 변형",
+      "descriptionKo": "예시를 보고 같은 패턴으로 문장을 바꾸세요",
+      "items": [
+        {
+          "id": "ext-writing-a1-001:transform-001",
+          "pattern": "긍정문 → 부정문",
+          "example": { "input": "I am happy.", "output": "I am not happy." },
+          "input": "She is a doctor.",
+          "correctOutput": "She is not a doctor.",
+          "alternates": ["She isn't a doctor.", "She's not a doctor."],
+          "grammar": "be동사 부정"
+        },
+        {
+          "id": "ext-writing-a1-001:transform-002",
+          "pattern": "긍정문 → 부정문",
+          "example": { "input": "I like pizza.", "output": "I don't like pizza." },
+          "input": "He plays tennis.",
+          "correctOutput": "He doesn't play tennis.",
+          "alternates": ["He does not play tennis."],
+          "grammar": "일반동사 부정"
+        },
+        {
+          "id": "ext-writing-a1-001:transform-003",
+          "pattern": "평서문 → 의문문",
+          "example": { "input": "You are tired.", "output": "Are you tired?" },
+          "input": "They are students.",
+          "correctOutput": "Are they students?",
+          "alternates": [],
+          "grammar": "be동사 의문문"
+        },
+        {
+          "id": "ext-writing-a1-001:transform-004",
+          "pattern": "평서문 → 의문문",
+          "example": { "input": "You like coffee.", "output": "Do you like coffee?" },
+          "input": "She works here.",
+          "correctOutput": "Does she work here?",
+          "alternates": [],
+          "grammar": "일반동사 의문문"
+        },
+        {
+          "id": "ext-writing-a1-001:transform-005",
+          "pattern": "단수 → 복수",
+          "example": { "input": "There is a book.", "output": "There are books." },
+          "input": "There is a chair.",
+          "correctOutput": "There are chairs.",
+          "alternates": [],
+          "grammar": "There is/are"
+        },
+        {
+          "id": "ext-writing-a1-001:transform-006",
+          "pattern": "I → He/She",
+          "example": { "input": "I like music.", "output": "He likes music." },
+          "input": "I watch TV.",
+          "correctOutput": "She watches TV.",
+          "alternates": ["He watches TV."],
+          "grammar": "3인칭 단수"
+        },
+        {
+          "id": "ext-writing-a1-001:transform-007",
+          "pattern": "can → can't",
+          "example": { "input": "I can swim.", "output": "I can't swim." },
+          "input": "She can drive.",
+          "correctOutput": "She can't drive.",
+          "alternates": ["She cannot drive."],
+          "grammar": "can 부정"
+        },
+        {
+          "id": "ext-writing-a1-001:transform-008",
+          "pattern": "평서문 → 명령문",
+          "example": { "input": "You open the door.", "output": "Open the door." },
+          "input": "You sit down.",
+          "correctOutput": "Sit down.",
+          "alternates": ["Please sit down."],
+          "grammar": "명령문"
+        },
+        {
+          "id": "ext-writing-a1-001:transform-009",
+          "pattern": "명령문 → 부정 명령문",
+          "example": { "input": "Open the door.", "output": "Don't open the door." },
+          "input": "Touch that.",
+          "correctOutput": "Don't touch that.",
+          "alternates": ["Do not touch that."],
+          "grammar": "부정 명령문"
+        },
+        {
+          "id": "ext-writing-a1-001:transform-010",
+          "pattern": "주어 바꾸기",
+          "example": { "input": "My name is Tom.", "output": "Her name is Lisa." },
+          "input": "My house is big.",
+          "correctOutput": "His house is big.",
+          "alternates": ["Her house is big.", "Their house is big."],
+          "grammar": "소유격"
+        }
+      ]
+    },
+    "errorCorrection": {
+      "description": "오류수정 - 문장의 문법 오류를 찾아 수정",
+      "descriptionKo": "틀린 부분을 찾아 올바르게 고치세요",
+      "items": [
+        {
+          "id": "ext-writing-a1-001:error-001",
+          "wrong": "I is a teacher.",
+          "correct": "I am a teacher.",
+          "errorType": "be_verb",
+          "explanation": "I와 함께는 항상 'am'을 사용해요.",
+          "explanationKo": "I + am / You, We, They + are / He, She, It + is"
+        },
+        {
+          "id": "ext-writing-a1-001:error-002",
+          "wrong": "She like coffee.",
+          "correct": "She likes coffee.",
+          "errorType": "third_person_s",
+          "explanation": "3인칭 단수 주어 뒤에는 동사에 -s를 붙여요.",
+          "explanationKo": "He/She/It + 동사s"
+        },
+        {
+          "id": "ext-writing-a1-001:error-003",
+          "wrong": "I am student.",
+          "correct": "I am a student.",
+          "errorType": "article",
+          "explanation": "단수 가산명사 앞에는 관사(a/an)가 필요해요.",
+          "explanationKo": "직업, 신분 등 단수 명사 앞에 a/an"
+        },
+        {
+          "id": "ext-writing-a1-001:error-004",
+          "wrong": "There is many books.",
+          "correct": "There are many books.",
+          "errorType": "subject_verb_agreement",
+          "explanation": "복수 명사와 함께는 'are'를 사용해요.",
+          "explanationKo": "There is + 단수 / There are + 복수"
+        },
+        {
+          "id": "ext-writing-a1-001:error-005",
+          "wrong": "I can to swim.",
+          "correct": "I can swim.",
+          "errorType": "modal_verb",
+          "explanation": "can 뒤에는 to 없이 동사원형이 와요.",
+          "explanationKo": "can + 동사원형 (to 없이)"
+        },
+        {
+          "id": "ext-writing-a1-001:error-006",
+          "wrong": "Where you live?",
+          "correct": "Where do you live?",
+          "errorType": "question_form",
+          "explanation": "일반동사 의문문에는 do/does가 필요해요.",
+          "explanationKo": "의문사 + do/does + 주어 + 동사원형?"
+        },
+        {
+          "id": "ext-writing-a1-001:error-007",
+          "wrong": "He go to work.",
+          "correct": "He goes to work.",
+          "errorType": "third_person_s",
+          "explanation": "go는 3인칭 단수에서 goes가 돼요.",
+          "explanationKo": "go → goes, do → does, have → has"
+        },
+        {
+          "id": "ext-writing-a1-001:error-008",
+          "wrong": "I have a umbrella.",
+          "correct": "I have an umbrella.",
+          "errorType": "article",
+          "explanation": "모음 소리로 시작하는 단어 앞에는 'an'을 써요.",
+          "explanationKo": "a + 자음 소리 / an + 모음 소리"
+        },
+        {
+          "id": "ext-writing-a1-001:error-009",
+          "wrong": "This is she book.",
+          "correct": "This is her book.",
+          "errorType": "possessive",
+          "explanation": "명사 앞에서 소유를 나타낼 때는 소유격(her)을 써요.",
+          "explanationKo": "she(주격) → her(소유격)"
+        },
+        {
+          "id": "ext-writing-a1-001:error-010",
+          "wrong": "I need new furnitures.",
+          "correct": "I need new furniture.",
+          "errorType": "uncountable_noun",
+          "explanation": "furniture는 셀 수 없는 명사라서 복수형이 없어요.",
+          "explanationKo": "불가산 명사: furniture, money, information, advice"
+        },
+        {
+          "id": "ext-writing-a1-001:error-011",
+          "wrong": "Me like pizza.",
+          "correct": "I like pizza.",
+          "errorType": "pronoun_case",
+          "explanation": "문장의 주어로는 'I'(주격)를 사용해요.",
+          "explanationKo": "I(주격) / me(목적격)"
+        },
+        {
+          "id": "ext-writing-a1-001:error-012",
+          "wrong": "She cans cook.",
+          "correct": "She can cook.",
+          "errorType": "modal_verb",
+          "explanation": "can은 3인칭 단수에서도 변하지 않아요.",
+          "explanationKo": "can, will, must 등 조동사는 형태가 안 변함"
+        },
+        {
+          "id": "ext-writing-a1-001:error-013",
+          "wrong": "I'm from the Korea.",
+          "correct": "I'm from Korea.",
+          "errorType": "article",
+          "explanation": "대부분의 나라 이름 앞에는 관사를 쓰지 않아요.",
+          "explanationKo": "Korea, Japan, France (관사 없음) / the USA, the UK (the 사용)"
+        },
+        {
+          "id": "ext-writing-a1-001:error-014",
+          "wrong": "How many water?",
+          "correct": "How much water?",
+          "errorType": "countable_uncountable",
+          "explanation": "셀 수 없는 명사에는 'how much'를 써요.",
+          "explanationKo": "how many + 가산명사 / how much + 불가산명사"
+        },
+        {
+          "id": "ext-writing-a1-001:error-015",
+          "wrong": "No touch this.",
+          "correct": "Don't touch this.",
+          "errorType": "negative_imperative",
+          "explanation": "부정 명령문은 Don't + 동사원형이에요.",
+          "explanationKo": "긍정: Touch this. / 부정: Don't touch this."
+        }
+      ]
+    },
+    "slotFilling": {
+      "description": "빈칸채우기 - 문맥에 맞는 단어 선택",
+      "descriptionKo": "빈칸에 알맞은 단어를 고르세요",
+      "items": [
+        {
+          "id": "ext-writing-a1-001:slot-001",
+          "sentence": "I ___ a student.",
+          "options": ["am", "is", "are"],
+          "correct": "am",
+          "grammar": "be_verb"
+        },
+        {
+          "id": "ext-writing-a1-001:slot-002",
+          "sentence": "She ___ to school every day.",
+          "options": ["go", "goes", "going"],
+          "correct": "goes",
+          "grammar": "present_simple"
+        },
+        {
+          "id": "ext-writing-a1-001:slot-003",
+          "sentence": "There ___ a cat under the table.",
+          "options": ["is", "are", "be"],
+          "correct": "is",
+          "grammar": "there_is_are"
+        },
+        {
+          "id": "ext-writing-a1-001:slot-004",
+          "sentence": "___ is your name?",
+          "options": ["What", "Where", "When"],
+          "correct": "What",
+          "grammar": "wh_questions"
+        },
+        {
+          "id": "ext-writing-a1-001:slot-005",
+          "sentence": "I can ___ English.",
+          "options": ["speak", "speaks", "speaking"],
+          "correct": "speak",
+          "grammar": "modal_can"
+        },
+        {
+          "id": "ext-writing-a1-001:slot-006",
+          "sentence": "This is ___ book.",
+          "options": ["I", "me", "my"],
+          "correct": "my",
+          "grammar": "possessive"
+        },
+        {
+          "id": "ext-writing-a1-001:slot-007",
+          "sentence": "How ___ apples do you want?",
+          "options": ["much", "many", "some"],
+          "correct": "many",
+          "grammar": "how_much_many"
+        },
+        {
+          "id": "ext-writing-a1-001:slot-008",
+          "sentence": "The book is ___ the table.",
+          "options": ["in", "on", "at"],
+          "correct": "on",
+          "grammar": "prepositions"
+        },
+        {
+          "id": "ext-writing-a1-001:slot-009",
+          "sentence": "___ open the window.",
+          "options": ["Don't", "Not", "No"],
+          "correct": "Don't",
+          "grammar": "imperatives"
+        },
+        {
+          "id": "ext-writing-a1-001:slot-010",
+          "sentence": "I have ___ apple.",
+          "options": ["a", "an", "the"],
+          "correct": "an",
+          "grammar": "articles"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "sentenceAssembly": 10,
+    "patternTransform": 10,
+    "errorCorrection": 15,
+    "slotFilling": 10,
+    "total": 45
+  }
+}

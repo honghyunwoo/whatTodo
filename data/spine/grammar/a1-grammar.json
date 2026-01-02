@@ -1,0 +1,263 @@
+{
+  "level": "A1",
+  "version": "1.0",
+  "description": "CEFR A1 핵심 문법 - 기초 문장 구조와 시제",
+  "grammarPoints": [
+    {
+      "id": "gram-a1-001",
+      "name": "be_verb_present",
+      "nameKo": "be동사 현재형",
+      "priority": 1,
+      "explanation": "Use 'am', 'is', 'are' to describe states, identities, and locations.",
+      "explanationKo": "상태, 정체성, 위치를 설명할 때 'am', 'is', 'are'를 사용해요.",
+      "forms": {
+        "I": "am",
+        "you/we/they": "are",
+        "he/she/it": "is"
+      },
+      "examples": [
+        { "en": "I am a student.", "ko": "나는 학생이에요." },
+        { "en": "She is Korean.", "ko": "그녀는 한국인이에요." },
+        { "en": "They are friends.", "ko": "그들은 친구예요." },
+        { "en": "It is cold today.", "ko": "오늘 추워요." }
+      ],
+      "koreanTip": "'be동사'는 한국어의 '~이다/~있다'에 해당해요. 주어에 따라 형태가 바뀌는 것에 주의하세요.",
+      "commonErrors": [
+        { "wrong": "I is happy.", "correct": "I am happy.", "reason": "I와 함께는 항상 am" },
+        { "wrong": "She are tired.", "correct": "She is tired.", "reason": "She/He/It과 함께는 is" }
+      ],
+      "relatedPacks": ["pack-000001"]
+    },
+    {
+      "id": "gram-a1-002",
+      "name": "present_simple",
+      "nameKo": "현재 단순형",
+      "priority": 1,
+      "explanation": "Use present simple for habits, routines, and general facts.",
+      "explanationKo": "습관, 일과, 일반적인 사실을 표현할 때 현재 단순형을 사용해요.",
+      "forms": {
+        "I/you/we/they": "verb",
+        "he/she/it": "verb + s/es"
+      },
+      "examples": [
+        { "en": "I work every day.", "ko": "나는 매일 일해요." },
+        { "en": "She likes coffee.", "ko": "그녀는 커피를 좋아해요." },
+        { "en": "We live in Seoul.", "ko": "우리는 서울에 살아요." },
+        { "en": "He watches TV.", "ko": "그는 TV를 봐요." }
+      ],
+      "koreanTip": "한국어는 시제가 덜 중요하지만, 영어는 반드시 시제를 표현해야 해요. 3인칭 단수에는 -s를 붙여요.",
+      "commonErrors": [
+        { "wrong": "She like music.", "correct": "She likes music.", "reason": "3인칭 단수에는 -s 필요" },
+        { "wrong": "He go to work.", "correct": "He goes to work.", "reason": "go → goes (3인칭 단수)" }
+      ],
+      "relatedPacks": ["pack-000003"]
+    },
+    {
+      "id": "gram-a1-003",
+      "name": "articles",
+      "nameKo": "관사 (a/an/the)",
+      "priority": 2,
+      "explanation": "Use 'a/an' for unspecified singular nouns, 'the' for specific nouns.",
+      "explanationKo": "특정하지 않은 단수 명사에는 'a/an', 특정한 명사에는 'the'를 사용해요.",
+      "forms": {
+        "a": "before consonant sounds",
+        "an": "before vowel sounds",
+        "the": "specific/known items"
+      },
+      "examples": [
+        { "en": "I have a book.", "ko": "나는 책이 있어요." },
+        { "en": "She is an engineer.", "ko": "그녀는 엔지니어예요." },
+        { "en": "Open the door.", "ko": "그 문을 열어요." },
+        { "en": "I saw an apple.", "ko": "나는 사과를 봤어요." }
+      ],
+      "koreanTip": "한국어에는 관사가 없어서 영어 관사가 어렵게 느껴져요. 처음 언급하면 a/an, 다시 언급하면 the를 써요.",
+      "commonErrors": [
+        { "wrong": "I am student.", "correct": "I am a student.", "reason": "직업 앞에 a 필요" },
+        { "wrong": "I have a umbrella.", "correct": "I have an umbrella.", "reason": "모음 소리 앞에는 an" }
+      ],
+      "relatedPacks": ["pack-000001", "pack-000007"]
+    },
+    {
+      "id": "gram-a1-004",
+      "name": "possessive_adjectives",
+      "nameKo": "소유 형용사",
+      "priority": 2,
+      "explanation": "Use my, your, his, her, its, our, their to show possession.",
+      "explanationKo": "my, your, his, her, its, our, their로 소유를 나타내요.",
+      "forms": {
+        "I": "my",
+        "you": "your",
+        "he": "his",
+        "she": "her",
+        "it": "its",
+        "we": "our",
+        "they": "their"
+      },
+      "examples": [
+        { "en": "This is my phone.", "ko": "이것은 내 전화기예요." },
+        { "en": "Her name is Mina.", "ko": "그녀의 이름은 미나예요." },
+        { "en": "Their house is big.", "ko": "그들의 집은 커요." },
+        { "en": "Our teacher is kind.", "ko": "우리 선생님은 친절해요." }
+      ],
+      "koreanTip": "한국어에서는 '내', '네', '그의' 등을 자주 생략하지만, 영어에서는 거의 항상 표현해요.",
+      "commonErrors": [
+        { "wrong": "Me book is here.", "correct": "My book is here.", "reason": "소유격은 my (me는 목적격)" },
+        { "wrong": "This is she bag.", "correct": "This is her bag.", "reason": "소유격은 her" }
+      ],
+      "relatedPacks": ["pack-000007"]
+    },
+    {
+      "id": "gram-a1-005",
+      "name": "there_is_are",
+      "nameKo": "There is / There are",
+      "priority": 2,
+      "explanation": "Use 'There is' for singular, 'There are' for plural to describe existence.",
+      "explanationKo": "단수에는 'There is', 복수에는 'There are'로 존재를 표현해요.",
+      "forms": {
+        "singular": "There is + noun",
+        "plural": "There are + nouns"
+      },
+      "examples": [
+        { "en": "There is a book on the table.", "ko": "테이블 위에 책이 있어요." },
+        { "en": "There are three apples.", "ko": "사과가 세 개 있어요." },
+        { "en": "Is there a bathroom?", "ko": "화장실이 있나요?" },
+        { "en": "There aren't any chairs.", "ko": "의자가 없어요." }
+      ],
+      "koreanTip": "'~이/가 있다'를 영어로 표현할 때 There is/are를 써요. 주어가 뒤에 오는 것이 특징이에요.",
+      "commonErrors": [
+        { "wrong": "There is many people.", "correct": "There are many people.", "reason": "people은 복수" },
+        { "wrong": "Have a park here.", "correct": "There is a park here.", "reason": "존재 표현에는 There is/are" }
+      ],
+      "relatedPacks": ["pack-000010"]
+    },
+    {
+      "id": "gram-a1-006",
+      "name": "can_ability",
+      "nameKo": "Can (능력/가능)",
+      "priority": 2,
+      "explanation": "Use 'can' to express ability or possibility.",
+      "explanationKo": "'can'으로 능력이나 가능성을 표현해요.",
+      "forms": {
+        "positive": "can + verb",
+        "negative": "cannot / can't + verb",
+        "question": "Can + subject + verb?"
+      },
+      "examples": [
+        { "en": "I can swim.", "ko": "나는 수영할 수 있어요." },
+        { "en": "She can speak English.", "ko": "그녀는 영어를 할 수 있어요." },
+        { "en": "Can you help me?", "ko": "도와주실 수 있어요?" },
+        { "en": "I can't drive.", "ko": "나는 운전을 못 해요." }
+      ],
+      "koreanTip": "can 뒤에는 항상 동사원형이 와요. '할 수 있다'의 의미예요.",
+      "commonErrors": [
+        { "wrong": "I can to swim.", "correct": "I can swim.", "reason": "can 뒤에는 to 없이 동사원형" },
+        { "wrong": "She cans cook.", "correct": "She can cook.", "reason": "can은 3인칭에서도 변하지 않음" }
+      ],
+      "relatedPacks": ["pack-000008"]
+    },
+    {
+      "id": "gram-a1-007",
+      "name": "imperatives",
+      "nameKo": "명령문",
+      "priority": 3,
+      "explanation": "Use the base form of the verb to give commands or instructions.",
+      "explanationKo": "동사원형으로 명령이나 지시를 해요.",
+      "forms": {
+        "positive": "Verb + ...",
+        "negative": "Don't + verb + ..."
+      },
+      "examples": [
+        { "en": "Open the door.", "ko": "문을 열어요." },
+        { "en": "Please sit down.", "ko": "앉으세요." },
+        { "en": "Don't touch that.", "ko": "그것을 만지지 마세요." },
+        { "en": "Turn left here.", "ko": "여기서 왼쪽으로 도세요." }
+      ],
+      "koreanTip": "영어 명령문은 주어 없이 동사로 시작해요. please를 붙이면 공손해져요.",
+      "commonErrors": [
+        { "wrong": "You open the door.", "correct": "Open the door.", "reason": "명령문에는 주어 생략" },
+        { "wrong": "No touch this.", "correct": "Don't touch this.", "reason": "부정 명령은 Don't + 동사원형" }
+      ],
+      "relatedPacks": ["pack-000008"]
+    },
+    {
+      "id": "gram-a1-008",
+      "name": "how_much_many",
+      "nameKo": "How much / How many",
+      "priority": 3,
+      "explanation": "Use 'how much' for uncountable nouns, 'how many' for countable nouns.",
+      "explanationKo": "셀 수 없는 명사에는 'how much', 셀 수 있는 명사에는 'how many'를 써요.",
+      "forms": {
+        "uncountable": "How much + uncountable noun?",
+        "countable": "How many + countable noun?"
+      },
+      "examples": [
+        { "en": "How much water do you want?", "ko": "물 얼마나 원해요?" },
+        { "en": "How many apples are there?", "ko": "사과가 몇 개 있어요?" },
+        { "en": "How much is this?", "ko": "이거 얼마예요?" },
+        { "en": "How many people are coming?", "ko": "몇 명이 오나요?" }
+      ],
+      "koreanTip": "한국어에는 가산/불가산 구분이 약해서 영어가 어려워요. money, water, time은 불가산이에요.",
+      "commonErrors": [
+        { "wrong": "How many money?", "correct": "How much money?", "reason": "money는 불가산 명사" },
+        { "wrong": "How much books?", "correct": "How many books?", "reason": "books는 가산 복수" }
+      ],
+      "relatedPacks": ["pack-000006"]
+    },
+    {
+      "id": "gram-a1-009",
+      "name": "prepositions_place",
+      "nameKo": "장소 전치사",
+      "priority": 3,
+      "explanation": "Use prepositions to describe location: in, on, at, under, next to, etc.",
+      "explanationKo": "in, on, at, under, next to 등으로 위치를 표현해요.",
+      "forms": {
+        "in": "inside enclosed spaces",
+        "on": "surfaces",
+        "at": "specific points",
+        "under": "below",
+        "next to": "beside"
+      },
+      "examples": [
+        { "en": "The book is on the table.", "ko": "책이 테이블 위에 있어요." },
+        { "en": "She is in the room.", "ko": "그녀는 방 안에 있어요." },
+        { "en": "I'm at the station.", "ko": "나는 역에 있어요." },
+        { "en": "The cat is under the bed.", "ko": "고양이가 침대 아래에 있어요." }
+      ],
+      "koreanTip": "한국어는 '~에'로 통일되지만, 영어는 상황에 따라 in/on/at을 구분해요.",
+      "commonErrors": [
+        { "wrong": "I'm in the bus stop.", "correct": "I'm at the bus stop.", "reason": "정류장 같은 지점은 at" },
+        { "wrong": "The picture is in the wall.", "correct": "The picture is on the wall.", "reason": "표면에 붙어있으면 on" }
+      ],
+      "relatedPacks": ["pack-000010"]
+    },
+    {
+      "id": "gram-a1-010",
+      "name": "wh_questions",
+      "nameKo": "의문사 질문",
+      "priority": 2,
+      "explanation": "Use what, where, when, who, why, how to ask questions.",
+      "explanationKo": "what, where, when, who, why, how로 질문해요.",
+      "forms": {
+        "what": "things",
+        "where": "places",
+        "when": "time",
+        "who": "people",
+        "why": "reasons",
+        "how": "manner"
+      },
+      "examples": [
+        { "en": "What is your name?", "ko": "이름이 뭐예요?" },
+        { "en": "Where do you live?", "ko": "어디에 살아요?" },
+        { "en": "When is your birthday?", "ko": "생일이 언제예요?" },
+        { "en": "Who is she?", "ko": "그녀는 누구예요?" },
+        { "en": "How are you?", "ko": "어떻게 지내요?" }
+      ],
+      "koreanTip": "의문사가 문장 맨 앞에 오고, 그 뒤에 be동사/조동사가 와요.",
+      "commonErrors": [
+        { "wrong": "Where you live?", "correct": "Where do you live?", "reason": "의문사 + do/does + 주어 + 동사" },
+        { "wrong": "What means this?", "correct": "What does this mean?", "reason": "의문사 질문 어순" }
+      ],
+      "relatedPacks": ["pack-000001", "pack-000004"]
+    }
+  ]
+}

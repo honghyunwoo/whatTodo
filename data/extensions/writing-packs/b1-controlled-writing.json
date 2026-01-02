@@ -1,0 +1,311 @@
+{
+  "id": "ext-writing-b1-001",
+  "level": "B1",
+  "version": "1.0",
+  "description": "B1 통제작문 - 완료시제와 조건문, 간접화법",
+  "exercises": {
+    "sentenceAssembly": {
+      "description": "문장조립 - 현재완료와 조건문",
+      "descriptionKo": "단어를 올바른 순서로 배열하여 문장을 만드세요",
+      "items": [
+        {
+          "id": "ext-writing-b1-001:assembly-001",
+          "words": ["have", "I", "been", "to", "Japan", "times", "three"],
+          "correctOrder": "I have been to Japan three times",
+          "alternates": [],
+          "hint": "주어 + have + 과거분사 + 횟수",
+          "topic": "present_perfect"
+        },
+        {
+          "id": "ext-writing-b1-001:assembly-002",
+          "words": ["if", "it", "rains", "tomorrow", "will", "I", "home", "stay"],
+          "correctOrder": "If it rains tomorrow, I will stay home",
+          "alternates": ["I will stay home if it rains tomorrow"],
+          "hint": "If + 현재, will + 동사원형 (1차 조건문)",
+          "topic": "conditional"
+        },
+        {
+          "id": "ext-writing-b1-001:assembly-003",
+          "words": ["she", "has", "living", "been", "here", "2010", "since"],
+          "correctOrder": "She has been living here since 2010",
+          "alternates": [],
+          "hint": "have been + -ing (현재완료진행)",
+          "topic": "present_perfect_continuous"
+        },
+        {
+          "id": "ext-writing-b1-001:assembly-004",
+          "words": ["have", "you", "ever", "tried", "Korean", "food", "?"],
+          "correctOrder": "Have you ever tried Korean food?",
+          "alternates": [],
+          "hint": "Have + 주어 + ever + 과거분사?",
+          "topic": "experience"
+        },
+        {
+          "id": "ext-writing-b1-001:assembly-005",
+          "words": ["said", "she", "that", "was", "she", "tired"],
+          "correctOrder": "She said that she was tired",
+          "alternates": ["She said she was tired"],
+          "hint": "간접화법: said + that + 과거시제",
+          "topic": "reported_speech"
+        },
+        {
+          "id": "ext-writing-b1-001:assembly-006",
+          "words": ["if", "I", "were", "you", "would", "I", "go"],
+          "correctOrder": "If I were you, I would go",
+          "alternates": [],
+          "hint": "If + 과거, would + 동사원형 (2차 조건문)",
+          "topic": "conditional_2"
+        },
+        {
+          "id": "ext-writing-b1-001:assembly-007",
+          "words": ["haven't", "I", "seen", "him", "last", "since", "month"],
+          "correctOrder": "I haven't seen him since last month",
+          "alternates": [],
+          "hint": "have not + 과거분사 + since",
+          "topic": "present_perfect_negative"
+        },
+        {
+          "id": "ext-writing-b1-001:assembly-008",
+          "words": ["told", "me", "he", "that", "come", "he", "would"],
+          "correctOrder": "He told me that he would come",
+          "alternates": ["He told me he would come"],
+          "hint": "간접화법: told + 목적어 + that",
+          "topic": "reported_speech"
+        }
+      ]
+    },
+    "patternTransform": {
+      "description": "패턴변환 - 시제 변환과 화법 전환",
+      "descriptionKo": "예시를 보고 같은 패턴으로 문장을 바꾸세요",
+      "items": [
+        {
+          "id": "ext-writing-b1-001:transform-001",
+          "pattern": "과거 → 현재완료",
+          "example": { "input": "I visited Paris last year.", "output": "I have visited Paris." },
+          "input": "She learned French in school.",
+          "correctOutput": "She has learned French.",
+          "alternates": [],
+          "grammar": "현재완료"
+        },
+        {
+          "id": "ext-writing-b1-001:transform-002",
+          "pattern": "직접화법 → 간접화법",
+          "example": { "input": "\"I am tired,\" she said.", "output": "She said that she was tired." },
+          "input": "\"I will come tomorrow,\" he said.",
+          "correctOutput": "He said that he would come the next day.",
+          "alternates": ["He said he would come the next day."],
+          "grammar": "간접화법"
+        },
+        {
+          "id": "ext-writing-b1-001:transform-003",
+          "pattern": "1차 조건문 → 2차 조건문",
+          "example": { "input": "If I have time, I will go.", "output": "If I had time, I would go." },
+          "input": "If it rains, I will stay home.",
+          "correctOutput": "If it rained, I would stay home.",
+          "alternates": [],
+          "grammar": "가정법"
+        },
+        {
+          "id": "ext-writing-b1-001:transform-004",
+          "pattern": "능동태 → 수동태",
+          "example": { "input": "Someone stole my bike.", "output": "My bike was stolen." },
+          "input": "They built this house in 1990.",
+          "correctOutput": "This house was built in 1990.",
+          "alternates": [],
+          "grammar": "수동태"
+        },
+        {
+          "id": "ext-writing-b1-001:transform-005",
+          "pattern": "for → since 변환",
+          "example": { "input": "I have lived here for 5 years.", "output": "I have lived here since 2021." },
+          "input": "She has worked here for 3 years.",
+          "correctOutput": "She has worked here since 2023.",
+          "alternates": [],
+          "grammar": "for/since"
+        },
+        {
+          "id": "ext-writing-b1-001:transform-006",
+          "pattern": "현재완료 → 현재완료진행",
+          "example": { "input": "I have studied English.", "output": "I have been studying English." },
+          "input": "He has worked all day.",
+          "correctOutput": "He has been working all day.",
+          "alternates": [],
+          "grammar": "현재완료진행"
+        },
+        {
+          "id": "ext-writing-b1-001:transform-007",
+          "pattern": "명령문 → 간접화법",
+          "example": { "input": "\"Close the door,\" she said.", "output": "She told me to close the door." },
+          "input": "\"Be quiet,\" he said.",
+          "correctOutput": "He told me to be quiet.",
+          "alternates": ["He told us to be quiet."],
+          "grammar": "간접명령"
+        },
+        {
+          "id": "ext-writing-b1-001:transform-008",
+          "pattern": "too → enough 변환",
+          "example": { "input": "It's too hot to go out.", "output": "It's not cool enough to go out." },
+          "input": "The box is too heavy to carry.",
+          "correctOutput": "The box is not light enough to carry.",
+          "alternates": [],
+          "grammar": "too/enough"
+        }
+      ]
+    },
+    "errorCorrection": {
+      "description": "오류수정 - 완료시제와 조건문 오류",
+      "descriptionKo": "틀린 부분을 찾아 올바르게 고치세요",
+      "items": [
+        {
+          "id": "ext-writing-b1-001:error-001",
+          "wrong": "I have went to Paris last year.",
+          "correct": "I went to Paris last year.",
+          "errorType": "tense_confusion",
+          "explanation": "last year처럼 명확한 과거 시점이 있으면 과거형을 써요.",
+          "explanationKo": "현재완료는 특정 시점과 함께 쓸 수 없어요."
+        },
+        {
+          "id": "ext-writing-b1-001:error-002",
+          "wrong": "I have been studying English since 3 years.",
+          "correct": "I have been studying English for 3 years.",
+          "errorType": "since_for",
+          "explanation": "기간 앞에는 for, 시점 앞에는 since를 써요.",
+          "explanationKo": "3 years = 기간 → for 사용"
+        },
+        {
+          "id": "ext-writing-b1-001:error-003",
+          "wrong": "If I will have time, I will go.",
+          "correct": "If I have time, I will go.",
+          "errorType": "conditional",
+          "explanation": "If절에서는 will을 쓰지 않아요.",
+          "explanationKo": "If + 현재형, will + 동사원형"
+        },
+        {
+          "id": "ext-writing-b1-001:error-004",
+          "wrong": "She said that she is tired.",
+          "correct": "She said that she was tired.",
+          "errorType": "reported_speech",
+          "explanation": "간접화법에서는 시제를 한 단계 과거로 바꿔요.",
+          "explanationKo": "said → is를 was로 변경"
+        },
+        {
+          "id": "ext-writing-b1-001:error-005",
+          "wrong": "I have never been to Japan yet.",
+          "correct": "I have never been to Japan.",
+          "errorType": "adverb_usage",
+          "explanation": "never와 yet은 함께 쓸 수 없어요.",
+          "explanationKo": "never = 아직까지 ~한 적 없다 (yet 불필요)"
+        },
+        {
+          "id": "ext-writing-b1-001:error-006",
+          "wrong": "If I was you, I would go.",
+          "correct": "If I were you, I would go.",
+          "errorType": "subjunctive",
+          "explanation": "가정법에서 be동사는 were를 써요 (모든 주어에).",
+          "explanationKo": "If I were... (가정법 be동사)"
+        },
+        {
+          "id": "ext-writing-b1-001:error-007",
+          "wrong": "The house built in 1990.",
+          "correct": "The house was built in 1990.",
+          "errorType": "passive_voice",
+          "explanation": "수동태는 be + 과거분사 형태예요.",
+          "explanationKo": "was/were + 과거분사"
+        },
+        {
+          "id": "ext-writing-b1-001:error-008",
+          "wrong": "Have you ever went to Japan?",
+          "correct": "Have you ever been to Japan?",
+          "errorType": "present_perfect",
+          "explanation": "Have + 과거분사 (went는 과거형, 과거분사는 gone/been).",
+          "explanationKo": "Have + gone/been (과거분사)"
+        },
+        {
+          "id": "ext-writing-b1-001:error-009",
+          "wrong": "He told me that I should to study harder.",
+          "correct": "He told me that I should study harder.",
+          "errorType": "modal_verb",
+          "explanation": "should 뒤에는 to 없이 동사원형이 와요.",
+          "explanationKo": "should + 동사원형"
+        },
+        {
+          "id": "ext-writing-b1-001:error-010",
+          "wrong": "I'm tired. I'm working all day.",
+          "correct": "I'm tired. I've been working all day.",
+          "errorType": "tense_choice",
+          "explanation": "과거부터 현재까지 계속된 동작은 현재완료진행형을 써요.",
+          "explanationKo": "have been + -ing (지금까지 계속)"
+        }
+      ]
+    },
+    "slotFilling": {
+      "description": "빈칸채우기 - 완료시제와 조건문",
+      "descriptionKo": "빈칸에 알맞은 단어를 고르세요",
+      "items": [
+        {
+          "id": "ext-writing-b1-001:slot-001",
+          "sentence": "I ___ never been to Europe.",
+          "options": ["have", "has", "had"],
+          "correct": "have",
+          "grammar": "present_perfect"
+        },
+        {
+          "id": "ext-writing-b1-001:slot-002",
+          "sentence": "She has lived here ___ 2015.",
+          "options": ["for", "since", "during"],
+          "correct": "since",
+          "grammar": "since_for"
+        },
+        {
+          "id": "ext-writing-b1-001:slot-003",
+          "sentence": "If it ___ tomorrow, we will cancel the trip.",
+          "options": ["rains", "will rain", "rained"],
+          "correct": "rains",
+          "grammar": "first_conditional"
+        },
+        {
+          "id": "ext-writing-b1-001:slot-004",
+          "sentence": "If I ___ you, I would apologize.",
+          "options": ["was", "were", "am"],
+          "correct": "were",
+          "grammar": "second_conditional"
+        },
+        {
+          "id": "ext-writing-b1-001:slot-005",
+          "sentence": "She said that she ___ tired.",
+          "options": ["is", "was", "will be"],
+          "correct": "was",
+          "grammar": "reported_speech"
+        },
+        {
+          "id": "ext-writing-b1-001:slot-006",
+          "sentence": "The letter ___ sent yesterday.",
+          "options": ["was", "is", "has been"],
+          "correct": "was",
+          "grammar": "passive_voice"
+        },
+        {
+          "id": "ext-writing-b1-001:slot-007",
+          "sentence": "I have been ___ for two hours.",
+          "options": ["wait", "waited", "waiting"],
+          "correct": "waiting",
+          "grammar": "present_perfect_continuous"
+        },
+        {
+          "id": "ext-writing-b1-001:slot-008",
+          "sentence": "He told me ___ close the window.",
+          "options": ["to", "for", "that"],
+          "correct": "to",
+          "grammar": "reported_command"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "sentenceAssembly": 8,
+    "patternTransform": 8,
+    "errorCorrection": 10,
+    "slotFilling": 8,
+    "total": 34
+  }
+}

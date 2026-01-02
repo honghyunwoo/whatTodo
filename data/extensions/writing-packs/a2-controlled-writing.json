@@ -1,0 +1,311 @@
+{
+  "id": "ext-writing-a2-001",
+  "level": "A2",
+  "version": "1.0",
+  "description": "A2 통제작문 - 과거시제와 연결어 중심",
+  "exercises": {
+    "sentenceAssembly": {
+      "description": "문장조립 - 과거시제와 복합문",
+      "descriptionKo": "단어를 올바른 순서로 배열하여 문장을 만드세요",
+      "items": [
+        {
+          "id": "ext-writing-a2-001:assembly-001",
+          "words": ["yesterday", "I", "to", "went", "the", "movies"],
+          "correctOrder": "I went to the movies yesterday",
+          "alternates": ["Yesterday I went to the movies"],
+          "hint": "주어 + 과거동사 + 전치사구 + 시간부사",
+          "topic": "past_events"
+        },
+        {
+          "id": "ext-writing-a2-001:assembly-002",
+          "words": ["was", "because", "I", "tired", "late", "slept", "I"],
+          "correctOrder": "I was tired because I slept late",
+          "alternates": ["Because I slept late, I was tired"],
+          "hint": "원인-결과 문장 (because)",
+          "topic": "cause_effect"
+        },
+        {
+          "id": "ext-writing-a2-001:assembly-003",
+          "words": ["when", "was", "child", "I", "a", "in", "lived", "Busan", "I"],
+          "correctOrder": "When I was a child, I lived in Busan",
+          "alternates": ["I lived in Busan when I was a child"],
+          "hint": "시간 부사절 (when)",
+          "topic": "past_time"
+        },
+        {
+          "id": "ext-writing-a2-001:assembly-004",
+          "words": ["she", "didn't", "come", "to", "because", "was", "sick", "party", "she", "the"],
+          "correctOrder": "She didn't come to the party because she was sick",
+          "alternates": [],
+          "hint": "부정 과거 + 원인",
+          "topic": "past_negative"
+        },
+        {
+          "id": "ext-writing-a2-001:assembly-005",
+          "words": ["did", "you", "what", "do", "weekend", "last", "?"],
+          "correctOrder": "What did you do last weekend?",
+          "alternates": [],
+          "hint": "과거 의문문",
+          "topic": "past_questions"
+        },
+        {
+          "id": "ext-writing-a2-001:assembly-006",
+          "words": ["after", "finished", "I", "homework", "my", "watched", "TV", "I"],
+          "correctOrder": "After I finished my homework, I watched TV",
+          "alternates": ["I watched TV after I finished my homework"],
+          "hint": "시간 순서 (after)",
+          "topic": "sequence"
+        },
+        {
+          "id": "ext-writing-a2-001:assembly-007",
+          "words": ["going", "to", "I", "am", "study", "English", "next", "year"],
+          "correctOrder": "I am going to study English next year",
+          "alternates": ["Next year I am going to study English"],
+          "hint": "be going to + 미래 계획",
+          "topic": "future_plans"
+        },
+        {
+          "id": "ext-writing-a2-001:assembly-008",
+          "words": ["will", "you", "me", "help", "please", "?"],
+          "correctOrder": "Will you please help me?",
+          "alternates": ["Will you help me, please?"],
+          "hint": "will 요청문",
+          "topic": "requests"
+        }
+      ]
+    },
+    "patternTransform": {
+      "description": "패턴변환 - 시제 변환과 연결어 활용",
+      "descriptionKo": "예시를 보고 같은 패턴으로 문장을 바꾸세요",
+      "items": [
+        {
+          "id": "ext-writing-a2-001:transform-001",
+          "pattern": "현재 → 과거",
+          "example": { "input": "I go to school.", "output": "I went to school." },
+          "input": "She eats breakfast.",
+          "correctOutput": "She ate breakfast.",
+          "alternates": [],
+          "grammar": "과거형 변환"
+        },
+        {
+          "id": "ext-writing-a2-001:transform-002",
+          "pattern": "긍정 과거 → 부정 과거",
+          "example": { "input": "I saw the movie.", "output": "I didn't see the movie." },
+          "input": "He bought a car.",
+          "correctOutput": "He didn't buy a car.",
+          "alternates": ["He did not buy a car."],
+          "grammar": "과거 부정"
+        },
+        {
+          "id": "ext-writing-a2-001:transform-003",
+          "pattern": "두 문장 → because로 연결",
+          "example": { "input": "I was happy. I got a gift.", "output": "I was happy because I got a gift." },
+          "input": "She was late. She missed the bus.",
+          "correctOutput": "She was late because she missed the bus.",
+          "alternates": ["Because she missed the bus, she was late."],
+          "grammar": "because 연결"
+        },
+        {
+          "id": "ext-writing-a2-001:transform-004",
+          "pattern": "두 문장 → but으로 연결",
+          "example": { "input": "I was tired. I finished my work.", "output": "I was tired, but I finished my work." },
+          "input": "The movie was long. It was interesting.",
+          "correctOutput": "The movie was long, but it was interesting.",
+          "alternates": [],
+          "grammar": "but 연결"
+        },
+        {
+          "id": "ext-writing-a2-001:transform-005",
+          "pattern": "현재 → be going to",
+          "example": { "input": "I study English.", "output": "I am going to study English." },
+          "input": "We travel to Japan.",
+          "correctOutput": "We are going to travel to Japan.",
+          "alternates": [],
+          "grammar": "be going to"
+        },
+        {
+          "id": "ext-writing-a2-001:transform-006",
+          "pattern": "두 문장 → so로 연결",
+          "example": { "input": "I was hungry. I ate lunch.", "output": "I was hungry, so I ate lunch." },
+          "input": "It was raining. I took an umbrella.",
+          "correctOutput": "It was raining, so I took an umbrella.",
+          "alternates": [],
+          "grammar": "so 연결"
+        },
+        {
+          "id": "ext-writing-a2-001:transform-007",
+          "pattern": "두 문장 → when으로 연결",
+          "example": { "input": "I arrived. It was raining.", "output": "When I arrived, it was raining." },
+          "input": "She called. I was sleeping.",
+          "correctOutput": "When she called, I was sleeping.",
+          "alternates": ["I was sleeping when she called."],
+          "grammar": "when 연결"
+        },
+        {
+          "id": "ext-writing-a2-001:transform-008",
+          "pattern": "두 문장 → before/after로 연결",
+          "example": { "input": "I had dinner. I went for a walk.", "output": "After I had dinner, I went for a walk." },
+          "input": "I brushed my teeth. I went to bed.",
+          "correctOutput": "Before I went to bed, I brushed my teeth.",
+          "alternates": ["After I brushed my teeth, I went to bed."],
+          "grammar": "before/after 연결"
+        }
+      ]
+    },
+    "errorCorrection": {
+      "description": "오류수정 - 과거시제와 연결어 오류",
+      "descriptionKo": "틀린 부분을 찾아 올바르게 고치세요",
+      "items": [
+        {
+          "id": "ext-writing-a2-001:error-001",
+          "wrong": "I goed to the store yesterday.",
+          "correct": "I went to the store yesterday.",
+          "errorType": "irregular_past",
+          "explanation": "go의 과거형은 goed가 아니라 went예요.",
+          "explanationKo": "불규칙 동사: go → went"
+        },
+        {
+          "id": "ext-writing-a2-001:error-002",
+          "wrong": "She didn't went to school.",
+          "correct": "She didn't go to school.",
+          "errorType": "past_negative",
+          "explanation": "didn't 뒤에는 동사원형이 와요.",
+          "explanationKo": "didn't + 동사원형 (과거형 아님)"
+        },
+        {
+          "id": "ext-writing-a2-001:error-003",
+          "wrong": "Did you saw the movie?",
+          "correct": "Did you see the movie?",
+          "errorType": "past_question",
+          "explanation": "Did 뒤에는 동사원형이 와요.",
+          "explanationKo": "Did + 주어 + 동사원형?"
+        },
+        {
+          "id": "ext-writing-a2-001:error-004",
+          "wrong": "I was tired because I didn't slept well.",
+          "correct": "I was tired because I didn't sleep well.",
+          "errorType": "past_negative",
+          "explanation": "didn't 뒤에는 동사원형이 와요.",
+          "explanationKo": "didn't + 동사원형"
+        },
+        {
+          "id": "ext-writing-a2-001:error-005",
+          "wrong": "I was tired, so I going to bed early.",
+          "correct": "I was tired, so I went to bed early.",
+          "errorType": "verb_form",
+          "explanation": "과거 문맥에서는 과거형을 써야 해요.",
+          "explanationKo": "so 뒤에도 시제 일치"
+        },
+        {
+          "id": "ext-writing-a2-001:error-006",
+          "wrong": "When I was young, I am very shy.",
+          "correct": "When I was young, I was very shy.",
+          "errorType": "tense_consistency",
+          "explanation": "과거 시간 표현에는 과거 시제를 써야 해요.",
+          "explanationKo": "when + 과거 → 과거"
+        },
+        {
+          "id": "ext-writing-a2-001:error-007",
+          "wrong": "I am going to went to Japan next year.",
+          "correct": "I am going to go to Japan next year.",
+          "errorType": "future_form",
+          "explanation": "be going to 뒤에는 동사원형이 와요.",
+          "explanationKo": "be going to + 동사원형"
+        },
+        {
+          "id": "ext-writing-a2-001:error-008",
+          "wrong": "He buyed a new phone last week.",
+          "correct": "He bought a new phone last week.",
+          "errorType": "irregular_past",
+          "explanation": "buy의 과거형은 buyed가 아니라 bought예요.",
+          "explanationKo": "불규칙 동사: buy → bought"
+        },
+        {
+          "id": "ext-writing-a2-001:error-009",
+          "wrong": "After I eat dinner, I watched TV.",
+          "correct": "After I ate dinner, I watched TV.",
+          "errorType": "tense_consistency",
+          "explanation": "과거 문맥에서는 둘 다 과거형을 써요.",
+          "explanationKo": "after + 과거 → 과거"
+        },
+        {
+          "id": "ext-writing-a2-001:error-010",
+          "wrong": "I was late but because I missed the bus.",
+          "correct": "I was late because I missed the bus.",
+          "errorType": "conjunction",
+          "explanation": "but과 because를 함께 쓸 수 없어요.",
+          "explanationKo": "접속사는 하나만: but 또는 because"
+        }
+      ]
+    },
+    "slotFilling": {
+      "description": "빈칸채우기 - 과거형과 연결어",
+      "descriptionKo": "빈칸에 알맞은 단어를 고르세요",
+      "items": [
+        {
+          "id": "ext-writing-a2-001:slot-001",
+          "sentence": "I ___ to the park yesterday.",
+          "options": ["go", "went", "going"],
+          "correct": "went",
+          "grammar": "past_simple"
+        },
+        {
+          "id": "ext-writing-a2-001:slot-002",
+          "sentence": "She didn't ___ the email.",
+          "options": ["read", "reads", "reading"],
+          "correct": "read",
+          "grammar": "past_negative"
+        },
+        {
+          "id": "ext-writing-a2-001:slot-003",
+          "sentence": "I was tired ___ I didn't sleep well.",
+          "options": ["because", "but", "so"],
+          "correct": "because",
+          "grammar": "conjunction"
+        },
+        {
+          "id": "ext-writing-a2-001:slot-004",
+          "sentence": "It was raining, ___ I took an umbrella.",
+          "options": ["because", "but", "so"],
+          "correct": "so",
+          "grammar": "conjunction"
+        },
+        {
+          "id": "ext-writing-a2-001:slot-005",
+          "sentence": "___ I was a child, I lived in Seoul.",
+          "options": ["When", "Because", "After"],
+          "correct": "When",
+          "grammar": "time_clause"
+        },
+        {
+          "id": "ext-writing-a2-001:slot-006",
+          "sentence": "I am going to ___ English next year.",
+          "options": ["study", "studied", "studying"],
+          "correct": "study",
+          "grammar": "be_going_to"
+        },
+        {
+          "id": "ext-writing-a2-001:slot-007",
+          "sentence": "___ I finished my homework, I played games.",
+          "options": ["After", "Before", "Because"],
+          "correct": "After",
+          "grammar": "sequence"
+        },
+        {
+          "id": "ext-writing-a2-001:slot-008",
+          "sentence": "The movie was boring, ___ I watched it until the end.",
+          "options": ["because", "but", "so"],
+          "correct": "but",
+          "grammar": "contrast"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "sentenceAssembly": 8,
+    "patternTransform": 8,
+    "errorCorrection": 10,
+    "slotFilling": 8,
+    "total": 34
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "level": "A1",
+  "version": "1.0",
+  "description": "CEFR A1 어휘 덩어리 - 자연스러운 표현 단위",
+  "chunks": [
+    {
+      "id": "lex-a1-001",
+      "category": "time",
+      "categoryKo": "시간 표현",
+      "items": [
+        { "en": "in the morning", "ko": "아침에", "example": "I exercise in the morning." },
+        { "en": "in the afternoon", "ko": "오후에", "example": "Let's meet in the afternoon." },
+        { "en": "in the evening", "ko": "저녁에", "example": "I study in the evening." },
+        { "en": "at night", "ko": "밤에", "example": "I sleep at night." },
+        { "en": "every day", "ko": "매일", "example": "I work every day." },
+        { "en": "once a week", "ko": "일주일에 한 번", "example": "I swim once a week." },
+        { "en": "right now", "ko": "지금 당장", "example": "I'm busy right now." },
+        { "en": "later today", "ko": "오늘 나중에", "example": "I'll call you later today." }
+      ]
+    },
+    {
+      "id": "lex-a1-002",
+      "category": "frequency",
+      "categoryKo": "빈도 표현",
+      "items": [
+        { "en": "always", "ko": "항상", "example": "I always wake up early." },
+        { "en": "usually", "ko": "보통", "example": "I usually eat breakfast." },
+        { "en": "often", "ko": "자주", "example": "I often go to the gym." },
+        { "en": "sometimes", "ko": "때때로", "example": "I sometimes eat out." },
+        { "en": "rarely", "ko": "거의 안", "example": "I rarely watch TV." },
+        { "en": "never", "ko": "절대 안", "example": "I never smoke." }
+      ]
+    },
+    {
+      "id": "lex-a1-003",
+      "category": "daily_routine",
+      "categoryKo": "일상 루틴",
+      "items": [
+        { "en": "wake up", "ko": "일어나다", "example": "I wake up at 7 AM." },
+        { "en": "get up", "ko": "침대에서 일어나다", "example": "I get up and take a shower." },
+        { "en": "take a shower", "ko": "샤워하다", "example": "I take a shower every morning." },
+        { "en": "have breakfast", "ko": "아침 먹다", "example": "I have breakfast at home." },
+        { "en": "go to work", "ko": "출근하다", "example": "I go to work by bus." },
+        { "en": "come home", "ko": "퇴근하다/집에 오다", "example": "I come home at 6 PM." },
+        { "en": "have dinner", "ko": "저녁 먹다", "example": "We have dinner together." },
+        { "en": "go to bed", "ko": "잠자리에 들다", "example": "I go to bed at 11 PM." }
+      ]
+    },
+    {
+      "id": "lex-a1-004",
+      "category": "polite_phrases",
+      "categoryKo": "공손한 표현",
+      "items": [
+        { "en": "Excuse me", "ko": "실례합니다", "example": "Excuse me, where is the station?" },
+        { "en": "I'm sorry", "ko": "죄송합니다", "example": "I'm sorry I'm late." },
+        { "en": "Could you...?", "ko": "~해 주시겠어요?", "example": "Could you help me?" },
+        { "en": "Would you like...?", "ko": "~하시겠어요?", "example": "Would you like some coffee?" },
+        { "en": "If you don't mind", "ko": "괜찮으시다면", "example": "If you don't mind, can I sit here?" },
+        { "en": "That's very kind of you", "ko": "정말 친절하시네요", "example": "That's very kind of you. Thank you." }
+      ]
+    },
+    {
+      "id": "lex-a1-005",
+      "category": "shopping",
+      "categoryKo": "쇼핑 표현",
+      "items": [
+        { "en": "How much is this?", "ko": "이거 얼마예요?", "example": "How much is this shirt?" },
+        { "en": "I'm just looking", "ko": "그냥 보는 거예요", "example": "I'm just looking, thanks." },
+        { "en": "Can I try this on?", "ko": "이거 입어봐도 돼요?", "example": "Can I try this on?" },
+        { "en": "Do you have...?", "ko": "...있어요?", "example": "Do you have this in blue?" },
+        { "en": "I'll take it", "ko": "이거 살게요", "example": "I'll take it. Here's my card." },
+        { "en": "Can I pay by card?", "ko": "카드로 계산해도 돼요?", "example": "Can I pay by card?" }
+      ]
+    },
+    {
+      "id": "lex-a1-006",
+      "category": "restaurant",
+      "categoryKo": "식당 표현",
+      "items": [
+        { "en": "A table for two, please", "ko": "2명이요", "example": "A table for two, please." },
+        { "en": "Can I see the menu?", "ko": "메뉴 볼 수 있어요?", "example": "Can I see the menu, please?" },
+        { "en": "I'll have...", "ko": "...로 할게요", "example": "I'll have the pasta." },
+        { "en": "The check, please", "ko": "계산서 주세요", "example": "The check, please." },
+        { "en": "Keep the change", "ko": "거스름돈은 됐어요", "example": "Keep the change." },
+        { "en": "It was delicious", "ko": "맛있었어요", "example": "It was delicious. Thank you." }
+      ]
+    },
+    {
+      "id": "lex-a1-007",
+      "category": "directions",
+      "categoryKo": "길 안내 표현",
+      "items": [
+        { "en": "Go straight", "ko": "직진하세요", "example": "Go straight for two blocks." },
+        { "en": "Turn left/right", "ko": "왼쪽/오른쪽으로 도세요", "example": "Turn left at the corner." },
+        { "en": "It's on your left/right", "ko": "왼쪽/오른쪽에 있어요", "example": "The bank is on your right." },
+        { "en": "It's next to...", "ko": "... 옆에 있어요", "example": "It's next to the post office." },
+        { "en": "It's across from...", "ko": "... 건너편에 있어요", "example": "It's across from the park." },
+        { "en": "It's about 5 minutes", "ko": "약 5분 거리예요", "example": "It's about 5 minutes from here." }
+      ]
+    },
+    {
+      "id": "lex-a1-008",
+      "category": "weather",
+      "categoryKo": "날씨 표현",
+      "items": [
+        { "en": "It's sunny", "ko": "맑아요", "example": "It's sunny today." },
+        { "en": "It's cloudy", "ko": "흐려요", "example": "It's cloudy outside." },
+        { "en": "It's raining", "ko": "비가 와요", "example": "It's raining. Take an umbrella." },
+        { "en": "It's snowing", "ko": "눈이 와요", "example": "It's snowing outside." },
+        { "en": "It's hot/cold", "ko": "더워요/추워요", "example": "It's really hot today." },
+        { "en": "What's the weather like?", "ko": "날씨가 어때요?", "example": "What's the weather like today?" }
+      ]
+    },
+    {
+      "id": "lex-a1-009",
+      "category": "feelings",
+      "categoryKo": "감정 표현",
+      "items": [
+        { "en": "I'm happy", "ko": "기뻐요", "example": "I'm happy to see you." },
+        { "en": "I'm sad", "ko": "슬퍼요", "example": "I'm sad about the news." },
+        { "en": "I'm tired", "ko": "피곤해요", "example": "I'm tired. I need sleep." },
+        { "en": "I'm hungry", "ko": "배고파요", "example": "I'm hungry. Let's eat." },
+        { "en": "I'm excited", "ko": "신나요", "example": "I'm excited about the trip." },
+        { "en": "I'm worried", "ko": "걱정돼요", "example": "I'm worried about the test." }
+      ]
+    },
+    {
+      "id": "lex-a1-010",
+      "category": "phone_email",
+      "categoryKo": "전화/이메일 표현",
+      "items": [
+        { "en": "Hello, this is...", "ko": "여보세요, 저는...입니다", "example": "Hello, this is John speaking." },
+        { "en": "Can I speak to...?", "ko": "...와 통화할 수 있나요?", "example": "Can I speak to Mr. Kim?" },
+        { "en": "Please leave a message", "ko": "메시지 남겨주세요", "example": "Please leave a message after the beep." },
+        { "en": "I'll call you back", "ko": "다시 전화할게요", "example": "I'll call you back later." },
+        { "en": "Sorry, wrong number", "ko": "죄송해요, 잘못 거셨어요", "example": "Sorry, wrong number." },
+        { "en": "Nice to hear from you", "ko": "연락 주셔서 반가워요", "example": "Nice to hear from you!" }
+      ]
+    }
+  ],
+  "collocations": [
+    {
+      "id": "coll-a1-001",
+      "verb": "make",
+      "combinations": [
+        { "phrase": "make breakfast/lunch/dinner", "ko": "아침/점심/저녁을 만들다" },
+        { "phrase": "make a mistake", "ko": "실수하다" },
+        { "phrase": "make a phone call", "ko": "전화하다" },
+        { "phrase": "make a decision", "ko": "결정하다" },
+        { "phrase": "make friends", "ko": "친구를 사귀다" }
+      ]
+    },
+    {
+      "id": "coll-a1-002",
+      "verb": "do",
+      "combinations": [
+        { "phrase": "do homework", "ko": "숙제하다" },
+        { "phrase": "do housework", "ko": "집안일하다" },
+        { "phrase": "do exercise", "ko": "운동하다" },
+        { "phrase": "do the shopping", "ko": "장보다" },
+        { "phrase": "do your best", "ko": "최선을 다하다" }
+      ]
+    },
+    {
+      "id": "coll-a1-003",
+      "verb": "have",
+      "combinations": [
+        { "phrase": "have breakfast/lunch/dinner", "ko": "아침/점심/저녁을 먹다" },
+        { "phrase": "have a shower", "ko": "샤워하다" },
+        { "phrase": "have a rest", "ko": "쉬다" },
+        { "phrase": "have a good time", "ko": "즐거운 시간 보내다" },
+        { "phrase": "have a problem", "ko": "문제가 있다" }
+      ]
+    },
+    {
+      "id": "coll-a1-004",
+      "verb": "take",
+      "combinations": [
+        { "phrase": "take a bus/taxi", "ko": "버스/택시를 타다" },
+        { "phrase": "take a photo", "ko": "사진을 찍다" },
+        { "phrase": "take a break", "ko": "휴식을 취하다" },
+        { "phrase": "take medicine", "ko": "약을 먹다" },
+        { "phrase": "take time", "ko": "시간이 걸리다" }
+      ]
+    },
+    {
+      "id": "coll-a1-005",
+      "verb": "get",
+      "combinations": [
+        { "phrase": "get home", "ko": "집에 도착하다" },
+        { "phrase": "get up", "ko": "일어나다" },
+        { "phrase": "get married", "ko": "결혼하다" },
+        { "phrase": "get ready", "ko": "준비하다" },
+        { "phrase": "get lost", "ko": "길을 잃다" }
+      ]
+    }
+  ]
+}

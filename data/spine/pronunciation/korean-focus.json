@@ -1,0 +1,213 @@
+{
+  "version": "1.0",
+  "description": "한국인 학습자를 위한 발음 포인트 - 자주 틀리는 발음과 교정법",
+  "targetLearners": "Korean",
+  "focusAreas": [
+    {
+      "id": "pron-001",
+      "category": "consonants",
+      "categoryKo": "자음",
+      "title": "R vs L distinction",
+      "titleKo": "R과 L 구분",
+      "difficulty": "high",
+      "explanation": "한국어에는 영어의 R과 L에 해당하는 별도의 음소가 없어서 구분이 어렵습니다.",
+      "tips": [
+        "L: 혀끝이 윗니 뒤 잇몸에 닿음",
+        "R: 혀끝이 어디에도 닿지 않고 뒤로 말림",
+        "L은 '으' 소리로 끝날 수 있음, R은 절대 안 됨"
+      ],
+      "minimalPairs": [
+        { "word1": "light", "word2": "right", "ipa1": "/laɪt/", "ipa2": "/raɪt/" },
+        { "word1": "led", "word2": "red", "ipa1": "/led/", "ipa2": "/red/" },
+        { "word1": "collect", "word2": "correct", "ipa1": "/kəˈlekt/", "ipa2": "/kəˈrekt/" },
+        { "word1": "alive", "word2": "arrive", "ipa1": "/əˈlaɪv/", "ipa2": "/əˈraɪv/" }
+      ],
+      "practiceWords": ["really", "library", "world", "girl", "problem"]
+    },
+    {
+      "id": "pron-002",
+      "category": "consonants",
+      "categoryKo": "자음",
+      "title": "F and V sounds",
+      "titleKo": "F와 V 발음",
+      "difficulty": "medium",
+      "explanation": "한국어에는 F와 V 음소가 없어서 P/B로 대체하는 경향이 있습니다.",
+      "tips": [
+        "F: 윗니를 아랫입술에 가볍게 대고 공기를 내보냄",
+        "V: F와 같은 위치에서 성대를 울림",
+        "P/B와 달리 입술을 다물지 않음"
+      ],
+      "minimalPairs": [
+        { "word1": "fan", "word2": "pan", "ipa1": "/fæn/", "ipa2": "/pæn/" },
+        { "word1": "very", "word2": "berry", "ipa1": "/ˈveri/", "ipa2": "/ˈberi/" },
+        { "word1": "safe", "word2": "save", "ipa1": "/seɪf/", "ipa2": "/seɪv/" },
+        { "word1": "fine", "word2": "pine", "ipa1": "/faɪn/", "ipa2": "/paɪn/" }
+      ],
+      "practiceWords": ["coffee", "five", "favorite", "video", "office"]
+    },
+    {
+      "id": "pron-003",
+      "category": "consonants",
+      "categoryKo": "자음",
+      "title": "TH sounds (θ and ð)",
+      "titleKo": "TH 발음",
+      "difficulty": "high",
+      "explanation": "한국어에 없는 음소로, S/Z 또는 D로 대체하는 경향이 있습니다.",
+      "tips": [
+        "혀끝을 윗니와 아랫니 사이에 가볍게 놓음",
+        "θ (무성음): think, thank, three",
+        "ð (유성음): this, that, the"
+      ],
+      "minimalPairs": [
+        { "word1": "think", "word2": "sink", "ipa1": "/θɪŋk/", "ipa2": "/sɪŋk/" },
+        { "word1": "three", "word2": "tree", "ipa1": "/θriː/", "ipa2": "/triː/" },
+        { "word1": "they", "word2": "day", "ipa1": "/ðeɪ/", "ipa2": "/deɪ/" },
+        { "word1": "that", "word2": "dat", "ipa1": "/ðæt/", "ipa2": "/dæt/" }
+      ],
+      "practiceWords": ["the", "this", "thank", "think", "weather", "together"]
+    },
+    {
+      "id": "pron-004",
+      "category": "vowels",
+      "categoryKo": "모음",
+      "title": "Short and long vowels",
+      "titleKo": "단모음과 장모음",
+      "difficulty": "medium",
+      "explanation": "영어 모음의 길이 차이가 의미를 바꿀 수 있습니다.",
+      "tips": [
+        "i (짧은): bit, sit - '이'보다 짧고 입을 덜 벌림",
+        "iː (긴): beat, seat - '이'처럼 길고 긴장",
+        "의미가 완전히 달라지므로 구분 중요"
+      ],
+      "minimalPairs": [
+        { "word1": "ship", "word2": "sheep", "ipa1": "/ʃɪp/", "ipa2": "/ʃiːp/" },
+        { "word1": "bit", "word2": "beat", "ipa1": "/bɪt/", "ipa2": "/biːt/" },
+        { "word1": "live", "word2": "leave", "ipa1": "/lɪv/", "ipa2": "/liːv/" },
+        { "word1": "fill", "word2": "feel", "ipa1": "/fɪl/", "ipa2": "/fiːl/" }
+      ],
+      "practiceWords": ["sleep", "slip", "cheap", "chip", "beach", "pitch"]
+    },
+    {
+      "id": "pron-005",
+      "category": "vowels",
+      "categoryKo": "모음",
+      "title": "æ (cat) vs ɛ (bed)",
+      "titleKo": "æ와 ɛ 구분",
+      "difficulty": "medium",
+      "explanation": "한국어에 없는 æ 소리를 '에'로 발음하는 경향이 있습니다.",
+      "tips": [
+        "æ: 입을 넓게 벌리고 '애'와 '아' 사이",
+        "ɛ: 입을 중간 정도 벌리고 '에'",
+        "æ가 더 입을 크게 벌림"
+      ],
+      "minimalPairs": [
+        { "word1": "bad", "word2": "bed", "ipa1": "/bæd/", "ipa2": "/bed/" },
+        { "word1": "man", "word2": "men", "ipa1": "/mæn/", "ipa2": "/men/" },
+        { "word1": "sat", "word2": "set", "ipa1": "/sæt/", "ipa2": "/set/" },
+        { "word1": "had", "word2": "head", "ipa1": "/hæd/", "ipa2": "/hed/" }
+      ],
+      "practiceWords": ["apple", "happy", "cat", "that", "can", "bad"]
+    },
+    {
+      "id": "pron-006",
+      "category": "stress",
+      "categoryKo": "강세",
+      "title": "Word stress patterns",
+      "titleKo": "단어 강세",
+      "difficulty": "high",
+      "explanation": "한국어는 강세가 약하지만 영어는 강세가 의미와 자연스러움에 중요합니다.",
+      "tips": [
+        "영어 단어는 반드시 하나의 음절에 강세",
+        "강세 있는 음절: 더 길고, 높고, 크게",
+        "강세가 틀리면 원어민이 이해 못할 수 있음"
+      ],
+      "examples": [
+        { "word": "present (명사)", "stress": "PRE-sent", "meaning": "선물" },
+        { "word": "present (동사)", "stress": "pre-SENT", "meaning": "발표하다" },
+        { "word": "record (명사)", "stress": "RE-cord", "meaning": "기록" },
+        { "word": "record (동사)", "stress": "re-CORD", "meaning": "녹음하다" }
+      ],
+      "practiceWords": ["computer", "tomorrow", "important", "beautiful", "interesting"]
+    },
+    {
+      "id": "pron-007",
+      "category": "intonation",
+      "categoryKo": "억양",
+      "title": "Question intonation",
+      "titleKo": "질문 억양",
+      "difficulty": "medium",
+      "explanation": "Yes/No 질문과 WH 질문의 억양 패턴이 다릅니다.",
+      "tips": [
+        "Yes/No 질문: 끝이 올라감 ↗",
+        "WH 질문 (what, where...): 끝이 내려감 ↘",
+        "평서문: 끝이 내려감 ↘"
+      ],
+      "examples": [
+        { "sentence": "Are you coming?", "pattern": "rising ↗", "type": "Yes/No" },
+        { "sentence": "Do you like coffee?", "pattern": "rising ↗", "type": "Yes/No" },
+        { "sentence": "What's your name?", "pattern": "falling ↘", "type": "WH" },
+        { "sentence": "Where do you live?", "pattern": "falling ↘", "type": "WH" }
+      ]
+    },
+    {
+      "id": "pron-008",
+      "category": "linking",
+      "categoryKo": "연음",
+      "title": "Connected speech",
+      "titleKo": "연결된 발화",
+      "difficulty": "medium",
+      "explanation": "영어는 단어들이 연결되어 발음됩니다.",
+      "tips": [
+        "자음 + 모음: 연결됨 (an apple → a napple)",
+        "같은 자음: 하나로 발음 (hot tea → ho tea)",
+        "빠른 말에서는 소리가 생략/변화"
+      ],
+      "examples": [
+        { "written": "What are you doing?", "spoken": "Whatcha doing?", "note": "일상 대화" },
+        { "written": "going to", "spoken": "gonna", "note": "비공식" },
+        { "written": "want to", "spoken": "wanna", "note": "비공식" },
+        { "written": "got to", "spoken": "gotta", "note": "비공식" }
+      ]
+    },
+    {
+      "id": "pron-009",
+      "category": "final_consonants",
+      "categoryKo": "끝소리",
+      "title": "Final consonant release",
+      "titleKo": "끝 자음 발음",
+      "difficulty": "medium",
+      "explanation": "한국어는 끝 자음을 약하게 발음하지만 영어는 명확히 발음해야 합니다.",
+      "tips": [
+        "영어 끝 자음은 명확하게 (stop, book, bed)",
+        "특히 -ed 과거형: /t/, /d/, /ɪd/ 구분",
+        "끝 자음을 생략하면 다른 단어로 들릴 수 있음"
+      ],
+      "examples": [
+        { "word": "worked", "pronunciation": "/wɜːrkt/", "ending": "/t/" },
+        { "word": "played", "pronunciation": "/pleɪd/", "ending": "/d/" },
+        { "word": "wanted", "pronunciation": "/ˈwɒntɪd/", "ending": "/ɪd/" },
+        { "word": "cup", "pronunciation": "/kʌp/", "note": "p를 확실히" }
+      ]
+    },
+    {
+      "id": "pron-010",
+      "category": "syllables",
+      "categoryKo": "음절",
+      "title": "Avoiding extra vowels",
+      "titleKo": "불필요한 모음 삽입 피하기",
+      "difficulty": "high",
+      "explanation": "한국인은 자음 연속에 '으'를 넣는 경향이 있습니다.",
+      "tips": [
+        "strike: 스트라이크 ❌ → /straɪk/ ⭕",
+        "film: 필름 ❌ → /fɪlm/ ⭕",
+        "자음 사이에 '으'를 넣지 않도록 연습"
+      ],
+      "commonErrors": [
+        { "wrong": "스쿨 (4음절)", "correct": "school (1음절)", "word": "school" },
+        { "wrong": "스타 (2음절)", "correct": "star (1음절)", "word": "star" },
+        { "wrong": "스프링 (3음절)", "correct": "spring (1음절)", "word": "spring" },
+        { "wrong": "필름 (2음절)", "correct": "film (1음절)", "word": "film" }
+      ]
+    }
+  ]
+}

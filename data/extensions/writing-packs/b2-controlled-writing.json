@@ -1,0 +1,311 @@
+{
+  "id": "ext-writing-b2-001",
+  "level": "B2",
+  "version": "1.0",
+  "description": "B2 통제작문 - 복잡한 문장 구조와 고급 표현",
+  "exercises": {
+    "sentenceAssembly": {
+      "description": "문장조립 - 복합문과 분사구문",
+      "descriptionKo": "단어를 올바른 순서로 배열하여 문장을 만드세요",
+      "items": [
+        {
+          "id": "ext-writing-b2-001:assembly-001",
+          "words": ["having", "the", "finished", "report", "I", "for", "home", "left"],
+          "correctOrder": "Having finished the report, I left for home",
+          "alternates": [],
+          "hint": "완료 분사구문 (Having + 과거분사)",
+          "topic": "participle"
+        },
+        {
+          "id": "ext-writing-b2-001:assembly-002",
+          "words": ["had", "I", "known", "I", "earlier", "would", "have", "told", "you"],
+          "correctOrder": "Had I known earlier, I would have told you",
+          "alternates": ["If I had known earlier, I would have told you"],
+          "hint": "도치된 가정법 과거완료",
+          "topic": "inverted_conditional"
+        },
+        {
+          "id": "ext-writing-b2-001:assembly-003",
+          "words": ["not", "only", "is", "she", "intelligent", "but", "also", "hardworking"],
+          "correctOrder": "Not only is she intelligent, but also hardworking",
+          "alternates": ["Not only is she intelligent but also hardworking"],
+          "hint": "Not only... but also (도치)",
+          "topic": "correlative"
+        },
+        {
+          "id": "ext-writing-b2-001:assembly-004",
+          "words": ["the", "more", "you", "practice", "the", "better", "become", "you", "will"],
+          "correctOrder": "The more you practice, the better you will become",
+          "alternates": [],
+          "hint": "The 비교급, the 비교급",
+          "topic": "double_comparative"
+        },
+        {
+          "id": "ext-writing-b2-001:assembly-005",
+          "words": ["it", "was", "such", "a", "difficult", "exam", "that", "many", "failed", "students"],
+          "correctOrder": "It was such a difficult exam that many students failed",
+          "alternates": [],
+          "hint": "such... that 결과절",
+          "topic": "result_clause"
+        },
+        {
+          "id": "ext-writing-b2-001:assembly-006",
+          "words": ["seldom", "have", "I", "seen", "beautiful", "such", "a", "sunset"],
+          "correctOrder": "Seldom have I seen such a beautiful sunset",
+          "alternates": [],
+          "hint": "부정어 도치 (Seldom + have + 주어)",
+          "topic": "inversion"
+        },
+        {
+          "id": "ext-writing-b2-001:assembly-007",
+          "words": ["despite", "tired", "being", "she", "continued", "to", "work"],
+          "correctOrder": "Despite being tired, she continued to work",
+          "alternates": [],
+          "hint": "Despite + 동명사",
+          "topic": "concession"
+        },
+        {
+          "id": "ext-writing-b2-001:assembly-008",
+          "words": ["should", "you", "need", "help", "don't", "hesitate", "to", "call"],
+          "correctOrder": "Should you need help, don't hesitate to call",
+          "alternates": ["If you should need help, don't hesitate to call"],
+          "hint": "도치된 조건문 (Should + 주어)",
+          "topic": "inverted_conditional"
+        }
+      ]
+    },
+    "patternTransform": {
+      "description": "패턴변환 - 고급 문장 구조",
+      "descriptionKo": "예시를 보고 같은 패턴으로 문장을 바꾸세요",
+      "items": [
+        {
+          "id": "ext-writing-b2-001:transform-001",
+          "pattern": "접속사절 → 분사구문",
+          "example": { "input": "After he finished the work, he went home.", "output": "Having finished the work, he went home." },
+          "input": "After she read the letter, she started to cry.",
+          "correctOutput": "Having read the letter, she started to cry.",
+          "alternates": [],
+          "grammar": "분사구문"
+        },
+        {
+          "id": "ext-writing-b2-001:transform-002",
+          "pattern": "if 가정법 → 도치 가정법",
+          "example": { "input": "If I had known, I would have told you.", "output": "Had I known, I would have told you." },
+          "input": "If she had studied harder, she would have passed.",
+          "correctOutput": "Had she studied harder, she would have passed.",
+          "alternates": [],
+          "grammar": "도치 가정법"
+        },
+        {
+          "id": "ext-writing-b2-001:transform-003",
+          "pattern": "so... that → such... that",
+          "example": { "input": "The movie was so boring that I fell asleep.", "output": "It was such a boring movie that I fell asleep." },
+          "input": "The food was so delicious that we ordered more.",
+          "correctOutput": "It was such delicious food that we ordered more.",
+          "alternates": [],
+          "grammar": "so/such 변환"
+        },
+        {
+          "id": "ext-writing-b2-001:transform-004",
+          "pattern": "although → despite",
+          "example": { "input": "Although it was raining, we went out.", "output": "Despite the rain, we went out." },
+          "input": "Although she was tired, she continued working.",
+          "correctOutput": "Despite being tired, she continued working.",
+          "alternates": ["Despite her tiredness, she continued working."],
+          "grammar": "양보 표현"
+        },
+        {
+          "id": "ext-writing-b2-001:transform-005",
+          "pattern": "일반 문장 → 강조 도치",
+          "example": { "input": "I have never seen such a thing.", "output": "Never have I seen such a thing." },
+          "input": "I rarely go to the movies.",
+          "correctOutput": "Rarely do I go to the movies.",
+          "alternates": [],
+          "grammar": "부정어 도치"
+        },
+        {
+          "id": "ext-writing-b2-001:transform-006",
+          "pattern": "두 문장 → Not only... but also",
+          "example": { "input": "She is smart. She is also kind.", "output": "Not only is she smart, but she is also kind." },
+          "input": "He speaks English. He also speaks French.",
+          "correctOutput": "Not only does he speak English, but he also speaks French.",
+          "alternates": [],
+          "grammar": "상관접속사"
+        },
+        {
+          "id": "ext-writing-b2-001:transform-007",
+          "pattern": "관계절 → 분사",
+          "example": { "input": "The man who is standing there is my father.", "output": "The man standing there is my father." },
+          "input": "The book which was written by him is famous.",
+          "correctOutput": "The book written by him is famous.",
+          "alternates": [],
+          "grammar": "분사 수식"
+        },
+        {
+          "id": "ext-writing-b2-001:transform-008",
+          "pattern": "두 형용사 비교 → double comparative",
+          "example": { "input": "You practice more. You become better.", "output": "The more you practice, the better you become." },
+          "input": "You work harder. You earn more money.",
+          "correctOutput": "The harder you work, the more money you earn.",
+          "alternates": [],
+          "grammar": "이중 비교급"
+        }
+      ]
+    },
+    "errorCorrection": {
+      "description": "오류수정 - 고급 문법 오류",
+      "descriptionKo": "틀린 부분을 찾아 올바르게 고치세요",
+      "items": [
+        {
+          "id": "ext-writing-b2-001:error-001",
+          "wrong": "Having been finish the work, he left.",
+          "correct": "Having finished the work, he left.",
+          "errorType": "participle",
+          "explanation": "완료 분사구문은 Having + 과거분사 형태예요.",
+          "explanationKo": "Having + 과거분사 (finished)"
+        },
+        {
+          "id": "ext-writing-b2-001:error-002",
+          "wrong": "Had I known earlier, I told you.",
+          "correct": "Had I known earlier, I would have told you.",
+          "errorType": "conditional",
+          "explanation": "가정법 과거완료 주절에는 would have + 과거분사가 필요해요.",
+          "explanationKo": "Had + 과거분사, would have + 과거분사"
+        },
+        {
+          "id": "ext-writing-b2-001:error-003",
+          "wrong": "Not only she is smart but also kind.",
+          "correct": "Not only is she smart but also kind.",
+          "errorType": "inversion",
+          "explanation": "Not only 뒤에는 도치가 필요해요.",
+          "explanationKo": "Not only + 동사 + 주어"
+        },
+        {
+          "id": "ext-writing-b2-001:error-004",
+          "wrong": "The more you study, more you learn.",
+          "correct": "The more you study, the more you learn.",
+          "errorType": "double_comparative",
+          "explanation": "이중 비교급에서 두 번째 절에도 the가 필요해요.",
+          "explanationKo": "The + 비교급, the + 비교급"
+        },
+        {
+          "id": "ext-writing-b2-001:error-005",
+          "wrong": "Despite of the rain, we went out.",
+          "correct": "Despite the rain, we went out.",
+          "errorType": "preposition",
+          "explanation": "despite 뒤에는 of가 오지 않아요.",
+          "explanationKo": "Despite + 명사 (of 없음)"
+        },
+        {
+          "id": "ext-writing-b2-001:error-006",
+          "wrong": "Never I have seen such a beautiful place.",
+          "correct": "Never have I seen such a beautiful place.",
+          "errorType": "inversion",
+          "explanation": "부정어가 문두에 오면 도치가 필요해요.",
+          "explanationKo": "Never + 조동사 + 주어"
+        },
+        {
+          "id": "ext-writing-b2-001:error-007",
+          "wrong": "It was so a difficult exam that many failed.",
+          "correct": "It was such a difficult exam that many failed.",
+          "errorType": "so_such",
+          "explanation": "관사가 있으면 such를 써요 (so + 형용사 + a + 명사 ❌).",
+          "explanationKo": "such + a + 형용사 + 명사"
+        },
+        {
+          "id": "ext-writing-b2-001:error-008",
+          "wrong": "The man stood there is my father.",
+          "correct": "The man standing there is my father.",
+          "errorType": "participle",
+          "explanation": "현재분사(-ing)로 진행 중인 동작을 표현해요.",
+          "explanationKo": "현재분사 수식: standing (서 있는)"
+        },
+        {
+          "id": "ext-writing-b2-001:error-009",
+          "wrong": "Should you will need help, call me.",
+          "correct": "Should you need help, call me.",
+          "errorType": "conditional",
+          "explanation": "도치된 조건문에서 will은 쓰지 않아요.",
+          "explanationKo": "Should + 주어 + 동사원형"
+        },
+        {
+          "id": "ext-writing-b2-001:error-010",
+          "wrong": "No sooner had he arrived when it started to rain.",
+          "correct": "No sooner had he arrived than it started to rain.",
+          "errorType": "correlative",
+          "explanation": "No sooner...는 than과 함께 써요.",
+          "explanationKo": "No sooner... than (when ❌)"
+        }
+      ]
+    },
+    "slotFilling": {
+      "description": "빈칸채우기 - 고급 문법",
+      "descriptionKo": "빈칸에 알맞은 단어를 고르세요",
+      "items": [
+        {
+          "id": "ext-writing-b2-001:slot-001",
+          "sentence": "___ finished the project, she went on vacation.",
+          "options": ["Having", "Being", "Have"],
+          "correct": "Having",
+          "grammar": "perfect_participle"
+        },
+        {
+          "id": "ext-writing-b2-001:slot-002",
+          "sentence": "___ I known the truth, I would have acted differently.",
+          "options": ["Had", "Have", "If"],
+          "correct": "Had",
+          "grammar": "inverted_conditional"
+        },
+        {
+          "id": "ext-writing-b2-001:slot-003",
+          "sentence": "Not only ___ she smart, but she is also hardworking.",
+          "options": ["is", "was", "does"],
+          "correct": "is",
+          "grammar": "inversion"
+        },
+        {
+          "id": "ext-writing-b2-001:slot-004",
+          "sentence": "The more you practice, ___ better you become.",
+          "options": ["the", "a", "more"],
+          "correct": "the",
+          "grammar": "double_comparative"
+        },
+        {
+          "id": "ext-writing-b2-001:slot-005",
+          "sentence": "___ being tired, she continued to work.",
+          "options": ["Despite", "Although", "However"],
+          "correct": "Despite",
+          "grammar": "concession"
+        },
+        {
+          "id": "ext-writing-b2-001:slot-006",
+          "sentence": "Seldom ___ I seen such beautiful scenery.",
+          "options": ["have", "has", "had"],
+          "correct": "have",
+          "grammar": "inversion"
+        },
+        {
+          "id": "ext-writing-b2-001:slot-007",
+          "sentence": "It was ___ a boring movie that I fell asleep.",
+          "options": ["so", "such", "very"],
+          "correct": "such",
+          "grammar": "such_that"
+        },
+        {
+          "id": "ext-writing-b2-001:slot-008",
+          "sentence": "No sooner had we arrived ___ it started to rain.",
+          "options": ["than", "when", "that"],
+          "correct": "than",
+          "grammar": "no_sooner"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "sentenceAssembly": 8,
+    "patternTransform": 8,
+    "errorCorrection": 10,
+    "slotFilling": 8,
+    "total": 34
+  }
+}
