@@ -1,200 +1,117 @@
-# WhatTodo 프로젝트 컨텍스트
+# WhatTodo AI 협업 가이드
 
-> 이 문서는 AI 어시스턴트가 프로젝트를 이해하기 위한 핵심 정보입니다.
-> 매 세션 시작 시 이 문서를 읽어주세요.
-
-**최종 업데이트**: 2026-01-01
+> Todo + 영어학습 + 일기 통합 앱 (Expo/React Native, TypeScript, Zustand)
 
 ---
 
-## 프로젝트 개요
+## 핵심 원칙
 
-**앱 이름**: WhatTodo
-**목적**: Todo 관리 + 영어 학습 + 일기 통합 앱
-**핵심 메커니즘**: 할 일 완료 → 별 획득 → 영어 학습 잠금 해제
-**타겟**: 영어 학습이 필요한 한국인 (직장인, 학생)
-**특징**: 완전 오프라인 (AsyncStorage 기반)
+1. **한 번에 하나** - 동시 작업 금지, 완료 후 다음
+2. **계획 먼저** - TodoWrite로 분해 후 시작
+3. **안전 우선** - 테스트 통과 → 커밋
+4. **모르면 질문** - 추측 금지, 확인 요청
+5. **최소 변경** - 요청한 것만, 과잉 리팩터링 금지
 
 ---
 
-## 기술 스택
+## 절대 금지
 
-```json
-{
-  "expo": "~51.0.0",
-  "react-native": "0.74.5",
-  "react": "18.2.0",
-  "typescript": "~5.9.2",
-  "zustand": "^5.0.9",
-  "react-native-reanimated": "~3.10.1",
-  "react-native-paper": "^5.14.5",
-  "expo-router": "~3.5.24"
-}
+- `.env` 파일 수정
+- 테스트 없이 커밋
+- 다중 작업 동시 진행
+- 사용자 확인 없이 삭제
+- 요청 없는 구조 변경
+
+---
+
+## 작업 패턴
+
+### 기능 추가
+```
+1. TodoWrite로 단계 분해
+2. 한 단계씩 구현 + 완료 체크
+3. typecheck 통과 확인
+→ 결과: 변경 파일 + 다음 단계
 ```
 
-**주의**: SDK 54 업그레이드 예정 (moti → Reanimated 마이그레이션 필요)
-
----
-
-## 현재 진행 상황
-
-**현재 Phase**: 코드 품질 정리 완료 → 사용자 테스트 단계
-**마지막 업데이트**: 2026-01-01
-
-### 완료된 작업
-- [x] Phase 1: Day 유틸리티 레이어 (types/day.ts, utils/day.ts)
-- [x] Phase 2: Day Page 구현 (components/day/*)
-- [x] Phase 3: Home Screen 개편 (components/home/*)
-- [x] 백업/복원 시스템
-- [x] 학습 통계 대시보드
-- [x] 온보딩 플로우
-- [x] 51개 테스트 (모두 통과)
-- [x] 탭 구조 변경 (4탭 → 5탭: 오늘|캘린더|학습|기록|설정)
-- [x] 레슨 기반 학습 구조 Step 1-4 완료
-- [x] ESLint 경고 97 → 0 전면 정리
-- [x] Store 에러 처리 강화
-- [x] 성능 최적화 (useMemo, 상수 추출)
-
-### 진행 중
-- [ ] 사용자 테스트
-- [ ] 배포 준비
-
-### 다음 할 일
-1. 실제 기기 테스트
-2. 핵심 플로우 검증 (온보딩 → Todo → 학습 → 백업)
-3. 버그 확인 및 수정
-4. 배포 (스크린샷, 앱 설명, 빌드)
-
----
-
-## 프로젝트 구조
-
+### 버그 수정
 ```
-whatTodo/
-├── app/
-│   ├── (tabs)/
-│   │   ├── _layout.tsx    # 탭 레이아웃 (수정 중)
-│   │   ├── index.tsx      # 오늘 탭
-│   │   ├── calendar.tsx   # 캘린더 탭 (신규)
-│   │   ├── learn.tsx      # 학습 탭
-│   │   ├── records.tsx    # 기록 탭 (신규)
-│   │   └── settings.tsx   # 설정 탭
-│   ├── day/[date].tsx     # Day 상세
-│   ├── diary/[date].tsx   # 일기
-│   ├── learn/[type].tsx   # 학습 활동
-│   └── ...
-├── components/
-│   ├── day/               # Day 관련 컴포넌트
-│   ├── home/              # 홈 화면 컴포넌트
-│   ├── learn/             # 학습 컴포넌트
-│   ├── calendar/          # 캘린더 컴포넌트
-│   └── ...
-├── store/
-│   ├── taskStore.ts       # Todo 관리
-│   ├── learnStore.ts      # 학습 진행률
-│   ├── srsStore.ts        # SRS 복습
-│   ├── diaryStore.ts      # 일기
-│   ├── rewardStore.ts     # 보상 시스템
-│   └── ...
-├── data/activities/       # 학습 콘텐츠 (288개)
-├── types/                 # TypeScript 타입
-├── utils/                 # 유틸리티 함수
-├── constants/             # 상수 (colors, sizes)
-└── docs/                  # 문서
+1. 원인 가설 3개 제시
+2. 가장 빠른 검증부터
+3. 수정 후 테스트
+→ 결과: 원인 + 수정 내용
+```
+
+### 콘텐츠 추가
+```
+1. JSON 스키마 확인
+2. 파일 생성 + 인덱스 업데이트
+3. 유효성 검증
+→ 결과: 아이템 수 + stats
 ```
 
 ---
 
-## 핵심 Store (10개)
+## 자동 검증 (매 작업 후)
 
-| Store | 목적 | 주요 기능 |
-|-------|------|----------|
-| taskStore | Todo 관리 | 추가/수정/삭제/완료 |
-| learnStore | 학습 진행률 | 주차별 진행, 스트릭 |
-| lessonStore | 레슨 진행 | 레슨 기반 진행률 (NEW) |
-| testStore | 레벨 테스트 | 테스트 결과 저장 (NEW) |
-| srsStore | SRS 복습 | SM-2 알고리즘, 복습 스케줄 |
-| diaryStore | 일기 | 감정 기록, 텍스트 |
-| rewardStore | 보상 | 별 획득, 배지 |
-| journalStore | 학습 저널 | 학습 활동 로그 |
-| userStore | 사용자 설정 | 레벨, 선호도 |
-| streakStore | 연속 학습 | 스트릭 관리 |
+```bash
+npx tsc --noEmit   # 필수
+npm run lint       # 필수
+npm test           # 코드 변경 시
+```
+
+**실패 시**: 수정 후 재검증, 커밋 금지
 
 ---
 
-## 학습 콘텐츠 구조
+## 출력 형식
 
-```
-data/
-├── activities/           # 레거시 Week 기반 (288개)
-│   ├── a1/ ~ c2/        # 레벨별 (각 48개)
-│   │   ├── vocabulary/week-1-vocabulary.json ~ week-8
-│   │   ├── grammar/...
-│   │   ├── listening/...
-│   │   ├── reading/...
-│   │   ├── speaking/...
-│   │   └── writing/...
-└── lessons/             # 레슨 기반 매핑 (NEW)
-    └── a1/              # A1 레슨 (완료)
-        ├── unit-1/
-        │   ├── lesson-1.json
-        │   ├── lesson-2.json
-        │   └── lesson-3.json
-        └── ...
-```
-
-**총 288개 활동** (6레벨 × 8주 × 6영역) - 레거시 유지
-**레슨 매핑**: A1 완료 (4유닛 × 3레슨 = 12개)
+작업 완료 시 항상:
+- **변경**: `path/file.tsx` (+N, -M)
+- **검증**: typecheck ✅ lint ✅
+- **다음**: (있으면)
 
 ---
 
-## 주의사항
+## 불확실할 때
 
-1. **moti 라이브러리**: SDK 54 업그레이드 시 제거 예정
-   - 영향 파일: StarDisplay, StreakRing, EmptyState, Toast, LoadingSpinner
-
-2. **runOnJS**: Reanimated 4에서 scheduleOnRN으로 변경
-   - 영향 파일: SwipeableRow.tsx
-
-3. **8주 구조**: 레슨 구조로 전환 시 마이그레이션 필요
+→ **실행하지 말고 질문하라**
+→ **가정하지 말고 확인하라**
 
 ---
 
 ## 명령어
 
-```bash
-# 개발 서버
-npm start
+| 명령 | 용도 |
+|------|------|
+| `npm start` | 개발 서버 |
+| `npm run typecheck` | 타입 체크 |
+| `npm run lint` | ESLint |
+| `npm test` | 테스트 (51개) |
+| `eas build --profile preview --platform android` | Android 빌드 |
 
-# 타입 체크
-npm run typecheck
+---
 
-# 린트
-npm run lint
+## 프로젝트 구조 요약
 
-# 테스트
-npm test
-
-# 빌드
-eas build --profile development --platform android
+```
+app/           # 화면 (Expo Router)
+components/    # UI 컴포넌트
+store/         # Zustand 스토어 (10개)
+services/      # 비즈니스 로직
+data/          # 학습 콘텐츠 (288개+)
+types/         # TypeScript 타입
+utils/         # 유틸리티
 ```
 
 ---
 
-## 관련 문서
+## 참조
 
-- `docs/CURRENT_STATE.md` - 상세 현황
-- `docs/CHANGELOG.md` - 변경 이력
+- `.claude/state.json` - 현재 상태
 - `docs/DECISIONS.md` - 기술 결정
-- `docs/PRE_LAUNCH_CHECKLIST.md` - 체크리스트
-- `.claude/state.json` - 세션 상태
+- `docs/CHANGELOG.md` - 변경 이력
 
 ---
 
-## 작업 규칙
-
-1. **한 번에 하나의 작업만** 진행
-2. **각 작업 후 typecheck/lint 실행**
-3. **변경사항은 CHANGELOG.md에 기록**
-4. **중요 결정은 DECISIONS.md에 기록**
-5. **state.json 항상 최신 유지**
+**최종 업데이트**: 2026-01-02
