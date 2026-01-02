@@ -116,13 +116,40 @@ export async function unloadAllSounds(): Promise<void> {
 // Using try-catch pattern for optional sound files
 // ==========================================
 
-// Sound files are currently not included in the project
-// This function returns null to allow builds to succeed
-// To enable sounds, add mp3 files to assets/sounds/ and update this function
-function getSoundSource(_filename: string): AVPlaybackSource | null {
-  // Sound files not available - graceful degradation
-  // No require() calls to avoid webpack build errors
-  return null;
+// Sound file mapping
+// All sounds are CC0 licensed from OpenGameArt.org
+/* eslint-disable @typescript-eslint/no-require-imports */
+const SOUND_FILES: Record<string, AVPlaybackSource> = {
+  // Learn sounds
+  correct: require('@/assets/sounds/correct.wav'),
+  wrong: require('@/assets/sounds/wrong.ogg'),
+  'card-flip': require('@/assets/sounds/card-flip.wav'),
+  'level-up': require('@/assets/sounds/level-up.ogg'),
+  achievement: require('@/assets/sounds/achievement.wav'),
+
+  // Game sounds (2048)
+  'tile-move': require('@/assets/sounds/tile-move.wav'),
+  'tile-merge': require('@/assets/sounds/tile-merge.wav'),
+  'high-merge': require('@/assets/sounds/high-merge.ogg'),
+  win: require('@/assets/sounds/win.wav'),
+  'game-over': require('@/assets/sounds/game-over.wav'),
+
+  // Todo sounds
+  'task-complete': require('@/assets/sounds/task-complete.ogg'),
+  delete: require('@/assets/sounds/delete.ogg'),
+
+  // UI sounds
+  tap: require('@/assets/sounds/tap.wav'),
+  notification: require('@/assets/sounds/notification.ogg'),
+};
+/* eslint-enable @typescript-eslint/no-require-imports */
+
+/**
+ * Get sound source by filename
+ * Returns null if sound doesn't exist (graceful degradation)
+ */
+function getSoundSource(filename: string): AVPlaybackSource | null {
+  return SOUND_FILES[filename] || null;
 }
 
 // ==========================================
