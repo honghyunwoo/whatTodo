@@ -1,0 +1,242 @@
+{
+  "level": "B2",
+  "version": "1.0",
+  "description": "CEFR B2 핵심 문법 - 복합 시제, 가정법 과거완료, 분사구문",
+  "grammarPoints": [
+    {
+      "id": "gram-b2-001",
+      "name": "past_perfect",
+      "nameKo": "과거완료",
+      "priority": 1,
+      "explanation": "Use past perfect for an action that happened before another past action.",
+      "explanationKo": "과거의 다른 행동보다 먼저 일어난 행동을 표현할 때 과거완료를 사용해요.",
+      "forms": {
+        "positive": "had + past participle",
+        "negative": "hadn't + past participle",
+        "question": "Had + subject + past participle?"
+      },
+      "examples": [
+        { "en": "When I arrived, she had already left.", "ko": "내가 도착했을 때 그녀는 이미 떠났었어요." },
+        { "en": "I had never seen that before.", "ko": "그것을 전에 본 적이 없었어요." },
+        { "en": "Had you finished before the deadline?", "ko": "마감 전에 끝냈었어요?" },
+        { "en": "They realized they had made a mistake.", "ko": "그들은 실수했었다는 것을 깨달았어요." }
+      ],
+      "koreanTip": "'~했었다'에 해당해요. 과거보다 더 이전의 과거를 표현해요.",
+      "commonErrors": [
+        { "wrong": "When I arrived, she already left.", "correct": "When I arrived, she had already left.", "reason": "더 먼 과거에는 과거완료" },
+        { "wrong": "I had never saw that.", "correct": "I had never seen that.", "reason": "had + 과거분사" }
+      ]
+    },
+    {
+      "id": "gram-b2-002",
+      "name": "third_conditional",
+      "nameKo": "조건문 3형 (가정법 과거완료)",
+      "priority": 1,
+      "explanation": "Use third conditional for unreal situations in the past.",
+      "explanationKo": "과거에 실제로 일어나지 않은 상황을 가정할 때 사용해요.",
+      "forms": {
+        "structure": "If + past perfect, would have + past participle"
+      },
+      "examples": [
+        { "en": "If I had known, I would have helped.", "ko": "알았더라면 도왔을 거예요." },
+        { "en": "She would have passed if she had studied.", "ko": "공부했더라면 합격했을 거예요." },
+        { "en": "If they had left earlier, they wouldn't have missed the train.", "ko": "일찍 떠났더라면 기차를 놓치지 않았을 거예요." },
+        { "en": "What would you have done if you had won?", "ko": "이겼더라면 뭐 했을 거예요?" }
+      ],
+      "koreanTip": "'~했더라면 ~했을 텐데'에 해당해요. 과거 사실과 반대되는 가정이에요.",
+      "commonErrors": [
+        { "wrong": "If I would have known.", "correct": "If I had known.", "reason": "if절에는 would 안 씀" },
+        { "wrong": "I would helped.", "correct": "I would have helped.", "reason": "would have + 과거분사" }
+      ]
+    },
+    {
+      "id": "gram-b2-003",
+      "name": "wish_clauses",
+      "nameKo": "wish 구문",
+      "priority": 1,
+      "explanation": "Use wish to express regrets and desires for different situations.",
+      "explanationKo": "후회나 다른 상황에 대한 바람을 표현할 때 wish를 사용해요.",
+      "forms": {
+        "present": "I wish + past simple (unreal present)",
+        "past": "I wish + past perfect (unreal past)",
+        "future": "I wish + would + verb (wishes for change)"
+      },
+      "examples": [
+        { "en": "I wish I had more time.", "ko": "시간이 더 있으면 좋겠어요." },
+        { "en": "I wish I had studied harder.", "ko": "더 열심히 공부했으면 좋았을 텐데." },
+        { "en": "I wish you would stop talking.", "ko": "말 좀 그만했으면 좋겠어요." },
+        { "en": "She wishes she were taller.", "ko": "그녀는 키가 더 컸으면 좋겠대요." }
+      ],
+      "koreanTip": "현재 상황에 대한 아쉬움은 과거형, 과거에 대한 후회는 과거완료형을 써요.",
+      "commonErrors": [
+        { "wrong": "I wish I have more time.", "correct": "I wish I had more time.", "reason": "비현실 현재는 과거형" },
+        { "wrong": "I wish I was taller.", "correct": "I wish I were taller.", "reason": "가정법에서는 were 사용" }
+      ]
+    },
+    {
+      "id": "gram-b2-004",
+      "name": "participle_clauses",
+      "nameKo": "분사구문",
+      "priority": 1,
+      "explanation": "Use participle clauses to combine sentences and add information.",
+      "explanationKo": "문장을 결합하고 정보를 추가할 때 분사구문을 사용해요.",
+      "forms": {
+        "present": "-ing clause (active meaning)",
+        "past": "-ed clause (passive meaning)",
+        "perfect": "Having + past participle (earlier action)"
+      },
+      "examples": [
+        { "en": "Walking home, I saw an accident.", "ko": "집에 걸어가다가 사고를 봤어요." },
+        { "en": "Written in 1920, the book is still relevant.", "ko": "1920년에 쓰인 그 책은 여전히 적절해요." },
+        { "en": "Having finished work, I went home.", "ko": "일을 끝내고 집에 갔어요." },
+        { "en": "Knowing the answer, she raised her hand.", "ko": "답을 알고서 그녀는 손을 들었어요." }
+      ],
+      "koreanTip": "주어가 같을 때 사용해요. ~하면서, ~해서, ~한 채로 등의 의미예요.",
+      "commonErrors": [
+        { "wrong": "Walking home, the rain started.", "correct": "Walking home, I got caught in the rain.", "reason": "주어 일치 필요" },
+        { "wrong": "Seeing the movie, it was boring.", "correct": "Seeing the movie, I was bored.", "reason": "주어 일치 필요" }
+      ]
+    },
+    {
+      "id": "gram-b2-005",
+      "name": "modals_deduction",
+      "nameKo": "추측 표현 (must, can't, might)",
+      "priority": 2,
+      "explanation": "Use modals for making deductions about present and past.",
+      "explanationKo": "현재와 과거에 대한 추측을 할 때 조동사를 사용해요.",
+      "forms": {
+        "present_certain": "must be / can't be",
+        "present_possible": "might be / could be",
+        "past_certain": "must have + past participle",
+        "past_possible": "might have / could have + past participle"
+      },
+      "examples": [
+        { "en": "She must be tired.", "ko": "그녀는 피곤한 게 틀림없어요." },
+        { "en": "He can't be at home.", "ko": "그가 집에 있을 리가 없어요." },
+        { "en": "They must have forgotten.", "ko": "그들이 잊어버렸음에 틀림없어요." },
+        { "en": "It might have been a mistake.", "ko": "실수였을 수도 있어요." }
+      ],
+      "koreanTip": "must는 강한 추측(~임에 틀림없다), can't는 불가능(~일 리 없다), might는 가능성(~일 수도).",
+      "commonErrors": [
+        { "wrong": "She must to be tired.", "correct": "She must be tired.", "reason": "must 뒤에는 to 없음" },
+        { "wrong": "He must have forgot.", "correct": "He must have forgotten.", "reason": "have + 과거분사" }
+      ]
+    },
+    {
+      "id": "gram-b2-006",
+      "name": "causative",
+      "nameKo": "사역동사 구문",
+      "priority": 2,
+      "explanation": "Use causatives when someone else does something for you.",
+      "explanationKo": "다른 사람이 나를 위해 무언가를 할 때 사역 구문을 사용해요.",
+      "forms": {
+        "have": "have + object + past participle (arrange for service)",
+        "get": "get + object + past participle (similar to have)",
+        "make": "make + object + verb (force)",
+        "let": "let + object + verb (allow)"
+      },
+      "examples": [
+        { "en": "I had my car repaired.", "ko": "차를 수리받았어요." },
+        { "en": "She got her hair cut.", "ko": "그녀는 머리를 잘랐어요 (미용실에서)." },
+        { "en": "The teacher made us repeat.", "ko": "선생님이 우리를 반복하게 했어요." },
+        { "en": "My parents let me go out.", "ko": "부모님이 나가게 해주셨어요." }
+      ],
+      "koreanTip": "have/get something done은 '~를 해 받다', make는 '~하게 하다', let은 '~하게 허락하다'.",
+      "commonErrors": [
+        { "wrong": "I had my car repair.", "correct": "I had my car repaired.", "reason": "과거분사 필요" },
+        { "wrong": "She made me to do it.", "correct": "She made me do it.", "reason": "make 뒤에는 to 없음" }
+      ]
+    },
+    {
+      "id": "gram-b2-007",
+      "name": "inversion",
+      "nameKo": "도치 구문",
+      "priority": 2,
+      "explanation": "Use inversion for emphasis or in formal contexts.",
+      "explanationKo": "강조하거나 격식체에서 도치 구문을 사용해요.",
+      "forms": {
+        "negative_adverbs": "Never/Rarely/Seldom + auxiliary + subject + verb",
+        "conditional": "Had I known... / Were I to..."
+      },
+      "examples": [
+        { "en": "Never have I seen such a thing.", "ko": "그런 것은 본 적이 없어요." },
+        { "en": "Rarely do we get such opportunities.", "ko": "그런 기회는 거의 없어요." },
+        { "en": "Had I known, I would have helped.", "ko": "알았더라면 도왔을 텐데." },
+        { "en": "Were she to ask, I would agree.", "ko": "그녀가 요청한다면 동의할 거예요." }
+      ],
+      "koreanTip": "부정어가 문두에 오면 주어와 동사가 도치돼요. 격식체에서 많이 사용해요.",
+      "commonErrors": [
+        { "wrong": "Never I have seen.", "correct": "Never have I seen.", "reason": "부정어 + 조동사 + 주어 + 동사" },
+        { "wrong": "Rarely we see.", "correct": "Rarely do we see.", "reason": "조동사 필요" }
+      ]
+    },
+    {
+      "id": "gram-b2-008",
+      "name": "mixed_conditionals",
+      "nameKo": "혼합 조건문",
+      "priority": 2,
+      "explanation": "Use mixed conditionals when time in if-clause differs from main clause.",
+      "explanationKo": "if절의 시점과 주절의 시점이 다를 때 혼합 조건문을 사용해요.",
+      "forms": {
+        "past_present": "If + past perfect, would + verb (past condition, present result)",
+        "present_past": "If + past simple, would have + past participle"
+      },
+      "examples": [
+        { "en": "If I had studied medicine, I would be a doctor now.", "ko": "의학을 공부했더라면 지금 의사일 텐데." },
+        { "en": "If she were more careful, she wouldn't have made that mistake.", "ko": "그녀가 더 조심했더라면 그 실수를 안 했을 텐데." },
+        { "en": "If I hadn't met her, my life would be different.", "ko": "그녀를 만나지 않았더라면 내 인생이 달랐을 거예요." },
+        { "en": "If he were smarter, he would have passed.", "ko": "그가 더 똑똑했다면 합격했을 텐데." }
+      ],
+      "koreanTip": "과거 원인 → 현재 결과, 또는 현재 조건 → 과거 결과를 표현해요.",
+      "commonErrors": [
+        { "wrong": "If I studied, I would be doctor.", "correct": "If I had studied, I would be a doctor.", "reason": "과거 조건은 과거완료" },
+        { "wrong": "If I were you, I would helped.", "correct": "If I were you, I would have helped.", "reason": "would have + 과거분사" }
+      ]
+    },
+    {
+      "id": "gram-b2-009",
+      "name": "cleft_sentences",
+      "nameKo": "분열문 (강조 구문)",
+      "priority": 3,
+      "explanation": "Use cleft sentences to emphasize specific information.",
+      "explanationKo": "특정 정보를 강조할 때 분열문을 사용해요.",
+      "forms": {
+        "it_cleft": "It is/was + emphasized element + that/who...",
+        "what_cleft": "What + clause + is/was + emphasized element"
+      },
+      "examples": [
+        { "en": "It was John who called you.", "ko": "너에게 전화한 건 John이었어." },
+        { "en": "What I need is more time.", "ko": "내가 필요한 건 더 많은 시간이에요." },
+        { "en": "It's the price that bothers me.", "ko": "나를 신경 쓰이게 하는 건 가격이에요." },
+        { "en": "What she said was surprising.", "ko": "그녀가 말한 것은 놀라웠어요." }
+      ],
+      "koreanTip": "'바로 ~가 ~한 것이다'로 해석해요. 강조하고 싶은 부분이 앞에 와요.",
+      "commonErrors": [
+        { "wrong": "It was John which called.", "correct": "It was John who called.", "reason": "사람은 who" },
+        { "wrong": "What I need are time.", "correct": "What I need is time.", "reason": "단수 취급" }
+      ]
+    },
+    {
+      "id": "gram-b2-010",
+      "name": "subjunctive",
+      "nameKo": "가정법 현재 (동사원형)",
+      "priority": 3,
+      "explanation": "Use subjunctive after verbs of suggestion, demand, recommendation.",
+      "explanationKo": "제안, 요구, 권고 동사 뒤에 가정법 현재(동사원형)를 사용해요.",
+      "forms": {
+        "structure": "verb (suggest/recommend/demand) + that + subject + verb (base form)"
+      },
+      "examples": [
+        { "en": "I suggest that he leave now.", "ko": "그가 지금 떠나길 제안해요." },
+        { "en": "She recommended that we be careful.", "ko": "그녀는 우리가 조심하길 권했어요." },
+        { "en": "They demanded that he resign.", "ko": "그들은 그가 사임할 것을 요구했어요." },
+        { "en": "It's important that she attend.", "ko": "그녀가 참석하는 것이 중요해요." }
+      ],
+      "koreanTip": "that절에서 주어와 상관없이 동사원형을 써요. 매우 격식체 표현이에요.",
+      "commonErrors": [
+        { "wrong": "I suggest that he leaves.", "correct": "I suggest that he leave.", "reason": "가정법은 동사원형" },
+        { "wrong": "She insisted that he was there.", "correct": "She insisted that he be there.", "reason": "insist (요구)는 동사원형" }
+      ]
+    }
+  ]
+}

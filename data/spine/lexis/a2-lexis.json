@@ -1,0 +1,155 @@
+{
+  "level": "A2",
+  "version": "1.0",
+  "description": "CEFR A2 어휘 덩어리 - 일상 상황 확장",
+  "chunks": [
+    {
+      "id": "lex-a2-001",
+      "category": "describing_people",
+      "categoryKo": "사람 묘사",
+      "items": [
+        { "en": "in his/her 20s/30s", "ko": "20대/30대에", "example": "She's in her 30s." },
+        { "en": "look like", "ko": "~처럼 보이다", "example": "You look like your mother." },
+        { "en": "have a good sense of humor", "ko": "유머 감각이 좋다", "example": "He has a good sense of humor." },
+        { "en": "be good at", "ko": "~을 잘하다", "example": "She's good at cooking." },
+        { "en": "get along with", "ko": "~와 잘 지내다", "example": "I get along with my coworkers." },
+        { "en": "be interested in", "ko": "~에 관심이 있다", "example": "I'm interested in history." }
+      ]
+    },
+    {
+      "id": "lex-a2-002",
+      "category": "health_body",
+      "categoryKo": "건강과 몸",
+      "items": [
+        { "en": "have a headache/stomachache", "ko": "두통/복통이 있다", "example": "I have a terrible headache." },
+        { "en": "feel sick", "ko": "아프다", "example": "I feel sick. I need to rest." },
+        { "en": "catch a cold", "ko": "감기에 걸리다", "example": "I caught a cold last week." },
+        { "en": "get better", "ko": "좋아지다", "example": "I hope you get better soon." },
+        { "en": "take medicine", "ko": "약을 먹다", "example": "Did you take your medicine?" },
+        { "en": "stay in bed", "ko": "침대에 누워 있다", "example": "The doctor said to stay in bed." }
+      ]
+    },
+    {
+      "id": "lex-a2-003",
+      "category": "travel_transport",
+      "categoryKo": "여행과 교통",
+      "items": [
+        { "en": "get on/off (a bus/train)", "ko": "타다/내리다", "example": "Get off at the next stop." },
+        { "en": "take a taxi/bus", "ko": "택시/버스를 타다", "example": "Let's take a taxi." },
+        { "en": "book a ticket", "ko": "표를 예약하다", "example": "I booked a ticket online." },
+        { "en": "check in/out", "ko": "체크인/체크아웃하다", "example": "What time is check-in?" },
+        { "en": "miss the train", "ko": "기차를 놓치다", "example": "I missed the train by 2 minutes." },
+        { "en": "on time", "ko": "제시간에", "example": "The flight arrived on time." }
+      ]
+    },
+    {
+      "id": "lex-a2-004",
+      "category": "work_study",
+      "categoryKo": "일과 공부",
+      "items": [
+        { "en": "work from home", "ko": "재택근무하다", "example": "I work from home on Fridays." },
+        { "en": "look for a job", "ko": "일자리를 찾다", "example": "She's looking for a job." },
+        { "en": "hand in (homework)", "ko": "제출하다", "example": "Please hand in your homework." },
+        { "en": "take an exam", "ko": "시험을 보다", "example": "I'm taking an exam tomorrow." },
+        { "en": "pass/fail an exam", "ko": "시험에 붙다/떨어지다", "example": "She passed all her exams." },
+        { "en": "be on holiday/vacation", "ko": "휴가 중이다", "example": "He's on vacation this week." }
+      ]
+    },
+    {
+      "id": "lex-a2-005",
+      "category": "opinions_reactions",
+      "categoryKo": "의견과 반응",
+      "items": [
+        { "en": "in my opinion", "ko": "내 생각에", "example": "In my opinion, it's a good idea." },
+        { "en": "I'm not sure", "ko": "잘 모르겠어", "example": "I'm not sure if I can come." },
+        { "en": "I agree/disagree", "ko": "동의해/동의 안 해", "example": "I totally agree with you." },
+        { "en": "that sounds great", "ko": "좋은 것 같다", "example": "That sounds great! Let's do it." },
+        { "en": "I can't believe it", "ko": "믿을 수 없어", "example": "I can't believe it's already June." },
+        { "en": "what a shame", "ko": "아쉽다/안됐다", "example": "What a shame you can't come." }
+      ]
+    },
+    {
+      "id": "lex-a2-006",
+      "category": "house_home",
+      "categoryKo": "집과 거주",
+      "items": [
+        { "en": "move house", "ko": "이사하다", "example": "We're moving house next month." },
+        { "en": "rent an apartment", "ko": "아파트를 빌리다", "example": "She rents an apartment downtown." },
+        { "en": "do the housework", "ko": "집안일을 하다", "example": "I do the housework on weekends." },
+        { "en": "do the laundry", "ko": "빨래하다", "example": "I need to do the laundry." },
+        { "en": "clean up", "ko": "청소하다", "example": "Can you clean up your room?" },
+        { "en": "throw away", "ko": "버리다", "example": "Throw away the old newspapers." }
+      ]
+    },
+    {
+      "id": "lex-a2-007",
+      "category": "social_activities",
+      "categoryKo": "사회 활동",
+      "items": [
+        { "en": "hang out with friends", "ko": "친구들과 어울리다", "example": "I like hanging out with friends." },
+        { "en": "go out for dinner", "ko": "외식하러 가다", "example": "Let's go out for dinner tonight." },
+        { "en": "stay in touch", "ko": "연락하며 지내다", "example": "Let's stay in touch!" },
+        { "en": "invite someone over", "ko": "누군가를 초대하다", "example": "I invited my friends over." },
+        { "en": "throw a party", "ko": "파티를 열다", "example": "She's throwing a birthday party." },
+        { "en": "have a good time", "ko": "즐거운 시간을 보내다", "example": "Did you have a good time?" }
+      ]
+    },
+    {
+      "id": "lex-a2-008",
+      "category": "technology",
+      "categoryKo": "기술",
+      "items": [
+        { "en": "turn on/off", "ko": "켜다/끄다", "example": "Turn off the TV, please." },
+        { "en": "charge the phone", "ko": "폰을 충전하다", "example": "I need to charge my phone." },
+        { "en": "download an app", "ko": "앱을 다운받다", "example": "Download this app." },
+        { "en": "send a message", "ko": "메시지를 보내다", "example": "I'll send you a message." },
+        { "en": "search online", "ko": "온라인으로 검색하다", "example": "I searched online for answers." },
+        { "en": "the internet connection", "ko": "인터넷 연결", "example": "The internet connection is slow." }
+      ]
+    }
+  ],
+  "collocations": [
+    {
+      "id": "coll-a2-001",
+      "verb": "go",
+      "combinations": [
+        { "phrase": "go shopping", "ko": "쇼핑하러 가다" },
+        { "phrase": "go swimming", "ko": "수영하러 가다" },
+        { "phrase": "go for a walk", "ko": "산책하러 가다" },
+        { "phrase": "go on holiday", "ko": "휴가를 가다" },
+        { "phrase": "go abroad", "ko": "해외에 가다" }
+      ]
+    },
+    {
+      "id": "coll-a2-002",
+      "verb": "come",
+      "combinations": [
+        { "phrase": "come back", "ko": "돌아오다" },
+        { "phrase": "come from", "ko": "~출신이다" },
+        { "phrase": "come in", "ko": "들어오다" },
+        { "phrase": "come true", "ko": "실현되다" },
+        { "phrase": "come to an end", "ko": "끝나다" }
+      ]
+    },
+    {
+      "id": "coll-a2-003",
+      "verb": "spend",
+      "combinations": [
+        { "phrase": "spend time", "ko": "시간을 보내다" },
+        { "phrase": "spend money", "ko": "돈을 쓰다" },
+        { "phrase": "spend the weekend", "ko": "주말을 보내다" },
+        { "phrase": "spend hours doing", "ko": "~하며 몇 시간을 보내다" }
+      ]
+    },
+    {
+      "id": "coll-a2-004",
+      "verb": "keep",
+      "combinations": [
+        { "phrase": "keep in touch", "ko": "연락을 유지하다" },
+        { "phrase": "keep quiet", "ko": "조용히 하다" },
+        { "phrase": "keep a secret", "ko": "비밀을 지키다" },
+        { "phrase": "keep trying", "ko": "계속 노력하다" }
+      ]
+    }
+  ]
+}

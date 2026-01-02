@@ -1,0 +1,157 @@
+{
+  "level": "C1",
+  "version": "1.0",
+  "description": "CEFR C1 기능 언어 - 유연하고 효과적인 언어 사용",
+  "functions": [
+    {
+      "id": "func-c1-001",
+      "name": "nuanced_persuasion",
+      "nameKo": "섬세한 설득",
+      "canDo": "I can use sophisticated techniques to persuade.",
+      "expressions": [
+        { "en": "It would be well worth considering...", "ko": "...를 고려해 볼 가치가 충분히 있어요.", "formality": "formal" },
+        { "en": "One cannot help but notice that...", "ko": "...를 주목하지 않을 수 없어요.", "formality": "formal" },
+        { "en": "I would venture to suggest that...", "ko": "감히 ...라고 제안드리겠습니다.", "formality": "formal" },
+        { "en": "The evidence overwhelmingly suggests...", "ko": "증거가 압도적으로 ...를 시사합니다.", "formality": "formal" },
+        { "en": "It would be short-sighted to ignore...", "ko": "...를 무시하는 것은 근시안적일 거예요.", "formality": "formal" },
+        { "en": "The merits of this approach are undeniable.", "ko": "이 접근법의 장점은 부인할 수 없습니다.", "formality": "formal" }
+      ],
+      "contexts": ["business proposals", "academic arguments", "negotiations"]
+    },
+    {
+      "id": "func-c1-002",
+      "name": "sophisticated_concession",
+      "nameKo": "세련된 양보",
+      "canDo": "I can make sophisticated concessions while maintaining my position.",
+      "expressions": [
+        { "en": "While I acknowledge that..., I would still maintain...", "ko": "...를 인정하면서도 여전히 ...를 주장하겠습니다.", "formality": "formal" },
+        { "en": "Granted, ..., nevertheless...", "ko": "물론 ..., 그럼에도 불구하고...", "formality": "formal" },
+        { "en": "Notwithstanding the fact that...", "ko": "...라는 사실에도 불구하고...", "formality": "formal" },
+        { "en": "Even allowing for..., it remains true that...", "ko": "...를 감안하더라도 ...는 여전히 사실입니다.", "formality": "formal" },
+        { "en": "Be that as it may,...", "ko": "그것이 어찌 됐든간에,...", "formality": "formal" },
+        { "en": "Admittedly, ..., but this doesn't negate...", "ko": "인정하건대, ..., 하지만 이것이 ...를 부정하지는 않습니다.", "formality": "formal" }
+      ],
+      "contexts": ["debates", "academic discourse", "negotiations"]
+    },
+    {
+      "id": "func-c1-003",
+      "name": "precise_qualification",
+      "nameKo": "정밀한 조건화",
+      "canDo": "I can qualify statements with precision.",
+      "expressions": [
+        { "en": "With certain reservations,...", "ko": "일정한 유보 조건 하에,...", "formality": "formal" },
+        { "en": "In most, though not all, cases...", "ko": "전부는 아니지만 대부분의 경우에...", "formality": "formal" },
+        { "en": "To a considerable extent,...", "ko": "상당한 정도까지,...", "formality": "formal" },
+        { "en": "Subject to verification,...", "ko": "검증을 조건으로,...", "formality": "formal" },
+        { "en": "With the possible exception of...", "ko": "...를 제외하고는 아마...", "formality": "formal" },
+        { "en": "Broadly speaking, though with caveats,...", "ko": "대체로 말해서, 단서 조항과 함께,...", "formality": "formal" }
+      ],
+      "contexts": ["academic writing", "legal contexts", "technical discussions"]
+    },
+    {
+      "id": "func-c1-004",
+      "name": "complex_hypotheticals",
+      "nameKo": "복잡한 가정",
+      "canDo": "I can discuss complex hypothetical scenarios.",
+      "expressions": [
+        { "en": "Had it not been for..., we might never have...", "ko": "...가 아니었다면 결코 ...하지 못했을 거예요.", "formality": "formal" },
+        { "en": "Were this to happen,...", "ko": "만약 이것이 일어난다면,...", "formality": "formal" },
+        { "en": "Should the situation arise,...", "ko": "상황이 발생한다면,...", "formality": "formal" },
+        { "en": "In the event of..., it would be prudent to...", "ko": "...의 경우에 ...하는 것이 현명할 거예요.", "formality": "formal" },
+        { "en": "Supposing, for the sake of argument, that...", "ko": "논쟁을 위해 ...라고 가정하면,...", "formality": "formal" },
+        { "en": "Barring unforeseen circumstances,...", "ko": "예상치 못한 상황이 없다면,...", "formality": "formal" }
+      ],
+      "contexts": ["strategic planning", "academic discussions", "legal arguments"]
+    },
+    {
+      "id": "func-c1-005",
+      "name": "expressing_criticism",
+      "nameKo": "비판 표현",
+      "canDo": "I can express criticism constructively and diplomatically.",
+      "expressions": [
+        { "en": "One might question whether...", "ko": "...인지 의문을 제기할 수 있을 거예요.", "formality": "formal" },
+        { "en": "It could be argued that this overlooks...", "ko": "이것이 ...를 간과한다고 주장할 수 있어요.", "formality": "formal" },
+        { "en": "There appears to be a fundamental flaw in...", "ko": "...에 근본적인 결함이 있는 것 같습니다.", "formality": "formal" },
+        { "en": "While commendable in intent, the execution...", "ko": "의도는 칭찬할 만하지만 실행은...", "formality": "formal" },
+        { "en": "The analysis seems somewhat superficial.", "ko": "분석이 다소 피상적인 것 같습니다.", "formality": "formal" },
+        { "en": "This raises legitimate concerns about...", "ko": "이것은 ...에 대한 정당한 우려를 제기합니다.", "formality": "formal" }
+      ],
+      "contexts": ["peer review", "feedback sessions", "critical analysis"]
+    },
+    {
+      "id": "func-c1-006",
+      "name": "articulating_implications",
+      "nameKo": "함의 표현",
+      "canDo": "I can articulate implications and consequences.",
+      "expressions": [
+        { "en": "The implications of this are far-reaching.", "ko": "이것의 함의는 광범위합니다.", "formality": "formal" },
+        { "en": "This inevitably leads to...", "ko": "이것은 필연적으로 ...로 이어집니다.", "formality": "formal" },
+        { "en": "The ramifications extend beyond...", "ko": "파급 효과는 ...를 넘어 확장됩니다.", "formality": "formal" },
+        { "en": "By extension, this suggests...", "ko": "확장하면 이것은 ...를 시사합니다.", "formality": "formal" },
+        { "en": "The knock-on effect would be...", "ko": "연쇄적인 영향은 ...일 거예요.", "formality": "neutral" },
+        { "en": "This has profound implications for...", "ko": "이것은 ...에 대한 심오한 함의를 갖습니다.", "formality": "formal" }
+      ],
+      "contexts": ["analysis", "policy discussions", "strategic thinking"]
+    },
+    {
+      "id": "func-c1-007",
+      "name": "expressing_certainty_nuanced",
+      "nameKo": "확실성의 미묘한 표현",
+      "canDo": "I can express degrees of certainty with nuance.",
+      "expressions": [
+        { "en": "It is virtually certain that...", "ko": "...라는 것은 거의 확실합니다.", "formality": "formal" },
+        { "en": "There can be little doubt that...", "ko": "...라는 것에는 거의 의심의 여지가 없습니다.", "formality": "formal" },
+        { "en": "It is conceivable, though unlikely, that...", "ko": "가능성은 낮지만 ...라고 생각할 수 있습니다.", "formality": "formal" },
+        { "en": "All the evidence points to...", "ko": "모든 증거가 ...를 가리킵니다.", "formality": "formal" },
+        { "en": "It remains to be seen whether...", "ko": "...인지는 두고 봐야 합니다.", "formality": "neutral" },
+        { "en": "The balance of probability suggests...", "ko": "확률의 균형상 ...를 시사합니다.", "formality": "formal" }
+      ],
+      "contexts": ["academic writing", "predictions", "analysis"]
+    },
+    {
+      "id": "func-c1-008",
+      "name": "synthesizing_information",
+      "nameKo": "정보 종합",
+      "canDo": "I can synthesize information from multiple sources.",
+      "expressions": [
+        { "en": "Drawing on various sources,...", "ko": "다양한 출처를 참고하면,...", "formality": "formal" },
+        { "en": "When we consider these factors collectively...", "ko": "이러한 요소들을 종합적으로 고려하면...", "formality": "formal" },
+        { "en": "The consensus among experts seems to be...", "ko": "전문가들 사이의 합의는 ...인 것 같습니다.", "formality": "formal" },
+        { "en": "Integrating these perspectives,...", "ko": "이러한 관점들을 통합하면,...", "formality": "formal" },
+        { "en": "The convergence of evidence suggests...", "ko": "증거의 수렴은 ...를 시사합니다.", "formality": "formal" },
+        { "en": "Viewed holistically,...", "ko": "전체적으로 보면,...", "formality": "formal" }
+      ],
+      "contexts": ["research", "reports", "comprehensive analysis"]
+    },
+    {
+      "id": "func-c1-009",
+      "name": "rhetorical_questions",
+      "nameKo": "수사적 질문",
+      "canDo": "I can use rhetorical questions effectively.",
+      "expressions": [
+        { "en": "Is it not the case that...?", "ko": "...가 사실이 아닌가요?", "formality": "formal" },
+        { "en": "What would be the point of...?", "ko": "...의 의미가 무엇이겠어요?", "formality": "neutral" },
+        { "en": "Can we really afford to ignore...?", "ko": "우리가 정말 ...를 무시할 여유가 있을까요?", "formality": "neutral" },
+        { "en": "Who could possibly argue that...?", "ko": "누가 ...라고 주장할 수 있겠어요?", "formality": "neutral" },
+        { "en": "How else can we explain...?", "ko": "어떻게 다르게 ...를 설명할 수 있을까요?", "formality": "neutral" },
+        { "en": "Where would that leave us?", "ko": "그러면 우리는 어떻게 되는 건가요?", "formality": "neutral" }
+      ],
+      "contexts": ["persuasion", "speeches", "presentations"]
+    },
+    {
+      "id": "func-c1-010",
+      "name": "expressing_indignation",
+      "nameKo": "분개 표현",
+      "canDo": "I can express disapproval or indignation appropriately.",
+      "expressions": [
+        { "en": "It is utterly unacceptable that...", "ko": "...라는 것은 전적으로 용납할 수 없습니다.", "formality": "formal" },
+        { "en": "I find it deplorable that...", "ko": "...라는 것이 개탄스럽습니다.", "formality": "formal" },
+        { "en": "This is nothing short of...", "ko": "이것은 ...에 다름 아닙니다.", "formality": "formal" },
+        { "en": "One has to question the integrity of...", "ko": "...의 진실성에 의문을 제기해야 합니다.", "formality": "formal" },
+        { "en": "It beggars belief that...", "ko": "...라는 것은 믿기 어렵습니다.", "formality": "formal" },
+        { "en": "This represents a fundamental betrayal of...", "ko": "이것은 ...에 대한 근본적인 배신입니다.", "formality": "formal" }
+      ],
+      "contexts": ["formal complaints", "ethical discussions", "critical commentary"]
+    }
+  ]
+}

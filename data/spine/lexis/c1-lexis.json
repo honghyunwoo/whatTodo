@@ -1,0 +1,153 @@
+{
+  "level": "C1",
+  "version": "1.0",
+  "description": "CEFR C1 어휘 덩어리 - 학술적, 전문적 표현",
+  "chunks": [
+    {
+      "id": "lex-c1-001",
+      "category": "academic_discourse",
+      "categoryKo": "학술 담론",
+      "items": [
+        { "en": "it is widely acknowledged that", "ko": "널리 인정되는 바로는", "example": "It is widely acknowledged that climate change is real." },
+        { "en": "the prevailing view is that", "ko": "지배적인 견해는 ~이다", "example": "The prevailing view is that this approach is effective." },
+        { "en": "it is worth noting that", "ko": "주목할 가치가 있는 것은", "example": "It is worth noting that the sample size was small." },
+        { "en": "this raises the question of", "ko": "이것은 ~라는 질문을 제기한다", "example": "This raises the question of ethics." },
+        { "en": "suffice it to say", "ko": "말하자면 충분하다", "example": "Suffice it to say, I was not impressed." },
+        { "en": "lend credence to", "ko": "신빙성을 더하다", "example": "This evidence lends credence to the theory." }
+      ]
+    },
+    {
+      "id": "lex-c1-002",
+      "category": "hedging_qualification",
+      "categoryKo": "완화와 조건화",
+      "items": [
+        { "en": "to a certain extent", "ko": "어느 정도까지는", "example": "This is true to a certain extent." },
+        { "en": "with certain reservations", "ko": "일정한 유보 조건 하에", "example": "I accept this with certain reservations." },
+        { "en": "broadly speaking", "ko": "대체로 말해서", "example": "Broadly speaking, the results were positive." },
+        { "en": "it could be argued that", "ko": "~라고 주장할 수 있다", "example": "It could be argued that this is flawed." },
+        { "en": "insofar as", "ko": "~하는 한", "example": "Insofar as the data allows..." },
+        { "en": "not least because", "ko": "특히 ~ 때문에", "example": "This matters, not least because..." }
+      ]
+    },
+    {
+      "id": "lex-c1-003",
+      "category": "emphasis_conviction",
+      "categoryKo": "강조와 확신",
+      "items": [
+        { "en": "it cannot be denied that", "ko": "~를 부인할 수 없다", "example": "It cannot be denied that progress has been made." },
+        { "en": "there is no denying that", "ko": "~를 부정할 수 없다", "example": "There is no denying that mistakes were made." },
+        { "en": "it stands to reason that", "ko": "~는 당연하다", "example": "It stands to reason that costs will rise." },
+        { "en": "compelling evidence suggests", "ko": "강력한 증거가 시사하기를", "example": "Compelling evidence suggests..." },
+        { "en": "first and foremost", "ko": "무엇보다도 먼저", "example": "First and foremost, we need to address..." },
+        { "en": "make no mistake", "ko": "분명히 말하자면", "example": "Make no mistake, this is serious." }
+      ]
+    },
+    {
+      "id": "lex-c1-004",
+      "category": "analysis_critique",
+      "categoryKo": "분석과 비평",
+      "items": [
+        { "en": "call something into question", "ko": "의문을 제기하다", "example": "This calls the methodology into question." },
+        { "en": "cast doubt on", "ko": "의구심을 품게 하다", "example": "New findings cast doubt on the theory." },
+        { "en": "warrant further investigation", "ko": "추가 조사가 필요하다", "example": "This warrants further investigation." },
+        { "en": "fly in the face of", "ko": "~에 정면으로 배치되다", "example": "This flies in the face of conventional wisdom." },
+        { "en": "hold water (be valid)", "ko": "타당하다", "example": "Does this argument hold water?" },
+        { "en": "stand up to scrutiny", "ko": "면밀한 검토에 견디다", "example": "Will this claim stand up to scrutiny?" }
+      ]
+    },
+    {
+      "id": "lex-c1-005",
+      "category": "implications_consequences",
+      "categoryKo": "함의와 결과",
+      "items": [
+        { "en": "have far-reaching implications", "ko": "광범위한 함의를 갖다", "example": "This decision has far-reaching implications." },
+        { "en": "the ramifications of", "ko": "~의 파급 효과", "example": "The ramifications of this are significant." },
+        { "en": "pave the way for", "ko": "길을 열다", "example": "This paves the way for future research." },
+        { "en": "set a precedent", "ko": "선례를 세우다", "example": "This ruling sets a dangerous precedent." },
+        { "en": "in the long run", "ko": "장기적으로", "example": "In the long run, this will benefit us." },
+        { "en": "trigger a chain reaction", "ko": "연쇄 반응을 일으키다", "example": "One event triggered a chain reaction." }
+      ]
+    },
+    {
+      "id": "lex-c1-006",
+      "category": "comparison_contrast",
+      "categoryKo": "비교와 대조",
+      "items": [
+        { "en": "by the same token", "ko": "같은 이유로", "example": "By the same token, we should consider..." },
+        { "en": "be tantamount to", "ko": "~에 다름없다", "example": "Silence is tantamount to approval." },
+        { "en": "draw a parallel between", "ko": "~간의 유사점을 찾다", "example": "We can draw a parallel between..." },
+        { "en": "pale in comparison to", "ko": "~에 비하면 무색하다", "example": "These problems pale in comparison to..." },
+        { "en": "set apart from", "ko": "~와 구별되게 하다", "example": "What sets this apart from others?" },
+        { "en": "on a par with", "ko": "~와 동등하다", "example": "This is on a par with the best." }
+      ]
+    },
+    {
+      "id": "lex-c1-007",
+      "category": "certainty_uncertainty",
+      "categoryKo": "확실성과 불확실성",
+      "items": [
+        { "en": "in all probability", "ko": "아마도", "example": "In all probability, they'll refuse." },
+        { "en": "there is little doubt that", "ko": "~에 거의 의심의 여지가 없다", "example": "There is little doubt that this is true." },
+        { "en": "the jury is still out on", "ko": "아직 결론이 나지 않았다", "example": "The jury is still out on this issue." },
+        { "en": "it is conceivable that", "ko": "~라고 생각할 수 있다", "example": "It is conceivable that they will agree." },
+        { "en": "by all accounts", "ko": "모든 설명에 따르면", "example": "By all accounts, the event was a success." },
+        { "en": "without exception", "ko": "예외 없이", "example": "Without exception, everyone agreed." }
+      ]
+    },
+    {
+      "id": "lex-c1-008",
+      "category": "sophistication",
+      "categoryKo": "세련된 표현",
+      "items": [
+        { "en": "be a far cry from", "ko": "~와 많이 다르다", "example": "This is a far cry from what we expected." },
+        { "en": "be at odds with", "ko": "~와 상충하다", "example": "This is at odds with previous findings." },
+        { "en": "get to grips with", "ko": "~을 제대로 이해하다", "example": "We need to get to grips with this issue." },
+        { "en": "come to the fore", "ko": "두드러지다", "example": "New issues came to the fore." },
+        { "en": "leave no stone unturned", "ko": "모든 방법을 동원하다", "example": "We'll leave no stone unturned." },
+        { "en": "turn a blind eye to", "ko": "모른 척하다", "example": "We can't turn a blind eye to this." }
+      ]
+    }
+  ],
+  "collocations": [
+    {
+      "id": "coll-c1-001",
+      "verb": "exercise",
+      "combinations": [
+        { "phrase": "exercise caution", "ko": "주의를 기울이다" },
+        { "phrase": "exercise discretion", "ko": "신중을 기하다" },
+        { "phrase": "exercise restraint", "ko": "자제하다" },
+        { "phrase": "exercise authority", "ko": "권한을 행사하다" }
+      ]
+    },
+    {
+      "id": "coll-c1-002",
+      "verb": "pose",
+      "combinations": [
+        { "phrase": "pose a threat", "ko": "위협이 되다" },
+        { "phrase": "pose a challenge", "ko": "도전이 되다" },
+        { "phrase": "pose a question", "ko": "질문을 제기하다" },
+        { "phrase": "pose a risk", "ko": "위험이 되다" }
+      ]
+    },
+    {
+      "id": "coll-c1-003",
+      "verb": "yield",
+      "combinations": [
+        { "phrase": "yield results", "ko": "결과를 내다" },
+        { "phrase": "yield benefits", "ko": "이익을 내다" },
+        { "phrase": "yield returns", "ko": "수익을 내다" },
+        { "phrase": "yield information", "ko": "정보를 제공하다" }
+      ]
+    },
+    {
+      "id": "coll-c1-004",
+      "verb": "exert",
+      "combinations": [
+        { "phrase": "exert influence", "ko": "영향력을 행사하다" },
+        { "phrase": "exert pressure", "ko": "압력을 가하다" },
+        { "phrase": "exert control", "ko": "통제를 행사하다" },
+        { "phrase": "exert effort", "ko": "노력하다" }
+      ]
+    }
+  ]
+}

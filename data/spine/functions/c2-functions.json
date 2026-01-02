@@ -1,0 +1,157 @@
+{
+  "level": "C2",
+  "version": "1.0",
+  "description": "CEFR C2 기능 언어 - 정확하고 미묘한 의미 전달",
+  "functions": [
+    {
+      "id": "func-c2-001",
+      "name": "sophisticated_irony",
+      "nameKo": "세련된 아이러니",
+      "canDo": "I can use irony and understatement effectively.",
+      "expressions": [
+        { "en": "That's hardly what one might call...", "ko": "그것은 ...라고 부르기 어렵죠.", "formality": "neutral" },
+        { "en": "One would be hard pressed to find...", "ko": "...를 찾기가 쉽지 않을 거예요.", "formality": "formal" },
+        { "en": "Not exactly a resounding success, was it?", "ko": "딱히 대단한 성공은 아니었죠, 그렇죠?", "formality": "neutral" },
+        { "en": "Heaven forbid we should actually...", "ko": "우리가 실제로 ...해서는 안 되겠죠.", "formality": "neutral" },
+        { "en": "It is, to put it mildly, somewhat problematic.", "ko": "완곡하게 말하면 다소 문제가 있습니다.", "formality": "formal" },
+        { "en": "I trust the irony is not lost on you.", "ko": "아이러니가 전달되었기를 바랍니다.", "formality": "formal" }
+      ],
+      "contexts": ["wit", "criticism", "social commentary"]
+    },
+    {
+      "id": "func-c2-002",
+      "name": "precise_distinctions",
+      "nameKo": "정밀한 구분",
+      "canDo": "I can make fine distinctions between concepts.",
+      "expressions": [
+        { "en": "There is a subtle but crucial distinction between...", "ko": "...사이에는 미묘하지만 중요한 차이가 있습니다.", "formality": "formal" },
+        { "en": "We should be careful not to conflate... with...", "ko": "...와 ...를 혼동하지 않도록 주의해야 합니다.", "formality": "formal" },
+        { "en": "Strictly speaking, this is not... but rather...", "ko": "엄밀히 말하면 이것은 ...가 아니라 ...입니다.", "formality": "formal" },
+        { "en": "The nuance here is important:", "ko": "여기서 뉘앙스가 중요합니다:", "formality": "formal" },
+        { "en": "This represents not so much... as...", "ko": "이것은 ...라기보다는 ...를 나타냅니다.", "formality": "formal" },
+        { "en": "The difference, though subtle, is significant.", "ko": "미묘하지만 그 차이는 중요합니다.", "formality": "formal" }
+      ],
+      "contexts": ["academic discourse", "legal arguments", "philosophical discussions"]
+    },
+    {
+      "id": "func-c2-003",
+      "name": "expressing_impossibility",
+      "nameKo": "불가능성 표현",
+      "canDo": "I can express impossibility in nuanced ways.",
+      "expressions": [
+        { "en": "It defies comprehension that...", "ko": "...라는 것은 이해를 초월합니다.", "formality": "formal" },
+        { "en": "It is inconceivable that...", "ko": "...라는 것은 상상조차 할 수 없습니다.", "formality": "formal" },
+        { "en": "Under no circumstances could...", "ko": "어떠한 상황에서도 ...할 수 없습니다.", "formality": "formal" },
+        { "en": "It flies in the face of all logic.", "ko": "그것은 모든 논리에 정면으로 배치됩니다.", "formality": "formal" },
+        { "en": "No amount of... could possibly...", "ko": "아무리 ...해도 ...할 수 없을 것입니다.", "formality": "formal" },
+        { "en": "It strains credulity to suggest...", "ko": "...라고 제안하는 것은 신뢰를 무리하게 합니다.", "formality": "formal" }
+      ],
+      "contexts": ["debates", "critical analysis", "strong objections"]
+    },
+    {
+      "id": "func-c2-004",
+      "name": "philosophical_reflection",
+      "nameKo": "철학적 성찰",
+      "canDo": "I can engage in philosophical and abstract reflection.",
+      "expressions": [
+        { "en": "This raises fundamental questions about...", "ko": "이것은 ...에 대한 근본적인 질문을 제기합니다.", "formality": "formal" },
+        { "en": "At the heart of this lies the question of...", "ko": "이것의 핵심에는 ...의 문제가 있습니다.", "formality": "formal" },
+        { "en": "We are confronted here with a paradox:", "ko": "여기서 우리는 역설에 직면합니다:", "formality": "formal" },
+        { "en": "The very notion of... presupposes...", "ko": "...라는 개념 자체가 ...를 전제합니다.", "formality": "formal" },
+        { "en": "What does it mean, ultimately, to...?", "ko": "궁극적으로 ...한다는 것은 무엇을 의미합니까?", "formality": "formal" },
+        { "en": "Herein lies the fundamental tension.", "ko": "여기에 근본적인 긴장이 있습니다.", "formality": "formal" }
+      ],
+      "contexts": ["philosophy", "deep discussions", "intellectual discourse"]
+    },
+    {
+      "id": "func-c2-005",
+      "name": "literary_allusion",
+      "nameKo": "문학적 인유",
+      "canDo": "I can make literary and cultural allusions.",
+      "expressions": [
+        { "en": "To paraphrase [author],...", "ko": "[작가]를 의역하자면,...", "formality": "formal" },
+        { "en": "As the saying goes,...", "ko": "격언에 따르면,...", "formality": "neutral" },
+        { "en": "This is reminiscent of...", "ko": "이것은 ...를 연상시킵니다.", "formality": "neutral" },
+        { "en": "In the spirit of [person/concept],...", "ko": "[인물/개념]의 정신으로,...", "formality": "formal" },
+        { "en": "It echoes the sentiment that...", "ko": "그것은 ...라는 감정을 반영합니다.", "formality": "formal" },
+        { "en": "Not unlike [literary reference],...", "ko": "[문학적 참조]와 다르지 않게,...", "formality": "formal" }
+      ],
+      "contexts": ["writing", "speeches", "cultured conversation"]
+    },
+    {
+      "id": "func-c2-006",
+      "name": "diplomatic_evasion",
+      "nameKo": "외교적 회피",
+      "canDo": "I can evade questions diplomatically when appropriate.",
+      "expressions": [
+        { "en": "That would be a matter for...", "ko": "그것은 ...의 문제일 것입니다.", "formality": "formal" },
+        { "en": "I wouldn't wish to speculate on...", "ko": "...에 대해 추측하고 싶지 않습니다.", "formality": "formal" },
+        { "en": "It would be premature to comment on...", "ko": "...에 대해 논평하기는 시기상조입니다.", "formality": "formal" },
+        { "en": "I'm not in a position to divulge...", "ko": "...를 밝힐 입장이 아닙니다.", "formality": "formal" },
+        { "en": "Perhaps that's a question better directed to...", "ko": "아마 그것은 ...에게 질문하는 것이 더 나을 것입니다.", "formality": "formal" },
+        { "en": "Let me just say that...", "ko": "...라고만 말하겠습니다.", "formality": "formal" }
+      ],
+      "contexts": ["press conferences", "sensitive situations", "politics"]
+    },
+    {
+      "id": "func-c2-007",
+      "name": "expressing_futility",
+      "nameKo": "허무함 표현",
+      "canDo": "I can express futility and hopelessness eloquently.",
+      "expressions": [
+        { "en": "It would be an exercise in futility to...", "ko": "...하는 것은 헛된 시도일 것입니다.", "formality": "formal" },
+        { "en": "One might as well try to...", "ko": "차라리 ...하려고 해도 마찬가지일 것입니다.", "formality": "neutral" },
+        { "en": "It's akin to rearranging deck chairs on the Titanic.", "ko": "타이타닉호에서 갑판 의자를 재배열하는 것과 같습니다.", "formality": "neutral" },
+        { "en": "The endeavor seems doomed to fail.", "ko": "그 노력은 실패할 운명인 것 같습니다.", "formality": "formal" },
+        { "en": "We are fighting a losing battle.", "ko": "우리는 지는 싸움을 하고 있습니다.", "formality": "neutral" },
+        { "en": "History suggests this is a fool's errand.", "ko": "역사는 이것이 어리석은 일임을 시사합니다.", "formality": "formal" }
+      ],
+      "contexts": ["pessimistic assessments", "reality checks", "warnings"]
+    },
+    {
+      "id": "func-c2-008",
+      "name": "eloquent_praise",
+      "nameKo": "격조 높은 칭찬",
+      "canDo": "I can praise eloquently and sincerely.",
+      "expressions": [
+        { "en": "It is a tour de force of...", "ko": "이것은 ...의 걸작입니다.", "formality": "formal" },
+        { "en": "One can only marvel at...", "ko": "...에 경탄할 수밖에 없습니다.", "formality": "formal" },
+        { "en": "It represents the pinnacle of...", "ko": "이것은 ...의 정점을 나타냅니다.", "formality": "formal" },
+        { "en": "The sheer brilliance of... is undeniable.", "ko": "...의 순수한 탁월함은 부인할 수 없습니다.", "formality": "formal" },
+        { "en": "It stands as a testament to...", "ko": "이것은 ...의 증거로 서 있습니다.", "formality": "formal" },
+        { "en": "Words scarcely do justice to...", "ko": "말로는 ...를 충분히 표현할 수 없습니다.", "formality": "formal" }
+      ],
+      "contexts": ["reviews", "awards speeches", "appreciation"]
+    },
+    {
+      "id": "func-c2-009",
+      "name": "expressing_moral_outrage",
+      "nameKo": "도덕적 분노 표현",
+      "canDo": "I can express moral outrage with appropriate gravitas.",
+      "expressions": [
+        { "en": "This constitutes a gross violation of...", "ko": "이것은 ...의 중대한 위반입니다.", "formality": "formal" },
+        { "en": "It is an affront to basic human decency.", "ko": "이것은 기본적인 인간 품위에 대한 모욕입니다.", "formality": "formal" },
+        { "en": "History will judge harshly those who...", "ko": "역사는 ...한 사람들을 가혹하게 심판할 것입니다.", "formality": "formal" },
+        { "en": "This betrays everything we stand for.", "ko": "이것은 우리가 지지하는 모든 것을 배신합니다.", "formality": "formal" },
+        { "en": "It represents a fundamental breach of trust.", "ko": "이것은 근본적인 신뢰의 위반입니다.", "formality": "formal" },
+        { "en": "Such conduct is beneath contempt.", "ko": "그러한 행동은 경멸 이하입니다.", "formality": "formal" }
+      ],
+      "contexts": ["ethical debates", "public discourse", "justice"]
+    },
+    {
+      "id": "func-c2-010",
+      "name": "meta_commentary",
+      "nameKo": "메타 논평",
+      "canDo": "I can provide meta-commentary on language and discourse.",
+      "expressions": [
+        { "en": "If I may be permitted a brief digression,...", "ko": "잠시 여담이 허락된다면,...", "formality": "formal" },
+        { "en": "At the risk of stating the obvious,...", "ko": "당연한 말을 할 위험을 무릅쓰고,...", "formality": "formal" },
+        { "en": "Without wishing to belabor the point,...", "ko": "요점을 장황하게 하고 싶지 않지만,...", "formality": "formal" },
+        { "en": "To coin a phrase,...", "ko": "새로운 표현을 만들자면,...", "formality": "formal" },
+        { "en": "For want of a better term,...", "ko": "더 좋은 용어가 없어서,...", "formality": "formal" },
+        { "en": "In the parlance of our times,...", "ko": "우리 시대의 용어로,...", "formality": "formal" }
+      ],
+      "contexts": ["academic writing", "intellectual discourse", "sophisticated communication"]
+    }
+  ]
+}

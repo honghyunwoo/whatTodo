@@ -1,0 +1,155 @@
+{
+  "level": "B1",
+  "version": "1.0",
+  "description": "CEFR B1 어휘 덩어리 - 추상적 개념과 감정 표현",
+  "chunks": [
+    {
+      "id": "lex-b1-001",
+      "category": "emotions_feelings",
+      "categoryKo": "감정과 느낌",
+      "items": [
+        { "en": "be fed up with", "ko": "~에 질리다", "example": "I'm fed up with this weather." },
+        { "en": "look forward to", "ko": "~을 기대하다", "example": "I'm looking forward to seeing you." },
+        { "en": "feel like (doing)", "ko": "~하고 싶다", "example": "I feel like staying home today." },
+        { "en": "be in a good/bad mood", "ko": "기분이 좋다/나쁘다", "example": "She's in a bad mood today." },
+        { "en": "get stressed", "ko": "스트레스받다", "example": "I get stressed before exams." },
+        { "en": "calm down", "ko": "진정하다", "example": "Please calm down and listen." },
+        { "en": "cheer up", "ko": "기운 내다", "example": "Cheer up! Things will get better." }
+      ]
+    },
+    {
+      "id": "lex-b1-002",
+      "category": "success_failure",
+      "categoryKo": "성공과 실패",
+      "items": [
+        { "en": "achieve a goal", "ko": "목표를 달성하다", "example": "She achieved her goal of learning English." },
+        { "en": "make progress", "ko": "진전을 이루다", "example": "You're making great progress." },
+        { "en": "give up", "ko": "포기하다", "example": "Don't give up!" },
+        { "en": "succeed in", "ko": "~에 성공하다", "example": "He succeeded in passing the test." },
+        { "en": "fail to do", "ko": "~하지 못하다", "example": "I failed to meet the deadline." },
+        { "en": "work out (succeed)", "ko": "잘 되다", "example": "Everything worked out in the end." }
+      ]
+    },
+    {
+      "id": "lex-b1-003",
+      "category": "changes_decisions",
+      "categoryKo": "변화와 결정",
+      "items": [
+        { "en": "make a decision", "ko": "결정하다", "example": "I need to make a decision soon." },
+        { "en": "change your mind", "ko": "마음을 바꾸다", "example": "She changed her mind about the trip." },
+        { "en": "make up your mind", "ko": "결심하다", "example": "Have you made up your mind?" },
+        { "en": "get used to", "ko": "~에 익숙해지다", "example": "I'm getting used to the new job." },
+        { "en": "turn out (to be)", "ko": "~로 밝혀지다", "example": "It turned out to be a mistake." },
+        { "en": "end up (doing)", "ko": "결국 ~하게 되다", "example": "We ended up staying home." }
+      ]
+    },
+    {
+      "id": "lex-b1-004",
+      "category": "relationships",
+      "categoryKo": "관계",
+      "items": [
+        { "en": "fall in love", "ko": "사랑에 빠지다", "example": "They fell in love at first sight." },
+        { "en": "get married", "ko": "결혼하다", "example": "They're getting married next year." },
+        { "en": "break up (with)", "ko": "헤어지다", "example": "She broke up with her boyfriend." },
+        { "en": "make friends", "ko": "친구를 사귀다", "example": "It's easy to make friends here." },
+        { "en": "have an argument", "ko": "말다툼하다", "example": "We had an argument about money." },
+        { "en": "get on well (with)", "ko": "~와 잘 지내다", "example": "I get on well with my neighbors." }
+      ]
+    },
+    {
+      "id": "lex-b1-005",
+      "category": "time_urgency",
+      "categoryKo": "시간과 긴급성",
+      "items": [
+        { "en": "be in a hurry", "ko": "서두르다", "example": "I'm in a hurry. Can we talk later?" },
+        { "en": "run out of time", "ko": "시간이 없다", "example": "We're running out of time." },
+        { "en": "take your time", "ko": "천천히 하다", "example": "Take your time. There's no rush." },
+        { "en": "at the last minute", "ko": "막판에", "example": "He changed plans at the last minute." },
+        { "en": "sooner or later", "ko": "조만간", "example": "Sooner or later, you'll understand." },
+        { "en": "from time to time", "ko": "때때로", "example": "I see him from time to time." }
+      ]
+    },
+    {
+      "id": "lex-b1-006",
+      "category": "opinions_arguments",
+      "categoryKo": "의견과 논쟁",
+      "items": [
+        { "en": "as far as I know", "ko": "내가 아는 한", "example": "As far as I know, she's not coming." },
+        { "en": "to be honest", "ko": "솔직히 말하면", "example": "To be honest, I don't like it." },
+        { "en": "on the other hand", "ko": "반면에", "example": "On the other hand, it could work." },
+        { "en": "in other words", "ko": "다시 말해서", "example": "In other words, we need to start over." },
+        { "en": "the point is", "ko": "요점은", "example": "The point is we need more time." },
+        { "en": "make sense", "ko": "말이 되다", "example": "That makes sense now." }
+      ]
+    },
+    {
+      "id": "lex-b1-007",
+      "category": "problems_solutions",
+      "categoryKo": "문제와 해결",
+      "items": [
+        { "en": "deal with", "ko": "다루다/처리하다", "example": "How do you deal with stress?" },
+        { "en": "come up with", "ko": "생각해내다", "example": "We need to come up with a solution." },
+        { "en": "figure out", "ko": "알아내다", "example": "I can't figure out the answer." },
+        { "en": "sort out", "ko": "해결하다", "example": "We need to sort out this problem." },
+        { "en": "work something out", "ko": "해결책을 찾다", "example": "Let's work something out." },
+        { "en": "put off (postpone)", "ko": "미루다", "example": "Don't put off what you can do today." }
+      ]
+    },
+    {
+      "id": "lex-b1-008",
+      "category": "business_work",
+      "categoryKo": "비즈니스와 업무",
+      "items": [
+        { "en": "set up (a meeting/company)", "ko": "설정하다/설립하다", "example": "Let's set up a meeting." },
+        { "en": "carry out (a task)", "ko": "수행하다", "example": "We need to carry out the plan." },
+        { "en": "be responsible for", "ko": "~을 담당하다", "example": "She's responsible for marketing." },
+        { "en": "take part in", "ko": "참여하다", "example": "I took part in the conference." },
+        { "en": "be in charge of", "ko": "~을 책임지다", "example": "He's in charge of the project." },
+        { "en": "apply for (a job)", "ko": "지원하다", "example": "I applied for the position." }
+      ]
+    }
+  ],
+  "collocations": [
+    {
+      "id": "coll-b1-001",
+      "verb": "put",
+      "combinations": [
+        { "phrase": "put pressure on", "ko": "압박을 가하다" },
+        { "phrase": "put something into practice", "ko": "실행에 옮기다" },
+        { "phrase": "put someone at ease", "ko": "안심시키다" },
+        { "phrase": "put emphasis on", "ko": "강조하다" }
+      ]
+    },
+    {
+      "id": "coll-b1-002",
+      "verb": "give",
+      "combinations": [
+        { "phrase": "give advice", "ko": "조언하다" },
+        { "phrase": "give someone a call", "ko": "전화하다" },
+        { "phrase": "give someone a hand", "ko": "도와주다" },
+        { "phrase": "give someone a ride", "ko": "태워주다" },
+        { "phrase": "give priority to", "ko": "우선순위를 두다" }
+      ]
+    },
+    {
+      "id": "coll-b1-003",
+      "verb": "run",
+      "combinations": [
+        { "phrase": "run a business", "ko": "사업을 운영하다" },
+        { "phrase": "run out of", "ko": "다 떨어지다" },
+        { "phrase": "run into (meet)", "ko": "우연히 만나다" },
+        { "phrase": "run late", "ko": "늦다" }
+      ]
+    },
+    {
+      "id": "coll-b1-004",
+      "verb": "break",
+      "combinations": [
+        { "phrase": "break the news", "ko": "소식을 전하다" },
+        { "phrase": "break the ice", "ko": "어색함을 깨다" },
+        { "phrase": "break a promise", "ko": "약속을 어기다" },
+        { "phrase": "break a habit", "ko": "습관을 고치다" }
+      ]
+    }
+  ]
+}

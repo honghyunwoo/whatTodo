@@ -1,0 +1,158 @@
+{
+  "level": "B2",
+  "version": "1.0",
+  "description": "CEFR B2 기능 언어 - 복잡한 주제에 대한 유창한 의사소통",
+  "functions": [
+    {
+      "id": "func-b2-001",
+      "name": "structuring_arguments",
+      "nameKo": "논증 구조화",
+      "canDo": "I can structure and present arguments clearly.",
+      "expressions": [
+        { "en": "First of all,...", "ko": "우선,...", "formality": "neutral" },
+        { "en": "Furthermore,...", "ko": "게다가,...", "formality": "formal" },
+        { "en": "On the other hand,...", "ko": "반면에,...", "formality": "neutral" },
+        { "en": "In contrast to this,...", "ko": "이와 대조적으로,...", "formality": "formal" },
+        { "en": "To sum up,...", "ko": "요약하자면,...", "formality": "neutral" },
+        { "en": "Taking everything into account,...", "ko": "모든 것을 고려하면,...", "formality": "formal" },
+        { "en": "The key point is that...", "ko": "핵심은 ...라는 것입니다.", "formality": "neutral" }
+      ],
+      "contexts": ["debates", "essays", "presentations"]
+    },
+    {
+      "id": "func-b2-002",
+      "name": "expressing_complex_opinions",
+      "nameKo": "복잡한 의견 표현",
+      "canDo": "I can express nuanced opinions on complex issues.",
+      "expressions": [
+        { "en": "While I understand that..., I also believe...", "ko": "...를 이해하지만 ...라고도 생각해요.", "formality": "neutral" },
+        { "en": "It's a complex issue because...", "ko": "이것은 ... 때문에 복잡한 문제예요.", "formality": "neutral" },
+        { "en": "From one perspective,..., but from another,...", "ko": "한 관점에서는..., 하지만 다른 관점에서는...", "formality": "neutral" },
+        { "en": "I'd argue that...", "ko": "...라고 주장하겠어요.", "formality": "neutral" },
+        { "en": "That being said,...", "ko": "그렇긴 하지만,...", "formality": "neutral" },
+        { "en": "I'm somewhat skeptical about...", "ko": "...에 대해 다소 회의적이에요.", "formality": "neutral" }
+      ],
+      "contexts": ["discussions", "interviews", "academic contexts"]
+    },
+    {
+      "id": "func-b2-003",
+      "name": "diplomatic_disagreement",
+      "nameKo": "외교적 반대",
+      "canDo": "I can disagree diplomatically and tactfully.",
+      "expressions": [
+        { "en": "I see your point, but...", "ko": "그 점은 이해하지만...", "formality": "neutral" },
+        { "en": "With respect, I have to disagree.", "ko": "실례지만 동의하지 않아요.", "formality": "formal" },
+        { "en": "I'm not entirely convinced that...", "ko": "...라고 완전히 확신하지는 않아요.", "formality": "neutral" },
+        { "en": "That's one way to look at it, however...", "ko": "그것도 한 가지 관점이지만...", "formality": "neutral" },
+        { "en": "I appreciate your perspective, but...", "ko": "당신의 관점에 감사하지만...", "formality": "polite" },
+        { "en": "I would question whether...", "ko": "...인지 의문을 제기하겠어요.", "formality": "formal" }
+      ],
+      "contexts": ["negotiations", "meetings", "discussions"]
+    },
+    {
+      "id": "func-b2-004",
+      "name": "speculating",
+      "nameKo": "추측하기",
+      "canDo": "I can speculate about causes and consequences.",
+      "expressions": [
+        { "en": "It could be that...", "ko": "...일 수도 있어요.", "formality": "neutral" },
+        { "en": "One possible explanation is...", "ko": "가능한 설명 중 하나는...예요.", "formality": "neutral" },
+        { "en": "This might have been caused by...", "ko": "이것은 ... 때문일 수 있어요.", "formality": "neutral" },
+        { "en": "Presumably,...", "ko": "아마도,...", "formality": "formal" },
+        { "en": "It stands to reason that...", "ko": "...라고 보는 것이 합리적이에요.", "formality": "formal" },
+        { "en": "There's a possibility that...", "ko": "...할 가능성이 있어요.", "formality": "neutral" }
+      ],
+      "contexts": ["problem solving", "analysis", "discussions"]
+    },
+    {
+      "id": "func-b2-005",
+      "name": "emphasizing_points",
+      "nameKo": "강조하기",
+      "canDo": "I can emphasize and highlight important points.",
+      "expressions": [
+        { "en": "What I want to emphasize is...", "ko": "제가 강조하고 싶은 것은...예요.", "formality": "neutral" },
+        { "en": "The most important thing is...", "ko": "가장 중요한 것은...예요.", "formality": "neutral" },
+        { "en": "It's worth noting that...", "ko": "...라는 점을 주목할 가치가 있어요.", "formality": "formal" },
+        { "en": "I can't stress enough that...", "ko": "...를 아무리 강조해도 지나치지 않아요.", "formality": "neutral" },
+        { "en": "Above all,...", "ko": "무엇보다도,...", "formality": "neutral" },
+        { "en": "The crucial factor here is...", "ko": "여기서 결정적인 요소는...예요.", "formality": "formal" }
+      ],
+      "contexts": ["presentations", "persuasion", "key messages"]
+    },
+    {
+      "id": "func-b2-006",
+      "name": "expressing_reservations",
+      "nameKo": "유보 표현",
+      "canDo": "I can express reservations and conditions.",
+      "expressions": [
+        { "en": "Provided that...", "ko": "...한다면...", "formality": "formal" },
+        { "en": "As long as...", "ko": "...하는 한...", "formality": "neutral" },
+        { "en": "Unless...", "ko": "...하지 않는 한...", "formality": "neutral" },
+        { "en": "On the condition that...", "ko": "...라는 조건 하에...", "formality": "formal" },
+        { "en": "I'd be happy to, but only if...", "ko": "기꺼이 하겠지만 ...할 때만...", "formality": "neutral" },
+        { "en": "That depends on whether...", "ko": "그것은 ...인지에 달려있어요.", "formality": "neutral" }
+      ],
+      "contexts": ["negotiations", "agreements", "conditional offers"]
+    },
+    {
+      "id": "func-b2-007",
+      "name": "summarizing_discussions",
+      "nameKo": "논의 요약",
+      "canDo": "I can summarize discussions and draw conclusions.",
+      "expressions": [
+        { "en": "To summarize,...", "ko": "요약하자면,...", "formality": "neutral" },
+        { "en": "In conclusion,...", "ko": "결론적으로,...", "formality": "formal" },
+        { "en": "The main points were...", "ko": "주요 요점은...이었습니다.", "formality": "neutral" },
+        { "en": "So what we've agreed is...", "ko": "그래서 합의한 것은...입니다.", "formality": "neutral" },
+        { "en": "Let me recap...", "ko": "요점을 정리하자면...", "formality": "neutral" },
+        { "en": "Overall, it seems that...", "ko": "전반적으로 ...인 것 같습니다.", "formality": "neutral" }
+      ],
+      "contexts": ["meetings", "closing discussions", "conclusions"]
+    },
+    {
+      "id": "func-b2-008",
+      "name": "expressing_attitude",
+      "nameKo": "태도 표현",
+      "canDo": "I can express attitude towards situations and ideas.",
+      "expressions": [
+        { "en": "Frankly speaking,...", "ko": "솔직히 말하면,...", "formality": "neutral" },
+        { "en": "To be honest,...", "ko": "솔직하게 말하면,...", "formality": "neutral" },
+        { "en": "Interestingly,...", "ko": "흥미롭게도,...", "formality": "neutral" },
+        { "en": "Surprisingly enough,...", "ko": "놀랍게도,...", "formality": "neutral" },
+        { "en": "Unfortunately,...", "ko": "불행히도,...", "formality": "neutral" },
+        { "en": "Ironically,...", "ko": "아이러니하게도,...", "formality": "neutral" }
+      ],
+      "contexts": ["storytelling", "commentary", "expressing views"]
+    },
+    {
+      "id": "func-b2-009",
+      "name": "dealing_with_conflict",
+      "nameKo": "갈등 해결",
+      "canDo": "I can handle conflict and misunderstandings.",
+      "expressions": [
+        { "en": "I think there may be a misunderstanding.", "ko": "오해가 있는 것 같아요.", "formality": "neutral" },
+        { "en": "Let me clarify my position.", "ko": "제 입장을 명확히 하겠습니다.", "formality": "neutral" },
+        { "en": "Perhaps we can find a compromise.", "ko": "아마 타협점을 찾을 수 있을 거예요.", "formality": "neutral" },
+        { "en": "I didn't mean to imply that...", "ko": "...라고 암시하려는 건 아니었어요.", "formality": "neutral" },
+        { "en": "Can we agree to disagree?", "ko": "의견 차이가 있다는 것에 동의할 수 있을까요?", "formality": "neutral" },
+        { "en": "Let's try to see this from both sides.", "ko": "양쪽 입장에서 봐보죠.", "formality": "neutral" }
+      ],
+      "contexts": ["disputes", "negotiations", "difficult conversations"]
+    },
+    {
+      "id": "func-b2-010",
+      "name": "hedging_statements",
+      "nameKo": "완화 표현",
+      "canDo": "I can soften statements and avoid being too direct.",
+      "expressions": [
+        { "en": "It seems to me that...", "ko": "제가 보기에는...예요.", "formality": "neutral" },
+        { "en": "I might be wrong, but...", "ko": "틀릴 수도 있지만...", "formality": "neutral" },
+        { "en": "To some extent,...", "ko": "어느 정도는,...", "formality": "neutral" },
+        { "en": "In a way,...", "ko": "어떤 의미에서는,...", "formality": "neutral" },
+        { "en": "As far as I know,...", "ko": "제가 알기로는,...", "formality": "neutral" },
+        { "en": "Generally speaking,...", "ko": "일반적으로 말해서,...", "formality": "neutral" }
+      ],
+      "contexts": ["academic writing", "careful communication", "avoiding conflict"]
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "level": "C2",
+  "version": "1.0",
+  "description": "CEFR C2 핵심 문법 - 원어민 수준의 미묘한 구문",
+  "grammarPoints": [
+    {
+      "id": "gram-c2-001",
+      "name": "rhetorical_inversion",
+      "nameKo": "수사적 도치",
+      "priority": 1,
+      "explanation": "Use literary inversions for stylistic effect.",
+      "explanationKo": "문학적 효과를 위해 수사적 도치를 사용해요.",
+      "forms": {
+        "negative_inversion": "Not until/only/under no circumstances + auxiliary + subject",
+        "conditional_inversion": "Had/Were/Should without if",
+        "adverbial_inversion": "So + adjective/adverb + that"
+      },
+      "examples": [
+        { "en": "Not until the results came did we understand.", "ko": "결과가 나오고 나서야 이해했어요." },
+        { "en": "Little did they know what awaited them.", "ko": "그들은 자신들을 기다리는 것이 무엇인지 거의 몰랐어요." },
+        { "en": "So profound was the impact that...", "ko": "영향이 너무 심대해서..." },
+        { "en": "Under no circumstances should this be disclosed.", "ko": "어떤 상황에서도 이것을 공개해서는 안 돼요." }
+      ],
+      "koreanTip": "부정어나 강조 부사가 문두에 오면 도치가 필수예요. 격식체에서 강한 인상을 줘요.",
+      "commonErrors": [
+        { "wrong": "Little they knew.", "correct": "Little did they know.", "reason": "도치 필수" },
+        { "wrong": "Not until he came I left.", "correct": "Not until he came did I leave.", "reason": "도치 필수" }
+      ]
+    },
+    {
+      "id": "gram-c2-002",
+      "name": "free_indirect_speech",
+      "nameKo": "자유 간접화법",
+      "priority": 1,
+      "explanation": "Blend direct and indirect speech for narrative effect.",
+      "explanationKo": "서술 효과를 위해 직접화법과 간접화법을 혼합해요.",
+      "forms": {
+        "characteristic": "Third person + past tense + original word choice/exclamations"
+      },
+      "examples": [
+        { "en": "She wondered. Had she made a mistake? No, impossible.", "ko": "그녀는 궁금했어요. 실수했을까? 아니, 불가능해." },
+        { "en": "He stared at the letter. This was outrageous!", "ko": "그는 편지를 응시했어요. 이건 터무니없어!" },
+        { "en": "What was she supposed to do now?", "ko": "이제 그녀가 어떻게 해야 한다는 거지?" },
+        { "en": "Tomorrow everything would be different. He was sure of it.", "ko": "내일이면 모든 게 달라질 거야. 그는 확신했어요." }
+      ],
+      "koreanTip": "인물의 생각을 3인칭+과거로 표현하면서 직접화법의 생생함을 유지해요.",
+      "commonErrors": [
+        { "wrong": "She thought that it was outrageous.", "correct": "This was outrageous!", "reason": "자유 간접화법은 더 직접적" },
+        { "wrong": "He wondered what to do.", "correct": "What was he supposed to do now?", "reason": "더 생생하게" }
+      ]
+    },
+    {
+      "id": "gram-c2-003",
+      "name": "nominalization",
+      "nameKo": "명사화",
+      "priority": 1,
+      "explanation": "Convert verbs/adjectives to nouns for formal writing.",
+      "explanationKo": "격식체 글쓰기를 위해 동사/형용사를 명사로 전환해요.",
+      "forms": {
+        "verb_to_noun": "destroy → destruction, decide → decision",
+        "adjective_to_noun": "important → importance, complex → complexity"
+      },
+      "examples": [
+        { "en": "The destruction of the building was swift.", "ko": "건물의 파괴는 신속했어요." },
+        { "en": "The complexity of the issue necessitates careful consideration.", "ko": "이슈의 복잡성은 신중한 고려를 필요로 해요." },
+        { "en": "Their refusal to cooperate was disappointing.", "ko": "그들의 협력 거부는 실망스러웠어요." },
+        { "en": "The acquisition led to significant restructuring.", "ko": "인수는 상당한 구조조정으로 이어졌어요." }
+      ],
+      "koreanTip": "학술적, 공식적 글쓰기에서 동사 대신 명사를 사용하면 더 격식있어 보여요.",
+      "commonErrors": [
+        { "wrong": "Because they decided to merge...", "correct": "Due to the decision to merge...", "reason": "명사화로 격식 up" },
+        { "wrong": "It's important to...", "correct": "The importance of...", "reason": "명사화 사용" }
+      ]
+    },
+    {
+      "id": "gram-c2-004",
+      "name": "modal_perfect_nuances",
+      "nameKo": "조동사 완료형의 미묘한 뉘앙스",
+      "priority": 2,
+      "explanation": "Use modal perfects for subtle distinctions in meaning.",
+      "explanationKo": "의미의 미묘한 구분을 위해 조동사 완료형을 사용해요.",
+      "forms": {
+        "neednt_have": "did something unnecessary",
+        "shouldnt_have": "did something wrong/regretted",
+        "could_have": "possibility or criticism",
+        "would_have": "hypothetical past"
+      },
+      "examples": [
+        { "en": "You needn't have bothered.", "ko": "수고하지 않으셔도 됐는데요." },
+        { "en": "She could have warned us.", "ko": "그녀가 우리에게 경고할 수도 있었는데." },
+        { "en": "I would have helped if I'd known.", "ko": "알았더라면 도왔을 거예요." },
+        { "en": "He might have mentioned it earlier.", "ko": "그가 더 일찍 말했을 수도 있었는데." }
+      ],
+      "koreanTip": "needn't have = 안 해도 됐는데 했어요, could have = 했을 수도/할 수 있었는데 안 했어요.",
+      "commonErrors": [
+        { "wrong": "You didn't need to come.", "correct": "You needn't have come.", "reason": "불필요한 행동을 했을 때" },
+        { "wrong": "He should told us.", "correct": "He should have told us.", "reason": "should have + 과거분사" }
+      ]
+    },
+    {
+      "id": "gram-c2-005",
+      "name": "appositive_constructions",
+      "nameKo": "동격 구문",
+      "priority": 2,
+      "explanation": "Use appositives to add sophisticated information.",
+      "explanationKo": "세련된 정보를 추가하기 위해 동격을 사용해요.",
+      "forms": {
+        "noun_appositive": "Noun, + noun phrase in apposition",
+        "sentence_appositive": "Complete clause, + appositive clause"
+      },
+      "examples": [
+        { "en": "Einstein, the renowned physicist, proposed the theory.", "ko": "저명한 물리학자인 아인슈타인이 그 이론을 제안했어요." },
+        { "en": "The fact that she lied — a revelation that shocked everyone — came to light.", "ko": "그녀가 거짓말했다는 사실 — 모두를 충격에 빠뜨린 폭로 — 이 밝혀졌어요." },
+        { "en": "Her argument, namely that resources are finite, is compelling.", "ko": "자원이 유한하다는 그녀의 주장은 설득력이 있어요." },
+        { "en": "He made one demand — that we leave immediately.", "ko": "그는 한 가지 요구를 했어요 — 우리가 즉시 떠나라는 것." }
+      ],
+      "koreanTip": "콤마나 대시로 추가 정보를 삽입하여 문장을 풍부하게 해요.",
+      "commonErrors": [
+        { "wrong": "Einstein who was a physicist proposed.", "correct": "Einstein, the physicist, proposed.", "reason": "동격 구문 사용" },
+        { "wrong": "The fact she lied shocked us.", "correct": "The fact that she lied shocked us.", "reason": "동격절에는 that" }
+      ]
+    },
+    {
+      "id": "gram-c2-006",
+      "name": "absolute_constructions",
+      "nameKo": "독립 분사구문",
+      "priority": 2,
+      "explanation": "Use absolute constructions for sophisticated sentence structure.",
+      "explanationKo": "세련된 문장 구조를 위해 독립 분사구문을 사용해요.",
+      "forms": {
+        "structure": "Noun + participle (not sharing subject with main clause)"
+      },
+      "examples": [
+        { "en": "The meeting over, we adjourned for lunch.", "ko": "회의가 끝나서 점심 식사를 위해 휴회했어요." },
+        { "en": "Weather permitting, we'll have the party outside.", "ko": "날씨가 허락하면 파티를 야외에서 할 거예요." },
+        { "en": "All things considered, it was a success.", "ko": "모든 것을 고려하면 성공이었어요." },
+        { "en": "Her eyes blazing with anger, she confronted him.", "ko": "분노로 눈이 번쩍이며 그녀는 그와 맞섰어요." }
+      ],
+      "koreanTip": "주절과 다른 주어를 가진 분사구문이에요. 격식체에서 사용해요.",
+      "commonErrors": [
+        { "wrong": "Being the meeting over, we left.", "correct": "The meeting being over, we left.", "reason": "독립 분사구문 주어 명시" },
+        { "wrong": "The weather permits, we go.", "correct": "Weather permitting, we'll go.", "reason": "분사 사용" }
+      ]
+    },
+    {
+      "id": "gram-c2-007",
+      "name": "archaic_formal_structures",
+      "nameKo": "고어/격식 구조",
+      "priority": 3,
+      "explanation": "Recognize and use archaic structures in formal contexts.",
+      "explanationKo": "격식체에서 고어적 구조를 인식하고 사용해요.",
+      "forms": {
+        "subjunctive_wish": "May + subject + verb (wishes/blessings)",
+        "formal_request": "Would that...",
+        "lest": "lest + subjunctive (to prevent)"
+      },
+      "examples": [
+        { "en": "May you live long and prosper.", "ko": "장수하고 번영하시길." },
+        { "en": "Long live the king!", "ko": "왕 만세!" },
+        { "en": "Would that I had known earlier.", "ko": "더 일찍 알았더라면." },
+        { "en": "Study hard lest you fail.", "ko": "실패하지 않도록 열심히 공부해라." }
+      ],
+      "koreanTip": "축복, 기원, 격식적 표현에서 여전히 사용되는 고어적 구문이에요.",
+      "commonErrors": [
+        { "wrong": "I hope you live long.", "correct": "May you live long.", "reason": "기원문에 May 사용" },
+        { "wrong": "Study hard to not fail.", "correct": "Study hard lest you fail.", "reason": "격식체에서 lest" }
+      ]
+    },
+    {
+      "id": "gram-c2-008",
+      "name": "discourse_markers_advanced",
+      "nameKo": "고급 담화 표지",
+      "priority": 3,
+      "explanation": "Use advanced discourse markers for sophisticated argumentation.",
+      "explanationKo": "세련된 논증을 위해 고급 담화 표지를 사용해요.",
+      "forms": {
+        "concession": "Be that as it may, That said, Notwithstanding",
+        "emphasis": "Indeed, By the same token, In point of fact",
+        "transition": "That being so, Accordingly, Hence"
+      },
+      "examples": [
+        { "en": "Be that as it may, we must proceed.", "ko": "그것이 어찌 됐든 우리는 진행해야 해요." },
+        { "en": "By the same token, we should consider alternatives.", "ko": "같은 이유로 대안을 고려해야 해요." },
+        { "en": "In point of fact, the data suggests otherwise.", "ko": "사실 데이터는 그 반대를 시사해요." },
+        { "en": "That being so, we have little choice.", "ko": "그렇다면 선택의 여지가 거의 없어요." }
+      ],
+      "koreanTip": "고급 담화 표지는 논리적 연결을 세련되게 해주고 학술적 글쓰기에 필수예요.",
+      "commonErrors": [
+        { "wrong": "But anyway, we must go.", "correct": "Be that as it may, we must proceed.", "reason": "격식 담화 표지" },
+        { "wrong": "Actually the data shows.", "correct": "In point of fact, the data shows.", "reason": "학술적 표현" }
+      ]
+    },
+    {
+      "id": "gram-c2-009",
+      "name": "register_shift",
+      "nameKo": "문체 전환",
+      "priority": 3,
+      "explanation": "Shift registers appropriately for effect.",
+      "explanationKo": "효과를 위해 적절히 문체를 전환해요.",
+      "forms": {
+        "formal_to_informal": "Deliberate shift for emphasis or connection",
+        "informal_to_formal": "Shift for authority or distance"
+      },
+      "examples": [
+        { "en": "The economic implications are, to put it bluntly, disastrous.", "ko": "경제적 함의는, 솔직히 말해서, 재앙적이에요." },
+        { "en": "She delivered a compelling argument — and frankly, she nailed it.", "ko": "그녀는 설득력 있는 논증을 했어요 — 솔직히 완벽했어요." },
+        { "en": "Look, I understand the constraints, but the data is unequivocal.", "ko": "이봐요, 제약은 이해하지만 데이터는 명확해요." },
+        { "en": "Let me be perfectly clear: this is non-negotiable.", "ko": "분명히 해 둘게요: 이건 협상 불가예요." }
+      ],
+      "koreanTip": "격식/비격식 전환으로 강조, 친밀감, 또는 권위를 표현할 수 있어요.",
+      "commonErrors": [
+        { "wrong": "Constant same register throughout.", "correct": "Strategic shifts for effect.", "reason": "문체 전환 활용" },
+        { "wrong": "Too casual in formal context.", "correct": "Appropriate register for context.", "reason": "상황에 맞는 문체" }
+      ]
+    },
+    {
+      "id": "gram-c2-010",
+      "name": "information_structure",
+      "nameKo": "정보 구조",
+      "priority": 3,
+      "explanation": "Manipulate information structure for emphasis and flow.",
+      "explanationKo": "강조와 흐름을 위해 정보 구조를 조작해요.",
+      "forms": {
+        "given_new": "Old information before new",
+        "end_focus": "Important information at end",
+        "theme_rheme": "Topic setup → comment"
+      },
+      "examples": [
+        { "en": "This theory, which emerged in the 1990s, revolutionized the field.", "ko": "1990년대에 등장한 이 이론은 해당 분야를 혁명적으로 바꿨어요." },
+        { "en": "What remains unclear is the mechanism.", "ko": "불명확한 것은 메커니즘이에요." },
+        { "en": "The data, though extensive, is inconclusive.", "ko": "데이터는 광범위하지만 결론이 나지 않아요." },
+        { "en": "As for the budget, it has been significantly increased.", "ko": "예산에 관해서는 상당히 증가했어요." }
+      ],
+      "koreanTip": "이미 알려진 정보를 먼저, 새로운/중요한 정보를 뒤에 배치해요.",
+      "commonErrors": [
+        { "wrong": "A new discovery was made by Dr. Kim.", "correct": "Dr. Kim made a new discovery.", "reason": "정보 순서 최적화" },
+        { "wrong": "The important thing is something we know.", "correct": "The important thing is the new finding.", "reason": "end-focus" }
+      ]
+    }
+  ]
+}

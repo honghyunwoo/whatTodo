@@ -1,0 +1,150 @@
+{
+  "level": "C2",
+  "version": "1.0",
+  "description": "CEFR C2 어휘 덩어리 - 원어민 수준의 관용적, 문학적 표현",
+  "chunks": [
+    {
+      "id": "lex-c2-001",
+      "category": "literary_expressions",
+      "categoryKo": "문학적 표현",
+      "items": [
+        { "en": "a foregone conclusion", "ko": "뻔한 결과", "example": "The outcome was a foregone conclusion." },
+        { "en": "a moot point", "ko": "논쟁의 여지가 있는/무의미한 문제", "example": "Whether it's ethical is a moot point now." },
+        { "en": "a double-edged sword", "ko": "양날의 검", "example": "Technology is a double-edged sword." },
+        { "en": "in the final analysis", "ko": "결국", "example": "In the final analysis, we all want the same thing." },
+        { "en": "the crux of the matter", "ko": "문제의 핵심", "example": "The crux of the matter is funding." },
+        { "en": "the writing is on the wall", "ko": "종말이 명백하다", "example": "The writing is on the wall for this company." }
+      ]
+    },
+    {
+      "id": "lex-c2-002",
+      "category": "nuanced_evaluation",
+      "categoryKo": "미묘한 평가",
+      "items": [
+        { "en": "not to put too fine a point on it", "ko": "단도직입적으로 말하자면", "example": "Not to put too fine a point on it, this is terrible." },
+        { "en": "leave something to be desired", "ko": "부족하다", "example": "The service left something to be desired." },
+        { "en": "par for the course", "ko": "예상대로", "example": "Delays are par for the course here." },
+        { "en": "give pause for thought", "ko": "생각하게 하다", "example": "This should give us pause for thought." },
+        { "en": "speak volumes about", "ko": "많은 것을 말해주다", "example": "This speaks volumes about his character." },
+        { "en": "a far cry from", "ko": "~와 많이 다르다", "example": "This is a far cry from what was promised." }
+      ]
+    },
+    {
+      "id": "lex-c2-003",
+      "category": "philosophical_abstract",
+      "categoryKo": "철학적/추상적",
+      "items": [
+        { "en": "be of paramount importance", "ko": "가장 중요하다", "example": "Transparency is of paramount importance." },
+        { "en": "defy comprehension", "ko": "이해를 초월하다", "example": "The scale of the disaster defies comprehension." },
+        { "en": "in the grand scheme of things", "ko": "큰 그림에서", "example": "In the grand scheme of things, this is minor." },
+        { "en": "the sum total of", "ko": "~의 총합", "example": "This is the sum total of our knowledge." },
+        { "en": "the essence of", "ko": "~의 본질", "example": "That is the essence of the problem." },
+        { "en": "the epitome of", "ko": "~의 전형", "example": "She is the epitome of grace." }
+      ]
+    },
+    {
+      "id": "lex-c2-004",
+      "category": "sophisticated_critique",
+      "categoryKo": "세련된 비평",
+      "items": [
+        { "en": "fall woefully short of", "ko": "한참 부족하다", "example": "This falls woefully short of expectations." },
+        { "en": "border on the absurd", "ko": "터무니없는 수준에 이르다", "example": "Some claims border on the absurd." },
+        { "en": "stretch credulity", "ko": "신뢰를 무리하게 하다", "example": "This explanation stretches credulity." },
+        { "en": "verge on the impossible", "ko": "거의 불가능에 가깝다", "example": "Meeting the deadline verges on the impossible." },
+        { "en": "beggar belief", "ko": "믿기 어렵다", "example": "Their incompetence beggars belief." },
+        { "en": "run counter to", "ko": "~에 반하다", "example": "This runs counter to all evidence." }
+      ]
+    },
+    {
+      "id": "lex-c2-005",
+      "category": "diplomatic_formal",
+      "categoryKo": "외교적/격식적",
+      "items": [
+        { "en": "without wishing to belabor the point", "ko": "요점을 장황하게 하고 싶지 않지만", "example": "Without wishing to belabor the point..." },
+        { "en": "with the utmost respect", "ko": "최대한의 존경을 담아", "example": "With the utmost respect, I must disagree." },
+        { "en": "at the risk of sounding pedantic", "ko": "학구적으로 들릴 위험을 무릅쓰고", "example": "At the risk of sounding pedantic..." },
+        { "en": "if I may be so bold", "ko": "감히 말씀드리자면", "example": "If I may be so bold, I'd suggest..." },
+        { "en": "I venture to suggest", "ko": "감히 제안드리자면", "example": "I venture to suggest an alternative." },
+        { "en": "nothing could be further from the truth", "ko": "전혀 사실이 아니다", "example": "Nothing could be further from the truth." }
+      ]
+    },
+    {
+      "id": "lex-c2-006",
+      "category": "idiomatic_mastery",
+      "categoryKo": "관용적 숙달",
+      "items": [
+        { "en": "throw the baby out with the bathwater", "ko": "옥석을 구분하지 못하다", "example": "Let's not throw the baby out with the bathwater." },
+        { "en": "the tail wagging the dog", "ko": "주객이 전도되다", "example": "This is a case of the tail wagging the dog." },
+        { "en": "upset the apple cart", "ko": "계획을 망치다", "example": "We don't want to upset the apple cart." },
+        { "en": "add insult to injury", "ko": "설상가상으로", "example": "To add insult to injury, they blamed us." },
+        { "en": "move the goalposts", "ko": "기준을 바꾸다", "example": "They keep moving the goalposts." },
+        { "en": "put all one's eggs in one basket", "ko": "한 곳에 모든 것을 걸다", "example": "Don't put all your eggs in one basket." }
+      ]
+    },
+    {
+      "id": "lex-c2-007",
+      "category": "rhetorical_devices",
+      "categoryKo": "수사적 장치",
+      "items": [
+        { "en": "therein lies the rub", "ko": "바로 거기에 문제가 있다", "example": "Therein lies the rub: we have no funding." },
+        { "en": "hence the importance of", "ko": "그래서 ~의 중요성", "example": "Hence the importance of early intervention." },
+        { "en": "herein lies the problem", "ko": "여기에 문제가 있다", "example": "Herein lies the problem with this approach." },
+        { "en": "whence (from where)", "ko": "어디서", "example": "Whence comes this sudden change?" },
+        { "en": "the question arises", "ko": "질문이 발생한다", "example": "The question arises: what next?" },
+        { "en": "this begs the question", "ko": "이것은 질문을 불러일으킨다", "example": "This begs the question of accountability." }
+      ]
+    },
+    {
+      "id": "lex-c2-008",
+      "category": "temporal_expressions",
+      "categoryKo": "시간 표현",
+      "items": [
+        { "en": "time immemorial", "ko": "태고적부터", "example": "This has been true since time immemorial." },
+        { "en": "in due course", "ko": "때가 되면", "example": "The results will be announced in due course." },
+        { "en": "in the fullness of time", "ko": "때가 무르익으면", "example": "In the fullness of time, we will understand." },
+        { "en": "hitherto (until now)", "ko": "지금까지", "example": "This was hitherto unknown." },
+        { "en": "heretofore (before now)", "ko": "이전에", "example": "Heretofore, such methods were rare." },
+        { "en": "from time out of mind", "ko": "아주 오래전부터", "example": "This tradition dates from time out of mind." }
+      ]
+    }
+  ],
+  "collocations": [
+    {
+      "id": "coll-c2-001",
+      "verb": "brook",
+      "combinations": [
+        { "phrase": "brook no argument", "ko": "논쟁을 허용하지 않다" },
+        { "phrase": "brook no delay", "ko": "지체를 허용하지 않다" },
+        { "phrase": "brook no interference", "ko": "간섭을 허용하지 않다" },
+        { "phrase": "brook no opposition", "ko": "반대를 허용하지 않다" }
+      ]
+    },
+    {
+      "id": "coll-c2-002",
+      "verb": "bode",
+      "combinations": [
+        { "phrase": "bode well for", "ko": "~에 좋은 징조다" },
+        { "phrase": "bode ill for", "ko": "~에 나쁜 징조다" },
+        { "phrase": "not bode well", "ko": "좋지 않은 징조다" }
+      ]
+    },
+    {
+      "id": "coll-c2-003",
+      "verb": "belie",
+      "combinations": [
+        { "phrase": "belie one's age", "ko": "나이가 믿기지 않다" },
+        { "phrase": "belie one's appearance", "ko": "외모와 다르다" },
+        { "phrase": "belie expectations", "ko": "기대와 다르다" },
+        { "phrase": "belie the truth", "ko": "진실을 감추다" }
+      ]
+    },
+    {
+      "id": "coll-c2-004",
+      "verb": "militate",
+      "combinations": [
+        { "phrase": "militate against", "ko": "~에 불리하게 작용하다" },
+        { "phrase": "militate in favor of", "ko": "~에 유리하게 작용하다" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "level": "B2",
+  "version": "1.0",
+  "description": "CEFR B2 어휘 덩어리 - 복잡한 개념과 미묘한 표현",
+  "chunks": [
+    {
+      "id": "lex-b2-001",
+      "category": "argumentation",
+      "categoryKo": "논증",
+      "items": [
+        { "en": "it goes without saying", "ko": "말할 필요도 없이", "example": "It goes without saying that health is important." },
+        { "en": "needless to say", "ko": "말할 것도 없이", "example": "Needless to say, I was disappointed." },
+        { "en": "by the same token", "ko": "같은 이유로", "example": "By the same token, we should consider..." },
+        { "en": "having said that", "ko": "그렇긴 하지만", "example": "Having said that, there are some issues." },
+        { "en": "all things considered", "ko": "모든 것을 고려하면", "example": "All things considered, it was a success." },
+        { "en": "for what it's worth", "ko": "참고로 말하자면", "example": "For what it's worth, I agree with you." }
+      ]
+    },
+    {
+      "id": "lex-b2-002",
+      "category": "emphasis_certainty",
+      "categoryKo": "강조와 확신",
+      "items": [
+        { "en": "without a doubt", "ko": "의심의 여지 없이", "example": "Without a doubt, she's the best." },
+        { "en": "under no circumstances", "ko": "어떤 상황에서도 ~않다", "example": "Under no circumstances should you lie." },
+        { "en": "by no means", "ko": "결코 ~아니다", "example": "This is by no means the end." },
+        { "en": "beyond any doubt", "ko": "의심의 여지 없이", "example": "He proved his innocence beyond any doubt." },
+        { "en": "to a great extent", "ko": "상당히", "example": "This is true to a great extent." },
+        { "en": "to say the least", "ko": "적어도 말하자면", "example": "It was surprising, to say the least." }
+      ]
+    },
+    {
+      "id": "lex-b2-003",
+      "category": "cause_effect",
+      "categoryKo": "원인과 결과",
+      "items": [
+        { "en": "bring about", "ko": "야기하다", "example": "What brought about this change?" },
+        { "en": "give rise to", "ko": "~을 일으키다", "example": "This policy gave rise to protests." },
+        { "en": "stem from", "ko": "~에서 비롯되다", "example": "The problem stems from lack of funding." },
+        { "en": "as a consequence of", "ko": "~의 결과로", "example": "As a consequence of the delay..." },
+        { "en": "on account of", "ko": "~때문에", "example": "The game was cancelled on account of rain." },
+        { "en": "lead to", "ko": "~로 이어지다", "example": "Poor diet leads to health problems." }
+      ]
+    },
+    {
+      "id": "lex-b2-004",
+      "category": "contrast_concession",
+      "categoryKo": "대조와 양보",
+      "items": [
+        { "en": "despite the fact that", "ko": "~에도 불구하고", "example": "Despite the fact that he tried, he failed." },
+        { "en": "regardless of", "ko": "~에 상관없이", "example": "We'll proceed regardless of the cost." },
+        { "en": "as opposed to", "ko": "~와 대조적으로", "example": "I prefer tea as opposed to coffee." },
+        { "en": "in contrast to", "ko": "~와 대조적으로", "example": "In contrast to last year, profits rose." },
+        { "en": "for all (despite)", "ko": "~에도 불구하고", "example": "For all his wealth, he's unhappy." },
+        { "en": "be that as it may", "ko": "그것이 어쨌든", "example": "Be that as it may, we must continue." }
+      ]
+    },
+    {
+      "id": "lex-b2-005",
+      "category": "possibility_probability",
+      "categoryKo": "가능성과 확률",
+      "items": [
+        { "en": "in all likelihood", "ko": "아마도", "example": "In all likelihood, they'll agree." },
+        { "en": "the chances are", "ko": "가능성이 높다", "example": "The chances are he won't come." },
+        { "en": "there's every chance that", "ko": "~할 가능성이 충분하다", "example": "There's every chance that we'll succeed." },
+        { "en": "it remains to be seen", "ko": "두고 봐야 한다", "example": "It remains to be seen if it works." },
+        { "en": "as far as ... is concerned", "ko": "~에 관한 한", "example": "As far as money is concerned, we're fine." },
+        { "en": "stand a chance of", "ko": "~할 가능성이 있다", "example": "Do we stand a chance of winning?" }
+      ]
+    },
+    {
+      "id": "lex-b2-006",
+      "category": "abstract_concepts",
+      "categoryKo": "추상적 개념",
+      "items": [
+        { "en": "take into account", "ko": "고려하다", "example": "We must take all factors into account." },
+        { "en": "bear in mind", "ko": "명심하다", "example": "Bear in mind that this is just a draft." },
+        { "en": "shed light on", "ko": "밝히다", "example": "This research sheds light on the issue." },
+        { "en": "call into question", "ko": "의문을 제기하다", "example": "This calls our assumptions into question." },
+        { "en": "come to terms with", "ko": "받아들이다", "example": "I've come to terms with my situation." },
+        { "en": "draw a distinction between", "ko": "구별하다", "example": "We must draw a distinction between..." }
+      ]
+    },
+    {
+      "id": "lex-b2-007",
+      "category": "evaluation_judgment",
+      "categoryKo": "평가와 판단",
+      "items": [
+        { "en": "fall short of", "ko": "~에 미치지 못하다", "example": "The results fell short of expectations." },
+        { "en": "live up to", "ko": "~에 부응하다", "example": "Did the movie live up to the hype?" },
+        { "en": "measure up to", "ko": "~에 맞먹다", "example": "Does this measure up to your standards?" },
+        { "en": "leave much to be desired", "ko": "많이 부족하다", "example": "His performance left much to be desired." },
+        { "en": "go beyond expectations", "ko": "기대를 넘어서다", "example": "She went beyond expectations." },
+        { "en": "stand the test of time", "ko": "오랜 시간 검증을 견디다", "example": "This theory has stood the test of time." }
+      ]
+    },
+    {
+      "id": "lex-b2-008",
+      "category": "communication",
+      "categoryKo": "의사소통",
+      "items": [
+        { "en": "get to the point", "ko": "요점을 말하다", "example": "Please get to the point." },
+        { "en": "touch on (a topic)", "ko": "~을 언급하다", "example": "I'll briefly touch on the issue." },
+        { "en": "elaborate on", "ko": "상세히 설명하다", "example": "Could you elaborate on that point?" },
+        { "en": "make a point", "ko": "요점을 말하다", "example": "She made a good point." },
+        { "en": "get the message across", "ko": "메시지를 전달하다", "example": "Did I get the message across?" },
+        { "en": "speak volumes", "ko": "많은 것을 말해주다", "example": "Her silence speaks volumes." }
+      ]
+    }
+  ],
+  "collocations": [
+    {
+      "id": "coll-b2-001",
+      "verb": "draw",
+      "combinations": [
+        { "phrase": "draw a conclusion", "ko": "결론을 내리다" },
+        { "phrase": "draw attention to", "ko": "주목을 끌다" },
+        { "phrase": "draw a comparison", "ko": "비교하다" },
+        { "phrase": "draw on experience", "ko": "경험을 활용하다" }
+      ]
+    },
+    {
+      "id": "coll-b2-002",
+      "verb": "raise",
+      "combinations": [
+        { "phrase": "raise concerns", "ko": "우려를 제기하다" },
+        { "phrase": "raise awareness", "ko": "인식을 높이다" },
+        { "phrase": "raise the issue", "ko": "문제를 제기하다" },
+        { "phrase": "raise questions", "ko": "질문을 제기하다" }
+      ]
+    },
+    {
+      "id": "coll-b2-003",
+      "verb": "reach",
+      "combinations": [
+        { "phrase": "reach a conclusion", "ko": "결론에 도달하다" },
+        { "phrase": "reach an agreement", "ko": "합의에 이르다" },
+        { "phrase": "reach a compromise", "ko": "타협에 도달하다" },
+        { "phrase": "reach one's potential", "ko": "잠재력을 발휘하다" }
+      ]
+    },
+    {
+      "id": "coll-b2-004",
+      "verb": "face",
+      "combinations": [
+        { "phrase": "face the consequences", "ko": "결과를 감수하다" },
+        { "phrase": "face criticism", "ko": "비판에 직면하다" },
+        { "phrase": "face challenges", "ko": "도전에 직면하다" },
+        { "phrase": "face the facts", "ko": "현실을 직시하다" }
+      ]
+    }
+  ]
+}

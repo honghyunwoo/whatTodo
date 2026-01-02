@@ -1,0 +1,244 @@
+{
+  "level": "C1",
+  "version": "1.0",
+  "description": "CEFR C1 핵심 문법 - 고급 구문과 미묘한 뉘앙스",
+  "grammarPoints": [
+    {
+      "id": "gram-c1-001",
+      "name": "ellipsis_substitution",
+      "nameKo": "생략과 대용",
+      "priority": 1,
+      "explanation": "Use ellipsis and substitution to avoid repetition.",
+      "explanationKo": "반복을 피하기 위해 생략과 대용을 사용해요.",
+      "forms": {
+        "do_so": "replace verb phrases with 'do so'",
+        "ellipsis": "omit repeated elements after auxiliaries",
+        "one_ones": "replace countable nouns"
+      },
+      "examples": [
+        { "en": "I asked him to help, but he refused to.", "ko": "도와달라고 했지만 거절했어요." },
+        { "en": "She can speak French, and so can I.", "ko": "그녀는 프랑스어를 할 수 있고, 나도 마찬가지예요." },
+        { "en": "If you want to leave, do so quietly.", "ko": "떠나고 싶으면 조용히 그렇게 하세요." },
+        { "en": "Which one? The red one or the blue one?", "ko": "어떤 거요? 빨간 것 아니면 파란 것?" }
+      ],
+      "koreanTip": "자연스러운 영어는 반복을 피해요. 조동사 뒤 생략, do so 대용이 중요해요.",
+      "commonErrors": [
+        { "wrong": "I can swim and he can swim too.", "correct": "I can swim and so can he.", "reason": "반복 피하기" },
+        { "wrong": "I wanted to go but I couldn't go.", "correct": "I wanted to go but I couldn't.", "reason": "생략 사용" }
+      ]
+    },
+    {
+      "id": "gram-c1-002",
+      "name": "fronting",
+      "nameKo": "전치 (Fronting)",
+      "priority": 1,
+      "explanation": "Move elements to the front for emphasis or cohesion.",
+      "explanationKo": "강조나 응집성을 위해 요소를 문장 앞으로 이동해요.",
+      "forms": {
+        "object_fronting": "Object + subject + verb",
+        "adverbial_fronting": "Adverb/phrase + verb + subject",
+        "complement_fronting": "Adjective/complement + subject + be"
+      },
+      "examples": [
+        { "en": "This problem we must solve immediately.", "ko": "이 문제는 즉시 해결해야 해요." },
+        { "en": "Only then did I realize the truth.", "ko": "그제서야 진실을 깨달았어요." },
+        { "en": "Responsible for the project is Dr. Kim.", "ko": "프로젝트 담당자는 김 박사예요." },
+        { "en": "More important is the quality.", "ko": "더 중요한 것은 품질이에요." }
+      ],
+      "koreanTip": "강조하고 싶은 요소를 문장 앞으로 이동해요. 격식체에서 많이 사용해요.",
+      "commonErrors": [
+        { "wrong": "This we must do it.", "correct": "This we must do.", "reason": "전치 후 대명사 불필요" },
+        { "wrong": "Only then I realized.", "correct": "Only then did I realize.", "reason": "only 전치 시 도치" }
+      ]
+    },
+    {
+      "id": "gram-c1-003",
+      "name": "nominal_relative",
+      "nameKo": "명사절 관계사",
+      "priority": 1,
+      "explanation": "Use what, whoever, whatever as nominal relatives.",
+      "explanationKo": "what, whoever, whatever를 명사절로 사용해요.",
+      "forms": {
+        "what": "= the thing(s) that",
+        "whoever": "= anyone who",
+        "whatever": "= anything that",
+        "whichever": "= any one that"
+      },
+      "examples": [
+        { "en": "What matters is your attitude.", "ko": "중요한 것은 당신의 태도예요." },
+        { "en": "Whoever said that was wrong.", "ko": "그것을 말한 사람은 누구든 틀렸어요." },
+        { "en": "Do whatever you think is best.", "ko": "최선이라고 생각하는 것을 하세요." },
+        { "en": "Choose whichever you prefer.", "ko": "선호하는 것을 고르세요." }
+      ],
+      "koreanTip": "what = the thing that, whoever = anyone who의 의미예요.",
+      "commonErrors": [
+        { "wrong": "The what he said was wrong.", "correct": "What he said was wrong.", "reason": "what 앞에 the 불필요" },
+        { "wrong": "Whoever will come is welcome.", "correct": "Whoever comes is welcome.", "reason": "현재형 사용" }
+      ]
+    },
+    {
+      "id": "gram-c1-004",
+      "name": "comment_clauses",
+      "nameKo": "논평절",
+      "priority": 2,
+      "explanation": "Use comment clauses to add speaker attitude.",
+      "explanationKo": "화자의 태도를 추가할 때 논평절을 사용해요.",
+      "forms": {
+        "patterns": "as far as I know, if you ask me, to be honest, generally speaking"
+      },
+      "examples": [
+        { "en": "As far as I'm concerned, the matter is closed.", "ko": "제 생각에는 그 문제는 종결되었어요." },
+        { "en": "The plan, if you ask me, is flawed.", "ko": "제 생각에 그 계획은 결함이 있어요." },
+        { "en": "Strictly speaking, this isn't correct.", "ko": "엄밀히 말해서 이건 정확하지 않아요." },
+        { "en": "To tell you the truth, I disagree.", "ko": "사실대로 말하면 저는 동의하지 않아요." }
+      ],
+      "koreanTip": "화자의 관점이나 의견을 자연스럽게 삽입하는 표현들이에요.",
+      "commonErrors": [
+        { "wrong": "Speaking generally, it's true.", "correct": "Generally speaking, it's true.", "reason": "관용 표현 어순" },
+        { "wrong": "To be honestly, I'm worried.", "correct": "To be honest, I'm worried.", "reason": "부사 형태" }
+      ]
+    },
+    {
+      "id": "gram-c1-005",
+      "name": "distancing",
+      "nameKo": "거리두기 표현",
+      "priority": 2,
+      "explanation": "Use distancing language to be cautious or tentative.",
+      "explanationKo": "신중하거나 조심스럽게 말할 때 거리두기 표현을 사용해요.",
+      "forms": {
+        "seem_appear": "It seems/appears that...",
+        "passive_reporting": "It is said/believed/thought that...",
+        "hedging": "tend to, apparently, supposedly"
+      },
+      "examples": [
+        { "en": "It would appear that there's been a mistake.", "ko": "실수가 있었던 것 같아요." },
+        { "en": "The project is believed to be behind schedule.", "ko": "프로젝트가 일정보다 늦어진 것으로 알려져 있어요." },
+        { "en": "They apparently decided not to proceed.", "ko": "그들은 진행하지 않기로 결정한 것 같아요." },
+        { "en": "The company tends to favor internal candidates.", "ko": "그 회사는 내부 후보를 선호하는 경향이 있어요." }
+      ],
+      "koreanTip": "직접적인 표현을 피하고 완곡하게 말할 때 사용해요.",
+      "commonErrors": [
+        { "wrong": "It seems that he is lying.", "correct": "It would seem that he might not be telling the truth.", "reason": "더 완곡하게" },
+        { "wrong": "They are behind.", "correct": "They appear to be behind.", "reason": "거리두기 추가" }
+      ]
+    },
+    {
+      "id": "gram-c1-006",
+      "name": "perfect_infinitive",
+      "nameKo": "완료 부정사",
+      "priority": 2,
+      "explanation": "Use perfect infinitive for actions before the main verb.",
+      "explanationKo": "주동사보다 먼저 일어난 행동을 표현할 때 완료 부정사를 사용해요.",
+      "forms": {
+        "structure": "to have + past participle",
+        "usage": "After modal verbs, after appear/seem, in reported speech"
+      },
+      "examples": [
+        { "en": "He seems to have forgotten.", "ko": "그가 잊어버린 것 같아요." },
+        { "en": "She claims to have met him.", "ko": "그녀는 그를 만났다고 주장해요." },
+        { "en": "I would like to have seen that.", "ko": "그것을 봤으면 좋았을 텐데." },
+        { "en": "He's lucky to have survived.", "ko": "그가 살아남은 것은 행운이에요." }
+      ],
+      "koreanTip": "'~했다고/~했던 것'의 의미로 현재보다 먼저 일어난 일을 표현해요.",
+      "commonErrors": [
+        { "wrong": "He seems to forgot.", "correct": "He seems to have forgotten.", "reason": "완료 부정사 필요" },
+        { "wrong": "I'd like to have went.", "correct": "I'd like to have gone.", "reason": "have + 과거분사" }
+      ]
+    },
+    {
+      "id": "gram-c1-007",
+      "name": "subjunctive_advanced",
+      "nameKo": "가정법 확장",
+      "priority": 2,
+      "explanation": "Use advanced subjunctive forms in formal contexts.",
+      "explanationKo": "격식체에서 고급 가정법 형태를 사용해요.",
+      "forms": {
+        "were_to": "If + subject + were to + verb (remote condition)",
+        "should": "If + subject + should + verb (unlikely condition)",
+        "be_it": "Be it known that... (very formal)"
+      },
+      "examples": [
+        { "en": "If he were to resign, who would replace him?", "ko": "그가 사임한다면 누가 대체할까요?" },
+        { "en": "Should you need help, don't hesitate to ask.", "ko": "도움이 필요하면 주저하지 말고 요청하세요." },
+        { "en": "Be that as it may, we must proceed.", "ko": "그것이 어찌 됐든 우리는 진행해야 해요." },
+        { "en": "Were I in your position, I would accept.", "ko": "내가 당신 입장이라면 수락할 거예요." }
+      ],
+      "koreanTip": "가능성이 희박하거나 격식적인 상황에서 사용하는 고급 가정법이에요.",
+      "commonErrors": [
+        { "wrong": "If he would resign.", "correct": "If he were to resign.", "reason": "were to 사용" },
+        { "wrong": "If you should need help, ask me.", "correct": "Should you need help, ask me.", "reason": "도치 가능" }
+      ]
+    },
+    {
+      "id": "gram-c1-008",
+      "name": "extraposition",
+      "nameKo": "외치 구문",
+      "priority": 3,
+      "explanation": "Use extraposition to manage complex subjects.",
+      "explanationKo": "복잡한 주어를 관리하기 위해 외치 구문을 사용해요.",
+      "forms": {
+        "it_subject": "It + be + adjective + that-clause/to-infinitive",
+        "postponed_subject": "Move heavy subject to end"
+      },
+      "examples": [
+        { "en": "It is crucial that we act now.", "ko": "우리가 지금 행동하는 것이 중요해요." },
+        { "en": "It surprised me that she agreed.", "ko": "그녀가 동의한 것이 놀라웠어요." },
+        { "en": "It's no use complaining.", "ko": "불평해도 소용없어요." },
+        { "en": "It remains to be seen whether...", "ko": "...인지는 두고 봐야 해요." }
+      ],
+      "koreanTip": "긴 주어를 문장 뒤로 보내고 It을 형식 주어로 사용해요.",
+      "commonErrors": [
+        { "wrong": "That we act now is crucial.", "correct": "It is crucial that we act now.", "reason": "외치 사용" },
+        { "wrong": "Complaining is no use.", "correct": "It's no use complaining.", "reason": "관용 표현" }
+      ]
+    },
+    {
+      "id": "gram-c1-009",
+      "name": "continuous_aspect_extended",
+      "nameKo": "진행상 확장",
+      "priority": 3,
+      "explanation": "Use continuous forms for special meanings.",
+      "explanationKo": "특별한 의미를 위해 진행형을 확장하여 사용해요.",
+      "forms": {
+        "temporary": "continuous for temporary situations",
+        "changing": "continuous for gradual change",
+        "annoying": "always + continuous for repeated actions"
+      },
+      "examples": [
+        { "en": "He's being difficult today.", "ko": "그는 오늘 까다롭게 굴고 있어요." },
+        { "en": "The climate is changing rapidly.", "ko": "기후가 빠르게 변하고 있어요." },
+        { "en": "She's always interrupting people.", "ko": "그녀는 항상 사람들 말을 끊어요." },
+        { "en": "I'm loving this weather!", "ko": "이 날씨 정말 좋아요!" }
+      ],
+      "koreanTip": "진행형은 임시 상황, 변화, 짜증스러운 반복 등을 표현할 수 있어요.",
+      "commonErrors": [
+        { "wrong": "He is being tall.", "correct": "He is tall.", "reason": "영구적 특성은 진행 불가" },
+        { "wrong": "I am knowing the answer.", "correct": "I know the answer.", "reason": "상태 동사는 진행 불가" }
+      ]
+    },
+    {
+      "id": "gram-c1-010",
+      "name": "concessive_clauses",
+      "nameKo": "양보절",
+      "priority": 3,
+      "explanation": "Use concessive clauses to acknowledge contrasts.",
+      "explanationKo": "대조를 인정할 때 양보절을 사용해요.",
+      "forms": {
+        "although": "Although/Though/Even though + clause",
+        "however": "However + adjective/adverb",
+        "despite": "Despite/In spite of + noun/gerund"
+      },
+      "examples": [
+        { "en": "Much as I respect him, I disagree.", "ko": "그를 존경하지만 동의하지 않아요." },
+        { "en": "However hard she tried, she failed.", "ko": "아무리 열심히 해도 실패했어요." },
+        { "en": "Try as he might, he couldn't succeed.", "ko": "아무리 노력해도 성공할 수 없었어요." },
+        { "en": "Brilliant though she is, she lacks experience.", "ko": "그녀가 뛰어나지만 경험이 부족해요." }
+      ],
+      "koreanTip": "much as, however + 형용사, try as I might 등은 고급 양보 표현이에요.",
+      "commonErrors": [
+        { "wrong": "Despite she was tired.", "correct": "Despite being tired.", "reason": "despite + 명사/동명사" },
+        { "wrong": "However she tried hard.", "correct": "However hard she tried.", "reason": "however + 형용사/부사" }
+      ]
+    }
+  ]
+}

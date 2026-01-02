@@ -1,0 +1,247 @@
+{
+  "level": "A2",
+  "version": "1.0",
+  "description": "CEFR A2 핵심 문법 - 과거, 미래, 비교급",
+  "grammarPoints": [
+    {
+      "id": "gram-a2-001",
+      "name": "past_simple",
+      "nameKo": "과거 단순형",
+      "priority": 1,
+      "explanation": "Use past simple for completed actions in the past.",
+      "explanationKo": "과거에 완료된 행동을 표현할 때 과거 단순형을 사용해요.",
+      "forms": {
+        "regular": "verb + -ed",
+        "irregular": "special forms (went, saw, had)",
+        "negative": "didn't + verb",
+        "question": "Did + subject + verb?"
+      },
+      "examples": [
+        { "en": "I worked yesterday.", "ko": "나는 어제 일했어요." },
+        { "en": "She went to the store.", "ko": "그녀는 가게에 갔어요." },
+        { "en": "Did you see the movie?", "ko": "영화 봤어요?" },
+        { "en": "They didn't come to the party.", "ko": "그들은 파티에 안 왔어요." }
+      ],
+      "koreanTip": "과거 시제는 '~했다/~였다'에 해당해요. 불규칙 동사는 암기가 필요해요.",
+      "commonErrors": [
+        { "wrong": "I goed to school.", "correct": "I went to school.", "reason": "go는 불규칙 동사" },
+        { "wrong": "Did you went?", "correct": "Did you go?", "reason": "Did 뒤에는 동사원형" }
+      ]
+    },
+    {
+      "id": "gram-a2-002",
+      "name": "future_going_to",
+      "nameKo": "미래 표현 (going to)",
+      "priority": 1,
+      "explanation": "Use 'going to' for plans and intentions.",
+      "explanationKo": "계획과 의도를 표현할 때 'going to'를 사용해요.",
+      "forms": {
+        "positive": "am/is/are + going to + verb",
+        "negative": "am/is/are + not + going to + verb",
+        "question": "Am/Is/Are + subject + going to + verb?"
+      },
+      "examples": [
+        { "en": "I'm going to study English.", "ko": "나는 영어 공부할 거예요." },
+        { "en": "It's going to rain.", "ko": "비가 올 것 같아요." },
+        { "en": "Are you going to come?", "ko": "올 거예요?" },
+        { "en": "She's not going to buy it.", "ko": "그녀는 그거 안 살 거예요." }
+      ],
+      "koreanTip": "'~할 거예요/~할 예정이에요'에 해당해요. 계획된 미래에 사용해요.",
+      "commonErrors": [
+        { "wrong": "I going to eat.", "correct": "I'm going to eat.", "reason": "be동사 필요" },
+        { "wrong": "She going to go.", "correct": "She's going to go.", "reason": "be동사 필요" }
+      ]
+    },
+    {
+      "id": "gram-a2-003",
+      "name": "comparatives",
+      "nameKo": "비교급",
+      "priority": 1,
+      "explanation": "Use comparatives to compare two things.",
+      "explanationKo": "두 가지를 비교할 때 비교급을 사용해요.",
+      "forms": {
+        "short_adjectives": "adjective + -er + than",
+        "long_adjectives": "more + adjective + than",
+        "irregular": "good→better, bad→worse"
+      },
+      "examples": [
+        { "en": "She is taller than me.", "ko": "그녀는 나보다 커요." },
+        { "en": "This is more expensive than that.", "ko": "이게 저것보다 더 비싸요." },
+        { "en": "My English is better now.", "ko": "내 영어가 지금 더 나아졌어요." },
+        { "en": "Today is colder than yesterday.", "ko": "오늘은 어제보다 추워요." }
+      ],
+      "koreanTip": "'~보다 더'에 해당해요. 짧은 형용사는 -er, 긴 형용사는 more를 써요.",
+      "commonErrors": [
+        { "wrong": "She is more tall.", "correct": "She is taller.", "reason": "1음절 형용사는 -er" },
+        { "wrong": "He is more good.", "correct": "He is better.", "reason": "good의 비교급은 better" }
+      ]
+    },
+    {
+      "id": "gram-a2-004",
+      "name": "superlatives",
+      "nameKo": "최상급",
+      "priority": 1,
+      "explanation": "Use superlatives to describe the extreme in a group.",
+      "explanationKo": "그룹에서 가장 ~한 것을 표현할 때 최상급을 사용해요.",
+      "forms": {
+        "short_adjectives": "the + adjective + -est",
+        "long_adjectives": "the most + adjective",
+        "irregular": "good→the best, bad→the worst"
+      },
+      "examples": [
+        { "en": "He is the tallest in the class.", "ko": "그는 반에서 가장 커요." },
+        { "en": "This is the most beautiful place.", "ko": "이곳이 가장 아름다운 곳이에요." },
+        { "en": "That was the worst movie.", "ko": "그건 최악의 영화였어요." },
+        { "en": "She's the best student.", "ko": "그녀는 최고의 학생이에요." }
+      ],
+      "koreanTip": "'가장 ~한'에 해당해요. 항상 the와 함께 써요.",
+      "commonErrors": [
+        { "wrong": "She is most tall.", "correct": "She is the tallest.", "reason": "최상급에는 the 필요" },
+        { "wrong": "He is the most good.", "correct": "He is the best.", "reason": "good의 최상급은 best" }
+      ]
+    },
+    {
+      "id": "gram-a2-005",
+      "name": "present_continuous",
+      "nameKo": "현재 진행형",
+      "priority": 1,
+      "explanation": "Use present continuous for actions happening now or temporary situations.",
+      "explanationKo": "지금 일어나는 행동이나 임시 상황을 표현할 때 현재 진행형을 사용해요.",
+      "forms": {
+        "positive": "am/is/are + verb-ing",
+        "negative": "am/is/are + not + verb-ing",
+        "question": "Am/Is/Are + subject + verb-ing?"
+      },
+      "examples": [
+        { "en": "I'm eating lunch now.", "ko": "나는 지금 점심 먹고 있어요." },
+        { "en": "She's working from home this week.", "ko": "그녀는 이번 주 재택근무 중이에요." },
+        { "en": "What are you doing?", "ko": "뭐 하고 있어요?" },
+        { "en": "They aren't listening.", "ko": "그들은 듣고 있지 않아요." }
+      ],
+      "koreanTip": "'~하고 있다'에 해당해요. 지금 진행 중인 일에 사용해요.",
+      "commonErrors": [
+        { "wrong": "I eating now.", "correct": "I'm eating now.", "reason": "be동사 필요" },
+        { "wrong": "She is work.", "correct": "She is working.", "reason": "-ing 필요" }
+      ]
+    },
+    {
+      "id": "gram-a2-006",
+      "name": "past_continuous",
+      "nameKo": "과거 진행형",
+      "priority": 2,
+      "explanation": "Use past continuous for actions in progress at a specific time in the past.",
+      "explanationKo": "과거 특정 시점에 진행 중이던 행동을 표현할 때 과거 진행형을 사용해요.",
+      "forms": {
+        "positive": "was/were + verb-ing",
+        "negative": "was/were + not + verb-ing",
+        "question": "Was/Were + subject + verb-ing?"
+      },
+      "examples": [
+        { "en": "I was sleeping at 10 PM.", "ko": "나는 밤 10시에 자고 있었어요." },
+        { "en": "What were you doing?", "ko": "뭐 하고 있었어요?" },
+        { "en": "It was raining when I left.", "ko": "내가 떠날 때 비가 오고 있었어요." },
+        { "en": "They weren't working.", "ko": "그들은 일하고 있지 않았어요." }
+      ],
+      "koreanTip": "'~하고 있었다'에 해당해요. 과거의 특정 시점에 진행 중이던 일이에요.",
+      "commonErrors": [
+        { "wrong": "I was sleep.", "correct": "I was sleeping.", "reason": "-ing 필요" },
+        { "wrong": "She were working.", "correct": "She was working.", "reason": "She와는 was" }
+      ]
+    },
+    {
+      "id": "gram-a2-007",
+      "name": "have_to",
+      "nameKo": "have to (의무)",
+      "priority": 2,
+      "explanation": "Use 'have to' to express obligation or necessity.",
+      "explanationKo": "의무나 필요성을 표현할 때 'have to'를 사용해요.",
+      "forms": {
+        "positive": "have to / has to + verb",
+        "negative": "don't have to / doesn't have to + verb",
+        "question": "Do/Does + subject + have to + verb?"
+      },
+      "examples": [
+        { "en": "I have to go now.", "ko": "나는 지금 가야 해요." },
+        { "en": "She has to work tomorrow.", "ko": "그녀는 내일 일해야 해요." },
+        { "en": "You don't have to come.", "ko": "올 필요 없어요." },
+        { "en": "Do I have to pay?", "ko": "내가 내야 해요?" }
+      ],
+      "koreanTip": "'~해야 한다'에 해당해요. don't have to는 '할 필요 없다'예요.",
+      "commonErrors": [
+        { "wrong": "I have to going.", "correct": "I have to go.", "reason": "have to 뒤에는 동사원형" },
+        { "wrong": "She have to work.", "correct": "She has to work.", "reason": "3인칭 단수는 has to" }
+      ]
+    },
+    {
+      "id": "gram-a2-008",
+      "name": "should",
+      "nameKo": "should (조언)",
+      "priority": 2,
+      "explanation": "Use 'should' to give advice or express what is right.",
+      "explanationKo": "조언을 하거나 옳은 것을 표현할 때 'should'를 사용해요.",
+      "forms": {
+        "positive": "should + verb",
+        "negative": "shouldn't + verb",
+        "question": "Should + subject + verb?"
+      },
+      "examples": [
+        { "en": "You should see a doctor.", "ko": "의사를 만나봐야 해요." },
+        { "en": "She shouldn't eat too much.", "ko": "그녀는 너무 많이 먹으면 안 돼요." },
+        { "en": "Should I call him?", "ko": "그에게 전화해야 할까요?" },
+        { "en": "We should help them.", "ko": "우리는 그들을 도와야 해요." }
+      ],
+      "koreanTip": "'~해야 한다/~하는 게 좋다'에 해당해요. 조언할 때 많이 써요.",
+      "commonErrors": [
+        { "wrong": "You should to go.", "correct": "You should go.", "reason": "should 뒤에 to 없음" },
+        { "wrong": "She shoulds eat.", "correct": "She should eat.", "reason": "should는 변하지 않음" }
+      ]
+    },
+    {
+      "id": "gram-a2-009",
+      "name": "adverbs_frequency",
+      "nameKo": "빈도 부사",
+      "priority": 2,
+      "explanation": "Use frequency adverbs to say how often something happens.",
+      "explanationKo": "얼마나 자주 일어나는지 표현할 때 빈도 부사를 사용해요.",
+      "forms": {
+        "position": "before main verb, after be verb",
+        "order": "always > usually > often > sometimes > rarely > never"
+      },
+      "examples": [
+        { "en": "I always eat breakfast.", "ko": "나는 항상 아침을 먹어요." },
+        { "en": "She is usually on time.", "ko": "그녀는 보통 제시간에 와요." },
+        { "en": "They often go to the gym.", "ko": "그들은 자주 체육관에 가요." },
+        { "en": "He never drinks coffee.", "ko": "그는 절대 커피를 안 마셔요." }
+      ],
+      "koreanTip": "빈도 부사는 일반동사 앞, be동사 뒤에 위치해요.",
+      "commonErrors": [
+        { "wrong": "I go always there.", "correct": "I always go there.", "reason": "빈도 부사는 동사 앞" },
+        { "wrong": "She always is late.", "correct": "She is always late.", "reason": "be동사 뒤에 위치" }
+      ]
+    },
+    {
+      "id": "gram-a2-010",
+      "name": "prepositions_time",
+      "nameKo": "시간 전치사",
+      "priority": 2,
+      "explanation": "Use in, on, at for different time expressions.",
+      "explanationKo": "시간 표현에 따라 in, on, at을 다르게 사용해요.",
+      "forms": {
+        "at": "specific times (at 3 PM, at night)",
+        "on": "days/dates (on Monday, on May 5th)",
+        "in": "months/years/longer periods (in July, in 2024)"
+      },
+      "examples": [
+        { "en": "I wake up at 7 AM.", "ko": "나는 7시에 일어나요." },
+        { "en": "The meeting is on Monday.", "ko": "회의는 월요일이에요." },
+        { "en": "We'll travel in August.", "ko": "우리는 8월에 여행할 거예요." },
+        { "en": "She was born in 1995.", "ko": "그녀는 1995년에 태어났어요." }
+      ],
+      "koreanTip": "구체적인 시간은 at, 날짜/요일은 on, 월/년도는 in을 써요.",
+      "commonErrors": [
+        { "wrong": "I'll see you in Monday.", "correct": "I'll see you on Monday.", "reason": "요일에는 on" },
+        { "wrong": "It starts on 9 AM.", "correct": "It starts at 9 AM.", "reason": "구체적 시간에는 at" }
+      ]
+    }
+  ]
+}

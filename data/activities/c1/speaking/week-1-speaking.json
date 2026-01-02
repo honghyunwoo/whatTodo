@@ -1,74 +1,135 @@
 {
-  "id": "week-1-speaking",
+  "id": "c1-week-1-speaking",
   "weekId": "week-1",
   "type": "speaking",
   "level": "C1",
-  "title": "Academic Discussion & Professional Presentations",
-  "description": "Practice articulating complex ideas in academic and professional contexts.",
+  "title": "Academic Discourse & Critical Analysis",
+  "description": "Practice sophisticated academic discussion, analyzing complex arguments and presenting nuanced viewpoints.",
 
-  "prompts": [
+  "sentences": [
     {
-      "id": "sp1",
-      "title": "Presenting Research Findings",
-      "context": "You are presenting your research findings at an academic conference.",
-      "targetText": "Our study sought to elucidate the relationship between social media usage and mental health outcomes among young adults.",
-      "translation": "우리 연구는 젊은 성인들 사이에서 소셜 미디어 사용과 정신 건강 결과 간의 관계를 밝히고자 했습니다.",
-      "tips": [
-        "Emphasize 'elucidate' with proper stress on the second syllable",
-        "Maintain a formal, measured pace appropriate for academic presentation",
-        "Use rising intonation on 'relationship' to signal the key focus"
-      ]
+      "id": "s1",
+      "text": "While the study's methodology appears sound, the sample size raises legitimate concerns about the generalizability of its findings.",
+      "translation": "연구 방법론은 타당해 보이지만, 표본 크기는 연구 결과의 일반화 가능성에 대한 정당한 우려를 제기한다.",
+      "tips": "'While' 양보절로 시작하여 균형 잡힌 비평을 표현하세요."
     },
     {
-      "id": "sp2",
-      "title": "Defending a Position",
-      "context": "You are participating in a debate about technology policy.",
-      "targetText": "While the empirical evidence remains somewhat inconclusive, I would postulate that stricter regulations are necessary to address these unprecedented challenges.",
-      "translation": "실증적 증거가 다소 결론에 이르지 못했지만, 이러한 전례 없는 도전에 대응하기 위해 더 엄격한 규제가 필요하다고 가정하겠습니다.",
-      "tips": [
-        "Use a confident but measured tone",
-        "Pause slightly after 'inconclusive' to signal the contrast",
-        "Stress 'unprecedented' to emphasize the novelty of the situation"
-      ]
+      "id": "s2",
+      "text": "The author's assertion that economic factors supersede cultural influences seems somewhat reductive.",
+      "translation": "경제적 요인이 문화적 영향을 능가한다는 저자의 주장은 다소 환원주의적으로 보인다.",
+      "tips": "'reductive'는 복잡한 것을 단순화시킨다는 비판적 표현입니다."
     },
     {
-      "id": "sp3",
-      "title": "Analyzing Complexities",
-      "context": "You are explaining a nuanced situation in a business meeting.",
-      "targetText": "The discrepancy between our projected figures and actual performance requires careful scrutiny before we can reconcile these contradictory findings.",
-      "translation": "예상 수치와 실제 실적 간의 불일치는 이러한 모순된 결과를 조화시키기 전에 신중한 검토가 필요합니다.",
-      "tips": [
-        "Emphasize 'discrepancy' and 'scrutiny' as key analytical terms",
-        "Use a thoughtful pace to convey careful consideration",
-        "End with slight falling intonation to signal completion"
-      ]
+      "id": "s3",
+      "text": "Had the researchers controlled for confounding variables, the correlation might have proven spurious.",
+      "translation": "연구자들이 교란 변수를 통제했다면, 그 상관관계는 허위로 판명되었을 수 있다.",
+      "tips": "Inverted conditional (Had + subject)로 가정법을 세련되게 표현하세요."
     },
     {
-      "id": "sp4",
-      "title": "Making Recommendations",
-      "context": "You are advising colleagues on a strategic decision.",
-      "targetText": "Given the inherent risks and the pertinent evidence we've gathered, I believe we should adopt a more nuanced approach to this problem.",
-      "translation": "내재된 위험과 우리가 수집한 관련 증거를 고려할 때, 이 문제에 대해 더 미묘한 접근 방식을 채택해야 한다고 생각합니다.",
-      "tips": [
-        "Project confidence when stating 'I believe'",
-        "Emphasize 'nuanced' to highlight the sophisticated nature of the recommendation",
-        "Maintain professional but persuasive tone throughout"
-      ]
+      "id": "s4",
+      "text": "The conclusions are predicated on assumptions that warrant further scrutiny.",
+      "translation": "그 결론들은 추가적인 검토가 필요한 가정에 기반하고 있다.",
+      "tips": "'predicated on'과 'warrant scrutiny'는 학술적 표현입니다."
+    },
+    {
+      "id": "s5",
+      "text": "This paradigm shift could fundamentally alter how we conceptualize cause and effect.",
+      "translation": "이 패러다임 전환은 우리가 인과관계를 개념화하는 방식을 근본적으로 바꿀 수 있다.",
+      "tips": "'paradigm shift'와 'conceptualize'는 학술 담론의 핵심 표현입니다."
+    },
+    {
+      "id": "s6",
+      "text": "One cannot help but question whether the outcomes are attributable to the intervention itself.",
+      "translation": "그 결과가 개입 자체에 기인하는지 의문을 제기하지 않을 수 없다.",
+      "tips": "'One cannot help but'은 격식체에서 불가피함을 표현합니다."
+    },
+    {
+      "id": "s7",
+      "text": "The implications extend far beyond the immediate field, reshaping interdisciplinary discourse.",
+      "translation": "그 함의는 해당 분야를 넘어서 학제간 담론을 재형성한다.",
+      "tips": "'interdisciplinary discourse'로 광범위한 영향을 표현하세요."
+    },
+    {
+      "id": "s8",
+      "text": "Notwithstanding the limitations, the study makes a compelling case for reconsidering established theories.",
+      "translation": "한계에도 불구하고, 이 연구는 확립된 이론의 재고를 위한 설득력 있는 주장을 펼친다.",
+      "tips": "'Notwithstanding'은 격식체의 'despite'입니다."
+    },
+    {
+      "id": "s9",
+      "text": "The data lends credence to the hypothesis, though longitudinal research would be necessary.",
+      "translation": "데이터는 그 가설에 신빙성을 더해주지만, 종단적 연구가 필요할 것이다.",
+      "tips": "'lends credence to'는 신빙성을 더한다는 학술 표현입니다."
+    },
+    {
+      "id": "s10",
+      "text": "It would be premature to draw definitive conclusions from preliminary findings.",
+      "translation": "예비 연구 결과로 확정적인 결론을 내리는 것은 시기상조일 것이다.",
+      "tips": "'premature'로 과학적 신중함을 표현하세요."
+    },
+    {
+      "id": "s11",
+      "text": "The theoretical framework provides a robust foundation for understanding these phenomena.",
+      "translation": "그 이론적 틀은 이러한 현상들을 이해하기 위한 견고한 기반을 제공한다.",
+      "tips": "'theoretical framework'와 'robust'는 학술 글쓰기 핵심 표현입니다."
+    },
+    {
+      "id": "s12",
+      "text": "Insofar as the evidence supports the thesis, we might tentatively accept the proposed model.",
+      "translation": "증거가 논제를 뒷받침하는 한, 우리는 제안된 모델을 잠정적으로 받아들일 수 있다.",
+      "tips": "'Insofar as'와 'tentatively'로 조건부 수용을 표현하세요."
     }
   ],
 
-  "discussionTopics": [
+  "dialoguePractice": {
+    "title": "Academic Conference Discussion",
+    "roles": ["Dr. Kim", "Prof. Lee"],
+    "lines": [
+      {"role": "Dr. Kim", "text": "I found your presentation on cognitive biases quite thought-provoking."},
+      {"role": "Prof. Lee", "text": "Thank you. I've been grappling with how to reconcile the data with behavioral observations."},
+      {"role": "Dr. Kim", "text": "Your model seems to presuppose a degree of rationality the evidence doesn't fully support."},
+      {"role": "Prof. Lee", "text": "A fair point. However, what appears irrational individually may serve evolutionary purposes collectively."},
+      {"role": "Dr. Kim", "text": "Intriguing. Have you considered how this intersects with game theory?"},
+      {"role": "Prof. Lee", "text": "Indeed. I've been collaborating with economists to explore those connections."},
+      {"role": "Dr. Kim", "text": "I'd be interested to see that research. It could bridge significant gaps in the literature."},
+      {"role": "Prof. Lee", "text": "Perhaps we could discuss potential collaboration? Your methodology expertise would be invaluable."}
+    ]
+  },
+
+  "evaluationChecklist": [
     {
-      "id": "dt1",
-      "topic": "Do you think technology companies should be held more accountable for the societal impacts of their products? Why or why not?",
-      "sampleResponse": "I would argue that increased accountability is necessary, though the implementation presents inherent challenges. While some might postulate that market forces alone will ensure responsible innovation, empirical evidence suggests otherwise...",
-      "vocabularyToUse": ["accountability", "inherent", "postulate", "empirical"]
+      "category": "Academic Register",
+      "items": [
+        "Did you use appropriate academic vocabulary?",
+        "Did you hedge claims appropriately?",
+        "Did you maintain formal register throughout?",
+        "Did you use sophisticated connectors?"
+      ]
     },
     {
-      "id": "dt2",
-      "topic": "How can organizations reconcile the pursuit of profitability with environmental sustainability?",
-      "sampleResponse": "This is indeed a nuanced issue that requires careful consideration. On one hand, the traditional paradigm has viewed these goals as mutually exclusive. However, more recent evidence substantiates the view that sustainable practices can actually enhance long-term profitability...",
-      "vocabularyToUse": ["nuanced", "paradigm", "substantiate", "reconcile"]
+      "category": "Argumentation",
+      "items": [
+        "Did you present balanced critiques?",
+        "Did you acknowledge counterarguments?",
+        "Did you support claims with reasoning?",
+        "Did you draw nuanced conclusions?"
+      ]
+    },
+    {
+      "category": "Fluency & Coherence",
+      "items": [
+        "Did you maintain natural flow in complex sentences?",
+        "Did you use appropriate discourse markers?",
+        "Did you develop arguments coherently?"
+      ]
+    },
+    {
+      "category": "Advanced Grammar",
+      "items": [
+        "Did you use inverted conditionals correctly?",
+        "Did you employ complex noun phrases?",
+        "Did you maintain subject-verb agreement?"
+      ]
     }
   ]
 }

@@ -1,0 +1,157 @@
+{
+  "level": "A2",
+  "version": "1.0",
+  "description": "CEFR A2 기능 언어 - 일상적인 상황에서의 상호작용",
+  "functions": [
+    {
+      "id": "func-a2-001",
+      "name": "giving_advice",
+      "nameKo": "조언하기",
+      "canDo": "I can give simple advice and suggestions.",
+      "expressions": [
+        { "en": "You should...", "ko": "...하는 게 좋겠어요.", "formality": "neutral" },
+        { "en": "Why don't you...?", "ko": "...하는 게 어때요?", "formality": "neutral" },
+        { "en": "If I were you, I'd...", "ko": "제가 당신이라면 ...할 거예요.", "formality": "neutral" },
+        { "en": "I think you should...", "ko": "...하는 게 좋을 것 같아요.", "formality": "polite" },
+        { "en": "You could try...", "ko": "...를 해보는 건 어때요.", "formality": "neutral" },
+        { "en": "Have you tried...?", "ko": "...해 보셨어요?", "formality": "neutral" }
+      ],
+      "contexts": ["problem solving", "helping friends", "health advice"]
+    },
+    {
+      "id": "func-a2-002",
+      "name": "making_suggestions",
+      "nameKo": "제안하기",
+      "canDo": "I can make suggestions for activities.",
+      "expressions": [
+        { "en": "Let's...", "ko": "...하자.", "formality": "informal" },
+        { "en": "How about...?", "ko": "...하는 건 어때요?", "formality": "neutral" },
+        { "en": "What about...?", "ko": "...는 어때요?", "formality": "neutral" },
+        { "en": "Shall we...?", "ko": "...할까요?", "formality": "polite" },
+        { "en": "Would you like to...?", "ko": "...하고 싶으세요?", "formality": "polite" },
+        { "en": "We could...", "ko": "...할 수 있어요.", "formality": "neutral" }
+      ],
+      "contexts": ["planning activities", "making plans with friends", "weekend plans"]
+    },
+    {
+      "id": "func-a2-003",
+      "name": "expressing_opinions",
+      "nameKo": "의견 표현",
+      "canDo": "I can express simple opinions.",
+      "expressions": [
+        { "en": "I think...", "ko": "...라고 생각해요.", "formality": "neutral" },
+        { "en": "In my opinion,...", "ko": "제 생각에는...", "formality": "neutral" },
+        { "en": "I believe...", "ko": "...라고 믿어요.", "formality": "neutral" },
+        { "en": "I'm not sure, but...", "ko": "확실하진 않지만...", "formality": "neutral" },
+        { "en": "I agree with you.", "ko": "동의해요.", "formality": "neutral" },
+        { "en": "I disagree.", "ko": "동의하지 않아요.", "formality": "neutral" }
+      ],
+      "contexts": ["discussions", "giving feedback", "making decisions"]
+    },
+    {
+      "id": "func-a2-004",
+      "name": "describing_experiences",
+      "nameKo": "경험 설명",
+      "canDo": "I can describe past experiences.",
+      "expressions": [
+        { "en": "I've been to...", "ko": "...에 가본 적 있어요.", "formality": "neutral" },
+        { "en": "I've never...", "ko": "...해본 적 없어요.", "formality": "neutral" },
+        { "en": "I once...", "ko": "한번 ...한 적 있어요.", "formality": "neutral" },
+        { "en": "When I was younger,...", "ko": "어렸을 때...", "formality": "neutral" },
+        { "en": "Last year, I...", "ko": "작년에 저는...", "formality": "neutral" },
+        { "en": "It was amazing/terrible.", "ko": "정말 좋았어요/끔찍했어요.", "formality": "neutral" }
+      ],
+      "contexts": ["travel stories", "life experiences", "sharing memories"]
+    },
+    {
+      "id": "func-a2-005",
+      "name": "making_comparisons",
+      "nameKo": "비교하기",
+      "canDo": "I can compare things and people.",
+      "expressions": [
+        { "en": "...is bigger than...", "ko": "...가 ...보다 커요.", "formality": "neutral" },
+        { "en": "...is more expensive than...", "ko": "...가 ...보다 비싸요.", "formality": "neutral" },
+        { "en": "...is the best.", "ko": "...가 제일 좋아요.", "formality": "neutral" },
+        { "en": "...is as good as...", "ko": "...가 ...만큼 좋아요.", "formality": "neutral" },
+        { "en": "...is not as fast as...", "ko": "...가 ...만큼 빠르지 않아요.", "formality": "neutral" },
+        { "en": "They're both...", "ko": "둘 다 ...해요.", "formality": "neutral" }
+      ],
+      "contexts": ["shopping", "choosing options", "describing differences"]
+    },
+    {
+      "id": "func-a2-006",
+      "name": "making_arrangements",
+      "nameKo": "약속 잡기",
+      "canDo": "I can make arrangements to meet people.",
+      "expressions": [
+        { "en": "Are you free on...?", "ko": "...에 시간 있어요?", "formality": "neutral" },
+        { "en": "What time works for you?", "ko": "몇 시가 좋아요?", "formality": "neutral" },
+        { "en": "Where shall we meet?", "ko": "어디서 만날까요?", "formality": "neutral" },
+        { "en": "I can make it at...", "ko": "...에 갈 수 있어요.", "formality": "neutral" },
+        { "en": "That works for me.", "ko": "저는 괜찮아요.", "formality": "neutral" },
+        { "en": "I'm sorry, I can't make it.", "ko": "죄송해요, 못 가겠어요.", "formality": "neutral" }
+      ],
+      "contexts": ["meeting friends", "appointments", "scheduling"]
+    },
+    {
+      "id": "func-a2-007",
+      "name": "expressing_feelings",
+      "nameKo": "감정 표현 (확장)",
+      "canDo": "I can express a range of feelings and reactions.",
+      "expressions": [
+        { "en": "I'm really excited about...", "ko": "...가 정말 기대돼요.", "formality": "neutral" },
+        { "en": "I'm disappointed that...", "ko": "...해서 실망했어요.", "formality": "neutral" },
+        { "en": "I'm worried about...", "ko": "...가 걱정돼요.", "formality": "neutral" },
+        { "en": "I'm bored.", "ko": "지루해요.", "formality": "informal" },
+        { "en": "I'm surprised that...", "ko": "...해서 놀랐어요.", "formality": "neutral" },
+        { "en": "I feel nervous.", "ko": "긴장돼요.", "formality": "neutral" }
+      ],
+      "contexts": ["sharing emotions", "reacting to news", "expressing concerns"]
+    },
+    {
+      "id": "func-a2-008",
+      "name": "making_requests_polite",
+      "nameKo": "공손한 요청",
+      "canDo": "I can make polite requests.",
+      "expressions": [
+        { "en": "Could you please...?", "ko": "...해 주실 수 있을까요?", "formality": "polite" },
+        { "en": "Would you mind...?", "ko": "...해 주시겠어요?", "formality": "polite" },
+        { "en": "I was wondering if...", "ko": "...할 수 있을지 궁금했어요.", "formality": "polite" },
+        { "en": "Do you think you could...?", "ko": "...해 주실 수 있을까요?", "formality": "polite" },
+        { "en": "Is it possible to...?", "ko": "...하는 게 가능할까요?", "formality": "polite" },
+        { "en": "Would it be okay if...?", "ko": "...해도 괜찮을까요?", "formality": "polite" }
+      ],
+      "contexts": ["formal situations", "asking favors", "workplace"]
+    },
+    {
+      "id": "func-a2-009",
+      "name": "explaining_problems",
+      "nameKo": "문제 설명",
+      "canDo": "I can explain problems and complaints.",
+      "expressions": [
+        { "en": "The problem is...", "ko": "문제는 ...예요.", "formality": "neutral" },
+        { "en": "Something is wrong with...", "ko": "...에 문제가 있어요.", "formality": "neutral" },
+        { "en": "It doesn't work.", "ko": "작동이 안 돼요.", "formality": "neutral" },
+        { "en": "I'd like to complain about...", "ko": "...에 대해 불만을 말하고 싶어요.", "formality": "formal" },
+        { "en": "This is broken.", "ko": "이거 고장났어요.", "formality": "neutral" },
+        { "en": "Can you fix it?", "ko": "고쳐주실 수 있어요?", "formality": "neutral" }
+      ],
+      "contexts": ["customer service", "technical issues", "complaints"]
+    },
+    {
+      "id": "func-a2-010",
+      "name": "talking_about_plans",
+      "nameKo": "계획 말하기",
+      "canDo": "I can talk about future plans and intentions.",
+      "expressions": [
+        { "en": "I'm going to...", "ko": "...할 거예요.", "formality": "neutral" },
+        { "en": "I'm planning to...", "ko": "...할 계획이에요.", "formality": "neutral" },
+        { "en": "I'm thinking of...", "ko": "...할까 생각 중이에요.", "formality": "neutral" },
+        { "en": "I want to...", "ko": "...하고 싶어요.", "formality": "neutral" },
+        { "en": "I hope to...", "ko": "...하길 바라요.", "formality": "neutral" },
+        { "en": "Maybe I'll...", "ko": "아마 ...할 것 같아요.", "formality": "neutral" }
+      ],
+      "contexts": ["future plans", "career goals", "weekend plans"]
+    }
+  ]
+}

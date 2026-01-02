@@ -1,0 +1,160 @@
+{
+  "level": "B1",
+  "version": "1.0",
+  "description": "CEFR B1 기능 언어 - 다양한 상황에서의 독립적 의사소통",
+  "functions": [
+    {
+      "id": "func-b1-001",
+      "name": "expressing_certainty",
+      "nameKo": "확신도 표현",
+      "canDo": "I can express different degrees of certainty.",
+      "expressions": [
+        { "en": "I'm sure that...", "ko": "...라고 확신해요.", "formality": "neutral" },
+        { "en": "I'm not sure if...", "ko": "...인지 잘 모르겠어요.", "formality": "neutral" },
+        { "en": "I doubt that...", "ko": "...인지 의심이 돼요.", "formality": "neutral" },
+        { "en": "It's likely that...", "ko": "...일 가능성이 높아요.", "formality": "neutral" },
+        { "en": "It might be...", "ko": "...일 수도 있어요.", "formality": "neutral" },
+        { "en": "There's a good chance that...", "ko": "...할 가능성이 높아요.", "formality": "neutral" },
+        { "en": "I'm fairly confident that...", "ko": "...라고 꽤 확신해요.", "formality": "formal" }
+      ],
+      "contexts": ["predictions", "expressing doubt", "making estimates"]
+    },
+    {
+      "id": "func-b1-002",
+      "name": "expressing_obligation",
+      "nameKo": "의무 표현",
+      "canDo": "I can express obligation and necessity.",
+      "expressions": [
+        { "en": "You have to...", "ko": "...해야 해요.", "formality": "neutral" },
+        { "en": "You must...", "ko": "...해야만 해요.", "formality": "formal" },
+        { "en": "It's necessary to...", "ko": "...하는 것이 필요해요.", "formality": "neutral" },
+        { "en": "You're supposed to...", "ko": "...해야 하는 거예요.", "formality": "neutral" },
+        { "en": "You need to...", "ko": "...할 필요가 있어요.", "formality": "neutral" },
+        { "en": "It's required that...", "ko": "...이 요구돼요.", "formality": "formal" },
+        { "en": "You don't have to...", "ko": "...하지 않아도 돼요.", "formality": "neutral" }
+      ],
+      "contexts": ["rules", "workplace", "instructions"]
+    },
+    {
+      "id": "func-b1-003",
+      "name": "giving_detailed_descriptions",
+      "nameKo": "상세 묘사",
+      "canDo": "I can give detailed descriptions of things and events.",
+      "expressions": [
+        { "en": "It looks like...", "ko": "...처럼 보여요.", "formality": "neutral" },
+        { "en": "It's made of...", "ko": "...로 만들어졌어요.", "formality": "neutral" },
+        { "en": "It's used for...", "ko": "...에 사용돼요.", "formality": "neutral" },
+        { "en": "The main feature is...", "ko": "주요 특징은 ...예요.", "formality": "neutral" },
+        { "en": "It consists of...", "ko": "...로 구성되어 있어요.", "formality": "neutral" },
+        { "en": "It reminds me of...", "ko": "...가 생각나요.", "formality": "neutral" },
+        { "en": "It's similar to...", "ko": "...와 비슷해요.", "formality": "neutral" }
+      ],
+      "contexts": ["describing objects", "explaining concepts", "storytelling"]
+    },
+    {
+      "id": "func-b1-004",
+      "name": "expressing_preferences",
+      "nameKo": "선호 표현",
+      "canDo": "I can express preferences and explain choices.",
+      "expressions": [
+        { "en": "I'd prefer to...", "ko": "...하는 게 더 좋겠어요.", "formality": "neutral" },
+        { "en": "I'd rather...", "ko": "차라리 ...하겠어요.", "formality": "neutral" },
+        { "en": "I tend to...", "ko": "...하는 편이에요.", "formality": "neutral" },
+        { "en": "I'm more interested in...", "ko": "...에 더 관심이 있어요.", "formality": "neutral" },
+        { "en": "Given the choice, I'd...", "ko": "선택권이 있다면 ...하겠어요.", "formality": "neutral" },
+        { "en": "My preference is...", "ko": "제 선호는 ...예요.", "formality": "formal" }
+      ],
+      "contexts": ["making choices", "interviews", "discussions"]
+    },
+    {
+      "id": "func-b1-005",
+      "name": "hypothetical_situations",
+      "nameKo": "가정 상황",
+      "canDo": "I can discuss hypothetical situations.",
+      "expressions": [
+        { "en": "If I had..., I would...", "ko": "만약 ...이 있다면 ...할 거예요.", "formality": "neutral" },
+        { "en": "What would you do if...?", "ko": "만약 ...라면 어떻게 하시겠어요?", "formality": "neutral" },
+        { "en": "Imagine if...", "ko": "만약 ...라고 상상해 보세요.", "formality": "neutral" },
+        { "en": "I wish I could...", "ko": "...할 수 있으면 좋겠어요.", "formality": "neutral" },
+        { "en": "If only I had...", "ko": "...만 있었다면...", "formality": "neutral" },
+        { "en": "Supposing that...", "ko": "만약 ...라고 가정하면...", "formality": "neutral" }
+      ],
+      "contexts": ["dreams", "problem solving", "creative thinking"]
+    },
+    {
+      "id": "func-b1-006",
+      "name": "reporting_information",
+      "nameKo": "정보 전달",
+      "canDo": "I can report what others have said.",
+      "expressions": [
+        { "en": "She said that...", "ko": "그녀가 ...라고 말했어요.", "formality": "neutral" },
+        { "en": "According to...", "ko": "...에 따르면...", "formality": "formal" },
+        { "en": "I heard that...", "ko": "...라고 들었어요.", "formality": "neutral" },
+        { "en": "They told me that...", "ko": "그들이 ...라고 말해줬어요.", "formality": "neutral" },
+        { "en": "It was reported that...", "ko": "...라고 보도됐어요.", "formality": "formal" },
+        { "en": "Apparently,...", "ko": "보아하니...", "formality": "neutral" }
+      ],
+      "contexts": ["news", "gossip", "professional communication"]
+    },
+    {
+      "id": "func-b1-007",
+      "name": "giving_explanations",
+      "nameKo": "설명하기",
+      "canDo": "I can explain reasons and causes.",
+      "expressions": [
+        { "en": "The reason is that...", "ko": "이유는 ...예요.", "formality": "neutral" },
+        { "en": "This is because...", "ko": "이것은 ... 때문이에요.", "formality": "neutral" },
+        { "en": "It's due to...", "ko": "...때문이에요.", "formality": "formal" },
+        { "en": "As a result of...", "ko": "...의 결과로...", "formality": "formal" },
+        { "en": "That's why...", "ko": "그래서 ...예요.", "formality": "neutral" },
+        { "en": "The main cause is...", "ko": "주요 원인은 ...예요.", "formality": "neutral" }
+      ],
+      "contexts": ["presentations", "problem analysis", "academic discussions"]
+    },
+    {
+      "id": "func-b1-008",
+      "name": "asking_for_clarification",
+      "nameKo": "명확화 요청",
+      "canDo": "I can ask for clarification and confirm understanding.",
+      "expressions": [
+        { "en": "What do you mean by...?", "ko": "...가 무슨 뜻이에요?", "formality": "neutral" },
+        { "en": "Could you explain that again?", "ko": "다시 설명해 주시겠어요?", "formality": "polite" },
+        { "en": "So you're saying that...?", "ko": "그러니까 ...라는 말씀이시죠?", "formality": "neutral" },
+        { "en": "Let me make sure I understand...", "ko": "제가 이해한 게 맞는지 확인할게요...", "formality": "neutral" },
+        { "en": "In other words,...", "ko": "다시 말해서,...", "formality": "neutral" },
+        { "en": "I'm not quite following.", "ko": "잘 이해가 안 돼요.", "formality": "neutral" }
+      ],
+      "contexts": ["meetings", "lectures", "instructions"]
+    },
+    {
+      "id": "func-b1-009",
+      "name": "making_predictions",
+      "nameKo": "예측하기",
+      "canDo": "I can make predictions and talk about future possibilities.",
+      "expressions": [
+        { "en": "I expect that...", "ko": "...할 것으로 예상해요.", "formality": "neutral" },
+        { "en": "It's likely to...", "ko": "...할 가능성이 있어요.", "formality": "neutral" },
+        { "en": "I predict that...", "ko": "...할 것으로 예측해요.", "formality": "formal" },
+        { "en": "In the future,...", "ko": "미래에는...", "formality": "neutral" },
+        { "en": "It probably won't...", "ko": "아마 ...하지 않을 거예요.", "formality": "neutral" },
+        { "en": "Things will probably...", "ko": "아마 상황이 ...할 거예요.", "formality": "neutral" }
+      ],
+      "contexts": ["forecasting", "planning", "speculation"]
+    },
+    {
+      "id": "func-b1-010",
+      "name": "expressing_regret",
+      "nameKo": "후회 표현",
+      "canDo": "I can express regret and talk about past mistakes.",
+      "expressions": [
+        { "en": "I regret that...", "ko": "...를 후회해요.", "formality": "neutral" },
+        { "en": "I should have...", "ko": "...했어야 했어요.", "formality": "neutral" },
+        { "en": "I wish I had...", "ko": "...했으면 좋았을 텐데.", "formality": "neutral" },
+        { "en": "If only I hadn't...", "ko": "...하지 않았더라면...", "formality": "neutral" },
+        { "en": "I shouldn't have...", "ko": "...하지 말았어야 했어요.", "formality": "neutral" },
+        { "en": "Looking back, I would have...", "ko": "돌이켜보면 ...했을 거예요.", "formality": "neutral" }
+      ],
+      "contexts": ["reflecting on past", "apologies", "self-reflection"]
+    }
+  ]
+}

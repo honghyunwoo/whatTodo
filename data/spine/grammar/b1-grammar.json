@@ -1,0 +1,246 @@
+{
+  "level": "B1",
+  "version": "1.0",
+  "description": "CEFR B1 핵심 문법 - 현재완료, 조건문, 수동태",
+  "grammarPoints": [
+    {
+      "id": "gram-b1-001",
+      "name": "present_perfect",
+      "nameKo": "현재완료",
+      "priority": 1,
+      "explanation": "Use present perfect for past actions with present relevance.",
+      "explanationKo": "과거의 행동이 현재와 관련이 있을 때 현재완료를 사용해요.",
+      "forms": {
+        "positive": "have/has + past participle",
+        "negative": "haven't/hasn't + past participle",
+        "question": "Have/Has + subject + past participle?"
+      },
+      "examples": [
+        { "en": "I have lived here for 5 years.", "ko": "나는 여기서 5년간 살았어요." },
+        { "en": "She has already finished.", "ko": "그녀는 이미 끝냈어요." },
+        { "en": "Have you ever been to Japan?", "ko": "일본에 가본 적 있어요?" },
+        { "en": "They haven't arrived yet.", "ko": "그들은 아직 도착하지 않았어요." }
+      ],
+      "koreanTip": "'~해왔다/~한 적 있다'에 해당해요. for(기간), since(시점), ever, never, already, yet과 자주 쓰여요.",
+      "commonErrors": [
+        { "wrong": "I have went there.", "correct": "I have been there.", "reason": "go의 과거분사는 gone/been" },
+        { "wrong": "She has finish.", "correct": "She has finished.", "reason": "과거분사 필요" }
+      ]
+    },
+    {
+      "id": "gram-b1-002",
+      "name": "first_conditional",
+      "nameKo": "조건문 1형",
+      "priority": 1,
+      "explanation": "Use first conditional for real/possible future situations.",
+      "explanationKo": "실현 가능한 미래 상황을 표현할 때 조건문 1형을 사용해요.",
+      "forms": {
+        "structure": "If + present simple, will + verb",
+        "alternative": "If + present simple, may/might/can + verb"
+      },
+      "examples": [
+        { "en": "If it rains, I will stay home.", "ko": "비가 오면 집에 있을 거예요." },
+        { "en": "If you study hard, you'll pass.", "ko": "열심히 공부하면 합격할 거예요." },
+        { "en": "I won't go if you don't come.", "ko": "네가 안 오면 나도 안 갈 거야." },
+        { "en": "What will you do if you win?", "ko": "이기면 뭐 할 거예요?" }
+      ],
+      "koreanTip": "'만약 ~하면 ~할 것이다'에 해당해요. if절은 현재, 주절은 will을 써요.",
+      "commonErrors": [
+        { "wrong": "If it will rain, I stay.", "correct": "If it rains, I will stay.", "reason": "if절에는 will 안 씀" },
+        { "wrong": "If you will come, I be happy.", "correct": "If you come, I will be happy.", "reason": "if절은 현재, 주절은 will" }
+      ]
+    },
+    {
+      "id": "gram-b1-003",
+      "name": "second_conditional",
+      "nameKo": "조건문 2형",
+      "priority": 1,
+      "explanation": "Use second conditional for unreal/hypothetical situations.",
+      "explanationKo": "비현실적이거나 가정적인 상황을 표현할 때 조건문 2형을 사용해요.",
+      "forms": {
+        "structure": "If + past simple, would + verb",
+        "be_verb": "If + were (all subjects), would + verb"
+      },
+      "examples": [
+        { "en": "If I had money, I would travel.", "ko": "돈이 있다면 여행할 텐데." },
+        { "en": "If she were here, she'd help.", "ko": "그녀가 여기 있다면 도와줄 텐데." },
+        { "en": "What would you do if you won?", "ko": "이기면 뭐 할 거예요?" },
+        { "en": "I wouldn't do that if I were you.", "ko": "내가 너라면 그렇게 안 할 거야." }
+      ],
+      "koreanTip": "'만약 ~라면 ~할 텐데'에 해당해요. 현재 사실과 반대되는 가정이에요.",
+      "commonErrors": [
+        { "wrong": "If I would have money.", "correct": "If I had money.", "reason": "if절에는 would 안 씀" },
+        { "wrong": "If I was you.", "correct": "If I were you.", "reason": "가정법에서는 were 사용" }
+      ]
+    },
+    {
+      "id": "gram-b1-004",
+      "name": "passive_voice",
+      "nameKo": "수동태",
+      "priority": 1,
+      "explanation": "Use passive when the action is more important than who did it.",
+      "explanationKo": "누가 했는지보다 행동 자체가 더 중요할 때 수동태를 사용해요.",
+      "forms": {
+        "present": "am/is/are + past participle",
+        "past": "was/were + past participle",
+        "future": "will be + past participle"
+      },
+      "examples": [
+        { "en": "English is spoken worldwide.", "ko": "영어는 전 세계적으로 사용돼요." },
+        { "en": "The book was written in 1920.", "ko": "그 책은 1920년에 쓰였어요." },
+        { "en": "The meeting will be held tomorrow.", "ko": "회의는 내일 열릴 거예요." },
+        { "en": "Mistakes were made.", "ko": "실수가 있었어요." }
+      ],
+      "koreanTip": "'~되다/~당하다'에 해당해요. by + 행위자로 누가 했는지 표현할 수 있어요.",
+      "commonErrors": [
+        { "wrong": "The window broken.", "correct": "The window was broken.", "reason": "be동사 필요" },
+        { "wrong": "It made in Korea.", "correct": "It is made in Korea.", "reason": "be동사 필요" }
+      ]
+    },
+    {
+      "id": "gram-b1-005",
+      "name": "reported_speech",
+      "nameKo": "간접화법",
+      "priority": 2,
+      "explanation": "Use reported speech to relay what someone said.",
+      "explanationKo": "누군가 말한 것을 전달할 때 간접화법을 사용해요.",
+      "forms": {
+        "statement": "He said (that) + clause (tense shift back)",
+        "question": "She asked if/whether + clause"
+      },
+      "examples": [
+        { "en": "He said he was tired.", "ko": "그는 피곤하다고 말했어요." },
+        { "en": "She told me she would come.", "ko": "그녀는 올 거라고 말했어요." },
+        { "en": "They asked if I was okay.", "ko": "그들은 내가 괜찮은지 물었어요." },
+        { "en": "He asked what time it was.", "ko": "그는 몇 시인지 물었어요." }
+      ],
+      "koreanTip": "간접화법에서는 시제가 한 단계 뒤로 가요 (is→was, will→would).",
+      "commonErrors": [
+        { "wrong": "He said he is tired.", "correct": "He said he was tired.", "reason": "시제 변화 필요" },
+        { "wrong": "She asked did I go.", "correct": "She asked if I went.", "reason": "의문문 어순 변화" }
+      ]
+    },
+    {
+      "id": "gram-b1-006",
+      "name": "relative_clauses",
+      "nameKo": "관계절",
+      "priority": 2,
+      "explanation": "Use relative clauses to give more information about a noun.",
+      "explanationKo": "명사에 대한 추가 정보를 줄 때 관계절을 사용해요.",
+      "forms": {
+        "who": "for people (subject)",
+        "which": "for things",
+        "that": "for people or things",
+        "where": "for places",
+        "whose": "for possession"
+      },
+      "examples": [
+        { "en": "The man who called is my brother.", "ko": "전화한 남자는 내 형이에요." },
+        { "en": "The book which I bought is great.", "ko": "내가 산 책은 훌륭해요." },
+        { "en": "That's the restaurant where we met.", "ko": "거기가 우리가 만난 식당이에요." },
+        { "en": "The girl whose bag was lost is crying.", "ko": "가방을 잃어버린 소녀가 울고 있어요." }
+      ],
+      "koreanTip": "관계대명사는 두 문장을 연결해 줘요. 사람은 who, 사물은 which, 장소는 where.",
+      "commonErrors": [
+        { "wrong": "The man which called.", "correct": "The man who called.", "reason": "사람에는 who" },
+        { "wrong": "The place who we went.", "correct": "The place where we went.", "reason": "장소에는 where" }
+      ]
+    },
+    {
+      "id": "gram-b1-007",
+      "name": "used_to",
+      "nameKo": "used to (과거 습관)",
+      "priority": 2,
+      "explanation": "Use 'used to' for past habits or states that no longer exist.",
+      "explanationKo": "더 이상 존재하지 않는 과거 습관이나 상태를 표현할 때 'used to'를 사용해요.",
+      "forms": {
+        "positive": "used to + verb",
+        "negative": "didn't use to + verb",
+        "question": "Did + subject + use to + verb?"
+      },
+      "examples": [
+        { "en": "I used to live in Seoul.", "ko": "나는 서울에 살았었어요." },
+        { "en": "She used to play tennis.", "ko": "그녀는 테니스를 치곤 했어요." },
+        { "en": "Did you use to smoke?", "ko": "담배 피우셨었어요?" },
+        { "en": "I didn't use to like coffee.", "ko": "나는 커피를 좋아하지 않았었어요." }
+      ],
+      "koreanTip": "'~하곤 했다/~였었다'에 해당해요. 지금은 더 이상 아닌 과거 상태예요.",
+      "commonErrors": [
+        { "wrong": "I use to play.", "correct": "I used to play.", "reason": "used (과거형) 사용" },
+        { "wrong": "I didn't used to.", "correct": "I didn't use to.", "reason": "didn't 뒤에는 use (원형)" }
+      ]
+    },
+    {
+      "id": "gram-b1-008",
+      "name": "modals_possibility",
+      "nameKo": "가능성 표현 (might, may, could)",
+      "priority": 2,
+      "explanation": "Use might, may, could to express possibility.",
+      "explanationKo": "가능성을 표현할 때 might, may, could를 사용해요.",
+      "forms": {
+        "might": "less certain possibility",
+        "may": "possible",
+        "could": "possible (past possibility)"
+      },
+      "examples": [
+        { "en": "It might rain tomorrow.", "ko": "내일 비가 올 수도 있어요." },
+        { "en": "She may be at home.", "ko": "그녀가 집에 있을 수도 있어요." },
+        { "en": "He could be right.", "ko": "그가 맞을 수도 있어요." },
+        { "en": "They might not come.", "ko": "그들이 안 올 수도 있어요." }
+      ],
+      "koreanTip": "확실성 순서: will > should > may > might/could. might가 가장 불확실해요.",
+      "commonErrors": [
+        { "wrong": "It might to rain.", "correct": "It might rain.", "reason": "조동사 뒤에는 to 없음" },
+        { "wrong": "She mays come.", "correct": "She may come.", "reason": "조동사는 변하지 않음" }
+      ]
+    },
+    {
+      "id": "gram-b1-009",
+      "name": "present_perfect_continuous",
+      "nameKo": "현재완료 진행형",
+      "priority": 2,
+      "explanation": "Use present perfect continuous for actions that started in the past and continue now.",
+      "explanationKo": "과거에 시작해서 지금까지 계속되는 행동을 표현할 때 사용해요.",
+      "forms": {
+        "positive": "have/has been + verb-ing",
+        "negative": "haven't/hasn't been + verb-ing",
+        "question": "Have/Has + subject + been + verb-ing?"
+      },
+      "examples": [
+        { "en": "I've been waiting for an hour.", "ko": "나는 한 시간째 기다리고 있어요." },
+        { "en": "She's been studying all day.", "ko": "그녀는 하루 종일 공부하고 있어요." },
+        { "en": "Have you been exercising?", "ko": "운동하고 있었어요?" },
+        { "en": "It's been raining since morning.", "ko": "아침부터 비가 오고 있어요." }
+      ],
+      "koreanTip": "'~해 오고 있다'에 해당해요. 진행의 지속을 강조해요.",
+      "commonErrors": [
+        { "wrong": "I been waiting.", "correct": "I've been waiting.", "reason": "have 필요" },
+        { "wrong": "She has been wait.", "correct": "She has been waiting.", "reason": "-ing 필요" }
+      ]
+    },
+    {
+      "id": "gram-b1-010",
+      "name": "too_enough",
+      "nameKo": "too / enough",
+      "priority": 3,
+      "explanation": "Use too and enough to express degree.",
+      "explanationKo": "정도를 표현할 때 too와 enough를 사용해요.",
+      "forms": {
+        "too": "too + adjective (too hot)",
+        "enough_adj": "adjective + enough (big enough)",
+        "enough_noun": "enough + noun (enough time)"
+      },
+      "examples": [
+        { "en": "It's too expensive.", "ko": "너무 비싸요." },
+        { "en": "Is it warm enough?", "ko": "충분히 따뜻해요?" },
+        { "en": "I don't have enough money.", "ko": "나는 돈이 충분하지 않아요." },
+        { "en": "You're too young to drive.", "ko": "운전하기에는 너무 어려요." }
+      ],
+      "koreanTip": "too는 '너무 ~해서 안 돼', enough는 '충분히 ~해서 돼'예요.",
+      "commonErrors": [
+        { "wrong": "It's enough big.", "correct": "It's big enough.", "reason": "enough는 형용사 뒤" },
+        { "wrong": "Too money.", "correct": "Too much money.", "reason": "명사에는 too much/many" }
+      ]
+    }
+  ]
+}

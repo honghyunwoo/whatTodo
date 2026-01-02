@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "lastUpdated": "2026-01-02",
   "description": "스파인 콘텐츠 인덱스 - CEFR 기반 핵심 학습 자료",
   "structure": {
@@ -13,7 +13,7 @@
         "C1": "functions/c1-functions.json",
         "C2": "functions/c2-functions.json"
       },
-      "available": ["A1"]
+      "available": ["A1", "A2", "B1", "B2", "C1", "C2"]
     },
     "grammar": {
       "description": "핵심 문법 포인트",
@@ -25,7 +25,7 @@
         "C1": "grammar/c1-grammar.json",
         "C2": "grammar/c2-grammar.json"
       },
-      "available": ["A1"]
+      "available": ["A1", "A2", "B1", "B2", "C1", "C2"]
     },
     "lexis": {
       "description": "어휘 덩어리 및 연어",
@@ -37,7 +37,7 @@
         "C1": "lexis/c1-lexis.json",
         "C2": "lexis/c2-lexis.json"
       },
-      "available": ["A1"]
+      "available": ["A1", "A2", "B1", "B2", "C1", "C2"]
     },
     "pronunciation": {
       "description": "발음 포인트 (대상 언어 화자별)",
@@ -49,16 +49,36 @@
   },
   "stats": {
     "functions": {
-      "A1": { "count": 10, "expressions": 68 }
+      "A1": { "count": 10, "expressions": 68 },
+      "A2": { "count": 10, "expressions": 60 },
+      "B1": { "count": 10, "expressions": 66 },
+      "B2": { "count": 10, "expressions": 66 },
+      "C1": { "count": 10, "expressions": 60 },
+      "C2": { "count": 10, "expressions": 60 }
     },
     "grammar": {
-      "A1": { "count": 10, "examples": 40 }
+      "A1": { "count": 10, "examples": 40 },
+      "A2": { "count": 10, "examples": 40 },
+      "B1": { "count": 10, "examples": 40 },
+      "B2": { "count": 10, "examples": 40 },
+      "C1": { "count": 10, "examples": 40 },
+      "C2": { "count": 10, "examples": 40 }
     },
     "lexis": {
-      "A1": { "chunks": 10, "collocations": 5, "items": 80 }
+      "A1": { "chunks": 10, "collocations": 5, "items": 80 },
+      "A2": { "chunks": 8, "collocations": 4, "items": 66 },
+      "B1": { "chunks": 8, "collocations": 4, "items": 68 },
+      "B2": { "chunks": 8, "collocations": 4, "items": 68 },
+      "C1": { "chunks": 8, "collocations": 4, "items": 64 },
+      "C2": { "chunks": 8, "collocations": 4, "items": 62 }
     },
     "pronunciation": {
       "korean": { "focusAreas": 10 }
     }
+  },
+  "totalItems": {
+    "functions": 60,
+    "grammar": 60,
+    "lexis": 48
   }
 }
