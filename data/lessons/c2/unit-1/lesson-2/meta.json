@@ -9,9 +9,18 @@
   "subtitleKo": "영어 유머 이해하고 사용하기",
   "theme": "humor",
   "estimatedMinutes": 30,
-  "keyPhrasesCount": 8,
-  "prerequisites": ["c2-u1-l1"],
-  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "keyPhrasesCount": 15,
+  "prerequisites": [
+    "c2-u1-l1"
+  ],
+  "activityTypes": [
+    "vocabulary",
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
   "weekMapping": "week-2",
   "objectives": [
     "Understand wordplay and puns",
@@ -24,13 +33,307 @@
     "유머를 적절히 사용하기"
   ],
   "keyPhrases": [
-    { "phrase": "I'm just pulling your leg", "meaning": "장난이에요" },
-    { "phrase": "That's a bit tongue-in-cheek", "meaning": "좀 빈정대는 거예요" },
-    { "phrase": "No pun intended", "meaning": "말장난은 아니에요" },
-    { "phrase": "Reading between the lines", "meaning": "행간을 읽다" },
-    { "phrase": "That went over my head", "meaning": "무슨 말인지 모르겠어요" },
-    { "phrase": "You're killing me!", "meaning": "웃겨 죽겠어요!" },
-    { "phrase": "Dry humor at its finest", "meaning": "무표정 유머의 정수네요" },
-    { "phrase": "I see what you did there", "meaning": "뭘 하려는지 알겠어요" }
+    {
+      "phrase": "I am just pulling your leg",
+      "meaning": "장난이에요",
+      "pronunciation": {
+        "ipa": "/aɪm dʒʌst ˈpʊlɪŋ jɔːr leɡ/",
+        "korean": "아임 저스트 풀링 유어 레그"
+      },
+      "context": "장난을 치거나 놀린 후에 밝힐 때",
+      "formalLevel": "casual",
+      "koreanTip": "영국에서 유래한 표현으로, 누군가를 놀리거나 장난칠 때 사용합니다.",
+      "example": {
+        "A": "You got promoted to CEO?!",
+        "B": "Ha! I am just pulling your leg. But I did get a raise."
+      },
+      "relatedPhrases": [
+        "I am just kidding",
+        "I am joking",
+        "I am teasing you"
+      ]
+    },
+    {
+      "phrase": "That is a bit tongue-in-cheek",
+      "meaning": "좀 빈정대는 거예요",
+      "pronunciation": {
+        "ipa": "/ðæts ə bɪt tʌŋ ɪn tʃiːk/",
+        "korean": "댓츠 어 빗 텅 인 치크"
+      },
+      "context": "진지하지 않은, 유머러스한 의도를 설명할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "웃음을 참느라 혀를 볼에 대는 모습에서 유래했습니다. 진지하지 않은 농담임을 나타냅니다.",
+      "example": {
+        "A": "Did you really mean that criticism?",
+        "B": "No, it was a bit tongue-in-cheek. I was trying to be funny."
+      },
+      "relatedPhrases": [
+        "It is ironic",
+        "It is said in jest",
+        "It is humorous"
+      ]
+    },
+    {
+      "phrase": "No pun intended",
+      "meaning": "말장난은 아니에요",
+      "pronunciation": {
+        "ipa": "/nəʊ pʌn ɪnˈtendɪd/",
+        "korean": "노 펀 인텐디드"
+      },
+      "context": "우연히 말장난이 되었을 때 해명할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "말장난을 의도하지 않았다고 밝히거나, 반대로 의도적인 말장난을 강조할 때도 사용합니다.",
+      "commonMistakes": "이 표현 자체가 말장난을 강조하는 효과가 있어서, 일부러 말장난 후에 쓰기도 합니다",
+      "example": {
+        "A": "This project is really taking off - no pun intended since it is an airline app.",
+        "B": "Ha! I see what you did there."
+      },
+      "relatedPhrases": [
+        "Pun intended",
+        "Excuse the pun",
+        "Pardon the pun"
+      ]
+    },
+    {
+      "phrase": "Reading between the lines",
+      "meaning": "행간을 읽다",
+      "pronunciation": {
+        "ipa": "/ˈriːdɪŋ bɪˈtwiːn ðə laɪnz/",
+        "korean": "리딩 비트윈 더 라인즈"
+      },
+      "context": "숨겨진 의미나 암시를 파악할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "글자 그대로가 아닌 숨겨진 의미를 이해하는 능력을 말합니다.",
+      "example": {
+        "A": "The email said the project is 'on track,' but...",
+        "B": "Reading between the lines, it sounds like they are behind schedule."
+      },
+      "relatedPhrases": [
+        "To understand the subtext",
+        "To get the hidden meaning",
+        "To pick up on hints"
+      ]
+    },
+    {
+      "phrase": "That went over my head",
+      "meaning": "무슨 말인지 모르겠어요",
+      "pronunciation": {
+        "ipa": "/ðæt went ˈəʊvər maɪ hed/",
+        "korean": "댓 웬트 오버 마이 헤드"
+      },
+      "context": "농담이나 언급을 이해하지 못했을 때",
+      "formalLevel": "casual",
+      "koreanTip": "머리 위로 지나갔다는 것은 이해하지 못했다는 뜻입니다.",
+      "example": {
+        "A": "Did you get the reference to Shakespeare?",
+        "B": "Honestly, that went over my head. I have not read Hamlet."
+      },
+      "relatedPhrases": [
+        "I did not get it",
+        "I missed that",
+        "That was lost on me"
+      ]
+    },
+    {
+      "phrase": "You are killing me!",
+      "meaning": "웃겨 죽겠어요!",
+      "pronunciation": {
+        "ipa": "/jʊər ˈkɪlɪŋ miː/",
+        "korean": "유어 킬링 미"
+      },
+      "context": "무언가가 매우 웃길 때",
+      "formalLevel": "casual",
+      "koreanTip": "웃음으로 죽을 것 같다는 과장된 표현입니다. 매우 친한 사이에서 사용합니다.",
+      "example": {
+        "A": "And then the cat fell into the cake!",
+        "B": "You are killing me! I cannot stop laughing!"
+      },
+      "relatedPhrases": [
+        "That is hilarious",
+        "I am dying of laughter",
+        "Stop, I cannot breathe"
+      ]
+    },
+    {
+      "phrase": "Dry humor at its finest",
+      "meaning": "무표정 유머의 정수네요",
+      "pronunciation": {
+        "ipa": "/draɪ ˈhjuːmər æt ɪts ˈfaɪnɪst/",
+        "korean": "드라이 휴머 앳 잇츠 파이니스트"
+      },
+      "context": "표정 변화 없이 전달되는 미묘한 유머를 인정할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "영국식 유머의 특징입니다. 진지한 표정으로 웃긴 말을 합니다.",
+      "example": {
+        "A": "The meeting could have been an email. But here we are, hour three.",
+        "B": "Dry humor at its finest. I appreciate your wit."
+      },
+      "relatedPhrases": [
+        "Deadpan humor",
+        "Understated comedy",
+        "Subtle wit"
+      ]
+    },
+    {
+      "phrase": "I see what you did there",
+      "meaning": "뭘 하려는지 알겠어요",
+      "pronunciation": {
+        "ipa": "/aɪ siː wɒt juː dɪd ðeər/",
+        "korean": "아이 시 왓 유 디드 데어"
+      },
+      "context": "상대방의 말장난이나 교묘한 유머를 알아챘을 때",
+      "formalLevel": "casual",
+      "koreanTip": "상대방의 숨겨진 의도나 말장난을 이해했다는 것을 보여주는 표현입니다.",
+      "example": {
+        "A": "I could not put the book down. It was about anti-gravity.",
+        "B": "Ha! I see what you did there. Nice pun."
+      },
+      "relatedPhrases": [
+        "I get it",
+        "Nice one",
+        "Clever"
+      ]
+    },
+    {
+      "phrase": "That is so meta",
+      "meaning": "자기 참조적이네요",
+      "pronunciation": {
+        "ipa": "/ðæts səʊ ˈmetə/",
+        "korean": "댓츠 소 메타"
+      },
+      "context": "무언가가 자기 자신을 참조하거나 반영할 때",
+      "formalLevel": "casual",
+      "koreanTip": "메타(자기 참조)는 현대 인터넷 문화에서 자주 사용되는 개념입니다.",
+      "example": {
+        "A": "A movie about making a movie about making movies.",
+        "B": "That is so meta. Very postmodern."
+      },
+      "relatedPhrases": [
+        "Self-referential",
+        "Recursive",
+        "Very self-aware"
+      ]
+    },
+    {
+      "phrase": "The irony is not lost on me",
+      "meaning": "아이러니한 거 알아요",
+      "pronunciation": {
+        "ipa": "/ðə ˈaɪrəni ɪz nɒt lɒst ɒn miː/",
+        "korean": "디 아이러니 이즈 낫 로스트 온 미"
+      },
+      "context": "상황의 아이러니를 인식하고 있음을 표현할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "아이러니한 상황을 본인도 알고 있다는 것을 자조적으로 인정하는 표현입니다.",
+      "example": {
+        "A": "A fire station burned down?",
+        "B": "The irony is not lost on me. They called another station for help."
+      },
+      "relatedPhrases": [
+        "I appreciate the irony",
+        "How ironic",
+        "The situation is not without irony"
+      ]
+    },
+    {
+      "phrase": "To have a good poker face",
+      "meaning": "무표정을 잘 유지하다",
+      "pronunciation": {
+        "ipa": "/tuː hæv ə ɡʊd ˈpəʊkər feɪs/",
+        "korean": "투 해브 어 굿 포커 페이스"
+      },
+      "context": "감정이나 의도를 숨기고 표정을 유지할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "포커 게임에서 자신의 패를 숨기기 위해 표정을 드러내지 않는 것에서 유래했습니다.",
+      "example": {
+        "A": "How did you not laugh during that presentation?",
+        "B": "I have a good poker face. I was dying inside though."
+      },
+      "relatedPhrases": [
+        "To keep a straight face",
+        "To not show emotions",
+        "To remain expressionless"
+      ]
+    },
+    {
+      "phrase": "That is a backhanded compliment",
+      "meaning": "그건 비꼬는 칭찬이에요",
+      "pronunciation": {
+        "ipa": "/ðæts ə ˈbækhændɪd ˈkɒmplɪmənt/",
+        "korean": "댓츠 어 백핸디드 컴플리먼트"
+      },
+      "context": "칭찬처럼 들리지만 실제로는 비판인 말을 지적할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "테니스에서 백핸드가 정면이 아닌 것처럼, 직접적이지 않은 부정적 의미의 칭찬입니다.",
+      "example": {
+        "A": "You are smart for someone without a degree.",
+        "B": "That is a backhanded compliment if I ever heard one."
+      },
+      "relatedPhrases": [
+        "Left-handed compliment",
+        "Insult disguised as praise",
+        "Passive-aggressive compliment"
+      ]
+    },
+    {
+      "phrase": "To play it straight",
+      "meaning": "진지하게 연기하다",
+      "pronunciation": {
+        "ipa": "/tuː pleɪ ɪt streɪt/",
+        "korean": "투 플레이 잇 스트레이트"
+      },
+      "context": "코미디 상황에서도 진지하게 행동할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "코미디의 straight man(진지한 역할)에서 온 표현입니다.",
+      "example": {
+        "A": "How does he make those jokes so funny?",
+        "B": "His partner plays it straight, which makes the contrast hilarious."
+      },
+      "relatedPhrases": [
+        "To be the straight man",
+        "To not break character",
+        "To remain serious"
+      ]
+    },
+    {
+      "phrase": "To have someone in stitches",
+      "meaning": "웃겨서 배가 아프게 하다",
+      "pronunciation": {
+        "ipa": "/tuː hæv ˈsʌmwʌn ɪn ˈstɪtʃɪz/",
+        "korean": "투 해브 섬원 인 스티치즈"
+      },
+      "context": "누군가를 매우 웃기게 했을 때",
+      "formalLevel": "casual",
+      "koreanTip": "너무 웃어서 옆구리에 바늘로 찌르는 것 같은 통증(stitch)이 생긴다는 뜻입니다.",
+      "example": {
+        "A": "How was the comedy show?",
+        "B": "Amazing! The comedian had the whole audience in stitches."
+      },
+      "relatedPhrases": [
+        "To make someone laugh hard",
+        "To crack someone up",
+        "To be hysterical"
+      ]
+    },
+    {
+      "phrase": "Wink wink, nudge nudge",
+      "meaning": "알지? (의미심장하게)",
+      "pronunciation": {
+        "ipa": "/wɪŋk wɪŋk nʌdʒ nʌdʒ/",
+        "korean": "윙크 윙크 넛지 넛지"
+      },
+      "context": "암시적인 의미가 있음을 나타낼 때",
+      "formalLevel": "casual",
+      "koreanTip": "영국 코미디 Monty Python에서 유래한 표현으로, 숨겨진 의미가 있음을 나타냅니다.",
+      "commonMistakes": "매우 비격식적인 표현입니다. 업무 상황에서는 사용하지 마세요",
+      "example": {
+        "A": "I will be working late tonight, wink wink, nudge nudge.",
+        "B": "Ha! I know you are really going on a date."
+      },
+      "relatedPhrases": [
+        "If you know what I mean",
+        "Hint hint",
+        "Say no more"
+      ]
+    }
   ]
 }

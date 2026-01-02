@@ -9,9 +9,18 @@
   "subtitleKo": "의미의 미묘한 차이 이해하기",
   "theme": "nuance",
   "estimatedMinutes": 25,
-  "keyPhrasesCount": 7,
-  "prerequisites": ["c1-u1-l1"],
-  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "keyPhrasesCount": 15,
+  "prerequisites": [
+    "c1-u1-l1"
+  ],
+  "activityTypes": [
+    "vocabulary",
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
   "weekMapping": "week-2",
   "objectives": [
     "Distinguish similar expressions",
@@ -24,12 +33,307 @@
     "격식 수준 조절하기"
   ],
   "keyPhrases": [
-    { "phrase": "I would suggest that...", "meaning": "(공손) 제안하자면..." },
-    { "phrase": "With all due respect...", "meaning": "실례를 무릅쓰고..." },
-    { "phrase": "It's worth considering that...", "meaning": "...을 고려해 볼 가치가 있어요" },
-    { "phrase": "To put it mildly...", "meaning": "완곡하게 말하자면..." },
-    { "phrase": "I couldn't agree more", "meaning": "전적으로 동의해요" },
-    { "phrase": "That's one way of looking at it", "meaning": "그렇게 볼 수도 있죠 (우회적 반대)" },
-    { "phrase": "I'm inclined to think that...", "meaning": "...라고 생각하는 편이에요" }
+    {
+      "phrase": "I would suggest that...",
+      "meaning": "(공손) 제안하자면...",
+      "pronunciation": {
+        "ipa": "/aɪ wʊd səˈdʒest ðæt/",
+        "korean": "아이 우드 서제스트 댓"
+      },
+      "context": "공손하게 의견을 제시할 때",
+      "formalLevel": "formal",
+      "koreanTip": "would를 사용하면 더 부드럽고 공손한 표현이 됩니다. I suggest that보다 훨씬 정중합니다.",
+      "example": {
+        "A": "How should we handle this client issue?",
+        "B": "I would suggest that we schedule a call to discuss their concerns directly."
+      },
+      "relatedPhrases": [
+        "Perhaps we could...",
+        "It might be worth considering...",
+        "May I suggest..."
+      ]
+    },
+    {
+      "phrase": "With all due respect...",
+      "meaning": "실례를 무릅쓰고...",
+      "pronunciation": {
+        "ipa": "/wɪð ɔːl djuː rɪˈspekt/",
+        "korean": "위드 올 듀 리스펙트"
+      },
+      "context": "반대 의견을 정중하게 표현할 때",
+      "formalLevel": "formal",
+      "koreanTip": "이 표현 뒤에는 보통 상대방과 다른 의견이 따라옵니다. 격식 있는 자리에서 사용하세요.",
+      "commonMistakes": "이 표현을 쓴 후에도 여전히 공손해야 합니다. 공격적인 말을 정당화하는 데 쓰지 마세요",
+      "example": {
+        "A": "I think we should expand into new markets immediately.",
+        "B": "With all due respect, I believe we should stabilize our current position first."
+      },
+      "relatedPhrases": [
+        "While I understand your point...",
+        "I appreciate your perspective, but...",
+        "Respectfully, I disagree..."
+      ]
+    },
+    {
+      "phrase": "It is worth considering that...",
+      "meaning": "...을 고려해 볼 가치가 있어요",
+      "pronunciation": {
+        "ipa": "/ɪts wɜːθ kənˈsɪdərɪŋ ðæt/",
+        "korean": "잇츠 워스 컨시더링 댓"
+      },
+      "context": "새로운 관점이나 요소를 제안할 때",
+      "formalLevel": "formal",
+      "koreanTip": "직접적으로 의견을 말하는 대신 생각해볼 가치가 있다고 제안하는 부드러운 표현입니다.",
+      "example": {
+        "A": "We are focused on cost reduction.",
+        "B": "It is worth considering that quality improvements might also attract more customers."
+      },
+      "relatedPhrases": [
+        "We should bear in mind that...",
+        "It is important to note that...",
+        "One factor to consider is..."
+      ]
+    },
+    {
+      "phrase": "To put it mildly...",
+      "meaning": "완곡하게 말하자면...",
+      "pronunciation": {
+        "ipa": "/tuː pʊt ɪt ˈmaɪldli/",
+        "korean": "투 풋 잇 마일들리"
+      },
+      "context": "실제보다 부드럽게 표현할 때 (언더스테이트먼트)",
+      "formalLevel": "neutral",
+      "koreanTip": "실제 상황이 더 심각하다는 것을 암시합니다. 영국식 완곡어법의 전형적인 예입니다.",
+      "example": {
+        "A": "How was the presentation?",
+        "B": "To put it mildly, it did not go as planned. It was actually a disaster."
+      },
+      "relatedPhrases": [
+        "To say the least...",
+        "If I am being honest...",
+        "Without exaggeration..."
+      ]
+    },
+    {
+      "phrase": "I could not agree more",
+      "meaning": "전적으로 동의해요",
+      "pronunciation": {
+        "ipa": "/aɪ ˈkʊdnt əˈɡriː mɔːr/",
+        "korean": "아이 쿠든트 어그리 모어"
+      },
+      "context": "완전히 동의할 때 강조하는 표현",
+      "formalLevel": "neutral",
+      "koreanTip": "could not은 부정이지만 이 표현은 매우 강한 긍정입니다. 더 이상 동의할 수 없다 = 완전 동의라는 뜻입니다.",
+      "example": {
+        "A": "I think communication is key to team success.",
+        "B": "I could not agree more. It is the foundation of everything."
+      },
+      "relatedPhrases": [
+        "Absolutely",
+        "You are absolutely right",
+        "I totally agree"
+      ]
+    },
+    {
+      "phrase": "That is one way of looking at it",
+      "meaning": "그렇게 볼 수도 있죠 (우회적 반대)",
+      "pronunciation": {
+        "ipa": "/ðæts wʌn weɪ ɒv ˈlʊkɪŋ æt ɪt/",
+        "korean": "댓츠 원 웨이 오브 루킹 앳 잇"
+      },
+      "context": "동의하지 않지만 직접 반대하고 싶지 않을 때",
+      "formalLevel": "neutral",
+      "koreanTip": "이 표현은 종종 다른 의견이 있다는 것을 암시합니다. 문자 그대로 받아들이지 마세요.",
+      "commonMistakes": "이 표현은 보통 완곡한 반대입니다. 진심으로 동의하는 것처럼 들리지 않습니다",
+      "example": {
+        "A": "I think we should just fire the underperforming staff.",
+        "B": "That is one way of looking at it. However, training might be more effective."
+      },
+      "relatedPhrases": [
+        "I see your point, but...",
+        "Perhaps, although...",
+        "That is certainly a perspective..."
+      ]
+    },
+    {
+      "phrase": "I am inclined to think that...",
+      "meaning": "...라고 생각하는 편이에요",
+      "pronunciation": {
+        "ipa": "/aɪm ɪnˈklaɪnd tuː θɪŋk ðæt/",
+        "korean": "아임 인클라인드 투 띵크 댓"
+      },
+      "context": "확신 없이 조심스럽게 의견을 말할 때",
+      "formalLevel": "formal",
+      "koreanTip": "I think보다 더 조심스럽고 격식 있는 표현입니다. 절대적인 확신보다는 경향을 나타냅니다.",
+      "example": {
+        "A": "What do you think about the new proposal?",
+        "B": "I am inclined to think that it needs more research before we commit."
+      },
+      "relatedPhrases": [
+        "I tend to believe that...",
+        "My view is that...",
+        "I lean towards thinking that..."
+      ]
+    },
+    {
+      "phrase": "If I may be so bold...",
+      "meaning": "주제넘은 말일 수 있지만...",
+      "pronunciation": {
+        "ipa": "/ɪf aɪ meɪ biː səʊ bəʊld/",
+        "korean": "이프 아이 메이 비 소 볼드"
+      },
+      "context": "대담하거나 직설적인 의견을 말하기 전에",
+      "formalLevel": "formal",
+      "koreanTip": "매우 격식 있는 표현입니다. 상사나 고객에게 강한 의견을 말할 때 사용합니다.",
+      "example": {
+        "A": "We have been doing it this way for years.",
+        "B": "If I may be so bold, perhaps it is time for a fresh approach."
+      },
+      "relatedPhrases": [
+        "If I may say so...",
+        "If I might venture an opinion...",
+        "Allow me to suggest..."
+      ]
+    },
+    {
+      "phrase": "There is something to be said for...",
+      "meaning": "...에도 일리가 있어요",
+      "pronunciation": {
+        "ipa": "/ðeər ɪz ˈsʌmθɪŋ tuː biː sed fɔːr/",
+        "korean": "데어 이즈 섬띵 투 비 세드 포"
+      },
+      "context": "반대 의견의 장점을 인정할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "자신의 의견과 다르더라도 상대방 관점의 가치를 인정하는 성숙한 표현입니다.",
+      "example": {
+        "A": "Remote work is inefficient.",
+        "B": "There is something to be said for the flexibility it offers employees."
+      },
+      "relatedPhrases": [
+        "There is merit in...",
+        "One advantage is...",
+        "It has its benefits..."
+      ]
+    },
+    {
+      "phrase": "I take your point, but...",
+      "meaning": "말씀은 알겠는데...",
+      "pronunciation": {
+        "ipa": "/aɪ teɪk jɔːr pɔɪnt bʌt/",
+        "korean": "아이 테이크 유어 포인트 벗"
+      },
+      "context": "상대방의 말을 이해했지만 다른 의견이 있을 때",
+      "formalLevel": "neutral",
+      "koreanTip": "상대방의 논점을 받아들인다는 것을 보여주면서 반론을 제시하는 방법입니다.",
+      "example": {
+        "A": "We need to cut costs immediately.",
+        "B": "I take your point, but cutting too fast might hurt morale."
+      },
+      "relatedPhrases": [
+        "I understand what you mean, however...",
+        "That is valid, although...",
+        "I hear you, but..."
+      ]
+    },
+    {
+      "phrase": "Correct me if I am wrong, but...",
+      "meaning": "제가 틀렸다면 정정해 주세요, 하지만...",
+      "pronunciation": {
+        "ipa": "/kəˈrekt miː ɪf aɪm rɒŋ bʌt/",
+        "korean": "커렉트 미 이프 아임 롱 벗"
+      },
+      "context": "확실하지 않은 정보를 공유하거나 다른 의견을 제시할 때",
+      "formalLevel": "formal",
+      "koreanTip": "겸손하게 자신의 의견을 제시하면서 상대방이 정정할 기회를 주는 표현입니다.",
+      "example": {
+        "A": "The project is ahead of schedule.",
+        "B": "Correct me if I am wrong, but I believe we are actually two weeks behind."
+      },
+      "relatedPhrases": [
+        "Unless I am mistaken...",
+        "If my understanding is correct...",
+        "As far as I know..."
+      ]
+    },
+    {
+      "phrase": "It is not entirely without merit",
+      "meaning": "완전히 가치가 없는 것은 아니에요",
+      "pronunciation": {
+        "ipa": "/ɪts nɒt ɪnˈtaɪərli wɪˈðaʊt ˈmerɪt/",
+        "korean": "잇츠 낫 인타이얼리 위다웃 메릿"
+      },
+      "context": "완곡하게 긍정적인 평가를 할 때 (이중 부정)",
+      "formalLevel": "formal",
+      "koreanTip": "이중 부정으로 약한 긍정을 표현합니다. 영국식 표현의 특징입니다.",
+      "example": {
+        "A": "What do you think of the budget proposal?",
+        "B": "It is not entirely without merit, though I would suggest some revisions."
+      },
+      "relatedPhrases": [
+        "It has some potential",
+        "There are aspects worth considering",
+        "It is not completely off base"
+      ]
+    },
+    {
+      "phrase": "For what it is worth...",
+      "meaning": "참고로 말씀드리자면...",
+      "pronunciation": {
+        "ipa": "/fɔːr wɒt ɪts wɜːθ/",
+        "korean": "포 왓 잇츠 워스"
+      },
+      "context": "의견이나 정보의 가치를 겸손하게 제시할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "자신의 의견이 가치가 있을 수도 없을 수도 있다는 겸손함을 보여줍니다.",
+      "example": {
+        "A": "Should I take this job offer?",
+        "B": "For what it is worth, I think it is a great opportunity for growth."
+      },
+      "relatedPhrases": [
+        "In my humble opinion...",
+        "If you want my two cents...",
+        "Just my thoughts..."
+      ]
+    },
+    {
+      "phrase": "I would not go so far as to say...",
+      "meaning": "...라고까지는 말하지 않겠어요",
+      "pronunciation": {
+        "ipa": "/aɪ ˈwʊdnt ɡəʊ səʊ fɑːr æz tuː seɪ/",
+        "korean": "아이 우든트 고 소 파 애즈 투 세이"
+      },
+      "context": "극단적인 표현을 완화할 때",
+      "formalLevel": "formal",
+      "koreanTip": "상대방의 과장된 표현에 동의하지 않으면서도 직접 반대하지 않는 방법입니다.",
+      "example": {
+        "A": "This project is a complete failure.",
+        "B": "I would not go so far as to say that. It has challenges, but there are salvageable parts."
+      },
+      "relatedPhrases": [
+        "That might be overstating it",
+        "Perhaps that is a bit strong",
+        "I would temper that by saying..."
+      ]
+    },
+    {
+      "phrase": "All things considered...",
+      "meaning": "모든 것을 고려하면...",
+      "pronunciation": {
+        "ipa": "/ɔːl θɪŋz kənˈsɪdəd/",
+        "korean": "올 띵즈 컨시더드"
+      },
+      "context": "모든 요소를 고려한 결론을 말할 때",
+      "formalLevel": "formal",
+      "koreanTip": "종합적인 평가나 결론을 내릴 때 사용하는 격식체 표현입니다.",
+      "example": {
+        "A": "How would you rate the conference?",
+        "B": "All things considered, it was a success despite some technical issues."
+      },
+      "relatedPhrases": [
+        "On balance...",
+        "Taking everything into account...",
+        "Overall..."
+      ]
+    }
   ]
 }

@@ -5,7 +5,6 @@
   "level": "A1",
   "title": "Be동사 (am, is, are)",
   "description": "Be동사의 기본 형태와 사용법을 학습합니다.",
-
   "rules": [
     {
       "id": "r1",
@@ -65,99 +64,348 @@
       ]
     }
   ],
-
   "exercises": [
     {
       "id": "ex1",
       "type": "multiple_choice",
       "question": "I ___ a teacher.",
-      "options": ["am", "is", "are", "be"],
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
       "answer": "am",
-      "explanation": "'I'와 함께 사용하는 be동사는 'am'입니다."
+      "explanation": "'I'와 함께 사용하는 be동사는 'am'입니다.",
+      "koreanTip": "한국어에는 인칭에 따른 동사 변화가 없지만, 영어에서는 반드시 주어에 맞는 be동사를 사용해야 합니다.",
+      "difficulty": "easy"
     },
     {
       "id": "ex2",
       "type": "multiple_choice",
       "question": "She ___ my friend.",
-      "options": ["am", "is", "are", "be"],
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
       "answer": "is",
-      "explanation": "'She'는 3인칭 단수이므로 'is'를 사용합니다."
+      "explanation": "'She'는 3인칭 단수이므로 'is'를 사용합니다.",
+      "koreanTip": "She(그녀), He(그), It(그것)은 모두 3인칭 단수로 is를 사용합니다.",
+      "difficulty": "easy"
     },
     {
       "id": "ex3",
       "type": "multiple_choice",
       "question": "They ___ students.",
-      "options": ["am", "is", "are", "be"],
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
       "answer": "are",
-      "explanation": "'They'는 복수 주어이므로 'are'를 사용합니다."
+      "explanation": "'They'는 복수 주어이므로 'are'를 사용합니다.",
+      "koreanTip": "복수 주어(They, We, You)는 항상 are와 함께 사용합니다.",
+      "difficulty": "easy"
     },
     {
       "id": "ex4",
       "type": "fill_blank",
       "question": "You ___ kind. (친절하다)",
       "answer": "are",
-      "explanation": "'You'와 함께 사용하는 be동사는 'are'입니다."
+      "explanation": "'You'와 함께 사용하는 be동사는 'are'입니다.",
+      "koreanTip": "You는 단수든 복수든 항상 are를 사용합니다.",
+      "difficulty": "easy"
     },
     {
       "id": "ex5",
       "type": "fill_blank",
       "question": "He ___ from Seoul.",
       "answer": "is",
-      "explanation": "'He'는 3인칭 단수이므로 'is'를 사용합니다."
+      "explanation": "'He'는 3인칭 단수이므로 'is'를 사용합니다.",
+      "koreanTip": "그는 서울 출신이다에서 ~출신이다를 be from으로 표현합니다.",
+      "difficulty": "easy"
     },
     {
       "id": "ex6",
       "type": "multiple_choice",
       "question": "I ___ not happy.",
-      "options": ["am", "is", "are", "be"],
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
       "answer": "am",
-      "explanation": "부정문에서도 주어에 맞는 be동사를 사용합니다. 'I'는 'am'입니다."
+      "explanation": "부정문에서도 주어에 맞는 be동사를 사용합니다. 'I'는 'am'입니다.",
+      "koreanTip": "I am not은 축약형이 없습니다.",
+      "difficulty": "medium"
     },
     {
       "id": "ex7",
       "type": "multiple_choice",
       "question": "She ___ not (isn't) at school.",
-      "options": ["am", "is", "are", "be"],
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
       "answer": "is",
-      "explanation": "'She'는 3인칭 단수이므로 'is'를 사용하고, 부정문은 'is not' 또는 'isn't'입니다."
+      "explanation": "'She'는 3인칭 단수이므로 'is'를 사용하고, 부정문은 'is not' 또는 'isn't'입니다.",
+      "koreanTip": "is not = isnt, are not = arent로 축약할 수 있습니다.",
+      "difficulty": "medium"
     },
     {
       "id": "ex8",
       "type": "fill_blank",
       "question": "___ you a doctor? (당신은 의사입니까?)",
       "answer": "Are",
-      "explanation": "의문문은 be동사를 주어 앞에 놓습니다. 'you'는 'Are'를 사용합니다."
+      "explanation": "의문문은 be동사를 주어 앞에 놓습니다. 'you'는 'Are'를 사용합니다.",
+      "koreanTip": "한국어는 ~입니까?로 끝나지만, 영어는 어순을 바꿔야 합니다.",
+      "difficulty": "medium"
     },
     {
       "id": "ex9",
       "type": "fill_blank",
       "question": "___ he your brother? (그는 당신의 형제입니까?)",
       "answer": "Is",
-      "explanation": "의문문에서 'he'는 'Is'를 주어 앞에 놓습니다."
+      "explanation": "의문문에서 'he'는 'Is'를 주어 앞에 놓습니다.",
+      "koreanTip": "의문문 첫 글자는 대문자로 씁니다.",
+      "difficulty": "medium"
     },
     {
       "id": "ex10",
       "type": "sentence_ordering",
       "question": "다음 단어를 올바른 순서로 배열하세요: [you, a, Are, student, ?]",
-      "options": ["you", "a", "Are", "student", "?"],
-      "answer": ["Are", "you", "a", "student", "?"],
-      "explanation": "의문문: Are + 주어(you) + a + 명사(student) + ? 순서입니다."
+      "options": [
+        "you",
+        "a",
+        "Are",
+        "student",
+        "?"
+      ],
+      "answer": [
+        "Are",
+        "you",
+        "a",
+        "student",
+        "?"
+      ],
+      "explanation": "의문문: Are + 주어(you) + a + 명사(student) + ? 순서입니다.",
+      "koreanTip": "영어 의문문은 동사 + 주어 순서입니다. 한국어와 반대!",
+      "difficulty": "medium"
     },
     {
       "id": "ex11",
       "type": "sentence_ordering",
       "question": "다음 단어를 올바른 순서로 배열하세요: [not, I, happy, am]",
-      "options": ["not", "I", "happy", "am"],
-      "answer": ["I", "am", "not", "happy"],
-      "explanation": "부정문: 주어(I) + be동사(am) + not + 형용사(happy) 순서입니다."
+      "options": [
+        "not",
+        "I",
+        "happy",
+        "am"
+      ],
+      "answer": [
+        "I",
+        "am",
+        "not",
+        "happy"
+      ],
+      "explanation": "부정문: 주어(I) + be동사(am) + not + 형용사(happy) 순서입니다.",
+      "koreanTip": "영어는 주어 + 동사 + not + 형용사 순서로 부정문을 만듭니다.",
+      "difficulty": "medium"
     },
     {
       "id": "ex12",
       "type": "multiple_choice",
       "question": "We ___ from Japan.",
-      "options": ["am", "is", "are", "be"],
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
       "answer": "are",
-      "explanation": "'We'는 복수 주어이므로 'are'를 사용합니다."
+      "explanation": "'We'는 복수 주어이므로 'are'를 사용합니다.",
+      "koreanTip": "We(우리)는 항상 복수로 취급하여 are를 사용합니다.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ex13",
+      "type": "error_correction",
+      "question": "다음 문장의 오류를 찾아 수정하세요: He are a doctor.",
+      "incorrectSentence": "He are a doctor.",
+      "answer": "He is a doctor.",
+      "errorType": "be동사 일치 오류",
+      "explanation": "He는 3인칭 단수이므로 are가 아닌 is를 사용해야 합니다.",
+      "koreanTip": "주어가 He/She/It일 때는 항상 is!",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ex14",
+      "type": "error_correction",
+      "question": "다음 문장의 오류를 찾아 수정하세요: I is tired.",
+      "incorrectSentence": "I is tired.",
+      "answer": "I am tired.",
+      "errorType": "be동사 일치 오류",
+      "explanation": "I와 함께 사용하는 be동사는 오직 am입니다.",
+      "koreanTip": "I는 특별합니다! am은 오직 I하고만 씁니다.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ex15",
+      "type": "error_correction",
+      "question": "다음 문장의 오류를 찾아 수정하세요: You is my best friend.",
+      "incorrectSentence": "You is my best friend.",
+      "answer": "You are my best friend.",
+      "errorType": "be동사 일치 오류",
+      "explanation": "You와 함께 사용하는 be동사는 are입니다.",
+      "koreanTip": "너가 한 명이어도 You는 항상 are와 함께 씁니다.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ex16",
+      "type": "translation",
+      "question": "다음 문장을 영어로 번역하세요: 나는 행복합니다.",
+      "koreanSentence": "나는 행복합니다.",
+      "answer": "I am happy.",
+      "acceptableAnswers": [
+        "I am happy.",
+        "I'm happy."
+      ],
+      "explanation": "나는은 I, 행복합니다는 am happy로 표현합니다.",
+      "koreanTip": "한국어 ~입니다/합니다는 영어에서 be동사로 표현되는 경우가 많습니다.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ex17",
+      "type": "translation",
+      "question": "다음 문장을 영어로 번역하세요: 그녀는 한국인입니다.",
+      "koreanSentence": "그녀는 한국인입니다.",
+      "answer": "She is Korean.",
+      "acceptableAnswers": [
+        "She is Korean.",
+        "She's Korean."
+      ],
+      "explanation": "그녀는은 She, 한국인입니다는 is Korean으로 표현합니다.",
+      "koreanTip": "국적을 말할 때 a Korean보다 Korean이 더 자연스럽습니다.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ex18",
+      "type": "translation",
+      "question": "다음 문장을 영어로 번역하세요: 그들은 학생이 아닙니다.",
+      "koreanSentence": "그들은 학생이 아닙니다.",
+      "answer": "They are not students.",
+      "acceptableAnswers": [
+        "They are not students.",
+        "They aren't students."
+      ],
+      "explanation": "그들은은 They, 학생이 아닙니다는 are not students로 표현합니다.",
+      "koreanTip": "복수 주어의 부정문: They + are + not + 복수명사",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ex19",
+      "type": "multiple_choice",
+      "question": "My parents ___ at home.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer": "are",
+      "explanation": "My parents는 복수이므로 are를 사용합니다.",
+      "koreanTip": "parents(부모님), friends(친구들) 등 복수 명사는 are를 사용합니다.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ex20",
+      "type": "multiple_choice",
+      "question": "The book ___ on the table.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "answer": "is",
+      "explanation": "The book은 단수이므로 is를 사용합니다.",
+      "koreanTip": "사물(It)도 3인칭 단수입니다.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ex21",
+      "type": "fill_blank",
+      "question": "The students ___ in the classroom.",
+      "answer": "are",
+      "explanation": "The students는 복수이므로 are를 사용합니다.",
+      "koreanTip": "students처럼 -s가 붙은 복수 명사는 are와 함께 씁니다.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ex22",
+      "type": "sentence_ordering",
+      "question": "다음 단어를 올바른 순서로 배열하세요: [teacher, a, She, is, good]",
+      "options": [
+        "teacher",
+        "a",
+        "She",
+        "is",
+        "good"
+      ],
+      "answer": [
+        "She",
+        "is",
+        "a",
+        "good",
+        "teacher"
+      ],
+      "explanation": "평서문: 주어 + be동사 + 관사 + 형용사 + 명사 순서입니다.",
+      "koreanTip": "영어에서 형용사는 명사 앞에 옵니다.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ex23",
+      "type": "error_correction",
+      "question": "다음 문장의 오류를 찾아 수정하세요: Are she your sister?",
+      "incorrectSentence": "Are she your sister?",
+      "answer": "Is she your sister?",
+      "errorType": "be동사 일치 오류",
+      "explanation": "she는 3인칭 단수이므로 Is를 사용해야 합니다.",
+      "koreanTip": "의문문에서도 주어와 be동사의 일치를 확인하세요!",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ex24",
+      "type": "translation",
+      "question": "다음 문장을 영어로 번역하세요: 당신은 피곤합니까?",
+      "koreanSentence": "당신은 피곤합니까?",
+      "answer": "Are you tired?",
+      "acceptableAnswers": [
+        "Are you tired?"
+      ],
+      "explanation": "의문문은 be동사를 주어 앞에 놓습니다.",
+      "koreanTip": "영어 의문문은 어순이 바뀝니다: Be동사 + 주어 + 형용사?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ex25",
+      "type": "translation",
+      "question": "다음 문장을 영어로 번역하세요: 우리는 준비되었습니다.",
+      "koreanSentence": "우리는 준비되었습니다.",
+      "answer": "We are ready.",
+      "acceptableAnswers": [
+        "We are ready.",
+        "We're ready."
+      ],
+      "explanation": "우리는은 We, 준비되었습니다는 are ready로 표현합니다.",
+      "koreanTip": "준비되다는 영어로 be ready입니다.",
+      "difficulty": "medium"
     }
   ]
 }

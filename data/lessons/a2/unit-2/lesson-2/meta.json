@@ -9,9 +9,18 @@
   "subtitleKo": "은행, 우체국, 관공서 이용하기",
   "theme": "services",
   "estimatedMinutes": 15,
-  "keyPhrasesCount": 5,
-  "prerequisites": ["a2-u2-l1"],
-  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "keyPhrasesCount": 15,
+  "prerequisites": [
+    "a2-u2-l1"
+  ],
+  "activityTypes": [
+    "vocabulary",
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
   "weekMapping": "week-4",
   "objectives": [
     "Handle bank transactions",
@@ -24,10 +33,296 @@
     "관공서에서 문의하기"
   ],
   "keyPhrases": [
-    { "phrase": "I'd like to open an account", "meaning": "계좌를 개설하고 싶어요" },
-    { "phrase": "How much is shipping?", "meaning": "배송비가 얼마예요?" },
-    { "phrase": "I need to fill out a form", "meaning": "양식을 작성해야 해요" },
-    { "phrase": "What documents do I need?", "meaning": "어떤 서류가 필요해요?" },
-    { "phrase": "Please take a number", "meaning": "번호표를 뽑으세요" }
+    {
+      "phrase": "I'd like to open an account",
+      "meaning": "계좌를 개설하고 싶어요",
+      "pronunciation": {
+        "ipa": "/aɪd laɪk tuː ˈəʊpən ən əˈkaʊnt/",
+        "korean": "아이드 라이크 투 오픈 언 어카운트"
+      },
+      "context": "은행에서 새 계좌를 만들 때",
+      "formalLevel": "formal",
+      "koreanTip": "'I'd like to'는 'I want to'보다 정중한 표현",
+      "example": {
+        "A": "How can I help you today?",
+        "B": "I'd like to open an account, please."
+      },
+      "relatedPhrases": [
+        "I want to open a savings account",
+        "I need a new bank account"
+      ]
+    },
+    {
+      "phrase": "How much is shipping?",
+      "meaning": "배송비가 얼마예요?",
+      "pronunciation": {
+        "ipa": "/haʊ mʌtʃ ɪz ˈʃɪpɪŋ/",
+        "korean": "하우 머치 이즈 쉬핑"
+      },
+      "context": "우체국에서 택배 요금을 물을 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'shipping'은 배송, 'postage'는 우편 요금",
+      "example": {
+        "A": "I want to send this to Korea.",
+        "B": "How much is shipping?"
+      },
+      "relatedPhrases": [
+        "What's the postage?",
+        "How much to send this?"
+      ]
+    },
+    {
+      "phrase": "I need to fill out a form",
+      "meaning": "양식을 작성해야 해요",
+      "pronunciation": {
+        "ipa": "/aɪ niːd tuː fɪl aʊt ə fɔːrm/",
+        "korean": "아이 니드 투 필 아웃 어 폼"
+      },
+      "context": "서류 작성이 필요할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'fill out'은 양식을 작성하다, 'fill in'도 같은 의미",
+      "commonMistakes": [
+        "I need to write a form (X) → fill out a form (O)"
+      ],
+      "example": {
+        "A": "How do I apply for this?",
+        "B": "You need to fill out a form first."
+      },
+      "relatedPhrases": [
+        "complete the application",
+        "fill in the blanks"
+      ]
+    },
+    {
+      "phrase": "What documents do I need?",
+      "meaning": "어떤 서류가 필요해요?",
+      "pronunciation": {
+        "ipa": "/wɒt ˈdɒkjʊmənts duː aɪ niːd/",
+        "korean": "왓 도큐먼츠 두 아이 니드"
+      },
+      "context": "필요한 서류를 확인할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'documents'의 강세는 첫 음절에",
+      "example": {
+        "A": "I want to get a passport.",
+        "B": "What documents do I need to bring?"
+      },
+      "relatedPhrases": [
+        "What do I need to bring?",
+        "Is there any paperwork?"
+      ]
+    },
+    {
+      "phrase": "Please take a number",
+      "meaning": "번호표를 뽑으세요",
+      "pronunciation": {
+        "ipa": "/pliːz teɪk ə ˈnʌmbər/",
+        "korean": "플리즈 테이크 어 넘버"
+      },
+      "context": "대기 순서를 안내할 때",
+      "formalLevel": "formal",
+      "koreanTip": "한국의 번호표 시스템과 동일한 개념",
+      "example": {
+        "A": "I need to see a teller.",
+        "B": "Please take a number and wait for your turn."
+      },
+      "relatedPhrases": [
+        "Wait for your number to be called",
+        "Your number will be displayed"
+      ]
+    },
+    {
+      "phrase": "I'd like to make a deposit",
+      "meaning": "입금하고 싶어요",
+      "pronunciation": {
+        "ipa": "/aɪd laɪk tuː meɪk ə dɪˈpɒzɪt/",
+        "korean": "아이드 라이크 투 메이크 어 디파짓"
+      },
+      "context": "은행에서 돈을 입금할 때",
+      "formalLevel": "formal",
+      "koreanTip": "'deposit'의 강세는 두 번째 음절에, 'd'는 't'처럼 들릴 수 있음",
+      "example": {
+        "A": "How can I help you?",
+        "B": "I'd like to make a deposit, please."
+      },
+      "relatedPhrases": [
+        "I want to deposit money",
+        "Put money into my account"
+      ]
+    },
+    {
+      "phrase": "Can I withdraw money here?",
+      "meaning": "여기서 출금할 수 있나요?",
+      "pronunciation": {
+        "ipa": "/kæn aɪ wɪðˈdrɔː ˈmʌni hɪər/",
+        "korean": "캔 아이 위드드로 머니 히어"
+      },
+      "context": "출금 가능 여부를 확인할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'withdraw'의 'th'는 혀를 이 사이에 대고 발음",
+      "example": {
+        "A": "Can I withdraw money here?",
+        "B": "Yes, use the ATM or go to the counter."
+      },
+      "relatedPhrases": [
+        "I need to get cash",
+        "I'd like to take out money"
+      ]
+    },
+    {
+      "phrase": "Where do I sign?",
+      "meaning": "어디에 서명하면 되나요?",
+      "pronunciation": {
+        "ipa": "/weər duː aɪ saɪn/",
+        "korean": "웨어 두 아이 사인"
+      },
+      "context": "서류에 서명할 위치를 물을 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'sign'은 서명하다, 'signature'는 서명(명사)",
+      "example": {
+        "A": "Please complete this form.",
+        "B": "Where do I sign?"
+      },
+      "relatedPhrases": [
+        "Sign here please",
+        "Put your signature here"
+      ]
+    },
+    {
+      "phrase": "I'd like to send this by express",
+      "meaning": "이거 빠른 우편으로 보내고 싶어요",
+      "pronunciation": {
+        "ipa": "/aɪd laɪk tuː send ðɪs baɪ ɪkˈspres/",
+        "korean": "아이드 라이크 투 센드 디스 바이 익스프레스"
+      },
+      "context": "우체국에서 빠른 배송을 원할 때",
+      "formalLevel": "formal",
+      "koreanTip": "'express mail'은 빠른 우편, 'registered mail'은 등기 우편",
+      "example": {
+        "A": "How would you like to send this?",
+        "B": "I'd like to send this by express, please."
+      },
+      "relatedPhrases": [
+        "overnight delivery",
+        "priority mail"
+      ]
+    },
+    {
+      "phrase": "How long will it take?",
+      "meaning": "얼마나 걸리나요?",
+      "pronunciation": {
+        "ipa": "/haʊ lɒŋ wɪl ɪt teɪk/",
+        "korean": "하우 롱 윌 잇 테이크"
+      },
+      "context": "처리 시간이나 배송 기간을 물을 때",
+      "formalLevel": "neutral",
+      "koreanTip": "매우 유용한 표현, 다양한 상황에서 사용 가능",
+      "example": {
+        "A": "I'd like to send this to Japan.",
+        "B": "Sure. How long will it take?"
+      },
+      "relatedPhrases": [
+        "When will it arrive?",
+        "What's the delivery time?"
+      ]
+    },
+    {
+      "phrase": "I need a receipt, please",
+      "meaning": "영수증 주세요",
+      "pronunciation": {
+        "ipa": "/aɪ niːd ə rɪˈsiːt pliːz/",
+        "korean": "아이 니드 어 리시트 플리즈"
+      },
+      "context": "거래 후 영수증을 요청할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'receipt'의 'p'는 묵음, '리시트'로 발음",
+      "commonMistakes": [
+        "recipe (조리법) ≠ receipt (영수증)"
+      ],
+      "example": {
+        "A": "Here's your change.",
+        "B": "Thanks. I need a receipt, please."
+      },
+      "relatedPhrases": [
+        "Can I get a receipt?",
+        "I'd like a printout"
+      ]
+    },
+    {
+      "phrase": "Where's the nearest ATM?",
+      "meaning": "가장 가까운 ATM이 어디예요?",
+      "pronunciation": {
+        "ipa": "/weərz ðə ˈnɪərɪst eɪtiːˈem/",
+        "korean": "웨어즈 더 니어리스트 에이티엠"
+      },
+      "context": "ATM 위치를 찾을 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'ATM'은 영어로 에이-티-엠으로 각 글자를 따로 발음",
+      "example": {
+        "A": "Where's the nearest ATM?",
+        "B": "There's one around the corner, next to the pharmacy."
+      },
+      "relatedPhrases": [
+        "Is there a cash machine nearby?",
+        "Where can I get cash?"
+      ]
+    },
+    {
+      "phrase": "My package hasn't arrived yet",
+      "meaning": "제 택배가 아직 안 왔어요",
+      "pronunciation": {
+        "ipa": "/maɪ ˈpækɪdʒ ˈhæznt əˈraɪvd jet/",
+        "korean": "마이 패키지 해즌트 어라이브드 옛"
+      },
+      "context": "배송 문제를 문의할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "현재완료 부정문으로 '아직'을 강조",
+      "example": {
+        "A": "How can I help you?",
+        "B": "My package hasn't arrived yet. Can you track it?"
+      },
+      "relatedPhrases": [
+        "It's been delayed",
+        "I'm still waiting for my delivery"
+      ]
+    },
+    {
+      "phrase": "Can I change this to dollars?",
+      "meaning": "이거 달러로 바꿀 수 있나요?",
+      "pronunciation": {
+        "ipa": "/kæn aɪ tʃeɪndʒ ðɪs tuː ˈdɒlərz/",
+        "korean": "캔 아이 체인지 디스 투 달러즈"
+      },
+      "context": "환전할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'exchange'도 같은 의미로 사용 가능",
+      "example": {
+        "A": "Can I change this to dollars?",
+        "B": "Yes. Today's exchange rate is..."
+      },
+      "relatedPhrases": [
+        "I'd like to exchange currency",
+        "What's the rate today?"
+      ]
+    },
+    {
+      "phrase": "I lost my passport",
+      "meaning": "여권을 분실했어요",
+      "pronunciation": {
+        "ipa": "/aɪ lɒst maɪ ˈpɑːspɔːrt/",
+        "korean": "아이 로스트 마이 패스포트"
+      },
+      "context": "대사관이나 경찰서에서 분실 신고할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'lost'는 lose의 과거형, 분실했다는 의미",
+      "example": {
+        "A": "I lost my passport. What should I do?",
+        "B": "You need to report it and apply for a new one."
+      },
+      "relatedPhrases": [
+        "My wallet was stolen",
+        "I need to report a loss"
+      ]
+    }
   ]
 }

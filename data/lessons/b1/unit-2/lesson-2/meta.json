@@ -9,9 +9,18 @@
   "subtitleKo": "거래 협상하고 합의 도출하기",
   "theme": "negotiations",
   "estimatedMinutes": 15,
-  "keyPhrasesCount": 5,
-  "prerequisites": ["b1-u2-l1"],
-  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "keyPhrasesCount": 15,
+  "prerequisites": [
+    "b1-u2-l1"
+  ],
+  "activityTypes": [
+    "vocabulary",
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
   "weekMapping": "week-4",
   "objectives": [
     "Make and respond to proposals",
@@ -24,10 +33,247 @@
     "성공적으로 거래 마무리하기"
   ],
   "keyPhrases": [
-    { "phrase": "What if we...?", "meaning": "...하면 어떨까요?" },
-    { "phrase": "I can offer you...", "meaning": "...을 제안할 수 있습니다" },
-    { "phrase": "That sounds fair", "meaning": "공정해 보이네요" },
-    { "phrase": "Let's meet halfway", "meaning": "서로 양보합시다" },
-    { "phrase": "We have a deal", "meaning": "합의했습니다" }
+    {
+      "phrase": "What if we...?",
+      "meaning": "...하면 어떨까요?",
+      "pronunciation": "/wɒt ɪf wiː/ 왓 이프 위",
+      "context": "새로운 제안을 할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'What if'는 '왓 이프'로 발음. 가정을 제시하는 표현",
+      "example": {
+        "A": "The price seems too high for us.",
+        "B": "What if we offer a longer contract in exchange for a discount?"
+      },
+      "relatedPhrases": [
+        "How about if...?",
+        "Suppose we...?"
+      ]
+    },
+    {
+      "phrase": "I can offer you...",
+      "meaning": "...을 제안할 수 있습니다",
+      "pronunciation": "/aɪ kæn ˈɒfər juː/ 아이 캔 오퍼 유",
+      "context": "구체적인 제안을 할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'offer'는 '오퍼'로 발음. 제안의 구체적 내용을 말할 때",
+      "example": {
+        "A": "What can you do for us?",
+        "B": "I can offer you a 10% discount on bulk orders."
+      },
+      "relatedPhrases": [
+        "We're prepared to offer...",
+        "My offer is..."
+      ]
+    },
+    {
+      "phrase": "That sounds fair",
+      "meaning": "공정해 보이네요",
+      "pronunciation": "/ðæt saʊndz feər/ 댓 사운즈 페어",
+      "context": "상대의 제안을 수락할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'sounds'는 '사운즈'로 발음. 's'가 'z' 소리로 변함",
+      "example": {
+        "A": "How about we split the shipping costs?",
+        "B": "That sounds fair. I can agree to that."
+      },
+      "relatedPhrases": [
+        "That's reasonable.",
+        "I can work with that."
+      ]
+    },
+    {
+      "phrase": "Let's meet halfway",
+      "meaning": "서로 양보합시다",
+      "pronunciation": "/lets miːt ˈhæfweɪ/ 렛츠 밋 해프웨이",
+      "context": "타협점을 찾자고 할 때",
+      "formalLevel": "casual",
+      "koreanTip": "'halfway'는 '해프웨이'로 발음. '중간에서 만나다'라는 의미",
+      "example": {
+        "A": "We want $100, you're offering $80.",
+        "B": "Let's meet halfway—how about $90?"
+      },
+      "relatedPhrases": [
+        "Can we compromise?",
+        "Let's find middle ground."
+      ]
+    },
+    {
+      "phrase": "We have a deal",
+      "meaning": "합의했습니다",
+      "pronunciation": "/wiː hæv ə diːl/ 위 해브 어 딜",
+      "context": "협상이 성공적으로 마무리될 때",
+      "formalLevel": "casual",
+      "koreanTip": "'deal'은 '딜'로 발음. 합의, 거래를 의미",
+      "example": {
+        "A": "So we'll go with your proposal.",
+        "B": "Excellent! We have a deal. Let's shake on it."
+      },
+      "relatedPhrases": [
+        "It's a deal.",
+        "We're in agreement."
+      ]
+    },
+    {
+      "phrase": "I'm afraid that's not possible",
+      "meaning": "죄송하지만 그건 어렵습니다",
+      "pronunciation": "/aɪm əˈfreɪd ðæts nɒt ˈpɒsəbl/ 아임 어프레이드 댓츠 낫 파서블",
+      "context": "정중하게 제안을 거절할 때",
+      "formalLevel": "formal",
+      "koreanTip": "'I'm afraid'는 '두렵다'가 아닌 '유감이지만'의 의미",
+      "commonMistakes": "'I'm afraid'를 '무섭다'로 해석하면 안 됨. 공손한 거절 표현",
+      "example": {
+        "A": "Can you give us an additional 20% off?",
+        "B": "I'm afraid that's not possible within our margins."
+      },
+      "relatedPhrases": [
+        "Unfortunately, we can't...",
+        "I wish we could, but..."
+      ]
+    },
+    {
+      "phrase": "That's beyond what we can accept",
+      "meaning": "저희가 수용할 수 있는 범위를 넘어섭니다",
+      "pronunciation": "/ðæts bɪˈjɒnd wɒt wiː kæn əkˈsept/ 댓츠 비욘드 왓 위 캔 악셉트",
+      "context": "제안이 수용 불가능함을 표현할 때",
+      "formalLevel": "formal",
+      "koreanTip": "'beyond'는 '비욘드'로 발음. '넘어서'라는 의미",
+      "example": {
+        "A": "We need a 50% discount.",
+        "B": "That's beyond what we can accept. Our maximum is 15%."
+      },
+      "relatedPhrases": [
+        "That exceeds our limits.",
+        "We can't go that far."
+      ]
+    },
+    {
+      "phrase": "What would it take to...?",
+      "meaning": "...하려면 무엇이 필요할까요?",
+      "pronunciation": "/wɒt wʊd ɪt teɪk tə/ 왓 우드 잇 테이크 투",
+      "context": "협상에서 상대의 조건을 탐색할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'What would it take'는 조건을 물어보는 관용 표현",
+      "example": {
+        "A": "We need faster delivery.",
+        "B": "What would it take to make this deal work for you?"
+      },
+      "relatedPhrases": [
+        "What do you need to...?",
+        "How can we make this work?"
+      ]
+    },
+    {
+      "phrase": "I need to consult with my team",
+      "meaning": "팀과 상의해 봐야 합니다",
+      "pronunciation": "/aɪ niːd tə kənˈsʌlt wɪð maɪ tiːm/ 아이 니드 투 컨설트 위드 마이 팀",
+      "context": "결정을 보류하고 싶을 때",
+      "formalLevel": "formal",
+      "koreanTip": "'consult'는 '컨설트'로 발음. 강세는 두 번째 음절",
+      "example": {
+        "A": "Can you confirm the order today?",
+        "B": "I need to consult with my team first. I'll get back to you tomorrow."
+      },
+      "relatedPhrases": [
+        "Let me check with my colleagues.",
+        "I'll need to discuss this internally."
+      ]
+    },
+    {
+      "phrase": "What are your terms?",
+      "meaning": "조건이 어떻게 되나요?",
+      "pronunciation": "/wɒt ɑːr jɔːr tɜːrmz/ 왓 아 유어 텀즈",
+      "context": "상대의 협상 조건을 물어볼 때",
+      "formalLevel": "formal",
+      "koreanTip": "'terms'는 '텀즈'로 발음. 계약 조건을 의미",
+      "example": {
+        "A": "We're interested in a partnership.",
+        "B": "Great. What are your terms for collaboration?"
+      },
+      "relatedPhrases": [
+        "What conditions do you have?",
+        "What's your proposal?"
+      ]
+    },
+    {
+      "phrase": "We're flexible on...",
+      "meaning": "...에 대해서는 유연합니다",
+      "pronunciation": "/wɪr ˈfleksəbl ɒn/ 위어 플렉서블 온",
+      "context": "협상 가능한 부분을 알릴 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'flexible'은 '플렉서블'로 발음. 유연성을 보여주는 표현",
+      "example": {
+        "A": "Can you adjust the timeline?",
+        "B": "We're flexible on the deadline, but not on the quality standards."
+      },
+      "relatedPhrases": [
+        "We can negotiate on...",
+        "There's room to discuss..."
+      ]
+    },
+    {
+      "phrase": "That's a deal-breaker for us",
+      "meaning": "그건 저희에게 결정적인 문제입니다",
+      "pronunciation": "/ðæts ə diːl ˈbreɪkər fɔːr ʌs/ 댓츠 어 딜 브레이커 포 어스",
+      "context": "양보할 수 없는 조건을 명확히 할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'deal-breaker'는 '거래를 깨는 것'→ '결정적 장애물'이라는 의미",
+      "example": {
+        "A": "We can only pay after 90 days.",
+        "B": "I'm sorry, but that's a deal-breaker for us. We need payment within 30 days."
+      },
+      "relatedPhrases": [
+        "We can't accept that.",
+        "That's non-negotiable for us."
+      ]
+    },
+    {
+      "phrase": "Let me make a counter-offer",
+      "meaning": "역제안을 하겠습니다",
+      "pronunciation": "/let miː meɪk ə ˈkaʊntər ˈɒfər/ 렛 미 메이크 어 카운터 오퍼",
+      "context": "상대의 제안에 대한 대안을 제시할 때",
+      "formalLevel": "formal",
+      "koreanTip": "'counter-offer'는 '카운터 오퍼'로 발음. 역제안을 의미",
+      "example": {
+        "A": "Our price is $500 per unit.",
+        "B": "That's a bit high. Let me make a counter-offer—$400 for 100 units."
+      },
+      "relatedPhrases": [
+        "Here's our alternative proposal.",
+        "How about this instead?"
+      ]
+    },
+    {
+      "phrase": "Can we revisit this point?",
+      "meaning": "이 부분을 다시 논의할 수 있을까요?",
+      "pronunciation": "/kæn wiː ˌriːˈvɪzɪt ðɪs pɔɪnt/ 캔 위 리비짓 디스 포인트",
+      "context": "이전에 논의한 내용을 다시 다루고 싶을 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'revisit'은 '리비짓'으로 발음. '다시 방문하다'→ '다시 검토하다'",
+      "example": {
+        "A": "So we've agreed on all points.",
+        "B": "Actually, can we revisit this point about delivery terms?"
+      },
+      "relatedPhrases": [
+        "Can we go back to...?",
+        "I'd like to discuss... again."
+      ]
+    },
+    {
+      "phrase": "Let's put it in writing",
+      "meaning": "서면으로 작성합시다",
+      "pronunciation": "/lets pʊt ɪt ɪn ˈraɪtɪŋ/ 렛츠 풋 잇 인 라이팅",
+      "context": "합의 내용을 공식화할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'in writing'은 '인 라이팅'으로 발음. 서면 계약을 의미",
+      "commonMistakes": "구두 합의 후에는 반드시 서면화하는 것이 비즈니스 관행",
+      "example": {
+        "A": "I think we're all agreed.",
+        "B": "Perfect. Let's put it in writing and I'll send the contract tomorrow."
+      },
+      "relatedPhrases": [
+        "I'll draft an agreement.",
+        "We'll formalize this."
+      ]
+    }
   ]
 }

@@ -9,9 +9,16 @@
   "subtitleKo": "학술 어휘와 구조 마스터하기",
   "theme": "academic",
   "estimatedMinutes": 20,
-  "keyPhrasesCount": 6,
+  "keyPhrasesCount": 15,
   "prerequisites": [],
-  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "activityTypes": [
+    "vocabulary",
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
   "weekMapping": "week-1",
   "objectives": [
     "Use formal academic language",
@@ -24,11 +31,310 @@
     "학술 발견 발표하기"
   ],
   "keyPhrases": [
-    { "phrase": "This study demonstrates that...", "meaning": "이 연구는 ...을 보여줍니다" },
-    { "phrase": "The findings suggest...", "meaning": "연구 결과에 따르면..." },
-    { "phrase": "As illustrated in Figure 1...", "meaning": "그림 1에 나타난 바와 같이..." },
-    { "phrase": "The hypothesis was supported by...", "meaning": "가설은 ...에 의해 뒷받침됨" },
-    { "phrase": "Further research is needed...", "meaning": "추가 연구가 필요합니다" },
-    { "phrase": "In conclusion, we can state...", "meaning": "결론적으로 말할 수 있는 것은..." }
+    {
+      "phrase": "This study demonstrates that...",
+      "meaning": "이 연구는 ...을 보여줍니다",
+      "pronunciation": {
+        "ipa": "/ðɪs ˈstʌdi ˈdemənstreɪts ðæt/",
+        "korean": "디스 스터디 데먼스트레이츠 댓"
+      },
+      "context": "연구 결과를 소개할 때 사용",
+      "formalLevel": "formal",
+      "koreanTip": "demonstrates의 t와 s를 분명히 발음하세요.",
+      "commonMistakes": "shows that보다 더 학술적이므로 논문에서는 이 표현을 선호합니다",
+      "example": {
+        "A": "What are the main findings of your research?",
+        "B": "This study demonstrates that early intervention significantly improves outcomes."
+      },
+      "relatedPhrases": [
+        "This research indicates that...",
+        "The evidence suggests that...",
+        "Our findings reveal that..."
+      ]
+    },
+    {
+      "phrase": "The findings suggest...",
+      "meaning": "연구 결과에 따르면...",
+      "pronunciation": {
+        "ipa": "/ðə ˈfaɪndɪŋz səˈdʒest/",
+        "korean": "더 파인딩즈 서제스트"
+      },
+      "context": "연구 결과를 조심스럽게 해석할 때",
+      "formalLevel": "formal",
+      "koreanTip": "suggest는 제안하다보다 시사하다의 의미로 사용됩니다.",
+      "example": {
+        "A": "Can you summarize your conclusions?",
+        "B": "The findings suggest a strong correlation between diet and cognitive function."
+      },
+      "relatedPhrases": [
+        "The results indicate...",
+        "The data implies...",
+        "The evidence points to..."
+      ]
+    },
+    {
+      "phrase": "As illustrated in Figure 1...",
+      "meaning": "그림 1에 나타난 바와 같이...",
+      "pronunciation": {
+        "ipa": "/æz ˈɪləstreɪtɪd ɪn ˈfɪɡjər wʌn/",
+        "korean": "애즈 일러스트레이티드 인 피겨 원"
+      },
+      "context": "시각 자료를 참조할 때",
+      "formalLevel": "formal",
+      "koreanTip": "illustrated에서 마지막 d는 가볍게 발음하세요.",
+      "example": {
+        "A": "How did the temperature change over time?",
+        "B": "As illustrated in Figure 1, the temperature increased steadily throughout the experiment."
+      },
+      "relatedPhrases": [
+        "As shown in Table 2...",
+        "As depicted in the diagram...",
+        "The graph demonstrates..."
+      ]
+    },
+    {
+      "phrase": "The hypothesis was supported by...",
+      "meaning": "가설은 ...에 의해 뒷받침됨",
+      "pronunciation": {
+        "ipa": "/ðə haɪˈpɑːθəsɪs wɒz səˈpɔːtɪd baɪ/",
+        "korean": "더 하이파서시스 워즈 서포티드 바이"
+      },
+      "context": "가설 검증 결과를 설명할 때",
+      "formalLevel": "formal",
+      "koreanTip": "hypothesis의 강세는 두 번째 음절에 있습니다.",
+      "commonMistakes": "hypothesis를 복수형 hypotheses와 혼동하지 마세요",
+      "example": {
+        "A": "Was your initial prediction correct?",
+        "B": "Yes, the hypothesis was supported by experimental data from three independent trials."
+      },
+      "relatedPhrases": [
+        "The theory was validated by...",
+        "Evidence confirms that...",
+        "The results corroborate..."
+      ]
+    },
+    {
+      "phrase": "Further research is needed...",
+      "meaning": "추가 연구가 필요합니다",
+      "pronunciation": {
+        "ipa": "/ˈfɜːðər rɪˈsɜːtʃ ɪz ˈniːdɪd/",
+        "korean": "퍼더 리서치 이즈 니디드"
+      },
+      "context": "연구의 한계를 인정하고 후속 연구를 제안할 때",
+      "formalLevel": "formal",
+      "koreanTip": "further와 farther를 구분하세요. 학술적 맥락에서는 항상 further를 사용합니다.",
+      "example": {
+        "A": "Are there any limitations to your study?",
+        "B": "Yes, further research is needed to determine the long-term effects of the treatment."
+      },
+      "relatedPhrases": [
+        "Additional studies are required...",
+        "More investigation is warranted...",
+        "Future work should explore..."
+      ]
+    },
+    {
+      "phrase": "In conclusion, we can state...",
+      "meaning": "결론적으로 말할 수 있는 것은...",
+      "pronunciation": {
+        "ipa": "/ɪn kənˈkluːʒən wiː kæn steɪt/",
+        "korean": "인 컨클루전 위 캔 스테이트"
+      },
+      "context": "논문이나 발표의 결론 부분",
+      "formalLevel": "formal",
+      "koreanTip": "conclusion의 s는 zh 소리로 발음됩니다.",
+      "example": {
+        "A": "What is your final assessment?",
+        "B": "In conclusion, we can state that the new methodology significantly improves accuracy."
+      },
+      "relatedPhrases": [
+        "To summarize...",
+        "In summary...",
+        "To conclude..."
+      ]
+    },
+    {
+      "phrase": "It is widely accepted that...",
+      "meaning": "...은 널리 받아들여지고 있습니다",
+      "pronunciation": {
+        "ipa": "/ɪt ɪz ˈwaɪdli əkˈseptɪd ðæt/",
+        "korean": "잇 이즈 와이들리 억셉티드 댓"
+      },
+      "context": "일반적으로 인정되는 사실을 언급할 때",
+      "formalLevel": "formal",
+      "koreanTip": "widely에서 ly를 명확히 발음하세요.",
+      "example": {
+        "A": "Is there scientific consensus on this topic?",
+        "B": "It is widely accepted that climate change affects global weather patterns."
+      },
+      "relatedPhrases": [
+        "It is generally acknowledged that...",
+        "There is consensus that...",
+        "Scholars agree that..."
+      ]
+    },
+    {
+      "phrase": "The methodology employed...",
+      "meaning": "사용된 방법론은...",
+      "pronunciation": {
+        "ipa": "/ðə ˌmeθəˈdɒlədʒi ɪmˈplɔɪd/",
+        "korean": "더 메서돌러지 임플로이드"
+      },
+      "context": "연구 방법을 설명할 때",
+      "formalLevel": "formal",
+      "koreanTip": "methodology는 4음절로 발음하며, 강세는 세 번째 음절에 있습니다.",
+      "commonMistakes": "method와 methodology는 다릅니다. methodology는 전체적인 연구 접근법을 의미합니다",
+      "example": {
+        "A": "How did you conduct this research?",
+        "B": "The methodology employed included both quantitative and qualitative analysis."
+      },
+      "relatedPhrases": [
+        "The approach utilized...",
+        "The research design...",
+        "The procedures followed..."
+      ]
+    },
+    {
+      "phrase": "According to the literature...",
+      "meaning": "문헌에 따르면...",
+      "pronunciation": {
+        "ipa": "/əˈkɔːdɪŋ tuː ðə ˈlɪtrətʃər/",
+        "korean": "어코딩 투 더 리터러처"
+      },
+      "context": "기존 연구를 인용할 때",
+      "formalLevel": "formal",
+      "koreanTip": "literature는 학술적 맥락에서 문학이 아닌 학술 문헌을 의미합니다.",
+      "example": {
+        "A": "What do previous studies say about this?",
+        "B": "According to the literature, this phenomenon has been documented since the 1990s."
+      },
+      "relatedPhrases": [
+        "Previous studies have shown...",
+        "As documented in prior research...",
+        "The existing body of work suggests..."
+      ]
+    },
+    {
+      "phrase": "A significant correlation was found...",
+      "meaning": "유의미한 상관관계가 발견되었습니다",
+      "pronunciation": {
+        "ipa": "/ə sɪɡˈnɪfɪkənt ˌkɒrəˈleɪʃən wɒz faʊnd/",
+        "korean": "어 시그니피컨트 코럴레이션 워즈 파운드"
+      },
+      "context": "통계적 결과를 보고할 때",
+      "formalLevel": "formal",
+      "koreanTip": "significant는 통계학에서 중요한보다 통계적으로 유의미한을 의미합니다.",
+      "commonMistakes": "correlation과 causation을 혼동하지 마세요",
+      "example": {
+        "A": "Did you find any relationship between the variables?",
+        "B": "A significant correlation was found between exercise frequency and mental health scores."
+      },
+      "relatedPhrases": [
+        "The variables were positively correlated...",
+        "A strong relationship exists between...",
+        "Statistical analysis revealed..."
+      ]
+    },
+    {
+      "phrase": "The scope of this study...",
+      "meaning": "이 연구의 범위는...",
+      "pronunciation": {
+        "ipa": "/ðə skəʊp ɒv ðɪs ˈstʌdi/",
+        "korean": "더 스코프 오브 디스 스터디"
+      },
+      "context": "연구 범위를 정의할 때",
+      "formalLevel": "formal",
+      "koreanTip": "scope는 범위뿐만 아니라 연구의 한계를 설정할 때도 사용됩니다.",
+      "example": {
+        "A": "What aspects does your research cover?",
+        "B": "The scope of this study is limited to urban populations in developed countries."
+      },
+      "relatedPhrases": [
+        "This paper focuses on...",
+        "The boundaries of this research...",
+        "The study is limited to..."
+      ]
+    },
+    {
+      "phrase": "The implications of these findings...",
+      "meaning": "이 발견들의 함의는...",
+      "pronunciation": {
+        "ipa": "/ðə ˌɪmplɪˈkeɪʃənz ɒv ðiːz ˈfaɪndɪŋz/",
+        "korean": "디 임플리케이션즈 오브 디즈 파인딩즈"
+      },
+      "context": "연구 결과의 의미를 설명할 때",
+      "formalLevel": "formal",
+      "koreanTip": "implications은 영향보다 더 넓은 의미로, 결과가 가져올 수 있는 모든 파급효과를 포함합니다.",
+      "example": {
+        "A": "Why is this research important?",
+        "B": "The implications of these findings extend to both policy-making and clinical practice."
+      },
+      "relatedPhrases": [
+        "The practical applications...",
+        "This has significant consequences for...",
+        "The broader impact..."
+      ]
+    },
+    {
+      "phrase": "It can be argued that...",
+      "meaning": "...라고 주장할 수 있습니다",
+      "pronunciation": {
+        "ipa": "/ɪt kæn biː ˈɑːɡjuːd ðæt/",
+        "korean": "잇 캔 비 아규드 댓"
+      },
+      "context": "논점을 제시할 때",
+      "formalLevel": "formal",
+      "koreanTip": "수동태 구문으로 객관성을 높이는 학술적 표현입니다.",
+      "example": {
+        "A": "What is your interpretation of the results?",
+        "B": "It can be argued that the traditional approach is no longer effective."
+      },
+      "relatedPhrases": [
+        "One could posit that...",
+        "There is reason to believe...",
+        "It is plausible that..."
+      ]
+    },
+    {
+      "phrase": "The data was analyzed using...",
+      "meaning": "데이터는 ...을 사용하여 분석되었습니다",
+      "pronunciation": {
+        "ipa": "/ðə ˈdeɪtə wɒz ˈænəlaɪzd ˈjuːzɪŋ/",
+        "korean": "더 데이터 워즈 애널라이즈드 유징"
+      },
+      "context": "분석 방법을 설명할 때",
+      "formalLevel": "formal",
+      "koreanTip": "영국식은 data를 복수로 취급하여 data were라고 쓰지만, 미국식은 data was를 허용합니다.",
+      "commonMistakes": "analysed (영국식)와 analyzed (미국식) 철자 차이에 주의하세요",
+      "example": {
+        "A": "What statistical tools did you use?",
+        "B": "The data was analyzed using SPSS software with a 95% confidence interval."
+      },
+      "relatedPhrases": [
+        "Statistical analysis was performed using...",
+        "We employed...for analysis",
+        "The dataset was processed with..."
+      ]
+    },
+    {
+      "phrase": "Notwithstanding these limitations...",
+      "meaning": "이러한 한계에도 불구하고...",
+      "pronunciation": {
+        "ipa": "/ˌnɒtwɪθˈstændɪŋ ðiːz ˌlɪmɪˈteɪʃənz/",
+        "korean": "낫위드스탠딩 디즈 리미테이션즈"
+      },
+      "context": "연구 한계를 인정하면서도 가치를 강조할 때",
+      "formalLevel": "formal",
+      "koreanTip": "despite보다 더 격식체인 표현입니다. 학술 논문에서 자주 사용됩니다.",
+      "example": {
+        "A": "Your sample size seems small.",
+        "B": "Notwithstanding these limitations, the study provides valuable insights into the phenomenon."
+      },
+      "relatedPhrases": [
+        "Despite these constraints...",
+        "In spite of these shortcomings...",
+        "Even with these caveats..."
+      ]
+    }
   ]
 }

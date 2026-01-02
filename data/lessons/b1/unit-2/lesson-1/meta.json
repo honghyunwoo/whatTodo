@@ -9,9 +9,18 @@
   "subtitleKo": "회의 진행 및 참여하기",
   "theme": "meetings",
   "estimatedMinutes": 15,
-  "keyPhrasesCount": 5,
-  "prerequisites": ["b1-u1-l2"],
-  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "keyPhrasesCount": 15,
+  "prerequisites": [
+    "b1-u1-l2"
+  ],
+  "activityTypes": [
+    "vocabulary",
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
   "weekMapping": "week-3",
   "objectives": [
     "Open and close meetings professionally",
@@ -24,10 +33,246 @@
     "질의응답 세션 진행하기"
   ],
   "keyPhrases": [
-    { "phrase": "Let's get started", "meaning": "시작하겠습니다" },
-    { "phrase": "Moving on to the next point", "meaning": "다음 안건으로 넘어가겠습니다" },
-    { "phrase": "Any questions so far?", "meaning": "여기까지 질문 있으신가요?" },
-    { "phrase": "To conclude today's meeting", "meaning": "오늘 회의를 마무리하자면" },
-    { "phrase": "Let's schedule a follow-up", "meaning": "후속 회의를 잡읍시다" }
+    {
+      "phrase": "Let's get started",
+      "meaning": "시작하겠습니다",
+      "pronunciation": "/lets ɡet ˈstɑːrtɪd/ 렛츠 겟 스타티드",
+      "context": "회의나 프레젠테이션을 시작할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'get started'는 '겟 스타티드'로 발음. 간결하고 에너지 있게",
+      "example": {
+        "A": "Is everyone here?",
+        "B": "Yes, let's get started. First on the agenda..."
+      },
+      "relatedPhrases": [
+        "Shall we begin?",
+        "Let's kick off."
+      ]
+    },
+    {
+      "phrase": "Moving on to the next point",
+      "meaning": "다음 안건으로 넘어가겠습니다",
+      "pronunciation": "/ˈmuːvɪŋ ɒn tə ðə nekst pɔɪnt/ 무빙 온 투 더 넥스트 포인트",
+      "context": "회의에서 다음 주제로 전환할 때",
+      "formalLevel": "formal",
+      "koreanTip": "'Moving on'은 '무빙 온'으로 자연스럽게 연결",
+      "example": {
+        "A": "Any more questions on this topic?",
+        "B": "No? Okay, moving on to the next point—the budget review."
+      },
+      "relatedPhrases": [
+        "Let's move on.",
+        "Next on the agenda..."
+      ]
+    },
+    {
+      "phrase": "Any questions so far?",
+      "meaning": "여기까지 질문 있으신가요?",
+      "pronunciation": "/ˈeni ˈkwestʃənz soʊ fɑːr/ 애니 퀘스천즈 소 파",
+      "context": "발표 중간에 이해를 확인할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'so far'는 '소 파'로 발음. '지금까지'라는 의미",
+      "example": {
+        "A": "That covers the first quarter results. Any questions so far?",
+        "B": "Yes, could you explain the drop in sales?"
+      },
+      "relatedPhrases": [
+        "Does everyone follow?",
+        "Is that clear so far?"
+      ]
+    },
+    {
+      "phrase": "To conclude today's meeting",
+      "meaning": "오늘 회의를 마무리하자면",
+      "pronunciation": "/tə kənˈkluːd təˈdeɪz ˈmiːtɪŋ/ 투 컨클루드 투데이즈 미팅",
+      "context": "회의를 마무리하며 요약할 때",
+      "formalLevel": "formal",
+      "koreanTip": "'conclude'는 '컨클루드'로 발음. 강세는 두 번째 음절",
+      "example": {
+        "A": "We've covered a lot today.",
+        "B": "To conclude today's meeting, we agreed on three action items."
+      },
+      "relatedPhrases": [
+        "In closing...",
+        "To wrap up..."
+      ]
+    },
+    {
+      "phrase": "Let's schedule a follow-up",
+      "meaning": "후속 회의를 잡읍시다",
+      "pronunciation": "/lets ˈskedʒuːl ə ˈfɒloʊ ʌp/ 렛츠 스케줄 어 팔로우 업",
+      "context": "추가 논의가 필요할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'follow-up'은 '팔로우 업'으로 발음. 명사로 사용",
+      "example": {
+        "A": "We need more time to discuss this.",
+        "B": "Agreed. Let's schedule a follow-up for next week."
+      },
+      "relatedPhrases": [
+        "We'll continue this later.",
+        "Let's reconvene."
+      ]
+    },
+    {
+      "phrase": "Thank you all for coming",
+      "meaning": "참석해 주셔서 감사합니다",
+      "pronunciation": "/θæŋk juː ɔːl fɔːr ˈkʌmɪŋ/ 땡큐 올 포 커밍",
+      "context": "회의 시작이나 끝에 참석자에게 감사할 때",
+      "formalLevel": "formal",
+      "koreanTip": "'Thank you'는 '땡큐'로 자연스럽게. 'th'는 혀를 가볍게 물고",
+      "example": {
+        "A": "That's all for today.",
+        "B": "Thank you all for coming. See you next week."
+      },
+      "relatedPhrases": [
+        "Thanks for joining.",
+        "Appreciate your time."
+      ]
+    },
+    {
+      "phrase": "The purpose of this meeting is...",
+      "meaning": "이 회의의 목적은...입니다",
+      "pronunciation": "/ðə ˈpɜːrpəs əv ðɪs ˈmiːtɪŋ ɪz/ 더 퍼퍼스 어브 디스 미팅 이즈",
+      "context": "회의 목적을 명확히 할 때",
+      "formalLevel": "formal",
+      "koreanTip": "'purpose'는 '퍼퍼스'로 발음. 강세는 첫 음절",
+      "example": {
+        "A": "Why are we meeting today?",
+        "B": "The purpose of this meeting is to finalize the project timeline."
+      },
+      "relatedPhrases": [
+        "Today we'll discuss...",
+        "The main goal is..."
+      ]
+    },
+    {
+      "phrase": "Could you elaborate on that?",
+      "meaning": "그 점에 대해 더 설명해 주시겠어요?",
+      "pronunciation": "/kʊd juː ɪˈlæbəreɪt ɒn ðæt/ 쿠드 유 일래버레잇 온 댓",
+      "context": "더 자세한 설명을 요청할 때",
+      "formalLevel": "formal",
+      "koreanTip": "'elaborate'는 '일래버레잇'으로 발음. 강세는 두 번째 음절",
+      "example": {
+        "A": "We need to restructure the team.",
+        "B": "Could you elaborate on that? What changes are you suggesting?"
+      },
+      "relatedPhrases": [
+        "Could you explain further?",
+        "Can you go into more detail?"
+      ]
+    },
+    {
+      "phrase": "I'd like to propose...",
+      "meaning": "...을 제안하고 싶습니다",
+      "pronunciation": "/aɪd laɪk tə prəˈpoʊz/ 아이드 라이크 투 프로포우즈",
+      "context": "회의에서 새로운 아이디어를 제시할 때",
+      "formalLevel": "formal",
+      "koreanTip": "'propose'는 '프로포우즈'로 발음. 'o'가 '오우' 소리",
+      "example": {
+        "A": "How should we handle this issue?",
+        "B": "I'd like to propose a three-phase approach."
+      },
+      "relatedPhrases": [
+        "I suggest that...",
+        "My recommendation is..."
+      ]
+    },
+    {
+      "phrase": "Let me share my screen",
+      "meaning": "화면 공유하겠습니다",
+      "pronunciation": "/let miː ʃeər maɪ skriːn/ 렛 미 쉐어 마이 스크린",
+      "context": "온라인 회의에서 자료를 보여줄 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'share'는 '쉐어'로 발음. 온라인 회의 필수 표현",
+      "example": {
+        "A": "I have some slides to show.",
+        "B": "Great, let me share my screen. Can everyone see this?"
+      },
+      "relatedPhrases": [
+        "I'll pull up the presentation.",
+        "Let me show you..."
+      ]
+    },
+    {
+      "phrase": "Before we move on...",
+      "meaning": "넘어가기 전에...",
+      "pronunciation": "/bɪˈfɔːr wiː muːv ɒn/ 비포 위 무브 온",
+      "context": "다음 주제로 넘어가기 전 확인할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'Before we'는 '비포 위'로 자연스럽게 연결",
+      "example": {
+        "A": "Any final thoughts on this topic?",
+        "B": "Before we move on, I just want to confirm the deadline."
+      },
+      "relatedPhrases": [
+        "Just one more thing...",
+        "Before continuing..."
+      ]
+    },
+    {
+      "phrase": "Can we get back on track?",
+      "meaning": "본론으로 돌아갈까요?",
+      "pronunciation": "/kæn wiː ɡet bæk ɒn træk/ 캔 위 겟 백 온 트랙",
+      "context": "토론이 산으로 갈 때 주제로 돌아오게 할 때",
+      "formalLevel": "casual",
+      "koreanTip": "'on track'은 '온 트랙'으로 발음. '제 궤도에'라는 의미",
+      "example": {
+        "A": "Speaking of which, did you see the game last night?",
+        "B": "Can we get back on track? We have limited time."
+      },
+      "relatedPhrases": [
+        "Let's refocus.",
+        "Let's stay on topic."
+      ]
+    },
+    {
+      "phrase": "Who would like to take the lead on this?",
+      "meaning": "이 건 누가 맡으시겠어요?",
+      "pronunciation": "/huː wʊd laɪk tə teɪk ðə liːd ɒn ðɪs/ 후 우드 라이크 투 테이크 더 리드 온 디스",
+      "context": "업무 담당자를 정할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'take the lead'는 '테이크 더 리드'로 발음. '주도하다'의 의미",
+      "example": {
+        "A": "We need someone to coordinate this project.",
+        "B": "Who would like to take the lead on this?"
+      },
+      "relatedPhrases": [
+        "Who's responsible for this?",
+        "Who wants to own this?"
+      ]
+    },
+    {
+      "phrase": "Let's table this for now",
+      "meaning": "이건 나중에 논의합시다",
+      "pronunciation": "/lets ˈteɪbl ðɪs fɔːr naʊ/ 렛츠 테이블 디스 포 나우",
+      "context": "현재 논의를 보류할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'table'은 미국식으로 '보류하다'라는 의미 (영국식은 반대)",
+      "commonMistakes": "미국: table = 보류하다, 영국: table = 안건으로 올리다 (반대 의미)",
+      "example": {
+        "A": "This discussion is getting too long.",
+        "B": "Let's table this for now and come back to it next week."
+      },
+      "relatedPhrases": [
+        "Let's put this aside.",
+        "We'll revisit this later."
+      ]
+    },
+    {
+      "phrase": "Are there any action items?",
+      "meaning": "실행 과제가 있나요?",
+      "pronunciation": "/ɑːr ðer ˈeni ˈækʃən ˈaɪtəmz/ 아 데어 애니 액션 아이템즈",
+      "context": "회의 마무리 시 할 일 확인할 때",
+      "formalLevel": "formal",
+      "koreanTip": "'action items'는 '액션 아이템즈'로 발음. 비즈니스 필수 용어",
+      "example": {
+        "A": "That covers everything for today.",
+        "B": "Are there any action items we need to track?"
+      },
+      "relatedPhrases": [
+        "What are the next steps?",
+        "What needs to be done?"
+      ]
+    }
   ]
 }

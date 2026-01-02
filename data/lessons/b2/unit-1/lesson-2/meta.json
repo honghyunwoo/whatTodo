@@ -9,9 +9,18 @@
   "subtitleKo": "명확한 기술 문서 작성하기",
   "theme": "technical",
   "estimatedMinutes": 20,
-  "keyPhrasesCount": 6,
-  "prerequisites": ["b2-u1-l1"],
-  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "keyPhrasesCount": 15,
+  "prerequisites": [
+    "b2-u1-l1"
+  ],
+  "activityTypes": [
+    "vocabulary",
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
   "weekMapping": "week-2",
   "objectives": [
     "Write clear technical instructions",
@@ -24,11 +33,306 @@
     "기술 용어 정확히 사용하기"
   ],
   "keyPhrases": [
-    { "phrase": "The procedure involves...", "meaning": "절차는 ...을 포함합니다" },
-    { "phrase": "Ensure that the system...", "meaning": "시스템이 ...하는지 확인하세요" },
-    { "phrase": "Troubleshooting steps include...", "meaning": "문제 해결 단계로는..." },
-    { "phrase": "The specifications require...", "meaning": "사양에는 ...이 필요합니다" },
-    { "phrase": "For optimal performance...", "meaning": "최적의 성능을 위해..." },
-    { "phrase": "Refer to the diagram below", "meaning": "아래 다이어그램을 참조하세요" }
+    {
+      "phrase": "The procedure involves...",
+      "meaning": "절차는 ...을 포함합니다",
+      "pronunciation": {
+        "ipa": "/ðə prəˈsiːdʒər ɪnˈvɒlvz/",
+        "korean": "더 프러시저 인볼브즈"
+      },
+      "context": "기술적 절차를 설명할 때",
+      "formalLevel": "formal",
+      "koreanTip": "procedure의 강세는 두 번째 음절에 있습니다.",
+      "example": {
+        "A": "How do we set up the server?",
+        "B": "The procedure involves configuring the network settings and installing the required software."
+      },
+      "relatedPhrases": [
+        "The process includes...",
+        "The steps are as follows...",
+        "This entails..."
+      ]
+    },
+    {
+      "phrase": "Ensure that the system...",
+      "meaning": "시스템이 ...하는지 확인하세요",
+      "pronunciation": {
+        "ipa": "/ɪnˈʃʊər ðæt ðə ˈsɪstəm/",
+        "korean": "인슈어 댓 더 시스템"
+      },
+      "context": "시스템 확인 사항을 지시할 때",
+      "formalLevel": "formal",
+      "koreanTip": "ensure와 insure는 다릅니다. ensure는 확실히 하다, insure는 보험에 들다입니다.",
+      "commonMistakes": "make sure보다 더 기술적이고 격식 있는 표현입니다",
+      "example": {
+        "A": "What should I check before deployment?",
+        "B": "Ensure that the system has sufficient memory and all dependencies are installed."
+      },
+      "relatedPhrases": [
+        "Verify that...",
+        "Confirm that...",
+        "Make certain that..."
+      ]
+    },
+    {
+      "phrase": "Troubleshooting steps include...",
+      "meaning": "문제 해결 단계로는...",
+      "pronunciation": {
+        "ipa": "/ˈtrʌblʃuːtɪŋ steps ɪnˈkluːd/",
+        "korean": "트러블슈팅 스텝스 인클루드"
+      },
+      "context": "문제 해결 가이드를 작성할 때",
+      "formalLevel": "formal",
+      "koreanTip": "troubleshooting은 하나의 단어입니다. trouble shooting으로 띄어쓰기하지 마세요.",
+      "example": {
+        "A": "The application keeps crashing. What should I do?",
+        "B": "Troubleshooting steps include clearing the cache, restarting the service, and checking the logs."
+      },
+      "relatedPhrases": [
+        "To resolve this issue...",
+        "If problems persist...",
+        "Diagnostic steps..."
+      ]
+    },
+    {
+      "phrase": "The specifications require...",
+      "meaning": "사양에는 ...이 필요합니다",
+      "pronunciation": {
+        "ipa": "/ðə ˌspesɪfɪˈkeɪʃənz rɪˈkwaɪər/",
+        "korean": "더 스페시피케이션즈 리콰이어"
+      },
+      "context": "기술 사양을 명시할 때",
+      "formalLevel": "formal",
+      "koreanTip": "specifications는 줄여서 specs라고도 합니다. 공식 문서에서는 전체 단어를 사용하세요.",
+      "example": {
+        "A": "What hardware do we need?",
+        "B": "The specifications require at least 16GB RAM and a quad-core processor."
+      },
+      "relatedPhrases": [
+        "The requirements state...",
+        "According to the specs...",
+        "The system demands..."
+      ]
+    },
+    {
+      "phrase": "For optimal performance...",
+      "meaning": "최적의 성능을 위해...",
+      "pronunciation": {
+        "ipa": "/fɔːr ˈɒptɪməl pərˈfɔːrməns/",
+        "korean": "포어 옵티멀 퍼포먼스"
+      },
+      "context": "성능 최적화 권장 사항을 제시할 때",
+      "formalLevel": "formal",
+      "koreanTip": "optimal과 optimum은 같은 의미지만 optimal이 더 일반적으로 사용됩니다.",
+      "example": {
+        "A": "How can we improve the system speed?",
+        "B": "For optimal performance, we recommend using SSD storage and enabling caching."
+      },
+      "relatedPhrases": [
+        "To maximize efficiency...",
+        "For best results...",
+        "To enhance performance..."
+      ]
+    },
+    {
+      "phrase": "Refer to the diagram below",
+      "meaning": "아래 다이어그램을 참조하세요",
+      "pronunciation": {
+        "ipa": "/rɪˈfɜːr tuː ðə ˈdaɪəɡræm bɪˈləʊ/",
+        "korean": "리퍼 투 더 다이어그램 빌로우"
+      },
+      "context": "시각 자료를 참조시킬 때",
+      "formalLevel": "formal",
+      "koreanTip": "refer to는 참조하다의 의미로, see보다 더 격식 있는 표현입니다.",
+      "example": {
+        "A": "I do not understand the network topology.",
+        "B": "Refer to the diagram below for a visual representation of the system architecture."
+      },
+      "relatedPhrases": [
+        "See Figure 1...",
+        "As shown in the illustration...",
+        "The following chart displays..."
+      ]
+    },
+    {
+      "phrase": "The system is designed to...",
+      "meaning": "시스템은 ...하도록 설계되었습니다",
+      "pronunciation": {
+        "ipa": "/ðə ˈsɪstəm ɪz dɪˈzaɪnd tuː/",
+        "korean": "더 시스템 이즈 디자인드 투"
+      },
+      "context": "시스템 설계 의도를 설명할 때",
+      "formalLevel": "formal",
+      "koreanTip": "designed to는 목적이나 의도를 나타냅니다. made to보다 더 기술적인 표현입니다.",
+      "example": {
+        "A": "What is the purpose of this module?",
+        "B": "The system is designed to handle high-volume data processing in real-time."
+      },
+      "relatedPhrases": [
+        "The architecture supports...",
+        "The component enables...",
+        "This is built to..."
+      ]
+    },
+    {
+      "phrase": "In the event of a failure...",
+      "meaning": "장애 발생 시...",
+      "pronunciation": {
+        "ipa": "/ɪn ðə ɪˈvent ɒv ə ˈfeɪljər/",
+        "korean": "인 디 이벤트 오브 어 페일러"
+      },
+      "context": "비상 상황이나 오류 대응을 설명할 때",
+      "formalLevel": "formal",
+      "koreanTip": "In the event of는 If보다 더 공식적이고 기술적인 표현입니다.",
+      "example": {
+        "A": "What happens if the primary server goes down?",
+        "B": "In the event of a failure, the backup server will automatically take over."
+      },
+      "relatedPhrases": [
+        "Should an error occur...",
+        "If the system fails...",
+        "In case of malfunction..."
+      ]
+    },
+    {
+      "phrase": "The configuration settings...",
+      "meaning": "설정 구성은...",
+      "pronunciation": {
+        "ipa": "/ðə ˌkɒnfɪɡəˈreɪʃən ˈsetɪŋz/",
+        "korean": "더 컨피규레이션 세팅즈"
+      },
+      "context": "시스템 설정을 설명할 때",
+      "formalLevel": "formal",
+      "koreanTip": "configuration은 종종 config로 줄여서 사용하지만, 공식 문서에서는 전체 단어를 권장합니다.",
+      "example": {
+        "A": "How do I customize the application?",
+        "B": "The configuration settings can be modified in the settings.json file."
+      },
+      "relatedPhrases": [
+        "The parameters...",
+        "The setup options...",
+        "The preferences..."
+      ]
+    },
+    {
+      "phrase": "Please note that...",
+      "meaning": "참고로 ...입니다",
+      "pronunciation": {
+        "ipa": "/pliːz nəʊt ðæt/",
+        "korean": "플리즈 노트 댓"
+      },
+      "context": "중요한 정보나 주의사항을 강조할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "기술 문서에서 주의사항이나 예외 사항을 알릴 때 자주 사용됩니다.",
+      "example": {
+        "A": "Can I use this on older systems?",
+        "B": "Please note that this feature is only available in version 2.0 and above."
+      },
+      "relatedPhrases": [
+        "It should be noted that...",
+        "Be aware that...",
+        "Important:..."
+      ]
+    },
+    {
+      "phrase": "The default value is...",
+      "meaning": "기본값은 ...입니다",
+      "pronunciation": {
+        "ipa": "/ðə dɪˈfɔːlt ˈvæljuː ɪz/",
+        "korean": "더 디폴트 밸류 이즈"
+      },
+      "context": "기본 설정값을 명시할 때",
+      "formalLevel": "formal",
+      "koreanTip": "default의 강세는 두 번째 음절에 있습니다.",
+      "example": {
+        "A": "What timeout value should I use?",
+        "B": "The default value is 30 seconds, but you can adjust it based on your needs."
+      },
+      "relatedPhrases": [
+        "The preset is...",
+        "By default...",
+        "The initial setting..."
+      ]
+    },
+    {
+      "phrase": "This feature enables...",
+      "meaning": "이 기능은 ...을 가능하게 합니다",
+      "pronunciation": {
+        "ipa": "/ðɪs ˈfiːtʃər ɪˈneɪblz/",
+        "korean": "디스 피처 이네이블즈"
+      },
+      "context": "기능의 역할을 설명할 때",
+      "formalLevel": "formal",
+      "koreanTip": "enable은 가능하게 하다로, allow보다 더 기술적인 표현입니다.",
+      "example": {
+        "A": "What does the new update include?",
+        "B": "This feature enables users to schedule automated backups at specified intervals."
+      },
+      "relatedPhrases": [
+        "This allows...",
+        "This permits...",
+        "This makes it possible to..."
+      ]
+    },
+    {
+      "phrase": "Execute the following command...",
+      "meaning": "다음 명령어를 실행하세요...",
+      "pronunciation": {
+        "ipa": "/ˈeksɪkjuːt ðə ˈfɒləʊɪŋ kəˈmɑːnd/",
+        "korean": "엑시큐트 더 폴로잉 커맨드"
+      },
+      "context": "터미널이나 명령줄 지시를 할 때",
+      "formalLevel": "formal",
+      "koreanTip": "execute는 run보다 더 기술적이고 정확한 표현입니다.",
+      "example": {
+        "A": "How do I start the service?",
+        "B": "Execute the following command in the terminal: sudo systemctl start nginx"
+      },
+      "relatedPhrases": [
+        "Run the command...",
+        "Enter the following...",
+        "Type the command..."
+      ]
+    },
+    {
+      "phrase": "The system will automatically...",
+      "meaning": "시스템이 자동으로 ...합니다",
+      "pronunciation": {
+        "ipa": "/ðə ˈsɪstəm wɪl ˌɔːtəˈmætɪkli/",
+        "korean": "더 시스템 윌 오토매티클리"
+      },
+      "context": "자동화된 동작을 설명할 때",
+      "formalLevel": "formal",
+      "koreanTip": "automatically에서 강세는 세 번째 음절 mat에 있습니다.",
+      "example": {
+        "A": "Do I need to restart the server manually?",
+        "B": "No, the system will automatically restart after the update is installed."
+      },
+      "relatedPhrases": [
+        "The process runs automatically...",
+        "This is handled automatically...",
+        "No manual intervention is required..."
+      ]
+    },
+    {
+      "phrase": "Prior to installation...",
+      "meaning": "설치 전에...",
+      "pronunciation": {
+        "ipa": "/ˈpraɪər tuː ˌɪnstəˈleɪʃən/",
+        "korean": "프라이어 투 인스톨레이션"
+      },
+      "context": "사전 요구사항이나 준비 단계를 설명할 때",
+      "formalLevel": "formal",
+      "koreanTip": "before보다 더 격식 있는 표현입니다. 기술 문서에서 자주 사용됩니다.",
+      "example": {
+        "A": "What should I do first?",
+        "B": "Prior to installation, ensure that all existing data is backed up."
+      },
+      "relatedPhrases": [
+        "Before beginning...",
+        "As a prerequisite...",
+        "Before proceeding..."
+      ]
+    }
   ]
 }

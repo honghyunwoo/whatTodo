@@ -9,7 +9,7 @@
   "subtitleKo": "모든 상황에서 쓰는 필수 인사",
   "theme": "greetings",
   "estimatedMinutes": 15,
-  "keyPhrasesCount": 5,
+  "keyPhrasesCount": 15,
   "prerequisites": [],
   "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
   "objectives": [
@@ -23,10 +23,210 @@
     "시간대별 인사 사용하기 (아침, 오후, 저녁)"
   ],
   "keyPhrases": [
-    { "phrase": "Hello", "meaning": "안녕하세요" },
-    { "phrase": "Goodbye", "meaning": "안녕히 가세요" },
-    { "phrase": "Good morning", "meaning": "좋은 아침이에요" },
-    { "phrase": "See you later", "meaning": "나중에 봐요" },
-    { "phrase": "Nice to meet you", "meaning": "만나서 반가워요" }
+    {
+      "phrase": "Hello",
+      "meaning": "안녕하세요",
+      "pronunciation": "/həˈloʊ/ 헬로우",
+      "context": "가장 일반적인 인사말로 언제 어디서나 사용 가능",
+      "formalLevel": "neutral",
+      "koreanTip": "'헬로우'에서 '로우'를 길게 발음하지 않도록 주의. 짧게 '헬로' 정도로 발음",
+      "commonMistakes": "'헬-로-우'처럼 3음절로 발음하는 경우가 많음. 실제로는 2음절에 가까움",
+      "example": {
+        "A": "Hello! How are you?",
+        "B": "Hello! I'm fine, thank you."
+      },
+      "relatedPhrases": ["Hi", "Hey", "Good day"]
+    },
+    {
+      "phrase": "Hi",
+      "meaning": "안녕",
+      "pronunciation": "/haɪ/ 하이",
+      "context": "친구나 친한 사람에게 쓰는 가벼운 인사",
+      "formalLevel": "casual",
+      "koreanTip": "'하이'는 짧고 밝게 발음. 한국어 '안녕'과 비슷한 뉘앙스",
+      "example": {
+        "A": "Hi, Sarah!",
+        "B": "Hi! What's up?"
+      },
+      "relatedPhrases": ["Hello", "Hey", "What's up"]
+    },
+    {
+      "phrase": "Goodbye",
+      "meaning": "안녕히 가세요",
+      "pronunciation": "/ɡʊdˈbaɪ/ 굿바이",
+      "context": "헤어질 때 쓰는 기본 인사. 공식적/비공식적 상황 모두 사용 가능",
+      "formalLevel": "neutral",
+      "koreanTip": "'굿'과 '바이'를 자연스럽게 연결. '굿-바이'처럼 끊어 읽지 않기",
+      "example": {
+        "A": "I have to go now. Goodbye!",
+        "B": "Goodbye! See you tomorrow."
+      },
+      "relatedPhrases": ["Bye", "Bye-bye", "See you"]
+    },
+    {
+      "phrase": "Good morning",
+      "meaning": "좋은 아침이에요",
+      "pronunciation": "/ɡʊd ˈmɔːrnɪŋ/ 굿 모닝",
+      "context": "아침 시간대(보통 오전 12시 이전)에 사용하는 인사",
+      "formalLevel": "neutral",
+      "koreanTip": "'모닝'의 'r' 발음에 주의. 혀를 말지 않고 '모-닝'에 가깝게 발음",
+      "commonMistakes": "'굿 몰닝'처럼 'r'을 'l'로 발음하는 실수가 흔함",
+      "example": {
+        "A": "Good morning! Did you sleep well?",
+        "B": "Good morning! Yes, I did. Thank you."
+      },
+      "relatedPhrases": ["Morning", "Good day", "Rise and shine"]
+    },
+    {
+      "phrase": "Good afternoon",
+      "meaning": "안녕하세요 (오후)",
+      "pronunciation": "/ɡʊd ˌæftərˈnuːn/ 굿 애프터눈",
+      "context": "오후 시간대(보통 12시~6시)에 사용하는 인사",
+      "formalLevel": "formal",
+      "koreanTip": "'애프터눈'에서 강세는 '눈'에 있음. '애프-터-눈'처럼 발음",
+      "commonMistakes": "'애프터-누운'처럼 길게 발음하지 않도록 주의",
+      "example": {
+        "A": "Good afternoon, Mr. Kim.",
+        "B": "Good afternoon. How can I help you?"
+      },
+      "relatedPhrases": ["Good day", "Hello"]
+    },
+    {
+      "phrase": "Good evening",
+      "meaning": "안녕하세요 (저녁)",
+      "pronunciation": "/ɡʊd ˈiːvnɪŋ/ 굿 이브닝",
+      "context": "저녁 시간대(보통 6시 이후)에 만났을 때 사용. 잠자리 인사가 아님!",
+      "formalLevel": "formal",
+      "koreanTip": "'이브닝'의 'v' 발음에 주의. 윗니로 아랫입술을 가볍게 물고 발음",
+      "commonMistakes": "Good evening을 잠자리 인사로 오해하는 경우가 많음. 저녁에 '만났을 때' 사용",
+      "example": {
+        "A": "Good evening! Welcome to the restaurant.",
+        "B": "Good evening. Table for two, please."
+      },
+      "relatedPhrases": ["Hello", "Good day"]
+    },
+    {
+      "phrase": "Good night",
+      "meaning": "안녕히 주무세요 / 잘 자",
+      "pronunciation": "/ɡʊd naɪt/ 굿 나잇",
+      "context": "잠자리에 들기 전 또는 밤늦게 헤어질 때 사용하는 작별 인사",
+      "formalLevel": "neutral",
+      "koreanTip": "'나잇'의 't'는 거의 들리지 않게 발음. '굿 나이'에 가깝게",
+      "commonMistakes": "Good evening과 혼동하는 경우가 많음. Good night은 '작별' 인사임",
+      "example": {
+        "A": "It's late. I should go to bed.",
+        "B": "Good night! Sleep well."
+      },
+      "relatedPhrases": ["Sleep well", "Sweet dreams", "Night"]
+    },
+    {
+      "phrase": "See you later",
+      "meaning": "나중에 봐요",
+      "pronunciation": "/siː juː ˈleɪtər/ 씨 유 레이터",
+      "context": "나중에 다시 만날 것을 예상할 때 쓰는 캐주얼한 작별 인사",
+      "formalLevel": "casual",
+      "koreanTip": "빠르게 말할 때 'See ya later'처럼 줄여서 발음하는 경우가 많음",
+      "example": {
+        "A": "I'm leaving now. See you later!",
+        "B": "See you later! Take care."
+      },
+      "relatedPhrases": ["See you", "Catch you later", "Later"]
+    },
+    {
+      "phrase": "Nice to meet you",
+      "meaning": "만나서 반가워요",
+      "pronunciation": "/naɪs tuː miːt juː/ 나이스 투 밋 유",
+      "context": "처음 만난 사람에게 하는 인사. 자기소개 후에 주로 사용",
+      "formalLevel": "neutral",
+      "koreanTip": "'밋'의 't'와 'you'가 연결되어 '미츄'처럼 들릴 수 있음",
+      "commonMistakes": "이미 아는 사람에게 사용하면 어색함. 처음 만날 때만 사용",
+      "example": {
+        "A": "Hi, I'm Tom. Nice to meet you.",
+        "B": "Nice to meet you too. I'm Lisa."
+      },
+      "relatedPhrases": ["Pleased to meet you", "Good to meet you", "Nice meeting you"]
+    },
+    {
+      "phrase": "How are you?",
+      "meaning": "어떻게 지내세요?",
+      "pronunciation": "/haʊ ɑːr juː/ 하우 아 유",
+      "context": "안부를 묻는 기본 표현. 인사 다음에 자연스럽게 연결",
+      "formalLevel": "neutral",
+      "koreanTip": "실제로는 'How're you?' 또는 'How ya doing?'처럼 빠르게 발음됨",
+      "commonMistakes": "영어권에서는 실제 상태를 자세히 말하지 않음. 'I'm fine' 정도로 짧게 대답",
+      "example": {
+        "A": "Hello! How are you?",
+        "B": "I'm good, thanks. How about you?"
+      },
+      "relatedPhrases": ["How's it going?", "How are you doing?", "How have you been?"]
+    },
+    {
+      "phrase": "I'm fine, thank you",
+      "meaning": "잘 지내요, 감사합니다",
+      "pronunciation": "/aɪm faɪn θæŋk juː/ 아임 파인 땡큐",
+      "context": "'How are you?'에 대한 기본 대답",
+      "formalLevel": "neutral",
+      "koreanTip": "'thank'의 'th' 발음은 혀를 앞니 사이에 살짝 넣고 발음",
+      "commonMistakes": "'땡큐'의 'th'를 't'처럼 발음하는 경우가 많음",
+      "example": {
+        "A": "How are you today?",
+        "B": "I'm fine, thank you. And you?"
+      },
+      "relatedPhrases": ["I'm good", "I'm doing well", "Not bad", "Pretty good"]
+    },
+    {
+      "phrase": "What's up?",
+      "meaning": "뭐해? / 어때?",
+      "pronunciation": "/wʌts ʌp/ 왓썹",
+      "context": "친한 친구나 동료에게 하는 아주 캐주얼한 인사",
+      "formalLevel": "casual",
+      "koreanTip": "빠르게 '왓썹' 또는 '써업'처럼 발음. 젊은 층에서 많이 사용",
+      "commonMistakes": "실제 질문이 아닌 인사말로 사용됨. 자세한 대답을 기대하지 않음",
+      "example": {
+        "A": "Hey! What's up?",
+        "B": "Not much. What about you?"
+      },
+      "relatedPhrases": ["What's going on?", "How's it going?", "Sup"]
+    },
+    {
+      "phrase": "Take care",
+      "meaning": "잘 지내 / 몸 조심해",
+      "pronunciation": "/teɪk keər/ 테이크 케어",
+      "context": "상대방의 안녕을 바라며 하는 따뜻한 작별 인사",
+      "formalLevel": "casual",
+      "koreanTip": "'케어'의 'r'은 약하게 발음. '케-어'처럼 두 음절로",
+      "example": {
+        "A": "I'll see you next week. Take care!",
+        "B": "You too! Take care."
+      },
+      "relatedPhrases": ["Take it easy", "Be safe", "Look after yourself"]
+    },
+    {
+      "phrase": "Have a nice day",
+      "meaning": "좋은 하루 되세요",
+      "pronunciation": "/hæv ə naɪs deɪ/ 해브 어 나이스 데이",
+      "context": "가게 직원, 택시 기사 등 서비스 상황에서 자주 사용하는 인사",
+      "formalLevel": "neutral",
+      "koreanTip": "'have a'가 연결되어 '해버'처럼 발음됨",
+      "example": {
+        "A": "Thank you for your help!",
+        "B": "You're welcome. Have a nice day!"
+      },
+      "relatedPhrases": ["Have a good one", "Have a great day", "Enjoy your day"]
+    },
+    {
+      "phrase": "Long time no see",
+      "meaning": "오랜만이야",
+      "pronunciation": "/lɔːŋ taɪm noʊ siː/ 롱 타임 노 씨",
+      "context": "오랫동안 보지 못했던 사람을 다시 만났을 때 사용",
+      "formalLevel": "casual",
+      "koreanTip": "중국어에서 유래한 표현. 영어 문법에 맞지 않지만 널리 사용됨",
+      "commonMistakes": "처음 만난 사람에게 사용하면 안 됨. 이전에 알던 사람에게만 사용",
+      "example": {
+        "A": "Oh, hey! Long time no see!",
+        "B": "I know! It's been ages. How have you been?"
+      },
+      "relatedPhrases": ["It's been a while", "It's been ages", "Haven't seen you in forever"]
+    }
   ]
 }

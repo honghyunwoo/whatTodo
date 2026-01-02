@@ -15,4 +15,6 @@ export const STORAGE_KEYS = {
   SCENARIOS: '@whatTodo:scenarios',
   SKILLS: '@whatTodo:skills',
   SESSIONS: '@whatTodo:sessions',
+  WRONG_ANSWERS: '@whatTodo:wrong_answers',
+  REPORTS: '@whatTodo:reports',
 } as const;

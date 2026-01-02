@@ -9,9 +9,16 @@
   "subtitleKo": "원어민스러운 표현 마스터하기",
   "theme": "idioms",
   "estimatedMinutes": 25,
-  "keyPhrasesCount": 7,
+  "keyPhrasesCount": 15,
   "prerequisites": [],
-  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "activityTypes": [
+    "vocabulary",
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
   "weekMapping": "week-1",
   "objectives": [
     "Recognize common idioms",
@@ -24,12 +31,307 @@
     "문화적 참조 이해하기"
   ],
   "keyPhrases": [
-    { "phrase": "The ball is in your court", "meaning": "당신 차례예요 (결정권이 있어요)" },
-    { "phrase": "It's not rocket science", "meaning": "어렵지 않아요" },
-    { "phrase": "To bite off more than you can chew", "meaning": "감당 못할 일을 맡다" },
-    { "phrase": "The elephant in the room", "meaning": "다들 알지만 언급 안 하는 문제" },
-    { "phrase": "To be on the same page", "meaning": "같은 생각을 가지다" },
-    { "phrase": "That ship has sailed", "meaning": "이미 기회가 지나갔어요" },
-    { "phrase": "To cut to the chase", "meaning": "본론으로 들어가다" }
+    {
+      "phrase": "The ball is in your court",
+      "meaning": "당신 차례예요 (결정권이 있어요)",
+      "pronunciation": {
+        "ipa": "/ðə bɔːl ɪz ɪn jɔːr kɔːrt/",
+        "korean": "더 볼 이즈 인 유어 코트"
+      },
+      "context": "상대방에게 결정권이나 행동의 책임이 넘어갔을 때",
+      "formalLevel": "neutral",
+      "koreanTip": "테니스에서 유래한 표현입니다. 상대방이 다음 행동을 해야 할 때 사용하세요.",
+      "example": {
+        "A": "I have sent the proposal to the client.",
+        "B": "Good. The ball is in their court now. We just have to wait for their response."
+      },
+      "relatedPhrases": [
+        "It is up to you now",
+        "Your move",
+        "Over to you"
+      ]
+    },
+    {
+      "phrase": "It is not rocket science",
+      "meaning": "어렵지 않아요",
+      "pronunciation": {
+        "ipa": "/ɪts nɒt ˈrɒkɪt ˈsaɪəns/",
+        "korean": "잇츠 낫 라킷 사이언스"
+      },
+      "context": "무언가가 생각보다 쉽다는 것을 강조할 때",
+      "formalLevel": "casual",
+      "koreanTip": "비격식적인 상황에서 사용하세요. 격식 있는 자리에서는 피하는 것이 좋습니다.",
+      "example": {
+        "A": "I am worried about learning to drive.",
+        "B": "Do not worry! It is not rocket science. You will get it in no time."
+      },
+      "relatedPhrases": [
+        "It is not brain surgery",
+        "It is straightforward",
+        "It is simple enough"
+      ]
+    },
+    {
+      "phrase": "To bite off more than you can chew",
+      "meaning": "감당 못할 일을 맡다",
+      "pronunciation": {
+        "ipa": "/tuː baɪt ɒf mɔːr ðæn juː kæn tʃuː/",
+        "korean": "투 바이트 오프 모어 댄 유 캔 츄"
+      },
+      "context": "능력 이상의 일을 맡았을 때",
+      "formalLevel": "neutral",
+      "koreanTip": "음식을 너무 많이 입에 넣어서 씹을 수 없는 상황에서 유래했습니다.",
+      "commonMistakes": "긍정적인 의미가 아닙니다. 경고나 후회의 맥락에서 사용하세요",
+      "example": {
+        "A": "I agreed to manage three projects at once.",
+        "B": "Careful, you might be biting off more than you can chew."
+      },
+      "relatedPhrases": [
+        "To overextend yourself",
+        "To take on too much",
+        "To spread yourself too thin"
+      ]
+    },
+    {
+      "phrase": "The elephant in the room",
+      "meaning": "다들 알지만 언급 안 하는 문제",
+      "pronunciation": {
+        "ipa": "/ðə ˈelɪfənt ɪn ðə ruːm/",
+        "korean": "디 엘리펀트 인 더 룸"
+      },
+      "context": "명백하지만 아무도 언급하지 않는 중요한 문제가 있을 때",
+      "formalLevel": "neutral",
+      "koreanTip": "방에 코끼리가 있으면 모두 보이지만 아무도 말하지 않는다는 뜻입니다.",
+      "example": {
+        "A": "We discussed everything except the budget cuts.",
+        "B": "Yes, that was the elephant in the room that nobody wanted to address."
+      },
+      "relatedPhrases": [
+        "The unspoken issue",
+        "The obvious problem",
+        "What nobody wants to talk about"
+      ]
+    },
+    {
+      "phrase": "To be on the same page",
+      "meaning": "같은 생각을 가지다",
+      "pronunciation": {
+        "ipa": "/tuː biː ɒn ðə seɪm peɪdʒ/",
+        "korean": "투 비 온 더 세임 페이지"
+      },
+      "context": "서로 이해하고 동의할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "비즈니스 미팅에서 자주 사용되는 표현입니다.",
+      "example": {
+        "A": "Before we continue, let us make sure we are on the same page about the timeline.",
+        "B": "Agreed. The deadline is next Friday, right?"
+      },
+      "relatedPhrases": [
+        "To see eye to eye",
+        "To be in agreement",
+        "To understand each other"
+      ]
+    },
+    {
+      "phrase": "That ship has sailed",
+      "meaning": "이미 기회가 지나갔어요",
+      "pronunciation": {
+        "ipa": "/ðæt ʃɪp hæz seɪld/",
+        "korean": "댓 쉽 해즈 세일드"
+      },
+      "context": "더 이상 가능하지 않은 기회를 언급할 때",
+      "formalLevel": "casual",
+      "koreanTip": "배가 이미 떠났으니 탈 수 없다는 의미입니다.",
+      "example": {
+        "A": "Maybe we should reconsider the original plan?",
+        "B": "I am afraid that ship has sailed. We have already committed to the new strategy."
+      },
+      "relatedPhrases": [
+        "It is too late now",
+        "The opportunity has passed",
+        "There is no going back"
+      ]
+    },
+    {
+      "phrase": "To cut to the chase",
+      "meaning": "본론으로 들어가다",
+      "pronunciation": {
+        "ipa": "/tuː kʌt tuː ðə tʃeɪs/",
+        "korean": "투 컷 투 더 체이스"
+      },
+      "context": "서론 없이 핵심으로 바로 가고 싶을 때",
+      "formalLevel": "neutral",
+      "koreanTip": "영화에서 추격 장면으로 바로 넘어간다는 뜻에서 유래했습니다.",
+      "example": {
+        "A": "I have a lot to tell you about the meeting...",
+        "B": "Can you cut to the chase? I only have 5 minutes."
+      },
+      "relatedPhrases": [
+        "To get to the point",
+        "To be direct",
+        "To skip the details"
+      ]
+    },
+    {
+      "phrase": "To think outside the box",
+      "meaning": "창의적으로 생각하다",
+      "pronunciation": {
+        "ipa": "/tuː θɪŋk aʊtˈsaɪd ðə bɒks/",
+        "korean": "투 띵크 아웃사이드 더 박스"
+      },
+      "context": "혁신적이거나 비전통적인 해결책을 찾을 때",
+      "formalLevel": "neutral",
+      "koreanTip": "비즈니스와 창의성 관련 대화에서 자주 사용됩니다.",
+      "example": {
+        "A": "We need a fresh approach to this problem.",
+        "B": "Let us think outside the box and brainstorm some unconventional ideas."
+      },
+      "relatedPhrases": [
+        "To be creative",
+        "To innovate",
+        "To find alternative solutions"
+      ]
+    },
+    {
+      "phrase": "To go the extra mile",
+      "meaning": "남다른 노력을 기울이다",
+      "pronunciation": {
+        "ipa": "/tuː ɡəʊ ðə ˈekstrə maɪl/",
+        "korean": "투 고 디 엑스트라 마일"
+      },
+      "context": "기대 이상으로 노력할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "성경에서 유래한 표현으로, 요구된 것 이상을 한다는 의미입니다.",
+      "example": {
+        "A": "Sarah stayed late to help finish the report.",
+        "B": "She always goes the extra mile for the team."
+      },
+      "relatedPhrases": [
+        "To put in extra effort",
+        "To exceed expectations",
+        "To do more than required"
+      ]
+    },
+    {
+      "phrase": "To be in hot water",
+      "meaning": "곤란한 상황에 처하다",
+      "pronunciation": {
+        "ipa": "/tuː biː ɪn hɒt ˈwɔːtər/",
+        "korean": "투 비 인 핫 워터"
+      },
+      "context": "문제나 곤란한 상황에 빠졌을 때",
+      "formalLevel": "casual",
+      "koreanTip": "뜨거운 물에 빠지면 불편하다는 의미에서 유래했습니다.",
+      "example": {
+        "A": "Did you hear about John missing the deadline?",
+        "B": "Yes, he is in hot water with the boss now."
+      },
+      "relatedPhrases": [
+        "To be in trouble",
+        "To be in a difficult situation",
+        "To face consequences"
+      ]
+    },
+    {
+      "phrase": "To hit the ground running",
+      "meaning": "바로 전력을 다하다",
+      "pronunciation": {
+        "ipa": "/tuː hɪt ðə ɡraʊnd ˈrʌnɪŋ/",
+        "korean": "투 힛 더 그라운드 러닝"
+      },
+      "context": "새 일이나 프로젝트를 즉시 시작할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "군사 용어에서 유래했습니다. 착지하자마자 뛰어간다는 뜻입니다.",
+      "example": {
+        "A": "How was your first day at the new job?",
+        "B": "Busy! I had to hit the ground running with a big project."
+      },
+      "relatedPhrases": [
+        "To start immediately",
+        "To get going quickly",
+        "To make an immediate impact"
+      ]
+    },
+    {
+      "phrase": "To let the cat out of the bag",
+      "meaning": "비밀을 누설하다",
+      "pronunciation": {
+        "ipa": "/tuː let ðə kæt aʊt ɒv ðə bæɡ/",
+        "korean": "투 렛 더 캣 아웃 오브 더 백"
+      },
+      "context": "실수로 비밀을 말했을 때",
+      "formalLevel": "casual",
+      "koreanTip": "중세 시장에서 돼지 대신 고양이를 속여 팔던 것에서 유래했습니다.",
+      "example": {
+        "A": "I accidentally told mom about the surprise party.",
+        "B": "Oh no, you let the cat out of the bag!"
+      },
+      "relatedPhrases": [
+        "To spill the beans",
+        "To reveal a secret",
+        "To give the game away"
+      ]
+    },
+    {
+      "phrase": "To play devil's advocate",
+      "meaning": "일부러 반대 의견을 제시하다",
+      "pronunciation": {
+        "ipa": "/tuː pleɪ ˈdevlz ˈædvəkət/",
+        "korean": "투 플레이 데블스 애드버킷"
+      },
+      "context": "토론을 활발하게 하기 위해 반대 입장을 취할 때",
+      "formalLevel": "formal",
+      "koreanTip": "가톨릭 성인 시성 과정에서 유래한 표현입니다.",
+      "example": {
+        "A": "Everyone seems to agree with this plan.",
+        "B": "Let me play devil's advocate - what if the market changes?"
+      },
+      "relatedPhrases": [
+        "To argue the other side",
+        "To present counterarguments",
+        "To challenge assumptions"
+      ]
+    },
+    {
+      "phrase": "To be under the weather",
+      "meaning": "몸이 안 좋다",
+      "pronunciation": {
+        "ipa": "/tuː biː ˈʌndər ðə ˈweðər/",
+        "korean": "투 비 언더 더 웨더"
+      },
+      "context": "약간 아프거나 컨디션이 좋지 않을 때",
+      "formalLevel": "casual",
+      "koreanTip": "배에서 날씨가 나쁘면 갑판 아래로 내려가 쉰 것에서 유래했습니다.",
+      "example": {
+        "A": "You do not look well today.",
+        "B": "I am feeling a bit under the weather. I think I caught a cold."
+      },
+      "relatedPhrases": [
+        "To feel unwell",
+        "To be sick",
+        "To not feel one hundred percent"
+      ]
+    },
+    {
+      "phrase": "To put all your eggs in one basket",
+      "meaning": "모든 것을 한 곳에 걸다",
+      "pronunciation": {
+        "ipa": "/tuː pʊt ɔːl jɔːr eɡz ɪn wʌn ˈbɑːskɪt/",
+        "korean": "투 풋 올 유어 에그즈 인 원 바스킷"
+      },
+      "context": "위험을 분산하지 않고 한 곳에 집중할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "달걀을 한 바구니에 담으면 넘어지면 다 깨진다는 뜻입니다.",
+      "commonMistakes": "보통 부정적인 조언으로 사용됩니다 (하지 말라는 의미)",
+      "example": {
+        "A": "I invested all my savings in one stock.",
+        "B": "That is risky. You should not put all your eggs in one basket."
+      },
+      "relatedPhrases": [
+        "To diversify",
+        "To spread the risk",
+        "To not take unnecessary risks"
+      ]
+    }
   ]
 }

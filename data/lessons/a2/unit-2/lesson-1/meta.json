@@ -9,9 +9,18 @@
   "subtitleKo": "직장에서의 대화 다루기",
   "theme": "work",
   "estimatedMinutes": 15,
-  "keyPhrasesCount": 5,
-  "prerequisites": ["a2-u1-l2"],
-  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "keyPhrasesCount": 15,
+  "prerequisites": [
+    "a2-u1-l2"
+  ],
+  "activityTypes": [
+    "vocabulary",
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
   "weekMapping": "week-3",
   "objectives": [
     "Use work-related vocabulary",
@@ -24,10 +33,293 @@
     "동료와 예의 바르게 소통하기"
   ],
   "keyPhrases": [
-    { "phrase": "Could I have a moment?", "meaning": "잠깐 시간 되세요?" },
-    { "phrase": "The deadline is Friday", "meaning": "마감이 금요일이에요" },
-    { "phrase": "I'll send you the report", "meaning": "보고서 보내드릴게요" },
-    { "phrase": "Let's schedule a meeting", "meaning": "회의 일정을 잡아요" },
-    { "phrase": "I'm working on a project", "meaning": "프로젝트 작업 중이에요" }
+    {
+      "phrase": "Could I have a moment?",
+      "meaning": "잠깐 시간 되세요?",
+      "pronunciation": {
+        "ipa": "/kʊd aɪ hæv ə ˈməʊmənt/",
+        "korean": "쿠다이 해브 어 모먼트"
+      },
+      "context": "상사나 동료에게 시간을 요청할 때",
+      "formalLevel": "formal",
+      "koreanTip": "'Could I'는 'Can I'보다 더 정중한 표현",
+      "example": {
+        "A": "Could I have a moment?",
+        "B": "Sure, what do you need?"
+      },
+      "relatedPhrases": [
+        "Do you have a minute?",
+        "Can I talk to you?"
+      ]
+    },
+    {
+      "phrase": "The deadline is Friday",
+      "meaning": "마감이 금요일이에요",
+      "pronunciation": {
+        "ipa": "/ðə ˈdedlaɪn ɪz ˈfraɪdeɪ/",
+        "korean": "더 데드라인 이즈 프라이데이"
+      },
+      "context": "업무 마감일을 알릴 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'deadline'의 강세는 첫 음절에",
+      "example": {
+        "A": "When do you need the report?",
+        "B": "The deadline is Friday, end of day."
+      },
+      "relatedPhrases": [
+        "It's due on Friday",
+        "We need it by Friday"
+      ]
+    },
+    {
+      "phrase": "I'll send you the report",
+      "meaning": "보고서 보내드릴게요",
+      "pronunciation": {
+        "ipa": "/aɪl send juː ðə rɪˈpɔːrt/",
+        "korean": "아일 센드 유 더 리포트"
+      },
+      "context": "문서 전달을 약속할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'I'll'은 즉석 결정이나 약속을 나타냄",
+      "example": {
+        "A": "Do you have the sales figures?",
+        "B": "I'll send you the report by email."
+      },
+      "relatedPhrases": [
+        "I'll email it to you",
+        "I'll forward it"
+      ]
+    },
+    {
+      "phrase": "Let's schedule a meeting",
+      "meaning": "회의 일정을 잡아요",
+      "pronunciation": {
+        "ipa": "/lets ˈskedʒuːl ə ˈmiːtɪŋ/",
+        "korean": "렛츠 스케줄 어 미팅"
+      },
+      "context": "회의를 제안하거나 계획할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'schedule'은 미국식 '스케줄', 영국식 '셰듈'로 발음",
+      "example": {
+        "A": "We need to discuss the project.",
+        "B": "Let's schedule a meeting for tomorrow."
+      },
+      "relatedPhrases": [
+        "Can we set up a meeting?",
+        "When are you available?"
+      ]
+    },
+    {
+      "phrase": "I'm working on a project",
+      "meaning": "프로젝트 작업 중이에요",
+      "pronunciation": {
+        "ipa": "/aɪm ˈwɜːrkɪŋ ɒn ə ˈprɒdʒekt/",
+        "korean": "아임 워킹 온 어 프로젝트"
+      },
+      "context": "현재 업무 상황을 설명할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'work on'은 특정 과제에 집중하고 있다는 의미",
+      "example": {
+        "A": "What are you doing these days?",
+        "B": "I'm working on a project for the marketing team."
+      },
+      "relatedPhrases": [
+        "I'm in the middle of...",
+        "I'm busy with..."
+      ]
+    },
+    {
+      "phrase": "Can you help me with this?",
+      "meaning": "이것 좀 도와주실 수 있나요?",
+      "pronunciation": {
+        "ipa": "/kæn juː help miː wɪð ðɪs/",
+        "korean": "캔 유 헬프 미 위드 디스"
+      },
+      "context": "동료에게 도움을 요청할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'Could you'로 바꾸면 더 정중해짐",
+      "example": {
+        "A": "Can you help me with this spreadsheet?",
+        "B": "Of course, what's the problem?"
+      },
+      "relatedPhrases": [
+        "Could you give me a hand?",
+        "Would you mind helping?"
+      ]
+    },
+    {
+      "phrase": "I'll get back to you",
+      "meaning": "나중에 연락드릴게요",
+      "pronunciation": {
+        "ipa": "/aɪl ɡet bæk tuː juː/",
+        "korean": "아일 겟 백 투 유"
+      },
+      "context": "즉시 답변하기 어려울 때",
+      "formalLevel": "neutral",
+      "koreanTip": "비즈니스 이메일에서도 자주 사용되는 필수 표현",
+      "example": {
+        "A": "Have you decided on the budget?",
+        "B": "Not yet. I'll get back to you by tomorrow."
+      },
+      "relatedPhrases": [
+        "I'll let you know",
+        "I'll follow up on this"
+      ]
+    },
+    {
+      "phrase": "Sorry, I'm running late",
+      "meaning": "죄송해요, 늦을 것 같아요",
+      "pronunciation": {
+        "ipa": "/ˈsɒri aɪm ˈrʌnɪŋ leɪt/",
+        "korean": "쏘리 아임 러닝 레이트"
+      },
+      "context": "회의나 약속에 늦을 때 알릴 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'running late'는 진행 중인 지각을 나타내는 표현",
+      "commonMistakes": [
+        "I'm late-ing (X) → I'm running late (O)"
+      ],
+      "example": {
+        "A": "Where are you? The meeting started.",
+        "B": "Sorry, I'm running late. Be there in 5 minutes."
+      },
+      "relatedPhrases": [
+        "I'll be there soon",
+        "Traffic is bad"
+      ]
+    },
+    {
+      "phrase": "Could you repeat that?",
+      "meaning": "다시 말씀해 주시겠어요?",
+      "pronunciation": {
+        "ipa": "/kʊd juː rɪˈpiːt ðæt/",
+        "korean": "쿠쥬 리피트 댓"
+      },
+      "context": "상대방 말을 못 알아들었을 때",
+      "formalLevel": "formal",
+      "koreanTip": "'Could you'는 정중한 요청의 기본 형태",
+      "example": {
+        "A": "The meeting is at 3 PM in room B12.",
+        "B": "Could you repeat that? Which room?"
+      },
+      "relatedPhrases": [
+        "Sorry, what was that?",
+        "Can you say that again?"
+      ]
+    },
+    {
+      "phrase": "I have a question about...",
+      "meaning": "...에 대해 질문이 있어요",
+      "pronunciation": {
+        "ipa": "/aɪ hæv ə ˈkwestʃən əˈbaʊt/",
+        "korean": "아이 해브 어 퀘스천 어바웃"
+      },
+      "context": "업무 관련 질문을 시작할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "회의나 이메일에서 질문을 시작하는 기본 표현",
+      "example": {
+        "A": "I have a question about the budget.",
+        "B": "Sure, go ahead."
+      },
+      "relatedPhrases": [
+        "I'd like to ask about...",
+        "I'm wondering about..."
+      ]
+    },
+    {
+      "phrase": "Let me check my calendar",
+      "meaning": "일정 확인해 볼게요",
+      "pronunciation": {
+        "ipa": "/let miː tʃek maɪ ˈkælɪndər/",
+        "korean": "렛 미 체크 마이 캘린더"
+      },
+      "context": "미팅 일정을 정할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'calendar'는 미국식 '캘린더', 영국식 '캘런더'",
+      "example": {
+        "A": "Are you free next Tuesday?",
+        "B": "Let me check my calendar... Yes, I'm available."
+      },
+      "relatedPhrases": [
+        "Let me check my schedule",
+        "I'll look at my diary"
+      ]
+    },
+    {
+      "phrase": "I'm in a meeting right now",
+      "meaning": "지금 회의 중이에요",
+      "pronunciation": {
+        "ipa": "/aɪm ɪn ə ˈmiːtɪŋ raɪt naʊ/",
+        "korean": "아임 인 어 미팅 라잇 나우"
+      },
+      "context": "전화나 방문자에게 바쁘다고 알릴 때",
+      "formalLevel": "neutral",
+      "koreanTip": "전화 받을 때 자주 사용하는 표현",
+      "example": {
+        "A": "Can you talk?",
+        "B": "I'm in a meeting right now. Can I call you back?"
+      },
+      "relatedPhrases": [
+        "I'm tied up at the moment",
+        "I'm busy right now"
+      ]
+    },
+    {
+      "phrase": "Could we discuss this later?",
+      "meaning": "이거 나중에 얘기해도 될까요?",
+      "pronunciation": {
+        "ipa": "/kʊd wiː dɪˈskʌs ðɪs ˈleɪtər/",
+        "korean": "쿠드 위 디스커스 디스 레이터"
+      },
+      "context": "지금 논의하기 어려울 때",
+      "formalLevel": "formal",
+      "koreanTip": "'Could we'는 상대와 함께하는 것을 정중히 제안",
+      "example": {
+        "A": "I think we should change the strategy.",
+        "B": "Could we discuss this later? I need to finish this first."
+      },
+      "relatedPhrases": [
+        "Can we talk about this after?",
+        "Let's revisit this"
+      ]
+    },
+    {
+      "phrase": "I'll take care of it",
+      "meaning": "제가 처리할게요",
+      "pronunciation": {
+        "ipa": "/aɪl teɪk keər əv ɪt/",
+        "korean": "아일 테이크 케어 오브 잇"
+      },
+      "context": "업무를 맡겠다고 할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'take care of'는 책임지고 처리하다는 의미",
+      "example": {
+        "A": "Someone needs to call the client.",
+        "B": "I'll take care of it."
+      },
+      "relatedPhrases": [
+        "I'll handle it",
+        "Leave it to me"
+      ]
+    },
+    {
+      "phrase": "Who's in charge of this?",
+      "meaning": "이거 누가 담당이에요?",
+      "pronunciation": {
+        "ipa": "/huːz ɪn tʃɑːrdʒ əv ðɪs/",
+        "korean": "후즈 인 차지 오브 디스"
+      },
+      "context": "담당자를 찾을 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'in charge of'는 ~을 담당하다, 책임지다",
+      "example": {
+        "A": "Who's in charge of this project?",
+        "B": "That would be Sarah from the marketing team."
+      },
+      "relatedPhrases": [
+        "Who's responsible for...?",
+        "Who handles...?"
+      ]
+    }
   ]
 }

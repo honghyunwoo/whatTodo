@@ -9,9 +9,18 @@
   "subtitleKo": "날씨에 대해 이야기하고 계획 세우기",
   "theme": "weather",
   "estimatedMinutes": 15,
-  "keyPhrasesCount": 5,
-  "prerequisites": ["a2-u1-l1"],
-  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "keyPhrasesCount": 15,
+  "prerequisites": [
+    "a2-u1-l1"
+  ],
+  "activityTypes": [
+    "vocabulary",
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
   "weekMapping": "week-2",
   "objectives": [
     "Describe current weather conditions",
@@ -24,10 +33,293 @@
     "계절 활동에 대해 이야기하기"
   ],
   "keyPhrases": [
-    { "phrase": "What's the weather like?", "meaning": "날씨가 어때요?" },
-    { "phrase": "It's sunny and warm", "meaning": "맑고 따뜻해요" },
-    { "phrase": "It might rain later", "meaning": "나중에 비가 올 수도 있어요" },
-    { "phrase": "I love autumn weather", "meaning": "저는 가을 날씨를 좋아해요" },
-    { "phrase": "Let's go out, it's nice", "meaning": "날씨 좋으니 나가요" }
+    {
+      "phrase": "What's the weather like?",
+      "meaning": "날씨가 어때요?",
+      "pronunciation": {
+        "ipa": "/wɒts ðə ˈweðər laɪk/",
+        "korean": "왓츠 더 웨더 라이크"
+      },
+      "context": "날씨를 물어볼 때, 대화 시작할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'How's the weather?'보다 더 자연스러운 표현",
+      "commonMistakes": [
+        "How is the weather like? (X) → What's the weather like? (O)"
+      ],
+      "example": {
+        "A": "What's the weather like today?",
+        "B": "It's cloudy but warm."
+      },
+      "relatedPhrases": [
+        "How's the weather?",
+        "What's it like outside?"
+      ]
+    },
+    {
+      "phrase": "It's sunny and warm",
+      "meaning": "맑고 따뜻해요",
+      "pronunciation": {
+        "ipa": "/ɪts ˈsʌni ænd wɔːrm/",
+        "korean": "잇츠 써니 앤 웜"
+      },
+      "context": "좋은 날씨를 설명할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'sunny'의 'u'는 '어' 소리에 가까움",
+      "example": {
+        "A": "Should we go to the park?",
+        "B": "Yes! It's sunny and warm today."
+      },
+      "relatedPhrases": [
+        "bright and clear",
+        "nice and warm"
+      ]
+    },
+    {
+      "phrase": "It might rain later",
+      "meaning": "나중에 비가 올 수도 있어요",
+      "pronunciation": {
+        "ipa": "/ɪt maɪt reɪn ˈleɪtər/",
+        "korean": "잇 마이트 레인 레이터"
+      },
+      "context": "날씨 예측, 계획 세울 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'might'는 가능성을 나타내는 조동사 (약 50% 확률)",
+      "example": {
+        "A": "Should I bring an umbrella?",
+        "B": "Yes, it might rain later this afternoon."
+      },
+      "relatedPhrases": [
+        "It could rain",
+        "There's a chance of rain"
+      ]
+    },
+    {
+      "phrase": "I love autumn weather",
+      "meaning": "저는 가을 날씨를 좋아해요",
+      "pronunciation": {
+        "ipa": "/aɪ lʌv ˈɔːtəm ˈweðər/",
+        "korean": "아이 러브 오텀 웨더"
+      },
+      "context": "계절 선호도를 말할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'autumn'은 영국식, 'fall'은 미국식 표현",
+      "example": {
+        "A": "What's your favorite season?",
+        "B": "I love autumn weather. It's so refreshing."
+      },
+      "relatedPhrases": [
+        "I prefer spring",
+        "Summer is my favorite"
+      ]
+    },
+    {
+      "phrase": "Let's go out, it's nice",
+      "meaning": "날씨 좋으니 나가요",
+      "pronunciation": {
+        "ipa": "/lets ɡəʊ aʊt ɪts naɪs/",
+        "korean": "렛츠 고 아웃 잇츠 나이스"
+      },
+      "context": "야외 활동을 제안할 때",
+      "formalLevel": "casual",
+      "koreanTip": "'nice'는 날씨가 좋다는 의미로 자주 사용됨",
+      "example": {
+        "A": "What should we do today?",
+        "B": "Let's go out, it's nice outside."
+      },
+      "relatedPhrases": [
+        "Let's go for a walk",
+        "How about going outside?"
+      ]
+    },
+    {
+      "phrase": "It's freezing outside",
+      "meaning": "밖이 엄청 추워요",
+      "pronunciation": {
+        "ipa": "/ɪts ˈfriːzɪŋ aʊtˈsaɪd/",
+        "korean": "잇츠 프리징 아웃사이드"
+      },
+      "context": "매우 추운 날씨를 강조할 때",
+      "formalLevel": "casual",
+      "koreanTip": "'freezing'은 과장 표현으로, 실제 영하가 아니어도 사용 가능",
+      "example": {
+        "A": "Do you want to go for a walk?",
+        "B": "No way! It's freezing outside."
+      },
+      "relatedPhrases": [
+        "It's really cold",
+        "It's below zero"
+      ]
+    },
+    {
+      "phrase": "The forecast says it will snow",
+      "meaning": "일기예보에서 눈이 온다고 해요",
+      "pronunciation": {
+        "ipa": "/ðə ˈfɔːrkæst sez ɪt wɪl snəʊ/",
+        "korean": "더 포캐스트 세즈 잇 윌 스노우"
+      },
+      "context": "일기예보를 전달할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'forecast'는 '예보'라는 뜻, weather forecast = 일기예보",
+      "example": {
+        "A": "Should we drive or take the train?",
+        "B": "The forecast says it will snow, so let's take the train."
+      },
+      "relatedPhrases": [
+        "According to the forecast",
+        "The weather report says"
+      ]
+    },
+    {
+      "phrase": "I hate humid weather",
+      "meaning": "습한 날씨가 싫어요",
+      "pronunciation": {
+        "ipa": "/aɪ heɪt ˈhjuːmɪd ˈweðər/",
+        "korean": "아이 헤이트 휴미드 웨더"
+      },
+      "context": "날씨에 대한 부정적 의견을 말할 때",
+      "formalLevel": "casual",
+      "koreanTip": "'humid'는 불쾌한 습기를 의미, 'moist'와 다름",
+      "example": {
+        "A": "How do you like summer here?",
+        "B": "I hate humid weather. It's so uncomfortable."
+      },
+      "relatedPhrases": [
+        "It's so sticky",
+        "The humidity is awful"
+      ]
+    },
+    {
+      "phrase": "Bring a jacket, just in case",
+      "meaning": "만약을 대비해 재킷 가져가요",
+      "pronunciation": {
+        "ipa": "/brɪŋ ə ˈdʒækɪt dʒʌst ɪn keɪs/",
+        "korean": "브링 어 재킷 저스트 인 케이스"
+      },
+      "context": "날씨 변화에 대비하라고 조언할 때",
+      "formalLevel": "casual",
+      "koreanTip": "'just in case'는 매우 유용한 표현, 만약을 위해",
+      "example": {
+        "A": "Do I need a jacket?",
+        "B": "Bring a jacket, just in case. It gets cold at night."
+      },
+      "relatedPhrases": [
+        "Take an umbrella",
+        "Dress warmly"
+      ]
+    },
+    {
+      "phrase": "It's been raining all day",
+      "meaning": "하루 종일 비가 오고 있어요",
+      "pronunciation": {
+        "ipa": "/ɪts biːn ˈreɪnɪŋ ɔːl deɪ/",
+        "korean": "잇츠 빈 레이닝 올 데이"
+      },
+      "context": "지속적인 날씨 상태를 설명할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "현재완료 진행형으로 '계속'의 의미를 강조",
+      "example": {
+        "A": "How's the weather there?",
+        "B": "Terrible. It's been raining all day."
+      },
+      "relatedPhrases": [
+        "It hasn't stopped raining",
+        "It's been pouring"
+      ]
+    },
+    {
+      "phrase": "The sun is really strong today",
+      "meaning": "오늘 햇빛이 정말 강해요",
+      "pronunciation": {
+        "ipa": "/ðə sʌn ɪz ˈrɪəli strɒŋ təˈdeɪ/",
+        "korean": "더 선 이즈 리얼리 스트롱 투데이"
+      },
+      "context": "강한 햇빛을 경고하거나 설명할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'strong'은 햇빛의 세기를 표현할 때 자주 사용",
+      "example": {
+        "A": "Should I wear sunscreen?",
+        "B": "Definitely. The sun is really strong today."
+      },
+      "relatedPhrases": [
+        "It's very bright",
+        "The UV is high today"
+      ]
+    },
+    {
+      "phrase": "It's perfect weather for a picnic",
+      "meaning": "피크닉하기 딱 좋은 날씨예요",
+      "pronunciation": {
+        "ipa": "/ɪts ˈpɜːrfɪkt ˈweðər fɔːr ə ˈpɪknɪk/",
+        "korean": "잇츠 퍼펙트 웨더 포 어 피크닉"
+      },
+      "context": "날씨와 활동을 연결할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'perfect weather for + 활동' 패턴으로 다양하게 활용 가능",
+      "example": {
+        "A": "What should we do this weekend?",
+        "B": "It's perfect weather for a picnic. Let's go to the park!"
+      },
+      "relatedPhrases": [
+        "Great day for a hike",
+        "Ideal weather for the beach"
+      ]
+    },
+    {
+      "phrase": "It looks like it's going to storm",
+      "meaning": "폭풍이 올 것 같아요",
+      "pronunciation": {
+        "ipa": "/ɪt lʊks laɪk ɪts ˈɡəʊɪŋ tuː stɔːrm/",
+        "korean": "잇 룩스 라이크 잇츠 고잉 투 스톰"
+      },
+      "context": "날씨 변화를 예측할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'looks like'는 추측을 나타냄, 하늘을 보고 판단할 때 사용",
+      "example": {
+        "A": "The sky looks dark.",
+        "B": "Yeah, it looks like it's going to storm. Let's head inside."
+      },
+      "relatedPhrases": [
+        "A storm is coming",
+        "It's about to rain"
+      ]
+    },
+    {
+      "phrase": "I can't stand the heat",
+      "meaning": "더위를 못 참겠어요",
+      "pronunciation": {
+        "ipa": "/aɪ kɑːnt stænd ðə hiːt/",
+        "korean": "아이 캔트 스탠드 더 히트"
+      },
+      "context": "더위에 대한 불만을 표현할 때",
+      "formalLevel": "casual",
+      "koreanTip": "'can't stand'는 참을 수 없다는 강한 표현",
+      "example": {
+        "A": "How do you feel about summer?",
+        "B": "I can't stand the heat. I prefer winter."
+      },
+      "relatedPhrases": [
+        "It's too hot for me",
+        "I'm melting"
+      ]
+    },
+    {
+      "phrase": "It's clearing up now",
+      "meaning": "지금 날씨가 개고 있어요",
+      "pronunciation": {
+        "ipa": "/ɪts ˈklɪərɪŋ ʌp naʊ/",
+        "korean": "잇츠 클리어링 업 나우"
+      },
+      "context": "날씨가 좋아지고 있을 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'clear up'은 날씨가 개다, 구름이 걷히다의 의미",
+      "example": {
+        "A": "Is it still raining?",
+        "B": "No, it's clearing up now. We can go out soon."
+      },
+      "relatedPhrases": [
+        "The clouds are breaking up",
+        "It's getting brighter"
+      ]
+    }
   ]
 }

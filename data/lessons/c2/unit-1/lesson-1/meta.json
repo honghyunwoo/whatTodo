@@ -9,9 +9,16 @@
   "subtitleKo": "원어민 수준 표현 마스터하기",
   "theme": "native",
   "estimatedMinutes": 30,
-  "keyPhrasesCount": 8,
+  "keyPhrasesCount": 15,
   "prerequisites": [],
-  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "activityTypes": [
+    "vocabulary",
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
   "weekMapping": "week-1",
   "objectives": [
     "Use contemporary slang",
@@ -24,13 +31,306 @@
     "지역별 차이 다루기"
   ],
   "keyPhrases": [
-    { "phrase": "That's a no-brainer", "meaning": "그건 당연하죠" },
-    { "phrase": "I'm totally swamped", "meaning": "일에 완전 파묻혀 있어요" },
-    { "phrase": "Let's play it by ear", "meaning": "상황 봐서 정하죠" },
-    { "phrase": "You're barking up the wrong tree", "meaning": "헛다리 짚고 있어요" },
-    { "phrase": "That's a game-changer", "meaning": "판도를 바꾸는 거예요" },
-    { "phrase": "I'll take a rain check", "meaning": "다음에 하죠" },
-    { "phrase": "Break a leg!", "meaning": "행운을 빌어요!" },
-    { "phrase": "That hit the nail on the head", "meaning": "정곡을 찔렀어요" }
+    {
+      "phrase": "That is a no-brainer",
+      "meaning": "그건 당연하죠",
+      "pronunciation": {
+        "ipa": "/ðæts ə nəʊˈbreɪnər/",
+        "korean": "댓츠 어 노브레이너"
+      },
+      "context": "결정이 너무 쉬워서 생각할 필요가 없을 때",
+      "formalLevel": "casual",
+      "koreanTip": "뇌를 사용할 필요가 없다는 뜻입니다. 비격식적인 상황에서 사용하세요.",
+      "example": {
+        "A": "Should we accept the deal with 30% more profit?",
+        "B": "That is a no-brainer! Of course we should."
+      },
+      "relatedPhrases": [
+        "It is obvious",
+        "It goes without saying",
+        "It is a given"
+      ]
+    },
+    {
+      "phrase": "I am totally swamped",
+      "meaning": "일에 완전 파묻혀 있어요",
+      "pronunciation": {
+        "ipa": "/aɪm ˈtəʊtəli swɒmpt/",
+        "korean": "아임 토털리 스웜프트"
+      },
+      "context": "매우 바쁜 상태를 강조할 때",
+      "formalLevel": "casual",
+      "koreanTip": "늪(swamp)에 빠진 것처럼 빠져나올 수 없다는 비유입니다.",
+      "example": {
+        "A": "Can you help me with this report?",
+        "B": "Sorry, I am totally swamped with the quarterly review right now."
+      },
+      "relatedPhrases": [
+        "I am snowed under",
+        "I am up to my neck",
+        "I am drowning in work"
+      ]
+    },
+    {
+      "phrase": "Let us play it by ear",
+      "meaning": "상황 봐서 정하죠",
+      "pronunciation": {
+        "ipa": "/lets pleɪ ɪt baɪ ɪər/",
+        "korean": "렛츠 플레이 잇 바이 이어"
+      },
+      "context": "미리 계획하지 않고 상황에 따라 결정할 때",
+      "formalLevel": "casual",
+      "koreanTip": "음악에서 악보 없이 귀로 듣고 연주하는 것에서 유래했습니다.",
+      "example": {
+        "A": "What time should we meet for dinner?",
+        "B": "Let us play it by ear. I will text you when I finish work."
+      },
+      "relatedPhrases": [
+        "We will see how it goes",
+        "Let us improvise",
+        "We will figure it out as we go"
+      ]
+    },
+    {
+      "phrase": "You are barking up the wrong tree",
+      "meaning": "헛다리 짚고 있어요",
+      "pronunciation": {
+        "ipa": "/jʊər ˈbɑːkɪŋ ʌp ðə rɒŋ triː/",
+        "korean": "유어 바킹 업 더 롱 트리"
+      },
+      "context": "잘못된 방향으로 노력하거나 잘못된 사람을 의심할 때",
+      "formalLevel": "casual",
+      "koreanTip": "사냥개가 잘못된 나무를 향해 짖는 것에서 유래했습니다.",
+      "example": {
+        "A": "I think marketing is responsible for the low sales.",
+        "B": "You are barking up the wrong tree. It is actually a product issue."
+      },
+      "relatedPhrases": [
+        "You have got the wrong idea",
+        "You are on the wrong track",
+        "You are looking in the wrong place"
+      ]
+    },
+    {
+      "phrase": "That is a game-changer",
+      "meaning": "판도를 바꾸는 거예요",
+      "pronunciation": {
+        "ipa": "/ðæts ə ɡeɪm ˈtʃeɪndʒər/",
+        "korean": "댓츠 어 게임 체인저"
+      },
+      "context": "상황을 완전히 바꿀 수 있는 것을 설명할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "비즈니스와 기술 분야에서 자주 사용되는 표현입니다.",
+      "example": {
+        "A": "The new AI feature can process data 100 times faster.",
+        "B": "That is a game-changer for our industry."
+      },
+      "relatedPhrases": [
+        "It is revolutionary",
+        "It is a breakthrough",
+        "It changes everything"
+      ]
+    },
+    {
+      "phrase": "I will take a rain check",
+      "meaning": "다음에 하죠",
+      "pronunciation": {
+        "ipa": "/aɪl teɪk ə reɪn tʃek/",
+        "korean": "아일 테이크 어 레인 체크"
+      },
+      "context": "초대를 정중히 거절하면서 다음에 하자고 할 때",
+      "formalLevel": "casual",
+      "koreanTip": "비로 취소된 야구 경기의 다음 경기 입장권에서 유래했습니다.",
+      "example": {
+        "A": "Want to grab lunch today?",
+        "B": "I will take a rain check. I have a deadline to meet."
+      },
+      "relatedPhrases": [
+        "Maybe another time",
+        "Can we reschedule?",
+        "Let us do it another day"
+      ]
+    },
+    {
+      "phrase": "Break a leg!",
+      "meaning": "행운을 빌어요!",
+      "pronunciation": {
+        "ipa": "/breɪk ə leɡ/",
+        "korean": "브레이크 어 레그"
+      },
+      "context": "공연이나 발표 전에 행운을 빌 때",
+      "formalLevel": "casual",
+      "koreanTip": "연극계에서 good luck이 불운을 가져온다고 믿어서 반대로 말하는 것에서 유래했습니다.",
+      "commonMistakes": "공연 전에만 사용하세요. 일반적인 행운의 상황에서는 적절하지 않습니다",
+      "example": {
+        "A": "I am so nervous about my presentation.",
+        "B": "You will do great. Break a leg!"
+      },
+      "relatedPhrases": [
+        "Good luck",
+        "Knock them dead",
+        "You have got this"
+      ]
+    },
+    {
+      "phrase": "That hit the nail on the head",
+      "meaning": "정곡을 찔렀어요",
+      "pronunciation": {
+        "ipa": "/ðæt hɪt ðə neɪl ɒn ðə hed/",
+        "korean": "댓 힛 더 네일 온 더 헤드"
+      },
+      "context": "누군가가 정확하게 핵심을 짚었을 때",
+      "formalLevel": "neutral",
+      "koreanTip": "망치로 못의 머리를 정확히 치는 것에서 유래했습니다.",
+      "example": {
+        "A": "I think our problem is lack of communication between teams.",
+        "B": "That hit the nail on the head. That is exactly what we need to fix."
+      },
+      "relatedPhrases": [
+        "You are spot on",
+        "Exactly right",
+        "That is precisely it"
+      ]
+    },
+    {
+      "phrase": "To get the ball rolling",
+      "meaning": "일을 시작하다",
+      "pronunciation": {
+        "ipa": "/tuː ɡet ðə bɔːl ˈrəʊlɪŋ/",
+        "korean": "투 겟 더 볼 롤링"
+      },
+      "context": "프로젝트나 활동을 시작할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "공이 굴러가면 계속 움직인다는 의미에서, 일단 시작하면 진행된다는 뜻입니다.",
+      "example": {
+        "A": "When should we start the new campaign?",
+        "B": "Let us get the ball rolling next week with a kickoff meeting."
+      },
+      "relatedPhrases": [
+        "To kick things off",
+        "To get started",
+        "To initiate"
+      ]
+    },
+    {
+      "phrase": "To be on cloud nine",
+      "meaning": "매우 행복하다",
+      "pronunciation": {
+        "ipa": "/tuː biː ɒn klaʊd naɪn/",
+        "korean": "투 비 온 클라우드 나인"
+      },
+      "context": "극도로 행복한 상태를 표현할 때",
+      "formalLevel": "casual",
+      "koreanTip": "구름 아홉 번째 층, 즉 하늘 높이 있다는 비유적 표현입니다.",
+      "example": {
+        "A": "How do you feel about the promotion?",
+        "B": "I am on cloud nine! I have been working towards this for years."
+      },
+      "relatedPhrases": [
+        "To be over the moon",
+        "To be thrilled",
+        "To be ecstatic"
+      ]
+    },
+    {
+      "phrase": "To be in a pickle",
+      "meaning": "곤란한 상황에 있다",
+      "pronunciation": {
+        "ipa": "/tuː biː ɪn ə ˈpɪkl/",
+        "korean": "투 비 인 어 피클"
+      },
+      "context": "어려운 상황에 처했을 때",
+      "formalLevel": "casual",
+      "koreanTip": "피클 병에 갇힌 것처럼 빠져나오기 어려운 상황을 의미합니다.",
+      "example": {
+        "A": "I double-booked myself for two important meetings.",
+        "B": "You are in a pickle now. Can you reschedule one of them?"
+      },
+      "relatedPhrases": [
+        "To be in a bind",
+        "To be in a jam",
+        "To be stuck"
+      ]
+    },
+    {
+      "phrase": "To burn the midnight oil",
+      "meaning": "밤늦게까지 일하다",
+      "pronunciation": {
+        "ipa": "/tuː bɜːn ðə ˈmɪdnaɪt ɔɪl/",
+        "korean": "투 번 더 미드나잇 오일"
+      },
+      "context": "야근하거나 밤새 공부할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "전기가 없던 시절, 밤에 기름 램프를 켜고 일하던 것에서 유래했습니다.",
+      "example": {
+        "A": "You look tired.",
+        "B": "I have been burning the midnight oil to finish the project on time."
+      },
+      "relatedPhrases": [
+        "To work late",
+        "To pull an all-nighter",
+        "To stay up late working"
+      ]
+    },
+    {
+      "phrase": "To be a piece of cake",
+      "meaning": "식은 죽 먹기다",
+      "pronunciation": {
+        "ipa": "/tuː biː ə piːs əv keɪk/",
+        "korean": "투 비 어 피스 오브 케이크"
+      },
+      "context": "무언가가 매우 쉬울 때",
+      "formalLevel": "casual",
+      "koreanTip": "케이크 한 조각을 먹는 것처럼 쉽다는 뜻입니다.",
+      "example": {
+        "A": "Was the exam difficult?",
+        "B": "It was a piece of cake. I finished in half the time."
+      },
+      "relatedPhrases": [
+        "It is easy as pie",
+        "It is a walk in the park",
+        "It is a breeze"
+      ]
+    },
+    {
+      "phrase": "To cost an arm and a leg",
+      "meaning": "엄청 비싸다",
+      "pronunciation": {
+        "ipa": "/tuː kɒst ən ɑːm ænd ə leɡ/",
+        "korean": "투 코스트 언 암 앤 어 레그"
+      },
+      "context": "무언가가 매우 비쌀 때",
+      "formalLevel": "casual",
+      "koreanTip": "팔다리를 팔아야 할 만큼 비싸다는 과장된 표현입니다.",
+      "example": {
+        "A": "How much was your new car?",
+        "B": "It cost an arm and a leg, but it was worth it."
+      },
+      "relatedPhrases": [
+        "To break the bank",
+        "To be pricey",
+        "To be expensive"
+      ]
+    },
+    {
+      "phrase": "To be all ears",
+      "meaning": "귀 기울여 듣다",
+      "pronunciation": {
+        "ipa": "/tuː biː ɔːl ɪəz/",
+        "korean": "투 비 올 이어즈"
+      },
+      "context": "주의 깊게 들을 준비가 되었을 때",
+      "formalLevel": "casual",
+      "koreanTip": "온몸이 귀가 된 것처럼 집중해서 듣는다는 뜻입니다.",
+      "example": {
+        "A": "I have some exciting news to share.",
+        "B": "I am all ears! Tell me everything."
+      },
+      "relatedPhrases": [
+        "I am listening",
+        "You have my attention",
+        "Go ahead"
+      ]
+    }
   ]
 }

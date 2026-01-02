@@ -9,9 +9,16 @@
   "subtitleKo": "하루 일과를 상세히 설명하세요",
   "theme": "routines",
   "estimatedMinutes": 15,
-  "keyPhrasesCount": 5,
+  "keyPhrasesCount": 15,
   "prerequisites": [],
-  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "activityTypes": [
+    "vocabulary",
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
   "weekMapping": "week-1",
   "objectives": [
     "Describe morning and evening routines",
@@ -24,10 +31,302 @@
     "빈도 부사를 사용해 습관 말하기"
   ],
   "keyPhrases": [
-    { "phrase": "I usually wake up at 7", "meaning": "보통 7시에 일어나요" },
-    { "phrase": "After breakfast, I...", "meaning": "아침 식사 후에 저는..." },
-    { "phrase": "I always brush my teeth", "meaning": "항상 이를 닦아요" },
-    { "phrase": "On weekends, I sleep in", "meaning": "주말에는 늦잠을 자요" },
-    { "phrase": "Before bed, I read", "meaning": "자기 전에 책을 읽어요" }
+    {
+      "phrase": "I usually wake up at 7",
+      "meaning": "보통 7시에 일어나요",
+      "pronunciation": {
+        "ipa": "/aɪ ˈjuːʒuəli weɪk ʌp æt ˈsevən/",
+        "korean": "아이 유주얼리 웨이크 업 앳 세븐"
+      },
+      "context": "일과를 설명할 때, 아침 루틴을 이야기할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'usually'의 's'는 'ㅈ' 소리가 아닌 'ㅈㅜ' 소리입니다",
+      "commonMistakes": [
+        "I usually wake up in 7 (X) → at 7 (O)"
+      ],
+      "example": {
+        "A": "What time do you usually wake up?",
+        "B": "I usually wake up at 7."
+      },
+      "relatedPhrases": [
+        "I get up at...",
+        "I set my alarm for..."
+      ]
+    },
+    {
+      "phrase": "After breakfast, I...",
+      "meaning": "아침 식사 후에 저는...",
+      "pronunciation": {
+        "ipa": "/ˈæftər ˈbrekfəst aɪ/",
+        "korean": "애프터 브렉퍼스트 아이"
+      },
+      "context": "순서대로 일과를 설명할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'breakfast'는 '브레이크패스트'가 아니라 빠르게 '브렉퍼스트'로 발음",
+      "example": {
+        "A": "What do you do in the morning?",
+        "B": "After breakfast, I check my emails."
+      },
+      "relatedPhrases": [
+        "Before breakfast...",
+        "During breakfast..."
+      ]
+    },
+    {
+      "phrase": "I always brush my teeth",
+      "meaning": "항상 이를 닦아요",
+      "pronunciation": {
+        "ipa": "/aɪ ˈɔːlweɪz brʌʃ maɪ tiːθ/",
+        "korean": "아이 올웨이즈 브러쉬 마이 티쓰"
+      },
+      "context": "매일 하는 위생 습관을 말할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'teeth'의 'th'는 혀를 이 사이에 대고 발음",
+      "commonMistakes": [
+        "I brush my tooth (X) → teeth (O) - 복수형 사용"
+      ],
+      "example": {
+        "A": "Do you brush your teeth before or after breakfast?",
+        "B": "I always brush my teeth after breakfast."
+      },
+      "relatedPhrases": [
+        "wash my face",
+        "take a shower"
+      ]
+    },
+    {
+      "phrase": "On weekends, I sleep in",
+      "meaning": "주말에는 늦잠을 자요",
+      "pronunciation": {
+        "ipa": "/ɒn ˈwiːkendz aɪ sliːp ɪn/",
+        "korean": "온 위켄즈 아이 슬립 인"
+      },
+      "context": "주말 루틴이 평일과 다를 때",
+      "formalLevel": "casual",
+      "koreanTip": "'sleep in'은 늦잠을 자다는 구동사, 'sleep late'와 비슷",
+      "example": {
+        "A": "What do you do on weekends?",
+        "B": "On weekends, I sleep in until 10."
+      },
+      "relatedPhrases": [
+        "stay in bed",
+        "have a lie-in"
+      ]
+    },
+    {
+      "phrase": "Before bed, I read",
+      "meaning": "자기 전에 책을 읽어요",
+      "pronunciation": {
+        "ipa": "/bɪˈfɔːr bed aɪ riːd/",
+        "korean": "비포어 베드 아이 리드"
+      },
+      "context": "저녁 루틴, 취침 전 습관을 말할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'before'의 강세는 두 번째 음절에",
+      "example": {
+        "A": "Do you have any bedtime habits?",
+        "B": "Before bed, I read for about 30 minutes."
+      },
+      "relatedPhrases": [
+        "go to bed at...",
+        "turn off the lights"
+      ]
+    },
+    {
+      "phrase": "I take a shower every morning",
+      "meaning": "매일 아침 샤워해요",
+      "pronunciation": {
+        "ipa": "/aɪ teɪk ə ˈʃaʊər ˈevri ˈmɔːrnɪŋ/",
+        "korean": "아이 테이크 어 샤워 에브리 모닝"
+      },
+      "context": "아침 위생 루틴을 설명할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'take a shower' 전체가 하나의 표현, 'have a shower'도 같은 의미 (영국식)",
+      "example": {
+        "A": "When do you usually shower?",
+        "B": "I take a shower every morning before work."
+      },
+      "relatedPhrases": [
+        "take a bath",
+        "have a quick shower"
+      ]
+    },
+    {
+      "phrase": "I get dressed quickly",
+      "meaning": "빨리 옷을 입어요",
+      "pronunciation": {
+        "ipa": "/aɪ ɡet drest ˈkwɪkli/",
+        "korean": "아이 겟 드레스트 퀵클리"
+      },
+      "context": "아침에 서두를 때, 옷 입는 습관을 말할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'dressed'의 'd'와 't' 발음이 연결되어 '드레스트'로",
+      "example": {
+        "A": "How long does it take you to get ready?",
+        "B": "Not long. I get dressed quickly."
+      },
+      "relatedPhrases": [
+        "put on my clothes",
+        "change clothes"
+      ]
+    },
+    {
+      "phrase": "I have coffee with breakfast",
+      "meaning": "아침과 함께 커피를 마셔요",
+      "pronunciation": {
+        "ipa": "/aɪ hæv ˈkɒfi wɪð ˈbrekfəst/",
+        "korean": "아이 해브 카피 위드 브렉퍼스트"
+      },
+      "context": "아침 식사 습관을 설명할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'have'는 마시다/먹다의 의미로도 사용됨",
+      "example": {
+        "A": "What do you drink in the morning?",
+        "B": "I have coffee with breakfast every day."
+      },
+      "relatedPhrases": [
+        "grab a coffee",
+        "make breakfast"
+      ]
+    },
+    {
+      "phrase": "I leave for work at 8",
+      "meaning": "8시에 출근해요",
+      "pronunciation": {
+        "ipa": "/aɪ liːv fɔːr wɜːrk æt eɪt/",
+        "korean": "아이 리브 포 워크 앳 에잇"
+      },
+      "context": "출근 시간을 말할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'leave for'는 ~로 출발하다, 'go to work'보다 구체적",
+      "commonMistakes": [
+        "I leave to work (X) → for work (O)"
+      ],
+      "example": {
+        "A": "When do you leave for work?",
+        "B": "I leave for work at 8 every morning."
+      },
+      "relatedPhrases": [
+        "head to work",
+        "commute to work"
+      ]
+    },
+    {
+      "phrase": "I come home around 6",
+      "meaning": "6시쯤 집에 와요",
+      "pronunciation": {
+        "ipa": "/aɪ kʌm həʊm əˈraʊnd sɪks/",
+        "korean": "아이 컴 홈 어라운드 식스"
+      },
+      "context": "퇴근 시간, 저녁 일과를 말할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'around'는 대략적인 시간을 표현할 때 유용",
+      "example": {
+        "A": "What time do you get home?",
+        "B": "I come home around 6, sometimes later."
+      },
+      "relatedPhrases": [
+        "get home",
+        "arrive home"
+      ]
+    },
+    {
+      "phrase": "I cook dinner myself",
+      "meaning": "저녁을 직접 요리해요",
+      "pronunciation": {
+        "ipa": "/aɪ kʊk ˈdɪnər maɪˈself/",
+        "korean": "아이 쿡 디너 마이셀프"
+      },
+      "context": "저녁 식사 습관을 말할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'myself'는 강조를 위해 사용, 생략해도 문법적으로 맞음",
+      "example": {
+        "A": "Do you eat out or cook at home?",
+        "B": "I usually cook dinner myself. It's cheaper."
+      },
+      "relatedPhrases": [
+        "make dinner",
+        "prepare a meal"
+      ]
+    },
+    {
+      "phrase": "I watch TV to relax",
+      "meaning": "TV를 보며 쉬어요",
+      "pronunciation": {
+        "ipa": "/aɪ wɒtʃ tiːˈviː tuː rɪˈlæks/",
+        "korean": "아이 워치 티비 투 릴랙스"
+      },
+      "context": "휴식 활동, 저녁 여가를 말할 때",
+      "formalLevel": "casual",
+      "koreanTip": "'to relax'는 목적을 나타내는 to부정사",
+      "example": {
+        "A": "How do you unwind after work?",
+        "B": "I watch TV to relax for an hour or so."
+      },
+      "relatedPhrases": [
+        "wind down",
+        "chill out"
+      ]
+    },
+    {
+      "phrase": "I exercise three times a week",
+      "meaning": "일주일에 세 번 운동해요",
+      "pronunciation": {
+        "ipa": "/aɪ ˈeksərsaɪz θriː taɪmz ə wiːk/",
+        "korean": "아이 엑서사이즈 쓰리 타임즈 어 위크"
+      },
+      "context": "운동 습관, 건강 루틴을 말할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'times a week'은 빈도를 표현하는 공식",
+      "example": {
+        "A": "How often do you exercise?",
+        "B": "I exercise three times a week at the gym."
+      },
+      "relatedPhrases": [
+        "work out",
+        "go to the gym"
+      ]
+    },
+    {
+      "phrase": "I set my alarm for 6:30",
+      "meaning": "6시 30분에 알람을 맞춰요",
+      "pronunciation": {
+        "ipa": "/aɪ set maɪ əˈlɑːrm fɔːr sɪks ˈθɜːrti/",
+        "korean": "아이 셋 마이 얼람 포 식스 써티"
+      },
+      "context": "기상 준비, 아침 계획을 말할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'alarm'은 '알람'이 아닌 '얼람'에 가깝게 발음",
+      "commonMistakes": [
+        "I set my alarm at 6:30 (X) → for 6:30 (O)"
+      ],
+      "example": {
+        "A": "What time is your alarm set for?",
+        "B": "I set my alarm for 6:30 on weekdays."
+      },
+      "relatedPhrases": [
+        "turn off the alarm",
+        "snooze the alarm"
+      ]
+    },
+    {
+      "phrase": "I go to bed around 11",
+      "meaning": "11시쯤 잠자리에 들어요",
+      "pronunciation": {
+        "ipa": "/aɪ ɡəʊ tuː bed əˈraʊnd ɪˈlevən/",
+        "korean": "아이 고 투 베드 어라운드 일레븐"
+      },
+      "context": "취침 시간, 수면 습관을 말할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'go to bed'는 잠자리에 눕다, 'go to sleep'은 잠들다",
+      "example": {
+        "A": "What's your bedtime?",
+        "B": "I go to bed around 11, but I read a bit first."
+      },
+      "relatedPhrases": [
+        "hit the sack",
+        "turn in for the night"
+      ]
+    }
   ]
 }

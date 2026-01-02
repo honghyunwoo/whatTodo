@@ -9,9 +9,18 @@
   "subtitleKo": "생산적인 토론에 참여하기",
   "theme": "discussion",
   "estimatedMinutes": 15,
-  "keyPhrasesCount": 5,
-  "prerequisites": ["b1-u1-l1"],
-  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "keyPhrasesCount": 15,
+  "prerequisites": [
+    "b1-u1-l1"
+  ],
+  "activityTypes": [
+    "vocabulary",
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
   "weekMapping": "week-2",
   "objectives": [
     "Engage in group discussions",
@@ -24,10 +33,250 @@
     "토론 요약하고 결론 내리기"
   ],
   "keyPhrases": [
-    { "phrase": "I see your point, but...", "meaning": "말씀은 알겠지만..." },
-    { "phrase": "That's a good argument", "meaning": "좋은 논거네요" },
-    { "phrase": "To summarize...", "meaning": "요약하자면..." },
-    { "phrase": "Let me add to that...", "meaning": "덧붙이자면..." },
-    { "phrase": "We can agree that...", "meaning": "...에 동의할 수 있겠네요" }
+    {
+      "phrase": "I see your point, but...",
+      "meaning": "말씀은 알겠지만...",
+      "pronunciation": "/aɪ siː jɔːr pɔɪnt bʌt/ 아이 시 유어 포인트 벗",
+      "context": "상대의 의견을 인정하면서 반론할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'your'는 '유어'로 발음. 'point'와 'but' 사이에 짧은 쉼",
+      "example": {
+        "A": "I think we should cut the budget.",
+        "B": "I see your point, but we also need to invest in growth."
+      },
+      "relatedPhrases": [
+        "I understand what you're saying, but...",
+        "That's valid, however..."
+      ]
+    },
+    {
+      "phrase": "That's a good argument",
+      "meaning": "좋은 논거네요",
+      "pronunciation": "/ðæts ə ɡʊd ˈɑːrɡjumənt/ 댓츠 어 굿 아규먼트",
+      "context": "상대의 주장을 인정할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'argument'는 '아규먼트'로 발음. 논쟁이 아닌 '논거'의 의미",
+      "commonMistakes": "한국에서 'argument'를 부정적으로 이해하기 쉬움. 토론에서는 '논거'라는 중립적 의미",
+      "example": {
+        "A": "The data shows a clear trend upward.",
+        "B": "That's a good argument. I hadn't considered that."
+      },
+      "relatedPhrases": [
+        "That's a valid point.",
+        "You make a good case."
+      ]
+    },
+    {
+      "phrase": "To summarize...",
+      "meaning": "요약하자면...",
+      "pronunciation": "/tə ˈsʌməraɪz/ 투 서머라이즈",
+      "context": "토론 내용을 정리할 때",
+      "formalLevel": "formal",
+      "koreanTip": "'summarize'는 '서머라이즈'로 발음. 강세는 첫 음절",
+      "example": {
+        "A": "We've discussed many points today.",
+        "B": "To summarize, we agree on the goals but differ on the timeline."
+      },
+      "relatedPhrases": [
+        "In summary...",
+        "To sum up..."
+      ]
+    },
+    {
+      "phrase": "Let me add to that...",
+      "meaning": "덧붙이자면...",
+      "pronunciation": "/let miː æd tə ðæt/ 렛 미 애드 투 댓",
+      "context": "상대의 의견에 추가 의견을 더할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'add to'는 '애드 투'로 자연스럽게 연결",
+      "example": {
+        "A": "Customer satisfaction is improving.",
+        "B": "Let me add to that—our return rate has also decreased."
+      },
+      "relatedPhrases": [
+        "I'd like to add...",
+        "Building on that..."
+      ]
+    },
+    {
+      "phrase": "We can agree that...",
+      "meaning": "...에 동의할 수 있겠네요",
+      "pronunciation": "/wiː kæn əˈɡriː ðæt/ 위 캔 어그리 댓",
+      "context": "공통점을 찾거나 합의점을 확인할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'agree'는 '어그리'로 발음. 'a'가 '어' 소리",
+      "example": {
+        "A": "So where do we stand?",
+        "B": "We can agree that quality is our top priority."
+      },
+      "relatedPhrases": [
+        "We all agree that...",
+        "It's clear that we both..."
+      ]
+    },
+    {
+      "phrase": "On the other hand...",
+      "meaning": "반면에...",
+      "pronunciation": "/ɒn ðə ˈʌðər hænd/ 온 더 아더 핸드",
+      "context": "반대 의견이나 다른 관점을 제시할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'other'는 '아더'로 발음. 'th'는 혀를 가볍게 물고",
+      "example": {
+        "A": "Hiring more staff would be expensive.",
+        "B": "On the other hand, it could increase our capacity significantly."
+      },
+      "relatedPhrases": [
+        "However...",
+        "Then again...",
+        "Alternatively..."
+      ]
+    },
+    {
+      "phrase": "That's exactly what I mean",
+      "meaning": "바로 그 말이에요",
+      "pronunciation": "/ðæts ɪɡˈzæktli wɒt aɪ miːn/ 댓츠 이그잭틀리 왓 아이 민",
+      "context": "상대가 자신의 의견을 정확히 이해했을 때",
+      "formalLevel": "casual",
+      "koreanTip": "'exactly'는 '이그잭틀리'로 발음. 강조할 때 'ex-'에 힘을 줌",
+      "example": {
+        "A": "So you're saying we need more time?",
+        "B": "That's exactly what I mean. Quality takes time."
+      },
+      "relatedPhrases": [
+        "Precisely.",
+        "Exactly.",
+        "That's my point."
+      ]
+    },
+    {
+      "phrase": "I'd like to make a point",
+      "meaning": "한 가지 말씀드리고 싶은 게 있어요",
+      "pronunciation": "/aɪd laɪk tə meɪk ə pɔɪnt/ 아이드 라이크 투 메이크 어 포인트",
+      "context": "토론 중 발언권을 요청할 때",
+      "formalLevel": "formal",
+      "koreanTip": "'I'd'는 'I would'의 축약. '아이드'로 빠르게 발음",
+      "example": {
+        "A": "Does anyone have anything to add?",
+        "B": "I'd like to make a point about the budget allocation."
+      },
+      "relatedPhrases": [
+        "May I add something?",
+        "I have a comment."
+      ]
+    },
+    {
+      "phrase": "Going back to what you said...",
+      "meaning": "아까 말씀하신 것으로 돌아가서...",
+      "pronunciation": "/ˈɡoʊɪŋ bæk tə wɒt juː sed/ 고잉 백 투 왓 유 세드",
+      "context": "이전 발언을 다시 언급할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'going back to'를 하나의 덩어리로 빠르게 연결",
+      "example": {
+        "A": "We should consider the timeline.",
+        "B": "Going back to what you said earlier, I agree we need a clear deadline."
+      },
+      "relatedPhrases": [
+        "Returning to your point...",
+        "As you mentioned earlier..."
+      ]
+    },
+    {
+      "phrase": "I'm not sure I agree",
+      "meaning": "동의할 수 있을지 모르겠어요",
+      "pronunciation": "/aɪm nɒt ʃɔːr aɪ əˈɡriː/ 아임 낫 슈어 아이 어그리",
+      "context": "부드럽게 반대 의견을 표현할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'sure'는 '슈어'로 발음. 직접적인 'I disagree'보다 완곡함",
+      "commonMistakes": "'I'm not agree'가 아닌 'I don't agree' 또는 'I'm not sure I agree'가 맞음",
+      "example": {
+        "A": "We should launch next month.",
+        "B": "I'm not sure I agree. We might need more testing."
+      },
+      "relatedPhrases": [
+        "I have some doubts about...",
+        "I'm not convinced that..."
+      ]
+    },
+    {
+      "phrase": "Could you clarify what you mean?",
+      "meaning": "무슨 말씀인지 명확히 해주시겠어요?",
+      "pronunciation": "/kʊd juː ˈklærɪfaɪ wɒt juː miːn/ 쿠드 유 클래리파이 왓 유 민",
+      "context": "상대의 말을 이해하지 못했을 때",
+      "formalLevel": "formal",
+      "koreanTip": "'clarify'는 '클래리파이'로 발음. 강세는 첫 음절",
+      "example": {
+        "A": "We need to pivot our strategy.",
+        "B": "Could you clarify what you mean by 'pivot'?"
+      },
+      "relatedPhrases": [
+        "What do you mean by...?",
+        "Could you explain that?"
+      ]
+    },
+    {
+      "phrase": "That raises a good point",
+      "meaning": "좋은 점을 제기하셨네요",
+      "pronunciation": "/ðæt ˈreɪzɪz ə ɡʊd pɔɪnt/ 댓 레이지즈 어 굿 포인트",
+      "context": "상대의 지적이 유효하다고 인정할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'raises'는 '레이지즈'로 발음. 's'가 'z' 소리로 변함",
+      "example": {
+        "A": "Have we considered the legal implications?",
+        "B": "That raises a good point. We should consult our lawyers."
+      },
+      "relatedPhrases": [
+        "Good point.",
+        "You bring up an important issue."
+      ]
+    },
+    {
+      "phrase": "Let's look at this from another angle",
+      "meaning": "다른 각도에서 살펴봅시다",
+      "pronunciation": "/lets lʊk æt ðɪs frʌm əˈnʌðər ˈæŋɡl/ 렛츠 룩 앳 디스 프럼 어나더 앵글",
+      "context": "새로운 관점을 제안할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'angle'은 '앵글'로 발음. 'ang'에 강세",
+      "example": {
+        "A": "The costs seem too high.",
+        "B": "Let's look at this from another angle—what's the cost of NOT doing it?"
+      },
+      "relatedPhrases": [
+        "Looking at it differently...",
+        "From a different perspective..."
+      ]
+    },
+    {
+      "phrase": "To be fair...",
+      "meaning": "공정하게 말하자면...",
+      "pronunciation": "/tə biː feər/ 투 비 페어",
+      "context": "다른 사람의 입장을 고려해 말할 때",
+      "formalLevel": "casual",
+      "koreanTip": "'fair'는 '페어'로 발음. 'ai'가 '에어' 소리",
+      "example": {
+        "A": "Their proposal was rejected quickly.",
+        "B": "To be fair, they didn't have much time to prepare."
+      },
+      "relatedPhrases": [
+        "In all fairness...",
+        "To give them credit..."
+      ]
+    },
+    {
+      "phrase": "I think we're all on the same page",
+      "meaning": "우리 모두 같은 생각인 것 같아요",
+      "pronunciation": "/aɪ θɪŋk wɪr ɔːl ɒn ðə seɪm peɪdʒ/ 아이 씽크 위어 올 온 더 세임 페이지",
+      "context": "합의에 도달했음을 확인할 때",
+      "formalLevel": "casual",
+      "koreanTip": "'on the same page'는 관용구. '같은 페이지에 있다'→ '같은 생각이다'",
+      "commonMistakes": "직역하면 어색함. '같은 생각'이라는 의미의 관용구로 이해",
+      "example": {
+        "A": "So we all support the new direction?",
+        "B": "I think we're all on the same page here."
+      },
+      "relatedPhrases": [
+        "We seem to agree.",
+        "We're in agreement."
+      ]
+    }
   ]
 }

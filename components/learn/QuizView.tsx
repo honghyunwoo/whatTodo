@@ -12,12 +12,17 @@ import Animated, { FadeIn, FadeOut, FadeInRight, FadeInUp, ZoomIn } from 'react-
 import { useTheme } from '@/contexts/ThemeContext';
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
-import { Exercise, QuizResult } from '@/types/activity';
+import { ActivityType, Exercise, QuizResult } from '@/types/activity';
 import { feedbackService } from '@/services/feedbackService';
+import { useWrongAnswerStore } from '@/store/wrongAnswerStore';
 
 interface QuizViewProps {
   exercises: Exercise[];
   onComplete: (results: QuizResult[], totalXP: number) => void;
+  /** 오답 저장용 컨텍스트 정보 */
+  lessonId?: string;
+  weekId?: string;
+  activityType?: ActivityType;
 }
 
 interface AnswerState {
@@ -26,8 +31,15 @@ interface AnswerState {
   showExplanation: boolean;
 }
 
-export function QuizView({ exercises, onComplete }: QuizViewProps) {
+export function QuizView({
+  exercises,
+  onComplete,
+  lessonId = '',
+  weekId = '',
+  activityType = 'grammar',
+}: QuizViewProps) {
   const { colors, isDark } = useTheme();
+  const addWrongAnswer = useWrongAnswerStore((state) => state.addWrongAnswer);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [results, setResults] = useState<QuizResult[]>([]);
   const [answerState, setAnswerState] = useState<AnswerState>({
@@ -72,6 +84,22 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
         timeSpent,
       };
 
+      // 오답인 경우 wrongAnswerStore에 저장
+      if (!isCorrect && lessonId && weekId) {
+        addWrongAnswer({
+          exerciseId: currentExercise.id,
+          lessonId,
+          weekId,
+          type: activityType,
+          exerciseType: currentExercise.type,
+          question: currentExercise.question,
+          userAnswer: answer,
+          correctAnswer: currentExercise.answer,
+          explanation: currentExercise.explanation,
+          attemptedAt: new Date().toISOString(),
+        });
+      }
+
       setResults((prev) => [...prev, result]);
       setAnswerState({
         selected: answer,
@@ -79,7 +107,15 @@ export function QuizView({ exercises, onComplete }: QuizViewProps) {
         showExplanation: true,
       });
     },
-    [answerState.selected, currentExercise, startTime]
+    [
+      answerState.selected,
+      currentExercise,
+      startTime,
+      addWrongAnswer,
+      lessonId,
+      weekId,
+      activityType,
+    ]
   );
 
   const handleNext = useCallback(() => {

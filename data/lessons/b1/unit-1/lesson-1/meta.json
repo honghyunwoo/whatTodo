@@ -9,9 +9,16 @@
   "subtitleKo": "생각과 이유 표현하기",
   "theme": "opinions",
   "estimatedMinutes": 15,
-  "keyPhrasesCount": 5,
+  "keyPhrasesCount": 15,
   "prerequisites": [],
-  "activityTypes": ["vocabulary", "grammar", "listening", "reading", "speaking", "writing"],
+  "activityTypes": [
+    "vocabulary",
+    "grammar",
+    "listening",
+    "reading",
+    "speaking",
+    "writing"
+  ],
   "weekMapping": "week-1",
   "objectives": [
     "State opinions using appropriate expressions",
@@ -24,10 +31,249 @@
     "완곡한 표현으로 공손하게 말하기"
   ],
   "keyPhrases": [
-    { "phrase": "In my opinion...", "meaning": "제 생각에는..." },
-    { "phrase": "I believe that...", "meaning": "저는 ...라고 생각해요" },
-    { "phrase": "The reason is...", "meaning": "그 이유는..." },
-    { "phrase": "From my point of view...", "meaning": "제 관점에서는..." },
-    { "phrase": "I would say that...", "meaning": "제가 말하자면..." }
+    {
+      "phrase": "In my opinion...",
+      "meaning": "제 생각에는...",
+      "pronunciation": "/ɪn maɪ əˈpɪnjən/ 인 마이 어피니언",
+      "context": "자신의 의견을 제시할 때 가장 기본적인 표현",
+      "formalLevel": "neutral",
+      "koreanTip": "'opinion'의 'o'는 '어'에 가깝게 발음. 강세는 'pin'에 있음",
+      "example": {
+        "A": "What do you think about working from home?",
+        "B": "In my opinion, it increases productivity for most people."
+      },
+      "relatedPhrases": [
+        "From my perspective...",
+        "As I see it..."
+      ]
+    },
+    {
+      "phrase": "I believe that...",
+      "meaning": "저는 ...라고 생각해요",
+      "pronunciation": "/aɪ bɪˈliːv ðæt/ 아이 빌리브 댓",
+      "context": "확신이 있는 의견을 말할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'believe'는 '빌리브'로 발음. 'th'는 혀를 살짝 물고 '댓'",
+      "commonMistakes": "'I believe to...'가 아닌 'I believe that...'이 맞음",
+      "example": {
+        "A": "Do you think the project will succeed?",
+        "B": "I believe that we have a good chance if we work together."
+      },
+      "relatedPhrases": [
+        "I'm convinced that...",
+        "I think that..."
+      ]
+    },
+    {
+      "phrase": "The reason is...",
+      "meaning": "그 이유는...",
+      "pronunciation": "/ðə ˈriːzən ɪz/ 더 리즌 이즈",
+      "context": "의견의 근거를 설명할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'reason'은 '리즌'으로 발음. 'ea'는 '이' 소리",
+      "example": {
+        "A": "Why do you prefer this option?",
+        "B": "The reason is that it saves both time and money."
+      },
+      "relatedPhrases": [
+        "This is because...",
+        "The main reason is..."
+      ]
+    },
+    {
+      "phrase": "From my point of view...",
+      "meaning": "제 관점에서는...",
+      "pronunciation": "/frʌm maɪ pɔɪnt əv vjuː/ 프럼 마이 포인트 어브 뷰",
+      "context": "자신의 시각에서 바라본 의견을 말할 때",
+      "formalLevel": "formal",
+      "koreanTip": "'point of view'를 빠르게 연결해서 발음",
+      "example": {
+        "A": "How should we handle this situation?",
+        "B": "From my point of view, we need more data before deciding."
+      },
+      "relatedPhrases": [
+        "From where I stand...",
+        "The way I see it..."
+      ]
+    },
+    {
+      "phrase": "I would say that...",
+      "meaning": "제가 말하자면...",
+      "pronunciation": "/aɪ wʊd seɪ ðæt/ 아이 우드 세이 댓",
+      "context": "조심스럽게 의견을 제시할 때 (완곡한 표현)",
+      "formalLevel": "formal",
+      "koreanTip": "'would'는 '우드'로 부드럽게 발음",
+      "example": {
+        "A": "Is this a good investment?",
+        "B": "I would say that it carries some risk, but it could pay off."
+      },
+      "relatedPhrases": [
+        "I'd suggest that...",
+        "I might say that..."
+      ]
+    },
+    {
+      "phrase": "Personally, I think...",
+      "meaning": "개인적으로 생각하기에...",
+      "pronunciation": "/ˈpɜːrsənəli aɪ θɪŋk/ 퍼스널리 아이 씽크",
+      "context": "개인적인 견해임을 강조할 때",
+      "formalLevel": "casual",
+      "koreanTip": "'think'의 'th'는 혀를 물고 '씽크'로 발음",
+      "example": {
+        "A": "What's your take on the new policy?",
+        "B": "Personally, I think it will benefit everyone in the long run."
+      },
+      "relatedPhrases": [
+        "Speaking for myself...",
+        "In my case..."
+      ]
+    },
+    {
+      "phrase": "As far as I'm concerned...",
+      "meaning": "제가 보기에는...",
+      "pronunciation": "/æz fɑːr æz aɪm kənˈsɜːrnd/ 애즈 파 애즈 아임 컨선드",
+      "context": "자신의 입장을 분명히 할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'concerned'는 '컨선드'로 발음. 끝의 'd'는 가볍게",
+      "example": {
+        "A": "Should we proceed with the merger?",
+        "B": "As far as I'm concerned, the benefits outweigh the risks."
+      },
+      "relatedPhrases": [
+        "For my part...",
+        "Regarding my view..."
+      ]
+    },
+    {
+      "phrase": "It seems to me that...",
+      "meaning": "제가 보기에는 ...인 것 같아요",
+      "pronunciation": "/ɪt siːmz tə miː ðæt/ 잇 심즈 투 미 댓",
+      "context": "부드럽게 의견을 제시할 때 (완곡한 표현)",
+      "formalLevel": "neutral",
+      "koreanTip": "'seems'는 '심즈'로 발음. 's'가 'z' 소리로 변함",
+      "example": {
+        "A": "Why is the project delayed?",
+        "B": "It seems to me that we underestimated the complexity."
+      },
+      "relatedPhrases": [
+        "It appears that...",
+        "It looks like..."
+      ]
+    },
+    {
+      "phrase": "I tend to think...",
+      "meaning": "저는 ...라고 생각하는 편이에요",
+      "pronunciation": "/aɪ tend tə θɪŋk/ 아이 텐드 투 씽크",
+      "context": "일반적인 성향이나 경향을 말할 때",
+      "formalLevel": "casual",
+      "koreanTip": "'tend'는 '텐드'로 발음. 'd'와 'to'가 연결됨",
+      "example": {
+        "A": "How do you usually approach problems?",
+        "B": "I tend to think about all possibilities before deciding."
+      },
+      "relatedPhrases": [
+        "I'm inclined to think...",
+        "I generally believe..."
+      ]
+    },
+    {
+      "phrase": "If you ask me...",
+      "meaning": "제 생각을 묻는다면...",
+      "pronunciation": "/ɪf juː æsk miː/ 이프 유 애스크 미",
+      "context": "의견을 요청받지 않았지만 말할 때 (다소 직설적)",
+      "formalLevel": "casual",
+      "koreanTip": "'ask'는 '애스크'로 발음. 미국식은 '에스크'",
+      "commonMistakes": "격식 있는 자리에서는 조심해서 사용",
+      "example": {
+        "A": "This plan seems complicated.",
+        "B": "If you ask me, we should simplify it first."
+      },
+      "relatedPhrases": [
+        "In my humble opinion...",
+        "Speaking frankly..."
+      ]
+    },
+    {
+      "phrase": "To be honest...",
+      "meaning": "솔직히 말해서...",
+      "pronunciation": "/tə biː ˈɒnɪst/ 투 비 아니스트",
+      "context": "솔직한 의견을 말할 때 (주의 필요)",
+      "formalLevel": "casual",
+      "koreanTip": "'honest'의 'h'는 묵음. '아니스트'로 발음",
+      "commonMistakes": "비판적인 의견 전에 자주 사용하므로 상대방이 긴장할 수 있음",
+      "example": {
+        "A": "What do you think of my presentation?",
+        "B": "To be honest, I think it needs more examples."
+      },
+      "relatedPhrases": [
+        "Honestly speaking...",
+        "To tell you the truth..."
+      ]
+    },
+    {
+      "phrase": "I'm of the opinion that...",
+      "meaning": "저는 ...라는 의견입니다",
+      "pronunciation": "/aɪm əv ði əˈpɪnjən ðæt/ 아임 어브 디 어피니언 댓",
+      "context": "격식 있는 자리에서 의견을 말할 때",
+      "formalLevel": "formal",
+      "koreanTip": "'of the'는 '어브 디'로 빠르게 연결해서 발음",
+      "example": {
+        "A": "Should we invest in new technology?",
+        "B": "I'm of the opinion that it's essential for our growth."
+      },
+      "relatedPhrases": [
+        "It is my opinion that...",
+        "I hold the view that..."
+      ]
+    },
+    {
+      "phrase": "What I mean is...",
+      "meaning": "제 말은...",
+      "pronunciation": "/wɒt aɪ miːn ɪz/ 왓 아이 민 이즈",
+      "context": "자신의 의견을 명확히 하거나 설명을 추가할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'What I'는 '와라이'처럼 연결해서 빠르게 발음",
+      "example": {
+        "A": "I'm not sure I understand your point.",
+        "B": "What I mean is that we need to focus on quality, not quantity."
+      },
+      "relatedPhrases": [
+        "Let me clarify...",
+        "To put it another way..."
+      ]
+    },
+    {
+      "phrase": "I feel strongly that...",
+      "meaning": "저는 ...라고 강하게 생각해요",
+      "pronunciation": "/aɪ fiːl ˈstrɒŋli ðæt/ 아이 필 스트롱리 댓",
+      "context": "확고한 의견을 표현할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'strongly'는 '스트롱리'로 발음. 'str' 연결에 주의",
+      "commonMistakes": "너무 자주 사용하면 고집스럽게 보일 수 있음",
+      "example": {
+        "A": "Do you have any concerns?",
+        "B": "I feel strongly that we should prioritize safety."
+      },
+      "relatedPhrases": [
+        "I'm firmly convinced...",
+        "I strongly believe..."
+      ]
+    },
+    {
+      "phrase": "Not everyone would agree, but...",
+      "meaning": "모두가 동의하진 않겠지만...",
+      "pronunciation": "/nɒt ˈevriwʌn wʊd əˈɡriː bʌt/ 낫 에브리원 우드 어그리 벗",
+      "context": "논쟁적일 수 있는 의견을 조심스럽게 제시할 때",
+      "formalLevel": "neutral",
+      "koreanTip": "'everyone'은 '에브리원'으로 자연스럽게 연결",
+      "example": {
+        "A": "What's your opinion on remote work?",
+        "B": "Not everyone would agree, but I think it boosts creativity."
+      },
+      "relatedPhrases": [
+        "Some might disagree, but...",
+        "It's debatable, but..."
+      ]
+    }
   ]
 }
