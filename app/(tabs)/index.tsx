@@ -4,6 +4,8 @@
  * 통합 입력 + 타임라인 방식:
  * - 메모/할일/일기를 한 곳에서 작성
  * - 시간순으로 오늘의 기록 표시
+ * - 퀵 학습 시작 카드
+ * - SRS 복습 위젯
  */
 
 import React from 'react';
@@ -14,6 +16,8 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { TodayHeader } from '@/components/today/TodayHeader';
 import { TodayEntry } from '@/components/today/TodayEntry';
 import { TodayTimeline } from '@/components/today/TodayTimeline';
+import { QuickStartCard } from '@/components/home/QuickStartCard';
+import { SrsWidget } from '@/components/home/SrsWidget';
 
 export default function TodayScreen() {
   const { colors } = useTheme();
@@ -31,6 +35,12 @@ export default function TodayScreen() {
         showsVerticalScrollIndicator={false}
         keyboardShouldPersistTaps="handled"
       >
+        {/* 퀵 학습 시작 카드 */}
+        <QuickStartCard />
+
+        {/* SRS 복습 위젯 */}
+        <SrsWidget />
+
         {/* 통합 입력창: 메모/할일/일기 */}
         <TodayEntry />
 

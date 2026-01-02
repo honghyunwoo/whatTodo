@@ -1,18 +1,30 @@
 /**
  * QuickStartCard - 30초 퀵 학습 시작 카드
  * 홈 화면 상단에서 바로 학습을 시작할 수 있는 CTA 카드
+ *
+ * Enhanced with:
+ * - Reanimated animations for entry
+ * - Haptic feedback on press
+ * - Improved microinteractions
  */
 
-import React, { useMemo } from 'react';
+import React, { useMemo, useCallback } from 'react';
 import { StyleSheet, View, Pressable } from 'react-native';
 import { Text } from 'react-native-paper';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
+import Animated, {
+  useSharedValue,
+  useAnimatedStyle,
+  withSpring,
+  FadeInDown,
+} from 'react-native-reanimated';
 
 import { SIZES, SHADOWS } from '@/constants/sizes';
 import { useStreakStore } from '@/store/streakStore';
 import { useLearnStore } from '@/store/learnStore';
+import { feedbackService } from '@/services/feedbackService';
 
 /**
  * QuickStartCard: 홈 화면 최상단 퀵 학습 시작 카드
@@ -22,6 +34,7 @@ import { useLearnStore } from '@/store/learnStore';
  */
 export function QuickStartCard() {
   const router = useRouter();
+  const scale = useSharedValue(1);
 
   // Store 구독
   const { currentStreak, lastStudyDate } = useStreakStore();
@@ -45,10 +58,23 @@ export function QuickStartCard() {
   // 스트릭 위험 상태
   const streakAtRisk = currentStreak > 0 && !didLearnToday;
 
-  const handlePress = () => {
+  const animatedStyle = useAnimatedStyle(() => ({
+    transform: [{ scale: scale.value }],
+  }));
+
+  const handlePressIn = useCallback(() => {
+    scale.value = withSpring(0.97, { damping: 15, stiffness: 300 });
+  }, [scale]);
+
+  const handlePressOut = useCallback(() => {
+    scale.value = withSpring(1, { damping: 15, stiffness: 300 });
+  }, [scale]);
+
+  const handlePress = useCallback(() => {
+    feedbackService.tap();
     // 학습 탭으로 이동하여 세션 시작
     router.push('/(tabs)/learn');
-  };
+  }, [router]);
 
   // 메시지 결정
   const getMessage = () => {
@@ -79,71 +105,87 @@ export function QuickStartCard() {
   const message = getMessage();
 
   return (
-    <Pressable style={styles.container} onPress={handlePress}>
-      <LinearGradient
-        colors={
-          streakAtRisk ? ['#FF6B6B', '#EE5A5A', '#DD4949'] : ['#667eea', '#764ba2', '#6B66EA']
-        }
-        start={{ x: 0, y: 0 }}
-        end={{ x: 1, y: 1 }}
-        style={styles.gradient}
+    <Animated.View
+      entering={FadeInDown.delay(100).springify()}
+      style={[styles.container, animatedStyle]}
+    >
+      <Pressable
+        onPress={handlePress}
+        onPressIn={handlePressIn}
+        onPressOut={handlePressOut}
+        style={styles.pressable}
       >
-        {/* 배경 장식 */}
-        <View style={styles.decorCircle1} />
-        <View style={styles.decorCircle2} />
+        <LinearGradient
+          colors={
+            streakAtRisk
+              ? (['#FF6B6B', '#EE5A5A', '#DD4949'] as const)
+              : (['#667eea', '#764ba2', '#6B66EA'] as const)
+          }
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={styles.gradient}
+        >
+          {/* 배경 장식 */}
+          <View style={styles.decorCircle1} />
+          <View style={styles.decorCircle2} />
+          <View style={styles.decorCircle3} />
 
-        {/* 콘텐츠 */}
-        <View style={styles.content}>
-          {/* 아이콘 */}
-          <View style={styles.iconContainer}>
-            <Ionicons
-              name={message.icon}
-              size={32}
-              color={message.urgent ? '#FFE066' : '#FFFFFF'}
-            />
+          {/* 콘텐츠 */}
+          <View style={styles.content}>
+            {/* 아이콘 */}
+            <View style={styles.iconContainer}>
+              <Ionicons
+                name={message.icon}
+                size={32}
+                color={message.urgent ? '#FFE066' : '#FFFFFF'}
+              />
+            </View>
+
+            {/* 텍스트 */}
+            <View style={styles.textContainer}>
+              <Text style={styles.title}>{message.title}</Text>
+              <Text style={styles.subtitle}>{message.subtitle}</Text>
+            </View>
+
+            {/* 화살표 */}
+            <View style={styles.arrowContainer}>
+              <Ionicons name="arrow-forward-circle" size={40} color="#FFFFFF" />
+            </View>
           </View>
 
-          {/* 텍스트 */}
-          <View style={styles.textContainer}>
-            <Text style={styles.title}>{message.title}</Text>
-            <Text style={styles.subtitle}>{message.subtitle}</Text>
+          {/* 레벨 배지 */}
+          <View style={styles.levelBadge}>
+            <Text style={styles.levelText}>{currentLevel}</Text>
           </View>
 
-          {/* 화살표 */}
-          <View style={styles.arrowContainer}>
-            <Ionicons name="arrow-forward-circle" size={36} color="#FFFFFF" />
-          </View>
-        </View>
-
-        {/* 레벨 배지 */}
-        <View style={styles.levelBadge}>
-          <Text style={styles.levelText}>{currentLevel}</Text>
-        </View>
-
-        {/* 스트릭 표시 */}
-        {currentStreak > 0 && (
-          <View style={styles.streakBadge}>
-            <Ionicons name="flame" size={14} color="#FFE066" />
-            <Text style={styles.streakText}>{currentStreak}</Text>
-          </View>
-        )}
-      </LinearGradient>
-    </Pressable>
+          {/* 스트릭 표시 */}
+          {currentStreak > 0 && (
+            <View style={styles.streakBadge}>
+              <Ionicons name="flame" size={14} color="#FFE066" />
+              <Text style={styles.streakText}>{currentStreak}</Text>
+            </View>
+          )}
+        </LinearGradient>
+      </Pressable>
+    </Animated.View>
   );
 }
 
 const styles = StyleSheet.create({
-  arrowContainer: {
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
   container: {
     marginHorizontal: SIZES.spacing.md,
     marginTop: SIZES.spacing.md,
     marginBottom: SIZES.spacing.sm,
     borderRadius: SIZES.borderRadius.xl,
     overflow: 'hidden',
-    ...SHADOWS.md,
+    ...SHADOWS.lg,
+  },
+  pressable: {
+    flex: 1,
+  },
+  arrowContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   content: {
     alignItems: 'center',
@@ -152,13 +194,13 @@ const styles = StyleSheet.create({
     padding: SIZES.spacing.lg,
   },
   decorCircle1: {
-    backgroundColor: 'rgba(255, 255, 255, 0.1)',
+    backgroundColor: 'rgba(255, 255, 255, 0.12)',
     borderRadius: 100,
-    height: 120,
+    height: 140,
     position: 'absolute',
-    right: -30,
-    top: -30,
-    width: 120,
+    right: -40,
+    top: -40,
+    width: 140,
   },
   decorCircle2: {
     backgroundColor: 'rgba(255, 255, 255, 0.08)',
@@ -169,8 +211,17 @@ const styles = StyleSheet.create({
     position: 'absolute',
     width: 100,
   },
+  decorCircle3: {
+    backgroundColor: 'rgba(255, 255, 255, 0.06)',
+    borderRadius: 40,
+    bottom: 20,
+    height: 60,
+    position: 'absolute',
+    right: 60,
+    width: 60,
+  },
   gradient: {
-    minHeight: 100,
+    minHeight: 110,
     overflow: 'hidden',
     position: 'relative',
   },
@@ -178,9 +229,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: 'rgba(255, 255, 255, 0.2)',
     borderRadius: SIZES.borderRadius.full,
-    height: 56,
+    height: 60,
     justifyContent: 'center',
-    width: 56,
+    width: 60,
   },
   levelBadge: {
     backgroundColor: 'rgba(255, 255, 255, 0.25)',
@@ -214,7 +265,7 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   subtitle: {
-    color: 'rgba(255, 255, 255, 0.8)',
+    color: 'rgba(255, 255, 255, 0.85)',
     fontSize: SIZES.fontSize.sm,
     marginTop: 2,
   },
@@ -225,5 +276,8 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: SIZES.fontSize.lg,
     fontWeight: '700',
+    textShadowColor: 'rgba(0, 0, 0, 0.2)',
+    textShadowOffset: { width: 0, height: 1 },
+    textShadowRadius: 2,
   },
 });

@@ -1,17 +1,33 @@
 /**
  * Badge Showcase Component
  * Displays earned and locked badges in a grid layout
+ *
+ * Enhanced with:
+ * - Lottie confetti animation on unlock
+ * - Animated badge items
+ * - Progress to next badge
+ * - Haptic feedback
  */
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import React, { useCallback, useMemo, useState } from 'react';
+import React, { useCallback, useMemo, useState, useRef } from 'react';
 import { Modal, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
 import { Button, Card, Chip, Text } from 'react-native-paper';
+import Animated, {
+  FadeIn,
+  FadeInUp,
+  ZoomIn,
+  useAnimatedStyle,
+  useSharedValue,
+  withSpring,
+} from 'react-native-reanimated';
+import LottieView from 'lottie-react-native';
 
 import { COLORS, withAlpha } from '@/constants/colors';
 import { SHADOWS, SIZES } from '@/constants/sizes';
 import { useRewardStore } from '@/store/rewardStore';
 import { Badge, BadgeCategory, BADGES, getBadgesByCategory } from '@/types/badges';
+import { feedbackService } from '@/services/feedbackService';
 
 // ─────────────────────────────────────
 // Types
@@ -36,7 +52,72 @@ const CATEGORY_CONFIG: Record<FilterCategory, { label: string; icon: string }> =
 };
 
 // ─────────────────────────────────────
-// Component
+// Badge Item Component
+// ─────────────────────────────────────
+
+interface BadgeItemProps {
+  badge: Badge;
+  isUnlocked: boolean;
+  index: number;
+  onPress: () => void;
+}
+
+function BadgeItem({ badge, isUnlocked, index, onPress }: BadgeItemProps) {
+  const scale = useSharedValue(1);
+
+  const animatedStyle = useAnimatedStyle(() => ({
+    transform: [{ scale: scale.value }],
+  }));
+
+  const handlePressIn = useCallback(() => {
+    scale.value = withSpring(0.95, { damping: 15, stiffness: 300 });
+  }, [scale]);
+
+  const handlePressOut = useCallback(() => {
+    scale.value = withSpring(1, { damping: 15, stiffness: 300 });
+  }, [scale]);
+
+  const handlePress = useCallback(() => {
+    feedbackService.tap();
+    onPress();
+  }, [onPress]);
+
+  return (
+    <Animated.View entering={FadeInUp.delay(index * 50).springify()} style={animatedStyle}>
+      <TouchableOpacity
+        style={[styles.badgeItem, !isUnlocked && styles.badgeItemLocked]}
+        onPressIn={handlePressIn}
+        onPressOut={handlePressOut}
+        onPress={handlePress}
+        activeOpacity={1}
+      >
+        <View
+          style={[
+            styles.badgeIconContainer,
+            { backgroundColor: isUnlocked ? withAlpha(badge.color, 0.15) : COLORS.border },
+          ]}
+        >
+          <MaterialCommunityIcons
+            name={badge.icon as keyof typeof MaterialCommunityIcons.glyphMap}
+            size={32}
+            color={isUnlocked ? badge.color : COLORS.textSecondary}
+          />
+          {!isUnlocked && (
+            <View style={styles.lockOverlay}>
+              <MaterialCommunityIcons name="lock" size={14} color={COLORS.textSecondary} />
+            </View>
+          )}
+        </View>
+        <Text style={[styles.badgeName, !isUnlocked && styles.badgeNameLocked]} numberOfLines={2}>
+          {badge.name}
+        </Text>
+      </TouchableOpacity>
+    </Animated.View>
+  );
+}
+
+// ─────────────────────────────────────
+// Main Component
 // ─────────────────────────────────────
 
 export function BadgeShowcase({ onClose }: BadgeShowcaseProps) {
@@ -45,6 +126,8 @@ export function BadgeShowcase({ onClose }: BadgeShowcaseProps) {
 
   const [selectedCategory, setSelectedCategory] = useState<FilterCategory>('all');
   const [selectedBadge, setSelectedBadge] = useState<Badge | null>(null);
+  const [showConfetti, setShowConfetti] = useState(false);
+  const confettiRef = useRef<LottieView>(null);
 
   // ─────────────────────────────────────
   // Badge Data
@@ -94,60 +177,22 @@ export function BadgeShowcase({ onClose }: BadgeShowcaseProps) {
   // Handlers
   // ─────────────────────────────────────
 
-  const handleBadgePress = useCallback((badge: Badge) => {
-    setSelectedBadge(badge);
-  }, []);
+  const handleBadgePress = useCallback(
+    (badge: Badge) => {
+      setSelectedBadge(badge);
+      if (hasBadge(badge.id)) {
+        setShowConfetti(true);
+        feedbackService.badge();
+        confettiRef.current?.play();
+      }
+    },
+    [hasBadge]
+  );
 
   const closeBadgeModal = useCallback(() => {
     setSelectedBadge(null);
+    setShowConfetti(false);
   }, []);
-
-  // ─────────────────────────────────────
-  // Render Badge Item
-  // ─────────────────────────────────────
-
-  const renderBadgeItem = useCallback((badge: Badge) => {
-    const isUnlocked = hasBadge(badge.id);
-
-    return (
-      <TouchableOpacity
-        key={badge.id}
-        style={[
-          styles.badgeItem,
-          !isUnlocked && styles.badgeItemLocked,
-        ]}
-        onPress={() => handleBadgePress(badge)}
-        activeOpacity={0.7}
-      >
-        <View
-          style={[
-            styles.badgeIconContainer,
-            { backgroundColor: isUnlocked ? withAlpha(badge.color, 0.15) : COLORS.border },
-          ]}
-        >
-          <MaterialCommunityIcons
-            name={badge.icon as any}
-            size={32}
-            color={isUnlocked ? badge.color : COLORS.textSecondary}
-          />
-          {!isUnlocked && (
-            <View style={styles.lockOverlay}>
-              <MaterialCommunityIcons name="lock" size={14} color={COLORS.textSecondary} />
-            </View>
-          )}
-        </View>
-        <Text
-          style={[
-            styles.badgeName,
-            !isUnlocked && styles.badgeNameLocked,
-          ]}
-          numberOfLines={2}
-        >
-          {badge.name}
-        </Text>
-      </TouchableOpacity>
-    );
-  }, [hasBadge, handleBadgePress]);
 
   // ─────────────────────────────────────
   // Render
@@ -156,9 +201,9 @@ export function BadgeShowcase({ onClose }: BadgeShowcaseProps) {
   return (
     <View style={styles.container}>
       {/* Header */}
-      <View style={styles.header}>
+      <Animated.View entering={FadeIn.duration(300)} style={styles.header}>
         <View style={styles.headerContent}>
-          <Text style={styles.headerTitle}>배지</Text>
+          <Text style={styles.headerTitle}>🏆 배지</Text>
           <Text style={styles.headerSubtitle}>
             {badgeStats.unlocked} / {badgeStats.total} 획득
           </Text>
@@ -168,19 +213,46 @@ export function BadgeShowcase({ onClose }: BadgeShowcaseProps) {
             <MaterialCommunityIcons name="close" size={24} color={COLORS.text} />
           </TouchableOpacity>
         )}
-      </View>
+      </Animated.View>
 
       {/* Progress Overview */}
-      <View style={styles.progressCard}>
+      <Animated.View entering={FadeInUp.delay(100).springify()} style={styles.progressCard}>
         <View style={styles.progressHeader}>
-          <MaterialCommunityIcons name="trophy-outline" size={24} color={COLORS.warning} />
-          <Text style={styles.progressTitle}>수집 현황</Text>
+          <View style={styles.trophyContainer}>
+            <MaterialCommunityIcons name="trophy" size={28} color="#FFD700" />
+          </View>
+          <View style={styles.progressInfo}>
+            <Text style={styles.progressTitle}>수집 현황</Text>
+            <Text style={styles.progressSubtitle}>{badgeStats.percentage}% 완료</Text>
+          </View>
         </View>
         <View style={styles.progressBarContainer}>
-          <View style={[styles.progressBar, { width: `${badgeStats.percentage}%` }]} />
+          <Animated.View
+            entering={FadeIn.delay(200).duration(500)}
+            style={[styles.progressBar, { width: `${badgeStats.percentage}%` }]}
+          />
         </View>
-        <Text style={styles.progressText}>{badgeStats.percentage}% 완료</Text>
-      </View>
+        <View style={styles.progressMilestones}>
+          {[25, 50, 75, 100].map((milestone) => (
+            <View
+              key={milestone}
+              style={[
+                styles.milestone,
+                badgeStats.percentage >= milestone && styles.milestoneReached,
+              ]}
+            >
+              <Text
+                style={[
+                  styles.milestoneText,
+                  badgeStats.percentage >= milestone && styles.milestoneTextReached,
+                ]}
+              >
+                {milestone}%
+              </Text>
+            </View>
+          ))}
+        </View>
+      </Animated.View>
 
       {/* Category Filter */}
       <ScrollView
@@ -189,39 +261,48 @@ export function BadgeShowcase({ onClose }: BadgeShowcaseProps) {
         style={styles.filterContainer}
         contentContainerStyle={styles.filterContent}
       >
-        {(Object.keys(CATEGORY_CONFIG) as FilterCategory[]).map((category) => {
+        {(Object.keys(CATEGORY_CONFIG) as FilterCategory[]).map((category, index) => {
           const config = CATEGORY_CONFIG[category];
           const stats = categoryStats[category];
           const isSelected = selectedCategory === category;
 
           return (
-            <Chip
-              key={category}
-              selected={isSelected}
-              onPress={() => setSelectedCategory(category)}
-              style={[styles.filterChip, isSelected && styles.filterChipSelected]}
-              textStyle={[styles.filterChipText, isSelected && styles.filterChipTextSelected]}
-              icon={() => (
-                <MaterialCommunityIcons
-                  name={config.icon as any}
-                  size={16}
-                  color={isSelected ? '#fff' : COLORS.textSecondary}
-                />
-              )}
-            >
-              {config.label} ({stats.unlocked}/{stats.total})
-            </Chip>
+            <Animated.View key={category} entering={FadeInUp.delay(index * 50).springify()}>
+              <Chip
+                selected={isSelected}
+                onPress={() => {
+                  feedbackService.selection();
+                  setSelectedCategory(category);
+                }}
+                style={[styles.filterChip, isSelected && styles.filterChipSelected]}
+                textStyle={[styles.filterChipText, isSelected && styles.filterChipTextSelected]}
+                icon={() => (
+                  <MaterialCommunityIcons
+                    name={config.icon as keyof typeof MaterialCommunityIcons.glyphMap}
+                    size={16}
+                    color={isSelected ? '#fff' : COLORS.textSecondary}
+                  />
+                )}
+              >
+                {config.label} ({stats.unlocked}/{stats.total})
+              </Chip>
+            </Animated.View>
           );
         })}
       </ScrollView>
 
       {/* Badge Grid */}
-      <ScrollView
-        style={styles.badgeList}
-        contentContainerStyle={styles.badgeListContent}
-      >
+      <ScrollView style={styles.badgeList} contentContainerStyle={styles.badgeListContent}>
         <View style={styles.badgeGrid}>
-          {filteredBadges.map(renderBadgeItem)}
+          {filteredBadges.map((badge, index) => (
+            <BadgeItem
+              key={badge.id}
+              badge={badge}
+              isUnlocked={hasBadge(badge.id)}
+              index={index}
+              onPress={() => handleBadgePress(badge)}
+            />
+          ))}
         </View>
       </ScrollView>
 
@@ -233,71 +314,96 @@ export function BadgeShowcase({ onClose }: BadgeShowcaseProps) {
         onRequestClose={closeBadgeModal}
       >
         <View style={styles.modalOverlay}>
-          <Card style={styles.modalCard}>
-            {selectedBadge && (
-              <Card.Content style={styles.modalContent}>
-                <View
-                  style={[
-                    styles.modalBadgeIcon,
-                    {
-                      backgroundColor: hasBadge(selectedBadge.id)
-                        ? withAlpha(selectedBadge.color, 0.15)
-                        : COLORS.border,
-                    },
-                  ]}
-                >
-                  <MaterialCommunityIcons
-                    name={selectedBadge.icon as any}
-                    size={48}
-                    color={hasBadge(selectedBadge.id) ? selectedBadge.color : COLORS.textSecondary}
-                  />
-                </View>
+          {/* Confetti Animation */}
+          {showConfetti && (
+            <LottieView
+              ref={confettiRef}
+              source={require('@/assets/animations/confetti.json')}
+              style={styles.confetti}
+              autoPlay
+              loop={false}
+            />
+          )}
 
-                <Text style={styles.modalBadgeName}>{selectedBadge.name}</Text>
-                <Text style={styles.modalBadgeDescription}>{selectedBadge.description}</Text>
+          <Animated.View entering={ZoomIn.springify()}>
+            <Card style={styles.modalCard}>
+              {selectedBadge && (
+                <Card.Content style={styles.modalContent}>
+                  <Animated.View
+                    entering={ZoomIn.delay(100).springify()}
+                    style={[
+                      styles.modalBadgeIcon,
+                      {
+                        backgroundColor: hasBadge(selectedBadge.id)
+                          ? withAlpha(selectedBadge.color, 0.15)
+                          : COLORS.border,
+                      },
+                    ]}
+                  >
+                    <MaterialCommunityIcons
+                      name={selectedBadge.icon as keyof typeof MaterialCommunityIcons.glyphMap}
+                      size={48}
+                      color={
+                        hasBadge(selectedBadge.id) ? selectedBadge.color : COLORS.textSecondary
+                      }
+                    />
+                  </Animated.View>
 
-                <View style={styles.modalStatusContainer}>
-                  {hasBadge(selectedBadge.id) ? (
-                    <View style={styles.unlockedStatus}>
-                      <MaterialCommunityIcons name="check-circle" size={24} color={COLORS.success} />
-                      <Text style={styles.unlockedText}>획득함</Text>
-                    </View>
-                  ) : (
-                    <View style={styles.lockedStatus}>
-                      <MaterialCommunityIcons name="lock-outline" size={24} color={COLORS.textSecondary} />
-                      <Text style={styles.lockedText}>잠김</Text>
-                    </View>
-                  )}
-                </View>
+                  <Text style={styles.modalBadgeName}>{selectedBadge.name}</Text>
+                  <Text style={styles.modalBadgeDescription}>{selectedBadge.description}</Text>
 
-                <View style={styles.requirementContainer}>
-                  <Text style={styles.requirementLabel}>획득 조건</Text>
-                  <Text style={styles.requirementText}>
-                    {getRequirementText(selectedBadge)}
-                  </Text>
-                </View>
+                  <View style={styles.modalStatusContainer}>
+                    {hasBadge(selectedBadge.id) ? (
+                      <View style={styles.unlockedStatus}>
+                        <MaterialCommunityIcons
+                          name="check-circle"
+                          size={24}
+                          color={COLORS.success}
+                        />
+                        <Text style={styles.unlockedText}>획득함! 🎉</Text>
+                      </View>
+                    ) : (
+                      <View style={styles.lockedStatus}>
+                        <MaterialCommunityIcons
+                          name="lock-outline"
+                          size={24}
+                          color={COLORS.textSecondary}
+                        />
+                        <Text style={styles.lockedText}>잠김</Text>
+                      </View>
+                    )}
+                  </View>
 
-                <View style={styles.categoryTag}>
-                  <MaterialCommunityIcons
-                    name={CATEGORY_CONFIG[selectedBadge.category].icon as any}
-                    size={14}
-                    color={COLORS.textSecondary}
-                  />
-                  <Text style={styles.categoryTagText}>
-                    {CATEGORY_CONFIG[selectedBadge.category].label}
-                  </Text>
-                </View>
+                  <View style={styles.requirementContainer}>
+                    <Text style={styles.requirementLabel}>획득 조건</Text>
+                    <Text style={styles.requirementText}>{getRequirementText(selectedBadge)}</Text>
+                  </View>
 
-                <Button
-                  mode="contained"
-                  onPress={closeBadgeModal}
-                  style={styles.modalCloseButton}
-                >
-                  닫기
-                </Button>
-              </Card.Content>
-            )}
-          </Card>
+                  <View style={styles.categoryTag}>
+                    <MaterialCommunityIcons
+                      name={
+                        CATEGORY_CONFIG[selectedBadge.category]
+                          .icon as keyof typeof MaterialCommunityIcons.glyphMap
+                      }
+                      size={14}
+                      color={COLORS.textSecondary}
+                    />
+                    <Text style={styles.categoryTagText}>
+                      {CATEGORY_CONFIG[selectedBadge.category].label}
+                    </Text>
+                  </View>
+
+                  <Button
+                    mode="contained"
+                    onPress={closeBadgeModal}
+                    style={styles.modalCloseButton}
+                  >
+                    닫기
+                  </Button>
+                </Card.Content>
+              )}
+            </Card>
+          </Animated.View>
         </View>
       </Modal>
     </View>
@@ -380,41 +486,74 @@ const styles = StyleSheet.create({
     margin: SIZES.spacing.md,
     padding: SIZES.spacing.lg,
     backgroundColor: COLORS.surface,
-    borderRadius: SIZES.radius.lg,
-    ...SHADOWS.sm,
+    borderRadius: SIZES.radius.xl,
+    ...SHADOWS.md,
   },
   progressHeader: {
     flexDirection: 'row',
     alignItems: 'center',
     marginBottom: SIZES.spacing.md,
   },
+  trophyContainer: {
+    width: 48,
+    height: 48,
+    borderRadius: 24,
+    backgroundColor: withAlpha('#FFD700', 0.15),
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: SIZES.spacing.md,
+  },
+  progressInfo: {
+    flex: 1,
+  },
   progressTitle: {
     fontSize: SIZES.fontSize.lg,
-    fontWeight: '600',
+    fontWeight: '700',
     color: COLORS.text,
-    marginLeft: SIZES.spacing.sm,
+  },
+  progressSubtitle: {
+    fontSize: SIZES.fontSize.sm,
+    color: COLORS.textSecondary,
+    marginTop: 2,
   },
   progressBarContainer: {
-    height: 8,
+    height: 10,
     backgroundColor: COLORS.border,
     borderRadius: SIZES.radius.full,
     overflow: 'hidden',
-    marginBottom: SIZES.spacing.sm,
+    marginBottom: SIZES.spacing.md,
   },
   progressBar: {
     height: '100%',
-    backgroundColor: COLORS.warning,
+    backgroundColor: '#FFD700',
     borderRadius: SIZES.radius.full,
   },
-  progressText: {
-    fontSize: SIZES.fontSize.sm,
+  progressMilestones: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingHorizontal: SIZES.spacing.xs,
+  },
+  milestone: {
+    paddingVertical: 4,
+    paddingHorizontal: 8,
+    borderRadius: 8,
+    backgroundColor: COLORS.border,
+  },
+  milestoneReached: {
+    backgroundColor: withAlpha('#FFD700', 0.2),
+  },
+  milestoneText: {
+    fontSize: SIZES.fontSize.xs,
+    fontWeight: '600',
     color: COLORS.textSecondary,
-    textAlign: 'right',
+  },
+  milestoneTextReached: {
+    color: '#B8860B',
   },
 
   // Filter
   filterContainer: {
-    maxHeight: 50,
+    maxHeight: 56,
     paddingVertical: SIZES.spacing.sm,
   },
   filterContent: {
@@ -449,7 +588,7 @@ const styles = StyleSheet.create({
     gap: SIZES.spacing.md,
   },
   badgeItem: {
-    width: '30%',
+    width: 100,
     alignItems: 'center',
     padding: SIZES.spacing.md,
     backgroundColor: COLORS.surface,
@@ -460,9 +599,9 @@ const styles = StyleSheet.create({
     opacity: 0.7,
   },
   badgeIconContainer: {
-    width: 60,
-    height: 60,
-    borderRadius: 30,
+    width: 64,
+    height: 64,
+    borderRadius: 32,
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: SIZES.spacing.sm,
@@ -492,6 +631,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: SIZES.spacing.lg,
+  },
+  confetti: {
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
+    zIndex: 10,
   },
   modalCard: {
     width: '100%',
