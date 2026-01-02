@@ -2,17 +2,17 @@
   "project": "whatTodo",
   "phase": "기능 확장",
   "lastUpdated": "2026-01-02",
-  "currentWork": "CEFR A2-C2 스파인 콘텐츠 확장 완료",
+  "currentWork": "문서 정리 및 구조 최적화",
   "blockers": [],
   "recentChanges": [
-    "스파인 15개 파일 추가 (functions, grammar, lexis A2-C2)",
-    "빌드 오류 수정 (wrong.ogg → error-sound.ogg)",
-    "Speaking C1/C2 콘텐츠 확인 (weeks 1-8 완료)"
+    "CLAUDE.md 콘텐츠 아키텍처 섹션 추가",
+    "스파인 15개 파일 추가 (A2-C2)",
+    "빌드 오류 수정 (wrong.ogg → error-sound.ogg)"
   ],
   "nextSteps": [
-    "CLAUDE.md 콘텐츠 아키텍처 섹션 추가",
+    "앱 기능 테스트 및 개선",
     "docs/ARCHITECTURE.md 작성 (필요시)",
-    "앱 기능 테스트 및 개선"
+    "CHANGELOG.md 정리 (릴리즈 시)"
   ],
   "statistics": {
     "tsFiles": 214,
