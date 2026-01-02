@@ -1,0 +1,195 @@
+{
+  "id": "pack-000002",
+  "level": "A1",
+  "topic": "Numbers and Counting",
+  "canDo": "I can count and use numbers in simple situations.",
+  "functionId": "numbers",
+  "difficulty": 1,
+  "skills": ["vocab", "listening", "speaking"],
+  "estimatedMinutes": 12,
+  "tags": ["numbers", "counting", "shopping", "daily"],
+
+  "grammar": {
+    "point": "There is / There are",
+    "rules": [
+      {
+        "id": "pack-000002:grammar-rule-001",
+        "title": "There is (singular) / There are (plural)",
+        "explanation": "Use 'There is' with one thing, 'There are' with many things.",
+        "examples": ["There is one apple.", "There are five apples."],
+        "koreanTip": "하나면 'is', 여러 개면 'are'를 써요!"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000002:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "There ___ three books on the table.",
+        "options": ["is", "are", "am", "be"],
+        "correctAnswer": "are",
+        "explanation": "Three books is plural, so use 'are'."
+      },
+      {
+        "id": "pack-000002:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "There ___ one cat in the room.",
+        "options": ["is", "are", "am", "be"],
+        "correctAnswer": "is",
+        "explanation": "One cat is singular, so use 'is'."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000002:vocab-001",
+        "word": "one",
+        "pronunciation": "/wʌn/",
+        "meaning": "1",
+        "meaningKo": "하나, 1",
+        "partOfSpeech": "noun",
+        "examples": ["I have one brother.", "One apple, please."]
+      },
+      {
+        "id": "pack-000002:vocab-002",
+        "word": "two",
+        "pronunciation": "/tuː/",
+        "meaning": "2",
+        "meaningKo": "둘, 2",
+        "partOfSpeech": "noun",
+        "examples": ["I have two hands.", "Two coffees, please."]
+      },
+      {
+        "id": "pack-000002:vocab-003",
+        "word": "three",
+        "pronunciation": "/θriː/",
+        "meaning": "3",
+        "meaningKo": "셋, 3",
+        "partOfSpeech": "noun",
+        "examples": ["There are three cats.", "Three tickets, please."],
+        "koreanTip": "'th' 발음 주의! 혀를 이 사이에 넣어요."
+      },
+      {
+        "id": "pack-000002:vocab-004",
+        "word": "four",
+        "pronunciation": "/fɔːr/",
+        "meaning": "4",
+        "meaningKo": "넷, 4",
+        "partOfSpeech": "noun",
+        "examples": ["I have four pencils.", "Four people are here."]
+      },
+      {
+        "id": "pack-000002:vocab-005",
+        "word": "five",
+        "pronunciation": "/faɪv/",
+        "meaning": "5",
+        "meaningKo": "다섯, 5",
+        "partOfSpeech": "noun",
+        "examples": ["I have five fingers.", "Five minutes, please."]
+      }
+    ],
+    "collocations": ["How many?", "One more, please", "That's all"]
+  },
+
+  "reading": {
+    "id": "pack-000002:reading",
+    "title": "At the Store",
+    "passage": "I am at the store. I need three apples and two oranges. The apples cost one dollar each. The oranges cost two dollars each. I have ten dollars. That is enough!",
+    "wordCount": 35,
+    "questions": [
+      {
+        "id": "pack-000002:reading-q-001",
+        "type": "comprehension",
+        "question": "How many apples does the speaker need?",
+        "options": ["one", "two", "three", "four"],
+        "correctAnswer": "three"
+      },
+      {
+        "id": "pack-000002:reading-q-002",
+        "type": "comprehension",
+        "question": "How much does one apple cost?",
+        "options": ["one dollar", "two dollars", "three dollars", "ten dollars"],
+        "correctAnswer": "one dollar"
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000002:listening",
+    "title": "Counting Items",
+    "script": "Let me count. One, two, three, four, five. There are five books on the table.",
+    "audioUrl": null,
+    "duration": 10,
+    "exercises": [
+      {
+        "id": "pack-000002:listening-ex-001",
+        "type": "comprehension",
+        "question": "How many books are on the table?",
+        "options": ["three", "four", "five", "six"],
+        "correctAnswer": "five"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000002:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Write about things you have using numbers.",
+      "template": "I have [NUMBER] [ITEM]. There are [NUMBER] [ITEM] in my [PLACE].",
+      "slots": [
+        { "name": "NUMBER", "options": ["one", "two", "three", "four", "five"] },
+        { "name": "ITEM", "hint": "books, pencils, etc." },
+        { "name": "PLACE", "options": ["room", "bag", "desk"] }
+      ],
+      "correctExample": "I have three books. There are two pencils in my bag."
+    },
+    "free": {
+      "id": "pack-000002:writing-free",
+      "topic": "Count Things Around You",
+      "prompt": "Count things in your room and write about them.",
+      "minWords": 15,
+      "maxWords": 40,
+      "checklist": [
+        { "item": "Use at least 3 different numbers", "required": true },
+        { "item": "Use 'There is' or 'There are' correctly", "required": true }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000002:speaking-shadow",
+      "sentence": "One, two, three, four, five. There are five books.",
+      "pronunciation": "/wʌn tuː θriː fɔːr faɪv ðer ɑːr faɪv bʊks/",
+      "audioUrl": null,
+      "koreanTip": "'three'의 'th'는 혀를 이 사이에 살짝 넣어 발음해요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000002:speaking-roleplay",
+      "scenario": "You are buying fruit at a market.",
+      "role": "Customer",
+      "partnerRole": "Seller",
+      "prompts": [
+        { "speaker": "partner", "text": "Hello! How can I help you?" },
+        { "speaker": "user", "text": "I need ___ apples, please.", "hint": "Say a number" },
+        { "speaker": "partner", "text": "Sure! That's three dollars." },
+        { "speaker": "user", "text": "Here you go. Thank you!" }
+      ],
+      "checklistItems": ["Say a number clearly", "Be polite"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000002:korean-error-001",
+      "category": "pronunciation",
+      "errorExample": "'three' as 'sree'",
+      "correctForm": "'three' /θriː/",
+      "explanation": "The 'th' sound requires putting your tongue between your teeth.",
+      "tip": "'th' 발음할 때 혀를 이 사이에 살짝 넣어요. 한국어에 없는 소리예요!"
+    }
+  ]
+}

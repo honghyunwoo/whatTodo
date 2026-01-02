@@ -1,0 +1,255 @@
+{
+  "id": "pack-000001",
+  "level": "A1",
+  "topic": "Greetings and Introductions",
+  "canDo": "I can introduce myself and greet others in simple situations.",
+  "functionId": "greetings",
+  "difficulty": 1,
+  "skills": ["grammar", "vocab", "speaking"],
+  "estimatedMinutes": 15,
+  "tags": ["greetings", "introduction", "daily", "social"],
+
+  "grammar": {
+    "point": "Be verb (am/is/are) with pronouns",
+    "rules": [
+      {
+        "id": "pack-000001:grammar-rule-001",
+        "title": "I am / You are / He is",
+        "explanation": "Use 'am' with 'I', 'are' with 'you/we/they', 'is' with 'he/she/it'.",
+        "examples": ["I am a student.", "You are my friend.", "She is a teacher."],
+        "koreanTip": "한국어에는 be동사가 없어서 'I student'라고 하기 쉬워요. 꼭 am/is/are를 넣어주세요!"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000001:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "I ___ a student.",
+        "options": ["am", "is", "are", "be"],
+        "correctAnswer": "am",
+        "explanation": "With 'I', always use 'am'.",
+        "koreanTip": "'I'와 함께는 항상 'am'을 씁니다."
+      },
+      {
+        "id": "pack-000001:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "She ___ my teacher.",
+        "options": ["am", "is", "are", "be"],
+        "correctAnswer": "is",
+        "explanation": "With 'she/he/it', use 'is'.",
+        "koreanTip": "'she/he/it'과 함께는 'is'를 씁니다."
+      },
+      {
+        "id": "pack-000001:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "We ___ friends.",
+        "options": ["am", "is", "are", "be"],
+        "correctAnswer": "are",
+        "explanation": "With 'we/you/they', use 'are'.",
+        "koreanTip": "'we/you/they'와 함께는 'are'를 씁니다."
+      },
+      {
+        "id": "pack-000001:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which is correct?",
+        "options": ["I is happy.", "I am happy.", "I are happy.", "I be happy."],
+        "correctAnswer": "I am happy.",
+        "explanation": "'I' always goes with 'am'."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000001:vocab-001",
+        "word": "hello",
+        "pronunciation": "/həˈloʊ/",
+        "meaning": "a greeting",
+        "meaningKo": "안녕하세요",
+        "partOfSpeech": "interjection",
+        "examples": ["Hello! How are you?", "Hello, my name is Tom."],
+        "koreanTip": "격식체/비격식체 모두 사용 가능한 기본 인사말"
+      },
+      {
+        "id": "pack-000001:vocab-002",
+        "word": "goodbye",
+        "pronunciation": "/ɡʊdˈbaɪ/",
+        "meaning": "a farewell",
+        "meaningKo": "안녕히 가세요/계세요",
+        "partOfSpeech": "interjection",
+        "examples": ["Goodbye! See you tomorrow.", "Say goodbye to your friends."],
+        "koreanTip": "헤어질 때 사용하는 인사말"
+      },
+      {
+        "id": "pack-000001:vocab-003",
+        "word": "name",
+        "pronunciation": "/neɪm/",
+        "meaning": "what someone is called",
+        "meaningKo": "이름",
+        "partOfSpeech": "noun",
+        "examples": ["My name is Sarah.", "What is your name?"],
+        "koreanTip": "자기소개할 때 가장 먼저 말하는 것"
+      },
+      {
+        "id": "pack-000001:vocab-004",
+        "word": "nice",
+        "pronunciation": "/naɪs/",
+        "meaning": "pleasant, good",
+        "meaningKo": "좋은, 반가운",
+        "partOfSpeech": "adjective",
+        "examples": ["Nice to meet you.", "It's a nice day."],
+        "koreanTip": "'Nice to meet you'는 처음 만났을 때 하는 인사"
+      },
+      {
+        "id": "pack-000001:vocab-005",
+        "word": "meet",
+        "pronunciation": "/miːt/",
+        "meaning": "to come together",
+        "meaningKo": "만나다",
+        "partOfSpeech": "verb",
+        "examples": ["Nice to meet you.", "Let's meet tomorrow."],
+        "koreanTip": "'만나서 반갑습니다'는 'Nice to meet you'"
+      }
+    ],
+    "collocations": ["Nice to meet you", "My name is...", "How are you?", "I'm fine, thank you"]
+  },
+
+  "reading": {
+    "id": "pack-000001:reading",
+    "title": "Meeting a New Friend",
+    "passage": "Hello! My name is Tom. I am a student. I am from Korea. Nice to meet you! What is your name? I am happy to meet you today.",
+    "wordCount": 30,
+    "questions": [
+      {
+        "id": "pack-000001:reading-q-001",
+        "type": "comprehension",
+        "question": "What is the speaker's name?",
+        "options": ["Sarah", "Tom", "Korea", "Student"],
+        "correctAnswer": "Tom",
+        "explanation": "The passage says 'My name is Tom.'"
+      },
+      {
+        "id": "pack-000001:reading-q-002",
+        "type": "comprehension",
+        "question": "Where is Tom from?",
+        "options": ["America", "Japan", "Korea", "China"],
+        "correctAnswer": "Korea",
+        "explanation": "The passage says 'I am from Korea.'"
+      },
+      {
+        "id": "pack-000001:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'Nice to meet you' mean?",
+        "options": ["만나서 반갑습니다", "안녕히 가세요", "다음에 봐요", "잘 자요"],
+        "correctAnswer": "만나서 반갑습니다",
+        "explanation": "'Nice to meet you' is a greeting when meeting someone for the first time."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000001:listening",
+    "title": "A Simple Introduction",
+    "script": "Hello. My name is Sarah. I am a teacher. I am from America. Nice to meet you.",
+    "audioUrl": null,
+    "duration": 15,
+    "exercises": [
+      {
+        "id": "pack-000001:listening-ex-001",
+        "type": "comprehension",
+        "question": "What is Sarah's job?",
+        "options": ["student", "teacher", "doctor", "nurse"],
+        "correctAnswer": "teacher",
+        "explanation": "Sarah says 'I am a teacher.'"
+      },
+      {
+        "id": "pack-000001:listening-ex-002",
+        "type": "fill_blank",
+        "question": "Sarah is from ___.",
+        "options": ["Korea", "Japan", "America", "China"],
+        "correctAnswer": "America",
+        "explanation": "Sarah says 'I am from America.'"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000001:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Write a self-introduction using the template.",
+      "template": "Hello! My name is [NAME]. I am a [JOB/ROLE]. I am from [COUNTRY]. Nice to meet you!",
+      "slots": [
+        { "name": "NAME", "hint": "Your name" },
+        { "name": "JOB/ROLE", "options": ["student", "teacher", "worker"], "hint": "Your role" },
+        { "name": "COUNTRY", "hint": "Your country" }
+      ],
+      "correctExample": "Hello! My name is Minho. I am a student. I am from Korea. Nice to meet you!"
+    },
+    "free": {
+      "id": "pack-000001:writing-free",
+      "topic": "Introduce Yourself",
+      "prompt": "Write a short introduction about yourself. Include your name, what you do, and where you are from.",
+      "minWords": 20,
+      "maxWords": 50,
+      "checklist": [
+        { "item": "Include your name", "required": true },
+        { "item": "Mention your role (student, worker, etc.)", "required": true },
+        { "item": "Say where you are from", "required": true },
+        { "item": "Use 'am/is/are' correctly", "required": true }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000001:speaking-shadow",
+      "sentence": "Hello! My name is Tom. Nice to meet you!",
+      "pronunciation": "/həˈloʊ maɪ neɪm ɪz tɑːm naɪs tuː miːt juː/",
+      "audioUrl": null,
+      "koreanTip": "'Nice'의 발음은 '나이스'가 아니라 '나이~스'처럼 길게 발음해요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000001:speaking-roleplay",
+      "scenario": "You meet a new classmate for the first time.",
+      "role": "Student",
+      "partnerRole": "New classmate",
+      "prompts": [
+        { "speaker": "user", "text": "Hello! My name is ___.", "hint": "Introduce yourself" },
+        { "speaker": "partner", "text": "Hi! I'm Sarah. Nice to meet you!" },
+        { "speaker": "user", "text": "Nice to meet you too! I am from ___.", "hint": "Say where you're from" },
+        { "speaker": "partner", "text": "Oh, that's nice! I'm from America." }
+      ],
+      "checklistItems": ["Greet the partner", "Say your name", "Say where you're from", "Respond to the partner's greeting"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000001:korean-error-001",
+      "category": "grammar",
+      "errorExample": "I student.",
+      "correctForm": "I am a student.",
+      "explanation": "In English, you must use the verb 'be' (am/is/are) and an article 'a' before the noun.",
+      "tip": "한국어에서는 '나 학생이야'라고 be동사 없이 말하지만, 영어는 꼭 am/is/are가 필요해요!"
+    },
+    {
+      "id": "pack-000001:korean-error-002",
+      "category": "pronunciation",
+      "errorExample": "My name is 'Toom'",
+      "correctForm": "My name is 'Tom' /tɑːm/",
+      "explanation": "The 'o' in 'Tom' is a short vowel, not a long 'oo' sound.",
+      "tip": "'Tom'은 '톰'이지 '툼'이 아니에요. 입을 크게 벌리고 짧게 발음하세요."
+    },
+    {
+      "id": "pack-000001:korean-error-003",
+      "category": "usage",
+      "errorExample": "Hello. I am Tom. Hello again.",
+      "correctForm": "Hello. I am Tom. Nice to meet you.",
+      "explanation": "When introducing yourself, don't repeat 'Hello'. Use 'Nice to meet you' instead.",
+      "tip": "자기소개할 때 'Hello'를 반복하지 말고 'Nice to meet you'로 마무리하세요."
+    }
+  ]
+}

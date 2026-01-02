@@ -1,17 +1,99 @@
 {
   "version": "1.0",
   "lastUpdated": "2026-01-02",
-  "total": 0,
-  "packs": {},
+  "total": 5,
+  "packs": {
+    "pack-000001": {
+      "id": "pack-000001",
+      "level": "A1",
+      "topic": "Greetings and Introductions",
+      "difficulty": 1,
+      "skills": ["grammar", "vocab", "speaking"],
+      "estimatedMinutes": 15,
+      "tags": ["greetings", "introduction", "daily", "social"],
+      "itemCount": 22
+    },
+    "pack-000002": {
+      "id": "pack-000002",
+      "level": "A1",
+      "topic": "Numbers and Counting",
+      "difficulty": 1,
+      "skills": ["vocab", "listening", "speaking"],
+      "estimatedMinutes": 12,
+      "tags": ["numbers", "counting", "shopping", "daily"],
+      "itemCount": 16
+    },
+    "pack-000003": {
+      "id": "pack-000003",
+      "level": "A1",
+      "topic": "Daily Activities",
+      "difficulty": 1,
+      "skills": ["grammar", "vocab", "reading"],
+      "estimatedMinutes": 15,
+      "tags": ["daily", "routine", "activities", "time"],
+      "itemCount": 18
+    },
+    "pack-000004": {
+      "id": "pack-000004",
+      "level": "A1",
+      "topic": "At the Hospital",
+      "difficulty": 2,
+      "skills": ["vocab", "listening", "speaking"],
+      "estimatedMinutes": 18,
+      "tags": ["hospital", "health", "medical", "doctor"],
+      "itemCount": 17
+    },
+    "pack-000005": {
+      "id": "pack-000005",
+      "level": "A1",
+      "topic": "At the Coffee Shop",
+      "difficulty": 2,
+      "skills": ["vocab", "speaking", "listening"],
+      "estimatedMinutes": 15,
+      "tags": ["coffee_shop", "ordering", "food", "drinks", "cafe"],
+      "itemCount": 18
+    }
+  },
   "byLevel": {
-    "A1": [],
+    "A1": ["pack-000001", "pack-000002", "pack-000003", "pack-000004", "pack-000005"],
     "A2": [],
     "B1": [],
     "B2": [],
     "C1": [],
     "C2": []
   },
-  "byTopic": {},
-  "byFunctionId": {},
-  "byTag": {}
+  "byTopic": {
+    "greetings_and_introductions": ["pack-000001"],
+    "numbers_and_counting": ["pack-000002"],
+    "daily_activities": ["pack-000003"],
+    "at_the_hospital": ["pack-000004"],
+    "at_the_coffee_shop": ["pack-000005"]
+  },
+  "byFunctionId": {
+    "greetings": ["pack-000001"],
+    "numbers": ["pack-000002"],
+    "routine": ["pack-000003"],
+    "request": ["pack-000004", "pack-000005"]
+  },
+  "byTag": {
+    "greetings": ["pack-000001"],
+    "introduction": ["pack-000001"],
+    "daily": ["pack-000001", "pack-000002", "pack-000003"],
+    "social": ["pack-000001"],
+    "numbers": ["pack-000002"],
+    "counting": ["pack-000002"],
+    "shopping": ["pack-000002"],
+    "routine": ["pack-000003"],
+    "activities": ["pack-000003"],
+    "time": ["pack-000003"],
+    "hospital": ["pack-000004"],
+    "health": ["pack-000004"],
+    "medical": ["pack-000004"],
+    "doctor": ["pack-000004"],
+    "coffee_shop": ["pack-000005"],
+    "ordering": ["pack-000005"],
+    "food": ["pack-000005"],
+    "drinks": ["pack-000005"],
+    "cafe": ["pack-000005"]
+  }
 }

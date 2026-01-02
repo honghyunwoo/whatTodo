@@ -1,0 +1,200 @@
+{
+  "id": "pack-000003",
+  "level": "A1",
+  "topic": "Daily Activities",
+  "canDo": "I can talk about simple daily activities.",
+  "functionId": "routine",
+  "difficulty": 1,
+  "skills": ["grammar", "vocab", "reading"],
+  "estimatedMinutes": 15,
+  "tags": ["daily", "routine", "activities", "time"],
+
+  "grammar": {
+    "point": "Simple Present Tense (I/You/We/They)",
+    "rules": [
+      {
+        "id": "pack-000003:grammar-rule-001",
+        "title": "Simple Present for Habits",
+        "explanation": "Use simple present for daily habits: I eat, you go, we study.",
+        "examples": ["I eat breakfast every day.", "We go to school.", "They study English."],
+        "koreanTip": "매일 하는 일은 동사 원형을 써요! I/You/We/They + 동사원형"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000003:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "I ___ breakfast at 7 o'clock.",
+        "options": ["eat", "eats", "eating", "ate"],
+        "correctAnswer": "eat"
+      },
+      {
+        "id": "pack-000003:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "We ___ to school every day.",
+        "options": ["go", "goes", "going", "went"],
+        "correctAnswer": "go"
+      },
+      {
+        "id": "pack-000003:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "They ___ English together.",
+        "options": ["study", "studies", "studying", "studied"],
+        "correctAnswer": "study"
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000003:vocab-001",
+        "word": "wake up",
+        "pronunciation": "/weɪk ʌp/",
+        "meaning": "to stop sleeping",
+        "meaningKo": "일어나다",
+        "partOfSpeech": "verb",
+        "examples": ["I wake up at 6 AM.", "Wake up! It's time for school."]
+      },
+      {
+        "id": "pack-000003:vocab-002",
+        "word": "breakfast",
+        "pronunciation": "/ˈbrekfəst/",
+        "meaning": "the first meal of the day",
+        "meaningKo": "아침 식사",
+        "partOfSpeech": "noun",
+        "examples": ["I eat breakfast every morning.", "What do you have for breakfast?"]
+      },
+      {
+        "id": "pack-000003:vocab-003",
+        "word": "lunch",
+        "pronunciation": "/lʌntʃ/",
+        "meaning": "the meal eaten in the middle of the day",
+        "meaningKo": "점심 식사",
+        "partOfSpeech": "noun",
+        "examples": ["I have lunch at noon.", "Let's eat lunch together."]
+      },
+      {
+        "id": "pack-000003:vocab-004",
+        "word": "dinner",
+        "pronunciation": "/ˈdɪnər/",
+        "meaning": "the main meal of the day, usually in the evening",
+        "meaningKo": "저녁 식사",
+        "partOfSpeech": "noun",
+        "examples": ["We have dinner at 7 PM.", "Dinner is ready!"]
+      },
+      {
+        "id": "pack-000003:vocab-005",
+        "word": "sleep",
+        "pronunciation": "/sliːp/",
+        "meaning": "to rest with eyes closed",
+        "meaningKo": "자다",
+        "partOfSpeech": "verb",
+        "examples": ["I sleep at 10 PM.", "Good night, sleep well!"]
+      }
+    ],
+    "collocations": ["wake up early", "have breakfast", "eat lunch", "go to bed", "sleep well"]
+  },
+
+  "reading": {
+    "id": "pack-000003:reading",
+    "title": "My Daily Routine",
+    "passage": "I wake up at 7 o'clock. I eat breakfast at 7:30. Then I go to school. I have lunch at 12 o'clock. I come home at 4 o'clock. I eat dinner with my family. I go to bed at 10 o'clock.",
+    "wordCount": 45,
+    "questions": [
+      {
+        "id": "pack-000003:reading-q-001",
+        "type": "comprehension",
+        "question": "What time does the speaker wake up?",
+        "options": ["6 o'clock", "7 o'clock", "8 o'clock", "9 o'clock"],
+        "correctAnswer": "7 o'clock"
+      },
+      {
+        "id": "pack-000003:reading-q-002",
+        "type": "comprehension",
+        "question": "What time is lunch?",
+        "options": ["11 o'clock", "12 o'clock", "1 o'clock", "2 o'clock"],
+        "correctAnswer": "12 o'clock"
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000003:listening",
+    "title": "A Typical Day",
+    "script": "I wake up early. I eat breakfast with my family. Then I go to work. I come home at 6 PM. I eat dinner and then I go to bed.",
+    "audioUrl": null,
+    "duration": 15,
+    "exercises": [
+      {
+        "id": "pack-000003:listening-ex-001",
+        "type": "comprehension",
+        "question": "Who does the speaker eat breakfast with?",
+        "options": ["alone", "friends", "family", "coworkers"],
+        "correctAnswer": "family"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000003:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Describe your daily routine.",
+      "template": "I wake up at [TIME]. I eat [MEAL] at [TIME]. I go to [PLACE]. I go to bed at [TIME].",
+      "slots": [
+        { "name": "TIME", "hint": "6 o'clock, 7:30, etc." },
+        { "name": "MEAL", "options": ["breakfast", "lunch", "dinner"] },
+        { "name": "PLACE", "options": ["school", "work", "home"] }
+      ],
+      "correctExample": "I wake up at 7 o'clock. I eat breakfast at 7:30. I go to school. I go to bed at 10 PM."
+    },
+    "free": {
+      "id": "pack-000003:writing-free",
+      "topic": "Your Daily Routine",
+      "prompt": "Write about what you do every day from morning to night.",
+      "minWords": 25,
+      "maxWords": 60,
+      "checklist": [
+        { "item": "Mention at least 4 activities", "required": true },
+        { "item": "Include times", "required": true },
+        { "item": "Use simple present tense correctly", "required": true }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000003:speaking-shadow",
+      "sentence": "I wake up at seven o'clock and eat breakfast with my family.",
+      "pronunciation": "/aɪ weɪk ʌp æt ˈsevən əˈklɑːk ænd iːt ˈbrekfəst wɪð maɪ ˈfæməli/",
+      "audioUrl": null,
+      "koreanTip": "'breakfast'는 '브렉퍼스트'가 아니라 '브렉퍼스t'처럼 마지막 t가 약해요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000003:speaking-roleplay",
+      "scenario": "A friend asks about your daily routine.",
+      "role": "You",
+      "partnerRole": "Friend",
+      "prompts": [
+        { "speaker": "partner", "text": "What time do you wake up?" },
+        { "speaker": "user", "text": "I wake up at ___.", "hint": "Say a time" },
+        { "speaker": "partner", "text": "And when do you go to bed?" },
+        { "speaker": "user", "text": "I go to bed at ___.", "hint": "Say a time" }
+      ],
+      "checklistItems": ["Answer questions about your routine", "Use correct times"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000003:korean-error-001",
+      "category": "grammar",
+      "errorExample": "I breakfast eat.",
+      "correctForm": "I eat breakfast.",
+      "explanation": "In English, the verb comes before the object. Subject + Verb + Object.",
+      "tip": "영어는 '나 아침 먹어'가 아니라 '나 먹어 아침'의 순서예요!"
+    }
+  ]
+}

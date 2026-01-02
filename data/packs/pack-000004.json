@@ -1,0 +1,199 @@
+{
+  "id": "pack-000004",
+  "level": "A1",
+  "topic": "At the Hospital",
+  "canDo": "I can describe simple health problems and understand basic medical instructions.",
+  "functionId": "request",
+  "difficulty": 2,
+  "skills": ["vocab", "listening", "speaking"],
+  "estimatedMinutes": 18,
+  "tags": ["hospital", "health", "medical", "doctor"],
+
+  "grammar": {
+    "point": "I have + Symptom / My ... hurts",
+    "rules": [
+      {
+        "id": "pack-000004:grammar-rule-001",
+        "title": "Describing Symptoms",
+        "explanation": "Use 'I have + symptom' or 'My + body part + hurts' to describe health problems.",
+        "examples": ["I have a headache.", "My stomach hurts.", "I have a fever."],
+        "koreanTip": "'아프다'를 영어로 할 때 'hurts'를 쓰거나 'I have a~'로 증상을 말해요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000004:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "I have a ___. My head hurts.",
+        "options": ["headache", "stomachache", "toothache", "fever"],
+        "correctAnswer": "headache"
+      },
+      {
+        "id": "pack-000004:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "My ___ hurts. I ate too much.",
+        "options": ["head", "stomach", "arm", "leg"],
+        "correctAnswer": "stomach"
+      },
+      {
+        "id": "pack-000004:grammar-ex-003",
+        "type": "multiple_choice",
+        "question": "Which is correct for having a fever?",
+        "options": ["I am fever.", "I have fever.", "I have a fever.", "I fever."],
+        "correctAnswer": "I have a fever."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000004:vocab-001",
+        "word": "doctor",
+        "pronunciation": "/ˈdɒktər/",
+        "meaning": "a person who treats sick people",
+        "meaningKo": "의사",
+        "partOfSpeech": "noun",
+        "examples": ["I need to see a doctor.", "The doctor is very kind."]
+      },
+      {
+        "id": "pack-000004:vocab-002",
+        "word": "headache",
+        "pronunciation": "/ˈhedeɪk/",
+        "meaning": "pain in the head",
+        "meaningKo": "두통",
+        "partOfSpeech": "noun",
+        "examples": ["I have a headache.", "This medicine helps headaches."]
+      },
+      {
+        "id": "pack-000004:vocab-003",
+        "word": "fever",
+        "pronunciation": "/ˈfiːvər/",
+        "meaning": "high body temperature",
+        "meaningKo": "열",
+        "partOfSpeech": "noun",
+        "examples": ["I have a fever.", "The fever is going down."]
+      },
+      {
+        "id": "pack-000004:vocab-004",
+        "word": "medicine",
+        "pronunciation": "/ˈmedɪsɪn/",
+        "meaning": "something you take when you're sick",
+        "meaningKo": "약",
+        "partOfSpeech": "noun",
+        "examples": ["Take this medicine.", "The medicine tastes bad."]
+      },
+      {
+        "id": "pack-000004:vocab-005",
+        "word": "hurt",
+        "pronunciation": "/hɜːrt/",
+        "meaning": "to feel pain",
+        "meaningKo": "아프다",
+        "partOfSpeech": "verb",
+        "examples": ["My head hurts.", "Does it hurt here?"]
+      }
+    ],
+    "collocations": ["see a doctor", "take medicine", "feel better", "I have a cold"]
+  },
+
+  "reading": {
+    "id": "pack-000004:reading",
+    "title": "A Visit to the Doctor",
+    "passage": "Today I went to the hospital. I have a headache and a fever. The doctor checked me. She said I have a cold. She gave me medicine. I need to rest and drink water. I will feel better soon.",
+    "wordCount": 42,
+    "questions": [
+      {
+        "id": "pack-000004:reading-q-001",
+        "type": "comprehension",
+        "question": "What symptoms does the speaker have?",
+        "options": ["headache and fever", "stomachache", "toothache", "sore throat"],
+        "correctAnswer": "headache and fever"
+      },
+      {
+        "id": "pack-000004:reading-q-002",
+        "type": "comprehension",
+        "question": "What did the doctor say?",
+        "options": ["You have a cold", "You need surgery", "You are healthy", "Come back tomorrow"],
+        "correctAnswer": "You have a cold"
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000004:listening",
+    "title": "At the Hospital",
+    "script": "Doctor: How are you feeling today? Patient: I have a headache and my throat hurts. Doctor: Let me check. Yes, you have a cold. Take this medicine and rest well.",
+    "audioUrl": null,
+    "duration": 20,
+    "exercises": [
+      {
+        "id": "pack-000004:listening-ex-001",
+        "type": "comprehension",
+        "question": "What does the patient have?",
+        "options": ["fever", "cold", "broken arm", "stomachache"],
+        "correctAnswer": "cold"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000004:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Describe your health problem to a doctor.",
+      "template": "Hello, doctor. I have a [SYMPTOM]. My [BODY PART] hurts. I feel [FEELING].",
+      "slots": [
+        { "name": "SYMPTOM", "options": ["headache", "fever", "cold", "stomachache"] },
+        { "name": "BODY PART", "options": ["head", "stomach", "throat", "back"] },
+        { "name": "FEELING", "options": ["tired", "weak", "dizzy", "sick"] }
+      ],
+      "correctExample": "Hello, doctor. I have a headache. My head hurts. I feel tired."
+    },
+    "free": {
+      "id": "pack-000004:writing-free",
+      "topic": "Describe Your Health",
+      "prompt": "Write about a time you were sick. What symptoms did you have? What did you do?",
+      "minWords": 25,
+      "maxWords": 60,
+      "checklist": [
+        { "item": "Describe at least 2 symptoms", "required": true },
+        { "item": "Use 'I have' or 'hurts' correctly", "required": true }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000004:speaking-shadow",
+      "sentence": "I have a headache and my throat hurts. Can I get some medicine?",
+      "pronunciation": "/aɪ hæv ə ˈhedeɪk ænd maɪ θroʊt hɜːrts kæn aɪ ɡet sʌm ˈmedɪsɪn/",
+      "audioUrl": null,
+      "koreanTip": "'throat'의 'th'는 혀를 이 사이에 넣어 발음해요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000004:speaking-roleplay",
+      "scenario": "You visit a doctor because you feel sick.",
+      "role": "Patient",
+      "partnerRole": "Doctor",
+      "prompts": [
+        { "speaker": "partner", "text": "Hello, what brings you here today?" },
+        { "speaker": "user", "text": "I have a ___ and my ___ hurts.", "hint": "Describe symptoms" },
+        { "speaker": "partner", "text": "I see. Let me check you. Take this medicine." },
+        { "speaker": "user", "text": "Thank you, doctor." }
+      ],
+      "checklistItems": ["Describe your symptoms clearly", "Be polite to the doctor"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000004:korean-error-001",
+      "category": "grammar",
+      "errorExample": "I am headache.",
+      "correctForm": "I have a headache.",
+      "explanation": "Use 'have' not 'am' for symptoms. You 'have' symptoms, you don't 'are' them.",
+      "tip": "'나 두통이야'가 아니라 '나 두통을 가지고 있어'로 생각하세요!"
+    }
+  ]
+}

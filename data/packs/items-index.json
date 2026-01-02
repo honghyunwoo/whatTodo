@@ -1,4 +1,320 @@
 {
   "version": "1.0",
-  "items": {}
+  "items": {
+    "pack-000001:grammar-ex-001": {
+      "packId": "pack-000001",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["greetings", "be_verb"]
+    },
+    "pack-000001:grammar-ex-002": {
+      "packId": "pack-000001",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["greetings", "be_verb"]
+    },
+    "pack-000001:grammar-ex-003": {
+      "packId": "pack-000001",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["greetings", "be_verb"]
+    },
+    "pack-000001:grammar-ex-004": {
+      "packId": "pack-000001",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["greetings", "be_verb"]
+    },
+    "pack-000001:vocab-001": {
+      "packId": "pack-000001",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["greetings", "hello"]
+    },
+    "pack-000001:vocab-002": {
+      "packId": "pack-000001",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["greetings", "goodbye"]
+    },
+    "pack-000001:vocab-003": {
+      "packId": "pack-000001",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["greetings", "introduction"]
+    },
+    "pack-000001:vocab-004": {
+      "packId": "pack-000001",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["greetings", "nice"]
+    },
+    "pack-000001:vocab-005": {
+      "packId": "pack-000001",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["greetings", "meet"]
+    },
+    "pack-000001:reading-q-001": {
+      "packId": "pack-000001",
+      "type": "reading",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["greetings", "comprehension"]
+    },
+    "pack-000001:reading-q-002": {
+      "packId": "pack-000001",
+      "type": "reading",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["greetings", "comprehension"]
+    },
+    "pack-000001:reading-q-003": {
+      "packId": "pack-000001",
+      "type": "reading",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["greetings", "vocabulary"]
+    },
+    "pack-000001:listening-ex-001": {
+      "packId": "pack-000001",
+      "type": "listening",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["greetings", "comprehension"]
+    },
+    "pack-000001:listening-ex-002": {
+      "packId": "pack-000001",
+      "type": "listening",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["greetings", "comprehension"]
+    },
+    "pack-000002:grammar-ex-001": {
+      "packId": "pack-000002",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["numbers", "there_is_are"]
+    },
+    "pack-000002:grammar-ex-002": {
+      "packId": "pack-000002",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["numbers", "there_is_are"]
+    },
+    "pack-000002:vocab-001": {
+      "packId": "pack-000002",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["numbers", "one"]
+    },
+    "pack-000002:vocab-002": {
+      "packId": "pack-000002",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["numbers", "two"]
+    },
+    "pack-000002:vocab-003": {
+      "packId": "pack-000002",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["numbers", "three"]
+    },
+    "pack-000002:vocab-004": {
+      "packId": "pack-000002",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["numbers", "four"]
+    },
+    "pack-000002:vocab-005": {
+      "packId": "pack-000002",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["numbers", "five"]
+    },
+    "pack-000003:grammar-ex-001": {
+      "packId": "pack-000003",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["daily", "simple_present"]
+    },
+    "pack-000003:grammar-ex-002": {
+      "packId": "pack-000003",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["daily", "simple_present"]
+    },
+    "pack-000003:grammar-ex-003": {
+      "packId": "pack-000003",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["daily", "simple_present"]
+    },
+    "pack-000003:vocab-001": {
+      "packId": "pack-000003",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["daily", "wake_up"]
+    },
+    "pack-000003:vocab-002": {
+      "packId": "pack-000003",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["daily", "breakfast"]
+    },
+    "pack-000003:vocab-003": {
+      "packId": "pack-000003",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["daily", "lunch"]
+    },
+    "pack-000003:vocab-004": {
+      "packId": "pack-000003",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["daily", "dinner"]
+    },
+    "pack-000003:vocab-005": {
+      "packId": "pack-000003",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 1,
+      "tags": ["daily", "sleep"]
+    },
+    "pack-000004:grammar-ex-001": {
+      "packId": "pack-000004",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["hospital", "symptoms"]
+    },
+    "pack-000004:grammar-ex-002": {
+      "packId": "pack-000004",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["hospital", "symptoms"]
+    },
+    "pack-000004:grammar-ex-003": {
+      "packId": "pack-000004",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["hospital", "symptoms"]
+    },
+    "pack-000004:vocab-001": {
+      "packId": "pack-000004",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["hospital", "doctor"]
+    },
+    "pack-000004:vocab-002": {
+      "packId": "pack-000004",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["hospital", "headache"]
+    },
+    "pack-000004:vocab-003": {
+      "packId": "pack-000004",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["hospital", "fever"]
+    },
+    "pack-000004:vocab-004": {
+      "packId": "pack-000004",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["hospital", "medicine"]
+    },
+    "pack-000004:vocab-005": {
+      "packId": "pack-000004",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["hospital", "hurt"]
+    },
+    "pack-000005:grammar-ex-001": {
+      "packId": "pack-000005",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["coffee_shop", "ordering"]
+    },
+    "pack-000005:grammar-ex-002": {
+      "packId": "pack-000005",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["coffee_shop", "ordering"]
+    },
+    "pack-000005:grammar-ex-003": {
+      "packId": "pack-000005",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["coffee_shop", "ordering"]
+    },
+    "pack-000005:vocab-001": {
+      "packId": "pack-000005",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["coffee_shop", "coffee"]
+    },
+    "pack-000005:vocab-002": {
+      "packId": "pack-000005",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["coffee_shop", "tea"]
+    },
+    "pack-000005:vocab-003": {
+      "packId": "pack-000005",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["coffee_shop", "sandwich"]
+    },
+    "pack-000005:vocab-004": {
+      "packId": "pack-000005",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["coffee_shop", "cake"]
+    },
+    "pack-000005:vocab-005": {
+      "packId": "pack-000005",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["coffee_shop", "menu"]
+    }
+  }
 }

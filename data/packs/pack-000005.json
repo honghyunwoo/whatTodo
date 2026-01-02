@@ -1,0 +1,207 @@
+{
+  "id": "pack-000005",
+  "level": "A1",
+  "topic": "At the Coffee Shop",
+  "canDo": "I can order food and drinks at a coffee shop.",
+  "functionId": "request",
+  "difficulty": 2,
+  "skills": ["vocab", "speaking", "listening"],
+  "estimatedMinutes": 15,
+  "tags": ["coffee_shop", "ordering", "food", "drinks", "cafe"],
+
+  "grammar": {
+    "point": "I would like... / Can I have...?",
+    "rules": [
+      {
+        "id": "pack-000005:grammar-rule-001",
+        "title": "Polite Requests",
+        "explanation": "Use 'I would like...' or 'Can I have...?' to order politely.",
+        "examples": ["I would like a coffee.", "Can I have a sandwich?", "I'd like a tea, please."],
+        "koreanTip": "'주세요'를 영어로 할 때 'I would like~' 또는 'Can I have~?'를 써요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000005:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "I would ___ a coffee, please.",
+        "options": ["like", "want", "need", "have"],
+        "correctAnswer": "like"
+      },
+      {
+        "id": "pack-000005:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "Can I ___ a sandwich?",
+        "options": ["like", "want", "have", "need"],
+        "correctAnswer": "have"
+      },
+      {
+        "id": "pack-000005:grammar-ex-003",
+        "type": "multiple_choice",
+        "question": "Which is the most polite way to order?",
+        "options": ["Give me coffee.", "I want coffee.", "I would like a coffee, please.", "Coffee!"],
+        "correctAnswer": "I would like a coffee, please."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000005:vocab-001",
+        "word": "coffee",
+        "pronunciation": "/ˈkɒfi/",
+        "meaning": "a hot drink made from coffee beans",
+        "meaningKo": "커피",
+        "partOfSpeech": "noun",
+        "examples": ["I would like a coffee.", "One coffee, please."]
+      },
+      {
+        "id": "pack-000005:vocab-002",
+        "word": "tea",
+        "pronunciation": "/tiː/",
+        "meaning": "a hot drink made from tea leaves",
+        "meaningKo": "차",
+        "partOfSpeech": "noun",
+        "examples": ["Can I have a tea?", "Green tea, please."]
+      },
+      {
+        "id": "pack-000005:vocab-003",
+        "word": "sandwich",
+        "pronunciation": "/ˈsænwɪtʃ/",
+        "meaning": "food made with bread and filling",
+        "meaningKo": "샌드위치",
+        "partOfSpeech": "noun",
+        "examples": ["I'd like a sandwich.", "One ham sandwich, please."]
+      },
+      {
+        "id": "pack-000005:vocab-004",
+        "word": "cake",
+        "pronunciation": "/keɪk/",
+        "meaning": "a sweet baked dessert",
+        "meaningKo": "케이크",
+        "partOfSpeech": "noun",
+        "examples": ["Can I have a piece of cake?", "The chocolate cake looks good."]
+      },
+      {
+        "id": "pack-000005:vocab-005",
+        "word": "menu",
+        "pronunciation": "/ˈmenjuː/",
+        "meaning": "a list of food and drinks",
+        "meaningKo": "메뉴",
+        "partOfSpeech": "noun",
+        "examples": ["Can I see the menu?", "The menu has many options."]
+      }
+    ],
+    "collocations": ["a cup of coffee", "a piece of cake", "for here or to go", "that's all"]
+  },
+
+  "reading": {
+    "id": "pack-000005:reading",
+    "title": "At the Café",
+    "passage": "I am at my favorite café. I look at the menu. I would like a coffee and a piece of cake. The cake is chocolate. The coffee is hot. I sit by the window. It is a nice day.",
+    "wordCount": 40,
+    "questions": [
+      {
+        "id": "pack-000005:reading-q-001",
+        "type": "comprehension",
+        "question": "What does the speaker order?",
+        "options": ["tea and sandwich", "coffee and cake", "juice and cookies", "water and bread"],
+        "correctAnswer": "coffee and cake"
+      },
+      {
+        "id": "pack-000005:reading-q-002",
+        "type": "comprehension",
+        "question": "What kind of cake is it?",
+        "options": ["strawberry", "vanilla", "chocolate", "cheese"],
+        "correctAnswer": "chocolate"
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000005:listening",
+    "title": "Ordering at a Café",
+    "script": "Staff: Hi, what can I get for you? Customer: I would like a latte, please. Staff: For here or to go? Customer: For here, please. Staff: That will be four dollars.",
+    "audioUrl": null,
+    "duration": 15,
+    "exercises": [
+      {
+        "id": "pack-000005:listening-ex-001",
+        "type": "comprehension",
+        "question": "What does the customer order?",
+        "options": ["coffee", "latte", "tea", "juice"],
+        "correctAnswer": "latte"
+      },
+      {
+        "id": "pack-000005:listening-ex-002",
+        "type": "comprehension",
+        "question": "Is the order for here or to go?",
+        "options": ["for here", "to go", "delivery", "pickup"],
+        "correctAnswer": "for here"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000005:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Write an order at a coffee shop.",
+      "template": "Hello, I would like a [DRINK]. Can I also have a [FOOD]? That's all, thank you.",
+      "slots": [
+        { "name": "DRINK", "options": ["coffee", "latte", "tea", "juice"] },
+        { "name": "FOOD", "options": ["sandwich", "cake", "cookie", "muffin"] }
+      ],
+      "correctExample": "Hello, I would like a latte. Can I also have a muffin? That's all, thank you."
+    },
+    "free": {
+      "id": "pack-000005:writing-free",
+      "topic": "Your Café Order",
+      "prompt": "Write about what you order at your favorite café. Include what you like and why.",
+      "minWords": 20,
+      "maxWords": 50,
+      "checklist": [
+        { "item": "Use 'I would like' or 'Can I have'", "required": true },
+        { "item": "Mention at least 2 items", "required": true }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000005:speaking-shadow",
+      "sentence": "I would like a latte and a piece of chocolate cake, please.",
+      "pronunciation": "/aɪ wʊd laɪk ə ˈlɑːteɪ ænd ə piːs əv ˈtʃɒklət keɪk pliːz/",
+      "audioUrl": null,
+      "koreanTip": "'would'는 '우드'가 아니라 '우~ㄷ'처럼 'd'가 약하게 발음돼요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000005:speaking-roleplay",
+      "scenario": "You order at a coffee shop.",
+      "role": "Customer",
+      "partnerRole": "Barista",
+      "prompts": [
+        { "speaker": "partner", "text": "Hi, what can I get for you today?" },
+        { "speaker": "user", "text": "I would like a ___, please.", "hint": "Order a drink" },
+        { "speaker": "partner", "text": "Would you like anything else?" },
+        { "speaker": "user", "text": "Can I also have a ___?", "hint": "Order food" },
+        { "speaker": "partner", "text": "Sure! For here or to go?" },
+        { "speaker": "user", "text": "For here, please. Thank you!" }
+      ],
+      "checklistItems": ["Order politely using 'I would like' or 'Can I have'", "Answer 'for here or to go'"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000005:korean-error-001",
+      "category": "usage",
+      "errorExample": "Give me a coffee.",
+      "correctForm": "I would like a coffee, please.",
+      "explanation": "'Give me' sounds rude in English. Use 'I would like' or 'Can I have' to be polite.",
+      "tip": "한국어로 '커피 주세요'를 직역하면 무례하게 들려요! 'I would like~'를 쓰세요."
+    }
+  ]
+}
