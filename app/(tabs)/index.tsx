@@ -18,6 +18,7 @@ import { TodayEntry } from '@/components/today/TodayEntry';
 import { TodayTimeline } from '@/components/today/TodayTimeline';
 import { QuickStartCard } from '@/components/home/QuickStartCard';
 import { SrsWidget } from '@/components/home/SrsWidget';
+import { PackRecommendation } from '@/components/home/PackRecommendation';
 
 export default function TodayScreen() {
   const { colors } = useTheme();
@@ -40,6 +41,9 @@ export default function TodayScreen() {
 
         {/* SRS 복습 위젯 */}
         <SrsWidget />
+
+        {/* Todo 기반 팩 추천 */}
+        <PackRecommendation />
 
         {/* 통합 입력창: 메모/할일/일기 */}
         <TodayEntry />
