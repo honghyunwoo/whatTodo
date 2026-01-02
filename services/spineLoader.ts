@@ -138,16 +138,31 @@ export interface PronunciationData {
 // Functions
 const FUNCTION_MODULES: Partial<Record<CEFRLevel, () => FunctionsData>> = {
   A1: () => require('@/data/spine/functions/a1-functions.json'),
+  A2: () => require('@/data/spine/functions/a2-functions.json'),
+  B1: () => require('@/data/spine/functions/b1-functions.json'),
+  B2: () => require('@/data/spine/functions/b2-functions.json'),
+  C1: () => require('@/data/spine/functions/c1-functions.json'),
+  C2: () => require('@/data/spine/functions/c2-functions.json'),
 };
 
 // Grammar
 const GRAMMAR_MODULES: Partial<Record<CEFRLevel, () => GrammarData>> = {
   A1: () => require('@/data/spine/grammar/a1-grammar.json'),
+  A2: () => require('@/data/spine/grammar/a2-grammar.json'),
+  B1: () => require('@/data/spine/grammar/b1-grammar.json'),
+  B2: () => require('@/data/spine/grammar/b2-grammar.json'),
+  C1: () => require('@/data/spine/grammar/c1-grammar.json'),
+  C2: () => require('@/data/spine/grammar/c2-grammar.json'),
 };
 
 // Lexis
 const LEXIS_MODULES: Partial<Record<CEFRLevel, () => LexisData>> = {
   A1: () => require('@/data/spine/lexis/a1-lexis.json'),
+  A2: () => require('@/data/spine/lexis/a2-lexis.json'),
+  B1: () => require('@/data/spine/lexis/b1-lexis.json'),
+  B2: () => require('@/data/spine/lexis/b2-lexis.json'),
+  C1: () => require('@/data/spine/lexis/c1-lexis.json'),
+  C2: () => require('@/data/spine/lexis/c2-lexis.json'),
 };
 
 // Pronunciation
