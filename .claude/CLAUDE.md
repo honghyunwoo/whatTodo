@@ -92,23 +92,38 @@ npm test           # 코드 변경 시
 
 ---
 
-## 프로젝트 구조 요약
+## 프로젝트 구조
 
+### 폴더
 ```
 app/           # 화면 (Expo Router)
-components/    # UI 컴포넌트
+components/    # UI 컴포넌트 (88개)
 store/         # Zustand 스토어 (10개)
-services/      # 비즈니스 로직
-data/          # 학습 콘텐츠 (288개+)
+services/      # 비즈니스 로직 (12개)
+data/          # 학습 콘텐츠
 types/         # TypeScript 타입
 utils/         # 유틸리티
 ```
+
+### 콘텐츠 아키텍처 (3계층)
+```
+data/
+├── spine/       # 핵심: CEFR 기반 (A1-C2)
+│   ├── functions/   # 기능 언어
+│   ├── grammar/     # 문법
+│   └── lexis/       # 어휘 덩어리
+├── packs/       # 주제별: 학습 팩 (10개)
+├── activities/  # 레벨별: 활동 콘텐츠 (288+)
+└── extensions/  # 확장: 추가 콘텐츠
+```
+
+**데이터 흐름**: `Spine (핵심)` → `Packs (조합)` → `Activities (실행)`
 
 ---
 
 ## 참조
 
-- `.claude/state.json` - 현재 상태
+- `.claude/state.json` - 현재 상태 (phase, currentWork)
 - `docs/DECISIONS.md` - 기술 결정
 - `docs/CHANGELOG.md` - 변경 이력
 
