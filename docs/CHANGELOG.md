@@ -6,6 +6,29 @@
 
 ## [Unreleased]
 
+### 2026-01-02 - 콘텐츠 확장 및 문서 최적화
+
+#### Added
+- **Spine 콘텐츠 A2-C2 확장** (15개 파일)
+  - `data/spine/functions/` - A2~C2 기능 언어 (50개)
+  - `data/spine/grammar/` - A2~C2 문법 (50개)
+  - `data/spine/lexis/` - A2~C2 어휘 덩어리 (40개 + 연어 20개)
+- **Slash Commands 자동화** (3개)
+  - `/changelog` - CHANGELOG.md 업데이트
+  - `/validate` - typecheck + lint 실행
+  - `/sync-state` - state.json 동기화
+
+#### Fixed
+- Metro 빌드 오류 수정 (`wrong.ogg` → `error-sound.ogg`)
+
+#### Changed
+- **CLAUDE.md 최적화** - 콘텐츠 아키텍처 3계층 섹션 추가
+- **state.json 간소화** - 141줄 → 23줄 (how vs where 원칙)
+- **CURRENT_STATE.md 삭제** - 중복 제거 (state.json + CLAUDE.md로 역할 분리)
+
+---
+
+
 ### 2026-01-01 - 코드 품질 개선 및 최적화
 
 #### Fixed (Cleanup)
