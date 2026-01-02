@@ -6,9 +6,10 @@
  * - Reanimated animations for entry
  * - Haptic feedback on press
  * - Improved microinteractions
+ * - Motivation messages with CTA buttons
  */
 
-import React, { useMemo, useCallback } from 'react';
+import React, { useMemo, useCallback, useState, useEffect } from 'react';
 import { StyleSheet, View, Pressable } from 'react-native';
 import { Text } from 'react-native-paper';
 import { useRouter } from 'expo-router';
@@ -25,6 +26,35 @@ import { SIZES, SHADOWS } from '@/constants/sizes';
 import { useStreakStore } from '@/store/streakStore';
 import { useLearnStore } from '@/store/learnStore';
 import { feedbackService } from '@/services/feedbackService';
+import {
+  motivationService,
+  type MotivationMessage,
+  type MessageType,
+  type UserStats,
+  calculateDaysSinceLastStudy,
+} from '@/services/motivationService';
+
+/**
+ * MessageType에 따른 아이콘 매핑
+ */
+function getIconForType(
+  type: MessageType
+): 'flame' | 'play-circle' | 'sparkles' | 'refresh' | 'trophy' | 'heart' {
+  switch (type) {
+    case 'streak_danger':
+      return 'flame';
+    case 'streak_maintain':
+      return 'flame';
+    case 'comeback':
+      return 'refresh';
+    case 'achievement':
+      return 'trophy';
+    case 'encouragement':
+      return 'heart';
+    default:
+      return 'play-circle';
+  }
+}
 
 /**
  * QuickStartCard: 홈 화면 최상단 퀵 학습 시작 카드
@@ -35,6 +65,9 @@ import { feedbackService } from '@/services/feedbackService';
 export function QuickStartCard() {
   const router = useRouter();
   const scale = useSharedValue(1);
+
+  // State for motivation message
+  const [motivationMessage, setMotivationMessage] = useState<MotivationMessage | null>(null);
 
   // Store 구독
   const { currentStreak, lastStudyDate } = useStreakStore();
@@ -58,6 +91,34 @@ export function QuickStartCard() {
   // 스트릭 위험 상태
   const streakAtRisk = currentStreak > 0 && !didLearnToday;
 
+  // 주간 진행률 계산 (0-100)
+  const weeklyProgressPercent = useMemo(() => {
+    if (!weekProgress || weekProgress.length === 0) return 0;
+    const currentWeek = weekProgress[weekProgress.length - 1];
+    const completed = currentWeek?.activitiesCompleted?.length || 0;
+    const total = 6; // 6가지 활동 유형
+    return Math.round((completed / total) * 100);
+  }, [weekProgress]);
+
+  // 동기부여 메시지 로드
+  useEffect(() => {
+    const loadMotivation = async () => {
+      const stats: UserStats = {
+        currentStreak,
+        lastStudyDate,
+        todayCompleted: didLearnToday,
+        weeklyProgress: weeklyProgressPercent,
+        isStreakAtRisk: streakAtRisk,
+        daysSinceLastStudy: calculateDaysSinceLastStudy(lastStudyDate),
+      };
+
+      const message = await motivationService.getMotivationMessage(stats, 'friendly');
+      setMotivationMessage(message);
+    };
+
+    loadMotivation();
+  }, [currentStreak, lastStudyDate, didLearnToday, weeklyProgressPercent, streakAtRisk]);
+
   const animatedStyle = useAnimatedStyle(() => ({
     transform: [{ scale: scale.value }],
   }));
@@ -72,12 +133,34 @@ export function QuickStartCard() {
 
   const handlePress = useCallback(() => {
     feedbackService.tap();
-    // 학습 탭으로 이동하여 세션 시작
-    router.push('/(tabs)/learn');
-  }, [router]);
 
-  // 메시지 결정
+    // CTA 액션에 따라 다른 화면으로 이동
+    const action = motivationMessage?.cta?.action;
+    switch (action) {
+      case 'view_stats':
+        router.push('/(tabs)/records');
+        break;
+      case 'start_quick_session':
+      case 'start_lesson':
+      default:
+        router.push('/(tabs)/learn');
+    }
+  }, [router, motivationMessage]);
+
+  // 메시지 결정 (동기부여 메시지가 있으면 사용, 없으면 기본값)
   const getMessage = () => {
+    if (motivationMessage) {
+      return {
+        title: motivationMessage.title,
+        subtitle: motivationMessage.message,
+        icon: getIconForType(motivationMessage.type),
+        urgent: motivationMessage.type === 'streak_danger',
+        emoji: motivationMessage.emoji,
+        cta: motivationMessage.cta,
+      };
+    }
+
+    // Fallback: 기존 로직
     if (!didLearnToday) {
       if (currentStreak > 0) {
         return {
@@ -85,6 +168,8 @@ export function QuickStartCard() {
           subtitle: `${currentStreak}일 스트릭을 유지하세요`,
           icon: 'flame' as const,
           urgent: true,
+          emoji: '😰',
+          cta: undefined,
         };
       }
       return {
@@ -92,6 +177,8 @@ export function QuickStartCard() {
         subtitle: '30초면 충분해요',
         icon: 'play-circle' as const,
         urgent: false,
+        emoji: '🌟',
+        cta: undefined,
       };
     }
     return {
@@ -99,6 +186,8 @@ export function QuickStartCard() {
       subtitle: `오늘 ${progress}개 활동 완료`,
       icon: 'sparkles' as const,
       urgent: false,
+      emoji: '✨',
+      cta: undefined,
     };
   };
 

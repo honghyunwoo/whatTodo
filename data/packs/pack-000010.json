@@ -1,0 +1,220 @@
+{
+  "id": "pack-000010",
+  "level": "A1",
+  "topic": "My House and Home",
+  "canDo": "I can describe my home and talk about rooms and furniture.",
+  "functionId": "description",
+  "difficulty": 3,
+  "skills": ["grammar", "vocab", "reading"],
+  "estimatedMinutes": 15,
+  "tags": ["house", "home", "rooms", "furniture", "daily", "living"],
+
+  "grammar": {
+    "point": "There is / There are for describing places",
+    "rules": [
+      {
+        "id": "pack-000010:grammar-rule-001",
+        "title": "There is / There are",
+        "explanation": "Use 'There is' for singular nouns and 'There are' for plural nouns to describe what exists in a place.",
+        "examples": ["There is a bed in my room.", "There are two windows.", "There is a big kitchen."],
+        "koreanTip": "'~이/가 있다'를 영어로 표현할 때 'There is/are'를 써요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000010:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "There ___ a sofa in the living room.",
+        "options": ["is", "are", "be", "have"],
+        "correctAnswer": "is",
+        "explanation": "'A sofa' is singular, so use 'is'.",
+        "koreanTip": "소파 하나이므로 단수형 'is'를 써요."
+      },
+      {
+        "id": "pack-000010:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "There ___ three bedrooms in my house.",
+        "options": ["is", "are", "be", "have"],
+        "correctAnswer": "are",
+        "explanation": "'Three bedrooms' is plural, so use 'are'.",
+        "koreanTip": "침실 3개이므로 복수형 'are'를 써요."
+      },
+      {
+        "id": "pack-000010:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "There ___ a TV on the wall.",
+        "options": ["is", "are", "be", "have"],
+        "correctAnswer": "is",
+        "explanation": "'A TV' is singular."
+      },
+      {
+        "id": "pack-000010:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which is correct?",
+        "options": ["There is many chairs.", "There are many chairs.", "There are many chair.", "There have many chairs."],
+        "correctAnswer": "There are many chairs.",
+        "explanation": "'Many chairs' is plural, so use 'are'."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000010:vocab-001",
+        "word": "bedroom",
+        "pronunciation": "/ˈbedruːm/",
+        "meaning": "room for sleeping",
+        "meaningKo": "침실",
+        "partOfSpeech": "noun",
+        "examples": ["My bedroom is small.", "There are two bedrooms."],
+        "koreanTip": "'bed + room'의 합성어예요."
+      },
+      {
+        "id": "pack-000010:vocab-002",
+        "word": "bathroom",
+        "pronunciation": "/ˈbæθruːm/",
+        "meaning": "room with toilet and shower",
+        "meaningKo": "욕실, 화장실",
+        "partOfSpeech": "noun",
+        "examples": ["The bathroom is next to my room.", "We have two bathrooms."],
+        "koreanTip": "미국에서는 'bathroom'이 화장실을 의미하기도 해요."
+      },
+      {
+        "id": "pack-000010:vocab-003",
+        "word": "kitchen",
+        "pronunciation": "/ˈkɪtʃɪn/",
+        "meaning": "room for cooking",
+        "meaningKo": "부엌",
+        "partOfSpeech": "noun",
+        "examples": ["I cook in the kitchen.", "The kitchen is very big."],
+        "koreanTip": "요리하는 공간을 말해요."
+      },
+      {
+        "id": "pack-000010:vocab-004",
+        "word": "furniture",
+        "pronunciation": "/ˈfɜːrnɪtʃər/",
+        "meaning": "tables, chairs, beds, etc.",
+        "meaningKo": "가구",
+        "partOfSpeech": "noun",
+        "examples": ["We need new furniture.", "The furniture is old."],
+        "koreanTip": "셀 수 없는 명사예요. 'furnitures'라고 쓰지 않아요."
+      },
+      {
+        "id": "pack-000010:vocab-005",
+        "word": "apartment",
+        "pronunciation": "/əˈpɑːrtmənt/",
+        "meaning": "flat in a building",
+        "meaningKo": "아파트",
+        "partOfSpeech": "noun",
+        "examples": ["I live in an apartment.", "My apartment is on the 5th floor."],
+        "koreanTip": "영국에서는 'flat'이라고 해요."
+      }
+    ],
+    "collocations": ["living room", "dining room", "next to", "in front of"]
+  },
+
+  "reading": {
+    "id": "pack-000010:reading-001",
+    "passage": "I live in a small apartment with my family. There are three rooms: two bedrooms and a living room. My bedroom is next to my parents' room. There is a bed, a desk, and a closet in my room. The kitchen is small but clean. There is a big window in the living room. I like my home because it is comfortable.",
+    "questions": [
+      {
+        "id": "pack-000010:reading-q-001",
+        "type": "multiple_choice",
+        "question": "How many bedrooms are there?",
+        "options": ["One", "Two", "Three", "Four"],
+        "correctAnswer": "Two"
+      },
+      {
+        "id": "pack-000010:reading-q-002",
+        "type": "multiple_choice",
+        "question": "What is in the writer's room?",
+        "options": ["Only a bed", "A bed, desk, and closet", "A bed and TV", "A sofa and desk"],
+        "correctAnswer": "A bed, desk, and closet"
+      },
+      {
+        "id": "pack-000010:reading-q-003",
+        "type": "true_false",
+        "question": "The kitchen is big.",
+        "correctAnswer": "false",
+        "explanation": "The text says 'The kitchen is small but clean'."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000010:listening-001",
+    "script": "A: What's your new apartment like?\nB: It's nice! There are two bedrooms and one bathroom.\nA: Is there a balcony?\nB: Yes, there is. It has a beautiful view.\nA: What about the kitchen?\nB: The kitchen is small, but there's enough space. There's a new refrigerator and stove.",
+    "exercises": [
+      {
+        "id": "pack-000010:listening-ex-001",
+        "type": "multiple_choice",
+        "question": "How many bathrooms are there?",
+        "options": ["One", "Two", "Three", "Four"],
+        "correctAnswer": "One"
+      },
+      {
+        "id": "pack-000010:listening-ex-002",
+        "type": "true_false",
+        "question": "There is no balcony in the apartment.",
+        "correctAnswer": "false",
+        "explanation": "The speaker says 'Yes, there is' when asked about a balcony."
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000010:writing-template-001",
+      "instruction": "Complete the description of a room.",
+      "template": "In my bedroom, there ___ a bed and a desk. There ___ two windows. The walls are ___ . I like my room because it is ___.",
+      "slots": ["is", "are", "white", "cozy"],
+      "hints": ["singular verb", "plural verb", "color", "adjective"]
+    },
+    "free": {
+      "id": "pack-000010:writing-free-001",
+      "prompt": "Describe your home. How many rooms are there? What furniture do you have?",
+      "checklist": ["There is/are structure", "room names", "furniture items"],
+      "minWords": 40
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000010:speaking-shadow-001",
+      "sentences": [
+        { "text": "There is a big window in my room.", "pronunciation": "ðer ɪz ə bɪɡ ˈwɪndoʊ ɪn maɪ ruːm" },
+        { "text": "There are two bedrooms.", "pronunciation": "ðer ɑːr tuː ˈbedruːmz" },
+        { "text": "My apartment is on the third floor.", "pronunciation": "maɪ əˈpɑːrtmənt ɪz ɑːn ðə θɜːrd flɔːr" }
+      ]
+    },
+    "roleplay": {
+      "id": "pack-000010:speaking-roleplay-001",
+      "scenario": "A friend wants to visit your home. Describe your home to them.",
+      "yourRole": "Host",
+      "partnerRole": "Friend",
+      "starterPhrases": ["My home is...", "There is/are...", "My favorite room is..."]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000010:error-001",
+      "wrong": "My house has three rooms.",
+      "correct": "There are three rooms in my house.",
+      "explanation": "장소에 무엇이 있는지 설명할 때 'There is/are'가 더 자연스러워요."
+    },
+    {
+      "id": "pack-000010:error-002",
+      "wrong": "I need new furnitures.",
+      "correct": "I need new furniture.",
+      "explanation": "'furniture'는 셀 수 없는 명사라서 복수형이 없어요."
+    },
+    {
+      "id": "pack-000010:error-003",
+      "wrong": "There are a desk.",
+      "correct": "There is a desk.",
+      "explanation": "'a desk'는 단수이므로 'is'를 써야 해요."
+    }
+  ]
+}

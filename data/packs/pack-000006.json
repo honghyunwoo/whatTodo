@@ -1,0 +1,221 @@
+{
+  "id": "pack-000006",
+  "level": "A1",
+  "topic": "At the Supermarket",
+  "canDo": "I can buy basic items and ask for prices at a store.",
+  "functionId": "transaction",
+  "difficulty": 2,
+  "skills": ["grammar", "vocab", "speaking"],
+  "estimatedMinutes": 15,
+  "tags": ["shopping", "supermarket", "price", "daily", "food"],
+
+  "grammar": {
+    "point": "How much / How many with countable and uncountable nouns",
+    "rules": [
+      {
+        "id": "pack-000006:grammar-rule-001",
+        "title": "How much vs How many",
+        "explanation": "Use 'How much' for uncountable nouns (water, money) and 'How many' for countable nouns (apples, eggs).",
+        "examples": ["How much is this?", "How many apples do you need?", "How much water do you want?"],
+        "koreanTip": "한국어에서는 '얼마나'로 통일되지만, 영어에서는 셀 수 있는 것(many)과 셀 수 없는 것(much)을 구분해요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000006:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "How ___ apples do you want?",
+        "options": ["much", "many", "some", "any"],
+        "correctAnswer": "many",
+        "explanation": "'Apples' are countable, so use 'many'.",
+        "koreanTip": "사과는 셀 수 있으므로 'many'를 씁니다."
+      },
+      {
+        "id": "pack-000006:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "How ___ is this bread?",
+        "options": ["much", "many", "some", "any"],
+        "correctAnswer": "much",
+        "explanation": "When asking about price, use 'How much'.",
+        "koreanTip": "가격을 물을 때는 'How much'를 씁니다."
+      },
+      {
+        "id": "pack-000006:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "How ___ milk do we need?",
+        "options": ["much", "many", "some", "any"],
+        "correctAnswer": "much",
+        "explanation": "'Milk' is uncountable, so use 'much'.",
+        "koreanTip": "우유는 셀 수 없으므로 'much'를 씁니다."
+      },
+      {
+        "id": "pack-000006:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which question is correct?",
+        "options": ["How much eggs?", "How many eggs?", "How much egg?", "How many egg?"],
+        "correctAnswer": "How many eggs?",
+        "explanation": "'Eggs' are countable and plural."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000006:vocab-001",
+        "word": "price",
+        "pronunciation": "/praɪs/",
+        "meaning": "amount of money to buy something",
+        "meaningKo": "가격",
+        "partOfSpeech": "noun",
+        "examples": ["What is the price?", "The price is $5."],
+        "koreanTip": "가격을 물을 때 'How much is it?'이 더 자연스러워요."
+      },
+      {
+        "id": "pack-000006:vocab-002",
+        "word": "cart",
+        "pronunciation": "/kɑːrt/",
+        "meaning": "shopping cart",
+        "meaningKo": "카트, 쇼핑 카트",
+        "partOfSpeech": "noun",
+        "examples": ["I need a cart.", "Put it in the cart."],
+        "koreanTip": "영국에서는 'trolley'라고도 해요."
+      },
+      {
+        "id": "pack-000006:vocab-003",
+        "word": "cheap",
+        "pronunciation": "/tʃiːp/",
+        "meaning": "low price",
+        "meaningKo": "싼, 저렴한",
+        "partOfSpeech": "adjective",
+        "examples": ["This is cheap.", "Is there a cheaper one?"],
+        "koreanTip": "'cheap'은 '저렴한'이지만 품질이 낮다는 뉘앙스도 있어요."
+      },
+      {
+        "id": "pack-000006:vocab-004",
+        "word": "expensive",
+        "pronunciation": "/ɪkˈspensɪv/",
+        "meaning": "high price",
+        "meaningKo": "비싼",
+        "partOfSpeech": "adjective",
+        "examples": ["This is too expensive.", "Is it expensive?"],
+        "koreanTip": "'pricey'는 같은 의미의 일상적인 표현이에요."
+      },
+      {
+        "id": "pack-000006:vocab-005",
+        "word": "receipt",
+        "pronunciation": "/rɪˈsiːt/",
+        "meaning": "proof of purchase",
+        "meaningKo": "영수증",
+        "partOfSpeech": "noun",
+        "examples": ["Can I have a receipt?", "Keep the receipt."],
+        "koreanTip": "'p'는 묵음이에요. [리시트]로 발음합니다."
+      }
+    ],
+    "collocations": ["pay by cash", "pay by card", "on sale", "buy one get one free"]
+  },
+
+  "reading": {
+    "id": "pack-000006:reading-001",
+    "passage": "Today I went to the supermarket. I bought some apples, bread, and milk. The apples were on sale - only $2 for five! The bread was $3 and the milk was $4. I paid by card. The total was $9. I always keep my receipt.",
+    "questions": [
+      {
+        "id": "pack-000006:reading-q-001",
+        "type": "multiple_choice",
+        "question": "How much were five apples?",
+        "options": ["$2", "$3", "$4", "$9"],
+        "correctAnswer": "$2"
+      },
+      {
+        "id": "pack-000006:reading-q-002",
+        "type": "true_false",
+        "question": "The writer paid by cash.",
+        "correctAnswer": "false",
+        "explanation": "The text says 'I paid by card.'"
+      },
+      {
+        "id": "pack-000006:reading-q-003",
+        "type": "multiple_choice",
+        "question": "What was the total?",
+        "options": ["$2", "$5", "$9", "$10"],
+        "correctAnswer": "$9"
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000006:listening-001",
+    "script": "Customer: Excuse me, how much is this?\nClerk: That's $5.99.\nCustomer: Oh, that's a bit expensive. Is there a cheaper one?\nClerk: Yes, this one is $3.50. It's on sale today.\nCustomer: Great, I'll take it. Can I pay by card?\nClerk: Of course. Here's your receipt.",
+    "exercises": [
+      {
+        "id": "pack-000006:listening-ex-001",
+        "type": "multiple_choice",
+        "question": "How much was the first item?",
+        "options": ["$3.50", "$5.99", "$9.49", "$2.99"],
+        "correctAnswer": "$5.99"
+      },
+      {
+        "id": "pack-000006:listening-ex-002",
+        "type": "multiple_choice",
+        "question": "How did the customer pay?",
+        "options": ["By cash", "By card", "By check", "By phone"],
+        "correctAnswer": "By card"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000006:writing-template-001",
+      "instruction": "Fill in the blanks to complete the shopping conversation.",
+      "template": "Customer: Excuse me, how ___ is this?\nClerk: It's $___.\nCustomer: I'll ___ it.",
+      "slots": ["much", "10", "take"],
+      "hints": ["much/many", "price", "buy/take"]
+    },
+    "free": {
+      "id": "pack-000006:writing-free-001",
+      "prompt": "Write about your last shopping trip. What did you buy? How much did you spend?",
+      "checklist": ["prices", "items bought", "payment method"],
+      "minWords": 30
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000006:speaking-shadow-001",
+      "sentences": [
+        { "text": "How much is this?", "pronunciation": "haʊ mʌtʃ ɪz ðɪs" },
+        { "text": "Can I pay by card?", "pronunciation": "kæn aɪ peɪ baɪ kɑːrd" },
+        { "text": "I'll take this one.", "pronunciation": "aɪl teɪk ðɪs wʌn" }
+      ]
+    },
+    "roleplay": {
+      "id": "pack-000006:speaking-roleplay-001",
+      "scenario": "You are at a store. Ask the clerk about the price of an item and buy it.",
+      "yourRole": "Customer",
+      "partnerRole": "Store Clerk",
+      "starterPhrases": ["Excuse me...", "How much is...?", "I'll take..."]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000006:error-001",
+      "wrong": "How much is it price?",
+      "correct": "How much is it?",
+      "explanation": "'How much'는 이미 가격을 묻는 표현이므로 'price'를 넣지 않아요."
+    },
+    {
+      "id": "pack-000006:error-002",
+      "wrong": "I will buying this.",
+      "correct": "I will buy this.",
+      "explanation": "will 뒤에는 동사원형을 씁니다."
+    },
+    {
+      "id": "pack-000006:error-003",
+      "wrong": "Give me discount.",
+      "correct": "Can I get a discount?",
+      "explanation": "영어에서는 요청할 때 직접적 명령보다 'Can I...?'가 더 공손해요."
+    }
+  ]
+}

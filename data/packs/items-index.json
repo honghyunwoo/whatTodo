@@ -315,6 +315,321 @@
       "level": "A1",
       "difficulty": 2,
       "tags": ["coffee_shop", "menu"]
+    },
+    "pack-000006:grammar-ex-001": {
+      "packId": "pack-000006",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["shopping", "how_much_many"]
+    },
+    "pack-000006:grammar-ex-002": {
+      "packId": "pack-000006",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["shopping", "how_much_many"]
+    },
+    "pack-000006:grammar-ex-003": {
+      "packId": "pack-000006",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["shopping", "how_much_many"]
+    },
+    "pack-000006:grammar-ex-004": {
+      "packId": "pack-000006",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["shopping", "how_much_many"]
+    },
+    "pack-000006:vocab-001": {
+      "packId": "pack-000006",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["shopping", "price"]
+    },
+    "pack-000006:vocab-002": {
+      "packId": "pack-000006",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["shopping", "cart"]
+    },
+    "pack-000006:vocab-003": {
+      "packId": "pack-000006",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["shopping", "cheap"]
+    },
+    "pack-000006:vocab-004": {
+      "packId": "pack-000006",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["shopping", "expensive"]
+    },
+    "pack-000006:vocab-005": {
+      "packId": "pack-000006",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["shopping", "receipt"]
+    },
+    "pack-000007:grammar-ex-001": {
+      "packId": "pack-000007",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["family", "possessive"]
+    },
+    "pack-000007:grammar-ex-002": {
+      "packId": "pack-000007",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["family", "possessive"]
+    },
+    "pack-000007:grammar-ex-003": {
+      "packId": "pack-000007",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["family", "possessive"]
+    },
+    "pack-000007:grammar-ex-004": {
+      "packId": "pack-000007",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["family", "possessive"]
+    },
+    "pack-000007:vocab-001": {
+      "packId": "pack-000007",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["family", "parents"]
+    },
+    "pack-000007:vocab-002": {
+      "packId": "pack-000007",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["family", "sibling"]
+    },
+    "pack-000007:vocab-003": {
+      "packId": "pack-000007",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["family", "grandmother"]
+    },
+    "pack-000007:vocab-004": {
+      "packId": "pack-000007",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["family", "cousin"]
+    },
+    "pack-000007:vocab-005": {
+      "packId": "pack-000007",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 2,
+      "tags": ["family", "married"]
+    },
+    "pack-000008:grammar-ex-001": {
+      "packId": "pack-000008",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["transportation", "imperative"]
+    },
+    "pack-000008:grammar-ex-002": {
+      "packId": "pack-000008",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["transportation", "can"]
+    },
+    "pack-000008:grammar-ex-003": {
+      "packId": "pack-000008",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["transportation", "imperative"]
+    },
+    "pack-000008:grammar-ex-004": {
+      "packId": "pack-000008",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["transportation", "imperative"]
+    },
+    "pack-000008:vocab-001": {
+      "packId": "pack-000008",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["transportation", "subway"]
+    },
+    "pack-000008:vocab-002": {
+      "packId": "pack-000008",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["transportation", "station"]
+    },
+    "pack-000008:vocab-003": {
+      "packId": "pack-000008",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["transportation", "transfer"]
+    },
+    "pack-000008:vocab-004": {
+      "packId": "pack-000008",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["transportation", "direction"]
+    },
+    "pack-000008:vocab-005": {
+      "packId": "pack-000008",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["transportation", "fare"]
+    },
+    "pack-000009:grammar-ex-001": {
+      "packId": "pack-000009",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["weather", "it_is"]
+    },
+    "pack-000009:grammar-ex-002": {
+      "packId": "pack-000009",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["weather", "it_is"]
+    },
+    "pack-000009:grammar-ex-003": {
+      "packId": "pack-000009",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["weather", "present_continuous"]
+    },
+    "pack-000009:grammar-ex-004": {
+      "packId": "pack-000009",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["weather", "it_is"]
+    },
+    "pack-000009:vocab-001": {
+      "packId": "pack-000009",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["weather", "sunny"]
+    },
+    "pack-000009:vocab-002": {
+      "packId": "pack-000009",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["weather", "cloudy"]
+    },
+    "pack-000009:vocab-003": {
+      "packId": "pack-000009",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["weather", "temperature"]
+    },
+    "pack-000009:vocab-004": {
+      "packId": "pack-000009",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["weather", "spring"]
+    },
+    "pack-000009:vocab-005": {
+      "packId": "pack-000009",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["weather", "humid"]
+    },
+    "pack-000010:grammar-ex-001": {
+      "packId": "pack-000010",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["house", "there_is_are"]
+    },
+    "pack-000010:grammar-ex-002": {
+      "packId": "pack-000010",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["house", "there_is_are"]
+    },
+    "pack-000010:grammar-ex-003": {
+      "packId": "pack-000010",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["house", "there_is_are"]
+    },
+    "pack-000010:grammar-ex-004": {
+      "packId": "pack-000010",
+      "type": "grammar",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["house", "there_is_are"]
+    },
+    "pack-000010:vocab-001": {
+      "packId": "pack-000010",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["house", "bedroom"]
+    },
+    "pack-000010:vocab-002": {
+      "packId": "pack-000010",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["house", "bathroom"]
+    },
+    "pack-000010:vocab-003": {
+      "packId": "pack-000010",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["house", "kitchen"]
+    },
+    "pack-000010:vocab-004": {
+      "packId": "pack-000010",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["house", "furniture"]
+    },
+    "pack-000010:vocab-005": {
+      "packId": "pack-000010",
+      "type": "vocab",
+      "level": "A1",
+      "difficulty": 3,
+      "tags": ["house", "apartment"]
     }
   }
 }

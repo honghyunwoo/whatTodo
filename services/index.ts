@@ -10,3 +10,6 @@ export {
 } from './soundService';
 export { default as speechService, SpeechService } from './speechService';
 export { default as writingService, WritingService } from './writingService';
+export { packLoader } from './packLoader';
+export { motivationService } from './motivationService';
+export { learningAnalyzer } from './learningAnalyzer';

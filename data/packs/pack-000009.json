@@ -1,0 +1,221 @@
+{
+  "id": "pack-000009",
+  "level": "A1",
+  "topic": "Weather and Seasons",
+  "canDo": "I can talk about the weather and describe seasonal activities.",
+  "functionId": "description",
+  "difficulty": 3,
+  "skills": ["grammar", "vocab", "speaking"],
+  "estimatedMinutes": 15,
+  "tags": ["weather", "seasons", "nature", "daily", "climate"],
+
+  "grammar": {
+    "point": "It is + adjective for weather descriptions",
+    "rules": [
+      {
+        "id": "pack-000009:grammar-rule-001",
+        "title": "Describing Weather with 'It is'",
+        "explanation": "Use 'It is' + adjective to describe the weather: It is sunny, It is cold, It is raining.",
+        "examples": ["It is hot today.", "It is cloudy.", "It's going to rain."],
+        "koreanTip": "날씨를 말할 때는 항상 'It is'로 시작해요. 한국어처럼 '오늘 덥다'라고 주어 없이 말하면 안 돼요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000009:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "___ is sunny today.",
+        "options": ["It", "The weather", "Today", "This"],
+        "correctAnswer": "It",
+        "explanation": "Use 'It is' for weather descriptions.",
+        "koreanTip": "날씨 표현은 'It is'로 시작해요."
+      },
+      {
+        "id": "pack-000009:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "It ___ cold yesterday.",
+        "options": ["is", "was", "will", "be"],
+        "correctAnswer": "was",
+        "explanation": "For past weather, use 'was'.",
+        "koreanTip": "어제 날씨는 과거형 'was'를 써요."
+      },
+      {
+        "id": "pack-000009:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "It's ___ outside.",
+        "options": ["rain", "raining", "rainy", "rained"],
+        "correctAnswer": "raining",
+        "explanation": "Use present continuous for current weather actions.",
+        "koreanTip": "지금 비가 내리고 있으면 'raining'을 써요."
+      },
+      {
+        "id": "pack-000009:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which is correct?",
+        "options": ["Today is hot.", "It is hot today.", "Hot is today.", "Is hot today."],
+        "correctAnswer": "It is hot today.",
+        "explanation": "'It is' is the standard way to describe weather."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000009:vocab-001",
+        "word": "sunny",
+        "pronunciation": "/ˈsʌni/",
+        "meaning": "bright with sunlight",
+        "meaningKo": "화창한, 맑은",
+        "partOfSpeech": "adjective",
+        "examples": ["It's a sunny day.", "It's sunny outside."],
+        "koreanTip": "명사 'sun'에서 파생된 형용사예요."
+      },
+      {
+        "id": "pack-000009:vocab-002",
+        "word": "cloudy",
+        "pronunciation": "/ˈklaʊdi/",
+        "meaning": "covered with clouds",
+        "meaningKo": "흐린, 구름 낀",
+        "partOfSpeech": "adjective",
+        "examples": ["It's cloudy but warm.", "Cloudy weather is expected."],
+        "koreanTip": "명사 'cloud'에서 파생된 형용사예요."
+      },
+      {
+        "id": "pack-000009:vocab-003",
+        "word": "temperature",
+        "pronunciation": "/ˈtemprətʃər/",
+        "meaning": "degree of heat or cold",
+        "meaningKo": "온도, 기온",
+        "partOfSpeech": "noun",
+        "examples": ["The temperature is 25 degrees.", "What's the temperature today?"],
+        "koreanTip": "기온을 물을 때 'What's the temperature?'라고 해요."
+      },
+      {
+        "id": "pack-000009:vocab-004",
+        "word": "spring",
+        "pronunciation": "/sprɪŋ/",
+        "meaning": "season after winter",
+        "meaningKo": "봄",
+        "partOfSpeech": "noun",
+        "examples": ["Flowers bloom in spring.", "Spring is my favorite season."],
+        "koreanTip": "'in spring'으로 '봄에'라는 뜻이에요."
+      },
+      {
+        "id": "pack-000009:vocab-005",
+        "word": "humid",
+        "pronunciation": "/ˈhjuːmɪd/",
+        "meaning": "having a lot of moisture in the air",
+        "meaningKo": "습한",
+        "partOfSpeech": "adjective",
+        "examples": ["Summer is hot and humid.", "It's very humid today."],
+        "koreanTip": "한국의 여름을 설명할 때 'hot and humid'라고 하면 딱이에요."
+      }
+    ],
+    "collocations": ["heavy rain", "light snow", "clear sky", "below zero"]
+  },
+
+  "reading": {
+    "id": "pack-000009:reading-001",
+    "passage": "Korea has four seasons. Spring is warm and the cherry blossoms are beautiful. Summer is hot and humid. Many people go to the beach. Fall is cool and the leaves change colors. Winter is cold and sometimes snowy. My favorite season is fall because the weather is perfect.",
+    "questions": [
+      {
+        "id": "pack-000009:reading-q-001",
+        "type": "multiple_choice",
+        "question": "How is summer in Korea?",
+        "options": ["Cold and snowy", "Hot and humid", "Cool and dry", "Warm and windy"],
+        "correctAnswer": "Hot and humid"
+      },
+      {
+        "id": "pack-000009:reading-q-002",
+        "type": "multiple_choice",
+        "question": "What is the writer's favorite season?",
+        "options": ["Spring", "Summer", "Fall", "Winter"],
+        "correctAnswer": "Fall"
+      },
+      {
+        "id": "pack-000009:reading-q-003",
+        "type": "true_false",
+        "question": "It never snows in winter in Korea.",
+        "correctAnswer": "false",
+        "explanation": "The text says winter is 'sometimes snowy'."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000009:listening-001",
+    "script": "A: How's the weather today?\nB: It's sunny but a bit cold. The temperature is about 10 degrees.\nA: Should I bring a jacket?\nB: Yes, it might get colder in the evening.\nA: Thanks! I heard it will rain tomorrow.\nB: Yes, the forecast says rainy weather for the weekend.",
+    "exercises": [
+      {
+        "id": "pack-000009:listening-ex-001",
+        "type": "multiple_choice",
+        "question": "What is the temperature?",
+        "options": ["About 5 degrees", "About 10 degrees", "About 15 degrees", "About 20 degrees"],
+        "correctAnswer": "About 10 degrees"
+      },
+      {
+        "id": "pack-000009:listening-ex-002",
+        "type": "multiple_choice",
+        "question": "What is the weather forecast for the weekend?",
+        "options": ["Sunny", "Cloudy", "Rainy", "Snowy"],
+        "correctAnswer": "Rainy"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000009:writing-template-001",
+      "instruction": "Complete the weather description.",
+      "template": "Today, ___ is sunny and warm. The ___ is about 22 degrees. I like this ___ because I can go outside.",
+      "slots": ["it", "temperature", "weather"],
+      "hints": ["subject", "degree word", "noun"]
+    },
+    "free": {
+      "id": "pack-000009:writing-free-001",
+      "prompt": "Describe your favorite season. What is the weather like? What do you like to do?",
+      "checklist": ["weather adjectives", "seasonal activities", "'It is' structure"],
+      "minWords": 40
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000009:speaking-shadow-001",
+      "sentences": [
+        { "text": "How's the weather today?", "pronunciation": "haʊz ðə ˈweðər təˈdeɪ" },
+        { "text": "It's sunny but cold.", "pronunciation": "ɪts ˈsʌni bʌt koʊld" },
+        { "text": "My favorite season is spring.", "pronunciation": "maɪ ˈfeɪvərɪt ˈsiːzən ɪz sprɪŋ" }
+      ]
+    },
+    "roleplay": {
+      "id": "pack-000009:speaking-roleplay-001",
+      "scenario": "A friend from another country asks you about the weather in Korea. Describe the four seasons.",
+      "yourRole": "Korean student",
+      "partnerRole": "Foreign friend",
+      "starterPhrases": ["In spring, it is...", "Summer is...", "My favorite season is..."]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000009:error-001",
+      "wrong": "Today is hot.",
+      "correct": "It is hot today.",
+      "explanation": "날씨를 말할 때는 주어가 'It'이어야 해요."
+    },
+    {
+      "id": "pack-000009:error-002",
+      "wrong": "The weather is raining.",
+      "correct": "It is raining.",
+      "explanation": "'rain'은 동사로 쓸 때 'It is raining'이라고 해요."
+    },
+    {
+      "id": "pack-000009:error-003",
+      "wrong": "In Korea, summer is very humidity.",
+      "correct": "In Korea, summer is very humid.",
+      "explanation": "'humidity'는 명사, 'humid'는 형용사예요. 'is' 뒤에는 형용사가 와요."
+    }
+  ]
+}

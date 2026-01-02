@@ -1,0 +1,221 @@
+{
+  "id": "pack-000007",
+  "level": "A1",
+  "topic": "Family and Friends",
+  "canDo": "I can describe my family members and talk about relationships.",
+  "functionId": "description",
+  "difficulty": 2,
+  "skills": ["grammar", "vocab", "speaking"],
+  "estimatedMinutes": 15,
+  "tags": ["family", "friends", "relationships", "people", "daily"],
+
+  "grammar": {
+    "point": "Possessive adjectives (my, your, his, her, our, their)",
+    "rules": [
+      {
+        "id": "pack-000007:grammar-rule-001",
+        "title": "Possessive Adjectives",
+        "explanation": "Use possessive adjectives before nouns to show ownership: my, your, his, her, its, our, their.",
+        "examples": ["This is my mother.", "Her name is Sarah.", "Their house is big."],
+        "koreanTip": "한국어의 '나의, 너의' 등에 해당하지만, 영어에서는 항상 명사 앞에 옵니다."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000007:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "This is ___ sister. (I)",
+        "options": ["my", "me", "I", "mine"],
+        "correctAnswer": "my",
+        "explanation": "Before a noun, use 'my' not 'I'.",
+        "koreanTip": "명사 앞에서는 소유격 'my'를 씁니다."
+      },
+      {
+        "id": "pack-000007:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "___ father is a doctor. (She)",
+        "options": ["She", "Her", "Hers", "She's"],
+        "correctAnswer": "Her",
+        "explanation": "Before a noun, use 'her' not 'she'.",
+        "koreanTip": "명사 앞에서는 소유격 'her'를 씁니다."
+      },
+      {
+        "id": "pack-000007:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "They love ___ children.",
+        "options": ["they", "their", "them", "theirs"],
+        "correctAnswer": "their",
+        "explanation": "Before a noun, use 'their'.",
+        "koreanTip": "명사 앞에서는 소유격 'their'를 씁니다."
+      },
+      {
+        "id": "pack-000007:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which is correct?",
+        "options": ["He brother is tall.", "His brother is tall.", "Him brother is tall.", "He's brother is tall."],
+        "correctAnswer": "His brother is tall.",
+        "explanation": "'His' is the possessive adjective for 'he'."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000007:vocab-001",
+        "word": "parents",
+        "pronunciation": "/ˈperənts/",
+        "meaning": "mother and father",
+        "meaningKo": "부모님",
+        "partOfSpeech": "noun",
+        "examples": ["My parents live in Seoul.", "I visit my parents every weekend."],
+        "koreanTip": "항상 복수형으로 씁니다. 'parent'는 부모 중 한 명을 말해요."
+      },
+      {
+        "id": "pack-000007:vocab-002",
+        "word": "sibling",
+        "pronunciation": "/ˈsɪblɪŋ/",
+        "meaning": "brother or sister",
+        "meaningKo": "형제자매",
+        "partOfSpeech": "noun",
+        "examples": ["I have two siblings.", "Do you have any siblings?"],
+        "koreanTip": "성별 구분 없이 형제자매를 통칭하는 단어예요."
+      },
+      {
+        "id": "pack-000007:vocab-003",
+        "word": "grandmother",
+        "pronunciation": "/ˈɡrændmʌðər/",
+        "meaning": "parent's mother",
+        "meaningKo": "할머니, 외할머니",
+        "partOfSpeech": "noun",
+        "examples": ["My grandmother is 80 years old.", "I love my grandmother's cooking."],
+        "koreanTip": "애칭으로 'grandma'나 'granny'라고도 해요."
+      },
+      {
+        "id": "pack-000007:vocab-004",
+        "word": "cousin",
+        "pronunciation": "/ˈkʌzən/",
+        "meaning": "uncle's or aunt's child",
+        "meaningKo": "사촌",
+        "partOfSpeech": "noun",
+        "examples": ["My cousin lives in New York.", "We have many cousins."],
+        "koreanTip": "영어에서는 남녀 구분 없이 모두 'cousin'이에요."
+      },
+      {
+        "id": "pack-000007:vocab-005",
+        "word": "married",
+        "pronunciation": "/ˈmærid/",
+        "meaning": "having a husband or wife",
+        "meaningKo": "결혼한",
+        "partOfSpeech": "adjective",
+        "examples": ["Are you married?", "My sister got married last year."],
+        "koreanTip": "'get married'는 결혼하다, 'be married'는 결혼한 상태예요."
+      }
+    ],
+    "collocations": ["only child", "best friend", "family reunion", "close friend"]
+  },
+
+  "reading": {
+    "id": "pack-000007:reading-001",
+    "passage": "My name is Minho. I have a big family. My parents live with my grandmother. I have one older brother and two younger sisters. My brother is married and has two children. They are my niece and nephew. I also have many cousins. We have a family reunion every New Year.",
+    "questions": [
+      {
+        "id": "pack-000007:reading-q-001",
+        "type": "multiple_choice",
+        "question": "How many siblings does Minho have?",
+        "options": ["One", "Two", "Three", "Four"],
+        "correctAnswer": "Three"
+      },
+      {
+        "id": "pack-000007:reading-q-002",
+        "type": "true_false",
+        "question": "Minho's brother is single.",
+        "correctAnswer": "false",
+        "explanation": "The text says 'My brother is married'."
+      },
+      {
+        "id": "pack-000007:reading-q-003",
+        "type": "multiple_choice",
+        "question": "Who lives with Minho's parents?",
+        "options": ["His brother", "His sister", "His grandmother", "His cousins"],
+        "correctAnswer": "His grandmother"
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000007:listening-001",
+    "script": "A: Do you have any brothers or sisters?\nB: Yes, I have one younger sister. Her name is Sujin.\nA: What does she do?\nB: She's a university student. She's studying art.\nA: That's nice! Do you live together?\nB: No, she lives with our parents. I live alone.",
+    "exercises": [
+      {
+        "id": "pack-000007:listening-ex-001",
+        "type": "multiple_choice",
+        "question": "Who is Sujin?",
+        "options": ["Older sister", "Younger sister", "Friend", "Cousin"],
+        "correctAnswer": "Younger sister"
+      },
+      {
+        "id": "pack-000007:listening-ex-002",
+        "type": "multiple_choice",
+        "question": "Where does Sujin live?",
+        "options": ["Alone", "With the speaker", "With parents", "At university"],
+        "correctAnswer": "With parents"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000007:writing-template-001",
+      "instruction": "Complete the sentences about family.",
+      "template": "I have ___ siblings. ___ older brother is ___. ___ parents are very kind.",
+      "slots": ["two", "My", "28 years old", "My"],
+      "hints": ["number", "possessive", "age/job", "possessive"]
+    },
+    "free": {
+      "id": "pack-000007:writing-free-001",
+      "prompt": "Describe your family. How many people are in your family? What do they do?",
+      "checklist": ["family members", "possessive adjectives", "jobs or activities"],
+      "minWords": 40
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000007:speaking-shadow-001",
+      "sentences": [
+        { "text": "Do you have any siblings?", "pronunciation": "duː juː hæv ˈeni ˈsɪblɪŋz" },
+        { "text": "My parents live in Busan.", "pronunciation": "maɪ ˈperənts lɪv ɪn busan" },
+        { "text": "Her brother is a teacher.", "pronunciation": "hɜːr ˈbrʌðər ɪz ə ˈtiːtʃər" }
+      ]
+    },
+    "roleplay": {
+      "id": "pack-000007:speaking-roleplay-001",
+      "scenario": "You meet a new friend. Talk about your families with each other.",
+      "yourRole": "Student A",
+      "partnerRole": "Student B",
+      "starterPhrases": ["Do you have any...?", "My family is...", "My (relative) works as..."]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000007:error-001",
+      "wrong": "I brother is tall.",
+      "correct": "My brother is tall.",
+      "explanation": "명사 앞에서는 주격 'I'가 아니라 소유격 'my'를 써야 해요."
+    },
+    {
+      "id": "pack-000007:error-002",
+      "wrong": "She is older than me 3 years.",
+      "correct": "She is 3 years older than me.",
+      "explanation": "영어에서는 숫자가 비교급 앞에 옵니다."
+    },
+    {
+      "id": "pack-000007:error-003",
+      "wrong": "My family is 4 people.",
+      "correct": "There are 4 people in my family.",
+      "explanation": "가족 구성원 수를 말할 때는 'There are... in my family'가 자연스러워요."
+    }
+  ]
+}

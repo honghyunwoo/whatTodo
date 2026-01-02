@@ -1,0 +1,227 @@
+{
+  "id": "pack-000008",
+  "level": "A1",
+  "topic": "Transportation",
+  "canDo": "I can ask for and give directions using public transportation.",
+  "functionId": "directions",
+  "difficulty": 3,
+  "skills": ["grammar", "vocab", "listening"],
+  "estimatedMinutes": 18,
+  "tags": ["transportation", "commute", "subway", "bus", "directions", "travel"],
+
+  "grammar": {
+    "point": "Imperative sentences and 'can' for ability/permission",
+    "rules": [
+      {
+        "id": "pack-000008:grammar-rule-001",
+        "title": "Giving Directions with Imperatives",
+        "explanation": "Use the base form of verbs to give directions: Go, Turn, Take, Get off.",
+        "examples": ["Go straight.", "Turn left at the corner.", "Take the bus number 7."],
+        "koreanTip": "명령문은 주어 없이 동사원형으로 시작해요. 'You go'가 아니라 'Go'만 써요."
+      },
+      {
+        "id": "pack-000008:grammar-rule-002",
+        "title": "Can for Transportation",
+        "explanation": "Use 'can' to talk about what transportation is possible or allowed.",
+        "examples": ["You can take the subway.", "Can I get a transfer?", "You can't park here."],
+        "koreanTip": "'can'은 '~할 수 있다' 또는 '~해도 된다'의 의미로 쓰여요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000008:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "___ left at the traffic light.",
+        "options": ["Turn", "Turning", "To turn", "Turned"],
+        "correctAnswer": "Turn",
+        "explanation": "Imperatives use the base form of the verb.",
+        "koreanTip": "명령문은 동사원형으로 시작합니다."
+      },
+      {
+        "id": "pack-000008:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "You ___ take the number 5 bus to get there.",
+        "options": ["can", "to can", "cans", "canning"],
+        "correctAnswer": "can",
+        "explanation": "'Can' never changes form.",
+        "koreanTip": "'can'은 주어에 상관없이 형태가 변하지 않아요."
+      },
+      {
+        "id": "pack-000008:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "___ off at the next stop.",
+        "options": ["Get", "Gets", "Getting", "To get"],
+        "correctAnswer": "Get",
+        "explanation": "Use base form for imperatives."
+      },
+      {
+        "id": "pack-000008:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which is a correct imperative?",
+        "options": ["You go straight.", "Go straight.", "Going straight.", "Goes straight."],
+        "correctAnswer": "Go straight.",
+        "explanation": "Imperatives don't need a subject."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000008:vocab-001",
+        "word": "subway",
+        "pronunciation": "/ˈsʌbweɪ/",
+        "meaning": "underground train",
+        "meaningKo": "지하철",
+        "partOfSpeech": "noun",
+        "examples": ["Take the subway to work.", "The subway is very fast."],
+        "koreanTip": "영국에서는 'underground' 또는 'tube'라고 해요."
+      },
+      {
+        "id": "pack-000008:vocab-002",
+        "word": "station",
+        "pronunciation": "/ˈsteɪʃən/",
+        "meaning": "place to get on trains/buses",
+        "meaningKo": "역, 정류장",
+        "partOfSpeech": "noun",
+        "examples": ["Where is the nearest station?", "Get off at Seoul Station."],
+        "koreanTip": "기차역은 'train station', 버스정류장은 'bus stop'이에요."
+      },
+      {
+        "id": "pack-000008:vocab-003",
+        "word": "transfer",
+        "pronunciation": "/ˈtrænsfɜːr/",
+        "meaning": "change to another line/bus",
+        "meaningKo": "환승",
+        "partOfSpeech": "noun/verb",
+        "examples": ["Transfer at Line 2.", "I need to transfer here."],
+        "koreanTip": "명사로도 동사로도 쓰여요."
+      },
+      {
+        "id": "pack-000008:vocab-004",
+        "word": "direction",
+        "pronunciation": "/dɪˈrekʃən/",
+        "meaning": "way to go",
+        "meaningKo": "방향",
+        "partOfSpeech": "noun",
+        "examples": ["Which direction is the station?", "Go in that direction."],
+        "koreanTip": "복수형 'directions'는 '길 안내'라는 뜻도 있어요."
+      },
+      {
+        "id": "pack-000008:vocab-005",
+        "word": "fare",
+        "pronunciation": "/fer/",
+        "meaning": "transportation fee",
+        "meaningKo": "요금",
+        "partOfSpeech": "noun",
+        "examples": ["How much is the fare?", "The bus fare is $2."],
+        "koreanTip": "교통 요금에만 쓰이는 단어예요. 일반 가격은 'price'예요."
+      }
+    ],
+    "collocations": ["get on the bus", "get off the train", "change lines", "next stop"]
+  },
+
+  "reading": {
+    "id": "pack-000008:reading-001",
+    "passage": "To get to Seoul Tower from Myeongdong, you can take the subway. First, go to Myeongdong Station. Take Line 4 and transfer at Chungmuro Station to Line 3. Get off at Dongguk University Station. From there, you can take a cable car or walk up the mountain. The subway fare is about 1,500 won.",
+    "questions": [
+      {
+        "id": "pack-000008:reading-q-001",
+        "type": "multiple_choice",
+        "question": "Where do you transfer?",
+        "options": ["Myeongdong Station", "Chungmuro Station", "Dongguk University Station", "Seoul Station"],
+        "correctAnswer": "Chungmuro Station"
+      },
+      {
+        "id": "pack-000008:reading-q-002",
+        "type": "multiple_choice",
+        "question": "How much is the subway fare?",
+        "options": ["About 1,000 won", "About 1,500 won", "About 2,000 won", "About 2,500 won"],
+        "correctAnswer": "About 1,500 won"
+      },
+      {
+        "id": "pack-000008:reading-q-003",
+        "type": "true_false",
+        "question": "You need to take two subway lines.",
+        "correctAnswer": "true",
+        "explanation": "You take Line 4 and then transfer to Line 3."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000008:listening-001",
+    "script": "A: Excuse me, how can I get to the museum?\nB: Go straight for two blocks. Then turn right.\nA: Turn right?\nB: Yes. The museum is next to the park. You can also take the bus. Number 12 stops right in front.\nA: How long does it take to walk?\nB: About 10 minutes.",
+    "exercises": [
+      {
+        "id": "pack-000008:listening-ex-001",
+        "type": "multiple_choice",
+        "question": "Where is the museum?",
+        "options": ["Next to the park", "In front of the bus stop", "Two blocks away", "At the corner"],
+        "correctAnswer": "Next to the park"
+      },
+      {
+        "id": "pack-000008:listening-ex-002",
+        "type": "multiple_choice",
+        "question": "How long does it take to walk?",
+        "options": ["2 minutes", "5 minutes", "10 minutes", "12 minutes"],
+        "correctAnswer": "10 minutes"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000008:writing-template-001",
+      "instruction": "Complete the directions to the library.",
+      "template": "___ straight for one block. Then ___ left. The library is ___ the corner.",
+      "slots": ["Go", "turn", "on"],
+      "hints": ["imperative verb", "direction", "preposition"]
+    },
+    "free": {
+      "id": "pack-000008:writing-free-001",
+      "prompt": "Write directions from your home to a nearby place (station, store, park).",
+      "checklist": ["imperatives (go, turn)", "landmarks", "distance or time"],
+      "minWords": 30
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000008:speaking-shadow-001",
+      "sentences": [
+        { "text": "How can I get to the station?", "pronunciation": "haʊ kæn aɪ ɡet tuː ðə ˈsteɪʃən" },
+        { "text": "Go straight and turn left.", "pronunciation": "ɡoʊ streɪt ænd tɜːrn left" },
+        { "text": "Get off at the next stop.", "pronunciation": "ɡet ɔːf æt ðə nekst stɑːp" }
+      ]
+    },
+    "roleplay": {
+      "id": "pack-000008:speaking-roleplay-001",
+      "scenario": "A tourist asks you for directions to a famous place. Help them.",
+      "yourRole": "Local person",
+      "partnerRole": "Tourist",
+      "starterPhrases": ["Go straight...", "Turn right/left at...", "Take the bus/subway..."]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000008:error-001",
+      "wrong": "Go to straight.",
+      "correct": "Go straight.",
+      "explanation": "'straight'는 부사이므로 'to'가 필요 없어요."
+    },
+    {
+      "id": "pack-000008:error-002",
+      "wrong": "Ride the subway.",
+      "correct": "Take the subway.",
+      "explanation": "대중교통을 이용할 때는 'take'를 쓰는 게 자연스러워요."
+    },
+    {
+      "id": "pack-000008:error-003",
+      "wrong": "I will get down at next station.",
+      "correct": "I will get off at the next station.",
+      "explanation": "교통수단에서 내릴 때는 'get off'를 씁니다. 'the'도 필요해요."
+    }
+  ]
+}

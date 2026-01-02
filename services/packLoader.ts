@@ -58,13 +58,19 @@ const packCache = new Map<string, ContentPack>();
 
 /**
  * 팩 모듈 매핑 (require 기반)
- * 빌드 시 scripts/generate-pack-modules.ts가 자동 생성
- * 현재는 빈 객체로 시작
+ * A1 레벨 10개 팩 완성
  */
 const PACK_MODULES: Record<string, () => ContentPack> = {
-  // 'pack-000001': () => require('@/data/packs/pack-000001.json'),
-  // 'pack-000002': () => require('@/data/packs/pack-000002.json'),
-  // ... 빌드 시 자동 생성
+  'pack-000001': () => require('@/data/packs/pack-000001.json'),
+  'pack-000002': () => require('@/data/packs/pack-000002.json'),
+  'pack-000003': () => require('@/data/packs/pack-000003.json'),
+  'pack-000004': () => require('@/data/packs/pack-000004.json'),
+  'pack-000005': () => require('@/data/packs/pack-000005.json'),
+  'pack-000006': () => require('@/data/packs/pack-000006.json'),
+  'pack-000007': () => require('@/data/packs/pack-000007.json'),
+  'pack-000008': () => require('@/data/packs/pack-000008.json'),
+  'pack-000009': () => require('@/data/packs/pack-000009.json'),
+  'pack-000010': () => require('@/data/packs/pack-000010.json'),
 };
 
 // ─────────────────────────────────────
