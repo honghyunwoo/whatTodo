@@ -1,0 +1,272 @@
+{
+  "id": "pack-000016",
+  "level": "A2",
+  "topic": "Shopping for Clothes",
+  "canDo": "I can shop for clothes and ask about sizes, colors, and prices.",
+  "functionId": "shopping",
+  "difficulty": 4,
+  "skills": ["vocab", "listening", "speaking", "reading"],
+  "estimatedMinutes": 18,
+  "tags": ["shopping", "clothes", "fashion", "retail"],
+
+  "grammar": {
+    "point": "Demonstratives (this/that/these/those), too/enough",
+    "rules": [
+      {
+        "id": "pack-000016:grammar-rule-001",
+        "title": "This/That/These/Those",
+        "explanation": "Use 'this/these' for things nearby, 'that/those' for things farther away. 'This/that' for singular, 'these/those' for plural.",
+        "examples": ["I like this shirt.", "Those shoes are expensive.", "Can I try these jeans?"],
+        "koreanTip": "가까이 있으면 this/these, 멀리 있으면 that/those. 단수면 this/that, 복수면 these/those."
+      },
+      {
+        "id": "pack-000016:grammar-rule-002",
+        "title": "Too + adjective (negative meaning)",
+        "explanation": "Use 'too' before an adjective to say something is more than wanted or needed.",
+        "examples": ["This dress is too expensive.", "These pants are too tight.", "The sleeves are too long."],
+        "koreanTip": "'too'는 '너무 ~해서 안 돼'라는 부정적 의미예요. 'very'와 다릅니다!"
+      },
+      {
+        "id": "pack-000016:grammar-rule-003",
+        "title": "Adjective + enough / not + adjective + enough",
+        "explanation": "Use 'enough' after an adjective to say something is sufficient or insufficient.",
+        "examples": ["This jacket is warm enough.", "This room isn't big enough.", "Are these shoes comfortable enough?"],
+        "koreanTip": "'enough'는 형용사 뒤에 와요! 'enough big' (X) -> 'big enough' (O)"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000016:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "___ shoes over there are very nice.",
+        "options": ["This", "That", "These", "Those"],
+        "correctAnswer": "Those",
+        "explanation": "'Shoes' is plural and 'over there' indicates distance, so use 'those'.",
+        "koreanTip": "'over there'는 멀리 있다는 뜻이고, shoes는 복수라서 'those'를 써요."
+      },
+      {
+        "id": "pack-000016:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "This shirt is too ___ for me. I need a bigger size.",
+        "options": ["big", "small", "enough", "much"],
+        "correctAnswer": "small",
+        "explanation": "If you need a bigger size, the current one is too small.",
+        "koreanTip": "더 큰 사이즈가 필요하다면 현재 것은 'too small'이에요."
+      },
+      {
+        "id": "pack-000016:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "The jacket isn't warm ___. I need something thicker.",
+        "options": ["too", "enough", "very", "much"],
+        "correctAnswer": "enough",
+        "explanation": "'Enough' comes after adjectives to mean 'sufficiently'.",
+        "koreanTip": "'충분히 따뜻하지 않다'는 'not warm enough'예요."
+      },
+      {
+        "id": "pack-000016:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which sentence is correct?",
+        "options": ["This pants are nice.", "These pant is nice.", "These pants are nice.", "That pants are nice."],
+        "correctAnswer": "These pants are nice.",
+        "explanation": "'Pants' is always plural in English, so use 'these'."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000016:vocab-001",
+        "word": "fitting room",
+        "pronunciation": "/ˈfɪtɪŋ ruːm/",
+        "meaning": "a room to try on clothes",
+        "meaningKo": "탈의실",
+        "partOfSpeech": "noun",
+        "examples": ["Where is the fitting room?", "The fitting rooms are at the back."],
+        "koreanTip": "영국에서는 'changing room'이라고도 해요"
+      },
+      {
+        "id": "pack-000016:vocab-002",
+        "word": "size",
+        "pronunciation": "/saɪz/",
+        "meaning": "how big or small something is",
+        "meaningKo": "사이즈, 크기",
+        "partOfSpeech": "noun",
+        "examples": ["What size do you wear?", "Do you have this in a medium size?"],
+        "koreanTip": "옷 사이즈: S(small), M(medium), L(large), XL(extra large)"
+      },
+      {
+        "id": "pack-000016:vocab-003",
+        "word": "fit",
+        "pronunciation": "/fɪt/",
+        "meaning": "to be the right size",
+        "meaningKo": "맞다 (사이즈가)",
+        "partOfSpeech": "verb",
+        "examples": ["Does it fit?", "This jacket fits perfectly.", "These shoes don't fit me."],
+        "koreanTip": "'fit'은 사이즈가 맞는지를 표현해요"
+      },
+      {
+        "id": "pack-000016:vocab-004",
+        "word": "discount",
+        "pronunciation": "/ˈdɪskaʊnt/",
+        "meaning": "a reduction in price",
+        "meaningKo": "할인",
+        "partOfSpeech": "noun",
+        "examples": ["Is there a discount?", "This item is 30% off."],
+        "koreanTip": "'30% off'는 30% 할인이라는 뜻이에요"
+      },
+      {
+        "id": "pack-000016:vocab-005",
+        "word": "receipt",
+        "pronunciation": "/rɪˈsiːt/",
+        "meaning": "a paper showing what you bought",
+        "meaningKo": "영수증",
+        "partOfSpeech": "noun",
+        "examples": ["Do you want the receipt?", "Keep the receipt in case you need to return it."],
+        "koreanTip": "'p'는 묵음이에요! '리시트'가 아니라 '리싯'처럼 발음해요."
+      }
+    ],
+    "collocations": ["try on", "look for", "on sale", "in stock", "sold out"]
+  },
+
+  "reading": {
+    "id": "pack-000016:reading",
+    "title": "A Shopping Trip",
+    "passage": "Yesterday, I went shopping at the mall with my friend. I was looking for a new winter jacket. We went to three different stores. The first store had nice jackets, but they were too expensive. In the second store, I found a blue jacket that I really liked. I asked the sales assistant if they had it in a medium size. Unfortunately, it was sold out. Finally, in the third store, I found the perfect jacket. It was warm enough for winter and the price was reasonable. It was also 20% off! I tried it on in the fitting room, and it fit perfectly. I paid by credit card and kept the receipt.",
+    "wordCount": 115,
+    "questions": [
+      {
+        "id": "pack-000016:reading-q-001",
+        "type": "comprehension",
+        "question": "Why didn't the speaker buy a jacket at the first store?",
+        "options": ["They didn't have the right size", "The jackets were too expensive", "The jackets weren't warm", "The store was closed"],
+        "correctAnswer": "The jackets were too expensive",
+        "explanation": "The passage says 'The first store had nice jackets, but they were too expensive.'"
+      },
+      {
+        "id": "pack-000016:reading-q-002",
+        "type": "comprehension",
+        "question": "What happened at the second store?",
+        "options": ["The jacket didn't fit", "The jacket was too expensive", "The medium size was sold out", "They didn't like the color"],
+        "correctAnswer": "The medium size was sold out",
+        "explanation": "The passage says the medium size 'was sold out.'"
+      },
+      {
+        "id": "pack-000016:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does '20% off' mean?",
+        "options": ["The jacket costs 20%", "The jacket has a 20% discount", "There are 20 jackets left", "The jacket has 20 colors"],
+        "correctAnswer": "The jacket has a 20% discount",
+        "explanation": "'20% off' means there is a 20% reduction in price."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000016:listening",
+    "title": "At the Clothing Store",
+    "script": "Can I help you? Yes, I'm looking for a dress for a wedding. What size are you looking for? I usually wear a medium. Here are some nice options. Would you like to try them on? Yes, please. Where's the fitting room? It's right over there, on the left. This one doesn't fit. It's too tight. How about this blue one? Let me try it. Oh, this one fits perfectly! How much is it? It's 120 dollars, but it's on sale for 20% off. So it's 96 dollars. Great, I'll take it!",
+    "audioUrl": null,
+    "duration": 45,
+    "exercises": [
+      {
+        "id": "pack-000016:listening-ex-001",
+        "type": "comprehension",
+        "question": "What is the customer looking for?",
+        "options": ["A jacket", "A dress for a wedding", "Shoes", "A skirt"],
+        "correctAnswer": "A dress for a wedding",
+        "explanation": "The customer says 'I'm looking for a dress for a wedding.'"
+      },
+      {
+        "id": "pack-000016:listening-ex-002",
+        "type": "fill_blank",
+        "question": "The final price is ___ dollars.",
+        "options": ["120", "96", "100", "80"],
+        "correctAnswer": "96",
+        "explanation": "The original price is $120 with 20% off, making it $96."
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000016:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Write a shopping dialogue using the template.",
+      "template": "Customer: Hi, I'm looking for [ITEM].\nAssistant: What size do you need?\nCustomer: I wear [SIZE].\nAssistant: Here are some options. Would you like to try them on?\nCustomer: Yes, please. [FITTING RESULT]\nAssistant: How about this one?\nCustomer: [RESPONSE]. I'll take it!",
+      "slots": [
+        { "name": "ITEM", "hint": "clothing item" },
+        { "name": "SIZE", "hint": "small/medium/large" },
+        { "name": "FITTING RESULT", "hint": "too big/too small/fits well" },
+        { "name": "RESPONSE", "hint": "positive comment" }
+      ],
+      "correctExample": "Customer: Hi, I'm looking for a winter coat.\nAssistant: What size do you need?\nCustomer: I wear a medium.\nAssistant: Here are some options. Would you like to try them on?\nCustomer: Yes, please. This one is too small.\nAssistant: How about this one?\nCustomer: This fits perfectly! I'll take it!"
+    },
+    "free": {
+      "id": "pack-000016:writing-free",
+      "topic": "My Last Shopping Experience",
+      "prompt": "Write about a time you went shopping for clothes. What did you buy? Did you try it on? Was it on sale?",
+      "minWords": 50,
+      "maxWords": 100,
+      "checklist": [
+        { "item": "Use demonstratives (this/that/these/those)", "required": true },
+        { "item": "Use 'too' or 'enough' at least once", "required": true },
+        { "item": "Describe what you bought", "required": true },
+        { "item": "Mention the price or a sale", "required": false }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000016:speaking-shadow",
+      "sentence": "Excuse me, could I try this on? Where is the fitting room? And do you have this in a smaller size?",
+      "pronunciation": "/ɪkˈskjuːs miː kʊd aɪ traɪ ðɪs ɑːn wer ɪz ðə ˈfɪtɪŋ ruːm ænd duː juː hæv ðɪs ɪn ə ˈsmɔːlər saɪz/",
+      "audioUrl": null,
+      "koreanTip": "'try on'은 '입어보다'라는 뜻이에요. 두 단어를 붙여서 자연스럽게 발음하세요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000016:speaking-roleplay",
+      "scenario": "You are shopping for clothes at a store.",
+      "role": "Customer",
+      "partnerRole": "Sales assistant",
+      "prompts": [
+        { "speaker": "partner", "text": "Hi, can I help you?" },
+        { "speaker": "user", "text": "Yes, I'm looking for ___.", "hint": "Name an item" },
+        { "speaker": "partner", "text": "What size do you need?" },
+        { "speaker": "user", "text": "I usually wear ___.", "hint": "State your size" },
+        { "speaker": "partner", "text": "Here are some options. Would you like to try them on?" },
+        { "speaker": "user", "text": "Yes, please. This one is ___.", "hint": "too big/fits well/etc." }
+      ],
+      "checklistItems": ["Use 'I'm looking for'", "State your size", "Use 'too' or 'enough' to describe fit"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000016:korean-error-001",
+      "category": "grammar",
+      "errorExample": "This pants is nice.",
+      "correctForm": "These pants are nice.",
+      "explanation": "'Pants' is always plural in English, so use 'these' and 'are'.",
+      "tip": "영어에서 'pants'는 항상 복수예요. 'jeans', 'shorts', 'glasses'도 마찬가지예요."
+    },
+    {
+      "id": "pack-000016:korean-error-002",
+      "category": "grammar",
+      "errorExample": "It's enough big.",
+      "correctForm": "It's big enough.",
+      "explanation": "'Enough' comes after adjectives.",
+      "tip": "'enough'는 형용사 뒤에 와요. 'enough big'이 아니라 'big enough'예요."
+    },
+    {
+      "id": "pack-000016:korean-error-003",
+      "category": "pronunciation",
+      "errorExample": "receipt = 리시프트",
+      "correctForm": "/rɪˈsiːt/ (리싯)",
+      "explanation": "The 'p' in 'receipt' is silent.",
+      "tip": "'receipt'의 'p'는 묵음이에요. '리싯'처럼 발음하세요."
+    }
+  ]
+}

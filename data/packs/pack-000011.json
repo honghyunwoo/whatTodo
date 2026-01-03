@@ -1,0 +1,275 @@
+{
+  "id": "pack-000011",
+  "level": "A2",
+  "topic": "Past Tense Stories",
+  "canDo": "I can talk about past events and tell simple stories.",
+  "functionId": "narration",
+  "difficulty": 4,
+  "skills": ["grammar", "vocab", "reading", "writing"],
+  "estimatedMinutes": 20,
+  "tags": ["past_tense", "stories", "narration", "events"],
+
+  "grammar": {
+    "point": "Simple Past Tense (regular and irregular verbs)",
+    "rules": [
+      {
+        "id": "pack-000011:grammar-rule-001",
+        "title": "Regular verbs: add -ed",
+        "explanation": "For regular verbs, add -ed to the base form: walk -> walked, play -> played, watch -> watched.",
+        "examples": ["I walked to school yesterday.", "She played tennis last week.", "We watched a movie last night."],
+        "koreanTip": "규칙 동사는 -ed만 붙이면 되지만, 발음이 /t/, /d/, /id/로 달라져요. 'walked'는 /t/, 'played'는 /d/, 'wanted'는 /id/로 발음해요."
+      },
+      {
+        "id": "pack-000011:grammar-rule-002",
+        "title": "Irregular verbs: memorize forms",
+        "explanation": "Irregular verbs have special past forms: go -> went, eat -> ate, see -> saw, have -> had.",
+        "examples": ["I went to the park.", "She ate lunch at noon.", "They saw a beautiful sunset."],
+        "koreanTip": "불규칙 동사는 외워야 해요! go-went, eat-ate, see-saw, have-had, take-took, make-made 등을 꼭 기억하세요."
+      },
+      {
+        "id": "pack-000011:grammar-rule-003",
+        "title": "Negative and questions with did",
+        "explanation": "Use 'did not (didn't)' for negatives and 'Did...?' for questions. The main verb returns to base form.",
+        "examples": ["I didn't go to work yesterday.", "Did you eat breakfast?", "She didn't see the movie."],
+        "koreanTip": "부정문과 의문문에서는 'did'를 쓰고, 동사는 원형으로 돌아가요! 'Did you went?' (X) -> 'Did you go?' (O)"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000011:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "I ___ (go) to the beach last summer.",
+        "options": ["go", "went", "going", "goes"],
+        "correctAnswer": "went",
+        "explanation": "'Go' is an irregular verb. The past form is 'went'.",
+        "koreanTip": "'go'의 과거형은 'went'입니다. 'goed'가 아니에요!"
+      },
+      {
+        "id": "pack-000011:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "She ___ (watch) TV for two hours yesterday.",
+        "options": ["watch", "watched", "watching", "watches"],
+        "correctAnswer": "watched",
+        "explanation": "'Watch' is a regular verb. Add -ed to make it past tense.",
+        "koreanTip": "'watch'는 규칙 동사라서 -ed를 붙여 'watched'가 됩니다."
+      },
+      {
+        "id": "pack-000011:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "They ___ (not/eat) dinner at home last night.",
+        "options": ["not ate", "didn't ate", "didn't eat", "not eat"],
+        "correctAnswer": "didn't eat",
+        "explanation": "Use 'didn't' + base form for past negative.",
+        "koreanTip": "과거 부정문은 'didn't + 동사원형'이에요. 'didn't ate'는 틀린 표현이에요."
+      },
+      {
+        "id": "pack-000011:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which sentence is correct?",
+        "options": ["Did you saw the movie?", "Did you see the movie?", "Do you saw the movie?", "You did see the movie?"],
+        "correctAnswer": "Did you see the movie?",
+        "explanation": "Questions use 'Did + subject + base form'."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000011:vocab-001",
+        "word": "yesterday",
+        "pronunciation": "/ˈjestərdeɪ/",
+        "meaning": "the day before today",
+        "meaningKo": "어제",
+        "partOfSpeech": "adverb",
+        "examples": ["I met him yesterday.", "Yesterday was sunny."],
+        "koreanTip": "과거 시제와 함께 자주 쓰이는 시간 표현"
+      },
+      {
+        "id": "pack-000011:vocab-002",
+        "word": "last week",
+        "pronunciation": "/læst wiːk/",
+        "meaning": "the week before this one",
+        "meaningKo": "지난주",
+        "partOfSpeech": "noun phrase",
+        "examples": ["I visited my grandmother last week.", "Last week was very busy."],
+        "koreanTip": "last + 시간 표현으로 '지난 ~'을 나타내요 (last month, last year)"
+      },
+      {
+        "id": "pack-000011:vocab-003",
+        "word": "ago",
+        "pronunciation": "/əˈɡoʊ/",
+        "meaning": "in the past",
+        "meaningKo": "~ 전에",
+        "partOfSpeech": "adverb",
+        "examples": ["I moved here two years ago.", "She called me an hour ago."],
+        "koreanTip": "'시간 + ago'로 '~ 전에'를 표현해요. 문장 끝에 위치해요."
+      },
+      {
+        "id": "pack-000011:vocab-004",
+        "word": "suddenly",
+        "pronunciation": "/ˈsʌdənli/",
+        "meaning": "quickly and unexpectedly",
+        "meaningKo": "갑자기",
+        "partOfSpeech": "adverb",
+        "examples": ["Suddenly, it started to rain.", "The car suddenly stopped."],
+        "koreanTip": "이야기에서 긴장감을 더할 때 자주 사용해요"
+      },
+      {
+        "id": "pack-000011:vocab-005",
+        "word": "finally",
+        "pronunciation": "/ˈfaɪnəli/",
+        "meaning": "at the end, after a long time",
+        "meaningKo": "마침내, 드디어",
+        "partOfSpeech": "adverb",
+        "examples": ["I finally finished my homework.", "We finally arrived at the hotel."],
+        "koreanTip": "이야기의 결말이나 오래 기다린 결과를 말할 때 써요"
+      }
+    ],
+    "collocations": ["last night", "two days ago", "in the past", "once upon a time", "at that moment"]
+  },
+
+  "reading": {
+    "id": "pack-000011:reading",
+    "title": "My Trip to Jeju Island",
+    "passage": "Last summer, I went to Jeju Island with my family. We stayed at a hotel near the beach for five days. On the first day, we visited Seongsan Ilchulbong. The view was amazing! We took many photos. On the second day, we swam in the sea. The water was cold but refreshing. We also ate delicious seafood for dinner. On the last day, it suddenly started to rain. We couldn't go outside, so we stayed at the hotel and played board games. Finally, we came back home. It was a wonderful trip, and I want to go again next year.",
+    "wordCount": 100,
+    "questions": [
+      {
+        "id": "pack-000011:reading-q-001",
+        "type": "comprehension",
+        "question": "How long did they stay at the hotel?",
+        "options": ["Three days", "Four days", "Five days", "A week"],
+        "correctAnswer": "Five days",
+        "explanation": "The passage says 'We stayed at a hotel near the beach for five days.'"
+      },
+      {
+        "id": "pack-000011:reading-q-002",
+        "type": "comprehension",
+        "question": "What did they do when it rained on the last day?",
+        "options": ["They went swimming", "They visited a mountain", "They stayed at the hotel and played board games", "They went shopping"],
+        "correctAnswer": "They stayed at the hotel and played board games",
+        "explanation": "The passage says 'we stayed at the hotel and played board games.'"
+      },
+      {
+        "id": "pack-000011:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'refreshing' mean in this passage?",
+        "options": ["Very hot", "Making you feel fresh and energetic", "Dangerous", "Boring"],
+        "correctAnswer": "Making you feel fresh and energetic",
+        "explanation": "'Refreshing' means something that makes you feel fresh and full of energy."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000011:listening",
+    "title": "A Memorable Day",
+    "script": "Let me tell you about my most memorable day. It was my birthday last year. I woke up early in the morning. My family surprised me with a beautiful cake. We ate breakfast together and then went to an amusement park. I rode many exciting rides. In the evening, my friends came to my house. We had a party and danced until midnight. It was the best birthday ever!",
+    "audioUrl": null,
+    "duration": 35,
+    "exercises": [
+      {
+        "id": "pack-000011:listening-ex-001",
+        "type": "comprehension",
+        "question": "What did the speaker's family surprise them with?",
+        "options": ["A present", "A cake", "A trip", "A car"],
+        "correctAnswer": "A cake",
+        "explanation": "The speaker says 'My family surprised me with a beautiful cake.'"
+      },
+      {
+        "id": "pack-000011:listening-ex-002",
+        "type": "fill_blank",
+        "question": "They danced until ___.",
+        "options": ["morning", "evening", "midnight", "afternoon"],
+        "correctAnswer": "midnight",
+        "explanation": "The speaker says 'We had a party and danced until midnight.'"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000011:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Write about your last vacation using the template.",
+      "template": "Last [TIME], I went to [PLACE]. I stayed there for [DURATION]. First, I [ACTIVITY1]. Then, I [ACTIVITY2]. Finally, I [ACTIVITY3]. It was a [ADJECTIVE] experience!",
+      "slots": [
+        { "name": "TIME", "hint": "summer/winter/month", "options": ["summer", "winter", "weekend", "holiday"] },
+        { "name": "PLACE", "hint": "Where did you go?" },
+        { "name": "DURATION", "hint": "How long?" },
+        { "name": "ACTIVITY1", "hint": "First activity (past tense)" },
+        { "name": "ACTIVITY2", "hint": "Second activity (past tense)" },
+        { "name": "ACTIVITY3", "hint": "Last activity (past tense)" },
+        { "name": "ADJECTIVE", "hint": "wonderful/great/amazing" }
+      ],
+      "correctExample": "Last summer, I went to Busan. I stayed there for three days. First, I swam in the sea. Then, I ate delicious seafood. Finally, I visited Haeundae Beach. It was a wonderful experience!"
+    },
+    "free": {
+      "id": "pack-000011:writing-free",
+      "topic": "Tell a Story About Your Weekend",
+      "prompt": "Write about what you did last weekend. Include at least 5 past tense verbs and use time expressions like 'first', 'then', 'finally'.",
+      "minWords": 50,
+      "maxWords": 100,
+      "checklist": [
+        { "item": "Use at least 5 past tense verbs", "required": true },
+        { "item": "Include time expressions (first, then, finally)", "required": true },
+        { "item": "Describe where you went", "required": true },
+        { "item": "Describe how you felt", "required": false }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000011:speaking-shadow",
+      "sentence": "Last weekend, I went to the movies with my friends. We watched an action movie and ate popcorn.",
+      "pronunciation": "/læst ˈwiːkend aɪ went tuː ðə ˈmuːviz wɪð maɪ frendz wiː wɑːtʃt ən ˈækʃən ˈmuːvi ænd et ˈpɑːpkɔːrn/",
+      "audioUrl": null,
+      "koreanTip": "'watched'의 -ed는 /t/ 발음이에요. 'watch-t'처럼 짧게 발음하세요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000011:speaking-roleplay",
+      "scenario": "You are telling a friend about your vacation.",
+      "role": "Traveler",
+      "partnerRole": "Friend",
+      "prompts": [
+        { "speaker": "partner", "text": "Hey! How was your vacation?" },
+        { "speaker": "user", "text": "It was great! I went to ___.", "hint": "Name a place" },
+        { "speaker": "partner", "text": "Nice! What did you do there?" },
+        { "speaker": "user", "text": "I ___ and ___.", "hint": "Two activities in past tense" },
+        { "speaker": "partner", "text": "That sounds fun! Did you eat anything special?" },
+        { "speaker": "user", "text": "Yes, I ate ___. It was delicious!", "hint": "Describe food" }
+      ],
+      "checklistItems": ["Use past tense correctly", "Mention activities you did", "Describe your experience positively"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000011:korean-error-001",
+      "category": "grammar",
+      "errorExample": "I goed to the store.",
+      "correctForm": "I went to the store.",
+      "explanation": "'Go' is an irregular verb. The past tense is 'went', not 'goed'.",
+      "tip": "'go'는 불규칙 동사예요. 'goed'가 아니라 'went'입니다. 불규칙 동사 목록을 외워두세요!"
+    },
+    {
+      "id": "pack-000011:korean-error-002",
+      "category": "grammar",
+      "errorExample": "Did you went to school?",
+      "correctForm": "Did you go to school?",
+      "explanation": "After 'did', use the base form of the verb, not the past tense.",
+      "tip": "'Did' 뒤에는 항상 동사 원형이 와요. 'Did you went?'가 아니라 'Did you go?'입니다."
+    },
+    {
+      "id": "pack-000011:korean-error-003",
+      "category": "usage",
+      "errorExample": "Yesterday I meet my friend.",
+      "correctForm": "Yesterday I met my friend.",
+      "explanation": "When talking about past events, use past tense verbs.",
+      "tip": "'yesterday'처럼 과거를 나타내는 말이 있으면 동사도 과거형으로 바꿔야 해요!"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "id": "pack-000028",
+  "level": "B1",
+  "topic": "Technology and Social Media",
+  "canDo": "I can discuss the advantages and disadvantages of technology and social media.",
+  "functionId": "discussion",
+  "difficulty": 6,
+  "skills": ["vocab", "reading", "speaking", "writing"],
+  "estimatedMinutes": 25,
+  "tags": ["technology", "social_media", "digital", "modern_life"],
+
+  "grammar": {
+    "point": "Advantages/disadvantages language, hedging language for balanced opinions",
+    "rules": [
+      {
+        "id": "pack-000028:grammar-rule-001",
+        "title": "Expressing advantages and disadvantages",
+        "explanation": "Use structures like 'One advantage is that...', 'A disadvantage of X is...', 'On the other hand...'",
+        "examples": ["One advantage of social media is that it connects people worldwide.", "A disadvantage of smartphones is that they can be addictive.", "On the other hand, technology makes life more convenient."],
+        "koreanTip": "장단점을 말할 때 구조화된 표현을 써요. 'One advantage is...', 'A disadvantage is...' 등"
+      },
+      {
+        "id": "pack-000028:grammar-rule-002",
+        "title": "Hedging for balanced opinions",
+        "explanation": "Use 'tend to', 'can', 'may', 'sometimes' to avoid sounding too absolute.",
+        "examples": ["Social media can sometimes cause problems.", "People tend to spend too much time online.", "This may lead to communication issues."],
+        "koreanTip": "'can', 'may', 'tend to'를 쓰면 '항상 그렇다'가 아니라 '그럴 수 있다'는 뉘앙스가 돼요."
+      },
+      {
+        "id": "pack-000028:grammar-rule-003",
+        "title": "Concession with although/however",
+        "explanation": "Use these to acknowledge opposite views while making your point.",
+        "examples": ["Although social media has benefits, it can also be harmful.", "Technology is useful. However, we shouldn't depend on it too much."],
+        "koreanTip": "'although'와 'however'로 반대 의견을 인정하면서 자신의 주장을 할 수 있어요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000028:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "___ of smartphones is that they allow us to stay connected.",
+        "options": ["One advantage", "One disadvantage", "The problem", "Although"],
+        "correctAnswer": "One advantage",
+        "explanation": "This structure introduces a positive point about smartphones.",
+        "koreanTip": "연결성은 스마트폰의 장점이므로 'One advantage'를 써요."
+      },
+      {
+        "id": "pack-000028:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "Social media ___ cause anxiety in some people.",
+        "options": ["always", "can", "must", "definitely"],
+        "correctAnswer": "can",
+        "explanation": "'Can' hedges the statement, meaning it's possible but not always true.",
+        "koreanTip": "항상 그런 것은 아니므로 'can'을 써서 '~할 수 있다'로 표현해요."
+      },
+      {
+        "id": "pack-000028:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "___ technology makes life easier, it can also create new problems.",
+        "options": ["Because", "Although", "So", "Unless"],
+        "correctAnswer": "Although",
+        "explanation": "'Although' introduces a contrast between two ideas.",
+        "koreanTip": "'Although'는 '비록 ~이지만'으로 대조되는 두 아이디어를 연결해요."
+      },
+      {
+        "id": "pack-000028:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which sentence shows a balanced opinion?",
+        "options": ["Social media is always bad.", "I hate technology.", "Technology can be both useful and problematic.", "Everyone should delete social media."],
+        "correctAnswer": "Technology can be both useful and problematic.",
+        "explanation": "This acknowledges both positive and negative aspects."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000028:vocab-001",
+        "word": "addictive",
+        "pronunciation": "/əˈdɪktɪv/",
+        "meaning": "causing a strong desire to keep doing something",
+        "meaningKo": "중독성 있는",
+        "partOfSpeech": "adjective",
+        "examples": ["Social media can be addictive.", "Some games are designed to be addictive."],
+        "koreanTip": "'addict(중독자)'에서 나온 형용사. 계속 하고 싶어지게 만드는 것을 표현해요."
+      },
+      {
+        "id": "pack-000028:vocab-002",
+        "word": "privacy",
+        "pronunciation": "/ˈpraɪvəsi/",
+        "meaning": "the state of being free from public attention",
+        "meaningKo": "프라이버시, 개인정보",
+        "partOfSpeech": "noun",
+        "examples": ["Social media can threaten your privacy.", "Privacy concerns are growing."],
+        "koreanTip": "개인 정보 보호와 관련된 중요한 개념이에요"
+      },
+      {
+        "id": "pack-000028:vocab-003",
+        "word": "influence",
+        "pronunciation": "/ˈɪnfluəns/",
+        "meaning": "the power to affect people or things",
+        "meaningKo": "영향, 영향력",
+        "partOfSpeech": "noun/verb",
+        "examples": ["Social media has a huge influence on young people.", "Influencers can influence buying decisions."],
+        "koreanTip": "'influencer(인플루언서)'의 어원이 되는 단어예요"
+      },
+      {
+        "id": "pack-000028:vocab-004",
+        "word": "cyberbullying",
+        "pronunciation": "/ˈsaɪbərˌbʊliɪŋ/",
+        "meaning": "bullying that takes place online",
+        "meaningKo": "사이버 불링, 온라인 괴롭힘",
+        "partOfSpeech": "noun",
+        "examples": ["Cyberbullying is a serious problem.", "Many teens have experienced cyberbullying."],
+        "koreanTip": "'cyber(사이버)'와 'bullying(괴롭힘)'의 합성어예요"
+      },
+      {
+        "id": "pack-000028:vocab-005",
+        "word": "digital detox",
+        "pronunciation": "/ˈdɪdʒɪtl ˈdiːtɑːks/",
+        "meaning": "a period without using digital devices",
+        "meaningKo": "디지털 디톡스",
+        "partOfSpeech": "noun",
+        "examples": ["I'm doing a digital detox this weekend.", "A digital detox can improve mental health."],
+        "koreanTip": "디지털 기기 사용을 잠시 쉬는 것을 말해요"
+      }
+    ],
+    "collocations": ["go viral", "screen time", "online safety", "fake news", "digital native"]
+  },
+
+  "reading": {
+    "id": "pack-000028:reading",
+    "title": "The Double-Edged Sword of Social Media",
+    "passage": "Social media has transformed how we communicate, but is it all positive? One advantage of social media is that it allows us to connect with friends and family around the world. It also provides access to news and information instantly. However, there are significant disadvantages. A major concern is privacy. Many people share personal information without realizing the risks. Additionally, social media can be addictive. Studies show that excessive use may lead to anxiety and depression, especially among teenagers. Cyberbullying is another serious issue. Although platforms have tried to address this, it remains a problem. On the other hand, social media can be used positively for education and awareness campaigns. In my opinion, the key is moderation. We should enjoy the benefits of social media while being aware of its potential dangers.",
+    "wordCount": 140,
+    "questions": [
+      {
+        "id": "pack-000028:reading-q-001",
+        "type": "comprehension",
+        "question": "What is mentioned as an advantage of social media?",
+        "options": ["Making money", "Connecting with people worldwide", "Avoiding work", "Sleeping better"],
+        "correctAnswer": "Connecting with people worldwide",
+        "explanation": "The passage says 'it allows us to connect with friends and family around the world.'"
+      },
+      {
+        "id": "pack-000028:reading-q-002",
+        "type": "comprehension",
+        "question": "What may excessive social media use lead to?",
+        "options": ["Better sleep", "More friends", "Anxiety and depression", "Better grades"],
+        "correctAnswer": "Anxiety and depression",
+        "explanation": "The passage says 'excessive use may lead to anxiety and depression.'"
+      },
+      {
+        "id": "pack-000028:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'double-edged sword' mean?",
+        "options": ["A weapon", "Something very dangerous", "Something with both good and bad aspects", "A type of technology"],
+        "correctAnswer": "Something with both good and bad aspects",
+        "explanation": "'Double-edged sword' is an idiom meaning something that has both advantages and disadvantages."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000028:listening",
+    "title": "Discussing Screen Time",
+    "script": "How much time do you spend on your phone every day? Honestly, probably too much. Maybe 4 or 5 hours. Wow, that's a lot. What do you mainly use it for? Mostly social media and watching videos. I know it's not great, but it's hard to stop. I understand. One advantage is that it's entertaining, but a disadvantage is that it can waste a lot of time. True. I've been thinking about doing a digital detox. That's a good idea. Although it might be difficult at first, you'd probably feel better. I think so too. What about you? How do you manage your screen time? I try to set limits. I don't use my phone during meals, and I turn it off an hour before bed. That sounds healthy. Maybe I should try that.",
+    "audioUrl": null,
+    "duration": 55,
+    "exercises": [
+      {
+        "id": "pack-000028:listening-ex-001",
+        "type": "comprehension",
+        "question": "How much time does the first speaker spend on their phone?",
+        "options": ["1-2 hours", "2-3 hours", "4-5 hours", "6-7 hours"],
+        "correctAnswer": "4-5 hours",
+        "explanation": "The speaker says 'Maybe 4 or 5 hours.'"
+      },
+      {
+        "id": "pack-000028:listening-ex-002",
+        "type": "fill_blank",
+        "question": "The second speaker doesn't use their phone during ___ and before bed.",
+        "options": ["work", "meals", "exercise", "meetings"],
+        "correctAnswer": "meals",
+        "explanation": "The speaker says 'I don't use my phone during meals.'"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000028:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Write about advantages and disadvantages of technology.",
+      "template": "[TECHNOLOGY] has become an important part of modern life. One advantage is that [ADVANTAGE1]. Additionally, [ADVANTAGE2]. However, there are also disadvantages. A major concern is that [DISADVANTAGE1]. Furthermore, [TECHNOLOGY] can [DISADVANTAGE2]. Although [POSITIVE POINT], we should be aware of [NEGATIVE POINT]. In my opinion, [BALANCED CONCLUSION].",
+      "slots": [
+        { "name": "TECHNOLOGY", "hint": "Type of technology" },
+        { "name": "ADVANTAGE1", "hint": "First benefit" },
+        { "name": "ADVANTAGE2", "hint": "Second benefit" },
+        { "name": "DISADVANTAGE1", "hint": "First problem" },
+        { "name": "DISADVANTAGE2", "hint": "Second problem" },
+        { "name": "POSITIVE POINT", "hint": "Acknowledge good" },
+        { "name": "NEGATIVE POINT", "hint": "Acknowledge bad" },
+        { "name": "BALANCED CONCLUSION", "hint": "Your opinion" }
+      ],
+      "correctExample": "Smartphones have become an important part of modern life. One advantage is that they allow us to communicate instantly with anyone. Additionally, they provide access to unlimited information. However, there are also disadvantages. A major concern is that they can be very addictive. Furthermore, smartphones can reduce face-to-face social interaction. Although technology makes life more convenient, we should be aware of its impact on our mental health. In my opinion, we need to find a balance between using technology and living in the real world."
+    },
+    "free": {
+      "id": "pack-000028:writing-free",
+      "topic": "Social Media: Good or Bad?",
+      "prompt": "Write about whether you think social media is more beneficial or harmful. Give at least 2 advantages and 2 disadvantages, and state your balanced opinion.",
+      "minWords": 100,
+      "maxWords": 180,
+      "checklist": [
+        { "item": "Use 'One advantage/disadvantage is that...'", "required": true },
+        { "item": "Use hedging language (can, may, tend to)", "required": true },
+        { "item": "Use 'although' or 'however' for contrast", "required": true },
+        { "item": "Give a balanced opinion at the end", "required": true }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000028:speaking-shadow",
+      "sentence": "One advantage of social media is that it helps us stay connected with friends. However, it can also be addictive, so we need to use it in moderation.",
+      "pronunciation": "/wʌn ədˈvæntɪdʒ əv ˈsoʊʃəl ˈmiːdiə ɪz ðæt ɪt helps ʌs steɪ kəˈnektɪd wɪð frendz haʊˈevər ɪt kæn ˈɔːlsoʊ biː əˈdɪktɪv soʊ wiː niːd tuː juːz ɪt ɪn ˌmɑːdəˈreɪʃən/",
+      "audioUrl": null,
+      "koreanTip": "'advantage'의 강세는 두 번째 음절 'VAN'에 있어요. '애드밴티지'로 발음해요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000028:speaking-roleplay",
+      "scenario": "You are discussing social media with a classmate.",
+      "role": "Student",
+      "partnerRole": "Classmate",
+      "prompts": [
+        { "speaker": "partner", "text": "Do you think social media is good or bad?" },
+        { "speaker": "user", "text": "I think it has both advantages and disadvantages. One advantage is that ___.", "hint": "Give a benefit" },
+        { "speaker": "partner", "text": "What about the negatives?" },
+        { "speaker": "user", "text": "A disadvantage is that ___. Also, it can ___.", "hint": "Give two problems" },
+        { "speaker": "partner", "text": "So what's your overall opinion?" },
+        { "speaker": "user", "text": "Although ___, I believe ___.", "hint": "Give balanced conclusion" }
+      ],
+      "checklistItems": ["Use advantage/disadvantage language", "Use hedging words (can, may)", "Give a balanced opinion"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000028:korean-error-001",
+      "category": "grammar",
+      "errorExample": "One of advantage is...",
+      "correctForm": "One advantage is... / One of the advantages is...",
+      "explanation": "Either 'One advantage is...' or 'One of the advantages is...' (with 'the' and plural).",
+      "tip": "'One advantage is...'는 단수, 'One of the advantages is...'는 복수 중 하나를 말하는 거예요."
+    },
+    {
+      "id": "pack-000028:korean-error-002",
+      "category": "usage",
+      "errorExample": "Social media is always bad for health.",
+      "correctForm": "Social media can sometimes be bad for health.",
+      "explanation": "Use hedging words to avoid overgeneralization.",
+      "tip": "'항상'이라고 단정짓지 말고 'can', 'sometimes'을 써서 부드럽게 표현하세요."
+    },
+    {
+      "id": "pack-000028:korean-error-003",
+      "category": "pronunciation",
+      "errorExample": "privacy = 프리바시",
+      "correctForm": "/ˈpraɪvəsi/ (프라이버시)",
+      "explanation": "The first syllable 'PRI' sounds like 'PRAI' (like 'private').",
+      "tip": "'privacy'는 'private'처럼 '프라이'로 시작해요. '프리'가 아니에요."
+    }
+  ]
+}

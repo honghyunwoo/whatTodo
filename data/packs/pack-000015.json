@@ -1,0 +1,272 @@
+{
+  "id": "pack-000015",
+  "level": "A2",
+  "topic": "At the Restaurant",
+  "canDo": "I can order food and drinks at a restaurant and make requests.",
+  "functionId": "ordering",
+  "difficulty": 4,
+  "skills": ["vocab", "listening", "speaking", "reading"],
+  "estimatedMinutes": 18,
+  "tags": ["restaurant", "food", "ordering", "dining"],
+
+  "grammar": {
+    "point": "Would like, could/can for requests, countable/uncountable nouns",
+    "rules": [
+      {
+        "id": "pack-000015:grammar-rule-001",
+        "title": "Would like for polite requests",
+        "explanation": "Use 'would like' (= 'd like) to politely say what you want. More polite than 'want'.",
+        "examples": ["I'd like a coffee, please.", "Would you like anything to drink?", "She'd like the steak."],
+        "koreanTip": "'I want'보다 'I'd like'가 훨씬 공손해요. 식당에서는 항상 'I'd like'를 쓰세요."
+      },
+      {
+        "id": "pack-000015:grammar-rule-002",
+        "title": "Could/Can I have for ordering",
+        "explanation": "Use 'Could I have...?' or 'Can I have...?' to ask for something politely.",
+        "examples": ["Could I have the menu, please?", "Can I have some water?", "Could we have the bill?"],
+        "koreanTip": "'Could I have'가 'Can I have'보다 더 공손해요."
+      },
+      {
+        "id": "pack-000015:grammar-rule-003",
+        "title": "Some/Any with food items",
+        "explanation": "Use 'some' in positive sentences and requests, 'any' in questions and negatives.",
+        "examples": ["I'd like some bread.", "Do you have any vegetarian options?", "There isn't any milk left."],
+        "koreanTip": "'some'은 긍정문과 부탁할 때, 'any'는 의문문과 부정문에 써요. 단, 주문할 때는 'some'을 써요!"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000015:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "I ___ a glass of orange juice, please.",
+        "options": ["want", "'d like", "like", "have"],
+        "correctAnswer": "'d like",
+        "explanation": "'Would like' ('d like) is the polite way to order in a restaurant.",
+        "koreanTip": "식당에서는 'I'd like'가 가장 적절해요."
+      },
+      {
+        "id": "pack-000015:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "___ I have the menu, please?",
+        "options": ["Would", "Could", "Should", "Must"],
+        "correctAnswer": "Could",
+        "explanation": "'Could I have...?' is a polite way to ask for something.",
+        "koreanTip": "'Could I have'는 공손하게 요청하는 표현이에요."
+      },
+      {
+        "id": "pack-000015:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "Would you like ___ dessert?",
+        "options": ["a", "some", "any", "the"],
+        "correctAnswer": "some",
+        "explanation": "Use 'some' when offering something politely.",
+        "koreanTip": "권유할 때는 'any'가 아닌 'some'을 써요."
+      },
+      {
+        "id": "pack-000015:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which is the most polite way to order?",
+        "options": ["Give me a coffee.", "I want coffee.", "I'd like a coffee, please.", "Coffee for me."],
+        "correctAnswer": "I'd like a coffee, please.",
+        "explanation": "'I'd like... please' is the most polite form."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000015:vocab-001",
+        "word": "appetizer",
+        "pronunciation": "/ˈæpɪtaɪzər/",
+        "meaning": "a small dish before the main course",
+        "meaningKo": "애피타이저, 전채 요리",
+        "partOfSpeech": "noun",
+        "examples": ["Would you like an appetizer?", "The soup is a good appetizer."],
+        "koreanTip": "메인 요리 전에 먹는 작은 요리. 영국에서는 'starter'라고도 해요."
+      },
+      {
+        "id": "pack-000015:vocab-002",
+        "word": "main course",
+        "pronunciation": "/meɪn kɔːrs/",
+        "meaning": "the biggest dish of a meal",
+        "meaningKo": "메인 요리",
+        "partOfSpeech": "noun",
+        "examples": ["For the main course, I'll have the steak.", "The main courses are on page two."],
+        "koreanTip": "메뉴에서 가장 중심이 되는 요리예요"
+      },
+      {
+        "id": "pack-000015:vocab-003",
+        "word": "bill",
+        "pronunciation": "/bɪl/",
+        "meaning": "a document showing how much to pay",
+        "meaningKo": "계산서",
+        "partOfSpeech": "noun",
+        "examples": ["Could we have the bill, please?", "The bill comes to 45 dollars."],
+        "koreanTip": "미국에서는 'check'라고도 해요. 'Can I have the check?'"
+      },
+      {
+        "id": "pack-000015:vocab-004",
+        "word": "tip",
+        "pronunciation": "/tɪp/",
+        "meaning": "extra money given for service",
+        "meaningKo": "팁",
+        "partOfSpeech": "noun",
+        "examples": ["How much should I tip?", "A 15-20% tip is standard in the US."],
+        "koreanTip": "미국에서는 15-20% 팁이 일반적이에요. 한국과 달리 필수예요!"
+      },
+      {
+        "id": "pack-000015:vocab-005",
+        "word": "reservation",
+        "pronunciation": "/ˌrezərˈveɪʃən/",
+        "meaning": "an arrangement to have a table saved",
+        "meaningKo": "예약",
+        "partOfSpeech": "noun",
+        "examples": ["Do you have a reservation?", "I'd like to make a reservation for 7 PM."],
+        "koreanTip": "'make a reservation'으로 '예약하다'를 표현해요"
+      }
+    ],
+    "collocations": ["make a reservation", "order food", "pay the bill", "leave a tip", "medium rare"]
+  },
+
+  "reading": {
+    "id": "pack-000015:reading",
+    "title": "A Dinner Out",
+    "passage": "Last Saturday, my wife and I went to an Italian restaurant downtown. We had made a reservation for 7 PM. When we arrived, the waiter showed us to our table and gave us the menus. For appetizers, we ordered garlic bread and a salad. My wife chose the seafood pasta for her main course, and I had the pizza. The food was delicious! For dessert, we shared a slice of tiramisu. When we were ready to leave, I asked for the bill. The total was $85, so I left a $17 tip. It was a wonderful evening, and we'll definitely go back.",
+    "wordCount": 105,
+    "questions": [
+      {
+        "id": "pack-000015:reading-q-001",
+        "type": "comprehension",
+        "question": "What did they order as appetizers?",
+        "options": ["Pizza and pasta", "Garlic bread and salad", "Tiramisu", "Seafood and steak"],
+        "correctAnswer": "Garlic bread and salad",
+        "explanation": "The passage says 'we ordered garlic bread and a salad.'"
+      },
+      {
+        "id": "pack-000015:reading-q-002",
+        "type": "comprehension",
+        "question": "How much tip did they leave?",
+        "options": ["$7", "$15", "$17", "$85"],
+        "correctAnswer": "$17",
+        "explanation": "The passage says 'I left a $17 tip.'"
+      },
+      {
+        "id": "pack-000015:reading-q-003",
+        "type": "vocabulary",
+        "question": "What is 'tiramisu'?",
+        "options": ["A type of pasta", "A type of pizza", "A type of dessert", "A type of salad"],
+        "correctAnswer": "A type of dessert",
+        "explanation": "The passage mentions tiramisu in the context of dessert."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000015:listening",
+    "title": "Ordering at a Restaurant",
+    "script": "Good evening. Do you have a reservation? Yes, the name is Kim. For two people. Ah yes, right this way. Here's your table. Can I get you something to drink? I'll have a glass of red wine, please. And I'd like a sparkling water. Certainly. Are you ready to order, or do you need more time? We're ready. I'd like the grilled salmon with vegetables. And I'll have the beef steak, medium rare please. Excellent choices. I'll bring your drinks shortly.",
+    "audioUrl": null,
+    "duration": 45,
+    "exercises": [
+      {
+        "id": "pack-000015:listening-ex-001",
+        "type": "comprehension",
+        "question": "What does the first person order to drink?",
+        "options": ["Beer", "Red wine", "Sparkling water", "Coffee"],
+        "correctAnswer": "Red wine",
+        "explanation": "The speaker says 'I'll have a glass of red wine, please.'"
+      },
+      {
+        "id": "pack-000015:listening-ex-002",
+        "type": "fill_blank",
+        "question": "The steak should be cooked ___.",
+        "options": ["well done", "rare", "medium rare", "medium"],
+        "correctAnswer": "medium rare",
+        "explanation": "The speaker says 'I'll have the beef steak, medium rare please.'"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000015:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Write a restaurant dialogue using the template.",
+      "template": "Waiter: Good evening. What would you like to drink?\nCustomer: I'd like [DRINK], please.\nWaiter: Are you ready to order?\nCustomer: Yes. For the appetizer, I'll have [APPETIZER]. And for the main course, I'd like [MAIN].\nWaiter: Excellent choice. Anything for dessert?\nCustomer: [DESSERT_RESPONSE].",
+      "slots": [
+        { "name": "DRINK", "hint": "a drink" },
+        { "name": "APPETIZER", "hint": "starter dish" },
+        { "name": "MAIN", "hint": "main dish" },
+        { "name": "DESSERT_RESPONSE", "hint": "Yes, I'd like... / No, thank you" }
+      ],
+      "correctExample": "Waiter: Good evening. What would you like to drink?\nCustomer: I'd like a glass of iced tea, please.\nWaiter: Are you ready to order?\nCustomer: Yes. For the appetizer, I'll have the soup of the day. And for the main course, I'd like the grilled chicken.\nWaiter: Excellent choice. Anything for dessert?\nCustomer: Yes, I'd like a slice of chocolate cake."
+    },
+    "free": {
+      "id": "pack-000015:writing-free",
+      "topic": "Describe Your Favorite Restaurant",
+      "prompt": "Write about your favorite restaurant. What do you usually order? Why do you like it?",
+      "minWords": 50,
+      "maxWords": 100,
+      "checklist": [
+        { "item": "Use 'would like' at least once", "required": true },
+        { "item": "Describe at least 2 dishes", "required": true },
+        { "item": "Explain why you like it", "required": true },
+        { "item": "Use restaurant vocabulary", "required": false }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000015:speaking-shadow",
+      "sentence": "I'd like the grilled salmon for my main course, and could I have a glass of white wine with that, please?",
+      "pronunciation": "/aɪd laɪk ðə ɡrɪld ˈsæmən fɔːr maɪ meɪn kɔːrs ænd kʊd aɪ hæv ə ɡlæs əv waɪt waɪn wɪð ðæt pliːz/",
+      "audioUrl": null,
+      "koreanTip": "'salmon'에서 'l'은 발음하지 않아요. '쌜먼'이 아니라 '새먼'처럼 발음하세요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000015:speaking-roleplay",
+      "scenario": "You are ordering food at a restaurant.",
+      "role": "Customer",
+      "partnerRole": "Waiter",
+      "prompts": [
+        { "speaker": "partner", "text": "Good evening! Are you ready to order?" },
+        { "speaker": "user", "text": "Yes. I'd like ___, please.", "hint": "Order a drink" },
+        { "speaker": "partner", "text": "Certainly. And what would you like to eat?" },
+        { "speaker": "user", "text": "Could I have ___?", "hint": "Order a main dish" },
+        { "speaker": "partner", "text": "Would you like anything else?" },
+        { "speaker": "user", "text": "Yes, ___ / No, that's all, thank you.", "hint": "Add something or decline" }
+      ],
+      "checklistItems": ["Use 'I'd like' or 'Could I have'", "Order politely with 'please'", "Respond to offers appropriately"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000015:korean-error-001",
+      "category": "grammar",
+      "errorExample": "I want coffee.",
+      "correctForm": "I'd like a coffee, please.",
+      "explanation": "'I want' sounds too direct in a restaurant. Use 'I'd like' for politeness.",
+      "tip": "식당에서 'I want'는 너무 직접적이에요. 'I'd like'가 더 공손해요."
+    },
+    {
+      "id": "pack-000015:korean-error-002",
+      "category": "usage",
+      "errorExample": "Give me the bill.",
+      "correctForm": "Could I have the bill, please?",
+      "explanation": "'Give me' sounds rude. Use 'Could I have' to be polite.",
+      "tip": "'Give me'는 명령조라 무례하게 들려요. 'Could I have'를 쓰세요."
+    },
+    {
+      "id": "pack-000015:korean-error-003",
+      "category": "pronunciation",
+      "errorExample": "salmon = 살몬",
+      "correctForm": "/ˈsæmən/ (새먼)",
+      "explanation": "The 'l' in 'salmon' is silent.",
+      "tip": "'salmon'의 'l'은 묵음이에요. '새먼'처럼 발음하세요."
+    }
+  ]
+}

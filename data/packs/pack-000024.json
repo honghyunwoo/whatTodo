@@ -1,0 +1,274 @@
+{
+  "id": "pack-000024",
+  "level": "B1",
+  "topic": "Reported Speech",
+  "canDo": "I can report what others said using reported speech correctly.",
+  "functionId": "reporting",
+  "difficulty": 7,
+  "skills": ["grammar", "vocab", "listening", "writing"],
+  "estimatedMinutes": 25,
+  "tags": ["reported_speech", "grammar", "communication", "indirect_speech"],
+
+  "grammar": {
+    "point": "Reported Speech: statements, questions, and commands",
+    "rules": [
+      {
+        "id": "pack-000024:grammar-rule-001",
+        "title": "Reporting statements",
+        "explanation": "Use 'said (that)' or 'told + person (that)'. Shift tense back: present -> past, will -> would, etc.",
+        "examples": ["He said (that) he was tired. (Direct: 'I am tired.')", "She told me (that) she would call later. (Direct: 'I will call later.')"],
+        "koreanTip": "직접 화법의 시제를 한 단계 과거로 바꿔요: am/is -> was, will -> would, can -> could"
+      },
+      {
+        "id": "pack-000024:grammar-rule-002",
+        "title": "Reporting questions",
+        "explanation": "Use 'asked' + normal word order (not question order). Yes/No questions use 'if/whether'.",
+        "examples": ["He asked where I lived. (Direct: 'Where do you live?')", "She asked if I was coming. (Direct: 'Are you coming?')"],
+        "koreanTip": "의문문을 보고할 때는 평서문 어순으로 바꿔요. 의문사가 없으면 'if/whether'를 써요."
+      },
+      {
+        "id": "pack-000024:grammar-rule-003",
+        "title": "Reporting commands and requests",
+        "explanation": "Use 'told/asked + person + to + verb' for commands and requests.",
+        "examples": ["She told me to wait. (Direct: 'Wait!')", "He asked me to help him. (Direct: 'Please help me.')", "She told me not to be late. (Direct: 'Don't be late.')"],
+        "koreanTip": "명령문은 'told + 사람 + to + 동사', 부정명령은 'told + 사람 + not to + 동사'로 바꿔요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000024:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "He said that he ___ very busy. (Direct: 'I am very busy.')",
+        "options": ["is", "was", "will be", "has been"],
+        "correctAnswer": "was",
+        "explanation": "Present simple 'am' becomes past simple 'was' in reported speech.",
+        "koreanTip": "직접 화법의 'am'은 간접 화법에서 'was'로 바뀌어요."
+      },
+      {
+        "id": "pack-000024:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "She asked me ___ I was free on Saturday. (Direct: 'Are you free on Saturday?')",
+        "options": ["that", "what", "if", "when"],
+        "correctAnswer": "if",
+        "explanation": "Yes/No questions use 'if' or 'whether' in reported speech.",
+        "koreanTip": "Yes/No 의문문은 'if' 또는 'whether'를 사용해요."
+      },
+      {
+        "id": "pack-000024:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "The teacher told us ___ quiet. (Direct: 'Be quiet!')",
+        "options": ["be", "to be", "being", "were"],
+        "correctAnswer": "to be",
+        "explanation": "Commands are reported using 'told + person + to + verb'.",
+        "koreanTip": "명령문을 간접 화법으로 바꿀 때는 'to + 동사원형'을 써요."
+      },
+      {
+        "id": "pack-000024:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which is the correct reported speech for 'Where do you live?'",
+        "options": ["He asked where do I live.", "He asked where I lived.", "He asked where did I live.", "He asked where I live."],
+        "correctAnswer": "He asked where I lived.",
+        "explanation": "In reported questions, use normal word order and shift the tense back."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000024:vocab-001",
+        "word": "mention",
+        "pronunciation": "/ˈmenʃən/",
+        "meaning": "to speak about briefly",
+        "meaningKo": "언급하다",
+        "partOfSpeech": "verb",
+        "examples": ["She mentioned that she was leaving.", "He didn't mention the meeting."],
+        "koreanTip": "'말하다'보다 가벼운 느낌으로 '간단히 언급하다'라는 뜻이에요"
+      },
+      {
+        "id": "pack-000024:vocab-002",
+        "word": "claim",
+        "pronunciation": "/kleɪm/",
+        "meaning": "to say something is true (often doubtful)",
+        "meaningKo": "주장하다",
+        "partOfSpeech": "verb",
+        "examples": ["He claimed that he was innocent.", "The company claims its product is the best."],
+        "koreanTip": "확실하지 않거나 논쟁의 여지가 있을 때 '주장하다'라는 의미로 써요"
+      },
+      {
+        "id": "pack-000024:vocab-003",
+        "word": "admit",
+        "pronunciation": "/ədˈmɪt/",
+        "meaning": "to confess that something is true",
+        "meaningKo": "인정하다, 시인하다",
+        "partOfSpeech": "verb",
+        "examples": ["She admitted that she had made a mistake.", "He finally admitted to lying."],
+        "koreanTip": "불리한 사실을 '인정하다'라는 뜻이에요"
+      },
+      {
+        "id": "pack-000024:vocab-004",
+        "word": "deny",
+        "pronunciation": "/dɪˈnaɪ/",
+        "meaning": "to say something is not true",
+        "meaningKo": "부인하다",
+        "partOfSpeech": "verb",
+        "examples": ["He denied stealing the money.", "She denied that she knew him."],
+        "koreanTip": "'admit'의 반대말로 '부인하다'라는 뜻. 'deny + -ing'로 써요."
+      },
+      {
+        "id": "pack-000024:vocab-005",
+        "word": "explain",
+        "pronunciation": "/ɪkˈspleɪn/",
+        "meaning": "to make something clear",
+        "meaningKo": "설명하다",
+        "partOfSpeech": "verb",
+        "examples": ["She explained that the train was delayed.", "Can you explain why you were late?"],
+        "koreanTip": "'explain'은 'to + 사람'을 쓰지 않아요. 'explain me' (X) -> 'explain to me' (O)"
+      }
+    ],
+    "collocations": ["according to", "in other words", "as I said", "to be honest", "apparently"]
+  },
+
+  "reading": {
+    "id": "pack-000024:reading",
+    "title": "The Interview",
+    "passage": "Yesterday, I interviewed a famous actor for my blog. He told me that he had started acting when he was just 10 years old. I asked him what the most challenging role he had ever played was. He said that playing a historical figure had been the hardest because he had had to do months of research. When I asked if he had any advice for young actors, he replied that they should never give up on their dreams. He also mentioned that he was working on a new movie and that it would be released next year. He told me not to share any spoilers! It was a fascinating conversation.",
+    "wordCount": 115,
+    "questions": [
+      {
+        "id": "pack-000024:reading-q-001",
+        "type": "comprehension",
+        "question": "When did the actor start acting?",
+        "options": ["At 5 years old", "At 10 years old", "At 15 years old", "At 20 years old"],
+        "correctAnswer": "At 10 years old",
+        "explanation": "The passage says 'he had started acting when he was just 10 years old.'"
+      },
+      {
+        "id": "pack-000024:reading-q-002",
+        "type": "comprehension",
+        "question": "What was his advice for young actors?",
+        "options": ["Study hard", "Move to Hollywood", "Never give up on dreams", "Take acting classes"],
+        "correctAnswer": "Never give up on dreams",
+        "explanation": "The passage says 'they should never give up on their dreams.'"
+      },
+      {
+        "id": "pack-000024:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'spoilers' mean?",
+        "options": ["Bad reviews", "Information that ruins surprises", "Advertisements", "Interviews"],
+        "correctAnswer": "Information that ruins surprises",
+        "explanation": "'Spoilers' are details that reveal the plot and ruin the surprise for others."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000024:listening",
+    "title": "What Did She Say?",
+    "script": "Hey, what did the professor say about the exam? She said that the exam would be on Friday. Did she mention what topics would be covered? Yes, she said that we should focus on chapters 5 through 8. She also told us to review our notes carefully. Did she say if we could use a dictionary? She said that we couldn't use any dictionaries, but she mentioned that we could bring one page of notes. That's a relief! Did you ask about the format? I asked if it would be multiple choice, and she replied that it would be mostly essay questions. Oh no, I need to study harder then!",
+    "audioUrl": null,
+    "duration": 50,
+    "exercises": [
+      {
+        "id": "pack-000024:listening-ex-001",
+        "type": "comprehension",
+        "question": "When will the exam be?",
+        "options": ["Monday", "Wednesday", "Friday", "Saturday"],
+        "correctAnswer": "Friday",
+        "explanation": "The speaker says 'the exam would be on Friday.'"
+      },
+      {
+        "id": "pack-000024:listening-ex-002",
+        "type": "fill_blank",
+        "question": "Students can bring ___ page(s) of notes.",
+        "options": ["zero", "one", "two", "three"],
+        "correctAnswer": "one",
+        "explanation": "The speaker says 'we could bring one page of notes.'"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000024:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Report a conversation using reported speech.",
+      "template": "Yesterday, I talked to [PERSON]. [He/She] told me that [STATEMENT]. When I asked [QUESTION - reported], [he/she] replied that [ANSWER]. [He/She] also mentioned that [ADDITIONAL INFO]. Finally, [he/she] asked me [REQUEST/QUESTION - reported]. It was an interesting conversation.",
+      "slots": [
+        { "name": "PERSON", "hint": "Who you talked to" },
+        { "name": "STATEMENT", "hint": "What they said (reported)" },
+        { "name": "QUESTION", "hint": "Question you asked (reported)" },
+        { "name": "ANSWER", "hint": "Their answer (reported)" },
+        { "name": "ADDITIONAL INFO", "hint": "Something else they said" },
+        { "name": "REQUEST/QUESTION", "hint": "What they asked you (reported)" }
+      ],
+      "correctExample": "Yesterday, I talked to my manager. She told me that our project deadline had been extended. When I asked if we could work from home, she replied that we could work remotely twice a week. She also mentioned that there would be a team meeting next Monday. Finally, she asked me to prepare a presentation for the meeting. It was an interesting conversation."
+    },
+    "free": {
+      "id": "pack-000024:writing-free",
+      "topic": "Report a Recent Conversation",
+      "prompt": "Write about a conversation you had recently. Use reported speech to describe what was said. Include statements, questions, and commands.",
+      "minWords": 80,
+      "maxWords": 150,
+      "checklist": [
+        { "item": "Report at least 2 statements (said/told)", "required": true },
+        { "item": "Report at least 1 question (asked if/asked what)", "required": true },
+        { "item": "Report at least 1 command or request (told to)", "required": true },
+        { "item": "Use correct tense shifting", "required": true }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000024:speaking-shadow",
+      "sentence": "My friend told me that she was planning to move to Canada. She said that she had already applied for a visa and asked if I wanted to visit her.",
+      "pronunciation": "/maɪ frend toʊld miː ðæt ʃiː wɑːz ˈplænɪŋ tuː muːv tuː ˈkænədə ʃiː sed ðæt ʃiː hæd ɔːlˈredi əˈplaɪd fɔːr ə ˈviːzə ænd æskt ɪf aɪ ˈwɑːntɪd tuː ˈvɪzɪt hɜːr/",
+      "audioUrl": null,
+      "koreanTip": "'told me that'에서 'that'은 생략 가능하고, 말할 때는 약하게 발음해요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000024:speaking-roleplay",
+      "scenario": "You are telling a friend what another person said.",
+      "role": "Reporter",
+      "partnerRole": "Friend",
+      "prompts": [
+        { "speaker": "partner", "text": "What did the teacher say about the homework?" },
+        { "speaker": "user", "text": "She said that ___.", "hint": "Report statement with tense shift" },
+        { "speaker": "partner", "text": "Did she say when it was due?" },
+        { "speaker": "user", "text": "She mentioned that ___.", "hint": "Report another statement" },
+        { "speaker": "partner", "text": "Did you ask if we could work in groups?" },
+        { "speaker": "user", "text": "Yes, I asked if ___. She told me that ___.", "hint": "Report question and answer" }
+      ],
+      "checklistItems": ["Shift tenses correctly", "Use 'said/told/asked' appropriately", "Use 'if/whether' for yes/no questions"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000024:korean-error-001",
+      "category": "grammar",
+      "errorExample": "He said me that he was tired.",
+      "correctForm": "He said (that) he was tired. / He told me (that) he was tired.",
+      "explanation": "'Said' cannot have an indirect object. Use 'told + person' if you want to mention who was spoken to.",
+      "tip": "'said'는 사람 목적어 없이 쓰고, 'told'는 반드시 사람 목적어가 필요해요."
+    },
+    {
+      "id": "pack-000024:korean-error-002",
+      "category": "grammar",
+      "errorExample": "She asked where did I live.",
+      "correctForm": "She asked where I lived.",
+      "explanation": "In reported questions, use statement word order, not question word order.",
+      "tip": "간접의문문에서는 의문문 어순이 아니라 평서문 어순을 써요. 'where did I live' (X) -> 'where I lived' (O)"
+    },
+    {
+      "id": "pack-000024:korean-error-003",
+      "category": "grammar",
+      "errorExample": "He told to me to wait.",
+      "correctForm": "He told me to wait.",
+      "explanation": "'Told' is followed directly by the person, not 'to + person'.",
+      "tip": "'told'는 바로 사람 목적어가 와요. 'told to me' (X) -> 'told me' (O)"
+    }
+  ]
+}

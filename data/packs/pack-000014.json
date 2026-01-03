@@ -1,0 +1,275 @@
+{
+  "id": "pack-000014",
+  "level": "A2",
+  "topic": "Giving Directions",
+  "canDo": "I can give and understand simple directions to places.",
+  "functionId": "directions",
+  "difficulty": 4,
+  "skills": ["vocab", "listening", "speaking", "reading"],
+  "estimatedMinutes": 18,
+  "tags": ["directions", "navigation", "places", "location"],
+
+  "grammar": {
+    "point": "Imperative sentences and prepositions of movement",
+    "rules": [
+      {
+        "id": "pack-000014:grammar-rule-001",
+        "title": "Imperatives for directions",
+        "explanation": "Use the base form of the verb to give commands and directions.",
+        "examples": ["Turn left at the corner.", "Go straight ahead.", "Take the second right."],
+        "koreanTip": "길 안내에서 주어 없이 동사로 시작해요. 'You turn left'가 아니라 그냥 'Turn left'예요."
+      },
+      {
+        "id": "pack-000014:grammar-rule-002",
+        "title": "Prepositions of movement",
+        "explanation": "Use 'along' (continue beside), 'past' (go beyond), 'through' (pass inside), 'across' (go to the other side).",
+        "examples": ["Walk along the street.", "Go past the bank.", "Walk through the park.", "Go across the bridge."],
+        "koreanTip": "along=~을 따라, past=~을 지나서, through=~을 통과해서, across=~을 건너서"
+      },
+      {
+        "id": "pack-000014:grammar-rule-003",
+        "title": "Location expressions",
+        "explanation": "Use 'on the left/right', 'at the corner', 'next to', 'opposite', 'between'.",
+        "examples": ["The bank is on your left.", "Turn at the corner.", "It's next to the post office.", "The cafe is opposite the station."],
+        "koreanTip": "위치를 설명할 때: on the left(왼쪽에), on the right(오른쪽에), opposite(맞은편에), between A and B(A와 B 사이에)"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000014:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "___ straight and turn left at the traffic light.",
+        "options": ["Goes", "Going", "Go", "To go"],
+        "correctAnswer": "Go",
+        "explanation": "Use the imperative form (base verb) for giving directions.",
+        "koreanTip": "길 안내에서는 동사원형을 써요."
+      },
+      {
+        "id": "pack-000014:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "The pharmacy is ___ the supermarket.",
+        "options": ["opposite", "along", "through", "across"],
+        "correctAnswer": "opposite",
+        "explanation": "'Opposite' means on the other side, facing something.",
+        "koreanTip": "'opposite'는 '맞은편에'라는 뜻이에요."
+      },
+      {
+        "id": "pack-000014:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "Walk ___ the park to reach the museum.",
+        "options": ["through", "along", "at", "on"],
+        "correctAnswer": "through",
+        "explanation": "'Through' means passing inside and coming out the other side.",
+        "koreanTip": "'through'는 무언가를 통과해서 지나간다는 의미예요."
+      },
+      {
+        "id": "pack-000014:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which is the correct direction?",
+        "options": ["You go to left.", "Turn to the left.", "Turn left.", "Go to left side."],
+        "correctAnswer": "Turn left.",
+        "explanation": "The correct expression is 'Turn left' without 'to' or 'the'."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000014:vocab-001",
+        "word": "intersection",
+        "pronunciation": "/ˌɪntərˈsekʃən/",
+        "meaning": "a place where roads cross",
+        "meaningKo": "교차로",
+        "partOfSpeech": "noun",
+        "examples": ["Turn right at the intersection.", "Wait at the intersection for the light to change."],
+        "koreanTip": "네거리나 도로가 만나는 지점을 말해요"
+      },
+      {
+        "id": "pack-000014:vocab-002",
+        "word": "block",
+        "pronunciation": "/blɑːk/",
+        "meaning": "the distance from one street to the next",
+        "meaningKo": "블록 (거리 단위)",
+        "partOfSpeech": "noun",
+        "examples": ["Walk two blocks north.", "The store is three blocks from here."],
+        "koreanTip": "미국에서 거리를 말할 때 자주 쓰는 단위예요"
+      },
+      {
+        "id": "pack-000014:vocab-003",
+        "word": "landmark",
+        "pronunciation": "/ˈlændmɑːrk/",
+        "meaning": "a recognizable place or building",
+        "meaningKo": "랜드마크, 눈에 띄는 건물",
+        "partOfSpeech": "noun",
+        "examples": ["Use the tower as a landmark.", "Look for the church - it's a good landmark."],
+        "koreanTip": "길 찾기에 도움이 되는 눈에 띄는 건물이나 장소"
+      },
+      {
+        "id": "pack-000014:vocab-004",
+        "word": "crosswalk",
+        "pronunciation": "/ˈkrɔːswɔːk/",
+        "meaning": "a marked place for pedestrians to cross the street",
+        "meaningKo": "횡단보도",
+        "partOfSpeech": "noun",
+        "examples": ["Use the crosswalk to cross the street.", "Wait at the crosswalk until the light turns green."],
+        "koreanTip": "영국에서는 'pedestrian crossing' 또는 'zebra crossing'이라고 해요"
+      },
+      {
+        "id": "pack-000014:vocab-005",
+        "word": "roundabout",
+        "pronunciation": "/ˈraʊndəbaʊt/",
+        "meaning": "a circular road junction",
+        "meaningKo": "회전 교차로, 로터리",
+        "partOfSpeech": "noun",
+        "examples": ["Take the second exit at the roundabout.", "Go around the roundabout and turn left."],
+        "koreanTip": "미국에서는 'traffic circle'이라고도 해요"
+      }
+    ],
+    "collocations": ["turn left/right", "go straight", "at the corner", "on your left/right", "next to"]
+  },
+
+  "reading": {
+    "id": "pack-000014:reading",
+    "title": "Finding the Library",
+    "passage": "Excuse me, can you tell me how to get to the public library? Sure! It's not far from here. First, go straight along this street for about two blocks. You'll pass a coffee shop on your right. At the traffic light, turn left. Then walk along Oak Street until you see a big church. The library is right next to the church, on the opposite side of the park. You can't miss it - it's a large red brick building. It should take about ten minutes to walk there. Thank you so much! You're welcome. Have a nice day!",
+    "wordCount": 100,
+    "questions": [
+      {
+        "id": "pack-000014:reading-q-001",
+        "type": "comprehension",
+        "question": "What is next to the library?",
+        "options": ["A coffee shop", "A church", "A park", "A traffic light"],
+        "correctAnswer": "A church",
+        "explanation": "The passage says 'The library is right next to the church.'"
+      },
+      {
+        "id": "pack-000014:reading-q-002",
+        "type": "comprehension",
+        "question": "Where should you turn left?",
+        "options": ["At the coffee shop", "At the church", "At the traffic light", "At the park"],
+        "correctAnswer": "At the traffic light",
+        "explanation": "The passage says 'At the traffic light, turn left.'"
+      },
+      {
+        "id": "pack-000014:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'You can't miss it' mean?",
+        "options": ["You will definitely miss it", "It's hard to find", "It's easy to find", "You should hurry"],
+        "correctAnswer": "It's easy to find",
+        "explanation": "'You can't miss it' means it's very easy to see and find."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000014:listening",
+    "title": "Getting to the Station",
+    "script": "Excuse me, how do I get to the train station? Okay, let me explain. Go straight down this road for about 200 meters. You'll see a supermarket on your left. Turn right just after the supermarket. Walk past the bank and the post office. Then you'll reach a big intersection. Cross the street and the station will be on your right. It's a big building with a clock tower. It takes about 15 minutes on foot. Got it, thank you! You're welcome, good luck!",
+    "audioUrl": null,
+    "duration": 40,
+    "exercises": [
+      {
+        "id": "pack-000014:listening-ex-001",
+        "type": "comprehension",
+        "question": "When should you turn right?",
+        "options": ["Before the supermarket", "After the supermarket", "At the bank", "At the intersection"],
+        "correctAnswer": "After the supermarket",
+        "explanation": "The speaker says 'Turn right just after the supermarket.'"
+      },
+      {
+        "id": "pack-000014:listening-ex-002",
+        "type": "fill_blank",
+        "question": "The station has a ___ tower.",
+        "options": ["bell", "clock", "radio", "water"],
+        "correctAnswer": "clock",
+        "explanation": "The speaker says 'It's a big building with a clock tower.'"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000014:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Write directions from your school to a nearby place using the template.",
+      "template": "First, [DIRECTION1]. Then, [DIRECTION2]. You will see [LANDMARK] on your [SIDE]. [ACTION] and you will find [DESTINATION]. It takes about [TIME].",
+      "slots": [
+        { "name": "DIRECTION1", "hint": "First direction (e.g., go straight)" },
+        { "name": "DIRECTION2", "hint": "Second direction (e.g., turn left at the corner)" },
+        { "name": "LANDMARK", "hint": "A noticeable place" },
+        { "name": "SIDE", "hint": "left/right" },
+        { "name": "ACTION", "hint": "What to do next" },
+        { "name": "DESTINATION", "hint": "The final place" },
+        { "name": "TIME", "hint": "How long it takes" }
+      ],
+      "correctExample": "First, go straight along Main Street. Then, turn right at the traffic light. You will see a big park on your left. Walk past the park and you will find the museum. It takes about 10 minutes."
+    },
+    "free": {
+      "id": "pack-000014:writing-free",
+      "topic": "Directions from Your Home",
+      "prompt": "Write directions from your home to a place you often visit (school, work, store). Include at least 4 direction-giving expressions.",
+      "minWords": 50,
+      "maxWords": 100,
+      "checklist": [
+        { "item": "Use imperative verbs (go, turn, walk)", "required": true },
+        { "item": "Include at least 4 direction expressions", "required": true },
+        { "item": "Mention at least 2 landmarks", "required": true },
+        { "item": "Include time or distance information", "required": false }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000014:speaking-shadow",
+      "sentence": "Go straight for two blocks, then turn left at the traffic light. The bank is on your right, next to the coffee shop.",
+      "pronunciation": "/ɡoʊ streɪt fɔːr tuː blɑːks ðen tɜːrn left æt ðə ˈtræfɪk laɪt ðə bæŋk ɪz ɑːn jɔːr raɪt nekst tuː ðə ˈkɔːfi ʃɑːp/",
+      "audioUrl": null,
+      "koreanTip": "'on your right'에서 'your'는 약하게 발음해요. '온 열 롸잇'처럼 들릴 수 있어요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000014:speaking-roleplay",
+      "scenario": "A tourist asks you for directions to a famous place.",
+      "role": "Local resident",
+      "partnerRole": "Tourist",
+      "prompts": [
+        { "speaker": "partner", "text": "Excuse me, can you help me? I'm looking for the museum." },
+        { "speaker": "user", "text": "Sure! First, ___.", "hint": "Give the first direction" },
+        { "speaker": "partner", "text": "Okay, and then?" },
+        { "speaker": "user", "text": "Then, ___. You'll see ___ on your ___.", "hint": "Give more directions with landmarks" },
+        { "speaker": "partner", "text": "Is it far from here?" },
+        { "speaker": "user", "text": "It takes about ___. You can't miss it!", "hint": "Give time estimate" }
+      ],
+      "checklistItems": ["Use imperative forms correctly", "Include landmarks", "Give clear step-by-step directions"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000014:korean-error-001",
+      "category": "grammar",
+      "errorExample": "Turn to left.",
+      "correctForm": "Turn left.",
+      "explanation": "Don't use 'to' or 'the' with 'turn left/right'.",
+      "tip": "'Turn left'나 'Turn right'에서는 'to'나 'the'를 쓰지 않아요."
+    },
+    {
+      "id": "pack-000014:korean-error-002",
+      "category": "usage",
+      "errorExample": "It's in the front of the bank.",
+      "correctForm": "It's in front of the bank.",
+      "explanation": "'In front of' doesn't have 'the'.",
+      "tip": "'in front of'는 한 덩어리 표현이에요. 'the'를 넣지 마세요."
+    },
+    {
+      "id": "pack-000014:korean-error-003",
+      "category": "pronunciation",
+      "errorExample": "straight = 스트레잇",
+      "correctForm": "/streɪt/",
+      "explanation": "'Straight' has only one syllable with an 'ei' sound.",
+      "tip": "'straight'는 1음절이에요. '스트레이-트'가 아니라 '스트레잇'처럼 짧게 발음하세요."
+    }
+  ]
+}

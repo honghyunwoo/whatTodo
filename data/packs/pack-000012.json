@@ -1,0 +1,273 @@
+{
+  "id": "pack-000012",
+  "level": "A2",
+  "topic": "Future Plans",
+  "canDo": "I can talk about my future plans and intentions.",
+  "functionId": "planning",
+  "difficulty": 4,
+  "skills": ["grammar", "vocab", "speaking", "writing"],
+  "estimatedMinutes": 20,
+  "tags": ["future", "plans", "intentions", "goals"],
+
+  "grammar": {
+    "point": "Future Tense: will, be going to, present continuous for future",
+    "rules": [
+      {
+        "id": "pack-000012:grammar-rule-001",
+        "title": "Will for decisions and predictions",
+        "explanation": "Use 'will' for spontaneous decisions and predictions about the future.",
+        "examples": ["I think it will rain tomorrow.", "I'll help you with that.", "She will be a great doctor."],
+        "koreanTip": "'will'은 즉흥적 결정이나 예측에 써요. 'I'll'은 'I will'의 축약형이에요."
+      },
+      {
+        "id": "pack-000012:grammar-rule-002",
+        "title": "Be going to for plans and intentions",
+        "explanation": "Use 'be going to' for planned actions and strong intentions.",
+        "examples": ["I'm going to study abroad next year.", "She's going to visit her parents.", "We're going to have a party."],
+        "koreanTip": "'be going to'는 이미 계획한 일에 써요. '~할 거야'라는 의도를 나타내요."
+      },
+      {
+        "id": "pack-000012:grammar-rule-003",
+        "title": "Present continuous for scheduled events",
+        "explanation": "Use present continuous for definite arrangements in the near future.",
+        "examples": ["I'm meeting my friend tomorrow.", "We're flying to Japan next week.", "She's starting a new job on Monday."],
+        "koreanTip": "확정된 일정에는 현재진행형을 써요. 약속이 잡힌 경우에 사용합니다."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000012:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "Look at those dark clouds. I think it ___ rain.",
+        "options": ["is going to", "will", "is", "rains"],
+        "correctAnswer": "is going to",
+        "explanation": "Use 'is going to' when there's present evidence for a future event.",
+        "koreanTip": "현재 증거(먹구름)가 있을 때는 'be going to'를 써요."
+      },
+      {
+        "id": "pack-000012:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "I've decided. I ___ learn Spanish this year.",
+        "options": ["will", "am going to", "am", "learn"],
+        "correctAnswer": "am going to",
+        "explanation": "Use 'be going to' for decisions made before speaking.",
+        "koreanTip": "말하기 전에 이미 결정한 것은 'be going to'를 써요."
+      },
+      {
+        "id": "pack-000012:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "A: The phone is ringing. B: I ___ answer it.",
+        "options": ["will", "am going to", "am answering", "answer"],
+        "correctAnswer": "will",
+        "explanation": "Use 'will' for spontaneous decisions made at the moment of speaking.",
+        "koreanTip": "지금 순간에 결정한 것은 'will'을 써요."
+      },
+      {
+        "id": "pack-000012:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which sentence shows a definite arrangement?",
+        "options": ["I will visit Paris someday.", "I'm going to visit Paris.", "I'm visiting Paris next Monday.", "I visit Paris."],
+        "correctAnswer": "I'm visiting Paris next Monday.",
+        "explanation": "Present continuous + specific time shows a definite arrangement."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000012:vocab-001",
+        "word": "plan",
+        "pronunciation": "/plæn/",
+        "meaning": "an intention or decision about what to do",
+        "meaningKo": "계획",
+        "partOfSpeech": "noun/verb",
+        "examples": ["What are your plans for the weekend?", "I'm planning to move next month."],
+        "koreanTip": "'plan to + 동사원형'으로 '~할 계획이다'를 표현해요"
+      },
+      {
+        "id": "pack-000012:vocab-002",
+        "word": "goal",
+        "pronunciation": "/ɡoʊl/",
+        "meaning": "something you want to achieve",
+        "meaningKo": "목표",
+        "partOfSpeech": "noun",
+        "examples": ["My goal is to become a doctor.", "Set your goals high!"],
+        "koreanTip": "장기적인 목표를 말할 때 써요"
+      },
+      {
+        "id": "pack-000012:vocab-003",
+        "word": "schedule",
+        "pronunciation": "/ˈskedʒuːl/",
+        "meaning": "a list of planned activities or events",
+        "meaningKo": "일정, 스케줄",
+        "partOfSpeech": "noun/verb",
+        "examples": ["What's your schedule for tomorrow?", "The meeting is scheduled for 3 PM."],
+        "koreanTip": "미국식은 '스케줄', 영국식은 '셰듈'로 발음해요"
+      },
+      {
+        "id": "pack-000012:vocab-004",
+        "word": "appointment",
+        "pronunciation": "/əˈpɔɪntmənt/",
+        "meaning": "a formal arrangement to meet someone",
+        "meaningKo": "약속, 예약",
+        "partOfSpeech": "noun",
+        "examples": ["I have a doctor's appointment at 10 AM.", "Don't forget your appointment!"],
+        "koreanTip": "공식적인 약속(병원, 미팅 등)에 쓰는 표현이에요"
+      },
+      {
+        "id": "pack-000012:vocab-005",
+        "word": "intention",
+        "pronunciation": "/ɪnˈtenʃən/",
+        "meaning": "a plan or aim",
+        "meaningKo": "의도, 의향",
+        "partOfSpeech": "noun",
+        "examples": ["I have no intention of quitting.", "What are your intentions?"],
+        "koreanTip": "'have the intention to'로 '~할 의향이 있다'를 표현해요"
+      }
+    ],
+    "collocations": ["make plans", "set a goal", "have an appointment", "according to schedule", "in the near future"]
+  },
+
+  "reading": {
+    "id": "pack-000012:reading",
+    "title": "New Year's Resolutions",
+    "passage": "Every January, people around the world make New Year's resolutions. These are promises to improve themselves in the coming year. My friend Sarah has big plans for this year. She's going to start exercising three times a week. She will also learn to cook healthy meals. 'I'm joining a gym next Monday,' she told me excitedly. Her brother Tom has different goals. He's planning to save money and travel to Europe. 'I'll visit at least five countries,' he said confidently. As for me, I'm going to read more books and spend less time on my phone. Will we keep our resolutions? Only time will tell!",
+    "wordCount": 110,
+    "questions": [
+      {
+        "id": "pack-000012:reading-q-001",
+        "type": "comprehension",
+        "question": "What is Sarah going to do?",
+        "options": ["Travel to Europe", "Learn a new language", "Start exercising", "Save money"],
+        "correctAnswer": "Start exercising",
+        "explanation": "The passage says 'She's going to start exercising three times a week.'"
+      },
+      {
+        "id": "pack-000012:reading-q-002",
+        "type": "comprehension",
+        "question": "What is Tom's goal?",
+        "options": ["Read more books", "Join a gym", "Travel to Europe", "Cook healthy meals"],
+        "correctAnswer": "Travel to Europe",
+        "explanation": "The passage says 'He's planning to save money and travel to Europe.'"
+      },
+      {
+        "id": "pack-000012:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'resolution' mean?",
+        "options": ["A problem", "A promise to improve", "A vacation", "A schedule"],
+        "correctAnswer": "A promise to improve",
+        "explanation": "'Resolution' in this context means a promise or decision to do something better."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000012:listening",
+    "title": "Planning a Birthday Party",
+    "script": "Hi Mom! I'm calling to tell you about my plans. I'm going to have a birthday party next Saturday. I've already invited fifteen friends. The party is going to be at home. I'll order pizza and make a cake. My friend will bring a DJ set, so we're going to have great music. I'm also planning to decorate the living room with balloons. It's going to be so much fun! Can you come? I hope you will!",
+    "audioUrl": null,
+    "duration": 40,
+    "exercises": [
+      {
+        "id": "pack-000012:listening-ex-001",
+        "type": "comprehension",
+        "question": "When is the birthday party?",
+        "options": ["This Saturday", "Next Saturday", "Next Sunday", "This Friday"],
+        "correctAnswer": "Next Saturday",
+        "explanation": "The speaker says 'I'm going to have a birthday party next Saturday.'"
+      },
+      {
+        "id": "pack-000012:listening-ex-002",
+        "type": "fill_blank",
+        "question": "The speaker will ___ and make a cake.",
+        "options": ["cook dinner", "order pizza", "buy snacks", "make sandwiches"],
+        "correctAnswer": "order pizza",
+        "explanation": "The speaker says 'I'll order pizza and make a cake.'"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000012:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Write about your plans for this weekend using the template.",
+      "template": "This weekend, I'm going to [ACTIVITY1]. On Saturday, I will [ACTIVITY2] in the [TIME]. On Sunday, I'm [SCHEDULED_EVENT]. I hope it will be [ADJECTIVE]!",
+      "slots": [
+        { "name": "ACTIVITY1", "hint": "Main plan" },
+        { "name": "ACTIVITY2", "hint": "Saturday activity" },
+        { "name": "TIME", "hint": "morning/afternoon/evening" },
+        { "name": "SCHEDULED_EVENT", "hint": "Definite arrangement (present continuous)" },
+        { "name": "ADJECTIVE", "hint": "fun/relaxing/exciting" }
+      ],
+      "correctExample": "This weekend, I'm going to visit my grandparents. On Saturday, I will have lunch with them in the afternoon. On Sunday, I'm meeting my friends at the cafe. I hope it will be fun!"
+    },
+    "free": {
+      "id": "pack-000012:writing-free",
+      "topic": "My Goals for This Year",
+      "prompt": "Write about your goals and plans for this year. Use 'will', 'be going to', and present continuous for future at least once each.",
+      "minWords": 60,
+      "maxWords": 120,
+      "checklist": [
+        { "item": "Use 'will' at least once", "required": true },
+        { "item": "Use 'be going to' at least once", "required": true },
+        { "item": "Use present continuous for a scheduled event", "required": true },
+        { "item": "Describe at least 3 goals or plans", "required": true }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000012:speaking-shadow",
+      "sentence": "I'm going to study hard this semester, and I will try to get better grades than last year.",
+      "pronunciation": "/aɪm ˈɡoʊɪŋ tuː ˈstʌdi hɑːrd ðɪs sɪˈmestər ænd aɪ wɪl traɪ tuː ɡet ˈbetər ɡreɪdz ðæn læst jɪr/",
+      "audioUrl": null,
+      "koreanTip": "'going to'는 구어체에서 'gonna'처럼 발음되기도 해요. 하지만 공식적인 상황에서는 정확히 발음하세요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000012:speaking-roleplay",
+      "scenario": "You are discussing weekend plans with a friend.",
+      "role": "You",
+      "partnerRole": "Friend",
+      "prompts": [
+        { "speaker": "partner", "text": "Do you have any plans for the weekend?" },
+        { "speaker": "user", "text": "Yes! I'm going to ___.", "hint": "Share a plan" },
+        { "speaker": "partner", "text": "That sounds nice! What time?" },
+        { "speaker": "user", "text": "I'm ___ at ___.", "hint": "Use present continuous + time" },
+        { "speaker": "partner", "text": "Want to meet for coffee after?" },
+        { "speaker": "user", "text": "Sure! I'll ___ you when I'm done.", "hint": "Use will for decision" }
+      ],
+      "checklistItems": ["Use 'be going to' for plans", "Use present continuous for arrangements", "Use 'will' for spontaneous decisions"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000012:korean-error-001",
+      "category": "grammar",
+      "errorExample": "I will going to the party.",
+      "correctForm": "I will go to the party. / I'm going to go to the party.",
+      "explanation": "Don't combine 'will' and 'going to'. Choose one.",
+      "tip": "'will'과 'be going to'를 동시에 쓰지 마세요. 둘 중 하나만 선택하세요!"
+    },
+    {
+      "id": "pack-000012:korean-error-002",
+      "category": "usage",
+      "errorExample": "I will meet him tomorrow at 3 PM. (Already scheduled)",
+      "correctForm": "I'm meeting him tomorrow at 3 PM.",
+      "explanation": "For definite arrangements with a set time, use present continuous.",
+      "tip": "이미 확정된 약속은 현재진행형으로 표현해요. 'I'm meeting him'이 더 자연스러워요."
+    },
+    {
+      "id": "pack-000012:korean-error-003",
+      "category": "pronunciation",
+      "errorExample": "I'm going to study = 아임 고잉 투 스터디",
+      "correctForm": "/aɪm ˈɡoʊɪŋ tə ˈstʌdi/",
+      "explanation": "In natural speech, 'to' is often reduced to /tə/ before a verb.",
+      "tip": "자연스러운 발음에서 'to'는 '투'가 아니라 약하게 '터'처럼 발음돼요."
+    }
+  ]
+}

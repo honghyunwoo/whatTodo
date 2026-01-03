@@ -1,0 +1,275 @@
+{
+  "id": "pack-000029",
+  "level": "B1",
+  "topic": "Cultural Differences",
+  "canDo": "I can discuss cultural differences and show cultural awareness.",
+  "functionId": "discussion",
+  "difficulty": 7,
+  "skills": ["vocab", "reading", "speaking", "listening"],
+  "estimatedMinutes": 25,
+  "tags": ["culture", "differences", "customs", "international"],
+
+  "grammar": {
+    "point": "Making generalizations carefully, comparing cultures",
+    "rules": [
+      {
+        "id": "pack-000029:grammar-rule-001",
+        "title": "Careful generalizations",
+        "explanation": "Use 'tend to', 'generally', 'often', 'in many cases' to avoid stereotyping.",
+        "examples": ["People in Japan tend to be punctual.", "Americans generally value directness.", "In many Asian cultures, respect for elders is important."],
+        "koreanTip": "문화에 대해 말할 때는 '항상'이라고 단정짓지 말고 'tend to', 'generally'를 써서 일반화하세요."
+      },
+      {
+        "id": "pack-000029:grammar-rule-002",
+        "title": "Comparing cultures",
+        "explanation": "Use 'while', 'whereas', 'unlike', 'compared to' to contrast cultures.",
+        "examples": ["While Koreans bow when greeting, Americans often shake hands.", "Unlike Western cultures, many Asian cultures emphasize group harmony.", "Compared to the US, Korea has a more hierarchical society."],
+        "koreanTip": "'while'과 'whereas'는 '~인 반면', 'unlike'는 '~와 달리'라는 뜻으로 문화 비교에 유용해요."
+      },
+      {
+        "id": "pack-000029:grammar-rule-003",
+        "title": "Expressing cultural practices",
+        "explanation": "Use 'It is customary to', 'It is considered', 'It is seen as' for cultural norms.",
+        "examples": ["It is customary to remove shoes before entering a Korean home.", "In Japan, it is considered rude to tip.", "In some cultures, direct eye contact is seen as disrespectful."],
+        "koreanTip": "'It is customary to'는 '~하는 것이 관례다', 'It is considered'는 '~로 여겨진다'라는 뜻이에요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000029:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "People in Nordic countries ___ value work-life balance.",
+        "options": ["always", "tend to", "must", "never"],
+        "correctAnswer": "tend to",
+        "explanation": "'Tend to' makes a careful generalization without stereotyping.",
+        "koreanTip": "'tend to'는 일반화하면서도 '항상 그렇다'고 단정짓지 않아요."
+      },
+      {
+        "id": "pack-000029:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "___ Western cultures often value individualism, many Asian cultures emphasize collectivism.",
+        "options": ["Although", "While", "Because", "So"],
+        "correctAnswer": "While",
+        "explanation": "'While' introduces a contrast between two cultural practices.",
+        "koreanTip": "'While'은 두 문화의 차이점을 대조할 때 쓰는 접속사예요."
+      },
+      {
+        "id": "pack-000029:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "In Korea, it ___ polite to use two hands when giving or receiving something.",
+        "options": ["considered", "is considered", "considers", "considering"],
+        "correctAnswer": "is considered",
+        "explanation": "'It is considered + adjective' describes what a culture views as appropriate.",
+        "koreanTip": "'It is considered polite'는 '예의 바른 것으로 여겨진다'는 뜻이에요."
+      },
+      {
+        "id": "pack-000029:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which sentence makes a careful generalization?",
+        "options": ["All Americans are loud.", "Japanese people never show emotions.", "Koreans tend to be conscious of age hierarchy.", "Every European speaks multiple languages."],
+        "correctAnswer": "Koreans tend to be conscious of age hierarchy.",
+        "explanation": "'Tend to' makes a general observation without absolute statements."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000029:vocab-001",
+        "word": "custom",
+        "pronunciation": "/ˈkʌstəm/",
+        "meaning": "a traditional way of behaving",
+        "meaningKo": "관습, 풍습",
+        "partOfSpeech": "noun",
+        "examples": ["It's a Korean custom to bow when greeting elders.", "Different countries have different customs."],
+        "koreanTip": "오랫동안 전해 내려온 행동 방식이나 전통을 말해요"
+      },
+      {
+        "id": "pack-000029:vocab-002",
+        "word": "etiquette",
+        "pronunciation": "/ˈetɪket/",
+        "meaning": "rules of polite behavior",
+        "meaningKo": "에티켓, 예절",
+        "partOfSpeech": "noun",
+        "examples": ["Business etiquette varies by country.", "Table etiquette is important in formal settings."],
+        "koreanTip": "특정 상황에서 지켜야 할 예절이나 규범을 말해요"
+      },
+      {
+        "id": "pack-000029:vocab-003",
+        "word": "stereotype",
+        "pronunciation": "/ˈsteriətaɪp/",
+        "meaning": "a fixed, oversimplified idea about a group",
+        "meaningKo": "고정관념",
+        "partOfSpeech": "noun",
+        "examples": ["We should avoid stereotypes about other cultures.", "That's just a stereotype - not everyone is like that."],
+        "koreanTip": "특정 집단에 대한 단순화된 편견을 말해요. 피해야 할 것!"
+      },
+      {
+        "id": "pack-000029:vocab-004",
+        "word": "diverse",
+        "pronunciation": "/daɪˈvɜːrs/",
+        "meaning": "showing variety; different from each other",
+        "meaningKo": "다양한",
+        "partOfSpeech": "adjective",
+        "examples": ["New York has a very diverse population.", "We should appreciate diverse cultures."],
+        "koreanTip": "'diversity(다양성)'의 형용사형이에요"
+      },
+      {
+        "id": "pack-000029:vocab-005",
+        "word": "hierarchy",
+        "pronunciation": "/ˈhaɪərɑːrki/",
+        "meaning": "a system with levels of importance or power",
+        "meaningKo": "위계, 계층",
+        "partOfSpeech": "noun",
+        "examples": ["Korean culture has a strong age hierarchy.", "Understanding the hierarchy is important in business."],
+        "koreanTip": "나이, 지위 등에 따른 위아래 관계 체계를 말해요"
+      }
+    ],
+    "collocations": ["culture shock", "cultural awareness", "body language", "social norms", "personal space"]
+  },
+
+  "reading": {
+    "id": "pack-000029:reading",
+    "title": "Understanding Cultural Differences",
+    "passage": "When traveling or working abroad, understanding cultural differences is essential. What is considered polite in one culture may be rude in another. For example, while making direct eye contact is valued in Western cultures as a sign of confidence, in some Asian cultures it can be seen as disrespectful, especially with elders. Similarly, attitudes toward time vary. Americans and Germans tend to be very punctual, whereas in some Mediterranean and Latin cultures, being slightly late is more accepted. Communication styles also differ. People from individualistic cultures, like the US, tend to be more direct, while those from collectivist cultures often communicate more indirectly to maintain harmony. It is important to remember that these are generalizations, and individuals within any culture can vary greatly. The key is to approach other cultures with an open mind and willingness to learn.",
+    "wordCount": 145,
+    "questions": [
+      {
+        "id": "pack-000029:reading-q-001",
+        "type": "comprehension",
+        "question": "What can direct eye contact mean in some Asian cultures?",
+        "options": ["Confidence", "Friendliness", "Disrespect", "Intelligence"],
+        "correctAnswer": "Disrespect",
+        "explanation": "The passage says 'in some Asian cultures it can be seen as disrespectful.'"
+      },
+      {
+        "id": "pack-000029:reading-q-002",
+        "type": "comprehension",
+        "question": "Which cultures tend to communicate more directly?",
+        "options": ["Collectivist cultures", "Asian cultures", "Individualistic cultures", "Mediterranean cultures"],
+        "correctAnswer": "Individualistic cultures",
+        "explanation": "The passage says 'People from individualistic cultures, like the US, tend to be more direct.'"
+      },
+      {
+        "id": "pack-000029:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'collectivist' mean?",
+        "options": ["Focusing on individual needs", "Focusing on group harmony", "Collecting things", "Working alone"],
+        "correctAnswer": "Focusing on group harmony",
+        "explanation": "'Collectivist' cultures prioritize group needs over individual ones."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000029:listening",
+    "title": "Culture Shock Experience",
+    "script": "Have you ever experienced culture shock? Yes, when I first moved to Korea. I was surprised by many things. Like what? Well, unlike in my country, people in Korea tend to be very conscious of age. I had to learn to speak differently to older people. That must have been challenging. It was at first. Also, I noticed that compared to Western cultures, personal space is different here. People stand closer together. Did you find it uncomfortable? A bit at first, but I got used to it. Now I understand it's just a cultural difference, not something wrong. That's a good attitude. What do you appreciate most about Korean culture? I think the respect for elders is beautiful. It is customary to show respect in many small ways. Also, I love the food culture - eating together is so important here.",
+    "audioUrl": null,
+    "duration": 60,
+    "exercises": [
+      {
+        "id": "pack-000029:listening-ex-001",
+        "type": "comprehension",
+        "question": "What surprised the speaker about Korean culture?",
+        "options": ["The food", "The weather", "Age consciousness", "The technology"],
+        "correctAnswer": "Age consciousness",
+        "explanation": "The speaker says 'people in Korea tend to be very conscious of age.'"
+      },
+      {
+        "id": "pack-000029:listening-ex-002",
+        "type": "fill_blank",
+        "question": "Compared to Western cultures, personal ___ is different in Korea.",
+        "options": ["time", "money", "space", "food"],
+        "correctAnswer": "space",
+        "explanation": "The speaker says 'personal space is different here. People stand closer together.'"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000029:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Compare cultural practices between two countries.",
+      "template": "[COUNTRY1] and [COUNTRY2] have different cultural practices. While [PRACTICE1 - Country1], [PRACTICE1 - Country2]. In [COUNTRY1], it is customary to [CUSTOM1]. Unlike [COUNTRY1], people in [COUNTRY2] tend to [DIFFERENT PRACTICE]. Compared to [COUNTRY2], [COUNTRY1] generally [COMPARISON]. However, we should avoid stereotypes and remember that individuals vary. Both cultures have valuable traditions worth learning about.",
+      "slots": [
+        { "name": "COUNTRY1", "hint": "First country" },
+        { "name": "COUNTRY2", "hint": "Second country" },
+        { "name": "PRACTICE1 - Country1", "hint": "Practice in Country1" },
+        { "name": "PRACTICE1 - Country2", "hint": "Same topic in Country2" },
+        { "name": "CUSTOM1", "hint": "A custom" },
+        { "name": "DIFFERENT PRACTICE", "hint": "Different practice in Country2" },
+        { "name": "COMPARISON", "hint": "Another comparison" }
+      ],
+      "correctExample": "Korea and the United States have different cultural practices. While Koreans often bow when greeting someone, Americans typically shake hands. In Korea, it is customary to use formal language with elders and remove shoes before entering homes. Unlike Korea, people in the US tend to be more casual in their interactions, even with older people. Compared to the US, Korea generally has a stronger emphasis on group harmony over individual expression. However, we should avoid stereotypes and remember that individuals vary. Both cultures have valuable traditions worth learning about."
+    },
+    "free": {
+      "id": "pack-000029:writing-free",
+      "topic": "Cultural Differences You've Noticed",
+      "prompt": "Write about cultural differences between Korea and another country you know about. Use language for careful generalizations and cultural comparisons.",
+      "minWords": 100,
+      "maxWords": 180,
+      "checklist": [
+        { "item": "Use 'tend to', 'generally' for generalizations", "required": true },
+        { "item": "Use 'while', 'unlike', 'compared to' for comparisons", "required": true },
+        { "item": "Use 'It is customary/considered' for cultural norms", "required": true },
+        { "item": "Avoid absolute statements (always, never)", "required": true }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000029:speaking-shadow",
+      "sentence": "While people in Korea tend to bow when greeting, Americans generally shake hands. Both practices show respect, just in different ways.",
+      "pronunciation": "/waɪl ˈpiːpl ɪn kəˈriə tend tuː baʊ wen ˈɡriːtɪŋ əˈmerɪkənz ˈdʒenərəli ʃeɪk hændz boʊθ ˈpræktɪsɪz ʃoʊ rɪˈspekt dʒʌst ɪn ˈdɪfərənt weɪz/",
+      "audioUrl": null,
+      "koreanTip": "'tend to'는 빠르게 발음해서 '텐투'처럼 들려요. 'generally'는 '제너럴리'로 발음해요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000029:speaking-roleplay",
+      "scenario": "You are explaining Korean culture to a foreign friend.",
+      "role": "Korean student",
+      "partnerRole": "Foreign friend",
+      "prompts": [
+        { "speaker": "partner", "text": "I'm visiting Korea soon. Is there anything I should know about Korean culture?" },
+        { "speaker": "user", "text": "Yes! In Korea, people tend to ___. It is customary to ___.", "hint": "General practice + custom" },
+        { "speaker": "partner", "text": "That's different from my country. In the US, we usually..." },
+        { "speaker": "user", "text": "Right, while Americans ___, Koreans generally ___.", "hint": "Compare using 'while'" },
+        { "speaker": "partner", "text": "Is there anything considered rude that I should avoid?" },
+        { "speaker": "user", "text": "It is considered ___ to ___. Unlike in the US, you should ___.", "hint": "Explain etiquette" }
+      ],
+      "checklistItems": ["Use 'tend to' for generalizations", "Use 'It is customary/considered' for norms", "Compare cultures using 'while', 'unlike'"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000029:korean-error-001",
+      "category": "grammar",
+      "errorExample": "All Koreans are hardworking.",
+      "correctForm": "Koreans tend to be hardworking. / Many Koreans are hardworking.",
+      "explanation": "Avoid absolute generalizations. Use 'tend to', 'many', 'often' instead.",
+      "tip": "'All'처럼 모든 사람을 일반화하지 마세요. 'tend to', 'many', 'often'을 써서 부드럽게 표현하세요."
+    },
+    {
+      "id": "pack-000029:korean-error-002",
+      "category": "usage",
+      "errorExample": "Korean culture is better than American culture.",
+      "correctForm": "Korean culture is different from American culture in many ways.",
+      "explanation": "Avoid value judgments. Describe differences neutrally.",
+      "tip": "문화를 비교할 때 '더 좋다/나쁘다'가 아니라 '다르다'고 표현하세요."
+    },
+    {
+      "id": "pack-000029:korean-error-003",
+      "category": "grammar",
+      "errorExample": "Unlike to American culture, Korean culture...",
+      "correctForm": "Unlike American culture, Korean culture...",
+      "explanation": "'Unlike' is directly followed by a noun, without 'to'.",
+      "tip": "'Unlike' 뒤에는 바로 명사가 와요. 'to'가 필요 없어요."
+    }
+  ]
+}

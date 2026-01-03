@@ -1,0 +1,276 @@
+{
+  "id": "pack-000021",
+  "level": "B1",
+  "topic": "Present Perfect Experiences",
+  "canDo": "I can discuss life experiences and connect past events to the present.",
+  "functionId": "experience",
+  "difficulty": 6,
+  "skills": ["grammar", "vocab", "reading", "speaking"],
+  "estimatedMinutes": 25,
+  "tags": ["present_perfect", "experiences", "life_events", "grammar"],
+
+  "grammar": {
+    "point": "Present Perfect: for/since, yet/already/just, ever/never",
+    "rules": [
+      {
+        "id": "pack-000021:grammar-rule-001",
+        "title": "For (duration) vs. Since (starting point)",
+        "explanation": "Use 'for' with a period of time (for 5 years). Use 'since' with a point in time (since 2020).",
+        "examples": ["I've lived here for 10 years.", "She's worked here since 2018.", "We've been married for 25 years."],
+        "koreanTip": "'for'는 기간(for 3 days), 'since'는 시작점(since Monday)에 써요. 이 둘을 헷갈리지 마세요!"
+      },
+      {
+        "id": "pack-000021:grammar-rule-002",
+        "title": "Yet, Already, Just",
+        "explanation": "'Yet' (in questions/negatives = up to now), 'Already' (sooner than expected), 'Just' (very recently).",
+        "examples": ["Have you finished yet?", "I've already done my homework.", "She's just arrived.", "They haven't called yet."],
+        "koreanTip": "'yet'은 의문문/부정문 끝에, 'already'는 긍정문에서 have와 pp 사이에, 'just'는 방금이라는 의미로 have 다음에 와요."
+      },
+      {
+        "id": "pack-000021:grammar-rule-003",
+        "title": "Ever/Never for life experiences",
+        "explanation": "'Ever' is used in questions to ask about life experience. 'Never' means 'at no time in your life'.",
+        "examples": ["Have you ever tried skydiving?", "I've never been to Africa.", "This is the best book I've ever read."],
+        "koreanTip": "'ever'는 '지금까지 한 번이라도'라는 뜻으로 의문문에서, 'never'는 '한 번도 ~않았다'는 부정의 의미로 써요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000021:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "I've worked at this company ___ 2015.",
+        "options": ["for", "since", "during", "from"],
+        "correctAnswer": "since",
+        "explanation": "2015 is a point in time, so use 'since'.",
+        "koreanTip": "2015는 시작 시점이므로 'since'를 써요."
+      },
+      {
+        "id": "pack-000021:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "She's ___ finished her presentation. It looks great!",
+        "options": ["yet", "already", "still", "for"],
+        "correctAnswer": "already",
+        "explanation": "'Already' indicates something happened sooner than expected.",
+        "koreanTip": "예상보다 빨리 끝났다는 의미로 'already'를 써요."
+      },
+      {
+        "id": "pack-000021:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "Have you ___ eaten Korean food?",
+        "options": ["never", "ever", "already", "yet"],
+        "correctAnswer": "ever",
+        "explanation": "'Ever' is used in questions about life experience.",
+        "koreanTip": "경험을 묻는 의문문에서는 'ever'를 써요."
+      },
+      {
+        "id": "pack-000021:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which sentence is correct?",
+        "options": ["I've known him since 5 years.", "I've known him for 5 years.", "I know him for 5 years.", "I've known him from 5 years."],
+        "correctAnswer": "I've known him for 5 years.",
+        "explanation": "Use 'for' with a duration (5 years) and present perfect with 'for/since'."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000021:vocab-001",
+        "word": "achievement",
+        "pronunciation": "/əˈtʃiːvmənt/",
+        "meaning": "something successful you have done",
+        "meaningKo": "성취, 업적",
+        "partOfSpeech": "noun",
+        "examples": ["Graduating was my biggest achievement.", "What are you most proud of achieving?"],
+        "koreanTip": "'achieve(성취하다)'의 명사형이에요"
+      },
+      {
+        "id": "pack-000021:vocab-002",
+        "word": "accomplish",
+        "pronunciation": "/əˈkɑːmplɪʃ/",
+        "meaning": "to succeed in doing something",
+        "meaningKo": "성취하다, 이루다",
+        "partOfSpeech": "verb",
+        "examples": ["I've accomplished all my goals this year.", "She's accomplished a lot in her career."],
+        "koreanTip": "'achieve'와 비슷한 의미로 '(어려운 일을) 해내다'라는 뜻"
+      },
+      {
+        "id": "pack-000021:vocab-003",
+        "word": "opportunity",
+        "pronunciation": "/ˌɑːpərˈtuːnəti/",
+        "meaning": "a chance to do something",
+        "meaningKo": "기회",
+        "partOfSpeech": "noun",
+        "examples": ["I've never had the opportunity to travel abroad.", "This is a great opportunity."],
+        "koreanTip": "'chance'보다 좀 더 formal한 표현이에요"
+      },
+      {
+        "id": "pack-000021:vocab-004",
+        "word": "regret",
+        "pronunciation": "/rɪˈɡret/",
+        "meaning": "to feel sorry about something",
+        "meaningKo": "후회하다, 유감",
+        "partOfSpeech": "verb/noun",
+        "examples": ["I've always regretted not learning to play piano.", "I have no regrets about my decision."],
+        "koreanTip": "'regret + -ing'는 '~한 것을 후회하다', 'regret + to부정사'는 '유감스럽게도 ~하다'"
+      },
+      {
+        "id": "pack-000021:vocab-005",
+        "word": "experience",
+        "pronunciation": "/ɪkˈspɪriəns/",
+        "meaning": "something that happens to you that affects how you feel",
+        "meaningKo": "경험",
+        "partOfSpeech": "noun/verb",
+        "examples": ["I've had many interesting experiences.", "Have you ever experienced an earthquake?"],
+        "koreanTip": "셀 수 있는 명사(an experience)로도, 셀 수 없는 명사(work experience)로도 쓰여요"
+      }
+    ],
+    "collocations": ["gain experience", "life-changing experience", "once-in-a-lifetime", "have the opportunity", "accomplish a goal"]
+  },
+
+  "reading": {
+    "id": "pack-000021:reading",
+    "title": "Looking Back at Life",
+    "passage": "I've just turned 50, and I've been reflecting on my life. Since I was young, I've always wanted to make a difference in the world. I've worked as a doctor for 25 years now, and I've treated thousands of patients. Some days have been incredibly hard, but I've never regretted my career choice. I've had the opportunity to work in several countries, including Kenya and India. I've already published three research papers, and I'm currently working on a fourth. However, there are things I haven't accomplished yet. I've never written a book, though I've always wanted to. I haven't traveled to South America either. But I've learned that it's never too late to try new things. The best experiences are still ahead of me!",
+    "wordCount": 130,
+    "questions": [
+      {
+        "id": "pack-000021:reading-q-001",
+        "type": "comprehension",
+        "question": "How long has the writer worked as a doctor?",
+        "options": ["15 years", "20 years", "25 years", "50 years"],
+        "correctAnswer": "25 years",
+        "explanation": "The passage says 'I've worked as a doctor for 25 years now.'"
+      },
+      {
+        "id": "pack-000021:reading-q-002",
+        "type": "comprehension",
+        "question": "What hasn't the writer done yet?",
+        "options": ["Published research papers", "Worked in Kenya", "Written a book", "Treated patients"],
+        "correctAnswer": "Written a book",
+        "explanation": "The passage says 'I've never written a book, though I've always wanted to.'"
+      },
+      {
+        "id": "pack-000021:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'reflecting on' mean?",
+        "options": ["Forgetting about", "Thinking carefully about", "Complaining about", "Running away from"],
+        "correctAnswer": "Thinking carefully about",
+        "explanation": "'Reflecting on' means thinking deeply about something, especially the past."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000021:listening",
+    "title": "A Life Full of Adventures",
+    "script": "So, tell me about your travels. Have you been to many countries? Yes, I've been to over 30 countries so far! Wow, that's amazing! What's the most interesting place you've ever visited? Hmm, I'd say Bhutan. I've never experienced such a peaceful culture before. Have you been there for a long time? I stayed there for about two weeks. I've just returned from there, actually. Just last month! What about you? Have you traveled much? I haven't had many opportunities yet. I've only been to Japan and Thailand. But I've always wanted to visit South America. You should! I've been to Peru, and it was incredible.",
+    "audioUrl": null,
+    "duration": 50,
+    "exercises": [
+      {
+        "id": "pack-000021:listening-ex-001",
+        "type": "comprehension",
+        "question": "How many countries has the first speaker visited?",
+        "options": ["About 20", "Over 30", "Exactly 25", "Less than 10"],
+        "correctAnswer": "Over 30",
+        "explanation": "The speaker says 'I've been to over 30 countries so far!'"
+      },
+      {
+        "id": "pack-000021:listening-ex-002",
+        "type": "fill_blank",
+        "question": "The most interesting place the speaker visited was ___.",
+        "options": ["Japan", "Peru", "Thailand", "Bhutan"],
+        "correctAnswer": "Bhutan",
+        "explanation": "The speaker says 'I'd say Bhutan' when asked about the most interesting place."
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000021:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Write about your life experiences using present perfect.",
+      "template": "I've been [ACTIVITY] for [DURATION]. Since [TIME], I've [ACHIEVEMENT]. I've already [ACCOMPLISHMENT], but I haven't [NOT YET] yet. The best experience I've ever had was [EXPERIENCE]. I've never [NEVER DONE], but I'd love to try it someday.",
+      "slots": [
+        { "name": "ACTIVITY", "hint": "studying/working/living" },
+        { "name": "DURATION", "hint": "how long (5 years, 10 months)" },
+        { "name": "TIME", "hint": "starting point (2020, I was young)" },
+        { "name": "ACHIEVEMENT", "hint": "what you've achieved" },
+        { "name": "ACCOMPLISHMENT", "hint": "something you've already done" },
+        { "name": "NOT YET", "hint": "something you haven't done yet" },
+        { "name": "EXPERIENCE", "hint": "best experience" },
+        { "name": "NEVER DONE", "hint": "something you've never done" }
+      ],
+      "correctExample": "I've been learning English for 5 years. Since I started studying, I've improved a lot. I've already passed the TOEIC test, but I haven't spoken with a native speaker yet. The best experience I've ever had was traveling to Australia. I've never tried skydiving, but I'd love to try it someday."
+    },
+    "free": {
+      "id": "pack-000021:writing-free",
+      "topic": "Your Life Experiences",
+      "prompt": "Write about your experiences using present perfect. Include what you have done, what you haven't done yet, and what you've never tried. Use for/since, yet/already/just, and ever/never.",
+      "minWords": 80,
+      "maxWords": 150,
+      "checklist": [
+        { "item": "Use 'for' and 'since' correctly", "required": true },
+        { "item": "Use 'yet', 'already', or 'just' at least once", "required": true },
+        { "item": "Use 'ever' or 'never' at least once", "required": true },
+        { "item": "Describe at least 3 different experiences", "required": true }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000021:speaking-shadow",
+      "sentence": "I've been studying English for over five years, but I haven't had many opportunities to practice speaking yet. I've always wanted to study abroad.",
+      "pronunciation": "/aɪv biːn ˈstʌdiɪŋ ˈɪŋɡlɪʃ fɔːr ˈoʊvər faɪv jɪrz bət aɪ ˈhævnt hæd ˈmeni ˌɑːpərˈtuːnɪtiz tuː ˈpræktɪs ˈspiːkɪŋ jet aɪv ˈɔːlweɪz ˈwɑːntɪd tuː ˈstʌdi əˈbrɔːd/",
+      "audioUrl": null,
+      "koreanTip": "'haven't had'에서 't'는 거의 들리지 않아요. '해븐 해드'처럼 연음으로 발음해요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000021:speaking-roleplay",
+      "scenario": "You are talking about your experiences at a networking event.",
+      "role": "You",
+      "partnerRole": "New acquaintance",
+      "prompts": [
+        { "speaker": "partner", "text": "So, how long have you been working in your field?" },
+        { "speaker": "user", "text": "I've been working in ___ for ___.", "hint": "Field + duration" },
+        { "speaker": "partner", "text": "Have you always worked here in Korea?" },
+        { "speaker": "user", "text": "No, I've also worked in ___. / Yes, I've never worked abroad.", "hint": "Experience" },
+        { "speaker": "partner", "text": "What's the most interesting project you've ever worked on?" },
+        { "speaker": "user", "text": "The most interesting project I've ever ___ was ___.", "hint": "Describe" }
+      ],
+      "checklistItems": ["Use present perfect correctly", "Use 'for' with duration", "Use 'ever/never' for experiences"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000021:korean-error-001",
+      "category": "grammar",
+      "errorExample": "I've known him since 5 years.",
+      "correctForm": "I've known him for 5 years.",
+      "explanation": "'Since' requires a point in time, not a duration. Use 'for' with durations.",
+      "tip": "'since'는 시점(since 2020), 'for'는 기간(for 5 years)에 써요. 이 둘을 헷갈리면 안 돼요!"
+    },
+    {
+      "id": "pack-000021:korean-error-002",
+      "category": "grammar",
+      "errorExample": "I've already finished yet.",
+      "correctForm": "I've already finished. / I haven't finished yet.",
+      "explanation": "'Already' is for positive sentences, 'yet' is for negatives and questions.",
+      "tip": "'already'와 'yet'을 같이 쓰면 안 돼요. 긍정문에는 'already', 부정문/의문문에는 'yet'을 써요."
+    },
+    {
+      "id": "pack-000021:korean-error-003",
+      "category": "grammar",
+      "errorExample": "I'm living here for 10 years.",
+      "correctForm": "I've been living here for 10 years. / I've lived here for 10 years.",
+      "explanation": "Use present perfect (continuous) with 'for' to show an action that started in the past and continues now.",
+      "tip": "과거부터 지금까지 계속되는 상황은 현재시제가 아니라 현재완료를 써야 해요!"
+    }
+  ]
+}

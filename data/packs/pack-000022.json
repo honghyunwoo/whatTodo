@@ -1,0 +1,277 @@
+{
+  "id": "pack-000022",
+  "level": "B1",
+  "topic": "Conditional Sentences",
+  "canDo": "I can talk about real and imaginary situations using conditional sentences.",
+  "functionId": "hypothesis",
+  "difficulty": 6,
+  "skills": ["grammar", "vocab", "reading", "writing"],
+  "estimatedMinutes": 25,
+  "tags": ["conditionals", "grammar", "hypothetical", "real_situations"],
+
+  "grammar": {
+    "point": "Zero, First, and Second Conditionals",
+    "rules": [
+      {
+        "id": "pack-000022:grammar-rule-001",
+        "title": "Zero Conditional: General truths",
+        "explanation": "If + present simple, present simple. Used for facts and things that are always true.",
+        "examples": ["If you heat water to 100 degrees, it boils.", "If it rains, the ground gets wet.", "Plants die if they don't get water."],
+        "koreanTip": "영구적인 사실이나 자연법칙에 써요. 'If'를 'When'으로 바꿔도 의미가 같아요."
+      },
+      {
+        "id": "pack-000022:grammar-rule-002",
+        "title": "First Conditional: Real possibilities",
+        "explanation": "If + present simple, will + verb. Used for real/possible situations in the future.",
+        "examples": ["If it rains tomorrow, I'll stay home.", "If you study hard, you will pass the exam.", "She'll be late if she doesn't hurry."],
+        "koreanTip": "미래에 실제로 일어날 수 있는 상황에 써요. If절은 현재시제, 주절은 will을 씁니다."
+      },
+      {
+        "id": "pack-000022:grammar-rule-003",
+        "title": "Second Conditional: Imaginary situations",
+        "explanation": "If + past simple, would + verb. Used for unreal/imaginary situations now or in the future.",
+        "examples": ["If I had a million dollars, I would buy a house.", "If I were you, I would accept the offer.", "What would you do if you won the lottery?"],
+        "koreanTip": "현실과 다른 가정이나 상상에 써요. 'If I were you'처럼 'were'를 써요 (was도 가능하지만 were가 더 formal해요)."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000022:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "If you ___ water to 100 degrees, it boils.",
+        "options": ["will heat", "heat", "heated", "would heat"],
+        "correctAnswer": "heat",
+        "explanation": "This is a zero conditional (general truth), so use present simple in both clauses.",
+        "koreanTip": "물이 끓는 것은 과학적 사실이므로 zero conditional을 써요."
+      },
+      {
+        "id": "pack-000022:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "If it rains tomorrow, I ___ at home.",
+        "options": ["stay", "stayed", "will stay", "would stay"],
+        "correctAnswer": "will stay",
+        "explanation": "This is a first conditional (real possibility), so use 'will + verb' in the main clause.",
+        "koreanTip": "내일 비가 오는 것은 가능한 일이므로 first conditional을 써요."
+      },
+      {
+        "id": "pack-000022:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "If I ___ a lot of money, I would travel around the world.",
+        "options": ["have", "will have", "had", "would have"],
+        "correctAnswer": "had",
+        "explanation": "This is a second conditional (imaginary situation), so use past simple in the if-clause.",
+        "koreanTip": "현재 돈이 많지 않은 가정이므로 second conditional을 써요. If절에는 과거형을 씁니다."
+      },
+      {
+        "id": "pack-000022:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which sentence is correct?",
+        "options": ["If I would be you, I would quit.", "If I was you, I would quit.", "If I am you, I will quit.", "If I were you, I would quit."],
+        "correctAnswer": "If I were you, I would quit.",
+        "explanation": "For 'If I were you', use 'were' (not 'was') for the subjunctive mood."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000022:vocab-001",
+        "word": "unless",
+        "pronunciation": "/ənˈles/",
+        "meaning": "if not; except if",
+        "meaningKo": "~하지 않는 한, ~가 아니면",
+        "partOfSpeech": "conjunction",
+        "examples": ["I won't go unless you come with me.", "Unless it rains, we'll have a picnic."],
+        "koreanTip": "'unless'는 'if... not'과 같은 의미예요. 부정의 조건을 나타내요."
+      },
+      {
+        "id": "pack-000022:vocab-002",
+        "word": "imagine",
+        "pronunciation": "/ɪˈmædʒɪn/",
+        "meaning": "to form a picture in your mind",
+        "meaningKo": "상상하다",
+        "partOfSpeech": "verb",
+        "examples": ["Imagine if you could fly!", "I can't imagine life without my phone."],
+        "koreanTip": "'Imagine if...'로 가정 상황을 소개할 수 있어요"
+      },
+      {
+        "id": "pack-000022:vocab-003",
+        "word": "suppose",
+        "pronunciation": "/səˈpoʊz/",
+        "meaning": "to assume something is true",
+        "meaningKo": "가정하다, ~라고 생각하다",
+        "partOfSpeech": "verb",
+        "examples": ["Suppose you won the lottery, what would you do?", "I suppose you're right."],
+        "koreanTip": "'Suppose...'로 가정문을 시작할 수 있어요 (= If...)"
+      },
+      {
+        "id": "pack-000022:vocab-004",
+        "word": "consequence",
+        "pronunciation": "/ˈkɑːnsɪkwens/",
+        "meaning": "a result of an action",
+        "meaningKo": "결과",
+        "partOfSpeech": "noun",
+        "examples": ["Every action has consequences.", "What are the consequences of this decision?"],
+        "koreanTip": "보통 부정적인 결과를 나타낼 때 많이 써요"
+      },
+      {
+        "id": "pack-000022:vocab-005",
+        "word": "realistic",
+        "pronunciation": "/ˌriːəˈlɪstɪk/",
+        "meaning": "practical and sensible; likely to happen",
+        "meaningKo": "현실적인",
+        "partOfSpeech": "adjective",
+        "examples": ["Is this plan realistic?", "We need to be realistic about our goals."],
+        "koreanTip": "'real(실제)'에서 나온 형용사로 '현실에 맞는'이라는 뜻"
+      }
+    ],
+    "collocations": ["as long as", "provided that", "on the condition that", "in case", "what if"]
+  },
+
+  "reading": {
+    "id": "pack-000022:reading",
+    "title": "If I Could Change One Thing",
+    "passage": "If you could change one thing about the world, what would it be? This is a question I often think about. If I had the power to change anything, I would end world hunger. Millions of people go hungry every day, and this shouldn't happen in our modern world. If governments worked together, they could solve this problem. If we reduced food waste, there would be enough food for everyone. Some people might say this isn't realistic. They would argue that if it were easy, someone would have done it already. However, I believe that if we don't try, nothing will change. Unless we take action, problems like hunger will continue. If everyone contributed a little, we could make a big difference.",
+    "wordCount": 130,
+    "questions": [
+      {
+        "id": "pack-000022:reading-q-001",
+        "type": "comprehension",
+        "question": "What would the writer change if they had the power?",
+        "options": ["Climate change", "Poverty", "World hunger", "War"],
+        "correctAnswer": "World hunger",
+        "explanation": "The passage says 'I would end world hunger.'"
+      },
+      {
+        "id": "pack-000022:reading-q-002",
+        "type": "comprehension",
+        "question": "What does the writer believe?",
+        "options": ["The problem is too big", "We shouldn't try", "If we don't try, nothing will change", "It's someone else's responsibility"],
+        "correctAnswer": "If we don't try, nothing will change",
+        "explanation": "The passage says 'if we don't try, nothing will change.'"
+      },
+      {
+        "id": "pack-000022:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'Unless we take action' mean?",
+        "options": ["If we take action", "If we don't take action", "When we take action", "Because we take action"],
+        "correctAnswer": "If we don't take action",
+        "explanation": "'Unless' means 'if... not', so 'unless we take action' means 'if we don't take action'."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000022:listening",
+    "title": "What Would You Do?",
+    "script": "If you could have any superpower, what would you choose? Oh, that's a tough question. If I could choose any power, I would choose to be invisible. Really? Why invisibility? Well, if I were invisible, I could travel anywhere without paying for tickets! That's a funny reason! What about you? If I had a superpower, I'd want to fly. If I could fly, I would never have to deal with traffic again. True! What would you do if you could read minds? Hmm, if I could read minds, I think I would probably go crazy! There are some things you're better off not knowing. Good point!",
+    "audioUrl": null,
+    "duration": 50,
+    "exercises": [
+      {
+        "id": "pack-000022:listening-ex-001",
+        "type": "comprehension",
+        "question": "What superpower would the first speaker choose?",
+        "options": ["Flying", "Reading minds", "Invisibility", "Super strength"],
+        "correctAnswer": "Invisibility",
+        "explanation": "The speaker says 'I would choose to be invisible.'"
+      },
+      {
+        "id": "pack-000022:listening-ex-002",
+        "type": "fill_blank",
+        "question": "If the second speaker could fly, they would never have to deal with ___.",
+        "options": ["work", "traffic", "bills", "homework"],
+        "correctAnswer": "traffic",
+        "explanation": "The speaker says 'I would never have to deal with traffic again.'"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000022:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Write about hypothetical situations using conditionals.",
+      "template": "If I [PAST VERB] [SITUATION], I would [RESULT1]. If this happened, [CONSEQUENCE]. However, in reality, if [REAL CONDITION], [WILL RESULT]. Unless [NEGATIVE CONDITION], [OUTCOME]. This is what I would do if I [COULD/HAD].",
+      "slots": [
+        { "name": "PAST VERB", "hint": "had/could/were" },
+        { "name": "SITUATION", "hint": "imaginary situation" },
+        { "name": "RESULT1", "hint": "what you would do" },
+        { "name": "CONSEQUENCE", "hint": "what would happen" },
+        { "name": "REAL CONDITION", "hint": "real/possible situation" },
+        { "name": "WILL RESULT", "hint": "real result (will + verb)" },
+        { "name": "NEGATIVE CONDITION", "hint": "unless + action" },
+        { "name": "OUTCOME", "hint": "what will happen" },
+        { "name": "COULD/HAD", "hint": "finish the sentence" }
+      ],
+      "correctExample": "If I had more free time, I would learn to play the guitar. If this happened, I could play songs for my friends. However, in reality, if I wake up earlier, I will have more time to practice. Unless I make time for hobbies, I will always be too busy. This is what I would do if I could manage my time better."
+    },
+    "free": {
+      "id": "pack-000022:writing-free",
+      "topic": "If I Could Change My Life",
+      "prompt": "Write about what you would change in your life if you could. Use zero, first, and second conditionals. Explain the imaginary situation and its consequences.",
+      "minWords": 80,
+      "maxWords": 150,
+      "checklist": [
+        { "item": "Use at least one zero conditional (general truth)", "required": true },
+        { "item": "Use at least one first conditional (real possibility)", "required": true },
+        { "item": "Use at least one second conditional (imaginary)", "required": true },
+        { "item": "Use 'unless' or 'as long as' at least once", "required": false }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000022:speaking-shadow",
+      "sentence": "If I won the lottery, I would quit my job and travel around the world. But realistically, if I save enough money, I'll be able to take a nice vacation next year.",
+      "pronunciation": "/ɪf aɪ wʌn ðə ˈlɑːtəri aɪ wʊd kwɪt maɪ dʒɑːb ænd ˈtrævəl əˈraʊnd ðə wɜːrld bət ˌriːəˈlɪstɪkli ɪf aɪ seɪv ɪˈnʌf ˈmʌni aɪl biː ˈeɪbl tuː teɪk ə naɪs veɪˈkeɪʃən nekst jɪr/",
+      "audioUrl": null,
+      "koreanTip": "'would'는 약하게 '우드' 또는 '얻'처럼 발음해요. 'I would'는 'I'd'로 줄여서 말할 수 있어요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000022:speaking-roleplay",
+      "scenario": "You are playing a 'What would you do?' game with friends.",
+      "role": "Player",
+      "partnerRole": "Friend",
+      "prompts": [
+        { "speaker": "partner", "text": "What would you do if you found a wallet with $1000 in it?" },
+        { "speaker": "user", "text": "If I found a wallet with that much money, I would ___.", "hint": "Describe what you'd do" },
+        { "speaker": "partner", "text": "Really? What if there was no ID inside?" },
+        { "speaker": "user", "text": "Well, if there were no ID, I would probably ___.", "hint": "Different action" },
+        { "speaker": "partner", "text": "What about in real life? If you found $20 on the street?" },
+        { "speaker": "user", "text": "If I find $20 on the street, I'll ___.", "hint": "Use first conditional" }
+      ],
+      "checklistItems": ["Use second conditional for imaginary situations", "Use first conditional for real possibilities", "Explain your reasoning"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000022:korean-error-001",
+      "category": "grammar",
+      "errorExample": "If I will have time, I will call you.",
+      "correctForm": "If I have time, I will call you.",
+      "explanation": "Don't use 'will' in the if-clause. Use present simple.",
+      "tip": "If절에는 'will'을 쓰지 않아요! 'If I will...' (X) -> 'If I...' (O)"
+    },
+    {
+      "id": "pack-000022:korean-error-002",
+      "category": "grammar",
+      "errorExample": "If I had money, I will buy a car.",
+      "correctForm": "If I had money, I would buy a car.",
+      "explanation": "Second conditional requires 'would' in the main clause, not 'will'.",
+      "tip": "가정법(second conditional)에서는 If절에 과거형, 주절에 'would'를 써야 해요."
+    },
+    {
+      "id": "pack-000022:korean-error-003",
+      "category": "usage",
+      "errorExample": "Unless you don't hurry, you'll be late.",
+      "correctForm": "Unless you hurry, you'll be late.",
+      "explanation": "'Unless' already means 'if not', so don't add another negative.",
+      "tip": "'unless'는 이미 부정의 의미가 있어요. 'unless you don't'처럼 이중부정을 쓰면 안 돼요."
+    }
+  ]
+}

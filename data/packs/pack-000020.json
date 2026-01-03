@@ -1,0 +1,275 @@
+{
+  "id": "pack-000020",
+  "level": "A2",
+  "topic": "Expressing Opinions",
+  "canDo": "I can express my opinions and agree or disagree with others politely.",
+  "functionId": "opinion",
+  "difficulty": 5,
+  "skills": ["grammar", "vocab", "speaking", "listening"],
+  "estimatedMinutes": 20,
+  "tags": ["opinions", "discussion", "agreement", "disagreement"],
+
+  "grammar": {
+    "point": "Phrases for opinions, agreement, and disagreement",
+    "rules": [
+      {
+        "id": "pack-000020:grammar-rule-001",
+        "title": "Expressing opinions",
+        "explanation": "Use 'I think', 'I believe', 'In my opinion' to introduce your viewpoint.",
+        "examples": ["I think this is a good idea.", "In my opinion, we should wait.", "I believe everyone should learn a language."],
+        "koreanTip": "'I think (that)...'이 가장 일반적이에요. 'that'은 생략 가능해요."
+      },
+      {
+        "id": "pack-000020:grammar-rule-002",
+        "title": "Agreeing with others",
+        "explanation": "Use 'I agree', 'That's true', 'You're right', 'I think so too' to show agreement.",
+        "examples": ["I agree with you.", "That's a good point.", "You're absolutely right.", "I couldn't agree more."],
+        "koreanTip": "'I agree'는 '동의해요', 'I couldn't agree more'는 '완전히 동의해요'라는 강한 표현이에요."
+      },
+      {
+        "id": "pack-000020:grammar-rule-003",
+        "title": "Politely disagreeing",
+        "explanation": "Use 'I'm not sure about that', 'I see your point, but...', 'I'm afraid I disagree' to disagree politely.",
+        "examples": ["I see your point, but I think differently.", "I'm not sure I agree.", "I'm afraid I have a different opinion."],
+        "koreanTip": "'I disagree'만 쓰면 너무 직접적이에요. 'I'm not sure...'나 'I see your point, but...'로 부드럽게 반대의견을 말하세요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000020:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "___ my opinion, learning English is important for everyone.",
+        "options": ["To", "In", "For", "At"],
+        "correctAnswer": "In",
+        "explanation": "The correct phrase is 'In my opinion'.",
+        "koreanTip": "'In my opinion'은 '내 생각에는'이라는 뜻이에요."
+      },
+      {
+        "id": "pack-000020:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "A: I think we should take a break. B: I ___ with you.",
+        "options": ["agree", "agreeing", "agreed", "agrees"],
+        "correctAnswer": "agree",
+        "explanation": "Use 'I agree' to show agreement.",
+        "koreanTip": "동의할 때는 'I agree with you'라고 해요."
+      },
+      {
+        "id": "pack-000020:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "I ___ your point, but I have a different opinion.",
+        "options": ["look", "see", "watch", "view"],
+        "correctAnswer": "see",
+        "explanation": "'I see your point' is a polite way to acknowledge someone's view before disagreeing.",
+        "koreanTip": "'I see your point'는 '당신 말에 일리가 있어요'라는 뜻이에요."
+      },
+      {
+        "id": "pack-000020:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which is the most polite way to disagree?",
+        "options": ["You're wrong.", "I disagree.", "I'm not sure about that.", "That's stupid."],
+        "correctAnswer": "I'm not sure about that.",
+        "explanation": "'I'm not sure about that' is a polite and indirect way to disagree."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000020:vocab-001",
+        "word": "opinion",
+        "pronunciation": "/əˈpɪnjən/",
+        "meaning": "a personal view or judgment",
+        "meaningKo": "의견",
+        "partOfSpeech": "noun",
+        "examples": ["What's your opinion on this?", "In my opinion, it's too expensive."],
+        "koreanTip": "'What's your opinion?'은 '당신 의견은 어때요?'라는 뜻"
+      },
+      {
+        "id": "pack-000020:vocab-002",
+        "word": "point of view",
+        "pronunciation": "/pɔɪnt əv vjuː/",
+        "meaning": "a particular way of looking at something",
+        "meaningKo": "관점",
+        "partOfSpeech": "noun phrase",
+        "examples": ["I understand your point of view.", "From my point of view, it's a bad idea."],
+        "koreanTip": "'관점'이라는 뜻으로 'perspective'와 비슷해요"
+      },
+      {
+        "id": "pack-000020:vocab-003",
+        "word": "definitely",
+        "pronunciation": "/ˈdefɪnɪtli/",
+        "meaning": "certainly, for sure",
+        "meaningKo": "확실히, 분명히",
+        "partOfSpeech": "adverb",
+        "examples": ["I definitely agree.", "That's definitely a good point."],
+        "koreanTip": "강한 동의나 확신을 표현할 때 써요"
+      },
+      {
+        "id": "pack-000020:vocab-004",
+        "word": "personally",
+        "pronunciation": "/ˈpɜːrsənəli/",
+        "meaning": "speaking for oneself",
+        "meaningKo": "개인적으로",
+        "partOfSpeech": "adverb",
+        "examples": ["Personally, I prefer coffee to tea.", "I personally think it's a mistake."],
+        "koreanTip": "개인적인 의견임을 강조할 때 문장 앞에 써요"
+      },
+      {
+        "id": "pack-000020:vocab-005",
+        "word": "absolutely",
+        "pronunciation": "/ˈæbsəluːtli/",
+        "meaning": "completely; used to strongly agree",
+        "meaningKo": "절대적으로, 완전히 (강한 동의)",
+        "partOfSpeech": "adverb",
+        "examples": ["A: Is this important? B: Absolutely!", "You're absolutely right."],
+        "koreanTip": "'Absolutely!'만으로도 강한 동의를 표현할 수 있어요"
+      }
+    ],
+    "collocations": ["I think (that)", "in my opinion", "I believe (that)", "from my point of view", "as far as I'm concerned"]
+  },
+
+  "reading": {
+    "id": "pack-000020:reading",
+    "title": "Should Students Wear Uniforms?",
+    "passage": "There is a debate about whether students should wear uniforms to school. Some people think uniforms are a good idea. In their opinion, uniforms create equality among students because everyone wears the same clothes. They also believe that uniforms help students focus on studying instead of fashion. However, others disagree. They argue that uniforms limit students' freedom of expression. From their point of view, students should be able to choose their own clothes. Personally, I think both sides have good points. Uniforms can be helpful, but I believe students should also have some freedom to express themselves. What's your opinion on this topic?",
+    "wordCount": 105,
+    "questions": [
+      {
+        "id": "pack-000020:reading-q-001",
+        "type": "comprehension",
+        "question": "According to the passage, why do some people support uniforms?",
+        "options": ["They're fashionable", "They create equality", "They're more comfortable", "They're cheaper"],
+        "correctAnswer": "They create equality",
+        "explanation": "The passage says uniforms 'create equality among students.'"
+      },
+      {
+        "id": "pack-000020:reading-q-002",
+        "type": "comprehension",
+        "question": "What do opponents of uniforms believe?",
+        "options": ["Uniforms are too expensive", "Uniforms limit freedom of expression", "Uniforms are uncomfortable", "Uniforms are old-fashioned"],
+        "correctAnswer": "Uniforms limit freedom of expression",
+        "explanation": "The passage says 'uniforms limit students' freedom of expression.'"
+      },
+      {
+        "id": "pack-000020:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'debate' mean?",
+        "options": ["Agreement", "Discussion with different opinions", "Celebration", "Competition"],
+        "correctAnswer": "Discussion with different opinions",
+        "explanation": "'Debate' is a discussion where people have different views on a topic."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000020:listening",
+    "title": "Discussing Weekend Plans",
+    "script": "Hey, what should we do this weekend? I think we should go hiking. The weather is supposed to be nice. Hmm, I'm not sure about that. I find hiking a bit tiring. What about going to a movie instead? I see your point, but we always go to the movies. How about a compromise? We could go to the beach. That way, we can enjoy the outdoors and relax at the same time. That's a good idea! I agree. The beach sounds perfect. Personally, I'd love to try that new seafood restaurant nearby too. Absolutely! Let's do that for lunch. Sounds like a plan!",
+    "audioUrl": null,
+    "duration": 40,
+    "exercises": [
+      {
+        "id": "pack-000020:listening-ex-001",
+        "type": "comprehension",
+        "question": "What does the first person suggest?",
+        "options": ["Going to a movie", "Going hiking", "Going to the beach", "Going to a restaurant"],
+        "correctAnswer": "Going hiking",
+        "explanation": "The first person says 'I think we should go hiking.'"
+      },
+      {
+        "id": "pack-000020:listening-ex-002",
+        "type": "fill_blank",
+        "question": "The second person finds hiking a bit ___.",
+        "options": ["expensive", "boring", "tiring", "scary"],
+        "correctAnswer": "tiring",
+        "explanation": "The second person says 'I find hiking a bit tiring.'"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000020:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Write your opinion on a topic using the template.",
+      "template": "There are different opinions about [TOPIC]. Some people think that [OPINION1]. They believe [REASON1]. However, others argue that [OPINION2]. From their point of view, [REASON2]. Personally, I think [YOUR OPINION] because [YOUR REASON]. Overall, this is an interesting topic to discuss.",
+      "slots": [
+        { "name": "TOPIC", "hint": "A debatable topic" },
+        { "name": "OPINION1", "hint": "One side's view" },
+        { "name": "REASON1", "hint": "Why they think so" },
+        { "name": "OPINION2", "hint": "The other side's view" },
+        { "name": "REASON2", "hint": "Why they think so" },
+        { "name": "YOUR OPINION", "hint": "What you think" },
+        { "name": "YOUR REASON", "hint": "Why you think so" }
+      ],
+      "correctExample": "There are different opinions about online learning. Some people think that online learning is very convenient. They believe it saves time and allows flexibility. However, others argue that it's not as effective as in-person classes. From their point of view, students need face-to-face interaction. Personally, I think online learning can be good if students are motivated because they can learn at their own pace. Overall, this is an interesting topic to discuss."
+    },
+    "free": {
+      "id": "pack-000020:writing-free",
+      "topic": "Express Your Opinion",
+      "prompt": "Choose a topic (e.g., social media, homework, school lunch) and write your opinion. Include at least one reason for your opinion and acknowledge the opposite view.",
+      "minWords": 60,
+      "maxWords": 120,
+      "checklist": [
+        { "item": "Use 'I think' or 'In my opinion'", "required": true },
+        { "item": "Give at least one reason for your opinion", "required": true },
+        { "item": "Acknowledge the opposite view", "required": true },
+        { "item": "Use polite language for disagreement", "required": false }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000020:speaking-shadow",
+      "sentence": "I see your point, but I personally think we should consider other options before making a final decision.",
+      "pronunciation": "/aɪ siː jɔːr pɔɪnt bət aɪ ˈpɜːrsənəli θɪŋk wiː ʃʊd kənˈsɪdər ˈʌðər ˈɑːpʃənz bɪˈfɔːr ˈmeɪkɪŋ ə ˈfaɪnəl dɪˈsɪʒən/",
+      "audioUrl": null,
+      "koreanTip": "'I see your point'를 자연스럽게 빠르게 말하면 '아이 시 열 포인트'처럼 들려요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000020:speaking-roleplay",
+      "scenario": "You are discussing with a friend whether to eat at home or go to a restaurant.",
+      "role": "You",
+      "partnerRole": "Friend",
+      "prompts": [
+        { "speaker": "partner", "text": "I think we should eat at home tonight. It's cheaper." },
+        { "speaker": "user", "text": "I see your point, but ___.", "hint": "Politely disagree and give your opinion" },
+        { "speaker": "partner", "text": "Why do you think that?" },
+        { "speaker": "user", "text": "In my opinion, ___ because ___.", "hint": "Give your reason" },
+        { "speaker": "partner", "text": "That's a good point. Maybe we could compromise?" },
+        { "speaker": "user", "text": "I agree! How about we ___?", "hint": "Suggest a compromise" }
+      ],
+      "checklistItems": ["Use phrases to express opinions", "Disagree politely", "Give reasons for your views", "Reach a compromise"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000020:korean-error-001",
+      "category": "grammar",
+      "errorExample": "According to me, this is wrong.",
+      "correctForm": "In my opinion, this is wrong.",
+      "explanation": "'According to' is used for other sources, not for yourself.",
+      "tip": "'According to'는 다른 사람이나 자료를 인용할 때 써요. 자신의 의견은 'In my opinion'을 쓰세요."
+    },
+    {
+      "id": "pack-000020:korean-error-002",
+      "category": "usage",
+      "errorExample": "I'm agree with you.",
+      "correctForm": "I agree with you.",
+      "explanation": "'Agree' is a verb, not an adjective. Don't use 'be' with it.",
+      "tip": "'agree'는 동사예요. 'I'm agree'가 아니라 'I agree'가 맞아요."
+    },
+    {
+      "id": "pack-000020:korean-error-003",
+      "category": "usage",
+      "errorExample": "I disagree your opinion.",
+      "correctForm": "I disagree with your opinion.",
+      "explanation": "'Disagree' needs 'with' before the object.",
+      "tip": "'disagree'는 'with'와 함께 써요. 'disagree with + 사람/의견'"
+    }
+  ]
+}

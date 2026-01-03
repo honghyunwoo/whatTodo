@@ -1,0 +1,276 @@
+{
+  "id": "pack-000023",
+  "level": "B1",
+  "topic": "Passive Voice",
+  "canDo": "I can use passive voice to talk about actions when the doer is unknown or unimportant.",
+  "functionId": "description",
+  "difficulty": 6,
+  "skills": ["grammar", "vocab", "reading", "writing"],
+  "estimatedMinutes": 25,
+  "tags": ["passive_voice", "grammar", "formal_writing", "news"],
+
+  "grammar": {
+    "point": "Passive Voice: formation and usage",
+    "rules": [
+      {
+        "id": "pack-000023:grammar-rule-001",
+        "title": "Passive Voice formation",
+        "explanation": "Passive = be + past participle. The tense is shown by the 'be' verb. The object becomes the subject.",
+        "examples": ["The book was written by Shakespeare. (past simple)", "The building is being constructed. (present continuous)", "Mistakes have been made. (present perfect)"],
+        "koreanTip": "수동태는 'be동사 + 과거분사'로 만들어요. 시제는 be동사로 표현하고, 행위자는 'by'로 나타내요."
+      },
+      {
+        "id": "pack-000023:grammar-rule-002",
+        "title": "When to use passive voice",
+        "explanation": "Use passive when: 1) the doer is unknown, 2) the doer is obvious, 3) the action is more important than the doer.",
+        "examples": ["My car was stolen. (unknown doer)", "The criminal was arrested. (obvious: police)", "The pyramids were built 4,500 years ago. (action more important)"],
+        "koreanTip": "행위자가 중요하지 않거나, 모르거나, 너무 명백할 때 수동태를 써요. 뉴스에서 자주 사용해요."
+      },
+      {
+        "id": "pack-000023:grammar-rule-003",
+        "title": "Passive with 'by'",
+        "explanation": "Use 'by' to mention the doer (agent) if important. Often the 'by + agent' is omitted.",
+        "examples": ["The song was sung by Adele.", "This painting was created by Picasso.", "The window was broken. (agent not mentioned)"],
+        "koreanTip": "행위자가 중요하면 'by + 행위자'를 쓰고, 중요하지 않으면 생략해요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000023:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "English ___ in many countries around the world.",
+        "options": ["speaks", "is spoken", "is speaking", "spoke"],
+        "correctAnswer": "is spoken",
+        "explanation": "Use passive (is spoken) because we focus on English, not who speaks it.",
+        "koreanTip": "영어가 '말해지는' 것이므로 수동태 'is spoken'을 써요."
+      },
+      {
+        "id": "pack-000023:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "The new bridge ___ next year.",
+        "options": ["will build", "will be built", "is building", "has built"],
+        "correctAnswer": "will be built",
+        "explanation": "Future passive: will + be + past participle.",
+        "koreanTip": "미래 수동태는 'will be + 과거분사'예요."
+      },
+      {
+        "id": "pack-000023:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "The report ___ by the manager last week.",
+        "options": ["was written", "wrote", "is written", "has written"],
+        "correctAnswer": "was written",
+        "explanation": "Past simple passive: was/were + past participle.",
+        "koreanTip": "과거 수동태는 'was/were + 과거분사'예요."
+      },
+      {
+        "id": "pack-000023:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which sentence is in passive voice?",
+        "options": ["She wrote the email.", "The email was written by her.", "She is writing the email.", "She has written the email."],
+        "correctAnswer": "The email was written by her.",
+        "explanation": "Passive voice has the structure 'be + past participle' and the object becomes the subject."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000023:vocab-001",
+        "word": "manufacture",
+        "pronunciation": "/ˌmænjəˈfæktʃər/",
+        "meaning": "to make goods in large quantities",
+        "meaningKo": "제조하다",
+        "partOfSpeech": "verb",
+        "examples": ["These cars are manufactured in Japan.", "The company manufactures electronic devices."],
+        "koreanTip": "공장에서 대량 생산하는 것을 말해요. 수동태로 자주 써요."
+      },
+      {
+        "id": "pack-000023:vocab-002",
+        "word": "construct",
+        "pronunciation": "/kənˈstrʌkt/",
+        "meaning": "to build something",
+        "meaningKo": "건설하다",
+        "partOfSpeech": "verb",
+        "examples": ["The building was constructed in 2010.", "New roads are being constructed."],
+        "koreanTip": "'build'보다 더 formal한 표현이에요. 수동태로 많이 써요."
+      },
+      {
+        "id": "pack-000023:vocab-003",
+        "word": "establish",
+        "pronunciation": "/ɪˈstæblɪʃ/",
+        "meaning": "to start or create something",
+        "meaningKo": "설립하다",
+        "partOfSpeech": "verb",
+        "examples": ["The company was established in 1950.", "New rules have been established."],
+        "koreanTip": "회사나 제도가 '설립되다'를 표현할 때 자주 수동태로 써요."
+      },
+      {
+        "id": "pack-000023:vocab-004",
+        "word": "discover",
+        "pronunciation": "/dɪˈskʌvər/",
+        "meaning": "to find something for the first time",
+        "meaningKo": "발견하다",
+        "partOfSpeech": "verb",
+        "examples": ["Penicillin was discovered by Alexander Fleming.", "New species are discovered every year."],
+        "koreanTip": "과학적 발견이나 발명에 많이 쓰이고, 수동태로 자주 사용해요."
+      },
+      {
+        "id": "pack-000023:vocab-005",
+        "word": "announce",
+        "pronunciation": "/əˈnaʊns/",
+        "meaning": "to make something known publicly",
+        "meaningKo": "발표하다",
+        "partOfSpeech": "verb",
+        "examples": ["The winner was announced yesterday.", "New policies were announced by the government."],
+        "koreanTip": "공식적인 발표에 쓰이며 뉴스에서 수동태로 자주 나와요."
+      }
+    ],
+    "collocations": ["is considered", "was reported", "has been proven", "will be held", "is believed to be"]
+  },
+
+  "reading": {
+    "id": "pack-000023:reading",
+    "title": "How Coffee Is Made",
+    "passage": "Coffee is one of the most popular drinks in the world, but how is it made? First, coffee beans are grown in tropical regions like Brazil, Colombia, and Vietnam. After the beans are harvested, they are dried in the sun for several weeks. Once the beans are dried, they are sorted and graded by quality. The beans are then shipped to different countries, where they are roasted by coffee companies. The roasting process is carefully controlled to bring out the best flavors. After roasting, the beans are ground and packaged. Finally, the coffee is sold in stores and enjoyed by millions of people every day. From farm to cup, coffee is touched by many hands.",
+    "wordCount": 120,
+    "questions": [
+      {
+        "id": "pack-000023:reading-q-001",
+        "type": "comprehension",
+        "question": "Where are coffee beans grown?",
+        "options": ["In cold regions", "In tropical regions", "In Europe", "In the desert"],
+        "correctAnswer": "In tropical regions",
+        "explanation": "The passage says 'coffee beans are grown in tropical regions like Brazil, Colombia, and Vietnam.'"
+      },
+      {
+        "id": "pack-000023:reading-q-002",
+        "type": "comprehension",
+        "question": "What happens after the beans are harvested?",
+        "options": ["They are roasted", "They are sold", "They are dried", "They are ground"],
+        "correctAnswer": "They are dried",
+        "explanation": "The passage says 'After the beans are harvested, they are dried in the sun.'"
+      },
+      {
+        "id": "pack-000023:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'graded' mean in this context?",
+        "options": ["Colored", "Sorted by quality", "Mixed together", "Cleaned"],
+        "correctAnswer": "Sorted by quality",
+        "explanation": "'Graded' means classified according to quality or standard."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000023:listening",
+    "title": "News Report",
+    "script": "In today's news, a historic building in downtown Seoul was damaged by a fire last night. The fire was reported at around 10 PM and was brought under control by firefighters after two hours. Fortunately, no injuries were reported. The cause of the fire is being investigated. The building, which was built in 1920, is considered a cultural heritage site. It is expected that repairs will be completed within six months. In other news, a new hospital will be opened next month in Gangnam. The hospital was constructed at a cost of 50 billion won and is expected to serve over 100,000 patients per year.",
+    "audioUrl": null,
+    "duration": 55,
+    "exercises": [
+      {
+        "id": "pack-000023:listening-ex-001",
+        "type": "comprehension",
+        "question": "When was the fire reported?",
+        "options": ["8 PM", "10 PM", "Midnight", "2 AM"],
+        "correctAnswer": "10 PM",
+        "explanation": "The report says 'The fire was reported at around 10 PM.'"
+      },
+      {
+        "id": "pack-000023:listening-ex-002",
+        "type": "fill_blank",
+        "question": "The building was built in ___.",
+        "options": ["1900", "1910", "1920", "1930"],
+        "correctAnswer": "1920",
+        "explanation": "The report says 'The building, which was built in 1920.'"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000023:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Describe a process or product using passive voice.",
+      "template": "[PRODUCT] is made from [MATERIALS]. First, [STEP1 - passive]. Then, [STEP2 - passive]. After that, [STEP3 - passive]. Finally, [STEP4 - passive]. [PRODUCT] is [USED/ENJOYED] by [USERS] all over the world.",
+      "slots": [
+        { "name": "PRODUCT", "hint": "What is being made" },
+        { "name": "MATERIALS", "hint": "Raw materials" },
+        { "name": "STEP1", "hint": "First step in passive" },
+        { "name": "STEP2", "hint": "Second step in passive" },
+        { "name": "STEP3", "hint": "Third step in passive" },
+        { "name": "STEP4", "hint": "Final step in passive" },
+        { "name": "USED/ENJOYED", "hint": "used/enjoyed/consumed" },
+        { "name": "USERS", "hint": "Who uses it" }
+      ],
+      "correctExample": "Chocolate is made from cacao beans. First, the beans are harvested and fermented. Then, they are dried and roasted. After that, the beans are ground into a paste. Finally, sugar and milk are added to create chocolate. Chocolate is enjoyed by people all over the world."
+    },
+    "free": {
+      "id": "pack-000023:writing-free",
+      "topic": "How Something Is Made",
+      "prompt": "Choose a product (food, device, etc.) and describe how it is made using passive voice. Include at least 4 steps in the process.",
+      "minWords": 80,
+      "maxWords": 150,
+      "checklist": [
+        { "item": "Use passive voice throughout", "required": true },
+        { "item": "Include at least 4 process steps", "required": true },
+        { "item": "Use different tenses in passive", "required": true },
+        { "item": "Mention who uses/enjoys the product", "required": false }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000023:speaking-shadow",
+      "sentence": "This building was constructed in 1990 and has been renovated several times. It is now considered one of the most beautiful buildings in the city.",
+      "pronunciation": "/ðɪs ˈbɪldɪŋ wɑːz kənˈstrʌktɪd ɪn ˈnaɪntiːn ˈnaɪnti ænd hæz biːn ˈrenəveɪtɪd ˈsevrəl taɪmz ɪt ɪz naʊ kənˈsɪdərd wʌn əv ðə moʊst ˈbjuːtɪfəl ˈbɪldɪŋz ɪn ðə ˈsɪti/",
+      "audioUrl": null,
+      "koreanTip": "'was constructed'에서 'was'와 'constructed'를 자연스럽게 이어서 발음하세요. '워즈 컨스트럭티드'처럼요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000023:speaking-roleplay",
+      "scenario": "You are a tour guide explaining a famous landmark.",
+      "role": "Tour guide",
+      "partnerRole": "Tourist",
+      "prompts": [
+        { "speaker": "partner", "text": "When was this building built?" },
+        { "speaker": "user", "text": "This building was built in ___. It was designed by ___.", "hint": "Use passive voice" },
+        { "speaker": "partner", "text": "Has it been renovated?" },
+        { "speaker": "user", "text": "Yes, it has been renovated ___. The last renovation was done in ___.", "hint": "Use present perfect passive" },
+        { "speaker": "partner", "text": "What is it used for now?" },
+        { "speaker": "user", "text": "It is now used as ___. Every year, it is visited by ___.", "hint": "Describe current use" }
+      ],
+      "checklistItems": ["Use past simple passive", "Use present perfect passive", "Use present simple passive"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000023:korean-error-001",
+      "category": "grammar",
+      "errorExample": "The book was wrote by the author.",
+      "correctForm": "The book was written by the author.",
+      "explanation": "Use the past participle (written), not past simple (wrote), after 'was'.",
+      "tip": "수동태에서는 'be + 과거분사'를 써요. 'wrote'는 과거형이고, 'written'이 과거분사예요."
+    },
+    {
+      "id": "pack-000023:korean-error-002",
+      "category": "grammar",
+      "errorExample": "My wallet was stolen by someone.",
+      "correctForm": "My wallet was stolen.",
+      "explanation": "Don't use 'by someone' when the agent is unknown - just omit it.",
+      "tip": "행위자가 누군지 모를 때는 'by someone'을 쓰지 않고 그냥 생략해요."
+    },
+    {
+      "id": "pack-000023:korean-error-003",
+      "category": "usage",
+      "errorExample": "I was born in Seoul in 1995.",
+      "correctForm": "I was born in Seoul in 1995. (This is correct!)",
+      "explanation": "'Born' is always used in passive. This is one passive form that's always used.",
+      "tip": "'I was born'은 항상 수동태로 써요. 'I born' (X), 'I was born' (O)"
+    }
+  ]
+}

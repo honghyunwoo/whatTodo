@@ -1,0 +1,275 @@
+{
+  "id": "pack-000026",
+  "level": "B1",
+  "topic": "Health and Fitness",
+  "canDo": "I can discuss health topics, give advice, and talk about healthy habits.",
+  "functionId": "advice",
+  "difficulty": 6,
+  "skills": ["vocab", "reading", "speaking", "writing"],
+  "estimatedMinutes": 25,
+  "tags": ["health", "fitness", "lifestyle", "advice"],
+
+  "grammar": {
+    "point": "Should/shouldn't for advice, modals for obligation and recommendation",
+    "rules": [
+      {
+        "id": "pack-000026:grammar-rule-001",
+        "title": "Should/shouldn't for advice",
+        "explanation": "Use 'should' to give advice or recommendations. 'Shouldn't' for things to avoid.",
+        "examples": ["You should exercise regularly.", "You shouldn't skip breakfast.", "Should I see a doctor?"],
+        "koreanTip": "'should'는 '~해야 해', 'shouldn't'는 '~하면 안 돼'라는 조언을 할 때 써요."
+      },
+      {
+        "id": "pack-000026:grammar-rule-002",
+        "title": "Had better for strong advice/warnings",
+        "explanation": "'Had better' is stronger than 'should' and implies consequences if not followed.",
+        "examples": ["You'd better rest if you're sick.", "You'd better not eat so much sugar.", "We'd better go to the hospital."],
+        "koreanTip": "'had better'는 'should'보다 강한 충고예요. 안 따르면 나쁜 결과가 있을 것 같을 때 써요."
+      },
+      {
+        "id": "pack-000026:grammar-rule-003",
+        "title": "Have to/Need to for necessity",
+        "explanation": "Use 'have to' and 'need to' when something is necessary.",
+        "examples": ["You have to drink more water.", "I need to get more sleep.", "You don't have to go to the gym every day."],
+        "koreanTip": "'have to'와 'need to'는 '~해야 한다'는 필요성을 나타내요. 'don't have to'는 '~할 필요 없다'예요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000026:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "You ___ eat more vegetables. They're good for your health.",
+        "options": ["should", "shouldn't", "must", "mustn't"],
+        "correctAnswer": "should",
+        "explanation": "'Should' is used to give healthy advice.",
+        "koreanTip": "건강에 좋은 조언을 할 때 'should'를 써요."
+      },
+      {
+        "id": "pack-000026:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "You ___ rest if you have a fever. Going to work could make it worse.",
+        "options": ["should", "'d better", "might", "could"],
+        "correctAnswer": "'d better",
+        "explanation": "'Had better' (='d better) is stronger advice with implied consequences.",
+        "koreanTip": "열이 있는데 쉬지 않으면 더 아플 수 있으니 강한 충고인 'had better'를 써요."
+      },
+      {
+        "id": "pack-000026:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "You ___ go to the gym every day. Three times a week is enough.",
+        "options": ["have to", "don't have to", "must", "should"],
+        "correctAnswer": "don't have to",
+        "explanation": "'Don't have to' means it's not necessary.",
+        "koreanTip": "'don't have to'는 '~할 필요 없다'는 뜻이에요. 매일 갈 필요 없다는 의미예요."
+      },
+      {
+        "id": "pack-000026:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which gives the strongest advice?",
+        "options": ["You could try exercising.", "You should try exercising.", "You'd better start exercising.", "You might want to exercise."],
+        "correctAnswer": "You'd better start exercising.",
+        "explanation": "'Had better' is the strongest, implying negative consequences if not followed."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000026:vocab-001",
+        "word": "symptoms",
+        "pronunciation": "/ˈsɪmptəmz/",
+        "meaning": "signs of an illness",
+        "meaningKo": "증상",
+        "partOfSpeech": "noun",
+        "examples": ["What are your symptoms?", "Common symptoms include fever and cough."],
+        "koreanTip": "병의 '증상'을 나타내요. 의사에게 증상을 설명할 때 중요해요."
+      },
+      {
+        "id": "pack-000026:vocab-002",
+        "word": "nutritious",
+        "pronunciation": "/nuːˈtrɪʃəs/",
+        "meaning": "containing substances your body needs",
+        "meaningKo": "영양가 있는",
+        "partOfSpeech": "adjective",
+        "examples": ["Fruits and vegetables are very nutritious.", "You should eat a nutritious breakfast."],
+        "koreanTip": "'nutrition(영양)'의 형용사형이에요"
+      },
+      {
+        "id": "pack-000026:vocab-003",
+        "word": "moderate",
+        "pronunciation": "/ˈmɑːdərət/",
+        "meaning": "not too much, not too little",
+        "meaningKo": "적당한",
+        "partOfSpeech": "adjective",
+        "examples": ["Moderate exercise is good for health.", "Drink alcohol in moderation."],
+        "koreanTip": "과하지도 부족하지도 않은 '적당한' 정도를 나타내요"
+      },
+      {
+        "id": "pack-000026:vocab-004",
+        "word": "prevention",
+        "pronunciation": "/prɪˈvenʃən/",
+        "meaning": "stopping something from happening",
+        "meaningKo": "예방",
+        "partOfSpeech": "noun",
+        "examples": ["Prevention is better than cure.", "Disease prevention is important."],
+        "koreanTip": "'prevent(예방하다)'의 명사형. '예방이 치료보다 낫다'는 영어로 'Prevention is better than cure'"
+      },
+      {
+        "id": "pack-000026:vocab-005",
+        "word": "lifestyle",
+        "pronunciation": "/ˈlaɪfstaɪl/",
+        "meaning": "the way someone lives",
+        "meaningKo": "생활방식, 라이프스타일",
+        "partOfSpeech": "noun",
+        "examples": ["A healthy lifestyle includes regular exercise.", "I need to change my lifestyle."],
+        "koreanTip": "삶의 방식이나 습관 전반을 의미해요"
+      }
+    ],
+    "collocations": ["stay in shape", "work out", "balanced diet", "mental health", "get enough sleep"]
+  },
+
+  "reading": {
+    "id": "pack-000026:reading",
+    "title": "Tips for a Healthier Life",
+    "passage": "Living a healthy life doesn't have to be complicated. Here are some simple tips to improve your health. First, you should try to get at least 7-8 hours of sleep every night. Sleep is essential for both physical and mental health. Second, you should eat a balanced diet with plenty of fruits, vegetables, and whole grains. You shouldn't skip meals, especially breakfast. Third, you need to exercise regularly. You don't have to go to the gym every day - even a 30-minute walk is beneficial. Fourth, you should drink plenty of water throughout the day. Many people are dehydrated without knowing it. Finally, you shouldn't ignore your mental health. Taking breaks, practicing mindfulness, and spending time with loved ones are all important. Remember, small changes can lead to big improvements over time.",
+    "wordCount": 135,
+    "questions": [
+      {
+        "id": "pack-000026:reading-q-001",
+        "type": "comprehension",
+        "question": "How many hours of sleep should you get?",
+        "options": ["5-6 hours", "6-7 hours", "7-8 hours", "9-10 hours"],
+        "correctAnswer": "7-8 hours",
+        "explanation": "The passage says 'get at least 7-8 hours of sleep every night.'"
+      },
+      {
+        "id": "pack-000026:reading-q-002",
+        "type": "comprehension",
+        "question": "According to the passage, what is NOT necessary?",
+        "options": ["Eating breakfast", "Drinking water", "Going to the gym every day", "Getting enough sleep"],
+        "correctAnswer": "Going to the gym every day",
+        "explanation": "The passage says 'You don't have to go to the gym every day.'"
+      },
+      {
+        "id": "pack-000026:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'dehydrated' mean?",
+        "options": ["Having too much water", "Not having enough water in the body", "Being tired", "Being hungry"],
+        "correctAnswer": "Not having enough water in the body",
+        "explanation": "'Dehydrated' means lacking water in the body."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000026:listening",
+    "title": "Doctor's Advice",
+    "script": "Good morning. What seems to be the problem? I've been feeling very tired lately, and I've been getting headaches. I see. Have you been getting enough sleep? Not really. I usually only sleep about 5 hours a night. Well, that's a problem. You should be getting at least 7-8 hours of sleep. Also, are you drinking enough water? I drink a lot of coffee, but maybe not enough water. You should cut down on coffee and drink more water. How about exercise? I don't have time to exercise. You don't have to do intense workouts, but you really should try to walk for at least 30 minutes a day. It would help with your energy levels. I'll try to do that. Also, you should take a break from screens sometimes. Looking at computers all day can cause headaches. Thank you, doctor. I'll follow your advice.",
+    "audioUrl": null,
+    "duration": 60,
+    "exercises": [
+      {
+        "id": "pack-000026:listening-ex-001",
+        "type": "comprehension",
+        "question": "What are the patient's symptoms?",
+        "options": ["Cough and fever", "Tiredness and headaches", "Stomach pain", "Trouble breathing"],
+        "correctAnswer": "Tiredness and headaches",
+        "explanation": "The patient says 'I've been feeling very tired lately, and I've been getting headaches.'"
+      },
+      {
+        "id": "pack-000026:listening-ex-002",
+        "type": "fill_blank",
+        "question": "The doctor says the patient should cut down on ___.",
+        "options": ["water", "exercise", "coffee", "sleep"],
+        "correctAnswer": "coffee",
+        "explanation": "The doctor says 'You should cut down on coffee and drink more water.'"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000026:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Write health advice using modals.",
+      "template": "If you want to be healthier, there are several things you should do. First, you should [ADVICE1]. This is important because [REASON1]. Second, you shouldn't [BAD HABIT]. Instead, you should [GOOD HABIT]. You don't have to [NOT NECESSARY], but you really need to [NECESSARY]. If you're feeling unwell, you'd better [STRONG ADVICE]. Following these tips will help you maintain a healthy lifestyle.",
+      "slots": [
+        { "name": "ADVICE1", "hint": "Good health advice" },
+        { "name": "REASON1", "hint": "Why it's important" },
+        { "name": "BAD HABIT", "hint": "Something to avoid" },
+        { "name": "GOOD HABIT", "hint": "Alternative to bad habit" },
+        { "name": "NOT NECESSARY", "hint": "Something optional" },
+        { "name": "NECESSARY", "hint": "Something essential" },
+        { "name": "STRONG ADVICE", "hint": "Important warning" }
+      ],
+      "correctExample": "If you want to be healthier, there are several things you should do. First, you should exercise at least three times a week. This is important because regular exercise improves both physical and mental health. Second, you shouldn't eat too much processed food. Instead, you should cook meals at home with fresh ingredients. You don't have to completely give up snacks, but you really need to choose healthier options. If you're feeling unwell, you'd better see a doctor rather than ignore the symptoms. Following these tips will help you maintain a healthy lifestyle."
+    },
+    "free": {
+      "id": "pack-000026:writing-free",
+      "topic": "Health Advice for a Friend",
+      "prompt": "Your friend wants to become healthier. Write advice about diet, exercise, and lifestyle. Use should/shouldn't, have to/don't have to, and had better.",
+      "minWords": 80,
+      "maxWords": 150,
+      "checklist": [
+        { "item": "Use 'should/shouldn't' for advice", "required": true },
+        { "item": "Use 'have to/don't have to' for necessity", "required": true },
+        { "item": "Use 'had better' for strong warnings", "required": true },
+        { "item": "Give specific, practical advice", "required": true }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000026:speaking-shadow",
+      "sentence": "You should try to eat more vegetables and drink plenty of water. You don't have to go to the gym, but you really should exercise at least three times a week.",
+      "pronunciation": "/juː ʃʊd traɪ tuː iːt mɔːr ˈvedʒtəblz ænd drɪŋk ˈplenti əv ˈwɔːtər juː doʊnt hæv tuː ɡoʊ tuː ðə dʒɪm bət juː ˈriːli ʃʊd ˈeksərsaɪz æt liːst θriː taɪmz ə wiːk/",
+      "audioUrl": null,
+      "koreanTip": "'vegetables'는 '베지터블스'가 아니라 '베쥐터블즈'로 발음해요. 'g'가 'j' 소리로 나요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000026:speaking-roleplay",
+      "scenario": "Your friend is asking for health advice.",
+      "role": "Health advisor",
+      "partnerRole": "Friend",
+      "prompts": [
+        { "speaker": "partner", "text": "I've been feeling tired all the time. What should I do?" },
+        { "speaker": "user", "text": "You should ___. Also, you shouldn't ___.", "hint": "Give positive and negative advice" },
+        { "speaker": "partner", "text": "Do I have to exercise every day?" },
+        { "speaker": "user", "text": "You don't have to ___, but you really need to ___.", "hint": "Necessary vs optional" },
+        { "speaker": "partner", "text": "What about diet? I eat a lot of fast food." },
+        { "speaker": "user", "text": "You'd better ___. It would help you ___.", "hint": "Strong advice with reason" }
+      ],
+      "checklistItems": ["Use should/shouldn't for advice", "Use don't have to for optional things", "Use had better for strong recommendations"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000026:korean-error-001",
+      "category": "grammar",
+      "errorExample": "You should to exercise more.",
+      "correctForm": "You should exercise more.",
+      "explanation": "'Should' is followed directly by the base verb, not 'to + verb'.",
+      "tip": "'should' 뒤에는 바로 동사원형이 와요. 'to'를 넣지 마세요."
+    },
+    {
+      "id": "pack-000026:korean-error-002",
+      "category": "usage",
+      "errorExample": "You must not eat breakfast.",
+      "correctForm": "You don't have to eat breakfast. / You shouldn't skip breakfast.",
+      "explanation": "'Must not' means it's forbidden. 'Don't have to' means it's not necessary.",
+      "tip": "'must not'은 '절대 ~하면 안 된다', 'don't have to'는 '~할 필요 없다'예요. 혼동하지 마세요!"
+    },
+    {
+      "id": "pack-000026:korean-error-003",
+      "category": "grammar",
+      "errorExample": "You had better to see a doctor.",
+      "correctForm": "You had better see a doctor.",
+      "explanation": "'Had better' is followed directly by the base verb, not 'to + verb'.",
+      "tip": "'had better' 뒤에도 동사원형이 바로 와요. 'to'가 필요 없어요."
+    }
+  ]
+}

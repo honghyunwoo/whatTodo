@@ -1,0 +1,272 @@
+{
+  "id": "pack-000017",
+  "level": "A2",
+  "topic": "Making Appointments",
+  "canDo": "I can make and change appointments by phone or in person.",
+  "functionId": "appointment",
+  "difficulty": 4,
+  "skills": ["vocab", "listening", "speaking", "reading"],
+  "estimatedMinutes": 18,
+  "tags": ["appointment", "schedule", "phone", "booking"],
+
+  "grammar": {
+    "point": "Can/Could for requests, time expressions",
+    "rules": [
+      {
+        "id": "pack-000017:grammar-rule-001",
+        "title": "Can/Could I + verb for requests",
+        "explanation": "Use 'Can I' or 'Could I' (more polite) to make requests. 'Could' is more formal.",
+        "examples": ["Can I make an appointment?", "Could I change my appointment?", "Could I speak to the doctor?"],
+        "koreanTip": "'Could I'가 'Can I'보다 더 공손해요. 병원이나 공식적인 상황에서는 'Could I'를 쓰세요."
+      },
+      {
+        "id": "pack-000017:grammar-rule-002",
+        "title": "Time prepositions: at, on, in",
+        "explanation": "Use 'at' for specific times, 'on' for days/dates, 'in' for parts of day/months/years.",
+        "examples": ["at 3 PM", "on Monday", "on March 15th", "in the morning", "in April"],
+        "koreanTip": "시간에는 'at', 요일/날짜에는 'on', 아침/오후/월/년에는 'in'을 써요."
+      },
+      {
+        "id": "pack-000017:grammar-rule-003",
+        "title": "Would + time + be okay/work?",
+        "explanation": "Use 'Would [time] be okay?' or 'Would [time] work for you?' to suggest appointment times.",
+        "examples": ["Would 3 PM work for you?", "Would Tuesday be okay?", "Would next week work?"],
+        "koreanTip": "시간을 제안할 때 'Would ~ work for you?'를 쓰면 공손해요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000017:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "___ I make an appointment for next Monday?",
+        "options": ["Would", "Could", "Will", "Should"],
+        "correctAnswer": "Could",
+        "explanation": "'Could I' is polite when making a request.",
+        "koreanTip": "예약을 요청할 때는 'Could I'가 적절해요."
+      },
+      {
+        "id": "pack-000017:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "Your appointment is ___ Wednesday ___ 2 PM.",
+        "options": ["at/at", "on/at", "in/at", "at/on"],
+        "correctAnswer": "on/at",
+        "explanation": "Use 'on' for days and 'at' for specific times.",
+        "koreanTip": "요일에는 'on', 시간에는 'at'을 써요."
+      },
+      {
+        "id": "pack-000017:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "Would Friday afternoon ___ for you?",
+        "options": ["be okay", "is okay", "okay", "okays"],
+        "correctAnswer": "be okay",
+        "explanation": "The structure is 'Would [time] be okay/work?'",
+        "koreanTip": "'Would ~ be okay?'는 시간을 제안하는 공손한 표현이에요."
+      },
+      {
+        "id": "pack-000017:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which is correct?",
+        "options": ["I'll see you in Monday.", "I'll see you at Monday.", "I'll see you on Monday.", "I'll see you to Monday."],
+        "correctAnswer": "I'll see you on Monday.",
+        "explanation": "Use 'on' before days of the week."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000017:vocab-001",
+        "word": "available",
+        "pronunciation": "/əˈveɪləbl/",
+        "meaning": "free to meet or be used",
+        "meaningKo": "가능한, 시간이 되는",
+        "partOfSpeech": "adjective",
+        "examples": ["Are you available on Thursday?", "When are you available?"],
+        "koreanTip": "'Are you available?'은 '시간 되세요?'라는 뜻이에요"
+      },
+      {
+        "id": "pack-000017:vocab-002",
+        "word": "reschedule",
+        "pronunciation": "/riːˈskedʒuːl/",
+        "meaning": "to change to a different time",
+        "meaningKo": "일정을 변경하다",
+        "partOfSpeech": "verb",
+        "examples": ["I need to reschedule my appointment.", "Can we reschedule for next week?"],
+        "koreanTip": "'re-'는 '다시'라는 뜻이에요. reschedule = 다시 스케줄 잡다"
+      },
+      {
+        "id": "pack-000017:vocab-003",
+        "word": "cancel",
+        "pronunciation": "/ˈkænsəl/",
+        "meaning": "to stop something that was planned",
+        "meaningKo": "취소하다",
+        "partOfSpeech": "verb",
+        "examples": ["I'd like to cancel my appointment.", "The meeting was cancelled."],
+        "koreanTip": "'cancel'과 'postpone(연기하다)'는 다른 의미예요"
+      },
+      {
+        "id": "pack-000017:vocab-004",
+        "word": "confirm",
+        "pronunciation": "/kənˈfɜːrm/",
+        "meaning": "to make sure something is correct",
+        "meaningKo": "확인하다, 확정하다",
+        "partOfSpeech": "verb",
+        "examples": ["I'm calling to confirm my appointment.", "Could you confirm the time?"],
+        "koreanTip": "예약을 확인할 때 'I'd like to confirm my appointment'라고 해요"
+      },
+      {
+        "id": "pack-000017:vocab-005",
+        "word": "slot",
+        "pronunciation": "/slɑːt/",
+        "meaning": "a time period for an appointment",
+        "meaningKo": "시간대, 예약 가능 시간",
+        "partOfSpeech": "noun",
+        "examples": ["We have a slot available at 4 PM.", "All morning slots are taken."],
+        "koreanTip": "'slot'은 예약 가능한 시간대를 의미해요"
+      }
+    ],
+    "collocations": ["make an appointment", "book an appointment", "the earliest available", "at your earliest convenience", "slot available"]
+  },
+
+  "reading": {
+    "id": "pack-000017:reading",
+    "title": "Changing a Doctor's Appointment",
+    "passage": "Hello, this is Dr. Kim's office. How can I help you? Hi, my name is Park Minjun. I have an appointment scheduled for this Thursday at 10 AM, but I need to reschedule it. Something came up at work. I understand. Let me check the schedule. Would Friday morning work for you? I'm afraid I'm not available on Friday morning. Do you have any slots in the afternoon? We have an opening at 2:30 PM on Friday. Would that be okay? That would be perfect. Thank you. Great! Your new appointment is confirmed for Friday at 2:30 PM. We'll send you a reminder text message. Thank you so much. Goodbye!",
+    "wordCount": 115,
+    "questions": [
+      {
+        "id": "pack-000017:reading-q-001",
+        "type": "comprehension",
+        "question": "Why does the caller need to reschedule?",
+        "options": ["The doctor is sick", "Something came up at work", "The office is closed", "The weather is bad"],
+        "correctAnswer": "Something came up at work",
+        "explanation": "The caller says 'Something came up at work.'"
+      },
+      {
+        "id": "pack-000017:reading-q-002",
+        "type": "comprehension",
+        "question": "What is the new appointment time?",
+        "options": ["Thursday at 10 AM", "Friday morning", "Friday at 2:30 PM", "Saturday at 2:30 PM"],
+        "correctAnswer": "Friday at 2:30 PM",
+        "explanation": "The passage confirms 'Your new appointment is confirmed for Friday at 2:30 PM.'"
+      },
+      {
+        "id": "pack-000017:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'opening' mean in this context?",
+        "options": ["A door", "An available time slot", "A new business", "A job position"],
+        "correctAnswer": "An available time slot",
+        "explanation": "'Opening' here means an available appointment slot."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000017:listening",
+    "title": "Making a Dental Appointment",
+    "script": "Good morning, Seoul Dental Clinic. How may I help you? Hi, I'd like to make an appointment for a check-up. Certainly. Is this your first visit? Yes, it is. Okay, when would you like to come in? As soon as possible, please. We have a slot available tomorrow at 11 AM. Would that work for you? Yes, that's perfect. May I have your name? It's Lee Jisoo. L-E-E J-I-S-O-O. Great, Ms. Lee. You're all set for tomorrow, Wednesday, at 11 AM. Please arrive 10 minutes early to fill out some paperwork. No problem. Thank you!",
+    "audioUrl": null,
+    "duration": 45,
+    "exercises": [
+      {
+        "id": "pack-000017:listening-ex-001",
+        "type": "comprehension",
+        "question": "What kind of appointment is the caller making?",
+        "options": ["Eye exam", "Dental check-up", "Physical exam", "Skin treatment"],
+        "correctAnswer": "Dental check-up",
+        "explanation": "The caller says 'I'd like to make an appointment for a check-up' at a dental clinic."
+      },
+      {
+        "id": "pack-000017:listening-ex-002",
+        "type": "fill_blank",
+        "question": "The caller should arrive ___ minutes early.",
+        "options": ["5", "10", "15", "20"],
+        "correctAnswer": "10",
+        "explanation": "The receptionist says 'Please arrive 10 minutes early.'"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000017:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Write a phone conversation to make an appointment.",
+      "template": "Receptionist: Hello, [PLACE]. How can I help you?\nCaller: Hi, I'd like to [ACTION].\nReceptionist: Certainly. When would you like to come in?\nCaller: Could I come on [DAY] at [TIME]?\nReceptionist: Let me check. Yes, we have a slot available. Your appointment is confirmed for [DAY] at [TIME].\nCaller: Great, thank you!",
+      "slots": [
+        { "name": "PLACE", "hint": "Name of the clinic/office" },
+        { "name": "ACTION", "hint": "make an appointment / reschedule" },
+        { "name": "DAY", "hint": "Day of the week or date" },
+        { "name": "TIME", "hint": "Specific time" }
+      ],
+      "correctExample": "Receptionist: Hello, Seoul Medical Center. How can I help you?\nCaller: Hi, I'd like to make an appointment with Dr. Park.\nReceptionist: Certainly. When would you like to come in?\nCaller: Could I come on Tuesday at 3 PM?\nReceptionist: Let me check. Yes, we have a slot available. Your appointment is confirmed for Tuesday at 3 PM.\nCaller: Great, thank you!"
+    },
+    "free": {
+      "id": "pack-000017:writing-free",
+      "topic": "Rescheduling an Appointment",
+      "prompt": "Write an email to reschedule an appointment. Explain why you need to change it and suggest new times.",
+      "minWords": 50,
+      "maxWords": 100,
+      "checklist": [
+        { "item": "State the original appointment", "required": true },
+        { "item": "Explain why you need to reschedule", "required": true },
+        { "item": "Suggest alternative times", "required": true },
+        { "item": "Use polite expressions", "required": true }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000017:speaking-shadow",
+      "sentence": "I'd like to make an appointment for next Tuesday. Would 2 PM work? If not, when would be the earliest available slot?",
+      "pronunciation": "/aɪd laɪk tuː meɪk ən əˈpɔɪntmənt fɔːr nekst ˈtuːzdeɪ wʊd tuː piː em wɜːrk ɪf nɑːt wen wʊd biː ði ˈɜːrliɪst əˈveɪləbl slɑːt/",
+      "audioUrl": null,
+      "koreanTip": "'Would 2 PM work?'에서 would는 약하게 발음해요. '우드'가 아니라 '웓'처럼 빠르게요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000017:speaking-roleplay",
+      "scenario": "You are calling to make an appointment.",
+      "role": "Caller",
+      "partnerRole": "Receptionist",
+      "prompts": [
+        { "speaker": "partner", "text": "Good morning! How can I help you?" },
+        { "speaker": "user", "text": "Hi, I'd like to ___.", "hint": "Make/reschedule an appointment" },
+        { "speaker": "partner", "text": "Certainly. When would you like to come in?" },
+        { "speaker": "user", "text": "Would ___ work?", "hint": "Suggest a day and time" },
+        { "speaker": "partner", "text": "I'm sorry, that slot is taken. How about 4 PM?" },
+        { "speaker": "user", "text": "That ___. Thank you!", "hint": "Accept (works for me/would be perfect)" }
+      ],
+      "checklistItems": ["Use 'I'd like to' for polite requests", "Use 'Would... work?' to suggest times", "Respond politely to alternatives"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000017:korean-error-001",
+      "category": "grammar",
+      "errorExample": "I have appointment in Monday.",
+      "correctForm": "I have an appointment on Monday.",
+      "explanation": "Use 'an' before 'appointment' and 'on' before days.",
+      "tip": "'appointment'는 셀 수 있는 명사라서 'an'이 필요하고, 요일 앞에는 'on'을 써요."
+    },
+    {
+      "id": "pack-000017:korean-error-002",
+      "category": "usage",
+      "errorExample": "I want to cancel reservation.",
+      "correctForm": "I'd like to cancel my reservation.",
+      "explanation": "Use 'I'd like to' for polite requests and add 'my' before 'reservation'.",
+      "tip": "'I want'보다 'I'd like'가 더 공손해요. 또한 'my reservation'처럼 소유격을 써주세요."
+    },
+    {
+      "id": "pack-000017:korean-error-003",
+      "category": "pronunciation",
+      "errorExample": "appointment = 어포인트멘트",
+      "correctForm": "/əˈpɔɪntmənt/ (어포인트먼트)",
+      "explanation": "The stress is on the second syllable: a-POINT-ment.",
+      "tip": "'appointment'의 강세는 두 번째 음절 'POINT'에 있어요."
+    }
+  ]
+}

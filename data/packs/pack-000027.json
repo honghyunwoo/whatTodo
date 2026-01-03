@@ -1,0 +1,277 @@
+{
+  "id": "pack-000027",
+  "level": "B1",
+  "topic": "Environmental Issues",
+  "canDo": "I can discuss environmental problems and express opinions about solutions.",
+  "functionId": "discussion",
+  "difficulty": 7,
+  "skills": ["vocab", "reading", "speaking", "writing"],
+  "estimatedMinutes": 25,
+  "tags": ["environment", "climate", "sustainability", "global_issues"],
+
+  "grammar": {
+    "point": "Cause and effect language, expressing opinions on complex topics",
+    "rules": [
+      {
+        "id": "pack-000027:grammar-rule-001",
+        "title": "Expressing causes: because, due to, as a result of",
+        "explanation": "'Because' + clause, 'Due to' + noun/noun phrase, 'As a result of' + noun/noun phrase.",
+        "examples": ["Sea levels are rising because ice caps are melting.", "Due to pollution, many species are endangered.", "As a result of deforestation, we're losing biodiversity."],
+        "koreanTip": "'because'는 뒤에 절(주어+동사)이, 'due to'와 'as a result of'는 뒤에 명사(구)가 와요."
+      },
+      {
+        "id": "pack-000027:grammar-rule-002",
+        "title": "Expressing effects: so, therefore, consequently",
+        "explanation": "These words introduce results or consequences.",
+        "examples": ["Temperatures are rising, so ice is melting.", "We use too much plastic. Therefore, our oceans are polluted.", "Forests are being cut down. Consequently, wildlife is disappearing."],
+        "koreanTip": "'so'는 문장을 연결하고, 'therefore'와 'consequently'는 더 formal해요."
+      },
+      {
+        "id": "pack-000027:grammar-rule-003",
+        "title": "Expressing strong opinions",
+        "explanation": "Use 'I strongly believe', 'It is essential that', 'We must' for emphasis.",
+        "examples": ["I strongly believe we need to act now.", "It is essential that we reduce emissions.", "We must find renewable energy sources."],
+        "koreanTip": "환경 문제처럼 중요한 주제에는 강한 의견 표현을 써요. 'I think'보다 'I strongly believe'가 더 강해요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000027:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "___ pollution, many animals have lost their natural habitats.",
+        "options": ["Because", "Due to", "So", "Therefore"],
+        "correctAnswer": "Due to",
+        "explanation": "'Due to' is followed by a noun phrase ('pollution').",
+        "koreanTip": "'pollution'은 명사이므로 'Due to'를 써야 해요. 'Because' 뒤에는 절이 와야 해요."
+      },
+      {
+        "id": "pack-000027:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "The climate is changing. ___, we are experiencing more extreme weather.",
+        "options": ["Because", "Due to", "Therefore", "Because of"],
+        "correctAnswer": "Therefore",
+        "explanation": "'Therefore' introduces the result or effect of something.",
+        "koreanTip": "'Therefore'는 결과를 도입할 때 써요. 문장 처음에 와서 이전 문장의 결과를 말해요."
+      },
+      {
+        "id": "pack-000027:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "I ___ that governments should invest more in renewable energy.",
+        "options": ["think", "strongly believe", "am thinking", "believed"],
+        "correctAnswer": "strongly believe",
+        "explanation": "'Strongly believe' expresses a strong opinion about an important topic.",
+        "koreanTip": "중요한 환경 문제에 대한 의견을 강하게 표현할 때 'strongly believe'를 써요."
+      },
+      {
+        "id": "pack-000027:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which sentence correctly shows cause and effect?",
+        "options": ["Because of sea levels are rising.", "Due to the melting ice, sea levels are rising.", "Sea levels are rising due to.", "The ice is melting. Because sea levels rise."],
+        "correctAnswer": "Due to the melting ice, sea levels are rising.",
+        "explanation": "'Due to' + noun phrase (the melting ice), followed by the result."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000027:vocab-001",
+        "word": "climate change",
+        "pronunciation": "/ˈklaɪmət tʃeɪndʒ/",
+        "meaning": "long-term changes in global temperatures",
+        "meaningKo": "기후변화",
+        "partOfSpeech": "noun",
+        "examples": ["Climate change is affecting weather patterns worldwide.", "We need to take action against climate change."],
+        "koreanTip": "'global warming'보다 더 포괄적인 표현이에요"
+      },
+      {
+        "id": "pack-000027:vocab-002",
+        "word": "renewable",
+        "pronunciation": "/rɪˈnuːəbl/",
+        "meaning": "can be used repeatedly without running out",
+        "meaningKo": "재생 가능한",
+        "partOfSpeech": "adjective",
+        "examples": ["Solar and wind are renewable energy sources.", "We should invest in renewable resources."],
+        "koreanTip": "'renew(갱신하다)'에서 나온 형용사로 '다시 만들어질 수 있는'이라는 뜻"
+      },
+      {
+        "id": "pack-000027:vocab-003",
+        "word": "sustainable",
+        "pronunciation": "/səˈsteɪnəbl/",
+        "meaning": "able to continue without damaging the environment",
+        "meaningKo": "지속 가능한",
+        "partOfSpeech": "adjective",
+        "examples": ["We need to develop sustainable practices.", "Sustainable development is crucial for our future."],
+        "koreanTip": "'sustain(유지하다)'에서 나온 말로 환경을 해치지 않고 계속할 수 있다는 뜻"
+      },
+      {
+        "id": "pack-000027:vocab-004",
+        "word": "carbon footprint",
+        "pronunciation": "/ˈkɑːrbən ˈfʊtprɪnt/",
+        "meaning": "amount of CO2 produced by activities",
+        "meaningKo": "탄소 발자국",
+        "partOfSpeech": "noun",
+        "examples": ["Flying increases your carbon footprint.", "How can we reduce our carbon footprint?"],
+        "koreanTip": "개인이나 기업의 활동이 배출하는 이산화탄소의 총량을 비유적으로 표현한 것"
+      },
+      {
+        "id": "pack-000027:vocab-005",
+        "word": "ecosystem",
+        "pronunciation": "/ˈiːkoʊsɪstəm/",
+        "meaning": "a system of living things and their environment",
+        "meaningKo": "생태계",
+        "partOfSpeech": "noun",
+        "examples": ["Pollution can destroy entire ecosystems.", "Coral reefs are important ecosystems."],
+        "koreanTip": "'eco(환경)'와 'system(체계)'의 합성어예요"
+      }
+    ],
+    "collocations": ["reduce emissions", "protect wildlife", "natural resources", "environmental impact", "go green"]
+  },
+
+  "reading": {
+    "id": "pack-000027:reading",
+    "title": "The Plastic Problem",
+    "passage": "Plastic pollution has become one of the most serious environmental problems of our time. Every year, approximately 8 million tons of plastic end up in our oceans. As a result of this pollution, marine life is suffering greatly. Sea turtles, fish, and seabirds often mistake plastic for food. Consequently, many animals die from eating plastic waste. The problem is getting worse because plastic takes hundreds of years to decompose. However, there are solutions. First, we need to reduce our use of single-use plastics. Instead of plastic bags, we should use reusable ones. Second, recycling must become a priority. Many countries have already banned plastic bags and straws. I strongly believe that if everyone makes small changes, we can make a big difference. It is essential that we act now before it's too late.",
+    "wordCount": 140,
+    "questions": [
+      {
+        "id": "pack-000027:reading-q-001",
+        "type": "comprehension",
+        "question": "How much plastic ends up in the oceans every year?",
+        "options": ["1 million tons", "5 million tons", "8 million tons", "10 million tons"],
+        "correctAnswer": "8 million tons",
+        "explanation": "The passage says 'approximately 8 million tons of plastic end up in our oceans.'"
+      },
+      {
+        "id": "pack-000027:reading-q-002",
+        "type": "comprehension",
+        "question": "What solution does the passage suggest?",
+        "options": ["Stop making plastic", "Use more plastic bags", "Reduce single-use plastics", "Send plastic to space"],
+        "correctAnswer": "Reduce single-use plastics",
+        "explanation": "The passage says 'we need to reduce our use of single-use plastics.'"
+      },
+      {
+        "id": "pack-000027:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'decompose' mean?",
+        "options": ["Break down naturally", "Grow larger", "Move to a new place", "Become stronger"],
+        "correctAnswer": "Break down naturally",
+        "explanation": "'Decompose' means to decay or break down into simpler substances."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000027:listening",
+    "title": "Environmental Discussion",
+    "script": "What do you think is the biggest environmental problem today? I strongly believe it's climate change. Due to increasing carbon emissions, global temperatures are rising. What about you? I agree, but I think plastic pollution is equally serious. So many animals die because they eat plastic. That's true. What solutions do you think are most effective? Well, I think we need to invest more in renewable energy. If we used solar and wind power instead of fossil fuels, we could significantly reduce emissions. I agree. Also, individuals should try to reduce their carbon footprint. Simple things like using public transportation or eating less meat can help. Absolutely. It is essential that both governments and individuals take action. Small changes can lead to big results over time.",
+    "audioUrl": null,
+    "duration": 55,
+    "exercises": [
+      {
+        "id": "pack-000027:listening-ex-001",
+        "type": "comprehension",
+        "question": "What does the first speaker think is the biggest problem?",
+        "options": ["Plastic pollution", "Climate change", "Deforestation", "Air pollution"],
+        "correctAnswer": "Climate change",
+        "explanation": "The speaker says 'I strongly believe it's climate change.'"
+      },
+      {
+        "id": "pack-000027:listening-ex-002",
+        "type": "fill_blank",
+        "question": "Simple actions like using ___ or eating less meat can help.",
+        "options": ["cars", "public transportation", "airplanes", "bicycles only"],
+        "correctAnswer": "public transportation",
+        "explanation": "The speaker says 'using public transportation or eating less meat can help.'"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000027:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Write about an environmental problem and its solution.",
+      "template": "[PROBLEM] is one of the most serious environmental issues today. Due to [CAUSE], [EFFECT]. As a result, [CONSEQUENCE]. However, there are solutions to this problem. First, we should [SOLUTION1]. Second, [SOLUTION2]. I strongly believe that [OPINION]. It is essential that [ACTION]. If we work together, we can [POSITIVE OUTCOME].",
+      "slots": [
+        { "name": "PROBLEM", "hint": "Environmental issue" },
+        { "name": "CAUSE", "hint": "What causes it" },
+        { "name": "EFFECT", "hint": "What happens" },
+        { "name": "CONSEQUENCE", "hint": "Further impact" },
+        { "name": "SOLUTION1", "hint": "First solution" },
+        { "name": "SOLUTION2", "hint": "Second solution" },
+        { "name": "OPINION", "hint": "Your belief" },
+        { "name": "ACTION", "hint": "What must be done" },
+        { "name": "POSITIVE OUTCOME", "hint": "What we can achieve" }
+      ],
+      "correctExample": "Air pollution is one of the most serious environmental issues today. Due to vehicle emissions and industrial factories, the air quality in many cities is dangerous. As a result, millions of people suffer from respiratory diseases. However, there are solutions to this problem. First, we should use public transportation more often. Second, governments should invest in clean energy. I strongly believe that reducing our dependence on fossil fuels is necessary. It is essential that both individuals and companies take responsibility. If we work together, we can ensure cleaner air for future generations."
+    },
+    "free": {
+      "id": "pack-000027:writing-free",
+      "topic": "An Environmental Issue",
+      "prompt": "Choose an environmental issue (climate change, deforestation, water pollution, etc.) and write about its causes, effects, and possible solutions. Express your opinion strongly.",
+      "minWords": 100,
+      "maxWords": 180,
+      "checklist": [
+        { "item": "Use cause expressions (because, due to)", "required": true },
+        { "item": "Use effect expressions (so, therefore, as a result)", "required": true },
+        { "item": "Express strong opinions (I strongly believe, It is essential)", "required": true },
+        { "item": "Suggest at least 2 solutions", "required": true }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000027:speaking-shadow",
+      "sentence": "I strongly believe that climate change is the biggest challenge we face today. Due to increasing emissions, global temperatures are rising, and we must take action now.",
+      "pronunciation": "/aɪ ˈstrɔːŋli bɪˈliːv ðæt ˈklaɪmət tʃeɪndʒ ɪz ðə ˈbɪɡɪst ˈtʃælɪndʒ wiː feɪs təˈdeɪ duː tuː ɪnˈkriːsɪŋ ɪˈmɪʃənz ˈɡloʊbəl ˈtemprətʃərz ɑːr ˈraɪzɪŋ ænd wiː mʌst teɪk ˈækʃən naʊ/",
+      "audioUrl": null,
+      "koreanTip": "'strongly'의 'g'는 발음하지 않아요. '스트롱리'가 아니라 '스트롤리'에 가깝게 발음해요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000027:speaking-roleplay",
+      "scenario": "You are discussing environmental issues in a class debate.",
+      "role": "Student",
+      "partnerRole": "Classmate",
+      "prompts": [
+        { "speaker": "partner", "text": "What do you think is the biggest environmental problem?" },
+        { "speaker": "user", "text": "I strongly believe it's ___. Due to ___, ___.", "hint": "Problem + cause + effect" },
+        { "speaker": "partner", "text": "What solutions do you suggest?" },
+        { "speaker": "user", "text": "First, we should ___. Also, ___.", "hint": "Two solutions" },
+        { "speaker": "partner", "text": "Do you think individuals can make a difference?" },
+        { "speaker": "user", "text": "Absolutely. It is essential that ___. If everyone ___, we could ___.", "hint": "Express strong opinion" }
+      ],
+      "checklistItems": ["Use cause and effect language", "Express opinions strongly", "Suggest practical solutions"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000027:korean-error-001",
+      "category": "grammar",
+      "errorExample": "Because of the climate is changing.",
+      "correctForm": "Because the climate is changing. / Because of climate change.",
+      "explanation": "'Because' + clause, 'Because of' + noun phrase. Don't mix them.",
+      "tip": "'Because'는 뒤에 절(주어+동사)이, 'Because of'는 뒤에 명사(구)가 와요."
+    },
+    {
+      "id": "pack-000027:korean-error-002",
+      "category": "usage",
+      "errorExample": "The environment is very important, so we should protect the environment.",
+      "correctForm": "The environment is very important, so we should protect it.",
+      "explanation": "Avoid repetition by using pronouns.",
+      "tip": "같은 명사를 반복하지 말고 대명사(it)를 사용하세요."
+    },
+    {
+      "id": "pack-000027:korean-error-003",
+      "category": "pronunciation",
+      "errorExample": "environment = 엔바이런먼트",
+      "correctForm": "/ɪnˈvaɪrənmənt/ (인바이런먼트)",
+      "explanation": "The stress is on the second syllable 'VI', and the first 'e' sounds like 'i'.",
+      "tip": "'environment'의 강세는 두 번째 음절 'VI'에 있고, 첫 'e'는 '이' 소리가 나요."
+    }
+  ]
+}

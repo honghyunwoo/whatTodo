@@ -1,0 +1,279 @@
+{
+  "id": "pack-000025",
+  "level": "B1",
+  "topic": "Job Interviews",
+  "canDo": "I can participate in a job interview, answer common questions, and talk about my experience.",
+  "functionId": "professional",
+  "difficulty": 6,
+  "skills": ["vocab", "speaking", "listening", "reading"],
+  "estimatedMinutes": 25,
+  "tags": ["job_interview", "career", "professional", "employment"],
+
+  "grammar": {
+    "point": "Present perfect for experience, future intentions, soft language for interviews",
+    "rules": [
+      {
+        "id": "pack-000025:grammar-rule-001",
+        "title": "Present perfect for work experience",
+        "explanation": "Use present perfect to talk about experience that is relevant to now.",
+        "examples": ["I have worked in marketing for 5 years.", "I have managed a team of 10 people.", "I have dealt with customer complaints."],
+        "koreanTip": "경력을 말할 때 현재완료를 써요. 과거의 경험이 현재 이 직업과 관련이 있다는 것을 보여줘요."
+      },
+      {
+        "id": "pack-000025:grammar-rule-002",
+        "title": "Expressing future intentions",
+        "explanation": "Use 'would like to', 'I'm looking to', 'I hope to' for career goals.",
+        "examples": ["I would like to grow with this company.", "I'm looking to develop my leadership skills.", "I hope to contribute to your team's success."],
+        "koreanTip": "면접에서 포부를 말할 때 'I want'보다 'I would like to'가 더 professional해요."
+      },
+      {
+        "id": "pack-000025:grammar-rule-003",
+        "title": "Soft language and hedging",
+        "explanation": "Use 'I believe', 'I feel', 'I think' to sound confident but not arrogant.",
+        "examples": ["I believe I would be a good fit.", "I feel my experience has prepared me.", "I think I can bring value to this position."],
+        "koreanTip": "자신감 있지만 겸손하게 들리려면 'I believe', 'I feel'같은 표현을 써요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000025:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "I ___ in the IT industry for over 10 years.",
+        "options": ["work", "worked", "have worked", "am working"],
+        "correctAnswer": "have worked",
+        "explanation": "Use present perfect for experience that continues to be relevant.",
+        "koreanTip": "10년간의 경력이 현재까지 이어지므로 현재완료를 써요."
+      },
+      {
+        "id": "pack-000025:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "I ___ to develop my skills in project management.",
+        "options": ["want", "would like", "am wanting", "will want"],
+        "correctAnswer": "would like",
+        "explanation": "'Would like' is more formal and appropriate for interviews.",
+        "koreanTip": "면접에서는 'want'보다 'would like'가 더 적절해요."
+      },
+      {
+        "id": "pack-000025:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "I ___ my communication skills are one of my greatest strengths.",
+        "options": ["believe", "am believing", "believed", "believing"],
+        "correctAnswer": "believe",
+        "explanation": "'I believe' is used to express opinion in a professional context.",
+        "koreanTip": "'I believe'로 자신의 강점을 공손하게 표현할 수 있어요."
+      },
+      {
+        "id": "pack-000025:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which is the best way to answer 'What is your weakness?'",
+        "options": ["I have no weaknesses.", "I'm sometimes too perfect.", "I sometimes focus too much on details, but I'm working on prioritizing better.", "I don't like working hard."],
+        "correctAnswer": "I sometimes focus too much on details, but I'm working on prioritizing better.",
+        "explanation": "Acknowledge a weakness but show you're working to improve."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000025:vocab-001",
+        "word": "qualifications",
+        "pronunciation": "/ˌkwɑːlɪfɪˈkeɪʃənz/",
+        "meaning": "skills and experience that make you suitable for a job",
+        "meaningKo": "자격, 자격요건",
+        "partOfSpeech": "noun",
+        "examples": ["What are the qualifications for this position?", "I have all the necessary qualifications."],
+        "koreanTip": "학력, 자격증, 경력 등 직무에 필요한 조건들을 의미해요"
+      },
+      {
+        "id": "pack-000025:vocab-002",
+        "word": "candidate",
+        "pronunciation": "/ˈkændɪdeɪt/",
+        "meaning": "a person applying for a job",
+        "meaningKo": "지원자, 후보자",
+        "partOfSpeech": "noun",
+        "examples": ["We interviewed 20 candidates.", "You are a strong candidate for this position."],
+        "koreanTip": "채용 면접에서 '지원자'를 가리킬 때 쓰는 단어예요"
+      },
+      {
+        "id": "pack-000025:vocab-003",
+        "word": "strength",
+        "pronunciation": "/streŋθ/",
+        "meaning": "a good quality or ability",
+        "meaningKo": "강점",
+        "partOfSpeech": "noun",
+        "examples": ["What are your greatest strengths?", "My strength is problem-solving."],
+        "koreanTip": "'What are your strengths?'는 면접에서 자주 나오는 질문이에요"
+      },
+      {
+        "id": "pack-000025:vocab-004",
+        "word": "weakness",
+        "pronunciation": "/ˈwiːknəs/",
+        "meaning": "an area where you need to improve",
+        "meaningKo": "약점",
+        "partOfSpeech": "noun",
+        "examples": ["What are your weaknesses?", "I'm working on improving my weaknesses."],
+        "koreanTip": "약점을 말할 때는 개선 노력도 함께 언급하세요"
+      },
+      {
+        "id": "pack-000025:vocab-005",
+        "word": "contribute",
+        "pronunciation": "/kənˈtrɪbjuːt/",
+        "meaning": "to give or help in some way",
+        "meaningKo": "기여하다",
+        "partOfSpeech": "verb",
+        "examples": ["I want to contribute to the company's success.", "What can you contribute to our team?"],
+        "koreanTip": "'What can you contribute?'는 '어떤 기여를 할 수 있나요?'라는 뜻"
+      }
+    ],
+    "collocations": ["previous experience", "team player", "fast learner", "attention to detail", "time management"]
+  },
+
+  "reading": {
+    "id": "pack-000025:reading",
+    "title": "Interview Tips",
+    "passage": "A job interview can be stressful, but good preparation can make all the difference. Before the interview, research the company thoroughly. Learn about their products, services, and company culture. Prepare answers to common questions like 'Tell me about yourself' and 'Why do you want to work here?' During the interview, maintain eye contact and speak clearly. Listen carefully to each question before answering. Use specific examples from your experience to demonstrate your skills. Show enthusiasm for the role, but avoid sounding desperate. At the end, prepare thoughtful questions to ask the interviewer. This shows genuine interest in the position. Finally, send a thank-you email within 24 hours after the interview.",
+    "wordCount": 115,
+    "questions": [
+      {
+        "id": "pack-000025:reading-q-001",
+        "type": "comprehension",
+        "question": "What should you do before an interview?",
+        "options": ["Memorize a script", "Research the company", "Practice handshakes", "Buy new clothes"],
+        "correctAnswer": "Research the company",
+        "explanation": "The passage says 'Before the interview, research the company thoroughly.'"
+      },
+      {
+        "id": "pack-000025:reading-q-002",
+        "type": "comprehension",
+        "question": "What should you do after the interview?",
+        "options": ["Call the interviewer", "Send a thank-you email", "Visit the office", "Post on social media"],
+        "correctAnswer": "Send a thank-you email",
+        "explanation": "The passage says 'send a thank-you email within 24 hours after the interview.'"
+      },
+      {
+        "id": "pack-000025:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'demonstrate' mean in this context?",
+        "options": ["Protest against", "Show clearly", "Hide", "Question"],
+        "correctAnswer": "Show clearly",
+        "explanation": "'Demonstrate' means to show or prove something clearly."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000025:listening",
+    "title": "The Interview",
+    "script": "Thank you for coming in today. Can you tell me about yourself? Certainly. I have been working in digital marketing for five years. Currently, I'm a marketing coordinator at ABC Company, where I've managed several successful campaigns. Why do you want to work for our company? I've always admired your innovative approach to technology. I believe my skills would be a great fit for your marketing team. What would you say is your greatest strength? I would say my ability to analyze data and turn it into actionable strategies. I've consistently improved campaign performance by at least 20%. And a weakness? I sometimes take on too many projects at once. However, I've been using project management tools to better prioritize my work. Thank you. Do you have any questions for us? Yes, I'd like to know more about the team structure and growth opportunities.",
+    "audioUrl": null,
+    "duration": 60,
+    "exercises": [
+      {
+        "id": "pack-000025:listening-ex-001",
+        "type": "comprehension",
+        "question": "How long has the candidate worked in digital marketing?",
+        "options": ["Three years", "Four years", "Five years", "Six years"],
+        "correctAnswer": "Five years",
+        "explanation": "The candidate says 'I have been working in digital marketing for five years.'"
+      },
+      {
+        "id": "pack-000025:listening-ex-002",
+        "type": "fill_blank",
+        "question": "The candidate says their greatest strength is the ability to ___ data.",
+        "options": ["collect", "analyze", "delete", "ignore"],
+        "correctAnswer": "analyze",
+        "explanation": "The candidate says 'my ability to analyze data and turn it into actionable strategies.'"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000025:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Write answers to common interview questions.",
+      "template": "Tell me about yourself: I am [PROFESSION] with [YEARS] years of experience in [FIELD]. I have worked at [COMPANY] where I [ACHIEVEMENT]. I am now looking for [GOAL].\n\nWhy do you want this job?: I believe this position is a great fit because [REASON]. I am particularly interested in [ASPECT OF COMPANY]. I would like to contribute [CONTRIBUTION].\n\nWhat is your strength?: My greatest strength is [STRENGTH]. For example, [EXAMPLE].",
+      "slots": [
+        { "name": "PROFESSION", "hint": "Your job title" },
+        { "name": "YEARS", "hint": "Years of experience" },
+        { "name": "FIELD", "hint": "Your industry" },
+        { "name": "COMPANY", "hint": "Previous company" },
+        { "name": "ACHIEVEMENT", "hint": "What you accomplished" },
+        { "name": "GOAL", "hint": "Career goal" },
+        { "name": "REASON", "hint": "Why this job" },
+        { "name": "ASPECT OF COMPANY", "hint": "Something about the company" },
+        { "name": "CONTRIBUTION", "hint": "What you can offer" },
+        { "name": "STRENGTH", "hint": "Your main strength" },
+        { "name": "EXAMPLE", "hint": "Specific example" }
+      ],
+      "correctExample": "Tell me about yourself: I am a software developer with 4 years of experience in web development. I have worked at Tech Solutions where I developed mobile applications for major clients. I am now looking for new challenges in a growing company.\n\nWhy do you want this job?: I believe this position is a great fit because it combines my technical skills with my interest in AI. I am particularly interested in your company's commitment to innovation. I would like to contribute my problem-solving abilities and team collaboration skills.\n\nWhat is your strength?: My greatest strength is attention to detail. For example, in my previous role, I caught a critical bug before product launch that saved the company significant costs."
+    },
+    "free": {
+      "id": "pack-000025:writing-free",
+      "topic": "Your Interview Answers",
+      "prompt": "Write your own answers to these interview questions: 1) Tell me about yourself, 2) Why should we hire you?, 3) Where do you see yourself in 5 years?",
+      "minWords": 100,
+      "maxWords": 180,
+      "checklist": [
+        { "item": "Use present perfect for experience", "required": true },
+        { "item": "Use 'I would like to' for future goals", "required": true },
+        { "item": "Include specific examples", "required": true },
+        { "item": "Sound confident but not arrogant", "required": true }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000025:speaking-shadow",
+      "sentence": "I have worked in customer service for over three years, and I believe my experience in handling difficult situations would be valuable for this position.",
+      "pronunciation": "/aɪ hæv wɜːrkt ɪn ˈkʌstəmər ˈsɜːrvɪs fɔːr ˈoʊvər θriː jɪrz ænd aɪ bɪˈliːv maɪ ɪkˈspɪriəns ɪn ˈhændlɪŋ ˈdɪfɪkəlt ˌsɪtʃuˈeɪʃənz wʊd biː ˈvæljuəbl fɔːr ðɪs pəˈzɪʃən/",
+      "audioUrl": null,
+      "koreanTip": "면접에서는 천천히, 명확하게 말하는 것이 중요해요. 'valuable'의 강세는 첫 음절에 있어요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000025:speaking-roleplay",
+      "scenario": "You are in a job interview.",
+      "role": "Candidate",
+      "partnerRole": "Interviewer",
+      "prompts": [
+        { "speaker": "partner", "text": "Can you tell me about yourself?" },
+        { "speaker": "user", "text": "Certainly. I have been working in ___ for ___. Currently, I ___.", "hint": "Field, duration, current role" },
+        { "speaker": "partner", "text": "Why do you want to work for our company?" },
+        { "speaker": "user", "text": "I believe ___ because ___. I would like to ___.", "hint": "Reason and goal" },
+        { "speaker": "partner", "text": "What is your greatest strength?" },
+        { "speaker": "user", "text": "I would say my greatest strength is ___. For example, ___.", "hint": "Strength with example" }
+      ],
+      "checklistItems": ["Use present perfect for experience", "Express goals politely with 'would like'", "Give specific examples"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000025:korean-error-001",
+      "category": "grammar",
+      "errorExample": "I work here for 5 years.",
+      "correctForm": "I have worked here for 5 years. / I have been working here for 5 years.",
+      "explanation": "Use present perfect for actions that started in the past and continue to now.",
+      "tip": "과거부터 지금까지 계속되는 경력은 현재완료로 표현해요."
+    },
+    {
+      "id": "pack-000025:korean-error-002",
+      "category": "usage",
+      "errorExample": "I want to work at your company because I need money.",
+      "correctForm": "I would like to work at your company because I'm impressed by your innovative products.",
+      "explanation": "Focus on what you can contribute, not just what you need.",
+      "tip": "면접에서는 회사에 어떤 기여를 할 수 있는지 강조하세요. 개인적인 필요보다요."
+    },
+    {
+      "id": "pack-000025:korean-error-003",
+      "category": "pronunciation",
+      "errorExample": "I have expEErience",
+      "correctForm": "I have exPErience /ɪkˈspɪriəns/",
+      "explanation": "The stress in 'experience' is on the second syllable 'PE', not 'EE'.",
+      "tip": "'experience'의 강세는 두 번째 음절 'PE'에 있어요. 엑스피리언스가 아니라 익스피어리언스예요."
+    }
+  ]
+}

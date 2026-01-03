@@ -1,0 +1,278 @@
+{
+  "id": "pack-000019",
+  "level": "A2",
+  "topic": "Describing Experiences",
+  "canDo": "I can describe past experiences and how they made me feel.",
+  "functionId": "narration",
+  "difficulty": 5,
+  "skills": ["grammar", "vocab", "speaking", "writing"],
+  "estimatedMinutes": 20,
+  "tags": ["experiences", "feelings", "description", "stories"],
+
+  "grammar": {
+    "point": "Past tense with adjectives for feelings, linking words for storytelling",
+    "rules": [
+      {
+        "id": "pack-000019:grammar-rule-001",
+        "title": "-ed vs -ing adjectives for feelings",
+        "explanation": "Use -ed adjectives to describe how you feel. Use -ing adjectives to describe what causes the feeling.",
+        "examples": ["I was excited about the trip.", "The trip was exciting.", "She felt bored. The movie was boring."],
+        "koreanTip": "-ed는 '~한 느낌을 받았다', -ing는 '~하게 만드는'이에요. 'I'm boring'이 아니라 'I'm bored'예요!"
+      },
+      {
+        "id": "pack-000019:grammar-rule-002",
+        "title": "Linking words for sequence",
+        "explanation": "Use words like 'first', 'then', 'after that', 'finally' to show the order of events.",
+        "examples": ["First, we arrived at the hotel. Then, we went to the beach. After that, we had dinner. Finally, we watched the sunset."],
+        "koreanTip": "이야기를 순서대로 말할 때: first(처음에) → then(그 다음에) → after that(그 후에) → finally(마침내)"
+      },
+      {
+        "id": "pack-000019:grammar-rule-003",
+        "title": "So/Because for explaining reasons",
+        "explanation": "'Because' introduces a reason. 'So' introduces a result.",
+        "examples": ["I was tired because I walked all day.", "I walked all day, so I was tired."],
+        "koreanTip": "'because'는 이유를 말할 때, 'so'는 결과를 말할 때 써요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000019:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "The movie was really ___. I almost fell asleep.",
+        "options": ["bored", "boring", "bore", "bores"],
+        "correctAnswer": "boring",
+        "explanation": "The movie causes boredom, so use '-ing' adjective.",
+        "koreanTip": "영화가 지루함을 유발하므로 'boring'을 써요."
+      },
+      {
+        "id": "pack-000019:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "I was ___ because I passed the exam!",
+        "options": ["exciting", "excite", "excited", "excitement"],
+        "correctAnswer": "excited",
+        "explanation": "Use '-ed' to describe how you feel.",
+        "koreanTip": "내가 느끼는 감정이므로 'excited'를 써요."
+      },
+      {
+        "id": "pack-000019:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "I didn't bring an umbrella, ___ I got wet.",
+        "options": ["because", "so", "but", "although"],
+        "correctAnswer": "so",
+        "explanation": "'So' introduces the result.",
+        "koreanTip": "결과를 말할 때는 'so'를 써요."
+      },
+      {
+        "id": "pack-000019:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which sentence is correct?",
+        "options": ["I'm very interesting in art.", "I'm very interested in art.", "I'm very interest in art.", "I'm very interestingly in art."],
+        "correctAnswer": "I'm very interested in art.",
+        "explanation": "Use 'interested' (feeling) + 'in' to talk about interests."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000019:vocab-001",
+        "word": "memorable",
+        "pronunciation": "/ˈmemərəbl/",
+        "meaning": "worth remembering; unforgettable",
+        "meaningKo": "기억에 남는",
+        "partOfSpeech": "adjective",
+        "examples": ["It was a memorable experience.", "Our wedding was truly memorable."],
+        "koreanTip": "'memory(기억)'에서 나온 형용사예요. '잊을 수 없는'이라는 뜻"
+      },
+      {
+        "id": "pack-000019:vocab-002",
+        "word": "challenging",
+        "pronunciation": "/ˈtʃælɪndʒɪŋ/",
+        "meaning": "difficult in an interesting way",
+        "meaningKo": "도전적인, 어렵지만 흥미로운",
+        "partOfSpeech": "adjective",
+        "examples": ["The hike was challenging but rewarding.", "I like challenging tasks."],
+        "koreanTip": "단순히 'difficult'와 달리 긍정적인 뉘앙스가 있어요"
+      },
+      {
+        "id": "pack-000019:vocab-003",
+        "word": "unexpected",
+        "pronunciation": "/ˌʌnɪkˈspektɪd/",
+        "meaning": "not predicted; surprising",
+        "meaningKo": "예상치 못한",
+        "partOfSpeech": "adjective",
+        "examples": ["There was an unexpected problem.", "The ending was completely unexpected."],
+        "koreanTip": "'un-' + 'expected' = 예상하지 못한"
+      },
+      {
+        "id": "pack-000019:vocab-004",
+        "word": "overwhelmed",
+        "pronunciation": "/ˌoʊvərˈwelmd/",
+        "meaning": "feeling too much emotion or having too much to deal with",
+        "meaningKo": "압도된, 벅찬",
+        "partOfSpeech": "adjective",
+        "examples": ["I felt overwhelmed by the kindness.", "She was overwhelmed with work."],
+        "koreanTip": "감정이나 일이 너무 많아서 벅찬 느낌을 표현해요"
+      },
+      {
+        "id": "pack-000019:vocab-005",
+        "word": "exhausted",
+        "pronunciation": "/ɪɡˈzɔːstɪd/",
+        "meaning": "extremely tired",
+        "meaningKo": "완전히 지친",
+        "partOfSpeech": "adjective",
+        "examples": ["After the marathon, I was exhausted.", "She looked exhausted from the long day."],
+        "koreanTip": "'tired'보다 훨씬 더 지친 상태를 나타내요"
+      }
+    ],
+    "collocations": ["once in a lifetime", "out of this world", "worth the effort", "at first/at last", "in the end"]
+  },
+
+  "reading": {
+    "id": "pack-000019:reading",
+    "title": "My First Camping Trip",
+    "passage": "Last summer, I went camping for the first time. I was both excited and nervous because I had never slept outdoors before. First, we set up the tent. It was more challenging than I expected, but we finally figured it out. Then, we went hiking in the forest. The views were breathtaking! After that, we made a campfire and cooked dinner. The food tasted amazing because we were so hungry. At night, I was a little scared because it was so dark and quiet. However, when I looked up at the stars, I felt amazed. I had never seen so many stars before. It was a truly memorable experience, and I can't wait to go again!",
+    "wordCount": 120,
+    "questions": [
+      {
+        "id": "pack-000019:reading-q-001",
+        "type": "comprehension",
+        "question": "How did the writer feel at first about camping?",
+        "options": ["Only excited", "Only nervous", "Both excited and nervous", "Not interested"],
+        "correctAnswer": "Both excited and nervous",
+        "explanation": "The passage says 'I was both excited and nervous.'"
+      },
+      {
+        "id": "pack-000019:reading-q-002",
+        "type": "comprehension",
+        "question": "What made the writer feel amazed at night?",
+        "options": ["The campfire", "The tent", "The stars", "The forest"],
+        "correctAnswer": "The stars",
+        "explanation": "The passage says 'when I looked up at the stars, I felt amazed.'"
+      },
+      {
+        "id": "pack-000019:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'breathtaking' mean?",
+        "options": ["Dangerous", "Extremely beautiful", "Very cold", "Very loud"],
+        "correctAnswer": "Extremely beautiful",
+        "explanation": "'Breathtaking' means so beautiful that it takes your breath away."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000019:listening",
+    "title": "A Scary Experience",
+    "script": "I want to tell you about the scariest experience I've ever had. It happened last winter. I was driving home alone at night when suddenly, my car broke down. I was on a dark road in the mountains, and there was no cell phone signal. At first, I was really scared. Then, I decided to walk to find help. After about twenty minutes, I saw a small house with lights on. The people inside were so kind! They let me use their phone and even gave me hot coffee. In the end, a mechanic came to fix my car. I was so relieved! It was a frightening experience, but I learned that there are kind people everywhere.",
+    "audioUrl": null,
+    "duration": 50,
+    "exercises": [
+      {
+        "id": "pack-000019:listening-ex-001",
+        "type": "comprehension",
+        "question": "What happened to the speaker's car?",
+        "options": ["It ran out of gas", "It broke down", "It got a flat tire", "It was stolen"],
+        "correctAnswer": "It broke down",
+        "explanation": "The speaker says 'my car broke down.'"
+      },
+      {
+        "id": "pack-000019:listening-ex-002",
+        "type": "fill_blank",
+        "question": "The speaker felt ___ when the mechanic fixed the car.",
+        "options": ["scared", "angry", "relieved", "confused"],
+        "correctAnswer": "relieved",
+        "explanation": "The speaker says 'I was so relieved!'"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000019:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Describe a memorable experience using the template.",
+      "template": "One of my most [ADJECTIVE] experiences was [EVENT]. First, [FIRST EVENT]. I felt [FEELING1] because [REASON1]. Then, [NEXT EVENT]. After that, [THIRD EVENT]. Finally, [CONCLUSION]. In the end, I was [FEELING2]. It was a truly [FINAL ADJECTIVE] experience.",
+      "slots": [
+        { "name": "ADJECTIVE", "hint": "memorable/scary/exciting" },
+        { "name": "EVENT", "hint": "What happened" },
+        { "name": "FIRST EVENT", "hint": "First thing that happened" },
+        { "name": "FEELING1", "hint": "-ed feeling word" },
+        { "name": "REASON1", "hint": "Why you felt that way" },
+        { "name": "NEXT EVENT", "hint": "What happened next" },
+        { "name": "THIRD EVENT", "hint": "What happened after" },
+        { "name": "CONCLUSION", "hint": "How it ended" },
+        { "name": "FEELING2", "hint": "-ed feeling word" },
+        { "name": "FINAL ADJECTIVE", "hint": "Describing the experience" }
+      ],
+      "correctExample": "One of my most exciting experiences was my first skydiving jump. First, I took a training class. I felt nervous because I had never done anything like this before. Then, we got on the plane and flew up very high. After that, I jumped out of the plane with an instructor. Finally, my parachute opened and I landed safely. In the end, I was thrilled. It was a truly unforgettable experience."
+    },
+    "free": {
+      "id": "pack-000019:writing-free",
+      "topic": "A Day You'll Never Forget",
+      "prompt": "Write about a day that was special to you. Describe what happened and how you felt. Use linking words to tell the story in order.",
+      "minWords": 70,
+      "maxWords": 130,
+      "checklist": [
+        { "item": "Use at least 3 -ed adjectives for feelings", "required": true },
+        { "item": "Use linking words (first, then, after that, finally)", "required": true },
+        { "item": "Use 'because' or 'so' at least once", "required": true },
+        { "item": "Describe the experience clearly", "required": true }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000019:speaking-shadow",
+      "sentence": "It was the most challenging experience I've ever had, but in the end, I felt really proud of myself because I didn't give up.",
+      "pronunciation": "/ɪt wɑːz ðə moʊst ˈtʃælɪndʒɪŋ ɪkˈspɪriəns aɪv ˈevər hæd bət ɪn ði end aɪ felt ˈriːli praʊd əv maɪˈself bɪˈkɔːz aɪ ˈdɪdnt ɡɪv ʌp/",
+      "audioUrl": null,
+      "koreanTip": "'challenging'의 'ch'는 '취' 소리, 'experience'의 강세는 두 번째 음절 'pe'에 있어요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000019:speaking-roleplay",
+      "scenario": "You are telling a friend about an interesting experience.",
+      "role": "Storyteller",
+      "partnerRole": "Friend",
+      "prompts": [
+        { "speaker": "partner", "text": "Did anything interesting happen to you recently?" },
+        { "speaker": "user", "text": "Yes! I had a really ___ experience. Let me tell you about it.", "hint": "Use -ing adjective" },
+        { "speaker": "partner", "text": "What happened?" },
+        { "speaker": "user", "text": "First, ___. I was ___ because ___.", "hint": "Describe event + feeling + reason" },
+        { "speaker": "partner", "text": "Then what?" },
+        { "speaker": "user", "text": "Then, ___. In the end, I felt ___.", "hint": "Continue story + final feeling" }
+      ],
+      "checklistItems": ["Use -ed adjectives for feelings", "Use -ing adjectives for descriptions", "Use sequence words", "Explain reasons with because/so"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000019:korean-error-001",
+      "category": "grammar",
+      "errorExample": "I'm boring.",
+      "correctForm": "I'm bored.",
+      "explanation": "Use '-ed' for how you feel, '-ing' for what causes the feeling.",
+      "tip": "'I'm boring'은 '나는 지루한 사람이야'라는 뜻이 돼요! 지루함을 느끼면 'I'm bored'를 쓰세요."
+    },
+    {
+      "id": "pack-000019:korean-error-002",
+      "category": "grammar",
+      "errorExample": "The movie was bored.",
+      "correctForm": "The movie was boring.",
+      "explanation": "The movie causes boredom, so use '-ing'.",
+      "tip": "영화는 감정을 유발하는 것이므로 'boring'을 써요. 'bored'는 사람에게 써요."
+    },
+    {
+      "id": "pack-000019:korean-error-003",
+      "category": "usage",
+      "errorExample": "I'm interested about science.",
+      "correctForm": "I'm interested in science.",
+      "explanation": "'Interested' is followed by 'in', not 'about'.",
+      "tip": "'interested'는 항상 'in'과 함께 써요. 'about'이 아니에요."
+    }
+  ]
+}

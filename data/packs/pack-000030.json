@@ -1,0 +1,278 @@
+{
+  "id": "pack-000030",
+  "level": "B1",
+  "topic": "News and Current Events",
+  "canDo": "I can understand news reports and discuss current events.",
+  "functionId": "information",
+  "difficulty": 7,
+  "skills": ["vocab", "reading", "listening", "speaking"],
+  "estimatedMinutes": 25,
+  "tags": ["news", "current_events", "media", "information"],
+
+  "grammar": {
+    "point": "News language, passive voice in reporting, present perfect for recent news",
+    "rules": [
+      {
+        "id": "pack-000030:grammar-rule-001",
+        "title": "Present perfect for recent news",
+        "explanation": "Use present perfect for news that is recent and relevant. Headlines often omit auxiliary verbs.",
+        "examples": ["The government has announced new policies.", "Scientists have discovered a new species.", "(Headline) New Treaty Signed"],
+        "koreanTip": "최신 뉴스에는 현재완료를 많이 써요. 헤드라인에서는 'has/have'를 생략하기도 해요."
+      },
+      {
+        "id": "pack-000030:grammar-rule-002",
+        "title": "Passive voice in news reporting",
+        "explanation": "Passive is common in news to focus on what happened, not who did it.",
+        "examples": ["The suspect was arrested yesterday.", "The building was destroyed by the fire.", "New laws are being considered."],
+        "koreanTip": "뉴스에서는 행위자보다 사건 자체가 중요해서 수동태를 많이 써요."
+      },
+      {
+        "id": "pack-000030:grammar-rule-003",
+        "title": "Reporting verbs for news",
+        "explanation": "Use 'reported', 'claimed', 'stated', 'according to' to attribute information.",
+        "examples": ["Officials reported that the economy is improving.", "The company claims that the product is safe.", "According to experts, climate change is accelerating."],
+        "koreanTip": "'According to'는 정보의 출처를 밝힐 때, 'claims'는 확실하지 않은 주장을 전할 때 써요."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000030:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "The president ___ a new economic plan.",
+        "options": ["announces", "has announced", "announcing", "announce"],
+        "correctAnswer": "has announced",
+        "explanation": "Use present perfect for recent news that is still relevant.",
+        "koreanTip": "최근에 일어난 뉴스이고 아직 관련이 있으므로 현재완료를 써요."
+      },
+      {
+        "id": "pack-000030:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "Three people ___ in the accident yesterday.",
+        "options": ["injured", "were injured", "have injured", "injuring"],
+        "correctAnswer": "were injured",
+        "explanation": "Use passive voice because the focus is on what happened to the people.",
+        "koreanTip": "사람들이 부상당한 것이 중요하므로 수동태 'were injured'를 써요."
+      },
+      {
+        "id": "pack-000030:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "___ scientists, the vaccine is 95% effective.",
+        "options": ["According to", "Reported", "Claimed by", "Stating"],
+        "correctAnswer": "According to",
+        "explanation": "'According to' is used to cite a source of information.",
+        "koreanTip": "'According to'는 정보 출처를 밝힐 때 쓰는 표현이에요."
+      },
+      {
+        "id": "pack-000030:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which is a typical news headline style?",
+        "options": ["The President Has Announced New Plan", "President Announces New Plan", "The President Is Announcing New Plan", "President Has Been Announced"],
+        "correctAnswer": "President Announces New Plan",
+        "explanation": "Headlines typically use present simple and omit articles and auxiliary verbs."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000030:vocab-001",
+        "word": "headline",
+        "pronunciation": "/ˈhedlaɪn/",
+        "meaning": "the title of a news article",
+        "meaningKo": "헤드라인, 표제",
+        "partOfSpeech": "noun",
+        "examples": ["The headline says 'Economy Shows Strong Growth.'", "What are today's headlines?"],
+        "koreanTip": "뉴스 기사의 제목을 말해요. '헤드라인을 장식하다'는 'make headlines'"
+      },
+      {
+        "id": "pack-000030:vocab-002",
+        "word": "source",
+        "pronunciation": "/sɔːrs/",
+        "meaning": "where information comes from",
+        "meaningKo": "출처, 소스",
+        "partOfSpeech": "noun",
+        "examples": ["Always check your sources.", "The journalist refused to reveal her source."],
+        "koreanTip": "정보의 출처나 정보를 제공하는 사람/기관을 말해요"
+      },
+      {
+        "id": "pack-000030:vocab-003",
+        "word": "breaking news",
+        "pronunciation": "/ˈbreɪkɪŋ njuːz/",
+        "meaning": "important news happening right now",
+        "meaningKo": "속보",
+        "partOfSpeech": "noun",
+        "examples": ["We have breaking news from the White House.", "Breaking news: earthquake hits Japan."],
+        "koreanTip": "지금 막 발생한 중요한 뉴스를 말해요"
+      },
+      {
+        "id": "pack-000030:vocab-004",
+        "word": "investigation",
+        "pronunciation": "/ɪnˌvestɪˈɡeɪʃən/",
+        "meaning": "a detailed examination of something",
+        "meaningKo": "조사, 수사",
+        "partOfSpeech": "noun",
+        "examples": ["The police launched an investigation.", "An investigation is underway."],
+        "koreanTip": "'investigate(조사하다)'의 명사형이에요"
+      },
+      {
+        "id": "pack-000030:vocab-005",
+        "word": "coverage",
+        "pronunciation": "/ˈkʌvərɪdʒ/",
+        "meaning": "the reporting of news",
+        "meaningKo": "보도, 취재",
+        "partOfSpeech": "noun",
+        "examples": ["The event received extensive media coverage.", "We'll have live coverage of the election."],
+        "koreanTip": "뉴스가 어떤 사건을 얼마나 다루는지를 말해요"
+      }
+    ],
+    "collocations": ["make headlines", "according to reports", "sources say", "under investigation", "breaking news"]
+  },
+
+  "reading": {
+    "id": "pack-000030:reading",
+    "title": "Today's Top Stories",
+    "passage": "ECONOMY: The government has announced a new stimulus package worth $50 billion. According to officials, the plan is expected to create 500,000 jobs over the next two years. The announcement was made at a press conference this morning. ENVIRONMENT: A new study has found that ocean temperatures have risen faster than previously thought. Scientists warn that urgent action is needed to address climate change. The research was published in Nature journal yesterday. TECHNOLOGY: A major tech company has been fined $2 billion for privacy violations. The decision was made by regulators after a two-year investigation. The company has stated that it will appeal the ruling. Critics have called for stricter regulations on big tech companies.",
+    "wordCount": 125,
+    "questions": [
+      {
+        "id": "pack-000030:reading-q-001",
+        "type": "comprehension",
+        "question": "How many jobs is the stimulus package expected to create?",
+        "options": ["50,000", "200,000", "500,000", "2 million"],
+        "correctAnswer": "500,000",
+        "explanation": "The passage says 'the plan is expected to create 500,000 jobs.'"
+      },
+      {
+        "id": "pack-000030:reading-q-002",
+        "type": "comprehension",
+        "question": "Why was the tech company fined?",
+        "options": ["Tax evasion", "Privacy violations", "Environmental damage", "False advertising"],
+        "correctAnswer": "Privacy violations",
+        "explanation": "The passage says the company 'has been fined $2 billion for privacy violations.'"
+      },
+      {
+        "id": "pack-000030:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'appeal' mean in this context?",
+        "options": ["Agree with", "Ask for a review of a decision", "Pay immediately", "Apologize"],
+        "correctAnswer": "Ask for a review of a decision",
+        "explanation": "In legal context, 'appeal' means to formally ask a higher authority to change a decision."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000030:listening",
+    "title": "Radio News Update",
+    "script": "Good evening. Here are tonight's top stories. The Prime Minister has announced plans to increase the minimum wage by 10 percent starting next year. Labor unions have welcomed the decision, while some business groups have expressed concerns about rising costs. In international news, a peace agreement has been signed between two nations that have been in conflict for over a decade. The treaty was signed at a ceremony in Geneva. According to diplomats, this marks a historic moment for the region. In sports, the national football team has qualified for the World Cup after a dramatic 2-1 victory. Thousands of fans celebrated in the streets last night. Stay tuned for more updates.",
+    "audioUrl": null,
+    "duration": 55,
+    "exercises": [
+      {
+        "id": "pack-000030:listening-ex-001",
+        "type": "comprehension",
+        "question": "By how much will the minimum wage increase?",
+        "options": ["5 percent", "10 percent", "15 percent", "20 percent"],
+        "correctAnswer": "10 percent",
+        "explanation": "The report says 'increase the minimum wage by 10 percent.'"
+      },
+      {
+        "id": "pack-000030:listening-ex-002",
+        "type": "fill_blank",
+        "question": "The peace treaty was signed in ___.",
+        "options": ["Paris", "London", "Geneva", "New York"],
+        "correctAnswer": "Geneva",
+        "explanation": "The report says 'The treaty was signed at a ceremony in Geneva.'"
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000030:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Write a short news report using news language.",
+      "template": "[HEADLINE]\n\n[MAIN EVENT - present perfect]. According to [SOURCE], [ADDITIONAL DETAIL]. The [ACTION] was [PASSIVE DESCRIPTION]. [PERSON/GROUP] has stated that [QUOTE OR REACTION]. Critics have [RESPONSE]. An investigation is expected to [FUTURE ACTION].",
+      "slots": [
+        { "name": "HEADLINE", "hint": "Short headline" },
+        { "name": "MAIN EVENT", "hint": "What happened (present perfect)" },
+        { "name": "SOURCE", "hint": "Who said it" },
+        { "name": "ADDITIONAL DETAIL", "hint": "More information" },
+        { "name": "ACTION", "hint": "What was done" },
+        { "name": "PASSIVE DESCRIPTION", "hint": "Passive voice description" },
+        { "name": "PERSON/GROUP", "hint": "Who reacted" },
+        { "name": "QUOTE OR REACTION", "hint": "Their response" },
+        { "name": "RESPONSE", "hint": "Critics' reaction" },
+        { "name": "FUTURE ACTION", "hint": "What will happen next" }
+      ],
+      "correctExample": "LOCAL FACTORY CLOSES\n\nA major manufacturing company has announced the closure of its Seoul factory. According to company officials, the decision was made due to rising operational costs. The closure was confirmed at a press conference yesterday. Union leaders have stated that they will fight to protect workers' jobs. Critics have called the decision 'devastating for the local economy.' An investigation is expected to examine whether the company violated labor laws."
+    },
+    "free": {
+      "id": "pack-000030:writing-free",
+      "topic": "Write a News Report",
+      "prompt": "Write a short news report about an imaginary event (new discovery, business news, sports, etc.). Use present perfect for recent events, passive voice, and reporting verbs.",
+      "minWords": 80,
+      "maxWords": 150,
+      "checklist": [
+        { "item": "Include a headline", "required": true },
+        { "item": "Use present perfect for recent events", "required": true },
+        { "item": "Use passive voice at least twice", "required": true },
+        { "item": "Use 'according to' or reporting verbs", "required": true }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000030:speaking-shadow",
+      "sentence": "According to officials, the new policy has been approved and will take effect next month. The decision was announced at a press conference this morning.",
+      "pronunciation": "/əˈkɔːrdɪŋ tuː əˈfɪʃəlz ðə nuː ˈpɑːləsi hæz biːn əˈpruːvd ænd wɪl teɪk ɪˈfekt nekst mʌnθ ðə dɪˈsɪʒən wɑːz əˈnaʊnst æt ə pres ˈkɑːnfərəns ðɪs ˈmɔːrnɪŋ/",
+      "audioUrl": null,
+      "koreanTip": "뉴스에서는 또박또박 말하는 것이 중요해요. 'according to'는 '어코딩 투'로 자연스럽게 연결해요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000030:speaking-roleplay",
+      "scenario": "You are discussing recent news with a friend.",
+      "role": "News reader",
+      "partnerRole": "Friend",
+      "prompts": [
+        { "speaker": "partner", "text": "Have you heard any interesting news today?" },
+        { "speaker": "user", "text": "Yes! According to ___, ___.", "hint": "Source + news item" },
+        { "speaker": "partner", "text": "Really? What happened exactly?" },
+        { "speaker": "user", "text": "It was announced that ___. The decision was made ___.", "hint": "Use passive voice" },
+        { "speaker": "partner", "text": "What do people think about it?" },
+        { "speaker": "user", "text": "Officials have stated that ___. However, critics have ___.", "hint": "Different reactions" }
+      ],
+      "checklistItems": ["Use present perfect for recent news", "Use passive voice", "Use reporting expressions (according to, stated)"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000030:korean-error-001",
+      "category": "grammar",
+      "errorExample": "The government announced new policies yesterday. (for recent news still relevant)",
+      "correctForm": "The government has announced new policies. (present perfect for recent news)",
+      "explanation": "For news that is still current and relevant, use present perfect.",
+      "tip": "최신 뉴스나 아직 영향이 있는 뉴스에는 과거형보다 현재완료가 더 자연스러워요."
+    },
+    {
+      "id": "pack-000030:korean-error-002",
+      "category": "usage",
+      "errorExample": "According to me, this is important news.",
+      "correctForm": "In my opinion, this is important news.",
+      "explanation": "'According to' is for external sources, not for your own opinion.",
+      "tip": "'According to'는 다른 사람/기관을 인용할 때 써요. 자신의 의견은 'In my opinion'을 쓰세요."
+    },
+    {
+      "id": "pack-000030:korean-error-003",
+      "category": "grammar",
+      "errorExample": "The company is fined $1 million.",
+      "correctForm": "The company has been fined $1 million.",
+      "explanation": "For news about completed actions, use present perfect passive.",
+      "tip": "이미 완료된 조치를 뉴스로 전할 때는 현재완료 수동태 'has been fined'를 써요."
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "id": "pack-000013",
+  "level": "A2",
+  "topic": "Comparisons",
+  "canDo": "I can compare things and people using comparative and superlative forms.",
+  "functionId": "comparison",
+  "difficulty": 4,
+  "skills": ["grammar", "vocab", "reading", "speaking"],
+  "estimatedMinutes": 20,
+  "tags": ["comparison", "adjectives", "description", "opinions"],
+
+  "grammar": {
+    "point": "Comparative and Superlative Adjectives",
+    "rules": [
+      {
+        "id": "pack-000013:grammar-rule-001",
+        "title": "Comparative: -er / more + adjective",
+        "explanation": "Use -er for short adjectives (1-2 syllables) and 'more' for longer adjectives. Add 'than' after.",
+        "examples": ["She is taller than me.", "This book is more interesting than that one.", "He runs faster than his brother."],
+        "koreanTip": "짧은 형용사는 -er을 붙이고, 긴 형용사는 앞에 'more'를 붙여요. 비교 대상 앞에는 'than'을 써요."
+      },
+      {
+        "id": "pack-000013:grammar-rule-002",
+        "title": "Superlative: -est / most + adjective",
+        "explanation": "Use -est for short adjectives and 'most' for longer adjectives. Use 'the' before the superlative.",
+        "examples": ["He is the tallest in the class.", "This is the most expensive car.", "She is the smartest student."],
+        "koreanTip": "최상급은 항상 'the'와 함께 써요. '가장 ~한'의 의미예요."
+      },
+      {
+        "id": "pack-000013:grammar-rule-003",
+        "title": "Irregular comparatives and superlatives",
+        "explanation": "Some adjectives have irregular forms: good-better-best, bad-worse-worst, far-farther-farthest.",
+        "examples": ["This pizza is better than that one.", "Today is the worst day ever.", "The farthest I've traveled is Japan."],
+        "koreanTip": "불규칙 형용사: good-better-best, bad-worse-worst, many/much-more-most"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pack-000013:grammar-ex-001",
+        "type": "fill_blank",
+        "question": "Seoul is ___ than Busan. (big)",
+        "options": ["bigger", "more big", "biggest", "most big"],
+        "correctAnswer": "bigger",
+        "explanation": "'Big' is a short adjective. Add -ger (double the consonant) for comparative.",
+        "koreanTip": "'big'은 짧은 형용사라 -er을 붙여요. 자음+모음+자음이면 자음을 한 번 더 쓰고 -er을 붙여요."
+      },
+      {
+        "id": "pack-000013:grammar-ex-002",
+        "type": "fill_blank",
+        "question": "This movie is ___ than the last one. (interesting)",
+        "options": ["interestinger", "more interesting", "most interesting", "interestingest"],
+        "correctAnswer": "more interesting",
+        "explanation": "'Interesting' is a long adjective (3+ syllables). Use 'more' for comparative.",
+        "koreanTip": "'interesting'처럼 긴 형용사는 'more'를 앞에 붙여요."
+      },
+      {
+        "id": "pack-000013:grammar-ex-003",
+        "type": "fill_blank",
+        "question": "She is ___ student in our school. (good)",
+        "options": ["the better", "the best", "the most good", "the goodest"],
+        "correctAnswer": "the best",
+        "explanation": "'Good' is irregular. The superlative is 'the best'.",
+        "koreanTip": "'good'의 최상급은 'the best'예요. 불규칙 변화를 외워두세요!"
+      },
+      {
+        "id": "pack-000013:grammar-ex-004",
+        "type": "multiple_choice",
+        "question": "Which sentence is correct?",
+        "options": ["She is more tall than me.", "She is taller than I.", "She is most tall in class.", "She is the taller in class."],
+        "correctAnswer": "She is taller than I.",
+        "explanation": "'Tall' is a short adjective, so use 'taller than', not 'more tall'."
+      }
+    ]
+  },
+
+  "vocabulary": {
+    "words": [
+      {
+        "id": "pack-000013:vocab-001",
+        "word": "similar",
+        "pronunciation": "/ˈsɪmɪlər/",
+        "meaning": "almost the same",
+        "meaningKo": "비슷한",
+        "partOfSpeech": "adjective",
+        "examples": ["Our opinions are similar.", "These two shirts are similar in color."],
+        "koreanTip": "'similar to'로 '~와 비슷하다'를 표현해요"
+      },
+      {
+        "id": "pack-000013:vocab-002",
+        "word": "different",
+        "pronunciation": "/ˈdɪfərənt/",
+        "meaning": "not the same",
+        "meaningKo": "다른",
+        "partOfSpeech": "adjective",
+        "examples": ["We have different tastes.", "This is different from what I expected."],
+        "koreanTip": "'different from'으로 '~와 다르다'를 표현해요 (than 아님!)"
+      },
+      {
+        "id": "pack-000013:vocab-003",
+        "word": "same",
+        "pronunciation": "/seɪm/",
+        "meaning": "exactly alike",
+        "meaningKo": "같은",
+        "partOfSpeech": "adjective",
+        "examples": ["We have the same birthday.", "It's the same as before."],
+        "koreanTip": "'the same as'로 '~와 같다'를 표현해요. 'same' 앞에는 항상 'the'를 써요."
+      },
+      {
+        "id": "pack-000013:vocab-004",
+        "word": "prefer",
+        "pronunciation": "/prɪˈfɜːr/",
+        "meaning": "to like better",
+        "meaningKo": "선호하다",
+        "partOfSpeech": "verb",
+        "examples": ["I prefer tea to coffee.", "She prefers staying home."],
+        "koreanTip": "'prefer A to B'로 'B보다 A를 선호하다'를 표현해요"
+      },
+      {
+        "id": "pack-000013:vocab-005",
+        "word": "advantage",
+        "pronunciation": "/ədˈvæntɪdʒ/",
+        "meaning": "a benefit or positive point",
+        "meaningKo": "장점, 이점",
+        "partOfSpeech": "noun",
+        "examples": ["The advantage of this phone is its long battery life.", "What are the advantages?"],
+        "koreanTip": "반대말은 'disadvantage'(단점)예요"
+      }
+    ],
+    "collocations": ["as ... as", "not as ... as", "the same as", "different from", "compared to"]
+  },
+
+  "reading": {
+    "id": "pack-000013:reading",
+    "title": "City Life vs. Country Life",
+    "passage": "Many people wonder whether city life or country life is better. Cities are usually more exciting than rural areas. There are more restaurants, theaters, and shopping centers. Public transportation is also more convenient. However, cities are noisier and more polluted than the countryside. Country life is quieter and more peaceful. The air is cleaner, and there is more nature to enjoy. Houses are also cheaper in rural areas than in big cities. On the other hand, there are fewer job opportunities in the country. Both lifestyles have advantages and disadvantages. The best choice depends on what is most important to you.",
+    "wordCount": 100,
+    "questions": [
+      {
+        "id": "pack-000013:reading-q-001",
+        "type": "comprehension",
+        "question": "According to the passage, what is an advantage of city life?",
+        "options": ["Cleaner air", "Cheaper houses", "More entertainment options", "More peace and quiet"],
+        "correctAnswer": "More entertainment options",
+        "explanation": "The passage mentions 'more restaurants, theaters, and shopping centers' in cities."
+      },
+      {
+        "id": "pack-000013:reading-q-002",
+        "type": "comprehension",
+        "question": "What is a disadvantage of country life mentioned in the passage?",
+        "options": ["It's too noisy", "Houses are expensive", "Fewer job opportunities", "Too much traffic"],
+        "correctAnswer": "Fewer job opportunities",
+        "explanation": "The passage says 'there are fewer job opportunities in the country.'"
+      },
+      {
+        "id": "pack-000013:reading-q-003",
+        "type": "vocabulary",
+        "question": "What does 'rural' mean?",
+        "options": ["Related to cities", "Related to the countryside", "Related to schools", "Related to work"],
+        "correctAnswer": "Related to the countryside",
+        "explanation": "'Rural' means relating to or characteristic of the countryside."
+      }
+    ]
+  },
+
+  "listening": {
+    "id": "pack-000013:listening",
+    "title": "Choosing a Restaurant",
+    "script": "Hey, should we go to the Italian restaurant or the Korean one? Well, the Italian place is closer, but the Korean restaurant has better reviews. The Korean restaurant is more expensive though. That's true, but the food there is more delicious. I agree. Also, the Italian restaurant is smaller, so it might be too crowded. Good point. Let's go to the Korean restaurant then. It's a bit farther, but it seems like the better choice. Sounds good to me!",
+    "audioUrl": null,
+    "duration": 35,
+    "exercises": [
+      {
+        "id": "pack-000013:listening-ex-001",
+        "type": "comprehension",
+        "question": "Which restaurant is closer?",
+        "options": ["The Korean restaurant", "The Italian restaurant", "Both are the same distance", "Not mentioned"],
+        "correctAnswer": "The Italian restaurant",
+        "explanation": "The speaker says 'the Italian place is closer'."
+      },
+      {
+        "id": "pack-000013:listening-ex-002",
+        "type": "fill_blank",
+        "question": "The Korean restaurant has ___ reviews.",
+        "options": ["worse", "better", "the same", "fewer"],
+        "correctAnswer": "better",
+        "explanation": "The speaker says 'the Korean restaurant has better reviews'."
+      }
+    ]
+  },
+
+  "writing": {
+    "template": {
+      "id": "pack-000013:writing-template",
+      "type": "sentence_assembly",
+      "prompt": "Compare two things using the template.",
+      "template": "[ITEM1] is [COMPARATIVE1] than [ITEM2]. However, [ITEM2] is [COMPARATIVE2]. The [SUPERLATIVE] thing about [ITEM1] is [FEATURE]. Overall, I prefer [PREFERENCE] because [REASON].",
+      "slots": [
+        { "name": "ITEM1", "hint": "First thing to compare" },
+        { "name": "ITEM2", "hint": "Second thing to compare" },
+        { "name": "COMPARATIVE1", "hint": "Comparative adjective (e.g., bigger, more expensive)" },
+        { "name": "COMPARATIVE2", "hint": "Another comparative adjective" },
+        { "name": "SUPERLATIVE", "hint": "best/worst/most important" },
+        { "name": "FEATURE", "hint": "A specific feature" },
+        { "name": "PREFERENCE", "hint": "Your choice" },
+        { "name": "REASON", "hint": "Why you prefer it" }
+      ],
+      "correctExample": "iPhones are more expensive than Samsung phones. However, Samsung phones have more customization options. The best thing about iPhones is the smooth user experience. Overall, I prefer iPhones because they are easier to use."
+    },
+    "free": {
+      "id": "pack-000013:writing-free",
+      "topic": "Compare Two Places",
+      "prompt": "Compare two cities or countries you know. Use at least 3 comparative and 2 superlative forms.",
+      "minWords": 60,
+      "maxWords": 120,
+      "checklist": [
+        { "item": "Use at least 3 comparative forms (-er/more)", "required": true },
+        { "item": "Use at least 2 superlative forms (-est/most)", "required": true },
+        { "item": "Compare at least 3 different aspects", "required": true },
+        { "item": "State your preference with a reason", "required": false }
+      ]
+    }
+  },
+
+  "speaking": {
+    "shadowing": {
+      "id": "pack-000013:speaking-shadow",
+      "sentence": "This restaurant is more expensive than that one, but the food is better and the service is the best in the city.",
+      "pronunciation": "/ðɪs ˈrestərɑːnt ɪz mɔːr ɪkˈspensɪv ðæn ðæt wʌn bət ðə fuːd ɪz ˈbetər ænd ðə ˈsɜːrvɪs ɪz ðə best ɪn ðə ˈsɪti/",
+      "audioUrl": null,
+      "koreanTip": "'than'은 약하게 '던'처럼 발음돼요. 'better'는 미국식에서 't'가 'd' 소리로 바뀌어 '베더'처럼 들려요.",
+      "speedOptions": [1.0, 0.8, 0.6]
+    },
+    "roleplay": {
+      "id": "pack-000013:speaking-roleplay",
+      "scenario": "You are shopping with a friend and comparing products.",
+      "role": "Shopper",
+      "partnerRole": "Friend",
+      "prompts": [
+        { "speaker": "partner", "text": "Which laptop do you like?" },
+        { "speaker": "user", "text": "I think this one is ___ than that one.", "hint": "Use a comparative" },
+        { "speaker": "partner", "text": "But it's more expensive." },
+        { "speaker": "user", "text": "Yes, but it's also ___.", "hint": "Another comparative advantage" },
+        { "speaker": "partner", "text": "Which is the best overall?" },
+        { "speaker": "user", "text": "I think this is the ___ choice because ___.", "hint": "Use superlative + reason" }
+      ],
+      "checklistItems": ["Use comparatives correctly", "Use superlatives correctly", "Give reasons for your opinions"]
+    }
+  },
+
+  "koreanErrors": [
+    {
+      "id": "pack-000013:korean-error-001",
+      "category": "grammar",
+      "errorExample": "She is more tall than me.",
+      "correctForm": "She is taller than me.",
+      "explanation": "Short adjectives (1-2 syllables) use -er, not 'more'.",
+      "tip": "짧은 형용사에는 'more'를 쓰지 않아요. 'tall-taller', 'big-bigger', 'fast-faster'처럼 -er을 붙여요."
+    },
+    {
+      "id": "pack-000013:korean-error-002",
+      "category": "grammar",
+      "errorExample": "This is different than that.",
+      "correctForm": "This is different from that.",
+      "explanation": "In standard English, 'different' is followed by 'from', not 'than'.",
+      "tip": "'different'는 'from'과 함께 써요. 'than'이 아니에요!"
+    },
+    {
+      "id": "pack-000013:korean-error-003",
+      "category": "grammar",
+      "errorExample": "She is the most prettiest girl.",
+      "correctForm": "She is the prettiest girl.",
+      "explanation": "Don't use 'most' with adjectives that already have -est.",
+      "tip": "'most'와 '-est'를 동시에 쓰면 안 돼요. 둘 중 하나만 사용하세요."
+    }
+  ]
+}
