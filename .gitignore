@@ -46,3 +46,9 @@ GoogleService-Info.plist
 
 # Windows special files
 nul
+
+# Test coverage
+coverage/
+
+# Build artifacts
+dist-test/

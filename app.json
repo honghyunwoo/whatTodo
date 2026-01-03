@@ -56,7 +56,14 @@
           "color": "#4A90D9"
         }
       ],
-      "@react-native-community/datetimepicker"
+      "@react-native-community/datetimepicker",
+      [
+        "@sentry/react-native/expo",
+        {
+          "organization": "whattodo",
+          "project": "whattodo-mobile"
+        }
+      ]
     ],
     "extra": {
       "router": {
@@ -64,7 +71,8 @@
       },
       "eas": {
         "projectId": "0ebda4ee-0bed-4f8f-91fe-913f500fbbf8"
-      }
+      },
+      "sentryDsn": "${SENTRY_DSN}"
     }
   }
 }

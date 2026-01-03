@@ -55,7 +55,19 @@ jest.mock('@sentry/react-native', () => ({
   captureMessage: jest.fn(),
   addBreadcrumb: jest.fn(),
   setUser: jest.fn(),
+  setTag: jest.fn(),
   setContext: jest.fn(),
+  withScope: jest.fn((callback) => callback({ setExtras: jest.fn() })),
+}));
+
+// Mock expo-constants
+jest.mock('expo-constants', () => ({
+  appOwnership: 'expo', // Expo Go 환경으로 설정
+  expoConfig: {
+    extra: {
+      sentryDsn: '',
+    },
+  },
 }));
 
 // Mock react-native-reanimated

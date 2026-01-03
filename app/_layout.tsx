@@ -6,6 +6,7 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { PaperProvider } from 'react-native-paper';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
+import { BackupNotificationBanner } from '@/components/common/BackupNotificationBanner';
 import { ErrorBoundary } from '@/components/common/ErrorBoundary';
 import { OnboardingScreen } from '@/components/onboarding/OnboardingScreen';
 import { ThemeProvider, useTheme } from '@/contexts/ThemeContext';
@@ -79,6 +80,7 @@ function AppContent() {
 
   return (
     <>
+      <BackupNotificationBanner />
       <Stack screenOptions={{ headerShown: false }}>
         <Stack.Screen name="(tabs)" />
       </Stack>

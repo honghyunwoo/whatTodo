@@ -1,26 +1,28 @@
 {
   "project": "whatTodo",
-  "phase": "기능 확장",
+  "phase": "상용화 준비",
   "lastUpdated": "2026-01-03",
-  "currentWork": "spineLoader 테스트 추가 완료",
+  "currentWork": "Phase 0 완료 - 테스트 확장 및 기반 구축",
   "blockers": [],
   "recentChanges": [
-    "spineLoader 단위 테스트 32개 추가",
-    "총 테스트 51개 → 83개",
-    "문서 업데이트 (README, CHANGELOG)"
+    "Sentry 에러 모니터링 활성화",
+    "Core Store 테스트 95개 추가 (178개 총)",
+    "백업 실패 알림 시스템 구현",
+    "개인정보처리방침 작성",
+    "앱 스토어 메타데이터 작성"
   ],
   "nextSteps": [
-    "앱 기능 테스트 및 개선",
-    "docs/ARCHITECTURE.md 작성 (필요시)",
-    "새 기능 개발"
+    "Play Store 내부 테스트 등록",
+    "A2-B1 학습 팩 추가 (20개)",
+    "번들 사이즈 최적화"
   ],
   "statistics": {
-    "tsFiles": 215,
-    "components": 88,
-    "stores": 10,
+    "tsFiles": 220,
+    "components": 89,
+    "stores": 11,
     "services": 12,
     "spineFiles": 22,
-    "testsTotal": 83,
-    "testsPassing": 83
+    "testsTotal": 178,
+    "testsPassing": 178
   }
 }

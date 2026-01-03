@@ -9,6 +9,7 @@ import { useJournalStore } from '@/store/journalStore';
 import { useLearnStore } from '@/store/learnStore';
 import { useSrsStore } from '@/store/srsStore';
 import { useTaskStore } from '@/store/taskStore';
+import { onBackupFailed, onBackupSuccess } from '@/store/backupStore';
 import { BackupError } from '@/utils/errorHandler';
 
 const BACKUP_KEYS = [
@@ -316,9 +317,14 @@ export async function performAutoBackup(): Promise<void> {
 
     // 오래된 백업 파일 정리
     await cleanupOldBackups();
+
+    // 백업 성공 알림 (UI에 표시하지 않고 상태만 업데이트)
+    onBackupSuccess();
   } catch (error) {
     console.error('자동 백업 실패:', error);
-    // 자동 백업 실패는 조용히 처리 (사용자에게 알리지 않음)
+
+    // 백업 실패 알림 (사용자에게 알림)
+    onBackupFailed(error instanceof Error ? error : new Error(String(error)));
   }
 }
 

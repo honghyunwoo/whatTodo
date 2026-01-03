@@ -1,3 +1,4 @@
+export { BackupNotificationBanner } from './BackupNotificationBanner';
 export { BlurModal } from './BlurModal';
 export { EmptyState } from './EmptyState';
 export { ErrorBoundary } from './ErrorBoundary';
