@@ -7,7 +7,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-100%25-blue.svg)](https://www.typescriptlang.org/)
 [![React Native](https://img.shields.io/badge/React%20Native-0.74.5-61dafb.svg)](https://reactnative.dev/)
 [![Expo](https://img.shields.io/badge/Expo-~51.0.0-000020.svg)](https://expo.dev/)
-[![Tests](https://img.shields.io/badge/Tests-51%20passing-success.svg)](https://jestjs.io/)
+[![Tests](https://img.shields.io/badge/Tests-83%20passing-success.svg)](https://jestjs.io/)
 
 ---
 

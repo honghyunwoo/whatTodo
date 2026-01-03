@@ -6,6 +6,18 @@
 
 ## [Unreleased]
 
+### 2026-01-03 - 테스트 확장
+
+#### Added
+- **spineLoader 단위 테스트** (32개)
+  - 모든 CEFR 레벨(A1-C2) 로딩 검증
+  - Functions, Grammar, Lexis 데이터 구조 검증
+  - 헬퍼 메서드 테스트 (getFunction, getGrammarPoint 등)
+  - Pronunciation 로더 테스트
+- 총 테스트: 51개 → **83개**
+
+---
+
 ### 2026-01-02 - 콘텐츠 확장 및 문서 최적화
 
 #### Added

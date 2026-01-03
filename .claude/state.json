@@ -1,13 +1,13 @@
 {
   "project": "whatTodo",
   "phase": "기능 확장",
-  "lastUpdated": "2026-01-02",
-  "currentWork": "문서 정리 및 자동화 완료",
+  "lastUpdated": "2026-01-03",
+  "currentWork": "spineLoader 테스트 추가 완료",
   "blockers": [],
   "recentChanges": [
-    "CHANGELOG.md 2026-01-02 업데이트",
-    "프로젝트 자동화 Slash Commands 추가",
-    "문서 구조 정리 - CURRENT_STATE.md 삭제"
+    "spineLoader 단위 테스트 32개 추가",
+    "총 테스트 51개 → 83개",
+    "문서 업데이트 (README, CHANGELOG)"
   ],
   "nextSteps": [
     "앱 기능 테스트 및 개선",
@@ -15,12 +15,12 @@
     "새 기능 개발"
   ],
   "statistics": {
-    "tsFiles": 214,
+    "tsFiles": 215,
     "components": 88,
     "stores": 10,
     "services": 12,
     "spineFiles": 22,
-    "testsTotal": 51,
-    "testsPassing": 51
+    "testsTotal": 83,
+    "testsPassing": 83
   }
 }
