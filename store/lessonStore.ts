@@ -19,7 +19,6 @@ import type {
   LevelProgress,
   UnitProgress,
 } from '@/types/progress';
-import { isStoreHydrated } from '@/hooks/useStoreReady';
 import { useDiaryStore } from './diaryStore';
 import { useRewardStore } from './rewardStore';
 
@@ -38,6 +37,16 @@ const ACTIVITY_TYPES: ActivityType[] = [
 
 /** 스토리지 키 (신규) */
 const LESSON_STORAGE_KEY = 'lesson-progress';
+
+function hasStoreHydrated(
+  store: { persist?: { hasHydrated?: () => boolean } } | null | undefined
+): boolean {
+  try {
+    return store?.persist?.hasHydrated?.() ?? false;
+  } catch {
+    return false;
+  }
+}
 
 // ─────────────────────────────────────
 // State & Actions
@@ -310,12 +319,12 @@ export const useLessonStore = create<LessonState & LessonActions>()(
         });
 
         // 보상 지급 (Hydration 체크 후 안전하게 호출)
-        if (isStoreHydrated('reward')) {
+        if (hasStoreHydrated(useRewardStore)) {
           useRewardStore.getState().earnLearningStars(type, result.score ?? 0);
         }
 
         // 일기에 학습 기록 추가
-        if (isStoreHydrated('diary')) {
+        if (hasStoreHydrated(useDiaryStore)) {
           useDiaryStore.getState().addLearningRecord({
             activityType: type,
             lessonId,
