@@ -17,6 +17,7 @@ import { TodayHeader } from '@/components/today/TodayHeader';
 import { TodayEntry } from '@/components/today/TodayEntry';
 import { TodayTimeline } from '@/components/today/TodayTimeline';
 import { QuickStartCard } from '@/components/home/QuickStartCard';
+import { RoutineIslandCard } from '@/components/home/RoutineIslandCard';
 import { SrsWidget } from '@/components/home/SrsWidget';
 import { PackRecommendation } from '@/components/home/PackRecommendation';
 
@@ -38,6 +39,9 @@ export default function TodayScreen() {
       >
         {/* 통합 입력창: 메모/할일/일기 */}
         <TodayEntry />
+
+        {/* 루틴 섬 정산: 실행 복귀용 빠른 진입 */}
+        <RoutineIslandCard />
 
         {/* 퀵 학습 시작 카드 */}
         <QuickStartCard />

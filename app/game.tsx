@@ -1,6 +1,6 @@
 /**
- * Game Screen (미니게임)
- * 2048 게임 - 탭에서 분리되어 설정에서 접근
+ * Game Screen (루틴 섬 베타)
+ * 현재는 2048 테스트 모드를 fallback으로 사용
  */
 
 import { Stack } from 'expo-router';
@@ -75,7 +75,7 @@ export default function GameScreen() {
     <>
       <Stack.Screen
         options={{
-          title: '2048',
+          title: '루틴 섬',
           headerShown: true,
         }}
       />
@@ -93,9 +93,9 @@ export default function GameScreen() {
         </View>
 
         <View style={styles.instructions}>
-          <Text style={styles.instructionText}>스와이프로 타일을 이동하세요</Text>
+          <Text style={styles.instructionText}>루틴 섬 베타: 2048 테스트 모드</Text>
           <Text style={styles.instructionSubtext}>
-            같은 숫자끼리 합쳐집니다! ({gridSize}x{gridSize} 보드)
+            다음 단계에서 정산/투자 루프로 교체됩니다 ({gridSize}x{gridSize} 보드)
           </Text>
         </View>
 

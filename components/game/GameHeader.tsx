@@ -43,13 +43,13 @@ function GameHeaderComponent({
     <View style={styles.container}>
       <View style={styles.titleSection}>
         <View style={styles.titleRow}>
-          <Text style={styles.title}>2048</Text>
+          <Text style={styles.title}>루틴 섬</Text>
           <View style={styles.rewardSection}>
             <StarDisplay size="sm" />
             <StreakBadge />
           </View>
         </View>
-        <Text style={styles.subtitle}>숫자를 합쳐 2048을 만드세요!</Text>
+        <Text style={styles.subtitle}>베타: 현재는 2048 테스트 모드입니다</Text>
       </View>
 
       <View style={styles.controlSection}>
@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
   },
   title: {
     color: '#776e65',
-    fontSize: 48,
+    fontSize: 36,
     fontWeight: 'bold',
   },
   subtitle: {
