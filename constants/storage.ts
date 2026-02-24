@@ -5,6 +5,7 @@ export const STORAGE_KEYS = {
   SRS: '@whatTodo:srs',
   SETTINGS: '@whatTodo:settings',
   REWARDS: '@whatTodo:rewards',
+  ISLAND: '@whatTodo:island',
   GAME_THEMES: '@whatTodo:game_themes',
   THEME: '@whatTodo:theme',
   AUTO_BACKUP_SETTINGS: '@whatTodo:auto_backup_settings',

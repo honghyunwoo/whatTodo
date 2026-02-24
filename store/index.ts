@@ -8,6 +8,7 @@ export {
 } from './learnStore';
 export { useRewardStore, PRIORITY_REWARDS } from './rewardStore';
 export { useGameStore } from './gameStore';
+export { useIslandStore } from './islandStore';
 export { useSrsStore } from './srsStore';
 export type { WordWithSrs, ReviewStats } from './srsStore';
 export { useJournalStore } from './journalStore';
