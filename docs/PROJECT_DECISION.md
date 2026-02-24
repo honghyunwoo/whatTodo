@@ -62,40 +62,41 @@ You split execution context into 4 projects. Each project has value, but daily u
 
 ## 4) This Week One Metric
 
-Metric name: `Island->Next1 Conversion`  
-Definition: ratio of island settlement sessions where user starts Next1 within 60 seconds after claim.  
-Target this week: `>= 70%` on personal daily usage.
+Metric name: `Capture-3s Success Rate`  
+Definition: ratio of Today quick-capture attempts completed within 3 seconds (tap input -> `저장됨`).  
+Target this week: `>= 80%` on personal daily usage.
 
 Guardrails:
 
-1. Average island session must stay <= 90 seconds.
-2. Island session crash count must stay at 0.
-3. No new production dependency.
+1. Photo attach save success must stay at 100% (no crash/data loss).
+2. No new production dependency.
+3. Existing todo/learn/diary flow must remain intact.
 
 Trial guide:
 
-1. `docs/execution/ROUTINE_ISLAND_TRIAL_RUNBOOK.md`
+1. `docs/execution/CAPTURE_3S_TRIAL_RUNBOOK.md`
+2. `docs/execution/TODO_DIARY_PHOTO_IMPLEMENTATION_2026-02-24.md`
 
 ## 5) Sprint Backlog (2 Weeks Top10)
 
-1. Replace 2048 default promotion with `Routine Island` entry copy.
-2. Define 4-resource model: seed/water/sunlight/coin.
-3. Implement offline settlement with soft cap (0-12h/12-48h/48h+).
-4. Add daily focus card (one of three growth bonuses).
-5. Wire app events (todo/diary/english) into island resources.
-6. Add Today entry chip: `섬 정산`.
-7. Add one-tap CTA from settlement result: `Next1 시작`.
-8. Add local-only event stamps for conversion metric.
-9. Verify backup/export/import compatibility for new optional game keys.
-10. Final copy pass to keep game flow short and non-distracting.
+1. Today 3초 캡처 버튼/입력 흐름 최적화.
+2. Diary 사진 첨부(갤러리 선택 + 썸네일 + 삭제) 추가.
+3. 백업/복원에 diary key 포함 (기존 백업 호환 유지).
+4. Top3 + Next1 고정 영역 가시성 강화.
+5. 일기 3줄 회고 템플릿 개선.
+6. 투두 상세의 불필요 탭/입력 단순화.
+7. 영어 90초 시작 버튼을 Today에 명확히 노출.
+8. 자동 이월 + 내일 준비 루프 문구 정리.
+9. 기록 탭 검색/필터 반응 속도 개선.
+10. 릴리즈 체크리스트 기준으로 일일 스모크 검증.
 
 ### This Week Top1 Improvement
 
-Top1: `Routine Island Lite` (crash-free settlement loop + Next1 복귀 버튼 포함).
+Top1: `Today Quick Capture + Diary Photo Attach` (3초 캡처 + 사진 첨부 안정성).
 
 Execution reference:
 
-1. `docs/execution/ROUTINE_ISLAND_IMPLEMENTATION_2026-02-24.md`
+1. `docs/execution/TODO_DIARY_PHOTO_IMPLEMENTATION_2026-02-24.md`
 
 ## 6) Verification Scenario (Reproduce/Validate)
 
@@ -131,50 +132,26 @@ npm run web
 
 ## 7) Issue/PR Plan (Small + Safe)
 
-### Issue 1 / PR-1: Routine Island Entry Contract
+### Issue 1 / PR-1: Diary Photo Attach (No New Dependency)
 
-- Scope: Settings/TODAY entry copy and fallback route only.
-- LOC target: <= 180.
-- DoD:
-  - 2048 is no longer default promoted game.
-  - `Routine Island` entry appears in Settings and Today.
-  - Existing `/game` route fallback still works.
-- Rollback:
-  - `git revert` PR commit.
-  - Restore previous game card labels and route labels.
-
-### Issue 2 / PR-2: Island Core Settlement Loop (No New Dependency)
-
-- Scope: settlement claim + one upgrade + daily focus selection.
+- Scope: diary entry photo attach + preview + remove + save.
 - LOC target: <= 300.
 - DoD:
-  - Session ends in <= 90 seconds on normal use.
-  - Soft-cap offline claim works and does not overflow.
-  - Settlement result has one clear CTA (`Next1 시작`).
+  - User can attach at least one image from gallery.
+  - Saved entry preserves photo list after app restart.
+  - Existing entries without photos remain readable.
 - Rollback:
   - `git revert` PR commit.
-  - Feature flag defaults to off if crash is detected.
+  - Optional `photos` field ignored safely.
 
-### Issue 3 / PR-3: App Event Integration + Metric Stamp
+### Issue 2 / PR-2: Backup Compatibility for Diary Key
 
-- Scope: todo/diary/english events to island resources + conversion logs.
-- LOC target: <= 300.
+- Scope: include diary storage key in backup export/restore and tests.
+- LOC target: <= 220.
 - DoD:
-  - App events increase mapped resources deterministically.
-  - Settlement completion and Next1 start timestamps are stored locally.
-  - Metric computation script outputs conversion rate.
+  - Export includes diary key.
+  - Restore works with legacy backup (without diary key).
+  - Restore works with new backup (with photo metadata).
 - Rollback:
   - `git revert` PR commit.
-  - Ignore new optional game keys gracefully if missing.
-
-### Issue 4 / PR-4: Backup and Stability Hardening
-
-- Scope: backup compatibility, test scenarios, release checklist alignment.
-- LOC target: <= 240.
-- DoD:
-  - Export/import succeeds with and without island keys.
-  - Rehydrate after app restart remains stable.
-  - Emulator smoke run passes (Today, Settings, Routine Island).
-- Rollback:
-  - `git revert` PR commit.
-  - Restore from latest known-good JSON backup.
+  - Existing schemaVersion kept (backward compatible).

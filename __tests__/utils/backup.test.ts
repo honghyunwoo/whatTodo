@@ -27,6 +27,14 @@ jest.mock('@/store/taskStore', () => ({
   },
 }));
 
+jest.mock('@/store/diaryStore', () => ({
+  useDiaryStore: {
+    persist: {
+      rehydrate: jest.fn(),
+    },
+  },
+}));
+
 jest.mock('@/store/learnStore', () => ({
   useLearnStore: {
     persist: {
@@ -54,6 +62,7 @@ describe('백업 시스템', () => {
       // Setup: 일부 데이터 저장
       await AsyncStorage.setItem(STORAGE_KEYS.TASKS, JSON.stringify({ tasks: [] }));
       await AsyncStorage.setItem(STORAGE_KEYS.JOURNAL, JSON.stringify({ entries: [] }));
+      await AsyncStorage.setItem(STORAGE_KEYS.DIARY, JSON.stringify({ entries: [] }));
 
       const backup = await exportBackup();
 
@@ -72,6 +81,7 @@ describe('백업 시스템', () => {
       // Setup
       await AsyncStorage.setItem(STORAGE_KEYS.TASKS, JSON.stringify({ tasks: [] }));
       await AsyncStorage.setItem(STORAGE_KEYS.JOURNAL, JSON.stringify({ entries: [] }));
+      await AsyncStorage.setItem(STORAGE_KEYS.DIARY, JSON.stringify({ entries: [] }));
       await AsyncStorage.setItem(STORAGE_KEYS.LEARN_PROGRESS, JSON.stringify({ progress: [] }));
       await AsyncStorage.setItem(STORAGE_KEYS.SRS, JSON.stringify({ words: [] }));
       await AsyncStorage.setItem(STORAGE_KEYS.SETTINGS, JSON.stringify({ theme: 'light' }));
@@ -81,6 +91,7 @@ describe('백업 시스템', () => {
       // 모든 키가 포함되어 있는지 확인
       expect(backup.data[STORAGE_KEYS.TASKS]).toBeDefined();
       expect(backup.data[STORAGE_KEYS.JOURNAL]).toBeDefined();
+      expect(backup.data[STORAGE_KEYS.DIARY]).toBeDefined();
       expect(backup.data[STORAGE_KEYS.LEARN_PROGRESS]).toBeDefined();
       expect(backup.data[STORAGE_KEYS.SRS]).toBeDefined();
       expect(backup.data[STORAGE_KEYS.SETTINGS]).toBeDefined();
@@ -93,6 +104,7 @@ describe('백업 시스템', () => {
       // 모든 데이터가 null이어야 함
       expect(backup.data[STORAGE_KEYS.TASKS]).toBeNull();
       expect(backup.data[STORAGE_KEYS.JOURNAL]).toBeNull();
+      expect(backup.data[STORAGE_KEYS.DIARY]).toBeNull();
     });
 
     it('timestamp는 ISO 8601 형식', async () => {
@@ -114,6 +126,7 @@ describe('백업 시스템', () => {
         data: {
           [STORAGE_KEYS.TASKS]: JSON.stringify({ tasks: [{ id: '1', title: 'Test' }] }),
           [STORAGE_KEYS.JOURNAL]: JSON.stringify({ entries: [] }),
+          [STORAGE_KEYS.DIARY]: JSON.stringify({ entries: [] }),
           [STORAGE_KEYS.LEARN_PROGRESS]: null,
           [STORAGE_KEYS.SRS]: null,
           [STORAGE_KEYS.SETTINGS]: null,
@@ -140,6 +153,7 @@ describe('백업 시스템', () => {
         data: {
           [STORAGE_KEYS.TASKS]: JSON.stringify({ tasks: [] }),
           [STORAGE_KEYS.JOURNAL]: null,
+          [STORAGE_KEYS.DIARY]: null,
           [STORAGE_KEYS.LEARN_PROGRESS]: null,
           [STORAGE_KEYS.SRS]: null,
           [STORAGE_KEYS.SETTINGS]: null,
@@ -167,6 +181,7 @@ describe('백업 시스템', () => {
         data: {
           [STORAGE_KEYS.TASKS]: null, // null로 복원
           [STORAGE_KEYS.JOURNAL]: null,
+          [STORAGE_KEYS.DIARY]: null,
           [STORAGE_KEYS.LEARN_PROGRESS]: null,
           [STORAGE_KEYS.SRS]: null,
           [STORAGE_KEYS.SETTINGS]: null,
@@ -209,6 +224,7 @@ describe('백업 시스템', () => {
         data: {
           [STORAGE_KEYS.TASKS]: JSON.stringify({ tasks: [] }),
           [STORAGE_KEYS.JOURNAL]: null,
+          [STORAGE_KEYS.DIARY]: null,
           [STORAGE_KEYS.LEARN_PROGRESS]: null,
           [STORAGE_KEYS.SRS]: null,
           [STORAGE_KEYS.SETTINGS]: null,
@@ -253,6 +269,46 @@ describe('백업 시스템', () => {
 
       expect(JSON.parse(restoredTasks!)).toEqual(originalTasks);
       expect(JSON.parse(restoredJournal!)).toEqual(originalJournal);
+    });
+
+    it('다이어리 사진 메타데이터 backup/restore roundtrip 유지', async () => {
+      const originalDiary = {
+        state: {
+          entries: [
+            {
+              id: 'd1',
+              date: '2026-02-24',
+              title: '사진 일기',
+              content: '테스트',
+              photos: [
+                {
+                  id: 'p1',
+                  uri: 'content://media/external/images/media/1',
+                  fileName: 'sample.jpg',
+                  mimeType: 'image/jpeg',
+                  size: 1024,
+                  addedAt: new Date().toISOString(),
+                },
+              ],
+              createdAt: new Date().toISOString(),
+              updatedAt: new Date().toISOString(),
+            },
+          ],
+          tags: [],
+          streak: 0,
+          longestStreak: 0,
+          lastEntryDate: null,
+        },
+        version: 0,
+      };
+
+      await AsyncStorage.setItem(STORAGE_KEYS.DIARY, JSON.stringify(originalDiary));
+      const backup = await exportBackup();
+      await AsyncStorage.clear();
+      await restoreBackup(backup);
+
+      const restoredDiary = await AsyncStorage.getItem(STORAGE_KEYS.DIARY);
+      expect(JSON.parse(restoredDiary!)).toEqual(originalDiary);
     });
 
     it('export -> JSON.stringify -> parse -> restore 순환', async () => {

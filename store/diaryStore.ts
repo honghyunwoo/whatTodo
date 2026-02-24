@@ -2,9 +2,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 
+import { STORAGE_KEYS } from '@/constants/storage';
 import { generateId } from '@/utils/id';
-
-const DIARY_STORAGE_KEY = '@whatTodo:diary';
 
 export type MoodType =
   | 'happy'
@@ -42,6 +41,15 @@ export interface LearningRecord {
   completedAt: string;
 }
 
+export interface DiaryPhoto {
+  id: string;
+  uri: string;
+  fileName?: string;
+  mimeType?: string;
+  size?: number;
+  addedAt: string;
+}
+
 export interface DiaryEntry {
   id: string;
   date: string;
@@ -50,6 +58,7 @@ export interface DiaryEntry {
   mood?: MoodType;
   tags?: string[];
   weather?: string;
+  photos?: DiaryPhoto[];
   /** 오늘의 학습 기록 */
   learningRecords?: LearningRecord[];
   createdAt: string;
@@ -342,7 +351,7 @@ export const useDiaryStore = create<DiaryState & DiaryActions>()(
       },
     }),
     {
-      name: DIARY_STORAGE_KEY,
+      name: STORAGE_KEYS.DIARY,
       storage: createJSONStorage(() => AsyncStorage),
       onRehydrateStorage: () => (state, error) => {
         if (error) {
