@@ -11,7 +11,6 @@ import {
   QuizResult,
   WeekProgress,
 } from '@/types/activity';
-import { isStoreHydrated } from '@/hooks/useStoreReady';
 import { useDiaryStore } from './diaryStore';
 import { useRewardStore } from './rewardStore';
 
@@ -29,6 +28,16 @@ const ACTIVITY_TYPES: ActivityType[] = [
 ];
 
 const WEEK_IDS = ['week-1', 'week-2', 'week-3', 'week-4', 'week-5', 'week-6', 'week-7', 'week-8'];
+
+function hasStoreHydrated(
+  store: { persist?: { hasHydrated?: () => boolean } } | null | undefined
+): boolean {
+  try {
+    return store?.persist?.hasHydrated?.() ?? false;
+  } catch {
+    return false;
+  }
+}
 
 // ─────────────────────────────────────
 // State & Actions
@@ -142,7 +151,7 @@ export const useLearnStore = create<LearnState & LearnActions>()(
         // Earn learning stars (higher than Todo rewards!)
         // Hydration 체크 후 안전하게 호출 with error handling
         try {
-          if (isStoreHydrated('reward')) {
+          if (hasStoreHydrated(useRewardStore)) {
             useRewardStore.getState().earnLearningStars(type, score);
           }
         } catch {
@@ -151,7 +160,7 @@ export const useLearnStore = create<LearnState & LearnActions>()(
 
         // 일기에 학습 기록 자동 추가
         try {
-          if (isStoreHydrated('diary')) {
+          if (hasStoreHydrated(useDiaryStore)) {
             useDiaryStore.getState().addLearningRecord({
               activityType: type,
               weekId,
