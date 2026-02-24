@@ -20,7 +20,7 @@ function RoutineIslandCardComponent() {
           borderColor: isDark ? '#3A3A3C' : '#E9E3D9',
         },
       ]}
-      onPress={() => router.push('/game')}
+      onPress={() => router.push('/routine-island')}
       activeOpacity={0.85}
     >
       <View style={[styles.iconWrap, { backgroundColor: `${colors.primary}1A` }]}>
@@ -35,7 +35,7 @@ function RoutineIslandCardComponent() {
           </View>
         </View>
         <Text style={[styles.subtitle, { color: colors.textSecondary }]}>
-          지금은 2048 테스트 모드로 연결돼요
+          정산 받고 오늘의 Next1으로 바로 복귀하세요
         </Text>
       </View>
 

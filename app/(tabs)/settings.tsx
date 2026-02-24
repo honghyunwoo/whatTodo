@@ -313,12 +313,12 @@ export default function SettingsScreen() {
       {/* 루틴 섬 (베타) */}
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>루틴 섬 (베타)</Text>
-        <TouchableOpacity style={styles.gameRow} onPress={() => router.push('/game')}>
+        <TouchableOpacity style={styles.gameRow} onPress={() => router.push('/routine-island')}>
           <View style={styles.rowLeft}>
             <Ionicons name="leaf-outline" size={22} color={colors.primary} />
             <View>
               <Text style={styles.rowLabel}>루틴 섬 정산</Text>
-              <Text style={styles.gameSubtitle}>현재는 2048 테스트 모드로 연결됩니다</Text>
+              <Text style={styles.gameSubtitle}>정산 · 투자 · Next1 복귀 루프</Text>
             </View>
           </View>
           <Ionicons name="chevron-forward" size={20} color={colors.textSecondary} />
