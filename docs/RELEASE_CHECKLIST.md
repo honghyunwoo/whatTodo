@@ -33,6 +33,7 @@ If any command fails: `No-Go`.
 2. Execute loop: Top3 and Next1 visible above fold.
 3. Closing loop: carry-over and short reflection saved successfully.
 4. Each key block has explicit loading/empty/error state copy.
+5. If mini reset is enabled: complete one round and start Next1 within 60 seconds.
 
 ## 5) Manual smoke scenarios
 
@@ -41,6 +42,7 @@ If any command fails: `No-Go`.
 3. End of day -> carry-over -> reflection save.
 4. Settings -> backup export/import.
 5. App restart -> persisted state validation.
+6. Mini reset -> result CTA (`Next1 시작`) -> Today 복귀 확인.
 
 ## 6) Go/No-Go decision
 

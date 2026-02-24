@@ -46,9 +46,10 @@ Full rehearsal (15-20 minutes):
 
 1. Export backup and keep file copy.
 2. Create multiple test records (task, diary, learning progress).
-3. Import backup.
-4. Verify key screens: Today, Learn, Settings.
-5. Verify no crash and expected counts.
+3. If mini reset/game data exists, add one test round record.
+4. Import backup.
+5. Verify key screens: Today, Learn, Settings.
+6. Verify no crash and expected counts.
 
 ## 5) Data-loss prevention gates
 
@@ -57,6 +58,7 @@ If storage/schema format changes are introduced, all below are mandatory:
 1. Migration plan document.
 2. Rollback plan document.
 3. Data-loss prevention tests.
+4. Restore must not fail when optional mini-game keys are missing.
 
 No exception.
 

@@ -8,7 +8,7 @@ Mode: One ACTIVE project for 90 days
 
 - Current working repo: `C:\Users\hynoo\_archive\whatTodo`
 - Git remote: `https://github.com/honghyunwoo/whatTodo.git`
-- Current branch: `feature/solo-active-project-docs`
+- Current branch: `fix/backup-banner-loop`
 - Decision: ACTIVE candidate is `whatTodo` only
 
 ## 2) One-Page Diagnosis
@@ -62,50 +62,56 @@ You split execution context into 4 projects. Each project has value, but daily u
 
 ## 4) This Week One Metric
 
-Metric name: `Capture-3s Success Rate`  
-Definition: ratio of captures completed within 3 seconds from input focus to saved state.  
-Target this week: `>= 80%` on personal daily usage.
+Metric name: `Reset->Action Conversion`  
+Definition: ratio of mini reset session completions where user starts Next1 within 60 seconds.  
+Target this week: `>= 70%` on personal daily usage.
+
+Guardrails:
+
+1. Average mini reset session must stay <= 45 seconds.
+2. Mini reset crash count must stay at 0.
+3. No new production dependency.
 
 Trial guide:
 
-1. `docs/execution/CAPTURE_3S_TRIAL_RUNBOOK.md`
+1. `docs/execution/MINIGAME_RESET_TRIAL_RUNBOOK.md`
 
 ## 5) Sprint Backlog (2 Weeks Top10)
 
-1. Today quick capture bar: 3-second flow, 2-tap max.
-2. Top3 selector: today tasks can be pinned/unpinned.
-3. Next1 focus card: one clear "start now" action.
-4. Closing loop card: auto carry-over with reason tags.
-5. 30-second daily review prompt (1 line + mood).
-6. Timeline collapse by default, expand on demand.
-7. Empty/loading/error states and copy refinement on Today.
-8. Settings backup block UX cleanup (manual export/import clarity).
-9. Backup rehearsal helper copy in settings.
-10. Basic local event stamps for One Metric calculation.
+1. Retire 2048 default entry copy and define fallback route policy.
+2. Define one custom mini reset game concept tied to Next1 (not standalone puzzle loop).
+3. Implement 30-45 second single-round game session.
+4. Add explicit result CTA: `Next1 시작`.
+5. Wire Today card entry point: `30초 리셋`.
+6. Add local-only event stamps for metric calculation.
+7. Define loading/empty/error states for game entry/result.
+8. Add kill switch flag to disable game instantly on crash.
+9. Verify backup/export/import keeps working with new game data.
+10. Final copy pass to reduce taps and ambiguity.
 
 ### This Week Top1 Improvement
 
-Top1: `Quick capture flow` on Today screen.
+Top1: `2048 -> Start Dash prototype` (crash-free, short session, Next1 복귀 버튼 포함).
 
 Execution reference:
 
-1. `docs/execution/PR1_PREFLIGHT_BASELINE_2026-02-24.md`
+1. `docs/execution/SPRINT_MINIGAME_PIVOT_2026-02-24.md`
 
 ## 6) Verification Scenario (Reproduce/Validate)
 
 ### Reproduce current pain
 
-1. Open app -> Today tab.
-2. Try to add one quick task while holding one concrete thought.
-3. Observe tap count/time until saved feedback appears.
-4. Try to identify Top3 and Next1 without scrolling.
+1. Open Settings -> Mini Game.
+2. Enter 2048 and play for 30-60 seconds.
+3. Observe crash risk and weak relevance to Today execution.
+4. Return to Today and check whether Next1 starts immediately.
 
 ### Validate target behavior
 
-1. Open app -> focus quick capture instantly.
-2. Add item in <= 3s and get explicit saved feedback.
-3. Top3 and Next1 visible above the fold.
-4. End-of-day action shows carry-over + short review prompt.
+1. Open Today -> `30초 리셋` entry.
+2. Finish one short session in <= 45 seconds.
+3. Tap `Next1 시작` from result screen.
+4. Confirm Next1 starts within 60 seconds and app remains stable.
 
 ### Commands for quality checks
 
@@ -118,57 +124,57 @@ npm test
 Manual run:
 
 ```bash
-npm run start
+npm run android
 # or
 npm run web
 ```
 
 ## 7) Issue/PR Plan (Small + Safe)
 
-### Issue 1 / PR-1: Quick Capture Top Strip
+### Issue 1 / PR-1: 2048 De-emphasis + Entry Contract
 
-- Scope: Today capture entry UX only.
+- Scope: Settings/TODAY entry copy and navigation contract only.
+- LOC target: <= 180.
+- DoD:
+  - 2048 is not the default promoted game.
+  - New entry label and helper copy match Top1 metric intent.
+  - Existing route fallback works when new game is disabled.
+- Rollback:
+  - `git revert` PR commit.
+  - Keep current `/game` route available as fallback.
+
+### Issue 2 / PR-2: Start Dash Core Session (No New Dependency)
+
+- Scope: one screen, one round, one score model.
+- LOC target: <= 280.
+- DoD:
+  - Session auto-ends in <= 45 seconds.
+  - No app crash on rapid taps/swipes.
+  - Result screen exposes one clear CTA (`Next1 시작`).
+- Rollback:
+  - `git revert` PR commit.
+  - Feature flag defaults to off if crash is detected.
+
+### Issue 3 / PR-3: Today Link + Metric Stamp
+
+- Scope: Today entry chip + local metric stamping.
+- LOC target: <= 260.
+- DoD:
+  - Today card can open mini reset in one tap.
+  - Session completion and Next1 start timestamps are stored locally.
+  - Metric computation script outputs conversion rate.
+- Rollback:
+  - `git revert` PR commit.
+  - Ignore new metric keys gracefully if missing.
+
+### Issue 4 / PR-4: Backup and Stability Hardening
+
+- Scope: backup compatibility, test scenarios, release checklist alignment.
 - LOC target: <= 220.
 - DoD:
-  - Input focus in one tap.
-  - Save feedback visible within same screen context.
-  - No regression in existing task creation.
+  - Export/import succeeds with and without new game metric keys.
+  - Rehydrate after app restart remains stable.
+  - Emulator smoke run passes (Today, Settings, Mini Game).
 - Rollback:
   - `git revert` PR commit.
-  - Restore last manual backup JSON if user data mismatch is found.
-
-### Issue 2 / PR-2: Top3 + Next1 Block
-
-- Scope: Today prioritization block only.
-- LOC target: <= 260.
-- DoD:
-  - Top3 pin/unpin works.
-  - Next1 is always singular.
-  - Above-fold layout verified on common phone size.
-- Rollback:
-  - `git revert` PR commit.
-  - Top3 metadata reset script (if new storage key added).
-
-### Issue 3 / PR-3: Closing Loop Card
-
-- Scope: carry-over + short reflection copy.
-- LOC target: <= 260.
-- DoD:
-  - Unfinished tasks can be carried over quickly with reason.
-  - Reflection can be saved in <= 30 seconds.
-  - Empty/error states are explicit.
-- Rollback:
-  - `git revert` PR commit.
-  - Disable feature flag style guard (if introduced).
-
-### Issue 4 / PR-4: Backup UX Hardening
-
-- Scope: settings backup/restore experience and rehearsal guidance.
-- LOC target: <= 240.
-- DoD:
-  - Export/import wording is unambiguous.
-  - Recovery path is explicit on failure.
-  - Backup tests still pass.
-- Rollback:
-  - `git revert` PR commit.
-  - Keep latest valid backup JSON outside app before release.
+  - Restore from latest known-good JSON backup.
