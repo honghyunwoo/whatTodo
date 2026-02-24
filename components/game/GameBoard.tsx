@@ -6,6 +6,7 @@ import {
   GestureStateChangeEvent,
   PanGestureHandlerEventPayload,
 } from 'react-native-gesture-handler';
+import { runOnJS } from 'react-native-reanimated';
 
 import { Tile } from './Tile';
 
@@ -85,7 +86,7 @@ function GameBoardComponent({ tiles, onMove, gridSize = GRID_SIZE }: GameBoardPr
         // 네비게이션 제스처보다 우선권 확보
         .hitSlop({ left: 20, right: 20, top: 20, bottom: 20 })
         .onEnd((event: GestureStateChangeEvent<PanGestureHandlerEventPayload>) => {
-          handleSwipe(event.translationX, event.translationY);
+          runOnJS(handleSwipe)(event.translationX, event.translationY);
         })
         .minDistance(10),
     [handleSwipe]
