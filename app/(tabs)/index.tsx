@@ -36,6 +36,9 @@ export default function TodayScreen() {
         showsVerticalScrollIndicator={false}
         keyboardShouldPersistTaps="handled"
       >
+        {/* 통합 입력창: 메모/할일/일기 */}
+        <TodayEntry />
+
         {/* 퀵 학습 시작 카드 */}
         <QuickStartCard />
 
@@ -44,9 +47,6 @@ export default function TodayScreen() {
 
         {/* Todo 기반 팩 추천 */}
         <PackRecommendation />
-
-        {/* 통합 입력창: 메모/할일/일기 */}
-        <TodayEntry />
 
         {/* 타임라인: 오늘의 기록 */}
         <TodayTimeline />
