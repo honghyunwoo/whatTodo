@@ -80,10 +80,11 @@ export function TodayEntry() {
   const addTask = useTaskStore((state) => state.addTask);
   const addDiaryEntry = useDiaryStore((state) => state.addEntry);
 
-  const [entryType, setEntryType] = useState<EntryType>('memo');
+  const [entryType, setEntryType] = useState<EntryType>('todo');
   const [text, setText] = useState('');
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(true);
   const [selectedMood, setSelectedMood] = useState<MoodType | null>(null);
+  const [feedback, setFeedback] = useState<null | 'saved' | 'empty'>(null);
 
   const config = ENTRY_TYPES[entryType];
 
@@ -100,7 +101,13 @@ export function TodayEntry() {
 
   const handleSubmit = useCallback(() => {
     const trimmedText = text.trim();
-    if (!trimmedText) return;
+    if (!trimmedText) {
+      setFeedback('empty');
+      setTimeout(() => {
+        setFeedback(null);
+      }, 1200);
+      return;
+    }
 
     const today = new Date();
     const dateStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
@@ -137,14 +144,17 @@ export function TodayEntry() {
 
     setText('');
     setSelectedMood(null);
-    setIsExpanded(false);
-    Keyboard.dismiss();
+    setFeedback('saved');
+    setTimeout(() => {
+      setFeedback(null);
+    }, 1500);
+    inputRef.current?.focus();
   }, [text, entryType, selectedMood, addTask, addDiaryEntry]);
 
   const handleCancel = useCallback(() => {
     setText('');
     setSelectedMood(null);
-    setIsExpanded(false);
+    setFeedback(null);
     Keyboard.dismiss();
   }, []);
 
@@ -203,7 +213,10 @@ export function TodayEntry() {
             value={text}
             onChangeText={setText}
             onFocus={handleFocus}
+            onSubmitEditing={handleSubmit}
             multiline
+            returnKeyType="done"
+            blurOnSubmit={false}
             textAlignVertical="top"
           />
         </View>
@@ -266,8 +279,33 @@ export function TodayEntry() {
               disabled={!text.trim()}
             >
               <Ionicons name="add-circle" size={20} color="#FFFFFF" />
-              <Text style={styles.submitText}>기록하기</Text>
+              <Text style={styles.submitText}>저장</Text>
             </Pressable>
+          </Animated.View>
+        )}
+
+        {feedback && (
+          <Animated.View entering={FadeIn.duration(120)} exiting={FadeOut.duration(120)}>
+            <View
+              style={[
+                styles.feedbackContainer,
+                feedback === 'saved' ? styles.feedbackSaved : styles.feedbackEmpty,
+              ]}
+            >
+              <Ionicons
+                name={feedback === 'saved' ? 'checkmark-circle' : 'alert-circle'}
+                size={16}
+                color={feedback === 'saved' ? PALETTE.functional.todo : PALETTE.seal.vermilion}
+              />
+              <Text
+                style={[
+                  styles.feedbackText,
+                  feedback === 'saved' ? styles.feedbackTextSaved : styles.feedbackTextEmpty,
+                ]}
+              >
+                {feedback === 'saved' ? '저장됨' : '한 글자 이상 입력해주세요'}
+              </Text>
+            </View>
           </Animated.View>
         )}
       </Animated.View>
@@ -344,10 +382,10 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     padding: SPACE.md,
     color: PALETTE.ink.black,
-    minHeight: 50,
+    minHeight: 44,
   },
   inputExpanded: {
-    minHeight: 100,
+    minHeight: 64,
   },
   moodSection: {
     marginTop: SPACE.lg,
@@ -386,7 +424,7 @@ const styles = StyleSheet.create({
   actions: {
     flexDirection: 'row',
     gap: SPACE.sm,
-    marginTop: SPACE.lg,
+    marginTop: SPACE.md,
     paddingTop: SPACE.md,
     borderTopWidth: 1,
     borderTopColor: PALETTE.paper.aged,
@@ -424,6 +462,31 @@ const styles = StyleSheet.create({
   buttonPressed: {
     opacity: 0.8,
     transform: [{ scale: 0.98 }],
+  },
+  feedbackContainer: {
+    marginTop: SPACE.sm,
+    borderRadius: RADIUS.md,
+    paddingVertical: SPACE.xs,
+    paddingHorizontal: SPACE.sm,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: SPACE.xs,
+  },
+  feedbackSaved: {
+    backgroundColor: withOpacity(PALETTE.functional.todo, 0.1),
+  },
+  feedbackEmpty: {
+    backgroundColor: withOpacity(PALETTE.seal.vermilion, 0.08),
+  },
+  feedbackText: {
+    fontSize: TYPOGRAPHY.size.sm,
+    fontWeight: TYPOGRAPHY.weight.medium,
+  },
+  feedbackTextSaved: {
+    color: PALETTE.functional.todo,
+  },
+  feedbackTextEmpty: {
+    color: PALETTE.seal.vermilion,
   },
 });
 
