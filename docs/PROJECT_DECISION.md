@@ -62,54 +62,54 @@ You split execution context into 4 projects. Each project has value, but daily u
 
 ## 4) This Week One Metric
 
-Metric name: `Reset->Action Conversion`  
-Definition: ratio of mini reset session completions where user starts Next1 within 60 seconds.  
+Metric name: `Island->Next1 Conversion`  
+Definition: ratio of island settlement sessions where user starts Next1 within 60 seconds after claim.  
 Target this week: `>= 70%` on personal daily usage.
 
 Guardrails:
 
-1. Average mini reset session must stay <= 45 seconds.
-2. Mini reset crash count must stay at 0.
+1. Average island session must stay <= 90 seconds.
+2. Island session crash count must stay at 0.
 3. No new production dependency.
 
 Trial guide:
 
-1. `docs/execution/MINIGAME_RESET_TRIAL_RUNBOOK.md`
+1. `docs/execution/ROUTINE_ISLAND_TRIAL_RUNBOOK.md`
 
 ## 5) Sprint Backlog (2 Weeks Top10)
 
-1. Retire 2048 default entry copy and define fallback route policy.
-2. Define one custom mini reset game concept tied to Next1 (not standalone puzzle loop).
-3. Implement 30-45 second single-round game session.
-4. Add explicit result CTA: `Next1 시작`.
-5. Wire Today card entry point: `30초 리셋`.
-6. Add local-only event stamps for metric calculation.
-7. Define loading/empty/error states for game entry/result.
-8. Add kill switch flag to disable game instantly on crash.
-9. Verify backup/export/import keeps working with new game data.
-10. Final copy pass to reduce taps and ambiguity.
+1. Replace 2048 default promotion with `Routine Island` entry copy.
+2. Define 4-resource model: seed/water/sunlight/coin.
+3. Implement offline settlement with soft cap (0-12h/12-48h/48h+).
+4. Add daily focus card (one of three growth bonuses).
+5. Wire app events (todo/diary/english) into island resources.
+6. Add Today entry chip: `섬 정산`.
+7. Add one-tap CTA from settlement result: `Next1 시작`.
+8. Add local-only event stamps for conversion metric.
+9. Verify backup/export/import compatibility for new optional game keys.
+10. Final copy pass to keep game flow short and non-distracting.
 
 ### This Week Top1 Improvement
 
-Top1: `2048 -> Start Dash prototype` (crash-free, short session, Next1 복귀 버튼 포함).
+Top1: `Routine Island Lite` (crash-free settlement loop + Next1 복귀 버튼 포함).
 
 Execution reference:
 
-1. `docs/execution/SPRINT_MINIGAME_PIVOT_2026-02-24.md`
+1. `docs/execution/ROUTINE_ISLAND_IMPLEMENTATION_2026-02-24.md`
 
 ## 6) Verification Scenario (Reproduce/Validate)
 
 ### Reproduce current pain
 
-1. Open Settings -> Mini Game.
-2. Enter 2048 and play for 30-60 seconds.
-3. Observe crash risk and weak relevance to Today execution.
+1. Open Settings -> Routine Island.
+2. Run one settlement session (claim + one upgrade).
+3. Observe session duration and flow clarity.
 4. Return to Today and check whether Next1 starts immediately.
 
 ### Validate target behavior
 
-1. Open Today -> `30초 리셋` entry.
-2. Finish one short session in <= 45 seconds.
+1. Open Today -> `섬 정산` entry.
+2. Finish one settlement session in <= 90 seconds.
 3. Tap `Next1 시작` from result screen.
 4. Confirm Next1 starts within 60 seconds and app remains stable.
 
@@ -131,50 +131,50 @@ npm run web
 
 ## 7) Issue/PR Plan (Small + Safe)
 
-### Issue 1 / PR-1: 2048 De-emphasis + Entry Contract
+### Issue 1 / PR-1: Routine Island Entry Contract
 
-- Scope: Settings/TODAY entry copy and navigation contract only.
+- Scope: Settings/TODAY entry copy and fallback route only.
 - LOC target: <= 180.
 - DoD:
-  - 2048 is not the default promoted game.
-  - New entry label and helper copy match Top1 metric intent.
-  - Existing route fallback works when new game is disabled.
+  - 2048 is no longer default promoted game.
+  - `Routine Island` entry appears in Settings and Today.
+  - Existing `/game` route fallback still works.
 - Rollback:
   - `git revert` PR commit.
-  - Keep current `/game` route available as fallback.
+  - Restore previous game card labels and route labels.
 
-### Issue 2 / PR-2: Start Dash Core Session (No New Dependency)
+### Issue 2 / PR-2: Island Core Settlement Loop (No New Dependency)
 
-- Scope: one screen, one round, one score model.
-- LOC target: <= 280.
+- Scope: settlement claim + one upgrade + daily focus selection.
+- LOC target: <= 300.
 - DoD:
-  - Session auto-ends in <= 45 seconds.
-  - No app crash on rapid taps/swipes.
-  - Result screen exposes one clear CTA (`Next1 시작`).
+  - Session ends in <= 90 seconds on normal use.
+  - Soft-cap offline claim works and does not overflow.
+  - Settlement result has one clear CTA (`Next1 시작`).
 - Rollback:
   - `git revert` PR commit.
   - Feature flag defaults to off if crash is detected.
 
-### Issue 3 / PR-3: Today Link + Metric Stamp
+### Issue 3 / PR-3: App Event Integration + Metric Stamp
 
-- Scope: Today entry chip + local metric stamping.
-- LOC target: <= 260.
+- Scope: todo/diary/english events to island resources + conversion logs.
+- LOC target: <= 300.
 - DoD:
-  - Today card can open mini reset in one tap.
-  - Session completion and Next1 start timestamps are stored locally.
+  - App events increase mapped resources deterministically.
+  - Settlement completion and Next1 start timestamps are stored locally.
   - Metric computation script outputs conversion rate.
 - Rollback:
   - `git revert` PR commit.
-  - Ignore new metric keys gracefully if missing.
+  - Ignore new optional game keys gracefully if missing.
 
 ### Issue 4 / PR-4: Backup and Stability Hardening
 
 - Scope: backup compatibility, test scenarios, release checklist alignment.
-- LOC target: <= 220.
+- LOC target: <= 240.
 - DoD:
-  - Export/import succeeds with and without new game metric keys.
+  - Export/import succeeds with and without island keys.
   - Rehydrate after app restart remains stable.
-  - Emulator smoke run passes (Today, Settings, Mini Game).
+  - Emulator smoke run passes (Today, Settings, Routine Island).
 - Rollback:
   - `git revert` PR commit.
   - Restore from latest known-good JSON backup.

@@ -224,11 +224,11 @@ interface DayData {
 
 ---
 
-## [DEC-007] 2048 기본 노출 축소 + 커스텀 Mini Reset 전환
+## [DEC-007] 2048 기본 노출 축소 + Routine Island 전환
 
 **날짜**: 2026-02-24
 **상태**: 승인
-**관련 파일**: `app/game.tsx`, `app/(tabs)/settings.tsx`, `docs/PROJECT_DECISION.md`, `docs/execution/SPRINT_MINIGAME_PIVOT_2026-02-24.md`
+**관련 파일**: `app/game.tsx`, `app/(tabs)/settings.tsx`, `docs/PROJECT_DECISION.md`, `docs/execution/ROUTINE_ISLAND_IMPLEMENTATION_2026-02-24.md`
 
 ### 배경
 - 2048은 동작해도 일 실행 루프와 직접 연결되지 않음
@@ -237,9 +237,9 @@ interface DayData {
 
 ### 결정
 - 2048을 기본 추천 미니게임에서 내리고 fallback으로만 유지
-- 30-45초 길이의 커스텀 Mini Reset 게임을 도입
+- 30-90초 길이의 `Routine Island Lite` 정산 루프를 도입
 - 결과 화면의 1순위 CTA를 `Next1 시작`으로 고정
-- 주간 지표를 `Reset->Action Conversion`으로 운영
+- 주간 지표를 `Island->Next1 Conversion`으로 운영
 
 ### 대안
 1. 2048 유지 + 문구만 변경
@@ -263,4 +263,4 @@ interface DayData {
 | DEC-004 | moti 라이브러리 유지 | 승인 (임시) | 2025-12-26 |
 | DEC-005 | AsyncStorage 오프라인 우선 | 승인 | 2025-12-25 |
 | DEC-006 | Day 중심 데이터 모델 | 승인 | 2025-12-25 |
-| DEC-007 | 2048 기본 노출 축소 + 커스텀 Mini Reset 전환 | 승인 | 2026-02-24 |
+| DEC-007 | 2048 기본 노출 축소 + Routine Island 전환 | 승인 | 2026-02-24 |
