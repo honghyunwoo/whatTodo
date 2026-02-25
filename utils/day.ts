@@ -41,6 +41,14 @@ export function parseStringToDate(dateStr: string): Date {
 }
 
 /**
+ * ISO 문자열에서 날짜 부분(YYYY-MM-DD) 추출
+ */
+function getDatePart(iso?: string): string | undefined {
+  if (!iso) return undefined;
+  return iso.slice(0, 10);
+}
+
+/**
  * N일 전의 날짜를 YYYY-MM-DD 형식으로 반환
  */
 export function getDaysAgo(days: number): string {
@@ -141,7 +149,18 @@ export function getDayData(date: string): DayData {
   const journalStore = useJournalStore.getState();
 
   // 해당 날짜의 Todo 필터링
-  const todos = taskStore.tasks.filter((task) => task.dueDate === date);
+  // - 완료된 할 일: completedAt 날짜 기준
+  // - 미완료 할 일: dueDate 날짜 기준
+  // - completedAt가 비어있는 legacy 완료 데이터는 dueDate fallback
+  const todos = taskStore.tasks.filter((task) => {
+    const completedDate = getDatePart(task.completedAt);
+
+    if (task.completed) {
+      return completedDate ? completedDate === date : task.dueDate === date;
+    }
+
+    return task.dueDate === date;
+  });
 
   // 해당 날짜의 일기
   const diaryEntry = diaryStore.getEntryByDate(date);

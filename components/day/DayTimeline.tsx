@@ -15,6 +15,7 @@ import type { Task } from '@/types/task';
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { useTheme } from '@/contexts/ThemeContext';
+import { useTaskStore } from '@/store/taskStore';
 
 interface DayTimelineProps {
   /** 해당 날짜의 Todo 리스트 */
@@ -55,7 +56,15 @@ function formatCompletedTime(completedAt?: string): string {
 /**
  * Todo 아이템 (타임라인용)
  */
-function TodoTimelineItem({ todo, onPress }: { todo: Task; onPress: () => void }) {
+function TodoTimelineItem({
+  todo,
+  onPress,
+  onToggle,
+}: {
+  todo: Task;
+  onPress: () => void;
+  onToggle: () => void;
+}) {
   const { colors, isDark } = useTheme();
 
   const priorityColors = {
@@ -88,7 +97,7 @@ function TodoTimelineItem({ todo, onPress }: { todo: Task; onPress: () => void }
             {formatTime(todo.dueTime)}
           </Text>
         )}
-        <View
+        <Pressable
           style={[
             styles.checkIcon,
             {
@@ -96,9 +105,11 @@ function TodoTimelineItem({ todo, onPress }: { todo: Task; onPress: () => void }
               borderColor: todo.completed ? COLORS.primary : colors.border,
             },
           ]}
+          onPress={onToggle}
+          hitSlop={10}
         >
           {todo.completed && <Ionicons name="checkmark" size={16} color="#FFFFFF" />}
-        </View>
+        </Pressable>
       </View>
 
       {/* 중앙: Todo 내용 */}
@@ -148,6 +159,7 @@ function TodoTimelineItem({ todo, onPress }: { todo: Task; onPress: () => void }
 export function DayTimeline({ todos, date }: DayTimelineProps) {
   const { colors } = useTheme();
   const router = useRouter();
+  const toggleComplete = useTaskStore((state) => state.toggleComplete);
 
   // 완료된 Todo (completedAt 순서로 정렬)
   const completedTodos = todos
@@ -171,6 +183,10 @@ export function DayTimeline({ todos, date }: DayTimelineProps) {
 
   const handleTodoPress = (todoId: string) => {
     router.push(`/task/${todoId}`);
+  };
+
+  const handleTodoToggle = (todoId: string) => {
+    toggleComplete(todoId);
   };
 
   // Todo가 없는 경우
@@ -197,7 +213,12 @@ export function DayTimeline({ todos, date }: DayTimelineProps) {
             </Text>
           </View>
           {completedTodos.map((todo) => (
-            <TodoTimelineItem key={todo.id} todo={todo} onPress={() => handleTodoPress(todo.id)} />
+            <TodoTimelineItem
+              key={todo.id}
+              todo={todo}
+              onPress={() => handleTodoPress(todo.id)}
+              onToggle={() => handleTodoToggle(todo.id)}
+            />
           ))}
         </View>
       )}
@@ -212,7 +233,12 @@ export function DayTimeline({ todos, date }: DayTimelineProps) {
             </Text>
           </View>
           {incompleteTodos.map((todo) => (
-            <TodoTimelineItem key={todo.id} todo={todo} onPress={() => handleTodoPress(todo.id)} />
+            <TodoTimelineItem
+              key={todo.id}
+              todo={todo}
+              onPress={() => handleTodoPress(todo.id)}
+              onToggle={() => handleTodoToggle(todo.id)}
+            />
           ))}
         </View>
       )}

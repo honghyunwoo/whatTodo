@@ -11,8 +11,41 @@ import {
   generateDaySummary,
   getColorByCompletionRate,
   getEmojiByCompletionRate,
+  getDayData,
 } from '@/utils/day';
 import type { Task } from '@/types/task';
+
+const mockGetTaskState = jest.fn();
+const mockGetDiaryState = jest.fn();
+const mockGetJournalState = jest.fn();
+
+jest.mock('@/store/taskStore', () => ({
+  useTaskStore: {
+    getState: () => mockGetTaskState(),
+  },
+}));
+
+jest.mock('@/store/diaryStore', () => ({
+  useDiaryStore: {
+    getState: () => mockGetDiaryState(),
+  },
+}));
+
+jest.mock('@/store/journalStore', () => ({
+  useJournalStore: {
+    getState: () => mockGetJournalState(),
+  },
+}));
+
+beforeEach(() => {
+  mockGetTaskState.mockReturnValue({ tasks: [] });
+  mockGetDiaryState.mockReturnValue({
+    getEntryByDate: jest.fn().mockReturnValue(undefined),
+  });
+  mockGetJournalState.mockReturnValue({
+    getEntry: jest.fn().mockReturnValue(undefined),
+  });
+});
 
 describe('Day Utils - 날짜 유틸리티', () => {
   test('formatDateToString - Date를 YYYY-MM-DD로 변환', () => {
@@ -44,6 +77,80 @@ describe('Day Utils - 날짜 유틸리티', () => {
     // 2025-01-15는 수요일
     const result = getKoreanDayOfWeek('2025-01-15');
     expect(result).toBe('수');
+  });
+});
+
+describe('Day Utils - 날짜 집계 정확도', () => {
+  test('getDayData - 완료된 할 일은 completedAt 날짜 기준으로 집계', () => {
+    const tasks: Task[] = [
+      {
+        id: 'done-today-from-yesterday',
+        title: '어제 마감, 오늘 완료',
+        category: 'work',
+        priority: 'medium',
+        completed: true,
+        dueDate: '2026-02-24',
+        completedAt: '2026-02-25T08:10:00.000Z',
+        subtasks: [],
+        createdAt: '2026-02-24T01:00:00.000Z',
+        updatedAt: '2026-02-25T08:10:00.000Z',
+      },
+      {
+        id: 'due-today-open',
+        title: '오늘 미완료',
+        category: 'work',
+        priority: 'medium',
+        completed: false,
+        dueDate: '2026-02-25',
+        subtasks: [],
+        createdAt: '2026-02-25T02:00:00.000Z',
+        updatedAt: '2026-02-25T02:00:00.000Z',
+      },
+      {
+        id: 'done-yesterday',
+        title: '어제 완료',
+        category: 'work',
+        priority: 'medium',
+        completed: true,
+        dueDate: '2026-02-25',
+        completedAt: '2026-02-24T09:30:00.000Z',
+        subtasks: [],
+        createdAt: '2026-02-24T03:00:00.000Z',
+        updatedAt: '2026-02-24T09:30:00.000Z',
+      },
+    ];
+
+    mockGetTaskState.mockReturnValue({ tasks });
+
+    const data = getDayData('2026-02-25');
+    const ids = data.todos.map((todo) => todo.id);
+
+    expect(ids).toContain('done-today-from-yesterday');
+    expect(ids).toContain('due-today-open');
+    expect(ids).not.toContain('done-yesterday');
+    expect(data.summary.completedTodos).toBe(1);
+    expect(data.summary.totalTodos).toBe(2);
+  });
+
+  test('getDayData - legacy 완료 데이터(completedAt 없음)는 dueDate fallback', () => {
+    const tasks: Task[] = [
+      {
+        id: 'legacy-done',
+        title: '구버전 완료 데이터',
+        category: 'work',
+        priority: 'medium',
+        completed: true,
+        dueDate: '2026-02-25',
+        subtasks: [],
+        createdAt: '2026-02-25T01:00:00.000Z',
+        updatedAt: '2026-02-25T01:00:00.000Z',
+      },
+    ];
+
+    mockGetTaskState.mockReturnValue({ tasks });
+
+    const data = getDayData('2026-02-25');
+    expect(data.todos.map((todo) => todo.id)).toContain('legacy-done');
   });
 });
 

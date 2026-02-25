@@ -47,11 +47,13 @@ export default function RecordsScreen() {
     tasks
       .filter((task) => task.completed)
       .forEach((task) => {
+        const todoDate = task.completedAt
+          ? formatDateToString(new Date(task.completedAt))
+          : task.dueDate || formatDateToString(new Date(task.createdAt));
+
         items.push({
           id: `todo-${task.id}`,
-          date: task.createdAt
-            ? formatDateToString(new Date(task.createdAt))
-            : formatDateToString(new Date()),
+          date: todoDate,
           type: 'todo',
           title: task.title,
           subtitle: task.priority ? `우선순위: ${task.priority}` : undefined,
