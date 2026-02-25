@@ -19,6 +19,15 @@ import { useUserStore } from '@/store/userStore';
 import { exportBackup, restoreBackup } from '@/utils/backup';
 import { formatDateDot, getDdayLabel } from '@/utils/dday';
 import { SIZES } from '@/constants/sizes';
+import {
+  calculateRecentWeightDelta,
+  calculateWeightDelta,
+  formatWeightDelta,
+  getRecentWeightLogs,
+  getWeightLogByDate,
+  parseWeightInput,
+  sortWeightLogs,
+} from '@/utils/weight';
 
 type ThemeMode = 'light' | 'dark' | 'system';
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as const;
@@ -33,23 +42,6 @@ const formatDateToStorage = (date: Date) => {
 const parseStorageDate = (dateString: string) => {
   const [year, month, day] = dateString.split('-').map(Number);
   return new Date(year, month - 1, day);
-};
-
-const parseWeightInput = (value: string): number | null => {
-  const normalizedValue = value.replace(',', '.').trim();
-  if (!normalizedValue) return null;
-
-  const parsed = Number(normalizedValue);
-  if (!Number.isFinite(parsed) || parsed < 20 || parsed > 300) return null;
-
-  return Math.round(parsed * 10) / 10;
-};
-
-const formatDeltaText = (delta: number | null): string => {
-  if (delta === null) return '-';
-  if (delta === 0) return '0.0kg';
-  const sign = delta > 0 ? '+' : '';
-  return `${sign}${delta.toFixed(1)}kg`;
 };
 
 export default function SettingsScreen() {
@@ -71,6 +63,7 @@ export default function SettingsScreen() {
     setWeightGoalKg,
     weightLogs,
     upsertWeightLog,
+    removeWeightLog,
     reminderSettings,
     setReminderSettings,
   } = useUserStore();
@@ -88,20 +81,24 @@ export default function SettingsScreen() {
   const [showWeddingDatePicker, setShowWeddingDatePicker] = useState(false);
   const todayDate = formatDateToStorage(new Date());
 
-  const sortedWeightLogs = useMemo(
-    () => [...weightLogs].sort((a, b) => a.date.localeCompare(b.date)),
-    [weightLogs]
-  );
+  const sortedWeightLogs = useMemo(() => sortWeightLogs(weightLogs), [weightLogs]);
 
   const firstWeightLog = sortedWeightLogs.length > 0 ? sortedWeightLogs[0] : null;
   const latestWeightLog =
     sortedWeightLogs.length > 0 ? sortedWeightLogs[sortedWeightLogs.length - 1] : null;
-  const todayWeightLog = sortedWeightLogs.find((log) => log.date === todayDate) ?? null;
-
-  const totalWeightDelta =
-    firstWeightLog && latestWeightLog
-      ? Math.round((latestWeightLog.weightKg - firstWeightLog.weightKg) * 10) / 10
-      : null;
+  const todayWeightLog = getWeightLogByDate(sortedWeightLogs, todayDate) ?? null;
+  const totalWeightDelta = calculateWeightDelta(
+    latestWeightLog?.weightKg ?? null,
+    firstWeightLog?.weightKg ?? null
+  );
+  const recentWeightLogs = useMemo(
+    () => getRecentWeightLogs(sortedWeightLogs, 7),
+    [sortedWeightLogs]
+  );
+  const sevenDayWeightDelta = useMemo(
+    () => calculateRecentWeightDelta(sortedWeightLogs, 7),
+    [sortedWeightLogs]
+  );
 
   useEffect(() => {
     setGoalWeightInput(weightGoalKg !== null ? String(weightGoalKg) : '');
@@ -193,6 +190,11 @@ export default function SettingsScreen() {
   const handleClearGoalWeight = () => {
     setWeightGoalKg(null);
     setGoalWeightInput('');
+  };
+
+  const handleClearTodayWeight = () => {
+    removeWeightLog(todayDate);
+    Alert.alert('삭제됨', '오늘 체중 기록을 삭제했어요.');
   };
 
   const formatTime = (hour: number, minute: number) => {
@@ -362,7 +364,18 @@ export default function SettingsScreen() {
                   totalWeightDelta !== null && totalWeightDelta < 0 && styles.weightDeltaGood,
                 ]}
               >
-                {formatDeltaText(totalWeightDelta)}
+                {formatWeightDelta(totalWeightDelta)}
+              </Text>
+            </View>
+            <View style={styles.weightSummaryRow}>
+              <Text style={styles.weightSummaryLabel}>7일 변화</Text>
+              <Text
+                style={[
+                  styles.weightSummaryValue,
+                  sevenDayWeightDelta !== null && sevenDayWeightDelta < 0 && styles.weightDeltaGood,
+                ]}
+              >
+                {formatWeightDelta(sevenDayWeightDelta)}
               </Text>
             </View>
           </View>
@@ -409,12 +422,34 @@ export default function SettingsScreen() {
             <Text style={styles.weightGoalText}>
               목표 {weightGoalKg.toFixed(1)}kg
               {latestWeightLog
-                ? ` · 차이 ${formatDeltaText(latestWeightLog.weightKg - weightGoalKg)}`
+                ? ` · 차이 ${formatWeightDelta(latestWeightLog.weightKg - weightGoalKg)}`
                 : ''}
             </Text>
             <TouchableOpacity onPress={handleClearGoalWeight}>
               <Text style={styles.weightGoalClear}>지우기</Text>
             </TouchableOpacity>
+          </View>
+        )}
+
+        {todayWeightLog && (
+          <TouchableOpacity style={styles.clearDateButton} onPress={handleClearTodayWeight}>
+            <Ionicons name="trash-outline" size={16} color={colors.textSecondary} />
+            <Text style={styles.clearDateButtonText}>오늘 기록 삭제</Text>
+          </TouchableOpacity>
+        )}
+
+        {recentWeightLogs.length > 0 && (
+          <View style={styles.weightRecentCard}>
+            <Text style={styles.weightRecentTitle}>최근 7회 기록</Text>
+            {recentWeightLogs
+              .slice()
+              .reverse()
+              .map((log) => (
+                <View key={log.date} style={styles.weightRecentRow}>
+                  <Text style={styles.weightRecentDate}>{formatDateDot(log.date)}</Text>
+                  <Text style={styles.weightRecentValue}>{log.weightKg.toFixed(1)}kg</Text>
+                </View>
+              ))}
           </View>
         )}
       </View>
@@ -722,6 +757,35 @@ const createStyles = (
       fontWeight: '500',
       paddingHorizontal: SIZES.spacing.sm,
       paddingVertical: SIZES.spacing.xs,
+    },
+    weightRecentCard: {
+      backgroundColor: isDark ? '#1C1C1E' : '#fff',
+      borderColor: colors.border,
+      borderRadius: SIZES.borderRadius.md,
+      borderWidth: 1,
+      gap: SIZES.spacing.xs,
+      padding: SIZES.spacing.sm,
+    },
+    weightRecentTitle: {
+      color: colors.textSecondary,
+      fontSize: SIZES.fontSize.sm,
+      fontWeight: '600',
+      marginBottom: 2,
+    },
+    weightRecentRow: {
+      alignItems: 'center',
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      paddingVertical: 2,
+    },
+    weightRecentDate: {
+      color: colors.textSecondary,
+      fontSize: SIZES.fontSize.sm,
+    },
+    weightRecentValue: {
+      color: colors.text,
+      fontSize: SIZES.fontSize.md,
+      fontWeight: '500',
     },
     clearDateButton: {
       flexDirection: 'row',
