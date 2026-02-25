@@ -7,7 +7,8 @@
  * - 부드러운 빈 상태 디자인
  */
 
-import React, { useMemo, useState } from 'react';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import React, { useEffect, useMemo, useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 import { Text } from 'react-native-paper';
 import { Ionicons } from '@expo/vector-icons';
@@ -20,6 +21,8 @@ import { useDiaryStore } from '@/store/diaryStore';
 import { EntryCard, TimelineEntry } from './EntryCard';
 
 type TimelineFilter = 'all' | 'todo' | 'diary' | 'memo';
+const TIMELINE_FILTER_STORAGE_KEY = '@whattodo:todayTimelineFilter';
+const TIMELINE_FILTER_KEYS: TimelineFilter[] = ['all', 'todo', 'diary', 'memo'];
 
 const TIMELINE_FILTERS: { key: TimelineFilter; label: string }[] = [
   { key: 'all', label: '전체' },
@@ -27,6 +30,10 @@ const TIMELINE_FILTERS: { key: TimelineFilter; label: string }[] = [
   { key: 'diary', label: '일기' },
   { key: 'memo', label: '메모' },
 ];
+
+function isTimelineFilter(value: string): value is TimelineFilter {
+  return TIMELINE_FILTER_KEYS.includes(value as TimelineFilter);
+}
 
 // 오늘 날짜 문자열
 function getTodayString(): string {
@@ -50,6 +57,38 @@ function formatTime(isoString: string): string {
 
 export function TodayTimeline() {
   const [activeFilter, setActiveFilter] = useState<TimelineFilter>('all');
+  const [isFilterHydrated, setIsFilterHydrated] = useState(false);
+
+  useEffect(() => {
+    let mounted = true;
+
+    const restoreFilter = async () => {
+      try {
+        const savedFilter = await AsyncStorage.getItem(TIMELINE_FILTER_STORAGE_KEY);
+        if (mounted && savedFilter && isTimelineFilter(savedFilter)) {
+          setActiveFilter(savedFilter);
+        }
+      } catch {
+        // ignore restore errors and keep default filter
+      } finally {
+        if (mounted) {
+          setIsFilterHydrated(true);
+        }
+      }
+    };
+
+    void restoreFilter();
+    return () => {
+      mounted = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!isFilterHydrated) {
+      return;
+    }
+    void AsyncStorage.setItem(TIMELINE_FILTER_STORAGE_KEY, activeFilter).catch(() => undefined);
+  }, [activeFilter, isFilterHydrated]);
 
   // Store
   const tasks = useTaskStore((state) => state.tasks);

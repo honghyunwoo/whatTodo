@@ -89,6 +89,7 @@ Goal: 기능은 풍성하게 유지하면서도 Today에서 80%를 빠르게 끝
 - Filter labels: `전체`, `할일`, `일기`, `메모`
 - Filter empty: `선택한 유형의 기록이 없어요`
 - Recovery CTA: `전체 보기`
+- Persist: 마지막 선택 필터를 재진입/재실행 시 복원
 
 ### Calendar Summary
 
