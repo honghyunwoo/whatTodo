@@ -17,6 +17,7 @@ import DateTimePicker from '@react-native-community/datetimepicker';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useUserStore } from '@/store/userStore';
 import { exportBackup, restoreBackup } from '@/utils/backup';
+import { formatDateDot, getDdayLabel } from '@/utils/dday';
 import { SIZES } from '@/constants/sizes';
 
 type ThemeMode = 'light' | 'dark' | 'system';
@@ -35,6 +36,8 @@ export default function SettingsScreen() {
     toggleSound,
     hapticEnabled,
     toggleHaptic,
+    weddingDate,
+    setWeddingDate,
     reminderSettings,
     setReminderSettings,
   } = useUserStore();
@@ -47,6 +50,7 @@ export default function SettingsScreen() {
 
   // Time picker state
   const [showTimePicker, setShowTimePicker] = useState(false);
+  const [showWeddingDatePicker, setShowWeddingDatePicker] = useState(false);
 
   const handleExport = async () => {
     try {
@@ -95,6 +99,25 @@ export default function SettingsScreen() {
         hour: selectedDate.getHours(),
         minute: selectedDate.getMinutes(),
       });
+    }
+  };
+
+  const formatDateToStorage = (date: Date) => {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+  };
+
+  const parseStorageDate = (dateString: string) => {
+    const [year, month, day] = dateString.split('-').map(Number);
+    return new Date(year, month - 1, day);
+  };
+
+  const handleWeddingDateChange = (_: unknown, selectedDate?: Date) => {
+    setShowWeddingDatePicker(false);
+    if (selectedDate) {
+      setWeddingDate(formatDateToStorage(selectedDate));
     }
   };
 
@@ -195,6 +218,38 @@ export default function SettingsScreen() {
             ))}
           </View>
         </View>
+      </View>
+
+      {/* 중요한 날짜 */}
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>중요한 날짜</Text>
+
+        <TouchableOpacity style={styles.row} onPress={() => setShowWeddingDatePicker(true)}>
+          <View style={styles.rowLeft}>
+            <Ionicons name="heart-outline" size={22} color={colors.primary} />
+            <Text style={styles.rowLabel}>결혼 날짜</Text>
+          </View>
+          <Text style={[styles.rowValue, !weddingDate && styles.rowValueMuted]}>
+            {weddingDate
+              ? `${formatDateDot(weddingDate)} · ${getDdayLabel(weddingDate)}`
+              : '아직 설정되지 않았어요'}
+          </Text>
+        </TouchableOpacity>
+
+        {weddingDate && (
+          <TouchableOpacity style={styles.clearDateButton} onPress={() => setWeddingDate(null)}>
+            <Ionicons name="close-circle-outline" size={18} color={colors.textSecondary} />
+            <Text style={styles.clearDateButtonText}>결혼 날짜 지우기</Text>
+          </TouchableOpacity>
+        )}
+
+        {showWeddingDatePicker && (
+          <DateTimePicker
+            value={weddingDate ? parseStorageDate(weddingDate) : new Date()}
+            mode="date"
+            onChange={handleWeddingDateChange}
+          />
+        )}
       </View>
 
       {/* 알림 설정 */}
@@ -408,6 +463,22 @@ const createStyles = (
       fontSize: SIZES.fontSize.md,
       color: colors.primary,
       fontWeight: '500',
+    },
+    rowValueMuted: {
+      color: colors.textSecondary,
+      fontWeight: '400',
+    },
+    clearDateButton: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      alignSelf: 'flex-end',
+      gap: SIZES.spacing.xs,
+      paddingVertical: SIZES.spacing.xs,
+      paddingHorizontal: SIZES.spacing.sm,
+    },
+    clearDateButtonText: {
+      fontSize: SIZES.fontSize.sm,
+      color: colors.textSecondary,
     },
     themeButtons: {
       flexDirection: 'row',

@@ -9,6 +9,7 @@ import { useJournalStore } from '@/store/journalStore';
 import { useLearnStore } from '@/store/learnStore';
 import { useSrsStore } from '@/store/srsStore';
 import { useTaskStore } from '@/store/taskStore';
+import { useUserStore, USER_STORE_STORAGE_KEY } from '@/store/userStore';
 import { onBackupFailed, onBackupSuccess } from '@/store/backupStore';
 import { BackupError } from '@/utils/errorHandler';
 
@@ -17,6 +18,7 @@ const BACKUP_KEYS = [
   STORAGE_KEYS.TASKS,
   STORAGE_KEYS.LEARN_PROGRESS,
   STORAGE_KEYS.SRS,
+  USER_STORE_STORAGE_KEY,
   STORAGE_KEYS.SETTINGS,
 ] as const;
 
@@ -122,6 +124,7 @@ export async function rehydratePersistedStores(): Promise<void> {
     useTaskStore.persist?.rehydrate?.(),
     useLearnStore.persist?.rehydrate?.(),
     useSrsStore.persist?.rehydrate?.(),
+    useUserStore.persist?.rehydrate?.(),
   ]);
 }
 

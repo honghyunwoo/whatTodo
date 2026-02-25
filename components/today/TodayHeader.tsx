@@ -17,6 +17,8 @@ import Animated, { FadeInDown, FadeInRight } from 'react-native-reanimated';
 
 import { PALETTE, TYPOGRAPHY, SPACE, RADIUS, SHADOW, withOpacity } from '@/constants/design';
 import { useStreakStore } from '@/store/streakStore';
+import { useUserStore } from '@/store/userStore';
+import { formatDateDot, getDdayLabel } from '@/utils/dday';
 
 // 요일 한글
 const WEEKDAYS = ['일', '월', '화', '수', '목', '금', '토'];
@@ -25,6 +27,7 @@ const WEEKDAY_COLORS = ['#C73E3A', '#333', '#333', '#333', '#333', '#333', '#2E5
 export function TodayHeader() {
   const router = useRouter();
   const { currentStreak } = useStreakStore();
+  const weddingDate = useUserStore((state) => state.weddingDate);
 
   // 오늘 날짜 포맷
   const dateInfo = useMemo(() => {
@@ -61,6 +64,11 @@ export function TodayHeader() {
   const handleOpenSettings = () => {
     router.push('/settings');
   };
+
+  const weddingDday = useMemo(() => {
+    if (!weddingDate) return null;
+    return getDdayLabel(weddingDate);
+  }, [weddingDate]);
 
   return (
     <LinearGradient
@@ -100,6 +108,18 @@ export function TodayHeader() {
           </Pressable>
         </View>
       </View>
+
+      {/* 중요 날짜 D-day */}
+      {weddingDate && weddingDday && (
+        <Animated.View entering={FadeInDown.delay(150).duration(450)} style={styles.ddayCard}>
+          <View style={styles.ddayLeft}>
+            <Ionicons name="heart" size={16} color={PALETTE.seal.vermilion} />
+            <Text style={styles.ddayLabel}>결혼</Text>
+          </View>
+          <Text style={styles.ddayValue}>{weddingDday}</Text>
+          <Text style={styles.ddayDate}>{formatDateDot(weddingDate)}</Text>
+        </Animated.View>
+      )}
 
       {/* 메인: 날짜 디스플레이 - 대담한 타이포그래피 */}
       <Animated.View entering={FadeInDown.delay(200).duration(600)} style={styles.dateContainer}>
@@ -256,6 +276,40 @@ const styles = StyleSheet.create({
     height: 8,
     backgroundColor: PALETTE.seal.red,
     transform: [{ rotate: '45deg' }],
+  },
+  ddayCard: {
+    marginTop: SPACE.xs,
+    marginBottom: SPACE.sm,
+    paddingHorizontal: SPACE.md,
+    paddingVertical: SPACE.sm,
+    borderRadius: RADIUS.lg,
+    backgroundColor: '#FFF7F4',
+    borderWidth: 1,
+    borderColor: withOpacity(PALETTE.seal.vermilion, 0.28),
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: SPACE.sm,
+  },
+  ddayLeft: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: SPACE.xxs,
+    minWidth: 54,
+  },
+  ddayLabel: {
+    fontSize: TYPOGRAPHY.size.sm,
+    fontWeight: TYPOGRAPHY.weight.semibold,
+    color: PALETTE.seal.vermilion,
+  },
+  ddayValue: {
+    fontSize: TYPOGRAPHY.size.lg,
+    fontWeight: TYPOGRAPHY.weight.heavy,
+    color: PALETTE.ink.black,
+  },
+  ddayDate: {
+    marginLeft: 'auto',
+    fontSize: TYPOGRAPHY.size.xs,
+    color: PALETTE.ink.light,
   },
 });
 
