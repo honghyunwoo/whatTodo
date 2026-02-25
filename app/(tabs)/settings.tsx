@@ -1,5 +1,5 @@
 import { router } from 'expo-router';
-import React, { useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import {
   Alert,
   ScrollView,
@@ -19,9 +19,30 @@ import { useUserStore } from '@/store/userStore';
 import { exportBackup, restoreBackup } from '@/utils/backup';
 import { formatDateDot, getDdayLabel } from '@/utils/dday';
 import { SIZES } from '@/constants/sizes';
+import {
+  calculateRecentWeightDelta,
+  calculateWeightDelta,
+  formatWeightDelta,
+  getRecentWeightLogs,
+  getWeightLogByDate,
+  parseWeightInput,
+  sortWeightLogs,
+} from '@/utils/weight';
 
 type ThemeMode = 'light' | 'dark' | 'system';
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as const;
+
+const formatDateToStorage = (date: Date) => {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+};
+
+const parseStorageDate = (dateString: string) => {
+  const [year, month, day] = dateString.split('-').map(Number);
+  return new Date(year, month - 1, day);
+};
 
 export default function SettingsScreen() {
   const { colors, isDark, themeMode, setThemeMode } = useTheme();
@@ -38,6 +59,11 @@ export default function SettingsScreen() {
     toggleHaptic,
     weddingDate,
     setWeddingDate,
+    weightGoalKg,
+    setWeightGoalKg,
+    weightLogs,
+    upsertWeightLog,
+    removeWeightLog,
     reminderSettings,
     setReminderSettings,
   } = useUserStore();
@@ -47,10 +73,41 @@ export default function SettingsScreen() {
   const [isExporting, setIsExporting] = useState(false);
   const [isImporting, setIsImporting] = useState(false);
   const [showBackupInput, setShowBackupInput] = useState(false);
+  const [showAdvancedSections, setShowAdvancedSections] = useState(false);
+  const [todayWeightInput, setTodayWeightInput] = useState('');
+  const [goalWeightInput, setGoalWeightInput] = useState('');
 
   // Time picker state
   const [showTimePicker, setShowTimePicker] = useState(false);
   const [showWeddingDatePicker, setShowWeddingDatePicker] = useState(false);
+  const todayDate = formatDateToStorage(new Date());
+
+  const sortedWeightLogs = useMemo(() => sortWeightLogs(weightLogs), [weightLogs]);
+
+  const firstWeightLog = sortedWeightLogs.length > 0 ? sortedWeightLogs[0] : null;
+  const latestWeightLog =
+    sortedWeightLogs.length > 0 ? sortedWeightLogs[sortedWeightLogs.length - 1] : null;
+  const todayWeightLog = getWeightLogByDate(sortedWeightLogs, todayDate) ?? null;
+  const totalWeightDelta = calculateWeightDelta(
+    latestWeightLog?.weightKg ?? null,
+    firstWeightLog?.weightKg ?? null
+  );
+  const recentWeightLogs = useMemo(
+    () => getRecentWeightLogs(sortedWeightLogs, 7),
+    [sortedWeightLogs]
+  );
+  const sevenDayWeightDelta = useMemo(
+    () => calculateRecentWeightDelta(sortedWeightLogs, 7),
+    [sortedWeightLogs]
+  );
+
+  useEffect(() => {
+    setGoalWeightInput(weightGoalKg !== null ? String(weightGoalKg) : '');
+  }, [weightGoalKg]);
+
+  useEffect(() => {
+    setTodayWeightInput(todayWeightLog ? String(todayWeightLog.weightKg) : '');
+  }, [todayWeightLog]);
 
   const handleExport = async () => {
     try {
@@ -102,23 +159,43 @@ export default function SettingsScreen() {
     }
   };
 
-  const formatDateToStorage = (date: Date) => {
-    const year = date.getFullYear();
-    const month = String(date.getMonth() + 1).padStart(2, '0');
-    const day = String(date.getDate()).padStart(2, '0');
-    return `${year}-${month}-${day}`;
-  };
-
-  const parseStorageDate = (dateString: string) => {
-    const [year, month, day] = dateString.split('-').map(Number);
-    return new Date(year, month - 1, day);
-  };
-
   const handleWeddingDateChange = (_: unknown, selectedDate?: Date) => {
     setShowWeddingDatePicker(false);
     if (selectedDate) {
       setWeddingDate(formatDateToStorage(selectedDate));
     }
+  };
+
+  const handleSaveTodayWeight = () => {
+    const parsed = parseWeightInput(todayWeightInput);
+    if (parsed === null) {
+      Alert.alert('입력 확인', '20~300kg 범위로 입력해주세요.');
+      return;
+    }
+
+    upsertWeightLog(todayDate, parsed);
+    Alert.alert('저장됨', '오늘 체중이 저장됐어요.');
+  };
+
+  const handleSaveGoalWeight = () => {
+    const parsed = parseWeightInput(goalWeightInput);
+    if (parsed === null) {
+      Alert.alert('입력 확인', '20~300kg 범위로 입력해주세요.');
+      return;
+    }
+
+    setWeightGoalKg(parsed);
+    Alert.alert('저장됨', '목표 체중이 저장됐어요.');
+  };
+
+  const handleClearGoalWeight = () => {
+    setWeightGoalKg(null);
+    setGoalWeightInput('');
+  };
+
+  const handleClearTodayWeight = () => {
+    removeWeightLog(todayDate);
+    Alert.alert('삭제됨', '오늘 체중 기록을 삭제했어요.');
   };
 
   const formatTime = (hour: number, minute: number) => {
@@ -252,6 +329,132 @@ export default function SettingsScreen() {
         )}
       </View>
 
+      {/* 건강 추적 */}
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>건강 추적</Text>
+
+        {sortedWeightLogs.length === 0 ? (
+          <View style={styles.weightSummaryCard}>
+            <Text style={styles.weightSummaryEmpty}>
+              아직 체중 기록이 없어요. 오늘 수치를 입력해보세요.
+            </Text>
+          </View>
+        ) : (
+          <View style={styles.weightSummaryCard}>
+            <View style={styles.weightSummaryRow}>
+              <Text style={styles.weightSummaryLabel}>기록 수</Text>
+              <Text style={styles.weightSummaryValue}>{sortedWeightLogs.length}일</Text>
+            </View>
+            <View style={styles.weightSummaryRow}>
+              <Text style={styles.weightSummaryLabel}>시작</Text>
+              <Text style={styles.weightSummaryValue}>
+                {firstWeightLog ? `${firstWeightLog.weightKg.toFixed(1)}kg` : '-'}
+              </Text>
+            </View>
+            <View style={styles.weightSummaryRow}>
+              <Text style={styles.weightSummaryLabel}>현재</Text>
+              <Text style={styles.weightSummaryValue}>
+                {latestWeightLog ? `${latestWeightLog.weightKg.toFixed(1)}kg` : '-'}
+              </Text>
+            </View>
+            <View style={styles.weightSummaryRow}>
+              <Text style={styles.weightSummaryLabel}>총 변화</Text>
+              <Text
+                style={[
+                  styles.weightSummaryValue,
+                  totalWeightDelta !== null && totalWeightDelta < 0 && styles.weightDeltaGood,
+                ]}
+              >
+                {formatWeightDelta(totalWeightDelta)}
+              </Text>
+            </View>
+            <View style={styles.weightSummaryRow}>
+              <Text style={styles.weightSummaryLabel}>7일 변화</Text>
+              <Text
+                style={[
+                  styles.weightSummaryValue,
+                  sevenDayWeightDelta !== null && sevenDayWeightDelta < 0 && styles.weightDeltaGood,
+                ]}
+              >
+                {formatWeightDelta(sevenDayWeightDelta)}
+              </Text>
+            </View>
+          </View>
+        )}
+
+        <View style={styles.weightInputRow}>
+          <View style={styles.weightInputMeta}>
+            <Text style={styles.rowLabel}>오늘 체중</Text>
+            <Text style={styles.weightInputHint}>{todayDate}</Text>
+          </View>
+          <TextInput
+            value={todayWeightInput}
+            onChangeText={setTodayWeightInput}
+            keyboardType="decimal-pad"
+            style={styles.weightInput}
+            placeholder="kg"
+            placeholderTextColor={colors.textSecondary}
+          />
+          <TouchableOpacity style={styles.weightSaveButton} onPress={handleSaveTodayWeight}>
+            <Text style={styles.weightSaveButtonText}>저장</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.weightInputRow}>
+          <View style={styles.weightInputMeta}>
+            <Text style={styles.rowLabel}>목표 체중</Text>
+            <Text style={styles.weightInputHint}>선택</Text>
+          </View>
+          <TextInput
+            value={goalWeightInput}
+            onChangeText={setGoalWeightInput}
+            keyboardType="decimal-pad"
+            style={styles.weightInput}
+            placeholder="kg"
+            placeholderTextColor={colors.textSecondary}
+          />
+          <TouchableOpacity style={styles.weightSaveButton} onPress={handleSaveGoalWeight}>
+            <Text style={styles.weightSaveButtonText}>저장</Text>
+          </TouchableOpacity>
+        </View>
+
+        {weightGoalKg !== null && (
+          <View style={styles.weightGoalRow}>
+            <Text style={styles.weightGoalText}>
+              목표 {weightGoalKg.toFixed(1)}kg
+              {latestWeightLog
+                ? ` · 차이 ${formatWeightDelta(latestWeightLog.weightKg - weightGoalKg)}`
+                : ''}
+            </Text>
+            <TouchableOpacity onPress={handleClearGoalWeight}>
+              <Text style={styles.weightGoalClear}>지우기</Text>
+            </TouchableOpacity>
+          </View>
+        )}
+
+        {todayWeightLog && (
+          <TouchableOpacity style={styles.clearDateButton} onPress={handleClearTodayWeight}>
+            <Ionicons name="trash-outline" size={16} color={colors.textSecondary} />
+            <Text style={styles.clearDateButtonText}>오늘 기록 삭제</Text>
+          </TouchableOpacity>
+        )}
+
+        {recentWeightLogs.length > 0 && (
+          <View style={styles.weightRecentCard}>
+            <Text style={styles.weightRecentTitle}>최근 7회 기록</Text>
+            {recentWeightLogs
+              .slice()
+              .reverse()
+              .map((log) => (
+                <View key={log.date} style={styles.weightRecentRow}>
+                  <Text style={styles.weightRecentDate}>{formatDateDot(log.date)}</Text>
+                  <Text style={styles.weightRecentValue}>{log.weightKg.toFixed(1)}kg</Text>
+                </View>
+              ))}
+          </View>
+        )}
+      </View>
+
       {/* 알림 설정 */}
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>알림</Text>
@@ -319,66 +522,98 @@ export default function SettingsScreen() {
         </View>
       </View>
 
-      {/* 백업 & 복원 */}
+      {/* 고급 설정 토글 */}
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>백업 & 복원</Text>
-        <Text style={styles.sectionSubtitle}>
-          오프라인에서도 JSON으로 데이터를 보관하고 복원할 수 있습니다.
-        </Text>
-
         <TouchableOpacity
-          style={[styles.button, isExporting && styles.buttonDisabled]}
-          onPress={handleExport}
-          disabled={isExporting || isImporting}
+          style={styles.advancedToggleRow}
+          onPress={() => setShowAdvancedSections((prev) => !prev)}
         >
-          <Ionicons name="cloud-upload-outline" size={20} color="#fff" />
-          <Text style={styles.buttonText}>{isExporting ? '내보내는 중...' : '백업 내보내기'}</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          style={[styles.button, styles.buttonSecondary]}
-          onPress={() => setShowBackupInput(!showBackupInput)}
-        >
-          <Ionicons name="cloud-download-outline" size={20} color={colors.primary} />
-          <Text style={[styles.buttonText, styles.buttonTextSecondary]}>백업 불러오기</Text>
-        </TouchableOpacity>
-
-        {showBackupInput && (
-          <View style={styles.backupInputContainer}>
-            <TextInput
-              multiline
-              value={backupText}
-              onChangeText={setBackupText}
-              style={styles.input}
-              placeholder="여기에 백업 JSON을 붙여주세요"
-              placeholderTextColor={colors.textSecondary}
-              textAlignVertical="top"
-            />
-            <TouchableOpacity
-              style={[styles.button, isImporting && styles.buttonDisabled]}
-              onPress={handleImport}
-              disabled={isImporting}
-            >
-              <Text style={styles.buttonText}>{isImporting ? '복원 중...' : '복원하기'}</Text>
-            </TouchableOpacity>
-          </View>
-        )}
-      </View>
-
-      {/* 미니게임 */}
-      <View style={styles.section}>
-        <Text style={styles.sectionTitle}>미니게임</Text>
-        <TouchableOpacity style={styles.gameRow} onPress={() => router.push('/game')}>
           <View style={styles.rowLeft}>
-            <Ionicons name="game-controller-outline" size={22} color={colors.primary} />
-            <View>
-              <Text style={styles.rowLabel}>2048</Text>
-              <Text style={styles.gameSubtitle}>숫자를 합쳐 2048을 만들어보세요!</Text>
+            <Ionicons name="options-outline" size={22} color={colors.primary} />
+            <View style={styles.advancedToggleInfo}>
+              <Text style={styles.advancedToggleTitle}>고급 설정</Text>
+              <Text style={styles.advancedToggleSubtitle}>백업, 미니게임</Text>
             </View>
           </View>
-          <Ionicons name="chevron-forward" size={20} color={colors.textSecondary} />
+          <View style={styles.advancedToggleRight}>
+            <Text style={styles.advancedToggleText}>
+              {showAdvancedSections ? '접기' : '펼치기'}
+            </Text>
+            <Ionicons
+              name={showAdvancedSections ? 'chevron-up' : 'chevron-down'}
+              size={18}
+              color={colors.textSecondary}
+            />
+          </View>
         </TouchableOpacity>
       </View>
+
+      {showAdvancedSections && (
+        <>
+          {/* 백업 & 복원 */}
+          <View style={styles.section}>
+            <Text style={styles.sectionTitle}>백업 & 복원</Text>
+            <Text style={styles.sectionSubtitle}>
+              오프라인에서도 JSON으로 데이터를 보관하고 복원할 수 있습니다.
+            </Text>
+
+            <TouchableOpacity
+              style={[styles.button, isExporting && styles.buttonDisabled]}
+              onPress={handleExport}
+              disabled={isExporting || isImporting}
+            >
+              <Ionicons name="cloud-upload-outline" size={20} color="#fff" />
+              <Text style={styles.buttonText}>
+                {isExporting ? '내보내는 중...' : '백업 내보내기'}
+              </Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity
+              style={[styles.button, styles.buttonSecondary]}
+              onPress={() => setShowBackupInput(!showBackupInput)}
+            >
+              <Ionicons name="cloud-download-outline" size={20} color={colors.primary} />
+              <Text style={[styles.buttonText, styles.buttonTextSecondary]}>백업 불러오기</Text>
+            </TouchableOpacity>
+
+            {showBackupInput && (
+              <View style={styles.backupInputContainer}>
+                <TextInput
+                  multiline
+                  value={backupText}
+                  onChangeText={setBackupText}
+                  style={styles.input}
+                  placeholder="여기에 백업 JSON을 붙여주세요"
+                  placeholderTextColor={colors.textSecondary}
+                  textAlignVertical="top"
+                />
+                <TouchableOpacity
+                  style={[styles.button, isImporting && styles.buttonDisabled]}
+                  onPress={handleImport}
+                  disabled={isImporting}
+                >
+                  <Text style={styles.buttonText}>{isImporting ? '복원 중...' : '복원하기'}</Text>
+                </TouchableOpacity>
+              </View>
+            )}
+          </View>
+
+          {/* 미니게임 */}
+          <View style={styles.section}>
+            <Text style={styles.sectionTitle}>미니게임</Text>
+            <TouchableOpacity style={styles.gameRow} onPress={() => router.push('/game')}>
+              <View style={styles.rowLeft}>
+                <Ionicons name="game-controller-outline" size={22} color={colors.primary} />
+                <View>
+                  <Text style={styles.rowLabel}>2048</Text>
+                  <Text style={styles.gameSubtitle}>숫자를 합쳐 2048을 만들어보세요!</Text>
+                </View>
+              </View>
+              <Ionicons name="chevron-forward" size={20} color={colors.textSecondary} />
+            </TouchableOpacity>
+          </View>
+        </>
+      )}
 
       {/* 앱 정보 */}
       <View style={styles.section}>
@@ -431,6 +666,34 @@ const createStyles = (
       color: colors.textSecondary,
       marginBottom: SIZES.spacing.sm,
     },
+    advancedToggleRow: {
+      alignItems: 'center',
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      minHeight: 52,
+    },
+    advancedToggleInfo: {
+      gap: 2,
+    },
+    advancedToggleTitle: {
+      color: colors.text,
+      fontSize: SIZES.fontSize.md,
+      fontWeight: '600',
+    },
+    advancedToggleSubtitle: {
+      color: colors.textSecondary,
+      fontSize: SIZES.fontSize.sm,
+    },
+    advancedToggleRight: {
+      alignItems: 'center',
+      flexDirection: 'row',
+      gap: SIZES.spacing.xs,
+    },
+    advancedToggleText: {
+      color: colors.textSecondary,
+      fontSize: SIZES.fontSize.sm,
+      fontWeight: '500',
+    },
     row: {
       flexDirection: 'row',
       alignItems: 'center',
@@ -467,6 +730,123 @@ const createStyles = (
     rowValueMuted: {
       color: colors.textSecondary,
       fontWeight: '400',
+    },
+    weightSummaryCard: {
+      backgroundColor: isDark ? '#1C1C1E' : '#fff',
+      borderColor: colors.border,
+      borderRadius: SIZES.borderRadius.md,
+      borderWidth: 1,
+      gap: SIZES.spacing.xs,
+      padding: SIZES.spacing.sm,
+    },
+    weightSummaryEmpty: {
+      color: colors.textSecondary,
+      fontSize: SIZES.fontSize.sm,
+      lineHeight: 20,
+    },
+    weightSummaryRow: {
+      alignItems: 'center',
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      paddingVertical: 2,
+    },
+    weightSummaryLabel: {
+      color: colors.textSecondary,
+      fontSize: SIZES.fontSize.sm,
+    },
+    weightSummaryValue: {
+      color: colors.text,
+      fontSize: SIZES.fontSize.md,
+      fontWeight: '600',
+    },
+    weightDeltaGood: {
+      color: '#16A34A',
+    },
+    weightInputRow: {
+      alignItems: 'center',
+      flexDirection: 'row',
+      gap: SIZES.spacing.sm,
+    },
+    weightInputMeta: {
+      flex: 1,
+      minWidth: 0,
+    },
+    weightInputHint: {
+      color: colors.textSecondary,
+      fontSize: SIZES.fontSize.xs,
+      marginTop: 2,
+    },
+    weightInput: {
+      backgroundColor: isDark ? '#1C1C1E' : '#fff',
+      borderColor: colors.border,
+      borderRadius: SIZES.borderRadius.md,
+      borderWidth: 1,
+      color: colors.text,
+      fontSize: SIZES.fontSize.md,
+      minWidth: 80,
+      paddingHorizontal: SIZES.spacing.sm,
+      paddingVertical: SIZES.spacing.xs,
+      textAlign: 'right',
+    },
+    weightSaveButton: {
+      alignItems: 'center',
+      backgroundColor: colors.primary,
+      borderRadius: SIZES.borderRadius.md,
+      justifyContent: 'center',
+      minWidth: 62,
+      paddingHorizontal: SIZES.spacing.sm,
+      paddingVertical: SIZES.spacing.sm,
+    },
+    weightSaveButtonText: {
+      color: '#fff',
+      fontSize: SIZES.fontSize.sm,
+      fontWeight: '600',
+    },
+    weightGoalRow: {
+      alignItems: 'center',
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+    },
+    weightGoalText: {
+      color: colors.textSecondary,
+      flex: 1,
+      fontSize: SIZES.fontSize.sm,
+    },
+    weightGoalClear: {
+      color: colors.textSecondary,
+      fontSize: SIZES.fontSize.sm,
+      fontWeight: '500',
+      paddingHorizontal: SIZES.spacing.sm,
+      paddingVertical: SIZES.spacing.xs,
+    },
+    weightRecentCard: {
+      backgroundColor: isDark ? '#1C1C1E' : '#fff',
+      borderColor: colors.border,
+      borderRadius: SIZES.borderRadius.md,
+      borderWidth: 1,
+      gap: SIZES.spacing.xs,
+      padding: SIZES.spacing.sm,
+    },
+    weightRecentTitle: {
+      color: colors.textSecondary,
+      fontSize: SIZES.fontSize.sm,
+      fontWeight: '600',
+      marginBottom: 2,
+    },
+    weightRecentRow: {
+      alignItems: 'center',
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      paddingVertical: 2,
+    },
+    weightRecentDate: {
+      color: colors.textSecondary,
+      fontSize: SIZES.fontSize.sm,
+    },
+    weightRecentValue: {
+      color: colors.text,
+      fontSize: SIZES.fontSize.md,
+      fontWeight: '500',
     },
     clearDateButton: {
       flexDirection: 'row',

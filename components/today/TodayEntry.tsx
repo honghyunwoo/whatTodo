@@ -7,10 +7,12 @@
  * - 인장 스타일 기분 선택
  */
 
-import React, { useState, useCallback, useRef } from 'react';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import React, { useState, useCallback, useRef, useMemo, useEffect } from 'react';
 import {
   StyleSheet,
   View,
+  ScrollView,
   TextInput,
   Pressable,
   Keyboard,
@@ -26,6 +28,7 @@ import { useTaskStore } from '@/store/taskStore';
 import { useDiaryStore, MoodType, MOOD_CONFIG } from '@/store/diaryStore';
 
 type EntryType = 'memo' | 'todo' | 'diary';
+const ENTRY_TYPE_STORAGE_KEY = '@whattodo:todayEntryType';
 
 interface EntryTypeConfig {
   icon: keyof typeof Ionicons.glyphMap;
@@ -74,19 +77,107 @@ const MOODS: MoodType[] = [
   'angry',
 ];
 
+const MAX_RECENT_SUGGESTIONS = 4;
+
+function normalizeRecentText(value: string): string {
+  return value.replace(/\s+/g, ' ').trim();
+}
+
+function collectUniqueRecent(values: string[]): string[] {
+  const unique: string[] = [];
+  const seen = new Set<string>();
+
+  for (const raw of values) {
+    const normalized = normalizeRecentText(raw);
+    if (normalized.length < 2) continue;
+    if (seen.has(normalized)) continue;
+
+    seen.add(normalized);
+    unique.push(normalized);
+
+    if (unique.length >= MAX_RECENT_SUGGESTIONS) break;
+  }
+
+  return unique;
+}
+
+function isEntryType(value: string): value is EntryType {
+  return value === 'memo' || value === 'todo' || value === 'diary';
+}
+
 export function TodayEntry() {
   const inputRef = useRef<TextInput>(null);
 
+  const tasks = useTaskStore((state) => state.tasks);
   const addTask = useTaskStore((state) => state.addTask);
+  const diaryEntries = useDiaryStore((state) => state.entries);
   const addDiaryEntry = useDiaryStore((state) => state.addEntry);
 
   const [entryType, setEntryType] = useState<EntryType>('todo');
+  const [isEntryTypeHydrated, setIsEntryTypeHydrated] = useState(false);
   const [text, setText] = useState('');
   const [isExpanded, setIsExpanded] = useState(true);
   const [selectedMood, setSelectedMood] = useState<MoodType | null>(null);
   const [feedback, setFeedback] = useState<null | 'saved' | 'empty'>(null);
 
   const config = ENTRY_TYPES[entryType];
+  const isQuickCaptureType = entryType !== 'diary';
+
+  const recentSuggestions = useMemo(() => {
+    if (entryType === 'todo') {
+      const recentTaskTitles = [...tasks]
+        .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())
+        .map((task) => task.title);
+      return collectUniqueRecent(recentTaskTitles);
+    }
+
+    if (entryType === 'memo') {
+      const recentMemoTexts = [...diaryEntries]
+        .filter((entry) => entry.tags?.includes('메모'))
+        .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())
+        .map((entry) => entry.content.split('\n')[0] || entry.content);
+      return collectUniqueRecent(recentMemoTexts);
+    }
+
+    const recentDiaryTexts = [...diaryEntries]
+      .filter((entry) => entry.tags?.includes('일기'))
+      .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())
+      .map((entry) => entry.content.split('\n')[0] || entry.content);
+    return collectUniqueRecent(recentDiaryTexts);
+  }, [entryType, tasks, diaryEntries]);
+  const shouldShowRecentSuggestions = isExpanded && recentSuggestions.length > 0 && !text.trim();
+
+  useEffect(() => {
+    let mounted = true;
+
+    const restoreEntryType = async () => {
+      try {
+        const savedType = await AsyncStorage.getItem(ENTRY_TYPE_STORAGE_KEY);
+        if (mounted && savedType && isEntryType(savedType)) {
+          setEntryType(savedType);
+        }
+      } catch {
+        // ignore restore errors and keep default entry type
+      } finally {
+        if (mounted) {
+          setIsEntryTypeHydrated(true);
+        }
+      }
+    };
+
+    void restoreEntryType();
+
+    return () => {
+      mounted = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!isEntryTypeHydrated) {
+      return;
+    }
+    void AsyncStorage.setItem(ENTRY_TYPE_STORAGE_KEY, entryType).catch(() => undefined);
+  }, [entryType, isEntryTypeHydrated]);
 
   const handleFocus = useCallback(() => {
     setIsExpanded(true);
@@ -158,6 +249,16 @@ export function TodayEntry() {
     Keyboard.dismiss();
   }, []);
 
+  const handleApplySuggestion = useCallback((suggestion: string) => {
+    setText(suggestion);
+    setFeedback(null);
+    setIsExpanded(true);
+
+    requestAnimationFrame(() => {
+      inputRef.current?.focus();
+    });
+  }, []);
+
   return (
     <KeyboardAvoidingView
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
@@ -207,19 +308,50 @@ export function TodayEntry() {
           <View style={[styles.inputAccent, { backgroundColor: config.color }]} />
           <TextInput
             ref={inputRef}
-            style={[styles.input, isExpanded && styles.inputExpanded]}
+            style={[
+              styles.input,
+              isExpanded && styles.inputExpanded,
+              isQuickCaptureType && styles.inputQuick,
+            ]}
             placeholder={config.placeholder}
             placeholderTextColor={PALETTE.ink.light}
             value={text}
             onChangeText={setText}
             onFocus={handleFocus}
-            onSubmitEditing={handleSubmit}
-            multiline
-            returnKeyType="done"
+            onSubmitEditing={isQuickCaptureType ? handleSubmit : undefined}
+            multiline={!isQuickCaptureType}
+            returnKeyType={isQuickCaptureType ? 'done' : 'default'}
             blurOnSubmit={false}
-            textAlignVertical="top"
+            textAlignVertical={isQuickCaptureType ? 'center' : 'top'}
           />
         </View>
+
+        {isExpanded && isQuickCaptureType && (
+          <Text style={styles.quickHint}>완료 키로 바로 저장</Text>
+        )}
+
+        {shouldShowRecentSuggestions && (
+          <Animated.View entering={FadeIn.duration(220)} style={styles.recentSection}>
+            <Text style={styles.recentLabel}>최근 입력</Text>
+            <ScrollView
+              horizontal
+              showsHorizontalScrollIndicator={false}
+              contentContainerStyle={styles.recentRow}
+            >
+              {recentSuggestions.map((suggestion) => (
+                <Pressable
+                  key={`${entryType}-${suggestion}`}
+                  style={({ pressed }) => [styles.recentChip, pressed && styles.recentChipPressed]}
+                  onPress={() => handleApplySuggestion(suggestion)}
+                >
+                  <Text style={styles.recentChipText} numberOfLines={1}>
+                    {suggestion}
+                  </Text>
+                </Pressable>
+              ))}
+            </ScrollView>
+          </Animated.View>
+        )}
 
         {/* 일기 기분 선택 */}
         {isExpanded && entryType === 'diary' && (
@@ -386,6 +518,47 @@ const styles = StyleSheet.create({
   },
   inputExpanded: {
     minHeight: 64,
+  },
+  inputQuick: {
+    minHeight: 48,
+  },
+  quickHint: {
+    color: PALETTE.ink.light,
+    fontSize: TYPOGRAPHY.size.xs,
+    marginTop: SPACE.xs,
+    marginLeft: SPACE.xs,
+  },
+  recentSection: {
+    marginTop: SPACE.md,
+  },
+  recentLabel: {
+    fontSize: TYPOGRAPHY.size.sm,
+    fontWeight: TYPOGRAPHY.weight.semibold,
+    color: PALETTE.ink.medium,
+    marginBottom: SPACE.xs,
+  },
+  recentRow: {
+    alignItems: 'center',
+    paddingRight: SPACE.xs,
+  },
+  recentChip: {
+    backgroundColor: '#FFFFFF',
+    borderColor: PALETTE.paper.aged,
+    borderRadius: RADIUS.full,
+    borderWidth: 1,
+    marginRight: SPACE.xs,
+    maxWidth: 190,
+    minHeight: 32,
+    paddingHorizontal: SPACE.sm,
+    justifyContent: 'center',
+  },
+  recentChipPressed: {
+    opacity: 0.78,
+  },
+  recentChipText: {
+    color: PALETTE.ink.medium,
+    fontSize: TYPOGRAPHY.size.sm,
+    fontWeight: TYPOGRAPHY.weight.medium,
   },
   moodSection: {
     marginTop: SPACE.lg,

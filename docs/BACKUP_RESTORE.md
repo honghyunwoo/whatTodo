@@ -60,6 +60,19 @@ If storage/schema format changes are introduced, all below are mandatory:
 
 No exception.
 
+## 5.1 Current schema change note (2026-02-25)
+
+Weight tracker MVP introduces `userStore` schema extension:
+
+1. `weightGoalKg`
+2. `weightLogs`
+
+Required checks for this change:
+
+1. Migration path verified (`persist.version` + `migrate`).
+2. Backup/restore round-trip keeps weight logs.
+3. Rollback on code revert does not erase old keys.
+
 ## 6) Rollback playbook (incident)
 
 Trigger examples:
@@ -90,6 +103,7 @@ Validate:
 1. Data matches backup point.
 2. App remains stable after restart.
 3. No critical error banners in settings.
+4. Weight records and goal value are restored correctly (if present).
 
 Commands:
 

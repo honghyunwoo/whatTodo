@@ -11,11 +11,19 @@ import { createJSONStorage, persist } from 'zustand/middleware';
 
 import { STORAGE_KEYS } from '@/constants/storage';
 import { ActivityType } from '@/types/activity';
+import { normalizeWeightValue } from '@/utils/weight';
 
 export interface ReminderSettings {
   enabled: boolean;
   hour: number;
   minute: number;
+}
+
+export interface WeightLog {
+  date: string; // YYYY-MM-DD
+  weightKg: number;
+  createdAt: string;
+  updatedAt: string;
 }
 
 export const USER_STORE_STORAGE_KEY = STORAGE_KEYS.REWARDS + '_user';
@@ -42,6 +50,8 @@ interface UserState {
   soundEnabled: boolean;
   hapticEnabled: boolean;
   weddingDate: string | null; // YYYY-MM-DD
+  weightGoalKg: number | null;
+  weightLogs: WeightLog[];
 
   // 알림 설정
   reminderSettings: ReminderSettings;
@@ -66,6 +76,9 @@ interface UserActions {
   toggleSound: () => void;
   toggleHaptic: () => void;
   setWeddingDate: (date: string | null) => void;
+  setWeightGoalKg: (goalKg: number | null) => void;
+  upsertWeightLog: (date: string, weightKg: number) => void;
+  removeWeightLog: (date: string) => void;
 
   // 알림 설정
   setReminderSettings: (settings: ReminderSettings) => Promise<void>;
@@ -97,6 +110,8 @@ const DEFAULT_STATE: UserState = {
   soundEnabled: true,
   hapticEnabled: true,
   weddingDate: null,
+  weightGoalKg: null,
+  weightLogs: [],
   reminderSettings: {
     enabled: true,
     hour: 9, // 오전 9시 기본값
@@ -182,6 +197,72 @@ export const useUserStore = create<UserState & UserActions>()(
        */
       setWeddingDate: (date: string | null) => {
         set({ weddingDate: date });
+      },
+
+      /**
+       * 목표 체중 설정
+       */
+      setWeightGoalKg: (goalKg: number | null) => {
+        if (goalKg === null) {
+          set({ weightGoalKg: null });
+          return;
+        }
+
+        const normalized = normalizeWeightValue(goalKg);
+        if (normalized === null) return;
+
+        set({ weightGoalKg: normalized });
+      },
+
+      /**
+       * 체중 기록 추가/수정 (같은 날짜면 업데이트)
+       */
+      upsertWeightLog: (date: string, weightKg: number) => {
+        const normalized = normalizeWeightValue(weightKg);
+        if (normalized === null) return;
+
+        const now = new Date().toISOString();
+
+        set((state) => {
+          const existingIndex = state.weightLogs.findIndex((log) => log.date === date);
+
+          let nextLogs: WeightLog[];
+
+          if (existingIndex >= 0) {
+            nextLogs = state.weightLogs.map((log, index) =>
+              index === existingIndex
+                ? {
+                    ...log,
+                    weightKg: normalized,
+                    updatedAt: now,
+                  }
+                : log
+            );
+          } else {
+            nextLogs = [
+              ...state.weightLogs,
+              {
+                date,
+                weightKg: normalized,
+                createdAt: now,
+                updatedAt: now,
+              },
+            ];
+          }
+
+          nextLogs = nextLogs.sort((a, b) => a.date.localeCompare(b.date)).slice(-365);
+
+          return { weightLogs: nextLogs };
+        });
+      },
+
+      /**
+       * 특정 날짜 체중 기록 삭제
+       */
+      removeWeightLog: (date: string) => {
+        set((state) => ({
+          weightLogs: state.weightLogs.filter((log) => log.date !== date),
+        }));
       },
 
       /**
@@ -312,6 +393,20 @@ export const useUserStore = create<UserState & UserActions>()(
     {
       name: USER_STORE_STORAGE_KEY,
       storage: createJSONStorage(() => AsyncStorage),
+      version: 2,
+      migrate: (persistedState: unknown, version: number) => {
+        const state = (persistedState as Partial<UserState> | undefined) ?? {};
+
+        if (version < 2) {
+          return {
+            ...state,
+            weightGoalKg: typeof state.weightGoalKg === 'number' ? state.weightGoalKg : null,
+            weightLogs: Array.isArray(state.weightLogs) ? state.weightLogs : [],
+          };
+        }
+
+        return state;
+      },
       onRehydrateStorage: () => (state, error) => {
         if (error) {
           console.error('[UserStore] rehydration failed:', error);
