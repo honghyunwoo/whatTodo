@@ -6,8 +6,8 @@ Goal: 기능은 풍성하게 유지하면서도 Today에서 80%를 빠르게 끝
 
 ## 1) This Week Focus
 
-- Top1: `Today 핵심 행동 우선 + 초고속 캡처(최근 입력 칩)`
-- One Metric: `반복 입력 탭 절감`
+- Top1: `Today 핵심 행동 우선 + 초고속 캡처(최근 입력 칩 + 엔터 저장 + 타입 유지)`
+- One Metric: `캡처 2탭 완료율`
 
 ## 2) UX Principles (Simple but Full)
 
