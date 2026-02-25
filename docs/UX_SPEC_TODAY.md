@@ -6,8 +6,8 @@ Goal: 기능은 풍성하게 유지하면서도 Today에서 80%를 빠르게 끝
 
 ## 1) This Week Focus
 
-- Top1: `오늘의 기록 탐색 마찰 감소 (타입 필터)`
-- One Metric: `기록 탐색 15초 성공률`
+- Top1: `Today 핵심 행동 우선 + 초고속 캡처(최근 입력 칩)`
+- One Metric: `반복 입력 탭 절감`
 
 ## 2) UX Principles (Simple but Full)
 
