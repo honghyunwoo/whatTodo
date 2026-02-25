@@ -83,6 +83,7 @@ Goal: 기능은 풍성하게 유지하면서도 Today에서 80%를 빠르게 끝
 - Placeholder: `오늘 해야 할 일이나 메모를 한 줄로 적어주세요`
 - Recent chips label: `최근 입력`
 - Quick hint: `완료 키로 바로 저장`
+- Persist: 마지막 입력 타입(할일/메모/일기) 복원
 - Success: `저장됨`
 - Empty: `한 글자 이상 입력해주세요`
 - Error: `저장에 실패했어요. 다시 시도해주세요`

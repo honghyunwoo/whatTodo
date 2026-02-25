@@ -7,7 +7,8 @@
  * - 인장 스타일 기분 선택
  */
 
-import React, { useState, useCallback, useRef, useMemo } from 'react';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import React, { useState, useCallback, useRef, useMemo, useEffect } from 'react';
 import {
   StyleSheet,
   View,
@@ -27,6 +28,7 @@ import { useTaskStore } from '@/store/taskStore';
 import { useDiaryStore, MoodType, MOOD_CONFIG } from '@/store/diaryStore';
 
 type EntryType = 'memo' | 'todo' | 'diary';
+const ENTRY_TYPE_STORAGE_KEY = '@whattodo:todayEntryType';
 
 interface EntryTypeConfig {
   icon: keyof typeof Ionicons.glyphMap;
@@ -99,6 +101,10 @@ function collectUniqueRecent(values: string[]): string[] {
   return unique;
 }
 
+function isEntryType(value: string): value is EntryType {
+  return value === 'memo' || value === 'todo' || value === 'diary';
+}
+
 export function TodayEntry() {
   const inputRef = useRef<TextInput>(null);
 
@@ -108,6 +114,7 @@ export function TodayEntry() {
   const addDiaryEntry = useDiaryStore((state) => state.addEntry);
 
   const [entryType, setEntryType] = useState<EntryType>('todo');
+  const [isEntryTypeHydrated, setIsEntryTypeHydrated] = useState(false);
   const [text, setText] = useState('');
   const [isExpanded, setIsExpanded] = useState(true);
   const [selectedMood, setSelectedMood] = useState<MoodType | null>(null);
@@ -139,6 +146,38 @@ export function TodayEntry() {
     return collectUniqueRecent(recentDiaryTexts);
   }, [entryType, tasks, diaryEntries]);
   const shouldShowRecentSuggestions = isExpanded && recentSuggestions.length > 0 && !text.trim();
+
+  useEffect(() => {
+    let mounted = true;
+
+    const restoreEntryType = async () => {
+      try {
+        const savedType = await AsyncStorage.getItem(ENTRY_TYPE_STORAGE_KEY);
+        if (mounted && savedType && isEntryType(savedType)) {
+          setEntryType(savedType);
+        }
+      } catch {
+        // ignore restore errors and keep default entry type
+      } finally {
+        if (mounted) {
+          setIsEntryTypeHydrated(true);
+        }
+      }
+    };
+
+    void restoreEntryType();
+
+    return () => {
+      mounted = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!isEntryTypeHydrated) {
+      return;
+    }
+    void AsyncStorage.setItem(ENTRY_TYPE_STORAGE_KEY, entryType).catch(() => undefined);
+  }, [entryType, isEntryTypeHydrated]);
 
   const handleFocus = useCallback(() => {
     setIsExpanded(true);
