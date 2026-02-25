@@ -1,260 +1,107 @@
 # UX_SPEC_TODAY
 
-Updated: 2026-02-25  
-Scope: `app/(tabs)/index.tsx` and Today related components  
-Goal: Make Today screen the single daily cockpit
+Updated: 2026-02-25
+Scope: `app/(tabs)/index.tsx` and Today/Day/Calendar linked flow
+Goal: 기능은 풍성하게 유지하면서도 Today에서 80%를 빠르게 끝낸다
 
-## 1) Product Goal for Today
+## 1) This Week Focus
 
-Today screen must complete 80% of daily actions with minimal cognitive load.
+- Top1: `할 일 체크 즉시성 + 날짜별 추적 일관성`
+- One Metric: `60초 2행동 달성률`
 
-Priority loops:
+## 2) UX Principles (Simple but Full)
 
-1. Ultra-fast capture (within 3 seconds).
-2. Execution focus (Top3 + Next1).
-3. Closing loop (carry-over + short reflection + tomorrow prep).
-4. Critical date recall (wedding D-day in 2 seconds).
-5. Mini reset loop (30-45s boost, then immediate Next1 start).
+1. Above-the-fold에는 “오늘 당장 해야 할 행동”만 둔다.
+2. 한 블록에는 Primary CTA 1개만 둔다.
+3. 고급 기능은 숨기지 말고 한 단계 아래로 내린다(Progressive disclosure).
+4. 같은 개념은 같은 날짜 기준을 쓴다(`dueDate` 중심, 완료는 `completedAt` 보조).
+5. 상태 피드백은 짧고 즉시 보이게 한다.
 
-## 2) Information Architecture (Today only)
+## 3) Information Architecture
 
-Order from top to bottom:
+### L1: 매일 (Today)
 
-1. `TodayHeaderCompact`
-2. `DdayBadgeCard` (optional if date configured)
-3. `QuickCaptureStrip`
-4. `Top3Next1Card`
-5. `MiniResetChip` (inside Top3 block footer)
-6. `ClosingLoopCard` (shown stronger in evening)
-7. `TimelinePreview` (collapsed default)
+1. Header + D-day
+2. 통합 입력(메모/할일/일기)
+3. 오늘의 실행(체크 가능한 목록)
+4. 오늘의 기록 미리보기
 
-Non-goal for this iteration:
+### L2: 확인 (Calendar/Day)
 
-1. Big visual redesign for all tabs.
-2. New backend or sync architecture.
-3. New paid or social features.
+1. 캘린더 월 뷰
+2. 날짜 요약 카드
+3. Day 상세: 완료/미완료 구분 + 즉시 체크
 
-## 3) Primary UX Flow
+### L3: 관리 (Settings)
 
-### Flow A: Capture (3s)
+1. 알림, 사운드, 진동
+2. 백업/복구
+3. 중요한 날짜(D-day)
+4. 확장 기능(체중 추적 등)은 별도 섹션
 
-1. User opens Today.
-2. Input is visible immediately.
-3. User types one line and taps save.
-4. Saved feedback appears inline (`저장됨`).
-5. Item is available in Top3 candidate list.
+## 4) Core User Flows
 
-### Flow B: Execute (Top3 + Next1)
+### Flow A: 3초 입력
 
-1. User sees Top3 and Next1 above fold.
-2. User taps `지금 시작` on Next1.
-3. User marks done or postpones with reason.
-4. Next1 is automatically reassigned from remaining Top3.
+1. Today 진입
+2. 한 줄 입력
+3. 저장 탭
+4. `저장됨` 피드백 확인
 
-### Flow C: Close day
+### Flow B: 즉시 체크
 
-1. User opens Closing card.
-2. Unfinished tasks are auto-listed.
-3. User taps carry-over reason quickly.
-4. User writes one-line reflection and saves.
+1. Today 또는 Day 상세에서 할 일 확인
+2. 체크 아이콘 탭
+3. 완료/미완료 그룹 즉시 재배치
+4. 캘린더 요약에 반영
 
-### Flow D: Mini reset -> Next1
+### Flow C: 날짜 회고
 
-1. User taps `30초 리셋` on Today.
-2. User completes one short game round (<= 45 seconds).
-3. Result card shows one primary CTA: `Next1 시작`.
-4. User returns to Today task context and starts execution.
+1. 캘린더에서 날짜 선택
+2. `상세 보기` 진입
+3. 그날 할 일/학습/일기 확인
+4. 필요 시 바로 완료 처리
 
-### Flow E: D-day quick recall
+## 5) Microcopy and States
 
-1. User sets wedding date in Settings once.
-2. User opens Today.
-3. D-day appears in header area immediately.
-4. User can verify critical date status in <= 2 seconds.
+### Quick Input
 
-## 4) Wireframe (Text)
-
-```text
-[오늘 02.24 화 | 연속 n일 | 설정]
-
-[빠른 입력__________________][저장]
- 도움말: "할일, 메모, 일기 모두 한 줄로 시작"
- 저장 피드백: "저장됨"
-
-[오늘의 실행]
- Top3
- 1) ______ [완료] [미루기]
- 2) ______ [완료] [미루기]
- 3) ______ [완료] [미루기]
- Next1: ______
- [지금 시작]
- [30초 리셋]
-
-[마감 루프]
- 자동 이월 후보 n개
- 이유: [시간부족] [우선순위변경] [외부이슈]
- 한 줄 회고: __________________
- [오늘 마감]
-
-[오늘 기록 미리보기 ▼]
- (기본 접힘, 필요 시 펼침)
-```
-
-## 5) Component Spec + Copy + States
-
-## 5.1 QuickCaptureStrip
-
-Core copy:
-
-- Placeholder: `지금 해야 할 일이나 메모를 한 줄로 적어주세요`
+- Placeholder: `오늘 해야 할 일이나 메모를 한 줄로 적어주세요`
 - Success: `저장됨`
-- Empty warning: `한 글자 이상 입력해주세요`
+- Empty: `한 글자 이상 입력해주세요`
 - Error: `저장에 실패했어요. 다시 시도해주세요`
 
-States:
+### Day Todo List
 
-1. Loading: hydrating store (`입력 준비 중...`).
-2. Empty: default placeholder.
-3. Typing: save button active.
-4. Saved: 1.5s success badge.
-5. Error: inline retry.
+- Section title: `오늘의 할 일`
+- Empty: `이 날짜에 할 일이 없어요`
+- Toggle success: 시각 상태 변경으로 즉시 피드백
+- Error fallback: `완료 상태 변경에 실패했어요`
 
-Rules:
+### Calendar Summary
 
-1. Tap count from app open to save <= 2.
-2. Keep keyboard open after save if user continues.
+- Empty day: `이 날의 기록이 없습니다`
+- CTA: `상세 보기`
 
-## 5.2 Top3Next1Card
+## 6) Acceptance Criteria
 
-Core copy:
+1. Today에서 입력 저장까지 3초 내 가능.
+2. Day 상세에서 상세 화면 이동 없이 완료/해제 가능.
+3. 캘린더 요약과 Day 상세가 같은 해석 기준을 사용.
+4. 핵심 블록마다 빈/오류 상태 문구가 있다.
 
-- Section title: `오늘의 실행`
-- Helper: `딱 3개만 고르고, 지금 1개부터`
-- Next1 label: `지금 할 일`
-- Empty state: `아직 Top3가 없어요. 아래 후보에서 3개를 골라보세요`
+## 7) Validation Scenario
 
-States:
+1. Today에서 할 일 1개 추가.
+2. Calendar에서 해당 날짜 선택 후 Day 상세 이동.
+3. Day 상세에서 체크 아이콘 탭으로 완료 처리.
+4. Calendar로 돌아와 요약 수치 확인.
+5. 앱 재시작 후 상태 유지 확인.
 
-1. Loading: `오늘 우선순위 불러오는 중...`
-2. Empty: no tasks.
-3. Active: Top3 and Next1 visible.
-4. Error: `우선순위 불러오기에 실패했어요`
-
-Rules:
-
-1. Next1 is always one item.
-2. Completion of Next1 triggers immediate reassignment.
-
-## 5.3 ClosingLoopCard
-
-Core copy:
-
-- Title: `오늘 마감`
-- Carry-over title: `내일로 넘길 항목`
-- Reflection placeholder: `오늘 한 줄 회고`
-- Save CTA: `오늘 마감`
-- Success: `내일 준비까지 저장했어요`
-
-States:
-
-1. Hidden/minimized before afternoon.
-2. Active after configurable time.
-3. Empty unfinished list: `이월할 항목이 없어요`.
-4. Error: `마감 저장 실패. 다시 시도해주세요`.
-
-Rules:
-
-1. Carry-over reasons are one tap.
-2. Reflection is optional but encouraged.
-
-## 5.4 TimelinePreview
-
-Core copy:
-
-- Title: `오늘 기록`
-- Default: collapsed summary only.
-- Empty: `오늘 기록이 아직 없어요`.
-
-States:
-
-1. Collapsed default.
-2. Expanded on user action.
-3. Error fallback message if rendering fails.
-
-## 5.5 MiniResetChip
-
-Core copy:
-
-- Label: `30초 리셋`
-- Helper: `머리 비우고 바로 Next1로`
-- Result title: `리셋 완료`
-- Result CTA: `Next1 시작`
-- Error: `리셋 실행에 실패했어요. 다시 시도해주세요`
-
-States:
-
-1. Hidden: no Next1 candidate.
-2. Ready: Next1 exists.
-3. Running: timer active.
-4. Completed: result + one CTA.
-5. Error: fallback toast + retry.
-
-Rules:
-
-1. Round duration must be <= 45 seconds.
-2. Completed state must always show `Next1 시작` first.
-3. Optional secondary CTA can be `다시 리셋`, never primary.
-
-## 5.6 DdayBadgeCard
-
-Core copy:
-
-- Label: `결혼`
-- Value: `D-128` / `D-day` / `D+3`
-- Empty fallback: no card
-
-States:
-
-1. Hidden: date not configured.
-2. Active: date configured and computed.
-3. Error fallback: hide card and keep header stable.
-
-Rules:
-
-1. Must not block existing header actions.
-2. Use local date midnight for D-day calculation.
-
-## 6) Interaction and Visual Rules
-
-1. Above fold must include capture + Top3/Next1.
-2. Primary CTA count per block: exactly one.
-3. Touch targets >= 44x44.
-4. Korean copy is action-first and short.
-5. Keep current theme tokens; reduce decorative noise on Today.
-6. Mini reset is support feature, never blocks core Today actions.
-
-## 7) Acceptance Criteria
-
-1. First capture can be completed within 3 seconds in normal use.
-2. User can identify Top3 and Next1 without scrolling.
-3. End-of-day carry-over + reflection can be done within 30 seconds.
-4. Each key block has explicit loading/empty/error copy.
-5. Mini reset completion must allow Next1 start within 60 seconds.
-
-## 8) Validation Scenario
-
-1. Open app and measure capture flow time with stopwatch.
-2. Add 5 tasks and pin Top3.
-3. Complete Next1 and verify auto-next assignment.
-4. Simulate end-of-day and complete carry-over + reflection.
-5. Trigger mini reset and confirm `Next1 시작` flow.
-6. Reopen app and verify state persistence.
-
-Commands:
+### Commands
 
 ```bash
 npm run lint
 npm run typecheck
 npm test
 ```
-

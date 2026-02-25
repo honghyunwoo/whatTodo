@@ -15,6 +15,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useTheme } from '@/contexts/ThemeContext';
 import { TodayHeader } from '@/components/today/TodayHeader';
 import { TodayEntry } from '@/components/today/TodayEntry';
+import { TodayExecutionCard } from '@/components/today/TodayExecutionCard';
 import { TodayTimeline } from '@/components/today/TodayTimeline';
 import { QuickStartCard } from '@/components/home/QuickStartCard';
 import { SrsWidget } from '@/components/home/SrsWidget';
@@ -38,6 +39,9 @@ export default function TodayScreen() {
       >
         {/* 통합 입력창: 메모/할일/일기 */}
         <TodayEntry />
+
+        {/* 실행 고정 카드: Top3 + Next1 */}
+        <TodayExecutionCard />
 
         {/* 퀵 학습 시작 카드 */}
         <QuickStartCard />

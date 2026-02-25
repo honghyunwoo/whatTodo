@@ -53,9 +53,17 @@ export default function CalendarScreen() {
     const dates = new Set<string>();
 
     tasks.forEach((task) => {
-      if (task.createdAt) {
-        const date = formatDateToString(new Date(task.createdAt));
-        dates.add(date);
+      if (task.dueDate) {
+        dates.add(task.dueDate);
+      }
+
+      if (task.completedAt) {
+        dates.add(task.completedAt.split('T')[0]);
+      }
+
+      if (!task.dueDate && task.createdAt) {
+        const createdDate = formatDateToString(new Date(task.createdAt));
+        dates.add(createdDate);
       }
     });
 
@@ -74,10 +82,11 @@ export default function CalendarScreen() {
 
   // 선택된 날짜의 활동 요약
   const selectedDayData = useMemo(() => {
-    const dayTasks = tasks.filter((task) => {
-      if (!task.createdAt) return false;
-      return formatDateToString(new Date(task.createdAt)) === selectedDate;
-    });
+    const dueDateTasks = tasks.filter((task) => task.dueDate === selectedDate);
+
+    const completedOnDate = tasks.filter(
+      (task) => task.completedAt && task.completedAt.split('T')[0] === selectedDate
+    );
 
     const dayProgress = progress.filter((p) => {
       if (!p.lastAttempt) return false;
@@ -87,8 +96,9 @@ export default function CalendarScreen() {
     const dayEntry = entries.find((e) => e.date === selectedDate);
 
     return {
-      tasksTotal: dayTasks.length,
-      tasksCompleted: dayTasks.filter((t) => t.completed).length,
+      tasksTotal: dueDateTasks.length,
+      tasksCompleted: dueDateTasks.filter((t) => t.completed).length,
+      tasksCompletedOnDate: completedOnDate.length,
       learnActivities: dayProgress.length,
       hasDiary: !!dayEntry,
     };
@@ -107,6 +117,7 @@ export default function CalendarScreen() {
 
   const hasActivity =
     selectedDayData.tasksTotal > 0 ||
+    selectedDayData.tasksCompletedOnDate > 0 ||
     selectedDayData.learnActivities > 0 ||
     selectedDayData.hasDiary;
 
@@ -241,6 +252,19 @@ export default function CalendarScreen() {
                     <Ionicons name="arrow-forward" size={16} color={PALETTE.seal.blue} />
                   </View>
                 </View>
+
+                {selectedDayData.tasksCompletedOnDate > 0 && (
+                  <View style={styles.completedInfoRow}>
+                    <Ionicons
+                      name="checkmark-circle-outline"
+                      size={14}
+                      color={PALETTE.functional.todo}
+                    />
+                    <Text style={styles.completedInfoText}>
+                      이 날짜에 완료 처리 {selectedDayData.tasksCompletedOnDate}개
+                    </Text>
+                  </View>
+                )}
               </Pressable>
             </Animated.View>
           ) : (
@@ -413,6 +437,21 @@ const styles = StyleSheet.create({
     backgroundColor: withOpacity(PALETTE.seal.blue, 0.1),
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  completedInfoRow: {
+    alignItems: 'center',
+    borderTopColor: PALETTE.paper.aged,
+    borderTopWidth: 1,
+    flexDirection: 'row',
+    gap: SPACE.xs,
+    justifyContent: 'center',
+    marginTop: SPACE.sm,
+    paddingTop: SPACE.sm,
+  },
+  completedInfoText: {
+    color: PALETTE.ink.medium,
+    fontSize: TYPOGRAPHY.size.xs,
+    fontWeight: TYPOGRAPHY.weight.medium,
   },
 
   // 빈 상태

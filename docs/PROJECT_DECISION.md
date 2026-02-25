@@ -1,119 +1,97 @@
 # PROJECT_DECISION
 
-Updated: 2026-02-25  
-Owner: hynoo (solo)  
+Updated: 2026-02-25
+Owner: hynoo (solo)
 Mode: One ACTIVE project for 90 days
 
-## 1) Current Workspace/Repo Check
+## 1) Current Workspace and ACTIVE Candidate
 
 - Current working repo: `C:\Users\hynoo\_archive\whatTodo`
 - Git remote: `https://github.com/honghyunwoo/whatTodo.git`
-- Current branch: `fix/backup-banner-loop`
-- Decision: ACTIVE candidate is `whatTodo` only
+- Active candidate decision: `whatTodo` only
 
 ## 2) One-Page Diagnosis
 
 ### Problem
 
-You split execution context into 4 projects. Each project has value, but daily usage quality drops because attention and iteration speed are fragmented.
+기능 수는 충분하지만, Today와 Calendar에서 핵심 행동이 분산되어 실제 체감 편의성이 떨어진다.
 
-### Root Causes
+### Root Cause
 
-1. Product boundary and implementation boundary were split at the same time.
-2. Rebuild temptation (rewrite path) consumed cycles better spent on daily UX friction.
-3. Today screen currently mixes many blocks, so the core loop (Capture -> Top3/Next1 -> Closing) is not dominant.
-4. "What to improve next" was not fixed to one weekly metric.
+1. 날짜 기준이 화면마다 다르다 (`createdAt` vs `dueDate` vs `completedAt`).
+2. 할 일 완료 체크 동선이 길다(일자 상세에서 즉시 체크가 어려움).
+3. 고급 기능과 매일 기능의 위계가 섞여 인지 부하가 생긴다.
+4. 기능 확장 속도 대비 “이번 주 하나” 원칙이 흔들린다.
 
-### Priority (P0 -> P2)
+### Priority (P0 to P2)
 
-1. P0: Restore daily continuity by running one ACTIVE project only.
-2. P0: Make Today screen finish 80% of daily actions.
-3. P1: Make backup/restore rehearsal explicit and repeatable.
-4. P2: Import selective ideas from other projects only as copy/port units.
+1. P0: Today/Day/Calendar에서 할 일 체크 즉시성 확보.
+2. P0: 날짜별 기록 인식 일관성 확보(“몇일에 뭐 했는지” 신뢰 회복).
+3. P1: 사진 첨부/일기/투두를 한 흐름에서 빠르게 처리.
+4. P2: 체중 추적은 데이터 모델 검증 후 별도 스프린트로 추가.
 
 ### Risks
 
-1. Hidden rewrite scope in "small improvements".
-2. Large PRs over 300 LOC causing unstable merges.
-3. Storage format edits without migration/rollback tests.
-4. Re-activation of frozen repos due to novelty bias.
+1. 작은 UX 개선에 큰 리팩터링 범위가 섞일 위험.
+2. PR 300 LOC 초과로 회귀 위험 증가.
+3. 스토리지 필드 확장 시 백업 호환성 깨질 위험.
+4. 미니게임/부가기능이 핵심 루프를 다시 가릴 위험.
 
 ### Risk Controls
 
-1. One metric per week, one Top1 improvement only.
-2. PR split policy: max 300 LOC/PR.
-3. No storage format change without migration doc + rollback plan + data-loss test.
-4. Active/Frozen decision reviewed every 2 weeks, not daily.
+1. 이번 주 Top1 1개만 구현.
+2. PR 분할: `문서` / `체크 동선` / `캘린더 일관성`.
+3. 저장 포맷 변경 시 백업/복원 테스트 필수.
+4. 게임 기능은 FROZEN으로 유지하고 핵심 루프 이후 재검토.
 
-## 3) ACTIVE/FROZEN Classification (4 Projects)
+## 3) ACTIVE and FROZEN Classification (4 Projects)
 
 | Project | Path | Status | Role | Why |
 |---|---|---|---|---|
-| whatTodo | `C:\Users\hynoo\_archive\whatTodo` | ACTIVE | Daily product | Existing integrated flow (todo + learning + journal) and fastest path to "daily use". |
-| whattodo-v2 | `C:\Users\hynoo\OneDrive\바탕 화면\mymy\whattodo-v2` | FROZEN | Architecture/pattern lab | Useful design patterns and tests, but lower immediate daily utility. |
-| personal-execution-os | `C:\Users\hynoo\personal-execution-os` | FROZEN | Kotlin/KMP reference | Scope fixed to schedule/diary only, useful as implementation reference. |
-| english-coach | `C:\Users\hynoo\english-coach` | FROZEN | English learning reference | Strong learning pipeline, but product is intentionally separated from todo scope. |
-
-### Import Rule from FROZEN
-
-1. Import only by small copy/port units (pure functions, copy strings, single component pattern).
-2. No cross-repo runtime dependency.
-3. No branch-level merge/cherry-pick from frozen repos into active mainline.
+| whatTodo | `C:\Users\hynoo\_archive\whatTodo` | ACTIVE | Daily product | 이미 실사용 루프와 데이터가 모여 있어 품질 개선 속도가 가장 빠름 |
+| whattodo-v2 | `C:\Users\hynoo\OneDrive\바탕 화면\mymy\whattodo-v2` | FROZEN | Idea lab | 패턴 참고용. 실행 코드는 복사/이식 단위만 허용 |
+| personal-execution-os | `C:\Users\hynoo\personal-execution-os` | FROZEN | Reference | 화면/상태 아이디어 참고용 |
+| english-coach | `C:\Users\hynoo\english-coach` | FROZEN | Learning reference | 학습 컨셉 참고용, 런타임 연동 금지 |
 
 ## 4) This Week One Metric
 
-Metric name: `Critical Date Recall Time`  
-Definition: app open -> wedding D-day recognition time on Today.  
-Target this week: `<= 2초` (manual 10/10).
-
-Guardrails:
-
-1. Date calculation must remain correct across timezone/day boundary.
-2. No new production dependency.
-3. Existing todo/learn/diary flow must remain intact.
-
-Trial guide:
-
-1. `docs/execution/DDAY_TOP1_IMPLEMENTATION_2026-02-25.md`
-2. `docs/execution/TODO_DIARY_PHOTO_IMPLEMENTATION_2026-02-24.md`
+- Metric name: `60초 2행동 달성률`
+- Definition: 앱 진입 후 60초 안에 `할 일 체크`와 `기록 1건 확인/저장`을 완료한 세션 비율
+- Target this week: `+20%` (수동 10회 시나리오 기준)
 
 ## 5) Sprint Backlog (2 Weeks Top10)
 
-1. 결혼 D-day 설정 + Today 즉시 표시.
-2. 백업/복원에 user key 포함 (중요 날짜 보존).
-3. Today 3초 캡처 버튼/입력 흐름 최적화.
-4. Top3 + Next1 고정 영역 가시성 강화.
-5. 일기 3줄 회고 템플릿 개선.
-6. 투두 상세의 불필요 탭/입력 단순화.
-7. 영어 90초 시작 버튼을 Today에 명확히 노출.
-8. 자동 이월 + 내일 준비 루프 문구 정리.
-9. 기록 탭 검색/필터 반응 속도 개선.
-10. 릴리즈 체크리스트 기준으로 일일 스모크 검증.
+1. 일자 상세 화면에서 체크 아이콘 즉시 완료/해제.
+2. 캘린더 요약 계산 기준 일관화 (`dueDate` + `completedAt`).
+3. Today에서 Top3/Next1 가시성 강화.
+4. 할 일 상세에서 완료 상태 가시성(문구/배지) 강화.
+5. D-day 카드와 캘린더 연결 문구 정리.
+6. 일기 사진 첨부 로딩/빈/오류 상태 마이크로카피 정리.
+7. “오늘의 기록” 섹션에서 완료/미완료 빠른 필터.
+8. 체중 기록 데이터 모델 초안 + 백업 호환성 설계.
+9. 설정 `기본`/`고급` 구획 분리.
+10. 릴리즈 체크리스트 기반 수동 스모크 자동화 문서화.
 
 ### This Week Top1 Improvement
 
-Top1: `Wedding D-day Quick Recall` (설정 1회 + Today 즉시 확인).
+- `할 일 체크 즉시성 + 날짜별 추적 일관성`
 
-Execution reference:
+## 6) Verification Scenario (Reproduce and Validate)
 
-1. `docs/execution/DDAY_TOP1_IMPLEMENTATION_2026-02-25.md`
+### Reproduce
 
-## 6) Verification Scenario (Reproduce/Validate)
+1. 캘린더에서 날짜 선택 후 Day 상세로 이동.
+2. 할 일 상세를 열어야만 완료 처리가 가능한지 확인.
+3. 캘린더 요약 수치가 실제 dueDate 기준과 다른지 확인.
 
-### Reproduce current pain
+### Validate
 
-1. Open Today.
-2. Try to check wedding D-day.
-3. Confirm no immediate information path.
+1. Day 상세에서 체크 아이콘만으로 완료/해제가 즉시 된다.
+2. 체크 직후 같은 화면의 완료/미완료 섹션이 즉시 갱신된다.
+3. 캘린더 날짜 요약이 dueDate 기준으로 일관되게 반영된다.
+4. 앱 재시작 후 상태가 유지된다.
 
-### Validate target behavior
-
-1. Open Settings -> set `결혼 날짜`.
-2. Return to Today and confirm `결혼 D-xxx` appears.
-3. Restart app and confirm persistence.
-4. Export/import backup and confirm D-day preserved.
-
-### Commands for quality checks
+### Required Commands
 
 ```bash
 npm run lint
@@ -121,35 +99,33 @@ npm run typecheck
 npm test
 ```
 
-Manual run:
+## 7) Issue and PR Plan (Small and Safe)
 
-```bash
-npm run android
-# or
-npm run web
-```
+### Issue 1 / PR-1: Day 화면 즉시 체크 UX
 
-## 7) Issue/PR Plan (Small + Safe)
-
-### Issue 1 / PR-1: D-day Model + Backup Safety
-
-- Scope: `userStore` important date field + backup key/rehydrate + utility.
-- LOC target: <= 220.
+- Scope: `components/day/DayTimeline.tsx`
 - DoD:
-  - Wedding date persists locally.
-  - Backup restore keeps wedding date.
-  - Legacy backup remains compatible.
+1. 체크 아이콘 탭으로 완료/해제가 가능하다.
+2. 상세 이동 없이 같은 화면에서 상태 변경이 보인다.
+3. 미완료/완료 섹션 수치가 즉시 갱신된다.
 - Rollback:
-  - `git revert` PR commit.
-  - Optional field ignored safely.
+1. 해당 PR revert 시 기존 동작(상세에서만 변경)으로 안전 복귀.
 
-### Issue 2 / PR-2: Settings + Today D-day UX
+### Issue 2 / PR-2: Calendar 날짜 계산 일관성
 
-- Scope: date picker in settings + compact D-day card in header.
-- LOC target: <= 220.
+- Scope: `app/(tabs)/calendar.tsx`
 - DoD:
-  - Date set/clear works.
-  - Today header shows D-day immediately.
-  - No layout break on small devices.
+1. 날짜 요약 기준이 dueDate와 완료 이벤트에 맞게 동작한다.
+2. 기존 데이터에서도 크래시 없이 렌더된다.
+3. Day 상세와 수치 해석이 충돌하지 않는다.
 - Rollback:
-  - `git revert` PR commit.
+1. 기존 계산 로직으로 revert 가능.
+
+### Issue 3 / PR-3: 운영 문서 and 에이전트 협업
+
+- Scope: `docs/UX_SPEC_TODAY.md`, `docs/agents/*`
+- DoD:
+1. 회의 역할, 결정 규칙, 인수인계 포맷이 문서화된다.
+2. 매 스프린트 Top1/검증/롤백 템플릿이 포함된다.
+- Rollback:
+1. 문서 변경만 revert하면 코드 영향 없음.

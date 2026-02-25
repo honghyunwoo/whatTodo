@@ -5,7 +5,7 @@
  * 완료된 것과 미완료된 것을 구분하여 표시
  */
 
-import React from 'react';
+import React, { useCallback } from 'react';
 import { StyleSheet, View, Pressable } from 'react-native';
 import { Text } from 'react-native-paper';
 import { Ionicons } from '@expo/vector-icons';
@@ -15,6 +15,7 @@ import type { Task } from '@/types/task';
 import { COLORS } from '@/constants/colors';
 import { SIZES } from '@/constants/sizes';
 import { useTheme } from '@/contexts/ThemeContext';
+import { useTaskStore } from '@/store/taskStore';
 
 interface DayTimelineProps {
   /** 해당 날짜의 Todo 리스트 */
@@ -55,7 +56,15 @@ function formatCompletedTime(completedAt?: string): string {
 /**
  * Todo 아이템 (타임라인용)
  */
-function TodoTimelineItem({ todo, onPress }: { todo: Task; onPress: () => void }) {
+function TodoTimelineItem({
+  todo,
+  onPress,
+  onToggleComplete,
+}: {
+  todo: Task;
+  onPress: () => void;
+  onToggleComplete: () => void;
+}) {
   const { colors, isDark } = useTheme();
 
   const priorityColors = {
@@ -88,17 +97,27 @@ function TodoTimelineItem({ todo, onPress }: { todo: Task; onPress: () => void }
             {formatTime(todo.dueTime)}
           </Text>
         )}
-        <View
-          style={[
-            styles.checkIcon,
-            {
-              backgroundColor: todo.completed ? COLORS.primary : 'transparent',
-              borderColor: todo.completed ? COLORS.primary : colors.border,
-            },
-          ]}
+        <Pressable
+          onPress={(event) => {
+            event.stopPropagation();
+            onToggleComplete();
+          }}
+          hitSlop={10}
+          accessibilityRole="button"
+          accessibilityLabel={todo.completed ? '할 일 미완료로 변경' : '할 일 완료로 변경'}
         >
-          {todo.completed && <Ionicons name="checkmark" size={16} color="#FFFFFF" />}
-        </View>
+          <View
+            style={[
+              styles.checkIcon,
+              {
+                backgroundColor: todo.completed ? COLORS.primary : 'transparent',
+                borderColor: todo.completed ? COLORS.primary : colors.border,
+              },
+            ]}
+          >
+            {todo.completed && <Ionicons name="checkmark" size={16} color="#FFFFFF" />}
+          </View>
+        </Pressable>
       </View>
 
       {/* 중앙: Todo 내용 */}
@@ -148,6 +167,7 @@ function TodoTimelineItem({ todo, onPress }: { todo: Task; onPress: () => void }
 export function DayTimeline({ todos, date }: DayTimelineProps) {
   const { colors } = useTheme();
   const router = useRouter();
+  const toggleComplete = useTaskStore((state) => state.toggleComplete);
 
   // 완료된 Todo (completedAt 순서로 정렬)
   const completedTodos = todos
@@ -173,6 +193,13 @@ export function DayTimeline({ todos, date }: DayTimelineProps) {
     router.push(`/task/${todoId}`);
   };
 
+  const handleToggleComplete = useCallback(
+    (todoId: string) => {
+      toggleComplete(todoId);
+    },
+    [toggleComplete]
+  );
+
   // Todo가 없는 경우
   if (todos.length === 0) {
     return (
@@ -197,7 +224,12 @@ export function DayTimeline({ todos, date }: DayTimelineProps) {
             </Text>
           </View>
           {completedTodos.map((todo) => (
-            <TodoTimelineItem key={todo.id} todo={todo} onPress={() => handleTodoPress(todo.id)} />
+            <TodoTimelineItem
+              key={todo.id}
+              todo={todo}
+              onPress={() => handleTodoPress(todo.id)}
+              onToggleComplete={() => handleToggleComplete(todo.id)}
+            />
           ))}
         </View>
       )}
@@ -212,7 +244,12 @@ export function DayTimeline({ todos, date }: DayTimelineProps) {
             </Text>
           </View>
           {incompleteTodos.map((todo) => (
-            <TodoTimelineItem key={todo.id} todo={todo} onPress={() => handleTodoPress(todo.id)} />
+            <TodoTimelineItem
+              key={todo.id}
+              todo={todo}
+              onPress={() => handleTodoPress(todo.id)}
+              onToggleComplete={() => handleToggleComplete(todo.id)}
+            />
           ))}
         </View>
       )}
