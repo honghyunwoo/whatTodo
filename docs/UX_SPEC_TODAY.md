@@ -6,8 +6,8 @@ Goal: 기능은 풍성하게 유지하면서도 Today에서 80%를 빠르게 끝
 
 ## 1) This Week Focus
 
-- Top1: `할 일 체크 즉시성 + 날짜별 추적 일관성`
-- One Metric: `60초 2행동 달성률`
+- Top1: `오늘의 기록 탐색 마찰 감소 (타입 필터)`
+- One Metric: `기록 탐색 15초 성공률`
 
 ## 2) UX Principles (Simple but Full)
 
@@ -62,6 +62,12 @@ Goal: 기능은 풍성하게 유지하면서도 Today에서 80%를 빠르게 끝
 3. 그날 할 일/학습/일기 확인
 4. 필요 시 바로 완료 처리
 
+### Flow D: 기록 빠른 탐색
+
+1. Today `오늘의 기록` 헤더에서 타입 필터 선택
+2. 선택 타입만 빠르게 확인
+3. 항목이 없으면 `전체 보기`로 복귀
+
 ## 5) Microcopy and States
 
 ### Quick Input
@@ -78,6 +84,12 @@ Goal: 기능은 풍성하게 유지하면서도 Today에서 80%를 빠르게 끝
 - Toggle success: 시각 상태 변경으로 즉시 피드백
 - Error fallback: `완료 상태 변경에 실패했어요`
 
+### Today Timeline Filter
+
+- Filter labels: `전체`, `할일`, `일기`, `메모`
+- Filter empty: `선택한 유형의 기록이 없어요`
+- Recovery CTA: `전체 보기`
+
 ### Calendar Summary
 
 - Empty day: `이 날의 기록이 없습니다`
@@ -89,6 +101,7 @@ Goal: 기능은 풍성하게 유지하면서도 Today에서 80%를 빠르게 끝
 2. Day 상세에서 상세 화면 이동 없이 완료/해제 가능.
 3. 캘린더 요약과 Day 상세가 같은 해석 기준을 사용.
 4. 핵심 블록마다 빈/오류 상태 문구가 있다.
+5. Today 기록에서 타입 필터로 1탭 탐색이 가능하다.
 
 ## 7) Validation Scenario
 
@@ -97,6 +110,7 @@ Goal: 기능은 풍성하게 유지하면서도 Today에서 80%를 빠르게 끝
 3. Day 상세에서 체크 아이콘 탭으로 완료 처리.
 4. Calendar로 돌아와 요약 수치 확인.
 5. 앱 재시작 후 상태 유지 확인.
+6. Today로 돌아와 `할일/일기/메모` 필터 탐색 확인.
 
 ### Commands
 

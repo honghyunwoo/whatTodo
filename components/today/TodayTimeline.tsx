@@ -7,8 +7,8 @@
  * - 부드러운 빈 상태 디자인
  */
 
-import React, { useMemo } from 'react';
-import { StyleSheet, View } from 'react-native';
+import React, { useMemo, useState } from 'react';
+import { Pressable, StyleSheet, View } from 'react-native';
 import { Text } from 'react-native-paper';
 import { Ionicons } from '@expo/vector-icons';
 import Animated, { FadeIn, FadeInDown } from 'react-native-reanimated';
@@ -18,6 +18,15 @@ import { useTaskStore } from '@/store/taskStore';
 import { useDiaryStore } from '@/store/diaryStore';
 
 import { EntryCard, TimelineEntry } from './EntryCard';
+
+type TimelineFilter = 'all' | 'todo' | 'diary' | 'memo';
+
+const TIMELINE_FILTERS: { key: TimelineFilter; label: string }[] = [
+  { key: 'all', label: '전체' },
+  { key: 'todo', label: '할일' },
+  { key: 'diary', label: '일기' },
+  { key: 'memo', label: '메모' },
+];
 
 // 오늘 날짜 문자열
 function getTodayString(): string {
@@ -40,6 +49,8 @@ function formatTime(isoString: string): string {
 }
 
 export function TodayTimeline() {
+  const [activeFilter, setActiveFilter] = useState<TimelineFilter>('all');
+
   // Store
   const tasks = useTaskStore((state) => state.tasks);
   const diaryEntries = useDiaryStore((state) => state.entries);
@@ -122,6 +133,13 @@ export function TodayTimeline() {
       diaries,
     };
   }, [timelineEntries]);
+
+  const filteredEntries = useMemo(() => {
+    if (activeFilter === 'all') {
+      return timelineEntries;
+    }
+    return timelineEntries.filter((entry) => entry.type === activeFilter);
+  }, [timelineEntries, activeFilter]);
 
   // 빈 상태
   if (timelineEntries.length === 0) {
@@ -225,16 +243,61 @@ export function TodayTimeline() {
         </View>
       </Animated.View>
 
-      {/* 타임라인 */}
-      <View style={styles.timeline}>
-        {timelineEntries.map((entry, index) => (
-          <EntryCard
-            key={entry.type === 'todo' ? `todo-${entry.data.id}` : `diary-${entry.data.id}`}
-            entry={entry}
-            index={index}
-          />
-        ))}
+      <View style={styles.filterRow}>
+        {TIMELINE_FILTERS.map((filter) => {
+          const isActive = activeFilter === filter.key;
+          const count =
+            filter.key === 'all'
+              ? stats.total
+              : filter.key === 'todo'
+                ? stats.todos
+                : filter.key === 'diary'
+                  ? stats.diaries
+                  : stats.memos;
+
+          return (
+            <Pressable
+              key={filter.key}
+              style={({ pressed }) => [
+                styles.filterChip,
+                isActive && styles.filterChipActive,
+                pressed && styles.filterChipPressed,
+              ]}
+              onPress={() => setActiveFilter(filter.key)}
+            >
+              <Text style={[styles.filterLabel, isActive && styles.filterLabelActive]}>
+                {filter.label}
+              </Text>
+              <Text style={[styles.filterCount, isActive && styles.filterLabelActive]}>
+                {count}
+              </Text>
+            </Pressable>
+          );
+        })}
       </View>
+
+      {/* 타임라인 */}
+      {filteredEntries.length === 0 ? (
+        <View style={styles.filteredEmptyCard}>
+          <Text style={styles.filteredEmptyTitle}>선택한 유형의 기록이 없어요</Text>
+          <Pressable
+            style={({ pressed }) => [styles.showAllButton, pressed && styles.buttonPressed]}
+            onPress={() => setActiveFilter('all')}
+          >
+            <Text style={styles.showAllText}>전체 보기</Text>
+          </Pressable>
+        </View>
+      ) : (
+        <View style={styles.timeline}>
+          {filteredEntries.map((entry, index) => (
+            <EntryCard
+              key={entry.type === 'todo' ? `todo-${entry.data.id}` : `diary-${entry.data.id}`}
+              entry={entry}
+              index={index}
+            />
+          ))}
+        </View>
+      )}
     </View>
   );
 }
@@ -275,6 +338,45 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     gap: SPACE.xs,
   },
+  filterRow: {
+    flexDirection: 'row',
+    gap: SPACE.xs,
+    marginBottom: SPACE.md,
+    paddingHorizontal: SPACE.xs,
+  },
+  filterChip: {
+    alignItems: 'center',
+    backgroundColor: PALETTE.paper.cream,
+    borderColor: PALETTE.paper.aged,
+    borderRadius: RADIUS.full,
+    borderWidth: 1,
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    minHeight: 44,
+    paddingHorizontal: SPACE.sm,
+  },
+  filterChipActive: {
+    backgroundColor: withOpacity(PALETTE.functional.todo, 0.12),
+    borderColor: withOpacity(PALETTE.functional.todo, 0.4),
+  },
+  filterChipPressed: {
+    opacity: 0.85,
+  },
+  filterLabel: {
+    color: PALETTE.ink.medium,
+    fontSize: TYPOGRAPHY.size.sm,
+    fontWeight: TYPOGRAPHY.weight.semibold,
+  },
+  filterCount: {
+    color: PALETTE.ink.light,
+    fontSize: TYPOGRAPHY.size.xs,
+    fontWeight: TYPOGRAPHY.weight.semibold,
+    marginLeft: SPACE.xs,
+  },
+  filterLabelActive: {
+    color: PALETTE.functional.todo,
+  },
   statBadge: {
     paddingHorizontal: SPACE.sm,
     paddingVertical: SPACE.xxs,
@@ -286,6 +388,38 @@ const styles = StyleSheet.create({
   },
   timeline: {
     gap: SPACE.xs,
+  },
+  filteredEmptyCard: {
+    alignItems: 'center',
+    backgroundColor: PALETTE.paper.cream,
+    borderColor: PALETTE.paper.aged,
+    borderRadius: RADIUS.xl,
+    borderWidth: 1,
+    gap: SPACE.sm,
+    padding: SPACE.lg,
+  },
+  filteredEmptyTitle: {
+    color: PALETTE.ink.medium,
+    fontSize: TYPOGRAPHY.size.sm,
+  },
+  showAllButton: {
+    alignItems: 'center',
+    backgroundColor: '#FFFFFF',
+    borderColor: PALETTE.paper.aged,
+    borderRadius: RADIUS.full,
+    borderWidth: 1,
+    justifyContent: 'center',
+    minHeight: 36,
+    minWidth: 84,
+    paddingHorizontal: SPACE.md,
+  },
+  showAllText: {
+    color: PALETTE.ink.black,
+    fontSize: TYPOGRAPHY.size.sm,
+    fontWeight: TYPOGRAPHY.weight.semibold,
+  },
+  buttonPressed: {
+    opacity: 0.8,
   },
   emptyContainer: {
     marginHorizontal: SPACE.md,
