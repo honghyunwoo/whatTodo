@@ -41,6 +41,7 @@ If any command fails: `No-Go`.
 3. End of day -> carry-over -> reflection save.
 4. Settings -> backup export/import.
 5. App restart -> persisted state validation.
+6. If health tracker enabled: weight logs and goal value survive restore.
 
 ## 6) Go/No-Go decision
 
@@ -55,6 +56,7 @@ No-Go conditions:
 1. Any data-loss risk remains unknown.
 2. Any core loop breaks.
 3. Backup rehearsal fails.
+4. New schema data (e.g., weight logs) is missing after restore.
 
 ## 7) Release rollback checklist
 

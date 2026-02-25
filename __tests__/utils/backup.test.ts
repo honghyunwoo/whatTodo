@@ -311,5 +311,40 @@ describe('백업 시스템', () => {
       const restored = await AsyncStorage.getItem(STORAGE_KEYS.TASKS);
       expect(JSON.parse(restored!)).toEqual(originalData);
     });
+
+    it('userStore의 체중 데이터가 export/restore에서 유지되어야 함', async () => {
+      const userState = {
+        weddingDate: '2026-12-12',
+        weightGoalKg: 68.5,
+        weightLogs: [
+          {
+            date: '2026-02-24',
+            weightKg: 72.3,
+            createdAt: '2026-02-24T09:00:00.000Z',
+            updatedAt: '2026-02-24T09:00:00.000Z',
+          },
+          {
+            date: '2026-02-25',
+            weightKg: 71.8,
+            createdAt: '2026-02-25T09:00:00.000Z',
+            updatedAt: '2026-02-25T09:00:00.000Z',
+          },
+        ],
+      };
+
+      await AsyncStorage.setItem(USER_STORE_KEY, JSON.stringify(userState));
+
+      const backup = await exportBackup();
+      await AsyncStorage.clear();
+      await restoreBackup(backup);
+
+      const restoredUserRaw = await AsyncStorage.getItem(USER_STORE_KEY);
+      expect(restoredUserRaw).toBeTruthy();
+
+      const restoredUser = JSON.parse(restoredUserRaw!);
+      expect(restoredUser.weightGoalKg).toBe(68.5);
+      expect(restoredUser.weightLogs).toHaveLength(2);
+      expect(restoredUser.weightLogs[1].weightKg).toBe(71.8);
+    });
   });
 });
