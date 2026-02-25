@@ -74,7 +74,7 @@ Mode: One ACTIVE project for 90 days
 
 ### This Week Top1 Improvement
 
-- `오늘의 기록 탐색 마찰 감소 (타입 필터 + 마지막 선택 유지)`
+- `Today 핵심 행동 우선 노출 (보조 카드 접기/펼치기 + 기록 필터 유지)`
 
 ## 6) Verification Scenario (Reproduce and Validate)
 
