@@ -74,7 +74,7 @@ Mode: One ACTIVE project for 90 days
 
 ### This Week Top1 Improvement
 
-- `Today 핵심 행동 우선 노출 (보조 카드 접기/펼치기 + 기록 필터 유지)`
+- `Today 핵심 행동 우선 + 초고속 캡처(최근 입력 칩)`
 
 ## 6) Verification Scenario (Reproduce and Validate)
 
