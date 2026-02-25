@@ -1,5 +1,5 @@
 import { router } from 'expo-router';
-import React, { useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import {
   Alert,
   ScrollView,
@@ -23,6 +23,35 @@ import { SIZES } from '@/constants/sizes';
 type ThemeMode = 'light' | 'dark' | 'system';
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as const;
 
+const formatDateToStorage = (date: Date) => {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+};
+
+const parseStorageDate = (dateString: string) => {
+  const [year, month, day] = dateString.split('-').map(Number);
+  return new Date(year, month - 1, day);
+};
+
+const parseWeightInput = (value: string): number | null => {
+  const normalizedValue = value.replace(',', '.').trim();
+  if (!normalizedValue) return null;
+
+  const parsed = Number(normalizedValue);
+  if (!Number.isFinite(parsed) || parsed < 20 || parsed > 300) return null;
+
+  return Math.round(parsed * 10) / 10;
+};
+
+const formatDeltaText = (delta: number | null): string => {
+  if (delta === null) return '-';
+  if (delta === 0) return '0.0kg';
+  const sign = delta > 0 ? '+' : '';
+  return `${sign}${delta.toFixed(1)}kg`;
+};
+
 export default function SettingsScreen() {
   const { colors, isDark, themeMode, setThemeMode } = useTheme();
 
@@ -38,6 +67,10 @@ export default function SettingsScreen() {
     toggleHaptic,
     weddingDate,
     setWeddingDate,
+    weightGoalKg,
+    setWeightGoalKg,
+    weightLogs,
+    upsertWeightLog,
     reminderSettings,
     setReminderSettings,
   } = useUserStore();
@@ -47,10 +80,36 @@ export default function SettingsScreen() {
   const [isExporting, setIsExporting] = useState(false);
   const [isImporting, setIsImporting] = useState(false);
   const [showBackupInput, setShowBackupInput] = useState(false);
+  const [todayWeightInput, setTodayWeightInput] = useState('');
+  const [goalWeightInput, setGoalWeightInput] = useState('');
 
   // Time picker state
   const [showTimePicker, setShowTimePicker] = useState(false);
   const [showWeddingDatePicker, setShowWeddingDatePicker] = useState(false);
+  const todayDate = formatDateToStorage(new Date());
+
+  const sortedWeightLogs = useMemo(
+    () => [...weightLogs].sort((a, b) => a.date.localeCompare(b.date)),
+    [weightLogs]
+  );
+
+  const firstWeightLog = sortedWeightLogs.length > 0 ? sortedWeightLogs[0] : null;
+  const latestWeightLog =
+    sortedWeightLogs.length > 0 ? sortedWeightLogs[sortedWeightLogs.length - 1] : null;
+  const todayWeightLog = sortedWeightLogs.find((log) => log.date === todayDate) ?? null;
+
+  const totalWeightDelta =
+    firstWeightLog && latestWeightLog
+      ? Math.round((latestWeightLog.weightKg - firstWeightLog.weightKg) * 10) / 10
+      : null;
+
+  useEffect(() => {
+    setGoalWeightInput(weightGoalKg !== null ? String(weightGoalKg) : '');
+  }, [weightGoalKg]);
+
+  useEffect(() => {
+    setTodayWeightInput(todayWeightLog ? String(todayWeightLog.weightKg) : '');
+  }, [todayWeightLog]);
 
   const handleExport = async () => {
     try {
@@ -102,23 +161,38 @@ export default function SettingsScreen() {
     }
   };
 
-  const formatDateToStorage = (date: Date) => {
-    const year = date.getFullYear();
-    const month = String(date.getMonth() + 1).padStart(2, '0');
-    const day = String(date.getDate()).padStart(2, '0');
-    return `${year}-${month}-${day}`;
-  };
-
-  const parseStorageDate = (dateString: string) => {
-    const [year, month, day] = dateString.split('-').map(Number);
-    return new Date(year, month - 1, day);
-  };
-
   const handleWeddingDateChange = (_: unknown, selectedDate?: Date) => {
     setShowWeddingDatePicker(false);
     if (selectedDate) {
       setWeddingDate(formatDateToStorage(selectedDate));
     }
+  };
+
+  const handleSaveTodayWeight = () => {
+    const parsed = parseWeightInput(todayWeightInput);
+    if (parsed === null) {
+      Alert.alert('입력 확인', '20~300kg 범위로 입력해주세요.');
+      return;
+    }
+
+    upsertWeightLog(todayDate, parsed);
+    Alert.alert('저장됨', '오늘 체중이 저장됐어요.');
+  };
+
+  const handleSaveGoalWeight = () => {
+    const parsed = parseWeightInput(goalWeightInput);
+    if (parsed === null) {
+      Alert.alert('입력 확인', '20~300kg 범위로 입력해주세요.');
+      return;
+    }
+
+    setWeightGoalKg(parsed);
+    Alert.alert('저장됨', '목표 체중이 저장됐어요.');
+  };
+
+  const handleClearGoalWeight = () => {
+    setWeightGoalKg(null);
+    setGoalWeightInput('');
   };
 
   const formatTime = (hour: number, minute: number) => {
@@ -249,6 +323,99 @@ export default function SettingsScreen() {
             mode="date"
             onChange={handleWeddingDateChange}
           />
+        )}
+      </View>
+
+      {/* 건강 추적 */}
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>건강 추적</Text>
+
+        {sortedWeightLogs.length === 0 ? (
+          <View style={styles.weightSummaryCard}>
+            <Text style={styles.weightSummaryEmpty}>
+              아직 체중 기록이 없어요. 오늘 수치를 입력해보세요.
+            </Text>
+          </View>
+        ) : (
+          <View style={styles.weightSummaryCard}>
+            <View style={styles.weightSummaryRow}>
+              <Text style={styles.weightSummaryLabel}>기록 수</Text>
+              <Text style={styles.weightSummaryValue}>{sortedWeightLogs.length}일</Text>
+            </View>
+            <View style={styles.weightSummaryRow}>
+              <Text style={styles.weightSummaryLabel}>시작</Text>
+              <Text style={styles.weightSummaryValue}>
+                {firstWeightLog ? `${firstWeightLog.weightKg.toFixed(1)}kg` : '-'}
+              </Text>
+            </View>
+            <View style={styles.weightSummaryRow}>
+              <Text style={styles.weightSummaryLabel}>현재</Text>
+              <Text style={styles.weightSummaryValue}>
+                {latestWeightLog ? `${latestWeightLog.weightKg.toFixed(1)}kg` : '-'}
+              </Text>
+            </View>
+            <View style={styles.weightSummaryRow}>
+              <Text style={styles.weightSummaryLabel}>총 변화</Text>
+              <Text
+                style={[
+                  styles.weightSummaryValue,
+                  totalWeightDelta !== null && totalWeightDelta < 0 && styles.weightDeltaGood,
+                ]}
+              >
+                {formatDeltaText(totalWeightDelta)}
+              </Text>
+            </View>
+          </View>
+        )}
+
+        <View style={styles.weightInputRow}>
+          <View style={styles.weightInputMeta}>
+            <Text style={styles.rowLabel}>오늘 체중</Text>
+            <Text style={styles.weightInputHint}>{todayDate}</Text>
+          </View>
+          <TextInput
+            value={todayWeightInput}
+            onChangeText={setTodayWeightInput}
+            keyboardType="decimal-pad"
+            style={styles.weightInput}
+            placeholder="kg"
+            placeholderTextColor={colors.textSecondary}
+          />
+          <TouchableOpacity style={styles.weightSaveButton} onPress={handleSaveTodayWeight}>
+            <Text style={styles.weightSaveButtonText}>저장</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.weightInputRow}>
+          <View style={styles.weightInputMeta}>
+            <Text style={styles.rowLabel}>목표 체중</Text>
+            <Text style={styles.weightInputHint}>선택</Text>
+          </View>
+          <TextInput
+            value={goalWeightInput}
+            onChangeText={setGoalWeightInput}
+            keyboardType="decimal-pad"
+            style={styles.weightInput}
+            placeholder="kg"
+            placeholderTextColor={colors.textSecondary}
+          />
+          <TouchableOpacity style={styles.weightSaveButton} onPress={handleSaveGoalWeight}>
+            <Text style={styles.weightSaveButtonText}>저장</Text>
+          </TouchableOpacity>
+        </View>
+
+        {weightGoalKg !== null && (
+          <View style={styles.weightGoalRow}>
+            <Text style={styles.weightGoalText}>
+              목표 {weightGoalKg.toFixed(1)}kg
+              {latestWeightLog
+                ? ` · 차이 ${formatDeltaText(latestWeightLog.weightKg - weightGoalKg)}`
+                : ''}
+            </Text>
+            <TouchableOpacity onPress={handleClearGoalWeight}>
+              <Text style={styles.weightGoalClear}>지우기</Text>
+            </TouchableOpacity>
+          </View>
         )}
       </View>
 
@@ -467,6 +634,94 @@ const createStyles = (
     rowValueMuted: {
       color: colors.textSecondary,
       fontWeight: '400',
+    },
+    weightSummaryCard: {
+      backgroundColor: isDark ? '#1C1C1E' : '#fff',
+      borderColor: colors.border,
+      borderRadius: SIZES.borderRadius.md,
+      borderWidth: 1,
+      gap: SIZES.spacing.xs,
+      padding: SIZES.spacing.sm,
+    },
+    weightSummaryEmpty: {
+      color: colors.textSecondary,
+      fontSize: SIZES.fontSize.sm,
+      lineHeight: 20,
+    },
+    weightSummaryRow: {
+      alignItems: 'center',
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      paddingVertical: 2,
+    },
+    weightSummaryLabel: {
+      color: colors.textSecondary,
+      fontSize: SIZES.fontSize.sm,
+    },
+    weightSummaryValue: {
+      color: colors.text,
+      fontSize: SIZES.fontSize.md,
+      fontWeight: '600',
+    },
+    weightDeltaGood: {
+      color: '#16A34A',
+    },
+    weightInputRow: {
+      alignItems: 'center',
+      flexDirection: 'row',
+      gap: SIZES.spacing.sm,
+    },
+    weightInputMeta: {
+      flex: 1,
+      minWidth: 0,
+    },
+    weightInputHint: {
+      color: colors.textSecondary,
+      fontSize: SIZES.fontSize.xs,
+      marginTop: 2,
+    },
+    weightInput: {
+      backgroundColor: isDark ? '#1C1C1E' : '#fff',
+      borderColor: colors.border,
+      borderRadius: SIZES.borderRadius.md,
+      borderWidth: 1,
+      color: colors.text,
+      fontSize: SIZES.fontSize.md,
+      minWidth: 80,
+      paddingHorizontal: SIZES.spacing.sm,
+      paddingVertical: SIZES.spacing.xs,
+      textAlign: 'right',
+    },
+    weightSaveButton: {
+      alignItems: 'center',
+      backgroundColor: colors.primary,
+      borderRadius: SIZES.borderRadius.md,
+      justifyContent: 'center',
+      minWidth: 62,
+      paddingHorizontal: SIZES.spacing.sm,
+      paddingVertical: SIZES.spacing.sm,
+    },
+    weightSaveButtonText: {
+      color: '#fff',
+      fontSize: SIZES.fontSize.sm,
+      fontWeight: '600',
+    },
+    weightGoalRow: {
+      alignItems: 'center',
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+    },
+    weightGoalText: {
+      color: colors.textSecondary,
+      flex: 1,
+      fontSize: SIZES.fontSize.sm,
+    },
+    weightGoalClear: {
+      color: colors.textSecondary,
+      fontSize: SIZES.fontSize.sm,
+      fontWeight: '500',
+      paddingHorizontal: SIZES.spacing.sm,
+      paddingVertical: SIZES.spacing.xs,
     },
     clearDateButton: {
       flexDirection: 'row',
