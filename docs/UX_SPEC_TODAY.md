@@ -1,6 +1,6 @@
 # UX_SPEC_TODAY
 
-Updated: 2026-02-24  
+Updated: 2026-02-25  
 Scope: `app/(tabs)/index.tsx` and Today related components  
 Goal: Make Today screen the single daily cockpit
 
@@ -13,18 +13,20 @@ Priority loops:
 1. Ultra-fast capture (within 3 seconds).
 2. Execution focus (Top3 + Next1).
 3. Closing loop (carry-over + short reflection + tomorrow prep).
-4. Mini reset loop (30-45s boost, then immediate Next1 start).
+4. Critical date recall (wedding D-day in 2 seconds).
+5. Mini reset loop (30-45s boost, then immediate Next1 start).
 
 ## 2) Information Architecture (Today only)
 
 Order from top to bottom:
 
 1. `TodayHeaderCompact`
-2. `QuickCaptureStrip`
-3. `Top3Next1Card`
-4. `MiniResetChip` (inside Top3 block footer)
-5. `ClosingLoopCard` (shown stronger in evening)
-6. `TimelinePreview` (collapsed default)
+2. `DdayBadgeCard` (optional if date configured)
+3. `QuickCaptureStrip`
+4. `Top3Next1Card`
+5. `MiniResetChip` (inside Top3 block footer)
+6. `ClosingLoopCard` (shown stronger in evening)
+7. `TimelinePreview` (collapsed default)
 
 Non-goal for this iteration:
 
@@ -62,6 +64,13 @@ Non-goal for this iteration:
 2. User completes one short game round (<= 45 seconds).
 3. Result card shows one primary CTA: `Next1 시작`.
 4. User returns to Today task context and starts execution.
+
+### Flow E: D-day quick recall
+
+1. User sets wedding date in Settings once.
+2. User opens Today.
+3. D-day appears in header area immediately.
+4. User can verify critical date status in <= 2 seconds.
 
 ## 4) Wireframe (Text)
 
@@ -195,6 +204,25 @@ Rules:
 1. Round duration must be <= 45 seconds.
 2. Completed state must always show `Next1 시작` first.
 3. Optional secondary CTA can be `다시 리셋`, never primary.
+
+## 5.6 DdayBadgeCard
+
+Core copy:
+
+- Label: `결혼`
+- Value: `D-128` / `D-day` / `D+3`
+- Empty fallback: no card
+
+States:
+
+1. Hidden: date not configured.
+2. Active: date configured and computed.
+3. Error fallback: hide card and keep header stable.
+
+Rules:
+
+1. Must not block existing header actions.
+2. Use local date midnight for D-day calculation.
 
 ## 6) Interaction and Visual Rules
 
