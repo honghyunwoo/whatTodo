@@ -10,6 +10,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { exportBackup, restoreBackup, BACKUP_SCHEMA_VERSION, BackupPayload } from '@/utils/backup';
 import { STORAGE_KEYS } from '@/constants/storage';
 
+const USER_STORE_KEY = STORAGE_KEYS.REWARDS + '_user';
+
 // Mock stores
 jest.mock('@/store/journalStore', () => ({
   useJournalStore: {
@@ -33,6 +35,15 @@ jest.mock('@/store/diaryStore', () => ({
       rehydrate: jest.fn(),
     },
   },
+}));
+
+jest.mock('@/store/userStore', () => ({
+  useUserStore: {
+    persist: {
+      rehydrate: jest.fn(),
+    },
+  },
+  USER_STORE_STORAGE_KEY: '@whatTodo:rewards_user',
 }));
 
 jest.mock('@/store/learnStore', () => ({
@@ -63,6 +74,7 @@ describe('백업 시스템', () => {
       await AsyncStorage.setItem(STORAGE_KEYS.TASKS, JSON.stringify({ tasks: [] }));
       await AsyncStorage.setItem(STORAGE_KEYS.JOURNAL, JSON.stringify({ entries: [] }));
       await AsyncStorage.setItem(STORAGE_KEYS.DIARY, JSON.stringify({ entries: [] }));
+      await AsyncStorage.setItem(USER_STORE_KEY, JSON.stringify({ weddingDate: '2026-12-12' }));
 
       const backup = await exportBackup();
 
@@ -84,6 +96,7 @@ describe('백업 시스템', () => {
       await AsyncStorage.setItem(STORAGE_KEYS.DIARY, JSON.stringify({ entries: [] }));
       await AsyncStorage.setItem(STORAGE_KEYS.LEARN_PROGRESS, JSON.stringify({ progress: [] }));
       await AsyncStorage.setItem(STORAGE_KEYS.SRS, JSON.stringify({ words: [] }));
+      await AsyncStorage.setItem(USER_STORE_KEY, JSON.stringify({ weddingDate: '2026-12-12' }));
       await AsyncStorage.setItem(STORAGE_KEYS.SETTINGS, JSON.stringify({ theme: 'light' }));
 
       const backup = await exportBackup();
@@ -94,6 +107,7 @@ describe('백업 시스템', () => {
       expect(backup.data[STORAGE_KEYS.DIARY]).toBeDefined();
       expect(backup.data[STORAGE_KEYS.LEARN_PROGRESS]).toBeDefined();
       expect(backup.data[STORAGE_KEYS.SRS]).toBeDefined();
+      expect(backup.data[USER_STORE_KEY]).toBeDefined();
       expect(backup.data[STORAGE_KEYS.SETTINGS]).toBeDefined();
     });
 
@@ -105,6 +119,7 @@ describe('백업 시스템', () => {
       expect(backup.data[STORAGE_KEYS.TASKS]).toBeNull();
       expect(backup.data[STORAGE_KEYS.JOURNAL]).toBeNull();
       expect(backup.data[STORAGE_KEYS.DIARY]).toBeNull();
+      expect(backup.data[USER_STORE_KEY]).toBeNull();
     });
 
     it('timestamp는 ISO 8601 형식', async () => {
@@ -129,6 +144,7 @@ describe('백업 시스템', () => {
           [STORAGE_KEYS.DIARY]: JSON.stringify({ entries: [] }),
           [STORAGE_KEYS.LEARN_PROGRESS]: null,
           [STORAGE_KEYS.SRS]: null,
+          [USER_STORE_KEY]: JSON.stringify({ weddingDate: '2026-12-12' }),
           [STORAGE_KEYS.SETTINGS]: null,
         },
       };
@@ -156,6 +172,7 @@ describe('백업 시스템', () => {
           [STORAGE_KEYS.DIARY]: null,
           [STORAGE_KEYS.LEARN_PROGRESS]: null,
           [STORAGE_KEYS.SRS]: null,
+          [USER_STORE_KEY]: null,
           [STORAGE_KEYS.SETTINGS]: null,
         },
       };
@@ -184,6 +201,7 @@ describe('백업 시스템', () => {
           [STORAGE_KEYS.DIARY]: null,
           [STORAGE_KEYS.LEARN_PROGRESS]: null,
           [STORAGE_KEYS.SRS]: null,
+          [USER_STORE_KEY]: null,
           [STORAGE_KEYS.SETTINGS]: null,
         },
       };
@@ -227,6 +245,7 @@ describe('백업 시스템', () => {
           [STORAGE_KEYS.DIARY]: null,
           [STORAGE_KEYS.LEARN_PROGRESS]: null,
           [STORAGE_KEYS.SRS]: null,
+          [USER_STORE_KEY]: null,
           [STORAGE_KEYS.SETTINGS]: null,
         },
       };
