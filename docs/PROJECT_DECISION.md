@@ -1,6 +1,6 @@
 # PROJECT_DECISION
 
-Updated: 2026-02-24  
+Updated: 2026-02-25  
 Owner: hynoo (solo)  
 Mode: One ACTIVE project for 90 days
 
@@ -62,26 +62,26 @@ You split execution context into 4 projects. Each project has value, but daily u
 
 ## 4) This Week One Metric
 
-Metric name: `Capture-3s Success Rate`  
-Definition: ratio of Today quick-capture attempts completed within 3 seconds (tap input -> `저장됨`).  
-Target this week: `>= 80%` on personal daily usage.
+Metric name: `Critical Date Recall Time`  
+Definition: app open -> wedding D-day recognition time on Today.  
+Target this week: `<= 2초` (manual 10/10).
 
 Guardrails:
 
-1. Photo attach save success must stay at 100% (no crash/data loss).
+1. Date calculation must remain correct across timezone/day boundary.
 2. No new production dependency.
 3. Existing todo/learn/diary flow must remain intact.
 
 Trial guide:
 
-1. `docs/execution/CAPTURE_3S_TRIAL_RUNBOOK.md`
+1. `docs/execution/DDAY_TOP1_IMPLEMENTATION_2026-02-25.md`
 2. `docs/execution/TODO_DIARY_PHOTO_IMPLEMENTATION_2026-02-24.md`
 
 ## 5) Sprint Backlog (2 Weeks Top10)
 
-1. Today 3초 캡처 버튼/입력 흐름 최적화.
-2. Diary 사진 첨부(갤러리 선택 + 썸네일 + 삭제) 추가.
-3. 백업/복원에 diary key 포함 (기존 백업 호환 유지).
+1. 결혼 D-day 설정 + Today 즉시 표시.
+2. 백업/복원에 user key 포함 (중요 날짜 보존).
+3. Today 3초 캡처 버튼/입력 흐름 최적화.
 4. Top3 + Next1 고정 영역 가시성 강화.
 5. 일기 3줄 회고 템플릿 개선.
 6. 투두 상세의 불필요 탭/입력 단순화.
@@ -92,27 +92,26 @@ Trial guide:
 
 ### This Week Top1 Improvement
 
-Top1: `Today Quick Capture + Diary Photo Attach` (3초 캡처 + 사진 첨부 안정성).
+Top1: `Wedding D-day Quick Recall` (설정 1회 + Today 즉시 확인).
 
 Execution reference:
 
-1. `docs/execution/TODO_DIARY_PHOTO_IMPLEMENTATION_2026-02-24.md`
+1. `docs/execution/DDAY_TOP1_IMPLEMENTATION_2026-02-25.md`
 
 ## 6) Verification Scenario (Reproduce/Validate)
 
 ### Reproduce current pain
 
-1. Open Settings -> Routine Island.
-2. Run one settlement session (claim + one upgrade).
-3. Observe session duration and flow clarity.
-4. Return to Today and check whether Next1 starts immediately.
+1. Open Today.
+2. Try to check wedding D-day.
+3. Confirm no immediate information path.
 
 ### Validate target behavior
 
-1. Open Today -> `섬 정산` entry.
-2. Finish one settlement session in <= 90 seconds.
-3. Tap `Next1 시작` from result screen.
-4. Confirm Next1 starts within 60 seconds and app remains stable.
+1. Open Settings -> set `결혼 날짜`.
+2. Return to Today and confirm `결혼 D-xxx` appears.
+3. Restart app and confirm persistence.
+4. Export/import backup and confirm D-day preserved.
 
 ### Commands for quality checks
 
@@ -132,26 +131,25 @@ npm run web
 
 ## 7) Issue/PR Plan (Small + Safe)
 
-### Issue 1 / PR-1: Diary Photo Attach (No New Dependency)
+### Issue 1 / PR-1: D-day Model + Backup Safety
 
-- Scope: diary entry photo attach + preview + remove + save.
-- LOC target: <= 300.
-- DoD:
-  - User can attach at least one image from gallery.
-  - Saved entry preserves photo list after app restart.
-  - Existing entries without photos remain readable.
-- Rollback:
-  - `git revert` PR commit.
-  - Optional `photos` field ignored safely.
-
-### Issue 2 / PR-2: Backup Compatibility for Diary Key
-
-- Scope: include diary storage key in backup export/restore and tests.
+- Scope: `userStore` important date field + backup key/rehydrate + utility.
 - LOC target: <= 220.
 - DoD:
-  - Export includes diary key.
-  - Restore works with legacy backup (without diary key).
-  - Restore works with new backup (with photo metadata).
+  - Wedding date persists locally.
+  - Backup restore keeps wedding date.
+  - Legacy backup remains compatible.
 - Rollback:
   - `git revert` PR commit.
-  - Existing schemaVersion kept (backward compatible).
+  - Optional field ignored safely.
+
+### Issue 2 / PR-2: Settings + Today D-day UX
+
+- Scope: date picker in settings + compact D-day card in header.
+- LOC target: <= 220.
+- DoD:
+  - Date set/clear works.
+  - Today header shows D-day immediately.
+  - No layout break on small devices.
+- Rollback:
+  - `git revert` PR commit.
