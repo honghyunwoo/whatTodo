@@ -73,6 +73,7 @@ export default function SettingsScreen() {
   const [isExporting, setIsExporting] = useState(false);
   const [isImporting, setIsImporting] = useState(false);
   const [showBackupInput, setShowBackupInput] = useState(false);
+  const [showAdvancedSections, setShowAdvancedSections] = useState(false);
   const [todayWeightInput, setTodayWeightInput] = useState('');
   const [goalWeightInput, setGoalWeightInput] = useState('');
 
@@ -521,66 +522,98 @@ export default function SettingsScreen() {
         </View>
       </View>
 
-      {/* 백업 & 복원 */}
+      {/* 고급 설정 토글 */}
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>백업 & 복원</Text>
-        <Text style={styles.sectionSubtitle}>
-          오프라인에서도 JSON으로 데이터를 보관하고 복원할 수 있습니다.
-        </Text>
-
         <TouchableOpacity
-          style={[styles.button, isExporting && styles.buttonDisabled]}
-          onPress={handleExport}
-          disabled={isExporting || isImporting}
+          style={styles.advancedToggleRow}
+          onPress={() => setShowAdvancedSections((prev) => !prev)}
         >
-          <Ionicons name="cloud-upload-outline" size={20} color="#fff" />
-          <Text style={styles.buttonText}>{isExporting ? '내보내는 중...' : '백업 내보내기'}</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          style={[styles.button, styles.buttonSecondary]}
-          onPress={() => setShowBackupInput(!showBackupInput)}
-        >
-          <Ionicons name="cloud-download-outline" size={20} color={colors.primary} />
-          <Text style={[styles.buttonText, styles.buttonTextSecondary]}>백업 불러오기</Text>
-        </TouchableOpacity>
-
-        {showBackupInput && (
-          <View style={styles.backupInputContainer}>
-            <TextInput
-              multiline
-              value={backupText}
-              onChangeText={setBackupText}
-              style={styles.input}
-              placeholder="여기에 백업 JSON을 붙여주세요"
-              placeholderTextColor={colors.textSecondary}
-              textAlignVertical="top"
-            />
-            <TouchableOpacity
-              style={[styles.button, isImporting && styles.buttonDisabled]}
-              onPress={handleImport}
-              disabled={isImporting}
-            >
-              <Text style={styles.buttonText}>{isImporting ? '복원 중...' : '복원하기'}</Text>
-            </TouchableOpacity>
-          </View>
-        )}
-      </View>
-
-      {/* 미니게임 */}
-      <View style={styles.section}>
-        <Text style={styles.sectionTitle}>미니게임</Text>
-        <TouchableOpacity style={styles.gameRow} onPress={() => router.push('/game')}>
           <View style={styles.rowLeft}>
-            <Ionicons name="game-controller-outline" size={22} color={colors.primary} />
-            <View>
-              <Text style={styles.rowLabel}>2048</Text>
-              <Text style={styles.gameSubtitle}>숫자를 합쳐 2048을 만들어보세요!</Text>
+            <Ionicons name="options-outline" size={22} color={colors.primary} />
+            <View style={styles.advancedToggleInfo}>
+              <Text style={styles.advancedToggleTitle}>고급 설정</Text>
+              <Text style={styles.advancedToggleSubtitle}>백업, 미니게임</Text>
             </View>
           </View>
-          <Ionicons name="chevron-forward" size={20} color={colors.textSecondary} />
+          <View style={styles.advancedToggleRight}>
+            <Text style={styles.advancedToggleText}>
+              {showAdvancedSections ? '접기' : '펼치기'}
+            </Text>
+            <Ionicons
+              name={showAdvancedSections ? 'chevron-up' : 'chevron-down'}
+              size={18}
+              color={colors.textSecondary}
+            />
+          </View>
         </TouchableOpacity>
       </View>
+
+      {showAdvancedSections && (
+        <>
+          {/* 백업 & 복원 */}
+          <View style={styles.section}>
+            <Text style={styles.sectionTitle}>백업 & 복원</Text>
+            <Text style={styles.sectionSubtitle}>
+              오프라인에서도 JSON으로 데이터를 보관하고 복원할 수 있습니다.
+            </Text>
+
+            <TouchableOpacity
+              style={[styles.button, isExporting && styles.buttonDisabled]}
+              onPress={handleExport}
+              disabled={isExporting || isImporting}
+            >
+              <Ionicons name="cloud-upload-outline" size={20} color="#fff" />
+              <Text style={styles.buttonText}>
+                {isExporting ? '내보내는 중...' : '백업 내보내기'}
+              </Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity
+              style={[styles.button, styles.buttonSecondary]}
+              onPress={() => setShowBackupInput(!showBackupInput)}
+            >
+              <Ionicons name="cloud-download-outline" size={20} color={colors.primary} />
+              <Text style={[styles.buttonText, styles.buttonTextSecondary]}>백업 불러오기</Text>
+            </TouchableOpacity>
+
+            {showBackupInput && (
+              <View style={styles.backupInputContainer}>
+                <TextInput
+                  multiline
+                  value={backupText}
+                  onChangeText={setBackupText}
+                  style={styles.input}
+                  placeholder="여기에 백업 JSON을 붙여주세요"
+                  placeholderTextColor={colors.textSecondary}
+                  textAlignVertical="top"
+                />
+                <TouchableOpacity
+                  style={[styles.button, isImporting && styles.buttonDisabled]}
+                  onPress={handleImport}
+                  disabled={isImporting}
+                >
+                  <Text style={styles.buttonText}>{isImporting ? '복원 중...' : '복원하기'}</Text>
+                </TouchableOpacity>
+              </View>
+            )}
+          </View>
+
+          {/* 미니게임 */}
+          <View style={styles.section}>
+            <Text style={styles.sectionTitle}>미니게임</Text>
+            <TouchableOpacity style={styles.gameRow} onPress={() => router.push('/game')}>
+              <View style={styles.rowLeft}>
+                <Ionicons name="game-controller-outline" size={22} color={colors.primary} />
+                <View>
+                  <Text style={styles.rowLabel}>2048</Text>
+                  <Text style={styles.gameSubtitle}>숫자를 합쳐 2048을 만들어보세요!</Text>
+                </View>
+              </View>
+              <Ionicons name="chevron-forward" size={20} color={colors.textSecondary} />
+            </TouchableOpacity>
+          </View>
+        </>
+      )}
 
       {/* 앱 정보 */}
       <View style={styles.section}>
@@ -632,6 +665,34 @@ const createStyles = (
       fontSize: SIZES.fontSize.sm,
       color: colors.textSecondary,
       marginBottom: SIZES.spacing.sm,
+    },
+    advancedToggleRow: {
+      alignItems: 'center',
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      minHeight: 52,
+    },
+    advancedToggleInfo: {
+      gap: 2,
+    },
+    advancedToggleTitle: {
+      color: colors.text,
+      fontSize: SIZES.fontSize.md,
+      fontWeight: '600',
+    },
+    advancedToggleSubtitle: {
+      color: colors.textSecondary,
+      fontSize: SIZES.fontSize.sm,
+    },
+    advancedToggleRight: {
+      alignItems: 'center',
+      flexDirection: 'row',
+      gap: SIZES.spacing.xs,
+    },
+    advancedToggleText: {
+      color: colors.textSecondary,
+      fontSize: SIZES.fontSize.sm,
+      fontWeight: '500',
     },
     row: {
       flexDirection: 'row',

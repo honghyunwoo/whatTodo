@@ -38,6 +38,7 @@ Goal: 기능은 풍성하게 유지하면서도 Today에서 80%를 빠르게 끝
 2. 백업/복구
 3. 중요한 날짜(D-day)
 4. 확장 기능(체중 추적 등)은 별도 섹션
+5. 고급 기능(백업/실험)은 기본 진입에서 접기(Progressive disclosure)
 
 ## 4) Core User Flows
 
