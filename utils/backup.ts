@@ -5,6 +5,7 @@ import * as Sharing from 'expo-sharing';
 
 import appConfig from '@/app.json';
 import { STORAGE_KEYS } from '@/constants/storage';
+import { useDiaryStore } from '@/store/diaryStore';
 import { useJournalStore } from '@/store/journalStore';
 import { useLearnStore } from '@/store/learnStore';
 import { useSrsStore } from '@/store/srsStore';
@@ -15,6 +16,7 @@ import { BackupError } from '@/utils/errorHandler';
 
 const BACKUP_KEYS = [
   STORAGE_KEYS.JOURNAL,
+  STORAGE_KEYS.DIARY,
   STORAGE_KEYS.TASKS,
   STORAGE_KEYS.LEARN_PROGRESS,
   STORAGE_KEYS.SRS,
@@ -121,6 +123,7 @@ export async function restoreBackup(input: string | BackupPayload): Promise<void
 export async function rehydratePersistedStores(): Promise<void> {
   await Promise.all([
     useJournalStore.persist?.rehydrate?.(),
+    useDiaryStore.persist?.rehydrate?.(),
     useTaskStore.persist?.rehydrate?.(),
     useLearnStore.persist?.rehydrate?.(),
     useSrsStore.persist?.rehydrate?.(),
