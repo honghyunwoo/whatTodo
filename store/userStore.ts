@@ -18,6 +18,8 @@ export interface ReminderSettings {
   minute: number;
 }
 
+export const USER_STORE_STORAGE_KEY = STORAGE_KEYS.REWARDS + '_user';
+
 const getNotificationService = async () => {
   const mod = await import('@/services/notificationService');
   return mod.notificationService;
@@ -39,6 +41,7 @@ interface UserState {
   notificationsEnabled: boolean;
   soundEnabled: boolean;
   hapticEnabled: boolean;
+  weddingDate: string | null; // YYYY-MM-DD
 
   // 알림 설정
   reminderSettings: ReminderSettings;
@@ -62,6 +65,7 @@ interface UserActions {
   toggleNotifications: () => void;
   toggleSound: () => void;
   toggleHaptic: () => void;
+  setWeddingDate: (date: string | null) => void;
 
   // 알림 설정
   setReminderSettings: (settings: ReminderSettings) => Promise<void>;
@@ -92,6 +96,7 @@ const DEFAULT_STATE: UserState = {
   notificationsEnabled: true,
   soundEnabled: true,
   hapticEnabled: true,
+  weddingDate: null,
   reminderSettings: {
     enabled: true,
     hour: 9, // 오전 9시 기본값
@@ -170,6 +175,13 @@ export const useUserStore = create<UserState & UserActions>()(
        */
       toggleHaptic: () => {
         set((state) => ({ hapticEnabled: !state.hapticEnabled }));
+      },
+
+      /**
+       * 결혼 날짜 설정
+       */
+      setWeddingDate: (date: string | null) => {
+        set({ weddingDate: date });
       },
 
       /**
@@ -298,7 +310,7 @@ export const useUserStore = create<UserState & UserActions>()(
       },
     }),
     {
-      name: STORAGE_KEYS.REWARDS + '_user',
+      name: USER_STORE_STORAGE_KEY,
       storage: createJSONStorage(() => AsyncStorage),
       onRehydrateStorage: () => (state, error) => {
         if (error) {
