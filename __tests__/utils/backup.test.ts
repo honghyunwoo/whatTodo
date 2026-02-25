@@ -29,6 +29,14 @@ jest.mock('@/store/taskStore', () => ({
   },
 }));
 
+jest.mock('@/store/diaryStore', () => ({
+  useDiaryStore: {
+    persist: {
+      rehydrate: jest.fn(),
+    },
+  },
+}));
+
 jest.mock('@/store/userStore', () => ({
   useUserStore: {
     persist: {
@@ -64,6 +72,7 @@ describe('백업 시스템', () => {
       // Setup: 일부 데이터 저장
       await AsyncStorage.setItem(STORAGE_KEYS.TASKS, JSON.stringify({ tasks: [] }));
       await AsyncStorage.setItem(STORAGE_KEYS.JOURNAL, JSON.stringify({ entries: [] }));
+      await AsyncStorage.setItem(STORAGE_KEYS.DIARY, JSON.stringify({ entries: [] }));
       await AsyncStorage.setItem(USER_STORE_KEY, JSON.stringify({ weddingDate: '2026-12-12' }));
 
       const backup = await exportBackup();
@@ -83,6 +92,7 @@ describe('백업 시스템', () => {
       // Setup
       await AsyncStorage.setItem(STORAGE_KEYS.TASKS, JSON.stringify({ tasks: [] }));
       await AsyncStorage.setItem(STORAGE_KEYS.JOURNAL, JSON.stringify({ entries: [] }));
+      await AsyncStorage.setItem(STORAGE_KEYS.DIARY, JSON.stringify({ entries: [] }));
       await AsyncStorage.setItem(STORAGE_KEYS.LEARN_PROGRESS, JSON.stringify({ progress: [] }));
       await AsyncStorage.setItem(STORAGE_KEYS.SRS, JSON.stringify({ words: [] }));
       await AsyncStorage.setItem(USER_STORE_KEY, JSON.stringify({ weddingDate: '2026-12-12' }));
@@ -93,6 +103,7 @@ describe('백업 시스템', () => {
       // 모든 키가 포함되어 있는지 확인
       expect(backup.data[STORAGE_KEYS.TASKS]).toBeDefined();
       expect(backup.data[STORAGE_KEYS.JOURNAL]).toBeDefined();
+      expect(backup.data[STORAGE_KEYS.DIARY]).toBeDefined();
       expect(backup.data[STORAGE_KEYS.LEARN_PROGRESS]).toBeDefined();
       expect(backup.data[STORAGE_KEYS.SRS]).toBeDefined();
       expect(backup.data[USER_STORE_KEY]).toBeDefined();
@@ -106,6 +117,7 @@ describe('백업 시스템', () => {
       // 모든 데이터가 null이어야 함
       expect(backup.data[STORAGE_KEYS.TASKS]).toBeNull();
       expect(backup.data[STORAGE_KEYS.JOURNAL]).toBeNull();
+      expect(backup.data[STORAGE_KEYS.DIARY]).toBeNull();
       expect(backup.data[USER_STORE_KEY]).toBeNull();
     });
 
@@ -128,6 +140,7 @@ describe('백업 시스템', () => {
         data: {
           [STORAGE_KEYS.TASKS]: JSON.stringify({ tasks: [{ id: '1', title: 'Test' }] }),
           [STORAGE_KEYS.JOURNAL]: JSON.stringify({ entries: [] }),
+          [STORAGE_KEYS.DIARY]: JSON.stringify({ entries: [] }),
           [STORAGE_KEYS.LEARN_PROGRESS]: null,
           [STORAGE_KEYS.SRS]: null,
           [USER_STORE_KEY]: JSON.stringify({ weddingDate: '2026-12-12' }),
@@ -155,6 +168,7 @@ describe('백업 시스템', () => {
         data: {
           [STORAGE_KEYS.TASKS]: JSON.stringify({ tasks: [] }),
           [STORAGE_KEYS.JOURNAL]: null,
+          [STORAGE_KEYS.DIARY]: null,
           [STORAGE_KEYS.LEARN_PROGRESS]: null,
           [STORAGE_KEYS.SRS]: null,
           [USER_STORE_KEY]: null,
@@ -183,6 +197,7 @@ describe('백업 시스템', () => {
         data: {
           [STORAGE_KEYS.TASKS]: null, // null로 복원
           [STORAGE_KEYS.JOURNAL]: null,
+          [STORAGE_KEYS.DIARY]: null,
           [STORAGE_KEYS.LEARN_PROGRESS]: null,
           [STORAGE_KEYS.SRS]: null,
           [USER_STORE_KEY]: null,
@@ -226,6 +241,7 @@ describe('백업 시스템', () => {
         data: {
           [STORAGE_KEYS.TASKS]: JSON.stringify({ tasks: [] }),
           [STORAGE_KEYS.JOURNAL]: null,
+          [STORAGE_KEYS.DIARY]: null,
           [STORAGE_KEYS.LEARN_PROGRESS]: null,
           [STORAGE_KEYS.SRS]: null,
           [USER_STORE_KEY]: null,
