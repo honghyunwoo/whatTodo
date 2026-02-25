@@ -1,6 +1,6 @@
 # UX_SPEC_TODAY
 
-Updated: 2026-02-24  
+Updated: 2026-02-25  
 Scope: `app/(tabs)/index.tsx` and Today related components  
 Goal: Make Today screen the single daily cockpit
 
@@ -13,16 +13,20 @@ Priority loops:
 1. Ultra-fast capture (within 3 seconds).
 2. Execution focus (Top3 + Next1).
 3. Closing loop (carry-over + short reflection + tomorrow prep).
+4. Critical date recall (wedding D-day in 2 seconds).
+5. Mini reset loop (30-45s boost, then immediate Next1 start).
 
 ## 2) Information Architecture (Today only)
 
 Order from top to bottom:
 
 1. `TodayHeaderCompact`
-2. `QuickCaptureStrip`
-3. `Top3Next1Card`
-4. `ClosingLoopCard` (shown stronger in evening)
-5. `TimelinePreview` (collapsed default)
+2. `DdayBadgeCard` (optional if date configured)
+3. `QuickCaptureStrip`
+4. `Top3Next1Card`
+5. `MiniResetChip` (inside Top3 block footer)
+6. `ClosingLoopCard` (shown stronger in evening)
+7. `TimelinePreview` (collapsed default)
 
 Non-goal for this iteration:
 
@@ -54,6 +58,20 @@ Non-goal for this iteration:
 3. User taps carry-over reason quickly.
 4. User writes one-line reflection and saves.
 
+### Flow D: Mini reset -> Next1
+
+1. User taps `30초 리셋` on Today.
+2. User completes one short game round (<= 45 seconds).
+3. Result card shows one primary CTA: `Next1 시작`.
+4. User returns to Today task context and starts execution.
+
+### Flow E: D-day quick recall
+
+1. User sets wedding date in Settings once.
+2. User opens Today.
+3. D-day appears in header area immediately.
+4. User can verify critical date status in <= 2 seconds.
+
 ## 4) Wireframe (Text)
 
 ```text
@@ -70,6 +88,7 @@ Non-goal for this iteration:
  3) ______ [완료] [미루기]
  Next1: ______
  [지금 시작]
+ [30초 리셋]
 
 [마감 루프]
  자동 이월 후보 n개
@@ -162,6 +181,49 @@ States:
 2. Expanded on user action.
 3. Error fallback message if rendering fails.
 
+## 5.5 MiniResetChip
+
+Core copy:
+
+- Label: `30초 리셋`
+- Helper: `머리 비우고 바로 Next1로`
+- Result title: `리셋 완료`
+- Result CTA: `Next1 시작`
+- Error: `리셋 실행에 실패했어요. 다시 시도해주세요`
+
+States:
+
+1. Hidden: no Next1 candidate.
+2. Ready: Next1 exists.
+3. Running: timer active.
+4. Completed: result + one CTA.
+5. Error: fallback toast + retry.
+
+Rules:
+
+1. Round duration must be <= 45 seconds.
+2. Completed state must always show `Next1 시작` first.
+3. Optional secondary CTA can be `다시 리셋`, never primary.
+
+## 5.6 DdayBadgeCard
+
+Core copy:
+
+- Label: `결혼`
+- Value: `D-128` / `D-day` / `D+3`
+- Empty fallback: no card
+
+States:
+
+1. Hidden: date not configured.
+2. Active: date configured and computed.
+3. Error fallback: hide card and keep header stable.
+
+Rules:
+
+1. Must not block existing header actions.
+2. Use local date midnight for D-day calculation.
+
 ## 6) Interaction and Visual Rules
 
 1. Above fold must include capture + Top3/Next1.
@@ -169,6 +231,7 @@ States:
 3. Touch targets >= 44x44.
 4. Korean copy is action-first and short.
 5. Keep current theme tokens; reduce decorative noise on Today.
+6. Mini reset is support feature, never blocks core Today actions.
 
 ## 7) Acceptance Criteria
 
@@ -176,6 +239,7 @@ States:
 2. User can identify Top3 and Next1 without scrolling.
 3. End-of-day carry-over + reflection can be done within 30 seconds.
 4. Each key block has explicit loading/empty/error copy.
+5. Mini reset completion must allow Next1 start within 60 seconds.
 
 ## 8) Validation Scenario
 
@@ -183,7 +247,8 @@ States:
 2. Add 5 tasks and pin Top3.
 3. Complete Next1 and verify auto-next assignment.
 4. Simulate end-of-day and complete carry-over + reflection.
-5. Reopen app and verify state persistence.
+5. Trigger mini reset and confirm `Next1 시작` flow.
+6. Reopen app and verify state persistence.
 
 Commands:
 
