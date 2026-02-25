@@ -186,6 +186,10 @@ export function EntryCard({ entry, index = 0 }: EntryCardProps) {
             {diaryEntry.content}
           </Text>
 
+          {diaryEntry.photos && diaryEntry.photos.length > 0 && (
+            <Text style={styles.photoMeta}>📷 사진 {diaryEntry.photos.length}장</Text>
+          )}
+
           {/* 태그 */}
           {diaryEntry.tags && diaryEntry.tags.length > 0 && (
             <View style={styles.tags}>
@@ -312,6 +316,11 @@ const styles = StyleSheet.create({
     fontSize: TYPOGRAPHY.size.md,
     lineHeight: 22,
     color: PALETTE.ink.dark,
+  },
+  photoMeta: {
+    color: PALETTE.ink.light,
+    fontSize: TYPOGRAPHY.size.xs,
+    marginTop: SPACE.xs,
   },
   tags: {
     flexDirection: 'row',

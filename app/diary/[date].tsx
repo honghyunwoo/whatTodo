@@ -8,11 +8,13 @@ import {
   Alert,
   KeyboardAvoidingView,
   Platform,
+  Image,
 } from 'react-native';
 import { Text, Button, IconButton, Chip } from 'react-native-paper';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
+import * as DocumentPicker from 'expo-document-picker';
 
 import { useTheme } from '@/contexts/ThemeContext';
 import { COLORS } from '@/constants/colors';
@@ -23,8 +25,10 @@ import {
   MOOD_CONFIG,
   getTodayPrompt,
   LearningRecord,
+  DiaryPhoto,
 } from '@/store/diaryStore';
 import { todoHaptics } from '@/services/hapticService';
+import { generateId } from '@/utils/id';
 
 const MOOD_TYPES: MoodType[] = [
   'happy',
@@ -91,6 +95,7 @@ export default function DiaryScreen() {
   const [content, setContent] = useState(existingEntry?.content || '');
   const [mood, setMood] = useState<MoodType | undefined>(existingEntry?.mood);
   const [tags, setTags] = useState<string[]>(existingEntry?.tags || []);
+  const [photos, setPhotos] = useState<DiaryPhoto[]>(existingEntry?.photos || []);
   const [newTag, setNewTag] = useState('');
   const [showPrompt, setShowPrompt] = useState(!isEditMode && !content);
 
@@ -102,6 +107,7 @@ export default function DiaryScreen() {
       setContent(existingEntry.content);
       setMood(existingEntry.mood);
       setTags(existingEntry.tags || []);
+      setPhotos(existingEntry.photos || []);
     }
   }, [existingEntry]);
 
@@ -120,6 +126,7 @@ export default function DiaryScreen() {
         content: content.trim(),
         mood,
         tags: tags.length > 0 ? tags : undefined,
+        photos: photos.length > 0 ? photos : undefined,
       });
     } else {
       addEntry({
@@ -128,10 +135,23 @@ export default function DiaryScreen() {
         content: content.trim(),
         mood,
         tags: tags.length > 0 ? tags : undefined,
+        photos: photos.length > 0 ? photos : undefined,
       });
     }
     router.back();
-  }, [date, title, content, mood, tags, isEditMode, existingEntry, addEntry, updateEntry, router]);
+  }, [
+    date,
+    title,
+    content,
+    mood,
+    tags,
+    photos,
+    isEditMode,
+    existingEntry,
+    addEntry,
+    updateEntry,
+    router,
+  ]);
 
   const handleDelete = useCallback(async () => {
     if (!existingEntry) return;
@@ -172,6 +192,45 @@ export default function DiaryScreen() {
     },
     [tags]
   );
+
+  const handlePickPhoto = useCallback(async () => {
+    if (photos.length >= 5) {
+      Alert.alert('사진 제한', '사진은 최대 5장까지 첨부할 수 있어요.');
+      return;
+    }
+
+    try {
+      const result = await DocumentPicker.getDocumentAsync({
+        type: 'image/*',
+        copyToCacheDirectory: true,
+        multiple: false,
+      });
+
+      if (result.canceled || !result.assets || result.assets.length === 0) {
+        return;
+      }
+
+      const asset = result.assets[0];
+      setPhotos((prev) => [
+        ...prev,
+        {
+          id: generateId(),
+          uri: asset.uri,
+          fileName: asset.name,
+          mimeType: asset.mimeType ?? undefined,
+          size: asset.size,
+          addedAt: new Date().toISOString(),
+        },
+      ]);
+    } catch (error) {
+      console.error('[Diary] image pick failed:', error);
+      Alert.alert('오류', '이미지 선택에 실패했어요. 다시 시도해주세요.');
+    }
+  }, [photos.length]);
+
+  const handleRemovePhoto = useCallback((photoId: string) => {
+    setPhotos((prev) => prev.filter((photo) => photo.id !== photoId));
+  }, []);
 
   if (!date) {
     return (
@@ -297,6 +356,50 @@ export default function DiaryScreen() {
               multiline
               textAlignVertical="top"
             />
+          </View>
+
+          <View
+            style={[
+              styles.photoSection,
+              { backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF' },
+              !isDark && SHADOWS.sm,
+            ]}
+          >
+            <View style={styles.photoHeader}>
+              <Text style={[styles.sectionLabel, { color: colors.textSecondary, marginBottom: 0 }]}>
+                사진 첨부
+              </Text>
+              <Button
+                mode="contained-tonal"
+                onPress={handlePickPhoto}
+                icon={() => <Ionicons name="image-outline" size={16} color={colors.primary} />}
+                compact
+              >
+                사진 추가
+              </Button>
+            </View>
+
+            {photos.length === 0 ? (
+              <Text style={[styles.photoHint, { color: colors.textSecondary }]}>
+                첨부된 사진이 없습니다
+              </Text>
+            ) : (
+              <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+                <View style={styles.photoList}>
+                  {photos.map((photo) => (
+                    <View key={photo.id} style={styles.photoItem}>
+                      <Image source={{ uri: photo.uri }} style={styles.photoImage} />
+                      <Pressable
+                        onPress={() => handleRemovePhoto(photo.id)}
+                        style={styles.removePhotoButton}
+                      >
+                        <Ionicons name="close-circle" size={18} color="#FF3B30" />
+                      </Pressable>
+                    </View>
+                  ))}
+                </View>
+              </ScrollView>
+            )}
           </View>
 
           {existingEntry?.learningRecords && existingEntry.learningRecords.length > 0 && (
@@ -611,6 +714,43 @@ const styles = StyleSheet.create({
   titleInput: {
     fontSize: SIZES.fontSize.xl,
     fontWeight: '600',
+  },
+  photoSection: {
+    borderRadius: SIZES.borderRadius.lg,
+    marginBottom: SIZES.spacing.md,
+    padding: SIZES.spacing.md,
+  },
+  photoHeader: {
+    alignItems: 'center',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: SIZES.spacing.sm,
+  },
+  photoHint: {
+    fontSize: SIZES.fontSize.sm,
+  },
+  photoList: {
+    flexDirection: 'row',
+    gap: SIZES.spacing.sm,
+    paddingRight: SIZES.spacing.sm,
+  },
+  photoItem: {
+    borderRadius: SIZES.borderRadius.md,
+    height: 84,
+    overflow: 'hidden',
+    position: 'relative',
+    width: 84,
+  },
+  photoImage: {
+    height: '100%',
+    width: '100%',
+  },
+  removePhotoButton: {
+    backgroundColor: 'rgba(255,255,255,0.9)',
+    borderRadius: 10,
+    position: 'absolute',
+    right: 4,
+    top: 4,
   },
   // Learning section styles
   learningSection: {

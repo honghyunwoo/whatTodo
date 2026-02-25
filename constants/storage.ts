@@ -1,5 +1,6 @@
 export const STORAGE_KEYS = {
   JOURNAL: '@whatTodo:journal',
+  DIARY: '@whatTodo:diary',
   TASKS: '@whatTodo:tasks',
   LEARN_PROGRESS: '@whatTodo:learn_progress',
   SRS: '@whatTodo:srs',

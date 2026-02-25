@@ -80,7 +80,12 @@ export default function RecordsScreen() {
         date: entry.date,
         type: 'diary',
         title: entry.content.slice(0, 50) + (entry.content.length > 50 ? '...' : ''),
-        subtitle: entry.mood ? `기분: ${entry.mood}` : undefined,
+        subtitle:
+          entry.photos && entry.photos.length > 0
+            ? `사진 ${entry.photos.length}장`
+            : entry.mood
+              ? `기분: ${entry.mood}`
+              : undefined,
         emoji: '📝',
       });
     });
