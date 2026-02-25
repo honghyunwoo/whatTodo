@@ -11,6 +11,7 @@ import { createJSONStorage, persist } from 'zustand/middleware';
 
 import { STORAGE_KEYS } from '@/constants/storage';
 import { ActivityType } from '@/types/activity';
+import { normalizeWeightValue } from '@/utils/weight';
 
 export interface ReminderSettings {
   enabled: boolean;
@@ -130,12 +131,6 @@ function getToday(): string {
   return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
 }
 
-function normalizeWeightKg(weightKg: number): number | null {
-  if (!Number.isFinite(weightKg)) return null;
-  if (weightKg < 20 || weightKg > 300) return null;
-  return Math.round(weightKg * 10) / 10;
-}
-
 // ─────────────────────────────────────
 // Store
 // ─────────────────────────────────────
@@ -213,7 +208,7 @@ export const useUserStore = create<UserState & UserActions>()(
           return;
         }
 
-        const normalized = normalizeWeightKg(goalKg);
+        const normalized = normalizeWeightValue(goalKg);
         if (normalized === null) return;
 
         set({ weightGoalKg: normalized });
@@ -223,7 +218,7 @@ export const useUserStore = create<UserState & UserActions>()(
        * 체중 기록 추가/수정 (같은 날짜면 업데이트)
        */
       upsertWeightLog: (date: string, weightKg: number) => {
-        const normalized = normalizeWeightKg(weightKg);
+        const normalized = normalizeWeightValue(weightKg);
         if (normalized === null) return;
 
         const now = new Date().toISOString();

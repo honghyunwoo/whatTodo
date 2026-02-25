@@ -27,3 +27,14 @@ export {
   getVoices,
   getEnglishVoices,
 } from './tts';
+export {
+  normalizeWeightValue,
+  parseWeightInput,
+  formatWeightDelta,
+  sortWeightLogs,
+  getWeightLogByDate,
+  getPreviousWeightLog,
+  calculateWeightDelta,
+  getRecentWeightLogs,
+  calculateRecentWeightDelta,
+} from './weight';
