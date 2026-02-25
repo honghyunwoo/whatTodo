@@ -15,11 +15,13 @@ import { useBackupStore } from '@/store/backupStore';
 
 export function BackupNotificationBanner() {
   const { colors } = useTheme();
-  const notifications = useBackupStore((state) => state.getActiveNotifications());
+  // Select a stable store slice. Calling an action in selector can allocate
+  // a new array each render and trigger useSyncExternalStore update loops.
+  const notifications = useBackupStore((state) => state.notifications);
   const dismissNotification = useBackupStore((state) => state.dismissNotification);
 
   // 가장 최근 에러 알림만 표시
-  const errorNotification = notifications.find((n) => n.type === 'error');
+  const errorNotification = notifications.find((n) => n.type === 'error' && !n.dismissed);
 
   if (!errorNotification) {
     return null;
