@@ -21,8 +21,16 @@ import { DayNoteSection } from '@/components/day/DayNoteSection';
 import { useTaskStore } from '@/store/taskStore';
 import { useJournalStore } from '@/store/journalStore';
 import { useDiaryStore } from '@/store/diaryStore';
+import { useUserStore } from '@/store/userStore';
 import { SIZES } from '@/constants/sizes';
 import { useTheme } from '@/contexts/ThemeContext';
+import {
+  calculateWeightDelta,
+  formatWeightDelta,
+  getPreviousWeightLog,
+  getWeightLogByDate,
+  sortWeightLogs,
+} from '@/utils/weight';
 
 /**
  * 날짜 포맷팅 (YYYY-MM-DD → 1월 15일 (수))
@@ -59,6 +67,25 @@ export default function DayPage() {
     if (!date) return null;
     return getDayData(date);
   }, [date]); // getDayData accesses stores internally
+
+  const weightLogs = useUserStore((state) => state.weightLogs);
+
+  const sortedWeightLogs = useMemo(() => sortWeightLogs(weightLogs), [weightLogs]);
+
+  const dayWeightLog = useMemo(() => {
+    if (!date) return undefined;
+    return getWeightLogByDate(sortedWeightLogs, date);
+  }, [sortedWeightLogs, date]);
+
+  const previousWeightLog = useMemo(() => {
+    if (!date) return undefined;
+    return getPreviousWeightLog(sortedWeightLogs, date);
+  }, [sortedWeightLogs, date]);
+
+  const dayWeightDelta = calculateWeightDelta(
+    dayWeightLog?.weightKg ?? null,
+    previousWeightLog?.weightKg ?? null
+  );
 
   if (!date || !dayData) {
     return (
@@ -113,6 +140,46 @@ export default function DayPage() {
             <Text style={[styles.sectionTitle, { color: colors.text }]}>오늘의 할 일</Text>
           </View>
           <DayTimeline todos={dayData.todos} date={date} />
+        </View>
+
+        {/* 체중 기록 */}
+        <View style={styles.section}>
+          <View style={styles.sectionHeader}>
+            <Ionicons name="fitness-outline" size={20} color={colors.text} />
+            <Text style={[styles.sectionTitle, { color: colors.text }]}>체중 기록</Text>
+          </View>
+          <View style={[styles.weightCard, { backgroundColor: isDark ? '#1C1C1E' : '#FFFFFF' }]}>
+            {dayWeightLog ? (
+              <>
+                <View style={styles.weightRow}>
+                  <Text style={[styles.weightLabel, { color: colors.textSecondary }]}>기록</Text>
+                  <Text style={[styles.weightValue, { color: colors.text }]}>
+                    {dayWeightLog.weightKg.toFixed(1)}kg
+                  </Text>
+                </View>
+                <View style={styles.weightRow}>
+                  <Text style={[styles.weightLabel, { color: colors.textSecondary }]}>
+                    전일 대비
+                  </Text>
+                  <Text
+                    style={[
+                      styles.weightValue,
+                      {
+                        color:
+                          dayWeightDelta !== null && dayWeightDelta < 0 ? '#16A34A' : colors.text,
+                      },
+                    ]}
+                  >
+                    {formatWeightDelta(dayWeightDelta)}
+                  </Text>
+                </View>
+              </>
+            ) : (
+              <Text style={[styles.weightEmpty, { color: colors.textSecondary }]}>
+                이 날 체중 기록이 없어요
+              </Text>
+            )}
+          </View>
         </View>
 
         {/* 한 줄 기록 */}
@@ -203,6 +270,28 @@ const styles = StyleSheet.create({
     paddingHorizontal: SIZES.spacing.md,
   },
   sectionTitle: {
+    fontSize: SIZES.fontSize.md,
+    fontWeight: '600',
+  },
+  weightCard: {
+    borderRadius: SIZES.borderRadius.md,
+    marginHorizontal: SIZES.spacing.md,
+    padding: SIZES.spacing.md,
+  },
+  weightEmpty: {
+    fontSize: SIZES.fontSize.sm,
+    lineHeight: 20,
+  },
+  weightLabel: {
+    fontSize: SIZES.fontSize.sm,
+  },
+  weightRow: {
+    alignItems: 'center',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingVertical: 2,
+  },
+  weightValue: {
     fontSize: SIZES.fontSize.md,
     fontWeight: '600',
   },

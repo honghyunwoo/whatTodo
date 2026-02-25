@@ -18,6 +18,7 @@ import { TodayEntry } from '@/components/today/TodayEntry';
 import { TodayExecutionCard } from '@/components/today/TodayExecutionCard';
 import { TodayTimeline } from '@/components/today/TodayTimeline';
 import { QuickStartCard } from '@/components/home/QuickStartCard';
+import { WeightReminderCard } from '@/components/home/WeightReminderCard';
 import { SrsWidget } from '@/components/home/SrsWidget';
 import { PackRecommendation } from '@/components/home/PackRecommendation';
 
@@ -42,6 +43,9 @@ export default function TodayScreen() {
 
         {/* 실행 고정 카드: Top3 + Next1 */}
         <TodayExecutionCard />
+
+        {/* 체중 미기록 리마인더 */}
+        <WeightReminderCard />
 
         {/* 퀵 학습 시작 카드 */}
         <QuickStartCard />
