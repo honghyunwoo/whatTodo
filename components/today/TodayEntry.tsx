@@ -114,6 +114,7 @@ export function TodayEntry() {
   const [feedback, setFeedback] = useState<null | 'saved' | 'empty'>(null);
 
   const config = ENTRY_TYPES[entryType];
+  const isQuickCaptureType = entryType !== 'diary';
 
   const recentSuggestions = useMemo(() => {
     if (entryType === 'todo') {
@@ -137,6 +138,7 @@ export function TodayEntry() {
       .map((entry) => entry.content.split('\n')[0] || entry.content);
     return collectUniqueRecent(recentDiaryTexts);
   }, [entryType, tasks, diaryEntries]);
+  const shouldShowRecentSuggestions = isExpanded && recentSuggestions.length > 0 && !text.trim();
 
   const handleFocus = useCallback(() => {
     setIsExpanded(true);
@@ -267,21 +269,29 @@ export function TodayEntry() {
           <View style={[styles.inputAccent, { backgroundColor: config.color }]} />
           <TextInput
             ref={inputRef}
-            style={[styles.input, isExpanded && styles.inputExpanded]}
+            style={[
+              styles.input,
+              isExpanded && styles.inputExpanded,
+              isQuickCaptureType && styles.inputQuick,
+            ]}
             placeholder={config.placeholder}
             placeholderTextColor={PALETTE.ink.light}
             value={text}
             onChangeText={setText}
             onFocus={handleFocus}
-            onSubmitEditing={handleSubmit}
-            multiline
-            returnKeyType="done"
+            onSubmitEditing={isQuickCaptureType ? handleSubmit : undefined}
+            multiline={!isQuickCaptureType}
+            returnKeyType={isQuickCaptureType ? 'done' : 'default'}
             blurOnSubmit={false}
-            textAlignVertical="top"
+            textAlignVertical={isQuickCaptureType ? 'center' : 'top'}
           />
         </View>
 
-        {isExpanded && recentSuggestions.length > 0 && (
+        {isExpanded && isQuickCaptureType && (
+          <Text style={styles.quickHint}>완료 키로 바로 저장</Text>
+        )}
+
+        {shouldShowRecentSuggestions && (
           <Animated.View entering={FadeIn.duration(220)} style={styles.recentSection}>
             <Text style={styles.recentLabel}>최근 입력</Text>
             <ScrollView
@@ -469,6 +479,15 @@ const styles = StyleSheet.create({
   },
   inputExpanded: {
     minHeight: 64,
+  },
+  inputQuick: {
+    minHeight: 48,
+  },
+  quickHint: {
+    color: PALETTE.ink.light,
+    fontSize: TYPOGRAPHY.size.xs,
+    marginTop: SPACE.xs,
+    marginLeft: SPACE.xs,
   },
   recentSection: {
     marginTop: SPACE.md,
